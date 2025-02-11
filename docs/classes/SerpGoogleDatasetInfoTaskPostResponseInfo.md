@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleDatasetInfoTaskPostResponseInfo
 
-Defined in: main.ts:59071
+Defined in: main.ts:59087
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:59071
 
 > **new SerpGoogleDatasetInfoTaskPostResponseInfo**(`data`?): [`SerpGoogleDatasetInfoTaskPostResponseInfo`](SerpGoogleDatasetInfoTaskPostResponseInfo.md)
 
-Defined in: main.ts:59077
+Defined in: main.ts:59093
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleDatasetInfoTaskPostTaskInfo`](SerpGoogleDatasetInfoTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:59073
+Defined in: main.ts:59089
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:59081
+Defined in: main.ts:59097
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:59081
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:59103
+Defined in: main.ts:59119
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:59103
 
 > `static` **fromJS**(`data`): [`SerpGoogleDatasetInfoTaskPostResponseInfo`](SerpGoogleDatasetInfoTaskPostResponseInfo.md)
 
-Defined in: main.ts:59096
+Defined in: main.ts:59112
 
 #### Parameters
 

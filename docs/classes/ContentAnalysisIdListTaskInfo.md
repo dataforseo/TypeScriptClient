@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisIdListTaskInfo
 
-Defined in: main.ts:176592
+Defined in: main.ts:176956
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:176592
 
 > **new ContentAnalysisIdListTaskInfo**(`data`?): [`ContentAnalysisIdListTaskInfo`](ContentAnalysisIdListTaskInfo.md)
 
-Defined in: main.ts:176598
+Defined in: main.ts:176962
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`ContentAnalysisIdListResultInfo`](ContentAnalysisIdListResultInfo.md)[]
 
-Defined in: main.ts:176594
+Defined in: main.ts:176958
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:176602
+Defined in: main.ts:176966
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:176602
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:176624
+Defined in: main.ts:176988
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:176624
 
 > `static` **fromJS**(`data`): [`ContentAnalysisIdListTaskInfo`](ContentAnalysisIdListTaskInfo.md)
 
-Defined in: main.ts:176617
+Defined in: main.ts:176981
 
 #### Parameters
 

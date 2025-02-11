@@ -6,7 +6,7 @@
 
 # Class: SerpSeznamLanguagesTaskInfo
 
-Defined in: main.ts:82600
+Defined in: main.ts:82636
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:82600
 
 > **new SerpSeznamLanguagesTaskInfo**(`data`?): [`SerpSeznamLanguagesTaskInfo`](SerpSeznamLanguagesTaskInfo.md)
 
-Defined in: main.ts:82606
+Defined in: main.ts:82642
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpSeznamLanguagesResultInfo`](SerpSeznamLanguagesResultInfo.md)[]
 
-Defined in: main.ts:82602
+Defined in: main.ts:82638
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:82610
+Defined in: main.ts:82646
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:82610
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:82632
+Defined in: main.ts:82668
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:82632
 
 > `static` **fromJS**(`data`): [`SerpSeznamLanguagesTaskInfo`](SerpSeznamLanguagesTaskInfo.md)
 
-Defined in: main.ts:82625
+Defined in: main.ts:82661
 
 #### Parameters
 

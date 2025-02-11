@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingAudienceEstimationLiveRequestInfo
 
-Defined in: main.ts:141038
+Defined in: main.ts:141202
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:141038
 
 > **new KeywordsDataBingAudienceEstimationLiveRequestInfo**(`data`?): [`KeywordsDataBingAudienceEstimationLiveRequestInfo`](KeywordsDataBingAudienceEstimationLiveRequestInfo.md)
 
-Defined in: main.ts:141084
+Defined in: main.ts:141248
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:141084
 
 > `optional` **age**: `string`[]
 
-Defined in: main.ts:141063
+Defined in: main.ts:141227
 
 selection of age ranges for targeting
 possible values: eighteen_to_twenty_four, fifty_to_sixty_four, sixty_five_and_above, thirteen_to_seventeen, thirty_five_to_forty_nine, twenty_five_to_thirty_four, unknown, zero_to_twelve
@@ -55,7 +55,7 @@ possible values: eighteen_to_twenty_four, fifty_to_sixty_four, sixty_five_and_ab
 
 > `optional` **bid**: `number`
 
-Defined in: main.ts:141066
+Defined in: main.ts:141230
 
 desired bid setting value in USD
 maximum value: 1000
@@ -70,7 +70,7 @@ maximum value: 1000
 
 > `optional` **daily\_budget**: `number`
 
-Defined in: main.ts:141069
+Defined in: main.ts:141233
 
 daily campaign budget value in USD
 maximum value: 10000
@@ -85,7 +85,7 @@ maximum value: 10000
 
 > `optional` **gender**: `string`[]
 
-Defined in: main.ts:141072
+Defined in: main.ts:141236
 
 gender to target
 possible values: male, female, unknown
@@ -100,7 +100,7 @@ possible values: male, female, unknown
 
 > `optional` **industry**: `string`[]
 
-Defined in: main.ts:141076
+Defined in: main.ts:141240
 
 industry of LinkedIn profile targeting
 if you use this field, you can receive the list of available industry names  with industry_id by making a separate request to the https://api.dataforseo.com/v3/keywords_data/bing/audience_estimation/industries
@@ -116,7 +116,7 @@ example: 806301758
 
 > `optional` **job\_function**: `string`[]
 
-Defined in: main.ts:141080
+Defined in: main.ts:141244
 
 job function of LinkedIn profile targeting
 if you use this field, you can receive the list of available job function names  with job_function_id by making a separate request to the https://api.dataforseo.com/v3/keywords_data/bing/audience_estimation/job_functions
@@ -132,7 +132,7 @@ example: 806300451
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:141052
+Defined in: main.ts:141216
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -151,7 +151,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:141060
+Defined in: main.ts:141224
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -171,7 +171,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:141045
+Defined in: main.ts:141209
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -190,7 +190,7 @@ London,England,United Kingdom
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:141093
+Defined in: main.ts:141257
 
 #### Parameters
 
@@ -208,7 +208,7 @@ Defined in: main.ts:141093
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:141134
+Defined in: main.ts:141298
 
 #### Parameters
 
@@ -226,7 +226,7 @@ Defined in: main.ts:141134
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingAudienceEstimationLiveRequestInfo`](KeywordsDataBingAudienceEstimationLiveRequestInfo.md)
 
-Defined in: main.ts:141127
+Defined in: main.ts:141291
 
 #### Parameters
 

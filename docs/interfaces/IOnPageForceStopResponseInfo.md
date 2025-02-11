@@ -6,7 +6,7 @@
 
 # Interface: IOnPageForceStopResponseInfo
 
-Defined in: main.ts:163839
+Defined in: main.ts:164003
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageForceStopTaskInfo`](../classes/OnPageForceStopTaskInfo.md)[]
 
-Defined in: main.ts:163841
+Defined in: main.ts:164005
 
 array of tasks
 

@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleHotelInfoTaskPostRequestInfo
 
-Defined in: main.ts:218342
+Defined in: main.ts:218844
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:218342
 
 > **new BusinessDataGoogleHotelInfoTaskPostRequestInfo**(`data`?): [`BusinessDataGoogleHotelInfoTaskPostRequestInfo`](BusinessDataGoogleHotelInfoTaskPostRequestInfo.md)
 
-Defined in: main.ts:218478
+Defined in: main.ts:218980
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:218478
 
 > `optional` **adults**: `number`
 
-Defined in: main.ts:218431
+Defined in: main.ts:218933
 
 number of adults
 optional field
@@ -58,7 +58,7 @@ example:
 
 > `optional` **check\_in**: `string`
 
-Defined in: main.ts:218411
+Defined in: main.ts:218913
 
 check-in date
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **check\_out**: `string`
 
-Defined in: main.ts:218420
+Defined in: main.ts:218922
 
 check-out date
 optional field
@@ -99,7 +99,7 @@ example:
 
 > `optional` **children**: `string`[]
 
-Defined in: main.ts:218439
+Defined in: main.ts:218941
 
 number and age of children
 optional field
@@ -119,7 +119,7 @@ set the following value if you want to include one 13-years-old child and one 8-
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:218425
+Defined in: main.ts:218927
 
 currency
 optional field
@@ -136,7 +136,7 @@ example:
 
 > `optional` **hotel\_identifier**: `string`
 
-Defined in: main.ts:218350
+Defined in: main.ts:218852
 
 unique hotel identifier
 required field if you don’t specify keyword
@@ -156,7 +156,7 @@ ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:218358
+Defined in: main.ts:218860
 
 keyword
 required field if you don’t specify hotel_identifier
@@ -176,7 +176,7 @@ if you need to use the “%” character for your keyword, please specify it as 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:218403
+Defined in: main.ts:218905
 
 search engine language code
 required field if you don’t specify language_name
@@ -195,7 +195,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:218396
+Defined in: main.ts:218898
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -214,7 +214,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:218380
+Defined in: main.ts:218882
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -233,7 +233,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:218389
+Defined in: main.ts:218891
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -254,7 +254,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:218373
+Defined in: main.ts:218875
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -273,7 +273,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:218474
+Defined in: main.ts:218976
 
 notification URL of a completed task
 optional field
@@ -297,7 +297,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:218462
+Defined in: main.ts:218964
 
 postback_url datatype
 required field if you specify postback_url
@@ -315,7 +315,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:218456
+Defined in: main.ts:218958
 
 return URL for sending task results
 optional field
@@ -338,7 +338,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:218366
+Defined in: main.ts:218868
 
 task priority
 optional field
@@ -358,7 +358,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:218445
+Defined in: main.ts:218947
 
 user-defined task identifier
 optional field
@@ -376,7 +376,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:218487
+Defined in: main.ts:218989
 
 #### Parameters
 
@@ -394,7 +394,7 @@ Defined in: main.ts:218487
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:218524
+Defined in: main.ts:219026
 
 #### Parameters
 
@@ -412,7 +412,7 @@ Defined in: main.ts:218524
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleHotelInfoTaskPostRequestInfo`](BusinessDataGoogleHotelInfoTaskPostRequestInfo.md)
 
-Defined in: main.ts:218517
+Defined in: main.ts:219019
 
 #### Parameters
 

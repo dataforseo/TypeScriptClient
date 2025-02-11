@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingSearchVolumeHistoryTaskPostTaskInfo
 
-Defined in: main.ts:146319
+Defined in: main.ts:146483
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:146322
+Defined in: main.ts:146486
 
 array of results
 in this case, the value will be null

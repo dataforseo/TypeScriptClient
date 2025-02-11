@@ -6,7 +6,7 @@
 
 # Class: AvailableLanguages
 
-Defined in: main.ts:91340
+Defined in: main.ts:91376
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:91340
 
 > **new AvailableLanguages**(`data`?): [`AvailableLanguages`](AvailableLanguages.md)
 
-Defined in: main.ts:91356
+Defined in: main.ts:91392
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:91356
 
 > `optional` **available\_sources**: `string`[]
 
-Defined in: main.ts:91344
+Defined in: main.ts:91380
 
 supported sources
 contains the sources of data supported for a specific location and language combination
@@ -56,7 +56,7 @@ only google and bing are currently available
 
 > `optional` **keywords**: `number`
 
-Defined in: main.ts:91350
+Defined in: main.ts:91386
 
 the number of keywords available for the given location and language
 
@@ -70,7 +70,7 @@ the number of keywords available for the given location and language
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:91348
+Defined in: main.ts:91384
 
 language code according to ISO 639-1
 
@@ -84,7 +84,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:91346
+Defined in: main.ts:91382
 
 language name
 
@@ -98,7 +98,7 @@ language name
 
 > `optional` **serps**: `number`
 
-Defined in: main.ts:91352
+Defined in: main.ts:91388
 
 the number of SERP pages available for the given location and language
 
@@ -112,7 +112,7 @@ the number of SERP pages available for the given location and language
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:91365
+Defined in: main.ts:91401
 
 #### Parameters
 
@@ -130,7 +130,7 @@ Defined in: main.ts:91365
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:91390
+Defined in: main.ts:91426
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:91390
 
 > `static` **fromJS**(`data`): [`AvailableLanguages`](AvailableLanguages.md)
 
-Defined in: main.ts:91383
+Defined in: main.ts:91419
 
 #### Parameters
 

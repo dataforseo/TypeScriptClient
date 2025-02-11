@@ -6,7 +6,7 @@
 
 # Class: SerpInfo
 
-Defined in: main.ts:92982
+Defined in: main.ts:93028
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:92982
 
 > **new SerpInfo**(`data`?): [`SerpInfo`](SerpInfo.md)
 
-Defined in: main.ts:93009
+Defined in: main.ts:93055
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:93009
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:92987
+Defined in: main.ts:93033
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **last\_updated\_time**: `string`
 
-Defined in: main.ts:93000
+Defined in: main.ts:93046
 
 date and time when backlink data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **previous\_updated\_time**: `string`
 
-Defined in: main.ts:93005
+Defined in: main.ts:93051
 
 previous to the most recent date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -89,7 +89,7 @@ example:
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:92995
+Defined in: main.ts:93041
 
 number of search results for the returned keyword
 
@@ -103,7 +103,7 @@ number of search results for the returned keyword
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:92984
+Defined in: main.ts:93030
 
 search engine type
 
@@ -117,7 +117,7 @@ search engine type
 
 > `optional` **serp\_item\_types**: `string`[]
 
-Defined in: main.ts:92993
+Defined in: main.ts:93039
 
 types of search results in SERP
 contains types of search results (items) found in SERP
@@ -135,7 +135,7 @@ note that the actual results will be returned only for organic, paid, featured_s
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:93018
+Defined in: main.ts:93064
 
 #### Parameters
 
@@ -153,7 +153,7 @@ Defined in: main.ts:93018
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:93044
+Defined in: main.ts:93090
 
 #### Parameters
 
@@ -171,7 +171,7 @@ Defined in: main.ts:93044
 
 > `static` **fromJS**(`data`): [`SerpInfo`](SerpInfo.md)
 
-Defined in: main.ts:93037
+Defined in: main.ts:93083
 
 #### Parameters
 

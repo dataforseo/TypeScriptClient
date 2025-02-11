@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingRelatedKeywordsLiveResponseInfo
 
-Defined in: main.ts:119233
+Defined in: main.ts:119325
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:119233
 
 > **new DataforseoLabsBingRelatedKeywordsLiveResponseInfo**(`data`?): [`DataforseoLabsBingRelatedKeywordsLiveResponseInfo`](DataforseoLabsBingRelatedKeywordsLiveResponseInfo.md)
 
-Defined in: main.ts:119239
+Defined in: main.ts:119331
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsBingRelatedKeywordsLiveTaskInfo`](DataforseoLabsBingRelatedKeywordsLiveTaskInfo.md)[]
 
-Defined in: main.ts:119235
+Defined in: main.ts:119327
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:119243
+Defined in: main.ts:119335
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:119243
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:119265
+Defined in: main.ts:119357
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:119265
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingRelatedKeywordsLiveResponseInfo`](DataforseoLabsBingRelatedKeywordsLiveResponseInfo.md)
 
-Defined in: main.ts:119258
+Defined in: main.ts:119350
 
 #### Parameters
 

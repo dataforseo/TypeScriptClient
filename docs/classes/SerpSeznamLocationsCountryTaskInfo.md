@@ -6,7 +6,7 @@
 
 # Class: SerpSeznamLocationsCountryTaskInfo
 
-Defined in: main.ts:82434
+Defined in: main.ts:82470
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:82434
 
 > **new SerpSeznamLocationsCountryTaskInfo**(`data`?): [`SerpSeznamLocationsCountryTaskInfo`](SerpSeznamLocationsCountryTaskInfo.md)
 
-Defined in: main.ts:82440
+Defined in: main.ts:82476
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpSeznamLocationsCountryResultInfo`](SerpSeznamLocationsCountryResultInfo.md)[]
 
-Defined in: main.ts:82436
+Defined in: main.ts:82472
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:82444
+Defined in: main.ts:82480
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:82444
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:82466
+Defined in: main.ts:82502
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:82466
 
 > `static` **fromJS**(`data`): [`SerpSeznamLocationsCountryTaskInfo`](SerpSeznamLocationsCountryTaskInfo.md)
 
-Defined in: main.ts:82459
+Defined in: main.ts:82495
 
 #### Parameters
 

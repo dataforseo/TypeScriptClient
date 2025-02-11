@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingBulkKeywordDifficultyLiveTaskInfo
 
-Defined in: main.ts:115530
+Defined in: main.ts:115598
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:115530
 
 > **new DataforseoLabsBingBulkKeywordDifficultyLiveTaskInfo**(`data`?): [`DataforseoLabsBingBulkKeywordDifficultyLiveTaskInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveTaskInfo.md)
 
-Defined in: main.ts:115536
+Defined in: main.ts:115604
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md)[]
 
-Defined in: main.ts:115532
+Defined in: main.ts:115600
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:115540
+Defined in: main.ts:115608
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:115540
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:115562
+Defined in: main.ts:115630
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:115562
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingBulkKeywordDifficultyLiveTaskInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveTaskInfo.md)
 
-Defined in: main.ts:115555
+Defined in: main.ts:115623
 
 #### Parameters
 

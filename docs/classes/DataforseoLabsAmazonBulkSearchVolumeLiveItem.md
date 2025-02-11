@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonBulkSearchVolumeLiveItem
 
-Defined in: main.ts:112014
+Defined in: main.ts:112082
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:112014
 
 > **new DataforseoLabsAmazonBulkSearchVolumeLiveItem**(`data`?): [`DataforseoLabsAmazonBulkSearchVolumeLiveItem`](DataforseoLabsAmazonBulkSearchVolumeLiveItem.md)
 
-Defined in: main.ts:112025
+Defined in: main.ts:112093
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:112025
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:112018
+Defined in: main.ts:112086
 
 keyword in a POST array
 
@@ -54,7 +54,7 @@ keyword in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:112016
+Defined in: main.ts:112084
 
 search engine type
 
@@ -68,7 +68,7 @@ search engine type
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:112021
+Defined in: main.ts:112089
 
 average monthly search volume rate
 represents the (approximate) number of searches for the returned keyword on Amazon
@@ -83,7 +83,7 @@ represents the (approximate) number of searches for the returned keyword on Amaz
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:112034
+Defined in: main.ts:112102
 
 #### Parameters
 
@@ -101,7 +101,7 @@ Defined in: main.ts:112034
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:112053
+Defined in: main.ts:112121
 
 #### Parameters
 
@@ -119,7 +119,7 @@ Defined in: main.ts:112053
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAmazonBulkSearchVolumeLiveItem`](DataforseoLabsAmazonBulkSearchVolumeLiveItem.md)
 
-Defined in: main.ts:112046
+Defined in: main.ts:112114
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo
 
-Defined in: main.ts:86752
+Defined in: main.ts:86788
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:86752
 
 > **new DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo**(`data`?): [`DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md)
 
-Defined in: main.ts:86768
+Defined in: main.ts:86804
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:86768
 
 > `optional` **content\_languages**: `object`
 
-Defined in: main.ts:86761
+Defined in: main.ts:86797
 
 distribution of websites by content language
 contains content language codes and number of websites per language
@@ -59,7 +59,7 @@ contains content language codes and number of websites per language
 
 > `optional` **countries**: `object`
 
-Defined in: main.ts:86755
+Defined in: main.ts:86791
 
 distribution of websites by country
 contains country codes and number of websites per country
@@ -78,7 +78,7 @@ contains country codes and number of websites per country
 
 > `optional` **keywords**: `object`
 
-Defined in: main.ts:86764
+Defined in: main.ts:86800
 
 distribution of websites by keywords
 contains keywords found in the websites’ titles, descriptions or meta keywords, and number of websites using each keyword
@@ -97,7 +97,7 @@ contains keywords found in the websites’ titles, descriptions or meta keywords
 
 > `optional` **languages**: `object`
 
-Defined in: main.ts:86758
+Defined in: main.ts:86794
 
 distribution of websites by language
 contains language codes and number of websites per language
@@ -116,7 +116,7 @@ contains language codes and number of websites per language
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:86777
+Defined in: main.ts:86813
 
 #### Parameters
 
@@ -134,7 +134,7 @@ Defined in: main.ts:86777
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:86821
+Defined in: main.ts:86857
 
 #### Parameters
 
@@ -152,7 +152,7 @@ Defined in: main.ts:86821
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md)
 
-Defined in: main.ts:86814
+Defined in: main.ts:86850
 
 #### Parameters
 

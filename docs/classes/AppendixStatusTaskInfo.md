@@ -6,7 +6,7 @@
 
 # Class: AppendixStatusTaskInfo
 
-Defined in: main.ts:239618
+Defined in: main.ts:240046
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:239618
 
 > **new AppendixStatusTaskInfo**(`data`?): [`AppendixStatusTaskInfo`](AppendixStatusTaskInfo.md)
 
-Defined in: main.ts:239624
+Defined in: main.ts:240052
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`AppendixStatusResultInfo`](AppendixStatusResultInfo.md)[]
 
-Defined in: main.ts:239620
+Defined in: main.ts:240048
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:239628
+Defined in: main.ts:240056
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:239628
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:239650
+Defined in: main.ts:240078
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:239650
 
 > `static` **fromJS**(`data`): [`AppendixStatusTaskInfo`](AppendixStatusTaskInfo.md)
 
-Defined in: main.ts:239643
+Defined in: main.ts:240071
 
 #### Parameters
 

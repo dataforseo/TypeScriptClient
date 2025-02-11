@@ -6,7 +6,7 @@
 
 # Class: StylesheetResourceElementItem
 
-Defined in: main.ts:167954
+Defined in: main.ts:168118
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:167954
 
 > **new StylesheetResourceElementItem**(`data`?): [`StylesheetResourceElementItem`](StylesheetResourceElementItem.md)
 
-Defined in: main.ts:167982
+Defined in: main.ts:168146
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22339
 
 > `optional` **accept\_type**: `string`
 
-Defined in: main.ts:167966
+Defined in: main.ts:168130
 
 indicates the expected type of resource
 for example, if "resource_type": "broken", accept_type will indicate the type of the broken resource
@@ -136,7 +136,7 @@ type of encoding
 
 > `optional` **duration\_time**: `number`
 
-Defined in: main.ts:167970
+Defined in: main.ts:168134
 
 total time it takes until a browser receives a complete response from a server (in milliseconds)
 
@@ -169,7 +169,7 @@ indicates the size of the encoded page measured in bytes
 
 > `optional` **fetch\_end**: `number`
 
-Defined in: main.ts:167976
+Defined in: main.ts:168140
 
 time to complete downloading the resource
 the amount of time the browser needs to complete downloading a resource
@@ -184,7 +184,7 @@ the amount of time the browser needs to complete downloading a resource
 
 > `optional` **fetch\_start**: `number`
 
-Defined in: main.ts:167973
+Defined in: main.ts:168137
 
 time to start downloading the resource
 the amount of time the browser needs to start downloading a resource
@@ -220,7 +220,7 @@ example:
 
 > `optional` **fetch\_timing**: [`FetchTiming`](FetchTiming.md)
 
-Defined in: main.ts:167961
+Defined in: main.ts:168125
 
 resource fething time range
 
@@ -234,7 +234,7 @@ resource fething time range
 
 > `optional` **initiator**: `string`
 
-Defined in: main.ts:167968
+Defined in: main.ts:168132
 
 resource initiator
 
@@ -248,7 +248,7 @@ resource initiator
 
 > `optional` **is\_render\_blocking**: `boolean`
 
-Defined in: main.ts:167978
+Defined in: main.ts:168142
 
 indicates whether the resource blocks rendering
 
@@ -318,7 +318,7 @@ types of media used to display a page
 
 > `optional` **meta**: [`ResourceMetaInfo`](ResourceMetaInfo.md)
 
-Defined in: main.ts:167959
+Defined in: main.ts:168123
 
 resource properties
 the value depends on the resource_type
@@ -463,7 +463,7 @@ page URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:167987
+Defined in: main.ts:168151
 
 #### Parameters
 
@@ -485,7 +485,7 @@ Defined in: main.ts:167987
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:168012
+Defined in: main.ts:168176
 
 #### Parameters
 
@@ -507,7 +507,7 @@ Defined in: main.ts:168012
 
 > `static` **fromJS**(`data`): [`StylesheetResourceElementItem`](StylesheetResourceElementItem.md)
 
-Defined in: main.ts:168005
+Defined in: main.ts:168169
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleAdsAdvertisersLocationsResponseInfo
 
-Defined in: main.ts:60319
+Defined in: main.ts:60335
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:60319
 
 > **new SerpGoogleAdsAdvertisersLocationsResponseInfo**(`data`?): [`SerpGoogleAdsAdvertisersLocationsResponseInfo`](SerpGoogleAdsAdvertisersLocationsResponseInfo.md)
 
-Defined in: main.ts:60325
+Defined in: main.ts:60341
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleAdsAdvertisersLocationsTaskInfo`](SerpGoogleAdsAdvertisersLocationsTaskInfo.md)[]
 
-Defined in: main.ts:60321
+Defined in: main.ts:60337
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:60329
+Defined in: main.ts:60345
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:60329
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:60351
+Defined in: main.ts:60367
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:60351
 
 > `static` **fromJS**(`data`): [`SerpGoogleAdsAdvertisersLocationsResponseInfo`](SerpGoogleAdsAdvertisersLocationsResponseInfo.md)
 
-Defined in: main.ts:60344
+Defined in: main.ts:60360
 
 #### Parameters
 

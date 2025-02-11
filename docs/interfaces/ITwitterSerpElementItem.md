@@ -6,7 +6,7 @@
 
 # Interface: ITwitterSerpElementItem
 
-Defined in: main.ts:32404
+Defined in: main.ts:32412
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:32404
 
 > `optional` **items**: [`TwitterElement`](../classes/TwitterElement.md)[]
 
-Defined in: main.ts:32410
+Defined in: main.ts:32418
 
 contains arrays of specific images
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:32414
+Defined in: main.ts:32422
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -91,7 +91,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:32406
+Defined in: main.ts:32414
 
 title of the row
 
@@ -115,7 +115,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:32408
+Defined in: main.ts:32416
 
 source URL
 

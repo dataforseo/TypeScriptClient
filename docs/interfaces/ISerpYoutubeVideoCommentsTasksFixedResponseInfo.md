@@ -6,7 +6,7 @@
 
 # Interface: ISerpYoutubeVideoCommentsTasksFixedResponseInfo
 
-Defined in: main.ts:73795
+Defined in: main.ts:73831
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpYoutubeVideoCommentsTasksFixedTaskInfo`](../classes/SerpYoutubeVideoCommentsTasksFixedTaskInfo.md)[]
 
-Defined in: main.ts:73797
+Defined in: main.ts:73833
 
 array of tasks
 

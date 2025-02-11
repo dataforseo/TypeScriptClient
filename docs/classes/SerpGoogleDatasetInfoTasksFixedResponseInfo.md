@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleDatasetInfoTasksFixedResponseInfo
 
-Defined in: main.ts:59495
+Defined in: main.ts:59511
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:59495
 
 > **new SerpGoogleDatasetInfoTasksFixedResponseInfo**(`data`?): [`SerpGoogleDatasetInfoTasksFixedResponseInfo`](SerpGoogleDatasetInfoTasksFixedResponseInfo.md)
 
-Defined in: main.ts:59501
+Defined in: main.ts:59517
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleDatasetInfoTasksFixedTaskInfo`](SerpGoogleDatasetInfoTasksFixedTaskInfo.md)[]
 
-Defined in: main.ts:59497
+Defined in: main.ts:59513
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:59505
+Defined in: main.ts:59521
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:59505
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:59527
+Defined in: main.ts:59543
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:59527
 
 > `static` **fromJS**(`data`): [`SerpGoogleDatasetInfoTasksFixedResponseInfo`](SerpGoogleDatasetInfoTasksFixedResponseInfo.md)
 
-Defined in: main.ts:59520
+Defined in: main.ts:59536
 
 #### Parameters
 

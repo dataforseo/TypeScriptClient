@@ -6,7 +6,7 @@
 
 # Interface: IMerchantIdListRequestInfo
 
-Defined in: main.ts:184093
+Defined in: main.ts:184455
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:184093
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:184101
+Defined in: main.ts:184463
 
 start time for filtering results
 required field
@@ -34,7 +34,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:184108
+Defined in: main.ts:184470
 
 finish time for filtering results
 required field
@@ -49,7 +49,7 @@ example:
 
 > `optional` **include\_metadata**: `boolean`
 
-Defined in: main.ts:184127
+Defined in: main.ts:184489
 
 include task metadata in the respond
 optional field
@@ -61,7 +61,7 @@ default value: false
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:184113
+Defined in: main.ts:184475
 
 the maximum number of returned task IDs
 optional field
@@ -74,7 +74,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:184118
+Defined in: main.ts:184480
 
 offset in the results array of returned task IDs
 optional field
@@ -87,7 +87,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > `optional` **sort**: `string`
 
-Defined in: main.ts:184123
+Defined in: main.ts:184485
 
 sorting by task execution time
 optional field

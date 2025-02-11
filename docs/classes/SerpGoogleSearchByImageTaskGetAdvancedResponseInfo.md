@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleSearchByImageTaskGetAdvancedResponseInfo
 
-Defined in: main.ts:53607
+Defined in: main.ts:53623
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:53607
 
 > **new SerpGoogleSearchByImageTaskGetAdvancedResponseInfo**(`data`?): [`SerpGoogleSearchByImageTaskGetAdvancedResponseInfo`](SerpGoogleSearchByImageTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:53613
+Defined in: main.ts:53629
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleSearchByImageTaskGetAdvancedTaskInfo`](SerpGoogleSearchByImageTaskGetAdvancedTaskInfo.md)[]
 
-Defined in: main.ts:53609
+Defined in: main.ts:53625
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:53617
+Defined in: main.ts:53633
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:53617
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:53639
+Defined in: main.ts:53655
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:53639
 
 > `static` **fromJS**(`data`): [`SerpGoogleSearchByImageTaskGetAdvancedResponseInfo`](SerpGoogleSearchByImageTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:53632
+Defined in: main.ts:53648
 
 #### Parameters
 

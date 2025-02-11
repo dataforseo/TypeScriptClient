@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataTripadvisorLocationsCountryResponseInfo
 
-Defined in: main.ts:227529
+Defined in: main.ts:228037
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BusinessDataTripadvisorLocationsCountryTaskInfo`](../classes/BusinessDataTripadvisorLocationsCountryTaskInfo.md)[]
 
-Defined in: main.ts:227531
+Defined in: main.ts:228039
 
 array of tasks
 

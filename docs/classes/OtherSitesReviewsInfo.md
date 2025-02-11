@@ -6,7 +6,7 @@
 
 # Class: OtherSitesReviewsInfo
 
-Defined in: main.ts:219562
+Defined in: main.ts:220070
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:219562
 
 > **new OtherSitesReviewsInfo**(`data`?): [`OtherSitesReviewsInfo`](OtherSitesReviewsInfo.md)
 
-Defined in: main.ts:219578
+Defined in: main.ts:220086
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:219578
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:219574
+Defined in: main.ts:220082
 
 rating in the review
 information about the rating enclosed in the review on a third-party site
@@ -55,7 +55,7 @@ information about the rating enclosed in the review on a third-party site
 
 > `optional` **review\_text**: `string`
 
-Defined in: main.ts:219571
+Defined in: main.ts:220079
 
 review text
 text of the review
@@ -70,7 +70,7 @@ text of the review
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:219565
+Defined in: main.ts:220073
 
 review title
 contains a name of the third-party site where review initially appeared
@@ -85,7 +85,7 @@ contains a name of the third-party site where review initially appeared
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:219568
+Defined in: main.ts:220076
 
 review url
 URL to the a third-party site where review initially appeared
@@ -100,7 +100,7 @@ URL to the a third-party site where review initially appeared
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:219587
+Defined in: main.ts:220095
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:219587
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:219607
+Defined in: main.ts:220115
 
 #### Parameters
 
@@ -136,7 +136,7 @@ Defined in: main.ts:219607
 
 > `static` **fromJS**(`data`): [`OtherSitesReviewsInfo`](OtherSitesReviewsInfo.md)
 
-Defined in: main.ts:219600
+Defined in: main.ts:220108
 
 #### Parameters
 

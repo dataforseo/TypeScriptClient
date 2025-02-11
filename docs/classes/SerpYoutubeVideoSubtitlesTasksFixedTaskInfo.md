@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeVideoSubtitlesTasksFixedTaskInfo
 
-Defined in: main.ts:72084
+Defined in: main.ts:72120
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:72084
 
 > **new SerpYoutubeVideoSubtitlesTasksFixedTaskInfo**(`data`?): [`SerpYoutubeVideoSubtitlesTasksFixedTaskInfo`](SerpYoutubeVideoSubtitlesTasksFixedTaskInfo.md)
 
-Defined in: main.ts:72090
+Defined in: main.ts:72126
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpYoutubeVideoSubtitlesTasksFixedResultInfo`](SerpYoutubeVideoSubtitlesTasksFixedResultInfo.md)[]
 
-Defined in: main.ts:72086
+Defined in: main.ts:72122
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:72094
+Defined in: main.ts:72130
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:72094
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:72116
+Defined in: main.ts:72152
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:72116
 
 > `static` **fromJS**(`data`): [`SerpYoutubeVideoSubtitlesTasksFixedTaskInfo`](SerpYoutubeVideoSubtitlesTasksFixedTaskInfo.md)
 
-Defined in: main.ts:72109
+Defined in: main.ts:72145
 
 #### Parameters
 

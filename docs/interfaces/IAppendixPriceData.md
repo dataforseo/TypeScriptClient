@@ -6,7 +6,7 @@
 
 # Interface: IAppendixPriceData
 
-Defined in: main.ts:238893
+Defined in: main.ts:239321
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:238893
 
 > `optional` **app\_data**: [`AppendixAppDataPriceData`](../classes/AppendixAppDataPriceData.md)
 
-Defined in: main.ts:238898
+Defined in: main.ts:239326
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:238898
 
 > `optional` **appendix**: [`AppendixAppendixPriceData`](../classes/AppendixAppendixPriceData.md)
 
-Defined in: main.ts:238897
+Defined in: main.ts:239325
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:238897
 
 > `optional` **backlinks**: [`AppendixBacklinksPriceData`](../classes/AppendixBacklinksPriceData.md)
 
-Defined in: main.ts:238899
+Defined in: main.ts:239327
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: main.ts:238899
 
 > `optional` **business\_data**: [`AppendixBusinessDataPriceData`](../classes/AppendixBusinessDataPriceData.md)
 
-Defined in: main.ts:238900
+Defined in: main.ts:239328
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:238900
 
 > `optional` **content\_analysis**: [`AppendixContentAnalysisPriceData`](../classes/AppendixContentAnalysisPriceData.md)
 
-Defined in: main.ts:238901
+Defined in: main.ts:239329
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: main.ts:238901
 
 > `optional` **content\_generation**: [`AppendixContentGenerationPriceData`](../classes/AppendixContentGenerationPriceData.md)
 
-Defined in: main.ts:238902
+Defined in: main.ts:239330
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: main.ts:238902
 
 > `optional` **dataforseo\_labs**: [`AppendixDataforseoLabsPriceData`](../classes/AppendixDataforseoLabsPriceData.md)
 
-Defined in: main.ts:238903
+Defined in: main.ts:239331
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: main.ts:238903
 
 > `optional` **domain\_analytics**: [`AppendixDomainAnalyticsPriceData`](../classes/AppendixDomainAnalyticsPriceData.md)
 
-Defined in: main.ts:238904
+Defined in: main.ts:239332
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: main.ts:238904
 
 > `optional` **keywords\_data**: [`AppendixKeywordsDataPriceData`](../classes/AppendixKeywordsDataPriceData.md)
 
-Defined in: main.ts:238894
+Defined in: main.ts:239322
 
 ***
 
@@ -90,7 +90,7 @@ Defined in: main.ts:238894
 
 > `optional` **merchant**: [`AppendixMerchantPriceData`](../classes/AppendixMerchantPriceData.md)
 
-Defined in: main.ts:238895
+Defined in: main.ts:239323
 
 ***
 
@@ -98,7 +98,7 @@ Defined in: main.ts:238895
 
 > `optional` **on\_page**: [`AppendixOnPagePriceData`](../classes/AppendixOnPagePriceData.md)
 
-Defined in: main.ts:238905
+Defined in: main.ts:239333
 
 ***
 
@@ -106,4 +106,4 @@ Defined in: main.ts:238905
 
 > `optional` **serp**: [`AppendixSerpPriceData`](../classes/AppendixSerpPriceData.md)
 
-Defined in: main.ts:238896
+Defined in: main.ts:239324

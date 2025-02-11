@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataGoogleTrendsExploreTaskGetResponseInfo
 
-Defined in: main.ts:134647
+Defined in: main.ts:134787
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataGoogleTrendsExploreTaskGetTaskInfo`](../classes/KeywordsDataGoogleTrendsExploreTaskGetTaskInfo.md)[]
 
-Defined in: main.ts:134649
+Defined in: main.ts:134789
 
 array of tasks
 

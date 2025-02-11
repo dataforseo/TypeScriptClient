@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
 
-Defined in: main.ts:211965
+Defined in: main.ts:212467
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:211965
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:211971
+Defined in: main.ts:212473
 
 business categories
 optional field
@@ -32,7 +32,7 @@ you can specify up to 10 categories
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:211976
+Defined in: main.ts:212478
 
 description of the element in SERP
 optional field
@@ -45,14 +45,14 @@ can contain up to 200 characters
 
 > `optional` **initial\_dataset\_filters**: `any`[]
 
-Defined in: main.ts:212004
+Defined in: main.ts:212506
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like, match, not_match
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["rating.value",">",3]
@@ -64,7 +64,7 @@ you can receive the list of available filters by making a separate request to h
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:212009
+Defined in: main.ts:212511
 
 maximum number of elements within internal arrays
 optional field
@@ -77,7 +77,7 @@ default value: 10
 
 > `optional` **is\_claimed**: `boolean`
 
-Defined in: main.ts:211984
+Defined in: main.ts:212486
 
 indicates whether the business is verified by its owner on Google Maps
 optional field
@@ -88,7 +88,7 @@ optional field
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:212014
+Defined in: main.ts:212516
 
 the maximum number of returned businesses
 optional field
@@ -101,7 +101,7 @@ maximum value: 1000
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:211993
+Defined in: main.ts:212495
 
 GPS coordinates of a location
 optional field
@@ -118,7 +118,7 @@ example:
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:212017
+Defined in: main.ts:212519
 
 the maximum number of returned businesses
 optional field
@@ -129,7 +129,7 @@ optional field
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:212023
+Defined in: main.ts:212525
 
 user-defined task identifier
 optional field
@@ -143,7 +143,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:211981
+Defined in: main.ts:212483
 
 title of the element in SERP
 optional field

@@ -6,7 +6,7 @@
 
 # Interface: ISerpBingOrganicTasksFixedResultInfo
 
-Defined in: main.ts:64149
+Defined in: main.ts:64179
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:64149
 
 > `optional` **date\_fixed**: `string`
 
-Defined in: main.ts:64159
+Defined in: main.ts:64189
 
 date when the task was fixed (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was fixed (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:64167
+Defined in: main.ts:64197
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -39,7 +39,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:64170
+Defined in: main.ts:64200
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -50,7 +50,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:64164
+Defined in: main.ts:64194
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -61,7 +61,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:64152
+Defined in: main.ts:64182
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:64154
+Defined in: main.ts:64184
 
 search engine specified when setting the task
 
@@ -82,7 +82,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:64157
+Defined in: main.ts:64187
 
 type of search engine
 can take the following values: organic
@@ -93,6 +93,6 @@ can take the following values: organic
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:64161
+Defined in: main.ts:64191
 
 user-defined task identifier

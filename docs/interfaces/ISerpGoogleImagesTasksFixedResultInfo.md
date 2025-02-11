@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleImagesTasksFixedResultInfo
 
-Defined in: main.ts:50593
+Defined in: main.ts:50609
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:50593
 
 > `optional` **date\_fixed**: `string`
 
-Defined in: main.ts:50603
+Defined in: main.ts:50619
 
 date when the task was fixed (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was fixed (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:50611
+Defined in: main.ts:50627
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -39,7 +39,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:50614
+Defined in: main.ts:50630
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -50,7 +50,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:50608
+Defined in: main.ts:50624
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -61,7 +61,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:50596
+Defined in: main.ts:50612
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:50598
+Defined in: main.ts:50614
 
 search engine specified when setting the task
 
@@ -82,7 +82,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:50601
+Defined in: main.ts:50617
 
 type of search engine
 can take the following values: images
@@ -93,6 +93,6 @@ can take the following values: images
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:50605
+Defined in: main.ts:50621
 
 user-defined task identifier

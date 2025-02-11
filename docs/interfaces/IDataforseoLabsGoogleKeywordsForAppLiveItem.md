@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleKeywordsForAppLiveItem
 
-Defined in: main.ts:121773
+Defined in: main.ts:121889
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:121773
 
 > `optional` **keyword\_data**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)
 
-Defined in: main.ts:121777
+Defined in: main.ts:121893
 
 keyword data for the returned keyword
 
@@ -28,7 +28,7 @@ keyword data for the returned keyword
 
 > `optional` **ranked\_serp\_element**: [`AppRankedSerpElementInfo`](../classes/AppRankedSerpElementInfo.md)
 
-Defined in: main.ts:121779
+Defined in: main.ts:121895
 
 contains data on the domain’s SERP element found for the returned keyword
 
@@ -38,6 +38,6 @@ contains data on the domain’s SERP element found for the returned keyword
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:121775
+Defined in: main.ts:121891
 
 search engine type

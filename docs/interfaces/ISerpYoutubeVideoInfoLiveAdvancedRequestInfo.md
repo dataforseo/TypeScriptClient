@@ -6,7 +6,7 @@
 
 # Interface: ISerpYoutubeVideoInfoLiveAdvancedRequestInfo
 
-Defined in: main.ts:71102
+Defined in: main.ts:71138
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:71102
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:71140
+Defined in: main.ts:71176
 
 device type
 optional field
@@ -30,7 +30,7 @@ only value: desktop
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:71136
+Defined in: main.ts:71172
 
 search engine language code
 required field if you don’t specify language_name
@@ -45,7 +45,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:71129
+Defined in: main.ts:71165
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -60,7 +60,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:71122
+Defined in: main.ts:71158
 
 search engine location code
 required field if you don’t specify location_name 
@@ -75,7 +75,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:71115
+Defined in: main.ts:71151
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -90,7 +90,7 @@ United States
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:71145
+Defined in: main.ts:71181
 
 device operating system
 optional field
@@ -103,7 +103,7 @@ default value: windows
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:71151
+Defined in: main.ts:71187
 
 user-defined task identifier
 optional field
@@ -117,7 +117,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **video\_id**: `string`
 
-Defined in: main.ts:71108
+Defined in: main.ts:71144
 
 ID of the video
 required field

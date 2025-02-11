@@ -6,7 +6,7 @@
 
 # Class: GoogleHotelsSerpElementItem
 
-Defined in: main.ts:36093
+Defined in: main.ts:36109
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:36093
 
 > **new GoogleHotelsSerpElementItem**(`data`?): [`GoogleHotelsSerpElementItem`](GoogleHotelsSerpElementItem.md)
 
-Defined in: main.ts:36109
+Defined in: main.ts:36125
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:36101
+Defined in: main.ts:36117
 
 google-defined client id
 
@@ -74,7 +74,7 @@ google-defined client id
 
 > `optional` **hotel\_identifier**: `string`
 
-Defined in: main.ts:36097
+Defined in: main.ts:36113
 
 unique hotel identifier
 unique hotel identifier assigned by Google;
@@ -149,7 +149,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:36105
+Defined in: main.ts:36121
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -183,7 +183,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:36099
+Defined in: main.ts:36115
 
 source URL
 
@@ -215,7 +215,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:36114
+Defined in: main.ts:36130
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:36114
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:36135
+Defined in: main.ts:36151
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:36135
 
 > `static` **fromJS**(`data`): [`GoogleHotelsSerpElementItem`](GoogleHotelsSerpElementItem.md)
 
-Defined in: main.ts:36128
+Defined in: main.ts:36144
 
 #### Parameters
 

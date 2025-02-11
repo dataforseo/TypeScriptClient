@@ -6,7 +6,7 @@
 
 # Interface: IBaseYoutubeSerpElementItem
 
-Defined in: main.ts:70522
+Defined in: main.ts:70558
 
 ## Extended by
 
@@ -20,7 +20,7 @@ Defined in: main.ts:70522
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:70531
+Defined in: main.ts:70567
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -31,7 +31,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:70528
+Defined in: main.ts:70564
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -43,6 +43,6 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:70524
+Defined in: main.ts:70560
 
 type of element

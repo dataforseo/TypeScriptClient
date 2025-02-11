@@ -6,7 +6,7 @@
 
 # Class: RecipesSerpElementItem
 
-Defined in: main.ts:34277
+Defined in: main.ts:34293
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:34277
 
 > **new RecipesSerpElementItem**(`data`?): [`RecipesSerpElementItem`](RecipesSerpElementItem.md)
 
-Defined in: main.ts:34287
+Defined in: main.ts:34303
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`RecipesElement`](RecipesElement.md)[]
 
-Defined in: main.ts:34279
+Defined in: main.ts:34295
 
 contains arrays of specific images
 
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:34283
+Defined in: main.ts:34299
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -185,7 +185,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:34292
+Defined in: main.ts:34308
 
 #### Parameters
 
@@ -207,7 +207,7 @@ Defined in: main.ts:34292
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:34315
+Defined in: main.ts:34331
 
 #### Parameters
 
@@ -229,7 +229,7 @@ Defined in: main.ts:34315
 
 > `static` **fromJS**(`data`): [`RecipesSerpElementItem`](RecipesSerpElementItem.md)
 
-Defined in: main.ts:34308
+Defined in: main.ts:34324
 
 #### Parameters
 

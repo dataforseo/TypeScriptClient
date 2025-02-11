@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleLanguagesResponseInfo
 
-Defined in: main.ts:212933
+Defined in: main.ts:213435
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:212933
 
 > **new BusinessDataGoogleLanguagesResponseInfo**(`data`?): [`BusinessDataGoogleLanguagesResponseInfo`](BusinessDataGoogleLanguagesResponseInfo.md)
 
-Defined in: main.ts:212939
+Defined in: main.ts:213441
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BusinessDataGoogleLanguagesTaskInfo`](BusinessDataGoogleLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:212935
+Defined in: main.ts:213437
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:212943
+Defined in: main.ts:213445
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:212943
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:212965
+Defined in: main.ts:213467
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:212965
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleLanguagesResponseInfo`](BusinessDataGoogleLanguagesResponseInfo.md)
 
-Defined in: main.ts:212958
+Defined in: main.ts:213460
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo
 
-Defined in: main.ts:145863
+Defined in: main.ts:146027
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:145863
 
 > `optional` **available\_locations**: [`AvailableLocations`](../classes/AvailableLocations.md)[]
 
-Defined in: main.ts:145869
+Defined in: main.ts:146033
 
 array of available locations for a certain language
 
@@ -28,7 +28,7 @@ array of available locations for a certain language
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:145867
+Defined in: main.ts:146031
 
 language code according to ISO 639-1
 
@@ -38,6 +38,6 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:145865
+Defined in: main.ts:146029
 
 language name

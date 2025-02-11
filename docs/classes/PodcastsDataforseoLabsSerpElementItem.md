@@ -6,7 +6,7 @@
 
 # Class: PodcastsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108815
+Defined in: main.ts:108871
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:108815
 
 > **new PodcastsDataforseoLabsSerpElementItem**(`data`?): [`PodcastsDataforseoLabsSerpElementItem`](PodcastsDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108821
+Defined in: main.ts:108877
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **items**: [`PodcastsElement`](PodcastsElement.md)[]
 
-Defined in: main.ts:108817
+Defined in: main.ts:108873
 
 elements of search results found in SERP
 
@@ -168,7 +168,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:108826
+Defined in: main.ts:108882
 
 #### Parameters
 
@@ -190,7 +190,7 @@ Defined in: main.ts:108826
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:108848
+Defined in: main.ts:108904
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:108848
 
 > `static` **fromJS**(`data`): [`PodcastsDataforseoLabsSerpElementItem`](PodcastsDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108841
+Defined in: main.ts:108897
 
 #### Parameters
 

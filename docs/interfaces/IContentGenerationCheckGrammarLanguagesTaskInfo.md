@@ -6,7 +6,7 @@
 
 # Interface: IContentGenerationCheckGrammarLanguagesTaskInfo
 
-Defined in: main.ts:183252
+Defined in: main.ts:183614
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`ContentGenerationCheckGrammarLanguagesResultInfo`](../classes/ContentGenerationCheckGrammarLanguagesResultInfo.md)[]
 
-Defined in: main.ts:183254
+Defined in: main.ts:183616
 
 array of results
 

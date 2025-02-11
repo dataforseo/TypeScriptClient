@@ -6,7 +6,7 @@
 
 # Class: RedirectLinkElementItem
 
-Defined in: main.ts:170010
+Defined in: main.ts:170174
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:170010
 
 > **new RedirectLinkElementItem**(`data`?): [`RedirectLinkElementItem`](RedirectLinkElementItem.md)
 
-Defined in: main.ts:170014
+Defined in: main.ts:170178
 
 #### Parameters
 
@@ -304,7 +304,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:170019
+Defined in: main.ts:170183
 
 #### Parameters
 
@@ -326,7 +326,7 @@ Defined in: main.ts:170019
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:170036
+Defined in: main.ts:170200
 
 #### Parameters
 
@@ -348,7 +348,7 @@ Defined in: main.ts:170036
 
 > `static` **fromJS**(`data`): [`RedirectLinkElementItem`](RedirectLinkElementItem.md)
 
-Defined in: main.ts:170029
+Defined in: main.ts:170193
 
 #### Parameters
 

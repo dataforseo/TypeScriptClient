@@ -6,7 +6,7 @@
 
 # Class: BacklinksAnchorsLiveRequestInfo
 
-Defined in: main.ts:152542
+Defined in: main.ts:152706
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:152542
 
 > **new BacklinksAnchorsLiveRequestInfo**(`data`?): [`BacklinksAnchorsLiveRequestInfo`](BacklinksAnchorsLiveRequestInfo.md)
 
-Defined in: main.ts:152642
+Defined in: main.ts:152806
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:152642
 
 > `optional` **backlinks\_filters**: `any`[]
 
-Defined in: main.ts:152616
+Defined in: main.ts:152780
 
 filter the backlinks of your target
 optional field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **backlinks\_status\_type**: `string`
 
-Defined in: main.ts:152577
+Defined in: main.ts:152741
 
 set what backlinks to return and count
 optional field
@@ -81,7 +81,7 @@ default value: live
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
-Defined in: main.ts:152632
+Defined in: main.ts:152796
 
 indicates whether the backlinks from subdomains of the target are excluded
 optional field
@@ -98,14 +98,14 @@ default value: true
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:152594
+Defined in: main.ts:152758
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, =, <>, in, not_in, like, not_like, ilike, not_ilike
+regex, not_regex, =, <>, in, not_in, like, not_like, ilike, not_ilike, match, not_match
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["referring_links_types.anchors",">","1"]
@@ -127,7 +127,7 @@ The full list of possible filters is available here.
 
 > `optional` **include\_indirect\_links**: `boolean`
 
-Defined in: main.ts:152627
+Defined in: main.ts:152791
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -145,7 +145,7 @@ default value: true
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:152621
+Defined in: main.ts:152785
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -162,7 +162,7 @@ default value: true
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:152568
+Defined in: main.ts:152732
 
 maximum number of elements within internal arrays
 optional field
@@ -185,7 +185,7 @@ maximum value: 1000
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:152552
+Defined in: main.ts:152716
 
 the maximum number of returned anchors
 optional field
@@ -202,7 +202,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:152557
+Defined in: main.ts:152721
 
 offset in the results array of returned anchors
 optional field
@@ -219,7 +219,7 @@ if you specify the 10 value, the first ten anchors in the results array will be 
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:152608
+Defined in: main.ts:152772
 
 results sorting rules
 optional field
@@ -245,7 +245,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:152638
+Defined in: main.ts:152802
 
 user-defined task identifier
 optional field
@@ -263,7 +263,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:152547
+Defined in: main.ts:152711
 
 domain, subdomain or webpage to get anchors for
 required field
@@ -280,7 +280,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:152651
+Defined in: main.ts:152815
 
 #### Parameters
 
@@ -298,7 +298,7 @@ Defined in: main.ts:152651
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:152691
+Defined in: main.ts:152855
 
 #### Parameters
 
@@ -316,7 +316,7 @@ Defined in: main.ts:152691
 
 > `static` **fromJS**(`data`): [`BacklinksAnchorsLiveRequestInfo`](BacklinksAnchorsLiveRequestInfo.md)
 
-Defined in: main.ts:152684
+Defined in: main.ts:152848
 
 #### Parameters
 

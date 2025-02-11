@@ -6,7 +6,7 @@
 
 # Class: SerpBingOrganicTasksReadyResponseInfo
 
-Defined in: main.ts:64018
+Defined in: main.ts:64048
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:64018
 
 > **new SerpBingOrganicTasksReadyResponseInfo**(`data`?): [`SerpBingOrganicTasksReadyResponseInfo`](SerpBingOrganicTasksReadyResponseInfo.md)
 
-Defined in: main.ts:64024
+Defined in: main.ts:64054
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpBingOrganicTasksReadyTaskInfo`](SerpBingOrganicTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:64020
+Defined in: main.ts:64050
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:64028
+Defined in: main.ts:64058
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:64028
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:64050
+Defined in: main.ts:64080
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:64050
 
 > `static` **fromJS**(`data`): [`SerpBingOrganicTasksReadyResponseInfo`](SerpBingOrganicTasksReadyResponseInfo.md)
 
-Defined in: main.ts:64043
+Defined in: main.ts:64073
 
 #### Parameters
 

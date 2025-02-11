@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleNewsLiveAdvancedTaskInfo
 
-Defined in: main.ts:47355
+Defined in: main.ts:47371
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleNewsLiveAdvancedResultInfo`](../classes/SerpGoogleNewsLiveAdvancedResultInfo.md)[]
 
-Defined in: main.ts:47357
+Defined in: main.ts:47373
 
 array of results
 

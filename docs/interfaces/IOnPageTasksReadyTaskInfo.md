@@ -6,7 +6,7 @@
 
 # Interface: IOnPageTasksReadyTaskInfo
 
-Defined in: main.ts:165120
+Defined in: main.ts:165284
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`OnPageTasksReadyResultInfo`](../classes/OnPageTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:165122
+Defined in: main.ts:165286
 
 array of results
 

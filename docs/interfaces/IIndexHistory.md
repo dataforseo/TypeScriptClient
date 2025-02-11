@@ -6,7 +6,7 @@
 
 # Interface: IIndexHistory
 
-Defined in: main.ts:149812
+Defined in: main.ts:149976
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:149812
 
 > `optional` **date**: `string`
 
-Defined in: main.ts:149817
+Defined in: main.ts:149981
 
 date for which index volume data is provided
 in the UTC format: “yyyy-mm-dd”
@@ -31,7 +31,7 @@ example:
 
 > `optional` **total\_backlinks**: `number`
 
-Defined in: main.ts:149819
+Defined in: main.ts:149983
 
 total number of backlinks our database contained on the given date
 
@@ -41,7 +41,7 @@ total number of backlinks our database contained on the given date
 
 > `optional` **total\_domains**: `number`
 
-Defined in: main.ts:149823
+Defined in: main.ts:149987
 
 total number of domains our database contained on the given date
 
@@ -51,6 +51,6 @@ total number of domains our database contained on the given date
 
 > `optional` **total\_pages**: `number`
 
-Defined in: main.ts:149821
+Defined in: main.ts:149985
 
 total number of pages our database contained on the given date

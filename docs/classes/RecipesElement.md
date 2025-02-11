@@ -6,7 +6,7 @@
 
 # Class: RecipesElement
 
-Defined in: main.ts:34181
+Defined in: main.ts:34197
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:34181
 
 > **new RecipesElement**(`data`?): [`RecipesElement`](RecipesElement.md)
 
-Defined in: main.ts:34203
+Defined in: main.ts:34219
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:34203
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:34194
+Defined in: main.ts:34210
 
 description
 
@@ -54,7 +54,7 @@ description
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:34189
+Defined in: main.ts:34205
 
 website domain
 
@@ -68,7 +68,7 @@ website domain
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:34199
+Defined in: main.ts:34215
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -83,7 +83,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:34192
+Defined in: main.ts:34208
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -98,7 +98,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **time**: `string`
 
-Defined in: main.ts:34196
+Defined in: main.ts:34212
 
 the total time it takes to prepare the cook the dish
 
@@ -112,7 +112,7 @@ the total time it takes to prepare the cook the dish
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:34185
+Defined in: main.ts:34201
 
 title of a given link element
 
@@ -126,7 +126,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:34183
+Defined in: main.ts:34199
 
 type of element
 
@@ -140,7 +140,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:34187
+Defined in: main.ts:34203
 
 URL
 
@@ -154,7 +154,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:34212
+Defined in: main.ts:34228
 
 #### Parameters
 
@@ -172,7 +172,7 @@ Defined in: main.ts:34212
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:34236
+Defined in: main.ts:34252
 
 #### Parameters
 
@@ -190,7 +190,7 @@ Defined in: main.ts:34236
 
 > `static` **fromJS**(`data`): [`RecipesElement`](RecipesElement.md)
 
-Defined in: main.ts:34229
+Defined in: main.ts:34245
 
 #### Parameters
 

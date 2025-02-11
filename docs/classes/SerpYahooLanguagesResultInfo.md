@@ -6,7 +6,7 @@
 
 # Class: SerpYahooLanguagesResultInfo
 
-Defined in: main.ts:75004
+Defined in: main.ts:75040
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:75004
 
 > **new SerpYahooLanguagesResultInfo**(`data`?): [`SerpYahooLanguagesResultInfo`](SerpYahooLanguagesResultInfo.md)
 
-Defined in: main.ts:75012
+Defined in: main.ts:75048
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:75012
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:75008
+Defined in: main.ts:75044
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:75006
+Defined in: main.ts:75042
 
 language name
 
@@ -68,7 +68,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:75021
+Defined in: main.ts:75057
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:75021
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:75039
+Defined in: main.ts:75075
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:75039
 
 > `static` **fromJS**(`data`): [`SerpYahooLanguagesResultInfo`](SerpYahooLanguagesResultInfo.md)
 
-Defined in: main.ts:75032
+Defined in: main.ts:75068
 
 #### Parameters
 

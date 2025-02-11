@@ -6,7 +6,7 @@
 
 # Class: SerpBaiduOrganicTaskGetAdvancedTaskInfo
 
-Defined in: main.ts:80288
+Defined in: main.ts:80324
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:80288
 
 > **new SerpBaiduOrganicTaskGetAdvancedTaskInfo**(`data`?): [`SerpBaiduOrganicTaskGetAdvancedTaskInfo`](SerpBaiduOrganicTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:80294
+Defined in: main.ts:80330
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpBaiduOrganicTaskGetAdvancedResultInfo`](SerpBaiduOrganicTaskGetAdvancedResultInfo.md)[]
 
-Defined in: main.ts:80290
+Defined in: main.ts:80326
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:80298
+Defined in: main.ts:80334
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:80298
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:80320
+Defined in: main.ts:80356
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:80320
 
 > `static` **fromJS**(`data`): [`SerpBaiduOrganicTaskGetAdvancedTaskInfo`](SerpBaiduOrganicTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:80313
+Defined in: main.ts:80349
 
 #### Parameters
 

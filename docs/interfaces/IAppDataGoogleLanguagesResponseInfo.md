@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleLanguagesResponseInfo
 
-Defined in: main.ts:199275
+Defined in: main.ts:199777
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataGoogleLanguagesTaskInfo`](../classes/AppDataGoogleLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:199277
+Defined in: main.ts:199779
 
 array of tasks
 

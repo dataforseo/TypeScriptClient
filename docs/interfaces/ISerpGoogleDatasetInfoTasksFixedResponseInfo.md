@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleDatasetInfoTasksFixedResponseInfo
 
-Defined in: main.ts:59543
+Defined in: main.ts:59559
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleDatasetInfoTasksFixedTaskInfo`](../classes/SerpGoogleDatasetInfoTasksFixedTaskInfo.md)[]
 
-Defined in: main.ts:59545
+Defined in: main.ts:59561
 
 array of tasks
 

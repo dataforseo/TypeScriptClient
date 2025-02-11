@@ -6,7 +6,7 @@
 
 # Class: FaqBoxElement
 
-Defined in: main.ts:31219
+Defined in: main.ts:31225
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:31219
 
 > **new FaqBoxElement**(`data`?): [`FaqBoxElement`](FaqBoxElement.md)
 
-Defined in: main.ts:31231
+Defined in: main.ts:31237
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:31231
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:31225
+Defined in: main.ts:31231
 
 description
 
@@ -54,7 +54,7 @@ description
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:31227
+Defined in: main.ts:31233
 
 link of the element
 
@@ -68,7 +68,7 @@ link of the element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:31223
+Defined in: main.ts:31229
 
 reference page title
 
@@ -82,7 +82,7 @@ reference page title
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:31221
+Defined in: main.ts:31227
 
 type of element
 
@@ -96,7 +96,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:31240
+Defined in: main.ts:31246
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:31240
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:31264
+Defined in: main.ts:31270
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:31264
 
 > `static` **fromJS**(`data`): [`FaqBoxElement`](FaqBoxElement.md)
 
-Defined in: main.ts:31257
+Defined in: main.ts:31263
 
 #### Parameters
 

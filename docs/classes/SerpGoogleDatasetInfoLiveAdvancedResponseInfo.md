@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleDatasetInfoLiveAdvancedResponseInfo
 
-Defined in: main.ts:60121
+Defined in: main.ts:60137
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:60121
 
 > **new SerpGoogleDatasetInfoLiveAdvancedResponseInfo**(`data`?): [`SerpGoogleDatasetInfoLiveAdvancedResponseInfo`](SerpGoogleDatasetInfoLiveAdvancedResponseInfo.md)
 
-Defined in: main.ts:60127
+Defined in: main.ts:60143
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleDatasetInfoLiveAdvancedTaskInfo`](SerpGoogleDatasetInfoLiveAdvancedTaskInfo.md)[]
 
-Defined in: main.ts:60123
+Defined in: main.ts:60139
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:60131
+Defined in: main.ts:60147
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:60131
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:60153
+Defined in: main.ts:60169
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:60153
 
 > `static` **fromJS**(`data`): [`SerpGoogleDatasetInfoLiveAdvancedResponseInfo`](SerpGoogleDatasetInfoLiveAdvancedResponseInfo.md)
 
-Defined in: main.ts:60146
+Defined in: main.ts:60162
 
 #### Parameters
 

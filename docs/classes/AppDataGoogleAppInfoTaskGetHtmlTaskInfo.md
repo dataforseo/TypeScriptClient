@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppInfoTaskGetHtmlTaskInfo
 
-Defined in: main.ts:202680
+Defined in: main.ts:203182
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:202680
 
 > **new AppDataGoogleAppInfoTaskGetHtmlTaskInfo**(`data`?): [`AppDataGoogleAppInfoTaskGetHtmlTaskInfo`](AppDataGoogleAppInfoTaskGetHtmlTaskInfo.md)
 
-Defined in: main.ts:202686
+Defined in: main.ts:203188
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`AppDataGoogleAppInfoTaskGetHtmlResultInfo`](AppDataGoogleAppInfoTaskGetHtmlResultInfo.md)[]
 
-Defined in: main.ts:202682
+Defined in: main.ts:203184
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:202690
+Defined in: main.ts:203192
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:202690
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:202712
+Defined in: main.ts:203214
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:202712
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppInfoTaskGetHtmlTaskInfo`](AppDataGoogleAppInfoTaskGetHtmlTaskInfo.md)
 
-Defined in: main.ts:202705
+Defined in: main.ts:203207
 
 #### Parameters
 

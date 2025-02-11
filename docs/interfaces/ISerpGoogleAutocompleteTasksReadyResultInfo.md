@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleAutocompleteTasksReadyResultInfo
 
-Defined in: main.ts:55608
+Defined in: main.ts:55624
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:55608
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:55618
+Defined in: main.ts:55634
 
 date when the task was posted (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:55626
+Defined in: main.ts:55642
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -39,7 +39,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:55629
+Defined in: main.ts:55645
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -50,7 +50,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:55623
+Defined in: main.ts:55639
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -61,7 +61,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:55611
+Defined in: main.ts:55627
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:55613
+Defined in: main.ts:55629
 
 search engine specified when setting the task
 
@@ -82,7 +82,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:55616
+Defined in: main.ts:55632
 
 type of search engine
 example: autocomplete
@@ -93,6 +93,6 @@ example: autocomplete
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:55620
+Defined in: main.ts:55636
 
 user-defined task identifier

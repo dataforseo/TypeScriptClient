@@ -6,7 +6,7 @@
 
 # Interface: IHotelsPackSerpElementItem
 
-Defined in: main.ts:35670
+Defined in: main.ts:35686
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:35670
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:35677
+Defined in: main.ts:35693
 
 starting date of stay
 in the format “year-month-date”
@@ -35,7 +35,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:35682
+Defined in: main.ts:35698
 
 ending date of stay
 in the format “year-month-date”
@@ -48,7 +48,7 @@ example:
 
 > `optional` **items**: [`HotelsPackElement`](../classes/HotelsPackElement.md)[]
 
-Defined in: main.ts:35684
+Defined in: main.ts:35700
 
 contains arrays of specific images
 
@@ -105,7 +105,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:35688
+Defined in: main.ts:35704
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -117,7 +117,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:35672
+Defined in: main.ts:35688
 
 title of the row
 

@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleAutocompleteTasksFixedResponseInfo
 
-Defined in: main.ts:55949
+Defined in: main.ts:55965
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleAutocompleteTasksFixedTaskInfo`](../classes/SerpGoogleAutocompleteTasksFixedTaskInfo.md)[]
 
-Defined in: main.ts:55951
+Defined in: main.ts:55967
 
 array of tasks
 

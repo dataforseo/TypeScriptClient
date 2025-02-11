@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphListItemDataforseoLabsSerpElementItem
 
-Defined in: main.ts:107650
+Defined in: main.ts:107706
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:107650
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:107656
+Defined in: main.ts:107712
 
 google defined data attribute ID
 example:
@@ -34,7 +34,7 @@ kc:/local:place qa
 
 > `optional` **items**: [`KnowledgeGraphListElement`](../classes/KnowledgeGraphListElement.md)[]
 
-Defined in: main.ts:107660
+Defined in: main.ts:107716
 
 contains arrays of specific images
 
@@ -44,7 +44,7 @@ contains arrays of specific images
 
 > `optional` **link**: [`LinkElement`](../classes/LinkElement.md)
 
-Defined in: main.ts:107658
+Defined in: main.ts:107714
 
 link of the element
 
@@ -100,7 +100,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:107652
+Defined in: main.ts:107708
 
 title of the row
 

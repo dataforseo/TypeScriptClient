@@ -6,7 +6,7 @@
 
 # Interface: ISerpYahooLocationsCountryResponseInfo
 
-Defined in: main.ts:74997
+Defined in: main.ts:75033
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpYahooLocationsCountryTaskInfo`](../classes/SerpYahooLocationsCountryTaskInfo.md)[]
 
-Defined in: main.ts:74999
+Defined in: main.ts:75035
 
 array of tasks
 

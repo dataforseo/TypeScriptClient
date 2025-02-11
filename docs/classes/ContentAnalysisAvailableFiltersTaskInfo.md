@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisAvailableFiltersTaskInfo
 
-Defined in: main.ts:176762
+Defined in: main.ts:177126
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:176762
 
 > **new ContentAnalysisAvailableFiltersTaskInfo**(`data`?): [`ContentAnalysisAvailableFiltersTaskInfo`](ContentAnalysisAvailableFiltersTaskInfo.md)
 
-Defined in: main.ts:176767
+Defined in: main.ts:177131
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`ContentAnalysisAvailableFiltersResultInfo`](ContentAnalysisAvailableFiltersResultInfo.md)[]
 
-Defined in: main.ts:176763
+Defined in: main.ts:177127
 
 #### Implementation of
 
@@ -212,7 +212,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:176771
+Defined in: main.ts:177135
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:176771
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:176793
+Defined in: main.ts:177157
 
 #### Parameters
 
@@ -256,7 +256,7 @@ Defined in: main.ts:176793
 
 > `static` **fromJS**(`data`): [`ContentAnalysisAvailableFiltersTaskInfo`](ContentAnalysisAvailableFiltersTaskInfo.md)
 
-Defined in: main.ts:176786
+Defined in: main.ts:177150
 
 #### Parameters
 

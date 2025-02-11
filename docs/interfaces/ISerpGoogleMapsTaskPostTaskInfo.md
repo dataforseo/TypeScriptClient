@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleMapsTaskPostTaskInfo
 
-Defined in: main.ts:40926
+Defined in: main.ts:40942
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:40929
+Defined in: main.ts:40945
 
 array of results
 in this case, the value will be null

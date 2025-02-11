@@ -6,7 +6,7 @@
 
 # Class: SerpBingLocalPackLiveRegularTaskInfo
 
-Defined in: main.ts:68349
+Defined in: main.ts:68385
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:68349
 
 > **new SerpBingLocalPackLiveRegularTaskInfo**(`data`?): [`SerpBingLocalPackLiveRegularTaskInfo`](SerpBingLocalPackLiveRegularTaskInfo.md)
 
-Defined in: main.ts:68355
+Defined in: main.ts:68391
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpBingLocalPackLiveRegularResultInfo`](SerpBingLocalPackLiveRegularResultInfo.md)[]
 
-Defined in: main.ts:68351
+Defined in: main.ts:68387
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:68359
+Defined in: main.ts:68395
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:68359
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:68381
+Defined in: main.ts:68417
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:68381
 
 > `static` **fromJS**(`data`): [`SerpBingLocalPackLiveRegularTaskInfo`](SerpBingLocalPackLiveRegularTaskInfo.md)
 
-Defined in: main.ts:68374
+Defined in: main.ts:68410
 
 #### Parameters
 

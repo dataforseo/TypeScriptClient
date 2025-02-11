@@ -6,7 +6,7 @@
 
 # Interface: IPageContentInfo
 
-Defined in: main.ts:173547
+Defined in: main.ts:174381
 
 ## Indexable
 
@@ -18,9 +18,9 @@ Defined in: main.ts:173547
 
 > `optional` **footer**: [`PageSectionContentInfo`](../classes/PageSectionContentInfo.md)
 
-Defined in: main.ts:173551
+Defined in: main.ts:174385
 
-parsed content of the footer
+content of the footer of the table
 
 ***
 
@@ -28,9 +28,9 @@ parsed content of the footer
 
 > `optional` **header**: [`PageSectionContentInfo`](../classes/PageSectionContentInfo.md)
 
-Defined in: main.ts:173549
+Defined in: main.ts:174383
 
-content of the header of the table
+parsed content of the header
 
 ***
 
@@ -38,7 +38,7 @@ content of the header of the table
 
 > `optional` **main\_topic**: [`TopicInfo`](../classes/TopicInfo.md)[]
 
-Defined in: main.ts:173554
+Defined in: main.ts:174388
 
 main topic on the page
 you can find more information about topic priority calculation in this help center article
@@ -49,7 +49,7 @@ you can find more information about topic priority calculation in this help cent
 
 > `optional` **secondary\_topic**: [`TopicInfo`](../classes/TopicInfo.md)[]
 
-Defined in: main.ts:173557
+Defined in: main.ts:174391
 
 secondary topic on the page
 you can find more information about topic priority calculation in this help center article

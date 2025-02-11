@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisLocationsTaskInfo
 
-Defined in: main.ts:176972
+Defined in: main.ts:177336
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`ContentAnalysisLocationsResultInfo`](../classes/ContentAnalysisLocationsResultInfo.md)[]
 
-Defined in: main.ts:176974
+Defined in: main.ts:177338
 
 array of results
 

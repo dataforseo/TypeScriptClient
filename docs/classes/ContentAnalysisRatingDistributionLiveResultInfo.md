@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisRatingDistributionLiveResultInfo
 
-Defined in: main.ts:179762
+Defined in: main.ts:180124
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:179762
 
 > **new ContentAnalysisRatingDistributionLiveResultInfo**(`data`?): [`ContentAnalysisRatingDistributionLiveResultInfo`](ContentAnalysisRatingDistributionLiveResultInfo.md)
 
-Defined in: main.ts:179774
+Defined in: main.ts:180136
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:179774
 
 > `optional` **max**: `number`
 
-Defined in: main.ts:179768
+Defined in: main.ts:180130
 
 max rating on a distribution scale
 
@@ -54,7 +54,7 @@ max rating on a distribution scale
 
 > `optional` **metrics**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:179770
+Defined in: main.ts:180132
 
 contains rating distribution metrics
 
@@ -68,7 +68,7 @@ contains rating distribution metrics
 
 > `optional` **min**: `number`
 
-Defined in: main.ts:179766
+Defined in: main.ts:180128
 
 min rating on a distribution scale
 
@@ -82,7 +82,7 @@ min rating on a distribution scale
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:179764
+Defined in: main.ts:180126
 
 type of element
 
@@ -96,7 +96,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:179783
+Defined in: main.ts:180145
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:179783
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:179803
+Defined in: main.ts:180165
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:179803
 
 > `static` **fromJS**(`data`): [`ContentAnalysisRatingDistributionLiveResultInfo`](ContentAnalysisRatingDistributionLiveResultInfo.md)
 
-Defined in: main.ts:179796
+Defined in: main.ts:180158
 
 #### Parameters
 

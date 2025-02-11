@@ -6,7 +6,7 @@
 
 # Class: HotelAmenityItemInfo
 
-Defined in: main.ts:218996
+Defined in: main.ts:219498
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:218996
 
 > **new HotelAmenityItemInfo**(`data`?): [`HotelAmenityItemInfo`](HotelAmenityItemInfo.md)
 
-Defined in: main.ts:219008
+Defined in: main.ts:219512
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:219008
 
 > `optional` **amenity**: `string`
 
-Defined in: main.ts:218998
+Defined in: main.ts:219500
 
 standardised amenity name
 
@@ -54,7 +54,7 @@ standardised amenity name
 
 > `optional` **amenity\_label**: `string`
 
-Defined in: main.ts:219000
+Defined in: main.ts:219502
 
 displayed amenity name
 
@@ -68,7 +68,7 @@ displayed amenity name
 
 > `optional` **hint**: `string`
 
-Defined in: main.ts:219002
+Defined in: main.ts:219504
 
 standardised details about the amenity
 
@@ -82,7 +82,7 @@ standardised details about the amenity
 
 > `optional` **hint\_label**: `string`
 
-Defined in: main.ts:219004
+Defined in: main.ts:219506
 
 displayed details about the amenity
 
@@ -90,13 +90,27 @@ displayed details about the amenity
 
 [`IHotelAmenityItemInfo`](../interfaces/IHotelAmenityItemInfo.md).[`hint_label`](../interfaces/IHotelAmenityItemInfo.md#hint_label)
 
+***
+
+### is\_available?
+
+> `optional` **is\_available**: `boolean`
+
+Defined in: main.ts:219508
+
+indicates whether the amenity is available in the hotel
+
+#### Implementation of
+
+[`IHotelAmenityItemInfo`](../interfaces/IHotelAmenityItemInfo.md).[`is_available`](../interfaces/IHotelAmenityItemInfo.md#is_available)
+
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:219017
+Defined in: main.ts:219521
 
 #### Parameters
 
@@ -114,7 +128,7 @@ Defined in: main.ts:219017
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:219037
+Defined in: main.ts:219542
 
 #### Parameters
 
@@ -132,7 +146,7 @@ Defined in: main.ts:219037
 
 > `static` **fromJS**(`data`): [`HotelAmenityItemInfo`](HotelAmenityItemInfo.md)
 
-Defined in: main.ts:219030
+Defined in: main.ts:219535
 
 #### Parameters
 

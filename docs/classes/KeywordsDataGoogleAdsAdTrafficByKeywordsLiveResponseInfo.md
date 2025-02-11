@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo
 
-Defined in: main.ts:132487
+Defined in: main.ts:132603
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:132487
 
 > **new KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo**(`data`?): [`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo.md)
 
-Defined in: main.ts:132493
+Defined in: main.ts:132609
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveTaskInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveTaskInfo.md)[]
 
-Defined in: main.ts:132489
+Defined in: main.ts:132605
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:132497
+Defined in: main.ts:132613
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:132497
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:132519
+Defined in: main.ts:132635
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:132519
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo.md)
 
-Defined in: main.ts:132512
+Defined in: main.ts:132628
 
 #### Parameters
 

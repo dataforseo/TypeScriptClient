@@ -6,7 +6,7 @@
 
 # Class: OnPagePageScreenshotTaskInfo
 
-Defined in: main.ts:172738
+Defined in: main.ts:172902
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:172738
 
 > **new OnPagePageScreenshotTaskInfo**(`data`?): [`OnPagePageScreenshotTaskInfo`](OnPagePageScreenshotTaskInfo.md)
 
-Defined in: main.ts:172744
+Defined in: main.ts:172908
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`OnPagePageScreenshotResultInfo`](OnPagePageScreenshotResultInfo.md)[]
 
-Defined in: main.ts:172740
+Defined in: main.ts:172904
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:172748
+Defined in: main.ts:172912
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:172748
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:172770
+Defined in: main.ts:172934
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:172770
 
 > `static` **fromJS**(`data`): [`OnPagePageScreenshotTaskInfo`](OnPagePageScreenshotTaskInfo.md)
 
-Defined in: main.ts:172763
+Defined in: main.ts:172927
 
 #### Parameters
 

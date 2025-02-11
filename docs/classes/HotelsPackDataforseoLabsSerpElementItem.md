@@ -6,7 +6,7 @@
 
 # Class: HotelsPackDataforseoLabsSerpElementItem
 
-Defined in: main.ts:107501
+Defined in: main.ts:107557
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:107501
 
 > **new HotelsPackDataforseoLabsSerpElementItem**(`data`?): [`HotelsPackDataforseoLabsSerpElementItem`](HotelsPackDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:107519
+Defined in: main.ts:107575
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:107508
+Defined in: main.ts:107564
 
 starting date of stay
 in the format “year-month-date”
@@ -77,7 +77,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:107513
+Defined in: main.ts:107569
 
 ending date of stay
 in the format “year-month-date”
@@ -94,7 +94,7 @@ example:
 
 > `optional` **items**: [`HotelsPackElement`](HotelsPackElement.md)[]
 
-Defined in: main.ts:107515
+Defined in: main.ts:107571
 
 elements of search results found in SERP
 
@@ -166,7 +166,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:107503
+Defined in: main.ts:107559
 
 title of the result in SERP
 
@@ -216,7 +216,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:107524
+Defined in: main.ts:107580
 
 #### Parameters
 
@@ -238,7 +238,7 @@ Defined in: main.ts:107524
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:107549
+Defined in: main.ts:107605
 
 #### Parameters
 
@@ -260,7 +260,7 @@ Defined in: main.ts:107549
 
 > `static` **fromJS**(`data`): [`HotelsPackDataforseoLabsSerpElementItem`](HotelsPackDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:107542
+Defined in: main.ts:107598
 
 #### Parameters
 

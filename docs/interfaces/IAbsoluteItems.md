@@ -6,7 +6,7 @@
 
 # Interface: IAbsoluteItems
 
-Defined in: main.ts:136642
+Defined in: main.ts:136806
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:136642
 
 > `optional` **geo\_id**: `string`
 
-Defined in: main.ts:136648
+Defined in: main.ts:136812
 
 location identifier
 you can use this field for matching obtained results with location parameters specified in the request
@@ -32,7 +32,7 @@ US-NY
 
 > `optional` **geo\_name**: `string`
 
-Defined in: main.ts:136654
+Defined in: main.ts:136818
 
 location name
 you can use this field for matching obtained results with location parameters specified in the request
@@ -46,7 +46,7 @@ Andorra
 
 > `optional` **values**: `number`[]
 
-Defined in: main.ts:136663
+Defined in: main.ts:136827
 
 keyword popularity rates within a given location
 represents location-specific keyword popularity rate over the specified time range;

@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleProductSpecTaskGetAdvancedResponseInfo
 
-Defined in: main.ts:189605
+Defined in: main.ts:189995
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:189605
 
 > **new MerchantGoogleProductSpecTaskGetAdvancedResponseInfo**(`data`?): [`MerchantGoogleProductSpecTaskGetAdvancedResponseInfo`](MerchantGoogleProductSpecTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:189611
+Defined in: main.ts:190001
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`MerchantGoogleProductSpecTaskGetAdvancedTaskInfo`](MerchantGoogleProductSpecTaskGetAdvancedTaskInfo.md)[]
 
-Defined in: main.ts:189607
+Defined in: main.ts:189997
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:189615
+Defined in: main.ts:190005
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:189615
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:189637
+Defined in: main.ts:190027
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:189637
 
 > `static` **fromJS**(`data`): [`MerchantGoogleProductSpecTaskGetAdvancedResponseInfo`](MerchantGoogleProductSpecTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:189630
+Defined in: main.ts:190020
 
 #### Parameters
 

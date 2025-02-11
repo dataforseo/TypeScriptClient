@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsRelatedKeywordsLiveItem
 
-Defined in: main.ts:93998
+Defined in: main.ts:94044
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:93998
 
 > **new DataforseoLabsRelatedKeywordsLiveItem**(`data`?): [`DataforseoLabsRelatedKeywordsLiveItem`](DataforseoLabsRelatedKeywordsLiveItem.md)
 
-Defined in: main.ts:94011
+Defined in: main.ts:94057
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:94011
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:94004
+Defined in: main.ts:94050
 
 keyword search depth
 
@@ -54,7 +54,7 @@ keyword search depth
 
 > `optional` **keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
 
-Defined in: main.ts:94002
+Defined in: main.ts:94048
 
 keyword data for the returned keyword
 
@@ -68,7 +68,7 @@ keyword data for the returned keyword
 
 > `optional` **related\_keywords**: `string`[]
 
-Defined in: main.ts:94007
+Defined in: main.ts:94053
 
 list of related keywords
 represents the list of search queries which are related to the keyword returned in the array above
@@ -83,7 +83,7 @@ represents the list of search queries which are related to the keyword returned 
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:94000
+Defined in: main.ts:94046
 
 search engine type
 
@@ -97,7 +97,7 @@ search engine type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:94020
+Defined in: main.ts:94066
 
 #### Parameters
 
@@ -115,7 +115,7 @@ Defined in: main.ts:94020
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:94044
+Defined in: main.ts:94090
 
 #### Parameters
 
@@ -133,7 +133,7 @@ Defined in: main.ts:94044
 
 > `static` **fromJS**(`data`): [`DataforseoLabsRelatedKeywordsLiveItem`](DataforseoLabsRelatedKeywordsLiveItem.md)
 
-Defined in: main.ts:94037
+Defined in: main.ts:94083
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: ISerpBingOrganicLiveRegularTaskInfo
 
-Defined in: main.ts:65495
+Defined in: main.ts:65525
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpBingOrganicLiveRegularResultInfo`](../classes/SerpBingOrganicLiveRegularResultInfo.md)[]
 
-Defined in: main.ts:65497
+Defined in: main.ts:65527
 
 array of results
 

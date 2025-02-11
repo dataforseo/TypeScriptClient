@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleAppIntersectionLiveResponseInfo
 
-Defined in: main.ts:123125
+Defined in: main.ts:123241
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:123125
 
 > **new DataforseoLabsGoogleAppIntersectionLiveResponseInfo**(`data`?): [`DataforseoLabsGoogleAppIntersectionLiveResponseInfo`](DataforseoLabsGoogleAppIntersectionLiveResponseInfo.md)
 
-Defined in: main.ts:123131
+Defined in: main.ts:123247
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsGoogleAppIntersectionLiveTaskInfo`](DataforseoLabsGoogleAppIntersectionLiveTaskInfo.md)[]
 
-Defined in: main.ts:123127
+Defined in: main.ts:123243
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:123135
+Defined in: main.ts:123251
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:123135
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:123157
+Defined in: main.ts:123273
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:123157
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleAppIntersectionLiveResponseInfo`](DataforseoLabsGoogleAppIntersectionLiveResponseInfo.md)
 
-Defined in: main.ts:123150
+Defined in: main.ts:123266
 
 #### Parameters
 

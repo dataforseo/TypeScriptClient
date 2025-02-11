@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksTimeseriesNewLostSummaryLiveRequestInfo
 
-Defined in: main.ts:159891
+Defined in: main.ts:160055
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:159891
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:159908
+Defined in: main.ts:160072
 
 starting date of the time range
 optional field
@@ -37,7 +37,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:159917
+Defined in: main.ts:160081
 
 ending date of the time range
 optional field
@@ -54,7 +54,7 @@ example:
 
 > `optional` **group\_range**: `string`
 
-Defined in: main.ts:159930
+Defined in: main.ts:160094
 
 time range which will be used to group the results
 optional field
@@ -75,7 +75,7 @@ if there is no data for a certain  day/week/month/year, we will return 0
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:159935
+Defined in: main.ts:160099
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -88,7 +88,7 @@ default value: true
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:159941
+Defined in: main.ts:160105
 
 user-defined task identifier
 optional field
@@ -102,7 +102,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:159897
+Defined in: main.ts:160061
 
 domain to get data for
 required field

@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAppleAppCompetitorsLiveTaskInfo
 
-Defined in: main.ts:124636
+Defined in: main.ts:124752
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsAppleAppCompetitorsLiveResultInfo`](../classes/DataforseoLabsAppleAppCompetitorsLiveResultInfo.md)[]
 
-Defined in: main.ts:124638
+Defined in: main.ts:124754
 
 array of results
 

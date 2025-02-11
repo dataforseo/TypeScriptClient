@@ -6,7 +6,7 @@
 
 # Class: OnPageLighthouseVersionsTaskInfo
 
-Defined in: main.ts:175310
+Defined in: main.ts:175674
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:175310
 
 > **new OnPageLighthouseVersionsTaskInfo**(`data`?): [`OnPageLighthouseVersionsTaskInfo`](OnPageLighthouseVersionsTaskInfo.md)
 
-Defined in: main.ts:175316
+Defined in: main.ts:175680
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`OnPageLighthouseVersionsResultInfo`](OnPageLighthouseVersionsResultInfo.md)[]
 
-Defined in: main.ts:175312
+Defined in: main.ts:175676
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:175320
+Defined in: main.ts:175684
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:175320
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:175342
+Defined in: main.ts:175706
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:175342
 
 > `static` **fromJS**(`data`): [`OnPageLighthouseVersionsTaskInfo`](OnPageLighthouseVersionsTaskInfo.md)
 
-Defined in: main.ts:175335
+Defined in: main.ts:175699
 
 #### Parameters
 

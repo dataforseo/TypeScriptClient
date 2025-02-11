@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksCompetitorsLiveResultInfo
 
-Defined in: main.ts:157167
+Defined in: main.ts:157331
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:157167
 
 > `optional` **items**: [`BacklinksCompetitorsLiveItem`](../classes/BacklinksCompetitorsLiveItem.md)[]
 
-Defined in: main.ts:157173
+Defined in: main.ts:157337
 
 items array
 
@@ -28,7 +28,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:157171
+Defined in: main.ts:157335
 
 number of items in the items array
 
@@ -38,6 +38,6 @@ number of items in the items array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:157169
+Defined in: main.ts:157333
 
 total number of relevant items in the database

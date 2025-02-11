@@ -6,7 +6,7 @@
 
 # Class: DictionarySerpElementItem
 
-Defined in: main.ts:80016
+Defined in: main.ts:80052
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:80016
 
 > **new DictionarySerpElementItem**(`data`?): [`DictionarySerpElementItem`](DictionarySerpElementItem.md)
 
-Defined in: main.ts:80042
+Defined in: main.ts:80078
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **breadcrumb**: `string`
 
-Defined in: main.ts:80024
+Defined in: main.ts:80060
 
 breadcrumb of the Ad element in SERP
 
@@ -74,7 +74,7 @@ breadcrumb of the Ad element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:80022
+Defined in: main.ts:80058
 
 domain in SERP
 
@@ -88,7 +88,7 @@ domain in SERP
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:80026
+Defined in: main.ts:80062
 
 keyword highlighted in the result
 
@@ -102,7 +102,7 @@ keyword highlighted in the result
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:80034
+Defined in: main.ts:80070
 
 sitelinks
 the links shown below some of search results
@@ -177,7 +177,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:80038
+Defined in: main.ts:80074
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -193,7 +193,7 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:80028
+Defined in: main.ts:80064
 
 snippet of the element
 
@@ -207,7 +207,7 @@ snippet of the element
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:80030
+Defined in: main.ts:80066
 
 description of the results element in SERP
 
@@ -221,7 +221,7 @@ description of the results element in SERP
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:80018
+Defined in: main.ts:80054
 
 title of the result in SERP
 
@@ -253,7 +253,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:80020
+Defined in: main.ts:80056
 
 relevant URL of the Ad element in SERP
 
@@ -285,7 +285,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:80047
+Defined in: main.ts:80083
 
 #### Parameters
 
@@ -307,7 +307,7 @@ Defined in: main.ts:80047
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:80077
+Defined in: main.ts:80113
 
 #### Parameters
 
@@ -329,7 +329,7 @@ Defined in: main.ts:80077
 
 > `static` **fromJS**(`data`): [`DictionarySerpElementItem`](DictionarySerpElementItem.md)
 
-Defined in: main.ts:80070
+Defined in: main.ts:80106
 
 #### Parameters
 

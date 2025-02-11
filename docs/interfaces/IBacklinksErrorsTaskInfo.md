@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksErrorsTaskInfo
 
-Defined in: main.ts:149382
+Defined in: main.ts:149546
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`BacklinksErrorsResultInfo`](../classes/BacklinksErrorsResultInfo.md)[]
 
-Defined in: main.ts:149384
+Defined in: main.ts:149548
 
 array of results
 

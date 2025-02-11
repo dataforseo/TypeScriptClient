@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo
 
-Defined in: main.ts:127069
+Defined in: main.ts:127185
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:127069
 
 > **new KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo**(`data`?): [`KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md)
 
-Defined in: main.ts:127075
+Defined in: main.ts:127191
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataGoogleAdsSearchVolumeTaskPostTaskInfo`](KeywordsDataGoogleAdsSearchVolumeTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:127071
+Defined in: main.ts:127187
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:127079
+Defined in: main.ts:127195
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:127079
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:127101
+Defined in: main.ts:127217
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:127101
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md)
 
-Defined in: main.ts:127094
+Defined in: main.ts:127210
 
 #### Parameters
 

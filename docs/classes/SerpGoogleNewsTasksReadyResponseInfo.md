@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleNewsTasksReadyResponseInfo
 
-Defined in: main.ts:45856
+Defined in: main.ts:45872
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:45856
 
 > **new SerpGoogleNewsTasksReadyResponseInfo**(`data`?): [`SerpGoogleNewsTasksReadyResponseInfo`](SerpGoogleNewsTasksReadyResponseInfo.md)
 
-Defined in: main.ts:45862
+Defined in: main.ts:45878
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleNewsTasksReadyTaskInfo`](SerpGoogleNewsTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:45858
+Defined in: main.ts:45874
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:45866
+Defined in: main.ts:45882
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:45866
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:45888
+Defined in: main.ts:45904
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:45888
 
 > `static` **fromJS**(`data`): [`SerpGoogleNewsTasksReadyResponseInfo`](SerpGoogleNewsTasksReadyResponseInfo.md)
 
-Defined in: main.ts:45881
+Defined in: main.ts:45897
 
 #### Parameters
 

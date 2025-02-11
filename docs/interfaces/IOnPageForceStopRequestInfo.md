@@ -6,7 +6,7 @@
 
 # Interface: IOnPageForceStopRequestInfo
 
-Defined in: main.ts:163732
+Defined in: main.ts:163896
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:163732
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:163739
+Defined in: main.ts:163903
 
 ID of the task
 required field

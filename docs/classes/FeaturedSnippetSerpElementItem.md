@@ -6,7 +6,7 @@
 
 # Class: FeaturedSnippetSerpElementItem
 
-Defined in: main.ts:29027
+Defined in: main.ts:29035
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:29027
 
 > **new FeaturedSnippetSerpElementItem**(`data`?): [`FeaturedSnippetSerpElementItem`](FeaturedSnippetSerpElementItem.md)
 
-Defined in: main.ts:29057
+Defined in: main.ts:29065
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **breadcrumb**: `string`
 
-Defined in: main.ts:29037
+Defined in: main.ts:29045
 
 breadcrumb of the ad element in SERP
 
@@ -74,7 +74,7 @@ breadcrumb of the ad element in SERP
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:29033
+Defined in: main.ts:29041
 
 description of the ad element in SERP
 
@@ -88,7 +88,7 @@ description of the ad element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:29029
+Defined in: main.ts:29037
 
 domain of the ad element in SERP
 
@@ -102,7 +102,7 @@ domain of the ad element in SERP
 
 > `optional` **featured\_title**: `string`
 
-Defined in: main.ts:29039
+Defined in: main.ts:29047
 
 title
 
@@ -116,7 +116,7 @@ title
 
 > `optional` **images**: [`ImagesElement`](ImagesElement.md)[]
 
-Defined in: main.ts:29046
+Defined in: main.ts:29054
 
 images of the element
 
@@ -189,7 +189,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:29053
+Defined in: main.ts:29061
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -205,7 +205,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **table**: [`Table`](Table.md)
 
-Defined in: main.ts:29049
+Defined in: main.ts:29057
 
 results table
 if there are none, equals null
@@ -220,7 +220,7 @@ if there are none, equals null
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:29044
+Defined in: main.ts:29052
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -237,7 +237,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:29031
+Defined in: main.ts:29039
 
 title of the ad element in SERP
 
@@ -269,7 +269,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:29035
+Defined in: main.ts:29043
 
 relevant URL of the ad element in SERP
 
@@ -301,7 +301,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:29062
+Defined in: main.ts:29070
 
 #### Parameters
 
@@ -323,7 +323,7 @@ Defined in: main.ts:29062
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:29093
+Defined in: main.ts:29101
 
 #### Parameters
 
@@ -345,7 +345,7 @@ Defined in: main.ts:29093
 
 > `static` **fromJS**(`data`): [`FeaturedSnippetSerpElementItem`](FeaturedSnippetSerpElementItem.md)
 
-Defined in: main.ts:29086
+Defined in: main.ts:29094
 
 #### Parameters
 

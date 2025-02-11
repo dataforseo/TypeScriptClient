@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksBulkNewLostReferringDomainsLiveItem
 
-Defined in: main.ts:162215
+Defined in: main.ts:162379
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:162215
 
 > `optional` **lost\_referring\_domains**: `number`
 
-Defined in: main.ts:162223
+Defined in: main.ts:162387
 
 number of lost referring domains
 number of lost referring domains of the target
@@ -29,7 +29,7 @@ number of lost referring domains of the target
 
 > `optional` **lost\_referring\_main\_domains**: `number`
 
-Defined in: main.ts:162227
+Defined in: main.ts:162391
 
 number of lost referring main domains pointing to the target
 
@@ -39,7 +39,7 @@ number of lost referring main domains pointing to the target
 
 > `optional` **new\_referring\_domains**: `number`
 
-Defined in: main.ts:162220
+Defined in: main.ts:162384
 
 number of new referring domains
 number of new referring domains pointing to the target
@@ -50,7 +50,7 @@ number of new referring domains pointing to the target
 
 > `optional` **new\_referring\_main\_domains**: `number`
 
-Defined in: main.ts:162225
+Defined in: main.ts:162389
 
 number of new referring main domains pointing to the target
 
@@ -60,6 +60,6 @@ number of new referring main domains pointing to the target
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:162217
+Defined in: main.ts:162381
 
 domain, subdomain or webpage from a POST array

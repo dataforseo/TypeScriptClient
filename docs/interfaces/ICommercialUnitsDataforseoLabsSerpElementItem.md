@@ -6,7 +6,7 @@
 
 # Interface: ICommercialUnitsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:109186
+Defined in: main.ts:109242
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:109186
 
 > `optional` **items**: [`CommercialUnitsElement`](../classes/CommercialUnitsElement.md)[]
 
-Defined in: main.ts:109190
+Defined in: main.ts:109246
 
 elements of search results found in SERP
 
@@ -78,7 +78,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:109188
+Defined in: main.ts:109244
 
 title of the result in SERP
 

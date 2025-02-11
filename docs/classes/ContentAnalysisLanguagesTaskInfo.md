@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisLanguagesTaskInfo
 
-Defined in: main.ts:177090
+Defined in: main.ts:177454
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:177090
 
 > **new ContentAnalysisLanguagesTaskInfo**(`data`?): [`ContentAnalysisLanguagesTaskInfo`](ContentAnalysisLanguagesTaskInfo.md)
 
-Defined in: main.ts:177096
+Defined in: main.ts:177460
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`ContentAnalysisLanguagesResultInfo`](ContentAnalysisLanguagesResultInfo.md)[]
 
-Defined in: main.ts:177092
+Defined in: main.ts:177456
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:177100
+Defined in: main.ts:177464
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:177100
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:177122
+Defined in: main.ts:177486
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:177122
 
 > `static` **fromJS**(`data`): [`ContentAnalysisLanguagesTaskInfo`](ContentAnalysisLanguagesTaskInfo.md)
 
-Defined in: main.ts:177115
+Defined in: main.ts:177479
 
 #### Parameters
 

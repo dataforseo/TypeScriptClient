@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo
 
-Defined in: main.ts:96880
+Defined in: main.ts:96908
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:96880
 
 > **new DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo**(`data`?): [`DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo`](DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo.md)
 
-Defined in: main.ts:96888
+Defined in: main.ts:96916
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:96888
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:96884
+Defined in: main.ts:96912
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:96882
+Defined in: main.ts:96910
 
 language name
 
@@ -68,7 +68,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:96897
+Defined in: main.ts:96925
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:96897
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:96915
+Defined in: main.ts:96943
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:96915
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo`](DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo.md)
 
-Defined in: main.ts:96908
+Defined in: main.ts:96936
 
 #### Parameters
 

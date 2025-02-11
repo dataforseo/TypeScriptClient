@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleProductsTaskGetAdvancedTaskInfo
 
-Defined in: main.ts:187022
+Defined in: main.ts:187384
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:187022
 
 > **new MerchantGoogleProductsTaskGetAdvancedTaskInfo**(`data`?): [`MerchantGoogleProductsTaskGetAdvancedTaskInfo`](MerchantGoogleProductsTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:187028
+Defined in: main.ts:187390
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`MerchantGoogleProductsTaskGetAdvancedResultInfo`](MerchantGoogleProductsTaskGetAdvancedResultInfo.md)[]
 
-Defined in: main.ts:187024
+Defined in: main.ts:187386
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:187032
+Defined in: main.ts:187394
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:187032
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:187054
+Defined in: main.ts:187416
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:187054
 
 > `static` **fromJS**(`data`): [`MerchantGoogleProductsTaskGetAdvancedTaskInfo`](MerchantGoogleProductsTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:187047
+Defined in: main.ts:187409
 
 #### Parameters
 

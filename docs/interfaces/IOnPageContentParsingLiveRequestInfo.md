@@ -6,7 +6,7 @@
 
 # Interface: IOnPageContentParsingLiveRequestInfo
 
-Defined in: main.ts:173994
+Defined in: main.ts:173518
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:173994
 
 > `optional` **accept\_language**: `string`
 
-Defined in: main.ts:174066
+Defined in: main.ts:173590
 
 language header for accessing the website
 optional field
@@ -31,7 +31,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 > `optional` **browser\_preset**: `string`
 
-Defined in: main.ts:174026
+Defined in: main.ts:173550
 
 preset for browser screen parameters
 optional field
@@ -58,7 +58,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 > `optional` **browser\_screen\_height**: `number`
 
-Defined in: main.ts:174042
+Defined in: main.ts:173566
 
 browser screen height
 optional field
@@ -74,7 +74,7 @@ maximum value, in pixels: 9999
 
 > `optional` **browser\_screen\_scale\_factor**: `number`
 
-Defined in: main.ts:174050
+Defined in: main.ts:173574
 
 browser screen scale factor
 optional field
@@ -90,7 +90,7 @@ maximum value: 3
 
 > `optional` **browser\_screen\_width**: `number`
 
-Defined in: main.ts:174034
+Defined in: main.ts:173558
 
 browser screen width
 optional field
@@ -106,7 +106,7 @@ maximum value, in pixels: 9999
 
 > `optional` **custom\_user\_agent**: `string`
 
-Defined in: main.ts:174007
+Defined in: main.ts:173531
 
 custom user agent
 optional field
@@ -121,7 +121,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 > `optional` **disable\_cookie\_popup**: `boolean`
 
-Defined in: main.ts:174061
+Defined in: main.ts:173585
 
 disable the cookie popup 
 optional field
@@ -135,7 +135,7 @@ false
 
 > `optional` **enable\_browser\_rendering**: `boolean`
 
-Defined in: main.ts:174081
+Defined in: main.ts:173605
 
 emulate browser rendering to measure Core Web Vitals
 optional field
@@ -152,7 +152,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 > `optional` **enable\_javascript**: `boolean`
 
-Defined in: main.ts:174072
+Defined in: main.ts:173596
 
 load javascript on a page
 optional field
@@ -166,7 +166,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 > `optional` **enable\_xhr**: `boolean`
 
-Defined in: main.ts:174088
+Defined in: main.ts:173612
 
 enable XMLHttpRequest on a page
 optional field
@@ -181,7 +181,7 @@ if you use this field, enable_javascript must be set to true;
 
 > `optional` **ip\_pool\_for\_scan**: `string`
 
-Defined in: main.ts:174099
+Defined in: main.ts:173623
 
 proxy pool
 optional field
@@ -195,7 +195,7 @@ possible values: us, de
 
 > `optional` **store\_raw\_html**: `boolean`
 
-Defined in: main.ts:174055
+Defined in: main.ts:173579
 
 store HTML of a crawled page
 optional field
@@ -208,7 +208,7 @@ default value: false
 
 > `optional` **switch\_pool**: `boolean`
 
-Defined in: main.ts:174093
+Defined in: main.ts:173617
 
 switch proxy pool
 optional field
@@ -221,7 +221,7 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:174000
+Defined in: main.ts:173524
 
 URL of the content to parse
 required field

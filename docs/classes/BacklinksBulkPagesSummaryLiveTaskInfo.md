@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkPagesSummaryLiveTaskInfo
 
-Defined in: main.ts:162884
+Defined in: main.ts:163048
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:162884
 
 > **new BacklinksBulkPagesSummaryLiveTaskInfo**(`data`?): [`BacklinksBulkPagesSummaryLiveTaskInfo`](BacklinksBulkPagesSummaryLiveTaskInfo.md)
 
-Defined in: main.ts:162890
+Defined in: main.ts:163054
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`BacklinksBulkPagesSummaryLiveResultInfo`](BacklinksBulkPagesSummaryLiveResultInfo.md)[]
 
-Defined in: main.ts:162886
+Defined in: main.ts:163050
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:162894
+Defined in: main.ts:163058
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:162894
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:162916
+Defined in: main.ts:163080
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:162916
 
 > `static` **fromJS**(`data`): [`BacklinksBulkPagesSummaryLiveTaskInfo`](BacklinksBulkPagesSummaryLiveTaskInfo.md)
 
-Defined in: main.ts:162909
+Defined in: main.ts:163073
 
 #### Parameters
 

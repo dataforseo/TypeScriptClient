@@ -6,7 +6,7 @@
 
 # Class: ImagesDataforseoLabsSerpElementItem
 
-Defined in: main.ts:106500
+Defined in: main.ts:106564
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:106500
 
 > **new ImagesDataforseoLabsSerpElementItem**(`data`?): [`ImagesDataforseoLabsSerpElementItem`](ImagesDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:106515
+Defined in: main.ts:106579
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **items**: [`ImagesElement`](ImagesElement.md)[]
 
-Defined in: main.ts:106508
+Defined in: main.ts:106572
 
 elements of search results found in SERP
 
@@ -132,7 +132,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **related\_image\_searches**: [`RelatedImageSearchesElement`](RelatedImageSearchesElement.md)
 
-Defined in: main.ts:106511
+Defined in: main.ts:106575
 
 contains keywords and images related to the specified search term
 if there are none, equals null
@@ -147,7 +147,7 @@ if there are none, equals null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:106502
+Defined in: main.ts:106566
 
 search engine type
 
@@ -161,7 +161,7 @@ search engine type
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:106504
+Defined in: main.ts:106568
 
 title of the result in SERP
 
@@ -193,7 +193,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:106506
+Defined in: main.ts:106570
 
 relevant URL of the Ad element in SERP
 
@@ -225,7 +225,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:106520
+Defined in: main.ts:106584
 
 #### Parameters
 
@@ -247,7 +247,7 @@ Defined in: main.ts:106520
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:106546
+Defined in: main.ts:106610
 
 #### Parameters
 
@@ -269,7 +269,7 @@ Defined in: main.ts:106546
 
 > `static` **fromJS**(`data`): [`ImagesDataforseoLabsSerpElementItem`](ImagesDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:106539
+Defined in: main.ts:106603
 
 #### Parameters
 

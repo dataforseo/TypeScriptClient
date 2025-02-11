@@ -6,7 +6,7 @@
 
 # Interface: IKeywordProperties
 
-Defined in: main.ts:92744
+Defined in: main.ts:92790
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:92744
 
 > `optional` **core\_keyword**: `string`
 
-Defined in: main.ts:92750
+Defined in: main.ts:92796
 
 main keyword in a group
 contains the main keyword in a group determined by the synonym clustering algorithm
@@ -30,7 +30,7 @@ if the value is null, our database does not contain any keywords the correspondi
 
 > `optional` **detected\_language**: `string`
 
-Defined in: main.ts:92764
+Defined in: main.ts:92810
 
 detected language of the keyword
 indicates the language of the keyword as identified by our system
@@ -41,7 +41,7 @@ indicates the language of the keyword as identified by our system
 
 > `optional` **is\_another\_language**: `boolean`
 
-Defined in: main.ts:92767
+Defined in: main.ts:92813
 
 detected language of the keyword is different from the set language
 if true, the language set in the request does not match the language determined by our system for a given keyword
@@ -52,7 +52,7 @@ if true, the language set in the request does not match the language determined 
 
 > `optional` **keyword\_difficulty**: `number`
 
-Defined in: main.ts:92761
+Defined in: main.ts:92807
 
 difficulty of ranking in the first top-10 organic results for a keyword
 indicates the chance of getting in top-10 organic results for a keyword on a logarithmic scale from 0 to 100;
@@ -65,7 +65,7 @@ learn more about the metric in this help center guide
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:92746
+Defined in: main.ts:92792
 
 search engine type
 
@@ -75,7 +75,7 @@ search engine type
 
 > `optional` **synonym\_clustering\_algorithm**: `string`
 
-Defined in: main.ts:92756
+Defined in: main.ts:92802
 
 the algorithm used to identify synonyms
 possible values:

@@ -6,7 +6,7 @@
 
 # Class: BacklinksIdListTaskInfo
 
-Defined in: main.ts:148994
+Defined in: main.ts:149158
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:148994
 
 > **new BacklinksIdListTaskInfo**(`data`?): [`BacklinksIdListTaskInfo`](BacklinksIdListTaskInfo.md)
 
-Defined in: main.ts:149000
+Defined in: main.ts:149164
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`BacklinksIdListResultInfo`](BacklinksIdListResultInfo.md)[]
 
-Defined in: main.ts:148996
+Defined in: main.ts:149160
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:149004
+Defined in: main.ts:149168
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:149004
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:149026
+Defined in: main.ts:149190
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:149026
 
 > `static` **fromJS**(`data`): [`BacklinksIdListTaskInfo`](BacklinksIdListTaskInfo.md)
 
-Defined in: main.ts:149019
+Defined in: main.ts:149183
 
 #### Parameters
 

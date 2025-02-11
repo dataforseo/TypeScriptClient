@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesLanguagesResultInfo
 
-Defined in: main.ts:85408
+Defined in: main.ts:85444
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:85408
 
 > **new DomainAnalyticsTechnologiesLanguagesResultInfo**(`data`?): [`DomainAnalyticsTechnologiesLanguagesResultInfo`](DomainAnalyticsTechnologiesLanguagesResultInfo.md)
 
-Defined in: main.ts:85416
+Defined in: main.ts:85452
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:85416
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:85412
+Defined in: main.ts:85448
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:85410
+Defined in: main.ts:85446
 
 language name
 
@@ -68,7 +68,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:85425
+Defined in: main.ts:85461
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:85425
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:85443
+Defined in: main.ts:85479
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:85443
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesLanguagesResultInfo`](DomainAnalyticsTechnologiesLanguagesResultInfo.md)
 
-Defined in: main.ts:85436
+Defined in: main.ts:85472
 
 #### Parameters
 

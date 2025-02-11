@@ -6,7 +6,7 @@
 
 # Class: EventsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108443
+Defined in: main.ts:108499
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:108443
 
 > **new EventsDataforseoLabsSerpElementItem**(`data`?): [`EventsDataforseoLabsSerpElementItem`](EventsDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108453
+Defined in: main.ts:108509
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **items**: [`EventsElement`](EventsElement.md)[]
 
-Defined in: main.ts:108449
+Defined in: main.ts:108505
 
 elements of search results found in SERP
 
@@ -132,7 +132,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:108445
+Defined in: main.ts:108501
 
 title of the result in SERP
 
@@ -164,7 +164,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:108447
+Defined in: main.ts:108503
 
 relevant URL of the Ad element in SERP
 
@@ -196,7 +196,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:108458
+Defined in: main.ts:108514
 
 #### Parameters
 
@@ -218,7 +218,7 @@ Defined in: main.ts:108458
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:108482
+Defined in: main.ts:108538
 
 #### Parameters
 
@@ -240,7 +240,7 @@ Defined in: main.ts:108482
 
 > `static` **fromJS**(`data`): [`EventsDataforseoLabsSerpElementItem`](EventsDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108475
+Defined in: main.ts:108531
 
 #### Parameters
 

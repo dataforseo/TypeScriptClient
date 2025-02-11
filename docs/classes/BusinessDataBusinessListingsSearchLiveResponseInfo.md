@@ -6,7 +6,7 @@
 
 # Class: BusinessDataBusinessListingsSearchLiveResponseInfo
 
-Defined in: main.ts:211777
+Defined in: main.ts:212279
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:211777
 
 > **new BusinessDataBusinessListingsSearchLiveResponseInfo**(`data`?): [`BusinessDataBusinessListingsSearchLiveResponseInfo`](BusinessDataBusinessListingsSearchLiveResponseInfo.md)
 
-Defined in: main.ts:211783
+Defined in: main.ts:212285
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BusinessDataBusinessListingsSearchLiveTaskInfo`](BusinessDataBusinessListingsSearchLiveTaskInfo.md)[]
 
-Defined in: main.ts:211779
+Defined in: main.ts:212281
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:211787
+Defined in: main.ts:212289
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:211787
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:211809
+Defined in: main.ts:212311
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:211809
 
 > `static` **fromJS**(`data`): [`BusinessDataBusinessListingsSearchLiveResponseInfo`](BusinessDataBusinessListingsSearchLiveResponseInfo.md)
 
-Defined in: main.ts:211802
+Defined in: main.ts:212304
 
 #### Parameters
 

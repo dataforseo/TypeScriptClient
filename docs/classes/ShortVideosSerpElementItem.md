@@ -6,7 +6,7 @@
 
 # Class: ShortVideosSerpElementItem
 
-Defined in: main.ts:36999
+Defined in: main.ts:37015
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:36999
 
 > **new ShortVideosSerpElementItem**(`data`?): [`ShortVideosSerpElementItem`](ShortVideosSerpElementItem.md)
 
-Defined in: main.ts:37011
+Defined in: main.ts:37027
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`ShortVideosElement`](ShortVideosElement.md)[]
 
-Defined in: main.ts:37003
+Defined in: main.ts:37019
 
 contains arrays of specific images
 
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:37007
+Defined in: main.ts:37023
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -149,7 +149,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:37001
+Defined in: main.ts:37017
 
 title of the row
 
@@ -199,7 +199,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:37016
+Defined in: main.ts:37032
 
 #### Parameters
 
@@ -221,7 +221,7 @@ Defined in: main.ts:37016
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:37040
+Defined in: main.ts:37056
 
 #### Parameters
 
@@ -243,7 +243,7 @@ Defined in: main.ts:37040
 
 > `static` **fromJS**(`data`): [`ShortVideosSerpElementItem`](ShortVideosSerpElementItem.md)
 
-Defined in: main.ts:37033
+Defined in: main.ts:37049
 
 #### Parameters
 

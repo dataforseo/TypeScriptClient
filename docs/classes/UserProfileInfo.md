@@ -6,7 +6,7 @@
 
 # Class: UserProfileInfo
 
-Defined in: main.ts:194941
+Defined in: main.ts:194978
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:194941
 
 > **new UserProfileInfo**(`data`?): [`UserProfileInfo`](UserProfileInfo.md)
 
-Defined in: main.ts:194955
+Defined in: main.ts:194992
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:194955
 
 > `optional` **avatar**: `string`
 
-Defined in: main.ts:194945
+Defined in: main.ts:194982
 
 URL to the profile picture of the reviewer
 
@@ -54,7 +54,7 @@ URL to the profile picture of the reviewer
 
 > `optional` **locations**: `string`
 
-Defined in: main.ts:194951
+Defined in: main.ts:194988
 
 country of the reviewer
 
@@ -68,7 +68,7 @@ country of the reviewer
 
 > `optional` **name**: `string`
 
-Defined in: main.ts:194943
+Defined in: main.ts:194980
 
 the name of the reviewer
 
@@ -82,7 +82,7 @@ the name of the reviewer
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:194949
+Defined in: main.ts:194986
 
 total number of reviews submitted by the reviewer
 
@@ -96,9 +96,9 @@ total number of reviews submitted by the reviewer
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:194947
+Defined in: main.ts:194984
 
-URL of the video
+relevant url
 
 #### Implementation of
 
@@ -110,7 +110,7 @@ URL of the video
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:194964
+Defined in: main.ts:195001
 
 #### Parameters
 
@@ -128,7 +128,7 @@ Defined in: main.ts:194964
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:194985
+Defined in: main.ts:195022
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Defined in: main.ts:194985
 
 > `static` **fromJS**(`data`): [`UserProfileInfo`](UserProfileInfo.md)
 
-Defined in: main.ts:194978
+Defined in: main.ts:195015
 
 #### Parameters
 

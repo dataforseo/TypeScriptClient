@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo
 
-Defined in: main.ts:88362
+Defined in: main.ts:88398
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:88362
 
 > **new DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo**(`data`?): [`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo`](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md)
 
-Defined in: main.ts:88378
+Defined in: main.ts:88414
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:88378
 
 > `optional` **items**: [`DomainAnalyticsTechnologiesDomainsByLiveItem`](DomainAnalyticsTechnologiesDomainsByLiveItem.md)[]
 
-Defined in: main.ts:88374
+Defined in: main.ts:88410
 
 items array
 
@@ -54,7 +54,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:88366
+Defined in: main.ts:88402
 
 number of items in the results array
 
@@ -68,7 +68,7 @@ number of items in the results array
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:88368
+Defined in: main.ts:88404
 
 specified offset value
 
@@ -82,7 +82,7 @@ specified offset value
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:88372
+Defined in: main.ts:88408
 
 token for subsequent requests
 by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task;
@@ -98,7 +98,7 @@ offset_token values are unique for each subsequent task
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:88364
+Defined in: main.ts:88400
 
 total number of relevant items in the database
 
@@ -112,7 +112,7 @@ total number of relevant items in the database
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:88387
+Defined in: main.ts:88423
 
 #### Parameters
 
@@ -130,7 +130,7 @@ Defined in: main.ts:88387
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:88412
+Defined in: main.ts:88448
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:88412
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo`](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md)
 
-Defined in: main.ts:88405
+Defined in: main.ts:88441
 
 #### Parameters
 

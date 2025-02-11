@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleAdsAdvertisersTaskPostTaskInfo
 
-Defined in: main.ts:60576
+Defined in: main.ts:60598
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:60576
 
 > **new SerpGoogleAdsAdvertisersTaskPostTaskInfo**(`data`?): [`SerpGoogleAdsAdvertisersTaskPostTaskInfo`](SerpGoogleAdsAdvertisersTaskPostTaskInfo.md)
 
-Defined in: main.ts:60583
+Defined in: main.ts:60605
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:60579
+Defined in: main.ts:60601
 
 array of results
 in this case, the value will be null
@@ -215,7 +215,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:60587
+Defined in: main.ts:60609
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:60587
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:60605
+Defined in: main.ts:60627
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:60605
 
 > `static` **fromJS**(`data`): [`SerpGoogleAdsAdvertisersTaskPostTaskInfo`](SerpGoogleAdsAdvertisersTaskPostTaskInfo.md)
 
-Defined in: main.ts:60598
+Defined in: main.ts:60620
 
 #### Parameters
 

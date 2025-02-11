@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAppleBulkAppMetricsLiveTaskInfo
 
-Defined in: main.ts:123434
+Defined in: main.ts:123550
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:123434
 
 > **new DataforseoLabsAppleBulkAppMetricsLiveTaskInfo**(`data`?): [`DataforseoLabsAppleBulkAppMetricsLiveTaskInfo`](DataforseoLabsAppleBulkAppMetricsLiveTaskInfo.md)
 
-Defined in: main.ts:123440
+Defined in: main.ts:123556
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsAppleBulkAppMetricsLiveResultInfo`](DataforseoLabsAppleBulkAppMetricsLiveResultInfo.md)[]
 
-Defined in: main.ts:123436
+Defined in: main.ts:123552
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:123444
+Defined in: main.ts:123560
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:123444
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:123466
+Defined in: main.ts:123582
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:123466
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAppleBulkAppMetricsLiveTaskInfo`](DataforseoLabsAppleBulkAppMetricsLiveTaskInfo.md)
 
-Defined in: main.ts:123459
+Defined in: main.ts:123575
 
 #### Parameters
 

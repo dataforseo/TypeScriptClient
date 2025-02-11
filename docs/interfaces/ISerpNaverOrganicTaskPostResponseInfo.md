@@ -6,7 +6,7 @@
 
 # Interface: ISerpNaverOrganicTaskPostResponseInfo
 
-Defined in: main.ts:80975
+Defined in: main.ts:81011
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpNaverOrganicTaskPostTaskInfo`](../classes/SerpNaverOrganicTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:80977
+Defined in: main.ts:81013
 
 array of tasks
 

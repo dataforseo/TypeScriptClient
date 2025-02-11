@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsBingCompetitorsDomainLiveResponseInfo
 
-Defined in: main.ts:116577
+Defined in: main.ts:116669
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsBingCompetitorsDomainLiveTaskInfo`](../classes/DataforseoLabsBingCompetitorsDomainLiveTaskInfo.md)[]
 
-Defined in: main.ts:116579
+Defined in: main.ts:116671
 
 array of tasks
 

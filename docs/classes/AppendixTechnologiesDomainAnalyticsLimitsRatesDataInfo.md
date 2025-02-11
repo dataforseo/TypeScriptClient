@@ -6,7 +6,7 @@
 
 # Class: AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo
 
-Defined in: main.ts:231388
+Defined in: main.ts:231904
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:231388
 
 > **new AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo**(`data`?): [`AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md)
 
-Defined in: main.ts:231401
+Defined in: main.ts:231917
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:231401
 
 > `optional` **aggregation\_technologies**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:231394
+Defined in: main.ts:231910
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:231394
 
 > `optional` **domain\_technologies**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:231389
+Defined in: main.ts:231905
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:231389
 
 > `optional` **domains\_by\_html\_terms**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:231396
+Defined in: main.ts:231912
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:231396
 
 > `optional` **domains\_by\_technology**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:231390
+Defined in: main.ts:231906
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:231390
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:231391
+Defined in: main.ts:231907
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:231391
 
 > `optional` **locations**: `number`
 
-Defined in: main.ts:231392
+Defined in: main.ts:231908
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:231392
 
 > `optional` **technologies**: `number`
 
-Defined in: main.ts:231393
+Defined in: main.ts:231909
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:231393
 
 > `optional` **technologies\_summary**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:231395
+Defined in: main.ts:231911
 
 #### Implementation of
 
@@ -136,7 +136,7 @@ Defined in: main.ts:231395
 
 > `optional` **technology\_stats**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:231397
+Defined in: main.ts:231913
 
 #### Implementation of
 
@@ -148,7 +148,7 @@ Defined in: main.ts:231397
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:231410
+Defined in: main.ts:231926
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: main.ts:231410
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:231435
+Defined in: main.ts:231951
 
 #### Parameters
 
@@ -184,7 +184,7 @@ Defined in: main.ts:231435
 
 > `static` **fromJS**(`data`): [`AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md)
 
-Defined in: main.ts:231428
+Defined in: main.ts:231944
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleSearchIntentLiveTaskInfo
 
-Defined in: main.ts:96770
+Defined in: main.ts:96798
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:96770
 
 > **new DataforseoLabsGoogleSearchIntentLiveTaskInfo**(`data`?): [`DataforseoLabsGoogleSearchIntentLiveTaskInfo`](DataforseoLabsGoogleSearchIntentLiveTaskInfo.md)
 
-Defined in: main.ts:96776
+Defined in: main.ts:96804
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleSearchIntentLiveResultInfo`](DataforseoLabsGoogleSearchIntentLiveResultInfo.md)[]
 
-Defined in: main.ts:96772
+Defined in: main.ts:96800
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:96780
+Defined in: main.ts:96808
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:96780
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:96802
+Defined in: main.ts:96830
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:96802
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleSearchIntentLiveTaskInfo`](DataforseoLabsGoogleSearchIntentLiveTaskInfo.md)
 
-Defined in: main.ts:96795
+Defined in: main.ts:96823
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: SerpBaiduOrganicTaskGetRegularTaskInfo
 
-Defined in: main.ts:79906
+Defined in: main.ts:79942
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:79906
 
 > **new SerpBaiduOrganicTaskGetRegularTaskInfo**(`data`?): [`SerpBaiduOrganicTaskGetRegularTaskInfo`](SerpBaiduOrganicTaskGetRegularTaskInfo.md)
 
-Defined in: main.ts:79912
+Defined in: main.ts:79948
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpBaiduOrganicTaskGetRegularResultInfo`](SerpBaiduOrganicTaskGetRegularResultInfo.md)[]
 
-Defined in: main.ts:79908
+Defined in: main.ts:79944
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:79916
+Defined in: main.ts:79952
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:79916
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:79938
+Defined in: main.ts:79974
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:79938
 
 > `static` **fromJS**(`data`): [`SerpBaiduOrganicTaskGetRegularTaskInfo`](SerpBaiduOrganicTaskGetRegularTaskInfo.md)
 
-Defined in: main.ts:79931
+Defined in: main.ts:79967
 
 #### Parameters
 

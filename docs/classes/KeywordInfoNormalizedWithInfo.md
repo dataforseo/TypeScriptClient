@@ -6,7 +6,7 @@
 
 # Class: KeywordInfoNormalizedWithInfo
 
-Defined in: main.ts:92596
+Defined in: main.ts:92634
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:92596
 
 > **new KeywordInfoNormalizedWithInfo**(`data`?): [`KeywordInfoNormalizedWithInfo`](KeywordInfoNormalizedWithInfo.md)
 
-Defined in: main.ts:92608
+Defined in: main.ts:92649
 
 #### Parameters
 
@@ -36,11 +36,26 @@ Defined in: main.ts:92608
 
 ## Properties
 
+### is\_normalized?
+
+> `optional` **is\_normalized**: `boolean`
+
+Defined in: main.ts:92642
+
+keyword info is normalized
+if true, values are normalized with Bing data
+
+#### Implementation of
+
+[`IKeywordInfoNormalizedWithInfo`](../interfaces/IKeywordInfoNormalizedWithInfo.md).[`is_normalized`](../interfaces/IKeywordInfoNormalizedWithInfo.md#is_normalized)
+
+***
+
 ### last\_updated\_time?
 
 > `optional` **last\_updated\_time**: `string`
 
-Defined in: main.ts:92599
+Defined in: main.ts:92637
 
 date and time when the clickstream dataset was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -55,7 +70,7 @@ in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 
 > `optional` **monthly\_searches**: [`MonthlySearches`](MonthlySearches.md)[]
 
-Defined in: main.ts:92604
+Defined in: main.ts:92645
 
 monthly clickstream search volume rates
 array of objects with clickstream search volume rates in a certain month of a year
@@ -70,7 +85,7 @@ array of objects with clickstream search volume rates in a certain month of a ye
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:92601
+Defined in: main.ts:92639
 
 monthly average clickstream search volume rate
 
@@ -84,7 +99,7 @@ monthly average clickstream search volume rate
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:92617
+Defined in: main.ts:92658
 
 #### Parameters
 
@@ -102,7 +117,7 @@ Defined in: main.ts:92617
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:92640
+Defined in: main.ts:92682
 
 #### Parameters
 
@@ -120,7 +135,7 @@ Defined in: main.ts:92640
 
 > `static` **fromJS**(`data`): [`KeywordInfoNormalizedWithInfo`](KeywordInfoNormalizedWithInfo.md)
 
-Defined in: main.ts:92633
+Defined in: main.ts:92675
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: BusinessDataSocialMediaRedditLiveResponseInfo
 
-Defined in: main.ts:230437
+Defined in: main.ts:230945
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:230437
 
 > **new BusinessDataSocialMediaRedditLiveResponseInfo**(`data`?): [`BusinessDataSocialMediaRedditLiveResponseInfo`](BusinessDataSocialMediaRedditLiveResponseInfo.md)
 
-Defined in: main.ts:230443
+Defined in: main.ts:230951
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BusinessDataSocialMediaRedditLiveTaskInfo`](BusinessDataSocialMediaRedditLiveTaskInfo.md)[]
 
-Defined in: main.ts:230439
+Defined in: main.ts:230947
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:230447
+Defined in: main.ts:230955
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:230447
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:230469
+Defined in: main.ts:230977
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:230469
 
 > `static` **fromJS**(`data`): [`BusinessDataSocialMediaRedditLiveResponseInfo`](BusinessDataSocialMediaRedditLiveResponseInfo.md)
 
-Defined in: main.ts:230462
+Defined in: main.ts:230970
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataDataforseoTrendsExploreLiveResultInfo
 
-Defined in: main.ts:136012
+Defined in: main.ts:136176
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:136012
 
 > **new KeywordsDataDataforseoTrendsExploreLiveResultInfo**(`data`?): [`KeywordsDataDataforseoTrendsExploreLiveResultInfo`](KeywordsDataDataforseoTrendsExploreLiveResultInfo.md)
 
-Defined in: main.ts:136035
+Defined in: main.ts:136199
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:136035
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:136027
+Defined in: main.ts:136191
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)[]
 
-Defined in: main.ts:136031
+Defined in: main.ts:136195
 
 contains keyword popularity and related data
 
@@ -71,7 +71,7 @@ contains keyword popularity and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:136029
+Defined in: main.ts:136193
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:136014
+Defined in: main.ts:136178
 
 keywords in a POST array
 
@@ -99,7 +99,7 @@ keywords in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:136022
+Defined in: main.ts:136186
 
 language code in a POST array
 if there is no data, then the value is null
@@ -114,7 +114,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:136019
+Defined in: main.ts:136183
 
 location code in a POST array
 if there is no data, then the value is null
@@ -129,7 +129,7 @@ if there is no data, then the value is null
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:136016
+Defined in: main.ts:136180
 
 type of element
 
@@ -143,7 +143,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:136044
+Defined in: main.ts:136208
 
 #### Parameters
 
@@ -161,7 +161,7 @@ Defined in: main.ts:136044
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:136075
+Defined in: main.ts:136239
 
 #### Parameters
 
@@ -179,7 +179,7 @@ Defined in: main.ts:136075
 
 > `static` **fromJS**(`data`): [`KeywordsDataDataforseoTrendsExploreLiveResultInfo`](KeywordsDataDataforseoTrendsExploreLiveResultInfo.md)
 
-Defined in: main.ts:136068
+Defined in: main.ts:136232
 
 #### Parameters
 

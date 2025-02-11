@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleOrganicLiveRegularRequestInfo
 
-Defined in: main.ts:38721
+Defined in: main.ts:38737
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:38721
 
 > **new SerpGoogleOrganicLiveRegularRequestInfo**(`data`?): [`SerpGoogleOrganicLiveRegularRequestInfo`](SerpGoogleOrganicLiveRegularRequestInfo.md)
 
-Defined in: main.ts:38842
+Defined in: main.ts:38858
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:38842
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:38802
+Defined in: main.ts:38818
 
 parsing depth
 optional field
@@ -61,7 +61,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:38779
+Defined in: main.ts:38795
 
 device type
 optional field
@@ -78,7 +78,7 @@ default value: desktop
 
 > `optional` **group\_organic\_results**: `boolean`
 
-Defined in: main.ts:38821
+Defined in: main.ts:38837
 
 display related results
 optional field
@@ -96,7 +96,7 @@ default value: true
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:38736
+Defined in: main.ts:38752
 
 keyword
 required field
@@ -104,7 +104,7 @@ you can specify up to 700 characters in the keyword field
 all %## will be decoded (plus character ‘+’ will be decoded to a space character)
 if you need to use the “%” character for your keyword, please specify it as “%25”;
 if you need to use the “+” character for your keyword, please specify it as “%2B”;
-if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘site:’, ‘-site:’, the charge per task will be multiplied by 5
+if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘site:’, the charge per task will be multiplied by 5
 Note: queries containing the ‘cache:’ parameter are not supported and will return a validation error
 
 #### Implementation of
@@ -117,7 +117,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:38774
+Defined in: main.ts:38790
 
 search engine language code
 required field if you don’t specify language_name
@@ -136,7 +136,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:38767
+Defined in: main.ts:38783
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -155,7 +155,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:38750
+Defined in: main.ts:38766
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -174,7 +174,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:38760
+Defined in: main.ts:38776
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -196,7 +196,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:38743
+Defined in: main.ts:38759
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -215,7 +215,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:38828
+Defined in: main.ts:38844
 
 page crawl limit
 optional field
@@ -234,7 +234,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:38786
+Defined in: main.ts:38802
 
 device operating system
 optional field
@@ -253,7 +253,7 @@ default value: android
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:38793
+Defined in: main.ts:38809
 
 search engine domain
 optional field
@@ -272,7 +272,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:38832
+Defined in: main.ts:38848
 
 additional parameters of the search query
 optional field
@@ -288,7 +288,7 @@ get the list of available parameters and additional details here
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:38838
+Defined in: main.ts:38854
 
 user-defined task identifier
 optional field
@@ -306,7 +306,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:38815
+Defined in: main.ts:38831
 
 target domain, subdomain, or webpage to get results for
 optional field
@@ -331,7 +331,7 @@ example.com/example-page*  – returns results for all domain’s URLs that star
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:38727
+Defined in: main.ts:38743
 
 direct URL of the search query
 optional field
@@ -349,7 +349,7 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:38851
+Defined in: main.ts:38867
 
 #### Parameters
 
@@ -367,7 +367,7 @@ Defined in: main.ts:38851
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:38883
+Defined in: main.ts:38899
 
 #### Parameters
 
@@ -385,7 +385,7 @@ Defined in: main.ts:38883
 
 > `static` **fromJS**(`data`): [`SerpGoogleOrganicLiveRegularRequestInfo`](SerpGoogleOrganicLiveRegularRequestInfo.md)
 
-Defined in: main.ts:38876
+Defined in: main.ts:38892
 
 #### Parameters
 

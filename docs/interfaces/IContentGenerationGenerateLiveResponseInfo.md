@@ -6,7 +6,7 @@
 
 # Interface: IContentGenerationGenerateLiveResponseInfo
 
-Defined in: main.ts:181553
+Defined in: main.ts:181915
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`ContentGenerationGenerateLiveTaskInfo`](../classes/ContentGenerationGenerateLiveTaskInfo.md)[]
 
-Defined in: main.ts:181555
+Defined in: main.ts:181917
 
 array of tasks
 

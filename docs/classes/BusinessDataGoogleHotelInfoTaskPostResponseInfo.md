@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleHotelInfoTaskPostResponseInfo
 
-Defined in: main.ts:218741
+Defined in: main.ts:219243
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:218741
 
 > **new BusinessDataGoogleHotelInfoTaskPostResponseInfo**(`data`?): [`BusinessDataGoogleHotelInfoTaskPostResponseInfo`](BusinessDataGoogleHotelInfoTaskPostResponseInfo.md)
 
-Defined in: main.ts:218747
+Defined in: main.ts:219249
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BusinessDataGoogleHotelInfoTaskPostTaskInfo`](BusinessDataGoogleHotelInfoTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:218743
+Defined in: main.ts:219245
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:218751
+Defined in: main.ts:219253
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:218751
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:218773
+Defined in: main.ts:219275
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:218773
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleHotelInfoTaskPostResponseInfo`](BusinessDataGoogleHotelInfoTaskPostResponseInfo.md)
 
-Defined in: main.ts:218766
+Defined in: main.ts:219268
 
 #### Parameters
 

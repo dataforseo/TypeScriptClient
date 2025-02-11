@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleSellersTasksReadyResponseInfo
 
-Defined in: main.ts:187895
+Defined in: main.ts:188269
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:187895
 
 > **new MerchantGoogleSellersTasksReadyResponseInfo**(`data`?): [`MerchantGoogleSellersTasksReadyResponseInfo`](MerchantGoogleSellersTasksReadyResponseInfo.md)
 
-Defined in: main.ts:187901
+Defined in: main.ts:188275
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`MerchantGoogleSellersTasksReadyTaskInfo`](MerchantGoogleSellersTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:187897
+Defined in: main.ts:188271
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:187905
+Defined in: main.ts:188279
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:187905
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:187927
+Defined in: main.ts:188301
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:187927
 
 > `static` **fromJS**(`data`): [`MerchantGoogleSellersTasksReadyResponseInfo`](MerchantGoogleSellersTasksReadyResponseInfo.md)
 
-Defined in: main.ts:187920
+Defined in: main.ts:188294
 
 #### Parameters
 

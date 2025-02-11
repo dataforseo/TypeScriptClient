@@ -6,7 +6,7 @@
 
 # Class: BusinessDataBusinessListingsSearchLiveItem
 
-Defined in: main.ts:211236
+Defined in: main.ts:211738
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:211236
 
 > **new BusinessDataBusinessListingsSearchLiveItem**(`data`?): [`BusinessDataBusinessListingsSearchLiveItem`](BusinessDataBusinessListingsSearchLiveItem.md)
 
-Defined in: main.ts:211348
+Defined in: main.ts:211850
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:211348
 
 > `optional` **additional\_categories**: `string`[]
 
-Defined in: main.ts:211253
+Defined in: main.ts:211755
 
 additional business categories
 additional Google My Business categories that describe the services provided by the business entity in more detail
@@ -55,7 +55,7 @@ additional Google My Business categories that describe the services provided by 
 
 > `optional` **address**: `string`
 
-Defined in: main.ts:211262
+Defined in: main.ts:211764
 
 address of the business entity
 
@@ -69,7 +69,7 @@ address of the business entity
 
 > `optional` **address\_info**: [`AddressInfo`](AddressInfo.md)
 
-Defined in: main.ts:211264
+Defined in: main.ts:211766
 
 object containing address components of the business entity
 
@@ -83,7 +83,7 @@ object containing address components of the business entity
 
 > `optional` **attributes**: [`BusinessDataAttributesInfo`](BusinessDataAttributesInfo.md)
 
-Defined in: main.ts:211295
+Defined in: main.ts:211797
 
 service details in a form of user-reviewed checks;
 service details of a business entity displayed in a form of checks and based on user feedback and business category
@@ -98,7 +98,7 @@ service details of a business entity displayed in a form of checks and based on 
 
 > `optional` **category**: `string`
 
-Defined in: main.ts:211247
+Defined in: main.ts:211749
 
 business category
 Google My Business general category that best describes the services provided by the business entity
@@ -113,7 +113,7 @@ Google My Business general category that best describes the services provided by
 
 > `optional` **category\_ids**: `string`[]
 
-Defined in: main.ts:211250
+Defined in: main.ts:211752
 
 global category IDs
 universal category IDs that do not change based on the selected country
@@ -128,7 +128,7 @@ universal category IDs that do not change based on the selected country
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:211334
+Defined in: main.ts:211836
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -143,7 +143,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:211257
+Defined in: main.ts:211759
 
 google-defined client id
 unique id of a local establishment
@@ -159,7 +159,7 @@ learn more about the identifier in this help center article
 
 > `optional` **contact\_info**: [`BusinessDataContactInfo`](BusinessDataContactInfo.md)[]
 
-Defined in: main.ts:211331
+Defined in: main.ts:211833
 
 available contacts of the business
 list of contacts to interact with the business
@@ -174,7 +174,7 @@ list of contacts to interact with the business
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:211244
+Defined in: main.ts:211746
 
 description of the element in SERP
 the description of the business entity for which the results are collected
@@ -189,7 +189,7 @@ the description of the business entity for which the results are collected
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:211274
+Defined in: main.ts:211776
 
 domain of the business entity
 
@@ -203,7 +203,7 @@ domain of the business entity
 
 > `optional` **feature\_id**: `string`
 
-Defined in: main.ts:211260
+Defined in: main.ts:211762
 
 the unique identifier of the element in SERP
 learn more about the identifier in this help center article
@@ -218,7 +218,7 @@ learn more about the identifier in this help center article
 
 > `optional` **first\_seen**: `string`
 
-Defined in: main.ts:211344
+Defined in: main.ts:211846
 
 date and time when our crawler found the business listing element for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -235,7 +235,7 @@ example:
 
 > `optional` **hotel\_rating**: `number`
 
-Defined in: main.ts:211310
+Defined in: main.ts:211812
 
 hotel class rating
 class ratings range between 1-5 stars, learn more
@@ -251,7 +251,7 @@ if there is no hotel class rating information, the value will be null
 
 > `optional` **is\_claimed**: `boolean`
 
-Defined in: main.ts:211292
+Defined in: main.ts:211794
 
 shows whether the entity is verified by its owner on Google Maps
 
@@ -265,7 +265,7 @@ shows whether the entity is verified by its owner on Google Maps
 
 > `optional` **last\_updated\_time**: `string`
 
-Defined in: main.ts:211339
+Defined in: main.ts:211841
 
 date and time when the data was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -282,7 +282,7 @@ example:
 
 > `optional` **latitude**: `number`
 
-Defined in: main.ts:211286
+Defined in: main.ts:211788
 
 latitude coordinate of the local establishments in google maps
 example:
@@ -298,7 +298,7 @@ example:
 
 > `optional` **local\_business\_links**: [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)[]
 
-Defined in: main.ts:211328
+Defined in: main.ts:211830
 
 available interactions with the business
 list of options to interact with the business directly from search results
@@ -313,7 +313,7 @@ list of options to interact with the business directly from search results
 
 > `optional` **logo**: `string`
 
-Defined in: main.ts:211276
+Defined in: main.ts:211778
 
 URL of the logo featured in Google My Business profile
 
@@ -327,7 +327,7 @@ URL of the logo featured in Google My Business profile
 
 > `optional` **longitude**: `number`
 
-Defined in: main.ts:211290
+Defined in: main.ts:211792
 
 longitude coordinate of the local establishment in google maps
 example:
@@ -343,7 +343,7 @@ example:
 
 > `optional` **main\_image**: `string`
 
-Defined in: main.ts:211278
+Defined in: main.ts:211780
 
 URL of the main image featured in Google My Business profile
 
@@ -357,7 +357,7 @@ URL of the main image featured in Google My Business profile
 
 > `optional` **people\_also\_search**: [`PeopleAlsoSearch`](PeopleAlsoSearch.md)[]
 
-Defined in: main.ts:211319
+Defined in: main.ts:211821
 
 related business entities
 
@@ -371,7 +371,7 @@ related business entities
 
 > `optional` **phone**: `string`
 
-Defined in: main.ts:211270
+Defined in: main.ts:211772
 
 phone number of the business entity
 
@@ -385,7 +385,7 @@ phone number of the business entity
 
 > `optional` **place\_id**: `string`
 
-Defined in: main.ts:211268
+Defined in: main.ts:211770
 
 unique place identifier
 place id of the local establishment featured in the element
@@ -401,7 +401,7 @@ learn more about the identifier in this help center article
 
 > `optional` **place\_topics**: `object`
 
-Defined in: main.ts:211303
+Defined in: main.ts:211805
 
 keywords mentioned in customer reviews
 contains most popular keywords related to products/services mentioned in customer reviews of a business entity and the number of reviews mentioning each keyword
@@ -425,7 +425,7 @@ example:
 
 > `optional` **popular\_times**: [`PopularTimes`](PopularTimes.md)
 
-Defined in: main.ts:211325
+Defined in: main.ts:211827
 
 popular times
 information related to busy hours of the business entity
@@ -440,7 +440,7 @@ information related to busy hours of the business entity
 
 > `optional` **price\_level**: `string`
 
-Defined in: main.ts:211314
+Defined in: main.ts:211816
 
 property price level
 can take values: inexpensive, moderate, expensive, very_expensive
@@ -456,7 +456,7 @@ if there is no price level information, the value will be null
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:211306
+Defined in: main.ts:211808
 
 the element’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -471,7 +471,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **rating\_distribution**: `object`
 
-Defined in: main.ts:211317
+Defined in: main.ts:211819
 
 the distribution of ratings of the business entity
 the object displays the number of 1-star to 5-star ratings, as reviewed by users
@@ -490,7 +490,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:211282
+Defined in: main.ts:211784
 
 additional information on the business entity
 
@@ -504,7 +504,7 @@ additional information on the business entity
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:211241
+Defined in: main.ts:211743
 
 title of the element in SERP
 the name of the business entity for which the results are collected
@@ -519,7 +519,7 @@ the name of the business entity for which the results are collected
 
 > `optional` **total\_photos**: `number`
 
-Defined in: main.ts:211280
+Defined in: main.ts:211782
 
 total count of images featured in Google My Business profile
 
@@ -533,7 +533,7 @@ total count of images featured in Google My Business profile
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:211238
+Defined in: main.ts:211740
 
 type of element
 
@@ -547,7 +547,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:211272
+Defined in: main.ts:211774
 
 absolute url of the business entity
 
@@ -561,7 +561,7 @@ absolute url of the business entity
 
 > `optional` **work\_time**: [`WorkTime`](WorkTime.md)
 
-Defined in: main.ts:211322
+Defined in: main.ts:211824
 
 work time details
 information related to operational hours of the business entity
@@ -576,7 +576,7 @@ information related to operational hours of the business entity
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:211357
+Defined in: main.ts:211859
 
 #### Parameters
 
@@ -594,7 +594,7 @@ Defined in: main.ts:211357
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:211440
+Defined in: main.ts:211942
 
 #### Parameters
 
@@ -612,7 +612,7 @@ Defined in: main.ts:211440
 
 > `static` **fromJS**(`data`): [`BusinessDataBusinessListingsSearchLiveItem`](BusinessDataBusinessListingsSearchLiveItem.md)
 
-Defined in: main.ts:211433
+Defined in: main.ts:211935
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleLanguagesResultInfo
 
-Defined in: main.ts:184698
+Defined in: main.ts:185060
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:184698
 
 > **new MerchantGoogleLanguagesResultInfo**(`data`?): [`MerchantGoogleLanguagesResultInfo`](MerchantGoogleLanguagesResultInfo.md)
 
-Defined in: main.ts:184706
+Defined in: main.ts:185068
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:184706
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:184702
+Defined in: main.ts:185064
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:184700
+Defined in: main.ts:185062
 
 language name
 
@@ -68,7 +68,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:184715
+Defined in: main.ts:185077
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:184715
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:184733
+Defined in: main.ts:185095
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:184733
 
 > `static` **fromJS**(`data`): [`MerchantGoogleLanguagesResultInfo`](MerchantGoogleLanguagesResultInfo.md)
 
-Defined in: main.ts:184726
+Defined in: main.ts:185088
 
 #### Parameters
 

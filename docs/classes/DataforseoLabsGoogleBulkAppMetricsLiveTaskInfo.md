@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleBulkAppMetricsLiveTaskInfo
 
-Defined in: main.ts:121168
+Defined in: main.ts:121284
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:121168
 
 > **new DataforseoLabsGoogleBulkAppMetricsLiveTaskInfo**(`data`?): [`DataforseoLabsGoogleBulkAppMetricsLiveTaskInfo`](DataforseoLabsGoogleBulkAppMetricsLiveTaskInfo.md)
 
-Defined in: main.ts:121174
+Defined in: main.ts:121290
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleBulkAppMetricsLiveResultInfo`](DataforseoLabsGoogleBulkAppMetricsLiveResultInfo.md)[]
 
-Defined in: main.ts:121170
+Defined in: main.ts:121286
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:121178
+Defined in: main.ts:121294
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:121178
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:121200
+Defined in: main.ts:121316
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:121200
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleBulkAppMetricsLiveTaskInfo`](DataforseoLabsGoogleBulkAppMetricsLiveTaskInfo.md)
 
-Defined in: main.ts:121193
+Defined in: main.ts:121309
 
 #### Parameters
 

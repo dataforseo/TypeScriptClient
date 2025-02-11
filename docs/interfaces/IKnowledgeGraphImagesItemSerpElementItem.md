@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphImagesItemSerpElementItem
 
-Defined in: main.ts:29814
+Defined in: main.ts:29822
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:29814
 
 > `optional` **items**: [`KnowledgeGraphImagesElement`](../classes/KnowledgeGraphImagesElement.md)[]
 
-Defined in: main.ts:29818
+Defined in: main.ts:29826
 
 items featured in the faq_box
 
@@ -32,7 +32,7 @@ items featured in the faq_box
 
 > `optional` **link**: [`LinkElement`](../classes/LinkElement.md)
 
-Defined in: main.ts:29816
+Defined in: main.ts:29824
 
 link of the element
 
@@ -89,7 +89,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:29822
+Defined in: main.ts:29830
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP

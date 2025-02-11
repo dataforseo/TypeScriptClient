@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeVideoInfoLiveAdvancedRequestInfo
 
-Defined in: main.ts:70998
+Defined in: main.ts:71034
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:70998
 
 > **new SerpYoutubeVideoInfoLiveAdvancedRequestInfo**(`data`?): [`SerpYoutubeVideoInfoLiveAdvancedRequestInfo`](SerpYoutubeVideoInfoLiveAdvancedRequestInfo.md)
 
-Defined in: main.ts:71051
+Defined in: main.ts:71087
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:71051
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:71036
+Defined in: main.ts:71072
 
 device type
 optional field
@@ -56,7 +56,7 @@ only value: desktop
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:71032
+Defined in: main.ts:71068
 
 search engine language code
 required field if you don’t specify language_name
@@ -75,7 +75,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:71025
+Defined in: main.ts:71061
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -94,7 +94,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:71018
+Defined in: main.ts:71054
 
 search engine location code
 required field if you don’t specify location_name 
@@ -113,7 +113,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:71011
+Defined in: main.ts:71047
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -132,7 +132,7 @@ United States
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:71041
+Defined in: main.ts:71077
 
 device operating system
 optional field
@@ -149,7 +149,7 @@ default value: windows
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:71047
+Defined in: main.ts:71083
 
 user-defined task identifier
 optional field
@@ -167,7 +167,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **video\_id**: `string`
 
-Defined in: main.ts:71004
+Defined in: main.ts:71040
 
 ID of the video
 required field
@@ -185,7 +185,7 @@ vQXvyV0zIP4
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:71060
+Defined in: main.ts:71096
 
 #### Parameters
 
@@ -203,7 +203,7 @@ Defined in: main.ts:71060
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:71084
+Defined in: main.ts:71120
 
 #### Parameters
 
@@ -221,7 +221,7 @@ Defined in: main.ts:71084
 
 > `static` **fromJS**(`data`): [`SerpYoutubeVideoInfoLiveAdvancedRequestInfo`](SerpYoutubeVideoInfoLiveAdvancedRequestInfo.md)
 
-Defined in: main.ts:71077
+Defined in: main.ts:71113
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: OnPageLighthouseVersionsResponseInfo
 
-Defined in: main.ts:175365
+Defined in: main.ts:175729
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:175365
 
 > **new OnPageLighthouseVersionsResponseInfo**(`data`?): [`OnPageLighthouseVersionsResponseInfo`](OnPageLighthouseVersionsResponseInfo.md)
 
-Defined in: main.ts:175371
+Defined in: main.ts:175735
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageLighthouseVersionsTaskInfo`](OnPageLighthouseVersionsTaskInfo.md)[]
 
-Defined in: main.ts:175367
+Defined in: main.ts:175731
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:175375
+Defined in: main.ts:175739
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:175375
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:175397
+Defined in: main.ts:175761
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:175397
 
 > `static` **fromJS**(`data`): [`OnPageLighthouseVersionsResponseInfo`](OnPageLighthouseVersionsResponseInfo.md)
 
-Defined in: main.ts:175390
+Defined in: main.ts:175754
 
 #### Parameters
 

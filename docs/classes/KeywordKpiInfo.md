@@ -6,7 +6,7 @@
 
 # Class: KeywordKpiInfo
 
-Defined in: main.ts:144984
+Defined in: main.ts:145148
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:144984
 
 > **new KeywordKpiInfo**(`data`?): [`KeywordKpiInfo`](KeywordKpiInfo.md)
 
-Defined in: main.ts:145022
+Defined in: main.ts:145186
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:145022
 
 > `optional` **ad\_position**: `string`
 
-Defined in: main.ts:145001
+Defined in: main.ts:145165
 
 represents the position of the relevant ad in SERP
 can take the following values:
@@ -69,7 +69,7 @@ MainLine4: The fourth ad to appear at the top of the search results page
 
 > `optional` **average\_bid**: `number`
 
-Defined in: main.ts:145018
+Defined in: main.ts:145182
 
 average bid of the keyword
 
@@ -83,7 +83,7 @@ average bid of the keyword
 
 > `optional` **average\_cpc**: `number`
 
-Defined in: main.ts:145010
+Defined in: main.ts:145174
 
 average cost per click, USD
 calculated by dividing the cost of all clicks by the number of clicks
@@ -98,7 +98,7 @@ calculated by dividing the cost of all clicks by the number of clicks
 
 > `optional` **clicks**: `number`
 
-Defined in: main.ts:145004
+Defined in: main.ts:145168
 
 ad clicks
 the number of clicks that the keyword and match type generated during the last month
@@ -113,7 +113,7 @@ the number of clicks that the keyword and match type generated during the last m
 
 > `optional` **ctr**: `number`
 
-Defined in: main.ts:145013
+Defined in: main.ts:145177
 
 click-through rate as a percentage
 calculated by dividing the number of clicks by the number of impressions and multiplying the result by 100
@@ -128,7 +128,7 @@ calculated by dividing the number of clicks by the number of impressions and mul
 
 > `optional` **impressions**: `number`
 
-Defined in: main.ts:145007
+Defined in: main.ts:145171
 
 ad impressions
 the number of impressions that the keyword and match type generated during the last month
@@ -143,7 +143,7 @@ the number of impressions that the keyword and match type generated during the l
 
 > `optional` **total\_cost**: `number`
 
-Defined in: main.ts:145016
+Defined in: main.ts:145180
 
 total cost of an ad, USD
 the cost of using the specified keyword and match type during the last month
@@ -158,7 +158,7 @@ the cost of using the specified keyword and match type during the last month
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:145031
+Defined in: main.ts:145195
 
 #### Parameters
 
@@ -176,7 +176,7 @@ Defined in: main.ts:145031
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:145054
+Defined in: main.ts:145218
 
 #### Parameters
 
@@ -194,7 +194,7 @@ Defined in: main.ts:145054
 
 > `static` **fromJS**(`data`): [`KeywordKpiInfo`](KeywordKpiInfo.md)
 
-Defined in: main.ts:145047
+Defined in: main.ts:145211
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingSearchVolumeLiveTaskInfo
 
-Defined in: main.ts:139824
+Defined in: main.ts:139988
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataBingSearchVolumeLiveResultInfo`](../classes/KeywordsDataBingSearchVolumeLiveResultInfo.md)[]
 
-Defined in: main.ts:139826
+Defined in: main.ts:139990
 
 array of results
 

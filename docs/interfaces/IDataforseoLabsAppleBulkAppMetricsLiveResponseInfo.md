@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo
 
-Defined in: main.ts:123537
+Defined in: main.ts:123653
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsAppleBulkAppMetricsLiveTaskInfo`](../classes/DataforseoLabsAppleBulkAppMetricsLiveTaskInfo.md)[]
 
-Defined in: main.ts:123539
+Defined in: main.ts:123655
 
 array of tasks
 

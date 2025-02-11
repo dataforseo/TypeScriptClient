@@ -6,7 +6,7 @@
 
 # Class: GoogleAdsAdvertisersAdsDomainSerpElementItem
 
-Defined in: main.ts:61205
+Defined in: main.ts:61227
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:61205
 
 > **new GoogleAdsAdvertisersAdsDomainSerpElementItem**(`data`?): [`GoogleAdsAdvertisersAdsDomainSerpElementItem`](GoogleAdsAdvertisersAdsDomainSerpElementItem.md)
 
-Defined in: main.ts:61211
+Defined in: main.ts:61233
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: main.ts:61211
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:60985
+Defined in: main.ts:61007
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: main.ts:60985
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:61207
+Defined in: main.ts:61229
 
 domain in SERP
 
@@ -74,7 +74,7 @@ domain in SERP
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:60983
+Defined in: main.ts:61005
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -93,7 +93,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:60980
+Defined in: main.ts:61002
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -113,7 +113,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:60976
+Defined in: main.ts:60998
 
 type of element
 
@@ -131,7 +131,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:61216
+Defined in: main.ts:61238
 
 #### Parameters
 
@@ -153,7 +153,7 @@ Defined in: main.ts:61216
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:61234
+Defined in: main.ts:61256
 
 #### Parameters
 
@@ -175,7 +175,7 @@ Defined in: main.ts:61234
 
 > `static` **fromJS**(`data`): [`GoogleAdsAdvertisersAdsDomainSerpElementItem`](GoogleAdsAdvertisersAdsDomainSerpElementItem.md)
 
-Defined in: main.ts:61227
+Defined in: main.ts:61249
 
 #### Parameters
 

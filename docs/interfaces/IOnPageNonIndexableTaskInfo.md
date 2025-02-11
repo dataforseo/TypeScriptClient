@@ -6,7 +6,7 @@
 
 # Interface: IOnPageNonIndexableTaskInfo
 
-Defined in: main.ts:170626
+Defined in: main.ts:170790
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`OnPageNonIndexableResultInfo`](../classes/OnPageNonIndexableResultInfo.md)[]
 
-Defined in: main.ts:170628
+Defined in: main.ts:170792
 
 array of results
 

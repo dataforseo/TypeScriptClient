@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleAvailableHistoryResponseInfo
 
-Defined in: main.ts:91981
+Defined in: main.ts:92017
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsGoogleAvailableHistoryTaskInfo`](../classes/DataforseoLabsGoogleAvailableHistoryTaskInfo.md)[]
 
-Defined in: main.ts:91983
+Defined in: main.ts:92019
 
 array of tasks
 

@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataTripadvisorSearchTaskPostTaskInfo
 
-Defined in: main.ts:227929
+Defined in: main.ts:228437
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:227932
+Defined in: main.ts:228440
 
 array of results
 in this case, the value will be null

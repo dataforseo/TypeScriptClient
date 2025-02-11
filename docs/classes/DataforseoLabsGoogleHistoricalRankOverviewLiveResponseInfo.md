@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleHistoricalRankOverviewLiveResponseInfo
 
-Defined in: main.ts:109829
+Defined in: main.ts:109885
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:109829
 
 > **new DataforseoLabsGoogleHistoricalRankOverviewLiveResponseInfo**(`data`?): [`DataforseoLabsGoogleHistoricalRankOverviewLiveResponseInfo`](DataforseoLabsGoogleHistoricalRankOverviewLiveResponseInfo.md)
 
-Defined in: main.ts:109835
+Defined in: main.ts:109891
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsGoogleHistoricalRankOverviewLiveTaskInfo`](DataforseoLabsGoogleHistoricalRankOverviewLiveTaskInfo.md)[]
 
-Defined in: main.ts:109831
+Defined in: main.ts:109887
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:109839
+Defined in: main.ts:109895
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:109839
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:109861
+Defined in: main.ts:109917
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:109861
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalRankOverviewLiveResponseInfo`](DataforseoLabsGoogleHistoricalRankOverviewLiveResponseInfo.md)
 
-Defined in: main.ts:109854
+Defined in: main.ts:109910
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: MerchantErrorsResponseInfo
 
-Defined in: main.ts:184643
+Defined in: main.ts:185005
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:184643
 
 > **new MerchantErrorsResponseInfo**(`data`?): [`MerchantErrorsResponseInfo`](MerchantErrorsResponseInfo.md)
 
-Defined in: main.ts:184649
+Defined in: main.ts:185011
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`MerchantErrorsTaskInfo`](MerchantErrorsTaskInfo.md)[]
 
-Defined in: main.ts:184645
+Defined in: main.ts:185007
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:184653
+Defined in: main.ts:185015
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:184653
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:184675
+Defined in: main.ts:185037
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:184675
 
 > `static` **fromJS**(`data`): [`MerchantErrorsResponseInfo`](MerchantErrorsResponseInfo.md)
 
-Defined in: main.ts:184668
+Defined in: main.ts:185030
 
 #### Parameters
 

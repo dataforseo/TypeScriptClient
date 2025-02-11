@@ -6,7 +6,7 @@
 
 # Interface: IOnPageLighthouseTasksReadyTaskInfo
 
-Defined in: main.ts:175876
+Defined in: main.ts:176240
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`OnPageLighthouseTasksReadyResultInfo`](../classes/OnPageLighthouseTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:175878
+Defined in: main.ts:176242
 
 array of results
 

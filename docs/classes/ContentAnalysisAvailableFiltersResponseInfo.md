@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisAvailableFiltersResponseInfo
 
-Defined in: main.ts:176815
+Defined in: main.ts:177179
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:176815
 
 > **new ContentAnalysisAvailableFiltersResponseInfo**(`data`?): [`ContentAnalysisAvailableFiltersResponseInfo`](ContentAnalysisAvailableFiltersResponseInfo.md)
 
-Defined in: main.ts:176820
+Defined in: main.ts:177184
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`ContentAnalysisAvailableFiltersTaskInfo`](ContentAnalysisAvailableFiltersTaskInfo.md)[]
 
-Defined in: main.ts:176816
+Defined in: main.ts:177180
 
 #### Implementation of
 
@@ -188,7 +188,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:176824
+Defined in: main.ts:177188
 
 #### Parameters
 
@@ -210,7 +210,7 @@ Defined in: main.ts:176824
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:176846
+Defined in: main.ts:177210
 
 #### Parameters
 
@@ -232,7 +232,7 @@ Defined in: main.ts:176846
 
 > `static` **fromJS**(`data`): [`ContentAnalysisAvailableFiltersResponseInfo`](ContentAnalysisAvailableFiltersResponseInfo.md)
 
-Defined in: main.ts:176839
+Defined in: main.ts:177203
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IPopularProductsElement
 
-Defined in: main.ts:34712
+Defined in: main.ts:34728
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:34712
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:34718
+Defined in: main.ts:34734
 
 description
 
@@ -28,7 +28,7 @@ description
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:34723
+Defined in: main.ts:34739
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -39,7 +39,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-Defined in: main.ts:34725
+Defined in: main.ts:34741
 
 price indicated in the element
 
@@ -49,7 +49,7 @@ price indicated in the element
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:34728
+Defined in: main.ts:34744
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -60,7 +60,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **seller**: `string`
 
-Defined in: main.ts:34720
+Defined in: main.ts:34736
 
 seller of the product
 
@@ -70,7 +70,7 @@ seller of the product
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:34716
+Defined in: main.ts:34732
 
 title of a given link element
 
@@ -80,6 +80,6 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:34714
+Defined in: main.ts:34730
 
 type of element

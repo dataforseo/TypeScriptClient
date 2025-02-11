@@ -6,7 +6,7 @@
 
 # Interface: IAppDataAppleAppInfoTaskGetAdvancedResultInfo
 
-Defined in: main.ts:206897
+Defined in: main.ts:207399
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:206897
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:206899
+Defined in: main.ts:207401
 
 application id received in a POST request
 
@@ -28,7 +28,7 @@ application id received in a POST request
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:206908
+Defined in: main.ts:207410
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -39,7 +39,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:206913
+Defined in: main.ts:207415
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -52,7 +52,7 @@ example:
 
 > `optional` **items**: [`BaseAppDataSerpElementItem`](../classes/BaseAppDataSerpElementItem.md)[]
 
-Defined in: main.ts:206919
+Defined in: main.ts:207421
 
 found app info
 
@@ -62,7 +62,7 @@ found app info
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:206917
+Defined in: main.ts:207419
 
 the number of items in the results array
 
@@ -72,7 +72,7 @@ the number of items in the results array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:206905
+Defined in: main.ts:207407
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:206903
+Defined in: main.ts:207405
 
 location code in a POST array
 
@@ -92,7 +92,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:206901
+Defined in: main.ts:207403
 
 search engine domain in a POST array
 
@@ -102,6 +102,6 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:206915
+Defined in: main.ts:207417
 
 the total number of results

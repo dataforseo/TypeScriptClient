@@ -6,7 +6,7 @@
 
 # Class: BacklinksDomainIntersectionLiveTaskInfo
 
-Defined in: main.ts:158146
+Defined in: main.ts:158310
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:158146
 
 > **new BacklinksDomainIntersectionLiveTaskInfo**(`data`?): [`BacklinksDomainIntersectionLiveTaskInfo`](BacklinksDomainIntersectionLiveTaskInfo.md)
 
-Defined in: main.ts:158152
+Defined in: main.ts:158316
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`BacklinksDomainIntersectionLiveResultInfo`](BacklinksDomainIntersectionLiveResultInfo.md)[]
 
-Defined in: main.ts:158148
+Defined in: main.ts:158312
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:158156
+Defined in: main.ts:158320
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:158156
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:158178
+Defined in: main.ts:158342
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:158178
 
 > `static` **fromJS**(`data`): [`BacklinksDomainIntersectionLiveTaskInfo`](BacklinksDomainIntersectionLiveTaskInfo.md)
 
-Defined in: main.ts:158171
+Defined in: main.ts:158335
 
 #### Parameters
 

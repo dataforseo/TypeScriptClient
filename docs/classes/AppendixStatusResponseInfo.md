@@ -6,7 +6,7 @@
 
 # Class: AppendixStatusResponseInfo
 
-Defined in: main.ts:239673
+Defined in: main.ts:240101
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:239673
 
 > **new AppendixStatusResponseInfo**(`data`?): [`AppendixStatusResponseInfo`](AppendixStatusResponseInfo.md)
 
-Defined in: main.ts:239679
+Defined in: main.ts:240107
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppendixStatusTaskInfo`](AppendixStatusTaskInfo.md)[]
 
-Defined in: main.ts:239675
+Defined in: main.ts:240103
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:239683
+Defined in: main.ts:240111
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:239683
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:239705
+Defined in: main.ts:240133
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:239705
 
 > `static` **fromJS**(`data`): [`AppendixStatusResponseInfo`](AppendixStatusResponseInfo.md)
 
-Defined in: main.ts:239698
+Defined in: main.ts:240126
 
 #### Parameters
 

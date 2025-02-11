@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo
 
-Defined in: main.ts:147616
+Defined in: main.ts:147780
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:147616
 
 > **new KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo**(`data`?): [`KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo`](KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo.md)
 
-Defined in: main.ts:147666
+Defined in: main.ts:147830
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:147666
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:147625
+Defined in: main.ts:147789
 
 target keywords
 required field
@@ -61,7 +61,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:147649
+Defined in: main.ts:147813
 
 search engine language code
 required field if don’t specify language_name
@@ -79,7 +79,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:147643
+Defined in: main.ts:147807
 
 full name of search engine language
 required field if don’t specify language_code
@@ -97,7 +97,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:147637
+Defined in: main.ts:147801
 
 search engine location code
 required field if you don’t specify location_name
@@ -115,7 +115,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:147631
+Defined in: main.ts:147795
 
 full name of search engine location
 required field if you don’t specify location_code 
@@ -133,7 +133,7 @@ London,England,United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:147662
+Defined in: main.ts:147826
 
 user-defined task identifier
 optional field
@@ -151,7 +151,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **use\_clickstream**: `boolean`
 
-Defined in: main.ts:147656
+Defined in: main.ts:147820
 
 use clickstream data to provide results
 optional field
@@ -170,7 +170,7 @@ Note: some locations may not be available for calculating Bing search volume, in
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:147675
+Defined in: main.ts:147839
 
 #### Parameters
 
@@ -188,7 +188,7 @@ Defined in: main.ts:147675
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:147702
+Defined in: main.ts:147866
 
 #### Parameters
 
@@ -206,7 +206,7 @@ Defined in: main.ts:147702
 
 > `static` **fromJS**(`data`): [`KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo`](KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo.md)
 
-Defined in: main.ts:147695
+Defined in: main.ts:147859
 
 #### Parameters
 

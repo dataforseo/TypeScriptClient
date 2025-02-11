@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleDatasetSearchTaskGetAdvancedTaskInfo
 
-Defined in: main.ts:58248
+Defined in: main.ts:58264
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:58248
 
 > **new SerpGoogleDatasetSearchTaskGetAdvancedTaskInfo**(`data`?): [`SerpGoogleDatasetSearchTaskGetAdvancedTaskInfo`](SerpGoogleDatasetSearchTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:58254
+Defined in: main.ts:58270
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleDatasetSearchTaskGetAdvancedResultInfo`](SerpGoogleDatasetSearchTaskGetAdvancedResultInfo.md)[]
 
-Defined in: main.ts:58250
+Defined in: main.ts:58266
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:58258
+Defined in: main.ts:58274
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:58258
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:58280
+Defined in: main.ts:58296
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:58280
 
 > `static` **fromJS**(`data`): [`SerpGoogleDatasetSearchTaskGetAdvancedTaskInfo`](SerpGoogleDatasetSearchTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:58273
+Defined in: main.ts:58289
 
 #### Parameters
 

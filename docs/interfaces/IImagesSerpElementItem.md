@@ -6,7 +6,7 @@
 
 # Interface: IImagesSerpElementItem
 
-Defined in: main.ts:32243
+Defined in: main.ts:32251
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:32243
 
 > `optional` **items**: [`ImagesElement`](../classes/ImagesElement.md)[]
 
-Defined in: main.ts:32249
+Defined in: main.ts:32257
 
 contains arrays of specific images
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:32256
+Defined in: main.ts:32264
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -91,7 +91,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **related\_image\_searches**: [`RelatedImageSearchesElement`](../classes/RelatedImageSearchesElement.md)[]
 
-Defined in: main.ts:32252
+Defined in: main.ts:32260
 
 contains keywords and images related to the specified search term
 if there are none, equals null
@@ -102,7 +102,7 @@ if there are none, equals null
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:32245
+Defined in: main.ts:32253
 
 title of the row
 
@@ -126,7 +126,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:32247
+Defined in: main.ts:32255
 
 source URL
 

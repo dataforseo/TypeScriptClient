@@ -6,7 +6,7 @@
 
 # Interface: IAppDataAppStoreReviewsSearchSerpElementItem
 
-Defined in: main.ts:208439
+Defined in: main.ts:208941
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:208439
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:208449
+Defined in: main.ts:208951
 
 id of the review
 
@@ -92,7 +92,7 @@ average rating of the app
 
 > `optional` **review\_text**: `string`
 
-Defined in: main.ts:208451
+Defined in: main.ts:208953
 
 content of the review
 
@@ -102,7 +102,7 @@ content of the review
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:208447
+Defined in: main.ts:208949
 
 date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -143,7 +143,7 @@ type of element
 
 > `optional` **user\_profile**: [`AppUserProfileInfo`](../classes/AppUserProfileInfo.md)
 
-Defined in: main.ts:208453
+Defined in: main.ts:208955
 
 user profile of the reviewer
 
@@ -153,7 +153,7 @@ user profile of the reviewer
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:208442
+Defined in: main.ts:208944
 
 version of the app
 version of the app for which the review is submitted

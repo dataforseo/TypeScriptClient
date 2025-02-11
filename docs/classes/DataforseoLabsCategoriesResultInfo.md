@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsCategoriesResultInfo
 
-Defined in: main.ts:91632
+Defined in: main.ts:91668
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:91632
 
 > **new DataforseoLabsCategoriesResultInfo**(`data`?): [`DataforseoLabsCategoriesResultInfo`](DataforseoLabsCategoriesResultInfo.md)
 
-Defined in: main.ts:91651
+Defined in: main.ts:91687
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:91651
 
 > `optional` **category\_code**: `number`
 
-Defined in: main.ts:91634
+Defined in: main.ts:91670
 
 category code
 
@@ -54,7 +54,7 @@ category code
 
 > `optional` **category\_code\_parent**: `number`
 
-Defined in: main.ts:91647
+Defined in: main.ts:91683
 
 the code of the superordinate category
 example:
@@ -77,7 +77,7 @@ corresponds to:
 
 > `optional` **category\_name**: `string`
 
-Defined in: main.ts:91636
+Defined in: main.ts:91672
 
 full name of the category
 
@@ -91,7 +91,7 @@ full name of the category
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:91660
+Defined in: main.ts:91696
 
 #### Parameters
 
@@ -109,7 +109,7 @@ Defined in: main.ts:91660
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:91679
+Defined in: main.ts:91715
 
 #### Parameters
 
@@ -127,7 +127,7 @@ Defined in: main.ts:91679
 
 > `static` **fromJS**(`data`): [`DataforseoLabsCategoriesResultInfo`](DataforseoLabsCategoriesResultInfo.md)
 
-Defined in: main.ts:91672
+Defined in: main.ts:91708
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: AmazonAmazonSellerMainItemSerpElementItem
 
-Defined in: main.ts:195984
+Defined in: main.ts:196486
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:195984
 
 > **new AmazonAmazonSellerMainItemSerpElementItem**(`data`?): [`AmazonAmazonSellerMainItemSerpElementItem`](AmazonAmazonSellerMainItemSerpElementItem.md)
 
-Defined in: main.ts:196013
+Defined in: main.ts:196515
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23218
 
 > `optional` **condition**: `string`
 
-Defined in: main.ts:196003
+Defined in: main.ts:196505
 
 product condition
 condition of the product offered by the seller
@@ -75,7 +75,7 @@ condition of the product offered by the seller
 
 > `optional` **condition\_description**: `string`
 
-Defined in: main.ts:196006
+Defined in: main.ts:196508
 
 product condition details
 expanded details on the condition of the product offered by the seller
@@ -90,7 +90,7 @@ expanded details on the condition of the product offered by the seller
 
 > `optional` **delivery\_info**: [`AmazonDeliveryInfo`](AmazonDeliveryInfo.md)
 
-Defined in: main.ts:196009
+Defined in: main.ts:196511
 
 delivery information
 delivery information including free and fast delivery date ranges
@@ -105,7 +105,7 @@ delivery information including free and fast delivery date ranges
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:195988
+Defined in: main.ts:196490
 
 alignment of the element in SERP
 possible values:
@@ -121,7 +121,7 @@ left, right
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:195997
+Defined in: main.ts:196499
 
 product pricing details
 if there are no details, the value will be null
@@ -174,7 +174,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingElement`](RatingElement.md)
 
-Defined in: main.ts:196000
+Defined in: main.ts:196502
 
 seller rating details
 seller popularity rate based on customer reviews
@@ -189,7 +189,7 @@ seller popularity rate based on customer reviews
 
 > `optional` **seller\_name**: `string`
 
-Defined in: main.ts:195990
+Defined in: main.ts:196492
 
 business name of the seller
 
@@ -203,7 +203,7 @@ business name of the seller
 
 > `optional` **seller\_url**: `string`
 
-Defined in: main.ts:195992
+Defined in: main.ts:196494
 
 url forwarding to the seller’s page on Amazon
 
@@ -217,7 +217,7 @@ url forwarding to the seller’s page on Amazon
 
 > `optional` **ships\_from**: `string`
 
-Defined in: main.ts:195994
+Defined in: main.ts:196496
 
 sender company name
 
@@ -267,7 +267,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:196018
+Defined in: main.ts:196520
 
 #### Parameters
 
@@ -289,7 +289,7 @@ Defined in: main.ts:196018
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:196044
+Defined in: main.ts:196546
 
 #### Parameters
 
@@ -311,7 +311,7 @@ Defined in: main.ts:196044
 
 > `static` **fromJS**(`data`): [`AmazonAmazonSellerMainItemSerpElementItem`](AmazonAmazonSellerMainItemSerpElementItem.md)
 
-Defined in: main.ts:196037
+Defined in: main.ts:196539
 
 #### Parameters
 

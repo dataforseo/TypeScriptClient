@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonSellersTaskPostTaskInfo
 
-Defined in: main.ts:195682
+Defined in: main.ts:196184
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:195682
 
 > **new MerchantAmazonSellersTaskPostTaskInfo**(`data`?): [`MerchantAmazonSellersTaskPostTaskInfo`](MerchantAmazonSellersTaskPostTaskInfo.md)
 
-Defined in: main.ts:195689
+Defined in: main.ts:196191
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:195685
+Defined in: main.ts:196187
 
 array of results
 in this case, the value will be null
@@ -215,7 +215,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:195693
+Defined in: main.ts:196195
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:195693
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:195711
+Defined in: main.ts:196213
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:195711
 
 > `static` **fromJS**(`data`): [`MerchantAmazonSellersTaskPostTaskInfo`](MerchantAmazonSellersTaskPostTaskInfo.md)
 
-Defined in: main.ts:195704
+Defined in: main.ts:196206
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IMentionCarouselDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108564
+Defined in: main.ts:108620
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:108564
 
 > `optional` **items**: [`MentionCarouselElement`](../classes/MentionCarouselElement.md)[]
 
-Defined in: main.ts:108568
+Defined in: main.ts:108624
 
 elements of search results found in SERP
 
@@ -78,7 +78,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:108566
+Defined in: main.ts:108622
 
 title of the result in SERP
 

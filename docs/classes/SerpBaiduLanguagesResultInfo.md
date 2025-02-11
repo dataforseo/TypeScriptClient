@@ -6,7 +6,7 @@
 
 # Class: SerpBaiduLanguagesResultInfo
 
-Defined in: main.ts:78730
+Defined in: main.ts:78766
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:78730
 
 > **new SerpBaiduLanguagesResultInfo**(`data`?): [`SerpBaiduLanguagesResultInfo`](SerpBaiduLanguagesResultInfo.md)
 
-Defined in: main.ts:78738
+Defined in: main.ts:78774
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:78738
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:78734
+Defined in: main.ts:78770
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:78732
+Defined in: main.ts:78768
 
 language name
 
@@ -68,7 +68,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:78747
+Defined in: main.ts:78783
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:78747
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:78765
+Defined in: main.ts:78801
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:78765
 
 > `static` **fromJS**(`data`): [`SerpBaiduLanguagesResultInfo`](SerpBaiduLanguagesResultInfo.md)
 
-Defined in: main.ts:78758
+Defined in: main.ts:78794
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: RecipesDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108573
+Defined in: main.ts:108629
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:108573
 
 > **new RecipesDataforseoLabsSerpElementItem**(`data`?): [`RecipesDataforseoLabsSerpElementItem`](RecipesDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108579
+Defined in: main.ts:108635
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **items**: [`RecipesElement`](RecipesElement.md)[]
 
-Defined in: main.ts:108575
+Defined in: main.ts:108631
 
 elements of search results found in SERP
 
@@ -168,7 +168,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:108584
+Defined in: main.ts:108640
 
 #### Parameters
 
@@ -190,7 +190,7 @@ Defined in: main.ts:108584
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:108606
+Defined in: main.ts:108662
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:108606
 
 > `static` **fromJS**(`data`): [`RecipesDataforseoLabsSerpElementItem`](RecipesDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108599
+Defined in: main.ts:108655
 
 #### Parameters
 

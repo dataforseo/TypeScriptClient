@@ -6,7 +6,7 @@
 
 # Interface: IAmazonAmazonSerpSerpElementItem
 
-Defined in: main.ts:113170
+Defined in: main.ts:113238
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:113170
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:113185
+Defined in: main.ts:113253
 
 ASIN of the product
 learn more about ASIN in this help center guide
@@ -33,7 +33,7 @@ learn more about ASIN in this help center guide
 
 > `optional` **bought\_past\_month**: `number`
 
-Defined in: main.ts:113216
+Defined in: main.ts:113284
 
 number of product purchases in the past month
 
@@ -43,7 +43,7 @@ number of product purchases in the past month
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:113199
+Defined in: main.ts:113267
 
 currency in the ISO format
 example:
@@ -55,7 +55,7 @@ USD
 
 > `optional` **data\_asin**: `string`
 
-Defined in: main.ts:113223
+Defined in: main.ts:113291
 
 unique product identifier on Amazon
 note that there is no full list of possible values as the data_asin is a dynamic value assigned by Amazon
@@ -68,7 +68,7 @@ B07G82D89J
 
 > `optional` **delivery\_info**: [`AmazonDeliveryInfo`](../classes/AmazonDeliveryInfo.md)
 
-Defined in: main.ts:113214
+Defined in: main.ts:113282
 
 delivery information
 delivery information including free and fast delivery date ranges
@@ -79,7 +79,7 @@ delivery information including free and fast delivery date ranges
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:113218
+Defined in: main.ts:113286
 
 description of the product
 
@@ -89,7 +89,7 @@ description of the product
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:113178
+Defined in: main.ts:113246
 
 Amazon domain
 
@@ -99,7 +99,7 @@ Amazon domain
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:113187
+Defined in: main.ts:113255
 
 URL of the product image featured in the results
 
@@ -109,7 +109,7 @@ URL of the product image featured in the results
 
 > `optional` **is\_amazon\_choice**: `boolean`
 
-Defined in: main.ts:113208
+Defined in: main.ts:113276
 
 “Amazon’s choice” label
 if the value is true, the product is marked with the “Amazon’s choice” label
@@ -120,7 +120,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 > `optional` **is\_best\_seller**: `boolean`
 
-Defined in: main.ts:113205
+Defined in: main.ts:113273
 
 “Best Seller” label
 if the value is true, the product is marked with the “Best Seller” label
@@ -131,7 +131,7 @@ if the value is true, the product is marked with the “Best Seller” label
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:113176
+Defined in: main.ts:113244
 
 the alignment of the element in Amazon SERP
 can take the following values:
@@ -143,7 +143,7 @@ left, right
 
 > `optional` **price\_from**: `number`
 
-Defined in: main.ts:113191
+Defined in: main.ts:113259
 
 the regular price of a product
 example:
@@ -155,7 +155,7 @@ example:
 
 > `optional` **price\_to**: `number`
 
-Defined in: main.ts:113195
+Defined in: main.ts:113263
 
 the upper limit of the product price range
 example:
@@ -197,7 +197,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingElement`](../classes/RatingElement.md)
 
-Defined in: main.ts:113211
+Defined in: main.ts:113279
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -208,7 +208,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:113172
+Defined in: main.ts:113240
 
 search engine type
 
@@ -218,7 +218,7 @@ search engine type
 
 > `optional` **special\_offers**: `string`[]
 
-Defined in: main.ts:113202
+Defined in: main.ts:113270
 
 special offer details
 contains special offer details, including coupon and Subscribe & Save discounts
@@ -229,7 +229,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:113180
+Defined in: main.ts:113248
 
 product title
 
@@ -253,7 +253,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:113182
+Defined in: main.ts:113250
 
 URL of the product page
 

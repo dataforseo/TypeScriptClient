@@ -6,7 +6,7 @@
 
 # Class: BacklinksDomainPagesLiveResponseInfo
 
-Defined in: main.ts:154435
+Defined in: main.ts:154599
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:154435
 
 > **new BacklinksDomainPagesLiveResponseInfo**(`data`?): [`BacklinksDomainPagesLiveResponseInfo`](BacklinksDomainPagesLiveResponseInfo.md)
 
-Defined in: main.ts:154441
+Defined in: main.ts:154605
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BacklinksDomainPagesLiveTaskInfo`](BacklinksDomainPagesLiveTaskInfo.md)[]
 
-Defined in: main.ts:154437
+Defined in: main.ts:154601
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:154445
+Defined in: main.ts:154609
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:154445
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:154467
+Defined in: main.ts:154631
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:154467
 
 > `static` **fromJS**(`data`): [`BacklinksDomainPagesLiveResponseInfo`](BacklinksDomainPagesLiveResponseInfo.md)
 
-Defined in: main.ts:154460
+Defined in: main.ts:154624
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleAppListingsSearchLiveTaskInfo
 
-Defined in: main.ts:204674
+Defined in: main.ts:205176
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`AppDataGoogleAppListingsSearchLiveResultInfo`](../classes/AppDataGoogleAppListingsSearchLiveResultInfo.md)[]
 
-Defined in: main.ts:204676
+Defined in: main.ts:205178
 
 array of results
 

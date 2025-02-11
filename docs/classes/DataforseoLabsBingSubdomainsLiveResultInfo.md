@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingSubdomainsLiveResultInfo
 
-Defined in: main.ts:120634
+Defined in: main.ts:120750
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:120634
 
 > **new DataforseoLabsBingSubdomainsLiveResultInfo**(`data`?): [`DataforseoLabsBingSubdomainsLiveResultInfo`](DataforseoLabsBingSubdomainsLiveResultInfo.md)
 
-Defined in: main.ts:120652
+Defined in: main.ts:120768
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:120652
 
 > `optional` **items**: [`DataforseoLabsSubdomainsLiveItem`](DataforseoLabsSubdomainsLiveItem.md)[]
 
-Defined in: main.ts:120648
+Defined in: main.ts:120764
 
 contains subdomains and related data
 
@@ -54,7 +54,7 @@ contains subdomains and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:120646
+Defined in: main.ts:120762
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:120642
+Defined in: main.ts:120758
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:120640
+Defined in: main.ts:120756
 
 location code in a POST array
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:120636
+Defined in: main.ts:120752
 
 search engine type
 
@@ -110,7 +110,7 @@ search engine type
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:120638
+Defined in: main.ts:120754
 
 domain in a POST array
 
@@ -124,7 +124,7 @@ domain in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:120644
+Defined in: main.ts:120760
 
 total amount of results in our database relevant to your request
 
@@ -138,7 +138,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:120661
+Defined in: main.ts:120777
 
 #### Parameters
 
@@ -156,7 +156,7 @@ Defined in: main.ts:120661
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:120688
+Defined in: main.ts:120804
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:120688
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingSubdomainsLiveResultInfo`](DataforseoLabsBingSubdomainsLiveResultInfo.md)
 
-Defined in: main.ts:120681
+Defined in: main.ts:120797
 
 #### Parameters
 

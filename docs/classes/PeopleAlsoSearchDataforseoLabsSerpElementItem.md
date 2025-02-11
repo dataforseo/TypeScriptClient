@@ -6,7 +6,7 @@
 
 # Class: PeopleAlsoSearchDataforseoLabsSerpElementItem
 
-Defined in: main.ts:107075
+Defined in: main.ts:106646
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:107075
 
 > **new PeopleAlsoSearchDataforseoLabsSerpElementItem**(`data`?): [`PeopleAlsoSearchDataforseoLabsSerpElementItem`](PeopleAlsoSearchDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:107083
+Defined in: main.ts:106656
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **items**: `string`[]
 
-Defined in: main.ts:107079
+Defined in: main.ts:106652
 
 elements of search results found in SERP
 
@@ -128,11 +128,25 @@ positions of elements with different type values are omitted from rank_group
 
 ***
 
+### se\_type?
+
+> `optional` **se\_type**: `string`
+
+Defined in: main.ts:106648
+
+search engine type
+
+#### Implementation of
+
+[`IPeopleAlsoSearchDataforseoLabsSerpElementItem`](../interfaces/IPeopleAlsoSearchDataforseoLabsSerpElementItem.md).[`se_type`](../interfaces/IPeopleAlsoSearchDataforseoLabsSerpElementItem.md#se_type)
+
+***
+
 ### title?
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:107077
+Defined in: main.ts:106650
 
 title of the result in SERP
 
@@ -182,7 +196,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:107088
+Defined in: main.ts:106661
 
 #### Parameters
 
@@ -204,7 +218,7 @@ Defined in: main.ts:107088
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:107111
+Defined in: main.ts:106685
 
 #### Parameters
 
@@ -226,7 +240,7 @@ Defined in: main.ts:107111
 
 > `static` **fromJS**(`data`): [`PeopleAlsoSearchDataforseoLabsSerpElementItem`](PeopleAlsoSearchDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:107104
+Defined in: main.ts:106678
 
 #### Parameters
 

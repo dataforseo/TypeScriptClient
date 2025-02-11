@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppListTaskPostResponseInfo
 
-Defined in: main.ts:207337
+Defined in: main.ts:207839
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:207337
 
 > **new AppDataAppleAppListTaskPostResponseInfo**(`data`?): [`AppDataAppleAppListTaskPostResponseInfo`](AppDataAppleAppListTaskPostResponseInfo.md)
 
-Defined in: main.ts:207343
+Defined in: main.ts:207845
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataAppleAppListTaskPostTaskInfo`](AppDataAppleAppListTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:207339
+Defined in: main.ts:207841
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:207347
+Defined in: main.ts:207849
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:207347
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:207369
+Defined in: main.ts:207871
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:207369
 
 > `static` **fromJS**(`data`): [`AppDataAppleAppListTaskPostResponseInfo`](AppDataAppleAppListTaskPostResponseInfo.md)
 
-Defined in: main.ts:207362
+Defined in: main.ts:207864
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IStylesheetResourceElementItem
 
-Defined in: main.ts:168031
+Defined in: main.ts:168195
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:168031
 
 > `optional` **accept\_type**: `string`
 
-Defined in: main.ts:168043
+Defined in: main.ts:168207
 
 indicates the expected type of resource
 for example, if "resource_type": "broken", accept_type will indicate the type of the broken resource
@@ -82,7 +82,7 @@ type of encoding
 
 > `optional` **duration\_time**: `number`
 
-Defined in: main.ts:168047
+Defined in: main.ts:168211
 
 total time it takes until a browser receives a complete response from a server (in milliseconds)
 
@@ -107,7 +107,7 @@ indicates the size of the encoded page measured in bytes
 
 > `optional` **fetch\_end**: `number`
 
-Defined in: main.ts:168053
+Defined in: main.ts:168217
 
 time to complete downloading the resource
 the amount of time the browser needs to complete downloading a resource
@@ -118,7 +118,7 @@ the amount of time the browser needs to complete downloading a resource
 
 > `optional` **fetch\_start**: `number`
 
-Defined in: main.ts:168050
+Defined in: main.ts:168214
 
 time to start downloading the resource
 the amount of time the browser needs to start downloading a resource
@@ -146,7 +146,7 @@ example:
 
 > `optional` **fetch\_timing**: [`FetchTiming`](../classes/FetchTiming.md)
 
-Defined in: main.ts:168038
+Defined in: main.ts:168202
 
 resource fething time range
 
@@ -156,7 +156,7 @@ resource fething time range
 
 > `optional` **initiator**: `string`
 
-Defined in: main.ts:168045
+Defined in: main.ts:168209
 
 resource initiator
 
@@ -166,7 +166,7 @@ resource initiator
 
 > `optional` **is\_render\_blocking**: `boolean`
 
-Defined in: main.ts:168055
+Defined in: main.ts:168219
 
 indicates whether the resource blocks rendering
 
@@ -220,7 +220,7 @@ types of media used to display a page
 
 > `optional` **meta**: [`ResourceMetaInfo`](../classes/ResourceMetaInfo.md)
 
-Defined in: main.ts:168036
+Defined in: main.ts:168200
 
 resource properties
 the value depends on the resource_type

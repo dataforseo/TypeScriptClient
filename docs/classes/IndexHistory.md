@@ -6,7 +6,7 @@
 
 # Class: IndexHistory
 
-Defined in: main.ts:149754
+Defined in: main.ts:149918
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:149754
 
 > **new IndexHistory**(`data`?): [`IndexHistory`](IndexHistory.md)
 
-Defined in: main.ts:149769
+Defined in: main.ts:149933
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:149769
 
 > `optional` **date**: `string`
 
-Defined in: main.ts:149759
+Defined in: main.ts:149923
 
 date for which index volume data is provided
 in the UTC format: “yyyy-mm-dd”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **total\_backlinks**: `number`
 
-Defined in: main.ts:149761
+Defined in: main.ts:149925
 
 total number of backlinks our database contained on the given date
 
@@ -71,7 +71,7 @@ total number of backlinks our database contained on the given date
 
 > `optional` **total\_domains**: `number`
 
-Defined in: main.ts:149765
+Defined in: main.ts:149929
 
 total number of domains our database contained on the given date
 
@@ -85,7 +85,7 @@ total number of domains our database contained on the given date
 
 > `optional` **total\_pages**: `number`
 
-Defined in: main.ts:149763
+Defined in: main.ts:149927
 
 total number of pages our database contained on the given date
 
@@ -99,7 +99,7 @@ total number of pages our database contained on the given date
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:149778
+Defined in: main.ts:149942
 
 #### Parameters
 
@@ -117,7 +117,7 @@ Defined in: main.ts:149778
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:149798
+Defined in: main.ts:149962
 
 #### Parameters
 
@@ -135,7 +135,7 @@ Defined in: main.ts:149798
 
 > `static` **fromJS**(`data`): [`IndexHistory`](IndexHistory.md)
 
-Defined in: main.ts:149791
+Defined in: main.ts:149955
 
 #### Parameters
 

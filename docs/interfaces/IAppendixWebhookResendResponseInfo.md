@@ -6,7 +6,7 @@
 
 # Interface: IAppendixWebhookResendResponseInfo
 
-Defined in: main.ts:239417
+Defined in: main.ts:239845
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppendixWebhookResendTaskInfo`](../classes/AppendixWebhookResendTaskInfo.md)[]
 
-Defined in: main.ts:239419
+Defined in: main.ts:239847
 
 array of tasks
 

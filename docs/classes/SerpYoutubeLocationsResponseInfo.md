@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeLocationsResponseInfo
 
-Defined in: main.ts:69068
+Defined in: main.ts:69104
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:69068
 
 > **new SerpYoutubeLocationsResponseInfo**(`data`?): [`SerpYoutubeLocationsResponseInfo`](SerpYoutubeLocationsResponseInfo.md)
 
-Defined in: main.ts:69074
+Defined in: main.ts:69110
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpYoutubeLocationsTaskInfo`](SerpYoutubeLocationsTaskInfo.md)[]
 
-Defined in: main.ts:69070
+Defined in: main.ts:69106
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:69078
+Defined in: main.ts:69114
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:69078
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:69100
+Defined in: main.ts:69136
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:69100
 
 > `static` **fromJS**(`data`): [`SerpYoutubeLocationsResponseInfo`](SerpYoutubeLocationsResponseInfo.md)
 
-Defined in: main.ts:69093
+Defined in: main.ts:69129
 
 #### Parameters
 

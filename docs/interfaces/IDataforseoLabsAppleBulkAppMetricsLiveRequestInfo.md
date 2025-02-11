@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo
 
-Defined in: main.ts:123290
+Defined in: main.ts:123406
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:123290
 
 > `optional` **app\_ids**: `string`[]
 
-Defined in: main.ts:123299
+Defined in: main.ts:123415
 
 ids of the apps
 required field
@@ -35,7 +35,7 @@ the maximum number of IDs you can specify in this field is 1000
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:123335
+Defined in: main.ts:123451
 
 language code
 required field if you don’t specify language_name
@@ -52,7 +52,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:123326
+Defined in: main.ts:123442
 
 full name of the language
 required field if you don’t specify language_code
@@ -69,7 +69,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:123317
+Defined in: main.ts:123433
 
 location code
 required field if you don’t specify location_name
@@ -86,7 +86,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:123308
+Defined in: main.ts:123424
 
 full name of the location
 required field if you don’t specify location_code
@@ -103,7 +103,7 @@ United States
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:123341
+Defined in: main.ts:123457
 
 user-defined task identifier
 optional field

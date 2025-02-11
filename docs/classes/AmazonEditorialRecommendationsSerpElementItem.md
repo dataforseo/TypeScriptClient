@@ -6,7 +6,7 @@
 
 # Class: AmazonEditorialRecommendationsSerpElementItem
 
-Defined in: main.ts:192766
+Defined in: main.ts:193172
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:192766
 
 > **new AmazonEditorialRecommendationsSerpElementItem**(`data`?): [`AmazonEditorialRecommendationsSerpElementItem`](AmazonEditorialRecommendationsSerpElementItem.md)
 
-Defined in: main.ts:192776
+Defined in: main.ts:193182
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23218
 
 > `optional` **items**: [`AmazonSerpElement`](AmazonSerpElement.md)[]
 
-Defined in: main.ts:192772
+Defined in: main.ts:193178
 
 Amazon product items
 
@@ -74,7 +74,7 @@ Amazon product items
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:192770
+Defined in: main.ts:193176
 
 the alignment of the element in Amazon SERP
 possible values:
@@ -164,7 +164,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:192781
+Defined in: main.ts:193187
 
 #### Parameters
 
@@ -186,7 +186,7 @@ Defined in: main.ts:192781
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:192804
+Defined in: main.ts:193210
 
 #### Parameters
 
@@ -208,7 +208,7 @@ Defined in: main.ts:192804
 
 > `static` **fromJS**(`data`): [`AmazonEditorialRecommendationsSerpElementItem`](AmazonEditorialRecommendationsSerpElementItem.md)
 
-Defined in: main.ts:192797
+Defined in: main.ts:193203
 
 #### Parameters
 

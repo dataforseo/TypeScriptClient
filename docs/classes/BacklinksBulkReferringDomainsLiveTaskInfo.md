@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkReferringDomainsLiveTaskInfo
 
-Defined in: main.ts:161536
+Defined in: main.ts:161700
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:161536
 
 > **new BacklinksBulkReferringDomainsLiveTaskInfo**(`data`?): [`BacklinksBulkReferringDomainsLiveTaskInfo`](BacklinksBulkReferringDomainsLiveTaskInfo.md)
 
-Defined in: main.ts:161542
+Defined in: main.ts:161706
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`BacklinksBulkReferringDomainsLiveResultInfo`](BacklinksBulkReferringDomainsLiveResultInfo.md)[]
 
-Defined in: main.ts:161538
+Defined in: main.ts:161702
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:161546
+Defined in: main.ts:161710
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:161546
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:161568
+Defined in: main.ts:161732
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:161568
 
 > `static` **fromJS**(`data`): [`BacklinksBulkReferringDomainsLiveTaskInfo`](BacklinksBulkReferringDomainsLiveTaskInfo.md)
 
-Defined in: main.ts:161561
+Defined in: main.ts:161725
 
 #### Parameters
 

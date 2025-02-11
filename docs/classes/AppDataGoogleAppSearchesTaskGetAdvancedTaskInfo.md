@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppSearchesTaskGetAdvancedTaskInfo
 
-Defined in: main.ts:200138
+Defined in: main.ts:200640
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:200138
 
 > **new AppDataGoogleAppSearchesTaskGetAdvancedTaskInfo**(`data`?): [`AppDataGoogleAppSearchesTaskGetAdvancedTaskInfo`](AppDataGoogleAppSearchesTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:200144
+Defined in: main.ts:200646
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`AppDataGoogleAppSearchesTaskGetAdvancedResultInfo`](AppDataGoogleAppSearchesTaskGetAdvancedResultInfo.md)[]
 
-Defined in: main.ts:200140
+Defined in: main.ts:200642
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:200148
+Defined in: main.ts:200650
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:200148
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:200170
+Defined in: main.ts:200672
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:200170
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppSearchesTaskGetAdvancedTaskInfo`](AppDataGoogleAppSearchesTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:200163
+Defined in: main.ts:200665
 
 #### Parameters
 

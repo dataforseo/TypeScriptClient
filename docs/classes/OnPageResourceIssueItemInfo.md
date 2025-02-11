@@ -6,7 +6,7 @@
 
 # Class: OnPageResourceIssueItemInfo
 
-Defined in: main.ts:166558
+Defined in: main.ts:166722
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:166558
 
 > **new OnPageResourceIssueItemInfo**(`data`?): [`OnPageResourceIssueItemInfo`](OnPageResourceIssueItemInfo.md)
 
-Defined in: main.ts:166580
+Defined in: main.ts:166744
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:166580
 
 > `optional` **column**: `number`
 
-Defined in: main.ts:166562
+Defined in: main.ts:166726
 
 column where the error was found
 
@@ -54,7 +54,7 @@ column where the error was found
 
 > `optional` **line**: `number`
 
-Defined in: main.ts:166560
+Defined in: main.ts:166724
 
 line where the error was found
 
@@ -68,7 +68,7 @@ line where the error was found
 
 > `optional` **message**: `string`
 
-Defined in: main.ts:166565
+Defined in: main.ts:166729
 
 text message of the error
 the full list of possible HTML errors can be found here
@@ -83,7 +83,7 @@ the full list of possible HTML errors can be found here
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:166576
+Defined in: main.ts:166740
 
 status code of the error
 possible values:
@@ -106,7 +106,7 @@ possible values:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:166589
+Defined in: main.ts:166753
 
 #### Parameters
 
@@ -124,7 +124,7 @@ Defined in: main.ts:166589
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:166609
+Defined in: main.ts:166773
 
 #### Parameters
 
@@ -142,7 +142,7 @@ Defined in: main.ts:166609
 
 > `static` **fromJS**(`data`): [`OnPageResourceIssueItemInfo`](OnPageResourceIssueItemInfo.md)
 
-Defined in: main.ts:166602
+Defined in: main.ts:166766
 
 #### Parameters
 

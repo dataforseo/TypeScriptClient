@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleImagesLiveAdvancedTaskInfo
 
-Defined in: main.ts:51940
+Defined in: main.ts:51956
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:51940
 
 > **new SerpGoogleImagesLiveAdvancedTaskInfo**(`data`?): [`SerpGoogleImagesLiveAdvancedTaskInfo`](SerpGoogleImagesLiveAdvancedTaskInfo.md)
 
-Defined in: main.ts:51946
+Defined in: main.ts:51962
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleImagesLiveAdvancedResultInfo`](SerpGoogleImagesLiveAdvancedResultInfo.md)[]
 
-Defined in: main.ts:51942
+Defined in: main.ts:51958
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:51950
+Defined in: main.ts:51966
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:51950
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:51972
+Defined in: main.ts:51988
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:51972
 
 > `static` **fromJS**(`data`): [`SerpGoogleImagesLiveAdvancedTaskInfo`](SerpGoogleImagesLiveAdvancedTaskInfo.md)
 
-Defined in: main.ts:51965
+Defined in: main.ts:51981
 
 #### Parameters
 

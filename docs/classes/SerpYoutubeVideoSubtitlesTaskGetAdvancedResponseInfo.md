@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeVideoSubtitlesTaskGetAdvancedResponseInfo
 
-Defined in: main.ts:72495
+Defined in: main.ts:72531
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:72495
 
 > **new SerpYoutubeVideoSubtitlesTaskGetAdvancedResponseInfo**(`data`?): [`SerpYoutubeVideoSubtitlesTaskGetAdvancedResponseInfo`](SerpYoutubeVideoSubtitlesTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:72501
+Defined in: main.ts:72537
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpYoutubeVideoSubtitlesTaskGetAdvancedTaskInfo`](SerpYoutubeVideoSubtitlesTaskGetAdvancedTaskInfo.md)[]
 
-Defined in: main.ts:72497
+Defined in: main.ts:72533
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:72505
+Defined in: main.ts:72541
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:72505
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:72527
+Defined in: main.ts:72563
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:72527
 
 > `static` **fromJS**(`data`): [`SerpYoutubeVideoSubtitlesTaskGetAdvancedResponseInfo`](SerpYoutubeVideoSubtitlesTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:72520
+Defined in: main.ts:72556
 
 #### Parameters
 

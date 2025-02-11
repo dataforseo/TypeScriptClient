@@ -6,7 +6,7 @@
 
 # Interface: IGoogleTrendsGraphElementItem
 
-Defined in: main.ts:134079
+Defined in: main.ts:134219
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:134079
 
 > `optional` **averages**: `number`[]
 
-Defined in: main.ts:134083
+Defined in: main.ts:134223
 
 keyword popularity values averaged over the whole time range
 
@@ -32,7 +32,7 @@ keyword popularity values averaged over the whole time range
 
 > `optional` **data**: [`TrendsGraphDataInfo`](../classes/TrendsGraphDataInfo.md)[]
 
-Defined in: main.ts:134081
+Defined in: main.ts:134221
 
 Google Trends data for the specified parameters
 

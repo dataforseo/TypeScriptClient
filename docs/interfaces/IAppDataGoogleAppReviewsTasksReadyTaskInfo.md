@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleAppReviewsTasksReadyTaskInfo
 
-Defined in: main.ts:203304
+Defined in: main.ts:203806
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`AppDataGoogleAppReviewsTasksReadyResultInfo`](../classes/AppDataGoogleAppReviewsTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:203306
+Defined in: main.ts:203808
 
 array of results
 

@@ -6,7 +6,7 @@
 
 # Interface: ITopSightsElement
 
-Defined in: main.ts:34403
+Defined in: main.ts:34419
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:34403
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:34411
+Defined in: main.ts:34427
 
 description
 
@@ -28,7 +28,7 @@ description
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:34414
+Defined in: main.ts:34430
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -39,7 +39,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:34407
+Defined in: main.ts:34423
 
 title of a given link element
 
@@ -49,7 +49,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:34405
+Defined in: main.ts:34421
 
 type of element
 
@@ -59,6 +59,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:34409
+Defined in: main.ts:34425
 
 URL

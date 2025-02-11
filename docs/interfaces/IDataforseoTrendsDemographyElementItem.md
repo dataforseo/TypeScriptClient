@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoTrendsDemographyElementItem
 
-Defined in: main.ts:137945
+Defined in: main.ts:138109
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:137945
 
 > `optional` **demography**: [`Demography`](../classes/Demography.md)
 
-Defined in: main.ts:137948
+Defined in: main.ts:138112
 
 demographic breakdown of keyword popularity data per each specified term
 conains keyword popularity data by age and gender
@@ -33,7 +33,7 @@ conains keyword popularity data by age and gender
 
 > `optional` **demography\_comparison**: [`DemographyComparisonInfo`](../classes/DemographyComparisonInfo.md)
 
-Defined in: main.ts:137949
+Defined in: main.ts:138113
 
 ***
 

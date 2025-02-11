@@ -6,7 +6,7 @@
 
 # Class: InformationAndTicketsElement
 
-Defined in: main.ts:48915
+Defined in: main.ts:48931
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:48915
 
 > **new InformationAndTicketsElement**(`data`?): [`InformationAndTicketsElement`](InformationAndTicketsElement.md)
 
-Defined in: main.ts:48929
+Defined in: main.ts:48945
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:48929
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:48921
+Defined in: main.ts:48937
 
 description of the element
 
@@ -54,7 +54,7 @@ description of the element
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:48925
+Defined in: main.ts:48941
 
 domain in SERP
 
@@ -68,7 +68,7 @@ domain in SERP
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:48919
+Defined in: main.ts:48935
 
 title of the element
 
@@ -82,7 +82,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:48917
+Defined in: main.ts:48933
 
 type of element
 
@@ -96,7 +96,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:48923
+Defined in: main.ts:48939
 
 relevant URL
 
@@ -110,7 +110,7 @@ relevant URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:48938
+Defined in: main.ts:48954
 
 #### Parameters
 
@@ -128,7 +128,7 @@ Defined in: main.ts:48938
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:48959
+Defined in: main.ts:48975
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Defined in: main.ts:48959
 
 > `static` **fromJS**(`data`): [`InformationAndTicketsElement`](InformationAndTicketsElement.md)
 
-Defined in: main.ts:48952
+Defined in: main.ts:48968
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: SerpSeznamLocationsResponseInfo
 
-Defined in: main.ts:82301
+Defined in: main.ts:82337
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:82301
 
 > **new SerpSeznamLocationsResponseInfo**(`data`?): [`SerpSeznamLocationsResponseInfo`](SerpSeznamLocationsResponseInfo.md)
 
-Defined in: main.ts:82307
+Defined in: main.ts:82343
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpSeznamLocationsTaskInfo`](SerpSeznamLocationsTaskInfo.md)[]
 
-Defined in: main.ts:82303
+Defined in: main.ts:82339
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:82311
+Defined in: main.ts:82347
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:82311
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:82333
+Defined in: main.ts:82369
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:82333
 
 > `static` **fromJS**(`data`): [`SerpSeznamLocationsResponseInfo`](SerpSeznamLocationsResponseInfo.md)
 
-Defined in: main.ts:82326
+Defined in: main.ts:82362
 
 #### Parameters
 

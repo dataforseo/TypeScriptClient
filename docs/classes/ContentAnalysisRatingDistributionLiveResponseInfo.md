@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisRatingDistributionLiveResponseInfo
 
-Defined in: main.ts:179885
+Defined in: main.ts:180247
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:179885
 
 > **new ContentAnalysisRatingDistributionLiveResponseInfo**(`data`?): [`ContentAnalysisRatingDistributionLiveResponseInfo`](ContentAnalysisRatingDistributionLiveResponseInfo.md)
 
-Defined in: main.ts:179891
+Defined in: main.ts:180253
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`ContentAnalysisRatingDistributionLiveTaskInfo`](ContentAnalysisRatingDistributionLiveTaskInfo.md)[]
 
-Defined in: main.ts:179887
+Defined in: main.ts:180249
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:179895
+Defined in: main.ts:180257
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:179895
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:179917
+Defined in: main.ts:180279
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:179917
 
 > `static` **fromJS**(`data`): [`ContentAnalysisRatingDistributionLiveResponseInfo`](ContentAnalysisRatingDistributionLiveResponseInfo.md)
 
-Defined in: main.ts:179910
+Defined in: main.ts:180272
 
 #### Parameters
 

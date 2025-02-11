@@ -6,7 +6,7 @@
 
 # Class: BacklinksAvailableFiltersResponseInfo
 
-Defined in: main.ts:149701
+Defined in: main.ts:149865
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:149701
 
 > **new BacklinksAvailableFiltersResponseInfo**(`data`?): [`BacklinksAvailableFiltersResponseInfo`](BacklinksAvailableFiltersResponseInfo.md)
 
-Defined in: main.ts:149706
+Defined in: main.ts:149870
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BacklinksAvailableFiltersTaskInfo`](BacklinksAvailableFiltersTaskInfo.md)[]
 
-Defined in: main.ts:149702
+Defined in: main.ts:149866
 
 #### Implementation of
 
@@ -188,7 +188,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:149710
+Defined in: main.ts:149874
 
 #### Parameters
 
@@ -210,7 +210,7 @@ Defined in: main.ts:149710
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:149732
+Defined in: main.ts:149896
 
 #### Parameters
 
@@ -232,7 +232,7 @@ Defined in: main.ts:149732
 
 > `static` **fromJS**(`data`): [`BacklinksAvailableFiltersResponseInfo`](BacklinksAvailableFiltersResponseInfo.md)
 
-Defined in: main.ts:149725
+Defined in: main.ts:149889
 
 #### Parameters
 

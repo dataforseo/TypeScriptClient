@@ -6,7 +6,7 @@
 
 # Class: BusinessDataBusinessListingsCategoriesResponseInfo
 
-Defined in: main.ts:210351
+Defined in: main.ts:210853
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:210351
 
 > **new BusinessDataBusinessListingsCategoriesResponseInfo**(`data`?): [`BusinessDataBusinessListingsCategoriesResponseInfo`](BusinessDataBusinessListingsCategoriesResponseInfo.md)
 
-Defined in: main.ts:210357
+Defined in: main.ts:210859
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BusinessDataBusinessListingsCategoriesTaskInfo`](BusinessDataBusinessListingsCategoriesTaskInfo.md)[]
 
-Defined in: main.ts:210353
+Defined in: main.ts:210855
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:210361
+Defined in: main.ts:210863
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:210361
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:210383
+Defined in: main.ts:210885
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:210383
 
 > `static` **fromJS**(`data`): [`BusinessDataBusinessListingsCategoriesResponseInfo`](BusinessDataBusinessListingsCategoriesResponseInfo.md)
 
-Defined in: main.ts:210376
+Defined in: main.ts:210878
 
 #### Parameters
 

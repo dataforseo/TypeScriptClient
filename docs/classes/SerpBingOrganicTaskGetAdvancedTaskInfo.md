@@ -6,7 +6,7 @@
 
 # Class: SerpBingOrganicTaskGetAdvancedTaskInfo
 
-Defined in: main.ts:64713
+Defined in: main.ts:64743
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:64713
 
 > **new SerpBingOrganicTaskGetAdvancedTaskInfo**(`data`?): [`SerpBingOrganicTaskGetAdvancedTaskInfo`](SerpBingOrganicTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:64719
+Defined in: main.ts:64749
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpBingOrganicTaskGetAdvancedResultInfo`](SerpBingOrganicTaskGetAdvancedResultInfo.md)[]
 
-Defined in: main.ts:64715
+Defined in: main.ts:64745
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:64723
+Defined in: main.ts:64753
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:64723
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:64745
+Defined in: main.ts:64775
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:64745
 
 > `static` **fromJS**(`data`): [`SerpBingOrganicTaskGetAdvancedTaskInfo`](SerpBingOrganicTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:64738
+Defined in: main.ts:64768
 
 #### Parameters
 

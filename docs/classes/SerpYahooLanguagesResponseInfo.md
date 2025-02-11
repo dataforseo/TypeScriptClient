@@ -6,7 +6,7 @@
 
 # Class: SerpYahooLanguagesResponseInfo
 
-Defined in: main.ts:75115
+Defined in: main.ts:75151
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:75115
 
 > **new SerpYahooLanguagesResponseInfo**(`data`?): [`SerpYahooLanguagesResponseInfo`](SerpYahooLanguagesResponseInfo.md)
 
-Defined in: main.ts:75121
+Defined in: main.ts:75157
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpYahooLanguagesTaskInfo`](SerpYahooLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:75117
+Defined in: main.ts:75153
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:75125
+Defined in: main.ts:75161
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:75125
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:75147
+Defined in: main.ts:75183
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:75147
 
 > `static` **fromJS**(`data`): [`SerpYahooLanguagesResponseInfo`](SerpYahooLanguagesResponseInfo.md)
 
-Defined in: main.ts:75140
+Defined in: main.ts:75176
 
 #### Parameters
 

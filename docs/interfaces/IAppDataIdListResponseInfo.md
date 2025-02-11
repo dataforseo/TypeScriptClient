@@ -6,7 +6,7 @@
 
 # Interface: IAppDataIdListResponseInfo
 
-Defined in: main.ts:198207
+Defined in: main.ts:198709
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataIdListTaskInfo`](../classes/AppDataIdListTaskInfo.md)[]
 
-Defined in: main.ts:198209
+Defined in: main.ts:198711
 
 array of tasks
 

@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataIdListTaskInfo
 
-Defined in: main.ts:125560
+Defined in: main.ts:125676
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataIdListResultInfo`](../classes/KeywordsDataIdListResultInfo.md)[]
 
-Defined in: main.ts:125562
+Defined in: main.ts:125678
 
 array of results
 

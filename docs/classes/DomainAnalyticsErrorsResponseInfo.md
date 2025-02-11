@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsErrorsResponseInfo
 
-Defined in: main.ts:84973
+Defined in: main.ts:85009
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:84973
 
 > **new DomainAnalyticsErrorsResponseInfo**(`data`?): [`DomainAnalyticsErrorsResponseInfo`](DomainAnalyticsErrorsResponseInfo.md)
 
-Defined in: main.ts:84979
+Defined in: main.ts:85015
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DomainAnalyticsErrorsTaskInfo`](DomainAnalyticsErrorsTaskInfo.md)[]
 
-Defined in: main.ts:84975
+Defined in: main.ts:85011
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:84983
+Defined in: main.ts:85019
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:84983
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:85005
+Defined in: main.ts:85041
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:85005
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsErrorsResponseInfo`](DomainAnalyticsErrorsResponseInfo.md)
 
-Defined in: main.ts:84998
+Defined in: main.ts:85034
 
 #### Parameters
 

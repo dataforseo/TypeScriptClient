@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksDomainIntersectionInfo
 
-Defined in: main.ts:157867
+Defined in: main.ts:158031
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:157867
 
 > `optional` **backlinks**: `number`
 
-Defined in: main.ts:157878
+Defined in: main.ts:158042
 
 indicates the number of backlinks
 
@@ -28,7 +28,7 @@ indicates the number of backlinks
 
 > `optional` **backlinks\_spam\_score**: `number`
 
-Defined in: main.ts:157892
+Defined in: main.ts:158056
 
 average spam score of the backlinks pointing to the target
 learn more about how the metric is calculated on this help center page
@@ -39,7 +39,7 @@ learn more about how the metric is calculated on this help center page
 
 > `optional` **broken\_backlinks**: `number`
 
-Defined in: main.ts:157894
+Defined in: main.ts:158058
 
 number of broken backlinks
 
@@ -49,7 +49,7 @@ number of broken backlinks
 
 > `optional` **broken\_pages**: `number`
 
-Defined in: main.ts:157896
+Defined in: main.ts:158060
 
 number of broken pages
 
@@ -59,7 +59,7 @@ number of broken pages
 
 > `optional` **first\_seen**: `string`
 
-Defined in: main.ts:157883
+Defined in: main.ts:158047
 
 date and time when our crawler found the backlink from this target for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **lost\_date**: `number`
 
-Defined in: main.ts:157889
+Defined in: main.ts:158053
 
 date and time when the last backlink from this target was lost
 indicates the date and time when our crawler visited the page and it responded with 4xx or 5xx status code or the last backlink was removed
@@ -86,7 +86,7 @@ example:
 
 > `optional` **rank**: `number`
 
-Defined in: main.ts:157876
+Defined in: main.ts:158040
 
 rank referred to the target from the POST array
 indicates the rank that the referring domain (target above) refers to your target from the POST array;
@@ -99,7 +99,7 @@ learn more about the metric and how it is calculated in this help center article
 
 > `optional` **referring\_domains**: `number`
 
-Defined in: main.ts:157898
+Defined in: main.ts:158062
 
 number of referring domains
 
@@ -109,7 +109,7 @@ number of referring domains
 
 > `optional` **referring\_domains\_nofollow**: `number`
 
-Defined in: main.ts:157900
+Defined in: main.ts:158064
 
 number of domains pointing at least one nofollow link to the corresponding target
 
@@ -119,7 +119,7 @@ number of domains pointing at least one nofollow link to the corresponding targe
 
 > `optional` **referring\_ips**: `number`
 
-Defined in: main.ts:157906
+Defined in: main.ts:158070
 
 number of referring IP addresses
 
@@ -129,7 +129,7 @@ number of referring IP addresses
 
 > `optional` **referring\_links\_attributes**: `object`
 
-Defined in: main.ts:157923
+Defined in: main.ts:158087
 
 link attributes of the referring links
 indicates link attributes of the referring links and the link count per each attribute
@@ -144,7 +144,7 @@ indicates link attributes of the referring links and the link count per each att
 
 > `optional` **referring\_links\_countries**: `object`
 
-Defined in: main.ts:157933
+Defined in: main.ts:158097
 
 ISO country codes of the referring links
 indicates ISO country codes of the domains where the referring links are located and the link count per each country
@@ -159,7 +159,7 @@ indicates ISO country codes of the domains where the referring links are located
 
 > `optional` **referring\_links\_platform\_types**: `object`
 
-Defined in: main.ts:157926
+Defined in: main.ts:158090
 
 types of referring platforms
 indicates referring platform types and link count per each platform
@@ -174,7 +174,7 @@ indicates referring platform types and link count per each platform
 
 > `optional` **referring\_links\_semantic\_locations**: `object`
 
-Defined in: main.ts:157930
+Defined in: main.ts:158094
 
 semantic locations of the referring links
 indicates semantic elements in HTML where the referring links are located and the link count per each semantic location
@@ -190,7 +190,7 @@ you can get the full list of semantic elements here
 
 > `optional` **referring\_links\_tld**: `object`
 
-Defined in: main.ts:157915
+Defined in: main.ts:158079
 
 top level domains of the referring links
 contains top-level domains and referring link count per each
@@ -205,7 +205,7 @@ contains top-level domains and referring link count per each
 
 > `optional` **referring\_links\_types**: `object`
 
-Defined in: main.ts:157920
+Defined in: main.ts:158084
 
 types of the referring links
 indicates the types of referring links and link count per each type
@@ -222,7 +222,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 > `optional` **referring\_main\_domains**: `number`
 
-Defined in: main.ts:157902
+Defined in: main.ts:158066
 
 number of referring main domains
 
@@ -232,7 +232,7 @@ number of referring main domains
 
 > `optional` **referring\_main\_domains\_nofollow**: `number`
 
-Defined in: main.ts:157904
+Defined in: main.ts:158068
 
 number of main domains pointing at least one nofollow link to the target
 
@@ -242,7 +242,7 @@ number of main domains pointing at least one nofollow link to the target
 
 > `optional` **referring\_pages**: `number`
 
-Defined in: main.ts:157910
+Defined in: main.ts:158074
 
 indicates the number of pages pointing to the target
 
@@ -252,7 +252,7 @@ indicates the number of pages pointing to the target
 
 > `optional` **referring\_pages\_nofollow**: `number`
 
-Defined in: main.ts:157912
+Defined in: main.ts:158076
 
 number of referring pages pointing at least one nofollow link to the target
 
@@ -262,7 +262,7 @@ number of referring pages pointing at least one nofollow link to the target
 
 > `optional` **referring\_subnets**: `number`
 
-Defined in: main.ts:157908
+Defined in: main.ts:158072
 
 number of referring subnetworks
 
@@ -272,7 +272,7 @@ number of referring subnetworks
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:157871
+Defined in: main.ts:158035
 
 domain that links to the corresponding target from the POST array
 
@@ -282,6 +282,6 @@ domain that links to the corresponding target from the POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:157869
+Defined in: main.ts:158033
 
 type of element

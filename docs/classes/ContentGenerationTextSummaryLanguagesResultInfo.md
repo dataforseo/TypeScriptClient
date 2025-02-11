@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationTextSummaryLanguagesResultInfo
 
-Defined in: main.ts:183842
+Defined in: main.ts:184204
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:183842
 
 > **new ContentGenerationTextSummaryLanguagesResultInfo**(`data`?): [`ContentGenerationTextSummaryLanguagesResultInfo`](ContentGenerationTextSummaryLanguagesResultInfo.md)
 
-Defined in: main.ts:183850
+Defined in: main.ts:184212
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:183850
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:183846
+Defined in: main.ts:184208
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:183844
+Defined in: main.ts:184206
 
 language name
 
@@ -68,7 +68,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:183859
+Defined in: main.ts:184221
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:183859
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:183877
+Defined in: main.ts:184239
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:183877
 
 > `static` **fromJS**(`data`): [`ContentGenerationTextSummaryLanguagesResultInfo`](ContentGenerationTextSummaryLanguagesResultInfo.md)
 
-Defined in: main.ts:183870
+Defined in: main.ts:184232
 
 #### Parameters
 

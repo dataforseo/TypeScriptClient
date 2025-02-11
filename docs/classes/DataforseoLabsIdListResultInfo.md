@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsIdListResultInfo
 
-Defined in: main.ts:90046
+Defined in: main.ts:90082
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:90046
 
 > **new DataforseoLabsIdListResultInfo**(`data`?): [`DataforseoLabsIdListResultInfo`](DataforseoLabsIdListResultInfo.md)
 
-Defined in: main.ts:90072
+Defined in: main.ts:90108
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:90072
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:90066
+Defined in: main.ts:90102
 
 cost of the task, USD
 
@@ -54,7 +54,7 @@ cost of the task, USD
 
 > `optional` **datetime\_done**: `string`
 
-Defined in: main.ts:90061
+Defined in: main.ts:90097
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -71,7 +71,7 @@ example:
 
 > `optional` **datetime\_posted**: `string`
 
-Defined in: main.ts:90056
+Defined in: main.ts:90092
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -88,7 +88,7 @@ example:
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:90048
+Defined in: main.ts:90084
 
 id of the task
 
@@ -102,7 +102,7 @@ id of the task
 
 > `optional` **metadata**: `object`
 
-Defined in: main.ts:90068
+Defined in: main.ts:90104
 
 contains parameters you specified in the POST request
 
@@ -120,7 +120,7 @@ contains parameters you specified in the POST request
 
 > `optional` **status**: `string`
 
-Defined in: main.ts:90064
+Defined in: main.ts:90100
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -135,7 +135,7 @@ you can find the full list of general informational messages here
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:90051
+Defined in: main.ts:90087
 
 URL of the task
 URL you used for making an API call
@@ -150,7 +150,7 @@ URL you used for making an API call
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:90081
+Defined in: main.ts:90117
 
 #### Parameters
 
@@ -168,7 +168,7 @@ Defined in: main.ts:90081
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:90110
+Defined in: main.ts:90146
 
 #### Parameters
 
@@ -186,7 +186,7 @@ Defined in: main.ts:90110
 
 > `static` **fromJS**(`data`): [`DataforseoLabsIdListResultInfo`](DataforseoLabsIdListResultInfo.md)
 
-Defined in: main.ts:90103
+Defined in: main.ts:90139
 
 #### Parameters
 

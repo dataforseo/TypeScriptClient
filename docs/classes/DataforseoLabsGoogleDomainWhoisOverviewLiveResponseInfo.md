@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleDomainWhoisOverviewLiveResponseInfo
 
-Defined in: main.ts:100557
+Defined in: main.ts:100585
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:100557
 
 > **new DataforseoLabsGoogleDomainWhoisOverviewLiveResponseInfo**(`data`?): [`DataforseoLabsGoogleDomainWhoisOverviewLiveResponseInfo`](DataforseoLabsGoogleDomainWhoisOverviewLiveResponseInfo.md)
 
-Defined in: main.ts:100563
+Defined in: main.ts:100591
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsGoogleDomainWhoisOverviewLiveTaskInfo`](DataforseoLabsGoogleDomainWhoisOverviewLiveTaskInfo.md)[]
 
-Defined in: main.ts:100559
+Defined in: main.ts:100587
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:100567
+Defined in: main.ts:100595
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:100567
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:100589
+Defined in: main.ts:100617
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:100589
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleDomainWhoisOverviewLiveResponseInfo`](DataforseoLabsGoogleDomainWhoisOverviewLiveResponseInfo.md)
 
-Defined in: main.ts:100582
+Defined in: main.ts:100610
 
 #### Parameters
 

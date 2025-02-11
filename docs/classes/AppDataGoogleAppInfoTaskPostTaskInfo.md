@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppInfoTaskPostTaskInfo
 
-Defined in: main.ts:201696
+Defined in: main.ts:202198
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:201696
 
 > **new AppDataGoogleAppInfoTaskPostTaskInfo**(`data`?): [`AppDataGoogleAppInfoTaskPostTaskInfo`](AppDataGoogleAppInfoTaskPostTaskInfo.md)
 
-Defined in: main.ts:201703
+Defined in: main.ts:202205
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:201699
+Defined in: main.ts:202201
 
 array of results
 in this case, the value will be null
@@ -215,7 +215,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:201707
+Defined in: main.ts:202209
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:201707
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:201725
+Defined in: main.ts:202227
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:201725
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppInfoTaskPostTaskInfo`](AppDataGoogleAppInfoTaskPostTaskInfo.md)
 
-Defined in: main.ts:201718
+Defined in: main.ts:202220
 
 #### Parameters
 

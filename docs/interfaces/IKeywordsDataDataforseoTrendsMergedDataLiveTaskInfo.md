@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataDataforseoTrendsMergedDataLiveTaskInfo
 
-Defined in: main.ts:138114
+Defined in: main.ts:138278
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataDataforseoTrendsMergedDataLiveResultInfo`](../classes/KeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md)[]
 
-Defined in: main.ts:138116
+Defined in: main.ts:138280
 
 array of results
 

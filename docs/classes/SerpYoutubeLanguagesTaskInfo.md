@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeLanguagesTaskInfo
 
-Defined in: main.ts:69377
+Defined in: main.ts:69413
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:69377
 
 > **new SerpYoutubeLanguagesTaskInfo**(`data`?): [`SerpYoutubeLanguagesTaskInfo`](SerpYoutubeLanguagesTaskInfo.md)
 
-Defined in: main.ts:69383
+Defined in: main.ts:69419
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpYoutubeLanguagesResultInfo`](SerpYoutubeLanguagesResultInfo.md)[]
 
-Defined in: main.ts:69379
+Defined in: main.ts:69415
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:69387
+Defined in: main.ts:69423
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:69387
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:69409
+Defined in: main.ts:69445
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:69409
 
 > `static` **fromJS**(`data`): [`SerpYoutubeLanguagesTaskInfo`](SerpYoutubeLanguagesTaskInfo.md)
 
-Defined in: main.ts:69402
+Defined in: main.ts:69438
 
 #### Parameters
 

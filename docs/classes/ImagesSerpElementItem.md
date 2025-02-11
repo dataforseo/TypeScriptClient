@@ -6,7 +6,7 @@
 
 # Class: ImagesSerpElementItem
 
-Defined in: main.ts:32167
+Defined in: main.ts:32175
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:32167
 
 > **new ImagesSerpElementItem**(`data`?): [`ImagesSerpElementItem`](ImagesSerpElementItem.md)
 
-Defined in: main.ts:32184
+Defined in: main.ts:32192
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`ImagesElement`](ImagesElement.md)[]
 
-Defined in: main.ts:32173
+Defined in: main.ts:32181
 
 contains arrays of specific images
 
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:32180
+Defined in: main.ts:32188
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -149,7 +149,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **related\_image\_searches**: [`RelatedImageSearchesElement`](RelatedImageSearchesElement.md)[]
 
-Defined in: main.ts:32176
+Defined in: main.ts:32184
 
 contains keywords and images related to the specified search term
 if there are none, equals null
@@ -164,7 +164,7 @@ if there are none, equals null
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:32169
+Defined in: main.ts:32177
 
 title of the row
 
@@ -196,7 +196,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:32171
+Defined in: main.ts:32179
 
 source URL
 
@@ -228,7 +228,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:32189
+Defined in: main.ts:32197
 
 #### Parameters
 
@@ -250,7 +250,7 @@ Defined in: main.ts:32189
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:32219
+Defined in: main.ts:32227
 
 #### Parameters
 
@@ -272,7 +272,7 @@ Defined in: main.ts:32219
 
 > `static` **fromJS**(`data`): [`ImagesSerpElementItem`](ImagesSerpElementItem.md)
 
-Defined in: main.ts:32212
+Defined in: main.ts:32220
 
 #### Parameters
 

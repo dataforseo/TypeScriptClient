@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataDataforseoTrendsLocationsTaskInfo
 
-Defined in: main.ts:135490
+Defined in: main.ts:135654
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataDataforseoTrendsLocationsResultInfo`](../classes/KeywordsDataDataforseoTrendsLocationsResultInfo.md)[]
 
-Defined in: main.ts:135492
+Defined in: main.ts:135656
 
 array of results
 

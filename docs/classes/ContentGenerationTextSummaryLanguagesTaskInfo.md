@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationTextSummaryLanguagesTaskInfo
 
-Defined in: main.ts:183898
+Defined in: main.ts:184260
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:183898
 
 > **new ContentGenerationTextSummaryLanguagesTaskInfo**(`data`?): [`ContentGenerationTextSummaryLanguagesTaskInfo`](ContentGenerationTextSummaryLanguagesTaskInfo.md)
 
-Defined in: main.ts:183904
+Defined in: main.ts:184266
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`ContentGenerationTextSummaryLanguagesResultInfo`](ContentGenerationTextSummaryLanguagesResultInfo.md)[]
 
-Defined in: main.ts:183900
+Defined in: main.ts:184262
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:183908
+Defined in: main.ts:184270
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:183908
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:183930
+Defined in: main.ts:184292
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:183930
 
 > `static` **fromJS**(`data`): [`ContentGenerationTextSummaryLanguagesTaskInfo`](ContentGenerationTextSummaryLanguagesTaskInfo.md)
 
-Defined in: main.ts:183923
+Defined in: main.ts:184285
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo
 
-Defined in: main.ts:106729
+Defined in: main.ts:106861
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleHistoricalSerpsLiveResultInfo`](../classes/DataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md)[]
 
-Defined in: main.ts:106732
+Defined in: main.ts:106864
 
 array of results
 the array includes objects with SERPs for each month within the specified time frame

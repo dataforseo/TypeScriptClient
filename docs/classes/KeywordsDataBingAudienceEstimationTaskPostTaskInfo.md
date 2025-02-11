@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingAudienceEstimationTaskPostTaskInfo
 
-Defined in: main.ts:140396
+Defined in: main.ts:140560
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:140396
 
 > **new KeywordsDataBingAudienceEstimationTaskPostTaskInfo**(`data`?): [`KeywordsDataBingAudienceEstimationTaskPostTaskInfo`](KeywordsDataBingAudienceEstimationTaskPostTaskInfo.md)
 
-Defined in: main.ts:140403
+Defined in: main.ts:140567
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:140399
+Defined in: main.ts:140563
 
 array of results
 in this case, the value will be null
@@ -215,7 +215,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:140407
+Defined in: main.ts:140571
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:140407
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:140425
+Defined in: main.ts:140589
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:140425
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingAudienceEstimationTaskPostTaskInfo`](KeywordsDataBingAudienceEstimationTaskPostTaskInfo.md)
 
-Defined in: main.ts:140418
+Defined in: main.ts:140582
 
 #### Parameters
 

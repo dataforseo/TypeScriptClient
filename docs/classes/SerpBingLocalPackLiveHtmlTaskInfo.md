@@ -6,7 +6,7 @@
 
 # Class: SerpBingLocalPackLiveHtmlTaskInfo
 
-Defined in: main.ts:68815
+Defined in: main.ts:68851
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:68815
 
 > **new SerpBingLocalPackLiveHtmlTaskInfo**(`data`?): [`SerpBingLocalPackLiveHtmlTaskInfo`](SerpBingLocalPackLiveHtmlTaskInfo.md)
 
-Defined in: main.ts:68821
+Defined in: main.ts:68857
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpBingLocalPackLiveHtmlResultInfo`](SerpBingLocalPackLiveHtmlResultInfo.md)[]
 
-Defined in: main.ts:68817
+Defined in: main.ts:68853
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:68825
+Defined in: main.ts:68861
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:68825
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:68847
+Defined in: main.ts:68883
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:68847
 
 > `static` **fromJS**(`data`): [`SerpBingLocalPackLiveHtmlTaskInfo`](SerpBingLocalPackLiveHtmlTaskInfo.md)
 
-Defined in: main.ts:68840
+Defined in: main.ts:68876
 
 #### Parameters
 

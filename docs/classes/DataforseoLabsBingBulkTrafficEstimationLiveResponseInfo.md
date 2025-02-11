@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingBulkTrafficEstimationLiveResponseInfo
 
-Defined in: main.ts:115965
+Defined in: main.ts:116045
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:115965
 
 > **new DataforseoLabsBingBulkTrafficEstimationLiveResponseInfo**(`data`?): [`DataforseoLabsBingBulkTrafficEstimationLiveResponseInfo`](DataforseoLabsBingBulkTrafficEstimationLiveResponseInfo.md)
 
-Defined in: main.ts:115971
+Defined in: main.ts:116051
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsBingBulkTrafficEstimationLiveTaskInfo`](DataforseoLabsBingBulkTrafficEstimationLiveTaskInfo.md)[]
 
-Defined in: main.ts:115967
+Defined in: main.ts:116047
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:115975
+Defined in: main.ts:116055
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:115975
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:115997
+Defined in: main.ts:116077
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:115997
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingBulkTrafficEstimationLiveResponseInfo`](DataforseoLabsBingBulkTrafficEstimationLiveResponseInfo.md)
 
-Defined in: main.ts:115990
+Defined in: main.ts:116070
 
 #### Parameters
 

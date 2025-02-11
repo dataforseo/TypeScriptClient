@@ -6,7 +6,7 @@
 
 # Interface: IAppDataErrorsRequestInfo
 
-Defined in: main.ts:198293
+Defined in: main.ts:198795
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:198293
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:198316
+Defined in: main.ts:198818
 
 start time for filtering results
 optional field
@@ -33,7 +33,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:198323
+Defined in: main.ts:198825
 
 finish time for filtering results
 optional field
@@ -48,7 +48,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:198309
+Defined in: main.ts:198811
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -62,7 +62,7 @@ example: app_data/task_get/advanced, postback_url, pingback_url
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:198298
+Defined in: main.ts:198800
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -75,7 +75,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:198303
+Defined in: main.ts:198805
 
 offset in the results array of returned tasks
 optional field

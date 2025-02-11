@@ -6,7 +6,7 @@
 
 # Interface: ICountryDistribution
 
-Defined in: main.ts:148189
+Defined in: main.ts:148353
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:148189
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:148191
+Defined in: main.ts:148355
 
 country ISO code
 
@@ -28,7 +28,7 @@ country ISO code
 
 > `optional` **percentage**: `number`
 
-Defined in: main.ts:148195
+Defined in: main.ts:148359
 
 percentage of global search volume
 
@@ -38,6 +38,6 @@ percentage of global search volume
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:148193
+Defined in: main.ts:148357
 
 search volume in a given country

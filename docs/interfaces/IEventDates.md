@@ -6,7 +6,7 @@
 
 # Interface: IEventDates
 
-Defined in: main.ts:48812
+Defined in: main.ts:48828
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:48812
 
 > `optional` **displayed\_dates**: `string`
 
-Defined in: main.ts:48834
+Defined in: main.ts:48850
 
 date or date range as it is displayed in SERP
 
@@ -28,7 +28,7 @@ date or date range as it is displayed in SERP
 
 > `optional` **end\_datetime**: `string`
 
-Defined in: main.ts:48832
+Defined in: main.ts:48848
 
 date and time when the event ends
 if time zone is specified in the event, value will be returned in the UTC format:
@@ -46,7 +46,7 @@ example:
 
 > `optional` **start\_datetime**: `string`
 
-Defined in: main.ts:48822
+Defined in: main.ts:48838
 
 date and time when the event starts
 if time zone is specified in the event, value will be returned in the UTC format:

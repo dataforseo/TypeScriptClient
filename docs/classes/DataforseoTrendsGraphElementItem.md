@@ -6,7 +6,7 @@
 
 # Class: DataforseoTrendsGraphElementItem
 
-Defined in: main.ts:135942
+Defined in: main.ts:136106
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:135942
 
 > **new DataforseoTrendsGraphElementItem**(`data`?): [`DataforseoTrendsGraphElementItem`](DataforseoTrendsGraphElementItem.md)
 
-Defined in: main.ts:135950
+Defined in: main.ts:136114
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22797
 
 > `optional` **averages**: `number`[]
 
-Defined in: main.ts:135946
+Defined in: main.ts:136110
 
 keyword popularity values averaged over the whole time range
 
@@ -74,7 +74,7 @@ keyword popularity values averaged over the whole time range
 
 > `optional` **data**: [`TrendsGraphDataInfo`](TrendsGraphDataInfo.md)[]
 
-Defined in: main.ts:135944
+Defined in: main.ts:136108
 
 DataForSEO Trends data for the specified parameters
 
@@ -144,7 +144,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:135955
+Defined in: main.ts:136119
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: main.ts:135955
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:135982
+Defined in: main.ts:136146
 
 #### Parameters
 
@@ -188,7 +188,7 @@ Defined in: main.ts:135982
 
 > `static` **fromJS**(`data`): [`DataforseoTrendsGraphElementItem`](DataforseoTrendsGraphElementItem.md)
 
-Defined in: main.ts:135975
+Defined in: main.ts:136139
 
 #### Parameters
 

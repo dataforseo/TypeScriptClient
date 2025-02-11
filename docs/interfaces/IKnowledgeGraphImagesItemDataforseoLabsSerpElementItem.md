@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem
 
-Defined in: main.ts:105912
+Defined in: main.ts:106050
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:105912
 
 > `optional` **items**: [`KnowledgeGraphImagesElement`](../classes/KnowledgeGraphImagesElement.md)[]
 
-Defined in: main.ts:105917
+Defined in: main.ts:106055
 
 additional items present in the element
 if there are none, equals null
@@ -33,7 +33,7 @@ if there are none, equals null
 
 > `optional` **link**: [`LinkElement`](../classes/LinkElement.md)
 
-Defined in: main.ts:105914
+Defined in: main.ts:106052
 
 link of the element
 

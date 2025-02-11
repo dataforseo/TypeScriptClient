@@ -6,7 +6,7 @@
 
 # Class: EventItemSerpElementItem
 
-Defined in: main.ts:48989
+Defined in: main.ts:49005
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:48989
 
 > **new EventItemSerpElementItem**(`data`?): [`EventItemSerpElementItem`](EventItemSerpElementItem.md)
 
-Defined in: main.ts:49008
+Defined in: main.ts:49024
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:48993
+Defined in: main.ts:49009
 
 description of the results element in SERP
 
@@ -74,7 +74,7 @@ description of the results element in SERP
 
 > `optional` **event\_dates**: [`EventDates`](EventDates.md)
 
-Defined in: main.ts:49000
+Defined in: main.ts:49016
 
 dates when the event takes place
 if there are none, equals null
@@ -89,7 +89,7 @@ if there are none, equals null
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:48997
+Defined in: main.ts:49013
 
 URL of the image featured in the element
 
@@ -103,7 +103,7 @@ URL of the image featured in the element
 
 > `optional` **information\_and\_tickets**: [`InformationAndTicketsElement`](InformationAndTicketsElement.md)[]
 
-Defined in: main.ts:49004
+Defined in: main.ts:49020
 
 additional information and ticket purchase options
 
@@ -117,7 +117,7 @@ additional information and ticket purchase options
 
 > `optional` **location\_info**: [`LocationInfo`](LocationInfo.md)
 
-Defined in: main.ts:49002
+Defined in: main.ts:49018
 
 information about the event’s venue
 
@@ -190,7 +190,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:48991
+Defined in: main.ts:49007
 
 title of the element
 
@@ -222,7 +222,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:48995
+Defined in: main.ts:49011
 
 search URL with refinement parameters
 
@@ -254,7 +254,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:49013
+Defined in: main.ts:49029
 
 #### Parameters
 
@@ -276,7 +276,7 @@ Defined in: main.ts:49013
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:49041
+Defined in: main.ts:49057
 
 #### Parameters
 
@@ -298,7 +298,7 @@ Defined in: main.ts:49041
 
 > `static` **fromJS**(`data`): [`EventItemSerpElementItem`](EventItemSerpElementItem.md)
 
-Defined in: main.ts:49034
+Defined in: main.ts:49050
 
 #### Parameters
 

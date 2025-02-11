@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleKeywordsForAppLiveResultInfo
 
-Defined in: main.ts:121784
+Defined in: main.ts:121900
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:121784
 
 > **new DataforseoLabsGoogleKeywordsForAppLiveResultInfo**(`data`?): [`DataforseoLabsGoogleKeywordsForAppLiveResultInfo`](DataforseoLabsGoogleKeywordsForAppLiveResultInfo.md)
 
-Defined in: main.ts:121802
+Defined in: main.ts:121918
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:121802
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:121788
+Defined in: main.ts:121904
 
 id of the app in a POST array
 
@@ -54,7 +54,7 @@ id of the app in a POST array
 
 > `optional` **items**: [`DataforseoLabsGoogleKeywordsForAppLiveItem`](DataforseoLabsGoogleKeywordsForAppLiveItem.md)[]
 
-Defined in: main.ts:121798
+Defined in: main.ts:121914
 
 contains data related to the ranking keywords for the app specified in the app_id field
 
@@ -68,7 +68,7 @@ contains data related to the ranking keywords for the app specified in the app_i
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:121796
+Defined in: main.ts:121912
 
 the number of results returned in the items array
 
@@ -82,7 +82,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:121792
+Defined in: main.ts:121908
 
 language code in a POST array
 
@@ -96,7 +96,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:121790
+Defined in: main.ts:121906
 
 location code in a POST array
 
@@ -110,7 +110,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:121786
+Defined in: main.ts:121902
 
 search engine type
 
@@ -124,7 +124,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:121794
+Defined in: main.ts:121910
 
 total amount of results in our database relevant to your request
 
@@ -138,7 +138,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:121811
+Defined in: main.ts:121927
 
 #### Parameters
 
@@ -156,7 +156,7 @@ Defined in: main.ts:121811
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:121838
+Defined in: main.ts:121954
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:121838
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleKeywordsForAppLiveResultInfo`](DataforseoLabsGoogleKeywordsForAppLiveResultInfo.md)
 
-Defined in: main.ts:121831
+Defined in: main.ts:121947
 
 #### Parameters
 

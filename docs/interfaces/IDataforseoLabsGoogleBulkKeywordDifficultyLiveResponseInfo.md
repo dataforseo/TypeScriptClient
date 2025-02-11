@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleBulkKeywordDifficultyLiveResponseInfo
 
-Defined in: main.ts:96397
+Defined in: main.ts:96423
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsGoogleBulkKeywordDifficultyLiveTaskInfo`](../classes/DataforseoLabsGoogleBulkKeywordDifficultyLiveTaskInfo.md)[]
 
-Defined in: main.ts:96399
+Defined in: main.ts:96425
 
 array of tasks
 

@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisCategoriesResponseInfo
 
-Defined in: main.ts:177333
+Defined in: main.ts:177697
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:177333
 
 > **new ContentAnalysisCategoriesResponseInfo**(`data`?): [`ContentAnalysisCategoriesResponseInfo`](ContentAnalysisCategoriesResponseInfo.md)
 
-Defined in: main.ts:177339
+Defined in: main.ts:177703
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`ContentAnalysisCategoriesTaskInfo`](ContentAnalysisCategoriesTaskInfo.md)[]
 
-Defined in: main.ts:177335
+Defined in: main.ts:177699
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:177343
+Defined in: main.ts:177707
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:177343
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:177365
+Defined in: main.ts:177729
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:177365
 
 > `static` **fromJS**(`data`): [`ContentAnalysisCategoriesResponseInfo`](ContentAnalysisCategoriesResponseInfo.md)
 
-Defined in: main.ts:177358
+Defined in: main.ts:177722
 
 #### Parameters
 

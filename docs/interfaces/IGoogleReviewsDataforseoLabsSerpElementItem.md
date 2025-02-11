@@ -6,7 +6,7 @@
 
 # Interface: IGoogleReviewsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108169
+Defined in: main.ts:108225
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:108169
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:108180
+Defined in: main.ts:108236
 
 google-defined client id
 
@@ -32,7 +32,7 @@ google-defined client id
 
 > `optional` **feature**: `string`
 
-Defined in: main.ts:108178
+Defined in: main.ts:108234
 
 the additional feature of the review
 
@@ -42,7 +42,7 @@ the additional feature of the review
 
 > `optional` **place\_id**: `string`
 
-Defined in: main.ts:108176
+Defined in: main.ts:108232
 
 the identifier of a place
 
@@ -98,7 +98,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:108174
+Defined in: main.ts:108230
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -109,7 +109,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:108171
+Defined in: main.ts:108227
 
 the number of reviews
 

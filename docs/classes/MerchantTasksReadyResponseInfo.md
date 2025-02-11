@@ -6,7 +6,7 @@
 
 # Class: MerchantTasksReadyResponseInfo
 
-Defined in: main.ts:186075
+Defined in: main.ts:186437
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:186075
 
 > **new MerchantTasksReadyResponseInfo**(`data`?): [`MerchantTasksReadyResponseInfo`](MerchantTasksReadyResponseInfo.md)
 
-Defined in: main.ts:186081
+Defined in: main.ts:186443
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`MerchantTasksReadyTaskInfo`](MerchantTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:186077
+Defined in: main.ts:186439
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:186085
+Defined in: main.ts:186447
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:186085
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:186107
+Defined in: main.ts:186469
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:186107
 
 > `static` **fromJS**(`data`): [`MerchantTasksReadyResponseInfo`](MerchantTasksReadyResponseInfo.md)
 
-Defined in: main.ts:186100
+Defined in: main.ts:186462
 
 #### Parameters
 

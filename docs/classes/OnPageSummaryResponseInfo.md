@@ -6,7 +6,7 @@
 
 # Class: OnPageSummaryResponseInfo
 
-Defined in: main.ts:165807
+Defined in: main.ts:165971
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:165807
 
 > **new OnPageSummaryResponseInfo**(`data`?): [`OnPageSummaryResponseInfo`](OnPageSummaryResponseInfo.md)
 
-Defined in: main.ts:165813
+Defined in: main.ts:165977
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageSummaryTaskInfo`](OnPageSummaryTaskInfo.md)[]
 
-Defined in: main.ts:165809
+Defined in: main.ts:165973
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:165817
+Defined in: main.ts:165981
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:165817
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:165839
+Defined in: main.ts:166003
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:165839
 
 > `static` **fromJS**(`data`): [`OnPageSummaryResponseInfo`](OnPageSummaryResponseInfo.md)
 
-Defined in: main.ts:165832
+Defined in: main.ts:165996
 
 #### Parameters
 

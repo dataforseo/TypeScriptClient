@@ -6,7 +6,7 @@
 
 # Class: DiscussionsAndForumsSerpElementItem
 
-Defined in: main.ts:37657
+Defined in: main.ts:37673
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:37657
 
 > **new DiscussionsAndForumsSerpElementItem**(`data`?): [`DiscussionsAndForumsSerpElementItem`](DiscussionsAndForumsSerpElementItem.md)
 
-Defined in: main.ts:37669
+Defined in: main.ts:37685
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`DiscussionsAndForumsElement`](DiscussionsAndForumsElement.md)[]
 
-Defined in: main.ts:37661
+Defined in: main.ts:37677
 
 contains arrays of specific images
 
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:37665
+Defined in: main.ts:37681
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -149,7 +149,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:37659
+Defined in: main.ts:37675
 
 title of the row
 
@@ -199,7 +199,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:37674
+Defined in: main.ts:37690
 
 #### Parameters
 
@@ -221,7 +221,7 @@ Defined in: main.ts:37674
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:37698
+Defined in: main.ts:37714
 
 #### Parameters
 
@@ -243,7 +243,7 @@ Defined in: main.ts:37698
 
 > `static` **fromJS**(`data`): [`DiscussionsAndForumsSerpElementItem`](DiscussionsAndForumsSerpElementItem.md)
 
-Defined in: main.ts:37691
+Defined in: main.ts:37707
 
 #### Parameters
 

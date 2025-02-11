@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleSellersTaskGetHtmlResponseInfo
 
-Defined in: main.ts:188673
+Defined in: main.ts:189047
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:188673
 
 > **new MerchantGoogleSellersTaskGetHtmlResponseInfo**(`data`?): [`MerchantGoogleSellersTaskGetHtmlResponseInfo`](MerchantGoogleSellersTaskGetHtmlResponseInfo.md)
 
-Defined in: main.ts:188679
+Defined in: main.ts:189053
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`MerchantGoogleSellersTaskGetHtmlTaskInfo`](MerchantGoogleSellersTaskGetHtmlTaskInfo.md)[]
 
-Defined in: main.ts:188675
+Defined in: main.ts:189049
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:188683
+Defined in: main.ts:189057
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:188683
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:188705
+Defined in: main.ts:189079
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:188705
 
 > `static` **fromJS**(`data`): [`MerchantGoogleSellersTaskGetHtmlResponseInfo`](MerchantGoogleSellersTaskGetHtmlResponseInfo.md)
 
-Defined in: main.ts:188698
+Defined in: main.ts:189072
 
 #### Parameters
 

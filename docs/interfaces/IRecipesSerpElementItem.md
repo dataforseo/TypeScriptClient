@@ -6,7 +6,7 @@
 
 # Interface: IRecipesSerpElementItem
 
-Defined in: main.ts:34332
+Defined in: main.ts:34348
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:34332
 
 > `optional` **items**: [`RecipesElement`](../classes/RecipesElement.md)[]
 
-Defined in: main.ts:34334
+Defined in: main.ts:34350
 
 contains arrays of specific images
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:34338
+Defined in: main.ts:34354
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP

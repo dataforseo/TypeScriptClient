@@ -6,7 +6,7 @@
 
 # Class: AmazonRelatedSearchesSerpElementItem
 
-Defined in: main.ts:192832
+Defined in: main.ts:193238
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:192832
 
 > **new AmazonRelatedSearchesSerpElementItem**(`data`?): [`AmazonRelatedSearchesSerpElementItem`](AmazonRelatedSearchesSerpElementItem.md)
 
-Defined in: main.ts:192842
+Defined in: main.ts:193248
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23218
 
 > `optional` **items**: [`RelatedSearchesElement`](RelatedSearchesElement.md)[]
 
-Defined in: main.ts:192838
+Defined in: main.ts:193244
 
 Amazon product items
 
@@ -74,7 +74,7 @@ Amazon product items
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:192836
+Defined in: main.ts:193242
 
 the alignment of the element in Amazon SERP
 possible values:
@@ -164,7 +164,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:192847
+Defined in: main.ts:193253
 
 #### Parameters
 
@@ -186,7 +186,7 @@ Defined in: main.ts:192847
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:192870
+Defined in: main.ts:193276
 
 #### Parameters
 
@@ -208,7 +208,7 @@ Defined in: main.ts:192870
 
 > `static` **fromJS**(`data`): [`AmazonRelatedSearchesSerpElementItem`](AmazonRelatedSearchesSerpElementItem.md)
 
-Defined in: main.ts:192863
+Defined in: main.ts:193269
 
 #### Parameters
 

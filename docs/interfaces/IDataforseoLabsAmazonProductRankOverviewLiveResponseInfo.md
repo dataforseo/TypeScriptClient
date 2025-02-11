@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAmazonProductRankOverviewLiveResponseInfo
 
-Defined in: main.ts:114165
+Defined in: main.ts:114233
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsAmazonProductRankOverviewLiveTaskInfo`](../classes/DataforseoLabsAmazonProductRankOverviewLiveTaskInfo.md)[]
 
-Defined in: main.ts:114167
+Defined in: main.ts:114235
 
 array of tasks
 

@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksDomainPagesLiveRequestInfo
 
-Defined in: main.ts:153493
+Defined in: main.ts:153657
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:153493
 
 > `optional` **backlinks\_filters**: `any`[]
 
-Defined in: main.ts:153568
+Defined in: main.ts:153732
 
 filter the backlinks of your target
 optional field
@@ -34,7 +34,7 @@ example:
 
 > `optional` **backlinks\_status\_type**: `string`
 
-Defined in: main.ts:153529
+Defined in: main.ts:153693
 
 set what backlinks to return and count
 optional field
@@ -51,7 +51,7 @@ default value: live
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
-Defined in: main.ts:153579
+Defined in: main.ts:153743
 
 indicates if internal backlinks from subdomains to the target will be excluded from the results
 optional field
@@ -65,14 +65,14 @@ default value: true
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:153546
+Defined in: main.ts:153710
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, =, <>, in, not_in, like, not_like, ilike, not_ilike
+regex, not_regex, =, <>, in, not_in, like, not_like, ilike, not_ilike, match, not_match
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["meta.internal_links_count",">","1"]
@@ -90,7 +90,7 @@ The full list of possible filters is available here.
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:153573
+Defined in: main.ts:153737
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -103,7 +103,7 @@ default value: true
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:153520
+Defined in: main.ts:153684
 
 maximum number of elements within internal arrays
 optional field
@@ -122,7 +122,7 @@ maximum value: 1000
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:153504
+Defined in: main.ts:153668
 
 the maximum number of returned pages
 optional field
@@ -135,7 +135,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:153509
+Defined in: main.ts:153673
 
 offset in the results array of returned pages
 optional field
@@ -148,7 +148,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:153560
+Defined in: main.ts:153724
 
 results sorting rules
 optional field
@@ -170,7 +170,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:153585
+Defined in: main.ts:153749
 
 user-defined task identifier
 optional field
@@ -184,7 +184,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:153499
+Defined in: main.ts:153663
 
 domain or subdomain
 required field

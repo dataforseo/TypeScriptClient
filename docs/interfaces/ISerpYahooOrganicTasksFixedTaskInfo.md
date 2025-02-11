@@ -6,7 +6,7 @@
 
 # Interface: ISerpYahooOrganicTasksFixedTaskInfo
 
-Defined in: main.ts:75982
+Defined in: main.ts:76018
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpYahooOrganicTasksFixedResultInfo`](../classes/SerpYahooOrganicTasksFixedResultInfo.md)[]
 
-Defined in: main.ts:75984
+Defined in: main.ts:76020
 
 array of results
 

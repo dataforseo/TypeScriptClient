@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataDataforseoTrendsDemographyLiveResponseInfo
 
-Defined in: main.ts:137715
+Defined in: main.ts:137879
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataDataforseoTrendsDemographyLiveTaskInfo`](../classes/KeywordsDataDataforseoTrendsDemographyLiveTaskInfo.md)[]
 
-Defined in: main.ts:137717
+Defined in: main.ts:137881
 
 array of tasks
 

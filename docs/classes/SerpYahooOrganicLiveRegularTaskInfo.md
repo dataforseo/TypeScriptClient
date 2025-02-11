@@ -6,7 +6,7 @@
 
 # Class: SerpYahooOrganicLiveRegularTaskInfo
 
-Defined in: main.ts:77236
+Defined in: main.ts:77272
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:77236
 
 > **new SerpYahooOrganicLiveRegularTaskInfo**(`data`?): [`SerpYahooOrganicLiveRegularTaskInfo`](SerpYahooOrganicLiveRegularTaskInfo.md)
 
-Defined in: main.ts:77242
+Defined in: main.ts:77278
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpYahooOrganicLiveRegularResultInfo`](SerpYahooOrganicLiveRegularResultInfo.md)[]
 
-Defined in: main.ts:77238
+Defined in: main.ts:77274
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:77246
+Defined in: main.ts:77282
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:77246
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:77268
+Defined in: main.ts:77304
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:77268
 
 > `static` **fromJS**(`data`): [`SerpYahooOrganicLiveRegularTaskInfo`](SerpYahooOrganicLiveRegularTaskInfo.md)
 
-Defined in: main.ts:77261
+Defined in: main.ts:77297
 
 #### Parameters
 

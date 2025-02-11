@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationParaphraseLiveRequestInfo
 
-Defined in: main.ts:182470
+Defined in: main.ts:182832
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:182470
 
 > **new ContentGenerationParaphraseLiveRequestInfo**(`data`?): [`ContentGenerationParaphraseLiveRequestInfo`](ContentGenerationParaphraseLiveRequestInfo.md)
 
-Defined in: main.ts:182492
+Defined in: main.ts:182854
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:182492
 
 > `optional` **creativity\_index**: `number`
 
-Defined in: main.ts:182482
+Defined in: main.ts:182844
 
 creativity of content generation
 required field
@@ -59,7 +59,7 @@ learn more about this parameter on our help center
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:182488
+Defined in: main.ts:182850
 
 user-defined task identifier
 optional field
@@ -77,7 +77,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:182475
+Defined in: main.ts:182837
 
 target text
 required field
@@ -94,7 +94,7 @@ learn more about tokens on our help center
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:182501
+Defined in: main.ts:182863
 
 #### Parameters
 
@@ -112,7 +112,7 @@ Defined in: main.ts:182501
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:182520
+Defined in: main.ts:182882
 
 #### Parameters
 
@@ -130,7 +130,7 @@ Defined in: main.ts:182520
 
 > `static` **fromJS**(`data`): [`ContentGenerationParaphraseLiveRequestInfo`](ContentGenerationParaphraseLiveRequestInfo.md)
 
-Defined in: main.ts:182513
+Defined in: main.ts:182875
 
 #### Parameters
 

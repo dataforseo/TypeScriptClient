@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleImagesLiveHtmlResponseInfo
 
-Defined in: main.ts:52469
+Defined in: main.ts:52485
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:52469
 
 > **new SerpGoogleImagesLiveHtmlResponseInfo**(`data`?): [`SerpGoogleImagesLiveHtmlResponseInfo`](SerpGoogleImagesLiveHtmlResponseInfo.md)
 
-Defined in: main.ts:52475
+Defined in: main.ts:52491
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleImagesLiveHtmlTaskInfo`](SerpGoogleImagesLiveHtmlTaskInfo.md)[]
 
-Defined in: main.ts:52471
+Defined in: main.ts:52487
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:52479
+Defined in: main.ts:52495
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:52479
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:52501
+Defined in: main.ts:52517
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:52501
 
 > `static` **fromJS**(`data`): [`SerpGoogleImagesLiveHtmlResponseInfo`](SerpGoogleImagesLiveHtmlResponseInfo.md)
 
-Defined in: main.ts:52494
+Defined in: main.ts:52510
 
 #### Parameters
 

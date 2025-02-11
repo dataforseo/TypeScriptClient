@@ -6,7 +6,7 @@
 
 # Interface: IMicrodataInspectionInfo
 
-Defined in: main.ts:171871
+Defined in: main.ts:172035
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:171871
 
 > `optional` **fields**: [`MicrodataFieldsInfo`](../classes/MicrodataFieldsInfo.md)[]
 
-Defined in: main.ts:171877
+Defined in: main.ts:172041
 
 microdata fields
 an array of objects containing data fields related to the certain microdata type
@@ -29,7 +29,7 @@ an array of objects containing data fields related to the certain microdata type
 
 > `optional` **types**: `string`[]
 
-Defined in: main.ts:171874
+Defined in: main.ts:172038
 
 parent microdata types
 for a full list of available types, please visit schema.org

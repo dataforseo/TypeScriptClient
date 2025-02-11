@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleAppSearchesTaskGetAdvancedResultInfo
 
-Defined in: main.ts:200111
+Defined in: main.ts:200613
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:200111
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:200122
+Defined in: main.ts:200624
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -29,7 +29,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:200127
+Defined in: main.ts:200629
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -42,7 +42,7 @@ example:
 
 > `optional` **items**: [`BaseAppDataSerpElementItem`](../classes/BaseAppDataSerpElementItem.md)[]
 
-Defined in: main.ts:200133
+Defined in: main.ts:200635
 
 found apps
 
@@ -52,7 +52,7 @@ found apps
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:200131
+Defined in: main.ts:200633
 
 the number of items in the results array
 
@@ -62,7 +62,7 @@ the number of items in the results array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:200113
+Defined in: main.ts:200615
 
 keyword received in a POST request
 
@@ -72,7 +72,7 @@ keyword received in a POST request
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:200119
+Defined in: main.ts:200621
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:200117
+Defined in: main.ts:200619
 
 location code in a POST array
 
@@ -92,7 +92,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:200115
+Defined in: main.ts:200617
 
 search engine domain in a POST array
 
@@ -102,6 +102,6 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:200129
+Defined in: main.ts:200631
 
 the total number of results

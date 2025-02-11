@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsBingSubdomainsLiveResponseInfo
 
-Defined in: main.ts:120831
+Defined in: main.ts:120947
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsBingSubdomainsLiveTaskInfo`](../classes/DataforseoLabsBingSubdomainsLiveTaskInfo.md)[]
 
-Defined in: main.ts:120833
+Defined in: main.ts:120949
 
 array of tasks
 

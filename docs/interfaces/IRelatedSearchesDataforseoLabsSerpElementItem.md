@@ -6,7 +6,7 @@
 
 # Interface: IRelatedSearchesDataforseoLabsSerpElementItem
 
-Defined in: main.ts:105783
+Defined in: main.ts:105921
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:105783
 
 > `optional` **items**: `string`[]
 
-Defined in: main.ts:105787
+Defined in: main.ts:105925
 
 elements of search results found in SERP
 
@@ -78,7 +78,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:105785
+Defined in: main.ts:105923
 
 search engine type
 

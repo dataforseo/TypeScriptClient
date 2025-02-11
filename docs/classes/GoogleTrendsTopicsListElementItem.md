@@ -6,7 +6,7 @@
 
 # Class: GoogleTrendsTopicsListElementItem
 
-Defined in: main.ts:135233
+Defined in: main.ts:135397
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:135233
 
 > **new GoogleTrendsTopicsListElementItem**(`data`?): [`GoogleTrendsTopicsListElementItem`](GoogleTrendsTopicsListElementItem.md)
 
-Defined in: main.ts:135239
+Defined in: main.ts:135403
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22707
 
 > `optional` **data**: [`TrendsTopicListDataInfo`](TrendsTopicListDataInfo.md)
 
-Defined in: main.ts:135235
+Defined in: main.ts:135399
 
 Google Trends data from the corresponding item
 
@@ -148,7 +148,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:135244
+Defined in: main.ts:135408
 
 #### Parameters
 
@@ -170,7 +170,7 @@ Defined in: main.ts:135244
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:135262
+Defined in: main.ts:135426
 
 #### Parameters
 
@@ -192,7 +192,7 @@ Defined in: main.ts:135262
 
 > `static` **fromJS**(`data`): [`GoogleTrendsTopicsListElementItem`](GoogleTrendsTopicsListElementItem.md)
 
-Defined in: main.ts:135255
+Defined in: main.ts:135419
 
 #### Parameters
 

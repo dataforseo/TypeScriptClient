@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem
 
-Defined in: main.ts:95754
+Defined in: main.ts:95780
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:95754
 
 > `optional` **avg\_backlinks\_info**: [`AvgBacklinksInfo`](../classes/AvgBacklinksInfo.md)
 
-Defined in: main.ts:95791
+Defined in: main.ts:95817
 
 backlink data for the returned keyword
 this object provides the average number of backlinks, referring pages and domains, as well as the average rank values among the top-10 websites ranking organically for the keyword
@@ -29,7 +29,7 @@ this object provides the average number of backlinks, referring pages and domain
 
 > `optional` **clickstream\_keyword\_info**: [`ClickstreamKeywordInfo`](../classes/ClickstreamKeywordInfo.md)
 
-Defined in: main.ts:95777
+Defined in: main.ts:95803
 
 clickstream data for the returned keyword
 to retrieve results for this field, the parameter include_clickstream_data must be set to true
@@ -40,7 +40,7 @@ to retrieve results for this field, the parameter include_clickstream_data must 
 
 > `optional` **impressions\_info**: [`ImpressionsInfo`](../classes/ImpressionsInfo.md)
 
-Defined in: main.ts:95785
+Defined in: main.ts:95811
 
 impressions data for the returned keyword idea
 Note that all data in the impressions_info object is deprecated and provided only as legacy to avoid maintenance issues
@@ -54,7 +54,7 @@ learn more about impressions in this help center article
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:95759
+Defined in: main.ts:95785
 
 keyword
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -65,7 +65,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **keyword\_info**: [`KeywordInfo`](../classes/KeywordInfo.md)
 
-Defined in: main.ts:95770
+Defined in: main.ts:95796
 
 keyword data for the returned keyword idea
 
@@ -75,7 +75,7 @@ keyword data for the returned keyword idea
 
 > `optional` **keyword\_info\_normalized\_with\_bing**: [`KeywordInfoNormalizedWithInfo`](../classes/KeywordInfoNormalizedWithInfo.md)
 
-Defined in: main.ts:95772
+Defined in: main.ts:95798
 
 contains keyword search volume normalized with Bing search volume
 
@@ -85,7 +85,7 @@ contains keyword search volume normalized with Bing search volume
 
 > `optional` **keyword\_info\_normalized\_with\_clickstream**: [`KeywordInfoNormalizedWithInfo`](../classes/KeywordInfoNormalizedWithInfo.md)
 
-Defined in: main.ts:95774
+Defined in: main.ts:95800
 
 contains keyword search volume normalized with clickstream data
 
@@ -95,7 +95,7 @@ contains keyword search volume normalized with clickstream data
 
 > `optional` **keyword\_properties**: [`KeywordProperties`](../classes/KeywordProperties.md)
 
-Defined in: main.ts:95779
+Defined in: main.ts:95805
 
 additional information about the keyword
 
@@ -105,7 +105,7 @@ additional information about the keyword
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:95764
+Defined in: main.ts:95790
 
 language code in a POST array
 
@@ -115,7 +115,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:95762
+Defined in: main.ts:95788
 
 location code in a POST array
 if there is no data, then the value is null
@@ -126,7 +126,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:95756
+Defined in: main.ts:95782
 
 search engine type
 
@@ -136,7 +136,7 @@ search engine type
 
 > `optional` **search\_partners**: `boolean`
 
-Defined in: main.ts:95768
+Defined in: main.ts:95794
 
 indicates data for Google and partner sites
 if true, the results are returned for owned, operated, and syndicated networks across Google and partner sites that host Google search;
@@ -148,7 +148,7 @@ if false, the results are returned for Google search sites only
 
 > `optional` **serp\_info**: [`SerpInfo`](../classes/SerpInfo.md)
 
-Defined in: main.ts:95788
+Defined in: main.ts:95814
 
 SERP data
 the value will be null if you didn’t set the field include_serp_info to true in the POST array or if there is no SERP data for this keyword in our database

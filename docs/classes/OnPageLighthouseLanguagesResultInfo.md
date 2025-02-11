@@ -6,7 +6,7 @@
 
 # Class: OnPageLighthouseLanguagesResultInfo
 
-Defined in: main.ts:174858
+Defined in: main.ts:175222
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:174858
 
 > **new OnPageLighthouseLanguagesResultInfo**(`data`?): [`OnPageLighthouseLanguagesResultInfo`](OnPageLighthouseLanguagesResultInfo.md)
 
-Defined in: main.ts:174866
+Defined in: main.ts:175230
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:174866
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:174862
+Defined in: main.ts:175226
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:174860
+Defined in: main.ts:175224
 
 language name
 
@@ -68,7 +68,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:174875
+Defined in: main.ts:175239
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:174875
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:174893
+Defined in: main.ts:175257
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:174893
 
 > `static` **fromJS**(`data`): [`OnPageLighthouseLanguagesResultInfo`](OnPageLighthouseLanguagesResultInfo.md)
 
-Defined in: main.ts:174886
+Defined in: main.ts:175250
 
 #### Parameters
 

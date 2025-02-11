@@ -6,7 +6,7 @@
 
 # Interface: IFindResultsOnDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108976
+Defined in: main.ts:109032
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:108976
 
 > `optional` **items**: [`ShortVideosElement`](../classes/ShortVideosElement.md)[]
 
-Defined in: main.ts:108978
+Defined in: main.ts:109034
 
 elements of search results found in SERP
 

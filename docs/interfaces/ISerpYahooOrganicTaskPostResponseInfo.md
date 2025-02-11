@@ -6,7 +6,7 @@
 
 # Interface: ISerpYahooOrganicTaskPostResponseInfo
 
-Defined in: main.ts:75613
+Defined in: main.ts:75649
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpYahooOrganicTaskPostTaskInfo`](../classes/SerpYahooOrganicTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:75615
+Defined in: main.ts:75651
 
 array of tasks
 

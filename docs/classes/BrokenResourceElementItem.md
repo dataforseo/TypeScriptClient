@@ -6,7 +6,7 @@
 
 # Class: BrokenResourceElementItem
 
-Defined in: main.ts:168343
+Defined in: main.ts:168507
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:168343
 
 > **new BrokenResourceElementItem**(`data`?): [`BrokenResourceElementItem`](BrokenResourceElementItem.md)
 
-Defined in: main.ts:168359
+Defined in: main.ts:168523
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22339
 
 > `optional` **accept\_type**: `string`
 
-Defined in: main.ts:168355
+Defined in: main.ts:168519
 
 indicates the expected type of resource
 for example, if "resource_type": "broken", accept_type will indicate the type of the broken resource
@@ -176,7 +176,7 @@ example:
 
 > `optional` **fetch\_timing**: [`FetchTiming`](FetchTiming.md)
 
-Defined in: main.ts:168350
+Defined in: main.ts:168514
 
 resource fething time range
 
@@ -246,7 +246,7 @@ types of media used to display a page
 
 > `optional` **meta**: [`PageMetaInfo`](PageMetaInfo.md)
 
-Defined in: main.ts:168348
+Defined in: main.ts:168512
 
 resource properties
 the value depends on the resource_type
@@ -391,7 +391,7 @@ page URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:168364
+Defined in: main.ts:168528
 
 #### Parameters
 
@@ -413,7 +413,7 @@ Defined in: main.ts:168364
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:168384
+Defined in: main.ts:168548
 
 #### Parameters
 
@@ -435,7 +435,7 @@ Defined in: main.ts:168384
 
 > `static` **fromJS**(`data`): [`BrokenResourceElementItem`](BrokenResourceElementItem.md)
 
-Defined in: main.ts:168377
+Defined in: main.ts:168541
 
 #### Parameters
 

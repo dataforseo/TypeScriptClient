@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleNewsTaskPostTaskInfo
 
-Defined in: main.ts:45595
+Defined in: main.ts:45611
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:45595
 
 > **new SerpGoogleNewsTaskPostTaskInfo**(`data`?): [`SerpGoogleNewsTaskPostTaskInfo`](SerpGoogleNewsTaskPostTaskInfo.md)
 
-Defined in: main.ts:45602
+Defined in: main.ts:45618
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:45598
+Defined in: main.ts:45614
 
 array of results
 in this case, the value will be null
@@ -215,7 +215,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:45606
+Defined in: main.ts:45622
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:45606
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:45624
+Defined in: main.ts:45640
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:45624
 
 > `static` **fromJS**(`data`): [`SerpGoogleNewsTaskPostTaskInfo`](SerpGoogleNewsTaskPostTaskInfo.md)
 
-Defined in: main.ts:45617
+Defined in: main.ts:45633
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: AppendixAppendixDayStatisticsRatesData
 
-Defined in: main.ts:233564
+Defined in: main.ts:234084
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:233564
 
 > **new AppendixAppendixDayStatisticsRatesData**(`data`?): [`AppendixAppendixDayStatisticsRatesData`](AppendixAppendixDayStatisticsRatesData.md)
 
-Defined in: main.ts:233572
+Defined in: main.ts:234092
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:233572
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:233566
+Defined in: main.ts:234086
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:233566
 
 > `optional` **status**: `number`
 
-Defined in: main.ts:233567
+Defined in: main.ts:234088
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:233567
 
 > `optional` **user\_data**: `number`
 
-Defined in: main.ts:233565
+Defined in: main.ts:234085
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:233565
 
 > `optional` **webhook\_resend**: `number`
 
-Defined in: main.ts:233568
+Defined in: main.ts:234087
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:233568
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:233581
+Defined in: main.ts:234101
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:233581
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:233601
+Defined in: main.ts:234121
 
 #### Parameters
 
@@ -124,7 +124,7 @@ Defined in: main.ts:233601
 
 > `static` **fromJS**(`data`): [`AppendixAppendixDayStatisticsRatesData`](AppendixAppendixDayStatisticsRatesData.md)
 
-Defined in: main.ts:233594
+Defined in: main.ts:234114
 
 #### Parameters
 

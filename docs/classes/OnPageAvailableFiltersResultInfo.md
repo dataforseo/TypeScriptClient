@@ -6,7 +6,7 @@
 
 # Class: OnPageAvailableFiltersResultInfo
 
-Defined in: main.ts:163846
+Defined in: main.ts:164010
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:163846
 
 > **new OnPageAvailableFiltersResultInfo**(`data`?): [`OnPageAvailableFiltersResultInfo`](OnPageAvailableFiltersResultInfo.md)
 
-Defined in: main.ts:163857
+Defined in: main.ts:164021
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:163857
 
 > `optional` **keyword\_density**: `object`
 
-Defined in: main.ts:163853
+Defined in: main.ts:164017
 
 #### Index Signature
 
@@ -56,7 +56,7 @@ Defined in: main.ts:163853
 
 > `optional` **links**: `object`
 
-Defined in: main.ts:163850
+Defined in: main.ts:164014
 
 #### Index Signature
 
@@ -72,7 +72,7 @@ Defined in: main.ts:163850
 
 > `optional` **non\_indexable**: `object`
 
-Defined in: main.ts:163849
+Defined in: main.ts:164013
 
 #### Index Signature
 
@@ -88,7 +88,7 @@ Defined in: main.ts:163849
 
 > `optional` **pages**: `object`
 
-Defined in: main.ts:163848
+Defined in: main.ts:164012
 
 #### Index Signature
 
@@ -104,7 +104,7 @@ Defined in: main.ts:163848
 
 > `optional` **pages\_by\_resource**: `object`
 
-Defined in: main.ts:163851
+Defined in: main.ts:164015
 
 #### Index Signature
 
@@ -120,7 +120,7 @@ Defined in: main.ts:163851
 
 > `optional` **redirect\_chains**: `object`
 
-Defined in: main.ts:163852
+Defined in: main.ts:164016
 
 #### Index Signature
 
@@ -136,7 +136,7 @@ Defined in: main.ts:163852
 
 > `optional` **resources**: `object`
 
-Defined in: main.ts:163847
+Defined in: main.ts:164011
 
 #### Index Signature
 
@@ -152,7 +152,7 @@ Defined in: main.ts:163847
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:163866
+Defined in: main.ts:164030
 
 #### Parameters
 
@@ -170,7 +170,7 @@ Defined in: main.ts:163866
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:163931
+Defined in: main.ts:164095
 
 #### Parameters
 
@@ -188,7 +188,7 @@ Defined in: main.ts:163931
 
 > `static` **fromJS**(`data`): [`OnPageAvailableFiltersResultInfo`](OnPageAvailableFiltersResultInfo.md)
 
-Defined in: main.ts:163924
+Defined in: main.ts:164088
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IProductInfoElementMerchantSerpElementItem
 
-Defined in: main.ts:190717
+Defined in: main.ts:191123
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:190717
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:190724
+Defined in: main.ts:191130
 
 description of the product
 
@@ -32,7 +32,7 @@ description of the product
 
 > `optional` **features**: `string`[]
 
-Defined in: main.ts:190733
+Defined in: main.ts:191139
 
 product features
 contains snippets with the description of product features
@@ -43,7 +43,7 @@ contains snippets with the description of product features
 
 > `optional` **images**: `string`[]
 
-Defined in: main.ts:190730
+Defined in: main.ts:191136
 
 product images
 contains urls to product images
@@ -70,7 +70,7 @@ left, right
 
 > `optional` **product\_id**: `string`
 
-Defined in: main.ts:190720
+Defined in: main.ts:191126
 
 product_id received in a POST array
 ilearn more about the parameter in this help center guide
@@ -111,7 +111,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingElement`](../classes/RatingElement.md)
 
-Defined in: main.ts:190736
+Defined in: main.ts:191142
 
 product rating 
 the popularity rate based on reviews
@@ -122,7 +122,7 @@ the popularity rate based on reviews
 
 > `optional` **seller\_reviews\_count**: `number`
 
-Defined in: main.ts:190739
+Defined in: main.ts:191145
 
 number of seller reviews
 number of reviews on the product seller’s account
@@ -133,7 +133,7 @@ number of reviews on the product seller’s account
 
 > `optional` **sellers**: [`ProductSeller`](../classes/ProductSeller.md)[]
 
-Defined in: main.ts:190742
+Defined in: main.ts:191148
 
 sellers of the product
 number of reviews on the product seller’s account
@@ -144,7 +144,7 @@ number of reviews on the product seller’s account
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:190722
+Defined in: main.ts:191128
 
 title of the product
 
@@ -168,7 +168,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:190727
+Defined in: main.ts:191133
 
 product url
 url of the product on Google Shopping
@@ -179,7 +179,7 @@ url of the product on Google Shopping
 
 > `optional` **variations**: [`ProductVariation`](../classes/ProductVariation.md)[]
 
-Defined in: main.ts:190745
+Defined in: main.ts:191151
 
 variations of the product
 contains brief information about different product variations

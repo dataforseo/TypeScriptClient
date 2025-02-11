@@ -6,7 +6,7 @@
 
 # Class: OnPageLighthouseAuditsResponseInfo
 
-Defined in: main.ts:175141
+Defined in: main.ts:175505
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:175141
 
 > **new OnPageLighthouseAuditsResponseInfo**(`data`?): [`OnPageLighthouseAuditsResponseInfo`](OnPageLighthouseAuditsResponseInfo.md)
 
-Defined in: main.ts:175147
+Defined in: main.ts:175511
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageLighthouseAuditsTaskInfo`](OnPageLighthouseAuditsTaskInfo.md)[]
 
-Defined in: main.ts:175143
+Defined in: main.ts:175507
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:175151
+Defined in: main.ts:175515
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:175151
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:175173
+Defined in: main.ts:175537
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:175173
 
 > `static` **fromJS**(`data`): [`OnPageLighthouseAuditsResponseInfo`](OnPageLighthouseAuditsResponseInfo.md)
 
-Defined in: main.ts:175166
+Defined in: main.ts:175530
 
 #### Parameters
 

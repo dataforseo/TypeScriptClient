@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsBingRelevantPagesLiveTaskInfo
 
-Defined in: main.ts:119742
+Defined in: main.ts:119846
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsBingRelevantPagesLiveResultInfo`](../classes/DataforseoLabsBingRelevantPagesLiveResultInfo.md)[]
 
-Defined in: main.ts:119744
+Defined in: main.ts:119848
 
 array of results
 

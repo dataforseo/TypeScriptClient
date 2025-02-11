@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppListingsSearchLiveRequestInfo
 
-Defined in: main.ts:208874
+Defined in: main.ts:209376
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:208874
 
 > **new AppDataAppleAppListingsSearchLiveRequestInfo**(`data`?): [`AppDataAppleAppListingsSearchLiveRequestInfo`](AppDataAppleAppListingsSearchLiveRequestInfo.md)
 
-Defined in: main.ts:208943
+Defined in: main.ts:209445
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:208943
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:208880
+Defined in: main.ts:209382
 
 app categories
 optional field
@@ -58,7 +58,7 @@ you can specify up to 10 categories
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:208885
+Defined in: main.ts:209387
 
 keyword in the app’s description
 optional field
@@ -75,7 +75,7 @@ can contain up to 200 characters
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:208901
+Defined in: main.ts:209403
 
 array of results filtering parameters
 optional field
@@ -98,7 +98,7 @@ you can receive the list of available filters by making a separate request to h
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:208920
+Defined in: main.ts:209422
 
 the maximum number of returned apps
 optional field
@@ -115,7 +115,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:208925
+Defined in: main.ts:209427
 
 offset in the results array of returned apps
 optional field
@@ -132,7 +132,7 @@ if you specify the 10 value, the first ten entities in the results array will be
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:208933
+Defined in: main.ts:209435
 
 token for subsequent requests
 optional field
@@ -152,7 +152,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:208915
+Defined in: main.ts:209417
 
 results sorting rules
 optional field
@@ -178,7 +178,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:208939
+Defined in: main.ts:209441
 
 user-defined task identifier
 optional field
@@ -196,7 +196,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:208890
+Defined in: main.ts:209392
 
 keyword in the app’s title
 optional field
@@ -213,7 +213,7 @@ can contain up to 200 characters
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:208952
+Defined in: main.ts:209454
 
 #### Parameters
 
@@ -231,7 +231,7 @@ Defined in: main.ts:208952
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:208989
+Defined in: main.ts:209491
 
 #### Parameters
 
@@ -249,7 +249,7 @@ Defined in: main.ts:208989
 
 > `static` **fromJS**(`data`): [`AppDataAppleAppListingsSearchLiveRequestInfo`](AppDataAppleAppListingsSearchLiveRequestInfo.md)
 
-Defined in: main.ts:208982
+Defined in: main.ts:209484
 
 #### Parameters
 

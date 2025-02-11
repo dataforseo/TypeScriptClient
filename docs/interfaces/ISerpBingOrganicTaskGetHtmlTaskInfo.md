@@ -6,7 +6,7 @@
 
 # Interface: ISerpBingOrganicTaskGetHtmlTaskInfo
 
-Defined in: main.ts:64979
+Defined in: main.ts:65009
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpBingOrganicTaskGetHtmlResultInfo`](../classes/SerpBingOrganicTaskGetHtmlResultInfo.md)[]
 
-Defined in: main.ts:64981
+Defined in: main.ts:65011
 
 array of results
 

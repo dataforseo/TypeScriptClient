@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleCategoriesForKeywordsLiveTaskInfo
 
-Defined in: main.ts:98190
+Defined in: main.ts:98218
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo`](../classes/DataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo.md)[]
 
-Defined in: main.ts:98192
+Defined in: main.ts:98220
 
 array of results
 

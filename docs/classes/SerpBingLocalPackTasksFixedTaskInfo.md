@@ -6,7 +6,7 @@
 
 # Class: SerpBingLocalPackTasksFixedTaskInfo
 
-Defined in: main.ts:67361
+Defined in: main.ts:67397
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:67361
 
 > **new SerpBingLocalPackTasksFixedTaskInfo**(`data`?): [`SerpBingLocalPackTasksFixedTaskInfo`](SerpBingLocalPackTasksFixedTaskInfo.md)
 
-Defined in: main.ts:67367
+Defined in: main.ts:67403
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpBingLocalPackTasksFixedResultInfo`](SerpBingLocalPackTasksFixedResultInfo.md)[]
 
-Defined in: main.ts:67363
+Defined in: main.ts:67399
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:67371
+Defined in: main.ts:67407
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:67371
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:67393
+Defined in: main.ts:67429
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:67393
 
 > `static` **fromJS**(`data`): [`SerpBingLocalPackTasksFixedTaskInfo`](SerpBingLocalPackTasksFixedTaskInfo.md)
 
-Defined in: main.ts:67386
+Defined in: main.ts:67422
 
 #### Parameters
 

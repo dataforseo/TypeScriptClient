@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingCompetitorsDomainLiveTaskInfo
 
-Defined in: main.ts:116474
+Defined in: main.ts:116566
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:116474
 
 > **new DataforseoLabsBingCompetitorsDomainLiveTaskInfo**(`data`?): [`DataforseoLabsBingCompetitorsDomainLiveTaskInfo`](DataforseoLabsBingCompetitorsDomainLiveTaskInfo.md)
 
-Defined in: main.ts:116480
+Defined in: main.ts:116572
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsBingCompetitorsDomainLiveResultInfo`](DataforseoLabsBingCompetitorsDomainLiveResultInfo.md)[]
 
-Defined in: main.ts:116476
+Defined in: main.ts:116568
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:116484
+Defined in: main.ts:116576
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:116484
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:116506
+Defined in: main.ts:116598
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:116506
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingCompetitorsDomainLiveTaskInfo`](DataforseoLabsBingCompetitorsDomainLiveTaskInfo.md)
 
-Defined in: main.ts:116499
+Defined in: main.ts:116591
 
 #### Parameters
 

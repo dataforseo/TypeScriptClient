@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationTextSummaryLiveResultInfo
 
-Defined in: main.ts:183584
+Defined in: main.ts:183946
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:183584
 
 > **new ContentGenerationTextSummaryLiveResultInfo**(`data`?): [`ContentGenerationTextSummaryLiveResultInfo`](ContentGenerationTextSummaryLiveResultInfo.md)
 
-Defined in: main.ts:183619
+Defined in: main.ts:183981
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:183619
 
 > `optional` **automated\_readability\_index**: `number`
 
-Defined in: main.ts:183605
+Defined in: main.ts:183967
 
 Automated Readability Index
 
@@ -54,7 +54,7 @@ Automated Readability Index
 
 > `optional` **characters\_per\_word**: `number`
 
-Defined in: main.ts:183598
+Defined in: main.ts:183960
 
 average number of characters per word in the target text
 
@@ -68,7 +68,7 @@ average number of characters per word in the target text
 
 > `optional` **characters\_with\_spaces**: `number`
 
-Defined in: main.ts:183594
+Defined in: main.ts:183956
 
 number of characters with spaces found in the target text
 
@@ -82,7 +82,7 @@ number of characters with spaces found in the target text
 
 > `optional` **characters\_without\_spaces**: `number`
 
-Defined in: main.ts:183592
+Defined in: main.ts:183954
 
 number of characters without spaces found in the target text
 
@@ -96,7 +96,7 @@ number of characters without spaces found in the target text
 
 > `optional` **coleman\_liau\_index**: `number`
 
-Defined in: main.ts:183607
+Defined in: main.ts:183969
 
 Coleman–Liau Index
 
@@ -110,7 +110,7 @@ Coleman–Liau Index
 
 > `optional` **flesch\_kincaid\_grade\_level**: `number`
 
-Defined in: main.ts:183609
+Defined in: main.ts:183971
 
 Flesch–Kincaid Readability Index
 
@@ -124,7 +124,7 @@ Flesch–Kincaid Readability Index
 
 > `optional` **grammar\_errors**: `number`
 
-Defined in: main.ts:183615
+Defined in: main.ts:183977
 
 number of grammar errors found in the target text
 
@@ -138,7 +138,7 @@ number of grammar errors found in the target text
 
 > `optional` **keyword\_density**: `object`
 
-Defined in: main.ts:183603
+Defined in: main.ts:183965
 
 keyword density of the target text
 contains most common words and their count
@@ -157,7 +157,7 @@ contains most common words and their count
 
 > `optional` **paragraphs**: `number`
 
-Defined in: main.ts:183588
+Defined in: main.ts:183950
 
 number of paragraphs found in the target text
 
@@ -171,7 +171,7 @@ number of paragraphs found in the target text
 
 > `optional` **sentences**: `number`
 
-Defined in: main.ts:183586
+Defined in: main.ts:183948
 
 number of sentences found in the target text
 
@@ -185,7 +185,7 @@ number of sentences found in the target text
 
 > `optional` **smog\_readability\_index**: `number`
 
-Defined in: main.ts:183611
+Defined in: main.ts:183973
 
 SMOG Readability Index
 
@@ -199,7 +199,7 @@ SMOG Readability Index
 
 > `optional` **spelling\_errors**: `number`
 
-Defined in: main.ts:183613
+Defined in: main.ts:183975
 
 number of spelling errors found in the target text
 
@@ -213,7 +213,7 @@ number of spelling errors found in the target text
 
 > `optional` **vocabulary\_density**: `number`
 
-Defined in: main.ts:183600
+Defined in: main.ts:183962
 
 vocabulary density of the target text
 
@@ -227,7 +227,7 @@ vocabulary density of the target text
 
 > `optional` **words**: `number`
 
-Defined in: main.ts:183590
+Defined in: main.ts:183952
 
 number of words found in the target text
 
@@ -241,7 +241,7 @@ number of words found in the target text
 
 > `optional` **words\_per\_sentence**: `number`
 
-Defined in: main.ts:183596
+Defined in: main.ts:183958
 
 average number of words per sentence in the target text
 
@@ -255,7 +255,7 @@ average number of words per sentence in the target text
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:183628
+Defined in: main.ts:183990
 
 #### Parameters
 
@@ -273,7 +273,7 @@ Defined in: main.ts:183628
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:183665
+Defined in: main.ts:184027
 
 #### Parameters
 
@@ -291,7 +291,7 @@ Defined in: main.ts:183665
 
 > `static` **fromJS**(`data`): [`ContentGenerationTextSummaryLiveResultInfo`](ContentGenerationTextSummaryLiveResultInfo.md)
 
-Defined in: main.ts:183658
+Defined in: main.ts:184020
 
 #### Parameters
 

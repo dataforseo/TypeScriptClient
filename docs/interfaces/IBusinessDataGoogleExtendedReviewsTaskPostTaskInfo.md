@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleExtendedReviewsTaskPostTaskInfo
 
-Defined in: main.ts:222947
+Defined in: main.ts:223455
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:222950
+Defined in: main.ts:223458
 
 array of results
 in this case, the value will be null

@@ -6,7 +6,7 @@
 
 # Interface: IAppendixLighthouseOnPageDayStatisticsRatesData
 
-Defined in: main.ts:234044
+Defined in: main.ts:234564
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:234044
 
 > `optional` **audits**: `number`
 
-Defined in: main.ts:234049
+Defined in: main.ts:234571
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:234049
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:234050
+Defined in: main.ts:234570
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:234050
 
 > `optional` **live**: `number`
 
-Defined in: main.ts:234048
+Defined in: main.ts:234568
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: main.ts:234048
 
 > `optional` **task\_get**: `number`
 
-Defined in: main.ts:234047
+Defined in: main.ts:234567
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:234047
 
 > `optional` **task\_post**: `number`
 
-Defined in: main.ts:234045
+Defined in: main.ts:234565
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: main.ts:234045
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:234046
+Defined in: main.ts:234566
 
 ***
 
@@ -66,4 +66,4 @@ Defined in: main.ts:234046
 
 > `optional` **versions**: `number`
 
-Defined in: main.ts:234051
+Defined in: main.ts:234569

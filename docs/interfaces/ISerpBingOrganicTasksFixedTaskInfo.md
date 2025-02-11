@@ -6,7 +6,7 @@
 
 # Interface: ISerpBingOrganicTasksFixedTaskInfo
 
-Defined in: main.ts:64223
+Defined in: main.ts:64253
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpBingOrganicTasksFixedResultInfo`](../classes/SerpBingOrganicTasksFixedResultInfo.md)[]
 
-Defined in: main.ts:64225
+Defined in: main.ts:64255
 
 array of results
 

@@ -6,7 +6,7 @@
 
 # Interface: IHotelsPackDataforseoLabsSerpElementItem
 
-Defined in: main.ts:107568
+Defined in: main.ts:107624
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:107568
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:107575
+Defined in: main.ts:107631
 
 starting date of stay
 in the format “year-month-date”
@@ -35,7 +35,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:107580
+Defined in: main.ts:107636
 
 ending date of stay
 in the format “year-month-date”
@@ -48,7 +48,7 @@ example:
 
 > `optional` **items**: [`HotelsPackElement`](../classes/HotelsPackElement.md)[]
 
-Defined in: main.ts:107582
+Defined in: main.ts:107638
 
 elements of search results found in SERP
 
@@ -104,7 +104,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:107570
+Defined in: main.ts:107626
 
 title of the result in SERP
 

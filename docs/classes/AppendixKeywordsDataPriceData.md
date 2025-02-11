@@ -6,7 +6,7 @@
 
 # Class: AppendixKeywordsDataPriceData
 
-Defined in: main.ts:236694
+Defined in: main.ts:237058
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:236694
 
 > **new AppendixKeywordsDataPriceData**(`data`?): [`AppendixKeywordsDataPriceData`](AppendixKeywordsDataPriceData.md)
 
-Defined in: main.ts:236716
+Defined in: main.ts:237080
 
 #### Parameters
 
@@ -38,9 +38,9 @@ Defined in: main.ts:236716
 
 ### ad\_traffic\_by\_keywords?
 
-> `optional` **ad\_traffic\_by\_keywords**: [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
+> `optional` **ad\_traffic\_by\_keywords**: [`AppendixAKeywordsDataPriceDataInfo`](AppendixAKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236696
+Defined in: main.ts:237060
 
 #### Implementation of
 
@@ -50,9 +50,9 @@ Defined in: main.ts:236696
 
 ### audience\_estimation?
 
-> `optional` **audience\_estimation**: [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
+> `optional` **audience\_estimation**: [`AppendixAKeywordsDataPriceDataInfo`](AppendixAKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236697
+Defined in: main.ts:237061
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:236697
 
 > `optional` **bing**: [`AppendixBingKeywordsDataPriceData`](AppendixBingKeywordsDataPriceData.md)
 
-Defined in: main.ts:236698
+Defined in: main.ts:237062
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:236698
 
 > `optional` **categories**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236699
+Defined in: main.ts:237063
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:236699
 
 > `optional` **clickstream\_data**: [`AppendixClickstreamDataKeywordsDataPriceData`](AppendixClickstreamDataKeywordsDataPriceData.md)
 
-Defined in: main.ts:236700
+Defined in: main.ts:237064
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:236700
 
 > `optional` **dataforseo\_trends**: [`AppendixDataforseoTrendsKeywordsDataPriceData`](AppendixDataforseoTrendsKeywordsDataPriceData.md)
 
-Defined in: main.ts:236711
+Defined in: main.ts:237075
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:236711
 
 > `optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236701
+Defined in: main.ts:237065
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:236701
 
 > `optional` **explore**: [`AppendixExploreKeywordsDataPriceData`](AppendixExploreKeywordsDataPriceData.md)
 
-Defined in: main.ts:236712
+Defined in: main.ts:237076
 
 #### Implementation of
 
@@ -136,7 +136,7 @@ Defined in: main.ts:236712
 
 > `optional` **google\_ads**: [`AppendixGoogleAdsKeywordsDataPriceData`](AppendixGoogleAdsKeywordsDataPriceData.md)
 
-Defined in: main.ts:236702
+Defined in: main.ts:237066
 
 #### Implementation of
 
@@ -146,9 +146,9 @@ Defined in: main.ts:236702
 
 ### keyword\_performance?
 
-> `optional` **keyword\_performance**: [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
+> `optional` **keyword\_performance**: [`AppendixAKeywordsDataPriceDataInfo`](AppendixAKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236703
+Defined in: main.ts:237067
 
 #### Implementation of
 
@@ -158,9 +158,9 @@ Defined in: main.ts:236703
 
 ### keyword\_suggestions\_for\_url?
 
-> `optional` **keyword\_suggestions\_for\_url**: [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
+> `optional` **keyword\_suggestions\_for\_url**: [`AppendixAKeywordsDataPriceDataInfo`](AppendixAKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236706
+Defined in: main.ts:237070
 
 #### Implementation of
 
@@ -170,9 +170,9 @@ Defined in: main.ts:236706
 
 ### keywords\_for\_keywords?
 
-> `optional` **keywords\_for\_keywords**: [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
+> `optional` **keywords\_for\_keywords**: [`AppendixAKeywordsDataPriceDataInfo`](AppendixAKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236704
+Defined in: main.ts:237068
 
 #### Implementation of
 
@@ -182,9 +182,9 @@ Defined in: main.ts:236704
 
 ### keywords\_for\_site?
 
-> `optional` **keywords\_for\_site**: [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
+> `optional` **keywords\_for\_site**: [`AppendixAKeywordsDataPriceDataInfo`](AppendixAKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236705
+Defined in: main.ts:237069
 
 #### Implementation of
 
@@ -196,7 +196,7 @@ Defined in: main.ts:236705
 
 > `optional` **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236707
+Defined in: main.ts:237071
 
 #### Implementation of
 
@@ -208,7 +208,7 @@ Defined in: main.ts:236707
 
 > `optional` **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236708
+Defined in: main.ts:237072
 
 #### Implementation of
 
@@ -220,7 +220,7 @@ Defined in: main.ts:236708
 
 > `optional` **locations\_and\_languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236709
+Defined in: main.ts:237073
 
 #### Implementation of
 
@@ -230,9 +230,9 @@ Defined in: main.ts:236709
 
 ### search\_volume?
 
-> `optional` **search\_volume**: [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
+> `optional` **search\_volume**: [`AppendixAKeywordsDataPriceDataInfo`](AppendixAKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236710
+Defined in: main.ts:237074
 
 #### Implementation of
 
@@ -244,7 +244,7 @@ Defined in: main.ts:236710
 
 > `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236695
+Defined in: main.ts:237059
 
 #### Implementation of
 
@@ -256,7 +256,7 @@ Defined in: main.ts:236695
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:236725
+Defined in: main.ts:237089
 
 #### Parameters
 
@@ -274,7 +274,7 @@ Defined in: main.ts:236725
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:236759
+Defined in: main.ts:237123
 
 #### Parameters
 
@@ -292,7 +292,7 @@ Defined in: main.ts:236759
 
 > `static` **fromJS**(`data`): [`AppendixKeywordsDataPriceData`](AppendixKeywordsDataPriceData.md)
 
-Defined in: main.ts:236752
+Defined in: main.ts:237116
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsLocationsAndLanguagesTaskInfo
 
-Defined in: main.ts:91570
+Defined in: main.ts:91606
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsLocationsAndLanguagesResultInfo`](../classes/DataforseoLabsLocationsAndLanguagesResultInfo.md)[]
 
-Defined in: main.ts:91572
+Defined in: main.ts:91608
 
 array of results
 

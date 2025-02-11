@@ -6,7 +6,7 @@
 
 # Interface: IOnPageWaterfallTaskInfo
 
-Defined in: main.ts:171036
+Defined in: main.ts:171200
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`OnPageWaterfallResultInfo`](../classes/OnPageWaterfallResultInfo.md)[]
 
-Defined in: main.ts:171038
+Defined in: main.ts:171202
 
 array of results
 

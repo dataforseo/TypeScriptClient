@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsTechnologiesDomainsByTechnologyLiveTaskInfo
 
-Defined in: main.ts:88054
+Defined in: main.ts:88090
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DomainAnalyticsTechnologiesDomainsByTechnologyLiveResultInfo`](../classes/DomainAnalyticsTechnologiesDomainsByTechnologyLiveResultInfo.md)[]
 
-Defined in: main.ts:88056
+Defined in: main.ts:88092
 
 array of results
 

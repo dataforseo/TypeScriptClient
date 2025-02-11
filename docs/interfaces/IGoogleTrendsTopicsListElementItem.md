@@ -6,7 +6,7 @@
 
 # Interface: IGoogleTrendsTopicsListElementItem
 
-Defined in: main.ts:135274
+Defined in: main.ts:135438
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:135274
 
 > `optional` **data**: [`TrendsTopicListDataInfo`](../classes/TrendsTopicListDataInfo.md)
 
-Defined in: main.ts:135276
+Defined in: main.ts:135440
 
 Google Trends data from the corresponding item
 

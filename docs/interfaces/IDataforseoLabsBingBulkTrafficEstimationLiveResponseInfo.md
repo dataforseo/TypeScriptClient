@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsBingBulkTrafficEstimationLiveResponseInfo
 
-Defined in: main.ts:116013
+Defined in: main.ts:116093
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsBingBulkTrafficEstimationLiveTaskInfo`](../classes/DataforseoLabsBingBulkTrafficEstimationLiveTaskInfo.md)[]
 
-Defined in: main.ts:116015
+Defined in: main.ts:116095
 
 array of tasks
 

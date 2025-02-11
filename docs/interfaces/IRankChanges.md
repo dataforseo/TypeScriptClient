@@ -6,7 +6,7 @@
 
 # Interface: IRankChanges
 
-Defined in: main.ts:101028
+Defined in: main.ts:101056
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:101028
 
 > `optional` **is\_down**: `boolean`
 
-Defined in: main.ts:101041
+Defined in: main.ts:101069
 
 rank of this element went down
 if the value is true, position of the element in SERP is lower compared to the previous check
@@ -29,7 +29,7 @@ if the value is true, position of the element in SERP is lower compared to the p
 
 > `optional` **is\_new**: `boolean`
 
-Defined in: main.ts:101035
+Defined in: main.ts:101063
 
 element was previously present in SERP
 if the value is true, previously collected SERP didn’t contain this element
@@ -40,7 +40,7 @@ if the value is true, previously collected SERP didn’t contain this element
 
 > `optional` **is\_up**: `boolean`
 
-Defined in: main.ts:101038
+Defined in: main.ts:101066
 
 rank of this element went up
 if the value is true, position of the element in SERP is higher compared to the previous check
@@ -51,7 +51,7 @@ if the value is true, position of the element in SERP is higher compared to the 
 
 > `optional` **previous\_rank\_absolute**: `number`
 
-Defined in: main.ts:101032
+Defined in: main.ts:101060
 
 previous absolute rank in SERP
 indicates previous rank of the element in Google SERP;

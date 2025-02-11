@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataDataforseoTrendsExploreLiveResponseInfo
 
-Defined in: main.ts:136179
+Defined in: main.ts:136343
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:136179
 
 > **new KeywordsDataDataforseoTrendsExploreLiveResponseInfo**(`data`?): [`KeywordsDataDataforseoTrendsExploreLiveResponseInfo`](KeywordsDataDataforseoTrendsExploreLiveResponseInfo.md)
 
-Defined in: main.ts:136185
+Defined in: main.ts:136349
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataDataforseoTrendsExploreLiveTaskInfo`](KeywordsDataDataforseoTrendsExploreLiveTaskInfo.md)[]
 
-Defined in: main.ts:136181
+Defined in: main.ts:136345
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:136189
+Defined in: main.ts:136353
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:136189
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:136211
+Defined in: main.ts:136375
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:136211
 
 > `static` **fromJS**(`data`): [`KeywordsDataDataforseoTrendsExploreLiveResponseInfo`](KeywordsDataDataforseoTrendsExploreLiveResponseInfo.md)
 
-Defined in: main.ts:136204
+Defined in: main.ts:136368
 
 #### Parameters
 

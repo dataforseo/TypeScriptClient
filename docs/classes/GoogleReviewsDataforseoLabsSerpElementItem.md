@@ -6,7 +6,7 @@
 
 # Class: GoogleReviewsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108111
+Defined in: main.ts:108167
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:108111
 
 > **new GoogleReviewsDataforseoLabsSerpElementItem**(`data`?): [`GoogleReviewsDataforseoLabsSerpElementItem`](GoogleReviewsDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108126
+Defined in: main.ts:108182
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:108122
+Defined in: main.ts:108178
 
 google-defined client id
 
@@ -74,7 +74,7 @@ google-defined client id
 
 > `optional` **feature**: `string`
 
-Defined in: main.ts:108120
+Defined in: main.ts:108176
 
 the additional feature of the review
 
@@ -88,7 +88,7 @@ the additional feature of the review
 
 > `optional` **place\_id**: `string`
 
-Defined in: main.ts:108118
+Defined in: main.ts:108174
 
 the identifier of a place
 
@@ -160,7 +160,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:108116
+Defined in: main.ts:108172
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -175,7 +175,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:108113
+Defined in: main.ts:108169
 
 the number of reviews
 
@@ -225,7 +225,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:108131
+Defined in: main.ts:108187
 
 #### Parameters
 
@@ -247,7 +247,7 @@ Defined in: main.ts:108131
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:108153
+Defined in: main.ts:108209
 
 #### Parameters
 
@@ -269,7 +269,7 @@ Defined in: main.ts:108153
 
 > `static` **fromJS**(`data`): [`GoogleReviewsDataforseoLabsSerpElementItem`](GoogleReviewsDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108146
+Defined in: main.ts:108202
 
 #### Parameters
 

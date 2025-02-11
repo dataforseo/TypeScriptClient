@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleHotelSearchesTasksReadyTaskInfo
 
-Defined in: main.ts:216802
+Defined in: main.ts:217304
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:216802
 
 > **new BusinessDataGoogleHotelSearchesTasksReadyTaskInfo**(`data`?): [`BusinessDataGoogleHotelSearchesTasksReadyTaskInfo`](BusinessDataGoogleHotelSearchesTasksReadyTaskInfo.md)
 
-Defined in: main.ts:216808
+Defined in: main.ts:217310
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataGoogleHotelSearchesTasksReadyResultInfo`](BusinessDataGoogleHotelSearchesTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:216804
+Defined in: main.ts:217306
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:216812
+Defined in: main.ts:217314
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:216812
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:216834
+Defined in: main.ts:217336
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:216834
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleHotelSearchesTasksReadyTaskInfo`](BusinessDataGoogleHotelSearchesTasksReadyTaskInfo.md)
 
-Defined in: main.ts:216827
+Defined in: main.ts:217329
 
 #### Parameters
 

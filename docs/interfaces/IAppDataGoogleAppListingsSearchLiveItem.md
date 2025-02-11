@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleAppListingsSearchLiveItem
 
-Defined in: main.ts:204519
+Defined in: main.ts:205021
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:204519
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:204521
+Defined in: main.ts:205023
 
 ID of the returned app
 
@@ -28,7 +28,7 @@ ID of the returned app
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:204530
+Defined in: main.ts:205032
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -39,7 +39,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **item**: [`AppDataGooglePlayInfoOrganicSerpElementItem`](../classes/AppDataGooglePlayInfoOrganicSerpElementItem.md)
 
-Defined in: main.ts:204537
+Defined in: main.ts:205039
 
 detailed information about the app
 
@@ -49,7 +49,7 @@ detailed information about the app
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:204527
+Defined in: main.ts:205029
 
 language code in a POST array
 
@@ -59,7 +59,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:204525
+Defined in: main.ts:205027
 
 location code in a POST array
 
@@ -69,7 +69,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:204523
+Defined in: main.ts:205025
 
 search engine domain in a POST array
 
@@ -79,7 +79,7 @@ search engine domain in a POST array
 
 > `optional` **time\_update**: `string`
 
-Defined in: main.ts:204535
+Defined in: main.ts:205037
 
 date and time when SERP data was last updated
 in the ISO 8601 format: “YYYY-MM-DDThh:mm:ss.sssssssZ”

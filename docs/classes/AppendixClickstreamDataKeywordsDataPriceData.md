@@ -6,7 +6,7 @@
 
 # Class: AppendixClickstreamDataKeywordsDataPriceData
 
-Defined in: main.ts:236454
+Defined in: main.ts:236818
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:236454
 
 > **new AppendixClickstreamDataKeywordsDataPriceData**(`data`?): [`AppendixClickstreamDataKeywordsDataPriceData`](AppendixClickstreamDataKeywordsDataPriceData.md)
 
-Defined in: main.ts:236462
+Defined in: main.ts:236826
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:236462
 
 > `optional` **bulk\_search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236455
+Defined in: main.ts:236819
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:236455
 
 > `optional` **dataforseo\_search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236456
+Defined in: main.ts:236820
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:236456
 
 > `optional` **global\_search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236457
+Defined in: main.ts:236821
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:236457
 
 > `optional` **locations\_and\_languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236458
+Defined in: main.ts:236822
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:236458
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:236471
+Defined in: main.ts:236835
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:236471
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:236491
+Defined in: main.ts:236855
 
 #### Parameters
 
@@ -124,7 +124,7 @@ Defined in: main.ts:236491
 
 > `static` **fromJS**(`data`): [`AppendixClickstreamDataKeywordsDataPriceData`](AppendixClickstreamDataKeywordsDataPriceData.md)
 
-Defined in: main.ts:236484
+Defined in: main.ts:236848
 
 #### Parameters
 

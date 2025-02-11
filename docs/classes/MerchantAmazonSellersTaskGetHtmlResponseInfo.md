@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonSellersTaskGetHtmlResponseInfo
 
-Defined in: main.ts:196627
+Defined in: main.ts:197129
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:196627
 
 > **new MerchantAmazonSellersTaskGetHtmlResponseInfo**(`data`?): [`MerchantAmazonSellersTaskGetHtmlResponseInfo`](MerchantAmazonSellersTaskGetHtmlResponseInfo.md)
 
-Defined in: main.ts:196633
+Defined in: main.ts:197135
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`MerchantAmazonSellersTaskGetHtmlTaskInfo`](MerchantAmazonSellersTaskGetHtmlTaskInfo.md)[]
 
-Defined in: main.ts:196629
+Defined in: main.ts:197131
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:196637
+Defined in: main.ts:197139
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:196637
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:196659
+Defined in: main.ts:197161
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:196659
 
 > `static` **fromJS**(`data`): [`MerchantAmazonSellersTaskGetHtmlResponseInfo`](MerchantAmazonSellersTaskGetHtmlResponseInfo.md)
 
-Defined in: main.ts:196652
+Defined in: main.ts:197154
 
 #### Parameters
 

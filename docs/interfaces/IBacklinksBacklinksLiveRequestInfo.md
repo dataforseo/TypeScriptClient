@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksBacklinksLiveRequestInfo
 
-Defined in: main.ts:151616
+Defined in: main.ts:151780
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:151616
 
 > `optional` **backlinks\_status\_type**: `string`
 
-Defined in: main.ts:151712
+Defined in: main.ts:151876
 
 set what backlinks to return and count
 optional field
@@ -35,7 +35,7 @@ default value: live
 
 > `optional` **custom\_mode**: `object`
 
-Defined in: main.ts:151636
+Defined in: main.ts:151800
 
 detailed results grouping type
 optional field
@@ -54,7 +54,7 @@ example:
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
-Defined in: main.ts:151729
+Defined in: main.ts:151893
 
 indicates if internal backlinks from subdomains to the target will be excluded from the results
 optional field
@@ -68,7 +68,7 @@ default value: true
 
 > `optional` **field**: `string`
 
-Defined in: main.ts:151649
+Defined in: main.ts:151813
 
 response field
 required field if you choose to specify custom_mode
@@ -89,14 +89,14 @@ semantic_location
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:151670
+Defined in: main.ts:151834
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, =, <>, in, not_in, like, not_like, ilike, not_ilike, regex, not_regex
+=, <>, in, not_in, like, not_like, ilike, not_ilike, regex, not_regex, match, not_match
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["rank",">","80"]
@@ -114,7 +114,7 @@ The full list of possible filters is available here.
 
 > `optional` **include\_indirect\_links**: `boolean`
 
-Defined in: main.ts:151723
+Defined in: main.ts:151887
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -128,7 +128,7 @@ default value: true
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:151717
+Defined in: main.ts:151881
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -141,7 +141,7 @@ default value: true
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:151703
+Defined in: main.ts:151867
 
 the maximum number of returned backlinks
 optional field
@@ -154,7 +154,7 @@ maximum value: 1000
 
 > `optional` **mode**: `string`
 
-Defined in: main.ts:151629
+Defined in: main.ts:151793
 
 results grouping type
 optional field
@@ -170,7 +170,7 @@ default value: as_is
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:151690
+Defined in: main.ts:151854
 
 offset in the results array of the returned backlinks
 optional field
@@ -184,7 +184,7 @@ Note: the maximum value is 20,000, use the search_after_token if you would like 
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:151684
+Defined in: main.ts:151848
 
 results sorting rules
 optional field
@@ -206,14 +206,14 @@ example:
 
 > `optional` **search\_after\_token**: `string`
 
-Defined in: main.ts:151698
+Defined in: main.ts:151862
 
 token for subsequent requests
 optional field
 provided in the identical filed of the response to each request;
-use this parameter to avoid timeouts while trying to obtain over 100,000 results in a single request;
+use this parameter to avoid timeouts while trying to obtain over 20,000 results in a single request;
 by specifying the unique search_after_token value from the response array, you will get the subsequent results of the initial task;
-search_after_token values are unique for each subsequent task
+search_after_token values are unique for each subsequent task ;
 Note: if the search_after_token is specified in the request, all other parameters should be identical to the previous request
 
 ***
@@ -222,7 +222,7 @@ Note: if the search_after_token is specified in the request, all other parameter
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:151735
+Defined in: main.ts:151899
 
 user-defined task identifier
 optional field
@@ -236,7 +236,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:151621
+Defined in: main.ts:151785
 
 domain, subdomain or webpage to get backlinks for
 required field
@@ -249,7 +249,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 > `optional` **value**: `number`
 
-Defined in: main.ts:151653
+Defined in: main.ts:151817
 
 number of backlinks to return per field
 required field if you choose to specify custom_mode

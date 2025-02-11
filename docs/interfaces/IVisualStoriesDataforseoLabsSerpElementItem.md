@@ -6,7 +6,7 @@
 
 # Interface: IVisualStoriesDataforseoLabsSerpElementItem
 
-Defined in: main.ts:109126
+Defined in: main.ts:109182
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:109126
 
 > `optional` **items**: [`LicensesElement`](../classes/LicensesElement.md)[]
 
-Defined in: main.ts:109128
+Defined in: main.ts:109184
 
 elements of search results found in SERP
 

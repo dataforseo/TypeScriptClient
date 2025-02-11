@@ -6,7 +6,7 @@
 
 # Class: BusinessDataErrorsTaskInfo
 
-Defined in: main.ts:209958
+Defined in: main.ts:210460
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:209958
 
 > **new BusinessDataErrorsTaskInfo**(`data`?): [`BusinessDataErrorsTaskInfo`](BusinessDataErrorsTaskInfo.md)
 
-Defined in: main.ts:209964
+Defined in: main.ts:210466
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataErrorsResultInfo`](BusinessDataErrorsResultInfo.md)[]
 
-Defined in: main.ts:209960
+Defined in: main.ts:210462
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:209968
+Defined in: main.ts:210470
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:209968
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:209990
+Defined in: main.ts:210492
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:209990
 
 > `static` **fromJS**(`data`): [`BusinessDataErrorsTaskInfo`](BusinessDataErrorsTaskInfo.md)
 
-Defined in: main.ts:209983
+Defined in: main.ts:210485
 
 #### Parameters
 

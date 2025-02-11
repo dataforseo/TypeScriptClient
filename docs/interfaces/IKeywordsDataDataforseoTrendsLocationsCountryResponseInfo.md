@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataDataforseoTrendsLocationsCountryResponseInfo
 
-Defined in: main.ts:135761
+Defined in: main.ts:135925
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataDataforseoTrendsLocationsCountryTaskInfo`](../classes/KeywordsDataDataforseoTrendsLocationsCountryTaskInfo.md)[]
 
-Defined in: main.ts:135763
+Defined in: main.ts:135927
 
 array of tasks
 

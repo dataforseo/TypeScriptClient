@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleMapsLiveAdvancedResponseInfo
 
-Defined in: main.ts:42800
+Defined in: main.ts:42816
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:42800
 
 > **new SerpGoogleMapsLiveAdvancedResponseInfo**(`data`?): [`SerpGoogleMapsLiveAdvancedResponseInfo`](SerpGoogleMapsLiveAdvancedResponseInfo.md)
 
-Defined in: main.ts:42806
+Defined in: main.ts:42822
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleMapsLiveAdvancedTaskInfo`](SerpGoogleMapsLiveAdvancedTaskInfo.md)[]
 
-Defined in: main.ts:42802
+Defined in: main.ts:42818
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:42810
+Defined in: main.ts:42826
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:42810
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:42832
+Defined in: main.ts:42848
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:42832
 
 > `static` **fromJS**(`data`): [`SerpGoogleMapsLiveAdvancedResponseInfo`](SerpGoogleMapsLiveAdvancedResponseInfo.md)
 
-Defined in: main.ts:42825
+Defined in: main.ts:42841
 
 #### Parameters
 

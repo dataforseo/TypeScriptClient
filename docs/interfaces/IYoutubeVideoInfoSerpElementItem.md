@@ -6,7 +6,7 @@
 
 # Interface: IYoutubeVideoInfoSerpElementItem
 
-Defined in: main.ts:70690
+Defined in: main.ts:70726
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:70690
 
 > `optional` **category**: `string`
 
-Defined in: main.ts:70727
+Defined in: main.ts:70763
 
 the category the video belongs to
 
@@ -32,7 +32,7 @@ the category the video belongs to
 
 > `optional` **channel\_id**: `string`
 
-Defined in: main.ts:70700
+Defined in: main.ts:70736
 
 the ID of the channel where the video is published
 
@@ -42,7 +42,7 @@ the ID of the channel where the video is published
 
 > `optional` **channel\_logo**: `string`
 
-Defined in: main.ts:70706
+Defined in: main.ts:70742
 
 the URL of the page where the logo image of the channel is hosted
 
@@ -52,7 +52,7 @@ the URL of the page where the logo image of the channel is hosted
 
 > `optional` **channel\_name**: `string`
 
-Defined in: main.ts:70702
+Defined in: main.ts:70738
 
 the name of the channel where the video is published
 
@@ -62,7 +62,7 @@ the name of the channel where the video is published
 
 > `optional` **channel\_subscribers\_count**: [`ChannelSubscribersCount`](../classes/ChannelSubscribersCount.md)
 
-Defined in: main.ts:70716
+Defined in: main.ts:70752
 
 number of subscribers of the channel
 
@@ -72,7 +72,7 @@ number of subscribers of the channel
 
 > `optional` **channel\_url**: `string`
 
-Defined in: main.ts:70704
+Defined in: main.ts:70740
 
 the URL of the channel where the video is published
 
@@ -82,7 +82,7 @@ the URL of the channel where the video is published
 
 > `optional` **comments\_count**: `number`
 
-Defined in: main.ts:70714
+Defined in: main.ts:70750
 
 number of comments on the video
 
@@ -92,7 +92,7 @@ number of comments on the video
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:70708
+Defined in: main.ts:70744
 
 description of the video
 
@@ -102,7 +102,7 @@ description of the video
 
 > `optional` **duration\_time**: `string`
 
-Defined in: main.ts:70733
+Defined in: main.ts:70769
 
 duration of the video
 
@@ -112,7 +112,7 @@ duration of the video
 
 > `optional` **duration\_time\_seconds**: `number`
 
-Defined in: main.ts:70735
+Defined in: main.ts:70771
 
 duration of the video in seconds
 
@@ -122,7 +122,7 @@ duration of the video in seconds
 
 > `optional` **is\_embeddable**: `boolean`
 
-Defined in: main.ts:70731
+Defined in: main.ts:70767
 
 indicates whether the video is embeddable
 
@@ -132,7 +132,7 @@ indicates whether the video is embeddable
 
 > `optional` **is\_live**: `boolean`
 
-Defined in: main.ts:70729
+Defined in: main.ts:70765
 
 indicates whether the video is on live
 
@@ -142,7 +142,7 @@ indicates whether the video is on live
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:70725
+Defined in: main.ts:70761
 
 keywords relevant to the video
 
@@ -152,7 +152,7 @@ keywords relevant to the video
 
 > `optional` **likes\_count**: `number`
 
-Defined in: main.ts:70712
+Defined in: main.ts:70748
 
 number of likes on the video
 
@@ -162,7 +162,7 @@ number of likes on the video
 
 > `optional` **publication\_date**: `string`
 
-Defined in: main.ts:70718
+Defined in: main.ts:70754
 
 the date when the video is published
 
@@ -172,7 +172,7 @@ the date when the video is published
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:70531
+Defined in: main.ts:70567
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -187,7 +187,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:70528
+Defined in: main.ts:70564
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -203,7 +203,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **streaming\_quality**: [`StreamingQualityElement`](../classes/StreamingQualityElement.md)[]
 
-Defined in: main.ts:70739
+Defined in: main.ts:70775
 
 array of elements that contain information about all possible streaming qualities of the video
 
@@ -213,7 +213,7 @@ array of elements that contain information about all possible streaming qualitie
 
 > `optional` **subtitles**: [`Subtitles`](../classes/Subtitles.md)[]
 
-Defined in: main.ts:70737
+Defined in: main.ts:70773
 
 array of elements describing properties of subtitles in the video
 
@@ -223,7 +223,7 @@ array of elements describing properties of subtitles in the video
 
 > `optional` **thumbnail\_url**: `string`
 
-Defined in: main.ts:70698
+Defined in: main.ts:70734
 
 the URL of the page where the thumbnail is hosted
 
@@ -233,7 +233,7 @@ the URL of the page where the thumbnail is hosted
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:70723
+Defined in: main.ts:70759
 
 date and time when the result is published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -246,7 +246,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:70694
+Defined in: main.ts:70730
 
 title of the video
 
@@ -256,7 +256,7 @@ title of the video
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:70524
+Defined in: main.ts:70560
 
 type of element
 
@@ -270,7 +270,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:70696
+Defined in: main.ts:70732
 
 URL of the video
 
@@ -280,7 +280,7 @@ URL of the video
 
 > `optional` **video\_id**: `string`
 
-Defined in: main.ts:70692
+Defined in: main.ts:70728
 
 ID of the video received in a POST array
 
@@ -290,6 +290,6 @@ ID of the video received in a POST array
 
 > `optional` **views\_count**: `number`
 
-Defined in: main.ts:70710
+Defined in: main.ts:70746
 
 number of views of the video

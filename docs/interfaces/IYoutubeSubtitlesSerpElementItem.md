@@ -6,7 +6,7 @@
 
 # Interface: IYoutubeSubtitlesSerpElementItem
 
-Defined in: main.ts:72247
+Defined in: main.ts:72283
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:72247
 
 > `optional` **duration\_time**: `number`
 
-Defined in: main.ts:72255
+Defined in: main.ts:72291
 
 duration of subtitles in seconds
 
@@ -32,7 +32,7 @@ duration of subtitles in seconds
 
 > `optional` **end\_time**: `number`
 
-Defined in: main.ts:72253
+Defined in: main.ts:72289
 
 the second subtitled text ends
 
@@ -42,7 +42,7 @@ the second subtitled text ends
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:70531
+Defined in: main.ts:70567
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -57,7 +57,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:70528
+Defined in: main.ts:70564
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -73,7 +73,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **start\_time**: `number`
 
-Defined in: main.ts:72251
+Defined in: main.ts:72287
 
 the second subtitled text starts
 
@@ -83,7 +83,7 @@ the second subtitled text starts
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:72249
+Defined in: main.ts:72285
 
 text translated in subtitles
 
@@ -93,7 +93,7 @@ text translated in subtitles
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:70524
+Defined in: main.ts:70560
 
 type of element
 

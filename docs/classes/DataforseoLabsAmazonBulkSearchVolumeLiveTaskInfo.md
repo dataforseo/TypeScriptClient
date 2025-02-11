@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo
 
-Defined in: main.ts:112170
+Defined in: main.ts:112238
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:112170
 
 > **new DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo**(`data`?): [`DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md)
 
-Defined in: main.ts:112176
+Defined in: main.ts:112244
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo.md)[]
 
-Defined in: main.ts:112172
+Defined in: main.ts:112240
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:112180
+Defined in: main.ts:112248
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:112180
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:112202
+Defined in: main.ts:112270
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:112202
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md)
 
-Defined in: main.ts:112195
+Defined in: main.ts:112263
 
 #### Parameters
 

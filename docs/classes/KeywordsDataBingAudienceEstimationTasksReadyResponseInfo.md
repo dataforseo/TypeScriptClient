@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingAudienceEstimationTasksReadyResponseInfo
 
-Defined in: main.ts:140637
+Defined in: main.ts:140801
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:140637
 
 > **new KeywordsDataBingAudienceEstimationTasksReadyResponseInfo**(`data`?): [`KeywordsDataBingAudienceEstimationTasksReadyResponseInfo`](KeywordsDataBingAudienceEstimationTasksReadyResponseInfo.md)
 
-Defined in: main.ts:140643
+Defined in: main.ts:140807
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataBingAudienceEstimationTasksReadyTaskInfo`](KeywordsDataBingAudienceEstimationTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:140639
+Defined in: main.ts:140803
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:140647
+Defined in: main.ts:140811
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:140647
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:140669
+Defined in: main.ts:140833
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:140669
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingAudienceEstimationTasksReadyResponseInfo`](KeywordsDataBingAudienceEstimationTasksReadyResponseInfo.md)
 
-Defined in: main.ts:140662
+Defined in: main.ts:140826
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonReviewsTaskGetAdvancedTaskInfo
 
-Defined in: main.ts:197540
+Defined in: main.ts:198042
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:197540
 
 > **new MerchantAmazonReviewsTaskGetAdvancedTaskInfo**(`data`?): [`MerchantAmazonReviewsTaskGetAdvancedTaskInfo`](MerchantAmazonReviewsTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:197546
+Defined in: main.ts:198048
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`MerchantAmazonReviewsTaskGetAdvancedResultInfo`](MerchantAmazonReviewsTaskGetAdvancedResultInfo.md)[]
 
-Defined in: main.ts:197542
+Defined in: main.ts:198044
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:197550
+Defined in: main.ts:198052
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:197550
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:197572
+Defined in: main.ts:198074
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:197572
 
 > `static` **fromJS**(`data`): [`MerchantAmazonReviewsTaskGetAdvancedTaskInfo`](MerchantAmazonReviewsTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:197565
+Defined in: main.ts:198067
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataDataforseoTrendsExploreLiveRequestInfo
 
-Defined in: main.ts:135768
+Defined in: main.ts:135932
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:135768
 
 > **new KeywordsDataDataforseoTrendsExploreLiveRequestInfo**(`data`?): [`KeywordsDataDataforseoTrendsExploreLiveRequestInfo`](KeywordsDataDataforseoTrendsExploreLiveRequestInfo.md)
 
-Defined in: main.ts:135825
+Defined in: main.ts:135989
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:135825
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:135802
+Defined in: main.ts:135966
 
 starting date of the time range
 optional field
@@ -61,7 +61,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:135809
+Defined in: main.ts:135973
 
 ending date of the time range
 optional field
@@ -80,7 +80,7 @@ example:
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:135773
+Defined in: main.ts:135937
 
 keywords
 required field
@@ -97,7 +97,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:135791
+Defined in: main.ts:135955
 
 search engine location code
 optional field
@@ -118,7 +118,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:135782
+Defined in: main.ts:135946
 
 full name of search engine location
 optional field
@@ -139,7 +139,7 @@ United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:135821
+Defined in: main.ts:135985
 
 user-defined task identifier
 optional field
@@ -157,7 +157,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **time\_range**: `string`
 
-Defined in: main.ts:135815
+Defined in: main.ts:135979
 
 preset time ranges
 optional field
@@ -175,7 +175,7 @@ past_4_hours, past_day, past_7_days, past_30_days, past_90_days, past_12_months,
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:135793
+Defined in: main.ts:135957
 
 type of element
 
@@ -189,7 +189,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:135834
+Defined in: main.ts:135998
 
 #### Parameters
 
@@ -207,7 +207,7 @@ Defined in: main.ts:135834
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:135862
+Defined in: main.ts:136026
 
 #### Parameters
 
@@ -225,7 +225,7 @@ Defined in: main.ts:135862
 
 > `static` **fromJS**(`data`): [`KeywordsDataDataforseoTrendsExploreLiveRequestInfo`](KeywordsDataDataforseoTrendsExploreLiveRequestInfo.md)
 
-Defined in: main.ts:135855
+Defined in: main.ts:136019
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleKeywordsForAppLiveTaskInfo
 
-Defined in: main.ts:121926
+Defined in: main.ts:122042
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleKeywordsForAppLiveResultInfo`](../classes/DataforseoLabsGoogleKeywordsForAppLiveResultInfo.md)[]
 
-Defined in: main.ts:121928
+Defined in: main.ts:122044
 
 array of results
 

@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleCategoriesForKeywordsLanguagesTaskInfo
 
-Defined in: main.ts:96984
+Defined in: main.ts:97012
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo`](../classes/DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo.md)[]
 
-Defined in: main.ts:96986
+Defined in: main.ts:97014
 
 array of results
 

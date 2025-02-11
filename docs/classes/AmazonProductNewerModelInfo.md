@@ -6,7 +6,7 @@
 
 # Class: AmazonProductNewerModelInfo
 
-Defined in: main.ts:194040
+Defined in: main.ts:194528
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:194040
 
 > **new AmazonProductNewerModelInfo**(`data`?): [`AmazonProductNewerModelInfo`](AmazonProductNewerModelInfo.md)
 
-Defined in: main.ts:194048
+Defined in: main.ts:194536
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:194048
 
 > `optional` **newer\_model\_asin**: `string`
 
-Defined in: main.ts:194044
+Defined in: main.ts:194532
 
 ASIN of the newer product model
 
@@ -54,7 +54,7 @@ ASIN of the newer product model
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:194042
+Defined in: main.ts:194530
 
 product title
 
@@ -68,7 +68,7 @@ product title
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:194057
+Defined in: main.ts:194545
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:194057
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:194075
+Defined in: main.ts:194563
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:194075
 
 > `static` **fromJS**(`data`): [`AmazonProductNewerModelInfo`](AmazonProductNewerModelInfo.md)
 
-Defined in: main.ts:194068
+Defined in: main.ts:194556
 
 #### Parameters
 

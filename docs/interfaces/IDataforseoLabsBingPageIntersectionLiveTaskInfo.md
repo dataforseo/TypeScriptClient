@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsBingPageIntersectionLiveTaskInfo
 
-Defined in: main.ts:118098
+Defined in: main.ts:118190
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsBingPageIntersectionLiveResultInfo`](../classes/DataforseoLabsBingPageIntersectionLiveResultInfo.md)[]
 
-Defined in: main.ts:118100
+Defined in: main.ts:118192
 
 array of results
 

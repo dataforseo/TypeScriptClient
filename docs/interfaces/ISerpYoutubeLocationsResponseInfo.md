@@ -6,7 +6,7 @@
 
 # Interface: ISerpYoutubeLocationsResponseInfo
 
-Defined in: main.ts:69116
+Defined in: main.ts:69152
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpYoutubeLocationsTaskInfo`](../classes/SerpYoutubeLocationsTaskInfo.md)[]
 
-Defined in: main.ts:69118
+Defined in: main.ts:69154
 
 array of tasks
 

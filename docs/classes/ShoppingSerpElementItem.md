@@ -6,7 +6,7 @@
 
 # Class: ShoppingSerpElementItem
 
-Defined in: main.ts:33465
+Defined in: main.ts:33481
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:33465
 
 > **new ShoppingSerpElementItem**(`data`?): [`ShoppingSerpElementItem`](ShoppingSerpElementItem.md)
 
-Defined in: main.ts:33477
+Defined in: main.ts:33493
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`ShoppingElement`](ShoppingElement.md)[]
 
-Defined in: main.ts:33469
+Defined in: main.ts:33485
 
 contains arrays of specific images
 
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:33473
+Defined in: main.ts:33489
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -149,7 +149,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:33467
+Defined in: main.ts:33483
 
 title of the row
 
@@ -199,7 +199,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:33482
+Defined in: main.ts:33498
 
 #### Parameters
 
@@ -221,7 +221,7 @@ Defined in: main.ts:33482
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:33506
+Defined in: main.ts:33522
 
 #### Parameters
 
@@ -243,7 +243,7 @@ Defined in: main.ts:33506
 
 > `static` **fromJS**(`data`): [`ShoppingSerpElementItem`](ShoppingSerpElementItem.md)
 
-Defined in: main.ts:33499
+Defined in: main.ts:33515
 
 #### Parameters
 

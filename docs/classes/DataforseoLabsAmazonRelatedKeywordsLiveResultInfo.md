@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonRelatedKeywordsLiveResultInfo
 
-Defined in: main.ts:112576
+Defined in: main.ts:112644
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:112576
 
 > **new DataforseoLabsAmazonRelatedKeywordsLiveResultInfo**(`data`?): [`DataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](DataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md)
 
-Defined in: main.ts:112597
+Defined in: main.ts:112665
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:112597
 
 > `optional` **items**: [`DataforseoLabsAmazonRelatedKeywordsLiveItem`](DataforseoLabsAmazonRelatedKeywordsLiveItem.md)[]
 
-Defined in: main.ts:112593
+Defined in: main.ts:112661
 
 contains objects with keywords and related data
 
@@ -54,7 +54,7 @@ contains objects with keywords and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:112591
+Defined in: main.ts:112659
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:112587
+Defined in: main.ts:112655
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:112585
+Defined in: main.ts:112653
 
 location code in a POST array
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:112578
+Defined in: main.ts:112646
 
 search engine type
 
@@ -110,7 +110,7 @@ search engine type
 
 > `optional` **seed\_keyword**: `string`
 
-Defined in: main.ts:112580
+Defined in: main.ts:112648
 
 keyword in a POST array
 
@@ -124,7 +124,7 @@ keyword in a POST array
 
 > `optional` **seed\_keyword\_data**: [`AmazonKeywordData`](AmazonKeywordData.md)
 
-Defined in: main.ts:112583
+Defined in: main.ts:112651
 
 keyword data for the seed keyword
 fields in the object are identical to that of keyword_data
@@ -139,7 +139,7 @@ fields in the object are identical to that of keyword_data
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:112589
+Defined in: main.ts:112657
 
 total amount of results in our database relevant to your request
 
@@ -153,7 +153,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:112606
+Defined in: main.ts:112674
 
 #### Parameters
 
@@ -171,7 +171,7 @@ Defined in: main.ts:112606
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:112634
+Defined in: main.ts:112702
 
 #### Parameters
 
@@ -189,7 +189,7 @@ Defined in: main.ts:112634
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](DataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md)
 
-Defined in: main.ts:112627
+Defined in: main.ts:112695
 
 #### Parameters
 

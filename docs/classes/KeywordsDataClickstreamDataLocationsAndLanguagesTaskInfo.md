@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataClickstreamDataLocationsAndLanguagesTaskInfo
 
-Defined in: main.ts:147506
+Defined in: main.ts:147670
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:147506
 
 > **new KeywordsDataClickstreamDataLocationsAndLanguagesTaskInfo**(`data`?): [`KeywordsDataClickstreamDataLocationsAndLanguagesTaskInfo`](KeywordsDataClickstreamDataLocationsAndLanguagesTaskInfo.md)
 
-Defined in: main.ts:147512
+Defined in: main.ts:147676
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo`](KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo.md)[]
 
-Defined in: main.ts:147508
+Defined in: main.ts:147672
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:147516
+Defined in: main.ts:147680
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:147516
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:147538
+Defined in: main.ts:147702
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:147538
 
 > `static` **fromJS**(`data`): [`KeywordsDataClickstreamDataLocationsAndLanguagesTaskInfo`](KeywordsDataClickstreamDataLocationsAndLanguagesTaskInfo.md)
 
-Defined in: main.ts:147531
+Defined in: main.ts:147695
 
 #### Parameters
 

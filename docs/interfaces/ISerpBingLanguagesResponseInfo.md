@@ -6,7 +6,7 @@
 
 # Interface: ISerpBingLanguagesResponseInfo
 
-Defined in: main.ts:63348
+Defined in: main.ts:63376
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpBingLanguagesTaskInfo`](../classes/SerpBingLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:63350
+Defined in: main.ts:63378
 
 array of tasks
 

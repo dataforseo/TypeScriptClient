@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppListingsSearchLiveTaskInfo
 
-Defined in: main.ts:204626
+Defined in: main.ts:205128
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:204626
 
 > **new AppDataGoogleAppListingsSearchLiveTaskInfo**(`data`?): [`AppDataGoogleAppListingsSearchLiveTaskInfo`](AppDataGoogleAppListingsSearchLiveTaskInfo.md)
 
-Defined in: main.ts:204632
+Defined in: main.ts:205134
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`AppDataGoogleAppListingsSearchLiveResultInfo`](AppDataGoogleAppListingsSearchLiveResultInfo.md)[]
 
-Defined in: main.ts:204628
+Defined in: main.ts:205130
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:204636
+Defined in: main.ts:205138
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:204636
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:204658
+Defined in: main.ts:205160
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:204658
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppListingsSearchLiveTaskInfo`](AppDataGoogleAppListingsSearchLiveTaskInfo.md)
 
-Defined in: main.ts:204651
+Defined in: main.ts:205153
 
 #### Parameters
 

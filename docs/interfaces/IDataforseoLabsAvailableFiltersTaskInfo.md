@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAvailableFiltersTaskInfo
 
-Defined in: main.ts:91281
+Defined in: main.ts:91317
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsAvailableFiltersResultInfo`](../classes/DataforseoLabsAvailableFiltersResultInfo.md)[]
 
-Defined in: main.ts:91282
+Defined in: main.ts:91318
 
 ***
 

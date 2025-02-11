@@ -6,7 +6,7 @@
 
 # Class: MultiCarouselSerpElementItem
 
-Defined in: main.ts:34115
+Defined in: main.ts:34131
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:34115
 
 > **new MultiCarouselSerpElementItem**(`data`?): [`MultiCarouselSerpElementItem`](MultiCarouselSerpElementItem.md)
 
-Defined in: main.ts:34125
+Defined in: main.ts:34141
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`MultiCarouselElement`](MultiCarouselElement.md)[]
 
-Defined in: main.ts:34117
+Defined in: main.ts:34133
 
 contains arrays of specific images
 
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:34121
+Defined in: main.ts:34137
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -185,7 +185,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:34130
+Defined in: main.ts:34146
 
 #### Parameters
 
@@ -207,7 +207,7 @@ Defined in: main.ts:34130
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:34153
+Defined in: main.ts:34169
 
 #### Parameters
 
@@ -229,7 +229,7 @@ Defined in: main.ts:34153
 
 > `static` **fromJS**(`data`): [`MultiCarouselSerpElementItem`](MultiCarouselSerpElementItem.md)
 
-Defined in: main.ts:34146
+Defined in: main.ts:34162
 
 #### Parameters
 

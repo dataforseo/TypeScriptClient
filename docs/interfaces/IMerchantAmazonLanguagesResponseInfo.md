@@ -6,7 +6,7 @@
 
 # Interface: IMerchantAmazonLanguagesResponseInfo
 
-Defined in: main.ts:191721
+Defined in: main.ts:192127
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`MerchantAmazonLanguagesTaskInfo`](../classes/MerchantAmazonLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:191723
+Defined in: main.ts:192129
 
 array of tasks
 

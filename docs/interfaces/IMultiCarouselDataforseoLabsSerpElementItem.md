@@ -6,7 +6,7 @@
 
 # Interface: IMultiCarouselDataforseoLabsSerpElementItem
 
-Defined in: main.ts:106848
+Defined in: main.ts:106980
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:106848
 
 > `optional` **items**: [`MultiCarouselElement`](../classes/MultiCarouselElement.md)[]
 
-Defined in: main.ts:106850
+Defined in: main.ts:106982
 
 contains results featured in the ‘hotels_pack’ element of SERP
 

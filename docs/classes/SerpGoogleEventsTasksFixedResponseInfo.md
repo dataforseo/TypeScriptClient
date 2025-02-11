@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleEventsTasksFixedResponseInfo
 
-Defined in: main.ts:48690
+Defined in: main.ts:48706
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:48690
 
 > **new SerpGoogleEventsTasksFixedResponseInfo**(`data`?): [`SerpGoogleEventsTasksFixedResponseInfo`](SerpGoogleEventsTasksFixedResponseInfo.md)
 
-Defined in: main.ts:48696
+Defined in: main.ts:48712
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleEventsTasksFixedTaskInfo`](SerpGoogleEventsTasksFixedTaskInfo.md)[]
 
-Defined in: main.ts:48692
+Defined in: main.ts:48708
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:48700
+Defined in: main.ts:48716
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:48700
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:48722
+Defined in: main.ts:48738
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:48722
 
 > `static` **fromJS**(`data`): [`SerpGoogleEventsTasksFixedResponseInfo`](SerpGoogleEventsTasksFixedResponseInfo.md)
 
-Defined in: main.ts:48715
+Defined in: main.ts:48731
 
 #### Parameters
 

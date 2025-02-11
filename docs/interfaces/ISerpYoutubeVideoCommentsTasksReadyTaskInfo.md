@@ -6,7 +6,7 @@
 
 # Interface: ISerpYoutubeVideoCommentsTasksReadyTaskInfo
 
-Defined in: main.ts:73528
+Defined in: main.ts:73564
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpYoutubeVideoCommentsTasksReadyResultInfo`](../classes/SerpYoutubeVideoCommentsTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:73530
+Defined in: main.ts:73566
 
 array of results
 

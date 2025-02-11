@@ -6,7 +6,7 @@
 
 # Class: OnPageIdListRequestInfo
 
-Defined in: main.ts:162994
+Defined in: main.ts:163158
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:162994
 
 > **new OnPageIdListRequestInfo**(`data`?): [`OnPageIdListRequestInfo`](OnPageIdListRequestInfo.md)
 
-Defined in: main.ts:163032
+Defined in: main.ts:163196
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:163032
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:163002
+Defined in: main.ts:163166
 
 start time for filtering results
 required field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:163009
+Defined in: main.ts:163173
 
 finish time for filtering results
 required field
@@ -79,7 +79,7 @@ example:
 
 > `optional` **include\_metadata**: `boolean`
 
-Defined in: main.ts:163028
+Defined in: main.ts:163192
 
 include task metadata in the respond
 optional field
@@ -95,7 +95,7 @@ default value: false
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:163014
+Defined in: main.ts:163178
 
 the maximum number of returned task IDs
 optional field
@@ -112,7 +112,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:163019
+Defined in: main.ts:163183
 
 offset in the results array of returned task IDs
 optional field
@@ -129,7 +129,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > `optional` **sort**: `string`
 
-Defined in: main.ts:163024
+Defined in: main.ts:163188
 
 sorting by task execution time
 optional field
@@ -146,7 +146,7 @@ default value: "asc"
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:163041
+Defined in: main.ts:163205
 
 #### Parameters
 
@@ -164,7 +164,7 @@ Defined in: main.ts:163041
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:163063
+Defined in: main.ts:163227
 
 #### Parameters
 
@@ -182,7 +182,7 @@ Defined in: main.ts:163063
 
 > `static` **fromJS**(`data`): [`OnPageIdListRequestInfo`](OnPageIdListRequestInfo.md)
 
-Defined in: main.ts:163056
+Defined in: main.ts:163220
 
 #### Parameters
 

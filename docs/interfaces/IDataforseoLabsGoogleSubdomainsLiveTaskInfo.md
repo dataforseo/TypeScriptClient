@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleSubdomainsLiveTaskInfo
 
-Defined in: main.ts:104362
+Defined in: main.ts:104414
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleSubdomainsLiveResultInfo`](../classes/DataforseoLabsGoogleSubdomainsLiveResultInfo.md)[]
 
-Defined in: main.ts:104364
+Defined in: main.ts:104416
 
 array of results
 

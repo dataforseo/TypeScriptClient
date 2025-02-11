@@ -6,7 +6,7 @@
 
 # Class: GoogleReviewsSerpElementItem
 
-Defined in: main.ts:32419
+Defined in: main.ts:32427
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:32419
 
 > **new GoogleReviewsSerpElementItem**(`data`?): [`GoogleReviewsSerpElementItem`](GoogleReviewsSerpElementItem.md)
 
-Defined in: main.ts:32438
+Defined in: main.ts:32446
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:32430
+Defined in: main.ts:32438
 
 google-defined client id
 
@@ -74,7 +74,7 @@ google-defined client id
 
 > `optional` **feature**: `string`
 
-Defined in: main.ts:32428
+Defined in: main.ts:32436
 
 the additional feature of the review
 
@@ -88,7 +88,7 @@ the additional feature of the review
 
 > `optional` **place\_id**: `string`
 
-Defined in: main.ts:32426
+Defined in: main.ts:32434
 
 the identifier of a place
 
@@ -161,9 +161,9 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:32424
+Defined in: main.ts:32432
 
-the item’s rating 
+the element’s rating
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
@@ -176,7 +176,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:32434
+Defined in: main.ts:32442
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -192,7 +192,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:32421
+Defined in: main.ts:32429
 
 the number of reviews
 
@@ -242,7 +242,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:32443
+Defined in: main.ts:32451
 
 #### Parameters
 
@@ -264,7 +264,7 @@ Defined in: main.ts:32443
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:32466
+Defined in: main.ts:32474
 
 #### Parameters
 
@@ -286,7 +286,7 @@ Defined in: main.ts:32466
 
 > `static` **fromJS**(`data`): [`GoogleReviewsSerpElementItem`](GoogleReviewsSerpElementItem.md)
 
-Defined in: main.ts:32459
+Defined in: main.ts:32467
 
 #### Parameters
 

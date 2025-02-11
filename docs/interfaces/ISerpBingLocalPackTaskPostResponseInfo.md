@@ -6,7 +6,7 @@
 
 # Interface: ISerpBingLocalPackTaskPostResponseInfo
 
-Defined in: main.ts:67040
+Defined in: main.ts:67076
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpBingLocalPackTaskPostTaskInfo`](../classes/SerpBingLocalPackTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:67042
+Defined in: main.ts:67078
 
 array of tasks
 

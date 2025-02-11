@@ -6,7 +6,7 @@
 
 # Interface: IAvailableLanguages
 
-Defined in: main.ts:91409
+Defined in: main.ts:91445
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:91409
 
 > `optional` **available\_sources**: `string`[]
 
-Defined in: main.ts:91413
+Defined in: main.ts:91449
 
 supported sources
 contains the sources of data supported for a specific location and language combination
@@ -30,7 +30,7 @@ only google and bing are currently available
 
 > `optional` **keywords**: `number`
 
-Defined in: main.ts:91419
+Defined in: main.ts:91455
 
 the number of keywords available for the given location and language
 
@@ -40,7 +40,7 @@ the number of keywords available for the given location and language
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:91417
+Defined in: main.ts:91453
 
 language code according to ISO 639-1
 
@@ -50,7 +50,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:91415
+Defined in: main.ts:91451
 
 language name
 
@@ -60,6 +60,6 @@ language name
 
 > `optional` **serps**: `number`
 
-Defined in: main.ts:91421
+Defined in: main.ts:91457
 
 the number of SERP pages available for the given location and language

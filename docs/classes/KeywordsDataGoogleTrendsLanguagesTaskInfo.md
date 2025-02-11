@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleTrendsLanguagesTaskInfo
 
-Defined in: main.ts:133030
+Defined in: main.ts:133146
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:133030
 
 > **new KeywordsDataGoogleTrendsLanguagesTaskInfo**(`data`?): [`KeywordsDataGoogleTrendsLanguagesTaskInfo`](KeywordsDataGoogleTrendsLanguagesTaskInfo.md)
 
-Defined in: main.ts:133036
+Defined in: main.ts:133152
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataGoogleTrendsLanguagesResultInfo`](KeywordsDataGoogleTrendsLanguagesResultInfo.md)[]
 
-Defined in: main.ts:133032
+Defined in: main.ts:133148
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:133040
+Defined in: main.ts:133156
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:133040
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:133062
+Defined in: main.ts:133178
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:133062
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleTrendsLanguagesTaskInfo`](KeywordsDataGoogleTrendsLanguagesTaskInfo.md)
 
-Defined in: main.ts:133055
+Defined in: main.ts:133171
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleAdsSearchTaskGetAdvancedResponseInfo
 
-Defined in: main.ts:62786
+Defined in: main.ts:62814
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleAdsSearchTaskGetAdvancedTaskInfo`](../classes/SerpGoogleAdsSearchTaskGetAdvancedTaskInfo.md)[]
 
-Defined in: main.ts:62788
+Defined in: main.ts:62816
 
 array of tasks
 

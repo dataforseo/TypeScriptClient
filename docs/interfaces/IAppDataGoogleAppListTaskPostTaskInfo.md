@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleAppListTaskPostTaskInfo
 
-Defined in: main.ts:200775
+Defined in: main.ts:201277
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:200778
+Defined in: main.ts:201280
 
 array of results
 in this case, the value will be null

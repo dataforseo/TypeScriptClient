@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksTimeseriesNewLostSummaryLiveResultInfo
 
-Defined in: main.ts:160133
+Defined in: main.ts:160297
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:160133
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:160140
+Defined in: main.ts:160304
 
 starting date of the time range
 in the UTC format: “yyyy-mm-dd”
@@ -31,7 +31,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:160145
+Defined in: main.ts:160309
 
 ending date of the time range
 in the UTC format: "yyyy-mm-dd"
@@ -44,7 +44,7 @@ example:
 
 > `optional` **group\_range**: `string`
 
-Defined in: main.ts:160147
+Defined in: main.ts:160311
 
 group_range from the POST array
 
@@ -54,7 +54,7 @@ group_range from the POST array
 
 > `optional` **items**: [`BacklinksTimeseriesNewLostSummaryLiveItem`](../classes/BacklinksTimeseriesNewLostSummaryLiveItem.md)[]
 
-Defined in: main.ts:160151
+Defined in: main.ts:160315
 
 contains relevant backlinks and referring domains data
 
@@ -64,7 +64,7 @@ contains relevant backlinks and referring domains data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:160149
+Defined in: main.ts:160313
 
 the number of results returned in the items array
 
@@ -74,6 +74,6 @@ the number of results returned in the items array
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:160135
+Defined in: main.ts:160299
 
 target from a POST array

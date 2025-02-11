@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeVideoCommentsTasksFixedTaskInfo
 
-Defined in: main.ts:73692
+Defined in: main.ts:73728
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:73692
 
 > **new SerpYoutubeVideoCommentsTasksFixedTaskInfo**(`data`?): [`SerpYoutubeVideoCommentsTasksFixedTaskInfo`](SerpYoutubeVideoCommentsTasksFixedTaskInfo.md)
 
-Defined in: main.ts:73698
+Defined in: main.ts:73734
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpYoutubeVideoCommentsTasksFixedResultInfo`](SerpYoutubeVideoCommentsTasksFixedResultInfo.md)[]
 
-Defined in: main.ts:73694
+Defined in: main.ts:73730
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:73702
+Defined in: main.ts:73738
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:73702
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:73724
+Defined in: main.ts:73760
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:73724
 
 > `static` **fromJS**(`data`): [`SerpYoutubeVideoCommentsTasksFixedTaskInfo`](SerpYoutubeVideoCommentsTasksFixedTaskInfo.md)
 
-Defined in: main.ts:73717
+Defined in: main.ts:73753
 
 #### Parameters
 

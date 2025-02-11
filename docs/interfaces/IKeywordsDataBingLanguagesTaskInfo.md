@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingLanguagesTaskInfo
 
-Defined in: main.ts:138476
+Defined in: main.ts:138640
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataBingLanguagesResultInfo`](../classes/KeywordsDataBingLanguagesResultInfo.md)[]
 
-Defined in: main.ts:138478
+Defined in: main.ts:138642
 
 array of results
 

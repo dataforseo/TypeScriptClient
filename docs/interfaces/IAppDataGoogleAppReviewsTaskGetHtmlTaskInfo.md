@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleAppReviewsTaskGetHtmlTaskInfo
 
-Defined in: main.ts:204004
+Defined in: main.ts:204506
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`AppDataGoogleAppReviewsTaskGetHtmlResultInfo`](../classes/AppDataGoogleAppReviewsTaskGetHtmlResultInfo.md)[]
 
-Defined in: main.ts:204006
+Defined in: main.ts:204508
 
 array of results
 

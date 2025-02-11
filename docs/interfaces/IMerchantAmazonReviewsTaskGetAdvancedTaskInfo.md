@@ -6,7 +6,7 @@
 
 # Interface: IMerchantAmazonReviewsTaskGetAdvancedTaskInfo
 
-Defined in: main.ts:197588
+Defined in: main.ts:198090
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`MerchantAmazonReviewsTaskGetAdvancedResultInfo`](../classes/MerchantAmazonReviewsTaskGetAdvancedResultInfo.md)[]
 
-Defined in: main.ts:197590
+Defined in: main.ts:198092
 
 array of results
 

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingRelatedKeywordsLiveRequestInfo
 
-Defined in: main.ts:118752
+Defined in: main.ts:118844
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:118752
 
 > **new DataforseoLabsBingRelatedKeywordsLiveRequestInfo**(`data`?): [`DataforseoLabsBingRelatedKeywordsLiveRequestInfo`](DataforseoLabsBingRelatedKeywordsLiveRequestInfo.md)
 
-Defined in: main.ts:118873
+Defined in: main.ts:118965
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:118873
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:118804
+Defined in: main.ts:118896
 
 keyword search depth
 optional field
@@ -64,14 +64,14 @@ estimated number of keywords for each level (maximum):
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:118837
+Defined in: main.ts:118929
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, <=, >, >=, =, <>, in, not_in, ilike, not_ilike, like,not_like
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, ilike, not_ilike, like,not_like, match, not_match
 you can use the % operator with like and not_like, as well as ilike and not_ilike to match any string of zero or more characters
 example:
 ["keyword_data.keyword_info.search_volume",">",0]
@@ -87,7 +87,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:118826
+Defined in: main.ts:118918
 
 ignore highly similar keywords
 optional field
@@ -104,7 +104,7 @@ default value: false
 
 > `optional` **include\_seed\_keyword**: `boolean`
 
-Defined in: main.ts:118809
+Defined in: main.ts:118901
 
 include data for the seed keyword
 optional field
@@ -121,7 +121,7 @@ default value: false
 
 > `optional` **include\_serp\_info**: `boolean`
 
-Defined in: main.ts:118814
+Defined in: main.ts:118906
 
 include data from SERP for each keyword
 optional field
@@ -138,7 +138,7 @@ default value: false
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:118758
+Defined in: main.ts:118850
 
 keyword
 required field
@@ -156,7 +156,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:118792
+Defined in: main.ts:118884
 
 language code
 required field if you don’t specify language_name
@@ -176,7 +176,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:118784
+Defined in: main.ts:118876
 
 full name of the language
 required field if you don’t specify language_code
@@ -196,7 +196,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:118858
+Defined in: main.ts:118950
 
 the maximum number of returned keywords
 optional field
@@ -213,7 +213,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:118776
+Defined in: main.ts:118868
 
 location code
 required field if you don’t specify location_name
@@ -234,7 +234,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:118767
+Defined in: main.ts:118859
 
 full name of the location
 required field if you don’t specify location_code
@@ -255,7 +255,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:118863
+Defined in: main.ts:118955
 
 offset in the results array of returned keywords
 optional field
@@ -272,7 +272,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:118853
+Defined in: main.ts:118945
 
 results sorting rules
 optional field
@@ -300,7 +300,7 @@ example:
 
 > `optional` **replace\_with\_core\_keyword**: `boolean`
 
-Defined in: main.ts:118821
+Defined in: main.ts:118913
 
 return data for core keyword
 optional field
@@ -319,7 +319,7 @@ default value: false
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:118869
+Defined in: main.ts:118961
 
 user-defined task identifier
 optional field
@@ -337,7 +337,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:118882
+Defined in: main.ts:118974
 
 #### Parameters
 
@@ -355,7 +355,7 @@ Defined in: main.ts:118882
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:118921
+Defined in: main.ts:119013
 
 #### Parameters
 
@@ -373,7 +373,7 @@ Defined in: main.ts:118921
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingRelatedKeywordsLiveRequestInfo`](DataforseoLabsBingRelatedKeywordsLiveRequestInfo.md)
 
-Defined in: main.ts:118914
+Defined in: main.ts:119006
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: TopStoriesSerpElementItem
 
-Defined in: main.ts:31687
+Defined in: main.ts:31693
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:31687
 
 > **new TopStoriesSerpElementItem**(`data`?): [`TopStoriesSerpElementItem`](TopStoriesSerpElementItem.md)
 
-Defined in: main.ts:31699
+Defined in: main.ts:31705
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`TopStoriesElement`](TopStoriesElement.md)[]
 
-Defined in: main.ts:31691
+Defined in: main.ts:31697
 
 contains arrays of specific images
 
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:31695
+Defined in: main.ts:31701
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -149,7 +149,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:31689
+Defined in: main.ts:31695
 
 title of the row
 
@@ -199,7 +199,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:31704
+Defined in: main.ts:31710
 
 #### Parameters
 
@@ -221,7 +221,7 @@ Defined in: main.ts:31704
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:31728
+Defined in: main.ts:31734
 
 #### Parameters
 
@@ -243,7 +243,7 @@ Defined in: main.ts:31728
 
 > `static` **fromJS**(`data`): [`TopStoriesSerpElementItem`](TopStoriesSerpElementItem.md)
 
-Defined in: main.ts:31721
+Defined in: main.ts:31727
 
 #### Parameters
 

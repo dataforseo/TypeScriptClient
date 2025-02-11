@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleExtendedReviewsTaskPostRequestInfo
 
-Defined in: main.ts:222626
+Defined in: main.ts:223134
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:222626
 
 > **new BusinessDataGoogleExtendedReviewsTaskPostRequestInfo**(`data`?): [`BusinessDataGoogleExtendedReviewsTaskPostRequestInfo`](BusinessDataGoogleExtendedReviewsTaskPostRequestInfo.md)
 
-Defined in: main.ts:222735
+Defined in: main.ts:223243
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:222735
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:222644
+Defined in: main.ts:223152
 
 unique, google-defined id of the business entity
 required field if you don’t specify keyword or place_id
@@ -59,7 +59,7 @@ Note: if you use this field, your account will be charged two times the standard
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:222703
+Defined in: main.ts:223211
 
 parsing depth
 optional field
@@ -78,7 +78,7 @@ maximum value: 700
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:222637
+Defined in: main.ts:223145
 
 keyword
 required field if you don’t specify cid or place_id
@@ -101,7 +101,7 @@ Note: if you use this field, your account will be charged three times the standa
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:222696
+Defined in: main.ts:223204
 
 search engine language code
 required field if you don’t specify language_name
@@ -120,7 +120,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:222689
+Defined in: main.ts:223197
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -139,7 +139,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:222673
+Defined in: main.ts:223181
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -158,7 +158,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:222682
+Defined in: main.ts:223190
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -179,7 +179,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:222666
+Defined in: main.ts:223174
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -198,7 +198,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:222731
+Defined in: main.ts:223239
 
 notification URL of a completed task
 optional field
@@ -221,7 +221,7 @@ learn more on our Help Center
 
 > `optional` **place\_id**: `string`
 
-Defined in: main.ts:222651
+Defined in: main.ts:223159
 
 identifier of the business entity in Google Maps
 required field if you don’t specify keyword or cid
@@ -240,7 +240,7 @@ Note: if you use this field, your account will be charged two times the standard
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:222720
+Defined in: main.ts:223228
 
 return URL for sending task results
 optional field
@@ -263,7 +263,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:222659
+Defined in: main.ts:223167
 
 task priority
 optional field
@@ -283,7 +283,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:222709
+Defined in: main.ts:223217
 
 user-defined task identifier
 optional field
@@ -301,7 +301,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:222744
+Defined in: main.ts:223252
 
 #### Parameters
 
@@ -319,7 +319,7 @@ Defined in: main.ts:222744
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:222773
+Defined in: main.ts:223281
 
 #### Parameters
 
@@ -337,7 +337,7 @@ Defined in: main.ts:222773
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleExtendedReviewsTaskPostRequestInfo`](BusinessDataGoogleExtendedReviewsTaskPostRequestInfo.md)
 
-Defined in: main.ts:222766
+Defined in: main.ts:223274
 
 #### Parameters
 

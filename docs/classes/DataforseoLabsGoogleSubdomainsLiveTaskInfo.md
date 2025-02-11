@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleSubdomainsLiveTaskInfo
 
-Defined in: main.ts:104314
+Defined in: main.ts:104366
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:104314
 
 > **new DataforseoLabsGoogleSubdomainsLiveTaskInfo**(`data`?): [`DataforseoLabsGoogleSubdomainsLiveTaskInfo`](DataforseoLabsGoogleSubdomainsLiveTaskInfo.md)
 
-Defined in: main.ts:104320
+Defined in: main.ts:104372
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleSubdomainsLiveResultInfo`](DataforseoLabsGoogleSubdomainsLiveResultInfo.md)[]
 
-Defined in: main.ts:104316
+Defined in: main.ts:104368
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:104324
+Defined in: main.ts:104376
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:104324
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:104346
+Defined in: main.ts:104398
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:104346
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleSubdomainsLiveTaskInfo`](DataforseoLabsGoogleSubdomainsLiveTaskInfo.md)
 
-Defined in: main.ts:104339
+Defined in: main.ts:104391
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleDatasetInfoTasksReadyTaskInfo
 
-Defined in: main.ts:59276
+Defined in: main.ts:59292
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleDatasetInfoTasksReadyResultInfo`](../classes/SerpGoogleDatasetInfoTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:59278
+Defined in: main.ts:59294
 
 array of results
 

@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo
 
-Defined in: main.ts:112218
+Defined in: main.ts:112286
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo`](../classes/DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo.md)[]
 
-Defined in: main.ts:112220
+Defined in: main.ts:112288
 
 array of results
 

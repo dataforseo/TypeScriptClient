@@ -6,7 +6,7 @@
 
 # Interface: ISerpBingLocalPackTaskGetHtmlTaskInfo
 
-Defined in: main.ts:67895
+Defined in: main.ts:67931
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpBingLocalPackTaskGetHtmlResultInfo`](../classes/SerpBingLocalPackTaskGetHtmlResultInfo.md)[]
 
-Defined in: main.ts:67897
+Defined in: main.ts:67933
 
 array of results
 

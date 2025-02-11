@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphListElement
 
-Defined in: main.ts:29489
+Defined in: main.ts:29497
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:29489
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:29499
+Defined in: main.ts:29507
 
 domain in SERP
 
@@ -28,7 +28,7 @@ domain in SERP
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:29502
+Defined in: main.ts:29510
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -39,7 +39,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **subtitle**: `string`
 
-Defined in: main.ts:29495
+Defined in: main.ts:29503
 
 subtitle of the item
 
@@ -49,7 +49,7 @@ subtitle of the item
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:29493
+Defined in: main.ts:29501
 
 link anchor text
 
@@ -59,7 +59,7 @@ link anchor text
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:29491
+Defined in: main.ts:29499
 
 type of element
 
@@ -69,7 +69,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:29497
+Defined in: main.ts:29505
 
 sitelink URL
 
@@ -79,6 +79,6 @@ sitelink URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:29504
+Defined in: main.ts:29512
 
 the XPath of the element

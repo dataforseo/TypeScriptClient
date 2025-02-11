@@ -6,7 +6,7 @@
 
 # Class: OnPageForceStopResponseInfo
 
-Defined in: main.ts:163791
+Defined in: main.ts:163955
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:163791
 
 > **new OnPageForceStopResponseInfo**(`data`?): [`OnPageForceStopResponseInfo`](OnPageForceStopResponseInfo.md)
 
-Defined in: main.ts:163797
+Defined in: main.ts:163961
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageForceStopTaskInfo`](OnPageForceStopTaskInfo.md)[]
 
-Defined in: main.ts:163793
+Defined in: main.ts:163957
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:163801
+Defined in: main.ts:163965
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:163801
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:163823
+Defined in: main.ts:163987
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:163823
 
 > `static` **fromJS**(`data`): [`OnPageForceStopResponseInfo`](OnPageForceStopResponseInfo.md)
 
-Defined in: main.ts:163816
+Defined in: main.ts:163980
 
 #### Parameters
 

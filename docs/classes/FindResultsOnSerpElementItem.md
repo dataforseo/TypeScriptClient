@@ -6,7 +6,7 @@
 
 # Class: FindResultsOnSerpElementItem
 
-Defined in: main.ts:35273
+Defined in: main.ts:35289
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:35273
 
 > **new FindResultsOnSerpElementItem**(`data`?): [`FindResultsOnSerpElementItem`](FindResultsOnSerpElementItem.md)
 
-Defined in: main.ts:35283
+Defined in: main.ts:35299
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`ShortVideosElement`](ShortVideosElement.md)[]
 
-Defined in: main.ts:35275
+Defined in: main.ts:35291
 
 contains arrays of specific images
 
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:35279
+Defined in: main.ts:35295
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -185,7 +185,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:35288
+Defined in: main.ts:35304
 
 #### Parameters
 
@@ -207,7 +207,7 @@ Defined in: main.ts:35288
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:35311
+Defined in: main.ts:35327
 
 #### Parameters
 
@@ -229,7 +229,7 @@ Defined in: main.ts:35311
 
 > `static` **fromJS**(`data`): [`FindResultsOnSerpElementItem`](FindResultsOnSerpElementItem.md)
 
-Defined in: main.ts:35304
+Defined in: main.ts:35320
 
 #### Parameters
 

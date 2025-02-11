@@ -6,7 +6,7 @@
 
 # Interface: IAppDataTasksReadyResponseInfo
 
-Defined in: main.ts:200017
+Defined in: main.ts:200519
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataTasksReadyTaskInfo`](../classes/AppDataTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:200019
+Defined in: main.ts:200521
 
 array of tasks
 

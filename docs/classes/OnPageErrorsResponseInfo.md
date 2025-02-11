@@ -6,7 +6,7 @@
 
 # Class: OnPageErrorsResponseInfo
 
-Defined in: main.ts:163629
+Defined in: main.ts:163793
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:163629
 
 > **new OnPageErrorsResponseInfo**(`data`?): [`OnPageErrorsResponseInfo`](OnPageErrorsResponseInfo.md)
 
-Defined in: main.ts:163635
+Defined in: main.ts:163799
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageErrorsTaskInfo`](OnPageErrorsTaskInfo.md)[]
 
-Defined in: main.ts:163631
+Defined in: main.ts:163795
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:163639
+Defined in: main.ts:163803
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:163639
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:163661
+Defined in: main.ts:163825
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:163661
 
 > `static` **fromJS**(`data`): [`OnPageErrorsResponseInfo`](OnPageErrorsResponseInfo.md)
 
-Defined in: main.ts:163654
+Defined in: main.ts:163818
 
 #### Parameters
 

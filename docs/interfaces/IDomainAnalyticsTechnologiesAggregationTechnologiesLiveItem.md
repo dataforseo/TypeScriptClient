@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
 
-Defined in: main.ts:86288
+Defined in: main.ts:86324
 
 items array
 
@@ -20,7 +20,7 @@ items array
 
 > `optional` **categories\_count**: `number`
 
-Defined in: main.ts:86302
+Defined in: main.ts:86338
 
 technology categories count
 number of domains that match the parameters you specified and are using technologies from the indicated category
@@ -31,7 +31,7 @@ number of domains that match the parameters you specified and are using technolo
 
 > `optional` **category**: `string`
 
-Defined in: main.ts:86294
+Defined in: main.ts:86330
 
 technology category id
 
@@ -41,7 +41,7 @@ technology category id
 
 > `optional` **group**: `string`
 
-Defined in: main.ts:86292
+Defined in: main.ts:86328
 
 technology group id
 
@@ -51,7 +51,7 @@ technology group id
 
 > `optional` **groups\_count**: `number`
 
-Defined in: main.ts:86299
+Defined in: main.ts:86335
 
 technology groups count
 number of domains that match the parameters you specified and are using technologies from the indicated group
@@ -62,7 +62,7 @@ number of domains that match the parameters you specified and are using technolo
 
 > `optional` **technologies\_count**: `number`
 
-Defined in: main.ts:86305
+Defined in: main.ts:86341
 
 technologies count
 number of domains that match the parameters you specified and are using the indicated technology
@@ -73,7 +73,7 @@ number of domains that match the parameters you specified and are using the indi
 
 > `optional` **technology**: `string`
 
-Defined in: main.ts:86296
+Defined in: main.ts:86332
 
 technology name
 
@@ -83,6 +83,6 @@ technology name
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:86290
+Defined in: main.ts:86326
 
 type of element

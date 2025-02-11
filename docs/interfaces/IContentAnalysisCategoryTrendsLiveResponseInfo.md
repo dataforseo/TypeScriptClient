@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisCategoryTrendsLiveResponseInfo
 
-Defined in: main.ts:181093
+Defined in: main.ts:181455
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`ContentAnalysisCategoryTrendsLiveTaskInfo`](../classes/ContentAnalysisCategoryTrendsLiveTaskInfo.md)[]
 
-Defined in: main.ts:181095
+Defined in: main.ts:181457
 
 array of tasks
 

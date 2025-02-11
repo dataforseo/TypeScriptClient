@@ -6,7 +6,7 @@
 
 # Interface: ICommercialUnitsSerpElementItem
 
-Defined in: main.ts:35908
+Defined in: main.ts:35924
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:35908
 
 > `optional` **items**: [`CommercialUnitsElement`](../classes/CommercialUnitsElement.md)[]
 
-Defined in: main.ts:35912
+Defined in: main.ts:35928
 
 contains arrays of specific images
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:35916
+Defined in: main.ts:35932
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -91,7 +91,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:35910
+Defined in: main.ts:35926
 
 title of the row
 

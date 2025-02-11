@@ -6,7 +6,7 @@
 
 # Class: OnPageNonIndexableRequestInfo
 
-Defined in: main.ts:170312
+Defined in: main.ts:170476
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:170312
 
 > **new OnPageNonIndexableRequestInfo**(`data`?): [`OnPageNonIndexableRequestInfo`](OnPageNonIndexableRequestInfo.md)
 
-Defined in: main.ts:170348
+Defined in: main.ts:170512
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:170348
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:170344
+Defined in: main.ts:170508
 
 array of results filtering parameters
 optional field
@@ -68,7 +68,7 @@ The full list of possible filters is available by this link.
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:170318
+Defined in: main.ts:170482
 
 ID of the task
 required field
@@ -86,7 +86,7 @@ example:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:170323
+Defined in: main.ts:170487
 
 the maximum number of returned pages
 optional field
@@ -103,7 +103,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:170328
+Defined in: main.ts:170492
 
 offset in the results array of returned pages
 optional field
@@ -120,7 +120,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:170357
+Defined in: main.ts:170521
 
 #### Parameters
 
@@ -138,7 +138,7 @@ Defined in: main.ts:170357
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:170381
+Defined in: main.ts:170545
 
 #### Parameters
 
@@ -156,7 +156,7 @@ Defined in: main.ts:170381
 
 > `static` **fromJS**(`data`): [`OnPageNonIndexableRequestInfo`](OnPageNonIndexableRequestInfo.md)
 
-Defined in: main.ts:170374
+Defined in: main.ts:170538
 
 #### Parameters
 

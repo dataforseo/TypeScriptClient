@@ -6,7 +6,7 @@
 
 # Interface: IOnPageLighthouseVersionsTaskInfo
 
-Defined in: main.ts:175358
+Defined in: main.ts:175722
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`OnPageLighthouseVersionsResultInfo`](../classes/OnPageLighthouseVersionsResultInfo.md)[]
 
-Defined in: main.ts:175360
+Defined in: main.ts:175724
 
 array of results
 

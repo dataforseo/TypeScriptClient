@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationCheckGrammarLiveItem
 
-Defined in: main.ts:182824
+Defined in: main.ts:183186
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:182824
 
 > **new ContentGenerationCheckGrammarLiveItem**(`data`?): [`ContentGenerationCheckGrammarLiveItem`](ContentGenerationCheckGrammarLiveItem.md)
 
-Defined in: main.ts:182851
+Defined in: main.ts:183213
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:182851
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:182828
+Defined in: main.ts:183190
 
 description of the grammar or spelling error
 
@@ -54,7 +54,7 @@ description of the grammar or spelling error
 
 > `optional` **length**: `number`
 
-Defined in: main.ts:182834
+Defined in: main.ts:183196
 
 offset token for subsequent requests
 
@@ -68,7 +68,7 @@ offset token for subsequent requests
 
 > `optional` **message**: `string`
 
-Defined in: main.ts:182826
+Defined in: main.ts:183188
 
 message of the grammar or spelling error
 
@@ -82,7 +82,7 @@ message of the grammar or spelling error
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:182832
+Defined in: main.ts:183194
 
 offset token for subsequent requests
 
@@ -96,7 +96,7 @@ offset token for subsequent requests
 
 > `optional` **rule\_category\_id**: `string`
 
-Defined in: main.ts:182845
+Defined in: main.ts:183207
 
 id of the rule category
 
@@ -110,7 +110,7 @@ id of the rule category
 
 > `optional` **rule\_category\_name**: `string`
 
-Defined in: main.ts:182847
+Defined in: main.ts:183209
 
 name of the rule category
 
@@ -124,7 +124,7 @@ name of the rule category
 
 > `optional` **rule\_description**: `string`
 
-Defined in: main.ts:182841
+Defined in: main.ts:183203
 
 description of the grammar or spelling rule
 
@@ -138,7 +138,7 @@ description of the grammar or spelling rule
 
 > `optional` **rule\_id**: `string`
 
-Defined in: main.ts:182839
+Defined in: main.ts:183201
 
 id of the grammar or spelling rule
 see the List of Grammar Rules for Content Generation API
@@ -153,7 +153,7 @@ see the List of Grammar Rules for Content Generation API
 
 > `optional` **rule\_issue\_type**: `string`
 
-Defined in: main.ts:182843
+Defined in: main.ts:183205
 
 type of the issue found by the relevant rule
 
@@ -167,7 +167,7 @@ type of the issue found by the relevant rule
 
 > `optional` **suggestions**: `string`[]
 
-Defined in: main.ts:182830
+Defined in: main.ts:183192
 
 suggested corrections
 
@@ -181,7 +181,7 @@ suggested corrections
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:182836
+Defined in: main.ts:183198
 
 type of element
 
@@ -195,7 +195,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:182860
+Defined in: main.ts:183222
 
 #### Parameters
 
@@ -213,7 +213,7 @@ Defined in: main.ts:182860
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:182891
+Defined in: main.ts:183253
 
 #### Parameters
 
@@ -231,7 +231,7 @@ Defined in: main.ts:182891
 
 > `static` **fromJS**(`data`): [`ContentGenerationCheckGrammarLiveItem`](ContentGenerationCheckGrammarLiveItem.md)
 
-Defined in: main.ts:182884
+Defined in: main.ts:183246
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo
 
-Defined in: main.ts:224720
+Defined in: main.ts:225228
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:224720
 
 > **new BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo**(`data`?): [`BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo`](BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md)
 
-Defined in: main.ts:224764
+Defined in: main.ts:225272
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:224764
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:224736
+Defined in: main.ts:225244
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:224745
+Defined in: main.ts:225253
 
 google-defined client id
 unique id of a local establishment;
@@ -71,7 +71,7 @@ learn more about the identifier in this help center article
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:224741
+Defined in: main.ts:225249
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -88,7 +88,7 @@ example:
 
 > `optional` **feature\_id**: `string`
 
-Defined in: main.ts:224747
+Defined in: main.ts:225255
 
 unique identifier of the SERP feature
 
@@ -102,7 +102,7 @@ unique identifier of the SERP feature
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:224751
+Defined in: main.ts:225259
 
 item types
 types of search engine results encountered in the items array;
@@ -118,7 +118,7 @@ possible item types: google_business_question_item
 
 > `optional` **items**: [`BusinessDataGoogleQuestionsAndAnswersItem`](BusinessDataGoogleQuestionsAndAnswersItem.md)[]
 
-Defined in: main.ts:224760
+Defined in: main.ts:225268
 
 array of items within google_business_question_item
 contains answers to the google business questions;
@@ -135,7 +135,7 @@ possible item types google_business_answer_element
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:224755
+Defined in: main.ts:225263
 
 the number of items in the items array
 
@@ -149,7 +149,7 @@ the number of items in the items array
 
 > `optional` **items\_without\_answers**: [`ItemsWithoutAnswers`](ItemsWithoutAnswers.md)[]
 
-Defined in: main.ts:224753
+Defined in: main.ts:225261
 
 array of google business question items without answers
 
@@ -163,7 +163,7 @@ array of google business question items without answers
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:224727
+Defined in: main.ts:225235
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -182,7 +182,7 @@ learn more about the parameter in this help center article
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:224733
+Defined in: main.ts:225241
 
 language code in a POST array
 
@@ -196,7 +196,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:224731
+Defined in: main.ts:225239
 
 location code in a POST array
 
@@ -210,7 +210,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:224729
+Defined in: main.ts:225237
 
 search engine domain as specified in a POST array
 
@@ -224,7 +224,7 @@ search engine domain as specified in a POST array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:224773
+Defined in: main.ts:225281
 
 #### Parameters
 
@@ -242,7 +242,7 @@ Defined in: main.ts:224773
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:224813
+Defined in: main.ts:225321
 
 #### Parameters
 
@@ -260,7 +260,7 @@ Defined in: main.ts:224813
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo`](BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md)
 
-Defined in: main.ts:224806
+Defined in: main.ts:225314
 
 #### Parameters
 

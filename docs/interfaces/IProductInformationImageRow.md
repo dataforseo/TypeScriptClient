@@ -6,7 +6,7 @@
 
 # Interface: IProductInformationImageRow
 
-Defined in: main.ts:194307
+Defined in: main.ts:194795
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:194307
 
 > `optional` **alt**: `string`
 
-Defined in: main.ts:194309
+Defined in: main.ts:194797
 
 alternative text of the related product image
 
@@ -46,6 +46,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:194311
+Defined in: main.ts:194799
 
 URL of the image

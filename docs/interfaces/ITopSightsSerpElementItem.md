@@ -6,7 +6,7 @@
 
 # Interface: ITopSightsSerpElementItem
 
-Defined in: main.ts:34478
+Defined in: main.ts:34494
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:34478
 
 > `optional` **items**: [`TopSightsElement`](../classes/TopSightsElement.md)[]
 
-Defined in: main.ts:34482
+Defined in: main.ts:34498
 
 contains arrays of specific images
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:34486
+Defined in: main.ts:34502
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -91,7 +91,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:34480
+Defined in: main.ts:34496
 
 title of the row
 

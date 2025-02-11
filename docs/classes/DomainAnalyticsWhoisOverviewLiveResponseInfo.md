@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsWhoisOverviewLiveResponseInfo
 
-Defined in: main.ts:89867
+Defined in: main.ts:89903
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:89867
 
 > **new DomainAnalyticsWhoisOverviewLiveResponseInfo**(`data`?): [`DomainAnalyticsWhoisOverviewLiveResponseInfo`](DomainAnalyticsWhoisOverviewLiveResponseInfo.md)
 
-Defined in: main.ts:89873
+Defined in: main.ts:89909
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DomainAnalyticsWhoisOverviewLiveTaskInfo`](DomainAnalyticsWhoisOverviewLiveTaskInfo.md)[]
 
-Defined in: main.ts:89869
+Defined in: main.ts:89905
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:89877
+Defined in: main.ts:89913
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:89877
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:89899
+Defined in: main.ts:89935
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:89899
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsWhoisOverviewLiveResponseInfo`](DomainAnalyticsWhoisOverviewLiveResponseInfo.md)
 
-Defined in: main.ts:89892
+Defined in: main.ts:89928
 
 #### Parameters
 

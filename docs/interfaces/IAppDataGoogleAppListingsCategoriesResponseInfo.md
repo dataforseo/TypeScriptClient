@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleAppListingsCategoriesResponseInfo
 
-Defined in: main.ts:204225
+Defined in: main.ts:204727
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataGoogleAppListingsCategoriesTaskInfo`](../classes/AppDataGoogleAppListingsCategoriesTaskInfo.md)[]
 
-Defined in: main.ts:204227
+Defined in: main.ts:204729
 
 array of tasks
 

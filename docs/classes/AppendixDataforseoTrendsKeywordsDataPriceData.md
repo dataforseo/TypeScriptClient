@@ -6,7 +6,7 @@
 
 # Class: AppendixDataforseoTrendsKeywordsDataPriceData
 
-Defined in: main.ts:236578
+Defined in: main.ts:236942
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:236578
 
 > **new AppendixDataforseoTrendsKeywordsDataPriceData**(`data`?): [`AppendixDataforseoTrendsKeywordsDataPriceData`](AppendixDataforseoTrendsKeywordsDataPriceData.md)
 
-Defined in: main.ts:236586
+Defined in: main.ts:236950
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:236586
 
 > `optional` **demography**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236579
+Defined in: main.ts:236943
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:236579
 
 > `optional` **explore**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236580
+Defined in: main.ts:236944
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:236580
 
 > `optional` **merged\_data**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236581
+Defined in: main.ts:236945
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:236581
 
 > `optional` **subregion\_interests**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236582
+Defined in: main.ts:236946
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:236582
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:236595
+Defined in: main.ts:236959
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:236595
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:236615
+Defined in: main.ts:236979
 
 #### Parameters
 
@@ -124,7 +124,7 @@ Defined in: main.ts:236615
 
 > `static` **fromJS**(`data`): [`AppendixDataforseoTrendsKeywordsDataPriceData`](AppendixDataforseoTrendsKeywordsDataPriceData.md)
 
-Defined in: main.ts:236608
+Defined in: main.ts:236972
 
 #### Parameters
 

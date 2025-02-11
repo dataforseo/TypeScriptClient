@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonReviewsTaskGetAdvancedResponseInfo
 
-Defined in: main.ts:197595
+Defined in: main.ts:198097
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:197595
 
 > **new MerchantAmazonReviewsTaskGetAdvancedResponseInfo**(`data`?): [`MerchantAmazonReviewsTaskGetAdvancedResponseInfo`](MerchantAmazonReviewsTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:197601
+Defined in: main.ts:198103
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`MerchantAmazonReviewsTaskGetAdvancedTaskInfo`](MerchantAmazonReviewsTaskGetAdvancedTaskInfo.md)[]
 
-Defined in: main.ts:197597
+Defined in: main.ts:198099
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:197605
+Defined in: main.ts:198107
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:197605
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:197627
+Defined in: main.ts:198129
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:197627
 
 > `static` **fromJS**(`data`): [`MerchantAmazonReviewsTaskGetAdvancedResponseInfo`](MerchantAmazonReviewsTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:197620
+Defined in: main.ts:198122
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IInterestsComparison
 
-Defined in: main.ts:136732
+Defined in: main.ts:136896
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:136732
 
 > `optional` **absolute\_items**: [`AbsoluteItems`](../classes/AbsoluteItems.md)[]
 
-Defined in: main.ts:136737
+Defined in: main.ts:136901
 
 keyword popularity rates across all locations
 values in this array represent percentages relative to the maximum value across all locations
@@ -29,6 +29,6 @@ values in this array represent percentages relative to the maximum value across 
 
 > `optional` **items**: [`AbsoluteItems`](../classes/AbsoluteItems.md)[]
 
-Defined in: main.ts:136734
+Defined in: main.ts:136898
 
 contains keyword popularity and related data

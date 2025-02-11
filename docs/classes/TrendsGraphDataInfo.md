@@ -6,7 +6,7 @@
 
 # Class: TrendsGraphDataInfo
 
-Defined in: main.ts:133924
+Defined in: main.ts:134064
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:133924
 
 > **new TrendsGraphDataInfo**(`data`?): [`TrendsGraphDataInfo`](TrendsGraphDataInfo.md)
 
-Defined in: main.ts:133944
+Defined in: main.ts:134084
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:133944
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:133927
+Defined in: main.ts:134067
 
 start date of the corresponding time range
 in the UTC format: “yyyy-mm-dd”
@@ -55,7 +55,7 @@ in the UTC format: “yyyy-mm-dd”
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:133930
+Defined in: main.ts:134070
 
 end date of the corresponding time range
 in the UTC format: “yyyy-mm-dd”
@@ -70,7 +70,7 @@ in the UTC format: “yyyy-mm-dd”
 
 > `optional` **missing\_data**: `boolean`
 
-Defined in: main.ts:133935
+Defined in: main.ts:134075
 
 indicates whether the data is unavailable
 if true the data on the graph in the Google Trends interface is missing and thus labelled with a dotted line
@@ -85,7 +85,7 @@ if true the data on the graph in the Google Trends interface is missing and thus
 
 > `optional` **timestamp**: `number`
 
-Defined in: main.ts:133932
+Defined in: main.ts:134072
 
 a point in time in the Unix time format
 
@@ -99,7 +99,7 @@ a point in time in the Unix time format
 
 > `optional` **values**: `number`[]
 
-Defined in: main.ts:133940
+Defined in: main.ts:134080
 
 relative keyword popularity rate at a specific timestamp
 represents the keyword popularity rate over the given time range
@@ -116,7 +116,7 @@ a value of 100 is the peak popularity for the term. A value of 50 means that the
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:133953
+Defined in: main.ts:134093
 
 #### Parameters
 
@@ -134,7 +134,7 @@ Defined in: main.ts:133953
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:133978
+Defined in: main.ts:134118
 
 #### Parameters
 
@@ -152,7 +152,7 @@ Defined in: main.ts:133978
 
 > `static` **fromJS**(`data`): [`TrendsGraphDataInfo`](TrendsGraphDataInfo.md)
 
-Defined in: main.ts:133971
+Defined in: main.ts:134111
 
 #### Parameters
 

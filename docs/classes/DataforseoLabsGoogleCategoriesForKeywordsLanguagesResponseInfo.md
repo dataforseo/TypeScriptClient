@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleCategoriesForKeywordsLanguagesResponseInfo
 
-Defined in: main.ts:96991
+Defined in: main.ts:97019
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:96991
 
 > **new DataforseoLabsGoogleCategoriesForKeywordsLanguagesResponseInfo**(`data`?): [`DataforseoLabsGoogleCategoriesForKeywordsLanguagesResponseInfo`](DataforseoLabsGoogleCategoriesForKeywordsLanguagesResponseInfo.md)
 
-Defined in: main.ts:96997
+Defined in: main.ts:97025
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsGoogleCategoriesForKeywordsLanguagesTaskInfo`](DataforseoLabsGoogleCategoriesForKeywordsLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:96993
+Defined in: main.ts:97021
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:97001
+Defined in: main.ts:97029
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:97001
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:97023
+Defined in: main.ts:97051
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:97023
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleCategoriesForKeywordsLanguagesResponseInfo`](DataforseoLabsGoogleCategoriesForKeywordsLanguagesResponseInfo.md)
 
-Defined in: main.ts:97016
+Defined in: main.ts:97044
 
 #### Parameters
 

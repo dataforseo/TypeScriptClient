@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsBingPageIntersectionLiveResponseInfo
 
-Defined in: main.ts:118153
+Defined in: main.ts:118245
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsBingPageIntersectionLiveTaskInfo`](../classes/DataforseoLabsBingPageIntersectionLiveTaskInfo.md)[]
 
-Defined in: main.ts:118155
+Defined in: main.ts:118247
 
 array of tasks
 

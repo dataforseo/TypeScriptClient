@@ -6,7 +6,7 @@
 
 # Interface: IOnPageNonIndexableResponseInfo
 
-Defined in: main.ts:170681
+Defined in: main.ts:170845
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageNonIndexableTaskInfo`](../classes/OnPageNonIndexableTaskInfo.md)[]
 
-Defined in: main.ts:170683
+Defined in: main.ts:170847
 
 array of tasks
 

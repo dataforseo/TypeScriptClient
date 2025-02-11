@@ -6,7 +6,7 @@
 
 # Class: ProductConsiderationsSerpElementItem
 
-Defined in: main.ts:36773
+Defined in: main.ts:36789
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:36773
 
 > **new ProductConsiderationsSerpElementItem**(`data`?): [`ProductConsiderationsSerpElementItem`](ProductConsiderationsSerpElementItem.md)
 
-Defined in: main.ts:36785
+Defined in: main.ts:36801
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`ProductConsiderationsElement`](ProductConsiderationsElement.md)[]
 
-Defined in: main.ts:36777
+Defined in: main.ts:36793
 
 contains arrays of specific images
 
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:36781
+Defined in: main.ts:36797
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -149,7 +149,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:36775
+Defined in: main.ts:36791
 
 title of the row
 
@@ -199,7 +199,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:36790
+Defined in: main.ts:36806
 
 #### Parameters
 
@@ -221,7 +221,7 @@ Defined in: main.ts:36790
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:36814
+Defined in: main.ts:36830
 
 #### Parameters
 
@@ -243,7 +243,7 @@ Defined in: main.ts:36814
 
 > `static` **fromJS**(`data`): [`ProductConsiderationsSerpElementItem`](ProductConsiderationsSerpElementItem.md)
 
-Defined in: main.ts:36807
+Defined in: main.ts:36823
 
 #### Parameters
 

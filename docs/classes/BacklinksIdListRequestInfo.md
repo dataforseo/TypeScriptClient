@@ -6,7 +6,7 @@
 
 # Class: BacklinksIdListRequestInfo
 
-Defined in: main.ts:148756
+Defined in: main.ts:148920
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:148756
 
 > **new BacklinksIdListRequestInfo**(`data`?): [`BacklinksIdListRequestInfo`](BacklinksIdListRequestInfo.md)
 
-Defined in: main.ts:148794
+Defined in: main.ts:148958
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:148794
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:148764
+Defined in: main.ts:148928
 
 start time for filtering results
 required field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:148771
+Defined in: main.ts:148935
 
 finish time for filtering results
 required field
@@ -79,7 +79,7 @@ example:
 
 > `optional` **include\_metadata**: `boolean`
 
-Defined in: main.ts:148790
+Defined in: main.ts:148954
 
 include task metadata in the respond
 optional field
@@ -95,7 +95,7 @@ default value: false
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:148776
+Defined in: main.ts:148940
 
 the maximum number of returned task IDs
 optional field
@@ -112,7 +112,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:148781
+Defined in: main.ts:148945
 
 offset in the results array of returned task IDs
 optional field
@@ -129,7 +129,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > `optional` **sort**: `string`
 
-Defined in: main.ts:148786
+Defined in: main.ts:148950
 
 sorting by task execution time
 optional field
@@ -146,7 +146,7 @@ default value: "asc"
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:148803
+Defined in: main.ts:148967
 
 #### Parameters
 
@@ -164,7 +164,7 @@ Defined in: main.ts:148803
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:148825
+Defined in: main.ts:148989
 
 #### Parameters
 
@@ -182,7 +182,7 @@ Defined in: main.ts:148825
 
 > `static` **fromJS**(`data`): [`BacklinksIdListRequestInfo`](BacklinksIdListRequestInfo.md)
 
-Defined in: main.ts:148818
+Defined in: main.ts:148982
 
 #### Parameters
 

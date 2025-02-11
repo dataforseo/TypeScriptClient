@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo
 
-Defined in: main.ts:114899
+Defined in: main.ts:114967
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:114899
 
 > `optional` **asins**: `object`
 
-Defined in: main.ts:114910
+Defined in: main.ts:114978
 
 asins of target products
 required field
@@ -41,14 +41,14 @@ learn more about the parameter on this help center page
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:114962
+Defined in: main.ts:115030
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, <=, >, >=, =, <>, in, not_in, ilike, not_ilike, like, not_like
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, ilike, not_ilike, like, not_like, match, not_match
 you can use the % operator with like and not_like, as well as ilike and not_ilike to match any string of zero or more characters
 example:
 ["avg_position","<", 10]
@@ -60,7 +60,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **intersection\_mode**: `string`
 
-Defined in: main.ts:114951
+Defined in: main.ts:115019
 
 mode for finding asin intersections
 optional field
@@ -74,7 +74,7 @@ learn more about the parameter in this help center guide
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:114940
+Defined in: main.ts:115008
 
 language code
 required field if don’t specify language_name
@@ -89,7 +89,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:114933
+Defined in: main.ts:115001
 
 full name of the language
 required field if don’t specify language_code
@@ -104,7 +104,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:114945
+Defined in: main.ts:115013
 
 the maximum number of products in the results array
 optional field
@@ -117,7 +117,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:114926
+Defined in: main.ts:114994
 
 location code
 required field if don’t specify location_name
@@ -133,7 +133,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:114918
+Defined in: main.ts:114986
 
 full name of the location
 required field if don’t specify location_code
@@ -149,7 +149,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:114983
+Defined in: main.ts:115051
 
 offset in the results array of returned keywords
 optional field
@@ -162,7 +162,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:114978
+Defined in: main.ts:115046
 
 results sorting rules
 optional field
@@ -186,7 +186,7 @@ default rule:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:114989
+Defined in: main.ts:115057
 
 user-defined task identifier
 optional field

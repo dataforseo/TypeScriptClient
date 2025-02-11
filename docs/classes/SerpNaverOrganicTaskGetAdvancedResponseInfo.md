@@ -6,7 +6,7 @@
 
 # Class: SerpNaverOrganicTaskGetAdvancedResponseInfo
 
-Defined in: main.ts:81895
+Defined in: main.ts:81931
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:81895
 
 > **new SerpNaverOrganicTaskGetAdvancedResponseInfo**(`data`?): [`SerpNaverOrganicTaskGetAdvancedResponseInfo`](SerpNaverOrganicTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:81901
+Defined in: main.ts:81937
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpNaverOrganicTaskGetAdvancedTaskInfo`](SerpNaverOrganicTaskGetAdvancedTaskInfo.md)[]
 
-Defined in: main.ts:81897
+Defined in: main.ts:81933
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:81905
+Defined in: main.ts:81941
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:81905
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:81927
+Defined in: main.ts:81963
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:81927
 
 > `static` **fromJS**(`data`): [`SerpNaverOrganicTaskGetAdvancedResponseInfo`](SerpNaverOrganicTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:81920
+Defined in: main.ts:81956
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IConceptGroupInfo
 
-Defined in: main.ts:128759
+Defined in: main.ts:128875
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:128759
 
 > `optional` **name**: `string`
 
-Defined in: main.ts:128761
+Defined in: main.ts:128877
 
 the concept group name
 
@@ -28,6 +28,6 @@ the concept group name
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:128763
+Defined in: main.ts:128879
 
 type of element

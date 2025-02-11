@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksBulkNewLostReferringDomainsLiveTaskInfo
 
-Defined in: main.ts:162344
+Defined in: main.ts:162508
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`BacklinksBulkNewLostReferringDomainsLiveResultInfo`](../classes/BacklinksBulkNewLostReferringDomainsLiveResultInfo.md)[]
 
-Defined in: main.ts:162346
+Defined in: main.ts:162510
 
 array of results
 

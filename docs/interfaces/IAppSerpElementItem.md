@@ -6,7 +6,7 @@
 
 # Interface: IAppSerpElementItem
 
-Defined in: main.ts:32878
+Defined in: main.ts:32886
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:32878
 
 > `optional` **items**: [`AppElement`](../classes/AppElement.md)[]
 
-Defined in: main.ts:32880
+Defined in: main.ts:32888
 
 contains arrays of specific images
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:32884
+Defined in: main.ts:32892
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP

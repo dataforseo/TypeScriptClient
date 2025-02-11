@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppListTaskPostRequestInfo
 
-Defined in: main.ts:200464
+Defined in: main.ts:200966
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:200464
 
 > **new AppDataGoogleAppListTaskPostRequestInfo**(`data`?): [`AppDataGoogleAppListTaskPostRequestInfo`](AppDataGoogleAppListTaskPostRequestInfo.md)
 
-Defined in: main.ts:200568
+Defined in: main.ts:201070
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:200568
 
 > `optional` **age\_rating**: `string`
 
-Defined in: main.ts:200532
+Defined in: main.ts:201034
 
 filter results by age rating
 optional field
@@ -62,7 +62,7 @@ Note: this filter works only in conjunction with the "category": "family" parame
 
 > `optional` **app\_category**: `string`
 
-Defined in: main.ts:200522
+Defined in: main.ts:201024
 
 application category on Google Play
 optional field
@@ -82,7 +82,7 @@ Note: app_category cannot be used if app_collection parameter is set to featured
 
 > `optional` **app\_collection**: `string`
 
-Defined in: main.ts:200471
+Defined in: main.ts:200973
 
 app collection
 required field
@@ -101,7 +101,7 @@ Note: if featured is selected, the app_category parameter cannot be used
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:200514
+Defined in: main.ts:201016
 
 parsing depth
 optional field
@@ -120,7 +120,7 @@ maximum value: 200
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:200499
+Defined in: main.ts:201001
 
 search engine language code
 required field if language_name is not specified
@@ -139,7 +139,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:200492
+Defined in: main.ts:200994
 
 full name of search engine language
 required field if language_code is not specified
@@ -158,7 +158,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:200485
+Defined in: main.ts:200987
 
 search engine location code
 required field if you don’t specify location_name
@@ -177,7 +177,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:200478
+Defined in: main.ts:200980
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -196,7 +196,7 @@ West Los Angeles,California,United States
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:200564
+Defined in: main.ts:201066
 
 notification URL of a completed task
 optional field
@@ -218,7 +218,7 @@ i.a., the # character will be encoded into %23
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:200554
+Defined in: main.ts:201056
 
 postback_url datatype
 required field if you specify postback_url
@@ -236,7 +236,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:200548
+Defined in: main.ts:201050
 
 return URL for sending task results
 optional field
@@ -258,7 +258,7 @@ i.a., the # character will be encoded into %23
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:200507
+Defined in: main.ts:201009
 
 task priority
 optional field
@@ -278,7 +278,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:200538
+Defined in: main.ts:201040
 
 user-defined task identifier
 optional field
@@ -296,7 +296,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:200577
+Defined in: main.ts:201079
 
 #### Parameters
 
@@ -314,7 +314,7 @@ Defined in: main.ts:200577
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:200606
+Defined in: main.ts:201108
 
 #### Parameters
 
@@ -332,7 +332,7 @@ Defined in: main.ts:200606
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppListTaskPostRequestInfo`](AppDataGoogleAppListTaskPostRequestInfo.md)
 
-Defined in: main.ts:200599
+Defined in: main.ts:201101
 
 #### Parameters
 

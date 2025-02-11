@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesLocationsTaskInfo
 
-Defined in: main.ts:85298
+Defined in: main.ts:85334
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:85298
 
 > **new DomainAnalyticsTechnologiesLocationsTaskInfo**(`data`?): [`DomainAnalyticsTechnologiesLocationsTaskInfo`](DomainAnalyticsTechnologiesLocationsTaskInfo.md)
 
-Defined in: main.ts:85304
+Defined in: main.ts:85340
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DomainAnalyticsTechnologiesLocationsResultInfo`](DomainAnalyticsTechnologiesLocationsResultInfo.md)[]
 
-Defined in: main.ts:85300
+Defined in: main.ts:85336
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:85308
+Defined in: main.ts:85344
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:85308
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:85330
+Defined in: main.ts:85366
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:85330
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesLocationsTaskInfo`](DomainAnalyticsTechnologiesLocationsTaskInfo.md)
 
-Defined in: main.ts:85323
+Defined in: main.ts:85359
 
 #### Parameters
 

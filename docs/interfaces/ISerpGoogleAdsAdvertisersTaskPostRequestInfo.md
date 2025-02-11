@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleAdsAdvertisersTaskPostRequestInfo
 
-Defined in: main.ts:60501
+Defined in: main.ts:60520
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:60501
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:60509
+Defined in: main.ts:60528
 
 keyword
 required field
@@ -34,14 +34,15 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:60523
+Defined in: main.ts:60544
 
 search engine location code
-required field if you don’t specify location_name or location_coordinate
+optional field
 if you use this field, you don’t need to specify location_name or location_coordinate
 you can receive the list of available locations of the search engines with their location_code by making a separate request to the https://api.dataforseo.com/v3/serp/google/ads_advertisers/locations
 example:
 2840
+Note: if you don’t specify location_name, location_code, or location_coordinate, advertisers will be searched across all the available locations
 
 ***
 
@@ -49,13 +50,14 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:60529
+Defined in: main.ts:60551
 
 GPS coordinates of a location
-required field if you don’t specify location_name or location_code
+optional field
 if you use this field, you don’t need to specify location_name or location_code
 example:
 52.6178549,-155.352142
+Note: if you don’t specify location_name, location_code, or location_coordinate, advertisers will be searched across all the available locations
 
 ***
 
@@ -63,14 +65,15 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:60516
+Defined in: main.ts:60536
 
 full name of search engine location
-required field if you don’t specify location_code or location_coordinate
+optional field
 if you use this field, you don’t need to specify location_code or location_coordinate
 you can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/serp/google/ads_advertisers/locations
 example:
 London,England,United Kingdom
+Note: if you don’t specify location_name, location_code, or location_coordinate, advertisers will be searched across all the available locations
 
 ***
 
@@ -78,7 +81,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:60571
+Defined in: main.ts:60593
 
 notification URL of a completed task
 optional field
@@ -97,7 +100,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:60560
+Defined in: main.ts:60582
 
 postback_url datatype
 required field if you specify postback_url
@@ -111,7 +114,7 @@ advanced
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:60554
+Defined in: main.ts:60576
 
 return URL for sending task results
 optional field
@@ -130,7 +133,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:60537
+Defined in: main.ts:60559
 
 task priority
 optional field
@@ -146,7 +149,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:60543
+Defined in: main.ts:60565
 
 user-defined task identifier
 optional field

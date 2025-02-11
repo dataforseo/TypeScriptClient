@@ -6,7 +6,7 @@
 
 # Interface: IAppendixStatusResponseInfo
 
-Defined in: main.ts:239721
+Defined in: main.ts:240149
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppendixStatusTaskInfo`](../classes/AppendixStatusTaskInfo.md)[]
 
-Defined in: main.ts:239723
+Defined in: main.ts:240151
 
 array of tasks
 

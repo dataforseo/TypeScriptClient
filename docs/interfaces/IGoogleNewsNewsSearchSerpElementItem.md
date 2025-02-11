@@ -6,7 +6,7 @@
 
 # Interface: IGoogleNewsNewsSearchSerpElementItem
 
-Defined in: main.ts:46280
+Defined in: main.ts:46296
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:46280
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:46282
+Defined in: main.ts:46298
 
 domain in SERP
 
@@ -32,7 +32,7 @@ domain in SERP
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:46287
+Defined in: main.ts:46303
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -43,7 +43,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:46204
+Defined in: main.ts:46220
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -58,7 +58,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:46201
+Defined in: main.ts:46217
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -74,7 +74,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:46212
+Defined in: main.ts:46228
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -90,7 +90,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:46289
+Defined in: main.ts:46305
 
 snippet of the result in SERP
 
@@ -100,7 +100,7 @@ snippet of the result in SERP
 
 > `optional` **time\_published**: `string`
 
-Defined in: main.ts:46291
+Defined in: main.ts:46307
 
 indicates the time the result was published
 
@@ -110,7 +110,7 @@ indicates the time the result was published
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:46296
+Defined in: main.ts:46312
 
 date and time when the news was published
 in the format “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
@@ -123,7 +123,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:46208
+Defined in: main.ts:46224
 
 title of the element
 
@@ -137,7 +137,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:46197
+Defined in: main.ts:46213
 
 type of element
 
@@ -151,7 +151,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:46284
+Defined in: main.ts:46300
 
 search URL with refinement parameters
 
@@ -161,7 +161,7 @@ search URL with refinement parameters
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:46206
+Defined in: main.ts:46222
 
 the XPath of the element
 

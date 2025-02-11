@@ -6,7 +6,7 @@
 
 # Class: LocalPackSerpElementItem
 
-Defined in: main.ts:32889
+Defined in: main.ts:32897
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:32889
 
 > **new LocalPackSerpElementItem**(`data`?): [`LocalPackSerpElementItem`](LocalPackSerpElementItem.md)
 
-Defined in: main.ts:32914
+Defined in: main.ts:32922
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:32906
+Defined in: main.ts:32914
 
 google-defined client id
 
@@ -74,7 +74,7 @@ google-defined client id
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:32893
+Defined in: main.ts:32901
 
 description of the results element in SERP
 
@@ -88,7 +88,7 @@ description of the results element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:32895
+Defined in: main.ts:32903
 
 source domain
 
@@ -102,7 +102,7 @@ source domain
 
 > `optional` **is\_paid**: `boolean`
 
-Defined in: main.ts:32901
+Defined in: main.ts:32909
 
 indicates whether the element is an ad
 
@@ -116,7 +116,7 @@ indicates whether the element is an ad
 
 > `optional` **phone**: `string`
 
-Defined in: main.ts:32897
+Defined in: main.ts:32905
 
 phone number
 
@@ -189,9 +189,9 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:32904
+Defined in: main.ts:32912
 
-the item’s rating 
+the element’s rating
 the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
@@ -204,7 +204,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:32910
+Defined in: main.ts:32918
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -220,7 +220,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:32891
+Defined in: main.ts:32899
 
 title of the row
 
@@ -252,7 +252,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:32899
+Defined in: main.ts:32907
 
 source URL
 
@@ -284,7 +284,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:32919
+Defined in: main.ts:32927
 
 #### Parameters
 
@@ -306,7 +306,7 @@ Defined in: main.ts:32919
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:32945
+Defined in: main.ts:32953
 
 #### Parameters
 
@@ -328,7 +328,7 @@ Defined in: main.ts:32945
 
 > `static` **fromJS**(`data`): [`LocalPackSerpElementItem`](LocalPackSerpElementItem.md)
 
-Defined in: main.ts:32938
+Defined in: main.ts:32946
 
 #### Parameters
 

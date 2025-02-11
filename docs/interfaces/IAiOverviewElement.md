@@ -6,7 +6,7 @@
 
 # Interface: IAiOverviewElement
 
-Defined in: main.ts:30910
+Defined in: main.ts:30916
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:30910
 
 > `optional` **images**: [`ImagesElement`](../classes/ImagesElement.md)[]
 
-Defined in: main.ts:30918
+Defined in: main.ts:30924
 
 images of the element
 
@@ -28,7 +28,7 @@ images of the element
 
 > `optional` **references**: [`AiOverviewReference`](../classes/AiOverviewReference.md)[]
 
-Defined in: main.ts:30920
+Defined in: main.ts:30926
 
 references relevant to the element
 
@@ -38,7 +38,7 @@ references relevant to the element
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:30916
+Defined in: main.ts:30922
 
 description content
 
@@ -48,7 +48,7 @@ description content
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:30914
+Defined in: main.ts:30920
 
 title of the element
 
@@ -58,6 +58,6 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:30912
+Defined in: main.ts:30918
 
 type of element

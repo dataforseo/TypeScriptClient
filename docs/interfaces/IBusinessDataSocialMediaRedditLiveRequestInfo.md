@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataSocialMediaRedditLiveRequestInfo
 
-Defined in: main.ts:230216
+Defined in: main.ts:230724
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:230216
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:230229
+Defined in: main.ts:230737
 
 user-defined task identifier
 optional field
@@ -32,7 +32,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:230223
+Defined in: main.ts:230731
 
 target URLs
 required field

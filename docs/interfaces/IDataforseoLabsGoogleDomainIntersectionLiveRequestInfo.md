@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo
 
-Defined in: main.ts:103420
+Defined in: main.ts:103460
 
 ## Indexable
 
@@ -18,14 +18,14 @@ Defined in: main.ts:103420
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:103517
+Defined in: main.ts:103557
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, <=, >, >=, =, <>, in, not_in, ilike, not_ilike, like, not_like
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, match, not_match, ilike, not_ilike, like, not_like
 you can use the % operator with like and not_like, as well as ilike and not_ilike to match any string of zero or more characters
 example:
 ["keyword_data.keyword_info.search_volume","in",[100,1000]]
@@ -43,7 +43,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
-Defined in: main.ts:103490
+Defined in: main.ts:103530
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -58,7 +58,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 > `optional` **include\_serp\_info**: `boolean`
 
-Defined in: main.ts:103483
+Defined in: main.ts:103523
 
 include data from SERP for each keyword
 optional field
@@ -71,7 +71,7 @@ default value: false
 
 > `optional` **intersections**: `boolean`
 
-Defined in: main.ts:103470
+Defined in: main.ts:103510
 
 domain intersections in SERP
 optional field
@@ -87,7 +87,7 @@ default value: true
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:103478
+Defined in: main.ts:103518
 
 search results type
 indicates type of search results included in the response
@@ -103,7 +103,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:103462
+Defined in: main.ts:103502
 
 language code
 required field if you don’t specify language_name
@@ -119,7 +119,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:103454
+Defined in: main.ts:103494
 
 full name of the language
 required field if you don’t specify language_code
@@ -135,7 +135,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:103495
+Defined in: main.ts:103535
 
 the maximum number of returned keywords
 optional field
@@ -148,7 +148,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:103446
+Defined in: main.ts:103486
 
 location code
 required field if you don’t specify location_name
@@ -164,7 +164,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:103438
+Defined in: main.ts:103478
 
 full name of the location
 required field if you don’t specify location_code
@@ -180,7 +180,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:103500
+Defined in: main.ts:103540
 
 offset in the items array of returned keywords
 optional field
@@ -193,7 +193,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:103533
+Defined in: main.ts:103573
 
 results sorting rules
 optional field
@@ -217,7 +217,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:103539
+Defined in: main.ts:103579
 
 user-defined task identifier
 optional field
@@ -231,7 +231,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target1**: `string`
 
-Defined in: main.ts:103425
+Defined in: main.ts:103465
 
 domain
 required field
@@ -244,7 +244,7 @@ the domain should be specified without https:// and www.
 
 > `optional` **target2**: `string`
 
-Defined in: main.ts:103430
+Defined in: main.ts:103470
 
 domain
 required field

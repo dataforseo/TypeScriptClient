@@ -6,7 +6,7 @@
 
 # Interface: ITest\_results
 
-Defined in: main.ts:239767
+Defined in: main.ts:240195
 
 ## Indexable
 

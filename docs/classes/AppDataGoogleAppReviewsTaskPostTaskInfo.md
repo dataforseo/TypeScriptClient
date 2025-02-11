@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppReviewsTaskPostTaskInfo
 
-Defined in: main.ts:203062
+Defined in: main.ts:203564
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:203062
 
 > **new AppDataGoogleAppReviewsTaskPostTaskInfo**(`data`?): [`AppDataGoogleAppReviewsTaskPostTaskInfo`](AppDataGoogleAppReviewsTaskPostTaskInfo.md)
 
-Defined in: main.ts:203069
+Defined in: main.ts:203571
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:203065
+Defined in: main.ts:203567
 
 array of results
 in this case, the value will be null
@@ -215,7 +215,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:203073
+Defined in: main.ts:203575
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:203073
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:203091
+Defined in: main.ts:203593
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:203091
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppReviewsTaskPostTaskInfo`](AppDataGoogleAppReviewsTaskPostTaskInfo.md)
 
-Defined in: main.ts:203084
+Defined in: main.ts:203586
 
 #### Parameters
 

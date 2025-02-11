@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAppleAppCompetitorsLiveTaskInfo
 
-Defined in: main.ts:124588
+Defined in: main.ts:124704
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:124588
 
 > **new DataforseoLabsAppleAppCompetitorsLiveTaskInfo**(`data`?): [`DataforseoLabsAppleAppCompetitorsLiveTaskInfo`](DataforseoLabsAppleAppCompetitorsLiveTaskInfo.md)
 
-Defined in: main.ts:124594
+Defined in: main.ts:124710
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsAppleAppCompetitorsLiveResultInfo`](DataforseoLabsAppleAppCompetitorsLiveResultInfo.md)[]
 
-Defined in: main.ts:124590
+Defined in: main.ts:124706
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:124598
+Defined in: main.ts:124714
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:124598
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:124620
+Defined in: main.ts:124736
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:124620
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAppleAppCompetitorsLiveTaskInfo`](DataforseoLabsAppleAppCompetitorsLiveTaskInfo.md)
 
-Defined in: main.ts:124613
+Defined in: main.ts:124729
 
 #### Parameters
 

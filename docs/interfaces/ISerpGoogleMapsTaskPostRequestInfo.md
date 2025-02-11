@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleMapsTaskPostRequestInfo
 
-Defined in: main.ts:40734
+Defined in: main.ts:40750
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:40734
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:40826
+Defined in: main.ts:40842
 
 parsing depth
 optional field
@@ -35,7 +35,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:40803
+Defined in: main.ts:40819
 
 device type
 optional field
@@ -49,7 +49,7 @@ note: for mobile device, only 20 results are returned for every SERP
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:40750
+Defined in: main.ts:40766
 
 keyword
 required field
@@ -57,7 +57,7 @@ you can specify up to 700 characters  in the keyword field
 all %## will be decoded (plus character ‘+’ will be decoded to a space character)
 if you need to use the “%” character for your keyword, please specify it as “%25”;
 if you need to use the “+” character for your keyword, please specify it as “%2B”;
-if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’, ‘-site:’, the charge per task will be multiplied by 5
+if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’, the charge per task will be multiplied by 5
 Note: queries containing the ‘cache:’ parameter are not supported and will return a validation error
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
@@ -67,7 +67,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:40797
+Defined in: main.ts:40813
 
 search engine language code
 required field if you don’t specify language_name
@@ -82,7 +82,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:40790
+Defined in: main.ts:40806
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -97,7 +97,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:40772
+Defined in: main.ts:40788
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -112,7 +112,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:40783
+Defined in: main.ts:40799
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -131,7 +131,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:40765
+Defined in: main.ts:40781
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -146,7 +146,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:40833
+Defined in: main.ts:40849
 
 page crawl limit
 optional field
@@ -161,7 +161,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:40810
+Defined in: main.ts:40826
 
 device operating system
 optional field
@@ -176,7 +176,7 @@ default value: android
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:40880
+Defined in: main.ts:40896
 
 notification URL of a completed task
 optional field
@@ -195,7 +195,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:40869
+Defined in: main.ts:40885
 
 postback_url datatype
 required field if you specify postback_url
@@ -209,7 +209,7 @@ advanced
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:40863
+Defined in: main.ts:40879
 
 return URL for sending task results
 optional field
@@ -228,7 +228,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:40758
+Defined in: main.ts:40774
 
 task priority
 optional field
@@ -244,7 +244,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:40817
+Defined in: main.ts:40833
 
 search engine domain
 optional field
@@ -259,7 +259,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **search\_places**: `boolean`
 
-Defined in: main.ts:40846
+Defined in: main.ts:40862
 
 search places mode
 optional field
@@ -274,7 +274,7 @@ Note: if the search_places mode is turned off and no results were found in the s
 
 > `optional` **search\_this\_area**: `boolean`
 
-Defined in: main.ts:40839
+Defined in: main.ts:40855
 
 search this area
 optional field
@@ -288,7 +288,7 @@ Note: if the search_this_area mode is turned off, Google Maps listings might con
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:40852
+Defined in: main.ts:40868
 
 user-defined task identifier
 optional field
@@ -302,7 +302,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:40740
+Defined in: main.ts:40756
 
 direct URL of the search query
 optional field

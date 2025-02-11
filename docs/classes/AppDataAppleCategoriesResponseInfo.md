@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleCategoriesResponseInfo
 
-Defined in: main.ts:204849
+Defined in: main.ts:205351
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:204849
 
 > **new AppDataAppleCategoriesResponseInfo**(`data`?): [`AppDataAppleCategoriesResponseInfo`](AppDataAppleCategoriesResponseInfo.md)
 
-Defined in: main.ts:204855
+Defined in: main.ts:205357
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataAppleCategoriesTaskInfo`](AppDataAppleCategoriesTaskInfo.md)[]
 
-Defined in: main.ts:204851
+Defined in: main.ts:205353
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:204859
+Defined in: main.ts:205361
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:204859
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:204881
+Defined in: main.ts:205383
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:204881
 
 > `static` **fromJS**(`data`): [`AppDataAppleCategoriesResponseInfo`](AppDataAppleCategoriesResponseInfo.md)
 
-Defined in: main.ts:204874
+Defined in: main.ts:205376
 
 #### Parameters
 

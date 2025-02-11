@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleLanguagesResponseInfo
 
-Defined in: main.ts:184809
+Defined in: main.ts:185171
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:184809
 
 > **new MerchantGoogleLanguagesResponseInfo**(`data`?): [`MerchantGoogleLanguagesResponseInfo`](MerchantGoogleLanguagesResponseInfo.md)
 
-Defined in: main.ts:184815
+Defined in: main.ts:185177
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`MerchantGoogleLanguagesTaskInfo`](MerchantGoogleLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:184811
+Defined in: main.ts:185173
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:184819
+Defined in: main.ts:185181
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:184819
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:184841
+Defined in: main.ts:185203
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:184841
 
 > `static` **fromJS**(`data`): [`MerchantGoogleLanguagesResponseInfo`](MerchantGoogleLanguagesResponseInfo.md)
 
-Defined in: main.ts:184834
+Defined in: main.ts:185196
 
 #### Parameters
 

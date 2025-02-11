@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppListingsCategoriesResponseInfo
 
-Defined in: main.ts:208819
+Defined in: main.ts:209321
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:208819
 
 > **new AppDataAppleAppListingsCategoriesResponseInfo**(`data`?): [`AppDataAppleAppListingsCategoriesResponseInfo`](AppDataAppleAppListingsCategoriesResponseInfo.md)
 
-Defined in: main.ts:208825
+Defined in: main.ts:209327
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataAppleAppListingsCategoriesTaskInfo`](AppDataAppleAppListingsCategoriesTaskInfo.md)[]
 
-Defined in: main.ts:208821
+Defined in: main.ts:209323
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:208829
+Defined in: main.ts:209331
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:208829
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:208851
+Defined in: main.ts:209353
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:208851
 
 > `static` **fromJS**(`data`): [`AppDataAppleAppListingsCategoriesResponseInfo`](AppDataAppleAppListingsCategoriesResponseInfo.md)
 
-Defined in: main.ts:208844
+Defined in: main.ts:209346
 
 #### Parameters
 

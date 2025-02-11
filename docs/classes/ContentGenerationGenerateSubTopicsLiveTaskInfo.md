@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationGenerateSubTopicsLiveTaskInfo
 
-Defined in: main.ts:182360
+Defined in: main.ts:182722
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:182360
 
 > **new ContentGenerationGenerateSubTopicsLiveTaskInfo**(`data`?): [`ContentGenerationGenerateSubTopicsLiveTaskInfo`](ContentGenerationGenerateSubTopicsLiveTaskInfo.md)
 
-Defined in: main.ts:182366
+Defined in: main.ts:182728
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`ContentGenerationGenerateSubTopicsLiveResultInfo`](ContentGenerationGenerateSubTopicsLiveResultInfo.md)[]
 
-Defined in: main.ts:182362
+Defined in: main.ts:182724
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:182370
+Defined in: main.ts:182732
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:182370
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:182392
+Defined in: main.ts:182754
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:182392
 
 > `static` **fromJS**(`data`): [`ContentGenerationGenerateSubTopicsLiveTaskInfo`](ContentGenerationGenerateSubTopicsLiveTaskInfo.md)
 
-Defined in: main.ts:182385
+Defined in: main.ts:182747
 
 #### Parameters
 

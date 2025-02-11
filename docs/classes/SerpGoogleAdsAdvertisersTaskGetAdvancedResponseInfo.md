@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleAdsAdvertisersTaskGetAdvancedResponseInfo
 
-Defined in: main.ts:61464
+Defined in: main.ts:61486
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:61464
 
 > **new SerpGoogleAdsAdvertisersTaskGetAdvancedResponseInfo**(`data`?): [`SerpGoogleAdsAdvertisersTaskGetAdvancedResponseInfo`](SerpGoogleAdsAdvertisersTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:61470
+Defined in: main.ts:61492
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleAdsAdvertisersTaskGetAdvancedTaskInfo`](SerpGoogleAdsAdvertisersTaskGetAdvancedTaskInfo.md)[]
 
-Defined in: main.ts:61466
+Defined in: main.ts:61488
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:61474
+Defined in: main.ts:61496
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:61474
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:61496
+Defined in: main.ts:61518
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:61496
 
 > `static` **fromJS**(`data`): [`SerpGoogleAdsAdvertisersTaskGetAdvancedResponseInfo`](SerpGoogleAdsAdvertisersTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:61489
+Defined in: main.ts:61511
 
 #### Parameters
 

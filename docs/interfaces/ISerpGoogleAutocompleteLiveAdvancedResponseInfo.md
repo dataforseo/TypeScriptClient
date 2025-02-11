@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleAutocompleteLiveAdvancedResponseInfo
 
-Defined in: main.ts:56825
+Defined in: main.ts:56841
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleAutocompleteLiveAdvancedTaskInfo`](../classes/SerpGoogleAutocompleteLiveAdvancedTaskInfo.md)[]
 
-Defined in: main.ts:56827
+Defined in: main.ts:56843
 
 array of tasks
 

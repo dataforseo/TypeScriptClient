@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksCompetitorsLiveRequestInfo
 
-Defined in: main.ts:156964
+Defined in: main.ts:157128
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:156964
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
-Defined in: main.ts:157023
+Defined in: main.ts:157187
 
 indicates if internal backlinks from subdomains to the target will be excluded from the results
 optional field
@@ -32,7 +32,7 @@ default value: true
 
 > `optional` **exclude\_large\_domains**: `boolean`
 
-Defined in: main.ts:157017
+Defined in: main.ts:157181
 
 indicates whether large domain will appear in results
 optional field
@@ -45,14 +45,14 @@ default value: true
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:156993
+Defined in: main.ts:157157
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, =, <>, in, not_in, like, not_like, ilike, not_ilike
+regex, not_regex, =, <>, in, not_in, like, not_like, ilike, not_ilike, match, not_match
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["rank",">","100"]
@@ -67,7 +67,7 @@ The full list of possible filters is available here.
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:156974
+Defined in: main.ts:157138
 
 the maximum number of returned domains
 optional field
@@ -80,7 +80,7 @@ maximum value: 1000
 
 > `optional` **main\_domain**: `boolean`
 
-Defined in: main.ts:157012
+Defined in: main.ts:157176
 
 indicates if only main domain of the target will be included in the search
 optional field
@@ -93,7 +93,7 @@ default value: true
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:156979
+Defined in: main.ts:157143
 
 offset in the results array of returned domains
 optional field
@@ -106,7 +106,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:157007
+Defined in: main.ts:157171
 
 results sorting rules
 optional field
@@ -128,7 +128,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:157029
+Defined in: main.ts:157193
 
 user-defined task identifier
 optional field
@@ -142,7 +142,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:156969
+Defined in: main.ts:157133
 
 domain, subdomain or webpage to get competitor domains for
 required field

@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleOrganicTaskGetRegularTaskInfo
 
-Defined in: main.ts:29311
+Defined in: main.ts:29319
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:29311
 
 > **new SerpGoogleOrganicTaskGetRegularTaskInfo**(`data`?): [`SerpGoogleOrganicTaskGetRegularTaskInfo`](SerpGoogleOrganicTaskGetRegularTaskInfo.md)
 
-Defined in: main.ts:29317
+Defined in: main.ts:29325
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleOrganicTaskGetRegularResultInfo`](SerpGoogleOrganicTaskGetRegularResultInfo.md)[]
 
-Defined in: main.ts:29313
+Defined in: main.ts:29321
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:29321
+Defined in: main.ts:29329
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:29321
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:29343
+Defined in: main.ts:29351
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:29343
 
 > `static` **fromJS**(`data`): [`SerpGoogleOrganicTaskGetRegularTaskInfo`](SerpGoogleOrganicTaskGetRegularTaskInfo.md)
 
-Defined in: main.ts:29336
+Defined in: main.ts:29344
 
 #### Parameters
 

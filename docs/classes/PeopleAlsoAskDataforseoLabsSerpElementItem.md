@@ -6,7 +6,7 @@
 
 # Class: PeopleAlsoAskDataforseoLabsSerpElementItem
 
-Defined in: main.ts:105668
+Defined in: main.ts:105732
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:105668
 
 > **new PeopleAlsoAskDataforseoLabsSerpElementItem**(`data`?): [`PeopleAlsoAskDataforseoLabsSerpElementItem`](PeopleAlsoAskDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:105676
+Defined in: main.ts:105740
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **items**: [`PeopleAlsoAskElement`](PeopleAlsoAskElement.md)[]
 
-Defined in: main.ts:105672
+Defined in: main.ts:105736
 
 elements of search results found in SERP
 
@@ -132,7 +132,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:105670
+Defined in: main.ts:105734
 
 search engine type
 
@@ -182,7 +182,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:105681
+Defined in: main.ts:105745
 
 #### Parameters
 
@@ -204,7 +204,7 @@ Defined in: main.ts:105681
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:105704
+Defined in: main.ts:105768
 
 #### Parameters
 
@@ -226,7 +226,7 @@ Defined in: main.ts:105704
 
 > `static` **fromJS**(`data`): [`PeopleAlsoAskDataforseoLabsSerpElementItem`](PeopleAlsoAskDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:105697
+Defined in: main.ts:105761
 
 #### Parameters
 

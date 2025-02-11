@@ -6,7 +6,7 @@
 
 # Class: OnPageTasksReadyResultInfo
 
-Defined in: main.ts:165002
+Defined in: main.ts:165166
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:165002
 
 > **new OnPageTasksReadyResultInfo**(`data`?): [`OnPageTasksReadyResultInfo`](OnPageTasksReadyResultInfo.md)
 
-Defined in: main.ts:165015
+Defined in: main.ts:165179
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:165015
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:165009
+Defined in: main.ts:165173
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:165005
+Defined in: main.ts:165169
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -69,7 +69,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:165011
+Defined in: main.ts:165175
 
 user-defined task identifier
 
@@ -83,7 +83,7 @@ user-defined task identifier
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:165007
+Defined in: main.ts:165171
 
 target website specified when setting a task
 
@@ -97,7 +97,7 @@ target website specified when setting a task
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:165024
+Defined in: main.ts:165188
 
 #### Parameters
 
@@ -115,7 +115,7 @@ Defined in: main.ts:165024
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:165044
+Defined in: main.ts:165208
 
 #### Parameters
 
@@ -133,7 +133,7 @@ Defined in: main.ts:165044
 
 > `static` **fromJS**(`data`): [`OnPageTasksReadyResultInfo`](OnPageTasksReadyResultInfo.md)
 
-Defined in: main.ts:165037
+Defined in: main.ts:165201
 
 #### Parameters
 

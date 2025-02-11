@@ -6,7 +6,7 @@
 
 # Interface: IShoppingElement
 
-Defined in: main.ts:33439
+Defined in: main.ts:33452
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:33439
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:33450
+Defined in: main.ts:33463
 
 description
 
@@ -28,7 +28,7 @@ description
 
 > `optional` **marketplace**: `string`
 
-Defined in: main.ts:33455
+Defined in: main.ts:33468
 
 merchant account provider
 commerce site that hosts products or websites of individual sellers under the same merchant account
@@ -41,7 +41,7 @@ by Google
 
 > `optional` **marketplace\_url**: `string`
 
-Defined in: main.ts:33458
+Defined in: main.ts:33471
 
 relevant marketplace URL
 URL of the page on the marketplace website where the product is hosted
@@ -52,9 +52,20 @@ URL of the page on the marketplace website where the product is hosted
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-Defined in: main.ts:33445
+Defined in: main.ts:33458
 
 price indicated in the element
+
+***
+
+### rating?
+
+> `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+
+Defined in: main.ts:33476
+
+the item’s rating 
+the popularity rate based on reviews and displayed in SERP
 
 ***
 
@@ -62,7 +73,7 @@ price indicated in the element
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:33448
+Defined in: main.ts:33461
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -73,7 +84,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:33443
+Defined in: main.ts:33456
 
 title of a given link element
 
@@ -83,7 +94,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:33441
+Defined in: main.ts:33454
 
 type of element
 
@@ -93,6 +104,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:33460
+Defined in: main.ts:33473
 
 URL

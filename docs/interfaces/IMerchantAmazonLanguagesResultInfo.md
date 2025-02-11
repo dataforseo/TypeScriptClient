@@ -6,7 +6,7 @@
 
 # Interface: IMerchantAmazonLanguagesResultInfo
 
-Defined in: main.ts:191609
+Defined in: main.ts:192015
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:191609
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:191613
+Defined in: main.ts:192019
 
 language code according to ISO 639-1
 
@@ -28,6 +28,6 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:191611
+Defined in: main.ts:192017
 
 language name

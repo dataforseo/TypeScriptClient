@@ -6,7 +6,7 @@
 
 # Class: BusinessDataSocialMediaRedditLiveTaskInfo
 
-Defined in: main.ts:230382
+Defined in: main.ts:230890
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:230382
 
 > **new BusinessDataSocialMediaRedditLiveTaskInfo**(`data`?): [`BusinessDataSocialMediaRedditLiveTaskInfo`](BusinessDataSocialMediaRedditLiveTaskInfo.md)
 
-Defined in: main.ts:230388
+Defined in: main.ts:230896
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataSocialMediaRedditLiveResultInfo`](BusinessDataSocialMediaRedditLiveResultInfo.md)[]
 
-Defined in: main.ts:230384
+Defined in: main.ts:230892
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:230392
+Defined in: main.ts:230900
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:230392
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:230414
+Defined in: main.ts:230922
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:230414
 
 > `static` **fromJS**(`data`): [`BusinessDataSocialMediaRedditLiveTaskInfo`](BusinessDataSocialMediaRedditLiveTaskInfo.md)
 
-Defined in: main.ts:230407
+Defined in: main.ts:230915
 
 #### Parameters
 

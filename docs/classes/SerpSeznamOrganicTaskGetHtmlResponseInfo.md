@@ -6,7 +6,7 @@
 
 # Class: SerpSeznamOrganicTaskGetHtmlResponseInfo
 
-Defined in: main.ts:84283
+Defined in: main.ts:84319
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:84283
 
 > **new SerpSeznamOrganicTaskGetHtmlResponseInfo**(`data`?): [`SerpSeznamOrganicTaskGetHtmlResponseInfo`](SerpSeznamOrganicTaskGetHtmlResponseInfo.md)
 
-Defined in: main.ts:84289
+Defined in: main.ts:84325
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpSeznamOrganicTaskGetHtmlTaskInfo`](SerpSeznamOrganicTaskGetHtmlTaskInfo.md)[]
 
-Defined in: main.ts:84285
+Defined in: main.ts:84321
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:84293
+Defined in: main.ts:84329
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:84293
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:84315
+Defined in: main.ts:84351
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:84315
 
 > `static` **fromJS**(`data`): [`SerpSeznamOrganicTaskGetHtmlResponseInfo`](SerpSeznamOrganicTaskGetHtmlResponseInfo.md)
 
-Defined in: main.ts:84308
+Defined in: main.ts:84344
 
 #### Parameters
 

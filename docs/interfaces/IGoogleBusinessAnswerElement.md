@@ -6,7 +6,7 @@
 
 # Interface: IGoogleBusinessAnswerElement
 
-Defined in: main.ts:224563
+Defined in: main.ts:225071
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:224563
 
 > `optional` **answer\_id**: `string`
 
-Defined in: main.ts:224567
+Defined in: main.ts:225075
 
 ID of the answer
 
@@ -28,7 +28,7 @@ ID of the answer
 
 > `optional` **answer\_text**: `string`
 
-Defined in: main.ts:224575
+Defined in: main.ts:225083
 
 current text of the answer
 
@@ -38,7 +38,7 @@ current text of the answer
 
 > `optional` **original\_answer\_text**: `string`
 
-Defined in: main.ts:224577
+Defined in: main.ts:225085
 
 original text of the answer
 
@@ -48,7 +48,7 @@ original text of the answer
 
 > `optional` **profile\_image\_url**: `string`
 
-Defined in: main.ts:224569
+Defined in: main.ts:225077
 
 URL of the user’s profile image
 
@@ -58,7 +58,7 @@ URL of the user’s profile image
 
 > `optional` **profile\_name**: `string`
 
-Defined in: main.ts:224573
+Defined in: main.ts:225081
 
 displayed name of the user
 
@@ -68,7 +68,7 @@ displayed name of the user
 
 > `optional` **profile\_url**: `string`
 
-Defined in: main.ts:224571
+Defined in: main.ts:225079
 
 URL of the user’s profile
 
@@ -78,7 +78,7 @@ URL of the user’s profile
 
 > `optional` **time\_ago**: `string`
 
-Defined in: main.ts:224579
+Defined in: main.ts:225087
 
 estimated time when the answer was posted
 
@@ -88,7 +88,7 @@ estimated time when the answer was posted
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:224581
+Defined in: main.ts:225089
 
 exact time when the answer was posted
 
@@ -98,6 +98,6 @@ exact time when the answer was posted
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:224565
+Defined in: main.ts:225073
 
 type of element

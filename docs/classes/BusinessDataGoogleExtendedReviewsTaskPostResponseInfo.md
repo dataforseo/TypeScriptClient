@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleExtendedReviewsTaskPostResponseInfo
 
-Defined in: main.ts:222955
+Defined in: main.ts:223463
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:222955
 
 > **new BusinessDataGoogleExtendedReviewsTaskPostResponseInfo**(`data`?): [`BusinessDataGoogleExtendedReviewsTaskPostResponseInfo`](BusinessDataGoogleExtendedReviewsTaskPostResponseInfo.md)
 
-Defined in: main.ts:222961
+Defined in: main.ts:223469
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BusinessDataGoogleExtendedReviewsTaskPostTaskInfo`](BusinessDataGoogleExtendedReviewsTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:222957
+Defined in: main.ts:223465
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:222965
+Defined in: main.ts:223473
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:222965
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:222987
+Defined in: main.ts:223495
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:222987
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleExtendedReviewsTaskPostResponseInfo`](BusinessDataGoogleExtendedReviewsTaskPostResponseInfo.md)
 
-Defined in: main.ts:222980
+Defined in: main.ts:223488
 
 #### Parameters
 

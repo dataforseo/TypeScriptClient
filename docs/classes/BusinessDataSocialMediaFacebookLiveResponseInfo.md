@@ -6,7 +6,7 @@
 
 # Class: BusinessDataSocialMediaFacebookLiveResponseInfo
 
-Defined in: main.ts:230097
+Defined in: main.ts:230605
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:230097
 
 > **new BusinessDataSocialMediaFacebookLiveResponseInfo**(`data`?): [`BusinessDataSocialMediaFacebookLiveResponseInfo`](BusinessDataSocialMediaFacebookLiveResponseInfo.md)
 
-Defined in: main.ts:230103
+Defined in: main.ts:230611
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BusinessDataSocialMediaFacebookLiveTaskInfo`](BusinessDataSocialMediaFacebookLiveTaskInfo.md)[]
 
-Defined in: main.ts:230099
+Defined in: main.ts:230607
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:230107
+Defined in: main.ts:230615
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:230107
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:230129
+Defined in: main.ts:230637
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:230129
 
 > `static` **fromJS**(`data`): [`BusinessDataSocialMediaFacebookLiveResponseInfo`](BusinessDataSocialMediaFacebookLiveResponseInfo.md)
 
-Defined in: main.ts:230122
+Defined in: main.ts:230630
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IOnPageInstantPagesResultInfo
 
-Defined in: main.ts:174729
+Defined in: main.ts:175093
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:174729
 
 > `optional` **crawl\_gateway\_address**: `string`
 
-Defined in: main.ts:174739
+Defined in: main.ts:175103
 
 crawler ip address
 displays the IP address used by the crawler to initiate the current crawling session
@@ -30,7 +30,7 @@ you can find the full list of IPs used by our crawler in the Overview section
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:174732
+Defined in: main.ts:175096
 
 status of the crawling session
 possible values: in_progress, finished
@@ -41,7 +41,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
 
-Defined in: main.ts:174735
+Defined in: main.ts:175099
 
 details of the crawling session
 in this case the value will be null
@@ -52,7 +52,7 @@ in this case the value will be null
 
 > `optional` **items**: [`BaseOnPageResourceItemInfo`](../classes/BaseOnPageResourceItemInfo.md)[]
 
-Defined in: main.ts:174743
+Defined in: main.ts:175107
 
 items array
 
@@ -62,6 +62,6 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:174741
+Defined in: main.ts:175105
 
 number of items in the results array

@@ -6,7 +6,7 @@
 
 # Class: AppendixNaverKeywordsDataDataInfo
 
-Defined in: main.ts:232802
+Defined in: main.ts:233322
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:232802
 
 > **new AppendixNaverKeywordsDataDataInfo**(`data`?): [`AppendixNaverKeywordsDataDataInfo`](AppendixNaverKeywordsDataDataInfo.md)
 
-Defined in: main.ts:232808
+Defined in: main.ts:233328
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:232808
 
 > `optional` **keywords\_for\_category**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:232803
+Defined in: main.ts:233323
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:232803
 
 > `optional` **search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:232804
+Defined in: main.ts:233324
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:232804
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:232817
+Defined in: main.ts:233337
 
 #### Parameters
 
@@ -82,7 +82,7 @@ Defined in: main.ts:232817
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:232835
+Defined in: main.ts:233355
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:232835
 
 > `static` **fromJS**(`data`): [`AppendixNaverKeywordsDataDataInfo`](AppendixNaverKeywordsDataDataInfo.md)
 
-Defined in: main.ts:232828
+Defined in: main.ts:233348
 
 #### Parameters
 

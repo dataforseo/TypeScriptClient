@@ -6,7 +6,7 @@
 
 # Class: FetchTiming
 
-Defined in: main.ts:167888
+Defined in: main.ts:168052
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:167888
 
 > **new FetchTiming**(`data`?): [`FetchTiming`](FetchTiming.md)
 
-Defined in: main.ts:167900
+Defined in: main.ts:168064
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:167900
 
 > `optional` **duration\_time**: `number`
 
-Defined in: main.ts:167890
+Defined in: main.ts:168054
 
 indicates how many milliseconds it took to fetch a resource
 
@@ -54,7 +54,7 @@ indicates how many milliseconds it took to fetch a resource
 
 > `optional` **fetch\_end**: `number`
 
-Defined in: main.ts:167896
+Defined in: main.ts:168060
 
 time to complete downloading the resource
 the amount of time a browser needs to complete downloading a resource
@@ -69,7 +69,7 @@ the amount of time a browser needs to complete downloading a resource
 
 > `optional` **fetch\_start**: `number`
 
-Defined in: main.ts:167893
+Defined in: main.ts:168057
 
 time to start downloading the resource
 the amount of time a browser needs to start downloading a resource
@@ -84,7 +84,7 @@ the amount of time a browser needs to start downloading a resource
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:167909
+Defined in: main.ts:168073
 
 #### Parameters
 
@@ -102,7 +102,7 @@ Defined in: main.ts:167909
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:167928
+Defined in: main.ts:168092
 
 #### Parameters
 
@@ -120,7 +120,7 @@ Defined in: main.ts:167928
 
 > `static` **fromJS**(`data`): [`FetchTiming`](FetchTiming.md)
 
-Defined in: main.ts:167921
+Defined in: main.ts:168085
 
 #### Parameters
 

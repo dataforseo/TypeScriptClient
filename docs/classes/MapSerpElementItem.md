@@ -6,7 +6,7 @@
 
 # Class: MapSerpElementItem
 
-Defined in: main.ts:32685
+Defined in: main.ts:32693
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:32685
 
 > **new MapSerpElementItem**(`data`?): [`MapSerpElementItem`](MapSerpElementItem.md)
 
-Defined in: main.ts:32697
+Defined in: main.ts:32705
 
 #### Parameters
 
@@ -119,7 +119,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:32693
+Defined in: main.ts:32701
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -135,7 +135,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:32687
+Defined in: main.ts:32695
 
 title of the row
 
@@ -167,7 +167,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:32689
+Defined in: main.ts:32697
 
 source URL
 
@@ -199,7 +199,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:32702
+Defined in: main.ts:32710
 
 #### Parameters
 
@@ -221,7 +221,7 @@ Defined in: main.ts:32702
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:32722
+Defined in: main.ts:32730
 
 #### Parameters
 
@@ -243,7 +243,7 @@ Defined in: main.ts:32722
 
 > `static` **fromJS**(`data`): [`MapSerpElementItem`](MapSerpElementItem.md)
 
-Defined in: main.ts:32715
+Defined in: main.ts:32723
 
 #### Parameters
 

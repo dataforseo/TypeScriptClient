@@ -6,7 +6,7 @@
 
 # Class: CarouselSerpElementItem
 
-Defined in: main.ts:33061
+Defined in: main.ts:33069
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:33061
 
 > **new CarouselSerpElementItem**(`data`?): [`CarouselSerpElementItem`](CarouselSerpElementItem.md)
 
-Defined in: main.ts:33073
+Defined in: main.ts:33081
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`CarouselElement`](CarouselElement.md)[]
 
-Defined in: main.ts:33065
+Defined in: main.ts:33073
 
 contains arrays of specific images
 
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:33069
+Defined in: main.ts:33077
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -149,7 +149,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:33063
+Defined in: main.ts:33071
 
 title of the row
 
@@ -199,7 +199,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:33078
+Defined in: main.ts:33086
 
 #### Parameters
 
@@ -221,7 +221,7 @@ Defined in: main.ts:33078
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:33102
+Defined in: main.ts:33110
 
 #### Parameters
 
@@ -243,7 +243,7 @@ Defined in: main.ts:33102
 
 > `static` **fromJS**(`data`): [`CarouselSerpElementItem`](CarouselSerpElementItem.md)
 
-Defined in: main.ts:33095
+Defined in: main.ts:33103
 
 #### Parameters
 

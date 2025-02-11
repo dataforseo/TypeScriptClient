@@ -6,7 +6,7 @@
 
 # Interface: IPeopleAlsoSearchDataforseoLabsSerpElementItem
 
-Defined in: main.ts:107128
+Defined in: main.ts:106703
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:107128
 
 > `optional` **items**: `string`[]
 
-Defined in: main.ts:107132
+Defined in: main.ts:106709
 
 elements of search results found in SERP
 
@@ -74,11 +74,21 @@ positions of elements with different type values are omitted from rank_group
 
 ***
 
+### se\_type?
+
+> `optional` **se\_type**: `string`
+
+Defined in: main.ts:106705
+
+search engine type
+
+***
+
 ### title?
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:107130
+Defined in: main.ts:106707
 
 title of the result in SERP
 

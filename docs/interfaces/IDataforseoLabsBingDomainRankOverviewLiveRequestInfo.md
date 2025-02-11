@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsBingDomainRankOverviewLiveRequestInfo
 
-Defined in: main.ts:117236
+Defined in: main.ts:117328
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:117236
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:117279
+Defined in: main.ts:117371
 
 language code
 optional field
@@ -35,7 +35,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:117270
+Defined in: main.ts:117362
 
 full name of the language
 optional field
@@ -52,7 +52,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:117284
+Defined in: main.ts:117376
 
 the maximum number of returned results for domain
 optional field
@@ -65,7 +65,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:117261
+Defined in: main.ts:117353
 
 location code
 optional field
@@ -83,7 +83,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:117251
+Defined in: main.ts:117343
 
 full name of the location
 optional field
@@ -101,7 +101,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:117289
+Defined in: main.ts:117381
 
 offset in the results array of returned items
 optional field
@@ -114,7 +114,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:117295
+Defined in: main.ts:117387
 
 user-defined task identifier
 optional field
@@ -128,7 +128,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:117241
+Defined in: main.ts:117333
 
 domain
 required field

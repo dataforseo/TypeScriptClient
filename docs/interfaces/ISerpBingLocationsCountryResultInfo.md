@@ -6,7 +6,7 @@
 
 # Interface: ISerpBingLocationsCountryResultInfo
 
-Defined in: main.ts:63057
+Defined in: main.ts:63085
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:63057
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:63072
+Defined in: main.ts:63100
 
 ISO country code of the location
 
@@ -28,7 +28,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:63059
+Defined in: main.ts:63087
 
 location code
 
@@ -38,7 +38,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:63070
+Defined in: main.ts:63098
 
 the code of the superordinate location
 example:
@@ -55,7 +55,7 @@ where location_code_parent corresponds to:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:63061
+Defined in: main.ts:63089
 
 full name of the location
 
@@ -65,6 +65,6 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:63074
+Defined in: main.ts:63102
 
 location type

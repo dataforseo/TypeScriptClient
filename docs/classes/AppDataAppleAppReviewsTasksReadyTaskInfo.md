@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppReviewsTasksReadyTaskInfo
 
-Defined in: main.ts:208268
+Defined in: main.ts:208770
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:208268
 
 > **new AppDataAppleAppReviewsTasksReadyTaskInfo**(`data`?): [`AppDataAppleAppReviewsTasksReadyTaskInfo`](AppDataAppleAppReviewsTasksReadyTaskInfo.md)
 
-Defined in: main.ts:208274
+Defined in: main.ts:208776
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`AppDataAppleAppReviewsTasksReadyResultInfo`](AppDataAppleAppReviewsTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:208270
+Defined in: main.ts:208772
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:208278
+Defined in: main.ts:208780
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:208278
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:208300
+Defined in: main.ts:208802
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:208300
 
 > `static` **fromJS**(`data`): [`AppDataAppleAppReviewsTasksReadyTaskInfo`](AppDataAppleAppReviewsTasksReadyTaskInfo.md)
 
-Defined in: main.ts:208293
+Defined in: main.ts:208795
 
 #### Parameters
 

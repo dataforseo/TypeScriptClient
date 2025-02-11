@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
 
-Defined in: main.ts:111304
+Defined in: main.ts:111372
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:111304
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:111348
+Defined in: main.ts:111416
 
 starting date of the time range
 optional field
@@ -32,7 +32,7 @@ date format: "yyyy-mm-dd"
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:111355
+Defined in: main.ts:111423
 
 ending date of the time range
 optional field
@@ -47,11 +47,11 @@ example:
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:111360
+Defined in: main.ts:111428
 
 ignore highly similar keywords
 optional field
-if set to true only core keywords will be returned, all highly similar keywords will be excluded;
+if set to true, only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false
 
 ***
@@ -60,7 +60,7 @@ default value: false
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:111369
+Defined in: main.ts:111437
 
 display results by item type
 optional field
@@ -77,7 +77,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:111342
+Defined in: main.ts:111410
 
 language code
 if you use this field, you don’t need to specify language_name
@@ -93,7 +93,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:111334
+Defined in: main.ts:111402
 
 full name of the language
 if you use this field, you don’t need to specify language_code
@@ -109,7 +109,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:111326
+Defined in: main.ts:111394
 
 location code
 if you use this field, you don’t have to specify location_name
@@ -125,7 +125,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:111318
+Defined in: main.ts:111386
 
 full name of the location
 if you use this field, you don’t have to specify location_code
@@ -141,7 +141,7 @@ United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:111375
+Defined in: main.ts:111443
 
 user-defined task identifier
 optional field
@@ -155,7 +155,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:111310
+Defined in: main.ts:111378
 
 target domains and subdomains
 required field

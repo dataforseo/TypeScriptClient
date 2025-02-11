@@ -6,7 +6,7 @@
 
 # Interface: IOnPagePagesByResourceResponseInfo
 
-Defined in: main.ts:167579
+Defined in: main.ts:167743
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPagePagesByResourceTaskInfo`](../classes/OnPagePagesByResourceTaskInfo.md)[]
 
-Defined in: main.ts:167581
+Defined in: main.ts:167745
 
 array of tasks
 

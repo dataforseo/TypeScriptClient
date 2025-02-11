@@ -6,7 +6,7 @@
 
 # Interface: ILocalServicesDataforseoLabsSerpElementItem
 
-Defined in: main.ts:109256
+Defined in: main.ts:109312
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:109256
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:109262
+Defined in: main.ts:109318
 
 domain where a link points
 
@@ -32,7 +32,7 @@ domain where a link points
 
 > `optional` **items**: [`LocalServicesElement`](../classes/LocalServicesElement.md)[]
 
-Defined in: main.ts:109264
+Defined in: main.ts:109320
 
 elements of search results found in SERP
 
@@ -88,7 +88,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:109258
+Defined in: main.ts:109314
 
 title of the result in SERP
 
@@ -112,7 +112,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:109260
+Defined in: main.ts:109316
 
 relevant URL of the Ad element in SERP
 

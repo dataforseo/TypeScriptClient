@@ -6,7 +6,7 @@
 
 # Interface: IAppDataAppleAppListingsSearchLiveTaskInfo
 
-Defined in: main.ts:209316
+Defined in: main.ts:209818
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`AppDataAppleAppListingsSearchLiveResultInfo`](../classes/AppDataAppleAppListingsSearchLiveResultInfo.md)[]
 
-Defined in: main.ts:209318
+Defined in: main.ts:209820
 
 array of results
 

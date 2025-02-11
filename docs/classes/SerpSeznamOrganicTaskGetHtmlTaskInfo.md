@@ -6,7 +6,7 @@
 
 # Class: SerpSeznamOrganicTaskGetHtmlTaskInfo
 
-Defined in: main.ts:84228
+Defined in: main.ts:84264
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:84228
 
 > **new SerpSeznamOrganicTaskGetHtmlTaskInfo**(`data`?): [`SerpSeznamOrganicTaskGetHtmlTaskInfo`](SerpSeznamOrganicTaskGetHtmlTaskInfo.md)
 
-Defined in: main.ts:84234
+Defined in: main.ts:84270
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpSeznamOrganicTaskGetHtmlResultInfo`](SerpSeznamOrganicTaskGetHtmlResultInfo.md)[]
 
-Defined in: main.ts:84230
+Defined in: main.ts:84266
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:84238
+Defined in: main.ts:84274
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:84238
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:84260
+Defined in: main.ts:84296
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:84260
 
 > `static` **fromJS**(`data`): [`SerpSeznamOrganicTaskGetHtmlTaskInfo`](SerpSeznamOrganicTaskGetHtmlTaskInfo.md)
 
-Defined in: main.ts:84253
+Defined in: main.ts:84289
 
 #### Parameters
 

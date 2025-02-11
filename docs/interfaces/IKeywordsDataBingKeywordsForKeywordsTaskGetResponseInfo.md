@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingKeywordsForKeywordsTaskGetResponseInfo
 
-Defined in: main.ts:143663
+Defined in: main.ts:143827
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataBingKeywordsForKeywordsTaskGetTaskInfo`](../classes/KeywordsDataBingKeywordsForKeywordsTaskGetTaskInfo.md)[]
 
-Defined in: main.ts:143665
+Defined in: main.ts:143829
 
 array of tasks
 

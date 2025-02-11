@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo
 
-Defined in: main.ts:145984
+Defined in: main.ts:146148
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:145984
 
 > **new KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo**(`data`?): [`KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo`](KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md)
 
-Defined in: main.ts:146096
+Defined in: main.ts:146260
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:146096
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:146051
+Defined in: main.ts:146215
 
 starting date of the time range
 optional field
@@ -65,7 +65,7 @@ with value daily, you will get results for the past 45 days
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:146064
+Defined in: main.ts:146228
 
 ending date of the time range
 optional field
@@ -90,7 +90,7 @@ with value daily, you will get results for the past 45 days
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:146029
+Defined in: main.ts:146193
 
 device type
 optional field
@@ -108,7 +108,7 @@ default value:  mobile, desktop, tablet, non_smartphones
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:145991
+Defined in: main.ts:146155
 
 keywords
 required field
@@ -127,7 +127,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:146023
+Defined in: main.ts:146187
 
 search engine language code
 required field if you don’t specify language_name
@@ -144,7 +144,7 @@ you can receive the list of available languages of the search engines with their
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:146018
+Defined in: main.ts:146182
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -161,7 +161,7 @@ you can receive the list of available languages of the search engines with their
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:146005
+Defined in: main.ts:146169
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -180,7 +180,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:146013
+Defined in: main.ts:146177
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -200,7 +200,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:145998
+Defined in: main.ts:146162
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -219,7 +219,7 @@ London,England,United Kingdom
 
 > `optional` **period**: `string`
 
-Defined in: main.ts:146038
+Defined in: main.ts:146202
 
 aggregates the returned data to a certain time period
 optional field
@@ -240,7 +240,7 @@ default value:  monthly
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:146086
+Defined in: main.ts:146250
 
 notification URL of a completed task
 optional field
@@ -263,7 +263,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:146075
+Defined in: main.ts:146239
 
 return URL for sending task results
 optional field
@@ -286,7 +286,7 @@ learn more on our Help Center
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:146092
+Defined in: main.ts:146256
 
 user-defined task identifier
 optional field
@@ -304,7 +304,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:146105
+Defined in: main.ts:146269
 
 #### Parameters
 
@@ -322,7 +322,7 @@ Defined in: main.ts:146105
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:146138
+Defined in: main.ts:146302
 
 #### Parameters
 
@@ -340,7 +340,7 @@ Defined in: main.ts:146138
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo`](KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md)
 
-Defined in: main.ts:146131
+Defined in: main.ts:146295
 
 #### Parameters
 

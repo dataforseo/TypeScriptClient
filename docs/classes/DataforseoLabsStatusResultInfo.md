@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsStatusResultInfo
 
-Defined in: main.ts:90326
+Defined in: main.ts:90362
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:90326
 
 > **new DataforseoLabsStatusResultInfo**(`data`?): [`DataforseoLabsStatusResultInfo`](DataforseoLabsStatusResultInfo.md)
 
-Defined in: main.ts:90336
+Defined in: main.ts:90372
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:90336
 
 > `optional` **amazon**: [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
 
-Defined in: main.ts:90332
+Defined in: main.ts:90368
 
 update information for the Amazon endpoints
 
@@ -54,7 +54,7 @@ update information for the Amazon endpoints
 
 > `optional` **bing**: [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
 
-Defined in: main.ts:90330
+Defined in: main.ts:90366
 
 update information for the Bing endpoints
 
@@ -68,7 +68,7 @@ update information for the Bing endpoints
 
 > `optional` **google**: [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
 
-Defined in: main.ts:90328
+Defined in: main.ts:90364
 
 update information for the Google endpoints
 
@@ -82,7 +82,7 @@ update information for the Google endpoints
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:90345
+Defined in: main.ts:90381
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:90345
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:90364
+Defined in: main.ts:90400
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:90364
 
 > `static` **fromJS**(`data`): [`DataforseoLabsStatusResultInfo`](DataforseoLabsStatusResultInfo.md)
 
-Defined in: main.ts:90357
+Defined in: main.ts:90393
 
 #### Parameters
 

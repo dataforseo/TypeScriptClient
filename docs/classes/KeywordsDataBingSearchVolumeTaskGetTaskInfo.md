@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingSearchVolumeTaskGetTaskInfo
 
-Defined in: main.ts:139272
+Defined in: main.ts:139436
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:139272
 
 > **new KeywordsDataBingSearchVolumeTaskGetTaskInfo**(`data`?): [`KeywordsDataBingSearchVolumeTaskGetTaskInfo`](KeywordsDataBingSearchVolumeTaskGetTaskInfo.md)
 
-Defined in: main.ts:139278
+Defined in: main.ts:139442
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataBingSearchVolumeTaskGetResultInfo`](KeywordsDataBingSearchVolumeTaskGetResultInfo.md)[]
 
-Defined in: main.ts:139274
+Defined in: main.ts:139438
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:139282
+Defined in: main.ts:139446
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:139282
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:139304
+Defined in: main.ts:139468
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:139304
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingSearchVolumeTaskGetTaskInfo`](KeywordsDataBingSearchVolumeTaskGetTaskInfo.md)
 
-Defined in: main.ts:139297
+Defined in: main.ts:139461
 
 #### Parameters
 

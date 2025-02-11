@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo
 
-Defined in: main.ts:100834
+Defined in: main.ts:100862
 
 ## Indexable
 
@@ -18,14 +18,14 @@ Defined in: main.ts:100834
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:100941
+Defined in: main.ts:100969
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, <=, >, >=, =, <>, in, not_in, ilike, not_ilike, like, not_like
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, match, not_match, ilike, not_ilike, like, not_like
 you can use the % operator with like and not_like, as well as ilike and not_ilike to match any string of zero or more characters
 example:
 ["ranked_serp_element.serp_item.rank_group","<=",10]
@@ -35,7 +35,7 @@ example:
 [["keyword_data.keyword_info.search_volume","<>",0],
 "and",
 [["ranked_serp_element.serp_item.type","<>","paid"],"or",["ranked_serp_element.serp_item.is_malicious","=",false]]]
-if you want to get the keywords a particular webpage ranks for, specify the filter by the ranked_serp_element.serp_item.relative_url parameter
+if you want to get the keywords a particular webpage ranks for, you can use a target field or filter by the ranked_serp_element.serp_item.relative_url parameter
 example:
 ["ranked_serp_element.serp_item.relative_url", "=", "/apis/rank-tracker-api"]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
@@ -46,7 +46,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **historical\_serp\_mode**: `string`
 
-Defined in: main.ts:100921
+Defined in: main.ts:100949
 
 data collection mode
 optional field
@@ -63,7 +63,7 @@ default value: live
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:100881
+Defined in: main.ts:100909
 
 ignore highly similar keywords
 optional field
@@ -76,7 +76,7 @@ default value: false
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
-Defined in: main.ts:100897
+Defined in: main.ts:100925
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -91,7 +91,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:100890
+Defined in: main.ts:100918
 
 display results by item type
 optional field
@@ -108,7 +108,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:100876
+Defined in: main.ts:100904
 
 language code
 optional field
@@ -125,7 +125,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:100867
+Defined in: main.ts:100895
 
 full name of the language
 optional field
@@ -142,7 +142,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:100902
+Defined in: main.ts:100930
 
 the maximum number of returned keywords
 optional field
@@ -155,7 +155,7 @@ maximum value: 1000
 
 > `optional` **load\_rank\_absolute**: `boolean`
 
-Defined in: main.ts:100912
+Defined in: main.ts:100940
 
 return rankings distribution by rank_absolute
 optional field
@@ -168,7 +168,7 @@ if set to true, we will return the field metrics_absolute containing rankings di
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:100858
+Defined in: main.ts:100886
 
 location code
 optional field
@@ -185,7 +185,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:100849
+Defined in: main.ts:100877
 
 full name of the location
 optional field
@@ -202,7 +202,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:100907
+Defined in: main.ts:100935
 
 offset in the results array of returned keywords
 optional field
@@ -215,7 +215,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:100957
+Defined in: main.ts:100985
 
 results sorting rules
 optional field
@@ -239,7 +239,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:100963
+Defined in: main.ts:100991
 
 user-defined task identifier
 optional field
@@ -253,7 +253,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:100840
+Defined in: main.ts:100868
 
 domain name or page url
 required field

@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleSearchByImageTasksFixedResponseInfo
 
-Defined in: main.ts:53335
+Defined in: main.ts:53351
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:53335
 
 > **new SerpGoogleSearchByImageTasksFixedResponseInfo**(`data`?): [`SerpGoogleSearchByImageTasksFixedResponseInfo`](SerpGoogleSearchByImageTasksFixedResponseInfo.md)
 
-Defined in: main.ts:53341
+Defined in: main.ts:53357
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleSearchByImageTasksFixedTaskInfo`](SerpGoogleSearchByImageTasksFixedTaskInfo.md)[]
 
-Defined in: main.ts:53337
+Defined in: main.ts:53353
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:53345
+Defined in: main.ts:53361
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:53345
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:53367
+Defined in: main.ts:53383
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:53367
 
 > `static` **fromJS**(`data`): [`SerpGoogleSearchByImageTasksFixedResponseInfo`](SerpGoogleSearchByImageTasksFixedResponseInfo.md)
 
-Defined in: main.ts:53360
+Defined in: main.ts:53376
 
 #### Parameters
 

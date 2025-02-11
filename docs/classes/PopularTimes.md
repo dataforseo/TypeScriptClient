@@ -6,7 +6,7 @@
 
 # Class: PopularTimes
 
-Defined in: main.ts:211106
+Defined in: main.ts:211608
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:211106
 
 > **new PopularTimes**(`data`?): [`PopularTimes`](PopularTimes.md)
 
-Defined in: main.ts:211113
+Defined in: main.ts:211615
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:211113
 
 > `optional` **popular\_times\_by\_days**: `object`
 
-Defined in: main.ts:211109
+Defined in: main.ts:211611
 
 popular hours
 information about busy hours of the local establishment on each day of the week
@@ -59,7 +59,7 @@ information about busy hours of the local establishment on each day of the week
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:211122
+Defined in: main.ts:211624
 
 #### Parameters
 
@@ -77,7 +77,7 @@ Defined in: main.ts:211122
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:211145
+Defined in: main.ts:211647
 
 #### Parameters
 
@@ -95,7 +95,7 @@ Defined in: main.ts:211145
 
 > `static` **fromJS**(`data`): [`PopularTimes`](PopularTimes.md)
 
-Defined in: main.ts:211138
+Defined in: main.ts:211640
 
 #### Parameters
 

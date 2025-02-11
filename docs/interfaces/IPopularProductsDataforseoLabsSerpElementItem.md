@@ -6,7 +6,7 @@
 
 # Interface: IPopularProductsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108808
+Defined in: main.ts:108864
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:108808
 
 > `optional` **items**: [`PopularProductsElement`](../classes/PopularProductsElement.md)[]
 
-Defined in: main.ts:108810
+Defined in: main.ts:108866
 
 elements of search results found in SERP
 

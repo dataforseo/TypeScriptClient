@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleEventsTaskPostTaskInfo
 
-Defined in: main.ts:48258
+Defined in: main.ts:48274
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:48261
+Defined in: main.ts:48277
 
 array of results
 in this case, the value will be null

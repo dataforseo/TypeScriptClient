@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesTaskInfo
 
-Defined in: main.ts:145874
+Defined in: main.ts:146038
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:145874
 
 > **new KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesTaskInfo**(`data`?): [`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesTaskInfo`](KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesTaskInfo.md)
 
-Defined in: main.ts:145880
+Defined in: main.ts:146044
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo`](KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo.md)[]
 
-Defined in: main.ts:145876
+Defined in: main.ts:146040
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:145884
+Defined in: main.ts:146048
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:145884
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:145906
+Defined in: main.ts:146070
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:145906
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesTaskInfo`](KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesTaskInfo.md)
 
-Defined in: main.ts:145899
+Defined in: main.ts:146063
 
 #### Parameters
 

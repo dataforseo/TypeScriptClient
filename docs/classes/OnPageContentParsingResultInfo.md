@@ -6,7 +6,7 @@
 
 # Class: OnPageContentParsingResultInfo
 
-Defined in: main.ts:173634
+Defined in: main.ts:173086
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:173634
 
 > **new OnPageContentParsingResultInfo**(`data`?): [`OnPageContentParsingResultInfo`](OnPageContentParsingResultInfo.md)
 
-Defined in: main.ts:173647
+Defined in: main.ts:173099
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:173647
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:173637
+Defined in: main.ts:173089
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:173639
+Defined in: main.ts:173091
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`OnPageContentParsingItem`](OnPageContentParsingItem.md)[]
 
-Defined in: main.ts:173643
+Defined in: main.ts:173095
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:173641
+Defined in: main.ts:173093
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:173656
+Defined in: main.ts:173108
 
 #### Parameters
 
@@ -115,7 +115,7 @@ Defined in: main.ts:173656
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:173680
+Defined in: main.ts:173132
 
 #### Parameters
 
@@ -133,7 +133,7 @@ Defined in: main.ts:173680
 
 > `static` **fromJS**(`data`): [`OnPageContentParsingResultInfo`](OnPageContentParsingResultInfo.md)
 
-Defined in: main.ts:173673
+Defined in: main.ts:173125
 
 #### Parameters
 

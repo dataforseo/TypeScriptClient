@@ -6,7 +6,7 @@
 
 # Class: ProductInformationDetailsItem
 
-Defined in: main.ts:194154
+Defined in: main.ts:194642
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:194154
 
 > **new ProductInformationDetailsItem**(`data`?): [`ProductInformationDetailsItem`](ProductInformationDetailsItem.md)
 
-Defined in: main.ts:194160
+Defined in: main.ts:194648
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:24257
 
 > `optional` **body**: `object`
 
-Defined in: main.ts:194156
+Defined in: main.ts:194644
 
 contains information specified about the product within the section_name
 
@@ -114,7 +114,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:194165
+Defined in: main.ts:194653
 
 #### Parameters
 
@@ -136,7 +136,7 @@ Defined in: main.ts:194165
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:194189
+Defined in: main.ts:194677
 
 #### Parameters
 
@@ -158,7 +158,7 @@ Defined in: main.ts:194189
 
 > `static` **fromJS**(`data`): [`ProductInformationDetailsItem`](ProductInformationDetailsItem.md)
 
-Defined in: main.ts:194182
+Defined in: main.ts:194670
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsBulkTrafficEstimationLiveItem
 
-Defined in: main.ts:110945
+Defined in: main.ts:111013
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:110945
 
 > `optional` **metrics**: `object`
 
-Defined in: main.ts:110951
+Defined in: main.ts:111019
 
 traffic data relevant to the specified domain
 
@@ -32,7 +32,7 @@ traffic data relevant to the specified domain
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:110947
+Defined in: main.ts:111015
 
 search engine type
 
@@ -42,6 +42,6 @@ search engine type
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:110949
+Defined in: main.ts:111017
 
 target domain in a POST array

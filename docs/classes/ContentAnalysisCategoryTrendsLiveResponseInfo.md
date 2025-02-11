@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisCategoryTrendsLiveResponseInfo
 
-Defined in: main.ts:181045
+Defined in: main.ts:181407
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:181045
 
 > **new ContentAnalysisCategoryTrendsLiveResponseInfo**(`data`?): [`ContentAnalysisCategoryTrendsLiveResponseInfo`](ContentAnalysisCategoryTrendsLiveResponseInfo.md)
 
-Defined in: main.ts:181051
+Defined in: main.ts:181413
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`ContentAnalysisCategoryTrendsLiveTaskInfo`](ContentAnalysisCategoryTrendsLiveTaskInfo.md)[]
 
-Defined in: main.ts:181047
+Defined in: main.ts:181409
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:181055
+Defined in: main.ts:181417
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:181055
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:181077
+Defined in: main.ts:181439
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:181077
 
 > `static` **fromJS**(`data`): [`ContentAnalysisCategoryTrendsLiveResponseInfo`](ContentAnalysisCategoryTrendsLiveResponseInfo.md)
 
-Defined in: main.ts:181070
+Defined in: main.ts:181432
 
 #### Parameters
 

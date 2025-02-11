@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo
 
-Defined in: main.ts:148117
+Defined in: main.ts:148281
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:148117
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:148127
+Defined in: main.ts:148291
 
 target keywords
 required field
@@ -36,7 +36,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:148133
+Defined in: main.ts:148297
 
 user-defined task identifier
 optional field

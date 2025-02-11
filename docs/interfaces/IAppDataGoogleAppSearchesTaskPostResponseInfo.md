@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleAppSearchesTaskPostResponseInfo
 
-Defined in: main.ts:199617
+Defined in: main.ts:200119
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataGoogleAppSearchesTaskPostTaskInfo`](../classes/AppDataGoogleAppSearchesTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:199619
+Defined in: main.ts:200121
 
 array of tasks
 

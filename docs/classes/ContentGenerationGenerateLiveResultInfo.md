@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationGenerateLiveResultInfo
 
-Defined in: main.ts:181372
+Defined in: main.ts:181734
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:181372
 
 > **new ContentGenerationGenerateLiveResultInfo**(`data`?): [`ContentGenerationGenerateLiveResultInfo`](ContentGenerationGenerateLiveResultInfo.md)
 
-Defined in: main.ts:181388
+Defined in: main.ts:181750
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:181388
 
 > `optional` **generated\_text**: `string`
 
-Defined in: main.ts:181380
+Defined in: main.ts:181742
 
 resulting text
 
@@ -54,7 +54,7 @@ resulting text
 
 > `optional` **input\_tokens**: `number`
 
-Defined in: main.ts:181374
+Defined in: main.ts:181736
 
 number of input tokens
 
@@ -68,7 +68,7 @@ number of input tokens
 
 > `optional` **new\_tokens**: `number`
 
-Defined in: main.ts:181378
+Defined in: main.ts:181740
 
 number of new tokens
 
@@ -82,7 +82,7 @@ number of new tokens
 
 > `optional` **output\_tokens**: `number`
 
-Defined in: main.ts:181376
+Defined in: main.ts:181738
 
 number of output tokens
 
@@ -96,7 +96,7 @@ number of output tokens
 
 > `optional` **supplement\_token**: `string`
 
-Defined in: main.ts:181384
+Defined in: main.ts:181746
 
 token for generating subsequent results
 you can use this parameter to continue the generation from the end of the current result;
@@ -112,7 +112,7 @@ supplement_token values are unique for each subsequent task
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:181397
+Defined in: main.ts:181759
 
 #### Parameters
 
@@ -130,7 +130,7 @@ Defined in: main.ts:181397
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:181418
+Defined in: main.ts:181780
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:181418
 
 > `static` **fromJS**(`data`): [`ContentGenerationGenerateLiveResultInfo`](ContentGenerationGenerateLiveResultInfo.md)
 
-Defined in: main.ts:181411
+Defined in: main.ts:181773
 
 #### Parameters
 

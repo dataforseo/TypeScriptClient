@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAppleKeywordsForAppLiveTaskInfo
 
-Defined in: main.ts:123972
+Defined in: main.ts:124088
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:123972
 
 > **new DataforseoLabsAppleKeywordsForAppLiveTaskInfo**(`data`?): [`DataforseoLabsAppleKeywordsForAppLiveTaskInfo`](DataforseoLabsAppleKeywordsForAppLiveTaskInfo.md)
 
-Defined in: main.ts:123978
+Defined in: main.ts:124094
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsAppleKeywordsForAppLiveResultInfo`](DataforseoLabsAppleKeywordsForAppLiveResultInfo.md)[]
 
-Defined in: main.ts:123974
+Defined in: main.ts:124090
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:123982
+Defined in: main.ts:124098
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:123982
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:124004
+Defined in: main.ts:124120
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:124004
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAppleKeywordsForAppLiveTaskInfo`](DataforseoLabsAppleKeywordsForAppLiveTaskInfo.md)
 
-Defined in: main.ts:123997
+Defined in: main.ts:124113
 
 #### Parameters
 

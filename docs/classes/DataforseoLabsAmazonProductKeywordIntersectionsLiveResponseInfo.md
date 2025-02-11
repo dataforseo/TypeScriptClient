@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonProductKeywordIntersectionsLiveResponseInfo
 
-Defined in: main.ts:115233
+Defined in: main.ts:115301
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:115233
 
 > **new DataforseoLabsAmazonProductKeywordIntersectionsLiveResponseInfo**(`data`?): [`DataforseoLabsAmazonProductKeywordIntersectionsLiveResponseInfo`](DataforseoLabsAmazonProductKeywordIntersectionsLiveResponseInfo.md)
 
-Defined in: main.ts:115239
+Defined in: main.ts:115307
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsAmazonProductKeywordIntersectionsLiveTaskInfo`](DataforseoLabsAmazonProductKeywordIntersectionsLiveTaskInfo.md)[]
 
-Defined in: main.ts:115235
+Defined in: main.ts:115303
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:115243
+Defined in: main.ts:115311
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:115243
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:115265
+Defined in: main.ts:115333
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:115265
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAmazonProductKeywordIntersectionsLiveResponseInfo`](DataforseoLabsAmazonProductKeywordIntersectionsLiveResponseInfo.md)
 
-Defined in: main.ts:115258
+Defined in: main.ts:115326
 
 #### Parameters
 

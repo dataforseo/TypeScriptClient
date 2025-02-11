@@ -6,7 +6,7 @@
 
 # Class: SearchIntentInfo
 
-Defined in: main.ts:93200
+Defined in: main.ts:93246
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:93200
 
 > **new SearchIntentInfo**(`data`?): [`SearchIntentInfo`](SearchIntentInfo.md)
 
-Defined in: main.ts:93218
+Defined in: main.ts:93264
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:93218
 
 > `optional` **foreign\_intent**: `string`[]
 
-Defined in: main.ts:93209
+Defined in: main.ts:93255
 
 supplementary search intents
 possible values: informational, navigational, commercial, transactional
@@ -55,7 +55,7 @@ possible values: informational, navigational, commercial, transactional
 
 > `optional` **last\_updated\_time**: `string`
 
-Defined in: main.ts:93214
+Defined in: main.ts:93260
 
 date and time when the dataset was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **main\_intent**: `string`
 
-Defined in: main.ts:93206
+Defined in: main.ts:93252
 
 main search intent
 possible values: informational, navigational, commercial, transactional
@@ -87,7 +87,7 @@ possible values: informational, navigational, commercial, transactional
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:93203
+Defined in: main.ts:93249
 
 search engine type
 possible values: google
@@ -102,7 +102,7 @@ possible values: google
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:93227
+Defined in: main.ts:93273
 
 #### Parameters
 
@@ -120,7 +120,7 @@ Defined in: main.ts:93227
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:93251
+Defined in: main.ts:93297
 
 #### Parameters
 
@@ -138,7 +138,7 @@ Defined in: main.ts:93251
 
 > `static` **fromJS**(`data`): [`SearchIntentInfo`](SearchIntentInfo.md)
 
-Defined in: main.ts:93244
+Defined in: main.ts:93290
 
 #### Parameters
 

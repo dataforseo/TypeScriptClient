@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingKeywordPerformanceLiveTaskInfo
 
-Defined in: main.ts:145742
+Defined in: main.ts:145906
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataBingKeywordPerformanceLiveResultInfo`](../classes/KeywordsDataBingKeywordPerformanceLiveResultInfo.md)[]
 
-Defined in: main.ts:145744
+Defined in: main.ts:145908
 
 array of results
 

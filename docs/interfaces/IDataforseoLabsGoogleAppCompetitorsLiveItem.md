@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleAppCompetitorsLiveItem
 
-Defined in: main.ts:122374
+Defined in: main.ts:122490
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:122374
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:122378
+Defined in: main.ts:122494
 
 id of the competitor app
 
@@ -28,7 +28,7 @@ id of the competitor app
 
 > `optional` **avg\_position**: `number`
 
-Defined in: main.ts:122382
+Defined in: main.ts:122498
 
 average position of the app in Google Play SERP
 Note: average position is calculated for intersected keywords only;
@@ -40,7 +40,7 @@ the value for a given application may differ when combined with different target
 
 > `optional` **competitor\_metrics**: [`GooglePlayMetricsBundleInfo`](../classes/GooglePlayMetricsBundleInfo.md)
 
-Defined in: main.ts:122392
+Defined in: main.ts:122508
 
 metrics for intersecting keywords
 ranking data relevant to the keywords that the provided competitor application shares with the app in a POST request;
@@ -52,7 +52,7 @@ note: in this array ranking data is provided for the returned competitor’s app
 
 > `optional` **full\_metrics**: [`GooglePlayMetricsBundleInfo`](../classes/GooglePlayMetricsBundleInfo.md)
 
-Defined in: main.ts:122395
+Defined in: main.ts:122511
 
 metrics for all keywords of the application
 full overview of ranking data relevant to all keywords that the provided app_id is ranking for
@@ -63,7 +63,7 @@ full overview of ranking data relevant to all keywords that the provided app_id 
 
 > `optional` **intersections**: `number`
 
-Defined in: main.ts:122388
+Defined in: main.ts:122504
 
 number of intersecting keywords
 
@@ -73,7 +73,7 @@ number of intersecting keywords
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:122376
+Defined in: main.ts:122492
 
 search engine type
 
@@ -83,7 +83,7 @@ search engine type
 
 > `optional` **sum\_position**: `number`
 
-Defined in: main.ts:122386
+Defined in: main.ts:122502
 
 sum of all app positions in Google Play SERP
 Note: sum position is calculated for intersected keywords only;

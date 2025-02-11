@@ -6,7 +6,7 @@
 
 # Class: MerchantTasksReadyTaskInfo
 
-Defined in: main.ts:186020
+Defined in: main.ts:186382
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:186020
 
 > **new MerchantTasksReadyTaskInfo**(`data`?): [`MerchantTasksReadyTaskInfo`](MerchantTasksReadyTaskInfo.md)
 
-Defined in: main.ts:186026
+Defined in: main.ts:186388
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`MerchantTasksReadyResultInfo`](MerchantTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:186022
+Defined in: main.ts:186384
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:186030
+Defined in: main.ts:186392
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:186030
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:186052
+Defined in: main.ts:186414
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:186052
 
 > `static` **fromJS**(`data`): [`MerchantTasksReadyTaskInfo`](MerchantTasksReadyTaskInfo.md)
 
-Defined in: main.ts:186045
+Defined in: main.ts:186407
 
 #### Parameters
 

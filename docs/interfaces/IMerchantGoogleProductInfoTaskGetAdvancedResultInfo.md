@@ -6,7 +6,7 @@
 
 # Interface: IMerchantGoogleProductInfoTaskGetAdvancedResultInfo
 
-Defined in: main.ts:190853
+Defined in: main.ts:191259
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:190853
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:190867
+Defined in: main.ts:191273
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -29,7 +29,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:190872
+Defined in: main.ts:191278
 
 date and time when the result was received
 in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
@@ -42,7 +42,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:190876
+Defined in: main.ts:191282
 
 types of items found on the product specification page
 possible item types:
@@ -54,7 +54,7 @@ product_info_element
 
 > `optional` **items**: [`BaseMerchantSerpElementItem`](../classes/BaseMerchantSerpElementItem.md)[]
 
-Defined in: main.ts:190881
+Defined in: main.ts:191287
 
 items on the product page
 contains all product attributes and related data listed on the product page
@@ -65,7 +65,7 @@ contains all product attributes and related data listed on the product page
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:190878
+Defined in: main.ts:191284
 
 the number of results returned in the items array
 
@@ -75,7 +75,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:190864
+Defined in: main.ts:191270
 
 language code in a POST array
 
@@ -85,7 +85,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:190862
+Defined in: main.ts:191268
 
 location code in a POST array
 
@@ -95,7 +95,7 @@ location code in a POST array
 
 > `optional` **product\_id**: `string`
 
-Defined in: main.ts:190856
+Defined in: main.ts:191262
 
 product ID in a POST array
 learn more about the parameter in this help center guide
@@ -106,7 +106,7 @@ learn more about the parameter in this help center guide
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:190860
+Defined in: main.ts:191266
 
 search engine domain in a POST array
 
@@ -116,6 +116,6 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:190858
+Defined in: main.ts:191264
 
 type of element

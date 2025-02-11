@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleLanguagesResponseInfo
 
-Defined in: main.ts:205213
+Defined in: main.ts:205715
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:205213
 
 > **new AppDataAppleLanguagesResponseInfo**(`data`?): [`AppDataAppleLanguagesResponseInfo`](AppDataAppleLanguagesResponseInfo.md)
 
-Defined in: main.ts:205219
+Defined in: main.ts:205721
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataAppleLanguagesTaskInfo`](AppDataAppleLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:205215
+Defined in: main.ts:205717
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:205223
+Defined in: main.ts:205725
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:205223
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:205245
+Defined in: main.ts:205747
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:205245
 
 > `static` **fromJS**(`data`): [`AppDataAppleLanguagesResponseInfo`](AppDataAppleLanguagesResponseInfo.md)
 
-Defined in: main.ts:205238
+Defined in: main.ts:205740
 
 #### Parameters
 

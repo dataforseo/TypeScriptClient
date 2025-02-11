@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleEventsLiveAdvancedTaskInfo
 
-Defined in: main.ts:49755
+Defined in: main.ts:49771
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:49755
 
 > **new SerpGoogleEventsLiveAdvancedTaskInfo**(`data`?): [`SerpGoogleEventsLiveAdvancedTaskInfo`](SerpGoogleEventsLiveAdvancedTaskInfo.md)
 
-Defined in: main.ts:49761
+Defined in: main.ts:49777
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleEventsLiveAdvancedResultInfo`](SerpGoogleEventsLiveAdvancedResultInfo.md)[]
 
-Defined in: main.ts:49757
+Defined in: main.ts:49773
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:49765
+Defined in: main.ts:49781
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:49765
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:49787
+Defined in: main.ts:49803
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:49787
 
 > `static` **fromJS**(`data`): [`SerpGoogleEventsLiveAdvancedTaskInfo`](SerpGoogleEventsLiveAdvancedTaskInfo.md)
 
-Defined in: main.ts:49780
+Defined in: main.ts:49796
 
 #### Parameters
 

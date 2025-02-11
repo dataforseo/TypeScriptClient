@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphShoppingItemSerpElementItem
 
-Defined in: main.ts:30541
+Defined in: main.ts:30547
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:30541
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:30547
+Defined in: main.ts:30553
 
 google defined data attribute ID
 example:
@@ -34,7 +34,7 @@ kc:/shopping/gpc:organic-offers
 
 > `optional` **items**: [`KnowledgeGraphShoppingElement`](../classes/KnowledgeGraphShoppingElement.md)[]
 
-Defined in: main.ts:30550
+Defined in: main.ts:30556
 
 additional items present in the element
 if there are none, equals null
@@ -92,7 +92,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:30554
+Defined in: main.ts:30560
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -104,7 +104,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:30543
+Defined in: main.ts:30549
 
 title of the place
 

@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsTechnologiesLocationsResultInfo
 
-Defined in: main.ts:85289
+Defined in: main.ts:85325
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:85289
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:85293
+Defined in: main.ts:85329
 
 ISO country code of the location
 
@@ -28,6 +28,6 @@ ISO country code of the location
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:85291
+Defined in: main.ts:85327
 
 full name of the location

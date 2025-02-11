@@ -6,7 +6,7 @@
 
 # Interface: IOnPageAvailableFiltersResponseInfo
 
-Defined in: main.ts:164102
+Defined in: main.ts:164266
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageAvailableFiltersTaskInfo`](../classes/OnPageAvailableFiltersTaskInfo.md)[]
 
-Defined in: main.ts:164103
+Defined in: main.ts:164267
 
 ***
 

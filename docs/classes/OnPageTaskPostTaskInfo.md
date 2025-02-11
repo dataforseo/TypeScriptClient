@@ -6,7 +6,7 @@
 
 # Class: OnPageTaskPostTaskInfo
 
-Defined in: main.ts:164898
+Defined in: main.ts:165062
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:164898
 
 > **new OnPageTaskPostTaskInfo**(`data`?): [`OnPageTaskPostTaskInfo`](OnPageTaskPostTaskInfo.md)
 
-Defined in: main.ts:164905
+Defined in: main.ts:165069
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:164901
+Defined in: main.ts:165065
 
 array of results
 in this case, the value will be null
@@ -215,7 +215,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:164909
+Defined in: main.ts:165073
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:164909
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:164927
+Defined in: main.ts:165091
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:164927
 
 > `static` **fromJS**(`data`): [`OnPageTaskPostTaskInfo`](OnPageTaskPostTaskInfo.md)
 
-Defined in: main.ts:164920
+Defined in: main.ts:165084
 
 #### Parameters
 

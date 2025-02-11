@@ -6,7 +6,7 @@
 
 # Class: OnPageDuplicateTagsTaskInfo
 
-Defined in: main.ts:168746
+Defined in: main.ts:168910
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:168746
 
 > **new OnPageDuplicateTagsTaskInfo**(`data`?): [`OnPageDuplicateTagsTaskInfo`](OnPageDuplicateTagsTaskInfo.md)
 
-Defined in: main.ts:168752
+Defined in: main.ts:168916
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`OnPageDuplicateTagsResultInfo`](OnPageDuplicateTagsResultInfo.md)[]
 
-Defined in: main.ts:168748
+Defined in: main.ts:168912
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:168756
+Defined in: main.ts:168920
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:168756
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:168778
+Defined in: main.ts:168942
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:168778
 
 > `static` **fromJS**(`data`): [`OnPageDuplicateTagsTaskInfo`](OnPageDuplicateTagsTaskInfo.md)
 
-Defined in: main.ts:168771
+Defined in: main.ts:168935
 
 #### Parameters
 

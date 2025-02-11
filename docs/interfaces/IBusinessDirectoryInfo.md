@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDirectoryInfo
 
-Defined in: main.ts:214062
+Defined in: main.ts:214564
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:214062
 
 > `optional` **items**: [`BaseBusinessDataSerpElementItem`](../classes/BaseBusinessDataSerpElementItem.md)[]
 
-Defined in: main.ts:214069
+Defined in: main.ts:214571
 
 encountered item types
 types of search engine results encountered in the items array;
@@ -30,7 +30,7 @@ possible item types: google_business_info
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:214065
+Defined in: main.ts:214567
 
 title of the element
 domain of the online menu system

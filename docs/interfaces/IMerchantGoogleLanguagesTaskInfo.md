@@ -6,7 +6,7 @@
 
 # Interface: IMerchantGoogleLanguagesTaskInfo
 
-Defined in: main.ts:184802
+Defined in: main.ts:185164
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`MerchantGoogleLanguagesResultInfo`](../classes/MerchantGoogleLanguagesResultInfo.md)[]
 
-Defined in: main.ts:184804
+Defined in: main.ts:185166
 
 array of results
 

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingRankedKeywordsLiveRequestInfo
 
-Defined in: main.ts:118160
+Defined in: main.ts:118252
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:118160
 
 > **new DataforseoLabsBingRankedKeywordsLiveRequestInfo**(`data`?): [`DataforseoLabsBingRankedKeywordsLiveRequestInfo`](DataforseoLabsBingRankedKeywordsLiveRequestInfo.md)
 
-Defined in: main.ts:118288
+Defined in: main.ts:118380
 
 #### Parameters
 
@@ -40,14 +40,14 @@ Defined in: main.ts:118288
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:118262
+Defined in: main.ts:118354
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, <=, >, >=, =, <>, in, not_in, ilike, not_ilike, like, not_like
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, ilike, not_ilike, like, not_like, match, not_match
 you can use the % operator with like and not_like, as well as ilike and not_ilike to match any string of zero or more characters
 example:
 ["ranked_serp_element.serp_item.rank_group","<=",10]
@@ -72,7 +72,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **historical\_serp\_mode**: `string`
 
-Defined in: main.ts:118242
+Defined in: main.ts:118334
 
 data collection mode
 optional field
@@ -93,7 +93,7 @@ default value: live
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:118218
+Defined in: main.ts:118310
 
 ignore highly similar keywords
 optional field
@@ -110,7 +110,7 @@ default value: false
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:118213
+Defined in: main.ts:118305
 
 display results by item type
 optional field
@@ -131,7 +131,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:118204
+Defined in: main.ts:118296
 
 language code
 optional field
@@ -152,7 +152,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:118195
+Defined in: main.ts:118287
 
 full name of the language
 optional field
@@ -173,7 +173,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:118223
+Defined in: main.ts:118315
 
 the maximum number of returned keywords
 optional field
@@ -190,7 +190,7 @@ maximum value: 1000
 
 > `optional` **load\_rank\_absolute**: `boolean`
 
-Defined in: main.ts:118233
+Defined in: main.ts:118325
 
 return rankings distribution by rank_absolute
 optional field
@@ -207,7 +207,7 @@ if set to true, we will return the field metrics_absolute containing rankings di
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:118186
+Defined in: main.ts:118278
 
 location code
 optional field
@@ -229,7 +229,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:118176
+Defined in: main.ts:118268
 
 full name of the location
 optional field
@@ -251,7 +251,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:118228
+Defined in: main.ts:118320
 
 offset in the results array of returned keywords
 optional field
@@ -268,7 +268,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:118278
+Defined in: main.ts:118370
 
 results sorting rules
 optional field
@@ -296,7 +296,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:118284
+Defined in: main.ts:118376
 
 user-defined task identifier
 optional field
@@ -314,7 +314,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:118166
+Defined in: main.ts:118258
 
 domain name or page url
 required field
@@ -332,7 +332,7 @@ the webpage URL must be specified with https:// or www.
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:118297
+Defined in: main.ts:118389
 
 #### Parameters
 
@@ -350,7 +350,7 @@ Defined in: main.ts:118297
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:118339
+Defined in: main.ts:118431
 
 #### Parameters
 
@@ -368,7 +368,7 @@ Defined in: main.ts:118339
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingRankedKeywordsLiveRequestInfo`](DataforseoLabsBingRankedKeywordsLiveRequestInfo.md)
 
-Defined in: main.ts:118332
+Defined in: main.ts:118424
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: HotelPriceInfo
 
-Defined in: main.ts:217210
+Defined in: main.ts:217712
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:217210
 
 > **new HotelPriceInfo**(`data`?): [`HotelPriceInfo`](HotelPriceInfo.md)
 
-Defined in: main.ts:217239
+Defined in: main.ts:217741
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:217239
 
 > `optional` **check\_in**: `string`
 
-Defined in: main.ts:217224
+Defined in: main.ts:217726
 
 check-in date and time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **check\_out**: `string`
 
-Defined in: main.ts:217229
+Defined in: main.ts:217731
 
 check-out date and time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -74,7 +74,7 @@ example:
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:217217
+Defined in: main.ts:217719
 
 price currency
 USD is applied by default, unless specified in the POST array
@@ -89,7 +89,7 @@ USD is applied by default, unless specified in the POST array
 
 > `optional` **discount\_text**: `string`
 
-Defined in: main.ts:217219
+Defined in: main.ts:217721
 
 text about a discount applied
 
@@ -103,7 +103,7 @@ text about a discount applied
 
 > `optional` **items**: [`HotelPriceItemInfo`](HotelPriceItemInfo.md)[]
 
-Defined in: main.ts:217235
+Defined in: main.ts:217737
 
 encountered item types
 types of search engine results encountered in the items array;
@@ -119,7 +119,7 @@ possible item types: hotel_search_item
 
 > `optional` **price**: `number`
 
-Defined in: main.ts:217212
+Defined in: main.ts:217714
 
 price per night
 
@@ -133,7 +133,7 @@ price per night
 
 > `optional` **price\_without\_discount**: `number`
 
-Defined in: main.ts:217214
+Defined in: main.ts:217716
 
 full price per night without a discount applied
 
@@ -147,7 +147,7 @@ full price per night without a discount applied
 
 > `optional` **visitors**: `number`
 
-Defined in: main.ts:217231
+Defined in: main.ts:217733
 
 number of hotel visitors for this price
 
@@ -161,7 +161,7 @@ number of hotel visitors for this price
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:217248
+Defined in: main.ts:217750
 
 #### Parameters
 
@@ -179,7 +179,7 @@ Defined in: main.ts:217248
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:217276
+Defined in: main.ts:217778
 
 #### Parameters
 
@@ -197,7 +197,7 @@ Defined in: main.ts:217276
 
 > `static` **fromJS**(`data`): [`HotelPriceInfo`](HotelPriceInfo.md)
 
-Defined in: main.ts:217269
+Defined in: main.ts:217771
 
 #### Parameters
 

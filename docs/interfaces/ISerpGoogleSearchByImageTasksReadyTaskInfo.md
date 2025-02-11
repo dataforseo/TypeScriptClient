@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleSearchByImageTasksReadyTaskInfo
 
-Defined in: main.ts:53116
+Defined in: main.ts:53132
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleSearchByImageTasksReadyResultInfo`](../classes/SerpGoogleSearchByImageTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:53118
+Defined in: main.ts:53134
 
 array of results
 

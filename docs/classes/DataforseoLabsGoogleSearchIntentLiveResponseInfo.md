@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleSearchIntentLiveResponseInfo
 
-Defined in: main.ts:96825
+Defined in: main.ts:96853
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:96825
 
 > **new DataforseoLabsGoogleSearchIntentLiveResponseInfo**(`data`?): [`DataforseoLabsGoogleSearchIntentLiveResponseInfo`](DataforseoLabsGoogleSearchIntentLiveResponseInfo.md)
 
-Defined in: main.ts:96831
+Defined in: main.ts:96859
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsGoogleSearchIntentLiveTaskInfo`](DataforseoLabsGoogleSearchIntentLiveTaskInfo.md)[]
 
-Defined in: main.ts:96827
+Defined in: main.ts:96855
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:96835
+Defined in: main.ts:96863
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:96835
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:96857
+Defined in: main.ts:96885
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:96857
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleSearchIntentLiveResponseInfo`](DataforseoLabsGoogleSearchIntentLiveResponseInfo.md)
 
-Defined in: main.ts:96850
+Defined in: main.ts:96878
 
 #### Parameters
 

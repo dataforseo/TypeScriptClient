@@ -6,7 +6,7 @@
 
 # Class: AppendixWhoisDomainAnalyticsPriceData
 
-Defined in: main.ts:238506
+Defined in: main.ts:238934
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:238506
 
 > **new AppendixWhoisDomainAnalyticsPriceData**(`data`?): [`AppendixWhoisDomainAnalyticsPriceData`](AppendixWhoisDomainAnalyticsPriceData.md)
 
-Defined in: main.ts:238511
+Defined in: main.ts:238939
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:238511
 
 > `optional` **overview**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238507
+Defined in: main.ts:238935
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:238507
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:238520
+Defined in: main.ts:238948
 
 #### Parameters
 
@@ -70,7 +70,7 @@ Defined in: main.ts:238520
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:238537
+Defined in: main.ts:238965
 
 #### Parameters
 
@@ -88,7 +88,7 @@ Defined in: main.ts:238537
 
 > `static` **fromJS**(`data`): [`AppendixWhoisDomainAnalyticsPriceData`](AppendixWhoisDomainAnalyticsPriceData.md)
 
-Defined in: main.ts:238530
+Defined in: main.ts:238958
 
 #### Parameters
 

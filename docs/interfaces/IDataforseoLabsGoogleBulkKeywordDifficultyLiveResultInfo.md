@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleBulkKeywordDifficultyLiveResultInfo
 
-Defined in: main.ts:96275
+Defined in: main.ts:96301
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:96275
 
 > `optional` **items**: [`DataforseoLabsBulkKeywordDifficultyLiveItem`](../classes/DataforseoLabsBulkKeywordDifficultyLiveItem.md)[]
 
-Defined in: main.ts:96289
+Defined in: main.ts:96315
 
 contains keywords and related keyword difficulty scores
 
@@ -28,7 +28,7 @@ contains keywords and related keyword difficulty scores
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:96287
+Defined in: main.ts:96313
 
 the number of results returned in the items array
 
@@ -38,7 +38,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:96283
+Defined in: main.ts:96309
 
 language code in a POST array
 if there is no data, then the value is null
@@ -49,7 +49,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:96280
+Defined in: main.ts:96306
 
 location code in a POST array
 if there is no data, then the value is null
@@ -60,7 +60,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:96277
+Defined in: main.ts:96303
 
 search engine type
 
@@ -70,6 +70,6 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:96285
+Defined in: main.ts:96311
 
 total amount of results in our database relevant to your request

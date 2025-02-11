@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleHistoricalSearchVolumeLiveTaskInfo
 
-Defined in: main.ts:95878
+Defined in: main.ts:95904
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:95878
 
 > **new DataforseoLabsGoogleHistoricalSearchVolumeLiveTaskInfo**(`data`?): [`DataforseoLabsGoogleHistoricalSearchVolumeLiveTaskInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveTaskInfo.md)
 
-Defined in: main.ts:95884
+Defined in: main.ts:95910
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md)[]
 
-Defined in: main.ts:95880
+Defined in: main.ts:95906
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:95888
+Defined in: main.ts:95914
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:95888
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:95910
+Defined in: main.ts:95936
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:95910
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSearchVolumeLiveTaskInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveTaskInfo.md)
 
-Defined in: main.ts:95903
+Defined in: main.ts:95929
 
 #### Parameters
 

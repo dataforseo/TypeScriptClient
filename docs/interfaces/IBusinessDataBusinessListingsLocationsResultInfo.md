@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataBusinessListingsLocationsResultInfo
 
-Defined in: main.ts:210119
+Defined in: main.ts:210621
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:210119
 
 > `optional` **business\_count**: `number`
 
-Defined in: main.ts:210125
+Defined in: main.ts:210627
 
 number of businesses in this location in our database
 
@@ -28,7 +28,7 @@ number of businesses in this location in our database
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:210123
+Defined in: main.ts:210625
 
 ISO country code of the location
 
@@ -38,6 +38,6 @@ ISO country code of the location
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:210121
+Defined in: main.ts:210623
 
 full name of the location

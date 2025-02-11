@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonRelatedKeywordsLiveTaskInfo
 
-Defined in: main.ts:112678
+Defined in: main.ts:112746
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:112678
 
 > **new DataforseoLabsAmazonRelatedKeywordsLiveTaskInfo**(`data`?): [`DataforseoLabsAmazonRelatedKeywordsLiveTaskInfo`](DataforseoLabsAmazonRelatedKeywordsLiveTaskInfo.md)
 
-Defined in: main.ts:112684
+Defined in: main.ts:112752
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](DataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md)[]
 
-Defined in: main.ts:112680
+Defined in: main.ts:112748
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:112688
+Defined in: main.ts:112756
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:112688
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:112710
+Defined in: main.ts:112778
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:112710
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAmazonRelatedKeywordsLiveTaskInfo`](DataforseoLabsAmazonRelatedKeywordsLiveTaskInfo.md)
 
-Defined in: main.ts:112703
+Defined in: main.ts:112771
 
 #### Parameters
 

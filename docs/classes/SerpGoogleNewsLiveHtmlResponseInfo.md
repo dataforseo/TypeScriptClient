@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleNewsLiveHtmlResponseInfo
 
-Defined in: main.ts:47836
+Defined in: main.ts:47852
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:47836
 
 > **new SerpGoogleNewsLiveHtmlResponseInfo**(`data`?): [`SerpGoogleNewsLiveHtmlResponseInfo`](SerpGoogleNewsLiveHtmlResponseInfo.md)
 
-Defined in: main.ts:47842
+Defined in: main.ts:47858
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleNewsLiveHtmlTaskInfo`](SerpGoogleNewsLiveHtmlTaskInfo.md)[]
 
-Defined in: main.ts:47838
+Defined in: main.ts:47854
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:47846
+Defined in: main.ts:47862
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:47846
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:47868
+Defined in: main.ts:47884
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:47868
 
 > `static` **fromJS**(`data`): [`SerpGoogleNewsLiveHtmlResponseInfo`](SerpGoogleNewsLiveHtmlResponseInfo.md)
 
-Defined in: main.ts:47861
+Defined in: main.ts:47877
 
 #### Parameters
 

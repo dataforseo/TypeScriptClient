@@ -6,7 +6,7 @@
 
 # Interface: ITripadvisorSearchOrganicBusinessDataSerpElementItem
 
-Defined in: main.ts:228254
+Defined in: main.ts:228762
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:228254
 
 > `optional` **category**: `string`
 
-Defined in: main.ts:228267
+Defined in: main.ts:228775
 
 place category
 
@@ -32,7 +32,7 @@ place category
 
 > `optional` **is\_sponsored**: `boolean`
 
-Defined in: main.ts:228263
+Defined in: main.ts:228771
 
 indicates a sponsored placement
 if true, related tripadvisor_search_organic item is a paid advertising on Tripadvisor
@@ -43,7 +43,7 @@ if true, related tripadvisor_search_organic item is a paid advertising on Tripad
 
 > `optional` **price\_rate**: `string`
 
-Defined in: main.ts:228269
+Defined in: main.ts:228777
 
 average price rate
 
@@ -82,7 +82,7 @@ positions of elements with different type values are omitted from the rank_group
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:228271
+Defined in: main.ts:228779
 
 the rating score of the establishment submitted by the reviewers
 
@@ -92,7 +92,7 @@ the rating score of the establishment submitted by the reviewers
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:228265
+Defined in: main.ts:228773
 
 the total number of reviews
 
@@ -102,7 +102,7 @@ the total number of reviews
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:228256
+Defined in: main.ts:228764
 
 name of the business entity
 
@@ -126,7 +126,7 @@ type of element
 
 > `optional` **url\_path**: `string`
 
-Defined in: main.ts:228260
+Defined in: main.ts:228768
 
 URL path of the business entity
 URL path to the Tripadvisor page of the business entity

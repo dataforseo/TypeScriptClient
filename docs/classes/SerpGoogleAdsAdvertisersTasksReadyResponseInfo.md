@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleAdsAdvertisersTasksReadyResponseInfo
 
-Defined in: main.ts:60837
+Defined in: main.ts:60859
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:60837
 
 > **new SerpGoogleAdsAdvertisersTasksReadyResponseInfo**(`data`?): [`SerpGoogleAdsAdvertisersTasksReadyResponseInfo`](SerpGoogleAdsAdvertisersTasksReadyResponseInfo.md)
 
-Defined in: main.ts:60843
+Defined in: main.ts:60865
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleAdsAdvertisersTasksReadyTaskInfo`](SerpGoogleAdsAdvertisersTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:60839
+Defined in: main.ts:60861
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:60847
+Defined in: main.ts:60869
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:60847
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:60869
+Defined in: main.ts:60891
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:60869
 
 > `static` **fromJS**(`data`): [`SerpGoogleAdsAdvertisersTasksReadyResponseInfo`](SerpGoogleAdsAdvertisersTasksReadyResponseInfo.md)
 
-Defined in: main.ts:60862
+Defined in: main.ts:60884
 
 #### Parameters
 

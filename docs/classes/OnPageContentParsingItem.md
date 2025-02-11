@@ -6,7 +6,7 @@
 
 # Class: OnPageContentParsingItem
 
-Defined in: main.ts:173562
+Defined in: main.ts:173164
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:173562
 
 > **new OnPageContentParsingItem**(`data`?): [`OnPageContentParsingItem`](OnPageContentParsingItem.md)
 
-Defined in: main.ts:173576
+Defined in: main.ts:173178
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:173576
 
 > `optional` **fetch\_time**: `string`
 
-Defined in: main.ts:173568
+Defined in: main.ts:173170
 
 date and time when the content was fethced
 example:
@@ -56,7 +56,7 @@ example:
 
 > `optional` **page\_content**: [`PageContentInfo`](PageContentInfo.md)
 
-Defined in: main.ts:173572
+Defined in: main.ts:173174
 
 parsed content of the page
 
@@ -70,7 +70,7 @@ parsed content of the page
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:173570
+Defined in: main.ts:173172
 
 status code of the page
 
@@ -84,7 +84,7 @@ status code of the page
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:173564
+Defined in: main.ts:173166
 
 type of element
 
@@ -98,7 +98,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:173585
+Defined in: main.ts:173187
 
 #### Parameters
 
@@ -116,7 +116,7 @@ Defined in: main.ts:173585
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:173605
+Defined in: main.ts:173207
 
 #### Parameters
 
@@ -134,7 +134,7 @@ Defined in: main.ts:173605
 
 > `static` **fromJS**(`data`): [`OnPageContentParsingItem`](OnPageContentParsingItem.md)
 
-Defined in: main.ts:173598
+Defined in: main.ts:173200
 
 #### Parameters
 

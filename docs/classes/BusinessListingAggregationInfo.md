@@ -6,7 +6,7 @@
 
 # Class: BusinessListingAggregationInfo
 
-Defined in: main.ts:212028
+Defined in: main.ts:212530
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:212028
 
 > **new BusinessListingAggregationInfo**(`data`?): [`BusinessListingAggregationInfo`](BusinessListingAggregationInfo.md)
 
-Defined in: main.ts:212048
+Defined in: main.ts:212550
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:212048
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:212038
+Defined in: main.ts:212540
 
 number of unique entities
 
@@ -54,7 +54,7 @@ number of unique entities
 
 > `optional` **top\_attributes**: `object`
 
-Defined in: main.ts:212041
+Defined in: main.ts:212543
 
 the most mentioned service details
 service details of a business entity displayed in a form of checks and the number of entities mentioning each attribute
@@ -73,7 +73,7 @@ service details of a business entity displayed in a form of checks and the numbe
 
 > `optional` **top\_categories**: `object`
 
-Defined in: main.ts:212031
+Defined in: main.ts:212533
 
 the most mentioned related categories
 top categories displayed with the number of businesses in each category
@@ -92,7 +92,7 @@ top categories displayed with the number of businesses in each category
 
 > `optional` **top\_countries**: `object`
 
-Defined in: main.ts:212034
+Defined in: main.ts:212536
 
 the most mentioned counties
 country codes with the biggest number of businesses in the category
@@ -111,7 +111,7 @@ country codes with the biggest number of businesses in the category
 
 > `optional` **top\_place\_topics**: `object`
 
-Defined in: main.ts:212044
+Defined in: main.ts:212546
 
 top keywords mentioned in customer reviews
 contains most popular keywords related to products/services mentioned in customer reviews of a business entity and the number of reviews mentioning each keyword
@@ -130,7 +130,7 @@ contains most popular keywords related to products/services mentioned in custome
 
 > `optional` **websites\_count**: `number`
 
-Defined in: main.ts:212036
+Defined in: main.ts:212538
 
 number of unique websites
 
@@ -144,7 +144,7 @@ number of unique websites
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:212057
+Defined in: main.ts:212559
 
 #### Parameters
 
@@ -162,7 +162,7 @@ Defined in: main.ts:212057
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:212103
+Defined in: main.ts:212605
 
 #### Parameters
 
@@ -180,7 +180,7 @@ Defined in: main.ts:212103
 
 > `static` **fromJS**(`data`): [`BusinessListingAggregationInfo`](BusinessListingAggregationInfo.md)
 
-Defined in: main.ts:212096
+Defined in: main.ts:212598
 
 #### Parameters
 

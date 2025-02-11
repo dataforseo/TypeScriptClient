@@ -6,7 +6,7 @@
 
 # Class: RelatedSearchesDataforseoLabsSerpElementItem
 
-Defined in: main.ts:105730
+Defined in: main.ts:105868
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:105730
 
 > **new RelatedSearchesDataforseoLabsSerpElementItem**(`data`?): [`RelatedSearchesDataforseoLabsSerpElementItem`](RelatedSearchesDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:105738
+Defined in: main.ts:105876
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **items**: `string`[]
 
-Defined in: main.ts:105734
+Defined in: main.ts:105872
 
 elements of search results found in SERP
 
@@ -132,7 +132,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:105732
+Defined in: main.ts:105870
 
 search engine type
 
@@ -182,7 +182,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:105743
+Defined in: main.ts:105881
 
 #### Parameters
 
@@ -204,7 +204,7 @@ Defined in: main.ts:105743
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:105766
+Defined in: main.ts:105904
 
 #### Parameters
 
@@ -226,7 +226,7 @@ Defined in: main.ts:105766
 
 > `static` **fromJS**(`data`): [`RelatedSearchesDataforseoLabsSerpElementItem`](RelatedSearchesDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:105759
+Defined in: main.ts:105897
 
 #### Parameters
 

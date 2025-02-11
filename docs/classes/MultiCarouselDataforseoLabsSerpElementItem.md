@@ -6,7 +6,7 @@
 
 # Class: MultiCarouselDataforseoLabsSerpElementItem
 
-Defined in: main.ts:106799
+Defined in: main.ts:106931
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:106799
 
 > **new MultiCarouselDataforseoLabsSerpElementItem**(`data`?): [`MultiCarouselDataforseoLabsSerpElementItem`](MultiCarouselDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:106805
+Defined in: main.ts:106937
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **items**: [`MultiCarouselElement`](MultiCarouselElement.md)[]
 
-Defined in: main.ts:106801
+Defined in: main.ts:106933
 
 contains results featured in the ‘hotels_pack’ element of SERP
 
@@ -168,7 +168,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:106810
+Defined in: main.ts:106942
 
 #### Parameters
 
@@ -190,7 +190,7 @@ Defined in: main.ts:106810
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:106832
+Defined in: main.ts:106964
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:106832
 
 > `static` **fromJS**(`data`): [`MultiCarouselDataforseoLabsSerpElementItem`](MultiCarouselDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:106825
+Defined in: main.ts:106957
 
 #### Parameters
 

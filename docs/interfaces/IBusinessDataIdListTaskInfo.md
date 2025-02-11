@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataIdListTaskInfo
 
-Defined in: main.ts:209664
+Defined in: main.ts:210166
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataIdListResultInfo`](../classes/BusinessDataIdListResultInfo.md)[]
 
-Defined in: main.ts:209666
+Defined in: main.ts:210168
 
 array of results
 

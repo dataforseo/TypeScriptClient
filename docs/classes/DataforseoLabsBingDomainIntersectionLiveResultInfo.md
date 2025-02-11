@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingDomainIntersectionLiveResultInfo
 
-Defined in: main.ts:116908
+Defined in: main.ts:117000
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:116908
 
 > **new DataforseoLabsBingDomainIntersectionLiveResultInfo**(`data`?): [`DataforseoLabsBingDomainIntersectionLiveResultInfo`](DataforseoLabsBingDomainIntersectionLiveResultInfo.md)
 
-Defined in: main.ts:116930
+Defined in: main.ts:117022
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:116930
 
 > `optional` **items**: [`DataforseoLabsDomainIntersectionLiveItem`](DataforseoLabsDomainIntersectionLiveItem.md)[]
 
-Defined in: main.ts:116926
+Defined in: main.ts:117018
 
 contains keywords, relevant SERP elements and related data
 
@@ -54,7 +54,7 @@ contains keywords, relevant SERP elements and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:116924
+Defined in: main.ts:117016
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:116920
+Defined in: main.ts:117012
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:116918
+Defined in: main.ts:117010
 
 location code in a POST array
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:116912
+Defined in: main.ts:117004
 
 search engine type
 search engine type specified in a POST request;
@@ -112,7 +112,7 @@ for this endpoint, the field equals bing
 
 > `optional` **target1**: `string`
 
-Defined in: main.ts:116914
+Defined in: main.ts:117006
 
 target specified in a POST array
 
@@ -126,7 +126,7 @@ target specified in a POST array
 
 > `optional` **target2**: `string`
 
-Defined in: main.ts:116916
+Defined in: main.ts:117008
 
 target specified in a POST array
 
@@ -140,7 +140,7 @@ target specified in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:116922
+Defined in: main.ts:117014
 
 total amount of results in our database relevant to your request
 
@@ -154,7 +154,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:116939
+Defined in: main.ts:117031
 
 #### Parameters
 
@@ -172,7 +172,7 @@ Defined in: main.ts:116939
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:116967
+Defined in: main.ts:117059
 
 #### Parameters
 
@@ -190,7 +190,7 @@ Defined in: main.ts:116967
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingDomainIntersectionLiveResultInfo`](DataforseoLabsBingDomainIntersectionLiveResultInfo.md)
 
-Defined in: main.ts:116960
+Defined in: main.ts:117052
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsWhoisOverviewLiveRequestInfo
 
-Defined in: main.ts:89186
+Defined in: main.ts:89222
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:89186
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:89211
+Defined in: main.ts:89247
 
 array of results filtering parameters
 optional field
@@ -41,7 +41,7 @@ for more information about filters, please refer to Filters Page or this help ce
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:89191
+Defined in: main.ts:89227
 
 the maximum number of returned domains
 optional field
@@ -54,7 +54,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:89196
+Defined in: main.ts:89232
 
 offset in the results array of returned items
 optional field
@@ -67,7 +67,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:89227
+Defined in: main.ts:89263
 
 results sorting rules
 optional field
@@ -91,7 +91,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:89233
+Defined in: main.ts:89269
 
 user-defined task identifier
 optional field

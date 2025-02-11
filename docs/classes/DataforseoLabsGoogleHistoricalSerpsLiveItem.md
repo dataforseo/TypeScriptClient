@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleHistoricalSerpsLiveItem
 
-Defined in: main.ts:106194
+Defined in: main.ts:106332
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:106194
 
 > **new DataforseoLabsGoogleHistoricalSerpsLiveItem**(`data`?): [`DataforseoLabsGoogleHistoricalSerpsLiveItem`](DataforseoLabsGoogleHistoricalSerpsLiveItem.md)
 
-Defined in: main.ts:106239
+Defined in: main.ts:106377
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:106239
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:106210
+Defined in: main.ts:106348
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **clickstream\_etv**: `number`
 
-Defined in: main.ts:106235
+Defined in: main.ts:106373
 
 estimated traffic volume based on clickstream data
 calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for
@@ -72,7 +72,7 @@ learn more about how the metric is calculated in this help center article https:
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:106215
+Defined in: main.ts:106353
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -89,7 +89,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:106223
+Defined in: main.ts:106361
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -106,7 +106,7 @@ answer_box, carousel, multi_carousel, featured_snippet, google_flights, google_r
 
 > `optional` **items**: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)[]
 
-Defined in: main.ts:106230
+Defined in: main.ts:106368
 
 additional items present in the element
 if there are none, equals null
@@ -121,7 +121,7 @@ if there are none, equals null
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:106227
+Defined in: main.ts:106365
 
 the number of results returned in the items array
 
@@ -135,7 +135,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:106199
+Defined in: main.ts:106337
 
 keyword obtained as a result of search engine autocorrection
 the results will be provided for the corrected keyword
@@ -150,7 +150,7 @@ the results will be provided for the corrected keyword
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:106207
+Defined in: main.ts:106345
 
 language code in a POST array
 
@@ -164,7 +164,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:106205
+Defined in: main.ts:106343
 
 location code in a POST array
 
@@ -178,7 +178,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:106203
+Defined in: main.ts:106341
 
 search engine domain in a POST array
 
@@ -192,7 +192,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:106225
+Defined in: main.ts:106363
 
 total number of results in SERP
 
@@ -206,7 +206,7 @@ total number of results in SERP
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:106196
+Defined in: main.ts:106334
 
 search engine type
 
@@ -220,7 +220,7 @@ search engine type
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:106218
+Defined in: main.ts:106356
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -235,7 +235,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:106201
+Defined in: main.ts:106339
 
 type of element
 
@@ -249,7 +249,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:106248
+Defined in: main.ts:106386
 
 #### Parameters
 
@@ -267,7 +267,7 @@ Defined in: main.ts:106248
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:106286
+Defined in: main.ts:106424
 
 #### Parameters
 
@@ -285,7 +285,7 @@ Defined in: main.ts:106286
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSerpsLiveItem`](DataforseoLabsGoogleHistoricalSerpsLiveItem.md)
 
-Defined in: main.ts:106279
+Defined in: main.ts:106417
 
 #### Parameters
 

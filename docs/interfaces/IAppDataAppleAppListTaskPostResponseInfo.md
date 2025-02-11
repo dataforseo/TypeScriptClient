@@ -6,7 +6,7 @@
 
 # Interface: IAppDataAppleAppListTaskPostResponseInfo
 
-Defined in: main.ts:207385
+Defined in: main.ts:207887
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataAppleAppListTaskPostTaskInfo`](../classes/AppDataAppleAppListTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:207387
+Defined in: main.ts:207889
 
 array of tasks
 

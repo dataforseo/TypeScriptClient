@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleProductsTasksReadyResultInfo
 
-Defined in: main.ts:185732
+Defined in: main.ts:186094
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:185732
 
 > **new MerchantGoogleProductsTasksReadyResultInfo**(`data`?): [`MerchantGoogleProductsTasksReadyResultInfo`](MerchantGoogleProductsTasksReadyResultInfo.md)
 
-Defined in: main.ts:185752
+Defined in: main.ts:186114
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:185752
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:185742
+Defined in: main.ts:186104
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:185746
+Defined in: main.ts:186108
 
 URL for collecting the results of Google Shopping Products Advanced task
 
@@ -68,7 +68,7 @@ URL for collecting the results of Google Shopping Products Advanced task
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:185748
+Defined in: main.ts:186110
 
 URL for collecting the results of Google Shopping Products HTML task
 
@@ -82,7 +82,7 @@ URL for collecting the results of Google Shopping Products HTML task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:185735
+Defined in: main.ts:186097
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -97,7 +97,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:185737
+Defined in: main.ts:186099
 
 search engine specified when setting the task
 
@@ -111,7 +111,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:185740
+Defined in: main.ts:186102
 
 type of search engine
 example: products
@@ -126,7 +126,7 @@ example: products
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:185744
+Defined in: main.ts:186106
 
 user-defined task identifier
 
@@ -140,7 +140,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:185761
+Defined in: main.ts:186123
 
 #### Parameters
 
@@ -158,7 +158,7 @@ Defined in: main.ts:185761
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:185784
+Defined in: main.ts:186146
 
 #### Parameters
 
@@ -176,7 +176,7 @@ Defined in: main.ts:185784
 
 > `static` **fromJS**(`data`): [`MerchantGoogleProductsTasksReadyResultInfo`](MerchantGoogleProductsTasksReadyResultInfo.md)
 
-Defined in: main.ts:185777
+Defined in: main.ts:186139
 
 #### Parameters
 

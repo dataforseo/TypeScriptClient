@@ -6,7 +6,7 @@
 
 # Class: LocalServicesElement
 
-Defined in: main.ts:35921
+Defined in: main.ts:35937
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:35921
 
 > **new LocalServicesElement**(`data`?): [`LocalServicesElement`](LocalServicesElement.md)
 
-Defined in: main.ts:35940
+Defined in: main.ts:35956
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:35940
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:35931
+Defined in: main.ts:35947
 
 description
 
@@ -54,7 +54,7 @@ description
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:35929
+Defined in: main.ts:35945
 
 website domain
 
@@ -68,7 +68,7 @@ website domain
 
 > `optional` **profile\_image\_url**: `string`
 
-Defined in: main.ts:35936
+Defined in: main.ts:35952
 
 URL of the image featured in the element
 
@@ -82,7 +82,7 @@ URL of the image featured in the element
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:35934
+Defined in: main.ts:35950
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -97,7 +97,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:35925
+Defined in: main.ts:35941
 
 title of a given link element
 
@@ -111,7 +111,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:35923
+Defined in: main.ts:35939
 
 type of element
 
@@ -125,7 +125,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:35927
+Defined in: main.ts:35943
 
 URL
 
@@ -139,7 +139,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:35949
+Defined in: main.ts:35965
 
 #### Parameters
 
@@ -157,7 +157,7 @@ Defined in: main.ts:35949
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:35972
+Defined in: main.ts:35988
 
 #### Parameters
 
@@ -175,7 +175,7 @@ Defined in: main.ts:35972
 
 > `static` **fromJS**(`data`): [`LocalServicesElement`](LocalServicesElement.md)
 
-Defined in: main.ts:35965
+Defined in: main.ts:35981
 
 #### Parameters
 

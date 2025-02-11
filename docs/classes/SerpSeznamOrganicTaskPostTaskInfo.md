@@ -6,7 +6,7 @@
 
 # Class: SerpSeznamOrganicTaskPostTaskInfo
 
-Defined in: main.ts:83048
+Defined in: main.ts:83084
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:83048
 
 > **new SerpSeznamOrganicTaskPostTaskInfo**(`data`?): [`SerpSeznamOrganicTaskPostTaskInfo`](SerpSeznamOrganicTaskPostTaskInfo.md)
 
-Defined in: main.ts:83055
+Defined in: main.ts:83091
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:83051
+Defined in: main.ts:83087
 
 array of results
 in this case, the value will be null
@@ -215,7 +215,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:83059
+Defined in: main.ts:83095
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:83059
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:83077
+Defined in: main.ts:83113
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:83077
 
 > `static` **fromJS**(`data`): [`SerpSeznamOrganicTaskPostTaskInfo`](SerpSeznamOrganicTaskPostTaskInfo.md)
 
-Defined in: main.ts:83070
+Defined in: main.ts:83106
 
 #### Parameters
 

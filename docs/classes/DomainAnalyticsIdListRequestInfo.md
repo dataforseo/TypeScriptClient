@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsIdListRequestInfo
 
-Defined in: main.ts:84338
+Defined in: main.ts:84374
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:84338
 
 > **new DomainAnalyticsIdListRequestInfo**(`data`?): [`DomainAnalyticsIdListRequestInfo`](DomainAnalyticsIdListRequestInfo.md)
 
-Defined in: main.ts:84376
+Defined in: main.ts:84412
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:84376
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:84346
+Defined in: main.ts:84382
 
 start time for filtering results
 required field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:84353
+Defined in: main.ts:84389
 
 finish time for filtering results
 required field
@@ -79,7 +79,7 @@ example:
 
 > `optional` **include\_metadata**: `boolean`
 
-Defined in: main.ts:84372
+Defined in: main.ts:84408
 
 include task metadata in the respond
 optional field
@@ -95,7 +95,7 @@ default value: false
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:84358
+Defined in: main.ts:84394
 
 the maximum number of returned task IDs
 optional field
@@ -112,7 +112,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:84363
+Defined in: main.ts:84399
 
 offset in the results array of returned task IDs
 optional field
@@ -129,7 +129,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > `optional` **sort**: `string`
 
-Defined in: main.ts:84368
+Defined in: main.ts:84404
 
 sorting by task execution time
 optional field
@@ -146,7 +146,7 @@ default value: "asc"
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:84385
+Defined in: main.ts:84421
 
 #### Parameters
 
@@ -164,7 +164,7 @@ Defined in: main.ts:84385
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:84407
+Defined in: main.ts:84443
 
 #### Parameters
 
@@ -182,7 +182,7 @@ Defined in: main.ts:84407
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsIdListRequestInfo`](DomainAnalyticsIdListRequestInfo.md)
 
-Defined in: main.ts:84400
+Defined in: main.ts:84436
 
 #### Parameters
 

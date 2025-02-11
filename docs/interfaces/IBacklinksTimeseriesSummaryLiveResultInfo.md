@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksTimeseriesSummaryLiveResultInfo
 
-Defined in: main.ts:159657
+Defined in: main.ts:159821
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:159657
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:159664
+Defined in: main.ts:159828
 
 starting date of the time range
 in the UTC format: “yyyy-mm-dd”
@@ -31,7 +31,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:159669
+Defined in: main.ts:159833
 
 ending date of the time range
 in the UTC format: "yyyy-mm-dd"
@@ -44,7 +44,7 @@ example:
 
 > `optional` **group\_range**: `string`
 
-Defined in: main.ts:159671
+Defined in: main.ts:159835
 
 group_range from a POST array
 
@@ -54,7 +54,7 @@ group_range from a POST array
 
 > `optional` **items**: [`BacklinksTimeseriesSummaryLiveItem`](../classes/BacklinksTimeseriesSummaryLiveItem.md)[]
 
-Defined in: main.ts:159675
+Defined in: main.ts:159839
 
 contains relevant summary data
 
@@ -64,7 +64,7 @@ contains relevant summary data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:159673
+Defined in: main.ts:159837
 
 the number of results returned in the items array
 
@@ -74,6 +74,6 @@ the number of results returned in the items array
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:159659
+Defined in: main.ts:159823
 
 target from a POST array

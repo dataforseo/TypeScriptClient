@@ -6,7 +6,7 @@
 
 # Class: OnPageDuplicateContentResponseInfo
 
-Defined in: main.ts:169243
+Defined in: main.ts:169407
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:169243
 
 > **new OnPageDuplicateContentResponseInfo**(`data`?): [`OnPageDuplicateContentResponseInfo`](OnPageDuplicateContentResponseInfo.md)
 
-Defined in: main.ts:169249
+Defined in: main.ts:169413
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageDuplicateContentTaskInfo`](OnPageDuplicateContentTaskInfo.md)[]
 
-Defined in: main.ts:169245
+Defined in: main.ts:169409
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:169253
+Defined in: main.ts:169417
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:169253
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:169275
+Defined in: main.ts:169439
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:169275
 
 > `static` **fromJS**(`data`): [`OnPageDuplicateContentResponseInfo`](OnPageDuplicateContentResponseInfo.md)
 
-Defined in: main.ts:169268
+Defined in: main.ts:169432
 
 #### Parameters
 

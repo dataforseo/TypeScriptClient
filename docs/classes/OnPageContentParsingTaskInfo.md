@@ -6,7 +6,7 @@
 
 # Class: OnPageContentParsingTaskInfo
 
-Defined in: main.ts:173712
+Defined in: main.ts:173236
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:173712
 
 > **new OnPageContentParsingTaskInfo**(`data`?): [`OnPageContentParsingTaskInfo`](OnPageContentParsingTaskInfo.md)
 
-Defined in: main.ts:173718
+Defined in: main.ts:173242
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`OnPageContentParsingResultInfo`](OnPageContentParsingResultInfo.md)[]
 
-Defined in: main.ts:173714
+Defined in: main.ts:173238
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:173722
+Defined in: main.ts:173246
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:173722
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:173744
+Defined in: main.ts:173268
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:173744
 
 > `static` **fromJS**(`data`): [`OnPageContentParsingTaskInfo`](OnPageContentParsingTaskInfo.md)
 
-Defined in: main.ts:173737
+Defined in: main.ts:173261
 
 #### Parameters
 

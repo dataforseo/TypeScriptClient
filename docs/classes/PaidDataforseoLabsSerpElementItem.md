@@ -6,7 +6,7 @@
 
 # Class: PaidDataforseoLabsSerpElementItem
 
-Defined in: main.ts:107887
+Defined in: main.ts:107943
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:107887
 
 > **new PaidDataforseoLabsSerpElementItem**(`data`?): [`PaidDataforseoLabsSerpElementItem`](PaidDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:107945
+Defined in: main.ts:108001
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **backlinks\_info**: [`BacklinksInfo`](BacklinksInfo.md)
 
-Defined in: main.ts:107939
+Defined in: main.ts:107995
 
 backlinks information for the target website
 
@@ -74,7 +74,7 @@ backlinks information for the target website
 
 > `optional` **breadcrumb**: `string`
 
-Defined in: main.ts:107895
+Defined in: main.ts:107951
 
 breadcrumb of the Ad element in SERP
 
@@ -88,7 +88,7 @@ breadcrumb of the Ad element in SERP
 
 > `optional` **clickstream\_etv**: `number`
 
-Defined in: main.ts:107935
+Defined in: main.ts:107991
 
 estimated traffic volume based on clickstream data
 calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for
@@ -105,7 +105,7 @@ learn more about how the metric is calculated in this help center article https:
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:107893
+Defined in: main.ts:107949
 
 description of the results element in SERP
 
@@ -119,7 +119,7 @@ description of the results element in SERP
 
 > `optional` **description\_rows**: `string`[]
 
-Defined in: main.ts:107904
+Defined in: main.ts:107960
 
 extended description
 if there is none, equals null
@@ -134,7 +134,7 @@ if there is none, equals null
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:107891
+Defined in: main.ts:107947
 
 domain where a link points
 
@@ -148,7 +148,7 @@ domain where a link points
 
 > `optional` **estimated\_paid\_traffic\_cost**: `number`
 
-Defined in: main.ts:107926
+Defined in: main.ts:107982
 
 estimated cost of converting organic search traffic into paid
 represents the estimated monthly cost of running ads for the returned keyword
@@ -165,7 +165,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **etv**: `number`
 
-Defined in: main.ts:107916
+Defined in: main.ts:107972
 
 estimated traffic volume
 estimated organic monthly traffic to the domain
@@ -182,7 +182,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **extra**: `object`
 
-Defined in: main.ts:107901
+Defined in: main.ts:107957
 
 additional information about the result
 
@@ -200,7 +200,7 @@ additional information about the result
 
 > `optional` **highlighted**: `string`[]
 
-Defined in: main.ts:107899
+Defined in: main.ts:107955
 
 words highlighted in bold within the results description
 
@@ -214,7 +214,7 @@ words highlighted in bold within the results description
 
 > `optional` **impressions\_etv**: `number`
 
-Defined in: main.ts:107921
+Defined in: main.ts:107977
 
 estimated traffic volume based on impressions
 estimated organic monthly traffic to the domain
@@ -231,7 +231,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **links**: [`AdLinkElement`](AdLinkElement.md)[]
 
-Defined in: main.ts:107907
+Defined in: main.ts:107963
 
 links featured in the math_solver element
 if there are none, equals null
@@ -246,7 +246,7 @@ if there are none, equals null
 
 > `optional` **main\_domain**: `string`
 
-Defined in: main.ts:107909
+Defined in: main.ts:107965
 
 primary domain name in SERP
 
@@ -299,7 +299,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_changes**: [`RankChanges`](RankChanges.md)
 
-Defined in: main.ts:107930
+Defined in: main.ts:107986
 
 changes in rankings
 ranking changes of the SERP element compared to the preceding month;
@@ -334,7 +334,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rank\_info**: [`RankInfo`](RankInfo.md)
 
-Defined in: main.ts:107941
+Defined in: main.ts:107997
 
 page and domain rank information
 
@@ -348,7 +348,7 @@ page and domain rank information
 
 > `optional` **relative\_url**: `string`
 
-Defined in: main.ts:107911
+Defined in: main.ts:107967
 
 URL in SERP that does not specify the HTTPs protocol and domain name
 
@@ -362,7 +362,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:107937
+Defined in: main.ts:107993
 
 search engine type
 
@@ -376,7 +376,7 @@ search engine type
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:107889
+Defined in: main.ts:107945
 
 title of the result in SERP
 
@@ -408,7 +408,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:107897
+Defined in: main.ts:107953
 
 relevant URL of the Ad element in SERP
 
@@ -440,7 +440,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:107950
+Defined in: main.ts:108006
 
 #### Parameters
 
@@ -462,7 +462,7 @@ Defined in: main.ts:107950
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:108004
+Defined in: main.ts:108060
 
 #### Parameters
 
@@ -484,7 +484,7 @@ Defined in: main.ts:108004
 
 > `static` **fromJS**(`data`): [`PaidDataforseoLabsSerpElementItem`](PaidDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:107997
+Defined in: main.ts:108053
 
 #### Parameters
 

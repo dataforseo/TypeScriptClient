@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesLocationsResponseInfo
 
-Defined in: main.ts:85353
+Defined in: main.ts:85389
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:85353
 
 > **new DomainAnalyticsTechnologiesLocationsResponseInfo**(`data`?): [`DomainAnalyticsTechnologiesLocationsResponseInfo`](DomainAnalyticsTechnologiesLocationsResponseInfo.md)
 
-Defined in: main.ts:85359
+Defined in: main.ts:85395
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DomainAnalyticsTechnologiesLocationsTaskInfo`](DomainAnalyticsTechnologiesLocationsTaskInfo.md)[]
 
-Defined in: main.ts:85355
+Defined in: main.ts:85391
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:85363
+Defined in: main.ts:85399
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:85363
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:85385
+Defined in: main.ts:85421
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:85385
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesLocationsResponseInfo`](DomainAnalyticsTechnologiesLocationsResponseInfo.md)
 
-Defined in: main.ts:85378
+Defined in: main.ts:85414
 
 #### Parameters
 

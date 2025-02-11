@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataSocialMediaPinterestLiveResponseInfo
 
-Defined in: main.ts:229887
+Defined in: main.ts:230395
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BusinessDataSocialMediaPinterestLiveTaskInfo`](../classes/BusinessDataSocialMediaPinterestLiveTaskInfo.md)[]
 
-Defined in: main.ts:229889
+Defined in: main.ts:230397
 
 array of tasks
 

@@ -6,7 +6,7 @@
 
 # Class: ScholarlyArticlesSerpElementItem
 
-Defined in: main.ts:34565
+Defined in: main.ts:34581
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:34565
 
 > **new ScholarlyArticlesSerpElementItem**(`data`?): [`ScholarlyArticlesSerpElementItem`](ScholarlyArticlesSerpElementItem.md)
 
-Defined in: main.ts:34579
+Defined in: main.ts:34595
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`ScholarlyArticlesElement`](ScholarlyArticlesElement.md)[]
 
-Defined in: main.ts:34571
+Defined in: main.ts:34587
 
 contains arrays of specific images
 
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:34575
+Defined in: main.ts:34591
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -149,7 +149,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:34567
+Defined in: main.ts:34583
 
 title of the row
 
@@ -181,7 +181,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:34569
+Defined in: main.ts:34585
 
 source URL
 
@@ -213,7 +213,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:34584
+Defined in: main.ts:34600
 
 #### Parameters
 
@@ -235,7 +235,7 @@ Defined in: main.ts:34584
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:34609
+Defined in: main.ts:34625
 
 #### Parameters
 
@@ -257,7 +257,7 @@ Defined in: main.ts:34609
 
 > `static` **fromJS**(`data`): [`ScholarlyArticlesSerpElementItem`](ScholarlyArticlesSerpElementItem.md)
 
-Defined in: main.ts:34602
+Defined in: main.ts:34618
 
 #### Parameters
 

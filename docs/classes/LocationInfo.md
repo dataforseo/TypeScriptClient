@@ -6,7 +6,7 @@
 
 # Class: LocationInfo
 
-Defined in: main.ts:48839
+Defined in: main.ts:48855
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:48839
 
 > **new LocationInfo**(`data`?): [`LocationInfo`](LocationInfo.md)
 
-Defined in: main.ts:48854
+Defined in: main.ts:48870
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:48854
 
 > `optional` **address**: `string`
 
-Defined in: main.ts:48843
+Defined in: main.ts:48859
 
 address of the event’s venue
 
@@ -54,7 +54,7 @@ address of the event’s venue
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:48848
+Defined in: main.ts:48864
 
 google-defined client id
 can be used with Google Reviews API to get a full list of reviews
@@ -69,7 +69,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 > `optional` **feature\_id**: `string`
 
-Defined in: main.ts:48850
+Defined in: main.ts:48866
 
 the unique identifier of the element in SERP
 
@@ -83,7 +83,7 @@ the unique identifier of the element in SERP
 
 > `optional` **name**: `string`
 
-Defined in: main.ts:48841
+Defined in: main.ts:48857
 
 name of the event’s venue
 
@@ -97,7 +97,7 @@ name of the event’s venue
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:48845
+Defined in: main.ts:48861
 
 search URL with refinement parameters
 
@@ -111,7 +111,7 @@ search URL with refinement parameters
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:48863
+Defined in: main.ts:48879
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:48863
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:48884
+Defined in: main.ts:48900
 
 #### Parameters
 
@@ -147,7 +147,7 @@ Defined in: main.ts:48884
 
 > `static` **fromJS**(`data`): [`LocationInfo`](LocationInfo.md)
 
-Defined in: main.ts:48877
+Defined in: main.ts:48893
 
 #### Parameters
 

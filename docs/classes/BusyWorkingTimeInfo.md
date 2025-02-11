@@ -6,7 +6,7 @@
 
 # Class: BusyWorkingTimeInfo
 
-Defined in: main.ts:211046
+Defined in: main.ts:211548
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:211046
 
 > **new BusyWorkingTimeInfo**(`data`?): [`BusyWorkingTimeInfo`](BusyWorkingTimeInfo.md)
 
-Defined in: main.ts:211056
+Defined in: main.ts:211558
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:211056
 
 > `optional` **popular\_index**: `number`
 
-Defined in: main.ts:211052
+Defined in: main.ts:211554
 
 popularity index
 relative time-bound popularity index measured from 0 to 100;
@@ -56,7 +56,7 @@ higher value corresponds to a busier time of a day
 
 > `optional` **time**: [`WorkTimeInfo`](WorkTimeInfo.md)
 
-Defined in: main.ts:211048
+Defined in: main.ts:211550
 
 busy hours
 
@@ -70,7 +70,7 @@ busy hours
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:211065
+Defined in: main.ts:211567
 
 #### Parameters
 
@@ -88,7 +88,7 @@ Defined in: main.ts:211065
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:211083
+Defined in: main.ts:211585
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:211083
 
 > `static` **fromJS**(`data`): [`BusyWorkingTimeInfo`](BusyWorkingTimeInfo.md)
 
-Defined in: main.ts:211076
+Defined in: main.ts:211578
 
 #### Parameters
 

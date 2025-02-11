@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleTrendsLanguagesResponseInfo
 
-Defined in: main.ts:133085
+Defined in: main.ts:133201
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:133085
 
 > **new KeywordsDataGoogleTrendsLanguagesResponseInfo**(`data`?): [`KeywordsDataGoogleTrendsLanguagesResponseInfo`](KeywordsDataGoogleTrendsLanguagesResponseInfo.md)
 
-Defined in: main.ts:133091
+Defined in: main.ts:133207
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataGoogleTrendsLanguagesTaskInfo`](KeywordsDataGoogleTrendsLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:133087
+Defined in: main.ts:133203
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:133095
+Defined in: main.ts:133211
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:133095
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:133117
+Defined in: main.ts:133233
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:133117
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleTrendsLanguagesResponseInfo`](KeywordsDataGoogleTrendsLanguagesResponseInfo.md)
 
-Defined in: main.ts:133110
+Defined in: main.ts:133226
 
 #### Parameters
 

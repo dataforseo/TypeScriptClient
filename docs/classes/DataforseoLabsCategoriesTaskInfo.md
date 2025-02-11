@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsCategoriesTaskInfo
 
-Defined in: main.ts:91712
+Defined in: main.ts:91748
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:91712
 
 > **new DataforseoLabsCategoriesTaskInfo**(`data`?): [`DataforseoLabsCategoriesTaskInfo`](DataforseoLabsCategoriesTaskInfo.md)
 
-Defined in: main.ts:91718
+Defined in: main.ts:91754
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsCategoriesResultInfo`](DataforseoLabsCategoriesResultInfo.md)[]
 
-Defined in: main.ts:91714
+Defined in: main.ts:91750
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:91722
+Defined in: main.ts:91758
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:91722
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:91744
+Defined in: main.ts:91780
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:91744
 
 > `static` **fromJS**(`data`): [`DataforseoLabsCategoriesTaskInfo`](DataforseoLabsCategoriesTaskInfo.md)
 
-Defined in: main.ts:91737
+Defined in: main.ts:91773
 
 #### Parameters
 

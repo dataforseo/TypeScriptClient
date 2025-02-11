@@ -6,7 +6,7 @@
 
 # Interface: IAmazonAmazonReviewItemSerpElementItem
 
-Defined in: main.ts:195121
+Defined in: main.ts:195158
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:195121
 
 > `optional` **helpful\_votes**: `number`
 
-Defined in: main.ts:195131
+Defined in: main.ts:195168
 
 helpful votes count
 number of users who clicked on the ‘Helpful” button under the review text
@@ -33,7 +33,7 @@ number of users who clicked on the ‘Helpful” button under the review text
 
 > `optional` **images**: [`ImagesElement`](../classes/ImagesElement.md)[]
 
-Defined in: main.ts:195133
+Defined in: main.ts:195170
 
 images of the product submitted by the reviewer
 
@@ -43,7 +43,7 @@ images of the product submitted by the reviewer
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:195124
+Defined in: main.ts:195161
 
 the alignment of the review in SERP
 can take the following values: right
@@ -54,7 +54,7 @@ can take the following values: right
 
 > `optional` **publication\_date**: `string`
 
-Defined in: main.ts:195148
+Defined in: main.ts:195185
 
 date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -97,7 +97,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:195150
+Defined in: main.ts:195187
 
 the rating score submitted by the reviewer
 
@@ -107,7 +107,7 @@ the rating score submitted by the reviewer
 
 > `optional` **review\_text**: `string`
 
-Defined in: main.ts:195143
+Defined in: main.ts:195180
 
 content of the review
 
@@ -117,7 +117,7 @@ content of the review
 
 > `optional` **subtitle**: `string`
 
-Defined in: main.ts:195128
+Defined in: main.ts:195165
 
 subtitle of the review
 
@@ -127,7 +127,7 @@ subtitle of the review
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:195139
+Defined in: main.ts:195176
 
 title of the review
 
@@ -151,9 +151,9 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:195141
+Defined in: main.ts:195178
 
-relevant url
+URL to the reviewer’s profile
 
 ***
 
@@ -161,7 +161,7 @@ relevant url
 
 > `optional` **user\_profile**: [`UserProfileInfo`](../classes/UserProfileInfo.md)
 
-Defined in: main.ts:195137
+Defined in: main.ts:195174
 
 user profile of the reviewer
 
@@ -171,7 +171,7 @@ user profile of the reviewer
 
 > `optional` **verified**: `boolean`
 
-Defined in: main.ts:195126
+Defined in: main.ts:195163
 
 indicates whether the review has the “Verified Purchase” mark
 
@@ -181,7 +181,7 @@ indicates whether the review has the “Verified Purchase” mark
 
 > `optional` **videos**: [`VideoElement`](../classes/VideoElement.md)[]
 
-Defined in: main.ts:195135
+Defined in: main.ts:195172
 
 videos of the product submitted by the reviewer
 

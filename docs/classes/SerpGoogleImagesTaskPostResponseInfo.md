@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleImagesTaskPostResponseInfo
 
-Defined in: main.ts:50250
+Defined in: main.ts:50266
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:50250
 
 > **new SerpGoogleImagesTaskPostResponseInfo**(`data`?): [`SerpGoogleImagesTaskPostResponseInfo`](SerpGoogleImagesTaskPostResponseInfo.md)
 
-Defined in: main.ts:50256
+Defined in: main.ts:50272
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleImagesTaskPostTaskInfo`](SerpGoogleImagesTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:50252
+Defined in: main.ts:50268
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:50260
+Defined in: main.ts:50276
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:50260
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:50282
+Defined in: main.ts:50298
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:50282
 
 > `static` **fromJS**(`data`): [`SerpGoogleImagesTaskPostResponseInfo`](SerpGoogleImagesTaskPostResponseInfo.md)
 
-Defined in: main.ts:50275
+Defined in: main.ts:50291
 
 #### Parameters
 

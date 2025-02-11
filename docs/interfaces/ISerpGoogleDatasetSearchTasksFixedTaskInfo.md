@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleDatasetSearchTasksFixedTaskInfo
 
-Defined in: main.ts:57586
+Defined in: main.ts:57602
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleDatasetSearchTasksFixedResultInfo`](../classes/SerpGoogleDatasetSearchTasksFixedResultInfo.md)[]
 
-Defined in: main.ts:57588
+Defined in: main.ts:57604
 
 array of results
 

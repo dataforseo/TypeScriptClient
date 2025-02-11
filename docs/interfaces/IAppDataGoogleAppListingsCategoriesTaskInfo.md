@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleAppListingsCategoriesTaskInfo
 
-Defined in: main.ts:204170
+Defined in: main.ts:204672
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`AppDataGoogleAppListingsCategoriesResultInfo`](../classes/AppDataGoogleAppListingsCategoriesResultInfo.md)[]
 
-Defined in: main.ts:204172
+Defined in: main.ts:204674
 
 array of results
 

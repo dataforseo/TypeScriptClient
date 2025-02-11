@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingDomainIntersectionLiveTaskInfo
 
-Defined in: main.ts:117012
+Defined in: main.ts:117104
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:117012
 
 > **new DataforseoLabsBingDomainIntersectionLiveTaskInfo**(`data`?): [`DataforseoLabsBingDomainIntersectionLiveTaskInfo`](DataforseoLabsBingDomainIntersectionLiveTaskInfo.md)
 
-Defined in: main.ts:117018
+Defined in: main.ts:117110
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsBingDomainIntersectionLiveResultInfo`](DataforseoLabsBingDomainIntersectionLiveResultInfo.md)[]
 
-Defined in: main.ts:117014
+Defined in: main.ts:117106
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:117022
+Defined in: main.ts:117114
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:117022
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:117044
+Defined in: main.ts:117136
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:117044
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingDomainIntersectionLiveTaskInfo`](DataforseoLabsBingDomainIntersectionLiveTaskInfo.md)
 
-Defined in: main.ts:117037
+Defined in: main.ts:117129
 
 #### Parameters
 

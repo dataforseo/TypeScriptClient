@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAvailableFiltersTaskInfo
 
-Defined in: main.ts:91234
+Defined in: main.ts:91270
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:91234
 
 > **new DataforseoLabsAvailableFiltersTaskInfo**(`data`?): [`DataforseoLabsAvailableFiltersTaskInfo`](DataforseoLabsAvailableFiltersTaskInfo.md)
 
-Defined in: main.ts:91239
+Defined in: main.ts:91275
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsAvailableFiltersResultInfo`](DataforseoLabsAvailableFiltersResultInfo.md)[]
 
-Defined in: main.ts:91235
+Defined in: main.ts:91271
 
 #### Implementation of
 
@@ -212,7 +212,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:91243
+Defined in: main.ts:91279
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:91243
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:91265
+Defined in: main.ts:91301
 
 #### Parameters
 
@@ -256,7 +256,7 @@ Defined in: main.ts:91265
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAvailableFiltersTaskInfo`](DataforseoLabsAvailableFiltersTaskInfo.md)
 
-Defined in: main.ts:91258
+Defined in: main.ts:91294
 
 #### Parameters
 

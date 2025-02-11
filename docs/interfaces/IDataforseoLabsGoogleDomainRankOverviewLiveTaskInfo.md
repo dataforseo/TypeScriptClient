@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleDomainRankOverviewLiveTaskInfo
 
-Defined in: main.ts:105434
+Defined in: main.ts:105498
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](../classes/DataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md)[]
 
-Defined in: main.ts:105436
+Defined in: main.ts:105500
 
 array of results
 

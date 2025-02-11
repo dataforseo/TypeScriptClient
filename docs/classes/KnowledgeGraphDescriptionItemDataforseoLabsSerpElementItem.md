@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem
 
-Defined in: main.ts:105792
+Defined in: main.ts:105930
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:105792
 
 > **new KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem**(`data`?): [`KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem`](KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:105802
+Defined in: main.ts:105940
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:105798
+Defined in: main.ts:105936
 
 sitelinks
 the links shown below some of Google’s search results
@@ -134,7 +134,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:105794
+Defined in: main.ts:105932
 
 description content
 
@@ -184,7 +184,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:105807
+Defined in: main.ts:105945
 
 #### Parameters
 
@@ -206,7 +206,7 @@ Defined in: main.ts:105807
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:105830
+Defined in: main.ts:105968
 
 #### Parameters
 
@@ -228,7 +228,7 @@ Defined in: main.ts:105830
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem`](KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:105823
+Defined in: main.ts:105961
 
 #### Parameters
 

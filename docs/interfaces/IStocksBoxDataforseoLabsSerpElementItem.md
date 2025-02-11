@@ -6,7 +6,7 @@
 
 # Interface: IStocksBoxDataforseoLabsSerpElementItem
 
-Defined in: main.ts:109054
+Defined in: main.ts:109110
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:109054
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:109067
+Defined in: main.ts:109123
 
 domain where a link points
 
@@ -32,7 +32,7 @@ domain where a link points
 
 > `optional` **graph**: [`Graph`](../classes/Graph.md)
 
-Defined in: main.ts:109072
+Defined in: main.ts:109128
 
 contains data provided in the graph of the element
 
@@ -58,7 +58,7 @@ left, right
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-Defined in: main.ts:109063
+Defined in: main.ts:109119
 
 price of the shopping element
 
@@ -98,7 +98,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:109061
+Defined in: main.ts:109117
 
 text alongside the link title
 
@@ -108,7 +108,7 @@ text alongside the link title
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:109059
+Defined in: main.ts:109115
 
 source of the element
 indicates the source of information included in the shopping_element
@@ -119,7 +119,7 @@ indicates the source of information included in the shopping_element
 
 > `optional` **table**: [`Table`](../classes/Table.md)
 
-Defined in: main.ts:109070
+Defined in: main.ts:109126
 
 results table
 if there are none, equals null
@@ -130,7 +130,7 @@ if there are none, equals null
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:109056
+Defined in: main.ts:109112
 
 title of the result in SERP
 
@@ -154,7 +154,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:109065
+Defined in: main.ts:109121
 
 relevant URL of the Ad element in SERP
 

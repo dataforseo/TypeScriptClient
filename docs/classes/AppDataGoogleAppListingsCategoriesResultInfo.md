@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppListingsCategoriesResultInfo
 
-Defined in: main.ts:204066
+Defined in: main.ts:204568
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:204066
 
 > **new AppDataGoogleAppListingsCategoriesResultInfo**(`data`?): [`AppDataGoogleAppListingsCategoriesResultInfo`](AppDataGoogleAppListingsCategoriesResultInfo.md)
 
-Defined in: main.ts:204074
+Defined in: main.ts:204576
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:204074
 
 > `optional` **category**: `string`
 
-Defined in: main.ts:204068
+Defined in: main.ts:204570
 
 name of the supported app category
 
@@ -54,7 +54,7 @@ name of the supported app category
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:204070
+Defined in: main.ts:204572
 
 number of app listings that make up the supported app category
 
@@ -68,7 +68,7 @@ number of app listings that make up the supported app category
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:204083
+Defined in: main.ts:204585
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:204083
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:204101
+Defined in: main.ts:204603
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:204101
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppListingsCategoriesResultInfo`](AppDataGoogleAppListingsCategoriesResultInfo.md)
 
-Defined in: main.ts:204094
+Defined in: main.ts:204596
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: OnPageLighthouseTaskPostTaskInfo
 
-Defined in: main.ts:175656
+Defined in: main.ts:176020
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:175656
 
 > **new OnPageLighthouseTaskPostTaskInfo**(`data`?): [`OnPageLighthouseTaskPostTaskInfo`](OnPageLighthouseTaskPostTaskInfo.md)
 
-Defined in: main.ts:175661
+Defined in: main.ts:176025
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: `object`[]
 
-Defined in: main.ts:175657
+Defined in: main.ts:176021
 
 #### Index Signature
 
@@ -216,7 +216,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:175665
+Defined in: main.ts:176029
 
 #### Parameters
 
@@ -238,7 +238,7 @@ Defined in: main.ts:175665
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:175687
+Defined in: main.ts:176051
 
 #### Parameters
 
@@ -260,7 +260,7 @@ Defined in: main.ts:175687
 
 > `static` **fromJS**(`data`): [`OnPageLighthouseTaskPostTaskInfo`](OnPageLighthouseTaskPostTaskInfo.md)
 
-Defined in: main.ts:175680
+Defined in: main.ts:176044
 
 #### Parameters
 

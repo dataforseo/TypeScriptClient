@@ -6,7 +6,7 @@
 
 # Class: SerpBaiduLanguagesResponseInfo
 
-Defined in: main.ts:78841
+Defined in: main.ts:78877
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:78841
 
 > **new SerpBaiduLanguagesResponseInfo**(`data`?): [`SerpBaiduLanguagesResponseInfo`](SerpBaiduLanguagesResponseInfo.md)
 
-Defined in: main.ts:78847
+Defined in: main.ts:78883
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpBaiduLanguagesTaskInfo`](SerpBaiduLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:78843
+Defined in: main.ts:78879
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:78851
+Defined in: main.ts:78887
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:78851
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:78873
+Defined in: main.ts:78909
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:78873
 
 > `static` **fromJS**(`data`): [`SerpBaiduLanguagesResponseInfo`](SerpBaiduLanguagesResponseInfo.md)
 
-Defined in: main.ts:78866
+Defined in: main.ts:78902
 
 #### Parameters
 

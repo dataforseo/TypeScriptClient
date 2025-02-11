@@ -6,7 +6,7 @@
 
 # Interface: ISerpBaiduOrganicTaskGetHtmlTaskInfo
 
-Defined in: main.ts:80554
+Defined in: main.ts:80590
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpBaiduOrganicTaskGetHtmlResultInfo`](../classes/SerpBaiduOrganicTaskGetHtmlResultInfo.md)[]
 
-Defined in: main.ts:80556
+Defined in: main.ts:80592
 
 array of results
 

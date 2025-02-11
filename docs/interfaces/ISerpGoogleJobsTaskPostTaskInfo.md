@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleJobsTaskPostTaskInfo
 
-Defined in: main.ts:54005
+Defined in: main.ts:54021
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:54008
+Defined in: main.ts:54024
 
 array of results
 in this case, the value will be null

@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppSearchesTaskGetAdvancedResponseInfo
 
-Defined in: main.ts:205983
+Defined in: main.ts:206485
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:205983
 
 > **new AppDataAppleAppSearchesTaskGetAdvancedResponseInfo**(`data`?): [`AppDataAppleAppSearchesTaskGetAdvancedResponseInfo`](AppDataAppleAppSearchesTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:205989
+Defined in: main.ts:206491
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataAppleAppSearchesTaskGetAdvancedTaskInfo`](AppDataAppleAppSearchesTaskGetAdvancedTaskInfo.md)[]
 
-Defined in: main.ts:205985
+Defined in: main.ts:206487
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:205993
+Defined in: main.ts:206495
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:205993
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:206015
+Defined in: main.ts:206517
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:206015
 
 > `static` **fromJS**(`data`): [`AppDataAppleAppSearchesTaskGetAdvancedResponseInfo`](AppDataAppleAppSearchesTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:206008
+Defined in: main.ts:206510
 
 #### Parameters
 

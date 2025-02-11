@@ -6,7 +6,7 @@
 
 # Interface: IAppendixMerchantDayStatisticsRatesData
 
-Defined in: main.ts:233971
+Defined in: main.ts:234491
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:233971
 
 > `optional` **amazon**: [`AppendixMerchantAmazonInfo`](../classes/AppendixMerchantAmazonInfo.md)
 
-Defined in: main.ts:233973
+Defined in: main.ts:234493
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:233973
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:233976
+Defined in: main.ts:234496
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:233976
 
 > `optional` **google**: [`AppendixMerchantGoogleInfo`](../classes/AppendixMerchantGoogleInfo.md)
 
-Defined in: main.ts:233972
+Defined in: main.ts:234492
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: main.ts:233972
 
 > `optional` **id\_list**: `number`
 
-Defined in: main.ts:233979
+Defined in: main.ts:234499
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:233979
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:233975
+Defined in: main.ts:234495
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: main.ts:233975
 
 > `optional` **locations**: `number`
 
-Defined in: main.ts:233974
+Defined in: main.ts:234494
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: main.ts:233974
 
 > `optional` **reviews**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:233977
+Defined in: main.ts:234497
 
 ***
 
@@ -74,4 +74,4 @@ Defined in: main.ts:233977
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:233978
+Defined in: main.ts:234498

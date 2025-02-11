@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleKeywordSuggestionsLiveResponseInfo
 
-Defined in: main.ts:94879
+Defined in: main.ts:94905
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo`](../classes/DataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo.md)[]
 
-Defined in: main.ts:94881
+Defined in: main.ts:94907
 
 array of tasks
 

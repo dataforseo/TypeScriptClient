@@ -6,7 +6,7 @@
 
 # Interface: IAppendixUserDataTaskInfo
 
-Defined in: main.ts:239034
+Defined in: main.ts:239462
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`AppendixUserDataResultInfo`](../classes/AppendixUserDataResultInfo.md)[]
 
-Defined in: main.ts:239036
+Defined in: main.ts:239464
 
 array of results
 

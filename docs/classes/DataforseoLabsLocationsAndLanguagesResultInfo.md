@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsLocationsAndLanguagesResultInfo
 
-Defined in: main.ts:91426
+Defined in: main.ts:91462
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:91426
 
 > **new DataforseoLabsLocationsAndLanguagesResultInfo**(`data`?): [`DataforseoLabsLocationsAndLanguagesResultInfo`](DataforseoLabsLocationsAndLanguagesResultInfo.md)
 
-Defined in: main.ts:91446
+Defined in: main.ts:91482
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:91446
 
 > `optional` **available\_languages**: [`AvailableLanguages`](AvailableLanguages.md)[]
 
-Defined in: main.ts:91442
+Defined in: main.ts:91478
 
 supported languages
 contains the languages which are supported for a specific location
@@ -55,7 +55,7 @@ contains the languages which are supported for a specific location
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:91435
+Defined in: main.ts:91471
 
 ISO country code of the location
 
@@ -69,7 +69,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:91428
+Defined in: main.ts:91464
 
 location code
 
@@ -83,7 +83,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:91433
+Defined in: main.ts:91469
 
 the code of the superordinate location
 the value will be null as Country is the only supported location_type for this API
@@ -98,7 +98,7 @@ the value will be null as Country is the only supported location_type for this A
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:91430
+Defined in: main.ts:91466
 
 full name of the location
 
@@ -112,7 +112,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:91439
+Defined in: main.ts:91475
 
 location type
 possible values:
@@ -128,7 +128,7 @@ Country
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:91455
+Defined in: main.ts:91491
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Defined in: main.ts:91455
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:91481
+Defined in: main.ts:91517
 
 #### Parameters
 
@@ -164,7 +164,7 @@ Defined in: main.ts:91481
 
 > `static` **fromJS**(`data`): [`DataforseoLabsLocationsAndLanguagesResultInfo`](DataforseoLabsLocationsAndLanguagesResultInfo.md)
 
-Defined in: main.ts:91474
+Defined in: main.ts:91510
 
 #### Parameters
 

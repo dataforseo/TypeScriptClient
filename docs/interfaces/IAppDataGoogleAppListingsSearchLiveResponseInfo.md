@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleAppListingsSearchLiveResponseInfo
 
-Defined in: main.ts:204729
+Defined in: main.ts:205231
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataGoogleAppListingsSearchLiveTaskInfo`](../classes/AppDataGoogleAppListingsSearchLiveTaskInfo.md)[]
 
-Defined in: main.ts:204731
+Defined in: main.ts:205233
 
 array of tasks
 

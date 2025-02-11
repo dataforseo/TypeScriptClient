@@ -6,7 +6,7 @@
 
 # Interface: IReviewHighlights
 
-Defined in: main.ts:222117
+Defined in: main.ts:222625
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:222117
 
 > `optional` **assessment**: `string`
 
-Defined in: main.ts:222121
+Defined in: main.ts:222629
 
 feature assessment
 
@@ -28,6 +28,6 @@ feature assessment
 
 > `optional` **feature**: `string`
 
-Defined in: main.ts:222119
+Defined in: main.ts:222627
 
 reviewed feature

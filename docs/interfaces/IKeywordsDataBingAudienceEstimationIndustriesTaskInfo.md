@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingAudienceEstimationIndustriesTaskInfo
 
-Defined in: main.ts:140156
+Defined in: main.ts:140320
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataBingAudienceEstimationIndustriesResultInfo`](../classes/KeywordsDataBingAudienceEstimationIndustriesResultInfo.md)[]
 
-Defined in: main.ts:140158
+Defined in: main.ts:140322
 
 array of results
 

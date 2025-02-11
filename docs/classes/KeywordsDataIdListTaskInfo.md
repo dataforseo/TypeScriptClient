@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataIdListTaskInfo
 
-Defined in: main.ts:125512
+Defined in: main.ts:125628
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:125512
 
 > **new KeywordsDataIdListTaskInfo**(`data`?): [`KeywordsDataIdListTaskInfo`](KeywordsDataIdListTaskInfo.md)
 
-Defined in: main.ts:125518
+Defined in: main.ts:125634
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataIdListResultInfo`](KeywordsDataIdListResultInfo.md)[]
 
-Defined in: main.ts:125514
+Defined in: main.ts:125630
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:125522
+Defined in: main.ts:125638
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:125522
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:125544
+Defined in: main.ts:125660
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:125544
 
 > `static` **fromJS**(`data`): [`KeywordsDataIdListTaskInfo`](KeywordsDataIdListTaskInfo.md)
 
-Defined in: main.ts:125537
+Defined in: main.ts:125653
 
 #### Parameters
 

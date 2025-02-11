@@ -6,7 +6,7 @@
 
 # Class: MentionCarouselDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108511
+Defined in: main.ts:108567
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:108511
 
 > **new MentionCarouselDataforseoLabsSerpElementItem**(`data`?): [`MentionCarouselDataforseoLabsSerpElementItem`](MentionCarouselDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108519
+Defined in: main.ts:108575
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **items**: [`MentionCarouselElement`](MentionCarouselElement.md)[]
 
-Defined in: main.ts:108515
+Defined in: main.ts:108571
 
 elements of search results found in SERP
 
@@ -132,7 +132,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:108513
+Defined in: main.ts:108569
 
 title of the result in SERP
 
@@ -182,7 +182,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:108524
+Defined in: main.ts:108580
 
 #### Parameters
 
@@ -204,7 +204,7 @@ Defined in: main.ts:108524
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:108547
+Defined in: main.ts:108603
 
 #### Parameters
 
@@ -226,7 +226,7 @@ Defined in: main.ts:108547
 
 > `static` **fromJS**(`data`): [`MentionCarouselDataforseoLabsSerpElementItem`](MentionCarouselDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108540
+Defined in: main.ts:108596
 
 #### Parameters
 

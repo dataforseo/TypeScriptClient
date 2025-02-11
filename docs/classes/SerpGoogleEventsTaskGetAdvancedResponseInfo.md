@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleEventsTaskGetAdvancedResponseInfo
 
-Defined in: main.ts:49296
+Defined in: main.ts:49312
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:49296
 
 > **new SerpGoogleEventsTaskGetAdvancedResponseInfo**(`data`?): [`SerpGoogleEventsTaskGetAdvancedResponseInfo`](SerpGoogleEventsTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:49302
+Defined in: main.ts:49318
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleEventsTaskGetAdvancedTaskInfo`](SerpGoogleEventsTaskGetAdvancedTaskInfo.md)[]
 
-Defined in: main.ts:49298
+Defined in: main.ts:49314
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:49306
+Defined in: main.ts:49322
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:49306
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:49328
+Defined in: main.ts:49344
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:49328
 
 > `static` **fromJS**(`data`): [`SerpGoogleEventsTaskGetAdvancedResponseInfo`](SerpGoogleEventsTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:49321
+Defined in: main.ts:49337
 
 #### Parameters
 

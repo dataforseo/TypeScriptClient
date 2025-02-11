@@ -6,7 +6,7 @@
 
 # Interface: IMerchantGoogleProductsTaskGetAdvancedTaskInfo
 
-Defined in: main.ts:187070
+Defined in: main.ts:187432
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`MerchantGoogleProductsTaskGetAdvancedResultInfo`](../classes/MerchantGoogleProductsTaskGetAdvancedResultInfo.md)[]
 
-Defined in: main.ts:187072
+Defined in: main.ts:187434
 
 array of results
 

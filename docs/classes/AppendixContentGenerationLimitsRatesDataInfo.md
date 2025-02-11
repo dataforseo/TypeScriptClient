@@ -6,7 +6,7 @@
 
 # Class: AppendixContentGenerationLimitsRatesDataInfo
 
-Defined in: main.ts:232572
+Defined in: main.ts:233092
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:232572
 
 > **new AppendixContentGenerationLimitsRatesDataInfo**(`data`?): [`AppendixContentGenerationLimitsRatesDataInfo`](AppendixContentGenerationLimitsRatesDataInfo.md)
 
-Defined in: main.ts:232583
+Defined in: main.ts:233103
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:232583
 
 > `optional` **check\_grammar**: [`AppendixContentGenerationDayLimitsRatesDataInfo`](AppendixContentGenerationDayLimitsRatesDataInfo.md)
 
-Defined in: main.ts:232577
+Defined in: main.ts:233097
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:232577
 
 > `optional` **generate**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:232573
+Defined in: main.ts:233093
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:232573
 
 > `optional` **generate\_meta\_tags**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:232574
+Defined in: main.ts:233094
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:232574
 
 > `optional` **generate\_sub\_topics**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:232579
+Defined in: main.ts:233099
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:232579
 
 > `optional` **generate\_text**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:232575
+Defined in: main.ts:233095
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:232575
 
 > `optional` **paraphrase**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:232576
+Defined in: main.ts:233096
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:232576
 
 > `optional` **text\_summary**: [`AppendixContentGenerationDayLimitsRatesDataInfo`](AppendixContentGenerationDayLimitsRatesDataInfo.md)
 
-Defined in: main.ts:232578
+Defined in: main.ts:233098
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:232578
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:232592
+Defined in: main.ts:233112
 
 #### Parameters
 
@@ -142,7 +142,7 @@ Defined in: main.ts:232592
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:232615
+Defined in: main.ts:233135
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: main.ts:232615
 
 > `static` **fromJS**(`data`): [`AppendixContentGenerationLimitsRatesDataInfo`](AppendixContentGenerationLimitsRatesDataInfo.md)
 
-Defined in: main.ts:232608
+Defined in: main.ts:233128
 
 #### Parameters
 

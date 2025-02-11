@@ -6,7 +6,7 @@
 
 # Class: TrustpilotSearchOrganicBusinessDataSerpElementItem
 
-Defined in: main.ts:225940
+Defined in: main.ts:226448
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:225940
 
 > **new TrustpilotSearchOrganicBusinessDataSerpElementItem**(`data`?): [`TrustpilotSearchOrganicBusinessDataSerpElementItem`](TrustpilotSearchOrganicBusinessDataSerpElementItem.md)
 
-Defined in: main.ts:225954
+Defined in: main.ts:226462
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22211
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:225944
+Defined in: main.ts:226452
 
 domain of the establishment
 
@@ -111,7 +111,7 @@ positions of elements with different type values are omitted from the rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:225950
+Defined in: main.ts:226458
 
 the rating score of the establishment submitted by reviewers
 
@@ -125,7 +125,7 @@ the rating score of the establishment submitted by reviewers
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:225948
+Defined in: main.ts:226456
 
 the total number of reviews
 
@@ -139,7 +139,7 @@ the total number of reviews
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:225942
+Defined in: main.ts:226450
 
 title of the establishment
 
@@ -171,7 +171,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:225946
+Defined in: main.ts:226454
 
 URL to the establishment
 
@@ -185,7 +185,7 @@ URL to the establishment
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:225959
+Defined in: main.ts:226467
 
 #### Parameters
 
@@ -207,7 +207,7 @@ Defined in: main.ts:225959
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:225981
+Defined in: main.ts:226489
 
 #### Parameters
 
@@ -229,7 +229,7 @@ Defined in: main.ts:225981
 
 > `static` **fromJS**(`data`): [`TrustpilotSearchOrganicBusinessDataSerpElementItem`](TrustpilotSearchOrganicBusinessDataSerpElementItem.md)
 
-Defined in: main.ts:225974
+Defined in: main.ts:226482
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAvailableFiltersResponseInfo
 
-Defined in: main.ts:91287
+Defined in: main.ts:91323
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:91287
 
 > **new DataforseoLabsAvailableFiltersResponseInfo**(`data`?): [`DataforseoLabsAvailableFiltersResponseInfo`](DataforseoLabsAvailableFiltersResponseInfo.md)
 
-Defined in: main.ts:91292
+Defined in: main.ts:91328
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsAvailableFiltersTaskInfo`](DataforseoLabsAvailableFiltersTaskInfo.md)[]
 
-Defined in: main.ts:91288
+Defined in: main.ts:91324
 
 #### Implementation of
 
@@ -188,7 +188,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:91296
+Defined in: main.ts:91332
 
 #### Parameters
 
@@ -210,7 +210,7 @@ Defined in: main.ts:91296
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:91318
+Defined in: main.ts:91354
 
 #### Parameters
 
@@ -232,7 +232,7 @@ Defined in: main.ts:91318
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAvailableFiltersResponseInfo`](DataforseoLabsAvailableFiltersResponseInfo.md)
 
-Defined in: main.ts:91311
+Defined in: main.ts:91347
 
 #### Parameters
 

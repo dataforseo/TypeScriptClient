@@ -6,7 +6,7 @@
 
 # Class: AppendixStatisticsRatesData
 
-Defined in: main.ts:235020
+Defined in: main.ts:235540
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:235020
 
 > **new AppendixStatisticsRatesData**(`data`?): [`AppendixStatisticsRatesData`](AppendixStatisticsRatesData.md)
 
-Defined in: main.ts:235026
+Defined in: main.ts:235546
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:235026
 
 > `optional` **day**: [`AppendixDayStatisticsRatesData`](AppendixDayStatisticsRatesData.md)
 
-Defined in: main.ts:235021
+Defined in: main.ts:235541
 
 #### Implementation of
 
@@ -50,9 +50,9 @@ Defined in: main.ts:235021
 
 ### minute?
 
-> `optional` **minute**: [`AppendixMinuteStatisticsRatesData`](AppendixMinuteStatisticsRatesData.md)
+> `optional` **minute**: [`AppendixMinuteStatisticsDataInfo`](AppendixMinuteStatisticsDataInfo.md)
 
-Defined in: main.ts:235022
+Defined in: main.ts:235542
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:235022
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:235035
+Defined in: main.ts:235555
 
 #### Parameters
 
@@ -82,7 +82,7 @@ Defined in: main.ts:235035
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:235053
+Defined in: main.ts:235573
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:235053
 
 > `static` **fromJS**(`data`): [`AppendixStatisticsRatesData`](AppendixStatisticsRatesData.md)
 
-Defined in: main.ts:235046
+Defined in: main.ts:235566
 
 #### Parameters
 

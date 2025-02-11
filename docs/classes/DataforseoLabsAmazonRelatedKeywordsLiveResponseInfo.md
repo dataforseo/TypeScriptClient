@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonRelatedKeywordsLiveResponseInfo
 
-Defined in: main.ts:112733
+Defined in: main.ts:112801
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:112733
 
 > **new DataforseoLabsAmazonRelatedKeywordsLiveResponseInfo**(`data`?): [`DataforseoLabsAmazonRelatedKeywordsLiveResponseInfo`](DataforseoLabsAmazonRelatedKeywordsLiveResponseInfo.md)
 
-Defined in: main.ts:112739
+Defined in: main.ts:112807
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsAmazonRelatedKeywordsLiveTaskInfo`](DataforseoLabsAmazonRelatedKeywordsLiveTaskInfo.md)[]
 
-Defined in: main.ts:112735
+Defined in: main.ts:112803
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:112743
+Defined in: main.ts:112811
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:112743
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:112765
+Defined in: main.ts:112833
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:112765
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAmazonRelatedKeywordsLiveResponseInfo`](DataforseoLabsAmazonRelatedKeywordsLiveResponseInfo.md)
 
-Defined in: main.ts:112758
+Defined in: main.ts:112826
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleLocationsTaskInfo
 
-Defined in: main.ts:184944
+Defined in: main.ts:185306
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:184944
 
 > **new MerchantGoogleLocationsTaskInfo**(`data`?): [`MerchantGoogleLocationsTaskInfo`](MerchantGoogleLocationsTaskInfo.md)
 
-Defined in: main.ts:184950
+Defined in: main.ts:185312
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`MerchantGoogleLocationsResultInfo`](MerchantGoogleLocationsResultInfo.md)[]
 
-Defined in: main.ts:184946
+Defined in: main.ts:185308
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:184954
+Defined in: main.ts:185316
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:184954
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:184976
+Defined in: main.ts:185338
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:184976
 
 > `static` **fromJS**(`data`): [`MerchantGoogleLocationsTaskInfo`](MerchantGoogleLocationsTaskInfo.md)
 
-Defined in: main.ts:184969
+Defined in: main.ts:185331
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleProductsTaskGetHtmlResultInfo
 
-Defined in: main.ts:187132
+Defined in: main.ts:187494
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:187132
 
 > **new MerchantGoogleProductsTaskGetHtmlResultInfo**(`data`?): [`MerchantGoogleProductsTaskGetHtmlResultInfo`](MerchantGoogleProductsTaskGetHtmlResultInfo.md)
 
-Defined in: main.ts:187156
+Defined in: main.ts:187518
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:187156
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:187148
+Defined in: main.ts:187510
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:187152
+Defined in: main.ts:187514
 
 elements of search results found on Google Shopping
 
@@ -71,7 +71,7 @@ elements of search results found on Google Shopping
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:187150
+Defined in: main.ts:187512
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:187135
+Defined in: main.ts:187497
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -100,7 +100,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:187143
+Defined in: main.ts:187505
 
 language code in a POST array
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:187141
+Defined in: main.ts:187503
 
 location code in a POST array
 
@@ -128,7 +128,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:187139
+Defined in: main.ts:187501
 
 search engine domain in a POST array
 
@@ -142,7 +142,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:187137
+Defined in: main.ts:187499
 
 type of element
 
@@ -156,7 +156,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:187165
+Defined in: main.ts:187527
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:187165
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:187193
+Defined in: main.ts:187555
 
 #### Parameters
 
@@ -192,7 +192,7 @@ Defined in: main.ts:187193
 
 > `static` **fromJS**(`data`): [`MerchantGoogleProductsTaskGetHtmlResultInfo`](MerchantGoogleProductsTaskGetHtmlResultInfo.md)
 
-Defined in: main.ts:187186
+Defined in: main.ts:187548
 
 #### Parameters
 

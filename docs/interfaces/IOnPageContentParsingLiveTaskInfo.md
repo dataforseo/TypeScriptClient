@@ -6,7 +6,7 @@
 
 # Interface: IOnPageContentParsingLiveTaskInfo
 
-Defined in: main.ts:174230
+Defined in: main.ts:174594
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`OnPageContentParsingLiveResultInfo`](../classes/OnPageContentParsingLiveResultInfo.md)[]
 
-Defined in: main.ts:174232
+Defined in: main.ts:174596
 
 array of results
 

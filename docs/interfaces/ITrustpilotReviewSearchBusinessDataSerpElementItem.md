@@ -6,7 +6,7 @@
 
 # Interface: ITrustpilotReviewSearchBusinessDataSerpElementItem
 
-Defined in: main.ts:226873
+Defined in: main.ts:227381
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:226873
 
 > `optional` **language**: `string`
 
-Defined in: main.ts:226884
+Defined in: main.ts:227392
 
 the language of the review
 
@@ -32,7 +32,7 @@ the language of the review
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:226876
+Defined in: main.ts:227384
 
 the alignment of the review in SERP
 can take the following values: right
@@ -72,7 +72,7 @@ positions of elements with different type values are omitted from the rank_group
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:226880
+Defined in: main.ts:227388
 
 the rating score submitted by the reviewer
 
@@ -82,7 +82,7 @@ the rating score submitted by the reviewer
 
 > `optional` **responses**: [`ReviewResponseItemInfo`](../classes/ReviewResponseItemInfo.md)[]
 
-Defined in: main.ts:226901
+Defined in: main.ts:227409
 
 owner’s response to the submitted review
 
@@ -92,7 +92,7 @@ owner’s response to the submitted review
 
 > `optional` **review\_images**: `string`[]
 
-Defined in: main.ts:226897
+Defined in: main.ts:227405
 
 images submitted by the reviewer
 displays URLs to the images provided by the author of the review;
@@ -104,7 +104,7 @@ please note that Trustpilot doesn’t allow adding images to reviews, so the rev
 
 > `optional` **review\_text**: `string`
 
-Defined in: main.ts:226893
+Defined in: main.ts:227401
 
 the content of the review
 
@@ -114,7 +114,7 @@ the content of the review
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:226889
+Defined in: main.ts:227397
 
 date and time when a review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -127,7 +127,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:226891
+Defined in: main.ts:227399
 
 the title of the review
 
@@ -151,7 +151,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:226878
+Defined in: main.ts:227386
 
 the URL of the review
 
@@ -161,7 +161,7 @@ the URL of the review
 
 > `optional` **user\_profile**: [`BusinessDataUserProfileInfo`](../classes/BusinessDataUserProfileInfo.md)
 
-Defined in: main.ts:226899
+Defined in: main.ts:227407
 
 user profile of the reviewer
 
@@ -171,6 +171,6 @@ user profile of the reviewer
 
 > `optional` **verified**: `boolean`
 
-Defined in: main.ts:226882
+Defined in: main.ts:227390
 
 indicates whether the review has the “Verified” mark

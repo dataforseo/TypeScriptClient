@@ -6,7 +6,7 @@
 
 # Interface: ISerpSeznamOrganicTaskGetAdvancedTaskInfo
 
-Defined in: main.ts:84058
+Defined in: main.ts:84094
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpSeznamOrganicTaskGetAdvancedResultInfo`](../classes/SerpSeznamOrganicTaskGetAdvancedResultInfo.md)[]
 
-Defined in: main.ts:84060
+Defined in: main.ts:84096
 
 array of results
 

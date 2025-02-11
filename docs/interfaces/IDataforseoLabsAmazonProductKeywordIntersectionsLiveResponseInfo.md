@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAmazonProductKeywordIntersectionsLiveResponseInfo
 
-Defined in: main.ts:115281
+Defined in: main.ts:115349
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsAmazonProductKeywordIntersectionsLiveTaskInfo`](../classes/DataforseoLabsAmazonProductKeywordIntersectionsLiveTaskInfo.md)[]
 
-Defined in: main.ts:115283
+Defined in: main.ts:115351
 
 array of tasks
 

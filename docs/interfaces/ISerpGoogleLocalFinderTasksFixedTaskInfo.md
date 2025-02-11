@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleLocalFinderTasksFixedTaskInfo
 
-Defined in: main.ts:43645
+Defined in: main.ts:43661
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleLocalFinderTasksFixedResultInfo`](../classes/SerpGoogleLocalFinderTasksFixedResultInfo.md)[]
 
-Defined in: main.ts:43647
+Defined in: main.ts:43663
 
 array of results
 

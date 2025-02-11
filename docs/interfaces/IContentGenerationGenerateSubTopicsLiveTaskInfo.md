@@ -6,7 +6,7 @@
 
 # Interface: IContentGenerationGenerateSubTopicsLiveTaskInfo
 
-Defined in: main.ts:182408
+Defined in: main.ts:182770
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`ContentGenerationGenerateSubTopicsLiveResultInfo`](../classes/ContentGenerationGenerateSubTopicsLiveResultInfo.md)[]
 
-Defined in: main.ts:182410
+Defined in: main.ts:182772
 
 array of results
 

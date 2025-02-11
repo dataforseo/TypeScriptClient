@@ -6,7 +6,7 @@
 
 # Class: PopularProductsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108759
+Defined in: main.ts:108815
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:108759
 
 > **new PopularProductsDataforseoLabsSerpElementItem**(`data`?): [`PopularProductsDataforseoLabsSerpElementItem`](PopularProductsDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108765
+Defined in: main.ts:108821
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **items**: [`PopularProductsElement`](PopularProductsElement.md)[]
 
-Defined in: main.ts:108761
+Defined in: main.ts:108817
 
 elements of search results found in SERP
 
@@ -168,7 +168,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:108770
+Defined in: main.ts:108826
 
 #### Parameters
 
@@ -190,7 +190,7 @@ Defined in: main.ts:108770
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:108792
+Defined in: main.ts:108848
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:108792
 
 > `static` **fromJS**(`data`): [`PopularProductsDataforseoLabsSerpElementItem`](PopularProductsDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108785
+Defined in: main.ts:108841
 
 #### Parameters
 

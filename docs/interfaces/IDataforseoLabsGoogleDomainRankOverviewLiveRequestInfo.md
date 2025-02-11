@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo
 
-Defined in: main.ts:105145
+Defined in: main.ts:105209
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:105145
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:105191
+Defined in: main.ts:105255
 
 ignore highly similar keywords
 optional field
@@ -31,7 +31,7 @@ default value: false
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:105186
+Defined in: main.ts:105250
 
 language code
 optional field
@@ -48,7 +48,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:105177
+Defined in: main.ts:105241
 
 full name of the language
 optional field
@@ -65,7 +65,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:105196
+Defined in: main.ts:105260
 
 the maximum number of returned results for domain
 optional field
@@ -78,7 +78,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:105168
+Defined in: main.ts:105232
 
 location code
 optional field
@@ -95,7 +95,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:105159
+Defined in: main.ts:105223
 
 full name of the location
 optional field
@@ -112,7 +112,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:105201
+Defined in: main.ts:105265
 
 offset in the results array of returned items
 optional field
@@ -125,7 +125,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:105207
+Defined in: main.ts:105271
 
 user-defined task identifier
 optional field
@@ -139,7 +139,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:105150
+Defined in: main.ts:105214
 
 domain
 required field

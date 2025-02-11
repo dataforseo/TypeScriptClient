@@ -6,7 +6,7 @@
 
 # Class: OnPageDuplicateContentTaskInfo
 
-Defined in: main.ts:169188
+Defined in: main.ts:169352
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:169188
 
 > **new OnPageDuplicateContentTaskInfo**(`data`?): [`OnPageDuplicateContentTaskInfo`](OnPageDuplicateContentTaskInfo.md)
 
-Defined in: main.ts:169194
+Defined in: main.ts:169358
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`OnPageDuplicateContentResultInfo`](OnPageDuplicateContentResultInfo.md)[]
 
-Defined in: main.ts:169190
+Defined in: main.ts:169354
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:169198
+Defined in: main.ts:169362
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:169198
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:169220
+Defined in: main.ts:169384
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:169220
 
 > `static` **fromJS**(`data`): [`OnPageDuplicateContentTaskInfo`](OnPageDuplicateContentTaskInfo.md)
 
-Defined in: main.ts:169213
+Defined in: main.ts:169377
 
 #### Parameters
 

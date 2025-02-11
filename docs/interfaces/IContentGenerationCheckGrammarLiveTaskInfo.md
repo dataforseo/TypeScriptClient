@@ -6,7 +6,7 @@
 
 # Interface: IContentGenerationCheckGrammarLiveTaskInfo
 
-Defined in: main.ts:183086
+Defined in: main.ts:183448
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`ContentGenerationCheckGrammarLiveResultInfo`](../classes/ContentGenerationCheckGrammarLiveResultInfo.md)[]
 
-Defined in: main.ts:183088
+Defined in: main.ts:183450
 
 array of results
 

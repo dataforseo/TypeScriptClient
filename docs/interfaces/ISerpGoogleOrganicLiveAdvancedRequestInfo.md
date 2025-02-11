@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleOrganicLiveAdvancedRequestInfo
 
-Defined in: main.ts:39554
+Defined in: main.ts:39570
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:39554
 
 > `optional` **browser\_screen\_height**: `number`
 
-Defined in: main.ts:39687
+Defined in: main.ts:39703
 
 browser screen height
 optional field
@@ -35,7 +35,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **browser\_screen\_resolution\_ratio**: `number`
 
-Defined in: main.ts:39697
+Defined in: main.ts:39713
 
 browser screen resolution ratio
 optional field
@@ -53,7 +53,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **browser\_screen\_width**: `number`
 
-Defined in: main.ts:39678
+Defined in: main.ts:39694
 
 browser screen width
 optional field
@@ -70,7 +70,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **calculate\_rectangles**: `boolean`
 
-Defined in: main.ts:39669
+Defined in: main.ts:39685
 
 calcualte pixel rankings for SERP elements in advanced results
 optional field
@@ -85,7 +85,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:39579
+Defined in: main.ts:39595
 
 parsing depth
 optional field
@@ -102,7 +102,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:39636
+Defined in: main.ts:39652
 
 device type
 optional field
@@ -115,7 +115,7 @@ default value: desktop
 
 > `optional` **group\_organic\_results**: `boolean`
 
-Defined in: main.ts:39662
+Defined in: main.ts:39678
 
 display related results
 optional field
@@ -129,7 +129,7 @@ default value: true
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:39564
+Defined in: main.ts:39580
 
 keyword
 required field
@@ -137,7 +137,7 @@ you can specify up to 700 characters in the keyword field
 all %## will be decoded (plus character ‘+’ will be decoded to a space character)
 if you need to use the “%” character for your keyword, please specify it as “%25”;
 if you need to use the “+” character for your keyword, please specify it as “%2B”;
-if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘site:’, ‘-site:’, the charge per task will be multiplied by 5
+if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘definition:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘site:’, the charge per task will be multiplied by 5
 Note: queries containing the ‘cache:’ parameter are not supported and will return a validation error
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
@@ -147,7 +147,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:39624
+Defined in: main.ts:39640
 
 search engine language code
 optional field if you specify language_name
@@ -162,7 +162,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:39617
+Defined in: main.ts:39633
 
 full name of search engine language
 optional field if you specify language_code
@@ -177,7 +177,7 @@ English
 
 > `optional` **load\_async\_ai\_overview**: `boolean`
 
-Defined in: main.ts:39712
+Defined in: main.ts:39728
 
 load asynchronous ai overview
 optional field
@@ -193,7 +193,7 @@ if the element is absent or contains "asynchronous_ai_overview": false, all extr
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:39600
+Defined in: main.ts:39616
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -208,7 +208,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:39610
+Defined in: main.ts:39626
 
 GPS coordinates of a location
 optional field if you specify location_name or location_code
@@ -226,7 +226,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:39593
+Defined in: main.ts:39609
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -241,7 +241,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:39586
+Defined in: main.ts:39602
 
 page crawl limit
 optional field
@@ -256,7 +256,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:39643
+Defined in: main.ts:39659
 
 device operating system
 optional field
@@ -271,7 +271,7 @@ default value: android
 
 > `optional` **people\_also\_ask\_click\_depth**: `number`
 
-Defined in: main.ts:39704
+Defined in: main.ts:39720
 
 clicks on the corresponding element
 optional field
@@ -286,7 +286,7 @@ possible values: from 1 to 4
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:39631
+Defined in: main.ts:39647
 
 search engine domain
 optional field
@@ -301,7 +301,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:39716
+Defined in: main.ts:39732
 
 additional parameters of the search query
 optional field
@@ -313,7 +313,7 @@ get the list of available parameters and additional details here
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:39722
+Defined in: main.ts:39738
 
 user-defined task identifier
 optional field
@@ -327,7 +327,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:39656
+Defined in: main.ts:39672
 
 target domain, subdomain, or webpage to get results for
 optional field
@@ -348,7 +348,7 @@ example.com/example-page*  – returns results for all domain’s URLs that star
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:39570
+Defined in: main.ts:39586
 
 direct URL of the search query
 optional field

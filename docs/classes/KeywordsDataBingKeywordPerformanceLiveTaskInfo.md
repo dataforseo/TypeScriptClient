@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingKeywordPerformanceLiveTaskInfo
 
-Defined in: main.ts:145694
+Defined in: main.ts:145858
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:145694
 
 > **new KeywordsDataBingKeywordPerformanceLiveTaskInfo**(`data`?): [`KeywordsDataBingKeywordPerformanceLiveTaskInfo`](KeywordsDataBingKeywordPerformanceLiveTaskInfo.md)
 
-Defined in: main.ts:145700
+Defined in: main.ts:145864
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataBingKeywordPerformanceLiveResultInfo`](KeywordsDataBingKeywordPerformanceLiveResultInfo.md)[]
 
-Defined in: main.ts:145696
+Defined in: main.ts:145860
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:145704
+Defined in: main.ts:145868
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:145704
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:145726
+Defined in: main.ts:145890
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:145726
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceLiveTaskInfo`](KeywordsDataBingKeywordPerformanceLiveTaskInfo.md)
 
-Defined in: main.ts:145719
+Defined in: main.ts:145883
 
 #### Parameters
 

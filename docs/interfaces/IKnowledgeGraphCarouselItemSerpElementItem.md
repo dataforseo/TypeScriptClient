@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphCarouselItemSerpElementItem
 
-Defined in: main.ts:29578
+Defined in: main.ts:29586
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:29578
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:29584
+Defined in: main.ts:29592
 
 google defined data attribute ID
 example:
@@ -34,7 +34,7 @@ action:listen_artist
 
 > `optional` **items**: [`KnowledgeGraphListElement`](../classes/KnowledgeGraphListElement.md)[]
 
-Defined in: main.ts:29588
+Defined in: main.ts:29596
 
 elements of search results found in SERP
 
@@ -44,7 +44,7 @@ elements of search results found in SERP
 
 > `optional` **link**: [`LinkElement`](../classes/LinkElement.md)
 
-Defined in: main.ts:29586
+Defined in: main.ts:29594
 
 link of the element
 
@@ -101,7 +101,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:29592
+Defined in: main.ts:29600
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -113,7 +113,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:29580
+Defined in: main.ts:29588
 
 title of the result in SERP
 

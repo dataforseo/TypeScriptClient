@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleNewsTaskGetAdvancedResponseInfo
 
-Defined in: main.ts:46578
+Defined in: main.ts:46594
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:46578
 
 > **new SerpGoogleNewsTaskGetAdvancedResponseInfo**(`data`?): [`SerpGoogleNewsTaskGetAdvancedResponseInfo`](SerpGoogleNewsTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:46584
+Defined in: main.ts:46600
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleNewsTaskGetAdvancedTaskInfo`](SerpGoogleNewsTaskGetAdvancedTaskInfo.md)[]
 
-Defined in: main.ts:46580
+Defined in: main.ts:46596
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:46588
+Defined in: main.ts:46604
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:46588
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:46610
+Defined in: main.ts:46626
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:46610
 
 > `static` **fromJS**(`data`): [`SerpGoogleNewsTaskGetAdvancedResponseInfo`](SerpGoogleNewsTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:46603
+Defined in: main.ts:46619
 
 #### Parameters
 

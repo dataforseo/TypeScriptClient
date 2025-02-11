@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsErrorsResultInfo
 
-Defined in: main.ts:90697
+Defined in: main.ts:90733
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:90697
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:90704
+Defined in: main.ts:90740
 
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -31,7 +31,7 @@ example:
 
 > `optional` **error\_code**: `number`
 
-Defined in: main.ts:90708
+Defined in: main.ts:90744
 
 error code
 
@@ -41,7 +41,7 @@ error code
 
 > `optional` **error\_message**: `string`
 
-Defined in: main.ts:90711
+Defined in: main.ts:90747
 
 error message or error URL
 error message (see full list) or URL that caused an error
@@ -52,7 +52,7 @@ error message (see full list) or URL that caused an error
 
 > `optional` **function**: `string`
 
-Defined in: main.ts:90706
+Defined in: main.ts:90742
 
 corresponding API function
 
@@ -62,7 +62,7 @@ corresponding API function
 
 > `optional` **http\_code**: `number`
 
-Defined in: main.ts:90718
+Defined in: main.ts:90754
 
 HTTP status code
 
@@ -72,7 +72,7 @@ HTTP status code
 
 > `optional` **http\_method**: `string`
 
-Defined in: main.ts:90716
+Defined in: main.ts:90752
 
 HTTP method
 
@@ -82,7 +82,7 @@ HTTP method
 
 > `optional` **http\_response**: `string`
 
-Defined in: main.ts:90723
+Defined in: main.ts:90759
 
 HTTP response
 server response
@@ -93,7 +93,7 @@ server response
 
 > `optional` **http\_time**: `number`
 
-Defined in: main.ts:90720
+Defined in: main.ts:90756
 
 time taken by HTTP request
 
@@ -103,7 +103,7 @@ time taken by HTTP request
 
 > `optional` **http\_url**: `string`
 
-Defined in: main.ts:90714
+Defined in: main.ts:90750
 
 URL that caused an error
 URL you used for making an API call
@@ -114,6 +114,6 @@ URL you used for making an API call
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:90699
+Defined in: main.ts:90735
 
 id of the task

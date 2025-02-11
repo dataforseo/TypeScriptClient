@@ -6,7 +6,7 @@
 
 # Interface: ISerpBaiduLocationsCountryTaskInfo
 
-Defined in: main.ts:78668
+Defined in: main.ts:78704
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpBaiduLocationsCountryResultInfo`](../classes/SerpBaiduLocationsCountryResultInfo.md)[]
 
-Defined in: main.ts:78670
+Defined in: main.ts:78706
 
 array of results
 

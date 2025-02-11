@@ -6,7 +6,7 @@
 
 # Class: SerpSeznamOrganicTaskGetHtmlResultInfo
 
-Defined in: main.ts:84120
+Defined in: main.ts:84156
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:84120
 
 > **new SerpSeznamOrganicTaskGetHtmlResultInfo**(`data`?): [`SerpSeznamOrganicTaskGetHtmlResultInfo`](SerpSeznamOrganicTaskGetHtmlResultInfo.md)
 
-Defined in: main.ts:84144
+Defined in: main.ts:84180
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:84144
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:84136
+Defined in: main.ts:84172
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:84140
+Defined in: main.ts:84176
 
 elements of search results found in SERP
 
@@ -71,7 +71,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:84138
+Defined in: main.ts:84174
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:84123
+Defined in: main.ts:84159
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -100,7 +100,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:84131
+Defined in: main.ts:84167
 
 language code in a POST array
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:84129
+Defined in: main.ts:84165
 
 location code in a POST array
 
@@ -128,7 +128,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:84127
+Defined in: main.ts:84163
 
 search engine domain in a POST array
 
@@ -142,7 +142,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:84125
+Defined in: main.ts:84161
 
 type of element
 
@@ -156,7 +156,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:84153
+Defined in: main.ts:84189
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:84153
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:84181
+Defined in: main.ts:84217
 
 #### Parameters
 
@@ -192,7 +192,7 @@ Defined in: main.ts:84181
 
 > `static` **fromJS**(`data`): [`SerpSeznamOrganicTaskGetHtmlResultInfo`](SerpSeznamOrganicTaskGetHtmlResultInfo.md)
 
-Defined in: main.ts:84174
+Defined in: main.ts:84210
 
 #### Parameters
 

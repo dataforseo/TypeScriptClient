@@ -6,7 +6,7 @@
 
 # Class: ProductInformationRows
 
-Defined in: main.ts:194364
+Defined in: main.ts:194852
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:194364
 
 > **new ProductInformationRows**(`data`?): [`ProductInformationRows`](ProductInformationRows.md)
 
-Defined in: main.ts:194374
+Defined in: main.ts:194862
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:194374
 
 > `optional` **rows**: [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)[]
 
-Defined in: main.ts:194370
+Defined in: main.ts:194858
 
 rows containing related product information
 
@@ -54,7 +54,7 @@ rows containing related product information
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:194368
+Defined in: main.ts:194856
 
 title under which related product information appears on the Amazon product page
 
@@ -68,7 +68,7 @@ title under which related product information appears on the Amazon product page
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:194366
+Defined in: main.ts:194854
 
 type of element
 
@@ -82,7 +82,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:194383
+Defined in: main.ts:194871
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:194383
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:194406
+Defined in: main.ts:194894
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:194406
 
 > `static` **fromJS**(`data`): [`ProductInformationRows`](ProductInformationRows.md)
 
-Defined in: main.ts:194399
+Defined in: main.ts:194887
 
 #### Parameters
 

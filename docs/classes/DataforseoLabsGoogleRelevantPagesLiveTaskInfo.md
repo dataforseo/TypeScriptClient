@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleRelevantPagesLiveTaskInfo
 
-Defined in: main.ts:104916
+Defined in: main.ts:104980
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:104916
 
 > **new DataforseoLabsGoogleRelevantPagesLiveTaskInfo**(`data`?): [`DataforseoLabsGoogleRelevantPagesLiveTaskInfo`](DataforseoLabsGoogleRelevantPagesLiveTaskInfo.md)
 
-Defined in: main.ts:104922
+Defined in: main.ts:104986
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleRelevantPagesLiveResultInfo`](DataforseoLabsGoogleRelevantPagesLiveResultInfo.md)[]
 
-Defined in: main.ts:104918
+Defined in: main.ts:104982
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:104926
+Defined in: main.ts:104990
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:104926
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:104948
+Defined in: main.ts:105012
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:104948
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleRelevantPagesLiveTaskInfo`](DataforseoLabsGoogleRelevantPagesLiveTaskInfo.md)
 
-Defined in: main.ts:104941
+Defined in: main.ts:105005
 
 #### Parameters
 

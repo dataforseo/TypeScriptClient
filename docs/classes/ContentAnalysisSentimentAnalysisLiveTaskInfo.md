@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisSentimentAnalysisLiveTaskInfo
 
-Defined in: main.ts:179398
+Defined in: main.ts:179760
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:179398
 
 > **new ContentAnalysisSentimentAnalysisLiveTaskInfo**(`data`?): [`ContentAnalysisSentimentAnalysisLiveTaskInfo`](ContentAnalysisSentimentAnalysisLiveTaskInfo.md)
 
-Defined in: main.ts:179404
+Defined in: main.ts:179766
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`ContentAnalysisSentimentAnalysisLiveResultInfo`](ContentAnalysisSentimentAnalysisLiveResultInfo.md)[]
 
-Defined in: main.ts:179400
+Defined in: main.ts:179762
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:179408
+Defined in: main.ts:179770
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:179408
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:179430
+Defined in: main.ts:179792
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:179430
 
 > `static` **fromJS**(`data`): [`ContentAnalysisSentimentAnalysisLiveTaskInfo`](ContentAnalysisSentimentAnalysisLiveTaskInfo.md)
 
-Defined in: main.ts:179423
+Defined in: main.ts:179785
 
 #### Parameters
 

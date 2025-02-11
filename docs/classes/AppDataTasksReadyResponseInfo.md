@@ -6,7 +6,7 @@
 
 # Class: AppDataTasksReadyResponseInfo
 
-Defined in: main.ts:199969
+Defined in: main.ts:200471
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:199969
 
 > **new AppDataTasksReadyResponseInfo**(`data`?): [`AppDataTasksReadyResponseInfo`](AppDataTasksReadyResponseInfo.md)
 
-Defined in: main.ts:199975
+Defined in: main.ts:200477
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataTasksReadyTaskInfo`](AppDataTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:199971
+Defined in: main.ts:200473
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:199979
+Defined in: main.ts:200481
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:199979
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:200001
+Defined in: main.ts:200503
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:200001
 
 > `static` **fromJS**(`data`): [`AppDataTasksReadyResponseInfo`](AppDataTasksReadyResponseInfo.md)
 
-Defined in: main.ts:199994
+Defined in: main.ts:200496
 
 #### Parameters
 

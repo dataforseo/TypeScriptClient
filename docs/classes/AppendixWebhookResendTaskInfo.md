@@ -6,7 +6,7 @@
 
 # Class: AppendixWebhookResendTaskInfo
 
-Defined in: main.ts:239318
+Defined in: main.ts:239746
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:239318
 
 > **new AppendixWebhookResendTaskInfo**(`data`?): [`AppendixWebhookResendTaskInfo`](AppendixWebhookResendTaskInfo.md)
 
-Defined in: main.ts:239326
+Defined in: main.ts:239754
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:239322
+Defined in: main.ts:239750
 
 array of results
 the value of this array is always null;
@@ -216,7 +216,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:239330
+Defined in: main.ts:239758
 
 #### Parameters
 
@@ -238,7 +238,7 @@ Defined in: main.ts:239330
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:239348
+Defined in: main.ts:239776
 
 #### Parameters
 
@@ -260,7 +260,7 @@ Defined in: main.ts:239348
 
 > `static` **fromJS**(`data`): [`AppendixWebhookResendTaskInfo`](AppendixWebhookResendTaskInfo.md)
 
-Defined in: main.ts:239341
+Defined in: main.ts:239769
 
 #### Parameters
 

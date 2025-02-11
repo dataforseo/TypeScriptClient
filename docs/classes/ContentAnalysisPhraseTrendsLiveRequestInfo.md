@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisPhraseTrendsLiveRequestInfo
 
-Defined in: main.ts:179940
+Defined in: main.ts:180302
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:179940
 
 > **new ContentAnalysisPhraseTrendsLiveRequestInfo**(`data`?): [`ContentAnalysisPhraseTrendsLiveRequestInfo`](ContentAnalysisPhraseTrendsLiveRequestInfo.md)
 
-Defined in: main.ts:180030
+Defined in: main.ts:180392
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:180030
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:179991
+Defined in: main.ts:180353
 
 starting date of the time range
 required field
@@ -58,7 +58,7 @@ example:
 
 > `optional` **date\_group**: `string`
 
-Defined in: main.ts:180003
+Defined in: main.ts:180365
 
 time range which will be used to group the results
 optional field
@@ -75,7 +75,7 @@ possible values: day, week, month
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:179998
+Defined in: main.ts:180360
 
 ending date of the time range
 optional field
@@ -94,14 +94,14 @@ example:
 
 > `optional` **initial\_dataset\_filter**: `string`[]
 
-Defined in: main.ts:180020
+Defined in: main.ts:180382
 
 initial dataset filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like, has, has_not
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like, has, has_not, match, not_match
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["domain","<>", "logitech.com"]
@@ -123,7 +123,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:179985
+Defined in: main.ts:180347
 
 maximum number of elements within internal arrays
 optional field
@@ -146,7 +146,7 @@ maximum value: 20
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:179949
+Defined in: main.ts:180311
 
 target keyword
 required field
@@ -167,7 +167,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **keyword\_fields**: `object`
 
-Defined in: main.ts:179961
+Defined in: main.ts:180323
 
 target keyword fields and target keywords
 optional field
@@ -195,7 +195,7 @@ example:
 
 > `optional` **page\_type**: `string`[]
 
-Defined in: main.ts:179967
+Defined in: main.ts:180329
 
 target page types
 optional field
@@ -213,7 +213,7 @@ possible values:
 
 > `optional` **search\_mode**: `string`
 
-Defined in: main.ts:179974
+Defined in: main.ts:180336
 
 results grouping type
 optional field
@@ -232,7 +232,7 @@ default value: as_is
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:180026
+Defined in: main.ts:180388
 
 user-defined task identifier
 optional field
@@ -250,7 +250,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:180039
+Defined in: main.ts:180401
 
 #### Parameters
 
@@ -268,7 +268,7 @@ Defined in: main.ts:180039
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:180079
+Defined in: main.ts:180441
 
 #### Parameters
 
@@ -286,7 +286,7 @@ Defined in: main.ts:180079
 
 > `static` **fromJS**(`data`): [`ContentAnalysisPhraseTrendsLiveRequestInfo`](ContentAnalysisPhraseTrendsLiveRequestInfo.md)
 
-Defined in: main.ts:180072
+Defined in: main.ts:180434
 
 #### Parameters
 

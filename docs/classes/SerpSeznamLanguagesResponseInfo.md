@@ -6,7 +6,7 @@
 
 # Class: SerpSeznamLanguagesResponseInfo
 
-Defined in: main.ts:82655
+Defined in: main.ts:82691
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:82655
 
 > **new SerpSeznamLanguagesResponseInfo**(`data`?): [`SerpSeznamLanguagesResponseInfo`](SerpSeznamLanguagesResponseInfo.md)
 
-Defined in: main.ts:82661
+Defined in: main.ts:82697
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpSeznamLanguagesTaskInfo`](SerpSeznamLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:82657
+Defined in: main.ts:82693
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:82665
+Defined in: main.ts:82701
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:82665
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:82687
+Defined in: main.ts:82723
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:82687
 
 > `static` **fromJS**(`data`): [`SerpSeznamLanguagesResponseInfo`](SerpSeznamLanguagesResponseInfo.md)
 
-Defined in: main.ts:82680
+Defined in: main.ts:82716
 
 #### Parameters
 

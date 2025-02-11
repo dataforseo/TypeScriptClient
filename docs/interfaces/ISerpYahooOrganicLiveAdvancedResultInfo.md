@@ -6,7 +6,7 @@
 
 # Interface: ISerpYahooOrganicLiveAdvancedResultInfo
 
-Defined in: main.ts:77729
+Defined in: main.ts:77765
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:77729
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:77743
+Defined in: main.ts:77779
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -29,7 +29,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:77748
+Defined in: main.ts:77784
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -42,7 +42,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:77759
+Defined in: main.ts:77795
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -55,7 +55,7 @@ featured_snippet, images, local_pack, hotels_pack, organic, paid, people_also_as
 
 > `optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
 
-Defined in: main.ts:77765
+Defined in: main.ts:77801
 
 items featured in the faq_box
 
@@ -65,7 +65,7 @@ items featured in the faq_box
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:77763
+Defined in: main.ts:77799
 
 the number of results returned in the items array
 
@@ -75,7 +75,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:77732
+Defined in: main.ts:77768
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -86,7 +86,7 @@ the keyword is returned with decoded %## (plus character ‘+’ will be decoded
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:77740
+Defined in: main.ts:77776
 
 language code in a POST array
 
@@ -96,7 +96,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:77738
+Defined in: main.ts:77774
 
 location code in a POST array
 
@@ -106,7 +106,7 @@ location code in a POST array
 
 > `optional` **refinement\_chips**: [`RefinementChipsInfo`](../classes/RefinementChipsInfo.md)
 
-Defined in: main.ts:77754
+Defined in: main.ts:77790
 
 search refinement chips
 equals null
@@ -117,7 +117,7 @@ equals null
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:77736
+Defined in: main.ts:77772
 
 search engine domain in a POST array
 
@@ -127,7 +127,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:77761
+Defined in: main.ts:77797
 
 total number of results in SERP
 
@@ -137,7 +137,7 @@ total number of results in SERP
 
 > `optional` **spell**: [`SpellInfo`](../classes/SpellInfo.md)
 
-Defined in: main.ts:77751
+Defined in: main.ts:77787
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -148,6 +148,6 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:77734
+Defined in: main.ts:77770
 
 type of element

@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleNewsTaskPostTaskInfo
 
-Defined in: main.ts:45636
+Defined in: main.ts:45652
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:45639
+Defined in: main.ts:45655
 
 array of results
 in this case, the value will be null

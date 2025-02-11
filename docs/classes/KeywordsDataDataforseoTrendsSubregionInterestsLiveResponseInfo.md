@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo
 
-Defined in: main.ts:136975
+Defined in: main.ts:137139
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:136975
 
 > **new KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo**(`data`?): [`KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo.md)
 
-Defined in: main.ts:136981
+Defined in: main.ts:137145
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataDataforseoTrendsSubregionInterestsLiveTaskInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveTaskInfo.md)[]
 
-Defined in: main.ts:136977
+Defined in: main.ts:137141
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:136985
+Defined in: main.ts:137149
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:136985
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:137007
+Defined in: main.ts:137171
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:137007
 
 > `static` **fromJS**(`data`): [`KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo.md)
 
-Defined in: main.ts:137000
+Defined in: main.ts:137164
 
 #### Parameters
 

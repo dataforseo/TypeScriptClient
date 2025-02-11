@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixMinuteStatisticsDataInfo
+[Documentation](../README.md) / AppendixMinuteStatisticsDataInfo
 
 # Class: AppendixMinuteStatisticsDataInfo
+
+Defined in: main.ts:235384
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,21 +22,17 @@
 
 > **new AppendixMinuteStatisticsDataInfo**(`data`?): [`AppendixMinuteStatisticsDataInfo`](AppendixMinuteStatisticsDataInfo.md)
 
+Defined in: main.ts:235418
+
 #### Parameters
 
-• **data?**: [`IAppendixMinuteStatisticsDataInfo`](../interfaces/IAppendixMinuteStatisticsDataInfo.md)
+##### data?
+
+[`IAppendixMinuteStatisticsDataInfo`](../interfaces/IAppendixMinuteStatisticsDataInfo.md)
 
 #### Returns
 
 [`AppendixMinuteStatisticsDataInfo`](AppendixMinuteStatisticsDataInfo.md)
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219798
-=======
-main.ts:219831
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Properties
 
@@ -42,17 +40,11 @@ main.ts:219831
 
 > `optional` **app\_data**: [`AppendixAppDataLimitsRatesDataInfo`](AppendixAppDataLimitsRatesDataInfo.md)
 
+Defined in: main.ts:235405
+
 #### Implementation of
 
 [`IAppendixMinuteStatisticsDataInfo`](../interfaces/IAppendixMinuteStatisticsDataInfo.md).[`app_data`](../interfaces/IAppendixMinuteStatisticsDataInfo.md#app_data)
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219785
-=======
-main.ts:219818
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -60,17 +52,11 @@ main.ts:219818
 
 > `optional` **appendix**: [`AppendixAppendixsRatesDataInfo`](AppendixAppendixsRatesDataInfo.md)
 
+Defined in: main.ts:235391
+
 #### Implementation of
 
 [`IAppendixMinuteStatisticsDataInfo`](../interfaces/IAppendixMinuteStatisticsDataInfo.md).[`appendix`](../interfaces/IAppendixMinuteStatisticsDataInfo.md#appendix)
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219771
-=======
-main.ts:219804
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -78,17 +64,11 @@ main.ts:219804
 
 > `optional` **backlinks**: [`AppendixBacklinksLimitsRatesDataInfo`](AppendixBacklinksLimitsRatesDataInfo.md)
 
+Defined in: main.ts:235403
+
 #### Implementation of
 
 [`IAppendixMinuteStatisticsDataInfo`](../interfaces/IAppendixMinuteStatisticsDataInfo.md).[`backlinks`](../interfaces/IAppendixMinuteStatisticsDataInfo.md#backlinks)
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219783
-=======
-main.ts:219816
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -96,17 +76,11 @@ main.ts:219816
 
 > `optional` **business\_data**: [`AppendixBusinessDataLimitsRatesDataInfo`](AppendixBusinessDataLimitsRatesDataInfo.md)
 
+Defined in: main.ts:235401
+
 #### Implementation of
 
 [`IAppendixMinuteStatisticsDataInfo`](../interfaces/IAppendixMinuteStatisticsDataInfo.md).[`business_data`](../interfaces/IAppendixMinuteStatisticsDataInfo.md#business_data)
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219781
-=======
-main.ts:219814
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -114,17 +88,11 @@ main.ts:219814
 
 > `optional` **content\_analysis**: [`AppendixContentAnalysisLimitsRatesDataInfo`](AppendixContentAnalysisLimitsRatesDataInfo.md)
 
+Defined in: main.ts:235407
+
 #### Implementation of
 
 [`IAppendixMinuteStatisticsDataInfo`](../interfaces/IAppendixMinuteStatisticsDataInfo.md).[`content_analysis`](../interfaces/IAppendixMinuteStatisticsDataInfo.md#content_analysis)
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219787
-=======
-main.ts:219820
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -132,17 +100,11 @@ main.ts:219820
 
 > `optional` **content\_generation**: [`AppendixContentGenerationLimitsRatesDataInfo`](AppendixContentGenerationLimitsRatesDataInfo.md)
 
+Defined in: main.ts:235409
+
 #### Implementation of
 
 [`IAppendixMinuteStatisticsDataInfo`](../interfaces/IAppendixMinuteStatisticsDataInfo.md).[`content_generation`](../interfaces/IAppendixMinuteStatisticsDataInfo.md#content_generation)
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219789
-=======
-main.ts:219822
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -150,17 +112,11 @@ main.ts:219822
 
 > `optional` **dataforseo\_labs**: [`AppendixDataforseoLabsLimitsRatesDataInfo`](AppendixDataforseoLabsLimitsRatesDataInfo.md)
 
+Defined in: main.ts:235393
+
 #### Implementation of
 
 [`IAppendixMinuteStatisticsDataInfo`](../interfaces/IAppendixMinuteStatisticsDataInfo.md).[`dataforseo_labs`](../interfaces/IAppendixMinuteStatisticsDataInfo.md#dataforseo_labs)
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219773
-=======
-main.ts:219806
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -168,17 +124,11 @@ main.ts:219806
 
 > `optional` **domain\_analytics**: [`AppendixDomainAnalyticsLimitsRatesDataInfo`](AppendixDomainAnalyticsLimitsRatesDataInfo.md)
 
+Defined in: main.ts:235395
+
 #### Implementation of
 
 [`IAppendixMinuteStatisticsDataInfo`](../interfaces/IAppendixMinuteStatisticsDataInfo.md).[`domain_analytics`](../interfaces/IAppendixMinuteStatisticsDataInfo.md#domain_analytics)
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219775
-=======
-main.ts:219808
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -186,17 +136,11 @@ main.ts:219808
 
 > `optional` **keywords\_data**: [`AppendixKeywordsDatasRatesDataInfo`](AppendixKeywordsDatasRatesDataInfo.md)
 
+Defined in: main.ts:235389
+
 #### Implementation of
 
 [`IAppendixMinuteStatisticsDataInfo`](../interfaces/IAppendixMinuteStatisticsDataInfo.md).[`keywords_data`](../interfaces/IAppendixMinuteStatisticsDataInfo.md#keywords_data)
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219769
-=======
-main.ts:219802
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -204,17 +148,11 @@ main.ts:219802
 
 > `optional` **merchant**: [`AppendixMerchantLimitsRatesDataInfo`](AppendixMerchantLimitsRatesDataInfo.md)
 
+Defined in: main.ts:235397
+
 #### Implementation of
 
 [`IAppendixMinuteStatisticsDataInfo`](../interfaces/IAppendixMinuteStatisticsDataInfo.md).[`merchant`](../interfaces/IAppendixMinuteStatisticsDataInfo.md#merchant)
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219777
-=======
-main.ts:219810
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -222,17 +160,11 @@ main.ts:219810
 
 > `optional` **on\_page**: [`AppendixOnPageLimitsRatesDataInfo`](AppendixOnPageLimitsRatesDataInfo.md)
 
+Defined in: main.ts:235399
+
 #### Implementation of
 
 [`IAppendixMinuteStatisticsDataInfo`](../interfaces/IAppendixMinuteStatisticsDataInfo.md).[`on_page`](../interfaces/IAppendixMinuteStatisticsDataInfo.md#on_page)
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219779
-=======
-main.ts:219812
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -240,17 +172,11 @@ main.ts:219812
 
 > `optional` **serp**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
+Defined in: main.ts:235385
+
 #### Implementation of
 
 [`IAppendixMinuteStatisticsDataInfo`](../interfaces/IAppendixMinuteStatisticsDataInfo.md).[`serp`](../interfaces/IAppendixMinuteStatisticsDataInfo.md#serp)
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219765
-=======
-main.ts:219798
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -258,19 +184,13 @@ main.ts:219798
 
 > `optional` **total**: `number`
 
+Defined in: main.ts:235387
+
 total amount of money deposited to your account
 
 #### Implementation of
 
 [`IAppendixMinuteStatisticsDataInfo`](../interfaces/IAppendixMinuteStatisticsDataInfo.md).[`total`](../interfaces/IAppendixMinuteStatisticsDataInfo.md#total)
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219767
-=======
-main.ts:219800
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -278,17 +198,11 @@ main.ts:219800
 
 > `optional` **total\_app\_data**: `number`
 
+Defined in: main.ts:235406
+
 #### Implementation of
 
 [`IAppendixMinuteStatisticsDataInfo`](../interfaces/IAppendixMinuteStatisticsDataInfo.md).[`total_app_data`](../interfaces/IAppendixMinuteStatisticsDataInfo.md#total_app_data)
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219786
-=======
-main.ts:219819
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -296,17 +210,11 @@ main.ts:219819
 
 > `optional` **total\_appendix**: `number`
 
+Defined in: main.ts:235392
+
 #### Implementation of
 
 [`IAppendixMinuteStatisticsDataInfo`](../interfaces/IAppendixMinuteStatisticsDataInfo.md).[`total_appendix`](../interfaces/IAppendixMinuteStatisticsDataInfo.md#total_appendix)
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219772
-=======
-main.ts:219805
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -314,17 +222,11 @@ main.ts:219805
 
 > `optional` **total\_backlinks**: `number`
 
+Defined in: main.ts:235404
+
 #### Implementation of
 
 [`IAppendixMinuteStatisticsDataInfo`](../interfaces/IAppendixMinuteStatisticsDataInfo.md).[`total_backlinks`](../interfaces/IAppendixMinuteStatisticsDataInfo.md#total_backlinks)
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219784
-=======
-main.ts:219817
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -332,17 +234,11 @@ main.ts:219817
 
 > `optional` **total\_business\_data**: `number`
 
+Defined in: main.ts:235402
+
 #### Implementation of
 
 [`IAppendixMinuteStatisticsDataInfo`](../interfaces/IAppendixMinuteStatisticsDataInfo.md).[`total_business_data`](../interfaces/IAppendixMinuteStatisticsDataInfo.md#total_business_data)
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219782
-=======
-main.ts:219815
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -350,17 +246,11 @@ main.ts:219815
 
 > `optional` **total\_content\_analysis**: `number`
 
+Defined in: main.ts:235408
+
 #### Implementation of
 
 [`IAppendixMinuteStatisticsDataInfo`](../interfaces/IAppendixMinuteStatisticsDataInfo.md).[`total_content_analysis`](../interfaces/IAppendixMinuteStatisticsDataInfo.md#total_content_analysis)
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219788
-=======
-main.ts:219821
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -368,17 +258,11 @@ main.ts:219821
 
 > `optional` **total\_content\_generation**: `number`
 
+Defined in: main.ts:235410
+
 #### Implementation of
 
 [`IAppendixMinuteStatisticsDataInfo`](../interfaces/IAppendixMinuteStatisticsDataInfo.md).[`total_content_generation`](../interfaces/IAppendixMinuteStatisticsDataInfo.md#total_content_generation)
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219790
-=======
-main.ts:219823
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -386,17 +270,11 @@ main.ts:219823
 
 > `optional` **total\_dataforseo\_labs**: `number`
 
+Defined in: main.ts:235394
+
 #### Implementation of
 
 [`IAppendixMinuteStatisticsDataInfo`](../interfaces/IAppendixMinuteStatisticsDataInfo.md).[`total_dataforseo_labs`](../interfaces/IAppendixMinuteStatisticsDataInfo.md#total_dataforseo_labs)
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219774
-=======
-main.ts:219807
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -404,17 +282,11 @@ main.ts:219807
 
 > `optional` **total\_domain\_analytics**: `number`
 
+Defined in: main.ts:235396
+
 #### Implementation of
 
 [`IAppendixMinuteStatisticsDataInfo`](../interfaces/IAppendixMinuteStatisticsDataInfo.md).[`total_domain_analytics`](../interfaces/IAppendixMinuteStatisticsDataInfo.md#total_domain_analytics)
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219776
-=======
-main.ts:219809
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -422,17 +294,11 @@ main.ts:219809
 
 > `optional` **total\_keywords\_data**: `number`
 
+Defined in: main.ts:235390
+
 #### Implementation of
 
 [`IAppendixMinuteStatisticsDataInfo`](../interfaces/IAppendixMinuteStatisticsDataInfo.md).[`total_keywords_data`](../interfaces/IAppendixMinuteStatisticsDataInfo.md#total_keywords_data)
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219770
-=======
-main.ts:219803
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -440,17 +306,11 @@ main.ts:219803
 
 > `optional` **total\_merchant**: `number`
 
+Defined in: main.ts:235398
+
 #### Implementation of
 
 [`IAppendixMinuteStatisticsDataInfo`](../interfaces/IAppendixMinuteStatisticsDataInfo.md).[`total_merchant`](../interfaces/IAppendixMinuteStatisticsDataInfo.md#total_merchant)
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219778
-=======
-main.ts:219811
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -458,17 +318,11 @@ main.ts:219811
 
 > `optional` **total\_on\_page**: `number`
 
+Defined in: main.ts:235400
+
 #### Implementation of
 
 [`IAppendixMinuteStatisticsDataInfo`](../interfaces/IAppendixMinuteStatisticsDataInfo.md).[`total_on_page`](../interfaces/IAppendixMinuteStatisticsDataInfo.md#total_on_page)
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219780
-=======
-main.ts:219813
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -476,23 +330,19 @@ main.ts:219813
 
 > `optional` **total\_serp**: `number`
 
+Defined in: main.ts:235388
+
 #### Implementation of
 
 [`IAppendixMinuteStatisticsDataInfo`](../interfaces/IAppendixMinuteStatisticsDataInfo.md).[`total_serp`](../interfaces/IAppendixMinuteStatisticsDataInfo.md#total_serp)
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219768
-=======
-main.ts:219801
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
 ### value?
 
 > `optional` **value**: `string`
+
+Defined in: main.ts:235414
 
 time period for grouping
 day in the yyyy-MM-dd format
@@ -502,35 +352,23 @@ minute in the yyyy-MM-dd HH:mm format
 
 [`IAppendixMinuteStatisticsDataInfo`](../interfaces/IAppendixMinuteStatisticsDataInfo.md).[`value`](../interfaces/IAppendixMinuteStatisticsDataInfo.md#value)
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219794
-=======
-main.ts:219827
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:235427
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219807
-=======
-main.ts:219840
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -538,21 +376,17 @@ main.ts:219840
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:235469
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219849
-=======
-main.ts:219882
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -560,18 +394,14 @@ main.ts:219882
 
 > `static` **fromJS**(`data`): [`AppendixMinuteStatisticsDataInfo`](AppendixMinuteStatisticsDataInfo.md)
 
+Defined in: main.ts:235462
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixMinuteStatisticsDataInfo`](AppendixMinuteStatisticsDataInfo.md)
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219842
-=======
-main.ts:219875
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

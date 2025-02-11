@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleOrganicTaskGetAdvancedResultInfo
 
-Defined in: main.ts:38169
+Defined in: main.ts:38185
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:38169
 
 > **new SerpGoogleOrganicTaskGetAdvancedResultInfo**(`data`?): [`SerpGoogleOrganicTaskGetAdvancedResultInfo`](SerpGoogleOrganicTaskGetAdvancedResultInfo.md)
 
-Defined in: main.ts:38208
+Defined in: main.ts:38224
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:38208
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:38183
+Defined in: main.ts:38199
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:38188
+Defined in: main.ts:38204
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:38198
+Defined in: main.ts:38214
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -89,7 +89,7 @@ answer_box, app, carousel, multi_carousel, featured_snippet, google_flights, goo
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-Defined in: main.ts:38204
+Defined in: main.ts:38220
 
 items present in the element
 
@@ -103,7 +103,7 @@ items present in the element
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:38202
+Defined in: main.ts:38218
 
 the number of results returned in the items array
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:38172
+Defined in: main.ts:38188
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -132,7 +132,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:38180
+Defined in: main.ts:38196
 
 language code in a POST array
 
@@ -146,7 +146,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:38178
+Defined in: main.ts:38194
 
 location code in a POST array
 
@@ -160,7 +160,7 @@ location code in a POST array
 
 > `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
 
-Defined in: main.ts:38193
+Defined in: main.ts:38209
 
 search refinement chips
 
@@ -174,7 +174,7 @@ search refinement chips
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:38176
+Defined in: main.ts:38192
 
 search engine domain in a POST array
 
@@ -188,7 +188,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:38200
+Defined in: main.ts:38216
 
 total number of results in SERP
 
@@ -202,7 +202,7 @@ total number of results in SERP
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:38191
+Defined in: main.ts:38207
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -217,7 +217,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:38174
+Defined in: main.ts:38190
 
 type of element
 
@@ -231,7 +231,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:38217
+Defined in: main.ts:38233
 
 #### Parameters
 
@@ -249,7 +249,7 @@ Defined in: main.ts:38217
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:38254
+Defined in: main.ts:38270
 
 #### Parameters
 
@@ -267,7 +267,7 @@ Defined in: main.ts:38254
 
 > `static` **fromJS**(`data`): [`SerpGoogleOrganicTaskGetAdvancedResultInfo`](SerpGoogleOrganicTaskGetAdvancedResultInfo.md)
 
-Defined in: main.ts:38247
+Defined in: main.ts:38263
 
 #### Parameters
 

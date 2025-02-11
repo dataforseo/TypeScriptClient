@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationCheckGrammarLanguagesTaskInfo
 
-Defined in: main.ts:183204
+Defined in: main.ts:183566
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:183204
 
 > **new ContentGenerationCheckGrammarLanguagesTaskInfo**(`data`?): [`ContentGenerationCheckGrammarLanguagesTaskInfo`](ContentGenerationCheckGrammarLanguagesTaskInfo.md)
 
-Defined in: main.ts:183210
+Defined in: main.ts:183572
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`ContentGenerationCheckGrammarLanguagesResultInfo`](ContentGenerationCheckGrammarLanguagesResultInfo.md)[]
 
-Defined in: main.ts:183206
+Defined in: main.ts:183568
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:183214
+Defined in: main.ts:183576
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:183214
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:183236
+Defined in: main.ts:183598
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:183236
 
 > `static` **fromJS**(`data`): [`ContentGenerationCheckGrammarLanguagesTaskInfo`](ContentGenerationCheckGrammarLanguagesTaskInfo.md)
 
-Defined in: main.ts:183229
+Defined in: main.ts:183591
 
 #### Parameters
 

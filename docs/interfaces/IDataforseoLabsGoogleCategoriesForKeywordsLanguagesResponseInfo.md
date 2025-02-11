@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleCategoriesForKeywordsLanguagesResponseInfo
 
-Defined in: main.ts:97039
+Defined in: main.ts:97067
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsGoogleCategoriesForKeywordsLanguagesTaskInfo`](../classes/DataforseoLabsGoogleCategoriesForKeywordsLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:97041
+Defined in: main.ts:97069
 
 array of tasks
 

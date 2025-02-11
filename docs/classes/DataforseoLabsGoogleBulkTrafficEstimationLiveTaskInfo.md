@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleBulkTrafficEstimationLiveTaskInfo
 
-Defined in: main.ts:111048
+Defined in: main.ts:111116
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:111048
 
 > **new DataforseoLabsGoogleBulkTrafficEstimationLiveTaskInfo**(`data`?): [`DataforseoLabsGoogleBulkTrafficEstimationLiveTaskInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveTaskInfo.md)
 
-Defined in: main.ts:111054
+Defined in: main.ts:111122
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo.md)[]
 
-Defined in: main.ts:111050
+Defined in: main.ts:111118
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:111058
+Defined in: main.ts:111126
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:111058
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:111080
+Defined in: main.ts:111148
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:111080
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleBulkTrafficEstimationLiveTaskInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveTaskInfo.md)
 
-Defined in: main.ts:111073
+Defined in: main.ts:111141
 
 #### Parameters
 

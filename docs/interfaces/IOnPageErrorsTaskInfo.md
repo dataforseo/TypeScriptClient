@@ -6,7 +6,7 @@
 
 # Interface: IOnPageErrorsTaskInfo
 
-Defined in: main.ts:163622
+Defined in: main.ts:163786
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`OnPageErrorsResultInfo`](../classes/OnPageErrorsResultInfo.md)[]
 
-Defined in: main.ts:163624
+Defined in: main.ts:163788
 
 array of results
 

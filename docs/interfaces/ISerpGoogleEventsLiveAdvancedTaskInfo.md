@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleEventsLiveAdvancedTaskInfo
 
-Defined in: main.ts:49803
+Defined in: main.ts:49819
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleEventsLiveAdvancedResultInfo`](../classes/SerpGoogleEventsLiveAdvancedResultInfo.md)[]
 
-Defined in: main.ts:49805
+Defined in: main.ts:49821
 
 array of results
 

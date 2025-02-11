@@ -6,7 +6,7 @@
 
 # Class: SerpYahooLanguagesTaskInfo
 
-Defined in: main.ts:75060
+Defined in: main.ts:75096
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:75060
 
 > **new SerpYahooLanguagesTaskInfo**(`data`?): [`SerpYahooLanguagesTaskInfo`](SerpYahooLanguagesTaskInfo.md)
 
-Defined in: main.ts:75066
+Defined in: main.ts:75102
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpYahooLanguagesResultInfo`](SerpYahooLanguagesResultInfo.md)[]
 
-Defined in: main.ts:75062
+Defined in: main.ts:75098
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:75070
+Defined in: main.ts:75106
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:75070
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:75092
+Defined in: main.ts:75128
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:75092
 
 > `static` **fromJS**(`data`): [`SerpYahooLanguagesTaskInfo`](SerpYahooLanguagesTaskInfo.md)
 
-Defined in: main.ts:75085
+Defined in: main.ts:75121
 
 #### Parameters
 

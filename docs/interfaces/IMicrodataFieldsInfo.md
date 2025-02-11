@@ -6,7 +6,7 @@
 
 # Interface: IMicrodataFieldsInfo
 
-Defined in: main.ts:171786
+Defined in: main.ts:171950
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:171786
 
 > `optional` **fields**: [`MicrodataFieldsInfo`](../classes/MicrodataFieldsInfo.md)[]
 
-Defined in: main.ts:171801
+Defined in: main.ts:171965
 
 microdata fields
 an array of objects containing data fields related to the certain microdata type
@@ -29,7 +29,7 @@ an array of objects containing data fields related to the certain microdata type
 
 > `optional` **name**: `string`
 
-Defined in: main.ts:171789
+Defined in: main.ts:171953
 
 field name
 name of the data field
@@ -40,7 +40,7 @@ name of the data field
 
 > `optional` **test\_results**: [`Test_results`](../classes/Test_results.md)
 
-Defined in: main.ts:171798
+Defined in: main.ts:171962
 
 microdata validation test results
 sub-type microdata test results that contain detected errors and related messages
@@ -51,7 +51,7 @@ sub-type microdata test results that contain detected errors and related message
 
 > `optional` **types**: `string`[]
 
-Defined in: main.ts:171792
+Defined in: main.ts:171956
 
 parent microdata types
 for a full list of available types, please visit schema.org
@@ -62,7 +62,7 @@ for a full list of available types, please visit schema.org
 
 > `optional` **value**: `string`
 
-Defined in: main.ts:171795
+Defined in: main.ts:171959
 
 microdata value
 microdata value specified on a target web page

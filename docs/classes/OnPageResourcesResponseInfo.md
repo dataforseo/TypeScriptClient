@@ -6,7 +6,7 @@
 
 # Class: OnPageResourcesResponseInfo
 
-Defined in: main.ts:168415
+Defined in: main.ts:168579
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:168415
 
 > **new OnPageResourcesResponseInfo**(`data`?): [`OnPageResourcesResponseInfo`](OnPageResourcesResponseInfo.md)
 
-Defined in: main.ts:168421
+Defined in: main.ts:168585
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageResourcesTaskInfo`](OnPageResourcesTaskInfo.md)[]
 
-Defined in: main.ts:168417
+Defined in: main.ts:168581
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:168425
+Defined in: main.ts:168589
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:168425
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:168447
+Defined in: main.ts:168611
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:168447
 
 > `static` **fromJS**(`data`): [`OnPageResourcesResponseInfo`](OnPageResourcesResponseInfo.md)
 
-Defined in: main.ts:168440
+Defined in: main.ts:168604
 
 #### Parameters
 

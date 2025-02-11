@@ -6,7 +6,7 @@
 
 # Class: BacklinksCompetitorsLiveTaskInfo
 
-Defined in: main.ts:157178
+Defined in: main.ts:157342
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:157178
 
 > **new BacklinksCompetitorsLiveTaskInfo**(`data`?): [`BacklinksCompetitorsLiveTaskInfo`](BacklinksCompetitorsLiveTaskInfo.md)
 
-Defined in: main.ts:157184
+Defined in: main.ts:157348
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`BacklinksCompetitorsLiveResultInfo`](BacklinksCompetitorsLiveResultInfo.md)[]
 
-Defined in: main.ts:157180
+Defined in: main.ts:157344
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:157188
+Defined in: main.ts:157352
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:157188
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:157210
+Defined in: main.ts:157374
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:157210
 
 > `static` **fromJS**(`data`): [`BacklinksCompetitorsLiveTaskInfo`](BacklinksCompetitorsLiveTaskInfo.md)
 
-Defined in: main.ts:157203
+Defined in: main.ts:157367
 
 #### Parameters
 

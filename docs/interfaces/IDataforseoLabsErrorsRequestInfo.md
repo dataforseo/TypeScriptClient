@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsErrorsRequestInfo
 
-Defined in: main.ts:90577
+Defined in: main.ts:90613
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:90577
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:90600
+Defined in: main.ts:90636
 
 start time for filtering results
 optional field
@@ -33,7 +33,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:90607
+Defined in: main.ts:90643
 
 finish time for filtering results
 optional field
@@ -48,7 +48,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:90593
+Defined in: main.ts:90629
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -62,7 +62,7 @@ example: dataforseo_labs/related_keywords/live
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:90582
+Defined in: main.ts:90618
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -75,7 +75,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:90587
+Defined in: main.ts:90623
 
 offset in the results array of returned tasks
 optional field

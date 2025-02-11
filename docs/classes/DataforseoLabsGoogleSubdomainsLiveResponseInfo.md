@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleSubdomainsLiveResponseInfo
 
-Defined in: main.ts:104369
+Defined in: main.ts:104421
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:104369
 
 > **new DataforseoLabsGoogleSubdomainsLiveResponseInfo**(`data`?): [`DataforseoLabsGoogleSubdomainsLiveResponseInfo`](DataforseoLabsGoogleSubdomainsLiveResponseInfo.md)
 
-Defined in: main.ts:104375
+Defined in: main.ts:104427
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsGoogleSubdomainsLiveTaskInfo`](DataforseoLabsGoogleSubdomainsLiveTaskInfo.md)[]
 
-Defined in: main.ts:104371
+Defined in: main.ts:104423
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:104379
+Defined in: main.ts:104431
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:104379
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:104401
+Defined in: main.ts:104453
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:104401
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleSubdomainsLiveResponseInfo`](DataforseoLabsGoogleSubdomainsLiveResponseInfo.md)
 
-Defined in: main.ts:104394
+Defined in: main.ts:104446
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: OnPageLighthouseTaskGetJsonResponseInfo
 
-Defined in: main.ts:175997
+Defined in: main.ts:176361
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:175997
 
 > **new OnPageLighthouseTaskGetJsonResponseInfo**(`data`?): [`OnPageLighthouseTaskGetJsonResponseInfo`](OnPageLighthouseTaskGetJsonResponseInfo.md)
 
-Defined in: main.ts:176003
+Defined in: main.ts:176367
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageLighthouseTaskGetJsonTaskInfo`](OnPageLighthouseTaskGetJsonTaskInfo.md)[]
 
-Defined in: main.ts:175999
+Defined in: main.ts:176363
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:176007
+Defined in: main.ts:176371
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:176007
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:176029
+Defined in: main.ts:176393
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:176029
 
 > `static` **fromJS**(`data`): [`OnPageLighthouseTaskGetJsonResponseInfo`](OnPageLighthouseTaskGetJsonResponseInfo.md)
 
-Defined in: main.ts:176022
+Defined in: main.ts:176386
 
 #### Parameters
 

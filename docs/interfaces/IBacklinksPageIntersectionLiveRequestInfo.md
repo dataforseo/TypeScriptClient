@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksPageIntersectionLiveRequestInfo
 
-Defined in: main.ts:158467
+Defined in: main.ts:158631
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:158467
 
 > `optional` **backlinks\_status\_type**: `string`
 
-Defined in: main.ts:158497
+Defined in: main.ts:158661
 
 set what backlinks to return and count
 optional field
@@ -35,7 +35,7 @@ default value: live
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
-Defined in: main.ts:158563
+Defined in: main.ts:158727
 
 indicates if internal backlinks from subdomains to the target will be excluded from the results
 optional field
@@ -49,7 +49,7 @@ default value: true
 
 > `optional` **exclude\_targets**: `string`[]
 
-Defined in: main.ts:158488
+Defined in: main.ts:158652
 
 domains, subdomains or webpages you want to exclude
 optional field
@@ -67,14 +67,14 @@ example:
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:158514
+Defined in: main.ts:158678
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, =, <>, in, not_in, like, not_like, ilike, not_ilike
+regex, not_regex, =, <>, in, not_in, like, not_like, ilike, not_ilike, match, not_match
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["1.rank",">","80"]
@@ -92,7 +92,7 @@ The full list of possible filters is available here.
 
 > `optional` **include\_indirect\_links**: `boolean`
 
-Defined in: main.ts:158557
+Defined in: main.ts:158721
 
 indicates if indirect links to the targets will be included in the results
 optional field
@@ -106,7 +106,7 @@ default value: true
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:158551
+Defined in: main.ts:158715
 
 indicates if the subdomains of the targets will be included in the search
 optional field
@@ -119,7 +119,7 @@ default value: true
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:158546
+Defined in: main.ts:158710
 
 maximum number of elements within internal arrays
 optional field
@@ -135,7 +135,7 @@ maximum value: 1000
 
 > `optional` **intersection\_mode**: `string`
 
-Defined in: main.ts:158571
+Defined in: main.ts:158735
 
 indicates whether to intersect backlinks
 optional field
@@ -151,7 +151,7 @@ default value: all
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:158538
+Defined in: main.ts:158702
 
 the maximum number of returned backlinks
 optional field
@@ -164,7 +164,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:158533
+Defined in: main.ts:158697
 
 offset in the results array of the returned backlinks
 optional field
@@ -177,7 +177,7 @@ if you specify the 10 value, the first ten backlinks in the results array will b
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:158528
+Defined in: main.ts:158692
 
 results sorting rules
 optional field
@@ -199,7 +199,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:158577
+Defined in: main.ts:158741
 
 user-defined task identifier
 optional field
@@ -213,7 +213,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `object`
 
-Defined in: main.ts:158478
+Defined in: main.ts:158642
 
 domains, subdomains or webpages to get links for
 required field

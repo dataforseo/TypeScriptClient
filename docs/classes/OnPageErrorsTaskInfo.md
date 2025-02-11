@@ -6,7 +6,7 @@
 
 # Class: OnPageErrorsTaskInfo
 
-Defined in: main.ts:163574
+Defined in: main.ts:163738
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:163574
 
 > **new OnPageErrorsTaskInfo**(`data`?): [`OnPageErrorsTaskInfo`](OnPageErrorsTaskInfo.md)
 
-Defined in: main.ts:163580
+Defined in: main.ts:163744
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`OnPageErrorsResultInfo`](OnPageErrorsResultInfo.md)[]
 
-Defined in: main.ts:163576
+Defined in: main.ts:163740
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:163584
+Defined in: main.ts:163748
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:163584
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:163606
+Defined in: main.ts:163770
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:163606
 
 > `static` **fromJS**(`data`): [`OnPageErrorsTaskInfo`](OnPageErrorsTaskInfo.md)
 
-Defined in: main.ts:163599
+Defined in: main.ts:163763
 
 #### Parameters
 

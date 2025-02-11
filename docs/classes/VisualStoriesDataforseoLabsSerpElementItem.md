@@ -6,7 +6,7 @@
 
 # Class: VisualStoriesDataforseoLabsSerpElementItem
 
-Defined in: main.ts:109077
+Defined in: main.ts:109133
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:109077
 
 > **new VisualStoriesDataforseoLabsSerpElementItem**(`data`?): [`VisualStoriesDataforseoLabsSerpElementItem`](VisualStoriesDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:109083
+Defined in: main.ts:109139
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **items**: [`LicensesElement`](LicensesElement.md)[]
 
-Defined in: main.ts:109079
+Defined in: main.ts:109135
 
 elements of search results found in SERP
 
@@ -168,7 +168,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:109088
+Defined in: main.ts:109144
 
 #### Parameters
 
@@ -190,7 +190,7 @@ Defined in: main.ts:109088
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:109110
+Defined in: main.ts:109166
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:109110
 
 > `static` **fromJS**(`data`): [`VisualStoriesDataforseoLabsSerpElementItem`](VisualStoriesDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:109103
+Defined in: main.ts:109159
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: ISerpBaiduOrganicTaskPostTaskInfo
 
-Defined in: main.ts:79261
+Defined in: main.ts:79297
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:79264
+Defined in: main.ts:79300
 
 array of results
 in this case, the value will be null

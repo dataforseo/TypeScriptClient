@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo
 
-Defined in: main.ts:95796
+Defined in: main.ts:95822
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:95796
 
 > **new DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo**(`data`?): [`DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md)
 
-Defined in: main.ts:95810
+Defined in: main.ts:95836
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:95810
 
 > `optional` **items**: [`DataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](DataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md)[]
 
-Defined in: main.ts:95806
+Defined in: main.ts:95832
 
 contains keywords and related data
 
@@ -54,7 +54,7 @@ contains keywords and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:95804
+Defined in: main.ts:95830
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:95802
+Defined in: main.ts:95828
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:95800
+Defined in: main.ts:95826
 
 location code in a POST array
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:95798
+Defined in: main.ts:95824
 
 search engine type
 
@@ -110,7 +110,7 @@ search engine type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:95819
+Defined in: main.ts:95845
 
 #### Parameters
 
@@ -128,7 +128,7 @@ Defined in: main.ts:95819
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:95844
+Defined in: main.ts:95870
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Defined in: main.ts:95844
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md)
 
-Defined in: main.ts:95837
+Defined in: main.ts:95863
 
 #### Parameters
 

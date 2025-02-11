@@ -6,7 +6,7 @@
 
 # Interface: IGraphElement
 
-Defined in: main.ts:35008
+Defined in: main.ts:35024
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:35008
 
 > `optional` **date**: `string`
 
-Defined in: main.ts:35012
+Defined in: main.ts:35028
 
 the posting date
 
@@ -28,7 +28,7 @@ the posting date
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:35010
+Defined in: main.ts:35026
 
 type of element
 
@@ -38,6 +38,6 @@ type of element
 
 > `optional` **value**: `number`
 
-Defined in: main.ts:35014
+Defined in: main.ts:35030
 
 the value of the rating

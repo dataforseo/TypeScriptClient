@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisLanguagesResponseInfo
 
-Defined in: main.ts:177193
+Defined in: main.ts:177557
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`ContentAnalysisLanguagesTaskInfo`](../classes/ContentAnalysisLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:177195
+Defined in: main.ts:177559
 
 array of tasks
 

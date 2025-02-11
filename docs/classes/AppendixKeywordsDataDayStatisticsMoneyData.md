@@ -6,7 +6,7 @@
 
 # Class: AppendixKeywordsDataDayStatisticsMoneyData
 
-Defined in: main.ts:235272
+Defined in: main.ts:235792
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:235272
 
 > **new AppendixKeywordsDataDayStatisticsMoneyData**(`data`?): [`AppendixKeywordsDataDayStatisticsMoneyData`](AppendixKeywordsDataDayStatisticsMoneyData.md)
 
-Defined in: main.ts:235296
+Defined in: main.ts:235816
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:235296
 
 > `optional` **ad\_traffic\_by\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:235276
+Defined in: main.ts:235796
 
 #### Implementation of
 
@@ -50,9 +50,9 @@ Defined in: main.ts:235276
 
 ### audience\_estimation?
 
-> `optional` **audience\_estimation**: [`AppendixDayLimitsRatesDataInfo`](AppendixDayLimitsRatesDataInfo.md)
+> `optional` **audience\_estimation**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:235289
+Defined in: main.ts:235809
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:235289
 
 > `optional` **bing**: [`AppendixBingKeywordsDataDayStatisticsDataInfo`](AppendixBingKeywordsDataDayStatisticsDataInfo.md)
 
-Defined in: main.ts:235283
+Defined in: main.ts:235803
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:235283
 
 > `optional` **categories**: `number`
 
-Defined in: main.ts:235281
+Defined in: main.ts:235801
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:235281
 
 > `optional` **clickstream\_data**: [`AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo`](AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:235288
+Defined in: main.ts:235808
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:235288
 
 > `optional` **dataforseo\_trends**: [`AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo`](AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:235287
+Defined in: main.ts:235807
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:235287
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:235282
+Defined in: main.ts:235802
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:235282
 
 > `optional` **explore**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:235280
+Defined in: main.ts:235800
 
 #### Implementation of
 
@@ -136,7 +136,7 @@ Defined in: main.ts:235280
 
 > `optional` **google**: [`AppendixBingKeywordsDataLimitsRatesDataInfo`](AppendixBingKeywordsDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:235292
+Defined in: main.ts:235812
 
 #### Implementation of
 
@@ -148,7 +148,7 @@ Defined in: main.ts:235292
 
 > `optional` **google\_ads**: [`AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`](AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:235286
+Defined in: main.ts:235806
 
 #### Implementation of
 
@@ -160,7 +160,7 @@ Defined in: main.ts:235286
 
 > `optional` **keyword\_performance**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:235284
+Defined in: main.ts:235804
 
 #### Implementation of
 
@@ -170,9 +170,9 @@ Defined in: main.ts:235284
 
 ### keyword\_suggestions\_for\_url?
 
-> `optional` **keyword\_suggestions\_for\_url**: [`AppendixDayLimitsRatesDataInfo`](AppendixDayLimitsRatesDataInfo.md)
+> `optional` **keyword\_suggestions\_for\_url**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:235290
+Defined in: main.ts:235810
 
 #### Implementation of
 
@@ -184,7 +184,7 @@ Defined in: main.ts:235290
 
 > `optional` **keywords\_for\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:235273
+Defined in: main.ts:235793
 
 #### Implementation of
 
@@ -196,7 +196,7 @@ Defined in: main.ts:235273
 
 > `optional` **keywords\_for\_site**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:235274
+Defined in: main.ts:235794
 
 #### Implementation of
 
@@ -208,7 +208,7 @@ Defined in: main.ts:235274
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:235277
+Defined in: main.ts:235797
 
 #### Implementation of
 
@@ -220,7 +220,7 @@ Defined in: main.ts:235277
 
 > `optional` **locations**: `number`
 
-Defined in: main.ts:235278
+Defined in: main.ts:235798
 
 #### Implementation of
 
@@ -232,7 +232,7 @@ Defined in: main.ts:235278
 
 > `optional` **locations\_and\_languages**: `number`
 
-Defined in: main.ts:235285
+Defined in: main.ts:235805
 
 #### Implementation of
 
@@ -244,7 +244,7 @@ Defined in: main.ts:235285
 
 > `optional` **search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:235275
+Defined in: main.ts:235795
 
 #### Implementation of
 
@@ -254,9 +254,9 @@ Defined in: main.ts:235275
 
 ### search\_volume\_history?
 
-> `optional` **search\_volume\_history**: [`AppendixDayLimitsRatesDataInfo`](AppendixDayLimitsRatesDataInfo.md)
+> `optional` **search\_volume\_history**: [`AppendixJobsSerpLimitsRatesDataInfo`](AppendixJobsSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:235291
+Defined in: main.ts:235811
 
 #### Implementation of
 
@@ -268,7 +268,7 @@ Defined in: main.ts:235291
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:235279
+Defined in: main.ts:235799
 
 #### Implementation of
 
@@ -280,7 +280,7 @@ Defined in: main.ts:235279
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:235305
+Defined in: main.ts:235825
 
 #### Parameters
 
@@ -298,7 +298,7 @@ Defined in: main.ts:235305
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:235341
+Defined in: main.ts:235861
 
 #### Parameters
 
@@ -316,7 +316,7 @@ Defined in: main.ts:235341
 
 > `static` **fromJS**(`data`): [`AppendixKeywordsDataDayStatisticsMoneyData`](AppendixKeywordsDataDayStatisticsMoneyData.md)
 
-Defined in: main.ts:235334
+Defined in: main.ts:235854
 
 #### Parameters
 

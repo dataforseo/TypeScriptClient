@@ -6,7 +6,7 @@
 
 # Interface: IOnPageTasksReadyResponseInfo
 
-Defined in: main.ts:165175
+Defined in: main.ts:165339
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageTasksReadyTaskInfo`](../classes/OnPageTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:165177
+Defined in: main.ts:165341
 
 array of tasks
 

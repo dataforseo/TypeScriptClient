@@ -6,7 +6,7 @@
 
 # Class: OnPageNonIndexableResponseInfo
 
-Defined in: main.ts:170633
+Defined in: main.ts:170797
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:170633
 
 > **new OnPageNonIndexableResponseInfo**(`data`?): [`OnPageNonIndexableResponseInfo`](OnPageNonIndexableResponseInfo.md)
 
-Defined in: main.ts:170639
+Defined in: main.ts:170803
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageNonIndexableTaskInfo`](OnPageNonIndexableTaskInfo.md)[]
 
-Defined in: main.ts:170635
+Defined in: main.ts:170799
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:170643
+Defined in: main.ts:170807
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:170643
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:170665
+Defined in: main.ts:170829
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:170665
 
 > `static` **fromJS**(`data`): [`OnPageNonIndexableResponseInfo`](OnPageNonIndexableResponseInfo.md)
 
-Defined in: main.ts:170658
+Defined in: main.ts:170822
 
 #### Parameters
 

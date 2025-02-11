@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingKeywordPerformanceTaskPostResponseInfo
 
-Defined in: main.ts:144737
+Defined in: main.ts:144901
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:144737
 
 > **new KeywordsDataBingKeywordPerformanceTaskPostResponseInfo**(`data`?): [`KeywordsDataBingKeywordPerformanceTaskPostResponseInfo`](KeywordsDataBingKeywordPerformanceTaskPostResponseInfo.md)
 
-Defined in: main.ts:144743
+Defined in: main.ts:144907
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataBingKeywordPerformanceTaskPostTaskInfo`](KeywordsDataBingKeywordPerformanceTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:144739
+Defined in: main.ts:144903
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:144747
+Defined in: main.ts:144911
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:144747
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:144769
+Defined in: main.ts:144933
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:144769
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceTaskPostResponseInfo`](KeywordsDataBingKeywordPerformanceTaskPostResponseInfo.md)
 
-Defined in: main.ts:144762
+Defined in: main.ts:144926
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleEventsLiveAdvancedRequestInfo
 
-Defined in: main.ts:49351
+Defined in: main.ts:49367
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:49351
 
 > **new SerpGoogleEventsLiveAdvancedRequestInfo**(`data`?): [`SerpGoogleEventsLiveAdvancedRequestInfo`](SerpGoogleEventsLiveAdvancedRequestInfo.md)
 
-Defined in: main.ts:49444
+Defined in: main.ts:49460
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:49444
 
 > `optional` **date\_range**: `string`
 
-Defined in: main.ts:49405
+Defined in: main.ts:49421
 
 date range to get events for
 optional field
@@ -57,7 +57,7 @@ possible values: today, tomorrow, week, weekend, next_week, month, next_month
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:49427
+Defined in: main.ts:49443
 
 parsing depth
 optional field
@@ -78,7 +78,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:49359
+Defined in: main.ts:49375
 
 keyword
 required field
@@ -98,7 +98,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:49400
+Defined in: main.ts:49416
 
 search engine language code
 optional field
@@ -118,7 +118,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:49392
+Defined in: main.ts:49408
 
 full name of search engine language
 optional field
@@ -138,7 +138,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:49373
+Defined in: main.ts:49389
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -157,7 +157,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:49384
+Defined in: main.ts:49400
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -180,7 +180,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:49366
+Defined in: main.ts:49382
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -199,7 +199,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:49434
+Defined in: main.ts:49450
 
 page crawl limit
 optional field
@@ -218,7 +218,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:49411
+Defined in: main.ts:49427
 
 device operating system
 optional field
@@ -236,7 +236,7 @@ default value: windows
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:49418
+Defined in: main.ts:49434
 
 search engine domain
 optional field
@@ -255,7 +255,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:49440
+Defined in: main.ts:49456
 
 user-defined task identifier
 optional field
@@ -273,7 +273,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:49453
+Defined in: main.ts:49469
 
 #### Parameters
 
@@ -291,7 +291,7 @@ Defined in: main.ts:49453
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:49481
+Defined in: main.ts:49497
 
 #### Parameters
 
@@ -309,7 +309,7 @@ Defined in: main.ts:49481
 
 > `static` **fromJS**(`data`): [`SerpGoogleEventsLiveAdvancedRequestInfo`](SerpGoogleEventsLiveAdvancedRequestInfo.md)
 
-Defined in: main.ts:49474
+Defined in: main.ts:49490
 
 #### Parameters
 

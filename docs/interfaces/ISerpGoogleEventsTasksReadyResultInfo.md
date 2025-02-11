@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleEventsTasksReadyResultInfo
 
-Defined in: main.ts:48397
+Defined in: main.ts:48413
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:48397
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:48407
+Defined in: main.ts:48423
 
 date when the task was posted (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:48415
+Defined in: main.ts:48431
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -39,7 +39,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:48418
+Defined in: main.ts:48434
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -50,7 +50,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:48412
+Defined in: main.ts:48428
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -61,7 +61,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:48400
+Defined in: main.ts:48416
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:48402
+Defined in: main.ts:48418
 
 search engine specified when setting the task
 
@@ -82,7 +82,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:48405
+Defined in: main.ts:48421
 
 type of search engine
 example: events
@@ -93,6 +93,6 @@ example: events
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:48409
+Defined in: main.ts:48425
 
 user-defined task identifier

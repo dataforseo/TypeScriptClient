@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleAdsKeywordsForKeywordsLiveTaskInfo
 
-Defined in: main.ts:130988
+Defined in: main.ts:131104
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:130988
 
 > **new KeywordsDataGoogleAdsKeywordsForKeywordsLiveTaskInfo**(`data`?): [`KeywordsDataGoogleAdsKeywordsForKeywordsLiveTaskInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsLiveTaskInfo.md)
 
-Defined in: main.ts:130994
+Defined in: main.ts:131110
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataGoogleAdsKeywordsForKeywordsLiveResultInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsLiveResultInfo.md)[]
 
-Defined in: main.ts:130990
+Defined in: main.ts:131106
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:130998
+Defined in: main.ts:131114
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:130998
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:131020
+Defined in: main.ts:131136
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:131020
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleAdsKeywordsForKeywordsLiveTaskInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsLiveTaskInfo.md)
 
-Defined in: main.ts:131013
+Defined in: main.ts:131129
 
 #### Parameters
 

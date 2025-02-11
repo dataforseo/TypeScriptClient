@@ -6,7 +6,7 @@
 
 # Class: AppDataAppStoreReviewsSearchSerpElementItem
 
-Defined in: main.ts:208378
+Defined in: main.ts:208880
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:208378
 
 > **new AppDataAppStoreReviewsSearchSerpElementItem**(`data`?): [`AppDataAppStoreReviewsSearchSerpElementItem`](AppDataAppStoreReviewsSearchSerpElementItem.md)
 
-Defined in: main.ts:208396
+Defined in: main.ts:208898
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22886
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:208388
+Defined in: main.ts:208890
 
 id of the review
 
@@ -150,7 +150,7 @@ average rating of the app
 
 > `optional` **review\_text**: `string`
 
-Defined in: main.ts:208390
+Defined in: main.ts:208892
 
 content of the review
 
@@ -164,7 +164,7 @@ content of the review
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:208386
+Defined in: main.ts:208888
 
 date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -217,7 +217,7 @@ type of element
 
 > `optional` **user\_profile**: [`AppUserProfileInfo`](AppUserProfileInfo.md)
 
-Defined in: main.ts:208392
+Defined in: main.ts:208894
 
 user profile of the reviewer
 
@@ -231,7 +231,7 @@ user profile of the reviewer
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:208381
+Defined in: main.ts:208883
 
 version of the app
 version of the app for which the review is submitted
@@ -246,7 +246,7 @@ version of the app for which the review is submitted
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:208401
+Defined in: main.ts:208903
 
 #### Parameters
 
@@ -268,7 +268,7 @@ Defined in: main.ts:208401
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:208423
+Defined in: main.ts:208925
 
 #### Parameters
 
@@ -290,7 +290,7 @@ Defined in: main.ts:208423
 
 > `static` **fromJS**(`data`): [`AppDataAppStoreReviewsSearchSerpElementItem`](AppDataAppStoreReviewsSearchSerpElementItem.md)
 
-Defined in: main.ts:208416
+Defined in: main.ts:208918
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleLocationsTaskInfo
 
-Defined in: main.ts:204992
+Defined in: main.ts:205494
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:204992
 
 > **new AppDataAppleLocationsTaskInfo**(`data`?): [`AppDataAppleLocationsTaskInfo`](AppDataAppleLocationsTaskInfo.md)
 
-Defined in: main.ts:204998
+Defined in: main.ts:205500
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`AppDataAppleLocationsResultInfo`](AppDataAppleLocationsResultInfo.md)[]
 
-Defined in: main.ts:204994
+Defined in: main.ts:205496
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:205002
+Defined in: main.ts:205504
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:205002
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:205024
+Defined in: main.ts:205526
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:205024
 
 > `static` **fromJS**(`data`): [`AppDataAppleLocationsTaskInfo`](AppDataAppleLocationsTaskInfo.md)
 
-Defined in: main.ts:205017
+Defined in: main.ts:205519
 
 #### Parameters
 

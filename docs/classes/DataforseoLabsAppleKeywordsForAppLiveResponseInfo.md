@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAppleKeywordsForAppLiveResponseInfo
 
-Defined in: main.ts:124027
+Defined in: main.ts:124143
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:124027
 
 > **new DataforseoLabsAppleKeywordsForAppLiveResponseInfo**(`data`?): [`DataforseoLabsAppleKeywordsForAppLiveResponseInfo`](DataforseoLabsAppleKeywordsForAppLiveResponseInfo.md)
 
-Defined in: main.ts:124033
+Defined in: main.ts:124149
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsAppleKeywordsForAppLiveTaskInfo`](DataforseoLabsAppleKeywordsForAppLiveTaskInfo.md)[]
 
-Defined in: main.ts:124029
+Defined in: main.ts:124145
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:124037
+Defined in: main.ts:124153
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:124037
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:124059
+Defined in: main.ts:124175
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:124059
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAppleKeywordsForAppLiveResponseInfo`](DataforseoLabsAppleKeywordsForAppLiveResponseInfo.md)
 
-Defined in: main.ts:124052
+Defined in: main.ts:124168
 
 #### Parameters
 

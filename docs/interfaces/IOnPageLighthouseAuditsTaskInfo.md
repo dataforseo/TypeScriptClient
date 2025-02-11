@@ -6,7 +6,7 @@
 
 # Interface: IOnPageLighthouseAuditsTaskInfo
 
-Defined in: main.ts:175134
+Defined in: main.ts:175498
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`OnPageLighthouseAuditsResultInfo`](../classes/OnPageLighthouseAuditsResultInfo.md)[]
 
-Defined in: main.ts:175136
+Defined in: main.ts:175500
 
 array of results
 

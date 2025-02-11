@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo
 
-Defined in: main.ts:137023
+Defined in: main.ts:137187
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataDataforseoTrendsSubregionInterestsLiveTaskInfo`](../classes/KeywordsDataDataforseoTrendsSubregionInterestsLiveTaskInfo.md)[]
 
-Defined in: main.ts:137025
+Defined in: main.ts:137189
 
 array of tasks
 

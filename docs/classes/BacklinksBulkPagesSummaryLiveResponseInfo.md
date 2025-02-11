@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkPagesSummaryLiveResponseInfo
 
-Defined in: main.ts:162939
+Defined in: main.ts:163103
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:162939
 
 > **new BacklinksBulkPagesSummaryLiveResponseInfo**(`data`?): [`BacklinksBulkPagesSummaryLiveResponseInfo`](BacklinksBulkPagesSummaryLiveResponseInfo.md)
 
-Defined in: main.ts:162945
+Defined in: main.ts:163109
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BacklinksBulkPagesSummaryLiveTaskInfo`](BacklinksBulkPagesSummaryLiveTaskInfo.md)[]
 
-Defined in: main.ts:162941
+Defined in: main.ts:163105
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:162949
+Defined in: main.ts:163113
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:162949
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:162971
+Defined in: main.ts:163135
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:162971
 
 > `static` **fromJS**(`data`): [`BacklinksBulkPagesSummaryLiveResponseInfo`](BacklinksBulkPagesSummaryLiveResponseInfo.md)
 
-Defined in: main.ts:162964
+Defined in: main.ts:163128
 
 #### Parameters
 

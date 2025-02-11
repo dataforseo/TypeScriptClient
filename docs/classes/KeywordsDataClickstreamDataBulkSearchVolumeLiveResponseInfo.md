@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataClickstreamDataBulkSearchVolumeLiveResponseInfo
 
-Defined in: main.ts:148701
+Defined in: main.ts:148865
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:148701
 
 > **new KeywordsDataClickstreamDataBulkSearchVolumeLiveResponseInfo**(`data`?): [`KeywordsDataClickstreamDataBulkSearchVolumeLiveResponseInfo`](KeywordsDataClickstreamDataBulkSearchVolumeLiveResponseInfo.md)
 
-Defined in: main.ts:148707
+Defined in: main.ts:148871
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataClickstreamDataBulkSearchVolumeLiveTaskInfo`](KeywordsDataClickstreamDataBulkSearchVolumeLiveTaskInfo.md)[]
 
-Defined in: main.ts:148703
+Defined in: main.ts:148867
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:148711
+Defined in: main.ts:148875
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:148711
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:148733
+Defined in: main.ts:148897
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:148733
 
 > `static` **fromJS**(`data`): [`KeywordsDataClickstreamDataBulkSearchVolumeLiveResponseInfo`](KeywordsDataClickstreamDataBulkSearchVolumeLiveResponseInfo.md)
 
-Defined in: main.ts:148726
+Defined in: main.ts:148890
 
 #### Parameters
 

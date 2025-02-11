@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisSentimentAnalysisLiveResponseInfo
 
-Defined in: main.ts:179501
+Defined in: main.ts:179863
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`ContentAnalysisSentimentAnalysisLiveTaskInfo`](../classes/ContentAnalysisSentimentAnalysisLiveTaskInfo.md)[]
 
-Defined in: main.ts:179503
+Defined in: main.ts:179865
 
 array of tasks
 

@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisLanguagesResultInfo
 
-Defined in: main.ts:177034
+Defined in: main.ts:177398
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:177034
 
 > **new ContentAnalysisLanguagesResultInfo**(`data`?): [`ContentAnalysisLanguagesResultInfo`](ContentAnalysisLanguagesResultInfo.md)
 
-Defined in: main.ts:177042
+Defined in: main.ts:177406
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:177042
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:177038
+Defined in: main.ts:177402
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:177036
+Defined in: main.ts:177400
 
 language name
 
@@ -68,7 +68,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:177051
+Defined in: main.ts:177415
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:177051
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:177069
+Defined in: main.ts:177433
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:177069
 
 > `static` **fromJS**(`data`): [`ContentAnalysisLanguagesResultInfo`](ContentAnalysisLanguagesResultInfo.md)
 
-Defined in: main.ts:177062
+Defined in: main.ts:177426
 
 #### Parameters
 

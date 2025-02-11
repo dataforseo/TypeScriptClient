@@ -6,7 +6,7 @@
 
 # Interface: IPaidDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108052
+Defined in: main.ts:108108
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:108052
 
 > `optional` **backlinks\_info**: [`BacklinksInfo`](../classes/BacklinksInfo.md)
 
-Defined in: main.ts:108104
+Defined in: main.ts:108160
 
 backlinks information for the target website
 
@@ -32,7 +32,7 @@ backlinks information for the target website
 
 > `optional` **breadcrumb**: `string`
 
-Defined in: main.ts:108060
+Defined in: main.ts:108116
 
 breadcrumb of the Ad element in SERP
 
@@ -42,7 +42,7 @@ breadcrumb of the Ad element in SERP
 
 > `optional` **clickstream\_etv**: `number`
 
-Defined in: main.ts:108100
+Defined in: main.ts:108156
 
 estimated traffic volume based on clickstream data
 calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for
@@ -55,7 +55,7 @@ learn more about how the metric is calculated in this help center article https:
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:108058
+Defined in: main.ts:108114
 
 description of the results element in SERP
 
@@ -65,7 +65,7 @@ description of the results element in SERP
 
 > `optional` **description\_rows**: `string`[]
 
-Defined in: main.ts:108069
+Defined in: main.ts:108125
 
 extended description
 if there is none, equals null
@@ -76,7 +76,7 @@ if there is none, equals null
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:108056
+Defined in: main.ts:108112
 
 domain where a link points
 
@@ -86,7 +86,7 @@ domain where a link points
 
 > `optional` **estimated\_paid\_traffic\_cost**: `number`
 
-Defined in: main.ts:108091
+Defined in: main.ts:108147
 
 estimated cost of converting organic search traffic into paid
 represents the estimated monthly cost of running ads for the returned keyword
@@ -99,7 +99,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **etv**: `number`
 
-Defined in: main.ts:108081
+Defined in: main.ts:108137
 
 estimated traffic volume
 estimated organic monthly traffic to the domain
@@ -112,7 +112,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **extra**: `object`
 
-Defined in: main.ts:108066
+Defined in: main.ts:108122
 
 additional information about the result
 
@@ -126,7 +126,7 @@ additional information about the result
 
 > `optional` **highlighted**: `string`[]
 
-Defined in: main.ts:108064
+Defined in: main.ts:108120
 
 words highlighted in bold within the results description
 
@@ -136,7 +136,7 @@ words highlighted in bold within the results description
 
 > `optional` **impressions\_etv**: `number`
 
-Defined in: main.ts:108086
+Defined in: main.ts:108142
 
 estimated traffic volume based on impressions
 estimated organic monthly traffic to the domain
@@ -149,7 +149,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **links**: [`AdLinkElement`](../classes/AdLinkElement.md)[]
 
-Defined in: main.ts:108072
+Defined in: main.ts:108128
 
 links featured in the math_solver element
 if there are none, equals null
@@ -160,7 +160,7 @@ if there are none, equals null
 
 > `optional` **main\_domain**: `string`
 
-Defined in: main.ts:108074
+Defined in: main.ts:108130
 
 primary domain name in SERP
 
@@ -201,7 +201,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_changes**: [`RankChanges`](../classes/RankChanges.md)
 
-Defined in: main.ts:108095
+Defined in: main.ts:108151
 
 changes in rankings
 ranking changes of the SERP element compared to the preceding month;
@@ -228,7 +228,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rank\_info**: [`RankInfo`](../classes/RankInfo.md)
 
-Defined in: main.ts:108106
+Defined in: main.ts:108162
 
 page and domain rank information
 
@@ -238,7 +238,7 @@ page and domain rank information
 
 > `optional` **relative\_url**: `string`
 
-Defined in: main.ts:108076
+Defined in: main.ts:108132
 
 URL in SERP that does not specify the HTTPs protocol and domain name
 
@@ -248,7 +248,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:108102
+Defined in: main.ts:108158
 
 search engine type
 
@@ -258,7 +258,7 @@ search engine type
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:108054
+Defined in: main.ts:108110
 
 title of the result in SERP
 
@@ -282,7 +282,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:108062
+Defined in: main.ts:108118
 
 relevant URL of the Ad element in SERP
 

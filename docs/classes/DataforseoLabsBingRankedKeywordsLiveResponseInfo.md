@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingRankedKeywordsLiveResponseInfo
 
-Defined in: main.ts:118697
+Defined in: main.ts:118789
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:118697
 
 > **new DataforseoLabsBingRankedKeywordsLiveResponseInfo**(`data`?): [`DataforseoLabsBingRankedKeywordsLiveResponseInfo`](DataforseoLabsBingRankedKeywordsLiveResponseInfo.md)
 
-Defined in: main.ts:118703
+Defined in: main.ts:118795
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsBingRankedKeywordsLiveTaskInfo`](DataforseoLabsBingRankedKeywordsLiveTaskInfo.md)[]
 
-Defined in: main.ts:118699
+Defined in: main.ts:118791
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:118707
+Defined in: main.ts:118799
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:118707
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:118729
+Defined in: main.ts:118821
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:118729
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingRankedKeywordsLiveResponseInfo`](DataforseoLabsBingRankedKeywordsLiveResponseInfo.md)
 
-Defined in: main.ts:118722
+Defined in: main.ts:118814
 
 #### Parameters
 

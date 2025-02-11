@@ -6,7 +6,7 @@
 
 # Class: SerpBaiduOrganicTasksFixedTaskInfo
 
-Defined in: main.ts:79638
+Defined in: main.ts:79674
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:79638
 
 > **new SerpBaiduOrganicTasksFixedTaskInfo**(`data`?): [`SerpBaiduOrganicTasksFixedTaskInfo`](SerpBaiduOrganicTasksFixedTaskInfo.md)
 
-Defined in: main.ts:79644
+Defined in: main.ts:79680
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpBaiduOrganicTasksFixedResultInfo`](SerpBaiduOrganicTasksFixedResultInfo.md)[]
 
-Defined in: main.ts:79640
+Defined in: main.ts:79676
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:79648
+Defined in: main.ts:79684
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:79648
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:79670
+Defined in: main.ts:79706
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:79670
 
 > `static` **fromJS**(`data`): [`SerpBaiduOrganicTasksFixedTaskInfo`](SerpBaiduOrganicTasksFixedTaskInfo.md)
 
-Defined in: main.ts:79663
+Defined in: main.ts:79699
 
 #### Parameters
 

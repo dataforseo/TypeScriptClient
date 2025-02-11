@@ -6,7 +6,7 @@
 
 # Interface: IAppendixContentGenerationPriceDataInfo
 
-Defined in: main.ts:238247
+Defined in: main.ts:238667
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:238247
 
 > `optional` **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238249
+Defined in: main.ts:238669
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: main.ts:238249
 
 > `optional` **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238248
+Defined in: main.ts:238668

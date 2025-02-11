@@ -6,7 +6,7 @@
 
 # Class: GoogleShoppingPaidMerchantSerpElementItem
 
-Defined in: main.ts:186518
+Defined in: main.ts:186880
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:186518
 
 > **new GoogleShoppingPaidMerchantSerpElementItem**(`data`?): [`GoogleShoppingPaidMerchantSerpElementItem`](GoogleShoppingPaidMerchantSerpElementItem.md)
 
-Defined in: main.ts:186535
+Defined in: main.ts:186897
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21722
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:186526
+Defined in: main.ts:186888
 
 description of the product in Google Shopping SERP
 
@@ -74,7 +74,7 @@ description of the product in Google Shopping SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:186522
+Defined in: main.ts:186884
 
 domain in SERP
 
@@ -146,7 +146,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **shop\_ad\_aclk**: `string`
 
-Defined in: main.ts:186531
+Defined in: main.ts:186893
 
 unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL
@@ -161,7 +161,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:186524
+Defined in: main.ts:186886
 
 product title
 
@@ -193,7 +193,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:186528
+Defined in: main.ts:186890
 
 URL to the product page on the seller’s website
 
@@ -207,7 +207,7 @@ URL to the product page on the seller’s website
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:186520
+Defined in: main.ts:186882
 
 XPath of the element
 
@@ -221,7 +221,7 @@ XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:186540
+Defined in: main.ts:186902
 
 #### Parameters
 
@@ -243,7 +243,7 @@ Defined in: main.ts:186540
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:186563
+Defined in: main.ts:186925
 
 #### Parameters
 
@@ -265,7 +265,7 @@ Defined in: main.ts:186563
 
 > `static` **fromJS**(`data`): [`GoogleShoppingPaidMerchantSerpElementItem`](GoogleShoppingPaidMerchantSerpElementItem.md)
 
-Defined in: main.ts:186556
+Defined in: main.ts:186918
 
 #### Parameters
 

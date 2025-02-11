@@ -6,7 +6,7 @@
 
 # Interface: IAppDataAppleAppSearchesTasksReadyResponseInfo
 
-Defined in: main.ts:205807
+Defined in: main.ts:206309
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataAppleAppSearchesTasksReadyTaskInfo`](../classes/AppDataAppleAppSearchesTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:205809
+Defined in: main.ts:206311
 
 array of tasks
 

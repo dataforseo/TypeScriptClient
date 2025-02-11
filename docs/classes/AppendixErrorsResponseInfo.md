@@ -6,7 +6,7 @@
 
 # Class: AppendixErrorsResponseInfo
 
-Defined in: main.ts:239207
+Defined in: main.ts:239635
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:239207
 
 > **new AppendixErrorsResponseInfo**(`data`?): [`AppendixErrorsResponseInfo`](AppendixErrorsResponseInfo.md)
 
-Defined in: main.ts:239213
+Defined in: main.ts:239641
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppendixErrorsTaskInfo`](AppendixErrorsTaskInfo.md)[]
 
-Defined in: main.ts:239209
+Defined in: main.ts:239637
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:239217
+Defined in: main.ts:239645
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:239217
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:239239
+Defined in: main.ts:239667
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:239239
 
 > `static` **fromJS**(`data`): [`AppendixErrorsResponseInfo`](AppendixErrorsResponseInfo.md)
 
-Defined in: main.ts:239232
+Defined in: main.ts:239660
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphImagesItemSerpElementItem
 
-Defined in: main.ts:29755
+Defined in: main.ts:29763
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:29755
 
 > **new KnowledgeGraphImagesItemSerpElementItem**(`data`?): [`KnowledgeGraphImagesItemSerpElementItem`](KnowledgeGraphImagesItemSerpElementItem.md)
 
-Defined in: main.ts:29767
+Defined in: main.ts:29775
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`KnowledgeGraphImagesElement`](KnowledgeGraphImagesElement.md)[]
 
-Defined in: main.ts:29759
+Defined in: main.ts:29767
 
 items featured in the faq_box
 
@@ -74,7 +74,7 @@ items featured in the faq_box
 
 > `optional` **link**: [`LinkElement`](LinkElement.md)
 
-Defined in: main.ts:29757
+Defined in: main.ts:29765
 
 link of the element
 
@@ -147,7 +147,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:29763
+Defined in: main.ts:29771
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -199,7 +199,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:29772
+Defined in: main.ts:29780
 
 #### Parameters
 
@@ -221,7 +221,7 @@ Defined in: main.ts:29772
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:29796
+Defined in: main.ts:29804
 
 #### Parameters
 
@@ -243,7 +243,7 @@ Defined in: main.ts:29796
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphImagesItemSerpElementItem`](KnowledgeGraphImagesItemSerpElementItem.md)
 
-Defined in: main.ts:29789
+Defined in: main.ts:29797
 
 #### Parameters
 

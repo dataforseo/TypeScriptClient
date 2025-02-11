@@ -6,7 +6,7 @@
 
 # Interface: ISerpYahooLanguagesResponseInfo
 
-Defined in: main.ts:75163
+Defined in: main.ts:75199
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpYahooLanguagesTaskInfo`](../classes/SerpYahooLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:75165
+Defined in: main.ts:75201
 
 array of tasks
 

@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataClickstreamDataGlobalSearchVolumeLiveResponseInfo
 
-Defined in: main.ts:148445
+Defined in: main.ts:148609
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataClickstreamDataGlobalSearchVolumeLiveTaskInfo`](../classes/KeywordsDataClickstreamDataGlobalSearchVolumeLiveTaskInfo.md)[]
 
-Defined in: main.ts:148447
+Defined in: main.ts:148611
 
 array of tasks
 

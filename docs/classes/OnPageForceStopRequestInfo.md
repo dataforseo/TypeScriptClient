@@ -6,7 +6,7 @@
 
 # Class: OnPageForceStopRequestInfo
 
-Defined in: main.ts:163684
+Defined in: main.ts:163848
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:163684
 
 > **new OnPageForceStopRequestInfo**(`data`?): [`OnPageForceStopRequestInfo`](OnPageForceStopRequestInfo.md)
 
-Defined in: main.ts:163695
+Defined in: main.ts:163859
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:163695
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:163691
+Defined in: main.ts:163855
 
 ID of the task
 required field
@@ -59,7 +59,7 @@ note: you can set up to 1000 id values as separate objects in the POST array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:163704
+Defined in: main.ts:163868
 
 #### Parameters
 
@@ -77,7 +77,7 @@ Defined in: main.ts:163704
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:163721
+Defined in: main.ts:163885
 
 #### Parameters
 
@@ -95,7 +95,7 @@ Defined in: main.ts:163721
 
 > `static` **fromJS**(`data`): [`OnPageForceStopRequestInfo`](OnPageForceStopRequestInfo.md)
 
-Defined in: main.ts:163714
+Defined in: main.ts:163878
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsErrorsTaskInfo
 
-Defined in: main.ts:84966
+Defined in: main.ts:85002
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DomainAnalyticsErrorsResultInfo`](../classes/DomainAnalyticsErrorsResultInfo.md)[]
 
-Defined in: main.ts:84968
+Defined in: main.ts:85004
 
 array of results
 

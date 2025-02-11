@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleJobsTasksFixedResponseInfo
 
-Defined in: main.ts:54485
+Defined in: main.ts:54501
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleJobsTasksFixedTaskInfo`](../classes/SerpGoogleJobsTasksFixedTaskInfo.md)[]
 
-Defined in: main.ts:54487
+Defined in: main.ts:54503
 
 array of tasks
 

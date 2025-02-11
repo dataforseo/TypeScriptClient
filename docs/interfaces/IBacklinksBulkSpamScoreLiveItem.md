@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksBulkSpamScoreLiveItem
 
-Defined in: main.ts:161102
+Defined in: main.ts:161266
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:161102
 
 > `optional` **spam\_score**: `number`
 
-Defined in: main.ts:161109
+Defined in: main.ts:161273
 
 average spam score the target
 learn more about how the metric is calculated
@@ -29,7 +29,7 @@ learn more about how the metric is calculated
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:161106
+Defined in: main.ts:161270
 
 domain, subdomain or webpage from a POST array
 
@@ -39,6 +39,6 @@ domain, subdomain or webpage from a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:161104
+Defined in: main.ts:161268
 
 type of element

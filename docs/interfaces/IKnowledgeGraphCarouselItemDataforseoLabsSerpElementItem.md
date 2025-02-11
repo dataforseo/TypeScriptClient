@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphCarouselItemDataforseoLabsSerpElementItem
 
-Defined in: main.ts:106068
+Defined in: main.ts:106206
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:106068
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:106074
+Defined in: main.ts:106212
 
 google defined data attribute ID
 example:
@@ -34,7 +34,7 @@ ss:/webfacts:net_worth
 
 > `optional` **items**: [`KnowledgeGraphListElement`](../classes/KnowledgeGraphListElement.md)[]
 
-Defined in: main.ts:106079
+Defined in: main.ts:106217
 
 additional items present in the element
 if there are none, equals null
@@ -45,7 +45,7 @@ if there are none, equals null
 
 > `optional` **link**: [`LinkElement`](../classes/LinkElement.md)
 
-Defined in: main.ts:106076
+Defined in: main.ts:106214
 
 link of the element
 
@@ -101,7 +101,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:106070
+Defined in: main.ts:106208
 
 title of the link
 

@@ -6,7 +6,7 @@
 
 # Interface: IKeywordKpi
 
-Defined in: main.ts:145188
+Defined in: main.ts:145352
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:145188
 
 > `optional` **desktop**: [`KeywordKpiInfo`](../classes/KeywordKpiInfo.md)[]
 
-Defined in: main.ts:145191
+Defined in: main.ts:145355
 
 keyword data aggregated for desktop devices
 if there is no data, then the value is null
@@ -29,7 +29,7 @@ if there is no data, then the value is null
 
 > `optional` **mobile**: [`KeywordKpiInfo`](../classes/KeywordKpiInfo.md)[]
 
-Defined in: main.ts:145194
+Defined in: main.ts:145358
 
 keyword data aggregated for mobile devices
 if there is no data, then the value is null
@@ -40,7 +40,7 @@ if there is no data, then the value is null
 
 > `optional` **tablet**: [`KeywordKpiInfo`](../classes/KeywordKpiInfo.md)[]
 
-Defined in: main.ts:145197
+Defined in: main.ts:145361
 
 keyword data aggregated for tablet devices
 if there is no data, then the value is null

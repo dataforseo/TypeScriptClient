@@ -6,7 +6,7 @@
 
 # Class: EventsSerpElementItem
 
-Defined in: main.ts:33901
+Defined in: main.ts:33917
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:33901
 
 > **new EventsSerpElementItem**(`data`?): [`EventsSerpElementItem`](EventsSerpElementItem.md)
 
-Defined in: main.ts:33915
+Defined in: main.ts:33931
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`EventsElement`](EventsElement.md)[]
 
-Defined in: main.ts:33907
+Defined in: main.ts:33923
 
 contains arrays of specific images
 
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:33911
+Defined in: main.ts:33927
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -149,7 +149,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:33903
+Defined in: main.ts:33919
 
 title of the row
 
@@ -181,7 +181,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:33905
+Defined in: main.ts:33921
 
 source URL
 
@@ -213,7 +213,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:33920
+Defined in: main.ts:33936
 
 #### Parameters
 
@@ -235,7 +235,7 @@ Defined in: main.ts:33920
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:33945
+Defined in: main.ts:33961
 
 #### Parameters
 
@@ -257,7 +257,7 @@ Defined in: main.ts:33945
 
 > `static` **fromJS**(`data`): [`EventsSerpElementItem`](EventsSerpElementItem.md)
 
-Defined in: main.ts:33938
+Defined in: main.ts:33954
 
 #### Parameters
 

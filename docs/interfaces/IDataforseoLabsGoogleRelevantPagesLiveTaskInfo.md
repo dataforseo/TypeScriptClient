@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleRelevantPagesLiveTaskInfo
 
-Defined in: main.ts:104964
+Defined in: main.ts:105028
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleRelevantPagesLiveResultInfo`](../classes/DataforseoLabsGoogleRelevantPagesLiveResultInfo.md)[]
 
-Defined in: main.ts:104966
+Defined in: main.ts:105030
 
 array of results
 

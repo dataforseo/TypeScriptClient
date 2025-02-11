@@ -6,7 +6,7 @@
 
 # Interface: IAppDataAppleAppListingsCategoriesTaskInfo
 
-Defined in: main.ts:208812
+Defined in: main.ts:209314
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`AppDataAppleAppListingsCategoriesResultInfo`](../classes/AppDataAppleAppListingsCategoriesResultInfo.md)[]
 
-Defined in: main.ts:208814
+Defined in: main.ts:209316
 
 array of results
 

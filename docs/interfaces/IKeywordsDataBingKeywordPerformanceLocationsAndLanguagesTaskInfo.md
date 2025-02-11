@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesTaskInfo
 
-Defined in: main.ts:144384
+Defined in: main.ts:144548
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo`](../classes/KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md)[]
 
-Defined in: main.ts:144386
+Defined in: main.ts:144550
 
 array of results
 

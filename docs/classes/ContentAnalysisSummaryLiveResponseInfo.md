@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisSummaryLiveResponseInfo
 
-Defined in: main.ts:178911
+Defined in: main.ts:179273
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:178911
 
 > **new ContentAnalysisSummaryLiveResponseInfo**(`data`?): [`ContentAnalysisSummaryLiveResponseInfo`](ContentAnalysisSummaryLiveResponseInfo.md)
 
-Defined in: main.ts:178917
+Defined in: main.ts:179279
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`ContentAnalysisSummaryLiveTaskInfo`](ContentAnalysisSummaryLiveTaskInfo.md)[]
 
-Defined in: main.ts:178913
+Defined in: main.ts:179275
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:178921
+Defined in: main.ts:179283
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:178921
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:178943
+Defined in: main.ts:179305
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:178943
 
 > `static` **fromJS**(`data`): [`ContentAnalysisSummaryLiveResponseInfo`](ContentAnalysisSummaryLiveResponseInfo.md)
 
-Defined in: main.ts:178936
+Defined in: main.ts:179298
 
 #### Parameters
 

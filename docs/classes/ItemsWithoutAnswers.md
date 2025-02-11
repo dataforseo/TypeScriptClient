@@ -6,7 +6,7 @@
 
 # Class: ItemsWithoutAnswers
 
-Defined in: main.ts:224362
+Defined in: main.ts:224870
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:224362
 
 > **new ItemsWithoutAnswers**(`data`?): [`ItemsWithoutAnswers`](ItemsWithoutAnswers.md)
 
-Defined in: main.ts:224394
+Defined in: main.ts:224902
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:224394
 
 > `optional` **items**: [`GoogleBusinessAnswerElement`](GoogleBusinessAnswerElement.md)
 
-Defined in: main.ts:224390
+Defined in: main.ts:224898
 
 array of items
 items within google_business_question_item
@@ -55,7 +55,7 @@ items within google_business_question_item
 
 > `optional` **original\_question\_text**: `string`
 
-Defined in: main.ts:224383
+Defined in: main.ts:224891
 
 original text of the question
 
@@ -69,7 +69,7 @@ original text of the question
 
 > `optional` **profile\_image\_url**: `string`
 
-Defined in: main.ts:224375
+Defined in: main.ts:224883
 
 URL of the user’s profile image
 
@@ -83,7 +83,7 @@ URL of the user’s profile image
 
 > `optional` **profile\_name**: `string`
 
-Defined in: main.ts:224379
+Defined in: main.ts:224887
 
 displayed name of the user
 
@@ -97,7 +97,7 @@ displayed name of the user
 
 > `optional` **profile\_url**: `string`
 
-Defined in: main.ts:224377
+Defined in: main.ts:224885
 
 URL of the user’s profile
 
@@ -111,7 +111,7 @@ URL of the user’s profile
 
 > `optional` **question\_id**: `string`
 
-Defined in: main.ts:224371
+Defined in: main.ts:224879
 
 ID of the question
 
@@ -125,7 +125,7 @@ ID of the question
 
 > `optional` **question\_text**: `string`
 
-Defined in: main.ts:224381
+Defined in: main.ts:224889
 
 current text of the question
 
@@ -139,7 +139,7 @@ current text of the question
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:224369
+Defined in: main.ts:224877
 
 absolute rank among all the elements
 
@@ -153,7 +153,7 @@ absolute rank among all the elements
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:224367
+Defined in: main.ts:224875
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -168,7 +168,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **time\_ago**: `string`
 
-Defined in: main.ts:224385
+Defined in: main.ts:224893
 
 estimated time when the question was posted
 
@@ -182,7 +182,7 @@ estimated time when the question was posted
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:224387
+Defined in: main.ts:224895
 
 exact time when the question was posted
 
@@ -196,7 +196,7 @@ exact time when the question was posted
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:224364
+Defined in: main.ts:224872
 
 type of element
 
@@ -210,7 +210,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:224373
+Defined in: main.ts:224881
 
 URL of the question
 
@@ -224,7 +224,7 @@ URL of the question
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:224403
+Defined in: main.ts:224911
 
 #### Parameters
 
@@ -242,7 +242,7 @@ Defined in: main.ts:224403
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:224432
+Defined in: main.ts:224940
 
 #### Parameters
 
@@ -260,7 +260,7 @@ Defined in: main.ts:224432
 
 > `static` **fromJS**(`data`): [`ItemsWithoutAnswers`](ItemsWithoutAnswers.md)
 
-Defined in: main.ts:224425
+Defined in: main.ts:224933
 
 #### Parameters
 

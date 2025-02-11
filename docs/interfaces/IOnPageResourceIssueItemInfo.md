@@ -6,7 +6,7 @@
 
 # Interface: IOnPageResourceIssueItemInfo
 
-Defined in: main.ts:166623
+Defined in: main.ts:166787
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:166623
 
 > `optional` **column**: `number`
 
-Defined in: main.ts:166627
+Defined in: main.ts:166791
 
 column where the error was found
 
@@ -28,7 +28,7 @@ column where the error was found
 
 > `optional` **line**: `number`
 
-Defined in: main.ts:166625
+Defined in: main.ts:166789
 
 line where the error was found
 
@@ -38,7 +38,7 @@ line where the error was found
 
 > `optional` **message**: `string`
 
-Defined in: main.ts:166630
+Defined in: main.ts:166794
 
 text message of the error
 the full list of possible HTML errors can be found here
@@ -49,7 +49,7 @@ the full list of possible HTML errors can be found here
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:166641
+Defined in: main.ts:166805
 
 status code of the error
 possible values:

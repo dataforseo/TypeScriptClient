@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppReviewsTaskPostResponseInfo
 
-Defined in: main.ts:203111
+Defined in: main.ts:203613
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:203111
 
 > **new AppDataGoogleAppReviewsTaskPostResponseInfo**(`data`?): [`AppDataGoogleAppReviewsTaskPostResponseInfo`](AppDataGoogleAppReviewsTaskPostResponseInfo.md)
 
-Defined in: main.ts:203117
+Defined in: main.ts:203619
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataGoogleAppReviewsTaskPostTaskInfo`](AppDataGoogleAppReviewsTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:203113
+Defined in: main.ts:203615
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:203121
+Defined in: main.ts:203623
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:203121
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:203143
+Defined in: main.ts:203645
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:203143
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppReviewsTaskPostResponseInfo`](AppDataGoogleAppReviewsTaskPostResponseInfo.md)
 
-Defined in: main.ts:203136
+Defined in: main.ts:203638
 
 #### Parameters
 

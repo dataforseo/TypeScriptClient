@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleSerpCompetitorsLiveTaskInfo
 
-Defined in: main.ts:102424
+Defined in: main.ts:102452
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleSerpCompetitorsLiveResultInfo`](../classes/DataforseoLabsGoogleSerpCompetitorsLiveResultInfo.md)[]
 
-Defined in: main.ts:102426
+Defined in: main.ts:102454
 
 array of results
 

@@ -6,7 +6,7 @@
 
 # Class: MapsSearchBusinessDataSerpElementItem
 
-Defined in: main.ts:213726
+Defined in: main.ts:214228
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:213726
 
 > **new MapsSearchBusinessDataSerpElementItem**(`data`?): [`MapsSearchBusinessDataSerpElementItem`](MapsSearchBusinessDataSerpElementItem.md)
 
-Defined in: main.ts:213805
+Defined in: main.ts:214307
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22211
 
 > `optional` **additional\_categories**: `string`[]
 
-Defined in: main.ts:213761
+Defined in: main.ts:214263
 
 additional business categories
 additional Google My Business categories that describe the services provided by the business entity in more detail
@@ -75,7 +75,7 @@ additional Google My Business categories that describe the services provided by 
 
 > `optional` **address**: `string`
 
-Defined in: main.ts:213743
+Defined in: main.ts:214245
 
 address of the business entity
 
@@ -89,7 +89,7 @@ address of the business entity
 
 > `optional` **address\_info**: [`AddressInfo`](AddressInfo.md)
 
-Defined in: main.ts:213745
+Defined in: main.ts:214247
 
 object containing address components of the business entity
 
@@ -103,7 +103,7 @@ object containing address components of the business entity
 
 > `optional` **category**: `string`
 
-Defined in: main.ts:213758
+Defined in: main.ts:214260
 
 business category
 Google My Business general category that best describes the services provided by the business entity
@@ -118,7 +118,7 @@ Google My Business general category that best describes the services provided by
 
 > `optional` **category\_ids**: `string`[]
 
-Defined in: main.ts:213772
+Defined in: main.ts:214274
 
 global category IDs
 universal category IDs that do not change based on the selected country
@@ -133,7 +133,7 @@ universal category IDs that do not change based on the selected country
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:213783
+Defined in: main.ts:214285
 
 google-defined client id
 unique id of a local establishment;
@@ -150,7 +150,7 @@ learn more about the identifier in this help center article
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:213728
+Defined in: main.ts:214230
 
 domain of the business entity
 
@@ -164,7 +164,7 @@ domain of the business entity
 
 > `optional` **feature\_id**: `string`
 
-Defined in: main.ts:213778
+Defined in: main.ts:214280
 
 the unique identifier of the element in SERP
 learn more about the identifier in this help center article
@@ -179,7 +179,7 @@ learn more about the identifier in this help center article
 
 > `optional` **hotel\_rating**: `number`
 
-Defined in: main.ts:213769
+Defined in: main.ts:214271
 
 hotel class rating
 class ratings range between 1-5 stars, learn more
@@ -195,7 +195,7 @@ if there is no hotel class rating information, the value will be null
 
 > `optional` **is\_claimed**: `boolean`
 
-Defined in: main.ts:213793
+Defined in: main.ts:214295
 
 shows whether the entity is verified by its owner on Google Maps
 
@@ -209,7 +209,7 @@ shows whether the entity is verified by its owner on Google Maps
 
 > `optional` **is\_directory\_item**: `boolean`
 
-Defined in: main.ts:213801
+Defined in: main.ts:214303
 
 business establishment is a part of the directory
 indicates whether the business establishment is a part of the directory;
@@ -226,7 +226,7 @@ note: if the business establishment is a parent item in the directory, the value
 
 > `optional` **latitude**: `number`
 
-Defined in: main.ts:213787
+Defined in: main.ts:214289
 
 latitude coordinate of the local establishments in google maps
 example:
@@ -242,7 +242,7 @@ example:
 
 > `optional` **local\_justifications**: `string`[]
 
-Defined in: main.ts:213796
+Defined in: main.ts:214298
 
 Google local justifications
 snippets of text that “justify” why the business is showing up for search query
@@ -257,7 +257,7 @@ snippets of text that “justify” why the business is showing up for search qu
 
 > `optional` **longitude**: `number`
 
-Defined in: main.ts:213791
+Defined in: main.ts:214293
 
 longitude coordinate of the local establishment in google maps
 example:
@@ -273,7 +273,7 @@ example:
 
 > `optional` **main\_image**: `string`
 
-Defined in: main.ts:213753
+Defined in: main.ts:214255
 
 URL of the main image featured in Google My Business profile
 
@@ -287,7 +287,7 @@ URL of the main image featured in Google My Business profile
 
 > `optional` **phone**: `string`
 
-Defined in: main.ts:213751
+Defined in: main.ts:214253
 
 phone number of the business entity
 
@@ -301,7 +301,7 @@ phone number of the business entity
 
 > `optional` **place\_id**: `string`
 
-Defined in: main.ts:213749
+Defined in: main.ts:214251
 
 unique place identifier
 place id of the local establishment featured in the element
@@ -317,7 +317,7 @@ learn more about the identifier in this help center article
 
 > `optional` **price\_level**: `string`
 
-Defined in: main.ts:213765
+Defined in: main.ts:214267
 
 property price level
 can take values: inexpensive, moderate, expensive, very_expensive
@@ -370,7 +370,7 @@ positions of elements with different type values are omitted from the rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:213736
+Defined in: main.ts:214238
 
 the element’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -385,7 +385,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **rating\_distribution**: `object`
 
-Defined in: main.ts:213739
+Defined in: main.ts:214241
 
 the distribution of ratings of the business entity
 the object displays the number of 1-star to 5-star ratings, as reviewed by users
@@ -404,7 +404,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:213741
+Defined in: main.ts:214243
 
 additional information about the business entity
 
@@ -418,7 +418,7 @@ additional information about the business entity
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:213731
+Defined in: main.ts:214233
 
 directory title
 can take the following values: At this place, Directory
@@ -433,7 +433,7 @@ can take the following values: At this place, Directory
 
 > `optional` **total\_photos**: `number`
 
-Defined in: main.ts:213755
+Defined in: main.ts:214257
 
 total count of images featured in Google My Business profile
 
@@ -465,7 +465,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:213733
+Defined in: main.ts:214235
 
 URL to view the menu
 
@@ -479,7 +479,7 @@ URL to view the menu
 
 > `optional` **work\_hours**: [`WorkHours`](WorkHours.md)
 
-Defined in: main.ts:213775
+Defined in: main.ts:214277
 
 open hours
 information about work hours of the local establishment
@@ -494,7 +494,7 @@ information about work hours of the local establishment
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:213810
+Defined in: main.ts:214312
 
 #### Parameters
 
@@ -516,7 +516,7 @@ Defined in: main.ts:213810
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:213870
+Defined in: main.ts:214372
 
 #### Parameters
 
@@ -538,7 +538,7 @@ Defined in: main.ts:213870
 
 > `static` **fromJS**(`data`): [`MapsSearchBusinessDataSerpElementItem`](MapsSearchBusinessDataSerpElementItem.md)
 
-Defined in: main.ts:213863
+Defined in: main.ts:214365
 
 #### Parameters
 

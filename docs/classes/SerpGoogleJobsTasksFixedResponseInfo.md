@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleJobsTasksFixedResponseInfo
 
-Defined in: main.ts:54437
+Defined in: main.ts:54453
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:54437
 
 > **new SerpGoogleJobsTasksFixedResponseInfo**(`data`?): [`SerpGoogleJobsTasksFixedResponseInfo`](SerpGoogleJobsTasksFixedResponseInfo.md)
 
-Defined in: main.ts:54443
+Defined in: main.ts:54459
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleJobsTasksFixedTaskInfo`](SerpGoogleJobsTasksFixedTaskInfo.md)[]
 
-Defined in: main.ts:54439
+Defined in: main.ts:54455
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:54447
+Defined in: main.ts:54463
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:54447
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:54469
+Defined in: main.ts:54485
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:54469
 
 > `static` **fromJS**(`data`): [`SerpGoogleJobsTasksFixedResponseInfo`](SerpGoogleJobsTasksFixedResponseInfo.md)
 
-Defined in: main.ts:54462
+Defined in: main.ts:54478
 
 #### Parameters
 

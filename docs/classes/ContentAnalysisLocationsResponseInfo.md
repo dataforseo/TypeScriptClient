@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisLocationsResponseInfo
 
-Defined in: main.ts:176979
+Defined in: main.ts:177343
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:176979
 
 > **new ContentAnalysisLocationsResponseInfo**(`data`?): [`ContentAnalysisLocationsResponseInfo`](ContentAnalysisLocationsResponseInfo.md)
 
-Defined in: main.ts:176985
+Defined in: main.ts:177349
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`ContentAnalysisLocationsTaskInfo`](ContentAnalysisLocationsTaskInfo.md)[]
 
-Defined in: main.ts:176981
+Defined in: main.ts:177345
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:176989
+Defined in: main.ts:177353
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:176989
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:177011
+Defined in: main.ts:177375
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:177011
 
 > `static` **fromJS**(`data`): [`ContentAnalysisLocationsResponseInfo`](ContentAnalysisLocationsResponseInfo.md)
 
-Defined in: main.ts:177004
+Defined in: main.ts:177368
 
 #### Parameters
 

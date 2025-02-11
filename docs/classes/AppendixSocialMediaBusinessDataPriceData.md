@@ -6,7 +6,7 @@
 
 # Class: AppendixSocialMediaBusinessDataPriceData
 
-Defined in: main.ts:237926
+Defined in: main.ts:238346
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:237926
 
 > **new AppendixSocialMediaBusinessDataPriceData**(`data`?): [`AppendixSocialMediaBusinessDataPriceData`](AppendixSocialMediaBusinessDataPriceData.md)
 
-Defined in: main.ts:237933
+Defined in: main.ts:238353
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:237933
 
 > `optional` **facebook**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237927
+Defined in: main.ts:238347
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:237927
 
 > `optional` **pinterest**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237928
+Defined in: main.ts:238348
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:237928
 
 > `optional` **reddit**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237929
+Defined in: main.ts:238349
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:237929
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:237942
+Defined in: main.ts:238362
 
 #### Parameters
 
@@ -94,7 +94,7 @@ Defined in: main.ts:237942
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:237961
+Defined in: main.ts:238381
 
 #### Parameters
 
@@ -112,7 +112,7 @@ Defined in: main.ts:237961
 
 > `static` **fromJS**(`data`): [`AppendixSocialMediaBusinessDataPriceData`](AppendixSocialMediaBusinessDataPriceData.md)
 
-Defined in: main.ts:237954
+Defined in: main.ts:238374
 
 #### Parameters
 

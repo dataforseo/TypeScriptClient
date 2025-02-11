@@ -6,7 +6,7 @@
 
 # Class: AmazonAmazonPaidSerpElementItem
 
-Defined in: main.ts:192432
+Defined in: main.ts:192838
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:192432
 
 > **new AmazonAmazonPaidSerpElementItem**(`data`?): [`AmazonAmazonPaidSerpElementItem`](AmazonAmazonPaidSerpElementItem.md)
 
-Defined in: main.ts:192477
+Defined in: main.ts:192883
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23218
 
 > `optional` **bought\_past\_month**: `number`
 
-Defined in: main.ts:192442
+Defined in: main.ts:192848
 
 number of product purchases in the past month
 
@@ -74,7 +74,7 @@ number of product purchases in the past month
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:192454
+Defined in: main.ts:192860
 
 currency in the ISO format
 example:
@@ -90,7 +90,7 @@ USD
 
 > `optional` **data\_asin**: `string`
 
-Defined in: main.ts:192462
+Defined in: main.ts:192868
 
 unique product identifier on Amazon
 note that there is no full list of possible values as the data_asin is a dynamic value assigned by Amazon
@@ -107,7 +107,7 @@ B07G82D89J
 
 > `optional` **delivery\_info**: [`AmazonDeliveryInfo`](AmazonDeliveryInfo.md)
 
-Defined in: main.ts:192473
+Defined in: main.ts:192879
 
 delivery information
 delivery information including free and fast delivery date ranges
@@ -122,7 +122,7 @@ delivery information including free and fast delivery date ranges
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:192434
+Defined in: main.ts:192840
 
 Amazon domain
 
@@ -136,7 +136,7 @@ Amazon domain
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:192440
+Defined in: main.ts:192846
 
 URL of the product image featured in the results
 
@@ -150,7 +150,7 @@ URL of the product image featured in the results
 
 > `optional` **is\_amazon\_choice**: `boolean`
 
-Defined in: main.ts:192467
+Defined in: main.ts:192873
 
 “Amazon’s choice” label
 if the value is true, the product is marked with the “Amazon’s choice” label
@@ -165,7 +165,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 > `optional` **is\_best\_seller**: `boolean`
 
-Defined in: main.ts:192470
+Defined in: main.ts:192876
 
 “Best Seller” label
 if the value is true, the product is marked with the “Best Seller” label
@@ -180,7 +180,7 @@ if the value is true, the product is marked with the “Best Seller” label
 
 > `optional` **price\_from**: `number`
 
-Defined in: main.ts:192446
+Defined in: main.ts:192852
 
 the regular price of a product
 example:
@@ -196,7 +196,7 @@ example:
 
 > `optional` **price\_to**: `number`
 
-Defined in: main.ts:192450
+Defined in: main.ts:192856
 
 the upper limit of the product price range
 example:
@@ -250,7 +250,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingElement`](RatingElement.md)
 
-Defined in: main.ts:192464
+Defined in: main.ts:192870
 
 product rating info
 
@@ -264,7 +264,7 @@ product rating info
 
 > `optional` **special\_offers**: `string`[]
 
-Defined in: main.ts:192457
+Defined in: main.ts:192863
 
 special offer details
 contains special offer details, including coupon and Subscribe & Save discounts
@@ -279,7 +279,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:192436
+Defined in: main.ts:192842
 
 product title
 
@@ -311,7 +311,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:192438
+Defined in: main.ts:192844
 
 the URL of the product page
 
@@ -343,7 +343,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:192482
+Defined in: main.ts:192888
 
 #### Parameters
 
@@ -365,7 +365,7 @@ Defined in: main.ts:192482
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:192517
+Defined in: main.ts:192923
 
 #### Parameters
 
@@ -387,7 +387,7 @@ Defined in: main.ts:192517
 
 > `static` **fromJS**(`data`): [`AmazonAmazonPaidSerpElementItem`](AmazonAmazonPaidSerpElementItem.md)
 
-Defined in: main.ts:192510
+Defined in: main.ts:192916
 
 #### Parameters
 

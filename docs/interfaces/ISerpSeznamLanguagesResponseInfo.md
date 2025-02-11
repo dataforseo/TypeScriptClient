@@ -6,7 +6,7 @@
 
 # Interface: ISerpSeznamLanguagesResponseInfo
 
-Defined in: main.ts:82703
+Defined in: main.ts:82739
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpSeznamLanguagesTaskInfo`](../classes/SerpSeznamLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:82705
+Defined in: main.ts:82741
 
 array of tasks
 

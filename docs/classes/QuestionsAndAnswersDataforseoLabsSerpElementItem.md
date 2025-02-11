@@ -6,7 +6,7 @@
 
 # Class: QuestionsAndAnswersDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108871
+Defined in: main.ts:108927
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:108871
 
 > **new QuestionsAndAnswersDataforseoLabsSerpElementItem**(`data`?): [`QuestionsAndAnswersDataforseoLabsSerpElementItem`](QuestionsAndAnswersDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108877
+Defined in: main.ts:108933
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **items**: [`QuestionsAndAnswersElement`](QuestionsAndAnswersElement.md)[]
 
-Defined in: main.ts:108873
+Defined in: main.ts:108929
 
 elements of search results found in SERP
 
@@ -168,7 +168,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:108882
+Defined in: main.ts:108938
 
 #### Parameters
 
@@ -190,7 +190,7 @@ Defined in: main.ts:108882
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:108904
+Defined in: main.ts:108960
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:108904
 
 > `static` **fromJS**(`data`): [`QuestionsAndAnswersDataforseoLabsSerpElementItem`](QuestionsAndAnswersDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108897
+Defined in: main.ts:108953
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisSearchLiveRequestInfo
 
-Defined in: main.ts:177574
+Defined in: main.ts:177938
 
 ## Indexable
 
@@ -18,14 +18,14 @@ Defined in: main.ts:177574
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:177630
+Defined in: main.ts:177994
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like, match, not_match
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["country","=", "US"]
@@ -43,7 +43,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:177583
+Defined in: main.ts:177947
 
 target keyword
 required field
@@ -60,7 +60,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **keyword\_fields**: `object`
 
-Defined in: main.ts:177595
+Defined in: main.ts:177959
 
 target keyword fields and target keywords
 optional field
@@ -84,7 +84,7 @@ example:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:177613
+Defined in: main.ts:177977
 
 the maximum number of returned citations
 optional field
@@ -97,7 +97,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:177651
+Defined in: main.ts:178015
 
 offset in the results array of returned citations
 optional field
@@ -110,7 +110,7 @@ if you specify the 10 value, the first ten citations in the results array will b
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:177659
+Defined in: main.ts:178023
 
 offset token for subsequent requests
 optional field
@@ -126,7 +126,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:177646
+Defined in: main.ts:178010
 
 results sorting rules
 optional field
@@ -150,7 +150,7 @@ example:
 
 > `optional` **page\_type**: `string`[]
 
-Defined in: main.ts:177601
+Defined in: main.ts:177965
 
 target page types
 optional field
@@ -164,7 +164,7 @@ possible values:
 
 > `optional` **search\_mode**: `string`
 
-Defined in: main.ts:177608
+Defined in: main.ts:177972
 
 results grouping type
 optional field
@@ -179,7 +179,7 @@ default value: as_is
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:177665
+Defined in: main.ts:178029
 
 user-defined task identifier
 optional field

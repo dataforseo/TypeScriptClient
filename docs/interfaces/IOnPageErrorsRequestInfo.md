@@ -6,7 +6,7 @@
 
 # Interface: IOnPageErrorsRequestInfo
 
-Defined in: main.ts:163421
+Defined in: main.ts:163585
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:163421
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:163444
+Defined in: main.ts:163608
 
 start time for filtering results
 optional field
@@ -33,7 +33,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:163451
+Defined in: main.ts:163615
 
 finish time for filtering results
 optional field
@@ -48,7 +48,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:163437
+Defined in: main.ts:163601
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -62,7 +62,7 @@ example: on_page/task_post, postback_url, pingback_url
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:163426
+Defined in: main.ts:163590
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -75,7 +75,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:163431
+Defined in: main.ts:163595
 
 offset in the results array of returned tasks
 optional field

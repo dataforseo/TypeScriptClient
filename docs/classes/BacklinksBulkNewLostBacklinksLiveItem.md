@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkNewLostBacklinksLiveItem
 
-Defined in: main.ts:161780
+Defined in: main.ts:161944
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:161780
 
 > **new BacklinksBulkNewLostBacklinksLiveItem**(`data`?): [`BacklinksBulkNewLostBacklinksLiveItem`](BacklinksBulkNewLostBacklinksLiveItem.md)
 
-Defined in: main.ts:161792
+Defined in: main.ts:161956
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:161792
 
 > `optional` **lost\_backlinks**: `number`
 
-Defined in: main.ts:161788
+Defined in: main.ts:161952
 
 number of lost backlinks
 number of lost backlinks of the target
@@ -55,7 +55,7 @@ number of lost backlinks of the target
 
 > `optional` **new\_backlinks**: `number`
 
-Defined in: main.ts:161785
+Defined in: main.ts:161949
 
 number of new backlinks
 number of new backlinks pointing to the target
@@ -70,7 +70,7 @@ number of new backlinks pointing to the target
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:161782
+Defined in: main.ts:161946
 
 domain, subdomain or webpage from a POST array
 
@@ -84,7 +84,7 @@ domain, subdomain or webpage from a POST array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:161801
+Defined in: main.ts:161965
 
 #### Parameters
 
@@ -102,7 +102,7 @@ Defined in: main.ts:161801
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:161820
+Defined in: main.ts:161984
 
 #### Parameters
 
@@ -120,7 +120,7 @@ Defined in: main.ts:161820
 
 > `static` **fromJS**(`data`): [`BacklinksBulkNewLostBacklinksLiveItem`](BacklinksBulkNewLostBacklinksLiveItem.md)
 
-Defined in: main.ts:161813
+Defined in: main.ts:161977
 
 #### Parameters
 

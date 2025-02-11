@@ -6,7 +6,7 @@
 
 # Interface: IExploreBrandsSerpElementItem
 
-Defined in: main.ts:37372
+Defined in: main.ts:37388
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:37372
 
 > `optional` **items**: [`ExploreBrandsElement`](../classes/ExploreBrandsElement.md)[]
 
-Defined in: main.ts:37376
+Defined in: main.ts:37392
 
 contains arrays of specific images
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:37380
+Defined in: main.ts:37396
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -91,7 +91,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:37374
+Defined in: main.ts:37390
 
 title of the row
 

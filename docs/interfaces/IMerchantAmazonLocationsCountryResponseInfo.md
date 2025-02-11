@@ -6,7 +6,7 @@
 
 # Interface: IMerchantAmazonLocationsCountryResponseInfo
 
-Defined in: main.ts:191555
+Defined in: main.ts:191961
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`MerchantAmazonLocationsCountryTaskInfo`](../classes/MerchantAmazonLocationsCountryTaskInfo.md)[]
 
-Defined in: main.ts:191557
+Defined in: main.ts:191963
 
 array of tasks
 

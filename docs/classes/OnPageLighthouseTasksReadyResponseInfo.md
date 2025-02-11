@@ -6,7 +6,7 @@
 
 # Class: OnPageLighthouseTasksReadyResponseInfo
 
-Defined in: main.ts:175883
+Defined in: main.ts:176247
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:175883
 
 > **new OnPageLighthouseTasksReadyResponseInfo**(`data`?): [`OnPageLighthouseTasksReadyResponseInfo`](OnPageLighthouseTasksReadyResponseInfo.md)
 
-Defined in: main.ts:175889
+Defined in: main.ts:176253
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageLighthouseTasksReadyTaskInfo`](OnPageLighthouseTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:175885
+Defined in: main.ts:176249
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:175893
+Defined in: main.ts:176257
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:175893
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:175915
+Defined in: main.ts:176279
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:175915
 
 > `static` **fromJS**(`data`): [`OnPageLighthouseTasksReadyResponseInfo`](OnPageLighthouseTasksReadyResponseInfo.md)
 
-Defined in: main.ts:175908
+Defined in: main.ts:176272
 
 #### Parameters
 

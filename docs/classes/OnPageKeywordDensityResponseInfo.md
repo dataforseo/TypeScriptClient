@@ -6,7 +6,7 @@
 
 # Class: OnPageKeywordDensityResponseInfo
 
-Defined in: main.ts:171497
+Defined in: main.ts:171661
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:171497
 
 > **new OnPageKeywordDensityResponseInfo**(`data`?): [`OnPageKeywordDensityResponseInfo`](OnPageKeywordDensityResponseInfo.md)
 
-Defined in: main.ts:171503
+Defined in: main.ts:171667
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageKeywordDensityTaskInfo`](OnPageKeywordDensityTaskInfo.md)[]
 
-Defined in: main.ts:171499
+Defined in: main.ts:171663
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:171507
+Defined in: main.ts:171671
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:171507
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:171529
+Defined in: main.ts:171693
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:171529
 
 > `static` **fromJS**(`data`): [`OnPageKeywordDensityResponseInfo`](OnPageKeywordDensityResponseInfo.md)
 
-Defined in: main.ts:171522
+Defined in: main.ts:171686
 
 #### Parameters
 

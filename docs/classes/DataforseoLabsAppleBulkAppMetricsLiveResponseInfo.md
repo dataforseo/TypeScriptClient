@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAppleBulkAppMetricsLiveResponseInfo
 
-Defined in: main.ts:123489
+Defined in: main.ts:123605
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:123489
 
 > **new DataforseoLabsAppleBulkAppMetricsLiveResponseInfo**(`data`?): [`DataforseoLabsAppleBulkAppMetricsLiveResponseInfo`](DataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md)
 
-Defined in: main.ts:123495
+Defined in: main.ts:123611
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsAppleBulkAppMetricsLiveTaskInfo`](DataforseoLabsAppleBulkAppMetricsLiveTaskInfo.md)[]
 
-Defined in: main.ts:123491
+Defined in: main.ts:123607
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:123499
+Defined in: main.ts:123615
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:123499
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:123521
+Defined in: main.ts:123637
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:123521
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAppleBulkAppMetricsLiveResponseInfo`](DataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md)
 
-Defined in: main.ts:123514
+Defined in: main.ts:123630
 
 #### Parameters
 

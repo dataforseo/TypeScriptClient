@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphHotelsBookingItemSerpElementItem
 
-Defined in: main.ts:30647
+Defined in: main.ts:30653
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:30647
 
 > **new KnowledgeGraphHotelsBookingItemSerpElementItem**(`data`?): [`KnowledgeGraphHotelsBookingItemSerpElementItem`](KnowledgeGraphHotelsBookingItemSerpElementItem.md)
 
-Defined in: main.ts:30674
+Defined in: main.ts:30680
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:30663
+Defined in: main.ts:30669
 
 google defined data attribute ID
 example:
@@ -76,7 +76,7 @@ kc:/local:hotel booking
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:30654
+Defined in: main.ts:30660
 
 starting date of stay
 in the format “year-month-date”
@@ -93,7 +93,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:30659
+Defined in: main.ts:30665
 
 ending date of stay
 in the format “year-month-date”
@@ -110,7 +110,7 @@ example:
 
 > `optional` **items**: [`KnowledgeGraphHotelsBookingElement`](KnowledgeGraphHotelsBookingElement.md)[]
 
-Defined in: main.ts:30666
+Defined in: main.ts:30672
 
 additional items present in the element
 if there are none, equals null
@@ -184,7 +184,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:30670
+Defined in: main.ts:30676
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -200,7 +200,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:30649
+Defined in: main.ts:30655
 
 title of a given link element
 
@@ -250,7 +250,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:30679
+Defined in: main.ts:30685
 
 #### Parameters
 
@@ -272,7 +272,7 @@ Defined in: main.ts:30679
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:30706
+Defined in: main.ts:30712
 
 #### Parameters
 
@@ -294,7 +294,7 @@ Defined in: main.ts:30706
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphHotelsBookingItemSerpElementItem`](KnowledgeGraphHotelsBookingItemSerpElementItem.md)
 
-Defined in: main.ts:30699
+Defined in: main.ts:30705
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAppleKeywordsForAppLiveTaskInfo
 
-Defined in: main.ts:124020
+Defined in: main.ts:124136
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsAppleKeywordsForAppLiveResultInfo`](../classes/DataforseoLabsAppleKeywordsForAppLiveResultInfo.md)[]
 
-Defined in: main.ts:124022
+Defined in: main.ts:124138
 
 array of results
 

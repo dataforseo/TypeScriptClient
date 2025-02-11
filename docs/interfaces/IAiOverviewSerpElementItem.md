@@ -6,7 +6,7 @@
 
 # Interface: IAiOverviewSerpElementItem
 
-Defined in: main.ts:38151
+Defined in: main.ts:38167
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:38151
 
 > `optional` **asynchronous\_ai\_overview**: `boolean`
 
-Defined in: main.ts:38155
+Defined in: main.ts:38171
 
 indicates whether the element is loaded asynchronically
 if true, the ai_overview element is loaded asynchronically;
@@ -34,7 +34,7 @@ if false, the ai_overview element is loaded from cache;
 
 > `optional` **items**: [`AiOverviewElement`](../classes/AiOverviewElement.md)[]
 
-Defined in: main.ts:38157
+Defined in: main.ts:38173
 
 contains arrays of specific images
 
@@ -91,7 +91,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:38164
+Defined in: main.ts:38180
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -103,7 +103,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **references**: [`AiOverviewReference`](../classes/AiOverviewReference.md)[]
 
-Defined in: main.ts:38160
+Defined in: main.ts:38176
 
 additional references relevant to the item
 includes references to webpages that may have been used to generate the ai_overview

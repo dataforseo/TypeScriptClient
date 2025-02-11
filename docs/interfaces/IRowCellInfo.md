@@ -6,7 +6,7 @@
 
 # Interface: IRowCellInfo
 
-Defined in: main.ts:173199
+Defined in: main.ts:174177
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:173199
 
 > `optional` **is\_header**: `boolean`
 
-Defined in: main.ts:173205
+Defined in: main.ts:174183
 
 indicates if the text belongs to the header
 
@@ -28,7 +28,7 @@ indicates if the text belongs to the header
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:173201
+Defined in: main.ts:174179
 
 content text
 
@@ -38,6 +38,6 @@ content text
 
 > `optional` **urls**: [`ContentUrlInfo`](../classes/ContentUrlInfo.md)[]
 
-Defined in: main.ts:173203
+Defined in: main.ts:174181
 
 contains other URLs and anchors found in the content element

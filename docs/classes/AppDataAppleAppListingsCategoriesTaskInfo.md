@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppListingsCategoriesTaskInfo
 
-Defined in: main.ts:208764
+Defined in: main.ts:209266
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:208764
 
 > **new AppDataAppleAppListingsCategoriesTaskInfo**(`data`?): [`AppDataAppleAppListingsCategoriesTaskInfo`](AppDataAppleAppListingsCategoriesTaskInfo.md)
 
-Defined in: main.ts:208770
+Defined in: main.ts:209272
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`AppDataAppleAppListingsCategoriesResultInfo`](AppDataAppleAppListingsCategoriesResultInfo.md)[]
 
-Defined in: main.ts:208766
+Defined in: main.ts:209268
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:208774
+Defined in: main.ts:209276
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:208774
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:208796
+Defined in: main.ts:209298
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:208796
 
 > `static` **fromJS**(`data`): [`AppDataAppleAppListingsCategoriesTaskInfo`](AppDataAppleAppListingsCategoriesTaskInfo.md)
 
-Defined in: main.ts:208789
+Defined in: main.ts:209291
 
 #### Parameters
 

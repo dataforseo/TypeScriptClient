@@ -6,7 +6,7 @@
 
 # Interface: IMultiCarouselSerpElementItem
 
-Defined in: main.ts:34170
+Defined in: main.ts:34186
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:34170
 
 > `optional` **items**: [`MultiCarouselElement`](../classes/MultiCarouselElement.md)[]
 
-Defined in: main.ts:34172
+Defined in: main.ts:34188
 
 contains arrays of specific images
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:34176
+Defined in: main.ts:34192
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP

@@ -6,7 +6,7 @@
 
 # Interface: ISerpYoutubeVideoCommentsLiveAdvancedResponseInfo
 
-Defined in: main.ts:74601
+Defined in: main.ts:74637
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpYoutubeVideoCommentsLiveAdvancedTaskInfo`](../classes/SerpYoutubeVideoCommentsLiveAdvancedTaskInfo.md)[]
 
-Defined in: main.ts:74603
+Defined in: main.ts:74639
 
 array of tasks
 

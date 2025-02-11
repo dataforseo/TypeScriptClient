@@ -6,7 +6,7 @@
 
 # Interface: ISerpBingLocalPackTaskPostTaskInfo
 
-Defined in: main.ts:66984
+Defined in: main.ts:67020
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:66987
+Defined in: main.ts:67023
 
 array of results
 in this case, the value will be null

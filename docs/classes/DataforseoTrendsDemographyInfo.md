@@ -6,7 +6,7 @@
 
 # Class: DataforseoTrendsDemographyInfo
 
-Defined in: main.ts:137408
+Defined in: main.ts:137572
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:137408
 
 > **new DataforseoTrendsDemographyInfo**(`data`?): [`DataforseoTrendsDemographyInfo`](DataforseoTrendsDemographyInfo.md)
 
-Defined in: main.ts:137427
+Defined in: main.ts:137591
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:137427
 
 > `optional` **demography**: [`Demography`](Demography.md)
 
-Defined in: main.ts:137419
+Defined in: main.ts:137583
 
 demographic breakdown of keyword popularity data per each specified term
 conains keyword popularity data by age and gender
@@ -55,7 +55,7 @@ conains keyword popularity data by age and gender
 
 > `optional` **demography\_comparison**: [`DemographyComparisonInfo`](DemographyComparisonInfo.md)
 
-Defined in: main.ts:137423
+Defined in: main.ts:137587
 
 comparison of demographic data on keyword popularity for the specified parameters
 conains keyword popularity data by age and gender
@@ -71,7 +71,7 @@ if you specified a single keyword, the value will be null
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:137416
+Defined in: main.ts:137580
 
 relevant keywords
 the data included in the demography and demography_comparison is based on the keywords listed in this array
@@ -86,7 +86,7 @@ the data included in the demography and demography_comparison is based on the ke
 
 > `optional` **position**: `number`
 
-Defined in: main.ts:137411
+Defined in: main.ts:137575
 
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
@@ -101,7 +101,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:137413
+Defined in: main.ts:137577
 
 type of element
 
@@ -115,7 +115,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:137436
+Defined in: main.ts:137600
 
 #### Parameters
 
@@ -133,7 +133,7 @@ Defined in: main.ts:137436
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:137461
+Defined in: main.ts:137625
 
 #### Parameters
 
@@ -151,7 +151,7 @@ Defined in: main.ts:137461
 
 > `static` **fromJS**(`data`): [`DataforseoTrendsDemographyInfo`](DataforseoTrendsDemographyInfo.md)
 
-Defined in: main.ts:137454
+Defined in: main.ts:137618
 
 #### Parameters
 

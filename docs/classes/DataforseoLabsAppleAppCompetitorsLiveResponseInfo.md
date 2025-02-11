@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAppleAppCompetitorsLiveResponseInfo
 
-Defined in: main.ts:124643
+Defined in: main.ts:124759
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:124643
 
 > **new DataforseoLabsAppleAppCompetitorsLiveResponseInfo**(`data`?): [`DataforseoLabsAppleAppCompetitorsLiveResponseInfo`](DataforseoLabsAppleAppCompetitorsLiveResponseInfo.md)
 
-Defined in: main.ts:124649
+Defined in: main.ts:124765
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsAppleAppCompetitorsLiveTaskInfo`](DataforseoLabsAppleAppCompetitorsLiveTaskInfo.md)[]
 
-Defined in: main.ts:124645
+Defined in: main.ts:124761
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:124653
+Defined in: main.ts:124769
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:124653
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:124675
+Defined in: main.ts:124791
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:124675
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAppleAppCompetitorsLiveResponseInfo`](DataforseoLabsAppleAppCompetitorsLiveResponseInfo.md)
 
-Defined in: main.ts:124668
+Defined in: main.ts:124784
 
 #### Parameters
 

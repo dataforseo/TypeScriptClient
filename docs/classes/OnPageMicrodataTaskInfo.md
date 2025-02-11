@@ -6,7 +6,7 @@
 
 # Class: OnPageMicrodataTaskInfo
 
-Defined in: main.ts:172022
+Defined in: main.ts:172186
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:172022
 
 > **new OnPageMicrodataTaskInfo**(`data`?): [`OnPageMicrodataTaskInfo`](OnPageMicrodataTaskInfo.md)
 
-Defined in: main.ts:172028
+Defined in: main.ts:172192
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`OnPageMicrodataResultInfo`](OnPageMicrodataResultInfo.md)[]
 
-Defined in: main.ts:172024
+Defined in: main.ts:172188
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:172032
+Defined in: main.ts:172196
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:172032
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:172054
+Defined in: main.ts:172218
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:172054
 
 > `static` **fromJS**(`data`): [`OnPageMicrodataTaskInfo`](OnPageMicrodataTaskInfo.md)
 
-Defined in: main.ts:172047
+Defined in: main.ts:172211
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksCompetitorsLiveResponseInfo
 
-Defined in: main.ts:157281
+Defined in: main.ts:157445
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BacklinksCompetitorsLiveTaskInfo`](../classes/BacklinksCompetitorsLiveTaskInfo.md)[]
 
-Defined in: main.ts:157283
+Defined in: main.ts:157447
 
 array of tasks
 

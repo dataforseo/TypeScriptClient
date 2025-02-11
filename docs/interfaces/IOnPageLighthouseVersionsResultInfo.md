@@ -6,7 +6,7 @@
 
 # Interface: IOnPageLighthouseVersionsResultInfo
 
-Defined in: main.ts:175304
+Defined in: main.ts:175668
 
 ## Indexable
 
@@ -18,4 +18,4 @@ Defined in: main.ts:175304
 
 > `optional` **availible\_versions**: [`AvailibleVersions`](../classes/AvailibleVersions.md)[]
 
-Defined in: main.ts:175305
+Defined in: main.ts:175669

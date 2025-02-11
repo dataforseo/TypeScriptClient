@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksReferringNetworksLiveTaskInfo
 
-Defined in: main.ts:156764
+Defined in: main.ts:156928
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`BacklinksReferringNetworksLiveResultInfo`](../classes/BacklinksReferringNetworksLiveResultInfo.md)[]
 
-Defined in: main.ts:156766
+Defined in: main.ts:156930
 
 array of results
 

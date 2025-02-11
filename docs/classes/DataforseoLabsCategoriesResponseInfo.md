@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsCategoriesResponseInfo
 
-Defined in: main.ts:91767
+Defined in: main.ts:91803
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:91767
 
 > **new DataforseoLabsCategoriesResponseInfo**(`data`?): [`DataforseoLabsCategoriesResponseInfo`](DataforseoLabsCategoriesResponseInfo.md)
 
-Defined in: main.ts:91773
+Defined in: main.ts:91809
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsCategoriesTaskInfo`](DataforseoLabsCategoriesTaskInfo.md)[]
 
-Defined in: main.ts:91769
+Defined in: main.ts:91805
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:91777
+Defined in: main.ts:91813
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:91777
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:91799
+Defined in: main.ts:91835
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:91799
 
 > `static` **fromJS**(`data`): [`DataforseoLabsCategoriesResponseInfo`](DataforseoLabsCategoriesResponseInfo.md)
 
-Defined in: main.ts:91792
+Defined in: main.ts:91828
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppReviewsTasksReadyTaskInfo
 
-Defined in: main.ts:203256
+Defined in: main.ts:203758
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:203256
 
 > **new AppDataGoogleAppReviewsTasksReadyTaskInfo**(`data`?): [`AppDataGoogleAppReviewsTasksReadyTaskInfo`](AppDataGoogleAppReviewsTasksReadyTaskInfo.md)
 
-Defined in: main.ts:203262
+Defined in: main.ts:203764
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`AppDataGoogleAppReviewsTasksReadyResultInfo`](AppDataGoogleAppReviewsTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:203258
+Defined in: main.ts:203760
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:203266
+Defined in: main.ts:203768
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:203266
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:203288
+Defined in: main.ts:203790
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:203288
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppReviewsTasksReadyTaskInfo`](AppDataGoogleAppReviewsTasksReadyTaskInfo.md)
 
-Defined in: main.ts:203281
+Defined in: main.ts:203783
 
 #### Parameters
 

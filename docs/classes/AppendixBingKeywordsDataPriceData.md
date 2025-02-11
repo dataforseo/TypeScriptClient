@@ -6,7 +6,7 @@
 
 # Class: AppendixBingKeywordsDataPriceData
 
-Defined in: main.ts:236386
+Defined in: main.ts:236750
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:236386
 
 > **new AppendixBingKeywordsDataPriceData**(`data`?): [`AppendixBingKeywordsDataPriceData`](AppendixBingKeywordsDataPriceData.md)
 
-Defined in: main.ts:236396
+Defined in: main.ts:236760
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:236396
 
 > `optional` **audience\_estimation**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236387
+Defined in: main.ts:236751
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:236387
 
 > `optional` **keyword\_performance**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236388
+Defined in: main.ts:236752
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:236388
 
 > `optional` **keyword\_suggestions\_for\_url**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236391
+Defined in: main.ts:236755
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:236391
 
 > `optional` **keywords\_for\_keywords**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236389
+Defined in: main.ts:236753
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:236389
 
 > `optional` **keywords\_for\_site**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236390
+Defined in: main.ts:236754
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:236390
 
 > `optional` **search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236392
+Defined in: main.ts:236756
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:236392
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:236405
+Defined in: main.ts:236769
 
 #### Parameters
 
@@ -130,7 +130,7 @@ Defined in: main.ts:236405
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:236427
+Defined in: main.ts:236791
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:236427
 
 > `static` **fromJS**(`data`): [`AppendixBingKeywordsDataPriceData`](AppendixBingKeywordsDataPriceData.md)
 
-Defined in: main.ts:236420
+Defined in: main.ts:236784
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: BacklinksReferringNetworksLiveTaskInfo
 
-Defined in: main.ts:156716
+Defined in: main.ts:156880
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:156716
 
 > **new BacklinksReferringNetworksLiveTaskInfo**(`data`?): [`BacklinksReferringNetworksLiveTaskInfo`](BacklinksReferringNetworksLiveTaskInfo.md)
 
-Defined in: main.ts:156722
+Defined in: main.ts:156886
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`BacklinksReferringNetworksLiveResultInfo`](BacklinksReferringNetworksLiveResultInfo.md)[]
 
-Defined in: main.ts:156718
+Defined in: main.ts:156882
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:156726
+Defined in: main.ts:156890
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:156726
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:156748
+Defined in: main.ts:156912
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:156748
 
 > `static` **fromJS**(`data`): [`BacklinksReferringNetworksLiveTaskInfo`](BacklinksReferringNetworksLiveTaskInfo.md)
 
-Defined in: main.ts:156741
+Defined in: main.ts:156905
 
 #### Parameters
 

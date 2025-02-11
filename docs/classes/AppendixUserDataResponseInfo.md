@@ -6,7 +6,7 @@
 
 # Class: AppendixUserDataResponseInfo
 
-Defined in: main.ts:239041
+Defined in: main.ts:239469
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:239041
 
 > **new AppendixUserDataResponseInfo**(`data`?): [`AppendixUserDataResponseInfo`](AppendixUserDataResponseInfo.md)
 
-Defined in: main.ts:239047
+Defined in: main.ts:239475
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppendixUserDataTaskInfo`](AppendixUserDataTaskInfo.md)[]
 
-Defined in: main.ts:239043
+Defined in: main.ts:239471
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:239051
+Defined in: main.ts:239479
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:239051
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:239073
+Defined in: main.ts:239501
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:239073
 
 > `static` **fromJS**(`data`): [`AppendixUserDataResponseInfo`](AppendixUserDataResponseInfo.md)
 
-Defined in: main.ts:239066
+Defined in: main.ts:239494
 
 #### Parameters
 

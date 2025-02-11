@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphDescriptionItemSerpElementItem
 
-Defined in: main.ts:29658
+Defined in: main.ts:29666
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:29658
 
 > `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
-Defined in: main.ts:29664
+Defined in: main.ts:29672
 
 sitelinks
 the links shown below some of Google’s search results
@@ -81,7 +81,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:29668
+Defined in: main.ts:29676
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -93,7 +93,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:29660
+Defined in: main.ts:29668
 
 text or description of the element in SERP
 

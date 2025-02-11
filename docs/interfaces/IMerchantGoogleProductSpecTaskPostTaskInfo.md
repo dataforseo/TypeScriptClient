@@ -6,7 +6,7 @@
 
 # Interface: IMerchantGoogleProductSpecTaskPostTaskInfo
 
-Defined in: main.ts:189049
+Defined in: main.ts:189439
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:189052
+Defined in: main.ts:189442
 
 array of results
 in this case, the value will be null

@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisSearchLiveRequestInfo
 
-Defined in: main.ts:177388
+Defined in: main.ts:177752
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:177388
 
 > **new ContentAnalysisSearchLiveRequestInfo**(`data`?): [`ContentAnalysisSearchLiveRequestInfo`](ContentAnalysisSearchLiveRequestInfo.md)
 
-Defined in: main.ts:177483
+Defined in: main.ts:177847
 
 #### Parameters
 
@@ -40,14 +40,14 @@ Defined in: main.ts:177483
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:177444
+Defined in: main.ts:177808
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like, match, not_match
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["country","=", "US"]
@@ -69,7 +69,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:177397
+Defined in: main.ts:177761
 
 target keyword
 required field
@@ -90,7 +90,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **keyword\_fields**: `object`
 
-Defined in: main.ts:177409
+Defined in: main.ts:177773
 
 target keyword fields and target keywords
 optional field
@@ -118,7 +118,7 @@ example:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:177427
+Defined in: main.ts:177791
 
 the maximum number of returned citations
 optional field
@@ -135,7 +135,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:177465
+Defined in: main.ts:177829
 
 offset in the results array of returned citations
 optional field
@@ -152,7 +152,7 @@ if you specify the 10 value, the first ten citations in the results array will b
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:177473
+Defined in: main.ts:177837
 
 offset token for subsequent requests
 optional field
@@ -172,7 +172,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:177460
+Defined in: main.ts:177824
 
 results sorting rules
 optional field
@@ -200,7 +200,7 @@ example:
 
 > `optional` **page\_type**: `string`[]
 
-Defined in: main.ts:177415
+Defined in: main.ts:177779
 
 target page types
 optional field
@@ -218,7 +218,7 @@ possible values:
 
 > `optional` **search\_mode**: `string`
 
-Defined in: main.ts:177422
+Defined in: main.ts:177786
 
 results grouping type
 optional field
@@ -237,7 +237,7 @@ default value: as_is
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:177479
+Defined in: main.ts:177843
 
 user-defined task identifier
 optional field
@@ -255,7 +255,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:177492
+Defined in: main.ts:177856
 
 #### Parameters
 
@@ -273,7 +273,7 @@ Defined in: main.ts:177492
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:177536
+Defined in: main.ts:177900
 
 #### Parameters
 
@@ -291,7 +291,7 @@ Defined in: main.ts:177536
 
 > `static` **fromJS**(`data`): [`ContentAnalysisSearchLiveRequestInfo`](ContentAnalysisSearchLiveRequestInfo.md)
 
-Defined in: main.ts:177529
+Defined in: main.ts:177893
 
 #### Parameters
 

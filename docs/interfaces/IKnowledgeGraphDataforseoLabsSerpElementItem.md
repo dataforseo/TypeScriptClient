@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphDataforseoLabsSerpElementItem
 
-Defined in: main.ts:106169
+Defined in: main.ts:106307
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:106169
 
 > `optional` **card\_id**: `string`
 
-Defined in: main.ts:106179
+Defined in: main.ts:106317
 
 card id
 
@@ -32,7 +32,7 @@ card id
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:106187
+Defined in: main.ts:106325
 
 google-defined client id
 
@@ -42,7 +42,7 @@ google-defined client id
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:106177
+Defined in: main.ts:106315
 
 description of the results element in SERP
 
@@ -52,7 +52,7 @@ description of the results element in SERP
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:106183
+Defined in: main.ts:106321
 
 URL of the image from knowledge graph
 
@@ -62,7 +62,7 @@ URL of the image from knowledge graph
 
 > `optional` **items**: [`BaseDataforseoLabsSerpElementItem`](../classes/BaseDataforseoLabsSerpElementItem.md)[]
 
-Defined in: main.ts:106189
+Defined in: main.ts:106327
 
 elements of search results found in SERP
 
@@ -72,7 +72,7 @@ elements of search results found in SERP
 
 > `optional` **logo\_url**: `string`
 
-Defined in: main.ts:106185
+Defined in: main.ts:106323
 
 URL of the logo from knowledge graph
 
@@ -128,7 +128,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:106171
+Defined in: main.ts:106309
 
 search engine type
 
@@ -138,7 +138,7 @@ search engine type
 
 > `optional` **sub\_title**: `string`
 
-Defined in: main.ts:106175
+Defined in: main.ts:106313
 
 subtitle of the item
 
@@ -148,7 +148,7 @@ subtitle of the item
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:106173
+Defined in: main.ts:106311
 
 title of the result in SERP
 
@@ -172,7 +172,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:106181
+Defined in: main.ts:106319
 
 relevant URL of the Ad element in SERP
 

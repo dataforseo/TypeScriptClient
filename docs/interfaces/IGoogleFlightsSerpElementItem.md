@@ -6,7 +6,7 @@
 
 # Interface: IGoogleFlightsSerpElementItem
 
-Defined in: main.ts:33662
+Defined in: main.ts:33678
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:33662
 
 > `optional` **items**: [`GoogleFlightsElement`](../classes/GoogleFlightsElement.md)[]
 
-Defined in: main.ts:33668
+Defined in: main.ts:33684
 
 contains arrays of specific images
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:33672
+Defined in: main.ts:33688
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -91,7 +91,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:33664
+Defined in: main.ts:33680
 
 title of the row
 
@@ -115,7 +115,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:33666
+Defined in: main.ts:33682
 
 source URL
 

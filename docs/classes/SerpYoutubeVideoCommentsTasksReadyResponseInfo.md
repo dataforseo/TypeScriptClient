@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeVideoCommentsTasksReadyResponseInfo
 
-Defined in: main.ts:73535
+Defined in: main.ts:73571
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:73535
 
 > **new SerpYoutubeVideoCommentsTasksReadyResponseInfo**(`data`?): [`SerpYoutubeVideoCommentsTasksReadyResponseInfo`](SerpYoutubeVideoCommentsTasksReadyResponseInfo.md)
 
-Defined in: main.ts:73541
+Defined in: main.ts:73577
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpYoutubeVideoCommentsTasksReadyTaskInfo`](SerpYoutubeVideoCommentsTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:73537
+Defined in: main.ts:73573
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:73545
+Defined in: main.ts:73581
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:73545
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:73567
+Defined in: main.ts:73603
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:73567
 
 > `static` **fromJS**(`data`): [`SerpYoutubeVideoCommentsTasksReadyResponseInfo`](SerpYoutubeVideoCommentsTasksReadyResponseInfo.md)
 
-Defined in: main.ts:73560
+Defined in: main.ts:73596
 
 #### Parameters
 

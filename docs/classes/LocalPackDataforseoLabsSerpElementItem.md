@@ -6,7 +6,7 @@
 
 # Class: LocalPackDataforseoLabsSerpElementItem
 
-Defined in: main.ts:107331
+Defined in: main.ts:107401
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:107331
 
 > **new LocalPackDataforseoLabsSerpElementItem**(`data`?): [`LocalPackDataforseoLabsSerpElementItem`](LocalPackDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:107382
+Defined in: main.ts:107448
 
 #### Parameters
 
@@ -56,23 +56,11 @@ Defined in: main.ts:21425
 
 ***
 
-### backlinks\_info?
-
-> `optional` **backlinks\_info**: [`BacklinksInfo`](BacklinksInfo.md)
-
-Defined in: main.ts:107377
-
-#### Implementation of
-
-[`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[`backlinks_info`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#backlinks_info)
-
-***
-
 ### clickstream\_etv?
 
 > `optional` **clickstream\_etv**: `number`
 
-Defined in: main.ts:107374
+Defined in: main.ts:107444
 
 estimated traffic volume based on clickstream data
 calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for
@@ -89,7 +77,7 @@ learn more about how the metric is calculated in this help center article https:
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:107335
+Defined in: main.ts:107405
 
 description of the results element in SERP
 
@@ -103,7 +91,7 @@ description of the results element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:107337
+Defined in: main.ts:107407
 
 domain where a link points
 
@@ -117,7 +105,7 @@ domain where a link points
 
 > `optional` **estimated\_paid\_traffic\_cost**: `number`
 
-Defined in: main.ts:107365
+Defined in: main.ts:107435
 
 estimated cost of converting organic search traffic into paid
 represents the estimated monthly cost of running ads for the returned keyword
@@ -134,7 +122,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **etv**: `number`
 
-Defined in: main.ts:107355
+Defined in: main.ts:107425
 
 estimated traffic volume
 estimated organic monthly traffic to the domain
@@ -151,7 +139,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **impressions\_etv**: `number`
 
-Defined in: main.ts:107360
+Defined in: main.ts:107430
 
 estimated traffic volume based on impressions
 estimated organic monthly traffic to the domain
@@ -168,7 +156,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **is\_paid**: `boolean`
 
-Defined in: main.ts:107343
+Defined in: main.ts:107413
 
 indicates whether the element is an ad
 
@@ -182,7 +170,7 @@ indicates whether the element is an ad
 
 > `optional` **main\_domain**: `string`
 
-Defined in: main.ts:107348
+Defined in: main.ts:107418
 
 primary domain name in SERP
 
@@ -196,7 +184,7 @@ primary domain name in SERP
 
 > `optional` **phone**: `string`
 
-Defined in: main.ts:107339
+Defined in: main.ts:107409
 
 phone number
 
@@ -249,7 +237,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_changes**: [`RankChanges`](RankChanges.md)
 
-Defined in: main.ts:107369
+Defined in: main.ts:107439
 
 changes in rankings
 ranking changes of the SERP element compared to the preceding month;
@@ -280,23 +268,11 @@ positions of elements with different type values are omitted from rank_group
 
 ***
 
-### rank\_info?
-
-> `optional` **rank\_info**: [`RankInfo`](RankInfo.md)
-
-Defined in: main.ts:107378
-
-#### Implementation of
-
-[`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[`rank_info`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#rank_info)
-
-***
-
 ### rating?
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:107346
+Defined in: main.ts:107416
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -311,7 +287,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **relative\_url**: `string`
 
-Defined in: main.ts:107350
+Defined in: main.ts:107420
 
 URL in SERP that does not specify the HTTPs protocol and domain name
 
@@ -321,25 +297,11 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 ***
 
-### se\_type?
-
-> `optional` **se\_type**: `string`
-
-Defined in: main.ts:107376
-
-search engine type
-
-#### Implementation of
-
-[`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[`se_type`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#se_type)
-
-***
-
 ### title?
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:107333
+Defined in: main.ts:107403
 
 title of the result in SERP
 
@@ -371,7 +333,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:107341
+Defined in: main.ts:107411
 
 relevant URL of the Ad element in SERP
 
@@ -403,7 +365,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:107387
+Defined in: main.ts:107453
 
 #### Parameters
 
@@ -425,7 +387,7 @@ Defined in: main.ts:107387
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:107421
+Defined in: main.ts:107484
 
 #### Parameters
 
@@ -447,7 +409,7 @@ Defined in: main.ts:107421
 
 > `static` **fromJS**(`data`): [`LocalPackDataforseoLabsSerpElementItem`](LocalPackDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:107414
+Defined in: main.ts:107477
 
 #### Parameters
 

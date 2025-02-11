@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingRelevantPagesLiveResponseInfo
 
-Defined in: main.ts:119749
+Defined in: main.ts:119853
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:119749
 
 > **new DataforseoLabsBingRelevantPagesLiveResponseInfo**(`data`?): [`DataforseoLabsBingRelevantPagesLiveResponseInfo`](DataforseoLabsBingRelevantPagesLiveResponseInfo.md)
 
-Defined in: main.ts:119755
+Defined in: main.ts:119859
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsBingRelevantPagesLiveTaskInfo`](DataforseoLabsBingRelevantPagesLiveTaskInfo.md)[]
 
-Defined in: main.ts:119751
+Defined in: main.ts:119855
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:119759
+Defined in: main.ts:119863
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:119759
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:119781
+Defined in: main.ts:119885
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:119781
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingRelevantPagesLiveResponseInfo`](DataforseoLabsBingRelevantPagesLiveResponseInfo.md)
 
-Defined in: main.ts:119774
+Defined in: main.ts:119878
 
 #### Parameters
 

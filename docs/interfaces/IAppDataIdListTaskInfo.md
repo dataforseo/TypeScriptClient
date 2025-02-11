@@ -6,7 +6,7 @@
 
 # Interface: IAppDataIdListTaskInfo
 
-Defined in: main.ts:198152
+Defined in: main.ts:198654
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`AppDataIdListResultInfo`](../classes/AppDataIdListResultInfo.md)[]
 
-Defined in: main.ts:198154
+Defined in: main.ts:198656
 
 array of results
 

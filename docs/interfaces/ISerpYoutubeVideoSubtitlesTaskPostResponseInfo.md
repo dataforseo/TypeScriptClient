@@ -6,7 +6,7 @@
 
 # Interface: ISerpYoutubeVideoSubtitlesTaskPostResponseInfo
 
-Defined in: main.ts:71763
+Defined in: main.ts:71799
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpYoutubeVideoSubtitlesTaskPostTaskInfo`](../classes/SerpYoutubeVideoSubtitlesTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:71765
+Defined in: main.ts:71801
 
 array of tasks
 

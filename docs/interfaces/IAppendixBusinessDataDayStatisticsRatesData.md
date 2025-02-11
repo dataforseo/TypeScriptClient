@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixBusinessDataDayStatisticsRatesData
+[Documentation](../README.md) / IAppendixBusinessDataDayStatisticsRatesData
 
 # Interface: IAppendixBusinessDataDayStatisticsRatesData
 
+Defined in: main.ts:234791
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,13 +18,7 @@
 
 > `optional` **available\_filters**: `number`
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219183
-=======
-main.ts:219216
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:234802
 
 ***
 
@@ -30,13 +26,7 @@ main.ts:219216
 
 > `optional` **business\_listings**: [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](../classes/AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219180
-=======
-main.ts:219213
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:234800
 
 ***
 
@@ -44,13 +34,7 @@ main.ts:219213
 
 > `optional` **errors**: `number`
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219175
-=======
-main.ts:219208
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:234795
 
 ***
 
@@ -58,13 +42,7 @@ main.ts:219208
 
 > `optional` **google**: [`AppendixBusinessDataGoogleInfo`](../classes/AppendixBusinessDataGoogleInfo.md)
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219172
-=======
-main.ts:219205
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:234792
 
 ***
 
@@ -72,13 +50,7 @@ main.ts:219205
 
 > `optional` **id\_list**: `number`
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219182
-=======
-main.ts:219215
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:234803
 
 ***
 
@@ -86,13 +58,7 @@ main.ts:219215
 
 > `optional` **languages**: `number`
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219174
-=======
-main.ts:219207
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:234794
 
 ***
 
@@ -100,13 +66,7 @@ main.ts:219207
 
 > `optional` **locations**: `number`
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219173
-=======
-main.ts:219206
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:234793
 
 ***
 
@@ -114,13 +74,7 @@ main.ts:219206
 
 > `optional` **social\_media**: [`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`](../classes/AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219177
-=======
-main.ts:219210
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:234797
 
 ***
 
@@ -128,13 +82,7 @@ main.ts:219210
 
 > `optional` **tasks\_ready**: `number`
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219181
-=======
-main.ts:219214
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:234801
 
 ***
 
@@ -142,13 +90,7 @@ main.ts:219214
 
 > `optional` **tripadvisor**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](../classes/AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219178
-=======
-main.ts:219211
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:234798
 
 ***
 
@@ -156,13 +98,7 @@ main.ts:219211
 
 > `optional` **trustpilot**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](../classes/AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219179
-=======
-main.ts:219212
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:234799
 
 ***
 
@@ -170,10 +106,4 @@ main.ts:219212
 
 > `optional` **yelp**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](../classes/AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219176
-=======
-main.ts:219209
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:234796

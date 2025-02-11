@@ -6,7 +6,7 @@
 
 # Class: ContentItemInfo
 
-Defined in: main.ts:172978
+Defined in: main.ts:173846
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:172978
 
 > **new ContentItemInfo**(`data`?): [`ContentItemInfo`](ContentItemInfo.md)
 
-Defined in: main.ts:172989
+Defined in: main.ts:173857
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:172989
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:172980
+Defined in: main.ts:173848
 
 content text
 
@@ -54,7 +54,7 @@ content text
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:172983
+Defined in: main.ts:173851
 
 page URL
 displayed in case the text is a link anchor
@@ -69,7 +69,7 @@ displayed in case the text is a link anchor
 
 > `optional` **urls**: [`ContentUrlInfo`](ContentUrlInfo.md)[]
 
-Defined in: main.ts:172985
+Defined in: main.ts:173853
 
 contains other URLs and anchors found in the content element
 
@@ -83,7 +83,7 @@ contains other URLs and anchors found in the content element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:172998
+Defined in: main.ts:173866
 
 #### Parameters
 
@@ -101,7 +101,7 @@ Defined in: main.ts:172998
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:173021
+Defined in: main.ts:173889
 
 #### Parameters
 
@@ -119,7 +119,7 @@ Defined in: main.ts:173021
 
 > `static` **fromJS**(`data`): [`ContentItemInfo`](ContentItemInfo.md)
 
-Defined in: main.ts:173014
+Defined in: main.ts:173882
 
 #### Parameters
 

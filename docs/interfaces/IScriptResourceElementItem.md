@@ -6,7 +6,7 @@
 
 # Interface: IScriptResourceElementItem
 
-Defined in: main.ts:168115
+Defined in: main.ts:168418
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:168115
 
 > `optional` **accept\_type**: `string`
 
-Defined in: main.ts:168127
+Defined in: main.ts:168430
 
 indicates the expected type of resource
 for example, if "resource_type": "broken", accept_type will indicate the type of the broken resource
@@ -114,7 +114,7 @@ example:
 
 > `optional` **fetch\_timing**: [`FetchTiming`](../classes/FetchTiming.md)
 
-Defined in: main.ts:168122
+Defined in: main.ts:168425
 
 resource fething time range
 
@@ -168,7 +168,7 @@ types of media used to display a page
 
 > `optional` **meta**: [`ResourceMetaInfo`](../classes/ResourceMetaInfo.md)
 
-Defined in: main.ts:168120
+Defined in: main.ts:168423
 
 resource properties
 the value depends on the resource_type

@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAmazonBulkSearchVolumeLiveResponseInfo
 
-Defined in: main.ts:112273
+Defined in: main.ts:112341
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo`](../classes/DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md)[]
 
-Defined in: main.ts:112275
+Defined in: main.ts:112343
 
 array of tasks
 

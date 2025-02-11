@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisPhraseTrendsLiveResponseInfo
 
-Defined in: main.ts:180489
+Defined in: main.ts:180851
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:180489
 
 > **new ContentAnalysisPhraseTrendsLiveResponseInfo**(`data`?): [`ContentAnalysisPhraseTrendsLiveResponseInfo`](ContentAnalysisPhraseTrendsLiveResponseInfo.md)
 
-Defined in: main.ts:180495
+Defined in: main.ts:180857
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`ContentAnalysisPhraseTrendsLiveTaskInfo`](ContentAnalysisPhraseTrendsLiveTaskInfo.md)[]
 
-Defined in: main.ts:180491
+Defined in: main.ts:180853
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:180499
+Defined in: main.ts:180861
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:180499
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:180521
+Defined in: main.ts:180883
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:180521
 
 > `static` **fromJS**(`data`): [`ContentAnalysisPhraseTrendsLiveResponseInfo`](ContentAnalysisPhraseTrendsLiveResponseInfo.md)
 
-Defined in: main.ts:180514
+Defined in: main.ts:180876
 
 #### Parameters
 

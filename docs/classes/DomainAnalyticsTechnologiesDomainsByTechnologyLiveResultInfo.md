@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesDomainsByTechnologyLiveResultInfo
 
-Defined in: main.ts:87920
+Defined in: main.ts:87956
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:87920
 
 > **new DomainAnalyticsTechnologiesDomainsByTechnologyLiveResultInfo**(`data`?): [`DomainAnalyticsTechnologiesDomainsByTechnologyLiveResultInfo`](DomainAnalyticsTechnologiesDomainsByTechnologyLiveResultInfo.md)
 
-Defined in: main.ts:87936
+Defined in: main.ts:87972
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:87936
 
 > `optional` **items**: [`DomainAnalyticsTechnologiesDomainsByLiveItem`](DomainAnalyticsTechnologiesDomainsByLiveItem.md)[]
 
-Defined in: main.ts:87932
+Defined in: main.ts:87968
 
 items array
 
@@ -54,7 +54,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:87924
+Defined in: main.ts:87960
 
 number of items in the results array
 
@@ -68,7 +68,7 @@ number of items in the results array
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:87926
+Defined in: main.ts:87962
 
 specified offset value
 
@@ -82,7 +82,7 @@ specified offset value
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:87930
+Defined in: main.ts:87966
 
 token for subsequent requests
 by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task;
@@ -98,7 +98,7 @@ offset_token values are unique for each subsequent task
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:87922
+Defined in: main.ts:87958
 
 total number of relevant items in the database
 
@@ -112,7 +112,7 @@ total number of relevant items in the database
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:87945
+Defined in: main.ts:87981
 
 #### Parameters
 
@@ -130,7 +130,7 @@ Defined in: main.ts:87945
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:87970
+Defined in: main.ts:88006
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:87970
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesDomainsByTechnologyLiveResultInfo`](DomainAnalyticsTechnologiesDomainsByTechnologyLiveResultInfo.md)
 
-Defined in: main.ts:87963
+Defined in: main.ts:87999
 
 #### Parameters
 

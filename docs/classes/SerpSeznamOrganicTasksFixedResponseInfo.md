@@ -6,7 +6,7 @@
 
 # Class: SerpSeznamOrganicTasksFixedResponseInfo
 
-Defined in: main.ts:83521
+Defined in: main.ts:83557
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:83521
 
 > **new SerpSeznamOrganicTasksFixedResponseInfo**(`data`?): [`SerpSeznamOrganicTasksFixedResponseInfo`](SerpSeznamOrganicTasksFixedResponseInfo.md)
 
-Defined in: main.ts:83527
+Defined in: main.ts:83563
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpSeznamOrganicTasksFixedTaskInfo`](SerpSeznamOrganicTasksFixedTaskInfo.md)[]
 
-Defined in: main.ts:83523
+Defined in: main.ts:83559
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:83531
+Defined in: main.ts:83567
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:83531
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:83553
+Defined in: main.ts:83589
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:83553
 
 > `static` **fromJS**(`data`): [`SerpSeznamOrganicTasksFixedResponseInfo`](SerpSeznamOrganicTasksFixedResponseInfo.md)
 
-Defined in: main.ts:83546
+Defined in: main.ts:83582
 
 #### Parameters
 

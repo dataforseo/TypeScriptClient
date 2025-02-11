@@ -6,7 +6,7 @@
 
 # Class: BacklinksIndexResponseInfo
 
-Defined in: main.ts:149959
+Defined in: main.ts:150123
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:149959
 
 > **new BacklinksIndexResponseInfo**(`data`?): [`BacklinksIndexResponseInfo`](BacklinksIndexResponseInfo.md)
 
-Defined in: main.ts:149965
+Defined in: main.ts:150129
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BacklinksIndexTaskInfo`](BacklinksIndexTaskInfo.md)[]
 
-Defined in: main.ts:149961
+Defined in: main.ts:150125
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:149969
+Defined in: main.ts:150133
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:149969
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:149991
+Defined in: main.ts:150155
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:149991
 
 > `static` **fromJS**(`data`): [`BacklinksIndexResponseInfo`](BacklinksIndexResponseInfo.md)
 
-Defined in: main.ts:149984
+Defined in: main.ts:150148
 
 #### Parameters
 

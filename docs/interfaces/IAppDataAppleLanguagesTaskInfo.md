@@ -6,7 +6,7 @@
 
 # Interface: IAppDataAppleLanguagesTaskInfo
 
-Defined in: main.ts:205206
+Defined in: main.ts:205708
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`AppDataAppleLanguagesResultInfo`](../classes/AppDataAppleLanguagesResultInfo.md)[]
 
-Defined in: main.ts:205208
+Defined in: main.ts:205710
 
 array of results
 

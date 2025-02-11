@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo
 
-Defined in: main.ts:72906
+Defined in: main.ts:72942
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:72906
 
 > **new SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo**(`data`?): [`SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md)
 
-Defined in: main.ts:72912
+Defined in: main.ts:72948
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo.md)[]
 
-Defined in: main.ts:72908
+Defined in: main.ts:72944
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:72916
+Defined in: main.ts:72952
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:72916
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:72938
+Defined in: main.ts:72974
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:72938
 
 > `static` **fromJS**(`data`): [`SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedTaskInfo.md)
 
-Defined in: main.ts:72931
+Defined in: main.ts:72967
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IHotelAboutInfo
 
-Defined in: main.ts:219242
+Defined in: main.ts:219750
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:219242
 
 > `optional` **amenities**: [`HotelAmenityInfo`](../classes/HotelAmenityInfo.md)[]
 
-Defined in: main.ts:219266
+Defined in: main.ts:219774
 
 hotel amenities
 information about hotel amenities
@@ -29,7 +29,7 @@ information about hotel amenities
 
 > `optional` **check\_in\_time**: [`WorkTimeInfo`](../classes/WorkTimeInfo.md)
 
-Defined in: main.ts:219251
+Defined in: main.ts:219759
 
 hotel check-in time
 check-in time indicated in the hotel listing
@@ -40,7 +40,7 @@ check-in time indicated in the hotel listing
 
 > `optional` **check\_out\_time**: [`WorkTimeInfo`](../classes/WorkTimeInfo.md)
 
-Defined in: main.ts:219254
+Defined in: main.ts:219762
 
 hotel check-out time
 check-out time indicated in the hotel listing
@@ -51,7 +51,7 @@ check-out time indicated in the hotel listing
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:219245
+Defined in: main.ts:219753
 
 description of the hotel
 the description of the hotel entity for which the results are collected
@@ -62,7 +62,7 @@ the description of the hotel entity for which the results are collected
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:219260
+Defined in: main.ts:219768
 
 hotel domain
 domain of the hotel’s website
@@ -73,7 +73,7 @@ domain of the hotel’s website
 
 > `optional` **full\_address**: `string`
 
-Defined in: main.ts:219257
+Defined in: main.ts:219765
 
 full address of the hotel
 address of the hotel indicated in the standardised format
@@ -84,7 +84,7 @@ address of the hotel indicated in the standardised format
 
 > `optional` **popular\_amenities**: [`HotelAmenityItemInfo`](../classes/HotelAmenityItemInfo.md)[]
 
-Defined in: main.ts:219269
+Defined in: main.ts:219777
 
 hotel amenities
 information about hotel amenities labelled as “popular”
@@ -95,7 +95,7 @@ information about hotel amenities labelled as “popular”
 
 > `optional` **sub\_descriptions**: `string`[]
 
-Defined in: main.ts:219248
+Defined in: main.ts:219756
 
 additional description of the hotel
 details about the hotel provided in addition to the description
@@ -106,7 +106,7 @@ details about the hotel provided in addition to the description
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:219263
+Defined in: main.ts:219771
 
 hotel url
 URL to the hotel’s website indicated in the listing

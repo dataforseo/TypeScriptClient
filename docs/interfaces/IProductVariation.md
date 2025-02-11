@@ -6,7 +6,7 @@
 
 # Interface: IProductVariation
 
-Defined in: main.ts:190585
+Defined in: main.ts:190991
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:190585
 
 > `optional` **product\_id**: `string`
 
-Defined in: main.ts:190590
+Defined in: main.ts:190996
 
 product ID in a POST array
 learn more about the parameter in this help center guide
@@ -29,7 +29,7 @@ learn more about the parameter in this help center guide
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:190592
+Defined in: main.ts:190998
 
 name of the product seller
 
@@ -39,7 +39,7 @@ name of the product seller
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:190587
+Defined in: main.ts:190993
 
 type of element
 
@@ -49,7 +49,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:190595
+Defined in: main.ts:191001
 
 seller url
 url of the webpage on the seller’s website where the product is sold

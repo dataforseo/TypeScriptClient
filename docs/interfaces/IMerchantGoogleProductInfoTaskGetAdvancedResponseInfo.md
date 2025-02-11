@@ -6,7 +6,7 @@
 
 # Interface: IMerchantGoogleProductInfoTaskGetAdvancedResponseInfo
 
-Defined in: main.ts:190989
+Defined in: main.ts:191395
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`MerchantGoogleProductInfoTaskGetAdvancedTaskInfo`](../classes/MerchantGoogleProductInfoTaskGetAdvancedTaskInfo.md)[]
 
-Defined in: main.ts:190991
+Defined in: main.ts:191397
 
 array of tasks
 

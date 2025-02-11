@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo
 
-Defined in: main.ts:115640
+Defined in: main.ts:115708
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:115640
 
 > **new DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo**(`data`?): [`DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md)
 
-Defined in: main.ts:115696
+Defined in: main.ts:115769
 
 #### Parameters
 
@@ -36,11 +36,28 @@ Defined in: main.ts:115696
 
 ## Properties
 
+### ignore\_synonyms?
+
+> `optional` **ignore\_synonyms**: `boolean`
+
+Defined in: main.ts:115759
+
+ignore highly similar keywords
+optional field
+if set to true, only core keywords will be returned, all highly similar keywords will be excluded;
+default value: false
+
+#### Implementation of
+
+[`IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md).[`ignore_synonyms`](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md#ignore_synonyms)
+
+***
+
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:115686
+Defined in: main.ts:115754
 
 display results by item type
 optional field
@@ -61,7 +78,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:115677
+Defined in: main.ts:115745
 
 language code
 required field if don’t specify language_name
@@ -80,7 +97,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:115670
+Defined in: main.ts:115738
 
 full name of the language
 required field if don’t specify language_code
@@ -99,7 +116,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:115663
+Defined in: main.ts:115731
 
 location code
 required field if don’t specify location_name
@@ -119,7 +136,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:115655
+Defined in: main.ts:115723
 
 full name of the location
 required field if don’t specify location_code
@@ -139,7 +156,7 @@ United States
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:115692
+Defined in: main.ts:115765
 
 user-defined task identifier
 optional field
@@ -157,7 +174,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:115647
+Defined in: main.ts:115715
 
 target domains and websites
 required field
@@ -176,7 +193,7 @@ you can set up to 1000 domains, subdomains or webpages
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:115705
+Defined in: main.ts:115778
 
 #### Parameters
 
@@ -194,7 +211,7 @@ Defined in: main.ts:115705
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:115736
+Defined in: main.ts:115810
 
 #### Parameters
 
@@ -212,7 +229,7 @@ Defined in: main.ts:115736
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md)
 
-Defined in: main.ts:115729
+Defined in: main.ts:115803
 
 #### Parameters
 

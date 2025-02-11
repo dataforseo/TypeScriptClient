@@ -6,7 +6,7 @@
 
 # Interface: IAddressInfo
 
-Defined in: main.ts:41476
+Defined in: main.ts:41492
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:41476
 
 > `optional` **address**: `string`
 
-Defined in: main.ts:41480
+Defined in: main.ts:41496
 
 street address of the local establishment
 
@@ -28,7 +28,7 @@ street address of the local establishment
 
 > `optional` **borough**: `string`
 
-Defined in: main.ts:41478
+Defined in: main.ts:41494
 
 administrative unit or district the local establishment belongs to
 
@@ -38,7 +38,7 @@ administrative unit or district the local establishment belongs to
 
 > `optional` **city**: `string`
 
-Defined in: main.ts:41482
+Defined in: main.ts:41498
 
 name of the city where the local establishment is located
 
@@ -48,7 +48,7 @@ name of the city where the local establishment is located
 
 > `optional` **country\_code**: `string`
 
-Defined in: main.ts:41488
+Defined in: main.ts:41504
 
 ISO country code of the local establishment
 
@@ -58,7 +58,7 @@ ISO country code of the local establishment
 
 > `optional` **region**: `string`
 
-Defined in: main.ts:41486
+Defined in: main.ts:41502
 
 DMA region the local establishment belongs to
 
@@ -68,6 +68,6 @@ DMA region the local establishment belongs to
 
 > `optional` **zip**: `string`
 
-Defined in: main.ts:41484
+Defined in: main.ts:41500
 
 ZIP code of the local establishment

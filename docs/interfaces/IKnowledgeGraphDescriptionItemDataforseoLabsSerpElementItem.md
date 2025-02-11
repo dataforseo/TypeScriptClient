@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem
 
-Defined in: main.ts:105847
+Defined in: main.ts:105985
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:105847
 
 > `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
-Defined in: main.ts:105853
+Defined in: main.ts:105991
 
 sitelinks
 the links shown below some of Google’s search results
@@ -80,7 +80,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:105849
+Defined in: main.ts:105987
 
 description content
 

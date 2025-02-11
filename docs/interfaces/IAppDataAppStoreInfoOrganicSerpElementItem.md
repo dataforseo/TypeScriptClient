@@ -6,7 +6,7 @@
 
 # Interface: IAppDataAppStoreInfoOrganicSerpElementItem
 
-Defined in: main.ts:206749
+Defined in: main.ts:207251
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:206749
 
 > `optional` **advisories**: `string`[]
 
-Defined in: main.ts:206771
+Defined in: main.ts:207273
 
 age rating and age-based content advisories
 
@@ -32,7 +32,7 @@ age rating and age-based content advisories
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:206751
+Defined in: main.ts:207253
 
 ID of the app
 
@@ -42,7 +42,7 @@ ID of the app
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:206767
+Defined in: main.ts:207269
 
 all relevant categories/genres of the app
 
@@ -52,7 +52,7 @@ all relevant categories/genres of the app
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:206757
+Defined in: main.ts:207259
 
 description of the app
 
@@ -62,7 +62,7 @@ description of the app
 
 > `optional` **developer**: `string`
 
-Defined in: main.ts:206773
+Defined in: main.ts:207275
 
 name of the app developer
 
@@ -72,7 +72,7 @@ name of the app developer
 
 > `optional` **developer\_id**: `string`
 
-Defined in: main.ts:206775
+Defined in: main.ts:207277
 
 ID of the app developer
 
@@ -82,7 +82,7 @@ ID of the app developer
 
 > `optional` **developer\_url**: `string`
 
-Defined in: main.ts:206777
+Defined in: main.ts:207279
 
 URL to the developer page on App Store
 
@@ -92,7 +92,7 @@ URL to the developer page on App Store
 
 > `optional` **icon**: `string`
 
-Defined in: main.ts:206755
+Defined in: main.ts:207257
 
 URL to the app icon
 
@@ -102,7 +102,7 @@ URL to the app icon
 
 > `optional` **images**: `string`[]
 
-Defined in: main.ts:206799
+Defined in: main.ts:207301
 
 app images
 contains URLs to the images used on the app page on App Store
@@ -113,7 +113,7 @@ contains URLs to the images used on the app page on App Store
 
 > `optional` **is\_free**: `boolean`
 
-Defined in: main.ts:206763
+Defined in: main.ts:207265
 
 indicates whether the app is free
 
@@ -123,7 +123,7 @@ indicates whether the app is free
 
 > `optional` **languages**: `string`[]
 
-Defined in: main.ts:206769
+Defined in: main.ts:207271
 
 languages supported in the app
 
@@ -133,7 +133,7 @@ languages supported in the app
 
 > `optional` **last\_update\_date**: `string`
 
-Defined in: main.ts:206793
+Defined in: main.ts:207295
 
 date and time when the app was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -146,7 +146,7 @@ example:
 
 > `optional` **main\_category**: `string`
 
-Defined in: main.ts:206765
+Defined in: main.ts:207267
 
 main category/genre of the app
 
@@ -156,7 +156,7 @@ main category/genre of the app
 
 > `optional` **minimum\_os\_version**: `string`
 
-Defined in: main.ts:206781
+Defined in: main.ts:207283
 
 minimum OS version required to install the app
 
@@ -166,7 +166,7 @@ minimum OS version required to install the app
 
 > `optional` **more\_apps\_by\_developer**: [`AppsInfo`](../classes/AppsInfo.md)[]
 
-Defined in: main.ts:206805
+Defined in: main.ts:207307
 
 similar apps
 information about apps built by the same developer
@@ -193,7 +193,7 @@ left, right
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-Defined in: main.ts:206761
+Defined in: main.ts:207263
 
 price of the app
 
@@ -247,7 +247,7 @@ average rating of the app
 
 > `optional` **released\_date**: `string`
 
-Defined in: main.ts:206788
+Defined in: main.ts:207290
 
 date and time when the app was released
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -260,7 +260,7 @@ example:
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:206759
+Defined in: main.ts:207261
 
 the total number of reviews of the app
 
@@ -270,7 +270,7 @@ the total number of reviews of the app
 
 > `optional` **similar\_apps**: [`AppsInfo`](../classes/AppsInfo.md)[]
 
-Defined in: main.ts:206802
+Defined in: main.ts:207304
 
 similar apps
 displays apps similar to the app in a POST request
@@ -281,7 +281,7 @@ displays apps similar to the app in a POST request
 
 > `optional` **size**: `string`
 
-Defined in: main.ts:206783
+Defined in: main.ts:207285
 
 size of the app
 
@@ -319,7 +319,7 @@ type of element
 
 > `optional` **update\_notes**: `string`
 
-Defined in: main.ts:206796
+Defined in: main.ts:207298
 
 update notes
 contains the latest update notes from the developer
@@ -330,7 +330,7 @@ contains the latest update notes from the developer
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:206753
+Defined in: main.ts:207255
 
 URL to the app page on App Store
 
@@ -340,6 +340,6 @@ URL to the app page on App Store
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:206779
+Defined in: main.ts:207281
 
 current version of the app

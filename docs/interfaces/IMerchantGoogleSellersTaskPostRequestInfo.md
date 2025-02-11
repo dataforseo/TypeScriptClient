@@ -6,7 +6,7 @@
 
 # Interface: IMerchantGoogleSellersTaskPostRequestInfo
 
-Defined in: main.ts:187535
+Defined in: main.ts:187904
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:187535
 
 > `optional` **additional\_specifications**: `object`
 
-Defined in: main.ts:187607
+Defined in: main.ts:187981
 
 object containing additional url parameters
 you can get additional information about the product by using the "additional_specifications object, which you can get by making a separate request to the Google Shopping Products endpoint
@@ -33,11 +33,25 @@ example:
 
 ***
 
+### data\_docid?
+
+> `optional` **data\_docid**: `string`
+
+Defined in: main.ts:187917
+
+unique identifier of the SERP data element
+required field if product_id is not specified
+you can get this value for a certain element by making a separate request to the Google Shopping Products endpoint
+example:
+13071766526042404278
+
+***
+
 ### get\_shops\_on\_google?
 
 > `optional` **get\_shops\_on\_google**: `boolean`
 
-Defined in: main.ts:187600
+Defined in: main.ts:187974
 
 include “buy on Google” shops
 optional field
@@ -50,7 +64,7 @@ Note: if set to true, the cost of a task will be doubled
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:187588
+Defined in: main.ts:187962
 
 language code
 required field if you don’t specify language_name
@@ -65,7 +79,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:187581
+Defined in: main.ts:187955
 
 full name of the language
 required field if you don’t specify language_code
@@ -80,7 +94,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:187565
+Defined in: main.ts:187939
 
 location code
 required field if you don’t specify location_name or location_coordinate
@@ -95,7 +109,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:187574
+Defined in: main.ts:187948
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -112,7 +126,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:187558
+Defined in: main.ts:187932
 
 full name of the location
 required field if you don’t specify location_code or location_coordinate
@@ -127,7 +141,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:187641
+Defined in: main.ts:188015
 
 notification URL of a completed task
 optional field
@@ -146,7 +160,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:187630
+Defined in: main.ts:188004
 
 postback_url datatype
 required field if you specify postback_url
@@ -160,7 +174,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:187624
+Defined in: main.ts:187998
 
 return URL for sending task results
 optional field
@@ -179,7 +193,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:187551
+Defined in: main.ts:187925
 
 task priority
 optional field
@@ -195,12 +209,11 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **product\_id**: `string`
 
-Defined in: main.ts:187543
+Defined in: main.ts:187911
 
 unique product identifier on Google Shopping
-required field
-you can get this value making a separate request to the Google Shopping Products endpoint
-note that there is no full list of possible values as the product_id is a dynamic value assigned by Google
+required field if data_docid is not specified
+you can get this value for a certain product by making a separate request to the Google Shopping Products endpoint
 example:
 4485466949985702538
 learn more about the parameter in this help center guide
@@ -211,7 +224,7 @@ learn more about the parameter in this help center guide
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:187595
+Defined in: main.ts:187969
 
 search engine domain
 optional field
@@ -226,7 +239,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:187613
+Defined in: main.ts:187987
 
 user-defined task identifier
 optional field

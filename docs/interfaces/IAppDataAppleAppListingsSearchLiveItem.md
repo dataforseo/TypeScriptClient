@@ -6,7 +6,7 @@
 
 # Interface: IAppDataAppleAppListingsSearchLiveItem
 
-Defined in: main.ts:209161
+Defined in: main.ts:209663
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:209161
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:209163
+Defined in: main.ts:209665
 
 ID of the returned app
 
@@ -28,7 +28,7 @@ ID of the returned app
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:209172
+Defined in: main.ts:209674
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -39,7 +39,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **item**: [`AppDataAppStoreInfoOrganicSerpElementItem`](../classes/AppDataAppStoreInfoOrganicSerpElementItem.md)
 
-Defined in: main.ts:209179
+Defined in: main.ts:209681
 
 detailed information about the app
 
@@ -49,7 +49,7 @@ detailed information about the app
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:209169
+Defined in: main.ts:209671
 
 language code in a POST array
 
@@ -59,7 +59,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:209167
+Defined in: main.ts:209669
 
 location code in a POST array
 
@@ -69,7 +69,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:209165
+Defined in: main.ts:209667
 
 search engine domain in a POST array
 
@@ -79,7 +79,7 @@ search engine domain in a POST array
 
 > `optional` **time\_update**: `string`
 
-Defined in: main.ts:209177
+Defined in: main.ts:209679
 
 date and time when SERP data was last updated
 in the ISO 8601 format: “YYYY-MM-DDThh:mm:ss.sssssssZ”

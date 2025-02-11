@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo
 
-Defined in: main.ts:99551
+Defined in: main.ts:99579
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveTaskInfo`](../classes/DataforseoLabsGoogleDomainMetricsByCategoriesLiveTaskInfo.md)[]
 
-Defined in: main.ts:99553
+Defined in: main.ts:99581
 
 array of tasks
 

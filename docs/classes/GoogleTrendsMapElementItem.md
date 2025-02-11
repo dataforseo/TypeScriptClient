@@ -6,7 +6,7 @@
 
 # Class: GoogleTrendsMapElementItem
 
-Defined in: main.ts:134361
+Defined in: main.ts:134501
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:134361
 
 > **new GoogleTrendsMapElementItem**(`data`?): [`GoogleTrendsMapElementItem`](GoogleTrendsMapElementItem.md)
 
-Defined in: main.ts:134367
+Defined in: main.ts:134507
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22707
 
 > `optional` **data**: [`TrendsMapDataInfo`](TrendsMapDataInfo.md)[]
 
-Defined in: main.ts:134363
+Defined in: main.ts:134503
 
 Google Trends data from the corresponding item
 
@@ -148,7 +148,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:134372
+Defined in: main.ts:134512
 
 #### Parameters
 
@@ -170,7 +170,7 @@ Defined in: main.ts:134372
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:134394
+Defined in: main.ts:134534
 
 #### Parameters
 
@@ -192,7 +192,7 @@ Defined in: main.ts:134394
 
 > `static` **fromJS**(`data`): [`GoogleTrendsMapElementItem`](GoogleTrendsMapElementItem.md)
 
-Defined in: main.ts:134387
+Defined in: main.ts:134527
 
 #### Parameters
 

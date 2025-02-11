@@ -6,7 +6,7 @@
 
 # Interface: IContentGenerationParaphraseLiveTaskInfo
 
-Defined in: main.ts:182672
+Defined in: main.ts:183034
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`ContentGenerationParaphraseLiveResultInfo`](../classes/ContentGenerationParaphraseLiveResultInfo.md)[]
 
-Defined in: main.ts:182674
+Defined in: main.ts:183036
 
 array of results
 

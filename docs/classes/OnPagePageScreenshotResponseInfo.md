@@ -6,7 +6,7 @@
 
 # Class: OnPagePageScreenshotResponseInfo
 
-Defined in: main.ts:172793
+Defined in: main.ts:172957
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:172793
 
 > **new OnPagePageScreenshotResponseInfo**(`data`?): [`OnPagePageScreenshotResponseInfo`](OnPagePageScreenshotResponseInfo.md)
 
-Defined in: main.ts:172799
+Defined in: main.ts:172963
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPagePageScreenshotTaskInfo`](OnPagePageScreenshotTaskInfo.md)[]
 
-Defined in: main.ts:172795
+Defined in: main.ts:172959
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:172803
+Defined in: main.ts:172967
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:172803
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:172825
+Defined in: main.ts:172989
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:172825
 
 > `static` **fromJS**(`data`): [`OnPagePageScreenshotResponseInfo`](OnPagePageScreenshotResponseInfo.md)
 
-Defined in: main.ts:172818
+Defined in: main.ts:172982
 
 #### Parameters
 

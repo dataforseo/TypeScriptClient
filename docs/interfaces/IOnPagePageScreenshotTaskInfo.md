@@ -6,7 +6,7 @@
 
 # Interface: IOnPagePageScreenshotTaskInfo
 
-Defined in: main.ts:172786
+Defined in: main.ts:172950
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`OnPagePageScreenshotResultInfo`](../classes/OnPagePageScreenshotResultInfo.md)[]
 
-Defined in: main.ts:172788
+Defined in: main.ts:172952
 
 array of results
 

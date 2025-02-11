@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleBulkKeywordDifficultyLiveResponseInfo
 
-Defined in: main.ts:96349
+Defined in: main.ts:96375
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:96349
 
 > **new DataforseoLabsGoogleBulkKeywordDifficultyLiveResponseInfo**(`data`?): [`DataforseoLabsGoogleBulkKeywordDifficultyLiveResponseInfo`](DataforseoLabsGoogleBulkKeywordDifficultyLiveResponseInfo.md)
 
-Defined in: main.ts:96355
+Defined in: main.ts:96381
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsGoogleBulkKeywordDifficultyLiveTaskInfo`](DataforseoLabsGoogleBulkKeywordDifficultyLiveTaskInfo.md)[]
 
-Defined in: main.ts:96351
+Defined in: main.ts:96377
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:96359
+Defined in: main.ts:96385
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:96359
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:96381
+Defined in: main.ts:96407
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:96381
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleBulkKeywordDifficultyLiveResponseInfo`](DataforseoLabsGoogleBulkKeywordDifficultyLiveResponseInfo.md)
 
-Defined in: main.ts:96374
+Defined in: main.ts:96400
 
 #### Parameters
 

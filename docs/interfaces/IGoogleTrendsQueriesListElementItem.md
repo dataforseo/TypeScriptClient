@@ -6,7 +6,7 @@
 
 # Interface: IGoogleTrendsQueriesListElementItem
 
-Defined in: main.ts:134592
+Defined in: main.ts:134732
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:134592
 
 > `optional` **data**: [`QueriesListDataInfo`](../classes/QueriesListDataInfo.md)
 
-Defined in: main.ts:134594
+Defined in: main.ts:134734
 
 Google Trends data from the corresponding item
 

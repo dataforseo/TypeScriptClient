@@ -6,7 +6,7 @@
 
 # Class: MerchantIdListTaskInfo
 
-Defined in: main.ts:184246
+Defined in: main.ts:184608
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:184246
 
 > **new MerchantIdListTaskInfo**(`data`?): [`MerchantIdListTaskInfo`](MerchantIdListTaskInfo.md)
 
-Defined in: main.ts:184252
+Defined in: main.ts:184614
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`MerchantIdListResultInfo`](MerchantIdListResultInfo.md)[]
 
-Defined in: main.ts:184248
+Defined in: main.ts:184610
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:184256
+Defined in: main.ts:184618
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:184256
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:184278
+Defined in: main.ts:184640
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:184278
 
 > `static` **fromJS**(`data`): [`MerchantIdListTaskInfo`](MerchantIdListTaskInfo.md)
 
-Defined in: main.ts:184271
+Defined in: main.ts:184633
 
 #### Parameters
 

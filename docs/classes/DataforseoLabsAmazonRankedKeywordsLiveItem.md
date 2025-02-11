@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonRankedKeywordsLiveItem
 
-Defined in: main.ts:113344
+Defined in: main.ts:113412
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:113344
 
 > **new DataforseoLabsAmazonRankedKeywordsLiveItem**(`data`?): [`DataforseoLabsAmazonRankedKeywordsLiveItem`](DataforseoLabsAmazonRankedKeywordsLiveItem.md)
 
-Defined in: main.ts:113354
+Defined in: main.ts:113422
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:113354
 
 > `optional` **keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
 
-Defined in: main.ts:113348
+Defined in: main.ts:113416
 
 keyword data for the returned keyword
 
@@ -54,7 +54,7 @@ keyword data for the returned keyword
 
 > `optional` **ranked\_serp\_element**: [`AmazonRankedSerpElement`](AmazonRankedSerpElement.md)
 
-Defined in: main.ts:113350
+Defined in: main.ts:113418
 
 contains data on the products’s SERP element found for the returned keyword
 
@@ -68,7 +68,7 @@ contains data on the products’s SERP element found for the returned keyword
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:113346
+Defined in: main.ts:113414
 
 search engine type
 
@@ -82,7 +82,7 @@ search engine type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:113363
+Defined in: main.ts:113431
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:113363
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:113382
+Defined in: main.ts:113450
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:113382
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAmazonRankedKeywordsLiveItem`](DataforseoLabsAmazonRankedKeywordsLiveItem.md)
 
-Defined in: main.ts:113375
+Defined in: main.ts:113443
 
 #### Parameters
 

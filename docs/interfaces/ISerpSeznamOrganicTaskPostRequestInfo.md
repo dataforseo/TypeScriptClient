@@ -6,7 +6,7 @@
 
 # Interface: ISerpSeznamOrganicTaskPostRequestInfo
 
-Defined in: main.ts:82914
+Defined in: main.ts:82950
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:82914
 
 > `optional` **calculate\_rectangles**: `boolean`
 
-Defined in: main.ts:83009
+Defined in: main.ts:83045
 
 calcualte pixel rankings for SERP elements in advanced results
 optional field
@@ -33,7 +33,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:82973
+Defined in: main.ts:83009
 
 parsing depth
 optional field
@@ -50,7 +50,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:82985
+Defined in: main.ts:83021
 
 device type
 optional field
@@ -63,7 +63,7 @@ default value: desktop
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:82922
+Defined in: main.ts:82958
 
 keyword
 required field
@@ -79,7 +79,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:82950
+Defined in: main.ts:82986
 
 search engine language code
 required field if you don’t specify language_name
@@ -94,7 +94,7 @@ cs
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:82943
+Defined in: main.ts:82979
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -109,7 +109,7 @@ Czech
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:82936
+Defined in: main.ts:82972
 
 search engine location code
 required field if you don’t specify location_name
@@ -124,7 +124,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:82929
+Defined in: main.ts:82965
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -139,7 +139,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:82980
+Defined in: main.ts:83016
 
 page crawl limit
 optional field
@@ -154,7 +154,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:82992
+Defined in: main.ts:83028
 
 device operating system
 optional field
@@ -169,7 +169,7 @@ default value: android
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:83043
+Defined in: main.ts:83079
 
 notification URL of a completed task
 optional field
@@ -188,7 +188,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:83032
+Defined in: main.ts:83068
 
 postback_url datatype
 required field if you specify postback_url
@@ -202,7 +202,7 @@ regular, advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:83026
+Defined in: main.ts:83062
 
 return URL for sending task results
 optional field
@@ -221,7 +221,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:82964
+Defined in: main.ts:83000
 
 task priority
 optional field
@@ -237,7 +237,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:82999
+Defined in: main.ts:83035
 
 search engine domain
 optional field
@@ -252,7 +252,7 @@ search.seznam.cz
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:83002
+Defined in: main.ts:83038
 
 additional parameters of the search query
 optional field
@@ -263,7 +263,7 @@ optional field
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:83015
+Defined in: main.ts:83051
 
 user-defined task identifier
 optional field
@@ -277,7 +277,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:82956
+Defined in: main.ts:82992
 
 direct URL of the search query
 optional field

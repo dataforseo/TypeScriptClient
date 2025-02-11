@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsIdListTaskInfo
 
-Defined in: main.ts:84624
+Defined in: main.ts:84660
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DomainAnalyticsIdListResultInfo`](../classes/DomainAnalyticsIdListResultInfo.md)[]
 
-Defined in: main.ts:84626
+Defined in: main.ts:84662
 
 array of results
 

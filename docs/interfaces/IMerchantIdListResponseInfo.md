@@ -6,7 +6,7 @@
 
 # Interface: IMerchantIdListResponseInfo
 
-Defined in: main.ts:184349
+Defined in: main.ts:184711
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`MerchantIdListTaskInfo`](../classes/MerchantIdListTaskInfo.md)[]
 
-Defined in: main.ts:184351
+Defined in: main.ts:184713
 
 array of tasks
 

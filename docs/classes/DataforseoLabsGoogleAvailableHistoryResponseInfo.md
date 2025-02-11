@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleAvailableHistoryResponseInfo
 
-Defined in: main.ts:91933
+Defined in: main.ts:91969
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:91933
 
 > **new DataforseoLabsGoogleAvailableHistoryResponseInfo**(`data`?): [`DataforseoLabsGoogleAvailableHistoryResponseInfo`](DataforseoLabsGoogleAvailableHistoryResponseInfo.md)
 
-Defined in: main.ts:91939
+Defined in: main.ts:91975
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsGoogleAvailableHistoryTaskInfo`](DataforseoLabsGoogleAvailableHistoryTaskInfo.md)[]
 
-Defined in: main.ts:91935
+Defined in: main.ts:91971
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:91943
+Defined in: main.ts:91979
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:91943
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:91965
+Defined in: main.ts:92001
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:91965
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleAvailableHistoryResponseInfo`](DataforseoLabsGoogleAvailableHistoryResponseInfo.md)
 
-Defined in: main.ts:91958
+Defined in: main.ts:91994
 
 #### Parameters
 

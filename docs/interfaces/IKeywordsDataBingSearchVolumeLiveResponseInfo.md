@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingSearchVolumeLiveResponseInfo
 
-Defined in: main.ts:139879
+Defined in: main.ts:140043
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataBingSearchVolumeLiveTaskInfo`](../classes/KeywordsDataBingSearchVolumeLiveTaskInfo.md)[]
 
-Defined in: main.ts:139881
+Defined in: main.ts:140045
 
 array of tasks
 

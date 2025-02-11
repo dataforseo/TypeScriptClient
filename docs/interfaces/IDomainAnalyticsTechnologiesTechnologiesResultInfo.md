@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsTechnologiesTechnologiesResultInfo
 
-Defined in: main.ts:85787
+Defined in: main.ts:85823
 
 ## Indexable
 
@@ -18,6 +18,6 @@ Defined in: main.ts:85787
 
 > `optional` **groups**: [`Groups`](../classes/Groups.md)[]
 
-Defined in: main.ts:85789
+Defined in: main.ts:85825
 
 array of technology groups

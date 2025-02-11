@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo
 
-Defined in: main.ts:115633
+Defined in: main.ts:115701
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsBingBulkKeywordDifficultyLiveTaskInfo`](../classes/DataforseoLabsBingBulkKeywordDifficultyLiveTaskInfo.md)[]
 
-Defined in: main.ts:115635
+Defined in: main.ts:115703
 
 array of tasks
 

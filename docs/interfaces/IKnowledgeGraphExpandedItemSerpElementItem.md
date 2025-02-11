@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphExpandedItemSerpElementItem
 
-Defined in: main.ts:30256
+Defined in: main.ts:30262
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:30256
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:30262
+Defined in: main.ts:30268
 
 google defined data attribute ID
 example:
@@ -34,7 +34,7 @@ kc:/local:place qa
 
 > `optional` **expanded\_element**: [`KnowledgeGraphExpandedElement`](../classes/KnowledgeGraphExpandedElement.md)[]
 
-Defined in: main.ts:30264
+Defined in: main.ts:30270
 
 link of the element
 
@@ -91,7 +91,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:30268
+Defined in: main.ts:30274
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -103,7 +103,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:30258
+Defined in: main.ts:30264
 
 title of the link
 

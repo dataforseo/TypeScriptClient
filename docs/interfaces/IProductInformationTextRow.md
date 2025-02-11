@@ -6,7 +6,7 @@
 
 # Interface: IProductInformationTextRow
 
-Defined in: main.ts:194357
+Defined in: main.ts:194845
 
 ## Extends
 
@@ -22,9 +22,9 @@ Defined in: main.ts:194357
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:194359
+Defined in: main.ts:194847
 
-text specified under the given title within the section_name
+text of the voucher
 
 ***
 

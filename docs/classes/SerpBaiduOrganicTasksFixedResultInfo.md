@@ -6,7 +6,7 @@
 
 # Class: SerpBaiduOrganicTasksFixedResultInfo
 
-Defined in: main.ts:79536
+Defined in: main.ts:79572
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:79536
 
 > **new SerpBaiduOrganicTasksFixedResultInfo**(`data`?): [`SerpBaiduOrganicTasksFixedResultInfo`](SerpBaiduOrganicTasksFixedResultInfo.md)
 
-Defined in: main.ts:79561
+Defined in: main.ts:79597
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:79561
 
 > `optional` **date\_fixed**: `string`
 
-Defined in: main.ts:79546
+Defined in: main.ts:79582
 
 date when the task was fixed (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was fixed (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:79554
+Defined in: main.ts:79590
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -69,7 +69,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:79557
+Defined in: main.ts:79593
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -84,7 +84,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:79551
+Defined in: main.ts:79587
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -99,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:79539
+Defined in: main.ts:79575
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:79541
+Defined in: main.ts:79577
 
 search engine specified when setting the task
 
@@ -128,7 +128,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:79544
+Defined in: main.ts:79580
 
 type of search engine
 can take the following values: organic
@@ -143,7 +143,7 @@ can take the following values: organic
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:79548
+Defined in: main.ts:79584
 
 user-defined task identifier
 
@@ -157,7 +157,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:79570
+Defined in: main.ts:79606
 
 #### Parameters
 
@@ -175,7 +175,7 @@ Defined in: main.ts:79570
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:79594
+Defined in: main.ts:79630
 
 #### Parameters
 
@@ -193,7 +193,7 @@ Defined in: main.ts:79594
 
 > `static` **fromJS**(`data`): [`SerpBaiduOrganicTasksFixedResultInfo`](SerpBaiduOrganicTasksFixedResultInfo.md)
 
-Defined in: main.ts:79587
+Defined in: main.ts:79623
 
 #### Parameters
 

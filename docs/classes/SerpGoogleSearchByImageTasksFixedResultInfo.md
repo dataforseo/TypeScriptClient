@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleSearchByImageTasksFixedResultInfo
 
-Defined in: main.ts:53178
+Defined in: main.ts:53194
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:53178
 
 > **new SerpGoogleSearchByImageTasksFixedResultInfo**(`data`?): [`SerpGoogleSearchByImageTasksFixedResultInfo`](SerpGoogleSearchByImageTasksFixedResultInfo.md)
 
-Defined in: main.ts:53203
+Defined in: main.ts:53219
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:53203
 
 > `optional` **date\_fixed**: `string`
 
-Defined in: main.ts:53188
+Defined in: main.ts:53204
 
 date when the task was fixed (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was fixed (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:53196
+Defined in: main.ts:53212
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -69,7 +69,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:53199
+Defined in: main.ts:53215
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -84,7 +84,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:53193
+Defined in: main.ts:53209
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -99,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:53181
+Defined in: main.ts:53197
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:53183
+Defined in: main.ts:53199
 
 search engine specified when setting the task
 
@@ -128,7 +128,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:53186
+Defined in: main.ts:53202
 
 type of search engine
 can take the following values: search_by_image
@@ -143,7 +143,7 @@ can take the following values: search_by_image
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:53190
+Defined in: main.ts:53206
 
 user-defined task identifier
 
@@ -157,7 +157,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:53212
+Defined in: main.ts:53228
 
 #### Parameters
 
@@ -175,7 +175,7 @@ Defined in: main.ts:53212
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:53236
+Defined in: main.ts:53252
 
 #### Parameters
 
@@ -193,7 +193,7 @@ Defined in: main.ts:53236
 
 > `static` **fromJS**(`data`): [`SerpGoogleSearchByImageTasksFixedResultInfo`](SerpGoogleSearchByImageTasksFixedResultInfo.md)
 
-Defined in: main.ts:53229
+Defined in: main.ts:53245
 
 #### Parameters
 

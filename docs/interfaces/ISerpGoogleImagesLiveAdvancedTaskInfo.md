@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleImagesLiveAdvancedTaskInfo
 
-Defined in: main.ts:51988
+Defined in: main.ts:52004
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleImagesLiveAdvancedResultInfo`](../classes/SerpGoogleImagesLiveAdvancedResultInfo.md)[]
 
-Defined in: main.ts:51990
+Defined in: main.ts:52006
 
 array of results
 

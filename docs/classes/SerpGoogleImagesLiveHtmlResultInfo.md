@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleImagesLiveHtmlResultInfo
 
-Defined in: main.ts:52306
+Defined in: main.ts:52322
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:52306
 
 > **new SerpGoogleImagesLiveHtmlResultInfo**(`data`?): [`SerpGoogleImagesLiveHtmlResultInfo`](SerpGoogleImagesLiveHtmlResultInfo.md)
 
-Defined in: main.ts:52330
+Defined in: main.ts:52346
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:52330
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:52322
+Defined in: main.ts:52338
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:52326
+Defined in: main.ts:52342
 
 elements of search results found in SERP
 
@@ -71,7 +71,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:52324
+Defined in: main.ts:52340
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:52309
+Defined in: main.ts:52325
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -100,7 +100,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:52317
+Defined in: main.ts:52333
 
 language code in a POST array
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:52315
+Defined in: main.ts:52331
 
 location code in a POST array
 
@@ -128,7 +128,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:52313
+Defined in: main.ts:52329
 
 search engine domain in a POST array
 
@@ -142,7 +142,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:52311
+Defined in: main.ts:52327
 
 type of element
 
@@ -156,7 +156,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:52339
+Defined in: main.ts:52355
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:52339
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:52367
+Defined in: main.ts:52383
 
 #### Parameters
 
@@ -192,7 +192,7 @@ Defined in: main.ts:52367
 
 > `static` **fromJS**(`data`): [`SerpGoogleImagesLiveHtmlResultInfo`](SerpGoogleImagesLiveHtmlResultInfo.md)
 
-Defined in: main.ts:52360
+Defined in: main.ts:52376
 
 #### Parameters
 

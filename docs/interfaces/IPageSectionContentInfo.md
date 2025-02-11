@@ -6,7 +6,7 @@
 
 # Interface: IPageSectionContentInfo
 
-Defined in: main.ts:173127
+Defined in: main.ts:173833
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:173127
 
 > `optional` **primary\_content**: [`ContentItemInfo`](../classes/ContentItemInfo.md)[]
 
-Defined in: main.ts:173130
+Defined in: main.ts:173836
 
 primary content on the page
 you can find more information about content priority calculation in this help center article
@@ -29,7 +29,7 @@ you can find more information about content priority calculation in this help ce
 
 > `optional` **secondary\_content**: [`ContentItemInfo`](../classes/ContentItemInfo.md)[]
 
-Defined in: main.ts:173133
+Defined in: main.ts:173839
 
 secondary content on the page
 you can find more information about content priority calculation in this help center article
@@ -40,6 +40,6 @@ you can find more information about content priority calculation in this help ce
 
 > `optional` **table\_content**: [`TableContent`](../classes/TableContent.md)[]
 
-Defined in: main.ts:173135
+Defined in: main.ts:173841
 
 content of the table on the page

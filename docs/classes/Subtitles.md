@@ -6,7 +6,7 @@
 
 # Class: Subtitles
 
-Defined in: main.ts:70311
+Defined in: main.ts:70347
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:70311
 
 > **new Subtitles**(`data`?): [`Subtitles`](Subtitles.md)
 
-Defined in: main.ts:70321
+Defined in: main.ts:70357
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:70321
 
 > `optional` **is\_auto\_generated**: `boolean`
 
-Defined in: main.ts:70317
+Defined in: main.ts:70353
 
 defines if subtitles are auto generated
 
@@ -54,7 +54,7 @@ defines if subtitles are auto generated
 
 > `optional` **is\_translatable**: `boolean`
 
-Defined in: main.ts:70315
+Defined in: main.ts:70351
 
 defines if subtitles are translatable
 
@@ -68,7 +68,7 @@ defines if subtitles are translatable
 
 > `optional` **language**: `string`
 
-Defined in: main.ts:70313
+Defined in: main.ts:70349
 
 language of subtitles
 
@@ -82,7 +82,7 @@ language of subtitles
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:70330
+Defined in: main.ts:70366
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:70330
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:70349
+Defined in: main.ts:70385
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:70349
 
 > `static` **fromJS**(`data`): [`Subtitles`](Subtitles.md)
 
-Defined in: main.ts:70342
+Defined in: main.ts:70378
 
 #### Parameters
 

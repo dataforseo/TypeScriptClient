@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleAppSearchesTaskPostRequestInfo
 
-Defined in: main.ts:199429
+Defined in: main.ts:199931
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:199429
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:199483
+Defined in: main.ts:199985
 
 parsing depth
 optional field
@@ -36,7 +36,7 @@ maximum value: 200
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:199437
+Defined in: main.ts:199939
 
 keyword
 required field
@@ -52,7 +52,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:199465
+Defined in: main.ts:199967
 
 search engine language code
 optional field
@@ -67,7 +67,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:199458
+Defined in: main.ts:199960
 
 full name of search engine language
 optional field
@@ -82,7 +82,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:199451
+Defined in: main.ts:199953
 
 search engine location code
 required field if you don’t specify location_name
@@ -97,7 +97,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:199444
+Defined in: main.ts:199946
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -112,7 +112,7 @@ West Los Angeles,California,United States
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:199515
+Defined in: main.ts:200017
 
 notification URL of a completed task
 optional field
@@ -130,7 +130,7 @@ i.a., the # character will be encoded into %23
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:199505
+Defined in: main.ts:200007
 
 postback_url datatype
 required field if you specify postback_url
@@ -144,7 +144,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:199499
+Defined in: main.ts:200001
 
 return URL for sending task results
 optional field
@@ -162,7 +162,7 @@ i.a., the # character will be encoded into %23
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:199473
+Defined in: main.ts:199975
 
 task priority
 optional field
@@ -178,7 +178,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:199489
+Defined in: main.ts:199991
 
 user-defined task identifier
 optional field

@@ -6,7 +6,7 @@
 
 # Interface: IMerchantAmazonReviewsTaskPostRequestInfo
 
-Defined in: main.ts:196909
+Defined in: main.ts:197411
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:196909
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:196914
+Defined in: main.ts:197416
 
 product ID
 required field
@@ -31,7 +31,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:196975
+Defined in: main.ts:197477
 
 parsing depth
 optional field
@@ -46,7 +46,7 @@ default value: 10
 
 > `optional` **filter\_by\_keyword**: `string`
 
-Defined in: main.ts:197008
+Defined in: main.ts:197510
 
 filter reviews by specified keyword
 optional field
@@ -59,7 +59,7 @@ if you use this field, the response will only include reviews that contain the s
 
 > `optional` **filter\_by\_star**: `string`
 
-Defined in: main.ts:197003
+Defined in: main.ts:197505
 
 filter reviews by stars
 optional field
@@ -81,7 +81,7 @@ default rule: all_stars
 
 > `optional` **format\_type**: `string`
 
-Defined in: main.ts:197025
+Defined in: main.ts:197527
 
 filter reviews by product modification
 optional field
@@ -98,7 +98,7 @@ Note: ASINs vary depending on a product modification. Thus, two modifications of
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:196961
+Defined in: main.ts:197463
 
 search engine language code
 required field if you don’t specify language_name
@@ -113,7 +113,7 @@ en_GB
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:196954
+Defined in: main.ts:197456
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -129,7 +129,7 @@ English (United Kingdom)
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:196937
+Defined in: main.ts:197439
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -145,7 +145,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:196946
+Defined in: main.ts:197448
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -162,7 +162,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:196929
+Defined in: main.ts:197431
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -177,7 +177,7 @@ HA1,England,United Kingdom
 
 > `optional` **media\_type**: `string`
 
-Defined in: main.ts:197016
+Defined in: main.ts:197518
 
 filter reviews by media type
 optional field
@@ -193,7 +193,7 @@ default rule: all_contents
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:197059
+Defined in: main.ts:197561
 
 notification URL of a completed task
 optional field
@@ -212,7 +212,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:197048
+Defined in: main.ts:197550
 
 postback_url datatype
 required field if you specify postback_url
@@ -226,7 +226,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:197042
+Defined in: main.ts:197544
 
 return URL for sending task results
 optional field
@@ -245,7 +245,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:196922
+Defined in: main.ts:197424
 
 task priority
 optional field
@@ -261,7 +261,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **reviewer\_type**: `string`
 
-Defined in: main.ts:196989
+Defined in: main.ts:197491
 
 filter reviews by reviewer type
 optional field
@@ -277,7 +277,7 @@ default rule: all_reviews
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:196968
+Defined in: main.ts:197470
 
 search engine domain
 optional field
@@ -292,7 +292,7 @@ amazon.com, amazon.co.uk, amazon.fr, etc.
 
 > `optional` **sort\_by**: `string`
 
-Defined in: main.ts:196981
+Defined in: main.ts:197483
 
 results sorting parameters
 optional field
@@ -306,7 +306,7 @@ default rule: helpful
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:197031
+Defined in: main.ts:197533
 
 user-defined task identifier
 optional field

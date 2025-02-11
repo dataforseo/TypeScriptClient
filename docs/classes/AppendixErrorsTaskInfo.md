@@ -6,7 +6,7 @@
 
 # Class: AppendixErrorsTaskInfo
 
-Defined in: main.ts:239152
+Defined in: main.ts:239580
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:239152
 
 > **new AppendixErrorsTaskInfo**(`data`?): [`AppendixErrorsTaskInfo`](AppendixErrorsTaskInfo.md)
 
-Defined in: main.ts:239158
+Defined in: main.ts:239586
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`AppendixErrorsResultInfo`](AppendixErrorsResultInfo.md)[]
 
-Defined in: main.ts:239154
+Defined in: main.ts:239582
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:239162
+Defined in: main.ts:239590
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:239162
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:239184
+Defined in: main.ts:239612
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:239184
 
 > `static` **fromJS**(`data`): [`AppendixErrorsTaskInfo`](AppendixErrorsTaskInfo.md)
 
-Defined in: main.ts:239177
+Defined in: main.ts:239605
 
 #### Parameters
 

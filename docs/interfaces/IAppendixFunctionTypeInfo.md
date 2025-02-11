@@ -6,7 +6,7 @@
 
 # Interface: IAppendixFunctionTypeInfo
 
-Defined in: main.ts:230540
+Defined in: main.ts:231048
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:230540
 
 > `optional` **advanced**: `number`
 
-Defined in: main.ts:230542
+Defined in: main.ts:231050
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:230542
 
 > `optional` **html**: `number`
 
-Defined in: main.ts:230543
+Defined in: main.ts:231051
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: main.ts:230543
 
 > `optional` **regular**: `number`
 
-Defined in: main.ts:230541
+Defined in: main.ts:231049

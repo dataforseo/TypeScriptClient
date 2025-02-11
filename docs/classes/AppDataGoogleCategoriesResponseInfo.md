@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleCategoriesResponseInfo
 
-Defined in: main.ts:198669
+Defined in: main.ts:199171
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:198669
 
 > **new AppDataGoogleCategoriesResponseInfo**(`data`?): [`AppDataGoogleCategoriesResponseInfo`](AppDataGoogleCategoriesResponseInfo.md)
 
-Defined in: main.ts:198675
+Defined in: main.ts:199177
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataGoogleCategoriesTaskInfo`](AppDataGoogleCategoriesTaskInfo.md)[]
 
-Defined in: main.ts:198671
+Defined in: main.ts:199173
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:198679
+Defined in: main.ts:199181
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:198679
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:198701
+Defined in: main.ts:199203
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:198701
 
 > `static` **fromJS**(`data`): [`AppDataGoogleCategoriesResponseInfo`](AppDataGoogleCategoriesResponseInfo.md)
 
-Defined in: main.ts:198694
+Defined in: main.ts:199196
 
 #### Parameters
 

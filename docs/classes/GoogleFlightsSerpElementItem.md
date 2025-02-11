@@ -6,7 +6,7 @@
 
 # Class: GoogleFlightsSerpElementItem
 
-Defined in: main.ts:33599
+Defined in: main.ts:33615
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:33599
 
 > **new GoogleFlightsSerpElementItem**(`data`?): [`GoogleFlightsSerpElementItem`](GoogleFlightsSerpElementItem.md)
 
-Defined in: main.ts:33613
+Defined in: main.ts:33629
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`GoogleFlightsElement`](GoogleFlightsElement.md)[]
 
-Defined in: main.ts:33605
+Defined in: main.ts:33621
 
 contains arrays of specific images
 
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:33609
+Defined in: main.ts:33625
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -149,7 +149,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:33601
+Defined in: main.ts:33617
 
 title of the row
 
@@ -181,7 +181,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:33603
+Defined in: main.ts:33619
 
 source URL
 
@@ -213,7 +213,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:33618
+Defined in: main.ts:33634
 
 #### Parameters
 
@@ -235,7 +235,7 @@ Defined in: main.ts:33618
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:33643
+Defined in: main.ts:33659
 
 #### Parameters
 
@@ -257,7 +257,7 @@ Defined in: main.ts:33643
 
 > `static` **fromJS**(`data`): [`GoogleFlightsSerpElementItem`](GoogleFlightsSerpElementItem.md)
 
-Defined in: main.ts:33636
+Defined in: main.ts:33652
 
 #### Parameters
 

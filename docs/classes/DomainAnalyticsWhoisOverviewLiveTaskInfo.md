@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsWhoisOverviewLiveTaskInfo
 
-Defined in: main.ts:89812
+Defined in: main.ts:89848
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:89812
 
 > **new DomainAnalyticsWhoisOverviewLiveTaskInfo**(`data`?): [`DomainAnalyticsWhoisOverviewLiveTaskInfo`](DomainAnalyticsWhoisOverviewLiveTaskInfo.md)
 
-Defined in: main.ts:89818
+Defined in: main.ts:89854
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DomainAnalyticsWhoisOverviewLiveResultInfo`](DomainAnalyticsWhoisOverviewLiveResultInfo.md)[]
 
-Defined in: main.ts:89814
+Defined in: main.ts:89850
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:89822
+Defined in: main.ts:89858
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:89822
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:89844
+Defined in: main.ts:89880
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:89844
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsWhoisOverviewLiveTaskInfo`](DomainAnalyticsWhoisOverviewLiveTaskInfo.md)
 
-Defined in: main.ts:89837
+Defined in: main.ts:89873
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IOnPageDuplicateTagsResponseInfo
 
-Defined in: main.ts:168849
+Defined in: main.ts:169013
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageDuplicateTagsTaskInfo`](../classes/OnPageDuplicateTagsTaskInfo.md)[]
 
-Defined in: main.ts:168851
+Defined in: main.ts:169015
 
 array of tasks
 

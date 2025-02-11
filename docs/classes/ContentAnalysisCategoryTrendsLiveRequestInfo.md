@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisCategoryTrendsLiveRequestInfo
 
-Defined in: main.ts:180544
+Defined in: main.ts:180906
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:180544
 
 > **new ContentAnalysisCategoryTrendsLiveRequestInfo**(`data`?): [`ContentAnalysisCategoryTrendsLiveRequestInfo`](ContentAnalysisCategoryTrendsLiveRequestInfo.md)
 
-Defined in: main.ts:180617
+Defined in: main.ts:180979
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:180617
 
 > `optional` **category\_code**: `string`
 
-Defined in: main.ts:180548
+Defined in: main.ts:180910
 
 target category code
 required field
@@ -56,7 +56,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:180578
+Defined in: main.ts:180940
 
 starting date of the time range
 required field
@@ -74,7 +74,7 @@ example:
 
 > `optional` **date\_group**: `string`
 
-Defined in: main.ts:180590
+Defined in: main.ts:180952
 
 time range which will be used to group the results
 optional field
@@ -91,7 +91,7 @@ possible values: day, week, month
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:180585
+Defined in: main.ts:180947
 
 ending date of the time range
 optional field
@@ -110,14 +110,14 @@ example:
 
 > `optional` **initial\_dataset\_filters**: `any`[]
 
-Defined in: main.ts:180607
+Defined in: main.ts:180969
 
 initial dataset filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like, has, has_not
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like, has, has_not, match, not_match
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["domain","<>", "logitech.com"]
@@ -139,7 +139,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:180572
+Defined in: main.ts:180934
 
 maximum number of elements within internal arrays
 optional field
@@ -162,7 +162,7 @@ maximum value: 20
 
 > `optional` **page\_type**: `string`[]
 
-Defined in: main.ts:180554
+Defined in: main.ts:180916
 
 target page types
 optional field
@@ -180,7 +180,7 @@ possible values:
 
 > `optional` **search\_mode**: `string`
 
-Defined in: main.ts:180561
+Defined in: main.ts:180923
 
 results grouping type
 optional field
@@ -199,7 +199,7 @@ default value: as_is
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:180613
+Defined in: main.ts:180975
 
 user-defined task identifier
 optional field
@@ -217,7 +217,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:180626
+Defined in: main.ts:180988
 
 #### Parameters
 
@@ -235,7 +235,7 @@ Defined in: main.ts:180626
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:180659
+Defined in: main.ts:181021
 
 #### Parameters
 
@@ -253,7 +253,7 @@ Defined in: main.ts:180659
 
 > `static` **fromJS**(`data`): [`ContentAnalysisCategoryTrendsLiveRequestInfo`](ContentAnalysisCategoryTrendsLiveRequestInfo.md)
 
-Defined in: main.ts:180652
+Defined in: main.ts:181014
 
 #### Parameters
 

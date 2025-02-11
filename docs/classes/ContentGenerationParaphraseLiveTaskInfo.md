@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationParaphraseLiveTaskInfo
 
-Defined in: main.ts:182624
+Defined in: main.ts:182986
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:182624
 
 > **new ContentGenerationParaphraseLiveTaskInfo**(`data`?): [`ContentGenerationParaphraseLiveTaskInfo`](ContentGenerationParaphraseLiveTaskInfo.md)
 
-Defined in: main.ts:182630
+Defined in: main.ts:182992
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`ContentGenerationParaphraseLiveResultInfo`](ContentGenerationParaphraseLiveResultInfo.md)[]
 
-Defined in: main.ts:182626
+Defined in: main.ts:182988
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:182634
+Defined in: main.ts:182996
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:182634
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:182656
+Defined in: main.ts:183018
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:182656
 
 > `static` **fromJS**(`data`): [`ContentGenerationParaphraseLiveTaskInfo`](ContentGenerationParaphraseLiveTaskInfo.md)
 
-Defined in: main.ts:182649
+Defined in: main.ts:183011
 
 #### Parameters
 

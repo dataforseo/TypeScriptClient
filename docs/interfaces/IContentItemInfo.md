@@ -6,7 +6,7 @@
 
 # Interface: IContentItemInfo
 
-Defined in: main.ts:173038
+Defined in: main.ts:173906
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:173038
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:173040
+Defined in: main.ts:173908
 
 content text
 
@@ -28,7 +28,7 @@ content text
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:173043
+Defined in: main.ts:173911
 
 page URL
 displayed in case the text is a link anchor
@@ -39,6 +39,6 @@ displayed in case the text is a link anchor
 
 > `optional` **urls**: [`ContentUrlInfo`](../classes/ContentUrlInfo.md)[]
 
-Defined in: main.ts:173045
+Defined in: main.ts:173913
 
 contains other URLs and anchors found in the content element

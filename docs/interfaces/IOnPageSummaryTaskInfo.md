@@ -6,7 +6,7 @@
 
 # Interface: IOnPageSummaryTaskInfo
 
-Defined in: main.ts:165800
+Defined in: main.ts:165964
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`OnPageSummaryResultInfo`](../classes/OnPageSummaryResultInfo.md)[]
 
-Defined in: main.ts:165802
+Defined in: main.ts:165966
 
 array of results
 

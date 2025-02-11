@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesTaskInfo
 
-Defined in: main.ts:145922
+Defined in: main.ts:146086
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo`](../classes/KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo.md)[]
 
-Defined in: main.ts:145924
+Defined in: main.ts:146088
 
 array of results
 

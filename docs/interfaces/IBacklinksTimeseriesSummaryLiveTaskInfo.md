@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksTimeseriesSummaryLiveTaskInfo
 
-Defined in: main.ts:159728
+Defined in: main.ts:159892
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`BacklinksTimeseriesSummaryLiveResultInfo`](../classes/BacklinksTimeseriesSummaryLiveResultInfo.md)[]
 
-Defined in: main.ts:159730
+Defined in: main.ts:159894
 
 array of results
 

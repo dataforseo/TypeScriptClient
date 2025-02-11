@@ -6,7 +6,7 @@
 
 # Class: BacklinksAvailableFiltersTaskInfo
 
-Defined in: main.ts:149648
+Defined in: main.ts:149812
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:149648
 
 > **new BacklinksAvailableFiltersTaskInfo**(`data`?): [`BacklinksAvailableFiltersTaskInfo`](BacklinksAvailableFiltersTaskInfo.md)
 
-Defined in: main.ts:149653
+Defined in: main.ts:149817
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`BacklinksAvailableFiltersResultInfo`](BacklinksAvailableFiltersResultInfo.md)[]
 
-Defined in: main.ts:149649
+Defined in: main.ts:149813
 
 #### Implementation of
 
@@ -212,7 +212,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:149657
+Defined in: main.ts:149821
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:149657
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:149679
+Defined in: main.ts:149843
 
 #### Parameters
 
@@ -256,7 +256,7 @@ Defined in: main.ts:149679
 
 > `static` **fromJS**(`data`): [`BacklinksAvailableFiltersTaskInfo`](BacklinksAvailableFiltersTaskInfo.md)
 
-Defined in: main.ts:149672
+Defined in: main.ts:149836
 
 #### Parameters
 

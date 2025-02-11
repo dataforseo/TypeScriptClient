@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleOrganicLiveHtmlRequestInfo
 
-Defined in: main.ts:40177
+Defined in: main.ts:40193
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:40177
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:40258
+Defined in: main.ts:40274
 
 parsing depth
 optional field
@@ -35,7 +35,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:40235
+Defined in: main.ts:40251
 
 device type
 optional field
@@ -48,7 +48,7 @@ default value: desktop
 
 > `optional` **expand\_ai\_overview**: `boolean`
 
-Defined in: main.ts:40282
+Defined in: main.ts:40298
 
 expand ai overview
 optional field
@@ -61,7 +61,7 @@ default value: false
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:40192
+Defined in: main.ts:40208
 
 keyword
 required field
@@ -69,7 +69,7 @@ you can specify up to 700 characters in the keyword field
 all %## will be decoded (plus character ‘+’ will be decoded to a space character)
 if you need to use the “%” character for your keyword, please specify it as “%25”;
 if you need to use the “+” character for your keyword, please specify it as “%2B”;
-if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’, ‘-site:’, the charge per task will be multiplied by 5
+if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’, the charge per task will be multiplied by 5
 Note: queries containing the ‘cache:’ parameter are not supported and will return a validation error
 
 ***
@@ -78,7 +78,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:40230
+Defined in: main.ts:40246
 
 search engine language code
 required field if you don’t specify language_name
@@ -93,7 +93,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:40223
+Defined in: main.ts:40239
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -108,7 +108,7 @@ English
 
 > `optional` **load\_async\_ai\_overview**: `boolean`
 
-Defined in: main.ts:40277
+Defined in: main.ts:40293
 
 load asynchronous ai overview
 optional field
@@ -124,7 +124,7 @@ if the element is absent or contains "asynchronous_ai_overview": false, all extr
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:40206
+Defined in: main.ts:40222
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -139,7 +139,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:40216
+Defined in: main.ts:40232
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -157,7 +157,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:40199
+Defined in: main.ts:40215
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -172,7 +172,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:40265
+Defined in: main.ts:40281
 
 page crawl limit
 optional field
@@ -187,7 +187,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:40242
+Defined in: main.ts:40258
 
 device operating system
 optional field
@@ -202,7 +202,7 @@ default value: android
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:40249
+Defined in: main.ts:40265
 
 search engine domain
 optional field
@@ -217,7 +217,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:40269
+Defined in: main.ts:40285
 
 additional parameters of the search query
 optional field
@@ -229,7 +229,7 @@ get the list of available parameters and additional details here
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:40288
+Defined in: main.ts:40304
 
 user-defined task identifier
 optional field
@@ -243,7 +243,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:40183
+Defined in: main.ts:40199
 
 direct URL of the search query
 optional field

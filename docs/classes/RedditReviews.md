@@ -6,7 +6,7 @@
 
 # Class: RedditReviews
 
-Defined in: main.ts:230234
+Defined in: main.ts:230742
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:230234
 
 > **new RedditReviews**(`data`?): [`RedditReviews`](RedditReviews.md)
 
-Defined in: main.ts:230249
+Defined in: main.ts:230757
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:230249
 
 > `optional` **author\_name**: `string`
 
-Defined in: main.ts:230239
+Defined in: main.ts:230747
 
 nickname of the author
 nicknname of the user who published the post in the subreddit and shared the URL
@@ -55,7 +55,7 @@ nicknname of the user who published the post in the subreddit and shared the URL
 
 > `optional` **permalink**: `string`
 
-Defined in: main.ts:230243
+Defined in: main.ts:230751
 
 URL to the subreddit post
 
@@ -69,7 +69,7 @@ URL to the subreddit post
 
 > `optional` **subreddit**: `string`
 
-Defined in: main.ts:230236
+Defined in: main.ts:230744
 
 the name of the subreddit
 
@@ -83,7 +83,7 @@ the name of the subreddit
 
 > `optional` **subreddit\_members**: `number`
 
-Defined in: main.ts:230245
+Defined in: main.ts:230753
 
 number of subreddit members
 
@@ -97,7 +97,7 @@ number of subreddit members
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:230241
+Defined in: main.ts:230749
 
 title of the subreddit post
 
@@ -111,7 +111,7 @@ title of the subreddit post
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:230258
+Defined in: main.ts:230766
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:230258
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:230279
+Defined in: main.ts:230787
 
 #### Parameters
 
@@ -147,7 +147,7 @@ Defined in: main.ts:230279
 
 > `static` **fromJS**(`data`): [`RedditReviews`](RedditReviews.md)
 
-Defined in: main.ts:230272
+Defined in: main.ts:230780
 
 #### Parameters
 

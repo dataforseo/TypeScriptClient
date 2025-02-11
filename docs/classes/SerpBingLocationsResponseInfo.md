@@ -6,7 +6,7 @@
 
 # Class: SerpBingLocationsResponseInfo
 
-Defined in: main.ts:62936
+Defined in: main.ts:62964
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:62936
 
 > **new SerpBingLocationsResponseInfo**(`data`?): [`SerpBingLocationsResponseInfo`](SerpBingLocationsResponseInfo.md)
 
-Defined in: main.ts:62942
+Defined in: main.ts:62970
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpBingLocationsTaskInfo`](SerpBingLocationsTaskInfo.md)[]
 
-Defined in: main.ts:62938
+Defined in: main.ts:62966
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:62946
+Defined in: main.ts:62974
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:62946
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:62968
+Defined in: main.ts:62996
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:62968
 
 > `static` **fromJS**(`data`): [`SerpBingLocationsResponseInfo`](SerpBingLocationsResponseInfo.md)
 
-Defined in: main.ts:62961
+Defined in: main.ts:62989
 
 #### Parameters
 

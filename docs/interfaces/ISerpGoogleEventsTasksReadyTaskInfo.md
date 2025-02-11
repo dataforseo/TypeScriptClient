@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleEventsTasksReadyTaskInfo
 
-Defined in: main.ts:48471
+Defined in: main.ts:48487
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleEventsTasksReadyResultInfo`](../classes/SerpGoogleEventsTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:48473
+Defined in: main.ts:48489
 
 array of results
 

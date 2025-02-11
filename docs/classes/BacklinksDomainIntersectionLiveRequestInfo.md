@@ -6,7 +6,7 @@
 
 # Class: BacklinksDomainIntersectionLiveRequestInfo
 
-Defined in: main.ts:157288
+Defined in: main.ts:157452
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:157288
 
 > **new BacklinksDomainIntersectionLiveRequestInfo**(`data`?): [`BacklinksDomainIntersectionLiveRequestInfo`](BacklinksDomainIntersectionLiveRequestInfo.md)
 
-Defined in: main.ts:157412
+Defined in: main.ts:157576
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:157412
 
 > `optional` **backlinks\_filters**: `any`[]
 
-Defined in: main.ts:157378
+Defined in: main.ts:157542
 
 filter the backlinks of your target
 optional field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **backlinks\_status\_type**: `string`
 
-Defined in: main.ts:157370
+Defined in: main.ts:157534
 
 set what backlinks to return and count
 optional field
@@ -81,7 +81,7 @@ default value: live
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
-Defined in: main.ts:157394
+Defined in: main.ts:157558
 
 indicates whether the backlinks from subdomains of the target are excluded
 optional field
@@ -98,7 +98,7 @@ default value: true
 
 > `optional` **exclude\_targets**: `string`[]
 
-Defined in: main.ts:157309
+Defined in: main.ts:157473
 
 domains, subdomains or webpages you want to exclude
 optional field
@@ -120,14 +120,14 @@ example:
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:157326
+Defined in: main.ts:157490
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, =, <>, in, not_in, like, not_like, ilike, not_ilike
+regex, not_regex, =, <>, in, not_in, like, not_like, ilike, not_ilike, match, not_match
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["1.internal_links_count",">","1"]
@@ -149,7 +149,7 @@ The full list of possible filters is available here.
 
 > `optional` **include\_indirect\_links**: `boolean`
 
-Defined in: main.ts:157389
+Defined in: main.ts:157553
 
 indicates if indirect links to the targets will be included in the results
 optional field
@@ -167,7 +167,7 @@ default value: true
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:157383
+Defined in: main.ts:157547
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -184,7 +184,7 @@ default value: true
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:157361
+Defined in: main.ts:157525
 
 maximum number of elements within internal arrays
 optional field
@@ -207,7 +207,7 @@ maximum value: 1000
 
 > `optional` **intersection\_mode**: `string`
 
-Defined in: main.ts:157402
+Defined in: main.ts:157566
 
 indicates whether to intersect backlinks
 optional field
@@ -227,7 +227,7 @@ default value: all
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:157350
+Defined in: main.ts:157514
 
 the maximum number of returned results
 optional field
@@ -244,7 +244,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:157345
+Defined in: main.ts:157509
 
 offset in the array of returned results
 optional field
@@ -261,7 +261,7 @@ if you specify the 10 value, the first ten backlinks in the results array will b
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:157340
+Defined in: main.ts:157504
 
 results sorting rules
 optional field
@@ -287,7 +287,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:157408
+Defined in: main.ts:157572
 
 user-defined task identifier
 optional field
@@ -305,7 +305,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `object`
 
-Defined in: main.ts:157299
+Defined in: main.ts:157463
 
 domains, subdomains or webpages to get links for
 required field
@@ -332,7 +332,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:157421
+Defined in: main.ts:157585
 
 #### Parameters
 
@@ -350,7 +350,7 @@ Defined in: main.ts:157421
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:157473
+Defined in: main.ts:157637
 
 #### Parameters
 
@@ -368,7 +368,7 @@ Defined in: main.ts:157473
 
 > `static` **fromJS**(`data`): [`BacklinksDomainIntersectionLiveRequestInfo`](BacklinksDomainIntersectionLiveRequestInfo.md)
 
-Defined in: main.ts:157466
+Defined in: main.ts:157630
 
 #### Parameters
 

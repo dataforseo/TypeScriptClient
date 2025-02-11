@@ -6,7 +6,7 @@
 
 # Class: ConceptGroupInfo
 
-Defined in: main.ts:128712
+Defined in: main.ts:128828
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:128712
 
 > **new ConceptGroupInfo**(`data`?): [`ConceptGroupInfo`](ConceptGroupInfo.md)
 
-Defined in: main.ts:128720
+Defined in: main.ts:128836
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:128720
 
 > `optional` **name**: `string`
 
-Defined in: main.ts:128714
+Defined in: main.ts:128830
 
 the concept group name
 
@@ -54,7 +54,7 @@ the concept group name
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:128716
+Defined in: main.ts:128832
 
 type of element
 
@@ -68,7 +68,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:128729
+Defined in: main.ts:128845
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:128729
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:128747
+Defined in: main.ts:128863
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:128747
 
 > `static` **fromJS**(`data`): [`ConceptGroupInfo`](ConceptGroupInfo.md)
 
-Defined in: main.ts:128740
+Defined in: main.ts:128856
 
 #### Parameters
 

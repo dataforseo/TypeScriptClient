@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesAggregationTechnologiesLiveTaskInfo
 
-Defined in: main.ts:86386
+Defined in: main.ts:86422
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:86386
 
 > **new DomainAnalyticsTechnologiesAggregationTechnologiesLiveTaskInfo**(`data`?): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveTaskInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveTaskInfo.md)
 
-Defined in: main.ts:86392
+Defined in: main.ts:86428
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md)[]
 
-Defined in: main.ts:86388
+Defined in: main.ts:86424
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:86396
+Defined in: main.ts:86432
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:86396
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:86418
+Defined in: main.ts:86454
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:86418
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveTaskInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveTaskInfo.md)
 
-Defined in: main.ts:86411
+Defined in: main.ts:86447
 
 #### Parameters
 

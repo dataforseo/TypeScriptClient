@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleLocalFinderLiveHtmlTaskInfo
 
-Defined in: main.ts:45091
+Defined in: main.ts:45107
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:45091
 
 > **new SerpGoogleLocalFinderLiveHtmlTaskInfo**(`data`?): [`SerpGoogleLocalFinderLiveHtmlTaskInfo`](SerpGoogleLocalFinderLiveHtmlTaskInfo.md)
 
-Defined in: main.ts:45097
+Defined in: main.ts:45113
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleLocalFinderLiveHtmlResultInfo`](SerpGoogleLocalFinderLiveHtmlResultInfo.md)[]
 
-Defined in: main.ts:45093
+Defined in: main.ts:45109
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:45101
+Defined in: main.ts:45117
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:45101
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:45123
+Defined in: main.ts:45139
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:45123
 
 > `static` **fromJS**(`data`): [`SerpGoogleLocalFinderLiveHtmlTaskInfo`](SerpGoogleLocalFinderLiveHtmlTaskInfo.md)
 
-Defined in: main.ts:45116
+Defined in: main.ts:45132
 
 #### Parameters
 

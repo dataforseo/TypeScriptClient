@@ -6,7 +6,7 @@
 
 # Interface: IFeaturedSnippetSerpElementItem
 
-Defined in: main.ts:29118
+Defined in: main.ts:29126
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:29118
 
 > `optional` **breadcrumb**: `string`
 
-Defined in: main.ts:29128
+Defined in: main.ts:29136
 
 breadcrumb of the ad element in SERP
 
@@ -32,7 +32,7 @@ breadcrumb of the ad element in SERP
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:29124
+Defined in: main.ts:29132
 
 description of the ad element in SERP
 
@@ -42,7 +42,7 @@ description of the ad element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:29120
+Defined in: main.ts:29128
 
 domain of the ad element in SERP
 
@@ -52,7 +52,7 @@ domain of the ad element in SERP
 
 > `optional` **featured\_title**: `string`
 
-Defined in: main.ts:29130
+Defined in: main.ts:29138
 
 title
 
@@ -62,7 +62,7 @@ title
 
 > `optional` **images**: [`ImagesElement`](../classes/ImagesElement.md)[]
 
-Defined in: main.ts:29137
+Defined in: main.ts:29145
 
 images of the element
 
@@ -119,7 +119,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:29144
+Defined in: main.ts:29152
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -131,7 +131,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **table**: [`Table`](../classes/Table.md)
 
-Defined in: main.ts:29140
+Defined in: main.ts:29148
 
 results table
 if there are none, equals null
@@ -142,7 +142,7 @@ if there are none, equals null
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:29135
+Defined in: main.ts:29143
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -155,7 +155,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:29122
+Defined in: main.ts:29130
 
 title of the ad element in SERP
 
@@ -179,7 +179,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:29126
+Defined in: main.ts:29134
 
 relevant URL of the ad element in SERP
 

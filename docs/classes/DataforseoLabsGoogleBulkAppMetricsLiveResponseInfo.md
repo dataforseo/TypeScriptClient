@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleBulkAppMetricsLiveResponseInfo
 
-Defined in: main.ts:121223
+Defined in: main.ts:121339
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:121223
 
 > **new DataforseoLabsGoogleBulkAppMetricsLiveResponseInfo**(`data`?): [`DataforseoLabsGoogleBulkAppMetricsLiveResponseInfo`](DataforseoLabsGoogleBulkAppMetricsLiveResponseInfo.md)
 
-Defined in: main.ts:121229
+Defined in: main.ts:121345
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsGoogleBulkAppMetricsLiveTaskInfo`](DataforseoLabsGoogleBulkAppMetricsLiveTaskInfo.md)[]
 
-Defined in: main.ts:121225
+Defined in: main.ts:121341
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:121233
+Defined in: main.ts:121349
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:121233
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:121255
+Defined in: main.ts:121371
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:121255
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleBulkAppMetricsLiveResponseInfo`](DataforseoLabsGoogleBulkAppMetricsLiveResponseInfo.md)
 
-Defined in: main.ts:121248
+Defined in: main.ts:121364
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonProductRankOverviewLiveResultInfo
 
-Defined in: main.ts:113970
+Defined in: main.ts:114038
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:113970
 
 > **new DataforseoLabsAmazonProductRankOverviewLiveResultInfo**(`data`?): [`DataforseoLabsAmazonProductRankOverviewLiveResultInfo`](DataforseoLabsAmazonProductRankOverviewLiveResultInfo.md)
 
-Defined in: main.ts:113988
+Defined in: main.ts:114056
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:113988
 
 > `optional` **items**: [`DataforseoLabsAmazonProductRankOverviewLiveItem`](DataforseoLabsAmazonProductRankOverviewLiveItem.md)[]
 
-Defined in: main.ts:113984
+Defined in: main.ts:114052
 
 contains detected Amazon product competitors and related data
 
@@ -54,7 +54,7 @@ contains detected Amazon product competitors and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:113982
+Defined in: main.ts:114050
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:113978
+Defined in: main.ts:114046
 
 language code in a POST array
 if there is no data, then the value is null
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:113975
+Defined in: main.ts:114043
 
 location code in a POST array
 if there is no data, then the value is null
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:113972
+Defined in: main.ts:114040
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:113980
+Defined in: main.ts:114048
 
 total amount of results in our database relevant to your request
 
@@ -126,7 +126,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:113997
+Defined in: main.ts:114065
 
 #### Parameters
 
@@ -144,7 +144,7 @@ Defined in: main.ts:113997
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:114023
+Defined in: main.ts:114091
 
 #### Parameters
 
@@ -162,7 +162,7 @@ Defined in: main.ts:114023
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAmazonProductRankOverviewLiveResultInfo`](DataforseoLabsAmazonProductRankOverviewLiveResultInfo.md)
 
-Defined in: main.ts:114016
+Defined in: main.ts:114084
 
 #### Parameters
 

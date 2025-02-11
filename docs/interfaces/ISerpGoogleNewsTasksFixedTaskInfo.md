@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleNewsTasksFixedTaskInfo
 
-Defined in: main.ts:46061
+Defined in: main.ts:46077
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleNewsTasksFixedResultInfo`](../classes/SerpGoogleNewsTasksFixedResultInfo.md)[]
 
-Defined in: main.ts:46063
+Defined in: main.ts:46079
 
 array of results
 

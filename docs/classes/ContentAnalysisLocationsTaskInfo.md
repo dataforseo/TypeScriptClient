@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisLocationsTaskInfo
 
-Defined in: main.ts:176924
+Defined in: main.ts:177288
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:176924
 
 > **new ContentAnalysisLocationsTaskInfo**(`data`?): [`ContentAnalysisLocationsTaskInfo`](ContentAnalysisLocationsTaskInfo.md)
 
-Defined in: main.ts:176930
+Defined in: main.ts:177294
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`ContentAnalysisLocationsResultInfo`](ContentAnalysisLocationsResultInfo.md)[]
 
-Defined in: main.ts:176926
+Defined in: main.ts:177290
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:176934
+Defined in: main.ts:177298
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:176934
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:176956
+Defined in: main.ts:177320
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:176956
 
 > `static` **fromJS**(`data`): [`ContentAnalysisLocationsTaskInfo`](ContentAnalysisLocationsTaskInfo.md)
 
-Defined in: main.ts:176949
+Defined in: main.ts:177313
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IAppendixUserDataResponseInfo
 
-Defined in: main.ts:239089
+Defined in: main.ts:239517
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppendixUserDataTaskInfo`](../classes/AppendixUserDataTaskInfo.md)[]
 
-Defined in: main.ts:239091
+Defined in: main.ts:239519
 
 array of tasks
 

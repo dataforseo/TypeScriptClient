@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonProductRankOverviewLiveTaskInfo
 
-Defined in: main.ts:114062
+Defined in: main.ts:114130
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:114062
 
 > **new DataforseoLabsAmazonProductRankOverviewLiveTaskInfo**(`data`?): [`DataforseoLabsAmazonProductRankOverviewLiveTaskInfo`](DataforseoLabsAmazonProductRankOverviewLiveTaskInfo.md)
 
-Defined in: main.ts:114068
+Defined in: main.ts:114136
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsAmazonProductRankOverviewLiveResultInfo`](DataforseoLabsAmazonProductRankOverviewLiveResultInfo.md)[]
 
-Defined in: main.ts:114064
+Defined in: main.ts:114132
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:114072
+Defined in: main.ts:114140
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:114072
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:114094
+Defined in: main.ts:114162
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:114094
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAmazonProductRankOverviewLiveTaskInfo`](DataforseoLabsAmazonProductRankOverviewLiveTaskInfo.md)
 
-Defined in: main.ts:114087
+Defined in: main.ts:114155
 
 #### Parameters
 

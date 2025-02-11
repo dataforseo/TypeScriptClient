@@ -6,7 +6,7 @@
 
 # Class: SerpBaiduLocationsCountryResponseInfo
 
-Defined in: main.ts:78675
+Defined in: main.ts:78711
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:78675
 
 > **new SerpBaiduLocationsCountryResponseInfo**(`data`?): [`SerpBaiduLocationsCountryResponseInfo`](SerpBaiduLocationsCountryResponseInfo.md)
 
-Defined in: main.ts:78681
+Defined in: main.ts:78717
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpBaiduLocationsCountryTaskInfo`](SerpBaiduLocationsCountryTaskInfo.md)[]
 
-Defined in: main.ts:78677
+Defined in: main.ts:78713
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:78685
+Defined in: main.ts:78721
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:78685
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:78707
+Defined in: main.ts:78743
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:78707
 
 > `static` **fromJS**(`data`): [`SerpBaiduLocationsCountryResponseInfo`](SerpBaiduLocationsCountryResponseInfo.md)
 
-Defined in: main.ts:78700
+Defined in: main.ts:78736
 
 #### Parameters
 

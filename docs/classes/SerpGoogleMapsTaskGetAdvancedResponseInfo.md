@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleMapsTaskGetAdvancedResponseInfo
 
-Defined in: main.ts:42234
+Defined in: main.ts:42250
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:42234
 
 > **new SerpGoogleMapsTaskGetAdvancedResponseInfo**(`data`?): [`SerpGoogleMapsTaskGetAdvancedResponseInfo`](SerpGoogleMapsTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:42240
+Defined in: main.ts:42256
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleMapsTaskGetAdvancedTaskInfo`](SerpGoogleMapsTaskGetAdvancedTaskInfo.md)[]
 
-Defined in: main.ts:42236
+Defined in: main.ts:42252
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:42244
+Defined in: main.ts:42260
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:42244
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:42266
+Defined in: main.ts:42282
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:42266
 
 > `static` **fromJS**(`data`): [`SerpGoogleMapsTaskGetAdvancedResponseInfo`](SerpGoogleMapsTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:42259
+Defined in: main.ts:42275
 
 #### Parameters
 

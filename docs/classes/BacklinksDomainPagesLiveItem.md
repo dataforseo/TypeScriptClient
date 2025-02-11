@@ -6,7 +6,7 @@
 
 # Class: BacklinksDomainPagesLiveItem
 
-Defined in: main.ts:154120
+Defined in: main.ts:154284
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:154120
 
 > **new BacklinksDomainPagesLiveItem**(`data`?): [`BacklinksDomainPagesLiveItem`](BacklinksDomainPagesLiveItem.md)
 
-Defined in: main.ts:154176
+Defined in: main.ts:154340
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:154176
 
 > `optional` **content\_encoding**: `string`
 
-Defined in: main.ts:154164
+Defined in: main.ts:154328
 
 type of encoding
 
@@ -54,7 +54,7 @@ type of encoding
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:154128
+Defined in: main.ts:154292
 
 domain
 domain where the page was found
@@ -69,7 +69,7 @@ domain where the page was found
 
 > `optional` **encoded\_size**: `number`
 
-Defined in: main.ts:154162
+Defined in: main.ts:154326
 
 page size after encoding
 indicates the size of the encoded page, in bytes
@@ -84,7 +84,7 @@ indicates the size of the encoded page, in bytes
 
 > `optional` **fetch\_time**: `string`
 
-Defined in: main.ts:154152
+Defined in: main.ts:154316
 
 most recent date and time when our crawler visited the page
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -101,7 +101,7 @@ example:
 
 > `optional` **first\_visited**: `string`
 
-Defined in: main.ts:154142
+Defined in: main.ts:154306
 
 date and time of the first page visit
 date and time when our crawler visited this page for the first time
@@ -119,7 +119,7 @@ example:
 
 > `optional` **ip**: `string`
 
-Defined in: main.ts:154136
+Defined in: main.ts:154300
 
 Internet Protocol address
 
@@ -133,7 +133,7 @@ Internet Protocol address
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:154157
+Defined in: main.ts:154321
 
 location header
 indicates the URL to redirect a page to if exists
@@ -148,7 +148,7 @@ indicates the URL to redirect a page to if exists
 
 > `optional` **main\_domain**: `string`
 
-Defined in: main.ts:154125
+Defined in: main.ts:154289
 
 main website domain
 main website domain does not include subdomains
@@ -163,7 +163,7 @@ main website domain does not include subdomains
 
 > `optional` **media\_type**: `string`
 
-Defined in: main.ts:154166
+Defined in: main.ts:154330
 
 types of media used to display a page
 
@@ -177,7 +177,7 @@ types of media used to display a page
 
 > `optional` **meta**: [`BacklinksPageMeta`](BacklinksPageMeta.md)
 
-Defined in: main.ts:154170
+Defined in: main.ts:154334
 
 page meta data
 
@@ -191,7 +191,7 @@ page meta data
 
 > `optional` **page**: `string`
 
-Defined in: main.ts:154134
+Defined in: main.ts:154298
 
 page URL
 relevant page URL
@@ -206,7 +206,7 @@ relevant page URL
 
 > `optional` **page\_summary**: [`PageSummary`](PageSummary.md)
 
-Defined in: main.ts:154172
+Defined in: main.ts:154336
 
 contains backlink data for this page
 
@@ -220,7 +220,7 @@ contains backlink data for this page
 
 > `optional` **prev\_visited**: `string`
 
-Defined in: main.ts:154147
+Defined in: main.ts:154311
 
 previous to the most recent date when our crawler visited the page
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -237,7 +237,7 @@ example:
 
 > `optional` **server**: `string`
 
-Defined in: main.ts:154168
+Defined in: main.ts:154332
 
 server version
 
@@ -251,7 +251,7 @@ server version
 
 > `optional` **size**: `number`
 
-Defined in: main.ts:154159
+Defined in: main.ts:154323
 
 indicates the page size, in bytes
 
@@ -265,7 +265,7 @@ indicates the page size, in bytes
 
 > `optional` **status\_code**: `number`
 
-Defined in: main.ts:154154
+Defined in: main.ts:154318
 
 HTTP status code of the page
 
@@ -279,7 +279,7 @@ HTTP status code of the page
 
 > `optional` **tld**: `string`
 
-Defined in: main.ts:154131
+Defined in: main.ts:154295
 
 top-level domain
 top-level domain in the DNS root zone
@@ -294,7 +294,7 @@ top-level domain in the DNS root zone
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:154122
+Defined in: main.ts:154286
 
 type of element
 
@@ -308,7 +308,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:154185
+Defined in: main.ts:154349
 
 #### Parameters
 
@@ -326,7 +326,7 @@ Defined in: main.ts:154185
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:154219
+Defined in: main.ts:154383
 
 #### Parameters
 
@@ -344,7 +344,7 @@ Defined in: main.ts:154219
 
 > `static` **fromJS**(`data`): [`BacklinksDomainPagesLiveItem`](BacklinksDomainPagesLiveItem.md)
 
-Defined in: main.ts:154212
+Defined in: main.ts:154376
 
 #### Parameters
 

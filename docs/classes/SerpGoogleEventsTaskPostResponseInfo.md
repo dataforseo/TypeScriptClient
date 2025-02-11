@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleEventsTaskPostResponseInfo
 
-Defined in: main.ts:48266
+Defined in: main.ts:48282
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:48266
 
 > **new SerpGoogleEventsTaskPostResponseInfo**(`data`?): [`SerpGoogleEventsTaskPostResponseInfo`](SerpGoogleEventsTaskPostResponseInfo.md)
 
-Defined in: main.ts:48272
+Defined in: main.ts:48288
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleEventsTaskPostTaskInfo`](SerpGoogleEventsTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:48268
+Defined in: main.ts:48284
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:48276
+Defined in: main.ts:48292
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:48276
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:48298
+Defined in: main.ts:48314
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:48298
 
 > `static` **fromJS**(`data`): [`SerpGoogleEventsTaskPostResponseInfo`](SerpGoogleEventsTaskPostResponseInfo.md)
 
-Defined in: main.ts:48291
+Defined in: main.ts:48307
 
 #### Parameters
 

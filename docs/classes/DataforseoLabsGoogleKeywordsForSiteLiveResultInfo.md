@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleKeywordsForSiteLiveResultInfo
 
-Defined in: main.ts:93426
+Defined in: main.ts:93472
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:93426
 
 > **new DataforseoLabsGoogleKeywordsForSiteLiveResultInfo**(`data`?): [`DataforseoLabsGoogleKeywordsForSiteLiveResultInfo`](DataforseoLabsGoogleKeywordsForSiteLiveResultInfo.md)
 
-Defined in: main.ts:93450
+Defined in: main.ts:93496
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:93450
 
 > `optional` **items**: [`KeywordDataInfo`](KeywordDataInfo.md)[]
 
-Defined in: main.ts:93446
+Defined in: main.ts:93492
 
 contains keyword ideas and related data
 
@@ -54,7 +54,7 @@ contains keyword ideas and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:93438
+Defined in: main.ts:93484
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:93434
+Defined in: main.ts:93480
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:93432
+Defined in: main.ts:93478
 
 location code in a POST array
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:93440
+Defined in: main.ts:93486
 
 current offset value
 
@@ -110,7 +110,7 @@ current offset value
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:93444
+Defined in: main.ts:93490
 
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
@@ -126,7 +126,7 @@ note: offset_token values are unique for each subsequent task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:93428
+Defined in: main.ts:93474
 
 search engine type
 
@@ -140,7 +140,7 @@ search engine type
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:93430
+Defined in: main.ts:93476
 
 target domain in a POST array
 
@@ -154,7 +154,7 @@ target domain in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:93436
+Defined in: main.ts:93482
 
 total number of results in our database relevant to your request
 
@@ -168,7 +168,7 @@ total number of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:93459
+Defined in: main.ts:93505
 
 #### Parameters
 
@@ -186,7 +186,7 @@ Defined in: main.ts:93459
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:93488
+Defined in: main.ts:93534
 
 #### Parameters
 
@@ -204,7 +204,7 @@ Defined in: main.ts:93488
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleKeywordsForSiteLiveResultInfo`](DataforseoLabsGoogleKeywordsForSiteLiveResultInfo.md)
 
-Defined in: main.ts:93481
+Defined in: main.ts:93527
 
 #### Parameters
 

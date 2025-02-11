@@ -6,7 +6,7 @@
 
 # Class: SerpBingOrganicTaskPostTaskInfo
 
-Defined in: main.ts:63757
+Defined in: main.ts:63787
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:63757
 
 > **new SerpBingOrganicTaskPostTaskInfo**(`data`?): [`SerpBingOrganicTaskPostTaskInfo`](SerpBingOrganicTaskPostTaskInfo.md)
 
-Defined in: main.ts:63764
+Defined in: main.ts:63794
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:63760
+Defined in: main.ts:63790
 
 array of results
 in this case, the value will be null
@@ -215,7 +215,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:63768
+Defined in: main.ts:63798
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:63768
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:63786
+Defined in: main.ts:63816
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:63786
 
 > `static` **fromJS**(`data`): [`SerpBingOrganicTaskPostTaskInfo`](SerpBingOrganicTaskPostTaskInfo.md)
 
-Defined in: main.ts:63779
+Defined in: main.ts:63809
 
 #### Parameters
 

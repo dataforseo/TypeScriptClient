@@ -6,7 +6,7 @@
 
 # Interface: IVisualStoriesSerpElementItem
 
-Defined in: main.ts:35748
+Defined in: main.ts:35764
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:35748
 
 > `optional` **items**: [`LicensesElement`](../classes/LicensesElement.md)[]
 
-Defined in: main.ts:35750
+Defined in: main.ts:35766
 
 contains arrays of specific images
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:35754
+Defined in: main.ts:35770
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP

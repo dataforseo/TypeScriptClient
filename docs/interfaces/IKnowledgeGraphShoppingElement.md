@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphShoppingElement
 
-Defined in: main.ts:30447
+Defined in: main.ts:30453
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:30447
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:30455
+Defined in: main.ts:30461
 
 website domain
 
@@ -28,7 +28,7 @@ website domain
 
 > `optional` **marketplace**: `string`
 
-Defined in: main.ts:30467
+Defined in: main.ts:30473
 
 merchant account provider
 ecommerce site that hosts products or websites of individual sellers under the same merchant account
@@ -41,7 +41,7 @@ by Google
 
 > `optional` **marketplace\_url**: `string`
 
-Defined in: main.ts:30470
+Defined in: main.ts:30476
 
 URL to the merchant account provider
 ecommerce site that hosts products or websites of individual sellers under the same merchant account
@@ -52,7 +52,7 @@ ecommerce site that hosts products or websites of individual sellers under the s
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-Defined in: main.ts:30458
+Defined in: main.ts:30464
 
 pricing details
 contains the pricing details of the product or service featured in the result
@@ -63,7 +63,7 @@ contains the pricing details of the product or service featured in the result
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:30462
+Defined in: main.ts:30468
 
 text alongside the link title
 
@@ -73,7 +73,7 @@ text alongside the link title
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:30460
+Defined in: main.ts:30466
 
 source of additional information about the result
 
@@ -83,7 +83,7 @@ source of additional information about the result
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:30451
+Defined in: main.ts:30457
 
 title of the result in SERP
 
@@ -93,7 +93,7 @@ title of the result in SERP
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:30449
+Defined in: main.ts:30455
 
 type of element
 
@@ -103,6 +103,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:30453
+Defined in: main.ts:30459
 
 relevant URL

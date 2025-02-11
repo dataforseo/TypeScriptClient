@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphPartItemSerpElementItem
 
-Defined in: main.ts:30345
+Defined in: main.ts:30351
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:30345
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:30351
+Defined in: main.ts:30357
 
 google defined data attribute ID
 example:
@@ -34,7 +34,7 @@ kc:/local:place qa
 
 > `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
-Defined in: main.ts:30358
+Defined in: main.ts:30364
 
 sitelinks
 the links shown below some of Google’s search results
@@ -93,7 +93,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:30362
+Defined in: main.ts:30368
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -105,7 +105,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:30354
+Defined in: main.ts:30360
 
 reference text
 text snippet from the page that was used to generate the ai_overview_element
@@ -116,7 +116,7 @@ text snippet from the page that was used to generate the ai_overview_element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:30347
+Defined in: main.ts:30353
 
 title of the result in SERP
 

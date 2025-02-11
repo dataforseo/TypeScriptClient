@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleJobsTaskGetHtmlTaskInfo
 
-Defined in: main.ts:55088
+Defined in: main.ts:55104
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleJobsTaskGetHtmlResultInfo`](../classes/SerpGoogleJobsTaskGetHtmlResultInfo.md)[]
 
-Defined in: main.ts:55090
+Defined in: main.ts:55106
 
 array of results
 

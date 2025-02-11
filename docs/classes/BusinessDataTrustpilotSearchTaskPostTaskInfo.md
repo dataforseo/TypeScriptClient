@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTrustpilotSearchTaskPostTaskInfo
 
-Defined in: main.ts:225642
+Defined in: main.ts:226150
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:225642
 
 > **new BusinessDataTrustpilotSearchTaskPostTaskInfo**(`data`?): [`BusinessDataTrustpilotSearchTaskPostTaskInfo`](BusinessDataTrustpilotSearchTaskPostTaskInfo.md)
 
-Defined in: main.ts:225649
+Defined in: main.ts:226157
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:225645
+Defined in: main.ts:226153
 
 array of results
 in this case, the value will be null
@@ -215,7 +215,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:225653
+Defined in: main.ts:226161
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:225653
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:225671
+Defined in: main.ts:226179
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:225671
 
 > `static` **fromJS**(`data`): [`BusinessDataTrustpilotSearchTaskPostTaskInfo`](BusinessDataTrustpilotSearchTaskPostTaskInfo.md)
 
-Defined in: main.ts:225664
+Defined in: main.ts:226172
 
 #### Parameters
 

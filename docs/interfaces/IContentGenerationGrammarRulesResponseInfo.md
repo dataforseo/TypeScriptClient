@@ -6,7 +6,7 @@
 
 # Interface: IContentGenerationGrammarRulesResponseInfo
 
-Defined in: main.ts:183475
+Defined in: main.ts:183837
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`ContentGenerationGrammarRulesTaskInfo`](../classes/ContentGenerationGrammarRulesTaskInfo.md)[]
 
-Defined in: main.ts:183477
+Defined in: main.ts:183839
 
 array of tasks
 

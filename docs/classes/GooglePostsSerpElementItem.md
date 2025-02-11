@@ -6,7 +6,7 @@
 
 # Class: GooglePostsSerpElementItem
 
-Defined in: main.ts:36511
+Defined in: main.ts:36527
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:36511
 
 > **new GooglePostsSerpElementItem**(`data`?): [`GooglePostsSerpElementItem`](GooglePostsSerpElementItem.md)
 
-Defined in: main.ts:36525
+Defined in: main.ts:36541
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:36517
+Defined in: main.ts:36533
 
 google-defined client id
 
@@ -74,7 +74,7 @@ google-defined client id
 
 > `optional` **feature**: `string`
 
-Defined in: main.ts:36515
+Defined in: main.ts:36531
 
 the additional feature of the review
 
@@ -108,7 +108,7 @@ left, right
 
 > `optional` **posts\_id**: `string`
 
-Defined in: main.ts:36513
+Defined in: main.ts:36529
 
 the identifier of the google_posts feature
 
@@ -161,7 +161,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:36521
+Defined in: main.ts:36537
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -213,7 +213,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:36530
+Defined in: main.ts:36546
 
 #### Parameters
 
@@ -235,7 +235,7 @@ Defined in: main.ts:36530
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:36551
+Defined in: main.ts:36567
 
 #### Parameters
 
@@ -257,7 +257,7 @@ Defined in: main.ts:36551
 
 > `static` **fromJS**(`data`): [`GooglePostsSerpElementItem`](GooglePostsSerpElementItem.md)
 
-Defined in: main.ts:36544
+Defined in: main.ts:36560
 
 #### Parameters
 

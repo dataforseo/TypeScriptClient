@@ -6,7 +6,7 @@
 
 # Class: AppendixSellersGoogleMerchantPriceData
 
-Defined in: main.ts:237022
+Defined in: main.ts:237386
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:237022
 
 > **new AppendixSellersGoogleMerchantPriceData**(`data`?): [`AppendixSellersGoogleMerchantPriceData`](AppendixSellersGoogleMerchantPriceData.md)
 
-Defined in: main.ts:237030
+Defined in: main.ts:237394
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:237030
 
 > `optional` **ad\_url**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237023
+Defined in: main.ts:237387
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:237023
 
 > `optional` **task\_get**: [`AppendixTaskGetProductGoogleMerchantPriceDataInfo`](AppendixTaskGetProductGoogleMerchantPriceDataInfo.md)
 
-Defined in: main.ts:237024
+Defined in: main.ts:237388
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:237024
 
 > `optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237025
+Defined in: main.ts:237389
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:237025
 
 > `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237026
+Defined in: main.ts:237390
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:237026
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:237039
+Defined in: main.ts:237403
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:237039
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:237059
+Defined in: main.ts:237423
 
 #### Parameters
 
@@ -124,7 +124,7 @@ Defined in: main.ts:237059
 
 > `static` **fromJS**(`data`): [`AppendixSellersGoogleMerchantPriceData`](AppendixSellersGoogleMerchantPriceData.md)
 
-Defined in: main.ts:237052
+Defined in: main.ts:237416
 
 #### Parameters
 

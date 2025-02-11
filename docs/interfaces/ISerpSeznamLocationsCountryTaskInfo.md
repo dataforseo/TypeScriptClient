@@ -6,7 +6,7 @@
 
 # Interface: ISerpSeznamLocationsCountryTaskInfo
 
-Defined in: main.ts:82482
+Defined in: main.ts:82518
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpSeznamLocationsCountryResultInfo`](../classes/SerpSeznamLocationsCountryResultInfo.md)[]
 
-Defined in: main.ts:82484
+Defined in: main.ts:82520
 
 array of results
 

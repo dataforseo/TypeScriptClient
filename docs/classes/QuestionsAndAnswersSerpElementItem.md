@@ -6,7 +6,7 @@
 
 # Class: QuestionsAndAnswersSerpElementItem
 
-Defined in: main.ts:35427
+Defined in: main.ts:35443
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:35427
 
 > **new QuestionsAndAnswersSerpElementItem**(`data`?): [`QuestionsAndAnswersSerpElementItem`](QuestionsAndAnswersSerpElementItem.md)
 
-Defined in: main.ts:35437
+Defined in: main.ts:35453
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`QuestionsAndAnswersElement`](QuestionsAndAnswersElement.md)[]
 
-Defined in: main.ts:35429
+Defined in: main.ts:35445
 
 contains arrays of specific images
 
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:35433
+Defined in: main.ts:35449
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -185,7 +185,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:35442
+Defined in: main.ts:35458
 
 #### Parameters
 
@@ -207,7 +207,7 @@ Defined in: main.ts:35442
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:35465
+Defined in: main.ts:35481
 
 #### Parameters
 
@@ -229,7 +229,7 @@ Defined in: main.ts:35465
 
 > `static` **fromJS**(`data`): [`QuestionsAndAnswersSerpElementItem`](QuestionsAndAnswersSerpElementItem.md)
 
-Defined in: main.ts:35458
+Defined in: main.ts:35474
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataDataforseoTrendsExploreLiveTaskInfo
 
-Defined in: main.ts:136124
+Defined in: main.ts:136288
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:136124
 
 > **new KeywordsDataDataforseoTrendsExploreLiveTaskInfo**(`data`?): [`KeywordsDataDataforseoTrendsExploreLiveTaskInfo`](KeywordsDataDataforseoTrendsExploreLiveTaskInfo.md)
 
-Defined in: main.ts:136130
+Defined in: main.ts:136294
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataDataforseoTrendsExploreLiveResultInfo`](KeywordsDataDataforseoTrendsExploreLiveResultInfo.md)[]
 
-Defined in: main.ts:136126
+Defined in: main.ts:136290
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:136134
+Defined in: main.ts:136298
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:136134
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:136156
+Defined in: main.ts:136320
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:136156
 
 > `static` **fromJS**(`data`): [`KeywordsDataDataforseoTrendsExploreLiveTaskInfo`](KeywordsDataDataforseoTrendsExploreLiveTaskInfo.md)
 
-Defined in: main.ts:136149
+Defined in: main.ts:136313
 
 #### Parameters
 

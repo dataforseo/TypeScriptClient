@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphImagesElement
 
-Defined in: main.ts:29673
+Defined in: main.ts:29681
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:29673
 
 > **new KnowledgeGraphImagesElement**(`data`?): [`KnowledgeGraphImagesElement`](KnowledgeGraphImagesElement.md)
 
-Defined in: main.ts:29690
+Defined in: main.ts:29698
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:29690
 
 > `optional` **alt**: `string`
 
-Defined in: main.ts:29681
+Defined in: main.ts:29689
 
 alt tag of the image
 
@@ -54,9 +54,9 @@ alt tag of the image
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:29679
+Defined in: main.ts:29687
 
-domain in SERP of the Ad element
+domain in SERP of the ad element
 
 #### Implementation of
 
@@ -68,7 +68,7 @@ domain in SERP of the Ad element
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:29684
+Defined in: main.ts:29692
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -83,7 +83,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:29675
+Defined in: main.ts:29683
 
 type of element
 
@@ -97,7 +97,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:29677
+Defined in: main.ts:29685
 
 relevant URL in SERP
 
@@ -111,7 +111,7 @@ relevant URL in SERP
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:29686
+Defined in: main.ts:29694
 
 the XPath of the element
 
@@ -125,7 +125,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:29699
+Defined in: main.ts:29707
 
 #### Parameters
 
@@ -143,7 +143,7 @@ Defined in: main.ts:29699
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:29721
+Defined in: main.ts:29729
 
 #### Parameters
 
@@ -161,7 +161,7 @@ Defined in: main.ts:29721
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphImagesElement`](KnowledgeGraphImagesElement.md)
 
-Defined in: main.ts:29714
+Defined in: main.ts:29722
 
 #### Parameters
 

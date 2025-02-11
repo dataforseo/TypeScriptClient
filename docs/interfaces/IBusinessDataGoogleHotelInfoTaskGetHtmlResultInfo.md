@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleHotelInfoTaskGetHtmlResultInfo
 
-Defined in: main.ts:220115
+Defined in: main.ts:220623
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:220115
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:220129
+Defined in: main.ts:220637
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -31,7 +31,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
 
-Defined in: main.ts:220133
+Defined in: main.ts:220641
 
 HTML pages
 
@@ -41,7 +41,7 @@ HTML pages
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:220131
+Defined in: main.ts:220639
 
 the number of results returned in the items array
 
@@ -51,7 +51,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:220120
+Defined in: main.ts:220628
 
 identifier received in a POST array
 this field will contain the hotel_identifier parameter specified when setting a task;
@@ -64,7 +64,7 @@ CgoI-KWyzenM_MV3EAE
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:220124
+Defined in: main.ts:220632
 
 language code in a POST array
 
@@ -74,7 +74,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:220122
+Defined in: main.ts:220630
 
 location code in a POST array
 
@@ -84,7 +84,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:220135
+Defined in: main.ts:220643
 
 ***
 
@@ -92,4 +92,4 @@ Defined in: main.ts:220135
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:220134
+Defined in: main.ts:220642

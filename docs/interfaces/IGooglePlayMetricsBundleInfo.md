@@ -6,7 +6,7 @@
 
 # Interface: IGooglePlayMetricsBundleInfo
 
-Defined in: main.ts:122293
+Defined in: main.ts:122409
 
 ## Indexable
 
@@ -18,6 +18,6 @@ Defined in: main.ts:122293
 
 > `optional` **google\_play\_search\_organic**: [`AppMetricsInfo`](../classes/AppMetricsInfo.md)
 
-Defined in: main.ts:122295
+Defined in: main.ts:122411
 
 ranking data from Google Play organic search

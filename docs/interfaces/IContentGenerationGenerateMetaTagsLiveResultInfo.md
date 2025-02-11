@@ -6,7 +6,7 @@
 
 # Interface: IContentGenerationGenerateMetaTagsLiveResultInfo
 
-Defined in: main.ts:182073
+Defined in: main.ts:182435
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:182073
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:182083
+Defined in: main.ts:182445
 
 generated description
 
@@ -28,7 +28,7 @@ generated description
 
 > `optional` **input\_tokens**: `number`
 
-Defined in: main.ts:182075
+Defined in: main.ts:182437
 
 number of input tokens
 
@@ -38,7 +38,7 @@ number of input tokens
 
 > `optional` **new\_tokens**: `number`
 
-Defined in: main.ts:182079
+Defined in: main.ts:182441
 
 number of new tokens
 
@@ -48,7 +48,7 @@ number of new tokens
 
 > `optional` **output\_tokens**: `number`
 
-Defined in: main.ts:182077
+Defined in: main.ts:182439
 
 number of output tokens
 
@@ -58,6 +58,6 @@ number of output tokens
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:182081
+Defined in: main.ts:182443
 
 generated title

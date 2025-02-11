@@ -6,7 +6,7 @@
 
 # Class: ProductVariation
 
-Defined in: main.ts:190528
+Defined in: main.ts:190934
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:190528
 
 > **new ProductVariation**(`data`?): [`ProductVariation`](ProductVariation.md)
 
-Defined in: main.ts:190542
+Defined in: main.ts:190948
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:190542
 
 > `optional` **product\_id**: `string`
 
-Defined in: main.ts:190533
+Defined in: main.ts:190939
 
 product ID in a POST array
 learn more about the parameter in this help center guide
@@ -55,7 +55,7 @@ learn more about the parameter in this help center guide
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:190535
+Defined in: main.ts:190941
 
 name of the product seller
 
@@ -69,7 +69,7 @@ name of the product seller
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:190530
+Defined in: main.ts:190936
 
 type of element
 
@@ -83,7 +83,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:190538
+Defined in: main.ts:190944
 
 seller url
 url of the webpage on the seller’s website where the product is sold
@@ -98,7 +98,7 @@ url of the webpage on the seller’s website where the product is sold
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:190551
+Defined in: main.ts:190957
 
 #### Parameters
 
@@ -116,7 +116,7 @@ Defined in: main.ts:190551
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:190571
+Defined in: main.ts:190977
 
 #### Parameters
 
@@ -134,7 +134,7 @@ Defined in: main.ts:190571
 
 > `static` **fromJS**(`data`): [`ProductVariation`](ProductVariation.md)
 
-Defined in: main.ts:190564
+Defined in: main.ts:190970
 
 #### Parameters
 

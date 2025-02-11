@@ -6,7 +6,7 @@
 
 # Interface: IMerchantAmazonSellersTaskPostRequestInfo
 
-Defined in: main.ts:195583
+Defined in: main.ts:196085
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:195583
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:195591
+Defined in: main.ts:196093
 
 unique product identifier on Amazon
 required field
@@ -34,7 +34,7 @@ learn more about the identifier in this help center guide
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:195636
+Defined in: main.ts:196138
 
 language code
 required field if you don’t specify language_name
@@ -49,7 +49,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:195629
+Defined in: main.ts:196131
 
 full name of the language
 required field if you don’t specify language_code
@@ -64,7 +64,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:195613
+Defined in: main.ts:196115
 
 location code
 required field if you don’t specify location_name or location_coordinate
@@ -79,7 +79,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:195622
+Defined in: main.ts:196124
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -96,7 +96,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:195606
+Defined in: main.ts:196108
 
 full name of the location
 required field if you don’t specify location_code or location_coordinate
@@ -111,7 +111,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:195677
+Defined in: main.ts:196179
 
 notification URL of a completed task
 optional field
@@ -130,7 +130,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:195666
+Defined in: main.ts:196168
 
 postback_url datatype
 required field if you specify postback_url
@@ -144,7 +144,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:195660
+Defined in: main.ts:196162
 
 return URL for sending task results
 optional field
@@ -163,7 +163,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:195599
+Defined in: main.ts:196101
 
 task priority
 optional field
@@ -179,7 +179,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:195643
+Defined in: main.ts:196145
 
 search engine domain
 optional field
@@ -194,7 +194,7 @@ amazon.co.uk, amazon.com.au, amazon.de, etc.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:195649
+Defined in: main.ts:196151
 
 user-defined task identifier
 optional field

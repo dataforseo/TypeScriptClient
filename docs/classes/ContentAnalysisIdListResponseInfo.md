@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisIdListResponseInfo
 
-Defined in: main.ts:176647
+Defined in: main.ts:177011
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:176647
 
 > **new ContentAnalysisIdListResponseInfo**(`data`?): [`ContentAnalysisIdListResponseInfo`](ContentAnalysisIdListResponseInfo.md)
 
-Defined in: main.ts:176653
+Defined in: main.ts:177017
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`ContentAnalysisIdListTaskInfo`](ContentAnalysisIdListTaskInfo.md)[]
 
-Defined in: main.ts:176649
+Defined in: main.ts:177013
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:176657
+Defined in: main.ts:177021
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:176657
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:176679
+Defined in: main.ts:177043
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:176679
 
 > `static` **fromJS**(`data`): [`ContentAnalysisIdListResponseInfo`](ContentAnalysisIdListResponseInfo.md)
 
-Defined in: main.ts:176672
+Defined in: main.ts:177036
 
 #### Parameters
 

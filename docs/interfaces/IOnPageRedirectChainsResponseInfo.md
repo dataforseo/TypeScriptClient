@@ -6,7 +6,7 @@
 
 # Interface: IOnPageRedirectChainsResponseInfo
 
-Defined in: main.ts:170305
+Defined in: main.ts:170469
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageRedirectChainsTaskInfo`](../classes/OnPageRedirectChainsTaskInfo.md)[]
 
-Defined in: main.ts:170307
+Defined in: main.ts:170471
 
 array of tasks
 

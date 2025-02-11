@@ -6,7 +6,7 @@
 
 # Class: WorkTime
 
-Defined in: main.ts:210994
+Defined in: main.ts:211496
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:210994
 
 > **new WorkTime**(`data`?): [`WorkTime`](WorkTime.md)
 
-Defined in: main.ts:211001
+Defined in: main.ts:211503
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:211001
 
 > `optional` **work\_hours**: [`WorkHours`](WorkHours.md)
 
-Defined in: main.ts:210997
+Defined in: main.ts:211499
 
 open hours
 information about work hours of the local establishment
@@ -55,7 +55,7 @@ information about work hours of the local establishment
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:211010
+Defined in: main.ts:211512
 
 #### Parameters
 
@@ -73,7 +73,7 @@ Defined in: main.ts:211010
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:211027
+Defined in: main.ts:211529
 
 #### Parameters
 
@@ -91,7 +91,7 @@ Defined in: main.ts:211027
 
 > `static` **fromJS**(`data`): [`WorkTime`](WorkTime.md)
 
-Defined in: main.ts:211020
+Defined in: main.ts:211522
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesAvailableFiltersTaskInfo
 
-Defined in: main.ts:85136
+Defined in: main.ts:85172
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:85136
 
 > **new DomainAnalyticsTechnologiesAvailableFiltersTaskInfo**(`data`?): [`DomainAnalyticsTechnologiesAvailableFiltersTaskInfo`](DomainAnalyticsTechnologiesAvailableFiltersTaskInfo.md)
 
-Defined in: main.ts:85141
+Defined in: main.ts:85177
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DomainAnalyticsTechnologiesAvailableFiltersResultInfo`](DomainAnalyticsTechnologiesAvailableFiltersResultInfo.md)[]
 
-Defined in: main.ts:85137
+Defined in: main.ts:85173
 
 #### Implementation of
 
@@ -212,7 +212,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:85145
+Defined in: main.ts:85181
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:85145
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:85167
+Defined in: main.ts:85203
 
 #### Parameters
 
@@ -256,7 +256,7 @@ Defined in: main.ts:85167
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesAvailableFiltersTaskInfo`](DomainAnalyticsTechnologiesAvailableFiltersTaskInfo.md)
 
-Defined in: main.ts:85160
+Defined in: main.ts:85196
 
 #### Parameters
 

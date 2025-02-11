@@ -6,7 +6,7 @@
 
 # Class: SerpBingOrganicTaskGetRegularTaskInfo
 
-Defined in: main.ts:64443
+Defined in: main.ts:64473
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:64443
 
 > **new SerpBingOrganicTaskGetRegularTaskInfo**(`data`?): [`SerpBingOrganicTaskGetRegularTaskInfo`](SerpBingOrganicTaskGetRegularTaskInfo.md)
 
-Defined in: main.ts:64449
+Defined in: main.ts:64479
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpBingOrganicTaskGetRegularResultInfo`](SerpBingOrganicTaskGetRegularResultInfo.md)[]
 
-Defined in: main.ts:64445
+Defined in: main.ts:64475
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:64453
+Defined in: main.ts:64483
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:64453
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:64475
+Defined in: main.ts:64505
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:64475
 
 > `static` **fromJS**(`data`): [`SerpBingOrganicTaskGetRegularTaskInfo`](SerpBingOrganicTaskGetRegularTaskInfo.md)
 
-Defined in: main.ts:64468
+Defined in: main.ts:64498
 
 #### Parameters
 

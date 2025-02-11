@@ -6,7 +6,7 @@
 
 # Interface: ISerpYahooLocationsTaskInfo
 
-Defined in: main.ts:74744
+Defined in: main.ts:74780
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpYahooLocationsResultInfo`](../classes/SerpYahooLocationsResultInfo.md)[]
 
-Defined in: main.ts:74746
+Defined in: main.ts:74782
 
 array of results
 

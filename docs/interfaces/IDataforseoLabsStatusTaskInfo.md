@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsStatusTaskInfo
 
-Defined in: main.ts:90436
+Defined in: main.ts:90472
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsStatusResultInfo`](../classes/DataforseoLabsStatusResultInfo.md)[]
 
-Defined in: main.ts:90438
+Defined in: main.ts:90474
 
 array of results
 

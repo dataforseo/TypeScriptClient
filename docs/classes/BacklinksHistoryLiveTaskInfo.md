@@ -6,7 +6,7 @@
 
 # Class: BacklinksHistoryLiveTaskInfo
 
-Defined in: main.ts:151290
+Defined in: main.ts:151454
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:151290
 
 > **new BacklinksHistoryLiveTaskInfo**(`data`?): [`BacklinksHistoryLiveTaskInfo`](BacklinksHistoryLiveTaskInfo.md)
 
-Defined in: main.ts:151296
+Defined in: main.ts:151460
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`BacklinksHistoryLiveResultInfo`](BacklinksHistoryLiveResultInfo.md)[]
 
-Defined in: main.ts:151292
+Defined in: main.ts:151456
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:151300
+Defined in: main.ts:151464
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:151300
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:151322
+Defined in: main.ts:151486
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:151322
 
 > `static` **fromJS**(`data`): [`BacklinksHistoryLiveTaskInfo`](BacklinksHistoryLiveTaskInfo.md)
 
-Defined in: main.ts:151315
+Defined in: main.ts:151479
 
 #### Parameters
 

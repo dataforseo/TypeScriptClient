@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataErrorsTaskInfo
 
-Defined in: main.ts:210006
+Defined in: main.ts:210508
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataErrorsResultInfo`](../classes/BusinessDataErrorsResultInfo.md)[]
 
-Defined in: main.ts:210008
+Defined in: main.ts:210510
 
 array of results
 

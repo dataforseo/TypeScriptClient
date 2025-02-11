@@ -6,7 +6,7 @@
 
 # Class: ImageResourceElementItem
 
-Defined in: main.ts:168271
+Defined in: main.ts:168435
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:168271
 
 > **new ImageResourceElementItem**(`data`?): [`ImageResourceElementItem`](ImageResourceElementItem.md)
 
-Defined in: main.ts:168287
+Defined in: main.ts:168451
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22339
 
 > `optional` **accept\_type**: `string`
 
-Defined in: main.ts:168283
+Defined in: main.ts:168447
 
 indicates the expected type of resource
 for example, if "resource_type": "broken", accept_type will indicate the type of the broken resource
@@ -176,7 +176,7 @@ example:
 
 > `optional` **fetch\_timing**: [`FetchTiming`](FetchTiming.md)
 
-Defined in: main.ts:168278
+Defined in: main.ts:168442
 
 resource fething time range
 
@@ -246,7 +246,7 @@ types of media used to display a page
 
 > `optional` **meta**: [`ResourceMetaInfo`](ResourceMetaInfo.md)
 
-Defined in: main.ts:168276
+Defined in: main.ts:168440
 
 resource properties
 the value depends on the resource_type
@@ -391,7 +391,7 @@ page URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:168292
+Defined in: main.ts:168456
 
 #### Parameters
 
@@ -413,7 +413,7 @@ Defined in: main.ts:168292
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:168312
+Defined in: main.ts:168476
 
 #### Parameters
 
@@ -435,7 +435,7 @@ Defined in: main.ts:168312
 
 > `static` **fromJS**(`data`): [`ImageResourceElementItem`](ImageResourceElementItem.md)
 
-Defined in: main.ts:168305
+Defined in: main.ts:168469
 
 #### Parameters
 

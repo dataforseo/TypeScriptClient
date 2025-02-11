@@ -6,7 +6,7 @@
 
 # Class: TopSightsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108629
+Defined in: main.ts:108685
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:108629
 
 > **new TopSightsDataforseoLabsSerpElementItem**(`data`?): [`TopSightsDataforseoLabsSerpElementItem`](TopSightsDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108637
+Defined in: main.ts:108693
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **items**: [`TopSightsElement`](TopSightsElement.md)[]
 
-Defined in: main.ts:108633
+Defined in: main.ts:108689
 
 elements of search results found in SERP
 
@@ -132,7 +132,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:108631
+Defined in: main.ts:108687
 
 title of the result in SERP
 
@@ -182,7 +182,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:108642
+Defined in: main.ts:108698
 
 #### Parameters
 
@@ -204,7 +204,7 @@ Defined in: main.ts:108642
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:108665
+Defined in: main.ts:108721
 
 #### Parameters
 
@@ -226,7 +226,7 @@ Defined in: main.ts:108665
 
 > `static` **fromJS**(`data`): [`TopSightsDataforseoLabsSerpElementItem`](TopSightsDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108658
+Defined in: main.ts:108714
 
 #### Parameters
 

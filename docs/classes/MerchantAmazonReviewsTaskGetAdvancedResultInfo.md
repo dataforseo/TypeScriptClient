@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonReviewsTaskGetAdvancedResultInfo
 
-Defined in: main.ts:197366
+Defined in: main.ts:197868
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:197366
 
 > **new MerchantAmazonReviewsTaskGetAdvancedResultInfo**(`data`?): [`MerchantAmazonReviewsTaskGetAdvancedResultInfo`](MerchantAmazonReviewsTaskGetAdvancedResultInfo.md)
 
-Defined in: main.ts:197412
+Defined in: main.ts:197914
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:197412
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:197368
+Defined in: main.ts:197870
 
 asin received in a POST array
 
@@ -54,7 +54,7 @@ asin received in a POST array
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:197379
+Defined in: main.ts:197881
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -69,7 +69,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:197384
+Defined in: main.ts:197886
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -86,7 +86,7 @@ example:
 
 > `optional` **image**: [`ImagesElement`](ImagesElement.md)
 
-Defined in: main.ts:197392
+Defined in: main.ts:197894
 
 product image data
 
@@ -100,7 +100,7 @@ product image data
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:197402
+Defined in: main.ts:197904
 
 type of search results in Amazon SERP
 contains types of search results (items) found in Amazon SERP;
@@ -117,7 +117,7 @@ amazon_review_item
 
 > `optional` **items**: [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)[]
 
-Defined in: main.ts:197408
+Defined in: main.ts:197910
 
 found reviews
 you can get more results by using the depth parameter when setting a task
@@ -132,7 +132,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:197405
+Defined in: main.ts:197907
 
 the number of reviews items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -147,7 +147,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:197376
+Defined in: main.ts:197878
 
 language code in a POST array
 
@@ -161,7 +161,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:197374
+Defined in: main.ts:197876
 
 location code in a POST array
 
@@ -175,7 +175,7 @@ location code in a POST array
 
 > `optional` **rating**: [`RatingElement`](RatingElement.md)
 
-Defined in: main.ts:197395
+Defined in: main.ts:197897
 
 rating of the product on Amazon
 popularity rate based on reviews and displayed in SERP
@@ -190,7 +190,7 @@ popularity rate based on reviews and displayed in SERP
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:197397
+Defined in: main.ts:197899
 
 the total number of reviews
 
@@ -204,7 +204,7 @@ the total number of reviews
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:197372
+Defined in: main.ts:197874
 
 search engine domain in a POST array
 
@@ -218,7 +218,7 @@ search engine domain in a POST array
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:197387
+Defined in: main.ts:197889
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -233,7 +233,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:197390
+Defined in: main.ts:197892
 
 title of the product on Amazon
 the title of the product for which the reviews are collected
@@ -248,7 +248,7 @@ the title of the product for which the reviews are collected
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:197370
+Defined in: main.ts:197872
 
 type of element
 
@@ -262,7 +262,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:197421
+Defined in: main.ts:197923
 
 #### Parameters
 
@@ -280,7 +280,7 @@ Defined in: main.ts:197421
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:197460
+Defined in: main.ts:197962
 
 #### Parameters
 
@@ -298,7 +298,7 @@ Defined in: main.ts:197460
 
 > `static` **fromJS**(`data`): [`MerchantAmazonReviewsTaskGetAdvancedResultInfo`](MerchantAmazonReviewsTaskGetAdvancedResultInfo.md)
 
-Defined in: main.ts:197453
+Defined in: main.ts:197955
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleMapsLiveAdvancedRequestInfo
 
-Defined in: main.ts:42289
+Defined in: main.ts:42305
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:42289
 
 > **new SerpGoogleMapsLiveAdvancedRequestInfo**(`data`?): [`SerpGoogleMapsLiveAdvancedRequestInfo`](SerpGoogleMapsLiveAdvancedRequestInfo.md)
 
-Defined in: main.ts:42405
+Defined in: main.ts:42421
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:42405
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:42373
+Defined in: main.ts:42389
 
 parsing depth
 optional field
@@ -61,7 +61,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:42350
+Defined in: main.ts:42366
 
 device type
 optional field
@@ -79,7 +79,7 @@ note: for mobile device, only 20 results are returned for every SERP
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:42305
+Defined in: main.ts:42321
 
 keyword
 required field
@@ -87,7 +87,7 @@ you can specify up to 700 characters in the keyword field
 all %## will be decoded (plus character ‘+’ will be decoded to a space character)
 if you need to use the “%” character for your keyword, please specify it as “%25”;
 if you need to use the “+” character for your keyword, please specify it as “%2B”;
-if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’, ‘-site:’, the charge per task will be multiplied by 5
+if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’, the charge per task will be multiplied by 5
 Note: queries containing the ‘cache:’ parameter are not supported and will return a validation error
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
@@ -101,7 +101,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:42344
+Defined in: main.ts:42360
 
 search engine language code
 required field if you don’t specify language_name
@@ -120,7 +120,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:42337
+Defined in: main.ts:42353
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -139,7 +139,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:42319
+Defined in: main.ts:42335
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -158,7 +158,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:42330
+Defined in: main.ts:42346
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -181,7 +181,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:42312
+Defined in: main.ts:42328
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -200,7 +200,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:42380
+Defined in: main.ts:42396
 
 page crawl limit
 optional field
@@ -219,7 +219,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:42357
+Defined in: main.ts:42373
 
 device operating system
 optional field
@@ -238,7 +238,7 @@ default value: android
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:42364
+Defined in: main.ts:42380
 
 search engine domain
 optional field
@@ -257,7 +257,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **search\_places**: `boolean`
 
-Defined in: main.ts:42395
+Defined in: main.ts:42411
 
 search places mode
 optional field
@@ -277,7 +277,7 @@ Note: if the search_places mode is turned off and no results were found in the s
 
 > `optional` **search\_this\_area**: `boolean`
 
-Defined in: main.ts:42387
+Defined in: main.ts:42403
 
 search this area
 optional field
@@ -296,7 +296,7 @@ Note: if the search_this_area mode is turned off, Google Maps listings might con
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:42401
+Defined in: main.ts:42417
 
 user-defined task identifier
 optional field
@@ -314,7 +314,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:42295
+Defined in: main.ts:42311
 
 direct URL of the search query
 optional field
@@ -332,7 +332,7 @@ https://google.com/maps/search/pizza/@37.09024,-95.712891,4z
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:42414
+Defined in: main.ts:42430
 
 #### Parameters
 
@@ -350,7 +350,7 @@ Defined in: main.ts:42414
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:42445
+Defined in: main.ts:42461
 
 #### Parameters
 
@@ -368,7 +368,7 @@ Defined in: main.ts:42445
 
 > `static` **fromJS**(`data`): [`SerpGoogleMapsLiveAdvancedRequestInfo`](SerpGoogleMapsLiveAdvancedRequestInfo.md)
 
-Defined in: main.ts:42438
+Defined in: main.ts:42454
 
 #### Parameters
 

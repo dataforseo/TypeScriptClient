@@ -6,7 +6,7 @@
 
 # Class: SerpBaiduOrganicTaskPostResponseInfo
 
-Defined in: main.ts:79269
+Defined in: main.ts:79305
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:79269
 
 > **new SerpBaiduOrganicTaskPostResponseInfo**(`data`?): [`SerpBaiduOrganicTaskPostResponseInfo`](SerpBaiduOrganicTaskPostResponseInfo.md)
 
-Defined in: main.ts:79275
+Defined in: main.ts:79311
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpBaiduOrganicTaskPostTaskInfo`](SerpBaiduOrganicTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:79271
+Defined in: main.ts:79307
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:79279
+Defined in: main.ts:79315
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:79279
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:79301
+Defined in: main.ts:79337
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:79301
 
 > `static` **fromJS**(`data`): [`SerpBaiduOrganicTaskPostResponseInfo`](SerpBaiduOrganicTaskPostResponseInfo.md)
 
-Defined in: main.ts:79294
+Defined in: main.ts:79330
 
 #### Parameters
 

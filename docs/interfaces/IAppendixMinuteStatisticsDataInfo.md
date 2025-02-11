@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixMinuteStatisticsDataInfo
+[Documentation](../README.md) / IAppendixMinuteStatisticsDataInfo
 
 # Interface: IAppendixMinuteStatisticsDataInfo
 
+Defined in: main.ts:235505
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,13 +18,7 @@
 
 > `optional` **app\_data**: [`AppendixAppDataLimitsRatesDataInfo`](../classes/AppendixAppDataLimitsRatesDataInfo.md)
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219906
-=======
-main.ts:219939
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235526
 
 ***
 
@@ -30,13 +26,7 @@ main.ts:219939
 
 > `optional` **appendix**: [`AppendixAppendixsRatesDataInfo`](../classes/AppendixAppendixsRatesDataInfo.md)
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219892
-=======
-main.ts:219925
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235512
 
 ***
 
@@ -44,13 +34,7 @@ main.ts:219925
 
 > `optional` **backlinks**: [`AppendixBacklinksLimitsRatesDataInfo`](../classes/AppendixBacklinksLimitsRatesDataInfo.md)
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219904
-=======
-main.ts:219937
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235524
 
 ***
 
@@ -58,13 +42,7 @@ main.ts:219937
 
 > `optional` **business\_data**: [`AppendixBusinessDataLimitsRatesDataInfo`](../classes/AppendixBusinessDataLimitsRatesDataInfo.md)
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219902
-=======
-main.ts:219935
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235522
 
 ***
 
@@ -72,13 +50,7 @@ main.ts:219935
 
 > `optional` **content\_analysis**: [`AppendixContentAnalysisLimitsRatesDataInfo`](../classes/AppendixContentAnalysisLimitsRatesDataInfo.md)
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219908
-=======
-main.ts:219941
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235528
 
 ***
 
@@ -86,13 +58,7 @@ main.ts:219941
 
 > `optional` **content\_generation**: [`AppendixContentGenerationLimitsRatesDataInfo`](../classes/AppendixContentGenerationLimitsRatesDataInfo.md)
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219910
-=======
-main.ts:219943
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235530
 
 ***
 
@@ -100,13 +66,7 @@ main.ts:219943
 
 > `optional` **dataforseo\_labs**: [`AppendixDataforseoLabsLimitsRatesDataInfo`](../classes/AppendixDataforseoLabsLimitsRatesDataInfo.md)
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219894
-=======
-main.ts:219927
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235514
 
 ***
 
@@ -114,13 +74,7 @@ main.ts:219927
 
 > `optional` **domain\_analytics**: [`AppendixDomainAnalyticsLimitsRatesDataInfo`](../classes/AppendixDomainAnalyticsLimitsRatesDataInfo.md)
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219896
-=======
-main.ts:219929
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235516
 
 ***
 
@@ -128,13 +82,7 @@ main.ts:219929
 
 > `optional` **keywords\_data**: [`AppendixKeywordsDatasRatesDataInfo`](../classes/AppendixKeywordsDatasRatesDataInfo.md)
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219890
-=======
-main.ts:219923
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235510
 
 ***
 
@@ -142,13 +90,7 @@ main.ts:219923
 
 > `optional` **merchant**: [`AppendixMerchantLimitsRatesDataInfo`](../classes/AppendixMerchantLimitsRatesDataInfo.md)
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219898
-=======
-main.ts:219931
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235518
 
 ***
 
@@ -156,13 +98,7 @@ main.ts:219931
 
 > `optional` **on\_page**: [`AppendixOnPageLimitsRatesDataInfo`](../classes/AppendixOnPageLimitsRatesDataInfo.md)
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219900
-=======
-main.ts:219933
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235520
 
 ***
 
@@ -170,13 +106,7 @@ main.ts:219933
 
 > `optional` **serp**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219886
-=======
-main.ts:219919
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235506
 
 ***
 
@@ -184,15 +114,9 @@ main.ts:219919
 
 > `optional` **total**: `number`
 
+Defined in: main.ts:235508
+
 total amount of money deposited to your account
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219888
-=======
-main.ts:219921
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -200,13 +124,7 @@ main.ts:219921
 
 > `optional` **total\_app\_data**: `number`
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219907
-=======
-main.ts:219940
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235527
 
 ***
 
@@ -214,13 +132,7 @@ main.ts:219940
 
 > `optional` **total\_appendix**: `number`
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219893
-=======
-main.ts:219926
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235513
 
 ***
 
@@ -228,13 +140,7 @@ main.ts:219926
 
 > `optional` **total\_backlinks**: `number`
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219905
-=======
-main.ts:219938
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235525
 
 ***
 
@@ -242,13 +148,7 @@ main.ts:219938
 
 > `optional` **total\_business\_data**: `number`
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219903
-=======
-main.ts:219936
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235523
 
 ***
 
@@ -256,13 +156,7 @@ main.ts:219936
 
 > `optional` **total\_content\_analysis**: `number`
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219909
-=======
-main.ts:219942
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235529
 
 ***
 
@@ -270,13 +164,7 @@ main.ts:219942
 
 > `optional` **total\_content\_generation**: `number`
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219911
-=======
-main.ts:219944
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235531
 
 ***
 
@@ -284,13 +172,7 @@ main.ts:219944
 
 > `optional` **total\_dataforseo\_labs**: `number`
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219895
-=======
-main.ts:219928
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235515
 
 ***
 
@@ -298,13 +180,7 @@ main.ts:219928
 
 > `optional` **total\_domain\_analytics**: `number`
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219897
-=======
-main.ts:219930
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235517
 
 ***
 
@@ -312,13 +188,7 @@ main.ts:219930
 
 > `optional` **total\_keywords\_data**: `number`
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219891
-=======
-main.ts:219924
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235511
 
 ***
 
@@ -326,13 +196,7 @@ main.ts:219924
 
 > `optional` **total\_merchant**: `number`
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219899
-=======
-main.ts:219932
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235519
 
 ***
 
@@ -340,13 +204,7 @@ main.ts:219932
 
 > `optional` **total\_on\_page**: `number`
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219901
-=======
-main.ts:219934
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235521
 
 ***
 
@@ -354,13 +212,7 @@ main.ts:219934
 
 > `optional` **total\_serp**: `number`
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219889
-=======
-main.ts:219922
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235509
 
 ***
 
@@ -368,14 +220,8 @@ main.ts:219922
 
 > `optional` **value**: `string`
 
+Defined in: main.ts:235535
+
 time period for grouping
 day in the yyyy-MM-dd format
 minute in the yyyy-MM-dd HH:mm format
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219915
-=======
-main.ts:219948
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

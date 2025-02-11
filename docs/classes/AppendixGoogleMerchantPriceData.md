@@ -6,7 +6,7 @@
 
 # Class: AppendixGoogleMerchantPriceData
 
-Defined in: main.ts:237082
+Defined in: main.ts:237446
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:237082
 
 > **new AppendixGoogleMerchantPriceData**(`data`?): [`AppendixGoogleMerchantPriceData`](AppendixGoogleMerchantPriceData.md)
 
-Defined in: main.ts:237090
+Defined in: main.ts:237454
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:237090
 
 > `optional` **product\_info**: [`AppendixPriceDataInfo`](AppendixPriceDataInfo.md)
 
-Defined in: main.ts:237083
+Defined in: main.ts:237447
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:237083
 
 > `optional` **product\_spec**: [`AppendixProductGoogleMerchantPriceDataInfo`](AppendixProductGoogleMerchantPriceDataInfo.md)
 
-Defined in: main.ts:237084
+Defined in: main.ts:237448
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:237084
 
 > `optional` **products**: [`AppendixProductGoogleMerchantPriceDataInfo`](AppendixProductGoogleMerchantPriceDataInfo.md)
 
-Defined in: main.ts:237085
+Defined in: main.ts:237449
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:237085
 
 > `optional` **sellers**: [`AppendixSellersGoogleMerchantPriceData`](AppendixSellersGoogleMerchantPriceData.md)
 
-Defined in: main.ts:237086
+Defined in: main.ts:237450
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:237086
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:237099
+Defined in: main.ts:237463
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:237099
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:237119
+Defined in: main.ts:237483
 
 #### Parameters
 
@@ -124,7 +124,7 @@ Defined in: main.ts:237119
 
 > `static` **fromJS**(`data`): [`AppendixGoogleMerchantPriceData`](AppendixGoogleMerchantPriceData.md)
 
-Defined in: main.ts:237112
+Defined in: main.ts:237476
 
 #### Parameters
 

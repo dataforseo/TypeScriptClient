@@ -6,7 +6,7 @@
 
 # Class: OnPageRedirectChainsRequestInfo
 
-Defined in: main.ts:169870
+Defined in: main.ts:170034
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:169870
 
 > **new OnPageRedirectChainsRequestInfo**(`data`?): [`OnPageRedirectChainsRequestInfo`](OnPageRedirectChainsRequestInfo.md)
 
-Defined in: main.ts:169912
+Defined in: main.ts:170076
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:169912
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:169902
+Defined in: main.ts:170066
 
 array of results filtering parameters
 optional field
@@ -63,7 +63,7 @@ examples:
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:169876
+Defined in: main.ts:170040
 
 ID of the task
 required field
@@ -81,7 +81,7 @@ example:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:169886
+Defined in: main.ts:170050
 
 the maximum number of returned redirect chains
 optional field
@@ -98,7 +98,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:169891
+Defined in: main.ts:170055
 
 offset in the results array of returned redirect chains
 optional field
@@ -115,7 +115,7 @@ if you specify the 10 value, the first ten redirect chains in the results array 
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:169908
+Defined in: main.ts:170072
 
 user-defined task identifier
 optional field
@@ -133,7 +133,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:169881
+Defined in: main.ts:170045
 
 page URL
 optional field
@@ -150,7 +150,7 @@ if you use this field, the API response will return only redirect chains which c
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:169921
+Defined in: main.ts:170085
 
 #### Parameters
 
@@ -168,7 +168,7 @@ Defined in: main.ts:169921
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:169947
+Defined in: main.ts:170111
 
 #### Parameters
 
@@ -186,7 +186,7 @@ Defined in: main.ts:169947
 
 > `static` **fromJS**(`data`): [`OnPageRedirectChainsRequestInfo`](OnPageRedirectChainsRequestInfo.md)
 
-Defined in: main.ts:169940
+Defined in: main.ts:170104
 
 #### Parameters
 

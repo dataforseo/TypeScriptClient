@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleLanguagesTaskInfo
 
-Defined in: main.ts:199172
+Defined in: main.ts:199674
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:199172
 
 > **new AppDataGoogleLanguagesTaskInfo**(`data`?): [`AppDataGoogleLanguagesTaskInfo`](AppDataGoogleLanguagesTaskInfo.md)
 
-Defined in: main.ts:199178
+Defined in: main.ts:199680
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`AppDataGoogleLanguagesResultInfo`](AppDataGoogleLanguagesResultInfo.md)[]
 
-Defined in: main.ts:199174
+Defined in: main.ts:199676
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:199182
+Defined in: main.ts:199684
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:199182
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:199204
+Defined in: main.ts:199706
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:199204
 
 > `static` **fromJS**(`data`): [`AppDataGoogleLanguagesTaskInfo`](AppDataGoogleLanguagesTaskInfo.md)
 
-Defined in: main.ts:199197
+Defined in: main.ts:199699
 
 #### Parameters
 

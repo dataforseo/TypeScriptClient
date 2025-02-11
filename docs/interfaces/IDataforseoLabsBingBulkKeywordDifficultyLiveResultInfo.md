@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo
 
-Defined in: main.ts:115511
+Defined in: main.ts:115579
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:115511
 
 > `optional` **items**: [`DataforseoLabsBulkKeywordDifficultyLiveItem`](../classes/DataforseoLabsBulkKeywordDifficultyLiveItem.md)[]
 
-Defined in: main.ts:115525
+Defined in: main.ts:115593
 
 contains keywords and related keyword difficulty scores
 
@@ -28,7 +28,7 @@ contains keywords and related keyword difficulty scores
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:115523
+Defined in: main.ts:115591
 
 the number of results returned in the items array
 
@@ -38,7 +38,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:115519
+Defined in: main.ts:115587
 
 language code in a POST array
 if there is no data, then the value is null
@@ -49,7 +49,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:115516
+Defined in: main.ts:115584
 
 location code in a POST array
 if there is no data, then the value is null
@@ -60,7 +60,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:115513
+Defined in: main.ts:115581
 
 search engine type
 
@@ -70,6 +70,6 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:115521
+Defined in: main.ts:115589
 
 total amount of results in our database relevant to your request

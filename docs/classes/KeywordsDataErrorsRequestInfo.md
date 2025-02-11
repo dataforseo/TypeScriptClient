@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataErrorsRequestInfo
 
-Defined in: main.ts:125622
+Defined in: main.ts:125738
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:125622
 
 > **new KeywordsDataErrorsRequestInfo**(`data`?): [`KeywordsDataErrorsRequestInfo`](KeywordsDataErrorsRequestInfo.md)
 
-Defined in: main.ts:125656
+Defined in: main.ts:125772
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:125656
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:125645
+Defined in: main.ts:125761
 
 start time for filtering results
 optional field
@@ -59,7 +59,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:125652
+Defined in: main.ts:125768
 
 finish time for filtering results
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:125638
+Defined in: main.ts:125754
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -96,7 +96,7 @@ example: keywords_data/keywords_for_site/task_post, postback_url, pingback_url
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:125627
+Defined in: main.ts:125743
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -113,7 +113,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:125632
+Defined in: main.ts:125748
 
 offset in the results array of returned tasks
 optional field
@@ -130,7 +130,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:125665
+Defined in: main.ts:125781
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:125665
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:125686
+Defined in: main.ts:125802
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: main.ts:125686
 
 > `static` **fromJS**(`data`): [`KeywordsDataErrorsRequestInfo`](KeywordsDataErrorsRequestInfo.md)
 
-Defined in: main.ts:125679
+Defined in: main.ts:125795
 
 #### Parameters
 

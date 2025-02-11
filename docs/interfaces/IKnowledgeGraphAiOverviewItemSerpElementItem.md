@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphAiOverviewItemSerpElementItem
 
-Defined in: main.ts:31000
+Defined in: main.ts:31006
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:31000
 
 > `optional` **asynchronous\_ai\_overview**: `boolean`
 
-Defined in: main.ts:31004
+Defined in: main.ts:31010
 
 indicates whether the element is loaded asynchronically
 if true, the ai_overview element is loaded asynchronically;
@@ -34,7 +34,7 @@ if false, the ai_overview element is loaded from cache;
 
 > `optional` **items**: [`AiOverviewElement`](../classes/AiOverviewElement.md)[]
 
-Defined in: main.ts:31007
+Defined in: main.ts:31013
 
 additional items present in the element
 if there are none, equals null
@@ -92,7 +92,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:31014
+Defined in: main.ts:31020
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -104,7 +104,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **references**: [`AiOverviewReference`](../classes/AiOverviewReference.md)[]
 
-Defined in: main.ts:31010
+Defined in: main.ts:31016
 
 additional references relevant to the item
 includes references to webpages that may have been used to generate the ai_overview

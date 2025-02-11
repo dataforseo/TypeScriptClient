@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAppleBulkAppMetricsLiveTaskInfo
 
-Defined in: main.ts:123482
+Defined in: main.ts:123598
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsAppleBulkAppMetricsLiveResultInfo`](../classes/DataforseoLabsAppleBulkAppMetricsLiveResultInfo.md)[]
 
-Defined in: main.ts:123484
+Defined in: main.ts:123600
 
 array of results
 

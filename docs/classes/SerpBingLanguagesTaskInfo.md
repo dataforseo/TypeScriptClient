@@ -6,7 +6,7 @@
 
 # Class: SerpBingLanguagesTaskInfo
 
-Defined in: main.ts:63245
+Defined in: main.ts:63273
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:63245
 
 > **new SerpBingLanguagesTaskInfo**(`data`?): [`SerpBingLanguagesTaskInfo`](SerpBingLanguagesTaskInfo.md)
 
-Defined in: main.ts:63251
+Defined in: main.ts:63279
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpBingLanguagesResultInfo`](SerpBingLanguagesResultInfo.md)[]
 
-Defined in: main.ts:63247
+Defined in: main.ts:63275
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:63255
+Defined in: main.ts:63283
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:63255
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:63277
+Defined in: main.ts:63305
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:63277
 
 > `static` **fromJS**(`data`): [`SerpBingLanguagesTaskInfo`](SerpBingLanguagesTaskInfo.md)
 
-Defined in: main.ts:63270
+Defined in: main.ts:63298
 
 #### Parameters
 

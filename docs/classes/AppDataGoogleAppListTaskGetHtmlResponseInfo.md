@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppListTaskGetHtmlResponseInfo
 
-Defined in: main.ts:201425
+Defined in: main.ts:201927
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:201425
 
 > **new AppDataGoogleAppListTaskGetHtmlResponseInfo**(`data`?): [`AppDataGoogleAppListTaskGetHtmlResponseInfo`](AppDataGoogleAppListTaskGetHtmlResponseInfo.md)
 
-Defined in: main.ts:201431
+Defined in: main.ts:201933
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataGoogleAppListTaskGetHtmlTaskInfo`](AppDataGoogleAppListTaskGetHtmlTaskInfo.md)[]
 
-Defined in: main.ts:201427
+Defined in: main.ts:201929
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:201435
+Defined in: main.ts:201937
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:201435
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:201457
+Defined in: main.ts:201959
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:201457
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppListTaskGetHtmlResponseInfo`](AppDataGoogleAppListTaskGetHtmlResponseInfo.md)
 
-Defined in: main.ts:201450
+Defined in: main.ts:201952
 
 #### Parameters
 

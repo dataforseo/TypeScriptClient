@@ -6,7 +6,7 @@
 
 # Class: AppDataGooglePlayReviewsSearchSerpElementItem
 
-Defined in: main.ts:203498
+Defined in: main.ts:204000
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:203498
 
 > **new AppDataGooglePlayReviewsSearchSerpElementItem**(`data`?): [`AppDataGooglePlayReviewsSearchSerpElementItem`](AppDataGooglePlayReviewsSearchSerpElementItem.md)
 
-Defined in: main.ts:203521
+Defined in: main.ts:204023
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22886
 
 > `optional` **helpful\_count**: `number`
 
-Defined in: main.ts:203511
+Defined in: main.ts:204013
 
 number of helpful votes
 indicates how many users considered the review helpful and voted with the thumbs up icon
@@ -75,7 +75,7 @@ indicates how many users considered the review helpful and voted with the thumbs
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:203508
+Defined in: main.ts:204010
 
 id of the review
 
@@ -165,7 +165,7 @@ average rating of the app
 
 > `optional` **responses**: [`ResponseDataInfo`](ResponseDataInfo.md)[]
 
-Defined in: main.ts:203517
+Defined in: main.ts:204019
 
 response from the developer
 
@@ -179,7 +179,7 @@ response from the developer
 
 > `optional` **review\_text**: `string`
 
-Defined in: main.ts:203513
+Defined in: main.ts:204015
 
 content of the review
 
@@ -193,7 +193,7 @@ content of the review
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:203506
+Defined in: main.ts:204008
 
 date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -246,7 +246,7 @@ type of element
 
 > `optional` **user\_profile**: [`AppUserProfileInfo`](AppUserProfileInfo.md)
 
-Defined in: main.ts:203515
+Defined in: main.ts:204017
 
 user profile of the reviewer
 
@@ -260,7 +260,7 @@ user profile of the reviewer
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:203501
+Defined in: main.ts:204003
 
 version of the app
 version of the app for which the review is submitted
@@ -275,7 +275,7 @@ version of the app for which the review is submitted
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:203526
+Defined in: main.ts:204028
 
 #### Parameters
 
@@ -297,7 +297,7 @@ Defined in: main.ts:203526
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:203554
+Defined in: main.ts:204056
 
 #### Parameters
 
@@ -319,7 +319,7 @@ Defined in: main.ts:203554
 
 > `static` **fromJS**(`data`): [`AppDataGooglePlayReviewsSearchSerpElementItem`](AppDataGooglePlayReviewsSearchSerpElementItem.md)
 
-Defined in: main.ts:203547
+Defined in: main.ts:204049
 
 #### Parameters
 

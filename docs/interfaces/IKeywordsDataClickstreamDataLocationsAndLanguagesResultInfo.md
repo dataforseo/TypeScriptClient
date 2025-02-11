@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo
 
-Defined in: main.ts:147485
+Defined in: main.ts:147649
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:147485
 
 > `optional` **available\_languages**: [`AvailableLanguages`](../classes/AvailableLanguages.md)[]
 
-Defined in: main.ts:147501
+Defined in: main.ts:147665
 
 supported languages
 contains the languages which are supported for a specific location
@@ -29,7 +29,7 @@ contains the languages which are supported for a specific location
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:147494
+Defined in: main.ts:147658
 
 ISO country code of the location
 
@@ -39,7 +39,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:147487
+Defined in: main.ts:147651
 
 location code
 
@@ -49,7 +49,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:147492
+Defined in: main.ts:147656
 
 the code of the superordinate location
 the value will be null as Country is the only supported location_type for this API
@@ -60,7 +60,7 @@ the value will be null as Country is the only supported location_type for this A
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:147489
+Defined in: main.ts:147653
 
 full name of the location
 
@@ -70,7 +70,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:147498
+Defined in: main.ts:147662
 
 location type
 possible values:

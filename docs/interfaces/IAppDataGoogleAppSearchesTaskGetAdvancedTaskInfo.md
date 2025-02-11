@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleAppSearchesTaskGetAdvancedTaskInfo
 
-Defined in: main.ts:200186
+Defined in: main.ts:200688
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`AppDataGoogleAppSearchesTaskGetAdvancedResultInfo`](../classes/AppDataGoogleAppSearchesTaskGetAdvancedResultInfo.md)[]
 
-Defined in: main.ts:200188
+Defined in: main.ts:200690
 
 array of results
 

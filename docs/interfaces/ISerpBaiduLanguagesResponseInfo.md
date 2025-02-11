@@ -6,7 +6,7 @@
 
 # Interface: ISerpBaiduLanguagesResponseInfo
 
-Defined in: main.ts:78889
+Defined in: main.ts:78925
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpBaiduLanguagesTaskInfo`](../classes/SerpBaiduLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:78891
+Defined in: main.ts:78927
 
 array of tasks
 

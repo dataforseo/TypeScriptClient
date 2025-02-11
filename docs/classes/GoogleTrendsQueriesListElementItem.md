@@ -6,7 +6,7 @@
 
 # Class: GoogleTrendsQueriesListElementItem
 
-Defined in: main.ts:134551
+Defined in: main.ts:134691
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:134551
 
 > **new GoogleTrendsQueriesListElementItem**(`data`?): [`GoogleTrendsQueriesListElementItem`](GoogleTrendsQueriesListElementItem.md)
 
-Defined in: main.ts:134557
+Defined in: main.ts:134697
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22707
 
 > `optional` **data**: [`QueriesListDataInfo`](QueriesListDataInfo.md)
 
-Defined in: main.ts:134553
+Defined in: main.ts:134693
 
 Google Trends data from the corresponding item
 
@@ -148,7 +148,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:134562
+Defined in: main.ts:134702
 
 #### Parameters
 
@@ -170,7 +170,7 @@ Defined in: main.ts:134562
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:134580
+Defined in: main.ts:134720
 
 #### Parameters
 
@@ -192,7 +192,7 @@ Defined in: main.ts:134580
 
 > `static` **fromJS**(`data`): [`GoogleTrendsQueriesListElementItem`](GoogleTrendsQueriesListElementItem.md)
 
-Defined in: main.ts:134573
+Defined in: main.ts:134713
 
 #### Parameters
 

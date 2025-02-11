@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataBusinessListingsCategoriesAggregationLiveTaskInfo
 
-Defined in: main.ts:212376
+Defined in: main.ts:212878
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo`](../classes/BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo.md)[]
 
-Defined in: main.ts:212378
+Defined in: main.ts:212880
 
 array of results
 

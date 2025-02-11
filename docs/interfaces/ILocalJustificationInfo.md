@@ -6,7 +6,7 @@
 
 # Interface: ILocalJustificationInfo
 
-Defined in: main.ts:41610
+Defined in: main.ts:41626
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:41610
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:41614
+Defined in: main.ts:41630
 
 text snippet of local justification
 
@@ -28,6 +28,6 @@ text snippet of local justification
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:41612
+Defined in: main.ts:41628
 
 type of element

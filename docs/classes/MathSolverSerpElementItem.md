@@ -6,7 +6,7 @@
 
 # Class: MathSolverSerpElementItem
 
-Defined in: main.ts:36309
+Defined in: main.ts:36325
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:36309
 
 > **new MathSolverSerpElementItem**(`data`?): [`MathSolverSerpElementItem`](MathSolverSerpElementItem.md)
 
-Defined in: main.ts:36326
+Defined in: main.ts:36342
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`MathSolverElement`](MathSolverElement.md)[]
 
-Defined in: main.ts:36316
+Defined in: main.ts:36332
 
 contains arrays of specific images
 
@@ -74,7 +74,7 @@ contains arrays of specific images
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:36318
+Defined in: main.ts:36334
 
 link of the element
 
@@ -147,7 +147,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:36322
+Defined in: main.ts:36338
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -163,7 +163,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **result**: `string`
 
-Defined in: main.ts:36314
+Defined in: main.ts:36330
 
 solution to the equation
 solution to the mathematical equation specified in the keyword field when setting a task
@@ -178,7 +178,7 @@ solution to the mathematical equation specified in the keyword field when settin
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:36311
+Defined in: main.ts:36327
 
 title of the row
 
@@ -228,7 +228,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:36331
+Defined in: main.ts:36347
 
 #### Parameters
 
@@ -250,7 +250,7 @@ Defined in: main.ts:36331
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:36361
+Defined in: main.ts:36377
 
 #### Parameters
 
@@ -272,7 +272,7 @@ Defined in: main.ts:36361
 
 > `static` **fromJS**(`data`): [`MathSolverSerpElementItem`](MathSolverSerpElementItem.md)
 
-Defined in: main.ts:36354
+Defined in: main.ts:36370
 
 #### Parameters
 

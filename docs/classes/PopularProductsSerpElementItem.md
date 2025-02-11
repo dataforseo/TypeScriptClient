@@ -6,7 +6,7 @@
 
 # Class: PopularProductsSerpElementItem
 
-Defined in: main.ts:34733
+Defined in: main.ts:34749
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:34733
 
 > **new PopularProductsSerpElementItem**(`data`?): [`PopularProductsSerpElementItem`](PopularProductsSerpElementItem.md)
 
-Defined in: main.ts:34745
+Defined in: main.ts:34761
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`PopularProductsElement`](PopularProductsElement.md)[]
 
-Defined in: main.ts:34737
+Defined in: main.ts:34753
 
 contains arrays of specific images
 
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:34741
+Defined in: main.ts:34757
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -149,7 +149,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:34735
+Defined in: main.ts:34751
 
 title of the row
 
@@ -199,7 +199,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:34750
+Defined in: main.ts:34766
 
 #### Parameters
 
@@ -221,7 +221,7 @@ Defined in: main.ts:34750
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:34774
+Defined in: main.ts:34790
 
 #### Parameters
 
@@ -243,7 +243,7 @@ Defined in: main.ts:34774
 
 > `static` **fromJS**(`data`): [`PopularProductsSerpElementItem`](PopularProductsSerpElementItem.md)
 
-Defined in: main.ts:34767
+Defined in: main.ts:34783
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: GoogleBusinessPostBusinessDataSerpElementItem
 
-Defined in: main.ts:215690
+Defined in: main.ts:216192
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:215690
 
 > **new GoogleBusinessPostBusinessDataSerpElementItem**(`data`?): [`GoogleBusinessPostBusinessDataSerpElementItem`](GoogleBusinessPostBusinessDataSerpElementItem.md)
 
-Defined in: main.ts:215720
+Defined in: main.ts:216222
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22211
 
 > `optional` **author**: `string`
 
-Defined in: main.ts:215697
+Defined in: main.ts:216199
 
 author of the post
 
@@ -74,7 +74,7 @@ author of the post
 
 > `optional` **images\_url**: `string`
 
-Defined in: main.ts:215705
+Defined in: main.ts:216207
 
 url of an image included in the post
 
@@ -88,7 +88,7 @@ url of an image included in the post
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:215716
+Defined in: main.ts:216218
 
 links included in the post
 
@@ -102,7 +102,7 @@ links included in the post
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:215693
+Defined in: main.ts:216195
 
 the alignment of the element in SERP
 can take the following values: right
@@ -117,7 +117,7 @@ can take the following values: right
 
 > `optional` **post\_date**: `string`
 
-Defined in: main.ts:215709
+Defined in: main.ts:216211
 
 date when a post was published
 in the following format:
@@ -133,7 +133,7 @@ in the following format:
 
 > `optional` **post\_text**: `string`
 
-Defined in: main.ts:215701
+Defined in: main.ts:216203
 
 main content of a post
 
@@ -184,7 +184,7 @@ positions of elements with different type values are omitted from the rank_group
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:215699
+Defined in: main.ts:216201
 
 additional content of a post
 
@@ -198,7 +198,7 @@ additional content of a post
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:215714
+Defined in: main.ts:216216
 
 time when a post was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -233,7 +233,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:215703
+Defined in: main.ts:216205
 
 url of a post
 
@@ -247,7 +247,7 @@ url of a post
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:215695
+Defined in: main.ts:216197
 
 the XPath of the element
 
@@ -261,7 +261,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:215725
+Defined in: main.ts:216227
 
 #### Parameters
 
@@ -283,7 +283,7 @@ Defined in: main.ts:215725
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:215756
+Defined in: main.ts:216258
 
 #### Parameters
 
@@ -305,7 +305,7 @@ Defined in: main.ts:215756
 
 > `static` **fromJS**(`data`): [`GoogleBusinessPostBusinessDataSerpElementItem`](GoogleBusinessPostBusinessDataSerpElementItem.md)
 
-Defined in: main.ts:215749
+Defined in: main.ts:216251
 
 #### Parameters
 

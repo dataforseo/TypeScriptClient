@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkNewLostBacklinksLiveRequestInfo
 
-Defined in: main.ts:161646
+Defined in: main.ts:161810
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:161646
 
 > **new BacklinksBulkNewLostBacklinksLiveRequestInfo**(`data`?): [`BacklinksBulkNewLostBacklinksLiveRequestInfo`](BacklinksBulkNewLostBacklinksLiveRequestInfo.md)
 
-Defined in: main.ts:161688
+Defined in: main.ts:161852
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:161688
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:161678
+Defined in: main.ts:161842
 
 starting date of the time range
 optional field
@@ -65,7 +65,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:161684
+Defined in: main.ts:161848
 
 user-defined task identifier
 optional field
@@ -83,7 +83,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:161665
+Defined in: main.ts:161829
 
 domains, subdomains or webpages to get new & lost backlinks for
 required field
@@ -114,7 +114,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:161697
+Defined in: main.ts:161861
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:161697
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:161720
+Defined in: main.ts:161884
 
 #### Parameters
 
@@ -150,7 +150,7 @@ Defined in: main.ts:161720
 
 > `static` **fromJS**(`data`): [`BacklinksBulkNewLostBacklinksLiveRequestInfo`](BacklinksBulkNewLostBacklinksLiveRequestInfo.md)
 
-Defined in: main.ts:161713
+Defined in: main.ts:161877
 
 #### Parameters
 

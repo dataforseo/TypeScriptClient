@@ -6,7 +6,7 @@
 
 # Interface: IGoogleShoppingSerpMerchantSerpElementItem
 
-Defined in: main.ts:186442
+Defined in: main.ts:186804
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:186442
 
 > `optional` **additional\_specifications**: `object`
 
-Defined in: main.ts:186487
+Defined in: main.ts:186849
 
 object containing additional url parameters
 you can get more details about the product by using this object in the POST request to the Google Shopping Product Specification and Google Shopping Sellers endpoint
@@ -37,7 +37,7 @@ you can get more details about the product by using this object in the POST requ
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:186469
+Defined in: main.ts:186831
 
 currency in the ISO format
 example:
@@ -49,7 +49,7 @@ USD
 
 > `optional` **data\_docid**: `string`
 
-Defined in: main.ts:186481
+Defined in: main.ts:186843
 
 unique identifier of the SERP data element
 note that there is no full list of possible values as the data_docid is a dynamic value assigned by Google
@@ -62,7 +62,7 @@ example:
 
 > `optional` **delivery\_info**: [`DeliveryInfo`](../classes/DeliveryInfo.md)
 
-Defined in: main.ts:186510
+Defined in: main.ts:186872
 
 delivery information
 delivery information including free and fast delivery date ranges
@@ -73,7 +73,7 @@ delivery information including free and fast delivery date ranges
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:186450
+Defined in: main.ts:186812
 
 description of the product in Google Shopping SERP
 
@@ -83,7 +83,7 @@ description of the product in Google Shopping SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:186446
+Defined in: main.ts:186808
 
 domain in SERP
 
@@ -93,7 +93,7 @@ domain in SERP
 
 > `optional` **is\_best\_match**: `boolean`
 
-Defined in: main.ts:186495
+Defined in: main.ts:186857
 
 “best match” label
 if the value is true, the product is marked with the “best match” label
@@ -105,7 +105,7 @@ if there are no values, you will get null
 
 > `optional` **old\_price**: `number`
 
-Defined in: main.ts:186465
+Defined in: main.ts:186827
 
 product old price
 displayed if the product price has been changed
@@ -134,7 +134,7 @@ left, right
 
 > `optional` **price**: `number`
 
-Defined in: main.ts:186460
+Defined in: main.ts:186822
 
 product price
 example:
@@ -146,7 +146,7 @@ example:
 
 > `optional` **product\_id**: `string`
 
-Defined in: main.ts:186476
+Defined in: main.ts:186838
 
 unique product identifier on Google Shopping
 note that there is no full list of possible values as the product_id is a dynamic value assigned by Google
@@ -161,7 +161,7 @@ learn more about the parameter in this help center guide
 
 > `optional` **product\_images**: `string`[]
 
-Defined in: main.ts:186504
+Defined in: main.ts:186866
 
 URLs to the images of the product
 the first URL in the array is the featured image of the product
@@ -172,7 +172,7 @@ the first URL in the array is the featured image of the product
 
 > `optional` **product\_rating**: [`RatingElement`](../classes/RatingElement.md)
 
-Defined in: main.ts:186498
+Defined in: main.ts:186860
 
 product rating
 the product popularity rate based on product reviews
@@ -213,7 +213,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:186491
+Defined in: main.ts:186853
 
 number of product reviews
 indicates the number of reviews left by users on Google Shopping
@@ -225,7 +225,7 @@ if there are no values, you will get null
 
 > `optional` **seller**: `string`
 
-Defined in: main.ts:186484
+Defined in: main.ts:186846
 
 name of the seller
 the name of the company that placed a corresponding product on Google Shopping
@@ -236,7 +236,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 > `optional` **shop\_ad\_aclk**: `string`
 
-Defined in: main.ts:186507
+Defined in: main.ts:186869
 
 unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL
@@ -247,7 +247,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 > `optional` **shop\_rating**: [`RatingElement`](../classes/RatingElement.md)
 
-Defined in: main.ts:186501
+Defined in: main.ts:186863
 
 shop rating
 the popularity rate of the seller based on user reviews
@@ -258,7 +258,7 @@ the popularity rate of the seller based on user reviews
 
 > `optional` **shopping\_url**: `string`
 
-Defined in: main.ts:186454
+Defined in: main.ts:186816
 
 URL to the product page on Google Shopping
 
@@ -268,7 +268,7 @@ URL to the product page on Google Shopping
 
 > `optional` **stores\_count\_info**: [`StoresCountInfo`](../classes/StoresCountInfo.md)
 
-Defined in: main.ts:186513
+Defined in: main.ts:186875
 
 stores count information
 contains information about the number of stores that offer the same product
@@ -279,7 +279,7 @@ contains information about the number of stores that offer the same product
 
 > `optional` **tags**: `string`[]
 
-Defined in: main.ts:186456
+Defined in: main.ts:186818
 
 tags assigned to the product
 
@@ -289,7 +289,7 @@ tags assigned to the product
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:186448
+Defined in: main.ts:186810
 
 title of the element
 
@@ -313,7 +313,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:186452
+Defined in: main.ts:186814
 
 URL to the product page on the seller’s website
 
@@ -323,6 +323,6 @@ URL to the product page on the seller’s website
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:186444
+Defined in: main.ts:186806
 
 XPath of the element

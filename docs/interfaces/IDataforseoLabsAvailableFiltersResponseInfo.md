@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAvailableFiltersResponseInfo
 
-Defined in: main.ts:91334
+Defined in: main.ts:91370
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsAvailableFiltersTaskInfo`](../classes/DataforseoLabsAvailableFiltersTaskInfo.md)[]
 
-Defined in: main.ts:91335
+Defined in: main.ts:91371
 
 ***
 

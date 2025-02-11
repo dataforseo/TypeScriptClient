@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataErrorsResponseInfo
 
-Defined in: main.ts:210061
+Defined in: main.ts:210563
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BusinessDataErrorsTaskInfo`](../classes/BusinessDataErrorsTaskInfo.md)[]
 
-Defined in: main.ts:210063
+Defined in: main.ts:210565
 
 array of tasks
 

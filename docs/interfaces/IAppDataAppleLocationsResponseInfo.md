@@ -6,7 +6,7 @@
 
 # Interface: IAppDataAppleLocationsResponseInfo
 
-Defined in: main.ts:205095
+Defined in: main.ts:205597
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataAppleLocationsTaskInfo`](../classes/AppDataAppleLocationsTaskInfo.md)[]
 
-Defined in: main.ts:205097
+Defined in: main.ts:205599
 
 array of tasks
 

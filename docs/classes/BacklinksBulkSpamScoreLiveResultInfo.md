@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkSpamScoreLiveResultInfo
 
-Defined in: main.ts:161114
+Defined in: main.ts:161278
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:161114
 
 > **new BacklinksBulkSpamScoreLiveResultInfo**(`data`?): [`BacklinksBulkSpamScoreLiveResultInfo`](BacklinksBulkSpamScoreLiveResultInfo.md)
 
-Defined in: main.ts:161122
+Defined in: main.ts:161286
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:161122
 
 > `optional` **items**: [`BacklinksBulkSpamScoreLiveItem`](BacklinksBulkSpamScoreLiveItem.md)[]
 
-Defined in: main.ts:161118
+Defined in: main.ts:161282
 
 contains relevant backlinks and referring domains data
 
@@ -54,7 +54,7 @@ contains relevant backlinks and referring domains data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:161116
+Defined in: main.ts:161280
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:161131
+Defined in: main.ts:161295
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:161131
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:161153
+Defined in: main.ts:161317
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:161153
 
 > `static` **fromJS**(`data`): [`BacklinksBulkSpamScoreLiveResultInfo`](BacklinksBulkSpamScoreLiveResultInfo.md)
 
-Defined in: main.ts:161146
+Defined in: main.ts:161310
 
 #### Parameters
 

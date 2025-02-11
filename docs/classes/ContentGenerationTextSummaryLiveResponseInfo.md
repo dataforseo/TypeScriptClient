@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationTextSummaryLiveResponseInfo
 
-Defined in: main.ts:183787
+Defined in: main.ts:184149
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:183787
 
 > **new ContentGenerationTextSummaryLiveResponseInfo**(`data`?): [`ContentGenerationTextSummaryLiveResponseInfo`](ContentGenerationTextSummaryLiveResponseInfo.md)
 
-Defined in: main.ts:183793
+Defined in: main.ts:184155
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`ContentGenerationTextSummaryLiveTaskInfo`](ContentGenerationTextSummaryLiveTaskInfo.md)[]
 
-Defined in: main.ts:183789
+Defined in: main.ts:184151
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:183797
+Defined in: main.ts:184159
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:183797
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:183819
+Defined in: main.ts:184181
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:183819
 
 > `static` **fromJS**(`data`): [`ContentGenerationTextSummaryLiveResponseInfo`](ContentGenerationTextSummaryLiveResponseInfo.md)
 
-Defined in: main.ts:183812
+Defined in: main.ts:184174
 
 #### Parameters
 

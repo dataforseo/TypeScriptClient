@@ -6,7 +6,7 @@
 
 # Interface: IMerchantAmazonLanguagesTaskInfo
 
-Defined in: main.ts:191666
+Defined in: main.ts:192072
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`MerchantAmazonLanguagesResultInfo`](../classes/MerchantAmazonLanguagesResultInfo.md)[]
 
-Defined in: main.ts:191668
+Defined in: main.ts:192074
 
 array of results
 

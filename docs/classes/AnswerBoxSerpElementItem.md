@@ -6,7 +6,7 @@
 
 # Class: AnswerBoxSerpElementItem
 
-Defined in: main.ts:33281
+Defined in: main.ts:33289
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:33281
 
 > **new AnswerBoxSerpElementItem**(`data`?): [`AnswerBoxSerpElementItem`](AnswerBoxSerpElementItem.md)
 
-Defined in: main.ts:33294
+Defined in: main.ts:33302
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:33286
+Defined in: main.ts:33294
 
 link of the element
 
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:33290
+Defined in: main.ts:33298
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -149,7 +149,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **text**: `string`[]
 
-Defined in: main.ts:33284
+Defined in: main.ts:33292
 
 text
 if there is none, equals null
@@ -200,7 +200,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:33299
+Defined in: main.ts:33307
 
 #### Parameters
 
@@ -222,7 +222,7 @@ Defined in: main.ts:33299
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:33327
+Defined in: main.ts:33335
 
 #### Parameters
 
@@ -244,7 +244,7 @@ Defined in: main.ts:33327
 
 > `static` **fromJS**(`data`): [`AnswerBoxSerpElementItem`](AnswerBoxSerpElementItem.md)
 
-Defined in: main.ts:33320
+Defined in: main.ts:33328
 
 #### Parameters
 

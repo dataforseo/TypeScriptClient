@@ -6,7 +6,7 @@
 
 # Interface: IAppendixContentGenerationDayLimitsRatesDataInfo
 
-Defined in: main.ts:232565
+Defined in: main.ts:233085
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:232565
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:232567
+Defined in: main.ts:233087
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: main.ts:232567
 
 > `optional` **live**: `number`
 
-Defined in: main.ts:232566
+Defined in: main.ts:233086

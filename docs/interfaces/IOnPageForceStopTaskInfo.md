@@ -6,7 +6,7 @@
 
 # Interface: IOnPageForceStopTaskInfo
 
-Defined in: main.ts:163784
+Defined in: main.ts:163948
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:163786
+Defined in: main.ts:163950
 
 array of results
 

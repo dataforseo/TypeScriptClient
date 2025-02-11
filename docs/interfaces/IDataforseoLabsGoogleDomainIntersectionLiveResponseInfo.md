@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleDomainIntersectionLiveResponseInfo
 
-Defined in: main.ts:103819
+Defined in: main.ts:103859
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsGoogleDomainIntersectionLiveTaskInfo`](../classes/DataforseoLabsGoogleDomainIntersectionLiveTaskInfo.md)[]
 
-Defined in: main.ts:103821
+Defined in: main.ts:103861
 
 array of tasks
 

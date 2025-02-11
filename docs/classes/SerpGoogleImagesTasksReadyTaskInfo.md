@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleImagesTasksReadyTaskInfo
 
-Defined in: main.ts:50407
+Defined in: main.ts:50423
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:50407
 
 > **new SerpGoogleImagesTasksReadyTaskInfo**(`data`?): [`SerpGoogleImagesTasksReadyTaskInfo`](SerpGoogleImagesTasksReadyTaskInfo.md)
 
-Defined in: main.ts:50413
+Defined in: main.ts:50429
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleImagesTasksReadyResultInfo`](SerpGoogleImagesTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:50409
+Defined in: main.ts:50425
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:50417
+Defined in: main.ts:50433
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:50417
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:50439
+Defined in: main.ts:50455
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:50439
 
 > `static` **fromJS**(`data`): [`SerpGoogleImagesTasksReadyTaskInfo`](SerpGoogleImagesTasksReadyTaskInfo.md)
 
-Defined in: main.ts:50432
+Defined in: main.ts:50448
 
 #### Parameters
 

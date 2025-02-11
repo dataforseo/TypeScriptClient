@@ -6,7 +6,7 @@
 
 # Interface: IAmazonSerpElement
 
-Defined in: main.ts:192716
+Defined in: main.ts:193122
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:192716
 
 > `optional` **bought\_past\_month**: `number`
 
-Defined in: main.ts:192730
+Defined in: main.ts:193136
 
 number of product purchases in the past month
 
@@ -28,7 +28,7 @@ number of product purchases in the past month
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:192742
+Defined in: main.ts:193148
 
 currency in the ISO format
 example:
@@ -40,7 +40,7 @@ USD
 
 > `optional` **data\_asin**: `string`
 
-Defined in: main.ts:192750
+Defined in: main.ts:193156
 
 unique product identifier on Amazon
 note that there is no full list of possible values as the data_asin is a dynamic value assigned by Amazon
@@ -53,7 +53,7 @@ B07G82D89J
 
 > `optional` **delivery\_info**: [`AmazonDeliveryInfo`](../classes/AmazonDeliveryInfo.md)
 
-Defined in: main.ts:192761
+Defined in: main.ts:193167
 
 delivery information
 delivery information including free and fast delivery date ranges
@@ -64,7 +64,7 @@ delivery information including free and fast delivery date ranges
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:192722
+Defined in: main.ts:193128
 
 Amazon domain
 
@@ -74,7 +74,7 @@ Amazon domain
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:192728
+Defined in: main.ts:193134
 
 URL of the product image featured in the results
 
@@ -84,7 +84,7 @@ URL of the product image featured in the results
 
 > `optional` **is\_amazon\_choice**: `boolean`
 
-Defined in: main.ts:192755
+Defined in: main.ts:193161
 
 “Amazon’s choice” label
 if the value is true, the product is marked with the “Amazon’s choice” label
@@ -95,7 +95,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 > `optional` **is\_best\_seller**: `boolean`
 
-Defined in: main.ts:192758
+Defined in: main.ts:193164
 
 “Best Seller” label
 if the value is true, the product is marked with the “Best Seller” label
@@ -106,7 +106,7 @@ if the value is true, the product is marked with the “Best Seller” label
 
 > `optional` **price\_from**: `number`
 
-Defined in: main.ts:192734
+Defined in: main.ts:193140
 
 the regular price of a product
 example:
@@ -118,7 +118,7 @@ example:
 
 > `optional` **price\_to**: `number`
 
-Defined in: main.ts:192738
+Defined in: main.ts:193144
 
 the upper limit of the product price range
 example:
@@ -130,7 +130,7 @@ example:
 
 > `optional` **rating**: [`RatingElement`](../classes/RatingElement.md)
 
-Defined in: main.ts:192752
+Defined in: main.ts:193158
 
 product rating info
 
@@ -140,7 +140,7 @@ product rating info
 
 > `optional` **special\_offers**: `string`[]
 
-Defined in: main.ts:192745
+Defined in: main.ts:193151
 
 special offer details
 contains special offer details, including coupon and Subscribe & Save discounts
@@ -151,7 +151,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:192724
+Defined in: main.ts:193130
 
 product title
 
@@ -161,7 +161,7 @@ product title
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:192718
+Defined in: main.ts:193124
 
 type of element
 
@@ -171,7 +171,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:192726
+Defined in: main.ts:193132
 
 the URL of the product page
 
@@ -181,6 +181,6 @@ the URL of the product page
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:192720
+Defined in: main.ts:193126
 
 the XPath of the element

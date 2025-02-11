@@ -6,7 +6,7 @@
 
 # Interface: IMerchantGoogleSellersAdUrlTaskInfo
 
-Defined in: main.ts:191116
+Defined in: main.ts:191522
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`MerchantGoogleSellersAdUrlResultInfo`](../classes/MerchantGoogleSellersAdUrlResultInfo.md)[]
 
-Defined in: main.ts:191118
+Defined in: main.ts:191524
 
 array of results
 

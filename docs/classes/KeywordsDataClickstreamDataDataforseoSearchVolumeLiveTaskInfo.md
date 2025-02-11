@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataClickstreamDataDataforseoSearchVolumeLiveTaskInfo
 
-Defined in: main.ts:147940
+Defined in: main.ts:148104
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:147940
 
 > **new KeywordsDataClickstreamDataDataforseoSearchVolumeLiveTaskInfo**(`data`?): [`KeywordsDataClickstreamDataDataforseoSearchVolumeLiveTaskInfo`](KeywordsDataClickstreamDataDataforseoSearchVolumeLiveTaskInfo.md)
 
-Defined in: main.ts:147946
+Defined in: main.ts:148110
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo`](KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo.md)[]
 
-Defined in: main.ts:147942
+Defined in: main.ts:148106
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:147950
+Defined in: main.ts:148114
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:147950
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:147972
+Defined in: main.ts:148136
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:147972
 
 > `static` **fromJS**(`data`): [`KeywordsDataClickstreamDataDataforseoSearchVolumeLiveTaskInfo`](KeywordsDataClickstreamDataDataforseoSearchVolumeLiveTaskInfo.md)
 
-Defined in: main.ts:147965
+Defined in: main.ts:148129
 
 #### Parameters
 

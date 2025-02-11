@@ -6,7 +6,7 @@
 
 # Class: SerpYahooLocationsCountryResponseInfo
 
-Defined in: main.ts:74949
+Defined in: main.ts:74985
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:74949
 
 > **new SerpYahooLocationsCountryResponseInfo**(`data`?): [`SerpYahooLocationsCountryResponseInfo`](SerpYahooLocationsCountryResponseInfo.md)
 
-Defined in: main.ts:74955
+Defined in: main.ts:74991
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpYahooLocationsCountryTaskInfo`](SerpYahooLocationsCountryTaskInfo.md)[]
 
-Defined in: main.ts:74951
+Defined in: main.ts:74987
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:74959
+Defined in: main.ts:74995
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:74959
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:74981
+Defined in: main.ts:75017
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:74981
 
 > `static` **fromJS**(`data`): [`SerpYahooLocationsCountryResponseInfo`](SerpYahooLocationsCountryResponseInfo.md)
 
-Defined in: main.ts:74974
+Defined in: main.ts:75010
 
 #### Parameters
 

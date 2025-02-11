@@ -6,7 +6,7 @@
 
 # Interface: IJobsSerpElementItem
 
-Defined in: main.ts:32670
+Defined in: main.ts:32678
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:32670
 
 > `optional` **items**: [`JobsElement`](../classes/JobsElement.md)[]
 
-Defined in: main.ts:32676
+Defined in: main.ts:32684
 
 contains arrays of specific images
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:32680
+Defined in: main.ts:32688
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -91,7 +91,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:32672
+Defined in: main.ts:32680
 
 title of the row
 
@@ -115,7 +115,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:32674
+Defined in: main.ts:32682
 
 source URL
 

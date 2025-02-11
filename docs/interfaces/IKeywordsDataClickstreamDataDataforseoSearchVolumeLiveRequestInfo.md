@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo
 
-Defined in: main.ts:147723
+Defined in: main.ts:147887
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:147723
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:147732
+Defined in: main.ts:147896
 
 target keywords
 required field
@@ -35,7 +35,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:147756
+Defined in: main.ts:147920
 
 search engine language code
 required field if don’t specify language_name
@@ -49,7 +49,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:147750
+Defined in: main.ts:147914
 
 full name of search engine language
 required field if don’t specify language_code
@@ -63,7 +63,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:147744
+Defined in: main.ts:147908
 
 search engine location code
 required field if you don’t specify location_name
@@ -77,7 +77,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:147738
+Defined in: main.ts:147902
 
 full name of search engine location
 required field if you don’t specify location_code 
@@ -91,7 +91,7 @@ London,England,United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:147769
+Defined in: main.ts:147933
 
 user-defined task identifier
 optional field
@@ -105,7 +105,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **use\_clickstream**: `boolean`
 
-Defined in: main.ts:147763
+Defined in: main.ts:147927
 
 use clickstream data to provide results
 optional field

@@ -6,7 +6,7 @@
 
 # Class: VisualStoriesSerpElementItem
 
-Defined in: main.ts:35693
+Defined in: main.ts:35709
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:35693
 
 > **new VisualStoriesSerpElementItem**(`data`?): [`VisualStoriesSerpElementItem`](VisualStoriesSerpElementItem.md)
 
-Defined in: main.ts:35703
+Defined in: main.ts:35719
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`LicensesElement`](LicensesElement.md)[]
 
-Defined in: main.ts:35695
+Defined in: main.ts:35711
 
 contains arrays of specific images
 
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:35699
+Defined in: main.ts:35715
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -185,7 +185,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:35708
+Defined in: main.ts:35724
 
 #### Parameters
 
@@ -207,7 +207,7 @@ Defined in: main.ts:35708
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:35731
+Defined in: main.ts:35747
 
 #### Parameters
 
@@ -229,7 +229,7 @@ Defined in: main.ts:35731
 
 > `static` **fromJS**(`data`): [`VisualStoriesSerpElementItem`](VisualStoriesSerpElementItem.md)
 
-Defined in: main.ts:35724
+Defined in: main.ts:35740
 
 #### Parameters
 

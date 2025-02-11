@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationCheckGrammarLiveResponseInfo
 
-Defined in: main.ts:183093
+Defined in: main.ts:183455
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:183093
 
 > **new ContentGenerationCheckGrammarLiveResponseInfo**(`data`?): [`ContentGenerationCheckGrammarLiveResponseInfo`](ContentGenerationCheckGrammarLiveResponseInfo.md)
 
-Defined in: main.ts:183099
+Defined in: main.ts:183461
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`ContentGenerationCheckGrammarLiveTaskInfo`](ContentGenerationCheckGrammarLiveTaskInfo.md)[]
 
-Defined in: main.ts:183095
+Defined in: main.ts:183457
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:183103
+Defined in: main.ts:183465
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:183103
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:183125
+Defined in: main.ts:183487
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:183125
 
 > `static` **fromJS**(`data`): [`ContentGenerationCheckGrammarLiveResponseInfo`](ContentGenerationCheckGrammarLiveResponseInfo.md)
 
-Defined in: main.ts:183118
+Defined in: main.ts:183480
 
 #### Parameters
 

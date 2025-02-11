@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataGoogleAdsSearchVolumeTaskPostTaskInfo
 
-Defined in: main.ts:127061
+Defined in: main.ts:127177
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:127064
+Defined in: main.ts:127180
 
 array of results
 in this case, the value will be null

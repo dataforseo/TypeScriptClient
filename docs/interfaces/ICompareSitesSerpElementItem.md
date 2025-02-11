@@ -6,7 +6,7 @@
 
 # Interface: ICompareSitesSerpElementItem
 
-Defined in: main.ts:37872
+Defined in: main.ts:37888
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:37872
 
 > `optional` **items**: [`CompareSitesElement`](../classes/CompareSitesElement.md)[]
 
-Defined in: main.ts:37876
+Defined in: main.ts:37892
 
 contains arrays of specific images
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:37880
+Defined in: main.ts:37896
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -91,7 +91,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:37874
+Defined in: main.ts:37890
 
 title of the row
 

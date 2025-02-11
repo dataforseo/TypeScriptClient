@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo
 
-Defined in: main.ts:144439
+Defined in: main.ts:144603
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesTaskInfo`](../classes/KeywordsDataBingKeywordPerformanceLocationsAndLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:144441
+Defined in: main.ts:144605
 
 array of tasks
 

@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleLocalFinderTaskPostTaskInfo
 
-Defined in: main.ts:43220
+Defined in: main.ts:43236
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:43223
+Defined in: main.ts:43239
 
 array of results
 in this case, the value will be null

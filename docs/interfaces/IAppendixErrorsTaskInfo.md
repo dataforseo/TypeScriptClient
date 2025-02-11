@@ -6,7 +6,7 @@
 
 # Interface: IAppendixErrorsTaskInfo
 
-Defined in: main.ts:239200
+Defined in: main.ts:239628
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`AppendixErrorsResultInfo`](../classes/AppendixErrorsResultInfo.md)[]
 
-Defined in: main.ts:239202
+Defined in: main.ts:239630
 
 array of results
 

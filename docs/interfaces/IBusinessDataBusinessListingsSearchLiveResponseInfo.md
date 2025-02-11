@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataBusinessListingsSearchLiveResponseInfo
 
-Defined in: main.ts:211825
+Defined in: main.ts:212327
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BusinessDataBusinessListingsSearchLiveTaskInfo`](../classes/BusinessDataBusinessListingsSearchLiveTaskInfo.md)[]
 
-Defined in: main.ts:211827
+Defined in: main.ts:212329
 
 array of tasks
 

@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAmazonProductRankOverviewLiveTaskInfo
 
-Defined in: main.ts:114110
+Defined in: main.ts:114178
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsAmazonProductRankOverviewLiveResultInfo`](../classes/DataforseoLabsAmazonProductRankOverviewLiveResultInfo.md)[]
 
-Defined in: main.ts:114112
+Defined in: main.ts:114180
 
 array of results
 

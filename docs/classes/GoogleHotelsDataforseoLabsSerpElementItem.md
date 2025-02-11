@@ -6,7 +6,7 @@
 
 # Class: GoogleHotelsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:109269
+Defined in: main.ts:109325
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:109269
 
 > **new GoogleHotelsDataforseoLabsSerpElementItem**(`data`?): [`GoogleHotelsDataforseoLabsSerpElementItem`](GoogleHotelsDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:109279
+Defined in: main.ts:109335
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **hotel\_identifier**: `string`
 
-Defined in: main.ts:109273
+Defined in: main.ts:109329
 
 unique hotel identifier
 unique hotel identifier assigned by Google;
@@ -152,7 +152,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:109275
+Defined in: main.ts:109331
 
 relevant URL of the Ad element in SERP
 
@@ -184,7 +184,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:109284
+Defined in: main.ts:109340
 
 #### Parameters
 
@@ -206,7 +206,7 @@ Defined in: main.ts:109284
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:109303
+Defined in: main.ts:109359
 
 #### Parameters
 
@@ -228,7 +228,7 @@ Defined in: main.ts:109303
 
 > `static` **fromJS**(`data`): [`GoogleHotelsDataforseoLabsSerpElementItem`](GoogleHotelsDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:109296
+Defined in: main.ts:109352
 
 #### Parameters
 

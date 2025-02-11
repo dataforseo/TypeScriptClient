@@ -6,7 +6,7 @@
 
 # Interface: IOnPageDuplicateContentTaskInfo
 
-Defined in: main.ts:169236
+Defined in: main.ts:169400
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`OnPageDuplicateContentResultInfo`](../classes/OnPageDuplicateContentResultInfo.md)[]
 
-Defined in: main.ts:169238
+Defined in: main.ts:169402
 
 array of results
 

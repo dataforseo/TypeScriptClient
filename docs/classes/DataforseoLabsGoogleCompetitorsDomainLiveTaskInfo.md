@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleCompetitorsDomainLiveTaskInfo
 
-Defined in: main.ts:103098
+Defined in: main.ts:103138
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:103098
 
 > **new DataforseoLabsGoogleCompetitorsDomainLiveTaskInfo**(`data`?): [`DataforseoLabsGoogleCompetitorsDomainLiveTaskInfo`](DataforseoLabsGoogleCompetitorsDomainLiveTaskInfo.md)
 
-Defined in: main.ts:103104
+Defined in: main.ts:103144
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleCompetitorsDomainLiveResultInfo`](DataforseoLabsGoogleCompetitorsDomainLiveResultInfo.md)[]
 
-Defined in: main.ts:103100
+Defined in: main.ts:103140
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:103108
+Defined in: main.ts:103148
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:103108
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:103130
+Defined in: main.ts:103170
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:103130
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleCompetitorsDomainLiveTaskInfo`](DataforseoLabsGoogleCompetitorsDomainLiveTaskInfo.md)
 
-Defined in: main.ts:103123
+Defined in: main.ts:103163
 
 #### Parameters
 

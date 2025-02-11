@@ -6,7 +6,7 @@
 
 # Class: HtmlContentInfo
 
-Defined in: main.ts:166028
+Defined in: main.ts:166192
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:166028
 
 > **new HtmlContentInfo**(`data`?): [`HtmlContentInfo`](HtmlContentInfo.md)
 
-Defined in: main.ts:166058
+Defined in: main.ts:166222
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:166058
 
 > `optional` **automated\_readability\_index**: `number`
 
-Defined in: main.ts:166037
+Defined in: main.ts:166201
 
 Automated Readability Index
 
@@ -54,7 +54,7 @@ Automated Readability Index
 
 > `optional` **coleman\_liau\_readability\_index**: `number`
 
-Defined in: main.ts:166039
+Defined in: main.ts:166203
 
 Coleman–Liau Index
 
@@ -68,7 +68,7 @@ Coleman–Liau Index
 
 > `optional` **dale\_chall\_readability\_index**: `number`
 
-Defined in: main.ts:166041
+Defined in: main.ts:166205
 
 Dale–Chall Readability Index
 
@@ -82,7 +82,7 @@ Dale–Chall Readability Index
 
 > `optional` **description\_to\_content\_consistency**: `number`
 
-Defined in: main.ts:166048
+Defined in: main.ts:166212
 
 consistency of the meta description tag with the page content
 measured from 0 to 1
@@ -97,7 +97,7 @@ measured from 0 to 1
 
 > `optional` **flesch\_kincaid\_readability\_index**: `number`
 
-Defined in: main.ts:166043
+Defined in: main.ts:166207
 
 Flesch–Kincaid Readability Index
 
@@ -111,7 +111,7 @@ Flesch–Kincaid Readability Index
 
 > `optional` **meta\_keywords\_to\_content\_consistency**: `number`
 
-Defined in: main.ts:166054
+Defined in: main.ts:166218
 
 consistency of meta keywordstag with the page content
 measured from 0 to 1
@@ -126,7 +126,7 @@ measured from 0 to 1
 
 > `optional` **plain\_text\_rate**: `number`
 
-Defined in: main.ts:166033
+Defined in: main.ts:166197
 
 plaintext rate value
 plain_text_size to size ratio
@@ -141,7 +141,7 @@ plain_text_size to size ratio
 
 > `optional` **plain\_text\_size**: `number`
 
-Defined in: main.ts:166030
+Defined in: main.ts:166194
 
 total size of the text on the page measured in bytes
 
@@ -155,7 +155,7 @@ total size of the text on the page measured in bytes
 
 > `optional` **plain\_text\_word\_count**: `number`
 
-Defined in: main.ts:166035
+Defined in: main.ts:166199
 
 number of words on the page
 
@@ -169,7 +169,7 @@ number of words on the page
 
 > `optional` **smog\_readability\_index**: `number`
 
-Defined in: main.ts:166045
+Defined in: main.ts:166209
 
 SMOG Readability Index
 
@@ -183,7 +183,7 @@ SMOG Readability Index
 
 > `optional` **title\_to\_content\_consistency**: `number`
 
-Defined in: main.ts:166051
+Defined in: main.ts:166215
 
 consistency of the meta title tag with the page content
 measured from 0 to 1
@@ -198,7 +198,7 @@ measured from 0 to 1
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:166067
+Defined in: main.ts:166231
 
 #### Parameters
 
@@ -216,7 +216,7 @@ Defined in: main.ts:166067
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:166094
+Defined in: main.ts:166258
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:166094
 
 > `static` **fromJS**(`data`): [`HtmlContentInfo`](HtmlContentInfo.md)
 
-Defined in: main.ts:166087
+Defined in: main.ts:166251
 
 #### Parameters
 

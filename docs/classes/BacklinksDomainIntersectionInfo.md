@@ -6,7 +6,7 @@
 
 # Class: BacklinksDomainIntersectionInfo
 
-Defined in: main.ts:157644
+Defined in: main.ts:157808
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:157644
 
 > **new BacklinksDomainIntersectionInfo**(`data`?): [`BacklinksDomainIntersectionInfo`](BacklinksDomainIntersectionInfo.md)
 
-Defined in: main.ts:157714
+Defined in: main.ts:157878
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:157714
 
 > `optional` **backlinks**: `number`
 
-Defined in: main.ts:157655
+Defined in: main.ts:157819
 
 indicates the number of backlinks
 
@@ -54,7 +54,7 @@ indicates the number of backlinks
 
 > `optional` **backlinks\_spam\_score**: `number`
 
-Defined in: main.ts:157669
+Defined in: main.ts:157833
 
 average spam score of the backlinks pointing to the target
 learn more about how the metric is calculated on this help center page
@@ -69,7 +69,7 @@ learn more about how the metric is calculated on this help center page
 
 > `optional` **broken\_backlinks**: `number`
 
-Defined in: main.ts:157671
+Defined in: main.ts:157835
 
 number of broken backlinks
 
@@ -83,7 +83,7 @@ number of broken backlinks
 
 > `optional` **broken\_pages**: `number`
 
-Defined in: main.ts:157673
+Defined in: main.ts:157837
 
 number of broken pages
 
@@ -97,7 +97,7 @@ number of broken pages
 
 > `optional` **first\_seen**: `string`
 
-Defined in: main.ts:157660
+Defined in: main.ts:157824
 
 date and time when our crawler found the backlink from this target for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -114,7 +114,7 @@ example:
 
 > `optional` **lost\_date**: `number`
 
-Defined in: main.ts:157666
+Defined in: main.ts:157830
 
 date and time when the last backlink from this target was lost
 indicates the date and time when our crawler visited the page and it responded with 4xx or 5xx status code or the last backlink was removed
@@ -132,7 +132,7 @@ example:
 
 > `optional` **rank**: `number`
 
-Defined in: main.ts:157653
+Defined in: main.ts:157817
 
 rank referred to the target from the POST array
 indicates the rank that the referring domain (target above) refers to your target from the POST array;
@@ -149,7 +149,7 @@ learn more about the metric and how it is calculated in this help center article
 
 > `optional` **referring\_domains**: `number`
 
-Defined in: main.ts:157675
+Defined in: main.ts:157839
 
 number of referring domains
 
@@ -163,7 +163,7 @@ number of referring domains
 
 > `optional` **referring\_domains\_nofollow**: `number`
 
-Defined in: main.ts:157677
+Defined in: main.ts:157841
 
 number of domains pointing at least one nofollow link to the corresponding target
 
@@ -177,7 +177,7 @@ number of domains pointing at least one nofollow link to the corresponding targe
 
 > `optional` **referring\_ips**: `number`
 
-Defined in: main.ts:157683
+Defined in: main.ts:157847
 
 number of referring IP addresses
 
@@ -191,7 +191,7 @@ number of referring IP addresses
 
 > `optional` **referring\_links\_attributes**: `object`
 
-Defined in: main.ts:157700
+Defined in: main.ts:157864
 
 link attributes of the referring links
 indicates link attributes of the referring links and the link count per each attribute
@@ -210,7 +210,7 @@ indicates link attributes of the referring links and the link count per each att
 
 > `optional` **referring\_links\_countries**: `object`
 
-Defined in: main.ts:157710
+Defined in: main.ts:157874
 
 ISO country codes of the referring links
 indicates ISO country codes of the domains where the referring links are located and the link count per each country
@@ -229,7 +229,7 @@ indicates ISO country codes of the domains where the referring links are located
 
 > `optional` **referring\_links\_platform\_types**: `object`
 
-Defined in: main.ts:157703
+Defined in: main.ts:157867
 
 types of referring platforms
 indicates referring platform types and link count per each platform
@@ -248,7 +248,7 @@ indicates referring platform types and link count per each platform
 
 > `optional` **referring\_links\_semantic\_locations**: `object`
 
-Defined in: main.ts:157707
+Defined in: main.ts:157871
 
 semantic locations of the referring links
 indicates semantic elements in HTML where the referring links are located and the link count per each semantic location
@@ -268,7 +268,7 @@ you can get the full list of semantic elements here
 
 > `optional` **referring\_links\_tld**: `object`
 
-Defined in: main.ts:157692
+Defined in: main.ts:157856
 
 top level domains of the referring links
 contains top-level domains and referring link count per each
@@ -287,7 +287,7 @@ contains top-level domains and referring link count per each
 
 > `optional` **referring\_links\_types**: `object`
 
-Defined in: main.ts:157697
+Defined in: main.ts:157861
 
 types of the referring links
 indicates the types of referring links and link count per each type
@@ -308,7 +308,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 > `optional` **referring\_main\_domains**: `number`
 
-Defined in: main.ts:157679
+Defined in: main.ts:157843
 
 number of referring main domains
 
@@ -322,7 +322,7 @@ number of referring main domains
 
 > `optional` **referring\_main\_domains\_nofollow**: `number`
 
-Defined in: main.ts:157681
+Defined in: main.ts:157845
 
 number of main domains pointing at least one nofollow link to the target
 
@@ -336,7 +336,7 @@ number of main domains pointing at least one nofollow link to the target
 
 > `optional` **referring\_pages**: `number`
 
-Defined in: main.ts:157687
+Defined in: main.ts:157851
 
 indicates the number of pages pointing to the target
 
@@ -350,7 +350,7 @@ indicates the number of pages pointing to the target
 
 > `optional` **referring\_pages\_nofollow**: `number`
 
-Defined in: main.ts:157689
+Defined in: main.ts:157853
 
 number of referring pages pointing at least one nofollow link to the target
 
@@ -364,7 +364,7 @@ number of referring pages pointing at least one nofollow link to the target
 
 > `optional` **referring\_subnets**: `number`
 
-Defined in: main.ts:157685
+Defined in: main.ts:157849
 
 number of referring subnetworks
 
@@ -378,7 +378,7 @@ number of referring subnetworks
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:157648
+Defined in: main.ts:157812
 
 domain that links to the corresponding target from the POST array
 
@@ -392,7 +392,7 @@ domain that links to the corresponding target from the POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:157646
+Defined in: main.ts:157810
 
 type of element
 
@@ -406,7 +406,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:157723
+Defined in: main.ts:157887
 
 #### Parameters
 
@@ -424,7 +424,7 @@ Defined in: main.ts:157723
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:157798
+Defined in: main.ts:157962
 
 #### Parameters
 
@@ -442,7 +442,7 @@ Defined in: main.ts:157798
 
 > `static` **fromJS**(`data`): [`BacklinksDomainIntersectionInfo`](BacklinksDomainIntersectionInfo.md)
 
-Defined in: main.ts:157791
+Defined in: main.ts:157955
 
 #### Parameters
 

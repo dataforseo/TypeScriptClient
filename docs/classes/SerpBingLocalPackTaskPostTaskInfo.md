@@ -6,7 +6,7 @@
 
 # Class: SerpBingLocalPackTaskPostTaskInfo
 
-Defined in: main.ts:66943
+Defined in: main.ts:66979
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:66943
 
 > **new SerpBingLocalPackTaskPostTaskInfo**(`data`?): [`SerpBingLocalPackTaskPostTaskInfo`](SerpBingLocalPackTaskPostTaskInfo.md)
 
-Defined in: main.ts:66950
+Defined in: main.ts:66986
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:66946
+Defined in: main.ts:66982
 
 array of results
 in this case, the value will be null
@@ -215,7 +215,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:66954
+Defined in: main.ts:66990
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:66954
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:66972
+Defined in: main.ts:67008
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:66972
 
 > `static` **fromJS**(`data`): [`SerpBingLocalPackTaskPostTaskInfo`](SerpBingLocalPackTaskPostTaskInfo.md)
 
-Defined in: main.ts:66965
+Defined in: main.ts:67001
 
 #### Parameters
 

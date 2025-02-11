@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingLanguagesResponseInfo
 
-Defined in: main.ts:138531
+Defined in: main.ts:138695
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataBingLanguagesTaskInfo`](../classes/KeywordsDataBingLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:138533
+Defined in: main.ts:138697
 
 array of tasks
 

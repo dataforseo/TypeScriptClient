@@ -6,7 +6,7 @@
 
 # Class: BacklinksDomainIntersectionLiveResponseInfo
 
-Defined in: main.ts:158201
+Defined in: main.ts:158365
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:158201
 
 > **new BacklinksDomainIntersectionLiveResponseInfo**(`data`?): [`BacklinksDomainIntersectionLiveResponseInfo`](BacklinksDomainIntersectionLiveResponseInfo.md)
 
-Defined in: main.ts:158207
+Defined in: main.ts:158371
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BacklinksDomainIntersectionLiveTaskInfo`](BacklinksDomainIntersectionLiveTaskInfo.md)[]
 
-Defined in: main.ts:158203
+Defined in: main.ts:158367
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:158211
+Defined in: main.ts:158375
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:158211
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:158233
+Defined in: main.ts:158397
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:158233
 
 > `static` **fromJS**(`data`): [`BacklinksDomainIntersectionLiveResponseInfo`](BacklinksDomainIntersectionLiveResponseInfo.md)
 
-Defined in: main.ts:158226
+Defined in: main.ts:158390
 
 #### Parameters
 

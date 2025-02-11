@@ -6,7 +6,7 @@
 
 # Interface: IPeopleAlsoAskSerpElementItem
 
-Defined in: main.ts:32008
+Defined in: main.ts:32016
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:32008
 
 > `optional` **items**: [`PeopleAlsoAskElement`](../classes/PeopleAlsoAskElement.md)[]
 
-Defined in: main.ts:32010
+Defined in: main.ts:32018
 
 contains arrays of specific images
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:32014
+Defined in: main.ts:32022
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP

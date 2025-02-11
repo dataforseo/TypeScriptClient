@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataTripadvisorSearchTaskGetTaskInfo
 
-Defined in: main.ts:228460
+Defined in: main.ts:228968
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataTripadvisorSearchTaskGetResultInfo`](../classes/BusinessDataTripadvisorSearchTaskGetResultInfo.md)[]
 
-Defined in: main.ts:228462
+Defined in: main.ts:228970
 
 array of results
 

@@ -6,7 +6,7 @@
 
 # Interface: IMerchantIdListTaskInfo
 
-Defined in: main.ts:184294
+Defined in: main.ts:184656
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`MerchantIdListResultInfo`](../classes/MerchantIdListResultInfo.md)[]
 
-Defined in: main.ts:184296
+Defined in: main.ts:184658
 
 array of results
 

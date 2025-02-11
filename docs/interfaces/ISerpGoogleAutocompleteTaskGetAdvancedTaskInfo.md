@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleAutocompleteTaskGetAdvancedTaskInfo
 
-Defined in: main.ts:56306
+Defined in: main.ts:56322
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleAutocompleteTaskGetAdvancedResultInfo`](../classes/SerpGoogleAutocompleteTaskGetAdvancedResultInfo.md)[]
 
-Defined in: main.ts:56308
+Defined in: main.ts:56324
 
 array of results
 

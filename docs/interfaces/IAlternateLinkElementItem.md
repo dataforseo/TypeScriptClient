@@ -6,7 +6,7 @@
 
 # Interface: IAlternateLinkElementItem
 
-Defined in: main.ts:169807
+Defined in: main.ts:169971
 
 ## Extends
 
@@ -200,7 +200,7 @@ url scheme of the referenced page
 
 > `optional` **page\_to\_status\_code**: `number`
 
-Defined in: main.ts:169810
+Defined in: main.ts:169974
 
 status code of the referenced page
 status code of the page to which the link is pointing

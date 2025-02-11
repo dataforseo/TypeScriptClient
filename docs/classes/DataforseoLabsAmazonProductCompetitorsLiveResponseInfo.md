@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonProductCompetitorsLiveResponseInfo
 
-Defined in: main.ts:114665
+Defined in: main.ts:114733
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:114665
 
 > **new DataforseoLabsAmazonProductCompetitorsLiveResponseInfo**(`data`?): [`DataforseoLabsAmazonProductCompetitorsLiveResponseInfo`](DataforseoLabsAmazonProductCompetitorsLiveResponseInfo.md)
 
-Defined in: main.ts:114671
+Defined in: main.ts:114739
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsAmazonProductCompetitorsLiveTaskInfo`](DataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md)[]
 
-Defined in: main.ts:114667
+Defined in: main.ts:114735
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:114675
+Defined in: main.ts:114743
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:114675
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:114697
+Defined in: main.ts:114765
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:114697
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAmazonProductCompetitorsLiveResponseInfo`](DataforseoLabsAmazonProductCompetitorsLiveResponseInfo.md)
 
-Defined in: main.ts:114690
+Defined in: main.ts:114758
 
 #### Parameters
 

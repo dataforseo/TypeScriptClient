@@ -6,7 +6,7 @@
 
 # Interface: IOnPageLighthouseVersionsResponseInfo
 
-Defined in: main.ts:175413
+Defined in: main.ts:175777
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageLighthouseVersionsTaskInfo`](../classes/OnPageLighthouseVersionsTaskInfo.md)[]
 
-Defined in: main.ts:175415
+Defined in: main.ts:175779
 
 array of tasks
 

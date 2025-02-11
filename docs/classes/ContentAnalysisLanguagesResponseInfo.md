@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisLanguagesResponseInfo
 
-Defined in: main.ts:177145
+Defined in: main.ts:177509
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:177145
 
 > **new ContentAnalysisLanguagesResponseInfo**(`data`?): [`ContentAnalysisLanguagesResponseInfo`](ContentAnalysisLanguagesResponseInfo.md)
 
-Defined in: main.ts:177151
+Defined in: main.ts:177515
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`ContentAnalysisLanguagesTaskInfo`](ContentAnalysisLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:177147
+Defined in: main.ts:177511
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:177155
+Defined in: main.ts:177519
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:177155
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:177177
+Defined in: main.ts:177541
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:177177
 
 > `static` **fromJS**(`data`): [`ContentAnalysisLanguagesResponseInfo`](ContentAnalysisLanguagesResponseInfo.md)
 
-Defined in: main.ts:177170
+Defined in: main.ts:177534
 
 #### Parameters
 

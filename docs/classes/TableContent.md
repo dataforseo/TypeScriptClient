@@ -6,7 +6,7 @@
 
 # Class: TableContent
 
-Defined in: main.ts:173268
+Defined in: main.ts:173974
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:173268
 
 > **new TableContent**(`data`?): [`TableContent`](TableContent.md)
 
-Defined in: main.ts:173278
+Defined in: main.ts:173984
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:173278
 
 > `optional` **body**: [`TableContentItemInfo`](TableContentItemInfo.md)[]
 
-Defined in: main.ts:173272
+Defined in: main.ts:173978
 
 content of the body of the table
 
@@ -54,7 +54,7 @@ content of the body of the table
 
 > `optional` **footer**: [`TableContentItemInfo`](TableContentItemInfo.md)[]
 
-Defined in: main.ts:173274
+Defined in: main.ts:173980
 
 content of the footer of the table
 
@@ -68,7 +68,7 @@ content of the footer of the table
 
 > `optional` **header**: [`TableContentItemInfo`](TableContentItemInfo.md)[]
 
-Defined in: main.ts:173270
+Defined in: main.ts:173976
 
 parsed content of the header
 
@@ -82,7 +82,7 @@ parsed content of the header
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:173287
+Defined in: main.ts:173993
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:173287
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:173318
+Defined in: main.ts:174024
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:173318
 
 > `static` **fromJS**(`data`): [`TableContent`](TableContent.md)
 
-Defined in: main.ts:173311
+Defined in: main.ts:174017
 
 #### Parameters
 

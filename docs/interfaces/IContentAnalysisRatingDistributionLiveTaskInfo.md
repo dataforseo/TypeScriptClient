@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisRatingDistributionLiveTaskInfo
 
-Defined in: main.ts:179878
+Defined in: main.ts:180240
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`ContentAnalysisRatingDistributionLiveResultInfo`](../classes/ContentAnalysisRatingDistributionLiveResultInfo.md)[]
 
-Defined in: main.ts:179880
+Defined in: main.ts:180242
 
 array of results
 

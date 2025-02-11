@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsTechnologiesLanguagesTaskInfo
 
-Defined in: main.ts:85512
+Defined in: main.ts:85548
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DomainAnalyticsTechnologiesLanguagesResultInfo`](../classes/DomainAnalyticsTechnologiesLanguagesResultInfo.md)[]
 
-Defined in: main.ts:85514
+Defined in: main.ts:85550
 
 array of results
 

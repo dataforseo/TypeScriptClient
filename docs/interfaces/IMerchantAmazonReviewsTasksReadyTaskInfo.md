@@ -6,7 +6,7 @@
 
 # Interface: IMerchantAmazonReviewsTasksReadyTaskInfo
 
-Defined in: main.ts:197304
+Defined in: main.ts:197806
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`MerchantAmazonReviewsTasksReadyResultInfo`](../classes/MerchantAmazonReviewsTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:197306
+Defined in: main.ts:197808
 
 array of results
 

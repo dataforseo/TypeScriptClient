@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAmazonRelatedKeywordsLiveItem
 
-Defined in: main.ts:112562
+Defined in: main.ts:112630
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:112562
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:112568
+Defined in: main.ts:112636
 
 keyword search depth
 
@@ -28,7 +28,7 @@ keyword search depth
 
 > `optional` **keyword\_data**: [`AmazonKeywordData`](../classes/AmazonKeywordData.md)
 
-Defined in: main.ts:112566
+Defined in: main.ts:112634
 
 keyword data for the returned keyword
 
@@ -38,7 +38,7 @@ keyword data for the returned keyword
 
 > `optional` **related\_keywords**: `string`[]
 
-Defined in: main.ts:112571
+Defined in: main.ts:112639
 
 list of related keywords
 represents the list of search queries which are related to the keyword returned in the array above
@@ -49,6 +49,6 @@ represents the list of search queries which are related to the keyword returned 
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:112564
+Defined in: main.ts:112632
 
 search engine type

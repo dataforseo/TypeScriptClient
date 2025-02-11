@@ -6,7 +6,7 @@
 
 # Class: OnPageInstantPagesTaskInfo
 
-Defined in: main.ts:174748
+Defined in: main.ts:175112
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:174748
 
 > **new OnPageInstantPagesTaskInfo**(`data`?): [`OnPageInstantPagesTaskInfo`](OnPageInstantPagesTaskInfo.md)
 
-Defined in: main.ts:174754
+Defined in: main.ts:175118
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`OnPageInstantPagesResultInfo`](OnPageInstantPagesResultInfo.md)[]
 
-Defined in: main.ts:174750
+Defined in: main.ts:175114
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:174758
+Defined in: main.ts:175122
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:174758
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:174780
+Defined in: main.ts:175144
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:174780
 
 > `static` **fromJS**(`data`): [`OnPageInstantPagesTaskInfo`](OnPageInstantPagesTaskInfo.md)
 
-Defined in: main.ts:174773
+Defined in: main.ts:175137
 
 #### Parameters
 

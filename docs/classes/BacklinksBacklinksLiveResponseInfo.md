@@ -6,7 +6,7 @@
 
 # Class: BacklinksBacklinksLiveResponseInfo
 
-Defined in: main.ts:152487
+Defined in: main.ts:152651
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:152487
 
 > **new BacklinksBacklinksLiveResponseInfo**(`data`?): [`BacklinksBacklinksLiveResponseInfo`](BacklinksBacklinksLiveResponseInfo.md)
 
-Defined in: main.ts:152493
+Defined in: main.ts:152657
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BacklinksBacklinksLiveTaskInfo`](BacklinksBacklinksLiveTaskInfo.md)[]
 
-Defined in: main.ts:152489
+Defined in: main.ts:152653
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:152497
+Defined in: main.ts:152661
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:152497
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:152519
+Defined in: main.ts:152683
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:152519
 
 > `static` **fromJS**(`data`): [`BacklinksBacklinksLiveResponseInfo`](BacklinksBacklinksLiveResponseInfo.md)
 
-Defined in: main.ts:152512
+Defined in: main.ts:152676
 
 #### Parameters
 

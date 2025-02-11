@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsBingCompetitorsDomainLiveTaskInfo
 
-Defined in: main.ts:116522
+Defined in: main.ts:116614
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsBingCompetitorsDomainLiveResultInfo`](../classes/DataforseoLabsBingCompetitorsDomainLiveResultInfo.md)[]
 
-Defined in: main.ts:116524
+Defined in: main.ts:116616
 
 array of results
 

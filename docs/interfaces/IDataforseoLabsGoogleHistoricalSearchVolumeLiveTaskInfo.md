@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleHistoricalSearchVolumeLiveTaskInfo
 
-Defined in: main.ts:95926
+Defined in: main.ts:95952
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo`](../classes/DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md)[]
 
-Defined in: main.ts:95928
+Defined in: main.ts:95954
 
 array of results
 

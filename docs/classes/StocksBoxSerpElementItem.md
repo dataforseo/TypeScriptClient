@@ -6,7 +6,7 @@
 
 # Class: StocksBoxSerpElementItem
 
-Defined in: main.ts:35093
+Defined in: main.ts:35109
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:35093
 
 > **new StocksBoxSerpElementItem**(`data`?): [`StocksBoxSerpElementItem`](StocksBoxSerpElementItem.md)
 
-Defined in: main.ts:35119
+Defined in: main.ts:35135
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:35106
+Defined in: main.ts:35122
 
 source domain
 
@@ -74,7 +74,7 @@ source domain
 
 > `optional` **graph**: [`Graph`](Graph.md)
 
-Defined in: main.ts:35115
+Defined in: main.ts:35131
 
 contains data provided in the graph of the element
 
@@ -108,7 +108,7 @@ left, right
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:35102
+Defined in: main.ts:35118
 
 price indicated in the element
 
@@ -161,7 +161,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:35110
+Defined in: main.ts:35126
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -177,7 +177,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:35100
+Defined in: main.ts:35116
 
 text alongside the link title
 
@@ -191,7 +191,7 @@ text alongside the link title
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:35098
+Defined in: main.ts:35114
 
 source of the element
 indicates the source of the video
@@ -206,7 +206,7 @@ indicates the source of the video
 
 > `optional` **table**: [`Table`](Table.md)
 
-Defined in: main.ts:35113
+Defined in: main.ts:35129
 
 results table
 if there are none, equals null
@@ -221,7 +221,7 @@ if there are none, equals null
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:35095
+Defined in: main.ts:35111
 
 title of the row
 
@@ -253,7 +253,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:35104
+Defined in: main.ts:35120
 
 source URL
 
@@ -285,7 +285,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:35124
+Defined in: main.ts:35140
 
 #### Parameters
 
@@ -307,7 +307,7 @@ Defined in: main.ts:35124
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:35150
+Defined in: main.ts:35166
 
 #### Parameters
 
@@ -329,7 +329,7 @@ Defined in: main.ts:35150
 
 > `static` **fromJS**(`data`): [`StocksBoxSerpElementItem`](StocksBoxSerpElementItem.md)
 
-Defined in: main.ts:35143
+Defined in: main.ts:35159
 
 #### Parameters
 

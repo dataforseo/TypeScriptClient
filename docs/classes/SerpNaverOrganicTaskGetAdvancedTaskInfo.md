@@ -6,7 +6,7 @@
 
 # Class: SerpNaverOrganicTaskGetAdvancedTaskInfo
 
-Defined in: main.ts:81840
+Defined in: main.ts:81876
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:81840
 
 > **new SerpNaverOrganicTaskGetAdvancedTaskInfo**(`data`?): [`SerpNaverOrganicTaskGetAdvancedTaskInfo`](SerpNaverOrganicTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:81846
+Defined in: main.ts:81882
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpNaverOrganicTaskGetAdvancedResultInfo`](SerpNaverOrganicTaskGetAdvancedResultInfo.md)[]
 
-Defined in: main.ts:81842
+Defined in: main.ts:81878
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:81850
+Defined in: main.ts:81886
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:81850
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:81872
+Defined in: main.ts:81908
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:81872
 
 > `static` **fromJS**(`data`): [`SerpNaverOrganicTaskGetAdvancedTaskInfo`](SerpNaverOrganicTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:81865
+Defined in: main.ts:81901
 
 #### Parameters
 

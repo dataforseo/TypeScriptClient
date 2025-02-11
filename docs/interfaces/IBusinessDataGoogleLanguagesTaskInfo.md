@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleLanguagesTaskInfo
 
-Defined in: main.ts:212926
+Defined in: main.ts:213428
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataGoogleLanguagesResultInfo`](../classes/BusinessDataGoogleLanguagesResultInfo.md)[]
 
-Defined in: main.ts:212928
+Defined in: main.ts:213430
 
 array of results
 

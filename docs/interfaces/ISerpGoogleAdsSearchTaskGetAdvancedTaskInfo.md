@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleAdsSearchTaskGetAdvancedTaskInfo
 
-Defined in: main.ts:62731
+Defined in: main.ts:62759
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleAdsSearchTaskGetAdvancedResultInfo`](../classes/SerpGoogleAdsSearchTaskGetAdvancedResultInfo.md)[]
 
-Defined in: main.ts:62733
+Defined in: main.ts:62761
 
 array of results
 

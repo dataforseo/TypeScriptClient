@@ -6,7 +6,7 @@
 
 # Class: SerpBingOrganicTaskGetAdvancedResultInfo
 
-Defined in: main.ts:64553
+Defined in: main.ts:64583
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:64553
 
 > **new SerpBingOrganicTaskGetAdvancedResultInfo**(`data`?): [`SerpBingOrganicTaskGetAdvancedResultInfo`](SerpBingOrganicTaskGetAdvancedResultInfo.md)
 
-Defined in: main.ts:64594
+Defined in: main.ts:64624
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:64594
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:64567
+Defined in: main.ts:64597
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:64572
+Defined in: main.ts:64602
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:64583
+Defined in: main.ts:64613
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -89,7 +89,7 @@ answer_box, carousel, events, featured_snippet, hotels_pack, images, jobs, local
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-Defined in: main.ts:64590
+Defined in: main.ts:64620
 
 additional items present in the element
 if there are none, equals null
@@ -104,7 +104,7 @@ if there are none, equals null
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:64587
+Defined in: main.ts:64617
 
 the number of results returned in the items array
 
@@ -118,7 +118,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:64556
+Defined in: main.ts:64586
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -133,7 +133,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:64564
+Defined in: main.ts:64594
 
 language code in a POST array
 
@@ -147,7 +147,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:64562
+Defined in: main.ts:64592
 
 location code in a POST array
 
@@ -161,7 +161,7 @@ location code in a POST array
 
 > `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
 
-Defined in: main.ts:64578
+Defined in: main.ts:64608
 
 search refinement chips
 equals null
@@ -176,7 +176,7 @@ equals null
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:64560
+Defined in: main.ts:64590
 
 search engine domain in a POST array
 
@@ -190,7 +190,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:64585
+Defined in: main.ts:64615
 
 total number of results in SERP
 
@@ -204,7 +204,7 @@ total number of results in SERP
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:64575
+Defined in: main.ts:64605
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -219,7 +219,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:64558
+Defined in: main.ts:64588
 
 type of element
 
@@ -233,7 +233,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:64603
+Defined in: main.ts:64633
 
 #### Parameters
 
@@ -251,7 +251,7 @@ Defined in: main.ts:64603
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:64640
+Defined in: main.ts:64670
 
 #### Parameters
 
@@ -269,7 +269,7 @@ Defined in: main.ts:64640
 
 > `static` **fromJS**(`data`): [`SerpBingOrganicTaskGetAdvancedResultInfo`](SerpBingOrganicTaskGetAdvancedResultInfo.md)
 
-Defined in: main.ts:64633
+Defined in: main.ts:64663
 
 #### Parameters
 

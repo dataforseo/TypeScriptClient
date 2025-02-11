@@ -6,7 +6,7 @@
 
 # Interface: IOnPageLighthouseTaskPostTaskInfo
 
-Defined in: main.ts:175703
+Defined in: main.ts:176067
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `object`[]
 
-Defined in: main.ts:175704
+Defined in: main.ts:176068
 
 #### Index Signature
 

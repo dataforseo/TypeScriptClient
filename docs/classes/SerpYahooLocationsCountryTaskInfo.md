@@ -6,7 +6,7 @@
 
 # Class: SerpYahooLocationsCountryTaskInfo
 
-Defined in: main.ts:74894
+Defined in: main.ts:74930
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:74894
 
 > **new SerpYahooLocationsCountryTaskInfo**(`data`?): [`SerpYahooLocationsCountryTaskInfo`](SerpYahooLocationsCountryTaskInfo.md)
 
-Defined in: main.ts:74900
+Defined in: main.ts:74936
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpYahooLocationsCountryResultInfo`](SerpYahooLocationsCountryResultInfo.md)[]
 
-Defined in: main.ts:74896
+Defined in: main.ts:74932
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:74904
+Defined in: main.ts:74940
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:74904
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:74926
+Defined in: main.ts:74962
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:74926
 
 > `static` **fromJS**(`data`): [`SerpYahooLocationsCountryTaskInfo`](SerpYahooLocationsCountryTaskInfo.md)
 
-Defined in: main.ts:74919
+Defined in: main.ts:74955
 
 #### Parameters
 

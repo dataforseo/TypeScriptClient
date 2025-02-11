@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleAdsSearchLocationsTaskInfo
 
-Defined in: main.ts:61655
+Defined in: main.ts:61677
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleAdsSearchLocationsResultInfo`](../classes/SerpGoogleAdsSearchLocationsResultInfo.md)[]
 
-Defined in: main.ts:61657
+Defined in: main.ts:61679
 
 array of results
 

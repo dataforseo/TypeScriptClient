@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAppleAppCompetitorsLiveRequestInfo
 
-Defined in: main.ts:124082
+Defined in: main.ts:124198
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:124082
 
 > **new DataforseoLabsAppleAppCompetitorsLiveRequestInfo**(`data`?): [`DataforseoLabsAppleAppCompetitorsLiveRequestInfo`](DataforseoLabsAppleAppCompetitorsLiveRequestInfo.md)
 
-Defined in: main.ts:124177
+Defined in: main.ts:124293
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:124177
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:124090
+Defined in: main.ts:124206
 
 id of the app
 required field
@@ -60,7 +60,7 @@ the id is 835599320
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:124140
+Defined in: main.ts:124256
 
 array of results filtering parameters
 optional field
@@ -86,7 +86,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:124126
+Defined in: main.ts:124242
 
 language code
 required field if you don’t specify language_name
@@ -107,7 +107,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:124117
+Defined in: main.ts:124233
 
 full name of the language
 required field if you don’t specify language_code
@@ -128,7 +128,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:124162
+Defined in: main.ts:124278
 
 the maximum number of returned apps
 optional field
@@ -145,7 +145,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:124108
+Defined in: main.ts:124224
 
 location code
 required field if you don’t specify location_name
@@ -166,7 +166,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:124099
+Defined in: main.ts:124215
 
 full name of the location
 required field if you don’t specify location_code
@@ -187,7 +187,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:124167
+Defined in: main.ts:124283
 
 offset in the results array of returned apps
 optional field
@@ -204,7 +204,7 @@ if you specify the 10 value, the first ten apps in the results array will be omi
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:124157
+Defined in: main.ts:124273
 
 results sorting rules
 optional field
@@ -233,7 +233,7 @@ Note: if the item_types array contains item types that are different from organi
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:124173
+Defined in: main.ts:124289
 
 user-defined task identifier
 optional field
@@ -251,7 +251,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:124186
+Defined in: main.ts:124302
 
 #### Parameters
 
@@ -269,7 +269,7 @@ Defined in: main.ts:124186
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:124220
+Defined in: main.ts:124336
 
 #### Parameters
 
@@ -287,7 +287,7 @@ Defined in: main.ts:124220
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAppleAppCompetitorsLiveRequestInfo`](DataforseoLabsAppleAppCompetitorsLiveRequestInfo.md)
 
-Defined in: main.ts:124213
+Defined in: main.ts:124329
 
 #### Parameters
 

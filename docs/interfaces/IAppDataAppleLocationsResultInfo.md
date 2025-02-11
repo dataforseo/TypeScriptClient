@@ -6,7 +6,7 @@
 
 # Interface: IAppDataAppleLocationsResultInfo
 
-Defined in: main.ts:204970
+Defined in: main.ts:205472
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:204970
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:204985
+Defined in: main.ts:205487
 
 ISO country code of the location
 
@@ -28,7 +28,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:204972
+Defined in: main.ts:205474
 
 location code
 
@@ -38,7 +38,7 @@ location code
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:204974
+Defined in: main.ts:205476
 
 full name of the location
 
@@ -48,7 +48,7 @@ full name of the location
 
 > `optional` **location\_name\_parent**: `number`
 
-Defined in: main.ts:204983
+Defined in: main.ts:205485
 
 the name of the superordinate location
 example:
@@ -65,6 +65,6 @@ note: Apple App Data API currently supports countries only, that is why this val
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:204987
+Defined in: main.ts:205489
 
 location type

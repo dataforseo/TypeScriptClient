@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixJobsSerpLimitsRatesDataInfo
+[Documentation](../README.md) / AppendixJobsSerpLimitsRatesDataInfo
 
 # Class: AppendixJobsSerpLimitsRatesDataInfo
+
+Defined in: main.ts:231056
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,21 +22,17 @@
 
 > **new AppendixJobsSerpLimitsRatesDataInfo**(`data`?): [`AppendixJobsSerpLimitsRatesDataInfo`](AppendixJobsSerpLimitsRatesDataInfo.md)
 
+Defined in: main.ts:231061
+
 #### Parameters
 
-• **data?**: [`IAppendixJobsSerpLimitsRatesDataInfo`](../interfaces/IAppendixJobsSerpLimitsRatesDataInfo.md)
+##### data?
+
+[`IAppendixJobsSerpLimitsRatesDataInfo`](../interfaces/IAppendixJobsSerpLimitsRatesDataInfo.md)
 
 #### Returns
 
 [`AppendixJobsSerpLimitsRatesDataInfo`](AppendixJobsSerpLimitsRatesDataInfo.md)
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:215509
-=======
-main.ts:215542
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Properties
 
@@ -42,17 +40,11 @@ main.ts:215542
 
 > `optional` **task\_post**: `number`
 
+Defined in: main.ts:231057
+
 #### Implementation of
 
 [`IAppendixJobsSerpLimitsRatesDataInfo`](../interfaces/IAppendixJobsSerpLimitsRatesDataInfo.md).[`task_post`](../interfaces/IAppendixJobsSerpLimitsRatesDataInfo.md#task_post)
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:215505
-=======
-main.ts:215538
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Methods
 
@@ -60,21 +52,17 @@ main.ts:215538
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:231070
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:215518
-=======
-main.ts:215551
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -82,21 +70,17 @@ main.ts:215551
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:231087
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:215535
-=======
-main.ts:215568
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -104,18 +88,14 @@ main.ts:215568
 
 > `static` **fromJS**(`data`): [`AppendixJobsSerpLimitsRatesDataInfo`](AppendixJobsSerpLimitsRatesDataInfo.md)
 
+Defined in: main.ts:231080
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixJobsSerpLimitsRatesDataInfo`](AppendixJobsSerpLimitsRatesDataInfo.md)
-
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:215528
-=======
-main.ts:215561
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

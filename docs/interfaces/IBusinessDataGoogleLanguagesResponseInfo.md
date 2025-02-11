@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleLanguagesResponseInfo
 
-Defined in: main.ts:212981
+Defined in: main.ts:213483
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BusinessDataGoogleLanguagesTaskInfo`](../classes/BusinessDataGoogleLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:212983
+Defined in: main.ts:213485
 
 array of tasks
 

@@ -6,7 +6,7 @@
 
 # Class: RankedSerpElement
 
-Defined in: main.ts:101378
+Defined in: main.ts:101406
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:101378
 
 > **new RankedSerpElement**(`data`?): [`RankedSerpElement`](RankedSerpElement.md)
 
-Defined in: main.ts:101416
+Defined in: main.ts:101444
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:101416
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:101386
+Defined in: main.ts:101414
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **is\_lost**: `boolean`
 
-Defined in: main.ts:101402
+Defined in: main.ts:101430
 
 lost ranked elements
 indicates how many ranked elements of this domain were previously presented in SERPs, but weren’t found during the last check
@@ -70,7 +70,7 @@ indicates how many ranked elements of this domain were previously presented in S
 
 > `optional` **keyword\_difficulty**: `number`
 
-Defined in: main.ts:101399
+Defined in: main.ts:101427
 
 difficulty of ranking in the first top-10 organic results for a keyword
 indicates the chance of getting in top-10 organic results for a keyword on a logarithmic scale from 0 to 100;
@@ -87,7 +87,7 @@ learn more about the metric in this help center guide
 
 > `optional` **last\_updated\_time**: `string`
 
-Defined in: main.ts:101407
+Defined in: main.ts:101435
 
 date and time when search intent data was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -104,7 +104,7 @@ example:
 
 > `optional` **previous\_updated\_time**: `string`
 
-Defined in: main.ts:101412
+Defined in: main.ts:101440
 
 previous to the most recent date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -121,7 +121,7 @@ example:
 
 > `optional` **se\_results\_count**: `string`
 
-Defined in: main.ts:101394
+Defined in: main.ts:101422
 
 number of search results for the returned keyword
 
@@ -135,7 +135,7 @@ number of search results for the returned keyword
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:101380
+Defined in: main.ts:101408
 
 search engine type
 
@@ -149,7 +149,7 @@ search engine type
 
 > `optional` **serp\_item**: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:101383
+Defined in: main.ts:101411
 
 contains data on the SERP element
 the list of supported SERP elements can be found below
@@ -164,7 +164,7 @@ the list of supported SERP elements can be found below
 
 > `optional` **serp\_item\_types**: `string`[]
 
-Defined in: main.ts:101392
+Defined in: main.ts:101420
 
 types of search results in SERP
 contains types of search results (items) found in SERP
@@ -182,7 +182,7 @@ note that the actual results will be returned only for organic, paid, featured_s
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:101425
+Defined in: main.ts:101453
 
 #### Parameters
 
@@ -200,7 +200,7 @@ Defined in: main.ts:101425
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:101454
+Defined in: main.ts:101482
 
 #### Parameters
 
@@ -218,7 +218,7 @@ Defined in: main.ts:101454
 
 > `static` **fromJS**(`data`): [`RankedSerpElement`](RankedSerpElement.md)
 
-Defined in: main.ts:101447
+Defined in: main.ts:101475
 
 #### Parameters
 

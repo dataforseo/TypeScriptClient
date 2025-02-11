@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleAdsAdvertisersTaskPostTaskInfo
 
-Defined in: main.ts:60617
+Defined in: main.ts:60639
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:60620
+Defined in: main.ts:60642
 
 array of results
 in this case, the value will be null

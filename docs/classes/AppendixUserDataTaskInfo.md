@@ -6,7 +6,7 @@
 
 # Class: AppendixUserDataTaskInfo
 
-Defined in: main.ts:238986
+Defined in: main.ts:239414
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:238986
 
 > **new AppendixUserDataTaskInfo**(`data`?): [`AppendixUserDataTaskInfo`](AppendixUserDataTaskInfo.md)
 
-Defined in: main.ts:238992
+Defined in: main.ts:239420
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`AppendixUserDataResultInfo`](AppendixUserDataResultInfo.md)[]
 
-Defined in: main.ts:238988
+Defined in: main.ts:239416
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:238996
+Defined in: main.ts:239424
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:238996
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:239018
+Defined in: main.ts:239446
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:239018
 
 > `static` **fromJS**(`data`): [`AppendixUserDataTaskInfo`](AppendixUserDataTaskInfo.md)
 
-Defined in: main.ts:239011
+Defined in: main.ts:239439
 
 #### Parameters
 

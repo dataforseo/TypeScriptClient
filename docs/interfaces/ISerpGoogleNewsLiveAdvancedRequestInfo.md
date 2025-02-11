@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleNewsLiveAdvancedRequestInfo
 
-Defined in: main.ts:47034
+Defined in: main.ts:47050
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:47034
 
 > `optional` **browser\_screen\_height**: `number`
 
-Defined in: main.ts:47113
+Defined in: main.ts:47129
 
 browser screen height
 optional field
@@ -32,7 +32,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **browser\_screen\_resolution\_ratio**: `number`
 
-Defined in: main.ts:47119
+Defined in: main.ts:47135
 
 browser screen resolution ratio
 optional field
@@ -46,7 +46,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **browser\_screen\_width**: `number`
 
-Defined in: main.ts:47107
+Defined in: main.ts:47123
 
 browser screen width
 optional field
@@ -60,7 +60,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **calculate\_rectangles**: `boolean`
 
-Defined in: main.ts:47101
+Defined in: main.ts:47117
 
 calcualte pixel rankings for SERP elements in advanced results
 optional field
@@ -75,7 +75,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:47135
+Defined in: main.ts:47151
 
 parsing depth
 optional field
@@ -92,7 +92,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:47044
+Defined in: main.ts:47060
 
 keyword
 required field
@@ -100,7 +100,7 @@ you can specify up to 700 characters in the keyword field
 all %## will be decoded (plus character ‘+’ will be decoded to a space character)
 if you need to use the “%” character for your keyword, please specify it as “%25”;
 if you need to use the “+” character for your keyword, please specify it as “%2B”;
-if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’, ‘-site:’, the charge per task will be multiplied by 5
+if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’, the charge per task will be multiplied by 5
 Note: queries containing the ‘cache:’ parameter are not supported and will return a validation error
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
@@ -110,7 +110,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:47088
+Defined in: main.ts:47104
 
 search engine language code
 required field if you don’t specify language_name
@@ -125,7 +125,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:47081
+Defined in: main.ts:47097
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -140,7 +140,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:47064
+Defined in: main.ts:47080
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -155,7 +155,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:47074
+Defined in: main.ts:47090
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -173,7 +173,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:47057
+Defined in: main.ts:47073
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -188,7 +188,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:47142
+Defined in: main.ts:47158
 
 page crawl limit
 optional field
@@ -203,7 +203,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:47094
+Defined in: main.ts:47110
 
 device operating system
 optional field
@@ -217,7 +217,7 @@ default value: windows
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:47126
+Defined in: main.ts:47142
 
 search engine domain
 optional field
@@ -232,7 +232,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:47146
+Defined in: main.ts:47162
 
 additional parameters of the search query
 optional field
@@ -244,7 +244,7 @@ Get the list of available parameters and additional details here.
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:47050
+Defined in: main.ts:47066
 
 direct URL of the search query
 optional field

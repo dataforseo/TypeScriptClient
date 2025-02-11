@@ -6,7 +6,7 @@
 
 # Class: OnPageIdListResponseInfo
 
-Defined in: main.ts:163287
+Defined in: main.ts:163451
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:163287
 
 > **new OnPageIdListResponseInfo**(`data`?): [`OnPageIdListResponseInfo`](OnPageIdListResponseInfo.md)
 
-Defined in: main.ts:163293
+Defined in: main.ts:163457
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageIdListTaskInfo`](OnPageIdListTaskInfo.md)[]
 
-Defined in: main.ts:163289
+Defined in: main.ts:163453
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:163297
+Defined in: main.ts:163461
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:163297
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:163319
+Defined in: main.ts:163483
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:163319
 
 > `static` **fromJS**(`data`): [`OnPageIdListResponseInfo`](OnPageIdListResponseInfo.md)
 
-Defined in: main.ts:163312
+Defined in: main.ts:163476
 
 #### Parameters
 

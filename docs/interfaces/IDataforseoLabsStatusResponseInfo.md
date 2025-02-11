@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsStatusResponseInfo
 
-Defined in: main.ts:90491
+Defined in: main.ts:90527
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsStatusTaskInfo`](../classes/DataforseoLabsStatusTaskInfo.md)[]
 
-Defined in: main.ts:90493
+Defined in: main.ts:90529
 
 array of tasks
 

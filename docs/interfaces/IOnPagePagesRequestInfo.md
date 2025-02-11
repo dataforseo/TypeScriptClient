@@ -6,7 +6,7 @@
 
 # Interface: IOnPagePagesRequestInfo
 
-Defined in: main.ts:165976
+Defined in: main.ts:166140
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:165976
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:166003
+Defined in: main.ts:166167
 
 array of results filtering parameters
 optional field
@@ -37,7 +37,7 @@ example:
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:165982
+Defined in: main.ts:166146
 
 ID of the task
 required field
@@ -51,7 +51,7 @@ example:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:165987
+Defined in: main.ts:166151
 
 the maximum number of returned pages
 optional field
@@ -64,7 +64,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:165992
+Defined in: main.ts:166156
 
 offset in the results array of returned pages
 optional field
@@ -77,7 +77,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:166017
+Defined in: main.ts:166181
 
 results sorting rules
 optional field
@@ -99,7 +99,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:166023
+Defined in: main.ts:166187
 
 user-defined task identifier
 optional field

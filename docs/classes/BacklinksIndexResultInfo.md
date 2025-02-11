@@ -6,7 +6,7 @@
 
 # Class: BacklinksIndexResultInfo
 
-Defined in: main.ts:149828
+Defined in: main.ts:149992
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:149828
 
 > **new BacklinksIndexResultInfo**(`data`?): [`BacklinksIndexResultInfo`](BacklinksIndexResultInfo.md)
 
-Defined in: main.ts:149840
+Defined in: main.ts:150004
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:149840
 
 > `optional` **index\_history**: [`IndexHistory`](IndexHistory.md)[]
 
-Defined in: main.ts:149836
+Defined in: main.ts:150000
 
 index volume data for the past 12 months
 
@@ -54,7 +54,7 @@ index volume data for the past 12 months
 
 > `optional` **total\_backlinks**: `number`
 
-Defined in: main.ts:149830
+Defined in: main.ts:149994
 
 total number of backlinks our database contains for the moment of checking
 
@@ -68,7 +68,7 @@ total number of backlinks our database contains for the moment of checking
 
 > `optional` **total\_domains**: `number`
 
-Defined in: main.ts:149834
+Defined in: main.ts:149998
 
 total number of domains our database contains for the moment of checking
 
@@ -82,7 +82,7 @@ total number of domains our database contains for the moment of checking
 
 > `optional` **total\_pages**: `number`
 
-Defined in: main.ts:149832
+Defined in: main.ts:149996
 
 total number of pages our database contains for the moment of checking
 
@@ -96,7 +96,7 @@ total number of pages our database contains for the moment of checking
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:149849
+Defined in: main.ts:150013
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:149849
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:149873
+Defined in: main.ts:150037
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:149873
 
 > `static` **fromJS**(`data`): [`BacklinksIndexResultInfo`](BacklinksIndexResultInfo.md)
 
-Defined in: main.ts:149866
+Defined in: main.ts:150030
 
 #### Parameters
 

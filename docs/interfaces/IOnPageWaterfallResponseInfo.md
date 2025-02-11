@@ -6,7 +6,7 @@
 
 # Interface: IOnPageWaterfallResponseInfo
 
-Defined in: main.ts:171091
+Defined in: main.ts:171255
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageWaterfallTaskInfo`](../classes/OnPageWaterfallTaskInfo.md)[]
 
-Defined in: main.ts:171093
+Defined in: main.ts:171257
 
 array of tasks
 

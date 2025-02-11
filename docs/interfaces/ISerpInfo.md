@@ -6,7 +6,7 @@
 
 # Interface: ISerpInfo
 
-Defined in: main.ts:93064
+Defined in: main.ts:93110
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:93064
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:93069
+Defined in: main.ts:93115
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -29,7 +29,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **last\_updated\_time**: `string`
 
-Defined in: main.ts:93082
+Defined in: main.ts:93128
 
 date and time when backlink data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -42,7 +42,7 @@ example:
 
 > `optional` **previous\_updated\_time**: `string`
 
-Defined in: main.ts:93087
+Defined in: main.ts:93133
 
 previous to the most recent date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -55,7 +55,7 @@ example:
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:93077
+Defined in: main.ts:93123
 
 number of search results for the returned keyword
 
@@ -65,7 +65,7 @@ number of search results for the returned keyword
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:93066
+Defined in: main.ts:93112
 
 search engine type
 
@@ -75,7 +75,7 @@ search engine type
 
 > `optional` **serp\_item\_types**: `string`[]
 
-Defined in: main.ts:93075
+Defined in: main.ts:93121
 
 types of search results in SERP
 contains types of search results (items) found in SERP

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingDomainRankOverviewLiveResponseInfo
 
-Defined in: main.ts:117449
+Defined in: main.ts:117541
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:117449
 
 > **new DataforseoLabsBingDomainRankOverviewLiveResponseInfo**(`data`?): [`DataforseoLabsBingDomainRankOverviewLiveResponseInfo`](DataforseoLabsBingDomainRankOverviewLiveResponseInfo.md)
 
-Defined in: main.ts:117455
+Defined in: main.ts:117547
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsBingDomainRankOverviewLiveTaskInfo`](DataforseoLabsBingDomainRankOverviewLiveTaskInfo.md)[]
 
-Defined in: main.ts:117451
+Defined in: main.ts:117543
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:117459
+Defined in: main.ts:117551
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:117459
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:117481
+Defined in: main.ts:117573
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:117481
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingDomainRankOverviewLiveResponseInfo`](DataforseoLabsBingDomainRankOverviewLiveResponseInfo.md)
 
-Defined in: main.ts:117474
+Defined in: main.ts:117566
 
 #### Parameters
 

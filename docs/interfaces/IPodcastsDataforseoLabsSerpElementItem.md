@@ -6,7 +6,7 @@
 
 # Interface: IPodcastsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108864
+Defined in: main.ts:108920
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:108864
 
 > `optional` **items**: [`PodcastsElement`](../classes/PodcastsElement.md)[]
 
-Defined in: main.ts:108866
+Defined in: main.ts:108922
 
 elements of search results found in SERP
 

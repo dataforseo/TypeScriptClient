@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleAdsSearchVolumeLiveTaskInfo
 
-Defined in: main.ts:128014
+Defined in: main.ts:128130
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:128014
 
 > **new KeywordsDataGoogleAdsSearchVolumeLiveTaskInfo**(`data`?): [`KeywordsDataGoogleAdsSearchVolumeLiveTaskInfo`](KeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md)
 
-Defined in: main.ts:128020
+Defined in: main.ts:128136
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataGoogleAdsSearchVolumeLiveResultInfo`](KeywordsDataGoogleAdsSearchVolumeLiveResultInfo.md)[]
 
-Defined in: main.ts:128016
+Defined in: main.ts:128132
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:128024
+Defined in: main.ts:128140
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:128024
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:128046
+Defined in: main.ts:128162
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:128046
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleAdsSearchVolumeLiveTaskInfo`](KeywordsDataGoogleAdsSearchVolumeLiveTaskInfo.md)
 
-Defined in: main.ts:128039
+Defined in: main.ts:128155
 
 #### Parameters
 

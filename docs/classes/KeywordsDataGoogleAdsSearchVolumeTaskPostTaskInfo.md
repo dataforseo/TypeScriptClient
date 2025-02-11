@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleAdsSearchVolumeTaskPostTaskInfo
 
-Defined in: main.ts:127020
+Defined in: main.ts:127136
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:127020
 
 > **new KeywordsDataGoogleAdsSearchVolumeTaskPostTaskInfo**(`data`?): [`KeywordsDataGoogleAdsSearchVolumeTaskPostTaskInfo`](KeywordsDataGoogleAdsSearchVolumeTaskPostTaskInfo.md)
 
-Defined in: main.ts:127027
+Defined in: main.ts:127143
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:127023
+Defined in: main.ts:127139
 
 array of results
 in this case, the value will be null
@@ -215,7 +215,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:127031
+Defined in: main.ts:127147
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:127031
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:127049
+Defined in: main.ts:127165
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:127049
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleAdsSearchVolumeTaskPostTaskInfo`](KeywordsDataGoogleAdsSearchVolumeTaskPostTaskInfo.md)
 
-Defined in: main.ts:127042
+Defined in: main.ts:127158
 
 #### Parameters
 

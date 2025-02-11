@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleEventsTasksFixedTaskInfo
 
-Defined in: main.ts:48635
+Defined in: main.ts:48651
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:48635
 
 > **new SerpGoogleEventsTasksFixedTaskInfo**(`data`?): [`SerpGoogleEventsTasksFixedTaskInfo`](SerpGoogleEventsTasksFixedTaskInfo.md)
 
-Defined in: main.ts:48641
+Defined in: main.ts:48657
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleEventsTasksFixedResultInfo`](SerpGoogleEventsTasksFixedResultInfo.md)[]
 
-Defined in: main.ts:48637
+Defined in: main.ts:48653
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:48645
+Defined in: main.ts:48661
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:48645
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:48667
+Defined in: main.ts:48683
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:48667
 
 > `static` **fromJS**(`data`): [`SerpGoogleEventsTasksFixedTaskInfo`](SerpGoogleEventsTasksFixedTaskInfo.md)
 
-Defined in: main.ts:48660
+Defined in: main.ts:48676
 
 #### Parameters
 

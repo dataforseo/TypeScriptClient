@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGooglePageIntersectionLiveTaskInfo
 
-Defined in: main.ts:110564
+Defined in: main.ts:110620
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGooglePageIntersectionLiveResultInfo`](../classes/DataforseoLabsGooglePageIntersectionLiveResultInfo.md)[]
 
-Defined in: main.ts:110566
+Defined in: main.ts:110622
 
 array of results
 

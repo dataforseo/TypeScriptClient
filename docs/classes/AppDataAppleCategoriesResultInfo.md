@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleCategoriesResultInfo
 
-Defined in: main.ts:204736
+Defined in: main.ts:205238
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:204736
 
 > **new AppDataAppleCategoriesResultInfo**(`data`?): [`AppDataAppleCategoriesResultInfo`](AppDataAppleCategoriesResultInfo.md)
 
-Defined in: main.ts:204742
+Defined in: main.ts:205244
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:204742
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:204738
+Defined in: main.ts:205240
 
 contains full list of supported app categories
 
@@ -54,7 +54,7 @@ contains full list of supported app categories
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:204751
+Defined in: main.ts:205253
 
 #### Parameters
 
@@ -72,7 +72,7 @@ Defined in: main.ts:204751
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:204772
+Defined in: main.ts:205274
 
 #### Parameters
 
@@ -90,7 +90,7 @@ Defined in: main.ts:204772
 
 > `static` **fromJS**(`data`): [`AppDataAppleCategoriesResultInfo`](AppDataAppleCategoriesResultInfo.md)
 
-Defined in: main.ts:204765
+Defined in: main.ts:205267
 
 #### Parameters
 

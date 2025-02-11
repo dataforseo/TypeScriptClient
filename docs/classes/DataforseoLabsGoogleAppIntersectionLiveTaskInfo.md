@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleAppIntersectionLiveTaskInfo
 
-Defined in: main.ts:123070
+Defined in: main.ts:123186
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:123070
 
 > **new DataforseoLabsGoogleAppIntersectionLiveTaskInfo**(`data`?): [`DataforseoLabsGoogleAppIntersectionLiveTaskInfo`](DataforseoLabsGoogleAppIntersectionLiveTaskInfo.md)
 
-Defined in: main.ts:123076
+Defined in: main.ts:123192
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleAppIntersectionLiveResultInfo`](DataforseoLabsGoogleAppIntersectionLiveResultInfo.md)[]
 
-Defined in: main.ts:123072
+Defined in: main.ts:123188
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:123080
+Defined in: main.ts:123196
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:123080
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:123102
+Defined in: main.ts:123218
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:123102
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleAppIntersectionLiveTaskInfo`](DataforseoLabsGoogleAppIntersectionLiveTaskInfo.md)
 
-Defined in: main.ts:123095
+Defined in: main.ts:123211
 
 #### Parameters
 

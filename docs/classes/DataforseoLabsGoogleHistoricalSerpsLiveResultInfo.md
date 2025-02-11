@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleHistoricalSerpsLiveResultInfo
 
-Defined in: main.ts:106582
+Defined in: main.ts:106714
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:106582
 
 > **new DataforseoLabsGoogleHistoricalSerpsLiveResultInfo**(`data`?): [`DataforseoLabsGoogleHistoricalSerpsLiveResultInfo`](DataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md)
 
-Defined in: main.ts:106602
+Defined in: main.ts:106734
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:106602
 
 > `optional` **items**: [`DataforseoLabsGoogleHistoricalSerpsLiveItem`](DataforseoLabsGoogleHistoricalSerpsLiveItem.md)[]
 
-Defined in: main.ts:106598
+Defined in: main.ts:106730
 
 additional items present in the element
 if there are none, equals null
@@ -55,7 +55,7 @@ if there are none, equals null
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:106595
+Defined in: main.ts:106727
 
 the number of results returned in the items array
 
@@ -69,7 +69,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:106587
+Defined in: main.ts:106719
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -84,7 +84,7 @@ the keyword is returned with decoded %## (plus character ‘+’ will be decoded
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:106591
+Defined in: main.ts:106723
 
 language code in a POST array
 
@@ -98,7 +98,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:106589
+Defined in: main.ts:106721
 
 location code in a POST array
 
@@ -112,7 +112,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:106584
+Defined in: main.ts:106716
 
 search engine type
 
@@ -126,7 +126,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:106593
+Defined in: main.ts:106725
 
 the number of results returned in the items array
 
@@ -140,7 +140,7 @@ the number of results returned in the items array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:106611
+Defined in: main.ts:106743
 
 #### Parameters
 
@@ -158,7 +158,7 @@ Defined in: main.ts:106611
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:106638
+Defined in: main.ts:106770
 
 #### Parameters
 
@@ -176,7 +176,7 @@ Defined in: main.ts:106638
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSerpsLiveResultInfo`](DataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md)
 
-Defined in: main.ts:106631
+Defined in: main.ts:106763
 
 #### Parameters
 

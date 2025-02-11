@@ -6,7 +6,7 @@
 
 # Interface: IOnPageLighthouseTaskPostRequestInfo
 
-Defined in: main.ts:175573
+Defined in: main.ts:175937
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:175573
 
 > `optional` **audits**: `string`[]
 
-Defined in: main.ts:175606
+Defined in: main.ts:175970
 
 Lighthouse audits
 optional field
@@ -39,7 +39,7 @@ you can get the full list of possible audits here
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:175593
+Defined in: main.ts:175957
 
 categories of Lighthouse audits
 optional field
@@ -55,7 +55,7 @@ seo, pwa, performance, best_practices, accessibility
 
 > `optional` **for\_mobile**: `boolean`
 
-Defined in: main.ts:175585
+Defined in: main.ts:175949
 
 applies mobile emulation
 optional field
@@ -69,7 +69,7 @@ default value: false
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:175623
+Defined in: main.ts:175987
 
 lighthouse language code
 optional field
@@ -83,7 +83,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:175617
+Defined in: main.ts:175981
 
 lighthouse language name
 optional field
@@ -97,7 +97,7 @@ English
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:175640
+Defined in: main.ts:176004
 
 notification URL of a completed task
 optional field
@@ -116,7 +116,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:175651
+Defined in: main.ts:176015
 
 return URL for sending task results
 optional field
@@ -135,7 +135,7 @@ learn more on our Help Center
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:175629
+Defined in: main.ts:175993
 
 user-defined task identifier
 optional field
@@ -149,7 +149,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:175579
+Defined in: main.ts:175943
 
 target URL
 required field
@@ -163,7 +163,7 @@ https://dataforseo.com/
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:175611
+Defined in: main.ts:175975
 
 lighthouse version
 optional field

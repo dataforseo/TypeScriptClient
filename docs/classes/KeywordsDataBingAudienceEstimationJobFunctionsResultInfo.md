@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingAudienceEstimationJobFunctionsResultInfo
 
-Defined in: main.ts:139886
+Defined in: main.ts:140050
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:139886
 
 > **new KeywordsDataBingAudienceEstimationJobFunctionsResultInfo**(`data`?): [`KeywordsDataBingAudienceEstimationJobFunctionsResultInfo`](KeywordsDataBingAudienceEstimationJobFunctionsResultInfo.md)
 
-Defined in: main.ts:139894
+Defined in: main.ts:140058
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:139894
 
 > `optional` **job\_function\_id**: `number`
 
-Defined in: main.ts:139888
+Defined in: main.ts:140052
 
 ID of the job function
 
@@ -54,7 +54,7 @@ ID of the job function
 
 > `optional` **job\_function\_name**: `string`
 
-Defined in: main.ts:139890
+Defined in: main.ts:140054
 
 name of the job function
 
@@ -68,7 +68,7 @@ name of the job function
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:139903
+Defined in: main.ts:140067
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:139903
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:139921
+Defined in: main.ts:140085
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:139921
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingAudienceEstimationJobFunctionsResultInfo`](KeywordsDataBingAudienceEstimationJobFunctionsResultInfo.md)
 
-Defined in: main.ts:139914
+Defined in: main.ts:140078
 
 #### Parameters
 

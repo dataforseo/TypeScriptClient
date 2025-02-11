@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo
 
-Defined in: main.ts:132382
+Defined in: main.ts:132498
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:132382
 
 > `optional` **average\_cpc**: `number`
 
-Defined in: main.ts:132419
+Defined in: main.ts:132535
 
 the average cost-per-click value
 represents the cost-per-click (USD) estimated for a keyword based on the specified time period and historical data;
@@ -30,7 +30,7 @@ if there is no data, then the value is null
 
 > `optional` **bid**: `number`
 
-Defined in: main.ts:132403
+Defined in: main.ts:132519
 
 the maximum custom bid
 the bid you have specified when setting the task
@@ -44,7 +44,7 @@ learn more in this help center article
 
 > `optional` **clicks**: `number`
 
-Defined in: main.ts:132427
+Defined in: main.ts:132543
 
 number of clicks on an ad
 number of clicks an ad is projected to get within the specified time period
@@ -56,7 +56,7 @@ if there is no data, then the value is null
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:132423
+Defined in: main.ts:132539
 
 charge for an ad
 amount that will be charged for running an ad within the specified time period
@@ -68,7 +68,7 @@ if there is no data, then the value is null
 
 > `optional` **ctr**: `number`
 
-Defined in: main.ts:132415
+Defined in: main.ts:132531
 
 projected click through rate (CTR) of the advertisement
 number of clicks an ad is projected to receive divided by the number of ad impressions; the CTR is projected for the specified time period
@@ -80,7 +80,7 @@ if there is no data, then the value is null
 
 > `optional` **date\_interval**: `string`
 
-Defined in: main.ts:132392
+Defined in: main.ts:132508
 
 forecasting date interval in a POST array
 
@@ -90,7 +90,7 @@ forecasting date interval in a POST array
 
 > `optional` **impressions**: `number`
 
-Defined in: main.ts:132411
+Defined in: main.ts:132527
 
 projected number of ad impressions
 number of impressions an ad is projected to get within the specified time period
@@ -103,7 +103,7 @@ learn more about impressions in this help center article
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:132384
+Defined in: main.ts:132500
 
 keyword in a POST array
 
@@ -113,7 +113,7 @@ keyword in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:132390
+Defined in: main.ts:132506
 
 language code in a POST array
 if there is no data, then the value is null
@@ -124,7 +124,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:132387
+Defined in: main.ts:132503
 
 location code in a POST array
 if there is no data, then the value is null
@@ -135,7 +135,7 @@ if there is no data, then the value is null
 
 > `optional` **match**: `string`
 
-Defined in: main.ts:132406
+Defined in: main.ts:132522
 
 keywords match-type
 can take the following values: exact, broad, phrase
@@ -146,7 +146,7 @@ can take the following values: exact, broad, phrase
 
 > `optional` **search\_partners**: `boolean`
 
-Defined in: main.ts:132397
+Defined in: main.ts:132513
 
 include Google search partners
 the value you specified when setting the task

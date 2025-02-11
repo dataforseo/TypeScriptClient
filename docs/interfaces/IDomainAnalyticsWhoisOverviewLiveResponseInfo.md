@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsWhoisOverviewLiveResponseInfo
 
-Defined in: main.ts:89915
+Defined in: main.ts:89951
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DomainAnalyticsWhoisOverviewLiveTaskInfo`](../classes/DomainAnalyticsWhoisOverviewLiveTaskInfo.md)[]
 
-Defined in: main.ts:89917
+Defined in: main.ts:89953
 
 array of tasks
 

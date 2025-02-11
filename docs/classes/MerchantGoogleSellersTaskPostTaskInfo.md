@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleSellersTaskPostTaskInfo
 
-Defined in: main.ts:187646
+Defined in: main.ts:188020
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:187646
 
 > **new MerchantGoogleSellersTaskPostTaskInfo**(`data`?): [`MerchantGoogleSellersTaskPostTaskInfo`](MerchantGoogleSellersTaskPostTaskInfo.md)
 
-Defined in: main.ts:187653
+Defined in: main.ts:188027
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:187649
+Defined in: main.ts:188023
 
 array of results
 in this case, the value will be null
@@ -215,7 +215,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:187657
+Defined in: main.ts:188031
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:187657
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:187675
+Defined in: main.ts:188049
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:187675
 
 > `static` **fromJS**(`data`): [`MerchantGoogleSellersTaskPostTaskInfo`](MerchantGoogleSellersTaskPostTaskInfo.md)
 
-Defined in: main.ts:187668
+Defined in: main.ts:188042
 
 #### Parameters
 

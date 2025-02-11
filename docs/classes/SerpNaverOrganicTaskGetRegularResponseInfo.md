@@ -6,7 +6,7 @@
 
 # Class: SerpNaverOrganicTaskGetRegularResponseInfo
 
-Defined in: main.ts:81625
+Defined in: main.ts:81661
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:81625
 
 > **new SerpNaverOrganicTaskGetRegularResponseInfo**(`data`?): [`SerpNaverOrganicTaskGetRegularResponseInfo`](SerpNaverOrganicTaskGetRegularResponseInfo.md)
 
-Defined in: main.ts:81631
+Defined in: main.ts:81667
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpNaverOrganicTaskGetRegularTaskInfo`](SerpNaverOrganicTaskGetRegularTaskInfo.md)[]
 
-Defined in: main.ts:81627
+Defined in: main.ts:81663
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:81635
+Defined in: main.ts:81671
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:81635
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:81657
+Defined in: main.ts:81693
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:81657
 
 > `static` **fromJS**(`data`): [`SerpNaverOrganicTaskGetRegularResponseInfo`](SerpNaverOrganicTaskGetRegularResponseInfo.md)
 
-Defined in: main.ts:81650
+Defined in: main.ts:81686
 
 #### Parameters
 

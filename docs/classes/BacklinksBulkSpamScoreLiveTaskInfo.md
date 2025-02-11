@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkSpamScoreLiveTaskInfo
 
-Defined in: main.ts:161178
+Defined in: main.ts:161342
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:161178
 
 > **new BacklinksBulkSpamScoreLiveTaskInfo**(`data`?): [`BacklinksBulkSpamScoreLiveTaskInfo`](BacklinksBulkSpamScoreLiveTaskInfo.md)
 
-Defined in: main.ts:161184
+Defined in: main.ts:161348
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`BacklinksBulkSpamScoreLiveResultInfo`](BacklinksBulkSpamScoreLiveResultInfo.md)[]
 
-Defined in: main.ts:161180
+Defined in: main.ts:161344
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:161188
+Defined in: main.ts:161352
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:161188
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:161210
+Defined in: main.ts:161374
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:161210
 
 > `static` **fromJS**(`data`): [`BacklinksBulkSpamScoreLiveTaskInfo`](BacklinksBulkSpamScoreLiveTaskInfo.md)
 
-Defined in: main.ts:161203
+Defined in: main.ts:161367
 
 #### Parameters
 

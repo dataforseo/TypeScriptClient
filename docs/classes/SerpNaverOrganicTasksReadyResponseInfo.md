@@ -6,7 +6,7 @@
 
 # Class: SerpNaverOrganicTasksReadyResponseInfo
 
-Defined in: main.ts:81139
+Defined in: main.ts:81175
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:81139
 
 > **new SerpNaverOrganicTasksReadyResponseInfo**(`data`?): [`SerpNaverOrganicTasksReadyResponseInfo`](SerpNaverOrganicTasksReadyResponseInfo.md)
 
-Defined in: main.ts:81145
+Defined in: main.ts:81181
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpNaverOrganicTasksReadyTaskInfo`](SerpNaverOrganicTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:81141
+Defined in: main.ts:81177
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:81149
+Defined in: main.ts:81185
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:81149
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:81171
+Defined in: main.ts:81207
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:81171
 
 > `static` **fromJS**(`data`): [`SerpNaverOrganicTasksReadyResponseInfo`](SerpNaverOrganicTasksReadyResponseInfo.md)
 
-Defined in: main.ts:81164
+Defined in: main.ts:81200
 
 #### Parameters
 

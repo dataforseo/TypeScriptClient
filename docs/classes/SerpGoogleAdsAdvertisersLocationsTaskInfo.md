@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleAdsAdvertisersLocationsTaskInfo
 
-Defined in: main.ts:60264
+Defined in: main.ts:60280
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:60264
 
 > **new SerpGoogleAdsAdvertisersLocationsTaskInfo**(`data`?): [`SerpGoogleAdsAdvertisersLocationsTaskInfo`](SerpGoogleAdsAdvertisersLocationsTaskInfo.md)
 
-Defined in: main.ts:60270
+Defined in: main.ts:60286
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleAdsAdvertisersLocationsResultInfo`](SerpGoogleAdsAdvertisersLocationsResultInfo.md)[]
 
-Defined in: main.ts:60266
+Defined in: main.ts:60282
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:60274
+Defined in: main.ts:60290
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:60274
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:60296
+Defined in: main.ts:60312
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:60296
 
 > `static` **fromJS**(`data`): [`SerpGoogleAdsAdvertisersLocationsTaskInfo`](SerpGoogleAdsAdvertisersLocationsTaskInfo.md)
 
-Defined in: main.ts:60289
+Defined in: main.ts:60305
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleAdsSearchTasksReadyTaskInfo
 
-Defined in: main.ts:62267
+Defined in: main.ts:62295
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleAdsSearchTasksReadyResultInfo`](../classes/SerpGoogleAdsSearchTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:62269
+Defined in: main.ts:62297
 
 array of results
 

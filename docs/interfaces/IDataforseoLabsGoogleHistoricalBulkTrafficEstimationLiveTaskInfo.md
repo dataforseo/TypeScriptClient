@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveTaskInfo
 
-Defined in: main.ts:111768
+Defined in: main.ts:111836
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo`](../classes/DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo.md)[]
 
-Defined in: main.ts:111770
+Defined in: main.ts:111838
 
 array of results
 

@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGooglePlayReviewsSearchSerpElementItem
 
-Defined in: main.ts:203576
+Defined in: main.ts:204078
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:203576
 
 > `optional` **helpful\_count**: `number`
 
-Defined in: main.ts:203589
+Defined in: main.ts:204091
 
 number of helpful votes
 indicates how many users considered the review helpful and voted with the thumbs up icon
@@ -33,7 +33,7 @@ indicates how many users considered the review helpful and voted with the thumbs
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:203586
+Defined in: main.ts:204088
 
 id of the review
 
@@ -103,7 +103,7 @@ average rating of the app
 
 > `optional` **responses**: [`ResponseDataInfo`](../classes/ResponseDataInfo.md)[]
 
-Defined in: main.ts:203595
+Defined in: main.ts:204097
 
 response from the developer
 
@@ -113,7 +113,7 @@ response from the developer
 
 > `optional` **review\_text**: `string`
 
-Defined in: main.ts:203591
+Defined in: main.ts:204093
 
 content of the review
 
@@ -123,7 +123,7 @@ content of the review
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:203584
+Defined in: main.ts:204086
 
 date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -164,7 +164,7 @@ type of element
 
 > `optional` **user\_profile**: [`AppUserProfileInfo`](../classes/AppUserProfileInfo.md)
 
-Defined in: main.ts:203593
+Defined in: main.ts:204095
 
 user profile of the reviewer
 
@@ -174,7 +174,7 @@ user profile of the reviewer
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:203579
+Defined in: main.ts:204081
 
 version of the app
 version of the app for which the review is submitted

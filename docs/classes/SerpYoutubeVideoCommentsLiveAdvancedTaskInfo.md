@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeVideoCommentsLiveAdvancedTaskInfo
 
-Defined in: main.ts:74498
+Defined in: main.ts:74534
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:74498
 
 > **new SerpYoutubeVideoCommentsLiveAdvancedTaskInfo**(`data`?): [`SerpYoutubeVideoCommentsLiveAdvancedTaskInfo`](SerpYoutubeVideoCommentsLiveAdvancedTaskInfo.md)
 
-Defined in: main.ts:74504
+Defined in: main.ts:74540
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpYoutubeVideoCommentsLiveAdvancedResultInfo`](SerpYoutubeVideoCommentsLiveAdvancedResultInfo.md)[]
 
-Defined in: main.ts:74500
+Defined in: main.ts:74536
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:74508
+Defined in: main.ts:74544
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:74508
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:74530
+Defined in: main.ts:74566
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:74530
 
 > `static` **fromJS**(`data`): [`SerpYoutubeVideoCommentsLiveAdvancedTaskInfo`](SerpYoutubeVideoCommentsLiveAdvancedTaskInfo.md)
 
-Defined in: main.ts:74523
+Defined in: main.ts:74559
 
 #### Parameters
 

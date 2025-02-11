@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingAudienceEstimationTaskPostTaskInfo
 
-Defined in: main.ts:140437
+Defined in: main.ts:140601
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:140440
+Defined in: main.ts:140604
 
 array of results
 in this case, the value will be null

@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleDatasetInfoTaskPostTaskInfo
 
-Defined in: main.ts:59063
+Defined in: main.ts:59079
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:59066
+Defined in: main.ts:59082
 
 array of results
 in this case, the value will be null

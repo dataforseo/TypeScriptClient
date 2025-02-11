@@ -6,7 +6,7 @@
 
 # Interface: ISerpBingLocalPackLiveRegularRequestInfo
 
-Defined in: main.ts:68103
+Defined in: main.ts:68139
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:68103
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:68169
+Defined in: main.ts:68205
 
 parsing depth
 optional field
@@ -35,7 +35,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:68118
+Defined in: main.ts:68154
 
 keyword
 required field
@@ -52,7 +52,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:68154
+Defined in: main.ts:68190
 
 search engine language code
 required field if you don’t specify language_name
@@ -67,7 +67,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:68147
+Defined in: main.ts:68183
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -82,7 +82,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:68132
+Defined in: main.ts:68168
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -97,7 +97,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:68140
+Defined in: main.ts:68176
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -113,7 +113,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:68125
+Defined in: main.ts:68161
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -128,7 +128,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:68176
+Defined in: main.ts:68212
 
 page crawl limit
 optional field
@@ -143,7 +143,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:68160
+Defined in: main.ts:68196
 
 device operating system
 optional field
@@ -157,7 +157,7 @@ default value: windows
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:68180
+Defined in: main.ts:68216
 
 additional parameters of the search query
 optional field
@@ -169,7 +169,7 @@ get the list of available parameters and additional details here
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:68186
+Defined in: main.ts:68222
 
 user-defined task identifier
 optional field
@@ -183,7 +183,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:68109
+Defined in: main.ts:68145
 
 direct URL of the search query
 optional field

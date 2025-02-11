@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleDatasetSearchTasksReadyResponseInfo
 
-Defined in: main.ts:57429
+Defined in: main.ts:57445
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleDatasetSearchTasksReadyTaskInfo`](../classes/SerpGoogleDatasetSearchTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:57431
+Defined in: main.ts:57447
 
 array of tasks
 

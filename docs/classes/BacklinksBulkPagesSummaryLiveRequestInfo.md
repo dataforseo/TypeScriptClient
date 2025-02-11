@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkPagesSummaryLiveRequestInfo
 
-Defined in: main.ts:162406
+Defined in: main.ts:162570
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:162406
 
 > **new BacklinksBulkPagesSummaryLiveRequestInfo**(`data`?): [`BacklinksBulkPagesSummaryLiveRequestInfo`](BacklinksBulkPagesSummaryLiveRequestInfo.md)
 
-Defined in: main.ts:162428
+Defined in: main.ts:162592
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:162428
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:162418
+Defined in: main.ts:162582
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -57,7 +57,7 @@ default value: true
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:162424
+Defined in: main.ts:162588
 
 user-defined task identifier
 optional field
@@ -75,7 +75,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:162413
+Defined in: main.ts:162577
 
 domains, subdomains or webpages to get summary data for
 required field
@@ -94,7 +94,7 @@ note that the URLs you set in a single request cannot belong to more than 100 di
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:162437
+Defined in: main.ts:162601
 
 #### Parameters
 
@@ -112,7 +112,7 @@ Defined in: main.ts:162437
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:162460
+Defined in: main.ts:162624
 
 #### Parameters
 
@@ -130,7 +130,7 @@ Defined in: main.ts:162460
 
 > `static` **fromJS**(`data`): [`BacklinksBulkPagesSummaryLiveRequestInfo`](BacklinksBulkPagesSummaryLiveRequestInfo.md)
 
-Defined in: main.ts:162453
+Defined in: main.ts:162617
 
 #### Parameters
 

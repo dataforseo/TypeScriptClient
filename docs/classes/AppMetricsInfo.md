@@ -6,7 +6,7 @@
 
 # Class: AppMetricsInfo
 
-Defined in: main.ts:113768
+Defined in: main.ts:113836
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:113768
 
 > **new AppMetricsInfo**(`data`?): [`AppMetricsInfo`](AppMetricsInfo.md)
 
-Defined in: main.ts:113784
+Defined in: main.ts:113852
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:113784
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:113778
+Defined in: main.ts:113846
 
 total count of Amazon organic SERPs that contain the product
 
@@ -54,7 +54,7 @@ total count of Amazon organic SERPs that contain the product
 
 > `optional` **pos\_1**: `number`
 
-Defined in: main.ts:113770
+Defined in: main.ts:113838
 
 number of organic SERPs where the product ranks #1
 
@@ -68,7 +68,7 @@ number of organic SERPs where the product ranks #1
 
 > `optional` **pos\_11\_100**: `number`
 
-Defined in: main.ts:113776
+Defined in: main.ts:113844
 
 number of organic SERPs where the product ranks #11-100
 
@@ -82,7 +82,7 @@ number of organic SERPs where the product ranks #11-100
 
 > `optional` **pos\_2\_3**: `number`
 
-Defined in: main.ts:113772
+Defined in: main.ts:113840
 
 number of organic SERPs where the product ranks #2-3
 
@@ -96,7 +96,7 @@ number of organic SERPs where the product ranks #2-3
 
 > `optional` **pos\_4\_10**: `number`
 
-Defined in: main.ts:113774
+Defined in: main.ts:113842
 
 number of organic SERPs where the product ranks #4-10
 
@@ -110,7 +110,7 @@ number of organic SERPs where the product ranks #4-10
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:113780
+Defined in: main.ts:113848
 
 total search volume of the product’s ranking keywords in organic SERP
 
@@ -124,7 +124,7 @@ total search volume of the product’s ranking keywords in organic SERP
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:113793
+Defined in: main.ts:113861
 
 #### Parameters
 
@@ -142,7 +142,7 @@ Defined in: main.ts:113793
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:113815
+Defined in: main.ts:113883
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: main.ts:113815
 
 > `static` **fromJS**(`data`): [`AppMetricsInfo`](AppMetricsInfo.md)
 
-Defined in: main.ts:113808
+Defined in: main.ts:113876
 
 #### Parameters
 

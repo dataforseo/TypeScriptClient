@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkBacklinksLiveRequestInfo
 
-Defined in: main.ts:160608
+Defined in: main.ts:160772
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:160608
 
 > **new BacklinksBulkBacklinksLiveRequestInfo**(`data`?): [`BacklinksBulkBacklinksLiveRequestInfo`](BacklinksBulkBacklinksLiveRequestInfo.md)
 
-Defined in: main.ts:160637
+Defined in: main.ts:160801
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:160637
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:160633
+Defined in: main.ts:160797
 
 user-defined task identifier
 optional field
@@ -58,7 +58,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:160627
+Defined in: main.ts:160791
 
 domains, subdomains or webpages to get the number of backlinks for
 required field
@@ -89,7 +89,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:160646
+Defined in: main.ts:160810
 
 #### Parameters
 
@@ -107,7 +107,7 @@ Defined in: main.ts:160646
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:160668
+Defined in: main.ts:160832
 
 #### Parameters
 
@@ -125,7 +125,7 @@ Defined in: main.ts:160668
 
 > `static` **fromJS**(`data`): [`BacklinksBulkBacklinksLiveRequestInfo`](BacklinksBulkBacklinksLiveRequestInfo.md)
 
-Defined in: main.ts:160661
+Defined in: main.ts:160825
 
 #### Parameters
 

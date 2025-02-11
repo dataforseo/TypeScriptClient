@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleReviewsTaskPostResponseInfo
 
-Defined in: main.ts:221869
+Defined in: main.ts:222377
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BusinessDataGoogleReviewsTaskPostTaskInfo`](../classes/BusinessDataGoogleReviewsTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:221871
+Defined in: main.ts:222379
 
 array of tasks
 

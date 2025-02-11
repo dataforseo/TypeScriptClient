@@ -6,7 +6,7 @@
 
 # Interface: IShortVideosSerpElementItem
 
-Defined in: main.ts:37058
+Defined in: main.ts:37074
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:37058
 
 > `optional` **items**: [`ShortVideosElement`](../classes/ShortVideosElement.md)[]
 
-Defined in: main.ts:37062
+Defined in: main.ts:37078
 
 contains arrays of specific images
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:37066
+Defined in: main.ts:37082
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -91,7 +91,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:37060
+Defined in: main.ts:37076
 
 title of the row
 

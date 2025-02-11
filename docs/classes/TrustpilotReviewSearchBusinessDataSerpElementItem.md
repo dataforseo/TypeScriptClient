@@ -6,7 +6,7 @@
 
 # Class: TrustpilotReviewSearchBusinessDataSerpElementItem
 
-Defined in: main.ts:226770
+Defined in: main.ts:227278
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:226770
 
 > **new TrustpilotReviewSearchBusinessDataSerpElementItem**(`data`?): [`TrustpilotReviewSearchBusinessDataSerpElementItem`](TrustpilotReviewSearchBusinessDataSerpElementItem.md)
 
-Defined in: main.ts:226802
+Defined in: main.ts:227310
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22211
 
 > `optional` **language**: `string`
 
-Defined in: main.ts:226781
+Defined in: main.ts:227289
 
 the language of the review
 
@@ -74,7 +74,7 @@ the language of the review
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:226773
+Defined in: main.ts:227281
 
 the alignment of the review in SERP
 can take the following values: right
@@ -126,7 +126,7 @@ positions of elements with different type values are omitted from the rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:226777
+Defined in: main.ts:227285
 
 the rating score submitted by the reviewer
 
@@ -140,7 +140,7 @@ the rating score submitted by the reviewer
 
 > `optional` **responses**: [`ReviewResponseItemInfo`](ReviewResponseItemInfo.md)[]
 
-Defined in: main.ts:226798
+Defined in: main.ts:227306
 
 owner’s response to the submitted review
 
@@ -154,7 +154,7 @@ owner’s response to the submitted review
 
 > `optional` **review\_images**: `string`[]
 
-Defined in: main.ts:226794
+Defined in: main.ts:227302
 
 images submitted by the reviewer
 displays URLs to the images provided by the author of the review;
@@ -170,7 +170,7 @@ please note that Trustpilot doesn’t allow adding images to reviews, so the rev
 
 > `optional` **review\_text**: `string`
 
-Defined in: main.ts:226790
+Defined in: main.ts:227298
 
 the content of the review
 
@@ -184,7 +184,7 @@ the content of the review
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:226786
+Defined in: main.ts:227294
 
 date and time when a review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -201,7 +201,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:226788
+Defined in: main.ts:227296
 
 the title of the review
 
@@ -233,7 +233,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:226775
+Defined in: main.ts:227283
 
 the URL of the review
 
@@ -247,7 +247,7 @@ the URL of the review
 
 > `optional` **user\_profile**: [`BusinessDataUserProfileInfo`](BusinessDataUserProfileInfo.md)
 
-Defined in: main.ts:226796
+Defined in: main.ts:227304
 
 user profile of the reviewer
 
@@ -261,7 +261,7 @@ user profile of the reviewer
 
 > `optional` **verified**: `boolean`
 
-Defined in: main.ts:226779
+Defined in: main.ts:227287
 
 indicates whether the review has the “Verified” mark
 
@@ -275,7 +275,7 @@ indicates whether the review has the “Verified” mark
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:226807
+Defined in: main.ts:227315
 
 #### Parameters
 
@@ -297,7 +297,7 @@ Defined in: main.ts:226807
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:226843
+Defined in: main.ts:227351
 
 #### Parameters
 
@@ -319,7 +319,7 @@ Defined in: main.ts:226843
 
 > `static` **fromJS**(`data`): [`TrustpilotReviewSearchBusinessDataSerpElementItem`](TrustpilotReviewSearchBusinessDataSerpElementItem.md)
 
-Defined in: main.ts:226836
+Defined in: main.ts:227344
 
 #### Parameters
 

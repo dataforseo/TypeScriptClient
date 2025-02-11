@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingPageIntersectionLiveResponseInfo
 
-Defined in: main.ts:118105
+Defined in: main.ts:118197
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:118105
 
 > **new DataforseoLabsBingPageIntersectionLiveResponseInfo**(`data`?): [`DataforseoLabsBingPageIntersectionLiveResponseInfo`](DataforseoLabsBingPageIntersectionLiveResponseInfo.md)
 
-Defined in: main.ts:118111
+Defined in: main.ts:118203
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsBingPageIntersectionLiveTaskInfo`](DataforseoLabsBingPageIntersectionLiveTaskInfo.md)[]
 
-Defined in: main.ts:118107
+Defined in: main.ts:118199
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:118115
+Defined in: main.ts:118207
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:118115
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:118137
+Defined in: main.ts:118229
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:118137
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingPageIntersectionLiveResponseInfo`](DataforseoLabsBingPageIntersectionLiveResponseInfo.md)
 
-Defined in: main.ts:118130
+Defined in: main.ts:118222
 
 #### Parameters
 

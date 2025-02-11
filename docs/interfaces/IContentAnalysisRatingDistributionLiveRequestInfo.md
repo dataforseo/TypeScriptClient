@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisRatingDistributionLiveRequestInfo
 
-Defined in: main.ts:179675
+Defined in: main.ts:180037
 
 ## Indexable
 
@@ -18,14 +18,14 @@ Defined in: main.ts:179675
 
 > `optional` **initial\_dataset\_filters**: `any`[]
 
-Defined in: main.ts:179751
+Defined in: main.ts:180113
 
 initial dataset filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like, has, has_not
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like, has, has_not, match, not_match
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["domain","<>", "logitech.com"]
@@ -43,7 +43,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:179713
+Defined in: main.ts:180075
 
 maximum number of elements within internal arrays
 optional field
@@ -62,7 +62,7 @@ maximum value: 20
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:179684
+Defined in: main.ts:180046
 
 target keyword
 required field
@@ -79,7 +79,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **keyword\_fields**: `object`
 
-Defined in: main.ts:179696
+Defined in: main.ts:180058
 
 target keyword fields and target keywords
 optional field
@@ -103,7 +103,7 @@ example:
 
 > `optional` **page\_type**: `string`[]
 
-Defined in: main.ts:179702
+Defined in: main.ts:180064
 
 target page types
 optional field
@@ -117,7 +117,7 @@ possible values:
 
 > `optional` **positive\_connotation\_threshold**: `number`
 
-Defined in: main.ts:179727
+Defined in: main.ts:180089
 
 positive connotation threshold
 optional field
@@ -132,7 +132,7 @@ default value: 0.4
 
 > `optional` **search\_mode**: `string`
 
-Defined in: main.ts:179720
+Defined in: main.ts:180082
 
 results grouping type
 optional field
@@ -147,7 +147,7 @@ default value: as_is
 
 > `optional` **sentiments\_connotation\_threshold**: `number`
 
-Defined in: main.ts:179734
+Defined in: main.ts:180096
 
 sentiment connotation threshold
 optional field
@@ -162,7 +162,7 @@ default value: 0.4
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:179757
+Defined in: main.ts:180119
 
 user-defined task identifier
 optional field

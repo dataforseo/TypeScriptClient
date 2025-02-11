@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingKeywordPerformanceLocationsAndLanguagesTaskInfo
 
-Defined in: main.ts:144336
+Defined in: main.ts:144500
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:144336
 
 > **new KeywordsDataBingKeywordPerformanceLocationsAndLanguagesTaskInfo**(`data`?): [`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesTaskInfo`](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesTaskInfo.md)
 
-Defined in: main.ts:144342
+Defined in: main.ts:144506
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo`](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md)[]
 
-Defined in: main.ts:144338
+Defined in: main.ts:144502
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:144346
+Defined in: main.ts:144510
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:144346
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:144368
+Defined in: main.ts:144532
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:144368
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesTaskInfo`](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesTaskInfo.md)
 
-Defined in: main.ts:144361
+Defined in: main.ts:144525
 
 #### Parameters
 

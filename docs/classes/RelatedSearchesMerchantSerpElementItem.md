@@ -6,7 +6,7 @@
 
 # Class: RelatedSearchesMerchantSerpElementItem
 
-Defined in: main.ts:186810
+Defined in: main.ts:187172
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:186810
 
 > **new RelatedSearchesMerchantSerpElementItem**(`data`?): [`RelatedSearchesMerchantSerpElementItem`](RelatedSearchesMerchantSerpElementItem.md)
 
-Defined in: main.ts:186819
+Defined in: main.ts:187181
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21722
 
 > `optional` **items**: `string`[]
 
-Defined in: main.ts:186815
+Defined in: main.ts:187177
 
 additional items present in the element
 if there are none, equals null
@@ -151,7 +151,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:186812
+Defined in: main.ts:187174
 
 XPath of the element
 
@@ -165,7 +165,7 @@ XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:186824
+Defined in: main.ts:187186
 
 #### Parameters
 
@@ -187,7 +187,7 @@ Defined in: main.ts:186824
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:186847
+Defined in: main.ts:187209
 
 #### Parameters
 
@@ -209,7 +209,7 @@ Defined in: main.ts:186847
 
 > `static` **fromJS**(`data`): [`RelatedSearchesMerchantSerpElementItem`](RelatedSearchesMerchantSerpElementItem.md)
 
-Defined in: main.ts:186840
+Defined in: main.ts:187202
 
 #### Parameters
 

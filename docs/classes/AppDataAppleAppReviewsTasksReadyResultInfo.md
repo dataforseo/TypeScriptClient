@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppReviewsTasksReadyResultInfo
 
-Defined in: main.ts:208178
+Defined in: main.ts:208680
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:208178
 
 > **new AppDataAppleAppReviewsTasksReadyResultInfo**(`data`?): [`AppDataAppleAppReviewsTasksReadyResultInfo`](AppDataAppleAppReviewsTasksReadyResultInfo.md)
 
-Defined in: main.ts:208198
+Defined in: main.ts:208700
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:208198
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:208187
+Defined in: main.ts:208689
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:208191
+Defined in: main.ts:208693
 
 URL for collecting the results of the Apple App Reviews task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the Apple App Reviews task
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:208194
+Defined in: main.ts:208696
 
 URL for collecting the results of the Apple App Reviews HTML task
 if HTML tasks are not supported in the specified endpoint, the value will be null
@@ -83,7 +83,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:208181
+Defined in: main.ts:208683
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -98,7 +98,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:208183
+Defined in: main.ts:208685
 
 search engine specified when setting the task
 
@@ -112,7 +112,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:208185
+Defined in: main.ts:208687
 
 search engine type
 
@@ -126,7 +126,7 @@ search engine type
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:208189
+Defined in: main.ts:208691
 
 user-defined task identifier
 
@@ -140,7 +140,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:208207
+Defined in: main.ts:208709
 
 #### Parameters
 
@@ -158,7 +158,7 @@ Defined in: main.ts:208207
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:208230
+Defined in: main.ts:208732
 
 #### Parameters
 
@@ -176,7 +176,7 @@ Defined in: main.ts:208230
 
 > `static` **fromJS**(`data`): [`AppDataAppleAppReviewsTasksReadyResultInfo`](AppDataAppleAppReviewsTasksReadyResultInfo.md)
 
-Defined in: main.ts:208223
+Defined in: main.ts:208725
 
 #### Parameters
 

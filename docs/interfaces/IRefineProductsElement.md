@@ -6,7 +6,7 @@
 
 # Interface: IRefineProductsElement
 
-Defined in: main.ts:37135
+Defined in: main.ts:37151
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:37135
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:37142
+Defined in: main.ts:37158
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -29,7 +29,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:37144
+Defined in: main.ts:37160
 
 keyword for the related refined search
 
@@ -39,7 +39,7 @@ keyword for the related refined search
 
 > `optional` **refine\_type**: `string`
 
-Defined in: main.ts:37146
+Defined in: main.ts:37162
 
 type of search refinement
 
@@ -49,7 +49,7 @@ type of search refinement
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:37139
+Defined in: main.ts:37155
 
 title of a given link element
 
@@ -59,7 +59,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:37137
+Defined in: main.ts:37153
 
 type of element
 
@@ -69,6 +69,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:37148
+Defined in: main.ts:37164
 
 the XPath of the element

@@ -6,7 +6,7 @@
 
 # Interface: IDiscussionsAndForumsSerpElementItem
 
-Defined in: main.ts:37716
+Defined in: main.ts:37732
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:37716
 
 > `optional` **items**: [`DiscussionsAndForumsElement`](../classes/DiscussionsAndForumsElement.md)[]
 
-Defined in: main.ts:37720
+Defined in: main.ts:37736
 
 contains arrays of specific images
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:37724
+Defined in: main.ts:37740
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -91,7 +91,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:37718
+Defined in: main.ts:37734
 
 title of the row
 

@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphHotelsBookingItemSerpElementItem
 
-Defined in: main.ts:30727
+Defined in: main.ts:30733
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:30727
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:30743
+Defined in: main.ts:30749
 
 google defined data attribute ID
 example:
@@ -34,7 +34,7 @@ kc:/local:hotel booking
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:30734
+Defined in: main.ts:30740
 
 starting date of stay
 in the format “year-month-date”
@@ -47,7 +47,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:30739
+Defined in: main.ts:30745
 
 ending date of stay
 in the format “year-month-date”
@@ -60,7 +60,7 @@ example:
 
 > `optional` **items**: [`KnowledgeGraphHotelsBookingElement`](../classes/KnowledgeGraphHotelsBookingElement.md)[]
 
-Defined in: main.ts:30746
+Defined in: main.ts:30752
 
 additional items present in the element
 if there are none, equals null
@@ -118,7 +118,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:30750
+Defined in: main.ts:30756
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -130,7 +130,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:30729
+Defined in: main.ts:30735
 
 title of a given link element
 

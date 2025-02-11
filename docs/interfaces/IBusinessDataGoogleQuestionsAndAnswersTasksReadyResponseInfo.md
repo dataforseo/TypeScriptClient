@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleQuestionsAndAnswersTasksReadyResponseInfo
 
-Defined in: main.ts:224355
+Defined in: main.ts:224863
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BusinessDataGoogleQuestionsAndAnswersTasksReadyTaskInfo`](../classes/BusinessDataGoogleQuestionsAndAnswersTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:224357
+Defined in: main.ts:224865
 
 array of tasks
 

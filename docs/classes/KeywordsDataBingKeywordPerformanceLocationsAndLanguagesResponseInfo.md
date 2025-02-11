@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo
 
-Defined in: main.ts:144391
+Defined in: main.ts:144555
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:144391
 
 > **new KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo**(`data`?): [`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo`](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo.md)
 
-Defined in: main.ts:144397
+Defined in: main.ts:144561
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesTaskInfo`](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:144393
+Defined in: main.ts:144557
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:144401
+Defined in: main.ts:144565
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:144401
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:144423
+Defined in: main.ts:144587
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:144423
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo`](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo.md)
 
-Defined in: main.ts:144416
+Defined in: main.ts:144580
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleBulkKeywordDifficultyLiveTaskInfo
 
-Defined in: main.ts:96294
+Defined in: main.ts:96320
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:96294
 
 > **new DataforseoLabsGoogleBulkKeywordDifficultyLiveTaskInfo**(`data`?): [`DataforseoLabsGoogleBulkKeywordDifficultyLiveTaskInfo`](DataforseoLabsGoogleBulkKeywordDifficultyLiveTaskInfo.md)
 
-Defined in: main.ts:96300
+Defined in: main.ts:96326
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleBulkKeywordDifficultyLiveResultInfo`](DataforseoLabsGoogleBulkKeywordDifficultyLiveResultInfo.md)[]
 
-Defined in: main.ts:96296
+Defined in: main.ts:96322
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:96304
+Defined in: main.ts:96330
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:96304
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:96326
+Defined in: main.ts:96352
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:96326
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleBulkKeywordDifficultyLiveTaskInfo`](DataforseoLabsGoogleBulkKeywordDifficultyLiveTaskInfo.md)
 
-Defined in: main.ts:96319
+Defined in: main.ts:96345
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: ISerpBingOrganicTaskPostTaskInfo
 
-Defined in: main.ts:63798
+Defined in: main.ts:63828
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:63801
+Defined in: main.ts:63831
 
 array of results
 in this case, the value will be null

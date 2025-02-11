@@ -6,7 +6,7 @@
 
 # Class: BusinessDataSocialMediaPinterestLiveTaskInfo
 
-Defined in: main.ts:229784
+Defined in: main.ts:230292
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:229784
 
 > **new BusinessDataSocialMediaPinterestLiveTaskInfo**(`data`?): [`BusinessDataSocialMediaPinterestLiveTaskInfo`](BusinessDataSocialMediaPinterestLiveTaskInfo.md)
 
-Defined in: main.ts:229790
+Defined in: main.ts:230298
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataSocialMediaPinterestLiveResultInfo`](BusinessDataSocialMediaPinterestLiveResultInfo.md)[]
 
-Defined in: main.ts:229786
+Defined in: main.ts:230294
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:229794
+Defined in: main.ts:230302
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:229794
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:229816
+Defined in: main.ts:230324
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:229816
 
 > `static` **fromJS**(`data`): [`BusinessDataSocialMediaPinterestLiveTaskInfo`](BusinessDataSocialMediaPinterestLiveTaskInfo.md)
 
-Defined in: main.ts:229809
+Defined in: main.ts:230317
 
 #### Parameters
 

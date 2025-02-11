@@ -6,7 +6,7 @@
 
 # Class: JobsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108375
+Defined in: main.ts:108431
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:108375
 
 > **new JobsDataforseoLabsSerpElementItem**(`data`?): [`JobsDataforseoLabsSerpElementItem`](JobsDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108385
+Defined in: main.ts:108441
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **items**: [`JobsElement`](JobsElement.md)[]
 
-Defined in: main.ts:108381
+Defined in: main.ts:108437
 
 elements of search results found in SERP
 
@@ -132,7 +132,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:108377
+Defined in: main.ts:108433
 
 title of the result in SERP
 
@@ -164,7 +164,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:108379
+Defined in: main.ts:108435
 
 relevant URL of the Ad element in SERP
 
@@ -196,7 +196,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:108390
+Defined in: main.ts:108446
 
 #### Parameters
 
@@ -218,7 +218,7 @@ Defined in: main.ts:108390
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:108414
+Defined in: main.ts:108470
 
 #### Parameters
 
@@ -240,7 +240,7 @@ Defined in: main.ts:108414
 
 > `static` **fromJS**(`data`): [`JobsDataforseoLabsSerpElementItem`](JobsDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108407
+Defined in: main.ts:108463
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: ISerpYoutubeVideoSubtitlesTasksReadyTaskInfo
 
-Defined in: main.ts:71920
+Defined in: main.ts:71956
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpYoutubeVideoSubtitlesTasksReadyResultInfo`](../classes/SerpYoutubeVideoSubtitlesTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:71922
+Defined in: main.ts:71958
 
 array of results
 

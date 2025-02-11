@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesLanguagesResponseInfo
 
-Defined in: main.ts:85519
+Defined in: main.ts:85555
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:85519
 
 > **new DomainAnalyticsTechnologiesLanguagesResponseInfo**(`data`?): [`DomainAnalyticsTechnologiesLanguagesResponseInfo`](DomainAnalyticsTechnologiesLanguagesResponseInfo.md)
 
-Defined in: main.ts:85525
+Defined in: main.ts:85561
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DomainAnalyticsTechnologiesLanguagesTaskInfo`](DomainAnalyticsTechnologiesLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:85521
+Defined in: main.ts:85557
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:85529
+Defined in: main.ts:85565
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:85529
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:85551
+Defined in: main.ts:85587
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:85551
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesLanguagesResponseInfo`](DomainAnalyticsTechnologiesLanguagesResponseInfo.md)
 
-Defined in: main.ts:85544
+Defined in: main.ts:85580
 
 #### Parameters
 

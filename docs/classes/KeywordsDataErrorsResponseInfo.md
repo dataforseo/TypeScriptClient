@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataErrorsResponseInfo
 
-Defined in: main.ts:125909
+Defined in: main.ts:126025
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:125909
 
 > **new KeywordsDataErrorsResponseInfo**(`data`?): [`KeywordsDataErrorsResponseInfo`](KeywordsDataErrorsResponseInfo.md)
 
-Defined in: main.ts:125915
+Defined in: main.ts:126031
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataErrorsTaskInfo`](KeywordsDataErrorsTaskInfo.md)[]
 
-Defined in: main.ts:125911
+Defined in: main.ts:126027
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:125919
+Defined in: main.ts:126035
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:125919
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:125941
+Defined in: main.ts:126057
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:125941
 
 > `static` **fromJS**(`data`): [`KeywordsDataErrorsResponseInfo`](KeywordsDataErrorsResponseInfo.md)
 
-Defined in: main.ts:125934
+Defined in: main.ts:126050
 
 #### Parameters
 

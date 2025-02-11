@@ -6,7 +6,7 @@
 
 # Interface: ISerpYahooOrganicTasksReadyTaskInfo
 
-Defined in: main.ts:75770
+Defined in: main.ts:75806
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpYahooOrganicTasksReadyResultInfo`](../classes/SerpYahooOrganicTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:75772
+Defined in: main.ts:75808
 
 array of results
 

@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleTrendsExploreTaskGetTaskInfo
 
-Defined in: main.ts:134208
+Defined in: main.ts:134348
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:134208
 
 > **new KeywordsDataGoogleTrendsExploreTaskGetTaskInfo**(`data`?): [`KeywordsDataGoogleTrendsExploreTaskGetTaskInfo`](KeywordsDataGoogleTrendsExploreTaskGetTaskInfo.md)
 
-Defined in: main.ts:134214
+Defined in: main.ts:134354
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataGoogleTrendsExploreTaskGetResultInfo`](KeywordsDataGoogleTrendsExploreTaskGetResultInfo.md)[]
 
-Defined in: main.ts:134210
+Defined in: main.ts:134350
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:134218
+Defined in: main.ts:134358
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:134218
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:134240
+Defined in: main.ts:134380
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:134240
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleTrendsExploreTaskGetTaskInfo`](KeywordsDataGoogleTrendsExploreTaskGetTaskInfo.md)
 
-Defined in: main.ts:134233
+Defined in: main.ts:134373
 
 #### Parameters
 

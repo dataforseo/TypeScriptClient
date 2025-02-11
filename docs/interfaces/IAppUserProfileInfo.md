@@ -6,7 +6,7 @@
 
 # Interface: IAppUserProfileInfo
 
-Defined in: main.ts:203413
+Defined in: main.ts:203915
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:203413
 
 > `optional` **profile\_image\_url**: `string`
 
-Defined in: main.ts:203417
+Defined in: main.ts:203919
 
 URL to the reviewer’s profile image
 
@@ -28,6 +28,6 @@ URL to the reviewer’s profile image
 
 > `optional` **profile\_name**: `string`
 
-Defined in: main.ts:203415
+Defined in: main.ts:203917
 
 profile name of the reviewer

@@ -6,7 +6,7 @@
 
 # Class: BacklinksDomainPagesSummaryLiveRequestInfo
 
-Defined in: main.ts:154490
+Defined in: main.ts:154654
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:154490
 
 > **new BacklinksDomainPagesSummaryLiveRequestInfo**(`data`?): [`BacklinksDomainPagesSummaryLiveRequestInfo`](BacklinksDomainPagesSummaryLiveRequestInfo.md)
 
-Defined in: main.ts:154590
+Defined in: main.ts:154754
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:154590
 
 > `optional` **backlinks\_filters**: `any`[]
 
-Defined in: main.ts:154564
+Defined in: main.ts:154728
 
 filter the backlinks of your target
 optional field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **backlinks\_status\_type**: `string`
 
-Defined in: main.ts:154525
+Defined in: main.ts:154689
 
 set what backlinks to return and count
 optional field
@@ -81,7 +81,7 @@ default value: live
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
-Defined in: main.ts:154580
+Defined in: main.ts:154744
 
 indicates whether the backlinks from subdomains of the target are excluded
 optional field
@@ -98,14 +98,14 @@ default value: true
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:154542
+Defined in: main.ts:154706
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, =, <>, in, not_in, like, not_like, ilike, not_ilike
+regex, not_regex, =, <>, in, not_in, like, not_like, ilike, not_ilike, match, not_match
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["referring_links_types.anchors",">","1"]
@@ -127,7 +127,7 @@ The full list of possible filters is available here.
 
 > `optional` **include\_indirect\_links**: `boolean`
 
-Defined in: main.ts:154575
+Defined in: main.ts:154739
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -145,7 +145,7 @@ default value: true
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:154569
+Defined in: main.ts:154733
 
 indicates if the subdomains of the target domain will be included in the search
 optional field
@@ -162,7 +162,7 @@ default value: true
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:154516
+Defined in: main.ts:154680
 
 maximum number of elements within internal arrays
 optional field
@@ -185,7 +185,7 @@ maximum value: 1000
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:154500
+Defined in: main.ts:154664
 
 the maximum number of returned anchors
 optional field
@@ -202,7 +202,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:154505
+Defined in: main.ts:154669
 
 offset in the results array of returned anchors
 optional field
@@ -219,7 +219,7 @@ if you specify the 10 value, the first ten anchors in the results array will be 
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:154556
+Defined in: main.ts:154720
 
 results sorting rules
 optional field
@@ -245,7 +245,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:154586
+Defined in: main.ts:154750
 
 user-defined task identifier
 optional field
@@ -263,7 +263,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:154495
+Defined in: main.ts:154659
 
 domain, subdomain or webpage to get summary data for
 required field
@@ -280,7 +280,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:154599
+Defined in: main.ts:154763
 
 #### Parameters
 
@@ -298,7 +298,7 @@ Defined in: main.ts:154599
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:154639
+Defined in: main.ts:154803
 
 #### Parameters
 
@@ -316,7 +316,7 @@ Defined in: main.ts:154639
 
 > `static` **fromJS**(`data`): [`BacklinksDomainPagesSummaryLiveRequestInfo`](BacklinksDomainPagesSummaryLiveRequestInfo.md)
 
-Defined in: main.ts:154632
+Defined in: main.ts:154796
 
 #### Parameters
 

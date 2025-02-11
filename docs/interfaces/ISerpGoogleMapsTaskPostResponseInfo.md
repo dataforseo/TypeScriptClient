@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleMapsTaskPostResponseInfo
 
-Defined in: main.ts:40982
+Defined in: main.ts:40998
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleMapsTaskPostTaskInfo`](../classes/SerpGoogleMapsTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:40984
+Defined in: main.ts:41000
 
 array of tasks
 

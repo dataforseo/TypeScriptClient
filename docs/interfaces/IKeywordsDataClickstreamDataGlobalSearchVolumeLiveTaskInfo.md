@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataClickstreamDataGlobalSearchVolumeLiveTaskInfo
 
-Defined in: main.ts:148390
+Defined in: main.ts:148554
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo`](../classes/KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo.md)[]
 
-Defined in: main.ts:148392
+Defined in: main.ts:148556
 
 array of results
 

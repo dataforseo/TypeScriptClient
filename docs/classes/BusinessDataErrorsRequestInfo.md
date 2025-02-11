@@ -6,7 +6,7 @@
 
 # Class: BusinessDataErrorsRequestInfo
 
-Defined in: main.ts:209726
+Defined in: main.ts:210228
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:209726
 
 > **new BusinessDataErrorsRequestInfo**(`data`?): [`BusinessDataErrorsRequestInfo`](BusinessDataErrorsRequestInfo.md)
 
-Defined in: main.ts:209760
+Defined in: main.ts:210262
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:209760
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:209749
+Defined in: main.ts:210251
 
 start time for filtering results
 optional field
@@ -59,7 +59,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:209756
+Defined in: main.ts:210258
 
 finish time for filtering results
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:209742
+Defined in: main.ts:210244
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -96,7 +96,7 @@ example: hotel_searches/task_post, postback_url, pingback_url
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:209731
+Defined in: main.ts:210233
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -113,7 +113,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:209736
+Defined in: main.ts:210238
 
 offset in the results array of returned tasks
 optional field
@@ -130,7 +130,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:209769
+Defined in: main.ts:210271
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:209769
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:209790
+Defined in: main.ts:210292
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: main.ts:209790
 
 > `static` **fromJS**(`data`): [`BusinessDataErrorsRequestInfo`](BusinessDataErrorsRequestInfo.md)
 
-Defined in: main.ts:209783
+Defined in: main.ts:210285
 
 #### Parameters
 

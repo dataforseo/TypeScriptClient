@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo
 
-Defined in: main.ts:148452
+Defined in: main.ts:148616
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:148452
 
 > **new KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo**(`data`?): [`KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo`](KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo.md)
 
-Defined in: main.ts:148488
+Defined in: main.ts:148652
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:148488
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:148462
+Defined in: main.ts:148626
 
 target keywords
 required field
@@ -62,7 +62,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:148478
+Defined in: main.ts:148642
 
 location code
 required field if you don’t specify location_name
@@ -82,7 +82,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:148470
+Defined in: main.ts:148634
 
 full name of the location
 required field if you don’t specify location_code
@@ -102,7 +102,7 @@ United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:148484
+Defined in: main.ts:148648
 
 user-defined task identifier
 optional field
@@ -120,7 +120,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:148497
+Defined in: main.ts:148661
 
 #### Parameters
 
@@ -138,7 +138,7 @@ Defined in: main.ts:148497
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:148521
+Defined in: main.ts:148685
 
 #### Parameters
 
@@ -156,7 +156,7 @@ Defined in: main.ts:148521
 
 > `static` **fromJS**(`data`): [`KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo`](KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo.md)
 
-Defined in: main.ts:148514
+Defined in: main.ts:148678
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IContentGenerationGenerateLiveRequestInfo
 
-Defined in: main.ts:181278
+Defined in: main.ts:181640
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:181278
 
 > `optional` **avoid\_starting\_words**: `string`[]
 
-Defined in: main.ts:181349
+Defined in: main.ts:181711
 
 words or phrases to avoid in the beginning of the generated text
 optional field
@@ -32,7 +32,7 @@ example:
 
 > `optional` **avoid\_words**: `string`[]
 
-Defined in: main.ts:181343
+Defined in: main.ts:181705
 
 words or phrases to avoid when generating a text
 optional field
@@ -46,7 +46,7 @@ example:
 
 > `optional` **creativity\_index**: `number`
 
-Defined in: main.ts:181306
+Defined in: main.ts:181668
 
 creativity of content generation
 optional field
@@ -62,7 +62,7 @@ learn more about this parameter on our help center
 
 > `optional` **max\_new\_tokens**: `number`
 
-Defined in: main.ts:181291
+Defined in: main.ts:181653
 
 generation limit for new tokens
 required field if max_tokens is not specified
@@ -77,7 +77,7 @@ learn more about this parameter on our help center
 
 > `optional` **max\_tokens**: `number`
 
-Defined in: main.ts:181298
+Defined in: main.ts:181660
 
 generation limit for all tokens
 required field if max_new_tokens is not specified
@@ -92,7 +92,7 @@ learn more about this parameter on our help center
 
 > `optional` **stop\_words**: `string`[]
 
-Defined in: main.ts:181355
+Defined in: main.ts:181717
 
 words or phrases to end the text
 optional field
@@ -106,7 +106,7 @@ example:
 
 > `optional` **supplement\_token**: `string`
 
-Defined in: main.ts:181361
+Defined in: main.ts:181723
 
 token for generating subsequent results
 optional field
@@ -120,7 +120,7 @@ supplement_token values are unique for each subsequent task
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:181367
+Defined in: main.ts:181729
 
 user-defined task identifier
 optional field
@@ -134,7 +134,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **temperature**: `number`
 
-Defined in: main.ts:181337
+Defined in: main.ts:181699
 
 controls the randomness in the output
 optional field
@@ -150,7 +150,7 @@ learn more about this parameter on our help center
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:181284
+Defined in: main.ts:181646
 
 initial target text
 required field
@@ -164,7 +164,7 @@ learn more about tokens on our help center
 
 > `optional` **token\_repetition\_penalty**: `number`
 
-Defined in: main.ts:181312
+Defined in: main.ts:181674
 
 token repetition
 optional field
@@ -178,7 +178,7 @@ default value: 1
 
 > `optional` **top\_k**: `number`
 
-Defined in: main.ts:181320
+Defined in: main.ts:181682
 
 the number of initial tokens in each iteration for choosing a subsequent word
 optional field
@@ -194,7 +194,7 @@ learn more about this parameter on our help center
 
 > `optional` **top\_p**: `number`
 
-Defined in: main.ts:181329
+Defined in: main.ts:181691
 
 excludes initial tokens with probability lower than one
 optional field

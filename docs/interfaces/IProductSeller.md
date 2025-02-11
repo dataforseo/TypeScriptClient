@@ -6,7 +6,7 @@
 
 # Interface: IProductSeller
 
-Defined in: main.ts:190505
+Defined in: main.ts:190911
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:190505
 
 > `optional` **delivery\_info**: [`DeliveryInfo`](../classes/DeliveryInfo.md)
 
-Defined in: main.ts:190523
+Defined in: main.ts:190929
 
 delivery information
 product delivery information
@@ -29,7 +29,7 @@ product delivery information
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-Defined in: main.ts:190520
+Defined in: main.ts:190926
 
 product price
 product price details on the seller’s website
@@ -40,7 +40,7 @@ product price details on the seller’s website
 
 > `optional` **seller\_rating**: [`RatingElement`](../classes/RatingElement.md)
 
-Defined in: main.ts:190514
+Defined in: main.ts:190920
 
 rating of the seller
 
@@ -50,7 +50,7 @@ rating of the seller
 
 > `optional` **seller\_review\_count**: `number`
 
-Defined in: main.ts:190517
+Defined in: main.ts:190923
 
 number of seller reviews
 number of reviews on the product seller’s account
@@ -61,7 +61,7 @@ number of reviews on the product seller’s account
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:190509
+Defined in: main.ts:190915
 
 product title
 
@@ -71,7 +71,7 @@ product title
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:190507
+Defined in: main.ts:190913
 
 type of element
 
@@ -81,7 +81,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:190512
+Defined in: main.ts:190918
 
 seller url
 url of the page where the product is sold

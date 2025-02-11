@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsRelatedKeywordsLiveItem
 
-Defined in: main.ts:94062
+Defined in: main.ts:94108
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:94062
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:94068
+Defined in: main.ts:94114
 
 keyword search depth
 
@@ -28,7 +28,7 @@ keyword search depth
 
 > `optional` **keyword\_data**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)
 
-Defined in: main.ts:94066
+Defined in: main.ts:94112
 
 keyword data for the returned keyword
 
@@ -38,7 +38,7 @@ keyword data for the returned keyword
 
 > `optional` **related\_keywords**: `string`[]
 
-Defined in: main.ts:94071
+Defined in: main.ts:94117
 
 list of related keywords
 represents the list of search queries which are related to the keyword returned in the array above
@@ -49,6 +49,6 @@ represents the list of search queries which are related to the keyword returned 
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:94064
+Defined in: main.ts:94110
 
 search engine type

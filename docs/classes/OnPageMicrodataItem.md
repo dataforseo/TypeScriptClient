@@ -6,7 +6,7 @@
 
 # Class: OnPageMicrodataItem
 
-Defined in: main.ts:171882
+Defined in: main.ts:172046
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:171882
 
 > **new OnPageMicrodataItem**(`data`?): [`OnPageMicrodataItem`](OnPageMicrodataItem.md)
 
-Defined in: main.ts:171890
+Defined in: main.ts:172054
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:171890
 
 > `optional` **inspection\_info**: [`MicrodataInspectionInfo`](MicrodataInspectionInfo.md)
 
-Defined in: main.ts:171886
+Defined in: main.ts:172050
 
 information related to microdata validation
 
@@ -54,7 +54,7 @@ information related to microdata validation
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:171884
+Defined in: main.ts:172048
 
 type of element
 
@@ -68,7 +68,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:171899
+Defined in: main.ts:172063
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:171899
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:171917
+Defined in: main.ts:172081
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:171917
 
 > `static` **fromJS**(`data`): [`OnPageMicrodataItem`](OnPageMicrodataItem.md)
 
-Defined in: main.ts:171910
+Defined in: main.ts:172074
 
 #### Parameters
 

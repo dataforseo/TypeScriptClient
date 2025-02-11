@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleSellersAdUrlTaskInfo
 
-Defined in: main.ts:191068
+Defined in: main.ts:191474
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:191068
 
 > **new MerchantGoogleSellersAdUrlTaskInfo**(`data`?): [`MerchantGoogleSellersAdUrlTaskInfo`](MerchantGoogleSellersAdUrlTaskInfo.md)
 
-Defined in: main.ts:191074
+Defined in: main.ts:191480
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`MerchantGoogleSellersAdUrlResultInfo`](MerchantGoogleSellersAdUrlResultInfo.md)[]
 
-Defined in: main.ts:191070
+Defined in: main.ts:191476
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:191078
+Defined in: main.ts:191484
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:191078
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:191100
+Defined in: main.ts:191506
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:191100
 
 > `static` **fromJS**(`data`): [`MerchantGoogleSellersAdUrlTaskInfo`](MerchantGoogleSellersAdUrlTaskInfo.md)
 
-Defined in: main.ts:191093
+Defined in: main.ts:191499
 
 #### Parameters
 

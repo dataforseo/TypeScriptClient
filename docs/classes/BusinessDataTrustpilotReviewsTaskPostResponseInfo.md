@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTrustpilotReviewsTaskPostResponseInfo
 
-Defined in: main.ts:226447
+Defined in: main.ts:226955
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:226447
 
 > **new BusinessDataTrustpilotReviewsTaskPostResponseInfo**(`data`?): [`BusinessDataTrustpilotReviewsTaskPostResponseInfo`](BusinessDataTrustpilotReviewsTaskPostResponseInfo.md)
 
-Defined in: main.ts:226453
+Defined in: main.ts:226961
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BusinessDataTrustpilotReviewsTaskPostTaskInfo`](BusinessDataTrustpilotReviewsTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:226449
+Defined in: main.ts:226957
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:226457
+Defined in: main.ts:226965
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:226457
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:226479
+Defined in: main.ts:226987
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:226479
 
 > `static` **fromJS**(`data`): [`BusinessDataTrustpilotReviewsTaskPostResponseInfo`](BusinessDataTrustpilotReviewsTaskPostResponseInfo.md)
 
-Defined in: main.ts:226472
+Defined in: main.ts:226980
 
 #### Parameters
 

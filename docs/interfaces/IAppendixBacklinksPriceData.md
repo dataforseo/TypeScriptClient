@@ -6,7 +6,7 @@
 
 # Interface: IAppendixBacklinksPriceData
 
-Defined in: main.ts:237647
+Defined in: main.ts:238067
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:237647
 
 > `optional` **anchors**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237648
+Defined in: main.ts:238068
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:237648
 
 > `optional` **backlinks**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237649
+Defined in: main.ts:238069
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:237649
 
 > `optional` **bulk\_backlinks**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237650
+Defined in: main.ts:238070
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: main.ts:237650
 
 > `optional` **bulk\_new\_lost\_backlinks**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237651
+Defined in: main.ts:238071
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:237651
 
 > `optional` **bulk\_new\_lost\_referring\_domains**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237652
+Defined in: main.ts:238072
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: main.ts:237652
 
 > `optional` **bulk\_pages\_summary**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237653
+Defined in: main.ts:238073
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: main.ts:237653
 
 > `optional` **bulk\_ranks**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237654
+Defined in: main.ts:238074
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: main.ts:237654
 
 > `optional` **bulk\_referring\_domains**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237655
+Defined in: main.ts:238075
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: main.ts:237655
 
 > `optional` **bulk\_spam\_score**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237656
+Defined in: main.ts:238076
 
 ***
 
@@ -90,7 +90,7 @@ Defined in: main.ts:237656
 
 > `optional` **competitors**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237657
+Defined in: main.ts:238077
 
 ***
 
@@ -98,7 +98,7 @@ Defined in: main.ts:237657
 
 > `optional` **content\_duplicates**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237658
+Defined in: main.ts:238078
 
 ***
 
@@ -106,7 +106,7 @@ Defined in: main.ts:237658
 
 > `optional` **domain\_intersection**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237659
+Defined in: main.ts:238079
 
 ***
 
@@ -114,7 +114,7 @@ Defined in: main.ts:237659
 
 > `optional` **domain\_pages**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237660
+Defined in: main.ts:238080
 
 ***
 
@@ -122,7 +122,7 @@ Defined in: main.ts:237660
 
 > `optional` **domain\_pages\_summary**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237661
+Defined in: main.ts:238081
 
 ***
 
@@ -130,7 +130,7 @@ Defined in: main.ts:237661
 
 > `optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237662
+Defined in: main.ts:238082
 
 ***
 
@@ -138,7 +138,7 @@ Defined in: main.ts:237662
 
 > `optional` **history**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237663
+Defined in: main.ts:238083
 
 ***
 
@@ -146,7 +146,7 @@ Defined in: main.ts:237663
 
 > `optional` **page\_intersection**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237664
+Defined in: main.ts:238084
 
 ***
 
@@ -154,7 +154,7 @@ Defined in: main.ts:237664
 
 > `optional` **referring\_domains**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237665
+Defined in: main.ts:238085
 
 ***
 
@@ -162,7 +162,7 @@ Defined in: main.ts:237665
 
 > `optional` **referring\_networks**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237666
+Defined in: main.ts:238086
 
 ***
 
@@ -170,7 +170,7 @@ Defined in: main.ts:237666
 
 > `optional` **summary**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237667
+Defined in: main.ts:238087
 
 ***
 
@@ -178,7 +178,7 @@ Defined in: main.ts:237667
 
 > `optional` **timeseries\_new\_lost\_summary**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237668
+Defined in: main.ts:238088
 
 ***
 
@@ -186,4 +186,4 @@ Defined in: main.ts:237668
 
 > `optional` **timeseries\_summary**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237669
+Defined in: main.ts:238089

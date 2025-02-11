@@ -6,7 +6,7 @@
 
 # Interface: IAppDataAppleLocationsTaskInfo
 
-Defined in: main.ts:205040
+Defined in: main.ts:205542
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`AppDataAppleLocationsResultInfo`](../classes/AppDataAppleLocationsResultInfo.md)[]
 
-Defined in: main.ts:205042
+Defined in: main.ts:205544
 
 array of results
 

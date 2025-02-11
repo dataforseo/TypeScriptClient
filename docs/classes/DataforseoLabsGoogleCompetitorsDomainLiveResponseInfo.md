@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleCompetitorsDomainLiveResponseInfo
 
-Defined in: main.ts:103153
+Defined in: main.ts:103193
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:103153
 
 > **new DataforseoLabsGoogleCompetitorsDomainLiveResponseInfo**(`data`?): [`DataforseoLabsGoogleCompetitorsDomainLiveResponseInfo`](DataforseoLabsGoogleCompetitorsDomainLiveResponseInfo.md)
 
-Defined in: main.ts:103159
+Defined in: main.ts:103199
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsGoogleCompetitorsDomainLiveTaskInfo`](DataforseoLabsGoogleCompetitorsDomainLiveTaskInfo.md)[]
 
-Defined in: main.ts:103155
+Defined in: main.ts:103195
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:103163
+Defined in: main.ts:103203
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:103163
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:103185
+Defined in: main.ts:103225
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:103185
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleCompetitorsDomainLiveResponseInfo`](DataforseoLabsGoogleCompetitorsDomainLiveResponseInfo.md)
 
-Defined in: main.ts:103178
+Defined in: main.ts:103218
 
 #### Parameters
 

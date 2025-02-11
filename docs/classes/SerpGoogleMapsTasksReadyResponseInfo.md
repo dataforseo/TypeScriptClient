@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleMapsTasksReadyResponseInfo
 
-Defined in: main.ts:41146
+Defined in: main.ts:41162
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:41146
 
 > **new SerpGoogleMapsTasksReadyResponseInfo**(`data`?): [`SerpGoogleMapsTasksReadyResponseInfo`](SerpGoogleMapsTasksReadyResponseInfo.md)
 
-Defined in: main.ts:41152
+Defined in: main.ts:41168
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleMapsTasksReadyTaskInfo`](SerpGoogleMapsTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:41148
+Defined in: main.ts:41164
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:41156
+Defined in: main.ts:41172
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:41156
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:41178
+Defined in: main.ts:41194
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:41178
 
 > `static` **fromJS**(`data`): [`SerpGoogleMapsTasksReadyResponseInfo`](SerpGoogleMapsTasksReadyResponseInfo.md)
 
-Defined in: main.ts:41171
+Defined in: main.ts:41187
 
 #### Parameters
 

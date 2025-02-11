@@ -6,7 +6,7 @@
 
 # Interface: IOnPageDuplicateTagsTaskInfo
 
-Defined in: main.ts:168794
+Defined in: main.ts:168958
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`OnPageDuplicateTagsResultInfo`](../classes/OnPageDuplicateTagsResultInfo.md)[]
 
-Defined in: main.ts:168796
+Defined in: main.ts:168960
 
 array of results
 

@@ -6,7 +6,7 @@
 
 # Interface: IBuyOnGoogleMerchantSerpElementItem
 
-Defined in: main.ts:188201
+Defined in: main.ts:188575
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:188201
 
 > `optional` **base\_price**: `number`
 
-Defined in: main.ts:188214
+Defined in: main.ts:188588
 
 product price without tax and shipping
 
@@ -32,7 +32,7 @@ product price without tax and shipping
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:188225
+Defined in: main.ts:188599
 
 currency in the ISO format
 example:
@@ -44,7 +44,7 @@ USD
 
 > `optional` **details**: `string`
 
-Defined in: main.ts:188212
+Defined in: main.ts:188586
 
 details and special offers
 if there are no details, the value will be null
@@ -55,7 +55,7 @@ if there are no details, the value will be null
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:188205
+Defined in: main.ts:188579
 
 domain in SERP
 
@@ -111,7 +111,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingElement`](../classes/RatingElement.md)
 
-Defined in: main.ts:188231
+Defined in: main.ts:188605
 
 shop rating
 the shop popularity rate based on product reviews
@@ -122,7 +122,7 @@ the shop popularity rate based on product reviews
 
 > `optional` **seller\_name**: `string`
 
-Defined in: main.ts:188228
+Defined in: main.ts:188602
 
 name of the seller
 the name of the company that placed a corresponding product on Google Shopping
@@ -133,7 +133,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 > `optional` **shipping\_price**: `number`
 
-Defined in: main.ts:188219
+Defined in: main.ts:188593
 
 product shipping price
 
@@ -143,7 +143,7 @@ product shipping price
 
 > `optional` **shop\_ad\_aclk**: `string`
 
-Defined in: main.ts:188235
+Defined in: main.ts:188609
 
 unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL
@@ -155,7 +155,7 @@ in this case, the value equals null
 
 > `optional` **tax**: `number`
 
-Defined in: main.ts:188217
+Defined in: main.ts:188591
 
 the amount of tax
 tax is specified as the actual amount of money, not as the percentage
@@ -166,7 +166,7 @@ tax is specified as the actual amount of money, not as the percentage
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:188207
+Defined in: main.ts:188581
 
 product title
 
@@ -176,7 +176,7 @@ product title
 
 > `optional` **total\_price**: `number`
 
-Defined in: main.ts:188221
+Defined in: main.ts:188595
 
 product price including tax and shipping
 
@@ -200,7 +200,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:188209
+Defined in: main.ts:188583
 
 Google Shopping URL forwarding to the product page
 
@@ -210,6 +210,6 @@ Google Shopping URL forwarding to the product page
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:188203
+Defined in: main.ts:188577
 
 XPath of the element

@@ -6,7 +6,7 @@
 
 # Class: Source
 
-Defined in: main.ts:223204
+Defined in: main.ts:223712
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:223204
 
 > **new Source**(`data`?): [`Source`](Source.md)
 
-Defined in: main.ts:223214
+Defined in: main.ts:223722
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:223214
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:223210
+Defined in: main.ts:223718
 
 domain of the source where the review was posted
 
@@ -54,7 +54,7 @@ domain of the source where the review was posted
 
 > `optional` **image**: `string`
 
-Defined in: main.ts:223208
+Defined in: main.ts:223716
 
 featured image of the source
 
@@ -68,7 +68,7 @@ featured image of the source
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:223206
+Defined in: main.ts:223714
 
 name of the source where the review was posted
 
@@ -82,7 +82,7 @@ name of the source where the review was posted
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:223223
+Defined in: main.ts:223731
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:223223
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:223242
+Defined in: main.ts:223750
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:223242
 
 > `static` **fromJS**(`data`): [`Source`](Source.md)
 
-Defined in: main.ts:223235
+Defined in: main.ts:223743
 
 #### Parameters
 

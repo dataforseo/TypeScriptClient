@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo
 
-Defined in: main.ts:99503
+Defined in: main.ts:99531
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:99503
 
 > **new DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo**(`data`?): [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md)
 
-Defined in: main.ts:99509
+Defined in: main.ts:99537
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveTaskInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveTaskInfo.md)[]
 
-Defined in: main.ts:99505
+Defined in: main.ts:99533
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:99513
+Defined in: main.ts:99541
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:99513
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:99535
+Defined in: main.ts:99563
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:99535
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md)
 
-Defined in: main.ts:99528
+Defined in: main.ts:99556
 
 #### Parameters
 

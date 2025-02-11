@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleNewsTasksFixedResponseInfo
 
-Defined in: main.ts:46068
+Defined in: main.ts:46084
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:46068
 
 > **new SerpGoogleNewsTasksFixedResponseInfo**(`data`?): [`SerpGoogleNewsTasksFixedResponseInfo`](SerpGoogleNewsTasksFixedResponseInfo.md)
 
-Defined in: main.ts:46074
+Defined in: main.ts:46090
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleNewsTasksFixedTaskInfo`](SerpGoogleNewsTasksFixedTaskInfo.md)[]
 
-Defined in: main.ts:46070
+Defined in: main.ts:46086
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:46078
+Defined in: main.ts:46094
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:46078
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:46100
+Defined in: main.ts:46116
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:46100
 
 > `static` **fromJS**(`data`): [`SerpGoogleNewsTasksFixedResponseInfo`](SerpGoogleNewsTasksFixedResponseInfo.md)
 
-Defined in: main.ts:46093
+Defined in: main.ts:46109
 
 #### Parameters
 

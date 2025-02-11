@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleLocalFinderLiveAdvancedRequestInfo
 
-Defined in: main.ts:44191
+Defined in: main.ts:44207
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:44191
 
 > **new SerpGoogleLocalFinderLiveAdvancedRequestInfo**(`data`?): [`SerpGoogleLocalFinderLiveAdvancedRequestInfo`](SerpGoogleLocalFinderLiveAdvancedRequestInfo.md)
 
-Defined in: main.ts:44292
+Defined in: main.ts:44308
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:44292
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:44268
+Defined in: main.ts:44284
 
 parsing depth
 optional field
@@ -63,7 +63,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:44250
+Defined in: main.ts:44266
 
 device type
 optional field
@@ -80,7 +80,7 @@ default value: desktop
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:44199
+Defined in: main.ts:44215
 
 keyword
 required field
@@ -100,7 +100,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:44245
+Defined in: main.ts:44261
 
 search engine language code
 required field if you don’t specify language_name
@@ -118,7 +118,7 @@ example:en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:44239
+Defined in: main.ts:44255
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -137,7 +137,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:44221
+Defined in: main.ts:44237
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -156,7 +156,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:44232
+Defined in: main.ts:44248
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -179,7 +179,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:44214
+Defined in: main.ts:44230
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -198,7 +198,7 @@ London,England,United Kingdom
 
 > `optional` **min\_rating**: `number`
 
-Defined in: main.ts:44273
+Defined in: main.ts:44289
 
 filter results by minimum rating
 optional field
@@ -215,7 +215,7 @@ possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:44257
+Defined in: main.ts:44273
 
 device operating system
 optional field
@@ -234,7 +234,7 @@ default value: android
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:44207
+Defined in: main.ts:44223
 
 task priority
 optional field
@@ -254,7 +254,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:44288
+Defined in: main.ts:44304
 
 user-defined task identifier
 optional field
@@ -272,7 +272,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **time\_filter**: `string`
 
-Defined in: main.ts:44282
+Defined in: main.ts:44298
 
 filter results by open hours
 optional field
@@ -293,7 +293,7 @@ example: "tuesday;18"
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:44301
+Defined in: main.ts:44317
 
 #### Parameters
 
@@ -311,7 +311,7 @@ Defined in: main.ts:44301
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:44330
+Defined in: main.ts:44346
 
 #### Parameters
 
@@ -329,7 +329,7 @@ Defined in: main.ts:44330
 
 > `static` **fromJS**(`data`): [`SerpGoogleLocalFinderLiveAdvancedRequestInfo`](SerpGoogleLocalFinderLiveAdvancedRequestInfo.md)
 
-Defined in: main.ts:44323
+Defined in: main.ts:44339
 
 #### Parameters
 

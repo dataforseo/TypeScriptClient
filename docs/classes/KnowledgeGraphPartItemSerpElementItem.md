@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphPartItemSerpElementItem
 
-Defined in: main.ts:30273
+Defined in: main.ts:30279
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:30273
 
 > **new KnowledgeGraphPartItemSerpElementItem**(`data`?): [`KnowledgeGraphPartItemSerpElementItem`](KnowledgeGraphPartItemSerpElementItem.md)
 
-Defined in: main.ts:30294
+Defined in: main.ts:30300
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:30279
+Defined in: main.ts:30285
 
 google defined data attribute ID
 example:
@@ -76,7 +76,7 @@ kc:/local:place qa
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:30286
+Defined in: main.ts:30292
 
 sitelinks
 the links shown below some of Google’s search results
@@ -151,7 +151,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:30290
+Defined in: main.ts:30296
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -167,7 +167,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:30282
+Defined in: main.ts:30288
 
 reference text
 text snippet from the page that was used to generate the ai_overview_element
@@ -182,7 +182,7 @@ text snippet from the page that was used to generate the ai_overview_element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:30275
+Defined in: main.ts:30281
 
 title of the result in SERP
 
@@ -232,7 +232,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:30299
+Defined in: main.ts:30305
 
 #### Parameters
 
@@ -254,7 +254,7 @@ Defined in: main.ts:30299
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:30325
+Defined in: main.ts:30331
 
 #### Parameters
 
@@ -276,7 +276,7 @@ Defined in: main.ts:30325
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphPartItemSerpElementItem`](KnowledgeGraphPartItemSerpElementItem.md)
 
-Defined in: main.ts:30318
+Defined in: main.ts:30324
 
 #### Parameters
 

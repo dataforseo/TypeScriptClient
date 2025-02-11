@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleAdsSearchTaskPostResponseInfo
 
-Defined in: main.ts:62062
+Defined in: main.ts:62090
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:62062
 
 > **new SerpGoogleAdsSearchTaskPostResponseInfo**(`data`?): [`SerpGoogleAdsSearchTaskPostResponseInfo`](SerpGoogleAdsSearchTaskPostResponseInfo.md)
 
-Defined in: main.ts:62068
+Defined in: main.ts:62096
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleAdsSearchTaskPostTaskInfo`](SerpGoogleAdsSearchTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:62064
+Defined in: main.ts:62092
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:62072
+Defined in: main.ts:62100
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:62072
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:62094
+Defined in: main.ts:62122
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:62094
 
 > `static` **fromJS**(`data`): [`SerpGoogleAdsSearchTaskPostResponseInfo`](SerpGoogleAdsSearchTaskPostResponseInfo.md)
 
-Defined in: main.ts:62087
+Defined in: main.ts:62115
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppListingsSearchLiveTaskInfo
 
-Defined in: main.ts:209268
+Defined in: main.ts:209770
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:209268
 
 > **new AppDataAppleAppListingsSearchLiveTaskInfo**(`data`?): [`AppDataAppleAppListingsSearchLiveTaskInfo`](AppDataAppleAppListingsSearchLiveTaskInfo.md)
 
-Defined in: main.ts:209274
+Defined in: main.ts:209776
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`AppDataAppleAppListingsSearchLiveResultInfo`](AppDataAppleAppListingsSearchLiveResultInfo.md)[]
 
-Defined in: main.ts:209270
+Defined in: main.ts:209772
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:209278
+Defined in: main.ts:209780
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:209278
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:209300
+Defined in: main.ts:209802
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:209300
 
 > `static` **fromJS**(`data`): [`AppDataAppleAppListingsSearchLiveTaskInfo`](AppDataAppleAppListingsSearchLiveTaskInfo.md)
 
-Defined in: main.ts:209293
+Defined in: main.ts:209795
 
 #### Parameters
 

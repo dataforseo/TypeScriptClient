@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAppleKeywordsForAppLiveResultInfo
 
-Defined in: main.ts:123878
+Defined in: main.ts:123994
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:123878
 
 > **new DataforseoLabsAppleKeywordsForAppLiveResultInfo**(`data`?): [`DataforseoLabsAppleKeywordsForAppLiveResultInfo`](DataforseoLabsAppleKeywordsForAppLiveResultInfo.md)
 
-Defined in: main.ts:123896
+Defined in: main.ts:124012
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:123896
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:123882
+Defined in: main.ts:123998
 
 id of the app in a POST array
 
@@ -54,7 +54,7 @@ id of the app in a POST array
 
 > `optional` **items**: [`DataforseoLabsLiveItem`](DataforseoLabsLiveItem.md)[]
 
-Defined in: main.ts:123892
+Defined in: main.ts:124008
 
 contains data related to the ranking keywords for the app specified in the app_id field
 
@@ -68,7 +68,7 @@ contains data related to the ranking keywords for the app specified in the app_i
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:123890
+Defined in: main.ts:124006
 
 the number of results returned in the items array
 
@@ -82,7 +82,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:123886
+Defined in: main.ts:124002
 
 language code in a POST array
 
@@ -96,7 +96,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:123884
+Defined in: main.ts:124000
 
 location code in a POST array
 
@@ -110,7 +110,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:123880
+Defined in: main.ts:123996
 
 search engine type
 
@@ -124,7 +124,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:123888
+Defined in: main.ts:124004
 
 total amount of results in our database relevant to your request
 
@@ -138,7 +138,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:123905
+Defined in: main.ts:124021
 
 #### Parameters
 
@@ -156,7 +156,7 @@ Defined in: main.ts:123905
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:123932
+Defined in: main.ts:124048
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:123932
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAppleKeywordsForAppLiveResultInfo`](DataforseoLabsAppleKeywordsForAppLiveResultInfo.md)
 
-Defined in: main.ts:123925
+Defined in: main.ts:124041
 
 #### Parameters
 

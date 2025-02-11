@@ -6,7 +6,7 @@
 
 # Class: AppendixContentGenerationDayLimitsRatesDataInfo
 
-Defined in: main.ts:232520
+Defined in: main.ts:233040
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:232520
 
 > **new AppendixContentGenerationDayLimitsRatesDataInfo**(`data`?): [`AppendixContentGenerationDayLimitsRatesDataInfo`](AppendixContentGenerationDayLimitsRatesDataInfo.md)
 
-Defined in: main.ts:232526
+Defined in: main.ts:233046
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:232526
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:232522
+Defined in: main.ts:233042
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:232522
 
 > `optional` **live**: `number`
 
-Defined in: main.ts:232521
+Defined in: main.ts:233041
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:232521
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:232535
+Defined in: main.ts:233055
 
 #### Parameters
 
@@ -82,7 +82,7 @@ Defined in: main.ts:232535
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:232553
+Defined in: main.ts:233073
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:232553
 
 > `static` **fromJS**(`data`): [`AppendixContentGenerationDayLimitsRatesDataInfo`](AppendixContentGenerationDayLimitsRatesDataInfo.md)
 
-Defined in: main.ts:232546
+Defined in: main.ts:233066
 
 #### Parameters
 

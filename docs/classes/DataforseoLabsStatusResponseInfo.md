@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsStatusResponseInfo
 
-Defined in: main.ts:90443
+Defined in: main.ts:90479
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:90443
 
 > **new DataforseoLabsStatusResponseInfo**(`data`?): [`DataforseoLabsStatusResponseInfo`](DataforseoLabsStatusResponseInfo.md)
 
-Defined in: main.ts:90449
+Defined in: main.ts:90485
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsStatusTaskInfo`](DataforseoLabsStatusTaskInfo.md)[]
 
-Defined in: main.ts:90445
+Defined in: main.ts:90481
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:90453
+Defined in: main.ts:90489
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:90453
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:90475
+Defined in: main.ts:90511
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:90475
 
 > `static` **fromJS**(`data`): [`DataforseoLabsStatusResponseInfo`](DataforseoLabsStatusResponseInfo.md)
 
-Defined in: main.ts:90468
+Defined in: main.ts:90504
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTripadvisorReviewsTasksReadyTaskInfo
 
-Defined in: main.ts:229054
+Defined in: main.ts:229562
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:229054
 
 > **new BusinessDataTripadvisorReviewsTasksReadyTaskInfo**(`data`?): [`BusinessDataTripadvisorReviewsTasksReadyTaskInfo`](BusinessDataTripadvisorReviewsTasksReadyTaskInfo.md)
 
-Defined in: main.ts:229060
+Defined in: main.ts:229568
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataTripadvisorReviewsTasksReadyResultInfo`](BusinessDataTripadvisorReviewsTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:229056
+Defined in: main.ts:229564
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:229064
+Defined in: main.ts:229572
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:229064
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:229086
+Defined in: main.ts:229594
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:229086
 
 > `static` **fromJS**(`data`): [`BusinessDataTripadvisorReviewsTasksReadyTaskInfo`](BusinessDataTripadvisorReviewsTasksReadyTaskInfo.md)
 
-Defined in: main.ts:229079
+Defined in: main.ts:229587
 
 #### Parameters
 

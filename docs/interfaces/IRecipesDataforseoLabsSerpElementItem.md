@@ -6,7 +6,7 @@
 
 # Interface: IRecipesDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108622
+Defined in: main.ts:108678
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:108622
 
 > `optional` **items**: [`RecipesElement`](../classes/RecipesElement.md)[]
 
-Defined in: main.ts:108624
+Defined in: main.ts:108680
 
 elements of search results found in SERP
 

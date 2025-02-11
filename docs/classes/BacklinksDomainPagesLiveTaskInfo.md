@@ -6,7 +6,7 @@
 
 # Class: BacklinksDomainPagesLiveTaskInfo
 
-Defined in: main.ts:154380
+Defined in: main.ts:154544
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:154380
 
 > **new BacklinksDomainPagesLiveTaskInfo**(`data`?): [`BacklinksDomainPagesLiveTaskInfo`](BacklinksDomainPagesLiveTaskInfo.md)
 
-Defined in: main.ts:154386
+Defined in: main.ts:154550
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`BacklinksDomainPagesLiveResultInfo`](BacklinksDomainPagesLiveResultInfo.md)[]
 
-Defined in: main.ts:154382
+Defined in: main.ts:154546
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:154390
+Defined in: main.ts:154554
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:154390
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:154412
+Defined in: main.ts:154576
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:154412
 
 > `static` **fromJS**(`data`): [`BacklinksDomainPagesLiveTaskInfo`](BacklinksDomainPagesLiveTaskInfo.md)
 
-Defined in: main.ts:154405
+Defined in: main.ts:154569
 
 #### Parameters
 

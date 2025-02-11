@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonBulkSearchVolumeLiveResponseInfo
 
-Defined in: main.ts:112225
+Defined in: main.ts:112293
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:112225
 
 > **new DataforseoLabsAmazonBulkSearchVolumeLiveResponseInfo**(`data`?): [`DataforseoLabsAmazonBulkSearchVolumeLiveResponseInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveResponseInfo.md)
 
-Defined in: main.ts:112231
+Defined in: main.ts:112299
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo.md)[]
 
-Defined in: main.ts:112227
+Defined in: main.ts:112295
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:112235
+Defined in: main.ts:112303
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:112235
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:112257
+Defined in: main.ts:112325
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:112257
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAmazonBulkSearchVolumeLiveResponseInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveResponseInfo.md)
 
-Defined in: main.ts:112250
+Defined in: main.ts:112318
 
 #### Parameters
 

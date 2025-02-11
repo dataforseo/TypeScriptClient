@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsWhoisAvailableFiltersResultInfo
 
-Defined in: main.ts:88908
+Defined in: main.ts:88944
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:88908
 
 > **new DomainAnalyticsWhoisAvailableFiltersResultInfo**(`data`?): [`DomainAnalyticsWhoisAvailableFiltersResultInfo`](DomainAnalyticsWhoisAvailableFiltersResultInfo.md)
 
-Defined in: main.ts:88913
+Defined in: main.ts:88949
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:88913
 
 > `optional` **overview**: `object`
 
-Defined in: main.ts:88909
+Defined in: main.ts:88945
 
 #### Index Signature
 
@@ -56,7 +56,7 @@ Defined in: main.ts:88909
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:88922
+Defined in: main.ts:88958
 
 #### Parameters
 
@@ -74,7 +74,7 @@ Defined in: main.ts:88922
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:88945
+Defined in: main.ts:88981
 
 #### Parameters
 
@@ -92,7 +92,7 @@ Defined in: main.ts:88945
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsWhoisAvailableFiltersResultInfo`](DomainAnalyticsWhoisAvailableFiltersResultInfo.md)
 
-Defined in: main.ts:88938
+Defined in: main.ts:88974
 
 #### Parameters
 

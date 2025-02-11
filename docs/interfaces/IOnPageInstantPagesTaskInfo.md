@@ -6,7 +6,7 @@
 
 # Interface: IOnPageInstantPagesTaskInfo
 
-Defined in: main.ts:174796
+Defined in: main.ts:175160
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`OnPageInstantPagesResultInfo`](../classes/OnPageInstantPagesResultInfo.md)[]
 
-Defined in: main.ts:174798
+Defined in: main.ts:175162
 
 array of results
 

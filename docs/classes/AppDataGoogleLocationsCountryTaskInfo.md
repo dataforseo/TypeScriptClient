@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleLocationsCountryTaskInfo
 
-Defined in: main.ts:199006
+Defined in: main.ts:199508
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:199006
 
 > **new AppDataGoogleLocationsCountryTaskInfo**(`data`?): [`AppDataGoogleLocationsCountryTaskInfo`](AppDataGoogleLocationsCountryTaskInfo.md)
 
-Defined in: main.ts:199012
+Defined in: main.ts:199514
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`AppDataGoogleLocationsCountryResultInfo`](AppDataGoogleLocationsCountryResultInfo.md)[]
 
-Defined in: main.ts:199008
+Defined in: main.ts:199510
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:199016
+Defined in: main.ts:199518
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:199016
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:199038
+Defined in: main.ts:199540
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:199038
 
 > `static` **fromJS**(`data`): [`AppDataGoogleLocationsCountryTaskInfo`](AppDataGoogleLocationsCountryTaskInfo.md)
 
-Defined in: main.ts:199031
+Defined in: main.ts:199533
 
 #### Parameters
 

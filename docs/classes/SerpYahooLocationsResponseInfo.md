@@ -6,7 +6,7 @@
 
 # Class: SerpYahooLocationsResponseInfo
 
-Defined in: main.ts:74751
+Defined in: main.ts:74787
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:74751
 
 > **new SerpYahooLocationsResponseInfo**(`data`?): [`SerpYahooLocationsResponseInfo`](SerpYahooLocationsResponseInfo.md)
 
-Defined in: main.ts:74757
+Defined in: main.ts:74793
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpYahooLocationsTaskInfo`](SerpYahooLocationsTaskInfo.md)[]
 
-Defined in: main.ts:74753
+Defined in: main.ts:74789
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:74761
+Defined in: main.ts:74797
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:74761
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:74783
+Defined in: main.ts:74819
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:74783
 
 > `static` **fromJS**(`data`): [`SerpYahooLocationsResponseInfo`](SerpYahooLocationsResponseInfo.md)
 
-Defined in: main.ts:74776
+Defined in: main.ts:74812
 
 #### Parameters
 

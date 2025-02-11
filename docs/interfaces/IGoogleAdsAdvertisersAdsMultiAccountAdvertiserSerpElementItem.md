@@ -6,7 +6,7 @@
 
 # Interface: IGoogleAdsAdvertisersAdsMultiAccountAdvertiserSerpElementItem
 
-Defined in: main.ts:61112
+Defined in: main.ts:61134
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:61112
 
 > `optional` **advertisers**: [`Advertiser`](../classes/Advertiser.md)[]
 
-Defined in: main.ts:61122
+Defined in: main.ts:61144
 
 associated advertiser accounts
 contains objects with data on associated advertiser accounts
@@ -33,7 +33,7 @@ contains objects with data on associated advertiser accounts
 
 > `optional` **approx\_ads\_count**: `number`
 
-Defined in: main.ts:61119
+Defined in: main.ts:61141
 
 ads count
 the approximate number of ads that are run by the advertiser across all available Google Ads platforms
@@ -44,7 +44,7 @@ the approximate number of ads that are run by the advertiser across all availabl
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:61116
+Defined in: main.ts:61138
 
 advertiser location
 
@@ -54,7 +54,7 @@ advertiser location
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:61046
+Defined in: main.ts:61068
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -69,7 +69,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:61043
+Defined in: main.ts:61065
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -85,7 +85,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:61114
+Defined in: main.ts:61136
 
 title of the element
 
@@ -95,7 +95,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:61039
+Defined in: main.ts:61061
 
 type of element
 

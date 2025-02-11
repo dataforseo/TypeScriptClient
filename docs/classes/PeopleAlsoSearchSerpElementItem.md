@@ -6,7 +6,7 @@
 
 # Class: PeopleAlsoSearchSerpElementItem
 
-Defined in: main.ts:32019
+Defined in: main.ts:32027
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:32019
 
 > **new PeopleAlsoSearchSerpElementItem**(`data`?): [`PeopleAlsoSearchSerpElementItem`](PeopleAlsoSearchSerpElementItem.md)
 
-Defined in: main.ts:32031
+Defined in: main.ts:32039
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: `string`[]
 
-Defined in: main.ts:32023
+Defined in: main.ts:32031
 
 contains arrays of specific images
 
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:32027
+Defined in: main.ts:32035
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -149,7 +149,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:32021
+Defined in: main.ts:32029
 
 title of the row
 
@@ -199,7 +199,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:32036
+Defined in: main.ts:32044
 
 #### Parameters
 
@@ -221,7 +221,7 @@ Defined in: main.ts:32036
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:32060
+Defined in: main.ts:32068
 
 #### Parameters
 
@@ -243,7 +243,7 @@ Defined in: main.ts:32060
 
 > `static` **fromJS**(`data`): [`PeopleAlsoSearchSerpElementItem`](PeopleAlsoSearchSerpElementItem.md)
 
-Defined in: main.ts:32053
+Defined in: main.ts:32061
 
 #### Parameters
 

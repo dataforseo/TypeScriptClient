@@ -6,7 +6,7 @@
 
 # Class: SerpBaiduOrganicTasksFixedResponseInfo
 
-Defined in: main.ts:79693
+Defined in: main.ts:79729
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:79693
 
 > **new SerpBaiduOrganicTasksFixedResponseInfo**(`data`?): [`SerpBaiduOrganicTasksFixedResponseInfo`](SerpBaiduOrganicTasksFixedResponseInfo.md)
 
-Defined in: main.ts:79699
+Defined in: main.ts:79735
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpBaiduOrganicTasksFixedTaskInfo`](SerpBaiduOrganicTasksFixedTaskInfo.md)[]
 
-Defined in: main.ts:79695
+Defined in: main.ts:79731
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:79703
+Defined in: main.ts:79739
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:79703
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:79725
+Defined in: main.ts:79761
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:79725
 
 > `static` **fromJS**(`data`): [`SerpBaiduOrganicTasksFixedResponseInfo`](SerpBaiduOrganicTasksFixedResponseInfo.md)
 
-Defined in: main.ts:79718
+Defined in: main.ts:79754
 
 #### Parameters
 

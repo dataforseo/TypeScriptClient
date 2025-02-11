@@ -6,7 +6,7 @@
 
 # Interface: ILocalServicesSerpElementItem
 
-Defined in: main.ts:36076
+Defined in: main.ts:36092
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:36076
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:36082
+Defined in: main.ts:36098
 
 source domain
 
@@ -32,7 +32,7 @@ source domain
 
 > `optional` **items**: [`LocalServicesElement`](../classes/LocalServicesElement.md)[]
 
-Defined in: main.ts:36084
+Defined in: main.ts:36100
 
 contains arrays of specific images
 
@@ -89,7 +89,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:36088
+Defined in: main.ts:36104
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -101,7 +101,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:36078
+Defined in: main.ts:36094
 
 title of the row
 
@@ -125,7 +125,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:36080
+Defined in: main.ts:36096
 
 source URL
 

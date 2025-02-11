@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleMapsTaskGetAdvancedTaskInfo
 
-Defined in: main.ts:42227
+Defined in: main.ts:42243
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleMapsTaskGetAdvancedResultInfo`](../classes/SerpGoogleMapsTaskGetAdvancedResultInfo.md)[]
 
-Defined in: main.ts:42229
+Defined in: main.ts:42245
 
 array of results
 

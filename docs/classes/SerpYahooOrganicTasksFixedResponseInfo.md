@@ -6,7 +6,7 @@
 
 # Class: SerpYahooOrganicTasksFixedResponseInfo
 
-Defined in: main.ts:75989
+Defined in: main.ts:76025
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:75989
 
 > **new SerpYahooOrganicTasksFixedResponseInfo**(`data`?): [`SerpYahooOrganicTasksFixedResponseInfo`](SerpYahooOrganicTasksFixedResponseInfo.md)
 
-Defined in: main.ts:75995
+Defined in: main.ts:76031
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpYahooOrganicTasksFixedTaskInfo`](SerpYahooOrganicTasksFixedTaskInfo.md)[]
 
-Defined in: main.ts:75991
+Defined in: main.ts:76027
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:75999
+Defined in: main.ts:76035
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:75999
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:76021
+Defined in: main.ts:76057
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:76021
 
 > `static` **fromJS**(`data`): [`SerpYahooOrganicTasksFixedResponseInfo`](SerpYahooOrganicTasksFixedResponseInfo.md)
 
-Defined in: main.ts:76014
+Defined in: main.ts:76050
 
 #### Parameters
 

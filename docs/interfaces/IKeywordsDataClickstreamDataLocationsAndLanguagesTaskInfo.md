@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataClickstreamDataLocationsAndLanguagesTaskInfo
 
-Defined in: main.ts:147554
+Defined in: main.ts:147718
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo`](../classes/KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo.md)[]
 
-Defined in: main.ts:147556
+Defined in: main.ts:147720
 
 array of results
 

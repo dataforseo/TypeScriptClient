@@ -6,7 +6,7 @@
 
 # Interface: IMerchantAmazonReviewsTaskGetHtmlResponseInfo
 
-Defined in: main.ts:197859
+Defined in: main.ts:198361
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`MerchantAmazonReviewsTaskGetHtmlTaskInfo`](../classes/MerchantAmazonReviewsTaskGetHtmlTaskInfo.md)[]
 
-Defined in: main.ts:197861
+Defined in: main.ts:198363
 
 array of tasks
 

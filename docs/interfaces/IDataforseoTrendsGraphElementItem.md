@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoTrendsGraphElementItem
 
-Defined in: main.ts:136003
+Defined in: main.ts:136167
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:136003
 
 > `optional` **averages**: `number`[]
 
-Defined in: main.ts:136007
+Defined in: main.ts:136171
 
 keyword popularity values averaged over the whole time range
 
@@ -32,7 +32,7 @@ keyword popularity values averaged over the whole time range
 
 > `optional` **data**: [`TrendsGraphDataInfo`](../classes/TrendsGraphDataInfo.md)[]
 
-Defined in: main.ts:136005
+Defined in: main.ts:136169
 
 DataForSEO Trends data for the specified parameters
 

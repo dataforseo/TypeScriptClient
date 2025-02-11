@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResultInfo
 
-Defined in: main.ts:128520
+Defined in: main.ts:128636
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:128520
 
 > **new KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResultInfo**(`data`?): [`KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResultInfo`](KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResultInfo.md)
 
-Defined in: main.ts:128537
+Defined in: main.ts:128653
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:128537
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:128529
+Defined in: main.ts:128645
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:128533
+Defined in: main.ts:128649
 
 URL for collecting the results of the task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the task
 
 > `optional` **function**: `string`
 
-Defined in: main.ts:128527
+Defined in: main.ts:128643
 
 type of the task
 
@@ -82,7 +82,7 @@ type of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:128523
+Defined in: main.ts:128639
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -97,7 +97,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:128525
+Defined in: main.ts:128641
 
 search engine specified when setting the task
 
@@ -111,7 +111,7 @@ search engine specified when setting the task
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:128531
+Defined in: main.ts:128647
 
 user-defined task identifier
 
@@ -125,7 +125,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:128546
+Defined in: main.ts:128662
 
 #### Parameters
 
@@ -143,7 +143,7 @@ Defined in: main.ts:128546
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:128568
+Defined in: main.ts:128684
 
 #### Parameters
 
@@ -161,7 +161,7 @@ Defined in: main.ts:128568
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResultInfo`](KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResultInfo.md)
 
-Defined in: main.ts:128561
+Defined in: main.ts:128677
 
 #### Parameters
 

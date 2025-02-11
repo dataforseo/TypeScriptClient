@@ -6,7 +6,7 @@
 
 # Class: BusinessDataBusinessListingsAvailableFiltersResponseInfo
 
-Defined in: main.ts:210535
+Defined in: main.ts:211037
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:210535
 
 > **new BusinessDataBusinessListingsAvailableFiltersResponseInfo**(`data`?): [`BusinessDataBusinessListingsAvailableFiltersResponseInfo`](BusinessDataBusinessListingsAvailableFiltersResponseInfo.md)
 
-Defined in: main.ts:210540
+Defined in: main.ts:211042
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BusinessDataBusinessListingsAvailableFiltersTaskInfo`](BusinessDataBusinessListingsAvailableFiltersTaskInfo.md)[]
 
-Defined in: main.ts:210536
+Defined in: main.ts:211038
 
 #### Implementation of
 
@@ -188,7 +188,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:210544
+Defined in: main.ts:211046
 
 #### Parameters
 
@@ -210,7 +210,7 @@ Defined in: main.ts:210544
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:210566
+Defined in: main.ts:211068
 
 #### Parameters
 
@@ -232,7 +232,7 @@ Defined in: main.ts:210566
 
 > `static` **fromJS**(`data`): [`BusinessDataBusinessListingsAvailableFiltersResponseInfo`](BusinessDataBusinessListingsAvailableFiltersResponseInfo.md)
 
-Defined in: main.ts:210559
+Defined in: main.ts:211061
 
 #### Parameters
 

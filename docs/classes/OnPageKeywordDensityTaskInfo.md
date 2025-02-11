@@ -6,7 +6,7 @@
 
 # Class: OnPageKeywordDensityTaskInfo
 
-Defined in: main.ts:171442
+Defined in: main.ts:171606
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:171442
 
 > **new OnPageKeywordDensityTaskInfo**(`data`?): [`OnPageKeywordDensityTaskInfo`](OnPageKeywordDensityTaskInfo.md)
 
-Defined in: main.ts:171448
+Defined in: main.ts:171612
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`OnPageKeywordDensityResultInfo`](OnPageKeywordDensityResultInfo.md)[]
 
-Defined in: main.ts:171444
+Defined in: main.ts:171608
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:171452
+Defined in: main.ts:171616
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:171452
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:171474
+Defined in: main.ts:171638
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:171474
 
 > `static` **fromJS**(`data`): [`OnPageKeywordDensityTaskInfo`](OnPageKeywordDensityTaskInfo.md)
 
-Defined in: main.ts:171467
+Defined in: main.ts:171631
 
 #### Parameters
 

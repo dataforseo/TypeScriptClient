@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleCategoriesForDomainLiveTaskInfo
 
-Defined in: main.ts:97780
+Defined in: main.ts:97808
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:97780
 
 > **new DataforseoLabsGoogleCategoriesForDomainLiveTaskInfo**(`data`?): [`DataforseoLabsGoogleCategoriesForDomainLiveTaskInfo`](DataforseoLabsGoogleCategoriesForDomainLiveTaskInfo.md)
 
-Defined in: main.ts:97786
+Defined in: main.ts:97814
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleCategoriesForDomainLiveResultInfo`](DataforseoLabsGoogleCategoriesForDomainLiveResultInfo.md)[]
 
-Defined in: main.ts:97782
+Defined in: main.ts:97810
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:97790
+Defined in: main.ts:97818
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:97790
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:97812
+Defined in: main.ts:97840
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:97812
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleCategoriesForDomainLiveTaskInfo`](DataforseoLabsGoogleCategoriesForDomainLiveTaskInfo.md)
 
-Defined in: main.ts:97805
+Defined in: main.ts:97833
 
 #### Parameters
 

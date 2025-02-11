@@ -6,7 +6,7 @@
 
 # Class: PodcastsElement
 
-Defined in: main.ts:34805
+Defined in: main.ts:34821
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:34805
 
 > **new PodcastsElement**(`data`?): [`PodcastsElement`](PodcastsElement.md)
 
-Defined in: main.ts:34824
+Defined in: main.ts:34840
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:34824
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:34813
+Defined in: main.ts:34829
 
 description
 
@@ -54,7 +54,7 @@ description
 
 > `optional` **time\_to\_play**: `string`
 
-Defined in: main.ts:34820
+Defined in: main.ts:34836
 
 the total time it will take to play an episode
 
@@ -68,7 +68,7 @@ the total time it will take to play an episode
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:34818
+Defined in: main.ts:34834
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -85,7 +85,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:34809
+Defined in: main.ts:34825
 
 title of a given link element
 
@@ -99,7 +99,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:34807
+Defined in: main.ts:34823
 
 type of element
 
@@ -113,7 +113,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:34811
+Defined in: main.ts:34827
 
 URL
 
@@ -127,7 +127,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:34833
+Defined in: main.ts:34849
 
 #### Parameters
 
@@ -145,7 +145,7 @@ Defined in: main.ts:34833
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:34855
+Defined in: main.ts:34871
 
 #### Parameters
 
@@ -163,7 +163,7 @@ Defined in: main.ts:34855
 
 > `static` **fromJS**(`data`): [`PodcastsElement`](PodcastsElement.md)
 
-Defined in: main.ts:34848
+Defined in: main.ts:34864
 
 #### Parameters
 

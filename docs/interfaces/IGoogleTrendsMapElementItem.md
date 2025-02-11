@@ -6,7 +6,7 @@
 
 # Interface: IGoogleTrendsMapElementItem
 
-Defined in: main.ts:134410
+Defined in: main.ts:134550
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:134410
 
 > `optional` **data**: [`TrendsMapDataInfo`](../classes/TrendsMapDataInfo.md)[]
 
-Defined in: main.ts:134412
+Defined in: main.ts:134552
 
 Google Trends data from the corresponding item
 

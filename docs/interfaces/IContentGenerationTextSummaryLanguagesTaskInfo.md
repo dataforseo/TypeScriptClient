@@ -6,7 +6,7 @@
 
 # Interface: IContentGenerationTextSummaryLanguagesTaskInfo
 
-Defined in: main.ts:183946
+Defined in: main.ts:184308
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`ContentGenerationTextSummaryLanguagesResultInfo`](../classes/ContentGenerationTextSummaryLanguagesResultInfo.md)[]
 
-Defined in: main.ts:183948
+Defined in: main.ts:184310
 
 array of results
 

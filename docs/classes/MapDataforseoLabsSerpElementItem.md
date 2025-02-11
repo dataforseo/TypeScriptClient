@@ -6,7 +6,7 @@
 
 # Class: MapDataforseoLabsSerpElementItem
 
-Defined in: main.ts:107137
+Defined in: main.ts:107207
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:107137
 
 > **new MapDataforseoLabsSerpElementItem**(`data`?): [`MapDataforseoLabsSerpElementItem`](MapDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:107145
+Defined in: main.ts:107215
 
 #### Parameters
 
@@ -118,7 +118,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:107139
+Defined in: main.ts:107209
 
 title of the result in SERP
 
@@ -150,7 +150,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:107141
+Defined in: main.ts:107211
 
 relevant URL of the Ad element in SERP
 
@@ -182,7 +182,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:107150
+Defined in: main.ts:107220
 
 #### Parameters
 
@@ -204,7 +204,7 @@ Defined in: main.ts:107150
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:107169
+Defined in: main.ts:107239
 
 #### Parameters
 
@@ -226,7 +226,7 @@ Defined in: main.ts:107169
 
 > `static` **fromJS**(`data`): [`MapDataforseoLabsSerpElementItem`](MapDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:107162
+Defined in: main.ts:107232
 
 #### Parameters
 

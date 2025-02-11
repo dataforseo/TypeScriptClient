@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataTrustpilotReviewsTasksReadyTaskInfo
 
-Defined in: main.ts:226634
+Defined in: main.ts:227142
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataTrustpilotReviewsTasksReadyResultInfo`](../classes/BusinessDataTrustpilotReviewsTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:226636
+Defined in: main.ts:227144
 
 array of results
 

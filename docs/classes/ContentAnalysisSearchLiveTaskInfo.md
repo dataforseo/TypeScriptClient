@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisSearchLiveTaskInfo
 
-Defined in: main.ts:178282
+Defined in: main.ts:178644
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:178282
 
 > **new ContentAnalysisSearchLiveTaskInfo**(`data`?): [`ContentAnalysisSearchLiveTaskInfo`](ContentAnalysisSearchLiveTaskInfo.md)
 
-Defined in: main.ts:178288
+Defined in: main.ts:178650
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`ContentAnalysisSearchLiveResultInfo`](ContentAnalysisSearchLiveResultInfo.md)[]
 
-Defined in: main.ts:178284
+Defined in: main.ts:178646
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:178292
+Defined in: main.ts:178654
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:178292
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:178314
+Defined in: main.ts:178676
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:178314
 
 > `static` **fromJS**(`data`): [`ContentAnalysisSearchLiveTaskInfo`](ContentAnalysisSearchLiveTaskInfo.md)
 
-Defined in: main.ts:178307
+Defined in: main.ts:178669
 
 #### Parameters
 

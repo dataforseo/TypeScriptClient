@@ -6,7 +6,7 @@
 
 # Interface: ISerpBaiduOrganicTasksFixedTaskInfo
 
-Defined in: main.ts:79686
+Defined in: main.ts:79722
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpBaiduOrganicTasksFixedResultInfo`](../classes/SerpBaiduOrganicTasksFixedResultInfo.md)[]
 
-Defined in: main.ts:79688
+Defined in: main.ts:79724
 
 array of results
 

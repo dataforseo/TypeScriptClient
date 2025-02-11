@@ -6,7 +6,7 @@
 
 # Class: AdLinkElement
 
-Defined in: main.ts:31139
+Defined in: main.ts:31145
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:31139
 
 > **new AdLinkElement**(`data`?): [`AdLinkElement`](AdLinkElement.md)
 
-Defined in: main.ts:31155
+Defined in: main.ts:31161
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:31155
 
 > `optional` **ad\_aclk**: `string`
 
-Defined in: main.ts:31151
+Defined in: main.ts:31157
 
 the identifier of the ad
 
@@ -54,7 +54,7 @@ the identifier of the ad
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:31145
+Defined in: main.ts:31151
 
 description of the results element in SERP
 
@@ -68,7 +68,7 @@ description of the results element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:31149
+Defined in: main.ts:31155
 
 domain where a link points
 
@@ -82,7 +82,7 @@ domain where a link points
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:31143
+Defined in: main.ts:31149
 
 title of the element
 
@@ -96,7 +96,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:31141
+Defined in: main.ts:31147
 
 type of element
 
@@ -110,7 +110,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:31147
+Defined in: main.ts:31153
 
 URL of element
 
@@ -124,7 +124,7 @@ URL of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:31164
+Defined in: main.ts:31170
 
 #### Parameters
 
@@ -142,7 +142,7 @@ Defined in: main.ts:31164
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:31186
+Defined in: main.ts:31192
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: main.ts:31186
 
 > `static` **fromJS**(`data`): [`AdLinkElement`](AdLinkElement.md)
 
-Defined in: main.ts:31179
+Defined in: main.ts:31185
 
 #### Parameters
 

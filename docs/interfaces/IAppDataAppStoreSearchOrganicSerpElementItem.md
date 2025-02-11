@@ -6,7 +6,7 @@
 
 # Interface: IAppDataAppStoreSearchOrganicSerpElementItem
 
-Defined in: main.ts:123861
+Defined in: main.ts:123977
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:123861
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:123863
+Defined in: main.ts:123979
 
 id of the app
 
@@ -32,7 +32,7 @@ id of the app
 
 > `optional` **icon**: `string`
 
-Defined in: main.ts:123867
+Defined in: main.ts:123983
 
 URL to the app icon
 
@@ -42,7 +42,7 @@ URL to the app icon
 
 > `optional` **is\_free**: `boolean`
 
-Defined in: main.ts:123871
+Defined in: main.ts:123987
 
 indicates whether the app is free
 
@@ -68,7 +68,7 @@ left, right
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-Defined in: main.ts:123873
+Defined in: main.ts:123989
 
 price of the app
 
@@ -122,7 +122,7 @@ average rating of the app
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:123869
+Defined in: main.ts:123985
 
 the total number of reviews of the app
 
@@ -160,6 +160,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:123865
+Defined in: main.ts:123981
 
 URL to the app page on App Store

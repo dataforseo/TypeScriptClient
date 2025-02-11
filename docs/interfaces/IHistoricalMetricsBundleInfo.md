@@ -6,7 +6,7 @@
 
 # Interface: IHistoricalMetricsBundleInfo
 
-Defined in: main.ts:111553
+Defined in: main.ts:111621
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:111553
 
 > `optional` **featured\_snippet**: [`HistoricalMetricsInfo`](../classes/HistoricalMetricsInfo.md)[]
 
-Defined in: main.ts:111561
+Defined in: main.ts:111629
 
 traffic data from the local pack results in SERP
 
@@ -28,7 +28,7 @@ traffic data from the local pack results in SERP
 
 > `optional` **local\_pack**: [`HistoricalMetricsInfo`](../classes/HistoricalMetricsInfo.md)[]
 
-Defined in: main.ts:111559
+Defined in: main.ts:111627
 
 traffic data from the featured snippet results in Google SERP
 
@@ -38,7 +38,7 @@ traffic data from the featured snippet results in Google SERP
 
 > `optional` **organic**: [`HistoricalMetricsInfo`](../classes/HistoricalMetricsInfo.md)[]
 
-Defined in: main.ts:111555
+Defined in: main.ts:111623
 
 traffic data from organic search
 
@@ -48,6 +48,6 @@ traffic data from organic search
 
 > `optional` **paid**: [`HistoricalMetricsInfo`](../classes/HistoricalMetricsInfo.md)[]
 
-Defined in: main.ts:111557
+Defined in: main.ts:111625
 
 traffic data from paid search

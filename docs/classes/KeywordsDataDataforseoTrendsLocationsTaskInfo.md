@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataDataforseoTrendsLocationsTaskInfo
 
-Defined in: main.ts:135442
+Defined in: main.ts:135606
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:135442
 
 > **new KeywordsDataDataforseoTrendsLocationsTaskInfo**(`data`?): [`KeywordsDataDataforseoTrendsLocationsTaskInfo`](KeywordsDataDataforseoTrendsLocationsTaskInfo.md)
 
-Defined in: main.ts:135448
+Defined in: main.ts:135612
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataDataforseoTrendsLocationsResultInfo`](KeywordsDataDataforseoTrendsLocationsResultInfo.md)[]
 
-Defined in: main.ts:135444
+Defined in: main.ts:135608
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:135452
+Defined in: main.ts:135616
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:135452
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:135474
+Defined in: main.ts:135638
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:135474
 
 > `static` **fromJS**(`data`): [`KeywordsDataDataforseoTrendsLocationsTaskInfo`](KeywordsDataDataforseoTrendsLocationsTaskInfo.md)
 
-Defined in: main.ts:135467
+Defined in: main.ts:135631
 
 #### Parameters
 

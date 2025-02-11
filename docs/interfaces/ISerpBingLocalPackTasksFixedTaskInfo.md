@@ -6,7 +6,7 @@
 
 # Interface: ISerpBingLocalPackTasksFixedTaskInfo
 
-Defined in: main.ts:67409
+Defined in: main.ts:67445
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpBingLocalPackTasksFixedResultInfo`](../classes/SerpBingLocalPackTasksFixedResultInfo.md)[]
 
-Defined in: main.ts:67411
+Defined in: main.ts:67447
 
 array of results
 

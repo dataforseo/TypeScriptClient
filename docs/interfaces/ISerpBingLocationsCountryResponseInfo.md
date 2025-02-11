@@ -6,7 +6,7 @@
 
 # Interface: ISerpBingLocationsCountryResponseInfo
 
-Defined in: main.ts:63182
+Defined in: main.ts:63210
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpBingLocationsCountryTaskInfo`](../classes/SerpBingLocationsCountryTaskInfo.md)[]
 
-Defined in: main.ts:63184
+Defined in: main.ts:63212
 
 array of tasks
 

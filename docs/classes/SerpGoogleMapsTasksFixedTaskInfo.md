@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleMapsTasksFixedTaskInfo
 
-Defined in: main.ts:41303
+Defined in: main.ts:41319
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:41303
 
 > **new SerpGoogleMapsTasksFixedTaskInfo**(`data`?): [`SerpGoogleMapsTasksFixedTaskInfo`](SerpGoogleMapsTasksFixedTaskInfo.md)
 
-Defined in: main.ts:41309
+Defined in: main.ts:41325
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleMapsTasksFixedResultInfo`](SerpGoogleMapsTasksFixedResultInfo.md)[]
 
-Defined in: main.ts:41305
+Defined in: main.ts:41321
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:41313
+Defined in: main.ts:41329
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:41313
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:41335
+Defined in: main.ts:41351
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:41335
 
 > `static` **fromJS**(`data`): [`SerpGoogleMapsTasksFixedTaskInfo`](SerpGoogleMapsTasksFixedTaskInfo.md)
 
-Defined in: main.ts:41328
+Defined in: main.ts:41344
 
 #### Parameters
 

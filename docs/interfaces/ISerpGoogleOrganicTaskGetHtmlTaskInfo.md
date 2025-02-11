@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleOrganicTaskGetHtmlTaskInfo
 
-Defined in: main.ts:38659
+Defined in: main.ts:38675
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleOrganicTaskGetHtmlResultInfo`](../classes/SerpGoogleOrganicTaskGetHtmlResultInfo.md)[]
 
-Defined in: main.ts:38661
+Defined in: main.ts:38677
 
 array of results
 

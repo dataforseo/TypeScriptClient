@@ -6,7 +6,7 @@
 
 # Class: OnPageRawHtmlTaskInfo
 
-Defined in: main.ts:172322
+Defined in: main.ts:172486
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:172322
 
 > **new OnPageRawHtmlTaskInfo**(`data`?): [`OnPageRawHtmlTaskInfo`](OnPageRawHtmlTaskInfo.md)
 
-Defined in: main.ts:172328
+Defined in: main.ts:172492
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`OnPageRawHtmlResultInfo`](OnPageRawHtmlResultInfo.md)[]
 
-Defined in: main.ts:172324
+Defined in: main.ts:172488
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:172332
+Defined in: main.ts:172496
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:172332
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:172354
+Defined in: main.ts:172518
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:172354
 
 > `static` **fromJS**(`data`): [`OnPageRawHtmlTaskInfo`](OnPageRawHtmlTaskInfo.md)
 
-Defined in: main.ts:172347
+Defined in: main.ts:172511
 
 #### Parameters
 

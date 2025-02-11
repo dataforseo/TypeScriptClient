@@ -6,7 +6,7 @@
 
 # Class: BacklinksPageIntersectionLiveItem
 
-Defined in: main.ts:159026
+Defined in: main.ts:159190
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:159026
 
 > **new BacklinksPageIntersectionLiveItem**(`data`?): [`BacklinksPageIntersectionLiveItem`](BacklinksPageIntersectionLiveItem.md)
 
-Defined in: main.ts:159035
+Defined in: main.ts:159199
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:159035
 
 > `optional` **page\_intersection**: `object`
 
-Defined in: main.ts:159029
+Defined in: main.ts:159193
 
 contains data on pages that link to the corresponding targets specified in the POST array
 data is provided in separate objects corresponding to pages specified in the targets object
@@ -59,7 +59,7 @@ data is provided in separate objects corresponding to pages specified in the tar
 
 > `optional` **summary**: [`IntersectionSummaryInfo`](IntersectionSummaryInfo.md)
 
-Defined in: main.ts:159031
+Defined in: main.ts:159195
 
 contains the page intersections summary
 
@@ -73,7 +73,7 @@ contains the page intersections summary
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:159044
+Defined in: main.ts:159208
 
 #### Parameters
 
@@ -91,7 +91,7 @@ Defined in: main.ts:159044
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:159068
+Defined in: main.ts:159232
 
 #### Parameters
 
@@ -109,7 +109,7 @@ Defined in: main.ts:159068
 
 > `static` **fromJS**(`data`): [`BacklinksPageIntersectionLiveItem`](BacklinksPageIntersectionLiveItem.md)
 
-Defined in: main.ts:159061
+Defined in: main.ts:159225
 
 #### Parameters
 

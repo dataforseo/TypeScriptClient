@@ -6,7 +6,7 @@
 
 # Class: AppendixUserDataResultInfo
 
-Defined in: main.ts:238910
+Defined in: main.ts:239338
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:238910
 
 > **new AppendixUserDataResultInfo**(`data`?): [`AppendixUserDataResultInfo`](AppendixUserDataResultInfo.md)
 
-Defined in: main.ts:238925
+Defined in: main.ts:239353
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:238925
 
 > `optional` **login**: `string`
 
-Defined in: main.ts:238912
+Defined in: main.ts:239340
 
 your login
 
@@ -54,7 +54,7 @@ your login
 
 > `optional` **money**: [`AppendixMoneyData`](AppendixMoneyData.md)
 
-Defined in: main.ts:238919
+Defined in: main.ts:239347
 
 section of your spending, USD
 
@@ -68,7 +68,7 @@ section of your spending, USD
 
 > `optional` **price**: [`AppendixPriceData`](AppendixPriceData.md)
 
-Defined in: main.ts:238921
+Defined in: main.ts:239349
 
 pricing
 
@@ -82,7 +82,7 @@ pricing
 
 > `optional` **rates**: [`AppendixRatesData`](AppendixRatesData.md)
 
-Defined in: main.ts:238917
+Defined in: main.ts:239345
 
 your API rates
 
@@ -96,7 +96,7 @@ your API rates
 
 > `optional` **timezone**: `string`
 
-Defined in: main.ts:238915
+Defined in: main.ts:239343
 
 your time zone
 can be set in your profile settings
@@ -111,7 +111,7 @@ can be set in your profile settings
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:238934
+Defined in: main.ts:239362
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:238934
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:238955
+Defined in: main.ts:239383
 
 #### Parameters
 
@@ -147,7 +147,7 @@ Defined in: main.ts:238955
 
 > `static` **fromJS**(`data`): [`AppendixUserDataResultInfo`](AppendixUserDataResultInfo.md)
 
-Defined in: main.ts:238948
+Defined in: main.ts:239376
 
 #### Parameters
 

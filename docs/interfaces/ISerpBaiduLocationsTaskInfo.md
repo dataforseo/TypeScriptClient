@@ -6,7 +6,7 @@
 
 # Interface: ISerpBaiduLocationsTaskInfo
 
-Defined in: main.ts:78478
+Defined in: main.ts:78514
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpBaiduLocationsResultInfo`](../classes/SerpBaiduLocationsResultInfo.md)[]
 
-Defined in: main.ts:78480
+Defined in: main.ts:78516
 
 array of results
 

@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleOrganicLiveAdvancedTaskInfo
 
-Defined in: main.ts:39885
+Defined in: main.ts:39901
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:39885
 
 > **new SerpGoogleOrganicLiveAdvancedTaskInfo**(`data`?): [`SerpGoogleOrganicLiveAdvancedTaskInfo`](SerpGoogleOrganicLiveAdvancedTaskInfo.md)
 
-Defined in: main.ts:39891
+Defined in: main.ts:39907
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleOrganicLiveAdvancedResultInfo`](SerpGoogleOrganicLiveAdvancedResultInfo.md)[]
 
-Defined in: main.ts:39887
+Defined in: main.ts:39903
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:39895
+Defined in: main.ts:39911
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:39895
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:39917
+Defined in: main.ts:39933
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:39917
 
 > `static` **fromJS**(`data`): [`SerpGoogleOrganicLiveAdvancedTaskInfo`](SerpGoogleOrganicLiveAdvancedTaskInfo.md)
 
-Defined in: main.ts:39910
+Defined in: main.ts:39926
 
 #### Parameters
 

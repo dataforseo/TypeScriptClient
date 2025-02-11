@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveTaskInfo
 
-Defined in: main.ts:132480
+Defined in: main.ts:132596
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../classes/KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md)[]
 
-Defined in: main.ts:132482
+Defined in: main.ts:132598
 
 array of results
 

@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleLocalFinderTasksFixedResponseInfo
 
-Defined in: main.ts:43700
+Defined in: main.ts:43716
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleLocalFinderTasksFixedTaskInfo`](../classes/SerpGoogleLocalFinderTasksFixedTaskInfo.md)[]
 
-Defined in: main.ts:43702
+Defined in: main.ts:43718
 
 array of tasks
 

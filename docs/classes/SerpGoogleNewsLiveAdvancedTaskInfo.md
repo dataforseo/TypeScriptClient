@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleNewsLiveAdvancedTaskInfo
 
-Defined in: main.ts:47307
+Defined in: main.ts:47323
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:47307
 
 > **new SerpGoogleNewsLiveAdvancedTaskInfo**(`data`?): [`SerpGoogleNewsLiveAdvancedTaskInfo`](SerpGoogleNewsLiveAdvancedTaskInfo.md)
 
-Defined in: main.ts:47313
+Defined in: main.ts:47329
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleNewsLiveAdvancedResultInfo`](SerpGoogleNewsLiveAdvancedResultInfo.md)[]
 
-Defined in: main.ts:47309
+Defined in: main.ts:47325
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:47317
+Defined in: main.ts:47333
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:47317
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:47339
+Defined in: main.ts:47355
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:47339
 
 > `static` **fromJS**(`data`): [`SerpGoogleNewsLiveAdvancedTaskInfo`](SerpGoogleNewsLiveAdvancedTaskInfo.md)
 
-Defined in: main.ts:47332
+Defined in: main.ts:47348
 
 #### Parameters
 

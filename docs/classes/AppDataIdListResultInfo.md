@@ -6,7 +6,7 @@
 
 # Class: AppDataIdListResultInfo
 
-Defined in: main.ts:197990
+Defined in: main.ts:198492
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:197990
 
 > **new AppDataIdListResultInfo**(`data`?): [`AppDataIdListResultInfo`](AppDataIdListResultInfo.md)
 
-Defined in: main.ts:198016
+Defined in: main.ts:198518
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:198016
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:198010
+Defined in: main.ts:198512
 
 cost of the task, USD
 
@@ -54,7 +54,7 @@ cost of the task, USD
 
 > `optional` **datetime\_done**: `string`
 
-Defined in: main.ts:198005
+Defined in: main.ts:198507
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -71,7 +71,7 @@ example:
 
 > `optional` **datetime\_posted**: `string`
 
-Defined in: main.ts:198000
+Defined in: main.ts:198502
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -88,7 +88,7 @@ example:
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:197992
+Defined in: main.ts:198494
 
 id of the task
 
@@ -102,7 +102,7 @@ id of the task
 
 > `optional` **metadata**: `object`
 
-Defined in: main.ts:198012
+Defined in: main.ts:198514
 
 contains parameters you specified in the POST request
 
@@ -120,7 +120,7 @@ contains parameters you specified in the POST request
 
 > `optional` **status**: `string`
 
-Defined in: main.ts:198008
+Defined in: main.ts:198510
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -135,7 +135,7 @@ you can find the full list of general informational messages here
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:197995
+Defined in: main.ts:198497
 
 URL of the task
 URL you used for making an API call
@@ -150,7 +150,7 @@ URL you used for making an API call
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:198025
+Defined in: main.ts:198527
 
 #### Parameters
 
@@ -168,7 +168,7 @@ Defined in: main.ts:198025
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:198054
+Defined in: main.ts:198556
 
 #### Parameters
 
@@ -186,7 +186,7 @@ Defined in: main.ts:198054
 
 > `static` **fromJS**(`data`): [`AppDataIdListResultInfo`](AppDataIdListResultInfo.md)
 
-Defined in: main.ts:198047
+Defined in: main.ts:198549
 
 #### Parameters
 

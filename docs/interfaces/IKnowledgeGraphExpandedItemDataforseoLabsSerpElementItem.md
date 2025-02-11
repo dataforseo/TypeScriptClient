@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphExpandedItemDataforseoLabsSerpElementItem
 
-Defined in: main.ts:107802
+Defined in: main.ts:107858
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:107802
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:107808
+Defined in: main.ts:107864
 
 google defined data attribute ID
 example:
@@ -34,7 +34,7 @@ action:listen_artist
 
 > `optional` **expanded\_element**: [`KnowledgeGraphExpandedElement`](../classes/KnowledgeGraphExpandedElement.md)[]
 
-Defined in: main.ts:107810
+Defined in: main.ts:107866
 
 expanded element
 
@@ -90,7 +90,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:107804
+Defined in: main.ts:107860
 
 title of a given link element
 

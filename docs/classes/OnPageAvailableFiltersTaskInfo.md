@@ -6,7 +6,7 @@
 
 # Class: OnPageAvailableFiltersTaskInfo
 
-Defined in: main.ts:164002
+Defined in: main.ts:164166
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:164002
 
 > **new OnPageAvailableFiltersTaskInfo**(`data`?): [`OnPageAvailableFiltersTaskInfo`](OnPageAvailableFiltersTaskInfo.md)
 
-Defined in: main.ts:164007
+Defined in: main.ts:164171
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`OnPageAvailableFiltersResultInfo`](OnPageAvailableFiltersResultInfo.md)[]
 
-Defined in: main.ts:164003
+Defined in: main.ts:164167
 
 #### Implementation of
 
@@ -212,7 +212,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:164011
+Defined in: main.ts:164175
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:164011
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:164033
+Defined in: main.ts:164197
 
 #### Parameters
 
@@ -256,7 +256,7 @@ Defined in: main.ts:164033
 
 > `static` **fromJS**(`data`): [`OnPageAvailableFiltersTaskInfo`](OnPageAvailableFiltersTaskInfo.md)
 
-Defined in: main.ts:164026
+Defined in: main.ts:164190
 
 #### Parameters
 

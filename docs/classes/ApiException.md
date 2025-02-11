@@ -6,7 +6,7 @@
 
 # Class: ApiException
 
-Defined in: main.ts:239772
+Defined in: main.ts:240200
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: main.ts:239772
 
 > **new ApiException**(`message`, `status`, `response`, `headers`, `result`): [`ApiException`](ApiException.md)
 
-Defined in: main.ts:239779
+Defined in: main.ts:240207
 
 #### Parameters
 
@@ -54,7 +54,7 @@ Defined in: main.ts:239779
 
 > **headers**: `object`
 
-Defined in: main.ts:239776
+Defined in: main.ts:240204
 
 #### Index Signature
 
@@ -66,7 +66,7 @@ Defined in: main.ts:239776
 
 > `protected` **isApiException**: `boolean` = `true`
 
-Defined in: main.ts:239789
+Defined in: main.ts:240217
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: main.ts:239789
 
 > **message**: `string`
 
-Defined in: main.ts:239773
+Defined in: main.ts:240201
 
 #### Overrides
 
@@ -98,7 +98,7 @@ Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1076
 
 > **response**: `string`
 
-Defined in: main.ts:239775
+Defined in: main.ts:240203
 
 ***
 
@@ -106,7 +106,7 @@ Defined in: main.ts:239775
 
 > **result**: `any`
 
-Defined in: main.ts:239777
+Defined in: main.ts:240205
 
 ***
 
@@ -126,7 +126,7 @@ Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1078
 
 > **status**: `number`
 
-Defined in: main.ts:239774
+Defined in: main.ts:240202
 
 ## Methods
 
@@ -134,7 +134,7 @@ Defined in: main.ts:239774
 
 > `static` **isApiException**(`obj`): `obj is ApiException`
 
-Defined in: main.ts:239791
+Defined in: main.ts:240219
 
 #### Parameters
 

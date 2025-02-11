@@ -6,7 +6,7 @@
 
 # Class: SerpNaverOrganicTasksReadyTaskInfo
 
-Defined in: main.ts:81084
+Defined in: main.ts:81120
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:81084
 
 > **new SerpNaverOrganicTasksReadyTaskInfo**(`data`?): [`SerpNaverOrganicTasksReadyTaskInfo`](SerpNaverOrganicTasksReadyTaskInfo.md)
 
-Defined in: main.ts:81090
+Defined in: main.ts:81126
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpNaverOrganicTasksReadyResultInfo`](SerpNaverOrganicTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:81086
+Defined in: main.ts:81122
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:81094
+Defined in: main.ts:81130
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:81094
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:81116
+Defined in: main.ts:81152
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:81116
 
 > `static` **fromJS**(`data`): [`SerpNaverOrganicTasksReadyTaskInfo`](SerpNaverOrganicTasksReadyTaskInfo.md)
 
-Defined in: main.ts:81109
+Defined in: main.ts:81145
 
 #### Parameters
 

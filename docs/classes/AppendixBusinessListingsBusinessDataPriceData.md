@@ -6,7 +6,7 @@
 
 # Class: AppendixBusinessListingsBusinessDataPriceData
 
-Defined in: main.ts:237674
+Defined in: main.ts:238094
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:237674
 
 > **new AppendixBusinessListingsBusinessDataPriceData**(`data`?): [`AppendixBusinessListingsBusinessDataPriceData`](AppendixBusinessListingsBusinessDataPriceData.md)
 
-Defined in: main.ts:237682
+Defined in: main.ts:238102
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:237682
 
 > `optional` **categories**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237675
+Defined in: main.ts:238095
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:237675
 
 > `optional` **categories\_aggregation**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237676
+Defined in: main.ts:238096
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:237676
 
 > `optional` **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237677
+Defined in: main.ts:238097
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:237677
 
 > `optional` **search**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237678
+Defined in: main.ts:238098
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:237678
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:237691
+Defined in: main.ts:238111
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: main.ts:237691
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:237711
+Defined in: main.ts:238131
 
 #### Parameters
 
@@ -124,7 +124,7 @@ Defined in: main.ts:237711
 
 > `static` **fromJS**(`data`): [`AppendixBusinessListingsBusinessDataPriceData`](AppendixBusinessListingsBusinessDataPriceData.md)
 
-Defined in: main.ts:237704
+Defined in: main.ts:238124
 
 #### Parameters
 

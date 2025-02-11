@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleLocationsCountryTaskInfo
 
-Defined in: main.ts:199054
+Defined in: main.ts:199556
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`AppDataGoogleLocationsCountryResultInfo`](../classes/AppDataGoogleLocationsCountryResultInfo.md)[]
 
-Defined in: main.ts:199056
+Defined in: main.ts:199558
 
 array of results
 

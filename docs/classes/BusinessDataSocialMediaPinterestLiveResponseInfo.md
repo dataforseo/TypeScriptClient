@@ -6,7 +6,7 @@
 
 # Class: BusinessDataSocialMediaPinterestLiveResponseInfo
 
-Defined in: main.ts:229839
+Defined in: main.ts:230347
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:229839
 
 > **new BusinessDataSocialMediaPinterestLiveResponseInfo**(`data`?): [`BusinessDataSocialMediaPinterestLiveResponseInfo`](BusinessDataSocialMediaPinterestLiveResponseInfo.md)
 
-Defined in: main.ts:229845
+Defined in: main.ts:230353
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BusinessDataSocialMediaPinterestLiveTaskInfo`](BusinessDataSocialMediaPinterestLiveTaskInfo.md)[]
 
-Defined in: main.ts:229841
+Defined in: main.ts:230349
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:229849
+Defined in: main.ts:230357
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:229849
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:229871
+Defined in: main.ts:230379
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:229871
 
 > `static` **fromJS**(`data`): [`BusinessDataSocialMediaPinterestLiveResponseInfo`](BusinessDataSocialMediaPinterestLiveResponseInfo.md)
 
-Defined in: main.ts:229864
+Defined in: main.ts:230372
 
 #### Parameters
 

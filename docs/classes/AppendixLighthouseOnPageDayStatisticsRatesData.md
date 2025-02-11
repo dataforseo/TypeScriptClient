@@ -6,7 +6,7 @@
 
 # Class: AppendixLighthouseOnPageDayStatisticsRatesData
 
-Defined in: main.ts:233984
+Defined in: main.ts:234504
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:233984
 
 > **new AppendixLighthouseOnPageDayStatisticsRatesData**(`data`?): [`AppendixLighthouseOnPageDayStatisticsRatesData`](AppendixLighthouseOnPageDayStatisticsRatesData.md)
 
-Defined in: main.ts:233995
+Defined in: main.ts:234515
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:233995
 
 > `optional` **audits**: `number`
 
-Defined in: main.ts:233989
+Defined in: main.ts:234511
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:233989
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:233990
+Defined in: main.ts:234510
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:233990
 
 > `optional` **live**: `number`
 
-Defined in: main.ts:233988
+Defined in: main.ts:234508
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:233988
 
 > `optional` **task\_get**: `number`
 
-Defined in: main.ts:233987
+Defined in: main.ts:234507
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:233987
 
 > `optional` **task\_post**: `number`
 
-Defined in: main.ts:233985
+Defined in: main.ts:234505
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:233985
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:233986
+Defined in: main.ts:234506
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:233986
 
 > `optional` **versions**: `number`
 
-Defined in: main.ts:233991
+Defined in: main.ts:234509
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:233991
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:234004
+Defined in: main.ts:234524
 
 #### Parameters
 
@@ -142,7 +142,7 @@ Defined in: main.ts:234004
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:234027
+Defined in: main.ts:234547
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: main.ts:234027
 
 > `static` **fromJS**(`data`): [`AppendixLighthouseOnPageDayStatisticsRatesData`](AppendixLighthouseOnPageDayStatisticsRatesData.md)
 
-Defined in: main.ts:234020
+Defined in: main.ts:234540
 
 #### Parameters
 

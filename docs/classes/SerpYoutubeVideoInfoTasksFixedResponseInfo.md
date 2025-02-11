@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeVideoInfoTasksFixedResponseInfo
 
-Defined in: main.ts:70198
+Defined in: main.ts:70234
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:70198
 
 > **new SerpYoutubeVideoInfoTasksFixedResponseInfo**(`data`?): [`SerpYoutubeVideoInfoTasksFixedResponseInfo`](SerpYoutubeVideoInfoTasksFixedResponseInfo.md)
 
-Defined in: main.ts:70204
+Defined in: main.ts:70240
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpYoutubeVideoInfoTasksFixedTaskInfo`](SerpYoutubeVideoInfoTasksFixedTaskInfo.md)[]
 
-Defined in: main.ts:70200
+Defined in: main.ts:70236
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:70208
+Defined in: main.ts:70244
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:70208
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:70230
+Defined in: main.ts:70266
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:70230
 
 > `static` **fromJS**(`data`): [`SerpYoutubeVideoInfoTasksFixedResponseInfo`](SerpYoutubeVideoInfoTasksFixedResponseInfo.md)
 
-Defined in: main.ts:70223
+Defined in: main.ts:70259
 
 #### Parameters
 

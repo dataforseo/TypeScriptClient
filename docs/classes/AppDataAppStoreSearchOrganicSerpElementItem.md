@@ -6,7 +6,7 @@
 
 # Class: AppDataAppStoreSearchOrganicSerpElementItem
 
-Defined in: main.ts:123800
+Defined in: main.ts:123916
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:123800
 
 > **new AppDataAppStoreSearchOrganicSerpElementItem**(`data`?): [`AppDataAppStoreSearchOrganicSerpElementItem`](AppDataAppStoreSearchOrganicSerpElementItem.md)
 
-Defined in: main.ts:123816
+Defined in: main.ts:123932
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22886
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:123802
+Defined in: main.ts:123918
 
 id of the app
 
@@ -74,7 +74,7 @@ id of the app
 
 > `optional` **icon**: `string`
 
-Defined in: main.ts:123806
+Defined in: main.ts:123922
 
 URL to the app icon
 
@@ -88,7 +88,7 @@ URL to the app icon
 
 > `optional` **is\_free**: `boolean`
 
-Defined in: main.ts:123810
+Defined in: main.ts:123926
 
 indicates whether the app is free
 
@@ -122,7 +122,7 @@ left, right
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:123812
+Defined in: main.ts:123928
 
 price of the app
 
@@ -192,7 +192,7 @@ average rating of the app
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:123808
+Defined in: main.ts:123924
 
 the total number of reviews of the app
 
@@ -242,7 +242,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:123804
+Defined in: main.ts:123920
 
 URL to the app page on App Store
 
@@ -256,7 +256,7 @@ URL to the app page on App Store
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:123821
+Defined in: main.ts:123937
 
 #### Parameters
 
@@ -278,7 +278,7 @@ Defined in: main.ts:123821
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:123844
+Defined in: main.ts:123960
 
 #### Parameters
 
@@ -300,7 +300,7 @@ Defined in: main.ts:123844
 
 > `static` **fromJS**(`data`): [`AppDataAppStoreSearchOrganicSerpElementItem`](AppDataAppStoreSearchOrganicSerpElementItem.md)
 
-Defined in: main.ts:123837
+Defined in: main.ts:123953
 
 #### Parameters
 

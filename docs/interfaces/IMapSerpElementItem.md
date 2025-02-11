@@ -6,7 +6,7 @@
 
 # Interface: IMapSerpElementItem
 
-Defined in: main.ts:32736
+Defined in: main.ts:32744
 
 ## Extends
 
@@ -69,7 +69,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:32744
+Defined in: main.ts:32752
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -81,7 +81,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:32738
+Defined in: main.ts:32746
 
 title of the row
 
@@ -105,7 +105,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:32740
+Defined in: main.ts:32748
 
 source URL
 

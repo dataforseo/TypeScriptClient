@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisCategoriesTaskInfo
 
-Defined in: main.ts:177278
+Defined in: main.ts:177642
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:177278
 
 > **new ContentAnalysisCategoriesTaskInfo**(`data`?): [`ContentAnalysisCategoriesTaskInfo`](ContentAnalysisCategoriesTaskInfo.md)
 
-Defined in: main.ts:177284
+Defined in: main.ts:177648
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`ContentAnalysisCategoriesResultInfo`](ContentAnalysisCategoriesResultInfo.md)[]
 
-Defined in: main.ts:177280
+Defined in: main.ts:177644
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:177288
+Defined in: main.ts:177652
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:177288
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:177310
+Defined in: main.ts:177674
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:177310
 
 > `static` **fromJS**(`data`): [`ContentAnalysisCategoriesTaskInfo`](ContentAnalysisCategoriesTaskInfo.md)
 
-Defined in: main.ts:177303
+Defined in: main.ts:177667
 
 #### Parameters
 

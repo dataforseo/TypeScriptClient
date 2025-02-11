@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleProductInfoTaskPostRequestInfo
 
-Defined in: main.ts:189876
+Defined in: main.ts:190266
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:189876
 
 > **new MerchantGoogleProductInfoTaskPostRequestInfo**(`data`?): [`MerchantGoogleProductInfoTaskPostRequestInfo`](MerchantGoogleProductInfoTaskPostRequestInfo.md)
 
-Defined in: main.ts:189972
+Defined in: main.ts:190369
 
 #### Parameters
 
@@ -36,11 +36,29 @@ Defined in: main.ts:189972
 
 ## Properties
 
+### data\_docid?
+
+> `optional` **data\_docid**: `string`
+
+Defined in: main.ts:190279
+
+unique identifier of the SERP data element
+required field if product_id is not specified
+you can get this value for a certain element by making a separate request to the Google Shopping Products endpoint
+example:
+13071766526042404278
+
+#### Implementation of
+
+[`IMerchantGoogleProductInfoTaskPostRequestInfo`](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md).[`data_docid`](../interfaces/IMerchantGoogleProductInfoTaskPostRequestInfo.md#data_docid)
+
+***
+
 ### language\_code?
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:189927
+Defined in: main.ts:190324
 
 language code
 required field if you don’t specify language_name
@@ -59,7 +77,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:189920
+Defined in: main.ts:190317
 
 full name of the language
 required field if you don’t specify language_code
@@ -78,7 +96,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:189904
+Defined in: main.ts:190301
 
 location code
 required field if you don’t specify location_name or location_coordinate
@@ -97,7 +115,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:189913
+Defined in: main.ts:190310
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -118,7 +136,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:189897
+Defined in: main.ts:190294
 
 full name of the location
 required field if you don’t specify location_code or location_coordinate
@@ -137,7 +155,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:189968
+Defined in: main.ts:190365
 
 notification URL of a completed task
 optional field
@@ -160,7 +178,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:189957
+Defined in: main.ts:190354
 
 postback_url datatype
 required field if you specify postback_url
@@ -178,7 +196,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:189951
+Defined in: main.ts:190348
 
 return URL for sending task results
 optional field
@@ -201,7 +219,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:189890
+Defined in: main.ts:190287
 
 task priority
 optional field
@@ -221,12 +239,13 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **product\_id**: `string`
 
-Defined in: main.ts:189882
+Defined in: main.ts:190273
 
-product ID
-required field
-unique product identifier in Google Shopping
-you can receive the product_id by making a separate request to the Google Shopping Products endpoint
+unique product identifier on Google Shopping
+required field if data_docid is not specified
+you can get this value for a certain product by making a separate request to the Google Shopping Products endpoint
+example:
+4485466949985702538
 learn more about the parameter in this help center guide
 
 #### Implementation of
@@ -239,7 +258,7 @@ learn more about the parameter in this help center guide
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:189934
+Defined in: main.ts:190331
 
 search engine domain
 optional field
@@ -258,7 +277,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:189940
+Defined in: main.ts:190337
 
 user-defined task identifier
 optional field
@@ -276,7 +295,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:189981
+Defined in: main.ts:190378
 
 #### Parameters
 
@@ -294,7 +313,7 @@ Defined in: main.ts:189981
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:190009
+Defined in: main.ts:190407
 
 #### Parameters
 
@@ -312,7 +331,7 @@ Defined in: main.ts:190009
 
 > `static` **fromJS**(`data`): [`MerchantGoogleProductInfoTaskPostRequestInfo`](MerchantGoogleProductInfoTaskPostRequestInfo.md)
 
-Defined in: main.ts:190002
+Defined in: main.ts:190400
 
 #### Parameters
 

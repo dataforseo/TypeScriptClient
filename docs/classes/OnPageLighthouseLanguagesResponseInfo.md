@@ -6,7 +6,7 @@
 
 # Class: OnPageLighthouseLanguagesResponseInfo
 
-Defined in: main.ts:174969
+Defined in: main.ts:175333
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:174969
 
 > **new OnPageLighthouseLanguagesResponseInfo**(`data`?): [`OnPageLighthouseLanguagesResponseInfo`](OnPageLighthouseLanguagesResponseInfo.md)
 
-Defined in: main.ts:174975
+Defined in: main.ts:175339
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageLighthouseLanguagesTaskInfo`](OnPageLighthouseLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:174971
+Defined in: main.ts:175335
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:174979
+Defined in: main.ts:175343
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:174979
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:175001
+Defined in: main.ts:175365
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:175001
 
 > `static` **fromJS**(`data`): [`OnPageLighthouseLanguagesResponseInfo`](OnPageLighthouseLanguagesResponseInfo.md)
 
-Defined in: main.ts:174994
+Defined in: main.ts:175358
 
 #### Parameters
 

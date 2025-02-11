@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleDatasetSearchTasksFixedTaskInfo
 
-Defined in: main.ts:57538
+Defined in: main.ts:57554
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:57538
 
 > **new SerpGoogleDatasetSearchTasksFixedTaskInfo**(`data`?): [`SerpGoogleDatasetSearchTasksFixedTaskInfo`](SerpGoogleDatasetSearchTasksFixedTaskInfo.md)
 
-Defined in: main.ts:57544
+Defined in: main.ts:57560
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleDatasetSearchTasksFixedResultInfo`](SerpGoogleDatasetSearchTasksFixedResultInfo.md)[]
 
-Defined in: main.ts:57540
+Defined in: main.ts:57556
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:57548
+Defined in: main.ts:57564
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:57548
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:57570
+Defined in: main.ts:57586
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:57570
 
 > `static` **fromJS**(`data`): [`SerpGoogleDatasetSearchTasksFixedTaskInfo`](SerpGoogleDatasetSearchTasksFixedTaskInfo.md)
 
-Defined in: main.ts:57563
+Defined in: main.ts:57579
 
 #### Parameters
 

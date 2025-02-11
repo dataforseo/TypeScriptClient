@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsWhoisAvailableFiltersResponseInfo
 
-Defined in: main.ts:89021
+Defined in: main.ts:89057
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:89021
 
 > **new DomainAnalyticsWhoisAvailableFiltersResponseInfo**(`data`?): [`DomainAnalyticsWhoisAvailableFiltersResponseInfo`](DomainAnalyticsWhoisAvailableFiltersResponseInfo.md)
 
-Defined in: main.ts:89026
+Defined in: main.ts:89062
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DomainAnalyticsWhoisAvailableFiltersTaskInfo`](DomainAnalyticsWhoisAvailableFiltersTaskInfo.md)[]
 
-Defined in: main.ts:89022
+Defined in: main.ts:89058
 
 #### Implementation of
 
@@ -188,7 +188,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:89030
+Defined in: main.ts:89066
 
 #### Parameters
 
@@ -210,7 +210,7 @@ Defined in: main.ts:89030
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:89052
+Defined in: main.ts:89088
 
 #### Parameters
 
@@ -232,7 +232,7 @@ Defined in: main.ts:89052
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsWhoisAvailableFiltersResponseInfo`](DomainAnalyticsWhoisAvailableFiltersResponseInfo.md)
 
-Defined in: main.ts:89045
+Defined in: main.ts:89081
 
 #### Parameters
 

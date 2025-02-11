@@ -6,7 +6,7 @@
 
 # Class: OnPageLighthouseTasksReadyTaskInfo
 
-Defined in: main.ts:175828
+Defined in: main.ts:176192
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:175828
 
 > **new OnPageLighthouseTasksReadyTaskInfo**(`data`?): [`OnPageLighthouseTasksReadyTaskInfo`](OnPageLighthouseTasksReadyTaskInfo.md)
 
-Defined in: main.ts:175834
+Defined in: main.ts:176198
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`OnPageLighthouseTasksReadyResultInfo`](OnPageLighthouseTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:175830
+Defined in: main.ts:176194
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:175838
+Defined in: main.ts:176202
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:175838
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:175860
+Defined in: main.ts:176224
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:175860
 
 > `static` **fromJS**(`data`): [`OnPageLighthouseTasksReadyTaskInfo`](OnPageLighthouseTasksReadyTaskInfo.md)
 
-Defined in: main.ts:175853
+Defined in: main.ts:176217
 
 #### Parameters
 

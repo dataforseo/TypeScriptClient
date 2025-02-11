@@ -6,7 +6,7 @@
 
 # Interface: IShoppingSpecificationMerchantSerpElementItem
 
-Defined in: main.ts:189367
+Defined in: main.ts:189757
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:189367
 
 > `optional` **block\_name**: `string`
 
-Defined in: main.ts:189372
+Defined in: main.ts:189762
 
 name of the block of product attributes
 indicates the name of the product specification section in which the related element is listed
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **specification\_name**: `string`
 
-Defined in: main.ts:189375
+Defined in: main.ts:189765
 
 product attribute
 attribute name of the product data specification
@@ -90,7 +90,7 @@ attribute name of the product data specification
 
 > `optional` **specification\_value**: `string`
 
-Defined in: main.ts:189377
+Defined in: main.ts:189767
 
 content of the specification
 
@@ -114,6 +114,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:189369
+Defined in: main.ts:189759
 
 XPath of the element

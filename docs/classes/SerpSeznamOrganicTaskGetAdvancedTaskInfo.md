@@ -6,7 +6,7 @@
 
 # Class: SerpSeznamOrganicTaskGetAdvancedTaskInfo
 
-Defined in: main.ts:84010
+Defined in: main.ts:84046
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:84010
 
 > **new SerpSeznamOrganicTaskGetAdvancedTaskInfo**(`data`?): [`SerpSeznamOrganicTaskGetAdvancedTaskInfo`](SerpSeznamOrganicTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:84016
+Defined in: main.ts:84052
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpSeznamOrganicTaskGetAdvancedResultInfo`](SerpSeznamOrganicTaskGetAdvancedResultInfo.md)[]
 
-Defined in: main.ts:84012
+Defined in: main.ts:84048
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:84020
+Defined in: main.ts:84056
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:84020
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:84042
+Defined in: main.ts:84078
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:84042
 
 > `static` **fromJS**(`data`): [`SerpSeznamOrganicTaskGetAdvancedTaskInfo`](SerpSeznamOrganicTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:84035
+Defined in: main.ts:84071
 
 #### Parameters
 

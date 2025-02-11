@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationGrammarRulesResponseInfo
 
-Defined in: main.ts:183427
+Defined in: main.ts:183789
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:183427
 
 > **new ContentGenerationGrammarRulesResponseInfo**(`data`?): [`ContentGenerationGrammarRulesResponseInfo`](ContentGenerationGrammarRulesResponseInfo.md)
 
-Defined in: main.ts:183433
+Defined in: main.ts:183795
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`ContentGenerationGrammarRulesTaskInfo`](ContentGenerationGrammarRulesTaskInfo.md)[]
 
-Defined in: main.ts:183429
+Defined in: main.ts:183791
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:183437
+Defined in: main.ts:183799
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:183437
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:183459
+Defined in: main.ts:183821
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:183459
 
 > `static` **fromJS**(`data`): [`ContentGenerationGrammarRulesResponseInfo`](ContentGenerationGrammarRulesResponseInfo.md)
 
-Defined in: main.ts:183452
+Defined in: main.ts:183814
 
 #### Parameters
 

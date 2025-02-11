@@ -6,7 +6,7 @@
 
 # Class: GoogleFlightsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108245
+Defined in: main.ts:108301
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:108245
 
 > **new GoogleFlightsDataforseoLabsSerpElementItem**(`data`?): [`GoogleFlightsDataforseoLabsSerpElementItem`](GoogleFlightsDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108255
+Defined in: main.ts:108311
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **items**: [`GoogleFlightsElement`](GoogleFlightsElement.md)[]
 
-Defined in: main.ts:108251
+Defined in: main.ts:108307
 
 elements of search results found in SERP
 
@@ -132,7 +132,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:108247
+Defined in: main.ts:108303
 
 title of the result in SERP
 
@@ -164,7 +164,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:108249
+Defined in: main.ts:108305
 
 relevant URL of the Ad element in SERP
 
@@ -196,7 +196,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:108260
+Defined in: main.ts:108316
 
 #### Parameters
 
@@ -218,7 +218,7 @@ Defined in: main.ts:108260
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:108284
+Defined in: main.ts:108340
 
 #### Parameters
 
@@ -240,7 +240,7 @@ Defined in: main.ts:108284
 
 > `static` **fromJS**(`data`): [`GoogleFlightsDataforseoLabsSerpElementItem`](GoogleFlightsDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108277
+Defined in: main.ts:108333
 
 #### Parameters
 

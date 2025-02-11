@@ -6,7 +6,7 @@
 
 # Class: RelatedSearchesSerpElementItem
 
-Defined in: main.ts:33979
+Defined in: main.ts:33995
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:33979
 
 > **new RelatedSearchesSerpElementItem**(`data`?): [`RelatedSearchesSerpElementItem`](RelatedSearchesSerpElementItem.md)
 
-Defined in: main.ts:33989
+Defined in: main.ts:34005
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: `string`[]
 
-Defined in: main.ts:33981
+Defined in: main.ts:33997
 
 contains arrays of specific images
 
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:33985
+Defined in: main.ts:34001
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -185,7 +185,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:33994
+Defined in: main.ts:34010
 
 #### Parameters
 
@@ -207,7 +207,7 @@ Defined in: main.ts:33994
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:34017
+Defined in: main.ts:34033
 
 #### Parameters
 
@@ -229,7 +229,7 @@ Defined in: main.ts:34017
 
 > `static` **fromJS**(`data`): [`RelatedSearchesSerpElementItem`](RelatedSearchesSerpElementItem.md)
 
-Defined in: main.ts:34010
+Defined in: main.ts:34026
 
 #### Parameters
 

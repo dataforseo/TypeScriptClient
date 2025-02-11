@@ -6,7 +6,7 @@
 
 # Class: BacklinksReferringDomainsLiveResponseInfo
 
-Defined in: main.ts:155991
+Defined in: main.ts:156155
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:155991
 
 > **new BacklinksReferringDomainsLiveResponseInfo**(`data`?): [`BacklinksReferringDomainsLiveResponseInfo`](BacklinksReferringDomainsLiveResponseInfo.md)
 
-Defined in: main.ts:155997
+Defined in: main.ts:156161
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BacklinksReferringDomainsLiveTaskInfo`](BacklinksReferringDomainsLiveTaskInfo.md)[]
 
-Defined in: main.ts:155993
+Defined in: main.ts:156157
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:156001
+Defined in: main.ts:156165
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:156001
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:156023
+Defined in: main.ts:156187
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:156023
 
 > `static` **fromJS**(`data`): [`BacklinksReferringDomainsLiveResponseInfo`](BacklinksReferringDomainsLiveResponseInfo.md)
 
-Defined in: main.ts:156016
+Defined in: main.ts:156180
 
 #### Parameters
 

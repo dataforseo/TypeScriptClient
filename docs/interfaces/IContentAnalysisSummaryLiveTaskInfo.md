@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisSummaryLiveTaskInfo
 
-Defined in: main.ts:178904
+Defined in: main.ts:179266
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)[]
 
-Defined in: main.ts:178906
+Defined in: main.ts:179268
 
 array of results
 

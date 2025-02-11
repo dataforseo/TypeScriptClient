@@ -6,7 +6,7 @@
 
 # Class: SerpBaiduOrganicTaskPostTaskInfo
 
-Defined in: main.ts:79220
+Defined in: main.ts:79256
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:79220
 
 > **new SerpBaiduOrganicTaskPostTaskInfo**(`data`?): [`SerpBaiduOrganicTaskPostTaskInfo`](SerpBaiduOrganicTaskPostTaskInfo.md)
 
-Defined in: main.ts:79227
+Defined in: main.ts:79263
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:79223
+Defined in: main.ts:79259
 
 array of results
 in this case, the value will be null
@@ -215,7 +215,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:79231
+Defined in: main.ts:79267
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:79231
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:79249
+Defined in: main.ts:79285
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:79249
 
 > `static` **fromJS**(`data`): [`SerpBaiduOrganicTaskPostTaskInfo`](SerpBaiduOrganicTaskPostTaskInfo.md)
 
-Defined in: main.ts:79242
+Defined in: main.ts:79278
 
 #### Parameters
 

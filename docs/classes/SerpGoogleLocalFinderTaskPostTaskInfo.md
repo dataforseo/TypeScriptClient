@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleLocalFinderTaskPostTaskInfo
 
-Defined in: main.ts:43179
+Defined in: main.ts:43195
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:43179
 
 > **new SerpGoogleLocalFinderTaskPostTaskInfo**(`data`?): [`SerpGoogleLocalFinderTaskPostTaskInfo`](SerpGoogleLocalFinderTaskPostTaskInfo.md)
 
-Defined in: main.ts:43186
+Defined in: main.ts:43202
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:43182
+Defined in: main.ts:43198
 
 array of results
 in this case, the value will be null
@@ -215,7 +215,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:43190
+Defined in: main.ts:43206
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:43190
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:43208
+Defined in: main.ts:43224
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:43208
 
 > `static` **fromJS**(`data`): [`SerpGoogleLocalFinderTaskPostTaskInfo`](SerpGoogleLocalFinderTaskPostTaskInfo.md)
 
-Defined in: main.ts:43201
+Defined in: main.ts:43217
 
 #### Parameters
 

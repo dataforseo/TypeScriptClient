@@ -6,7 +6,7 @@
 
 # Interface: IMentionCarouselSerpElementItem
 
-Defined in: main.ts:33820
+Defined in: main.ts:33836
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:33820
 
 > `optional` **items**: [`MentionCarouselElement`](../classes/MentionCarouselElement.md)[]
 
-Defined in: main.ts:33824
+Defined in: main.ts:33840
 
 contains arrays of specific images
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:33828
+Defined in: main.ts:33844
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -91,7 +91,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:33822
+Defined in: main.ts:33838
 
 title of the row
 

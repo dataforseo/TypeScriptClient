@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleOrganicLiveHtmlResponseInfo
 
-Defined in: main.ts:40456
+Defined in: main.ts:40472
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:40456
 
 > **new SerpGoogleOrganicLiveHtmlResponseInfo**(`data`?): [`SerpGoogleOrganicLiveHtmlResponseInfo`](SerpGoogleOrganicLiveHtmlResponseInfo.md)
 
-Defined in: main.ts:40462
+Defined in: main.ts:40478
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleOrganicLiveHtmlTaskInfo`](SerpGoogleOrganicLiveHtmlTaskInfo.md)[]
 
-Defined in: main.ts:40458
+Defined in: main.ts:40474
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:40466
+Defined in: main.ts:40482
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:40466
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:40488
+Defined in: main.ts:40504
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:40488
 
 > `static` **fromJS**(`data`): [`SerpGoogleOrganicLiveHtmlResponseInfo`](SerpGoogleOrganicLiveHtmlResponseInfo.md)
 
-Defined in: main.ts:40481
+Defined in: main.ts:40497
 
 #### Parameters
 

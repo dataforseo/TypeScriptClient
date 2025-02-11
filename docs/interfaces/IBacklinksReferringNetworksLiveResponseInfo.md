@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksReferringNetworksLiveResponseInfo
 
-Defined in: main.ts:156819
+Defined in: main.ts:156983
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BacklinksReferringNetworksLiveTaskInfo`](../classes/BacklinksReferringNetworksLiveTaskInfo.md)[]
 
-Defined in: main.ts:156821
+Defined in: main.ts:156985
 
 array of tasks
 

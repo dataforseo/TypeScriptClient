@@ -6,7 +6,7 @@
 
 # Interface: IImageLinkElementItem
 
-Defined in: main.ts:169746
+Defined in: main.ts:169910
 
 ## Extends
 
@@ -82,7 +82,7 @@ the link is pointing to this domain
 
 > `optional` **image\_alt**: `string`
 
-Defined in: main.ts:169755
+Defined in: main.ts:169919
 
 alternative text for the image
 
@@ -92,7 +92,7 @@ alternative text for the image
 
 > `optional` **image\_src**: `string`
 
-Defined in: main.ts:169757
+Defined in: main.ts:169921
 
 url of the image
 
@@ -132,7 +132,7 @@ if true, at least one link pointing to link_to has a rel="nofollow" attribute an
 
 > `optional` **link\_attribute**: `string`[]
 
-Defined in: main.ts:169751
+Defined in: main.ts:169915
 
 link attribute added to external link
 indicates link attributes added to the link_to on the page_from
@@ -233,7 +233,7 @@ url scheme of the referenced page
 
 > `optional` **page\_to\_status\_code**: `number`
 
-Defined in: main.ts:169760
+Defined in: main.ts:169924
 
 status code of the referenced page
 status code of the page to which the link is pointing
@@ -244,7 +244,7 @@ status code of the page to which the link is pointing
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:169753
+Defined in: main.ts:169917
 
 anchor text
 

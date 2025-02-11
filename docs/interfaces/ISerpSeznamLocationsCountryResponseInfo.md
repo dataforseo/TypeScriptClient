@@ -6,7 +6,7 @@
 
 # Interface: ISerpSeznamLocationsCountryResponseInfo
 
-Defined in: main.ts:82537
+Defined in: main.ts:82573
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpSeznamLocationsCountryTaskInfo`](../classes/SerpSeznamLocationsCountryTaskInfo.md)[]
 
-Defined in: main.ts:82539
+Defined in: main.ts:82575
 
 array of tasks
 

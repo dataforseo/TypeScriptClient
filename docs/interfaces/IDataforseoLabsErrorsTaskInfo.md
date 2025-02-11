@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsErrorsTaskInfo
 
-Defined in: main.ts:90776
+Defined in: main.ts:90812
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsErrorsResultInfo`](../classes/DataforseoLabsErrorsResultInfo.md)[]
 
-Defined in: main.ts:90778
+Defined in: main.ts:90814
 
 array of results
 

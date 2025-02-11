@@ -6,7 +6,7 @@
 
 # Class: SerpBaiduLanguagesTaskInfo
 
-Defined in: main.ts:78786
+Defined in: main.ts:78822
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:78786
 
 > **new SerpBaiduLanguagesTaskInfo**(`data`?): [`SerpBaiduLanguagesTaskInfo`](SerpBaiduLanguagesTaskInfo.md)
 
-Defined in: main.ts:78792
+Defined in: main.ts:78828
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpBaiduLanguagesResultInfo`](SerpBaiduLanguagesResultInfo.md)[]
 
-Defined in: main.ts:78788
+Defined in: main.ts:78824
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:78796
+Defined in: main.ts:78832
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:78796
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:78818
+Defined in: main.ts:78854
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:78818
 
 > `static` **fromJS**(`data`): [`SerpBaiduLanguagesTaskInfo`](SerpBaiduLanguagesTaskInfo.md)
 
-Defined in: main.ts:78811
+Defined in: main.ts:78847
 
 #### Parameters
 

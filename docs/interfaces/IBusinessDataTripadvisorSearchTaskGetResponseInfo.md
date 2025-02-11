@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataTripadvisorSearchTaskGetResponseInfo
 
-Defined in: main.ts:228515
+Defined in: main.ts:229023
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BusinessDataTripadvisorSearchTaskGetTaskInfo`](../classes/BusinessDataTripadvisorSearchTaskGetTaskInfo.md)[]
 
-Defined in: main.ts:228517
+Defined in: main.ts:229025
 
 array of tasks
 

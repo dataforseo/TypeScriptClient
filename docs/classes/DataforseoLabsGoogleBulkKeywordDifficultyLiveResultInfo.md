@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleBulkKeywordDifficultyLiveResultInfo
 
-Defined in: main.ts:96202
+Defined in: main.ts:96228
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:96202
 
 > **new DataforseoLabsGoogleBulkKeywordDifficultyLiveResultInfo**(`data`?): [`DataforseoLabsGoogleBulkKeywordDifficultyLiveResultInfo`](DataforseoLabsGoogleBulkKeywordDifficultyLiveResultInfo.md)
 
-Defined in: main.ts:96220
+Defined in: main.ts:96246
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:96220
 
 > `optional` **items**: [`DataforseoLabsBulkKeywordDifficultyLiveItem`](DataforseoLabsBulkKeywordDifficultyLiveItem.md)[]
 
-Defined in: main.ts:96216
+Defined in: main.ts:96242
 
 contains keywords and related keyword difficulty scores
 
@@ -54,7 +54,7 @@ contains keywords and related keyword difficulty scores
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:96214
+Defined in: main.ts:96240
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:96210
+Defined in: main.ts:96236
 
 language code in a POST array
 if there is no data, then the value is null
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:96207
+Defined in: main.ts:96233
 
 location code in a POST array
 if there is no data, then the value is null
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:96204
+Defined in: main.ts:96230
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:96212
+Defined in: main.ts:96238
 
 total amount of results in our database relevant to your request
 
@@ -126,7 +126,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:96229
+Defined in: main.ts:96255
 
 #### Parameters
 
@@ -144,7 +144,7 @@ Defined in: main.ts:96229
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:96255
+Defined in: main.ts:96281
 
 #### Parameters
 
@@ -162,7 +162,7 @@ Defined in: main.ts:96255
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleBulkKeywordDifficultyLiveResultInfo`](DataforseoLabsGoogleBulkKeywordDifficultyLiveResultInfo.md)
 
-Defined in: main.ts:96248
+Defined in: main.ts:96274
 
 #### Parameters
 

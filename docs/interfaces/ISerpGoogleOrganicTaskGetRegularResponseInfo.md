@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleOrganicTaskGetRegularResponseInfo
 
-Defined in: main.ts:29414
+Defined in: main.ts:29422
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleOrganicTaskGetRegularTaskInfo`](../classes/SerpGoogleOrganicTaskGetRegularTaskInfo.md)[]
 
-Defined in: main.ts:29416
+Defined in: main.ts:29424
 
 array of tasks
 

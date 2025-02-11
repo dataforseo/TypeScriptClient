@@ -6,7 +6,7 @@
 
 # Interface: ISerpBingLanguagesTaskInfo
 
-Defined in: main.ts:63293
+Defined in: main.ts:63321
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpBingLanguagesResultInfo`](../classes/SerpBingLanguagesResultInfo.md)[]
 
-Defined in: main.ts:63295
+Defined in: main.ts:63323
 
 array of results
 

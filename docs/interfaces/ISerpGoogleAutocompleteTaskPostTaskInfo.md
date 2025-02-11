@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleAutocompleteTaskPostTaskInfo
 
-Defined in: main.ts:55469
+Defined in: main.ts:55485
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:55472
+Defined in: main.ts:55488
 
 array of results
 in this case, the value will be null

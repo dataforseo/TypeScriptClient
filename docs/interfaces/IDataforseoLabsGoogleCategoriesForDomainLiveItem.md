@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleCategoriesForDomainLiveItem
 
-Defined in: main.ts:97674
+Defined in: main.ts:97702
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:97674
 
 > `optional` **categories**: `number`[]
 
-Defined in: main.ts:97679
+Defined in: main.ts:97707
 
 product and service categories
 you can download the full list of possible categories
@@ -29,7 +29,7 @@ you can download the full list of possible categories
 
 > `optional` **metrics**: `object`
 
-Defined in: main.ts:97681
+Defined in: main.ts:97709
 
 ranking data relevant to the specified domain or subdomain
 
@@ -43,6 +43,6 @@ ranking data relevant to the specified domain or subdomain
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:97676
+Defined in: main.ts:97704
 
 search engine type

@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsRelevantPagesLiveItem
 
-Defined in: main.ts:104807
+Defined in: main.ts:104871
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:104807
 
 > `optional` **metrics**: `object`
 
-Defined in: main.ts:104813
+Defined in: main.ts:104877
 
 rankings and traffic metrics for the relevant page
 
@@ -32,7 +32,7 @@ rankings and traffic metrics for the relevant page
 
 > `optional` **page\_address**: `string`
 
-Defined in: main.ts:104811
+Defined in: main.ts:104875
 
 absolute URL of the relevant page
 
@@ -42,6 +42,6 @@ absolute URL of the relevant page
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:104809
+Defined in: main.ts:104873
 
 search engine type

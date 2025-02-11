@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeLocationsCountryResponseInfo
 
-Defined in: main.ts:69266
+Defined in: main.ts:69302
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:69266
 
 > **new SerpYoutubeLocationsCountryResponseInfo**(`data`?): [`SerpYoutubeLocationsCountryResponseInfo`](SerpYoutubeLocationsCountryResponseInfo.md)
 
-Defined in: main.ts:69272
+Defined in: main.ts:69308
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpYoutubeLocationsCountryTaskInfo`](SerpYoutubeLocationsCountryTaskInfo.md)[]
 
-Defined in: main.ts:69268
+Defined in: main.ts:69304
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:69276
+Defined in: main.ts:69312
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:69276
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:69298
+Defined in: main.ts:69334
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:69298
 
 > `static` **fromJS**(`data`): [`SerpYoutubeLocationsCountryResponseInfo`](SerpYoutubeLocationsCountryResponseInfo.md)
 
-Defined in: main.ts:69291
+Defined in: main.ts:69327
 
 #### Parameters
 

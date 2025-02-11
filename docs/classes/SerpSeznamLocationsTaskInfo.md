@@ -6,7 +6,7 @@
 
 # Class: SerpSeznamLocationsTaskInfo
 
-Defined in: main.ts:82246
+Defined in: main.ts:82282
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:82246
 
 > **new SerpSeznamLocationsTaskInfo**(`data`?): [`SerpSeznamLocationsTaskInfo`](SerpSeznamLocationsTaskInfo.md)
 
-Defined in: main.ts:82252
+Defined in: main.ts:82288
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpSeznamLocationsResultInfo`](SerpSeznamLocationsResultInfo.md)[]
 
-Defined in: main.ts:82248
+Defined in: main.ts:82284
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:82256
+Defined in: main.ts:82292
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:82256
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:82278
+Defined in: main.ts:82314
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:82278
 
 > `static` **fromJS**(`data`): [`SerpSeznamLocationsTaskInfo`](SerpSeznamLocationsTaskInfo.md)
 
-Defined in: main.ts:82271
+Defined in: main.ts:82307
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: ILocation
 
-Defined in: main.ts:220684
+Defined in: main.ts:221192
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:220684
 
 > `optional` **latitude**: `number`
 
-Defined in: main.ts:220703
+Defined in: main.ts:221211
 
 hotel latitude
 latitude coordinates of the hotel’s location
@@ -31,7 +31,7 @@ example:
 
 > `optional` **location\_chain**: [`LocationChain`](../classes/LocationChain.md)[]
 
-Defined in: main.ts:220711
+Defined in: main.ts:221219
 
 elements of the location chain
 additional parameters of each element of the location chain
@@ -42,7 +42,7 @@ additional parameters of each element of the location chain
 
 > `optional` **longitude**: `number`
 
-Defined in: main.ts:220708
+Defined in: main.ts:221216
 
 hotel longitude
 latitude coordinates of the hotel’s location
@@ -55,7 +55,7 @@ example:
 
 > `optional` **maps\_url**: `string`
 
-Defined in: main.ts:220690
+Defined in: main.ts:221198
 
 url to the location of the hotel in google maps
 
@@ -65,7 +65,7 @@ url to the location of the hotel in google maps
 
 > `optional` **neighborhood**: `string`
 
-Defined in: main.ts:220686
+Defined in: main.ts:221194
 
 name of the neighborhood where the hotel is located
 
@@ -75,7 +75,7 @@ name of the neighborhood where the hotel is located
 
 > `optional` **neighborhood\_description**: `string`
 
-Defined in: main.ts:220688
+Defined in: main.ts:221196
 
 description of the neighborhood where the hotel is located
 
@@ -85,7 +85,7 @@ description of the neighborhood where the hotel is located
 
 > `optional` **overall\_score**: `number`
 
-Defined in: main.ts:220695
+Defined in: main.ts:221203
 
 overall score of the hotel location
 indicates the overall score of the hotel’s location in the range from 1 to 5;
@@ -98,7 +98,7 @@ note that the criteria are not weighted equally in the overall score
 
 > `optional` **score\_by\_categories**: [`ScoreByCategories`](../classes/ScoreByCategories.md)
 
-Defined in: main.ts:220698
+Defined in: main.ts:221206
 
 category scores of the hotel location
 the scores of the hotel’s location tied to the categories that indicate the proximity to nearby things to do, restaurants, transportation, and airports;

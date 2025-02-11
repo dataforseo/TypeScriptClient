@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataTripadvisorSearchTaskGetResultInfo
 
-Defined in: main.ts:228379
+Defined in: main.ts:228887
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:228379
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:228391
+Defined in: main.ts:228899
 
 direct URL to Tripadvisor results
 you can use it to make sure that we provided accurate results
@@ -29,7 +29,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:228396
+Defined in: main.ts:228904
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -42,7 +42,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:228399
+Defined in: main.ts:228907
 
 item types encountered in the result
 possible item types: tripadvisor_search_organic
@@ -53,7 +53,7 @@ possible item types: tripadvisor_search_organic
 
 > `optional` **items**: [`BaseBusinessDataSerpElementItem`](../classes/BaseBusinessDataSerpElementItem.md)[]
 
-Defined in: main.ts:228407
+Defined in: main.ts:228915
 
 Tripadvisor search listing results
 you can get more results by using the depth parameter when setting a task
@@ -64,7 +64,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:228404
+Defined in: main.ts:228912
 
 the number of items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -75,7 +75,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:228382
+Defined in: main.ts:228890
 
 keyword received in a POST array
 this field will contain the alias parameter if it was specified in a POST array
@@ -86,7 +86,7 @@ this field will contain the alias parameter if it was specified in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:228388
+Defined in: main.ts:228896
 
 language code in a POST array
 
@@ -96,7 +96,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `string`
 
-Defined in: main.ts:228386
+Defined in: main.ts:228894
 
 location code in a POST array
 
@@ -106,7 +106,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:228384
+Defined in: main.ts:228892
 
 search engine domain in a POST array
 
@@ -116,6 +116,6 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:228401
+Defined in: main.ts:228909
 
 the total number of results

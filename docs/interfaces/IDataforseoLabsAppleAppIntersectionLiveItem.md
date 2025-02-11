@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAppleAppIntersectionLiveItem
 
-Defined in: main.ts:125045
+Defined in: main.ts:125161
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:125045
 
 > `optional` **intersection\_result**: `object`
 
-Defined in: main.ts:125053
+Defined in: main.ts:125169
 
 contains SERP data for the returned keyword
 data will be provided in separate arrays for each app ID you specified in the app_ids object when setting a task;
@@ -34,7 +34,7 @@ depending on the number of specified app IDs, it can contain from 1 to 20 arrays
 
 > `optional` **keyword\_data**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)
 
-Defined in: main.ts:125049
+Defined in: main.ts:125165
 
 keyword data for the returned keyword
 
@@ -44,6 +44,6 @@ keyword data for the returned keyword
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:125047
+Defined in: main.ts:125163
 
 search engine type

@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphShoppingItemDataforseoLabsSerpElementItem
 
-Defined in: main.ts:107815
+Defined in: main.ts:107871
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:107815
 
 > **new KnowledgeGraphShoppingItemDataforseoLabsSerpElementItem**(`data`?): [`KnowledgeGraphShoppingItemDataforseoLabsSerpElementItem`](KnowledgeGraphShoppingItemDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:107827
+Defined in: main.ts:107883
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:107821
+Defined in: main.ts:107877
 
 google defined data attribute ID
 example:
@@ -76,7 +76,7 @@ action:listen_artist
 
 > `optional` **items**: [`KnowledgeGraphShoppingElement`](KnowledgeGraphShoppingElement.md)[]
 
-Defined in: main.ts:107823
+Defined in: main.ts:107879
 
 elements of search results found in SERP
 
@@ -148,7 +148,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:107817
+Defined in: main.ts:107873
 
 title of the result in SERP
 
@@ -198,7 +198,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:107832
+Defined in: main.ts:107888
 
 #### Parameters
 
@@ -220,7 +220,7 @@ Defined in: main.ts:107832
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:107856
+Defined in: main.ts:107912
 
 #### Parameters
 
@@ -242,7 +242,7 @@ Defined in: main.ts:107856
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphShoppingItemDataforseoLabsSerpElementItem`](KnowledgeGraphShoppingItemDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:107849
+Defined in: main.ts:107905
 
 #### Parameters
 

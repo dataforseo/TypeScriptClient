@@ -6,7 +6,7 @@
 
 # Interface: IAmazonTopRatedFromOurBrandsSerpElementItem
 
-Defined in: main.ts:192953
+Defined in: main.ts:193359
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:192953
 
 > `optional` **items**: [`AmazonSerpElement`](../classes/AmazonSerpElement.md)[]
 
-Defined in: main.ts:192959
+Defined in: main.ts:193365
 
 Amazon product items
 
@@ -32,7 +32,7 @@ Amazon product items
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:192957
+Defined in: main.ts:193363
 
 the alignment of the element in Amazon SERP
 possible values:

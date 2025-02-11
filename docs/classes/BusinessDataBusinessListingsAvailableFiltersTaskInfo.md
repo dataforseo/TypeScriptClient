@@ -6,7 +6,7 @@
 
 # Class: BusinessDataBusinessListingsAvailableFiltersTaskInfo
 
-Defined in: main.ts:210482
+Defined in: main.ts:210984
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:210482
 
 > **new BusinessDataBusinessListingsAvailableFiltersTaskInfo**(`data`?): [`BusinessDataBusinessListingsAvailableFiltersTaskInfo`](BusinessDataBusinessListingsAvailableFiltersTaskInfo.md)
 
-Defined in: main.ts:210487
+Defined in: main.ts:210989
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataBusinessListingsAvailableFiltersResultInfo`](BusinessDataBusinessListingsAvailableFiltersResultInfo.md)[]
 
-Defined in: main.ts:210483
+Defined in: main.ts:210985
 
 #### Implementation of
 
@@ -212,7 +212,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:210491
+Defined in: main.ts:210993
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:210491
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:210513
+Defined in: main.ts:211015
 
 #### Parameters
 
@@ -256,7 +256,7 @@ Defined in: main.ts:210513
 
 > `static` **fromJS**(`data`): [`BusinessDataBusinessListingsAvailableFiltersTaskInfo`](BusinessDataBusinessListingsAvailableFiltersTaskInfo.md)
 
-Defined in: main.ts:210506
+Defined in: main.ts:211008
 
 #### Parameters
 

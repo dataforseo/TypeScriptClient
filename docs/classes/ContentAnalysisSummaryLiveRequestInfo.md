@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisSummaryLiveRequestInfo
 
-Defined in: main.ts:178392
+Defined in: main.ts:178754
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:178392
 
 > **new ContentAnalysisSummaryLiveRequestInfo**(`data`?): [`ContentAnalysisSummaryLiveRequestInfo`](ContentAnalysisSummaryLiveRequestInfo.md)
 
-Defined in: main.ts:178472
+Defined in: main.ts:178834
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:178472
 
 > `optional` **initial\_dataset\_filters**: `any`[]
 
-Defined in: main.ts:178462
+Defined in: main.ts:178824
 
 initial dataset filtering parameters
 optional field
@@ -69,7 +69,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:178430
+Defined in: main.ts:178792
 
 maximum number of elements within internal arrays
 optional field
@@ -92,7 +92,7 @@ maximum value: 20
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:178401
+Defined in: main.ts:178763
 
 target keyword
 required field
@@ -113,7 +113,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **keyword\_fields**: `object`
 
-Defined in: main.ts:178413
+Defined in: main.ts:178775
 
 target keyword fields and target keywords
 optional field
@@ -141,7 +141,7 @@ example:
 
 > `optional` **page\_type**: `string`[]
 
-Defined in: main.ts:178419
+Defined in: main.ts:178781
 
 target page types
 optional field
@@ -159,7 +159,7 @@ possible values:
 
 > `optional` **positive\_connotation\_threshold**: `number`
 
-Defined in: main.ts:178437
+Defined in: main.ts:178799
 
 positive connotation threshold
 optional field
@@ -178,7 +178,7 @@ default value: 0.4
 
 > `optional` **sentiments\_connotation\_threshold**: `number`
 
-Defined in: main.ts:178445
+Defined in: main.ts:178807
 
 sentiment connotation threshold
 optional field
@@ -198,7 +198,7 @@ default value: 0.4
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:178468
+Defined in: main.ts:178830
 
 user-defined task identifier
 optional field
@@ -216,7 +216,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:178481
+Defined in: main.ts:178843
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:178481
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:178519
+Defined in: main.ts:178881
 
 #### Parameters
 
@@ -252,7 +252,7 @@ Defined in: main.ts:178519
 
 > `static` **fromJS**(`data`): [`ContentAnalysisSummaryLiveRequestInfo`](ContentAnalysisSummaryLiveRequestInfo.md)
 
-Defined in: main.ts:178512
+Defined in: main.ts:178874
 
 #### Parameters
 

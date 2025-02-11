@@ -6,7 +6,7 @@
 
 # Class: GoogleTrendsGraphElementItem
 
-Defined in: main.ts:134018
+Defined in: main.ts:134158
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:134018
 
 > **new GoogleTrendsGraphElementItem**(`data`?): [`GoogleTrendsGraphElementItem`](GoogleTrendsGraphElementItem.md)
 
-Defined in: main.ts:134026
+Defined in: main.ts:134166
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22707
 
 > `optional` **averages**: `number`[]
 
-Defined in: main.ts:134022
+Defined in: main.ts:134162
 
 keyword popularity values averaged over the whole time range
 
@@ -74,7 +74,7 @@ keyword popularity values averaged over the whole time range
 
 > `optional` **data**: [`TrendsGraphDataInfo`](TrendsGraphDataInfo.md)[]
 
-Defined in: main.ts:134020
+Defined in: main.ts:134160
 
 Google Trends data for the specified parameters
 
@@ -162,7 +162,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:134031
+Defined in: main.ts:134171
 
 #### Parameters
 
@@ -184,7 +184,7 @@ Defined in: main.ts:134031
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:134058
+Defined in: main.ts:134198
 
 #### Parameters
 
@@ -206,7 +206,7 @@ Defined in: main.ts:134058
 
 > `static` **fromJS**(`data`): [`GoogleTrendsGraphElementItem`](GoogleTrendsGraphElementItem.md)
 
-Defined in: main.ts:134051
+Defined in: main.ts:134191
 
 #### Parameters
 

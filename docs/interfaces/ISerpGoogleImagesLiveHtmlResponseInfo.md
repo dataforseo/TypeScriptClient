@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleImagesLiveHtmlResponseInfo
 
-Defined in: main.ts:52517
+Defined in: main.ts:52533
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleImagesLiveHtmlTaskInfo`](../classes/SerpGoogleImagesLiveHtmlTaskInfo.md)[]
 
-Defined in: main.ts:52519
+Defined in: main.ts:52535
 
 array of tasks
 

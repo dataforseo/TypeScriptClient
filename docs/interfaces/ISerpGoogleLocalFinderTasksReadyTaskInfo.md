@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleLocalFinderTasksReadyTaskInfo
 
-Defined in: main.ts:43433
+Defined in: main.ts:43449
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleLocalFinderTasksReadyResultInfo`](../classes/SerpGoogleLocalFinderTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:43435
+Defined in: main.ts:43451
 
 array of results
 

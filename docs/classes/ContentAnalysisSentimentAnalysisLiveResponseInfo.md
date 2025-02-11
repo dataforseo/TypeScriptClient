@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisSentimentAnalysisLiveResponseInfo
 
-Defined in: main.ts:179453
+Defined in: main.ts:179815
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:179453
 
 > **new ContentAnalysisSentimentAnalysisLiveResponseInfo**(`data`?): [`ContentAnalysisSentimentAnalysisLiveResponseInfo`](ContentAnalysisSentimentAnalysisLiveResponseInfo.md)
 
-Defined in: main.ts:179459
+Defined in: main.ts:179821
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`ContentAnalysisSentimentAnalysisLiveTaskInfo`](ContentAnalysisSentimentAnalysisLiveTaskInfo.md)[]
 
-Defined in: main.ts:179455
+Defined in: main.ts:179817
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:179463
+Defined in: main.ts:179825
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:179463
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:179485
+Defined in: main.ts:179847
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:179485
 
 > `static` **fromJS**(`data`): [`ContentAnalysisSentimentAnalysisLiveResponseInfo`](ContentAnalysisSentimentAnalysisLiveResponseInfo.md)
 
-Defined in: main.ts:179478
+Defined in: main.ts:179840
 
 #### Parameters
 

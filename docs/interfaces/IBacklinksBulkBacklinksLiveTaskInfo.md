@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksBulkBacklinksLiveTaskInfo
 
-Defined in: main.ts:160882
+Defined in: main.ts:161046
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`BacklinksBulkBacklinksLiveResultInfo`](../classes/BacklinksBulkBacklinksLiveResultInfo.md)[]
 
-Defined in: main.ts:160884
+Defined in: main.ts:161048
 
 array of results
 

@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleLocationsTaskInfo
 
-Defined in: main.ts:212520
+Defined in: main.ts:213022
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:212520
 
 > **new BusinessDataGoogleLocationsTaskInfo**(`data`?): [`BusinessDataGoogleLocationsTaskInfo`](BusinessDataGoogleLocationsTaskInfo.md)
 
-Defined in: main.ts:212526
+Defined in: main.ts:213028
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataGoogleLocationsResultInfo`](BusinessDataGoogleLocationsResultInfo.md)[]
 
-Defined in: main.ts:212522
+Defined in: main.ts:213024
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:212530
+Defined in: main.ts:213032
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:212530
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:212552
+Defined in: main.ts:213054
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:212552
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleLocationsTaskInfo`](BusinessDataGoogleLocationsTaskInfo.md)
 
-Defined in: main.ts:212545
+Defined in: main.ts:213047
 
 #### Parameters
 

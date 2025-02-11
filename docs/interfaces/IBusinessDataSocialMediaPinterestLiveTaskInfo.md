@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataSocialMediaPinterestLiveTaskInfo
 
-Defined in: main.ts:229832
+Defined in: main.ts:230340
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataSocialMediaPinterestLiveResultInfo`](../classes/BusinessDataSocialMediaPinterestLiveResultInfo.md)[]
 
-Defined in: main.ts:229834
+Defined in: main.ts:230342
 
 array of results
 

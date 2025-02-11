@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksErrorsResultInfo
 
-Defined in: main.ts:149303
+Defined in: main.ts:149467
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:149303
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:149310
+Defined in: main.ts:149474
 
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -31,7 +31,7 @@ example:
 
 > `optional` **error\_code**: `number`
 
-Defined in: main.ts:149314
+Defined in: main.ts:149478
 
 error code
 
@@ -41,7 +41,7 @@ error code
 
 > `optional` **error\_message**: `string`
 
-Defined in: main.ts:149317
+Defined in: main.ts:149481
 
 error message or error URL
 error message (see full list) or URL that caused an error
@@ -52,7 +52,7 @@ error message (see full list) or URL that caused an error
 
 > `optional` **function**: `string`
 
-Defined in: main.ts:149312
+Defined in: main.ts:149476
 
 corresponding API function
 
@@ -62,7 +62,7 @@ corresponding API function
 
 > `optional` **http\_code**: `number`
 
-Defined in: main.ts:149324
+Defined in: main.ts:149488
 
 HTTP status code
 
@@ -72,7 +72,7 @@ HTTP status code
 
 > `optional` **http\_method**: `string`
 
-Defined in: main.ts:149322
+Defined in: main.ts:149486
 
 HTTP method
 
@@ -82,7 +82,7 @@ HTTP method
 
 > `optional` **http\_response**: `string`
 
-Defined in: main.ts:149329
+Defined in: main.ts:149493
 
 HTTP response
 server response
@@ -93,7 +93,7 @@ server response
 
 > `optional` **http\_time**: `number`
 
-Defined in: main.ts:149326
+Defined in: main.ts:149490
 
 time taken by HTTP request
 
@@ -103,7 +103,7 @@ time taken by HTTP request
 
 > `optional` **http\_url**: `string`
 
-Defined in: main.ts:149320
+Defined in: main.ts:149484
 
 URL that caused an error
 URL you used for making an API call
@@ -114,6 +114,6 @@ URL you used for making an API call
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:149305
+Defined in: main.ts:149469
 
 id of the task

@@ -6,7 +6,7 @@
 
 # Interface: IWorkTime
 
-Defined in: main.ts:211038
+Defined in: main.ts:211540
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:211038
 
 > `optional` **work\_hours**: [`WorkHours`](../classes/WorkHours.md)
 
-Defined in: main.ts:211041
+Defined in: main.ts:211543
 
 open hours
 information about work hours of the local establishment

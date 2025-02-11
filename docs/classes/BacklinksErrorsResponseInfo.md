@@ -6,7 +6,7 @@
 
 # Class: BacklinksErrorsResponseInfo
 
-Defined in: main.ts:149389
+Defined in: main.ts:149553
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:149389
 
 > **new BacklinksErrorsResponseInfo**(`data`?): [`BacklinksErrorsResponseInfo`](BacklinksErrorsResponseInfo.md)
 
-Defined in: main.ts:149395
+Defined in: main.ts:149559
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BacklinksErrorsTaskInfo`](BacklinksErrorsTaskInfo.md)[]
 
-Defined in: main.ts:149391
+Defined in: main.ts:149555
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:149399
+Defined in: main.ts:149563
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:149399
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:149421
+Defined in: main.ts:149585
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:149421
 
 > `static` **fromJS**(`data`): [`BacklinksErrorsResponseInfo`](BacklinksErrorsResponseInfo.md)
 
-Defined in: main.ts:149414
+Defined in: main.ts:149578
 
 #### Parameters
 

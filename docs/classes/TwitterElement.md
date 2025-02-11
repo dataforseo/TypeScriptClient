@@ -6,7 +6,7 @@
 
 # Class: TwitterElement
 
-Defined in: main.ts:32261
+Defined in: main.ts:32269
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:32261
 
 > **new TwitterElement**(`data`?): [`TwitterElement`](TwitterElement.md)
 
-Defined in: main.ts:32278
+Defined in: main.ts:32286
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:32278
 
 > `optional` **date**: `string`
 
-Defined in: main.ts:32267
+Defined in: main.ts:32275
 
 the date when the page source of the element was published
 
@@ -54,7 +54,7 @@ the date when the page source of the element was published
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:32272
+Defined in: main.ts:32280
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -71,7 +71,7 @@ example:
 
 > `optional` **tweet**: `string`
 
-Defined in: main.ts:32265
+Defined in: main.ts:32273
 
 tweet message
 
@@ -85,7 +85,7 @@ tweet message
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:32263
+Defined in: main.ts:32271
 
 type of element
 
@@ -99,7 +99,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:32274
+Defined in: main.ts:32282
 
 URL
 
@@ -113,7 +113,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:32287
+Defined in: main.ts:32295
 
 #### Parameters
 
@@ -131,7 +131,7 @@ Defined in: main.ts:32287
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:32308
+Defined in: main.ts:32316
 
 #### Parameters
 
@@ -149,7 +149,7 @@ Defined in: main.ts:32308
 
 > `static` **fromJS**(`data`): [`TwitterElement`](TwitterElement.md)
 
-Defined in: main.ts:32301
+Defined in: main.ts:32309
 
 #### Parameters
 

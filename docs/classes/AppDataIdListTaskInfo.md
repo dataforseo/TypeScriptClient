@@ -6,7 +6,7 @@
 
 # Class: AppDataIdListTaskInfo
 
-Defined in: main.ts:198104
+Defined in: main.ts:198606
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:198104
 
 > **new AppDataIdListTaskInfo**(`data`?): [`AppDataIdListTaskInfo`](AppDataIdListTaskInfo.md)
 
-Defined in: main.ts:198110
+Defined in: main.ts:198612
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`AppDataIdListResultInfo`](AppDataIdListResultInfo.md)[]
 
-Defined in: main.ts:198106
+Defined in: main.ts:198608
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:198114
+Defined in: main.ts:198616
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:198114
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:198136
+Defined in: main.ts:198638
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:198136
 
 > `static` **fromJS**(`data`): [`AppDataIdListTaskInfo`](AppDataIdListTaskInfo.md)
 
-Defined in: main.ts:198129
+Defined in: main.ts:198631
 
 #### Parameters
 

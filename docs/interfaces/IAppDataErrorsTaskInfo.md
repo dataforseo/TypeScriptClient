@@ -6,7 +6,7 @@
 
 # Interface: IAppDataErrorsTaskInfo
 
-Defined in: main.ts:198494
+Defined in: main.ts:198996
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`AppDataErrorsResultInfo`](../classes/AppDataErrorsResultInfo.md)[]
 
-Defined in: main.ts:198496
+Defined in: main.ts:198998
 
 array of results
 

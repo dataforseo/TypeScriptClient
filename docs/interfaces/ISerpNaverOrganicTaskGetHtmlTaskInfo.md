@@ -6,7 +6,7 @@
 
 # Interface: ISerpNaverOrganicTaskGetHtmlTaskInfo
 
-Defined in: main.ts:82106
+Defined in: main.ts:82142
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpNaverOrganicTaskGetHtmlResultInfo`](../classes/SerpNaverOrganicTaskGetHtmlResultInfo.md)[]
 
-Defined in: main.ts:82108
+Defined in: main.ts:82144
 
 array of results
 

@@ -6,7 +6,7 @@
 
 # Class: AppendixWebhookResendResponseInfo
 
-Defined in: main.ts:239369
+Defined in: main.ts:239797
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:239369
 
 > **new AppendixWebhookResendResponseInfo**(`data`?): [`AppendixWebhookResendResponseInfo`](AppendixWebhookResendResponseInfo.md)
 
-Defined in: main.ts:239375
+Defined in: main.ts:239803
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppendixWebhookResendTaskInfo`](AppendixWebhookResendTaskInfo.md)[]
 
-Defined in: main.ts:239371
+Defined in: main.ts:239799
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:239379
+Defined in: main.ts:239807
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:239379
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:239401
+Defined in: main.ts:239829
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:239401
 
 > `static` **fromJS**(`data`): [`AppendixWebhookResendResponseInfo`](AppendixWebhookResendResponseInfo.md)
 
-Defined in: main.ts:239394
+Defined in: main.ts:239822
 
 #### Parameters
 

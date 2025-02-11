@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisPhraseTrendsLiveResponseInfo
 
-Defined in: main.ts:180537
+Defined in: main.ts:180899
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`ContentAnalysisPhraseTrendsLiveTaskInfo`](../classes/ContentAnalysisPhraseTrendsLiveTaskInfo.md)[]
 
-Defined in: main.ts:180539
+Defined in: main.ts:180901
 
 array of tasks
 

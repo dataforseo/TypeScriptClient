@@ -6,7 +6,7 @@
 
 # Class: OnPageSummaryTaskInfo
 
-Defined in: main.ts:165752
+Defined in: main.ts:165916
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:165752
 
 > **new OnPageSummaryTaskInfo**(`data`?): [`OnPageSummaryTaskInfo`](OnPageSummaryTaskInfo.md)
 
-Defined in: main.ts:165758
+Defined in: main.ts:165922
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`OnPageSummaryResultInfo`](OnPageSummaryResultInfo.md)[]
 
-Defined in: main.ts:165754
+Defined in: main.ts:165918
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:165762
+Defined in: main.ts:165926
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:165762
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:165784
+Defined in: main.ts:165948
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:165784
 
 > `static` **fromJS**(`data`): [`OnPageSummaryTaskInfo`](OnPageSummaryTaskInfo.md)
 
-Defined in: main.ts:165777
+Defined in: main.ts:165941
 
 #### Parameters
 

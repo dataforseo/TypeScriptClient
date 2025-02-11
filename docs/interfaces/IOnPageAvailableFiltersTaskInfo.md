@@ -6,7 +6,7 @@
 
 # Interface: IOnPageAvailableFiltersTaskInfo
 
-Defined in: main.ts:164049
+Defined in: main.ts:164213
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`OnPageAvailableFiltersResultInfo`](../classes/OnPageAvailableFiltersResultInfo.md)[]
 
-Defined in: main.ts:164050
+Defined in: main.ts:164214
 
 ***
 

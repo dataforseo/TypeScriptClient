@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo
 
-Defined in: main.ts:215392
+Defined in: main.ts:215894
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:215392
 
 > **new BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo**(`data`?): [`BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo`](BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md)
 
-Defined in: main.ts:215399
+Defined in: main.ts:215901
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:215395
+Defined in: main.ts:215897
 
 array of results
 in this case, the value will be null
@@ -215,7 +215,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:215403
+Defined in: main.ts:215905
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:215403
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:215421
+Defined in: main.ts:215923
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:215421
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo`](BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md)
 
-Defined in: main.ts:215414
+Defined in: main.ts:215916
 
 #### Parameters
 

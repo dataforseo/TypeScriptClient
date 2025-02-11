@@ -6,7 +6,7 @@
 
 # Interface: IAppendixGoogleAdsKeywordsDataPriceData
 
-Defined in: main.ts:236568
+Defined in: main.ts:236932
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:236568
 
 > `optional` **ad\_traffic\_by\_keywords**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236569
+Defined in: main.ts:236933
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:236569
 
 > `optional` **keywords\_for\_keywords**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236570
+Defined in: main.ts:236934
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:236570
 
 > `optional` **keywords\_for\_site**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236571
+Defined in: main.ts:236935
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: main.ts:236571
 
 > `optional` **search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236572
+Defined in: main.ts:236936
 
 ***
 
@@ -50,4 +50,4 @@ Defined in: main.ts:236572
 
 > `optional` **status**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236573
+Defined in: main.ts:236937

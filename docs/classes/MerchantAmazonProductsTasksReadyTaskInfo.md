@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonProductsTasksReadyTaskInfo
 
-Defined in: main.ts:192322
+Defined in: main.ts:192728
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:192322
 
 > **new MerchantAmazonProductsTasksReadyTaskInfo**(`data`?): [`MerchantAmazonProductsTasksReadyTaskInfo`](MerchantAmazonProductsTasksReadyTaskInfo.md)
 
-Defined in: main.ts:192328
+Defined in: main.ts:192734
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`MerchantAmazonProductsTasksReadyResultInfo`](MerchantAmazonProductsTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:192324
+Defined in: main.ts:192730
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:192332
+Defined in: main.ts:192738
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:192332
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:192354
+Defined in: main.ts:192760
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:192354
 
 > `static` **fromJS**(`data`): [`MerchantAmazonProductsTasksReadyTaskInfo`](MerchantAmazonProductsTasksReadyTaskInfo.md)
 
-Defined in: main.ts:192347
+Defined in: main.ts:192753
 
 #### Parameters
 

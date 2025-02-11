@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataTrustpilotSearchTaskPostTaskInfo
 
-Defined in: main.ts:225683
+Defined in: main.ts:226191
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:225686
+Defined in: main.ts:226194
 
 array of results
 in this case, the value will be null

@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisAvailableFiltersTaskInfo
 
-Defined in: main.ts:176809
+Defined in: main.ts:177173
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`ContentAnalysisAvailableFiltersResultInfo`](../classes/ContentAnalysisAvailableFiltersResultInfo.md)[]
 
-Defined in: main.ts:176810
+Defined in: main.ts:177174
 
 ***
 

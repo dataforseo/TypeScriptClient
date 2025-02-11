@@ -6,7 +6,7 @@
 
 # Class: AppRankedSerpElementInfo
 
-Defined in: main.ts:121624
+Defined in: main.ts:121740
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:121624
 
 > **new AppRankedSerpElementInfo**(`data`?): [`AppRankedSerpElementInfo`](AppRankedSerpElementInfo.md)
 
-Defined in: main.ts:121649
+Defined in: main.ts:121765
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:121649
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:121632
+Defined in: main.ts:121748
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **last\_updated\_time**: `string`
 
-Defined in: main.ts:121639
+Defined in: main.ts:121755
 
 date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **previous\_updated\_time**: `string`
 
-Defined in: main.ts:121645
+Defined in: main.ts:121761
 
 previous to the most recent date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -90,7 +90,7 @@ in this case, will equal null
 
 > `optional` **se\_results\_count**: `string`
 
-Defined in: main.ts:121634
+Defined in: main.ts:121750
 
 number of search results for the returned keyword
 
@@ -104,7 +104,7 @@ number of search results for the returned keyword
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:121626
+Defined in: main.ts:121742
 
 search engine type
 
@@ -118,7 +118,7 @@ search engine type
 
 > `optional` **serp\_item**: [`AppDataGooglePlaySearchOrganicSerpElementItem`](AppDataGooglePlaySearchOrganicSerpElementItem.md)
 
-Defined in: main.ts:121629
+Defined in: main.ts:121745
 
 contains data on the SERP element
 the list of supported SERP elements can be found below
@@ -133,7 +133,7 @@ the list of supported SERP elements can be found below
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:121658
+Defined in: main.ts:121774
 
 #### Parameters
 
@@ -151,7 +151,7 @@ Defined in: main.ts:121658
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:121680
+Defined in: main.ts:121796
 
 #### Parameters
 
@@ -169,7 +169,7 @@ Defined in: main.ts:121680
 
 > `static` **fromJS**(`data`): [`AppRankedSerpElementInfo`](AppRankedSerpElementInfo.md)
 
-Defined in: main.ts:121673
+Defined in: main.ts:121789
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleHotelInfoTaskPostTaskInfo
 
-Defined in: main.ts:218733
+Defined in: main.ts:219235
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:218736
+Defined in: main.ts:219238
 
 array of results
 in this case, the value will be null

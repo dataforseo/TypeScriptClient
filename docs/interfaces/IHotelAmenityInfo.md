@@ -6,7 +6,7 @@
 
 # Interface: IHotelAmenityInfo
 
-Defined in: main.ts:219123
+Defined in: main.ts:219631
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:219123
 
 > `optional` **category**: `string`
 
-Defined in: main.ts:219125
+Defined in: main.ts:219633
 
 standardised category of the ammenity
 
@@ -28,7 +28,7 @@ standardised category of the ammenity
 
 > `optional` **category\_label**: `string`
 
-Defined in: main.ts:219127
+Defined in: main.ts:219635
 
 label of the category
 
@@ -38,6 +38,6 @@ label of the category
 
 > `optional` **items**: [`HotelAmenityItemInfo`](../classes/HotelAmenityItemInfo.md)[]
 
-Defined in: main.ts:219129
+Defined in: main.ts:219637
 
 specific amenities and details

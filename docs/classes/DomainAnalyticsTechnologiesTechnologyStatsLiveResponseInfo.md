@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesTechnologyStatsLiveResponseInfo
 
-Defined in: main.ts:87355
+Defined in: main.ts:87391
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:87355
 
 > **new DomainAnalyticsTechnologiesTechnologyStatsLiveResponseInfo**(`data`?): [`DomainAnalyticsTechnologiesTechnologyStatsLiveResponseInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveResponseInfo.md)
 
-Defined in: main.ts:87361
+Defined in: main.ts:87397
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DomainAnalyticsTechnologiesTechnologyStatsLiveTaskInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveTaskInfo.md)[]
 
-Defined in: main.ts:87357
+Defined in: main.ts:87393
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:87365
+Defined in: main.ts:87401
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:87365
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:87387
+Defined in: main.ts:87423
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:87387
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologyStatsLiveResponseInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveResponseInfo.md)
 
-Defined in: main.ts:87380
+Defined in: main.ts:87416
 
 #### Parameters
 

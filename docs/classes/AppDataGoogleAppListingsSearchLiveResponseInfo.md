@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppListingsSearchLiveResponseInfo
 
-Defined in: main.ts:204681
+Defined in: main.ts:205183
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:204681
 
 > **new AppDataGoogleAppListingsSearchLiveResponseInfo**(`data`?): [`AppDataGoogleAppListingsSearchLiveResponseInfo`](AppDataGoogleAppListingsSearchLiveResponseInfo.md)
 
-Defined in: main.ts:204687
+Defined in: main.ts:205189
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataGoogleAppListingsSearchLiveTaskInfo`](AppDataGoogleAppListingsSearchLiveTaskInfo.md)[]
 
-Defined in: main.ts:204683
+Defined in: main.ts:205185
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:204691
+Defined in: main.ts:205193
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:204691
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:204713
+Defined in: main.ts:205215
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:204713
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppListingsSearchLiveResponseInfo`](AppDataGoogleAppListingsSearchLiveResponseInfo.md)
 
-Defined in: main.ts:204706
+Defined in: main.ts:205208
 
 #### Parameters
 

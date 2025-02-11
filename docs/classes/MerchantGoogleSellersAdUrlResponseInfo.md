@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleSellersAdUrlResponseInfo
 
-Defined in: main.ts:191123
+Defined in: main.ts:191529
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:191123
 
 > **new MerchantGoogleSellersAdUrlResponseInfo**(`data`?): [`MerchantGoogleSellersAdUrlResponseInfo`](MerchantGoogleSellersAdUrlResponseInfo.md)
 
-Defined in: main.ts:191129
+Defined in: main.ts:191535
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`MerchantGoogleSellersAdUrlTaskInfo`](MerchantGoogleSellersAdUrlTaskInfo.md)[]
 
-Defined in: main.ts:191125
+Defined in: main.ts:191531
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:191133
+Defined in: main.ts:191539
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:191133
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:191155
+Defined in: main.ts:191561
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:191155
 
 > `static` **fromJS**(`data`): [`MerchantGoogleSellersAdUrlResponseInfo`](MerchantGoogleSellersAdUrlResponseInfo.md)
 
-Defined in: main.ts:191148
+Defined in: main.ts:191554
 
 #### Parameters
 

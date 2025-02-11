@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksDomainPagesSummaryLiveRequestInfo
 
-Defined in: main.ts:154673
+Defined in: main.ts:154837
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:154673
 
 > `optional` **backlinks\_filters**: `any`[]
 
-Defined in: main.ts:154747
+Defined in: main.ts:154911
 
 filter the backlinks of your target
 optional field
@@ -34,7 +34,7 @@ example:
 
 > `optional` **backlinks\_status\_type**: `string`
 
-Defined in: main.ts:154708
+Defined in: main.ts:154872
 
 set what backlinks to return and count
 optional field
@@ -51,7 +51,7 @@ default value: live
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
-Defined in: main.ts:154763
+Defined in: main.ts:154927
 
 indicates whether the backlinks from subdomains of the target are excluded
 optional field
@@ -64,14 +64,14 @@ default value: true
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:154725
+Defined in: main.ts:154889
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, =, <>, in, not_in, like, not_like, ilike, not_ilike
+regex, not_regex, =, <>, in, not_in, like, not_like, ilike, not_ilike, match, not_match
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["referring_links_types.anchors",">","1"]
@@ -89,7 +89,7 @@ The full list of possible filters is available here.
 
 > `optional` **include\_indirect\_links**: `boolean`
 
-Defined in: main.ts:154758
+Defined in: main.ts:154922
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -103,7 +103,7 @@ default value: true
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:154752
+Defined in: main.ts:154916
 
 indicates if the subdomains of the target domain will be included in the search
 optional field
@@ -116,7 +116,7 @@ default value: true
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:154699
+Defined in: main.ts:154863
 
 maximum number of elements within internal arrays
 optional field
@@ -135,7 +135,7 @@ maximum value: 1000
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:154683
+Defined in: main.ts:154847
 
 the maximum number of returned anchors
 optional field
@@ -148,7 +148,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:154688
+Defined in: main.ts:154852
 
 offset in the results array of returned anchors
 optional field
@@ -161,7 +161,7 @@ if you specify the 10 value, the first ten anchors in the results array will be 
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:154739
+Defined in: main.ts:154903
 
 results sorting rules
 optional field
@@ -183,7 +183,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:154769
+Defined in: main.ts:154933
 
 user-defined task identifier
 optional field
@@ -197,7 +197,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:154678
+Defined in: main.ts:154842
 
 domain, subdomain or webpage to get summary data for
 required field

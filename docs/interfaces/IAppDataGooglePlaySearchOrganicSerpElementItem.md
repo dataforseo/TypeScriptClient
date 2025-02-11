@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGooglePlaySearchOrganicSerpElementItem
 
-Defined in: main.ts:121603
+Defined in: main.ts:121719
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:121603
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:121605
+Defined in: main.ts:121721
 
 id of the app
 
@@ -32,7 +32,7 @@ id of the app
 
 > `optional` **developer**: `string`
 
-Defined in: main.ts:121617
+Defined in: main.ts:121733
 
 name of the app developer
 
@@ -42,7 +42,7 @@ name of the app developer
 
 > `optional` **developer\_url**: `string`
 
-Defined in: main.ts:121619
+Defined in: main.ts:121735
 
 URL to the developer page on Google Play
 
@@ -52,7 +52,7 @@ URL to the developer page on Google Play
 
 > `optional` **icon**: `string`
 
-Defined in: main.ts:121609
+Defined in: main.ts:121725
 
 URL to the app icon
 
@@ -62,7 +62,7 @@ URL to the app icon
 
 > `optional` **is\_free**: `boolean`
 
-Defined in: main.ts:121613
+Defined in: main.ts:121729
 
 indicates whether the app is free
 
@@ -88,7 +88,7 @@ left, right
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-Defined in: main.ts:121615
+Defined in: main.ts:121731
 
 price of the app
 
@@ -142,7 +142,7 @@ average rating of the app
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:121611
+Defined in: main.ts:121727
 
 the total number of reviews of the app
 
@@ -180,6 +180,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:121607
+Defined in: main.ts:121723
 
 URL to the app page on Google Play

@@ -6,7 +6,7 @@
 
 # Interface: IEventItemSerpElementItem
 
-Defined in: main.ts:49063
+Defined in: main.ts:49079
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:49063
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:49067
+Defined in: main.ts:49083
 
 description of the results element in SERP
 
@@ -32,7 +32,7 @@ description of the results element in SERP
 
 > `optional` **event\_dates**: [`EventDates`](../classes/EventDates.md)
 
-Defined in: main.ts:49074
+Defined in: main.ts:49090
 
 dates when the event takes place
 if there are none, equals null
@@ -43,7 +43,7 @@ if there are none, equals null
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:49071
+Defined in: main.ts:49087
 
 URL of the image featured in the element
 
@@ -53,7 +53,7 @@ URL of the image featured in the element
 
 > `optional` **information\_and\_tickets**: [`InformationAndTicketsElement`](../classes/InformationAndTicketsElement.md)[]
 
-Defined in: main.ts:49078
+Defined in: main.ts:49094
 
 additional information and ticket purchase options
 
@@ -63,7 +63,7 @@ additional information and ticket purchase options
 
 > `optional` **location\_info**: [`LocationInfo`](../classes/LocationInfo.md)
 
-Defined in: main.ts:49076
+Defined in: main.ts:49092
 
 information about the event’s venue
 
@@ -120,7 +120,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:49065
+Defined in: main.ts:49081
 
 title of the element
 
@@ -144,7 +144,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:49069
+Defined in: main.ts:49085
 
 search URL with refinement parameters
 

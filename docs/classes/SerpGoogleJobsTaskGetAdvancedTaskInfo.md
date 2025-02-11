@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleJobsTaskGetAdvancedTaskInfo
 
-Defined in: main.ts:54822
+Defined in: main.ts:54838
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:54822
 
 > **new SerpGoogleJobsTaskGetAdvancedTaskInfo**(`data`?): [`SerpGoogleJobsTaskGetAdvancedTaskInfo`](SerpGoogleJobsTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:54828
+Defined in: main.ts:54844
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleJobsTaskGetAdvancedResultInfo`](SerpGoogleJobsTaskGetAdvancedResultInfo.md)[]
 
-Defined in: main.ts:54824
+Defined in: main.ts:54840
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:54832
+Defined in: main.ts:54848
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:54832
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:54854
+Defined in: main.ts:54870
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:54854
 
 > `static` **fromJS**(`data`): [`SerpGoogleJobsTaskGetAdvancedTaskInfo`](SerpGoogleJobsTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:54847
+Defined in: main.ts:54863
 
 #### Parameters
 

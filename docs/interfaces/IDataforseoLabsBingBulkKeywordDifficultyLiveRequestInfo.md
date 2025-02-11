@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo
 
-Defined in: main.ts:115390
+Defined in: main.ts:115458
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:115390
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:115397
+Defined in: main.ts:115465
 
 target keywords
 required field
@@ -33,7 +33,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:115427
+Defined in: main.ts:115495
 
 language code
 required field if don’t specify language_name
@@ -48,7 +48,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:115420
+Defined in: main.ts:115488
 
 full name of the language
 required field if don’t specify language_code
@@ -63,7 +63,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:115413
+Defined in: main.ts:115481
 
 location code
 required field if don’t specify location_name
@@ -79,7 +79,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:115405
+Defined in: main.ts:115473
 
 full name of the location
 required field if don’t specify location_code
@@ -95,7 +95,7 @@ United States
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:115433
+Defined in: main.ts:115501
 
 user-defined task identifier
 optional field

@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphExpandedItemSerpElementItem
 
-Defined in: main.ts:30191
+Defined in: main.ts:30197
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:30191
 
 > **new KnowledgeGraphExpandedItemSerpElementItem**(`data`?): [`KnowledgeGraphExpandedItemSerpElementItem`](KnowledgeGraphExpandedItemSerpElementItem.md)
 
-Defined in: main.ts:30207
+Defined in: main.ts:30213
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:30197
+Defined in: main.ts:30203
 
 google defined data attribute ID
 example:
@@ -76,7 +76,7 @@ kc:/local:place qa
 
 > `optional` **expanded\_element**: [`KnowledgeGraphExpandedElement`](KnowledgeGraphExpandedElement.md)[]
 
-Defined in: main.ts:30199
+Defined in: main.ts:30205
 
 link of the element
 
@@ -149,7 +149,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:30203
+Defined in: main.ts:30209
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -165,7 +165,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:30193
+Defined in: main.ts:30199
 
 title of the link
 
@@ -215,7 +215,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:30212
+Defined in: main.ts:30218
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:30212
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:30237
+Defined in: main.ts:30243
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:30237
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphExpandedItemSerpElementItem`](KnowledgeGraphExpandedItemSerpElementItem.md)
 
-Defined in: main.ts:30230
+Defined in: main.ts:30236
 
 #### Parameters
 

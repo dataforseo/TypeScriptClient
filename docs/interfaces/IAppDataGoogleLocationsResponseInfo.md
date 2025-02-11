@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleLocationsResponseInfo
 
-Defined in: main.ts:198913
+Defined in: main.ts:199415
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataGoogleLocationsTaskInfo`](../classes/AppDataGoogleLocationsTaskInfo.md)[]
 
-Defined in: main.ts:198915
+Defined in: main.ts:199417
 
 array of tasks
 

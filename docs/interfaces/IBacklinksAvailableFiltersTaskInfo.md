@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksAvailableFiltersTaskInfo
 
-Defined in: main.ts:149695
+Defined in: main.ts:149859
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`BacklinksAvailableFiltersResultInfo`](../classes/BacklinksAvailableFiltersResultInfo.md)[]
 
-Defined in: main.ts:149696
+Defined in: main.ts:149860
 
 ***
 

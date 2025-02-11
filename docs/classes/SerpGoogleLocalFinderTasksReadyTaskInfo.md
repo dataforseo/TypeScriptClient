@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleLocalFinderTasksReadyTaskInfo
 
-Defined in: main.ts:43385
+Defined in: main.ts:43401
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:43385
 
 > **new SerpGoogleLocalFinderTasksReadyTaskInfo**(`data`?): [`SerpGoogleLocalFinderTasksReadyTaskInfo`](SerpGoogleLocalFinderTasksReadyTaskInfo.md)
 
-Defined in: main.ts:43391
+Defined in: main.ts:43407
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleLocalFinderTasksReadyResultInfo`](SerpGoogleLocalFinderTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:43387
+Defined in: main.ts:43403
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:43395
+Defined in: main.ts:43411
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:43395
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:43417
+Defined in: main.ts:43433
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:43417
 
 > `static` **fromJS**(`data`): [`SerpGoogleLocalFinderTasksReadyTaskInfo`](SerpGoogleLocalFinderTasksReadyTaskInfo.md)
 
-Defined in: main.ts:43410
+Defined in: main.ts:43426
 
 #### Parameters
 

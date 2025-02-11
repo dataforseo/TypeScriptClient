@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsCategoriesResultInfo
 
-Defined in: main.ts:91692
+Defined in: main.ts:91728
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:91692
 
 > `optional` **category\_code**: `number`
 
-Defined in: main.ts:91694
+Defined in: main.ts:91730
 
 category code
 
@@ -28,7 +28,7 @@ category code
 
 > `optional` **category\_code\_parent**: `number`
 
-Defined in: main.ts:91707
+Defined in: main.ts:91743
 
 the code of the superordinate category
 example:
@@ -47,6 +47,6 @@ corresponds to:
 
 > `optional` **category\_name**: `string`
 
-Defined in: main.ts:91696
+Defined in: main.ts:91732
 
 full name of the category

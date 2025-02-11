@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo
 
-Defined in: main.ts:110626
+Defined in: main.ts:110682
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:110626
 
 > **new DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md)
 
-Defined in: main.ts:110684
+Defined in: main.ts:110745
 
 #### Parameters
 
@@ -36,11 +36,28 @@ Defined in: main.ts:110684
 
 ## Properties
 
+### ignore\_synonyms?
+
+> `optional` **ignore\_synonyms**: `boolean`
+
+Defined in: main.ts:110735
+
+ignore highly similar keywords
+optional field
+if set to true, only core keywords will be returned, all highly similar keywords will be excluded;
+default value: false
+
+#### Implementation of
+
+[`IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md).[`ignore_synonyms`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#ignore_synonyms)
+
+***
+
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:110674
+Defined in: main.ts:110730
 
 display results by item type
 optional field
@@ -61,7 +78,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:110665
+Defined in: main.ts:110721
 
 language code
 if you use this field, you don’t need to specify language_name
@@ -81,7 +98,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:110657
+Defined in: main.ts:110713
 
 full name of the language
 if you use this field, you don’t need to specify language_code
@@ -101,7 +118,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:110649
+Defined in: main.ts:110705
 
 location code
 if you use this field, you don’t have to specify location_name
@@ -121,7 +138,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:110641
+Defined in: main.ts:110697
 
 full name of the location
 if you use this field, you don’t have to specify location_code
@@ -141,7 +158,7 @@ United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:110680
+Defined in: main.ts:110741
 
 user-defined task identifier
 optional field
@@ -159,7 +176,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:110633
+Defined in: main.ts:110689
 
 target domains and websites
 required field
@@ -178,7 +195,7 @@ you can set up to 1000 domains, subdomains or webpages
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:110693
+Defined in: main.ts:110754
 
 #### Parameters
 
@@ -196,7 +213,7 @@ Defined in: main.ts:110693
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:110724
+Defined in: main.ts:110786
 
 #### Parameters
 
@@ -214,7 +231,7 @@ Defined in: main.ts:110724
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md)
 
-Defined in: main.ts:110717
+Defined in: main.ts:110779
 
 #### Parameters
 

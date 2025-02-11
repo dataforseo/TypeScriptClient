@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsTechnologiesDomainsByTechnologyLiveResponseInfo
 
-Defined in: main.ts:88109
+Defined in: main.ts:88145
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DomainAnalyticsTechnologiesDomainsByTechnologyLiveTaskInfo`](../classes/DomainAnalyticsTechnologiesDomainsByTechnologyLiveTaskInfo.md)[]
 
-Defined in: main.ts:88111
+Defined in: main.ts:88147
 
 array of tasks
 

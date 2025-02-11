@@ -6,7 +6,7 @@
 
 # Interface: IMerchantAmazonLocationsTaskInfo
 
-Defined in: main.ts:191308
+Defined in: main.ts:191714
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`MerchantAmazonLocationsResultInfo`](../classes/MerchantAmazonLocationsResultInfo.md)[]
 
-Defined in: main.ts:191310
+Defined in: main.ts:191716
 
 array of results
 

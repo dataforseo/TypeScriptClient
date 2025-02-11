@@ -6,7 +6,7 @@
 
 # Interface: ISerpNaverOrganicTaskGetAdvancedTaskInfo
 
-Defined in: main.ts:81888
+Defined in: main.ts:81924
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpNaverOrganicTaskGetAdvancedResultInfo`](../classes/SerpNaverOrganicTaskGetAdvancedResultInfo.md)[]
 
-Defined in: main.ts:81890
+Defined in: main.ts:81926
 
 array of results
 

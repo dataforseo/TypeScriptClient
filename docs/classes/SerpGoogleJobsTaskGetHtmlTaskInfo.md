@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleJobsTaskGetHtmlTaskInfo
 
-Defined in: main.ts:55040
+Defined in: main.ts:55056
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:55040
 
 > **new SerpGoogleJobsTaskGetHtmlTaskInfo**(`data`?): [`SerpGoogleJobsTaskGetHtmlTaskInfo`](SerpGoogleJobsTaskGetHtmlTaskInfo.md)
 
-Defined in: main.ts:55046
+Defined in: main.ts:55062
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleJobsTaskGetHtmlResultInfo`](SerpGoogleJobsTaskGetHtmlResultInfo.md)[]
 
-Defined in: main.ts:55042
+Defined in: main.ts:55058
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:55050
+Defined in: main.ts:55066
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:55050
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:55072
+Defined in: main.ts:55088
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:55072
 
 > `static` **fromJS**(`data`): [`SerpGoogleJobsTaskGetHtmlTaskInfo`](SerpGoogleJobsTaskGetHtmlTaskInfo.md)
 
-Defined in: main.ts:55065
+Defined in: main.ts:55081
 
 #### Parameters
 

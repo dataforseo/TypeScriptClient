@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleLocalFinderTasksFixedTaskInfo
 
-Defined in: main.ts:43597
+Defined in: main.ts:43613
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:43597
 
 > **new SerpGoogleLocalFinderTasksFixedTaskInfo**(`data`?): [`SerpGoogleLocalFinderTasksFixedTaskInfo`](SerpGoogleLocalFinderTasksFixedTaskInfo.md)
 
-Defined in: main.ts:43603
+Defined in: main.ts:43619
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleLocalFinderTasksFixedResultInfo`](SerpGoogleLocalFinderTasksFixedResultInfo.md)[]
 
-Defined in: main.ts:43599
+Defined in: main.ts:43615
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:43607
+Defined in: main.ts:43623
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:43607
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:43629
+Defined in: main.ts:43645
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:43629
 
 > `static` **fromJS**(`data`): [`SerpGoogleLocalFinderTasksFixedTaskInfo`](SerpGoogleLocalFinderTasksFixedTaskInfo.md)
 
-Defined in: main.ts:43622
+Defined in: main.ts:43638
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleDomainWhoisOverviewLiveResponseInfo
 
-Defined in: main.ts:100605
+Defined in: main.ts:100633
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsGoogleDomainWhoisOverviewLiveTaskInfo`](../classes/DataforseoLabsGoogleDomainWhoisOverviewLiveTaskInfo.md)[]
 
-Defined in: main.ts:100607
+Defined in: main.ts:100635
 
 array of tasks
 

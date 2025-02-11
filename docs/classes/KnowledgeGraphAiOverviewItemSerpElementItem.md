@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphAiOverviewItemSerpElementItem
 
-Defined in: main.ts:30925
+Defined in: main.ts:30931
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:30925
 
 > **new KnowledgeGraphAiOverviewItemSerpElementItem**(`data`?): [`KnowledgeGraphAiOverviewItemSerpElementItem`](KnowledgeGraphAiOverviewItemSerpElementItem.md)
 
-Defined in: main.ts:30943
+Defined in: main.ts:30949
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **asynchronous\_ai\_overview**: `boolean`
 
-Defined in: main.ts:30929
+Defined in: main.ts:30935
 
 indicates whether the element is loaded asynchronically
 if true, the ai_overview element is loaded asynchronically;
@@ -76,7 +76,7 @@ if false, the ai_overview element is loaded from cache;
 
 > `optional` **items**: [`AiOverviewElement`](AiOverviewElement.md)[]
 
-Defined in: main.ts:30932
+Defined in: main.ts:30938
 
 additional items present in the element
 if there are none, equals null
@@ -150,7 +150,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:30939
+Defined in: main.ts:30945
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -166,7 +166,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **references**: [`AiOverviewReference`](AiOverviewReference.md)[]
 
-Defined in: main.ts:30935
+Defined in: main.ts:30941
 
 additional references relevant to the item
 includes references to webpages that may have been used to generate the ai_overview
@@ -217,7 +217,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:30948
+Defined in: main.ts:30954
 
 #### Parameters
 
@@ -239,7 +239,7 @@ Defined in: main.ts:30948
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:30977
+Defined in: main.ts:30983
 
 #### Parameters
 
@@ -261,7 +261,7 @@ Defined in: main.ts:30977
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphAiOverviewItemSerpElementItem`](KnowledgeGraphAiOverviewItemSerpElementItem.md)
 
-Defined in: main.ts:30970
+Defined in: main.ts:30976
 
 #### Parameters
 

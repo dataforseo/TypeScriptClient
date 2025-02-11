@@ -6,7 +6,7 @@
 
 # Class: BacklinksPageMeta
 
-Defined in: main.ts:153590
+Defined in: main.ts:153754
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:153590
 
 > **new BacklinksPageMeta**(`data`?): [`BacklinksPageMeta`](BacklinksPageMeta.md)
 
-Defined in: main.ts:153638
+Defined in: main.ts:153802
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:153638
 
 > `optional` **canonical**: `string`
 
-Defined in: main.ts:153594
+Defined in: main.ts:153758
 
 canonical page
 
@@ -54,7 +54,7 @@ canonical page
 
 > `optional` **charset**: `string`
 
-Defined in: main.ts:153630
+Defined in: main.ts:153794
 
 character encoding
 examples:
@@ -70,7 +70,7 @@ utf-8
 
 > `optional` **external\_links\_count**: `number`
 
-Defined in: main.ts:153598
+Defined in: main.ts:153762
 
 number of external links on the page
 
@@ -84,7 +84,7 @@ number of external links on the page
 
 > `optional` **h1**: `string`[]
 
-Defined in: main.ts:153612
+Defined in: main.ts:153776
 
 h1 tag
 content of h1 tags
@@ -99,7 +99,7 @@ content of h1 tags
 
 > `optional` **h2**: `string`[]
 
-Defined in: main.ts:153615
+Defined in: main.ts:153779
 
 h2 tag
 content of h2 tags
@@ -114,7 +114,7 @@ content of h2 tags
 
 > `optional` **h3**: `string`[]
 
-Defined in: main.ts:153618
+Defined in: main.ts:153782
 
 h3 tag
 content of h3 tags
@@ -129,7 +129,7 @@ content of h3 tags
 
 > `optional` **images\_alt**: `string`[]
 
-Defined in: main.ts:153620
+Defined in: main.ts:153784
 
 content of alt tags
 
@@ -143,7 +143,7 @@ content of alt tags
 
 > `optional` **images\_count**: `number`
 
-Defined in: main.ts:153600
+Defined in: main.ts:153764
 
 number of images on the page
 
@@ -157,7 +157,7 @@ number of images on the page
 
 > `optional` **internal\_links\_count**: `number`
 
-Defined in: main.ts:153596
+Defined in: main.ts:153760
 
 number of internal links on the page
 
@@ -171,7 +171,7 @@ number of internal links on the page
 
 > `optional` **language**: `string`
 
-Defined in: main.ts:153626
+Defined in: main.ts:153790
 
 page content language
 example:
@@ -187,7 +187,7 @@ en
 
 > `optional` **page\_spam\_score**: `number`
 
-Defined in: main.ts:153605
+Defined in: main.ts:153769
 
 spam score of the page
 learn more about how the metric is calculated on this help center page
@@ -202,7 +202,7 @@ learn more about how the metric is calculated on this help center page
 
 > `optional` **platform\_type**: `string`[]
 
-Defined in: main.ts:153632
+Defined in: main.ts:153796
 
 type of a platform
 
@@ -216,7 +216,7 @@ type of a platform
 
 > `optional` **powered\_by**: `string`[]
 
-Defined in: main.ts:153622
+Defined in: main.ts:153786
 
 CMS details
 
@@ -230,7 +230,7 @@ CMS details
 
 > `optional` **social\_media\_tags**: `object`
 
-Defined in: main.ts:153609
+Defined in: main.ts:153773
 
 array of social media tags found on the page
 contains social media tags and their content
@@ -250,7 +250,7 @@ supported tags include but are not limited to Open Graph and Twitter card
 
 > `optional` **technologies**: `object`
 
-Defined in: main.ts:153634
+Defined in: main.ts:153798
 
 website technologies
 
@@ -268,7 +268,7 @@ website technologies
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:153592
+Defined in: main.ts:153756
 
 page title
 
@@ -282,7 +282,7 @@ page title
 
 > `optional` **words\_count**: `number`
 
-Defined in: main.ts:153602
+Defined in: main.ts:153766
 
 number of words on the page
 
@@ -296,7 +296,7 @@ number of words on the page
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:153647
+Defined in: main.ts:153811
 
 #### Parameters
 
@@ -314,7 +314,7 @@ Defined in: main.ts:153647
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:153716
+Defined in: main.ts:153880
 
 #### Parameters
 
@@ -332,7 +332,7 @@ Defined in: main.ts:153716
 
 > `static` **fromJS**(`data`): [`BacklinksPageMeta`](BacklinksPageMeta.md)
 
-Defined in: main.ts:153709
+Defined in: main.ts:153873
 
 #### Parameters
 

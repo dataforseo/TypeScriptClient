@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleMapsLiveAdvancedTaskInfo
 
-Defined in: main.ts:42745
+Defined in: main.ts:42761
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:42745
 
 > **new SerpGoogleMapsLiveAdvancedTaskInfo**(`data`?): [`SerpGoogleMapsLiveAdvancedTaskInfo`](SerpGoogleMapsLiveAdvancedTaskInfo.md)
 
-Defined in: main.ts:42751
+Defined in: main.ts:42767
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleMapsLiveAdvancedResultInfo`](SerpGoogleMapsLiveAdvancedResultInfo.md)[]
 
-Defined in: main.ts:42747
+Defined in: main.ts:42763
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:42755
+Defined in: main.ts:42771
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:42755
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:42777
+Defined in: main.ts:42793
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:42777
 
 > `static` **fromJS**(`data`): [`SerpGoogleMapsLiveAdvancedTaskInfo`](SerpGoogleMapsLiveAdvancedTaskInfo.md)
 
-Defined in: main.ts:42770
+Defined in: main.ts:42786
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IOnPageLighthouseLiveJsonResponseInfo
 
-Defined in: main.ts:176347
+Defined in: main.ts:176711
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageLighthouseLiveJsonTaskInfo`](../classes/OnPageLighthouseLiveJsonTaskInfo.md)[]
 
-Defined in: main.ts:176349
+Defined in: main.ts:176713
 
 array of tasks
 

@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleAutocompleteTasksReadyResponseInfo
 
-Defined in: main.ts:55689
+Defined in: main.ts:55705
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:55689
 
 > **new SerpGoogleAutocompleteTasksReadyResponseInfo**(`data`?): [`SerpGoogleAutocompleteTasksReadyResponseInfo`](SerpGoogleAutocompleteTasksReadyResponseInfo.md)
 
-Defined in: main.ts:55695
+Defined in: main.ts:55711
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleAutocompleteTasksReadyTaskInfo`](SerpGoogleAutocompleteTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:55691
+Defined in: main.ts:55707
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:55699
+Defined in: main.ts:55715
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:55699
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:55721
+Defined in: main.ts:55737
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:55721
 
 > `static` **fromJS**(`data`): [`SerpGoogleAutocompleteTasksReadyResponseInfo`](SerpGoogleAutocompleteTasksReadyResponseInfo.md)
 
-Defined in: main.ts:55714
+Defined in: main.ts:55730
 
 #### Parameters
 

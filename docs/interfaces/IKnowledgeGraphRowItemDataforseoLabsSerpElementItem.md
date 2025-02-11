@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphRowItemDataforseoLabsSerpElementItem
 
-Defined in: main.ts:105987
+Defined in: main.ts:106125
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:105987
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:105993
+Defined in: main.ts:106131
 
 google defined data attribute ID
 example:
@@ -34,7 +34,7 @@ action:listen_artist
 
 > `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
-Defined in: main.ts:105999
+Defined in: main.ts:106137
 
 sitelinks
 the links shown below some of Google’s search results
@@ -92,7 +92,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:105995
+Defined in: main.ts:106133
 
 row content
 
@@ -102,7 +102,7 @@ row content
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:105989
+Defined in: main.ts:106127
 
 title of the item
 

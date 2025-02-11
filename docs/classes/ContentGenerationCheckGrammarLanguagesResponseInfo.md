@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationCheckGrammarLanguagesResponseInfo
 
-Defined in: main.ts:183259
+Defined in: main.ts:183621
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:183259
 
 > **new ContentGenerationCheckGrammarLanguagesResponseInfo**(`data`?): [`ContentGenerationCheckGrammarLanguagesResponseInfo`](ContentGenerationCheckGrammarLanguagesResponseInfo.md)
 
-Defined in: main.ts:183265
+Defined in: main.ts:183627
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`ContentGenerationCheckGrammarLanguagesTaskInfo`](ContentGenerationCheckGrammarLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:183261
+Defined in: main.ts:183623
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:183269
+Defined in: main.ts:183631
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:183269
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:183291
+Defined in: main.ts:183653
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:183291
 
 > `static` **fromJS**(`data`): [`ContentGenerationCheckGrammarLanguagesResponseInfo`](ContentGenerationCheckGrammarLanguagesResponseInfo.md)
 
-Defined in: main.ts:183284
+Defined in: main.ts:183646
 
 #### Parameters
 

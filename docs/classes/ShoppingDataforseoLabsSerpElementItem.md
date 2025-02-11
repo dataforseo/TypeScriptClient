@@ -6,7 +6,7 @@
 
 # Class: ShoppingDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108313
+Defined in: main.ts:108369
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:108313
 
 > **new ShoppingDataforseoLabsSerpElementItem**(`data`?): [`ShoppingDataforseoLabsSerpElementItem`](ShoppingDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108321
+Defined in: main.ts:108377
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **items**: [`ShoppingElement`](ShoppingElement.md)[]
 
-Defined in: main.ts:108317
+Defined in: main.ts:108373
 
 elements of search results found in SERP
 
@@ -132,7 +132,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:108315
+Defined in: main.ts:108371
 
 title of the result in SERP
 
@@ -182,7 +182,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:108326
+Defined in: main.ts:108382
 
 #### Parameters
 
@@ -204,7 +204,7 @@ Defined in: main.ts:108326
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:108349
+Defined in: main.ts:108405
 
 #### Parameters
 
@@ -226,7 +226,7 @@ Defined in: main.ts:108349
 
 > `static` **fromJS**(`data`): [`ShoppingDataforseoLabsSerpElementItem`](ShoppingDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108342
+Defined in: main.ts:108398
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: KeywordDataInfo
 
-Defined in: main.ts:93288
+Defined in: main.ts:93334
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:93288
 
 > **new KeywordDataInfo**(`data`?): [`KeywordDataInfo`](KeywordDataInfo.md)
 
-Defined in: main.ts:93326
+Defined in: main.ts:93372
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:93326
 
 > `optional` **avg\_backlinks\_info**: [`AvgBacklinksInfo`](AvgBacklinksInfo.md)
 
-Defined in: main.ts:93319
+Defined in: main.ts:93365
 
 backlink data for the returned keyword
 this object provides the average number of backlinks, referring pages and domains, as well as the average rank values among the top-10 webpages ranking organically for the keyword
@@ -55,7 +55,7 @@ this object provides the average number of backlinks, referring pages and domain
 
 > `optional` **clickstream\_keyword\_info**: [`ClickstreamKeywordInfo`](ClickstreamKeywordInfo.md)
 
-Defined in: main.ts:93305
+Defined in: main.ts:93351
 
 clickstream data for the returned keyword
 to retrieve results for this field, the parameter include_clickstream_data must be set to true
@@ -70,7 +70,7 @@ to retrieve results for this field, the parameter include_clickstream_data must 
 
 > `optional` **impressions\_info**: [`ImpressionsInfo`](ImpressionsInfo.md)
 
-Defined in: main.ts:93313
+Defined in: main.ts:93359
 
 impressions data for the returned keyword idea
 Note that all data in the impressions_info object is deprecated and provided only as legacy to avoid maintenance issues
@@ -88,7 +88,7 @@ learn more about impressions in this help center article
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:93292
+Defined in: main.ts:93338
 
 returned keyword idea
 
@@ -102,7 +102,7 @@ returned keyword idea
 
 > `optional` **keyword\_info**: [`KeywordInfo`](KeywordInfo.md)
 
-Defined in: main.ts:93298
+Defined in: main.ts:93344
 
 keyword data for the returned keyword idea
 
@@ -116,7 +116,7 @@ keyword data for the returned keyword idea
 
 > `optional` **keyword\_info\_normalized\_with\_bing**: [`KeywordInfoNormalizedWithInfo`](KeywordInfoNormalizedWithInfo.md)
 
-Defined in: main.ts:93300
+Defined in: main.ts:93346
 
 contains keyword search volume normalized with Bing search volume
 
@@ -130,7 +130,7 @@ contains keyword search volume normalized with Bing search volume
 
 > `optional` **keyword\_info\_normalized\_with\_clickstream**: [`KeywordInfoNormalizedWithInfo`](KeywordInfoNormalizedWithInfo.md)
 
-Defined in: main.ts:93302
+Defined in: main.ts:93348
 
 contains keyword search volume normalized with clickstream data
 
@@ -144,7 +144,7 @@ contains keyword search volume normalized with clickstream data
 
 > `optional` **keyword\_properties**: [`KeywordProperties`](KeywordProperties.md)
 
-Defined in: main.ts:93307
+Defined in: main.ts:93353
 
 additional information about the keyword
 
@@ -158,7 +158,7 @@ additional information about the keyword
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:93296
+Defined in: main.ts:93342
 
 language code in a POST array
 
@@ -172,7 +172,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:93294
+Defined in: main.ts:93340
 
 location code in a POST array
 
@@ -186,7 +186,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:93290
+Defined in: main.ts:93336
 
 search engine type
 
@@ -200,7 +200,7 @@ search engine type
 
 > `optional` **search\_intent\_info**: [`SearchIntentInfo`](SearchIntentInfo.md)
 
-Defined in: main.ts:93322
+Defined in: main.ts:93368
 
 search intent info for the returned keyword
 learn about search intent in this help center article
@@ -215,7 +215,7 @@ learn about search intent in this help center article
 
 > `optional` **serp\_info**: [`SerpInfo`](SerpInfo.md)
 
-Defined in: main.ts:93316
+Defined in: main.ts:93362
 
 SERP data
 the value will be null if you didn’t set the field include_serp_info to true in the POST array or if there is no SERP data for this keyword in our database
@@ -230,7 +230,7 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:93335
+Defined in: main.ts:93381
 
 #### Parameters
 
@@ -248,7 +248,7 @@ Defined in: main.ts:93335
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:93364
+Defined in: main.ts:93410
 
 #### Parameters
 
@@ -266,7 +266,7 @@ Defined in: main.ts:93364
 
 > `static` **fromJS**(`data`): [`KeywordDataInfo`](KeywordDataInfo.md)
 
-Defined in: main.ts:93357
+Defined in: main.ts:93403
 
 #### Parameters
 

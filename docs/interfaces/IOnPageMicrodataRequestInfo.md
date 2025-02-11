@@ -6,7 +6,7 @@
 
 # Interface: IOnPageMicrodataRequestInfo
 
-Defined in: main.ts:171615
+Defined in: main.ts:171779
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:171615
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:171621
+Defined in: main.ts:171785
 
 ID of the task
 required field
@@ -32,7 +32,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:171633
+Defined in: main.ts:171797
 
 user-defined task identifier
 optional field
@@ -46,7 +46,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:171627
+Defined in: main.ts:171791
 
 resource URL
 required field

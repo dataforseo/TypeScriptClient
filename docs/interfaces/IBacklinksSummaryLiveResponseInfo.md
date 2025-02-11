@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksSummaryLiveResponseInfo
 
-Defined in: main.ts:150733
+Defined in: main.ts:150897
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BacklinksSummaryLiveTaskInfo`](../classes/BacklinksSummaryLiveTaskInfo.md)[]
 
-Defined in: main.ts:150735
+Defined in: main.ts:150899
 
 array of tasks
 

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonProductCompetitorsLiveTaskInfo
 
-Defined in: main.ts:114610
+Defined in: main.ts:114678
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:114610
 
 > **new DataforseoLabsAmazonProductCompetitorsLiveTaskInfo**(`data`?): [`DataforseoLabsAmazonProductCompetitorsLiveTaskInfo`](DataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md)
 
-Defined in: main.ts:114616
+Defined in: main.ts:114684
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsAmazonProductCompetitorsLiveResultInfo`](DataforseoLabsAmazonProductCompetitorsLiveResultInfo.md)[]
 
-Defined in: main.ts:114612
+Defined in: main.ts:114680
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:114620
+Defined in: main.ts:114688
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:114620
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:114642
+Defined in: main.ts:114710
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:114642
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAmazonProductCompetitorsLiveTaskInfo`](DataforseoLabsAmazonProductCompetitorsLiveTaskInfo.md)
 
-Defined in: main.ts:114635
+Defined in: main.ts:114703
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleRankedKeywordsLiveTaskInfo
 
-Defined in: main.ts:101716
+Defined in: main.ts:101744
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:101716
 
 > **new DataforseoLabsGoogleRankedKeywordsLiveTaskInfo**(`data`?): [`DataforseoLabsGoogleRankedKeywordsLiveTaskInfo`](DataforseoLabsGoogleRankedKeywordsLiveTaskInfo.md)
 
-Defined in: main.ts:101722
+Defined in: main.ts:101750
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleRankedKeywordsLiveResultInfo`](DataforseoLabsGoogleRankedKeywordsLiveResultInfo.md)[]
 
-Defined in: main.ts:101718
+Defined in: main.ts:101746
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:101726
+Defined in: main.ts:101754
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:101726
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:101748
+Defined in: main.ts:101776
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:101748
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleRankedKeywordsLiveTaskInfo`](DataforseoLabsGoogleRankedKeywordsLiveTaskInfo.md)
 
-Defined in: main.ts:101741
+Defined in: main.ts:101769
 
 #### Parameters
 

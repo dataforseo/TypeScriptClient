@@ -6,7 +6,7 @@
 
 # Class: BacklinksErrorsRequestInfo
 
-Defined in: main.ts:149104
+Defined in: main.ts:149268
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:149104
 
 > **new BacklinksErrorsRequestInfo**(`data`?): [`BacklinksErrorsRequestInfo`](BacklinksErrorsRequestInfo.md)
 
-Defined in: main.ts:149138
+Defined in: main.ts:149302
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:149138
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:149127
+Defined in: main.ts:149291
 
 start time for filtering results
 optional field
@@ -59,7 +59,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:149134
+Defined in: main.ts:149298
 
 finish time for filtering results
 optional field
@@ -78,7 +78,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:149120
+Defined in: main.ts:149284
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -96,7 +96,7 @@ example: backlinks/live
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:149109
+Defined in: main.ts:149273
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -113,7 +113,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:149114
+Defined in: main.ts:149278
 
 offset in the results array of returned tasks
 optional field
@@ -130,7 +130,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:149147
+Defined in: main.ts:149311
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:149147
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:149168
+Defined in: main.ts:149332
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: main.ts:149168
 
 > `static` **fromJS**(`data`): [`BacklinksErrorsRequestInfo`](BacklinksErrorsRequestInfo.md)
 
-Defined in: main.ts:149161
+Defined in: main.ts:149325
 
 #### Parameters
 

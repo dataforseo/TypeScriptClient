@@ -6,7 +6,7 @@
 
 # Interface: IVideoDataforseoLabsSerpElementItem
 
-Defined in: main.ts:106491
+Defined in: main.ts:106555
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:106491
 
 > `optional` **items**: [`VideoElement`](../classes/VideoElement.md)[]
 
-Defined in: main.ts:106495
+Defined in: main.ts:106559
 
 elements of search results found in SERP
 
@@ -78,7 +78,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:106493
+Defined in: main.ts:106557
 
 search engine type
 

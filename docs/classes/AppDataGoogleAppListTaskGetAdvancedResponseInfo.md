@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppListTaskGetAdvancedResponseInfo
 
-Defined in: main.ts:201209
+Defined in: main.ts:201711
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:201209
 
 > **new AppDataGoogleAppListTaskGetAdvancedResponseInfo**(`data`?): [`AppDataGoogleAppListTaskGetAdvancedResponseInfo`](AppDataGoogleAppListTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:201215
+Defined in: main.ts:201717
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataGoogleAppListTaskGetAdvancedTaskInfo`](AppDataGoogleAppListTaskGetAdvancedTaskInfo.md)[]
 
-Defined in: main.ts:201211
+Defined in: main.ts:201713
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:201219
+Defined in: main.ts:201721
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:201219
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:201241
+Defined in: main.ts:201743
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:201241
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppListTaskGetAdvancedResponseInfo`](AppDataGoogleAppListTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:201234
+Defined in: main.ts:201736
 
 #### Parameters
 

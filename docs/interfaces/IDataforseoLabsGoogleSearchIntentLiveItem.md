@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleSearchIntentLiveItem
 
-Defined in: main.ts:96687
+Defined in: main.ts:96715
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:96687
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:96689
+Defined in: main.ts:96717
 
 target keyword in a POST array
 
@@ -28,7 +28,7 @@ target keyword in a POST array
 
 > `optional` **keyword\_intent**: [`KeywordIntentInfo`](../classes/KeywordIntentInfo.md)
 
-Defined in: main.ts:96691
+Defined in: main.ts:96719
 
 search intent data relevant for the specified keyword
 
@@ -38,6 +38,6 @@ search intent data relevant for the specified keyword
 
 > `optional` **secondary\_keyword\_intents**: [`KeywordIntentInfo`](../classes/KeywordIntentInfo.md)[]
 
-Defined in: main.ts:96693
+Defined in: main.ts:96721
 
 contains objects with other possible search intents for the specified keyword

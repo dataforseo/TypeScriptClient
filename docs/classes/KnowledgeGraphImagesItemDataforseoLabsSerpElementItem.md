@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphImagesItemDataforseoLabsSerpElementItem
 
-Defined in: main.ts:105858
+Defined in: main.ts:105996
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:105858
 
 > **new KnowledgeGraphImagesItemDataforseoLabsSerpElementItem**(`data`?): [`KnowledgeGraphImagesItemDataforseoLabsSerpElementItem`](KnowledgeGraphImagesItemDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:105867
+Defined in: main.ts:106005
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **items**: [`KnowledgeGraphImagesElement`](KnowledgeGraphImagesElement.md)[]
 
-Defined in: main.ts:105863
+Defined in: main.ts:106001
 
 additional items present in the element
 if there are none, equals null
@@ -75,7 +75,7 @@ if there are none, equals null
 
 > `optional` **link**: [`LinkElement`](LinkElement.md)
 
-Defined in: main.ts:105860
+Defined in: main.ts:105998
 
 link of the element
 
@@ -183,7 +183,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:105872
+Defined in: main.ts:106010
 
 #### Parameters
 
@@ -205,7 +205,7 @@ Defined in: main.ts:105872
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:105895
+Defined in: main.ts:106033
 
 #### Parameters
 
@@ -227,7 +227,7 @@ Defined in: main.ts:105895
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphImagesItemDataforseoLabsSerpElementItem`](KnowledgeGraphImagesItemDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:105888
+Defined in: main.ts:106026
 
 #### Parameters
 

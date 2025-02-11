@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
 
-Defined in: main.ts:86310
+Defined in: main.ts:86346
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:86310
 
 > **new DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo**(`data`?): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md)
 
-Defined in: main.ts:86322
+Defined in: main.ts:86358
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:86322
 
 > `optional` **items**: [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md)[]
 
-Defined in: main.ts:86318
+Defined in: main.ts:86354
 
 items array
 
@@ -54,7 +54,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:86314
+Defined in: main.ts:86350
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:86316
+Defined in: main.ts:86352
 
 offset in the results array of returned domains
 
@@ -82,7 +82,7 @@ offset in the results array of returned domains
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:86312
+Defined in: main.ts:86348
 
 total amount of results in our database relevant to your request
 
@@ -96,7 +96,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:86331
+Defined in: main.ts:86367
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:86331
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:86355
+Defined in: main.ts:86391
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:86355
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md)
 
-Defined in: main.ts:86348
+Defined in: main.ts:86384
 
 #### Parameters
 

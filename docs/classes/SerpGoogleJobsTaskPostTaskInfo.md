@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleJobsTaskPostTaskInfo
 
-Defined in: main.ts:53964
+Defined in: main.ts:53980
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:53964
 
 > **new SerpGoogleJobsTaskPostTaskInfo**(`data`?): [`SerpGoogleJobsTaskPostTaskInfo`](SerpGoogleJobsTaskPostTaskInfo.md)
 
-Defined in: main.ts:53971
+Defined in: main.ts:53987
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:53967
+Defined in: main.ts:53983
 
 array of results
 in this case, the value will be null
@@ -215,7 +215,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:53975
+Defined in: main.ts:53991
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:53975
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:53993
+Defined in: main.ts:54009
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:53993
 
 > `static` **fromJS**(`data`): [`SerpGoogleJobsTaskPostTaskInfo`](SerpGoogleJobsTaskPostTaskInfo.md)
 
-Defined in: main.ts:53986
+Defined in: main.ts:54002
 
 #### Parameters
 

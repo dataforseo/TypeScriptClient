@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleLanguagesTaskInfo
 
-Defined in: main.ts:205158
+Defined in: main.ts:205660
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:205158
 
 > **new AppDataAppleLanguagesTaskInfo**(`data`?): [`AppDataAppleLanguagesTaskInfo`](AppDataAppleLanguagesTaskInfo.md)
 
-Defined in: main.ts:205164
+Defined in: main.ts:205666
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`AppDataAppleLanguagesResultInfo`](AppDataAppleLanguagesResultInfo.md)[]
 
-Defined in: main.ts:205160
+Defined in: main.ts:205662
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:205168
+Defined in: main.ts:205670
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:205168
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:205190
+Defined in: main.ts:205692
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:205190
 
 > `static` **fromJS**(`data`): [`AppDataAppleLanguagesTaskInfo`](AppDataAppleLanguagesTaskInfo.md)
 
-Defined in: main.ts:205183
+Defined in: main.ts:205685
 
 #### Parameters
 

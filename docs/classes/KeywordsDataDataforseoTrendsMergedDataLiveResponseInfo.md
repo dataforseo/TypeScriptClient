@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo
 
-Defined in: main.ts:138121
+Defined in: main.ts:138285
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:138121
 
 > **new KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo**(`data`?): [`KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo`](KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo.md)
 
-Defined in: main.ts:138127
+Defined in: main.ts:138291
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo`](KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md)[]
 
-Defined in: main.ts:138123
+Defined in: main.ts:138287
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:138131
+Defined in: main.ts:138295
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:138131
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:138153
+Defined in: main.ts:138317
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:138153
 
 > `static` **fromJS**(`data`): [`KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo`](KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo.md)
 
-Defined in: main.ts:138146
+Defined in: main.ts:138310
 
 #### Parameters
 

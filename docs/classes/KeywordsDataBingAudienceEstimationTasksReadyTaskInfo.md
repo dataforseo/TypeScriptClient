@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingAudienceEstimationTasksReadyTaskInfo
 
-Defined in: main.ts:140582
+Defined in: main.ts:140746
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:140582
 
 > **new KeywordsDataBingAudienceEstimationTasksReadyTaskInfo**(`data`?): [`KeywordsDataBingAudienceEstimationTasksReadyTaskInfo`](KeywordsDataBingAudienceEstimationTasksReadyTaskInfo.md)
 
-Defined in: main.ts:140588
+Defined in: main.ts:140752
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataBingAudienceEstimationTasksReadyResultInfo`](KeywordsDataBingAudienceEstimationTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:140584
+Defined in: main.ts:140748
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:140592
+Defined in: main.ts:140756
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:140592
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:140614
+Defined in: main.ts:140778
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:140614
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingAudienceEstimationTasksReadyTaskInfo`](KeywordsDataBingAudienceEstimationTasksReadyTaskInfo.md)
 
-Defined in: main.ts:140607
+Defined in: main.ts:140771
 
 #### Parameters
 

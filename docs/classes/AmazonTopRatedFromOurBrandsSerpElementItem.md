@@ -6,7 +6,7 @@
 
 # Class: AmazonTopRatedFromOurBrandsSerpElementItem
 
-Defined in: main.ts:192898
+Defined in: main.ts:193304
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:192898
 
 > **new AmazonTopRatedFromOurBrandsSerpElementItem**(`data`?): [`AmazonTopRatedFromOurBrandsSerpElementItem`](AmazonTopRatedFromOurBrandsSerpElementItem.md)
 
-Defined in: main.ts:192908
+Defined in: main.ts:193314
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23218
 
 > `optional` **items**: [`AmazonSerpElement`](AmazonSerpElement.md)[]
 
-Defined in: main.ts:192904
+Defined in: main.ts:193310
 
 Amazon product items
 
@@ -74,7 +74,7 @@ Amazon product items
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:192902
+Defined in: main.ts:193308
 
 the alignment of the element in Amazon SERP
 possible values:
@@ -164,7 +164,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:192913
+Defined in: main.ts:193319
 
 #### Parameters
 
@@ -186,7 +186,7 @@ Defined in: main.ts:192913
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:192936
+Defined in: main.ts:193342
 
 #### Parameters
 
@@ -208,7 +208,7 @@ Defined in: main.ts:192936
 
 > `static` **fromJS**(`data`): [`AmazonTopRatedFromOurBrandsSerpElementItem`](AmazonTopRatedFromOurBrandsSerpElementItem.md)
 
-Defined in: main.ts:192929
+Defined in: main.ts:193335
 
 #### Parameters
 

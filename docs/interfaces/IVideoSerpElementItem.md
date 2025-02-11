@@ -6,7 +6,7 @@
 
 # Interface: IVideoSerpElementItem
 
-Defined in: main.ts:33270
+Defined in: main.ts:33278
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:33270
 
 > `optional` **items**: [`VideoElement`](../classes/VideoElement.md)[]
 
-Defined in: main.ts:33272
+Defined in: main.ts:33280
 
 contains arrays of specific images
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:33276
+Defined in: main.ts:33284
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP

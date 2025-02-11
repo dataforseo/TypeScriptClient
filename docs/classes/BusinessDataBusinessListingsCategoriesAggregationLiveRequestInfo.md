@@ -6,7 +6,7 @@
 
 # Class: BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
 
-Defined in: main.ts:211832
+Defined in: main.ts:212334
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:211832
 
 > **new BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo**(`data`?): [`BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md)
 
-Defined in: main.ts:211894
+Defined in: main.ts:212396
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:211894
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:211838
+Defined in: main.ts:212340
 
 business categories
 optional field
@@ -58,7 +58,7 @@ you can specify up to 10 categories
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:211843
+Defined in: main.ts:212345
 
 description of the element in SERP
 optional field
@@ -75,14 +75,14 @@ can contain up to 200 characters
 
 > `optional` **initial\_dataset\_filters**: `any`[]
 
-Defined in: main.ts:211871
+Defined in: main.ts:212373
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like, match, not_match
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["rating.value",">",3]
@@ -98,7 +98,7 @@ you can receive the list of available filters by making a separate request to h
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:211876
+Defined in: main.ts:212378
 
 maximum number of elements within internal arrays
 optional field
@@ -115,7 +115,7 @@ default value: 10
 
 > `optional` **is\_claimed**: `boolean`
 
-Defined in: main.ts:211851
+Defined in: main.ts:212353
 
 indicates whether the business is verified by its owner on Google Maps
 optional field
@@ -130,7 +130,7 @@ optional field
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:211881
+Defined in: main.ts:212383
 
 the maximum number of returned businesses
 optional field
@@ -147,7 +147,7 @@ maximum value: 1000
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:211860
+Defined in: main.ts:212362
 
 GPS coordinates of a location
 optional field
@@ -168,7 +168,7 @@ example:
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:211884
+Defined in: main.ts:212386
 
 the maximum number of returned businesses
 optional field
@@ -183,7 +183,7 @@ optional field
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:211890
+Defined in: main.ts:212392
 
 user-defined task identifier
 optional field
@@ -201,7 +201,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:211848
+Defined in: main.ts:212350
 
 title of the element in SERP
 optional field
@@ -218,7 +218,7 @@ can contain up to 200 characters
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:211903
+Defined in: main.ts:212405
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:211903
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:211937
+Defined in: main.ts:212439
 
 #### Parameters
 
@@ -254,7 +254,7 @@ Defined in: main.ts:211937
 
 > `static` **fromJS**(`data`): [`BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md)
 
-Defined in: main.ts:211930
+Defined in: main.ts:212432
 
 #### Parameters
 

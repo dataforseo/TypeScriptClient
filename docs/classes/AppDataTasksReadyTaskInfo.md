@@ -6,7 +6,7 @@
 
 # Class: AppDataTasksReadyTaskInfo
 
-Defined in: main.ts:199914
+Defined in: main.ts:200416
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:199914
 
 > **new AppDataTasksReadyTaskInfo**(`data`?): [`AppDataTasksReadyTaskInfo`](AppDataTasksReadyTaskInfo.md)
 
-Defined in: main.ts:199920
+Defined in: main.ts:200422
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`AppDataTasksReadyResultInfo`](AppDataTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:199916
+Defined in: main.ts:200418
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:199924
+Defined in: main.ts:200426
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:199924
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:199946
+Defined in: main.ts:200448
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:199946
 
 > `static` **fromJS**(`data`): [`AppDataTasksReadyTaskInfo`](AppDataTasksReadyTaskInfo.md)
 
-Defined in: main.ts:199939
+Defined in: main.ts:200441
 
 #### Parameters
 

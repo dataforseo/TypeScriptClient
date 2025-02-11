@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsStatusTaskInfo
 
-Defined in: main.ts:90388
+Defined in: main.ts:90424
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:90388
 
 > **new DataforseoLabsStatusTaskInfo**(`data`?): [`DataforseoLabsStatusTaskInfo`](DataforseoLabsStatusTaskInfo.md)
 
-Defined in: main.ts:90394
+Defined in: main.ts:90430
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsStatusResultInfo`](DataforseoLabsStatusResultInfo.md)[]
 
-Defined in: main.ts:90390
+Defined in: main.ts:90426
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:90398
+Defined in: main.ts:90434
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:90398
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:90420
+Defined in: main.ts:90456
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:90420
 
 > `static` **fromJS**(`data`): [`DataforseoLabsStatusTaskInfo`](DataforseoLabsStatusTaskInfo.md)
 
-Defined in: main.ts:90413
+Defined in: main.ts:90449
 
 #### Parameters
 

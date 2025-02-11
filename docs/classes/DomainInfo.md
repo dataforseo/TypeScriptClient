@@ -6,7 +6,7 @@
 
 # Class: DomainInfo
 
-Defined in: main.ts:165280
+Defined in: main.ts:165444
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:165280
 
 > **new DomainInfo**(`data`?): [`DomainInfo`](DomainInfo.md)
 
-Defined in: main.ts:165350
+Defined in: main.ts:165514
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:165350
 
 > `optional` **canonicalization\_status\_code**: `number`
 
-Defined in: main.ts:165336
+Defined in: main.ts:165500
 
 status code returned by a canonicalized page
 the checkup of the server behavior when our crawler tries to access the website via IP;
@@ -56,7 +56,7 @@ in most cases, it is recommended that canonicalized pages respond with a 301 or 
 
 > `optional` **checks**: `object`
 
-Defined in: main.ts:165326
+Defined in: main.ts:165490
 
 website checks
 other on-page check-ups related to the website
@@ -75,7 +75,7 @@ other on-page check-ups related to the website
 
 > `optional` **cms**: `string`
 
-Defined in: main.ts:165288
+Defined in: main.ts:165452
 
 content management system
 content management system identified on a website
@@ -93,7 +93,7 @@ if our crawler was unable to identify the cms, the value would be null
 
 > `optional` **crawl\_end**: `string`
 
-Defined in: main.ts:165308
+Defined in: main.ts:165472
 
 time when the crawling ended
 date and time when the crawling was finished
@@ -112,7 +112,7 @@ if "crawl_progress" is in_progress, the value will be null
 
 > `optional` **crawl\_start**: `string`
 
-Defined in: main.ts:165301
+Defined in: main.ts:165465
 
 time when the crawling start
 date and time when the website was sent for crawling
@@ -130,7 +130,7 @@ example:
 
 > `optional` **directory\_browsing\_status\_code**: `number`
 
-Defined in: main.ts:165340
+Defined in: main.ts:165504
 
 status code returned by a directory
 the status code returned by a directory page on a target website
@@ -146,7 +146,7 @@ in most cases, it is recommended that directories respond with a 403 or 401 stat
 
 > `optional` **extended\_crawl\_status**: `string`
 
-Defined in: main.ts:165320
+Defined in: main.ts:165484
 
 crawl status and errors
 indicates the reason why a website was not crawled;
@@ -170,7 +170,7 @@ unknown – the reason is unknown
 
 > `optional` **ip**: `string`
 
-Defined in: main.ts:165290
+Defined in: main.ts:165454
 
 domain ip address
 
@@ -184,7 +184,7 @@ domain ip address
 
 > `optional` **main\_domain**: `string`
 
-Defined in: main.ts:165346
+Defined in: main.ts:165510
 
 root domain name
 
@@ -198,7 +198,7 @@ root domain name
 
 > `optional` **name**: `string`
 
-Defined in: main.ts:165282
+Defined in: main.ts:165446
 
 domain name
 
@@ -212,7 +212,7 @@ domain name
 
 > `optional` **page\_not\_found\_status\_code**: `number`
 
-Defined in: main.ts:165332
+Defined in: main.ts:165496
 
 status code returned by a non-existent page
 in most cases, it is recommended a server returns a 404 response code
@@ -227,7 +227,7 @@ in most cases, it is recommended a server returns a 404 response code
 
 > `optional` **server**: `string`
 
-Defined in: main.ts:165295
+Defined in: main.ts:165459
 
 website server
 the version of the server detected on a website
@@ -244,7 +244,7 @@ the information is taken from the first page which response code is 200
 
 > `optional` **ssl\_info**: [`SslInfo`](SslInfo.md)
 
-Defined in: main.ts:165323
+Defined in: main.ts:165487
 
 ssl certificate info
 information about the Secure Sockets Layer protocol detected on a website
@@ -259,7 +259,7 @@ information about the Secure Sockets Layer protocol detected on a website
 
 > `optional` **total\_pages**: `number`
 
-Defined in: main.ts:165329
+Defined in: main.ts:165493
 
 total crawled pages
 the total number of crawled pages
@@ -274,7 +274,7 @@ the total number of crawled pages
 
 > `optional` **www\_redirect\_status\_code**: `number`
 
-Defined in: main.ts:165344
+Defined in: main.ts:165508
 
 redirect status code
 the status code of the www to non-www redirect
@@ -290,7 +290,7 @@ in most cases, it is recommended that redirect returns a 301 status code
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:165359
+Defined in: main.ts:165523
 
 #### Parameters
 
@@ -308,7 +308,7 @@ Defined in: main.ts:165359
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:165396
+Defined in: main.ts:165560
 
 #### Parameters
 
@@ -326,7 +326,7 @@ Defined in: main.ts:165396
 
 > `static` **fromJS**(`data`): [`DomainInfo`](DomainInfo.md)
 
-Defined in: main.ts:165389
+Defined in: main.ts:165553
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphShoppingItemDataforseoLabsSerpElementItem
 
-Defined in: main.ts:107874
+Defined in: main.ts:107930
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:107874
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:107880
+Defined in: main.ts:107936
 
 google defined data attribute ID
 example:
@@ -34,7 +34,7 @@ action:listen_artist
 
 > `optional` **items**: [`KnowledgeGraphShoppingElement`](../classes/KnowledgeGraphShoppingElement.md)[]
 
-Defined in: main.ts:107882
+Defined in: main.ts:107938
 
 elements of search results found in SERP
 
@@ -90,7 +90,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:107876
+Defined in: main.ts:107932
 
 title of the result in SERP
 

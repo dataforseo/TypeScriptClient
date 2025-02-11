@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationGenerateMetaTagsLiveResponseInfo
 
-Defined in: main.ts:182143
+Defined in: main.ts:182505
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:182143
 
 > **new ContentGenerationGenerateMetaTagsLiveResponseInfo**(`data`?): [`ContentGenerationGenerateMetaTagsLiveResponseInfo`](ContentGenerationGenerateMetaTagsLiveResponseInfo.md)
 
-Defined in: main.ts:182149
+Defined in: main.ts:182511
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`ContentGenerationGenerateMetaTagsLiveTaskInfo`](ContentGenerationGenerateMetaTagsLiveTaskInfo.md)[]
 
-Defined in: main.ts:182145
+Defined in: main.ts:182507
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:182153
+Defined in: main.ts:182515
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:182153
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:182175
+Defined in: main.ts:182537
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:182175
 
 > `static` **fromJS**(`data`): [`ContentGenerationGenerateMetaTagsLiveResponseInfo`](ContentGenerationGenerateMetaTagsLiveResponseInfo.md)
 
-Defined in: main.ts:182168
+Defined in: main.ts:182530
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: TrendsMapDataInfo
 
-Defined in: main.ts:134263
+Defined in: main.ts:134403
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:134263
 
 > **new TrendsMapDataInfo**(`data`?): [`TrendsMapDataInfo`](TrendsMapDataInfo.md)
 
-Defined in: main.ts:134286
+Defined in: main.ts:134426
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:134286
 
 > `optional` **geo\_id**: `string`
 
-Defined in: main.ts:134268
+Defined in: main.ts:134408
 
 Google Trends location identifier
 you can use this field for matching obtained results with location parameters specified in the request
@@ -57,7 +57,7 @@ US-NY
 
 > `optional` **geo\_name**: `string`
 
-Defined in: main.ts:134271
+Defined in: main.ts:134411
 
 Google Trends location name
 you can use this field for matching obtained results with location parameters specified in the request
@@ -72,7 +72,7 @@ you can use this field for matching obtained results with location parameters sp
 
 > `optional` **max\_value\_index**: `number`
 
-Defined in: main.ts:134282
+Defined in: main.ts:134422
 
 max value among comparable terms
 represents the maximum value if you specified more than two keywords in a POST array
@@ -88,7 +88,7 @@ if you specified only one keyword, the value will be null
 
 > `optional` **values**: `any`[]
 
-Defined in: main.ts:134278
+Defined in: main.ts:134418
 
 relative keyword popularity rate in a given location
 represents the location-specific keyword popularity rate over the given time range
@@ -107,7 +107,7 @@ a value of 0 means there was not enough data for this term
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:134295
+Defined in: main.ts:134435
 
 #### Parameters
 
@@ -125,7 +125,7 @@ Defined in: main.ts:134295
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:134319
+Defined in: main.ts:134459
 
 #### Parameters
 
@@ -143,7 +143,7 @@ Defined in: main.ts:134319
 
 > `static` **fromJS**(`data`): [`TrendsMapDataInfo`](TrendsMapDataInfo.md)
 
-Defined in: main.ts:134312
+Defined in: main.ts:134452
 
 #### Parameters
 

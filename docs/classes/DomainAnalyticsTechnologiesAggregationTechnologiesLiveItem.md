@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
 
-Defined in: main.ts:86217
+Defined in: main.ts:86253
 
 items array
 
@@ -24,7 +24,7 @@ items array
 
 > **new DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem**(`data`?): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md)
 
-Defined in: main.ts:86238
+Defined in: main.ts:86274
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: main.ts:86238
 
 > `optional` **categories\_count**: `number`
 
-Defined in: main.ts:86231
+Defined in: main.ts:86267
 
 technology categories count
 number of domains that match the parameters you specified and are using technologies from the indicated category
@@ -57,7 +57,7 @@ number of domains that match the parameters you specified and are using technolo
 
 > `optional` **category**: `string`
 
-Defined in: main.ts:86223
+Defined in: main.ts:86259
 
 technology category id
 
@@ -71,7 +71,7 @@ technology category id
 
 > `optional` **group**: `string`
 
-Defined in: main.ts:86221
+Defined in: main.ts:86257
 
 technology group id
 
@@ -85,7 +85,7 @@ technology group id
 
 > `optional` **groups\_count**: `number`
 
-Defined in: main.ts:86228
+Defined in: main.ts:86264
 
 technology groups count
 number of domains that match the parameters you specified and are using technologies from the indicated group
@@ -100,7 +100,7 @@ number of domains that match the parameters you specified and are using technolo
 
 > `optional` **technologies\_count**: `number`
 
-Defined in: main.ts:86234
+Defined in: main.ts:86270
 
 technologies count
 number of domains that match the parameters you specified and are using the indicated technology
@@ -115,7 +115,7 @@ number of domains that match the parameters you specified and are using the indi
 
 > `optional` **technology**: `string`
 
-Defined in: main.ts:86225
+Defined in: main.ts:86261
 
 technology name
 
@@ -129,7 +129,7 @@ technology name
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:86219
+Defined in: main.ts:86255
 
 type of element
 
@@ -143,7 +143,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:86247
+Defined in: main.ts:86283
 
 #### Parameters
 
@@ -161,7 +161,7 @@ Defined in: main.ts:86247
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:86270
+Defined in: main.ts:86306
 
 #### Parameters
 
@@ -179,7 +179,7 @@ Defined in: main.ts:86270
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md)
 
-Defined in: main.ts:86263
+Defined in: main.ts:86299
 
 #### Parameters
 

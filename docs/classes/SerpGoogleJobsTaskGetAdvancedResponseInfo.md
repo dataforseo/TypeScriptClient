@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleJobsTaskGetAdvancedResponseInfo
 
-Defined in: main.ts:54877
+Defined in: main.ts:54893
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:54877
 
 > **new SerpGoogleJobsTaskGetAdvancedResponseInfo**(`data`?): [`SerpGoogleJobsTaskGetAdvancedResponseInfo`](SerpGoogleJobsTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:54883
+Defined in: main.ts:54899
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleJobsTaskGetAdvancedTaskInfo`](SerpGoogleJobsTaskGetAdvancedTaskInfo.md)[]
 
-Defined in: main.ts:54879
+Defined in: main.ts:54895
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:54887
+Defined in: main.ts:54903
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:54887
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:54909
+Defined in: main.ts:54925
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:54909
 
 > `static` **fromJS**(`data`): [`SerpGoogleJobsTaskGetAdvancedResponseInfo`](SerpGoogleJobsTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:54902
+Defined in: main.ts:54918
 
 #### Parameters
 

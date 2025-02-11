@@ -6,7 +6,7 @@
 
 # Interface: IAmazonRelatedSearchesSerpElementItem
 
-Defined in: main.ts:192887
+Defined in: main.ts:193293
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:192887
 
 > `optional` **items**: [`RelatedSearchesElement`](../classes/RelatedSearchesElement.md)[]
 
-Defined in: main.ts:192893
+Defined in: main.ts:193299
 
 Amazon product items
 
@@ -32,7 +32,7 @@ Amazon product items
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:192891
+Defined in: main.ts:193297
 
 the alignment of the element in Amazon SERP
 possible values:

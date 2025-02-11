@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleTopSearchesLiveTaskInfo
 
-Defined in: main.ts:100014
+Defined in: main.ts:100042
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleTopSearchesLiveResultInfo`](../classes/DataforseoLabsGoogleTopSearchesLiveResultInfo.md)[]
 
-Defined in: main.ts:100016
+Defined in: main.ts:100044
 
 array of results
 

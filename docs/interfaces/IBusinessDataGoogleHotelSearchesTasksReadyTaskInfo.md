@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleHotelSearchesTasksReadyTaskInfo
 
-Defined in: main.ts:216850
+Defined in: main.ts:217352
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataGoogleHotelSearchesTasksReadyResultInfo`](../classes/BusinessDataGoogleHotelSearchesTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:216852
+Defined in: main.ts:217354
 
 array of results
 

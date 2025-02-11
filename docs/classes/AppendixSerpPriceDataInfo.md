@@ -6,7 +6,7 @@
 
 # Class: AppendixSerpPriceDataInfo
 
-Defined in: main.ts:237270
+Defined in: main.ts:237634
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:237270
 
 > **new AppendixSerpPriceDataInfo**(`data`?): [`AppendixSerpPriceDataInfo`](AppendixSerpPriceDataInfo.md)
 
-Defined in: main.ts:237277
+Defined in: main.ts:237641
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:237277
 
 > `optional` **advanced**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237273
+Defined in: main.ts:237637
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:237273
 
 > `optional` **html**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237271
+Defined in: main.ts:237636
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:237271
 
 > `optional` **regular**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:237272
+Defined in: main.ts:237635
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:237272
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:237286
+Defined in: main.ts:237650
 
 #### Parameters
 
@@ -94,7 +94,7 @@ Defined in: main.ts:237286
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:237305
+Defined in: main.ts:237669
 
 #### Parameters
 
@@ -112,7 +112,7 @@ Defined in: main.ts:237305
 
 > `static` **fromJS**(`data`): [`AppendixSerpPriceDataInfo`](AppendixSerpPriceDataInfo.md)
 
-Defined in: main.ts:237298
+Defined in: main.ts:237662
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: ISerpYoutubeLocationsTaskInfo
 
-Defined in: main.ts:69061
+Defined in: main.ts:69097
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpYoutubeLocationsResultInfo`](../classes/SerpYoutubeLocationsResultInfo.md)[]
 
-Defined in: main.ts:69063
+Defined in: main.ts:69099
 
 array of results
 

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
 
-Defined in: main.ts:105496
+Defined in: main.ts:105560
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:105496
 
 > **new DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`](DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md)
 
-Defined in: main.ts:105556
+Defined in: main.ts:105620
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:105556
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:105509
+Defined in: main.ts:105573
 
 starting date of the time range
 optional field
@@ -58,7 +58,7 @@ date format: "yyyy-mm-dd"
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:105516
+Defined in: main.ts:105580
 
 ending date of the time range
 optional field
@@ -77,7 +77,7 @@ example:
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:105503
+Defined in: main.ts:105567
 
 keyword
 required field
@@ -96,7 +96,7 @@ if you need to use the “+” character for your keyword, please specify it as 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:105546
+Defined in: main.ts:105610
 
 language code
 optional field
@@ -116,7 +116,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:105538
+Defined in: main.ts:105602
 
 full name of the language
 optional field
@@ -136,7 +136,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:105530
+Defined in: main.ts:105594
 
 unique location identifier
 required field if you don’t specify location_name
@@ -155,7 +155,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:105523
+Defined in: main.ts:105587
 
 full name of the location
 required field if you don’t specify location_code
@@ -174,7 +174,7 @@ United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:105552
+Defined in: main.ts:105616
 
 user-defined task identifier
 optional field
@@ -192,7 +192,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:105565
+Defined in: main.ts:105629
 
 #### Parameters
 
@@ -210,7 +210,7 @@ Defined in: main.ts:105565
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:105589
+Defined in: main.ts:105653
 
 #### Parameters
 
@@ -228,7 +228,7 @@ Defined in: main.ts:105589
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`](DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md)
 
-Defined in: main.ts:105582
+Defined in: main.ts:105646
 
 #### Parameters
 

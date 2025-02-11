@@ -6,7 +6,7 @@
 
 # Interface: ILocalPackSerpElementItem
 
-Defined in: main.ts:32965
+Defined in: main.ts:32973
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:32965
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:32982
+Defined in: main.ts:32990
 
 google-defined client id
 
@@ -32,7 +32,7 @@ google-defined client id
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:32969
+Defined in: main.ts:32977
 
 description of the results element in SERP
 
@@ -42,7 +42,7 @@ description of the results element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:32971
+Defined in: main.ts:32979
 
 source domain
 
@@ -52,7 +52,7 @@ source domain
 
 > `optional` **is\_paid**: `boolean`
 
-Defined in: main.ts:32977
+Defined in: main.ts:32985
 
 indicates whether the element is an ad
 
@@ -62,7 +62,7 @@ indicates whether the element is an ad
 
 > `optional` **phone**: `string`
 
-Defined in: main.ts:32973
+Defined in: main.ts:32981
 
 phone number
 
@@ -119,9 +119,9 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:32980
+Defined in: main.ts:32988
 
-the item’s rating 
+the element’s rating
 the popularity rate based on reviews and displayed in SERP
 
 ***
@@ -130,7 +130,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:32986
+Defined in: main.ts:32994
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -142,7 +142,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:32967
+Defined in: main.ts:32975
 
 title of the row
 
@@ -166,7 +166,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:32975
+Defined in: main.ts:32983
 
 source URL
 

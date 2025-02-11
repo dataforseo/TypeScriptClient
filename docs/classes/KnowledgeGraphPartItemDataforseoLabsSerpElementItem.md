@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphPartItemDataforseoLabsSerpElementItem
 
-Defined in: main.ts:107665
+Defined in: main.ts:107721
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:107665
 
 > **new KnowledgeGraphPartItemDataforseoLabsSerpElementItem**(`data`?): [`KnowledgeGraphPartItemDataforseoLabsSerpElementItem`](KnowledgeGraphPartItemDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:107679
+Defined in: main.ts:107735
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:107671
+Defined in: main.ts:107727
 
 google defined data attribute ID
 example:
@@ -76,7 +76,7 @@ kc:/shopping/gpc:organic-offers
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:107675
+Defined in: main.ts:107731
 
 link of the element
 
@@ -148,7 +148,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:107673
+Defined in: main.ts:107729
 
 description content
 
@@ -162,7 +162,7 @@ description content
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:107667
+Defined in: main.ts:107723
 
 title of the element
 
@@ -212,7 +212,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:107684
+Defined in: main.ts:107740
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:107684
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:107709
+Defined in: main.ts:107765
 
 #### Parameters
 
@@ -256,7 +256,7 @@ Defined in: main.ts:107709
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphPartItemDataforseoLabsSerpElementItem`](KnowledgeGraphPartItemDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:107702
+Defined in: main.ts:107758
 
 #### Parameters
 

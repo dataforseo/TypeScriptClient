@@ -6,7 +6,7 @@
 
 # Interface: ILocationInfo
 
-Defined in: main.ts:48899
+Defined in: main.ts:48915
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:48899
 
 > `optional` **address**: `string`
 
-Defined in: main.ts:48903
+Defined in: main.ts:48919
 
 address of the event’s venue
 
@@ -28,7 +28,7 @@ address of the event’s venue
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:48908
+Defined in: main.ts:48924
 
 google-defined client id
 can be used with Google Reviews API to get a full list of reviews
@@ -39,7 +39,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 > `optional` **feature\_id**: `string`
 
-Defined in: main.ts:48910
+Defined in: main.ts:48926
 
 the unique identifier of the element in SERP
 
@@ -49,7 +49,7 @@ the unique identifier of the element in SERP
 
 > `optional` **name**: `string`
 
-Defined in: main.ts:48901
+Defined in: main.ts:48917
 
 name of the event’s venue
 
@@ -59,6 +59,6 @@ name of the event’s venue
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:48905
+Defined in: main.ts:48921
 
 search URL with refinement parameters

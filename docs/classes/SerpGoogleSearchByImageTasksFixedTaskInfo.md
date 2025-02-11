@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleSearchByImageTasksFixedTaskInfo
 
-Defined in: main.ts:53280
+Defined in: main.ts:53296
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:53280
 
 > **new SerpGoogleSearchByImageTasksFixedTaskInfo**(`data`?): [`SerpGoogleSearchByImageTasksFixedTaskInfo`](SerpGoogleSearchByImageTasksFixedTaskInfo.md)
 
-Defined in: main.ts:53286
+Defined in: main.ts:53302
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleSearchByImageTasksFixedResultInfo`](SerpGoogleSearchByImageTasksFixedResultInfo.md)[]
 
-Defined in: main.ts:53282
+Defined in: main.ts:53298
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:53290
+Defined in: main.ts:53306
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:53290
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:53312
+Defined in: main.ts:53328
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:53312
 
 > `static` **fromJS**(`data`): [`SerpGoogleSearchByImageTasksFixedTaskInfo`](SerpGoogleSearchByImageTasksFixedTaskInfo.md)
 
-Defined in: main.ts:53305
+Defined in: main.ts:53321
 
 #### Parameters
 

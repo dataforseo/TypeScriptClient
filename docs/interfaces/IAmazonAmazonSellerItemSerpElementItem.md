@@ -6,7 +6,7 @@
 
 # Interface: IAmazonAmazonSellerItemSerpElementItem
 
-Defined in: main.ts:196174
+Defined in: main.ts:196676
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:196174
 
 > `optional` **condition**: `string`
 
-Defined in: main.ts:196193
+Defined in: main.ts:196695
 
 product condition
 condition of the product offered by the seller
@@ -33,7 +33,7 @@ condition of the product offered by the seller
 
 > `optional` **condition\_description**: `string`
 
-Defined in: main.ts:196196
+Defined in: main.ts:196698
 
 product condition details
 expanded details on the condition of the product offered by the seller
@@ -44,7 +44,7 @@ expanded details on the condition of the product offered by the seller
 
 > `optional` **delivery\_info**: [`AmazonDeliveryInfo`](../classes/AmazonDeliveryInfo.md)
 
-Defined in: main.ts:196199
+Defined in: main.ts:196701
 
 delivery information
 delivery information including free and fast delivery date ranges
@@ -55,7 +55,7 @@ delivery information including free and fast delivery date ranges
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:196178
+Defined in: main.ts:196680
 
 alignment of the element in SERP
 possible values:
@@ -67,7 +67,7 @@ left, right
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-Defined in: main.ts:196187
+Defined in: main.ts:196689
 
 product pricing details
 if there are no details, the value will be null
@@ -108,7 +108,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingElement`](../classes/RatingElement.md)
 
-Defined in: main.ts:196190
+Defined in: main.ts:196692
 
 seller rating details
 seller popularity rate based on customer reviews
@@ -119,7 +119,7 @@ seller popularity rate based on customer reviews
 
 > `optional` **seller\_name**: `string`
 
-Defined in: main.ts:196180
+Defined in: main.ts:196682
 
 business name of the seller
 
@@ -129,7 +129,7 @@ business name of the seller
 
 > `optional` **seller\_url**: `string`
 
-Defined in: main.ts:196182
+Defined in: main.ts:196684
 
 url forwarding to the seller’s page on Amazon
 
@@ -139,7 +139,7 @@ url forwarding to the seller’s page on Amazon
 
 > `optional` **ships\_from**: `string`
 
-Defined in: main.ts:196184
+Defined in: main.ts:196686
 
 sender company name
 

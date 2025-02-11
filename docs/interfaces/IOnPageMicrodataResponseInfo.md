@@ -6,7 +6,7 @@
 
 # Interface: IOnPageMicrodataResponseInfo
 
-Defined in: main.ts:172125
+Defined in: main.ts:172289
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageMicrodataTaskInfo`](../classes/OnPageMicrodataTaskInfo.md)[]
 
-Defined in: main.ts:172127
+Defined in: main.ts:172291
 
 array of tasks
 

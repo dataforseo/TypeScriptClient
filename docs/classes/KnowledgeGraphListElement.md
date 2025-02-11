@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphListElement
 
-Defined in: main.ts:29421
+Defined in: main.ts:29429
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:29421
 
 > **new KnowledgeGraphListElement**(`data`?): [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)
 
-Defined in: main.ts:29440
+Defined in: main.ts:29448
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:29440
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:29431
+Defined in: main.ts:29439
 
 domain in SERP
 
@@ -54,7 +54,7 @@ domain in SERP
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:29434
+Defined in: main.ts:29442
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -69,7 +69,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **subtitle**: `string`
 
-Defined in: main.ts:29427
+Defined in: main.ts:29435
 
 subtitle of the item
 
@@ -83,7 +83,7 @@ subtitle of the item
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:29425
+Defined in: main.ts:29433
 
 link anchor text
 
@@ -97,7 +97,7 @@ link anchor text
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:29423
+Defined in: main.ts:29431
 
 type of element
 
@@ -111,7 +111,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:29429
+Defined in: main.ts:29437
 
 sitelink URL
 
@@ -125,7 +125,7 @@ sitelink URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:29436
+Defined in: main.ts:29444
 
 the XPath of the element
 
@@ -139,7 +139,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:29449
+Defined in: main.ts:29457
 
 #### Parameters
 
@@ -157,7 +157,7 @@ Defined in: main.ts:29449
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:29472
+Defined in: main.ts:29480
 
 #### Parameters
 
@@ -175,7 +175,7 @@ Defined in: main.ts:29472
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)
 
-Defined in: main.ts:29465
+Defined in: main.ts:29473
 
 #### Parameters
 

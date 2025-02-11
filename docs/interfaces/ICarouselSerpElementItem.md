@@ -6,7 +6,7 @@
 
 # Interface: ICarouselSerpElementItem
 
-Defined in: main.ts:33120
+Defined in: main.ts:33128
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:33120
 
 > `optional` **items**: [`CarouselElement`](../classes/CarouselElement.md)[]
 
-Defined in: main.ts:33124
+Defined in: main.ts:33132
 
 contains arrays of specific images
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:33128
+Defined in: main.ts:33136
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -91,7 +91,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:33122
+Defined in: main.ts:33130
 
 title of the row
 

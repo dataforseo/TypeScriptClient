@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataGoogleTrendsCategoriesTaskInfo
 
-Defined in: main.ts:133264
+Defined in: main.ts:133380
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataGoogleTrendsCategoriesResultInfo`](../classes/KeywordsDataGoogleTrendsCategoriesResultInfo.md)[]
 
-Defined in: main.ts:133266
+Defined in: main.ts:133382
 
 array of results
 

@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleOrganicTaskGetRegularResponseInfo
 
-Defined in: main.ts:29366
+Defined in: main.ts:29374
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:29366
 
 > **new SerpGoogleOrganicTaskGetRegularResponseInfo**(`data`?): [`SerpGoogleOrganicTaskGetRegularResponseInfo`](SerpGoogleOrganicTaskGetRegularResponseInfo.md)
 
-Defined in: main.ts:29372
+Defined in: main.ts:29380
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleOrganicTaskGetRegularTaskInfo`](SerpGoogleOrganicTaskGetRegularTaskInfo.md)[]
 
-Defined in: main.ts:29368
+Defined in: main.ts:29376
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:29376
+Defined in: main.ts:29384
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:29376
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:29398
+Defined in: main.ts:29406
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:29398
 
 > `static` **fromJS**(`data`): [`SerpGoogleOrganicTaskGetRegularResponseInfo`](SerpGoogleOrganicTaskGetRegularResponseInfo.md)
 
-Defined in: main.ts:29391
+Defined in: main.ts:29399
 
 #### Parameters
 

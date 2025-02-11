@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisPhraseTrendsLiveResultInfo
 
-Defined in: main.ts:180390
+Defined in: main.ts:180752
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:180390
 
 > `optional` **connotation\_types**: `object`
 
-Defined in: main.ts:180410
+Defined in: main.ts:180772
 
 connotation types
 contains types of sentiments (sentiment polarity) related to the keyword citation and citation count per each sentiment type
@@ -34,7 +34,7 @@ possible connotation types: "positive", "negative", "neutral"
 
 > `optional` **countries**: `object`
 
-Defined in: main.ts:180425
+Defined in: main.ts:180787
 
 countries
 contains countries and citation count in each country
@@ -50,7 +50,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 > `optional` **date**: `string`
 
-Defined in: main.ts:180394
+Defined in: main.ts:180756
 
 date for which the data is provided
 
@@ -60,7 +60,7 @@ date for which the data is provided
 
 > `optional` **languages**: `object`
 
-Defined in: main.ts:180429
+Defined in: main.ts:180791
 
 languages
 contains languages and citation count in each language
@@ -76,7 +76,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 > `optional` **page\_categories**: [`ContentAnalysisCategoriesInfo`](../classes/ContentAnalysisCategoriesInfo.md)[]
 
-Defined in: main.ts:180418
+Defined in: main.ts:180780
 
 page categories
 contains objects with page categories and citation count in each page category
@@ -88,7 +88,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 > `optional` **page\_types**: `object`
 
-Defined in: main.ts:180421
+Defined in: main.ts:180783
 
 page types
 contains page types and citation count per each page type
@@ -103,7 +103,7 @@ contains page types and citation count per each page type
 
 > `optional` **rank**: `number`
 
-Defined in: main.ts:180399
+Defined in: main.ts:180761
 
 rank of all URLs citing the keyword
 normalized sum of ranks of all URLs citing the target keyword for the given date
@@ -114,7 +114,7 @@ normalized sum of ranks of all URLs citing the target keyword for the given date
 
 > `optional` **sentiment\_connotations**: `object`
 
-Defined in: main.ts:180406
+Defined in: main.ts:180768
 
 sentiment connotations
 contains sentiments (emotional reactions) related to the target keyword citation and the number of citations per each sentiment
@@ -130,7 +130,7 @@ possible connotations: "anger", "happiness", "love", "sadness", "share", "fun"
 
 > `optional` **text\_categories**: [`ContentAnalysisCategoriesInfo`](../classes/ContentAnalysisCategoriesInfo.md)[]
 
-Defined in: main.ts:180414
+Defined in: main.ts:180776
 
 text categories
 contains objects with text categories and citation count in each text category
@@ -142,7 +142,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 > `optional` **top\_domains**: [`TopDomainInfo`](../classes/TopDomainInfo.md)[]
 
-Defined in: main.ts:180402
+Defined in: main.ts:180764
 
 top domains citing the target keyword
 contains objects with top domains citing the target keyword and citation count per each domain
@@ -153,7 +153,7 @@ contains objects with top domains citing the target keyword and citation count p
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:180396
+Defined in: main.ts:180758
 
 total number of results in our database relevant to your request
 
@@ -163,6 +163,6 @@ total number of results in our database relevant to your request
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:180392
+Defined in: main.ts:180754
 
 type of element

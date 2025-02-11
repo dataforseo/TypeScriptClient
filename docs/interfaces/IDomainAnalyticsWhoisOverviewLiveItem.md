@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsWhoisOverviewLiveItem
 
-Defined in: main.ts:89691
+Defined in: main.ts:89727
 
 items array
 
@@ -20,7 +20,7 @@ items array
 
 > `optional` **backlinks\_info**: [`BacklinksInfo`](../classes/BacklinksInfo.md)
 
-Defined in: main.ts:89737
+Defined in: main.ts:89773
 
 backlink data for the returned domain
 
@@ -30,7 +30,7 @@ backlink data for the returned domain
 
 > `optional` **changed\_datetime**: `string`
 
-Defined in: main.ts:89703
+Defined in: main.ts:89739
 
 date and time when the domain entry was changed
 date and time (in the ISO 8601 format) when the domain entry was last modified
@@ -43,7 +43,7 @@ example:
 
 > `optional` **created\_datetime**: `string`
 
-Defined in: main.ts:89698
+Defined in: main.ts:89734
 
 date and time of registration
 date and time (in the ISO 8601 format) when the domain was first registered
@@ -56,7 +56,7 @@ example:
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:89693
+Defined in: main.ts:89729
 
 domain name
 
@@ -66,7 +66,7 @@ domain name
 
 > `optional` **epp\_status\_codes**: `string`[]
 
-Defined in: main.ts:89721
+Defined in: main.ts:89757
 
 extensive provisioning protocol status codes
 the status of a domain name registration as defined by ICANN
@@ -77,7 +77,7 @@ the status of a domain name registration as defined by ICANN
 
 > `optional` **expiration\_datetime**: `string`
 
-Defined in: main.ts:89708
+Defined in: main.ts:89744
 
 date and time when the domain will expire
 date and time (in the ISO 8601 format) when the domain is due to expire
@@ -90,7 +90,7 @@ example:
 
 > `optional` **first\_seen**: `string`
 
-Defined in: main.ts:89718
+Defined in: main.ts:89754
 
 date and time when our crawler found the domain for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -103,7 +103,7 @@ example:
 
 > `optional` **metrics**: [`MetricsBundleInfo`](../classes/MetricsBundleInfo.md)
 
-Defined in: main.ts:89735
+Defined in: main.ts:89771
 
 ranking data relevant to the specified domain
 
@@ -113,7 +113,7 @@ ranking data relevant to the specified domain
 
 > `optional` **registered**: `boolean`
 
-Defined in: main.ts:89728
+Defined in: main.ts:89764
 
 domain registration status
 if false, the domain name registration has expired
@@ -125,7 +125,7 @@ Note: expired domains will remain in the database for only a short period of tim
 
 > `optional` **registrar**: `string`
 
-Defined in: main.ts:89733
+Defined in: main.ts:89769
 
 domain registrar
 if null, the domain registrar is unknown
@@ -138,7 +138,7 @@ NameCheap, Inc.
 
 > `optional` **tld**: `string`
 
-Defined in: main.ts:89724
+Defined in: main.ts:89760
 
 top-level domain
 top-level domain in the DNS root zone
@@ -149,7 +149,7 @@ top-level domain in the DNS root zone
 
 > `optional` **updated\_datetime**: `string`
 
-Defined in: main.ts:89713
+Defined in: main.ts:89749
 
 date and time when the domain was updated
 date and time (in the ISO 8601 format) when the domain was last updated

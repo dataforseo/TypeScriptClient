@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataDataforseoTrendsLocationsCountryResponseInfo
 
-Defined in: main.ts:135713
+Defined in: main.ts:135877
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:135713
 
 > **new KeywordsDataDataforseoTrendsLocationsCountryResponseInfo**(`data`?): [`KeywordsDataDataforseoTrendsLocationsCountryResponseInfo`](KeywordsDataDataforseoTrendsLocationsCountryResponseInfo.md)
 
-Defined in: main.ts:135719
+Defined in: main.ts:135883
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataDataforseoTrendsLocationsCountryTaskInfo`](KeywordsDataDataforseoTrendsLocationsCountryTaskInfo.md)[]
 
-Defined in: main.ts:135715
+Defined in: main.ts:135879
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:135723
+Defined in: main.ts:135887
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:135723
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:135745
+Defined in: main.ts:135909
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:135745
 
 > `static` **fromJS**(`data`): [`KeywordsDataDataforseoTrendsLocationsCountryResponseInfo`](KeywordsDataDataforseoTrendsLocationsCountryResponseInfo.md)
 
-Defined in: main.ts:135738
+Defined in: main.ts:135902
 
 #### Parameters
 

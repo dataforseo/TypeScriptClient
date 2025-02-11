@@ -6,7 +6,7 @@
 
 # Interface: IOnPageKeywordDensityResultInfo
 
-Defined in: main.ts:171425
+Defined in: main.ts:171589
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:171425
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:171428
+Defined in: main.ts:171592
 
 status of the crawling session
 possible values: in_progress, finished
@@ -29,7 +29,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
 
-Defined in: main.ts:171430
+Defined in: main.ts:171594
 
 details of the crawling session
 
@@ -39,7 +39,7 @@ details of the crawling session
 
 > `optional` **items**: [`OnPageKeywordDensityItem`](../classes/OnPageKeywordDensityItem.md)[]
 
-Defined in: main.ts:171437
+Defined in: main.ts:171601
 
 items array
 
@@ -49,7 +49,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:171435
+Defined in: main.ts:171599
 
 number of items in the results array
 
@@ -59,7 +59,7 @@ number of items in the results array
 
 > `optional` **total\_items\_count**: `number`
 
-Defined in: main.ts:171433
+Defined in: main.ts:171597
 
 total number of relevant items
 total number of keywords on the specified website or web page matching the set keyword_length and filters

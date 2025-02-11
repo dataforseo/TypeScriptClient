@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleAdsLocationsCountryResponseInfo
 
-Defined in: main.ts:126499
+Defined in: main.ts:126615
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:126499
 
 > **new KeywordsDataGoogleAdsLocationsCountryResponseInfo**(`data`?): [`KeywordsDataGoogleAdsLocationsCountryResponseInfo`](KeywordsDataGoogleAdsLocationsCountryResponseInfo.md)
 
-Defined in: main.ts:126505
+Defined in: main.ts:126621
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataGoogleAdsLocationsCountryTaskInfo`](KeywordsDataGoogleAdsLocationsCountryTaskInfo.md)[]
 
-Defined in: main.ts:126501
+Defined in: main.ts:126617
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:126509
+Defined in: main.ts:126625
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:126509
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:126531
+Defined in: main.ts:126647
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:126531
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleAdsLocationsCountryResponseInfo`](KeywordsDataGoogleAdsLocationsCountryResponseInfo.md)
 
-Defined in: main.ts:126524
+Defined in: main.ts:126640
 
 #### Parameters
 

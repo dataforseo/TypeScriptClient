@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleOrganicTaskGetAdvancedTaskInfo
 
-Defined in: main.ts:38325
+Defined in: main.ts:38341
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:38325
 
 > **new SerpGoogleOrganicTaskGetAdvancedTaskInfo**(`data`?): [`SerpGoogleOrganicTaskGetAdvancedTaskInfo`](SerpGoogleOrganicTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:38331
+Defined in: main.ts:38347
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleOrganicTaskGetAdvancedResultInfo`](SerpGoogleOrganicTaskGetAdvancedResultInfo.md)[]
 
-Defined in: main.ts:38327
+Defined in: main.ts:38343
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:38335
+Defined in: main.ts:38351
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:38335
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:38357
+Defined in: main.ts:38373
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:38357
 
 > `static` **fromJS**(`data`): [`SerpGoogleOrganicTaskGetAdvancedTaskInfo`](SerpGoogleOrganicTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:38350
+Defined in: main.ts:38366
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: ISerpYoutubeLanguagesTaskInfo
 
-Defined in: main.ts:69425
+Defined in: main.ts:69461
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpYoutubeLanguagesResultInfo`](../classes/SerpYoutubeLanguagesResultInfo.md)[]
 
-Defined in: main.ts:69427
+Defined in: main.ts:69463
 
 array of results
 

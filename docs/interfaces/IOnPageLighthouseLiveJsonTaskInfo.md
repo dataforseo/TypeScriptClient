@@ -6,7 +6,7 @@
 
 # Interface: IOnPageLighthouseLiveJsonTaskInfo
 
-Defined in: main.ts:176290
+Defined in: main.ts:176654
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `object`[]
 
-Defined in: main.ts:176294
+Defined in: main.ts:176658
 
 results of Lighthouse audit
 this array will include data according to the parameters you specified when setting a task;

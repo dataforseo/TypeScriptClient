@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleLanguagesResponseInfo
 
-Defined in: main.ts:199227
+Defined in: main.ts:199729
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:199227
 
 > **new AppDataGoogleLanguagesResponseInfo**(`data`?): [`AppDataGoogleLanguagesResponseInfo`](AppDataGoogleLanguagesResponseInfo.md)
 
-Defined in: main.ts:199233
+Defined in: main.ts:199735
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataGoogleLanguagesTaskInfo`](AppDataGoogleLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:199229
+Defined in: main.ts:199731
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:199237
+Defined in: main.ts:199739
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:199237
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:199259
+Defined in: main.ts:199761
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:199259
 
 > `static` **fromJS**(`data`): [`AppDataGoogleLanguagesResponseInfo`](AppDataGoogleLanguagesResponseInfo.md)
 
-Defined in: main.ts:199252
+Defined in: main.ts:199754
 
 #### Parameters
 

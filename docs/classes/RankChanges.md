@@ -6,7 +6,7 @@
 
 # Class: RankChanges
 
-Defined in: main.ts:100968
+Defined in: main.ts:100996
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:100968
 
 > **new RankChanges**(`data`?): [`RankChanges`](RankChanges.md)
 
-Defined in: main.ts:100985
+Defined in: main.ts:101013
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:100985
 
 > `optional` **is\_down**: `boolean`
 
-Defined in: main.ts:100981
+Defined in: main.ts:101009
 
 rank of this element went down
 if the value is true, position of the element in SERP is lower compared to the previous check
@@ -55,7 +55,7 @@ if the value is true, position of the element in SERP is lower compared to the p
 
 > `optional` **is\_new**: `boolean`
 
-Defined in: main.ts:100975
+Defined in: main.ts:101003
 
 element was previously present in SERP
 if the value is true, previously collected SERP didn’t contain this element
@@ -70,7 +70,7 @@ if the value is true, previously collected SERP didn’t contain this element
 
 > `optional` **is\_up**: `boolean`
 
-Defined in: main.ts:100978
+Defined in: main.ts:101006
 
 rank of this element went up
 if the value is true, position of the element in SERP is higher compared to the previous check
@@ -85,7 +85,7 @@ if the value is true, position of the element in SERP is higher compared to the 
 
 > `optional` **previous\_rank\_absolute**: `number`
 
-Defined in: main.ts:100972
+Defined in: main.ts:101000
 
 previous absolute rank in SERP
 indicates previous rank of the element in Google SERP;
@@ -101,7 +101,7 @@ if this element is new, the value will be null
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:100994
+Defined in: main.ts:101022
 
 #### Parameters
 
@@ -119,7 +119,7 @@ Defined in: main.ts:100994
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:101014
+Defined in: main.ts:101042
 
 #### Parameters
 
@@ -137,7 +137,7 @@ Defined in: main.ts:101014
 
 > `static` **fromJS**(`data`): [`RankChanges`](RankChanges.md)
 
-Defined in: main.ts:101007
+Defined in: main.ts:101035
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: DataforseoTrendsDemographyElementItem
 
-Defined in: main.ts:137900
+Defined in: main.ts:138064
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:137900
 
 > **new DataforseoTrendsDemographyElementItem**(`data`?): [`DataforseoTrendsDemographyElementItem`](DataforseoTrendsDemographyElementItem.md)
 
-Defined in: main.ts:137908
+Defined in: main.ts:138072
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22797
 
 > `optional` **demography**: [`Demography`](Demography.md)
 
-Defined in: main.ts:137903
+Defined in: main.ts:138067
 
 demographic breakdown of keyword popularity data per each specified term
 conains keyword popularity data by age and gender
@@ -75,7 +75,7 @@ conains keyword popularity data by age and gender
 
 > `optional` **demography\_comparison**: [`DemographyComparisonInfo`](DemographyComparisonInfo.md)
 
-Defined in: main.ts:137904
+Defined in: main.ts:138068
 
 #### Implementation of
 
@@ -143,7 +143,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:137913
+Defined in: main.ts:138077
 
 #### Parameters
 
@@ -165,7 +165,7 @@ Defined in: main.ts:137913
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:137932
+Defined in: main.ts:138096
 
 #### Parameters
 
@@ -187,7 +187,7 @@ Defined in: main.ts:137932
 
 > `static` **fromJS**(`data`): [`DataforseoTrendsDemographyElementItem`](DataforseoTrendsDemographyElementItem.md)
 
-Defined in: main.ts:137925
+Defined in: main.ts:138089
 
 #### Parameters
 

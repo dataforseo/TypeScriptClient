@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo
 
-Defined in: main.ts:148050
+Defined in: main.ts:148214
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:148050
 
 > **new KeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo**(`data`?): [`KeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo`](KeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo.md)
 
-Defined in: main.ts:148070
+Defined in: main.ts:148234
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:148070
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:148060
+Defined in: main.ts:148224
 
 target keywords
 required field
@@ -62,7 +62,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:148066
+Defined in: main.ts:148230
 
 user-defined task identifier
 optional field
@@ -80,7 +80,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:148079
+Defined in: main.ts:148243
 
 #### Parameters
 
@@ -98,7 +98,7 @@ Defined in: main.ts:148079
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:148101
+Defined in: main.ts:148265
 
 #### Parameters
 
@@ -116,7 +116,7 @@ Defined in: main.ts:148101
 
 > `static` **fromJS**(`data`): [`KeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo`](KeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo.md)
 
-Defined in: main.ts:148094
+Defined in: main.ts:148258
 
 #### Parameters
 

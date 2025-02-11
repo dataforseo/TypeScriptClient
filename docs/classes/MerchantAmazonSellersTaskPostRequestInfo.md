@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonSellersTaskPostRequestInfo
 
-Defined in: main.ts:195426
+Defined in: main.ts:195928
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:195426
 
 > **new MerchantAmazonSellersTaskPostRequestInfo**(`data`?): [`MerchantAmazonSellersTaskPostRequestInfo`](MerchantAmazonSellersTaskPostRequestInfo.md)
 
-Defined in: main.ts:195524
+Defined in: main.ts:196026
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:195524
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:195434
+Defined in: main.ts:195936
 
 unique product identifier on Amazon
 required field
@@ -60,7 +60,7 @@ learn more about the identifier in this help center guide
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:195479
+Defined in: main.ts:195981
 
 language code
 required field if you don’t specify language_name
@@ -79,7 +79,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:195472
+Defined in: main.ts:195974
 
 full name of the language
 required field if you don’t specify language_code
@@ -98,7 +98,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:195456
+Defined in: main.ts:195958
 
 location code
 required field if you don’t specify location_name or location_coordinate
@@ -117,7 +117,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:195465
+Defined in: main.ts:195967
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -138,7 +138,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:195449
+Defined in: main.ts:195951
 
 full name of the location
 required field if you don’t specify location_code or location_coordinate
@@ -157,7 +157,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:195520
+Defined in: main.ts:196022
 
 notification URL of a completed task
 optional field
@@ -180,7 +180,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:195509
+Defined in: main.ts:196011
 
 postback_url datatype
 required field if you specify postback_url
@@ -198,7 +198,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:195503
+Defined in: main.ts:196005
 
 return URL for sending task results
 optional field
@@ -221,7 +221,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:195442
+Defined in: main.ts:195944
 
 task priority
 optional field
@@ -241,7 +241,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:195486
+Defined in: main.ts:195988
 
 search engine domain
 optional field
@@ -260,7 +260,7 @@ amazon.co.uk, amazon.com.au, amazon.de, etc.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:195492
+Defined in: main.ts:195994
 
 user-defined task identifier
 optional field
@@ -278,7 +278,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:195533
+Defined in: main.ts:196035
 
 #### Parameters
 
@@ -296,7 +296,7 @@ Defined in: main.ts:195533
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:195561
+Defined in: main.ts:196063
 
 #### Parameters
 
@@ -314,7 +314,7 @@ Defined in: main.ts:195561
 
 > `static` **fromJS**(`data`): [`MerchantAmazonSellersTaskPostRequestInfo`](MerchantAmazonSellersTaskPostRequestInfo.md)
 
-Defined in: main.ts:195554
+Defined in: main.ts:196056
 
 #### Parameters
 

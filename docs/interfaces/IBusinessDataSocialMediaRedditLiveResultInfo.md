@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataSocialMediaRedditLiveResultInfo
 
-Defined in: main.ts:230370
+Defined in: main.ts:230878
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:230370
 
 > `optional` **page\_url**: `string`
 
-Defined in: main.ts:230375
+Defined in: main.ts:230883
 
 URL of the page the data is provided for
 corresponding URL you specified in the targets array when setting a task
@@ -29,7 +29,7 @@ corresponding URL you specified in the targets array when setting a task
 
 > `optional` **reddit\_reviews**: [`RedditReviews`](../classes/RedditReviews.md)[]
 
-Defined in: main.ts:230377
+Defined in: main.ts:230885
 
 reddit reviews for the page_url
 
@@ -39,6 +39,6 @@ reddit reviews for the page_url
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:230372
+Defined in: main.ts:230880
 
 type of element

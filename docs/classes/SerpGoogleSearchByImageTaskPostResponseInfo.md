@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleSearchByImageTaskPostResponseInfo
 
-Defined in: main.ts:52911
+Defined in: main.ts:52927
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:52911
 
 > **new SerpGoogleSearchByImageTaskPostResponseInfo**(`data`?): [`SerpGoogleSearchByImageTaskPostResponseInfo`](SerpGoogleSearchByImageTaskPostResponseInfo.md)
 
-Defined in: main.ts:52917
+Defined in: main.ts:52933
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleSearchByImageTaskPostTaskInfo`](SerpGoogleSearchByImageTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:52913
+Defined in: main.ts:52929
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:52921
+Defined in: main.ts:52937
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:52921
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:52943
+Defined in: main.ts:52959
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:52943
 
 > `static` **fromJS**(`data`): [`SerpGoogleSearchByImageTaskPostResponseInfo`](SerpGoogleSearchByImageTaskPostResponseInfo.md)
 
-Defined in: main.ts:52936
+Defined in: main.ts:52952
 
 #### Parameters
 

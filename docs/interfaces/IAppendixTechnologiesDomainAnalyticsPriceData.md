@@ -6,7 +6,7 @@
 
 # Interface: IAppendixTechnologiesDomainAnalyticsPriceData
 
-Defined in: main.ts:238620
+Defined in: main.ts:239048
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:238620
 
 > `optional` **aggregation\_technologies**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238624
+Defined in: main.ts:239052
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:238624
 
 > `optional` **domain\_technologies**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238627
+Defined in: main.ts:239055
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:238627
 
 > `optional` **domains\_by\_html\_terms**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238625
+Defined in: main.ts:239053
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: main.ts:238625
 
 > `optional` **domains\_by\_technology**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238626
+Defined in: main.ts:239054
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:238626
 
 > `optional` **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238621
+Defined in: main.ts:239049
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: main.ts:238621
 
 > `optional` **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238622
+Defined in: main.ts:239050
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: main.ts:238622
 
 > `optional` **technologies**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238623
+Defined in: main.ts:239051
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: main.ts:238623
 
 > `optional` **technologies\_summary**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238628
+Defined in: main.ts:239056
 
 ***
 
@@ -82,4 +82,4 @@ Defined in: main.ts:238628
 
 > `optional` **technology\_stats**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238629
+Defined in: main.ts:239057

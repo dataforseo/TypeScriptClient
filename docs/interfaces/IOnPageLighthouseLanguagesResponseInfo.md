@@ -6,7 +6,7 @@
 
 # Interface: IOnPageLighthouseLanguagesResponseInfo
 
-Defined in: main.ts:175017
+Defined in: main.ts:175381
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageLighthouseLanguagesTaskInfo`](../classes/OnPageLighthouseLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:175019
+Defined in: main.ts:175383
 
 array of tasks
 

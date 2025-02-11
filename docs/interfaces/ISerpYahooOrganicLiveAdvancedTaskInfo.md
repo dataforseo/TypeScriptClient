@@ -6,7 +6,7 @@
 
 # Interface: ISerpYahooOrganicLiveAdvancedTaskInfo
 
-Defined in: main.ts:77818
+Defined in: main.ts:77854
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpYahooOrganicLiveAdvancedResultInfo`](../classes/SerpYahooOrganicLiveAdvancedResultInfo.md)[]
 
-Defined in: main.ts:77820
+Defined in: main.ts:77856
 
 array of results
 

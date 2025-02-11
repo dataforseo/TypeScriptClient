@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleAppListTaskGetAdvancedResultInfo
 
-Defined in: main.ts:201126
+Defined in: main.ts:201628
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:201126
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:201137
+Defined in: main.ts:201639
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -29,7 +29,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:201142
+Defined in: main.ts:201644
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -42,7 +42,7 @@ example:
 
 > `optional` **items**: [`BaseAppDataSerpElementItem`](../classes/BaseAppDataSerpElementItem.md)[]
 
-Defined in: main.ts:201149
+Defined in: main.ts:201651
 
 found apps
 
@@ -52,7 +52,7 @@ found apps
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:201147
+Defined in: main.ts:201649
 
 the number of app items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -63,7 +63,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:201128
+Defined in: main.ts:201630
 
 app collection received in a POST array
 
@@ -73,7 +73,7 @@ app collection received in a POST array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:201134
+Defined in: main.ts:201636
 
 language code in a POST array
 
@@ -83,7 +83,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:201132
+Defined in: main.ts:201634
 
 location code in a POST array
 
@@ -93,7 +93,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:201130
+Defined in: main.ts:201632
 
 search engine domain in a POST array
 
@@ -103,6 +103,6 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:201144
+Defined in: main.ts:201646
 
 the total number of results

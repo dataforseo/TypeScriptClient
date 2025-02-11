@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkNewLostReferringDomainsLiveTaskInfo
 
-Defined in: main.ts:162296
+Defined in: main.ts:162460
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:162296
 
 > **new BacklinksBulkNewLostReferringDomainsLiveTaskInfo**(`data`?): [`BacklinksBulkNewLostReferringDomainsLiveTaskInfo`](BacklinksBulkNewLostReferringDomainsLiveTaskInfo.md)
 
-Defined in: main.ts:162302
+Defined in: main.ts:162466
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`BacklinksBulkNewLostReferringDomainsLiveResultInfo`](BacklinksBulkNewLostReferringDomainsLiveResultInfo.md)[]
 
-Defined in: main.ts:162298
+Defined in: main.ts:162462
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:162306
+Defined in: main.ts:162470
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:162306
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:162328
+Defined in: main.ts:162492
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:162328
 
 > `static` **fromJS**(`data`): [`BacklinksBulkNewLostReferringDomainsLiveTaskInfo`](BacklinksBulkNewLostReferringDomainsLiveTaskInfo.md)
 
-Defined in: main.ts:162321
+Defined in: main.ts:162485
 
 #### Parameters
 

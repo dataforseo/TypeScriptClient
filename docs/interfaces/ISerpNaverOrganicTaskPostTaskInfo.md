@@ -6,7 +6,7 @@
 
 # Interface: ISerpNaverOrganicTaskPostTaskInfo
 
-Defined in: main.ts:80919
+Defined in: main.ts:80955
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:80922
+Defined in: main.ts:80958
 
 array of results
 in this case, the value will be null

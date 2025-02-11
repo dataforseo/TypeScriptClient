@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppReviewsTaskPostTaskInfo
 
-Defined in: main.ts:208074
+Defined in: main.ts:208576
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:208074
 
 > **new AppDataAppleAppReviewsTaskPostTaskInfo**(`data`?): [`AppDataAppleAppReviewsTaskPostTaskInfo`](AppDataAppleAppReviewsTaskPostTaskInfo.md)
 
-Defined in: main.ts:208081
+Defined in: main.ts:208583
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:208077
+Defined in: main.ts:208579
 
 array of results
 in this case, the value will be null
@@ -215,7 +215,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:208085
+Defined in: main.ts:208587
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:208085
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:208103
+Defined in: main.ts:208605
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:208103
 
 > `static` **fromJS**(`data`): [`AppDataAppleAppReviewsTaskPostTaskInfo`](AppDataAppleAppReviewsTaskPostTaskInfo.md)
 
-Defined in: main.ts:208096
+Defined in: main.ts:208598
 
 #### Parameters
 

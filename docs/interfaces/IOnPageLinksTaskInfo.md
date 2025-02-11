@@ -6,7 +6,7 @@
 
 # Interface: IOnPageLinksTaskInfo
 
-Defined in: main.ts:169670
+Defined in: main.ts:169834
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`OnPageLinksResultInfo`](../classes/OnPageLinksResultInfo.md)[]
 
-Defined in: main.ts:169672
+Defined in: main.ts:169836
 
 array of results
 

@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleSearchByImageTaskPostRequestInfo
 
-Defined in: main.ts:52524
+Defined in: main.ts:52540
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:52524
 
 > **new SerpGoogleSearchByImageTaskPostRequestInfo**(`data`?): [`SerpGoogleSearchByImageTaskPostRequestInfo`](SerpGoogleSearchByImageTaskPostRequestInfo.md)
 
-Defined in: main.ts:52657
+Defined in: main.ts:52673
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:52657
 
 > `optional` **browser\_screen\_height**: `number`
 
-Defined in: main.ts:52609
+Defined in: main.ts:52625
 
 browser screen height
 optional field
@@ -58,7 +58,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **browser\_screen\_resolution\_ratio**: `number`
 
-Defined in: main.ts:52615
+Defined in: main.ts:52631
 
 browser screen resolution ratio
 optional field
@@ -76,7 +76,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **browser\_screen\_width**: `number`
 
-Defined in: main.ts:52603
+Defined in: main.ts:52619
 
 browser screen width
 optional field
@@ -94,7 +94,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **calculate\_rectangles**: `boolean`
 
-Defined in: main.ts:52597
+Defined in: main.ts:52613
 
 calcualte pixel rankings for SERP elements in advanced results
 optional field
@@ -113,7 +113,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:52530
+Defined in: main.ts:52546
 
 URL of the image
 required field
@@ -131,7 +131,7 @@ https://upload.wikimedia.org/wikipedia/commons/e/ed/Elon_Musk_Royal_Society.jpg
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:52583
+Defined in: main.ts:52599
 
 search engine language code
 required field if you don’t specify language_name
@@ -150,7 +150,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:52576
+Defined in: main.ts:52592
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -169,7 +169,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:52559
+Defined in: main.ts:52575
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -188,7 +188,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:52569
+Defined in: main.ts:52585
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -210,7 +210,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:52552
+Defined in: main.ts:52568
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -229,7 +229,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:52545
+Defined in: main.ts:52561
 
 page crawl limit
 optional field
@@ -248,7 +248,7 @@ learn more at our help center
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:52653
+Defined in: main.ts:52669
 
 notification URL of a completed task
 optional field
@@ -271,7 +271,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:52642
+Defined in: main.ts:52658
 
 postback_url datatype
 required field if you specify postback_url
@@ -289,7 +289,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:52636
+Defined in: main.ts:52652
 
 return URL for sending task results
 optional field
@@ -312,7 +312,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:52538
+Defined in: main.ts:52554
 
 task priority
 optional field
@@ -332,7 +332,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:52590
+Defined in: main.ts:52606
 
 search engine domain
 optional field
@@ -351,7 +351,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:52619
+Defined in: main.ts:52635
 
 additional parameters of the search query
 optional field
@@ -367,7 +367,7 @@ get the list of available parameters and additional details here
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:52625
+Defined in: main.ts:52641
 
 user-defined task identifier
 optional field
@@ -385,7 +385,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:52666
+Defined in: main.ts:52682
 
 #### Parameters
 
@@ -403,7 +403,7 @@ Defined in: main.ts:52666
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:52700
+Defined in: main.ts:52716
 
 #### Parameters
 
@@ -421,7 +421,7 @@ Defined in: main.ts:52700
 
 > `static` **fromJS**(`data`): [`SerpGoogleSearchByImageTaskPostRequestInfo`](SerpGoogleSearchByImageTaskPostRequestInfo.md)
 
-Defined in: main.ts:52693
+Defined in: main.ts:52709
 
 #### Parameters
 

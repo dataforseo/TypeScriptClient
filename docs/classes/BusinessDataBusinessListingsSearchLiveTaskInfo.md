@@ -6,7 +6,7 @@
 
 # Class: BusinessDataBusinessListingsSearchLiveTaskInfo
 
-Defined in: main.ts:211722
+Defined in: main.ts:212224
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:211722
 
 > **new BusinessDataBusinessListingsSearchLiveTaskInfo**(`data`?): [`BusinessDataBusinessListingsSearchLiveTaskInfo`](BusinessDataBusinessListingsSearchLiveTaskInfo.md)
 
-Defined in: main.ts:211728
+Defined in: main.ts:212230
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataBusinessListingsSearchLiveResultInfo`](BusinessDataBusinessListingsSearchLiveResultInfo.md)[]
 
-Defined in: main.ts:211724
+Defined in: main.ts:212226
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:211732
+Defined in: main.ts:212234
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:211732
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:211754
+Defined in: main.ts:212256
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:211754
 
 > `static` **fromJS**(`data`): [`BusinessDataBusinessListingsSearchLiveTaskInfo`](BusinessDataBusinessListingsSearchLiveTaskInfo.md)
 
-Defined in: main.ts:211747
+Defined in: main.ts:212249
 
 #### Parameters
 

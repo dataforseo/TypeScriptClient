@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleNewsLiveHtmlTaskInfo
 
-Defined in: main.ts:47781
+Defined in: main.ts:47797
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:47781
 
 > **new SerpGoogleNewsLiveHtmlTaskInfo**(`data`?): [`SerpGoogleNewsLiveHtmlTaskInfo`](SerpGoogleNewsLiveHtmlTaskInfo.md)
 
-Defined in: main.ts:47787
+Defined in: main.ts:47803
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleNewsLiveHtmlResultInfo`](SerpGoogleNewsLiveHtmlResultInfo.md)[]
 
-Defined in: main.ts:47783
+Defined in: main.ts:47799
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:47791
+Defined in: main.ts:47807
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:47791
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:47813
+Defined in: main.ts:47829
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:47813
 
 > `static` **fromJS**(`data`): [`SerpGoogleNewsLiveHtmlTaskInfo`](SerpGoogleNewsLiveHtmlTaskInfo.md)
 
-Defined in: main.ts:47806
+Defined in: main.ts:47822
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: BacklinksAvailableFiltersResultInfo
 
-Defined in: main.ts:149444
+Defined in: main.ts:149608
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:149444
 
 > **new BacklinksAvailableFiltersResultInfo**(`data`?): [`BacklinksAvailableFiltersResultInfo`](BacklinksAvailableFiltersResultInfo.md)
 
-Defined in: main.ts:149458
+Defined in: main.ts:149622
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:149458
 
 > `optional` **anchors**: `object`
 
-Defined in: main.ts:149448
+Defined in: main.ts:149612
 
 #### Index Signature
 
@@ -56,7 +56,7 @@ Defined in: main.ts:149448
 
 > `optional` **backlinks**: `object`
 
-Defined in: main.ts:149446
+Defined in: main.ts:149610
 
 #### Index Signature
 
@@ -72,7 +72,7 @@ Defined in: main.ts:149446
 
 > `optional` **competitors**: `object`
 
-Defined in: main.ts:149454
+Defined in: main.ts:149618
 
 #### Index Signature
 
@@ -88,7 +88,7 @@ Defined in: main.ts:149454
 
 > `optional` **content\_duplicates**: `object`
 
-Defined in: main.ts:149445
+Defined in: main.ts:149609
 
 #### Index Signature
 
@@ -104,7 +104,7 @@ Defined in: main.ts:149445
 
 > `optional` **domain\_intersection**: `object`
 
-Defined in: main.ts:149450
+Defined in: main.ts:149614
 
 #### Index Signature
 
@@ -120,7 +120,7 @@ Defined in: main.ts:149450
 
 > `optional` **domain\_pages**: `object`
 
-Defined in: main.ts:149447
+Defined in: main.ts:149611
 
 #### Index Signature
 
@@ -136,7 +136,7 @@ Defined in: main.ts:149447
 
 > `optional` **domain\_pages\_summary**: `object`
 
-Defined in: main.ts:149453
+Defined in: main.ts:149617
 
 #### Index Signature
 
@@ -152,7 +152,7 @@ Defined in: main.ts:149453
 
 > `optional` **page\_intersection**: `object`
 
-Defined in: main.ts:149451
+Defined in: main.ts:149615
 
 #### Index Signature
 
@@ -168,7 +168,7 @@ Defined in: main.ts:149451
 
 > `optional` **referring\_domains**: `object`
 
-Defined in: main.ts:149449
+Defined in: main.ts:149613
 
 #### Index Signature
 
@@ -184,7 +184,7 @@ Defined in: main.ts:149449
 
 > `optional` **referring\_networks**: `object`
 
-Defined in: main.ts:149452
+Defined in: main.ts:149616
 
 #### Index Signature
 
@@ -200,7 +200,7 @@ Defined in: main.ts:149452
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:149467
+Defined in: main.ts:149631
 
 #### Parameters
 
@@ -218,7 +218,7 @@ Defined in: main.ts:149467
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:149553
+Defined in: main.ts:149717
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:149553
 
 > `static` **fromJS**(`data`): [`BacklinksAvailableFiltersResultInfo`](BacklinksAvailableFiltersResultInfo.md)
 
-Defined in: main.ts:149546
+Defined in: main.ts:149710
 
 #### Parameters
 

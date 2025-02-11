@@ -6,7 +6,7 @@
 
 # Interface: ISerpYahooOrganicTaskPostTaskInfo
 
-Defined in: main.ts:75557
+Defined in: main.ts:75593
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:75560
+Defined in: main.ts:75596
 
 array of results
 in this case, the value will be null

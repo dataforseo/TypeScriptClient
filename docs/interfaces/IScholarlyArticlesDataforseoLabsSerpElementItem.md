@@ -6,7 +6,7 @@
 
 # Interface: IScholarlyArticlesDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108748
+Defined in: main.ts:108804
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:108748
 
 > `optional` **items**: [`ScholarlyArticlesElement`](../classes/ScholarlyArticlesElement.md)[]
 
-Defined in: main.ts:108754
+Defined in: main.ts:108810
 
 elements of search results found in SERP
 
@@ -78,7 +78,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:108750
+Defined in: main.ts:108806
 
 title of the result in SERP
 
@@ -102,7 +102,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:108752
+Defined in: main.ts:108808
 
 relevant URL of the Ad element in SERP
 

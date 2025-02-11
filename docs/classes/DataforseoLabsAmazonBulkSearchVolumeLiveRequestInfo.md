@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo
 
-Defined in: main.ts:111830
+Defined in: main.ts:111898
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:111830
 
 > **new DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo**(`data`?): [`DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md)
 
-Defined in: main.ts:111894
+Defined in: main.ts:111962
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:111894
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:111837
+Defined in: main.ts:111905
 
 target keywords
 required field
@@ -59,7 +59,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:111884
+Defined in: main.ts:111952
 
 language code
 required field if don’t specify language_name
@@ -78,7 +78,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:111877
+Defined in: main.ts:111945
 
 full name of the language
 required field if don’t specify language_code
@@ -97,7 +97,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:111870
+Defined in: main.ts:111938
 
 location code
 required field if don’t specify location_name
@@ -117,7 +117,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:111862
+Defined in: main.ts:111930
 
 full name of the location
 required field if don’t specify location_code
@@ -154,7 +154,7 @@ United States
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:111890
+Defined in: main.ts:111958
 
 user-defined task identifier
 optional field
@@ -172,7 +172,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:111903
+Defined in: main.ts:111971
 
 #### Parameters
 
@@ -190,7 +190,7 @@ Defined in: main.ts:111903
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:111929
+Defined in: main.ts:111997
 
 #### Parameters
 
@@ -208,7 +208,7 @@ Defined in: main.ts:111929
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md)
 
-Defined in: main.ts:111922
+Defined in: main.ts:111990
 
 #### Parameters
 

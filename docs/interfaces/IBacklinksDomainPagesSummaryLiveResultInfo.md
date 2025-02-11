@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksDomainPagesSummaryLiveResultInfo
 
-Defined in: main.ts:155141
+Defined in: main.ts:155305
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:155141
 
 > `optional` **items**: [`BacklinksDomainPagesSummaryLiveItem`](../classes/BacklinksDomainPagesSummaryLiveItem.md)[]
 
-Defined in: main.ts:155149
+Defined in: main.ts:155313
 
 items array
 
@@ -28,7 +28,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:155147
+Defined in: main.ts:155311
 
 number of items in the results array
 
@@ -38,7 +38,7 @@ number of items in the results array
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:155143
+Defined in: main.ts:155307
 
 target in the post array
 
@@ -48,6 +48,6 @@ target in the post array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:155145
+Defined in: main.ts:155309
 
 total number of relevant items in the database

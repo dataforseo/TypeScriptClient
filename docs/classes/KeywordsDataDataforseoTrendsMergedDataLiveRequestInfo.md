@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo
 
-Defined in: main.ts:137722
+Defined in: main.ts:137886
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:137722
 
 > **new KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo**(`data`?): [`KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo`](KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo.md)
 
-Defined in: main.ts:137781
+Defined in: main.ts:137945
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:137781
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:137758
+Defined in: main.ts:137922
 
 starting date of the time range
 optional field
@@ -61,7 +61,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:137765
+Defined in: main.ts:137929
 
 ending date of the time range
 optional field
@@ -80,7 +80,7 @@ example:
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:137729
+Defined in: main.ts:137893
 
 keywords
 required field
@@ -99,7 +99,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:137747
+Defined in: main.ts:137911
 
 search engine location code
 optional field
@@ -120,7 +120,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:137738
+Defined in: main.ts:137902
 
 full name of search engine location
 optional field
@@ -141,7 +141,7 @@ United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:137777
+Defined in: main.ts:137941
 
 user-defined task identifier
 optional field
@@ -159,7 +159,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **time\_range**: `string`
 
-Defined in: main.ts:137771
+Defined in: main.ts:137935
 
 preset time ranges
 optional field
@@ -177,7 +177,7 @@ past_4_hours, past_day, past_7_days, past_30_days, past_90_days, past_12_months,
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:137749
+Defined in: main.ts:137913
 
 type of element
 
@@ -191,7 +191,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:137790
+Defined in: main.ts:137954
 
 #### Parameters
 
@@ -209,7 +209,7 @@ Defined in: main.ts:137790
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:137818
+Defined in: main.ts:137982
 
 #### Parameters
 
@@ -227,7 +227,7 @@ Defined in: main.ts:137818
 
 > `static` **fromJS**(`data`): [`KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo`](KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo.md)
 
-Defined in: main.ts:137811
+Defined in: main.ts:137975
 
 #### Parameters
 

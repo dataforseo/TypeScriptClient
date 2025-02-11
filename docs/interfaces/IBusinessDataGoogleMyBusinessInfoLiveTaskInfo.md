@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleMyBusinessInfoLiveTaskInfo
 
-Defined in: main.ts:215082
+Defined in: main.ts:215584
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataGoogleMyBusinessInfoLiveResultInfo`](../classes/BusinessDataGoogleMyBusinessInfoLiveResultInfo.md)[]
 
-Defined in: main.ts:215084
+Defined in: main.ts:215586
 
 array of results
 

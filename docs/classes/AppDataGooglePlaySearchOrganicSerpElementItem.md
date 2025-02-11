@@ -6,7 +6,7 @@
 
 # Class: AppDataGooglePlaySearchOrganicSerpElementItem
 
-Defined in: main.ts:121534
+Defined in: main.ts:121650
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:121534
 
 > **new AppDataGooglePlaySearchOrganicSerpElementItem**(`data`?): [`AppDataGooglePlaySearchOrganicSerpElementItem`](AppDataGooglePlaySearchOrganicSerpElementItem.md)
 
-Defined in: main.ts:121554
+Defined in: main.ts:121670
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22886
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:121536
+Defined in: main.ts:121652
 
 id of the app
 
@@ -74,7 +74,7 @@ id of the app
 
 > `optional` **developer**: `string`
 
-Defined in: main.ts:121548
+Defined in: main.ts:121664
 
 name of the app developer
 
@@ -88,7 +88,7 @@ name of the app developer
 
 > `optional` **developer\_url**: `string`
 
-Defined in: main.ts:121550
+Defined in: main.ts:121666
 
 URL to the developer page on Google Play
 
@@ -102,7 +102,7 @@ URL to the developer page on Google Play
 
 > `optional` **icon**: `string`
 
-Defined in: main.ts:121540
+Defined in: main.ts:121656
 
 URL to the app icon
 
@@ -116,7 +116,7 @@ URL to the app icon
 
 > `optional` **is\_free**: `boolean`
 
-Defined in: main.ts:121544
+Defined in: main.ts:121660
 
 indicates whether the app is free
 
@@ -150,7 +150,7 @@ left, right
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:121546
+Defined in: main.ts:121662
 
 price of the app
 
@@ -220,7 +220,7 @@ average rating of the app
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:121542
+Defined in: main.ts:121658
 
 the total number of reviews of the app
 
@@ -270,7 +270,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:121538
+Defined in: main.ts:121654
 
 URL to the app page on Google Play
 
@@ -284,7 +284,7 @@ URL to the app page on Google Play
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:121559
+Defined in: main.ts:121675
 
 #### Parameters
 
@@ -306,7 +306,7 @@ Defined in: main.ts:121559
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:121584
+Defined in: main.ts:121700
 
 #### Parameters
 
@@ -328,7 +328,7 @@ Defined in: main.ts:121584
 
 > `static` **fromJS**(`data`): [`AppDataGooglePlaySearchOrganicSerpElementItem`](AppDataGooglePlaySearchOrganicSerpElementItem.md)
 
-Defined in: main.ts:121577
+Defined in: main.ts:121693
 
 #### Parameters
 

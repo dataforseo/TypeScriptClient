@@ -6,7 +6,7 @@
 
 # Class: ResponseDataInfo
 
-Defined in: main.ts:203422
+Defined in: main.ts:203924
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:203422
 
 > **new ResponseDataInfo**(`data`?): [`ResponseDataInfo`](ResponseDataInfo.md)
 
-Defined in: main.ts:203438
+Defined in: main.ts:203940
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:203438
 
 > `optional` **author**: `string`
 
-Defined in: main.ts:203424
+Defined in: main.ts:203926
 
 author of the response
 
@@ -54,7 +54,7 @@ author of the response
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:203429
+Defined in: main.ts:203931
 
 content of the response
 
@@ -68,7 +68,7 @@ content of the response
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:203434
+Defined in: main.ts:203936
 
 date and time when the response was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -85,7 +85,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:203427
+Defined in: main.ts:203929
 
 title of the response
 in this case, will equal null
@@ -100,7 +100,7 @@ in this case, will equal null
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:203447
+Defined in: main.ts:203949
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:203447
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:203467
+Defined in: main.ts:203969
 
 #### Parameters
 
@@ -136,7 +136,7 @@ Defined in: main.ts:203467
 
 > `static` **fromJS**(`data`): [`ResponseDataInfo`](ResponseDataInfo.md)
 
-Defined in: main.ts:203460
+Defined in: main.ts:203962
 
 #### Parameters
 

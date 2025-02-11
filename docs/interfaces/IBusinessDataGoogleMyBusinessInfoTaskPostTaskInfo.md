@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleMyBusinessInfoTaskPostTaskInfo
 
-Defined in: main.ts:213275
+Defined in: main.ts:213777
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:213278
+Defined in: main.ts:213780
 
 array of results
 in this case, the value will be null

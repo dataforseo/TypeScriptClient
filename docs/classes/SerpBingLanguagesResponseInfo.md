@@ -6,7 +6,7 @@
 
 # Class: SerpBingLanguagesResponseInfo
 
-Defined in: main.ts:63300
+Defined in: main.ts:63328
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:63300
 
 > **new SerpBingLanguagesResponseInfo**(`data`?): [`SerpBingLanguagesResponseInfo`](SerpBingLanguagesResponseInfo.md)
 
-Defined in: main.ts:63306
+Defined in: main.ts:63334
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpBingLanguagesTaskInfo`](SerpBingLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:63302
+Defined in: main.ts:63330
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:63310
+Defined in: main.ts:63338
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:63310
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:63332
+Defined in: main.ts:63360
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:63332
 
 > `static` **fromJS**(`data`): [`SerpBingLanguagesResponseInfo`](SerpBingLanguagesResponseInfo.md)
 
-Defined in: main.ts:63325
+Defined in: main.ts:63353
 
 #### Parameters
 

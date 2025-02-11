@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphSerpElementItem
 
-Defined in: main.ts:31019
+Defined in: main.ts:31025
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:31019
 
 > **new KnowledgeGraphSerpElementItem**(`data`?): [`KnowledgeGraphSerpElementItem`](KnowledgeGraphSerpElementItem.md)
 
-Defined in: main.ts:31048
+Defined in: main.ts:31054
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **card\_id**: `string`
 
-Defined in: main.ts:31027
+Defined in: main.ts:31033
 
 card id
 
@@ -74,7 +74,7 @@ card id
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:31038
+Defined in: main.ts:31044
 
 google-defined client id
 unique id of a local establishment;
@@ -90,7 +90,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:31025
+Defined in: main.ts:31031
 
 description of the results element in SERP
 
@@ -104,7 +104,7 @@ description of the results element in SERP
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:31032
+Defined in: main.ts:31038
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -119,7 +119,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-Defined in: main.ts:31040
+Defined in: main.ts:31046
 
 contains results featured in the ‘hotels_pack’ element of SERP
 
@@ -133,7 +133,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 > `optional` **logo\_url**: `string`
 
-Defined in: main.ts:31034
+Defined in: main.ts:31040
 
 URL of the logo from knowledge graph
 
@@ -206,7 +206,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:31044
+Defined in: main.ts:31050
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -222,7 +222,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **subtitle**: `string`
 
-Defined in: main.ts:31023
+Defined in: main.ts:31029
 
 subtitle of the item
 
@@ -236,7 +236,7 @@ subtitle of the item
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:31021
+Defined in: main.ts:31027
 
 title of the result in SERP
 
@@ -268,7 +268,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:31029
+Defined in: main.ts:31035
 
 relevant URL in SERP
 
@@ -300,7 +300,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:31053
+Defined in: main.ts:31059
 
 #### Parameters
 
@@ -322,7 +322,7 @@ Defined in: main.ts:31053
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:31084
+Defined in: main.ts:31090
 
 #### Parameters
 
@@ -344,7 +344,7 @@ Defined in: main.ts:31084
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphSerpElementItem`](KnowledgeGraphSerpElementItem.md)
 
-Defined in: main.ts:31077
+Defined in: main.ts:31083
 
 #### Parameters
 

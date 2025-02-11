@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleDatasetInfoLiveAdvancedResponseInfo
 
-Defined in: main.ts:60169
+Defined in: main.ts:60185
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleDatasetInfoLiveAdvancedTaskInfo`](../classes/SerpGoogleDatasetInfoLiveAdvancedTaskInfo.md)[]
 
-Defined in: main.ts:60171
+Defined in: main.ts:60187
 
 array of tasks
 

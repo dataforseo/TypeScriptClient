@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleDatasetSearchTasksReadyTaskInfo
 
-Defined in: main.ts:57326
+Defined in: main.ts:57342
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:57326
 
 > **new SerpGoogleDatasetSearchTasksReadyTaskInfo**(`data`?): [`SerpGoogleDatasetSearchTasksReadyTaskInfo`](SerpGoogleDatasetSearchTasksReadyTaskInfo.md)
 
-Defined in: main.ts:57332
+Defined in: main.ts:57348
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleDatasetSearchTasksReadyResultInfo`](SerpGoogleDatasetSearchTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:57328
+Defined in: main.ts:57344
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:57336
+Defined in: main.ts:57352
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:57336
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:57358
+Defined in: main.ts:57374
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:57358
 
 > `static` **fromJS**(`data`): [`SerpGoogleDatasetSearchTasksReadyTaskInfo`](SerpGoogleDatasetSearchTasksReadyTaskInfo.md)
 
-Defined in: main.ts:57351
+Defined in: main.ts:57367
 
 #### Parameters
 

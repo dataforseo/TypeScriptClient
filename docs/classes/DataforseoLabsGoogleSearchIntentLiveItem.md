@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleSearchIntentLiveItem
 
-Defined in: main.ts:96628
+Defined in: main.ts:96656
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:96628
 
 > **new DataforseoLabsGoogleSearchIntentLiveItem**(`data`?): [`DataforseoLabsGoogleSearchIntentLiveItem`](DataforseoLabsGoogleSearchIntentLiveItem.md)
 
-Defined in: main.ts:96638
+Defined in: main.ts:96666
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:96638
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:96630
+Defined in: main.ts:96658
 
 target keyword in a POST array
 
@@ -54,7 +54,7 @@ target keyword in a POST array
 
 > `optional` **keyword\_intent**: [`KeywordIntentInfo`](KeywordIntentInfo.md)
 
-Defined in: main.ts:96632
+Defined in: main.ts:96660
 
 search intent data relevant for the specified keyword
 
@@ -68,7 +68,7 @@ search intent data relevant for the specified keyword
 
 > `optional` **secondary\_keyword\_intents**: [`KeywordIntentInfo`](KeywordIntentInfo.md)[]
 
-Defined in: main.ts:96634
+Defined in: main.ts:96662
 
 contains objects with other possible search intents for the specified keyword
 
@@ -82,7 +82,7 @@ contains objects with other possible search intents for the specified keyword
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:96647
+Defined in: main.ts:96675
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:96647
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:96670
+Defined in: main.ts:96698
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:96670
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleSearchIntentLiveItem`](DataforseoLabsGoogleSearchIntentLiveItem.md)
 
-Defined in: main.ts:96663
+Defined in: main.ts:96691
 
 #### Parameters
 

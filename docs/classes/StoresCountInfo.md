@@ -6,7 +6,7 @@
 
 # Class: StoresCountInfo
 
-Defined in: main.ts:186192
+Defined in: main.ts:186554
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:186192
 
 > **new StoresCountInfo**(`data`?): [`StoresCountInfo`](StoresCountInfo.md)
 
-Defined in: main.ts:186206
+Defined in: main.ts:186568
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:186206
 
 > `optional` **count**: `string`
 
-Defined in: main.ts:186194
+Defined in: main.ts:186556
 
 number of stores that offer the product
 
@@ -54,7 +54,7 @@ number of stores that offer the product
 
 > `optional` **count\_from\_text**: `boolean`
 
-Defined in: main.ts:186202
+Defined in: main.ts:186564
 
 whether the number of stores is taken from text
 indicates whether the number of stores is taken from displayed_text;
@@ -72,7 +72,7 @@ in this case, the parameter is true
 
 > `optional` **displayed\_text**: `string`
 
-Defined in: main.ts:186196
+Defined in: main.ts:186558
 
 text displayed on the Google Shopping page
 
@@ -86,7 +86,7 @@ text displayed on the Google Shopping page
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:186215
+Defined in: main.ts:186577
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:186215
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:186234
+Defined in: main.ts:186596
 
 #### Parameters
 
@@ -122,7 +122,7 @@ Defined in: main.ts:186234
 
 > `static` **fromJS**(`data`): [`StoresCountInfo`](StoresCountInfo.md)
 
-Defined in: main.ts:186227
+Defined in: main.ts:186589
 
 #### Parameters
 

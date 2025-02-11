@@ -6,7 +6,7 @@
 
 # Class: HtmlResourceElementItem
 
-Defined in: main.ts:166864
+Defined in: main.ts:167028
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:166864
 
 > **new HtmlResourceElementItem**(`data`?): [`HtmlResourceElementItem`](HtmlResourceElementItem.md)
 
-Defined in: main.ts:166906
+Defined in: main.ts:167070
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22339
 
 > `optional` **broken\_links**: `boolean`
 
-Defined in: main.ts:166887
+Defined in: main.ts:167051
 
 indicates whether a page contains broken links
 
@@ -74,7 +74,7 @@ indicates whether a page contains broken links
 
 > `optional` **broken\_resources**: `boolean`
 
-Defined in: main.ts:166885
+Defined in: main.ts:167049
 
 indicates whether a page contains broken resources
 
@@ -129,7 +129,7 @@ on-page check-ups related to the page
 
 > `optional` **click\_depth**: `number`
 
-Defined in: main.ts:166896
+Defined in: main.ts:167060
 
 number of clicks it takes to get to the page
 indicates the number of clicks from the homepage needed before landing at the target page
@@ -162,7 +162,7 @@ type of encoding
 
 > `optional` **custom\_js\_client\_exception**: `string`
 
-Defined in: main.ts:166883
+Defined in: main.ts:167047
 
 error when executing a custom js
 if the error occurred when executing the script you specified in the custom_js field, the error message would be displayed here
@@ -177,7 +177,7 @@ if the error occurred when executing the script you specified in the custom_js f
 
 > `optional` **custom\_js\_response**: `any`
 
-Defined in: main.ts:166880
+Defined in: main.ts:167044
 
 the result of executing a specified JS script
 note that you should specify a custom_js field when setting a task to receive this data and the field type and its value will totally depend on the script you specified;you can also filter the results by this value specifying filters in the following way:
@@ -193,7 +193,7 @@ note that you should specify a custom_js field when setting a task to receive th
 
 > `optional` **duplicate\_content**: `boolean`
 
-Defined in: main.ts:166893
+Defined in: main.ts:167057
 
 indicates whether a page has duplicate content
 
@@ -207,7 +207,7 @@ indicates whether a page has duplicate content
 
 > `optional` **duplicate\_description**: `boolean`
 
-Defined in: main.ts:166891
+Defined in: main.ts:167055
 
 indicates whether a page has a duplicate description
 
@@ -221,7 +221,7 @@ indicates whether a page has a duplicate description
 
 > `optional` **duplicate\_title**: `boolean`
 
-Defined in: main.ts:166889
+Defined in: main.ts:167053
 
 indicates whether a page has duplicate title tags
 
@@ -275,7 +275,7 @@ example:
 
 > `optional` **is\_resource**: `boolean`
 
-Defined in: main.ts:166898
+Defined in: main.ts:167062
 
 indicates whether a page is a single resource
 
@@ -345,7 +345,7 @@ types of media used to display a page
 
 > `optional` **meta**: [`PageMetaInfo`](PageMetaInfo.md)
 
-Defined in: main.ts:166867
+Defined in: main.ts:167031
 
 page properties
 the value depends on the resource_type
@@ -360,7 +360,7 @@ the value depends on the resource_type
 
 > `optional` **onpage\_score**: `number`
 
-Defined in: main.ts:166874
+Defined in: main.ts:167038
 
 shows how page is optimized on a 100-point scale
 this field shows how page is optimized considering critical on-page issues and warnings detected;
@@ -377,7 +377,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **page\_timing**: [`PageTiming`](PageTiming.md)
 
-Defined in: main.ts:166869
+Defined in: main.ts:167033
 
 object of page load metrics
 
@@ -391,7 +391,7 @@ object of page load metrics
 
 > `optional` **relative\_url\_length**: `number`
 
-Defined in: main.ts:166902
+Defined in: main.ts:167066
 
 relative URL length in characters
 
@@ -496,7 +496,7 @@ status code of the page
 
 > `optional` **total\_dom\_size**: `number`
 
-Defined in: main.ts:166876
+Defined in: main.ts:167040
 
 total DOM size of a page
 
@@ -547,7 +547,7 @@ page URL
 
 > `optional` **url\_length**: `number`
 
-Defined in: main.ts:166900
+Defined in: main.ts:167064
 
 page URL length in characters
 
@@ -561,7 +561,7 @@ page URL length in characters
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:166911
+Defined in: main.ts:167075
 
 #### Parameters
 
@@ -583,7 +583,7 @@ Defined in: main.ts:166911
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:166943
+Defined in: main.ts:167107
 
 #### Parameters
 
@@ -605,7 +605,7 @@ Defined in: main.ts:166943
 
 > `static` **fromJS**(`data`): [`HtmlResourceElementItem`](HtmlResourceElementItem.md)
 
-Defined in: main.ts:166936
+Defined in: main.ts:167100
 
 #### Parameters
 

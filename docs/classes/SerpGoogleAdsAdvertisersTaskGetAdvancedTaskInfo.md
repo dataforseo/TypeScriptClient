@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleAdsAdvertisersTaskGetAdvancedTaskInfo
 
-Defined in: main.ts:61409
+Defined in: main.ts:61431
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:61409
 
 > **new SerpGoogleAdsAdvertisersTaskGetAdvancedTaskInfo**(`data`?): [`SerpGoogleAdsAdvertisersTaskGetAdvancedTaskInfo`](SerpGoogleAdsAdvertisersTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:61415
+Defined in: main.ts:61437
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleAdsAdvertisersTaskGetAdvancedResultInfo`](SerpGoogleAdsAdvertisersTaskGetAdvancedResultInfo.md)[]
 
-Defined in: main.ts:61411
+Defined in: main.ts:61433
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:61419
+Defined in: main.ts:61441
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:61419
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:61441
+Defined in: main.ts:61463
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:61441
 
 > `static` **fromJS**(`data`): [`SerpGoogleAdsAdvertisersTaskGetAdvancedTaskInfo`](SerpGoogleAdsAdvertisersTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:61434
+Defined in: main.ts:61456
 
 #### Parameters
 

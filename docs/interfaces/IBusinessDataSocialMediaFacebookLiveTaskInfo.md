@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataSocialMediaFacebookLiveTaskInfo
 
-Defined in: main.ts:230090
+Defined in: main.ts:230598
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataSocialMediaFacebookLiveResultInfo`](../classes/BusinessDataSocialMediaFacebookLiveResultInfo.md)[]
 
-Defined in: main.ts:230092
+Defined in: main.ts:230600
 
 array of results
 

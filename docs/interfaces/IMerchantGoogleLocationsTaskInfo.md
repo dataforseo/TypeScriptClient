@@ -6,7 +6,7 @@
 
 # Interface: IMerchantGoogleLocationsTaskInfo
 
-Defined in: main.ts:184992
+Defined in: main.ts:185354
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`MerchantGoogleLocationsResultInfo`](../classes/MerchantGoogleLocationsResultInfo.md)[]
 
-Defined in: main.ts:184994
+Defined in: main.ts:185356
 
 array of results
 

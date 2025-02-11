@@ -6,7 +6,7 @@
 
 # Interface: IContentGenerationGrammarRulesTaskInfo
 
-Defined in: main.ts:183420
+Defined in: main.ts:183782
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`ContentGenerationGrammarRulesResultInfo`](../classes/ContentGenerationGrammarRulesResultInfo.md)[]
 
-Defined in: main.ts:183422
+Defined in: main.ts:183784
 
 array of results
 

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingDomainIntersectionLiveRequestInfo
 
-Defined in: main.ts:116584
+Defined in: main.ts:116676
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:116584
 
 > **new DataforseoLabsBingDomainIntersectionLiveRequestInfo**(`data`?): [`DataforseoLabsBingDomainIntersectionLiveRequestInfo`](DataforseoLabsBingDomainIntersectionLiveRequestInfo.md)
 
-Defined in: main.ts:116702
+Defined in: main.ts:116794
 
 #### Parameters
 
@@ -40,14 +40,14 @@ Defined in: main.ts:116702
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:116676
+Defined in: main.ts:116768
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, <=, >, >=, =, <>, in, not_in, ilike, not_ilike, like, not_like
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, ilike, not_ilike, like, not_like, match, not_match
 you can use the % operator with like and not_like, as well as ilike and not_ilike to match any string of zero or more characters
 example:
 ["keyword_data.keyword_info.search_volume","in",[100,1000]]
@@ -69,7 +69,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **include\_serp\_info**: `boolean`
 
-Defined in: main.ts:116649
+Defined in: main.ts:116741
 
 include data from SERP for each keyword
 optional field
@@ -86,7 +86,7 @@ default value: false
 
 > `optional` **intersections**: `boolean`
 
-Defined in: main.ts:116636
+Defined in: main.ts:116728
 
 domain intersections in SERP
 optional field
@@ -106,7 +106,7 @@ default value: true
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:116644
+Defined in: main.ts:116736
 
 search results type
 indicates type of search results included in the response
@@ -126,7 +126,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:116628
+Defined in: main.ts:116720
 
 language code
 required field if you don’t specify language_name
@@ -146,7 +146,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:116620
+Defined in: main.ts:116712
 
 full name of the language
 required field if you don’t specify language_code
@@ -166,7 +166,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:116654
+Defined in: main.ts:116746
 
 the maximum number of returned keywords
 optional field
@@ -183,7 +183,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:116612
+Defined in: main.ts:116704
 
 location code
 required field if you don’t specify location_name
@@ -204,7 +204,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:116603
+Defined in: main.ts:116695
 
 full name of the location
 required field if you don’t specify location_code
@@ -225,7 +225,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:116659
+Defined in: main.ts:116751
 
 offset in the items array of returned keywords
 optional field
@@ -242,7 +242,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:116692
+Defined in: main.ts:116784
 
 results sorting rules
 optional field
@@ -270,7 +270,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:116698
+Defined in: main.ts:116790
 
 user-defined task identifier
 optional field
@@ -288,7 +288,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target1**: `string`
 
-Defined in: main.ts:116589
+Defined in: main.ts:116681
 
 domain
 required field
@@ -305,7 +305,7 @@ the domain should be specified without https:// and www.
 
 > `optional` **target2**: `string`
 
-Defined in: main.ts:116594
+Defined in: main.ts:116686
 
 domain
 required field
@@ -322,7 +322,7 @@ the domain should be specified without https:// and www.
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:116711
+Defined in: main.ts:116803
 
 #### Parameters
 
@@ -340,7 +340,7 @@ Defined in: main.ts:116711
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:116753
+Defined in: main.ts:116845
 
 #### Parameters
 
@@ -358,7 +358,7 @@ Defined in: main.ts:116753
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingDomainIntersectionLiveRequestInfo`](DataforseoLabsBingDomainIntersectionLiveRequestInfo.md)
 
-Defined in: main.ts:116746
+Defined in: main.ts:116838
 
 #### Parameters
 

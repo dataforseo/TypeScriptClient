@@ -6,7 +6,7 @@
 
 # Interface: IGraph
 
-Defined in: main.ts:35083
+Defined in: main.ts:35099
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:35083
 
 > `optional` **items**: [`GraphElement`](../classes/GraphElement.md)[]
 
-Defined in: main.ts:35085
+Defined in: main.ts:35101
 
 contains arrays of elements available in the list
 
@@ -28,7 +28,7 @@ contains arrays of elements available in the list
 
 > `optional` **previous\_items**: [`GraphElement`](../classes/GraphElement.md)[]
 
-Defined in: main.ts:35088
+Defined in: main.ts:35104
 
 previous close data
 contains stock price data based on the preceding time period

@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGooglePageIntersectionLiveRequestInfo
 
-Defined in: main.ts:110157
+Defined in: main.ts:110213
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:110157
 
 > `optional` **exclude\_pages**: `string`[]
 
-Defined in: main.ts:110191
+Defined in: main.ts:110247
 
 URLs of pages you want to exclude
 optional field
@@ -39,14 +39,14 @@ example:
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:110291
+Defined in: main.ts:110347
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, <=, >, >=, =, <>, in, not_in, ilike, not_ilike, like, not_like
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, ilike, not_ilike, like, not_like, match, not_match
 you can use the % operator with like and not_like, as well as ilike and not_ilike to match any string of zero or more characters
 note that if you want to filter by any field in the intersection_result array you need to specify the number of corresponding page
 for instance, if you want to filter results by the ranking of the first specified URL, you should set the following filter:
@@ -67,7 +67,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:110271
+Defined in: main.ts:110327
 
 ignore highly similar keywords
 optional field
@@ -80,7 +80,7 @@ default value: false
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
-Defined in: main.ts:110266
+Defined in: main.ts:110322
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -95,7 +95,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 > `optional` **include\_serp\_info**: `boolean`
 
-Defined in: main.ts:110259
+Defined in: main.ts:110315
 
 include data from SERP for each keyword
 optional field
@@ -108,7 +108,7 @@ default value: false
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:110246
+Defined in: main.ts:110302
 
 indicates if the subdomains will be included in the search
 optional field
@@ -121,7 +121,7 @@ default value: true
 
 > `optional` **intersection\_mode**: `string`
 
-Defined in: main.ts:110254
+Defined in: main.ts:110310
 
 indicates whether to intersect keywords
 optional field
@@ -137,7 +137,7 @@ by default, results are based on the intersect mode if you specify only pages ar
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:110231
+Defined in: main.ts:110287
 
 search results type
 indicates type of search results included in the response
@@ -153,7 +153,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:110223
+Defined in: main.ts:110279
 
 language code
 required field if you don’t specify language_name
@@ -169,7 +169,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:110215
+Defined in: main.ts:110271
 
 full name of the language
 required field if you don’t specify language_code
@@ -185,7 +185,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:110236
+Defined in: main.ts:110292
 
 the maximum number of returned keywords
 optional field
@@ -198,7 +198,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:110207
+Defined in: main.ts:110263
 
 location code
 required field if you don’t specify location_name
@@ -214,7 +214,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:110199
+Defined in: main.ts:110255
 
 full name of the location
 required field if you don’t specify location_code
@@ -230,7 +230,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:110241
+Defined in: main.ts:110297
 
 offset in the items array of returned keywords
 optional field
@@ -243,7 +243,7 @@ if you specify 10 here, the first ten keywords in the results array will be omit
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:110307
+Defined in: main.ts:110363
 
 results sorting rules
 optional field
@@ -267,7 +267,7 @@ example:
 
 > `optional` **pages**: `object`
 
-Defined in: main.ts:110178
+Defined in: main.ts:110234
 
 target URLs of pages
 required field
@@ -300,7 +300,7 @@ Note: this endpoint will not provide results if the number of intersecting keywo
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:110313
+Defined in: main.ts:110369
 
 user-defined task identifier
 optional field

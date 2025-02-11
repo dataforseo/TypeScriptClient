@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo
 
-Defined in: main.ts:114325
+Defined in: main.ts:114393
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:114325
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:114330
+Defined in: main.ts:114398
 
 product ID
 required field
@@ -31,14 +31,14 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:114376
+Defined in: main.ts:114444
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, <=, >, >=, =, <>, in, not_in, ilike, not_ilike, like, not_like
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, ilike, not_ilike, like, not_like, match, not_match
 you can use the % operator with like and not_like, as well as ilike and not_ilike to match any string of zero or more characters
 example:
 ["full_metrics.amazon_serp.pos_1",">", 20]
@@ -50,7 +50,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:114360
+Defined in: main.ts:114428
 
 language code
 required field if don’t specify language_name
@@ -65,7 +65,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:114353
+Defined in: main.ts:114421
 
 full name of the language
 required field if don’t specify language_code
@@ -80,7 +80,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:114365
+Defined in: main.ts:114433
 
 the maximum number of products in the results array
 optional field
@@ -93,7 +93,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:114346
+Defined in: main.ts:114414
 
 location code
 required field if don’t specify location_name
@@ -109,7 +109,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:114338
+Defined in: main.ts:114406
 
 full name of the location
 required field if don’t specify location_code
@@ -125,7 +125,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:114397
+Defined in: main.ts:114465
 
 offset in the results array of returned product competitors
 optional field
@@ -138,7 +138,7 @@ if you specify the 10 value, the first ten product competitors in the results ar
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:114392
+Defined in: main.ts:114460
 
 results sorting rules
 optional field
@@ -162,7 +162,7 @@ default rule:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:114403
+Defined in: main.ts:114471
 
 user-defined task identifier
 optional field

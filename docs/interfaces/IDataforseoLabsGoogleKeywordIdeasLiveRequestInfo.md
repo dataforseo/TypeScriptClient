@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo
 
-Defined in: main.ts:95104
+Defined in: main.ts:95130
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:95104
 
 > `optional` **closely\_variants**: `boolean`
 
-Defined in: main.ts:95151
+Defined in: main.ts:95177
 
 search mode
 optional field
@@ -32,14 +32,14 @@ default value: false
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:95206
+Defined in: main.ts:95232
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, <=, >, >=, =, <>, in, not_in, ilike, not_ilike, like, not_like
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, match, not_match, ilike, not_ilike, like, not_like
 you can use the % operator with like and not_like,as well as ilike, not_ilike to match any string of zero or more characters
 note that you can not filter the results by relevance
 example:
@@ -60,7 +60,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:95156
+Defined in: main.ts:95182
 
 ignore highly similar keywords
 optional field
@@ -73,7 +73,7 @@ default value: false
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
-Defined in: main.ts:95168
+Defined in: main.ts:95194
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -88,7 +88,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 > `optional` **include\_serp\_info**: `boolean`
 
-Defined in: main.ts:95161
+Defined in: main.ts:95187
 
 include data from SERP for each keyword
 optional field
@@ -101,7 +101,7 @@ default value: false
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:95111
+Defined in: main.ts:95137
 
 keywords
 required field
@@ -116,7 +116,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:95145
+Defined in: main.ts:95171
 
 language code
 optional field
@@ -133,7 +133,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:95136
+Defined in: main.ts:95162
 
 full name of the language
 optional field
@@ -150,7 +150,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:95173
+Defined in: main.ts:95199
 
 the maximum number of keywords in the results array
 optional field
@@ -163,7 +163,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:95127
+Defined in: main.ts:95153
 
 unique location identifier
 required field if you don’t specify location_name
@@ -179,7 +179,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:95119
+Defined in: main.ts:95145
 
 full name of the location
 required field if you don’t specify location_code
@@ -195,7 +195,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:95178
+Defined in: main.ts:95204
 
 offset in the results array of returned keywords
 optional field
@@ -208,7 +208,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:95186
+Defined in: main.ts:95212
 
 offset token for subsequent requests
 optional field
@@ -224,7 +224,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:95223
+Defined in: main.ts:95249
 
 results sorting rules
 optional field
@@ -249,7 +249,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:95229
+Defined in: main.ts:95255
 
 user-defined task identifier
 optional field

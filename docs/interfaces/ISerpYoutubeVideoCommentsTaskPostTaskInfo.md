@@ -6,7 +6,7 @@
 
 # Interface: ISerpYoutubeVideoCommentsTaskPostTaskInfo
 
-Defined in: main.ts:73315
+Defined in: main.ts:73351
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:73318
+Defined in: main.ts:73354
 
 array of results
 in this case, the value will be null

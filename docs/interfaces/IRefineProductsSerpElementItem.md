@@ -6,7 +6,7 @@
 
 # Interface: IRefineProductsSerpElementItem
 
-Defined in: main.ts:37212
+Defined in: main.ts:37228
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:37212
 
 > `optional` **items**: [`RefineProductsElement`](../classes/RefineProductsElement.md)[]
 
-Defined in: main.ts:37216
+Defined in: main.ts:37232
 
 contains arrays of specific images
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:37220
+Defined in: main.ts:37236
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -91,7 +91,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:37214
+Defined in: main.ts:37230
 
 title of the row
 

@@ -6,7 +6,7 @@
 
 # Interface: ISerpBaiduLocationsResponseInfo
 
-Defined in: main.ts:78533
+Defined in: main.ts:78569
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpBaiduLocationsTaskInfo`](../classes/SerpBaiduLocationsTaskInfo.md)[]
 
-Defined in: main.ts:78535
+Defined in: main.ts:78571
 
 array of tasks
 

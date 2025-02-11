@@ -6,7 +6,7 @@
 
 # Interface: IGoogleShoppingPaidMerchantSerpElementItem
 
-Defined in: main.ts:186580
+Defined in: main.ts:186942
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:186580
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:186588
+Defined in: main.ts:186950
 
 description of the product in Google Shopping SERP
 
@@ -32,7 +32,7 @@ description of the product in Google Shopping SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:186584
+Defined in: main.ts:186946
 
 domain in SERP
 
@@ -88,7 +88,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **shop\_ad\_aclk**: `string`
 
-Defined in: main.ts:186593
+Defined in: main.ts:186955
 
 unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL
@@ -99,7 +99,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:186586
+Defined in: main.ts:186948
 
 product title
 
@@ -123,7 +123,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:186590
+Defined in: main.ts:186952
 
 URL to the product page on the seller’s website
 
@@ -133,6 +133,6 @@ URL to the product page on the seller’s website
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:186582
+Defined in: main.ts:186944
 
 XPath of the element

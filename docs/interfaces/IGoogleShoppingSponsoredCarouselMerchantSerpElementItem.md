@@ -6,7 +6,7 @@
 
 # Interface: IGoogleShoppingSponsoredCarouselMerchantSerpElementItem
 
-Defined in: main.ts:186799
+Defined in: main.ts:187161
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:186799
 
 > `optional` **items**: [`GoogleShoppingSponsoredCarouselElement`](../classes/GoogleShoppingSponsoredCarouselElement.md)[]
 
-Defined in: main.ts:186805
+Defined in: main.ts:187167
 
 items in SERP
 
@@ -78,7 +78,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:186803
+Defined in: main.ts:187165
 
 product title
 
@@ -102,6 +102,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:186801
+Defined in: main.ts:187163
 
 XPath of the element

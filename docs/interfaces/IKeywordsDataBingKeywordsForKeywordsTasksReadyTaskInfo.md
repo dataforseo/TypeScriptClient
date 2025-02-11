@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingKeywordsForKeywordsTasksReadyTaskInfo
 
-Defined in: main.ts:143346
+Defined in: main.ts:143510
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo`](../classes/KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:143348
+Defined in: main.ts:143512
 
 array of results
 

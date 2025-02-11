@@ -6,7 +6,7 @@
 
 # Interface: IOnPageContentParsingLiveResultInfo
 
-Defined in: main.ts:174168
+Defined in: main.ts:174532
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:174168
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:174171
+Defined in: main.ts:174535
 
 status of the crawling session
 possible values: in_progress, finished
@@ -29,7 +29,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
 
-Defined in: main.ts:174173
+Defined in: main.ts:174537
 
 details of the crawling session
 
@@ -37,9 +37,9 @@ details of the crawling session
 
 ### items?
 
-> `optional` **items**: [`OnPageContentParsingItem`](../classes/OnPageContentParsingItem.md)[]
+> `optional` **items**: [`OnPageContentParsingLiveItem`](../classes/OnPageContentParsingLiveItem.md)[]
 
-Defined in: main.ts:174177
+Defined in: main.ts:174541
 
 items array
 
@@ -49,6 +49,6 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:174175
+Defined in: main.ts:174539
 
 number of items in the results array

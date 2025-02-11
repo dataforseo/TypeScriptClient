@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleQuestionsAndAnswersTaskGetTaskInfo
 
-Defined in: main.ts:224940
+Defined in: main.ts:225448
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo`](../classes/BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md)[]
 
-Defined in: main.ts:224942
+Defined in: main.ts:225450
 
 array of results
 

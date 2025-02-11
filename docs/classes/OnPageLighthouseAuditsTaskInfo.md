@@ -6,7 +6,7 @@
 
 # Class: OnPageLighthouseAuditsTaskInfo
 
-Defined in: main.ts:175086
+Defined in: main.ts:175450
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:175086
 
 > **new OnPageLighthouseAuditsTaskInfo**(`data`?): [`OnPageLighthouseAuditsTaskInfo`](OnPageLighthouseAuditsTaskInfo.md)
 
-Defined in: main.ts:175092
+Defined in: main.ts:175456
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`OnPageLighthouseAuditsResultInfo`](OnPageLighthouseAuditsResultInfo.md)[]
 
-Defined in: main.ts:175088
+Defined in: main.ts:175452
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:175096
+Defined in: main.ts:175460
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:175096
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:175118
+Defined in: main.ts:175482
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:175118
 
 > `static` **fromJS**(`data`): [`OnPageLighthouseAuditsTaskInfo`](OnPageLighthouseAuditsTaskInfo.md)
 
-Defined in: main.ts:175111
+Defined in: main.ts:175475
 
 #### Parameters
 

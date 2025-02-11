@@ -6,7 +6,7 @@
 
 # Interface: IOnPageKeywordDensityTaskInfo
 
-Defined in: main.ts:171490
+Defined in: main.ts:171654
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`OnPageKeywordDensityResultInfo`](../classes/OnPageKeywordDensityResultInfo.md)[]
 
-Defined in: main.ts:171492
+Defined in: main.ts:171656
 
 array of results
 

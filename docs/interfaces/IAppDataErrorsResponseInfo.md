@@ -6,7 +6,7 @@
 
 # Interface: IAppDataErrorsResponseInfo
 
-Defined in: main.ts:198549
+Defined in: main.ts:199051
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataErrorsTaskInfo`](../classes/AppDataErrorsTaskInfo.md)[]
 
-Defined in: main.ts:198551
+Defined in: main.ts:199053
 
 array of tasks
 

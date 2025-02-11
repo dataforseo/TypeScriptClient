@@ -6,7 +6,7 @@
 
 # Class: ProductInformationExtendedItem
 
-Defined in: main.ts:194434
+Defined in: main.ts:194922
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:194434
 
 > **new ProductInformationExtendedItem**(`data`?): [`ProductInformationExtendedItem`](ProductInformationExtendedItem.md)
 
-Defined in: main.ts:194440
+Defined in: main.ts:194928
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:24257
 
 > `optional` **contents**: [`ProductInformationRows`](ProductInformationRows.md)[]
 
-Defined in: main.ts:194436
+Defined in: main.ts:194924
 
 contains information specified about the product within the section_name
 
@@ -110,7 +110,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:194445
+Defined in: main.ts:194933
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:194445
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:194467
+Defined in: main.ts:194955
 
 #### Parameters
 
@@ -154,7 +154,7 @@ Defined in: main.ts:194467
 
 > `static` **fromJS**(`data`): [`ProductInformationExtendedItem`](ProductInformationExtendedItem.md)
 
-Defined in: main.ts:194460
+Defined in: main.ts:194948
 
 #### Parameters
 

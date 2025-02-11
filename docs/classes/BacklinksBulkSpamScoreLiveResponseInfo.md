@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkSpamScoreLiveResponseInfo
 
-Defined in: main.ts:161233
+Defined in: main.ts:161397
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:161233
 
 > **new BacklinksBulkSpamScoreLiveResponseInfo**(`data`?): [`BacklinksBulkSpamScoreLiveResponseInfo`](BacklinksBulkSpamScoreLiveResponseInfo.md)
 
-Defined in: main.ts:161239
+Defined in: main.ts:161403
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BacklinksBulkSpamScoreLiveTaskInfo`](BacklinksBulkSpamScoreLiveTaskInfo.md)[]
 
-Defined in: main.ts:161235
+Defined in: main.ts:161399
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:161243
+Defined in: main.ts:161407
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:161243
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:161265
+Defined in: main.ts:161429
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:161265
 
 > `static` **fromJS**(`data`): [`BacklinksBulkSpamScoreLiveResponseInfo`](BacklinksBulkSpamScoreLiveResponseInfo.md)
 
-Defined in: main.ts:161258
+Defined in: main.ts:161422
 
 #### Parameters
 

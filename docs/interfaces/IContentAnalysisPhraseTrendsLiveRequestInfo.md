@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisPhraseTrendsLiveRequestInfo
 
-Defined in: main.ts:180113
+Defined in: main.ts:180475
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:180113
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:180164
+Defined in: main.ts:180526
 
 starting date of the time range
 required field
@@ -32,7 +32,7 @@ example:
 
 > `optional` **date\_group**: `string`
 
-Defined in: main.ts:180176
+Defined in: main.ts:180538
 
 time range which will be used to group the results
 optional field
@@ -45,7 +45,7 @@ possible values: day, week, month
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:180171
+Defined in: main.ts:180533
 
 ending date of the time range
 optional field
@@ -60,14 +60,14 @@ example:
 
 > `optional` **initial\_dataset\_filter**: `string`[]
 
-Defined in: main.ts:180193
+Defined in: main.ts:180555
 
 initial dataset filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like, has, has_not
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like, has, has_not, match, not_match
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["domain","<>", "logitech.com"]
@@ -85,7 +85,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:180158
+Defined in: main.ts:180520
 
 maximum number of elements within internal arrays
 optional field
@@ -104,7 +104,7 @@ maximum value: 20
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:180122
+Defined in: main.ts:180484
 
 target keyword
 required field
@@ -121,7 +121,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **keyword\_fields**: `object`
 
-Defined in: main.ts:180134
+Defined in: main.ts:180496
 
 target keyword fields and target keywords
 optional field
@@ -145,7 +145,7 @@ example:
 
 > `optional` **page\_type**: `string`[]
 
-Defined in: main.ts:180140
+Defined in: main.ts:180502
 
 target page types
 optional field
@@ -159,7 +159,7 @@ possible values:
 
 > `optional` **search\_mode**: `string`
 
-Defined in: main.ts:180147
+Defined in: main.ts:180509
 
 results grouping type
 optional field
@@ -174,7 +174,7 @@ default value: as_is
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:180199
+Defined in: main.ts:180561
 
 user-defined task identifier
 optional field

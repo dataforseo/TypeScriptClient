@@ -6,7 +6,7 @@
 
 # Interface: IRelatedSearchesSerpElementItem
 
-Defined in: main.ts:34034
+Defined in: main.ts:34050
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:34034
 
 > `optional` **items**: `string`[]
 
-Defined in: main.ts:34036
+Defined in: main.ts:34052
 
 contains arrays of specific images
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:34040
+Defined in: main.ts:34056
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP

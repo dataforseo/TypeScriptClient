@@ -6,7 +6,7 @@
 
 # Class: SerpBaiduLocationsResponseInfo
 
-Defined in: main.ts:78485
+Defined in: main.ts:78521
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:78485
 
 > **new SerpBaiduLocationsResponseInfo**(`data`?): [`SerpBaiduLocationsResponseInfo`](SerpBaiduLocationsResponseInfo.md)
 
-Defined in: main.ts:78491
+Defined in: main.ts:78527
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpBaiduLocationsTaskInfo`](SerpBaiduLocationsTaskInfo.md)[]
 
-Defined in: main.ts:78487
+Defined in: main.ts:78523
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:78495
+Defined in: main.ts:78531
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:78495
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:78517
+Defined in: main.ts:78553
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:78517
 
 > `static` **fromJS**(`data`): [`SerpBaiduLocationsResponseInfo`](SerpBaiduLocationsResponseInfo.md)
 
-Defined in: main.ts:78510
+Defined in: main.ts:78546
 
 #### Parameters
 

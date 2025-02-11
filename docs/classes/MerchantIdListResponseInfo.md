@@ -6,7 +6,7 @@
 
 # Class: MerchantIdListResponseInfo
 
-Defined in: main.ts:184301
+Defined in: main.ts:184663
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:184301
 
 > **new MerchantIdListResponseInfo**(`data`?): [`MerchantIdListResponseInfo`](MerchantIdListResponseInfo.md)
 
-Defined in: main.ts:184307
+Defined in: main.ts:184669
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`MerchantIdListTaskInfo`](MerchantIdListTaskInfo.md)[]
 
-Defined in: main.ts:184303
+Defined in: main.ts:184665
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:184311
+Defined in: main.ts:184673
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:184311
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:184333
+Defined in: main.ts:184695
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:184333
 
 > `static` **fromJS**(`data`): [`MerchantIdListResponseInfo`](MerchantIdListResponseInfo.md)
 
-Defined in: main.ts:184326
+Defined in: main.ts:184688
 
 #### Parameters
 

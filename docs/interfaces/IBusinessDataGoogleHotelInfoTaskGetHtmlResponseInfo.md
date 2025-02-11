@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleHotelInfoTaskGetHtmlResponseInfo
 
-Defined in: main.ts:220243
+Defined in: main.ts:220751
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BusinessDataGoogleHotelInfoTaskGetHtmlTaskInfo`](../classes/BusinessDataGoogleHotelInfoTaskGetHtmlTaskInfo.md)[]
 
-Defined in: main.ts:220245
+Defined in: main.ts:220753
 
 array of tasks
 

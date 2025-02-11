@@ -6,7 +6,7 @@
 
 # Class: OnPageNonIndexableItem
 
-Defined in: main.ts:170436
+Defined in: main.ts:170600
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:170436
 
 > **new OnPageNonIndexableItem**(`data`?): [`OnPageNonIndexableItem`](OnPageNonIndexableItem.md)
 
-Defined in: main.ts:170445
+Defined in: main.ts:170609
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:170445
 
 > `optional` **reason**: `string`
 
-Defined in: main.ts:170439
+Defined in: main.ts:170603
 
 the reason why the page is non-indexable
 can take the following values: robots_txt, meta_tag, http_header, attribute, too_many_redirects
@@ -55,7 +55,7 @@ can take the following values: robots_txt, meta_tag, http_header, attribute, too
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:170441
+Defined in: main.ts:170605
 
 url of the non-indexable page
 
@@ -69,7 +69,7 @@ url of the non-indexable page
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:170454
+Defined in: main.ts:170618
 
 #### Parameters
 
@@ -87,7 +87,7 @@ Defined in: main.ts:170454
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:170472
+Defined in: main.ts:170636
 
 #### Parameters
 
@@ -105,7 +105,7 @@ Defined in: main.ts:170472
 
 > `static` **fromJS**(`data`): [`OnPageNonIndexableItem`](OnPageNonIndexableItem.md)
 
-Defined in: main.ts:170465
+Defined in: main.ts:170629
 
 #### Parameters
 

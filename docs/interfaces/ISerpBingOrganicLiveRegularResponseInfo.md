@@ -6,7 +6,7 @@
 
 # Interface: ISerpBingOrganicLiveRegularResponseInfo
 
-Defined in: main.ts:65550
+Defined in: main.ts:65580
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpBingOrganicLiveRegularTaskInfo`](../classes/SerpBingOrganicLiveRegularTaskInfo.md)[]
 
-Defined in: main.ts:65552
+Defined in: main.ts:65582
 
 array of tasks
 

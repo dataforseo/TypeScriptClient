@@ -6,7 +6,7 @@
 
 # Class: FoundOnWebSerpElementItem
 
-Defined in: main.ts:36913
+Defined in: main.ts:36929
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:36913
 
 > **new FoundOnWebSerpElementItem**(`data`?): [`FoundOnWebSerpElementItem`](FoundOnWebSerpElementItem.md)
 
-Defined in: main.ts:36927
+Defined in: main.ts:36943
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`FoundOnWebElement`](FoundOnWebElement.md)[]
 
-Defined in: main.ts:36919
+Defined in: main.ts:36935
 
 contains arrays of specific images
 
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:36923
+Defined in: main.ts:36939
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -149,7 +149,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **related\_searches**: `string`[]
 
-Defined in: main.ts:36917
+Defined in: main.ts:36933
 
 search queries related to the elment
 
@@ -163,7 +163,7 @@ search queries related to the elment
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:36915
+Defined in: main.ts:36931
 
 title of the row
 
@@ -213,7 +213,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:36932
+Defined in: main.ts:36948
 
 #### Parameters
 
@@ -235,7 +235,7 @@ Defined in: main.ts:36932
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:36961
+Defined in: main.ts:36977
 
 #### Parameters
 
@@ -257,7 +257,7 @@ Defined in: main.ts:36961
 
 > `static` **fromJS**(`data`): [`FoundOnWebSerpElementItem`](FoundOnWebSerpElementItem.md)
 
-Defined in: main.ts:36954
+Defined in: main.ts:36970
 
 #### Parameters
 

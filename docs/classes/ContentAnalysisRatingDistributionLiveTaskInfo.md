@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisRatingDistributionLiveTaskInfo
 
-Defined in: main.ts:179830
+Defined in: main.ts:180192
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:179830
 
 > **new ContentAnalysisRatingDistributionLiveTaskInfo**(`data`?): [`ContentAnalysisRatingDistributionLiveTaskInfo`](ContentAnalysisRatingDistributionLiveTaskInfo.md)
 
-Defined in: main.ts:179836
+Defined in: main.ts:180198
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`ContentAnalysisRatingDistributionLiveResultInfo`](ContentAnalysisRatingDistributionLiveResultInfo.md)[]
 
-Defined in: main.ts:179832
+Defined in: main.ts:180194
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:179840
+Defined in: main.ts:180202
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:179840
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:179862
+Defined in: main.ts:180224
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:179862
 
 > `static` **fromJS**(`data`): [`ContentAnalysisRatingDistributionLiveTaskInfo`](ContentAnalysisRatingDistributionLiveTaskInfo.md)
 
-Defined in: main.ts:179855
+Defined in: main.ts:180217
 
 #### Parameters
 

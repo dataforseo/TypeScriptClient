@@ -6,7 +6,7 @@
 
 # Interface: IPodcastsSerpElementItem
 
-Defined in: main.ts:34946
+Defined in: main.ts:34962
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:34946
 
 > `optional` **items**: [`PodcastsElement`](../classes/PodcastsElement.md)[]
 
-Defined in: main.ts:34948
+Defined in: main.ts:34964
 
 contains arrays of specific images
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:34952
+Defined in: main.ts:34968
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP

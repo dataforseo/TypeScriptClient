@@ -6,7 +6,7 @@
 
 # Interface: IMerchantGoogleLocationsCountryResponseInfo
 
-Defined in: main.ts:185237
+Defined in: main.ts:185599
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`MerchantGoogleLocationsCountryTaskInfo`](../classes/MerchantGoogleLocationsCountryTaskInfo.md)[]
 
-Defined in: main.ts:185239
+Defined in: main.ts:185601
 
 array of tasks
 

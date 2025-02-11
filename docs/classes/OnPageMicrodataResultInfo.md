@@ -6,7 +6,7 @@
 
 # Class: OnPageMicrodataResultInfo
 
-Defined in: main.ts:171938
+Defined in: main.ts:172102
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:171938
 
 > **new OnPageMicrodataResultInfo**(`data`?): [`OnPageMicrodataResultInfo`](OnPageMicrodataResultInfo.md)
 
-Defined in: main.ts:171953
+Defined in: main.ts:172117
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:171953
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:171941
+Defined in: main.ts:172105
 
 status of the crawling session
 possible values: in_progress, finished
@@ -55,7 +55,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:171943
+Defined in: main.ts:172107
 
 details of the crawling session
 
@@ -69,7 +69,7 @@ details of the crawling session
 
 > `optional` **items**: [`OnPageMicrodataItem`](OnPageMicrodataItem.md)[]
 
-Defined in: main.ts:171949
+Defined in: main.ts:172113
 
 items array
 
@@ -83,7 +83,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:171947
+Defined in: main.ts:172111
 
 number of items in the results array
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 > `optional` **test\_summary**: [`TestSummary`](TestSummary.md)
 
-Defined in: main.ts:171945
+Defined in: main.ts:172109
 
 microdata validation test results
 
@@ -111,7 +111,7 @@ microdata validation test results
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:171962
+Defined in: main.ts:172126
 
 #### Parameters
 
@@ -129,7 +129,7 @@ Defined in: main.ts:171962
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:171987
+Defined in: main.ts:172151
 
 #### Parameters
 
@@ -147,7 +147,7 @@ Defined in: main.ts:171987
 
 > `static` **fromJS**(`data`): [`OnPageMicrodataResultInfo`](OnPageMicrodataResultInfo.md)
 
-Defined in: main.ts:171980
+Defined in: main.ts:172144
 
 #### Parameters
 

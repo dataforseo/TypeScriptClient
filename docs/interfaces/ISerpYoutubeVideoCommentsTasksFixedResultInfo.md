@@ -6,7 +6,7 @@
 
 # Interface: ISerpYoutubeVideoCommentsTasksFixedResultInfo
 
-Defined in: main.ts:73666
+Defined in: main.ts:73702
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:73666
 
 > `optional` **date\_fixed**: `string`
 
-Defined in: main.ts:73676
+Defined in: main.ts:73712
 
 date when the task was fixed (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was fixed (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:73684
+Defined in: main.ts:73720
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -39,7 +39,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:73687
+Defined in: main.ts:73723
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -50,7 +50,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:73681
+Defined in: main.ts:73717
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -61,7 +61,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:73669
+Defined in: main.ts:73705
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:73671
+Defined in: main.ts:73707
 
 search engine specified when setting the task
 
@@ -82,7 +82,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:73674
+Defined in: main.ts:73710
 
 type of search engine
 can take the following values: video_comments
@@ -93,6 +93,6 @@ can take the following values: video_comments
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:73678
+Defined in: main.ts:73714
 
 user-defined task identifier

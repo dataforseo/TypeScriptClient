@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleNewsTaskGetAdvancedResponseInfo
 
-Defined in: main.ts:46626
+Defined in: main.ts:46642
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleNewsTaskGetAdvancedTaskInfo`](../classes/SerpGoogleNewsTaskGetAdvancedTaskInfo.md)[]
 
-Defined in: main.ts:46628
+Defined in: main.ts:46644
 
 array of tasks
 

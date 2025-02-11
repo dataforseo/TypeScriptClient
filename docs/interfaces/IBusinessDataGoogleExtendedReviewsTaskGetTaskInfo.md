@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleExtendedReviewsTaskGetTaskInfo
 
-Defined in: main.ts:223736
+Defined in: main.ts:224244
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataGoogleExtendedReviewsTaskGetResultInfo`](../classes/BusinessDataGoogleExtendedReviewsTaskGetResultInfo.md)[]
 
-Defined in: main.ts:223738
+Defined in: main.ts:224246
 
 array of results
 

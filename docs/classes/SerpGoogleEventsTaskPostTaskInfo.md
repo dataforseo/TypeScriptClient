@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleEventsTaskPostTaskInfo
 
-Defined in: main.ts:48217
+Defined in: main.ts:48233
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:48217
 
 > **new SerpGoogleEventsTaskPostTaskInfo**(`data`?): [`SerpGoogleEventsTaskPostTaskInfo`](SerpGoogleEventsTaskPostTaskInfo.md)
 
-Defined in: main.ts:48224
+Defined in: main.ts:48240
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:48220
+Defined in: main.ts:48236
 
 array of results
 in this case, the value will be null
@@ -215,7 +215,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:48228
+Defined in: main.ts:48244
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:48228
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:48246
+Defined in: main.ts:48262
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:48246
 
 > `static` **fromJS**(`data`): [`SerpGoogleEventsTaskPostTaskInfo`](SerpGoogleEventsTaskPostTaskInfo.md)
 
-Defined in: main.ts:48239
+Defined in: main.ts:48255
 
 #### Parameters
 

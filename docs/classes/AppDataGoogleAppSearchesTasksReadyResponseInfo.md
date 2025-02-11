@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppSearchesTasksReadyResponseInfo
 
-Defined in: main.ts:199769
+Defined in: main.ts:200271
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:199769
 
 > **new AppDataGoogleAppSearchesTasksReadyResponseInfo**(`data`?): [`AppDataGoogleAppSearchesTasksReadyResponseInfo`](AppDataGoogleAppSearchesTasksReadyResponseInfo.md)
 
-Defined in: main.ts:199775
+Defined in: main.ts:200277
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataGoogleAppSearchesTasksReadyTaskInfo`](AppDataGoogleAppSearchesTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:199771
+Defined in: main.ts:200273
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:199779
+Defined in: main.ts:200281
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:199779
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:199801
+Defined in: main.ts:200303
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:199801
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppSearchesTasksReadyResponseInfo`](AppDataGoogleAppSearchesTasksReadyResponseInfo.md)
 
-Defined in: main.ts:199794
+Defined in: main.ts:200296
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleLocalFinderLiveAdvancedResponseInfo
 
-Defined in: main.ts:44666
+Defined in: main.ts:44682
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:44666
 
 > **new SerpGoogleLocalFinderLiveAdvancedResponseInfo**(`data`?): [`SerpGoogleLocalFinderLiveAdvancedResponseInfo`](SerpGoogleLocalFinderLiveAdvancedResponseInfo.md)
 
-Defined in: main.ts:44672
+Defined in: main.ts:44688
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleLocalFinderLiveAdvancedTaskInfo`](SerpGoogleLocalFinderLiveAdvancedTaskInfo.md)[]
 
-Defined in: main.ts:44668
+Defined in: main.ts:44684
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:44676
+Defined in: main.ts:44692
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:44676
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:44698
+Defined in: main.ts:44714
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:44698
 
 > `static` **fromJS**(`data`): [`SerpGoogleLocalFinderLiveAdvancedResponseInfo`](SerpGoogleLocalFinderLiveAdvancedResponseInfo.md)
 
-Defined in: main.ts:44691
+Defined in: main.ts:44707
 
 #### Parameters
 

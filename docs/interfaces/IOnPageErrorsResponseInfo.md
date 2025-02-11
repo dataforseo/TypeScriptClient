@@ -6,7 +6,7 @@
 
 # Interface: IOnPageErrorsResponseInfo
 
-Defined in: main.ts:163677
+Defined in: main.ts:163841
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageErrorsTaskInfo`](../classes/OnPageErrorsTaskInfo.md)[]
 
-Defined in: main.ts:163679
+Defined in: main.ts:163843
 
 array of tasks
 

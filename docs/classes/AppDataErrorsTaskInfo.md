@@ -6,7 +6,7 @@
 
 # Class: AppDataErrorsTaskInfo
 
-Defined in: main.ts:198446
+Defined in: main.ts:198948
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:198446
 
 > **new AppDataErrorsTaskInfo**(`data`?): [`AppDataErrorsTaskInfo`](AppDataErrorsTaskInfo.md)
 
-Defined in: main.ts:198452
+Defined in: main.ts:198954
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`AppDataErrorsResultInfo`](AppDataErrorsResultInfo.md)[]
 
-Defined in: main.ts:198448
+Defined in: main.ts:198950
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:198456
+Defined in: main.ts:198958
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:198456
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:198478
+Defined in: main.ts:198980
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:198478
 
 > `static` **fromJS**(`data`): [`AppDataErrorsTaskInfo`](AppDataErrorsTaskInfo.md)
 
-Defined in: main.ts:198471
+Defined in: main.ts:198973
 
 #### Parameters
 

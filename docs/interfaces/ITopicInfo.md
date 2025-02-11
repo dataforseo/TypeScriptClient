@@ -6,7 +6,7 @@
 
 # Interface: ITopicInfo
 
-Defined in: main.ts:173451
+Defined in: main.ts:174285
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:173451
 
 > `optional` **author**: `string`
 
-Defined in: main.ts:173457
+Defined in: main.ts:174291
 
 content author name
 
@@ -28,7 +28,7 @@ content author name
 
 > `optional` **h\_title**: `string`
 
-Defined in: main.ts:173453
+Defined in: main.ts:174287
 
 meta title
 
@@ -38,7 +38,7 @@ meta title
 
 > `optional` **language**: `string`
 
-Defined in: main.ts:173459
+Defined in: main.ts:174293
 
 content language
 
@@ -46,9 +46,9 @@ content language
 
 ### level?
 
-> `optional` **level**: `number`
+> `optional` **level**: `string`
 
-Defined in: main.ts:173461
+Defined in: main.ts:174295
 
 HTML level
 
@@ -58,7 +58,7 @@ HTML level
 
 > `optional` **main\_title**: `string`
 
-Defined in: main.ts:173455
+Defined in: main.ts:174289
 
 main title of the block
 
@@ -68,7 +68,7 @@ main title of the block
 
 > `optional` **primary\_content**: [`ContentItemInfo`](../classes/ContentItemInfo.md)[]
 
-Defined in: main.ts:173464
+Defined in: main.ts:174298
 
 primary content on the page
 you can find more information about content priority calculation in this help center article
@@ -79,7 +79,7 @@ you can find more information about content priority calculation in this help ce
 
 > `optional` **secondary\_content**: [`ContentItemInfo`](../classes/ContentItemInfo.md)[]
 
-Defined in: main.ts:173467
+Defined in: main.ts:174301
 
 secondary content on the page
 you can find more information about content priority calculation in this help center article
@@ -90,6 +90,6 @@ you can find more information about content priority calculation in this help ce
 
 > `optional` **table\_content**: [`TableContent`](../classes/TableContent.md)[]
 
-Defined in: main.ts:173469
+Defined in: main.ts:174303
 
 content of the table on the page

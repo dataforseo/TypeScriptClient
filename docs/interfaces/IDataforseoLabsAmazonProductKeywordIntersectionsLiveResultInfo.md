@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo
 
-Defined in: main.ts:115157
+Defined in: main.ts:115225
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:115157
 
 > `optional` **asins**: `object`
 
-Defined in: main.ts:115161
+Defined in: main.ts:115229
 
 ASINs in a POST array
 
@@ -32,7 +32,7 @@ ASINs in a POST array
 
 > `optional` **items**: [`DataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](../classes/DataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md)[]
 
-Defined in: main.ts:115173
+Defined in: main.ts:115241
 
 contains detected Amazon product competitors and related data
 
@@ -42,7 +42,7 @@ contains detected Amazon product competitors and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:115171
+Defined in: main.ts:115239
 
 the number of results returned in the items array
 
@@ -52,7 +52,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:115167
+Defined in: main.ts:115235
 
 language code in a POST array
 if there is no data, then the value is null
@@ -63,7 +63,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:115164
+Defined in: main.ts:115232
 
 location code in a POST array
 if there is no data, then the value is null
@@ -74,7 +74,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:115159
+Defined in: main.ts:115227
 
 search engine type
 
@@ -84,6 +84,6 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:115169
+Defined in: main.ts:115237
 
 total amount of results in our database relevant to your request

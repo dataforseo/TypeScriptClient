@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisSentimentAnalysisLiveTaskInfo
 
-Defined in: main.ts:179446
+Defined in: main.ts:179808
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`ContentAnalysisSentimentAnalysisLiveResultInfo`](../classes/ContentAnalysisSentimentAnalysisLiveResultInfo.md)[]
 
-Defined in: main.ts:179448
+Defined in: main.ts:179810
 
 array of results
 

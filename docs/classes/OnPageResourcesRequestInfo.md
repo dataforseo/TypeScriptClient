@@ -6,7 +6,7 @@
 
 # Class: OnPageResourcesRequestInfo
 
-Defined in: main.ts:167586
+Defined in: main.ts:167750
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:167586
 
 > **new OnPageResourcesRequestInfo**(`data`?): [`OnPageResourcesRequestInfo`](OnPageResourcesRequestInfo.md)
 
-Defined in: main.ts:167658
+Defined in: main.ts:167822
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:167658
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:167622
+Defined in: main.ts:167786
 
 array of results filtering parameters
 optional field
@@ -66,7 +66,7 @@ The full list of possible filters is available by this link.
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:167592
+Defined in: main.ts:167756
 
 ID of the task
 required field
@@ -84,7 +84,7 @@ example:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:167603
+Defined in: main.ts:167767
 
 the maximum number of returned resources
 optional field
@@ -101,7 +101,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:167608
+Defined in: main.ts:167772
 
 offset in the results array of returned resources
 optional field
@@ -118,7 +118,7 @@ if you specify the 10 value, the first ten resources in the results array will b
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:167648
+Defined in: main.ts:167812
 
 results sorting rules
 optional field
@@ -144,7 +144,7 @@ example:
 
 > `optional` **relevant\_pages\_filters**: `string`[]
 
-Defined in: main.ts:167634
+Defined in: main.ts:167798
 
 filter the resources by relevant pages
 optional field
@@ -168,7 +168,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:167654
+Defined in: main.ts:167818
 
 user-defined task identifier
 optional field
@@ -186,7 +186,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:167598
+Defined in: main.ts:167762
 
 page URL
 optional field
@@ -204,7 +204,7 @@ if you do not indicate a url when setting a task, resource’s meta in the resul
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:167667
+Defined in: main.ts:167831
 
 #### Parameters
 
@@ -222,7 +222,7 @@ Defined in: main.ts:167667
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:167703
+Defined in: main.ts:167867
 
 #### Parameters
 
@@ -240,7 +240,7 @@ Defined in: main.ts:167703
 
 > `static` **fromJS**(`data`): [`OnPageResourcesRequestInfo`](OnPageResourcesRequestInfo.md)
 
-Defined in: main.ts:167696
+Defined in: main.ts:167860
 
 #### Parameters
 

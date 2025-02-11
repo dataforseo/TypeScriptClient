@@ -6,7 +6,7 @@
 
 # Class: FindResultsOnDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108927
+Defined in: main.ts:108983
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:108927
 
 > **new FindResultsOnDataforseoLabsSerpElementItem**(`data`?): [`FindResultsOnDataforseoLabsSerpElementItem`](FindResultsOnDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108933
+Defined in: main.ts:108989
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **items**: [`ShortVideosElement`](ShortVideosElement.md)[]
 
-Defined in: main.ts:108929
+Defined in: main.ts:108985
 
 elements of search results found in SERP
 
@@ -168,7 +168,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:108938
+Defined in: main.ts:108994
 
 #### Parameters
 
@@ -190,7 +190,7 @@ Defined in: main.ts:108938
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:108960
+Defined in: main.ts:109016
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:108960
 
 > `static` **fromJS**(`data`): [`FindResultsOnDataforseoLabsSerpElementItem`](FindResultsOnDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108953
+Defined in: main.ts:109009
 
 #### Parameters
 

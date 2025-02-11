@@ -6,7 +6,7 @@
 
 # Class: OnPageRawHtmlResponseInfo
 
-Defined in: main.ts:172377
+Defined in: main.ts:172541
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:172377
 
 > **new OnPageRawHtmlResponseInfo**(`data`?): [`OnPageRawHtmlResponseInfo`](OnPageRawHtmlResponseInfo.md)
 
-Defined in: main.ts:172383
+Defined in: main.ts:172547
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageRawHtmlTaskInfo`](OnPageRawHtmlTaskInfo.md)[]
 
-Defined in: main.ts:172379
+Defined in: main.ts:172543
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:172387
+Defined in: main.ts:172551
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:172387
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:172409
+Defined in: main.ts:172573
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:172409
 
 > `static` **fromJS**(`data`): [`OnPageRawHtmlResponseInfo`](OnPageRawHtmlResponseInfo.md)
 
-Defined in: main.ts:172402
+Defined in: main.ts:172566
 
 #### Parameters
 

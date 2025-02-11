@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsWhoisOverviewLiveTaskInfo
 
-Defined in: main.ts:89860
+Defined in: main.ts:89896
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DomainAnalyticsWhoisOverviewLiveResultInfo`](../classes/DomainAnalyticsWhoisOverviewLiveResultInfo.md)[]
 
-Defined in: main.ts:89862
+Defined in: main.ts:89898
 
 array of results
 

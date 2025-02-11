@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo
 
-Defined in: main.ts:147561
+Defined in: main.ts:147725
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:147561
 
 > **new KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo**(`data`?): [`KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo`](KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo.md)
 
-Defined in: main.ts:147567
+Defined in: main.ts:147731
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataClickstreamDataLocationsAndLanguagesTaskInfo`](KeywordsDataClickstreamDataLocationsAndLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:147563
+Defined in: main.ts:147727
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:147571
+Defined in: main.ts:147735
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:147571
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:147593
+Defined in: main.ts:147757
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:147593
 
 > `static` **fromJS**(`data`): [`KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo`](KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo.md)
 
-Defined in: main.ts:147586
+Defined in: main.ts:147750
 
 #### Parameters
 

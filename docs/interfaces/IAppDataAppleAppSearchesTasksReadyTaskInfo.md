@@ -6,7 +6,7 @@
 
 # Interface: IAppDataAppleAppSearchesTasksReadyTaskInfo
 
-Defined in: main.ts:205752
+Defined in: main.ts:206254
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`AppDataAppleAppSearchesTasksReadyResultInfo`](../classes/AppDataAppleAppSearchesTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:205754
+Defined in: main.ts:206256
 
 array of results
 

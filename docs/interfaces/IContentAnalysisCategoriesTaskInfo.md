@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisCategoriesTaskInfo
 
-Defined in: main.ts:177326
+Defined in: main.ts:177690
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`ContentAnalysisCategoriesResultInfo`](../classes/ContentAnalysisCategoriesResultInfo.md)[]
 
-Defined in: main.ts:177328
+Defined in: main.ts:177692
 
 array of results
 

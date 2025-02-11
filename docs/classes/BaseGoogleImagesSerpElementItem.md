@@ -6,7 +6,7 @@
 
 # Class: BaseGoogleImagesSerpElementItem
 
-Defined in: main.ts:50729
+Defined in: main.ts:50745
 
 ## Extended by
 
@@ -24,7 +24,7 @@ Defined in: main.ts:50729
 
 > **new BaseGoogleImagesSerpElementItem**(`data`?): [`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md)
 
-Defined in: main.ts:50744
+Defined in: main.ts:50760
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: main.ts:50744
 
 > `protected` **\_discriminator**: `string`
 
-Defined in: main.ts:50742
+Defined in: main.ts:50758
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:50742
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:50738
+Defined in: main.ts:50754
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -65,7 +65,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:50735
+Defined in: main.ts:50751
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -81,7 +81,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:50731
+Defined in: main.ts:50747
 
 type of element
 
@@ -95,7 +95,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:50740
+Defined in: main.ts:50756
 
 the XPath of the element
 
@@ -109,7 +109,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:50754
+Defined in: main.ts:50770
 
 #### Parameters
 
@@ -127,7 +127,7 @@ Defined in: main.ts:50754
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:50785
+Defined in: main.ts:50801
 
 #### Parameters
 
@@ -145,7 +145,7 @@ Defined in: main.ts:50785
 
 > `static` **fromJS**(`data`): [`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md)
 
-Defined in: main.ts:50763
+Defined in: main.ts:50779
 
 #### Parameters
 

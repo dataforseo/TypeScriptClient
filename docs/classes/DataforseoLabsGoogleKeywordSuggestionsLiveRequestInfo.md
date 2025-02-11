@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleKeywordSuggestionsLiveRequestInfo
 
-Defined in: main.ts:94300
+Defined in: main.ts:94334
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:94300
 
 > **new DataforseoLabsGoogleKeywordSuggestionsLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleKeywordSuggestionsLiveRequestInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveRequestInfo.md)
 
-Defined in: main.ts:94431
+Defined in: main.ts:94465
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:94431
 
 > `optional` **exact\_match**: `boolean`
 
-Defined in: main.ts:94364
+Defined in: main.ts:94398
 
 search for the exact phrase
 optional field
@@ -57,14 +57,14 @@ default value: false
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:94387
+Defined in: main.ts:94421
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, <=, >, >=, =, <>, in, not_in, ilike, not_ilike, like, not_like
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, match, not_match, ilike, not_ilike, like, not_like
 you can use the % operator with like and not_like, as well as ilike and not_ilike to match any string of zero or more characters
 example:
 ["keyword_info.search_volume",">",0]
@@ -87,7 +87,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:94369
+Defined in: main.ts:94403
 
 ignore highly similar keywords
 optional field
@@ -104,7 +104,7 @@ default value: false
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
-Defined in: main.ts:94359
+Defined in: main.ts:94393
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -123,7 +123,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 > `optional` **include\_seed\_keyword**: `boolean`
 
-Defined in: main.ts:94347
+Defined in: main.ts:94381
 
 include data for the seed keyword
 optional field
@@ -140,7 +140,7 @@ default value: false
 
 > `optional` **include\_serp\_info**: `boolean`
 
-Defined in: main.ts:94352
+Defined in: main.ts:94386
 
 include data from SERP for each keyword
 optional field
@@ -157,7 +157,7 @@ default value: false
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:94306
+Defined in: main.ts:94340
 
 keyword
 required field
@@ -175,7 +175,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:94342
+Defined in: main.ts:94376
 
 language code
 optional field
@@ -196,7 +196,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:94333
+Defined in: main.ts:94367
 
 full name of the language
 optional field
@@ -217,7 +217,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:94408
+Defined in: main.ts:94442
 
 the maximum number of returned keywords
 optional field
@@ -234,7 +234,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:94324
+Defined in: main.ts:94358
 
 location code
 optional field
@@ -255,7 +255,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:94315
+Defined in: main.ts:94349
 
 full name of the location
 optional field
@@ -276,7 +276,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:94413
+Defined in: main.ts:94447
 
 offset in the results array of returned keywords
 optional field
@@ -293,7 +293,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:94421
+Defined in: main.ts:94455
 
 offset token for subsequent requests
 optional field
@@ -313,7 +313,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:94403
+Defined in: main.ts:94437
 
 results sorting rules
 optional field
@@ -341,7 +341,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:94427
+Defined in: main.ts:94461
 
 user-defined task identifier
 optional field
@@ -359,7 +359,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:94440
+Defined in: main.ts:94474
 
 #### Parameters
 
@@ -377,7 +377,7 @@ Defined in: main.ts:94440
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:94480
+Defined in: main.ts:94514
 
 #### Parameters
 
@@ -395,7 +395,7 @@ Defined in: main.ts:94480
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleKeywordSuggestionsLiveRequestInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveRequestInfo.md)
 
-Defined in: main.ts:94473
+Defined in: main.ts:94507
 
 #### Parameters
 

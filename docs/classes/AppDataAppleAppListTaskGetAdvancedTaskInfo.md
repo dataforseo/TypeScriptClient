@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppListTaskGetAdvancedTaskInfo
 
-Defined in: main.ts:207710
+Defined in: main.ts:208212
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:207710
 
 > **new AppDataAppleAppListTaskGetAdvancedTaskInfo**(`data`?): [`AppDataAppleAppListTaskGetAdvancedTaskInfo`](AppDataAppleAppListTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:207716
+Defined in: main.ts:208218
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`AppDataAppleAppListTaskGetAdvancedResultInfo`](AppDataAppleAppListTaskGetAdvancedResultInfo.md)[]
 
-Defined in: main.ts:207712
+Defined in: main.ts:208214
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:207720
+Defined in: main.ts:208222
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:207720
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:207742
+Defined in: main.ts:208244
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:207742
 
 > `static` **fromJS**(`data`): [`AppDataAppleAppListTaskGetAdvancedTaskInfo`](AppDataAppleAppListTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:207735
+Defined in: main.ts:208237
 
 #### Parameters
 

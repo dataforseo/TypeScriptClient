@@ -6,7 +6,7 @@
 
 # Class: StocksBoxDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108983
+Defined in: main.ts:109039
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:108983
 
 > **new StocksBoxDataforseoLabsSerpElementItem**(`data`?): [`StocksBoxDataforseoLabsSerpElementItem`](StocksBoxDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:109005
+Defined in: main.ts:109061
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:108996
+Defined in: main.ts:109052
 
 domain where a link points
 
@@ -74,7 +74,7 @@ domain where a link points
 
 > `optional` **graph**: [`Graph`](Graph.md)
 
-Defined in: main.ts:109001
+Defined in: main.ts:109057
 
 contains data provided in the graph of the element
 
@@ -108,7 +108,7 @@ left, right
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:108992
+Defined in: main.ts:109048
 
 price of the shopping element
 
@@ -160,7 +160,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:108990
+Defined in: main.ts:109046
 
 text alongside the link title
 
@@ -174,7 +174,7 @@ text alongside the link title
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:108988
+Defined in: main.ts:109044
 
 source of the element
 indicates the source of information included in the shopping_element
@@ -189,7 +189,7 @@ indicates the source of information included in the shopping_element
 
 > `optional` **table**: [`Table`](Table.md)
 
-Defined in: main.ts:108999
+Defined in: main.ts:109055
 
 results table
 if there are none, equals null
@@ -204,7 +204,7 @@ if there are none, equals null
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:108985
+Defined in: main.ts:109041
 
 title of the result in SERP
 
@@ -236,7 +236,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:108994
+Defined in: main.ts:109050
 
 relevant URL of the Ad element in SERP
 
@@ -268,7 +268,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:109010
+Defined in: main.ts:109066
 
 #### Parameters
 
@@ -290,7 +290,7 @@ Defined in: main.ts:109010
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:109035
+Defined in: main.ts:109091
 
 #### Parameters
 
@@ -312,7 +312,7 @@ Defined in: main.ts:109035
 
 > `static` **fromJS**(`data`): [`StocksBoxDataforseoLabsSerpElementItem`](StocksBoxDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:109028
+Defined in: main.ts:109084
 
 #### Parameters
 

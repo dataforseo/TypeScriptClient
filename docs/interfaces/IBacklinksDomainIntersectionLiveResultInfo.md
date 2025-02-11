@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksDomainIntersectionLiveResultInfo
 
-Defined in: main.ts:158133
+Defined in: main.ts:158297
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:158133
 
 > `optional` **items**: [`BacklinksDomainIntersectionLiveItem`](../classes/BacklinksDomainIntersectionLiveItem.md)[]
 
-Defined in: main.ts:158141
+Defined in: main.ts:158305
 
 contains domain that link to all targets from the POST array
 
@@ -28,7 +28,7 @@ contains domain that link to all targets from the POST array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:158139
+Defined in: main.ts:158303
 
 the number of results returned in the items array
 
@@ -38,7 +38,7 @@ the number of results returned in the items array
 
 > `optional` **targets**: `object`
 
-Defined in: main.ts:158135
+Defined in: main.ts:158299
 
 target domains, subdomains or webpages in a POST array
 
@@ -52,6 +52,6 @@ target domains, subdomains or webpages in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:158137
+Defined in: main.ts:158301
 
 total amount of results relevant to your request

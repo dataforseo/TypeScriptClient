@@ -6,7 +6,7 @@
 
 # Class: GooglePostsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108185
+Defined in: main.ts:108241
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:108185
 
 > **new GooglePostsDataforseoLabsSerpElementItem**(`data`?): [`GooglePostsDataforseoLabsSerpElementItem`](GooglePostsDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108195
+Defined in: main.ts:108251
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:108191
+Defined in: main.ts:108247
 
 google-defined client id
 
@@ -74,7 +74,7 @@ google-defined client id
 
 > `optional` **feature**: `string`
 
-Defined in: main.ts:108189
+Defined in: main.ts:108245
 
 the additional feature of the review
 
@@ -108,7 +108,7 @@ left, right
 
 > `optional` **posts\_id**: `string`
 
-Defined in: main.ts:108187
+Defined in: main.ts:108243
 
 the identifier of the google_posts feature
 
@@ -196,7 +196,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:108200
+Defined in: main.ts:108256
 
 #### Parameters
 
@@ -218,7 +218,7 @@ Defined in: main.ts:108200
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:108220
+Defined in: main.ts:108276
 
 #### Parameters
 
@@ -240,7 +240,7 @@ Defined in: main.ts:108220
 
 > `static` **fromJS**(`data`): [`GooglePostsDataforseoLabsSerpElementItem`](GooglePostsDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108213
+Defined in: main.ts:108269
 
 #### Parameters
 

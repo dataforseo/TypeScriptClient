@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleMyBusinessInfoLiveRequestInfo
 
-Defined in: main.ts:214712
+Defined in: main.ts:215214
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:214712
 
 > **new BusinessDataGoogleMyBusinessInfoLiveRequestInfo**(`data`?): [`BusinessDataGoogleMyBusinessInfoLiveRequestInfo`](BusinessDataGoogleMyBusinessInfoLiveRequestInfo.md)
 
-Defined in: main.ts:214777
+Defined in: main.ts:215279
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:214777
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:214729
+Defined in: main.ts:215231
 
 keyword
 required field
@@ -69,7 +69,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:214767
+Defined in: main.ts:215269
 
 search engine language code
 required field if you don’t specify language_name
@@ -88,7 +88,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:214760
+Defined in: main.ts:215262
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -107,7 +107,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:214743
+Defined in: main.ts:215245
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -126,7 +126,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:214753
+Defined in: main.ts:215255
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -148,7 +148,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:214736
+Defined in: main.ts:215238
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -167,7 +167,7 @@ London,England,United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:214773
+Defined in: main.ts:215275
 
 user-defined task identifier
 optional field
@@ -185,7 +185,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:214786
+Defined in: main.ts:215288
 
 #### Parameters
 
@@ -203,7 +203,7 @@ Defined in: main.ts:214786
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:214809
+Defined in: main.ts:215311
 
 #### Parameters
 
@@ -221,7 +221,7 @@ Defined in: main.ts:214809
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleMyBusinessInfoLiveRequestInfo`](BusinessDataGoogleMyBusinessInfoLiveRequestInfo.md)
 
-Defined in: main.ts:214802
+Defined in: main.ts:215304
 
 #### Parameters
 

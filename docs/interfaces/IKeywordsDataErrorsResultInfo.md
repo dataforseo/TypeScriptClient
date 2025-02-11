@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataErrorsResultInfo
 
-Defined in: main.ts:125822
+Defined in: main.ts:125938
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:125822
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:125829
+Defined in: main.ts:125945
 
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -31,7 +31,7 @@ example:
 
 > `optional` **error\_code**: `number`
 
-Defined in: main.ts:125833
+Defined in: main.ts:125949
 
 error code
 
@@ -41,7 +41,7 @@ error code
 
 > `optional` **error\_message**: `string`
 
-Defined in: main.ts:125836
+Defined in: main.ts:125952
 
 error message or error URL
 error message (see full list) or URL that caused an error
@@ -52,7 +52,7 @@ error message (see full list) or URL that caused an error
 
 > `optional` **function**: `string`
 
-Defined in: main.ts:125831
+Defined in: main.ts:125947
 
 corresponding API function
 
@@ -62,7 +62,7 @@ corresponding API function
 
 > `optional` **http\_code**: `number`
 
-Defined in: main.ts:125843
+Defined in: main.ts:125959
 
 HTTP status code
 
@@ -72,7 +72,7 @@ HTTP status code
 
 > `optional` **http\_method**: `string`
 
-Defined in: main.ts:125841
+Defined in: main.ts:125957
 
 HTTP method
 
@@ -82,7 +82,7 @@ HTTP method
 
 > `optional` **http\_response**: `string`
 
-Defined in: main.ts:125849
+Defined in: main.ts:125965
 
 HTTP response
 server response
@@ -93,7 +93,7 @@ server response
 
 > `optional` **http\_time**: `number`
 
-Defined in: main.ts:125846
+Defined in: main.ts:125962
 
 time taken by HTTP request
 for tasks set with a pingback/postback, this field will show the time it took your server to respond
@@ -104,7 +104,7 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 > `optional` **http\_url**: `string`
 
-Defined in: main.ts:125839
+Defined in: main.ts:125955
 
 URL that caused an error
 URL you used for making an API call or pingback/postback URL
@@ -115,6 +115,6 @@ URL you used for making an API call or pingback/postback URL
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:125824
+Defined in: main.ts:125940
 
 id of the task

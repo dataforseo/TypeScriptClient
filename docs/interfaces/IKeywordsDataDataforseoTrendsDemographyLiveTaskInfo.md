@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataDataforseoTrendsDemographyLiveTaskInfo
 
-Defined in: main.ts:137660
+Defined in: main.ts:137824
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataDataforseoTrendsDemographyLiveResultInfo`](../classes/KeywordsDataDataforseoTrendsDemographyLiveResultInfo.md)[]
 
-Defined in: main.ts:137662
+Defined in: main.ts:137826
 
 array of results
 

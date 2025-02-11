@@ -6,7 +6,7 @@
 
 # Class: BacklinksHistoryLiveResultInfo
 
-Defined in: main.ts:151192
+Defined in: main.ts:151356
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:151192
 
 > **new BacklinksHistoryLiveResultInfo**(`data`?): [`BacklinksHistoryLiveResultInfo`](BacklinksHistoryLiveResultInfo.md)
 
-Defined in: main.ts:151214
+Defined in: main.ts:151378
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:151214
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:151199
+Defined in: main.ts:151363
 
 starting date of the time range
 in the UTC format: “yyyy-mm-dd”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:151204
+Defined in: main.ts:151368
 
 ending date of the time range
 in the UTC format: "yyyy-mm-dd"
@@ -74,7 +74,7 @@ example:
 
 > `optional` **items**: [`BacklinksHistoryLiveItem`](BacklinksHistoryLiveItem.md)[]
 
-Defined in: main.ts:151210
+Defined in: main.ts:151374
 
 contains historical backlink data for the specified domain
 the data is provided month-by-month;
@@ -90,7 +90,7 @@ the metrics are aggregated according to the backlinks the specified domain had o
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:151206
+Defined in: main.ts:151370
 
 the number of results returned in the items array
 
@@ -104,7 +104,7 @@ the number of results returned in the items array
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:151194
+Defined in: main.ts:151358
 
 target from the POST array
 
@@ -118,7 +118,7 @@ target from the POST array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:151223
+Defined in: main.ts:151387
 
 #### Parameters
 
@@ -136,7 +136,7 @@ Defined in: main.ts:151223
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:151248
+Defined in: main.ts:151412
 
 #### Parameters
 
@@ -154,7 +154,7 @@ Defined in: main.ts:151248
 
 > `static` **fromJS**(`data`): [`BacklinksHistoryLiveResultInfo`](BacklinksHistoryLiveResultInfo.md)
 
-Defined in: main.ts:151241
+Defined in: main.ts:151405
 
 #### Parameters
 

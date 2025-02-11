@@ -6,7 +6,7 @@
 
 # Interface: IOrganicSerpElementItem
 
-Defined in: main.ts:28949
+Defined in: main.ts:28957
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:28949
 
 > `optional` **about\_this\_result**: [`AboutThisResultElement`](../classes/AboutThisResultElement.md)
 
-Defined in: main.ts:29009
+Defined in: main.ts:29017
 
 contains information from the ‘About this result’ panel
 ‘About this result’ panel provides additional context about why Google returned this result for the given query;
@@ -34,7 +34,7 @@ this feature appears after clicking on the three dots next to most results
 
 > `optional` **amp\_version**: `boolean`
 
-Defined in: main.ts:28985
+Defined in: main.ts:28993
 
 Accelerated Mobile Pages
 indicates whether an item has the Accelerated Mobile Page (AMP) version
@@ -45,7 +45,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 > `optional` **breadcrumb**: `string`
 
-Defined in: main.ts:28962
+Defined in: main.ts:28970
 
 breadcrumb in SERP
 
@@ -55,7 +55,7 @@ breadcrumb in SERP
 
 > `optional` **cache\_url**: `string`
 
-Defined in: main.ts:28957
+Defined in: main.ts:28965
 
 cached version of the page
 
@@ -65,7 +65,7 @@ cached version of the page
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:28976
+Defined in: main.ts:28984
 
 description of the results element in SERP
 
@@ -75,7 +75,7 @@ description of the results element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:28951
+Defined in: main.ts:28959
 
 domain name of the reference
 
@@ -85,7 +85,7 @@ domain name of the reference
 
 > `optional` **extended\_people\_also\_search**: `string`[]
 
-Defined in: main.ts:29005
+Defined in: main.ts:29013
 
 extension of the organic element
 extension of the organic result containing related search queries
@@ -97,7 +97,7 @@ Note: extension appears in SERP upon clicking on the result and then bouncing ba
 
 > `optional` **extended\_snippet**: `string`
 
-Defined in: main.ts:28980
+Defined in: main.ts:28988
 
 includes additional information appended after the result description in SERP
 
@@ -107,7 +107,7 @@ includes additional information appended after the result description in SERP
 
 > `optional` **faq**: [`FaqBox`](../classes/FaqBox.md)
 
-Defined in: main.ts:29001
+Defined in: main.ts:29009
 
 frequently asked questions
 questions and answers extension shown below some of Google’s search results
@@ -119,7 +119,7 @@ if there are none, equals null
 
 > `optional` **highlighted**: `string`[]
 
-Defined in: main.ts:28993
+Defined in: main.ts:29001
 
 words highlighted in bold within the results description
 
@@ -129,7 +129,7 @@ words highlighted in bold within the results description
 
 > `optional` **images**: [`ImagesElement`](../classes/ImagesElement.md)[]
 
-Defined in: main.ts:28982
+Defined in: main.ts:28990
 
 images of the element
 
@@ -139,7 +139,7 @@ images of the element
 
 > `optional` **is\_featured\_snippet**: `boolean`
 
-Defined in: main.ts:28970
+Defined in: main.ts:28978
 
 indicates whether the element is a featured_snippet
 
@@ -149,7 +149,7 @@ indicates whether the element is a featured_snippet
 
 > `optional` **is\_image**: `boolean`
 
-Defined in: main.ts:28966
+Defined in: main.ts:28974
 
 indicates whether the element contains an image
 
@@ -159,7 +159,7 @@ indicates whether the element contains an image
 
 > `optional` **is\_malicious**: `boolean`
 
-Defined in: main.ts:28972
+Defined in: main.ts:28980
 
 indicates whether the element is marked as malicious
 
@@ -169,7 +169,7 @@ indicates whether the element is marked as malicious
 
 > `optional` **is\_video**: `boolean`
 
-Defined in: main.ts:28968
+Defined in: main.ts:28976
 
 indicates whether the element contains a video
 
@@ -179,7 +179,7 @@ indicates whether the element contains a video
 
 > `optional` **is\_web\_story**: `boolean`
 
-Defined in: main.ts:28974
+Defined in: main.ts:28982
 
 indicates whether the element is marked as Google web story
 
@@ -189,7 +189,7 @@ indicates whether the element is marked as Google web story
 
 > `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
-Defined in: main.ts:28997
+Defined in: main.ts:29005
 
 sitelinks
 the links shown below some of Google’s search results
@@ -217,7 +217,7 @@ left, right
 
 > `optional` **pre\_snippet**: `string`
 
-Defined in: main.ts:28978
+Defined in: main.ts:28986
 
 includes additional information appended before the result description in SERP
 
@@ -227,7 +227,7 @@ includes additional information appended before the result description in SERP
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-Defined in: main.ts:28991
+Defined in: main.ts:28999
 
 pricing details
 contains the pricing details of the product or service featured in the result
@@ -269,7 +269,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:28988
+Defined in: main.ts:28996
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -280,7 +280,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:29022
+Defined in: main.ts:29030
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -292,7 +292,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **related\_result**: [`RelatedResult`](../classes/RelatedResult.md)[]
 
-Defined in: main.ts:29013
+Defined in: main.ts:29021
 
 related result from the same domain
 related result from the same domain appears as a part of the main result snippet;
@@ -304,7 +304,7 @@ you can derive the related_result snippets as "type": "organic" results by setti
 
 > `optional` **related\_search\_url**: `string`
 
-Defined in: main.ts:28960
+Defined in: main.ts:28968
 
 URL to a similar search
 URL to a new search for the same keyword(s) on related sites
@@ -315,7 +315,7 @@ URL to a new search for the same keyword(s) on related sites
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:29018
+Defined in: main.ts:29026
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -328,7 +328,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:28953
+Defined in: main.ts:28961
 
 title of the result in SERP
 
@@ -352,7 +352,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:28955
+Defined in: main.ts:28963
 
 relevant URL in SERP
 
@@ -362,7 +362,7 @@ relevant URL in SERP
 
 > `optional` **website\_name**: `string`
 
-Defined in: main.ts:28964
+Defined in: main.ts:28972
 
 name of the website in SERP
 

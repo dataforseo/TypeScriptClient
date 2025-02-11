@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleAdsAdvertisersTaskPostRequestInfo
 
-Defined in: main.ts:60374
+Defined in: main.ts:60390
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:60374
 
 > **new SerpGoogleAdsAdvertisersTaskPostRequestInfo**(`data`?): [`SerpGoogleAdsAdvertisersTaskPostRequestInfo`](SerpGoogleAdsAdvertisersTaskPostRequestInfo.md)
 
-Defined in: main.ts:60448
+Defined in: main.ts:60467
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:60448
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:60382
+Defined in: main.ts:60398
 
 keyword
 required field
@@ -60,14 +60,15 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:60396
+Defined in: main.ts:60414
 
 search engine location code
-required field if you don’t specify location_name or location_coordinate
+optional field
 if you use this field, you don’t need to specify location_name or location_coordinate
 you can receive the list of available locations of the search engines with their location_code by making a separate request to the https://api.dataforseo.com/v3/serp/google/ads_advertisers/locations
 example:
 2840
+Note: if you don’t specify location_name, location_code, or location_coordinate, advertisers will be searched across all the available locations
 
 #### Implementation of
 
@@ -79,13 +80,14 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:60402
+Defined in: main.ts:60421
 
 GPS coordinates of a location
-required field if you don’t specify location_name or location_code
+optional field
 if you use this field, you don’t need to specify location_name or location_code
 example:
 52.6178549,-155.352142
+Note: if you don’t specify location_name, location_code, or location_coordinate, advertisers will be searched across all the available locations
 
 #### Implementation of
 
@@ -97,14 +99,15 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:60389
+Defined in: main.ts:60406
 
 full name of search engine location
-required field if you don’t specify location_code or location_coordinate
+optional field
 if you use this field, you don’t need to specify location_code or location_coordinate
 you can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/serp/google/ads_advertisers/locations
 example:
 London,England,United Kingdom
+Note: if you don’t specify location_name, location_code, or location_coordinate, advertisers will be searched across all the available locations
 
 #### Implementation of
 
@@ -116,7 +119,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:60444
+Defined in: main.ts:60463
 
 notification URL of a completed task
 optional field
@@ -139,7 +142,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:60433
+Defined in: main.ts:60452
 
 postback_url datatype
 required field if you specify postback_url
@@ -157,7 +160,7 @@ advanced
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:60427
+Defined in: main.ts:60446
 
 return URL for sending task results
 optional field
@@ -180,7 +183,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:60410
+Defined in: main.ts:60429
 
 task priority
 optional field
@@ -200,7 +203,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:60416
+Defined in: main.ts:60435
 
 user-defined task identifier
 optional field
@@ -218,7 +221,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:60457
+Defined in: main.ts:60476
 
 #### Parameters
 
@@ -236,7 +239,7 @@ Defined in: main.ts:60457
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:60482
+Defined in: main.ts:60501
 
 #### Parameters
 
@@ -254,7 +257,7 @@ Defined in: main.ts:60482
 
 > `static` **fromJS**(`data`): [`SerpGoogleAdsAdvertisersTaskPostRequestInfo`](SerpGoogleAdsAdvertisersTaskPostRequestInfo.md)
 
-Defined in: main.ts:60475
+Defined in: main.ts:60494
 
 #### Parameters
 

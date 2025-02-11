@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleOrganicTaskGetAdvancedResponseInfo
 
-Defined in: main.ts:38380
+Defined in: main.ts:38396
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:38380
 
 > **new SerpGoogleOrganicTaskGetAdvancedResponseInfo**(`data`?): [`SerpGoogleOrganicTaskGetAdvancedResponseInfo`](SerpGoogleOrganicTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:38386
+Defined in: main.ts:38402
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleOrganicTaskGetAdvancedTaskInfo`](SerpGoogleOrganicTaskGetAdvancedTaskInfo.md)[]
 
-Defined in: main.ts:38382
+Defined in: main.ts:38398
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:38390
+Defined in: main.ts:38406
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:38390
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:38412
+Defined in: main.ts:38428
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:38412
 
 > `static` **fromJS**(`data`): [`SerpGoogleOrganicTaskGetAdvancedResponseInfo`](SerpGoogleOrganicTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:38405
+Defined in: main.ts:38421
 
 #### Parameters
 

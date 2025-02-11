@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisSearchLiveResultInfo
 
-Defined in: main.ts:178202
+Defined in: main.ts:178564
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:178202
 
 > **new ContentAnalysisSearchLiveResultInfo**(`data`?): [`ContentAnalysisSearchLiveResultInfo`](ContentAnalysisSearchLiveResultInfo.md)
 
-Defined in: main.ts:178216
+Defined in: main.ts:178578
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:178216
 
 > `optional` **items**: [`ContentAnalysisSearchLiveItem`](ContentAnalysisSearchLiveItem.md)[]
 
-Defined in: main.ts:178212
+Defined in: main.ts:178574
 
 contains citations and related data
 
@@ -54,7 +54,7 @@ contains citations and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:178210
+Defined in: main.ts:178572
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:178206
+Defined in: main.ts:178568
 
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
@@ -84,7 +84,7 @@ note: offset_token values are unique for each subsequent task
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:178208
+Defined in: main.ts:178570
 
 total amount of results in our database relevant to your request
 
@@ -98,7 +98,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:178225
+Defined in: main.ts:178587
 
 #### Parameters
 
@@ -116,7 +116,7 @@ Defined in: main.ts:178225
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:178249
+Defined in: main.ts:178611
 
 #### Parameters
 
@@ -134,7 +134,7 @@ Defined in: main.ts:178249
 
 > `static` **fromJS**(`data`): [`ContentAnalysisSearchLiveResultInfo`](ContentAnalysisSearchLiveResultInfo.md)
 
-Defined in: main.ts:178242
+Defined in: main.ts:178604
 
 #### Parameters
 

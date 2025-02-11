@@ -6,7 +6,7 @@
 
 # Class: SslInfo
 
-Defined in: main.ts:165182
+Defined in: main.ts:165346
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:165182
 
 > **new SslInfo**(`data`?): [`SslInfo`](SslInfo.md)
 
-Defined in: main.ts:165207
+Defined in: main.ts:165371
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:165207
 
 > `optional` **certificate\_expiration\_date**: `string`
 
-Defined in: main.ts:165203
+Defined in: main.ts:165367
 
 ssl certificate expiration date
 the date and time when the ssl certificate expires
@@ -58,7 +58,7 @@ example:
 
 > `optional` **certificate\_hash**: `string`
 
-Defined in: main.ts:165197
+Defined in: main.ts:165361
 
 ssl certificate hash
 the version of the ssl certificate’s hash function
@@ -73,7 +73,7 @@ the version of the ssl certificate’s hash function
 
 > `optional` **certificate\_issuer**: `string`
 
-Defined in: main.ts:165188
+Defined in: main.ts:165352
 
 ssl certificate authority
 the entity that issued the detected ssl certificate
@@ -88,7 +88,7 @@ the entity that issued the detected ssl certificate
 
 > `optional` **certificate\_subject**: `string`
 
-Defined in: main.ts:165191
+Defined in: main.ts:165355
 
 ssl certificate subject
 the entity associated with the public key
@@ -103,7 +103,7 @@ the entity associated with the public key
 
 > `optional` **certificate\_version**: `string`
 
-Defined in: main.ts:165194
+Defined in: main.ts:165358
 
 ssl certificate version
 indicates the version of X.509 used by an ssl certificate
@@ -118,7 +118,7 @@ indicates the version of X.509 used by an ssl certificate
 
 > `optional` **valid\_certificate**: `boolean`
 
-Defined in: main.ts:165185
+Defined in: main.ts:165349
 
 ssl certificate validity
 indicates whether the ssl certificate detected on a website is not expired, suspended, revoked or invalid
@@ -133,7 +133,7 @@ indicates whether the ssl certificate detected on a website is not expired, susp
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:165216
+Defined in: main.ts:165380
 
 #### Parameters
 
@@ -151,7 +151,7 @@ Defined in: main.ts:165216
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:165238
+Defined in: main.ts:165402
 
 #### Parameters
 
@@ -169,7 +169,7 @@ Defined in: main.ts:165238
 
 > `static` **fromJS**(`data`): [`SslInfo`](SslInfo.md)
 
-Defined in: main.ts:165231
+Defined in: main.ts:165395
 
 #### Parameters
 

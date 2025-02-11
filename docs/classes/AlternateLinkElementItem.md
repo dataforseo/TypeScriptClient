@@ -6,7 +6,7 @@
 
 # Class: AlternateLinkElementItem
 
-Defined in: main.ts:169765
+Defined in: main.ts:169929
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:169765
 
 > **new AlternateLinkElementItem**(`data`?): [`AlternateLinkElementItem`](AlternateLinkElementItem.md)
 
-Defined in: main.ts:169772
+Defined in: main.ts:169936
 
 #### Parameters
 
@@ -286,7 +286,7 @@ url scheme of the referenced page
 
 > `optional` **page\_to\_status\_code**: `number`
 
-Defined in: main.ts:169768
+Defined in: main.ts:169932
 
 status code of the referenced page
 status code of the page to which the link is pointing
@@ -319,7 +319,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:169777
+Defined in: main.ts:169941
 
 #### Parameters
 
@@ -341,7 +341,7 @@ Defined in: main.ts:169777
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:169795
+Defined in: main.ts:169959
 
 #### Parameters
 
@@ -363,7 +363,7 @@ Defined in: main.ts:169795
 
 > `static` **fromJS**(`data`): [`AlternateLinkElementItem`](AlternateLinkElementItem.md)
 
-Defined in: main.ts:169788
+Defined in: main.ts:169952
 
 #### Parameters
 

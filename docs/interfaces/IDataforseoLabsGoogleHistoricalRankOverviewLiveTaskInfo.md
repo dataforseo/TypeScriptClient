@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleHistoricalRankOverviewLiveTaskInfo
 
-Defined in: main.ts:109822
+Defined in: main.ts:109878
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo`](../classes/DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo.md)[]
 
-Defined in: main.ts:109824
+Defined in: main.ts:109880
 
 array of results
 

@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleImagesLiveAdvancedRequestInfo
 
-Defined in: main.ts:51687
+Defined in: main.ts:51703
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:51687
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:51762
+Defined in: main.ts:51778
 
 parsing depth
 optional field
@@ -35,7 +35,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:51703
+Defined in: main.ts:51719
 
 keyword
 required field
@@ -43,7 +43,7 @@ you can specify up to 700 characters in the keyword field
 all %## will be decoded (plus character ‘+’ will be decoded to a space character)
 if you need to use the “%” character for your keyword, please specify it as “%25”;
 if you need to use the “+” character for your keyword, please specify it as “%2B”;
-if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’, ‘-site:’, the charge per task will be multiplied by 5
+if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’, the charge per task will be multiplied by 5
 Note: queries containing the ‘cache:’ parameter are not supported and will return a validation error
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
@@ -53,7 +53,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:51741
+Defined in: main.ts:51757
 
 search engine language code
 required field if you don’t specify language_name
@@ -68,7 +68,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:51734
+Defined in: main.ts:51750
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -83,7 +83,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:51717
+Defined in: main.ts:51733
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -98,7 +98,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:51727
+Defined in: main.ts:51743
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -116,7 +116,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:51710
+Defined in: main.ts:51726
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -131,7 +131,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:51769
+Defined in: main.ts:51785
 
 page crawl limit
 optional field
@@ -146,7 +146,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:51747
+Defined in: main.ts:51763
 
 device operating system
 optional field
@@ -160,7 +160,7 @@ default value: windows
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:51753
+Defined in: main.ts:51769
 
 search engine domain
 optional field
@@ -174,7 +174,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:51773
+Defined in: main.ts:51789
 
 additional parameters of the search query
 optional field
@@ -186,7 +186,7 @@ Get the list of available parameters and additional details here.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:51779
+Defined in: main.ts:51795
 
 user-defined task identifier
 optional field
@@ -200,7 +200,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:51693
+Defined in: main.ts:51709
 
 direct URL of the search query
 optional field

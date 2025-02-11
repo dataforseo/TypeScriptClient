@@ -6,9 +6,7 @@
 
 # Class: ContentAnalysisRatingInfo
 
-Defined in: main.ts:177671
-
-content rating rating related to content_info
+Defined in: main.ts:178034
 
 ## Implements
 
@@ -24,7 +22,7 @@ content rating rating related to content_info
 
 > **new ContentAnalysisRatingInfo**(`data`?): [`ContentAnalysisRatingInfo`](ContentAnalysisRatingInfo.md)
 
-Defined in: main.ts:177686
+Defined in: main.ts:178049
 
 #### Parameters
 
@@ -40,9 +38,9 @@ Defined in: main.ts:177686
 
 ### max\_rating\_value?
 
-> `optional` **max\_rating\_value**: `string`
+> `optional` **max\_rating\_value**: `number`
 
-Defined in: main.ts:177680
+Defined in: main.ts:178041
 
 maximum value for the rating name
 
@@ -56,7 +54,7 @@ maximum value for the rating name
 
 > `optional` **name**: `string`
 
-Defined in: main.ts:177674
+Defined in: main.ts:178037
 
 rating name
 here you can find the following elements: Max5, Percents, CustomMax
@@ -71,7 +69,7 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 > `optional` **rating\_count**: `number`
 
-Defined in: main.ts:177678
+Defined in: main.ts:178043
 
 number of votes
 
@@ -85,7 +83,7 @@ number of votes
 
 > `optional` **rating\_value**: `number`
 
-Defined in: main.ts:177676
+Defined in: main.ts:178039
 
 the value of the rating
 
@@ -99,7 +97,7 @@ the value of the rating
 
 > `optional` **relative\_rating**: `number`
 
-Defined in: main.ts:177682
+Defined in: main.ts:178045
 
 relative rating
 
@@ -113,7 +111,7 @@ relative rating
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:177695
+Defined in: main.ts:178058
 
 #### Parameters
 
@@ -131,7 +129,7 @@ Defined in: main.ts:177695
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:177716
+Defined in: main.ts:178079
 
 #### Parameters
 
@@ -149,7 +147,7 @@ Defined in: main.ts:177716
 
 > `static` **fromJS**(`data`): [`ContentAnalysisRatingInfo`](ContentAnalysisRatingInfo.md)
 
-Defined in: main.ts:177709
+Defined in: main.ts:178072
 
 #### Parameters
 

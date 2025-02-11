@@ -6,7 +6,7 @@
 
 # Interface: IRankedKeywordsInfo
 
-Defined in: main.ts:151791
+Defined in: main.ts:151955
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:151791
 
 > `optional` **page\_from\_keywords\_count\_top\_10**: `number`
 
-Defined in: main.ts:151795
+Defined in: main.ts:151959
 
 number of keywords for which the page is ranked in top 10 search results
 
@@ -28,7 +28,7 @@ number of keywords for which the page is ranked in top 10 search results
 
 > `optional` **page\_from\_keywords\_count\_top\_100**: `number`
 
-Defined in: main.ts:151797
+Defined in: main.ts:151961
 
 number of keywords for which the page is ranked in top 100 search results
 
@@ -38,6 +38,6 @@ number of keywords for which the page is ranked in top 100 search results
 
 > `optional` **page\_from\_keywords\_count\_top\_3**: `number`
 
-Defined in: main.ts:151793
+Defined in: main.ts:151957
 
 number of keywords for which the page is ranked in top 3 search results

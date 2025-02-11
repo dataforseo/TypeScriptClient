@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAppleBulkAppMetricsLiveRequestInfo
 
-Defined in: main.ts:123180
+Defined in: main.ts:123296
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:123180
 
 > **new DataforseoLabsAppleBulkAppMetricsLiveRequestInfo**(`data`?): [`DataforseoLabsAppleBulkAppMetricsLiveRequestInfo`](DataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md)
 
-Defined in: main.ts:123235
+Defined in: main.ts:123351
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:123235
 
 > `optional` **app\_ids**: `string`[]
 
-Defined in: main.ts:123189
+Defined in: main.ts:123305
 
 ids of the apps
 required field
@@ -61,7 +61,7 @@ the maximum number of IDs you can specify in this field is 1000
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:123225
+Defined in: main.ts:123341
 
 language code
 required field if you don’t specify language_name
@@ -82,7 +82,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:123216
+Defined in: main.ts:123332
 
 full name of the language
 required field if you don’t specify language_code
@@ -103,7 +103,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:123207
+Defined in: main.ts:123323
 
 location code
 required field if you don’t specify location_name
@@ -124,7 +124,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:123198
+Defined in: main.ts:123314
 
 full name of the location
 required field if you don’t specify location_code
@@ -145,7 +145,7 @@ United States
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:123231
+Defined in: main.ts:123347
 
 user-defined task identifier
 optional field
@@ -163,7 +163,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:123244
+Defined in: main.ts:123360
 
 #### Parameters
 
@@ -181,7 +181,7 @@ Defined in: main.ts:123244
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:123270
+Defined in: main.ts:123386
 
 #### Parameters
 
@@ -199,7 +199,7 @@ Defined in: main.ts:123270
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAppleBulkAppMetricsLiveRequestInfo`](DataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md)
 
-Defined in: main.ts:123263
+Defined in: main.ts:123379
 
 #### Parameters
 

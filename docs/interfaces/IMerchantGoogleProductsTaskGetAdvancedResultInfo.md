@@ -6,7 +6,7 @@
 
 # Interface: IMerchantGoogleProductsTaskGetAdvancedResultInfo
 
-Defined in: main.ts:186984
+Defined in: main.ts:187346
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:186984
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:186998
+Defined in: main.ts:187360
 
 direct URL to Google Shopping results
 you can use it to make sure that we provided accurate results
@@ -29,7 +29,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:187003
+Defined in: main.ts:187365
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -42,7 +42,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:187011
+Defined in: main.ts:187373
 
 types of search results found in Google Shopping SERP
 contains types of all search results (items) found in the returned SERP
@@ -55,7 +55,7 @@ google_shopping_sponsored_carousel, google_shopping_paid, google_shopping_serp
 
 > `optional` **items**: [`BaseMerchantSerpElementItem`](../classes/BaseMerchantSerpElementItem.md)[]
 
-Defined in: main.ts:187017
+Defined in: main.ts:187379
 
 additional items present in the element
 contains a list of related keywords;
@@ -67,7 +67,7 @@ if there are none, equals null
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:187013
+Defined in: main.ts:187375
 
 the number of results returned in the items array
 
@@ -77,7 +77,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:186987
+Defined in: main.ts:187349
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -88,7 +88,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:186995
+Defined in: main.ts:187357
 
 language code in a POST array
 
@@ -98,7 +98,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:186993
+Defined in: main.ts:187355
 
 location code in a POST array
 
@@ -108,7 +108,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:186991
+Defined in: main.ts:187353
 
 search engine domain in a POST array
 
@@ -118,7 +118,7 @@ search engine domain in a POST array
 
 > `optional` **spell**: [`SpellInfo`](../classes/SpellInfo.md)
 
-Defined in: main.ts:187006
+Defined in: main.ts:187368
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -129,6 +129,6 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:186989
+Defined in: main.ts:187351
 
 type of element

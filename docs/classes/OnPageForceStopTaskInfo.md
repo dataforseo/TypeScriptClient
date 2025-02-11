@@ -6,7 +6,7 @@
 
 # Class: OnPageForceStopTaskInfo
 
-Defined in: main.ts:163744
+Defined in: main.ts:163908
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:163744
 
 > **new OnPageForceStopTaskInfo**(`data`?): [`OnPageForceStopTaskInfo`](OnPageForceStopTaskInfo.md)
 
-Defined in: main.ts:163750
+Defined in: main.ts:163914
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:163746
+Defined in: main.ts:163910
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:163754
+Defined in: main.ts:163918
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:163754
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:163772
+Defined in: main.ts:163936
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:163772
 
 > `static` **fromJS**(`data`): [`OnPageForceStopTaskInfo`](OnPageForceStopTaskInfo.md)
 
-Defined in: main.ts:163765
+Defined in: main.ts:163929
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisCategoriesResponseInfo
 
-Defined in: main.ts:177381
+Defined in: main.ts:177745
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`ContentAnalysisCategoriesTaskInfo`](../classes/ContentAnalysisCategoriesTaskInfo.md)[]
 
-Defined in: main.ts:177383
+Defined in: main.ts:177747
 
 array of tasks
 

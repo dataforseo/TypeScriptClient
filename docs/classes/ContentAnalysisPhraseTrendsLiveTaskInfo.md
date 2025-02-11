@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisPhraseTrendsLiveTaskInfo
 
-Defined in: main.ts:180434
+Defined in: main.ts:180796
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:180434
 
 > **new ContentAnalysisPhraseTrendsLiveTaskInfo**(`data`?): [`ContentAnalysisPhraseTrendsLiveTaskInfo`](ContentAnalysisPhraseTrendsLiveTaskInfo.md)
 
-Defined in: main.ts:180440
+Defined in: main.ts:180802
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`ContentAnalysisPhraseTrendsLiveResultInfo`](ContentAnalysisPhraseTrendsLiveResultInfo.md)[]
 
-Defined in: main.ts:180436
+Defined in: main.ts:180798
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:180444
+Defined in: main.ts:180806
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:180444
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:180466
+Defined in: main.ts:180828
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:180466
 
 > `static` **fromJS**(`data`): [`ContentAnalysisPhraseTrendsLiveTaskInfo`](ContentAnalysisPhraseTrendsLiveTaskInfo.md)
 
-Defined in: main.ts:180459
+Defined in: main.ts:180821
 
 #### Parameters
 

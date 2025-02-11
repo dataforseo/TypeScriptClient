@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleLocationsResponseInfo
 
-Defined in: main.ts:198865
+Defined in: main.ts:199367
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:198865
 
 > **new AppDataGoogleLocationsResponseInfo**(`data`?): [`AppDataGoogleLocationsResponseInfo`](AppDataGoogleLocationsResponseInfo.md)
 
-Defined in: main.ts:198871
+Defined in: main.ts:199373
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataGoogleLocationsTaskInfo`](AppDataGoogleLocationsTaskInfo.md)[]
 
-Defined in: main.ts:198867
+Defined in: main.ts:199369
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:198875
+Defined in: main.ts:199377
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:198875
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:198897
+Defined in: main.ts:199399
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:198897
 
 > `static` **fromJS**(`data`): [`AppDataGoogleLocationsResponseInfo`](AppDataGoogleLocationsResponseInfo.md)
 
-Defined in: main.ts:198890
+Defined in: main.ts:199392
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: SerpSeznamLocationsCountryResponseInfo
 
-Defined in: main.ts:82489
+Defined in: main.ts:82525
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:82489
 
 > **new SerpSeznamLocationsCountryResponseInfo**(`data`?): [`SerpSeznamLocationsCountryResponseInfo`](SerpSeznamLocationsCountryResponseInfo.md)
 
-Defined in: main.ts:82495
+Defined in: main.ts:82531
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpSeznamLocationsCountryTaskInfo`](SerpSeznamLocationsCountryTaskInfo.md)[]
 
-Defined in: main.ts:82491
+Defined in: main.ts:82527
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:82499
+Defined in: main.ts:82535
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:82499
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:82521
+Defined in: main.ts:82557
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:82521
 
 > `static` **fromJS**(`data`): [`SerpSeznamLocationsCountryResponseInfo`](SerpSeznamLocationsCountryResponseInfo.md)
 
-Defined in: main.ts:82514
+Defined in: main.ts:82550
 
 #### Parameters
 

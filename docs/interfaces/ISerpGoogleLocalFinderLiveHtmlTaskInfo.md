@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleLocalFinderLiveHtmlTaskInfo
 
-Defined in: main.ts:45139
+Defined in: main.ts:45155
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleLocalFinderLiveHtmlResultInfo`](../classes/SerpGoogleLocalFinderLiveHtmlResultInfo.md)[]
 
-Defined in: main.ts:45141
+Defined in: main.ts:45157
 
 array of results
 

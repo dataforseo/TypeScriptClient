@@ -6,7 +6,7 @@
 
 # Interface: IOnPageMicrodataTaskInfo
 
-Defined in: main.ts:172070
+Defined in: main.ts:172234
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`OnPageMicrodataResultInfo`](../classes/OnPageMicrodataResultInfo.md)[]
 
-Defined in: main.ts:172072
+Defined in: main.ts:172236
 
 array of results
 

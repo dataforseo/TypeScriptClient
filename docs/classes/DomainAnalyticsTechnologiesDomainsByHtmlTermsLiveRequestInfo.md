@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo
 
-Defined in: main.ts:88116
+Defined in: main.ts:88152
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:88116
 
 > **new DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo**(`data`?): [`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo`](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md)
 
-Defined in: main.ts:88197
+Defined in: main.ts:88233
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:88197
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:88156
+Defined in: main.ts:88192
 
 array of results filtering parameters
 optional field
@@ -69,7 +69,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:88132
+Defined in: main.ts:88168
 
 target keywords in the domain’s title, description or meta keywords
 optional field
@@ -89,7 +89,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:88178
+Defined in: main.ts:88214
 
 the maximum number of returned domains
 optional field
@@ -106,7 +106,7 @@ maximum value: 10000
 
 > `optional` **mode**: `string`
 
-Defined in: main.ts:88139
+Defined in: main.ts:88175
 
 search mode
 optional field
@@ -125,7 +125,7 @@ default value: entry
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:88185
+Defined in: main.ts:88221
 
 offset in the results array of returned domains
 optional field
@@ -144,7 +144,7 @@ use the offset_token if you would like to offset more results
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:88193
+Defined in: main.ts:88229
 
 token for subsequent requests
 optional field
@@ -164,7 +164,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:88173
+Defined in: main.ts:88209
 
 results sorting rules
 optional field
@@ -193,7 +193,7 @@ example:
 
 > `optional` **search\_terms**: `string`[]
 
-Defined in: main.ts:88124
+Defined in: main.ts:88160
 
 target search terms
 required field
@@ -213,7 +213,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:88206
+Defined in: main.ts:88242
 
 #### Parameters
 
@@ -231,7 +231,7 @@ Defined in: main.ts:88206
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:88246
+Defined in: main.ts:88282
 
 #### Parameters
 
@@ -249,7 +249,7 @@ Defined in: main.ts:88246
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo`](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md)
 
-Defined in: main.ts:88239
+Defined in: main.ts:88275
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IGoogleMapsMapsSearchSerpElementItem
 
-Defined in: main.ts:41908
+Defined in: main.ts:41924
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:41908
 
 > `optional` **additional\_categories**: `string`[]
 
-Defined in: main.ts:41947
+Defined in: main.ts:41963
 
 additional business categories
 additional Google My Business categories that describe the services provided by the business entity in more detail
@@ -33,7 +33,7 @@ additional Google My Business categories that describe the services provided by 
 
 > `optional` **address**: `string`
 
-Defined in: main.ts:41929
+Defined in: main.ts:41945
 
 address line
 address of the local establishment featured in the element
@@ -44,7 +44,7 @@ address of the local establishment featured in the element
 
 > `optional` **address\_info**: [`AddressInfo`](../classes/AddressInfo.md)
 
-Defined in: main.ts:41931
+Defined in: main.ts:41947
 
 object containing address components of the local establishment
 
@@ -54,7 +54,7 @@ object containing address components of the local establishment
 
 > `optional` **book\_online\_url**: `string`
 
-Defined in: main.ts:41915
+Defined in: main.ts:41931
 
 URL in the ‘book online’ button of the element
 URL directing users to the online booking or order page of the business entity
@@ -65,7 +65,7 @@ URL directing users to the online booking or order page of the business entity
 
 > `optional` **category**: `string`
 
-Defined in: main.ts:41944
+Defined in: main.ts:41960
 
 business category
 Google My Business general category that best describes the services provided by the business entity
@@ -76,7 +76,7 @@ Google My Business general category that best describes the services provided by
 
 > `optional` **category\_ids**: `string`[]
 
-Defined in: main.ts:41950
+Defined in: main.ts:41966
 
 global category IDs
 universal category IDs that do not change based on the selected country
@@ -87,7 +87,7 @@ universal category IDs that do not change based on the selected country
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:41959
+Defined in: main.ts:41975
 
 google-defined client id
 unique id of a local establishment;
@@ -99,7 +99,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 > `optional` **contact\_url**: `string`
 
-Defined in: main.ts:41910
+Defined in: main.ts:41926
 
 URL of the preferred contact page
 
@@ -109,7 +109,7 @@ URL of the preferred contact page
 
 > `optional` **contributor\_url**: `string`
 
-Defined in: main.ts:41912
+Defined in: main.ts:41928
 
 URL of the user’s or entity’s Local Guides profile, if available
 
@@ -119,7 +119,7 @@ URL of the user’s or entity’s Local Guides profile, if available
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:41722
+Defined in: main.ts:41738
 
 domain in SERP
 
@@ -133,7 +133,7 @@ domain in SERP
 
 > `optional` **feature\_id**: `string`
 
-Defined in: main.ts:41955
+Defined in: main.ts:41971
 
 the unique identifier of the element in SERP
 
@@ -143,7 +143,7 @@ the unique identifier of the element in SERP
 
 > `optional` **hotel\_rating**: `number`
 
-Defined in: main.ts:41919
+Defined in: main.ts:41935
 
 hotel class rating
 class ratings range between 1-5 stars, learn more
@@ -155,7 +155,7 @@ if there is no hotel class rating information, the value will be null
 
 > `optional` **is\_claimed**: `boolean`
 
-Defined in: main.ts:41969
+Defined in: main.ts:41985
 
 indicates whether ownership of this local establishment is claimed
 
@@ -165,7 +165,7 @@ indicates whether ownership of this local establishment is claimed
 
 > `optional` **is\_directory\_item**: `boolean`
 
-Defined in: main.ts:41974
+Defined in: main.ts:41990
 
 indicates whether this local establishment is a directory
 
@@ -175,7 +175,7 @@ indicates whether this local establishment is a directory
 
 > `optional` **latitude**: `number`
 
-Defined in: main.ts:41963
+Defined in: main.ts:41979
 
 latitude coordinate of the local establishments in google maps
 example:
@@ -187,7 +187,7 @@ example:
 
 > `optional` **local\_justifications**: [`LocalJustificationInfo`](../classes/LocalJustificationInfo.md)[]
 
-Defined in: main.ts:41972
+Defined in: main.ts:41988
 
 Google local justifications
 snippets of text that “justify” why the business is showing up for search query
@@ -198,7 +198,7 @@ snippets of text that “justify” why the business is showing up for search qu
 
 > `optional` **longitude**: `number`
 
-Defined in: main.ts:41967
+Defined in: main.ts:41983
 
 longitude coordinate of the local establishment in google maps
 example:
@@ -210,7 +210,7 @@ example:
 
 > `optional` **main\_image**: `string`
 
-Defined in: main.ts:41939
+Defined in: main.ts:41955
 
 URL of the main image featured in Google My Business profile
 
@@ -220,7 +220,7 @@ URL of the main image featured in Google My Business profile
 
 > `optional` **phone**: `string`
 
-Defined in: main.ts:41937
+Defined in: main.ts:41953
 
 phone number
 phone number of the local establishment featured in the element
@@ -231,7 +231,7 @@ phone number of the local establishment featured in the element
 
 > `optional` **place\_id**: `string`
 
-Defined in: main.ts:41934
+Defined in: main.ts:41950
 
 unique place identifier
 place id of the local establishment featured in the element
@@ -242,7 +242,7 @@ place id of the local establishment featured in the element
 
 > `optional` **price\_level**: `string`
 
-Defined in: main.ts:41923
+Defined in: main.ts:41939
 
 property price level
 can take values: inexpensive, moderate, expensive, very_expensive
@@ -254,7 +254,7 @@ if there is no price level information, the value will be null
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:41720
+Defined in: main.ts:41736
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -269,7 +269,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:41717
+Defined in: main.ts:41733
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -285,7 +285,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:41729
+Defined in: main.ts:41745
 
 the element’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -300,7 +300,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **rating\_distribution**: `object`
 
-Defined in: main.ts:41732
+Defined in: main.ts:41748
 
 the distribution of ratings of the business entity
 the object displays the number of 1-star to 5-star ratings, as reviewed by users
@@ -319,7 +319,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:41926
+Defined in: main.ts:41942
 
 element snippet
 contains the address and other information about the local establishment featured in the element
@@ -330,7 +330,7 @@ contains the address and other information about the local establishment feature
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:41724
+Defined in: main.ts:41740
 
 title of the element
 
@@ -344,7 +344,7 @@ title of the element
 
 > `optional` **total\_photos**: `number`
 
-Defined in: main.ts:41941
+Defined in: main.ts:41957
 
 total count of images featured in Google My Business profile
 
@@ -354,7 +354,7 @@ total count of images featured in Google My Business profile
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:41713
+Defined in: main.ts:41729
 
 type of element
 
@@ -368,7 +368,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:41726
+Defined in: main.ts:41742
 
 search URL with refinement parameters
 
@@ -382,7 +382,7 @@ search URL with refinement parameters
 
 > `optional` **work\_hours**: [`WorkHours`](../classes/WorkHours.md)
 
-Defined in: main.ts:41953
+Defined in: main.ts:41969
 
 open hours
 information about work hours of the local establishment

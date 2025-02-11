@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleDomainWhoisOverviewLiveTaskInfo
 
-Defined in: main.ts:100550
+Defined in: main.ts:100578
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo`](../classes/DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo.md)[]
 
-Defined in: main.ts:100552
+Defined in: main.ts:100580
 
 array of results
 

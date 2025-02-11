@@ -6,7 +6,7 @@
 
 # Class: OnPageTasksReadyResponseInfo
 
-Defined in: main.ts:165127
+Defined in: main.ts:165291
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:165127
 
 > **new OnPageTasksReadyResponseInfo**(`data`?): [`OnPageTasksReadyResponseInfo`](OnPageTasksReadyResponseInfo.md)
 
-Defined in: main.ts:165133
+Defined in: main.ts:165297
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageTasksReadyTaskInfo`](OnPageTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:165129
+Defined in: main.ts:165293
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:165137
+Defined in: main.ts:165301
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:165137
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:165159
+Defined in: main.ts:165323
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:165159
 
 > `static` **fromJS**(`data`): [`OnPageTasksReadyResponseInfo`](OnPageTasksReadyResponseInfo.md)
 
-Defined in: main.ts:165152
+Defined in: main.ts:165316
 
 #### Parameters
 

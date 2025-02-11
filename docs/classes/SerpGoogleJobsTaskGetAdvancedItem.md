@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleJobsTaskGetAdvancedItem
 
-Defined in: main.ts:54492
+Defined in: main.ts:54508
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:54492
 
 > **new SerpGoogleJobsTaskGetAdvancedItem**(`data`?): [`SerpGoogleJobsTaskGetAdvancedItem`](SerpGoogleJobsTaskGetAdvancedItem.md)
 
-Defined in: main.ts:54543
+Defined in: main.ts:54559
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:54543
 
 > `optional` **contract\_type**: `string`
 
-Defined in: main.ts:54528
+Defined in: main.ts:54544
 
 employment contract type
 
@@ -54,7 +54,7 @@ employment contract type
 
 > `optional` **employer\_image\_url**: `string`
 
-Defined in: main.ts:54517
+Defined in: main.ts:54533
 
 URL to the image used in the job posting
 
@@ -68,7 +68,7 @@ URL to the image used in the job posting
 
 > `optional` **employer\_name**: `string`
 
-Defined in: main.ts:54513
+Defined in: main.ts:54529
 
 name of the employer
 
@@ -82,7 +82,7 @@ name of the employer
 
 > `optional` **employer\_url**: `string`
 
-Defined in: main.ts:54515
+Defined in: main.ts:54531
 
 URL to the employer’s website
 
@@ -96,7 +96,7 @@ URL to the employer’s website
 
 > `optional` **job\_id**: `string`
 
-Defined in: main.ts:54509
+Defined in: main.ts:54525
 
 ID of the job on Google Jobs
 
@@ -110,7 +110,7 @@ ID of the job on Google Jobs
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:54519
+Defined in: main.ts:54535
 
 location for which the job vacancy is posted
 
@@ -124,7 +124,7 @@ location for which the job vacancy is posted
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:54505
+Defined in: main.ts:54521
 
 the alignment of the element in SERP
 can take the following values:
@@ -140,7 +140,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:54501
+Defined in: main.ts:54517
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -155,7 +155,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:54498
+Defined in: main.ts:54514
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -171,7 +171,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:54539
+Defined in: main.ts:54555
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP;
@@ -187,7 +187,7 @@ in this case, will equal null
 
 > `optional` **salary**: `string`
 
-Defined in: main.ts:54526
+Defined in: main.ts:54542
 
 the salary indicated in the job vacancy
 if the salary isn’t indicated, this field will equal null
@@ -202,7 +202,7 @@ if the salary isn’t indicated, this field will equal null
 
 > `optional` **source\_name**: `string`
 
-Defined in: main.ts:54521
+Defined in: main.ts:54537
 
 original source of the job vacancy
 
@@ -216,7 +216,7 @@ original source of the job vacancy
 
 > `optional` **source\_url**: `string`
 
-Defined in: main.ts:54523
+Defined in: main.ts:54539
 
 URL to the original source of the job vacancy
 
@@ -230,7 +230,7 @@ URL to the original source of the job vacancy
 
 > `optional` **time\_ago**: `string`
 
-Defined in: main.ts:54535
+Defined in: main.ts:54551
 
 indicates how long ago the job vacancy was posted
 
@@ -244,7 +244,7 @@ indicates how long ago the job vacancy was posted
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:54533
+Defined in: main.ts:54549
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -261,7 +261,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:54511
+Defined in: main.ts:54527
 
 title of the element
 
@@ -275,7 +275,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:54494
+Defined in: main.ts:54510
 
 type of element
 
@@ -289,7 +289,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:54507
+Defined in: main.ts:54523
 
 the XPath of the element
 
@@ -303,7 +303,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:54552
+Defined in: main.ts:54568
 
 #### Parameters
 
@@ -321,7 +321,7 @@ Defined in: main.ts:54552
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:54586
+Defined in: main.ts:54602
 
 #### Parameters
 
@@ -339,7 +339,7 @@ Defined in: main.ts:54586
 
 > `static` **fromJS**(`data`): [`SerpGoogleJobsTaskGetAdvancedItem`](SerpGoogleJobsTaskGetAdvancedItem.md)
 
-Defined in: main.ts:54579
+Defined in: main.ts:54595
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonLanguagesResponseInfo
 
-Defined in: main.ts:191673
+Defined in: main.ts:192079
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:191673
 
 > **new MerchantAmazonLanguagesResponseInfo**(`data`?): [`MerchantAmazonLanguagesResponseInfo`](MerchantAmazonLanguagesResponseInfo.md)
 
-Defined in: main.ts:191679
+Defined in: main.ts:192085
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`MerchantAmazonLanguagesTaskInfo`](MerchantAmazonLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:191675
+Defined in: main.ts:192081
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:191683
+Defined in: main.ts:192089
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:191683
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:191705
+Defined in: main.ts:192111
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:191705
 
 > `static` **fromJS**(`data`): [`MerchantAmazonLanguagesResponseInfo`](MerchantAmazonLanguagesResponseInfo.md)
 
-Defined in: main.ts:191698
+Defined in: main.ts:192104
 
 #### Parameters
 

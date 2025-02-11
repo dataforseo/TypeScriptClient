@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataTrustpilotReviewsTaskGetResponseInfo
 
-Defined in: main.ts:227145
+Defined in: main.ts:227653
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BusinessDataTrustpilotReviewsTaskGetTaskInfo`](../classes/BusinessDataTrustpilotReviewsTaskGetTaskInfo.md)[]
 
-Defined in: main.ts:227147
+Defined in: main.ts:227655
 
 array of tasks
 

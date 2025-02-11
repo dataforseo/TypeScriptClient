@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleAppListTasksReadyTaskInfo
 
-Defined in: main.ts:200976
+Defined in: main.ts:201478
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`AppDataGoogleAppListTasksReadyResultInfo`](../classes/AppDataGoogleAppListTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:200978
+Defined in: main.ts:201480
 
 array of results
 

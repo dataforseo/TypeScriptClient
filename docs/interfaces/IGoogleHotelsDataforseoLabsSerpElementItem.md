@@ -6,7 +6,7 @@
 
 # Interface: IGoogleHotelsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:109316
+Defined in: main.ts:109372
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:109316
 
 > `optional` **hotel\_identifier**: `string`
 
-Defined in: main.ts:109320
+Defined in: main.ts:109376
 
 unique hotel identifier
 unique hotel identifier assigned by Google;
@@ -94,7 +94,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:109322
+Defined in: main.ts:109378
 
 relevant URL of the Ad element in SERP
 

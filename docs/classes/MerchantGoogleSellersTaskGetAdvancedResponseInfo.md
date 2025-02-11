@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleSellersTaskGetAdvancedResponseInfo
 
-Defined in: main.ts:188457
+Defined in: main.ts:188831
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:188457
 
 > **new MerchantGoogleSellersTaskGetAdvancedResponseInfo**(`data`?): [`MerchantGoogleSellersTaskGetAdvancedResponseInfo`](MerchantGoogleSellersTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:188463
+Defined in: main.ts:188837
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`MerchantGoogleSellersTaskGetAdvancedTaskInfo`](MerchantGoogleSellersTaskGetAdvancedTaskInfo.md)[]
 
-Defined in: main.ts:188459
+Defined in: main.ts:188833
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:188467
+Defined in: main.ts:188841
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:188467
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:188489
+Defined in: main.ts:188863
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:188489
 
 > `static` **fromJS**(`data`): [`MerchantGoogleSellersTaskGetAdvancedResponseInfo`](MerchantGoogleSellersTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:188482
+Defined in: main.ts:188856
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleTrendsExploreLiveTaskInfo
 
-Defined in: main.ts:135030
+Defined in: main.ts:135194
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:135030
 
 > **new KeywordsDataGoogleTrendsExploreLiveTaskInfo**(`data`?): [`KeywordsDataGoogleTrendsExploreLiveTaskInfo`](KeywordsDataGoogleTrendsExploreLiveTaskInfo.md)
 
-Defined in: main.ts:135036
+Defined in: main.ts:135200
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataGoogleTrendsExploreLiveResultInfo`](KeywordsDataGoogleTrendsExploreLiveResultInfo.md)[]
 
-Defined in: main.ts:135032
+Defined in: main.ts:135196
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:135040
+Defined in: main.ts:135204
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:135040
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:135062
+Defined in: main.ts:135226
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:135062
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleTrendsExploreLiveTaskInfo`](KeywordsDataGoogleTrendsExploreLiveTaskInfo.md)
 
-Defined in: main.ts:135055
+Defined in: main.ts:135219
 
 #### Parameters
 

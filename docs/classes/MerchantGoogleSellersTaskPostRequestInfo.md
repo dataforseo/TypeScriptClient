@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleSellersTaskPostRequestInfo
 
-Defined in: main.ts:187350
+Defined in: main.ts:187712
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:187350
 
 > **new MerchantGoogleSellersTaskPostRequestInfo**(`data`?): [`MerchantGoogleSellersTaskPostRequestInfo`](MerchantGoogleSellersTaskPostRequestInfo.md)
 
-Defined in: main.ts:187460
+Defined in: main.ts:187827
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:187460
 
 > `optional` **additional\_specifications**: `object`
 
-Defined in: main.ts:187422
+Defined in: main.ts:187789
 
 object containing additional url parameters
 you can get additional information about the product by using the "additional_specifications object, which you can get by making a separate request to the Google Shopping Products endpoint
@@ -59,11 +59,29 @@ example:
 
 ***
 
+### data\_docid?
+
+> `optional` **data\_docid**: `string`
+
+Defined in: main.ts:187725
+
+unique identifier of the SERP data element
+required field if product_id is not specified
+you can get this value for a certain element by making a separate request to the Google Shopping Products endpoint
+example:
+13071766526042404278
+
+#### Implementation of
+
+[`IMerchantGoogleSellersTaskPostRequestInfo`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md).[`data_docid`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md#data_docid)
+
+***
+
 ### get\_shops\_on\_google?
 
 > `optional` **get\_shops\_on\_google**: `boolean`
 
-Defined in: main.ts:187415
+Defined in: main.ts:187782
 
 include “buy on Google” shops
 optional field
@@ -80,7 +98,7 @@ Note: if set to true, the cost of a task will be doubled
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:187403
+Defined in: main.ts:187770
 
 language code
 required field if you don’t specify language_name
@@ -99,7 +117,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:187396
+Defined in: main.ts:187763
 
 full name of the language
 required field if you don’t specify language_code
@@ -118,7 +136,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:187380
+Defined in: main.ts:187747
 
 location code
 required field if you don’t specify location_name or location_coordinate
@@ -137,7 +155,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:187389
+Defined in: main.ts:187756
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -158,7 +176,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:187373
+Defined in: main.ts:187740
 
 full name of the location
 required field if you don’t specify location_code or location_coordinate
@@ -177,7 +195,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:187456
+Defined in: main.ts:187823
 
 notification URL of a completed task
 optional field
@@ -200,7 +218,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:187445
+Defined in: main.ts:187812
 
 postback_url datatype
 required field if you specify postback_url
@@ -218,7 +236,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:187439
+Defined in: main.ts:187806
 
 return URL for sending task results
 optional field
@@ -241,7 +259,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:187366
+Defined in: main.ts:187733
 
 task priority
 optional field
@@ -261,12 +279,11 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **product\_id**: `string`
 
-Defined in: main.ts:187358
+Defined in: main.ts:187719
 
 unique product identifier on Google Shopping
-required field
-you can get this value making a separate request to the Google Shopping Products endpoint
-note that there is no full list of possible values as the product_id is a dynamic value assigned by Google
+required field if data_docid is not specified
+you can get this value for a certain product by making a separate request to the Google Shopping Products endpoint
 example:
 4485466949985702538
 learn more about the parameter in this help center guide
@@ -281,7 +298,7 @@ learn more about the parameter in this help center guide
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:187410
+Defined in: main.ts:187777
 
 search engine domain
 optional field
@@ -300,7 +317,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:187428
+Defined in: main.ts:187795
 
 user-defined task identifier
 optional field
@@ -318,7 +335,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:187469
+Defined in: main.ts:187836
 
 #### Parameters
 
@@ -336,7 +353,7 @@ Defined in: main.ts:187469
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:187505
+Defined in: main.ts:187873
 
 #### Parameters
 
@@ -354,7 +371,7 @@ Defined in: main.ts:187505
 
 > `static` **fromJS**(`data`): [`MerchantGoogleSellersTaskPostRequestInfo`](MerchantGoogleSellersTaskPostRequestInfo.md)
 
-Defined in: main.ts:187498
+Defined in: main.ts:187866
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo
 
-Defined in: main.ts:144599
+Defined in: main.ts:144763
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:144599
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:144612
+Defined in: main.ts:144776
 
 device type
 optional field
@@ -31,7 +31,7 @@ default value: all
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:144607
+Defined in: main.ts:144771
 
 keywords
 required field
@@ -47,7 +47,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:144655
+Defined in: main.ts:144819
 
 search engine language code
 required field if you don’t specify language_name
@@ -61,7 +61,7 @@ example:
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:144649
+Defined in: main.ts:144813
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -76,7 +76,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:144634
+Defined in: main.ts:144798
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -91,7 +91,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:144642
+Defined in: main.ts:144806
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -107,7 +107,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:144627
+Defined in: main.ts:144791
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -122,7 +122,7 @@ example:
 
 > `optional` **match**: `string`
 
-Defined in: main.ts:144620
+Defined in: main.ts:144784
 
 keywords match type
 optional field
@@ -138,7 +138,7 @@ exact returns data for user query that matches the specified keyword;Note: the a
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:144677
+Defined in: main.ts:144841
 
 notification URL of a completed task
 optional field
@@ -157,7 +157,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:144666
+Defined in: main.ts:144830
 
 return URL for sending task results
 optional field
@@ -176,7 +176,7 @@ learn more on our Help Center
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:144683
+Defined in: main.ts:144847
 
 user-defined task identifier
 optional field

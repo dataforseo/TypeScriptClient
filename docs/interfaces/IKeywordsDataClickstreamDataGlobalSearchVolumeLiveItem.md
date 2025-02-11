@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataClickstreamDataGlobalSearchVolumeLiveItem
 
-Defined in: main.ts:148263
+Defined in: main.ts:148427
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:148263
 
 > `optional` **country\_distribution**: [`CountryDistribution`](../classes/CountryDistribution.md)[]
 
-Defined in: main.ts:148273
+Defined in: main.ts:148437
 
 distribution of clickstream by countries
 represents clickstream-based search volume in available countries, as well as its respective percentage of global search volume
@@ -29,7 +29,7 @@ represents clickstream-based search volume in available countries, as well as it
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:148266
+Defined in: main.ts:148430
 
 keyword
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -40,7 +40,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:148270
+Defined in: main.ts:148434
 
 clickstream-based average monthly search volume rate
 represents the (approximate) number of searches for the given keyword idea based on clickstream

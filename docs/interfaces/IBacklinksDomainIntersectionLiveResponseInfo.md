@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksDomainIntersectionLiveResponseInfo
 
-Defined in: main.ts:158249
+Defined in: main.ts:158413
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BacklinksDomainIntersectionLiveTaskInfo`](../classes/BacklinksDomainIntersectionLiveTaskInfo.md)[]
 
-Defined in: main.ts:158251
+Defined in: main.ts:158415
 
 array of tasks
 

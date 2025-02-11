@@ -6,7 +6,7 @@
 
 # Interface: ITwitterDataforseoLabsSerpElementItem
 
-Defined in: main.ts:106425
+Defined in: main.ts:105855
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:106425
 
 > `optional` **items**: [`TwitterElement`](../classes/TwitterElement.md)[]
 
-Defined in: main.ts:106433
+Defined in: main.ts:105863
 
 elements of search results found in SERP
 
@@ -78,7 +78,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:106427
+Defined in: main.ts:105857
 
 search engine type
 
@@ -88,7 +88,7 @@ search engine type
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:106429
+Defined in: main.ts:105859
 
 title of the result in SERP
 
@@ -112,7 +112,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:106431
+Defined in: main.ts:105861
 
 relevant URL of the Ad element in SERP
 

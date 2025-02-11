@@ -6,7 +6,7 @@
 
 # Interface: IMerchantGoogleProductsTasksReadyResponseInfo
 
-Defined in: main.ts:185925
+Defined in: main.ts:186287
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`MerchantGoogleProductsTasksReadyTaskInfo`](../classes/MerchantGoogleProductsTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:185927
+Defined in: main.ts:186289
 
 array of tasks
 

@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGooglePlayInfoOrganicSerpElementItem
 
-Defined in: main.ts:202274
+Defined in: main.ts:202776
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:202274
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:202276
+Defined in: main.ts:202778
 
 ID of the app
 
@@ -32,7 +32,7 @@ ID of the app
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:202282
+Defined in: main.ts:202784
 
 description of the app
 
@@ -42,7 +42,7 @@ description of the app
 
 > `optional` **developer**: `string`
 
-Defined in: main.ts:202298
+Defined in: main.ts:202800
 
 name of the app developer
 
@@ -52,7 +52,7 @@ name of the app developer
 
 > `optional` **developer\_address**: `string`
 
-Defined in: main.ts:202306
+Defined in: main.ts:202808
 
 physical address of the developer
 
@@ -62,7 +62,7 @@ physical address of the developer
 
 > `optional` **developer\_email**: `string`
 
-Defined in: main.ts:202304
+Defined in: main.ts:202806
 
 email address of the developer
 
@@ -72,7 +72,7 @@ email address of the developer
 
 > `optional` **developer\_id**: `string`
 
-Defined in: main.ts:202300
+Defined in: main.ts:202802
 
 ID of the app developer
 
@@ -82,7 +82,7 @@ ID of the app developer
 
 > `optional` **developer\_url**: `string`
 
-Defined in: main.ts:202302
+Defined in: main.ts:202804
 
 URL to the developer page on Google Play
 
@@ -92,7 +92,7 @@ URL to the developer page on Google Play
 
 > `optional` **developer\_website**: `string`
 
-Defined in: main.ts:202308
+Defined in: main.ts:202810
 
 official website of the developer
 
@@ -102,7 +102,7 @@ official website of the developer
 
 > `optional` **genres**: `string`[]
 
-Defined in: main.ts:202342
+Defined in: main.ts:202844
 
 app genres
 contains relevant app categories
@@ -113,7 +113,7 @@ contains relevant app categories
 
 > `optional` **icon**: `string`
 
-Defined in: main.ts:202280
+Defined in: main.ts:202782
 
 URL to the app icon
 
@@ -123,7 +123,7 @@ URL to the app icon
 
 > `optional` **images**: `string`[]
 
-Defined in: main.ts:202330
+Defined in: main.ts:202832
 
 app images
 contains URLs to the images published on the app page on Google Play
@@ -134,7 +134,7 @@ contains URLs to the images published on the app page on Google Play
 
 > `optional` **installs**: `string`
 
-Defined in: main.ts:202293
+Defined in: main.ts:202795
 
 number of installs of the app
 approximate number of installs as displayed on the app page
@@ -145,7 +145,7 @@ approximate number of installs as displayed on the app page
 
 > `optional` **installs\_count**: `number`
 
-Defined in: main.ts:202296
+Defined in: main.ts:202798
 
 number of installs of the app
 the exact number of installs of the app
@@ -156,7 +156,7 @@ the exact number of installs of the app
 
 > `optional` **is\_free**: `boolean`
 
-Defined in: main.ts:202288
+Defined in: main.ts:202790
 
 indicates whether the app is free
 
@@ -166,7 +166,7 @@ indicates whether the app is free
 
 > `optional` **last\_update\_date**: `string`
 
-Defined in: main.ts:202324
+Defined in: main.ts:202826
 
 date and time when the app was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -179,7 +179,7 @@ example:
 
 > `optional` **main\_category**: `string`
 
-Defined in: main.ts:202290
+Defined in: main.ts:202792
 
 main category of the app
 
@@ -189,7 +189,7 @@ main category of the app
 
 > `optional` **minimum\_os\_version**: `string`
 
-Defined in: main.ts:202312
+Defined in: main.ts:202814
 
 minimum OS version required to install the app
 
@@ -199,7 +199,7 @@ minimum OS version required to install the app
 
 > `optional` **more\_apps\_by\_developer**: [`AppsInfo`](../classes/AppsInfo.md)[]
 
-Defined in: main.ts:202339
+Defined in: main.ts:202841
 
 similar apps
 information about apps built by the same developer
@@ -226,7 +226,7 @@ left, right
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-Defined in: main.ts:202286
+Defined in: main.ts:202788
 
 price of the app
 
@@ -280,7 +280,7 @@ average rating of the app
 
 > `optional` **released\_date**: `string`
 
-Defined in: main.ts:202319
+Defined in: main.ts:202821
 
 date and time when the app was released
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -293,7 +293,7 @@ example:
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:202284
+Defined in: main.ts:202786
 
 the total number of reviews the app has
 
@@ -303,7 +303,7 @@ the total number of reviews the app has
 
 > `optional` **similar\_apps**: [`AppsInfo`](../classes/AppsInfo.md)[]
 
-Defined in: main.ts:202336
+Defined in: main.ts:202838
 
 similar apps
 displays apps similar to the app in a POST request
@@ -314,7 +314,7 @@ displays apps similar to the app in a POST request
 
 > `optional` **size**: `string`
 
-Defined in: main.ts:202314
+Defined in: main.ts:202816
 
 size of the app
 
@@ -324,7 +324,7 @@ size of the app
 
 > `optional` **tags**: `string`[]
 
-Defined in: main.ts:202345
+Defined in: main.ts:202847
 
 app tags
 contains relevant app tags
@@ -363,7 +363,7 @@ type of element
 
 > `optional` **update\_notes**: `string`
 
-Defined in: main.ts:202327
+Defined in: main.ts:202829
 
 update notes
 contains the latest update notes from the developer
@@ -374,7 +374,7 @@ contains the latest update notes from the developer
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:202278
+Defined in: main.ts:202780
 
 URL to the app page on Google Play
 
@@ -384,7 +384,7 @@ URL to the app page on Google Play
 
 > `optional` **version**: `string`
 
-Defined in: main.ts:202310
+Defined in: main.ts:202812
 
 current version of the app
 
@@ -394,7 +394,7 @@ current version of the app
 
 > `optional` **videos**: `string`[]
 
-Defined in: main.ts:202333
+Defined in: main.ts:202835
 
 app videos
 contains URLs to the video published on the app page on Google Play

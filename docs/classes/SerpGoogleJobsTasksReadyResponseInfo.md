@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleJobsTasksReadyResponseInfo
 
-Defined in: main.ts:54225
+Defined in: main.ts:54241
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:54225
 
 > **new SerpGoogleJobsTasksReadyResponseInfo**(`data`?): [`SerpGoogleJobsTasksReadyResponseInfo`](SerpGoogleJobsTasksReadyResponseInfo.md)
 
-Defined in: main.ts:54231
+Defined in: main.ts:54247
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleJobsTasksReadyTaskInfo`](SerpGoogleJobsTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:54227
+Defined in: main.ts:54243
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:54235
+Defined in: main.ts:54251
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:54235
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:54257
+Defined in: main.ts:54273
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:54257
 
 > `static` **fromJS**(`data`): [`SerpGoogleJobsTasksReadyResponseInfo`](SerpGoogleJobsTasksReadyResponseInfo.md)
 
-Defined in: main.ts:54250
+Defined in: main.ts:54266
 
 #### Parameters
 

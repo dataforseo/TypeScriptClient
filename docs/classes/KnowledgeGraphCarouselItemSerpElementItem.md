@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphCarouselItemSerpElementItem
 
-Defined in: main.ts:29509
+Defined in: main.ts:29517
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:29509
 
 > **new KnowledgeGraphCarouselItemSerpElementItem**(`data`?): [`KnowledgeGraphCarouselItemSerpElementItem`](KnowledgeGraphCarouselItemSerpElementItem.md)
 
-Defined in: main.ts:29527
+Defined in: main.ts:29535
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:29515
+Defined in: main.ts:29523
 
 google defined data attribute ID
 example:
@@ -76,7 +76,7 @@ action:listen_artist
 
 > `optional` **items**: [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)[]
 
-Defined in: main.ts:29519
+Defined in: main.ts:29527
 
 elements of search results found in SERP
 
@@ -90,7 +90,7 @@ elements of search results found in SERP
 
 > `optional` **link**: [`LinkElement`](LinkElement.md)
 
-Defined in: main.ts:29517
+Defined in: main.ts:29525
 
 link of the element
 
@@ -163,7 +163,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:29523
+Defined in: main.ts:29531
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -179,7 +179,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:29511
+Defined in: main.ts:29519
 
 title of the result in SERP
 
@@ -229,7 +229,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:29532
+Defined in: main.ts:29540
 
 #### Parameters
 
@@ -251,7 +251,7 @@ Defined in: main.ts:29532
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:29558
+Defined in: main.ts:29566
 
 #### Parameters
 
@@ -273,7 +273,7 @@ Defined in: main.ts:29558
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphCarouselItemSerpElementItem`](KnowledgeGraphCarouselItemSerpElementItem.md)
 
-Defined in: main.ts:29551
+Defined in: main.ts:29559
 
 #### Parameters
 

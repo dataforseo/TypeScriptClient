@@ -6,7 +6,7 @@
 
 # Class: AnchorLinkElementItem
 
-Defined in: main.ts:169462
+Defined in: main.ts:169626
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:169462
 
 > **new AnchorLinkElementItem**(`data`?): [`AnchorLinkElementItem`](AnchorLinkElementItem.md)
 
-Defined in: main.ts:169476
+Defined in: main.ts:169640
 
 #### Parameters
 
@@ -174,7 +174,7 @@ if true, at least one link pointing to link_to has a rel="nofollow" attribute an
 
 > `optional` **link\_attribute**: `string`[]
 
-Defined in: main.ts:169467
+Defined in: main.ts:169631
 
 link attribute added to external link
 indicates link attributes added to the link_to on the page_from
@@ -303,7 +303,7 @@ url scheme of the referenced page
 
 > `optional` **page\_to\_status\_code**: `number`
 
-Defined in: main.ts:169472
+Defined in: main.ts:169636
 
 status code of the referenced page
 status code of the page to which the link is pointing
@@ -318,7 +318,7 @@ status code of the page to which the link is pointing
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:169469
+Defined in: main.ts:169633
 
 anchor text
 
@@ -350,7 +350,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:169481
+Defined in: main.ts:169645
 
 #### Parameters
 
@@ -372,7 +372,7 @@ Defined in: main.ts:169481
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:169505
+Defined in: main.ts:169669
 
 #### Parameters
 
@@ -394,7 +394,7 @@ Defined in: main.ts:169505
 
 > `static` **fromJS**(`data`): [`AnchorLinkElementItem`](AnchorLinkElementItem.md)
 
-Defined in: main.ts:169498
+Defined in: main.ts:169662
 
 #### Parameters
 

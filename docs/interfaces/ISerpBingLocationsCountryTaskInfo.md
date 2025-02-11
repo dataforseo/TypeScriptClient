@@ -6,7 +6,7 @@
 
 # Interface: ISerpBingLocationsCountryTaskInfo
 
-Defined in: main.ts:63127
+Defined in: main.ts:63155
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpBingLocationsCountryResultInfo`](../classes/SerpBingLocationsCountryResultInfo.md)[]
 
-Defined in: main.ts:63129
+Defined in: main.ts:63157
 
 array of results
 

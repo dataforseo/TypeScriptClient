@@ -6,7 +6,7 @@
 
 # Interface: ICacheControl
 
-Defined in: main.ts:166768
+Defined in: main.ts:166932
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:166768
 
 > `optional` **cachable**: `boolean`
 
-Defined in: main.ts:166770
+Defined in: main.ts:166934
 
 indicates whether the page is cacheable
 
@@ -28,7 +28,7 @@ indicates whether the page is cacheable
 
 > `optional` **ttl**: `number`
 
-Defined in: main.ts:166773
+Defined in: main.ts:166937
 
 time to live
 the amount of time the browser caches a resource

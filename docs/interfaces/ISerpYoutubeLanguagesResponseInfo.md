@@ -6,7 +6,7 @@
 
 # Interface: ISerpYoutubeLanguagesResponseInfo
 
-Defined in: main.ts:69480
+Defined in: main.ts:69516
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpYoutubeLanguagesTaskInfo`](../classes/SerpYoutubeLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:69482
+Defined in: main.ts:69518
 
 array of tasks
 

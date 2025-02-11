@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingRelatedKeywordsLiveTaskInfo
 
-Defined in: main.ts:119178
+Defined in: main.ts:119270
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:119178
 
 > **new DataforseoLabsBingRelatedKeywordsLiveTaskInfo**(`data`?): [`DataforseoLabsBingRelatedKeywordsLiveTaskInfo`](DataforseoLabsBingRelatedKeywordsLiveTaskInfo.md)
 
-Defined in: main.ts:119184
+Defined in: main.ts:119276
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsBingRelatedKeywordsLiveResultInfo`](DataforseoLabsBingRelatedKeywordsLiveResultInfo.md)[]
 
-Defined in: main.ts:119180
+Defined in: main.ts:119272
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:119188
+Defined in: main.ts:119280
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:119188
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:119210
+Defined in: main.ts:119302
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:119210
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingRelatedKeywordsLiveTaskInfo`](DataforseoLabsBingRelatedKeywordsLiveTaskInfo.md)
 
-Defined in: main.ts:119203
+Defined in: main.ts:119295
 
 #### Parameters
 

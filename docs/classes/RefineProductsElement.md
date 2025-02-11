@@ -6,7 +6,7 @@
 
 # Class: RefineProductsElement
 
-Defined in: main.ts:37071
+Defined in: main.ts:37087
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:37071
 
 > **new RefineProductsElement**(`data`?): [`RefineProductsElement`](RefineProductsElement.md)
 
-Defined in: main.ts:37088
+Defined in: main.ts:37104
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:37088
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:37078
+Defined in: main.ts:37094
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -55,7 +55,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:37080
+Defined in: main.ts:37096
 
 keyword for the related refined search
 
@@ -69,7 +69,7 @@ keyword for the related refined search
 
 > `optional` **refine\_type**: `string`
 
-Defined in: main.ts:37082
+Defined in: main.ts:37098
 
 type of search refinement
 
@@ -83,7 +83,7 @@ type of search refinement
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:37075
+Defined in: main.ts:37091
 
 title of a given link element
 
@@ -97,7 +97,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:37073
+Defined in: main.ts:37089
 
 type of element
 
@@ -111,7 +111,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:37084
+Defined in: main.ts:37100
 
 the XPath of the element
 
@@ -125,7 +125,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:37097
+Defined in: main.ts:37113
 
 #### Parameters
 
@@ -143,7 +143,7 @@ Defined in: main.ts:37097
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:37119
+Defined in: main.ts:37135
 
 #### Parameters
 
@@ -161,7 +161,7 @@ Defined in: main.ts:37119
 
 > `static` **fromJS**(`data`): [`RefineProductsElement`](RefineProductsElement.md)
 
-Defined in: main.ts:37112
+Defined in: main.ts:37128
 
 #### Parameters
 

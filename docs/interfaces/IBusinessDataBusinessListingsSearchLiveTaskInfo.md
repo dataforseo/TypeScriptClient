@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataBusinessListingsSearchLiveTaskInfo
 
-Defined in: main.ts:211770
+Defined in: main.ts:212272
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataBusinessListingsSearchLiveResultInfo`](../classes/BusinessDataBusinessListingsSearchLiveResultInfo.md)[]
 
-Defined in: main.ts:211772
+Defined in: main.ts:212274
 
 array of results
 

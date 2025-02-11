@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataTrustpilotSearchTaskGetTaskInfo
 
-Defined in: main.ts:226160
+Defined in: main.ts:226668
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataTrustpilotSearchTaskGetResultInfo`](../classes/BusinessDataTrustpilotSearchTaskGetResultInfo.md)[]
 
-Defined in: main.ts:226162
+Defined in: main.ts:226670
 
 array of results
 

@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleImagesTasksFixedResponseInfo
 
-Defined in: main.ts:50674
+Defined in: main.ts:50690
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:50674
 
 > **new SerpGoogleImagesTasksFixedResponseInfo**(`data`?): [`SerpGoogleImagesTasksFixedResponseInfo`](SerpGoogleImagesTasksFixedResponseInfo.md)
 
-Defined in: main.ts:50680
+Defined in: main.ts:50696
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleImagesTasksFixedTaskInfo`](SerpGoogleImagesTasksFixedTaskInfo.md)[]
 
-Defined in: main.ts:50676
+Defined in: main.ts:50692
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:50684
+Defined in: main.ts:50700
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:50684
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:50706
+Defined in: main.ts:50722
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:50706
 
 > `static` **fromJS**(`data`): [`SerpGoogleImagesTasksFixedResponseInfo`](SerpGoogleImagesTasksFixedResponseInfo.md)
 
-Defined in: main.ts:50699
+Defined in: main.ts:50715
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IQueriesListDataItemInfo
 
-Defined in: main.ts:134465
+Defined in: main.ts:134605
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:134465
 
 > `optional` **query**: `string`
 
-Defined in: main.ts:134467
+Defined in: main.ts:134607
 
 related query
 
@@ -28,7 +28,7 @@ related query
 
 > `optional` **value**: `string`
 
-Defined in: main.ts:134470
+Defined in: main.ts:134610
 
 search term popularity
 represents the popularity of the topic. Scoring is on a relative scale where a value of 100 is the most commonly searched topic and a value of 50 is a topic searched half as often as the most popular term, and so on.

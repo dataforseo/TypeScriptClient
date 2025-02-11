@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeVideoSubtitlesTaskPostTaskInfo
 
-Defined in: main.ts:71666
+Defined in: main.ts:71702
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:71666
 
 > **new SerpYoutubeVideoSubtitlesTaskPostTaskInfo**(`data`?): [`SerpYoutubeVideoSubtitlesTaskPostTaskInfo`](SerpYoutubeVideoSubtitlesTaskPostTaskInfo.md)
 
-Defined in: main.ts:71673
+Defined in: main.ts:71709
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:71669
+Defined in: main.ts:71705
 
 array of results
 in this case, the value will be null
@@ -215,7 +215,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:71677
+Defined in: main.ts:71713
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:71677
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:71695
+Defined in: main.ts:71731
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:71695
 
 > `static` **fromJS**(`data`): [`SerpYoutubeVideoSubtitlesTaskPostTaskInfo`](SerpYoutubeVideoSubtitlesTaskPostTaskInfo.md)
 
-Defined in: main.ts:71688
+Defined in: main.ts:71724
 
 #### Parameters
 

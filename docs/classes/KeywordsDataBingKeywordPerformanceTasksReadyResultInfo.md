@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingKeywordPerformanceTasksReadyResultInfo
 
-Defined in: main.ts:144792
+Defined in: main.ts:144956
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:144792
 
 > **new KeywordsDataBingKeywordPerformanceTasksReadyResultInfo**(`data`?): [`KeywordsDataBingKeywordPerformanceTasksReadyResultInfo`](KeywordsDataBingKeywordPerformanceTasksReadyResultInfo.md)
 
-Defined in: main.ts:144809
+Defined in: main.ts:144973
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:144809
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:144801
+Defined in: main.ts:144965
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:144805
+Defined in: main.ts:144969
 
 URL for collecting the results of the task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the task
 
 > `optional` **function**: `string`
 
-Defined in: main.ts:144799
+Defined in: main.ts:144963
 
 type of the task
 
@@ -82,7 +82,7 @@ type of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:144795
+Defined in: main.ts:144959
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -97,7 +97,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:144797
+Defined in: main.ts:144961
 
 search engine specified when setting the task
 
@@ -111,7 +111,7 @@ search engine specified when setting the task
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:144803
+Defined in: main.ts:144967
 
 user-defined task identifier
 
@@ -125,7 +125,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:144818
+Defined in: main.ts:144982
 
 #### Parameters
 
@@ -143,7 +143,7 @@ Defined in: main.ts:144818
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:144840
+Defined in: main.ts:145004
 
 #### Parameters
 
@@ -161,7 +161,7 @@ Defined in: main.ts:144840
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceTasksReadyResultInfo`](KeywordsDataBingKeywordPerformanceTasksReadyResultInfo.md)
 
-Defined in: main.ts:144833
+Defined in: main.ts:144997
 
 #### Parameters
 

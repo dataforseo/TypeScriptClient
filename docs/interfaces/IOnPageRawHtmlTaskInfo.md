@@ -6,7 +6,7 @@
 
 # Interface: IOnPageRawHtmlTaskInfo
 
-Defined in: main.ts:172370
+Defined in: main.ts:172534
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`OnPageRawHtmlResultInfo`](../classes/OnPageRawHtmlResultInfo.md)[]
 
-Defined in: main.ts:172372
+Defined in: main.ts:172536
 
 array of results
 

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleRelevantPagesLiveRequestInfo
 
-Defined in: main.ts:104424
+Defined in: main.ts:104476
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:104424
 
 > **new DataforseoLabsGoogleRelevantPagesLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleRelevantPagesLiveRequestInfo`](DataforseoLabsGoogleRelevantPagesLiveRequestInfo.md)
 
-Defined in: main.ts:104541
+Defined in: main.ts:104598
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:104541
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:104514
+Defined in: main.ts:104571
 
 array of results filtering parameters
 optional field
@@ -66,7 +66,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **historical\_serp\_mode**: `string`
 
-Defined in: main.ts:104500
+Defined in: main.ts:104552
 
 data collection mode
 optional field
@@ -83,11 +83,28 @@ default value: live
 
 ***
 
+### ignore\_synonyms?
+
+> `optional` **ignore\_synonyms**: `boolean`
+
+Defined in: main.ts:104557
+
+ignore highly similar keywords
+optional field
+if set to true, only core keywords will be returned, all highly similar keywords will be excluded;
+default value: false
+
+#### Implementation of
+
+[`IDataforseoLabsGoogleRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveRequestInfo.md).[`ignore_synonyms`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveRequestInfo.md#ignore_synonyms)
+
+***
+
 ### include\_clickstream\_data?
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
-Defined in: main.ts:104481
+Defined in: main.ts:104533
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -106,7 +123,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:104474
+Defined in: main.ts:104526
 
 display results by item type
 optional field
@@ -127,7 +144,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:104465
+Defined in: main.ts:104517
 
 language code
 optional field
@@ -148,7 +165,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:104456
+Defined in: main.ts:104508
 
 full name of the language
 optional field
@@ -169,7 +186,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:104486
+Defined in: main.ts:104538
 
 the maximum number of returned pages
 optional field
@@ -186,7 +203,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:104447
+Defined in: main.ts:104499
 
 location code
 optional field
@@ -207,7 +224,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:104438
+Defined in: main.ts:104490
 
 full name of the location
 optional field
@@ -228,7 +245,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:104491
+Defined in: main.ts:104543
 
 offset in the results array of returned pages
 optional field
@@ -245,7 +262,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:104531
+Defined in: main.ts:104588
 
 results sorting rules
 optional field
@@ -274,7 +291,7 @@ Note: if the item_types array contains item types that are different from organi
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:104537
+Defined in: main.ts:104594
 
 user-defined task identifier
 optional field
@@ -292,7 +309,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:104429
+Defined in: main.ts:104481
 
 domain
 required field
@@ -309,7 +326,7 @@ the domain should be specified without https:// and www.
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:104550
+Defined in: main.ts:104607
 
 #### Parameters
 
@@ -327,7 +344,7 @@ Defined in: main.ts:104550
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:104591
+Defined in: main.ts:104649
 
 #### Parameters
 
@@ -345,7 +362,7 @@ Defined in: main.ts:104591
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleRelevantPagesLiveRequestInfo`](DataforseoLabsGoogleRelevantPagesLiveRequestInfo.md)
 
-Defined in: main.ts:104584
+Defined in: main.ts:104642
 
 #### Parameters
 

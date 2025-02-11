@@ -6,7 +6,7 @@
 
 # Class: BacklinksTimeseriesSummaryLiveTaskInfo
 
-Defined in: main.ts:159680
+Defined in: main.ts:159844
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:159680
 
 > **new BacklinksTimeseriesSummaryLiveTaskInfo**(`data`?): [`BacklinksTimeseriesSummaryLiveTaskInfo`](BacklinksTimeseriesSummaryLiveTaskInfo.md)
 
-Defined in: main.ts:159686
+Defined in: main.ts:159850
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`BacklinksTimeseriesSummaryLiveResultInfo`](BacklinksTimeseriesSummaryLiveResultInfo.md)[]
 
-Defined in: main.ts:159682
+Defined in: main.ts:159846
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:159690
+Defined in: main.ts:159854
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:159690
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:159712
+Defined in: main.ts:159876
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:159712
 
 > `static` **fromJS**(`data`): [`BacklinksTimeseriesSummaryLiveTaskInfo`](BacklinksTimeseriesSummaryLiveTaskInfo.md)
 
-Defined in: main.ts:159705
+Defined in: main.ts:159869
 
 #### Parameters
 

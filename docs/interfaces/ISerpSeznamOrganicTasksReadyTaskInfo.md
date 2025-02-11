@@ -6,7 +6,7 @@
 
 # Interface: ISerpSeznamOrganicTasksReadyTaskInfo
 
-Defined in: main.ts:83302
+Defined in: main.ts:83338
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpSeznamOrganicTasksReadyResultInfo`](../classes/SerpSeznamOrganicTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:83304
+Defined in: main.ts:83340
 
 array of results
 

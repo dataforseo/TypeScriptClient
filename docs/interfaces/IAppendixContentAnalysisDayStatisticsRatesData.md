@@ -6,7 +6,7 @@
 
 # Interface: IAppendixContentAnalysisDayStatisticsRatesData
 
-Defined in: main.ts:234603
+Defined in: main.ts:235123
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:234603
 
 > `optional` **available\_filters**: `number`
 
-Defined in: main.ts:234614
+Defined in: main.ts:235135
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:234614
 
 > `optional` **categories**: `number`
 
-Defined in: main.ts:234612
+Defined in: main.ts:235132
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:234612
 
 > `optional` **category\_trends**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:234609
+Defined in: main.ts:235129
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: main.ts:234609
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:234613
+Defined in: main.ts:235133
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: main.ts:234613
 
 > `optional` **id\_list**: `number`
 
-Defined in: main.ts:234615
+Defined in: main.ts:235134
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: main.ts:234615
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:234611
+Defined in: main.ts:235131
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: main.ts:234611
 
 > `optional` **locations**: `number`
 
-Defined in: main.ts:234610
+Defined in: main.ts:235130
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: main.ts:234610
 
 > `optional` **phrase\_trends**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:234608
+Defined in: main.ts:235128
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: main.ts:234608
 
 > `optional` **rating\_distribution**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:234607
+Defined in: main.ts:235127
 
 ***
 
@@ -90,7 +90,7 @@ Defined in: main.ts:234607
 
 > `optional` **search**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:234604
+Defined in: main.ts:235124
 
 ***
 
@@ -98,7 +98,7 @@ Defined in: main.ts:234604
 
 > `optional` **sentiment\_analysis**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:234606
+Defined in: main.ts:235126
 
 ***
 
@@ -106,4 +106,4 @@ Defined in: main.ts:234606
 
 > `optional` **summary**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-Defined in: main.ts:234605
+Defined in: main.ts:235125

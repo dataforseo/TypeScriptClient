@@ -6,7 +6,7 @@
 
 # Class: OnPageDuplicateTagsRequestInfo
 
-Defined in: main.ts:168470
+Defined in: main.ts:168634
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:168470
 
 > **new OnPageDuplicateTagsRequestInfo**(`data`?): [`OnPageDuplicateTagsRequestInfo`](OnPageDuplicateTagsRequestInfo.md)
 
-Defined in: main.ts:168502
+Defined in: main.ts:168666
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:168502
 
 > `optional` **accumulator**: `string`
 
-Defined in: main.ts:168482
+Defined in: main.ts:168646
 
 tag value
 optional field
@@ -56,7 +56,7 @@ specify a title or description here if you want to receive a list of duplicate p
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:168476
+Defined in: main.ts:168640
 
 ID of the task
 required field
@@ -74,7 +74,7 @@ example:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:168487
+Defined in: main.ts:168651
 
 the maximum number of returned pages
 optional field
@@ -91,7 +91,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:168492
+Defined in: main.ts:168656
 
 offset in the results array of returned pages
 optional field
@@ -108,7 +108,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:168498
+Defined in: main.ts:168662
 
 user-defined task identifier
 optional field
@@ -126,7 +126,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:168478
+Defined in: main.ts:168642
 
 type of element
 
@@ -140,7 +140,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:168511
+Defined in: main.ts:168675
 
 #### Parameters
 
@@ -158,7 +158,7 @@ Defined in: main.ts:168511
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:168533
+Defined in: main.ts:168697
 
 #### Parameters
 
@@ -176,7 +176,7 @@ Defined in: main.ts:168533
 
 > `static` **fromJS**(`data`): [`OnPageDuplicateTagsRequestInfo`](OnPageDuplicateTagsRequestInfo.md)
 
-Defined in: main.ts:168526
+Defined in: main.ts:168690
 
 #### Parameters
 

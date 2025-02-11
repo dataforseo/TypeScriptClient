@@ -6,7 +6,7 @@
 
 # Interface: IAnswerBoxDataforseoLabsSerpElementItem
 
-Defined in: main.ts:106975
+Defined in: main.ts:107107
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:106975
 
 > `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
-Defined in: main.ts:106982
+Defined in: main.ts:107114
 
 sitelinks
 the links shown below some of Google’s search results
@@ -80,7 +80,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **text**: `string`[]
 
-Defined in: main.ts:106978
+Defined in: main.ts:107110
 
 text
 if there is none, equals null

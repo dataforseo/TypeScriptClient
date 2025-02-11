@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphImagesElement
 
-Defined in: main.ts:29737
+Defined in: main.ts:29745
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:29737
 
 > `optional` **alt**: `string`
 
-Defined in: main.ts:29745
+Defined in: main.ts:29753
 
 alt tag of the image
 
@@ -28,9 +28,9 @@ alt tag of the image
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:29743
+Defined in: main.ts:29751
 
-domain in SERP of the Ad element
+domain in SERP of the ad element
 
 ***
 
@@ -38,7 +38,7 @@ domain in SERP of the Ad element
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:29748
+Defined in: main.ts:29756
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -49,7 +49,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:29739
+Defined in: main.ts:29747
 
 type of element
 
@@ -59,7 +59,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:29741
+Defined in: main.ts:29749
 
 relevant URL in SERP
 
@@ -69,6 +69,6 @@ relevant URL in SERP
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:29750
+Defined in: main.ts:29758
 
 the XPath of the element

@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingSearchVolumeHistoryLiveRequestInfo
 
-Defined in: main.ts:146958
+Defined in: main.ts:147122
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:146958
 
 > **new KeywordsDataBingSearchVolumeHistoryLiveRequestInfo**(`data`?): [`KeywordsDataBingSearchVolumeHistoryLiveRequestInfo`](KeywordsDataBingSearchVolumeHistoryLiveRequestInfo.md)
 
-Defined in: main.ts:147048
+Defined in: main.ts:147212
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:147048
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:147025
+Defined in: main.ts:147189
 
 starting date of the time range
 optional field
@@ -65,7 +65,7 @@ with value daily, you will get results for the past 45 days
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:147038
+Defined in: main.ts:147202
 
 ending date of the time range
 optional field
@@ -90,7 +90,7 @@ with value daily, you will get results for the past 45 days
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:147003
+Defined in: main.ts:147167
 
 device type
 optional field
@@ -108,7 +108,7 @@ default value:  mobile, desktop, tablet, non_smartphones
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:146965
+Defined in: main.ts:147129
 
 keywords
 required field
@@ -127,7 +127,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:146997
+Defined in: main.ts:147161
 
 search engine language code
 required field if you don’t specify language_name
@@ -144,7 +144,7 @@ you can receive the list of available languages of the search engines with their
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:146992
+Defined in: main.ts:147156
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -161,7 +161,7 @@ you can receive the list of available languages of the search engines with their
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:146979
+Defined in: main.ts:147143
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -180,7 +180,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:146987
+Defined in: main.ts:147151
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -200,7 +200,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:146972
+Defined in: main.ts:147136
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -219,7 +219,7 @@ London,England,United Kingdom
 
 > `optional` **period**: `string`
 
-Defined in: main.ts:147012
+Defined in: main.ts:147176
 
 aggregates the returned data to a certain time period
 optional field
@@ -240,7 +240,7 @@ default value:  monthly
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:147044
+Defined in: main.ts:147208
 
 user-defined task identifier
 optional field
@@ -258,7 +258,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:147057
+Defined in: main.ts:147221
 
 #### Parameters
 
@@ -276,7 +276,7 @@ Defined in: main.ts:147057
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:147088
+Defined in: main.ts:147252
 
 #### Parameters
 
@@ -294,7 +294,7 @@ Defined in: main.ts:147088
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingSearchVolumeHistoryLiveRequestInfo`](KeywordsDataBingSearchVolumeHistoryLiveRequestInfo.md)
 
-Defined in: main.ts:147081
+Defined in: main.ts:147245
 
 #### Parameters
 

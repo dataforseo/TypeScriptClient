@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataSocialMediaFacebookLiveResultInfo
 
-Defined in: main.ts:230029
+Defined in: main.ts:230537
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:230029
 
 > `optional` **like\_count**: `number`
 
-Defined in: main.ts:230037
+Defined in: main.ts:230545
 
 number of likes for the related page_url
 this field shows the number of likes a page received through the Facebook Like Button embed
@@ -29,7 +29,7 @@ this field shows the number of likes a page received through the Facebook Like B
 
 > `optional` **page\_url**: `string`
 
-Defined in: main.ts:230034
+Defined in: main.ts:230542
 
 URL of the page the data is provided for
 corresponding URL you specified in the targets array when setting a task
@@ -40,6 +40,6 @@ corresponding URL you specified in the targets array when setting a task
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:230031
+Defined in: main.ts:230539
 
 type of element

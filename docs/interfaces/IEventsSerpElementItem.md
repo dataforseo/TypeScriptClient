@@ -6,7 +6,7 @@
 
 # Interface: IEventsSerpElementItem
 
-Defined in: main.ts:33964
+Defined in: main.ts:33980
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:33964
 
 > `optional` **items**: [`EventsElement`](../classes/EventsElement.md)[]
 
-Defined in: main.ts:33970
+Defined in: main.ts:33986
 
 contains arrays of specific images
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:33974
+Defined in: main.ts:33990
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -91,7 +91,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:33966
+Defined in: main.ts:33982
 
 title of the row
 
@@ -115,7 +115,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:33968
+Defined in: main.ts:33984
 
 source URL
 

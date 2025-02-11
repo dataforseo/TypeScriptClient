@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTripadvisorSearchTasksReadyResponseInfo
 
-Defined in: main.ts:228131
+Defined in: main.ts:228639
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:228131
 
 > **new BusinessDataTripadvisorSearchTasksReadyResponseInfo**(`data`?): [`BusinessDataTripadvisorSearchTasksReadyResponseInfo`](BusinessDataTripadvisorSearchTasksReadyResponseInfo.md)
 
-Defined in: main.ts:228137
+Defined in: main.ts:228645
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BusinessDataTripadvisorSearchTasksReadyTaskInfo`](BusinessDataTripadvisorSearchTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:228133
+Defined in: main.ts:228641
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:228141
+Defined in: main.ts:228649
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:228141
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:228163
+Defined in: main.ts:228671
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:228163
 
 > `static` **fromJS**(`data`): [`BusinessDataTripadvisorSearchTasksReadyResponseInfo`](BusinessDataTripadvisorSearchTasksReadyResponseInfo.md)
 
-Defined in: main.ts:228156
+Defined in: main.ts:228664
 
 #### Parameters
 

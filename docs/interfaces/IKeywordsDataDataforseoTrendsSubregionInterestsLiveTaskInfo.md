@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataDataforseoTrendsSubregionInterestsLiveTaskInfo
 
-Defined in: main.ts:136968
+Defined in: main.ts:137132
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](../classes/KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md)[]
 
-Defined in: main.ts:136970
+Defined in: main.ts:137134
 
 array of results
 

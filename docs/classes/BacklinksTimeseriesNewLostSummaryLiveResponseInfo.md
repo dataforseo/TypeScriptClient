@@ -6,7 +6,7 @@
 
 # Class: BacklinksTimeseriesNewLostSummaryLiveResponseInfo
 
-Defined in: main.ts:160211
+Defined in: main.ts:160375
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:160211
 
 > **new BacklinksTimeseriesNewLostSummaryLiveResponseInfo**(`data`?): [`BacklinksTimeseriesNewLostSummaryLiveResponseInfo`](BacklinksTimeseriesNewLostSummaryLiveResponseInfo.md)
 
-Defined in: main.ts:160217
+Defined in: main.ts:160381
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BacklinksTimeseriesNewLostSummaryLiveTaskInfo`](BacklinksTimeseriesNewLostSummaryLiveTaskInfo.md)[]
 
-Defined in: main.ts:160213
+Defined in: main.ts:160377
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:160221
+Defined in: main.ts:160385
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:160221
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:160243
+Defined in: main.ts:160407
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:160243
 
 > `static` **fromJS**(`data`): [`BacklinksTimeseriesNewLostSummaryLiveResponseInfo`](BacklinksTimeseriesNewLostSummaryLiveResponseInfo.md)
 
-Defined in: main.ts:160236
+Defined in: main.ts:160400
 
 #### Parameters
 

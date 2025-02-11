@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleSellersTasksReadyResultInfo
 
-Defined in: main.ts:187750
+Defined in: main.ts:188124
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:187750
 
 > **new MerchantGoogleSellersTasksReadyResultInfo**(`data`?): [`MerchantGoogleSellersTasksReadyResultInfo`](MerchantGoogleSellersTasksReadyResultInfo.md)
 
-Defined in: main.ts:187770
+Defined in: main.ts:188144
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:187770
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:187760
+Defined in: main.ts:188134
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:187764
+Defined in: main.ts:188138
 
 URL for collecting the results of Google Shopping Sellers Advanced task
 
@@ -68,7 +68,7 @@ URL for collecting the results of Google Shopping Sellers Advanced task
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:187766
+Defined in: main.ts:188140
 
 URL for collecting the results of Google Shopping Sellers HTML task
 
@@ -82,7 +82,7 @@ URL for collecting the results of Google Shopping Sellers HTML task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:187753
+Defined in: main.ts:188127
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -97,7 +97,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:187755
+Defined in: main.ts:188129
 
 search engine specified when setting the task
 
@@ -111,7 +111,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:187758
+Defined in: main.ts:188132
 
 type of search engine
 can take the following values: shopping
@@ -126,7 +126,7 @@ can take the following values: shopping
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:187762
+Defined in: main.ts:188136
 
 user-defined task identifier
 
@@ -140,7 +140,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:187779
+Defined in: main.ts:188153
 
 #### Parameters
 
@@ -158,7 +158,7 @@ Defined in: main.ts:187779
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:187802
+Defined in: main.ts:188176
 
 #### Parameters
 
@@ -176,7 +176,7 @@ Defined in: main.ts:187802
 
 > `static` **fromJS**(`data`): [`MerchantGoogleSellersTasksReadyResultInfo`](MerchantGoogleSellersTasksReadyResultInfo.md)
 
-Defined in: main.ts:187795
+Defined in: main.ts:188169
 
 #### Parameters
 

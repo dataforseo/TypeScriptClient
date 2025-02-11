@@ -6,7 +6,7 @@
 
 # Interface: ISerpYoutubeLocationsCountryResponseInfo
 
-Defined in: main.ts:69314
+Defined in: main.ts:69350
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpYoutubeLocationsCountryTaskInfo`](../classes/SerpYoutubeLocationsCountryTaskInfo.md)[]
 
-Defined in: main.ts:69316
+Defined in: main.ts:69352
 
 array of tasks
 

@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppReviewsTaskGetAdvancedTaskInfo
 
-Defined in: main.ts:203740
+Defined in: main.ts:204242
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:203740
 
 > **new AppDataGoogleAppReviewsTaskGetAdvancedTaskInfo**(`data`?): [`AppDataGoogleAppReviewsTaskGetAdvancedTaskInfo`](AppDataGoogleAppReviewsTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:203746
+Defined in: main.ts:204248
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`AppDataGoogleAppReviewsTaskGetAdvancedResultInfo`](AppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md)[]
 
-Defined in: main.ts:203742
+Defined in: main.ts:204244
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:203750
+Defined in: main.ts:204252
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:203750
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:203772
+Defined in: main.ts:204274
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:203772
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppReviewsTaskGetAdvancedTaskInfo`](AppDataGoogleAppReviewsTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:203765
+Defined in: main.ts:204267
 
 #### Parameters
 

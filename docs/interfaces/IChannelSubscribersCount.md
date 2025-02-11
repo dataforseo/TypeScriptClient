@@ -6,7 +6,7 @@
 
 # Interface: IChannelSubscribersCount
 
-Defined in: main.ts:70301
+Defined in: main.ts:70337
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:70301
 
 > `optional` **count**: `number`
 
-Defined in: main.ts:70306
+Defined in: main.ts:70342
 
 subscriber count
 
@@ -28,7 +28,7 @@ subscriber count
 
 > `optional` **displayed\_count**: `string`
 
-Defined in: main.ts:70304
+Defined in: main.ts:70340
 
 displayed subscriber count
 subscriber count as displayed on YouTube

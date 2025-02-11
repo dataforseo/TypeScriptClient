@@ -6,7 +6,7 @@
 
 # Class: SerpYahooOrganicTasksFixedTaskInfo
 
-Defined in: main.ts:75934
+Defined in: main.ts:75970
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:75934
 
 > **new SerpYahooOrganicTasksFixedTaskInfo**(`data`?): [`SerpYahooOrganicTasksFixedTaskInfo`](SerpYahooOrganicTasksFixedTaskInfo.md)
 
-Defined in: main.ts:75940
+Defined in: main.ts:75976
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpYahooOrganicTasksFixedResultInfo`](SerpYahooOrganicTasksFixedResultInfo.md)[]
 
-Defined in: main.ts:75936
+Defined in: main.ts:75972
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:75944
+Defined in: main.ts:75980
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:75944
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:75966
+Defined in: main.ts:76002
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:75966
 
 > `static` **fromJS**(`data`): [`SerpYahooOrganicTasksFixedTaskInfo`](SerpYahooOrganicTasksFixedTaskInfo.md)
 
-Defined in: main.ts:75959
+Defined in: main.ts:75995
 
 #### Parameters
 

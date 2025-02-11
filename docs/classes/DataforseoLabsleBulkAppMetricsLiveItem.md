@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsleBulkAppMetricsLiveItem
 
-Defined in: main.ts:121004
+Defined in: main.ts:121120
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:121004
 
 > **new DataforseoLabsleBulkAppMetricsLiveItem**(`data`?): [`DataforseoLabsleBulkAppMetricsLiveItem`](DataforseoLabsleBulkAppMetricsLiveItem.md)
 
-Defined in: main.ts:121015
+Defined in: main.ts:121131
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:121015
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:121008
+Defined in: main.ts:121124
 
 id of the app in a POST array
 
@@ -54,7 +54,7 @@ id of the app in a POST array
 
 > `optional` **metrics**: `object`
 
-Defined in: main.ts:121011
+Defined in: main.ts:121127
 
 metrics for the ranking keywords of the app
 ranking data relevant to the keywords that the provided application ranks for on Google Play
@@ -73,7 +73,7 @@ ranking data relevant to the keywords that the provided application ranks for on
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:121006
+Defined in: main.ts:121122
 
 search engine type
 
@@ -87,7 +87,7 @@ search engine type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:121024
+Defined in: main.ts:121140
 
 #### Parameters
 
@@ -105,7 +105,7 @@ Defined in: main.ts:121024
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:121049
+Defined in: main.ts:121165
 
 #### Parameters
 
@@ -123,7 +123,7 @@ Defined in: main.ts:121049
 
 > `static` **fromJS**(`data`): [`DataforseoLabsleBulkAppMetricsLiveItem`](DataforseoLabsleBulkAppMetricsLiveItem.md)
 
-Defined in: main.ts:121042
+Defined in: main.ts:121158
 
 #### Parameters
 

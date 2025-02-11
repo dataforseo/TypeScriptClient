@@ -6,7 +6,7 @@
 
 # Class: VideoSerpElementItem
 
-Defined in: main.ts:33215
+Defined in: main.ts:33223
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:33215
 
 > **new VideoSerpElementItem**(`data`?): [`VideoSerpElementItem`](VideoSerpElementItem.md)
 
-Defined in: main.ts:33225
+Defined in: main.ts:33233
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`VideoElement`](VideoElement.md)[]
 
-Defined in: main.ts:33217
+Defined in: main.ts:33225
 
 contains arrays of specific images
 
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:33221
+Defined in: main.ts:33229
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -185,7 +185,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:33230
+Defined in: main.ts:33238
 
 #### Parameters
 
@@ -207,7 +207,7 @@ Defined in: main.ts:33230
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:33253
+Defined in: main.ts:33261
 
 #### Parameters
 
@@ -229,7 +229,7 @@ Defined in: main.ts:33253
 
 > `static` **fromJS**(`data`): [`VideoSerpElementItem`](VideoSerpElementItem.md)
 
-Defined in: main.ts:33246
+Defined in: main.ts:33254
 
 #### Parameters
 

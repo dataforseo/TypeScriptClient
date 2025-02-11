@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleHotelInfoLiveHtmlRequestInfo
 
-Defined in: main.ts:221000
+Defined in: main.ts:221508
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:221000
 
 > **new BusinessDataGoogleHotelInfoLiveHtmlRequestInfo**(`data`?): [`BusinessDataGoogleHotelInfoLiveHtmlRequestInfo`](BusinessDataGoogleHotelInfoLiveHtmlRequestInfo.md)
 
-Defined in: main.ts:221095
+Defined in: main.ts:221603
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:221095
 
 > `optional` **adults**: `number`
 
-Defined in: main.ts:221077
+Defined in: main.ts:221585
 
 number of adults
 optional field
@@ -58,7 +58,7 @@ example:
 
 > `optional` **check\_in**: `string`
 
-Defined in: main.ts:221059
+Defined in: main.ts:221567
 
 check-in date
 optional field
@@ -77,7 +77,7 @@ example:
 
 > `optional` **check\_out**: `string`
 
-Defined in: main.ts:221066
+Defined in: main.ts:221574
 
 check-out date
 optional field
@@ -96,7 +96,7 @@ example:
 
 > `optional` **children**: `string`[]
 
-Defined in: main.ts:221085
+Defined in: main.ts:221593
 
 number and age of children
 optional field
@@ -116,7 +116,7 @@ set the following value if you want to include one 13-years-old child and one 8-
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:221071
+Defined in: main.ts:221579
 
 currency
 optional field
@@ -133,7 +133,7 @@ example:
 
 > `optional` **hotel\_identifier**: `string`
 
-Defined in: main.ts:221007
+Defined in: main.ts:221515
 
 unique hotel identifier
 required field
@@ -152,7 +152,7 @@ ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:221052
+Defined in: main.ts:221560
 
 search engine language code
 required field if you don’t specify language_name
@@ -171,7 +171,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:221045
+Defined in: main.ts:221553
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -190,7 +190,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:221029
+Defined in: main.ts:221537
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -209,7 +209,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:221038
+Defined in: main.ts:221546
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -230,7 +230,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:221022
+Defined in: main.ts:221530
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -249,7 +249,7 @@ London,England,United Kingdom
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:221015
+Defined in: main.ts:221523
 
 task priority
 optional field
@@ -269,7 +269,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:221091
+Defined in: main.ts:221599
 
 user-defined task identifier
 optional field
@@ -287,7 +287,7 @@ you will find the specified tag value in the data array of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:221104
+Defined in: main.ts:221612
 
 #### Parameters
 
@@ -305,7 +305,7 @@ Defined in: main.ts:221104
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:221137
+Defined in: main.ts:221645
 
 #### Parameters
 
@@ -323,7 +323,7 @@ Defined in: main.ts:221137
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleHotelInfoLiveHtmlRequestInfo`](BusinessDataGoogleHotelInfoLiveHtmlRequestInfo.md)
 
-Defined in: main.ts:221130
+Defined in: main.ts:221638
 
 #### Parameters
 

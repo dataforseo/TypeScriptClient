@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsTechnologiesAvailableFiltersTaskInfo
 
-Defined in: main.ts:85183
+Defined in: main.ts:85219
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DomainAnalyticsTechnologiesAvailableFiltersResultInfo`](../classes/DomainAnalyticsTechnologiesAvailableFiltersResultInfo.md)[]
 
-Defined in: main.ts:85184
+Defined in: main.ts:85220
 
 ***
 

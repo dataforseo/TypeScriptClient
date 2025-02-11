@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleNewsTasksFixedTaskInfo
 
-Defined in: main.ts:46013
+Defined in: main.ts:46029
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:46013
 
 > **new SerpGoogleNewsTasksFixedTaskInfo**(`data`?): [`SerpGoogleNewsTasksFixedTaskInfo`](SerpGoogleNewsTasksFixedTaskInfo.md)
 
-Defined in: main.ts:46019
+Defined in: main.ts:46035
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleNewsTasksFixedResultInfo`](SerpGoogleNewsTasksFixedResultInfo.md)[]
 
-Defined in: main.ts:46015
+Defined in: main.ts:46031
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:46023
+Defined in: main.ts:46039
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:46023
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:46045
+Defined in: main.ts:46061
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:46045
 
 > `static` **fromJS**(`data`): [`SerpGoogleNewsTasksFixedTaskInfo`](SerpGoogleNewsTasksFixedTaskInfo.md)
 
-Defined in: main.ts:46038
+Defined in: main.ts:46054
 
 #### Parameters
 

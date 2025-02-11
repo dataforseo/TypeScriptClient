@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsRelevantPagesLiveItem
 
-Defined in: main.ts:104744
+Defined in: main.ts:104808
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:104744
 
 > **new DataforseoLabsRelevantPagesLiveItem**(`data`?): [`DataforseoLabsRelevantPagesLiveItem`](DataforseoLabsRelevantPagesLiveItem.md)
 
-Defined in: main.ts:104754
+Defined in: main.ts:104818
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:104754
 
 > `optional` **metrics**: `object`
 
-Defined in: main.ts:104750
+Defined in: main.ts:104814
 
 rankings and traffic metrics for the relevant page
 
@@ -58,7 +58,7 @@ rankings and traffic metrics for the relevant page
 
 > `optional` **page\_address**: `string`
 
-Defined in: main.ts:104748
+Defined in: main.ts:104812
 
 absolute URL of the relevant page
 
@@ -72,7 +72,7 @@ absolute URL of the relevant page
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:104746
+Defined in: main.ts:104810
 
 search engine type
 
@@ -86,7 +86,7 @@ search engine type
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:104763
+Defined in: main.ts:104827
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:104763
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:104788
+Defined in: main.ts:104852
 
 #### Parameters
 
@@ -122,7 +122,7 @@ Defined in: main.ts:104788
 
 > `static` **fromJS**(`data`): [`DataforseoLabsRelevantPagesLiveItem`](DataforseoLabsRelevantPagesLiveItem.md)
 
-Defined in: main.ts:104781
+Defined in: main.ts:104845
 
 #### Parameters
 

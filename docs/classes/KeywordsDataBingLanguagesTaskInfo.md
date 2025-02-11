@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingLanguagesTaskInfo
 
-Defined in: main.ts:138428
+Defined in: main.ts:138592
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:138428
 
 > **new KeywordsDataBingLanguagesTaskInfo**(`data`?): [`KeywordsDataBingLanguagesTaskInfo`](KeywordsDataBingLanguagesTaskInfo.md)
 
-Defined in: main.ts:138434
+Defined in: main.ts:138598
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataBingLanguagesResultInfo`](KeywordsDataBingLanguagesResultInfo.md)[]
 
-Defined in: main.ts:138430
+Defined in: main.ts:138594
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:138438
+Defined in: main.ts:138602
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:138438
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:138460
+Defined in: main.ts:138624
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:138460
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingLanguagesTaskInfo`](KeywordsDataBingLanguagesTaskInfo.md)
 
-Defined in: main.ts:138453
+Defined in: main.ts:138617
 
 #### Parameters
 

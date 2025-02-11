@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleBulkAppMetricsLiveResultInfo
 
-Defined in: main.ts:121151
+Defined in: main.ts:121267
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:121151
 
 > `optional` **items**: [`DataforseoLabsleBulkAppMetricsLiveItem`](../classes/DataforseoLabsleBulkAppMetricsLiveItem.md)[]
 
-Defined in: main.ts:121163
+Defined in: main.ts:121279
 
 contains data related to the ranking app metrics of the specified application
 
@@ -28,7 +28,7 @@ contains data related to the ranking app metrics of the specified application
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:121161
+Defined in: main.ts:121277
 
 the number of results returned in the items array
 
@@ -38,7 +38,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:121157
+Defined in: main.ts:121273
 
 language code in a POST array
 
@@ -48,7 +48,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:121155
+Defined in: main.ts:121271
 
 location code in a POST array
 
@@ -58,7 +58,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:121153
+Defined in: main.ts:121269
 
 search engine type
 
@@ -68,6 +68,6 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:121159
+Defined in: main.ts:121275
 
 total amount of results in our database relevant to your request

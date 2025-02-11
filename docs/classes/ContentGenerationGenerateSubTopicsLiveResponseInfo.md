@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationGenerateSubTopicsLiveResponseInfo
 
-Defined in: main.ts:182415
+Defined in: main.ts:182777
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:182415
 
 > **new ContentGenerationGenerateSubTopicsLiveResponseInfo**(`data`?): [`ContentGenerationGenerateSubTopicsLiveResponseInfo`](ContentGenerationGenerateSubTopicsLiveResponseInfo.md)
 
-Defined in: main.ts:182421
+Defined in: main.ts:182783
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`ContentGenerationGenerateSubTopicsLiveTaskInfo`](ContentGenerationGenerateSubTopicsLiveTaskInfo.md)[]
 
-Defined in: main.ts:182417
+Defined in: main.ts:182779
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:182425
+Defined in: main.ts:182787
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:182425
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:182447
+Defined in: main.ts:182809
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:182447
 
 > `static` **fromJS**(`data`): [`ContentGenerationGenerateSubTopicsLiveResponseInfo`](ContentGenerationGenerateSubTopicsLiveResponseInfo.md)
 
-Defined in: main.ts:182440
+Defined in: main.ts:182802
 
 #### Parameters
 

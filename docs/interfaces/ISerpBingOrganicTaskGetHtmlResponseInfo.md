@@ -6,7 +6,7 @@
 
 # Interface: ISerpBingOrganicTaskGetHtmlResponseInfo
 
-Defined in: main.ts:65034
+Defined in: main.ts:65064
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpBingOrganicTaskGetHtmlTaskInfo`](../classes/SerpBingOrganicTaskGetHtmlTaskInfo.md)[]
 
-Defined in: main.ts:65036
+Defined in: main.ts:65066
 
 array of tasks
 

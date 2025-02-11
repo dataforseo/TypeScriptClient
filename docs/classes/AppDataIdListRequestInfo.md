@@ -6,7 +6,7 @@
 
 # Class: AppDataIdListRequestInfo
 
-Defined in: main.ts:197866
+Defined in: main.ts:198368
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:197866
 
 > **new AppDataIdListRequestInfo**(`data`?): [`AppDataIdListRequestInfo`](AppDataIdListRequestInfo.md)
 
-Defined in: main.ts:197904
+Defined in: main.ts:198406
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:197904
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:197874
+Defined in: main.ts:198376
 
 start time for filtering results
 required field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:197881
+Defined in: main.ts:198383
 
 finish time for filtering results
 required field
@@ -79,7 +79,7 @@ example:
 
 > `optional` **include\_metadata**: `boolean`
 
-Defined in: main.ts:197900
+Defined in: main.ts:198402
 
 include task metadata in the respond
 optional field
@@ -95,7 +95,7 @@ default value: false
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:197886
+Defined in: main.ts:198388
 
 the maximum number of returned task IDs
 optional field
@@ -112,7 +112,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:197891
+Defined in: main.ts:198393
 
 offset in the results array of returned task IDs
 optional field
@@ -129,7 +129,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > `optional` **sort**: `string`
 
-Defined in: main.ts:197896
+Defined in: main.ts:198398
 
 sorting by task execution time
 optional field
@@ -146,7 +146,7 @@ default value: "asc"
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:197913
+Defined in: main.ts:198415
 
 #### Parameters
 
@@ -164,7 +164,7 @@ Defined in: main.ts:197913
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:197935
+Defined in: main.ts:198437
 
 #### Parameters
 
@@ -182,7 +182,7 @@ Defined in: main.ts:197935
 
 > `static` **fromJS**(`data`): [`AppDataIdListRequestInfo`](AppDataIdListRequestInfo.md)
 
-Defined in: main.ts:197928
+Defined in: main.ts:198430
 
 #### Parameters
 

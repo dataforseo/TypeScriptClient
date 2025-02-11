@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataUserProfileInfo
 
-Defined in: main.ts:226755
+Defined in: main.ts:227263
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:226755
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:226761
+Defined in: main.ts:227269
 
 URL to the reviewer’s profile picture
 
@@ -28,7 +28,7 @@ URL to the reviewer’s profile picture
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:226763
+Defined in: main.ts:227271
 
 country of the reviewer
 
@@ -38,7 +38,7 @@ country of the reviewer
 
 > `optional` **name**: `string`
 
-Defined in: main.ts:226757
+Defined in: main.ts:227265
 
 the name of the reviewer
 
@@ -48,7 +48,7 @@ the name of the reviewer
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:226765
+Defined in: main.ts:227273
 
 total number of reviews submitted by the reviewer
 
@@ -58,6 +58,6 @@ total number of reviews submitted by the reviewer
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:226759
+Defined in: main.ts:227267
 
 URL to the reviewer’s profile

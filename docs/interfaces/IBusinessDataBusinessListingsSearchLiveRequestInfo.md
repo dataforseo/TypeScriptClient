@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataBusinessListingsSearchLiveRequestInfo
 
-Defined in: main.ts:210750
+Defined in: main.ts:211252
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:210750
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:210756
+Defined in: main.ts:211258
 
 business categories
 optional field
@@ -32,7 +32,7 @@ you can specify up to 10 categories
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:210761
+Defined in: main.ts:211263
 
 description of the element in SERP
 optional field
@@ -45,14 +45,14 @@ can contain up to 200 characters
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:210790
+Defined in: main.ts:211292
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like, match, not_match
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["rating.value",">",3]
@@ -64,7 +64,7 @@ you can receive the list of available filters by making a separate request to h
 
 > `optional` **is\_claimed**: `boolean`
 
-Defined in: main.ts:210769
+Defined in: main.ts:211271
 
 indicates whether the business is verified by its owner on Google Maps
 optional field
@@ -75,7 +75,7 @@ optional field
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:210808
+Defined in: main.ts:211310
 
 the maximum number of returned businesses
 optional field
@@ -88,7 +88,7 @@ maximum value: 1000
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:210779
+Defined in: main.ts:211281
 
 GPS coordinates of a location
 optional field
@@ -106,7 +106,7 @@ example:
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:210813
+Defined in: main.ts:211315
 
 offset in the results array of returned businesses
 optional field
@@ -119,7 +119,7 @@ if you specify the 10 value, the first ten entities in the results array will be
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:210821
+Defined in: main.ts:211323
 
 token for subsequent requests
 optional field
@@ -135,7 +135,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:210803
+Defined in: main.ts:211305
 
 results sorting rules
 optional field
@@ -156,7 +156,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:210827
+Defined in: main.ts:211329
 
 user-defined task identifier
 optional field
@@ -170,7 +170,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:210766
+Defined in: main.ts:211268
 
 title of the element in SERP
 optional field

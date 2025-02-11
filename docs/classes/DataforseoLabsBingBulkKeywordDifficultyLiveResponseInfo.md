@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo
 
-Defined in: main.ts:115585
+Defined in: main.ts:115653
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:115585
 
 > **new DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo**(`data`?): [`DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md)
 
-Defined in: main.ts:115591
+Defined in: main.ts:115659
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsBingBulkKeywordDifficultyLiveTaskInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveTaskInfo.md)[]
 
-Defined in: main.ts:115587
+Defined in: main.ts:115655
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:115595
+Defined in: main.ts:115663
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:115595
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:115617
+Defined in: main.ts:115685
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:115617
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md)
 
-Defined in: main.ts:115610
+Defined in: main.ts:115678
 
 #### Parameters
 

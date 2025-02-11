@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleLocationsCountryResultInfo
 
-Defined in: main.ts:212693
+Defined in: main.ts:213195
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:212693
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:212705
+Defined in: main.ts:213207
 
 ISO country code of the location
 
@@ -28,7 +28,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:212695
+Defined in: main.ts:213197
 
 location code
 
@@ -38,7 +38,7 @@ location code
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:212697
+Defined in: main.ts:213199
 
 full name of the location
 
@@ -48,7 +48,7 @@ full name of the location
 
 > `optional` **location\_name\_parent**: `string`
 
-Defined in: main.ts:212703
+Defined in: main.ts:213205
 
 the name of the superordinate location
 example:
@@ -62,6 +62,6 @@ example:
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:212707
+Defined in: main.ts:213209
 
 location type

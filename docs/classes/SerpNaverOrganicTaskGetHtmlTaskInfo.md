@@ -6,7 +6,7 @@
 
 # Class: SerpNaverOrganicTaskGetHtmlTaskInfo
 
-Defined in: main.ts:82058
+Defined in: main.ts:82094
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:82058
 
 > **new SerpNaverOrganicTaskGetHtmlTaskInfo**(`data`?): [`SerpNaverOrganicTaskGetHtmlTaskInfo`](SerpNaverOrganicTaskGetHtmlTaskInfo.md)
 
-Defined in: main.ts:82064
+Defined in: main.ts:82100
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpNaverOrganicTaskGetHtmlResultInfo`](SerpNaverOrganicTaskGetHtmlResultInfo.md)[]
 
-Defined in: main.ts:82060
+Defined in: main.ts:82096
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:82068
+Defined in: main.ts:82104
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:82068
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:82090
+Defined in: main.ts:82126
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:82090
 
 > `static` **fromJS**(`data`): [`SerpNaverOrganicTaskGetHtmlTaskInfo`](SerpNaverOrganicTaskGetHtmlTaskInfo.md)
 
-Defined in: main.ts:82083
+Defined in: main.ts:82119
 
 #### Parameters
 

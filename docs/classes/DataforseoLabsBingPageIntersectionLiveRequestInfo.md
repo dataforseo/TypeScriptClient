@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingPageIntersectionLiveRequestInfo
 
-Defined in: main.ts:117504
+Defined in: main.ts:117596
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:117504
 
 > **new DataforseoLabsBingPageIntersectionLiveRequestInfo**(`data`?): [`DataforseoLabsBingPageIntersectionLiveRequestInfo`](DataforseoLabsBingPageIntersectionLiveRequestInfo.md)
 
-Defined in: main.ts:117659
+Defined in: main.ts:117751
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:117659
 
 > `optional` **exclude\_pages**: `string`[]
 
-Defined in: main.ts:117538
+Defined in: main.ts:117630
 
 URLs of pages you want to exclude
 optional field
@@ -65,14 +65,14 @@ example:
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:117633
+Defined in: main.ts:117725
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, <=, >, >=, =, <>, in, not_in, ilike, not_ilike, like, not_like
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, ilike, not_ilike, like, not_like, match, not_match
 you can use the % operator with like and not_like, as well as ilike and not_ilike to match any string of zero or more characters
 note that if you want to filter by any field in the intersection_result array you need to specify the number of corresponding page
 for instance, if you want to filter results by the ranking of the first specified URL, you should set the following filter:
@@ -97,7 +97,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:117585
+Defined in: main.ts:117677
 
 ignore highly similar keywords
 optional field
@@ -114,7 +114,7 @@ default value: false
 
 > `optional` **include\_serp\_info**: `boolean`
 
-Defined in: main.ts:117613
+Defined in: main.ts:117705
 
 include data from SERP for each keyword
 optional field
@@ -131,7 +131,7 @@ default value: false
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:117600
+Defined in: main.ts:117692
 
 indicates if the subdomains will be included in the search
 optional field
@@ -148,7 +148,7 @@ default value: true
 
 > `optional` **intersection\_mode**: `string`
 
-Defined in: main.ts:117608
+Defined in: main.ts:117700
 
 indicates whether to intersect keywords
 optional field
@@ -168,7 +168,7 @@ by default, results are based on the intersect mode if you specify only pages ar
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:117580
+Defined in: main.ts:117672
 
 search results type
 indicates type of search results included in the response
@@ -188,7 +188,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:117572
+Defined in: main.ts:117664
 
 language code
 required field if you don’t specify language_name
@@ -208,7 +208,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:117564
+Defined in: main.ts:117656
 
 full name of the language
 required field if you don’t specify language_code
@@ -228,7 +228,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:117590
+Defined in: main.ts:117682
 
 the maximum number of returned keywords
 optional field
@@ -245,7 +245,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:117556
+Defined in: main.ts:117648
 
 location code
 required field if you don’t specify location_name
@@ -266,7 +266,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:117547
+Defined in: main.ts:117639
 
 full name of the location
 required field if you don’t specify location_code
@@ -287,7 +287,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:117595
+Defined in: main.ts:117687
 
 offset in the items array of returned keywords
 optional field
@@ -304,7 +304,7 @@ if you specify 10 here, the first ten keywords in the results array will be omit
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:117649
+Defined in: main.ts:117741
 
 results sorting rules
 optional field
@@ -332,7 +332,7 @@ example:
 
 > `optional` **pages**: `object`
 
-Defined in: main.ts:117525
+Defined in: main.ts:117617
 
 target URLs of pages
 required field
@@ -369,7 +369,7 @@ Note: this endpoint will not provide results if the number of intersecting keywo
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:117655
+Defined in: main.ts:117747
 
 user-defined task identifier
 optional field
@@ -387,7 +387,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:117668
+Defined in: main.ts:117760
 
 #### Parameters
 
@@ -405,7 +405,7 @@ Defined in: main.ts:117668
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:117722
+Defined in: main.ts:117814
 
 #### Parameters
 
@@ -423,7 +423,7 @@ Defined in: main.ts:117722
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingPageIntersectionLiveRequestInfo`](DataforseoLabsBingPageIntersectionLiveRequestInfo.md)
 
-Defined in: main.ts:117715
+Defined in: main.ts:117807
 
 #### Parameters
 

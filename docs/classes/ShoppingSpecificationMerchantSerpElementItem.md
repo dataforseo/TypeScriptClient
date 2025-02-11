@@ -6,7 +6,7 @@
 
 # Class: ShoppingSpecificationMerchantSerpElementItem
 
-Defined in: main.ts:189312
+Defined in: main.ts:189702
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:189312
 
 > **new ShoppingSpecificationMerchantSerpElementItem**(`data`?): [`ShoppingSpecificationMerchantSerpElementItem`](ShoppingSpecificationMerchantSerpElementItem.md)
 
-Defined in: main.ts:189326
+Defined in: main.ts:189716
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21722
 
 > `optional` **block\_name**: `string`
 
-Defined in: main.ts:189317
+Defined in: main.ts:189707
 
 name of the block of product attributes
 indicates the name of the product specification section in which the related element is listed
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **specification\_name**: `string`
 
-Defined in: main.ts:189320
+Defined in: main.ts:189710
 
 product attribute
 attribute name of the product data specification
@@ -148,7 +148,7 @@ attribute name of the product data specification
 
 > `optional` **specification\_value**: `string`
 
-Defined in: main.ts:189322
+Defined in: main.ts:189712
 
 content of the specification
 
@@ -180,7 +180,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:189314
+Defined in: main.ts:189704
 
 XPath of the element
 
@@ -194,7 +194,7 @@ XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:189331
+Defined in: main.ts:189721
 
 #### Parameters
 
@@ -216,7 +216,7 @@ Defined in: main.ts:189331
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:189352
+Defined in: main.ts:189742
 
 #### Parameters
 
@@ -238,7 +238,7 @@ Defined in: main.ts:189352
 
 > `static` **fromJS**(`data`): [`ShoppingSpecificationMerchantSerpElementItem`](ShoppingSpecificationMerchantSerpElementItem.md)
 
-Defined in: main.ts:189345
+Defined in: main.ts:189735
 
 #### Parameters
 

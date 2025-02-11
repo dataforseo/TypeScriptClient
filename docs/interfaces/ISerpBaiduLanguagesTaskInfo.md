@@ -6,7 +6,7 @@
 
 # Interface: ISerpBaiduLanguagesTaskInfo
 
-Defined in: main.ts:78834
+Defined in: main.ts:78870
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpBaiduLanguagesResultInfo`](../classes/SerpBaiduLanguagesResultInfo.md)[]
 
-Defined in: main.ts:78836
+Defined in: main.ts:78872
 
 array of results
 

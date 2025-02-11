@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksAvailableFiltersResponseInfo
 
-Defined in: main.ts:149748
+Defined in: main.ts:149912
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BacklinksAvailableFiltersTaskInfo`](../classes/BacklinksAvailableFiltersTaskInfo.md)[]
 
-Defined in: main.ts:149749
+Defined in: main.ts:149913
 
 ***
 

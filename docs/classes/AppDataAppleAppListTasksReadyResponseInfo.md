@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppListTasksReadyResponseInfo
 
-Defined in: main.ts:207537
+Defined in: main.ts:208039
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:207537
 
 > **new AppDataAppleAppListTasksReadyResponseInfo**(`data`?): [`AppDataAppleAppListTasksReadyResponseInfo`](AppDataAppleAppListTasksReadyResponseInfo.md)
 
-Defined in: main.ts:207543
+Defined in: main.ts:208045
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataAppleAppListTasksReadyTaskInfo`](AppDataAppleAppListTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:207539
+Defined in: main.ts:208041
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:207547
+Defined in: main.ts:208049
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:207547
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:207569
+Defined in: main.ts:208071
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:207569
 
 > `static` **fromJS**(`data`): [`AppDataAppleAppListTasksReadyResponseInfo`](AppDataAppleAppListTasksReadyResponseInfo.md)
 
-Defined in: main.ts:207562
+Defined in: main.ts:208064
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsSerpCompetitorsLiveItem
 
-Defined in: main.ts:102126
+Defined in: main.ts:102154
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:102126
 
 > **new DataforseoLabsSerpCompetitorsLiveItem**(`data`?): [`DataforseoLabsSerpCompetitorsLiveItem`](DataforseoLabsSerpCompetitorsLiveItem.md)
 
-Defined in: main.ts:102163
+Defined in: main.ts:102191
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:102163
 
 > `optional` **avg\_position**: `number`
 
-Defined in: main.ts:102133
+Defined in: main.ts:102161
 
 the average position of the domain for the specified keywords
 the arithmetic mean of values in the keywords_positions array
@@ -55,7 +55,7 @@ the arithmetic mean of values in the keywords_positions array
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:102130
+Defined in: main.ts:102158
 
 domain name of the detected SERP competitor
 
@@ -69,7 +69,7 @@ domain name of the detected SERP competitor
 
 > `optional` **etv**: `number`
 
-Defined in: main.ts:102145
+Defined in: main.ts:102173
 
 estimated traffic volume
 represents the estimated monthly traffic that specified keywords are driving to the website
@@ -86,7 +86,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **keywords\_count**: `number`
 
-Defined in: main.ts:102147
+Defined in: main.ts:102175
 
 the number of specified keywords the domain has positions for in SERPs
 
@@ -100,7 +100,7 @@ the number of specified keywords the domain has positions for in SERPs
 
 > `optional` **keywords\_positions**: `object`
 
-Defined in: main.ts:102159
+Defined in: main.ts:102187
 
 keyword positions
 SERP positions the related domain holds in SERP for the specified keywords
@@ -119,7 +119,7 @@ SERP positions the related domain holds in SERP for the specified keywords
 
 > `optional` **median\_position**: `number`
 
-Defined in: main.ts:102136
+Defined in: main.ts:102164
 
 the median position of the domain for the specified keywords
 the median of the values in the keywords_positions array
@@ -134,7 +134,7 @@ the median of the values in the keywords_positions array
 
 > `optional` **rating**: `number`
 
-Defined in: main.ts:102140
+Defined in: main.ts:102168
 
 the margin between the greatest possible and actual keyword positions
 represents the relative visibility rate of the domain in SERP for the specified keywords
@@ -150,7 +150,7 @@ calculated as sum(100-keywords_positions)
 
 > `optional` **relevant\_serp\_items**: `number`
 
-Defined in: main.ts:102156
+Defined in: main.ts:102184
 
 the number of SERP elements relevant to the domain
 represents the number of search results in SERP relevant to the domain for the specified keywords
@@ -165,7 +165,7 @@ represents the number of search results in SERP relevant to the domain for the s
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:102128
+Defined in: main.ts:102156
 
 search engine type
 
@@ -179,7 +179,7 @@ search engine type
 
 > `optional` **visibility**: `number`
 
-Defined in: main.ts:102153
+Defined in: main.ts:102181
 
 SERP visibility rate
 represents the website visibility rate based on the SERP positions of the specified keywords
@@ -197,7 +197,7 @@ keywords with positions from 20 to 100 have the visibility index equal to 0
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:102172
+Defined in: main.ts:102200
 
 #### Parameters
 
@@ -215,7 +215,7 @@ Defined in: main.ts:102172
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:102204
+Defined in: main.ts:102232
 
 #### Parameters
 
@@ -233,7 +233,7 @@ Defined in: main.ts:102204
 
 > `static` **fromJS**(`data`): [`DataforseoLabsSerpCompetitorsLiveItem`](DataforseoLabsSerpCompetitorsLiveItem.md)
 
-Defined in: main.ts:102197
+Defined in: main.ts:102225
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: ITwitterElement
 
-Defined in: main.ts:32323
+Defined in: main.ts:32331
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:32323
 
 > `optional` **date**: `string`
 
-Defined in: main.ts:32329
+Defined in: main.ts:32337
 
 the date when the page source of the element was published
 
@@ -28,7 +28,7 @@ the date when the page source of the element was published
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:32334
+Defined in: main.ts:32342
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -41,7 +41,7 @@ example:
 
 > `optional` **tweet**: `string`
 
-Defined in: main.ts:32327
+Defined in: main.ts:32335
 
 tweet message
 
@@ -51,7 +51,7 @@ tweet message
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:32325
+Defined in: main.ts:32333
 
 type of element
 
@@ -61,6 +61,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:32336
+Defined in: main.ts:32344
 
 URL

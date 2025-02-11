@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationGenerateMetaTagsLiveResultInfo
 
-Defined in: main.ts:182014
+Defined in: main.ts:182376
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:182014
 
 > **new ContentGenerationGenerateMetaTagsLiveResultInfo**(`data`?): [`ContentGenerationGenerateMetaTagsLiveResultInfo`](ContentGenerationGenerateMetaTagsLiveResultInfo.md)
 
-Defined in: main.ts:182028
+Defined in: main.ts:182390
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:182028
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:182024
+Defined in: main.ts:182386
 
 generated description
 
@@ -54,7 +54,7 @@ generated description
 
 > `optional` **input\_tokens**: `number`
 
-Defined in: main.ts:182016
+Defined in: main.ts:182378
 
 number of input tokens
 
@@ -68,7 +68,7 @@ number of input tokens
 
 > `optional` **new\_tokens**: `number`
 
-Defined in: main.ts:182020
+Defined in: main.ts:182382
 
 number of new tokens
 
@@ -82,7 +82,7 @@ number of new tokens
 
 > `optional` **output\_tokens**: `number`
 
-Defined in: main.ts:182018
+Defined in: main.ts:182380
 
 number of output tokens
 
@@ -96,7 +96,7 @@ number of output tokens
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:182022
+Defined in: main.ts:182384
 
 generated title
 
@@ -110,7 +110,7 @@ generated title
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:182037
+Defined in: main.ts:182399
 
 #### Parameters
 
@@ -128,7 +128,7 @@ Defined in: main.ts:182037
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:182058
+Defined in: main.ts:182420
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Defined in: main.ts:182058
 
 > `static` **fromJS**(`data`): [`ContentGenerationGenerateMetaTagsLiveResultInfo`](ContentGenerationGenerateMetaTagsLiveResultInfo.md)
 
-Defined in: main.ts:182051
+Defined in: main.ts:182413
 
 #### Parameters
 

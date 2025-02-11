@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingKeywordPerformanceTaskPostResponseInfo
 
-Defined in: main.ts:144785
+Defined in: main.ts:144949
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataBingKeywordPerformanceTaskPostTaskInfo`](../classes/KeywordsDataBingKeywordPerformanceTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:144787
+Defined in: main.ts:144951
 
 array of tasks
 

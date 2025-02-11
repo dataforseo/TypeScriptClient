@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleHotelInfoTaskGetAdvancedTaskInfo
 
-Defined in: main.ts:219922
+Defined in: main.ts:220430
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:219922
 
 > **new BusinessDataGoogleHotelInfoTaskGetAdvancedTaskInfo**(`data`?): [`BusinessDataGoogleHotelInfoTaskGetAdvancedTaskInfo`](BusinessDataGoogleHotelInfoTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:219928
+Defined in: main.ts:220436
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataGoogleHotelInfoTaskGetAdvancedResultInfo`](BusinessDataGoogleHotelInfoTaskGetAdvancedResultInfo.md)[]
 
-Defined in: main.ts:219924
+Defined in: main.ts:220432
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:219932
+Defined in: main.ts:220440
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:219932
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:219954
+Defined in: main.ts:220462
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:219954
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleHotelInfoTaskGetAdvancedTaskInfo`](BusinessDataGoogleHotelInfoTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:219947
+Defined in: main.ts:220455
 
 #### Parameters
 

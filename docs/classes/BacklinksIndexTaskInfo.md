@@ -6,7 +6,7 @@
 
 # Class: BacklinksIndexTaskInfo
 
-Defined in: main.ts:149904
+Defined in: main.ts:150068
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:149904
 
 > **new BacklinksIndexTaskInfo**(`data`?): [`BacklinksIndexTaskInfo`](BacklinksIndexTaskInfo.md)
 
-Defined in: main.ts:149910
+Defined in: main.ts:150074
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`BacklinksIndexResultInfo`](BacklinksIndexResultInfo.md)[]
 
-Defined in: main.ts:149906
+Defined in: main.ts:150070
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:149914
+Defined in: main.ts:150078
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:149914
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:149936
+Defined in: main.ts:150100
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:149936
 
 > `static` **fromJS**(`data`): [`BacklinksIndexTaskInfo`](BacklinksIndexTaskInfo.md)
 
-Defined in: main.ts:149929
+Defined in: main.ts:150093
 
 #### Parameters
 

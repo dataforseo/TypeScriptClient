@@ -6,7 +6,7 @@
 
 # Class: SerpSeznamOrganicTaskGetRegularResultInfo
 
-Defined in: main.ts:83576
+Defined in: main.ts:83612
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:83576
 
 > **new SerpSeznamOrganicTaskGetRegularResultInfo**(`data`?): [`SerpSeznamOrganicTaskGetRegularResultInfo`](SerpSeznamOrganicTaskGetRegularResultInfo.md)
 
-Defined in: main.ts:83619
+Defined in: main.ts:83655
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:83619
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:83590
+Defined in: main.ts:83626
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:83595
+Defined in: main.ts:83631
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:83609
+Defined in: main.ts:83645
 
 types of search results found in SERP
 contains types of all search results (items) found in the returned SERP
@@ -92,7 +92,7 @@ to get all items (inlcuding SERP features and rich snippets) found in the return
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-Defined in: main.ts:83615
+Defined in: main.ts:83651
 
 items in SERP
 
@@ -106,7 +106,7 @@ items in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:83613
+Defined in: main.ts:83649
 
 the number of results returned in the items array
 
@@ -120,7 +120,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:83579
+Defined in: main.ts:83615
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -135,7 +135,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:83587
+Defined in: main.ts:83623
 
 language code in a POST array
 
@@ -149,7 +149,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:83585
+Defined in: main.ts:83621
 
 location code in a POST array
 
@@ -163,7 +163,7 @@ location code in a POST array
 
 > `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
 
-Defined in: main.ts:83601
+Defined in: main.ts:83637
 
 search refinement chips
 equals null
@@ -178,7 +178,7 @@ equals null
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:83583
+Defined in: main.ts:83619
 
 search engine domain in a POST array
 
@@ -192,7 +192,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:83611
+Defined in: main.ts:83647
 
 total number of results in SERP
 
@@ -206,7 +206,7 @@ total number of results in SERP
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:83598
+Defined in: main.ts:83634
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -221,7 +221,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:83581
+Defined in: main.ts:83617
 
 type of element
 
@@ -235,7 +235,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:83628
+Defined in: main.ts:83664
 
 #### Parameters
 
@@ -253,7 +253,7 @@ Defined in: main.ts:83628
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:83665
+Defined in: main.ts:83701
 
 #### Parameters
 
@@ -271,7 +271,7 @@ Defined in: main.ts:83665
 
 > `static` **fromJS**(`data`): [`SerpSeznamOrganicTaskGetRegularResultInfo`](SerpSeznamOrganicTaskGetRegularResultInfo.md)
 
-Defined in: main.ts:83658
+Defined in: main.ts:83694
 
 #### Parameters
 

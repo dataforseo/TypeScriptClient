@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleQuestionsAndAnswersItem
 
-Defined in: main.ts:224586
+Defined in: main.ts:225094
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:224586
 
 > **new BusinessDataGoogleQuestionsAndAnswersItem**(`data`?): [`BusinessDataGoogleQuestionsAndAnswersItem`](BusinessDataGoogleQuestionsAndAnswersItem.md)
 
-Defined in: main.ts:224618
+Defined in: main.ts:225126
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:224618
 
 > `optional` **items**: [`GoogleBusinessAnswerElement`](GoogleBusinessAnswerElement.md)[]
 
-Defined in: main.ts:224614
+Defined in: main.ts:225122
 
 array of google business question items with answers
 possible item types: google_business_question_item
@@ -55,7 +55,7 @@ possible item types: google_business_question_item
 
 > `optional` **original\_question\_text**: `string`
 
-Defined in: main.ts:224607
+Defined in: main.ts:225115
 
 original text of the question
 
@@ -69,7 +69,7 @@ original text of the question
 
 > `optional` **profile\_image\_url**: `string`
 
-Defined in: main.ts:224599
+Defined in: main.ts:225107
 
 URL of the user’s profile image
 
@@ -83,7 +83,7 @@ URL of the user’s profile image
 
 > `optional` **profile\_name**: `string`
 
-Defined in: main.ts:224603
+Defined in: main.ts:225111
 
 displayed name of the user
 
@@ -97,7 +97,7 @@ displayed name of the user
 
 > `optional` **profile\_url**: `string`
 
-Defined in: main.ts:224601
+Defined in: main.ts:225109
 
 URL of the user’s profile
 
@@ -111,7 +111,7 @@ URL of the user’s profile
 
 > `optional` **question\_id**: `string`
 
-Defined in: main.ts:224595
+Defined in: main.ts:225103
 
 ID of the question
 
@@ -125,7 +125,7 @@ ID of the question
 
 > `optional` **question\_text**: `string`
 
-Defined in: main.ts:224605
+Defined in: main.ts:225113
 
 current text of the question
 
@@ -139,7 +139,7 @@ current text of the question
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:224593
+Defined in: main.ts:225101
 
 absolute rank among all the elements
 
@@ -153,7 +153,7 @@ absolute rank among all the elements
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:224591
+Defined in: main.ts:225099
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -168,7 +168,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **time\_ago**: `string`
 
-Defined in: main.ts:224609
+Defined in: main.ts:225117
 
 estimated time when the question was posted
 
@@ -182,7 +182,7 @@ estimated time when the question was posted
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:224611
+Defined in: main.ts:225119
 
 exact time when the question was posted
 
@@ -196,7 +196,7 @@ exact time when the question was posted
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:224588
+Defined in: main.ts:225096
 
 type of element
 
@@ -210,7 +210,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:224597
+Defined in: main.ts:225105
 
 URL of the question
 
@@ -224,7 +224,7 @@ URL of the question
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:224627
+Defined in: main.ts:225135
 
 #### Parameters
 
@@ -242,7 +242,7 @@ Defined in: main.ts:224627
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:224660
+Defined in: main.ts:225168
 
 #### Parameters
 
@@ -260,7 +260,7 @@ Defined in: main.ts:224660
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleQuestionsAndAnswersItem`](BusinessDataGoogleQuestionsAndAnswersItem.md)
 
-Defined in: main.ts:224653
+Defined in: main.ts:225161
 
 #### Parameters
 

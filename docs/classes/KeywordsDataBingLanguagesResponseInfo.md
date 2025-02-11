@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingLanguagesResponseInfo
 
-Defined in: main.ts:138483
+Defined in: main.ts:138647
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:138483
 
 > **new KeywordsDataBingLanguagesResponseInfo**(`data`?): [`KeywordsDataBingLanguagesResponseInfo`](KeywordsDataBingLanguagesResponseInfo.md)
 
-Defined in: main.ts:138489
+Defined in: main.ts:138653
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataBingLanguagesTaskInfo`](KeywordsDataBingLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:138485
+Defined in: main.ts:138649
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:138493
+Defined in: main.ts:138657
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:138493
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:138515
+Defined in: main.ts:138679
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:138515
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingLanguagesResponseInfo`](KeywordsDataBingLanguagesResponseInfo.md)
 
-Defined in: main.ts:138508
+Defined in: main.ts:138672
 
 #### Parameters
 

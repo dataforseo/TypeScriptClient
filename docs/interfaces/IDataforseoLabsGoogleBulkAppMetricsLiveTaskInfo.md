@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleBulkAppMetricsLiveTaskInfo
 
-Defined in: main.ts:121216
+Defined in: main.ts:121332
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleBulkAppMetricsLiveResultInfo`](../classes/DataforseoLabsGoogleBulkAppMetricsLiveResultInfo.md)[]
 
-Defined in: main.ts:121218
+Defined in: main.ts:121334
 
 array of results
 

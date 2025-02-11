@@ -6,7 +6,7 @@
 
 # Interface: IMerchantAmazonAsinTasksReadyResultInfo
 
-Defined in: main.ts:193909
+Defined in: main.ts:194315
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:193909
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:193919
+Defined in: main.ts:194325
 
 date when the task was posted (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:193923
+Defined in: main.ts:194329
 
 URL for collecting the results of the Amazon ASIN Advanced task
 
@@ -38,7 +38,7 @@ URL for collecting the results of the Amazon ASIN Advanced task
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:193925
+Defined in: main.ts:194331
 
 URL for collecting the results of the Amazon ASIN HTML task
 
@@ -48,7 +48,7 @@ URL for collecting the results of the Amazon ASIN HTML task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:193912
+Defined in: main.ts:194318
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -59,7 +59,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:193914
+Defined in: main.ts:194320
 
 search engine specified when setting the task
 
@@ -69,7 +69,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:193917
+Defined in: main.ts:194323
 
 type of search engine
 can take the following values: shopping
@@ -80,6 +80,6 @@ can take the following values: shopping
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:193921
+Defined in: main.ts:194327
 
 user-defined task identifier

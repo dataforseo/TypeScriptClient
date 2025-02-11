@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppSearchesTaskPostTaskInfo
 
-Defined in: main.ts:205510
+Defined in: main.ts:206012
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:205510
 
 > **new AppDataAppleAppSearchesTaskPostTaskInfo**(`data`?): [`AppDataAppleAppSearchesTaskPostTaskInfo`](AppDataAppleAppSearchesTaskPostTaskInfo.md)
 
-Defined in: main.ts:205517
+Defined in: main.ts:206019
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:205513
+Defined in: main.ts:206015
 
 array of results
 in this case, the value will be null
@@ -215,7 +215,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:205521
+Defined in: main.ts:206023
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:205521
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:205539
+Defined in: main.ts:206041
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:205539
 
 > `static` **fromJS**(`data`): [`AppDataAppleAppSearchesTaskPostTaskInfo`](AppDataAppleAppSearchesTaskPostTaskInfo.md)
 
-Defined in: main.ts:205532
+Defined in: main.ts:206034
 
 #### Parameters
 

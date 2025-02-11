@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleBulkKeywordDifficultyLiveTaskInfo
 
-Defined in: main.ts:96342
+Defined in: main.ts:96368
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleBulkKeywordDifficultyLiveResultInfo`](../classes/DataforseoLabsGoogleBulkKeywordDifficultyLiveResultInfo.md)[]
 
-Defined in: main.ts:96344
+Defined in: main.ts:96370
 
 array of results
 

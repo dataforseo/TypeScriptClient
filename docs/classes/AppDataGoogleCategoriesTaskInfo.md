@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleCategoriesTaskInfo
 
-Defined in: main.ts:198614
+Defined in: main.ts:199116
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:198614
 
 > **new AppDataGoogleCategoriesTaskInfo**(`data`?): [`AppDataGoogleCategoriesTaskInfo`](AppDataGoogleCategoriesTaskInfo.md)
 
-Defined in: main.ts:198620
+Defined in: main.ts:199122
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`AppDataGoogleCategoriesResultInfo`](AppDataGoogleCategoriesResultInfo.md)[]
 
-Defined in: main.ts:198616
+Defined in: main.ts:199118
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:198624
+Defined in: main.ts:199126
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:198624
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:198646
+Defined in: main.ts:199148
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:198646
 
 > `static` **fromJS**(`data`): [`AppDataGoogleCategoriesTaskInfo`](AppDataGoogleCategoriesTaskInfo.md)
 
-Defined in: main.ts:198639
+Defined in: main.ts:199141
 
 #### Parameters
 

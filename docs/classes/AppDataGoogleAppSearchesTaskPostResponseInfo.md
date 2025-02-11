@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppSearchesTaskPostResponseInfo
 
-Defined in: main.ts:199569
+Defined in: main.ts:200071
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:199569
 
 > **new AppDataGoogleAppSearchesTaskPostResponseInfo**(`data`?): [`AppDataGoogleAppSearchesTaskPostResponseInfo`](AppDataGoogleAppSearchesTaskPostResponseInfo.md)
 
-Defined in: main.ts:199575
+Defined in: main.ts:200077
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataGoogleAppSearchesTaskPostTaskInfo`](AppDataGoogleAppSearchesTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:199571
+Defined in: main.ts:200073
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:199579
+Defined in: main.ts:200081
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:199579
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:199601
+Defined in: main.ts:200103
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:199601
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppSearchesTaskPostResponseInfo`](AppDataGoogleAppSearchesTaskPostResponseInfo.md)
 
-Defined in: main.ts:199594
+Defined in: main.ts:200096
 
 #### Parameters
 

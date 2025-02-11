@@ -6,7 +6,7 @@
 
 # Class: SerpBingLocalPackTaskGetHtmlResponseInfo
 
-Defined in: main.ts:67902
+Defined in: main.ts:67938
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:67902
 
 > **new SerpBingLocalPackTaskGetHtmlResponseInfo**(`data`?): [`SerpBingLocalPackTaskGetHtmlResponseInfo`](SerpBingLocalPackTaskGetHtmlResponseInfo.md)
 
-Defined in: main.ts:67908
+Defined in: main.ts:67944
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpBingLocalPackTaskGetHtmlTaskInfo`](SerpBingLocalPackTaskGetHtmlTaskInfo.md)[]
 
-Defined in: main.ts:67904
+Defined in: main.ts:67940
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:67912
+Defined in: main.ts:67948
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:67912
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:67934
+Defined in: main.ts:67970
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:67934
 
 > `static` **fromJS**(`data`): [`SerpBingLocalPackTaskGetHtmlResponseInfo`](SerpBingLocalPackTaskGetHtmlResponseInfo.md)
 
-Defined in: main.ts:67927
+Defined in: main.ts:67963
 
 #### Parameters
 

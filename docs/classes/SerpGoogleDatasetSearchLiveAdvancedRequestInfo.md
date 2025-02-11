@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleDatasetSearchLiveAdvancedRequestInfo
 
-Defined in: main.ts:58358
+Defined in: main.ts:58374
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:58358
 
 > **new SerpGoogleDatasetSearchLiveAdvancedRequestInfo**(`data`?): [`SerpGoogleDatasetSearchLiveAdvancedRequestInfo`](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md)
 
-Defined in: main.ts:58426
+Defined in: main.ts:58442
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:58426
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:58396
+Defined in: main.ts:58412
 
 parsing depth
 optional field
@@ -61,7 +61,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:58382
+Defined in: main.ts:58398
 
 device type
 optional field
@@ -77,7 +77,7 @@ possible value: desktop
 
 > `optional` **file\_formats**: `string`[]
 
-Defined in: main.ts:58404
+Defined in: main.ts:58420
 
 file formats of the dataset
 optional field
@@ -93,7 +93,7 @@ possible values: other, archive, text, image, document, tabular
 
 > `optional` **is\_free**: `boolean`
 
-Defined in: main.ts:58412
+Defined in: main.ts:58428
 
 indicates whether displayed datasets are free
 optional field
@@ -109,7 +109,7 @@ possible values: true, false
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:58366
+Defined in: main.ts:58382
 
 keyword
 required field
@@ -129,7 +129,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:58378
+Defined in: main.ts:58394
 
 search engine language code
 optional field if you don’t specify language_name
@@ -147,7 +147,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:58372
+Defined in: main.ts:58388
 
 full name of search engine language
 optional field
@@ -165,7 +165,7 @@ English
 
 > `optional` **last\_updated**: `string`
 
-Defined in: main.ts:58400
+Defined in: main.ts:58416
 
 last time the dataset was updated
 optional field
@@ -181,7 +181,7 @@ possible values: 1m, 1y, 3y
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:58387
+Defined in: main.ts:58403
 
 device operating system
 optional field
@@ -198,7 +198,7 @@ default value: windows
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:58422
+Defined in: main.ts:58438
 
 user-defined task identifier
 optional field
@@ -216,7 +216,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **topics**: `string`[]
 
-Defined in: main.ts:58416
+Defined in: main.ts:58432
 
 dataset topics
 optional field
@@ -232,7 +232,7 @@ possible values: humanities, social_sciences, life_sciences, agriculture, natura
 
 > `optional` **usage\_rights**: `string`
 
-Defined in: main.ts:58408
+Defined in: main.ts:58424
 
 usage rights of the dataset
 optional field
@@ -248,7 +248,7 @@ possible values: commercial, noncommercial
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:58435
+Defined in: main.ts:58451
 
 #### Parameters
 
@@ -266,7 +266,7 @@ Defined in: main.ts:58435
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:58471
+Defined in: main.ts:58487
 
 #### Parameters
 
@@ -284,7 +284,7 @@ Defined in: main.ts:58471
 
 > `static` **fromJS**(`data`): [`SerpGoogleDatasetSearchLiveAdvancedRequestInfo`](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md)
 
-Defined in: main.ts:58464
+Defined in: main.ts:58480
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsLocationsAndLanguagesTaskInfo
 
-Defined in: main.ts:91522
+Defined in: main.ts:91558
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:91522
 
 > **new DataforseoLabsLocationsAndLanguagesTaskInfo**(`data`?): [`DataforseoLabsLocationsAndLanguagesTaskInfo`](DataforseoLabsLocationsAndLanguagesTaskInfo.md)
 
-Defined in: main.ts:91528
+Defined in: main.ts:91564
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsLocationsAndLanguagesResultInfo`](DataforseoLabsLocationsAndLanguagesResultInfo.md)[]
 
-Defined in: main.ts:91524
+Defined in: main.ts:91560
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:91532
+Defined in: main.ts:91568
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:91532
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:91554
+Defined in: main.ts:91590
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:91554
 
 > `static` **fromJS**(`data`): [`DataforseoLabsLocationsAndLanguagesTaskInfo`](DataforseoLabsLocationsAndLanguagesTaskInfo.md)
 
-Defined in: main.ts:91547
+Defined in: main.ts:91583
 
 #### Parameters
 

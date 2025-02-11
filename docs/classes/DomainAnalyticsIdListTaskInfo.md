@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsIdListTaskInfo
 
-Defined in: main.ts:84576
+Defined in: main.ts:84612
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:84576
 
 > **new DomainAnalyticsIdListTaskInfo**(`data`?): [`DomainAnalyticsIdListTaskInfo`](DomainAnalyticsIdListTaskInfo.md)
 
-Defined in: main.ts:84582
+Defined in: main.ts:84618
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DomainAnalyticsIdListResultInfo`](DomainAnalyticsIdListResultInfo.md)[]
 
-Defined in: main.ts:84578
+Defined in: main.ts:84614
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:84586
+Defined in: main.ts:84622
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:84586
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:84608
+Defined in: main.ts:84644
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:84608
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsIdListTaskInfo`](DomainAnalyticsIdListTaskInfo.md)
 
-Defined in: main.ts:84601
+Defined in: main.ts:84637
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAmazonProductKeywordIntersectionsLiveTaskInfo
 
-Defined in: main.ts:115226
+Defined in: main.ts:115294
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo`](../classes/DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo.md)[]
 
-Defined in: main.ts:115228
+Defined in: main.ts:115296
 
 array of results
 

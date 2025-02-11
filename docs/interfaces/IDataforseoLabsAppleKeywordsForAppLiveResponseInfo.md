@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAppleKeywordsForAppLiveResponseInfo
 
-Defined in: main.ts:124075
+Defined in: main.ts:124191
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsAppleKeywordsForAppLiveTaskInfo`](../classes/DataforseoLabsAppleKeywordsForAppLiveTaskInfo.md)[]
 
-Defined in: main.ts:124077
+Defined in: main.ts:124193
 
 array of tasks
 

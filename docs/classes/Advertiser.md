@@ -6,7 +6,7 @@
 
 # Class: Advertiser
 
-Defined in: main.ts:60892
+Defined in: main.ts:60914
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:60892
 
 > **new Advertiser**(`data`?): [`Advertiser`](Advertiser.md)
 
-Defined in: main.ts:60910
+Defined in: main.ts:60932
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:60910
 
 > `optional` **advertiser\_id**: `string`
 
-Defined in: main.ts:60897
+Defined in: main.ts:60919
 
 unique identifier of the advertiser account
 can be used to obtain data on advertising campaigns from the Google Ads Search endpoint
@@ -55,7 +55,7 @@ can be used to obtain data on advertising campaigns from the Google Ads Search e
 
 > `optional` **approx\_ads\_count**: `number`
 
-Defined in: main.ts:60906
+Defined in: main.ts:60928
 
 ads count
 the approximate number of ads that are run by the advertiser account across all available Google Ads platforms
@@ -70,7 +70,7 @@ the approximate number of ads that are run by the advertiser account across all 
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:60900
+Defined in: main.ts:60922
 
 location of the advertiser account
 country code associated with the advertiser account
@@ -85,7 +85,7 @@ country code associated with the advertiser account
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:60894
+Defined in: main.ts:60916
 
 type of element
 
@@ -99,7 +99,7 @@ type of element
 
 > `optional` **verified**: `boolean`
 
-Defined in: main.ts:60903
+Defined in: main.ts:60925
 
 verified advertiser account
 equals true if advertiser account is verified by Google Ads
@@ -114,7 +114,7 @@ equals true if advertiser account is verified by Google Ads
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:60919
+Defined in: main.ts:60941
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:60919
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:60940
+Defined in: main.ts:60962
 
 #### Parameters
 
@@ -150,7 +150,7 @@ Defined in: main.ts:60940
 
 > `static` **fromJS**(`data`): [`Advertiser`](Advertiser.md)
 
-Defined in: main.ts:60933
+Defined in: main.ts:60955
 
 #### Parameters
 

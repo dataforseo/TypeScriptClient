@@ -6,7 +6,7 @@
 
 # Interface: IInterests
 
-Defined in: main.ts:136558
+Defined in: main.ts:136722
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:136558
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:136561
+Defined in: main.ts:136725
 
 relevant keyword
 the data included in the values element is based on this keyword
@@ -29,6 +29,6 @@ the data included in the values element is based on this keyword
 
 > `optional` **values**: [`Values`](../classes/Values.md)[]
 
-Defined in: main.ts:136563
+Defined in: main.ts:136727
 
 contains data on relative keyword popularity by country or region

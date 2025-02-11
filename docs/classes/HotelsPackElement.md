@@ -6,7 +6,7 @@
 
 # Class: HotelsPackElement
 
-Defined in: main.ts:35493
+Defined in: main.ts:35509
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:35493
 
 > **new HotelsPackElement**(`data`?): [`HotelsPackElement`](HotelsPackElement.md)
 
-Defined in: main.ts:35518
+Defined in: main.ts:35534
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:35518
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:35501
+Defined in: main.ts:35517
 
 description
 
@@ -54,7 +54,7 @@ description
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:35507
+Defined in: main.ts:35523
 
 website domain
 
@@ -68,7 +68,7 @@ website domain
 
 > `optional` **hotel\_identifier**: `string`
 
-Defined in: main.ts:35505
+Defined in: main.ts:35521
 
 unique hotel identifier
 unique hotel identifier assigned by Google;
@@ -84,7 +84,7 @@ example: "CgoIjaeSlI6CnNpVEAE"
 
 > `optional` **is\_paid**: `boolean`
 
-Defined in: main.ts:35511
+Defined in: main.ts:35527
 
 indicates whether the element is an ad
 
@@ -98,7 +98,7 @@ indicates whether the element is an ad
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:35497
+Defined in: main.ts:35513
 
 price indicated in the element
 
@@ -112,7 +112,7 @@ price indicated in the element
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:35514
+Defined in: main.ts:35530
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -127,7 +127,7 @@ the popularity rate based on reviews and displayed in SERP
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:35499
+Defined in: main.ts:35515
 
 title of a given link element
 
@@ -141,7 +141,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:35495
+Defined in: main.ts:35511
 
 type of element
 
@@ -155,7 +155,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:35509
+Defined in: main.ts:35525
 
 URL
 
@@ -169,7 +169,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:35527
+Defined in: main.ts:35543
 
 #### Parameters
 
@@ -187,7 +187,7 @@ Defined in: main.ts:35527
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:35552
+Defined in: main.ts:35568
 
 #### Parameters
 
@@ -205,7 +205,7 @@ Defined in: main.ts:35552
 
 > `static` **fromJS**(`data`): [`HotelsPackElement`](HotelsPackElement.md)
 
-Defined in: main.ts:35545
+Defined in: main.ts:35561
 
 #### Parameters
 

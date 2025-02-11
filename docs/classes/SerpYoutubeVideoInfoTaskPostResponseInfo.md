@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeVideoInfoTaskPostResponseInfo
 
-Defined in: main.ts:69774
+Defined in: main.ts:69810
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:69774
 
 > **new SerpYoutubeVideoInfoTaskPostResponseInfo**(`data`?): [`SerpYoutubeVideoInfoTaskPostResponseInfo`](SerpYoutubeVideoInfoTaskPostResponseInfo.md)
 
-Defined in: main.ts:69780
+Defined in: main.ts:69816
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpYoutubeVideoInfoTaskPostTaskInfo`](SerpYoutubeVideoInfoTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:69776
+Defined in: main.ts:69812
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:69784
+Defined in: main.ts:69820
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:69784
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:69806
+Defined in: main.ts:69842
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:69806
 
 > `static` **fromJS**(`data`): [`SerpYoutubeVideoInfoTaskPostResponseInfo`](SerpYoutubeVideoInfoTaskPostResponseInfo.md)
 
-Defined in: main.ts:69799
+Defined in: main.ts:69835
 
 #### Parameters
 

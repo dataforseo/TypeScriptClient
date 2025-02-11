@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo
 
-Defined in: main.ts:138066
+Defined in: main.ts:138230
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:138066
 
 > **new KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo**(`data`?): [`KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo`](KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md)
 
-Defined in: main.ts:138072
+Defined in: main.ts:138236
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataDataforseoTrendsMergedDataLiveResultInfo`](KeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md)[]
 
-Defined in: main.ts:138068
+Defined in: main.ts:138232
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:138076
+Defined in: main.ts:138240
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:138076
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:138098
+Defined in: main.ts:138262
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:138098
 
 > `static` **fromJS**(`data`): [`KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo`](KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md)
 
-Defined in: main.ts:138091
+Defined in: main.ts:138255
 
 #### Parameters
 

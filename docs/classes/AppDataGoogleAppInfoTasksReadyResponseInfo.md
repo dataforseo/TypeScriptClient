@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppInfoTasksReadyResponseInfo
 
-Defined in: main.ts:201945
+Defined in: main.ts:202447
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:201945
 
 > **new AppDataGoogleAppInfoTasksReadyResponseInfo**(`data`?): [`AppDataGoogleAppInfoTasksReadyResponseInfo`](AppDataGoogleAppInfoTasksReadyResponseInfo.md)
 
-Defined in: main.ts:201951
+Defined in: main.ts:202453
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataGoogleAppInfoTasksReadyTaskInfo`](AppDataGoogleAppInfoTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:201947
+Defined in: main.ts:202449
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:201955
+Defined in: main.ts:202457
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:201955
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:201977
+Defined in: main.ts:202479
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:201977
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppInfoTasksReadyResponseInfo`](AppDataGoogleAppInfoTasksReadyResponseInfo.md)
 
-Defined in: main.ts:201970
+Defined in: main.ts:202472
 
 #### Parameters
 

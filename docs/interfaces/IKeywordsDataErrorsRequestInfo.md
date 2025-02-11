@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataErrorsRequestInfo
 
-Defined in: main.ts:125701
+Defined in: main.ts:125817
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:125701
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:125724
+Defined in: main.ts:125840
 
 start time for filtering results
 optional field
@@ -33,7 +33,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:125731
+Defined in: main.ts:125847
 
 finish time for filtering results
 optional field
@@ -48,7 +48,7 @@ example:
 
 > `optional` **filtered\_function**: `string`
 
-Defined in: main.ts:125717
+Defined in: main.ts:125833
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -62,7 +62,7 @@ example: keywords_data/keywords_for_site/task_post, postback_url, pingback_url
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:125706
+Defined in: main.ts:125822
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -75,7 +75,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:125711
+Defined in: main.ts:125827
 
 offset in the results array of returned tasks
 optional field

@@ -6,7 +6,7 @@
 
 # Class: OnPagePagesByResourceRequestInfo
 
-Defined in: main.ts:167206
+Defined in: main.ts:167370
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:167206
 
 > **new OnPagePagesByResourceRequestInfo**(`data`?): [`OnPagePagesByResourceRequestInfo`](OnPagePagesByResourceRequestInfo.md)
 
-Defined in: main.ts:167266
+Defined in: main.ts:167430
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:167266
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:167242
+Defined in: main.ts:167406
 
 array of results filtering parameters
 optional field
@@ -66,7 +66,7 @@ The full list of possible filters is available by this link.
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:167212
+Defined in: main.ts:167376
 
 ID of the task
 required field
@@ -84,7 +84,7 @@ example:
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:167223
+Defined in: main.ts:167387
 
 the maximum number of returned pages
 optional field
@@ -101,7 +101,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:167228
+Defined in: main.ts:167392
 
 offset in the results array of returned pages
 optional field
@@ -118,7 +118,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:167256
+Defined in: main.ts:167420
 
 results sorting rules
 optional field
@@ -144,7 +144,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:167262
+Defined in: main.ts:167426
 
 user-defined task identifier
 optional field
@@ -162,7 +162,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:167218
+Defined in: main.ts:167382
 
 resource URL
 required field
@@ -180,7 +180,7 @@ https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:167275
+Defined in: main.ts:167439
 
 #### Parameters
 
@@ -198,7 +198,7 @@ Defined in: main.ts:167275
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:167306
+Defined in: main.ts:167470
 
 #### Parameters
 
@@ -216,7 +216,7 @@ Defined in: main.ts:167306
 
 > `static` **fromJS**(`data`): [`OnPagePagesByResourceRequestInfo`](OnPagePagesByResourceRequestInfo.md)
 
-Defined in: main.ts:167299
+Defined in: main.ts:167463
 
 #### Parameters
 

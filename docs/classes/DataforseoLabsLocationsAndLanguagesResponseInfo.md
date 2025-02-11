@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsLocationsAndLanguagesResponseInfo
 
-Defined in: main.ts:91577
+Defined in: main.ts:91613
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:91577
 
 > **new DataforseoLabsLocationsAndLanguagesResponseInfo**(`data`?): [`DataforseoLabsLocationsAndLanguagesResponseInfo`](DataforseoLabsLocationsAndLanguagesResponseInfo.md)
 
-Defined in: main.ts:91583
+Defined in: main.ts:91619
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsLocationsAndLanguagesTaskInfo`](DataforseoLabsLocationsAndLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:91579
+Defined in: main.ts:91615
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:91587
+Defined in: main.ts:91623
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:91587
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:91609
+Defined in: main.ts:91645
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:91609
 
 > `static` **fromJS**(`data`): [`DataforseoLabsLocationsAndLanguagesResponseInfo`](DataforseoLabsLocationsAndLanguagesResponseInfo.md)
 
-Defined in: main.ts:91602
+Defined in: main.ts:91638
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: ISerpBaiduOrganicTaskGetHtmlResponseInfo
 
-Defined in: main.ts:80609
+Defined in: main.ts:80645
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpBaiduOrganicTaskGetHtmlTaskInfo`](../classes/SerpBaiduOrganicTaskGetHtmlTaskInfo.md)[]
 
-Defined in: main.ts:80611
+Defined in: main.ts:80647
 
 array of tasks
 

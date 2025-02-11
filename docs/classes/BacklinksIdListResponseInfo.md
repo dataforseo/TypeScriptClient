@@ -6,7 +6,7 @@
 
 # Class: BacklinksIdListResponseInfo
 
-Defined in: main.ts:149049
+Defined in: main.ts:149213
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:149049
 
 > **new BacklinksIdListResponseInfo**(`data`?): [`BacklinksIdListResponseInfo`](BacklinksIdListResponseInfo.md)
 
-Defined in: main.ts:149055
+Defined in: main.ts:149219
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BacklinksIdListTaskInfo`](BacklinksIdListTaskInfo.md)[]
 
-Defined in: main.ts:149051
+Defined in: main.ts:149215
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:149059
+Defined in: main.ts:149223
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:149059
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:149081
+Defined in: main.ts:149245
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:149081
 
 > `static` **fromJS**(`data`): [`BacklinksIdListResponseInfo`](BacklinksIdListResponseInfo.md)
 
-Defined in: main.ts:149074
+Defined in: main.ts:149238
 
 #### Parameters
 

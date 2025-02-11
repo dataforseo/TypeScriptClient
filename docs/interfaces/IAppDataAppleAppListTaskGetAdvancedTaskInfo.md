@@ -6,7 +6,7 @@
 
 # Interface: IAppDataAppleAppListTaskGetAdvancedTaskInfo
 
-Defined in: main.ts:207758
+Defined in: main.ts:208260
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`AppDataAppleAppListTaskGetAdvancedResultInfo`](../classes/AppDataAppleAppListTaskGetAdvancedResultInfo.md)[]
 
-Defined in: main.ts:207760
+Defined in: main.ts:208262
 
 array of results
 

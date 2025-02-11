@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAmazonRankedKeywordsLiveResultInfo
 
-Defined in: main.ts:113483
+Defined in: main.ts:113551
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:113483
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:113487
+Defined in: main.ts:113555
 
 ASIN in a POST array
 
@@ -28,7 +28,7 @@ ASIN in a POST array
 
 > `optional` **items**: [`DataforseoLabsAmazonRankedKeywordsLiveItem`](../classes/DataforseoLabsAmazonRankedKeywordsLiveItem.md)[]
 
-Defined in: main.ts:113499
+Defined in: main.ts:113567
 
 contains detected Amazon product competitors and related data
 
@@ -38,7 +38,7 @@ contains detected Amazon product competitors and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:113497
+Defined in: main.ts:113565
 
 the number of results returned in the items array
 
@@ -48,7 +48,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:113493
+Defined in: main.ts:113561
 
 language code in a POST array
 if there is no data, then the value is null
@@ -59,7 +59,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:113490
+Defined in: main.ts:113558
 
 location code in a POST array
 if there is no data, then the value is null
@@ -70,7 +70,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:113485
+Defined in: main.ts:113553
 
 search engine type
 
@@ -80,6 +80,6 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:113495
+Defined in: main.ts:113563
 
 total amount of results in our database relevant to your request

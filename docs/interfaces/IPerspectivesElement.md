@@ -6,7 +6,7 @@
 
 # Interface: IPerspectivesElement
 
-Defined in: main.ts:37460
+Defined in: main.ts:37476
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:37460
 
 > `optional` **date**: `string`
 
-Defined in: main.ts:37472
+Defined in: main.ts:37488
 
 the date when the page source of the element was published
 
@@ -28,7 +28,7 @@ the date when the page source of the element was published
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:37466
+Defined in: main.ts:37482
 
 description
 
@@ -38,7 +38,7 @@ description
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:37470
+Defined in: main.ts:37486
 
 website domain
 
@@ -48,7 +48,7 @@ website domain
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:37475
+Defined in: main.ts:37491
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -59,7 +59,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:37480
+Defined in: main.ts:37496
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:37464
+Defined in: main.ts:37480
 
 title of a given link element
 
@@ -82,7 +82,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:37462
+Defined in: main.ts:37478
 
 type of element
 
@@ -92,6 +92,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:37468
+Defined in: main.ts:37484
 
 URL

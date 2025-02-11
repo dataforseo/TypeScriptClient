@@ -6,7 +6,7 @@
 
 # Interface: IMerchantAmazonAsinTaskGetAdvancedResultInfo
 
-Defined in: main.ts:194852
+Defined in: main.ts:195568
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:194852
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:194856
+Defined in: main.ts:195572
 
 ASIN received in a POST array
 the unique product identifier in Amazon (ASIN) received in a POST array
@@ -30,7 +30,7 @@ learn more about the identified in this help center guide
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:194867
+Defined in: main.ts:195583
 
 direct URL to Amazon results
 you can use it to make sure that we provided accurate results
@@ -41,7 +41,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:194872
+Defined in: main.ts:195588
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -54,7 +54,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:194877
+Defined in: main.ts:195593
 
 types of search results found on Amazon
 contains types of all search results (items) found in the returned SERP
@@ -67,7 +67,7 @@ amazon_product_info
 
 > `optional` **items**: [`BaseAmazonSerpElementItem`](../classes/BaseAmazonSerpElementItem.md)[]
 
-Defined in: main.ts:194881
+Defined in: main.ts:195597
 
 Amazon product info items
 
@@ -77,7 +77,7 @@ Amazon product info items
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:194879
+Defined in: main.ts:195595
 
 the number of results returned in the items array
 
@@ -87,7 +87,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:194864
+Defined in: main.ts:195580
 
 language code in a POST array
 
@@ -97,7 +97,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:194862
+Defined in: main.ts:195578
 
 location code in a POST array
 
@@ -107,7 +107,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:194860
+Defined in: main.ts:195576
 
 Amazon domain in a POST array
 
@@ -117,6 +117,6 @@ Amazon domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:194858
+Defined in: main.ts:195574
 
 type of element

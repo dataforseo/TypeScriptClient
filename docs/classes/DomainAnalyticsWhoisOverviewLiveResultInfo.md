@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsWhoisOverviewLiveResultInfo
 
-Defined in: main.ts:89742
+Defined in: main.ts:89778
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:89742
 
 > **new DomainAnalyticsWhoisOverviewLiveResultInfo**(`data`?): [`DomainAnalyticsWhoisOverviewLiveResultInfo`](DomainAnalyticsWhoisOverviewLiveResultInfo.md)
 
-Defined in: main.ts:89752
+Defined in: main.ts:89788
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:89752
 
 > `optional` **items**: [`DomainAnalyticsWhoisOverviewLiveItem`](DomainAnalyticsWhoisOverviewLiveItem.md)[]
 
-Defined in: main.ts:89748
+Defined in: main.ts:89784
 
 contains ranking and traffic data
 
@@ -54,7 +54,7 @@ contains ranking and traffic data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:89746
+Defined in: main.ts:89782
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:89744
+Defined in: main.ts:89780
 
 total amount of results in our database relevant to your request
 
@@ -82,7 +82,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:89761
+Defined in: main.ts:89797
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:89761
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:89784
+Defined in: main.ts:89820
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:89784
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsWhoisOverviewLiveResultInfo`](DomainAnalyticsWhoisOverviewLiveResultInfo.md)
 
-Defined in: main.ts:89777
+Defined in: main.ts:89813
 
 #### Parameters
 

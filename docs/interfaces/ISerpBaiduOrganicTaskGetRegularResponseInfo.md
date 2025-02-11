@@ -6,7 +6,7 @@
 
 # Interface: ISerpBaiduOrganicTaskGetRegularResponseInfo
 
-Defined in: main.ts:80009
+Defined in: main.ts:80045
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpBaiduOrganicTaskGetRegularTaskInfo`](../classes/SerpBaiduOrganicTaskGetRegularTaskInfo.md)[]
 
-Defined in: main.ts:80011
+Defined in: main.ts:80047
 
 array of tasks
 

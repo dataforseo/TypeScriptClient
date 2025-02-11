@@ -6,7 +6,7 @@
 
 # Class: SentimentConnotationDistribution
 
-Defined in: main.ts:179260
+Defined in: main.ts:179622
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:179260
 
 > **new SentimentConnotationDistribution**(`data`?): [`SentimentConnotationDistribution`](SentimentConnotationDistribution.md)
 
-Defined in: main.ts:179270
+Defined in: main.ts:179632
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:179270
 
 > `optional` **anger**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:179261
+Defined in: main.ts:179623
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:179261
 
 > `optional` **fun**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:179266
+Defined in: main.ts:179628
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:179266
 
 > `optional` **happiness**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:179262
+Defined in: main.ts:179624
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:179262
 
 > `optional` **love**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:179263
+Defined in: main.ts:179625
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:179263
 
 > `optional` **sadness**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:179264
+Defined in: main.ts:179626
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:179264
 
 > `optional` **share**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:179265
+Defined in: main.ts:179627
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:179265
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:179279
+Defined in: main.ts:179641
 
 #### Parameters
 
@@ -130,7 +130,7 @@ Defined in: main.ts:179279
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:179301
+Defined in: main.ts:179663
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:179301
 
 > `static` **fromJS**(`data`): [`SentimentConnotationDistribution`](SentimentConnotationDistribution.md)
 
-Defined in: main.ts:179294
+Defined in: main.ts:179656
 
 #### Parameters
 

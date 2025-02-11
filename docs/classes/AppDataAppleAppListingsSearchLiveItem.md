@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppListingsSearchLiveItem
 
-Defined in: main.ts:209090
+Defined in: main.ts:209592
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:209090
 
 > **new AppDataAppleAppListingsSearchLiveItem**(`data`?): [`AppDataAppleAppListingsSearchLiveItem`](AppDataAppleAppListingsSearchLiveItem.md)
 
-Defined in: main.ts:209112
+Defined in: main.ts:209614
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:209112
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:209092
+Defined in: main.ts:209594
 
 ID of the returned app
 
@@ -54,7 +54,7 @@ ID of the returned app
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:209101
+Defined in: main.ts:209603
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -69,7 +69,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **item**: [`AppDataAppStoreInfoOrganicSerpElementItem`](AppDataAppStoreInfoOrganicSerpElementItem.md)
 
-Defined in: main.ts:209108
+Defined in: main.ts:209610
 
 detailed information about the app
 
@@ -83,7 +83,7 @@ detailed information about the app
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:209098
+Defined in: main.ts:209600
 
 language code in a POST array
 
@@ -97,7 +97,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:209096
+Defined in: main.ts:209598
 
 location code in a POST array
 
@@ -111,7 +111,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:209094
+Defined in: main.ts:209596
 
 search engine domain in a POST array
 
@@ -125,7 +125,7 @@ search engine domain in a POST array
 
 > `optional` **time\_update**: `string`
 
-Defined in: main.ts:209106
+Defined in: main.ts:209608
 
 date and time when SERP data was last updated
 in the ISO 8601 format: “YYYY-MM-DDThh:mm:ss.sssssssZ”
@@ -142,7 +142,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:209121
+Defined in: main.ts:209623
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: main.ts:209121
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:209144
+Defined in: main.ts:209646
 
 #### Parameters
 
@@ -178,7 +178,7 @@ Defined in: main.ts:209144
 
 > `static` **fromJS**(`data`): [`AppDataAppleAppListingsSearchLiveItem`](AppDataAppleAppListingsSearchLiveItem.md)
 
-Defined in: main.ts:209137
+Defined in: main.ts:209639
 
 #### Parameters
 

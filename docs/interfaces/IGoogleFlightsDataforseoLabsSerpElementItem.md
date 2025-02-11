@@ -6,7 +6,7 @@
 
 # Interface: IGoogleFlightsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108302
+Defined in: main.ts:108358
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:108302
 
 > `optional` **items**: [`GoogleFlightsElement`](../classes/GoogleFlightsElement.md)[]
 
-Defined in: main.ts:108308
+Defined in: main.ts:108364
 
 elements of search results found in SERP
 
@@ -78,7 +78,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:108304
+Defined in: main.ts:108360
 
 title of the result in SERP
 
@@ -102,7 +102,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:108306
+Defined in: main.ts:108362
 
 relevant URL of the Ad element in SERP
 

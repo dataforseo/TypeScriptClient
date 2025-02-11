@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo
 
-Defined in: main.ts:99346
+Defined in: main.ts:99374
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:99346
 
 > **new DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo**(`data`?): [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo.md)
 
-Defined in: main.ts:99364
+Defined in: main.ts:99392
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:99364
 
 > `optional` **categories**: `number`[]
 
-Defined in: main.ts:99350
+Defined in: main.ts:99378
 
 categories in a POST array
 
@@ -54,7 +54,7 @@ categories in a POST array
 
 > `optional` **items**: [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md)[]
 
-Defined in: main.ts:99360
+Defined in: main.ts:99388
 
 contains historical ranking and traffic data
 
@@ -68,7 +68,7 @@ contains historical ranking and traffic data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:99358
+Defined in: main.ts:99386
 
 the number of results returned in the items array
 
@@ -82,7 +82,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:99354
+Defined in: main.ts:99382
 
 language code in a POST array
 
@@ -96,7 +96,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:99352
+Defined in: main.ts:99380
 
 location code in a POST array
 
@@ -110,7 +110,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:99348
+Defined in: main.ts:99376
 
 search engine type
 
@@ -124,7 +124,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:99356
+Defined in: main.ts:99384
 
 total amount of results in our database relevant to your request
 
@@ -138,7 +138,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:99373
+Defined in: main.ts:99401
 
 #### Parameters
 
@@ -156,7 +156,7 @@ Defined in: main.ts:99373
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:99404
+Defined in: main.ts:99432
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:99404
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo.md)
 
-Defined in: main.ts:99397
+Defined in: main.ts:99425
 
 #### Parameters
 

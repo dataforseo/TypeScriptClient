@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleBulkTrafficEstimationLiveResponseInfo
 
-Defined in: main.ts:111103
+Defined in: main.ts:111171
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:111103
 
 > **new DataforseoLabsGoogleBulkTrafficEstimationLiveResponseInfo**(`data`?): [`DataforseoLabsGoogleBulkTrafficEstimationLiveResponseInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveResponseInfo.md)
 
-Defined in: main.ts:111109
+Defined in: main.ts:111177
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsGoogleBulkTrafficEstimationLiveTaskInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveTaskInfo.md)[]
 
-Defined in: main.ts:111105
+Defined in: main.ts:111173
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:111113
+Defined in: main.ts:111181
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:111113
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:111135
+Defined in: main.ts:111203
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:111135
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleBulkTrafficEstimationLiveResponseInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveResponseInfo.md)
 
-Defined in: main.ts:111128
+Defined in: main.ts:111196
 
 #### Parameters
 

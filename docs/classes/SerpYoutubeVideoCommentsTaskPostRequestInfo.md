@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeVideoCommentsTaskPostRequestInfo
 
-Defined in: main.ts:73016
+Defined in: main.ts:73052
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:73016
 
 > **new SerpYoutubeVideoCommentsTaskPostRequestInfo**(`data`?): [`SerpYoutubeVideoCommentsTaskPostRequestInfo`](SerpYoutubeVideoCommentsTaskPostRequestInfo.md)
 
-Defined in: main.ts:73114
+Defined in: main.ts:73150
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:73114
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:73076
+Defined in: main.ts:73112
 
 parsing depth
 optional field
@@ -61,7 +61,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:73062
+Defined in: main.ts:73098
 
 device type
 optional field
@@ -77,7 +77,7 @@ only value: desktop
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:73058
+Defined in: main.ts:73094
 
 search engine language code
 required field if you don’t specify language_name
@@ -96,7 +96,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:73051
+Defined in: main.ts:73087
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -115,7 +115,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:73044
+Defined in: main.ts:73080
 
 search engine location code
 required field if you don’t specify location_name
@@ -134,7 +134,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:73037
+Defined in: main.ts:73073
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -153,7 +153,7 @@ United States
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:73067
+Defined in: main.ts:73103
 
 device operating system
 optional field
@@ -170,7 +170,7 @@ default value: windows
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:73110
+Defined in: main.ts:73146
 
 notification URL of a completed task
 optional field
@@ -193,7 +193,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:73099
+Defined in: main.ts:73135
 
 postback_url datatype
 required field if you specify postback_url
@@ -211,7 +211,7 @@ advanced
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:73093
+Defined in: main.ts:73129
 
 return URL for sending task results
 optional field
@@ -234,7 +234,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:73030
+Defined in: main.ts:73066
 
 task priority
 optional field
@@ -254,7 +254,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:73082
+Defined in: main.ts:73118
 
 user-defined task identifier
 optional field
@@ -272,7 +272,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **video\_id**: `string`
 
-Defined in: main.ts:73022
+Defined in: main.ts:73058
 
 ID of the video
 required field
@@ -290,7 +290,7 @@ vQXvyV0zIP4
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:73123
+Defined in: main.ts:73159
 
 #### Parameters
 
@@ -308,7 +308,7 @@ Defined in: main.ts:73123
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:73152
+Defined in: main.ts:73188
 
 #### Parameters
 
@@ -326,7 +326,7 @@ Defined in: main.ts:73152
 
 > `static` **fromJS**(`data`): [`SerpYoutubeVideoCommentsTaskPostRequestInfo`](SerpYoutubeVideoCommentsTaskPostRequestInfo.md)
 
-Defined in: main.ts:73145
+Defined in: main.ts:73181
 
 #### Parameters
 

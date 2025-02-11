@@ -6,7 +6,7 @@
 
 # Class: SerpYahooOrganicLiveAdvancedTaskInfo
 
-Defined in: main.ts:77770
+Defined in: main.ts:77806
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:77770
 
 > **new SerpYahooOrganicLiveAdvancedTaskInfo**(`data`?): [`SerpYahooOrganicLiveAdvancedTaskInfo`](SerpYahooOrganicLiveAdvancedTaskInfo.md)
 
-Defined in: main.ts:77776
+Defined in: main.ts:77812
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpYahooOrganicLiveAdvancedResultInfo`](SerpYahooOrganicLiveAdvancedResultInfo.md)[]
 
-Defined in: main.ts:77772
+Defined in: main.ts:77808
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:77780
+Defined in: main.ts:77816
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:77780
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:77802
+Defined in: main.ts:77838
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:77802
 
 > `static` **fromJS**(`data`): [`SerpYahooOrganicLiveAdvancedTaskInfo`](SerpYahooOrganicLiveAdvancedTaskInfo.md)
 
-Defined in: main.ts:77795
+Defined in: main.ts:77831
 
 #### Parameters
 

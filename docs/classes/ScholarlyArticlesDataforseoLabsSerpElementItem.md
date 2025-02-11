@@ -6,7 +6,7 @@
 
 # Class: ScholarlyArticlesDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108691
+Defined in: main.ts:108747
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:108691
 
 > **new ScholarlyArticlesDataforseoLabsSerpElementItem**(`data`?): [`ScholarlyArticlesDataforseoLabsSerpElementItem`](ScholarlyArticlesDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108701
+Defined in: main.ts:108757
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **items**: [`ScholarlyArticlesElement`](ScholarlyArticlesElement.md)[]
 
-Defined in: main.ts:108697
+Defined in: main.ts:108753
 
 elements of search results found in SERP
 
@@ -132,7 +132,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:108693
+Defined in: main.ts:108749
 
 title of the result in SERP
 
@@ -164,7 +164,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:108695
+Defined in: main.ts:108751
 
 relevant URL of the Ad element in SERP
 
@@ -196,7 +196,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:108706
+Defined in: main.ts:108762
 
 #### Parameters
 
@@ -218,7 +218,7 @@ Defined in: main.ts:108706
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:108730
+Defined in: main.ts:108786
 
 #### Parameters
 
@@ -240,7 +240,7 @@ Defined in: main.ts:108730
 
 > `static` **fromJS**(`data`): [`ScholarlyArticlesDataforseoLabsSerpElementItem`](ScholarlyArticlesDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:108723
+Defined in: main.ts:108779
 
 #### Parameters
 

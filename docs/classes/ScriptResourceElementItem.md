@@ -6,7 +6,7 @@
 
 # Class: ScriptResourceElementItem
 
-Defined in: main.ts:168060
+Defined in: main.ts:168363
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:168060
 
 > **new ScriptResourceElementItem**(`data`?): [`ScriptResourceElementItem`](ScriptResourceElementItem.md)
 
-Defined in: main.ts:168076
+Defined in: main.ts:168379
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22339
 
 > `optional` **accept\_type**: `string`
 
-Defined in: main.ts:168072
+Defined in: main.ts:168375
 
 indicates the expected type of resource
 for example, if "resource_type": "broken", accept_type will indicate the type of the broken resource
@@ -176,7 +176,7 @@ example:
 
 > `optional` **fetch\_timing**: [`FetchTiming`](FetchTiming.md)
 
-Defined in: main.ts:168067
+Defined in: main.ts:168370
 
 resource fething time range
 
@@ -246,7 +246,7 @@ types of media used to display a page
 
 > `optional` **meta**: [`ResourceMetaInfo`](ResourceMetaInfo.md)
 
-Defined in: main.ts:168065
+Defined in: main.ts:168368
 
 resource properties
 the value depends on the resource_type
@@ -391,7 +391,7 @@ page URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:168081
+Defined in: main.ts:168384
 
 #### Parameters
 
@@ -413,7 +413,7 @@ Defined in: main.ts:168081
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:168101
+Defined in: main.ts:168404
 
 #### Parameters
 
@@ -435,7 +435,7 @@ Defined in: main.ts:168101
 
 > `static` **fromJS**(`data`): [`ScriptResourceElementItem`](ScriptResourceElementItem.md)
 
-Defined in: main.ts:168094
+Defined in: main.ts:168397
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: OnPagePageScreenshotRequestInfo
 
-Defined in: main.ts:172432
+Defined in: main.ts:172596
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:172432
 
 > **new OnPagePageScreenshotRequestInfo**(`data`?): [`OnPagePageScreenshotRequestInfo`](OnPagePageScreenshotRequestInfo.md)
 
-Defined in: main.ts:172515
+Defined in: main.ts:172679
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:172515
 
 > `optional` **accept\_language**: `string`
 
-Defined in: main.ts:172442
+Defined in: main.ts:172606
 
 language header for accessing the website
 optional field
@@ -57,7 +57,7 @@ note: if you do not specify this parameter, some websites may deny access; in th
 
 > `optional` **browser\_preset**: `string`
 
-Defined in: main.ts:172468
+Defined in: main.ts:172632
 
 preset for browser screen parameters
 optional field
@@ -88,7 +88,7 @@ Note: in this endpoint, the enable_browser_rendering, enable_javascript, load_re
 
 > `optional` **browser\_screen\_height**: `number`
 
-Defined in: main.ts:172482
+Defined in: main.ts:172646
 
 browser screen height
 optional field
@@ -107,7 +107,7 @@ maximum value, in pixels: 9999
 
 > `optional` **browser\_screen\_scale\_factor**: `number`
 
-Defined in: main.ts:172489
+Defined in: main.ts:172653
 
 browser screen scale factor
 optional field
@@ -126,7 +126,7 @@ maximum value: 3
 
 > `optional` **browser\_screen\_width**: `number`
 
-Defined in: main.ts:172475
+Defined in: main.ts:172639
 
 browser screen width
 optional field
@@ -145,7 +145,7 @@ maximum value, in pixels: 9999
 
 > `optional` **custom\_user\_agent**: `string`
 
-Defined in: main.ts:172449
+Defined in: main.ts:172613
 
 custom user agent
 optional field
@@ -164,7 +164,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 > `optional` **disable\_cookie\_popup**: `boolean`
 
-Defined in: main.ts:172500
+Defined in: main.ts:172664
 
 disable the cookie popup 
 optional field
@@ -182,7 +182,7 @@ false
 
 > `optional` **full\_page\_screenshot**: `boolean`
 
-Defined in: main.ts:172494
+Defined in: main.ts:172658
 
 take a screenshot of the full page
 optional field
@@ -199,7 +199,7 @@ default value: true
 
 > `optional` **ip\_pool\_for\_scan**: `string`
 
-Defined in: main.ts:172511
+Defined in: main.ts:172675
 
 proxy pool
 optional field
@@ -217,7 +217,7 @@ possible values: us, de
 
 > `optional` **switch\_pool**: `boolean`
 
-Defined in: main.ts:172505
+Defined in: main.ts:172669
 
 switch proxy pool
 optional field
@@ -234,7 +234,7 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:172437
+Defined in: main.ts:172601
 
 page url
 required field
@@ -251,7 +251,7 @@ note: if the URL you indicate here returns a 404 status code or the indicated va
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:172524
+Defined in: main.ts:172688
 
 #### Parameters
 
@@ -269,7 +269,7 @@ Defined in: main.ts:172524
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:172551
+Defined in: main.ts:172715
 
 #### Parameters
 
@@ -287,7 +287,7 @@ Defined in: main.ts:172551
 
 > `static` **fromJS**(`data`): [`OnPagePageScreenshotRequestInfo`](OnPagePageScreenshotRequestInfo.md)
 
-Defined in: main.ts:172544
+Defined in: main.ts:172708
 
 #### Parameters
 

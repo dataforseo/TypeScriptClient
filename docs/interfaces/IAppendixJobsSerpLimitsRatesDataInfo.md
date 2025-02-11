@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixJobsSerpLimitsRatesDataInfo
+[Documentation](../README.md) / IAppendixJobsSerpLimitsRatesDataInfo
 
 # Interface: IAppendixJobsSerpLimitsRatesDataInfo
 
+Defined in: main.ts:231098
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,10 +18,4 @@
 
 > `optional` **task\_post**: `number`
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:215547
-=======
-main.ts:215580
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:231099

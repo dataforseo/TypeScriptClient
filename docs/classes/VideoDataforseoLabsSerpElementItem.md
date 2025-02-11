@@ -6,7 +6,7 @@
 
 # Class: VideoDataforseoLabsSerpElementItem
 
-Defined in: main.ts:106438
+Defined in: main.ts:106502
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:106438
 
 > **new VideoDataforseoLabsSerpElementItem**(`data`?): [`VideoDataforseoLabsSerpElementItem`](VideoDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:106446
+Defined in: main.ts:106510
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **items**: [`VideoElement`](VideoElement.md)[]
 
-Defined in: main.ts:106442
+Defined in: main.ts:106506
 
 elements of search results found in SERP
 
@@ -132,7 +132,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:106440
+Defined in: main.ts:106504
 
 search engine type
 
@@ -182,7 +182,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:106451
+Defined in: main.ts:106515
 
 #### Parameters
 
@@ -204,7 +204,7 @@ Defined in: main.ts:106451
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:106474
+Defined in: main.ts:106538
 
 #### Parameters
 
@@ -226,7 +226,7 @@ Defined in: main.ts:106474
 
 > `static` **fromJS**(`data`): [`VideoDataforseoLabsSerpElementItem`](VideoDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:106467
+Defined in: main.ts:106531
 
 #### Parameters
 

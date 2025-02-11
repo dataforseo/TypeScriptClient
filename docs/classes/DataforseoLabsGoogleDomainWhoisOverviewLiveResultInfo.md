@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
 
-Defined in: main.ts:100426
+Defined in: main.ts:100454
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:100426
 
 > **new DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo**(`data`?): [`DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo`](DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo.md)
 
-Defined in: main.ts:100438
+Defined in: main.ts:100466
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:100438
 
 > `optional` **items**: [`DataforseoLabsGoogleDomainWhoisOverviewLiveItem`](DataforseoLabsGoogleDomainWhoisOverviewLiveItem.md)[]
 
-Defined in: main.ts:100434
+Defined in: main.ts:100462
 
 contains ranking and traffic data
 
@@ -54,7 +54,7 @@ contains ranking and traffic data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:100432
+Defined in: main.ts:100460
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:100428
+Defined in: main.ts:100456
 
 search engine type
 
@@ -82,7 +82,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:100430
+Defined in: main.ts:100458
 
 total amount of results in our database relevant to your request
 
@@ -96,7 +96,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:100447
+Defined in: main.ts:100475
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:100447
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:100471
+Defined in: main.ts:100499
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:100471
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo`](DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo.md)
 
-Defined in: main.ts:100464
+Defined in: main.ts:100492
 
 #### Parameters
 

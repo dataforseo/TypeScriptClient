@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsIdListResultInfo
 
-Defined in: main.ts:84462
+Defined in: main.ts:84498
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:84462
 
 > **new DomainAnalyticsIdListResultInfo**(`data`?): [`DomainAnalyticsIdListResultInfo`](DomainAnalyticsIdListResultInfo.md)
 
-Defined in: main.ts:84488
+Defined in: main.ts:84524
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:84488
 
 > `optional` **cost**: `number`
 
-Defined in: main.ts:84482
+Defined in: main.ts:84518
 
 cost of the task, USD
 
@@ -54,7 +54,7 @@ cost of the task, USD
 
 > `optional` **datetime\_done**: `string`
 
-Defined in: main.ts:84477
+Defined in: main.ts:84513
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -71,7 +71,7 @@ example:
 
 > `optional` **datetime\_posted**: `string`
 
-Defined in: main.ts:84472
+Defined in: main.ts:84508
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -88,7 +88,7 @@ example:
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:84464
+Defined in: main.ts:84500
 
 id of the task
 
@@ -102,7 +102,7 @@ id of the task
 
 > `optional` **metadata**: `object`
 
-Defined in: main.ts:84484
+Defined in: main.ts:84520
 
 contains parameters you specified in the POST request
 
@@ -120,7 +120,7 @@ contains parameters you specified in the POST request
 
 > `optional` **status**: `string`
 
-Defined in: main.ts:84480
+Defined in: main.ts:84516
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -135,7 +135,7 @@ you can find the full list of general informational messages here
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:84467
+Defined in: main.ts:84503
 
 URL of the task
 URL you used for making an API call
@@ -150,7 +150,7 @@ URL you used for making an API call
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:84497
+Defined in: main.ts:84533
 
 #### Parameters
 
@@ -168,7 +168,7 @@ Defined in: main.ts:84497
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:84526
+Defined in: main.ts:84562
 
 #### Parameters
 
@@ -186,7 +186,7 @@ Defined in: main.ts:84526
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsIdListResultInfo`](DomainAnalyticsIdListResultInfo.md)
 
-Defined in: main.ts:84519
+Defined in: main.ts:84555
 
 #### Parameters
 

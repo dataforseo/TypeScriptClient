@@ -6,7 +6,7 @@
 
 # Interface: IAnswerBoxSerpElementItem
 
-Defined in: main.ts:33349
+Defined in: main.ts:33357
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:33349
 
 > `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
-Defined in: main.ts:33354
+Defined in: main.ts:33362
 
 link of the element
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:33358
+Defined in: main.ts:33366
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -91,7 +91,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **text**: `string`[]
 
-Defined in: main.ts:33352
+Defined in: main.ts:33360
 
 text
 if there is none, equals null

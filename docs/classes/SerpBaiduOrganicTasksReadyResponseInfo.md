@@ -6,7 +6,7 @@
 
 # Class: SerpBaiduOrganicTasksReadyResponseInfo
 
-Defined in: main.ts:79481
+Defined in: main.ts:79517
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:79481
 
 > **new SerpBaiduOrganicTasksReadyResponseInfo**(`data`?): [`SerpBaiduOrganicTasksReadyResponseInfo`](SerpBaiduOrganicTasksReadyResponseInfo.md)
 
-Defined in: main.ts:79487
+Defined in: main.ts:79523
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpBaiduOrganicTasksReadyTaskInfo`](SerpBaiduOrganicTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:79483
+Defined in: main.ts:79519
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:79491
+Defined in: main.ts:79527
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:79491
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:79513
+Defined in: main.ts:79549
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:79513
 
 > `static` **fromJS**(`data`): [`SerpBaiduOrganicTasksReadyResponseInfo`](SerpBaiduOrganicTasksReadyResponseInfo.md)
 
-Defined in: main.ts:79506
+Defined in: main.ts:79542
 
 #### Parameters
 

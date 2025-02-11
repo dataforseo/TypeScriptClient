@@ -6,7 +6,7 @@
 
 # Class: AppSerpElementItem
 
-Defined in: main.ts:32823
+Defined in: main.ts:32831
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:32823
 
 > **new AppSerpElementItem**(`data`?): [`AppSerpElementItem`](AppSerpElementItem.md)
 
-Defined in: main.ts:32833
+Defined in: main.ts:32841
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`AppElement`](AppElement.md)[]
 
-Defined in: main.ts:32825
+Defined in: main.ts:32833
 
 contains arrays of specific images
 
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:32829
+Defined in: main.ts:32837
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -185,7 +185,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:32838
+Defined in: main.ts:32846
 
 #### Parameters
 
@@ -207,7 +207,7 @@ Defined in: main.ts:32838
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:32861
+Defined in: main.ts:32869
 
 #### Parameters
 
@@ -229,7 +229,7 @@ Defined in: main.ts:32861
 
 > `static` **fromJS**(`data`): [`AppSerpElementItem`](AppSerpElementItem.md)
 
-Defined in: main.ts:32854
+Defined in: main.ts:32862
 
 #### Parameters
 

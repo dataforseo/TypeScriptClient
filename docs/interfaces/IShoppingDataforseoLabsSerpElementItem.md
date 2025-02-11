@@ -6,7 +6,7 @@
 
 # Interface: IShoppingDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108366
+Defined in: main.ts:108422
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:108366
 
 > `optional` **items**: [`ShoppingElement`](../classes/ShoppingElement.md)[]
 
-Defined in: main.ts:108370
+Defined in: main.ts:108426
 
 elements of search results found in SERP
 
@@ -78,7 +78,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:108368
+Defined in: main.ts:108424
 
 title of the result in SERP
 

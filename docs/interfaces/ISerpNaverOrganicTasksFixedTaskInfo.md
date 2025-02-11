@@ -6,7 +6,7 @@
 
 # Interface: ISerpNaverOrganicTasksFixedTaskInfo
 
-Defined in: main.ts:81344
+Defined in: main.ts:81380
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpNaverOrganicTasksFixedResultInfo`](../classes/SerpNaverOrganicTasksFixedResultInfo.md)[]
 
-Defined in: main.ts:81346
+Defined in: main.ts:81382
 
 array of results
 

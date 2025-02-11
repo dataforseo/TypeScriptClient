@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAppleAppIntersectionLiveTaskInfo
 
-Defined in: main.ts:125164
+Defined in: main.ts:125280
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:125164
 
 > **new DataforseoLabsAppleAppIntersectionLiveTaskInfo**(`data`?): [`DataforseoLabsAppleAppIntersectionLiveTaskInfo`](DataforseoLabsAppleAppIntersectionLiveTaskInfo.md)
 
-Defined in: main.ts:125170
+Defined in: main.ts:125286
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsAppleAppIntersectionLiveResultInfo`](DataforseoLabsAppleAppIntersectionLiveResultInfo.md)[]
 
-Defined in: main.ts:125166
+Defined in: main.ts:125282
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:125174
+Defined in: main.ts:125290
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:125174
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:125196
+Defined in: main.ts:125312
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:125196
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAppleAppIntersectionLiveTaskInfo`](DataforseoLabsAppleAppIntersectionLiveTaskInfo.md)
 
-Defined in: main.ts:125189
+Defined in: main.ts:125305
 
 #### Parameters
 

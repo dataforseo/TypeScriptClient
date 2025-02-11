@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleDatasetSearchLiveAdvancedTaskInfo
 
-Defined in: main.ts:58760
+Defined in: main.ts:58776
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleDatasetSearchLiveAdvancedResultInfo`](../classes/SerpGoogleDatasetSearchLiveAdvancedResultInfo.md)[]
 
-Defined in: main.ts:58762
+Defined in: main.ts:58778
 
 array of results
 

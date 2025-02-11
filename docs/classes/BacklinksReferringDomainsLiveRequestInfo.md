@@ -6,7 +6,7 @@
 
 # Class: BacklinksReferringDomainsLiveRequestInfo
 
-Defined in: main.ts:155264
+Defined in: main.ts:155428
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:155264
 
 > **new BacklinksReferringDomainsLiveRequestInfo**(`data`?): [`BacklinksReferringDomainsLiveRequestInfo`](BacklinksReferringDomainsLiveRequestInfo.md)
 
-Defined in: main.ts:155364
+Defined in: main.ts:155528
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:155364
 
 > `optional` **backlinks\_filters**: `any`[]
 
-Defined in: main.ts:155338
+Defined in: main.ts:155502
 
 filter the backlinks of your target
 optional field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **backlinks\_status\_type**: `string`
 
-Defined in: main.ts:155299
+Defined in: main.ts:155463
 
 set what backlinks to return and count
 optional field
@@ -81,7 +81,7 @@ default value: live
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
-Defined in: main.ts:155354
+Defined in: main.ts:155518
 
 indicates whether the backlinks from subdomains of the target are excluded
 optional field
@@ -98,14 +98,14 @@ default value: true
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:155316
+Defined in: main.ts:155480
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, =, <>, in, not_in, like, not_like
+regex, not_regex, =, <>, in, not_in, like, not_like, match, not_match
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["referring_pages",">","1"]
@@ -127,7 +127,7 @@ The full list of possible filters is available here.
 
 > `optional` **include\_indirect\_links**: `boolean`
 
-Defined in: main.ts:155349
+Defined in: main.ts:155513
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -145,7 +145,7 @@ default value: true
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:155343
+Defined in: main.ts:155507
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -162,7 +162,7 @@ default value: true
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:155290
+Defined in: main.ts:155454
 
 maximum number of elements within internal arrays
 optional field
@@ -185,7 +185,7 @@ maximum value: 1000
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:155274
+Defined in: main.ts:155438
 
 the maximum number of returned domains
 optional field
@@ -202,7 +202,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:155279
+Defined in: main.ts:155443
 
 offset in the results array of returned domains
 optional field
@@ -219,7 +219,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:155330
+Defined in: main.ts:155494
 
 results sorting rules
 optional field
@@ -245,7 +245,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:155360
+Defined in: main.ts:155524
 
 user-defined task identifier
 optional field
@@ -263,7 +263,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:155269
+Defined in: main.ts:155433
 
 domain, subdomain or webpage to get referring domains for
 required field
@@ -280,7 +280,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:155373
+Defined in: main.ts:155537
 
 #### Parameters
 
@@ -298,7 +298,7 @@ Defined in: main.ts:155373
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:155413
+Defined in: main.ts:155577
 
 #### Parameters
 
@@ -316,7 +316,7 @@ Defined in: main.ts:155413
 
 > `static` **fromJS**(`data`): [`BacklinksReferringDomainsLiveRequestInfo`](BacklinksReferringDomainsLiveRequestInfo.md)
 
-Defined in: main.ts:155406
+Defined in: main.ts:155570
 
 #### Parameters
 

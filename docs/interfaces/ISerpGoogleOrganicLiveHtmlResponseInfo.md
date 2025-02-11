@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleOrganicLiveHtmlResponseInfo
 
-Defined in: main.ts:40504
+Defined in: main.ts:40520
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleOrganicLiveHtmlTaskInfo`](../classes/SerpGoogleOrganicLiveHtmlTaskInfo.md)[]
 
-Defined in: main.ts:40506
+Defined in: main.ts:40522
 
 array of tasks
 

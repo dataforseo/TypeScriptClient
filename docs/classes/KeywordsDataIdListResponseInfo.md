@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataIdListResponseInfo
 
-Defined in: main.ts:125567
+Defined in: main.ts:125683
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:125567
 
 > **new KeywordsDataIdListResponseInfo**(`data`?): [`KeywordsDataIdListResponseInfo`](KeywordsDataIdListResponseInfo.md)
 
-Defined in: main.ts:125573
+Defined in: main.ts:125689
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataIdListTaskInfo`](KeywordsDataIdListTaskInfo.md)[]
 
-Defined in: main.ts:125569
+Defined in: main.ts:125685
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:125577
+Defined in: main.ts:125693
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:125577
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:125599
+Defined in: main.ts:125715
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:125599
 
 > `static` **fromJS**(`data`): [`KeywordsDataIdListResponseInfo`](KeywordsDataIdListResponseInfo.md)
 
-Defined in: main.ts:125592
+Defined in: main.ts:125708
 
 #### Parameters
 

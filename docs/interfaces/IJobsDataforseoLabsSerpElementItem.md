@@ -6,7 +6,7 @@
 
 # Interface: IJobsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108432
+Defined in: main.ts:108488
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:108432
 
 > `optional` **items**: [`JobsElement`](../classes/JobsElement.md)[]
 
-Defined in: main.ts:108438
+Defined in: main.ts:108494
 
 elements of search results found in SERP
 
@@ -78,7 +78,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:108434
+Defined in: main.ts:108490
 
 title of the result in SERP
 
@@ -102,7 +102,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:108436
+Defined in: main.ts:108492
 
 relevant URL of the Ad element in SERP
 

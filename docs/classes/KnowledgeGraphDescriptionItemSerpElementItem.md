@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphDescriptionItemSerpElementItem
 
-Defined in: main.ts:29597
+Defined in: main.ts:29605
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:29597
 
 > **new KnowledgeGraphDescriptionItemSerpElementItem**(`data`?): [`KnowledgeGraphDescriptionItemSerpElementItem`](KnowledgeGraphDescriptionItemSerpElementItem.md)
 
-Defined in: main.ts:29611
+Defined in: main.ts:29619
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:29603
+Defined in: main.ts:29611
 
 sitelinks
 the links shown below some of Google’s search results
@@ -135,7 +135,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:29607
+Defined in: main.ts:29615
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -151,7 +151,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:29599
+Defined in: main.ts:29607
 
 text or description of the element in SERP
 
@@ -201,7 +201,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:29616
+Defined in: main.ts:29624
 
 #### Parameters
 
@@ -223,7 +223,7 @@ Defined in: main.ts:29616
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:29640
+Defined in: main.ts:29648
 
 #### Parameters
 
@@ -245,7 +245,7 @@ Defined in: main.ts:29640
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphDescriptionItemSerpElementItem`](KnowledgeGraphDescriptionItemSerpElementItem.md)
 
-Defined in: main.ts:29633
+Defined in: main.ts:29641
 
 #### Parameters
 

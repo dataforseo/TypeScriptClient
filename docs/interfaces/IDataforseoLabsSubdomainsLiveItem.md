@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsSubdomainsLiveItem
 
-Defined in: main.ts:104209
+Defined in: main.ts:104261
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:104209
 
 > `optional` **metrics**: `object`
 
-Defined in: main.ts:104215
+Defined in: main.ts:104267
 
 ranking data relevant to subdomain
 
@@ -32,7 +32,7 @@ ranking data relevant to subdomain
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:104211
+Defined in: main.ts:104263
 
 search engine type
 
@@ -42,6 +42,6 @@ search engine type
 
 > `optional` **subdomain**: `string`
 
-Defined in: main.ts:104213
+Defined in: main.ts:104265
 
 returned subdomain

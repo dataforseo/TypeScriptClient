@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataErrorsTaskInfo
 
-Defined in: main.ts:125902
+Defined in: main.ts:126018
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataErrorsResultInfo`](../classes/KeywordsDataErrorsResultInfo.md)[]
 
-Defined in: main.ts:125904
+Defined in: main.ts:126020
 
 array of results
 

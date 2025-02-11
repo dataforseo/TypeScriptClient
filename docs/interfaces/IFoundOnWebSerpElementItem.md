@@ -6,7 +6,7 @@
 
 # Interface: IFoundOnWebSerpElementItem
 
-Defined in: main.ts:36984
+Defined in: main.ts:37000
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:36984
 
 > `optional` **items**: [`FoundOnWebElement`](../classes/FoundOnWebElement.md)[]
 
-Defined in: main.ts:36990
+Defined in: main.ts:37006
 
 contains arrays of specific images
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:36994
+Defined in: main.ts:37010
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -91,7 +91,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **related\_searches**: `string`[]
 
-Defined in: main.ts:36988
+Defined in: main.ts:37004
 
 search queries related to the elment
 
@@ -101,7 +101,7 @@ search queries related to the elment
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:36986
+Defined in: main.ts:37002
 
 title of the row
 

@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisSummaryInfo
 
-Defined in: main.ts:178632
+Defined in: main.ts:178994
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:178632
 
 > **new ContentAnalysisSummaryInfo**(`data`?): [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:178673
+Defined in: main.ts:179035
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:178673
 
 > `optional` **connotation\_types**: `object`
 
-Defined in: main.ts:178650
+Defined in: main.ts:179012
 
 connotation types
 contains types of sentiments (sentiment polarity) related to the keyword citation and citation count per each sentiment type
@@ -60,7 +60,7 @@ possible sentiment connotation types: positive, negative, neutral
 
 > `optional` **countries**: `object`
 
-Defined in: main.ts:178665
+Defined in: main.ts:179027
 
 countries
 contains countries and citation count in each country
@@ -80,7 +80,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 > `optional` **languages**: `object`
 
-Defined in: main.ts:178669
+Defined in: main.ts:179031
 
 languages
 contains languages and citation count in each language
@@ -100,7 +100,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 > `optional` **page\_categories**: [`ContentAnalysisCategoriesInfo`](ContentAnalysisCategoriesInfo.md)[]
 
-Defined in: main.ts:178658
+Defined in: main.ts:179020
 
 page categories
 contains objects with page categories and citation count in each page category
@@ -116,7 +116,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 > `optional` **page\_types**: `object`
 
-Defined in: main.ts:178661
+Defined in: main.ts:179023
 
 page types
 contains page types and citation count per each page type
@@ -135,7 +135,7 @@ contains page types and citation count per each page type
 
 > `optional` **rank**: `number`
 
-Defined in: main.ts:178639
+Defined in: main.ts:179001
 
 rank of all URLs citing the keyword
 normalized sum of ranks of all URLs citing the target keyword
@@ -150,7 +150,7 @@ normalized sum of ranks of all URLs citing the target keyword
 
 > `optional` **sentiment\_connotations**: `object`
 
-Defined in: main.ts:178646
+Defined in: main.ts:179008
 
 sentiment connotations
 contains sentiments (emotional reactions) related to the target keyword citation and the number of citations per each sentiment
@@ -170,7 +170,7 @@ possible sentiment connotations: anger, happiness, love, sadness, share, fun
 
 > `optional` **text\_categories**: [`ContentAnalysisCategoriesInfo`](ContentAnalysisCategoriesInfo.md)[]
 
-Defined in: main.ts:178654
+Defined in: main.ts:179016
 
 text categories
 contains objects with text categories and citation count in each text category
@@ -186,7 +186,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 > `optional` **top\_domains**: [`TopDomainInfo`](TopDomainInfo.md)[]
 
-Defined in: main.ts:178642
+Defined in: main.ts:179004
 
 top domains citing the target keyword
 contains objects with top domains citing the target keword and citation count per each domain
@@ -201,7 +201,7 @@ contains objects with top domains citing the target keword and citation count pe
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:178636
+Defined in: main.ts:178998
 
 total amount of results in our database relevant to your request
 
@@ -215,7 +215,7 @@ total amount of results in our database relevant to your request
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:178634
+Defined in: main.ts:178996
 
 type of element
 
@@ -229,7 +229,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:178682
+Defined in: main.ts:179044
 
 #### Parameters
 
@@ -247,7 +247,7 @@ Defined in: main.ts:178682
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:178751
+Defined in: main.ts:179113
 
 #### Parameters
 
@@ -265,7 +265,7 @@ Defined in: main.ts:178751
 
 > `static` **fromJS**(`data`): [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
-Defined in: main.ts:178744
+Defined in: main.ts:179106
 
 #### Parameters
 

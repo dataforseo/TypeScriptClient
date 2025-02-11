@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsErrorsTaskInfo
 
-Defined in: main.ts:84918
+Defined in: main.ts:84954
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:84918
 
 > **new DomainAnalyticsErrorsTaskInfo**(`data`?): [`DomainAnalyticsErrorsTaskInfo`](DomainAnalyticsErrorsTaskInfo.md)
 
-Defined in: main.ts:84924
+Defined in: main.ts:84960
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DomainAnalyticsErrorsResultInfo`](DomainAnalyticsErrorsResultInfo.md)[]
 
-Defined in: main.ts:84920
+Defined in: main.ts:84956
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:84928
+Defined in: main.ts:84964
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:84928
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:84950
+Defined in: main.ts:84986
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:84950
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsErrorsTaskInfo`](DomainAnalyticsErrorsTaskInfo.md)
 
-Defined in: main.ts:84943
+Defined in: main.ts:84979
 
 #### Parameters
 

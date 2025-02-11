@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo
 
-Defined in: main.ts:147410
+Defined in: main.ts:147574
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:147410
 
 > **new KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo**(`data`?): [`KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo`](KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo.md)
 
-Defined in: main.ts:147430
+Defined in: main.ts:147594
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:147430
 
 > `optional` **available\_languages**: [`AvailableLanguages`](AvailableLanguages.md)[]
 
-Defined in: main.ts:147426
+Defined in: main.ts:147590
 
 supported languages
 contains the languages which are supported for a specific location
@@ -55,7 +55,7 @@ contains the languages which are supported for a specific location
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:147419
+Defined in: main.ts:147583
 
 ISO country code of the location
 
@@ -69,7 +69,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:147412
+Defined in: main.ts:147576
 
 location code
 
@@ -83,7 +83,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:147417
+Defined in: main.ts:147581
 
 the code of the superordinate location
 the value will be null as Country is the only supported location_type for this API
@@ -98,7 +98,7 @@ the value will be null as Country is the only supported location_type for this A
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:147414
+Defined in: main.ts:147578
 
 full name of the location
 
@@ -112,7 +112,7 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:147423
+Defined in: main.ts:147587
 
 location type
 possible values:
@@ -128,7 +128,7 @@ Country
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:147439
+Defined in: main.ts:147603
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Defined in: main.ts:147439
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:147465
+Defined in: main.ts:147629
 
 #### Parameters
 
@@ -164,7 +164,7 @@ Defined in: main.ts:147465
 
 > `static` **fromJS**(`data`): [`KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo`](KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo.md)
 
-Defined in: main.ts:147458
+Defined in: main.ts:147622
 
 #### Parameters
 

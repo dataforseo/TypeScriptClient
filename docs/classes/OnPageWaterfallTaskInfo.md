@@ -6,7 +6,7 @@
 
 # Class: OnPageWaterfallTaskInfo
 
-Defined in: main.ts:170988
+Defined in: main.ts:171152
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:170988
 
 > **new OnPageWaterfallTaskInfo**(`data`?): [`OnPageWaterfallTaskInfo`](OnPageWaterfallTaskInfo.md)
 
-Defined in: main.ts:170994
+Defined in: main.ts:171158
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`OnPageWaterfallResultInfo`](OnPageWaterfallResultInfo.md)[]
 
-Defined in: main.ts:170990
+Defined in: main.ts:171154
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:170998
+Defined in: main.ts:171162
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:170998
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:171020
+Defined in: main.ts:171184
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:171020
 
 > `static` **fromJS**(`data`): [`OnPageWaterfallTaskInfo`](OnPageWaterfallTaskInfo.md)
 
-Defined in: main.ts:171013
+Defined in: main.ts:171177
 
 #### Parameters
 

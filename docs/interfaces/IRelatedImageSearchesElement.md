@@ -6,7 +6,7 @@
 
 # Interface: IRelatedImageSearchesElement
 
-Defined in: main.ts:32151
+Defined in: main.ts:32159
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:32151
 
 > `optional` **alt**: `string`
 
-Defined in: main.ts:32157
+Defined in: main.ts:32165
 
 alt tag of the image
 
@@ -28,7 +28,7 @@ alt tag of the image
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:32162
+Defined in: main.ts:32170
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -39,7 +39,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:32155
+Defined in: main.ts:32163
 
 title of a given link element
 
@@ -49,7 +49,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:32153
+Defined in: main.ts:32161
 
 type of element
 
@@ -59,6 +59,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:32159
+Defined in: main.ts:32167
 
 relevant URL

@@ -6,7 +6,7 @@
 
 # Interface: IMerchantTasksReadyTaskInfo
 
-Defined in: main.ts:186068
+Defined in: main.ts:186430
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`MerchantTasksReadyResultInfo`](../classes/MerchantTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:186070
+Defined in: main.ts:186432
 
 array of results
 

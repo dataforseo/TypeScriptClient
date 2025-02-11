@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkNewLostReferringDomainsLiveResponseInfo
 
-Defined in: main.ts:162351
+Defined in: main.ts:162515
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:162351
 
 > **new BacklinksBulkNewLostReferringDomainsLiveResponseInfo**(`data`?): [`BacklinksBulkNewLostReferringDomainsLiveResponseInfo`](BacklinksBulkNewLostReferringDomainsLiveResponseInfo.md)
 
-Defined in: main.ts:162357
+Defined in: main.ts:162521
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BacklinksBulkNewLostReferringDomainsLiveTaskInfo`](BacklinksBulkNewLostReferringDomainsLiveTaskInfo.md)[]
 
-Defined in: main.ts:162353
+Defined in: main.ts:162517
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:162361
+Defined in: main.ts:162525
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:162361
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:162383
+Defined in: main.ts:162547
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:162383
 
 > `static` **fromJS**(`data`): [`BacklinksBulkNewLostReferringDomainsLiveResponseInfo`](BacklinksBulkNewLostReferringDomainsLiveResponseInfo.md)
 
-Defined in: main.ts:162376
+Defined in: main.ts:162540
 
 #### Parameters
 

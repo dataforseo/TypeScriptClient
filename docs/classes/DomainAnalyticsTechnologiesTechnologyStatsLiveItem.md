@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesTechnologyStatsLiveItem
 
-Defined in: main.ts:87093
+Defined in: main.ts:87129
 
 items array
 
@@ -24,7 +24,7 @@ items array
 
 > **new DomainAnalyticsTechnologiesTechnologyStatsLiveItem**(`data`?): [`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)
 
-Defined in: main.ts:87113
+Defined in: main.ts:87149
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: main.ts:87113
 
 > `optional` **countries**: `object`
 
-Defined in: main.ts:87102
+Defined in: main.ts:87138
 
 distribution of websites by country
 contains country codes and number of websites per country
@@ -61,7 +61,7 @@ contains country codes and number of websites per country
 
 > `optional` **date**: `string`
 
-Defined in: main.ts:87097
+Defined in: main.ts:87133
 
 date for which the data is provided
 
@@ -75,7 +75,7 @@ date for which the data is provided
 
 > `optional` **domains\_count**: `number`
 
-Defined in: main.ts:87099
+Defined in: main.ts:87135
 
 number of domains that use the specified technology
 
@@ -89,7 +89,7 @@ number of domains that use the specified technology
 
 > `optional` **domains\_rank**: `object`
 
-Defined in: main.ts:87109
+Defined in: main.ts:87145
 
 distribution of websites by backlink rank
 contains domain rank ranges and number of websites per range
@@ -109,7 +109,7 @@ learn more about rank and how it is calculated in this help center article
 
 > `optional` **languages**: `object`
 
-Defined in: main.ts:87105
+Defined in: main.ts:87141
 
 distribution of websites by language
 contains language codes and number of websites per language
@@ -128,7 +128,7 @@ contains language codes and number of websites per language
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:87095
+Defined in: main.ts:87131
 
 type of element
 
@@ -142,7 +142,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:87122
+Defined in: main.ts:87158
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: main.ts:87122
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:87162
+Defined in: main.ts:87198
 
 #### Parameters
 
@@ -178,7 +178,7 @@ Defined in: main.ts:87162
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)
 
-Defined in: main.ts:87155
+Defined in: main.ts:87191
 
 #### Parameters
 

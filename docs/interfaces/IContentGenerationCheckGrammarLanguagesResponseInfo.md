@@ -6,7 +6,7 @@
 
 # Interface: IContentGenerationCheckGrammarLanguagesResponseInfo
 
-Defined in: main.ts:183307
+Defined in: main.ts:183669
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`ContentGenerationCheckGrammarLanguagesTaskInfo`](../classes/ContentGenerationCheckGrammarLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:183309
+Defined in: main.ts:183671
 
 array of tasks
 

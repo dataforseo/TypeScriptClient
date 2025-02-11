@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesTechnologiesResultInfo
 
-Defined in: main.ts:85736
+Defined in: main.ts:85772
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:85736
 
 > **new DomainAnalyticsTechnologiesTechnologiesResultInfo**(`data`?): [`DomainAnalyticsTechnologiesTechnologiesResultInfo`](DomainAnalyticsTechnologiesTechnologiesResultInfo.md)
 
-Defined in: main.ts:85742
+Defined in: main.ts:85778
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:85742
 
 > `optional` **groups**: [`Groups`](Groups.md)[]
 
-Defined in: main.ts:85738
+Defined in: main.ts:85774
 
 array of technology groups
 
@@ -54,7 +54,7 @@ array of technology groups
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:85751
+Defined in: main.ts:85787
 
 #### Parameters
 
@@ -72,7 +72,7 @@ Defined in: main.ts:85751
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:85772
+Defined in: main.ts:85808
 
 #### Parameters
 
@@ -90,7 +90,7 @@ Defined in: main.ts:85772
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologiesResultInfo`](DomainAnalyticsTechnologiesTechnologiesResultInfo.md)
 
-Defined in: main.ts:85765
+Defined in: main.ts:85801
 
 #### Parameters
 

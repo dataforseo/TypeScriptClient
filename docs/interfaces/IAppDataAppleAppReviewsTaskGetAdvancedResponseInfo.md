@@ -6,7 +6,7 @@
 
 # Interface: IAppDataAppleAppReviewsTaskGetAdvancedResponseInfo
 
-Defined in: main.ts:208701
+Defined in: main.ts:209203
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataAppleAppReviewsTaskGetAdvancedTaskInfo`](../classes/AppDataAppleAppReviewsTaskGetAdvancedTaskInfo.md)[]
 
-Defined in: main.ts:208703
+Defined in: main.ts:209205
 
 array of tasks
 

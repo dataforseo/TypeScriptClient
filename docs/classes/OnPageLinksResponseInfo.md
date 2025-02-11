@@ -6,7 +6,7 @@
 
 # Class: OnPageLinksResponseInfo
 
-Defined in: main.ts:169815
+Defined in: main.ts:169979
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:169815
 
 > **new OnPageLinksResponseInfo**(`data`?): [`OnPageLinksResponseInfo`](OnPageLinksResponseInfo.md)
 
-Defined in: main.ts:169821
+Defined in: main.ts:169985
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageLinksTaskInfo`](OnPageLinksTaskInfo.md)[]
 
-Defined in: main.ts:169817
+Defined in: main.ts:169981
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:169825
+Defined in: main.ts:169989
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:169825
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:169847
+Defined in: main.ts:170011
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:169847
 
 > `static` **fromJS**(`data`): [`OnPageLinksResponseInfo`](OnPageLinksResponseInfo.md)
 
-Defined in: main.ts:169840
+Defined in: main.ts:170004
 
 #### Parameters
 

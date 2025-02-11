@@ -6,7 +6,7 @@
 
 # Interface: IMerchantAmazonProductsTaskPostResponseInfo
 
-Defined in: main.ts:192225
+Defined in: main.ts:192631
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`MerchantAmazonProductsTaskPostTaskInfo`](../classes/MerchantAmazonProductsTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:192227
+Defined in: main.ts:192633
 
 array of tasks
 

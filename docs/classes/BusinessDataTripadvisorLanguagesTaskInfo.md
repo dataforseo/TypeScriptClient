@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTripadvisorLanguagesTaskInfo
 
-Defined in: main.ts:227592
+Defined in: main.ts:228100
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:227592
 
 > **new BusinessDataTripadvisorLanguagesTaskInfo**(`data`?): [`BusinessDataTripadvisorLanguagesTaskInfo`](BusinessDataTripadvisorLanguagesTaskInfo.md)
 
-Defined in: main.ts:227598
+Defined in: main.ts:228106
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataTripadvisorLanguagesResultInfo`](BusinessDataTripadvisorLanguagesResultInfo.md)[]
 
-Defined in: main.ts:227594
+Defined in: main.ts:228102
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:227602
+Defined in: main.ts:228110
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:227602
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:227624
+Defined in: main.ts:228132
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:227624
 
 > `static` **fromJS**(`data`): [`BusinessDataTripadvisorLanguagesTaskInfo`](BusinessDataTripadvisorLanguagesTaskInfo.md)
 
-Defined in: main.ts:227617
+Defined in: main.ts:228125
 
 #### Parameters
 

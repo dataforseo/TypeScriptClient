@@ -6,7 +6,7 @@
 
 # Interface: ISerpYoutubeVideoInfoTasksFixedTaskInfo
 
-Defined in: main.ts:70191
+Defined in: main.ts:70227
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpYoutubeVideoInfoTasksFixedResultInfo`](../classes/SerpYoutubeVideoInfoTasksFixedResultInfo.md)[]
 
-Defined in: main.ts:70193
+Defined in: main.ts:70229
 
 array of results
 

@@ -6,7 +6,7 @@
 
 # Class: OnPageTasksReadyTaskInfo
 
-Defined in: main.ts:165072
+Defined in: main.ts:165236
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:165072
 
 > **new OnPageTasksReadyTaskInfo**(`data`?): [`OnPageTasksReadyTaskInfo`](OnPageTasksReadyTaskInfo.md)
 
-Defined in: main.ts:165078
+Defined in: main.ts:165242
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`OnPageTasksReadyResultInfo`](OnPageTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:165074
+Defined in: main.ts:165238
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:165082
+Defined in: main.ts:165246
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:165082
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:165104
+Defined in: main.ts:165268
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:165104
 
 > `static` **fromJS**(`data`): [`OnPageTasksReadyTaskInfo`](OnPageTasksReadyTaskInfo.md)
 
-Defined in: main.ts:165097
+Defined in: main.ts:165261
 
 #### Parameters
 

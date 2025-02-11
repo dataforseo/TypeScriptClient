@@ -6,7 +6,7 @@
 
 # Interface: IOnPageContentParsingResponseInfo
 
-Defined in: main.ts:173815
+Defined in: main.ts:173339
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageContentParsingTaskInfo`](../classes/OnPageContentParsingTaskInfo.md)[]
 
-Defined in: main.ts:173817
+Defined in: main.ts:173341
 
 array of tasks
 

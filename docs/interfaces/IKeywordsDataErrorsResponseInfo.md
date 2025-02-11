@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataErrorsResponseInfo
 
-Defined in: main.ts:125957
+Defined in: main.ts:126073
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataErrorsTaskInfo`](../classes/KeywordsDataErrorsTaskInfo.md)[]
 
-Defined in: main.ts:125959
+Defined in: main.ts:126075
 
 array of tasks
 

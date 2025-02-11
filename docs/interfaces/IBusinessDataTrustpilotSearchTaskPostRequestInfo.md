@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataTrustpilotSearchTaskPostRequestInfo
 
-Defined in: main.ts:225585
+Defined in: main.ts:226093
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:225585
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:225609
+Defined in: main.ts:226117
 
 parsing depth
 optional field
@@ -34,7 +34,7 @@ Note: your account will be charged for every 10 search results returned, e.g. if
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:225593
+Defined in: main.ts:226101
 
 keyword
 required field
@@ -50,7 +50,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:225637
+Defined in: main.ts:226145
 
 notification URL of a completed task
 optional field
@@ -69,7 +69,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:225626
+Defined in: main.ts:226134
 
 return URL for sending task results
 optional field
@@ -88,7 +88,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:225601
+Defined in: main.ts:226109
 
 task priority
 optional field
@@ -104,7 +104,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:225615
+Defined in: main.ts:226123
 
 user-defined task identifier
 optional field

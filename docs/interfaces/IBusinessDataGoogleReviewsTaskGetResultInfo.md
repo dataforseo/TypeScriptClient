@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleReviewsTaskGetResultInfo
 
-Defined in: main.ts:222465
+Defined in: main.ts:222973
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:222465
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:222479
+Defined in: main.ts:222987
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -29,7 +29,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:222503
+Defined in: main.ts:223011
 
 google-defined client id
 unique id of a local establishment
@@ -41,7 +41,7 @@ learn more about the identifier in this help center article
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:222484
+Defined in: main.ts:222992
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -54,7 +54,7 @@ example:
 
 > `optional` **feature\_id**: `string`
 
-Defined in: main.ts:222496
+Defined in: main.ts:223004
 
 the unique identifier of the ‘reviews’ element in SERP
 learn more about the identifier in this help center article
@@ -65,7 +65,7 @@ learn more about the identifier in this help center article
 
 > `optional` **items**: [`BaseBusinessDataSerpElementItem`](../classes/BaseBusinessDataSerpElementItem.md)[]
 
-Defined in: main.ts:222511
+Defined in: main.ts:223019
 
 found reviews
 you can get more results by using the depth parameter when setting a task
@@ -76,7 +76,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:222508
+Defined in: main.ts:223016
 
 the number of reviews items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -87,7 +87,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:222468
+Defined in: main.ts:222976
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -98,7 +98,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:222476
+Defined in: main.ts:222984
 
 language code in a POST array
 
@@ -108,7 +108,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:222474
+Defined in: main.ts:222982
 
 location code in a POST array
 
@@ -118,7 +118,7 @@ location code in a POST array
 
 > `optional` **place\_id**: `string`
 
-Defined in: main.ts:222499
+Defined in: main.ts:223007
 
 unique identifier of a business location assigned by Google
 learn more about the identifier in this help center article
@@ -129,7 +129,7 @@ learn more about the identifier in this help center article
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-Defined in: main.ts:222493
+Defined in: main.ts:223001
 
 rating of the corresponding local establishment
 popularity rate based on reviews and displayed in SERP
@@ -140,7 +140,7 @@ popularity rate based on reviews and displayed in SERP
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:222505
+Defined in: main.ts:223013
 
 the total number of reviews
 
@@ -150,7 +150,7 @@ the total number of reviews
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:222472
+Defined in: main.ts:222980
 
 search engine domain in a POST array
 
@@ -160,7 +160,7 @@ search engine domain in a POST array
 
 > `optional` **sub\_title**: `string`
 
-Defined in: main.ts:222490
+Defined in: main.ts:222998
 
 subtitle of the ‘reviews’ element in SERP
 additional information (e.g., address) on the ‘reviews’ element for which the reviews are collected
@@ -171,7 +171,7 @@ additional information (e.g., address) on the ‘reviews’ element for which th
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:222487
+Defined in: main.ts:222995
 
 title of the ‘reviews’ element in SERP
 the name of the local establishment for which the reviews are collected
@@ -182,6 +182,6 @@ the name of the local establishment for which the reviews are collected
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:222470
+Defined in: main.ts:222978
 
 type of element

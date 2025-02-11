@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksHistoryLiveTaskInfo
 
-Defined in: main.ts:151338
+Defined in: main.ts:151502
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`BacklinksHistoryLiveResultInfo`](../classes/BacklinksHistoryLiveResultInfo.md)[]
 
-Defined in: main.ts:151340
+Defined in: main.ts:151504
 
 array of results
 

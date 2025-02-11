@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleAppReviewsTaskGetAdvancedResponseInfo
 
-Defined in: main.ts:203843
+Defined in: main.ts:204345
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataGoogleAppReviewsTaskGetAdvancedTaskInfo`](../classes/AppDataGoogleAppReviewsTaskGetAdvancedTaskInfo.md)[]
 
-Defined in: main.ts:203845
+Defined in: main.ts:204347
 
 array of tasks
 

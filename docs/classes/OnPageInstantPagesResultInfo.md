@@ -6,7 +6,7 @@
 
 # Class: OnPageInstantPagesResultInfo
 
-Defined in: main.ts:174658
+Defined in: main.ts:175022
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:174658
 
 > **new OnPageInstantPagesResultInfo**(`data`?): [`OnPageInstantPagesResultInfo`](OnPageInstantPagesResultInfo.md)
 
-Defined in: main.ts:174676
+Defined in: main.ts:175040
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:174676
 
 > `optional` **crawl\_gateway\_address**: `string`
 
-Defined in: main.ts:174668
+Defined in: main.ts:175032
 
 crawler ip address
 displays the IP address used by the crawler to initiate the current crawling session
@@ -56,7 +56,7 @@ you can find the full list of IPs used by our crawler in the Overview section
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:174661
+Defined in: main.ts:175025
 
 status of the crawling session
 possible values: in_progress, finished
@@ -71,7 +71,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-Defined in: main.ts:174664
+Defined in: main.ts:175028
 
 details of the crawling session
 in this case the value will be null
@@ -86,7 +86,7 @@ in this case the value will be null
 
 > `optional` **items**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
 
-Defined in: main.ts:174672
+Defined in: main.ts:175036
 
 items array
 
@@ -100,7 +100,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:174670
+Defined in: main.ts:175034
 
 number of items in the results array
 
@@ -114,7 +114,7 @@ number of items in the results array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:174685
+Defined in: main.ts:175049
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:174685
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:174710
+Defined in: main.ts:175074
 
 #### Parameters
 
@@ -150,7 +150,7 @@ Defined in: main.ts:174710
 
 > `static` **fromJS**(`data`): [`OnPageInstantPagesResultInfo`](OnPageInstantPagesResultInfo.md)
 
-Defined in: main.ts:174703
+Defined in: main.ts:175067
 
 #### Parameters
 

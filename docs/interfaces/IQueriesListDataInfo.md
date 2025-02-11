@@ -6,7 +6,7 @@
 
 # Interface: IQueriesListDataInfo
 
-Defined in: main.ts:134540
+Defined in: main.ts:134680
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:134540
 
 > `optional` **rising**: [`QueriesListDataItemInfo`](../classes/QueriesListDataItemInfo.md)[]
 
-Defined in: main.ts:134546
+Defined in: main.ts:134686
 
 emerging related topics
 represents the list of related topics with the biggest increase in search frequency since the last time period
@@ -29,7 +29,7 @@ represents the list of related topics with the biggest increase in search freque
 
 > `optional` **top**: [`QueriesListDataItemInfo`](../classes/QueriesListDataItemInfo.md)[]
 
-Defined in: main.ts:134543
+Defined in: main.ts:134683
 
 the most popular related topics
 represents the list of the most popular related topics

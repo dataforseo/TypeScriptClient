@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsWhoisAvailableFiltersTaskInfo
 
-Defined in: main.ts:89015
+Defined in: main.ts:89051
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DomainAnalyticsWhoisAvailableFiltersResultInfo`](../classes/DomainAnalyticsWhoisAvailableFiltersResultInfo.md)[]
 
-Defined in: main.ts:89016
+Defined in: main.ts:89052
 
 ***
 

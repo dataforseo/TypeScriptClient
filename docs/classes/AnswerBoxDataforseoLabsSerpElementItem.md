@@ -6,7 +6,7 @@
 
 # Class: AnswerBoxDataforseoLabsSerpElementItem
 
-Defined in: main.ts:106911
+Defined in: main.ts:107043
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:106911
 
 > **new AnswerBoxDataforseoLabsSerpElementItem**(`data`?): [`AnswerBoxDataforseoLabsSerpElementItem`](AnswerBoxDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:106922
+Defined in: main.ts:107054
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:106918
+Defined in: main.ts:107050
 
 sitelinks
 the links shown below some of Google’s search results
@@ -134,7 +134,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **text**: `string`[]
 
-Defined in: main.ts:106914
+Defined in: main.ts:107046
 
 text
 if there is none, equals null
@@ -185,7 +185,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:106927
+Defined in: main.ts:107059
 
 #### Parameters
 
@@ -207,7 +207,7 @@ Defined in: main.ts:106927
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:106954
+Defined in: main.ts:107086
 
 #### Parameters
 
@@ -229,7 +229,7 @@ Defined in: main.ts:106954
 
 > `static` **fromJS**(`data`): [`AnswerBoxDataforseoLabsSerpElementItem`](AnswerBoxDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:106947
+Defined in: main.ts:107079
 
 #### Parameters
 

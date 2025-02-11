@@ -6,7 +6,7 @@
 
 # Interface: IAppDataAppleAppReviewsTasksReadyTaskInfo
 
-Defined in: main.ts:208316
+Defined in: main.ts:208818
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`AppDataAppleAppReviewsTasksReadyResultInfo`](../classes/AppDataAppleAppReviewsTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:208318
+Defined in: main.ts:208820
 
 array of results
 

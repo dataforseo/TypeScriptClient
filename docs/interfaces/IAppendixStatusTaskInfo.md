@@ -6,7 +6,7 @@
 
 # Interface: IAppendixStatusTaskInfo
 
-Defined in: main.ts:239666
+Defined in: main.ts:240094
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`AppendixStatusResultInfo`](../classes/AppendixStatusResultInfo.md)[]
 
-Defined in: main.ts:239668
+Defined in: main.ts:240096
 
 array of results
 

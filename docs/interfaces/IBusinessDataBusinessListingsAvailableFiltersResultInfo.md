@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataBusinessListingsAvailableFiltersResultInfo
 
-Defined in: main.ts:210475
+Defined in: main.ts:210977
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:210475
 
 > `optional` **categories\_aggregation**: `object`
 
-Defined in: main.ts:210477
+Defined in: main.ts:210979
 
 #### Index Signature
 
@@ -30,7 +30,7 @@ Defined in: main.ts:210477
 
 > `optional` **search**: `object`
 
-Defined in: main.ts:210476
+Defined in: main.ts:210978
 
 #### Index Signature
 

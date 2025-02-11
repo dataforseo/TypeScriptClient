@@ -6,7 +6,7 @@
 
 # Class: ProductInformationTextRow
 
-Defined in: main.ts:194316
+Defined in: main.ts:194804
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:194316
 
 > **new ProductInformationTextRow**(`data`?): [`ProductInformationTextRow`](ProductInformationTextRow.md)
 
-Defined in: main.ts:194322
+Defined in: main.ts:194810
 
 #### Parameters
 
@@ -60,9 +60,9 @@ Defined in: main.ts:24320
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:194318
+Defined in: main.ts:194806
 
-text specified under the given title within the section_name
+text of the voucher
 
 #### Implementation of
 
@@ -92,7 +92,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:194327
+Defined in: main.ts:194815
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:194327
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:194345
+Defined in: main.ts:194833
 
 #### Parameters
 
@@ -136,7 +136,7 @@ Defined in: main.ts:194345
 
 > `static` **fromJS**(`data`): [`ProductInformationTextRow`](ProductInformationTextRow.md)
 
-Defined in: main.ts:194338
+Defined in: main.ts:194826
 
 #### Parameters
 

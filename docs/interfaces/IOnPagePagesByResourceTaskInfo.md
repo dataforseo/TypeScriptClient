@@ -6,7 +6,7 @@
 
 # Interface: IOnPagePagesByResourceTaskInfo
 
-Defined in: main.ts:167524
+Defined in: main.ts:167688
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`OnPagePagesByResourceResultInfo`](../classes/OnPagePagesByResourceResultInfo.md)[]
 
-Defined in: main.ts:167526
+Defined in: main.ts:167690
 
 array of results
 

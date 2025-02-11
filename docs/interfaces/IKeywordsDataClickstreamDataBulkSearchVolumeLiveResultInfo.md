@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo
 
-Defined in: main.ts:148635
+Defined in: main.ts:148799
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:148635
 
 > `optional` **items**: [`KeywordsDataClickstreamDataSearchVolumeLiveItem`](../classes/KeywordsDataClickstreamDataSearchVolumeLiveItem.md)[]
 
-Defined in: main.ts:148641
+Defined in: main.ts:148805
 
 contains keywords and related data
 
@@ -28,7 +28,7 @@ contains keywords and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:148639
+Defined in: main.ts:148803
 
 the number of results returned in the items array
 
@@ -38,6 +38,6 @@ the number of results returned in the items array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:148637
+Defined in: main.ts:148801
 
 location code in a POST array

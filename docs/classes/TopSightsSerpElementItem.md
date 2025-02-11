@@ -6,7 +6,7 @@
 
 # Class: TopSightsSerpElementItem
 
-Defined in: main.ts:34419
+Defined in: main.ts:34435
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:34419
 
 > **new TopSightsSerpElementItem**(`data`?): [`TopSightsSerpElementItem`](TopSightsSerpElementItem.md)
 
-Defined in: main.ts:34431
+Defined in: main.ts:34447
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`TopSightsElement`](TopSightsElement.md)[]
 
-Defined in: main.ts:34423
+Defined in: main.ts:34439
 
 contains arrays of specific images
 
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:34427
+Defined in: main.ts:34443
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -149,7 +149,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:34421
+Defined in: main.ts:34437
 
 title of the row
 
@@ -199,7 +199,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:34436
+Defined in: main.ts:34452
 
 #### Parameters
 
@@ -221,7 +221,7 @@ Defined in: main.ts:34436
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:34460
+Defined in: main.ts:34476
 
 #### Parameters
 
@@ -243,7 +243,7 @@ Defined in: main.ts:34460
 
 > `static` **fromJS**(`data`): [`TopSightsSerpElementItem`](TopSightsSerpElementItem.md)
 
-Defined in: main.ts:34453
+Defined in: main.ts:34469
 
 #### Parameters
 

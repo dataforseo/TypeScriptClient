@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleLocationsResponseInfo
 
-Defined in: main.ts:205047
+Defined in: main.ts:205549
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:205047
 
 > **new AppDataAppleLocationsResponseInfo**(`data`?): [`AppDataAppleLocationsResponseInfo`](AppDataAppleLocationsResponseInfo.md)
 
-Defined in: main.ts:205053
+Defined in: main.ts:205555
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataAppleLocationsTaskInfo`](AppDataAppleLocationsTaskInfo.md)[]
 
-Defined in: main.ts:205049
+Defined in: main.ts:205551
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:205057
+Defined in: main.ts:205559
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:205057
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:205079
+Defined in: main.ts:205581
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:205079
 
 > `static` **fromJS**(`data`): [`AppDataAppleLocationsResponseInfo`](AppDataAppleLocationsResponseInfo.md)
 
-Defined in: main.ts:205072
+Defined in: main.ts:205574
 
 #### Parameters
 

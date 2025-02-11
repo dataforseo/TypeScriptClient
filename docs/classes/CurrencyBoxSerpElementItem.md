@@ -6,7 +6,7 @@
 
 # Class: CurrencyBoxSerpElementItem
 
-Defined in: main.ts:36403
+Defined in: main.ts:36419
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:36403
 
 > **new CurrencyBoxSerpElementItem**(`data`?): [`CurrencyBoxSerpElementItem`](CurrencyBoxSerpElementItem.md)
 
-Defined in: main.ts:36432
+Defined in: main.ts:36448
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **converted\_currency**: `string`
 
-Defined in: main.ts:36414
+Defined in: main.ts:36430
 
 converted currency
 
@@ -74,7 +74,7 @@ converted currency
 
 > `optional` **converted\_value**: `number`
 
-Defined in: main.ts:36409
+Defined in: main.ts:36425
 
 value converted to a requested currency
 indicates the exact value based on Google Fincance data at the time when our API pulled the results
@@ -90,7 +90,7 @@ note that exchange rates displayed in the currency_box element may be delayed ac
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:36412
+Defined in: main.ts:36428
 
 currency of the listed price
 ISO code of the currency applied to the price
@@ -105,7 +105,7 @@ ISO code of the currency applied to the price
 
 > `optional` **graph**: [`Graph`](Graph.md)
 
-Defined in: main.ts:36424
+Defined in: main.ts:36440
 
 contains data provided in the graph of the element
 
@@ -178,7 +178,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:36428
+Defined in: main.ts:36444
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -194,7 +194,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **table**: [`Table`](Table.md)
 
-Defined in: main.ts:36422
+Defined in: main.ts:36438
 
 results table
 if there are none, equals null
@@ -209,7 +209,7 @@ if there are none, equals null
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:36419
+Defined in: main.ts:36435
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -244,7 +244,7 @@ type of element
 
 > `optional` **value**: `number`
 
-Defined in: main.ts:36405
+Defined in: main.ts:36421
 
 the value of the rating
 
@@ -276,7 +276,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:36437
+Defined in: main.ts:36453
 
 #### Parameters
 
@@ -298,7 +298,7 @@ Defined in: main.ts:36437
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:36462
+Defined in: main.ts:36478
 
 #### Parameters
 
@@ -320,7 +320,7 @@ Defined in: main.ts:36462
 
 > `static` **fromJS**(`data`): [`CurrencyBoxSerpElementItem`](CurrencyBoxSerpElementItem.md)
 
-Defined in: main.ts:36455
+Defined in: main.ts:36471
 
 #### Parameters
 

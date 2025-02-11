@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleDatasetSearchTaskGetAdvancedResponseInfo
 
-Defined in: main.ts:58303
+Defined in: main.ts:58319
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:58303
 
 > **new SerpGoogleDatasetSearchTaskGetAdvancedResponseInfo**(`data`?): [`SerpGoogleDatasetSearchTaskGetAdvancedResponseInfo`](SerpGoogleDatasetSearchTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:58309
+Defined in: main.ts:58325
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleDatasetSearchTaskGetAdvancedTaskInfo`](SerpGoogleDatasetSearchTaskGetAdvancedTaskInfo.md)[]
 
-Defined in: main.ts:58305
+Defined in: main.ts:58321
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:58313
+Defined in: main.ts:58329
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:58313
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:58335
+Defined in: main.ts:58351
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:58335
 
 > `static` **fromJS**(`data`): [`SerpGoogleDatasetSearchTaskGetAdvancedResponseInfo`](SerpGoogleDatasetSearchTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:58328
+Defined in: main.ts:58344
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataTripadvisorLocationsCountryResultInfo
 
-Defined in: main.ts:227407
+Defined in: main.ts:227915
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:227407
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:227419
+Defined in: main.ts:227927
 
 ISO country code of the location
 
@@ -28,7 +28,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:227409
+Defined in: main.ts:227917
 
 location code
 
@@ -38,7 +38,7 @@ location code
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:227411
+Defined in: main.ts:227919
 
 full name of the location
 
@@ -48,7 +48,7 @@ full name of the location
 
 > `optional` **location\_name\_parent**: `string`
 
-Defined in: main.ts:227417
+Defined in: main.ts:227925
 
 the name of the superordinate location
 example:
@@ -62,6 +62,6 @@ example:
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:227421
+Defined in: main.ts:227929
 
 location type

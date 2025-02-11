@@ -6,7 +6,7 @@
 
 # Interface: IMerchantAmazonAsinTaskGetHtmlTaskInfo
 
-Defined in: main.ts:195364
+Defined in: main.ts:195866
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`MerchantAmazonAsinTaskGetHtmlResultInfo`](../classes/MerchantAmazonAsinTaskGetHtmlResultInfo.md)[]
 
-Defined in: main.ts:195366
+Defined in: main.ts:195868
 
 array of results
 

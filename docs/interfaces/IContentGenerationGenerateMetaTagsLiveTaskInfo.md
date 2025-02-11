@@ -6,7 +6,7 @@
 
 # Interface: IContentGenerationGenerateMetaTagsLiveTaskInfo
 
-Defined in: main.ts:182136
+Defined in: main.ts:182498
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`ContentGenerationGenerateMetaTagsLiveResultInfo`](../classes/ContentGenerationGenerateMetaTagsLiveResultInfo.md)[]
 
-Defined in: main.ts:182138
+Defined in: main.ts:182500
 
 array of results
 

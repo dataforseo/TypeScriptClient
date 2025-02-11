@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTripadvisorLanguagesResponseInfo
 
-Defined in: main.ts:227647
+Defined in: main.ts:228155
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:227647
 
 > **new BusinessDataTripadvisorLanguagesResponseInfo**(`data`?): [`BusinessDataTripadvisorLanguagesResponseInfo`](BusinessDataTripadvisorLanguagesResponseInfo.md)
 
-Defined in: main.ts:227653
+Defined in: main.ts:228161
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BusinessDataTripadvisorLanguagesTaskInfo`](BusinessDataTripadvisorLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:227649
+Defined in: main.ts:228157
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:227657
+Defined in: main.ts:228165
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:227657
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:227679
+Defined in: main.ts:228187
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:227679
 
 > `static` **fromJS**(`data`): [`BusinessDataTripadvisorLanguagesResponseInfo`](BusinessDataTripadvisorLanguagesResponseInfo.md)
 
-Defined in: main.ts:227672
+Defined in: main.ts:228180
 
 #### Parameters
 

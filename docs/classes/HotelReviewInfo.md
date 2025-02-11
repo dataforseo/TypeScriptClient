@@ -6,7 +6,7 @@
 
 # Class: HotelReviewInfo
 
-Defined in: main.ts:219638
+Defined in: main.ts:220146
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:219638
 
 > **new HotelReviewInfo**(`data`?): [`HotelReviewInfo`](HotelReviewInfo.md)
 
-Defined in: main.ts:219656
+Defined in: main.ts:220164
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:219656
 
 > `optional` **mentions**: [`ReviewMentionInfo`](ReviewMentionInfo.md)[]
 
-Defined in: main.ts:219646
+Defined in: main.ts:220154
 
 hotel mentions
 information about hotel reviews by criteria
@@ -55,7 +55,7 @@ information about hotel reviews by criteria
 
 > `optional` **other\_sites\_reviews**: [`OtherSitesReviewsInfo`](OtherSitesReviewsInfo.md)[]
 
-Defined in: main.ts:219652
+Defined in: main.ts:220160
 
 reviews on third-party sites
 reviews from third-paty sites
@@ -70,7 +70,7 @@ reviews from third-paty sites
 
 > `optional` **rating\_distribution**: `object`
 
-Defined in: main.ts:219649
+Defined in: main.ts:220157
 
 rating distribution by votes
 the distribution of votes across the rating in the range from 1 to 5
@@ -89,7 +89,7 @@ the distribution of votes across the rating in the range from 1 to 5
 
 > `optional` **value**: `number`
 
-Defined in: main.ts:219640
+Defined in: main.ts:220148
 
 overall hotel rating based on customer votes
 
@@ -103,7 +103,7 @@ overall hotel rating based on customer votes
 
 > `optional` **votes\_count**: `number`
 
-Defined in: main.ts:219643
+Defined in: main.ts:220151
 
 number of customer votes
 the number of customer votes included in the calculation of the hotel rating
@@ -118,7 +118,7 @@ the number of customer votes included in the calculation of the hotel rating
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:219665
+Defined in: main.ts:220173
 
 #### Parameters
 
@@ -136,7 +136,7 @@ Defined in: main.ts:219665
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:219700
+Defined in: main.ts:220208
 
 #### Parameters
 
@@ -154,7 +154,7 @@ Defined in: main.ts:219700
 
 > `static` **fromJS**(`data`): [`HotelReviewInfo`](HotelReviewInfo.md)
 
-Defined in: main.ts:219693
+Defined in: main.ts:220201
 
 #### Parameters
 

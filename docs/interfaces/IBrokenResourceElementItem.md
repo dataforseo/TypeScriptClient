@@ -6,7 +6,7 @@
 
 # Interface: IBrokenResourceElementItem
 
-Defined in: main.ts:168398
+Defined in: main.ts:168562
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:168398
 
 > `optional` **accept\_type**: `string`
 
-Defined in: main.ts:168410
+Defined in: main.ts:168574
 
 indicates the expected type of resource
 for example, if "resource_type": "broken", accept_type will indicate the type of the broken resource
@@ -114,7 +114,7 @@ example:
 
 > `optional` **fetch\_timing**: [`FetchTiming`](../classes/FetchTiming.md)
 
-Defined in: main.ts:168405
+Defined in: main.ts:168569
 
 resource fething time range
 
@@ -168,7 +168,7 @@ types of media used to display a page
 
 > `optional` **meta**: [`PageMetaInfo`](../classes/PageMetaInfo.md)
 
-Defined in: main.ts:168403
+Defined in: main.ts:168567
 
 resource properties
 the value depends on the resource_type

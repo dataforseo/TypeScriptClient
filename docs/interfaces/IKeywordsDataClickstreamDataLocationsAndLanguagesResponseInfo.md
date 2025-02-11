@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo
 
-Defined in: main.ts:147609
+Defined in: main.ts:147773
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataClickstreamDataLocationsAndLanguagesTaskInfo`](../classes/KeywordsDataClickstreamDataLocationsAndLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:147611
+Defined in: main.ts:147775
 
 array of tasks
 

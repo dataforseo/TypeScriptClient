@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleHistoricalRankOverviewLiveResponseInfo
 
-Defined in: main.ts:109877
+Defined in: main.ts:109933
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsGoogleHistoricalRankOverviewLiveTaskInfo`](../classes/DataforseoLabsGoogleHistoricalRankOverviewLiveTaskInfo.md)[]
 
-Defined in: main.ts:109879
+Defined in: main.ts:109935
 
 array of tasks
 

@@ -6,7 +6,7 @@
 
 # Class: ShopsListMerchantSerpElementItem
 
-Defined in: main.ts:187950
+Defined in: main.ts:188324
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:187950
 
 > **new ShopsListMerchantSerpElementItem**(`data`?): [`ShopsListMerchantSerpElementItem`](ShopsListMerchantSerpElementItem.md)
 
-Defined in: main.ts:187995
+Defined in: main.ts:188369
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21722
 
 > `optional` **base\_price**: `number`
 
-Defined in: main.ts:187964
+Defined in: main.ts:188338
 
 product price without tax and shipping
 
@@ -74,7 +74,7 @@ product price without tax and shipping
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:187975
+Defined in: main.ts:188349
 
 currency in the ISO format
 example:
@@ -90,7 +90,7 @@ USD
 
 > `optional` **details**: `string`
 
-Defined in: main.ts:187962
+Defined in: main.ts:188336
 
 details and special offers
 if there are no details, the value will be null
@@ -105,7 +105,7 @@ if there are no details, the value will be null
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:187954
+Defined in: main.ts:188328
 
 domain in SERP
 
@@ -139,7 +139,7 @@ left, right
 
 > `optional` **product\_annotation**: `string`
 
-Defined in: main.ts:187991
+Defined in: main.ts:188365
 
 data from annotations and badges with special offers
 if there is no annotation for this product, the value will be null
@@ -155,7 +155,7 @@ examples: LOW PRICE, SPECIAL OFFER, SALE, PRICE DROP
 
 > `optional` **product\_condition**: `string`
 
-Defined in: main.ts:187987
+Defined in: main.ts:188361
 
 indicated condition of the product
 possible values: Used, Refurbished, New, null
@@ -208,7 +208,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingElement`](RatingElement.md)
 
-Defined in: main.ts:187981
+Defined in: main.ts:188355
 
 shop rating
 the shop popularity rate based on product reviews
@@ -223,7 +223,7 @@ the shop popularity rate based on product reviews
 
 > `optional` **seller\_name**: `string`
 
-Defined in: main.ts:187978
+Defined in: main.ts:188352
 
 name of the seller
 the name of the company that placed a corresponding product on Google Shopping
@@ -238,7 +238,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 > `optional` **shipping\_price**: `number`
 
-Defined in: main.ts:187969
+Defined in: main.ts:188343
 
 product shipping price
 
@@ -252,7 +252,7 @@ product shipping price
 
 > `optional` **shop\_ad\_aclk**: `string`
 
-Defined in: main.ts:187984
+Defined in: main.ts:188358
 
 unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL
@@ -267,7 +267,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 > `optional` **tax**: `number`
 
-Defined in: main.ts:187967
+Defined in: main.ts:188341
 
 the amount of tax
 tax is specified as the actual amount of money, not as the percentage
@@ -282,7 +282,7 @@ tax is specified as the actual amount of money, not as the percentage
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:187956
+Defined in: main.ts:188330
 
 product title
 
@@ -296,7 +296,7 @@ product title
 
 > `optional` **total\_price**: `number`
 
-Defined in: main.ts:187971
+Defined in: main.ts:188345
 
 product price including tax and shipping
 
@@ -328,7 +328,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:187959
+Defined in: main.ts:188333
 
 Google Shopping URL forwarding to the product page on the seller’s website
 if you want to obtain a URL of the advertisement forwarding to the product page on the seller’s website, please refer to the Google Shopping Sellers Ad URL endpoint
@@ -343,7 +343,7 @@ if you want to obtain a URL of the advertisement forwarding to the product page 
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:187952
+Defined in: main.ts:188326
 
 XPath of the element
 
@@ -357,7 +357,7 @@ XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:188000
+Defined in: main.ts:188374
 
 #### Parameters
 
@@ -379,7 +379,7 @@ Defined in: main.ts:188000
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:188032
+Defined in: main.ts:188406
 
 #### Parameters
 
@@ -401,7 +401,7 @@ Defined in: main.ts:188032
 
 > `static` **fromJS**(`data`): [`ShopsListMerchantSerpElementItem`](ShopsListMerchantSerpElementItem.md)
 
-Defined in: main.ts:188025
+Defined in: main.ts:188399
 
 #### Parameters
 

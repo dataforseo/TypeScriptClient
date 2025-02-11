@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppReviewsTaskGetAdvancedResultInfo
 
-Defined in: main.ts:203600
+Defined in: main.ts:204102
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:203600
 
 > **new AppDataGoogleAppReviewsTaskGetAdvancedResultInfo**(`data`?): [`AppDataGoogleAppReviewsTaskGetAdvancedResultInfo`](AppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md)
 
-Defined in: main.ts:203636
+Defined in: main.ts:204138
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:203636
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:203602
+Defined in: main.ts:204104
 
 application id received in a POST array
 
@@ -54,7 +54,7 @@ application id received in a POST array
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:203613
+Defined in: main.ts:204115
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -69,7 +69,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:203618
+Defined in: main.ts:204120
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -86,7 +86,7 @@ example:
 
 > `optional` **items**: [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)[]
 
-Defined in: main.ts:203632
+Defined in: main.ts:204134
 
 found reviews
 you can get more results by using the depth parameter when setting a task
@@ -101,7 +101,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:203629
+Defined in: main.ts:204131
 
 the number of reviews items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -116,7 +116,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:203610
+Defined in: main.ts:204112
 
 language code in a POST array
 
@@ -130,7 +130,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:203608
+Defined in: main.ts:204110
 
 location code in a POST array
 
@@ -144,7 +144,7 @@ location code in a POST array
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:203624
+Defined in: main.ts:204126
 
 rating of the app
 rating of the application for which the reviews are collected
@@ -159,7 +159,7 @@ rating of the application for which the reviews are collected
 
 > `optional` **reviews\_count**: `number`
 
-Defined in: main.ts:203626
+Defined in: main.ts:204128
 
 the total number of reviews
 
@@ -173,7 +173,7 @@ the total number of reviews
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:203606
+Defined in: main.ts:204108
 
 search engine domain in a POST array
 
@@ -187,7 +187,7 @@ search engine domain in a POST array
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:203621
+Defined in: main.ts:204123
 
 title of the app
 title of the application for which the reviews are collected
@@ -202,7 +202,7 @@ title of the application for which the reviews are collected
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:203604
+Defined in: main.ts:204106
 
 type of element
 
@@ -216,7 +216,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:203645
+Defined in: main.ts:204147
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:203645
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:203677
+Defined in: main.ts:204179
 
 #### Parameters
 
@@ -252,7 +252,7 @@ Defined in: main.ts:203677
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppReviewsTaskGetAdvancedResultInfo`](AppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md)
 
-Defined in: main.ts:203670
+Defined in: main.ts:204172
 
 #### Parameters
 

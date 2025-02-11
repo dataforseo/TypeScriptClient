@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleMyBusinessInfoLiveTaskInfo
 
-Defined in: main.ts:215034
+Defined in: main.ts:215536
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:215034
 
 > **new BusinessDataGoogleMyBusinessInfoLiveTaskInfo**(`data`?): [`BusinessDataGoogleMyBusinessInfoLiveTaskInfo`](BusinessDataGoogleMyBusinessInfoLiveTaskInfo.md)
 
-Defined in: main.ts:215040
+Defined in: main.ts:215542
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataGoogleMyBusinessInfoLiveResultInfo`](BusinessDataGoogleMyBusinessInfoLiveResultInfo.md)[]
 
-Defined in: main.ts:215036
+Defined in: main.ts:215538
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:215044
+Defined in: main.ts:215546
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:215044
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:215066
+Defined in: main.ts:215568
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:215066
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleMyBusinessInfoLiveTaskInfo`](BusinessDataGoogleMyBusinessInfoLiveTaskInfo.md)
 
-Defined in: main.ts:215059
+Defined in: main.ts:215561
 
 #### Parameters
 

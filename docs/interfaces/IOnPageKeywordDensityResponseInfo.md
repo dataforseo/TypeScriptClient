@@ -6,7 +6,7 @@
 
 # Interface: IOnPageKeywordDensityResponseInfo
 
-Defined in: main.ts:171545
+Defined in: main.ts:171709
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageKeywordDensityTaskInfo`](../classes/OnPageKeywordDensityTaskInfo.md)[]
 
-Defined in: main.ts:171547
+Defined in: main.ts:171711
 
 array of tasks
 

@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeVideoInfoTaskGetAdvancedTaskInfo
 
-Defined in: main.ts:70888
+Defined in: main.ts:70924
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:70888
 
 > **new SerpYoutubeVideoInfoTaskGetAdvancedTaskInfo**(`data`?): [`SerpYoutubeVideoInfoTaskGetAdvancedTaskInfo`](SerpYoutubeVideoInfoTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:70894
+Defined in: main.ts:70930
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpYoutubeVideoInfoTaskGetAdvancedResultInfo`](SerpYoutubeVideoInfoTaskGetAdvancedResultInfo.md)[]
 
-Defined in: main.ts:70890
+Defined in: main.ts:70926
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:70898
+Defined in: main.ts:70934
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:70898
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:70920
+Defined in: main.ts:70956
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:70920
 
 > `static` **fromJS**(`data`): [`SerpYoutubeVideoInfoTaskGetAdvancedTaskInfo`](SerpYoutubeVideoInfoTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:70913
+Defined in: main.ts:70949
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphRowItemDataforseoLabsSerpElementItem
 
-Defined in: main.ts:105922
+Defined in: main.ts:106060
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:105922
 
 > **new KnowledgeGraphRowItemDataforseoLabsSerpElementItem**(`data`?): [`KnowledgeGraphRowItemDataforseoLabsSerpElementItem`](KnowledgeGraphRowItemDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:105938
+Defined in: main.ts:106076
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:105928
+Defined in: main.ts:106066
 
 google defined data attribute ID
 example:
@@ -76,7 +76,7 @@ action:listen_artist
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:105934
+Defined in: main.ts:106072
 
 sitelinks
 the links shown below some of Google’s search results
@@ -150,7 +150,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:105930
+Defined in: main.ts:106068
 
 row content
 
@@ -164,7 +164,7 @@ row content
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:105924
+Defined in: main.ts:106062
 
 title of the item
 
@@ -214,7 +214,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:105943
+Defined in: main.ts:106081
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:105943
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:105968
+Defined in: main.ts:106106
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:105968
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphRowItemDataforseoLabsSerpElementItem`](KnowledgeGraphRowItemDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:105961
+Defined in: main.ts:106099
 
 #### Parameters
 

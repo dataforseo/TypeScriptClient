@@ -6,7 +6,7 @@
 
 # Class: HotelsPackSerpElementItem
 
-Defined in: main.ts:35597
+Defined in: main.ts:35613
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:35597
 
 > **new HotelsPackSerpElementItem**(`data`?): [`HotelsPackSerpElementItem`](HotelsPackSerpElementItem.md)
 
-Defined in: main.ts:35619
+Defined in: main.ts:35635
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:35604
+Defined in: main.ts:35620
 
 starting date of stay
 in the format “year-month-date”
@@ -77,7 +77,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:35609
+Defined in: main.ts:35625
 
 ending date of stay
 in the format “year-month-date”
@@ -94,7 +94,7 @@ example:
 
 > `optional` **items**: [`HotelsPackElement`](HotelsPackElement.md)[]
 
-Defined in: main.ts:35611
+Defined in: main.ts:35627
 
 contains arrays of specific images
 
@@ -167,7 +167,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:35615
+Defined in: main.ts:35631
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -183,7 +183,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:35599
+Defined in: main.ts:35615
 
 title of the row
 
@@ -233,7 +233,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:35624
+Defined in: main.ts:35640
 
 #### Parameters
 
@@ -255,7 +255,7 @@ Defined in: main.ts:35624
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:35650
+Defined in: main.ts:35666
 
 #### Parameters
 
@@ -277,7 +277,7 @@ Defined in: main.ts:35650
 
 > `static` **fromJS**(`data`): [`HotelsPackSerpElementItem`](HotelsPackSerpElementItem.md)
 
-Defined in: main.ts:35643
+Defined in: main.ts:35659
 
 #### Parameters
 

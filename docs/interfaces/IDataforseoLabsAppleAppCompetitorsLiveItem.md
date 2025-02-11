@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAppleAppCompetitorsLiveItem
 
-Defined in: main.ts:124468
+Defined in: main.ts:124584
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:124468
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:124472
+Defined in: main.ts:124588
 
 id of the competitor app
 
@@ -28,7 +28,7 @@ id of the competitor app
 
 > `optional` **avg\_position**: `number`
 
-Defined in: main.ts:124476
+Defined in: main.ts:124592
 
 average position of the app in App Store SERP
 Note: average position is calculated for intersected keywords only;
@@ -40,7 +40,7 @@ the value for a given application may differ when combined with different target
 
 > `optional` **competitor\_metrics**: [`AppStoreMetricsBundleInfo`](../classes/AppStoreMetricsBundleInfo.md)
 
-Defined in: main.ts:124486
+Defined in: main.ts:124602
 
 metrics for intersecting keywords
 ranking data relevant to the keywords that the provided competitor application shares with the app in a POST request;
@@ -52,7 +52,7 @@ note: in this array ranking data is provided for the returned competitor’s app
 
 > `optional` **full\_metrics**: [`AppStoreMetricsBundleInfo`](../classes/AppStoreMetricsBundleInfo.md)
 
-Defined in: main.ts:124489
+Defined in: main.ts:124605
 
 metrics for all keywords of the application
 full overview of ranking data relevant to all keywords that the provided app_id is ranking for
@@ -63,7 +63,7 @@ full overview of ranking data relevant to all keywords that the provided app_id 
 
 > `optional` **intersections**: `number`
 
-Defined in: main.ts:124482
+Defined in: main.ts:124598
 
 number of intersecting keywords
 
@@ -73,7 +73,7 @@ number of intersecting keywords
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:124470
+Defined in: main.ts:124586
 
 search engine type
 
@@ -83,7 +83,7 @@ search engine type
 
 > `optional` **sum\_position**: `number`
 
-Defined in: main.ts:124480
+Defined in: main.ts:124596
 
 sum of all app positions in App Store SERP
 Note: sum position is calculated for intersected keywords only;

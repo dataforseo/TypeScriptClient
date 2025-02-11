@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleCategoriesForKeywordsLanguagesTaskInfo
 
-Defined in: main.ts:96936
+Defined in: main.ts:96964
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:96936
 
 > **new DataforseoLabsGoogleCategoriesForKeywordsLanguagesTaskInfo**(`data`?): [`DataforseoLabsGoogleCategoriesForKeywordsLanguagesTaskInfo`](DataforseoLabsGoogleCategoriesForKeywordsLanguagesTaskInfo.md)
 
-Defined in: main.ts:96942
+Defined in: main.ts:96970
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo`](DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo.md)[]
 
-Defined in: main.ts:96938
+Defined in: main.ts:96966
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:96946
+Defined in: main.ts:96974
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:96946
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:96968
+Defined in: main.ts:96996
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:96968
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleCategoriesForKeywordsLanguagesTaskInfo`](DataforseoLabsGoogleCategoriesForKeywordsLanguagesTaskInfo.md)
 
-Defined in: main.ts:96961
+Defined in: main.ts:96989
 
 #### Parameters
 

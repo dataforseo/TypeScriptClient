@@ -6,7 +6,7 @@
 
 # Class: SerpNaverOrganicTaskPostTaskInfo
 
-Defined in: main.ts:80878
+Defined in: main.ts:80914
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:80878
 
 > **new SerpNaverOrganicTaskPostTaskInfo**(`data`?): [`SerpNaverOrganicTaskPostTaskInfo`](SerpNaverOrganicTaskPostTaskInfo.md)
 
-Defined in: main.ts:80885
+Defined in: main.ts:80921
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:80881
+Defined in: main.ts:80917
 
 array of results
 in this case, the value will be null
@@ -215,7 +215,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:80889
+Defined in: main.ts:80925
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:80889
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:80907
+Defined in: main.ts:80943
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:80907
 
 > `static` **fromJS**(`data`): [`SerpNaverOrganicTaskPostTaskInfo`](SerpNaverOrganicTaskPostTaskInfo.md)
 
-Defined in: main.ts:80900
+Defined in: main.ts:80936
 
 #### Parameters
 

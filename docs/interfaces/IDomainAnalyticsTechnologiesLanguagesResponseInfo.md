@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsTechnologiesLanguagesResponseInfo
 
-Defined in: main.ts:85567
+Defined in: main.ts:85603
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DomainAnalyticsTechnologiesLanguagesTaskInfo`](../classes/DomainAnalyticsTechnologiesLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:85569
+Defined in: main.ts:85605
 
 array of tasks
 

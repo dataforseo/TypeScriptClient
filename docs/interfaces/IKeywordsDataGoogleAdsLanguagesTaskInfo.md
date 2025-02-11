@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataGoogleAdsLanguagesTaskInfo
 
-Defined in: main.ts:126658
+Defined in: main.ts:126774
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataGoogleAdsLanguagesResultInfo`](../classes/KeywordsDataGoogleAdsLanguagesResultInfo.md)[]
 
-Defined in: main.ts:126660
+Defined in: main.ts:126776
 
 array of results
 

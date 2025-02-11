@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo
 
-Defined in: main.ts:131091
+Defined in: main.ts:131207
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataGoogleAdsKeywordsForKeywordsLiveTaskInfo`](../classes/KeywordsDataGoogleAdsKeywordsForKeywordsLiveTaskInfo.md)[]
 
-Defined in: main.ts:131093
+Defined in: main.ts:131209
 
 array of tasks
 

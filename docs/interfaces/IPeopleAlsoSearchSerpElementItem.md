@@ -6,7 +6,7 @@
 
 # Interface: IPeopleAlsoSearchSerpElementItem
 
-Defined in: main.ts:32078
+Defined in: main.ts:32086
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:32078
 
 > `optional` **items**: `string`[]
 
-Defined in: main.ts:32082
+Defined in: main.ts:32090
 
 contains arrays of specific images
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:32086
+Defined in: main.ts:32094
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -91,7 +91,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:32080
+Defined in: main.ts:32088
 
 title of the row
 

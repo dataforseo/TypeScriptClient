@@ -6,7 +6,7 @@
 
 # Interface: ICoursesSerpElementItem
 
-Defined in: main.ts:38061
+Defined in: main.ts:38077
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:38061
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:38066
+Defined in: main.ts:38082
 
 array of course categories
 contains a list of categories relevant to courses
@@ -33,7 +33,7 @@ contains a list of categories relevant to courses
 
 > `optional` **items**: [`CoursesElement`](../classes/CoursesElement.md)[]
 
-Defined in: main.ts:38068
+Defined in: main.ts:38084
 
 contains arrays of specific images
 
@@ -90,7 +90,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:38072
+Defined in: main.ts:38088
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -102,7 +102,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:38063
+Defined in: main.ts:38079
 
 title of the row
 

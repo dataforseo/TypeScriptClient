@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleLocalFinderTasksFixedResponseInfo
 
-Defined in: main.ts:43652
+Defined in: main.ts:43668
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:43652
 
 > **new SerpGoogleLocalFinderTasksFixedResponseInfo**(`data`?): [`SerpGoogleLocalFinderTasksFixedResponseInfo`](SerpGoogleLocalFinderTasksFixedResponseInfo.md)
 
-Defined in: main.ts:43658
+Defined in: main.ts:43674
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleLocalFinderTasksFixedTaskInfo`](SerpGoogleLocalFinderTasksFixedTaskInfo.md)[]
 
-Defined in: main.ts:43654
+Defined in: main.ts:43670
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:43662
+Defined in: main.ts:43678
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:43662
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:43684
+Defined in: main.ts:43700
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:43684
 
 > `static` **fromJS**(`data`): [`SerpGoogleLocalFinderTasksFixedResponseInfo`](SerpGoogleLocalFinderTasksFixedResponseInfo.md)
 
-Defined in: main.ts:43677
+Defined in: main.ts:43693
 
 #### Parameters
 

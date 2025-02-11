@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleLocationsCountryTaskInfo
 
-Defined in: main.ts:212712
+Defined in: main.ts:213214
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:212712
 
 > **new BusinessDataGoogleLocationsCountryTaskInfo**(`data`?): [`BusinessDataGoogleLocationsCountryTaskInfo`](BusinessDataGoogleLocationsCountryTaskInfo.md)
 
-Defined in: main.ts:212718
+Defined in: main.ts:213220
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataGoogleLocationsCountryResultInfo`](BusinessDataGoogleLocationsCountryResultInfo.md)[]
 
-Defined in: main.ts:212714
+Defined in: main.ts:213216
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:212722
+Defined in: main.ts:213224
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:212722
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:212744
+Defined in: main.ts:213246
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:212744
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleLocationsCountryTaskInfo`](BusinessDataGoogleLocationsCountryTaskInfo.md)
 
-Defined in: main.ts:212737
+Defined in: main.ts:213239
 
 #### Parameters
 

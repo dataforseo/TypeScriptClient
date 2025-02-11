@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleAppCompetitorsLiveResponseInfo
 
-Defined in: main.ts:122597
+Defined in: main.ts:122713
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsGoogleAppCompetitorsLiveTaskInfo`](../classes/DataforseoLabsGoogleAppCompetitorsLiveTaskInfo.md)[]
 
-Defined in: main.ts:122599
+Defined in: main.ts:122715
 
 array of tasks
 

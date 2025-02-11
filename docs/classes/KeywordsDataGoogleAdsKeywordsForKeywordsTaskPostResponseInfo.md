@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo
 
-Defined in: main.ts:130043
+Defined in: main.ts:130159
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:130043
 
 > **new KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo**(`data`?): [`KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo.md)
 
-Defined in: main.ts:130049
+Defined in: main.ts:130165
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostTaskInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:130045
+Defined in: main.ts:130161
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:130053
+Defined in: main.ts:130169
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:130053
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:130075
+Defined in: main.ts:130191
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:130075
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo.md)
 
-Defined in: main.ts:130068
+Defined in: main.ts:130184
 
 #### Parameters
 

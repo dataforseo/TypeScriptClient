@@ -6,7 +6,7 @@
 
 # Class: AiOverviewSerpElementItem
 
-Defined in: main.ts:38077
+Defined in: main.ts:38093
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:38077
 
 > **new AiOverviewSerpElementItem**(`data`?): [`AiOverviewSerpElementItem`](AiOverviewSerpElementItem.md)
 
-Defined in: main.ts:38094
+Defined in: main.ts:38110
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **asynchronous\_ai\_overview**: `boolean`
 
-Defined in: main.ts:38081
+Defined in: main.ts:38097
 
 indicates whether the element is loaded asynchronically
 if true, the ai_overview element is loaded asynchronically;
@@ -76,7 +76,7 @@ if false, the ai_overview element is loaded from cache;
 
 > `optional` **items**: [`AiOverviewElement`](AiOverviewElement.md)[]
 
-Defined in: main.ts:38083
+Defined in: main.ts:38099
 
 contains arrays of specific images
 
@@ -149,7 +149,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:38090
+Defined in: main.ts:38106
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -165,7 +165,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **references**: [`AiOverviewReference`](AiOverviewReference.md)[]
 
-Defined in: main.ts:38086
+Defined in: main.ts:38102
 
 additional references relevant to the item
 includes references to webpages that may have been used to generate the ai_overview
@@ -216,7 +216,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:38099
+Defined in: main.ts:38115
 
 #### Parameters
 
@@ -238,7 +238,7 @@ Defined in: main.ts:38099
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:38128
+Defined in: main.ts:38144
 
 #### Parameters
 
@@ -260,7 +260,7 @@ Defined in: main.ts:38128
 
 > `static` **fromJS**(`data`): [`AiOverviewSerpElementItem`](AiOverviewSerpElementItem.md)
 
-Defined in: main.ts:38121
+Defined in: main.ts:38137
 
 #### Parameters
 

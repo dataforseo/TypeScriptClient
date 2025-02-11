@@ -6,7 +6,7 @@
 
 # Interface: IMapDataforseoLabsSerpElementItem
 
-Defined in: main.ts:107182
+Defined in: main.ts:107252
 
 ## Extends
 
@@ -68,7 +68,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:107184
+Defined in: main.ts:107254
 
 title of the result in SERP
 
@@ -92,7 +92,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:107186
+Defined in: main.ts:107256
 
 relevant URL of the Ad element in SERP
 

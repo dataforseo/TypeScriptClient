@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonSellersTaskGetAdvancedTaskInfo
 
-Defined in: main.ts:196356
+Defined in: main.ts:196858
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:196356
 
 > **new MerchantAmazonSellersTaskGetAdvancedTaskInfo**(`data`?): [`MerchantAmazonSellersTaskGetAdvancedTaskInfo`](MerchantAmazonSellersTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:196362
+Defined in: main.ts:196864
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`MerchantAmazonSellersTaskGetAdvancedResultInfo`](MerchantAmazonSellersTaskGetAdvancedResultInfo.md)[]
 
-Defined in: main.ts:196358
+Defined in: main.ts:196860
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:196366
+Defined in: main.ts:196868
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:196366
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:196388
+Defined in: main.ts:196890
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:196388
 
 > `static` **fromJS**(`data`): [`MerchantAmazonSellersTaskGetAdvancedTaskInfo`](MerchantAmazonSellersTaskGetAdvancedTaskInfo.md)
 
-Defined in: main.ts:196381
+Defined in: main.ts:196883
 
 #### Parameters
 

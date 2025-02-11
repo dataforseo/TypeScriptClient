@@ -6,7 +6,7 @@
 
 # Interface: ISerpSeznamOrganicTasksFixedTaskInfo
 
-Defined in: main.ts:83514
+Defined in: main.ts:83550
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpSeznamOrganicTasksFixedResultInfo`](../classes/SerpSeznamOrganicTasksFixedResultInfo.md)[]
 
-Defined in: main.ts:83516
+Defined in: main.ts:83552
 
 array of results
 

@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleLocalFinderTaskPostResponseInfo
 
-Defined in: main.ts:43276
+Defined in: main.ts:43292
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleLocalFinderTaskPostTaskInfo`](../classes/SerpGoogleLocalFinderTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:43278
+Defined in: main.ts:43294
 
 array of tasks
 

@@ -6,7 +6,7 @@
 
 # Interface: ISerpYoutubeVideoCommentsLiveAdvancedTaskInfo
 
-Defined in: main.ts:74546
+Defined in: main.ts:74582
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpYoutubeVideoCommentsLiveAdvancedResultInfo`](../classes/SerpYoutubeVideoCommentsLiveAdvancedResultInfo.md)[]
 
-Defined in: main.ts:74548
+Defined in: main.ts:74584
 
 array of results
 

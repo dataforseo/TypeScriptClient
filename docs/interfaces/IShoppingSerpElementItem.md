@@ -6,7 +6,7 @@
 
 # Interface: IShoppingSerpElementItem
 
-Defined in: main.ts:33524
+Defined in: main.ts:33540
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:33524
 
 > `optional` **items**: [`ShoppingElement`](../classes/ShoppingElement.md)[]
 
-Defined in: main.ts:33528
+Defined in: main.ts:33544
 
 contains arrays of specific images
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:33532
+Defined in: main.ts:33548
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -91,7 +91,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:33526
+Defined in: main.ts:33542
 
 title of the row
 

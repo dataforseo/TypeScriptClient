@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleMapsTasksReadyTaskInfo
 
-Defined in: main.ts:41091
+Defined in: main.ts:41107
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:41091
 
 > **new SerpGoogleMapsTasksReadyTaskInfo**(`data`?): [`SerpGoogleMapsTasksReadyTaskInfo`](SerpGoogleMapsTasksReadyTaskInfo.md)
 
-Defined in: main.ts:41097
+Defined in: main.ts:41113
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleMapsTasksReadyResultInfo`](SerpGoogleMapsTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:41093
+Defined in: main.ts:41109
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:41101
+Defined in: main.ts:41117
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:41101
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:41123
+Defined in: main.ts:41139
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:41123
 
 > `static` **fromJS**(`data`): [`SerpGoogleMapsTasksReadyTaskInfo`](SerpGoogleMapsTasksReadyTaskInfo.md)
 
-Defined in: main.ts:41116
+Defined in: main.ts:41132
 
 #### Parameters
 

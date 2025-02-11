@@ -6,7 +6,7 @@
 
 # Interface: ISerpBingLocalPackTaskPostRequestInfo
 
-Defined in: main.ts:66820
+Defined in: main.ts:66855
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:66820
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:66893
+Defined in: main.ts:66929
 
 parsing depth
 optional field
@@ -35,7 +35,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:66834
+Defined in: main.ts:66870
 
 keyword
 required field
@@ -43,6 +43,7 @@ you can specify up to 700 characters in the keyword field
 all %## will be decoded (plus character ‘+’ will be decoded to a space character)
 if you need to use the “%” character for your keyword, please specify it as “%25”;
 if you need to use the “+” character for your keyword, please specify it as “%2B”
+if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’ the charge per task will be multiplied by 5
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 ***
@@ -51,7 +52,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:66878
+Defined in: main.ts:66914
 
 search engine language code
 required field if you don’t specify language_name
@@ -66,7 +67,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:66871
+Defined in: main.ts:66907
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -81,7 +82,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:66856
+Defined in: main.ts:66892
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -96,7 +97,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:66864
+Defined in: main.ts:66900
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -112,7 +113,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:66849
+Defined in: main.ts:66885
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -127,7 +128,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:66900
+Defined in: main.ts:66936
 
 page crawl limit
 optional field
@@ -142,7 +143,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:66884
+Defined in: main.ts:66920
 
 device operating system
 optional field
@@ -156,7 +157,7 @@ default value: windows
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:66938
+Defined in: main.ts:66974
 
 notification URL of a completed task
 optional field
@@ -175,7 +176,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:66927
+Defined in: main.ts:66963
 
 postback_url datatype
 required field if you specify postback_url
@@ -189,7 +190,7 @@ regular, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:66921
+Defined in: main.ts:66957
 
 return URL for sending task results
 optional field
@@ -208,7 +209,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:66842
+Defined in: main.ts:66878
 
 task priority
 optional field
@@ -224,7 +225,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:66904
+Defined in: main.ts:66940
 
 additional parameters of the search query
 optional field
@@ -236,7 +237,7 @@ get the list of available parameters and additional details here
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:66910
+Defined in: main.ts:66946
 
 user-defined task identifier
 optional field
@@ -250,7 +251,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:66826
+Defined in: main.ts:66861
 
 direct URL of the search query
 optional field

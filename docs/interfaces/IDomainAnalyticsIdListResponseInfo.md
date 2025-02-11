@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsIdListResponseInfo
 
-Defined in: main.ts:84679
+Defined in: main.ts:84715
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DomainAnalyticsIdListTaskInfo`](../classes/DomainAnalyticsIdListTaskInfo.md)[]
 
-Defined in: main.ts:84681
+Defined in: main.ts:84717
 
 array of tasks
 

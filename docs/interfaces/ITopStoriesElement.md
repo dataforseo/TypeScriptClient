@@ -6,7 +6,7 @@
 
 # Interface: ITopStoriesElement
 
-Defined in: main.ts:31656
+Defined in: main.ts:31662
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:31656
 
 > `optional` **amp\_version**: `boolean`
 
-Defined in: main.ts:31670
+Defined in: main.ts:31676
 
 Accelerated Mobile Pages
 indicates whether an item has the Accelerated Mobile Page (AMP) version
@@ -29,7 +29,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 > `optional` **badges**: `string`[]
 
-Defined in: main.ts:31682
+Defined in: main.ts:31688
 
 badges relevant to the element
 
@@ -39,7 +39,7 @@ badges relevant to the element
 
 > `optional` **date**: `string`
 
-Defined in: main.ts:31667
+Defined in: main.ts:31673
 
 the date when the page source of the element was published
 
@@ -49,7 +49,7 @@ the date when the page source of the element was published
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:31663
+Defined in: main.ts:31669
 
 website domain
 
@@ -59,7 +59,7 @@ website domain
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:31680
+Defined in: main.ts:31686
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -70,7 +70,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:31661
+Defined in: main.ts:31667
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -81,7 +81,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:31675
+Defined in: main.ts:31681
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -94,7 +94,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:31665
+Defined in: main.ts:31671
 
 title of a given link element
 
@@ -104,7 +104,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:31658
+Defined in: main.ts:31664
 
 type of element
 
@@ -114,6 +114,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:31677
+Defined in: main.ts:31683
 
 URL

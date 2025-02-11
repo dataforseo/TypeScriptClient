@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsCategoriesTaskInfo
 
-Defined in: main.ts:91760
+Defined in: main.ts:91796
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsCategoriesResultInfo`](../classes/DataforseoLabsCategoriesResultInfo.md)[]
 
-Defined in: main.ts:91762
+Defined in: main.ts:91798
 
 array of results
 

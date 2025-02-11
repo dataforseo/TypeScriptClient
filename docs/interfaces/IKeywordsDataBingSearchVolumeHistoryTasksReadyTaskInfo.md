@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingSearchVolumeHistoryTasksReadyTaskInfo
 
-Defined in: main.ts:146512
+Defined in: main.ts:146676
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataBingSearchVolumeHistoryTasksReadyResultInfo`](../classes/KeywordsDataBingSearchVolumeHistoryTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:146514
+Defined in: main.ts:146678
 
 array of results
 

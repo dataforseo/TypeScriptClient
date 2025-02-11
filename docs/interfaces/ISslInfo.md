@@ -6,7 +6,7 @@
 
 # Interface: ISslInfo
 
-Defined in: main.ts:165254
+Defined in: main.ts:165418
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:165254
 
 > `optional` **certificate\_expiration\_date**: `string`
 
-Defined in: main.ts:165275
+Defined in: main.ts:165439
 
 ssl certificate expiration date
 the date and time when the ssl certificate expires
@@ -32,7 +32,7 @@ example:
 
 > `optional` **certificate\_hash**: `string`
 
-Defined in: main.ts:165269
+Defined in: main.ts:165433
 
 ssl certificate hash
 the version of the ssl certificate’s hash function
@@ -43,7 +43,7 @@ the version of the ssl certificate’s hash function
 
 > `optional` **certificate\_issuer**: `string`
 
-Defined in: main.ts:165260
+Defined in: main.ts:165424
 
 ssl certificate authority
 the entity that issued the detected ssl certificate
@@ -54,7 +54,7 @@ the entity that issued the detected ssl certificate
 
 > `optional` **certificate\_subject**: `string`
 
-Defined in: main.ts:165263
+Defined in: main.ts:165427
 
 ssl certificate subject
 the entity associated with the public key
@@ -65,7 +65,7 @@ the entity associated with the public key
 
 > `optional` **certificate\_version**: `string`
 
-Defined in: main.ts:165266
+Defined in: main.ts:165430
 
 ssl certificate version
 indicates the version of X.509 used by an ssl certificate
@@ -76,7 +76,7 @@ indicates the version of X.509 used by an ssl certificate
 
 > `optional` **valid\_certificate**: `boolean`
 
-Defined in: main.ts:165257
+Defined in: main.ts:165421
 
 ssl certificate validity
 indicates whether the ssl certificate detected on a website is not expired, suspended, revoked or invalid

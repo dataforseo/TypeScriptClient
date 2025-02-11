@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataGoogleAdsSearchVolumeLiveRequestInfo
 
-Defined in: main.ts:127753
+Defined in: main.ts:127869
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:127753
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:127816
+Defined in: main.ts:127932
 
 starting date of the time range
 optional field
@@ -34,7 +34,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:127824
+Defined in: main.ts:127940
 
 ending date of the time range
 optional field
@@ -50,7 +50,7 @@ example:
 
 > `optional` **include\_adult\_keywords**: `boolean`
 
-Defined in: main.ts:127830
+Defined in: main.ts:127946
 
 include keywords associated with adult content
 optional field
@@ -64,7 +64,7 @@ note that the API may return no data for such keywords due to Google Ads restr
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:127766
+Defined in: main.ts:127882
 
 keywords
 required field
@@ -85,7 +85,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:127803
+Defined in: main.ts:127919
 
 search engine language code
 optional field
@@ -99,7 +99,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:127797
+Defined in: main.ts:127913
 
 full name of search engine language
 optional field
@@ -113,7 +113,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:127782
+Defined in: main.ts:127898
 
 search engine location code
 optional field
@@ -129,7 +129,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:127791
+Defined in: main.ts:127907
 
 GPS coordinates of a location
 optional field
@@ -146,7 +146,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:127774
+Defined in: main.ts:127890
 
 full name of search engine location
 optional field
@@ -162,7 +162,7 @@ London,England,United Kingdom
 
 > `optional` **search\_partners**: `boolean`
 
-Defined in: main.ts:127808
+Defined in: main.ts:127924
 
 include Google search partners
 optional field
@@ -175,7 +175,7 @@ default value: false – results are returned for Google search sites
 
 > `optional` **sort\_by**: `string`
 
-Defined in: main.ts:127835
+Defined in: main.ts:127951
 
 results sorting parameters
 optional field
@@ -188,7 +188,7 @@ default value: relevance
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:127841
+Defined in: main.ts:127957
 
 user-defined task identifier
 optional field

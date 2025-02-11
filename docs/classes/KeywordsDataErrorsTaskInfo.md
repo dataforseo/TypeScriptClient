@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataErrorsTaskInfo
 
-Defined in: main.ts:125854
+Defined in: main.ts:125970
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:125854
 
 > **new KeywordsDataErrorsTaskInfo**(`data`?): [`KeywordsDataErrorsTaskInfo`](KeywordsDataErrorsTaskInfo.md)
 
-Defined in: main.ts:125860
+Defined in: main.ts:125976
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataErrorsResultInfo`](KeywordsDataErrorsResultInfo.md)[]
 
-Defined in: main.ts:125856
+Defined in: main.ts:125972
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:125864
+Defined in: main.ts:125980
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:125864
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:125886
+Defined in: main.ts:126002
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:125886
 
 > `static` **fromJS**(`data`): [`KeywordsDataErrorsTaskInfo`](KeywordsDataErrorsTaskInfo.md)
 
-Defined in: main.ts:125879
+Defined in: main.ts:125995
 
 #### Parameters
 

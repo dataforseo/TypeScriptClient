@@ -6,7 +6,7 @@
 
 # Interface: ISerpSeznamLanguagesTaskInfo
 
-Defined in: main.ts:82648
+Defined in: main.ts:82684
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpSeznamLanguagesResultInfo`](../classes/SerpSeznamLanguagesResultInfo.md)[]
 
-Defined in: main.ts:82650
+Defined in: main.ts:82686
 
 array of results
 

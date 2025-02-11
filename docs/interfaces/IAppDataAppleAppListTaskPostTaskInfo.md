@@ -6,7 +6,7 @@
 
 # Interface: IAppDataAppleAppListTaskPostTaskInfo
 
-Defined in: main.ts:207329
+Defined in: main.ts:207831
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:207332
+Defined in: main.ts:207834
 
 array of results
 in this case, the value will be null

@@ -6,7 +6,7 @@
 
 # Interface: IScoreByCategories
 
-Defined in: main.ts:220568
+Defined in: main.ts:221076
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:220568
 
 > `optional` **airport\_access**: `number`
 
-Defined in: main.ts:220589
+Defined in: main.ts:221097
 
 score relative to nearby airports
 indicates the score of the hotel’s location in the range from 1 to 5;
@@ -30,7 +30,7 @@ calculated based on data from the hotel’s proximity to nearby airports
 
 > `optional` **overall**: `number`
 
-Defined in: main.ts:220573
+Defined in: main.ts:221081
 
 overall score of the hotel location
 indicates the overall score of the hotel’s location in the range from 1 to 5;
@@ -43,7 +43,7 @@ note that the criteria are not weighted equally in the overall score
 
 > `optional` **restaurants**: `number`
 
-Defined in: main.ts:220581
+Defined in: main.ts:221089
 
 score relative to nearby restaurants
 indicates the score of the hotel’s location in the range from 1 to 5;
@@ -55,7 +55,7 @@ calculated based on data from the hotel’s proximity to nearby restaurants
 
 > `optional` **things\_to\_do**: `number`
 
-Defined in: main.ts:220577
+Defined in: main.ts:221085
 
 score relative to nearby things to do
 indicates the score of the hotel’s location in the range from 1 to 5;
@@ -67,7 +67,7 @@ calculated based on data from the hotel’s proximity to nearby things to do
 
 > `optional` **transit**: `number`
 
-Defined in: main.ts:220585
+Defined in: main.ts:221093
 
 score relative to nearby transit options
 indicates the score of the hotel’s location in the range from 1 to 5;

@@ -6,7 +6,7 @@
 
 # Interface: IMathSolverDataforseoLabsSerpElementItem
 
-Defined in: main.ts:107059
+Defined in: main.ts:107191
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:107059
 
 > `optional` **items**: [`MathSolverElement`](../classes/MathSolverElement.md)[]
 
-Defined in: main.ts:107066
+Defined in: main.ts:107198
 
 contains results featured in the ‘hotels_pack’ element of SERP
 
@@ -32,7 +32,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 > `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
-Defined in: main.ts:107070
+Defined in: main.ts:107202
 
 sitelinks
 the links shown below some of Google’s search results
@@ -90,7 +90,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **result**: `string`
 
-Defined in: main.ts:107064
+Defined in: main.ts:107196
 
 solution to the equation
 solution to the mathematical equation specified in the keyword field when setting a task
@@ -101,7 +101,7 @@ solution to the mathematical equation specified in the keyword field when settin
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:107061
+Defined in: main.ts:107193
 
 title of the result in SERP
 

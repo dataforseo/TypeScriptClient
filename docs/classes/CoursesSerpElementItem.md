@@ -6,7 +6,7 @@
 
 # Class: CoursesSerpElementItem
 
-Defined in: main.ts:37989
+Defined in: main.ts:38005
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:37989
 
 > **new CoursesSerpElementItem**(`data`?): [`CoursesSerpElementItem`](CoursesSerpElementItem.md)
 
-Defined in: main.ts:38004
+Defined in: main.ts:38020
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:37994
+Defined in: main.ts:38010
 
 array of course categories
 contains a list of categories relevant to courses
@@ -75,7 +75,7 @@ contains a list of categories relevant to courses
 
 > `optional` **items**: [`CoursesElement`](CoursesElement.md)[]
 
-Defined in: main.ts:37996
+Defined in: main.ts:38012
 
 contains arrays of specific images
 
@@ -148,7 +148,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:38000
+Defined in: main.ts:38016
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -164,7 +164,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:37991
+Defined in: main.ts:38007
 
 title of the row
 
@@ -214,7 +214,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:38009
+Defined in: main.ts:38025
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:38009
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:38038
+Defined in: main.ts:38054
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:38038
 
 > `static` **fromJS**(`data`): [`CoursesSerpElementItem`](CoursesSerpElementItem.md)
 
-Defined in: main.ts:38031
+Defined in: main.ts:38047
 
 #### Parameters
 

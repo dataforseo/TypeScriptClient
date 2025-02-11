@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppSearchesTaskPostResponseInfo
 
-Defined in: main.ts:205559
+Defined in: main.ts:206061
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:205559
 
 > **new AppDataAppleAppSearchesTaskPostResponseInfo**(`data`?): [`AppDataAppleAppSearchesTaskPostResponseInfo`](AppDataAppleAppSearchesTaskPostResponseInfo.md)
 
-Defined in: main.ts:205565
+Defined in: main.ts:206067
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataAppleAppSearchesTaskPostTaskInfo`](AppDataAppleAppSearchesTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:205561
+Defined in: main.ts:206063
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:205569
+Defined in: main.ts:206071
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:205569
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:205591
+Defined in: main.ts:206093
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:205591
 
 > `static` **fromJS**(`data`): [`AppDataAppleAppSearchesTaskPostResponseInfo`](AppDataAppleAppSearchesTaskPostResponseInfo.md)
 
-Defined in: main.ts:205584
+Defined in: main.ts:206086
 
 #### Parameters
 

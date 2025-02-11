@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsBingCompetitorsDomainLiveRequestInfo
 
-Defined in: main.ts:116247
+Defined in: main.ts:116334
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:116247
 
 > `optional` **exclude\_top\_domains**: `boolean`
 
-Defined in: main.ts:116363
+Defined in: main.ts:116450
 
 indicates whether to exclude world’s largest websites
 optional field
@@ -48,7 +48,7 @@ slideshare.net
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:116309
+Defined in: main.ts:116396
 
 array of results filtering parameters
 optional field
@@ -66,11 +66,24 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 ***
 
+### ignore\_synonyms?
+
+> `optional` **ignore\_synonyms**: `boolean`
+
+Defined in: main.ts:116461
+
+ignore highly similar keywords
+optional field
+if set to true, only core keywords will be returned, all highly similar keywords will be excluded;
+default value: false
+
+***
+
 ### intersecting\_domains?
 
 > `optional` **intersecting\_domains**: `string`[]
 
-Defined in: main.ts:116369
+Defined in: main.ts:116456
 
 additional domains for improving results accuracy
 optional field
@@ -84,7 +97,7 @@ Note: you can specify up to 20 domains in this array
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:116295
+Defined in: main.ts:116382
 
 display results by item type
 optional field
@@ -101,7 +114,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:116286
+Defined in: main.ts:116373
 
 language code
 required field if you don’t specify language_name
@@ -117,7 +130,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:116278
+Defined in: main.ts:116365
 
 full name of the language
 required field if you don’t specify language_code
@@ -133,7 +146,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:116331
+Defined in: main.ts:116418
 
 the maximum number of returned domains
 optional field
@@ -146,7 +159,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:116270
+Defined in: main.ts:116357
 
 location code
 required field if you don’t specify location_name
@@ -163,7 +176,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:116261
+Defined in: main.ts:116348
 
 full name of the location
 required field if you don’t specify location_code
@@ -180,7 +193,7 @@ United States
 
 > `optional` **max\_rank\_group**: `number`
 
-Defined in: main.ts:116341
+Defined in: main.ts:116428
 
 maximum rank up to which competitors will be considered
 optional field
@@ -193,7 +206,7 @@ if you specify 10 here, we will extract competitors from the top 10 Bing search 
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:116336
+Defined in: main.ts:116423
 
 offset in the results array of returned domains
 optional field
@@ -206,7 +219,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:116326
+Defined in: main.ts:116413
 
 results sorting rules
 optional field
@@ -231,7 +244,7 @@ Note: if the item_types array contains item types that are different from organi
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:116375
+Defined in: main.ts:116467
 
 user-defined task identifier
 optional field
@@ -245,7 +258,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:116252
+Defined in: main.ts:116339
 
 domain
 required field

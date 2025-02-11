@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeLocationsTaskInfo
 
-Defined in: main.ts:69013
+Defined in: main.ts:69049
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:69013
 
 > **new SerpYoutubeLocationsTaskInfo**(`data`?): [`SerpYoutubeLocationsTaskInfo`](SerpYoutubeLocationsTaskInfo.md)
 
-Defined in: main.ts:69019
+Defined in: main.ts:69055
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpYoutubeLocationsResultInfo`](SerpYoutubeLocationsResultInfo.md)[]
 
-Defined in: main.ts:69015
+Defined in: main.ts:69051
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:69023
+Defined in: main.ts:69059
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:69023
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:69045
+Defined in: main.ts:69081
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:69045
 
 > `static` **fromJS**(`data`): [`SerpYoutubeLocationsTaskInfo`](SerpYoutubeLocationsTaskInfo.md)
 
-Defined in: main.ts:69038
+Defined in: main.ts:69074
 
 #### Parameters
 

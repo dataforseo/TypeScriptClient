@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationGenerateMetaTagsLiveTaskInfo
 
-Defined in: main.ts:182088
+Defined in: main.ts:182450
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:182088
 
 > **new ContentGenerationGenerateMetaTagsLiveTaskInfo**(`data`?): [`ContentGenerationGenerateMetaTagsLiveTaskInfo`](ContentGenerationGenerateMetaTagsLiveTaskInfo.md)
 
-Defined in: main.ts:182094
+Defined in: main.ts:182456
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`ContentGenerationGenerateMetaTagsLiveResultInfo`](ContentGenerationGenerateMetaTagsLiveResultInfo.md)[]
 
-Defined in: main.ts:182090
+Defined in: main.ts:182452
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:182098
+Defined in: main.ts:182460
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:182098
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:182120
+Defined in: main.ts:182482
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:182120
 
 > `static` **fromJS**(`data`): [`ContentGenerationGenerateMetaTagsLiveTaskInfo`](ContentGenerationGenerateMetaTagsLiveTaskInfo.md)
 
-Defined in: main.ts:182113
+Defined in: main.ts:182475
 
 #### Parameters
 

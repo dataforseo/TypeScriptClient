@@ -6,7 +6,7 @@
 
 # Interface: IAiOverviewReference
 
-Defined in: main.ts:30818
+Defined in: main.ts:30824
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:30818
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:30824
+Defined in: main.ts:30830
 
 website domain
 
@@ -28,7 +28,7 @@ website domain
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:30822
+Defined in: main.ts:30828
 
 reference source name or title
 
@@ -38,7 +38,7 @@ reference source name or title
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:30830
+Defined in: main.ts:30836
 
 row content
 
@@ -48,7 +48,7 @@ row content
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:30828
+Defined in: main.ts:30834
 
 title of a given link element
 
@@ -58,7 +58,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:30820
+Defined in: main.ts:30826
 
 type of element
 
@@ -68,6 +68,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:30826
+Defined in: main.ts:30832
 
 URL

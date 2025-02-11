@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonLocationsCountryTaskInfo
 
-Defined in: main.ts:191452
+Defined in: main.ts:191858
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:191452
 
 > **new MerchantAmazonLocationsCountryTaskInfo**(`data`?): [`MerchantAmazonLocationsCountryTaskInfo`](MerchantAmazonLocationsCountryTaskInfo.md)
 
-Defined in: main.ts:191458
+Defined in: main.ts:191864
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`MerchantAmazonLocationsCountryResultInfo`](MerchantAmazonLocationsCountryResultInfo.md)[]
 
-Defined in: main.ts:191454
+Defined in: main.ts:191860
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:191462
+Defined in: main.ts:191868
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:191462
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:191484
+Defined in: main.ts:191890
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:191484
 
 > `static` **fromJS**(`data`): [`MerchantAmazonLocationsCountryTaskInfo`](MerchantAmazonLocationsCountryTaskInfo.md)
 
-Defined in: main.ts:191477
+Defined in: main.ts:191883
 
 #### Parameters
 

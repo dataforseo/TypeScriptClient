@@ -6,7 +6,7 @@
 
 # Class: PageMetrics
 
-Defined in: main.ts:165498
+Defined in: main.ts:165662
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:165498
 
 > **new PageMetrics**(`data`?): [`PageMetrics`](PageMetrics.md)
 
-Defined in: main.ts:165538
+Defined in: main.ts:165702
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:165538
 
 > `optional` **broken\_links**: `number`
 
-Defined in: main.ts:165513
+Defined in: main.ts:165677
 
 number of broken links
 number of broken links across all crawled pages on a target website
@@ -55,7 +55,7 @@ number of broken links across all crawled pages on a target website
 
 > `optional` **broken\_resources**: `number`
 
-Defined in: main.ts:165516
+Defined in: main.ts:165680
 
 number of broken resources
 the number of images and other resources with broken links
@@ -70,7 +70,7 @@ the number of images and other resources with broken links
 
 > `optional` **checks**: `object`
 
-Defined in: main.ts:165534
+Defined in: main.ts:165698
 
 page-specific on-page check-ups
 
@@ -88,7 +88,7 @@ page-specific on-page check-ups
 
 > `optional` **duplicate\_content**: `number`
 
-Defined in: main.ts:165510
+Defined in: main.ts:165674
 
 number of pages with duplicate content
 
@@ -102,7 +102,7 @@ number of pages with duplicate content
 
 > `optional` **duplicate\_description**: `number`
 
-Defined in: main.ts:165508
+Defined in: main.ts:165672
 
 number of pages with duplicate descriptions
 
@@ -116,7 +116,7 @@ number of pages with duplicate descriptions
 
 > `optional` **duplicate\_title**: `number`
 
-Defined in: main.ts:165506
+Defined in: main.ts:165670
 
 number of pages with duplicate titles
 
@@ -130,7 +130,7 @@ number of pages with duplicate titles
 
 > `optional` **links\_external**: `number`
 
-Defined in: main.ts:165501
+Defined in: main.ts:165665
 
 number of external links
 the number of links pointing to other websites
@@ -145,7 +145,7 @@ the number of links pointing to other websites
 
 > `optional` **links\_internal**: `number`
 
-Defined in: main.ts:165504
+Defined in: main.ts:165668
 
 number of internal links
 the number of links pointing to other pages within the target website
@@ -160,7 +160,7 @@ the number of links pointing to other pages within the target website
 
 > `optional` **links\_relation\_conflict**: `number`
 
-Defined in: main.ts:165519
+Defined in: main.ts:165683
 
 number of links present on the target website that may have a conflict
 for example, if "links_relation_conflict": 2, the target website is referring to the same source by at least one internal link with the rel="nofollow" attribute and by at least one dofollow link
@@ -175,7 +175,7 @@ for example, if "links_relation_conflict": 2, the target website is referring to
 
 > `optional` **non\_indexable**: `number`
 
-Defined in: main.ts:165532
+Defined in: main.ts:165696
 
 number of non-indexable pages
 number of pages that are blocked from being indexed by Google and other search engines by robots.txt, HTTP headers, or meta tags settings;
@@ -191,7 +191,7 @@ you can receive a list of non-indexable URLs using this endpoint
 
 > `optional` **onpage\_score**: `number`
 
-Defined in: main.ts:165528
+Defined in: main.ts:165692
 
 shows how website is optimized on a 100-point scale
 this field shows how website is optimized considering critical on-page issues and warnings detected;
@@ -209,7 +209,7 @@ learn more about how the metric is calculated in this help center article
 
 > `optional` **redirect\_loop**: `number`
 
-Defined in: main.ts:165522
+Defined in: main.ts:165686
 
 number of redirect chains that start and end at the same URL
 number of redirect chains where the destination URL redirects back to the original URL
@@ -224,7 +224,7 @@ number of redirect chains where the destination URL redirects back to the origin
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:165547
+Defined in: main.ts:165711
 
 #### Parameters
 
@@ -242,7 +242,7 @@ Defined in: main.ts:165547
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:165581
+Defined in: main.ts:165745
 
 #### Parameters
 
@@ -260,7 +260,7 @@ Defined in: main.ts:165581
 
 > `static` **fromJS**(`data`): [`PageMetrics`](PageMetrics.md)
 
-Defined in: main.ts:165574
+Defined in: main.ts:165738
 
 #### Parameters
 

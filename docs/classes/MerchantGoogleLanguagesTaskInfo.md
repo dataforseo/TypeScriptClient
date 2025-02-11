@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleLanguagesTaskInfo
 
-Defined in: main.ts:184754
+Defined in: main.ts:185116
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:184754
 
 > **new MerchantGoogleLanguagesTaskInfo**(`data`?): [`MerchantGoogleLanguagesTaskInfo`](MerchantGoogleLanguagesTaskInfo.md)
 
-Defined in: main.ts:184760
+Defined in: main.ts:185122
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`MerchantGoogleLanguagesResultInfo`](MerchantGoogleLanguagesResultInfo.md)[]
 
-Defined in: main.ts:184756
+Defined in: main.ts:185118
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:184764
+Defined in: main.ts:185126
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:184764
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:184786
+Defined in: main.ts:185148
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:184786
 
 > `static` **fromJS**(`data`): [`MerchantGoogleLanguagesTaskInfo`](MerchantGoogleLanguagesTaskInfo.md)
 
-Defined in: main.ts:184779
+Defined in: main.ts:185141
 
 #### Parameters
 

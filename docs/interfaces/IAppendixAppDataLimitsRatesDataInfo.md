@@ -6,7 +6,7 @@
 
 # Interface: IAppendixAppDataLimitsRatesDataInfo
 
-Defined in: main.ts:232422
+Defined in: main.ts:232941
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:232422
 
 > `optional` **app\_info**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:232423
+Defined in: main.ts:232942
 
 ***
 
@@ -26,7 +26,15 @@ Defined in: main.ts:232423
 
 > `optional` **app\_list**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:232424
+Defined in: main.ts:232943
+
+***
+
+### app\_listings?
+
+> `optional` **app\_listings**: [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](../classes/AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
+
+Defined in: main.ts:232950
 
 ***
 
@@ -34,7 +42,7 @@ Defined in: main.ts:232424
 
 > `optional` **app\_reviews**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:232425
+Defined in: main.ts:232944
 
 ***
 
@@ -42,7 +50,7 @@ Defined in: main.ts:232425
 
 > `optional` **app\_searches**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:232426
+Defined in: main.ts:232945
 
 ***
 
@@ -50,7 +58,7 @@ Defined in: main.ts:232426
 
 > `optional` **categories**: `number`
 
-Defined in: main.ts:232430
+Defined in: main.ts:232949
 
 ***
 
@@ -58,7 +66,7 @@ Defined in: main.ts:232430
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:232427
+Defined in: main.ts:232946
 
 ***
 
@@ -66,7 +74,7 @@ Defined in: main.ts:232427
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:232428
+Defined in: main.ts:232947
 
 ***
 
@@ -74,7 +82,7 @@ Defined in: main.ts:232428
 
 > `optional` **locations**: `number`
 
-Defined in: main.ts:232429
+Defined in: main.ts:232948
 
 ***
 
@@ -82,4 +90,4 @@ Defined in: main.ts:232429
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:232431
+Defined in: main.ts:232951

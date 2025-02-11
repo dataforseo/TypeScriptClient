@@ -6,7 +6,7 @@
 
 # Interface: IImageResourceElementItem
 
-Defined in: main.ts:168326
+Defined in: main.ts:168490
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:168326
 
 > `optional` **accept\_type**: `string`
 
-Defined in: main.ts:168338
+Defined in: main.ts:168502
 
 indicates the expected type of resource
 for example, if "resource_type": "broken", accept_type will indicate the type of the broken resource
@@ -114,7 +114,7 @@ example:
 
 > `optional` **fetch\_timing**: [`FetchTiming`](../classes/FetchTiming.md)
 
-Defined in: main.ts:168333
+Defined in: main.ts:168497
 
 resource fething time range
 
@@ -168,7 +168,7 @@ types of media used to display a page
 
 > `optional` **meta**: [`ResourceMetaInfo`](../classes/ResourceMetaInfo.md)
 
-Defined in: main.ts:168331
+Defined in: main.ts:168495
 
 resource properties
 the value depends on the resource_type

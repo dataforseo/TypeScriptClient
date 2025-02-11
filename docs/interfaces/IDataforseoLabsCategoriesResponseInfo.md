@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsCategoriesResponseInfo
 
-Defined in: main.ts:91815
+Defined in: main.ts:91851
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsCategoriesTaskInfo`](../classes/DataforseoLabsCategoriesTaskInfo.md)[]
 
-Defined in: main.ts:91817
+Defined in: main.ts:91853
 
 array of tasks
 

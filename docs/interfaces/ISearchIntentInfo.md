@@ -6,7 +6,7 @@
 
 # Interface: ISearchIntentInfo
 
-Defined in: main.ts:93269
+Defined in: main.ts:93315
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:93269
 
 > `optional` **foreign\_intent**: `string`[]
 
-Defined in: main.ts:93278
+Defined in: main.ts:93324
 
 supplementary search intents
 possible values: informational, navigational, commercial, transactional
@@ -29,7 +29,7 @@ possible values: informational, navigational, commercial, transactional
 
 > `optional` **last\_updated\_time**: `string`
 
-Defined in: main.ts:93283
+Defined in: main.ts:93329
 
 date and time when the dataset was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -42,7 +42,7 @@ example:
 
 > `optional` **main\_intent**: `string`
 
-Defined in: main.ts:93275
+Defined in: main.ts:93321
 
 main search intent
 possible values: informational, navigational, commercial, transactional
@@ -53,7 +53,7 @@ possible values: informational, navigational, commercial, transactional
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:93272
+Defined in: main.ts:93318
 
 search engine type
 possible values: google

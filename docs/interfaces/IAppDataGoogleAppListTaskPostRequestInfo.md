@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleAppListTaskPostRequestInfo
 
-Defined in: main.ts:200629
+Defined in: main.ts:201131
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:200629
 
 > `optional` **age\_rating**: `string`
 
-Defined in: main.ts:200697
+Defined in: main.ts:201199
 
 filter results by age rating
 optional field
@@ -36,7 +36,7 @@ Note: this filter works only in conjunction with the "category": "family" parame
 
 > `optional` **app\_category**: `string`
 
-Defined in: main.ts:200687
+Defined in: main.ts:201189
 
 application category on Google Play
 optional field
@@ -52,7 +52,7 @@ Note: app_category cannot be used if app_collection parameter is set to featured
 
 > `optional` **app\_collection**: `string`
 
-Defined in: main.ts:200636
+Defined in: main.ts:201138
 
 app collection
 required field
@@ -67,7 +67,7 @@ Note: if featured is selected, the app_category parameter cannot be used
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:200679
+Defined in: main.ts:201181
 
 parsing depth
 optional field
@@ -82,7 +82,7 @@ maximum value: 200
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:200664
+Defined in: main.ts:201166
 
 search engine language code
 required field if language_name is not specified
@@ -97,7 +97,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:200657
+Defined in: main.ts:201159
 
 full name of search engine language
 required field if language_code is not specified
@@ -112,7 +112,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:200650
+Defined in: main.ts:201152
 
 search engine location code
 required field if you don’t specify location_name
@@ -127,7 +127,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:200643
+Defined in: main.ts:201145
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -142,7 +142,7 @@ West Los Angeles,California,United States
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:200729
+Defined in: main.ts:201231
 
 notification URL of a completed task
 optional field
@@ -160,7 +160,7 @@ i.a., the # character will be encoded into %23
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:200719
+Defined in: main.ts:201221
 
 postback_url datatype
 required field if you specify postback_url
@@ -174,7 +174,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:200713
+Defined in: main.ts:201215
 
 return URL for sending task results
 optional field
@@ -192,7 +192,7 @@ i.a., the # character will be encoded into %23
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:200672
+Defined in: main.ts:201174
 
 task priority
 optional field
@@ -208,7 +208,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:200703
+Defined in: main.ts:201205
 
 user-defined task identifier
 optional field

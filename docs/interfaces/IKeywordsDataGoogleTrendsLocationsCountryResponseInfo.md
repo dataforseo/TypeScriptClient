@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataGoogleTrendsLocationsCountryResponseInfo
 
-Defined in: main.ts:132967
+Defined in: main.ts:133083
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataGoogleTrendsLocationsCountryTaskInfo`](../classes/KeywordsDataGoogleTrendsLocationsCountryTaskInfo.md)[]
 
-Defined in: main.ts:132969
+Defined in: main.ts:133085
 
 array of tasks
 

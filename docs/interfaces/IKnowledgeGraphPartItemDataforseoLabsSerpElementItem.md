@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphPartItemDataforseoLabsSerpElementItem
 
-Defined in: main.ts:107728
+Defined in: main.ts:107784
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:107728
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:107734
+Defined in: main.ts:107790
 
 google defined data attribute ID
 example:
@@ -34,7 +34,7 @@ kc:/shopping/gpc:organic-offers
 
 > `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
-Defined in: main.ts:107738
+Defined in: main.ts:107794
 
 link of the element
 
@@ -90,7 +90,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:107736
+Defined in: main.ts:107792
 
 description content
 
@@ -100,7 +100,7 @@ description content
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:107730
+Defined in: main.ts:107786
 
 title of the element
 

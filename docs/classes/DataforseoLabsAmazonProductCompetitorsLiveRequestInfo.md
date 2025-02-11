@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonProductCompetitorsLiveRequestInfo
 
-Defined in: main.ts:114172
+Defined in: main.ts:114240
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:114172
 
 > **new DataforseoLabsAmazonProductCompetitorsLiveRequestInfo**(`data`?): [`DataforseoLabsAmazonProductCompetitorsLiveRequestInfo`](DataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md)
 
-Defined in: main.ts:114254
+Defined in: main.ts:114322
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:114254
 
 > `optional` **asin**: `string`
 
-Defined in: main.ts:114177
+Defined in: main.ts:114245
 
 product ID
 required field
@@ -57,14 +57,14 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:114223
+Defined in: main.ts:114291
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, <=, >, >=, =, <>, in, not_in, ilike, not_ilike, like, not_like
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, ilike, not_ilike, like, not_like, match, not_match
 you can use the % operator with like and not_like, as well as ilike and not_ilike to match any string of zero or more characters
 example:
 ["full_metrics.amazon_serp.pos_1",">", 20]
@@ -80,7 +80,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:114207
+Defined in: main.ts:114275
 
 language code
 required field if don’t specify language_name
@@ -99,7 +99,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:114200
+Defined in: main.ts:114268
 
 full name of the language
 required field if don’t specify language_code
@@ -118,7 +118,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:114212
+Defined in: main.ts:114280
 
 the maximum number of products in the results array
 optional field
@@ -135,7 +135,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:114193
+Defined in: main.ts:114261
 
 location code
 required field if don’t specify location_name
@@ -155,7 +155,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:114185
+Defined in: main.ts:114253
 
 full name of the location
 required field if don’t specify location_code
@@ -175,7 +175,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:114244
+Defined in: main.ts:114312
 
 offset in the results array of returned product competitors
 optional field
@@ -192,7 +192,7 @@ if you specify the 10 value, the first ten product competitors in the results ar
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:114239
+Defined in: main.ts:114307
 
 results sorting rules
 optional field
@@ -220,7 +220,7 @@ default rule:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:114250
+Defined in: main.ts:114318
 
 user-defined task identifier
 optional field
@@ -238,7 +238,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:114263
+Defined in: main.ts:114331
 
 #### Parameters
 
@@ -256,7 +256,7 @@ Defined in: main.ts:114263
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:114297
+Defined in: main.ts:114365
 
 #### Parameters
 
@@ -274,7 +274,7 @@ Defined in: main.ts:114297
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAmazonProductCompetitorsLiveRequestInfo`](DataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md)
 
-Defined in: main.ts:114290
+Defined in: main.ts:114358
 
 #### Parameters
 

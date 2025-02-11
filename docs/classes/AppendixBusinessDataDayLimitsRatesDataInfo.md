@@ -6,7 +6,7 @@
 
 # Class: AppendixBusinessDataDayLimitsRatesDataInfo
 
-Defined in: main.ts:231972
+Defined in: main.ts:232488
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:231972
 
 > **new AppendixBusinessDataDayLimitsRatesDataInfo**(`data`?): [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
-Defined in: main.ts:231978
+Defined in: main.ts:232494
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:231978
 
 > `optional` **reviews**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:231973
+Defined in: main.ts:232489
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:231973
 
 > `optional` **search**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:231974
+Defined in: main.ts:232490
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:231974
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:231987
+Defined in: main.ts:232503
 
 #### Parameters
 
@@ -82,7 +82,7 @@ Defined in: main.ts:231987
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:232005
+Defined in: main.ts:232521
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:232005
 
 > `static` **fromJS**(`data`): [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
-Defined in: main.ts:231998
+Defined in: main.ts:232514
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: SerpSeznamOrganicTaskPostResponseInfo
 
-Defined in: main.ts:83097
+Defined in: main.ts:83133
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:83097
 
 > **new SerpSeznamOrganicTaskPostResponseInfo**(`data`?): [`SerpSeznamOrganicTaskPostResponseInfo`](SerpSeznamOrganicTaskPostResponseInfo.md)
 
-Defined in: main.ts:83103
+Defined in: main.ts:83139
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpSeznamOrganicTaskPostTaskInfo`](SerpSeznamOrganicTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:83099
+Defined in: main.ts:83135
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:83107
+Defined in: main.ts:83143
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:83107
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:83129
+Defined in: main.ts:83165
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:83129
 
 > `static` **fromJS**(`data`): [`SerpSeznamOrganicTaskPostResponseInfo`](SerpSeznamOrganicTaskPostResponseInfo.md)
 
-Defined in: main.ts:83122
+Defined in: main.ts:83158
 
 #### Parameters
 

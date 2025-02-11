@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleSearchIntentLiveTaskInfo
 
-Defined in: main.ts:96818
+Defined in: main.ts:96846
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleSearchIntentLiveResultInfo`](../classes/DataforseoLabsGoogleSearchIntentLiveResultInfo.md)[]
 
-Defined in: main.ts:96820
+Defined in: main.ts:96848
 
 array of results
 

@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingKeywordsForSiteTaskGetResponseInfo
 
-Defined in: main.ts:142249
+Defined in: main.ts:142413
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:142249
 
 > **new KeywordsDataBingKeywordsForSiteTaskGetResponseInfo**(`data`?): [`KeywordsDataBingKeywordsForSiteTaskGetResponseInfo`](KeywordsDataBingKeywordsForSiteTaskGetResponseInfo.md)
 
-Defined in: main.ts:142255
+Defined in: main.ts:142419
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataBingKeywordsForSiteTaskGetTaskInfo`](KeywordsDataBingKeywordsForSiteTaskGetTaskInfo.md)[]
 
-Defined in: main.ts:142251
+Defined in: main.ts:142415
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:142259
+Defined in: main.ts:142423
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:142259
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:142281
+Defined in: main.ts:142445
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:142281
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingKeywordsForSiteTaskGetResponseInfo`](KeywordsDataBingKeywordsForSiteTaskGetResponseInfo.md)
 
-Defined in: main.ts:142274
+Defined in: main.ts:142438
 
 #### Parameters
 

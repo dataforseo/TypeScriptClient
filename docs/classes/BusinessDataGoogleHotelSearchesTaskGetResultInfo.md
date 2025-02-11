@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleHotelSearchesTaskGetResultInfo
 
-Defined in: main.ts:217444
+Defined in: main.ts:217946
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:217444
 
 > **new BusinessDataGoogleHotelSearchesTaskGetResultInfo**(`data`?): [`BusinessDataGoogleHotelSearchesTaskGetResultInfo`](BusinessDataGoogleHotelSearchesTaskGetResultInfo.md)
 
-Defined in: main.ts:217470
+Defined in: main.ts:217972
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:217470
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:217455
+Defined in: main.ts:217957
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:217460
+Defined in: main.ts:217962
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **items**: [`BusinessDataGoogleHotelSearchesItem`](BusinessDataGoogleHotelSearchesItem.md)[]
 
-Defined in: main.ts:217466
+Defined in: main.ts:217968
 
 array of items
 note: this field always equals null; use it to facilitate integration and ensure interoperability with the Hotel Info endpoint
@@ -87,7 +87,7 @@ note: this field always equals null; use it to facilitate integration and ensure
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:217463
+Defined in: main.ts:217965
 
 item types
 the number of items in the items array
@@ -102,7 +102,7 @@ the number of items in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:217448
+Defined in: main.ts:217950
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character);
@@ -118,7 +118,7 @@ in order to obtain accurate search results, the location name is appended to the
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:217452
+Defined in: main.ts:217954
 
 language code in a POST array
 
@@ -132,7 +132,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:217450
+Defined in: main.ts:217952
 
 location code in a POST array
 
@@ -146,7 +146,7 @@ location code in a POST array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:217479
+Defined in: main.ts:217981
 
 #### Parameters
 
@@ -164,7 +164,7 @@ Defined in: main.ts:217479
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:217506
+Defined in: main.ts:218008
 
 #### Parameters
 
@@ -182,7 +182,7 @@ Defined in: main.ts:217506
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleHotelSearchesTaskGetResultInfo`](BusinessDataGoogleHotelSearchesTaskGetResultInfo.md)
 
-Defined in: main.ts:217499
+Defined in: main.ts:218001
 
 #### Parameters
 

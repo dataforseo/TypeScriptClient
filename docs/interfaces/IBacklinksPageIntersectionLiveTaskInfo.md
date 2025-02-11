@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksPageIntersectionLiveTaskInfo
 
-Defined in: main.ts:159232
+Defined in: main.ts:159396
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`BacklinksPageIntersectionLiveResultInfo`](../classes/BacklinksPageIntersectionLiveResultInfo.md)[]
 
-Defined in: main.ts:159234
+Defined in: main.ts:159398
 
 array of results
 

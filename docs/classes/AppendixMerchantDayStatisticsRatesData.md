@@ -6,7 +6,7 @@
 
 # Class: AppendixMerchantDayStatisticsRatesData
 
-Defined in: main.ts:233908
+Defined in: main.ts:234428
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:233908
 
 > **new AppendixMerchantDayStatisticsRatesData**(`data`?): [`AppendixMerchantDayStatisticsRatesData`](AppendixMerchantDayStatisticsRatesData.md)
 
-Defined in: main.ts:233920
+Defined in: main.ts:234440
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:233920
 
 > `optional` **amazon**: [`AppendixMerchantAmazonInfo`](AppendixMerchantAmazonInfo.md)
 
-Defined in: main.ts:233910
+Defined in: main.ts:234430
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:233910
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:233913
+Defined in: main.ts:234433
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:233913
 
 > `optional` **google**: [`AppendixMerchantGoogleInfo`](AppendixMerchantGoogleInfo.md)
 
-Defined in: main.ts:233909
+Defined in: main.ts:234429
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:233909
 
 > `optional` **id\_list**: `number`
 
-Defined in: main.ts:233916
+Defined in: main.ts:234436
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:233916
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:233912
+Defined in: main.ts:234432
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:233912
 
 > `optional` **locations**: `number`
 
-Defined in: main.ts:233911
+Defined in: main.ts:234431
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:233911
 
 > `optional` **reviews**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
-Defined in: main.ts:233914
+Defined in: main.ts:234434
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:233914
 
 > `optional` **tasks\_ready**: `number`
 
-Defined in: main.ts:233915
+Defined in: main.ts:234435
 
 #### Implementation of
 
@@ -136,7 +136,7 @@ Defined in: main.ts:233915
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:233929
+Defined in: main.ts:234449
 
 #### Parameters
 
@@ -154,7 +154,7 @@ Defined in: main.ts:233929
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:233953
+Defined in: main.ts:234473
 
 #### Parameters
 
@@ -172,7 +172,7 @@ Defined in: main.ts:233953
 
 > `static` **fromJS**(`data`): [`AppendixMerchantDayStatisticsRatesData`](AppendixMerchantDayStatisticsRatesData.md)
 
-Defined in: main.ts:233946
+Defined in: main.ts:234466
 
 #### Parameters
 

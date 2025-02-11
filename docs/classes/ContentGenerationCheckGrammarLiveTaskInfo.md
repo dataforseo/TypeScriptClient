@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationCheckGrammarLiveTaskInfo
 
-Defined in: main.ts:183038
+Defined in: main.ts:183400
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:183038
 
 > **new ContentGenerationCheckGrammarLiveTaskInfo**(`data`?): [`ContentGenerationCheckGrammarLiveTaskInfo`](ContentGenerationCheckGrammarLiveTaskInfo.md)
 
-Defined in: main.ts:183044
+Defined in: main.ts:183406
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`ContentGenerationCheckGrammarLiveResultInfo`](ContentGenerationCheckGrammarLiveResultInfo.md)[]
 
-Defined in: main.ts:183040
+Defined in: main.ts:183402
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:183048
+Defined in: main.ts:183410
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:183048
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:183070
+Defined in: main.ts:183432
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:183070
 
 > `static` **fromJS**(`data`): [`ContentGenerationCheckGrammarLiveTaskInfo`](ContentGenerationCheckGrammarLiveTaskInfo.md)
 
-Defined in: main.ts:183063
+Defined in: main.ts:183425
 
 #### Parameters
 

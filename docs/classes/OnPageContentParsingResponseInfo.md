@@ -6,7 +6,7 @@
 
 # Class: OnPageContentParsingResponseInfo
 
-Defined in: main.ts:173767
+Defined in: main.ts:173291
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:173767
 
 > **new OnPageContentParsingResponseInfo**(`data`?): [`OnPageContentParsingResponseInfo`](OnPageContentParsingResponseInfo.md)
 
-Defined in: main.ts:173773
+Defined in: main.ts:173297
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageContentParsingTaskInfo`](OnPageContentParsingTaskInfo.md)[]
 
-Defined in: main.ts:173769
+Defined in: main.ts:173293
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:173777
+Defined in: main.ts:173301
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:173777
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:173799
+Defined in: main.ts:173323
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:173799
 
 > `static` **fromJS**(`data`): [`OnPageContentParsingResponseInfo`](OnPageContentParsingResponseInfo.md)
 
-Defined in: main.ts:173792
+Defined in: main.ts:173316
 
 #### Parameters
 

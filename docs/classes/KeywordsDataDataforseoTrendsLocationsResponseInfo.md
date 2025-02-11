@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataDataforseoTrendsLocationsResponseInfo
 
-Defined in: main.ts:135497
+Defined in: main.ts:135661
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:135497
 
 > **new KeywordsDataDataforseoTrendsLocationsResponseInfo**(`data`?): [`KeywordsDataDataforseoTrendsLocationsResponseInfo`](KeywordsDataDataforseoTrendsLocationsResponseInfo.md)
 
-Defined in: main.ts:135503
+Defined in: main.ts:135667
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataDataforseoTrendsLocationsTaskInfo`](KeywordsDataDataforseoTrendsLocationsTaskInfo.md)[]
 
-Defined in: main.ts:135499
+Defined in: main.ts:135663
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:135507
+Defined in: main.ts:135671
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:135507
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:135529
+Defined in: main.ts:135693
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:135529
 
 > `static` **fromJS**(`data`): [`KeywordsDataDataforseoTrendsLocationsResponseInfo`](KeywordsDataDataforseoTrendsLocationsResponseInfo.md)
 
-Defined in: main.ts:135522
+Defined in: main.ts:135686
 
 #### Parameters
 

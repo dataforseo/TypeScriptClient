@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsIdListRequestInfo
 
-Defined in: main.ts:90007
+Defined in: main.ts:90043
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:90007
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:90015
+Defined in: main.ts:90051
 
 start time for filtering results
 required field
@@ -34,7 +34,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:90022
+Defined in: main.ts:90058
 
 finish time for filtering results
 required field
@@ -49,7 +49,7 @@ example:
 
 > `optional` **include\_metadata**: `boolean`
 
-Defined in: main.ts:90041
+Defined in: main.ts:90077
 
 include task metadata in the respond
 optional field
@@ -61,7 +61,7 @@ default value: false
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:90027
+Defined in: main.ts:90063
 
 the maximum number of returned task IDs
 optional field
@@ -74,7 +74,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:90032
+Defined in: main.ts:90068
 
 offset in the results array of returned task IDs
 optional field
@@ -87,7 +87,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > `optional` **sort**: `string`
 
-Defined in: main.ts:90037
+Defined in: main.ts:90073
 
 sorting by task execution time
 optional field

@@ -6,7 +6,7 @@
 
 # Interface: IAppElement
 
-Defined in: main.ts:32808
+Defined in: main.ts:32816
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:32808
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:32814
+Defined in: main.ts:32822
 
 description
 
@@ -28,7 +28,7 @@ description
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-Defined in: main.ts:32818
+Defined in: main.ts:32826
 
 price indicated in the element
 
@@ -38,7 +38,7 @@ price indicated in the element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:32812
+Defined in: main.ts:32820
 
 title of a given link element
 
@@ -48,7 +48,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:32810
+Defined in: main.ts:32818
 
 type of element
 
@@ -58,6 +58,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:32816
+Defined in: main.ts:32824
 
 URL

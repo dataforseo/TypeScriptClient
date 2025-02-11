@@ -6,7 +6,7 @@
 
 # Class: OnPageMicrodataResponseInfo
 
-Defined in: main.ts:172077
+Defined in: main.ts:172241
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:172077
 
 > **new OnPageMicrodataResponseInfo**(`data`?): [`OnPageMicrodataResponseInfo`](OnPageMicrodataResponseInfo.md)
 
-Defined in: main.ts:172083
+Defined in: main.ts:172247
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageMicrodataTaskInfo`](OnPageMicrodataTaskInfo.md)[]
 
-Defined in: main.ts:172079
+Defined in: main.ts:172243
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:172087
+Defined in: main.ts:172251
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:172087
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:172109
+Defined in: main.ts:172273
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:172109
 
 > `static` **fromJS**(`data`): [`OnPageMicrodataResponseInfo`](OnPageMicrodataResponseInfo.md)
 
-Defined in: main.ts:172102
+Defined in: main.ts:172266
 
 #### Parameters
 

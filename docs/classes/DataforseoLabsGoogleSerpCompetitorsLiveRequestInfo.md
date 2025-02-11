@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo
 
-Defined in: main.ts:101826
+Defined in: main.ts:101854
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:101826
 
 > **new DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`](DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md)
 
-Defined in: main.ts:101930
+Defined in: main.ts:101958
 
 #### Parameters
 
@@ -40,14 +40,14 @@ Defined in: main.ts:101930
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:101904
+Defined in: main.ts:101932
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, <=, >, >=, =, <>, in, not_in, ilike, not_ilike, like, not_like
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, match, not_match, ilike, not_ilike, like, not_like
 you can use the % operator with like and not_like, as well as ilike and not_ilike to match any string of zero or more characters
 example:
 ["median_position","in",[1,10]]
@@ -67,7 +67,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:101871
+Defined in: main.ts:101899
 
 indicates if the subdomains will be included in the search
 optional field
@@ -84,7 +84,7 @@ default value: true
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:101879
+Defined in: main.ts:101907
 
 search results type
 indicates type of search results included in the response
@@ -104,7 +104,7 @@ default value:
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:101834
+Defined in: main.ts:101862
 
 keywords array
 required field
@@ -124,7 +124,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:101866
+Defined in: main.ts:101894
 
 unique language identifier
 required field if you don’t specify language_name
@@ -144,7 +144,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:101858
+Defined in: main.ts:101886
 
 full name of the language
 required field if you don’t specify language_code
@@ -164,7 +164,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:101884
+Defined in: main.ts:101912
 
 the maximum number of returned domains
 optional field
@@ -181,7 +181,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:101850
+Defined in: main.ts:101878
 
 unique location identifier
 required field if you don’t specify location_name
@@ -201,7 +201,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:101842
+Defined in: main.ts:101870
 
 full name of the location
 required field if you don’t specify location_code
@@ -221,7 +221,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:101889
+Defined in: main.ts:101917
 
 offset in the results array of returned domains
 optional field
@@ -238,7 +238,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:101920
+Defined in: main.ts:101948
 
 results sorting rules
 optional field
@@ -266,7 +266,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:101926
+Defined in: main.ts:101954
 
 user-defined task identifier
 optional field
@@ -284,7 +284,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:101939
+Defined in: main.ts:101967
 
 #### Parameters
 
@@ -302,7 +302,7 @@ Defined in: main.ts:101939
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:101983
+Defined in: main.ts:102011
 
 #### Parameters
 
@@ -320,7 +320,7 @@ Defined in: main.ts:101983
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`](DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md)
 
-Defined in: main.ts:101976
+Defined in: main.ts:102004
 
 #### Parameters
 

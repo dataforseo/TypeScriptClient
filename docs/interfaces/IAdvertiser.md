@@ -6,7 +6,7 @@
 
 # Interface: IAdvertiser
 
-Defined in: main.ts:60955
+Defined in: main.ts:60977
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:60955
 
 > `optional` **advertiser\_id**: `string`
 
-Defined in: main.ts:60960
+Defined in: main.ts:60982
 
 unique identifier of the advertiser account
 can be used to obtain data on advertising campaigns from the Google Ads Search endpoint
@@ -29,7 +29,7 @@ can be used to obtain data on advertising campaigns from the Google Ads Search e
 
 > `optional` **approx\_ads\_count**: `number`
 
-Defined in: main.ts:60969
+Defined in: main.ts:60991
 
 ads count
 the approximate number of ads that are run by the advertiser account across all available Google Ads platforms
@@ -40,7 +40,7 @@ the approximate number of ads that are run by the advertiser account across all 
 
 > `optional` **location**: `string`
 
-Defined in: main.ts:60963
+Defined in: main.ts:60985
 
 location of the advertiser account
 country code associated with the advertiser account
@@ -51,7 +51,7 @@ country code associated with the advertiser account
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:60957
+Defined in: main.ts:60979
 
 type of element
 
@@ -61,7 +61,7 @@ type of element
 
 > `optional` **verified**: `boolean`
 
-Defined in: main.ts:60966
+Defined in: main.ts:60988
 
 verified advertiser account
 equals true if advertiser account is verified by Google Ads

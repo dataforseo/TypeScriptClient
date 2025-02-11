@@ -6,7 +6,7 @@
 
 # Class: OnPageContentParsingLiveTaskInfo
 
-Defined in: main.ts:174182
+Defined in: main.ts:174546
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:174182
 
 > **new OnPageContentParsingLiveTaskInfo**(`data`?): [`OnPageContentParsingLiveTaskInfo`](OnPageContentParsingLiveTaskInfo.md)
 
-Defined in: main.ts:174188
+Defined in: main.ts:174552
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`OnPageContentParsingLiveResultInfo`](OnPageContentParsingLiveResultInfo.md)[]
 
-Defined in: main.ts:174184
+Defined in: main.ts:174548
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:174192
+Defined in: main.ts:174556
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:174192
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:174214
+Defined in: main.ts:174578
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:174214
 
 > `static` **fromJS**(`data`): [`OnPageContentParsingLiveTaskInfo`](OnPageContentParsingLiveTaskInfo.md)
 
-Defined in: main.ts:174207
+Defined in: main.ts:174571
 
 #### Parameters
 

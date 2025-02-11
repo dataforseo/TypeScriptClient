@@ -6,7 +6,7 @@
 
 # Class: SerpSeznamOrganicTaskGetAdvancedResponseInfo
 
-Defined in: main.ts:84065
+Defined in: main.ts:84101
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:84065
 
 > **new SerpSeznamOrganicTaskGetAdvancedResponseInfo**(`data`?): [`SerpSeznamOrganicTaskGetAdvancedResponseInfo`](SerpSeznamOrganicTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:84071
+Defined in: main.ts:84107
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpSeznamOrganicTaskGetAdvancedTaskInfo`](SerpSeznamOrganicTaskGetAdvancedTaskInfo.md)[]
 
-Defined in: main.ts:84067
+Defined in: main.ts:84103
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:84075
+Defined in: main.ts:84111
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:84075
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:84097
+Defined in: main.ts:84133
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:84097
 
 > `static` **fromJS**(`data`): [`SerpSeznamOrganicTaskGetAdvancedResponseInfo`](SerpSeznamOrganicTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:84090
+Defined in: main.ts:84126
 
 #### Parameters
 

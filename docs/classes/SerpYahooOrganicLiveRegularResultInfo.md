@@ -6,7 +6,7 @@
 
 # Class: SerpYahooOrganicLiveRegularResultInfo
 
-Defined in: main.ts:77072
+Defined in: main.ts:77108
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:77072
 
 > **new SerpYahooOrganicLiveRegularResultInfo**(`data`?): [`SerpYahooOrganicLiveRegularResultInfo`](SerpYahooOrganicLiveRegularResultInfo.md)
 
-Defined in: main.ts:77115
+Defined in: main.ts:77151
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:77115
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:77086
+Defined in: main.ts:77122
 
 direct URL to search engine results
 You can use it to make sure that we provided exact results
@@ -55,7 +55,7 @@ You can use it to make sure that we provided exact results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:77091
+Defined in: main.ts:77127
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:77105
+Defined in: main.ts:77141
 
 types of search results found in SERP
 contains types of all search results (items) found in the returned SERP
@@ -92,7 +92,7 @@ to get all items (including SERP features and rich snippets) found in the return
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-Defined in: main.ts:77111
+Defined in: main.ts:77147
 
 items in SERP
 
@@ -106,7 +106,7 @@ items in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:77109
+Defined in: main.ts:77145
 
 the number of results returned in the items array
 
@@ -120,7 +120,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:77075
+Defined in: main.ts:77111
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -135,7 +135,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:77083
+Defined in: main.ts:77119
 
 language code in a POST array
 
@@ -149,7 +149,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:77081
+Defined in: main.ts:77117
 
 location code in a POST array
 
@@ -163,7 +163,7 @@ location code in a POST array
 
 > `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
 
-Defined in: main.ts:77097
+Defined in: main.ts:77133
 
 search refinement chips
 equals null
@@ -178,7 +178,7 @@ equals null
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:77079
+Defined in: main.ts:77115
 
 search engine domain in a POST array
 
@@ -192,7 +192,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:77107
+Defined in: main.ts:77143
 
 total number of results in SERP
 
@@ -206,7 +206,7 @@ total number of results in SERP
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:77094
+Defined in: main.ts:77130
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -221,7 +221,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:77077
+Defined in: main.ts:77113
 
 type of element
 
@@ -235,7 +235,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:77124
+Defined in: main.ts:77160
 
 #### Parameters
 
@@ -253,7 +253,7 @@ Defined in: main.ts:77124
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:77161
+Defined in: main.ts:77197
 
 #### Parameters
 
@@ -271,7 +271,7 @@ Defined in: main.ts:77161
 
 > `static` **fromJS**(`data`): [`SerpYahooOrganicLiveRegularResultInfo`](SerpYahooOrganicLiveRegularResultInfo.md)
 
-Defined in: main.ts:77154
+Defined in: main.ts:77190
 
 #### Parameters
 

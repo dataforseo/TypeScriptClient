@@ -6,7 +6,7 @@
 
 # Class: CarouselDataforseoLabsSerpElementItem
 
-Defined in: main.ts:106737
+Defined in: main.ts:106869
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:106737
 
 > **new CarouselDataforseoLabsSerpElementItem**(`data`?): [`CarouselDataforseoLabsSerpElementItem`](CarouselDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:106745
+Defined in: main.ts:106877
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **items**: [`CarouselElement`](CarouselElement.md)[]
 
-Defined in: main.ts:106741
+Defined in: main.ts:106873
 
 contains results featured in the ‘hotels_pack’ element of SERP
 
@@ -132,7 +132,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:106739
+Defined in: main.ts:106871
 
 title of the result in SERP
 
@@ -182,7 +182,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:106750
+Defined in: main.ts:106882
 
 #### Parameters
 
@@ -204,7 +204,7 @@ Defined in: main.ts:106750
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:106773
+Defined in: main.ts:106905
 
 #### Parameters
 
@@ -226,7 +226,7 @@ Defined in: main.ts:106773
 
 > `static` **fromJS**(`data`): [`CarouselDataforseoLabsSerpElementItem`](CarouselDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:106766
+Defined in: main.ts:106898
 
 #### Parameters
 

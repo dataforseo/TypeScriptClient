@@ -6,7 +6,7 @@
 
 # Interface: IRelatedSearchesMerchantSerpElementItem
 
-Defined in: main.ts:186864
+Defined in: main.ts:187226
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:186864
 
 > `optional` **items**: `string`[]
 
-Defined in: main.ts:186869
+Defined in: main.ts:187231
 
 additional items present in the element
 if there are none, equals null
@@ -93,6 +93,6 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:186866
+Defined in: main.ts:187228
 
 XPath of the element

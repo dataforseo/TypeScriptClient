@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleProductSpecTasksReadyTaskInfo
 
-Defined in: main.ts:189202
+Defined in: main.ts:189592
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:189202
 
 > **new MerchantGoogleProductSpecTasksReadyTaskInfo**(`data`?): [`MerchantGoogleProductSpecTasksReadyTaskInfo`](MerchantGoogleProductSpecTasksReadyTaskInfo.md)
 
-Defined in: main.ts:189208
+Defined in: main.ts:189598
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`MerchantGoogleProductSpecTasksReadyResultInfo`](MerchantGoogleProductSpecTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:189204
+Defined in: main.ts:189594
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:189212
+Defined in: main.ts:189602
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:189212
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:189234
+Defined in: main.ts:189624
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:189234
 
 > `static` **fromJS**(`data`): [`MerchantGoogleProductSpecTasksReadyTaskInfo`](MerchantGoogleProductSpecTasksReadyTaskInfo.md)
 
-Defined in: main.ts:189227
+Defined in: main.ts:189617
 
 #### Parameters
 

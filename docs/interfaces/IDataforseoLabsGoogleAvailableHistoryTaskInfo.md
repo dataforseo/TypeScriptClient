@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleAvailableHistoryTaskInfo
 
-Defined in: main.ts:91926
+Defined in: main.ts:91962
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleAvailableHistoryResultInfo`](../classes/DataforseoLabsGoogleAvailableHistoryResultInfo.md)[]
 
-Defined in: main.ts:91928
+Defined in: main.ts:91964
 
 array of objects containing results
 

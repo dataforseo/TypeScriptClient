@@ -6,7 +6,7 @@
 
 # Class: SerpYahooLocationsTaskInfo
 
-Defined in: main.ts:74696
+Defined in: main.ts:74732
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:74696
 
 > **new SerpYahooLocationsTaskInfo**(`data`?): [`SerpYahooLocationsTaskInfo`](SerpYahooLocationsTaskInfo.md)
 
-Defined in: main.ts:74702
+Defined in: main.ts:74738
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpYahooLocationsResultInfo`](SerpYahooLocationsResultInfo.md)[]
 
-Defined in: main.ts:74698
+Defined in: main.ts:74734
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:74706
+Defined in: main.ts:74742
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:74706
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:74728
+Defined in: main.ts:74764
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:74728
 
 > `static` **fromJS**(`data`): [`SerpYahooLocationsTaskInfo`](SerpYahooLocationsTaskInfo.md)
 
-Defined in: main.ts:74721
+Defined in: main.ts:74757
 
 #### Parameters
 

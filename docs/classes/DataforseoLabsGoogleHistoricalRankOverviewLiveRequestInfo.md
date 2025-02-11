@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
 
-Defined in: main.ts:109382
+Defined in: main.ts:109438
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:109382
 
 > **new DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo`](DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md)
 
-Defined in: main.ts:109462
+Defined in: main.ts:109518
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:109462
 
 > `optional` **correlate**: `boolean`
 
-Defined in: main.ts:109439
+Defined in: main.ts:109495
 
 correlate data with previously obtained datasets
 optional field
@@ -59,7 +59,7 @@ we recommend always setting correlate to true
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:109425
+Defined in: main.ts:109481
 
 starting date of the time range
 optional field
@@ -77,7 +77,7 @@ date format: "yyyy-mm-dd"
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:109432
+Defined in: main.ts:109488
 
 ending date of the time range
 optional field
@@ -96,7 +96,7 @@ example:
 
 > `optional` **ignore\_synonyms**: `boolean`
 
-Defined in: main.ts:109444
+Defined in: main.ts:109500
 
 ignore highly similar keywords
 optional field
@@ -113,7 +113,7 @@ default value: false
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
-Defined in: main.ts:109452
+Defined in: main.ts:109508
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -133,7 +133,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:109419
+Defined in: main.ts:109475
 
 language code
 required field if you don’t specify language_name
@@ -153,7 +153,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:109411
+Defined in: main.ts:109467
 
 full name of the language
 required field if you don’t specify language_code
@@ -173,7 +173,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:109403
+Defined in: main.ts:109459
 
 location code
 required field if you don’t specify location_name
@@ -193,7 +193,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:109395
+Defined in: main.ts:109451
 
 full name of the location
 required field if you don’t specify location_code
@@ -213,7 +213,7 @@ United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:109458
+Defined in: main.ts:109514
 
 user-defined task identifier
 optional field
@@ -231,7 +231,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:109387
+Defined in: main.ts:109443
 
 domain
 required field
@@ -248,7 +248,7 @@ the domain should be specified without https:// and www.
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:109471
+Defined in: main.ts:109527
 
 #### Parameters
 
@@ -266,7 +266,7 @@ Defined in: main.ts:109471
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:109498
+Defined in: main.ts:109554
 
 #### Parameters
 
@@ -284,7 +284,7 @@ Defined in: main.ts:109498
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo`](DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md)
 
-Defined in: main.ts:109491
+Defined in: main.ts:109547
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IAppDataTasksReadyTaskInfo
 
-Defined in: main.ts:199962
+Defined in: main.ts:200464
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`AppDataTasksReadyResultInfo`](../classes/AppDataTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:199964
+Defined in: main.ts:200466
 
 array of results
 

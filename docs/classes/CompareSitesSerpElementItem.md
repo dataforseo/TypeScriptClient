@@ -6,7 +6,7 @@
 
 # Class: CompareSitesSerpElementItem
 
-Defined in: main.ts:37813
+Defined in: main.ts:37829
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:37813
 
 > **new CompareSitesSerpElementItem**(`data`?): [`CompareSitesSerpElementItem`](CompareSitesSerpElementItem.md)
 
-Defined in: main.ts:37825
+Defined in: main.ts:37841
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`CompareSitesElement`](CompareSitesElement.md)[]
 
-Defined in: main.ts:37817
+Defined in: main.ts:37833
 
 contains arrays of specific images
 
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:37821
+Defined in: main.ts:37837
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -149,7 +149,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:37815
+Defined in: main.ts:37831
 
 title of the row
 
@@ -199,7 +199,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:37830
+Defined in: main.ts:37846
 
 #### Parameters
 
@@ -221,7 +221,7 @@ Defined in: main.ts:37830
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:37854
+Defined in: main.ts:37870
 
 #### Parameters
 
@@ -243,7 +243,7 @@ Defined in: main.ts:37854
 
 > `static` **fromJS**(`data`): [`CompareSitesSerpElementItem`](CompareSitesSerpElementItem.md)
 
-Defined in: main.ts:37847
+Defined in: main.ts:37863
 
 #### Parameters
 

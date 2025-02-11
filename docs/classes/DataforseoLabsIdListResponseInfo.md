@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsIdListResponseInfo
 
-Defined in: main.ts:90215
+Defined in: main.ts:90251
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:90215
 
 > **new DataforseoLabsIdListResponseInfo**(`data`?): [`DataforseoLabsIdListResponseInfo`](DataforseoLabsIdListResponseInfo.md)
 
-Defined in: main.ts:90221
+Defined in: main.ts:90257
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsIdListTaskInfo`](DataforseoLabsIdListTaskInfo.md)[]
 
-Defined in: main.ts:90217
+Defined in: main.ts:90253
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:90225
+Defined in: main.ts:90261
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:90225
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:90247
+Defined in: main.ts:90283
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:90247
 
 > `static` **fromJS**(`data`): [`DataforseoLabsIdListResponseInfo`](DataforseoLabsIdListResponseInfo.md)
 
-Defined in: main.ts:90240
+Defined in: main.ts:90276
 
 #### Parameters
 

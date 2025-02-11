@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationGrammarRulesTaskInfo
 
-Defined in: main.ts:183372
+Defined in: main.ts:183734
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:183372
 
 > **new ContentGenerationGrammarRulesTaskInfo**(`data`?): [`ContentGenerationGrammarRulesTaskInfo`](ContentGenerationGrammarRulesTaskInfo.md)
 
-Defined in: main.ts:183378
+Defined in: main.ts:183740
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`ContentGenerationGrammarRulesResultInfo`](ContentGenerationGrammarRulesResultInfo.md)[]
 
-Defined in: main.ts:183374
+Defined in: main.ts:183736
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:183382
+Defined in: main.ts:183744
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:183382
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:183404
+Defined in: main.ts:183766
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:183404
 
 > `static` **fromJS**(`data`): [`ContentGenerationGrammarRulesTaskInfo`](ContentGenerationGrammarRulesTaskInfo.md)
 
-Defined in: main.ts:183397
+Defined in: main.ts:183759
 
 #### Parameters
 

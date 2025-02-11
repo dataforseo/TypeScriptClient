@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleAdsLanguagesTaskInfo
 
-Defined in: main.ts:126610
+Defined in: main.ts:126726
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:126610
 
 > **new KeywordsDataGoogleAdsLanguagesTaskInfo**(`data`?): [`KeywordsDataGoogleAdsLanguagesTaskInfo`](KeywordsDataGoogleAdsLanguagesTaskInfo.md)
 
-Defined in: main.ts:126616
+Defined in: main.ts:126732
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataGoogleAdsLanguagesResultInfo`](KeywordsDataGoogleAdsLanguagesResultInfo.md)[]
 
-Defined in: main.ts:126612
+Defined in: main.ts:126728
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:126620
+Defined in: main.ts:126736
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:126620
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:126642
+Defined in: main.ts:126758
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:126642
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleAdsLanguagesTaskInfo`](KeywordsDataGoogleAdsLanguagesTaskInfo.md)
 
-Defined in: main.ts:126635
+Defined in: main.ts:126751
 
 #### Parameters
 

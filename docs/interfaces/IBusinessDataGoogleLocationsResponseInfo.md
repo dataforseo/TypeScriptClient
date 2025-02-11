@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleLocationsResponseInfo
 
-Defined in: main.ts:212623
+Defined in: main.ts:213125
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BusinessDataGoogleLocationsTaskInfo`](../classes/BusinessDataGoogleLocationsTaskInfo.md)[]
 
-Defined in: main.ts:212625
+Defined in: main.ts:213127
 
 array of tasks
 

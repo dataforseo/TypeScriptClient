@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleKeywordIdeasLiveResponseInfo
 
-Defined in: main.ts:95409
+Defined in: main.ts:95435
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:95409
 
 > **new DataforseoLabsGoogleKeywordIdeasLiveResponseInfo**(`data`?): [`DataforseoLabsGoogleKeywordIdeasLiveResponseInfo`](DataforseoLabsGoogleKeywordIdeasLiveResponseInfo.md)
 
-Defined in: main.ts:95415
+Defined in: main.ts:95441
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsGoogleKeywordIdeasLiveTaskInfo`](DataforseoLabsGoogleKeywordIdeasLiveTaskInfo.md)[]
 
-Defined in: main.ts:95411
+Defined in: main.ts:95437
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:95419
+Defined in: main.ts:95445
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:95419
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:95441
+Defined in: main.ts:95467
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:95441
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleKeywordIdeasLiveResponseInfo`](DataforseoLabsGoogleKeywordIdeasLiveResponseInfo.md)
 
-Defined in: main.ts:95434
+Defined in: main.ts:95460
 
 #### Parameters
 

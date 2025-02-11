@@ -6,7 +6,7 @@
 
 # Interface: IContentGenerationTextSummaryLiveTaskInfo
 
-Defined in: main.ts:183780
+Defined in: main.ts:184142
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`ContentGenerationTextSummaryLiveResultInfo`](../classes/ContentGenerationTextSummaryLiveResultInfo.md)[]
 
-Defined in: main.ts:183782
+Defined in: main.ts:184144
 
 array of results
 

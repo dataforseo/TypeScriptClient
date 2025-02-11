@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingAudienceEstimationJobFunctionsResultInfo
 
-Defined in: main.ts:139933
+Defined in: main.ts:140097
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:139933
 
 > `optional` **job\_function\_id**: `number`
 
-Defined in: main.ts:139935
+Defined in: main.ts:140099
 
 ID of the job function
 
@@ -28,6 +28,6 @@ ID of the job function
 
 > `optional` **job\_function\_name**: `string`
 
-Defined in: main.ts:139937
+Defined in: main.ts:140101
 
 name of the job function

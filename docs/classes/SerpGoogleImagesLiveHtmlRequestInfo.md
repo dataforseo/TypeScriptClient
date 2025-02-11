@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleImagesLiveHtmlRequestInfo
 
-Defined in: main.ts:52050
+Defined in: main.ts:52066
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:52050
 
 > **new SerpGoogleImagesLiveHtmlRequestInfo**(`data`?): [`SerpGoogleImagesLiveHtmlRequestInfo`](SerpGoogleImagesLiveHtmlRequestInfo.md)
 
-Defined in: main.ts:52147
+Defined in: main.ts:52163
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:52147
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:52126
+Defined in: main.ts:52142
 
 parsing depth
 optional field
@@ -61,7 +61,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:52066
+Defined in: main.ts:52082
 
 keyword
 required field
@@ -69,7 +69,7 @@ you can specify up to 700 characters in the keyword field
 all %## will be decoded (plus character ‘+’ will be decoded to a space character)
 if you need to use the “%” character for your keyword, please specify it as “%25”;
 if you need to use the “+” character for your keyword, please specify it as “%2B”;
-if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’, ‘-site:’, the charge per task will be multiplied by 5
+if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’, the charge per task will be multiplied by 5
 Note: queries containing the ‘cache:’ parameter are not supported and will return a validation error
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
@@ -83,7 +83,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:52104
+Defined in: main.ts:52120
 
 search engine language code
 required field if you don’t specify language_name
@@ -102,7 +102,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:52097
+Defined in: main.ts:52113
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -121,7 +121,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:52080
+Defined in: main.ts:52096
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -140,7 +140,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:52090
+Defined in: main.ts:52106
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -162,7 +162,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:52073
+Defined in: main.ts:52089
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -181,7 +181,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:52133
+Defined in: main.ts:52149
 
 page crawl limit
 optional field
@@ -200,7 +200,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:52110
+Defined in: main.ts:52126
 
 device operating system
 optional field
@@ -218,7 +218,7 @@ default value: windows
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:52117
+Defined in: main.ts:52133
 
 search engine domain
 optional field
@@ -237,7 +237,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:52137
+Defined in: main.ts:52153
 
 additional parameters of the search query
 optional field
@@ -253,7 +253,7 @@ get the list of available parameters and additional details here
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:52143
+Defined in: main.ts:52159
 
 user-defined task identifier
 optional field
@@ -271,7 +271,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:52056
+Defined in: main.ts:52072
 
 direct URL of the search query
 optional field
@@ -289,7 +289,7 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:52156
+Defined in: main.ts:52172
 
 #### Parameters
 
@@ -307,7 +307,7 @@ Defined in: main.ts:52156
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:52185
+Defined in: main.ts:52201
 
 #### Parameters
 
@@ -325,7 +325,7 @@ Defined in: main.ts:52185
 
 > `static` **fromJS**(`data`): [`SerpGoogleImagesLiveHtmlRequestInfo`](SerpGoogleImagesLiveHtmlRequestInfo.md)
 
-Defined in: main.ts:52178
+Defined in: main.ts:52194
 
 #### Parameters
 

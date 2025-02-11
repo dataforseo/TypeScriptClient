@@ -6,7 +6,7 @@
 
 # Interface: ISerpYahooLocationsResponseInfo
 
-Defined in: main.ts:74799
+Defined in: main.ts:74835
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpYahooLocationsTaskInfo`](../classes/SerpYahooLocationsTaskInfo.md)[]
 
-Defined in: main.ts:74801
+Defined in: main.ts:74837
 
 array of tasks
 

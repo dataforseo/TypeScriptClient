@@ -6,7 +6,7 @@
 
 # Class: VideoElement
 
-Defined in: main.ts:33133
+Defined in: main.ts:33141
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:33133
 
 > **new VideoElement**(`data`?): [`VideoElement`](VideoElement.md)
 
-Defined in: main.ts:33151
+Defined in: main.ts:33159
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:33151
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:33138
+Defined in: main.ts:33146
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -55,7 +55,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:33145
+Defined in: main.ts:33153
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:33140
+Defined in: main.ts:33148
 
 title of a given link element
 
@@ -86,7 +86,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:33135
+Defined in: main.ts:33143
 
 type of element
 
@@ -100,7 +100,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:33147
+Defined in: main.ts:33155
 
 URL
 
@@ -114,7 +114,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:33160
+Defined in: main.ts:33168
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:33160
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:33181
+Defined in: main.ts:33189
 
 #### Parameters
 
@@ -150,7 +150,7 @@ Defined in: main.ts:33181
 
 > `static` **fromJS**(`data`): [`VideoElement`](VideoElement.md)
 
-Defined in: main.ts:33174
+Defined in: main.ts:33182
 
 #### Parameters
 

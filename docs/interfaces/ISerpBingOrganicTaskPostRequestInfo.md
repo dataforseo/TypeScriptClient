@@ -6,7 +6,7 @@
 
 # Interface: ISerpBingOrganicTaskPostRequestInfo
 
-Defined in: main.ts:63594
+Defined in: main.ts:63623
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:63594
 
 > `optional` **browser\_screen\_height**: `number`
 
-Defined in: main.ts:63705
+Defined in: main.ts:63735
 
 browser screen height
 optional field
@@ -35,7 +35,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **browser\_screen\_resolution\_ratio**: `number`
 
-Defined in: main.ts:63714
+Defined in: main.ts:63744
 
 browser screen resolution ratio
 optional field
@@ -52,7 +52,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **browser\_screen\_width**: `number`
 
-Defined in: main.ts:63696
+Defined in: main.ts:63726
 
 browser screen width
 optional field
@@ -69,7 +69,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **calculate\_rectangles**: `boolean`
 
-Defined in: main.ts:63687
+Defined in: main.ts:63717
 
 calcualte pixel rankings for SERP elements in advanced results
 optional field
@@ -84,7 +84,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:63673
+Defined in: main.ts:63703
 
 parsing depth
 optional field
@@ -101,7 +101,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:63657
+Defined in: main.ts:63687
 
 device type
 optional field
@@ -114,7 +114,7 @@ default value: desktop
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:63608
+Defined in: main.ts:63638
 
 keyword
 required field
@@ -122,6 +122,7 @@ you can specify up to 700 characters in the keyword field
 all %## will be decoded (plus character ‘+’ will be decoded to a space character)
 if you need to use the “%” character for your keyword, please specify it as “%25”;
 if you need to use the “+” character for your keyword, please specify it as “%2B”
+if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’ the charge per task will be multiplied by 5
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 ***
@@ -130,7 +131,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:63652
+Defined in: main.ts:63682
 
 search engine language code
 required field if you don’t specify language_name
@@ -145,7 +146,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:63645
+Defined in: main.ts:63675
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -160,7 +161,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:63630
+Defined in: main.ts:63660
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -175,7 +176,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:63638
+Defined in: main.ts:63668
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -191,7 +192,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:63623
+Defined in: main.ts:63653
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -206,7 +207,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:63680
+Defined in: main.ts:63710
 
 page crawl limit
 optional field
@@ -221,7 +222,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:63664
+Defined in: main.ts:63694
 
 device operating system
 optional field
@@ -236,7 +237,7 @@ default value: android
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:63752
+Defined in: main.ts:63782
 
 notification URL of a completed task
 optional field
@@ -255,7 +256,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:63741
+Defined in: main.ts:63771
 
 postback_url datatype
 required field if you specify postback_url
@@ -269,7 +270,7 @@ regular, advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:63735
+Defined in: main.ts:63765
 
 return URL for sending task results
 optional field
@@ -288,7 +289,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:63616
+Defined in: main.ts:63646
 
 task priority
 optional field
@@ -304,7 +305,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:63718
+Defined in: main.ts:63748
 
 additional parameters of the search query
 optional field
@@ -316,7 +317,7 @@ get the list of available parameters and additional details here
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:63724
+Defined in: main.ts:63754
 
 user-defined task identifier
 optional field
@@ -330,7 +331,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:63600
+Defined in: main.ts:63629
 
 direct URL of the search query
 optional field

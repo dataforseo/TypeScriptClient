@@ -6,7 +6,7 @@
 
 # Interface: IAppDataAppleAppListingsSearchLiveResponseInfo
 
-Defined in: main.ts:209371
+Defined in: main.ts:209873
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataAppleAppListingsSearchLiveTaskInfo`](../classes/AppDataAppleAppListingsSearchLiveTaskInfo.md)[]
 
-Defined in: main.ts:209373
+Defined in: main.ts:209875
 
 array of tasks
 

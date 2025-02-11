@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleAdsSearchTaskPostRequestInfo
 
-Defined in: main.ts:61901
+Defined in: main.ts:61926
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:61901
 
 > `optional` **advertiser\_ids**: `string`[]
 
-Defined in: main.ts:61910
+Defined in: main.ts:61935
 
 advertiser identifiers
 required field if target is not specified
@@ -31,7 +31,7 @@ advertiser_ids values for this parameter can be found in the Google Ads Advertis
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:61948
+Defined in: main.ts:61976
 
 starting date of the time range
 optional field
@@ -48,7 +48,7 @@ example:
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:61957
+Defined in: main.ts:61985
 
 ending date of the time range
 optional field
@@ -65,7 +65,7 @@ example:
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:61966
+Defined in: main.ts:61994
 
 parsing depth
 optional field
@@ -82,7 +82,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **format**: `string`
 
-Defined in: main.ts:61939
+Defined in: main.ts:61967
 
 ad format
 optional field
@@ -94,14 +94,15 @@ possible values: all, text, image, video
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:61924
+Defined in: main.ts:61951
 
 search engine location code
-required field if you don’t specify location_name or location_coordinate
+optional field
 if you use this field, you don’t need to specify location_name or location_coordinate
 you can receive the list of available locations of the search engines with their location_code by making a separate request to the https://api.dataforseo.com/v3/serp/google/ads_search/locations
 example:
 2840
+Note: if you don’t specify location_name, location_code, or location_coordinate, the ads will be searched across all the available locations
 
 ***
 
@@ -109,13 +110,14 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:61930
+Defined in: main.ts:61958
 
 GPS coordinates of a location
-required field if you don’t specify location_name or location_code
+optional field
 if you use this field, you don’t need to specify location_name or location_code
 example:
 52.6178549,-155.352142
+Note: if you don’t specify location_name, location_code, or location_coordinate, the ads will be searched across all the available locations
 
 ***
 
@@ -123,14 +125,15 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:61917
+Defined in: main.ts:61943
 
 full name of search engine location
-required field if you don’t specify location_code or location_coordinate
+optional field
 if you use this field, you don’t need to specify location_code or location_coordinate
 you can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/serp/google/ads_search/locations
 example:
 London,England,United Kingdom
+Note: if you don’t specify location_name, location_code, or location_coordinate, the ads will be searched across all the available locations
 
 ***
 
@@ -138,7 +141,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:62008
+Defined in: main.ts:62036
 
 notification URL of a completed task
 optional field
@@ -157,11 +160,11 @@ learn more on our Help Center
 
 > `optional` **platform**: `string`
 
-Defined in: main.ts:61935
+Defined in: main.ts:61963
 
 advertising platform
 optional field
-possible values: all, google_pay, google_maps, google_search, google_shopping, youtube
+possible values: all, google_play, google_maps, google_search, google_shopping, youtube
 default value: all
 
 ***
@@ -170,7 +173,7 @@ default value: all
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:61997
+Defined in: main.ts:62025
 
 postback_url datatype
 required field if you specify postback_url
@@ -184,7 +187,7 @@ advanced
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:61991
+Defined in: main.ts:62019
 
 return URL for sending task results
 optional field
@@ -203,7 +206,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:61974
+Defined in: main.ts:62002
 
 task priority
 optional field
@@ -219,7 +222,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:61980
+Defined in: main.ts:62008
 
 user-defined task identifier
 optional field
@@ -233,7 +236,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:61905
+Defined in: main.ts:61930
 
 domain name
 required field if advertiser_ids is not specified

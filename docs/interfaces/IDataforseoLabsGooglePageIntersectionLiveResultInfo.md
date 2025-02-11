@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGooglePageIntersectionLiveResultInfo
 
-Defined in: main.ts:110495
+Defined in: main.ts:110551
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:110495
 
 > `optional` **exclude\_pages**: `string`[]
 
-Defined in: main.ts:110501
+Defined in: main.ts:110557
 
 URLs you specified in a POST array that will be excluded from the results
 
@@ -28,7 +28,7 @@ URLs you specified in a POST array that will be excluded from the results
 
 > `optional` **items**: [`DataforseoLabsPageIntersectionLiveItem`](../classes/DataforseoLabsPageIntersectionLiveItem.md)[]
 
-Defined in: main.ts:110511
+Defined in: main.ts:110567
 
 contains keywords, relevant SERP elements and related data
 
@@ -38,7 +38,7 @@ contains keywords, relevant SERP elements and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:110509
+Defined in: main.ts:110565
 
 the number of results returned in the items array
 
@@ -48,7 +48,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:110505
+Defined in: main.ts:110561
 
 language code in a POST array
 
@@ -58,7 +58,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:110503
+Defined in: main.ts:110559
 
 location code in a POST array
 
@@ -68,7 +68,7 @@ location code in a POST array
 
 > `optional` **pages**: `object`
 
-Defined in: main.ts:110499
+Defined in: main.ts:110555
 
 URLs you specified a POST array
 
@@ -82,7 +82,7 @@ URLs you specified a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:110497
+Defined in: main.ts:110553
 
 search engine type
 
@@ -92,6 +92,6 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:110507
+Defined in: main.ts:110563
 
 total amount of results in our database relevant to your request

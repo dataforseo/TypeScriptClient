@@ -6,7 +6,7 @@
 
 # Interface: IAppDataAppleAppSearchesTaskPostRequestInfo
 
-Defined in: main.ts:205417
+Defined in: main.ts:205919
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:205417
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:205471
+Defined in: main.ts:205973
 
 parsing depth
 optional field
@@ -36,7 +36,7 @@ maximum value: 700
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:205425
+Defined in: main.ts:205927
 
 keyword
 required field
@@ -52,7 +52,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:205453
+Defined in: main.ts:205955
 
 search engine language code
 required field if language_name is not specified
@@ -67,7 +67,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:205446
+Defined in: main.ts:205948
 
 full name of search engine language
 required field if language_code is not specified
@@ -82,7 +82,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:205439
+Defined in: main.ts:205941
 
 search engine location code
 required field if you don’t specify location_name
@@ -97,7 +97,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:205432
+Defined in: main.ts:205934
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -112,7 +112,7 @@ West Los Angeles,California,United States
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:205505
+Defined in: main.ts:206007
 
 notification URL of a completed task
 optional field
@@ -131,7 +131,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:205494
+Defined in: main.ts:205996
 
 postback_url datatype
 required field if you specify postback_url
@@ -145,7 +145,7 @@ advanced
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:205488
+Defined in: main.ts:205990
 
 return URL for sending task results
 optional field
@@ -164,7 +164,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:205461
+Defined in: main.ts:205963
 
 task priority
 optional field
@@ -180,7 +180,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:205477
+Defined in: main.ts:205979
 
 user-defined task identifier
 optional field

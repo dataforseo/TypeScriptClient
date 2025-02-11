@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleAutocompleteTaskPostTaskInfo
 
-Defined in: main.ts:55428
+Defined in: main.ts:55444
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:55428
 
 > **new SerpGoogleAutocompleteTaskPostTaskInfo**(`data`?): [`SerpGoogleAutocompleteTaskPostTaskInfo`](SerpGoogleAutocompleteTaskPostTaskInfo.md)
 
-Defined in: main.ts:55435
+Defined in: main.ts:55451
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:55431
+Defined in: main.ts:55447
 
 array of results
 in this case, the value will be null
@@ -215,7 +215,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:55439
+Defined in: main.ts:55455
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:55439
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:55457
+Defined in: main.ts:55473
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:55457
 
 > `static` **fromJS**(`data`): [`SerpGoogleAutocompleteTaskPostTaskInfo`](SerpGoogleAutocompleteTaskPostTaskInfo.md)
 
-Defined in: main.ts:55450
+Defined in: main.ts:55466
 
 #### Parameters
 

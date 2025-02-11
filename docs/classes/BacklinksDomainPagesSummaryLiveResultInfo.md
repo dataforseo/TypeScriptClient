@@ -6,7 +6,7 @@
 
 # Class: BacklinksDomainPagesSummaryLiveResultInfo
 
-Defined in: main.ts:155078
+Defined in: main.ts:155242
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:155078
 
 > **new BacklinksDomainPagesSummaryLiveResultInfo**(`data`?): [`BacklinksDomainPagesSummaryLiveResultInfo`](BacklinksDomainPagesSummaryLiveResultInfo.md)
 
-Defined in: main.ts:155090
+Defined in: main.ts:155254
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:155090
 
 > `optional` **items**: [`BacklinksDomainPagesSummaryLiveItem`](BacklinksDomainPagesSummaryLiveItem.md)[]
 
-Defined in: main.ts:155086
+Defined in: main.ts:155250
 
 items array
 
@@ -54,7 +54,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:155084
+Defined in: main.ts:155248
 
 number of items in the results array
 
@@ -68,7 +68,7 @@ number of items in the results array
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:155080
+Defined in: main.ts:155244
 
 target in the post array
 
@@ -82,7 +82,7 @@ target in the post array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:155082
+Defined in: main.ts:155246
 
 total number of relevant items in the database
 
@@ -96,7 +96,7 @@ total number of relevant items in the database
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:155099
+Defined in: main.ts:155263
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: main.ts:155099
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:155123
+Defined in: main.ts:155287
 
 #### Parameters
 
@@ -132,7 +132,7 @@ Defined in: main.ts:155123
 
 > `static` **fromJS**(`data`): [`BacklinksDomainPagesSummaryLiveResultInfo`](BacklinksDomainPagesSummaryLiveResultInfo.md)
 
-Defined in: main.ts:155116
+Defined in: main.ts:155280
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IPeopleAlsoAskExpandedElement
 
-Defined in: main.ts:31845
+Defined in: main.ts:31852
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:31845
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:31857
+Defined in: main.ts:31864
 
 description of the results element in SERP
 
@@ -28,7 +28,7 @@ description of the results element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:31853
+Defined in: main.ts:31860
 
 domain where a link points
 
@@ -38,7 +38,7 @@ domain where a link points
 
 > `optional` **featured\_title**: `string`
 
-Defined in: main.ts:31849
+Defined in: main.ts:31856
 
 the title of the featured snippets source page
 
@@ -48,7 +48,7 @@ the title of the featured snippets source page
 
 > `optional` **images**: [`ImagesElement`](../classes/ImagesElement.md)[]
 
-Defined in: main.ts:31859
+Defined in: main.ts:31866
 
 images of the element
 
@@ -58,9 +58,10 @@ images of the element
 
 > `optional` **table**: [`Table`](../classes/Table.md)
 
-Defined in: main.ts:31866
+Defined in: main.ts:31874
 
-table element
+results table
+if there are none, equals null
 
 ***
 
@@ -68,7 +69,7 @@ table element
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:31864
+Defined in: main.ts:31871
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -81,7 +82,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:31855
+Defined in: main.ts:31862
 
 title of the carousel item
 
@@ -91,7 +92,7 @@ title of the carousel item
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:31847
+Defined in: main.ts:31854
 
 type of element
 
@@ -101,6 +102,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:31851
+Defined in: main.ts:31858
 
 URL of element

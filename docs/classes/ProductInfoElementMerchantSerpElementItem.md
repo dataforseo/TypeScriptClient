@@ -6,7 +6,7 @@
 
 # Class: ProductInfoElementMerchantSerpElementItem
 
-Defined in: main.ts:190600
+Defined in: main.ts:191006
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:190600
 
 > **new ProductInfoElementMerchantSerpElementItem**(`data`?): [`ProductInfoElementMerchantSerpElementItem`](ProductInfoElementMerchantSerpElementItem.md)
 
-Defined in: main.ts:190632
+Defined in: main.ts:191038
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21722
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:190607
+Defined in: main.ts:191013
 
 description of the product
 
@@ -74,7 +74,7 @@ description of the product
 
 > `optional` **features**: `string`[]
 
-Defined in: main.ts:190616
+Defined in: main.ts:191022
 
 product features
 contains snippets with the description of product features
@@ -89,7 +89,7 @@ contains snippets with the description of product features
 
 > `optional` **images**: `string`[]
 
-Defined in: main.ts:190613
+Defined in: main.ts:191019
 
 product images
 contains urls to product images
@@ -124,7 +124,7 @@ left, right
 
 > `optional` **product\_id**: `string`
 
-Defined in: main.ts:190603
+Defined in: main.ts:191009
 
 product_id received in a POST array
 ilearn more about the parameter in this help center guide
@@ -177,7 +177,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingElement`](RatingElement.md)
 
-Defined in: main.ts:190619
+Defined in: main.ts:191025
 
 product rating 
 the popularity rate based on reviews
@@ -192,7 +192,7 @@ the popularity rate based on reviews
 
 > `optional` **seller\_reviews\_count**: `number`
 
-Defined in: main.ts:190622
+Defined in: main.ts:191028
 
 number of seller reviews
 number of reviews on the product seller’s account
@@ -207,7 +207,7 @@ number of reviews on the product seller’s account
 
 > `optional` **sellers**: [`ProductSeller`](ProductSeller.md)[]
 
-Defined in: main.ts:190625
+Defined in: main.ts:191031
 
 sellers of the product
 number of reviews on the product seller’s account
@@ -222,7 +222,7 @@ number of reviews on the product seller’s account
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:190605
+Defined in: main.ts:191011
 
 title of the product
 
@@ -254,7 +254,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:190610
+Defined in: main.ts:191016
 
 product url
 url of the product on Google Shopping
@@ -269,7 +269,7 @@ url of the product on Google Shopping
 
 > `optional` **variations**: [`ProductVariation`](ProductVariation.md)[]
 
-Defined in: main.ts:190628
+Defined in: main.ts:191034
 
 variations of the product
 contains brief information about different product variations
@@ -284,7 +284,7 @@ contains brief information about different product variations
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:190637
+Defined in: main.ts:191043
 
 #### Parameters
 
@@ -306,7 +306,7 @@ Defined in: main.ts:190637
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:190680
+Defined in: main.ts:191086
 
 #### Parameters
 
@@ -328,7 +328,7 @@ Defined in: main.ts:190680
 
 > `static` **fromJS**(`data`): [`ProductInfoElementMerchantSerpElementItem`](ProductInfoElementMerchantSerpElementItem.md)
 
-Defined in: main.ts:190673
+Defined in: main.ts:191079
 
 #### Parameters
 

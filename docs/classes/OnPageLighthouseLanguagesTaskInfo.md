@@ -6,7 +6,7 @@
 
 # Class: OnPageLighthouseLanguagesTaskInfo
 
-Defined in: main.ts:174914
+Defined in: main.ts:175278
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:174914
 
 > **new OnPageLighthouseLanguagesTaskInfo**(`data`?): [`OnPageLighthouseLanguagesTaskInfo`](OnPageLighthouseLanguagesTaskInfo.md)
 
-Defined in: main.ts:174920
+Defined in: main.ts:175284
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`OnPageLighthouseLanguagesResultInfo`](OnPageLighthouseLanguagesResultInfo.md)[]
 
-Defined in: main.ts:174916
+Defined in: main.ts:175280
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:174924
+Defined in: main.ts:175288
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:174924
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:174946
+Defined in: main.ts:175310
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:174946
 
 > `static` **fromJS**(`data`): [`OnPageLighthouseLanguagesTaskInfo`](OnPageLighthouseLanguagesTaskInfo.md)
 
-Defined in: main.ts:174939
+Defined in: main.ts:175303
 
 #### Parameters
 

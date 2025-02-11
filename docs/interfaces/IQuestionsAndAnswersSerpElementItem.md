@@ -6,7 +6,7 @@
 
 # Interface: IQuestionsAndAnswersSerpElementItem
 
-Defined in: main.ts:35482
+Defined in: main.ts:35498
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:35482
 
 > `optional` **items**: [`QuestionsAndAnswersElement`](../classes/QuestionsAndAnswersElement.md)[]
 
-Defined in: main.ts:35484
+Defined in: main.ts:35500
 
 contains arrays of specific images
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:35488
+Defined in: main.ts:35504
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP

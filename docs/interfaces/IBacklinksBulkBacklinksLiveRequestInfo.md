@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksBulkBacklinksLiveRequestInfo
 
-Defined in: main.ts:160684
+Defined in: main.ts:160848
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:160684
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:160709
+Defined in: main.ts:160873
 
 user-defined task identifier
 optional field
@@ -32,7 +32,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **targets**: `string`[]
 
-Defined in: main.ts:160703
+Defined in: main.ts:160867
 
 domains, subdomains or webpages to get the number of backlinks for
 required field

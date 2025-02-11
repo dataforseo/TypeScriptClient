@@ -6,7 +6,7 @@
 
 # Class: AppDataErrorsResponseInfo
 
-Defined in: main.ts:198501
+Defined in: main.ts:199003
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:198501
 
 > **new AppDataErrorsResponseInfo**(`data`?): [`AppDataErrorsResponseInfo`](AppDataErrorsResponseInfo.md)
 
-Defined in: main.ts:198507
+Defined in: main.ts:199009
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataErrorsTaskInfo`](AppDataErrorsTaskInfo.md)[]
 
-Defined in: main.ts:198503
+Defined in: main.ts:199005
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:198511
+Defined in: main.ts:199013
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:198511
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:198533
+Defined in: main.ts:199035
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:198533
 
 > `static` **fromJS**(`data`): [`AppDataErrorsResponseInfo`](AppDataErrorsResponseInfo.md)
 
-Defined in: main.ts:198526
+Defined in: main.ts:199028
 
 #### Parameters
 

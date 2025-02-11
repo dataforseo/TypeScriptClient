@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphRowItemSerpElementItem
 
-Defined in: main.ts:29917
+Defined in: main.ts:29925
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:29917
 
 > **new KnowledgeGraphRowItemSerpElementItem**(`data`?): [`KnowledgeGraphRowItemSerpElementItem`](KnowledgeGraphRowItemSerpElementItem.md)
 
-Defined in: main.ts:29936
+Defined in: main.ts:29944
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:29923
+Defined in: main.ts:29931
 
 google defined data attribute ID
 example:
@@ -76,7 +76,7 @@ kc:/common/topic:social media presence
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:29928
+Defined in: main.ts:29936
 
 links featured in the faq_box_element
 
@@ -149,7 +149,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:29932
+Defined in: main.ts:29940
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -165,7 +165,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:29926
+Defined in: main.ts:29934
 
 reference text
 text snippet from the page that was used to generate the ai_overview_element
@@ -180,7 +180,7 @@ text snippet from the page that was used to generate the ai_overview_element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:29919
+Defined in: main.ts:29927
 
 title of the item
 
@@ -230,7 +230,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:29941
+Defined in: main.ts:29949
 
 #### Parameters
 
@@ -252,7 +252,7 @@ Defined in: main.ts:29941
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:29967
+Defined in: main.ts:29975
 
 #### Parameters
 
@@ -274,7 +274,7 @@ Defined in: main.ts:29967
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphRowItemSerpElementItem`](KnowledgeGraphRowItemSerpElementItem.md)
 
-Defined in: main.ts:29960
+Defined in: main.ts:29968
 
 #### Parameters
 

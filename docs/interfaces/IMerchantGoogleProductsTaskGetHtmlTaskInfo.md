@@ -6,7 +6,7 @@
 
 # Interface: IMerchantGoogleProductsTaskGetHtmlTaskInfo
 
-Defined in: main.ts:187288
+Defined in: main.ts:187650
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`MerchantGoogleProductsTaskGetHtmlResultInfo`](../classes/MerchantGoogleProductsTaskGetHtmlResultInfo.md)[]
 
-Defined in: main.ts:187290
+Defined in: main.ts:187652
 
 array of results
 

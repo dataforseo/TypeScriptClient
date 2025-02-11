@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonProductKeywordIntersectionsLiveTaskInfo
 
-Defined in: main.ts:115178
+Defined in: main.ts:115246
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:115178
 
 > **new DataforseoLabsAmazonProductKeywordIntersectionsLiveTaskInfo**(`data`?): [`DataforseoLabsAmazonProductKeywordIntersectionsLiveTaskInfo`](DataforseoLabsAmazonProductKeywordIntersectionsLiveTaskInfo.md)
 
-Defined in: main.ts:115184
+Defined in: main.ts:115252
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo`](DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo.md)[]
 
-Defined in: main.ts:115180
+Defined in: main.ts:115248
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:115188
+Defined in: main.ts:115256
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:115188
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:115210
+Defined in: main.ts:115278
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:115210
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAmazonProductKeywordIntersectionsLiveTaskInfo`](DataforseoLabsAmazonProductKeywordIntersectionsLiveTaskInfo.md)
 
-Defined in: main.ts:115203
+Defined in: main.ts:115271
 
 #### Parameters
 

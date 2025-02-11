@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingBulkTrafficEstimationLiveTaskInfo
 
-Defined in: main.ts:115910
+Defined in: main.ts:115990
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:115910
 
 > **new DataforseoLabsBingBulkTrafficEstimationLiveTaskInfo**(`data`?): [`DataforseoLabsBingBulkTrafficEstimationLiveTaskInfo`](DataforseoLabsBingBulkTrafficEstimationLiveTaskInfo.md)
 
-Defined in: main.ts:115916
+Defined in: main.ts:115996
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsBingBulkTrafficEstimationLiveResultInfo`](DataforseoLabsBingBulkTrafficEstimationLiveResultInfo.md)[]
 
-Defined in: main.ts:115912
+Defined in: main.ts:115992
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:115920
+Defined in: main.ts:116000
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:115920
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:115942
+Defined in: main.ts:116022
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:115942
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingBulkTrafficEstimationLiveTaskInfo`](DataforseoLabsBingBulkTrafficEstimationLiveTaskInfo.md)
 
-Defined in: main.ts:115935
+Defined in: main.ts:116015
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeVideoCommentsLiveAdvancedResponseInfo
 
-Defined in: main.ts:74553
+Defined in: main.ts:74589
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:74553
 
 > **new SerpYoutubeVideoCommentsLiveAdvancedResponseInfo**(`data`?): [`SerpYoutubeVideoCommentsLiveAdvancedResponseInfo`](SerpYoutubeVideoCommentsLiveAdvancedResponseInfo.md)
 
-Defined in: main.ts:74559
+Defined in: main.ts:74595
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpYoutubeVideoCommentsLiveAdvancedTaskInfo`](SerpYoutubeVideoCommentsLiveAdvancedTaskInfo.md)[]
 
-Defined in: main.ts:74555
+Defined in: main.ts:74591
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:74563
+Defined in: main.ts:74599
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:74563
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:74585
+Defined in: main.ts:74621
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:74585
 
 > `static` **fromJS**(`data`): [`SerpYoutubeVideoCommentsLiveAdvancedResponseInfo`](SerpYoutubeVideoCommentsLiveAdvancedResponseInfo.md)
 
-Defined in: main.ts:74578
+Defined in: main.ts:74614
 
 #### Parameters
 

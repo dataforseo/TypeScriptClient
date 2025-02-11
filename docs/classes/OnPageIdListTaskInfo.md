@@ -6,7 +6,7 @@
 
 # Class: OnPageIdListTaskInfo
 
-Defined in: main.ts:163232
+Defined in: main.ts:163396
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:163232
 
 > **new OnPageIdListTaskInfo**(`data`?): [`OnPageIdListTaskInfo`](OnPageIdListTaskInfo.md)
 
-Defined in: main.ts:163238
+Defined in: main.ts:163402
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`OnPageIdListResultInfo`](OnPageIdListResultInfo.md)[]
 
-Defined in: main.ts:163234
+Defined in: main.ts:163398
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:163242
+Defined in: main.ts:163406
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:163242
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:163264
+Defined in: main.ts:163428
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:163264
 
 > `static` **fromJS**(`data`): [`OnPageIdListTaskInfo`](OnPageIdListTaskInfo.md)
 
-Defined in: main.ts:163257
+Defined in: main.ts:163421
 
 #### Parameters
 

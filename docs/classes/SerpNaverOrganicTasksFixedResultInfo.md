@@ -6,7 +6,7 @@
 
 # Class: SerpNaverOrganicTasksFixedResultInfo
 
-Defined in: main.ts:81194
+Defined in: main.ts:81230
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:81194
 
 > **new SerpNaverOrganicTasksFixedResultInfo**(`data`?): [`SerpNaverOrganicTasksFixedResultInfo`](SerpNaverOrganicTasksFixedResultInfo.md)
 
-Defined in: main.ts:81219
+Defined in: main.ts:81255
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:81219
 
 > `optional` **date\_fixed**: `string`
 
-Defined in: main.ts:81204
+Defined in: main.ts:81240
 
 date when the task was fixed (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was fixed (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:81212
+Defined in: main.ts:81248
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -69,7 +69,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:81215
+Defined in: main.ts:81251
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -84,7 +84,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:81209
+Defined in: main.ts:81245
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -99,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:81197
+Defined in: main.ts:81233
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:81199
+Defined in: main.ts:81235
 
 search engine specified when setting the task
 
@@ -128,7 +128,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:81202
+Defined in: main.ts:81238
 
 type of search engine
 can take the following values: organic
@@ -143,7 +143,7 @@ can take the following values: organic
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:81206
+Defined in: main.ts:81242
 
 user-defined task identifier
 
@@ -157,7 +157,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:81228
+Defined in: main.ts:81264
 
 #### Parameters
 
@@ -175,7 +175,7 @@ Defined in: main.ts:81228
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:81252
+Defined in: main.ts:81288
 
 #### Parameters
 
@@ -193,7 +193,7 @@ Defined in: main.ts:81252
 
 > `static` **fromJS**(`data`): [`SerpNaverOrganicTasksFixedResultInfo`](SerpNaverOrganicTasksFixedResultInfo.md)
 
-Defined in: main.ts:81245
+Defined in: main.ts:81281
 
 #### Parameters
 

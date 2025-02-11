@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo
 
-Defined in: main.ts:214657
+Defined in: main.ts:215159
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:214657
 
 > **new BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo**(`data`?): [`BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo`](BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo.md)
 
-Defined in: main.ts:214663
+Defined in: main.ts:215165
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BusinessDataGoogleMyBusinessInfoTaskGetTaskInfo`](BusinessDataGoogleMyBusinessInfoTaskGetTaskInfo.md)[]
 
-Defined in: main.ts:214659
+Defined in: main.ts:215161
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:214667
+Defined in: main.ts:215169
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:214667
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:214689
+Defined in: main.ts:215191
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:214689
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo`](BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo.md)
 
-Defined in: main.ts:214682
+Defined in: main.ts:215184
 
 #### Parameters
 

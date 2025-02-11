@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleAvailableHistoryTaskInfo
 
-Defined in: main.ts:91878
+Defined in: main.ts:91914
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:91878
 
 > **new DataforseoLabsGoogleAvailableHistoryTaskInfo**(`data`?): [`DataforseoLabsGoogleAvailableHistoryTaskInfo`](DataforseoLabsGoogleAvailableHistoryTaskInfo.md)
 
-Defined in: main.ts:91884
+Defined in: main.ts:91920
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleAvailableHistoryResultInfo`](DataforseoLabsGoogleAvailableHistoryResultInfo.md)[]
 
-Defined in: main.ts:91880
+Defined in: main.ts:91916
 
 array of objects containing results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:91888
+Defined in: main.ts:91924
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:91888
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:91910
+Defined in: main.ts:91946
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:91910
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleAvailableHistoryTaskInfo`](DataforseoLabsGoogleAvailableHistoryTaskInfo.md)
 
-Defined in: main.ts:91903
+Defined in: main.ts:91939
 
 #### Parameters
 

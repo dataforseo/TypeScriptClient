@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingLocationsTaskInfo
 
-Defined in: main.ts:138262
+Defined in: main.ts:138426
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:138262
 
 > **new KeywordsDataBingLocationsTaskInfo**(`data`?): [`KeywordsDataBingLocationsTaskInfo`](KeywordsDataBingLocationsTaskInfo.md)
 
-Defined in: main.ts:138268
+Defined in: main.ts:138432
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataBingLocationsResultInfo`](KeywordsDataBingLocationsResultInfo.md)[]
 
-Defined in: main.ts:138264
+Defined in: main.ts:138428
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:138272
+Defined in: main.ts:138436
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:138272
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:138294
+Defined in: main.ts:138458
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:138294
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingLocationsTaskInfo`](KeywordsDataBingLocationsTaskInfo.md)
 
-Defined in: main.ts:138287
+Defined in: main.ts:138451
 
 #### Parameters
 

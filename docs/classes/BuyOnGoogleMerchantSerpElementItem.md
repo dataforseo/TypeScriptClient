@@ -6,7 +6,7 @@
 
 # Class: BuyOnGoogleMerchantSerpElementItem
 
-Defined in: main.ts:188104
+Defined in: main.ts:188478
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:188104
 
 > **new BuyOnGoogleMerchantSerpElementItem**(`data`?): [`BuyOnGoogleMerchantSerpElementItem`](BuyOnGoogleMerchantSerpElementItem.md)
 
-Defined in: main.ts:188142
+Defined in: main.ts:188516
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21722
 
 > `optional` **base\_price**: `number`
 
-Defined in: main.ts:188117
+Defined in: main.ts:188491
 
 product price without tax and shipping
 
@@ -74,7 +74,7 @@ product price without tax and shipping
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:188128
+Defined in: main.ts:188502
 
 currency in the ISO format
 example:
@@ -90,7 +90,7 @@ USD
 
 > `optional` **details**: `string`
 
-Defined in: main.ts:188115
+Defined in: main.ts:188489
 
 details and special offers
 if there are no details, the value will be null
@@ -105,7 +105,7 @@ if there are no details, the value will be null
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:188108
+Defined in: main.ts:188482
 
 domain in SERP
 
@@ -177,7 +177,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingElement`](RatingElement.md)
 
-Defined in: main.ts:188134
+Defined in: main.ts:188508
 
 shop rating
 the shop popularity rate based on product reviews
@@ -192,7 +192,7 @@ the shop popularity rate based on product reviews
 
 > `optional` **seller\_name**: `string`
 
-Defined in: main.ts:188131
+Defined in: main.ts:188505
 
 name of the seller
 the name of the company that placed a corresponding product on Google Shopping
@@ -207,7 +207,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 > `optional` **shipping\_price**: `number`
 
-Defined in: main.ts:188122
+Defined in: main.ts:188496
 
 product shipping price
 
@@ -221,7 +221,7 @@ product shipping price
 
 > `optional` **shop\_ad\_aclk**: `string`
 
-Defined in: main.ts:188138
+Defined in: main.ts:188512
 
 unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL
@@ -237,7 +237,7 @@ in this case, the value equals null
 
 > `optional` **tax**: `number`
 
-Defined in: main.ts:188120
+Defined in: main.ts:188494
 
 the amount of tax
 tax is specified as the actual amount of money, not as the percentage
@@ -252,7 +252,7 @@ tax is specified as the actual amount of money, not as the percentage
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:188110
+Defined in: main.ts:188484
 
 product title
 
@@ -266,7 +266,7 @@ product title
 
 > `optional` **total\_price**: `number`
 
-Defined in: main.ts:188124
+Defined in: main.ts:188498
 
 product price including tax and shipping
 
@@ -298,7 +298,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:188112
+Defined in: main.ts:188486
 
 Google Shopping URL forwarding to the product page
 
@@ -312,7 +312,7 @@ Google Shopping URL forwarding to the product page
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:188106
+Defined in: main.ts:188480
 
 XPath of the element
 
@@ -326,7 +326,7 @@ XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:188147
+Defined in: main.ts:188521
 
 #### Parameters
 
@@ -348,7 +348,7 @@ Defined in: main.ts:188147
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:188177
+Defined in: main.ts:188551
 
 #### Parameters
 
@@ -370,7 +370,7 @@ Defined in: main.ts:188177
 
 > `static` **fromJS**(`data`): [`BuyOnGoogleMerchantSerpElementItem`](BuyOnGoogleMerchantSerpElementItem.md)
 
-Defined in: main.ts:188170
+Defined in: main.ts:188544
 
 #### Parameters
 

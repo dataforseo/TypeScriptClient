@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleHotelSearchesLiveResultInfo
 
-Defined in: main.ts:218124
+Defined in: main.ts:218626
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:218124
 
 > **new BusinessDataGoogleHotelSearchesLiveResultInfo**(`data`?): [`BusinessDataGoogleHotelSearchesLiveResultInfo`](BusinessDataGoogleHotelSearchesLiveResultInfo.md)
 
-Defined in: main.ts:218149
+Defined in: main.ts:218651
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:218149
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:218134
+Defined in: main.ts:218636
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:218139
+Defined in: main.ts:218641
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **items**: [`BusinessDataGoogleHotelSearchesItem`](BusinessDataGoogleHotelSearchesItem.md)[]
 
-Defined in: main.ts:218145
+Defined in: main.ts:218647
 
 array of items
 note: this field always equals null; use it to facilitate integration and ensure interoperability with the Hotel Info endpoint
@@ -87,7 +87,7 @@ note: this field always equals null; use it to facilitate integration and ensure
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:218142
+Defined in: main.ts:218644
 
 item types
 the number of items in the items array
@@ -102,7 +102,7 @@ the number of items in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:218127
+Defined in: main.ts:218629
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -117,7 +117,7 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:218131
+Defined in: main.ts:218633
 
 language code in a POST array
 
@@ -131,7 +131,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:218129
+Defined in: main.ts:218631
 
 location code in a POST array
 
@@ -145,7 +145,7 @@ location code in a POST array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:218158
+Defined in: main.ts:218660
 
 #### Parameters
 
@@ -163,7 +163,7 @@ Defined in: main.ts:218158
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:218185
+Defined in: main.ts:218687
 
 #### Parameters
 
@@ -181,7 +181,7 @@ Defined in: main.ts:218185
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleHotelSearchesLiveResultInfo`](BusinessDataGoogleHotelSearchesLiveResultInfo.md)
 
-Defined in: main.ts:218178
+Defined in: main.ts:218680
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: OnPageLighthouseTaskGetJsonTaskInfo
 
-Defined in: main.ts:175938
+Defined in: main.ts:176302
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:175938
 
 > **new OnPageLighthouseTaskGetJsonTaskInfo**(`data`?): [`OnPageLighthouseTaskGetJsonTaskInfo`](OnPageLighthouseTaskGetJsonTaskInfo.md)
 
-Defined in: main.ts:175946
+Defined in: main.ts:176310
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: `object`[]
 
-Defined in: main.ts:175942
+Defined in: main.ts:176306
 
 results of Lighthouse audit
 this array will include data according to the parameters specified in the POST request;
@@ -220,7 +220,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:175950
+Defined in: main.ts:176314
 
 #### Parameters
 
@@ -242,7 +242,7 @@ Defined in: main.ts:175950
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:175972
+Defined in: main.ts:176336
 
 #### Parameters
 
@@ -264,7 +264,7 @@ Defined in: main.ts:175972
 
 > `static` **fromJS**(`data`): [`OnPageLighthouseTaskGetJsonTaskInfo`](OnPageLighthouseTaskGetJsonTaskInfo.md)
 
-Defined in: main.ts:175965
+Defined in: main.ts:176329
 
 #### Parameters
 

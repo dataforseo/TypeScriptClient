@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo
 
-Defined in: main.ts:133669
+Defined in: main.ts:133809
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:133672
+Defined in: main.ts:133812
 
 array of results
 in this case, the value will be null

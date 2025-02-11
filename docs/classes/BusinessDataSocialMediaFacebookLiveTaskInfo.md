@@ -6,7 +6,7 @@
 
 # Class: BusinessDataSocialMediaFacebookLiveTaskInfo
 
-Defined in: main.ts:230042
+Defined in: main.ts:230550
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:230042
 
 > **new BusinessDataSocialMediaFacebookLiveTaskInfo**(`data`?): [`BusinessDataSocialMediaFacebookLiveTaskInfo`](BusinessDataSocialMediaFacebookLiveTaskInfo.md)
 
-Defined in: main.ts:230048
+Defined in: main.ts:230556
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataSocialMediaFacebookLiveResultInfo`](BusinessDataSocialMediaFacebookLiveResultInfo.md)[]
 
-Defined in: main.ts:230044
+Defined in: main.ts:230552
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:230052
+Defined in: main.ts:230560
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:230052
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:230074
+Defined in: main.ts:230582
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:230074
 
 > `static` **fromJS**(`data`): [`BusinessDataSocialMediaFacebookLiveTaskInfo`](BusinessDataSocialMediaFacebookLiveTaskInfo.md)
 
-Defined in: main.ts:230067
+Defined in: main.ts:230575
 
 #### Parameters
 

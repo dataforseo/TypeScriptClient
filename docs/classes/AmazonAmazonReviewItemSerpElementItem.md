@@ -6,7 +6,7 @@
 
 # Class: AmazonAmazonReviewItemSerpElementItem
 
-Defined in: main.ts:195015
+Defined in: main.ts:195052
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:195015
 
 > **new AmazonAmazonReviewItemSerpElementItem**(`data`?): [`AmazonAmazonReviewItemSerpElementItem`](AmazonAmazonReviewItemSerpElementItem.md)
 
-Defined in: main.ts:195048
+Defined in: main.ts:195085
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:23218
 
 > `optional` **helpful\_votes**: `number`
 
-Defined in: main.ts:195025
+Defined in: main.ts:195062
 
 helpful votes count
 number of users who clicked on the ‘Helpful” button under the review text
@@ -75,7 +75,7 @@ number of users who clicked on the ‘Helpful” button under the review text
 
 > `optional` **images**: [`ImagesElement`](ImagesElement.md)[]
 
-Defined in: main.ts:195027
+Defined in: main.ts:195064
 
 images of the product submitted by the reviewer
 
@@ -89,7 +89,7 @@ images of the product submitted by the reviewer
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:195018
+Defined in: main.ts:195055
 
 the alignment of the review in SERP
 can take the following values: right
@@ -104,7 +104,7 @@ can take the following values: right
 
 > `optional` **publication\_date**: `string`
 
-Defined in: main.ts:195042
+Defined in: main.ts:195079
 
 date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -159,7 +159,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-Defined in: main.ts:195044
+Defined in: main.ts:195081
 
 the rating score submitted by the reviewer
 
@@ -173,7 +173,7 @@ the rating score submitted by the reviewer
 
 > `optional` **review\_text**: `string`
 
-Defined in: main.ts:195037
+Defined in: main.ts:195074
 
 content of the review
 
@@ -187,7 +187,7 @@ content of the review
 
 > `optional` **subtitle**: `string`
 
-Defined in: main.ts:195022
+Defined in: main.ts:195059
 
 subtitle of the review
 
@@ -201,7 +201,7 @@ subtitle of the review
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:195033
+Defined in: main.ts:195070
 
 title of the review
 
@@ -233,9 +233,9 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:195035
+Defined in: main.ts:195072
 
-relevant url
+URL to the reviewer’s profile
 
 #### Implementation of
 
@@ -247,7 +247,7 @@ relevant url
 
 > `optional` **user\_profile**: [`UserProfileInfo`](UserProfileInfo.md)
 
-Defined in: main.ts:195031
+Defined in: main.ts:195068
 
 user profile of the reviewer
 
@@ -261,7 +261,7 @@ user profile of the reviewer
 
 > `optional` **verified**: `boolean`
 
-Defined in: main.ts:195020
+Defined in: main.ts:195057
 
 indicates whether the review has the “Verified Purchase” mark
 
@@ -275,7 +275,7 @@ indicates whether the review has the “Verified Purchase” mark
 
 > `optional` **videos**: [`VideoElement`](VideoElement.md)[]
 
-Defined in: main.ts:195029
+Defined in: main.ts:195066
 
 videos of the product submitted by the reviewer
 
@@ -307,7 +307,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:195053
+Defined in: main.ts:195090
 
 #### Parameters
 
@@ -329,7 +329,7 @@ Defined in: main.ts:195053
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:195090
+Defined in: main.ts:195127
 
 #### Parameters
 
@@ -351,7 +351,7 @@ Defined in: main.ts:195090
 
 > `static` **fromJS**(`data`): [`AmazonAmazonReviewItemSerpElementItem`](AmazonAmazonReviewItemSerpElementItem.md)
 
-Defined in: main.ts:195083
+Defined in: main.ts:195120
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: SerpBaiduLocationsCountryTaskInfo
 
-Defined in: main.ts:78620
+Defined in: main.ts:78656
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:78620
 
 > **new SerpBaiduLocationsCountryTaskInfo**(`data`?): [`SerpBaiduLocationsCountryTaskInfo`](SerpBaiduLocationsCountryTaskInfo.md)
 
-Defined in: main.ts:78626
+Defined in: main.ts:78662
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpBaiduLocationsCountryResultInfo`](SerpBaiduLocationsCountryResultInfo.md)[]
 
-Defined in: main.ts:78622
+Defined in: main.ts:78658
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:78630
+Defined in: main.ts:78666
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:78630
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:78652
+Defined in: main.ts:78688
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:78652
 
 > `static` **fromJS**(`data`): [`SerpBaiduLocationsCountryTaskInfo`](SerpBaiduLocationsCountryTaskInfo.md)
 
-Defined in: main.ts:78645
+Defined in: main.ts:78681
 
 #### Parameters
 

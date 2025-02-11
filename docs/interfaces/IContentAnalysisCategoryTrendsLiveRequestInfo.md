@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisCategoryTrendsLiveRequestInfo
 
-Defined in: main.ts:180686
+Defined in: main.ts:181048
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:180686
 
 > `optional` **category\_code**: `string`
 
-Defined in: main.ts:180690
+Defined in: main.ts:181052
 
 target category code
 required field
@@ -30,7 +30,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 > `optional` **date\_from**: `string`
 
-Defined in: main.ts:180720
+Defined in: main.ts:181082
 
 starting date of the time range
 required field
@@ -44,7 +44,7 @@ example:
 
 > `optional` **date\_group**: `string`
 
-Defined in: main.ts:180732
+Defined in: main.ts:181094
 
 time range which will be used to group the results
 optional field
@@ -57,7 +57,7 @@ possible values: day, week, month
 
 > `optional` **date\_to**: `string`
 
-Defined in: main.ts:180727
+Defined in: main.ts:181089
 
 ending date of the time range
 optional field
@@ -72,14 +72,14 @@ example:
 
 > `optional` **initial\_dataset\_filters**: `any`[]
 
-Defined in: main.ts:180749
+Defined in: main.ts:181111
 
 initial dataset filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like, has, has_not
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like, has, has_not, match, not_match
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["domain","<>", "logitech.com"]
@@ -97,7 +97,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:180714
+Defined in: main.ts:181076
 
 maximum number of elements within internal arrays
 optional field
@@ -116,7 +116,7 @@ maximum value: 20
 
 > `optional` **page\_type**: `string`[]
 
-Defined in: main.ts:180696
+Defined in: main.ts:181058
 
 target page types
 optional field
@@ -130,7 +130,7 @@ possible values:
 
 > `optional` **search\_mode**: `string`
 
-Defined in: main.ts:180703
+Defined in: main.ts:181065
 
 results grouping type
 optional field
@@ -145,7 +145,7 @@ default value: as_is
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:180755
+Defined in: main.ts:181117
 
 user-defined task identifier
 optional field

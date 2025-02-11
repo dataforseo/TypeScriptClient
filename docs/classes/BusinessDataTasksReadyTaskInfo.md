@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTasksReadyTaskInfo
 
-Defined in: main.ts:213616
+Defined in: main.ts:214118
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:213616
 
 > **new BusinessDataTasksReadyTaskInfo**(`data`?): [`BusinessDataTasksReadyTaskInfo`](BusinessDataTasksReadyTaskInfo.md)
 
-Defined in: main.ts:213622
+Defined in: main.ts:214124
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataTasksReadyResultInfo`](BusinessDataTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:213618
+Defined in: main.ts:214120
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:213626
+Defined in: main.ts:214128
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:213626
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:213648
+Defined in: main.ts:214150
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:213648
 
 > `static` **fromJS**(`data`): [`BusinessDataTasksReadyTaskInfo`](BusinessDataTasksReadyTaskInfo.md)
 
-Defined in: main.ts:213641
+Defined in: main.ts:214143
 
 #### Parameters
 

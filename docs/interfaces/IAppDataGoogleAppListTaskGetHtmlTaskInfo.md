@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleAppListTaskGetHtmlTaskInfo
 
-Defined in: main.ts:201418
+Defined in: main.ts:201920
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`AppDataGoogleAppListTaskGetHtmlResultInfo`](../classes/AppDataGoogleAppListTaskGetHtmlResultInfo.md)[]
 
-Defined in: main.ts:201420
+Defined in: main.ts:201922
 
 array of results
 

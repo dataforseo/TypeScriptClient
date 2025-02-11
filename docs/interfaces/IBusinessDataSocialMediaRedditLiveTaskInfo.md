@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataSocialMediaRedditLiveTaskInfo
 
-Defined in: main.ts:230430
+Defined in: main.ts:230938
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataSocialMediaRedditLiveResultInfo`](../classes/BusinessDataSocialMediaRedditLiveResultInfo.md)[]
 
-Defined in: main.ts:230432
+Defined in: main.ts:230940
 
 array of results
 

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsErrorsTaskInfo
 
-Defined in: main.ts:90728
+Defined in: main.ts:90764
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:90728
 
 > **new DataforseoLabsErrorsTaskInfo**(`data`?): [`DataforseoLabsErrorsTaskInfo`](DataforseoLabsErrorsTaskInfo.md)
 
-Defined in: main.ts:90734
+Defined in: main.ts:90770
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsErrorsResultInfo`](DataforseoLabsErrorsResultInfo.md)[]
 
-Defined in: main.ts:90730
+Defined in: main.ts:90766
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:90738
+Defined in: main.ts:90774
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:90738
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:90760
+Defined in: main.ts:90796
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:90760
 
 > `static` **fromJS**(`data`): [`DataforseoLabsErrorsTaskInfo`](DataforseoLabsErrorsTaskInfo.md)
 
-Defined in: main.ts:90753
+Defined in: main.ts:90789
 
 #### Parameters
 

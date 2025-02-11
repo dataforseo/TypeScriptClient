@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleAdsSearchLocationsResponseInfo
 
-Defined in: main.ts:61710
+Defined in: main.ts:61732
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleAdsSearchLocationsTaskInfo`](../classes/SerpGoogleAdsSearchLocationsTaskInfo.md)[]
 
-Defined in: main.ts:61712
+Defined in: main.ts:61734
 
 array of tasks
 

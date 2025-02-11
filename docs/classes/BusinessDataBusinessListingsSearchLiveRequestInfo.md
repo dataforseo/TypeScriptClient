@@ -6,7 +6,7 @@
 
 # Class: BusinessDataBusinessListingsSearchLiveRequestInfo
 
-Defined in: main.ts:210588
+Defined in: main.ts:211090
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:210588
 
 > **new BusinessDataBusinessListingsSearchLiveRequestInfo**(`data`?): [`BusinessDataBusinessListingsSearchLiveRequestInfo`](BusinessDataBusinessListingsSearchLiveRequestInfo.md)
 
-Defined in: main.ts:210669
+Defined in: main.ts:211171
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:210669
 
 > `optional` **categories**: `string`[]
 
-Defined in: main.ts:210594
+Defined in: main.ts:211096
 
 business categories
 optional field
@@ -58,7 +58,7 @@ you can specify up to 10 categories
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:210599
+Defined in: main.ts:211101
 
 description of the element in SERP
 optional field
@@ -75,14 +75,14 @@ can contain up to 200 characters
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:210628
+Defined in: main.ts:211130
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like, match, not_match
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["rating.value",">",3]
@@ -98,7 +98,7 @@ you can receive the list of available filters by making a separate request to h
 
 > `optional` **is\_claimed**: `boolean`
 
-Defined in: main.ts:210607
+Defined in: main.ts:211109
 
 indicates whether the business is verified by its owner on Google Maps
 optional field
@@ -113,7 +113,7 @@ optional field
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:210646
+Defined in: main.ts:211148
 
 the maximum number of returned businesses
 optional field
@@ -130,7 +130,7 @@ maximum value: 1000
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:210617
+Defined in: main.ts:211119
 
 GPS coordinates of a location
 optional field
@@ -152,7 +152,7 @@ example:
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:210651
+Defined in: main.ts:211153
 
 offset in the results array of returned businesses
 optional field
@@ -169,7 +169,7 @@ if you specify the 10 value, the first ten entities in the results array will be
 
 > `optional` **offset\_token**: `string`
 
-Defined in: main.ts:210659
+Defined in: main.ts:211161
 
 token for subsequent requests
 optional field
@@ -189,7 +189,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:210641
+Defined in: main.ts:211143
 
 results sorting rules
 optional field
@@ -214,7 +214,7 @@ example:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:210665
+Defined in: main.ts:211167
 
 user-defined task identifier
 optional field
@@ -232,7 +232,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:210604
+Defined in: main.ts:211106
 
 title of the element in SERP
 optional field
@@ -249,7 +249,7 @@ can contain up to 200 characters
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:210678
+Defined in: main.ts:211180
 
 #### Parameters
 
@@ -267,7 +267,7 @@ Defined in: main.ts:210678
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:210717
+Defined in: main.ts:211219
 
 #### Parameters
 
@@ -285,7 +285,7 @@ Defined in: main.ts:210717
 
 > `static` **fromJS**(`data`): [`BusinessDataBusinessListingsSearchLiveRequestInfo`](BusinessDataBusinessListingsSearchLiveRequestInfo.md)
 
-Defined in: main.ts:210710
+Defined in: main.ts:211212
 
 #### Parameters
 

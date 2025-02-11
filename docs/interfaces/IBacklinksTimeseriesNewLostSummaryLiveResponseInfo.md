@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksTimeseriesNewLostSummaryLiveResponseInfo
 
-Defined in: main.ts:160259
+Defined in: main.ts:160423
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BacklinksTimeseriesNewLostSummaryLiveTaskInfo`](../classes/BacklinksTimeseriesNewLostSummaryLiveTaskInfo.md)[]
 
-Defined in: main.ts:160261
+Defined in: main.ts:160425
 
 array of tasks
 

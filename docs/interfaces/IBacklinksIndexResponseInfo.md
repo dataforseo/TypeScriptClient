@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksIndexResponseInfo
 
-Defined in: main.ts:150007
+Defined in: main.ts:150171
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BacklinksIndexTaskInfo`](../classes/BacklinksIndexTaskInfo.md)[]
 
-Defined in: main.ts:150009
+Defined in: main.ts:150173
 
 array of tasks
 

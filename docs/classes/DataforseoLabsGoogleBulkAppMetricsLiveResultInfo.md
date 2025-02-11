@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleBulkAppMetricsLiveResultInfo
 
-Defined in: main.ts:121080
+Defined in: main.ts:121196
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:121080
 
 > **new DataforseoLabsGoogleBulkAppMetricsLiveResultInfo**(`data`?): [`DataforseoLabsGoogleBulkAppMetricsLiveResultInfo`](DataforseoLabsGoogleBulkAppMetricsLiveResultInfo.md)
 
-Defined in: main.ts:121096
+Defined in: main.ts:121212
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:121096
 
 > `optional` **items**: [`DataforseoLabsleBulkAppMetricsLiveItem`](DataforseoLabsleBulkAppMetricsLiveItem.md)[]
 
-Defined in: main.ts:121092
+Defined in: main.ts:121208
 
 contains data related to the ranking app metrics of the specified application
 
@@ -54,7 +54,7 @@ contains data related to the ranking app metrics of the specified application
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:121090
+Defined in: main.ts:121206
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:121086
+Defined in: main.ts:121202
 
 language code in a POST array
 
@@ -82,7 +82,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:121084
+Defined in: main.ts:121200
 
 location code in a POST array
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:121082
+Defined in: main.ts:121198
 
 search engine type
 
@@ -110,7 +110,7 @@ search engine type
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:121088
+Defined in: main.ts:121204
 
 total amount of results in our database relevant to your request
 
@@ -124,7 +124,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:121105
+Defined in: main.ts:121221
 
 #### Parameters
 
@@ -142,7 +142,7 @@ Defined in: main.ts:121105
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:121131
+Defined in: main.ts:121247
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: main.ts:121131
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleBulkAppMetricsLiveResultInfo`](DataforseoLabsGoogleBulkAppMetricsLiveResultInfo.md)
 
-Defined in: main.ts:121124
+Defined in: main.ts:121240
 
 #### Parameters
 

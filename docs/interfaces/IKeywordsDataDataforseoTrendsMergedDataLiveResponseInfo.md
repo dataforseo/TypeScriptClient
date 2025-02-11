@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataDataforseoTrendsMergedDataLiveResponseInfo
 
-Defined in: main.ts:138169
+Defined in: main.ts:138333
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo`](../classes/KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo.md)[]
 
-Defined in: main.ts:138171
+Defined in: main.ts:138335
 
 array of tasks
 

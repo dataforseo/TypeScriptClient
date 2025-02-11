@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleImagesTaskPostTaskInfo
 
-Defined in: main.ts:50242
+Defined in: main.ts:50258
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:50245
+Defined in: main.ts:50261
 
 array of results
 in this case, the value will be null

@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonSellersTaskPostResponseInfo
 
-Defined in: main.ts:195731
+Defined in: main.ts:196233
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:195731
 
 > **new MerchantAmazonSellersTaskPostResponseInfo**(`data`?): [`MerchantAmazonSellersTaskPostResponseInfo`](MerchantAmazonSellersTaskPostResponseInfo.md)
 
-Defined in: main.ts:195737
+Defined in: main.ts:196239
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`MerchantAmazonSellersTaskPostTaskInfo`](MerchantAmazonSellersTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:195733
+Defined in: main.ts:196235
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:195741
+Defined in: main.ts:196243
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:195741
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:195763
+Defined in: main.ts:196265
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:195763
 
 > `static` **fromJS**(`data`): [`MerchantAmazonSellersTaskPostResponseInfo`](MerchantAmazonSellersTaskPostResponseInfo.md)
 
-Defined in: main.ts:195756
+Defined in: main.ts:196258
 
 #### Parameters
 

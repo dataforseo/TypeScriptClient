@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoTrendsSubregionInterestsElementItem
 
-Defined in: main.ts:136796
+Defined in: main.ts:136960
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:136796
 
 > `optional` **interests**: [`Interests`](../classes/Interests.md)[]
 
-Defined in: main.ts:136798
+Defined in: main.ts:136962
 
 subregional keyword popuarity data for each specified term
 
@@ -32,7 +32,7 @@ subregional keyword popuarity data for each specified term
 
 > `optional` **interests\_comparison**: [`InterestsComparison`](../classes/InterestsComparison.md)
 
-Defined in: main.ts:136801
+Defined in: main.ts:136965
 
 comparison of data on subregional keyword popularity for the specified parameters
 if you specified a single keyword, the value will be null

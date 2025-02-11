@@ -6,7 +6,7 @@
 
 # Interface: ITopSightsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108682
+Defined in: main.ts:108738
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:108682
 
 > `optional` **items**: [`TopSightsElement`](../classes/TopSightsElement.md)[]
 
-Defined in: main.ts:108686
+Defined in: main.ts:108742
 
 elements of search results found in SERP
 
@@ -78,7 +78,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:108684
+Defined in: main.ts:108740
 
 title of the result in SERP
 

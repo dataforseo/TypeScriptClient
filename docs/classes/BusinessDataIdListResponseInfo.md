@@ -6,7 +6,7 @@
 
 # Class: BusinessDataIdListResponseInfo
 
-Defined in: main.ts:209671
+Defined in: main.ts:210173
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:209671
 
 > **new BusinessDataIdListResponseInfo**(`data`?): [`BusinessDataIdListResponseInfo`](BusinessDataIdListResponseInfo.md)
 
-Defined in: main.ts:209677
+Defined in: main.ts:210179
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BusinessDataIdListTaskInfo`](BusinessDataIdListTaskInfo.md)[]
 
-Defined in: main.ts:209673
+Defined in: main.ts:210175
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:209681
+Defined in: main.ts:210183
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:209681
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:209703
+Defined in: main.ts:210205
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:209703
 
 > `static` **fromJS**(`data`): [`BusinessDataIdListResponseInfo`](BusinessDataIdListResponseInfo.md)
 
-Defined in: main.ts:209696
+Defined in: main.ts:210198
 
 #### Parameters
 

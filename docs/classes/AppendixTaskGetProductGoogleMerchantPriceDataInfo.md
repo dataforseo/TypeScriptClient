@@ -6,7 +6,7 @@
 
 # Class: AppendixTaskGetProductGoogleMerchantPriceDataInfo
 
-Defined in: main.ts:236914
+Defined in: main.ts:237278
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:236914
 
 > **new AppendixTaskGetProductGoogleMerchantPriceDataInfo**(`data`?): [`AppendixTaskGetProductGoogleMerchantPriceDataInfo`](AppendixTaskGetProductGoogleMerchantPriceDataInfo.md)
 
-Defined in: main.ts:236920
+Defined in: main.ts:237284
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:236920
 
 > `optional` **advanced**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236915
+Defined in: main.ts:237279
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:236915
 
 > `optional` **html**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236916
+Defined in: main.ts:237280
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:236916
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:236929
+Defined in: main.ts:237293
 
 #### Parameters
 
@@ -82,7 +82,7 @@ Defined in: main.ts:236929
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:236947
+Defined in: main.ts:237311
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:236947
 
 > `static` **fromJS**(`data`): [`AppendixTaskGetProductGoogleMerchantPriceDataInfo`](AppendixTaskGetProductGoogleMerchantPriceDataInfo.md)
 
-Defined in: main.ts:236940
+Defined in: main.ts:237304
 
 #### Parameters
 

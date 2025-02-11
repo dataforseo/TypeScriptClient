@@ -6,7 +6,7 @@
 
 # Class: PodcastsSerpElementItem
 
-Defined in: main.ts:34891
+Defined in: main.ts:34907
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:34891
 
 > **new PodcastsSerpElementItem**(`data`?): [`PodcastsSerpElementItem`](PodcastsSerpElementItem.md)
 
-Defined in: main.ts:34901
+Defined in: main.ts:34917
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`PodcastsElement`](PodcastsElement.md)[]
 
-Defined in: main.ts:34893
+Defined in: main.ts:34909
 
 contains arrays of specific images
 
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:34897
+Defined in: main.ts:34913
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -185,7 +185,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:34906
+Defined in: main.ts:34922
 
 #### Parameters
 
@@ -207,7 +207,7 @@ Defined in: main.ts:34906
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:34929
+Defined in: main.ts:34945
 
 #### Parameters
 
@@ -229,7 +229,7 @@ Defined in: main.ts:34929
 
 > `static` **fromJS**(`data`): [`PodcastsSerpElementItem`](PodcastsSerpElementItem.md)
 
-Defined in: main.ts:34922
+Defined in: main.ts:34938
 
 #### Parameters
 

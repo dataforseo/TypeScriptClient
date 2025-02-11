@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingAudienceEstimationIndustriesResultInfo
 
-Defined in: main.ts:140052
+Defined in: main.ts:140216
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:140052
 
 > **new KeywordsDataBingAudienceEstimationIndustriesResultInfo**(`data`?): [`KeywordsDataBingAudienceEstimationIndustriesResultInfo`](KeywordsDataBingAudienceEstimationIndustriesResultInfo.md)
 
-Defined in: main.ts:140060
+Defined in: main.ts:140224
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:140060
 
 > `optional` **industry\_id**: `number`
 
-Defined in: main.ts:140054
+Defined in: main.ts:140218
 
 ID of the industry
 
@@ -54,7 +54,7 @@ ID of the industry
 
 > `optional` **industry\_name**: `string`
 
-Defined in: main.ts:140056
+Defined in: main.ts:140220
 
 name of the industry
 
@@ -68,7 +68,7 @@ name of the industry
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:140069
+Defined in: main.ts:140233
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:140069
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:140087
+Defined in: main.ts:140251
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:140087
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingAudienceEstimationIndustriesResultInfo`](KeywordsDataBingAudienceEstimationIndustriesResultInfo.md)
 
-Defined in: main.ts:140080
+Defined in: main.ts:140244
 
 #### Parameters
 

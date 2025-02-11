@@ -6,7 +6,7 @@
 
 # Interface: IOnPageTaskPostTaskInfo
 
-Defined in: main.ts:164939
+Defined in: main.ts:165103
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:164942
+Defined in: main.ts:165106
 
 array of results
 in this case, the value will be null

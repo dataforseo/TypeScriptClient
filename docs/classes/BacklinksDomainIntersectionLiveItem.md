@@ -6,7 +6,7 @@
 
 # Class: BacklinksDomainIntersectionLiveItem
 
-Defined in: main.ts:157988
+Defined in: main.ts:158152
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:157988
 
 > **new BacklinksDomainIntersectionLiveItem**(`data`?): [`BacklinksDomainIntersectionLiveItem`](BacklinksDomainIntersectionLiveItem.md)
 
-Defined in: main.ts:157997
+Defined in: main.ts:158161
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:157997
 
 > `optional` **domain\_intersection**: `object`
 
-Defined in: main.ts:157991
+Defined in: main.ts:158155
 
 contains data on domains that link to the corresponding targets specified in the POST array
 data is provided in separate objects corresponding to domains, subdomains or pages specified in the targets object
@@ -59,7 +59,7 @@ data is provided in separate objects corresponding to domains, subdomains or pag
 
 > `optional` **summary**: [`IntersectionSummaryInfo`](IntersectionSummaryInfo.md)
 
-Defined in: main.ts:157993
+Defined in: main.ts:158157
 
 contains the domain intersections summary
 
@@ -73,7 +73,7 @@ contains the domain intersections summary
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:158006
+Defined in: main.ts:158170
 
 #### Parameters
 
@@ -91,7 +91,7 @@ Defined in: main.ts:158006
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:158030
+Defined in: main.ts:158194
 
 #### Parameters
 
@@ -109,7 +109,7 @@ Defined in: main.ts:158030
 
 > `static` **fromJS**(`data`): [`BacklinksDomainIntersectionLiveItem`](BacklinksDomainIntersectionLiveItem.md)
 
-Defined in: main.ts:158023
+Defined in: main.ts:158187
 
 #### Parameters
 

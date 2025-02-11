@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonAsinTaskGetAdvancedResponseInfo
 
-Defined in: main.ts:195155
+Defined in: main.ts:195657
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:195155
 
 > **new MerchantAmazonAsinTaskGetAdvancedResponseInfo**(`data`?): [`MerchantAmazonAsinTaskGetAdvancedResponseInfo`](MerchantAmazonAsinTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:195161
+Defined in: main.ts:195663
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`MerchantAmazonAsinTaskGetAdvancedTaskInfo`](MerchantAmazonAsinTaskGetAdvancedTaskInfo.md)[]
 
-Defined in: main.ts:195157
+Defined in: main.ts:195659
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:195165
+Defined in: main.ts:195667
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:195165
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:195187
+Defined in: main.ts:195689
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:195187
 
 > `static` **fromJS**(`data`): [`MerchantAmazonAsinTaskGetAdvancedResponseInfo`](MerchantAmazonAsinTaskGetAdvancedResponseInfo.md)
 
-Defined in: main.ts:195180
+Defined in: main.ts:195682
 
 #### Parameters
 

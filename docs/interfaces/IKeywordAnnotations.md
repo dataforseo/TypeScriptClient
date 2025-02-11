@@ -6,7 +6,7 @@
 
 # Interface: IKeywordAnnotations
 
-Defined in: main.ts:128875
+Defined in: main.ts:128991
 
 ## Indexable
 
@@ -18,6 +18,6 @@ Defined in: main.ts:128875
 
 > `optional` **concepts**: [`ConceptInfo`](../classes/ConceptInfo.md)[]
 
-Defined in: main.ts:128877
+Defined in: main.ts:128993
 
 the list of concepts for the keyword

@@ -6,7 +6,7 @@
 
 # Class: CompareSitesElement
 
-Defined in: main.ts:37729
+Defined in: main.ts:37745
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:37729
 
 > **new CompareSitesElement**(`data`?): [`CompareSitesElement`](CompareSitesElement.md)
 
-Defined in: main.ts:37747
+Defined in: main.ts:37763
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:37747
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:37737
+Defined in: main.ts:37753
 
 website domain
 
@@ -54,7 +54,7 @@ website domain
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:37740
+Defined in: main.ts:37756
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -69,7 +69,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:37743
+Defined in: main.ts:37759
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -84,7 +84,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:37733
+Defined in: main.ts:37749
 
 title of a given link element
 
@@ -98,7 +98,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:37731
+Defined in: main.ts:37747
 
 type of element
 
@@ -112,7 +112,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:37735
+Defined in: main.ts:37751
 
 URL
 
@@ -126,7 +126,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:37756
+Defined in: main.ts:37772
 
 #### Parameters
 
@@ -144,7 +144,7 @@ Defined in: main.ts:37756
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:37778
+Defined in: main.ts:37794
 
 #### Parameters
 
@@ -162,7 +162,7 @@ Defined in: main.ts:37778
 
 > `static` **fromJS**(`data`): [`CompareSitesElement`](CompareSitesElement.md)
 
-Defined in: main.ts:37771
+Defined in: main.ts:37787
 
 #### Parameters
 

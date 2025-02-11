@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleLocalFinderTasksFixedResultInfo
 
-Defined in: main.ts:43571
+Defined in: main.ts:43587
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:43571
 
 > `optional` **date\_fixed**: `string`
 
-Defined in: main.ts:43581
+Defined in: main.ts:43597
 
 date when the task was fixed (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was fixed (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:43589
+Defined in: main.ts:43605
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -39,7 +39,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:43592
+Defined in: main.ts:43608
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -50,7 +50,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:43586
+Defined in: main.ts:43602
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -61,7 +61,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:43574
+Defined in: main.ts:43590
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:43576
+Defined in: main.ts:43592
 
 search engine specified when setting the task
 
@@ -82,7 +82,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:43579
+Defined in: main.ts:43595
 
 type of search engine
 can take the following values: local_finder
@@ -93,6 +93,6 @@ can take the following values: local_finder
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:43583
+Defined in: main.ts:43599
 
 user-defined task identifier

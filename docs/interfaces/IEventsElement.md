@@ -6,7 +6,7 @@
 
 # Interface: IEventsElement
 
-Defined in: main.ts:33888
+Defined in: main.ts:33904
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:33888
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:33894
+Defined in: main.ts:33910
 
 text alongside the link title
 
@@ -28,7 +28,7 @@ text alongside the link title
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:33892
+Defined in: main.ts:33908
 
 title of a given link element
 
@@ -38,7 +38,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:33890
+Defined in: main.ts:33906
 
 type of element
 
@@ -48,6 +48,6 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:33896
+Defined in: main.ts:33912
 
 URL

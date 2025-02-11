@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem
 
-Defined in: main.ts:99204
+Defined in: main.ts:99232
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:99204
 
 > **new DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem**(`data`?): [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md)
 
-Defined in: main.ts:99231
+Defined in: main.ts:99259
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:99231
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:99220
+Defined in: main.ts:99248
 
 domain found for the specified category
 
@@ -54,7 +54,7 @@ domain found for the specified category
 
 > `optional` **main\_domain**: `string`
 
-Defined in: main.ts:99222
+Defined in: main.ts:99250
 
 primary domain
 
@@ -68,7 +68,7 @@ primary domain
 
 > `optional` **metrics\_difference**: `object`
 
-Defined in: main.ts:99227
+Defined in: main.ts:99255
 
 metrics difference between first_date and second_date
 calculated by subtracting domain metrics as of the greater date from domain metrics as of the smaller date
@@ -87,7 +87,7 @@ calculated by subtracting domain metrics as of the greater date from domain metr
 
 > `optional` **metrics\_history**: `object`
 
-Defined in: main.ts:99224
+Defined in: main.ts:99252
 
 historical ranking and traffic data of the domain
 
@@ -105,7 +105,7 @@ historical ranking and traffic data of the domain
 
 > `optional` **organic\_count**: `number`
 
-Defined in: main.ts:99212
+Defined in: main.ts:99240
 
 current total count of organic SERPs that contain the domain
 
@@ -119,7 +119,7 @@ current total count of organic SERPs that contain the domain
 
 > `optional` **organic\_etv**: `number`
 
-Defined in: main.ts:99210
+Defined in: main.ts:99238
 
 current organic ETV of the domain
 
@@ -133,7 +133,7 @@ current organic ETV of the domain
 
 > `optional` **organic\_is\_lost**: `number`
 
-Defined in: main.ts:99215
+Defined in: main.ts:99243
 
 current number of lost ranked elements
 indicates how many ranked elements of the domain were previously presented in SERPs, but weren’t found during the last check
@@ -148,7 +148,7 @@ indicates how many ranked elements of the domain were previously presented in SE
 
 > `optional` **organic\_is\_new**: `number`
 
-Defined in: main.ts:99218
+Defined in: main.ts:99246
 
 current number of new ranked elements
 indicates how many new ranked elements were found for the domain
@@ -163,7 +163,7 @@ indicates how many new ranked elements were found for the domain
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:99206
+Defined in: main.ts:99234
 
 search engine type
 
@@ -177,7 +177,7 @@ search engine type
 
 > `optional` **top\_categories**: `number`[]
 
-Defined in: main.ts:99208
+Defined in: main.ts:99236
 
 categories for which domains are collected
 
@@ -191,7 +191,7 @@ categories for which domains are collected
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:99240
+Defined in: main.ts:99268
 
 #### Parameters
 
@@ -209,7 +209,7 @@ Defined in: main.ts:99240
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:99282
+Defined in: main.ts:99310
 
 #### Parameters
 
@@ -227,7 +227,7 @@ Defined in: main.ts:99282
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md)
 
-Defined in: main.ts:99275
+Defined in: main.ts:99303
 
 #### Parameters
 

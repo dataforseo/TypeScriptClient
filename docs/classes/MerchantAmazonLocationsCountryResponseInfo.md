@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonLocationsCountryResponseInfo
 
-Defined in: main.ts:191507
+Defined in: main.ts:191913
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:191507
 
 > **new MerchantAmazonLocationsCountryResponseInfo**(`data`?): [`MerchantAmazonLocationsCountryResponseInfo`](MerchantAmazonLocationsCountryResponseInfo.md)
 
-Defined in: main.ts:191513
+Defined in: main.ts:191919
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`MerchantAmazonLocationsCountryTaskInfo`](MerchantAmazonLocationsCountryTaskInfo.md)[]
 
-Defined in: main.ts:191509
+Defined in: main.ts:191915
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:191517
+Defined in: main.ts:191923
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:191517
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:191539
+Defined in: main.ts:191945
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:191539
 
 > `static` **fromJS**(`data`): [`MerchantAmazonLocationsCountryResponseInfo`](MerchantAmazonLocationsCountryResponseInfo.md)
 
-Defined in: main.ts:191532
+Defined in: main.ts:191938
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleLocalFinderTaskGetHtmlResponseInfo
 
-Defined in: main.ts:44136
+Defined in: main.ts:44152
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:44136
 
 > **new SerpGoogleLocalFinderTaskGetHtmlResponseInfo**(`data`?): [`SerpGoogleLocalFinderTaskGetHtmlResponseInfo`](SerpGoogleLocalFinderTaskGetHtmlResponseInfo.md)
 
-Defined in: main.ts:44142
+Defined in: main.ts:44158
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleLocalFinderTaskGetHtmlTaskInfo`](SerpGoogleLocalFinderTaskGetHtmlTaskInfo.md)[]
 
-Defined in: main.ts:44138
+Defined in: main.ts:44154
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:44146
+Defined in: main.ts:44162
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:44146
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:44168
+Defined in: main.ts:44184
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:44168
 
 > `static` **fromJS**(`data`): [`SerpGoogleLocalFinderTaskGetHtmlResponseInfo`](SerpGoogleLocalFinderTaskGetHtmlResponseInfo.md)
 
-Defined in: main.ts:44161
+Defined in: main.ts:44177
 
 #### Parameters
 

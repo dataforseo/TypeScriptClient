@@ -6,7 +6,7 @@
 
 # Interface: IPopularProductsSerpElementItem
 
-Defined in: main.ts:34792
+Defined in: main.ts:34808
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:34792
 
 > `optional` **items**: [`PopularProductsElement`](../classes/PopularProductsElement.md)[]
 
-Defined in: main.ts:34796
+Defined in: main.ts:34812
 
 contains arrays of specific images
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:34800
+Defined in: main.ts:34816
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -91,7 +91,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:34794
+Defined in: main.ts:34810
 
 title of the row
 

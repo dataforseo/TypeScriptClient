@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo
 
-Defined in: main.ts:143216
+Defined in: main.ts:143380
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:143216
 
 > **new KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo**(`data`?): [`KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo`](KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md)
 
-Defined in: main.ts:143233
+Defined in: main.ts:143397
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:143233
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:143225
+Defined in: main.ts:143389
 
 date when the task was posted (in the UTC format)
 
@@ -54,7 +54,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:143229
+Defined in: main.ts:143393
 
 URL for collecting the results of the task
 
@@ -68,7 +68,7 @@ URL for collecting the results of the task
 
 > `optional` **function**: `string`
 
-Defined in: main.ts:143223
+Defined in: main.ts:143387
 
 type of the task
 
@@ -82,7 +82,7 @@ type of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:143219
+Defined in: main.ts:143383
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -97,7 +97,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:143221
+Defined in: main.ts:143385
 
 search engine specified when setting the task
 
@@ -111,7 +111,7 @@ search engine specified when setting the task
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:143227
+Defined in: main.ts:143391
 
 user-defined task identifier
 
@@ -125,7 +125,7 @@ user-defined task identifier
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:143242
+Defined in: main.ts:143406
 
 #### Parameters
 
@@ -143,7 +143,7 @@ Defined in: main.ts:143242
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:143264
+Defined in: main.ts:143428
 
 #### Parameters
 
@@ -161,7 +161,7 @@ Defined in: main.ts:143264
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo`](KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo.md)
 
-Defined in: main.ts:143257
+Defined in: main.ts:143421
 
 #### Parameters
 

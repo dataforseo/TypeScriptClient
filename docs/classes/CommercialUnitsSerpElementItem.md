@@ -6,7 +6,7 @@
 
 # Class: CommercialUnitsSerpElementItem
 
-Defined in: main.ts:35849
+Defined in: main.ts:35865
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:35849
 
 > **new CommercialUnitsSerpElementItem**(`data`?): [`CommercialUnitsSerpElementItem`](CommercialUnitsSerpElementItem.md)
 
-Defined in: main.ts:35861
+Defined in: main.ts:35877
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`CommercialUnitsElement`](CommercialUnitsElement.md)[]
 
-Defined in: main.ts:35853
+Defined in: main.ts:35869
 
 contains arrays of specific images
 
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:35857
+Defined in: main.ts:35873
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -149,7 +149,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:35851
+Defined in: main.ts:35867
 
 title of the row
 
@@ -199,7 +199,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:35866
+Defined in: main.ts:35882
 
 #### Parameters
 
@@ -221,7 +221,7 @@ Defined in: main.ts:35866
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:35890
+Defined in: main.ts:35906
 
 #### Parameters
 
@@ -243,7 +243,7 @@ Defined in: main.ts:35890
 
 > `static` **fromJS**(`data`): [`CommercialUnitsSerpElementItem`](CommercialUnitsSerpElementItem.md)
 
-Defined in: main.ts:35883
+Defined in: main.ts:35899
 
 #### Parameters
 

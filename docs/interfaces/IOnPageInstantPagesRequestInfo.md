@@ -6,7 +6,7 @@
 
 # Interface: IOnPageInstantPagesRequestInfo
 
-Defined in: main.ts:174518
+Defined in: main.ts:174882
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:174518
 
 > `optional` **accept\_language**: `string`
 
-Defined in: main.ts:174577
+Defined in: main.ts:174941
 
 language header for accessing the website
 optional field
@@ -31,7 +31,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 > `optional` **browser\_preset**: `string`
 
-Defined in: main.ts:174549
+Defined in: main.ts:174913
 
 preset for browser screen parameters
 optional field
@@ -56,7 +56,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 > `optional` **browser\_screen\_height**: `number`
 
-Defined in: main.ts:174561
+Defined in: main.ts:174925
 
 browser screen height
 optional field
@@ -70,7 +70,7 @@ maximum value, in pixels: 9999
 
 > `optional` **browser\_screen\_scale\_factor**: `number`
 
-Defined in: main.ts:174567
+Defined in: main.ts:174931
 
 browser screen scale factor
 optional field
@@ -84,7 +84,7 @@ maximum value: 3
 
 > `optional` **browser\_screen\_width**: `number`
 
-Defined in: main.ts:174555
+Defined in: main.ts:174919
 
 browser screen width
 optional field
@@ -98,7 +98,7 @@ maximum value, in pixels: 9999
 
 > `optional` **check\_spell**: `boolean`
 
-Defined in: main.ts:174637
+Defined in: main.ts:175001
 
 check spelling
 optional field
@@ -111,7 +111,7 @@ default value: false
 
 > `optional` **checks\_threshold**: `object`
 
-Defined in: main.ts:174642
+Defined in: main.ts:175006
 
 custom threshold values for checks
 optional field
@@ -128,7 +128,7 @@ Note: only integer threshold values can be modified;
 
 > `optional` **custom\_js**: `string`
 
-Defined in: main.ts:174627
+Defined in: main.ts:174991
 
 custom javascript
 optional fieldNote that the execution time for the script you enter here should be 700 ms maximum;
@@ -148,7 +148,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 > `optional` **custom\_user\_agent**: `string`
 
-Defined in: main.ts:174532
+Defined in: main.ts:174896
 
 custom user agent
 optional field
@@ -163,7 +163,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 > `optional` **disable\_cookie\_popup**: `boolean`
 
-Defined in: main.ts:174604
+Defined in: main.ts:174968
 
 disable the cookie popup 
 optional field
@@ -177,7 +177,7 @@ false
 
 > `optional` **enable\_browser\_rendering**: `boolean`
 
-Defined in: main.ts:174598
+Defined in: main.ts:174962
 
 emulate browser rendering to measure Core Web Vitals
 optional field
@@ -194,7 +194,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 > `optional` **enable\_javascript**: `boolean`
 
-Defined in: main.ts:174589
+Defined in: main.ts:174953
 
 load javascript on a page
 optional field
@@ -208,7 +208,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 > `optional` **enable\_xhr**: `boolean`
 
-Defined in: main.ts:174615
+Defined in: main.ts:174979
 
 enable XMLHttpRequest on a page
 optional field
@@ -222,7 +222,7 @@ falseif you use this field, enable_javascript must be set to true;
 
 > `optional` **ip\_pool\_for\_scan**: `string`
 
-Defined in: main.ts:174653
+Defined in: main.ts:175017
 
 proxy pool
 optional field
@@ -236,7 +236,7 @@ possible values: us, de
 
 > `optional` **load\_resources**: `boolean`
 
-Defined in: main.ts:174583
+Defined in: main.ts:174947
 
 load resources
 optional field
@@ -250,7 +250,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 > `optional` **return\_despite\_timeout**: `boolean`
 
-Defined in: main.ts:174609
+Defined in: main.ts:174973
 
 return data on pages despite the timeout error
 optional field
@@ -263,7 +263,7 @@ default value: false
 
 > `optional` **store\_raw\_html**: `boolean`
 
-Defined in: main.ts:174572
+Defined in: main.ts:174936
 
 store HTML of a crawled page
 optional field
@@ -276,7 +276,7 @@ default value: false
 
 > `optional` **switch\_pool**: `boolean`
 
-Defined in: main.ts:174647
+Defined in: main.ts:175011
 
 switch proxy pool
 optional field
@@ -289,7 +289,7 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:174525
+Defined in: main.ts:174889
 
 target page url
 required field
@@ -304,7 +304,7 @@ to prevent this error from occurring, avoid setting tasks with the same domain i
 
 > `optional` **validate\_micromarkup**: `boolean`
 
-Defined in: main.ts:174632
+Defined in: main.ts:174996
 
 enable microdata validation
 optional field

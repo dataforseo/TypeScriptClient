@@ -6,7 +6,7 @@
 
 # Interface: ISerpYahooLanguagesTaskInfo
 
-Defined in: main.ts:75108
+Defined in: main.ts:75144
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpYahooLanguagesResultInfo`](../classes/SerpYahooLanguagesResultInfo.md)[]
 
-Defined in: main.ts:75110
+Defined in: main.ts:75146
 
 array of results
 

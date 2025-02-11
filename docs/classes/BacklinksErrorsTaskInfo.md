@@ -6,7 +6,7 @@
 
 # Class: BacklinksErrorsTaskInfo
 
-Defined in: main.ts:149334
+Defined in: main.ts:149498
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:149334
 
 > **new BacklinksErrorsTaskInfo**(`data`?): [`BacklinksErrorsTaskInfo`](BacklinksErrorsTaskInfo.md)
 
-Defined in: main.ts:149340
+Defined in: main.ts:149504
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`BacklinksErrorsResultInfo`](BacklinksErrorsResultInfo.md)[]
 
-Defined in: main.ts:149336
+Defined in: main.ts:149500
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:149344
+Defined in: main.ts:149508
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:149344
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:149366
+Defined in: main.ts:149530
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:149366
 
 > `static` **fromJS**(`data`): [`BacklinksErrorsTaskInfo`](BacklinksErrorsTaskInfo.md)
 
-Defined in: main.ts:149359
+Defined in: main.ts:149523
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleRelevantPagesLiveResultInfo
 
-Defined in: main.ts:104818
+Defined in: main.ts:104882
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:104818
 
 > **new DataforseoLabsGoogleRelevantPagesLiveResultInfo**(`data`?): [`DataforseoLabsGoogleRelevantPagesLiveResultInfo`](DataforseoLabsGoogleRelevantPagesLiveResultInfo.md)
 
-Defined in: main.ts:104838
+Defined in: main.ts:104902
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:104838
 
 > `optional` **items**: [`DataforseoLabsRelevantPagesLiveItem`](DataforseoLabsRelevantPagesLiveItem.md)[]
 
-Defined in: main.ts:104834
+Defined in: main.ts:104898
 
 relevant pages and related data
 
@@ -54,7 +54,7 @@ relevant pages and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:104832
+Defined in: main.ts:104896
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:104828
+Defined in: main.ts:104892
 
 language code in a POST array
 if there is no data, then the value is null
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:104825
+Defined in: main.ts:104889
 
 location code in a POST array
 if there is no data, then the value is null
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:104820
+Defined in: main.ts:104884
 
 search engine type
 
@@ -112,7 +112,7 @@ search engine type
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:104822
+Defined in: main.ts:104886
 
 target domain in a POST array
 
@@ -126,7 +126,7 @@ target domain in a POST array
 
 > `optional` **total\_count**: `number`
 
-Defined in: main.ts:104830
+Defined in: main.ts:104894
 
 total amount of results in our database relevant to your request
 
@@ -140,7 +140,7 @@ total amount of results in our database relevant to your request
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:104847
+Defined in: main.ts:104911
 
 #### Parameters
 
@@ -158,7 +158,7 @@ Defined in: main.ts:104847
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:104874
+Defined in: main.ts:104938
 
 #### Parameters
 
@@ -176,7 +176,7 @@ Defined in: main.ts:104874
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleRelevantPagesLiveResultInfo`](DataforseoLabsGoogleRelevantPagesLiveResultInfo.md)
 
-Defined in: main.ts:104867
+Defined in: main.ts:104931
 
 #### Parameters
 

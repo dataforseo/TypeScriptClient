@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleAppReviewsTaskPostTaskInfo
 
-Defined in: main.ts:203103
+Defined in: main.ts:203605
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:203106
+Defined in: main.ts:203608
 
 array of results
 in this case, the value will be null

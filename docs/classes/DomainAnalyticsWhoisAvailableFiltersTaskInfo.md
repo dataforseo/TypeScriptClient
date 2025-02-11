@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsWhoisAvailableFiltersTaskInfo
 
-Defined in: main.ts:88968
+Defined in: main.ts:89004
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:88968
 
 > **new DomainAnalyticsWhoisAvailableFiltersTaskInfo**(`data`?): [`DomainAnalyticsWhoisAvailableFiltersTaskInfo`](DomainAnalyticsWhoisAvailableFiltersTaskInfo.md)
 
-Defined in: main.ts:88973
+Defined in: main.ts:89009
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DomainAnalyticsWhoisAvailableFiltersResultInfo`](DomainAnalyticsWhoisAvailableFiltersResultInfo.md)[]
 
-Defined in: main.ts:88969
+Defined in: main.ts:89005
 
 #### Implementation of
 
@@ -212,7 +212,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:88977
+Defined in: main.ts:89013
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:88977
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:88999
+Defined in: main.ts:89035
 
 #### Parameters
 
@@ -256,7 +256,7 @@ Defined in: main.ts:88999
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsWhoisAvailableFiltersTaskInfo`](DomainAnalyticsWhoisAvailableFiltersTaskInfo.md)
 
-Defined in: main.ts:88992
+Defined in: main.ts:89028
 
 #### Parameters
 

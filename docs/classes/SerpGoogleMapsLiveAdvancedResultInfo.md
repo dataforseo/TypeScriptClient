@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleMapsLiveAdvancedResultInfo
 
-Defined in: main.ts:42587
+Defined in: main.ts:42603
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:42587
 
 > **new SerpGoogleMapsLiveAdvancedResultInfo**(`data`?): [`SerpGoogleMapsLiveAdvancedResultInfo`](SerpGoogleMapsLiveAdvancedResultInfo.md)
 
-Defined in: main.ts:42627
+Defined in: main.ts:42643
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:42627
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:42602
+Defined in: main.ts:42618
 
 direct URL to search engine results
 you can use it to make sure that we provided exact results
@@ -56,7 +56,7 @@ Note: to check location-specific results, follow the provided check url, scroll 
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:42607
+Defined in: main.ts:42623
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -73,7 +73,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:42617
+Defined in: main.ts:42633
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -90,7 +90,7 @@ maps_search, maps_paid_item
 
 > `optional` **items**: [`BaseGoogleMapsSerpElementItem`](BaseGoogleMapsSerpElementItem.md)[]
 
-Defined in: main.ts:42623
+Defined in: main.ts:42639
 
 items of the element
 
@@ -104,7 +104,7 @@ items of the element
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:42621
+Defined in: main.ts:42637
 
 the number of results returned in the items array
 
@@ -118,7 +118,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:42590
+Defined in: main.ts:42606
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -133,7 +133,7 @@ the keyword is returned with decoded %## (plus character ‘+’ will be decoded
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:42598
+Defined in: main.ts:42614
 
 language code in a POST array
 
@@ -147,7 +147,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:42596
+Defined in: main.ts:42612
 
 location code in a POST array
 
@@ -161,7 +161,7 @@ location code in a POST array
 
 > `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
 
-Defined in: main.ts:42612
+Defined in: main.ts:42628
 
 search refinement chips
 
@@ -175,7 +175,7 @@ search refinement chips
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:42594
+Defined in: main.ts:42610
 
 search engine domain in a POST array
 
@@ -189,7 +189,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:42619
+Defined in: main.ts:42635
 
 total number of results in SERP
 
@@ -203,7 +203,7 @@ total number of results in SERP
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:42610
+Defined in: main.ts:42626
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -218,7 +218,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:42592
+Defined in: main.ts:42608
 
 type of element
 
@@ -232,7 +232,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:42636
+Defined in: main.ts:42652
 
 #### Parameters
 
@@ -250,7 +250,7 @@ Defined in: main.ts:42636
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:42673
+Defined in: main.ts:42689
 
 #### Parameters
 
@@ -268,7 +268,7 @@ Defined in: main.ts:42673
 
 > `static` **fromJS**(`data`): [`SerpGoogleMapsLiveAdvancedResultInfo`](SerpGoogleMapsLiveAdvancedResultInfo.md)
 
-Defined in: main.ts:42666
+Defined in: main.ts:42682
 
 #### Parameters
 

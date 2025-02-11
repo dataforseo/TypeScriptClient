@@ -6,7 +6,7 @@
 
 # Interface: IContentGenerationTextSummaryLanguagesResponseInfo
 
-Defined in: main.ts:184001
+Defined in: main.ts:184363
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`ContentGenerationTextSummaryLanguagesTaskInfo`](../classes/ContentGenerationTextSummaryLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:184003
+Defined in: main.ts:184365
 
 array of tasks
 

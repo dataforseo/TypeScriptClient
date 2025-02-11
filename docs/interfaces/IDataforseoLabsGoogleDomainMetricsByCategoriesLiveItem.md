@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem
 
-Defined in: main.ts:99318
+Defined in: main.ts:99346
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:99318
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:99334
+Defined in: main.ts:99362
 
 domain found for the specified category
 
@@ -28,7 +28,7 @@ domain found for the specified category
 
 > `optional` **main\_domain**: `string`
 
-Defined in: main.ts:99336
+Defined in: main.ts:99364
 
 primary domain
 
@@ -38,7 +38,7 @@ primary domain
 
 > `optional` **metrics\_difference**: `object`
 
-Defined in: main.ts:99341
+Defined in: main.ts:99369
 
 metrics difference between first_date and second_date
 calculated by subtracting domain metrics as of the greater date from domain metrics as of the smaller date
@@ -53,7 +53,7 @@ calculated by subtracting domain metrics as of the greater date from domain metr
 
 > `optional` **metrics\_history**: `object`
 
-Defined in: main.ts:99338
+Defined in: main.ts:99366
 
 historical ranking and traffic data of the domain
 
@@ -67,7 +67,7 @@ historical ranking and traffic data of the domain
 
 > `optional` **organic\_count**: `number`
 
-Defined in: main.ts:99326
+Defined in: main.ts:99354
 
 current total count of organic SERPs that contain the domain
 
@@ -77,7 +77,7 @@ current total count of organic SERPs that contain the domain
 
 > `optional` **organic\_etv**: `number`
 
-Defined in: main.ts:99324
+Defined in: main.ts:99352
 
 current organic ETV of the domain
 
@@ -87,7 +87,7 @@ current organic ETV of the domain
 
 > `optional` **organic\_is\_lost**: `number`
 
-Defined in: main.ts:99329
+Defined in: main.ts:99357
 
 current number of lost ranked elements
 indicates how many ranked elements of the domain were previously presented in SERPs, but weren’t found during the last check
@@ -98,7 +98,7 @@ indicates how many ranked elements of the domain were previously presented in SE
 
 > `optional` **organic\_is\_new**: `number`
 
-Defined in: main.ts:99332
+Defined in: main.ts:99360
 
 current number of new ranked elements
 indicates how many new ranked elements were found for the domain
@@ -109,7 +109,7 @@ indicates how many new ranked elements were found for the domain
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:99320
+Defined in: main.ts:99348
 
 search engine type
 
@@ -119,6 +119,6 @@ search engine type
 
 > `optional` **top\_categories**: `number`[]
 
-Defined in: main.ts:99322
+Defined in: main.ts:99350
 
 categories for which domains are collected

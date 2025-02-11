@@ -6,7 +6,7 @@
 
 # Interface: IDictionarySerpElementItem
 
-Defined in: main.ts:80101
+Defined in: main.ts:80137
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:80101
 
 > `optional` **breadcrumb**: `string`
 
-Defined in: main.ts:80109
+Defined in: main.ts:80145
 
 breadcrumb of the Ad element in SERP
 
@@ -32,7 +32,7 @@ breadcrumb of the Ad element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:80107
+Defined in: main.ts:80143
 
 domain in SERP
 
@@ -42,7 +42,7 @@ domain in SERP
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:80111
+Defined in: main.ts:80147
 
 keyword highlighted in the result
 
@@ -52,7 +52,7 @@ keyword highlighted in the result
 
 > `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
-Defined in: main.ts:80119
+Defined in: main.ts:80155
 
 sitelinks
 the links shown below some of search results
@@ -111,7 +111,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:80123
+Defined in: main.ts:80159
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -123,7 +123,7 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:80113
+Defined in: main.ts:80149
 
 snippet of the element
 
@@ -133,7 +133,7 @@ snippet of the element
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:80115
+Defined in: main.ts:80151
 
 description of the results element in SERP
 
@@ -143,7 +143,7 @@ description of the results element in SERP
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:80103
+Defined in: main.ts:80139
 
 title of the result in SERP
 
@@ -167,7 +167,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:80105
+Defined in: main.ts:80141
 
 relevant URL of the Ad element in SERP
 

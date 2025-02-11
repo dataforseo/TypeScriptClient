@@ -6,7 +6,7 @@
 
 # Class: BusinessDataContactInfo
 
-Defined in: main.ts:211170
+Defined in: main.ts:211672
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:211170
 
 > **new BusinessDataContactInfo**(`data`?): [`BusinessDataContactInfo`](BusinessDataContactInfo.md)
 
-Defined in: main.ts:211182
+Defined in: main.ts:211684
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:211182
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:211178
+Defined in: main.ts:211680
 
 data source
 
@@ -54,7 +54,7 @@ data source
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:211172
+Defined in: main.ts:211674
 
 type of element
 
@@ -68,7 +68,7 @@ type of element
 
 > `optional` **value**: `string`
 
-Defined in: main.ts:211176
+Defined in: main.ts:211678
 
 contact displayed in SERP 
 example:
@@ -84,7 +84,7 @@ example:
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:211191
+Defined in: main.ts:211693
 
 #### Parameters
 
@@ -102,7 +102,7 @@ Defined in: main.ts:211191
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:211210
+Defined in: main.ts:211712
 
 #### Parameters
 
@@ -120,7 +120,7 @@ Defined in: main.ts:211210
 
 > `static` **fromJS**(`data`): [`BusinessDataContactInfo`](BusinessDataContactInfo.md)
 
-Defined in: main.ts:211203
+Defined in: main.ts:211705
 
 #### Parameters
 

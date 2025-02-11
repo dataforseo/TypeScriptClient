@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleSearchByImageTaskPostTaskInfo
 
-Defined in: main.ts:52862
+Defined in: main.ts:52878
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:52862
 
 > **new SerpGoogleSearchByImageTaskPostTaskInfo**(`data`?): [`SerpGoogleSearchByImageTaskPostTaskInfo`](SerpGoogleSearchByImageTaskPostTaskInfo.md)
 
-Defined in: main.ts:52869
+Defined in: main.ts:52885
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:52865
+Defined in: main.ts:52881
 
 array of results
 in this case, the value will be null
@@ -215,7 +215,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:52873
+Defined in: main.ts:52889
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:52873
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:52891
+Defined in: main.ts:52907
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:52891
 
 > `static` **fromJS**(`data`): [`SerpGoogleSearchByImageTaskPostTaskInfo`](SerpGoogleSearchByImageTaskPostTaskInfo.md)
 
-Defined in: main.ts:52884
+Defined in: main.ts:52900
 
 #### Parameters
 

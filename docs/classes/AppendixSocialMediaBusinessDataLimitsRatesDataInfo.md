@@ -6,7 +6,7 @@
 
 # Class: AppendixSocialMediaBusinessDataLimitsRatesDataInfo
 
-Defined in: main.ts:232024
+Defined in: main.ts:232540
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:232024
 
 > **new AppendixSocialMediaBusinessDataLimitsRatesDataInfo**(`data`?): [`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`](AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:232031
+Defined in: main.ts:232547
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:232031
 
 > `optional` **facebook**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:232025
+Defined in: main.ts:232541
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:232025
 
 > `optional` **pinterest**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:232026
+Defined in: main.ts:232542
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:232026
 
 > `optional` **reddit**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:232027
+Defined in: main.ts:232543
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:232027
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:232040
+Defined in: main.ts:232556
 
 #### Parameters
 
@@ -94,7 +94,7 @@ Defined in: main.ts:232040
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:232059
+Defined in: main.ts:232575
 
 #### Parameters
 
@@ -112,7 +112,7 @@ Defined in: main.ts:232059
 
 > `static` **fromJS**(`data`): [`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`](AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
 
-Defined in: main.ts:232052
+Defined in: main.ts:232568
 
 #### Parameters
 

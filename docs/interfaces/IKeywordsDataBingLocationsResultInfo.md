@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingLocationsResultInfo
 
-Defined in: main.ts:138241
+Defined in: main.ts:138405
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:138241
 
 > `optional` **country\_iso\_code**: `string`
 
-Defined in: main.ts:138255
+Defined in: main.ts:138419
 
 ISO country code of the location
 
@@ -28,7 +28,7 @@ ISO country code of the location
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:138243
+Defined in: main.ts:138407
 
 location code
 
@@ -38,7 +38,7 @@ location code
 
 > `optional` **location\_code\_parent**: `number`
 
-Defined in: main.ts:138253
+Defined in: main.ts:138417
 
 the code of the superordinate location
 example:
@@ -54,7 +54,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:138245
+Defined in: main.ts:138409
 
 full name of the location
 
@@ -64,6 +64,6 @@ full name of the location
 
 > `optional` **location\_type**: `string`
 
-Defined in: main.ts:138257
+Defined in: main.ts:138421
 
 location type

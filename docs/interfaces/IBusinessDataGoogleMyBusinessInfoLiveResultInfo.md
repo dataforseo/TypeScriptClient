@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleMyBusinessInfoLiveResultInfo
 
-Defined in: main.ts:214997
+Defined in: main.ts:215499
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:214997
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:215013
+Defined in: main.ts:215515
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -29,7 +29,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:215018
+Defined in: main.ts:215520
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -42,7 +42,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:215022
+Defined in: main.ts:215524
 
 item types
 types of search engine results encountered in the items array;
@@ -54,7 +54,7 @@ possible item types: google_business_info
 
 > `optional` **items**: [`BaseBusinessDataSerpElementItem`](../classes/BaseBusinessDataSerpElementItem.md)[]
 
-Defined in: main.ts:215029
+Defined in: main.ts:215531
 
 encountered item types
 types of search engine results encountered in the items array;
@@ -66,7 +66,7 @@ possible item types: google_business_info
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:215025
+Defined in: main.ts:215527
 
 item types
 the number of items in the items array
@@ -77,7 +77,7 @@ the number of items in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:215004
+Defined in: main.ts:215506
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
@@ -92,7 +92,7 @@ learn more about the parameter in this help center article
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:215010
+Defined in: main.ts:215512
 
 language code in a POST array
 
@@ -102,7 +102,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:215008
+Defined in: main.ts:215510
 
 location code in a POST array
 
@@ -112,6 +112,6 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:215006
+Defined in: main.ts:215508
 
 search engine domain as specified in a POST array

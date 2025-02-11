@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleJobsTasksFixedResultInfo
 
-Defined in: main.ts:54356
+Defined in: main.ts:54372
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:54356
 
 > `optional` **date\_fixed**: `string`
 
-Defined in: main.ts:54366
+Defined in: main.ts:54382
 
 date when the task was fixed (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was fixed (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:54374
+Defined in: main.ts:54390
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -39,7 +39,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:54377
+Defined in: main.ts:54393
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -50,7 +50,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 > `optional` **endpoint\_regular**: `string`
 
-Defined in: main.ts:54371
+Defined in: main.ts:54387
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -61,7 +61,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:54359
+Defined in: main.ts:54375
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:54361
+Defined in: main.ts:54377
 
 search engine specified when setting the task
 
@@ -82,7 +82,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:54364
+Defined in: main.ts:54380
 
 type of search engine
 can take the following values: jobs
@@ -93,6 +93,6 @@ can take the following values: jobs
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:54368
+Defined in: main.ts:54384
 
 user-defined task identifier

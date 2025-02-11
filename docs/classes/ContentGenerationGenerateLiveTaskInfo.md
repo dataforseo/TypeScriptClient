@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationGenerateLiveTaskInfo
 
-Defined in: main.ts:181450
+Defined in: main.ts:181812
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:181450
 
 > **new ContentGenerationGenerateLiveTaskInfo**(`data`?): [`ContentGenerationGenerateLiveTaskInfo`](ContentGenerationGenerateLiveTaskInfo.md)
 
-Defined in: main.ts:181456
+Defined in: main.ts:181818
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`ContentGenerationGenerateLiveResultInfo`](ContentGenerationGenerateLiveResultInfo.md)[]
 
-Defined in: main.ts:181452
+Defined in: main.ts:181814
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:181460
+Defined in: main.ts:181822
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:181460
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:181482
+Defined in: main.ts:181844
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:181482
 
 > `static` **fromJS**(`data`): [`ContentGenerationGenerateLiveTaskInfo`](ContentGenerationGenerateLiveTaskInfo.md)
 
-Defined in: main.ts:181475
+Defined in: main.ts:181837
 
 #### Parameters
 

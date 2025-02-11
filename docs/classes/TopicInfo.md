@@ -6,7 +6,7 @@
 
 # Class: TopicInfo
 
-Defined in: main.ts:173354
+Defined in: main.ts:174188
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:173354
 
 > **new TopicInfo**(`data`?): [`TopicInfo`](TopicInfo.md)
 
-Defined in: main.ts:173376
+Defined in: main.ts:174210
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:173376
 
 > `optional` **author**: `string`
 
-Defined in: main.ts:173360
+Defined in: main.ts:174194
 
 content author name
 
@@ -54,7 +54,7 @@ content author name
 
 > `optional` **h\_title**: `string`
 
-Defined in: main.ts:173356
+Defined in: main.ts:174190
 
 meta title
 
@@ -68,7 +68,7 @@ meta title
 
 > `optional` **language**: `string`
 
-Defined in: main.ts:173362
+Defined in: main.ts:174196
 
 content language
 
@@ -80,9 +80,9 @@ content language
 
 ### level?
 
-> `optional` **level**: `number`
+> `optional` **level**: `string`
 
-Defined in: main.ts:173364
+Defined in: main.ts:174198
 
 HTML level
 
@@ -96,7 +96,7 @@ HTML level
 
 > `optional` **main\_title**: `string`
 
-Defined in: main.ts:173358
+Defined in: main.ts:174192
 
 main title of the block
 
@@ -110,7 +110,7 @@ main title of the block
 
 > `optional` **primary\_content**: [`ContentItemInfo`](ContentItemInfo.md)[]
 
-Defined in: main.ts:173367
+Defined in: main.ts:174201
 
 primary content on the page
 you can find more information about content priority calculation in this help center article
@@ -125,7 +125,7 @@ you can find more information about content priority calculation in this help ce
 
 > `optional` **secondary\_content**: [`ContentItemInfo`](ContentItemInfo.md)[]
 
-Defined in: main.ts:173370
+Defined in: main.ts:174204
 
 secondary content on the page
 you can find more information about content priority calculation in this help center article
@@ -140,7 +140,7 @@ you can find more information about content priority calculation in this help ce
 
 > `optional` **table\_content**: [`TableContent`](TableContent.md)[]
 
-Defined in: main.ts:173372
+Defined in: main.ts:174206
 
 content of the table on the page
 
@@ -154,7 +154,7 @@ content of the table on the page
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:173385
+Defined in: main.ts:174219
 
 #### Parameters
 
@@ -172,7 +172,7 @@ Defined in: main.ts:173385
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:173421
+Defined in: main.ts:174255
 
 #### Parameters
 
@@ -190,7 +190,7 @@ Defined in: main.ts:173421
 
 > `static` **fromJS**(`data`): [`TopicInfo`](TopicInfo.md)
 
-Defined in: main.ts:173414
+Defined in: main.ts:174248
 
 #### Parameters
 

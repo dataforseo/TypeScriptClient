@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleJobsTaskGetHtmlResponseInfo
 
-Defined in: main.ts:55143
+Defined in: main.ts:55159
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleJobsTaskGetHtmlTaskInfo`](../classes/SerpGoogleJobsTaskGetHtmlTaskInfo.md)[]
 
-Defined in: main.ts:55145
+Defined in: main.ts:55161
 
 array of tasks
 

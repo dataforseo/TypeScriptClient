@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleJobsTasksFixedTaskInfo
 
-Defined in: main.ts:54382
+Defined in: main.ts:54398
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:54382
 
 > **new SerpGoogleJobsTasksFixedTaskInfo**(`data`?): [`SerpGoogleJobsTasksFixedTaskInfo`](SerpGoogleJobsTasksFixedTaskInfo.md)
 
-Defined in: main.ts:54388
+Defined in: main.ts:54404
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleJobsTasksFixedResultInfo`](SerpGoogleJobsTasksFixedResultInfo.md)[]
 
-Defined in: main.ts:54384
+Defined in: main.ts:54400
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:54392
+Defined in: main.ts:54408
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:54392
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:54414
+Defined in: main.ts:54430
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:54414
 
 > `static` **fromJS**(`data`): [`SerpGoogleJobsTasksFixedTaskInfo`](SerpGoogleJobsTasksFixedTaskInfo.md)
 
-Defined in: main.ts:54407
+Defined in: main.ts:54423
 
 #### Parameters
 

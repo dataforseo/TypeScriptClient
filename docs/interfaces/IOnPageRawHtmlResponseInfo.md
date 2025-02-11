@@ -6,7 +6,7 @@
 
 # Interface: IOnPageRawHtmlResponseInfo
 
-Defined in: main.ts:172425
+Defined in: main.ts:172589
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageRawHtmlTaskInfo`](../classes/OnPageRawHtmlTaskInfo.md)[]
 
-Defined in: main.ts:172427
+Defined in: main.ts:172591
 
 array of tasks
 

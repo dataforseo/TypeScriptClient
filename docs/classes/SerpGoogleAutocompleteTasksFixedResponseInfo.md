@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleAutocompleteTasksFixedResponseInfo
 
-Defined in: main.ts:55901
+Defined in: main.ts:55917
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:55901
 
 > **new SerpGoogleAutocompleteTasksFixedResponseInfo**(`data`?): [`SerpGoogleAutocompleteTasksFixedResponseInfo`](SerpGoogleAutocompleteTasksFixedResponseInfo.md)
 
-Defined in: main.ts:55907
+Defined in: main.ts:55923
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleAutocompleteTasksFixedTaskInfo`](SerpGoogleAutocompleteTasksFixedTaskInfo.md)[]
 
-Defined in: main.ts:55903
+Defined in: main.ts:55919
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:55911
+Defined in: main.ts:55927
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:55911
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:55933
+Defined in: main.ts:55949
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:55933
 
 > `static` **fromJS**(`data`): [`SerpGoogleAutocompleteTasksFixedResponseInfo`](SerpGoogleAutocompleteTasksFixedResponseInfo.md)
 
-Defined in: main.ts:55926
+Defined in: main.ts:55942
 
 #### Parameters
 

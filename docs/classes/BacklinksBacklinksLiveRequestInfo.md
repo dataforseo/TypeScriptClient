@@ -6,7 +6,7 @@
 
 # Class: BacklinksBacklinksLiveRequestInfo
 
-Defined in: main.ts:151400
+Defined in: main.ts:151564
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:151400
 
 > **new BacklinksBacklinksLiveRequestInfo**(`data`?): [`BacklinksBacklinksLiveRequestInfo`](BacklinksBacklinksLiveRequestInfo.md)
 
-Defined in: main.ts:151523
+Defined in: main.ts:151687
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:151523
 
 > `optional` **backlinks\_status\_type**: `string`
 
-Defined in: main.ts:151496
+Defined in: main.ts:151660
 
 set what backlinks to return and count
 optional field
@@ -61,7 +61,7 @@ default value: live
 
 > `optional` **custom\_mode**: `object`
 
-Defined in: main.ts:151420
+Defined in: main.ts:151584
 
 detailed results grouping type
 optional field
@@ -84,7 +84,7 @@ example:
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
-Defined in: main.ts:151513
+Defined in: main.ts:151677
 
 indicates if internal backlinks from subdomains to the target will be excluded from the results
 optional field
@@ -102,7 +102,7 @@ default value: true
 
 > `optional` **field**: `string`
 
-Defined in: main.ts:151433
+Defined in: main.ts:151597
 
 response field
 required field if you choose to specify custom_mode
@@ -127,14 +127,14 @@ semantic_location
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:151454
+Defined in: main.ts:151618
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, =, <>, in, not_in, like, not_like, ilike, not_ilike, regex, not_regex
+=, <>, in, not_in, like, not_like, ilike, not_ilike, regex, not_regex, match, not_match
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["rank",">","80"]
@@ -156,7 +156,7 @@ The full list of possible filters is available here.
 
 > `optional` **include\_indirect\_links**: `boolean`
 
-Defined in: main.ts:151507
+Defined in: main.ts:151671
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -174,7 +174,7 @@ default value: true
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:151501
+Defined in: main.ts:151665
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -191,7 +191,7 @@ default value: true
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:151487
+Defined in: main.ts:151651
 
 the maximum number of returned backlinks
 optional field
@@ -208,7 +208,7 @@ maximum value: 1000
 
 > `optional` **mode**: `string`
 
-Defined in: main.ts:151413
+Defined in: main.ts:151577
 
 results grouping type
 optional field
@@ -228,7 +228,7 @@ default value: as_is
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:151474
+Defined in: main.ts:151638
 
 offset in the results array of the returned backlinks
 optional field
@@ -246,7 +246,7 @@ Note: the maximum value is 20,000, use the search_after_token if you would like 
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:151468
+Defined in: main.ts:151632
 
 results sorting rules
 optional field
@@ -272,14 +272,14 @@ example:
 
 > `optional` **search\_after\_token**: `string`
 
-Defined in: main.ts:151482
+Defined in: main.ts:151646
 
 token for subsequent requests
 optional field
 provided in the identical filed of the response to each request;
-use this parameter to avoid timeouts while trying to obtain over 100,000 results in a single request;
+use this parameter to avoid timeouts while trying to obtain over 20,000 results in a single request;
 by specifying the unique search_after_token value from the response array, you will get the subsequent results of the initial task;
-search_after_token values are unique for each subsequent task
+search_after_token values are unique for each subsequent task ;
 Note: if the search_after_token is specified in the request, all other parameters should be identical to the previous request
 
 #### Implementation of
@@ -292,7 +292,7 @@ Note: if the search_after_token is specified in the request, all other parameter
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:151519
+Defined in: main.ts:151683
 
 user-defined task identifier
 optional field
@@ -310,7 +310,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:151405
+Defined in: main.ts:151569
 
 domain, subdomain or webpage to get backlinks for
 required field
@@ -327,7 +327,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 > `optional` **value**: `number`
 
-Defined in: main.ts:151437
+Defined in: main.ts:151601
 
 number of backlinks to return per field
 required field if you choose to specify custom_mode
@@ -343,7 +343,7 @@ can be set from 1 to 1000
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:151532
+Defined in: main.ts:151696
 
 #### Parameters
 
@@ -361,7 +361,7 @@ Defined in: main.ts:151532
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:151577
+Defined in: main.ts:151741
 
 #### Parameters
 
@@ -379,7 +379,7 @@ Defined in: main.ts:151577
 
 > `static` **fromJS**(`data`): [`BacklinksBacklinksLiveRequestInfo`](BacklinksBacklinksLiveRequestInfo.md)
 
-Defined in: main.ts:151570
+Defined in: main.ts:151734
 
 #### Parameters
 

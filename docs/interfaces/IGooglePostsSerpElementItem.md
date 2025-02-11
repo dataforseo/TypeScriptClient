@@ -6,7 +6,7 @@
 
 # Interface: IGooglePostsSerpElementItem
 
-Defined in: main.ts:36566
+Defined in: main.ts:36582
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:36566
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:36572
+Defined in: main.ts:36588
 
 google-defined client id
 
@@ -32,7 +32,7 @@ google-defined client id
 
 > `optional` **feature**: `string`
 
-Defined in: main.ts:36570
+Defined in: main.ts:36586
 
 the additional feature of the review
 
@@ -58,7 +58,7 @@ left, right
 
 > `optional` **posts\_id**: `string`
 
-Defined in: main.ts:36568
+Defined in: main.ts:36584
 
 the identifier of the google_posts feature
 
@@ -99,7 +99,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:36576
+Defined in: main.ts:36592
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP

@@ -6,7 +6,7 @@
 
 # Class: OnPageRedirectChainsResponseInfo
 
-Defined in: main.ts:170257
+Defined in: main.ts:170421
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:170257
 
 > **new OnPageRedirectChainsResponseInfo**(`data`?): [`OnPageRedirectChainsResponseInfo`](OnPageRedirectChainsResponseInfo.md)
 
-Defined in: main.ts:170263
+Defined in: main.ts:170427
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageRedirectChainsTaskInfo`](OnPageRedirectChainsTaskInfo.md)[]
 
-Defined in: main.ts:170259
+Defined in: main.ts:170423
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:170267
+Defined in: main.ts:170431
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:170267
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:170289
+Defined in: main.ts:170453
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:170289
 
 > `static` **fromJS**(`data`): [`OnPageRedirectChainsResponseInfo`](OnPageRedirectChainsResponseInfo.md)
 
-Defined in: main.ts:170282
+Defined in: main.ts:170446
 
 #### Parameters
 

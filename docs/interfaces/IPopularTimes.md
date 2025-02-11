@@ -6,7 +6,7 @@
 
 # Interface: IPopularTimes
 
-Defined in: main.ts:211162
+Defined in: main.ts:211664
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:211162
 
 > `optional` **popular\_times\_by\_days**: `object`
 
-Defined in: main.ts:211165
+Defined in: main.ts:211667
 
 popular hours
 information about busy hours of the local establishment on each day of the week

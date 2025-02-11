@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsIdListTaskInfo
 
-Defined in: main.ts:90160
+Defined in: main.ts:90196
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:90160
 
 > **new DataforseoLabsIdListTaskInfo**(`data`?): [`DataforseoLabsIdListTaskInfo`](DataforseoLabsIdListTaskInfo.md)
 
-Defined in: main.ts:90166
+Defined in: main.ts:90202
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsIdListResultInfo`](DataforseoLabsIdListResultInfo.md)[]
 
-Defined in: main.ts:90162
+Defined in: main.ts:90198
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:90170
+Defined in: main.ts:90206
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:90170
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:90192
+Defined in: main.ts:90228
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:90192
 
 > `static` **fromJS**(`data`): [`DataforseoLabsIdListTaskInfo`](DataforseoLabsIdListTaskInfo.md)
 
-Defined in: main.ts:90185
+Defined in: main.ts:90221
 
 #### Parameters
 

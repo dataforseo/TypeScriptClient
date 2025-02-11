@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonSellersTaskGetHtmlTaskInfo
 
-Defined in: main.ts:196572
+Defined in: main.ts:197074
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:196572
 
 > **new MerchantAmazonSellersTaskGetHtmlTaskInfo**(`data`?): [`MerchantAmazonSellersTaskGetHtmlTaskInfo`](MerchantAmazonSellersTaskGetHtmlTaskInfo.md)
 
-Defined in: main.ts:196578
+Defined in: main.ts:197080
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`MerchantAmazonSellersTaskGetHtmlResultInfo`](MerchantAmazonSellersTaskGetHtmlResultInfo.md)[]
 
-Defined in: main.ts:196574
+Defined in: main.ts:197076
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:196582
+Defined in: main.ts:197084
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:196582
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:196604
+Defined in: main.ts:197106
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:196604
 
 > `static` **fromJS**(`data`): [`MerchantAmazonSellersTaskGetHtmlTaskInfo`](MerchantAmazonSellersTaskGetHtmlTaskInfo.md)
 
-Defined in: main.ts:196597
+Defined in: main.ts:197099
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleQuestionsAndAnswersLiveResponseInfo
 
-Defined in: main.ts:225427
+Defined in: main.ts:225935
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:225427
 
 > **new BusinessDataGoogleQuestionsAndAnswersLiveResponseInfo**(`data`?): [`BusinessDataGoogleQuestionsAndAnswersLiveResponseInfo`](BusinessDataGoogleQuestionsAndAnswersLiveResponseInfo.md)
 
-Defined in: main.ts:225433
+Defined in: main.ts:225941
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BusinessDataGoogleQuestionsAndAnswersLiveTaskInfo`](BusinessDataGoogleQuestionsAndAnswersLiveTaskInfo.md)[]
 
-Defined in: main.ts:225429
+Defined in: main.ts:225937
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:225437
+Defined in: main.ts:225945
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:225437
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:225459
+Defined in: main.ts:225967
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:225459
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleQuestionsAndAnswersLiveResponseInfo`](BusinessDataGoogleQuestionsAndAnswersLiveResponseInfo.md)
 
-Defined in: main.ts:225452
+Defined in: main.ts:225960
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: BusinessDataErrorsResponseInfo
 
-Defined in: main.ts:210013
+Defined in: main.ts:210515
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:210013
 
 > **new BusinessDataErrorsResponseInfo**(`data`?): [`BusinessDataErrorsResponseInfo`](BusinessDataErrorsResponseInfo.md)
 
-Defined in: main.ts:210019
+Defined in: main.ts:210521
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BusinessDataErrorsTaskInfo`](BusinessDataErrorsTaskInfo.md)[]
 
-Defined in: main.ts:210015
+Defined in: main.ts:210517
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:210023
+Defined in: main.ts:210525
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:210023
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:210045
+Defined in: main.ts:210547
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:210045
 
 > `static` **fromJS**(`data`): [`BusinessDataErrorsResponseInfo`](BusinessDataErrorsResponseInfo.md)
 
-Defined in: main.ts:210038
+Defined in: main.ts:210540
 
 #### Parameters
 

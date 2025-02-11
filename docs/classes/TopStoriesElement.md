@@ -6,7 +6,7 @@
 
 # Class: TopStoriesElement
 
-Defined in: main.ts:31563
+Defined in: main.ts:31569
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:31563
 
 > **new TopStoriesElement**(`data`?): [`TopStoriesElement`](TopStoriesElement.md)
 
-Defined in: main.ts:31593
+Defined in: main.ts:31599
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:31593
 
 > `optional` **amp\_version**: `boolean`
 
-Defined in: main.ts:31577
+Defined in: main.ts:31583
 
 Accelerated Mobile Pages
 indicates whether an item has the Accelerated Mobile Page (AMP) version
@@ -55,7 +55,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 > `optional` **badges**: `string`[]
 
-Defined in: main.ts:31589
+Defined in: main.ts:31595
 
 badges relevant to the element
 
@@ -69,7 +69,7 @@ badges relevant to the element
 
 > `optional` **date**: `string`
 
-Defined in: main.ts:31574
+Defined in: main.ts:31580
 
 the date when the page source of the element was published
 
@@ -83,7 +83,7 @@ the date when the page source of the element was published
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:31570
+Defined in: main.ts:31576
 
 website domain
 
@@ -97,7 +97,7 @@ website domain
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:31587
+Defined in: main.ts:31593
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -112,7 +112,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:31568
+Defined in: main.ts:31574
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -127,7 +127,7 @@ indicates the source of information included in the top_stories_element
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:31582
+Defined in: main.ts:31588
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -144,7 +144,7 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:31572
+Defined in: main.ts:31578
 
 title of a given link element
 
@@ -158,7 +158,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:31565
+Defined in: main.ts:31571
 
 type of element
 
@@ -172,7 +172,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:31584
+Defined in: main.ts:31590
 
 URL
 
@@ -186,7 +186,7 @@ URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:31602
+Defined in: main.ts:31608
 
 #### Parameters
 
@@ -204,7 +204,7 @@ Defined in: main.ts:31602
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:31632
+Defined in: main.ts:31638
 
 #### Parameters
 
@@ -222,7 +222,7 @@ Defined in: main.ts:31632
 
 > `static` **fromJS**(`data`): [`TopStoriesElement`](TopStoriesElement.md)
 
-Defined in: main.ts:31625
+Defined in: main.ts:31631
 
 #### Parameters
 

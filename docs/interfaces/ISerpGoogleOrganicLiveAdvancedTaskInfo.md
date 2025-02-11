@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleOrganicLiveAdvancedTaskInfo
 
-Defined in: main.ts:39933
+Defined in: main.ts:39949
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleOrganicLiveAdvancedResultInfo`](../classes/SerpGoogleOrganicLiveAdvancedResultInfo.md)[]
 
-Defined in: main.ts:39935
+Defined in: main.ts:39951
 
 array of results
 

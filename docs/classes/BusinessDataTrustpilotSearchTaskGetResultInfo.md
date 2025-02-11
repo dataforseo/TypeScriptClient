@@ -6,7 +6,7 @@
 
 # Class: BusinessDataTrustpilotSearchTaskGetResultInfo
 
-Defined in: main.ts:226012
+Defined in: main.ts:226520
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:226012
 
 > **new BusinessDataTrustpilotSearchTaskGetResultInfo**(`data`?): [`BusinessDataTrustpilotSearchTaskGetResultInfo`](BusinessDataTrustpilotSearchTaskGetResultInfo.md)
 
-Defined in: main.ts:226034
+Defined in: main.ts:226542
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:226034
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:226019
+Defined in: main.ts:226527
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:226024
+Defined in: main.ts:226532
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
 
-Defined in: main.ts:226030
+Defined in: main.ts:226538
 
 found reviews
 you can get more results by using the depth parameter when setting a task
@@ -87,7 +87,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:226027
+Defined in: main.ts:226535
 
 the number of items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -102,7 +102,7 @@ you can get more results by using the depth parameter when setting a task
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:226014
+Defined in: main.ts:226522
 
 keyword in a POST array
 
@@ -116,7 +116,7 @@ keyword in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:226016
+Defined in: main.ts:226524
 
 search engine domain in a POST array
 
@@ -130,7 +130,7 @@ search engine domain in a POST array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:226043
+Defined in: main.ts:226551
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Defined in: main.ts:226043
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:226069
+Defined in: main.ts:226577
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: main.ts:226069
 
 > `static` **fromJS**(`data`): [`BusinessDataTrustpilotSearchTaskGetResultInfo`](BusinessDataTrustpilotSearchTaskGetResultInfo.md)
 
-Defined in: main.ts:226062
+Defined in: main.ts:226570
 
 #### Parameters
 

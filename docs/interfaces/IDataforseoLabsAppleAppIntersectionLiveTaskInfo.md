@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAppleAppIntersectionLiveTaskInfo
 
-Defined in: main.ts:125212
+Defined in: main.ts:125328
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsAppleAppIntersectionLiveResultInfo`](../classes/DataforseoLabsAppleAppIntersectionLiveResultInfo.md)[]
 
-Defined in: main.ts:125214
+Defined in: main.ts:125330
 
 array of results
 

@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphListItemSerpElementItem
 
-Defined in: main.ts:29827
+Defined in: main.ts:29835
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:29827
 
 > **new KnowledgeGraphListItemSerpElementItem**(`data`?): [`KnowledgeGraphListItemSerpElementItem`](KnowledgeGraphListItemSerpElementItem.md)
 
-Defined in: main.ts:29846
+Defined in: main.ts:29854
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:29833
+Defined in: main.ts:29841
 
 google defined data attribute ID
 example:
@@ -76,7 +76,7 @@ ss:/webfacts:net_worth
 
 > `optional` **items**: [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)[]
 
-Defined in: main.ts:29838
+Defined in: main.ts:29846
 
 additional items present in the element
 if there are none, equals null
@@ -91,7 +91,7 @@ if there are none, equals null
 
 > `optional` **link**: [`LinkElement`](LinkElement.md)
 
-Defined in: main.ts:29835
+Defined in: main.ts:29843
 
 link of the element
 
@@ -164,7 +164,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:29842
+Defined in: main.ts:29850
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -180,7 +180,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:29829
+Defined in: main.ts:29837
 
 title of the link element
 
@@ -230,7 +230,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:29851
+Defined in: main.ts:29859
 
 #### Parameters
 
@@ -252,7 +252,7 @@ Defined in: main.ts:29851
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:29877
+Defined in: main.ts:29885
 
 #### Parameters
 
@@ -274,7 +274,7 @@ Defined in: main.ts:29877
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphListItemSerpElementItem`](KnowledgeGraphListItemSerpElementItem.md)
 
-Defined in: main.ts:29870
+Defined in: main.ts:29878
 
 #### Parameters
 

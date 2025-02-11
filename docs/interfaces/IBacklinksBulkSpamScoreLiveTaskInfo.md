@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksBulkSpamScoreLiveTaskInfo
 
-Defined in: main.ts:161226
+Defined in: main.ts:161390
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`BacklinksBulkSpamScoreLiveResultInfo`](../classes/BacklinksBulkSpamScoreLiveResultInfo.md)[]
 
-Defined in: main.ts:161228
+Defined in: main.ts:161392
 
 array of results
 

@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisRatingDistributionLiveRequestInfo
 
-Defined in: main.ts:179508
+Defined in: main.ts:179870
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:179508
 
 > **new ContentAnalysisRatingDistributionLiveRequestInfo**(`data`?): [`ContentAnalysisRatingDistributionLiveRequestInfo`](ContentAnalysisRatingDistributionLiveRequestInfo.md)
 
-Defined in: main.ts:179594
+Defined in: main.ts:179956
 
 #### Parameters
 
@@ -40,14 +40,14 @@ Defined in: main.ts:179594
 
 > `optional` **initial\_dataset\_filters**: `any`[]
 
-Defined in: main.ts:179584
+Defined in: main.ts:179946
 
 initial dataset filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like, has, has_not
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like, has, has_not, match, not_match
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["domain","<>", "logitech.com"]
@@ -69,7 +69,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:179546
+Defined in: main.ts:179908
 
 maximum number of elements within internal arrays
 optional field
@@ -92,7 +92,7 @@ maximum value: 20
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:179517
+Defined in: main.ts:179879
 
 target keyword
 required field
@@ -113,7 +113,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **keyword\_fields**: `object`
 
-Defined in: main.ts:179529
+Defined in: main.ts:179891
 
 target keyword fields and target keywords
 optional field
@@ -141,7 +141,7 @@ example:
 
 > `optional` **page\_type**: `string`[]
 
-Defined in: main.ts:179535
+Defined in: main.ts:179897
 
 target page types
 optional field
@@ -159,7 +159,7 @@ possible values:
 
 > `optional` **positive\_connotation\_threshold**: `number`
 
-Defined in: main.ts:179560
+Defined in: main.ts:179922
 
 positive connotation threshold
 optional field
@@ -178,7 +178,7 @@ default value: 0.4
 
 > `optional` **search\_mode**: `string`
 
-Defined in: main.ts:179553
+Defined in: main.ts:179915
 
 results grouping type
 optional field
@@ -197,7 +197,7 @@ default value: as_is
 
 > `optional` **sentiments\_connotation\_threshold**: `number`
 
-Defined in: main.ts:179567
+Defined in: main.ts:179929
 
 sentiment connotation threshold
 optional field
@@ -216,7 +216,7 @@ default value: 0.4
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:179590
+Defined in: main.ts:179952
 
 user-defined task identifier
 optional field
@@ -234,7 +234,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:179603
+Defined in: main.ts:179965
 
 #### Parameters
 
@@ -252,7 +252,7 @@ Defined in: main.ts:179603
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:179642
+Defined in: main.ts:180004
 
 #### Parameters
 
@@ -270,7 +270,7 @@ Defined in: main.ts:179642
 
 > `static` **fromJS**(`data`): [`ContentAnalysisRatingDistributionLiveRequestInfo`](ContentAnalysisRatingDistributionLiveRequestInfo.md)
 
-Defined in: main.ts:179635
+Defined in: main.ts:179997
 
 #### Parameters
 

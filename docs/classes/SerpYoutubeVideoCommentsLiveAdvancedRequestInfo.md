@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeVideoCommentsLiveAdvancedRequestInfo
 
-Defined in: main.ts:74164
+Defined in: main.ts:74200
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:74164
 
 > **new SerpYoutubeVideoCommentsLiveAdvancedRequestInfo**(`data`?): [`SerpYoutubeVideoCommentsLiveAdvancedRequestInfo`](SerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md)
 
-Defined in: main.ts:74226
+Defined in: main.ts:74262
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:74226
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:74216
+Defined in: main.ts:74252
 
 parsing depth
 optional field
@@ -61,7 +61,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **device**: `string`
 
-Defined in: main.ts:74202
+Defined in: main.ts:74238
 
 device type
 optional field
@@ -77,7 +77,7 @@ only value: desktop
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:74198
+Defined in: main.ts:74234
 
 search engine language code
 required field if you don’t specify language_name
@@ -96,7 +96,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:74191
+Defined in: main.ts:74227
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -115,7 +115,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:74184
+Defined in: main.ts:74220
 
 search engine location code
 required field if you don’t specify location_name 
@@ -134,7 +134,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:74177
+Defined in: main.ts:74213
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -153,7 +153,7 @@ United States
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:74207
+Defined in: main.ts:74243
 
 device operating system
 optional field
@@ -170,7 +170,7 @@ default value: windows
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:74222
+Defined in: main.ts:74258
 
 user-defined task identifier
 optional field
@@ -188,7 +188,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **video\_id**: `string`
 
-Defined in: main.ts:74170
+Defined in: main.ts:74206
 
 ID of the video
 required field
@@ -206,7 +206,7 @@ vQXvyV0zIP4
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:74235
+Defined in: main.ts:74271
 
 #### Parameters
 
@@ -224,7 +224,7 @@ Defined in: main.ts:74235
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:74260
+Defined in: main.ts:74296
 
 #### Parameters
 
@@ -242,7 +242,7 @@ Defined in: main.ts:74260
 
 > `static` **fromJS**(`data`): [`SerpYoutubeVideoCommentsLiveAdvancedRequestInfo`](SerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md)
 
-Defined in: main.ts:74253
+Defined in: main.ts:74289
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingRelevantPagesLiveRequestInfo
 
-Defined in: main.ts:119288
+Defined in: main.ts:119380
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:119288
 
 > **new DataforseoLabsBingRelevantPagesLiveRequestInfo**(`data`?): [`DataforseoLabsBingRelevantPagesLiveRequestInfo`](DataforseoLabsBingRelevantPagesLiveRequestInfo.md)
 
-Defined in: main.ts:119400
+Defined in: main.ts:119497
 
 #### Parameters
 
@@ -40,14 +40,14 @@ Defined in: main.ts:119400
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:119373
+Defined in: main.ts:119470
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, <=, >, >=, =, <>, in, not_in
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, match, not_match
 example:
 ["metrics.paid.count",">",0]
 [["metrics.organic.count",">",50],"and",["metrics.organic.pos_1","<>",0]]
@@ -66,7 +66,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **historical\_serp\_mode**: `string`
 
-Defined in: main.ts:119359
+Defined in: main.ts:119451
 
 data collection mode
 optional field
@@ -83,11 +83,28 @@ default value: live
 
 ***
 
+### ignore\_synonyms?
+
+> `optional` **ignore\_synonyms**: `boolean`
+
+Defined in: main.ts:119456
+
+ignore highly similar keywords
+optional field
+if set to true, only core keywords will be returned, all highly similar keywords will be excluded;
+default value: false
+
+#### Implementation of
+
+[`IDataforseoLabsBingRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md).[`ignore_synonyms`](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md#ignore_synonyms)
+
+***
+
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:119340
+Defined in: main.ts:119432
 
 display results by item type
 optional field
@@ -108,7 +125,7 @@ default value:
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:119331
+Defined in: main.ts:119423
 
 language code
 optional field
@@ -129,7 +146,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:119322
+Defined in: main.ts:119414
 
 full name of the language
 optional field
@@ -150,7 +167,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:119345
+Defined in: main.ts:119437
 
 the maximum number of returned pages
 optional field
@@ -167,7 +184,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:119313
+Defined in: main.ts:119405
 
 location code
 optional field
@@ -189,7 +206,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:119303
+Defined in: main.ts:119395
 
 full name of the location
 optional field
@@ -211,7 +228,7 @@ United States
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:119350
+Defined in: main.ts:119442
 
 offset in the results array of returned pages
 optional field
@@ -228,7 +245,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:119390
+Defined in: main.ts:119487
 
 results sorting rules
 optional field
@@ -257,7 +274,7 @@ Note: if the item_types array contains item types that are different from organi
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:119396
+Defined in: main.ts:119493
 
 user-defined task identifier
 optional field
@@ -275,7 +292,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:119293
+Defined in: main.ts:119385
 
 domain
 required field
@@ -292,7 +309,7 @@ the domain should be specified without https:// and www.
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:119409
+Defined in: main.ts:119506
 
 #### Parameters
 
@@ -310,7 +327,7 @@ Defined in: main.ts:119409
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:119449
+Defined in: main.ts:119547
 
 #### Parameters
 
@@ -328,7 +345,7 @@ Defined in: main.ts:119449
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingRelevantPagesLiveRequestInfo`](DataforseoLabsBingRelevantPagesLiveRequestInfo.md)
 
-Defined in: main.ts:119442
+Defined in: main.ts:119540
 
 #### Parameters
 

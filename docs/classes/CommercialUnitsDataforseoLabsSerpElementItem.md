@@ -6,7 +6,7 @@
 
 # Class: CommercialUnitsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:109133
+Defined in: main.ts:109189
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:109133
 
 > **new CommercialUnitsDataforseoLabsSerpElementItem**(`data`?): [`CommercialUnitsDataforseoLabsSerpElementItem`](CommercialUnitsDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:109141
+Defined in: main.ts:109197
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **items**: [`CommercialUnitsElement`](CommercialUnitsElement.md)[]
 
-Defined in: main.ts:109137
+Defined in: main.ts:109193
 
 elements of search results found in SERP
 
@@ -132,7 +132,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:109135
+Defined in: main.ts:109191
 
 title of the result in SERP
 
@@ -182,7 +182,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:109146
+Defined in: main.ts:109202
 
 #### Parameters
 
@@ -204,7 +204,7 @@ Defined in: main.ts:109146
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:109169
+Defined in: main.ts:109225
 
 #### Parameters
 
@@ -226,7 +226,7 @@ Defined in: main.ts:109169
 
 > `static` **fromJS**(`data`): [`CommercialUnitsDataforseoLabsSerpElementItem`](CommercialUnitsDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:109162
+Defined in: main.ts:109218
 
 #### Parameters
 

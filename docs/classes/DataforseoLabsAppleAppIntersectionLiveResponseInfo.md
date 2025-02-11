@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAppleAppIntersectionLiveResponseInfo
 
-Defined in: main.ts:125219
+Defined in: main.ts:125335
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:125219
 
 > **new DataforseoLabsAppleAppIntersectionLiveResponseInfo**(`data`?): [`DataforseoLabsAppleAppIntersectionLiveResponseInfo`](DataforseoLabsAppleAppIntersectionLiveResponseInfo.md)
 
-Defined in: main.ts:125225
+Defined in: main.ts:125341
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsAppleAppIntersectionLiveTaskInfo`](DataforseoLabsAppleAppIntersectionLiveTaskInfo.md)[]
 
-Defined in: main.ts:125221
+Defined in: main.ts:125337
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:125229
+Defined in: main.ts:125345
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:125229
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:125251
+Defined in: main.ts:125367
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:125251
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAppleAppIntersectionLiveResponseInfo`](DataforseoLabsAppleAppIntersectionLiveResponseInfo.md)
 
-Defined in: main.ts:125244
+Defined in: main.ts:125360
 
 #### Parameters
 

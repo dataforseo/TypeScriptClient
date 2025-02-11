@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleAppReviewsTasksReadyResponseInfo
 
-Defined in: main.ts:203359
+Defined in: main.ts:203861
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataGoogleAppReviewsTasksReadyTaskInfo`](../classes/AppDataGoogleAppReviewsTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:203361
+Defined in: main.ts:203863
 
 array of tasks
 

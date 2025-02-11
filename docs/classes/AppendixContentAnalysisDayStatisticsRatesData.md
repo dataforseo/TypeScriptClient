@@ -6,7 +6,7 @@
 
 # Class: AppendixContentAnalysisDayStatisticsRatesData
 
-Defined in: main.ts:234528
+Defined in: main.ts:235048
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:234528
 
 > **new AppendixContentAnalysisDayStatisticsRatesData**(`data`?): [`AppendixContentAnalysisDayStatisticsRatesData`](AppendixContentAnalysisDayStatisticsRatesData.md)
 
-Defined in: main.ts:234544
+Defined in: main.ts:235064
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:234544
 
 > `optional` **available\_filters**: `number`
 
-Defined in: main.ts:234539
+Defined in: main.ts:235060
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:234539
 
 > `optional` **categories**: `number`
 
-Defined in: main.ts:234537
+Defined in: main.ts:235057
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:234537
 
 > `optional` **category\_trends**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234534
+Defined in: main.ts:235054
 
 #### Implementation of
 
@@ -76,7 +76,7 @@ Defined in: main.ts:234534
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:234538
+Defined in: main.ts:235058
 
 #### Implementation of
 
@@ -88,7 +88,7 @@ Defined in: main.ts:234538
 
 > `optional` **id\_list**: `number`
 
-Defined in: main.ts:234540
+Defined in: main.ts:235059
 
 #### Implementation of
 
@@ -100,7 +100,7 @@ Defined in: main.ts:234540
 
 > `optional` **languages**: `number`
 
-Defined in: main.ts:234536
+Defined in: main.ts:235056
 
 #### Implementation of
 
@@ -112,7 +112,7 @@ Defined in: main.ts:234536
 
 > `optional` **locations**: `number`
 
-Defined in: main.ts:234535
+Defined in: main.ts:235055
 
 #### Implementation of
 
@@ -124,7 +124,7 @@ Defined in: main.ts:234535
 
 > `optional` **phrase\_trends**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234533
+Defined in: main.ts:235053
 
 #### Implementation of
 
@@ -136,7 +136,7 @@ Defined in: main.ts:234533
 
 > `optional` **rating\_distribution**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234532
+Defined in: main.ts:235052
 
 #### Implementation of
 
@@ -148,7 +148,7 @@ Defined in: main.ts:234532
 
 > `optional` **search**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234529
+Defined in: main.ts:235049
 
 #### Implementation of
 
@@ -160,7 +160,7 @@ Defined in: main.ts:234529
 
 > `optional` **sentiment\_analysis**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234531
+Defined in: main.ts:235051
 
 #### Implementation of
 
@@ -172,7 +172,7 @@ Defined in: main.ts:234531
 
 > `optional` **summary**: [`AppendixInfo`](AppendixInfo.md)
 
-Defined in: main.ts:234530
+Defined in: main.ts:235050
 
 #### Implementation of
 
@@ -184,7 +184,7 @@ Defined in: main.ts:234530
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:234553
+Defined in: main.ts:235073
 
 #### Parameters
 
@@ -202,7 +202,7 @@ Defined in: main.ts:234553
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:234581
+Defined in: main.ts:235101
 
 #### Parameters
 
@@ -220,7 +220,7 @@ Defined in: main.ts:234581
 
 > `static` **fromJS**(`data`): [`AppendixContentAnalysisDayStatisticsRatesData`](AppendixContentAnalysisDayStatisticsRatesData.md)
 
-Defined in: main.ts:234574
+Defined in: main.ts:235094
 
 #### Parameters
 

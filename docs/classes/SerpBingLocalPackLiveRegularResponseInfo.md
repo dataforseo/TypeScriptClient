@@ -6,7 +6,7 @@
 
 # Class: SerpBingLocalPackLiveRegularResponseInfo
 
-Defined in: main.ts:68404
+Defined in: main.ts:68440
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:68404
 
 > **new SerpBingLocalPackLiveRegularResponseInfo**(`data`?): [`SerpBingLocalPackLiveRegularResponseInfo`](SerpBingLocalPackLiveRegularResponseInfo.md)
 
-Defined in: main.ts:68410
+Defined in: main.ts:68446
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpBingLocalPackLiveRegularTaskInfo`](SerpBingLocalPackLiveRegularTaskInfo.md)[]
 
-Defined in: main.ts:68406
+Defined in: main.ts:68442
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:68414
+Defined in: main.ts:68450
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:68414
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:68436
+Defined in: main.ts:68472
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:68436
 
 > `static` **fromJS**(`data`): [`SerpBingLocalPackLiveRegularResponseInfo`](SerpBingLocalPackLiveRegularResponseInfo.md)
 
-Defined in: main.ts:68429
+Defined in: main.ts:68465
 
 #### Parameters
 

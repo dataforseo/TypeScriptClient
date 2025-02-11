@@ -6,7 +6,7 @@
 
 # Class: MerchantErrorsTaskInfo
 
-Defined in: main.ts:184588
+Defined in: main.ts:184950
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:184588
 
 > **new MerchantErrorsTaskInfo**(`data`?): [`MerchantErrorsTaskInfo`](MerchantErrorsTaskInfo.md)
 
-Defined in: main.ts:184594
+Defined in: main.ts:184956
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`MerchantErrorsResultInfo`](MerchantErrorsResultInfo.md)[]
 
-Defined in: main.ts:184590
+Defined in: main.ts:184952
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:184598
+Defined in: main.ts:184960
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:184598
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:184620
+Defined in: main.ts:184982
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:184620
 
 > `static` **fromJS**(`data`): [`MerchantErrorsTaskInfo`](MerchantErrorsTaskInfo.md)
 
-Defined in: main.ts:184613
+Defined in: main.ts:184975
 
 #### Parameters
 

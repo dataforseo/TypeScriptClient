@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleNewsLiveAdvancedRequestInfo
 
-Defined in: main.ts:46851
+Defined in: main.ts:46867
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:46851
 
 > **new SerpGoogleNewsLiveAdvancedRequestInfo**(`data`?): [`SerpGoogleNewsLiveAdvancedRequestInfo`](SerpGoogleNewsLiveAdvancedRequestInfo.md)
 
-Defined in: main.ts:46967
+Defined in: main.ts:46983
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:46967
 
 > `optional` **browser\_screen\_height**: `number`
 
-Defined in: main.ts:46930
+Defined in: main.ts:46946
 
 browser screen height
 optional field
@@ -58,7 +58,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **browser\_screen\_resolution\_ratio**: `number`
 
-Defined in: main.ts:46936
+Defined in: main.ts:46952
 
 browser screen resolution ratio
 optional field
@@ -76,7 +76,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **browser\_screen\_width**: `number`
 
-Defined in: main.ts:46924
+Defined in: main.ts:46940
 
 browser screen width
 optional field
@@ -94,7 +94,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 > `optional` **calculate\_rectangles**: `boolean`
 
-Defined in: main.ts:46918
+Defined in: main.ts:46934
 
 calcualte pixel rankings for SERP elements in advanced results
 optional field
@@ -113,7 +113,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:46952
+Defined in: main.ts:46968
 
 parsing depth
 optional field
@@ -134,7 +134,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:46861
+Defined in: main.ts:46877
 
 keyword
 required field
@@ -142,7 +142,7 @@ you can specify up to 700 characters in the keyword field
 all %## will be decoded (plus character ‘+’ will be decoded to a space character)
 if you need to use the “%” character for your keyword, please specify it as “%25”;
 if you need to use the “+” character for your keyword, please specify it as “%2B”;
-if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’, ‘-site:’, the charge per task will be multiplied by 5
+if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’, the charge per task will be multiplied by 5
 Note: queries containing the ‘cache:’ parameter are not supported and will return a validation error
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
@@ -156,7 +156,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:46905
+Defined in: main.ts:46921
 
 search engine language code
 required field if you don’t specify language_name
@@ -175,7 +175,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:46898
+Defined in: main.ts:46914
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -194,7 +194,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:46881
+Defined in: main.ts:46897
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -213,7 +213,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:46891
+Defined in: main.ts:46907
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -235,7 +235,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:46874
+Defined in: main.ts:46890
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -254,7 +254,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:46959
+Defined in: main.ts:46975
 
 page crawl limit
 optional field
@@ -273,7 +273,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:46911
+Defined in: main.ts:46927
 
 device operating system
 optional field
@@ -291,7 +291,7 @@ default value: windows
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:46943
+Defined in: main.ts:46959
 
 search engine domain
 optional field
@@ -310,7 +310,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:46963
+Defined in: main.ts:46979
 
 additional parameters of the search query
 optional field
@@ -326,7 +326,7 @@ Get the list of available parameters and additional details here.
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:46867
+Defined in: main.ts:46883
 
 direct URL of the search query
 optional field
@@ -344,7 +344,7 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:46976
+Defined in: main.ts:46992
 
 #### Parameters
 
@@ -362,7 +362,7 @@ Defined in: main.ts:46976
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:47008
+Defined in: main.ts:47024
 
 #### Parameters
 
@@ -380,7 +380,7 @@ Defined in: main.ts:47008
 
 > `static` **fromJS**(`data`): [`SerpGoogleNewsLiveAdvancedRequestInfo`](SerpGoogleNewsLiveAdvancedRequestInfo.md)
 
-Defined in: main.ts:47001
+Defined in: main.ts:47017
 
 #### Parameters
 

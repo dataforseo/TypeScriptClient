@@ -6,7 +6,7 @@
 
 # Class: BacklinksTimeseriesNewLostSummaryLiveItem
 
-Defined in: main.ts:159946
+Defined in: main.ts:160110
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:159946
 
 > **new BacklinksTimeseriesNewLostSummaryLiveItem**(`data`?): [`BacklinksTimeseriesNewLostSummaryLiveItem`](BacklinksTimeseriesNewLostSummaryLiveItem.md)
 
-Defined in: main.ts:159975
+Defined in: main.ts:160139
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:159975
 
 > `optional` **date**: `string`
 
-Defined in: main.ts:159953
+Defined in: main.ts:160117
 
 date and time when the data for the target was stored
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **lost\_backlinks**: `number`
 
-Defined in: main.ts:159959
+Defined in: main.ts:160123
 
 number of lost backlinks
 number of lost backlinks of the target
@@ -72,7 +72,7 @@ number of lost backlinks of the target
 
 > `optional` **lost\_referring\_domains**: `number`
 
-Defined in: main.ts:159965
+Defined in: main.ts:160129
 
 number of lost referring domains
 number of lost referring domains of the target
@@ -87,7 +87,7 @@ number of lost referring domains of the target
 
 > `optional` **lost\_referring\_main\_domains**: `number`
 
-Defined in: main.ts:159971
+Defined in: main.ts:160135
 
 number of lost referring main domains
 number of lost referring main domains of the target
@@ -102,7 +102,7 @@ number of lost referring main domains of the target
 
 > `optional` **new\_backlinks**: `number`
 
-Defined in: main.ts:159956
+Defined in: main.ts:160120
 
 number of new backlinks
 number of new backlinks pointing to the target
@@ -117,7 +117,7 @@ number of new backlinks pointing to the target
 
 > `optional` **new\_referring\_domains**: `number`
 
-Defined in: main.ts:159962
+Defined in: main.ts:160126
 
 number of new referring domains
 number of new referring domains pointing to the target
@@ -132,7 +132,7 @@ number of new referring domains pointing to the target
 
 > `optional` **new\_referring\_main\_domains**: `number`
 
-Defined in: main.ts:159968
+Defined in: main.ts:160132
 
 number of new referring main domains
 number of new referring main domains pointing to the target
@@ -147,7 +147,7 @@ number of new referring main domains pointing to the target
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:159948
+Defined in: main.ts:160112
 
 type of element
 
@@ -161,7 +161,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:159984
+Defined in: main.ts:160148
 
 #### Parameters
 
@@ -179,7 +179,7 @@ Defined in: main.ts:159984
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:160008
+Defined in: main.ts:160172
 
 #### Parameters
 
@@ -197,7 +197,7 @@ Defined in: main.ts:160008
 
 > `static` **fromJS**(`data`): [`BacklinksTimeseriesNewLostSummaryLiveItem`](BacklinksTimeseriesNewLostSummaryLiveItem.md)
 
-Defined in: main.ts:160001
+Defined in: main.ts:160165
 
 #### Parameters
 

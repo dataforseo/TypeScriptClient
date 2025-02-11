@@ -6,7 +6,7 @@
 
 # Interface: IStocksBoxSerpElementItem
 
-Defined in: main.ts:35170
+Defined in: main.ts:35186
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:35170
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:35183
+Defined in: main.ts:35199
 
 source domain
 
@@ -32,7 +32,7 @@ source domain
 
 > `optional` **graph**: [`Graph`](../classes/Graph.md)
 
-Defined in: main.ts:35192
+Defined in: main.ts:35208
 
 contains data provided in the graph of the element
 
@@ -58,7 +58,7 @@ left, right
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
-Defined in: main.ts:35179
+Defined in: main.ts:35195
 
 price indicated in the element
 
@@ -99,7 +99,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:35187
+Defined in: main.ts:35203
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -111,7 +111,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:35177
+Defined in: main.ts:35193
 
 text alongside the link title
 
@@ -121,7 +121,7 @@ text alongside the link title
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:35175
+Defined in: main.ts:35191
 
 source of the element
 indicates the source of the video
@@ -132,7 +132,7 @@ indicates the source of the video
 
 > `optional` **table**: [`Table`](../classes/Table.md)
 
-Defined in: main.ts:35190
+Defined in: main.ts:35206
 
 results table
 if there are none, equals null
@@ -143,7 +143,7 @@ if there are none, equals null
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:35172
+Defined in: main.ts:35188
 
 title of the row
 
@@ -167,7 +167,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:35181
+Defined in: main.ts:35197
 
 source URL
 

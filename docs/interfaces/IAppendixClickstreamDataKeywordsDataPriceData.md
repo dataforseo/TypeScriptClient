@@ -6,7 +6,7 @@
 
 # Interface: IAppendixClickstreamDataKeywordsDataPriceData
 
-Defined in: main.ts:236505
+Defined in: main.ts:236869
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:236505
 
 > `optional` **bulk\_search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236506
+Defined in: main.ts:236870
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: main.ts:236506
 
 > `optional` **dataforseo\_search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236507
+Defined in: main.ts:236871
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: main.ts:236507
 
 > `optional` **global\_search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236508
+Defined in: main.ts:236872
 
 ***
 
@@ -42,4 +42,4 @@ Defined in: main.ts:236508
 
 > `optional` **locations\_and\_languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:236509
+Defined in: main.ts:236873

@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphHotelsBookingElement
 
-Defined in: main.ts:30559
+Defined in: main.ts:30565
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:30559
 
 > **new KnowledgeGraphHotelsBookingElement**(`data`?): [`KnowledgeGraphHotelsBookingElement`](KnowledgeGraphHotelsBookingElement.md)
 
-Defined in: main.ts:30578
+Defined in: main.ts:30584
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:30578
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:30565
+Defined in: main.ts:30571
 
 description of the results element in SERP
 
@@ -54,7 +54,7 @@ description of the results element in SERP
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:30569
+Defined in: main.ts:30575
 
 domain where a link points
 
@@ -68,7 +68,7 @@ domain where a link points
 
 > `optional` **is\_paid**: `boolean`
 
-Defined in: main.ts:30574
+Defined in: main.ts:30580
 
 indicates whether the element is an ad
 
@@ -82,7 +82,7 @@ indicates whether the element is an ad
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
-Defined in: main.ts:30572
+Defined in: main.ts:30578
 
 pricing details
 contains the pricing details of the product or service featured in the result
@@ -97,7 +97,7 @@ contains the pricing details of the product or service featured in the result
 
 > `optional` **source**: `string`
 
-Defined in: main.ts:30563
+Defined in: main.ts:30569
 
 source of additional information about the result
 
@@ -111,7 +111,7 @@ source of additional information about the result
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:30561
+Defined in: main.ts:30567
 
 type of element
 
@@ -125,7 +125,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:30567
+Defined in: main.ts:30573
 
 relevant URL
 
@@ -139,7 +139,7 @@ relevant URL
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:30587
+Defined in: main.ts:30593
 
 #### Parameters
 
@@ -157,7 +157,7 @@ Defined in: main.ts:30587
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:30610
+Defined in: main.ts:30616
 
 #### Parameters
 
@@ -175,7 +175,7 @@ Defined in: main.ts:30610
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphHotelsBookingElement`](KnowledgeGraphHotelsBookingElement.md)
 
-Defined in: main.ts:30603
+Defined in: main.ts:30609
 
 #### Parameters
 

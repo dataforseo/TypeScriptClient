@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleAppReviewsTaskPostRequestInfo
 
-Defined in: main.ts:202956
+Defined in: main.ts:203458
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:202956
 
 > `optional` **app\_id**: `string`
 
-Defined in: main.ts:202963
+Defined in: main.ts:203465
 
 id of the app
 required field
@@ -33,7 +33,7 @@ https://play.google.com/store/apps/details?id=org.telegram.messenger
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:203006
+Defined in: main.ts:203508
 
 parsing depth
 optional field
@@ -48,7 +48,7 @@ maximum value: 100000
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:202991
+Defined in: main.ts:203493
 
 search engine language code
 required field if you don’t specify language_name
@@ -63,7 +63,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:202984
+Defined in: main.ts:203486
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -78,7 +78,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:202977
+Defined in: main.ts:203479
 
 search engine location code
 required field if you don’t specify location_name
@@ -93,7 +93,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:202970
+Defined in: main.ts:203472
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -108,7 +108,7 @@ West Los Angeles,California,United States
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:203057
+Defined in: main.ts:203559
 
 notification URL of a completed task
 optional field
@@ -126,7 +126,7 @@ i.a., the # character will be encoded into %23
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:203047
+Defined in: main.ts:203549
 
 postback_url datatype
 required field if you specify postback_url
@@ -140,7 +140,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:203041
+Defined in: main.ts:203543
 
 return URL for sending task results
 optional field
@@ -158,7 +158,7 @@ i.a., the # character will be encoded into %23
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:202999
+Defined in: main.ts:203501
 
 task priority
 optional field
@@ -174,7 +174,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **rating**: `number`
 
-Defined in: main.ts:203017
+Defined in: main.ts:203519
 
 filter reviews by rating
 optional field
@@ -193,7 +193,7 @@ by default, the API returns all reviews regardless of the number of stars
 
 > `optional` **sort\_by**: `string`
 
-Defined in: main.ts:203025
+Defined in: main.ts:203527
 
 results sorting parameters
 optional field
@@ -209,7 +209,7 @@ default rule: most_relevant
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:203031
+Defined in: main.ts:203533
 
 user-defined task identifier
 optional field

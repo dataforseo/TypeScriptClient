@@ -6,7 +6,7 @@
 
 # Interface: IPeopleAlsoAskDataforseoLabsSerpElementItem
 
-Defined in: main.ts:105721
+Defined in: main.ts:105785
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:105721
 
 > `optional` **items**: [`PeopleAlsoAskElement`](../classes/PeopleAlsoAskElement.md)[]
 
-Defined in: main.ts:105725
+Defined in: main.ts:105789
 
 elements of search results found in SERP
 
@@ -78,7 +78,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:105723
+Defined in: main.ts:105787
 
 search engine type
 

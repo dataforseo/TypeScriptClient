@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingKeywordsForKeywordsTaskPostTaskInfo
 
-Defined in: main.ts:143112
+Defined in: main.ts:143276
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:143112
 
 > **new KeywordsDataBingKeywordsForKeywordsTaskPostTaskInfo**(`data`?): [`KeywordsDataBingKeywordsForKeywordsTaskPostTaskInfo`](KeywordsDataBingKeywordsForKeywordsTaskPostTaskInfo.md)
 
-Defined in: main.ts:143119
+Defined in: main.ts:143283
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:143115
+Defined in: main.ts:143279
 
 array of results
 in this case, the value will be null
@@ -215,7 +215,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:143123
+Defined in: main.ts:143287
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:143123
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:143141
+Defined in: main.ts:143305
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:143141
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingKeywordsForKeywordsTaskPostTaskInfo`](KeywordsDataBingKeywordsForKeywordsTaskPostTaskInfo.md)
 
-Defined in: main.ts:143134
+Defined in: main.ts:143298
 
 #### Parameters
 

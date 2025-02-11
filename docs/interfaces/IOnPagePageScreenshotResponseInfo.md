@@ -6,7 +6,7 @@
 
 # Interface: IOnPagePageScreenshotResponseInfo
 
-Defined in: main.ts:172841
+Defined in: main.ts:173005
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPagePageScreenshotTaskInfo`](../classes/OnPagePageScreenshotTaskInfo.md)[]
 
-Defined in: main.ts:172843
+Defined in: main.ts:173007
 
 array of tasks
 

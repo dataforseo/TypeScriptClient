@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleLocationsTaskInfo
 
-Defined in: main.ts:198858
+Defined in: main.ts:199360
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`AppDataGoogleLocationsResultInfo`](../classes/AppDataGoogleLocationsResultInfo.md)[]
 
-Defined in: main.ts:198860
+Defined in: main.ts:199362
 
 array of results
 

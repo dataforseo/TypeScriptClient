@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleAppListTasksReadyTaskInfo
 
-Defined in: main.ts:200928
+Defined in: main.ts:201430
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:200928
 
 > **new AppDataGoogleAppListTasksReadyTaskInfo**(`data`?): [`AppDataGoogleAppListTasksReadyTaskInfo`](AppDataGoogleAppListTasksReadyTaskInfo.md)
 
-Defined in: main.ts:200934
+Defined in: main.ts:201436
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`AppDataGoogleAppListTasksReadyResultInfo`](AppDataGoogleAppListTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:200930
+Defined in: main.ts:201432
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:200938
+Defined in: main.ts:201440
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:200938
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:200960
+Defined in: main.ts:201462
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:200960
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppListTasksReadyTaskInfo`](AppDataGoogleAppListTasksReadyTaskInfo.md)
 
-Defined in: main.ts:200953
+Defined in: main.ts:201455
 
 #### Parameters
 

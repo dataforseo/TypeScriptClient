@@ -6,7 +6,7 @@
 
 # Interface: IOnPageLighthouseLanguagesTaskInfo
 
-Defined in: main.ts:174962
+Defined in: main.ts:175326
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`OnPageLighthouseLanguagesResultInfo`](../classes/OnPageLighthouseLanguagesResultInfo.md)[]
 
-Defined in: main.ts:174964
+Defined in: main.ts:175328
 
 array of results
 

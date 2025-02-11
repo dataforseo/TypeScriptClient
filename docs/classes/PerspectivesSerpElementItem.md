@@ -6,7 +6,7 @@
 
 # Class: PerspectivesSerpElementItem
 
-Defined in: main.ts:37485
+Defined in: main.ts:37501
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:37485
 
 > **new PerspectivesSerpElementItem**(`data`?): [`PerspectivesSerpElementItem`](PerspectivesSerpElementItem.md)
 
-Defined in: main.ts:37497
+Defined in: main.ts:37513
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`PerspectivesElement`](PerspectivesElement.md)[]
 
-Defined in: main.ts:37489
+Defined in: main.ts:37505
 
 contains arrays of specific images
 
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:37493
+Defined in: main.ts:37509
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -149,7 +149,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:37487
+Defined in: main.ts:37503
 
 title of the row
 
@@ -199,7 +199,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:37502
+Defined in: main.ts:37518
 
 #### Parameters
 
@@ -221,7 +221,7 @@ Defined in: main.ts:37502
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:37526
+Defined in: main.ts:37542
 
 #### Parameters
 
@@ -243,7 +243,7 @@ Defined in: main.ts:37526
 
 > `static` **fromJS**(`data`): [`PerspectivesSerpElementItem`](PerspectivesSerpElementItem.md)
 
-Defined in: main.ts:37519
+Defined in: main.ts:37535
 
 #### Parameters
 

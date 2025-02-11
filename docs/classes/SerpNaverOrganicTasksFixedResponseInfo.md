@@ -6,7 +6,7 @@
 
 # Class: SerpNaverOrganicTasksFixedResponseInfo
 
-Defined in: main.ts:81351
+Defined in: main.ts:81387
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:81351
 
 > **new SerpNaverOrganicTasksFixedResponseInfo**(`data`?): [`SerpNaverOrganicTasksFixedResponseInfo`](SerpNaverOrganicTasksFixedResponseInfo.md)
 
-Defined in: main.ts:81357
+Defined in: main.ts:81393
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpNaverOrganicTasksFixedTaskInfo`](SerpNaverOrganicTasksFixedTaskInfo.md)[]
 
-Defined in: main.ts:81353
+Defined in: main.ts:81389
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:81361
+Defined in: main.ts:81397
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:81361
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:81383
+Defined in: main.ts:81419
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:81383
 
 > `static` **fromJS**(`data`): [`SerpNaverOrganicTasksFixedResponseInfo`](SerpNaverOrganicTasksFixedResponseInfo.md)
 
-Defined in: main.ts:81376
+Defined in: main.ts:81412
 
 #### Parameters
 

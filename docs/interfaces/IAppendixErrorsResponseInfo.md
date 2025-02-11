@@ -6,7 +6,7 @@
 
 # Interface: IAppendixErrorsResponseInfo
 
-Defined in: main.ts:239255
+Defined in: main.ts:239683
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppendixErrorsTaskInfo`](../classes/AppendixErrorsTaskInfo.md)[]
 
-Defined in: main.ts:239257
+Defined in: main.ts:239685
 
 array of tasks
 

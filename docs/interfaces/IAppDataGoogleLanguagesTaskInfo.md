@@ -6,7 +6,7 @@
 
 # Interface: IAppDataGoogleLanguagesTaskInfo
 
-Defined in: main.ts:199220
+Defined in: main.ts:199722
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`AppDataGoogleLanguagesResultInfo`](../classes/AppDataGoogleLanguagesResultInfo.md)[]
 
-Defined in: main.ts:199222
+Defined in: main.ts:199724
 
 array of results
 

@@ -6,7 +6,7 @@
 
 # Class: SerpNaverOrganicTasksFixedTaskInfo
 
-Defined in: main.ts:81296
+Defined in: main.ts:81332
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:81296
 
 > **new SerpNaverOrganicTasksFixedTaskInfo**(`data`?): [`SerpNaverOrganicTasksFixedTaskInfo`](SerpNaverOrganicTasksFixedTaskInfo.md)
 
-Defined in: main.ts:81302
+Defined in: main.ts:81338
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpNaverOrganicTasksFixedResultInfo`](SerpNaverOrganicTasksFixedResultInfo.md)[]
 
-Defined in: main.ts:81298
+Defined in: main.ts:81334
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:81306
+Defined in: main.ts:81342
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:81306
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:81328
+Defined in: main.ts:81364
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:81328
 
 > `static` **fromJS**(`data`): [`SerpNaverOrganicTasksFixedTaskInfo`](SerpNaverOrganicTasksFixedTaskInfo.md)
 
-Defined in: main.ts:81321
+Defined in: main.ts:81357
 
 #### Parameters
 

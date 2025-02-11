@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisIdListRequestInfo
 
-Defined in: main.ts:176354
+Defined in: main.ts:176718
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:176354
 
 > **new ContentAnalysisIdListRequestInfo**(`data`?): [`ContentAnalysisIdListRequestInfo`](ContentAnalysisIdListRequestInfo.md)
 
-Defined in: main.ts:176392
+Defined in: main.ts:176756
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:176392
 
 > `optional` **datetime\_from**: `string`
 
-Defined in: main.ts:176362
+Defined in: main.ts:176726
 
 start time for filtering results
 required field
@@ -60,7 +60,7 @@ example:
 
 > `optional` **datetime\_to**: `string`
 
-Defined in: main.ts:176369
+Defined in: main.ts:176733
 
 finish time for filtering results
 required field
@@ -79,7 +79,7 @@ example:
 
 > `optional` **include\_metadata**: `boolean`
 
-Defined in: main.ts:176388
+Defined in: main.ts:176752
 
 include task metadata in the respond
 optional field
@@ -95,7 +95,7 @@ default value: false
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:176374
+Defined in: main.ts:176738
 
 the maximum number of returned task IDs
 optional field
@@ -112,7 +112,7 @@ maximum value: 1000
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:176379
+Defined in: main.ts:176743
 
 offset in the results array of returned task IDs
 optional field
@@ -129,7 +129,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 > `optional` **sort**: `string`
 
-Defined in: main.ts:176384
+Defined in: main.ts:176748
 
 sorting by task execution time
 optional field
@@ -146,7 +146,7 @@ default value: "asc"
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:176401
+Defined in: main.ts:176765
 
 #### Parameters
 
@@ -164,7 +164,7 @@ Defined in: main.ts:176401
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:176423
+Defined in: main.ts:176787
 
 #### Parameters
 
@@ -182,7 +182,7 @@ Defined in: main.ts:176423
 
 > `static` **fromJS**(`data`): [`ContentAnalysisIdListRequestInfo`](ContentAnalysisIdListRequestInfo.md)
 
-Defined in: main.ts:176416
+Defined in: main.ts:176780
 
 #### Parameters
 

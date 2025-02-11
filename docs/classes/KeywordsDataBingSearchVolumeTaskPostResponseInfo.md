@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingSearchVolumeTaskPostResponseInfo
 
-Defined in: main.ts:138875
+Defined in: main.ts:139039
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:138875
 
 > **new KeywordsDataBingSearchVolumeTaskPostResponseInfo**(`data`?): [`KeywordsDataBingSearchVolumeTaskPostResponseInfo`](KeywordsDataBingSearchVolumeTaskPostResponseInfo.md)
 
-Defined in: main.ts:138881
+Defined in: main.ts:139045
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataBingSearchVolumeTaskPostTaskInfo`](KeywordsDataBingSearchVolumeTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:138877
+Defined in: main.ts:139041
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:138885
+Defined in: main.ts:139049
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:138885
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:138907
+Defined in: main.ts:139071
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:138907
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingSearchVolumeTaskPostResponseInfo`](KeywordsDataBingSearchVolumeTaskPostResponseInfo.md)
 
-Defined in: main.ts:138900
+Defined in: main.ts:139064
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IMerchantAmazonAsinTaskPostTaskInfo
 
-Defined in: main.ts:193777
+Defined in: main.ts:194183
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:193780
+Defined in: main.ts:194186
 
 array of results
 in this case, the value will be null

@@ -6,7 +6,7 @@
 
 # Interface: ISerpSeznamOrganicTaskPostTaskInfo
 
-Defined in: main.ts:83089
+Defined in: main.ts:83125
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:83092
+Defined in: main.ts:83128
 
 array of results
 in this case, the value will be null

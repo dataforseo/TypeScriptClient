@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataTripadvisorLanguagesTaskInfo
 
-Defined in: main.ts:227640
+Defined in: main.ts:228148
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataTripadvisorLanguagesResultInfo`](../classes/BusinessDataTripadvisorLanguagesResultInfo.md)[]
 
-Defined in: main.ts:227642
+Defined in: main.ts:228150
 
 array of results
 

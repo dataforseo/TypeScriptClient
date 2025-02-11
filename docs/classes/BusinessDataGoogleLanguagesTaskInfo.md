@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleLanguagesTaskInfo
 
-Defined in: main.ts:212878
+Defined in: main.ts:213380
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:212878
 
 > **new BusinessDataGoogleLanguagesTaskInfo**(`data`?): [`BusinessDataGoogleLanguagesTaskInfo`](BusinessDataGoogleLanguagesTaskInfo.md)
 
-Defined in: main.ts:212884
+Defined in: main.ts:213386
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataGoogleLanguagesResultInfo`](BusinessDataGoogleLanguagesResultInfo.md)[]
 
-Defined in: main.ts:212880
+Defined in: main.ts:213382
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:212888
+Defined in: main.ts:213390
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:212888
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:212910
+Defined in: main.ts:213412
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:212910
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleLanguagesTaskInfo`](BusinessDataGoogleLanguagesTaskInfo.md)
 
-Defined in: main.ts:212903
+Defined in: main.ts:213405
 
 #### Parameters
 

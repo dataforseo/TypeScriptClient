@@ -6,7 +6,7 @@
 
 # Interface: IMerchantGoogleLanguagesResponseInfo
 
-Defined in: main.ts:184857
+Defined in: main.ts:185219
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`MerchantGoogleLanguagesTaskInfo`](../classes/MerchantGoogleLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:184859
+Defined in: main.ts:185221
 
 array of tasks
 

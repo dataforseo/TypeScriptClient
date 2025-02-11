@@ -6,7 +6,7 @@
 
 # Class: SerpYoutubeLanguagesResponseInfo
 
-Defined in: main.ts:69432
+Defined in: main.ts:69468
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:69432
 
 > **new SerpYoutubeLanguagesResponseInfo**(`data`?): [`SerpYoutubeLanguagesResponseInfo`](SerpYoutubeLanguagesResponseInfo.md)
 
-Defined in: main.ts:69438
+Defined in: main.ts:69474
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpYoutubeLanguagesTaskInfo`](SerpYoutubeLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:69434
+Defined in: main.ts:69470
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:69442
+Defined in: main.ts:69478
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:69442
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:69464
+Defined in: main.ts:69500
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:69464
 
 > `static` **fromJS**(`data`): [`SerpYoutubeLanguagesResponseInfo`](SerpYoutubeLanguagesResponseInfo.md)
 
-Defined in: main.ts:69457
+Defined in: main.ts:69493
 
 #### Parameters
 

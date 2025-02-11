@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksErrorsResponseInfo
 
-Defined in: main.ts:149437
+Defined in: main.ts:149601
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BacklinksErrorsTaskInfo`](../classes/BacklinksErrorsTaskInfo.md)[]
 
-Defined in: main.ts:149439
+Defined in: main.ts:149603
 
 array of tasks
 

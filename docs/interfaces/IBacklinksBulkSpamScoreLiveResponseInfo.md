@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksBulkSpamScoreLiveResponseInfo
 
-Defined in: main.ts:161281
+Defined in: main.ts:161445
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`BacklinksBulkSpamScoreLiveTaskInfo`](../classes/BacklinksBulkSpamScoreLiveTaskInfo.md)[]
 
-Defined in: main.ts:161283
+Defined in: main.ts:161447
 
 array of tasks
 

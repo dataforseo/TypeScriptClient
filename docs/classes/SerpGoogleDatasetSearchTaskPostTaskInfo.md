@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleDatasetSearchTaskPostTaskInfo
 
-Defined in: main.ts:57120
+Defined in: main.ts:57136
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:57120
 
 > **new SerpGoogleDatasetSearchTaskPostTaskInfo**(`data`?): [`SerpGoogleDatasetSearchTaskPostTaskInfo`](SerpGoogleDatasetSearchTaskPostTaskInfo.md)
 
-Defined in: main.ts:57127
+Defined in: main.ts:57143
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:57123
+Defined in: main.ts:57139
 
 array of results
 in this case, the value will be null
@@ -215,7 +215,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:57131
+Defined in: main.ts:57147
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:57131
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:57149
+Defined in: main.ts:57165
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:57149
 
 > `static` **fromJS**(`data`): [`SerpGoogleDatasetSearchTaskPostTaskInfo`](SerpGoogleDatasetSearchTaskPostTaskInfo.md)
 
-Defined in: main.ts:57142
+Defined in: main.ts:57158
 
 #### Parameters
 

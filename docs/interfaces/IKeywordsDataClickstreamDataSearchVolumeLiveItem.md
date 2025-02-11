@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataClickstreamDataSearchVolumeLiveItem
 
-Defined in: main.ts:147834
+Defined in: main.ts:147998
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:147834
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:147836
+Defined in: main.ts:148000
 
 keyword provided in the POST array
 
@@ -28,7 +28,7 @@ keyword provided in the POST array
 
 > `optional` **monthly\_searches**: [`MonthlySearches`](../classes/MonthlySearches.md)[]
 
-Defined in: main.ts:147841
+Defined in: main.ts:148005
 
 monthly search volume rates
 array of objects with search volume rates in a certain month of a year
@@ -39,6 +39,6 @@ array of objects with search volume rates in a certain month of a year
 
 > `optional` **search\_volume**: `number`
 
-Defined in: main.ts:147838
+Defined in: main.ts:148002
 
 current search volume rate of a keyword

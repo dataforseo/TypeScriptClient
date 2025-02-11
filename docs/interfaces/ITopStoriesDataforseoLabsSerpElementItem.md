@@ -6,7 +6,7 @@
 
 # Interface: ITopStoriesDataforseoLabsSerpElementItem
 
-Defined in: main.ts:106904
+Defined in: main.ts:107036
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:106904
 
 > `optional` **items**: [`TopStoriesElement`](../classes/TopStoriesElement.md)[]
 
-Defined in: main.ts:106906
+Defined in: main.ts:107038
 
 contains results featured in the ‘hotels_pack’ element of SERP
 

@@ -6,7 +6,7 @@
 
 # Interface: IOnPageInstantPagesResponseInfo
 
-Defined in: main.ts:174851
+Defined in: main.ts:175215
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageInstantPagesTaskInfo`](../classes/OnPageInstantPagesTaskInfo.md)[]
 
-Defined in: main.ts:174853
+Defined in: main.ts:175217
 
 array of tasks
 

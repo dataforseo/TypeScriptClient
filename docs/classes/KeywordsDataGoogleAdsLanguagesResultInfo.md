@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleAdsLanguagesResultInfo
 
-Defined in: main.ts:126554
+Defined in: main.ts:126670
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:126554
 
 > **new KeywordsDataGoogleAdsLanguagesResultInfo**(`data`?): [`KeywordsDataGoogleAdsLanguagesResultInfo`](KeywordsDataGoogleAdsLanguagesResultInfo.md)
 
-Defined in: main.ts:126562
+Defined in: main.ts:126678
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:126562
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:126558
+Defined in: main.ts:126674
 
 language code according to ISO 639-1
 
@@ -54,7 +54,7 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:126556
+Defined in: main.ts:126672
 
 language name
 
@@ -68,7 +68,7 @@ language name
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:126571
+Defined in: main.ts:126687
 
 #### Parameters
 
@@ -86,7 +86,7 @@ Defined in: main.ts:126571
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:126589
+Defined in: main.ts:126705
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: main.ts:126589
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleAdsLanguagesResultInfo`](KeywordsDataGoogleAdsLanguagesResultInfo.md)
 
-Defined in: main.ts:126582
+Defined in: main.ts:126698
 
 #### Parameters
 

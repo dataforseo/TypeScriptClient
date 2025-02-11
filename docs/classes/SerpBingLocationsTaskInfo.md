@@ -6,7 +6,7 @@
 
 # Class: SerpBingLocationsTaskInfo
 
-Defined in: main.ts:62881
+Defined in: main.ts:62909
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:62881
 
 > **new SerpBingLocationsTaskInfo**(`data`?): [`SerpBingLocationsTaskInfo`](SerpBingLocationsTaskInfo.md)
 
-Defined in: main.ts:62887
+Defined in: main.ts:62915
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpBingLocationsResultInfo`](SerpBingLocationsResultInfo.md)[]
 
-Defined in: main.ts:62883
+Defined in: main.ts:62911
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:62891
+Defined in: main.ts:62919
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:62891
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:62913
+Defined in: main.ts:62941
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:62913
 
 > `static` **fromJS**(`data`): [`SerpBingLocationsTaskInfo`](SerpBingLocationsTaskInfo.md)
 
-Defined in: main.ts:62906
+Defined in: main.ts:62934
 
 #### Parameters
 

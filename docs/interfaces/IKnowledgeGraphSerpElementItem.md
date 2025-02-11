@@ -6,7 +6,7 @@
 
 # Interface: IKnowledgeGraphSerpElementItem
 
-Defined in: main.ts:31109
+Defined in: main.ts:31115
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:31109
 
 > `optional` **card\_id**: `string`
 
-Defined in: main.ts:31117
+Defined in: main.ts:31123
 
 card id
 
@@ -32,7 +32,7 @@ card id
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:31128
+Defined in: main.ts:31134
 
 google-defined client id
 unique id of a local establishment;
@@ -44,7 +44,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:31115
+Defined in: main.ts:31121
 
 description of the results element in SERP
 
@@ -54,7 +54,7 @@ description of the results element in SERP
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:31122
+Defined in: main.ts:31128
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -65,7 +65,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
 
-Defined in: main.ts:31130
+Defined in: main.ts:31136
 
 contains results featured in the ‘hotels_pack’ element of SERP
 
@@ -75,7 +75,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 > `optional` **logo\_url**: `string`
 
-Defined in: main.ts:31124
+Defined in: main.ts:31130
 
 URL of the logo from knowledge graph
 
@@ -132,7 +132,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:31134
+Defined in: main.ts:31140
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -144,7 +144,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **subtitle**: `string`
 
-Defined in: main.ts:31113
+Defined in: main.ts:31119
 
 subtitle of the item
 
@@ -154,7 +154,7 @@ subtitle of the item
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:31111
+Defined in: main.ts:31117
 
 title of the result in SERP
 
@@ -178,7 +178,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:31119
+Defined in: main.ts:31125
 
 relevant URL in SERP
 

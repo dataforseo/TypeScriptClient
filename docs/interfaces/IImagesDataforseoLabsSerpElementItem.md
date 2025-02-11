@@ -6,7 +6,7 @@
 
 # Interface: IImagesDataforseoLabsSerpElementItem
 
-Defined in: main.ts:106566
+Defined in: main.ts:106630
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:106566
 
 > `optional` **items**: [`ImagesElement`](../classes/ImagesElement.md)[]
 
-Defined in: main.ts:106574
+Defined in: main.ts:106638
 
 elements of search results found in SERP
 
@@ -78,7 +78,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **related\_image\_searches**: [`RelatedImageSearchesElement`](../classes/RelatedImageSearchesElement.md)
 
-Defined in: main.ts:106577
+Defined in: main.ts:106641
 
 contains keywords and images related to the specified search term
 if there are none, equals null
@@ -89,7 +89,7 @@ if there are none, equals null
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:106568
+Defined in: main.ts:106632
 
 search engine type
 
@@ -99,7 +99,7 @@ search engine type
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:106570
+Defined in: main.ts:106634
 
 title of the result in SERP
 
@@ -123,7 +123,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:106572
+Defined in: main.ts:106636
 
 relevant URL of the Ad element in SERP
 

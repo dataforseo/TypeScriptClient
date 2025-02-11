@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleTrendsExploreTaskGetResponseInfo
 
-Defined in: main.ts:134599
+Defined in: main.ts:134739
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:134599
 
 > **new KeywordsDataGoogleTrendsExploreTaskGetResponseInfo**(`data`?): [`KeywordsDataGoogleTrendsExploreTaskGetResponseInfo`](KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md)
 
-Defined in: main.ts:134605
+Defined in: main.ts:134745
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataGoogleTrendsExploreTaskGetTaskInfo`](KeywordsDataGoogleTrendsExploreTaskGetTaskInfo.md)[]
 
-Defined in: main.ts:134601
+Defined in: main.ts:134741
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:134609
+Defined in: main.ts:134749
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:134609
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:134631
+Defined in: main.ts:134771
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:134631
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleTrendsExploreTaskGetResponseInfo`](KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md)
 
-Defined in: main.ts:134624
+Defined in: main.ts:134764
 
 #### Parameters
 

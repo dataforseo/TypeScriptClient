@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsBingBulkTrafficEstimationLiveTaskInfo
 
-Defined in: main.ts:115958
+Defined in: main.ts:116038
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsBingBulkTrafficEstimationLiveResultInfo`](../classes/DataforseoLabsBingBulkTrafficEstimationLiveResultInfo.md)[]
 
-Defined in: main.ts:115960
+Defined in: main.ts:116040
 
 array of results
 

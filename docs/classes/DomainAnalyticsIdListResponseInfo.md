@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsIdListResponseInfo
 
-Defined in: main.ts:84631
+Defined in: main.ts:84667
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:84631
 
 > **new DomainAnalyticsIdListResponseInfo**(`data`?): [`DomainAnalyticsIdListResponseInfo`](DomainAnalyticsIdListResponseInfo.md)
 
-Defined in: main.ts:84637
+Defined in: main.ts:84673
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DomainAnalyticsIdListTaskInfo`](DomainAnalyticsIdListTaskInfo.md)[]
 
-Defined in: main.ts:84633
+Defined in: main.ts:84669
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:84641
+Defined in: main.ts:84677
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:84641
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:84663
+Defined in: main.ts:84699
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:84663
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsIdListResponseInfo`](DomainAnalyticsIdListResponseInfo.md)
 
-Defined in: main.ts:84656
+Defined in: main.ts:84692
 
 #### Parameters
 

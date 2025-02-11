@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksSummaryLiveRequestInfo
 
-Defined in: main.ts:150133
+Defined in: main.ts:150297
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:150133
 
 > `optional` **backlinks\_filters**: `any`[]
 
-Defined in: main.ts:150183
+Defined in: main.ts:150347
 
 filter the backlinks of your target
 optional field
@@ -34,7 +34,7 @@ example:
 
 > `optional` **backlinks\_status\_type**: `string`
 
-Defined in: main.ts:150175
+Defined in: main.ts:150339
 
 set what backlinks to return and count
 optional field
@@ -51,7 +51,7 @@ default value: live
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
-Defined in: main.ts:150155
+Defined in: main.ts:150319
 
 indicates if internal backlinks from subdomains to the target will be excluded from the results
 optional field
@@ -65,7 +65,7 @@ default value: true
 
 > `optional` **include\_indirect\_links**: `boolean`
 
-Defined in: main.ts:150149
+Defined in: main.ts:150313
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -79,7 +79,7 @@ default value: true
 
 > `optional` **include\_subdomains**: `boolean`
 
-Defined in: main.ts:150143
+Defined in: main.ts:150307
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -92,7 +92,7 @@ default value: true
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:150166
+Defined in: main.ts:150330
 
 maximum number of elements within internal arrays
 optional field
@@ -111,7 +111,7 @@ maximum value: 1000
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:150189
+Defined in: main.ts:150353
 
 user-defined task identifier
 optional field
@@ -125,7 +125,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:150138
+Defined in: main.ts:150302
 
 domain, subdomain or webpage to get data for
 required field

@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo
 
-Defined in: main.ts:148576
+Defined in: main.ts:148740
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:148576
 
 > **new KeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo**(`data`?): [`KeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo`](KeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo.md)
 
-Defined in: main.ts:148586
+Defined in: main.ts:148750
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:148586
 
 > `optional` **items**: [`KeywordsDataClickstreamDataSearchVolumeLiveItem`](KeywordsDataClickstreamDataSearchVolumeLiveItem.md)[]
 
-Defined in: main.ts:148582
+Defined in: main.ts:148746
 
 contains keywords and related data
 
@@ -54,7 +54,7 @@ contains keywords and related data
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:148580
+Defined in: main.ts:148744
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:148578
+Defined in: main.ts:148742
 
 location code in a POST array
 
@@ -82,7 +82,7 @@ location code in a POST array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:148595
+Defined in: main.ts:148759
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:148595
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:148618
+Defined in: main.ts:148782
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: main.ts:148618
 
 > `static` **fromJS**(`data`): [`KeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo`](KeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo.md)
 
-Defined in: main.ts:148611
+Defined in: main.ts:148775
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IGoogleHotelsSerpElementItem
 
-Defined in: main.ts:36150
+Defined in: main.ts:36166
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:36150
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:36158
+Defined in: main.ts:36174
 
 google-defined client id
 
@@ -32,7 +32,7 @@ google-defined client id
 
 > `optional` **hotel\_identifier**: `string`
 
-Defined in: main.ts:36154
+Defined in: main.ts:36170
 
 unique hotel identifier
 unique hotel identifier assigned by Google;
@@ -91,7 +91,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:36162
+Defined in: main.ts:36178
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -117,7 +117,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:36156
+Defined in: main.ts:36172
 
 source URL
 

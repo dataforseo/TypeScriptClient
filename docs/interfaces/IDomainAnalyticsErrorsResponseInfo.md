@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsErrorsResponseInfo
 
-Defined in: main.ts:85021
+Defined in: main.ts:85057
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DomainAnalyticsErrorsTaskInfo`](../classes/DomainAnalyticsErrorsTaskInfo.md)[]
 
-Defined in: main.ts:85023
+Defined in: main.ts:85059
 
 array of tasks
 

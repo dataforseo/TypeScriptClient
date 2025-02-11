@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsAmazonRelatedKeywordsLiveTaskInfo
 
-Defined in: main.ts:112726
+Defined in: main.ts:112794
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](../classes/DataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md)[]
 
-Defined in: main.ts:112728
+Defined in: main.ts:112796
 
 array of results
 

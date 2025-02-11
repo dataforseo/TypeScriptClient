@@ -6,7 +6,7 @@
 
 # Interface: IMerchantTasksReadyResponseInfo
 
-Defined in: main.ts:186123
+Defined in: main.ts:186485
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`MerchantTasksReadyTaskInfo`](../classes/MerchantTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:186125
+Defined in: main.ts:186487
 
 array of tasks
 

@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleImagesTaskGetHtmlTaskInfo
 
-Defined in: main.ts:51468
+Defined in: main.ts:51484
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleImagesTaskGetHtmlResultInfo`](../classes/SerpGoogleImagesTaskGetHtmlResultInfo.md)[]
 
-Defined in: main.ts:51470
+Defined in: main.ts:51486
 
 array of results
 

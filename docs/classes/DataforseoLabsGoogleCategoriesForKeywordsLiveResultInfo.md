@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo
 
-Defined in: main.ts:98070
+Defined in: main.ts:98098
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:98070
 
 > **new DataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo**(`data`?): [`DataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo`](DataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo.md)
 
-Defined in: main.ts:98081
+Defined in: main.ts:98109
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:98081
 
 > `optional` **items**: [`DataforseoLabsGoogleCategoriesForKeywordsLiveItem`](DataforseoLabsGoogleCategoriesForKeywordsLiveItem.md)[]
 
-Defined in: main.ts:98077
+Defined in: main.ts:98105
 
 contains keywords and related keyword difficulty scores
 
@@ -54,7 +54,7 @@ contains keywords and related keyword difficulty scores
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:98075
+Defined in: main.ts:98103
 
 the number of results returned in the items array
 
@@ -68,7 +68,7 @@ the number of results returned in the items array
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:98073
+Defined in: main.ts:98101
 
 language code in a POST array
 if there is no data, then the value is null
@@ -83,7 +83,7 @@ if there is no data, then the value is null
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:98090
+Defined in: main.ts:98118
 
 #### Parameters
 
@@ -101,7 +101,7 @@ Defined in: main.ts:98090
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:98113
+Defined in: main.ts:98141
 
 #### Parameters
 
@@ -119,7 +119,7 @@ Defined in: main.ts:98113
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo`](DataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo.md)
 
-Defined in: main.ts:98106
+Defined in: main.ts:98134
 
 #### Parameters
 

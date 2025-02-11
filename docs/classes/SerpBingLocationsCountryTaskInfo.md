@@ -6,7 +6,7 @@
 
 # Class: SerpBingLocationsCountryTaskInfo
 
-Defined in: main.ts:63079
+Defined in: main.ts:63107
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:63079
 
 > **new SerpBingLocationsCountryTaskInfo**(`data`?): [`SerpBingLocationsCountryTaskInfo`](SerpBingLocationsCountryTaskInfo.md)
 
-Defined in: main.ts:63085
+Defined in: main.ts:63113
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpBingLocationsCountryResultInfo`](SerpBingLocationsCountryResultInfo.md)[]
 
-Defined in: main.ts:63081
+Defined in: main.ts:63109
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:63089
+Defined in: main.ts:63117
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:63089
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:63111
+Defined in: main.ts:63139
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:63111
 
 > `static` **fromJS**(`data`): [`SerpBingLocationsCountryTaskInfo`](SerpBingLocationsCountryTaskInfo.md)
 
-Defined in: main.ts:63104
+Defined in: main.ts:63132
 
 #### Parameters
 

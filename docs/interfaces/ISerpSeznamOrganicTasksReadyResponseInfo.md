@@ -6,7 +6,7 @@
 
 # Interface: ISerpSeznamOrganicTasksReadyResponseInfo
 
-Defined in: main.ts:83357
+Defined in: main.ts:83393
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpSeznamOrganicTasksReadyTaskInfo`](../classes/SerpSeznamOrganicTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:83359
+Defined in: main.ts:83395
 
 array of tasks
 

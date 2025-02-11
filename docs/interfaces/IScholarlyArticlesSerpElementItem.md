@@ -6,7 +6,7 @@
 
 # Interface: IScholarlyArticlesSerpElementItem
 
-Defined in: main.ts:34628
+Defined in: main.ts:34644
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:34628
 
 > `optional` **items**: [`ScholarlyArticlesElement`](../classes/ScholarlyArticlesElement.md)[]
 
-Defined in: main.ts:34634
+Defined in: main.ts:34650
 
 contains arrays of specific images
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:34638
+Defined in: main.ts:34654
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -91,7 +91,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:34630
+Defined in: main.ts:34646
 
 title of the row
 
@@ -115,7 +115,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:34632
+Defined in: main.ts:34648
 
 source URL
 

@@ -6,7 +6,7 @@
 
 # Interface: IGoogleImageCarouselSerpElementItem
 
-Defined in: main.ts:50875
+Defined in: main.ts:50891
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:50875
 
 > `optional` **items**: [`CarouselElement`](../classes/CarouselElement.md)[]
 
-Defined in: main.ts:50883
+Defined in: main.ts:50899
 
 items of the element
 
@@ -32,7 +32,7 @@ items of the element
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:50879
+Defined in: main.ts:50895
 
 the alignment of the element in SERP
 can take the following values:
@@ -44,7 +44,7 @@ left, right
 
 > `optional` **rank\_absolute**: `number`
 
-Defined in: main.ts:50805
+Defined in: main.ts:50821
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -59,7 +59,7 @@ absolute position among all the elements in SERP
 
 > `optional` **rank\_group**: `number`
 
-Defined in: main.ts:50802
+Defined in: main.ts:50818
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -75,7 +75,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:50887
+Defined in: main.ts:50903
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -87,7 +87,7 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:50881
+Defined in: main.ts:50897
 
 title of the element
 
@@ -97,7 +97,7 @@ title of the element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:50798
+Defined in: main.ts:50814
 
 type of element
 
@@ -111,7 +111,7 @@ type of element
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:50807
+Defined in: main.ts:50823
 
 the XPath of the element
 

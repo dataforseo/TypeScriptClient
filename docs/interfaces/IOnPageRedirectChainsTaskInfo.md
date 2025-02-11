@@ -6,7 +6,7 @@
 
 # Interface: IOnPageRedirectChainsTaskInfo
 
-Defined in: main.ts:170250
+Defined in: main.ts:170414
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`OnPageRedirectChainsResultInfo`](../classes/OnPageRedirectChainsResultInfo.md)[]
 
-Defined in: main.ts:170252
+Defined in: main.ts:170416
 
 array of results
 

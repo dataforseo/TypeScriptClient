@@ -6,7 +6,7 @@
 
 # Class: OnPageRedirectChainsTaskInfo
 
-Defined in: main.ts:170202
+Defined in: main.ts:170366
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:170202
 
 > **new OnPageRedirectChainsTaskInfo**(`data`?): [`OnPageRedirectChainsTaskInfo`](OnPageRedirectChainsTaskInfo.md)
 
-Defined in: main.ts:170208
+Defined in: main.ts:170372
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`OnPageRedirectChainsResultInfo`](OnPageRedirectChainsResultInfo.md)[]
 
-Defined in: main.ts:170204
+Defined in: main.ts:170368
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:170212
+Defined in: main.ts:170376
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:170212
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:170234
+Defined in: main.ts:170398
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:170234
 
 > `static` **fromJS**(`data`): [`OnPageRedirectChainsTaskInfo`](OnPageRedirectChainsTaskInfo.md)
 
-Defined in: main.ts:170227
+Defined in: main.ts:170391
 
 #### Parameters
 

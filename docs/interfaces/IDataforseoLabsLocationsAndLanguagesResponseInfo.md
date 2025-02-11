@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsLocationsAndLanguagesResponseInfo
 
-Defined in: main.ts:91625
+Defined in: main.ts:91661
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsLocationsAndLanguagesTaskInfo`](../classes/DataforseoLabsLocationsAndLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:91627
+Defined in: main.ts:91663
 
 array of tasks
 

@@ -6,7 +6,7 @@
 
 # Class: DomainAnalyticsTechnologiesAvailableFiltersResponseInfo
 
-Defined in: main.ts:85189
+Defined in: main.ts:85225
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:85189
 
 > **new DomainAnalyticsTechnologiesAvailableFiltersResponseInfo**(`data`?): [`DomainAnalyticsTechnologiesAvailableFiltersResponseInfo`](DomainAnalyticsTechnologiesAvailableFiltersResponseInfo.md)
 
-Defined in: main.ts:85194
+Defined in: main.ts:85230
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DomainAnalyticsTechnologiesAvailableFiltersTaskInfo`](DomainAnalyticsTechnologiesAvailableFiltersTaskInfo.md)[]
 
-Defined in: main.ts:85190
+Defined in: main.ts:85226
 
 #### Implementation of
 
@@ -188,7 +188,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:85198
+Defined in: main.ts:85234
 
 #### Parameters
 
@@ -210,7 +210,7 @@ Defined in: main.ts:85198
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:85220
+Defined in: main.ts:85256
 
 #### Parameters
 
@@ -232,7 +232,7 @@ Defined in: main.ts:85220
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesAvailableFiltersResponseInfo`](DomainAnalyticsTechnologiesAvailableFiltersResponseInfo.md)
 
-Defined in: main.ts:85213
+Defined in: main.ts:85249
 
 #### Parameters
 

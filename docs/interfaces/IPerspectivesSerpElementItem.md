@@ -6,7 +6,7 @@
 
 # Interface: IPerspectivesSerpElementItem
 
-Defined in: main.ts:37544
+Defined in: main.ts:37560
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:37544
 
 > `optional` **items**: [`PerspectivesElement`](../classes/PerspectivesElement.md)[]
 
-Defined in: main.ts:37548
+Defined in: main.ts:37564
 
 contains arrays of specific images
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:37552
+Defined in: main.ts:37568
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -91,7 +91,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:37546
+Defined in: main.ts:37562
 
 title of the row
 

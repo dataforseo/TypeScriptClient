@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleRelevantPagesLiveResponseInfo
 
-Defined in: main.ts:104971
+Defined in: main.ts:105035
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:104971
 
 > **new DataforseoLabsGoogleRelevantPagesLiveResponseInfo**(`data`?): [`DataforseoLabsGoogleRelevantPagesLiveResponseInfo`](DataforseoLabsGoogleRelevantPagesLiveResponseInfo.md)
 
-Defined in: main.ts:104977
+Defined in: main.ts:105041
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsGoogleRelevantPagesLiveTaskInfo`](DataforseoLabsGoogleRelevantPagesLiveTaskInfo.md)[]
 
-Defined in: main.ts:104973
+Defined in: main.ts:105037
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:104981
+Defined in: main.ts:105045
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:104981
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:105003
+Defined in: main.ts:105067
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:105003
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleRelevantPagesLiveResponseInfo`](DataforseoLabsGoogleRelevantPagesLiveResponseInfo.md)
 
-Defined in: main.ts:104996
+Defined in: main.ts:105060
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: LocalServicesDataforseoLabsSerpElementItem
 
-Defined in: main.ts:109195
+Defined in: main.ts:109251
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:109195
 
 > **new LocalServicesDataforseoLabsSerpElementItem**(`data`?): [`LocalServicesDataforseoLabsSerpElementItem`](LocalServicesDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:109207
+Defined in: main.ts:109263
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:109201
+Defined in: main.ts:109257
 
 domain where a link points
 
@@ -74,7 +74,7 @@ domain where a link points
 
 > `optional` **items**: [`LocalServicesElement`](LocalServicesElement.md)[]
 
-Defined in: main.ts:109203
+Defined in: main.ts:109259
 
 elements of search results found in SERP
 
@@ -146,7 +146,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:109197
+Defined in: main.ts:109253
 
 title of the result in SERP
 
@@ -178,7 +178,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:109199
+Defined in: main.ts:109255
 
 relevant URL of the Ad element in SERP
 
@@ -210,7 +210,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:109212
+Defined in: main.ts:109268
 
 #### Parameters
 
@@ -232,7 +232,7 @@ Defined in: main.ts:109212
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:109237
+Defined in: main.ts:109293
 
 #### Parameters
 
@@ -254,7 +254,7 @@ Defined in: main.ts:109237
 
 > `static` **fromJS**(`data`): [`LocalServicesDataforseoLabsSerpElementItem`](LocalServicesDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:109230
+Defined in: main.ts:109286
 
 #### Parameters
 

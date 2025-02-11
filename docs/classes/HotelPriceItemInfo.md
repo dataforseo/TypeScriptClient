@@ -6,7 +6,7 @@
 
 # Class: HotelPriceItemInfo
 
-Defined in: main.ts:217090
+Defined in: main.ts:217592
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:217090
 
 > **new HotelPriceItemInfo**(`data`?): [`HotelPriceItemInfo`](HotelPriceItemInfo.md)
 
-Defined in: main.ts:217119
+Defined in: main.ts:217621
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:217119
 
 > `optional` **currency**: `string`
 
-Defined in: main.ts:217099
+Defined in: main.ts:217601
 
 price currency
 USD is applied by default, unless specified in the POST array
@@ -55,7 +55,7 @@ USD is applied by default, unless specified in the POST array
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:217105
+Defined in: main.ts:217607
 
 third-party domain
 domain of the third-party website page with pricing information
@@ -70,7 +70,7 @@ domain of the third-party website page with pricing information
 
 > `optional` **free\_cancellation\_until**: `string`
 
-Defined in: main.ts:217113
+Defined in: main.ts:217615
 
 date until which free cancellation is available
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -86,7 +86,7 @@ equals null if free cancellation is not available for the selected dates
 
 > `optional` **is\_paid**: `boolean`
 
-Defined in: main.ts:217109
+Defined in: main.ts:217611
 
 indicates a paid hotel listing
 if true, related hotel_search_item is a paid ad
@@ -102,7 +102,7 @@ if false, related hotel_search_item is an organic hotel listing
 
 > `optional` **offers**: [`HotelInfoPriceOffer`](HotelInfoPriceOffer.md)[]
 
-Defined in: main.ts:217115
+Defined in: main.ts:217617
 
 featured price offers
 
@@ -116,7 +116,7 @@ featured price offers
 
 > `optional` **price**: `number`
 
-Defined in: main.ts:217096
+Defined in: main.ts:217598
 
 price per night
 
@@ -130,7 +130,7 @@ price per night
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:217094
+Defined in: main.ts:217596
 
 title of the hotel
 
@@ -144,7 +144,7 @@ title of the hotel
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:217092
+Defined in: main.ts:217594
 
 type of element
 
@@ -158,7 +158,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:217102
+Defined in: main.ts:217604
 
 third-party page url
 URL to the third-party website page with pricing information
@@ -173,7 +173,7 @@ URL to the third-party website page with pricing information
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:217128
+Defined in: main.ts:217630
 
 #### Parameters
 
@@ -191,7 +191,7 @@ Defined in: main.ts:217128
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:217157
+Defined in: main.ts:217659
 
 #### Parameters
 
@@ -209,7 +209,7 @@ Defined in: main.ts:217157
 
 > `static` **fromJS**(`data`): [`HotelPriceItemInfo`](HotelPriceItemInfo.md)
 
-Defined in: main.ts:217150
+Defined in: main.ts:217652
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IMathSolverSerpElementItem
 
-Defined in: main.ts:36385
+Defined in: main.ts:36401
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:36385
 
 > `optional` **items**: [`MathSolverElement`](../classes/MathSolverElement.md)[]
 
-Defined in: main.ts:36392
+Defined in: main.ts:36408
 
 contains arrays of specific images
 
@@ -32,7 +32,7 @@ contains arrays of specific images
 
 > `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
-Defined in: main.ts:36394
+Defined in: main.ts:36410
 
 link of the element
 
@@ -89,7 +89,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
-Defined in: main.ts:36398
+Defined in: main.ts:36414
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -101,7 +101,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **result**: `string`
 
-Defined in: main.ts:36390
+Defined in: main.ts:36406
 
 solution to the equation
 solution to the mathematical equation specified in the keyword field when setting a task
@@ -112,7 +112,7 @@ solution to the mathematical equation specified in the keyword field when settin
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:36387
+Defined in: main.ts:36403
 
 title of the row
 

@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleAutocompleteTasksFixedTaskInfo
 
-Defined in: main.ts:55846
+Defined in: main.ts:55862
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:55846
 
 > **new SerpGoogleAutocompleteTasksFixedTaskInfo**(`data`?): [`SerpGoogleAutocompleteTasksFixedTaskInfo`](SerpGoogleAutocompleteTasksFixedTaskInfo.md)
 
-Defined in: main.ts:55852
+Defined in: main.ts:55868
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleAutocompleteTasksFixedResultInfo`](SerpGoogleAutocompleteTasksFixedResultInfo.md)[]
 
-Defined in: main.ts:55848
+Defined in: main.ts:55864
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:55856
+Defined in: main.ts:55872
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:55856
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:55878
+Defined in: main.ts:55894
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:55878
 
 > `static` **fromJS**(`data`): [`SerpGoogleAutocompleteTasksFixedTaskInfo`](SerpGoogleAutocompleteTasksFixedTaskInfo.md)
 
-Defined in: main.ts:55871
+Defined in: main.ts:55887
 
 #### Parameters
 

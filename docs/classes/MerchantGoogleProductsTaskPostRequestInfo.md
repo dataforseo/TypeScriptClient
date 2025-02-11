@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleProductsTaskPostRequestInfo
 
-Defined in: main.ts:185244
+Defined in: main.ts:185606
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:185244
 
 > **new MerchantGoogleProductsTaskPostRequestInfo**(`data`?): [`MerchantGoogleProductsTaskPostRequestInfo`](MerchantGoogleProductsTaskPostRequestInfo.md)
 
-Defined in: main.ts:185399
+Defined in: main.ts:185761
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:185399
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:185319
+Defined in: main.ts:185681
 
 parsing depth
 optional field
@@ -61,7 +61,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:185251
+Defined in: main.ts:185613
 
 keyword
 required field
@@ -80,7 +80,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:185303
+Defined in: main.ts:185665
 
 language code
 required field if you don’t specify language_name
@@ -99,7 +99,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:185296
+Defined in: main.ts:185658
 
 full name of the language
 required field if you don’t specify language_code
@@ -118,7 +118,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:185280
+Defined in: main.ts:185642
 
 location code
 required field if you don’t specify location_name or location_coordinate
@@ -137,7 +137,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:185289
+Defined in: main.ts:185651
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -158,7 +158,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:185273
+Defined in: main.ts:185635
 
 full name of the location
 required field if you don’t specify location_code or location_coordinate
@@ -177,7 +177,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:185326
+Defined in: main.ts:185688
 
 page crawl limit
 optional field
@@ -196,7 +196,7 @@ learn more at our help center
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:185395
+Defined in: main.ts:185757
 
 notification URL of a completed task
 optional field
@@ -219,7 +219,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:185384
+Defined in: main.ts:185746
 
 postback_url datatype
 required field if you specify postback_url
@@ -237,7 +237,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:185378
+Defined in: main.ts:185740
 
 return URL for sending task results
 optional field
@@ -260,7 +260,7 @@ learn more on our Help Center
 
 > `optional` **price\_max**: `number`
 
-Defined in: main.ts:185353
+Defined in: main.ts:185715
 
 maximum product price
 optional field
@@ -279,7 +279,7 @@ Note: if you specify price_max, the search_param parameter will be ignored
 
 > `optional` **price\_min**: `number`
 
-Defined in: main.ts:185346
+Defined in: main.ts:185708
 
 minimum product price
 optional field
@@ -298,7 +298,7 @@ Note: if you specify price_min, the search_param parameter will be ignored
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:185266
+Defined in: main.ts:185628
 
 task priority
 optional field
@@ -318,7 +318,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:185310
+Defined in: main.ts:185672
 
 search engine domain
 optional field
@@ -337,7 +337,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:185339
+Defined in: main.ts:185701
 
 additional parameters of the search query
 optional field
@@ -362,7 +362,7 @@ Note that search_param values will be ignored if any of the following parameters
 
 > `optional` **sort\_by**: `string`
 
-Defined in: main.ts:185361
+Defined in: main.ts:185723
 
 results sorting rules
 optional field
@@ -382,7 +382,7 @@ Note: if you specify sort_by, the search_param parameter will be ignored
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:185367
+Defined in: main.ts:185729
 
 user-defined task identifier
 optional field
@@ -400,7 +400,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:185258
+Defined in: main.ts:185620
 
 direct URL of the search query
 optional field
@@ -419,7 +419,7 @@ https://www.google.com/search?q=fish&hl=en&gl=US&gws_rd=cr&uule=w+CAIQIFISCQs2Mu
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:185408
+Defined in: main.ts:185770
 
 #### Parameters
 
@@ -437,7 +437,7 @@ Defined in: main.ts:185408
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:185443
+Defined in: main.ts:185805
 
 #### Parameters
 
@@ -455,7 +455,7 @@ Defined in: main.ts:185443
 
 > `static` **fromJS**(`data`): [`MerchantGoogleProductsTaskPostRequestInfo`](MerchantGoogleProductsTaskPostRequestInfo.md)
 
-Defined in: main.ts:185436
+Defined in: main.ts:185798
 
 #### Parameters
 

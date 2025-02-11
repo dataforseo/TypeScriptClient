@@ -6,7 +6,7 @@
 
 # Class: BusinessDataGoogleReviewsTasksReadyTaskInfo
 
-Defined in: main.ts:221960
+Defined in: main.ts:222468
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:221960
 
 > **new BusinessDataGoogleReviewsTasksReadyTaskInfo**(`data`?): [`BusinessDataGoogleReviewsTasksReadyTaskInfo`](BusinessDataGoogleReviewsTasksReadyTaskInfo.md)
 
-Defined in: main.ts:221966
+Defined in: main.ts:222474
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataGoogleReviewsTasksReadyResultInfo`](BusinessDataGoogleReviewsTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:221962
+Defined in: main.ts:222470
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:221970
+Defined in: main.ts:222478
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:221970
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:221992
+Defined in: main.ts:222500
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:221992
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleReviewsTasksReadyTaskInfo`](BusinessDataGoogleReviewsTasksReadyTaskInfo.md)
 
-Defined in: main.ts:221985
+Defined in: main.ts:222493
 
 #### Parameters
 

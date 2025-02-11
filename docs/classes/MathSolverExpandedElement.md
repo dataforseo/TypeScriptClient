@@ -6,7 +6,7 @@
 
 # Class: MathSolverExpandedElement
 
-Defined in: main.ts:36167
+Defined in: main.ts:36183
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:36167
 
 > **new MathSolverExpandedElement**(`data`?): [`MathSolverExpandedElement`](MathSolverExpandedElement.md)
 
-Defined in: main.ts:36178
+Defined in: main.ts:36194
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:36178
 
 > `optional` **solution**: `string`[]
 
-Defined in: main.ts:36174
+Defined in: main.ts:36190
 
 solution of the element
 displays steps to solve the mathematical equation as specified in the element
@@ -55,7 +55,7 @@ displays steps to solve the mathematical equation as specified in the element
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:36171
+Defined in: main.ts:36187
 
 title of the carousel item
 
@@ -69,7 +69,7 @@ title of the carousel item
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:36169
+Defined in: main.ts:36185
 
 type of element
 
@@ -83,7 +83,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:36187
+Defined in: main.ts:36203
 
 #### Parameters
 
@@ -101,7 +101,7 @@ Defined in: main.ts:36187
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:36210
+Defined in: main.ts:36226
 
 #### Parameters
 
@@ -119,7 +119,7 @@ Defined in: main.ts:36210
 
 > `static` **fromJS**(`data`): [`MathSolverExpandedElement`](MathSolverExpandedElement.md)
 
-Defined in: main.ts:36203
+Defined in: main.ts:36219
 
 #### Parameters
 

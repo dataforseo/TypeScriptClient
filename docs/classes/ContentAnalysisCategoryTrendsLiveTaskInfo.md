@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisCategoryTrendsLiveTaskInfo
 
-Defined in: main.ts:180990
+Defined in: main.ts:181352
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:180990
 
 > **new ContentAnalysisCategoryTrendsLiveTaskInfo**(`data`?): [`ContentAnalysisCategoryTrendsLiveTaskInfo`](ContentAnalysisCategoryTrendsLiveTaskInfo.md)
 
-Defined in: main.ts:180996
+Defined in: main.ts:181358
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`ContentAnalysisCategoryTrendsLiveResultInfo`](ContentAnalysisCategoryTrendsLiveResultInfo.md)[]
 
-Defined in: main.ts:180992
+Defined in: main.ts:181354
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:181000
+Defined in: main.ts:181362
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:181000
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:181022
+Defined in: main.ts:181384
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:181022
 
 > `static` **fromJS**(`data`): [`ContentAnalysisCategoryTrendsLiveTaskInfo`](ContentAnalysisCategoryTrendsLiveTaskInfo.md)
 
-Defined in: main.ts:181015
+Defined in: main.ts:181377
 
 #### Parameters
 

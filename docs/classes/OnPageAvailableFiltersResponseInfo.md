@@ -6,7 +6,7 @@
 
 # Class: OnPageAvailableFiltersResponseInfo
 
-Defined in: main.ts:164055
+Defined in: main.ts:164219
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:164055
 
 > **new OnPageAvailableFiltersResponseInfo**(`data`?): [`OnPageAvailableFiltersResponseInfo`](OnPageAvailableFiltersResponseInfo.md)
 
-Defined in: main.ts:164060
+Defined in: main.ts:164224
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageAvailableFiltersTaskInfo`](OnPageAvailableFiltersTaskInfo.md)[]
 
-Defined in: main.ts:164056
+Defined in: main.ts:164220
 
 #### Implementation of
 
@@ -188,7 +188,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:164064
+Defined in: main.ts:164228
 
 #### Parameters
 
@@ -210,7 +210,7 @@ Defined in: main.ts:164064
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:164086
+Defined in: main.ts:164250
 
 #### Parameters
 
@@ -232,7 +232,7 @@ Defined in: main.ts:164086
 
 > `static` **fromJS**(`data`): [`OnPageAvailableFiltersResponseInfo`](OnPageAvailableFiltersResponseInfo.md)
 
-Defined in: main.ts:164079
+Defined in: main.ts:164243
 
 #### Parameters
 

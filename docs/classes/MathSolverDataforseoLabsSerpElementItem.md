@@ -6,7 +6,7 @@
 
 # Class: MathSolverDataforseoLabsSerpElementItem
 
-Defined in: main.ts:106987
+Defined in: main.ts:107119
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:106987
 
 > **new MathSolverDataforseoLabsSerpElementItem**(`data`?): [`MathSolverDataforseoLabsSerpElementItem`](MathSolverDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:107002
+Defined in: main.ts:107134
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **items**: [`MathSolverElement`](MathSolverElement.md)[]
 
-Defined in: main.ts:106994
+Defined in: main.ts:107126
 
 contains results featured in the ‘hotels_pack’ element of SERP
 
@@ -74,7 +74,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
-Defined in: main.ts:106998
+Defined in: main.ts:107130
 
 sitelinks
 the links shown below some of Google’s search results
@@ -148,7 +148,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **result**: `string`
 
-Defined in: main.ts:106992
+Defined in: main.ts:107124
 
 solution to the equation
 solution to the mathematical equation specified in the keyword field when setting a task
@@ -163,7 +163,7 @@ solution to the mathematical equation specified in the keyword field when settin
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:106989
+Defined in: main.ts:107121
 
 title of the result in SERP
 
@@ -213,7 +213,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:107007
+Defined in: main.ts:107139
 
 #### Parameters
 
@@ -235,7 +235,7 @@ Defined in: main.ts:107007
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:107036
+Defined in: main.ts:107168
 
 #### Parameters
 
@@ -257,7 +257,7 @@ Defined in: main.ts:107036
 
 > `static` **fromJS**(`data`): [`MathSolverDataforseoLabsSerpElementItem`](MathSolverDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:107029
+Defined in: main.ts:107161
 
 #### Parameters
 

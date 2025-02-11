@@ -6,7 +6,7 @@
 
 # Interface: IContentGenerationGenerateTextLiveRequestInfo
 
-Defined in: main.ts:181683
+Defined in: main.ts:182045
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:181683
 
 > `optional` **creativity\_index**: `number`
 
-Defined in: main.ts:181717
+Defined in: main.ts:182079
 
 creativity of content generation
 optional field
@@ -33,7 +33,7 @@ learn more about this parameter on our help center
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:181704
+Defined in: main.ts:182066
 
 meta description of the content to generate
 optional field
@@ -46,7 +46,7 @@ learn more about this parameter on our help center
 
 > `optional` **include\_conclusion**: `boolean`
 
-Defined in: main.ts:181721
+Defined in: main.ts:182083
 
 include conclusion in generated text
 optional field
@@ -58,7 +58,7 @@ if set to true, generated content will include a logical conclusion
 
 > `optional` **meta\_keywords**: `string`[]
 
-Defined in: main.ts:181710
+Defined in: main.ts:182072
 
 keywords for the content to generate
 optional field
@@ -72,7 +72,7 @@ example: "meta_keywords": ["iPhone","sell","CEO"]
 
 > `optional` **sub\_topics**: `string`[]
 
-Defined in: main.ts:181699
+Defined in: main.ts:182061
 
 secondary topics of the content to generate
 optional field
@@ -86,7 +86,7 @@ example: "sub_topics": ["Apple","Pixar","Amazing Products"]
 
 > `optional` **supplement\_token**: `string`
 
-Defined in: main.ts:181727
+Defined in: main.ts:182089
 
 token for generating subsequent results
 optional field
@@ -100,7 +100,7 @@ supplement_token values are unique for each subsequent task
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:181733
+Defined in: main.ts:182095
 
 user-defined task identifier
 optional field
@@ -114,7 +114,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **topic**: `string`
 
-Defined in: main.ts:181688
+Defined in: main.ts:182050
 
 main topic of the content to generate
 required field
@@ -127,7 +127,7 @@ can contain from 1 to 50 tokens
 
 > `optional` **word\_count**: `number`
 
-Defined in: main.ts:181693
+Defined in: main.ts:182055
 
 number of words in content
 required field

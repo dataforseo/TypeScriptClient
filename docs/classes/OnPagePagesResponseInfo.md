@@ -6,7 +6,7 @@
 
 # Class: OnPagePagesResponseInfo
 
-Defined in: main.ts:167151
+Defined in: main.ts:167315
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:167151
 
 > **new OnPagePagesResponseInfo**(`data`?): [`OnPagePagesResponseInfo`](OnPagePagesResponseInfo.md)
 
-Defined in: main.ts:167157
+Defined in: main.ts:167321
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPagePagesTaskInfo`](OnPagePagesTaskInfo.md)[]
 
-Defined in: main.ts:167153
+Defined in: main.ts:167317
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:167161
+Defined in: main.ts:167325
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:167161
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:167183
+Defined in: main.ts:167347
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:167183
 
 > `static` **fromJS**(`data`): [`OnPagePagesResponseInfo`](OnPagePagesResponseInfo.md)
 
-Defined in: main.ts:167176
+Defined in: main.ts:167340
 
 #### Parameters
 

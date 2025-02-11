@@ -6,7 +6,7 @@
 
 # Class: BusinessDataIdListTaskInfo
 
-Defined in: main.ts:209616
+Defined in: main.ts:210118
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:209616
 
 > **new BusinessDataIdListTaskInfo**(`data`?): [`BusinessDataIdListTaskInfo`](BusinessDataIdListTaskInfo.md)
 
-Defined in: main.ts:209622
+Defined in: main.ts:210124
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataIdListResultInfo`](BusinessDataIdListResultInfo.md)[]
 
-Defined in: main.ts:209618
+Defined in: main.ts:210120
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:209626
+Defined in: main.ts:210128
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:209626
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:209648
+Defined in: main.ts:210150
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:209648
 
 > `static` **fromJS**(`data`): [`BusinessDataIdListTaskInfo`](BusinessDataIdListTaskInfo.md)
 
-Defined in: main.ts:209641
+Defined in: main.ts:210143
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IEventsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108500
+Defined in: main.ts:108556
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:108500
 
 > `optional` **items**: [`EventsElement`](../classes/EventsElement.md)[]
 
-Defined in: main.ts:108506
+Defined in: main.ts:108562
 
 elements of search results found in SERP
 
@@ -78,7 +78,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:108502
+Defined in: main.ts:108558
 
 title of the result in SERP
 
@@ -102,7 +102,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:108504
+Defined in: main.ts:108560
 
 relevant URL of the Ad element in SERP
 

@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleImagesTaskPostRequestInfo
 
-Defined in: main.ts:49865
+Defined in: main.ts:49881
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:49865
 
 > **new SerpGoogleImagesTaskPostRequestInfo**(`data`?): [`SerpGoogleImagesTaskPostRequestInfo`](SerpGoogleImagesTaskPostRequestInfo.md)
 
-Defined in: main.ts:49998
+Defined in: main.ts:50014
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:49998
 
 > `optional` **depth**: `number`
 
-Defined in: main.ts:49949
+Defined in: main.ts:49965
 
 parsing depth
 optional field
@@ -61,7 +61,7 @@ if the specified depth is higher than the number of results in the response, the
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:49881
+Defined in: main.ts:49897
 
 keyword
 required field
@@ -69,7 +69,7 @@ you can specify up to 700 characters in the keyword field
 all %## will be decoded (plus character ‘+’ will be decoded to a space character)
 if you need to use the “%” character for your keyword, please specify it as “%25”;
 if you need to use the “+” character for your keyword, please specify it as “%2B”;
-if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’, ‘-site:’, the charge per task will be multiplied by 5
+if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’, the charge per task will be multiplied by 5
 Note: queries containing the ‘cache:’ parameter are not supported and will return a validation error
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
@@ -83,7 +83,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:49927
+Defined in: main.ts:49943
 
 search engine language code
 required field if you don’t specify language_name
@@ -102,7 +102,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:49920
+Defined in: main.ts:49936
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -121,7 +121,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:49903
+Defined in: main.ts:49919
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -140,7 +140,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:49913
+Defined in: main.ts:49929
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -162,7 +162,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:49896
+Defined in: main.ts:49912
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -181,7 +181,7 @@ London,England,United Kingdom
 
 > `optional` **max\_crawl\_pages**: `number`
 
-Defined in: main.ts:49956
+Defined in: main.ts:49972
 
 page crawl limit
 optional field
@@ -200,7 +200,7 @@ learn more at our help center
 
 > `optional` **os**: `string`
 
-Defined in: main.ts:49933
+Defined in: main.ts:49949
 
 device operating system
 optional field
@@ -218,7 +218,7 @@ default value: windows
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:49994
+Defined in: main.ts:50010
 
 notification URL of a completed task
 optional field
@@ -241,7 +241,7 @@ learn more on our Help Center
 
 > `optional` **postback\_data**: `string`
 
-Defined in: main.ts:49983
+Defined in: main.ts:49999
 
 postback_url datatype
 required field if you specify postback_url
@@ -259,7 +259,7 @@ advanced, html
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:49977
+Defined in: main.ts:49993
 
 return URL for sending task results
 optional field
@@ -282,7 +282,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:49889
+Defined in: main.ts:49905
 
 task priority
 optional field
@@ -302,7 +302,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:49940
+Defined in: main.ts:49956
 
 search engine domain
 optional field
@@ -321,7 +321,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 > `optional` **search\_param**: `string`
 
-Defined in: main.ts:49960
+Defined in: main.ts:49976
 
 additional parameters of the search query
 optional field
@@ -337,7 +337,7 @@ get the list of available parameters and additional details here
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:49966
+Defined in: main.ts:49982
 
 user-defined task identifier
 optional field
@@ -355,7 +355,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:49871
+Defined in: main.ts:49887
 
 direct URL of the search query
 optional field
@@ -373,7 +373,7 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:50007
+Defined in: main.ts:50023
 
 #### Parameters
 
@@ -391,7 +391,7 @@ Defined in: main.ts:50007
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:50040
+Defined in: main.ts:50056
 
 #### Parameters
 
@@ -409,7 +409,7 @@ Defined in: main.ts:50040
 
 > `static` **fromJS**(`data`): [`SerpGoogleImagesTaskPostRequestInfo`](SerpGoogleImagesTaskPostRequestInfo.md)
 
-Defined in: main.ts:50033
+Defined in: main.ts:50049
 
 #### Parameters
 

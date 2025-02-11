@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisLanguagesTaskInfo
 
-Defined in: main.ts:177138
+Defined in: main.ts:177502
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`ContentAnalysisLanguagesResultInfo`](../classes/ContentAnalysisLanguagesResultInfo.md)[]
 
-Defined in: main.ts:177140
+Defined in: main.ts:177504
 
 array of results
 

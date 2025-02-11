@@ -6,7 +6,7 @@
 
 # Interface: IGoogleBusinessPostBusinessDataSerpElementItem
 
-Defined in: main.ts:215781
+Defined in: main.ts:216283
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:215781
 
 > `optional` **author**: `string`
 
-Defined in: main.ts:215788
+Defined in: main.ts:216290
 
 author of the post
 
@@ -32,7 +32,7 @@ author of the post
 
 > `optional` **images\_url**: `string`
 
-Defined in: main.ts:215796
+Defined in: main.ts:216298
 
 url of an image included in the post
 
@@ -42,7 +42,7 @@ url of an image included in the post
 
 > `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
-Defined in: main.ts:215807
+Defined in: main.ts:216309
 
 links included in the post
 
@@ -52,7 +52,7 @@ links included in the post
 
 > `optional` **position**: `string`
 
-Defined in: main.ts:215784
+Defined in: main.ts:216286
 
 the alignment of the element in SERP
 can take the following values: right
@@ -63,7 +63,7 @@ can take the following values: right
 
 > `optional` **post\_date**: `string`
 
-Defined in: main.ts:215800
+Defined in: main.ts:216302
 
 date when a post was published
 in the following format:
@@ -75,7 +75,7 @@ in the following format:
 
 > `optional` **post\_text**: `string`
 
-Defined in: main.ts:215792
+Defined in: main.ts:216294
 
 main content of a post
 
@@ -114,7 +114,7 @@ positions of elements with different type values are omitted from the rank_group
 
 > `optional` **snippet**: `string`
 
-Defined in: main.ts:215790
+Defined in: main.ts:216292
 
 additional content of a post
 
@@ -124,7 +124,7 @@ additional content of a post
 
 > `optional` **timestamp**: `string`
 
-Defined in: main.ts:215805
+Defined in: main.ts:216307
 
 time when a post was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -151,7 +151,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:215794
+Defined in: main.ts:216296
 
 url of a post
 
@@ -161,6 +161,6 @@ url of a post
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:215786
+Defined in: main.ts:216288
 
 the XPath of the element

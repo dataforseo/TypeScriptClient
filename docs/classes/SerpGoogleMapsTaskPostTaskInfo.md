@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleMapsTaskPostTaskInfo
 
-Defined in: main.ts:40885
+Defined in: main.ts:40901
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:40885
 
 > **new SerpGoogleMapsTaskPostTaskInfo**(`data`?): [`SerpGoogleMapsTaskPostTaskInfo`](SerpGoogleMapsTaskPostTaskInfo.md)
 
-Defined in: main.ts:40892
+Defined in: main.ts:40908
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:40888
+Defined in: main.ts:40904
 
 array of results
 in this case, the value will be null
@@ -215,7 +215,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:40896
+Defined in: main.ts:40912
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:40896
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:40914
+Defined in: main.ts:40930
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:40914
 
 > `static` **fromJS**(`data`): [`SerpGoogleMapsTaskPostTaskInfo`](SerpGoogleMapsTaskPostTaskInfo.md)
 
-Defined in: main.ts:40907
+Defined in: main.ts:40923
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonAsinTasksReadyTaskInfo
 
-Defined in: main.ts:193930
+Defined in: main.ts:194336
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:193930
 
 > **new MerchantAmazonAsinTasksReadyTaskInfo**(`data`?): [`MerchantAmazonAsinTasksReadyTaskInfo`](MerchantAmazonAsinTasksReadyTaskInfo.md)
 
-Defined in: main.ts:193936
+Defined in: main.ts:194342
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`MerchantAmazonAsinTasksReadyResultInfo`](MerchantAmazonAsinTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:193932
+Defined in: main.ts:194338
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:193940
+Defined in: main.ts:194346
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:193940
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:193962
+Defined in: main.ts:194368
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:193962
 
 > `static` **fromJS**(`data`): [`MerchantAmazonAsinTasksReadyTaskInfo`](MerchantAmazonAsinTasksReadyTaskInfo.md)
 
-Defined in: main.ts:193955
+Defined in: main.ts:194361
 
 #### Parameters
 

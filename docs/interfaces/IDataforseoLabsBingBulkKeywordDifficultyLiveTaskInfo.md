@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsBingBulkKeywordDifficultyLiveTaskInfo
 
-Defined in: main.ts:115578
+Defined in: main.ts:115646
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo`](../classes/DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md)[]
 
-Defined in: main.ts:115580
+Defined in: main.ts:115648
 
 array of results
 

@@ -6,7 +6,7 @@
 
 # Class: OnPageWaterfallResponseInfo
 
-Defined in: main.ts:171043
+Defined in: main.ts:171207
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:171043
 
 > **new OnPageWaterfallResponseInfo**(`data`?): [`OnPageWaterfallResponseInfo`](OnPageWaterfallResponseInfo.md)
 
-Defined in: main.ts:171049
+Defined in: main.ts:171213
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageWaterfallTaskInfo`](OnPageWaterfallTaskInfo.md)[]
 
-Defined in: main.ts:171045
+Defined in: main.ts:171209
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:171053
+Defined in: main.ts:171217
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:171053
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:171075
+Defined in: main.ts:171239
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:171075
 
 > `static` **fromJS**(`data`): [`OnPageWaterfallResponseInfo`](OnPageWaterfallResponseInfo.md)
 
-Defined in: main.ts:171068
+Defined in: main.ts:171232
 
 #### Parameters
 

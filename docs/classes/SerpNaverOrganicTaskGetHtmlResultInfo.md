@@ -6,7 +6,7 @@
 
 # Class: SerpNaverOrganicTaskGetHtmlResultInfo
 
-Defined in: main.ts:81950
+Defined in: main.ts:81986
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:81950
 
 > **new SerpNaverOrganicTaskGetHtmlResultInfo**(`data`?): [`SerpNaverOrganicTaskGetHtmlResultInfo`](SerpNaverOrganicTaskGetHtmlResultInfo.md)
 
-Defined in: main.ts:81974
+Defined in: main.ts:82010
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:81974
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:81966
+Defined in: main.ts:82002
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -57,7 +57,7 @@ example:
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
-Defined in: main.ts:81970
+Defined in: main.ts:82006
 
 elements of search results found in SERP
 
@@ -71,7 +71,7 @@ elements of search results found in SERP
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:81968
+Defined in: main.ts:82004
 
 the number of results returned in the items array
 
@@ -85,7 +85,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:81953
+Defined in: main.ts:81989
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -100,7 +100,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:81961
+Defined in: main.ts:81997
 
 language code in a POST array
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:81959
+Defined in: main.ts:81995
 
 location code in a POST array
 
@@ -128,7 +128,7 @@ location code in a POST array
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:81957
+Defined in: main.ts:81993
 
 search engine domain in a POST array
 
@@ -142,7 +142,7 @@ search engine domain in a POST array
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:81955
+Defined in: main.ts:81991
 
 type of element
 
@@ -156,7 +156,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:81983
+Defined in: main.ts:82019
 
 #### Parameters
 
@@ -174,7 +174,7 @@ Defined in: main.ts:81983
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:82011
+Defined in: main.ts:82047
 
 #### Parameters
 
@@ -192,7 +192,7 @@ Defined in: main.ts:82011
 
 > `static` **fromJS**(`data`): [`SerpNaverOrganicTaskGetHtmlResultInfo`](SerpNaverOrganicTaskGetHtmlResultInfo.md)
 
-Defined in: main.ts:82004
+Defined in: main.ts:82040
 
 #### Parameters
 

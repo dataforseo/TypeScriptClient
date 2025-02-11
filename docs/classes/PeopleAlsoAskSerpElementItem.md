@@ -6,7 +6,7 @@
 
 # Class: PeopleAlsoAskSerpElementItem
 
-Defined in: main.ts:31953
+Defined in: main.ts:31961
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:31953
 
 > **new PeopleAlsoAskSerpElementItem**(`data`?): [`PeopleAlsoAskSerpElementItem`](PeopleAlsoAskSerpElementItem.md)
 
-Defined in: main.ts:31963
+Defined in: main.ts:31971
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`PeopleAlsoAskElement`](PeopleAlsoAskElement.md)[]
 
-Defined in: main.ts:31955
+Defined in: main.ts:31963
 
 contains arrays of specific images
 
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:31959
+Defined in: main.ts:31967
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -185,7 +185,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:31968
+Defined in: main.ts:31976
 
 #### Parameters
 
@@ -207,7 +207,7 @@ Defined in: main.ts:31968
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:31991
+Defined in: main.ts:31999
 
 #### Parameters
 
@@ -229,7 +229,7 @@ Defined in: main.ts:31991
 
 > `static` **fromJS**(`data`): [`PeopleAlsoAskSerpElementItem`](PeopleAlsoAskSerpElementItem.md)
 
-Defined in: main.ts:31984
+Defined in: main.ts:31992
 
 #### Parameters
 

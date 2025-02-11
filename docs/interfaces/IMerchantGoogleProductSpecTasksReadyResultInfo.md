@@ -6,7 +6,7 @@
 
 # Interface: IMerchantGoogleProductSpecTasksReadyResultInfo
 
-Defined in: main.ts:189181
+Defined in: main.ts:189571
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:189181
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:189191
+Defined in: main.ts:189581
 
 date when the task was posted (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint\_advanced**: `string`
 
-Defined in: main.ts:189195
+Defined in: main.ts:189585
 
 URL for collecting the results of the Google Shopping Product Specifications Advanced task
 
@@ -38,7 +38,7 @@ URL for collecting the results of the Google Shopping Product Specifications Adv
 
 > `optional` **endpoint\_html**: `string`
 
-Defined in: main.ts:189197
+Defined in: main.ts:189587
 
 URL for collecting the results of the Google Shopping Product Specifications HTML task
 
@@ -48,7 +48,7 @@ URL for collecting the results of the Google Shopping Product Specifications HTM
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:189184
+Defined in: main.ts:189574
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -59,7 +59,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:189186
+Defined in: main.ts:189576
 
 search engine specified when setting the task
 
@@ -69,7 +69,7 @@ search engine specified when setting the task
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:189189
+Defined in: main.ts:189579
 
 type of search engine
 can take the following values: shopping_specifications
@@ -80,6 +80,6 @@ can take the following values: shopping_specifications
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:189193
+Defined in: main.ts:189583
 
 user-defined task identifier

@@ -6,7 +6,7 @@
 
 # Interface: ISerpBingLanguagesResultInfo
 
-Defined in: main.ts:63236
+Defined in: main.ts:63264
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:63236
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:63240
+Defined in: main.ts:63268
 
 language code according to ISO 639-1
 
@@ -28,6 +28,6 @@ language code according to ISO 639-1
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:63238
+Defined in: main.ts:63266
 
 language name

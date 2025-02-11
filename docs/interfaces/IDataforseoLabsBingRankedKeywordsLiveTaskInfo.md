@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsBingRankedKeywordsLiveTaskInfo
 
-Defined in: main.ts:118690
+Defined in: main.ts:118782
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsBingRankedKeywordsLiveResultInfo`](../classes/DataforseoLabsBingRankedKeywordsLiveResultInfo.md)[]
 
-Defined in: main.ts:118692
+Defined in: main.ts:118784
 
 array of results
 

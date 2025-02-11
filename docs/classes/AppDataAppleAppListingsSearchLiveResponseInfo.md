@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppListingsSearchLiveResponseInfo
 
-Defined in: main.ts:209323
+Defined in: main.ts:209825
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:209323
 
 > **new AppDataAppleAppListingsSearchLiveResponseInfo**(`data`?): [`AppDataAppleAppListingsSearchLiveResponseInfo`](AppDataAppleAppListingsSearchLiveResponseInfo.md)
 
-Defined in: main.ts:209329
+Defined in: main.ts:209831
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataAppleAppListingsSearchLiveTaskInfo`](AppDataAppleAppListingsSearchLiveTaskInfo.md)[]
 
-Defined in: main.ts:209325
+Defined in: main.ts:209827
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:209333
+Defined in: main.ts:209835
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:209333
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:209355
+Defined in: main.ts:209857
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:209355
 
 > `static` **fromJS**(`data`): [`AppDataAppleAppListingsSearchLiveResponseInfo`](AppDataAppleAppListingsSearchLiveResponseInfo.md)
 
-Defined in: main.ts:209348
+Defined in: main.ts:209850
 
 #### Parameters
 

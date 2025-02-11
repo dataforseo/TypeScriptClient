@@ -6,7 +6,7 @@
 
 # Class: MerchantGoogleLocationsCountryResponseInfo
 
-Defined in: main.ts:185189
+Defined in: main.ts:185551
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:185189
 
 > **new MerchantGoogleLocationsCountryResponseInfo**(`data`?): [`MerchantGoogleLocationsCountryResponseInfo`](MerchantGoogleLocationsCountryResponseInfo.md)
 
-Defined in: main.ts:185195
+Defined in: main.ts:185557
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`MerchantGoogleLocationsCountryTaskInfo`](MerchantGoogleLocationsCountryTaskInfo.md)[]
 
-Defined in: main.ts:185191
+Defined in: main.ts:185553
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:185199
+Defined in: main.ts:185561
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:185199
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:185221
+Defined in: main.ts:185583
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:185221
 
 > `static` **fromJS**(`data`): [`MerchantGoogleLocationsCountryResponseInfo`](MerchantGoogleLocationsCountryResponseInfo.md)
 
-Defined in: main.ts:185214
+Defined in: main.ts:185576
 
 #### Parameters
 

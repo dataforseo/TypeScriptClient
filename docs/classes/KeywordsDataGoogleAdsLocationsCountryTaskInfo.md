@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleAdsLocationsCountryTaskInfo
 
-Defined in: main.ts:126444
+Defined in: main.ts:126560
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:126444
 
 > **new KeywordsDataGoogleAdsLocationsCountryTaskInfo**(`data`?): [`KeywordsDataGoogleAdsLocationsCountryTaskInfo`](KeywordsDataGoogleAdsLocationsCountryTaskInfo.md)
 
-Defined in: main.ts:126450
+Defined in: main.ts:126566
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataGoogleAdsLocationsCountryResultInfo`](KeywordsDataGoogleAdsLocationsCountryResultInfo.md)[]
 
-Defined in: main.ts:126446
+Defined in: main.ts:126562
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:126454
+Defined in: main.ts:126570
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:126454
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:126476
+Defined in: main.ts:126592
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:126476
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleAdsLocationsCountryTaskInfo`](KeywordsDataGoogleAdsLocationsCountryTaskInfo.md)
 
-Defined in: main.ts:126469
+Defined in: main.ts:126585
 
 #### Parameters
 

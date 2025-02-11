@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo
 
-Defined in: main.ts:114720
+Defined in: main.ts:114788
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:114720
 
 > **new DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo**(`data`?): [`DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo`](DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md)
 
-Defined in: main.ts:114814
+Defined in: main.ts:114882
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:114814
 
 > `optional` **asins**: `object`
 
-Defined in: main.ts:114731
+Defined in: main.ts:114799
 
 asins of target products
 required field
@@ -67,14 +67,14 @@ learn more about the parameter on this help center page
 
 > `optional` **filters**: `any`[]
 
-Defined in: main.ts:114783
+Defined in: main.ts:114851
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, <=, >, >=, =, <>, in, not_in, ilike, not_ilike, like, not_like
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, ilike, not_ilike, like, not_like, match, not_match
 you can use the % operator with like and not_like, as well as ilike and not_ilike to match any string of zero or more characters
 example:
 ["avg_position","<", 10]
@@ -90,7 +90,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 > `optional` **intersection\_mode**: `string`
 
-Defined in: main.ts:114772
+Defined in: main.ts:114840
 
 mode for finding asin intersections
 optional field
@@ -108,7 +108,7 @@ learn more about the parameter in this help center guide
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:114761
+Defined in: main.ts:114829
 
 language code
 required field if don’t specify language_name
@@ -127,7 +127,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:114754
+Defined in: main.ts:114822
 
 full name of the language
 required field if don’t specify language_code
@@ -146,7 +146,7 @@ English
 
 > `optional` **limit**: `number`
 
-Defined in: main.ts:114766
+Defined in: main.ts:114834
 
 the maximum number of products in the results array
 optional field
@@ -163,7 +163,7 @@ maximum value: 1000
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:114747
+Defined in: main.ts:114815
 
 location code
 required field if don’t specify location_name
@@ -183,7 +183,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:114739
+Defined in: main.ts:114807
 
 full name of the location
 required field if don’t specify location_code
@@ -203,7 +203,7 @@ United Kingdom
 
 > `optional` **offset**: `number`
 
-Defined in: main.ts:114804
+Defined in: main.ts:114872
 
 offset in the results array of returned keywords
 optional field
@@ -220,7 +220,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 > `optional` **order\_by**: `string`[]
 
-Defined in: main.ts:114799
+Defined in: main.ts:114867
 
 results sorting rules
 optional field
@@ -248,7 +248,7 @@ default rule:
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:114810
+Defined in: main.ts:114878
 
 user-defined task identifier
 optional field
@@ -266,7 +266,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:114823
+Defined in: main.ts:114891
 
 #### Parameters
 
@@ -284,7 +284,7 @@ Defined in: main.ts:114823
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:114864
+Defined in: main.ts:114932
 
 #### Parameters
 
@@ -302,7 +302,7 @@ Defined in: main.ts:114864
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo`](DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md)
 
-Defined in: main.ts:114857
+Defined in: main.ts:114925
 
 #### Parameters
 

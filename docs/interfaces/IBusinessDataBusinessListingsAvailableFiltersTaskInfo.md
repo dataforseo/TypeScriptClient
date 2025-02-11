@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataBusinessListingsAvailableFiltersTaskInfo
 
-Defined in: main.ts:210529
+Defined in: main.ts:211031
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataBusinessListingsAvailableFiltersResultInfo`](../classes/BusinessDataBusinessListingsAvailableFiltersResultInfo.md)[]
 
-Defined in: main.ts:210530
+Defined in: main.ts:211032
 
 ***
 

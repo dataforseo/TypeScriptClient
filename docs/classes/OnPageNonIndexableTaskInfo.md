@@ -6,7 +6,7 @@
 
 # Class: OnPageNonIndexableTaskInfo
 
-Defined in: main.ts:170578
+Defined in: main.ts:170742
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:170578
 
 > **new OnPageNonIndexableTaskInfo**(`data`?): [`OnPageNonIndexableTaskInfo`](OnPageNonIndexableTaskInfo.md)
 
-Defined in: main.ts:170584
+Defined in: main.ts:170748
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`OnPageNonIndexableResultInfo`](OnPageNonIndexableResultInfo.md)[]
 
-Defined in: main.ts:170580
+Defined in: main.ts:170744
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:170588
+Defined in: main.ts:170752
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:170588
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:170610
+Defined in: main.ts:170774
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:170610
 
 > `static` **fromJS**(`data`): [`OnPageNonIndexableTaskInfo`](OnPageNonIndexableTaskInfo.md)
 
-Defined in: main.ts:170603
+Defined in: main.ts:170767
 
 #### Parameters
 

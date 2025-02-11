@@ -6,7 +6,7 @@
 
 # Class: TopStoriesDataforseoLabsSerpElementItem
 
-Defined in: main.ts:106855
+Defined in: main.ts:106987
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:106855
 
 > **new TopStoriesDataforseoLabsSerpElementItem**(`data`?): [`TopStoriesDataforseoLabsSerpElementItem`](TopStoriesDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:106861
+Defined in: main.ts:106993
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **items**: [`TopStoriesElement`](TopStoriesElement.md)[]
 
-Defined in: main.ts:106857
+Defined in: main.ts:106989
 
 contains results featured in the ‘hotels_pack’ element of SERP
 
@@ -168,7 +168,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:106866
+Defined in: main.ts:106998
 
 #### Parameters
 
@@ -190,7 +190,7 @@ Defined in: main.ts:106866
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:106888
+Defined in: main.ts:107020
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:106888
 
 > `static` **fromJS**(`data`): [`TopStoriesDataforseoLabsSerpElementItem`](TopStoriesDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:106881
+Defined in: main.ts:107013
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: PageContentInfo
 
-Defined in: main.ts:173474
+Defined in: main.ts:174308
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:173474
 
 > **new PageContentInfo**(`data`?): [`PageContentInfo`](PageContentInfo.md)
 
-Defined in: main.ts:173488
+Defined in: main.ts:174322
 
 #### Parameters
 
@@ -40,9 +40,9 @@ Defined in: main.ts:173488
 
 > `optional` **footer**: [`PageSectionContentInfo`](PageSectionContentInfo.md)
 
-Defined in: main.ts:173478
+Defined in: main.ts:174312
 
-parsed content of the footer
+content of the footer of the table
 
 #### Implementation of
 
@@ -54,9 +54,9 @@ parsed content of the footer
 
 > `optional` **header**: [`PageSectionContentInfo`](PageSectionContentInfo.md)
 
-Defined in: main.ts:173476
+Defined in: main.ts:174310
 
-content of the header of the table
+parsed content of the header
 
 #### Implementation of
 
@@ -68,7 +68,7 @@ content of the header of the table
 
 > `optional` **main\_topic**: [`TopicInfo`](TopicInfo.md)[]
 
-Defined in: main.ts:173481
+Defined in: main.ts:174315
 
 main topic on the page
 you can find more information about topic priority calculation in this help center article
@@ -83,7 +83,7 @@ you can find more information about topic priority calculation in this help cent
 
 > `optional` **secondary\_topic**: [`TopicInfo`](TopicInfo.md)[]
 
-Defined in: main.ts:173484
+Defined in: main.ts:174318
 
 secondary topic on the page
 you can find more information about topic priority calculation in this help center article
@@ -98,7 +98,7 @@ you can find more information about topic priority calculation in this help cent
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:173497
+Defined in: main.ts:174331
 
 #### Parameters
 
@@ -116,7 +116,7 @@ Defined in: main.ts:173497
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:173525
+Defined in: main.ts:174359
 
 #### Parameters
 
@@ -134,7 +134,7 @@ Defined in: main.ts:173525
 
 > `static` **fromJS**(`data`): [`PageContentInfo`](PageContentInfo.md)
 
-Defined in: main.ts:173518
+Defined in: main.ts:174352
 
 #### Parameters
 

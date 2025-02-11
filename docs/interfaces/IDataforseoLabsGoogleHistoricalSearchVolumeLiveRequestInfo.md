@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo
 
-Defined in: main.ts:95587
+Defined in: main.ts:95613
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:95587
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
-Defined in: main.ts:95641
+Defined in: main.ts:95667
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -33,7 +33,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 > `optional` **include\_serp\_info**: `boolean`
 
-Defined in: main.ts:95634
+Defined in: main.ts:95660
 
 include data from SERP for each keyword
 optional field
@@ -46,7 +46,7 @@ default value: false
 
 > `optional` **keywords**: `string`[]
 
-Defined in: main.ts:95597
+Defined in: main.ts:95623
 
 keywords
 required field
@@ -64,7 +64,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:95629
+Defined in: main.ts:95655
 
 language code
 required field if you don’t specify language_name
@@ -80,7 +80,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:95621
+Defined in: main.ts:95647
 
 full name of the language
 required field if you don’t specify language_code
@@ -96,7 +96,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:95613
+Defined in: main.ts:95639
 
 location code
 required field if you don’t specify location_name
@@ -112,7 +112,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:95605
+Defined in: main.ts:95631
 
 full name of the location
 required field if you don’t specify location_code
@@ -128,7 +128,7 @@ United Kingdom
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:95647
+Defined in: main.ts:95673
 
 user-defined task identifier
 optional field

@@ -6,7 +6,7 @@
 
 # Interface: IMerchantErrorsTaskInfo
 
-Defined in: main.ts:184636
+Defined in: main.ts:184998
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`MerchantErrorsResultInfo`](../classes/MerchantErrorsResultInfo.md)[]
 
-Defined in: main.ts:184638
+Defined in: main.ts:185000
 
 array of results
 

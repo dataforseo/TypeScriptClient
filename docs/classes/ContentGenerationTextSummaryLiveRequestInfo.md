@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationTextSummaryLiveRequestInfo
 
-Defined in: main.ts:183482
+Defined in: main.ts:183844
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:183482
 
 > **new ContentGenerationTextSummaryLiveRequestInfo**(`data`?): [`ContentGenerationTextSummaryLiveRequestInfo`](ContentGenerationTextSummaryLiveRequestInfo.md)
 
-Defined in: main.ts:183510
+Defined in: main.ts:183872
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:183510
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:183500
+Defined in: main.ts:183862
 
 maximum number of elements within internal arrays
 optional field
@@ -57,7 +57,7 @@ default value: 10
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:183495
+Defined in: main.ts:183857
 
 code of the text language
 required field if you do not specify language_name
@@ -73,7 +73,7 @@ see the List of Languages for Content Generation Text Summary API
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:183491
+Defined in: main.ts:183853
 
 name of the text language
 required field if you do not specify language_code
@@ -89,7 +89,7 @@ see the List of Languages for Content Generation Text Summary API
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:183506
+Defined in: main.ts:183868
 
 user-defined task identifier
 optional field
@@ -107,7 +107,7 @@ you will find the specified tag value in the data object of the response
 
 > `optional` **text**: `string`
 
-Defined in: main.ts:183487
+Defined in: main.ts:183849
 
 target text
 required field
@@ -124,7 +124,7 @@ learn more about tokens on our help center
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:183519
+Defined in: main.ts:183881
 
 #### Parameters
 
@@ -142,7 +142,7 @@ Defined in: main.ts:183519
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:183540
+Defined in: main.ts:183902
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: main.ts:183540
 
 > `static` **fromJS**(`data`): [`ContentGenerationTextSummaryLiveRequestInfo`](ContentGenerationTextSummaryLiveRequestInfo.md)
 
-Defined in: main.ts:183533
+Defined in: main.ts:183895
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleMapsTasksReadyTaskInfo
 
-Defined in: main.ts:41139
+Defined in: main.ts:41155
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleMapsTasksReadyResultInfo`](../classes/SerpGoogleMapsTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:41141
+Defined in: main.ts:41157
 
 array of results
 

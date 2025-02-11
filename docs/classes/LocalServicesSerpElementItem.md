@@ -6,7 +6,7 @@
 
 # Class: LocalServicesSerpElementItem
 
-Defined in: main.ts:36009
+Defined in: main.ts:36025
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:36009
 
 > **new LocalServicesSerpElementItem**(`data`?): [`LocalServicesSerpElementItem`](LocalServicesSerpElementItem.md)
 
-Defined in: main.ts:36025
+Defined in: main.ts:36041
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:36015
+Defined in: main.ts:36031
 
 source domain
 
@@ -74,7 +74,7 @@ source domain
 
 > `optional` **items**: [`LocalServicesElement`](LocalServicesElement.md)[]
 
-Defined in: main.ts:36017
+Defined in: main.ts:36033
 
 contains arrays of specific images
 
@@ -147,7 +147,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:36021
+Defined in: main.ts:36037
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -163,7 +163,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:36011
+Defined in: main.ts:36027
 
 title of the row
 
@@ -195,7 +195,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:36013
+Defined in: main.ts:36029
 
 source URL
 
@@ -227,7 +227,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:36030
+Defined in: main.ts:36046
 
 #### Parameters
 
@@ -249,7 +249,7 @@ Defined in: main.ts:36030
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:36056
+Defined in: main.ts:36072
 
 #### Parameters
 
@@ -271,7 +271,7 @@ Defined in: main.ts:36056
 
 > `static` **fromJS**(`data`): [`LocalServicesSerpElementItem`](LocalServicesSerpElementItem.md)
 
-Defined in: main.ts:36049
+Defined in: main.ts:36065
 
 #### Parameters
 

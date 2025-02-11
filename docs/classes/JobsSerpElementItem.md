@@ -6,7 +6,7 @@
 
 # Class: JobsSerpElementItem
 
-Defined in: main.ts:32607
+Defined in: main.ts:32615
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:32607
 
 > **new JobsSerpElementItem**(`data`?): [`JobsSerpElementItem`](JobsSerpElementItem.md)
 
-Defined in: main.ts:32621
+Defined in: main.ts:32629
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21045
 
 > `optional` **items**: [`JobsElement`](JobsElement.md)[]
 
-Defined in: main.ts:32613
+Defined in: main.ts:32621
 
 contains arrays of specific images
 
@@ -133,7 +133,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
-Defined in: main.ts:32617
+Defined in: main.ts:32625
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -149,7 +149,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:32609
+Defined in: main.ts:32617
 
 title of the row
 
@@ -181,7 +181,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:32611
+Defined in: main.ts:32619
 
 source URL
 
@@ -213,7 +213,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:32626
+Defined in: main.ts:32634
 
 #### Parameters
 
@@ -235,7 +235,7 @@ Defined in: main.ts:32626
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:32651
+Defined in: main.ts:32659
 
 #### Parameters
 
@@ -257,7 +257,7 @@ Defined in: main.ts:32651
 
 > `static` **fromJS**(`data`): [`JobsSerpElementItem`](JobsSerpElementItem.md)
 
-Defined in: main.ts:32644
+Defined in: main.ts:32652
 
 #### Parameters
 

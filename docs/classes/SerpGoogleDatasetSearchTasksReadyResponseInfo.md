@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleDatasetSearchTasksReadyResponseInfo
 
-Defined in: main.ts:57381
+Defined in: main.ts:57397
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:57381
 
 > **new SerpGoogleDatasetSearchTasksReadyResponseInfo**(`data`?): [`SerpGoogleDatasetSearchTasksReadyResponseInfo`](SerpGoogleDatasetSearchTasksReadyResponseInfo.md)
 
-Defined in: main.ts:57387
+Defined in: main.ts:57403
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleDatasetSearchTasksReadyTaskInfo`](SerpGoogleDatasetSearchTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:57383
+Defined in: main.ts:57399
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:57391
+Defined in: main.ts:57407
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:57391
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:57413
+Defined in: main.ts:57429
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:57413
 
 > `static` **fromJS**(`data`): [`SerpGoogleDatasetSearchTasksReadyResponseInfo`](SerpGoogleDatasetSearchTasksReadyResponseInfo.md)
 
-Defined in: main.ts:57406
+Defined in: main.ts:57422
 
 #### Parameters
 

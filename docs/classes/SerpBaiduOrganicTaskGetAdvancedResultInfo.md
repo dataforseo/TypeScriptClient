@@ -6,7 +6,7 @@
 
 # Class: SerpBaiduOrganicTaskGetAdvancedResultInfo
 
-Defined in: main.ts:80128
+Defined in: main.ts:80164
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:80128
 
 > **new SerpBaiduOrganicTaskGetAdvancedResultInfo**(`data`?): [`SerpBaiduOrganicTaskGetAdvancedResultInfo`](SerpBaiduOrganicTaskGetAdvancedResultInfo.md)
 
-Defined in: main.ts:80169
+Defined in: main.ts:80205
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:80169
 
 > `optional` **check\_url**: `string`
 
-Defined in: main.ts:80142
+Defined in: main.ts:80178
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -55,7 +55,7 @@ you can use it to make sure that we provided accurate results
 
 > `optional` **datetime**: `string`
 
-Defined in: main.ts:80147
+Defined in: main.ts:80183
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -72,7 +72,7 @@ example:
 
 > `optional` **item\_types**: `string`[]
 
-Defined in: main.ts:80158
+Defined in: main.ts:80194
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -89,7 +89,7 @@ images, local_pack, map, organic, paid, related_searches, video, stocks_box, dic
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-Defined in: main.ts:80165
+Defined in: main.ts:80201
 
 additional items present in the element
 if there are none, equals null
@@ -104,7 +104,7 @@ if there are none, equals null
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:80162
+Defined in: main.ts:80198
 
 the number of results returned in the items array
 
@@ -118,7 +118,7 @@ the number of results returned in the items array
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:80131
+Defined in: main.ts:80167
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -133,7 +133,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:80139
+Defined in: main.ts:80175
 
 language code in a POST array
 
@@ -147,7 +147,7 @@ language code in a POST array
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:80137
+Defined in: main.ts:80173
 
 location code in a POST array
 
@@ -161,7 +161,7 @@ location code in a POST array
 
 > `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
 
-Defined in: main.ts:80153
+Defined in: main.ts:80189
 
 search refinement chips
 equals null
@@ -176,7 +176,7 @@ equals null
 
 > `optional` **se\_domain**: `string`
 
-Defined in: main.ts:80135
+Defined in: main.ts:80171
 
 search engine domain in a POST array
 
@@ -190,7 +190,7 @@ search engine domain in a POST array
 
 > `optional` **se\_results\_count**: `number`
 
-Defined in: main.ts:80160
+Defined in: main.ts:80196
 
 total number of results in SERP
 
@@ -204,7 +204,7 @@ total number of results in SERP
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
-Defined in: main.ts:80150
+Defined in: main.ts:80186
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -219,7 +219,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:80133
+Defined in: main.ts:80169
 
 type of element
 
@@ -233,7 +233,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:80178
+Defined in: main.ts:80214
 
 #### Parameters
 
@@ -251,7 +251,7 @@ Defined in: main.ts:80178
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:80215
+Defined in: main.ts:80251
 
 #### Parameters
 
@@ -269,7 +269,7 @@ Defined in: main.ts:80215
 
 > `static` **fromJS**(`data`): [`SerpBaiduOrganicTaskGetAdvancedResultInfo`](SerpBaiduOrganicTaskGetAdvancedResultInfo.md)
 
-Defined in: main.ts:80208
+Defined in: main.ts:80244
 
 #### Parameters
 

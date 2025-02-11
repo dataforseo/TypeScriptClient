@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleDomainWhoisOverviewLiveTaskInfo
 
-Defined in: main.ts:100502
+Defined in: main.ts:100530
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:100502
 
 > **new DataforseoLabsGoogleDomainWhoisOverviewLiveTaskInfo**(`data`?): [`DataforseoLabsGoogleDomainWhoisOverviewLiveTaskInfo`](DataforseoLabsGoogleDomainWhoisOverviewLiveTaskInfo.md)
 
-Defined in: main.ts:100508
+Defined in: main.ts:100536
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo`](DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo.md)[]
 
-Defined in: main.ts:100504
+Defined in: main.ts:100532
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:100512
+Defined in: main.ts:100540
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:100512
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:100534
+Defined in: main.ts:100562
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:100534
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleDomainWhoisOverviewLiveTaskInfo`](DataforseoLabsGoogleDomainWhoisOverviewLiveTaskInfo.md)
 
-Defined in: main.ts:100527
+Defined in: main.ts:100555
 
 #### Parameters
 

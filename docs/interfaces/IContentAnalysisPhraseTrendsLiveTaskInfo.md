@@ -6,7 +6,7 @@
 
 # Interface: IContentAnalysisPhraseTrendsLiveTaskInfo
 
-Defined in: main.ts:180482
+Defined in: main.ts:180844
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`ContentAnalysisPhraseTrendsLiveResultInfo`](../classes/ContentAnalysisPhraseTrendsLiveResultInfo.md)[]
 
-Defined in: main.ts:180484
+Defined in: main.ts:180846
 
 array of results
 

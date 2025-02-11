@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleEventsTasksFixedResponseInfo
 
-Defined in: main.ts:48738
+Defined in: main.ts:48754
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleEventsTasksFixedTaskInfo`](../classes/SerpGoogleEventsTasksFixedTaskInfo.md)[]
 
-Defined in: main.ts:48740
+Defined in: main.ts:48756
 
 array of tasks
 

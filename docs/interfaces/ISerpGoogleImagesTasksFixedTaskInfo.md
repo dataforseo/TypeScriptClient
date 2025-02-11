@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleImagesTasksFixedTaskInfo
 
-Defined in: main.ts:50667
+Defined in: main.ts:50683
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`SerpGoogleImagesTasksFixedResultInfo`](../classes/SerpGoogleImagesTasksFixedResultInfo.md)[]
 
-Defined in: main.ts:50669
+Defined in: main.ts:50685
 
 array of results
 

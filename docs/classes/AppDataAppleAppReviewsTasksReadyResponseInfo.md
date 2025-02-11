@@ -6,7 +6,7 @@
 
 # Class: AppDataAppleAppReviewsTasksReadyResponseInfo
 
-Defined in: main.ts:208323
+Defined in: main.ts:208825
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:208323
 
 > **new AppDataAppleAppReviewsTasksReadyResponseInfo**(`data`?): [`AppDataAppleAppReviewsTasksReadyResponseInfo`](AppDataAppleAppReviewsTasksReadyResponseInfo.md)
 
-Defined in: main.ts:208329
+Defined in: main.ts:208831
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataAppleAppReviewsTasksReadyTaskInfo`](AppDataAppleAppReviewsTasksReadyTaskInfo.md)[]
 
-Defined in: main.ts:208325
+Defined in: main.ts:208827
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:208333
+Defined in: main.ts:208835
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:208333
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:208355
+Defined in: main.ts:208857
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:208355
 
 > `static` **fromJS**(`data`): [`AppDataAppleAppReviewsTasksReadyResponseInfo`](AppDataAppleAppReviewsTasksReadyResponseInfo.md)
 
-Defined in: main.ts:208348
+Defined in: main.ts:208850
 
 #### Parameters
 

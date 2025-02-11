@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsBingSerpCompetitorsLiveResponseInfo
 
-Defined in: main.ts:120271
+Defined in: main.ts:120375
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:120271
 
 > **new DataforseoLabsBingSerpCompetitorsLiveResponseInfo**(`data`?): [`DataforseoLabsBingSerpCompetitorsLiveResponseInfo`](DataforseoLabsBingSerpCompetitorsLiveResponseInfo.md)
 
-Defined in: main.ts:120277
+Defined in: main.ts:120381
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DataforseoLabsBingSerpCompetitorsLiveTaskInfo`](DataforseoLabsBingSerpCompetitorsLiveTaskInfo.md)[]
 
-Defined in: main.ts:120273
+Defined in: main.ts:120377
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:120281
+Defined in: main.ts:120385
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:120281
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:120303
+Defined in: main.ts:120407
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:120303
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingSerpCompetitorsLiveResponseInfo`](DataforseoLabsBingSerpCompetitorsLiveResponseInfo.md)
 
-Defined in: main.ts:120296
+Defined in: main.ts:120400
 
 #### Parameters
 

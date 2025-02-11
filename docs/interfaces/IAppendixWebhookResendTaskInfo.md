@@ -6,7 +6,7 @@
 
 # Interface: IAppendixWebhookResendTaskInfo
 
-Defined in: main.ts:239360
+Defined in: main.ts:239788
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `any`
 
-Defined in: main.ts:239364
+Defined in: main.ts:239792
 
 array of results
 the value of this array is always null;

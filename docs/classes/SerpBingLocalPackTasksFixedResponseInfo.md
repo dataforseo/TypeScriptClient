@@ -6,7 +6,7 @@
 
 # Class: SerpBingLocalPackTasksFixedResponseInfo
 
-Defined in: main.ts:67416
+Defined in: main.ts:67452
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:67416
 
 > **new SerpBingLocalPackTasksFixedResponseInfo**(`data`?): [`SerpBingLocalPackTasksFixedResponseInfo`](SerpBingLocalPackTasksFixedResponseInfo.md)
 
-Defined in: main.ts:67422
+Defined in: main.ts:67458
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpBingLocalPackTasksFixedTaskInfo`](SerpBingLocalPackTasksFixedTaskInfo.md)[]
 
-Defined in: main.ts:67418
+Defined in: main.ts:67454
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:67426
+Defined in: main.ts:67462
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:67426
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:67448
+Defined in: main.ts:67484
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:67448
 
 > `static` **fromJS**(`data`): [`SerpBingLocalPackTasksFixedResponseInfo`](SerpBingLocalPackTasksFixedResponseInfo.md)
 
-Defined in: main.ts:67441
+Defined in: main.ts:67477
 
 #### Parameters
 

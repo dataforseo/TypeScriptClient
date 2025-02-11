@@ -6,7 +6,7 @@
 
 # Class: MerchantAmazonLanguagesTaskInfo
 
-Defined in: main.ts:191618
+Defined in: main.ts:192024
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:191618
 
 > **new MerchantAmazonLanguagesTaskInfo**(`data`?): [`MerchantAmazonLanguagesTaskInfo`](MerchantAmazonLanguagesTaskInfo.md)
 
-Defined in: main.ts:191624
+Defined in: main.ts:192030
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`MerchantAmazonLanguagesResultInfo`](MerchantAmazonLanguagesResultInfo.md)[]
 
-Defined in: main.ts:191620
+Defined in: main.ts:192026
 
 array of results
 
@@ -214,7 +214,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:191628
+Defined in: main.ts:192034
 
 #### Parameters
 
@@ -236,7 +236,7 @@ Defined in: main.ts:191628
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:191650
+Defined in: main.ts:192056
 
 #### Parameters
 
@@ -258,7 +258,7 @@ Defined in: main.ts:191650
 
 > `static` **fromJS**(`data`): [`MerchantAmazonLanguagesTaskInfo`](MerchantAmazonLanguagesTaskInfo.md)
 
-Defined in: main.ts:191643
+Defined in: main.ts:192049
 
 #### Parameters
 

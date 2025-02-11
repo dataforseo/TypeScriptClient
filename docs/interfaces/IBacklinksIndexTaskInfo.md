@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksIndexTaskInfo
 
-Defined in: main.ts:149952
+Defined in: main.ts:150116
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`BacklinksIndexResultInfo`](../classes/BacklinksIndexResultInfo.md)[]
 
-Defined in: main.ts:149954
+Defined in: main.ts:150118
 
 array of results
 

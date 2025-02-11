@@ -6,7 +6,7 @@
 
 # Interface: IDataforseoLabsGoogleCategoriesForKeywordsLiveItem
 
-Defined in: main.ts:98060
+Defined in: main.ts:98088
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:98060
 
 > `optional` **categories**: `number`[]
 
-Defined in: main.ts:98065
+Defined in: main.ts:98093
 
 product and service categories
 you can download the full list of possible categories
@@ -29,6 +29,6 @@ you can download the full list of possible categories
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:98062
+Defined in: main.ts:98090
 
 keyword in a POST array

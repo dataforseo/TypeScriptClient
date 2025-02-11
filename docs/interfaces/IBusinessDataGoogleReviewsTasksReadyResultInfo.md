@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleReviewsTasksReadyResultInfo
 
-Defined in: main.ts:221941
+Defined in: main.ts:222449
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:221941
 
 > `optional` **date\_posted**: `string`
 
-Defined in: main.ts:221951
+Defined in: main.ts:222459
 
 date when the task was posted (in the UTC format)
 
@@ -28,7 +28,7 @@ date when the task was posted (in the UTC format)
 
 > `optional` **endpoint**: `string`
 
-Defined in: main.ts:221955
+Defined in: main.ts:222463
 
 URL for collecting the results of the task
 
@@ -38,7 +38,7 @@ URL for collecting the results of the task
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:221944
+Defined in: main.ts:222452
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -49,7 +49,7 @@ unique task identifier in our system in the UUID format
 
 > `optional` **se**: `string`
 
-Defined in: main.ts:221947
+Defined in: main.ts:222455
 
 search engine specified when setting the task
 can take the following values: google
@@ -60,7 +60,7 @@ can take the following values: google
 
 > `optional` **se\_type**: `string`
 
-Defined in: main.ts:221949
+Defined in: main.ts:222457
 
 type of search engine
 
@@ -70,6 +70,6 @@ type of search engine
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:221953
+Defined in: main.ts:222461
 
 user-defined task identifier

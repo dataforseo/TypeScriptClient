@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisCategoriesResultInfo
 
-Defined in: main.ts:177200
+Defined in: main.ts:177564
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:177200
 
 > **new ContentAnalysisCategoriesResultInfo**(`data`?): [`ContentAnalysisCategoriesResultInfo`](ContentAnalysisCategoriesResultInfo.md)
 
-Defined in: main.ts:177218
+Defined in: main.ts:177582
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:177218
 
 > `optional` **category\_code**: `number`
 
-Defined in: main.ts:177202
+Defined in: main.ts:177566
 
 category code
 
@@ -54,7 +54,7 @@ category code
 
 > `optional` **category\_code\_parent**: `number`
 
-Defined in: main.ts:177214
+Defined in: main.ts:177578
 
 the code of the superordinate category
 example:
@@ -76,7 +76,7 @@ corresponds to:
 
 > `optional` **category\_name**: `string`
 
-Defined in: main.ts:177204
+Defined in: main.ts:177568
 
 full name of the category
 
@@ -90,7 +90,7 @@ full name of the category
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:177227
+Defined in: main.ts:177591
 
 #### Parameters
 
@@ -108,7 +108,7 @@ Defined in: main.ts:177227
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:177246
+Defined in: main.ts:177610
 
 #### Parameters
 
@@ -126,7 +126,7 @@ Defined in: main.ts:177246
 
 > `static` **fromJS**(`data`): [`ContentAnalysisCategoriesResultInfo`](ContentAnalysisCategoriesResultInfo.md)
 
-Defined in: main.ts:177239
+Defined in: main.ts:177603
 
 #### Parameters
 

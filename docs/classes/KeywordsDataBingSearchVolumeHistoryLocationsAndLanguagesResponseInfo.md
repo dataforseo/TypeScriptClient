@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo
 
-Defined in: main.ts:145929
+Defined in: main.ts:146093
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:145929
 
 > **new KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo**(`data`?): [`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo`](KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo.md)
 
-Defined in: main.ts:145935
+Defined in: main.ts:146099
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesTaskInfo`](KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:145931
+Defined in: main.ts:146095
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:145939
+Defined in: main.ts:146103
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:145939
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:145961
+Defined in: main.ts:146125
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:145961
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo`](KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo.md)
 
-Defined in: main.ts:145954
+Defined in: main.ts:146118
 
 #### Parameters
 

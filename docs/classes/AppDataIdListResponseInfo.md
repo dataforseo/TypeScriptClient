@@ -6,7 +6,7 @@
 
 # Class: AppDataIdListResponseInfo
 
-Defined in: main.ts:198159
+Defined in: main.ts:198661
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:198159
 
 > **new AppDataIdListResponseInfo**(`data`?): [`AppDataIdListResponseInfo`](AppDataIdListResponseInfo.md)
 
-Defined in: main.ts:198165
+Defined in: main.ts:198667
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataIdListTaskInfo`](AppDataIdListTaskInfo.md)[]
 
-Defined in: main.ts:198161
+Defined in: main.ts:198663
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:198169
+Defined in: main.ts:198671
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:198169
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:198191
+Defined in: main.ts:198693
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:198191
 
 > `static` **fromJS**(`data`): [`AppDataIdListResponseInfo`](AppDataIdListResponseInfo.md)
 
-Defined in: main.ts:198184
+Defined in: main.ts:198686
 
 #### Parameters
 

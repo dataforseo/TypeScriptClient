@@ -6,7 +6,7 @@
 
 # Class: DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo
 
-Defined in: main.ts:106680
+Defined in: main.ts:106812
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:106680
 
 > **new DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo**(`data`?): [`DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo`](DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md)
 
-Defined in: main.ts:106687
+Defined in: main.ts:106819
 
 #### Parameters
 
@@ -125,7 +125,7 @@ URL path
 
 > `optional` **result**: [`DataforseoLabsGoogleHistoricalSerpsLiveResultInfo`](DataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md)[]
 
-Defined in: main.ts:106683
+Defined in: main.ts:106815
 
 array of results
 the array includes objects with SERPs for each month within the specified time frame
@@ -215,7 +215,7 @@ execution time, seconds
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:106691
+Defined in: main.ts:106823
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: main.ts:106691
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:106713
+Defined in: main.ts:106845
 
 #### Parameters
 
@@ -259,7 +259,7 @@ Defined in: main.ts:106713
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo`](DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo.md)
 
-Defined in: main.ts:106706
+Defined in: main.ts:106838
 
 #### Parameters
 

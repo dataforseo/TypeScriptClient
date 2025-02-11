@@ -6,7 +6,7 @@
 
 # Class: BacklinksBulkRanksLiveItem
 
-Defined in: main.ts:160372
+Defined in: main.ts:160536
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:160372
 
 > **new BacklinksBulkRanksLiveItem**(`data`?): [`BacklinksBulkRanksLiveItem`](BacklinksBulkRanksLiveItem.md)
 
-Defined in: main.ts:160383
+Defined in: main.ts:160547
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:160383
 
 > `optional` **rank**: `number`
 
-Defined in: main.ts:160379
+Defined in: main.ts:160543
 
 rank of the target
 values represent real-time data for the date of the request
@@ -57,7 +57,7 @@ learn more about the metric and how it is calculated in this help center article
 
 > `optional` **target**: `string`
 
-Defined in: main.ts:160374
+Defined in: main.ts:160538
 
 domain, subdomain or webpage from a POST array
 
@@ -71,7 +71,7 @@ domain, subdomain or webpage from a POST array
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:160392
+Defined in: main.ts:160556
 
 #### Parameters
 
@@ -89,7 +89,7 @@ Defined in: main.ts:160392
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:160410
+Defined in: main.ts:160574
 
 #### Parameters
 
@@ -107,7 +107,7 @@ Defined in: main.ts:160410
 
 > `static` **fromJS**(`data`): [`BacklinksBulkRanksLiveItem`](BacklinksBulkRanksLiveItem.md)
 
-Defined in: main.ts:160403
+Defined in: main.ts:160567
 
 #### Parameters
 

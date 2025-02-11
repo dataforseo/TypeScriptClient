@@ -6,7 +6,7 @@
 
 # Interface: IOnPageDuplicateTagsResultInfo
 
-Defined in: main.ts:168726
+Defined in: main.ts:168890
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:168726
 
 > `optional` **crawl\_progress**: `string`
 
-Defined in: main.ts:168729
+Defined in: main.ts:168893
 
 status of the crawling session
 possible values: in_progress, finished
@@ -29,7 +29,7 @@ possible values: in_progress, finished
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
 
-Defined in: main.ts:168731
+Defined in: main.ts:168895
 
 details of the crawling session
 
@@ -39,7 +39,7 @@ details of the crawling session
 
 > `optional` **items**: [`OnPageDuplicateTagsItem`](../classes/OnPageDuplicateTagsItem.md)[]
 
-Defined in: main.ts:168741
+Defined in: main.ts:168905
 
 items array
 
@@ -49,7 +49,7 @@ items array
 
 > `optional` **items\_count**: `number`
 
-Defined in: main.ts:168739
+Defined in: main.ts:168903
 
 number of items in the results array
 
@@ -59,7 +59,7 @@ number of items in the results array
 
 > `optional` **pages\_count**: `number`
 
-Defined in: main.ts:168737
+Defined in: main.ts:168901
 
 number of pages with duplicate tags in the response
 displays the number of pages with duplicate tags returned in the response
@@ -70,7 +70,7 @@ displays the number of pages with duplicate tags returned in the response
 
 > `optional` **total\_pages\_count**: `number`
 
-Defined in: main.ts:168734
+Defined in: main.ts:168898
 
 total number of pages with duplicate tags
 displays the total number of pages with duplicate tags of the target website

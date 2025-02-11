@@ -6,7 +6,7 @@
 
 # Interface: IOnPageLighthouseTaskGetJsonTaskInfo
 
-Defined in: main.ts:175988
+Defined in: main.ts:176352
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: `object`[]
 
-Defined in: main.ts:175992
+Defined in: main.ts:176356
 
 results of Lighthouse audit
 this array will include data according to the parameters specified in the POST request;

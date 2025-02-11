@@ -6,7 +6,7 @@
 
 # Class: ContentGenerationTextSummaryLanguagesResponseInfo
 
-Defined in: main.ts:183953
+Defined in: main.ts:184315
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:183953
 
 > **new ContentGenerationTextSummaryLanguagesResponseInfo**(`data`?): [`ContentGenerationTextSummaryLanguagesResponseInfo`](ContentGenerationTextSummaryLanguagesResponseInfo.md)
 
-Defined in: main.ts:183959
+Defined in: main.ts:184321
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`ContentGenerationTextSummaryLanguagesTaskInfo`](ContentGenerationTextSummaryLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:183955
+Defined in: main.ts:184317
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:183963
+Defined in: main.ts:184325
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:183963
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:183985
+Defined in: main.ts:184347
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:183985
 
 > `static` **fromJS**(`data`): [`ContentGenerationTextSummaryLanguagesResponseInfo`](ContentGenerationTextSummaryLanguagesResponseInfo.md)
 
-Defined in: main.ts:183978
+Defined in: main.ts:184340
 
 #### Parameters
 

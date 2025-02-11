@@ -6,7 +6,7 @@
 
 # Class: AppDataGoogleLocationsCountryResponseInfo
 
-Defined in: main.ts:199061
+Defined in: main.ts:199563
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:199061
 
 > **new AppDataGoogleLocationsCountryResponseInfo**(`data`?): [`AppDataGoogleLocationsCountryResponseInfo`](AppDataGoogleLocationsCountryResponseInfo.md)
 
-Defined in: main.ts:199067
+Defined in: main.ts:199569
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`AppDataGoogleLocationsCountryTaskInfo`](AppDataGoogleLocationsCountryTaskInfo.md)[]
 
-Defined in: main.ts:199063
+Defined in: main.ts:199565
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:199071
+Defined in: main.ts:199573
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:199071
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:199093
+Defined in: main.ts:199595
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:199093
 
 > `static` **fromJS**(`data`): [`AppDataGoogleLocationsCountryResponseInfo`](AppDataGoogleLocationsCountryResponseInfo.md)
 
-Defined in: main.ts:199086
+Defined in: main.ts:199588
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: IDomainAnalyticsTechnologiesAvailableFiltersResponseInfo
 
-Defined in: main.ts:85236
+Defined in: main.ts:85272
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`DomainAnalyticsTechnologiesAvailableFiltersTaskInfo`](../classes/DomainAnalyticsTechnologiesAvailableFiltersTaskInfo.md)[]
 
-Defined in: main.ts:85237
+Defined in: main.ts:85273
 
 ***
 

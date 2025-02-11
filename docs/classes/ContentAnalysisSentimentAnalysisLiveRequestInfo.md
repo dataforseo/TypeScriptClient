@@ -6,7 +6,7 @@
 
 # Class: ContentAnalysisSentimentAnalysisLiveRequestInfo
 
-Defined in: main.ts:178966
+Defined in: main.ts:179328
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:178966
 
 > **new ContentAnalysisSentimentAnalysisLiveRequestInfo**(`data`?): [`ContentAnalysisSentimentAnalysisLiveRequestInfo`](ContentAnalysisSentimentAnalysisLiveRequestInfo.md)
 
-Defined in: main.ts:179045
+Defined in: main.ts:179407
 
 #### Parameters
 
@@ -40,14 +40,14 @@ Defined in: main.ts:179045
 
 > `optional` **initial\_dataset\_filters**: `any`[]
 
-Defined in: main.ts:179035
+Defined in: main.ts:179397
 
 initial dataset filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like, has, has_not
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like, has, has_not, match, not_match
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["domain","<>", "logitech.com"]
@@ -69,7 +69,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 > `optional` **internal\_list\_limit**: `number`
 
-Defined in: main.ts:179004
+Defined in: main.ts:179366
 
 maximum number of elements within internal arrays
 optional field
@@ -92,7 +92,7 @@ maximum value: 20
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:178975
+Defined in: main.ts:179337
 
 target keyword
 required field
@@ -113,7 +113,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **keyword\_fields**: `object`
 
-Defined in: main.ts:178987
+Defined in: main.ts:179349
 
 target keyword fields and target keywords
 optional field
@@ -141,7 +141,7 @@ example:
 
 > `optional` **page\_type**: `string`[]
 
-Defined in: main.ts:178993
+Defined in: main.ts:179355
 
 target page types
 optional field
@@ -159,7 +159,7 @@ possible values:
 
 > `optional` **positive\_connotation\_threshold**: `number`
 
-Defined in: main.ts:179011
+Defined in: main.ts:179373
 
 positive connotation threshold
 optional field
@@ -178,7 +178,7 @@ default value: 0.4
 
 > `optional` **sentiments\_connotation\_threshold**: `number`
 
-Defined in: main.ts:179018
+Defined in: main.ts:179380
 
 sentiment connotation threshold
 optional field
@@ -197,7 +197,7 @@ default value: 0.4
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:179041
+Defined in: main.ts:179403
 
 user-defined task identifier
 optional field
@@ -215,7 +215,7 @@ you will find the specified tag value in the data object of the response
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:179054
+Defined in: main.ts:179416
 
 #### Parameters
 
@@ -233,7 +233,7 @@ Defined in: main.ts:179054
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:179092
+Defined in: main.ts:179454
 
 #### Parameters
 
@@ -251,7 +251,7 @@ Defined in: main.ts:179092
 
 > `static` **fromJS**(`data`): [`ContentAnalysisSentimentAnalysisLiveRequestInfo`](ContentAnalysisSentimentAnalysisLiveRequestInfo.md)
 
-Defined in: main.ts:179085
+Defined in: main.ts:179447
 
 #### Parameters
 

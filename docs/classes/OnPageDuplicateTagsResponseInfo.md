@@ -6,7 +6,7 @@
 
 # Class: OnPageDuplicateTagsResponseInfo
 
-Defined in: main.ts:168801
+Defined in: main.ts:168965
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:168801
 
 > **new OnPageDuplicateTagsResponseInfo**(`data`?): [`OnPageDuplicateTagsResponseInfo`](OnPageDuplicateTagsResponseInfo.md)
 
-Defined in: main.ts:168807
+Defined in: main.ts:168971
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`OnPageDuplicateTagsTaskInfo`](OnPageDuplicateTagsTaskInfo.md)[]
 
-Defined in: main.ts:168803
+Defined in: main.ts:168967
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:168811
+Defined in: main.ts:168975
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:168811
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:168833
+Defined in: main.ts:168997
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:168833
 
 > `static` **fromJS**(`data`): [`OnPageDuplicateTagsResponseInfo`](OnPageDuplicateTagsResponseInfo.md)
 
-Defined in: main.ts:168826
+Defined in: main.ts:168990
 
 #### Parameters
 

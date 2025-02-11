@@ -6,7 +6,7 @@
 
 # Interface: IGooglePostsDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108234
+Defined in: main.ts:108290
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:108234
 
 > `optional` **cid**: `string`
 
-Defined in: main.ts:108240
+Defined in: main.ts:108296
 
 google-defined client id
 
@@ -32,7 +32,7 @@ google-defined client id
 
 > `optional` **feature**: `string`
 
-Defined in: main.ts:108238
+Defined in: main.ts:108294
 
 the additional feature of the review
 
@@ -58,7 +58,7 @@ left, right
 
 > `optional` **posts\_id**: `string`
 
-Defined in: main.ts:108236
+Defined in: main.ts:108292
 
 the identifier of the google_posts feature
 

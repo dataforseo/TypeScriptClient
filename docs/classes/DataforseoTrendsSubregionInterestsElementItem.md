@@ -6,7 +6,7 @@
 
 # Class: DataforseoTrendsSubregionInterestsElementItem
 
-Defined in: main.ts:136742
+Defined in: main.ts:136906
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:136742
 
 > **new DataforseoTrendsSubregionInterestsElementItem**(`data`?): [`DataforseoTrendsSubregionInterestsElementItem`](DataforseoTrendsSubregionInterestsElementItem.md)
 
-Defined in: main.ts:136751
+Defined in: main.ts:136915
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:22797
 
 > `optional` **interests**: [`Interests`](Interests.md)[]
 
-Defined in: main.ts:136744
+Defined in: main.ts:136908
 
 subregional keyword popuarity data for each specified term
 
@@ -74,7 +74,7 @@ subregional keyword popuarity data for each specified term
 
 > `optional` **interests\_comparison**: [`InterestsComparison`](InterestsComparison.md)
 
-Defined in: main.ts:136747
+Defined in: main.ts:136911
 
 comparison of data on subregional keyword popularity for the specified parameters
 if you specified a single keyword, the value will be null
@@ -145,7 +145,7 @@ type of element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:136756
+Defined in: main.ts:136920
 
 #### Parameters
 
@@ -167,7 +167,7 @@ Defined in: main.ts:136756
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:136779
+Defined in: main.ts:136943
 
 #### Parameters
 
@@ -189,7 +189,7 @@ Defined in: main.ts:136779
 
 > `static` **fromJS**(`data`): [`DataforseoTrendsSubregionInterestsElementItem`](DataforseoTrendsSubregionInterestsElementItem.md)
 
-Defined in: main.ts:136772
+Defined in: main.ts:136936
 
 #### Parameters
 

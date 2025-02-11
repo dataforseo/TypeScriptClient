@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataGoogleMyBusinessInfoTaskPostRequestInfo
 
-Defined in: main.ts:213138
+Defined in: main.ts:213640
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:213138
 
 > `optional` **keyword**: `string`
 
-Defined in: main.ts:213155
+Defined in: main.ts:213657
 
 keyword
 required field
@@ -43,7 +43,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
 > `optional` **language\_code**: `string`
 
-Defined in: main.ts:213201
+Defined in: main.ts:213703
 
 search engine language code
 required field if you don’t specify language_name
@@ -58,7 +58,7 @@ en
 
 > `optional` **language\_name**: `string`
 
-Defined in: main.ts:213194
+Defined in: main.ts:213696
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -73,7 +73,7 @@ English
 
 > `optional` **location\_code**: `number`
 
-Defined in: main.ts:213177
+Defined in: main.ts:213679
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -88,7 +88,7 @@ example:
 
 > `optional` **location\_coordinate**: `string`
 
-Defined in: main.ts:213187
+Defined in: main.ts:213689
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -106,7 +106,7 @@ example:
 
 > `optional` **location\_name**: `string`
 
-Defined in: main.ts:213170
+Defined in: main.ts:213672
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -121,7 +121,7 @@ London,England,United Kingdom
 
 > `optional` **pingback\_url**: `string`
 
-Defined in: main.ts:213229
+Defined in: main.ts:213731
 
 notification URL of a completed task
 optional field
@@ -140,7 +140,7 @@ learn more on our Help Center
 
 > `optional` **postback\_url**: `string`
 
-Defined in: main.ts:213218
+Defined in: main.ts:213720
 
 return URL for sending task results
 optional field
@@ -159,7 +159,7 @@ learn more on our Help Center
 
 > `optional` **priority**: `number`
 
-Defined in: main.ts:213163
+Defined in: main.ts:213665
 
 task priority
 optional field
@@ -175,7 +175,7 @@ The cost can be calculated on the Pricing page.
 
 > `optional` **tag**: `string`
 
-Defined in: main.ts:213207
+Defined in: main.ts:213709
 
 user-defined task identifier
 optional field

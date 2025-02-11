@@ -6,7 +6,7 @@
 
 # Class: AppendixContentGenerationPriceDataInfo
 
-Defined in: main.ts:238202
+Defined in: main.ts:238622
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:238202
 
 > **new AppendixContentGenerationPriceDataInfo**(`data`?): [`AppendixContentGenerationPriceDataInfo`](AppendixContentGenerationPriceDataInfo.md)
 
-Defined in: main.ts:238208
+Defined in: main.ts:238628
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:238208
 
 > `optional` **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238204
+Defined in: main.ts:238624
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: main.ts:238204
 
 > `optional` **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
-Defined in: main.ts:238203
+Defined in: main.ts:238623
 
 #### Implementation of
 
@@ -64,7 +64,7 @@ Defined in: main.ts:238203
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:238217
+Defined in: main.ts:238637
 
 #### Parameters
 
@@ -82,7 +82,7 @@ Defined in: main.ts:238217
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:238235
+Defined in: main.ts:238655
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: main.ts:238235
 
 > `static` **fromJS**(`data`): [`AppendixContentGenerationPriceDataInfo`](AppendixContentGenerationPriceDataInfo.md)
 
-Defined in: main.ts:238228
+Defined in: main.ts:238648
 
 #### Parameters
 

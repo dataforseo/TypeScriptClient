@@ -6,7 +6,7 @@
 
 # Class: SerpGoogleMapsTasksFixedResponseInfo
 
-Defined in: main.ts:41358
+Defined in: main.ts:41374
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:41358
 
 > **new SerpGoogleMapsTasksFixedResponseInfo**(`data`?): [`SerpGoogleMapsTasksFixedResponseInfo`](SerpGoogleMapsTasksFixedResponseInfo.md)
 
-Defined in: main.ts:41364
+Defined in: main.ts:41380
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleMapsTasksFixedTaskInfo`](SerpGoogleMapsTasksFixedTaskInfo.md)[]
 
-Defined in: main.ts:41360
+Defined in: main.ts:41376
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:41368
+Defined in: main.ts:41384
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:41368
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:41390
+Defined in: main.ts:41406
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:41390
 
 > `static` **fromJS**(`data`): [`SerpGoogleMapsTasksFixedResponseInfo`](SerpGoogleMapsTasksFixedResponseInfo.md)
 
-Defined in: main.ts:41383
+Defined in: main.ts:41399
 
 #### Parameters
 

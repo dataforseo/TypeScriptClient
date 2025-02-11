@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksIndexResultInfo
 
-Defined in: main.ts:149891
+Defined in: main.ts:150055
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:149891
 
 > `optional` **index\_history**: [`IndexHistory`](../classes/IndexHistory.md)[]
 
-Defined in: main.ts:149899
+Defined in: main.ts:150063
 
 index volume data for the past 12 months
 
@@ -28,7 +28,7 @@ index volume data for the past 12 months
 
 > `optional` **total\_backlinks**: `number`
 
-Defined in: main.ts:149893
+Defined in: main.ts:150057
 
 total number of backlinks our database contains for the moment of checking
 
@@ -38,7 +38,7 @@ total number of backlinks our database contains for the moment of checking
 
 > `optional` **total\_domains**: `number`
 
-Defined in: main.ts:149897
+Defined in: main.ts:150061
 
 total number of domains our database contains for the moment of checking
 
@@ -48,6 +48,6 @@ total number of domains our database contains for the moment of checking
 
 > `optional` **total\_pages**: `number`
 
-Defined in: main.ts:149895
+Defined in: main.ts:150059
 
 total number of pages our database contains for the moment of checking

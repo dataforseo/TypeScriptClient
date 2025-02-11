@@ -6,7 +6,7 @@
 
 # Interface: IBusinessDataTasksReadyTaskInfo
 
-Defined in: main.ts:213664
+Defined in: main.ts:214166
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`BusinessDataTasksReadyResultInfo`](../classes/BusinessDataTasksReadyResultInfo.md)[]
 
-Defined in: main.ts:213666
+Defined in: main.ts:214168
 
 array of results
 

@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingAudienceEstimationIndustriesResponseInfo
 
-Defined in: main.ts:140211
+Defined in: main.ts:140375
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataBingAudienceEstimationIndustriesTaskInfo`](../classes/KeywordsDataBingAudienceEstimationIndustriesTaskInfo.md)[]
 
-Defined in: main.ts:140213
+Defined in: main.ts:140377
 
 array of tasks
 

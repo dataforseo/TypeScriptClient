@@ -6,7 +6,7 @@
 
 # Class: KnowledgeGraphCarouselItemDataforseoLabsSerpElementItem
 
-Defined in: main.ts:106004
+Defined in: main.ts:106142
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:106004
 
 > **new KnowledgeGraphCarouselItemDataforseoLabsSerpElementItem**(`data`?): [`KnowledgeGraphCarouselItemDataforseoLabsSerpElementItem`](KnowledgeGraphCarouselItemDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:106019
+Defined in: main.ts:106157
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: main.ts:21425
 
 > `optional` **data\_attrid**: `string`
 
-Defined in: main.ts:106010
+Defined in: main.ts:106148
 
 google defined data attribute ID
 example:
@@ -76,7 +76,7 @@ ss:/webfacts:net_worth
 
 > `optional` **items**: [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)[]
 
-Defined in: main.ts:106015
+Defined in: main.ts:106153
 
 additional items present in the element
 if there are none, equals null
@@ -91,7 +91,7 @@ if there are none, equals null
 
 > `optional` **link**: [`LinkElement`](LinkElement.md)
 
-Defined in: main.ts:106012
+Defined in: main.ts:106150
 
 link of the element
 
@@ -163,7 +163,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:106006
+Defined in: main.ts:106144
 
 title of the link
 
@@ -213,7 +213,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:106024
+Defined in: main.ts:106162
 
 #### Parameters
 
@@ -235,7 +235,7 @@ Defined in: main.ts:106024
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:106049
+Defined in: main.ts:106187
 
 #### Parameters
 
@@ -257,7 +257,7 @@ Defined in: main.ts:106049
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphCarouselItemDataforseoLabsSerpElementItem`](KnowledgeGraphCarouselItemDataforseoLabsSerpElementItem.md)
 
-Defined in: main.ts:106042
+Defined in: main.ts:106180
 
 #### Parameters
 

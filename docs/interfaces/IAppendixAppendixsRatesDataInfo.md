@@ -6,7 +6,7 @@
 
 # Interface: IAppendixAppendixsRatesDataInfo
 
-Defined in: main.ts:231153
+Defined in: main.ts:231661
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:231153
 
 > `optional` **errors**: `number`
 
-Defined in: main.ts:231155
+Defined in: main.ts:231663
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: main.ts:231155
 
 > `optional` **user\_data**: `number`
 
-Defined in: main.ts:231154
+Defined in: main.ts:231662

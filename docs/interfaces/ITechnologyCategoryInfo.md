@@ -6,7 +6,7 @@
 
 # Interface: ITechnologyCategoryInfo
 
-Defined in: main.ts:85643
+Defined in: main.ts:85679
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: main.ts:85643
 
 > `optional` **id**: `string`
 
-Defined in: main.ts:85647
+Defined in: main.ts:85683
 
 id of the technology category
 example:
@@ -30,7 +30,7 @@ crm, cart_abandonment
 
 > `optional` **path**: `string`
 
-Defined in: main.ts:85651
+Defined in: main.ts:85687
 
 path to the technology category
 example:
@@ -42,7 +42,7 @@ user_generated_content.content_curation
 
 > `optional` **technologies**: `string`[]
 
-Defined in: main.ts:85657
+Defined in: main.ts:85693
 
 list of technologies in this category
 example:
@@ -54,6 +54,6 @@ example:
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:85653
+Defined in: main.ts:85689
 
 title of the technology category

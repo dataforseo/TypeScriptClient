@@ -6,7 +6,7 @@
 
 # Interface: IQuestionsAndAnswersDataforseoLabsSerpElementItem
 
-Defined in: main.ts:108920
+Defined in: main.ts:108976
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:108920
 
 > `optional` **items**: [`QuestionsAndAnswersElement`](../classes/QuestionsAndAnswersElement.md)[]
 
-Defined in: main.ts:108922
+Defined in: main.ts:108978
 
 elements of search results found in SERP
 

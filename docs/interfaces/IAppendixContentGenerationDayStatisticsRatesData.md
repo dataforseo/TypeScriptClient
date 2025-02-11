@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixContentGenerationDayStatisticsRatesData
+[Documentation](../README.md) / IAppendixContentGenerationDayStatisticsRatesData
 
 # Interface: IAppendixContentGenerationDayStatisticsRatesData
 
+Defined in: main.ts:235203
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,13 +18,7 @@
 
 > `optional` **check\_grammar**: [`AppendixContentGenerationDayLimitsRatesDataInfo`](../classes/AppendixContentGenerationDayLimitsRatesDataInfo.md)
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219588
-=======
-main.ts:219621
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235208
 
 ***
 
@@ -30,13 +26,7 @@ main.ts:219621
 
 > `optional` **generate**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219584
-=======
-main.ts:219617
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235204
 
 ***
 
@@ -44,13 +34,7 @@ main.ts:219617
 
 > `optional` **generate\_meta\_tags**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219585
-=======
-main.ts:219618
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235205
 
 ***
 
@@ -58,13 +42,7 @@ main.ts:219618
 
 > `optional` **generate\_sub\_topics**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219590
-=======
-main.ts:219623
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235210
 
 ***
 
@@ -72,13 +50,7 @@ main.ts:219623
 
 > `optional` **generate\_text**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219586
-=======
-main.ts:219619
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235206
 
 ***
 
@@ -86,13 +58,7 @@ main.ts:219619
 
 > `optional` **grammar\_rules**: `number`
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219591
-=======
-main.ts:219624
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235211
 
 ***
 
@@ -100,13 +66,7 @@ main.ts:219624
 
 > `optional` **paraphrase**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219587
-=======
-main.ts:219620
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235207
 
 ***
 
@@ -114,10 +74,4 @@ main.ts:219620
 
 > `optional` **text\_summary**: [`AppendixContentGenerationDayLimitsRatesDataInfo`](../classes/AppendixContentGenerationDayLimitsRatesDataInfo.md)
 
-#### Defined in
-
-<<<<<<< HEAD
-main.ts:219589
-=======
-main.ts:219622
->>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
+Defined in: main.ts:235209

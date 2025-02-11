@@ -6,7 +6,7 @@
 
 # Interface: ICarouselDataforseoLabsSerpElementItem
 
-Defined in: main.ts:106790
+Defined in: main.ts:106922
 
 ## Extends
 
@@ -22,7 +22,7 @@ Defined in: main.ts:106790
 
 > `optional` **items**: [`CarouselElement`](../classes/CarouselElement.md)[]
 
-Defined in: main.ts:106794
+Defined in: main.ts:106926
 
 contains results featured in the ‘hotels_pack’ element of SERP
 
@@ -78,7 +78,7 @@ positions of elements with different type values are omitted from rank_group
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:106792
+Defined in: main.ts:106924
 
 title of the result in SERP
 

@@ -6,7 +6,7 @@
 
 # Class: KeywordsDataGoogleAdsLanguagesResponseInfo
 
-Defined in: main.ts:126665
+Defined in: main.ts:126781
 
 ## Extends
 
@@ -26,7 +26,7 @@ Defined in: main.ts:126665
 
 > **new KeywordsDataGoogleAdsLanguagesResponseInfo**(`data`?): [`KeywordsDataGoogleAdsLanguagesResponseInfo`](KeywordsDataGoogleAdsLanguagesResponseInfo.md)
 
-Defined in: main.ts:126671
+Defined in: main.ts:126787
 
 #### Parameters
 
@@ -104,7 +104,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`KeywordsDataGoogleAdsLanguagesTaskInfo`](KeywordsDataGoogleAdsLanguagesTaskInfo.md)[]
 
-Defined in: main.ts:126667
+Defined in: main.ts:126783
 
 array of tasks
 
@@ -190,7 +190,7 @@ the current version of the API
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:126675
+Defined in: main.ts:126791
 
 #### Parameters
 
@@ -212,7 +212,7 @@ Defined in: main.ts:126675
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:126697
+Defined in: main.ts:126813
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: main.ts:126697
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleAdsLanguagesResponseInfo`](KeywordsDataGoogleAdsLanguagesResponseInfo.md)
 
-Defined in: main.ts:126690
+Defined in: main.ts:126806
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: ExploreBrandsElement
 
-Defined in: main.ts:37225
+Defined in: main.ts:37241
 
 ## Implements
 
@@ -22,7 +22,7 @@ Defined in: main.ts:37225
 
 > **new ExploreBrandsElement**(`data`?): [`ExploreBrandsElement`](ExploreBrandsElement.md)
 
-Defined in: main.ts:37244
+Defined in: main.ts:37260
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: main.ts:37244
 
 > `optional` **description**: `string`
 
-Defined in: main.ts:37235
+Defined in: main.ts:37251
 
 description
 
@@ -54,7 +54,7 @@ description
 
 > `optional` **domain**: `string`
 
-Defined in: main.ts:37233
+Defined in: main.ts:37249
 
 website domain
 
@@ -68,7 +68,7 @@ website domain
 
 > `optional` **image\_url**: `string`
 
-Defined in: main.ts:37238
+Defined in: main.ts:37254
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -83,7 +83,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 > `optional` **title**: `string`
 
-Defined in: main.ts:37229
+Defined in: main.ts:37245
 
 title of a given link element
 
@@ -97,7 +97,7 @@ title of a given link element
 
 > `optional` **type**: `string`
 
-Defined in: main.ts:37227
+Defined in: main.ts:37243
 
 type of element
 
@@ -111,7 +111,7 @@ type of element
 
 > `optional` **url**: `string`
 
-Defined in: main.ts:37231
+Defined in: main.ts:37247
 
 URL
 
@@ -125,7 +125,7 @@ URL
 
 > `optional` **xpath**: `string`
 
-Defined in: main.ts:37240
+Defined in: main.ts:37256
 
 the XPath of the element
 
@@ -139,7 +139,7 @@ the XPath of the element
 
 > **init**(`_data`?): `void`
 
-Defined in: main.ts:37253
+Defined in: main.ts:37269
 
 #### Parameters
 
@@ -157,7 +157,7 @@ Defined in: main.ts:37253
 
 > **toJSON**(`data`?): `any`
 
-Defined in: main.ts:37276
+Defined in: main.ts:37292
 
 #### Parameters
 
@@ -175,7 +175,7 @@ Defined in: main.ts:37276
 
 > `static` **fromJS**(`data`): [`ExploreBrandsElement`](ExploreBrandsElement.md)
 
-Defined in: main.ts:37269
+Defined in: main.ts:37285
 
 #### Parameters
 

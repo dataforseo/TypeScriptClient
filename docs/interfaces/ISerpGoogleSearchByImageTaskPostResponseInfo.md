@@ -6,7 +6,7 @@
 
 # Interface: ISerpGoogleSearchByImageTaskPostResponseInfo
 
-Defined in: main.ts:52959
+Defined in: main.ts:52975
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`SerpGoogleSearchByImageTaskPostTaskInfo`](../classes/SerpGoogleSearchByImageTaskPostTaskInfo.md)[]
 
-Defined in: main.ts:52961
+Defined in: main.ts:52977
 
 array of tasks
 

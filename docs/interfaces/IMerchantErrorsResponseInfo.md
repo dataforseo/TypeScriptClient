@@ -6,7 +6,7 @@
 
 # Interface: IMerchantErrorsResponseInfo
 
-Defined in: main.ts:184691
+Defined in: main.ts:185053
 
 ## Extends
 
@@ -66,7 +66,7 @@ you can find the full list of general informational messages here
 
 > `optional` **tasks**: [`MerchantErrorsTaskInfo`](../classes/MerchantErrorsTaskInfo.md)[]
 
-Defined in: main.ts:184693
+Defined in: main.ts:185055
 
 array of tasks
 

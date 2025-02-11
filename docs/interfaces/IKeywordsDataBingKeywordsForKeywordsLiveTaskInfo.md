@@ -6,7 +6,7 @@
 
 # Interface: IKeywordsDataBingKeywordsForKeywordsLiveTaskInfo
 
-Defined in: main.ts:144130
+Defined in: main.ts:144294
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`KeywordsDataBingKeywordsForKeywordsLiveResultInfo`](../classes/KeywordsDataBingKeywordsForKeywordsLiveResultInfo.md)[]
 
-Defined in: main.ts:144132
+Defined in: main.ts:144296
 
 array of results
 

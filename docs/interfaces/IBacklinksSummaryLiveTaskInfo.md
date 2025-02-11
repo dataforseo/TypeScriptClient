@@ -6,7 +6,7 @@
 
 # Interface: IBacklinksSummaryLiveTaskInfo
 
-Defined in: main.ts:150678
+Defined in: main.ts:150842
 
 ## Extends
 
@@ -83,7 +83,7 @@ URL path
 
 > `optional` **result**: [`BacklinksSummaryLiveResultInfo`](../classes/BacklinksSummaryLiveResultInfo.md)[]
 
-Defined in: main.ts:150680
+Defined in: main.ts:150844
 
 array of results
 
