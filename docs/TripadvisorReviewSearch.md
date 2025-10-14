@@ -20,3 +20,4 @@
 **review_images** | **ImageUrlInfo[]** | contains URLs of the images used in the review |[optional]|
 **user_profile** | **BusinessDataUserProfileInfo** | information from the reviewer’s profile |[optional]|
 **responses** | **ReviewResponseItemInfo[]** | contains information about the owner’s response |[optional]|
+**review_highlights** | **any** | review highlights<br>contains highlighted review criteria and assessments |[optional]|

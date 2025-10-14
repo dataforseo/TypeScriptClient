@@ -75,7 +75,7 @@ example:
 google.co.uk, google.com.au, google.de, etc. */
         se_domain?: string | undefined
         
-        /** calcualte pixel rankings for SERP elements in advanced results
+        /** calculate pixel rankings for SERP elements in advanced results
 optional field
 pixel ranking refers to the distance between the result snippet and top left corner of the screen;
 Visit Help Center to learn more>>
@@ -237,7 +237,7 @@ google.co.uk, google.com.au, google.de, etc. */
 
     se_domain?: string | undefined;
     
-    /** calcualte pixel rankings for SERP elements in advanced results
+    /** calculate pixel rankings for SERP elements in advanced results
 optional field
 pixel ranking refers to the distance between the result snippet and top left corner of the screen;
 Visit Help Center to learn more>>

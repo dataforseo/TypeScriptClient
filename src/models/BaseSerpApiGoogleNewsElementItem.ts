@@ -243,6 +243,8 @@ example:
  
 export interface ISerpApiGoogleNewsTopStoriesElementItem  extends IBaseSerpApiGoogleNewsElementItem    {
         
+        page?: number | undefined
+        
         /** the alignment of the element in SERP
 can take the following values:
 left */
@@ -256,6 +258,8 @@ left */
     }
 
 export class SerpApiGoogleNewsTopStoriesElementItem  extends BaseSerpApiGoogleNewsElementItem   implements ISerpApiGoogleNewsTopStoriesElementItem {
+
+    page?: number | undefined;
     
     /** the alignment of the element in SERP
 can take the following values:
@@ -282,6 +286,7 @@ left */
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
+            this.page = data["page"];
             this.position = data["position"];
             if (Array.isArray(data["items"])) {
                 this.items = [];
@@ -308,6 +313,7 @@ left */
         super.toJSON(data);
         
         
+        data["page"] = this.page;
         data["position"] = this.position;
         data["items"] = null;
         if (Array.isArray(this.items)) {

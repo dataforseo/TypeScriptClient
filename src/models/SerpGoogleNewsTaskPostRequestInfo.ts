@@ -78,7 +78,7 @@ choose from the following values: windows, macos
 default value: windows */
         os?: string | undefined
         
-        /** calcualte pixel rankings for SERP elements in advanced results
+        /** calculate pixel rankings for SERP elements in advanced results
 optional field
 pixel ranking refers to the distance between the result snippet and top left corner of the screen;
 Visit Help Center to learn more>>
@@ -120,9 +120,10 @@ optional field
 number of results in SERP
 default value: 100
 max value: 700
-Note: your account will be billed per each SERP containing up to 100 results;
-thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
-if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
+Your account will be billed per each SERP containing up to 100 results;
+Setting depth above 100 may result in additional charges if the search engine returns more than 100 results;
+If the specified depth is higher than the number of results in the response, the difference will be refunded to your account balance automatically;
+The cost can be calculated on the Pricing page. */
         depth?: number | undefined
         
         /** page crawl limit
@@ -269,7 +270,7 @@ default value: windows */
 
     os?: string | undefined;
     
-    /** calcualte pixel rankings for SERP elements in advanced results
+    /** calculate pixel rankings for SERP elements in advanced results
 optional field
 pixel ranking refers to the distance between the result snippet and top left corner of the screen;
 Visit Help Center to learn more>>
@@ -316,9 +317,10 @@ optional field
 number of results in SERP
 default value: 100
 max value: 700
-Note: your account will be billed per each SERP containing up to 100 results;
-thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
-if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
+Your account will be billed per each SERP containing up to 100 results;
+Setting depth above 100 may result in additional charges if the search engine returns more than 100 results;
+If the specified depth is higher than the number of results in the response, the difference will be refunded to your account balance automatically;
+The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
     

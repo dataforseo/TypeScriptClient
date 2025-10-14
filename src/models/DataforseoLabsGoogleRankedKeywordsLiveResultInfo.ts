@@ -7,7 +7,7 @@ export interface IDataforseoLabsGoogleRankedKeywordsLiveResultInfo   {
         /** search engine type */
         se_type?: string | undefined
         
-        /** target domain in a POST array */
+        /** target domain or webpage in a POST array */
         target?: string | undefined
         
         /** location code in a POST array
@@ -24,11 +24,11 @@ if there is no data, then the value is null */
         /** the number of results returned in the items array */
         items_count?: number | undefined
         
-        /** ranking data relevant to the specified domain
+        /** ranking data relevant to the specified domain or webpage 
 ranking data is provided by the rank_group parameters that show the result’s rank considering only equivalent SERP elements */
         metrics?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined
         
-        /** ranking data relevant to the specified domain
+        /** ranking data relevant to the specified domain or webpage
 ranking data is provided by the rank_absolute parameters that indicate the result’s position among all SERP elements */
         metrics_absolute?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined
         
@@ -45,7 +45,7 @@ export class DataforseoLabsGoogleRankedKeywordsLiveResultInfo  implements IDataf
 
     se_type?: string | undefined;
     
-    /** target domain in a POST array */
+    /** target domain or webpage in a POST array */
 
     target?: string | undefined;
     
@@ -67,12 +67,12 @@ if there is no data, then the value is null */
 
     items_count?: number | undefined;
     
-    /** ranking data relevant to the specified domain
+    /** ranking data relevant to the specified domain or webpage 
 ranking data is provided by the rank_group parameters that show the result’s rank considering only equivalent SERP elements */
 
     metrics?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined;
     
-    /** ranking data relevant to the specified domain
+    /** ranking data relevant to the specified domain or webpage
 ranking data is provided by the rank_absolute parameters that indicate the result’s position among all SERP elements */
 
     metrics_absolute?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined;

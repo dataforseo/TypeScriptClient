@@ -118,6 +118,8 @@ absolute position among all the elements in SERP */
  
 export interface ISerpApiGoogleImagesCarouselElementItem  extends IBaseSerpApiGoogleImagesElementItem    {
         
+        page?: number | undefined
+        
         /** the alignment of the element in SERP
 can take the following values:
 left, right */
@@ -139,6 +141,8 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
     }
 
 export class SerpApiGoogleImagesCarouselElementItem  extends BaseSerpApiGoogleImagesElementItem   implements ISerpApiGoogleImagesCarouselElementItem {
+
+    page?: number | undefined;
     
     /** the alignment of the element in SERP
 can take the following values:
@@ -175,6 +179,7 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
+            this.page = data["page"];
             this.position = data["position"];
             this.title = data["title"];
             if (Array.isArray(data["items"])) {
@@ -203,6 +208,7 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
         super.toJSON(data);
         
         
+        data["page"] = this.page;
         data["position"] = this.position;
         data["title"] = this.title;
         data["items"] = null;
@@ -323,6 +329,8 @@ export class SerpApiGoogleImagesImagesSearchElementItem  extends BaseSerpApiGoog
  
 export interface ISerpApiGoogleImagesRelatedSearchesElementItem  extends IBaseSerpApiGoogleImagesElementItem    {
         
+        page?: number | undefined
+        
         /** the alignment of the element in SERP
 can take the following values:
 left, right */
@@ -341,6 +349,8 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
     }
 
 export class SerpApiGoogleImagesRelatedSearchesElementItem  extends BaseSerpApiGoogleImagesElementItem   implements ISerpApiGoogleImagesRelatedSearchesElementItem {
+
+    page?: number | undefined;
     
     /** the alignment of the element in SERP
 can take the following values:
@@ -373,6 +383,7 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
+            this.page = data["page"];
             this.position = data["position"];
             this.items = data["items"];
             this.rectangle = data["rectangle"] ? AiModeRectangleInfo.fromJS(data["rectangle"]) : <any>undefined;
@@ -395,6 +406,7 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
         super.toJSON(data);
         
         
+        data["page"] = this.page;
         data["position"] = this.position;
         data["items"] = this.items;
         data["rectangle"] = this.rectangle ? AiModeRectangleInfo.fromJS(this.rectangle)?.toJSON() : <any>undefined;

@@ -107,21 +107,21 @@ left, right */
  
 export interface ISerpApiAiOverviewElementItem  extends IBaseSerpApiAiOverviewElementItem    {
         
-        /** title of a given link element */
+        /** title of the element */
         title?: string | undefined
         
-        /** reference text
-text snippet from the page that was used to generate the ai_overview_element */
+        /** additional text of the element in SERP */
         text?: string | undefined
         
         /** content of the element in markdown format */
         markdown?: string | undefined
         
-        /** website links featured in the element */
+        /** sitelinks
+the links shown below some of Google’s search results
+if there are none, equals null */
         links?: LinkElement[] | undefined
         
-        /** images of the component
-if there are none, equals null */
+        /** images of the element */
         images?: AiModeImagesElementInfo[] | undefined
         
         /** references relevant to the element
@@ -134,12 +134,11 @@ includes references to webpages that were used to generate the ai_overview_eleme
 
 export class SerpApiAiOverviewElementItem  extends BaseSerpApiAiOverviewElementItem   implements ISerpApiAiOverviewElementItem {
     
-    /** title of a given link element */
+    /** title of the element */
 
     title?: string | undefined;
     
-    /** reference text
-text snippet from the page that was used to generate the ai_overview_element */
+    /** additional text of the element in SERP */
 
     text?: string | undefined;
     
@@ -147,12 +146,13 @@ text snippet from the page that was used to generate the ai_overview_element */
 
     markdown?: string | undefined;
     
-    /** website links featured in the element */
+    /** sitelinks
+the links shown below some of Google’s search results
+if there are none, equals null */
 
     links?: LinkElement[] | undefined;
     
-    /** images of the component
-if there are none, equals null */
+    /** images of the element */
 
     images?: AiModeImagesElementInfo[] | undefined;
     
@@ -256,14 +256,14 @@ export interface ISerpApiAiOverviewExpandedElementItem  extends IBaseSerpApiAiOv
         /** title of the element */
         title?: string | undefined
         
-        /** text of the component */
+        /** additional text of the element in SERP */
         text?: string | undefined
         
         /** array of components of the element */
         components?: AiOverviewExpandedComponent[] | undefined
         
-        /** additional references relevant to the item
-includes references to webpages that may have been used to generate the ai_overview */
+        /** references relevant to the element
+includes references to webpages that were used to generate the ai_overview_element */
         references?: AiModeAiOverviewReferenceInfo[] | undefined
 
     [key: string]: any;
@@ -276,7 +276,7 @@ export class SerpApiAiOverviewExpandedElementItem  extends BaseSerpApiAiOverview
 
     title?: string | undefined;
     
-    /** text of the component */
+    /** additional text of the element in SERP */
 
     text?: string | undefined;
     
@@ -284,8 +284,8 @@ export class SerpApiAiOverviewExpandedElementItem  extends BaseSerpApiAiOverview
 
     components?: AiOverviewExpandedComponent[] | undefined;
     
-    /** additional references relevant to the item
-includes references to webpages that may have been used to generate the ai_overview */
+    /** references relevant to the element
+includes references to webpages that were used to generate the ai_overview_element */
 
     references?: AiModeAiOverviewReferenceInfo[] | undefined;
 
@@ -364,28 +364,27 @@ includes references to webpages that may have been used to generate the ai_overv
  
 export interface ISerpApiAiOverviewVideoElementItem  extends IBaseSerpApiAiOverviewElementItem    {
         
-        /** reference page title */
+        /** title of the element */
         title?: string | undefined
         
-        /** snippet of the element */
+        /** additional information for the video */
         snippet?: string | undefined
         
-        /** recipes_element URL */
+        /** relevant URL */
         url?: string | undefined
         
-        /** domain where a link points */
+        /** domain name of the reference */
         domain?: string | undefined
         
-        /** URL of the image
-the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+        /** URL of the image */
         image_url?: string | undefined
         
         /** reference source name or title */
         source?: string | undefined
         
-        /** date and time
-in the yyyy-mm-ddThh:mm:ss ISO 8601 format
-indicates date and time for which the exchange rate in the value field is provided */
+        /** date when the video was published or indexed
+example:
+Apr 26, 2024 */
         date?: string | undefined
         
         /** date and time when the result was published
@@ -400,24 +399,23 @@ example:
 
 export class SerpApiAiOverviewVideoElementItem  extends BaseSerpApiAiOverviewElementItem   implements ISerpApiAiOverviewVideoElementItem {
     
-    /** reference page title */
+    /** title of the element */
 
     title?: string | undefined;
     
-    /** snippet of the element */
+    /** additional information for the video */
 
     snippet?: string | undefined;
     
-    /** recipes_element URL */
+    /** relevant URL */
 
     url?: string | undefined;
     
-    /** domain where a link points */
+    /** domain name of the reference */
 
     domain?: string | undefined;
     
-    /** URL of the image
-the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+    /** URL of the image */
 
     image_url?: string | undefined;
     
@@ -425,9 +423,9 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
     source?: string | undefined;
     
-    /** date and time
-in the yyyy-mm-ddThh:mm:ss ISO 8601 format
-indicates date and time for which the exchange rate in the value field is provided */
+    /** date when the video was published or indexed
+example:
+Apr 26, 2024 */
 
     date?: string | undefined;
     
@@ -495,12 +493,14 @@ example:
  
 export interface ISerpApiAiOverviewTableElementItem  extends IBaseSerpApiAiOverviewElementItem    {
         
-        /** text of the component in the markdwon format */
+        /** content of the element in markdown format */
         markdown?: string | undefined
         
-        /** table present in the element
-the header and content of the table present in the element */
+        /** table element */
         table?: Table | undefined
+        
+        /** references relevant to the element */
+        references?: AiModeAiOverviewReferenceInfo[] | undefined
 
     [key: string]: any;
 
@@ -508,14 +508,17 @@ the header and content of the table present in the element */
 
 export class SerpApiAiOverviewTableElementItem  extends BaseSerpApiAiOverviewElementItem   implements ISerpApiAiOverviewTableElementItem {
     
-    /** text of the component in the markdwon format */
+    /** content of the element in markdown format */
 
     markdown?: string | undefined;
     
-    /** table present in the element
-the header and content of the table present in the element */
+    /** table element */
 
     table?: Table | undefined;
+    
+    /** references relevant to the element */
+
+    references?: AiModeAiOverviewReferenceInfo[] | undefined;
 
     [key: string]: any;
 
@@ -534,6 +537,12 @@ the header and content of the table present in the element */
             }
             this.markdown = data["markdown"];
             this.table = data["table"] ? Table.fromJS(data["table"]) : <any>undefined;
+            if (Array.isArray(data["references"])) {
+                this.references = [];
+                for (let item of data["references"]) {
+                    this.references.push(AiModeAiOverviewReferenceInfo.fromJS(item));
+                }
+            }
         }
     }
 
@@ -555,6 +564,15 @@ the header and content of the table present in the element */
         
         data["markdown"] = this.markdown;
         data["table"] = this.table ? Table.fromJS(this.table)?.toJSON() : <any>undefined;
+        data["references"] = null;
+        if (Array.isArray(this.references)) {
+            data["references"] = [];
+            for (let item of this.references) {
+                if (item && typeof item.toJSON === "function") {
+                    data["references"].push(item?.toJSON());
+                }
+            }
+        }
         return data;
     }
 }

@@ -6,7 +6,8 @@ export interface IAiOptimizationAiKeywordDataKeywordsSearchVolumeLiveItem   {
         /** specified keyword */
         keyword?: string | undefined
         
-        /** current AI search volume rate of a keyword */
+        /** current AI search volume rate of a keyword
+learn more about this metric here */
         ai_search_volume?: number | undefined
         
         /** monthly AI search volume rates
@@ -23,7 +24,8 @@ export class AiOptimizationAiKeywordDataKeywordsSearchVolumeLiveItem  implements
 
     keyword?: string | undefined;
     
-    /** current AI search volume rate of a keyword */
+    /** current AI search volume rate of a keyword
+learn more about this metric here */
 
     ai_search_volume?: number | undefined;
     

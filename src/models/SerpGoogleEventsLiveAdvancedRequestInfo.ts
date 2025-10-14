@@ -81,9 +81,10 @@ optional field
 number of results in SERP
 default value: 10
 max value: 700
-Note: your account will be billed per each SERP containing up to 10 results;
-thus, setting a depth above 10 may result in additional charges if the search engine returns more than 10 results;
-if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
+Your account will be billed per each SERP containing up to 10 results;
+Setting depth above 10 may result in additional charges if the search engine returns more than 10 results;
+If the specified depth is higher than the number of results in the response, the difference will be refunded to your account balance automatically;
+The cost can be calculated on the Pricing page. */
         depth?: number | undefined
         
         /** page crawl limit
@@ -197,9 +198,10 @@ optional field
 number of results in SERP
 default value: 10
 max value: 700
-Note: your account will be billed per each SERP containing up to 10 results;
-thus, setting a depth above 10 may result in additional charges if the search engine returns more than 10 results;
-if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
+Your account will be billed per each SERP containing up to 10 results;
+Setting depth above 10 may result in additional charges if the search engine returns more than 10 results;
+If the specified depth is higher than the number of results in the response, the difference will be refunded to your account balance automatically;
+The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
     

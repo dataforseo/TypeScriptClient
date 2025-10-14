@@ -11,9 +11,8 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
         /** direct URL of the search query
 optional field
 you can specify a direct URL and we will sort it out to the necessary fields. Note that this method is the most difficult for our API to process and also requires you to specify the exact language and location in the URL. In most cases, we wouldn’t recommend using this method.
-Note: you may use the &udm=28 parameter in the direct URL to use the new Google Shopping markup with 40 SERP results returned by default (the cost for one SERP is deducted accordingly);the maximum depth is 200; this parameter must be specified without tbm=shop ;
 example:
-https:\/\/www.google.com\/search?q=fish&hl=en&gl=US&gws_rd=cr&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc&udm=28 */
+https://www.google.com/search?q=fish&hl=en&gl=US&gws_rd=cr&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc */
         url?: string | undefined
         
         /** task priority
@@ -78,11 +77,11 @@ google.co.uk, google.com.au, google.de, etc. */
         /** parsing depth
 optional field
 number of results to be retrieved from the Google Shopping results page
-default value: 100
-max value: 700
-Note: your account will be billed per each results page containing up to 100 results;
-thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
-if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
+default value: 40
+max value: 120
+Your account will be billed per each SERP containing up to 40 results;
+Setting depth above 40 may result in additional charges if the search engine returns more than 40 results;
+The cost can be calculated on the Pricing page. */
         depth?: number | undefined
         
         /** page crawl limit
@@ -103,7 +102,8 @@ example:
 &tbs=p_ord:pd – sort by descending price;
 &tbs=p_ord:rv – sort by review score;
 &tbs=ppr_max:50,p_ord:rv – sort by review score with the maximum price of 50 USD.;
-&udm=28 – use new Google Shopping markup with 40 SERP results returned by default (the cost for one SERP is deducted accordingly);the maximum depth is 200; this parameter must be specified without tbm=shop in the url;
+&udm=28 – use new Google Shopping markup with 40 SERP results returned by default (the cost for one SERP is deducted accordingly); the maximum depth is 200; this parameter must be specified without tbm=shop in the url;
+&shoprs=$value – specify advanced filtering and sorting in the new Shopping markup; replace $value with a string in protobuf Base64 format; learn more on our help center.
 Note that search_param values will be ignored if any of the following parameters are used: price_min, price_max, sort_by */
         search_param?: string | undefined
         
@@ -188,9 +188,8 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
     /** direct URL of the search query
 optional field
 you can specify a direct URL and we will sort it out to the necessary fields. Note that this method is the most difficult for our API to process and also requires you to specify the exact language and location in the URL. In most cases, we wouldn’t recommend using this method.
-Note: you may use the &udm=28 parameter in the direct URL to use the new Google Shopping markup with 40 SERP results returned by default (the cost for one SERP is deducted accordingly);the maximum depth is 200; this parameter must be specified without tbm=shop ;
 example:
-https:\/\/www.google.com\/search?q=fish&hl=en&gl=US&gws_rd=cr&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc&udm=28 */
+https://www.google.com/search?q=fish&hl=en&gl=US&gws_rd=cr&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc */
 
     url?: string | undefined;
     
@@ -263,11 +262,11 @@ google.co.uk, google.com.au, google.de, etc. */
     /** parsing depth
 optional field
 number of results to be retrieved from the Google Shopping results page
-default value: 100
-max value: 700
-Note: your account will be billed per each results page containing up to 100 results;
-thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
-if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
+default value: 40
+max value: 120
+Your account will be billed per each SERP containing up to 40 results;
+Setting depth above 40 may result in additional charges if the search engine returns more than 40 results;
+The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
     
@@ -290,7 +289,8 @@ example:
 &tbs=p_ord:pd – sort by descending price;
 &tbs=p_ord:rv – sort by review score;
 &tbs=ppr_max:50,p_ord:rv – sort by review score with the maximum price of 50 USD.;
-&udm=28 – use new Google Shopping markup with 40 SERP results returned by default (the cost for one SERP is deducted accordingly);the maximum depth is 200; this parameter must be specified without tbm=shop in the url;
+&udm=28 – use new Google Shopping markup with 40 SERP results returned by default (the cost for one SERP is deducted accordingly); the maximum depth is 200; this parameter must be specified without tbm=shop in the url;
+&shoprs=$value – specify advanced filtering and sorting in the new Shopping markup; replace $value with a string in protobuf Base64 format; learn more on our help center.
 Note that search_param values will be ignored if any of the following parameters are used: price_min, price_max, sort_by */
 
     search_param?: string | undefined;

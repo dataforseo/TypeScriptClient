@@ -1,18 +1,17 @@
 {
   "name": "dataforseo-client",
-  "version": "2.0.5",
+  "version": "2.0.8",
   "type": "module",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "description": "API client that provide services of DataForSeo API \n\n For more information about client code generation, please follow to github",
   "scripts": {
-    "fix": "node fix-esm-imports.js",
     "build:esm": "tsc -p tsconfig.esm.json && node fix-esm-imports.js",
     "build:cjs": "tsc -p tsconfig.cjs.json",
     "build": "npm run build:esm && npm run build:cjs",
     "test": "jest --verbose"
   },
-  "files": [
+  "files":[
     "dist",
     "README.md",
     "package.json"
@@ -33,9 +32,9 @@
   },
   "sideEffects": false,
   "devDependencies": {
-    "@types/jest": "^29.0.0",
     "jest": "^29.0.0",
     "ts-jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
     "typescript": "^5.0.0"
   },
   "repository": {

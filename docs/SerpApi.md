@@ -216,8 +216,8 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new SerpIdListRequestInfo();
-   task.datetime_from = "2025-05-06 08:27:31 +00:00";
-   task.datetime_to = "2025-07-06 08:27:31 +00:00";
+   task.datetime_from = "2025-07-14 10:23:34 +00:00";
+   task.datetime_to = "2025-09-14 10:23:34 +00:00";
    task.limit = 100;
    task.offset = 0;
    task.sort = "desc";

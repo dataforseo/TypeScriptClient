@@ -1,6 +1,6 @@
 import { SpellInfo, ISpellInfo } from "./SpellInfo";
 import { RefinementChipsInfo, IRefinementChipsInfo } from "./RefinementChipsInfo";
-import { BaseSerpApiElementItem, IBaseSerpApiElementItem } from "./BaseSerpApiElementItem";
+import { BaseBingSerpApiElementItem, IBaseBingSerpApiElementItem } from "./BaseBingSerpApiElementItem";
 
 
 export interface ISerpBingOrganicLiveAdvancedResultInfo   {
@@ -49,12 +49,16 @@ answer_box, carousel, events, featured_snippet, hotels_pack, images, jobs, local
         /** total number of results in SERP */
         se_results_count?: number | undefined
         
+        /** total pages retrieved
+total number of retrieved SERPs in the result */
+        pages_count?: number | undefined
+        
         /** the number of results returned in the items array */
         items_count?: number | undefined
         
         /** additional items present in the element
 if there are none, equals null */
-        items?: BaseSerpApiElementItem[] | undefined
+        items?: BaseBingSerpApiElementItem[] | undefined
 
     [key: string]: any;
 
@@ -117,6 +121,11 @@ answer_box, carousel, events, featured_snippet, hotels_pack, images, jobs, local
 
     se_results_count?: number | undefined;
     
+    /** total pages retrieved
+total number of retrieved SERPs in the result */
+
+    pages_count?: number | undefined;
+    
     /** the number of results returned in the items array */
 
     items_count?: number | undefined;
@@ -124,7 +133,7 @@ answer_box, carousel, events, featured_snippet, hotels_pack, images, jobs, local
     /** additional items present in the element
 if there are none, equals null */
 
-    items?: BaseSerpApiElementItem[] | undefined;
+    items?: BaseBingSerpApiElementItem[] | undefined;
 
     [key: string]: any;
 
@@ -157,11 +166,12 @@ if there are none, equals null */
             this.refinement_chips = data["refinement_chips"] ? RefinementChipsInfo.fromJS(data["refinement_chips"]) : <any>undefined;
             this.item_types = data["item_types"];
             this.se_results_count = data["se_results_count"];
+            this.pages_count = data["pages_count"];
             this.items_count = data["items_count"];
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseSerpApiElementItem.fromJS(item));
+                    this.items.push(BaseBingSerpApiElementItem.fromJS(item));
                 }
             }
         }
@@ -192,6 +202,7 @@ if there are none, equals null */
         data["refinement_chips"] = this.refinement_chips ? RefinementChipsInfo.fromJS(this.refinement_chips)?.toJSON() : <any>undefined;
         data["item_types"] = this.item_types;
         data["se_results_count"] = this.se_results_count;
+        data["pages_count"] = this.pages_count;
         data["items_count"] = this.items_count;
         data["items"] = null;
         if (Array.isArray(this.items)) {

@@ -29,16 +29,17 @@ The cost can be calculated on the Pricing page. */
         /** parsing depth
 optional field
 number of results in SERP
-default value: 100
+default value: 15
 max value: 700
-Note: your account will be billed per each SERP containing up to 100 results;
-thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
-if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
+Your account will be billed per each SERP containing up to 15 results;
+Setting depth above 15 may result in additional charges if the search engine returns more than 15 results;
+The cost can be calculated on the Pricing page. */
         depth?: number | undefined
         
         /** page crawl limit
 optional field
 number of search results pages to crawl
+default value: 1
 max value: 100
 Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center */
@@ -147,17 +148,18 @@ The cost can be calculated on the Pricing page. */
     /** parsing depth
 optional field
 number of results in SERP
-default value: 100
+default value: 15
 max value: 700
-Note: your account will be billed per each SERP containing up to 100 results;
-thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
-if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
+Your account will be billed per each SERP containing up to 15 results;
+Setting depth above 15 may result in additional charges if the search engine returns more than 15 results;
+The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
     
     /** page crawl limit
 optional field
 number of search results pages to crawl
+default value: 1
 max value: 100
 Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center */

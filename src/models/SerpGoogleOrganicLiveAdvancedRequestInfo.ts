@@ -21,18 +21,20 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
         /** parsing depth
 optional field
 number of results in SERP
-default value: 100
-max value: 700
-Note: your account will be billed per each SERP containing up to 100 results;
-thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
-if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
+default value: 10
+max value: 200
+Your account will be billed per each SERP containing up to 10 results;
+Setting depth above 10 may result in additional charges if the search engine returns more than 10 results;
+The cost can be calculated on the Pricing page. */
         depth?: number | undefined
         
         /** page crawl limit
 optional field
 number of search results pages to crawl
 max value: 100
-Note: the max_crawl_pages and depth parameters complement each other;
+Note: you will be charged for each page crawled (10 organic results per page);
+learn more about pricing on our Pricing page;
+Note#2: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center */
         max_crawl_pages?: number | undefined
         
@@ -126,8 +128,8 @@ default value: true */
 optional field
 pixel ranking refers to the distance between the result snippet and top left corner of the screen;
 Visit Help Center to learn more>>
-by default, the parameter is set to false
-Note: if set to true, the charge per task will be multiplied by 2 */
+by default, the parameter is set to false;
+Note: you will be charged extra $0.002 for using this parameter */
         calculate_rectangles?: boolean | undefined
         
         /** browser screen width
@@ -174,7 +176,7 @@ optional field
 set to true to obtain ai_overview items is SERPs even if they are loaded asynchronically;
 if set to false, you will only obtain ai_overview items from cache;
 default value: false
-Note your account will be billed $0.002 extra for each request;
+Note: you will be charged extra $0.002 for using this parameter;
 if the element is absent or contains 'asynchronous_ai_overview': false, all extra charges will be returned to your account balance */
         load_async_ai_overview?: boolean | undefined
         
@@ -227,11 +229,11 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
     /** parsing depth
 optional field
 number of results in SERP
-default value: 100
-max value: 700
-Note: your account will be billed per each SERP containing up to 100 results;
-thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
-if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
+default value: 10
+max value: 200
+Your account will be billed per each SERP containing up to 10 results;
+Setting depth above 10 may result in additional charges if the search engine returns more than 10 results;
+The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
     
@@ -239,7 +241,9 @@ if the specified depth is higher than the number of results in the response, the
 optional field
 number of search results pages to crawl
 max value: 100
-Note: the max_crawl_pages and depth parameters complement each other;
+Note: you will be charged for each page crawled (10 organic results per page);
+learn more about pricing on our Pricing page;
+Note#2: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center */
 
     max_crawl_pages?: number | undefined;
@@ -344,8 +348,8 @@ default value: true */
 optional field
 pixel ranking refers to the distance between the result snippet and top left corner of the screen;
 Visit Help Center to learn more>>
-by default, the parameter is set to false
-Note: if set to true, the charge per task will be multiplied by 2 */
+by default, the parameter is set to false;
+Note: you will be charged extra $0.002 for using this parameter */
 
     calculate_rectangles?: boolean | undefined;
     
@@ -397,7 +401,7 @@ optional field
 set to true to obtain ai_overview items is SERPs even if they are loaded asynchronically;
 if set to false, you will only obtain ai_overview items from cache;
 default value: false
-Note your account will be billed $0.002 extra for each request;
+Note: you will be charged extra $0.002 for using this parameter;
 if the element is absent or contains 'asynchronous_ai_overview': false, all extra charges will be returned to your account balance */
 
     load_async_ai_overview?: boolean | undefined;

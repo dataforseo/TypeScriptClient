@@ -55,7 +55,10 @@ optional field
 number of reviews to be returned in the API response;
 we strongly recommend setting the parsing depth in the multiples of 50, because our system processes 50 reviews in a row;
 default value: 50;
-maximum value: 500 */
+maximum value: 500;
+Your account will be billed per each SERP containing up to 50 results;
+Setting depth above 50 may result in additional charges if the search engine returns more than 50 results;
+The cost can be calculated on the Pricing page. */
         depth?: number | undefined
         
         /** results sorting parameters
@@ -172,7 +175,10 @@ optional field
 number of reviews to be returned in the API response;
 we strongly recommend setting the parsing depth in the multiples of 50, because our system processes 50 reviews in a row;
 default value: 50;
-maximum value: 500 */
+maximum value: 500;
+Your account will be billed per each SERP containing up to 50 results;
+Setting depth above 50 may result in additional charges if the search engine returns more than 50 results;
+The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
     

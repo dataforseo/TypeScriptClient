@@ -11,8 +11,7 @@ unique task identifier in our system in the UUID format */
 can take the following values: video_subtitles */
         se_type?: string | undefined
         
-        /** date when the task was fixed (in the UTC format) */
-        date_fixed?: string | undefined
+        date_posted?: string | undefined
         
         /** user-defined task identifier */
         tag?: string | undefined
@@ -48,10 +47,8 @@ unique task identifier in our system in the UUID format */
 can take the following values: video_subtitles */
 
     se_type?: string | undefined;
-    
-    /** date when the task was fixed (in the UTC format) */
 
-    date_fixed?: string | undefined;
+    date_posted?: string | undefined;
     
     /** user-defined task identifier */
 
@@ -95,7 +92,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null 
             this.id = data["id"];
             this.se = data["se"];
             this.se_type = data["se_type"];
-            this.date_fixed = data["date_fixed"];
+            this.date_posted = data["date_posted"];
             this.tag = data["tag"];
             this.endpoint_regular = data["endpoint_regular"];
             this.endpoint_advanced = data["endpoint_advanced"];
@@ -120,7 +117,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null 
         data["id"] = this.id;
         data["se"] = this.se;
         data["se_type"] = this.se_type;
-        data["date_fixed"] = this.date_fixed;
+        data["date_posted"] = this.date_posted;
         data["tag"] = this.tag;
         data["endpoint_regular"] = this.endpoint_regular;
         data["endpoint_advanced"] = this.endpoint_advanced;

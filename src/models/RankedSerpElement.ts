@@ -31,7 +31,7 @@ learn more about the metric in this help center guide */
         keyword_difficulty?: number | undefined
         
         /** lost ranked elements
-indicates how many ranked elements of this domain were previously presented in SERPs, but weren’t found during the last check */
+indicates how many ranked elements of this target were previously presented in SERPs, but weren’t found during the last check */
         is_lost?: boolean | undefined
         
         /** date and time when SERP data was updated
@@ -86,7 +86,7 @@ learn more about the metric in this help center guide */
     keyword_difficulty?: number | undefined;
     
     /** lost ranked elements
-indicates how many ranked elements of this domain were previously presented in SERPs, but weren’t found during the last check */
+indicates how many ranked elements of this target were previously presented in SERPs, but weren’t found during the last check */
 
     is_lost?: boolean | undefined;
     

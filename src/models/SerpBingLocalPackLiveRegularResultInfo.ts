@@ -1,6 +1,6 @@
 import { SpellInfo, ISpellInfo } from "./SpellInfo";
 import { RefinementChipsInfo, IRefinementChipsInfo } from "./RefinementChipsInfo";
-import { BaseSerpApiElementItem, IBaseSerpApiElementItem } from "./BaseSerpApiElementItem";
+import { BaseBingSerpApiElementItem, IBaseBingSerpApiElementItem } from "./BaseBingSerpApiElementItem";
 
 
 export interface ISerpBingLocalPackLiveRegularResultInfo   {
@@ -52,7 +52,7 @@ local_pack */
         items_count?: number | undefined
         
         /** elements of search results found in SERP */
-        items?: BaseSerpApiElementItem[] | undefined
+        items?: BaseBingSerpApiElementItem[] | undefined
 
     [key: string]: any;
 
@@ -120,7 +120,7 @@ local_pack */
     
     /** elements of search results found in SERP */
 
-    items?: BaseSerpApiElementItem[] | undefined;
+    items?: BaseBingSerpApiElementItem[] | undefined;
 
     [key: string]: any;
 
@@ -157,7 +157,7 @@ local_pack */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseSerpApiElementItem.fromJS(item));
+                    this.items.push(BaseBingSerpApiElementItem.fromJS(item));
                 }
             }
         }

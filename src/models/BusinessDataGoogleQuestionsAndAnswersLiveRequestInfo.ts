@@ -66,9 +66,10 @@ optional field
 number of results in SERP
 default value: 20
 max value: 100
-Note: your account will be billed per each SERP containing up to 20 results;
-thus, setting a depth above 20 may result in additional charges if the search engine returns more than 20 results;
-if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
+Your account will be billed per each SERP containing up to 20 results;
+Setting depth above 20 may result in additional charges if the search engine returns more than 20 results;
+If the specified depth is higher than the number of questions in the response, the difference will be refunded automatically to your account balance;
+The cost can be calculated on the Pricing page. */
         depth?: number | undefined
         
         /** user-defined task identifier
@@ -156,9 +157,10 @@ optional field
 number of results in SERP
 default value: 20
 max value: 100
-Note: your account will be billed per each SERP containing up to 20 results;
-thus, setting a depth above 20 may result in additional charges if the search engine returns more than 20 results;
-if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
+Your account will be billed per each SERP containing up to 20 results;
+Setting depth above 20 may result in additional charges if the search engine returns more than 20 results;
+If the specified depth is higher than the number of questions in the response, the difference will be refunded automatically to your account balance;
+The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
     

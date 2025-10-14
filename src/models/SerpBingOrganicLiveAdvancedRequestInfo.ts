@@ -13,18 +13,8 @@ you can specify up to 700 characters in the keyword field
 all %## will be decoded (plus character ‘+’ will be decoded to a space character)
 if you need to use the “%” character for your keyword, please specify it as “%25”;
 if you need to use the “+” character for your keyword, please specify it as “%2B”
-if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’ the charge per task will be multiplied by 5
-learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
+if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’ the charge per task will be multiplied by 5learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
         keyword?: string | undefined
-        
-        /** task priority
-optional field
-can take the following values:
-1 – normal execution priority (set by default)
-2 – high execution priority
-You will be additionally charged for the tasks with high execution priority.
-The cost can be calculated on the Pricing page. */
-        priority?: number | undefined
         
         /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -84,27 +74,42 @@ default value: android */
         /** parsing depth
 optional field
 number of results in SERP
-default value: 100
-max value: 700
-Note: your account will be billed per each SERP containing up to 100 results;
-thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
-if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
+default value: 10
+max value: 200
+Your account will be billed per each SERP containing up to 10 results;
+Setting depth above 10 may result in additional charges if the search engine returns more than 10 results;
+The cost can be calculated on the Pricing page. */
         depth?: number | undefined
         
         /** page crawl limit
 optional field
 number of search results pages to crawl
+default value: 1
 max value: 100
 Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center */
         max_crawl_pages?: number | undefined
         
-        /** calcualte pixel rankings for SERP elements in advanced results
+        /** target domain, subdomain, or webpage to get results for
+optional field
+a domain or a subdomain should be specified without https:// and www.
+note that the results of target-specific tasks will only include SERP elements that contain a url string;
+you can also use a wildcard (‘*’) character to specify the search pattern in SERP and narrow down the results;
+examples:
+example.com  – returns results for the website’s home page with URLs, such as https://example.com, or https://www.example.com/, or https://example.com/;
+example.com* – returns results for the domain, including all its pages;
+*example.com* – returns results for the entire domain, including all its pages and subdomains;
+*example.com  – returns results for the home page regardless of the subdomain, such as https://en.example.com;
+example.com/example-page  – returns results for the exact URL;
+example.com/example-page*  – returns results for all domain’s URLs that start with the specified string */
+        target?: string | undefined
+        
+        /** calculate pixel rankings for SERP elements in advanced results
 optional field
 pixel ranking refers to the distance between the result snippet and top left corner of the screen;
 Visit Help Center to learn more>>
 by default, the parameter is set to false
-Note: if set to true, the charge per task will be multiplied by 2 */
+Note: you will be charged extra $0.002 for using this parameter */
         calculate_rectangles?: boolean | undefined
         
         /** browser screen width
@@ -169,20 +174,9 @@ you can specify up to 700 characters in the keyword field
 all %## will be decoded (plus character ‘+’ will be decoded to a space character)
 if you need to use the “%” character for your keyword, please specify it as “%25”;
 if you need to use the “+” character for your keyword, please specify it as “%2B”
-if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’ the charge per task will be multiplied by 5
-learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
+if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’ the charge per task will be multiplied by 5learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keyword?: string | undefined;
-    
-    /** task priority
-optional field
-can take the following values:
-1 – normal execution priority (set by default)
-2 – high execution priority
-You will be additionally charged for the tasks with high execution priority.
-The cost can be calculated on the Pricing page. */
-
-    priority?: number | undefined;
     
     /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -249,29 +243,45 @@ default value: android */
     /** parsing depth
 optional field
 number of results in SERP
-default value: 100
-max value: 700
-Note: your account will be billed per each SERP containing up to 100 results;
-thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
-if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
+default value: 10
+max value: 200
+Your account will be billed per each SERP containing up to 10 results;
+Setting depth above 10 may result in additional charges if the search engine returns more than 10 results;
+The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
     
     /** page crawl limit
 optional field
 number of search results pages to crawl
+default value: 1
 max value: 100
 Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center */
 
     max_crawl_pages?: number | undefined;
     
-    /** calcualte pixel rankings for SERP elements in advanced results
+    /** target domain, subdomain, or webpage to get results for
+optional field
+a domain or a subdomain should be specified without https:// and www.
+note that the results of target-specific tasks will only include SERP elements that contain a url string;
+you can also use a wildcard (‘*’) character to specify the search pattern in SERP and narrow down the results;
+examples:
+example.com  – returns results for the website’s home page with URLs, such as https://example.com, or https://www.example.com/, or https://example.com/;
+example.com* – returns results for the domain, including all its pages;
+*example.com* – returns results for the entire domain, including all its pages and subdomains;
+*example.com  – returns results for the home page regardless of the subdomain, such as https://en.example.com;
+example.com/example-page  – returns results for the exact URL;
+example.com/example-page*  – returns results for all domain’s URLs that start with the specified string */
+
+    target?: string | undefined;
+    
+    /** calculate pixel rankings for SERP elements in advanced results
 optional field
 pixel ranking refers to the distance between the result snippet and top left corner of the screen;
 Visit Help Center to learn more>>
 by default, the parameter is set to false
-Note: if set to true, the charge per task will be multiplied by 2 */
+Note: you will be charged extra $0.002 for using this parameter */
 
     calculate_rectangles?: boolean | undefined;
     
@@ -344,7 +354,6 @@ you will find the specified tag value in the data object of the response */
             }
             this.url = data["url"];
             this.keyword = data["keyword"];
-            this.priority = data["priority"];
             this.location_name = data["location_name"];
             this.location_code = data["location_code"];
             this.location_coordinate = data["location_coordinate"];
@@ -354,6 +363,7 @@ you will find the specified tag value in the data object of the response */
             this.os = data["os"];
             this.depth = data["depth"];
             this.max_crawl_pages = data["max_crawl_pages"];
+            this.target = data["target"];
             this.calculate_rectangles = data["calculate_rectangles"];
             this.browser_screen_width = data["browser_screen_width"];
             this.browser_screen_height = data["browser_screen_height"];
@@ -379,7 +389,6 @@ you will find the specified tag value in the data object of the response */
         
         data["url"] = this.url;
         data["keyword"] = this.keyword;
-        data["priority"] = this.priority;
         data["location_name"] = this.location_name;
         data["location_code"] = this.location_code;
         data["location_coordinate"] = this.location_coordinate;
@@ -389,6 +398,7 @@ you will find the specified tag value in the data object of the response */
         data["os"] = this.os;
         data["depth"] = this.depth;
         data["max_crawl_pages"] = this.max_crawl_pages;
+        data["target"] = this.target;
         data["calculate_rectangles"] = this.calculate_rectangles;
         data["browser_screen_width"] = this.browser_screen_width;
         data["browser_screen_height"] = this.browser_screen_height;

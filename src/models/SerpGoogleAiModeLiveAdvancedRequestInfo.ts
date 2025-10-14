@@ -9,15 +9,6 @@ if you need to use the “+” character for your keyword, please specify it as 
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
         keyword?: string | undefined
         
-        /** task priority
-optional field
-can take the following values:
-1 – normal execution priority (set by default)
-2 – high execution priority
-You will be additionally charged for the tasks with high execution priority.
-The cost can be calculated on the Pricing page. */
-        priority?: number | undefined
-        
         /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
 if you use this field, you don’t need to specify location_code or location_coordinate
@@ -72,7 +63,7 @@ if you specify mobile in the device field, choose from the following values: and
 default value: android */
         os?: string | undefined
         
-        /** calcualte pixel rankings for SERP elements in advanced results
+        /** calculate pixel rankings for SERP elements in advanced results
 optional field
 pixel ranking refers to the distance between the result snippet and top left corner of the screen;
 Visit Help Center to learn more>>
@@ -132,16 +123,6 @@ if you need to use the “+” character for your keyword, please specify it as 
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keyword?: string | undefined;
-    
-    /** task priority
-optional field
-can take the following values:
-1 – normal execution priority (set by default)
-2 – high execution priority
-You will be additionally charged for the tasks with high execution priority.
-The cost can be calculated on the Pricing page. */
-
-    priority?: number | undefined;
     
     /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -204,7 +185,7 @@ default value: android */
 
     os?: string | undefined;
     
-    /** calcualte pixel rankings for SERP elements in advanced results
+    /** calculate pixel rankings for SERP elements in advanced results
 optional field
 pixel ranking refers to the distance between the result snippet and top left corner of the screen;
 Visit Help Center to learn more>>
@@ -275,7 +256,6 @@ you will find the specified tag value in the data object of the response */
                     this[property] = data[property];
             }
             this.keyword = data["keyword"];
-            this.priority = data["priority"];
             this.location_name = data["location_name"];
             this.location_code = data["location_code"];
             this.location_coordinate = data["location_coordinate"];
@@ -306,7 +286,6 @@ you will find the specified tag value in the data object of the response */
         
         
         data["keyword"] = this.keyword;
-        data["priority"] = this.priority;
         data["location_name"] = this.location_name;
         data["location_code"] = this.location_code;
         data["location_coordinate"] = this.location_coordinate;

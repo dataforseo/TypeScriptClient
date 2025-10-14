@@ -13,7 +13,7 @@ you can specify up to 500 characters in the user_prompt field */
 required field
 model_nameconsists of the actual model name and version name;
 if the basic model name is specified, its latest version will be set by default;
-you can receive the list of available LLM models by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/gemini/llm_responses/models */
+you can receive the list of available LLM models by making a separate request to the following endpoint: https://api.dataforseo.com/v3/ai_optimization/perplexity/llm_responses/models */
         model_name?: string | undefined
         
         /** maximum number of tokens in the AI response
@@ -89,7 +89,7 @@ you can specify up to 500 characters in the user_prompt field */
 required field
 model_nameconsists of the actual model name and version name;
 if the basic model name is specified, its latest version will be set by default;
-you can receive the list of available LLM models by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/gemini/llm_responses/models */
+you can receive the list of available LLM models by making a separate request to the following endpoint: https://api.dataforseo.com/v3/ai_optimization/perplexity/llm_responses/models */
 
     model_name?: string | undefined;
     

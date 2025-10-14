@@ -54,11 +54,11 @@ The cost can be calculated on the Pricing page. */
 optional field
 number of results to be returned to be returned from the Google Play SERP;
 we strongly recommend setting the parsing depth in the multiples of 30, because our system processes 30 results in a row;
-Note: your account will be billed per each SERP containing up to 30 results;
-thus, setting a depth above 30 may result in additional charges if the search engine returns more than 30 results;
-if the specified depth is higher than the number of results in the response, the difference will be refunded to your account balance automatically
 default value: 30;
-maximum value: 200 */
+maximum value: 200;
+Your account will be billed per each SERP containing up to 30 results;
+Setting depth above 30 may result in additional charges if the search engine returns more than 30 results;
+The cost can be calculated on the Pricing page. */
         depth?: number | undefined
         
         /** user-defined task identifier
@@ -163,11 +163,11 @@ The cost can be calculated on the Pricing page. */
 optional field
 number of results to be returned to be returned from the Google Play SERP;
 we strongly recommend setting the parsing depth in the multiples of 30, because our system processes 30 results in a row;
-Note: your account will be billed per each SERP containing up to 30 results;
-thus, setting a depth above 30 may result in additional charges if the search engine returns more than 30 results;
-if the specified depth is higher than the number of results in the response, the difference will be refunded to your account balance automatically
 default value: 30;
-maximum value: 200 */
+maximum value: 200;
+Your account will be billed per each SERP containing up to 30 results;
+Setting depth above 30 may result in additional charges if the search engine returns more than 30 results;
+The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
     

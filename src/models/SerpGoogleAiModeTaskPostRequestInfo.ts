@@ -72,7 +72,7 @@ if you specify mobile in the device field, choose from the following values: and
 default value: android */
         os?: string | undefined
         
-        /** calcualte pixel rankings for SERP elements in advanced results
+        /** calculate pixel rankings for SERP elements in advanced results
 optional field
 pixel ranking refers to the distance between the result snippet and top left corner of the screen;
 Visit Help Center to learn more>>
@@ -235,7 +235,7 @@ default value: android */
 
     os?: string | undefined;
     
-    /** calcualte pixel rankings for SERP elements in advanced results
+    /** calculate pixel rankings for SERP elements in advanced results
 optional field
 pixel ranking refers to the distance between the result snippet and top left corner of the screen;
 Visit Help Center to learn more>>

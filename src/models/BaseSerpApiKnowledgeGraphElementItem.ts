@@ -5,7 +5,7 @@ import { KnowledgeGraphImagesElement, IKnowledgeGraphImagesElement } from "./Kno
 import { KnowledgeGraphExpandedElement, IKnowledgeGraphExpandedElement } from "./KnowledgeGraphExpandedElement";
 import { KnowledgeGraphShoppingElement, IKnowledgeGraphShoppingElement } from "./KnowledgeGraphShoppingElement";
 import { KnowledgeGraphHotelsBookingElement, IKnowledgeGraphHotelsBookingElement } from "./KnowledgeGraphHotelsBookingElement";
-import { BaseSerpApiKnowledgeGraphAiOverviewElementItem, IBaseSerpApiKnowledgeGraphAiOverviewElementItem } from "./BaseSerpApiKnowledgeGraphAiOverviewElementItem";
+import { BaseSerpApiAiOverviewElementItem, IBaseSerpApiAiOverviewElementItem } from "./BaseSerpApiAiOverviewElementItem";
 import { AiModeAiOverviewReferenceInfo, IAiModeAiOverviewReferenceInfo } from "./AiModeAiOverviewReferenceInfo";
 
 
@@ -13,6 +13,10 @@ export interface IBaseSerpApiKnowledgeGraphElementItem   {
         
         /** type of element */
         type?: string | undefined
+        
+        /** search results page number
+indicates the number of the SERP page on which the element is located */
+        page?: number | undefined
         
         /** the alignment of the element in SERP
 can take the following values:
@@ -36,6 +40,11 @@ export class BaseSerpApiKnowledgeGraphElementItem  implements IBaseSerpApiKnowle
     /** type of element */
 
     type?: string | undefined;
+    
+    /** search results page number
+indicates the number of the SERP page on which the element is located */
+
+    page?: number | undefined;
     
     /** the alignment of the element in SERP
 can take the following values:
@@ -78,6 +87,7 @@ equals null if calculate_rectangles in the POST request is not set to true */
                     this[property] = data[property];
             }
             this.type = data["type"];
+            this.page = data["page"];
             this.position = data["position"];
             this.xpath = data["xpath"];
             this.rectangle = data["rectangle"] ? AiModeRectangleInfo.fromJS(data["rectangle"]) : <any>undefined;
@@ -159,6 +169,7 @@ equals null if calculate_rectangles in the POST request is not set to true */
         
         
         data["type"] = this.type;
+        data["page"] = this.page;
         data["position"] = this.position;
         data["xpath"] = this.xpath;
         data["rectangle"] = this.rectangle ? AiModeRectangleInfo.fromJS(this.rectangle)?.toJSON() : <any>undefined;
@@ -1269,7 +1280,7 @@ if false, the ai_overview element is loaded from cache; */
         
         /** additional items present in the element
 if there are none, equals null */
-        items?: BaseSerpApiKnowledgeGraphAiOverviewElementItem[] | undefined
+        items?: BaseSerpApiAiOverviewElementItem[] | undefined
         
         /** additional references relevant to the item
 includes references to webpages that may have been used to generate the ai_overview */
@@ -1290,7 +1301,7 @@ if false, the ai_overview element is loaded from cache; */
     /** additional items present in the element
 if there are none, equals null */
 
-    items?: BaseSerpApiKnowledgeGraphAiOverviewElementItem[] | undefined;
+    items?: BaseSerpApiAiOverviewElementItem[] | undefined;
     
     /** additional references relevant to the item
 includes references to webpages that may have been used to generate the ai_overview */
@@ -1316,7 +1327,7 @@ includes references to webpages that may have been used to generate the ai_overv
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseSerpApiKnowledgeGraphAiOverviewElementItem.fromJS(item));
+                    this.items.push(BaseSerpApiAiOverviewElementItem.fromJS(item));
                 }
             }
             if (Array.isArray(data["references"])) {

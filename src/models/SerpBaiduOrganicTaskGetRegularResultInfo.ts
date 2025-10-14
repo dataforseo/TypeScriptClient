@@ -48,6 +48,10 @@ organic, paid */
         /** total number of results in SERP */
         se_results_count?: number | undefined
         
+        /** total pages retrieved
+total number of retrieved SERPs in the result */
+        pages_count?: number | undefined
+        
         /** the number of results returned in the items array */
         items_count?: number | undefined
         
@@ -114,6 +118,11 @@ organic, paid */
 
     se_results_count?: number | undefined;
     
+    /** total pages retrieved
+total number of retrieved SERPs in the result */
+
+    pages_count?: number | undefined;
+    
     /** the number of results returned in the items array */
 
     items_count?: number | undefined;
@@ -153,6 +162,7 @@ organic, paid */
             this.refinement_chips = data["refinement_chips"] ? RefinementChipsInfo.fromJS(data["refinement_chips"]) : <any>undefined;
             this.item_types = data["item_types"];
             this.se_results_count = data["se_results_count"];
+            this.pages_count = data["pages_count"];
             this.items_count = data["items_count"];
             if (Array.isArray(data["items"])) {
                 this.items = [];
@@ -188,6 +198,7 @@ organic, paid */
         data["refinement_chips"] = this.refinement_chips ? RefinementChipsInfo.fromJS(this.refinement_chips)?.toJSON() : <any>undefined;
         data["item_types"] = this.item_types;
         data["se_results_count"] = this.se_results_count;
+        data["pages_count"] = this.pages_count;
         data["items_count"] = this.items_count;
         data["items"] = null;
         if (Array.isArray(this.items)) {

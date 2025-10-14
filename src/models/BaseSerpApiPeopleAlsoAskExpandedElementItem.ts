@@ -1,6 +1,6 @@
 import { AiModeImagesElementInfo, IAiModeImagesElementInfo } from "./AiModeImagesElementInfo";
 import { Table, ITable } from "./Table";
-import { BaseSerpApiPeopleAlsoAskAiOverviewElementItem, IBaseSerpApiPeopleAlsoAskAiOverviewElementItem } from "./BaseSerpApiPeopleAlsoAskAiOverviewElementItem";
+import { BaseSerpApiAiOverviewElementItem, IBaseSerpApiAiOverviewElementItem } from "./BaseSerpApiAiOverviewElementItem";
 import { AiModeAiOverviewReferenceInfo, IAiModeAiOverviewReferenceInfo } from "./AiModeAiOverviewReferenceInfo";
 
 
@@ -222,7 +222,7 @@ if there are none, equals null */
 export interface ISerpApiPeopleAlsoAskAiOverviewExpandedElementItem  extends IBaseSerpApiPeopleAlsoAskExpandedElementItem    {
         
         /** contains arrays of elements available in the list */
-        items?: BaseSerpApiPeopleAlsoAskAiOverviewElementItem[] | undefined
+        items?: BaseSerpApiAiOverviewElementItem[] | undefined
         
         /** additional references relevant to the item
 includes references to webpages that may have been used to generate the ai_overview */
@@ -236,7 +236,7 @@ export class SerpApiPeopleAlsoAskAiOverviewExpandedElementItem  extends BaseSerp
     
     /** contains arrays of elements available in the list */
 
-    items?: BaseSerpApiPeopleAlsoAskAiOverviewElementItem[] | undefined;
+    items?: BaseSerpApiAiOverviewElementItem[] | undefined;
     
     /** additional references relevant to the item
 includes references to webpages that may have been used to generate the ai_overview */
@@ -261,7 +261,7 @@ includes references to webpages that may have been used to generate the ai_overv
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseSerpApiPeopleAlsoAskAiOverviewElementItem.fromJS(item));
+                    this.items.push(BaseSerpApiAiOverviewElementItem.fromJS(item));
                 }
             }
             if (Array.isArray(data["references"])) {

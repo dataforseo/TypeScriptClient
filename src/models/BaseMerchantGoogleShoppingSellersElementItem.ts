@@ -14,8 +14,8 @@ positions of elements with different type values are omitted from rank_group */
 absolute position among all the elements found in Google Shopping SERP */
         rank_absolute?: number | undefined
         
-        /** alignment of the element in SERP
-can take the following values:
+        /** the alignment of the element in Google Shopping SERP
+possible values:
 left, right */
         position?: string | undefined
         
@@ -86,8 +86,8 @@ absolute position among all the elements found in Google Shopping SERP */
 
     rank_absolute?: number | undefined;
     
-    /** alignment of the element in SERP
-can take the following values:
+    /** the alignment of the element in Google Shopping SERP
+possible values:
 left, right */
 
     position?: string | undefined;
@@ -250,6 +250,10 @@ export interface IGoogleShoppingSellersShopsListElementItem  extends IBaseMercha
 indicates the number of months covered by the monthly payment for the product */
         price_multiplier?: number | undefined
         
+        /** installment details as displayed in the results
+shows how the product price can be broken down into monthly payments, if applicable */
+        displayed_payment_breakdown?: string | undefined
+        
         /** indicated condition of the product
 possible values: Used, Refurbished, New, null */
         product_condition?: string | undefined
@@ -269,6 +273,11 @@ export class GoogleShoppingSellersShopsListElementItem  extends BaseMerchantGoog
 indicates the number of months covered by the monthly payment for the product */
 
     price_multiplier?: number | undefined;
+    
+    /** installment details as displayed in the results
+shows how the product price can be broken down into monthly payments, if applicable */
+
+    displayed_payment_breakdown?: string | undefined;
     
     /** indicated condition of the product
 possible values: Used, Refurbished, New, null */
@@ -297,6 +306,7 @@ examples: LOW PRICE, SPECIAL OFFER, SALE, PRICE DROP */
                     this[property] = data[property];
             }
             this.price_multiplier = data["price_multiplier"];
+            this.displayed_payment_breakdown = data["displayed_payment_breakdown"];
             this.product_condition = data["product_condition"];
             this.product_annotation = data["product_annotation"];
         }
@@ -319,6 +329,7 @@ examples: LOW PRICE, SPECIAL OFFER, SALE, PRICE DROP */
         
         
         data["price_multiplier"] = this.price_multiplier;
+        data["displayed_payment_breakdown"] = this.displayed_payment_breakdown;
         data["product_condition"] = this.product_condition;
         data["product_annotation"] = this.product_annotation;
         return data;

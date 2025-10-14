@@ -62,14 +62,15 @@ optional field
 number of results in SERP
 default value: 10;
 maximum value: 500;
-Note: your account will be billed per each SERP containing up to 10 results;
-thus, setting a depth above 10 may result in additional charges if the search engine returns more than 10 results;
-if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
+Your account will be billed per each SERP containing up to 10 results;
+Setting depth above 10 may result in additional charges if the search engine returns more than 10 results;
+The cost can be calculated on the Pricing page. */
         depth?: number | undefined
         
         /** page crawl limit
 optional field
 number of search results pages to crawl
+default value: 1
 max value: 10
 Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center */
@@ -101,7 +102,7 @@ search.seznam.cz */
 optional field */
         search_param?: string | undefined
         
-        /** calcualte pixel rankings for SERP elements in advanced results
+        /** calculate pixel rankings for SERP elements in advanced results
 optional field
 pixel ranking refers to the distance between the result snippet and top left corner of the screen;
 Visit Help Center to learn more>>
@@ -222,15 +223,16 @@ optional field
 number of results in SERP
 default value: 10;
 maximum value: 500;
-Note: your account will be billed per each SERP containing up to 10 results;
-thus, setting a depth above 10 may result in additional charges if the search engine returns more than 10 results;
-if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
+Your account will be billed per each SERP containing up to 10 results;
+Setting depth above 10 may result in additional charges if the search engine returns more than 10 results;
+The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
     
     /** page crawl limit
 optional field
 number of search results pages to crawl
+default value: 1
 max value: 10
 Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center */
@@ -267,7 +269,7 @@ optional field */
 
     search_param?: string | undefined;
     
-    /** calcualte pixel rankings for SERP elements in advanced results
+    /** calculate pixel rankings for SERP elements in advanced results
 optional field
 pixel ranking refers to the distance between the result snippet and top left corner of the screen;
 Visit Help Center to learn more>>

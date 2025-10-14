@@ -15,5 +15,6 @@
 **refinement_chips** | **RefinementChipsInfo** | search refinement chips<br>equals null |[optional]|
 **item_types** | **string[]** | types of search results in SERP<br>contains types of search results (items) found in SERP.<br>possible item types:<br>images, local_pack, organic, related_searches, top_stories, featured_snippet, video |[optional]|
 **se_results_count** | **number** | total number of results in SERP |[optional]|
+**pages_count** | **number** | total pages retrieved<br>total number of retrieved SERPs in the result |[optional]|
 **items_count** | **number** | the number of results returned in the items array |[optional]|
 **items** | **BaseSerpApiElementItem[]** | additional items present in the element<br>if there are none, equals null |[optional]|

@@ -5,6 +5,7 @@
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
 **type** | **string** | type of element |[optional]|
+**page** | **number** | search results page number<br>indicates the number of the SERP page on which the element is located |[optional]|
 **xpath** | **string** | the XPath of the element |[optional]|
 **domain** | **string** | domain where a link points |[optional]|
 **title** | **string** | title of the link |[optional]|

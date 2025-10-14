@@ -75,20 +75,35 @@ default value: android */
         /** parsing depth
 optional field
 number of results in SERP
-default value: 100
-max value: 700
-Note: your account will be billed per each SERP containing up to 100 results;
-thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
-if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
+default value: 10
+max value: 200
+Your account will be billed per each SERP containing up to 10 results;
+Setting depth above 10 may result in additional charges if the search engine returns more than 10 results;
+The cost can be calculated on the Pricing page. */
         depth?: number | undefined
         
         /** page crawl limit
 optional field
 number of search results pages to crawl
+default value: 1
 max value: 100
 Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center */
         max_crawl_pages?: number | undefined
+        
+        /** target domain, subdomain, or webpage to get results for
+optional field
+a domain or a subdomain should be specified without https:// and www.
+note that the results of target-specific tasks will only include SERP elements that contain a url string;
+you can also use a wildcard (‘*’) character to specify the search pattern in SERP and narrow down the results;
+examples:
+example.com – returns results for the website’s home page with URLs, such as https://example.com, or https://www.example.com/, or https://example.com/;
+example.com* – returns results for the domain, including all its pages;
+*example.com* – returns results for the entire domain, including all its pages and subdomains;
+*example.com  – returns results for the home page regardless of the subdomain, such as https://en.example.com;
+example.com/example-page – returns results for the exact URL;
+example.com/example-page* – returns results for all domain’s URLs that start with the specified string */
+        target?: string | undefined
         
         /** additional parameters of the search query
 optional field
@@ -192,22 +207,38 @@ default value: android */
     /** parsing depth
 optional field
 number of results in SERP
-default value: 100
-max value: 700
-Note: your account will be billed per each SERP containing up to 100 results;
-thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
-if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
+default value: 10
+max value: 200
+Your account will be billed per each SERP containing up to 10 results;
+Setting depth above 10 may result in additional charges if the search engine returns more than 10 results;
+The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
     
     /** page crawl limit
 optional field
 number of search results pages to crawl
+default value: 1
 max value: 100
 Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center */
 
     max_crawl_pages?: number | undefined;
+    
+    /** target domain, subdomain, or webpage to get results for
+optional field
+a domain or a subdomain should be specified without https:// and www.
+note that the results of target-specific tasks will only include SERP elements that contain a url string;
+you can also use a wildcard (‘*’) character to specify the search pattern in SERP and narrow down the results;
+examples:
+example.com – returns results for the website’s home page with URLs, such as https://example.com, or https://www.example.com/, or https://example.com/;
+example.com* – returns results for the domain, including all its pages;
+*example.com* – returns results for the entire domain, including all its pages and subdomains;
+*example.com  – returns results for the home page regardless of the subdomain, such as https://en.example.com;
+example.com/example-page – returns results for the exact URL;
+example.com/example-page* – returns results for all domain’s URLs that start with the specified string */
+
+    target?: string | undefined;
     
     /** additional parameters of the search query
 optional field
@@ -254,6 +285,7 @@ you will find the specified tag value in the data object of the response */
             this.os = data["os"];
             this.depth = data["depth"];
             this.max_crawl_pages = data["max_crawl_pages"];
+            this.target = data["target"];
             this.search_param = data["search_param"];
             this.tag = data["tag"];
         }
@@ -284,6 +316,7 @@ you will find the specified tag value in the data object of the response */
         data["os"] = this.os;
         data["depth"] = this.depth;
         data["max_crawl_pages"] = this.max_crawl_pages;
+        data["target"] = this.target;
         data["search_param"] = this.search_param;
         data["tag"] = this.tag;
         return data;

@@ -23,6 +23,8 @@ positions of elements with different type values are omitted from rank_group */
 absolute position among all the elements in SERP */
         rank_absolute?: number | undefined
         
+        page?: number | undefined
+        
         /** the alignment of the element in SERP
 can take the following values:
 left, right */
@@ -62,6 +64,8 @@ positions of elements with different type values are omitted from rank_group */
 absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
+
+    page?: number | undefined;
     
     /** the alignment of the element in SERP
 can take the following values:
@@ -114,6 +118,7 @@ equals null if calculate_rectangles in the POST request is not set to true */
             this.type = data["type"];
             this.rank_group = data["rank_group"];
             this.rank_absolute = data["rank_absolute"];
+            this.page = data["page"];
             this.position = data["position"];
             this.xpath = data["xpath"];
             this.title = data["title"];
@@ -151,6 +156,7 @@ equals null if calculate_rectangles in the POST request is not set to true */
         data["type"] = this.type;
         data["rank_group"] = this.rank_group;
         data["rank_absolute"] = this.rank_absolute;
+        data["page"] = this.page;
         data["position"] = this.position;
         data["xpath"] = this.xpath;
         data["title"] = this.title;

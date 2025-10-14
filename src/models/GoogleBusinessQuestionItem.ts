@@ -42,7 +42,7 @@ positions of elements with different type values are omitted from rank_group */
         
         /** array of items
 items within google_business_question_item */
-        items?: GoogleBusinessAnswerElement[] | undefined
+        items?: GoogleBusinessAnswerElement | undefined
 
     [key: string]: any;
 
@@ -102,7 +102,7 @@ positions of elements with different type values are omitted from rank_group */
     /** array of items
 items within google_business_question_item */
 
-    items?: GoogleBusinessAnswerElement[] | undefined;
+    items?: GoogleBusinessAnswerElement | undefined;
 
     [key: string]: any;
 
@@ -136,12 +136,7 @@ items within google_business_question_item */
             this.original_question_text = data["original_question_text"];
             this.time_ago = data["time_ago"];
             this.timestamp = data["timestamp"];
-            if (Array.isArray(data["items"])) {
-                this.items = [];
-                for (let item of data["items"]) {
-                    this.items.push(GoogleBusinessAnswerElement.fromJS(item));
-                }
-            }
+            this.items = data["items"] ? GoogleBusinessAnswerElement.fromJS(data["items"]) : <any>undefined;
         }
     }
 
@@ -171,15 +166,7 @@ items within google_business_question_item */
         data["original_question_text"] = this.original_question_text;
         data["time_ago"] = this.time_ago;
         data["timestamp"] = this.timestamp;
-        data["items"] = null;
-        if (Array.isArray(this.items)) {
-            data["items"] = [];
-            for (let item of this.items) {
-                if (item && typeof item.toJSON === "function") {
-                    data["items"].push(item?.toJSON());
-                }
-            }
-        }
+        data["items"] = this.items ? GoogleBusinessAnswerElement.fromJS(this.items)?.toJSON() : <any>undefined;
         return data;
     }
 }

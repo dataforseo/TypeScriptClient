@@ -24,7 +24,9 @@ number of search results to be returned from the API response
 we strongly recommend setting the parsing depth in the multiples of twenty because our systems processes twenty search results in a row;
 default value: 10;
 maximum value: 140
-Note: your account will be charged for every 10 search results returned, e.g. if you specify depth: 11, you will be charged as per 20 search results */
+Your account will be billed per each SERP containing up to 10 results;
+Setting depth above 10 may result in additional charges if the search engine returns more than 10 results;
+The cost can be calculated on the Pricing page. */
         depth?: number | undefined
         
         /** user-defined task identifier
@@ -90,7 +92,9 @@ number of search results to be returned from the API response
 we strongly recommend setting the parsing depth in the multiples of twenty because our systems processes twenty search results in a row;
 default value: 10;
 maximum value: 140
-Note: your account will be charged for every 10 search results returned, e.g. if you specify depth: 11, you will be charged as per 20 search results */
+Your account will be billed per each SERP containing up to 10 results;
+Setting depth above 10 may result in additional charges if the search engine returns more than 10 results;
+The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
     

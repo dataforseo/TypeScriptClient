@@ -5,7 +5,7 @@
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
 **type** | **string** | type of element |[optional]|
-**title** | **string** | title of the result in SERP |[optional]|
-**domain** | **string** | domain in SERP |[optional]|
-**url** | **string** | result’s URL |[optional]|
-**source** | **string** | web source of the shopping element<br>indicates the source of information included in the element |[optional]|
+**title** | **string** | title of a given link element |[optional]|
+**domain** | **string** | website domain |[optional]|
+**url** | **string** | URL |[optional]|
+**source** | **string** | source of the element<br>indicates the source of information included in the top_stories_element |[optional]|

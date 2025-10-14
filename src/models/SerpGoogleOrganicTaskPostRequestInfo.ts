@@ -23,25 +23,27 @@ optional field
 can take the following values:
 1 – normal execution priority (set by default);
 2 – high execution priority
-You will be additionally charged for the tasks with high execution priority;
-The cost can be calculated on the Pricing page */
+You will be additionally charged for the tasks with high execution priority.
+The cost can be calculated on the Pricing page. */
         priority?: number | undefined
         
         /** parsing depth
 optional field
 number of results in SERP
-default value: 100
+default value: 10
 max value: 700
-Note: your account will be billed per each SERP containing up to 100 results;
-thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
-if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
+Your account will be billed per each SERP containing up to 10 results;
+Setting depth above 10 may result in additional charges if the search engine returns more than 10 results;
+The cost can be calculated on the Pricing page. */
         depth?: number | undefined
         
         /** page crawl limit
 optional field
 number of search results pages to crawl
 max value: 100
-Note: the max_crawl_pages and depth parameters complement each other;
+Note: you will be charged for each page crawled (10 organic results per page);
+learn more about pricing on our Pricing page;
+Note#2: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center */
         max_crawl_pages?: number | undefined
         
@@ -122,7 +124,7 @@ optional field
 pixel ranking refers to the distance between the result snippet and top left corner of the screen;
 Visit Help Center to learn more>>
 by default, the parameter is set to false
-Note: if set to true, the charge per task will be multiplied by 2 */
+Note: you will be charged extra $0.0006 for using this parameter */
         calculate_rectangles?: boolean | undefined
         
         /** browser screen width
@@ -168,7 +170,7 @@ optional field
 set to true to obtain ai_overview items is SERPs even if they are loaded asynchronically;
 if set to false, you will only obtain ai_overview items from cache;
 default value: false
-Note your account will be billed $0.0006-$0.0012 extra for each request, depending on the priority;
+Note: you will be charged extra $0.0006 for using this parameter;
 if the element is absent or contains 'asynchronous_ai_overview': false, all extra charges will be returned to your account balance */
         load_async_ai_overview?: boolean | undefined
         
@@ -188,8 +190,7 @@ get the list of available parameters and additional details here */
 optional field
 using this field, you can specify up to 10 parameters to remove from URLs in the result
 example:
-'remove_from_url': ['srsltid']
-Note: if the target field is specified, the specified URL parameters will be removed before the search */
+'remove_from_url': ['srsltid'] */
         remove_from_url?: string[] | undefined
         
         /** user-defined task identifier
@@ -261,19 +262,19 @@ optional field
 can take the following values:
 1 – normal execution priority (set by default);
 2 – high execution priority
-You will be additionally charged for the tasks with high execution priority;
-The cost can be calculated on the Pricing page */
+You will be additionally charged for the tasks with high execution priority.
+The cost can be calculated on the Pricing page. */
 
     priority?: number | undefined;
     
     /** parsing depth
 optional field
 number of results in SERP
-default value: 100
+default value: 10
 max value: 700
-Note: your account will be billed per each SERP containing up to 100 results;
-thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
-if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
+Your account will be billed per each SERP containing up to 10 results;
+Setting depth above 10 may result in additional charges if the search engine returns more than 10 results;
+The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
     
@@ -281,7 +282,9 @@ if the specified depth is higher than the number of results in the response, the
 optional field
 number of search results pages to crawl
 max value: 100
-Note: the max_crawl_pages and depth parameters complement each other;
+Note: you will be charged for each page crawled (10 organic results per page);
+learn more about pricing on our Pricing page;
+Note#2: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center */
 
     max_crawl_pages?: number | undefined;
@@ -372,7 +375,7 @@ optional field
 pixel ranking refers to the distance between the result snippet and top left corner of the screen;
 Visit Help Center to learn more>>
 by default, the parameter is set to false
-Note: if set to true, the charge per task will be multiplied by 2 */
+Note: you will be charged extra $0.0006 for using this parameter */
 
     calculate_rectangles?: boolean | undefined;
     
@@ -423,7 +426,7 @@ optional field
 set to true to obtain ai_overview items is SERPs even if they are loaded asynchronically;
 if set to false, you will only obtain ai_overview items from cache;
 default value: false
-Note your account will be billed $0.0006-$0.0012 extra for each request, depending on the priority;
+Note: you will be charged extra $0.0006 for using this parameter;
 if the element is absent or contains 'asynchronous_ai_overview': false, all extra charges will be returned to your account balance */
 
     load_async_ai_overview?: boolean | undefined;
@@ -446,8 +449,7 @@ get the list of available parameters and additional details here */
 optional field
 using this field, you can specify up to 10 parameters to remove from URLs in the result
 example:
-'remove_from_url': ['srsltid']
-Note: if the target field is specified, the specified URL parameters will be removed before the search */
+'remove_from_url': ['srsltid'] */
 
     remove_from_url?: string[] | undefined;
     

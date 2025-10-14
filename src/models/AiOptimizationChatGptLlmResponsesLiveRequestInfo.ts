@@ -34,7 +34,7 @@ lower values make output more focused;
 minimum value: 0
 maximum value: 2
 default value: 0.94
-Note: not supported in o4-mini, o3-mini, o1-pro, o1 models */
+Note: not supported in reasoning models */
         temperature?: number | undefined
         
         /** diversity of the AI response
@@ -43,7 +43,7 @@ controls diversity of the response by limiting token selection;
 minimum value: 0
 maximum value: 1
 default value: 0.92
-Note: not supported in o4-mini, o3-mini, o1-pro, o1 models */
+Note: not supported in reasoning models */
         top_p?: number | undefined
         
         /** enable web search
@@ -58,7 +58,8 @@ optional field
 to enable this parameter, web_search must also be enabled;
 when enabled, the AI model is forced to access and cite current web information;
 default value: false;
-Note: even if the parameter is set to true, there is no guarantee web sources will be cited in the response */
+Note: even if the parameter is set to true, there is no guarantee web sources will be cited in the response
+Note #2: not supported in reasoning models */
         force_web_search?: boolean | undefined
         
         /** ISO country code of the location
@@ -140,7 +141,7 @@ lower values make output more focused;
 minimum value: 0
 maximum value: 2
 default value: 0.94
-Note: not supported in o4-mini, o3-mini, o1-pro, o1 models */
+Note: not supported in reasoning models */
 
     temperature?: number | undefined;
     
@@ -150,7 +151,7 @@ controls diversity of the response by limiting token selection;
 minimum value: 0
 maximum value: 1
 default value: 0.92
-Note: not supported in o4-mini, o3-mini, o1-pro, o1 models */
+Note: not supported in reasoning models */
 
     top_p?: number | undefined;
     
@@ -167,7 +168,8 @@ optional field
 to enable this parameter, web_search must also be enabled;
 when enabled, the AI model is forced to access and cite current web information;
 default value: false;
-Note: even if the parameter is set to true, there is no guarantee web sources will be cited in the response */
+Note: even if the parameter is set to true, there is no guarantee web sources will be cited in the response
+Note #2: not supported in reasoning models */
 
     force_web_search?: boolean | undefined;
     

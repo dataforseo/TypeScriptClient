@@ -9,6 +9,10 @@ export interface IRelatedResult   {
         /** type of element */
         type?: string | undefined
         
+        /** search results page number
+indicates the number of the SERP page on which the element is located */
+        page?: number | undefined
+        
         /** the XPath of the element */
         xpath?: string | undefined
         
@@ -87,6 +91,11 @@ export class RelatedResult  implements IRelatedResult {
     /** type of element */
 
     type?: string | undefined;
+    
+    /** search results page number
+indicates the number of the SERP page on which the element is located */
+
+    page?: number | undefined;
     
     /** the XPath of the element */
 
@@ -198,6 +207,7 @@ example:
                     this[property] = data[property];
             }
             this.type = data["type"];
+            this.page = data["page"];
             this.xpath = data["xpath"];
             this.domain = data["domain"];
             this.title = data["title"];
@@ -241,6 +251,7 @@ example:
         
         
         data["type"] = this.type;
+        data["page"] = this.page;
         data["xpath"] = this.xpath;
         data["domain"] = this.domain;
         data["title"] = this.title;

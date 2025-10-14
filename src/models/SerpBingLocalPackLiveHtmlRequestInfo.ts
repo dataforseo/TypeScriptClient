@@ -75,16 +75,17 @@ default value: android */
         /** parsing depth
 optional field
 number of results in SERP
-default value: 100
-max value: 700
-Note: your account will be billed per each SERP containing up to 100 results;
-thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
-if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
+default value: 10
+max value: 200
+Your account will be billed per each SERP containing up to 10 results;
+Setting depth above 10 may result in additional charges if the search engine returns more than 10 results;
+The cost can be calculated on the Pricing page. */
         depth?: number | undefined
         
         /** page crawl limit
 optional field
 number of search results pages to crawl
+default value: 1
 max value: 100
 Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center */
@@ -192,17 +193,18 @@ default value: android */
     /** parsing depth
 optional field
 number of results in SERP
-default value: 100
-max value: 700
-Note: your account will be billed per each SERP containing up to 100 results;
-thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
-if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
+default value: 10
+max value: 200
+Your account will be billed per each SERP containing up to 10 results;
+Setting depth above 10 may result in additional charges if the search engine returns more than 10 results;
+The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
     
     /** page crawl limit
 optional field
 number of search results pages to crawl
+default value: 1
 max value: 100
 Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center */

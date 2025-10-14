@@ -84,16 +84,17 @@ default value: android */
         /** parsing depth
 optional field
 number of results in SERP
-default value: 100
+default value: 10
 max value: 700
-Note: your account will be billed per each SERP containing up to 100 results;
-thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
-if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
+Your account will be billed per each SERP containing up to 10 results;
+Setting depth above 10 may result in additional charges if the search engine returns more than 10 results;
+The cost can be calculated on the Pricing page. */
         depth?: number | undefined
         
         /** page crawl limit
 optional field
 number of search results pages to crawl
+default value: 1
 max value: 100
 Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center */
@@ -104,7 +105,7 @@ optional field
 pixel ranking refers to the distance between the result snippet and top left corner of the screen;
 Visit Help Center to learn more>>
 by default, the parameter is set to false
-Note: if set to true, the charge per task will be multiplied by 2 */
+Note: you will be charged extra $0.0006 for using this parameter */
         calculate_rectangles?: boolean | undefined
         
         /** browser screen width
@@ -280,17 +281,18 @@ default value: android */
     /** parsing depth
 optional field
 number of results in SERP
-default value: 100
+default value: 10
 max value: 700
-Note: your account will be billed per each SERP containing up to 100 results;
-thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
-if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
+Your account will be billed per each SERP containing up to 10 results;
+Setting depth above 10 may result in additional charges if the search engine returns more than 10 results;
+The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
     
     /** page crawl limit
 optional field
 number of search results pages to crawl
+default value: 1
 max value: 100
 Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center */
@@ -302,7 +304,7 @@ optional field
 pixel ranking refers to the distance between the result snippet and top left corner of the screen;
 Visit Help Center to learn more>>
 by default, the parameter is set to false
-Note: if set to true, the charge per task will be multiplied by 2 */
+Note: you will be charged extra $0.0006 for using this parameter */
 
     calculate_rectangles?: boolean | undefined;
     

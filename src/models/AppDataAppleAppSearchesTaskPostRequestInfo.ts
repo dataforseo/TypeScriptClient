@@ -54,11 +54,11 @@ The cost can be calculated on the Pricing page. */
 optional field
 number of results to be returned from the App Store SERP;
 we strongly recommend setting the parsing depth in the multiples of 100, because our system processes 100 results in a row;
-Note: your account will be billed per each SERP containing up to 100 results;
-thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
-if the specified depth is higher than the number of results in the response, the difference will be refunded to your account balance automatically
 default value: 100
-maximum value: 700 */
+maximum value: 700
+Your account will be billed per each SERP containing up to 100 results;
+Setting depth above 100 may result in additional charges if the search engine returns more than 100 results;
+The cost can be calculated on the Pricing page. */
         depth?: number | undefined
         
         /** user-defined task identifier
@@ -165,11 +165,11 @@ The cost can be calculated on the Pricing page. */
 optional field
 number of results to be returned from the App Store SERP;
 we strongly recommend setting the parsing depth in the multiples of 100, because our system processes 100 results in a row;
-Note: your account will be billed per each SERP containing up to 100 results;
-thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
-if the specified depth is higher than the number of results in the response, the difference will be refunded to your account balance automatically
 default value: 100
-maximum value: 700 */
+maximum value: 700
+Your account will be billed per each SERP containing up to 100 results;
+Setting depth above 100 may result in additional charges if the search engine returns more than 100 results;
+The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
     

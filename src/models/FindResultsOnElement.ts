@@ -1,21 +1,19 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IFindResultsOnElement   {
         
         /** type of element */
         type?: string | undefined
         
-        /** title of the result in SERP */
+        /** title of a given link element */
         title?: string | undefined
         
-        /** domain in SERP */
+        /** website domain */
         domain?: string | undefined
         
-        /** result’s URL */
+        /** URL */
         url?: string | undefined
         
-        /** web source of the shopping element
-indicates the source of information included in the element */
+        /** source of the element
+indicates the source of information included in the top_stories_element */
         source?: string | undefined
 
     [key: string]: any;
@@ -28,20 +26,20 @@ export class FindResultsOnElement  implements IFindResultsOnElement {
 
     type?: string | undefined;
     
-    /** title of the result in SERP */
+    /** title of a given link element */
 
     title?: string | undefined;
     
-    /** domain in SERP */
+    /** website domain */
 
     domain?: string | undefined;
     
-    /** result’s URL */
+    /** URL */
 
     url?: string | undefined;
     
-    /** web source of the shopping element
-indicates the source of information included in the element */
+    /** source of the element
+indicates the source of information included in the top_stories_element */
 
     source?: string | undefined;
 

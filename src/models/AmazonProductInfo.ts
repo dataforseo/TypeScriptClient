@@ -58,6 +58,9 @@ example:
 384.99 */
         price_to?: number | undefined
         
+        /** value of the percentage discount */
+        percentage_discount?: string | undefined
+        
         /** currency in the ISO format
 example:
 USD */
@@ -175,6 +178,10 @@ example:
 
     price_to?: number | undefined;
     
+    /** value of the percentage discount */
+
+    percentage_discount?: string | undefined;
+    
     /** currency in the ISO format
 example:
 USD */
@@ -270,6 +277,7 @@ to obtain additional local reviews, you can specify the load_more_local_reviews 
             this.product_asins = data["product_asins"];
             this.price_from = data["price_from"];
             this.price_to = data["price_to"];
+            this.percentage_discount = data["percentage_discount"];
             this.currency = data["currency"];
             this.is_amazon_choice = data["is_amazon_choice"];
             this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
@@ -340,6 +348,7 @@ to obtain additional local reviews, you can specify the load_more_local_reviews 
         data["product_asins"] = this.product_asins;
         data["price_from"] = this.price_from;
         data["price_to"] = this.price_to;
+        data["percentage_discount"] = this.percentage_discount;
         data["currency"] = this.currency;
         data["is_amazon_choice"] = this.is_amazon_choice;
         data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;

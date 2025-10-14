@@ -1,4 +1,5 @@
 import { PriceInfo, IPriceInfo } from "./PriceInfo";
+import { AmazonApplicableVouchersItem, IAmazonApplicableVouchersItem } from "./AmazonApplicableVouchersItem";
 import { RatingElement, IRatingElement } from "./RatingElement";
 import { AmazonDeliveryInfo, IAmazonDeliveryInfo } from "./AmazonDeliveryInfo";
 
@@ -36,6 +37,12 @@ left, right */
         /** product pricing details
 if there are no details, the value will be null */
         price?: PriceInfo | undefined
+        
+        /** value of the percentage discount */
+        percentage_discount?: number | undefined
+        
+        /** array of objects containing information about applicable vouchers */
+        applicable_vouchers?: AmazonApplicableVouchersItem[] | undefined
         
         /** seller rating details
 seller popularity rate based on customer reviews */
@@ -100,6 +107,14 @@ if there are no details, the value will be null */
 
     price?: PriceInfo | undefined;
     
+    /** value of the percentage discount */
+
+    percentage_discount?: number | undefined;
+    
+    /** array of objects containing information about applicable vouchers */
+
+    applicable_vouchers?: AmazonApplicableVouchersItem[] | undefined;
+    
     /** seller rating details
 seller popularity rate based on customer reviews */
 
@@ -153,6 +168,13 @@ delivery information including free and fast delivery date ranges */
             this.seller_url = data["seller_url"];
             this.ships_from = data["ships_from"];
             this.price = data["price"] ? PriceInfo.fromJS(data["price"]) : <any>undefined;
+            this.percentage_discount = data["percentage_discount"];
+            if (Array.isArray(data["applicable_vouchers"])) {
+                this.applicable_vouchers = [];
+                for (let item of data["applicable_vouchers"]) {
+                    this.applicable_vouchers.push(AmazonApplicableVouchersItem.fromJS(item));
+                }
+            }
             this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
             this.condition = data["condition"];
             this.condition_description = data["condition_description"];
@@ -195,6 +217,16 @@ delivery information including free and fast delivery date ranges */
         data["seller_url"] = this.seller_url;
         data["ships_from"] = this.ships_from;
         data["price"] = this.price ? PriceInfo.fromJS(this.price)?.toJSON() : <any>undefined;
+        data["percentage_discount"] = this.percentage_discount;
+        data["applicable_vouchers"] = null;
+        if (Array.isArray(this.applicable_vouchers)) {
+            data["applicable_vouchers"] = [];
+            for (let item of this.applicable_vouchers) {
+                if (item && typeof item.toJSON === "function") {
+                    data["applicable_vouchers"].push(item?.toJSON());
+                }
+            }
+        }
         data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["condition"] = this.condition;
         data["condition_description"] = this.condition_description;

@@ -84,7 +84,10 @@ optional field
 number of reviews in SERP
 we strongly recommend setting the parsing depth in the multiples of twenty, because our systems processes twenty reviews in a row
 default value: 20
-maximum value: 1000 */
+maximum value: 1000
+Your account will be billed per each SERP containing up to 20 results;
+Setting depth above 20 may result in additional charges if the search engine returns more than 20 results;
+The cost can be calculated on the Pricing page. */
         depth?: number | undefined
         
         /** user-defined task identifier
@@ -217,7 +220,10 @@ optional field
 number of reviews in SERP
 we strongly recommend setting the parsing depth in the multiples of twenty, because our systems processes twenty reviews in a row
 default value: 20
-maximum value: 1000 */
+maximum value: 1000
+Your account will be billed per each SERP containing up to 20 results;
+Setting depth above 20 may result in additional charges if the search engine returns more than 20 results;
+The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
     

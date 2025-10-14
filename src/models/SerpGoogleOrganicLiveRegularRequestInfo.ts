@@ -85,11 +85,11 @@ google.co.uk, google.com.au, google.de, etc. */
         /** parsing depth
 optional field
 number of results in SERP
-default value: 100
-max value: 700
-Note: your account will be billed per each SERP containing up to 100 results;
-thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
-if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
+default value: 10
+max value: 200
+Your account will be billed per each SERP containing up to 10 results;
+Setting depth above 10 may result in additional charges if the search engine returns more than 10 results;
+The cost can be calculated on the Pricing page. */
         depth?: number | undefined
         
         /** target domain, subdomain, or webpage to get results for
@@ -117,7 +117,9 @@ default value: true */
 optional field
 number of search results pages to crawl
 max value: 100
-Note: the max_crawl_pages and depth parameters complement each other;
+Note: you will be charged for each page crawled (10 organic results per page);
+learn more about pricing on our Pricing page;
+Note#2: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center */
         max_crawl_pages?: number | undefined
         
@@ -234,11 +236,11 @@ google.co.uk, google.com.au, google.de, etc. */
     /** parsing depth
 optional field
 number of results in SERP
-default value: 100
-max value: 700
-Note: your account will be billed per each SERP containing up to 100 results;
-thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
-if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
+default value: 10
+max value: 200
+Your account will be billed per each SERP containing up to 10 results;
+Setting depth above 10 may result in additional charges if the search engine returns more than 10 results;
+The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
     
@@ -269,7 +271,9 @@ default value: true */
 optional field
 number of search results pages to crawl
 max value: 100
-Note: the max_crawl_pages and depth parameters complement each other;
+Note: you will be charged for each page crawled (10 organic results per page);
+learn more about pricing on our Pricing page;
+Note#2: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center */
 
     max_crawl_pages?: number | undefined;

@@ -6,11 +6,11 @@ export interface IShortVideosElement   {
         /** title of a given link element */
         title?: string | undefined
         
-        /** website domain */
-        domain?: string | undefined
-        
         /** URL */
         url?: string | undefined
+        
+        /** website domain */
+        domain?: string | undefined
         
         /** source of the element
 indicates the source of information included in the top_stories_element */
@@ -30,13 +30,13 @@ export class ShortVideosElement  implements IShortVideosElement {
 
     title?: string | undefined;
     
-    /** website domain */
-
-    domain?: string | undefined;
-    
     /** URL */
 
     url?: string | undefined;
+    
+    /** website domain */
+
+    domain?: string | undefined;
     
     /** source of the element
 indicates the source of information included in the top_stories_element */
@@ -65,8 +65,8 @@ indicates the source of information included in the top_stories_element */
             }
             this.type = data["type"];
             this.title = data["title"];
-            this.domain = data["domain"];
             this.url = data["url"];
+            this.domain = data["domain"];
             this.source = data["source"];
         }
     }
@@ -87,8 +87,8 @@ indicates the source of information included in the top_stories_element */
         
         data["type"] = this.type;
         data["title"] = this.title;
-        data["domain"] = this.domain;
         data["url"] = this.url;
+        data["domain"] = this.domain;
         data["source"] = this.source;
         return data;
     }

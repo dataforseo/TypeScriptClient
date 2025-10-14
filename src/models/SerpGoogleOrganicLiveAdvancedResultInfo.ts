@@ -41,11 +41,15 @@ if the search engine provided results for a keyword that was corrected, we will 
         /** types of search results in SERP
 contains types of search results (items) found in SERP.
 possible item types:
-answer_box, app, carousel, multi_carousel, featured_snippet, google_flights, google_reviews, third_party_reviews, google_posts, images, jobs, knowledge_graph, local_pack, hotels_pack, map, organic, paid, people_also_ask, related_searches, people_also_search, shopping, top_stories, twitter, video, events, mention_carousel, recipes, top_sights, scholarly_articles, popular_products, podcasts, questions_and_answers, find_results_on, stocks_box, visual_stories, commercial_units, local_services, google_hotels, math_solver, currency_box, product_considerations, found_on_web, short_videos, refine_products, explore_brands, perspectives, discussions_and_forums, compare_sites, courses, ai_overview */
+answer_box, app, carousel, multi_carousel, featured_snippet, google_flights, google_reviews, third_party_reviews, google_posts, images, jobs, knowledge_graph, local_pack, hotels_pack, map, organic, paid, people_also_ask, related_searches, people_also_search, shopping, top_stories, twitter, video, events, mention_carousel, recipes, top_sights, scholarly_articles, popular_products, podcasts, questions_and_answers, find_results_on, stocks_box, visual_stories, commercial_units, local_services, google_hotels, math_solver, currency_box,product_considerations, found_on_web, short_videos, refine_products, explore_brands, perspectives, discussions_and_forums, compare_sites, courses, ai_overview */
         item_types?: string[] | undefined
         
         /** total number of results in SERP */
         se_results_count?: number | undefined
+        
+        /** total search results pages retrieved
+total number of retrieved SERPs in the result */
+        pages_count?: number | undefined
         
         /** the number of results returned in the items array */
         items_count?: number | undefined
@@ -104,13 +108,18 @@ if the search engine provided results for a keyword that was corrected, we will 
     /** types of search results in SERP
 contains types of search results (items) found in SERP.
 possible item types:
-answer_box, app, carousel, multi_carousel, featured_snippet, google_flights, google_reviews, third_party_reviews, google_posts, images, jobs, knowledge_graph, local_pack, hotels_pack, map, organic, paid, people_also_ask, related_searches, people_also_search, shopping, top_stories, twitter, video, events, mention_carousel, recipes, top_sights, scholarly_articles, popular_products, podcasts, questions_and_answers, find_results_on, stocks_box, visual_stories, commercial_units, local_services, google_hotels, math_solver, currency_box, product_considerations, found_on_web, short_videos, refine_products, explore_brands, perspectives, discussions_and_forums, compare_sites, courses, ai_overview */
+answer_box, app, carousel, multi_carousel, featured_snippet, google_flights, google_reviews, third_party_reviews, google_posts, images, jobs, knowledge_graph, local_pack, hotels_pack, map, organic, paid, people_also_ask, related_searches, people_also_search, shopping, top_stories, twitter, video, events, mention_carousel, recipes, top_sights, scholarly_articles, popular_products, podcasts, questions_and_answers, find_results_on, stocks_box, visual_stories, commercial_units, local_services, google_hotels, math_solver, currency_box,product_considerations, found_on_web, short_videos, refine_products, explore_brands, perspectives, discussions_and_forums, compare_sites, courses, ai_overview */
 
     item_types?: string[] | undefined;
     
     /** total number of results in SERP */
 
     se_results_count?: number | undefined;
+    
+    /** total search results pages retrieved
+total number of retrieved SERPs in the result */
+
+    pages_count?: number | undefined;
     
     /** the number of results returned in the items array */
 
@@ -151,6 +160,7 @@ answer_box, app, carousel, multi_carousel, featured_snippet, google_flights, goo
             this.refinement_chips = data["refinement_chips"] ? RefinementChipsInfo.fromJS(data["refinement_chips"]) : <any>undefined;
             this.item_types = data["item_types"];
             this.se_results_count = data["se_results_count"];
+            this.pages_count = data["pages_count"];
             this.items_count = data["items_count"];
             if (Array.isArray(data["items"])) {
                 this.items = [];
@@ -186,6 +196,7 @@ answer_box, app, carousel, multi_carousel, featured_snippet, google_flights, goo
         data["refinement_chips"] = this.refinement_chips ? RefinementChipsInfo.fromJS(this.refinement_chips)?.toJSON() : <any>undefined;
         data["item_types"] = this.item_types;
         data["se_results_count"] = this.se_results_count;
+        data["pages_count"] = this.pages_count;
         data["items_count"] = this.items_count;
         data["items"] = null;
         if (Array.isArray(this.items)) {

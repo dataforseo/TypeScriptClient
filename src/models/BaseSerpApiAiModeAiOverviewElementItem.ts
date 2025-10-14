@@ -501,6 +501,9 @@ export interface ISerpApiAiModeAiOverviewTableElementItem  extends IBaseSerpApiA
         /** table present in the element
 the header and content of the table present in the element */
         table?: AiModeTableInfo | undefined
+        
+        /** references relevant to the element */
+        references?: AiModeAiOverviewReferenceInfo[] | undefined
 
     [key: string]: any;
 
@@ -516,6 +519,10 @@ export class SerpApiAiModeAiOverviewTableElementItem  extends BaseSerpApiAiModeA
 the header and content of the table present in the element */
 
     table?: AiModeTableInfo | undefined;
+    
+    /** references relevant to the element */
+
+    references?: AiModeAiOverviewReferenceInfo[] | undefined;
 
     [key: string]: any;
 
@@ -534,6 +541,12 @@ the header and content of the table present in the element */
             }
             this.markdown = data["markdown"];
             this.table = data["table"] ? AiModeTableInfo.fromJS(data["table"]) : <any>undefined;
+            if (Array.isArray(data["references"])) {
+                this.references = [];
+                for (let item of data["references"]) {
+                    this.references.push(AiModeAiOverviewReferenceInfo.fromJS(item));
+                }
+            }
         }
     }
 
@@ -555,6 +568,15 @@ the header and content of the table present in the element */
         
         data["markdown"] = this.markdown;
         data["table"] = this.table ? AiModeTableInfo.fromJS(this.table)?.toJSON() : <any>undefined;
+        data["references"] = null;
+        if (Array.isArray(this.references)) {
+            data["references"] = [];
+            for (let item of this.references) {
+                if (item && typeof item.toJSON === "function") {
+                    data["references"].push(item?.toJSON());
+                }
+            }
+        }
         return data;
     }
 }

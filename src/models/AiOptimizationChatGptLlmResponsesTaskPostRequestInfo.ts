@@ -33,7 +33,7 @@ lower values make output more focused;
 minimum value: 0
 maximum value: 2
 default value: 0.94
-Note: not supported in o4-mini, o3-mini, o1-pro, o1 models */
+Note: not supported in reasoning models */
         temperature?: number | undefined
         
         /** diversity of the AI response
@@ -42,7 +42,7 @@ controls diversity of the response by limiting token selection;
 minimum value: 0
 maximum value: 1
 default value: 0.92
-Note: not supported in o4-mini, o3-mini, o1-pro, o1 models */
+Note: not supported in reasoning models */
         top_p?: number | undefined
         
         /** instructions for the AI behaviour
@@ -133,7 +133,7 @@ lower values make output more focused;
 minimum value: 0
 maximum value: 2
 default value: 0.94
-Note: not supported in o4-mini, o3-mini, o1-pro, o1 models */
+Note: not supported in reasoning models */
 
     temperature?: number | undefined;
     
@@ -143,7 +143,7 @@ controls diversity of the response by limiting token selection;
 minimum value: 0
 maximum value: 1
 default value: 0.92
-Note: not supported in o4-mini, o3-mini, o1-pro, o1 models */
+Note: not supported in reasoning models */
 
     top_p?: number | undefined;
     

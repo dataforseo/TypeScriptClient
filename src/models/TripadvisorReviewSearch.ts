@@ -62,6 +62,10 @@ example:
         
         /** contains information about the owner’s response */
         responses?: ReviewResponseItemInfo[] | undefined
+        
+        /** review highlights
+contains highlighted review criteria and assessments */
+        review_highlights?: any | undefined
 
     [key: string]: any;
 
@@ -141,6 +145,11 @@ example:
     /** contains information about the owner’s response */
 
     responses?: ReviewResponseItemInfo[] | undefined;
+    
+    /** review highlights
+contains highlighted review criteria and assessments */
+
+    review_highlights?: any | undefined;
 
     [key: string]: any;
 
@@ -188,6 +197,7 @@ example:
                     this.responses.push(ReviewResponseItemInfo.fromJS(item));
                 }
             }
+            this.review_highlights = data["review_highlights"];
         }
     }
 
@@ -237,6 +247,7 @@ example:
                 }
             }
         }
+        data["review_highlights"] = this.review_highlights;
         return data;
     }
 }

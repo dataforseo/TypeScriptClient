@@ -29,7 +29,7 @@ import { ScholarlyArticlesElement, IScholarlyArticlesElement } from "./Scholarly
 import { PopularProductsElement, IPopularProductsElement } from "./PopularProductsElement";
 import { PodcastsElement, IPodcastsElement } from "./PodcastsElement";
 import { Graph, IGraph } from "./Graph";
-import { ShortVideosElement, IShortVideosElement } from "./ShortVideosElement";
+import { FindResultsOnElement, IFindResultsOnElement } from "./FindResultsOnElement";
 import { QuestionsAndAnswersElement, IQuestionsAndAnswersElement } from "./QuestionsAndAnswersElement";
 import { HotelsPackElement, IHotelsPackElement } from "./HotelsPackElement";
 import { LicensesElement, ILicensesElement } from "./LicensesElement";
@@ -38,6 +38,7 @@ import { LocalServicesElement, ILocalServicesElement } from "./LocalServicesElem
 import { MathSolverElement, IMathSolverElement } from "./MathSolverElement";
 import { ProductConsiderationsElement, IProductConsiderationsElement } from "./ProductConsiderationsElement";
 import { FoundOnWebElement, IFoundOnWebElement } from "./FoundOnWebElement";
+import { ShortVideosElement, IShortVideosElement } from "./ShortVideosElement";
 import { RefineProductsElement, IRefineProductsElement } from "./RefineProductsElement";
 import { ExploreBrandsElement, IExploreBrandsElement } from "./ExploreBrandsElement";
 import { PerspectivesElement, IPerspectivesElement } from "./PerspectivesElement";
@@ -49,15 +50,18 @@ import { KnowledgeGraphImagesElement, IKnowledgeGraphImagesElement } from "./Kno
 import { KnowledgeGraphHotelsBookingElement, IKnowledgeGraphHotelsBookingElement } from "./KnowledgeGraphHotelsBookingElement";
 import { KnowledgeGraphExpandedElement, IKnowledgeGraphExpandedElement } from "./KnowledgeGraphExpandedElement";
 import { KnowledgeGraphShoppingElement, IKnowledgeGraphShoppingElement } from "./KnowledgeGraphShoppingElement";
-import { BaseSerpApiKnowledgeGraphAiOverviewElementItem, IBaseSerpApiKnowledgeGraphAiOverviewElementItem } from "./BaseSerpApiKnowledgeGraphAiOverviewElementItem";
-import { AiModeAiOverviewReferenceInfo, IAiModeAiOverviewReferenceInfo } from "./AiModeAiOverviewReferenceInfo";
 import { BaseSerpApiAiOverviewElementItem, IBaseSerpApiAiOverviewElementItem } from "./BaseSerpApiAiOverviewElementItem";
+import { AiModeAiOverviewReferenceInfo, IAiModeAiOverviewReferenceInfo } from "./AiModeAiOverviewReferenceInfo";
 
 
 export interface IBaseSerpApiElementItem   {
         
         /** type of element */
         type?: string | undefined
+        
+        /** search results page number
+indicates the number of the SERP page on which the element is located */
+        page?: number | undefined
         
         /** the alignment of the element in SERP
 can take the following values:
@@ -81,6 +85,11 @@ export class BaseSerpApiElementItem  implements IBaseSerpApiElementItem {
     /** type of element */
 
     type?: string | undefined;
+    
+    /** search results page number
+indicates the number of the SERP page on which the element is located */
+
+    page?: number | undefined;
     
     /** the alignment of the element in SERP
 can take the following values:
@@ -123,6 +132,7 @@ equals null if calculate_rectangles in the POST request is not set to true */
                     this[property] = data[property];
             }
             this.type = data["type"];
+            this.page = data["page"];
             this.position = data["position"];
             this.xpath = data["xpath"];
             this.rectangle = data["rectangle"] ? AiModeRectangleInfo.fromJS(data["rectangle"]) : <any>undefined;
@@ -510,6 +520,7 @@ equals null if calculate_rectangles in the POST request is not set to true */
         
         
         data["type"] = this.type;
+        data["page"] = this.page;
         data["position"] = this.position;
         data["xpath"] = this.xpath;
         data["rectangle"] = this.rectangle ? AiModeRectangleInfo.fromJS(this.rectangle)?.toJSON() : <any>undefined;
@@ -4244,7 +4255,7 @@ always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** contains arrays of specific images */
-        items?: ShortVideosElement[] | undefined
+        items?: FindResultsOnElement[] | undefined
 
     [key: string]: any;
 
@@ -4267,7 +4278,7 @@ always equals 0 for desktop */
     
     /** contains arrays of specific images */
 
-    items?: ShortVideosElement[] | undefined;
+    items?: FindResultsOnElement[] | undefined;
 
     [key: string]: any;
 
@@ -4289,7 +4300,7 @@ always equals 0 for desktop */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(ShortVideosElement.fromJS(item));
+                    this.items.push(FindResultsOnElement.fromJS(item));
                 }
             }
         }
@@ -7485,7 +7496,7 @@ if false, the ai_overview element is loaded from cache */
         asynchronous_ai_overview?: boolean | undefined
         
         /** contains arrays of specific images */
-        items?: BaseSerpApiKnowledgeGraphAiOverviewElementItem[] | undefined
+        items?: BaseSerpApiAiOverviewElementItem[] | undefined
         
         /** references relevant to the element
 includes references to webpages that were used to generate the ai_overview_element */
@@ -7505,7 +7516,7 @@ if false, the ai_overview element is loaded from cache */
     
     /** contains arrays of specific images */
 
-    items?: BaseSerpApiKnowledgeGraphAiOverviewElementItem[] | undefined;
+    items?: BaseSerpApiAiOverviewElementItem[] | undefined;
     
     /** references relevant to the element
 includes references to webpages that were used to generate the ai_overview_element */
@@ -7531,7 +7542,7 @@ includes references to webpages that were used to generate the ai_overview_eleme
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseSerpApiKnowledgeGraphAiOverviewElementItem.fromJS(item));
+                    this.items.push(BaseSerpApiAiOverviewElementItem.fromJS(item));
                 }
             }
             if (Array.isArray(data["references"])) {

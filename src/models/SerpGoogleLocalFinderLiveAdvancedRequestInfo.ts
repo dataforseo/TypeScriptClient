@@ -82,9 +82,10 @@ default value for desktop: 20
 max value for desktop: 100
 default value for mobile: 10
 max value for mobile: 100
-Note: your account will be billed per each SERP containing up to 20 results for desktop or up to 10 results for a mobile device;
-thus, setting a depth above 20 for desktop or above 10 for mobile may result in additional charges if the search engine returns more than 20 or 10 results respectively;
-if the specified depth is higher than the number of results in the response, the difference will be refunded to your account balance automatically */
+Your account will be billed per each SERP containing up to 20 results for desktop or up to 10 results for a mobile device;
+Setting depth above 20 for desktop or above 10 for mobile may result in additional charges if the search engine returns more than 20 or 10 results respectively;;
+If the specified depth is higher than the number of results in the response, the difference will be refunded to your account balance automatically
+The cost can be calculated on the Pricing page. */
         depth?: number | undefined
         
         /** filter results by minimum rating
@@ -207,9 +208,10 @@ default value for desktop: 20
 max value for desktop: 100
 default value for mobile: 10
 max value for mobile: 100
-Note: your account will be billed per each SERP containing up to 20 results for desktop or up to 10 results for a mobile device;
-thus, setting a depth above 20 for desktop or above 10 for mobile may result in additional charges if the search engine returns more than 20 or 10 results respectively;
-if the specified depth is higher than the number of results in the response, the difference will be refunded to your account balance automatically */
+Your account will be billed per each SERP containing up to 20 results for desktop or up to 10 results for a mobile device;
+Setting depth above 20 for desktop or above 10 for mobile may result in additional charges if the search engine returns more than 20 or 10 results respectively;;
+If the specified depth is higher than the number of results in the response, the difference will be refunded to your account balance automatically
+The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
     
