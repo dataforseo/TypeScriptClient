@@ -6,16 +6,16 @@ export interface IAppElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of a given link element */
+        /** title of the row */
         title?: string | undefined
         
         /** description of the results element in SERP */
         description?: string | undefined
         
-        /** URL */
+        /** URL of element */
         url?: string | undefined
         
-        /** price indicated in the element */
+        /** price of the app element */
         price?: PriceInfo | undefined
 
     [key: string]: any;
@@ -28,7 +28,7 @@ export class AppElement  implements IAppElement {
 
     type?: string | undefined;
     
-    /** title of a given link element */
+    /** title of the row */
 
     title?: string | undefined;
     
@@ -36,11 +36,11 @@ export class AppElement  implements IAppElement {
 
     description?: string | undefined;
     
-    /** URL */
+    /** URL of element */
 
     url?: string | undefined;
     
-    /** price indicated in the element */
+    /** price of the app element */
 
     price?: PriceInfo | undefined;
 

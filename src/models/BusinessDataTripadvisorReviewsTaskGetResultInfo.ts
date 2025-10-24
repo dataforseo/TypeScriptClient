@@ -1,4 +1,4 @@
-import { RatingElement, IRatingElement } from "./RatingElement";
+import { RatingInfo, IRatingInfo } from "./RatingInfo";
 import { TripadvisorReviewSearch, ITripadvisorReviewSearch } from "./TripadvisorReviewSearch";
 
 
@@ -36,7 +36,7 @@ address of the local establishment for which the reviews are collected */
         
         /** rating of the corresponding local establishment
 popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement | undefined
+        rating?: RatingInfo | undefined
         
         /** rating distribution by votes
 the distribution of votes across the rating in the range from 1 to 5 */
@@ -100,7 +100,7 @@ address of the local establishment for which the reviews are collected */
     /** rating of the corresponding local establishment
 popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingInfo | undefined;
     
     /** rating distribution by votes
 the distribution of votes across the rating in the range from 1 to 5 */
@@ -149,7 +149,7 @@ you can get more results by using the depth parameter when setting a task */
             this.title = data["title"];
             this.location = data["location"];
             this.reviews_count = data["reviews_count"];
-            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
             this.rating_distribution = data["rating_distribution"];
             this.items_count = data["items_count"];
             if (Array.isArray(data["items"])) {
@@ -184,7 +184,7 @@ you can get more results by using the depth parameter when setting a task */
         data["title"] = this.title;
         data["location"] = this.location;
         data["reviews_count"] = this.reviews_count;
-        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["rating_distribution"] = this.rating_distribution;
         data["items_count"] = this.items_count;
         data["items"] = null;

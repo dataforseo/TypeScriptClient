@@ -118,6 +118,28 @@ set to true to expand the ai_overview item;
 default value: false */
         expand_ai_overview?: boolean | undefined
         
+        /** array of targets to stop crawling
+optional field
+if specified, the response will contain SERP results up to and including the specified match_value;
+you can specify up to 10 target values in this array
+example:
+'stop_crawl_on_match':[{'match_value':'dataforseo.com','match_type':'with_subdomains'}]
+Your account will be billed per each SERP crawled through the specified targets; */
+        stop_crawl_on_match?: string[] | undefined
+        
+        /** array of targets to stop crawling
+required field if stop_crawl_on_match is specified;
+specify a target domain or wildcard value;
+Note: domain name must be specified without a request protocol;
+example: dataforseo.com */
+        match_value?: string | undefined
+        
+        /** array of targets to stop crawling
+required field if stop_crawl_on_match is specified;
+type of match for the match_value
+possible values: domain, with_subdomains, wildcard */
+        match_type?: string[] | undefined
+        
         /** user-defined task identifier
 optional field
 the character limit is 255
@@ -264,6 +286,31 @@ default value: false */
 
     expand_ai_overview?: boolean | undefined;
     
+    /** array of targets to stop crawling
+optional field
+if specified, the response will contain SERP results up to and including the specified match_value;
+you can specify up to 10 target values in this array
+example:
+'stop_crawl_on_match':[{'match_value':'dataforseo.com','match_type':'with_subdomains'}]
+Your account will be billed per each SERP crawled through the specified targets; */
+
+    stop_crawl_on_match?: string[] | undefined;
+    
+    /** array of targets to stop crawling
+required field if stop_crawl_on_match is specified;
+specify a target domain or wildcard value;
+Note: domain name must be specified without a request protocol;
+example: dataforseo.com */
+
+    match_value?: string | undefined;
+    
+    /** array of targets to stop crawling
+required field if stop_crawl_on_match is specified;
+type of match for the match_value
+possible values: domain, with_subdomains, wildcard */
+
+    match_type?: string[] | undefined;
+    
     /** user-defined task identifier
 optional field
 the character limit is 255
@@ -307,6 +354,9 @@ you will find the specified tag value in the data object of the response */
             this.search_param = data["search_param"];
             this.load_async_ai_overview = data["load_async_ai_overview"];
             this.expand_ai_overview = data["expand_ai_overview"];
+            this.stop_crawl_on_match = data["stop_crawl_on_match"];
+            this.match_value = data["match_value"];
+            this.match_type = data["match_type"];
             this.tag = data["tag"];
         }
     }
@@ -340,6 +390,9 @@ you will find the specified tag value in the data object of the response */
         data["search_param"] = this.search_param;
         data["load_async_ai_overview"] = this.load_async_ai_overview;
         data["expand_ai_overview"] = this.expand_ai_overview;
+        data["stop_crawl_on_match"] = this.stop_crawl_on_match;
+        data["match_value"] = this.match_value;
+        data["match_type"] = this.match_type;
         data["tag"] = this.tag;
         return data;
     }

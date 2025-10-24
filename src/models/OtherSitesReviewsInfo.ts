@@ -1,4 +1,4 @@
-import { RatingElement, IRatingElement } from "./RatingElement";
+import { RatingInfo, IRatingInfo } from "./RatingInfo";
 
 
 export interface IOtherSitesReviewsInfo   {
@@ -17,7 +17,7 @@ text of the review */
         
         /** rating in the review
 information about the rating enclosed in the review on a third-party site */
-        rating?: RatingElement | undefined
+        rating?: RatingInfo | undefined
 
     [key: string]: any;
 
@@ -43,7 +43,7 @@ text of the review */
     /** rating in the review
 information about the rating enclosed in the review on a third-party site */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingInfo | undefined;
 
     [key: string]: any;
 
@@ -68,7 +68,7 @@ information about the rating enclosed in the review on a third-party site */
             this.title = data["title"];
             this.url = data["url"];
             this.review_text = data["review_text"];
-            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
         }
     }
 
@@ -89,7 +89,7 @@ information about the rating enclosed in the review on a third-party site */
         data["title"] = this.title;
         data["url"] = this.url;
         data["review_text"] = this.review_text;
-        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         return data;
     }
 }

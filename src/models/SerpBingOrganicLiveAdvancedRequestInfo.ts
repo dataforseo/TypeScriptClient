@@ -104,6 +104,28 @@ example.com/example-page  – returns results for the exact URL;
 example.com/example-page*  – returns results for all domain’s URLs that start with the specified string */
         target?: string | undefined
         
+        /** array of targets to stop crawling
+optional field
+if specified, the response will contain SERP results up to and including the specified match_value;
+you can specify up to 10 target values in this array
+example:
+'stop_crawl_on_match':[{'match_value':'dataforseo.com','match_type':'with_subdomains'}]
+Your account will be billed per each SERP crawled through the specified targets; */
+        stop_crawl_on_match?: string[] | undefined
+        
+        /** array of targets to stop crawling
+required field if stop_crawl_on_match is specified;
+specify a target domain or wildcard value;
+Note: domain name must be specified without a request protocol;
+example: dataforseo.com */
+        match_value?: string | undefined
+        
+        /** array of targets to stop crawling
+required field if stop_crawl_on_match is specified;
+type of match for the match_value
+possible values: domain, with_subdomains, wildcard */
+        match_type?: string[] | undefined
+        
         /** calculate pixel rankings for SERP elements in advanced results
 optional field
 pixel ranking refers to the distance between the result snippet and top left corner of the screen;
@@ -276,6 +298,31 @@ example.com/example-page*  – returns results for all domain’s URLs that star
 
     target?: string | undefined;
     
+    /** array of targets to stop crawling
+optional field
+if specified, the response will contain SERP results up to and including the specified match_value;
+you can specify up to 10 target values in this array
+example:
+'stop_crawl_on_match':[{'match_value':'dataforseo.com','match_type':'with_subdomains'}]
+Your account will be billed per each SERP crawled through the specified targets; */
+
+    stop_crawl_on_match?: string[] | undefined;
+    
+    /** array of targets to stop crawling
+required field if stop_crawl_on_match is specified;
+specify a target domain or wildcard value;
+Note: domain name must be specified without a request protocol;
+example: dataforseo.com */
+
+    match_value?: string | undefined;
+    
+    /** array of targets to stop crawling
+required field if stop_crawl_on_match is specified;
+type of match for the match_value
+possible values: domain, with_subdomains, wildcard */
+
+    match_type?: string[] | undefined;
+    
     /** calculate pixel rankings for SERP elements in advanced results
 optional field
 pixel ranking refers to the distance between the result snippet and top left corner of the screen;
@@ -364,6 +411,9 @@ you will find the specified tag value in the data object of the response */
             this.depth = data["depth"];
             this.max_crawl_pages = data["max_crawl_pages"];
             this.target = data["target"];
+            this.stop_crawl_on_match = data["stop_crawl_on_match"];
+            this.match_value = data["match_value"];
+            this.match_type = data["match_type"];
             this.calculate_rectangles = data["calculate_rectangles"];
             this.browser_screen_width = data["browser_screen_width"];
             this.browser_screen_height = data["browser_screen_height"];
@@ -399,6 +449,9 @@ you will find the specified tag value in the data object of the response */
         data["depth"] = this.depth;
         data["max_crawl_pages"] = this.max_crawl_pages;
         data["target"] = this.target;
+        data["stop_crawl_on_match"] = this.stop_crawl_on_match;
+        data["match_value"] = this.match_value;
+        data["match_type"] = this.match_type;
         data["calculate_rectangles"] = this.calculate_rectangles;
         data["browser_screen_width"] = this.browser_screen_width;
         data["browser_screen_height"] = this.browser_screen_height;

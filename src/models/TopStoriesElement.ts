@@ -7,10 +7,10 @@ export interface ITopStoriesElement   {
 indicates the source of information included in the top_stories_element */
         source?: string | undefined
         
-        /** website domain */
+        /** domain where a link points */
         domain?: string | undefined
         
-        /** title of a given link element */
+        /** title of the row */
         title?: string | undefined
         
         /** the date when the page source of the element was published */
@@ -26,11 +26,10 @@ example:
 2019-11-15 12:57:46 +00:00 */
         timestamp?: string | undefined
         
-        /** URL */
+        /** URL of element */
         url?: string | undefined
         
-        /** URL of the image
-the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+        /** URL of the image */
         image_url?: string | undefined
         
         /** badges relevant to the element */
@@ -51,11 +50,11 @@ indicates the source of information included in the top_stories_element */
 
     source?: string | undefined;
     
-    /** website domain */
+    /** domain where a link points */
 
     domain?: string | undefined;
     
-    /** title of a given link element */
+    /** title of the row */
 
     title?: string | undefined;
     
@@ -75,12 +74,11 @@ example:
 
     timestamp?: string | undefined;
     
-    /** URL */
+    /** URL of element */
 
     url?: string | undefined;
     
-    /** URL of the image
-the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+    /** URL of the image */
 
     image_url?: string | undefined;
     

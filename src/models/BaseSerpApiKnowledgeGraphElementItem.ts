@@ -1278,8 +1278,7 @@ if true, the ai_overview element is loaded asynchronically;
 if false, the ai_overview element is loaded from cache; */
         asynchronous_ai_overview?: boolean | undefined
         
-        /** additional items present in the element
-if there are none, equals null */
+        /** contains results featured in the ‘hotels_pack’ element of SERP */
         items?: BaseSerpApiAiOverviewElementItem[] | undefined
         
         /** additional references relevant to the item
@@ -1298,8 +1297,7 @@ if false, the ai_overview element is loaded from cache; */
 
     asynchronous_ai_overview?: boolean | undefined;
     
-    /** additional items present in the element
-if there are none, equals null */
+    /** contains results featured in the ‘hotels_pack’ element of SERP */
 
     items?: BaseSerpApiAiOverviewElementItem[] | undefined;
     

@@ -50,7 +50,7 @@ ai_overview */
         /** the number of results returned in the items array */
         items_count?: number | undefined
         
-        /** elements of search results found in SERP */
+        /** items present in the element */
         items?: AiModeAiOverviewInfo[] | undefined
 
     [key: string]: any;
@@ -116,7 +116,7 @@ ai_overview */
 
     items_count?: number | undefined;
     
-    /** elements of search results found in SERP */
+    /** items present in the element */
 
     items?: AiModeAiOverviewInfo[] | undefined;
 

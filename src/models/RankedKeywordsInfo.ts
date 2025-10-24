@@ -1,31 +1,26 @@
+import { DataforseoLabsAvailableFiltersGoogleInfo, IDataforseoLabsAvailableFiltersGoogleInfo } from "./DataforseoLabsAvailableFiltersGoogleInfo";
+import { DataforseoLabsAvailableFiltersAmazonInfo, IDataforseoLabsAvailableFiltersAmazonInfo } from "./DataforseoLabsAvailableFiltersAmazonInfo";
+
+
 export interface IRankedKeywordsInfo   {
         
-        /** number of keywords for which the page is ranked in top 3 search results */
-        page_from_keywords_count_top_3?: number | undefined
+        google?: DataforseoLabsAvailableFiltersGoogleInfo | undefined
         
-        /** number of keywords for which the page is ranked in top 10 search results */
-        page_from_keywords_count_top_10?: number | undefined
+        bing?: { [key: string]: string; } | undefined
         
-        /** number of keywords for which the page is ranked in top 100 search results */
-        page_from_keywords_count_top_100?: number | undefined
+        amazon?: DataforseoLabsAvailableFiltersAmazonInfo | undefined
 
     [key: string]: any;
 
     }
 
 export class RankedKeywordsInfo  implements IRankedKeywordsInfo {
-    
-    /** number of keywords for which the page is ranked in top 3 search results */
 
-    page_from_keywords_count_top_3?: number | undefined;
-    
-    /** number of keywords for which the page is ranked in top 10 search results */
+    google?: DataforseoLabsAvailableFiltersGoogleInfo | undefined;
 
-    page_from_keywords_count_top_10?: number | undefined;
-    
-    /** number of keywords for which the page is ranked in top 100 search results */
+    bing?: { [key: string]: string; } | undefined;
 
-    page_from_keywords_count_top_100?: number | undefined;
+    amazon?: DataforseoLabsAvailableFiltersAmazonInfo | undefined;
 
     [key: string]: any;
 
@@ -47,9 +42,9 @@ export class RankedKeywordsInfo  implements IRankedKeywordsInfo {
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
-            this.page_from_keywords_count_top_3 = data["page_from_keywords_count_top_3"];
-            this.page_from_keywords_count_top_10 = data["page_from_keywords_count_top_10"];
-            this.page_from_keywords_count_top_100 = data["page_from_keywords_count_top_100"];
+            this.google = data["google"] ? DataforseoLabsAvailableFiltersGoogleInfo.fromJS(data["google"]) : <any>undefined;
+            this.bing = data["bing"];
+            this.amazon = data["amazon"] ? DataforseoLabsAvailableFiltersAmazonInfo.fromJS(data["amazon"]) : <any>undefined;
         }
     }
 
@@ -67,9 +62,9 @@ export class RankedKeywordsInfo  implements IRankedKeywordsInfo {
 
         
         
-        data["page_from_keywords_count_top_3"] = this.page_from_keywords_count_top_3;
-        data["page_from_keywords_count_top_10"] = this.page_from_keywords_count_top_10;
-        data["page_from_keywords_count_top_100"] = this.page_from_keywords_count_top_100;
+        data["google"] = this.google ? DataforseoLabsAvailableFiltersGoogleInfo.fromJS(this.google)?.toJSON() : <any>undefined;
+        data["bing"] = this.bing;
+        data["amazon"] = this.amazon ? DataforseoLabsAvailableFiltersAmazonInfo.fromJS(this.amazon)?.toJSON() : <any>undefined;
         return data;
     }
 }

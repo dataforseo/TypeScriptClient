@@ -1,4 +1,4 @@
-import { RatingElement, IRatingElement } from "./RatingElement";
+import { RatingInfo, IRatingInfo } from "./RatingInfo";
 
 
 export interface ITopSightsElement   {
@@ -6,18 +6,18 @@ export interface ITopSightsElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of a given link element */
+        /** title of the row */
         title?: string | undefined
         
-        /** URL */
+        /** URL of element */
         url?: string | undefined
         
         /** description of the results element in SERP */
         description?: string | undefined
         
-        /** the item’s rating 
+        /** the element’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement | undefined
+        rating?: RatingInfo | undefined
 
     [key: string]: any;
 
@@ -29,11 +29,11 @@ export class TopSightsElement  implements ITopSightsElement {
 
     type?: string | undefined;
     
-    /** title of a given link element */
+    /** title of the row */
 
     title?: string | undefined;
     
-    /** URL */
+    /** URL of element */
 
     url?: string | undefined;
     
@@ -41,10 +41,10 @@ export class TopSightsElement  implements ITopSightsElement {
 
     description?: string | undefined;
     
-    /** the item’s rating 
+    /** the element’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingInfo | undefined;
 
     [key: string]: any;
 
@@ -70,7 +70,7 @@ the popularity rate based on reviews and displayed in SERP */
             this.title = data["title"];
             this.url = data["url"];
             this.description = data["description"];
-            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
         }
     }
 
@@ -92,7 +92,7 @@ the popularity rate based on reviews and displayed in SERP */
         data["title"] = this.title;
         data["url"] = this.url;
         data["description"] = this.description;
-        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         return data;
     }
 }

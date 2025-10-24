@@ -1,4 +1,4 @@
-import { RatingElement, IRatingElement } from "./RatingElement";
+import { RatingInfo, IRatingInfo } from "./RatingInfo";
 import { PriceInfo, IPriceInfo } from "./PriceInfo";
 import { AppsInfo, IAppsInfo } from "./AppsInfo";
 
@@ -39,7 +39,7 @@ can take the following values: left */
         reviews_count?: number | undefined
         
         /** average rating of the app */
-        rating?: RatingElement | undefined
+        rating?: RatingInfo | undefined
         
         /** price of the app */
         price?: PriceInfo | undefined
@@ -156,7 +156,7 @@ can take the following values: left */
     
     /** average rating of the app */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingInfo | undefined;
     
     /** price of the app */
 
@@ -270,7 +270,7 @@ information about apps built by the same developer */
             this.icon = data["icon"];
             this.description = data["description"];
             this.reviews_count = data["reviews_count"];
-            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
             this.price = data["price"] ? PriceInfo.fromJS(data["price"]) : <any>undefined;
             this.is_free = data["is_free"];
             this.main_category = data["main_category"];
@@ -326,7 +326,7 @@ information about apps built by the same developer */
         data["icon"] = this.icon;
         data["description"] = this.description;
         data["reviews_count"] = this.reviews_count;
-        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["price"] = this.price ? PriceInfo.fromJS(this.price)?.toJSON() : <any>undefined;
         data["is_free"] = this.is_free;
         data["main_category"] = this.main_category;

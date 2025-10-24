@@ -1,4 +1,4 @@
-import { RatingElement, IRatingElement } from "./RatingElement";
+import { RatingInfo, IRatingInfo } from "./RatingInfo";
 
 
 export interface ITrustpilotSearchOrganic   {
@@ -27,7 +27,7 @@ absolute position among all reviews on the list */
         reviews_count?: number | undefined
         
         /** the rating score of the establishment submitted by reviewers */
-        rating?: RatingElement | undefined
+        rating?: RatingInfo | undefined
 
     [key: string]: any;
 
@@ -67,7 +67,7 @@ absolute position among all reviews on the list */
     
     /** the rating score of the establishment submitted by reviewers */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingInfo | undefined;
 
     [key: string]: any;
 
@@ -96,7 +96,7 @@ absolute position among all reviews on the list */
             this.domain = data["domain"];
             this.url = data["url"];
             this.reviews_count = data["reviews_count"];
-            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
         }
     }
 
@@ -121,7 +121,7 @@ absolute position among all reviews on the list */
         data["domain"] = this.domain;
         data["url"] = this.url;
         data["reviews_count"] = this.reviews_count;
-        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         return data;
     }
 }

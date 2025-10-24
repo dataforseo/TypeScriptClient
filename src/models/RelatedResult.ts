@@ -1,5 +1,5 @@
 import { AiModeImagesElementInfo, IAiModeImagesElementInfo } from "./AiModeImagesElementInfo";
-import { RatingElement, IRatingElement } from "./RatingElement";
+import { RatingInfo, IRatingInfo } from "./RatingInfo";
 import { PriceInfo, IPriceInfo } from "./PriceInfo";
 import { AboutThisResultElement, IAboutThisResultElement } from "./AboutThisResultElement";
 
@@ -16,13 +16,13 @@ indicates the number of the SERP page on which the element is located */
         /** the XPath of the element */
         xpath?: string | undefined
         
-        /** domain where a link points */
+        /** website domain */
         domain?: string | undefined
         
-        /** title of the link */
+        /** reference page title */
         title?: string | undefined
         
-        /** reference page URL */
+        /** URL */
         url?: string | undefined
         
         /** cached version of the page */
@@ -61,11 +61,11 @@ if there are none, equals null */
 indicates whether an item has the Accelerated Mobile Page (AMP) version */
         amp_version?: boolean | undefined
         
-        /** the item’s rating 
+        /** the element’s rating
 the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement | undefined
+        rating?: RatingInfo | undefined
         
-        /** price of booking a place for the specified dates of stay */
+        /** price indicated in the element */
         price?: PriceInfo | undefined
         
         /** words highlighted in bold within the results description */
@@ -101,15 +101,15 @@ indicates the number of the SERP page on which the element is located */
 
     xpath?: string | undefined;
     
-    /** domain where a link points */
+    /** website domain */
 
     domain?: string | undefined;
     
-    /** title of the link */
+    /** reference page title */
 
     title?: string | undefined;
     
-    /** reference page URL */
+    /** URL */
 
     url?: string | undefined;
     
@@ -160,12 +160,12 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version */
 
     amp_version?: boolean | undefined;
     
-    /** the item’s rating 
+    /** the element’s rating
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingInfo | undefined;
     
-    /** price of booking a place for the specified dates of stay */
+    /** price indicated in the element */
 
     price?: PriceInfo | undefined;
     
@@ -228,7 +228,7 @@ example:
                 }
             }
             this.amp_version = data["amp_version"];
-            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
             this.price = data["price"] ? PriceInfo.fromJS(data["price"]) : <any>undefined;
             this.highlighted = data["highlighted"];
             this.about_this_result = data["about_this_result"] ? AboutThisResultElement.fromJS(data["about_this_result"]) : <any>undefined;
@@ -275,7 +275,7 @@ example:
             }
         }
         data["amp_version"] = this.amp_version;
-        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["price"] = this.price ? PriceInfo.fromJS(this.price)?.toJSON() : <any>undefined;
         data["highlighted"] = this.highlighted;
         data["about_this_result"] = this.about_this_result ? AboutThisResultElement.fromJS(this.about_this_result)?.toJSON() : <any>undefined;

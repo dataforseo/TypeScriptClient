@@ -84,13 +84,13 @@ export interface ISerpApiPeopleAlsoAskExpandedElementItem  extends IBaseSerpApiP
         /** the title of the featured snippets source page */
         featured_title?: string | undefined
         
-        /** URL of element */
+        /** URL */
         url?: string | undefined
         
-        /** domain where a link points */
+        /** source domain */
         domain?: string | undefined
         
-        /** title of the row */
+        /** title of a given link element */
         title?: string | undefined
         
         /** description of the results element in SERP */
@@ -119,15 +119,15 @@ export class SerpApiPeopleAlsoAskExpandedElementItem  extends BaseSerpApiPeopleA
 
     featured_title?: string | undefined;
     
-    /** URL of element */
+    /** URL */
 
     url?: string | undefined;
     
-    /** domain where a link points */
+    /** source domain */
 
     domain?: string | undefined;
     
-    /** title of the row */
+    /** title of a given link element */
 
     title?: string | undefined;
     

@@ -1,7 +1,7 @@
 import { AiModeImagesElementInfo, IAiModeImagesElementInfo } from "./AiModeImagesElementInfo";
 import { VideoElement, IVideoElement } from "./VideoElement";
 import { UserProfileInfo, IUserProfileInfo } from "./UserProfileInfo";
-import { RatingElement, IRatingElement } from "./RatingElement";
+import { RatingInfo, IRatingInfo } from "./RatingInfo";
 
 
 export interface IAmazonReviewItem   {
@@ -59,7 +59,7 @@ example:
         publication_date?: string | undefined
         
         /** the rating score submitted by the reviewer */
-        rating?: RatingElement | undefined
+        rating?: RatingInfo | undefined
 
     [key: string]: any;
 
@@ -136,7 +136,7 @@ example:
     
     /** the rating score submitted by the reviewer */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingInfo | undefined;
 
     [key: string]: any;
 
@@ -183,7 +183,7 @@ example:
             this.url = data["url"];
             this.review_text = data["review_text"];
             this.publication_date = data["publication_date"];
-            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
         }
     }
 
@@ -232,7 +232,7 @@ example:
         data["url"] = this.url;
         data["review_text"] = this.review_text;
         data["publication_date"] = this.publication_date;
-        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         return data;
     }
 }

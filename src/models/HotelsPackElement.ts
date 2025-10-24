@@ -1,5 +1,5 @@
 import { PriceInfo, IPriceInfo } from "./PriceInfo";
-import { RatingElement, IRatingElement } from "./RatingElement";
+import { RatingInfo, IRatingInfo } from "./RatingInfo";
 
 
 export interface IHotelsPackElement   {
@@ -7,10 +7,10 @@ export interface IHotelsPackElement   {
         /** type of element */
         type?: string | undefined
         
-        /** price indicated in the element */
+        /** price of the app element */
         price?: PriceInfo | undefined
         
-        /** title of a given link element */
+        /** title of the row */
         title?: string | undefined
         
         /** description of the results element in SERP */
@@ -21,18 +21,18 @@ unique hotel identifier assigned by Google;
 example: 'CgoIjaeSlI6CnNpVEAE' */
         hotel_identifier?: string | undefined
         
-        /** website domain */
+        /** domain where a link points */
         domain?: string | undefined
         
-        /** URL */
+        /** URL of element */
         url?: string | undefined
         
         /** indicates whether the element is an ad */
         is_paid?: boolean | undefined
         
-        /** the item’s rating 
+        /** the element’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement | undefined
+        rating?: RatingInfo | undefined
 
     [key: string]: any;
 
@@ -44,11 +44,11 @@ export class HotelsPackElement  implements IHotelsPackElement {
 
     type?: string | undefined;
     
-    /** price indicated in the element */
+    /** price of the app element */
 
     price?: PriceInfo | undefined;
     
-    /** title of a given link element */
+    /** title of the row */
 
     title?: string | undefined;
     
@@ -62,11 +62,11 @@ example: 'CgoIjaeSlI6CnNpVEAE' */
 
     hotel_identifier?: string | undefined;
     
-    /** website domain */
+    /** domain where a link points */
 
     domain?: string | undefined;
     
-    /** URL */
+    /** URL of element */
 
     url?: string | undefined;
     
@@ -74,10 +74,10 @@ example: 'CgoIjaeSlI6CnNpVEAE' */
 
     is_paid?: boolean | undefined;
     
-    /** the item’s rating 
+    /** the element’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingInfo | undefined;
 
     [key: string]: any;
 
@@ -107,7 +107,7 @@ the popularity rate based on reviews and displayed in SERP */
             this.domain = data["domain"];
             this.url = data["url"];
             this.is_paid = data["is_paid"];
-            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
         }
     }
 
@@ -133,7 +133,7 @@ the popularity rate based on reviews and displayed in SERP */
         data["domain"] = this.domain;
         data["url"] = this.url;
         data["is_paid"] = this.is_paid;
-        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         return data;
     }
 }

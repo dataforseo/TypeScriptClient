@@ -1,4 +1,4 @@
-import { RatingElement, IRatingElement } from "./RatingElement";
+import { RatingInfo, IRatingInfo } from "./RatingInfo";
 
 
 export interface IChatGptProductsElement   {
@@ -14,7 +14,7 @@ export interface IChatGptProductsElement   {
         
         /** rating of the corresponding local businesses
 popularity rate based on reviews as displayed in the results */
-        rating?: RatingElement | undefined
+        rating?: RatingInfo | undefined
         
         /** product price */
         price?: number | undefined
@@ -57,7 +57,7 @@ export class ChatGptProductsElement  implements IChatGptProductsElement {
     /** rating of the corresponding local businesses
 popularity rate based on reviews as displayed in the results */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingInfo | undefined;
     
     /** product price */
 
@@ -108,7 +108,7 @@ contains URLs leading to the images on the original resource or DataForSEO stora
             this.type = data["type"];
             this.product_id = data["product_id"];
             this.title = data["title"];
-            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
             this.price = data["price"];
             this.currency = data["currency"];
             this.tag = data["tag"];
@@ -135,7 +135,7 @@ contains URLs leading to the images on the original resource or DataForSEO stora
         data["type"] = this.type;
         data["product_id"] = this.product_id;
         data["title"] = this.title;
-        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["price"] = this.price;
         data["currency"] = this.currency;
         data["tag"] = this.tag;

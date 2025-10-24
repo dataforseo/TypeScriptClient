@@ -117,6 +117,28 @@ example.com/example-page  – returns results for the exact URL;
 example.com/example-page*  – returns results for all domain’s URLs that start with the specified string */
         target?: string | undefined
         
+        /** array of targets to stop crawling
+optional field
+if specified, the response will contain SERP results up to and including the specified match_value;
+you can specify up to 10 target values in this array
+example:
+'stop_crawl_on_match':[{'match_value':'dataforseo.com','match_type':'with_subdomains'}]
+Your account will be billed per each SERP crawled through the specified targets; */
+        stop_crawl_on_match?: string[] | undefined
+        
+        /** array of targets to stop crawling
+required field if stop_crawl_on_match is specified;
+specify a target domain or wildcard value;
+Note: domain name must be specified without a request protocol;
+example: dataforseo.com */
+        match_value?: string | undefined
+        
+        /** array of targets to stop crawling
+required field if stop_crawl_on_match is specified;
+type of match for the match_value
+possible values: domain, with_subdomains, wildcard */
+        match_type?: string[] | undefined
+        
         /** display related results
 optional field
 if set to true, the related_result element in the response will be provided as a snippet of its parent organic result;
@@ -336,6 +358,31 @@ example.com/example-page*  – returns results for all domain’s URLs that star
 
     target?: string | undefined;
     
+    /** array of targets to stop crawling
+optional field
+if specified, the response will contain SERP results up to and including the specified match_value;
+you can specify up to 10 target values in this array
+example:
+'stop_crawl_on_match':[{'match_value':'dataforseo.com','match_type':'with_subdomains'}]
+Your account will be billed per each SERP crawled through the specified targets; */
+
+    stop_crawl_on_match?: string[] | undefined;
+    
+    /** array of targets to stop crawling
+required field if stop_crawl_on_match is specified;
+specify a target domain or wildcard value;
+Note: domain name must be specified without a request protocol;
+example: dataforseo.com */
+
+    match_value?: string | undefined;
+    
+    /** array of targets to stop crawling
+required field if stop_crawl_on_match is specified;
+type of match for the match_value
+possible values: domain, with_subdomains, wildcard */
+
+    match_type?: string[] | undefined;
+    
     /** display related results
 optional field
 if set to true, the related_result element in the response will be provided as a snippet of its parent organic result;
@@ -462,6 +509,9 @@ you will find the specified tag value in the data object of the response */
             this.device = data["device"];
             this.os = data["os"];
             this.target = data["target"];
+            this.stop_crawl_on_match = data["stop_crawl_on_match"];
+            this.match_value = data["match_value"];
+            this.match_type = data["match_type"];
             this.group_organic_results = data["group_organic_results"];
             this.calculate_rectangles = data["calculate_rectangles"];
             this.browser_screen_width = data["browser_screen_width"];
@@ -502,6 +552,9 @@ you will find the specified tag value in the data object of the response */
         data["device"] = this.device;
         data["os"] = this.os;
         data["target"] = this.target;
+        data["stop_crawl_on_match"] = this.stop_crawl_on_match;
+        data["match_value"] = this.match_value;
+        data["match_type"] = this.match_type;
         data["group_organic_results"] = this.group_organic_results;
         data["calculate_rectangles"] = this.calculate_rectangles;
         data["browser_screen_width"] = this.browser_screen_width;

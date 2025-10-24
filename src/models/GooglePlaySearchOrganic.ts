@@ -1,4 +1,4 @@
-import { RatingElement, IRatingElement } from "./RatingElement";
+import { RatingInfo, IRatingInfo } from "./RatingInfo";
 import { PriceInfo, IPriceInfo } from "./PriceInfo";
 
 
@@ -36,7 +36,7 @@ left, right */
         reviews_count?: number | undefined
         
         /** average rating of the app */
-        rating?: RatingElement | undefined
+        rating?: RatingInfo | undefined
         
         /** indicates whether the app is free */
         is_free?: boolean | undefined
@@ -98,7 +98,7 @@ left, right */
     
     /** average rating of the app */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingInfo | undefined;
     
     /** indicates whether the app is free */
 
@@ -145,7 +145,7 @@ left, right */
             this.url = data["url"];
             this.icon = data["icon"];
             this.reviews_count = data["reviews_count"];
-            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
             this.is_free = data["is_free"];
             this.price = data["price"] ? PriceInfo.fromJS(data["price"]) : <any>undefined;
             this.developer = data["developer"];
@@ -176,7 +176,7 @@ left, right */
         data["url"] = this.url;
         data["icon"] = this.icon;
         data["reviews_count"] = this.reviews_count;
-        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["is_free"] = this.is_free;
         data["price"] = this.price ? PriceInfo.fromJS(this.price)?.toJSON() : <any>undefined;
         data["developer"] = this.developer;

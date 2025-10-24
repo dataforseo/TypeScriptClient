@@ -1,4 +1,4 @@
-import { RatingElement, IRatingElement } from "./RatingElement";
+import { RatingInfo, IRatingInfo } from "./RatingInfo";
 import { AppStoreReviewsSearch, IAppStoreReviewsSearch } from "./AppStoreReviewsSearch";
 
 
@@ -35,7 +35,7 @@ title of the application for which the reviews are collected */
         
         /** rating of the app
 rating of the application for which the reviews are collected */
-        rating?: RatingElement | undefined
+        rating?: RatingInfo | undefined
         
         /** the total number of reviews
 in this case, the value will be null as App Store does not indicate the total number of app reviews */
@@ -94,7 +94,7 @@ title of the application for which the reviews are collected */
     /** rating of the app
 rating of the application for which the reviews are collected */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingInfo | undefined;
     
     /** the total number of reviews
 in this case, the value will be null as App Store does not indicate the total number of app reviews */
@@ -138,7 +138,7 @@ you can get more results by using the depth parameter when setting a task */
             this.check_url = data["check_url"];
             this.datetime = data["datetime"];
             this.title = data["title"];
-            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
             this.reviews_count = data["reviews_count"];
             this.items_count = data["items_count"];
             if (Array.isArray(data["items"])) {
@@ -172,7 +172,7 @@ you can get more results by using the depth parameter when setting a task */
         data["check_url"] = this.check_url;
         data["datetime"] = this.datetime;
         data["title"] = this.title;
-        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["reviews_count"] = this.reviews_count;
         data["items_count"] = this.items_count;
         data["items"] = null;

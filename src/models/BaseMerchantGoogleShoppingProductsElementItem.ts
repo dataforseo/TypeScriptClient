@@ -225,6 +225,14 @@ the first URL in the array is the featured image of the product */
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL */
         shop_ad_aclk?: string | undefined
         
+        /** global product identifier on Google Shopping
+note that there is no full list of possible values as the gid is a dynamic value assigned by Google
+if there are no values, you will get null
+example:
+4702526954592161872
+learn more about gid parameter in this help center guide */
+        gid?: string | undefined
+        
         /** delivery information
 delivery information including free and fast delivery date ranges */
         delivery_info?: DeliveryInfo | undefined
@@ -347,6 +355,15 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
     shop_ad_aclk?: string | undefined;
     
+    /** global product identifier on Google Shopping
+note that there is no full list of possible values as the gid is a dynamic value assigned by Google
+if there are no values, you will get null
+example:
+4702526954592161872
+learn more about gid parameter in this help center guide */
+
+    gid?: string | undefined;
+    
     /** delivery information
 delivery information including free and fast delivery date ranges */
 
@@ -392,6 +409,7 @@ contains information about the number of stores that offer the same product */
             this.shop_rating = data["shop_rating"] ? RatingElement.fromJS(data["shop_rating"]) : <any>undefined;
             this.product_images = data["product_images"];
             this.shop_ad_aclk = data["shop_ad_aclk"];
+            this.gid = data["gid"];
             this.delivery_info = data["delivery_info"] ? DeliveryInfo.fromJS(data["delivery_info"]) : <any>undefined;
             this.stores_count_info = data["stores_count_info"] ? StoresCountInfo.fromJS(data["stores_count_info"]) : <any>undefined;
         }
@@ -433,6 +451,7 @@ contains information about the number of stores that offer the same product */
         data["shop_rating"] = this.shop_rating ? RatingElement.fromJS(this.shop_rating)?.toJSON() : <any>undefined;
         data["product_images"] = this.product_images;
         data["shop_ad_aclk"] = this.shop_ad_aclk;
+        data["gid"] = this.gid;
         data["delivery_info"] = this.delivery_info ? DeliveryInfo.fromJS(this.delivery_info)?.toJSON() : <any>undefined;
         data["stores_count_info"] = this.stores_count_info ? StoresCountInfo.fromJS(this.stores_count_info)?.toJSON() : <any>undefined;
         return data;

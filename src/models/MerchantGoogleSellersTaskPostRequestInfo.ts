@@ -1,7 +1,7 @@
 export interface IMerchantGoogleSellersTaskPostRequestInfo   {
         
         /** unique product identifier on Google Shopping
-required field if data_docid is not specified
+required field if data_docid or gid is not specified
 you can get this value for a certain product by making a separate request to the Google Shopping Products endpoint
 example:
 4485466949985702538
@@ -9,11 +9,19 @@ learn more about the parameter in this help center guide */
         product_id?: string | undefined
         
         /** unique identifier of the SERP data element
-required field if product_id is not specified
+required field if product_id or gid is not specified
 you can get this value for a certain element by making a separate request to the Google Shopping Products endpoint
 example:
 13071766526042404278 */
         data_docid?: string | undefined
+        
+        /** global product identifier on Google Shopping
+required field if product_id or data_docid is not specified
+you can get this value for a certain product by making a separate request to the Google Shopping Products endpoint
+example:
+4702526954592161872
+learn more about the parameter in this help center guide */
+        gid?: string | undefined
         
         /** task priority
 optional field
@@ -133,7 +141,7 @@ learn more on our Help Center */
 export class MerchantGoogleSellersTaskPostRequestInfo  implements IMerchantGoogleSellersTaskPostRequestInfo {
     
     /** unique product identifier on Google Shopping
-required field if data_docid is not specified
+required field if data_docid or gid is not specified
 you can get this value for a certain product by making a separate request to the Google Shopping Products endpoint
 example:
 4485466949985702538
@@ -142,12 +150,21 @@ learn more about the parameter in this help center guide */
     product_id?: string | undefined;
     
     /** unique identifier of the SERP data element
-required field if product_id is not specified
+required field if product_id or gid is not specified
 you can get this value for a certain element by making a separate request to the Google Shopping Products endpoint
 example:
 13071766526042404278 */
 
     data_docid?: string | undefined;
+    
+    /** global product identifier on Google Shopping
+required field if product_id or data_docid is not specified
+you can get this value for a certain product by making a separate request to the Google Shopping Products endpoint
+example:
+4702526954592161872
+learn more about the parameter in this help center guide */
+
+    gid?: string | undefined;
     
     /** task priority
 optional field
@@ -295,6 +312,7 @@ learn more on our Help Center */
             }
             this.product_id = data["product_id"];
             this.data_docid = data["data_docid"];
+            this.gid = data["gid"];
             this.priority = data["priority"];
             this.location_name = data["location_name"];
             this.location_code = data["location_code"];
@@ -327,6 +345,7 @@ learn more on our Help Center */
         
         data["product_id"] = this.product_id;
         data["data_docid"] = this.data_docid;
+        data["gid"] = this.gid;
         data["priority"] = this.priority;
         data["location_name"] = this.location_name;
         data["location_code"] = this.location_code;

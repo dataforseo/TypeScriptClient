@@ -1,4 +1,4 @@
-import { RatingElement, IRatingElement } from "./RatingElement";
+import { RatingInfo, IRatingInfo } from "./RatingInfo";
 import { GoogleExtendedReviewsSearch, IGoogleExtendedReviewsSearch } from "./GoogleExtendedReviewsSearch";
 
 
@@ -40,7 +40,7 @@ additional information (e.g., address) on the ‘reviews’ element for which th
         
         /** rating of the corresponding local establishment
 popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement | undefined
+        rating?: RatingInfo | undefined
         
         /** the unique identifier of the ‘reviews’ element in SERP
 learn more about the identifier in this help center article */
@@ -118,7 +118,7 @@ additional information (e.g., address) on the ‘reviews’ element for which th
     /** rating of the corresponding local establishment
 popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingInfo | undefined;
     
     /** the unique identifier of the ‘reviews’ element in SERP
 learn more about the identifier in this help center article */
@@ -179,7 +179,7 @@ you can get more results by using the depth parameter when setting a task */
             this.datetime = data["datetime"];
             this.title = data["title"];
             this.sub_title = data["sub_title"];
-            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
             this.feature_id = data["feature_id"];
             this.place_id = data["place_id"];
             this.cid = data["cid"];
@@ -217,7 +217,7 @@ you can get more results by using the depth parameter when setting a task */
         data["datetime"] = this.datetime;
         data["title"] = this.title;
         data["sub_title"] = this.sub_title;
-        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["feature_id"] = this.feature_id;
         data["place_id"] = this.place_id;
         data["cid"] = this.cid;

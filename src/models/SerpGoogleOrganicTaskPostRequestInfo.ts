@@ -37,6 +37,28 @@ Setting depth above 10 may result in additional charges if the search engine ret
 The cost can be calculated on the Pricing page. */
         depth?: number | undefined
         
+        /** array of targets to stop crawling
+optional field
+if specified, the response will contain SERP results up to and including the specified match_value;
+you can specify up to 10 target values in this array
+example:
+'stop_crawl_on_match':[{'match_value':'dataforseo.com','match_type':'with_subdomains'}]
+Your account will be billed per each SERP crawled through the specified targets; */
+        stop_crawl_on_match?: string[] | undefined
+        
+        /** array of targets to stop crawling
+required field if stop_crawl_on_match is specified;
+specify a target domain or wildcard value;
+Note: domain name must be specified without a request protocol;
+example: dataforseo.com */
+        match_value?: string | undefined
+        
+        /** array of targets to stop crawling
+required field if stop_crawl_on_match is specified;
+type of match for the match_value
+possible values: domain, with_subdomains, wildcard */
+        match_type?: string[] | undefined
+        
         /** page crawl limit
 optional field
 number of search results pages to crawl
@@ -277,6 +299,31 @@ Setting depth above 10 may result in additional charges if the search engine ret
 The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
+    
+    /** array of targets to stop crawling
+optional field
+if specified, the response will contain SERP results up to and including the specified match_value;
+you can specify up to 10 target values in this array
+example:
+'stop_crawl_on_match':[{'match_value':'dataforseo.com','match_type':'with_subdomains'}]
+Your account will be billed per each SERP crawled through the specified targets; */
+
+    stop_crawl_on_match?: string[] | undefined;
+    
+    /** array of targets to stop crawling
+required field if stop_crawl_on_match is specified;
+specify a target domain or wildcard value;
+Note: domain name must be specified without a request protocol;
+example: dataforseo.com */
+
+    match_value?: string | undefined;
+    
+    /** array of targets to stop crawling
+required field if stop_crawl_on_match is specified;
+type of match for the match_value
+possible values: domain, with_subdomains, wildcard */
+
+    match_type?: string[] | undefined;
     
     /** page crawl limit
 optional field
@@ -519,6 +566,9 @@ learn more on our Help Center */
             this.url = data["url"];
             this.priority = data["priority"];
             this.depth = data["depth"];
+            this.stop_crawl_on_match = data["stop_crawl_on_match"];
+            this.match_value = data["match_value"];
+            this.match_type = data["match_type"];
             this.max_crawl_pages = data["max_crawl_pages"];
             this.location_name = data["location_name"];
             this.location_code = data["location_code"];
@@ -563,6 +613,9 @@ learn more on our Help Center */
         data["url"] = this.url;
         data["priority"] = this.priority;
         data["depth"] = this.depth;
+        data["stop_crawl_on_match"] = this.stop_crawl_on_match;
+        data["match_value"] = this.match_value;
+        data["match_type"] = this.match_type;
         data["max_crawl_pages"] = this.max_crawl_pages;
         data["location_name"] = this.location_name;
         data["location_code"] = this.location_code;

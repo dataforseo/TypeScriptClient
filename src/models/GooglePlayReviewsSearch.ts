@@ -1,4 +1,4 @@
-import { RatingElement, IRatingElement } from "./RatingElement";
+import { RatingInfo, IRatingInfo } from "./RatingInfo";
 import { AppUserProfileInfo, IAppUserProfileInfo } from "./AppUserProfileInfo";
 import { ResponseDataInfo, IResponseDataInfo } from "./ResponseDataInfo";
 
@@ -25,7 +25,7 @@ version of the app for which the review is submitted */
         version?: string | undefined
         
         /** the rating score submitted by the reviewer */
-        rating?: RatingElement | undefined
+        rating?: RatingInfo | undefined
         
         /** date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -85,7 +85,7 @@ version of the app for which the review is submitted */
     
     /** the rating score submitted by the reviewer */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingInfo | undefined;
     
     /** date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -145,7 +145,7 @@ Google Play doesn’t provide an option to title reviews, so this parameter will
             this.rank_absolute = data["rank_absolute"];
             this.position = data["position"];
             this.version = data["version"];
-            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
             this.timestamp = data["timestamp"];
             this.id = data["id"];
             this.helpful_count = data["helpful_count"];
@@ -180,7 +180,7 @@ Google Play doesn’t provide an option to title reviews, so this parameter will
         data["rank_absolute"] = this.rank_absolute;
         data["position"] = this.position;
         data["version"] = this.version;
-        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["timestamp"] = this.timestamp;
         data["id"] = this.id;
         data["helpful_count"] = this.helpful_count;

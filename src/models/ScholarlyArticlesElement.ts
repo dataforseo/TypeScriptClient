@@ -3,10 +3,10 @@ export interface IScholarlyArticlesElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of a given link element */
+        /** title of the row */
         title?: string | undefined
         
-        /** URL */
+        /** URL of element */
         url?: string | undefined
         
         /** author */
@@ -25,11 +25,11 @@ export class ScholarlyArticlesElement  implements IScholarlyArticlesElement {
 
     type?: string | undefined;
     
-    /** title of a given link element */
+    /** title of the row */
 
     title?: string | undefined;
     
-    /** URL */
+    /** URL of element */
 
     url?: string | undefined;
     

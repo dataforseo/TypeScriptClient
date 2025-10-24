@@ -1,4 +1,5 @@
 import { RatingElement, IRatingElement } from "./RatingElement";
+import { ShoppingSpecification, IShoppingSpecification } from "./ShoppingSpecification";
 import { ProductSeller, IProductSeller } from "./ProductSeller";
 import { ProductVariation, IProductVariation } from "./ProductVariation";
 
@@ -50,6 +51,24 @@ the popularity rate based on reviews */
         /** number of seller reviews
 number of reviews on the product seller’s account */
         seller_reviews_count?: number | undefined
+        
+        /** unique identifier of the SERP data element
+note that there is no full list of possible values as the data_docid is a dynamic value assigned by Google
+example:
+17363035694596624076 */
+        data_docid?: string | undefined
+        
+        /** global product identifier on Google Shopping
+note that there is no full list of possible values as the gid is a dynamic value assigned by Google
+if there are no values, you will get null
+example:
+4702526954592161872
+learn more about gid in this help center guide */
+        gid?: string | undefined
+        
+        /** product specifications
+contains all product attributes and related data listed on the product specification page */
+        specifications?: ShoppingSpecification[] | undefined
         
         /** sellers of the product
 number of reviews on the product seller’s account */
@@ -123,6 +142,27 @@ number of reviews on the product seller’s account */
 
     seller_reviews_count?: number | undefined;
     
+    /** unique identifier of the SERP data element
+note that there is no full list of possible values as the data_docid is a dynamic value assigned by Google
+example:
+17363035694596624076 */
+
+    data_docid?: string | undefined;
+    
+    /** global product identifier on Google Shopping
+note that there is no full list of possible values as the gid is a dynamic value assigned by Google
+if there are no values, you will get null
+example:
+4702526954592161872
+learn more about gid in this help center guide */
+
+    gid?: string | undefined;
+    
+    /** product specifications
+contains all product attributes and related data listed on the product specification page */
+
+    specifications?: ShoppingSpecification[] | undefined;
+    
     /** sellers of the product
 number of reviews on the product seller’s account */
 
@@ -165,6 +205,14 @@ contains brief information about different product variations */
             this.features = data["features"];
             this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
             this.seller_reviews_count = data["seller_reviews_count"];
+            this.data_docid = data["data_docid"];
+            this.gid = data["gid"];
+            if (Array.isArray(data["specifications"])) {
+                this.specifications = [];
+                for (let item of data["specifications"]) {
+                    this.specifications.push(ShoppingSpecification.fromJS(item));
+                }
+            }
             if (Array.isArray(data["sellers"])) {
                 this.sellers = [];
                 for (let item of data["sellers"]) {
@@ -206,6 +254,17 @@ contains brief information about different product variations */
         data["features"] = this.features;
         data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["seller_reviews_count"] = this.seller_reviews_count;
+        data["data_docid"] = this.data_docid;
+        data["gid"] = this.gid;
+        data["specifications"] = null;
+        if (Array.isArray(this.specifications)) {
+            data["specifications"] = [];
+            for (let item of this.specifications) {
+                if (item && typeof item.toJSON === "function") {
+                    data["specifications"].push(item?.toJSON());
+                }
+            }
+        }
         data["sellers"] = null;
         if (Array.isArray(this.sellers)) {
             data["sellers"] = [];

@@ -17,11 +17,7 @@ All URIs are relative to *https://api.dataforseo.com*
 [**googleSellersTaskPost**](MerchantApi.md#googleSellersTaskPost) | **POST**  /v3/merchant/google/sellers/task_post  |
 [**googleSellersTasksReady**](MerchantApi.md#googleSellersTasksReady) | **GET**  /v3/merchant/google/sellers/tasks_ready  |
 [**googleSellersTaskGetAdvanced**](MerchantApi.md#googleSellersTaskGetAdvanced) | **GET**  /v3/merchant/google/sellers/task_get/advanced/{id}  |
-[**googleSellersTaskGetHtml**](MerchantApi.md#googleSellersTaskGetHtml) | **GET**  /v3/merchant/google/sellers/task_get/html/{id}  |
-[**googleProductSpecTaskPost**](MerchantApi.md#googleProductSpecTaskPost) | **POST**  /v3/merchant/google/product_spec/task_post  |
-[**googleProductSpecTasksReady**](MerchantApi.md#googleProductSpecTasksReady) | **GET**  /v3/merchant/google/product_spec/tasks_ready  |
 [**googleProductSpecTaskGetAdvanced**](MerchantApi.md#googleProductSpecTaskGetAdvanced) | **GET**  /v3/merchant/google/product_spec/task_get/advanced/{id}  |
-[**googleProductSpecTaskGetHtml**](MerchantApi.md#googleProductSpecTaskGetHtml) | **GET**  /v3/merchant/google/product_spec/task_get/html/{id}  |
 [**googleProductInfoTaskPost**](MerchantApi.md#googleProductInfoTaskPost) | **POST**  /v3/merchant/google/product_info/task_post  |
 [**googleProductInfoTasksReady**](MerchantApi.md#googleProductInfoTasksReady) | **GET**  /v3/merchant/google/product_info/tasks_ready  |
 [**googleProductInfoTaskGetAdvanced**](MerchantApi.md#googleProductInfoTaskGetAdvanced) | **GET**  /v3/merchant/google/product_info/task_get/advanced/{id}  |
@@ -74,8 +70,8 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new MerchantIdListRequestInfo();
-   task.datetime_from = "2025-07-14 10:28:04 +00:00";
-   task.datetime_to = "2025-09-14 10:28:04 +00:00";
+   task.datetime_from = "2025-07-24 12:05:35 +00:00";
+   task.datetime_to = "2025-09-24 12:05:35 +00:00";
    task.limit = 100;
    task.offset = 0;
    task.sort = "desc";
@@ -797,179 +793,6 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="googleSellersTaskGetHtml"></a>
-# **googleSellersTaskGetHtml**
-> MerchantGoogleSellersTaskGetHtmlResponseInfo googleSellersTaskGetHtml()
-
-
-### Example
-```typescript
- const username = 'USERNAME';
- const password = 'PASSWORD';
-
- let api = new MerchantApi("https://api.dataforseo.com", {
-   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
-     const token = btoa(`${username}:${password}`);
-     const authHeader = { 'Authorization': `Basic ${token}` };
-
-     const newInit: RequestInit = {
-       ...init,
-       headers: {
-       ...init?.headers,
-       ...authHeader,
-     }
-   };
-
-   return fetch(url, newInit);
-   }
- });
-
- let id = "00000000-0000-0000-0000-000000000000";
- let response = await api.googleSellersTaskGetHtml(id);
-```
-
-### Parameters
-
-
-    
-This endpoint does not need any parameter.
-    
-
-
-### Return type
-
-[**MerchantGoogleSellersTaskGetHtmlResponseInfo**](MerchantGoogleSellersTaskGetHtmlResponseInfo.md)
-
-### Authorization
-
-[basicAuth](../README.md#basicAuth)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** | Successful operation |  -  |
-
-<a id="googleProductSpecTaskPost"></a>
-# **googleProductSpecTaskPost**
-> MerchantGoogleProductSpecTaskPostResponseInfo googleProductSpecTaskPost()
-
-
-### Example
-```typescript
- const username = 'USERNAME';
- const password = 'PASSWORD';
-
- let api = new MerchantApi("https://api.dataforseo.com", {
-   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
-     const token = btoa(`${username}:${password}`);
-     const authHeader = { 'Authorization': `Basic ${token}` };
-
-     const newInit: RequestInit = {
-       ...init,
-       headers: {
-       ...init?.headers,
-       ...authHeader,
-     }
-   };
-
-   return fetch(url, newInit);
-   }
- });
-
- let task = new MerchantGoogleProductSpecTaskPostRequestInfo();
-   task.product_id = "1113158713975221117";
-   task.location_code = 2840;
-   task.language_code = "en";
- let response = await api.googleProductSpecTaskPost([task]);
-```
-
-### Parameters
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **** | [**List&lt;MerchantGoogleProductSpecTaskPostRequestInfo[]&gt;**](MerchantGoogleProductSpecTaskPostRequestInfo[].md)|  | [optional] |
-
-
-
-### Return type
-
-[**MerchantGoogleProductSpecTaskPostResponseInfo**](MerchantGoogleProductSpecTaskPostResponseInfo.md)
-
-### Authorization
-
-[basicAuth](../README.md#basicAuth)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** | Successful operation |  -  |
-
-<a id="googleProductSpecTasksReady"></a>
-# **googleProductSpecTasksReady**
-> MerchantGoogleProductSpecTasksReadyResponseInfo googleProductSpecTasksReady()
-
-
-### Example
-```typescript
- const username = 'USERNAME';
- const password = 'PASSWORD';
-
- let api = new MerchantApi("https://api.dataforseo.com", {
-   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
-     const token = btoa(`${username}:${password}`);
-     const authHeader = { 'Authorization': `Basic ${token}` };
-
-     const newInit: RequestInit = {
-       ...init,
-       headers: {
-       ...init?.headers,
-       ...authHeader,
-     }
-   };
-
-   return fetch(url, newInit);
-   }
- });
-
- let response = await api.googleProductSpecTasksReady();
-```
-
-### Parameters
-
-
-    
-This endpoint does not need any parameter.
-    
-
-
-### Return type
-
-[**MerchantGoogleProductSpecTasksReadyResponseInfo**](MerchantGoogleProductSpecTasksReadyResponseInfo.md)
-
-### Authorization
-
-[basicAuth](../README.md#basicAuth)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** | Successful operation |  -  |
-
 <a id="googleProductSpecTaskGetAdvanced"></a>
 # **googleProductSpecTaskGetAdvanced**
 > MerchantGoogleProductSpecTaskGetAdvancedResponseInfo googleProductSpecTaskGetAdvanced()
@@ -1012,63 +835,6 @@ This endpoint does not need any parameter.
 ### Return type
 
 [**MerchantGoogleProductSpecTaskGetAdvancedResponseInfo**](MerchantGoogleProductSpecTaskGetAdvancedResponseInfo.md)
-
-### Authorization
-
-[basicAuth](../README.md#basicAuth)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** | Successful operation |  -  |
-
-<a id="googleProductSpecTaskGetHtml"></a>
-# **googleProductSpecTaskGetHtml**
-> MerchantGoogleProductSpecTaskGetHtmlResponseInfo googleProductSpecTaskGetHtml()
-
-
-### Example
-```typescript
- const username = 'USERNAME';
- const password = 'PASSWORD';
-
- let api = new MerchantApi("https://api.dataforseo.com", {
-   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
-     const token = btoa(`${username}:${password}`);
-     const authHeader = { 'Authorization': `Basic ${token}` };
-
-     const newInit: RequestInit = {
-       ...init,
-       headers: {
-       ...init?.headers,
-       ...authHeader,
-     }
-   };
-
-   return fetch(url, newInit);
-   }
- });
-
- let id = "00000000-0000-0000-0000-000000000000";
- let response = await api.googleProductSpecTaskGetHtml(id);
-```
-
-### Parameters
-
-
-    
-This endpoint does not need any parameter.
-    
-
-
-### Return type
-
-[**MerchantGoogleProductSpecTaskGetHtmlResponseInfo**](MerchantGoogleProductSpecTaskGetHtmlResponseInfo.md)
 
 ### Authorization
 

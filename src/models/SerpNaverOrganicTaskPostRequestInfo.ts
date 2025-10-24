@@ -72,6 +72,28 @@ optional field
 get the list of available parameters and additional details here */
         search_param?: string | undefined
         
+        /** array of targets to stop crawling
+optional field
+if specified, the response will contain SERP results up to and including the specified match_value;
+you can specify up to 10 target values in this array
+example:
+'stop_crawl_on_match':[{'match_value':'dataforseo.com','match_type':'with_subdomains'}]
+Your account will be billed per each SERP crawled through the specified targets; */
+        stop_crawl_on_match?: string[] | undefined
+        
+        /** array of targets to stop crawling
+required field if stop_crawl_on_match is specified;
+specify a target domain or wildcard value;
+Note: domain name must be specified without a request protocol;
+example: dataforseo.com */
+        match_value?: string | undefined
+        
+        /** array of targets to stop crawling
+required field if stop_crawl_on_match is specified;
+type of match for the match_value
+possible values: domain, with_subdomains, wildcard */
+        match_type?: string[] | undefined
+        
         /** user-defined task identifier
 optional field
 the character limit is 255
@@ -197,6 +219,31 @@ get the list of available parameters and additional details here */
 
     search_param?: string | undefined;
     
+    /** array of targets to stop crawling
+optional field
+if specified, the response will contain SERP results up to and including the specified match_value;
+you can specify up to 10 target values in this array
+example:
+'stop_crawl_on_match':[{'match_value':'dataforseo.com','match_type':'with_subdomains'}]
+Your account will be billed per each SERP crawled through the specified targets; */
+
+    stop_crawl_on_match?: string[] | undefined;
+    
+    /** array of targets to stop crawling
+required field if stop_crawl_on_match is specified;
+specify a target domain or wildcard value;
+Note: domain name must be specified without a request protocol;
+example: dataforseo.com */
+
+    match_value?: string | undefined;
+    
+    /** array of targets to stop crawling
+required field if stop_crawl_on_match is specified;
+type of match for the match_value
+possible values: domain, with_subdomains, wildcard */
+
+    match_type?: string[] | undefined;
+    
     /** user-defined task identifier
 optional field
 the character limit is 255
@@ -268,6 +315,9 @@ learn more on our Help Center */
             this.os = data["os"];
             this.se_domain = data["se_domain"];
             this.search_param = data["search_param"];
+            this.stop_crawl_on_match = data["stop_crawl_on_match"];
+            this.match_value = data["match_value"];
+            this.match_type = data["match_type"];
             this.tag = data["tag"];
             this.postback_url = data["postback_url"];
             this.postback_data = data["postback_data"];
@@ -298,6 +348,9 @@ learn more on our Help Center */
         data["os"] = this.os;
         data["se_domain"] = this.se_domain;
         data["search_param"] = this.search_param;
+        data["stop_crawl_on_match"] = this.stop_crawl_on_match;
+        data["match_value"] = this.match_value;
+        data["match_type"] = this.match_type;
         data["tag"] = this.tag;
         data["postback_url"] = this.postback_url;
         data["postback_data"] = this.postback_data;

@@ -1,4 +1,4 @@
-import { RatingElement, IRatingElement } from "./RatingElement";
+import { RatingInfo, IRatingInfo } from "./RatingInfo";
 import { BusinessDataUserProfileInfo, IBusinessDataUserProfileInfo } from "./BusinessDataUserProfileInfo";
 import { ReviewResponseItemInfo, IReviewResponseItemInfo } from "./ReviewResponseItemInfo";
 
@@ -24,7 +24,7 @@ can take the following values: right */
         url?: string | undefined
         
         /** the rating score submitted by the reviewer */
-        rating?: RatingElement | undefined
+        rating?: RatingInfo | undefined
         
         /** indicates whether the review has the “Verified” mark */
         verified?: boolean | undefined
@@ -86,7 +86,7 @@ can take the following values: right */
     
     /** the rating score submitted by the reviewer */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingInfo | undefined;
     
     /** indicates whether the review has the “Verified” mark */
 
@@ -150,7 +150,7 @@ please note that Trustpilot doesn’t allow adding images to reviews, so the rev
             this.rank_absolute = data["rank_absolute"];
             this.position = data["position"];
             this.url = data["url"];
-            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
             this.verified = data["verified"];
             this.language = data["language"];
             this.timestamp = data["timestamp"];
@@ -186,7 +186,7 @@ please note that Trustpilot doesn’t allow adding images to reviews, so the rev
         data["rank_absolute"] = this.rank_absolute;
         data["position"] = this.position;
         data["url"] = this.url;
-        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["verified"] = this.verified;
         data["language"] = this.language;
         data["timestamp"] = this.timestamp;

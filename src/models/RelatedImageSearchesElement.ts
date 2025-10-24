@@ -3,17 +3,16 @@ export interface IRelatedImageSearchesElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of a given shopping element */
+        /** title of the result in SERP */
         title?: string | undefined
         
         /** alt tag of the image */
         alt?: string | undefined
         
-        /** URL */
+        /** URL of the third-party review source */
         url?: string | undefined
         
-        /** URL of the image
-the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+        /** URL to the image thumbnail of the video */
         image_url?: string | undefined
 
     [key: string]: any;
@@ -26,7 +25,7 @@ export class RelatedImageSearchesElement  implements IRelatedImageSearchesElemen
 
     type?: string | undefined;
     
-    /** title of a given shopping element */
+    /** title of the result in SERP */
 
     title?: string | undefined;
     
@@ -34,12 +33,11 @@ export class RelatedImageSearchesElement  implements IRelatedImageSearchesElemen
 
     alt?: string | undefined;
     
-    /** URL */
+    /** URL of the third-party review source */
 
     url?: string | undefined;
     
-    /** URL of the image
-the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+    /** URL to the image thumbnail of the video */
 
     image_url?: string | undefined;
 

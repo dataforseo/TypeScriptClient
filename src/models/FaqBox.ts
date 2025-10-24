@@ -6,8 +6,7 @@ export interface IFaqBox   {
         /** type of element */
         type?: string | undefined
         
-        /** additional items present in the element
-if there are none, equals null */
+        /** contains arrays of specific images */
         items?: FaqBoxElement[] | undefined
 
     [key: string]: any;
@@ -20,8 +19,7 @@ export class FaqBox  implements IFaqBox {
 
     type?: string | undefined;
     
-    /** additional items present in the element
-if there are none, equals null */
+    /** contains arrays of specific images */
 
     items?: FaqBoxElement[] | undefined;
 

@@ -1,4 +1,4 @@
-import { RatingElement, IRatingElement } from "./RatingElement";
+import { RatingInfo, IRatingInfo } from "./RatingInfo";
 
 
 export interface ILocalServicesElement   {
@@ -6,21 +6,21 @@ export interface ILocalServicesElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of a given link element */
+        /** title of the row */
         title?: string | undefined
         
-        /** URL */
+        /** URL of element */
         url?: string | undefined
         
-        /** website domain */
+        /** domain where a link points */
         domain?: string | undefined
         
         /** description of the results element in SERP */
         description?: string | undefined
         
-        /** the item’s rating 
+        /** the element’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement | undefined
+        rating?: RatingInfo | undefined
         
         /** URL of the image featured in the element */
         profile_image_url?: string | undefined
@@ -35,15 +35,15 @@ export class LocalServicesElement  implements ILocalServicesElement {
 
     type?: string | undefined;
     
-    /** title of a given link element */
+    /** title of the row */
 
     title?: string | undefined;
     
-    /** URL */
+    /** URL of element */
 
     url?: string | undefined;
     
-    /** website domain */
+    /** domain where a link points */
 
     domain?: string | undefined;
     
@@ -51,10 +51,10 @@ export class LocalServicesElement  implements ILocalServicesElement {
 
     description?: string | undefined;
     
-    /** the item’s rating 
+    /** the element’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingInfo | undefined;
     
     /** URL of the image featured in the element */
 
@@ -85,7 +85,7 @@ the popularity rate based on reviews and displayed in SERP */
             this.url = data["url"];
             this.domain = data["domain"];
             this.description = data["description"];
-            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
             this.profile_image_url = data["profile_image_url"];
         }
     }
@@ -109,7 +109,7 @@ the popularity rate based on reviews and displayed in SERP */
         data["url"] = this.url;
         data["domain"] = this.domain;
         data["description"] = this.description;
-        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["profile_image_url"] = this.profile_image_url;
         return data;
     }

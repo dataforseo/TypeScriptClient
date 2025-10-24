@@ -3,6 +3,7 @@ import { AiModeImagesElementInfo, IAiModeImagesElementInfo } from "./AiModeImage
 import { AiModeAiOverviewReferenceInfo, IAiModeAiOverviewReferenceInfo } from "./AiModeAiOverviewReferenceInfo";
 import { AiModeAiOverviewExpandedComponentInfo, IAiModeAiOverviewExpandedComponentInfo } from "./AiModeAiOverviewExpandedComponentInfo";
 import { AiModeTableInfo, IAiModeTableInfo } from "./AiModeTableInfo";
+import { AiModeAiOverviewShoppingElementInfo, IAiModeAiOverviewShoppingElementInfo } from "./AiModeAiOverviewShoppingElementInfo";
 
 
 export interface IBaseSerpApiAiModeAiOverviewElementItem   {
@@ -84,6 +85,12 @@ left, right */
         if (data["type"] === "ai_overview_table_element") {
 
             let result = new SerpApiAiModeAiOverviewTableElementItem();
+            result.init(data);
+            return result;
+        }
+        if (data["type"] === "ai_overview_shopping") {
+
+            let result = new SerpApiAiModeAiOverviewShoppingItem();
             result.init(data);
             return result;
         }
@@ -574,6 +581,95 @@ the header and content of the table present in the element */
             for (let item of this.references) {
                 if (item && typeof item.toJSON === "function") {
                     data["references"].push(item?.toJSON());
+                }
+            }
+        }
+        return data;
+    }
+}
+
+ 
+export interface ISerpApiAiModeAiOverviewShoppingItem  extends IBaseSerpApiAiModeAiOverviewElementItem    {
+        
+        /** title of the link */
+        title?: string | undefined
+        
+        /** content of the element in markdown format
+the text of the ai_overview formatted in the markdown markup language */
+        markdown?: string | undefined
+        
+        /** items of the element */
+        items?: AiModeAiOverviewShoppingElementInfo[] | undefined
+
+    [key: string]: any;
+
+    }
+
+export class SerpApiAiModeAiOverviewShoppingItem  extends BaseSerpApiAiModeAiOverviewElementItem   implements ISerpApiAiModeAiOverviewShoppingItem {
+    
+    /** title of the link */
+
+    title?: string | undefined;
+    
+    /** content of the element in markdown format
+the text of the ai_overview formatted in the markdown markup language */
+
+    markdown?: string | undefined;
+    
+    /** items of the element */
+
+    items?: AiModeAiOverviewShoppingElementInfo[] | undefined;
+
+    [key: string]: any;
+
+
+    constructor(data?: ISerpApiAiModeAiOverviewShoppingItem) {
+    super(data);
+
+    }
+
+    init(data?: any) {
+        super.init(data);
+        if (data) {
+            for (var property in data) {
+                if (data.hasOwnProperty(property))
+                    this[property] = data[property];
+            }
+            this.title = data["title"];
+            this.markdown = data["markdown"];
+            if (Array.isArray(data["items"])) {
+                this.items = [];
+                for (let item of data["items"]) {
+                    this.items.push(AiModeAiOverviewShoppingElementInfo.fromJS(item));
+                }
+            }
+        }
+    }
+
+    static fromJS(data: any): SerpApiAiModeAiOverviewShoppingItem {
+        data = typeof data === 'object' ? data : {};
+
+
+        let result = new SerpApiAiModeAiOverviewShoppingItem();
+        result.init(data);
+        return result;
+    }
+
+    toJSON(data?: any) {
+        data = typeof data === 'object' ? data : {};
+
+         
+        super.toJSON(data);
+        
+        
+        data["title"] = this.title;
+        data["markdown"] = this.markdown;
+        data["items"] = null;
+        if (Array.isArray(this.items)) {
+            data["items"] = [];
+            for (let item of this.items) {
+                if (item && typeof item.toJSON === "function") {
+                    data["items"].push(item?.toJSON());
                 }
             }
         }

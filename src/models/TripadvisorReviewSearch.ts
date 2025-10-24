@@ -1,4 +1,4 @@
-import { RatingElement, IRatingElement } from "./RatingElement";
+import { RatingInfo, IRatingInfo } from "./RatingInfo";
 import { ImageUrlInfo, IImageUrlInfo } from "./ImageUrlInfo";
 import { BusinessDataUserProfileInfo, IBusinessDataUserProfileInfo } from "./BusinessDataUserProfileInfo";
 import { ReviewResponseItemInfo, IReviewResponseItemInfo } from "./ReviewResponseItemInfo";
@@ -25,7 +25,7 @@ can take the following values: right */
         url?: string | undefined
         
         /** the rating score submitted by the reviewer */
-        rating?: RatingElement | undefined
+        rating?: RatingInfo | undefined
         
         /** date of the reviewer’s visit to the local establishment
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -98,7 +98,7 @@ can take the following values: right */
     
     /** the rating score submitted by the reviewer */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingInfo | undefined;
     
     /** date of the reviewer’s visit to the local establishment
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -176,7 +176,7 @@ contains highlighted review criteria and assessments */
             this.rank_absolute = data["rank_absolute"];
             this.position = data["position"];
             this.url = data["url"];
-            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
             this.date_of_visit = data["date_of_visit"];
             this.timestamp = data["timestamp"];
             this.review_id = data["review_id"];
@@ -220,7 +220,7 @@ contains highlighted review criteria and assessments */
         data["rank_absolute"] = this.rank_absolute;
         data["position"] = this.position;
         data["url"] = this.url;
-        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["date_of_visit"] = this.date_of_visit;
         data["timestamp"] = this.timestamp;
         data["review_id"] = this.review_id;

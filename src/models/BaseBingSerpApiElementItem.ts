@@ -1,6 +1,6 @@
 import { AiModeRectangleInfo, IAiModeRectangleInfo } from "./AiModeRectangleInfo";
 import { AiModeImagesElementInfo, IAiModeImagesElementInfo } from "./AiModeImagesElementInfo";
-import { RatingElement, IRatingElement } from "./RatingElement";
+import { RatingInfo, IRatingInfo } from "./RatingInfo";
 import { PriceInfo, IPriceInfo } from "./PriceInfo";
 import { LinkElement, ILinkElement } from "./LinkElement";
 import { FaqBox, IFaqBox } from "./FaqBox";
@@ -333,7 +333,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version */
         
         /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement | undefined
+        rating?: RatingInfo | undefined
         
         /** pricing details
 contains the pricing details of the product or service featured in the result */
@@ -451,7 +451,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version */
     /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingInfo | undefined;
     
     /** pricing details
 contains the pricing details of the product or service featured in the result */
@@ -535,7 +535,7 @@ example:
                 }
             }
             this.amp_version = data["amp_version"];
-            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
             this.price = data["price"] ? PriceInfo.fromJS(data["price"]) : <any>undefined;
             this.highlighted = data["highlighted"];
             if (Array.isArray(data["links"])) {
@@ -598,7 +598,7 @@ example:
             }
         }
         data["amp_version"] = this.amp_version;
-        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["price"] = this.price ? PriceInfo.fromJS(this.price)?.toJSON() : <any>undefined;
         data["highlighted"] = this.highlighted;
         data["links"] = null;
@@ -670,12 +670,12 @@ if there is none, equals null */
         /** links featured in the organic result */
         links?: AdLinkElement[] | undefined
         
-        /** price of booking a place for the specified dates of stay */
+        /** price of the shopping element */
         price?: PriceInfo | undefined
         
-        /** the item’s rating 
+        /** the item’s rating
 the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement | undefined
+        rating?: RatingInfo | undefined
 
     [key: string]: any;
 
@@ -736,14 +736,14 @@ if there is none, equals null */
 
     links?: AdLinkElement[] | undefined;
     
-    /** price of booking a place for the specified dates of stay */
+    /** price of the shopping element */
 
     price?: PriceInfo | undefined;
     
-    /** the item’s rating 
+    /** the item’s rating
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingInfo | undefined;
 
     [key: string]: any;
 
@@ -784,7 +784,7 @@ the popularity rate based on reviews and displayed in SERP */
                 }
             }
             this.price = data["price"] ? PriceInfo.fromJS(data["price"]) : <any>undefined;
-            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
         }
     }
 
@@ -834,7 +834,7 @@ the popularity rate based on reviews and displayed in SERP */
             }
         }
         data["price"] = this.price ? PriceInfo.fromJS(this.price)?.toJSON() : <any>undefined;
-        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         return data;
     }
 }
@@ -1151,13 +1151,14 @@ includes references to webpages that may have been used to generate the ai_overv
  
 export interface IBingImagesSerpElementItem  extends IBaseBingSerpApiElementItem    {
         
-        /** title of the item */
+        /** title of the result in SERP */
         title?: string | undefined
         
-        /** URL */
+        /** relevant URL */
         url?: string | undefined
         
-        /** contains results featured in the ‘hotels_pack’ element of SERP */
+        /** additional items present in the element
+if there are none, equals null */
         items?: AiModeImagesElementInfo[] | undefined
         
         /** contains keywords and images related to the specified search term
@@ -1170,15 +1171,16 @@ if there are none, equals null */
 
 export class BingImagesSerpElementItem  extends BaseBingSerpApiElementItem   implements IBingImagesSerpElementItem {
     
-    /** title of the item */
+    /** title of the result in SERP */
 
     title?: string | undefined;
     
-    /** URL */
+    /** relevant URL */
 
     url?: string | undefined;
     
-    /** contains results featured in the ‘hotels_pack’ element of SERP */
+    /** additional items present in the element
+if there are none, equals null */
 
     items?: AiModeImagesElementInfo[] | undefined;
     
@@ -1262,7 +1264,8 @@ if there are none, equals null */
  
 export interface IBingVideoSerpElementItem  extends IBaseBingSerpApiElementItem    {
         
-        /** contains results featured in the ‘hotels_pack’ element of SERP */
+        /** additional items present in the element
+if there are none, equals null */
         items?: VideoElement[] | undefined
 
     [key: string]: any;
@@ -1271,7 +1274,8 @@ export interface IBingVideoSerpElementItem  extends IBaseBingSerpApiElementItem 
 
 export class BingVideoSerpElementItem  extends BaseBingSerpApiElementItem   implements IBingVideoSerpElementItem {
     
-    /** contains results featured in the ‘hotels_pack’ element of SERP */
+    /** additional items present in the element
+if there are none, equals null */
 
     items?: VideoElement[] | undefined;
 
@@ -1331,10 +1335,11 @@ export class BingVideoSerpElementItem  extends BaseBingSerpApiElementItem   impl
  
 export interface IBingShoppingSerpElementItem  extends IBaseBingSerpApiElementItem    {
         
-        /** title of the item */
+        /** title of the result in SERP */
         title?: string | undefined
         
-        /** contains results featured in the ‘hotels_pack’ element of SERP */
+        /** additional items present in the element
+if there are none, equals null */
         items?: ShoppingElement[] | undefined
 
     [key: string]: any;
@@ -1343,11 +1348,12 @@ export interface IBingShoppingSerpElementItem  extends IBaseBingSerpApiElementIt
 
 export class BingShoppingSerpElementItem  extends BaseBingSerpApiElementItem   implements IBingShoppingSerpElementItem {
     
-    /** title of the item */
+    /** title of the result in SERP */
 
     title?: string | undefined;
     
-    /** contains results featured in the ‘hotels_pack’ element of SERP */
+    /** additional items present in the element
+if there are none, equals null */
 
     items?: ShoppingElement[] | undefined;
 
@@ -1489,27 +1495,27 @@ if there is none, equals null */
  
 export interface IBingLocalPackSerpElementItem  extends IBaseBingSerpApiElementItem    {
         
-        /** title of the item */
+        /** title of the result in SERP */
         title?: string | undefined
         
         /** description of the results element in SERP */
         description?: string | undefined
         
-        /** domain where the video is hosted */
+        /** domain of the organic result */
         domain?: string | undefined
         
         /** phone number */
         phone?: string | undefined
         
-        /** URL */
+        /** relevant URL */
         url?: string | undefined
         
         /** indicates whether the element is an ad */
         is_paid?: boolean | undefined
         
-        /** the item’s rating 
+        /** the item’s rating
 the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement | undefined
+        rating?: RatingInfo | undefined
         
         /** bing-defined client id
 unique id of a local establishment */
@@ -1521,7 +1527,7 @@ unique id of a local establishment */
 
 export class BingLocalPackSerpElementItem  extends BaseBingSerpApiElementItem   implements IBingLocalPackSerpElementItem {
     
-    /** title of the item */
+    /** title of the result in SERP */
 
     title?: string | undefined;
     
@@ -1529,7 +1535,7 @@ export class BingLocalPackSerpElementItem  extends BaseBingSerpApiElementItem   
 
     description?: string | undefined;
     
-    /** domain where the video is hosted */
+    /** domain of the organic result */
 
     domain?: string | undefined;
     
@@ -1537,7 +1543,7 @@ export class BingLocalPackSerpElementItem  extends BaseBingSerpApiElementItem   
 
     phone?: string | undefined;
     
-    /** URL */
+    /** relevant URL */
 
     url?: string | undefined;
     
@@ -1545,10 +1551,10 @@ export class BingLocalPackSerpElementItem  extends BaseBingSerpApiElementItem   
 
     is_paid?: boolean | undefined;
     
-    /** the item’s rating 
+    /** the item’s rating
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingInfo | undefined;
     
     /** bing-defined client id
 unique id of a local establishment */
@@ -1576,7 +1582,7 @@ unique id of a local establishment */
             this.phone = data["phone"];
             this.url = data["url"];
             this.is_paid = data["is_paid"];
-            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
             this.cid = data["cid"];
         }
     }
@@ -1603,7 +1609,7 @@ unique id of a local establishment */
         data["phone"] = this.phone;
         data["url"] = this.url;
         data["is_paid"] = this.is_paid;
-        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["cid"] = this.cid;
         return data;
     }
@@ -1612,7 +1618,8 @@ unique id of a local establishment */
  
 export interface IBingQuestionsAndAnswersSerpElementItem  extends IBaseBingSerpApiElementItem    {
         
-        /** contains results featured in the ‘hotels_pack’ element of SERP */
+        /** additional items present in the element
+if there are none, equals null */
         items?: QuestionsAndAnswersElement[] | undefined
 
     [key: string]: any;
@@ -1621,7 +1628,8 @@ export interface IBingQuestionsAndAnswersSerpElementItem  extends IBaseBingSerpA
 
 export class BingQuestionsAndAnswersSerpElementItem  extends BaseBingSerpApiElementItem   implements IBingQuestionsAndAnswersSerpElementItem {
     
-    /** contains results featured in the ‘hotels_pack’ element of SERP */
+    /** additional items present in the element
+if there are none, equals null */
 
     items?: QuestionsAndAnswersElement[] | undefined;
 
@@ -1681,7 +1689,7 @@ export class BingQuestionsAndAnswersSerpElementItem  extends BaseBingSerpApiElem
  
 export interface IBingHotelsPackSerpElementItem  extends IBaseBingSerpApiElementItem    {
         
-        /** title of the item */
+        /** title of the result in SERP */
         title?: string | undefined
         
         /** starting date of stay
@@ -1696,7 +1704,8 @@ example:
 2019-11-17 */
         date_to?: string | undefined
         
-        /** contains results featured in the ‘hotels_pack’ element of SERP */
+        /** additional items present in the element
+if there are none, equals null */
         items?: HotelsPackElement[] | undefined
 
     [key: string]: any;
@@ -1705,7 +1714,7 @@ example:
 
 export class BingHotelsPackSerpElementItem  extends BaseBingSerpApiElementItem   implements IBingHotelsPackSerpElementItem {
     
-    /** title of the item */
+    /** title of the result in SERP */
 
     title?: string | undefined;
     
@@ -1723,7 +1732,8 @@ example:
 
     date_to?: string | undefined;
     
-    /** contains results featured in the ‘hotels_pack’ element of SERP */
+    /** additional items present in the element
+if there are none, equals null */
 
     items?: HotelsPackElement[] | undefined;
 
@@ -1789,13 +1799,14 @@ example:
  
 export interface IBingJobsSerpElementItem  extends IBaseBingSerpApiElementItem    {
         
-        /** title of the item */
+        /** title of the result in SERP */
         title?: string | undefined
         
-        /** URL */
+        /** relevant URL */
         url?: string | undefined
         
-        /** contains results featured in the ‘hotels_pack’ element of SERP */
+        /** additional items present in the element
+if there are none, equals null */
         items?: JobsElement[] | undefined
 
     [key: string]: any;
@@ -1804,15 +1815,16 @@ export interface IBingJobsSerpElementItem  extends IBaseBingSerpApiElementItem  
 
 export class BingJobsSerpElementItem  extends BaseBingSerpApiElementItem   implements IBingJobsSerpElementItem {
     
-    /** title of the item */
+    /** title of the result in SERP */
 
     title?: string | undefined;
     
-    /** URL */
+    /** relevant URL */
 
     url?: string | undefined;
     
-    /** contains results featured in the ‘hotels_pack’ element of SERP */
+    /** additional items present in the element
+if there are none, equals null */
 
     items?: JobsElement[] | undefined;
 
@@ -1876,10 +1888,11 @@ export class BingJobsSerpElementItem  extends BaseBingSerpApiElementItem   imple
  
 export interface IBingTopStoriesSerpElementItem  extends IBaseBingSerpApiElementItem    {
         
-        /** title of the item */
+        /** title of the result in SERP */
         title?: string | undefined
         
-        /** contains results featured in the ‘hotels_pack’ element of SERP */
+        /** additional items present in the element
+if there are none, equals null */
         items?: TopStoriesElement[] | undefined
 
     [key: string]: any;
@@ -1888,11 +1901,12 @@ export interface IBingTopStoriesSerpElementItem  extends IBaseBingSerpApiElement
 
 export class BingTopStoriesSerpElementItem  extends BaseBingSerpApiElementItem   implements IBingTopStoriesSerpElementItem {
     
-    /** title of the item */
+    /** title of the result in SERP */
 
     title?: string | undefined;
     
-    /** contains results featured in the ‘hotels_pack’ element of SERP */
+    /** additional items present in the element
+if there are none, equals null */
 
     items?: TopStoriesElement[] | undefined;
 
@@ -1954,10 +1968,11 @@ export class BingTopStoriesSerpElementItem  extends BaseBingSerpApiElementItem  
  
 export interface IBingCarouselSerpElementItem  extends IBaseBingSerpApiElementItem    {
         
-        /** title of the item */
+        /** title of the result in SERP */
         title?: string | undefined
         
-        /** contains results featured in the ‘hotels_pack’ element of SERP */
+        /** additional items present in the element
+if there are none, equals null */
         items?: SerpApiCarouselElement[] | undefined
 
     [key: string]: any;
@@ -1966,11 +1981,12 @@ export interface IBingCarouselSerpElementItem  extends IBaseBingSerpApiElementIt
 
 export class BingCarouselSerpElementItem  extends BaseBingSerpApiElementItem   implements IBingCarouselSerpElementItem {
     
-    /** title of the item */
+    /** title of the result in SERP */
 
     title?: string | undefined;
     
-    /** contains results featured in the ‘hotels_pack’ element of SERP */
+    /** additional items present in the element
+if there are none, equals null */
 
     items?: SerpApiCarouselElement[] | undefined;
 
@@ -2032,10 +2048,10 @@ export class BingCarouselSerpElementItem  extends BaseBingSerpApiElementItem   i
  
 export interface IBingMapSerpElementItem  extends IBaseBingSerpApiElementItem    {
         
-        /** title of the item */
+        /** title of the result in SERP */
         title?: string | undefined
         
-        /** URL */
+        /** relevant URL */
         url?: string | undefined
 
     [key: string]: any;
@@ -2044,11 +2060,11 @@ export interface IBingMapSerpElementItem  extends IBaseBingSerpApiElementItem   
 
 export class BingMapSerpElementItem  extends BaseBingSerpApiElementItem   implements IBingMapSerpElementItem {
     
-    /** title of the item */
+    /** title of the result in SERP */
 
     title?: string | undefined;
     
-    /** URL */
+    /** relevant URL */
 
     url?: string | undefined;
 
@@ -2097,13 +2113,14 @@ export class BingMapSerpElementItem  extends BaseBingSerpApiElementItem   implem
  
 export interface IBingEventsSerpElementItem  extends IBaseBingSerpApiElementItem    {
         
-        /** title of the item */
+        /** title of the result in SERP */
         title?: string | undefined
         
-        /** URL */
+        /** relevant URL */
         url?: string | undefined
         
-        /** contains results featured in the ‘hotels_pack’ element of SERP */
+        /** additional items present in the element
+if there are none, equals null */
         items?: EventsElement[] | undefined
 
     [key: string]: any;
@@ -2112,15 +2129,16 @@ export interface IBingEventsSerpElementItem  extends IBaseBingSerpApiElementItem
 
 export class BingEventsSerpElementItem  extends BaseBingSerpApiElementItem   implements IBingEventsSerpElementItem {
     
-    /** title of the item */
+    /** title of the result in SERP */
 
     title?: string | undefined;
     
-    /** URL */
+    /** relevant URL */
 
     url?: string | undefined;
     
-    /** contains results featured in the ‘hotels_pack’ element of SERP */
+    /** additional items present in the element
+if there are none, equals null */
 
     items?: EventsElement[] | undefined;
 
@@ -2184,7 +2202,8 @@ export class BingEventsSerpElementItem  extends BaseBingSerpApiElementItem   imp
  
 export interface IBingRecipesSerpElementItem  extends IBaseBingSerpApiElementItem    {
         
-        /** contains results featured in the ‘hotels_pack’ element of SERP */
+        /** additional items present in the element
+if there are none, equals null */
         items?: RecipesElement[] | undefined
 
     [key: string]: any;
@@ -2193,7 +2212,8 @@ export interface IBingRecipesSerpElementItem  extends IBaseBingSerpApiElementIte
 
 export class BingRecipesSerpElementItem  extends BaseBingSerpApiElementItem   implements IBingRecipesSerpElementItem {
     
-    /** contains results featured in the ‘hotels_pack’ element of SERP */
+    /** additional items present in the element
+if there are none, equals null */
 
     items?: RecipesElement[] | undefined;
 
@@ -2253,7 +2273,8 @@ export class BingRecipesSerpElementItem  extends BaseBingSerpApiElementItem   im
  
 export interface IBingPeopleAlsoAskSerpElementItem  extends IBaseBingSerpApiElementItem    {
         
-        /** contains results featured in the ‘hotels_pack’ element of SERP */
+        /** additional items present in the element
+if there are none, equals null */
         items?: PeopleAlsoAskElement[] | undefined
 
     [key: string]: any;
@@ -2262,7 +2283,8 @@ export interface IBingPeopleAlsoAskSerpElementItem  extends IBaseBingSerpApiElem
 
 export class BingPeopleAlsoAskSerpElementItem  extends BaseBingSerpApiElementItem   implements IBingPeopleAlsoAskSerpElementItem {
     
-    /** contains results featured in the ‘hotels_pack’ element of SERP */
+    /** additional items present in the element
+if there are none, equals null */
 
     items?: PeopleAlsoAskElement[] | undefined;
 
@@ -2322,10 +2344,11 @@ export class BingPeopleAlsoAskSerpElementItem  extends BaseBingSerpApiElementIte
  
 export interface IBingPeopleAlsoSearchSerpElementItem  extends IBaseBingSerpApiElementItem    {
         
-        /** title of the item */
+        /** title of the result in SERP */
         title?: string | undefined
         
-        /** contains results featured in the ‘hotels_pack’ element of SERP */
+        /** additional items present in the element
+if there are none, equals null */
         items?: string[] | undefined
 
     [key: string]: any;
@@ -2334,11 +2357,12 @@ export interface IBingPeopleAlsoSearchSerpElementItem  extends IBaseBingSerpApiE
 
 export class BingPeopleAlsoSearchSerpElementItem  extends BaseBingSerpApiElementItem   implements IBingPeopleAlsoSearchSerpElementItem {
     
-    /** title of the item */
+    /** title of the result in SERP */
 
     title?: string | undefined;
     
-    /** contains results featured in the ‘hotels_pack’ element of SERP */
+    /** additional items present in the element
+if there are none, equals null */
 
     items?: string[] | undefined;
 

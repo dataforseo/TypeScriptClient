@@ -32,7 +32,7 @@ optional field
 number of reviews to be returned from the API response
 we strongly recommend setting the parsing depth in the multiples of twenty, because our system processes twenty reviews in a row
 default value: 20
-maximum value: 25000
+maximum value: 200
 Your account will be billed per each SERP containing up to 20 results;
 Setting depth above 20 may result in additional charges if the search engine returns more than 20 results;
 The cost can be calculated on the Pricing page. */
@@ -110,7 +110,7 @@ optional field
 number of reviews to be returned from the API response
 we strongly recommend setting the parsing depth in the multiples of twenty, because our system processes twenty reviews in a row
 default value: 20
-maximum value: 25000
+maximum value: 200
 Your account will be billed per each SERP containing up to 20 results;
 Setting depth above 20 may result in additional charges if the search engine returns more than 20 results;
 The cost can be calculated on the Pricing page. */

@@ -47,8 +47,8 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new DomainAnalyticsIdListRequestInfo();
-   task.datetime_from = "2025-07-14 10:26:13 +00:00";
-   task.datetime_to = "2025-09-14 10:26:13 +00:00";
+   task.datetime_from = "2025-07-24 12:02:59 +00:00";
+   task.datetime_to = "2025-09-24 12:02:59 +00:00";
    task.limit = 100;
    task.offset = 0;
    task.sort = "desc";
@@ -519,8 +519,8 @@ This endpoint does not need any parameter.
 
  let task = new DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo();
    task.technology = "jQuery";
-   task.date_from = "2025-07-14";
-   task.date_to = "2025-09-14";
+   task.date_from = "2025-07-24";
+   task.date_to = "2025-09-24";
  let response = await api.technologiesTechnologyStatsLive([task]);
 ```
 

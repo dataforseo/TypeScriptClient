@@ -1,4 +1,4 @@
-import { RatingElement, IRatingElement } from "./RatingElement";
+import { RatingInfo, IRatingInfo } from "./RatingInfo";
 import { BaseMerchantGoogleShoppingSellersElementItem, IBaseMerchantGoogleShoppingSellersElementItem } from "./BaseMerchantGoogleShoppingSellersElementItem";
 
 
@@ -41,7 +41,7 @@ example:
         
         /** product rating
 the product popularity rate based on product reviews */
-        rating?: RatingElement | undefined
+        rating?: RatingInfo | undefined
         
         /** types of search results found in Google Shopping SERP
 contains types of all search results (items) found in the returned SERP
@@ -109,7 +109,7 @@ example:
     /** product rating
 the product popularity rate based on product reviews */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingInfo | undefined;
     
     /** types of search results found in Google Shopping SERP
 contains types of all search results (items) found in the returned SERP
@@ -156,7 +156,7 @@ shops_list, buy_on_google */
             this.title = data["title"];
             this.url = data["url"];
             this.image_url = data["image_url"];
-            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
             this.item_types = data["item_types"];
             this.items_count = data["items_count"];
             if (Array.isArray(data["items"])) {
@@ -192,7 +192,7 @@ shops_list, buy_on_google */
         data["title"] = this.title;
         data["url"] = this.url;
         data["image_url"] = this.image_url;
-        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["item_types"] = this.item_types;
         data["items_count"] = this.items_count;
         data["items"] = null;

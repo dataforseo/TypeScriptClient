@@ -3,13 +3,13 @@ export interface IDiscussionsAndForumsElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of a given link element */
+        /** title of the row */
         title?: string | undefined
         
-        /** URL */
+        /** URL of element */
         url?: string | undefined
         
-        /** website domain */
+        /** domain where a link points */
         domain?: string | undefined
         
         /** source of the element
@@ -38,15 +38,15 @@ export class DiscussionsAndForumsElement  implements IDiscussionsAndForumsElemen
 
     type?: string | undefined;
     
-    /** title of a given link element */
+    /** title of the row */
 
     title?: string | undefined;
     
-    /** URL */
+    /** URL of element */
 
     url?: string | undefined;
     
-    /** website domain */
+    /** domain where a link points */
 
     domain?: string | undefined;
     

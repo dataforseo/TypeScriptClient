@@ -7,7 +7,7 @@ export interface IAiOverviewElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of a given link element */
+        /** title of the carousel item */
         title?: string | undefined
         
         /** content within the item */
@@ -30,7 +30,7 @@ export class AiOverviewElement  implements IAiOverviewElement {
 
     type?: string | undefined;
     
-    /** title of a given link element */
+    /** title of the carousel item */
 
     title?: string | undefined;
     

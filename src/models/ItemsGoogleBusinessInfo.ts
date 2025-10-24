@@ -1,6 +1,6 @@
 import { AddressInfo, IAddressInfo } from "./AddressInfo";
 import { BusinessDataAttributesInfo, IBusinessDataAttributesInfo } from "./BusinessDataAttributesInfo";
-import { RatingElement, IRatingElement } from "./RatingElement";
+import { RatingInfo, IRatingInfo } from "./RatingInfo";
 import { PeopleAlsoSearch, IPeopleAlsoSearch } from "./PeopleAlsoSearch";
 import { BusinessWorkHoursInfo, IBusinessWorkHoursInfo } from "./BusinessWorkHoursInfo";
 
@@ -124,7 +124,7 @@ example:
         
         /** the element’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement | undefined
+        rating?: RatingInfo | undefined
         
         /** hotel class rating
 class ratings range between 1-5 stars, learn more
@@ -319,7 +319,7 @@ example:
     /** the element’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingInfo | undefined;
     
     /** hotel class rating
 class ratings range between 1-5 stars, learn more
@@ -419,7 +419,7 @@ includes information about businesses that are located within the target busines
             this.is_claimed = data["is_claimed"];
             this.attributes = data["attributes"] ? BusinessDataAttributesInfo.fromJS(data["attributes"]) : <any>undefined;
             this.place_topics = data["place_topics"];
-            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
             this.hotel_rating = data["hotel_rating"];
             this.price_level = data["price_level"];
             this.rating_distribution = data["rating_distribution"];
@@ -481,7 +481,7 @@ includes information about businesses that are located within the target busines
         data["is_claimed"] = this.is_claimed;
         data["attributes"] = this.attributes ? BusinessDataAttributesInfo.fromJS(this.attributes)?.toJSON() : <any>undefined;
         data["place_topics"] = this.place_topics;
-        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["hotel_rating"] = this.hotel_rating;
         data["price_level"] = this.price_level;
         data["rating_distribution"] = this.rating_distribution;

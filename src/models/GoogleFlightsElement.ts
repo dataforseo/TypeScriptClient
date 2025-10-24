@@ -6,7 +6,7 @@ export interface IGoogleFlightsElement   {
         /** description of the results element in SERP */
         description?: string | undefined
         
-        /** URL */
+        /** URL of element */
         url?: string | undefined
 
     [key: string]: any;
@@ -23,7 +23,7 @@ export class GoogleFlightsElement  implements IGoogleFlightsElement {
 
     description?: string | undefined;
     
-    /** URL */
+    /** URL of element */
 
     url?: string | undefined;
 

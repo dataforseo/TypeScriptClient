@@ -17,4 +17,4 @@
 **se_results_count** | **number** | total number of results in SERP |[optional]|
 **pages_count** | **number** | total search results pages retrieved<br>total number of retrieved SERPs in the result |[optional]|
 **items_count** | **number** | the number of results returned in the items array |[optional]|
-**items** | **BaseSerpApiElementItem[]** | contains arrays of elements available in the list |[optional]|
+**items** | **BaseSerpApiElementItem[]** | additional items present in the element<br>if there are none, equals null |[optional]|

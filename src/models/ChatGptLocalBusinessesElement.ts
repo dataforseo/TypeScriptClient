@@ -1,4 +1,4 @@
-import { RatingElement, IRatingElement } from "./RatingElement";
+import { RatingInfo, IRatingInfo } from "./RatingInfo";
 
 
 export interface IChatGptLocalBusinessesElement   {
@@ -29,7 +29,7 @@ export interface IChatGptLocalBusinessesElement   {
         
         /** rating of the corresponding local businesses
 popularity rate based on reviews as displayed in the results */
-        rating?: RatingElement | undefined
+        rating?: RatingInfo | undefined
 
     [key: string]: any;
 
@@ -72,7 +72,7 @@ export class ChatGptLocalBusinessesElement  implements IChatGptLocalBusinessesEl
     /** rating of the corresponding local businesses
 popularity rate based on reviews as displayed in the results */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingInfo | undefined;
 
     [key: string]: any;
 
@@ -102,7 +102,7 @@ popularity rate based on reviews as displayed in the results */
             this.reviews_count = data["reviews_count"];
             this.url = data["url"];
             this.domain = data["domain"];
-            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
         }
     }
 
@@ -128,7 +128,7 @@ popularity rate based on reviews as displayed in the results */
         data["reviews_count"] = this.reviews_count;
         data["url"] = this.url;
         data["domain"] = this.domain;
-        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         return data;
     }
 }

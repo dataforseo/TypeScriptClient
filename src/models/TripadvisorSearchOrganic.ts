@@ -1,4 +1,4 @@
-import { RatingElement, IRatingElement } from "./RatingElement";
+import { RatingInfo, IRatingInfo } from "./RatingInfo";
 
 
 export interface ITripadvisorSearchOrganic   {
@@ -36,7 +36,7 @@ if true, related tripadvisor_search_organic item is a paid advertising on Tripad
         price_rate?: string | undefined
         
         /** the rating score of the establishment submitted by the reviewers */
-        rating?: RatingElement | undefined
+        rating?: RatingInfo | undefined
 
     [key: string]: any;
 
@@ -87,7 +87,7 @@ if true, related tripadvisor_search_organic item is a paid advertising on Tripad
     
     /** the rating score of the establishment submitted by the reviewers */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingInfo | undefined;
 
     [key: string]: any;
 
@@ -118,7 +118,7 @@ if true, related tripadvisor_search_organic item is a paid advertising on Tripad
             this.reviews_count = data["reviews_count"];
             this.category = data["category"];
             this.price_rate = data["price_rate"];
-            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
         }
     }
 
@@ -145,7 +145,7 @@ if true, related tripadvisor_search_organic item is a paid advertising on Tripad
         data["reviews_count"] = this.reviews_count;
         data["category"] = this.category;
         data["price_rate"] = this.price_rate;
-        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         return data;
     }
 }

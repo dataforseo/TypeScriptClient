@@ -3,11 +3,10 @@ export interface IRefineProductsElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of a given link element */
+        /** title of the row */
         title?: string | undefined
         
-        /** URL of the image
-the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+        /** URL of the image */
         image_url?: string | undefined
         
         /** keyword for the related refined search */
@@ -29,12 +28,11 @@ export class RefineProductsElement  implements IRefineProductsElement {
 
     type?: string | undefined;
     
-    /** title of a given link element */
+    /** title of the row */
 
     title?: string | undefined;
     
-    /** URL of the image
-the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+    /** URL of the image */
 
     image_url?: string | undefined;
     

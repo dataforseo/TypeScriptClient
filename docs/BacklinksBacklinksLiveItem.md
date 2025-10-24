@@ -48,6 +48,6 @@
 **url_to_status_code** | **number** | status code of the referenced page<br>if the value is null, our crawler hasn’t yet visited the webpage the link is pointing to<br>example:<br>200 |[optional]|
 **url_to_spam_score** | **number** | spam score of the referenced page<br>if the value is null, our crawler hasn’t yet visited the webpage the link is pointing to;<br>learn more about how the metric is calculated on this help center page |[optional]|
 **url_to_redirect_target** | **string** | target url of the redirect<br>target page the redirect is pointing to |[optional]|
-**ranked_keywords_info** | **RankedKeywordsInfo** | number of keywords for which the page is ranked in top search results |[optional]|
+**ranked_keywords_info** | **BacklinkRankedKeywordsInfo** | number of keywords for which the page is ranked in top search results |[optional]|
 **is_indirect_link** | **boolean** | indicates whether the backlink is an indirect link<br>if true, the backlink is an indirect link pointing to a page that either redirects to url_to, or points to a canonical page |[optional]|
 **indirect_link_path** | **BacklinksRedirectInfo[]** | indirect link path<br>indicates a URL or a sequence of URLs that lead to url_to |[optional]|

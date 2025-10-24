@@ -3,13 +3,13 @@ export interface IShortVideosElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of a given link element */
+        /** title of the row */
         title?: string | undefined
         
-        /** URL */
+        /** URL of element */
         url?: string | undefined
         
-        /** website domain */
+        /** domain where a link points */
         domain?: string | undefined
         
         /** source of the element
@@ -26,15 +26,15 @@ export class ShortVideosElement  implements IShortVideosElement {
 
     type?: string | undefined;
     
-    /** title of a given link element */
+    /** title of the row */
 
     title?: string | undefined;
     
-    /** URL */
+    /** URL of element */
 
     url?: string | undefined;
     
-    /** website domain */
+    /** domain where a link points */
 
     domain?: string | undefined;
     

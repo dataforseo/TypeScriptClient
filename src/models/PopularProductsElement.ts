@@ -1,5 +1,5 @@
 import { PriceInfo, IPriceInfo } from "./PriceInfo";
-import { RatingElement, IRatingElement } from "./RatingElement";
+import { RatingInfo, IRatingInfo } from "./RatingInfo";
 
 
 export interface IPopularProductsElement   {
@@ -7,7 +7,7 @@ export interface IPopularProductsElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of a given link element */
+        /** title of the row */
         title?: string | undefined
         
         /** description of the results element in SERP */
@@ -16,16 +16,15 @@ export interface IPopularProductsElement   {
         /** seller of the product */
         seller?: string | undefined
         
-        /** URL of the image
-the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+        /** URL of the image */
         image_url?: string | undefined
         
-        /** price indicated in the element */
+        /** price of the app element */
         price?: PriceInfo | undefined
         
-        /** the item’s rating 
+        /** the element’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement | undefined
+        rating?: RatingInfo | undefined
 
     [key: string]: any;
 
@@ -37,7 +36,7 @@ export class PopularProductsElement  implements IPopularProductsElement {
 
     type?: string | undefined;
     
-    /** title of a given link element */
+    /** title of the row */
 
     title?: string | undefined;
     
@@ -49,19 +48,18 @@ export class PopularProductsElement  implements IPopularProductsElement {
 
     seller?: string | undefined;
     
-    /** URL of the image
-the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+    /** URL of the image */
 
     image_url?: string | undefined;
     
-    /** price indicated in the element */
+    /** price of the app element */
 
     price?: PriceInfo | undefined;
     
-    /** the item’s rating 
+    /** the element’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingInfo | undefined;
 
     [key: string]: any;
 
@@ -89,7 +87,7 @@ the popularity rate based on reviews and displayed in SERP */
             this.seller = data["seller"];
             this.image_url = data["image_url"];
             this.price = data["price"] ? PriceInfo.fromJS(data["price"]) : <any>undefined;
-            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
         }
     }
 
@@ -113,7 +111,7 @@ the popularity rate based on reviews and displayed in SERP */
         data["seller"] = this.seller;
         data["image_url"] = this.image_url;
         data["price"] = this.price ? PriceInfo.fromJS(this.price)?.toJSON() : <any>undefined;
-        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         return data;
     }
 }

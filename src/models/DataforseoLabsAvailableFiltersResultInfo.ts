@@ -1,10 +1,14 @@
+import { RankedKeywordsInfo, IRankedKeywordsInfo } from "./RankedKeywordsInfo";
+import { ProductKeywordIntersectionsAmazonDataforseoLabsAvailableFiltersAmazonInfo, IProductKeywordIntersectionsAmazonDataforseoLabsAvailableFiltersAmazonInfo } from "./ProductKeywordIntersectionsAmazonDataforseoLabsAvailableFiltersAmazonInfo";
+
+
 export interface IDataforseoLabsAvailableFiltersResultInfo   {
         
         related_keywords?: { [key: string]: { [key: string]: string; }; } | undefined
         
         keyword_suggestions?: { [key: string]: { [key: string]: string; }; } | undefined
         
-        ranked_keywords?: { [key: string]: { [key: string]: string; }; } | undefined
+        ranked_keywords?: RankedKeywordsInfo | undefined
         
         keyword_ideas?: { [key: string]: { [key: string]: string; }; } | undefined
         
@@ -34,7 +38,7 @@ export interface IDataforseoLabsAvailableFiltersResultInfo   {
         
         product_competitors?: { [key: string]: { [key: string]: string; }; } | undefined
         
-        product_keyword_intersections?: { [key: string]: { [key: string]: string; }; } | undefined
+        product_keyword_intersections?: { [key: string]: ProductKeywordIntersectionsAmazonDataforseoLabsAvailableFiltersAmazonInfo; } | undefined
         
         app_intersection?: { [key: string]: { [key: string]: string; }; } | undefined
         
@@ -54,7 +58,7 @@ export class DataforseoLabsAvailableFiltersResultInfo  implements IDataforseoLab
 
     keyword_suggestions?: { [key: string]: { [key: string]: string; }; } | undefined;
 
-    ranked_keywords?: { [key: string]: { [key: string]: string; }; } | undefined;
+    ranked_keywords?: RankedKeywordsInfo | undefined;
 
     keyword_ideas?: { [key: string]: { [key: string]: string; }; } | undefined;
 
@@ -84,7 +88,7 @@ export class DataforseoLabsAvailableFiltersResultInfo  implements IDataforseoLab
 
     product_competitors?: { [key: string]: { [key: string]: string; }; } | undefined;
 
-    product_keyword_intersections?: { [key: string]: { [key: string]: string; }; } | undefined;
+    product_keyword_intersections?: { [key: string]: ProductKeywordIntersectionsAmazonDataforseoLabsAvailableFiltersAmazonInfo; } | undefined;
 
     app_intersection?: { [key: string]: { [key: string]: string; }; } | undefined;
 
@@ -116,7 +120,7 @@ export class DataforseoLabsAvailableFiltersResultInfo  implements IDataforseoLab
             }
             this.related_keywords = data["related_keywords"];
             this.keyword_suggestions = data["keyword_suggestions"];
-            this.ranked_keywords = data["ranked_keywords"];
+            this.ranked_keywords = data["ranked_keywords"] ? RankedKeywordsInfo.fromJS(data["ranked_keywords"]) : <any>undefined;
             this.keyword_ideas = data["keyword_ideas"];
             this.serp_competitors = data["serp_competitors"];
             this.relevant_pages = data["relevant_pages"];
@@ -155,7 +159,7 @@ export class DataforseoLabsAvailableFiltersResultInfo  implements IDataforseoLab
         
         data["related_keywords"] = this.related_keywords;
         data["keyword_suggestions"] = this.keyword_suggestions;
-        data["ranked_keywords"] = this.ranked_keywords;
+        data["ranked_keywords"] = this.ranked_keywords ? RankedKeywordsInfo.fromJS(this.ranked_keywords)?.toJSON() : <any>undefined;
         data["keyword_ideas"] = this.keyword_ideas;
         data["serp_competitors"] = this.serp_competitors;
         data["relevant_pages"] = this.relevant_pages;

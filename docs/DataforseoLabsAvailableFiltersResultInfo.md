@@ -6,7 +6,7 @@
 |------------ | ------------- | ------------- | -------------|
 **related_keywords** | **{ [key: string]: { [key: string]: string; }; }** |  |[optional]|
 **keyword_suggestions** | **{ [key: string]: { [key: string]: string; }; }** |  |[optional]|
-**ranked_keywords** | **{ [key: string]: { [key: string]: string; }; }** |  |[optional]|
+**ranked_keywords** | **RankedKeywordsInfo** |  |[optional]|
 **keyword_ideas** | **{ [key: string]: { [key: string]: string; }; }** |  |[optional]|
 **serp_competitors** | **{ [key: string]: { [key: string]: string; }; }** |  |[optional]|
 **relevant_pages** | **{ [key: string]: { [key: string]: string; }; }** |  |[optional]|
@@ -21,7 +21,7 @@
 **domain_metrics_by_categories** | **{ [key: string]: { [key: string]: string; }; }** |  |[optional]|
 **keywords_for_site** | **{ [key: string]: { [key: string]: string; }; }** |  |[optional]|
 **product_competitors** | **{ [key: string]: { [key: string]: string; }; }** |  |[optional]|
-**product_keyword_intersections** | **{ [key: string]: { [key: string]: string; }; }** |  |[optional]|
+**product_keyword_intersections** | **{ [key: string]: ProductKeywordIntersectionsAmazonDataforseoLabsAvailableFiltersAmazonInfo; }** |  |[optional]|
 **app_intersection** | **{ [key: string]: { [key: string]: string; }; }** |  |[optional]|
 **app_competitors** | **{ [key: string]: { [key: string]: string; }; }** |  |[optional]|
 **keywords_for_app** | **{ [key: string]: { [key: string]: string; }; }** |  |[optional]|

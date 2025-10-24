@@ -133,6 +133,17 @@ linkedin.com
 slideshare.net */
         exclude_top_domains?: boolean | undefined
         
+        /** exclude domains from the results
+optional field
+use this parameter to exclude specific domains from the results
+Note: you can specify up to 1000 domains in this array
+example:
+'exclude_domains': [
+'reddit.com',
+'youtube.com'
+] */
+        exclude_domains?: string[] | undefined
+        
         /** additional domains for improving results accuracy
 optional field
 to improve the accuracy of the result, you can specify domains that are known to intersect with the target in SERPs;
@@ -305,6 +316,18 @@ slideshare.net */
 
     exclude_top_domains?: boolean | undefined;
     
+    /** exclude domains from the results
+optional field
+use this parameter to exclude specific domains from the results
+Note: you can specify up to 1000 domains in this array
+example:
+'exclude_domains': [
+'reddit.com',
+'youtube.com'
+] */
+
+    exclude_domains?: string[] | undefined;
+    
     /** additional domains for improving results accuracy
 optional field
 to improve the accuracy of the result, you can specify domains that are known to intersect with the target in SERPs;
@@ -361,6 +384,7 @@ you will find the specified tag value in the data object of the response */
             this.offset = data["offset"];
             this.max_rank_group = data["max_rank_group"];
             this.exclude_top_domains = data["exclude_top_domains"];
+            this.exclude_domains = data["exclude_domains"];
             this.intersecting_domains = data["intersecting_domains"];
             this.ignore_synonyms = data["ignore_synonyms"];
             this.tag = data["tag"];
@@ -394,6 +418,7 @@ you will find the specified tag value in the data object of the response */
         data["offset"] = this.offset;
         data["max_rank_group"] = this.max_rank_group;
         data["exclude_top_domains"] = this.exclude_top_domains;
+        data["exclude_domains"] = this.exclude_domains;
         data["intersecting_domains"] = this.intersecting_domains;
         data["ignore_synonyms"] = this.ignore_synonyms;
         data["tag"] = this.tag;

@@ -1,4 +1,4 @@
-import { RatingElement, IRatingElement } from "./RatingElement";
+import { RatingInfo, IRatingInfo } from "./RatingInfo";
 import { AiModeImagesElementInfo, IAiModeImagesElementInfo } from "./AiModeImagesElementInfo";
 import { ReviewHighlights, IReviewHighlights } from "./ReviewHighlights";
 import { Source, ISource } from "./Source";
@@ -42,7 +42,7 @@ example:
         timestamp?: string | undefined
         
         /** the rating score submitted by the reviewer */
-        rating?: RatingElement | undefined
+        rating?: RatingInfo | undefined
         
         /** total number of reviews submitted by the reviewer */
         reviews_count?: number | undefined
@@ -151,7 +151,7 @@ example:
     
     /** the rating score submitted by the reviewer */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingInfo | undefined;
     
     /** total number of reviews submitted by the reviewer */
 
@@ -252,7 +252,7 @@ contains information about the source where the review was posted */
             this.original_review_text = data["original_review_text"];
             this.time_ago = data["time_ago"];
             this.timestamp = data["timestamp"];
-            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
             this.reviews_count = data["reviews_count"];
             this.photos_count = data["photos_count"];
             this.local_guide = data["local_guide"];
@@ -304,7 +304,7 @@ contains information about the source where the review was posted */
         data["original_review_text"] = this.original_review_text;
         data["time_ago"] = this.time_ago;
         data["timestamp"] = this.timestamp;
-        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["reviews_count"] = this.reviews_count;
         data["photos_count"] = this.photos_count;
         data["local_guide"] = this.local_guide;

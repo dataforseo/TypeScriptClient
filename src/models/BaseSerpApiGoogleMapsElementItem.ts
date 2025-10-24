@@ -1,4 +1,4 @@
-import { RatingElement, IRatingElement } from "./RatingElement";
+import { RatingInfo, IRatingInfo } from "./RatingInfo";
 import { AddressInfo, IAddressInfo } from "./AddressInfo";
 import { WorkHours, IWorkHours } from "./WorkHours";
 import { LocalJustificationInfo, ILocalJustificationInfo } from "./LocalJustificationInfo";
@@ -29,7 +29,7 @@ absolute position among all the elements in SERP */
         
         /** the element’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement | undefined
+        rating?: RatingInfo | undefined
         
         /** the distribution of ratings of the business entity
 the object displays the number of 1-star to 5-star ratings, as reviewed by users */
@@ -71,7 +71,7 @@ absolute position among all the elements in SERP */
     /** the element’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingInfo | undefined;
     
     /** the distribution of ratings of the business entity
 the object displays the number of 1-star to 5-star ratings, as reviewed by users */
@@ -108,7 +108,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
             this.domain = data["domain"];
             this.title = data["title"];
             this.url = data["url"];
-            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
             this.rating_distribution = data["rating_distribution"];
         }
     }
@@ -145,7 +145,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
         data["domain"] = this.domain;
         data["title"] = this.title;
         data["url"] = this.url;
-        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["rating_distribution"] = this.rating_distribution;
         return data;
     }

@@ -3,7 +3,7 @@ import { GraphElement, IGraphElement } from "./GraphElement";
 
 export interface IGraph   {
         
-        /** items present in the element */
+        /** link of the element */
         items?: GraphElement[] | undefined
         
         /** previous close data
@@ -16,7 +16,7 @@ contains stock price data based on the preceding time period */
 
 export class Graph  implements IGraph {
     
-    /** items present in the element */
+    /** link of the element */
 
     items?: GraphElement[] | undefined;
     

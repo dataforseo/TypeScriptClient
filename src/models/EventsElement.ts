@@ -3,13 +3,13 @@ export interface IEventsElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of a given link element */
+        /** title of the row */
         title?: string | undefined
         
-        /** text alongside the link title */
+        /** text alongside the title */
         snippet?: string | undefined
         
-        /** URL */
+        /** URL of element */
         url?: string | undefined
 
     [key: string]: any;
@@ -22,15 +22,15 @@ export class EventsElement  implements IEventsElement {
 
     type?: string | undefined;
     
-    /** title of a given link element */
+    /** title of the row */
 
     title?: string | undefined;
     
-    /** text alongside the link title */
+    /** text alongside the title */
 
     snippet?: string | undefined;
     
-    /** URL */
+    /** URL of element */
 
     url?: string | undefined;
 

@@ -1,4 +1,4 @@
-import { RatingElement, IRatingElement } from "./RatingElement";
+import { RatingInfo, IRatingInfo } from "./RatingInfo";
 
 
 export interface IPeopleAlsoSearch   {
@@ -18,7 +18,7 @@ the name of the business entity for which the results are collected */
         
         /** the element’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement | undefined
+        rating?: RatingInfo | undefined
 
     [key: string]: any;
 
@@ -45,7 +45,7 @@ the name of the business entity for which the results are collected */
     /** the element’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingInfo | undefined;
 
     [key: string]: any;
 
@@ -70,7 +70,7 @@ the popularity rate based on reviews and displayed in SERP */
             this.cid = data["cid"];
             this.feature_id = data["feature_id"];
             this.title = data["title"];
-            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
         }
     }
 
@@ -91,7 +91,7 @@ the popularity rate based on reviews and displayed in SERP */
         data["cid"] = this.cid;
         data["feature_id"] = this.feature_id;
         data["title"] = this.title;
-        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         return data;
     }
 }

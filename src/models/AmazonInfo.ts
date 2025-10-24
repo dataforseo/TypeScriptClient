@@ -1,4 +1,4 @@
-import { RatingElement, IRatingElement } from "./RatingElement";
+import { RatingInfo, IRatingInfo } from "./RatingInfo";
 import { AmazonDeliveryInfo, IAmazonDeliveryInfo } from "./AmazonDeliveryInfo";
 
 
@@ -71,7 +71,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
         
         /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement | undefined
+        rating?: RatingInfo | undefined
         
         /** delivery information
 delivery information including free and fast delivery date ranges */
@@ -170,7 +170,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
     /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingInfo | undefined;
     
     /** delivery information
 delivery information including free and fast delivery date ranges */
@@ -216,7 +216,7 @@ delivery information including free and fast delivery date ranges */
             this.special_offers = data["special_offers"];
             this.is_best_seller = data["is_best_seller"];
             this.is_amazon_choice = data["is_amazon_choice"];
-            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
             this.delivery_info = data["delivery_info"] ? AmazonDeliveryInfo.fromJS(data["delivery_info"]) : <any>undefined;
             this.bought_past_month = data["bought_past_month"];
         }
@@ -253,7 +253,7 @@ delivery information including free and fast delivery date ranges */
         data["special_offers"] = this.special_offers;
         data["is_best_seller"] = this.is_best_seller;
         data["is_amazon_choice"] = this.is_amazon_choice;
-        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["delivery_info"] = this.delivery_info ? AmazonDeliveryInfo.fromJS(this.delivery_info)?.toJSON() : <any>undefined;
         data["bought_past_month"] = this.bought_past_month;
         return data;

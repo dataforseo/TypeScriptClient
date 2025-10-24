@@ -15,7 +15,7 @@ example:
 2019-11-15 12:57:46 +00:00 */
         timestamp?: string | undefined
         
-        /** URL */
+        /** URL of element */
         url?: string | undefined
 
     [key: string]: any;
@@ -43,7 +43,7 @@ example:
 
     timestamp?: string | undefined;
     
-    /** URL */
+    /** URL of element */
 
     url?: string | undefined;
 

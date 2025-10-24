@@ -80,7 +80,7 @@ export class BaseSerpApiProductConsiderationExpandedElementItem  implements IBas
  
 export interface ISerpApiProductConsiderationsExpandedElementItem  extends IBaseSerpApiProductConsiderationExpandedElementItem    {
         
-        /** title of the row */
+        /** title of a given link element */
         title?: string | undefined
         
         /** the title of the featured snippets source page */
@@ -89,13 +89,13 @@ export interface ISerpApiProductConsiderationsExpandedElementItem  extends IBase
         /** breadcrumb of the Ad element in SERP */
         breadcrumb?: string | undefined
         
-        /** text alongside the title */
+        /** additional information for the video */
         snippet?: string | undefined
         
-        /** domain where a link points */
+        /** source domain */
         domain?: string | undefined
         
-        /** URL of element */
+        /** URL */
         url?: string | undefined
         
         /** date and time when the result was published
@@ -118,7 +118,7 @@ this feature appears after clicking on the three dots next to most results */
 
 export class SerpApiProductConsiderationsExpandedElementItem  extends BaseSerpApiProductConsiderationExpandedElementItem   implements ISerpApiProductConsiderationsExpandedElementItem {
     
-    /** title of the row */
+    /** title of a given link element */
 
     title?: string | undefined;
     
@@ -130,15 +130,15 @@ export class SerpApiProductConsiderationsExpandedElementItem  extends BaseSerpAp
 
     breadcrumb?: string | undefined;
     
-    /** text alongside the title */
+    /** additional information for the video */
 
     snippet?: string | undefined;
     
-    /** domain where a link points */
+    /** source domain */
 
     domain?: string | undefined;
     
-    /** URL of element */
+    /** URL */
 
     url?: string | undefined;
     

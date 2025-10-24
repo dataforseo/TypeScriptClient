@@ -13,7 +13,7 @@ export interface IBaseSerpApiBingPeopleAlsoAskExpandedElementItem   {
         /** URL */
         url?: string | undefined
         
-        /** domain name of the reference */
+        /** domain in SERP */
         domain?: string | undefined
         
         /** title of the result in SERP */
@@ -52,7 +52,7 @@ export class BaseSerpApiBingPeopleAlsoAskExpandedElementItem  implements IBaseSe
 
     url?: string | undefined;
     
-    /** domain name of the reference */
+    /** domain in SERP */
 
     domain?: string | undefined;
     

@@ -31,7 +31,7 @@ left, right */
 the text of the ai_overview formatted in the markdown markup language */
         markdown?: string | undefined
         
-        /** items of the element */
+        /** elements of search results found in SERP */
         items?: BaseSerpApiAiModeAiOverviewElementItem[] | undefined
         
         /** additional references relevant to the item
@@ -81,7 +81,7 @@ the text of the ai_overview formatted in the markdown markup language */
 
     markdown?: string | undefined;
     
-    /** items of the element */
+    /** elements of search results found in SERP */
 
     items?: BaseSerpApiAiModeAiOverviewElementItem[] | undefined;
     

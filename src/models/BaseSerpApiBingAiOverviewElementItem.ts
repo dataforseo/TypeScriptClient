@@ -2,6 +2,7 @@ import { LinkElement, ILinkElement } from "./LinkElement";
 import { AiModeImagesElementInfo, IAiModeImagesElementInfo } from "./AiModeImagesElementInfo";
 import { AiModeAiOverviewReferenceInfo, IAiModeAiOverviewReferenceInfo } from "./AiModeAiOverviewReferenceInfo";
 import { VideoElement, IVideoElement } from "./VideoElement";
+import { AiModeAiOverviewShoppingElementInfo, IAiModeAiOverviewShoppingElementInfo } from "./AiModeAiOverviewShoppingElementInfo";
 
 
 export interface IBaseSerpApiBingAiOverviewElementItem   {
@@ -77,6 +78,12 @@ export class BaseSerpApiBingAiOverviewElementItem  implements IBaseSerpApiBingAi
         if (data["type"] === "ai_overview_organic_element") {
 
             let result = new SerpApiBingAiOverviewOrganicElementItem();
+            result.init(data);
+            return result;
+        }
+        if (data["type"] === "ai_overview_shopping") {
+
+            let result = new SerpApiBingAiOverviewShoppingItem();
             result.init(data);
             return result;
         }
@@ -681,6 +688,108 @@ export class SerpApiBingAiOverviewOrganicElementItem  extends BaseSerpApiBingAiO
             }
         }
         data["highlighted"] = this.highlighted;
+        return data;
+    }
+}
+
+ 
+export interface ISerpApiBingAiOverviewShoppingItem  extends IBaseSerpApiBingAiOverviewElementItem    {
+        
+        /** the alignment of the element in SERP
+can take the following values:
+left, right */
+        position?: string | undefined
+        
+        /** title of the result in SERP */
+        title?: string | undefined
+        
+        /** content of the element in markdown format */
+        markdown?: string | undefined
+        
+        /** additional items present in the element
+if there are none, equals null */
+        items?: AiModeAiOverviewShoppingElementInfo[] | undefined
+
+    [key: string]: any;
+
+    }
+
+export class SerpApiBingAiOverviewShoppingItem  extends BaseSerpApiBingAiOverviewElementItem   implements ISerpApiBingAiOverviewShoppingItem {
+    
+    /** the alignment of the element in SERP
+can take the following values:
+left, right */
+
+    position?: string | undefined;
+    
+    /** title of the result in SERP */
+
+    title?: string | undefined;
+    
+    /** content of the element in markdown format */
+
+    markdown?: string | undefined;
+    
+    /** additional items present in the element
+if there are none, equals null */
+
+    items?: AiModeAiOverviewShoppingElementInfo[] | undefined;
+
+    [key: string]: any;
+
+
+    constructor(data?: ISerpApiBingAiOverviewShoppingItem) {
+    super(data);
+
+    }
+
+    init(data?: any) {
+        super.init(data);
+        if (data) {
+            for (var property in data) {
+                if (data.hasOwnProperty(property))
+                    this[property] = data[property];
+            }
+            this.position = data["position"];
+            this.title = data["title"];
+            this.markdown = data["markdown"];
+            if (Array.isArray(data["items"])) {
+                this.items = [];
+                for (let item of data["items"]) {
+                    this.items.push(AiModeAiOverviewShoppingElementInfo.fromJS(item));
+                }
+            }
+        }
+    }
+
+    static fromJS(data: any): SerpApiBingAiOverviewShoppingItem {
+        data = typeof data === 'object' ? data : {};
+
+
+        let result = new SerpApiBingAiOverviewShoppingItem();
+        result.init(data);
+        return result;
+    }
+
+    toJSON(data?: any) {
+        data = typeof data === 'object' ? data : {};
+
+         
+        super.toJSON(data);
+        
+        
+        data["position"] = this.position;
+        data["title"] = this.title;
+        data["markdown"] = this.markdown;
+        data["items"] = null;
+        if (Array.isArray(this.items)) {
+            data["items"] = [];
+            for (let item of this.items) {
+                if (item && typeof item.toJSON === "function") {
+                    data["items"].push(item?.toJSON());
+                }
+            }
+        }
         return data;
     }
 }

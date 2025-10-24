@@ -1,6 +1,6 @@
 import { AiModeRectangleInfo, IAiModeRectangleInfo } from "./AiModeRectangleInfo";
 import { AiModeImagesElementInfo, IAiModeImagesElementInfo } from "./AiModeImagesElementInfo";
-import { RatingElement, IRatingElement } from "./RatingElement";
+import { RatingInfo, IRatingInfo } from "./RatingInfo";
 import { PriceInfo, IPriceInfo } from "./PriceInfo";
 import { LinkElement, ILinkElement } from "./LinkElement";
 import { FaqBox, IFaqBox } from "./FaqBox";
@@ -218,7 +218,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version */
         
         /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingElement | undefined
+        rating?: RatingInfo | undefined
         
         /** pricing details
 contains the pricing details of the product or service featured in the result */
@@ -329,7 +329,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version */
     /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingElement | undefined;
+    rating?: RatingInfo | undefined;
     
     /** pricing details
 contains the pricing details of the product or service featured in the result */
@@ -412,7 +412,7 @@ example:
                 }
             }
             this.amp_version = data["amp_version"];
-            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
             this.price = data["price"] ? PriceInfo.fromJS(data["price"]) : <any>undefined;
             this.highlighted = data["highlighted"];
             if (Array.isArray(data["links"])) {
@@ -473,7 +473,7 @@ example:
             }
         }
         data["amp_version"] = this.amp_version;
-        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["price"] = this.price ? PriceInfo.fromJS(this.price)?.toJSON() : <any>undefined;
         data["highlighted"] = this.highlighted;
         data["links"] = null;

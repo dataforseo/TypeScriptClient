@@ -21,6 +21,13 @@ All URIs are relative to *https://api.dataforseo.com*
 [**googleOrganicLiveRegular**](SerpApi.md#googleOrganicLiveRegular) | **POST**  /v3/serp/google/organic/live/regular  |
 [**googleOrganicLiveAdvanced**](SerpApi.md#googleOrganicLiveAdvanced) | **POST**  /v3/serp/google/organic/live/advanced  |
 [**googleOrganicLiveHtml**](SerpApi.md#googleOrganicLiveHtml) | **POST**  /v3/serp/google/organic/live/html  |
+[**googleLiteTaskPost**](SerpApi.md#googleLiteTaskPost) | **POST**  /v3/serp/google/lite/task_post  |
+[**googleLiteTasksReady**](SerpApi.md#googleLiteTasksReady) | **GET**  /v3/serp/google/lite/tasks_ready  |
+[**googleLiteTasksFixed**](SerpApi.md#googleLiteTasksFixed) | **GET**  /v3/serp/google/lite/tasks_fixed  |
+[**googleLiteTaskGetAdvanced**](SerpApi.md#googleLiteTaskGetAdvanced) | **GET**  /v3/serp/google/lite/task_get/advanced/{id}  |
+[**googleLiteTaskGetHtml**](SerpApi.md#googleLiteTaskGetHtml) | **GET**  /v3/serp/google/lite/task_get/html/{id}  |
+[**googleLiteLiveAdvanced**](SerpApi.md#googleLiteLiveAdvanced) | **POST**  /v3/serp/google/lite/live/advanced  |
+[**googleLiteLiveHtml**](SerpApi.md#googleLiteLiveHtml) | **POST**  /v3/serp/google/lite/live/html  |
 [**serpGoogleAiModeLanguages**](SerpApi.md#serpGoogleAiModeLanguages) | **GET**  /v3/serp/google/ai_mode/languages  |
 [**googleAiModeTaskPost**](SerpApi.md#googleAiModeTaskPost) | **POST**  /v3/serp/google/ai_mode/task_post  |
 [**googleAiModeTasksReady**](SerpApi.md#googleAiModeTasksReady) | **GET**  /v3/serp/google/ai_mode/tasks_ready  |
@@ -216,8 +223,8 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new SerpIdListRequestInfo();
-   task.datetime_from = "2025-07-14 10:23:34 +00:00";
-   task.datetime_to = "2025-09-14 10:23:34 +00:00";
+   task.datetime_from = "2025-07-24 11:58:51 +00:00";
+   task.datetime_to = "2025-09-24 11:58:51 +00:00";
    task.limit = 100;
    task.offset = 0;
    task.sort = "desc";
@@ -1164,6 +1171,412 @@ This endpoint does not need any parameter.
 ### Return type
 
 [**SerpGoogleOrganicLiveHtmlResponseInfo**](SerpGoogleOrganicLiveHtmlResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="googleLiteTaskPost"></a>
+# **googleLiteTaskPost**
+> SerpGoogleLiteTaskPostResponseInfo googleLiteTaskPost()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new SerpApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let task = new SerpGoogleLiteTaskPostRequestInfo();
+   task.keyword = "albert einstein";
+   task.location_code = 2840;
+   task.language_code = "en";
+ let response = await api.googleLiteTaskPost([task]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;SerpGoogleLiteTaskPostRequestInfo[]&gt;**](SerpGoogleLiteTaskPostRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**SerpGoogleLiteTaskPostResponseInfo**](SerpGoogleLiteTaskPostResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="googleLiteTasksReady"></a>
+# **googleLiteTasksReady**
+> SerpGoogleLiteTasksReadyResponseInfo googleLiteTasksReady()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new SerpApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let response = await api.googleLiteTasksReady();
+```
+
+### Parameters
+
+
+    
+This endpoint does not need any parameter.
+    
+
+
+### Return type
+
+[**SerpGoogleLiteTasksReadyResponseInfo**](SerpGoogleLiteTasksReadyResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="googleLiteTasksFixed"></a>
+# **googleLiteTasksFixed**
+> SerpGoogleLiteTasksFixedResponseInfo googleLiteTasksFixed()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new SerpApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let response = await api.googleLiteTasksFixed();
+```
+
+### Parameters
+
+
+    
+This endpoint does not need any parameter.
+    
+
+
+### Return type
+
+[**SerpGoogleLiteTasksFixedResponseInfo**](SerpGoogleLiteTasksFixedResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="googleLiteTaskGetAdvanced"></a>
+# **googleLiteTaskGetAdvanced**
+> SerpGoogleLiteTaskGetAdvancedResponseInfo googleLiteTaskGetAdvanced()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new SerpApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let id = "00000000-0000-0000-0000-000000000000";
+ let response = await api.googleLiteTaskGetAdvanced(id);
+```
+
+### Parameters
+
+
+    
+This endpoint does not need any parameter.
+    
+
+
+### Return type
+
+[**SerpGoogleLiteTaskGetAdvancedResponseInfo**](SerpGoogleLiteTaskGetAdvancedResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="googleLiteTaskGetHtml"></a>
+# **googleLiteTaskGetHtml**
+> SerpGoogleLiteTaskGetHtmlResponseInfo googleLiteTaskGetHtml()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new SerpApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let id = "00000000-0000-0000-0000-000000000000";
+ let response = await api.googleLiteTaskGetHtml(id);
+```
+
+### Parameters
+
+
+    
+This endpoint does not need any parameter.
+    
+
+
+### Return type
+
+[**SerpGoogleLiteTaskGetHtmlResponseInfo**](SerpGoogleLiteTaskGetHtmlResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="googleLiteLiveAdvanced"></a>
+# **googleLiteLiveAdvanced**
+> SerpGoogleLiteLiveAdvancedResponseInfo googleLiteLiveAdvanced()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new SerpApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let task = new SerpGoogleLiteLiveAdvancedRequestInfo();
+   task.keyword = "albert einstein";
+   task.location_code = 2840;
+   task.language_code = "en";
+ let response = await api.googleLiteLiveAdvanced([task]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;SerpGoogleLiteLiveAdvancedRequestInfo[]&gt;**](SerpGoogleLiteLiveAdvancedRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**SerpGoogleLiteLiveAdvancedResponseInfo**](SerpGoogleLiteLiveAdvancedResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="googleLiteLiveHtml"></a>
+# **googleLiteLiveHtml**
+> SerpGoogleLiteLiveHtmlResponseInfo googleLiteLiveHtml()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new SerpApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let task = new SerpGoogleLiteLiveHtmlRequestInfo();
+   task.keyword = "albert einstein";
+   task.location_code = 2840;
+   task.language_code = "en";
+ let response = await api.googleLiteLiveHtml([task]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;SerpGoogleLiteLiveHtmlRequestInfo[]&gt;**](SerpGoogleLiteLiveHtmlRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**SerpGoogleLiteLiveHtmlResponseInfo**](SerpGoogleLiteLiveHtmlResponseInfo.md)
 
 ### Authorization
 
