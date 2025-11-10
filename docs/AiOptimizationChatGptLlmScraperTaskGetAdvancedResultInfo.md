@@ -13,6 +13,7 @@
 **markdown** | **string** | content of the element in markdown format<br>content of the result formatted in the markdown markup language |[optional]|
 **search_results** | **ChatgptSearchResult[]** | array of search results<br>all web search outputs the model retrieved when looking up information, including duplicates and unused entries |[optional]|
 **sources** | **ChatGptSource[]** | array of sources<br>the sources the model actually cited or relied on in its final answer |[optional]|
+**fan_out_queries** | **string[]** | array of fan-out queries<br>contains related search queries derived from the main query to provide a more comprehensive response |[optional]|
 **se_results_count** | **number** | total number of results |[optional]|
 **item_types** | **string[]** | types of search results<br>contains types of search results (items) found.<br>possible item types:<br>chat_gpt_text, chat_gpt_table, chat_gpt_navigation_list, chat_gpt_images, chat_gpt_local_businesses, chat_gpt_products |[optional]|
 **items_count** | **number** | the number of results returned in the items array |[optional]|

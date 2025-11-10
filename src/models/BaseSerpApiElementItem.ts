@@ -7487,8 +7487,8 @@ action:listen_artist */
  
 export interface IKnowledgeGraphAiOverviewItemSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** indicates whether the element is loaded asynchronically
-if true, the ai_overview element is loaded asynchronically;
+        /** indicates whether the element is loaded asynchronously
+if true, the ai_overview element is loaded asynchronously;
 if false, the ai_overview element is loaded from cache */
         asynchronous_ai_overview?: boolean | undefined
         
@@ -7505,8 +7505,8 @@ includes references to webpages that were used to generate the ai_overview_eleme
 
 export class KnowledgeGraphAiOverviewItemSerpElementItem  extends BaseSerpApiElementItem   implements IKnowledgeGraphAiOverviewItemSerpElementItem {
     
-    /** indicates whether the element is loaded asynchronically
-if true, the ai_overview element is loaded asynchronically;
+    /** indicates whether the element is loaded asynchronously
+if true, the ai_overview element is loaded asynchronously;
 if false, the ai_overview element is loaded from cache */
 
     asynchronous_ai_overview?: boolean | undefined;
@@ -7604,8 +7604,8 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** indicates whether the element is loaded asynchronically
-if true, the ai_overview element is loaded asynchronically;
+        /** indicates whether the element is loaded asynchronously
+if true, the ai_overview element is loaded asynchronously;
 if false, the ai_overview element is loaded from cache; */
         asynchronous_ai_overview?: boolean | undefined
         
@@ -7639,8 +7639,8 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** indicates whether the element is loaded asynchronically
-if true, the ai_overview element is loaded asynchronically;
+    /** indicates whether the element is loaded asynchronously
+if true, the ai_overview element is loaded asynchronously;
 if false, the ai_overview element is loaded from cache; */
 
     asynchronous_ai_overview?: boolean | undefined;

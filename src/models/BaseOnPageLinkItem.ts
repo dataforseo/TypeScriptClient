@@ -450,12 +450,32 @@ export class OnPageCanonicalLinkItem  extends BaseOnPageLinkItem   implements IO
 
  
 export interface IOnPageAlternateLinkItem  extends IBaseOnPageLinkItem    {
+        
+        /** hreflang validity status
+indicates whether the hreflang attribute is correctly implemented */
+        is_valid_hreflang?: boolean | undefined
+        
+        /** hreflang attribute value
+language and optional country code specified in the hreflang attribute
+example: 'en-US', 'fr' */
+        hreflang?: string | undefined
 
     [key: string]: any;
 
     }
 
 export class OnPageAlternateLinkItem  extends BaseOnPageLinkItem   implements IOnPageAlternateLinkItem {
+    
+    /** hreflang validity status
+indicates whether the hreflang attribute is correctly implemented */
+
+    is_valid_hreflang?: boolean | undefined;
+    
+    /** hreflang attribute value
+language and optional country code specified in the hreflang attribute
+example: 'en-US', 'fr' */
+
+    hreflang?: string | undefined;
 
     [key: string]: any;
 
@@ -472,6 +492,8 @@ export class OnPageAlternateLinkItem  extends BaseOnPageLinkItem   implements IO
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
+            this.is_valid_hreflang = data["is_valid_hreflang"];
+            this.hreflang = data["hreflang"];
         }
     }
 
@@ -491,6 +513,8 @@ export class OnPageAlternateLinkItem  extends BaseOnPageLinkItem   implements IO
         super.toJSON(data);
         
         
+        data["is_valid_hreflang"] = this.is_valid_hreflang;
+        data["hreflang"] = this.hreflang;
         return data;
     }
 }

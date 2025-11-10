@@ -103,8 +103,8 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new KeywordsDataIdListRequestInfo();
-   task.datetime_from = "2025-07-24 12:03:06 +00:00";
-   task.datetime_to = "2025-09-24 12:03:06 +00:00";
+   task.datetime_from = "2025-08-10 11:01:48 +00:00";
+   task.datetime_to = "2025-10-10 11:01:48 +00:00";
    task.limit = 100;
    task.offset = 0;
    task.sort = "desc";
@@ -633,7 +633,7 @@ This endpoint does not need any parameter.
    ];
    task.location_code = 2840;
    task.search_partners = true;
-   task.date_from = "2025-07-24";
+   task.date_from = "2025-08-10";
  let response = await api.googleAdsSearchVolumeLive([task]);
 ```
 
@@ -1631,8 +1631,8 @@ This endpoint does not need any parameter.
    ];
    task.type = "youtube";
    task.category_code = 3;
-   task.date_from = "2025-07-24";
-   task.date_to = "2025-09-24";
+   task.date_from = "2025-08-10";
+   task.date_to = "2025-10-10";
  let response = await api.googleTrendsExploreTaskPost([task]);
 ```
 
@@ -1810,8 +1810,8 @@ This endpoint does not need any parameter.
    task.location_name = "United States";
    task.type = "youtube";
    task.category_code = 3;
-   task.date_from = "2025-07-24";
-   task.date_to = "2025-09-24";
+   task.date_from = "2025-08-10";
+   task.date_to = "2025-10-10";
  let response = await api.googleTrendsExploreLive([task]);
 ```
 
@@ -2050,8 +2050,8 @@ This endpoint does not need any parameter.
    ];
    task.location_name = "United States";
    task.type = "web";
-   task.date_from = "2025-07-24";
-   task.date_to = "2025-09-24";
+   task.date_from = "2025-08-10";
+   task.date_to = "2025-10-10";
  let response = await api.dataforseoTrendsSubregionInterestsLive([task]);
 ```
 
@@ -2115,8 +2115,8 @@ This endpoint does not need any parameter.
    ];
    task.location_name = "United States";
    task.type = "web";
-   task.date_from = "2025-07-24";
-   task.date_to = "2025-09-24";
+   task.date_from = "2025-08-10";
+   task.date_to = "2025-10-10";
  let response = await api.dataforseoTrendsDemographyLive([task]);
 ```
 
@@ -2180,8 +2180,8 @@ This endpoint does not need any parameter.
    ];
    task.location_name = "United States";
    task.type = "web";
-   task.date_from = "2025-07-24";
-   task.date_to = "2025-09-24";
+   task.date_from = "2025-08-10";
+   task.date_to = "2025-10-10";
  let response = await api.dataforseoTrendsMergedDataLive([task]);
 ```
 

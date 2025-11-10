@@ -112,7 +112,8 @@ if specified, the response will contain SERP results up to and including the spe
 you can specify up to 10 target values in this array
 example:
 'stop_crawl_on_match':[{'match_value':'dataforseo.com','match_type':'with_subdomains'}]
-Your account will be billed per each SERP crawled through the specified targets; */
+learn more about this parameter on our Help Center
+Your account will be billed per each SERP crawled through the specified targets */
         stop_crawl_on_match?: string[] | undefined
         
         /** array of targets to stop crawling
@@ -287,7 +288,8 @@ if specified, the response will contain SERP results up to and including the spe
 you can specify up to 10 target values in this array
 example:
 'stop_crawl_on_match':[{'match_value':'dataforseo.com','match_type':'with_subdomains'}]
-Your account will be billed per each SERP crawled through the specified targets; */
+learn more about this parameter on our Help Center
+Your account will be billed per each SERP crawled through the specified targets */
 
     stop_crawl_on_match?: string[] | undefined;
     

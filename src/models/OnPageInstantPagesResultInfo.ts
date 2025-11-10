@@ -1,5 +1,4 @@
-import { CrawlStatusInfo, ICrawlStatusInfo } from "./CrawlStatusInfo";
-import { OnPageStylesheetResourceItem, IOnPageStylesheetResourceItem } from "./BaseOnPageResourceItem";
+import { BaseOnPageResourceItem, IBaseOnPageResourceItem } from "./BaseOnPageResourceItem";
 
 
 export interface IOnPageInstantPagesResultInfo   {
@@ -10,7 +9,7 @@ possible values: in_progress, finished */
         
         /** details of the crawling session
 in this case the value will be null */
-        crawl_status?: CrawlStatusInfo | undefined
+        crawl_status?: any | undefined
         
         /** crawler ip address
 displays the IP address used by the crawler to initiate the current crawling session
@@ -21,7 +20,7 @@ you can find the full list of IPs used by our crawler in the Overview section */
         items_count?: number | undefined
         
         /** items array */
-        items?: OnPageStylesheetResourceItem[] | undefined
+        items?: BaseOnPageResourceItem[] | undefined
 
     [key: string]: any;
 
@@ -37,7 +36,7 @@ possible values: in_progress, finished */
     /** details of the crawling session
 in this case the value will be null */
 
-    crawl_status?: CrawlStatusInfo | undefined;
+    crawl_status?: any | undefined;
     
     /** crawler ip address
 displays the IP address used by the crawler to initiate the current crawling session
@@ -51,7 +50,7 @@ you can find the full list of IPs used by our crawler in the Overview section */
     
     /** items array */
 
-    items?: OnPageStylesheetResourceItem[] | undefined;
+    items?: BaseOnPageResourceItem[] | undefined;
 
     [key: string]: any;
 
@@ -74,13 +73,13 @@ you can find the full list of IPs used by our crawler in the Overview section */
                     this[property] = data[property];
             }
             this.crawl_progress = data["crawl_progress"];
-            this.crawl_status = data["crawl_status"] ? CrawlStatusInfo.fromJS(data["crawl_status"]) : <any>undefined;
+            this.crawl_status = data["crawl_status"];
             this.crawl_gateway_address = data["crawl_gateway_address"];
             this.items_count = data["items_count"];
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(OnPageStylesheetResourceItem.fromJS(item));
+                    this.items.push(BaseOnPageResourceItem.fromJS(item));
                 }
             }
         }
@@ -101,7 +100,7 @@ you can find the full list of IPs used by our crawler in the Overview section */
         
         
         data["crawl_progress"] = this.crawl_progress;
-        data["crawl_status"] = this.crawl_status ? CrawlStatusInfo.fromJS(this.crawl_status)?.toJSON() : <any>undefined;
+        data["crawl_status"] = this.crawl_status;
         data["crawl_gateway_address"] = this.crawl_gateway_address;
         data["items_count"] = this.items_count;
         data["items"] = null;

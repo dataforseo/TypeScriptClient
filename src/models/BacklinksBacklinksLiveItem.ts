@@ -1,4 +1,4 @@
-import { BacklinkRankedKeywordsInfo, IBacklinkRankedKeywordsInfo } from "./BacklinkRankedKeywordsInfo";
+import { RankedKeywordsInfo, IRankedKeywordsInfo } from "./RankedKeywordsInfo";
 import { BacklinksRedirectInfo, IBacklinksRedirectInfo } from "./BacklinksRedirectInfo";
 
 
@@ -187,7 +187,7 @@ target page the redirect is pointing to */
         url_to_redirect_target?: string | undefined
         
         /** number of keywords for which the page is ranked in top search results */
-        ranked_keywords_info?: BacklinkRankedKeywordsInfo | undefined
+        ranked_keywords_info?: RankedKeywordsInfo | undefined
         
         /** indicates whether the backlink is an indirect link
 if true, the backlink is an indirect link pointing to a page that either redirects to url_to, or points to a canonical page */
@@ -431,7 +431,7 @@ target page the redirect is pointing to */
     
     /** number of keywords for which the page is ranked in top search results */
 
-    ranked_keywords_info?: BacklinkRankedKeywordsInfo | undefined;
+    ranked_keywords_info?: RankedKeywordsInfo | undefined;
     
     /** indicates whether the backlink is an indirect link
 if true, the backlink is an indirect link pointing to a page that either redirects to url_to, or points to a canonical page */
@@ -507,7 +507,7 @@ indicates a URL or a sequence of URLs that lead to url_to */
             this.url_to_status_code = data["url_to_status_code"];
             this.url_to_spam_score = data["url_to_spam_score"];
             this.url_to_redirect_target = data["url_to_redirect_target"];
-            this.ranked_keywords_info = data["ranked_keywords_info"] ? BacklinkRankedKeywordsInfo.fromJS(data["ranked_keywords_info"]) : <any>undefined;
+            this.ranked_keywords_info = data["ranked_keywords_info"] ? RankedKeywordsInfo.fromJS(data["ranked_keywords_info"]) : <any>undefined;
             this.is_indirect_link = data["is_indirect_link"];
             if (Array.isArray(data["indirect_link_path"])) {
                 this.indirect_link_path = [];
@@ -576,7 +576,7 @@ indicates a URL or a sequence of URLs that lead to url_to */
         data["url_to_status_code"] = this.url_to_status_code;
         data["url_to_spam_score"] = this.url_to_spam_score;
         data["url_to_redirect_target"] = this.url_to_redirect_target;
-        data["ranked_keywords_info"] = this.ranked_keywords_info ? BacklinkRankedKeywordsInfo.fromJS(this.ranked_keywords_info)?.toJSON() : <any>undefined;
+        data["ranked_keywords_info"] = this.ranked_keywords_info ? RankedKeywordsInfo.fromJS(this.ranked_keywords_info)?.toJSON() : <any>undefined;
         data["is_indirect_link"] = this.is_indirect_link;
         data["indirect_link_path"] = null;
         if (Array.isArray(this.indirect_link_path)) {

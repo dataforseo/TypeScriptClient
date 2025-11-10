@@ -8,19 +8,20 @@ This is a TypeScript client providing you, as a developer, with a tool for obtai
 DataForSEO API uses REST technology for interchanging data between your application and our service. The data exchange is made through the widely used HTTP protocol, which allows using our API with almost any programming language.
 
 Client contains 13 sections (aka APIs):
-- AI Optimization API ([source docs](./docs/AiOptimizationApi.md) | [api docs](https://docs.dataforseo.com/v3/ai_optimization/overview/?bash))
-- SERP ([source docs](./docs/SerpApi.md) | [api docs](https://docs.dataforseo.com/v3/serp/overview/?bash))
-- Keywords Data ([source docs](./docs/KeywordsDataApi.md) | [api docs](https://docs.dataforseo.com/v3/keywords_data/overview/?bash))
-- Domain Analytics ([source docs](./docs/DomainAnalyticsApi.md) | [api docs](https://docs.dataforseo.com/v3/domain_analytics/overview/?bash))
-- DataForSEO Labs ([source docs](./docs/DataforseoLabsApi.md) | [api docs](https://docs.dataforseo.com/v3/dataforseo_labs/overview/?bash))
-- Backlinks ([source docs](./docs/BacklinksApi.md) | [api docs](https://docs.dataforseo.com/v3/backlinks/overview/?bash))
-- OnPage ([source docs](./docs/OnPageApi.md) | [api docs](https://docs.dataforseo.com/v3/on_page/overview/?bash))
-- Content Analysis ([source docs](./docs/ContentAnalysisApi.md) | [api docs](https://docs.dataforseo.com/v3/content_analysis/overview/?bash))
-- Content Generation ([source docs](./docs/ContentGenerationApi.md) | [api docs](https://docs.dataforseo.com/v3/content_generation/overview/?bash))
-- Merchant ([source docs](./docs/MerchantApi.md) | [api docs](https://docs.dataforseo.com/v3/merchant/overview/?bash))
-- App Data ([source docs](./docs/AppDataApi.md) | [api docs](https://docs.dataforseo.com/v3/app_data/overview/?bash))
-- Business Data ([source docs](./docs/BusinessDataApi.md) | [api docs](https://docs.dataforseo.com/v3/business_data/overview/?bash))
-- Appendix ([source docs](./docs/AppendixApi.md) | [api docs](https://docs.dataforseo.com/v3/appendix/user_data/?bash))
+
+- AI Optimization API (source docs | api docs)
+- SERP ([source docs](https://github.com/dataforseo/TypeScriptClient/tree/master/docs/SerpApi.md) | [api docs](https://docs.dataforseo.com/v3/serp/overview/?bash))
+- Keywords Data ([source docs](https://github.com/dataforseo/TypeScriptClient/tree/master/docs/KeywordsDataApi.md) | [api docs](https://docs.dataforseo.com/v3/keywords_data/overview/?bash))
+- Domain Analytics ([source docs](https://github.com/dataforseo/TypeScriptClient/tree/master/docs/DomainAnalyticsApi.md) | [api docs](https://docs.dataforseo.com/v3/domain_analytics/overview/?bash))
+- DataForSEO Labs ([source docs](https://github.com/dataforseo/TypeScriptClient/tree/master/docs/DataforseoLabsApi.md) | [api docs](https://docs.dataforseo.com/v3/dataforseo_labs/overview/?bash))
+- Backlinks ([source docs](https://github.com/dataforseo/TypeScriptClient/tree/master/docs/BacklinksApi.md) | [api docs](https://docs.dataforseo.com/v3/backlinks/overview/?bash))
+- OnPage ([source docs](https://github.com/dataforseo/TypeScriptClient/tree/master/docs/OnPageApi.md) | [api docs](https://docs.dataforseo.com/v3/on_page/overview/?bash))
+- Content Analysis ([source docs](https://github.com/dataforseo/TypeScriptClient/tree/master/docs/ContentAnalysisApi.md) | [api docs](https://docs.dataforseo.com/v3/content_analysis/overview/?bash))
+- Content Generation ([source docs](https://github.com/dataforseo/TypeScriptClient/tree/master/docs/ContentGenerationApi.md) | [api docs](https://docs.dataforseo.com/v3/content_generation/overview/?bash))
+- Merchant ([source docs](https://github.com/dataforseo/TypeScriptClient/tree/master/docs/MerchantApi.md) | [api docs](https://docs.dataforseo.com/v3/merchant/overview/?bash))
+- App Data ([source docs](https://github.com/dataforseo/TypeScriptClient/tree/master/docs/AppDataApi.md) | [api docs](https://docs.dataforseo.com/v3/app_data/overview/?bash))
+- Business Data ([source docs](https://github.com/dataforseo/TypeScriptClient/tree/master/docs/BusinessDataApi.md) | [api docs](https://docs.dataforseo.com/v3/business_data/overview/?bash))
+- Appendix ([source docs](https://github.com/dataforseo/TypeScriptClient/tree/master/docs/AppendixApi.md) | [api docs](https://docs.dataforseo.com/v3/appendix/user_data/?bash))
 
 API Contains 2 types of requests:
 
@@ -31,11 +32,11 @@ For more details, please follow [here](https://docs.dataforseo.com/v3/?bash)
 
 ## YAML Spec
 
-Our API description is based on the OpenAPI [syntax](https://spec.openapis.org/oas/v3.1.0) in YAML format. The YAML file is attached to the project [here](./openapi_specification.yaml)
+Our API description is based on the OpenAPI [syntax](https://spec.openapis.org/oas/v3.1.0) in YAML format. The YAML file is attached to the project [here](https://github.com/dataforseo/OpenApiDocumentation)
 
 ## Documentation
 
-The documentation for code objects, formatted in Markdown (.md) is available [here](./docs/). Official documentation for DataForSEO API is available [here](https://docs.dataforseo.com/v3/?bash).
+The documentation for code objects, formatted in Markdown (.md) is available [here](https://github.com/dataforseo/TypeScriptClient/tree/master/docs). Official documentation for DataForSEO API is available [here](https://docs.dataforseo.com/v3/?bash).
 
 ## Code generation
 

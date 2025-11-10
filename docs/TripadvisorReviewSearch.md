@@ -9,7 +9,7 @@
 **rank_absolute** | **number** | absolute rank among all the listed reviews<br>absolute position among all reviews on the list |[optional]|
 **position** | **string** | the alignment of the review in SERP<br>can take the following values: right |[optional]|
 **url** | **string** | URL of the review |[optional]|
-**rating** | **RatingElement** | the rating score submitted by the reviewer |[optional]|
+**rating** | **RatingInfo** | the rating score submitted by the reviewer |[optional]|
 **date_of_visit** | **string** | date of the reviewer’s visit to the local establishment<br>in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”<br>example:<br>2019-11-15 12:57:46 +00:00 |[optional]|
 **timestamp** | **string** | date and time when the review was published<br>in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”<br>example:<br>2019-11-15 12:57:46 +00:00 |[optional]|
 **review_id** | **string** | ID of the review |[optional]|

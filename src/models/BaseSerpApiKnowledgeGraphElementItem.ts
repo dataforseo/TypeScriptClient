@@ -1273,8 +1273,8 @@ if there are none, equals null */
  
 export interface ISerpApiKnowledgeGraphAiOverviewItemElementItem  extends IBaseSerpApiKnowledgeGraphElementItem    {
         
-        /** indicates whether the element is loaded asynchronically
-if true, the ai_overview element is loaded asynchronically;
+        /** indicates whether the element is loaded asynchronously
+if true, the ai_overview element is loaded asynchronously;
 if false, the ai_overview element is loaded from cache; */
         asynchronous_ai_overview?: boolean | undefined
         
@@ -1291,8 +1291,8 @@ includes references to webpages that may have been used to generate the ai_overv
 
 export class SerpApiKnowledgeGraphAiOverviewItemElementItem  extends BaseSerpApiKnowledgeGraphElementItem   implements ISerpApiKnowledgeGraphAiOverviewItemElementItem {
     
-    /** indicates whether the element is loaded asynchronically
-if true, the ai_overview element is loaded asynchronically;
+    /** indicates whether the element is loaded asynchronously
+if true, the ai_overview element is loaded asynchronously;
 if false, the ai_overview element is loaded from cache; */
 
     asynchronous_ai_overview?: boolean | undefined;

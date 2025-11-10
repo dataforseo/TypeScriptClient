@@ -1520,6 +1520,10 @@ the popularity rate based on reviews and displayed in SERP */
         /** bing-defined client id
 unique id of a local establishment */
         cid?: string | undefined
+        
+        /** business listing is claimed
+if true, the business listing is claimed by the owner or representative */
+        is_claimed?: boolean | undefined
 
     [key: string]: any;
 
@@ -1560,6 +1564,11 @@ the popularity rate based on reviews and displayed in SERP */
 unique id of a local establishment */
 
     cid?: string | undefined;
+    
+    /** business listing is claimed
+if true, the business listing is claimed by the owner or representative */
+
+    is_claimed?: boolean | undefined;
 
     [key: string]: any;
 
@@ -1584,6 +1593,7 @@ unique id of a local establishment */
             this.is_paid = data["is_paid"];
             this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
             this.cid = data["cid"];
+            this.is_claimed = data["is_claimed"];
         }
     }
 
@@ -1611,6 +1621,7 @@ unique id of a local establishment */
         data["is_paid"] = this.is_paid;
         data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["cid"] = this.cid;
+        data["is_claimed"] = this.is_claimed;
         return data;
     }
 }

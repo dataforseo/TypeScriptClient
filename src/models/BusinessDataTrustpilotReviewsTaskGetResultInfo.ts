@@ -1,4 +1,3 @@
-import { RatingInfo, IRatingInfo } from "./RatingInfo";
 import { TrustpilotReviewSearch, ITrustpilotReviewSearch } from "./TrustpilotReviewSearch";
 
 
@@ -32,11 +31,11 @@ address of the business entity for which the reviews are collected */
         location?: string | undefined
         
         /** the total number of reviews */
-        reviews_count?: number | undefined
+        reviews_count?: string | undefined
         
         /** rating of the corresponding business entity
 popularity rate based on reviews and displayed in SERP */
-        rating?: RatingInfo | undefined
+        rating?: any | undefined
         
         /** the number of items in the results array
 you can get more results by using the depth parameter when setting a task */
@@ -88,12 +87,12 @@ address of the business entity for which the reviews are collected */
     
     /** the total number of reviews */
 
-    reviews_count?: number | undefined;
+    reviews_count?: string | undefined;
     
     /** rating of the corresponding business entity
 popularity rate based on reviews and displayed in SERP */
 
-    rating?: RatingInfo | undefined;
+    rating?: any | undefined;
     
     /** the number of items in the results array
 you can get more results by using the depth parameter when setting a task */
@@ -133,7 +132,7 @@ you can get more results by using the depth parameter when setting a task */
             this.title = data["title"];
             this.location = data["location"];
             this.reviews_count = data["reviews_count"];
-            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"];
             this.items_count = data["items_count"];
             if (Array.isArray(data["items"])) {
                 this.items = [];
@@ -166,7 +165,7 @@ you can get more results by using the depth parameter when setting a task */
         data["title"] = this.title;
         data["location"] = this.location;
         data["reviews_count"] = this.reviews_count;
-        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating;
         data["items_count"] = this.items_count;
         data["items"] = null;
         if (Array.isArray(this.items)) {

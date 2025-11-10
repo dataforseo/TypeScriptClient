@@ -1,11 +1,8 @@
-import { Info, IInfo } from "./Info";
-
-
 export interface IBusinessDataBusinessListingsAvailableFiltersResultInfo   {
         
-        search?: Info | undefined
+        search?: { [key: string]: string; } | undefined
         
-        categories_aggregation?: Info | undefined
+        categories_aggregation?: { [key: string]: string; } | undefined
 
     [key: string]: any;
 
@@ -13,9 +10,9 @@ export interface IBusinessDataBusinessListingsAvailableFiltersResultInfo   {
 
 export class BusinessDataBusinessListingsAvailableFiltersResultInfo  implements IBusinessDataBusinessListingsAvailableFiltersResultInfo {
 
-    search?: Info | undefined;
+    search?: { [key: string]: string; } | undefined;
 
-    categories_aggregation?: Info | undefined;
+    categories_aggregation?: { [key: string]: string; } | undefined;
 
     [key: string]: any;
 
@@ -37,8 +34,8 @@ export class BusinessDataBusinessListingsAvailableFiltersResultInfo  implements 
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
-            this.search = data["search"] ? Info.fromJS(data["search"]) : <any>undefined;
-            this.categories_aggregation = data["categories_aggregation"] ? Info.fromJS(data["categories_aggregation"]) : <any>undefined;
+            this.search = data["search"];
+            this.categories_aggregation = data["categories_aggregation"];
         }
     }
 
@@ -56,8 +53,8 @@ export class BusinessDataBusinessListingsAvailableFiltersResultInfo  implements 
 
         
         
-        data["search"] = this.search ? Info.fromJS(this.search)?.toJSON() : <any>undefined;
-        data["categories_aggregation"] = this.categories_aggregation ? Info.fromJS(this.categories_aggregation)?.toJSON() : <any>undefined;
+        data["search"] = this.search;
+        data["categories_aggregation"] = this.categories_aggregation;
         return data;
     }
 }

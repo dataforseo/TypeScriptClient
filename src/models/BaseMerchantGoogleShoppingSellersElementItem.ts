@@ -256,6 +256,11 @@ possible values: Used, Refurbished, New, null */
 if there is no annotation for this product, the value will be null
 examples: LOW PRICE, SPECIAL OFFER, SALE, PRICE DROP */
         product_annotation?: string | undefined
+        
+        /** product availability information
+product availability information
+can take the following values: in_stock, limited_stock, out_of_stock, backordered, pre_order_available, on_display_to_order */
+        product_availability?: string | undefined
 
     [key: string]: any;
 
@@ -288,6 +293,12 @@ if there is no annotation for this product, the value will be null
 examples: LOW PRICE, SPECIAL OFFER, SALE, PRICE DROP */
 
     product_annotation?: string | undefined;
+    
+    /** product availability information
+product availability information
+can take the following values: in_stock, limited_stock, out_of_stock, backordered, pre_order_available, on_display_to_order */
+
+    product_availability?: string | undefined;
 
     [key: string]: any;
 
@@ -309,6 +320,7 @@ examples: LOW PRICE, SPECIAL OFFER, SALE, PRICE DROP */
             this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
             this.product_condition = data["product_condition"];
             this.product_annotation = data["product_annotation"];
+            this.product_availability = data["product_availability"];
         }
     }
 
@@ -333,6 +345,7 @@ examples: LOW PRICE, SPECIAL OFFER, SALE, PRICE DROP */
         data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["product_condition"] = this.product_condition;
         data["product_annotation"] = this.product_annotation;
+        data["product_availability"] = this.product_availability;
         return data;
     }
 }

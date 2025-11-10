@@ -57,8 +57,8 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new BacklinksIdListRequestInfo();
-   task.datetime_from = "2025-07-24 12:03:35 +00:00";
-   task.datetime_to = "2025-09-24 12:03:35 +00:00";
+   task.datetime_from = "2025-08-10 11:02:20 +00:00";
+   task.datetime_to = "2025-10-10 11:02:20 +00:00";
    task.limit = 100;
    task.offset = 0;
    task.sort = "desc";
@@ -353,8 +353,8 @@ This endpoint does not need any parameter.
 
  let task = new BacklinksHistoryLiveRequestInfo();
    task.target = "cnn.com";
-   task.date_from = "2025-07-24";
-   task.date_to = "2025-09-24";
+   task.date_from = "2025-08-10";
+   task.date_to = "2025-10-10";
  let response = await api.historyLive([task]);
 ```
 
@@ -962,8 +962,8 @@ This endpoint does not need any parameter.
 
  let task = new BacklinksTimeseriesSummaryLiveRequestInfo();
    task.target = "dataforseo.com";
-   task.date_from = "2025-07-24";
-   task.date_to = "2025-09-24";
+   task.date_from = "2025-08-10";
+   task.date_to = "2025-10-10";
    task.group_range = "month";
  let response = await api.timeseriesSummaryLive([task]);
 ```
@@ -1023,8 +1023,8 @@ This endpoint does not need any parameter.
 
  let task = new BacklinksTimeseriesNewLostSummaryLiveRequestInfo();
    task.target = "dataforseo.com";
-   task.date_from = "2025-07-24";
-   task.date_to = "2025-09-24";
+   task.date_from = "2025-08-10";
+   task.date_to = "2025-10-10";
    task.group_range = "month";
  let response = await api.timeseriesNewLostSummaryLive([task]);
 ```
@@ -1371,7 +1371,7 @@ This endpoint does not need any parameter.
        "https://stackoverflow.com/",
        "www.trustpilot.com",
    ];
-   task.date_from = "2025-07-24";
+   task.date_from = "2025-08-10";
  let response = await api.bulkNewLostBacklinksLive([task]);
 ```
 
@@ -1441,7 +1441,7 @@ This endpoint does not need any parameter.
        "https://stackoverflow.com/",
        "www.trustpilot.com",
    ];
-   task.date_from = "2025-07-24";
+   task.date_from = "2025-08-10";
  let response = await api.bulkNewLostReferringDomainsLive([task]);
 ```
 

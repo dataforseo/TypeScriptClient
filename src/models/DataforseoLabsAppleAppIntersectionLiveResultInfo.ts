@@ -1,4 +1,4 @@
-import { DataforseoLabsAppleAppIntersectionLiveItem, IDataforseoLabsAppleAppIntersectionLiveItem } from "./DataforseoLabsAppleAppIntersectionLiveItem";
+import { DataforseoLabsleAppIntersectionLiveItem, IDataforseoLabsleAppIntersectionLiveItem } from "./DataforseoLabsleAppIntersectionLiveItem";
 
 
 export interface IDataforseoLabsAppleAppIntersectionLiveResultInfo   {
@@ -22,7 +22,7 @@ export interface IDataforseoLabsAppleAppIntersectionLiveResultInfo   {
         items_count?: number | undefined
         
         /** contains data related to the ranking keywords for the app specified in the app_id field */
-        items?: DataforseoLabsAppleAppIntersectionLiveItem[] | undefined
+        items?: DataforseoLabsleAppIntersectionLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -56,7 +56,7 @@ export class DataforseoLabsAppleAppIntersectionLiveResultInfo  implements IDataf
     
     /** contains data related to the ranking keywords for the app specified in the app_id field */
 
-    items?: DataforseoLabsAppleAppIntersectionLiveItem[] | undefined;
+    items?: DataforseoLabsleAppIntersectionLiveItem[] | undefined;
 
     [key: string]: any;
 
@@ -87,7 +87,7 @@ export class DataforseoLabsAppleAppIntersectionLiveResultInfo  implements IDataf
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(DataforseoLabsAppleAppIntersectionLiveItem.fromJS(item));
+                    this.items.push(DataforseoLabsleAppIntersectionLiveItem.fromJS(item));
                 }
             }
         }

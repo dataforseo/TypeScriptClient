@@ -29,6 +29,10 @@ product price details on the seller’s website */
         /** delivery information
 product delivery information */
         delivery_info?: DeliveryInfo | undefined
+        
+        /** product availability information
+can take the following values: in_stock, limited_stock, out_of_stock, backordered, pre_order_available, on_display_to_order */
+        product_availability?: string | undefined
 
     [key: string]: any;
 
@@ -67,6 +71,11 @@ product price details on the seller’s website */
 product delivery information */
 
     delivery_info?: DeliveryInfo | undefined;
+    
+    /** product availability information
+can take the following values: in_stock, limited_stock, out_of_stock, backordered, pre_order_available, on_display_to_order */
+
+    product_availability?: string | undefined;
 
     [key: string]: any;
 
@@ -95,6 +104,7 @@ product delivery information */
             this.seller_review_count = data["seller_review_count"];
             this.price = data["price"] ? PriceInfo.fromJS(data["price"]) : <any>undefined;
             this.delivery_info = data["delivery_info"] ? DeliveryInfo.fromJS(data["delivery_info"]) : <any>undefined;
+            this.product_availability = data["product_availability"];
         }
     }
 
@@ -119,6 +129,7 @@ product delivery information */
         data["seller_review_count"] = this.seller_review_count;
         data["price"] = this.price ? PriceInfo.fromJS(this.price)?.toJSON() : <any>undefined;
         data["delivery_info"] = this.delivery_info ? DeliveryInfo.fromJS(this.delivery_info)?.toJSON() : <any>undefined;
+        data["product_availability"] = this.product_availability;
         return data;
     }
 }

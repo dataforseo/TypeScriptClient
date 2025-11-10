@@ -40,6 +40,10 @@ all web search outputs the model retrieved when looking up information, includin
 the sources the model actually cited or relied on in its final answer */
         sources?: ChatGptSource[] | undefined
         
+        /** array of fan-out queries
+contains related search queries derived from the main query to provide a more comprehensive response */
+        fan_out_queries?: string[] | undefined
+        
         /** total number of results */
         se_results_count?: number | undefined
         
@@ -105,6 +109,11 @@ the sources the model actually cited or relied on in its final answer */
 
     sources?: ChatGptSource[] | undefined;
     
+    /** array of fan-out queries
+contains related search queries derived from the main query to provide a more comprehensive response */
+
+    fan_out_queries?: string[] | undefined;
+    
     /** total number of results */
 
     se_results_count?: number | undefined;
@@ -163,6 +172,7 @@ chat_gpt_text, chat_gpt_table, chat_gpt_navigation_list, chat_gpt_images, chat_g
                     this.sources.push(ChatGptSource.fromJS(item));
                 }
             }
+            this.fan_out_queries = data["fan_out_queries"];
             this.se_results_count = data["se_results_count"];
             this.item_types = data["item_types"];
             this.items_count = data["items_count"];
@@ -214,6 +224,7 @@ chat_gpt_text, chat_gpt_table, chat_gpt_navigation_list, chat_gpt_images, chat_g
                 }
             }
         }
+        data["fan_out_queries"] = this.fan_out_queries;
         data["se_results_count"] = this.se_results_count;
         data["item_types"] = this.item_types;
         data["items_count"] = this.items_count;

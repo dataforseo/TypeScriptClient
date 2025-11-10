@@ -10,8 +10,7 @@ learn more about the parameter in this help center guide */
         /** name of the product seller */
         title?: string | undefined
         
-        /** seller url
-url of the webpage on the seller’s website where the product is sold */
+        /** product url on google shopping */
         url?: string | undefined
 
     [key: string]: any;
@@ -33,8 +32,7 @@ learn more about the parameter in this help center guide */
 
     title?: string | undefined;
     
-    /** seller url
-url of the webpage on the seller’s website where the product is sold */
+    /** product url on google shopping */
 
     url?: string | undefined;
 

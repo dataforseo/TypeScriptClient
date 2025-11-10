@@ -101,8 +101,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 if the value is true, the product can be ordered */
         is_available?: boolean | undefined
         
-        /** array of objects with top reviews from target location
-to obtain additional local reviews, you can specify the load_more_local_reviews parameter in Task POST */
+        /** array of objects with top reviews from target location */
         top_local_reviews?: AmazonReviewItem[] | undefined
         
         /** array of objects with top reviews from around the world */
@@ -234,8 +233,7 @@ if the value is true, the product can be ordered */
 
     is_available?: boolean | undefined;
     
-    /** array of objects with top reviews from target location
-to obtain additional local reviews, you can specify the load_more_local_reviews parameter in Task POST */
+    /** array of objects with top reviews from target location */
 
     top_local_reviews?: AmazonReviewItem[] | undefined;
     

@@ -13,7 +13,6 @@ you can specify up to 700 characters in the keyword field
 all %## will be decoded (plus character ‘+’ will be decoded to a space character)
 if you need to use the “%” character for your keyword, please specify it as “%25”;
 if you need to use the “+” character for your keyword, please specify it as “%2B”;
-if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’ the charge per task will be multiplied by 5
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
         keyword?: string | undefined
         
@@ -102,7 +101,8 @@ if specified, the response will contain SERP results up to and including the spe
 you can specify up to 10 target values in this array
 example:
 'stop_crawl_on_match':[{'match_value':'dataforseo.com','match_type':'with_subdomains'}]
-Your account will be billed per each SERP crawled through the specified targets; */
+learn more about this parameter on our Help Center
+Your account will be billed per each SERP crawled through the specified targets */
         stop_crawl_on_match?: string[] | undefined
         
         /** array of targets to stop crawling
@@ -145,7 +145,6 @@ you can specify up to 700 characters in the keyword field
 all %## will be decoded (plus character ‘+’ will be decoded to a space character)
 if you need to use the “%” character for your keyword, please specify it as “%25”;
 if you need to use the “+” character for your keyword, please specify it as “%2B”;
-if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’ the charge per task will be multiplied by 5
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keyword?: string | undefined;
@@ -245,7 +244,8 @@ if specified, the response will contain SERP results up to and including the spe
 you can specify up to 10 target values in this array
 example:
 'stop_crawl_on_match':[{'match_value':'dataforseo.com','match_type':'with_subdomains'}]
-Your account will be billed per each SERP crawled through the specified targets; */
+learn more about this parameter on our Help Center
+Your account will be billed per each SERP crawled through the specified targets */
 
     stop_crawl_on_match?: string[] | undefined;
     

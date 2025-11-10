@@ -13,6 +13,6 @@
 **url** | **string** | URL to the app page on App Store |[optional]|
 **icon** | **string** | URL to the app icon |[optional]|
 **reviews_count** | **number** | the total number of reviews of the app |[optional]|
-**rating** | **RatingElement** | average rating of the app |[optional]|
+**rating** | **RatingInfo** | average rating of the app |[optional]|
 **is_free** | **boolean** | indicates whether the app is free |[optional]|
 **price** | **PriceInfo** | price of the app |[optional]|

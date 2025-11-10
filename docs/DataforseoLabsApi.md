@@ -92,8 +92,8 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new DataforseoLabsIdListRequestInfo();
-   task.datetime_from = "2025-07-24 12:01:06 +00:00";
-   task.datetime_to = "2025-09-24 12:01:06 +00:00";
+   task.datetime_from = "2025-08-10 10:59:26 +00:00";
+   task.datetime_to = "2025-10-10 10:59:26 +00:00";
    task.limit = 100;
    task.offset = 0;
    task.sort = "desc";
@@ -1128,8 +1128,8 @@ This endpoint does not need any parameter.
        "13418",
        "11494",
    ];
-   task.first_date = "2025-07-24";
-   task.second_date = "2025-09-24";
+   task.first_date = "2025-08-10";
+   task.second_date = "2025-10-10";
    task.location_code = 2840;
    task.language_code = "en";
    task.limit = 3;
@@ -1747,8 +1747,8 @@ This endpoint does not need any parameter.
 
  let task = new DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo();
    task.keyword = "albert einstein";
-   task.date_from = "2025-07-24";
-   task.date_to = "2025-09-24";
+   task.date_from = "2025-08-10";
+   task.date_to = "2025-10-10";
    task.location_code = 2840;
    task.language_code = "en";
  let response = await api.googleHistoricalSerpsLive([task]);
@@ -1811,8 +1811,8 @@ This endpoint does not need any parameter.
    task.target = "dataforseo.com";
    task.location_code = 2840;
    task.language_code = "en";
-   task.date_from = "2025-07-24";
-   task.date_to = "2025-09-24";
+   task.date_from = "2025-08-10";
+   task.date_to = "2025-10-10";
  let response = await api.googleHistoricalRankOverviewLive([task]);
 ```
 
@@ -2010,8 +2010,8 @@ This endpoint does not need any parameter.
    ];
    task.location_code = 2840;
    task.language_code = "en";
-   task.date_from = "2025-07-24";
-   task.date_to = "2025-09-24";
+   task.date_from = "2025-08-10";
+   task.date_to = "2025-10-10";
    task.item_types = [
        "organic",
        "paid",
@@ -3453,8 +3453,8 @@ This endpoint does not need any parameter.
 
  let task = new DataforseoLabsGoogleAppIntersectionLiveRequestInfo();
    task.app_ids = {
-       1: "686449807",
-       2: "382617920",
+       1: "org.telegram.messenger",
+       2: "com.zhiliaoapp.musically",
    };
    task.location_code = 2840;
    task.language_name = "English";

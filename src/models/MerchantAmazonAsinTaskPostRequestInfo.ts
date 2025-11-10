@@ -67,19 +67,6 @@ example:
 amazon.com, amazon.co.uk, amazon.fr, etc. */
         se_domain?: string | undefined
         
-        /** load more local reviews
-optional field
-if set to true, additional local reviews will be loaded in the top_local_reviews array of the Task GET response;
-Note: you will be charged double the price for using this parameter */
-        load_more_local_reviews?: boolean | undefined
-        
-        /** sort local reviews
-optional field
-reviews in the top_local_reviews array of the Task GET response can be sorted by most helpful or most recent first;
-possible values: helpful, recent
-default value: helpful */
-        local_reviews_sort?: string | undefined
-        
         /** user-defined task identifier
 optional field
 the character limit is 255
@@ -199,21 +186,6 @@ amazon.com, amazon.co.uk, amazon.fr, etc. */
 
     se_domain?: string | undefined;
     
-    /** load more local reviews
-optional field
-if set to true, additional local reviews will be loaded in the top_local_reviews array of the Task GET response;
-Note: you will be charged double the price for using this parameter */
-
-    load_more_local_reviews?: boolean | undefined;
-    
-    /** sort local reviews
-optional field
-reviews in the top_local_reviews array of the Task GET response can be sorted by most helpful or most recent first;
-possible values: helpful, recent
-default value: helpful */
-
-    local_reviews_sort?: string | undefined;
-    
     /** user-defined task identifier
 optional field
 the character limit is 255
@@ -284,8 +256,6 @@ learn more on our Help Center */
             this.language_name = data["language_name"];
             this.language_code = data["language_code"];
             this.se_domain = data["se_domain"];
-            this.load_more_local_reviews = data["load_more_local_reviews"];
-            this.local_reviews_sort = data["local_reviews_sort"];
             this.tag = data["tag"];
             this.postback_url = data["postback_url"];
             this.postback_data = data["postback_data"];
@@ -315,8 +285,6 @@ learn more on our Help Center */
         data["language_name"] = this.language_name;
         data["language_code"] = this.language_code;
         data["se_domain"] = this.se_domain;
-        data["load_more_local_reviews"] = this.load_more_local_reviews;
-        data["local_reviews_sort"] = this.local_reviews_sort;
         data["tag"] = this.tag;
         data["postback_url"] = this.postback_url;
         data["postback_data"] = this.postback_data;

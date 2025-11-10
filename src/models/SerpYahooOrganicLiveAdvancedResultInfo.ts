@@ -42,7 +42,7 @@ equals null */
         /** types of search results in SERP
 contains types of search results (items) found in SERP.
 possible item types:
-featured_snippet, images, local_pack, hotels_pack, organic, paid, people_also_ask, related_searches, shopping, recipes, top_stories, video */
+featured_snippet, images, local_pack, hotels_pack, organic, paid, people_also_ask, related_searches, shopping, recipes, top_stories, video, ai_overview */
         item_types?: string[] | undefined
         
         /** total number of results in SERP */
@@ -111,7 +111,7 @@ equals null */
     /** types of search results in SERP
 contains types of search results (items) found in SERP.
 possible item types:
-featured_snippet, images, local_pack, hotels_pack, organic, paid, people_also_ask, related_searches, shopping, recipes, top_stories, video */
+featured_snippet, images, local_pack, hotels_pack, organic, paid, people_also_ask, related_searches, shopping, recipes, top_stories, video, ai_overview */
 
     item_types?: string[] | undefined;
     

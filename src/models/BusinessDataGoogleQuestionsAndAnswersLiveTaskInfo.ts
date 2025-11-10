@@ -1,11 +1,10 @@
-import { BusinessDataGoogleQuestionsAndAnswersLiveResultInfo, IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo } from "./BusinessDataGoogleQuestionsAndAnswersLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
 
 export interface IBusinessDataGoogleQuestionsAndAnswersLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: BusinessDataGoogleQuestionsAndAnswersLiveResultInfo[] | undefined
+        result?: any | undefined
 
     [key: string]: any;
 
@@ -15,7 +14,7 @@ export class BusinessDataGoogleQuestionsAndAnswersLiveTaskInfo  extends BaseResp
     
     /** array of results */
 
-    result?: BusinessDataGoogleQuestionsAndAnswersLiveResultInfo[] | undefined;
+    result?: any | undefined;
 
     [key: string]: any;
 
@@ -32,12 +31,7 @@ export class BusinessDataGoogleQuestionsAndAnswersLiveTaskInfo  extends BaseResp
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
-            if (Array.isArray(data["result"])) {
-                this.result = [];
-                for (let item of data["result"]) {
-                    this.result.push(BusinessDataGoogleQuestionsAndAnswersLiveResultInfo.fromJS(item));
-                }
-            }
+            this.result = data["result"];
         }
     }
 
@@ -57,15 +51,7 @@ export class BusinessDataGoogleQuestionsAndAnswersLiveTaskInfo  extends BaseResp
         super.toJSON(data);
         
         
-        data["result"] = null;
-        if (Array.isArray(this.result)) {
-            data["result"] = [];
-            for (let item of this.result) {
-                if (item && typeof item.toJSON === "function") {
-                    data["result"].push(item?.toJSON());
-                }
-            }
-        }
+        data["result"] = this.result;
         return data;
     }
 }

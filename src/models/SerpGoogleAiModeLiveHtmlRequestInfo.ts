@@ -1,12 +1,5 @@
 export interface ISerpGoogleAiModeLiveHtmlRequestInfo   {
         
-        /** direct URL of the search query
-optional field
-you can specify a direct URL and we will sort it out to the necessary fields. Note that this method is the most difficult for our API to process and also requires you to specify the exact language and location in the URL. In most cases, we wouldn’t recommend using this method.
-example:
-https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAIQIFISCXXeIa8LoNhHEZkq1d1aOpZS */
-        url?: string | undefined
-        
         /** keyword
 required field
 you can specify up to 700 characters in the keyword field
@@ -72,14 +65,6 @@ if you specify mobile in the device field, choose from the following values: and
 default value: android */
         os?: string | undefined
         
-        /** search engine domain
-optional field
-we choose the relevant search engine domain automatically according to the location and language you specify
-however, you can set a custom search engine domain in this field
-example:
-google.co.uk, google.com.au, google.de, etc. */
-        se_domain?: string | undefined
-        
         /** parsing depth
 optional field
 number of results in SERP
@@ -103,43 +88,6 @@ optional field
 get the list of available parameters and additional details here */
         search_param?: string | undefined
         
-        /** load asynchronous ai overview
-optional field
-set to true to obtain ai_overview items is SERPs even if they are loaded asynchronically;
-if set to false, you will only obtain ai_overview items from cache;
-default value: false
-Note your account will be billed $0.002 extra for each request;
-if the element is absent or contains 'asynchronous_ai_overview': false, all extra charges will be returned to your account balance */
-        load_async_ai_overview?: boolean | undefined
-        
-        /** expand ai overview
-optional field
-set to true to expand the ai_overview item;
-default value: false */
-        expand_ai_overview?: boolean | undefined
-        
-        /** array of targets to stop crawling
-optional field
-if specified, the response will contain SERP results up to and including the specified match_value;
-you can specify up to 10 target values in this array
-example:
-'stop_crawl_on_match':[{'match_value':'dataforseo.com','match_type':'with_subdomains'}]
-Your account will be billed per each SERP crawled through the specified targets; */
-        stop_crawl_on_match?: string[] | undefined
-        
-        /** array of targets to stop crawling
-required field if stop_crawl_on_match is specified;
-specify a target domain or wildcard value;
-Note: domain name must be specified without a request protocol;
-example: dataforseo.com */
-        match_value?: string | undefined
-        
-        /** array of targets to stop crawling
-required field if stop_crawl_on_match is specified;
-type of match for the match_value
-possible values: domain, with_subdomains, wildcard */
-        match_type?: string[] | undefined
-        
         /** user-defined task identifier
 optional field
 the character limit is 255
@@ -152,14 +100,6 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class SerpGoogleAiModeLiveHtmlRequestInfo  implements ISerpGoogleAiModeLiveHtmlRequestInfo {
-    
-    /** direct URL of the search query
-optional field
-you can specify a direct URL and we will sort it out to the necessary fields. Note that this method is the most difficult for our API to process and also requires you to specify the exact language and location in the URL. In most cases, we wouldn’t recommend using this method.
-example:
-https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAIQIFISCXXeIa8LoNhHEZkq1d1aOpZS */
-
-    url?: string | undefined;
     
     /** keyword
 required field
@@ -234,15 +174,6 @@ default value: android */
 
     os?: string | undefined;
     
-    /** search engine domain
-optional field
-we choose the relevant search engine domain automatically according to the location and language you specify
-however, you can set a custom search engine domain in this field
-example:
-google.co.uk, google.com.au, google.de, etc. */
-
-    se_domain?: string | undefined;
-    
     /** parsing depth
 optional field
 number of results in SERP
@@ -268,48 +199,6 @@ optional field
 get the list of available parameters and additional details here */
 
     search_param?: string | undefined;
-    
-    /** load asynchronous ai overview
-optional field
-set to true to obtain ai_overview items is SERPs even if they are loaded asynchronically;
-if set to false, you will only obtain ai_overview items from cache;
-default value: false
-Note your account will be billed $0.002 extra for each request;
-if the element is absent or contains 'asynchronous_ai_overview': false, all extra charges will be returned to your account balance */
-
-    load_async_ai_overview?: boolean | undefined;
-    
-    /** expand ai overview
-optional field
-set to true to expand the ai_overview item;
-default value: false */
-
-    expand_ai_overview?: boolean | undefined;
-    
-    /** array of targets to stop crawling
-optional field
-if specified, the response will contain SERP results up to and including the specified match_value;
-you can specify up to 10 target values in this array
-example:
-'stop_crawl_on_match':[{'match_value':'dataforseo.com','match_type':'with_subdomains'}]
-Your account will be billed per each SERP crawled through the specified targets; */
-
-    stop_crawl_on_match?: string[] | undefined;
-    
-    /** array of targets to stop crawling
-required field if stop_crawl_on_match is specified;
-specify a target domain or wildcard value;
-Note: domain name must be specified without a request protocol;
-example: dataforseo.com */
-
-    match_value?: string | undefined;
-    
-    /** array of targets to stop crawling
-required field if stop_crawl_on_match is specified;
-type of match for the match_value
-possible values: domain, with_subdomains, wildcard */
-
-    match_type?: string[] | undefined;
     
     /** user-defined task identifier
 optional field
@@ -339,7 +228,6 @@ you will find the specified tag value in the data object of the response */
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
-            this.url = data["url"];
             this.keyword = data["keyword"];
             this.location_name = data["location_name"];
             this.location_code = data["location_code"];
@@ -348,15 +236,9 @@ you will find the specified tag value in the data object of the response */
             this.language_code = data["language_code"];
             this.device = data["device"];
             this.os = data["os"];
-            this.se_domain = data["se_domain"];
             this.depth = data["depth"];
             this.max_crawl_pages = data["max_crawl_pages"];
             this.search_param = data["search_param"];
-            this.load_async_ai_overview = data["load_async_ai_overview"];
-            this.expand_ai_overview = data["expand_ai_overview"];
-            this.stop_crawl_on_match = data["stop_crawl_on_match"];
-            this.match_value = data["match_value"];
-            this.match_type = data["match_type"];
             this.tag = data["tag"];
         }
     }
@@ -375,7 +257,6 @@ you will find the specified tag value in the data object of the response */
 
         
         
-        data["url"] = this.url;
         data["keyword"] = this.keyword;
         data["location_name"] = this.location_name;
         data["location_code"] = this.location_code;
@@ -384,15 +265,9 @@ you will find the specified tag value in the data object of the response */
         data["language_code"] = this.language_code;
         data["device"] = this.device;
         data["os"] = this.os;
-        data["se_domain"] = this.se_domain;
         data["depth"] = this.depth;
         data["max_crawl_pages"] = this.max_crawl_pages;
         data["search_param"] = this.search_param;
-        data["load_async_ai_overview"] = this.load_async_ai_overview;
-        data["expand_ai_overview"] = this.expand_ai_overview;
-        data["stop_crawl_on_match"] = this.stop_crawl_on_match;
-        data["match_value"] = this.match_value;
-        data["match_type"] = this.match_type;
         data["tag"] = this.tag;
         return data;
     }

@@ -13,7 +13,6 @@ you can specify up to 700 characters in the keyword field
 all %## will be decoded (plus character ‘+’ will be decoded to a space character)
 if you need to use the “%” character for your keyword, please specify it as “%25”;
 if you need to use the “+” character for your keyword, please specify it as “%2B”;
-if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’ the charge per task will be multiplied by 5
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
         keyword?: string | undefined
         
@@ -68,10 +67,10 @@ default value: windows */
         /** parsing depth
 optional field
 number of results in SERP
-default value: 100
-max value: 700
-Your account will be billed per each SERP containing up to 10 results;
-Setting depth above 10 may result in additional charges if the search engine returns more than 10 results;
+default value: 5
+max value: 100
+Your account will be billed per each SERP containing up to 5 results;
+Setting depth above 5 may result in additional charges if the search engine returns more than 5 results;
 The cost can be calculated on the Pricing page. */
         depth?: number | undefined
         
@@ -115,7 +114,6 @@ you can specify up to 700 characters in the keyword field
 all %## will be decoded (plus character ‘+’ will be decoded to a space character)
 if you need to use the “%” character for your keyword, please specify it as “%25”;
 if you need to use the “+” character for your keyword, please specify it as “%2B”;
-if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’ the charge per task will be multiplied by 5
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keyword?: string | undefined;
@@ -177,10 +175,10 @@ default value: windows */
     /** parsing depth
 optional field
 number of results in SERP
-default value: 100
-max value: 700
-Your account will be billed per each SERP containing up to 10 results;
-Setting depth above 10 may result in additional charges if the search engine returns more than 10 results;
+default value: 5
+max value: 100
+Your account will be billed per each SERP containing up to 5 results;
+Setting depth above 5 may result in additional charges if the search engine returns more than 5 results;
 The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;

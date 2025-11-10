@@ -4,5 +4,5 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**title** | **string** | title of the item |[optional]|
-**url** | **string** | URL |[optional]|
+**title** | **string** | title of the result in SERP |[optional]|
+**url** | **string** | relevant URL |[optional]|
