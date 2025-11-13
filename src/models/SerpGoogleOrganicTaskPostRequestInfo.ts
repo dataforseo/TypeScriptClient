@@ -1,3 +1,6 @@
+import { SerpApiStopCrawlOnMatchInfo, ISerpApiStopCrawlOnMatchInfo } from "./SerpApiStopCrawlOnMatchInfo";
+
+
 export interface ISerpGoogleOrganicTaskPostRequestInfo   {
         
         /** keyword
@@ -43,9 +46,9 @@ if specified, the response will contain SERP results up to and including the spe
 you can specify up to 10 target values in this array
 example:
 'stop_crawl_on_match':[{'match_value':'dataforseo.com','match_type':'with_subdomains'}]
-learn more about this parameter on our Help Center
+learn more about this parameter on our Help Center - https://dataforseo.com/help-center/using-the-stop_crawl_on_match-parameter-in-serp-api
 Your account will be billed per each SERP crawled through the specified targets */
-        stop_crawl_on_match?: string[] | undefined
+        stop_crawl_on_match?: SerpApiStopCrawlOnMatchInfo[] | undefined
         
         /** array of targets to stop crawling
 required field if stop_crawl_on_match is specified;
@@ -307,10 +310,10 @@ if specified, the response will contain SERP results up to and including the spe
 you can specify up to 10 target values in this array
 example:
 'stop_crawl_on_match':[{'match_value':'dataforseo.com','match_type':'with_subdomains'}]
-learn more about this parameter on our Help Center
+learn more about this parameter on our Help Center - https://dataforseo.com/help-center/using-the-stop_crawl_on_match-parameter-in-serp-api
 Your account will be billed per each SERP crawled through the specified targets */
 
-    stop_crawl_on_match?: string[] | undefined;
+    stop_crawl_on_match?: SerpApiStopCrawlOnMatchInfo[] | undefined;
     
     /** array of targets to stop crawling
 required field if stop_crawl_on_match is specified;
@@ -568,7 +571,12 @@ learn more on our Help Center */
             this.url = data["url"];
             this.priority = data["priority"];
             this.depth = data["depth"];
-            this.stop_crawl_on_match = data["stop_crawl_on_match"];
+            if (Array.isArray(data["stop_crawl_on_match"])) {
+                this.stop_crawl_on_match = [];
+                for (let item of data["stop_crawl_on_match"]) {
+                    this.stop_crawl_on_match.push(SerpApiStopCrawlOnMatchInfo.fromJS(item));
+                }
+            }
             this.match_value = data["match_value"];
             this.match_type = data["match_type"];
             this.max_crawl_pages = data["max_crawl_pages"];
@@ -615,7 +623,15 @@ learn more on our Help Center */
         data["url"] = this.url;
         data["priority"] = this.priority;
         data["depth"] = this.depth;
-        data["stop_crawl_on_match"] = this.stop_crawl_on_match;
+        data["stop_crawl_on_match"] = null;
+        if (Array.isArray(this.stop_crawl_on_match)) {
+            data["stop_crawl_on_match"] = [];
+            for (let item of this.stop_crawl_on_match) {
+                if (item && typeof item.toJSON === "function") {
+                    data["stop_crawl_on_match"].push(item?.toJSON());
+                }
+            }
+        }
         data["match_value"] = this.match_value;
         data["match_type"] = this.match_type;
         data["max_crawl_pages"] = this.max_crawl_pages;

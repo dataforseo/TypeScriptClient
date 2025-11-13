@@ -10,6 +10,7 @@ import { SerpGoogleLocationsResponseInfo } from "./../models/SerpGoogleLocations
 import { SerpGoogleLocationsCountryResponseInfo } from "./../models/SerpGoogleLocationsCountryResponseInfo";
 import { SerpGoogleLanguagesResponseInfo } from "./../models/SerpGoogleLanguagesResponseInfo";
 import { SerpGoogleOrganicTaskPostRequestInfo } from "./../models/SerpGoogleOrganicTaskPostRequestInfo";
+import { SerpApiStopCrawlOnMatchInfo } from "./../models/SerpApiStopCrawlOnMatchInfo";
 import { SerpGoogleOrganicTaskPostResponseInfo } from "./../models/SerpGoogleOrganicTaskPostResponseInfo";
 import { SerpGoogleOrganicTasksReadyResponseInfo } from "./../models/SerpGoogleOrganicTasksReadyResponseInfo";
 import { SerpTasksReadyResponseInfo } from "./../models/SerpTasksReadyResponseInfo";
@@ -268,7 +269,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -303,7 +304,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -338,7 +339,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -373,7 +374,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -405,7 +406,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -439,7 +440,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -472,7 +473,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -508,7 +509,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -540,7 +541,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -573,7 +574,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -606,7 +607,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -640,7 +641,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -674,7 +675,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -708,7 +709,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -744,7 +745,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -779,7 +780,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -814,7 +815,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -846,7 +847,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -882,7 +883,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -914,7 +915,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -947,7 +948,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -981,7 +982,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -1015,7 +1016,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -1051,7 +1052,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1086,7 +1087,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1121,7 +1122,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1153,7 +1154,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -1186,7 +1187,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -1220,7 +1221,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -1256,7 +1257,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1291,7 +1292,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1323,7 +1324,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -1356,7 +1357,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -1390,7 +1391,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -1424,7 +1425,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -1460,7 +1461,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1495,7 +1496,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1530,7 +1531,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1562,7 +1563,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -1595,7 +1596,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -1629,7 +1630,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -1663,7 +1664,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -1699,7 +1700,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1734,7 +1735,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1769,7 +1770,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1801,7 +1802,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -1834,7 +1835,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -1868,7 +1869,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -1904,7 +1905,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1939,7 +1940,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1971,7 +1972,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -2004,7 +2005,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -2038,7 +2039,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -2072,7 +2073,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -2108,7 +2109,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2143,7 +2144,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2178,7 +2179,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2210,7 +2211,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -2243,7 +2244,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -2277,7 +2278,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -2313,7 +2314,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2345,7 +2346,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -2378,7 +2379,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -2412,7 +2413,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -2446,7 +2447,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -2482,7 +2483,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2514,7 +2515,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -2547,7 +2548,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -2581,7 +2582,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -2617,7 +2618,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2652,7 +2653,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2684,7 +2685,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -2717,7 +2718,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -2751,7 +2752,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -2787,7 +2788,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2822,7 +2823,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2854,7 +2855,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -2887,7 +2888,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -2921,7 +2922,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -2957,7 +2958,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2989,7 +2990,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -3025,7 +3026,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -3057,7 +3058,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -3091,7 +3092,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -3124,7 +3125,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -3160,7 +3161,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -3192,7 +3193,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -3226,7 +3227,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -3259,7 +3260,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -3293,7 +3294,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -3326,7 +3327,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -3362,7 +3363,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -3394,7 +3395,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -3427,7 +3428,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -3461,7 +3462,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -3495,7 +3496,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -3529,7 +3530,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -3565,7 +3566,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -3600,7 +3601,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -3635,7 +3636,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -3670,7 +3671,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -3702,7 +3703,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -3735,7 +3736,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -3769,7 +3770,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -3803,7 +3804,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -3839,7 +3840,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -3874,7 +3875,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -3906,7 +3907,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -3940,7 +3941,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -3973,7 +3974,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -4009,7 +4010,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -4041,7 +4042,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -4074,7 +4075,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -4108,7 +4109,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -4144,7 +4145,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -4179,7 +4180,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -4211,7 +4212,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -4244,7 +4245,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -4278,7 +4279,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -4314,7 +4315,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -4349,7 +4350,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -4381,7 +4382,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -4414,7 +4415,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -4448,7 +4449,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -4484,7 +4485,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -4516,7 +4517,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -4550,7 +4551,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -4583,7 +4584,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -4619,7 +4620,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -4651,7 +4652,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -4684,7 +4685,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -4718,7 +4719,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -4752,7 +4753,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -4786,7 +4787,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -4822,7 +4823,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -4857,7 +4858,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -4892,7 +4893,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -4924,7 +4925,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -4958,7 +4959,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -4991,7 +4992,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -5027,7 +5028,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -5059,7 +5060,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -5092,7 +5093,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -5126,7 +5127,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -5160,7 +5161,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -5194,7 +5195,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -5230,7 +5231,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -5262,7 +5263,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -5295,7 +5296,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -5329,7 +5330,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -5363,7 +5364,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -5397,7 +5398,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -5430,7 +5431,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -5464,7 +5465,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -5497,7 +5498,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -5533,7 +5534,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -5565,7 +5566,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -5598,7 +5599,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -5632,7 +5633,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -5666,7 +5667,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -5700,7 +5701,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -5736,7 +5737,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -5768,7 +5769,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -5802,7 +5803,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -5836,7 +5837,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -5872,7 +5873,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -5907,7 +5908,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -5942,7 +5943,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -5974,7 +5975,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -6008,7 +6009,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -6042,7 +6043,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -6078,7 +6079,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -6113,7 +6114,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -6148,7 +6149,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -6180,7 +6181,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -6214,7 +6215,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -6248,7 +6249,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -6284,7 +6285,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -6319,7 +6320,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -6354,7 +6355,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -6386,7 +6387,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -6420,7 +6421,7 @@ export class SerpApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
 
@@ -6456,7 +6457,7 @@ export class SerpApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.13",
+                "User-Agent": "typescript-client/2.0.14",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {

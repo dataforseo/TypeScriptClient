@@ -1,5 +1,3 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IWorkTimeInfo   {
         
         /** hours in the 24-hour format */

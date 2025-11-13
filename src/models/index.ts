@@ -2587,3 +2587,4 @@ export  { AppendixStatusEndpointsInfo, IAppendixStatusEndpointsInfo } from "./Ap
 export  { AppendixStatusResultInfo, IAppendixStatusResultInfo } from "./AppendixStatusResultInfo";
 export  { AppendixStatusTaskInfo, IAppendixStatusTaskInfo } from "./AppendixStatusTaskInfo";
 export  { AppendixStatusResponseInfo, IAppendixStatusResponseInfo } from "./AppendixStatusResponseInfo";
+export  { SerpApiStopCrawlOnMatchInfo, ISerpApiStopCrawlOnMatchInfo } from "./SerpApiStopCrawlOnMatchInfo";

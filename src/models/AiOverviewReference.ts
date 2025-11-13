@@ -1,23 +1,26 @@
-import { ApiException, throwException } from "./ApiException"
-
 export interface IAiOverviewReference   {
         
         /** type of element */
         type?: string | undefined
         
+        /** the alignment of the element in SERP
+can take the following values:
+left, right */
+        position?: string | undefined
+        
         /** reference source name or title */
         source?: string | undefined
         
-        /** website domain */
+        /** domain in SERP */
         domain?: string | undefined
         
-        /** URL */
+        /** image source URL */
         url?: string | undefined
         
-        /** title of a given link element */
+        /** title of the element */
         title?: string | undefined
         
-        /** row content */
+        /** text of the component */
         text?: string | undefined
 
     [key: string]: any;
@@ -30,23 +33,29 @@ export class AiOverviewReference  implements IAiOverviewReference {
 
     type?: string | undefined;
     
+    /** the alignment of the element in SERP
+can take the following values:
+left, right */
+
+    position?: string | undefined;
+    
     /** reference source name or title */
 
     source?: string | undefined;
     
-    /** website domain */
+    /** domain in SERP */
 
     domain?: string | undefined;
     
-    /** URL */
+    /** image source URL */
 
     url?: string | undefined;
     
-    /** title of a given link element */
+    /** title of the element */
 
     title?: string | undefined;
     
-    /** row content */
+    /** text of the component */
 
     text?: string | undefined;
 
@@ -71,6 +80,7 @@ export class AiOverviewReference  implements IAiOverviewReference {
                     this[property] = data[property];
             }
             this.type = data["type"];
+            this.position = data["position"];
             this.source = data["source"];
             this.domain = data["domain"];
             this.url = data["url"];
@@ -94,6 +104,7 @@ export class AiOverviewReference  implements IAiOverviewReference {
         
         
         data["type"] = this.type;
+        data["position"] = this.position;
         data["source"] = this.source;
         data["domain"] = this.domain;
         data["url"] = this.url;

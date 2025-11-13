@@ -2600,3 +2600,4 @@ export  { AppendixStatusEndpointsInfo, IAppendixStatusEndpointsInfo } from "./mo
 export  { AppendixStatusResultInfo, IAppendixStatusResultInfo } from "./models/AppendixStatusResultInfo";
 export  { AppendixStatusTaskInfo, IAppendixStatusTaskInfo } from "./models/AppendixStatusTaskInfo";
 export  { AppendixStatusResponseInfo, IAppendixStatusResponseInfo } from "./models/AppendixStatusResponseInfo";
+export  { SerpApiStopCrawlOnMatchInfo, ISerpApiStopCrawlOnMatchInfo } from "./models/SerpApiStopCrawlOnMatchInfo";
