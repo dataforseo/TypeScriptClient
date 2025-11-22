@@ -249,7 +249,7 @@ the shop popularity rate based on product reviews */
         rating?: RatingElement | undefined
         
         /** indicated condition of the product
-possible values: Used, Refurbished, New, null */
+possible values: Used, Refurbished, New, Pre-owned, null */
         product_condition?: string | undefined
         
         /** data from annotations and badges with special offers
@@ -284,7 +284,7 @@ the shop popularity rate based on product reviews */
     rating?: RatingElement | undefined;
     
     /** indicated condition of the product
-possible values: Used, Refurbished, New, null */
+possible values: Used, Refurbished, New, Pre-owned, null */
 
     product_condition?: string | undefined;
     

@@ -50,10 +50,12 @@ can take the following values: left */
         /** main category/genre of the app */
         main_category?: string | undefined
         
-        /** all relevant categories/genres of the app */
+        /** all relevant categories/genres of the app
+Note: this field returns only one relevant category in the array */
         categories?: string[] | undefined
         
-        /** languages supported in the app */
+        /** languages supported in the app
+Note: this field returns only one supported language in the array */
         languages?: string[] | undefined
         
         /** age rating and age-based content advisories */
@@ -80,7 +82,8 @@ can take the following values: left */
         /** date and time when the app was released
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
 example:
-2019-11-15 12:57:46 +00:00 */
+2019-11-15 12:57:46 +00:00
+Note: this field is deprecated and always returns null */
         released_date?: string | undefined
         
         /** date and time when the app was last updated
@@ -170,11 +173,13 @@ can take the following values: left */
 
     main_category?: string | undefined;
     
-    /** all relevant categories/genres of the app */
+    /** all relevant categories/genres of the app
+Note: this field returns only one relevant category in the array */
 
     categories?: string[] | undefined;
     
-    /** languages supported in the app */
+    /** languages supported in the app
+Note: this field returns only one supported language in the array */
 
     languages?: string[] | undefined;
     
@@ -209,7 +214,8 @@ can take the following values: left */
     /** date and time when the app was released
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
 example:
-2019-11-15 12:57:46 +00:00 */
+2019-11-15 12:57:46 +00:00
+Note: this field is deprecated and always returns null */
 
     released_date?: string | undefined;
     

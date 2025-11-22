@@ -1,11 +1,3 @@
-import { AiOptimizationChatGptLlmResponsesModelsResponseInfo } from "./../models/AiOptimizationChatGptLlmResponsesModelsResponseInfo";
-import { AiOptimizationChatGptLlmResponsesLiveRequestInfo } from "./../models/AiOptimizationChatGptLlmResponsesLiveRequestInfo";
-import { LlmMessageChainItem } from "./../models/LlmMessageChainItem";
-import { AiOptimizationChatGptLlmResponsesLiveResponseInfo } from "./../models/AiOptimizationChatGptLlmResponsesLiveResponseInfo";
-import { AiOptimizationChatGptLlmResponsesTaskPostRequestInfo } from "./../models/AiOptimizationChatGptLlmResponsesTaskPostRequestInfo";
-import { AiOptimizationChatGptLlmResponsesTaskPostResponseInfo } from "./../models/AiOptimizationChatGptLlmResponsesTaskPostResponseInfo";
-import { AiOptimizationChatGptLlmResponsesTasksReadyResponseInfo } from "./../models/AiOptimizationChatGptLlmResponsesTasksReadyResponseInfo";
-import { AiOptimizationChatGptLlmResponsesTaskGetResponseInfo } from "./../models/AiOptimizationChatGptLlmResponsesTaskGetResponseInfo";
 import { AiOptimizationChatGptLlmScraperLocationsResponseInfo } from "./../models/AiOptimizationChatGptLlmScraperLocationsResponseInfo";
 import { AiOptimizationChatGptLlmScraperLocationsCountryResponseInfo } from "./../models/AiOptimizationChatGptLlmScraperLocationsCountryResponseInfo";
 import { AiOptimizationChatGptLlmScraperLanguagesResponseInfo } from "./../models/AiOptimizationChatGptLlmScraperLanguagesResponseInfo";
@@ -14,6 +6,28 @@ import { AiOptimizationChatGptLlmScraperTaskPostResponseInfo } from "./../models
 import { AiOptimizationChatGptLlmScraperTasksReadyResponseInfo } from "./../models/AiOptimizationChatGptLlmScraperTasksReadyResponseInfo";
 import { AiOptimizationChatGptLlmScraperTaskGetAdvancedResponseInfo } from "./../models/AiOptimizationChatGptLlmScraperTaskGetAdvancedResponseInfo";
 import { AiOptimizationChatGptLlmScraperTaskGetHtmlResponseInfo } from "./../models/AiOptimizationChatGptLlmScraperTaskGetHtmlResponseInfo";
+import { AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo } from "./../models/AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo";
+import { AiOptimizationLlmMentionsAvailableFiltersResponseInfo } from "./../models/AiOptimizationLlmMentionsAvailableFiltersResponseInfo";
+import { AiOptimizationLlmMentionsSearchLiveRequestInfo } from "./../models/AiOptimizationLlmMentionsSearchLiveRequestInfo";
+import { BaseAiOptimizationLLmMentionsTargetElement } from "./../models/BaseAiOptimizationLLmMentionsTargetElement";
+import { AiOptimizationLlmMentionsSearchLiveResponseInfo } from "./../models/AiOptimizationLlmMentionsSearchLiveResponseInfo";
+import { AiOptimizationLlmMentionsTopPagesLiveRequestInfo } from "./../models/AiOptimizationLlmMentionsTopPagesLiveRequestInfo";
+import { AiOptimizationLlmMentionsTopPagesLiveResponseInfo } from "./../models/AiOptimizationLlmMentionsTopPagesLiveResponseInfo";
+import { AiOptimizationLlmMentionsTopDomainsLiveRequestInfo } from "./../models/AiOptimizationLlmMentionsTopDomainsLiveRequestInfo";
+import { AiOptimizationLlmMentionsTopDomainsLiveResponseInfo } from "./../models/AiOptimizationLlmMentionsTopDomainsLiveResponseInfo";
+import { AiOptimizationLlmMentionsAggregatedMetricsLiveRequestInfo } from "./../models/AiOptimizationLlmMentionsAggregatedMetricsLiveRequestInfo";
+import { AiOptimizationLlmMentionsAggregatedMetricsLiveResponseInfo } from "./../models/AiOptimizationLlmMentionsAggregatedMetricsLiveResponseInfo";
+import { AiOptimizationLlmMentionsCrossAggregatedMetricsLiveRequestInfo } from "./../models/AiOptimizationLlmMentionsCrossAggregatedMetricsLiveRequestInfo";
+import { AiOptimizationLLmMentionsCrossAggregateMetricsTargetInfo } from "./../models/AiOptimizationLLmMentionsCrossAggregateMetricsTargetInfo";
+import { AiOptimizationLlmMentionsCrossAggregatedMetricsLiveResponseInfo } from "./../models/AiOptimizationLlmMentionsCrossAggregatedMetricsLiveResponseInfo";
+import { AiOptimizationChatGptLlmResponsesModelsResponseInfo } from "./../models/AiOptimizationChatGptLlmResponsesModelsResponseInfo";
+import { AiOptimizationChatGptLlmResponsesLiveRequestInfo } from "./../models/AiOptimizationChatGptLlmResponsesLiveRequestInfo";
+import { LlmMessageChainItem } from "./../models/LlmMessageChainItem";
+import { AiOptimizationChatGptLlmResponsesLiveResponseInfo } from "./../models/AiOptimizationChatGptLlmResponsesLiveResponseInfo";
+import { AiOptimizationChatGptLlmResponsesTaskPostRequestInfo } from "./../models/AiOptimizationChatGptLlmResponsesTaskPostRequestInfo";
+import { AiOptimizationChatGptLlmResponsesTaskPostResponseInfo } from "./../models/AiOptimizationChatGptLlmResponsesTaskPostResponseInfo";
+import { AiOptimizationChatGptLlmResponsesTasksReadyResponseInfo } from "./../models/AiOptimizationChatGptLlmResponsesTasksReadyResponseInfo";
+import { AiOptimizationChatGptLlmResponsesTaskGetResponseInfo } from "./../models/AiOptimizationChatGptLlmResponsesTaskGetResponseInfo";
 import { AiOptimizationClaudeLlmResponsesModelsResponseInfo } from "./../models/AiOptimizationClaudeLlmResponsesModelsResponseInfo";
 import { AiOptimizationClaudeLlmResponsesLiveRequestInfo } from "./../models/AiOptimizationClaudeLlmResponsesLiveRequestInfo";
 import { AiOptimizationClaudeLlmResponsesLiveResponseInfo } from "./../models/AiOptimizationClaudeLlmResponsesLiveResponseInfo";
@@ -22,6 +36,10 @@ import { AiOptimizationClaudeLlmResponsesTaskPostResponseInfo } from "./../model
 import { AiOptimizationClaudeLlmResponsesTasksReadyResponseInfo } from "./../models/AiOptimizationClaudeLlmResponsesTasksReadyResponseInfo";
 import { AiOptimizationClaudeLlmResponsesTaskGetResponseInfo } from "./../models/AiOptimizationClaudeLlmResponsesTaskGetResponseInfo";
 import { AiOptimizationGeminiLlmResponsesModelsResponseInfo } from "./../models/AiOptimizationGeminiLlmResponsesModelsResponseInfo";
+import { AiOptimizationGeminiLlmResponsesTaskPostRequestInfo } from "./../models/AiOptimizationGeminiLlmResponsesTaskPostRequestInfo";
+import { AiOptimizationGeminiLlmResponsesTaskPostResponseInfo } from "./../models/AiOptimizationGeminiLlmResponsesTaskPostResponseInfo";
+import { AiOptimizationGeminiLlmResponsesTasksReadyResponseInfo } from "./../models/AiOptimizationGeminiLlmResponsesTasksReadyResponseInfo";
+import { AiOptimizationGeminiLlmResponsesTaskGetResponseInfo } from "./../models/AiOptimizationGeminiLlmResponsesTaskGetResponseInfo";
 import { AiOptimizationGeminiLlmResponsesLiveRequestInfo } from "./../models/AiOptimizationGeminiLlmResponsesLiveRequestInfo";
 import { AiOptimizationGeminiLlmResponsesLiveResponseInfo } from "./../models/AiOptimizationGeminiLlmResponsesLiveResponseInfo";
 import { AiOptimizationPerplexityLlmResponsesModelsResponseInfo } from "./../models/AiOptimizationPerplexityLlmResponsesModelsResponseInfo";
@@ -43,176 +61,6 @@ export class AiOptimizationApi {
         this.baseUrl = baseUrl ?? "https://";
     }
 
-    chatGptLlmResponsesModels(): Promise<AiOptimizationChatGptLlmResponsesModelsResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/ai_optimization/chat_gpt/llm_responses/models";
-        url_ = url_.replace(/[?&]$/, "");
-        let options_: RequestInit = {
-            method: "GET",
-            headers: {
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.14",
-            }
-        };
-
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processChatGptLlmResponsesModels(_response);
-        });
-    }
-
-    protected processChatGptLlmResponsesModels(response: Response): Promise<AiOptimizationChatGptLlmResponsesModelsResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? AiOptimizationChatGptLlmResponsesModelsResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<AiOptimizationChatGptLlmResponsesModelsResponseInfo | null>(null as any);
-    }
-    chatGptLlmResponsesLive(body: AiOptimizationChatGptLlmResponsesLiveRequestInfo[]): Promise<AiOptimizationChatGptLlmResponsesLiveResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/ai_optimization/chat_gpt/llm_responses/live";
-        url_ = url_.replace(/[?&]$/, "");
-        const content_ = JSON.stringify(body);
-        let options_: RequestInit = {
-            body: content_,
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.14",
-            }
-        };
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processChatGptLlmResponsesLive(_response);
-        });
-    }
-
-    protected processChatGptLlmResponsesLive(response: Response): Promise<AiOptimizationChatGptLlmResponsesLiveResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? AiOptimizationChatGptLlmResponsesLiveResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<AiOptimizationChatGptLlmResponsesLiveResponseInfo | null>(null as any);
-    }
-    chatGptLlmResponsesTaskPost(body: AiOptimizationChatGptLlmResponsesTaskPostRequestInfo[]): Promise<AiOptimizationChatGptLlmResponsesTaskPostResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/ai_optimization/chat_gpt/llm_responses/task_post";
-        url_ = url_.replace(/[?&]$/, "");
-        const content_ = JSON.stringify(body);
-        let options_: RequestInit = {
-            body: content_,
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.14",
-            }
-        };
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processChatGptLlmResponsesTaskPost(_response);
-        });
-    }
-
-    protected processChatGptLlmResponsesTaskPost(response: Response): Promise<AiOptimizationChatGptLlmResponsesTaskPostResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? AiOptimizationChatGptLlmResponsesTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<AiOptimizationChatGptLlmResponsesTaskPostResponseInfo | null>(null as any);
-    }
-    chatGptLlmResponsesTasksReady(): Promise<AiOptimizationChatGptLlmResponsesTasksReadyResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/ai_optimization/chat_gpt/llm_responses/tasks_ready";
-        url_ = url_.replace(/[?&]$/, "");
-        let options_: RequestInit = {
-            method: "GET",
-            headers: {
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.14",
-            }
-        };
-
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processChatGptLlmResponsesTasksReady(_response);
-        });
-    }
-
-    protected processChatGptLlmResponsesTasksReady(response: Response): Promise<AiOptimizationChatGptLlmResponsesTasksReadyResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? AiOptimizationChatGptLlmResponsesTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<AiOptimizationChatGptLlmResponsesTasksReadyResponseInfo | null>(null as any);
-    }
-    chatGptLlmResponsesTaskGet(id: string): Promise<AiOptimizationChatGptLlmResponsesTaskGetResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/ai_optimization/chat_gpt/llm_responses/task_get/{id}";
-        url_ = url_.replace(/[?&]$/, "");
-        url_ = url_.replace("{id}", encodeURIComponent("" + id));
-        let options_: RequestInit = {
-            method: "GET",
-            headers: {
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.14",
-            }
-        };
-
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processChatGptLlmResponsesTaskGet(_response);
-        });
-    }
-
-    protected processChatGptLlmResponsesTaskGet(response: Response): Promise<AiOptimizationChatGptLlmResponsesTaskGetResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? AiOptimizationChatGptLlmResponsesTaskGetResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<AiOptimizationChatGptLlmResponsesTaskGetResponseInfo | null>(null as any);
-    }
     aiOptimizationChatGptLlmScraperLocations(): Promise<AiOptimizationChatGptLlmScraperLocationsResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/ai_optimization/chat_gpt/llm_scraper/locations";
         url_ = url_.replace(/[?&]$/, "");
@@ -220,7 +68,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.14",
+                "User-Agent": "typescript-client/2.0.15",
             }
         };
 
@@ -254,7 +102,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.14",
+                "User-Agent": "typescript-client/2.0.15",
             }
         };
 
@@ -287,7 +135,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.14",
+                "User-Agent": "typescript-client/2.0.15",
             }
         };
 
@@ -323,7 +171,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.14",
+                "User-Agent": "typescript-client/2.0.15",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -355,7 +203,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.14",
+                "User-Agent": "typescript-client/2.0.15",
             }
         };
 
@@ -389,7 +237,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.14",
+                "User-Agent": "typescript-client/2.0.15",
             }
         };
 
@@ -423,7 +271,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.14",
+                "User-Agent": "typescript-client/2.0.15",
             }
         };
 
@@ -449,6 +297,417 @@ export class AiOptimizationApi {
         }
         return Promise.resolve<AiOptimizationChatGptLlmScraperTaskGetHtmlResponseInfo | null>(null as any);
     }
+    aiOptimizationLlmMentionsLocationsAndLanguages(): Promise<AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/locations_and_languages";
+        url_ = url_.replace(/[?&]$/, "");
+        let options_: RequestInit = {
+            method: "GET",
+            headers: {
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.15",
+            }
+        };
+
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processAiOptimizationLlmMentionsLocationsAndLanguages(_response);
+        });
+    }
+
+    protected processAiOptimizationLlmMentionsLocationsAndLanguages(response: Response): Promise<AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo | null>(null as any);
+    }
+    llmMentionsAvailableFilters(): Promise<AiOptimizationLlmMentionsAvailableFiltersResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/available_filters";
+        url_ = url_.replace(/[?&]$/, "");
+        let options_: RequestInit = {
+            method: "GET",
+            headers: {
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.15",
+            }
+        };
+
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processLlmMentionsAvailableFilters(_response);
+        });
+    }
+
+    protected processLlmMentionsAvailableFilters(response: Response): Promise<AiOptimizationLlmMentionsAvailableFiltersResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationLlmMentionsAvailableFiltersResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationLlmMentionsAvailableFiltersResponseInfo | null>(null as any);
+    }
+    llmMentionsSearchLive(body: AiOptimizationLlmMentionsSearchLiveRequestInfo[]): Promise<AiOptimizationLlmMentionsSearchLiveResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/search/live";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.15",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processLlmMentionsSearchLive(_response);
+        });
+    }
+
+    protected processLlmMentionsSearchLive(response: Response): Promise<AiOptimizationLlmMentionsSearchLiveResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationLlmMentionsSearchLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationLlmMentionsSearchLiveResponseInfo | null>(null as any);
+    }
+    llmMentionsTopPagesLive(body: AiOptimizationLlmMentionsTopPagesLiveRequestInfo[]): Promise<AiOptimizationLlmMentionsTopPagesLiveResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/top_pages/live";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.15",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processLlmMentionsTopPagesLive(_response);
+        });
+    }
+
+    protected processLlmMentionsTopPagesLive(response: Response): Promise<AiOptimizationLlmMentionsTopPagesLiveResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationLlmMentionsTopPagesLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationLlmMentionsTopPagesLiveResponseInfo | null>(null as any);
+    }
+    llmMentionsTopDomainsLive(body: AiOptimizationLlmMentionsTopDomainsLiveRequestInfo[]): Promise<AiOptimizationLlmMentionsTopDomainsLiveResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/top_domains/live";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.15",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processLlmMentionsTopDomainsLive(_response);
+        });
+    }
+
+    protected processLlmMentionsTopDomainsLive(response: Response): Promise<AiOptimizationLlmMentionsTopDomainsLiveResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationLlmMentionsTopDomainsLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationLlmMentionsTopDomainsLiveResponseInfo | null>(null as any);
+    }
+    llmMentionsAggregatedMetricsLive(body: AiOptimizationLlmMentionsAggregatedMetricsLiveRequestInfo[]): Promise<AiOptimizationLlmMentionsAggregatedMetricsLiveResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/aggregated_metrics/live";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.15",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processLlmMentionsAggregatedMetricsLive(_response);
+        });
+    }
+
+    protected processLlmMentionsAggregatedMetricsLive(response: Response): Promise<AiOptimizationLlmMentionsAggregatedMetricsLiveResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationLlmMentionsAggregatedMetricsLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationLlmMentionsAggregatedMetricsLiveResponseInfo | null>(null as any);
+    }
+    llmMentionsCrossAggregatedMetricsLive(body: AiOptimizationLlmMentionsCrossAggregatedMetricsLiveRequestInfo[]): Promise<AiOptimizationLlmMentionsCrossAggregatedMetricsLiveResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/cross_aggregated_metrics/live";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.15",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processLlmMentionsCrossAggregatedMetricsLive(_response);
+        });
+    }
+
+    protected processLlmMentionsCrossAggregatedMetricsLive(response: Response): Promise<AiOptimizationLlmMentionsCrossAggregatedMetricsLiveResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationLlmMentionsCrossAggregatedMetricsLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationLlmMentionsCrossAggregatedMetricsLiveResponseInfo | null>(null as any);
+    }
+    chatGptLlmResponsesModels(): Promise<AiOptimizationChatGptLlmResponsesModelsResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/chat_gpt/llm_responses/models";
+        url_ = url_.replace(/[?&]$/, "");
+        let options_: RequestInit = {
+            method: "GET",
+            headers: {
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.15",
+            }
+        };
+
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processChatGptLlmResponsesModels(_response);
+        });
+    }
+
+    protected processChatGptLlmResponsesModels(response: Response): Promise<AiOptimizationChatGptLlmResponsesModelsResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationChatGptLlmResponsesModelsResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationChatGptLlmResponsesModelsResponseInfo | null>(null as any);
+    }
+    chatGptLlmResponsesLive(body: AiOptimizationChatGptLlmResponsesLiveRequestInfo[]): Promise<AiOptimizationChatGptLlmResponsesLiveResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/chat_gpt/llm_responses/live";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.15",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processChatGptLlmResponsesLive(_response);
+        });
+    }
+
+    protected processChatGptLlmResponsesLive(response: Response): Promise<AiOptimizationChatGptLlmResponsesLiveResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationChatGptLlmResponsesLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationChatGptLlmResponsesLiveResponseInfo | null>(null as any);
+    }
+    chatGptLlmResponsesTaskPost(body: AiOptimizationChatGptLlmResponsesTaskPostRequestInfo[]): Promise<AiOptimizationChatGptLlmResponsesTaskPostResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/chat_gpt/llm_responses/task_post";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.15",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processChatGptLlmResponsesTaskPost(_response);
+        });
+    }
+
+    protected processChatGptLlmResponsesTaskPost(response: Response): Promise<AiOptimizationChatGptLlmResponsesTaskPostResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationChatGptLlmResponsesTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationChatGptLlmResponsesTaskPostResponseInfo | null>(null as any);
+    }
+    chatGptLlmResponsesTasksReady(): Promise<AiOptimizationChatGptLlmResponsesTasksReadyResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/chat_gpt/llm_responses/tasks_ready";
+        url_ = url_.replace(/[?&]$/, "");
+        let options_: RequestInit = {
+            method: "GET",
+            headers: {
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.15",
+            }
+        };
+
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processChatGptLlmResponsesTasksReady(_response);
+        });
+    }
+
+    protected processChatGptLlmResponsesTasksReady(response: Response): Promise<AiOptimizationChatGptLlmResponsesTasksReadyResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationChatGptLlmResponsesTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationChatGptLlmResponsesTasksReadyResponseInfo | null>(null as any);
+    }
+    chatGptLlmResponsesTaskGet(id: string): Promise<AiOptimizationChatGptLlmResponsesTaskGetResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/chat_gpt/llm_responses/task_get/{id}";
+        url_ = url_.replace(/[?&]$/, "");
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
+        let options_: RequestInit = {
+            method: "GET",
+            headers: {
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.15",
+            }
+        };
+
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processChatGptLlmResponsesTaskGet(_response);
+        });
+    }
+
+    protected processChatGptLlmResponsesTaskGet(response: Response): Promise<AiOptimizationChatGptLlmResponsesTaskGetResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationChatGptLlmResponsesTaskGetResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationChatGptLlmResponsesTaskGetResponseInfo | null>(null as any);
+    }
     claudeLlmResponsesModels(): Promise<AiOptimizationClaudeLlmResponsesModelsResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/ai_optimization/claude/llm_responses/models";
         url_ = url_.replace(/[?&]$/, "");
@@ -456,7 +715,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.14",
+                "User-Agent": "typescript-client/2.0.15",
             }
         };
 
@@ -492,7 +751,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.14",
+                "User-Agent": "typescript-client/2.0.15",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -527,7 +786,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.14",
+                "User-Agent": "typescript-client/2.0.15",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -559,7 +818,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.14",
+                "User-Agent": "typescript-client/2.0.15",
             }
         };
 
@@ -593,7 +852,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.14",
+                "User-Agent": "typescript-client/2.0.15",
             }
         };
 
@@ -626,7 +885,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.14",
+                "User-Agent": "typescript-client/2.0.15",
             }
         };
 
@@ -652,6 +911,108 @@ export class AiOptimizationApi {
         }
         return Promise.resolve<AiOptimizationGeminiLlmResponsesModelsResponseInfo | null>(null as any);
     }
+    geminiLlmResponsesTaskPost(body: AiOptimizationGeminiLlmResponsesTaskPostRequestInfo[]): Promise<AiOptimizationGeminiLlmResponsesTaskPostResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/gemini/llm_responses/task_post";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.15",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processGeminiLlmResponsesTaskPost(_response);
+        });
+    }
+
+    protected processGeminiLlmResponsesTaskPost(response: Response): Promise<AiOptimizationGeminiLlmResponsesTaskPostResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationGeminiLlmResponsesTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationGeminiLlmResponsesTaskPostResponseInfo | null>(null as any);
+    }
+    geminiLlmResponsesTasksReady(): Promise<AiOptimizationGeminiLlmResponsesTasksReadyResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/gemini/llm_responses/tasks_ready";
+        url_ = url_.replace(/[?&]$/, "");
+        let options_: RequestInit = {
+            method: "GET",
+            headers: {
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.15",
+            }
+        };
+
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processGeminiLlmResponsesTasksReady(_response);
+        });
+    }
+
+    protected processGeminiLlmResponsesTasksReady(response: Response): Promise<AiOptimizationGeminiLlmResponsesTasksReadyResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationGeminiLlmResponsesTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationGeminiLlmResponsesTasksReadyResponseInfo | null>(null as any);
+    }
+    geminiLlmResponsesTaskGet(id: string): Promise<AiOptimizationGeminiLlmResponsesTaskGetResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/gemini/llm_responses/task_get/{id}";
+        url_ = url_.replace(/[?&]$/, "");
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
+        let options_: RequestInit = {
+            method: "GET",
+            headers: {
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.15",
+            }
+        };
+
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processGeminiLlmResponsesTaskGet(_response);
+        });
+    }
+
+    protected processGeminiLlmResponsesTaskGet(response: Response): Promise<AiOptimizationGeminiLlmResponsesTaskGetResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationGeminiLlmResponsesTaskGetResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationGeminiLlmResponsesTaskGetResponseInfo | null>(null as any);
+    }
     geminiLlmResponsesLive(body: AiOptimizationGeminiLlmResponsesLiveRequestInfo[]): Promise<AiOptimizationGeminiLlmResponsesLiveResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/ai_optimization/gemini/llm_responses/live";
         url_ = url_.replace(/[?&]$/, "");
@@ -662,7 +1023,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.14",
+                "User-Agent": "typescript-client/2.0.15",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -694,7 +1055,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.14",
+                "User-Agent": "typescript-client/2.0.15",
             }
         };
 
@@ -730,7 +1091,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.14",
+                "User-Agent": "typescript-client/2.0.15",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -762,7 +1123,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.14",
+                "User-Agent": "typescript-client/2.0.15",
             }
         };
 
@@ -795,7 +1156,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.14",
+                "User-Agent": "typescript-client/2.0.15",
             }
         };
 
@@ -831,7 +1192,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.14",
+                "User-Agent": "typescript-client/2.0.15",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {

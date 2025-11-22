@@ -116,18 +116,18 @@ learn more about this parameter on our Help Center - https://dataforseo.com/help
 Your account will be billed per each SERP crawled through the specified targets */
         stop_crawl_on_match?: SerpApiStopCrawlOnMatchInfo[] | undefined
         
-        /** array of targets to stop crawling
+        /** target domain or wildcard value
 required field if stop_crawl_on_match is specified;
 specify a target domain or wildcard value;
 Note: domain name must be specified without a request protocol;
 example: dataforseo.com */
         match_value?: string | undefined
         
-        /** array of targets to stop crawling
+        /** target match type
 required field if stop_crawl_on_match is specified;
 type of match for the match_value
 possible values: domain, with_subdomains, wildcard */
-        match_type?: string[] | undefined
+        match_type?: string | undefined
         
         /** user-defined task identifier
 optional field
@@ -299,7 +299,7 @@ Your account will be billed per each SERP crawled through the specified targets 
 
     stop_crawl_on_match?: SerpApiStopCrawlOnMatchInfo[] | undefined;
     
-    /** array of targets to stop crawling
+    /** target domain or wildcard value
 required field if stop_crawl_on_match is specified;
 specify a target domain or wildcard value;
 Note: domain name must be specified without a request protocol;
@@ -307,12 +307,12 @@ example: dataforseo.com */
 
     match_value?: string | undefined;
     
-    /** array of targets to stop crawling
+    /** target match type
 required field if stop_crawl_on_match is specified;
 type of match for the match_value
 possible values: domain, with_subdomains, wildcard */
 
-    match_type?: string[] | undefined;
+    match_type?: string | undefined;
     
     /** user-defined task identifier
 optional field

@@ -129,18 +129,52 @@ learn more about this parameter on our Help Center - https://dataforseo.com/help
 Your account will be billed per each SERP crawled through the specified targets */
         stop_crawl_on_match?: SerpApiStopCrawlOnMatchInfo[] | undefined
         
-        /** array of targets to stop crawling
+        /** target domain or wildcard value
 required field if stop_crawl_on_match is specified;
 specify a target domain or wildcard value;
 Note: domain name must be specified without a request protocol;
 example: dataforseo.com */
         match_value?: string | undefined
         
-        /** array of targets to stop crawling
+        /** target match type
 required field if stop_crawl_on_match is specified;
 type of match for the match_value
 possible values: domain, with_subdomains, wildcard */
-        match_type?: string[] | undefined
+        match_type?: string | undefined
+        
+        /** target matching mode
+optional field
+to enable this parameter, stop_crawl_on_match must also be enabled
+defines how the crawl should stop when multiple targets are specified in stop_crawl_on_match
+possible values: all, any
+all – the crawl stops only when all specified targets are found
+any – the crawl stops when any single target is found
+default value: any
+learn more about this parameter on our Help Center */
+        target_search_mode?: string | undefined
+        
+        /** SERP element types to check for targets
+optional field
+to enable this parameter, stop_crawl_on_match must also be enabled
+specifies which SERP element types should be checked for target matches
+if not specified, all first-level elements with url and domain fields are checked for targets
+possible values: organic, paid, local_pack, featured_snippet, events, google_flights, images, jobs, knowledge_graph, local_service, map, scholarly_articles, third_party_reviews, twitter
+Note: cannot contain the same element types as ignore_targets_in
+example:
+'find_targets_in': ['organic', 'featured_snippet']
+learn more about this parameter on our Help Center */
+        find_targets_in?: string[] | undefined
+        
+        /** SERP element types to exclude from target search
+optional field
+to enable this parameter, stop_crawl_on_match must also be enabled
+specifies which SERP element types should be excluded when searching for target matches
+possible values: organic, paid, local_pack, featured_snippet, events, google_flights, images, jobs, knowledge_graph, local_service, map, scholarly_articles, third_party_reviews, twitter
+Note: cannot contain the same element types as find_targets_in
+example:
+'ignore_targets_in': ['paid', 'images']
+learn more about this parameter on our Help Center */
+        ignore_targets_in?: string[] | undefined
         
         /** display related results
 optional field
@@ -371,7 +405,7 @@ Your account will be billed per each SERP crawled through the specified targets 
 
     stop_crawl_on_match?: SerpApiStopCrawlOnMatchInfo[] | undefined;
     
-    /** array of targets to stop crawling
+    /** target domain or wildcard value
 required field if stop_crawl_on_match is specified;
 specify a target domain or wildcard value;
 Note: domain name must be specified without a request protocol;
@@ -379,12 +413,49 @@ example: dataforseo.com */
 
     match_value?: string | undefined;
     
-    /** array of targets to stop crawling
+    /** target match type
 required field if stop_crawl_on_match is specified;
 type of match for the match_value
 possible values: domain, with_subdomains, wildcard */
 
-    match_type?: string[] | undefined;
+    match_type?: string | undefined;
+    
+    /** target matching mode
+optional field
+to enable this parameter, stop_crawl_on_match must also be enabled
+defines how the crawl should stop when multiple targets are specified in stop_crawl_on_match
+possible values: all, any
+all – the crawl stops only when all specified targets are found
+any – the crawl stops when any single target is found
+default value: any
+learn more about this parameter on our Help Center */
+
+    target_search_mode?: string | undefined;
+    
+    /** SERP element types to check for targets
+optional field
+to enable this parameter, stop_crawl_on_match must also be enabled
+specifies which SERP element types should be checked for target matches
+if not specified, all first-level elements with url and domain fields are checked for targets
+possible values: organic, paid, local_pack, featured_snippet, events, google_flights, images, jobs, knowledge_graph, local_service, map, scholarly_articles, third_party_reviews, twitter
+Note: cannot contain the same element types as ignore_targets_in
+example:
+'find_targets_in': ['organic', 'featured_snippet']
+learn more about this parameter on our Help Center */
+
+    find_targets_in?: string[] | undefined;
+    
+    /** SERP element types to exclude from target search
+optional field
+to enable this parameter, stop_crawl_on_match must also be enabled
+specifies which SERP element types should be excluded when searching for target matches
+possible values: organic, paid, local_pack, featured_snippet, events, google_flights, images, jobs, knowledge_graph, local_service, map, scholarly_articles, third_party_reviews, twitter
+Note: cannot contain the same element types as find_targets_in
+example:
+'ignore_targets_in': ['paid', 'images']
+learn more about this parameter on our Help Center */
+
+    ignore_targets_in?: string[] | undefined;
     
     /** display related results
 optional field
@@ -520,6 +591,9 @@ you will find the specified tag value in the data object of the response */
             }
             this.match_value = data["match_value"];
             this.match_type = data["match_type"];
+            this.target_search_mode = data["target_search_mode"];
+            this.find_targets_in = data["find_targets_in"];
+            this.ignore_targets_in = data["ignore_targets_in"];
             this.group_organic_results = data["group_organic_results"];
             this.calculate_rectangles = data["calculate_rectangles"];
             this.browser_screen_width = data["browser_screen_width"];
@@ -571,6 +645,9 @@ you will find the specified tag value in the data object of the response */
         }
         data["match_value"] = this.match_value;
         data["match_type"] = this.match_type;
+        data["target_search_mode"] = this.target_search_mode;
+        data["find_targets_in"] = this.find_targets_in;
+        data["ignore_targets_in"] = this.ignore_targets_in;
         data["group_organic_results"] = this.group_organic_results;
         data["calculate_rectangles"] = this.calculate_rectangles;
         data["browser_screen_width"] = this.browser_screen_width;

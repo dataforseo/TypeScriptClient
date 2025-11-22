@@ -505,9 +505,6 @@ export interface ISerpApiAiOverviewTableElementItem  extends IBaseSerpApiAiOverv
         
         /** table element */
         table?: Table | undefined
-        
-        /** references relevant to the element */
-        references?: AiModeAiOverviewReferenceInfo[] | undefined
 
     [key: string]: any;
 
@@ -522,10 +519,6 @@ export class SerpApiAiOverviewTableElementItem  extends BaseSerpApiAiOverviewEle
     /** table element */
 
     table?: Table | undefined;
-    
-    /** references relevant to the element */
-
-    references?: AiModeAiOverviewReferenceInfo[] | undefined;
 
     [key: string]: any;
 
@@ -544,12 +537,6 @@ export class SerpApiAiOverviewTableElementItem  extends BaseSerpApiAiOverviewEle
             }
             this.markdown = data["markdown"];
             this.table = data["table"] ? Table.fromJS(data["table"]) : <any>undefined;
-            if (Array.isArray(data["references"])) {
-                this.references = [];
-                for (let item of data["references"]) {
-                    this.references.push(AiModeAiOverviewReferenceInfo.fromJS(item));
-                }
-            }
         }
     }
 
@@ -571,15 +558,6 @@ export class SerpApiAiOverviewTableElementItem  extends BaseSerpApiAiOverviewEle
         
         data["markdown"] = this.markdown;
         data["table"] = this.table ? Table.fromJS(this.table)?.toJSON() : <any>undefined;
-        data["references"] = null;
-        if (Array.isArray(this.references)) {
-            data["references"] = [];
-            for (let item of this.references) {
-                if (item && typeof item.toJSON === "function") {
-                    data["references"].push(item?.toJSON());
-                }
-            }
-        }
         return data;
     }
 }
