@@ -991,11 +991,10 @@ export  { DataforseoLabsGoogleDomainWhoisOverviewLiveResponseInfo, IDataforseoLa
 export  { DataforseoLabsGoogleRankedKeywordsLiveRequestInfo, IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo } from "./DataforseoLabsGoogleRankedKeywordsLiveRequestInfo";
 export  { RankChanges, IRankChanges } from "./RankChanges";
 export  { RankInfo, IRankInfo } from "./RankInfo";
-export  { DataLabsLocalPackSerpElementItem, IDataLabsLocalPackSerpElementItem } from "./BaseDataforseoLabsApiElementItem";
+export  { DataLabsOrganicSerpElementItem, IDataLabsOrganicSerpElementItem } from "./BaseDataforseoLabsApiElementItem";
 export  { RankedSerpElement, IRankedSerpElement } from "./RankedSerpElement";
 export  { DataforseoLabsRankedKeywordsLiveItem, IDataforseoLabsRankedKeywordsLiveItem } from "./DataforseoLabsRankedKeywordsLiveItem";
 export  { DataLabsPaidSerpElementItem, IDataLabsPaidSerpElementItem } from "./BaseDataforseoLabsApiElementItem";
-export  { DataLabsOrganicSerpElementItem, IDataLabsOrganicSerpElementItem } from "./BaseDataforseoLabsApiElementItem";
 export  { DataforseoLabsGoogleRankedKeywordsLiveResultInfo, IDataforseoLabsGoogleRankedKeywordsLiveResultInfo } from "./DataforseoLabsGoogleRankedKeywordsLiveResultInfo";
 export  { DataforseoLabsGoogleRankedKeywordsLiveTaskInfo, IDataforseoLabsGoogleRankedKeywordsLiveTaskInfo } from "./DataforseoLabsGoogleRankedKeywordsLiveTaskInfo";
 export  { DataforseoLabsGoogleRankedKeywordsLiveResponseInfo, IDataforseoLabsGoogleRankedKeywordsLiveResponseInfo } from "./DataforseoLabsGoogleRankedKeywordsLiveResponseInfo";
@@ -1010,8 +1009,9 @@ export  { DataforseoLabsGoogleCompetitorsDomainLiveResultInfo, IDataforseoLabsGo
 export  { DataforseoLabsGoogleCompetitorsDomainLiveTaskInfo, IDataforseoLabsGoogleCompetitorsDomainLiveTaskInfo } from "./DataforseoLabsGoogleCompetitorsDomainLiveTaskInfo";
 export  { DataforseoLabsGoogleCompetitorsDomainLiveResponseInfo, IDataforseoLabsGoogleCompetitorsDomainLiveResponseInfo } from "./DataforseoLabsGoogleCompetitorsDomainLiveResponseInfo";
 export  { DataforseoLabsGoogleDomainIntersectionLiveRequestInfo, IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo } from "./DataforseoLabsGoogleDomainIntersectionLiveRequestInfo";
-export  { DataLabsFeaturedSnippetSerpElementItem, IDataLabsFeaturedSnippetSerpElementItem } from "./BaseDataforseoLabsApiElementItem";
+export  { DataLabsLocalPackSerpElementItem, IDataLabsLocalPackSerpElementItem } from "./BaseDataforseoLabsApiElementItem";
 export  { DataforseoLabsDomainIntersectionLiveItem, IDataforseoLabsDomainIntersectionLiveItem } from "./DataforseoLabsDomainIntersectionLiveItem";
+export  { DataLabsFeaturedSnippetSerpElementItem, IDataLabsFeaturedSnippetSerpElementItem } from "./BaseDataforseoLabsApiElementItem";
 export  { DataforseoLabsGoogleDomainIntersectionLiveResultInfo, IDataforseoLabsGoogleDomainIntersectionLiveResultInfo } from "./DataforseoLabsGoogleDomainIntersectionLiveResultInfo";
 export  { DataforseoLabsGoogleDomainIntersectionLiveTaskInfo, IDataforseoLabsGoogleDomainIntersectionLiveTaskInfo } from "./DataforseoLabsGoogleDomainIntersectionLiveTaskInfo";
 export  { DataforseoLabsGoogleDomainIntersectionLiveResponseInfo, IDataforseoLabsGoogleDomainIntersectionLiveResponseInfo } from "./DataforseoLabsGoogleDomainIntersectionLiveResponseInfo";
@@ -1687,6 +1687,7 @@ export  { AiOptimizationChatGptLlmScraperTasksReadyTaskInfo, IAiOptimizationChat
 export  { AiOptimizationChatGptLlmScraperTasksReadyResponseInfo, IAiOptimizationChatGptLlmScraperTasksReadyResponseInfo } from "./AiOptimizationChatGptLlmScraperTasksReadyResponseInfo";
 export  { ChatgptSearchResult, IChatgptSearchResult } from "./ChatgptSearchResult";
 export  { ChatGptSource, IChatGptSource } from "./ChatGptSource";
+export  { ChatGptBrandEntity, IChatGptBrandEntity } from "./ChatGptBrandEntity";
 export  { ChatGptTextElementItem, IChatGptTextElementItem } from "./BaseChatGptLlmScraperElementItem";
 export  { ChatGptTableElementItem, IChatGptTableElementItem } from "./BaseChatGptLlmScraperElementItem";
 export  { ChatGptNavigationListElementItem, IChatGptNavigationListElementItem } from "./BaseChatGptLlmScraperElementItem";
@@ -1711,13 +1712,14 @@ export  { AiOptimizationLlmMentionsAvailableFiltersResponseInfo, IAiOptimization
 export  { AiOptimizationLlmMentionsSearchLiveRequestInfo, IAiOptimizationLlmMentionsSearchLiveRequestInfo } from "./AiOptimizationLlmMentionsSearchLiveRequestInfo";
 export  { Sources, ISources } from "./Sources";
 export  { SearchResults, ISearchResults } from "./SearchResults";
+export  { BrandEntities, IBrandEntities } from "./BrandEntities";
 export  { AiOptimizationLlmMentionsSearchLiveItem, IAiOptimizationLlmMentionsSearchLiveItem } from "./AiOptimizationLlmMentionsSearchLiveItem";
 export  { AiOptimizationLlmMentionsSearchLiveResultInfo, IAiOptimizationLlmMentionsSearchLiveResultInfo } from "./AiOptimizationLlmMentionsSearchLiveResultInfo";
 export  { AiOptimizationLlmMentionsSearchLiveTaskInfo, IAiOptimizationLlmMentionsSearchLiveTaskInfo } from "./AiOptimizationLlmMentionsSearchLiveTaskInfo";
 export  { AiOptimizationLlmMentionsSearchLiveResponseInfo, IAiOptimizationLlmMentionsSearchLiveResponseInfo } from "./AiOptimizationLlmMentionsSearchLiveResponseInfo";
 export  { AiOptimizationLlmMentionsTopPagesLiveRequestInfo, IAiOptimizationLlmMentionsTopPagesLiveRequestInfo } from "./AiOptimizationLlmMentionsTopPagesLiveRequestInfo";
 export  { GroupElement, IGroupElement } from "./GroupElement";
-export  { Total, ITotal } from "./Total";
+export  { AiOptimizationResultTotalInfo, IAiOptimizationResultTotalInfo } from "./AiOptimizationResultTotalInfo";
 export  { AiOptimizationLlmMentionssLiveItem, IAiOptimizationLlmMentionssLiveItem } from "./AiOptimizationLlmMentionssLiveItem";
 export  { AiOptimizationLlmMentionsTopPagesLiveResultInfo, IAiOptimizationLlmMentionsTopPagesLiveResultInfo } from "./AiOptimizationLlmMentionsTopPagesLiveResultInfo";
 export  { AiOptimizationLlmMentionsTopPagesLiveTaskInfo, IAiOptimizationLlmMentionsTopPagesLiveTaskInfo } from "./AiOptimizationLlmMentionsTopPagesLiveTaskInfo";
@@ -2073,6 +2075,8 @@ export  { GoogleShoppingPaidElementItem, IGoogleShoppingPaidElementItem } from "
 export  { SpecialOfferInfo, ISpecialOfferInfo } from "./SpecialOfferInfo";
 export  { GoogleShoppingSponsoredCarouselElement, IGoogleShoppingSponsoredCarouselElement } from "./GoogleShoppingSponsoredCarouselElement";
 export  { GoogleShoppingSponsoredCarouselElementItem, IGoogleShoppingSponsoredCarouselElementItem } from "./BaseMerchantGoogleShoppingProductsElementItem";
+export  { GoogleShoppingCarouselElement, IGoogleShoppingCarouselElement } from "./GoogleShoppingCarouselElement";
+export  { GoogleShoppingCarouselElementItem, IGoogleShoppingCarouselElementItem } from "./BaseMerchantGoogleShoppingProductsElementItem";
 export  { RelatedSearchesElementItem, IRelatedSearchesElementItem } from "./BaseMerchantGoogleShoppingProductsElementItem";
 export  { MerchantGoogleProductsTaskGetAdvancedResultInfo, IMerchantGoogleProductsTaskGetAdvancedResultInfo } from "./MerchantGoogleProductsTaskGetAdvancedResultInfo";
 export  { MerchantGoogleProductsTaskGetAdvancedTaskInfo, IMerchantGoogleProductsTaskGetAdvancedTaskInfo } from "./MerchantGoogleProductsTaskGetAdvancedTaskInfo";

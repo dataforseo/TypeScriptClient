@@ -5,4 +5,4 @@
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
 **title** | **string** | title of the result in SERP |[optional]|
-**items** | **DataforseoLabsCarouselElement[]** | elements of search results found in SERP |[optional]|
+**items** | **DataforseoLabsCarouselElement[]** | historical SERPs and related data found in the database |[optional]|

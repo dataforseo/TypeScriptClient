@@ -43,7 +43,7 @@ export class DomainAnalyticsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -78,7 +78,7 @@ export class DomainAnalyticsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -110,7 +110,7 @@ export class DomainAnalyticsApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
@@ -136,23 +136,23 @@ export class DomainAnalyticsApi {
         }
         return Promise.resolve<DomainAnalyticsTechnologiesAvailableFiltersResponseInfo | null>(null as any);
     }
-    domainAnalyticsTechnologiesLocations(): Promise<DomainAnalyticsTechnologiesLocationsResponseInfo | null> {
+    technologiesLocations(): Promise<DomainAnalyticsTechnologiesLocationsResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/domain_analytics/technologies/locations";
         url_ = url_.replace(/[?&]$/, "");
         let options_: RequestInit = {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
         return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processDomainAnalyticsTechnologiesLocations(_response);
+            return this.processTechnologiesLocations(_response);
         });
     }
 
-    protected processDomainAnalyticsTechnologiesLocations(response: Response): Promise<DomainAnalyticsTechnologiesLocationsResponseInfo | null> {
+    protected processTechnologiesLocations(response: Response): Promise<DomainAnalyticsTechnologiesLocationsResponseInfo | null> {
         const status = response.status;
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
@@ -169,23 +169,23 @@ export class DomainAnalyticsApi {
         }
         return Promise.resolve<DomainAnalyticsTechnologiesLocationsResponseInfo | null>(null as any);
     }
-    domainAnalyticsTechnologiesLanguages(): Promise<DomainAnalyticsTechnologiesLanguagesResponseInfo | null> {
+    technologiesLanguages(): Promise<DomainAnalyticsTechnologiesLanguagesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/domain_analytics/technologies/languages";
         url_ = url_.replace(/[?&]$/, "");
         let options_: RequestInit = {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
         return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processDomainAnalyticsTechnologiesLanguages(_response);
+            return this.processTechnologiesLanguages(_response);
         });
     }
 
-    protected processDomainAnalyticsTechnologiesLanguages(response: Response): Promise<DomainAnalyticsTechnologiesLanguagesResponseInfo | null> {
+    protected processTechnologiesLanguages(response: Response): Promise<DomainAnalyticsTechnologiesLanguagesResponseInfo | null> {
         const status = response.status;
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
@@ -209,7 +209,7 @@ export class DomainAnalyticsApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
@@ -245,7 +245,7 @@ export class DomainAnalyticsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -280,7 +280,7 @@ export class DomainAnalyticsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -315,7 +315,7 @@ export class DomainAnalyticsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -350,7 +350,7 @@ export class DomainAnalyticsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -385,7 +385,7 @@ export class DomainAnalyticsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -420,7 +420,7 @@ export class DomainAnalyticsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -452,7 +452,7 @@ export class DomainAnalyticsApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
@@ -488,7 +488,7 @@ export class DomainAnalyticsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {

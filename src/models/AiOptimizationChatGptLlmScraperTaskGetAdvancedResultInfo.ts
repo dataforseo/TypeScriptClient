@@ -1,5 +1,6 @@
 import { ChatgptSearchResult, IChatgptSearchResult } from "./ChatgptSearchResult";
 import { ChatGptSource, IChatGptSource } from "./ChatGptSource";
+import { ChatGptBrandEntity, IChatGptBrandEntity } from "./ChatGptBrandEntity";
 import { BaseChatGptLlmScraperElementItem, IBaseChatGptLlmScraperElementItem } from "./BaseChatGptLlmScraperElementItem";
 
 
@@ -43,6 +44,10 @@ the sources the model actually cited or relied on in its final answer */
         /** array of fan-out queries
 contains related search queries derived from the main query to provide a more comprehensive response */
         fan_out_queries?: string[] | undefined
+        
+        /** array of brand entities
+contains information on brands mentioned in the response */
+        brand_entities?: ChatGptBrandEntity[] | undefined
         
         /** total number of results */
         se_results_count?: number | undefined
@@ -114,6 +119,11 @@ contains related search queries derived from the main query to provide a more co
 
     fan_out_queries?: string[] | undefined;
     
+    /** array of brand entities
+contains information on brands mentioned in the response */
+
+    brand_entities?: ChatGptBrandEntity[] | undefined;
+    
     /** total number of results */
 
     se_results_count?: number | undefined;
@@ -173,6 +183,12 @@ chat_gpt_text, chat_gpt_table, chat_gpt_navigation_list, chat_gpt_images, chat_g
                 }
             }
             this.fan_out_queries = data["fan_out_queries"];
+            if (Array.isArray(data["brand_entities"])) {
+                this.brand_entities = [];
+                for (let item of data["brand_entities"]) {
+                    this.brand_entities.push(ChatGptBrandEntity.fromJS(item));
+                }
+            }
             this.se_results_count = data["se_results_count"];
             this.item_types = data["item_types"];
             this.items_count = data["items_count"];
@@ -225,6 +241,15 @@ chat_gpt_text, chat_gpt_table, chat_gpt_navigation_list, chat_gpt_images, chat_g
             }
         }
         data["fan_out_queries"] = this.fan_out_queries;
+        data["brand_entities"] = null;
+        if (Array.isArray(this.brand_entities)) {
+            data["brand_entities"] = [];
+            for (let item of this.brand_entities) {
+                if (item && typeof item.toJSON === "function") {
+                    data["brand_entities"].push(item?.toJSON());
+                }
+            }
+        }
         data["se_results_count"] = this.se_results_count;
         data["item_types"] = this.item_types;
         data["items_count"] = this.items_count;

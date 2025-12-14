@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**items** | **PopularProductsElement[]** | elements of search results found in SERP |[optional]|
+**items** | **PopularProductsElement[]** | historical SERPs and related data found in the database |[optional]|

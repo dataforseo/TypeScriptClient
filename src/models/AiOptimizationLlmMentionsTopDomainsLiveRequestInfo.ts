@@ -27,7 +27,7 @@ default value: include */
         /** target keyword search scope
 optional field
 possible values:
-any, question, answer
+any, question, answer, brand_entities, fan_out_queries
 default value: any */
         search_scope?: string[] | undefined
         
@@ -60,38 +60,39 @@ optional field
 if you use this field, you don’t need to specify location_code
 if you don’t specify this field, the location_code with 2840 value will be used by default;
 you can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/llm_mentions/locations_and_languages
-example:
-United States */
+Note: chat_gpt data is available for United States only */
         location_name?: string | undefined
         
         /** search location code
 optional field
 if you use this field, you don’t need to specify location_name
 you can receive the list of available locations of the search engine with their location_code by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/llm_mentions/locations_and_languages
-example:
-2840
-default value: 2840 */
+default value: 2840
+Note: chat_gpt data is available for 2840 only */
         location_code?: number | undefined
         
         /** full name of search language
 optional field
 if you use this field, you don’t need to specify language_code;
 if you don’t specify this field, the language_code with en value will be used by default;
-you can receive the list of available languages of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/llm_mentions/locations_and_languages */
+you can receive the list of available languages of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/llm_mentions/locations_and_languages
+Note: chat_gpt data is available for English only */
         language_name?: string | undefined
         
         /** search language code
 optional field
 if you use this field, you don’t need to specify language_name;
 you can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/llm_mentions/locations_and_languages
-default value: en */
+default value: en
+Note: chat_gpt data is available for en only */
         language_code?: string | undefined
         
         /** target platform
 optional field
 possible values:
 chat_gpt, google
-default value: google */
+default value: google
+Note:chat_gpt data is available for the United States and English only */
         platform?: string | undefined
         
         /** links source scope
@@ -171,7 +172,7 @@ default value: include */
     /** target keyword search scope
 optional field
 possible values:
-any, question, answer
+any, question, answer, brand_entities, fan_out_queries
 default value: any */
 
     search_scope?: string[] | undefined;
@@ -208,8 +209,7 @@ optional field
 if you use this field, you don’t need to specify location_code
 if you don’t specify this field, the location_code with 2840 value will be used by default;
 you can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/llm_mentions/locations_and_languages
-example:
-United States */
+Note: chat_gpt data is available for United States only */
 
     location_name?: string | undefined;
     
@@ -217,9 +217,8 @@ United States */
 optional field
 if you use this field, you don’t need to specify location_name
 you can receive the list of available locations of the search engine with their location_code by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/llm_mentions/locations_and_languages
-example:
-2840
-default value: 2840 */
+default value: 2840
+Note: chat_gpt data is available for 2840 only */
 
     location_code?: number | undefined;
     
@@ -227,7 +226,8 @@ default value: 2840 */
 optional field
 if you use this field, you don’t need to specify language_code;
 if you don’t specify this field, the language_code with en value will be used by default;
-you can receive the list of available languages of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/llm_mentions/locations_and_languages */
+you can receive the list of available languages of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/llm_mentions/locations_and_languages
+Note: chat_gpt data is available for English only */
 
     language_name?: string | undefined;
     
@@ -235,7 +235,8 @@ you can receive the list of available languages of the search engine with their 
 optional field
 if you use this field, you don’t need to specify language_name;
 you can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/llm_mentions/locations_and_languages
-default value: en */
+default value: en
+Note: chat_gpt data is available for en only */
 
     language_code?: string | undefined;
     
@@ -243,7 +244,8 @@ default value: en */
 optional field
 possible values:
 chat_gpt, google
-default value: google */
+default value: google
+Note:chat_gpt data is available for the United States and English only */
 
     platform?: string | undefined;
     

@@ -21,7 +21,8 @@ export interface ISpecialOfferInfo   {
         /** information on coupon discount */
         coupon_info?: string | undefined
         
-        /** URL to the product page on the seller’s website */
+        /** URL to the product page on the seller’s website
+Note: this field is deprecated and will return null */
         url?: string | undefined
         
         /** domain in SERP */
@@ -61,7 +62,8 @@ export class SpecialOfferInfo  implements ISpecialOfferInfo {
 
     coupon_info?: string | undefined;
     
-    /** URL to the product page on the seller’s website */
+    /** URL to the product page on the seller’s website
+Note: this field is deprecated and will return null */
 
     url?: string | undefined;
     

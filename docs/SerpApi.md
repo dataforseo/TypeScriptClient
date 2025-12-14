@@ -4,13 +4,13 @@ All URIs are relative to *https://api.dataforseo.com*
 
 | Method | HTTP request | Description |
 |------------- | ------------- | -------------|
-[**serpIdList**](SerpApi.md#serpIdList) | **POST**  /v3/serp/id_list  |
-[**serpErrors**](SerpApi.md#serpErrors) | **POST**  /v3/serp/errors  |
+[**idList**](SerpApi.md#idList) | **POST**  /v3/serp/id_list  |
+[**errors**](SerpApi.md#errors) | **POST**  /v3/serp/errors  |
 [**screenshot**](SerpApi.md#screenshot) | **POST**  /v3/serp/screenshot  |
 [**aiSummary**](SerpApi.md#aiSummary) | **POST**  /v3/serp/ai_summary  |
-[**serpGoogleLocations**](SerpApi.md#serpGoogleLocations) | **GET**  /v3/serp/google/locations  |
-[**serpGoogleLocationsCountry**](SerpApi.md#serpGoogleLocationsCountry) | **GET**  /v3/serp/google/locations/{country}  |
-[**serpGoogleLanguages**](SerpApi.md#serpGoogleLanguages) | **GET**  /v3/serp/google/languages  |
+[**googleLocations**](SerpApi.md#googleLocations) | **GET**  /v3/serp/google/locations  |
+[**googleLocationsCountry**](SerpApi.md#googleLocationsCountry) | **GET**  /v3/serp/google/locations/{country}  |
+[**googleLanguages**](SerpApi.md#googleLanguages) | **GET**  /v3/serp/google/languages  |
 [**googleOrganicTaskPost**](SerpApi.md#googleOrganicTaskPost) | **POST**  /v3/serp/google/organic/task_post  |
 [**googleOrganicTasksReady**](SerpApi.md#googleOrganicTasksReady) | **GET**  /v3/serp/google/organic/tasks_ready  |
 [**tasksReady**](SerpApi.md#tasksReady) | **GET**  /v3/serp/tasks_ready  |
@@ -21,7 +21,7 @@ All URIs are relative to *https://api.dataforseo.com*
 [**googleOrganicLiveRegular**](SerpApi.md#googleOrganicLiveRegular) | **POST**  /v3/serp/google/organic/live/regular  |
 [**googleOrganicLiveAdvanced**](SerpApi.md#googleOrganicLiveAdvanced) | **POST**  /v3/serp/google/organic/live/advanced  |
 [**googleOrganicLiveHtml**](SerpApi.md#googleOrganicLiveHtml) | **POST**  /v3/serp/google/organic/live/html  |
-[**serpGoogleAiModeLanguages**](SerpApi.md#serpGoogleAiModeLanguages) | **GET**  /v3/serp/google/ai_mode/languages  |
+[**googleAiModeLanguages**](SerpApi.md#googleAiModeLanguages) | **GET**  /v3/serp/google/ai_mode/languages  |
 [**googleAiModeTaskPost**](SerpApi.md#googleAiModeTaskPost) | **POST**  /v3/serp/google/ai_mode/task_post  |
 [**googleAiModeTasksReady**](SerpApi.md#googleAiModeTasksReady) | **GET**  /v3/serp/google/ai_mode/tasks_ready  |
 [**googleAiModeTasksFixed**](SerpApi.md#googleAiModeTasksFixed) | **GET**  /v3/serp/google/ai_mode/tasks_fixed  |
@@ -84,17 +84,17 @@ All URIs are relative to *https://api.dataforseo.com*
 [**googleDatasetInfoTasksFixed**](SerpApi.md#googleDatasetInfoTasksFixed) | **GET**  /v3/serp/google/dataset_info/tasks_fixed  |
 [**googleDatasetInfoTaskGetAdvanced**](SerpApi.md#googleDatasetInfoTaskGetAdvanced) | **GET**  /v3/serp/google/dataset_info/task_get/advanced/{id}  |
 [**googleDatasetInfoLiveAdvanced**](SerpApi.md#googleDatasetInfoLiveAdvanced) | **POST**  /v3/serp/google/dataset_info/live/advanced  |
-[**serpGoogleAdsAdvertisersLocations**](SerpApi.md#serpGoogleAdsAdvertisersLocations) | **GET**  /v3/serp/google/ads_advertisers/locations  |
+[**googleAdsAdvertisersLocations**](SerpApi.md#googleAdsAdvertisersLocations) | **GET**  /v3/serp/google/ads_advertisers/locations  |
 [**googleAdsAdvertisersTaskPost**](SerpApi.md#googleAdsAdvertisersTaskPost) | **POST**  /v3/serp/google/ads_advertisers/task_post  |
 [**googleAdsAdvertisersTasksReady**](SerpApi.md#googleAdsAdvertisersTasksReady) | **GET**  /v3/serp/google/ads_advertisers/tasks_ready  |
 [**googleAdsAdvertisersTaskGetAdvanced**](SerpApi.md#googleAdsAdvertisersTaskGetAdvanced) | **GET**  /v3/serp/google/ads_advertisers/task_get/advanced/{id}  |
-[**serpGoogleAdsSearchLocations**](SerpApi.md#serpGoogleAdsSearchLocations) | **GET**  /v3/serp/google/ads_search/locations  |
+[**googleAdsSearchLocations**](SerpApi.md#googleAdsSearchLocations) | **GET**  /v3/serp/google/ads_search/locations  |
 [**googleAdsSearchTaskPost**](SerpApi.md#googleAdsSearchTaskPost) | **POST**  /v3/serp/google/ads_search/task_post  |
 [**googleAdsSearchTasksReady**](SerpApi.md#googleAdsSearchTasksReady) | **GET**  /v3/serp/google/ads_search/tasks_ready  |
 [**googleAdsSearchTaskGetAdvanced**](SerpApi.md#googleAdsSearchTaskGetAdvanced) | **GET**  /v3/serp/google/ads_search/task_get/advanced/{id}  |
-[**serpBingLocations**](SerpApi.md#serpBingLocations) | **GET**  /v3/serp/bing/locations  |
-[**serpBingLocationsCountry**](SerpApi.md#serpBingLocationsCountry) | **GET**  /v3/serp/bing/locations/{country}  |
-[**serpBingLanguages**](SerpApi.md#serpBingLanguages) | **GET**  /v3/serp/bing/languages  |
+[**bingLocations**](SerpApi.md#bingLocations) | **GET**  /v3/serp/bing/locations  |
+[**bingLocationsCountry**](SerpApi.md#bingLocationsCountry) | **GET**  /v3/serp/bing/locations/{country}  |
+[**bingLanguages**](SerpApi.md#bingLanguages) | **GET**  /v3/serp/bing/languages  |
 [**bingOrganicTaskPost**](SerpApi.md#bingOrganicTaskPost) | **POST**  /v3/serp/bing/organic/task_post  |
 [**bingOrganicTasksReady**](SerpApi.md#bingOrganicTasksReady) | **GET**  /v3/serp/bing/organic/tasks_ready  |
 [**bingOrganicTasksFixed**](SerpApi.md#bingOrganicTasksFixed) | **GET**  /v3/serp/bing/organic/tasks_fixed  |
@@ -111,9 +111,9 @@ All URIs are relative to *https://api.dataforseo.com*
 [**bingLocalPackTaskGetHtml**](SerpApi.md#bingLocalPackTaskGetHtml) | **GET**  /v3/serp/bing/local_pack/task_get/html/{id}  |
 [**bingLocalPackLiveRegular**](SerpApi.md#bingLocalPackLiveRegular) | **POST**  /v3/serp/bing/local_pack/live/regular  |
 [**bingLocalPackLiveHtml**](SerpApi.md#bingLocalPackLiveHtml) | **POST**  /v3/serp/bing/local_pack/live/html  |
-[**serpYoutubeLocations**](SerpApi.md#serpYoutubeLocations) | **GET**  /v3/serp/youtube/locations  |
-[**serpYoutubeLocationsCountry**](SerpApi.md#serpYoutubeLocationsCountry) | **GET**  /v3/serp/youtube/locations/{country}  |
-[**serpYoutubeLanguages**](SerpApi.md#serpYoutubeLanguages) | **GET**  /v3/serp/youtube/languages  |
+[**youtubeLocations**](SerpApi.md#youtubeLocations) | **GET**  /v3/serp/youtube/locations  |
+[**youtubeLocationsCountry**](SerpApi.md#youtubeLocationsCountry) | **GET**  /v3/serp/youtube/locations/{country}  |
+[**youtubeLanguages**](SerpApi.md#youtubeLanguages) | **GET**  /v3/serp/youtube/languages  |
 [**youtubeVideoInfoTaskPost**](SerpApi.md#youtubeVideoInfoTaskPost) | **POST**  /v3/serp/youtube/video_info/task_post  |
 [**youtubeVideoInfoTasksReady**](SerpApi.md#youtubeVideoInfoTasksReady) | **GET**  /v3/serp/youtube/video_info/tasks_ready  |
 [**youtubeVideoInfoTasksFixed**](SerpApi.md#youtubeVideoInfoTasksFixed) | **GET**  /v3/serp/youtube/video_info/tasks_fixed  |
@@ -129,9 +129,9 @@ All URIs are relative to *https://api.dataforseo.com*
 [**youtubeVideoCommentsTasksFixed**](SerpApi.md#youtubeVideoCommentsTasksFixed) | **GET**  /v3/serp/youtube/video_comments/tasks_fixed  |
 [**youtubeVideoCommentsTaskGetAdvanced**](SerpApi.md#youtubeVideoCommentsTaskGetAdvanced) | **GET**  /v3/serp/youtube/video_comments/task_get/advanced/{id}  |
 [**youtubeVideoCommentsLiveAdvanced**](SerpApi.md#youtubeVideoCommentsLiveAdvanced) | **POST**  /v3/serp/youtube/video_comments/live/advanced  |
-[**serpYahooLocations**](SerpApi.md#serpYahooLocations) | **GET**  /v3/serp/yahoo/locations  |
-[**serpYahooLocationsCountry**](SerpApi.md#serpYahooLocationsCountry) | **GET**  /v3/serp/yahoo/locations/{country}  |
-[**serpYahooLanguages**](SerpApi.md#serpYahooLanguages) | **GET**  /v3/serp/yahoo/languages  |
+[**yahooLocations**](SerpApi.md#yahooLocations) | **GET**  /v3/serp/yahoo/locations  |
+[**yahooLocationsCountry**](SerpApi.md#yahooLocationsCountry) | **GET**  /v3/serp/yahoo/locations/{country}  |
+[**yahooLanguages**](SerpApi.md#yahooLanguages) | **GET**  /v3/serp/yahoo/languages  |
 [**yahooOrganicTaskPost**](SerpApi.md#yahooOrganicTaskPost) | **POST**  /v3/serp/yahoo/organic/task_post  |
 [**yahooOrganicTasksReady**](SerpApi.md#yahooOrganicTasksReady) | **GET**  /v3/serp/yahoo/organic/tasks_ready  |
 [**yahooOrganicTasksFixed**](SerpApi.md#yahooOrganicTasksFixed) | **GET**  /v3/serp/yahoo/organic/tasks_fixed  |
@@ -141,9 +141,9 @@ All URIs are relative to *https://api.dataforseo.com*
 [**yahooOrganicLiveRegular**](SerpApi.md#yahooOrganicLiveRegular) | **POST**  /v3/serp/yahoo/organic/live/regular  |
 [**yahooOrganicLiveAdvanced**](SerpApi.md#yahooOrganicLiveAdvanced) | **POST**  /v3/serp/yahoo/organic/live/advanced  |
 [**yahooOrganicLiveHtml**](SerpApi.md#yahooOrganicLiveHtml) | **POST**  /v3/serp/yahoo/organic/live/html  |
-[**serpBaiduLocations**](SerpApi.md#serpBaiduLocations) | **GET**  /v3/serp/baidu/locations  |
-[**serpBaiduLocationsCountry**](SerpApi.md#serpBaiduLocationsCountry) | **GET**  /v3/serp/baidu/locations/{country}  |
-[**serpBaiduLanguages**](SerpApi.md#serpBaiduLanguages) | **GET**  /v3/serp/baidu/languages  |
+[**baiduLocations**](SerpApi.md#baiduLocations) | **GET**  /v3/serp/baidu/locations  |
+[**baiduLocationsCountry**](SerpApi.md#baiduLocationsCountry) | **GET**  /v3/serp/baidu/locations/{country}  |
+[**baiduLanguages**](SerpApi.md#baiduLanguages) | **GET**  /v3/serp/baidu/languages  |
 [**baiduOrganicTaskPost**](SerpApi.md#baiduOrganicTaskPost) | **POST**  /v3/serp/baidu/organic/task_post  |
 [**baiduOrganicTasksReady**](SerpApi.md#baiduOrganicTasksReady) | **GET**  /v3/serp/baidu/organic/tasks_ready  |
 [**baiduOrganicTasksFixed**](SerpApi.md#baiduOrganicTasksFixed) | **GET**  /v3/serp/baidu/organic/tasks_fixed  |
@@ -156,9 +156,9 @@ All URIs are relative to *https://api.dataforseo.com*
 [**naverOrganicTaskGetRegular**](SerpApi.md#naverOrganicTaskGetRegular) | **GET**  /v3/serp/naver/organic/task_get/regular/{id}  |
 [**naverOrganicTaskGetAdvanced**](SerpApi.md#naverOrganicTaskGetAdvanced) | **GET**  /v3/serp/naver/organic/task_get/advanced/{id}  |
 [**naverOrganicTaskGetHtml**](SerpApi.md#naverOrganicTaskGetHtml) | **GET**  /v3/serp/naver/organic/task_get/html/{id}  |
-[**serpSeznamLocations**](SerpApi.md#serpSeznamLocations) | **GET**  /v3/serp/seznam/locations  |
-[**serpSeznamLocationsCountry**](SerpApi.md#serpSeznamLocationsCountry) | **GET**  /v3/serp/seznam/locations/{country}  |
-[**serpSeznamLanguages**](SerpApi.md#serpSeznamLanguages) | **GET**  /v3/serp/seznam/languages  |
+[**seznamLocations**](SerpApi.md#seznamLocations) | **GET**  /v3/serp/seznam/locations  |
+[**seznamLocationsCountry**](SerpApi.md#seznamLocationsCountry) | **GET**  /v3/serp/seznam/locations/{country}  |
+[**seznamLanguages**](SerpApi.md#seznamLanguages) | **GET**  /v3/serp/seznam/languages  |
 [**seznamOrganicTaskPost**](SerpApi.md#seznamOrganicTaskPost) | **POST**  /v3/serp/seznam/organic/task_post  |
 [**seznamOrganicTasksReady**](SerpApi.md#seznamOrganicTasksReady) | **GET**  /v3/serp/seznam/organic/tasks_ready  |
 [**seznamOrganicTasksFixed**](SerpApi.md#seznamOrganicTasksFixed) | **GET**  /v3/serp/seznam/organic/tasks_fixed  |
@@ -188,9 +188,9 @@ All URIs are relative to *https://api.dataforseo.com*
 [**googleFinanceTickerSearchTaskGetAdvanced**](SerpApi.md#googleFinanceTickerSearchTaskGetAdvanced) | **GET**  /v3/serp/google/finance_ticker_search/task_get/advanced/{id}  |
 [**googleFinanceTickerSearchLiveAdvanced**](SerpApi.md#googleFinanceTickerSearchLiveAdvanced) | **POST**  /v3/serp/google/finance_ticker_search/live/advanced  |
 
-<a id="serpIdList"></a>
-# **serpIdList**
-> SerpIdListResponseInfo serpIdList()
+<a id="idList"></a>
+# **idList**
+> SerpIdListResponseInfo idList()
 
 
 ### Example
@@ -216,12 +216,7 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new SerpIdListRequestInfo();
-   task.datetime_from = "2025-08-22 08:04:48 +00:00";
-   task.datetime_to = "2025-10-22 08:04:48 +00:00";
-   task.limit = 100;
-   task.offset = 0;
-   task.sort = "desc";
- let response = await api.serpIdList([task]);
+ let response = await api.idList([task]);
 ```
 
 ### Parameters
@@ -250,9 +245,9 @@ All URIs are relative to *https://api.dataforseo.com*
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="serpErrors"></a>
-# **serpErrors**
-> SerpErrorsResponseInfo serpErrors()
+<a id="errors"></a>
+# **errors**
+> SerpErrorsResponseInfo errors()
 
 
 ### Example
@@ -278,10 +273,7 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new SerpErrorsRequestInfo();
-   task.limit = 10;
-   task.offset = 0;
-   task.filtered_function = "pingback_url";
- let response = await api.serpErrors([task]);
+ let response = await api.errors([task]);
 ```
 
 ### Parameters
@@ -338,8 +330,6 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new SerpScreenshotRequestInfo();
-   task.task_id = "06211235-0696-0139-1000-36727fbd3c90";
-   task.browser_screen_scale_factor = 0.5;
  let response = await api.screenshot([task]);
 ```
 
@@ -397,10 +387,6 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new SerpAiSummaryRequestInfo();
-   task.task_id = "07031739-1535-0139-0000-9d1e639a5b7d";
-   task.prompt = "explain what DataForSEO is";
-   task.fetch_content = true;
-   task.include_links = true;
  let response = await api.aiSummary([task]);
 ```
 
@@ -430,9 +416,9 @@ All URIs are relative to *https://api.dataforseo.com*
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="serpGoogleLocations"></a>
-# **serpGoogleLocations**
-> SerpGoogleLocationsResponseInfo serpGoogleLocations()
+<a id="googleLocations"></a>
+# **googleLocations**
+> SerpGoogleLocationsResponseInfo googleLocations()
 
 
 ### Example
@@ -457,7 +443,7 @@ All URIs are relative to *https://api.dataforseo.com*
    }
  });
 
- let response = await api.serpGoogleLocations();
+ let response = await api.googleLocations();
 ```
 
 ### Parameters
@@ -486,9 +472,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="serpGoogleLocationsCountry"></a>
-# **serpGoogleLocationsCountry**
-> SerpGoogleLocationsCountryResponseInfo serpGoogleLocationsCountry()
+<a id="googleLocationsCountry"></a>
+# **googleLocationsCountry**
+> SerpGoogleLocationsCountryResponseInfo googleLocationsCountry()
 
 
 ### Example
@@ -513,8 +499,8 @@ This endpoint does not need any parameter.
    }
  });
 
- let country = "us";
- let response = await api.serpGoogleLocationsCountry(country);
+ let country = ;
+ let response = await api.googleLocationsCountry(country);
 ```
 
 ### Parameters
@@ -543,9 +529,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="serpGoogleLanguages"></a>
-# **serpGoogleLanguages**
-> SerpGoogleLanguagesResponseInfo serpGoogleLanguages()
+<a id="googleLanguages"></a>
+# **googleLanguages**
+> SerpGoogleLanguagesResponseInfo googleLanguages()
 
 
 ### Example
@@ -570,7 +556,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.serpGoogleLanguages();
+ let response = await api.googleLanguages();
 ```
 
 ### Parameters
@@ -627,9 +613,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleOrganicTaskPostRequestInfo();
-   task.keyword = "albert einstein";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.googleOrganicTaskPost([task]);
 ```
 
@@ -854,7 +837,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleOrganicTaskGetRegular(id);
 ```
 
@@ -911,7 +894,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleOrganicTaskGetAdvanced(id);
 ```
 
@@ -968,7 +951,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleOrganicTaskGetHtml(id);
 ```
 
@@ -1026,9 +1009,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleOrganicLiveRegularRequestInfo();
-   task.keyword = "albert einstein";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.googleOrganicLiveRegular([task]);
 ```
 
@@ -1086,10 +1066,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleOrganicLiveAdvancedRequestInfo();
-   task.keyword = "albert einstein";
-   task.location_code = 2840;
-   task.language_code = "en";
-   task.calculate_rectangles = true;
  let response = await api.googleOrganicLiveAdvanced([task]);
 ```
 
@@ -1147,9 +1123,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleOrganicLiveHtmlRequestInfo();
-   task.keyword = "albert einstein";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.googleOrganicLiveHtml([task]);
 ```
 
@@ -1179,9 +1152,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="serpGoogleAiModeLanguages"></a>
-# **serpGoogleAiModeLanguages**
-> SerpGoogleAiModeLanguagesResponseInfo serpGoogleAiModeLanguages()
+<a id="googleAiModeLanguages"></a>
+# **googleAiModeLanguages**
+> SerpGoogleAiModeLanguagesResponseInfo googleAiModeLanguages()
 
 
 ### Example
@@ -1206,7 +1179,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.serpGoogleAiModeLanguages();
+ let response = await api.googleAiModeLanguages();
 ```
 
 ### Parameters
@@ -1263,9 +1236,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleAiModeTaskPostRequestInfo();
-   task.keyword = "what is google ai mode";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.googleAiModeTaskPost([task]);
 ```
 
@@ -1434,7 +1404,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleAiModeTaskGetAdvanced(id);
 ```
 
@@ -1491,7 +1461,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleAiModeTaskGetHtml(id);
 ```
 
@@ -1549,9 +1519,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleAiModeLiveAdvancedRequestInfo();
-   task.keyword = "what is google ai mode";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.googleAiModeLiveAdvanced([task]);
 ```
 
@@ -1609,9 +1576,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleAiModeLiveHtmlRequestInfo();
-   task.keyword = "albert einstein";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.googleAiModeLiveHtml([task]);
 ```
 
@@ -1669,9 +1633,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleMapsTaskPostRequestInfo();
-   task.keyword = "albert einstein";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.googleMapsTaskPost([task]);
 ```
 
@@ -1840,7 +1801,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleMapsTaskGetAdvanced(id);
 ```
 
@@ -1898,9 +1859,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleMapsLiveAdvancedRequestInfo();
-   task.keyword = "albert einstein";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.googleMapsLiveAdvanced([task]);
 ```
 
@@ -1958,11 +1916,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleLocalFinderTaskPostRequestInfo();
-   task.keyword = "local nail services";
-   task.location_code = 2840;
-   task.language_code = "en";
-   task.min_rating = 4.5;
-   task.time_filter = "monday";
  let response = await api.googleLocalFinderTaskPost([task]);
 ```
 
@@ -2131,7 +2084,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleLocalFinderTaskGetAdvanced(id);
 ```
 
@@ -2188,7 +2141,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleLocalFinderTaskGetHtml(id);
 ```
 
@@ -2246,11 +2199,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleLocalFinderLiveAdvancedRequestInfo();
-   task.keyword = "local nail services";
-   task.location_code = 2840;
-   task.language_code = "en";
-   task.min_rating = 4.5;
-   task.time_filter = "monday";
  let response = await api.googleLocalFinderLiveAdvanced([task]);
 ```
 
@@ -2308,9 +2256,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleLocalFinderLiveHtmlRequestInfo();
-   task.keyword = "albert einstein";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.googleLocalFinderLiveHtml([task]);
 ```
 
@@ -2368,9 +2313,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleNewsTaskPostRequestInfo();
-   task.keyword = "albert einstein";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.googleNewsTaskPost([task]);
 ```
 
@@ -2539,7 +2481,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleNewsTaskGetAdvanced(id);
 ```
 
@@ -2596,7 +2538,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleNewsTaskGetHtml(id);
 ```
 
@@ -2654,9 +2596,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleNewsLiveAdvancedRequestInfo();
-   task.keyword = "android";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.googleNewsLiveAdvanced([task]);
 ```
 
@@ -2714,9 +2653,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleNewsLiveHtmlRequestInfo();
-   task.keyword = "albert einstein";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.googleNewsLiveHtml([task]);
 ```
 
@@ -2774,9 +2710,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleEventsTaskPostRequestInfo();
-   task.keyword = "albert einstein";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.googleEventsTaskPost([task]);
 ```
 
@@ -2945,7 +2878,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleEventsTaskGetAdvanced(id);
 ```
 
@@ -3003,9 +2936,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleEventsLiveAdvancedRequestInfo();
-   task.keyword = "concerts";
-   task.location_name = "Los Angeles,California,United States";
-   task.date_range = "today";
  let response = await api.googleEventsLiveAdvanced([task]);
 ```
 
@@ -3063,9 +2993,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleImagesTaskPostRequestInfo();
-   task.keyword = "albert einstein";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.googleImagesTaskPost([task]);
 ```
 
@@ -3234,7 +3161,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleImagesTaskGetAdvanced(id);
 ```
 
@@ -3291,7 +3218,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleImagesTaskGetHtml(id);
 ```
 
@@ -3349,9 +3276,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleImagesLiveAdvancedRequestInfo();
-   task.keyword = "albert einstein";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.googleImagesLiveAdvanced([task]);
 ```
 
@@ -3409,9 +3333,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleImagesLiveHtmlRequestInfo();
-   task.keyword = "albert einstein";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.googleImagesLiveHtml([task]);
 ```
 
@@ -3469,9 +3390,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleSearchByImageTaskPostRequestInfo();
-   task.image_url = "https://dataforseo.com/wp-content/uploads/2016/11/data_for_seo_light_429.png";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.googleSearchByImageTaskPost([task]);
 ```
 
@@ -3640,7 +3558,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleSearchByImageTaskGetAdvanced(id);
 ```
 
@@ -3698,9 +3616,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleJobsTaskPostRequestInfo();
-   task.keyword = ".net developer";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.googleJobsTaskPost([task]);
 ```
 
@@ -3869,7 +3784,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleJobsTaskGetAdvanced(id);
 ```
 
@@ -3926,7 +3841,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleJobsTaskGetHtml(id);
 ```
 
@@ -3984,10 +3899,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleAutocompleteTaskPostRequestInfo();
-   task.keyword = "albert einstein";
-   task.location_code = 2840;
-   task.language_code = "en";
-   task.cursor_pointer = 6;
  let response = await api.googleAutocompleteTaskPost([task]);
 ```
 
@@ -4156,7 +4067,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleAutocompleteTaskGetAdvanced(id);
 ```
 
@@ -4214,10 +4125,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleAutocompleteLiveAdvancedRequestInfo();
-   task.keyword = "albert einstein";
-   task.location_code = 2840;
-   task.language_code = "en";
-   task.client = "gws-wiz-serp";
  let response = await api.googleAutocompleteLiveAdvanced([task]);
 ```
 
@@ -4275,18 +4182,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleDatasetSearchTaskPostRequestInfo();
-   task.keyword = "water quality";
-   task.last_updated = "1m";
-   task.file_formats = [
-       "archive",
-       "image",
-   ];
-   task.usage_rights = "noncommercial";
-   task.is_free = true;
-   task.topics = [
-       "natural_sciences",
-       "geo",
-   ];
  let response = await api.googleDatasetSearchTaskPost([task]);
 ```
 
@@ -4455,7 +4350,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleDatasetSearchTaskGetAdvanced(id);
 ```
 
@@ -4513,18 +4408,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleDatasetSearchLiveAdvancedRequestInfo();
-   task.keyword = "water quality";
-   task.last_updated = "1m";
-   task.file_formats = [
-       "archive",
-       "image",
-   ];
-   task.usage_rights = "noncommercial";
-   task.is_free = true;
-   task.topics = [
-       "natural_sciences",
-       "geo",
-   ];
  let response = await api.googleDatasetSearchLiveAdvanced([task]);
 ```
 
@@ -4582,7 +4465,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleDatasetInfoTaskPostRequestInfo();
-   task.dataset_id = "L2cvMTFqbl85ZHN6MQ==";
  let response = await api.googleDatasetInfoTaskPost([task]);
 ```
 
@@ -4751,7 +4633,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleDatasetInfoTaskGetAdvanced(id);
 ```
 
@@ -4809,7 +4691,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleDatasetInfoLiveAdvancedRequestInfo();
-   task.dataset_id = "L2cvMTFqbl85ZHN6MQ==";
  let response = await api.googleDatasetInfoLiveAdvanced([task]);
 ```
 
@@ -4839,9 +4720,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="serpGoogleAdsAdvertisersLocations"></a>
-# **serpGoogleAdsAdvertisersLocations**
-> SerpGoogleAdsAdvertisersLocationsResponseInfo serpGoogleAdsAdvertisersLocations()
+<a id="googleAdsAdvertisersLocations"></a>
+# **googleAdsAdvertisersLocations**
+> SerpGoogleAdsAdvertisersLocationsResponseInfo googleAdsAdvertisersLocations()
 
 
 ### Example
@@ -4866,7 +4747,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.serpGoogleAdsAdvertisersLocations();
+ let response = await api.googleAdsAdvertisersLocations();
 ```
 
 ### Parameters
@@ -4923,8 +4804,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleAdsAdvertisersTaskPostRequestInfo();
-   task.keyword = "apple";
-   task.location_code = 2840;
  let response = await api.googleAdsAdvertisersTaskPost([task]);
 ```
 
@@ -5037,7 +4916,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleAdsAdvertisersTaskGetAdvanced(id);
 ```
 
@@ -5067,9 +4946,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="serpGoogleAdsSearchLocations"></a>
-# **serpGoogleAdsSearchLocations**
-> SerpGoogleAdsSearchLocationsResponseInfo serpGoogleAdsSearchLocations()
+<a id="googleAdsSearchLocations"></a>
+# **googleAdsSearchLocations**
+> SerpGoogleAdsSearchLocationsResponseInfo googleAdsSearchLocations()
 
 
 ### Example
@@ -5094,7 +4973,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.serpGoogleAdsSearchLocations();
+ let response = await api.googleAdsSearchLocations();
 ```
 
 ### Parameters
@@ -5151,12 +5030,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleAdsSearchTaskPostRequestInfo();
-   task.advertiser_ids = [
-       "AR13752565271262920705",
-       "AR02439908557932462081",
-   ];
-   task.location_code = 2840;
-   task.platform = "google_search";
  let response = await api.googleAdsSearchTaskPost([task]);
 ```
 
@@ -5269,7 +5142,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleAdsSearchTaskGetAdvanced(id);
 ```
 
@@ -5299,9 +5172,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="serpBingLocations"></a>
-# **serpBingLocations**
-> SerpBingLocationsResponseInfo serpBingLocations()
+<a id="bingLocations"></a>
+# **bingLocations**
+> SerpBingLocationsResponseInfo bingLocations()
 
 
 ### Example
@@ -5326,7 +5199,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.serpBingLocations();
+ let response = await api.bingLocations();
 ```
 
 ### Parameters
@@ -5355,9 +5228,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="serpBingLocationsCountry"></a>
-# **serpBingLocationsCountry**
-> SerpBingLocationsCountryResponseInfo serpBingLocationsCountry()
+<a id="bingLocationsCountry"></a>
+# **bingLocationsCountry**
+> SerpBingLocationsCountryResponseInfo bingLocationsCountry()
 
 
 ### Example
@@ -5382,8 +5255,8 @@ This endpoint does not need any parameter.
    }
  });
 
- let country = "us";
- let response = await api.serpBingLocationsCountry(country);
+ let country = ;
+ let response = await api.bingLocationsCountry(country);
 ```
 
 ### Parameters
@@ -5412,9 +5285,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="serpBingLanguages"></a>
-# **serpBingLanguages**
-> SerpBingLanguagesResponseInfo serpBingLanguages()
+<a id="bingLanguages"></a>
+# **bingLanguages**
+> SerpBingLanguagesResponseInfo bingLanguages()
 
 
 ### Example
@@ -5439,7 +5312,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.serpBingLanguages();
+ let response = await api.bingLanguages();
 ```
 
 ### Parameters
@@ -5496,9 +5369,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpBingOrganicTaskPostRequestInfo();
-   task.keyword = "albert einstein";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.bingOrganicTaskPost([task]);
 ```
 
@@ -5667,7 +5537,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.bingOrganicTaskGetRegular(id);
 ```
 
@@ -5724,7 +5594,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.bingOrganicTaskGetAdvanced(id);
 ```
 
@@ -5781,7 +5651,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.bingOrganicTaskGetHtml(id);
 ```
 
@@ -5839,9 +5709,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpBingOrganicLiveRegularRequestInfo();
-   task.keyword = "albert einstein";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.bingOrganicLiveRegular([task]);
 ```
 
@@ -5899,9 +5766,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpBingOrganicLiveAdvancedRequestInfo();
-   task.keyword = "flight ticket new york san francisco";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.bingOrganicLiveAdvanced([task]);
 ```
 
@@ -5959,9 +5823,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpBingOrganicLiveHtmlRequestInfo();
-   task.keyword = "albert einstein";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.bingOrganicLiveHtml([task]);
 ```
 
@@ -6019,9 +5880,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpBingLocalPackTaskPostRequestInfo();
-   task.keyword = "albert einstein";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.bingLocalPackTaskPost([task]);
 ```
 
@@ -6190,7 +6048,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.bingLocalPackTaskGetRegular(id);
 ```
 
@@ -6247,7 +6105,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.bingLocalPackTaskGetHtml(id);
 ```
 
@@ -6305,9 +6163,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpBingLocalPackLiveRegularRequestInfo();
-   task.keyword = "albert einstein";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.bingLocalPackLiveRegular([task]);
 ```
 
@@ -6365,9 +6220,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpBingLocalPackLiveHtmlRequestInfo();
-   task.keyword = "albert einstein";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.bingLocalPackLiveHtml([task]);
 ```
 
@@ -6397,9 +6249,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="serpYoutubeLocations"></a>
-# **serpYoutubeLocations**
-> SerpYoutubeLocationsResponseInfo serpYoutubeLocations()
+<a id="youtubeLocations"></a>
+# **youtubeLocations**
+> SerpYoutubeLocationsResponseInfo youtubeLocations()
 
 
 ### Example
@@ -6424,7 +6276,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.serpYoutubeLocations();
+ let response = await api.youtubeLocations();
 ```
 
 ### Parameters
@@ -6453,9 +6305,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="serpYoutubeLocationsCountry"></a>
-# **serpYoutubeLocationsCountry**
-> SerpYoutubeLocationsCountryResponseInfo serpYoutubeLocationsCountry()
+<a id="youtubeLocationsCountry"></a>
+# **youtubeLocationsCountry**
+> SerpYoutubeLocationsCountryResponseInfo youtubeLocationsCountry()
 
 
 ### Example
@@ -6480,8 +6332,8 @@ This endpoint does not need any parameter.
    }
  });
 
- let country = "us";
- let response = await api.serpYoutubeLocationsCountry(country);
+ let country = ;
+ let response = await api.youtubeLocationsCountry(country);
 ```
 
 ### Parameters
@@ -6510,9 +6362,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="serpYoutubeLanguages"></a>
-# **serpYoutubeLanguages**
-> SerpYoutubeLanguagesResponseInfo serpYoutubeLanguages()
+<a id="youtubeLanguages"></a>
+# **youtubeLanguages**
+> SerpYoutubeLanguagesResponseInfo youtubeLanguages()
 
 
 ### Example
@@ -6537,7 +6389,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.serpYoutubeLanguages();
+ let response = await api.youtubeLanguages();
 ```
 
 ### Parameters
@@ -6594,9 +6446,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpYoutubeVideoInfoTaskPostRequestInfo();
-   task.video_id = "vQXvyV0zIP4";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.youtubeVideoInfoTaskPost([task]);
 ```
 
@@ -6765,7 +6614,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.youtubeVideoInfoTaskGetAdvanced(id);
 ```
 
@@ -6823,9 +6672,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpYoutubeVideoInfoLiveAdvancedRequestInfo();
-   task.video_id = "vQXvyV0zIP4";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.youtubeVideoInfoLiveAdvanced([task]);
 ```
 
@@ -6883,9 +6729,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpYoutubeVideoSubtitlesTaskPostRequestInfo();
-   task.video_id = "Y8Wu4rSNJms";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.youtubeVideoSubtitlesTaskPost([task]);
 ```
 
@@ -7054,7 +6897,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.youtubeVideoSubtitlesTaskGetAdvanced(id);
 ```
 
@@ -7112,9 +6955,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo();
-   task.video_id = "Y8Wu4rSNJms";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.youtubeVideoSubtitlesLiveAdvanced([task]);
 ```
 
@@ -7172,9 +7012,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpYoutubeVideoCommentsTaskPostRequestInfo();
-   task.video_id = "vQXvyV0zIP4";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.youtubeVideoCommentsTaskPost([task]);
 ```
 
@@ -7343,7 +7180,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.youtubeVideoCommentsTaskGetAdvanced(id);
 ```
 
@@ -7401,9 +7238,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpYoutubeVideoCommentsLiveAdvancedRequestInfo();
-   task.video_id = "vQXvyV0zIP4";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.youtubeVideoCommentsLiveAdvanced([task]);
 ```
 
@@ -7433,9 +7267,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="serpYahooLocations"></a>
-# **serpYahooLocations**
-> SerpYahooLocationsResponseInfo serpYahooLocations()
+<a id="yahooLocations"></a>
+# **yahooLocations**
+> SerpYahooLocationsResponseInfo yahooLocations()
 
 
 ### Example
@@ -7460,7 +7294,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.serpYahooLocations();
+ let response = await api.yahooLocations();
 ```
 
 ### Parameters
@@ -7489,9 +7323,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="serpYahooLocationsCountry"></a>
-# **serpYahooLocationsCountry**
-> SerpYahooLocationsCountryResponseInfo serpYahooLocationsCountry()
+<a id="yahooLocationsCountry"></a>
+# **yahooLocationsCountry**
+> SerpYahooLocationsCountryResponseInfo yahooLocationsCountry()
 
 
 ### Example
@@ -7516,8 +7350,8 @@ This endpoint does not need any parameter.
    }
  });
 
- let country = "us";
- let response = await api.serpYahooLocationsCountry(country);
+ let country = ;
+ let response = await api.yahooLocationsCountry(country);
 ```
 
 ### Parameters
@@ -7546,9 +7380,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="serpYahooLanguages"></a>
-# **serpYahooLanguages**
-> SerpYahooLanguagesResponseInfo serpYahooLanguages()
+<a id="yahooLanguages"></a>
+# **yahooLanguages**
+> SerpYahooLanguagesResponseInfo yahooLanguages()
 
 
 ### Example
@@ -7573,7 +7407,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.serpYahooLanguages();
+ let response = await api.yahooLanguages();
 ```
 
 ### Parameters
@@ -7630,9 +7464,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpYahooOrganicTaskPostRequestInfo();
-   task.keyword = "albert einstein";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.yahooOrganicTaskPost([task]);
 ```
 
@@ -7801,7 +7632,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.yahooOrganicTaskGetRegular(id);
 ```
 
@@ -7858,7 +7689,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.yahooOrganicTaskGetAdvanced(id);
 ```
 
@@ -7915,7 +7746,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.yahooOrganicTaskGetHtml(id);
 ```
 
@@ -7973,9 +7804,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpYahooOrganicLiveRegularRequestInfo();
-   task.keyword = "albert einstein";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.yahooOrganicLiveRegular([task]);
 ```
 
@@ -8033,9 +7861,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpYahooOrganicLiveAdvancedRequestInfo();
-   task.keyword = "albert einstein";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.yahooOrganicLiveAdvanced([task]);
 ```
 
@@ -8093,9 +7918,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpYahooOrganicLiveHtmlRequestInfo();
-   task.keyword = "albert einstein";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.yahooOrganicLiveHtml([task]);
 ```
 
@@ -8125,9 +7947,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="serpBaiduLocations"></a>
-# **serpBaiduLocations**
-> SerpBaiduLocationsResponseInfo serpBaiduLocations()
+<a id="baiduLocations"></a>
+# **baiduLocations**
+> SerpBaiduLocationsResponseInfo baiduLocations()
 
 
 ### Example
@@ -8152,7 +7974,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.serpBaiduLocations();
+ let response = await api.baiduLocations();
 ```
 
 ### Parameters
@@ -8181,9 +8003,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="serpBaiduLocationsCountry"></a>
-# **serpBaiduLocationsCountry**
-> SerpBaiduLocationsCountryResponseInfo serpBaiduLocationsCountry()
+<a id="baiduLocationsCountry"></a>
+# **baiduLocationsCountry**
+> SerpBaiduLocationsCountryResponseInfo baiduLocationsCountry()
 
 
 ### Example
@@ -8208,8 +8030,8 @@ This endpoint does not need any parameter.
    }
  });
 
- let country = "us";
- let response = await api.serpBaiduLocationsCountry(country);
+ let country = ;
+ let response = await api.baiduLocationsCountry(country);
 ```
 
 ### Parameters
@@ -8238,9 +8060,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="serpBaiduLanguages"></a>
-# **serpBaiduLanguages**
-> SerpBaiduLanguagesResponseInfo serpBaiduLanguages()
+<a id="baiduLanguages"></a>
+# **baiduLanguages**
+> SerpBaiduLanguagesResponseInfo baiduLanguages()
 
 
 ### Example
@@ -8265,7 +8087,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.serpBaiduLanguages();
+ let response = await api.baiduLanguages();
 ```
 
 ### Parameters
@@ -8322,10 +8144,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpBaiduOrganicTaskPostRequestInfo();
-   task.keyword = "best iphone ever";
-   task.priority = 2;
-   task.location_code = 2156;
-   task.tag = "some_string_123";
  let response = await api.baiduOrganicTaskPost([task]);
 ```
 
@@ -8494,7 +8312,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.baiduOrganicTaskGetRegular(id);
 ```
 
@@ -8551,7 +8369,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.baiduOrganicTaskGetAdvanced(id);
 ```
 
@@ -8608,7 +8426,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.baiduOrganicTaskGetHtml(id);
 ```
 
@@ -8666,11 +8484,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpNaverOrganicTaskPostRequestInfo();
-   task.keyword = "albert einstein";
-   task.device = "desktop";
-   task.tag = "some_string_123";
-   task.postback_url = "https://your-server.com/postbackscript.php";
-   task.postback_data = "regular";
  let response = await api.naverOrganicTaskPost([task]);
 ```
 
@@ -8839,7 +8652,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.naverOrganicTaskGetRegular(id);
 ```
 
@@ -8896,7 +8709,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.naverOrganicTaskGetAdvanced(id);
 ```
 
@@ -8953,7 +8766,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.naverOrganicTaskGetHtml(id);
 ```
 
@@ -8983,9 +8796,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="serpSeznamLocations"></a>
-# **serpSeznamLocations**
-> SerpSeznamLocationsResponseInfo serpSeznamLocations()
+<a id="seznamLocations"></a>
+# **seznamLocations**
+> SerpSeznamLocationsResponseInfo seznamLocations()
 
 
 ### Example
@@ -9010,7 +8823,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.serpSeznamLocations();
+ let response = await api.seznamLocations();
 ```
 
 ### Parameters
@@ -9039,9 +8852,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="serpSeznamLocationsCountry"></a>
-# **serpSeznamLocationsCountry**
-> SerpSeznamLocationsCountryResponseInfo serpSeznamLocationsCountry()
+<a id="seznamLocationsCountry"></a>
+# **seznamLocationsCountry**
+> SerpSeznamLocationsCountryResponseInfo seznamLocationsCountry()
 
 
 ### Example
@@ -9066,8 +8879,8 @@ This endpoint does not need any parameter.
    }
  });
 
- let country = "us";
- let response = await api.serpSeznamLocationsCountry(country);
+ let country = ;
+ let response = await api.seznamLocationsCountry(country);
 ```
 
 ### Parameters
@@ -9096,9 +8909,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="serpSeznamLanguages"></a>
-# **serpSeznamLanguages**
-> SerpSeznamLanguagesResponseInfo serpSeznamLanguages()
+<a id="seznamLanguages"></a>
+# **seznamLanguages**
+> SerpSeznamLanguagesResponseInfo seznamLanguages()
 
 
 ### Example
@@ -9123,7 +8936,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.serpSeznamLanguages();
+ let response = await api.seznamLanguages();
 ```
 
 ### Parameters
@@ -9180,9 +8993,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpSeznamOrganicTaskPostRequestInfo();
-   task.keyword = "albert einstein";
-   task.location_code = 2203;
-   task.language_code = "cs";
  let response = await api.seznamOrganicTaskPost([task]);
 ```
 
@@ -9351,7 +9161,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.seznamOrganicTaskGetRegular(id);
 ```
 
@@ -9408,7 +9218,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.seznamOrganicTaskGetAdvanced(id);
 ```
 
@@ -9465,7 +9275,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.seznamOrganicTaskGetHtml(id);
 ```
 
@@ -9523,8 +9333,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleFinanceExploreTaskPostRequestInfo();
-   task.location_code = 2840;
-   task.language_name = "English";
  let response = await api.googleFinanceExploreTaskPost([task]);
 ```
 
@@ -9637,7 +9445,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleFinanceExploreTaskGetAdvanced(id);
 ```
 
@@ -9694,7 +9502,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleFinanceExploreTaskGetHtml(id);
 ```
 
@@ -9752,8 +9560,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleFinanceExploreLiveAdvancedRequestInfo();
-   task.location_code = 2840;
-   task.language_name = "English";
  let response = await api.googleFinanceExploreLiveAdvanced([task]);
 ```
 
@@ -9811,8 +9617,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleFinanceExploreLiveHtmlRequestInfo();
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.googleFinanceExploreLiveHtml([task]);
 ```
 
@@ -9870,8 +9674,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleFinanceMarketsTaskPostRequestInfo();
-   task.location_code = 2840;
-   task.language_name = "English";
  let response = await api.googleFinanceMarketsTaskPost([task]);
 ```
 
@@ -9984,7 +9786,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleFinanceMarketsTaskGetAdvanced(id);
 ```
 
@@ -10041,7 +9843,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleFinanceMarketsTaskGetHtml(id);
 ```
 
@@ -10099,8 +9901,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleFinanceMarketsLiveAdvancedRequestInfo();
-   task.location_code = 2840;
-   task.language_name = "English";
  let response = await api.googleFinanceMarketsLiveAdvanced([task]);
 ```
 
@@ -10158,8 +9958,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleFinanceMarketsLiveHtmlRequestInfo();
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.googleFinanceMarketsLiveHtml([task]);
 ```
 
@@ -10217,9 +10015,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleFinanceQuoteTaskPostRequestInfo();
-   task.keyword = ".DJI:INDEXDJX";
-   task.location_code = 2840;
-   task.language_name = "English";
  let response = await api.googleFinanceQuoteTaskPost([task]);
 ```
 
@@ -10332,7 +10127,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleFinanceQuoteTaskGetAdvanced(id);
 ```
 
@@ -10389,7 +10184,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleFinanceQuoteTaskGetHtml(id);
 ```
 
@@ -10447,9 +10242,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleFinanceQuoteLiveAdvancedRequestInfo();
-   task.keyword = "CLW00:NYMEX";
-   task.location_code = 2840;
-   task.language_name = "English";
  let response = await api.googleFinanceQuoteLiveAdvanced([task]);
 ```
 
@@ -10507,9 +10299,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleFinanceQuoteLiveHtmlRequestInfo();
-   task.keyword = "NASDAQ-100";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.googleFinanceQuoteLiveHtml([task]);
 ```
 
@@ -10567,11 +10356,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleFinanceTickerSearchTaskPostRequestInfo();
-   task.keyword = "DJ";
-   task.location_code = 2840;
-   task.language_name = "English";
-   task.priority = 2;
-   task.category = "all";
  let response = await api.googleFinanceTickerSearchTaskPost([task]);
 ```
 
@@ -10684,7 +10468,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleFinanceTickerSearchTaskGetAdvanced(id);
 ```
 
@@ -10742,10 +10526,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleFinanceTickerSearchLiveAdvancedRequestInfo();
-   task.keyword = "DJ";
-   task.location_code = 2840;
-   task.language_name = "English";
-   task.category = "all";
  let response = await api.googleFinanceTickerSearchLiveAdvanced([task]);
 ```
 

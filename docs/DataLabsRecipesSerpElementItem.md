@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**items** | **RecipesElement[]** | elements of search results found in SERP |[optional]|
+**items** | **RecipesElement[]** | historical SERPs and related data found in the database |[optional]|

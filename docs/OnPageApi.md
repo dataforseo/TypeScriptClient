@@ -27,7 +27,7 @@ All URIs are relative to *https://api.dataforseo.com*
 [**contentParsing**](OnPageApi.md#contentParsing) | **POST**  /v3/on_page/content_parsing  |
 [**contentParsingLive**](OnPageApi.md#contentParsingLive) | **POST**  /v3/on_page/content_parsing/live  |
 [**instantPages**](OnPageApi.md#instantPages) | **POST**  /v3/on_page/instant_pages  |
-[**onPageLighthouseLanguages**](OnPageApi.md#onPageLighthouseLanguages) | **GET**  /v3/on_page/lighthouse/languages  |
+[**lighthouseLanguages**](OnPageApi.md#lighthouseLanguages) | **GET**  /v3/on_page/lighthouse/languages  |
 [**lighthouseAudits**](OnPageApi.md#lighthouseAudits) | **GET**  /v3/on_page/lighthouse/audits  |
 [**lighthouseVersions**](OnPageApi.md#lighthouseVersions) | **GET**  /v3/on_page/lighthouse/versions  |
 [**lighthouseTaskPost**](OnPageApi.md#lighthouseTaskPost) | **POST**  /v3/on_page/lighthouse/task_post  |
@@ -63,11 +63,6 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new OnPageIdListRequestInfo();
-   task.datetime_from = "2025-08-22 08:09:28 +00:00";
-   task.datetime_to = "2025-10-22 08:09:28 +00:00";
-   task.limit = 100;
-   task.offset = 0;
-   task.sort = "desc";
  let response = await api.onPageIdList([task]);
 ```
 
@@ -125,9 +120,6 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new OnPageErrorsRequestInfo();
-   task.limit = 10;
-   task.offset = 0;
-   task.filtered_function = "pingback_url";
  let response = await api.onPageErrors([task]);
 ```
 
@@ -185,7 +177,6 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new OnPageForceStopRequestInfo();
-   task.id = "08121600-1535-0216-0000-37b4c7a34453";
  let response = await api.forceStop([task]);
 ```
 
@@ -299,13 +290,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new OnPageTaskPostRequestInfo();
-   task.target = "dataforseo.com";
-   task.max_crawl_pages = 10;
-   task.load_resources = true;
-   task.enable_javascript = true;
-   task.custom_js = "meta = {}; meta.url = document.URL; meta;";
-   task.tag = "some_string_123";
-   task.pingback_url = "https://your-server.com/pingscript?id=$id&tag=$tag";
  let response = await api.taskPost([task]);
 ```
 
@@ -418,7 +402,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.summary(id);
 ```
 
@@ -476,8 +460,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new OnPagePagesRequestInfo();
-   task.id = "07281559-0695-0216-0000-c269be8b7592";
-   task.limit = 10;
  let response = await api.pages([task]);
 ```
 
@@ -535,8 +517,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new OnPagePagesByResourceRequestInfo();
-   task.id = "02241700-1535-0216-0000-034137259bc1";
-   task.url = "https://www.etsy.com/about/jobs.workco2018.js?";
  let response = await api.pagesByResource([task]);
 ```
 
@@ -594,8 +574,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new OnPageResourcesRequestInfo();
-   task.id = "07281559-0695-0216-0000-c269be8b7592";
-   task.limit = 10;
  let response = await api.resources([task]);
 ```
 
@@ -653,9 +631,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new OnPageDuplicateTagsRequestInfo();
-   task.id = "07281559-0695-0216-0000-c269be8b7592";
-   task.type = "duplicate_description";
-   task.limit = 10;
  let response = await api.duplicateTags([task]);
 ```
 
@@ -713,8 +688,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new OnPageDuplicateContentRequestInfo();
-   task.id = "07281559-0695-0216-0000-c269be8b7592";
-   task.url = "https://www.etsy.com/";
  let response = await api.duplicateContent([task]);
 ```
 
@@ -772,9 +745,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new OnPageLinksRequestInfo();
-   task.id = "07281559-0695-0216-0000-c269be8b7592";
-   task.page_from = "/apis/google-trends-api";
-   task.limit = 10;
  let response = await api.links([task]);
 ```
 
@@ -832,8 +802,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new OnPageRedirectChainsRequestInfo();
-   task.id = "03051327-4536-0216-1000-3b458a2cfcca";
-   task.url = "https://test_rdr.dataforseo.com/a/";
  let response = await api.redirectChains([task]);
 ```
 
@@ -891,8 +859,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new OnPageNonIndexableRequestInfo();
-   task.id = "07281559-0695-0216-0000-c269be8b7592";
-   task.limit = 10;
  let response = await api.nonIndexable([task]);
 ```
 
@@ -950,8 +916,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new OnPageWaterfallRequestInfo();
-   task.id = "08101204-0696-0216-0000-644a7b21a48a";
-   task.url = "https://dataforseo.com/tag/broken-links";
  let response = await api.waterfall([task]);
 ```
 
@@ -1009,9 +973,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new OnPageKeywordDensityRequestInfo();
-   task.id = "09101923-1535-0216-0000-2389a8854b70";
-   task.keyword_length = 2;
-   task.url = "https://dataforseo.com/";
  let response = await api.keywordDensity([task]);
 ```
 
@@ -1069,8 +1030,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new OnPageMicrodataRequestInfo();
-   task.id = "02241700-1535-0216-0000-034137259bc1";
-   task.url = "https://dataforseo.com/apis";
  let response = await api.microdata([task]);
 ```
 
@@ -1128,8 +1087,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new OnPageRawHtmlRequestInfo();
-   task.id = "07281559-0695-0216-0000-c269be8b7592";
-   task.url = "https://dataforseo.com/apis";
  let response = await api.rawHtml([task]);
 ```
 
@@ -1187,7 +1144,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new OnPagePageScreenshotRequestInfo();
-   task.url = "https://dataforseo.com/apis";
  let response = await api.pageScreenshot([task]);
 ```
 
@@ -1245,8 +1201,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new OnPageContentParsingRequestInfo();
-   task.url = "https://dataforseo.com/blog/a-versatile-alternative-to-google-trends-exploring-the-power-of-dataforseo-trends-api";
-   task.id = "11161551-1535-0216-0000-500b3f307f92";
  let response = await api.contentParsing([task]);
 ```
 
@@ -1304,7 +1258,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new OnPageContentParsingLiveRequestInfo();
-   task.url = "https://dataforseo.com/blog/a-versatile-alternative-to-google-trends-exploring-the-power-of-dataforseo-trends-api";
  let response = await api.contentParsingLive([task]);
 ```
 
@@ -1362,9 +1315,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new OnPageInstantPagesRequestInfo();
-   task.url = "https://dataforseo.com/blog";
-   task.enable_javascript = true;
-   task.custom_js = "meta = {}; meta.url = document.URL; meta;";
  let response = await api.instantPages([task]);
 ```
 
@@ -1394,9 +1344,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="onPageLighthouseLanguages"></a>
-# **onPageLighthouseLanguages**
-> OnPageLighthouseLanguagesResponseInfo onPageLighthouseLanguages()
+<a id="lighthouseLanguages"></a>
+# **lighthouseLanguages**
+> OnPageLighthouseLanguagesResponseInfo lighthouseLanguages()
 
 
 ### Example
@@ -1421,7 +1371,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.onPageLighthouseLanguages();
+ let response = await api.lighthouseLanguages();
 ```
 
 ### Parameters
@@ -1590,10 +1540,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new OnPageLighthouseTaskPostRequestInfo();
-   task.url = "https://dataforseo.com";
-   task.for_mobile = true;
-   task.tag = "some_string_123";
-   task.pingback_url = "https://your-server.com/pingscript?id=$id&tag=$tag";
  let response = await api.lighthouseTaskPost([task]);
 ```
 
@@ -1706,7 +1652,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.lighthouseTaskGetJson(id);
 ```
 
@@ -1764,9 +1710,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new OnPageLighthouseLiveJsonRequestInfo();
-   task.url = "https://dataforseo.com";
-   task.for_mobile = true;
-   task.tag = "some_string_123";
  let response = await api.lighthouseLiveJson([task]);
 ```
 

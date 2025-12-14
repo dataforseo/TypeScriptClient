@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**items** | **PodcastsElement[]** | elements of search results found in SERP |[optional]|
+**items** | **PodcastsElement[]** | historical SERPs and related data found in the database |[optional]|

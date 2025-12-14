@@ -9,71 +9,20 @@ if you need to use the “+” character for your keyword, please specify it as 
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
         keyword?: string | undefined
         
-        /** task priority
-optional field
-can take the following values:
-1 – normal execution priority (set by default)
-2 – high execution priority
-You will be additionally charged for the tasks with high execution priority.
-The cost can be calculated on the Pricing page. */
-        priority?: number | undefined
-        
-        /** full name of search engine location
-required field if you don’t specify location_code or location_coordinate
-if you use this field, you don’t need to specify location_code or location_coordinate
-you can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/serp/google/locations
-example:
-London,England,United Kingdom */
-        location_name?: string | undefined
-        
         /** search engine location code
-required field if you don’t specify location_name or location_coordinate
-if you use this field, you don’t need to specify location_name or location_coordinate
-you can receive the list of available locations of the search engines with their location_code by making a separate request to the https://api.dataforseo.com/v3/serp/google/locations
+required field if you don't specify location_name or location_coordinate
+if you use this field, you don't need to specify location_name or location_coordinate
+you can receive the list of available locations of the search engines with their location_code by making a separate request to the https://api.dataforseo.com/v3/serp/{{low_se_name}}/locations
 example:
 2840 */
         location_code?: number | undefined
         
-        /** GPS coordinates of a location
-required field if you don’t specify location_name or location_code
-if you use this field, you don’t need to specify location_name or location_code
-location_coordinate parameter should be specified in the “latitude,longitude,zoom” format
-if “zoom” is not specified, 9z will be applied as a default value
-the maximum number of decimal digits for “latitude” and “longitude”: 7
-the minimum value for “zoom”: 4z
-the maximum value for “zoom”: 18z
-example:
-52.6178549,-155.352142,20z */
-        location_coordinate?: string | undefined
-        
-        /** full name of search engine language
-required field if you don’t specify language_code
-if you use this field, you don’t need to specify language_code
-you can receive the list of available languages of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/serp/google/languages
-example:
-English */
-        language_name?: string | undefined
-        
         /** search engine language code
-required field if you don’t specify language_name
-if you use this field, you don’t need to specify language_name
-you can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/serp/google/languages
+required field if you don't specify language_name
+if you use this field, you don't need to specify language_name
+you can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/serp/{{low_se_name}}/languages
 example:en */
         language_code?: string | undefined
-        
-        /** device type
-optional field
-can take the values:desktop, mobile
-default value: desktop */
-        device?: string | undefined
-        
-        /** device operating system
-optional field
-if you specify desktop in the device field, choose from the following values: windows, macos
-default value: windows
-if you specify mobile in the device field, choose from the following values: android, ios
-default value: android */
-        os?: string | undefined
         
         /** parsing depth
 optional field
@@ -88,11 +37,69 @@ If the specified depth is higher than the number of results in the response, the
 The cost can be calculated on the Pricing page. */
         depth?: number | undefined
         
+        /** device type
+optional field
+can take the values:desktop, mobile
+default value: desktop */
+        device?: string | undefined
+        
+        /** full name of search engine location
+required field if you don't specify location_code or location_coordinate
+if you use this field, you don't need to specify location_code or location_coordinate
+you can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/serp/{{low_se_name}}/locations
+example:
+London,England,United Kingdom */
+        location_name?: string | undefined
+        
+        /** full name of search engine language
+required field if you don't specify language_code
+if you use this field, you don't need to specify language_code
+you can receive the list of available languages of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/serp/{{low_se_name}}/languages
+example:
+English */
+        language_name?: string | undefined
+        
+        /** device operating system
+optional field
+if you specify desktop in the device field, choose from the following values: windows, macos
+default value: windows
+if you specify mobile in the device field, choose from the following values: android, ios
+default value: android */
+        os?: string | undefined
+        
+        /** user-defined task identifier
+optional field
+the character limit is 255
+you can use this parameter to identify the task and match it with the result
+you will find the specified tag value in the data object of the response */
+        tag?: string | undefined
+        
+        /** task priority
+optional field
+can take the following values:
+1 – normal execution priority (set by default)
+2 – high execution priority
+You will be additionally charged for the tasks with high execution priority.
+The cost can be calculated on the Pricing page. */
+        priority?: number | undefined
+        
+        /** GPS coordinates of a location
+required field if you don't specify location_name or location_code
+if you use this field, you don't need to specify location_name or location_code
+location_coordinate parameter should be specified in the 'latitude,longitude,zoom' format
+if 'zoom' is not specified, 9z will be applied as a default value
+the maximum number of decimal digits for 'latitude' and 'longitude': 7
+the minimum value for 'zoom': 4z
+the maximum value for 'zoom': 18z
+example:
+52.6178549,-155.352142,20z */
+        location_coordinate?: string | undefined
+        
         /** filter results by minimum rating
 optional field
 possible values for desktop: 3.5, 4, 4.5;
 possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5 */
-        min_rating?: number | undefined
+        min_rating?: string | undefined
         
         /** filter results by open hours
 optional field
@@ -103,13 +110,6 @@ instead of $day_value use one of these values: 'monday', 'tuesday', 'wednesday',
 instead of $time_value use one of these values: '00', '01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23'
 example: 'tuesday;18' */
         time_filter?: string | undefined
-        
-        /** user-defined task identifier
-optional field
-the character limit is 255
-you can use this parameter to identify the task and match it with the result
-you will find the specified tag value in the data object of the response */
-        tag?: string | undefined
 
     [key: string]: any;
 
@@ -127,79 +127,22 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
     keyword?: string | undefined;
     
-    /** task priority
-optional field
-can take the following values:
-1 – normal execution priority (set by default)
-2 – high execution priority
-You will be additionally charged for the tasks with high execution priority.
-The cost can be calculated on the Pricing page. */
-
-    priority?: number | undefined;
-    
-    /** full name of search engine location
-required field if you don’t specify location_code or location_coordinate
-if you use this field, you don’t need to specify location_code or location_coordinate
-you can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/serp/google/locations
-example:
-London,England,United Kingdom */
-
-    location_name?: string | undefined;
-    
     /** search engine location code
-required field if you don’t specify location_name or location_coordinate
-if you use this field, you don’t need to specify location_name or location_coordinate
-you can receive the list of available locations of the search engines with their location_code by making a separate request to the https://api.dataforseo.com/v3/serp/google/locations
+required field if you don't specify location_name or location_coordinate
+if you use this field, you don't need to specify location_name or location_coordinate
+you can receive the list of available locations of the search engines with their location_code by making a separate request to the https://api.dataforseo.com/v3/serp/{{low_se_name}}/locations
 example:
 2840 */
 
     location_code?: number | undefined;
     
-    /** GPS coordinates of a location
-required field if you don’t specify location_name or location_code
-if you use this field, you don’t need to specify location_name or location_code
-location_coordinate parameter should be specified in the “latitude,longitude,zoom” format
-if “zoom” is not specified, 9z will be applied as a default value
-the maximum number of decimal digits for “latitude” and “longitude”: 7
-the minimum value for “zoom”: 4z
-the maximum value for “zoom”: 18z
-example:
-52.6178549,-155.352142,20z */
-
-    location_coordinate?: string | undefined;
-    
-    /** full name of search engine language
-required field if you don’t specify language_code
-if you use this field, you don’t need to specify language_code
-you can receive the list of available languages of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/serp/google/languages
-example:
-English */
-
-    language_name?: string | undefined;
-    
     /** search engine language code
-required field if you don’t specify language_name
-if you use this field, you don’t need to specify language_name
-you can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/serp/google/languages
+required field if you don't specify language_name
+if you use this field, you don't need to specify language_name
+you can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/serp/{{low_se_name}}/languages
 example:en */
 
     language_code?: string | undefined;
-    
-    /** device type
-optional field
-can take the values:desktop, mobile
-default value: desktop */
-
-    device?: string | undefined;
-    
-    /** device operating system
-optional field
-if you specify desktop in the device field, choose from the following values: windows, macos
-default value: windows
-if you specify mobile in the device field, choose from the following values: android, ios
-default value: android */
-
-    os?: string | undefined;
     
     /** parsing depth
 optional field
@@ -215,12 +158,77 @@ The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
     
+    /** device type
+optional field
+can take the values:desktop, mobile
+default value: desktop */
+
+    device?: string | undefined;
+    
+    /** full name of search engine location
+required field if you don't specify location_code or location_coordinate
+if you use this field, you don't need to specify location_code or location_coordinate
+you can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/serp/{{low_se_name}}/locations
+example:
+London,England,United Kingdom */
+
+    location_name?: string | undefined;
+    
+    /** full name of search engine language
+required field if you don't specify language_code
+if you use this field, you don't need to specify language_code
+you can receive the list of available languages of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/serp/{{low_se_name}}/languages
+example:
+English */
+
+    language_name?: string | undefined;
+    
+    /** device operating system
+optional field
+if you specify desktop in the device field, choose from the following values: windows, macos
+default value: windows
+if you specify mobile in the device field, choose from the following values: android, ios
+default value: android */
+
+    os?: string | undefined;
+    
+    /** user-defined task identifier
+optional field
+the character limit is 255
+you can use this parameter to identify the task and match it with the result
+you will find the specified tag value in the data object of the response */
+
+    tag?: string | undefined;
+    
+    /** task priority
+optional field
+can take the following values:
+1 – normal execution priority (set by default)
+2 – high execution priority
+You will be additionally charged for the tasks with high execution priority.
+The cost can be calculated on the Pricing page. */
+
+    priority?: number | undefined;
+    
+    /** GPS coordinates of a location
+required field if you don't specify location_name or location_code
+if you use this field, you don't need to specify location_name or location_code
+location_coordinate parameter should be specified in the 'latitude,longitude,zoom' format
+if 'zoom' is not specified, 9z will be applied as a default value
+the maximum number of decimal digits for 'latitude' and 'longitude': 7
+the minimum value for 'zoom': 4z
+the maximum value for 'zoom': 18z
+example:
+52.6178549,-155.352142,20z */
+
+    location_coordinate?: string | undefined;
+    
     /** filter results by minimum rating
 optional field
 possible values for desktop: 3.5, 4, 4.5;
 possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5 */
 
-    min_rating?: number | undefined;
+    min_rating?: string | undefined;
     
     /** filter results by open hours
 optional field
@@ -232,14 +240,6 @@ instead of $time_value use one of these values: '00', '01', '02', '03', '04', '0
 example: 'tuesday;18' */
 
     time_filter?: string | undefined;
-    
-    /** user-defined task identifier
-optional field
-the character limit is 255
-you can use this parameter to identify the task and match it with the result
-you will find the specified tag value in the data object of the response */
-
-    tag?: string | undefined;
 
     [key: string]: any;
 
@@ -262,18 +262,18 @@ you will find the specified tag value in the data object of the response */
                     this[property] = data[property];
             }
             this.keyword = data["keyword"];
-            this.priority = data["priority"];
-            this.location_name = data["location_name"];
             this.location_code = data["location_code"];
-            this.location_coordinate = data["location_coordinate"];
-            this.language_name = data["language_name"];
             this.language_code = data["language_code"];
-            this.device = data["device"];
-            this.os = data["os"];
             this.depth = data["depth"];
+            this.device = data["device"];
+            this.location_name = data["location_name"];
+            this.language_name = data["language_name"];
+            this.os = data["os"];
+            this.tag = data["tag"];
+            this.priority = data["priority"];
+            this.location_coordinate = data["location_coordinate"];
             this.min_rating = data["min_rating"];
             this.time_filter = data["time_filter"];
-            this.tag = data["tag"];
         }
     }
 
@@ -292,18 +292,18 @@ you will find the specified tag value in the data object of the response */
         
         
         data["keyword"] = this.keyword;
-        data["priority"] = this.priority;
-        data["location_name"] = this.location_name;
         data["location_code"] = this.location_code;
-        data["location_coordinate"] = this.location_coordinate;
-        data["language_name"] = this.language_name;
         data["language_code"] = this.language_code;
-        data["device"] = this.device;
-        data["os"] = this.os;
         data["depth"] = this.depth;
+        data["device"] = this.device;
+        data["location_name"] = this.location_name;
+        data["language_name"] = this.language_name;
+        data["os"] = this.os;
+        data["tag"] = this.tag;
+        data["priority"] = this.priority;
+        data["location_coordinate"] = this.location_coordinate;
         data["min_rating"] = this.min_rating;
         data["time_filter"] = this.time_filter;
-        data["tag"] = this.tag;
         return data;
     }
 }

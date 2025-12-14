@@ -6,7 +6,7 @@ export interface IChatGptLocalBusinessesElement   {
         /** type of element */
         type?: string | undefined
         
-        /** source title */
+        /** title of the element */
         title?: string | undefined
         
         /** description of the local businesses */
@@ -21,10 +21,10 @@ export interface IChatGptLocalBusinessesElement   {
         /** total number of reviews submitted for the local businesses */
         reviews_count?: number | undefined
         
-        /** source URL */
+        /** URL */
         url?: string | undefined
         
-        /** source domain */
+        /** domain */
         domain?: string | undefined
         
         /** rating of the corresponding local businesses
@@ -41,7 +41,7 @@ export class ChatGptLocalBusinessesElement  implements IChatGptLocalBusinessesEl
 
     type?: string | undefined;
     
-    /** source title */
+    /** title of the element */
 
     title?: string | undefined;
     
@@ -61,11 +61,11 @@ export class ChatGptLocalBusinessesElement  implements IChatGptLocalBusinessesEl
 
     reviews_count?: number | undefined;
     
-    /** source URL */
+    /** URL */
 
     url?: string | undefined;
     
-    /** source domain */
+    /** domain */
 
     domain?: string | undefined;
     

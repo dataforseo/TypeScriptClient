@@ -57,6 +57,16 @@ with this parameter enabled, you will be charged double the price for the reques
 learn more about how clickstream-based metrics are calculated in this help center article */
         include_clickstream_data?: boolean | undefined
         
+        /** data collection mode
+optional field
+you can use this field to filter the results;
+possible types of filtering:
+live — return metrics for SERPs in which the specified target currently has ranking results;
+lost — return metrics for SERPs in which the specified target had previously had ranking results, but didn’t have them during the last check;
+all — return metrics for both types of SERPs.
+default value: live */
+        historical_serp_mode?: string | undefined
+        
         /** display results by item type
 optional field
 indicates the type of search results included in the response
@@ -188,6 +198,17 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
     include_clickstream_data?: boolean | undefined;
     
+    /** data collection mode
+optional field
+you can use this field to filter the results;
+possible types of filtering:
+live — return metrics for SERPs in which the specified target currently has ranking results;
+lost — return metrics for SERPs in which the specified target had previously had ranking results, but didn’t have them during the last check;
+all — return metrics for both types of SERPs.
+default value: live */
+
+    historical_serp_mode?: string | undefined;
+    
     /** display results by item type
 optional field
 indicates the type of search results included in the response
@@ -282,6 +303,7 @@ you will find the specified tag value in the data object of the response */
             this.language_code = data["language_code"];
             this.include_subcategories = data["include_subcategories"];
             this.include_clickstream_data = data["include_clickstream_data"];
+            this.historical_serp_mode = data["historical_serp_mode"];
             this.item_types = data["item_types"];
             this.filters = data["filters"];
             this.order_by = data["order_by"];
@@ -312,6 +334,7 @@ you will find the specified tag value in the data object of the response */
         data["language_code"] = this.language_code;
         data["include_subcategories"] = this.include_subcategories;
         data["include_clickstream_data"] = this.include_clickstream_data;
+        data["historical_serp_mode"] = this.historical_serp_mode;
         data["item_types"] = this.item_types;
         data["filters"] = this.filters;
         data["order_by"] = this.order_by;

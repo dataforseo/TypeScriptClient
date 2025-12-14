@@ -6,8 +6,8 @@ All URIs are relative to *https://api.dataforseo.com*
 |------------- | ------------- | -------------|
 [**contentAnalysisIdList**](ContentAnalysisApi.md#contentAnalysisIdList) | **POST**  /v3/content_analysis/id_list  |
 [**contentAnalysisAvailableFilters**](ContentAnalysisApi.md#contentAnalysisAvailableFilters) | **GET**  /v3/content_analysis/available_filters  |
-[**contentAnalysisLocations**](ContentAnalysisApi.md#contentAnalysisLocations) | **GET**  /v3/content_analysis/locations  |
-[**contentAnalysisLanguages**](ContentAnalysisApi.md#contentAnalysisLanguages) | **GET**  /v3/content_analysis/languages  |
+[**locations**](ContentAnalysisApi.md#locations) | **GET**  /v3/content_analysis/locations  |
+[**languages**](ContentAnalysisApi.md#languages) | **GET**  /v3/content_analysis/languages  |
 [**contentAnalysisCategories**](ContentAnalysisApi.md#contentAnalysisCategories) | **GET**  /v3/content_analysis/categories  |
 [**searchLive**](ContentAnalysisApi.md#searchLive) | **POST**  /v3/content_analysis/search/live  |
 [**contentAnalysisSummaryLive**](ContentAnalysisApi.md#contentAnalysisSummaryLive) | **POST**  /v3/content_analysis/summary/live  |
@@ -44,11 +44,6 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new ContentAnalysisIdListRequestInfo();
-   task.datetime_from = "2025-08-22 08:10:56 +00:00";
-   task.datetime_to = "2025-10-22 08:10:56 +00:00";
-   task.limit = 100;
-   task.offset = 0;
-   task.sort = "desc";
  let response = await api.contentAnalysisIdList([task]);
 ```
 
@@ -134,9 +129,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="contentAnalysisLocations"></a>
-# **contentAnalysisLocations**
-> ContentAnalysisLocationsResponseInfo contentAnalysisLocations()
+<a id="locations"></a>
+# **locations**
+> ContentAnalysisLocationsResponseInfo locations()
 
 
 ### Example
@@ -161,7 +156,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.contentAnalysisLocations();
+ let response = await api.locations();
 ```
 
 ### Parameters
@@ -190,9 +185,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="contentAnalysisLanguages"></a>
-# **contentAnalysisLanguages**
-> ContentAnalysisLanguagesResponseInfo contentAnalysisLanguages()
+<a id="languages"></a>
+# **languages**
+> ContentAnalysisLanguagesResponseInfo languages()
 
 
 ### Example
@@ -217,7 +212,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.contentAnalysisLanguages();
+ let response = await api.languages();
 ```
 
 ### Parameters
@@ -330,19 +325,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new ContentAnalysisSearchLiveRequestInfo();
-   task.keyword = "logitech";
-   task.keyword_fields = {
-       snippet: "logitech",
-   };
-   task.page_type = [
-       "ecommerce",
-       "news",
-       "blogs",
-       "message-boards",
-       "organization",
-   ];
-   task.search_mode = "as_is";
-   task.limit = 10;
  let response = await api.searchLive([task]);
 ```
 
@@ -400,16 +382,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new ContentAnalysisSummaryLiveRequestInfo();
-   task.keyword = "logitech";
-   task.page_type = [
-       "ecommerce",
-       "news",
-       "blogs",
-       "message-boards",
-       "organization",
-   ];
-   task.internal_list_limit = 8;
-   task.positive_connotation_threshold = 0.5;
  let response = await api.contentAnalysisSummaryLive([task]);
 ```
 
@@ -467,8 +439,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new ContentAnalysisSentimentAnalysisLiveRequestInfo();
-   task.keyword = "logitech";
-   task.internal_list_limit = 1;
  let response = await api.sentimentAnalysisLive([task]);
 ```
 
@@ -526,9 +496,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new ContentAnalysisRatingDistributionLiveRequestInfo();
-   task.keyword = "logitech";
-   task.internal_list_limit = 10;
-   task.search_mode = "as_is";
  let response = await api.ratingDistributionLive([task]);
 ```
 
@@ -586,10 +553,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new ContentAnalysisPhraseTrendsLiveRequestInfo();
-   task.keyword = "logitech";
-   task.search_mode = "as_is";
-   task.date_from = "2025-08-22";
-   task.date_group = "month";
  let response = await api.phraseTrendsLive([task]);
 ```
 
@@ -647,10 +610,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new ContentAnalysisCategoryTrendsLiveRequestInfo();
-   task.category_code = "10994";
-   task.search_mode = "as_is";
-   task.date_from = "2025-08-22";
-   task.date_group = "month";
  let response = await api.categoryTrendsLive([task]);
 ```
 

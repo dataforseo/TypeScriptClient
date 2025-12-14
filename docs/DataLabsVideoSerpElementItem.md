@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**items** | **VideoElement[]** | elements of search results found in SERP |[optional]|
+**items** | **VideoElement[]** | historical SERPs and related data found in the database |[optional]|

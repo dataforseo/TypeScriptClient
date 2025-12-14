@@ -30,6 +30,9 @@ can take the following values: right */
 the original content of the review, no auto-translate applied */
         original_review_text?: string | undefined
         
+        /** original language of the review text */
+        original_language?: string | undefined
+        
         /** the time of publication
 indicates the time (in the ‘time ago’ format) when the review was listed */
         time_ago?: string | undefined
@@ -131,6 +134,10 @@ can take the following values: right */
 the original content of the review, no auto-translate applied */
 
     original_review_text?: string | undefined;
+    
+    /** original language of the review text */
+
+    original_language?: string | undefined;
     
     /** the time of publication
 indicates the time (in the ‘time ago’ format) when the review was listed */
@@ -240,6 +247,7 @@ contains highlighted review criteria and assessments */
             this.xpath = data["xpath"];
             this.review_text = data["review_text"];
             this.original_review_text = data["original_review_text"];
+            this.original_language = data["original_language"];
             this.time_ago = data["time_ago"];
             this.timestamp = data["timestamp"];
             this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
@@ -291,6 +299,7 @@ contains highlighted review criteria and assessments */
         data["xpath"] = this.xpath;
         data["review_text"] = this.review_text;
         data["original_review_text"] = this.original_review_text;
+        data["original_language"] = this.original_language;
         data["time_ago"] = this.time_ago;
         data["timestamp"] = this.timestamp;
         data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;

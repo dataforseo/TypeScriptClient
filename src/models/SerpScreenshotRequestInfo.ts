@@ -25,7 +25,8 @@ can be specified in the following range: 240-9999 */
         
         /** browser scale factor
 optional field
-can be specified in the following range: 0.5-3 */
+can be specified in the following range: 0.5-3
+default value: 1 */
         browser_screen_scale_factor?: number | undefined
         
         /** number of SERP pages
@@ -69,7 +70,8 @@ can be specified in the following range: 240-9999 */
     
     /** browser scale factor
 optional field
-can be specified in the following range: 0.5-3 */
+can be specified in the following range: 0.5-3
+default value: 1 */
 
     browser_screen_scale_factor?: number | undefined;
     

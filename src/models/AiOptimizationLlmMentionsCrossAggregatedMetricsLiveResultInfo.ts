@@ -1,4 +1,4 @@
-import { Total, ITotal } from "./Total";
+import { AiOptimizationResultTotalInfo, IAiOptimizationResultTotalInfo } from "./AiOptimizationResultTotalInfo";
 import { AiOptimizationLlmMentionssLiveItem, IAiOptimizationLlmMentionssLiveItem } from "./AiOptimizationLlmMentionssLiveItem";
 
 
@@ -6,7 +6,7 @@ export interface IAiOptimizationLlmMentionsCrossAggregatedMetricsLiveResultInfo 
         
         /** aggregated mentions metrics summary
 contains overall aggregated LLM mention metrics across all found domains, grouped by various dimensions */
-        total?: Total | undefined
+        total?: AiOptimizationResultTotalInfo | undefined
         
         /** contains relevant mentions data */
         items?: AiOptimizationLlmMentionssLiveItem[] | undefined
@@ -20,7 +20,7 @@ export class AiOptimizationLlmMentionsCrossAggregatedMetricsLiveResultInfo  impl
     /** aggregated mentions metrics summary
 contains overall aggregated LLM mention metrics across all found domains, grouped by various dimensions */
 
-    total?: Total | undefined;
+    total?: AiOptimizationResultTotalInfo | undefined;
     
     /** contains relevant mentions data */
 
@@ -46,7 +46,7 @@ contains overall aggregated LLM mention metrics across all found domains, groupe
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
-            this.total = data["total"] ? Total.fromJS(data["total"]) : <any>undefined;
+            this.total = data["total"] ? AiOptimizationResultTotalInfo.fromJS(data["total"]) : <any>undefined;
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
@@ -70,7 +70,7 @@ contains overall aggregated LLM mention metrics across all found domains, groupe
 
         
         
-        data["total"] = this.total ? Total.fromJS(this.total)?.toJSON() : <any>undefined;
+        data["total"] = this.total ? AiOptimizationResultTotalInfo.fromJS(this.total)?.toJSON() : <any>undefined;
         data["items"] = null;
         if (Array.isArray(this.items)) {
             data["items"] = [];

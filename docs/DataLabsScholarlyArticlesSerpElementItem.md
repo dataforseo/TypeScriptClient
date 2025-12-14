@@ -6,4 +6,4 @@
 |------------ | ------------- | ------------- | -------------|
 **title** | **string** | title of the result in SERP |[optional]|
 **url** | **string** | sitelink URL |[optional]|
-**items** | **ScholarlyArticlesElement[]** | elements of search results found in SERP |[optional]|
+**items** | **ScholarlyArticlesElement[]** | historical SERPs and related data found in the database |[optional]|

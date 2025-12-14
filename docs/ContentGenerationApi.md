@@ -10,10 +10,10 @@ All URIs are relative to *https://api.dataforseo.com*
 [**generateSubTopicsLive**](ContentGenerationApi.md#generateSubTopicsLive) | **POST**  /v3/content_generation/generate_sub_topics/live  |
 [**paraphraseLive**](ContentGenerationApi.md#paraphraseLive) | **POST**  /v3/content_generation/paraphrase/live  |
 [**checkGrammarLive**](ContentGenerationApi.md#checkGrammarLive) | **POST**  /v3/content_generation/check_grammar/live  |
-[**contentGenerationCheckGrammarLanguages**](ContentGenerationApi.md#contentGenerationCheckGrammarLanguages) | **GET**  /v3/content_generation/check_grammar/languages  |
+[**checkGrammarLanguages**](ContentGenerationApi.md#checkGrammarLanguages) | **GET**  /v3/content_generation/check_grammar/languages  |
 [**grammarRules**](ContentGenerationApi.md#grammarRules) | **GET**  /v3/content_generation/grammar_rules  |
 [**textSummaryLive**](ContentGenerationApi.md#textSummaryLive) | **POST**  /v3/content_generation/text_summary/live  |
-[**contentGenerationTextSummaryLanguages**](ContentGenerationApi.md#contentGenerationTextSummaryLanguages) | **GET**  /v3/content_generation/text_summary/languages  |
+[**textSummaryLanguages**](ContentGenerationApi.md#textSummaryLanguages) | **GET**  /v3/content_generation/text_summary/languages  |
 
 <a id="generateLive"></a>
 # **generateLive**
@@ -43,18 +43,6 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new ContentGenerationGenerateLiveRequestInfo();
-   task.text = "SEO is";
-   task.max_new_tokens = 100;
-   task.creativity_index = 1;
-   task.avoid_starting_words = [
-       "SEO",
-       "search engine optimization",
-       "SEO is",
-   ];
-   task.stop_words = [
-       "123",
-       "n",
-   ];
  let response = await api.generateLive([task]);
 ```
 
@@ -112,21 +100,6 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new ContentGenerationGenerateTextLiveRequestInfo();
-   task.topic = "Steve Jobs";
-   task.word_count = 50;
-   task.sub_topics = [
-       "Apple",
-       "Pixar",
-       "Amazing Products",
-   ];
-   task.description = "Take a closer look at Steve Jobs' life and his incredible impact on the tech industry, with a special focus on the development of the iPhone.";
-   task.meta_keywords = [
-       "iPhone",
-       "sell",
-       "CEO",
-   ];
-   task.creativity_index = 0.8;
-   task.include_conclusion = true;
  let response = await api.generateTextLive([task]);
 ```
 
@@ -184,7 +157,6 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new ContentGenerationGenerateMetaTagsLiveRequestInfo();
-   task.text = "The idea to develop an instrument for local SEO didn’t come to the GMB Crush CEO, Matteo Barletta, out of the blue. Having a huge interest in search engine optimization, Matteo has come a long way from being an SEO freelancer to launching his own agency, SEO Heroes. At some point, he and his team noticed that it was quite challenging to work with local SEO projects, especially those related to Google My Business listings. There were simply no tools that could streamline their work and provide the functionality the agency needed.nn“We started to develop the idea of ··our tool capable of doing Google Business SEO audits, tracking stats, and generating business proposals at the same time.";
  let response = await api.generateMetaTagsLive([task]);
 ```
 
@@ -242,8 +214,6 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new ContentGenerationGenerateSubTopicsLiveRequestInfo();
-   task.topic = "Steve Jobs";
-   task.creativity_index = 0.9;
  let response = await api.generateSubTopicsLive([task]);
 ```
 
@@ -301,8 +271,6 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new ContentGenerationParaphraseLiveRequestInfo();
-   task.text = "The idea to develop an instrument for local SEO didn’t come to the GMB Crush CEO, Matteo Barletta, out of the blue. Having a huge interest in search engine optimization, Matteo has come a long way from being an SEO freelancer to launching his own agency, SEO Heroes. At some point, he and his team noticed that it was quite challenging to work with local SEO projects, especially those related to Google My Business listings.";
-   task.creativity_index = 0.8;
  let response = await api.paraphraseLive([task]);
 ```
 
@@ -360,8 +328,6 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new ContentGenerationCheckGrammarLiveRequestInfo();
-   task.text = "Hello, my name is John! And I'm very glad to work with you toda";
-   task.language_code = "en-US";
  let response = await api.checkGrammarLive([task]);
 ```
 
@@ -391,9 +357,9 @@ All URIs are relative to *https://api.dataforseo.com*
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="contentGenerationCheckGrammarLanguages"></a>
-# **contentGenerationCheckGrammarLanguages**
-> ContentGenerationCheckGrammarLanguagesResponseInfo contentGenerationCheckGrammarLanguages()
+<a id="checkGrammarLanguages"></a>
+# **checkGrammarLanguages**
+> ContentGenerationCheckGrammarLanguagesResponseInfo checkGrammarLanguages()
 
 
 ### Example
@@ -418,7 +384,7 @@ All URIs are relative to *https://api.dataforseo.com*
    }
  });
 
- let response = await api.contentGenerationCheckGrammarLanguages();
+ let response = await api.checkGrammarLanguages();
 ```
 
 ### Parameters
@@ -531,8 +497,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new ContentGenerationTextSummaryLiveRequestInfo();
-   task.text = "Removing [RequireHttps] does nothing but break the https redirection, and doesn't enforce an https url on my route. I've got one method which i want to expose over http and a different one over https. If i accidentally enter http in my url for the https-only method, it should redirect. It currently works as is, the problem is that there is an undocument (seemingly unrelated) setting I have to add to get it all working. And that is the SslPort thing";
-   task.language_name = "English (United States)";
  let response = await api.textSummaryLive([task]);
 ```
 
@@ -562,9 +526,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="contentGenerationTextSummaryLanguages"></a>
-# **contentGenerationTextSummaryLanguages**
-> ContentGenerationTextSummaryLanguagesResponseInfo contentGenerationTextSummaryLanguages()
+<a id="textSummaryLanguages"></a>
+# **textSummaryLanguages**
+> ContentGenerationTextSummaryLanguagesResponseInfo textSummaryLanguages()
 
 
 ### Example
@@ -589,7 +553,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.contentGenerationTextSummaryLanguages();
+ let response = await api.textSummaryLanguages();
 ```
 
 ### Parameters

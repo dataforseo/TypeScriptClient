@@ -1,5 +1,5 @@
 import { RatingInfo, IRatingInfo } from "./RatingInfo";
-import { PriceInfo, IPriceInfo } from "./PriceInfo";
+import { Price, IPrice } from "./Price";
 
 
 export interface IAiOverviewShoppingElement   {
@@ -24,7 +24,7 @@ the popularity rate based on reviews and displayed in SERP */
         
         /** pricing details
 contains the pricing details of the product or service featured in the result */
-        price?: PriceInfo | undefined
+        price?: Price | undefined
         
         /** seller of the product */
         seller?: string | undefined
@@ -78,7 +78,7 @@ the popularity rate based on reviews and displayed in SERP */
     /** pricing details
 contains the pricing details of the product or service featured in the result */
 
-    price?: PriceInfo | undefined;
+    price?: Price | undefined;
     
     /** seller of the product */
 
@@ -131,7 +131,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
             this.url = data["url"];
             this.domain = data["domain"];
             this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
-            this.price = data["price"] ? PriceInfo.fromJS(data["price"]) : <any>undefined;
+            this.price = data["price"] ? Price.fromJS(data["price"]) : <any>undefined;
             this.seller = data["seller"];
             this.snippet = data["snippet"];
             this.marketplace = data["marketplace"];
@@ -160,7 +160,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
         data["url"] = this.url;
         data["domain"] = this.domain;
         data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
-        data["price"] = this.price ? PriceInfo.fromJS(this.price)?.toJSON() : <any>undefined;
+        data["price"] = this.price ? Price.fromJS(this.price)?.toJSON() : <any>undefined;
         data["seller"] = this.seller;
         data["snippet"] = this.snippet;
         data["marketplace"] = this.marketplace;

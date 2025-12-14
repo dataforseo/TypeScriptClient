@@ -37,7 +37,7 @@ export class ContentGenerationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -72,7 +72,7 @@ export class ContentGenerationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -107,7 +107,7 @@ export class ContentGenerationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -142,7 +142,7 @@ export class ContentGenerationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -177,7 +177,7 @@ export class ContentGenerationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -212,7 +212,7 @@ export class ContentGenerationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -237,23 +237,23 @@ export class ContentGenerationApi {
         }
         return Promise.resolve<ContentGenerationCheckGrammarLiveResponseInfo | null>(null as any);
     }
-    contentGenerationCheckGrammarLanguages(): Promise<ContentGenerationCheckGrammarLanguagesResponseInfo | null> {
+    checkGrammarLanguages(): Promise<ContentGenerationCheckGrammarLanguagesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/content_generation/check_grammar/languages";
         url_ = url_.replace(/[?&]$/, "");
         let options_: RequestInit = {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
         return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processContentGenerationCheckGrammarLanguages(_response);
+            return this.processCheckGrammarLanguages(_response);
         });
     }
 
-    protected processContentGenerationCheckGrammarLanguages(response: Response): Promise<ContentGenerationCheckGrammarLanguagesResponseInfo | null> {
+    protected processCheckGrammarLanguages(response: Response): Promise<ContentGenerationCheckGrammarLanguagesResponseInfo | null> {
         const status = response.status;
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
@@ -277,7 +277,7 @@ export class ContentGenerationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
@@ -313,7 +313,7 @@ export class ContentGenerationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -338,23 +338,23 @@ export class ContentGenerationApi {
         }
         return Promise.resolve<ContentGenerationTextSummaryLiveResponseInfo | null>(null as any);
     }
-    contentGenerationTextSummaryLanguages(): Promise<ContentGenerationTextSummaryLanguagesResponseInfo | null> {
+    textSummaryLanguages(): Promise<ContentGenerationTextSummaryLanguagesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/content_generation/text_summary/languages";
         url_ = url_.replace(/[?&]$/, "");
         let options_: RequestInit = {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
         return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processContentGenerationTextSummaryLanguages(_response);
+            return this.processTextSummaryLanguages(_response);
         });
     }
 
-    protected processContentGenerationTextSummaryLanguages(response: Response): Promise<ContentGenerationTextSummaryLanguagesResponseInfo | null> {
+    protected processTextSummaryLanguages(response: Response): Promise<ContentGenerationTextSummaryLanguagesResponseInfo | null> {
         const status = response.status;
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {

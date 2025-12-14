@@ -64,7 +64,7 @@ default value:  monthly */
         
         /** starting date of the time range
 optional field
-minimum value: two years back from today’s date
+minimum value: 24 months back from today’s date
 maximum value: one day from today’s date
 date format: 'yyyy-mm-dd'
 example:
@@ -175,7 +175,7 @@ default value:  monthly */
     
     /** starting date of the time range
 optional field
-minimum value: two years back from today’s date
+minimum value: 24 months back from today’s date
 maximum value: one day from today’s date
 date format: 'yyyy-mm-dd'
 example:

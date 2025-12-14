@@ -57,11 +57,6 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new BacklinksIdListRequestInfo();
-   task.datetime_from = "2025-08-22 08:09:01 +00:00";
-   task.datetime_to = "2025-10-22 08:09:01 +00:00";
-   task.limit = 100;
-   task.offset = 0;
-   task.sort = "desc";
  let response = await api.backlinksIdList([task]);
 ```
 
@@ -119,9 +114,6 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new BacklinksErrorsRequestInfo();
-   task.limit = 10;
-   task.offset = 0;
-   task.filtered_function = "backlinks/content_duplicates";
  let response = await api.backlinksErrors([task]);
 ```
 
@@ -291,10 +283,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new BacklinksSummaryLiveRequestInfo();
-   task.target = "explodingtopics.com";
-   task.include_subdomains = true;
-   task.internal_list_limit = 10;
-   task.backlinks_status_type = "all";
  let response = await api.summaryLive([task]);
 ```
 
@@ -352,9 +340,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new BacklinksHistoryLiveRequestInfo();
-   task.target = "cnn.com";
-   task.date_from = "2025-08-22";
-   task.date_to = "2025-10-22";
  let response = await api.historyLive([task]);
 ```
 
@@ -412,9 +397,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new BacklinksBacklinksLiveRequestInfo();
-   task.target = "forbes.com";
-   task.mode = "as_is";
-   task.limit = 5;
  let response = await api.backlinksLive([task]);
 ```
 
@@ -472,8 +454,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new BacklinksAnchorsLiveRequestInfo();
-   task.target = "forbes.com";
-   task.limit = 4;
  let response = await api.anchorsLive([task]);
 ```
 
@@ -531,8 +511,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new BacklinksDomainPagesLiveRequestInfo();
-   task.target = "forbes.com";
-   task.limit = 5;
  let response = await api.domainPagesLive([task]);
 ```
 
@@ -590,8 +568,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new BacklinksDomainPagesSummaryLiveRequestInfo();
-   task.target = "forbes.com";
-   task.limit = 4;
  let response = await api.domainPagesSummaryLive([task]);
 ```
 
@@ -649,9 +625,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new BacklinksReferringDomainsLiveRequestInfo();
-   task.target = "backlinko.com";
-   task.limit = 5;
-   task.exclude_internal_backlinks = true;
  let response = await api.referringDomainsLive([task]);
 ```
 
@@ -709,10 +682,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new BacklinksReferringNetworksLiveRequestInfo();
-   task.target = "backlinko.com";
-   task.network_address_type = "subnet";
-   task.limit = 5;
-   task.exclude_internal_backlinks = true;
  let response = await api.referringNetworksLive([task]);
 ```
 
@@ -770,8 +739,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new BacklinksCompetitorsLiveRequestInfo();
-   task.target = "dataforseo.com";
-   task.limit = 5;
  let response = await api.competitorsLive([task]);
 ```
 
@@ -829,16 +796,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new BacklinksDomainIntersectionLiveRequestInfo();
-   task.targets = {
-       1: "moz.com",
-       2: "ahrefs.com",
-   };
-   task.exclude_targets = [
-       "semrush.com",
-   ];
-   task.limit = 5;
-   task.include_subdomains = false;
-   task.exclude_internal_backlinks = true;
  let response = await api.domainIntersectionLive([task]);
 ```
 
@@ -896,14 +853,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new BacklinksPageIntersectionLiveRequestInfo();
-   task.targets = {
-       1: "football.com",
-       2: "fifa.com",
-   };
-   task.exclude_targets = [
-       "skysports.com",
-   ];
-   task.limit = 5;
  let response = await api.pageIntersectionLive([task]);
 ```
 
@@ -961,10 +910,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new BacklinksTimeseriesSummaryLiveRequestInfo();
-   task.target = "dataforseo.com";
-   task.date_from = "2025-08-22";
-   task.date_to = "2025-10-22";
-   task.group_range = "month";
  let response = await api.timeseriesSummaryLive([task]);
 ```
 
@@ -1022,10 +967,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new BacklinksTimeseriesNewLostSummaryLiveRequestInfo();
-   task.target = "dataforseo.com";
-   task.date_from = "2025-08-22";
-   task.date_to = "2025-10-22";
-   task.group_range = "month";
  let response = await api.timeseriesNewLostSummaryLive([task]);
 ```
 
@@ -1083,18 +1024,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new BacklinksBulkRanksLiveRequestInfo();
-   task.targets = [
-       "forbes.com",
-       "cnn.com",
-       "bbc.com",
-       "yelp.com",
-       "https://www.apple.com/iphone/",
-       "https://ahrefs.com/blog/",
-       "ibm.com",
-       "https://variety.com/",
-       "https://stackoverflow.com/",
-       "www.trustpilot.com",
-   ];
  let response = await api.bulkRanksLive([task]);
 ```
 
@@ -1152,18 +1081,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new BacklinksBulkBacklinksLiveRequestInfo();
-   task.targets = [
-       "forbes.com",
-       "cnn.com",
-       "bbc.com",
-       "yelp.com",
-       "https://www.apple.com/iphone/",
-       "https://ahrefs.com/blog/",
-       "ibm.com",
-       "https://variety.com/",
-       "https://stackoverflow.com/",
-       "www.trustpilot.com",
-   ];
  let response = await api.bulkBacklinksLive([task]);
 ```
 
@@ -1221,18 +1138,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new BacklinksBulkSpamScoreLiveRequestInfo();
-   task.targets = [
-       "forbes.com",
-       "cnn.com",
-       "bbc.com",
-       "yelp.com",
-       "https://www.apple.com/iphone/",
-       "https://ahrefs.com/blog/",
-       "ibm.com",
-       "https://variety.com/",
-       "https://stackoverflow.com/",
-       "www.trustpilot.com",
-   ];
  let response = await api.bulkSpamScoreLive([task]);
 ```
 
@@ -1290,18 +1195,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new BacklinksBulkReferringDomainsLiveRequestInfo();
-   task.targets = [
-       "forbes.com",
-       "cnn.com",
-       "bbc.com",
-       "yelp.com",
-       "https://www.apple.com/iphone/",
-       "https://ahrefs.com/blog/",
-       "ibm.com",
-       "https://variety.com/",
-       "https://stackoverflow.com/",
-       "www.trustpilot.com",
-   ];
  let response = await api.bulkReferringDomainsLive([task]);
 ```
 
@@ -1359,19 +1252,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new BacklinksBulkNewLostBacklinksLiveRequestInfo();
-   task.targets = [
-       "forbes.com",
-       "cnn.com",
-       "bbc.com",
-       "yelp.com",
-       "https://www.apple.com/iphone/",
-       "https://ahrefs.com/blog/",
-       "ibm.com",
-       "https://variety.com/",
-       "https://stackoverflow.com/",
-       "www.trustpilot.com",
-   ];
-   task.date_from = "2025-08-22";
  let response = await api.bulkNewLostBacklinksLive([task]);
 ```
 
@@ -1429,19 +1309,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new BacklinksBulkNewLostReferringDomainsLiveRequestInfo();
-   task.targets = [
-       "forbes.com",
-       "cnn.com",
-       "bbc.com",
-       "yelp.com",
-       "https://www.apple.com/iphone/",
-       "https://ahrefs.com/blog/",
-       "ibm.com",
-       "https://variety.com/",
-       "https://stackoverflow.com/",
-       "www.trustpilot.com",
-   ];
-   task.date_from = "2025-08-22";
  let response = await api.bulkNewLostReferringDomainsLive([task]);
 ```
 
@@ -1499,10 +1366,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new BacklinksBulkPagesSummaryLiveRequestInfo();
-   task.targets = [
-       "https://dataforseo.com/solutions",
-       "https://dataforseo.com/about-us",
-   ];
  let response = await api.bulkPagesSummaryLive([task]);
 ```
 

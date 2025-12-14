@@ -42,7 +42,11 @@ Bulgarian, bg,
 Croatian, hr,
 Serbian, sr,
 Slovenian, sl,
-Bosnian, bs
+Bosnian, bs,
+Greek, el,
+Hungarian, hu,
+Slovakian, sk,
+Turkish, tr
 example:
 English */
         language_name?: string | undefined
@@ -111,7 +115,11 @@ Bulgarian, bg,
 Croatian, hr,
 Serbian, sr,
 Slovenian, sl,
-Bosnian, bs
+Bosnian, bs,
+Greek, el,
+Hungarian, hu,
+Slovakian, sk,
+Turkish, tr
 example:
 English */
 

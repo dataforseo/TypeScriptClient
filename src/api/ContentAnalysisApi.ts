@@ -38,7 +38,7 @@ export class ContentAnalysisApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -70,7 +70,7 @@ export class ContentAnalysisApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
@@ -96,23 +96,23 @@ export class ContentAnalysisApi {
         }
         return Promise.resolve<ContentAnalysisAvailableFiltersResponseInfo | null>(null as any);
     }
-    contentAnalysisLocations(): Promise<ContentAnalysisLocationsResponseInfo | null> {
+    locations(): Promise<ContentAnalysisLocationsResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/content_analysis/locations";
         url_ = url_.replace(/[?&]$/, "");
         let options_: RequestInit = {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
         return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processContentAnalysisLocations(_response);
+            return this.processLocations(_response);
         });
     }
 
-    protected processContentAnalysisLocations(response: Response): Promise<ContentAnalysisLocationsResponseInfo | null> {
+    protected processLocations(response: Response): Promise<ContentAnalysisLocationsResponseInfo | null> {
         const status = response.status;
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
@@ -129,23 +129,23 @@ export class ContentAnalysisApi {
         }
         return Promise.resolve<ContentAnalysisLocationsResponseInfo | null>(null as any);
     }
-    contentAnalysisLanguages(): Promise<ContentAnalysisLanguagesResponseInfo | null> {
+    languages(): Promise<ContentAnalysisLanguagesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/content_analysis/languages";
         url_ = url_.replace(/[?&]$/, "");
         let options_: RequestInit = {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
         return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processContentAnalysisLanguages(_response);
+            return this.processLanguages(_response);
         });
     }
 
-    protected processContentAnalysisLanguages(response: Response): Promise<ContentAnalysisLanguagesResponseInfo | null> {
+    protected processLanguages(response: Response): Promise<ContentAnalysisLanguagesResponseInfo | null> {
         const status = response.status;
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
@@ -169,7 +169,7 @@ export class ContentAnalysisApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
@@ -205,7 +205,7 @@ export class ContentAnalysisApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -240,7 +240,7 @@ export class ContentAnalysisApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -275,7 +275,7 @@ export class ContentAnalysisApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -310,7 +310,7 @@ export class ContentAnalysisApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -345,7 +345,7 @@ export class ContentAnalysisApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -380,7 +380,7 @@ export class ContentAnalysisApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {

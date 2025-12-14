@@ -1,6 +1,7 @@
 import { Sources, ISources } from "./Sources";
 import { SearchResults, ISearchResults } from "./SearchResults";
 import { MonthlySearchesInfo, IMonthlySearchesInfo } from "./MonthlySearchesInfo";
+import { BrandEntities, IBrandEntities } from "./BrandEntities";
 
 
 export interface IAiOptimizationLlmMentionsSearchLiveItem   {
@@ -34,6 +35,26 @@ learn more about this metric here */
         ai_search_volume?: number | undefined
         
         monthly_searches?: MonthlySearchesInfo[] | undefined
+        
+        /** date and time when the response data was first recorded
+in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
+example:
+2025-10-21 06:25:30 +00:00 */
+        first_response_at?: string | undefined
+        
+        /** date and time when the response data was last updated
+in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
+example:
+2025-10-21 06:25:30 +00:00 */
+        last_response_at?: string | undefined
+        
+        /** array of brand entities
+contains information on brands mentioned in the response */
+        brand_entities?: BrandEntities[] | undefined
+        
+        /** array of fan-out queries
+contains related search queries derived from the main query to provide a more comprehensive response */
+        fan_out_queries?: string[] | undefined
 
     [key: string]: any;
 
@@ -78,6 +99,30 @@ learn more about this metric here */
     ai_search_volume?: number | undefined;
 
     monthly_searches?: MonthlySearchesInfo[] | undefined;
+    
+    /** date and time when the response data was first recorded
+in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
+example:
+2025-10-21 06:25:30 +00:00 */
+
+    first_response_at?: string | undefined;
+    
+    /** date and time when the response data was last updated
+in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
+example:
+2025-10-21 06:25:30 +00:00 */
+
+    last_response_at?: string | undefined;
+    
+    /** array of brand entities
+contains information on brands mentioned in the response */
+
+    brand_entities?: BrandEntities[] | undefined;
+    
+    /** array of fan-out queries
+contains related search queries derived from the main query to provide a more comprehensive response */
+
+    fan_out_queries?: string[] | undefined;
 
     [key: string]: any;
 
@@ -123,6 +168,15 @@ learn more about this metric here */
                     this.monthly_searches.push(MonthlySearchesInfo.fromJS(item));
                 }
             }
+            this.first_response_at = data["first_response_at"];
+            this.last_response_at = data["last_response_at"];
+            if (Array.isArray(data["brand_entities"])) {
+                this.brand_entities = [];
+                for (let item of data["brand_entities"]) {
+                    this.brand_entities.push(BrandEntities.fromJS(item));
+                }
+            }
+            this.fan_out_queries = data["fan_out_queries"];
         }
     }
 
@@ -173,6 +227,18 @@ learn more about this metric here */
                 }
             }
         }
+        data["first_response_at"] = this.first_response_at;
+        data["last_response_at"] = this.last_response_at;
+        data["brand_entities"] = null;
+        if (Array.isArray(this.brand_entities)) {
+            data["brand_entities"] = [];
+            for (let item of this.brand_entities) {
+                if (item && typeof item.toJSON === "function") {
+                    data["brand_entities"].push(item?.toJSON());
+                }
+            }
+        }
+        data["fan_out_queries"] = this.fan_out_queries;
         return data;
     }
 }

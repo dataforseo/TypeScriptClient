@@ -2,6 +2,7 @@ import { RatingElement, IRatingElement } from "./RatingElement";
 import { DeliveryInfo, IDeliveryInfo } from "./DeliveryInfo";
 import { StoresCountInfo, IStoresCountInfo } from "./StoresCountInfo";
 import { GoogleShoppingSponsoredCarouselElement, IGoogleShoppingSponsoredCarouselElement } from "./GoogleShoppingSponsoredCarouselElement";
+import { GoogleShoppingCarouselElement, IGoogleShoppingCarouselElement } from "./GoogleShoppingCarouselElement";
 
 
 export interface IBaseMerchantGoogleShoppingProductsElementItem   {
@@ -108,6 +109,12 @@ left, right */
             result.init(data);
             return result;
         }
+        if (data["type"] === "google_shopping_carousel") {
+
+            let result = new GoogleShoppingCarouselElementItem();
+            result.init(data);
+            return result;
+        }
         if (data["type"] === "related_searches") {
 
             let result = new RelatedSearchesElementItem();
@@ -138,7 +145,8 @@ left, right */
 export interface IGoogleShoppingSerpElementItem  extends IBaseMerchantGoogleShoppingProductsElementItem    {
         
         /** domain of the URL
-domain of the URL where a special offer is posted */
+domain of the URL where a special offer is posted
+Note: this field is deprecated and will return null */
         domain?: string | undefined
         
         /** title of the element */
@@ -148,7 +156,8 @@ domain of the URL where a special offer is posted */
         description?: string | undefined
         
         /** URL pointing at special offer page
-URL where a special offer is posted */
+URL where a special offer is posted
+Note: this field is deprecated and will return null */
         url?: string | undefined
         
         /** URL to the product page on Google Shopping */
@@ -248,7 +257,8 @@ contains information about the number of stores that offer the same product */
 export class GoogleShoppingSerpElementItem  extends BaseMerchantGoogleShoppingProductsElementItem   implements IGoogleShoppingSerpElementItem {
     
     /** domain of the URL
-domain of the URL where a special offer is posted */
+domain of the URL where a special offer is posted
+Note: this field is deprecated and will return null */
 
     domain?: string | undefined;
     
@@ -261,7 +271,8 @@ domain of the URL where a special offer is posted */
     description?: string | undefined;
     
     /** URL pointing at special offer page
-URL where a special offer is posted */
+URL where a special offer is posted
+Note: this field is deprecated and will return null */
 
     url?: string | undefined;
     
@@ -461,7 +472,9 @@ contains information about the number of stores that offer the same product */
  
 export interface IGoogleShoppingPaidElementItem  extends IBaseMerchantGoogleShoppingProductsElementItem    {
         
-        /** domain in SERP */
+        /** domain of the URL
+domain of the URL where a special offer is posted
+Note: this field is deprecated and will return null */
         domain?: string | undefined
         
         /** product title */
@@ -470,7 +483,9 @@ export interface IGoogleShoppingPaidElementItem  extends IBaseMerchantGoogleShop
         /** description of the product in Google Shopping SERP */
         description?: string | undefined
         
-        /** URL to the product page on the seller’s website */
+        /** URL pointing at special offer page
+URL where a special offer is posted
+Note: this field is deprecated and will return null */
         url?: string | undefined
         
         /** unique ad click referral parameter
@@ -483,7 +498,9 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 export class GoogleShoppingPaidElementItem  extends BaseMerchantGoogleShoppingProductsElementItem   implements IGoogleShoppingPaidElementItem {
     
-    /** domain in SERP */
+    /** domain of the URL
+domain of the URL where a special offer is posted
+Note: this field is deprecated and will return null */
 
     domain?: string | undefined;
     
@@ -495,7 +512,9 @@ export class GoogleShoppingPaidElementItem  extends BaseMerchantGoogleShoppingPr
 
     description?: string | undefined;
     
-    /** URL to the product page on the seller’s website */
+    /** URL pointing at special offer page
+URL where a special offer is posted
+Note: this field is deprecated and will return null */
 
     url?: string | undefined;
     
@@ -605,6 +624,86 @@ export class GoogleShoppingSponsoredCarouselElementItem  extends BaseMerchantGoo
 
 
         let result = new GoogleShoppingSponsoredCarouselElementItem();
+        result.init(data);
+        return result;
+    }
+
+    toJSON(data?: any) {
+        data = typeof data === 'object' ? data : {};
+
+         
+        super.toJSON(data);
+        
+        
+        data["title"] = this.title;
+        data["items"] = null;
+        if (Array.isArray(this.items)) {
+            data["items"] = [];
+            for (let item of this.items) {
+                if (item && typeof item.toJSON === "function") {
+                    data["items"].push(item?.toJSON());
+                }
+            }
+        }
+        return data;
+    }
+}
+
+ 
+export interface IGoogleShoppingCarouselElementItem  extends IBaseMerchantGoogleShoppingProductsElementItem    {
+        
+        /** title of the special offer */
+        title?: string | undefined
+        
+        /** additional items present in the element
+if there are none, equals null */
+        items?: GoogleShoppingCarouselElement[] | undefined
+
+    [key: string]: any;
+
+    }
+
+export class GoogleShoppingCarouselElementItem  extends BaseMerchantGoogleShoppingProductsElementItem   implements IGoogleShoppingCarouselElementItem {
+    
+    /** title of the special offer */
+
+    title?: string | undefined;
+    
+    /** additional items present in the element
+if there are none, equals null */
+
+    items?: GoogleShoppingCarouselElement[] | undefined;
+
+    [key: string]: any;
+
+
+    constructor(data?: IGoogleShoppingCarouselElementItem) {
+    super(data);
+
+    }
+
+    init(data?: any) {
+        super.init(data);
+        if (data) {
+            for (var property in data) {
+                if (data.hasOwnProperty(property))
+                    this[property] = data[property];
+            }
+            this.title = data["title"];
+            if (Array.isArray(data["items"])) {
+                this.items = [];
+                for (let item of data["items"]) {
+                    this.items.push(GoogleShoppingCarouselElement.fromJS(item));
+                }
+            }
+        }
+    }
+
+    static fromJS(data: any): GoogleShoppingCarouselElementItem {
+        data = typeof data === 'object' ? data : {};
+
+
+        let result = new GoogleShoppingCarouselElementItem();
         result.init(data);
         return result;
     }

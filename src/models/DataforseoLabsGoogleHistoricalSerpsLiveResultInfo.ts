@@ -3,7 +3,7 @@ import { DataforseoLabsGoogleHistoricalSerpsLiveItem, IDataforseoLabsGoogleHisto
 
 export interface IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo   {
         
-        /** search engine type */
+        /** search engine type in a POST array */
         se_type?: string | undefined
         
         /** keyword received in a POST array
@@ -16,13 +16,14 @@ the keyword is returned with decoded %## (plus character ‘+’ will be decoded
         /** language code in a POST array */
         language_code?: string | undefined
         
-        /** the number of results returned in the items array */
+        /** the total amount of results in our database relevant to your request */
         total_count?: number | undefined
         
         /** the number of results returned in the items array */
         items_count?: number | undefined
         
-        /** contains arrays of specific images */
+        /** additional items present in the element
+if there are none, equals null */
         items?: DataforseoLabsGoogleHistoricalSerpsLiveItem[] | undefined
 
     [key: string]: any;
@@ -31,7 +32,7 @@ the keyword is returned with decoded %## (plus character ‘+’ will be decoded
 
 export class DataforseoLabsGoogleHistoricalSerpsLiveResultInfo  implements IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo {
     
-    /** search engine type */
+    /** search engine type in a POST array */
 
     se_type?: string | undefined;
     
@@ -48,7 +49,7 @@ the keyword is returned with decoded %## (plus character ‘+’ will be decoded
 
     language_code?: string | undefined;
     
-    /** the number of results returned in the items array */
+    /** the total amount of results in our database relevant to your request */
 
     total_count?: number | undefined;
     
@@ -56,7 +57,8 @@ the keyword is returned with decoded %## (plus character ‘+’ will be decoded
 
     items_count?: number | undefined;
     
-    /** contains arrays of specific images */
+    /** additional items present in the element
+if there are none, equals null */
 
     items?: DataforseoLabsGoogleHistoricalSerpsLiveItem[] | undefined;
 

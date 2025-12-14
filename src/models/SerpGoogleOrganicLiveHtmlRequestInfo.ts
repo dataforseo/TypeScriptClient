@@ -3,87 +3,31 @@ import { SerpApiStopCrawlOnMatchInfo, ISerpApiStopCrawlOnMatchInfo } from "./Ser
 
 export interface ISerpGoogleOrganicLiveHtmlRequestInfo   {
         
-        /** direct URL of the search query
-optional field
-you can specify a direct URL and we will sort it out to the necessary fields. Note that this method is the most difficult for our API to process and also requires you to specify the exact language and location in the URL. In most cases, we wouldn’t recommend using this method.
-example:
-https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAIQIFISCXXeIa8LoNhHEZkq1d1aOpZS */
-        url?: string | undefined
-        
         /** keyword
 required field
 you can specify up to 700 characters in the keyword field
-all %## will be decoded (plus character ‘+’ will be decoded to a space character)
-if you need to use the “%” character for your keyword, please specify it as “%25”;
+all %## will be decoded (plus character '+' will be decoded to a space character)
+if you need to use the '%' character for your keyword, please specify it as '%25';
 if you need to use the “+” character for your keyword, please specify it as “%2B”;
-if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’, the charge per task will be multiplied by 5
+if this field contains such parameters as 'allinanchor:', 'allintext:', 'allintitle:', 'allinurl:', 'define:', 'filetype:', 'id:', 'inanchor:', 'info:', 'intext:', 'intitle:', 'inurl:', 'link:', 'related:', 'site:', the charge per task will be multiplied by 5
 Note: queries containing the ‘cache:’ parameter are not supported and will return a validation error */
         keyword?: string | undefined
         
-        /** full name of search engine location
-required field if you don’t specify location_code or location_coordinate
-if you use this field, you don’t need to specify location_code or location_coordinate
-you can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/serp/google/locations
-example:
-London,England,United Kingdom */
-        location_name?: string | undefined
-        
         /** search engine location code
-required field if you don’t specify location_name or location_coordinate
-if you use this field, you don’t need to specify location_name or location_coordinate
-you can receive the list of available locations of the search engines with their location_code by making a separate request to the https://api.dataforseo.com/v3/serp/google/locations
+required field if you don't specify location_name or location_coordinate
+if you use this field, you don't need to specify location_name or location_coordinate
+you can receive the list of available locations of the search engines with their location_code by making a separate request to the https://api.dataforseo.com/v3/serp/{{low_se_name}}/locations
 example:
 2840 */
         location_code?: number | undefined
         
-        /** GPS coordinates of a location
-required field if you don’t specify location_name or location_code
-if you use this field, you don’t need to specify location_name or location_code
-location_coordinate parameter should be specified in the “latitude,longitude,radius” format
-the maximum number of decimal digits for “latitude” and “longitude”: 7
-the minimum value for “radius”: 199.9 (mm)
-the maximum value for “radius”: 199999 (mm)
-example:
-53.476225,-2.243572,200 */
-        location_coordinate?: string | undefined
-        
-        /** full name of search engine language
-required field if you don’t specify language_code
-if you use this field, you don’t need to specify language_code
-you can receive the list of available languages of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/serp/google/languages
-example:
-English */
-        language_name?: string | undefined
-        
         /** search engine language code
-required field if you don’t specify language_name
-if you use this field, you don’t need to specify language_name
-you can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/serp/google/languages
+required field if you don't specify language_name
+if you use this field, you don't need to specify language_name
+you can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/serp/{{low_se_name}}/languages
 example:
 en */
         language_code?: string | undefined
-        
-        /** device type
-optional field
-can take the values:desktop, mobile
-default value: desktop */
-        device?: string | undefined
-        
-        /** device operating system
-optional field
-if you specify desktop in the device field, choose from the following values: windows, macos
-default value: windows
-if you specify mobile in the device field, choose from the following values: android, ios
-default value: android */
-        os?: string | undefined
-        
-        /** search engine domain
-optional field
-we choose the relevant search engine domain automatically according to the location and language you specify
-however, you can set a custom search engine domain in this field
-example:
-google.co.uk, google.com.au, google.de, etc. */
-        se_domain?: string | undefined
         
         /** parsing depth
 optional field
@@ -94,6 +38,75 @@ Your account will be billed per each SERP containing up to 10 results;
 Setting depth above 10 may result in additional charges if the search engine returns more than 10 results;
 The cost can be calculated on the Pricing page. */
         depth?: number | undefined
+        
+        /** device type
+optional field
+can take the values:desktop, mobile
+default value: desktop */
+        device?: string | undefined
+        
+        /** load asynchronous ai overview
+optional field
+set to true to obtain ai_overview items is SERPs even if they are loaded asynchronously;
+if set to false, you will only obtain ai_overview items from cache;
+default value: false
+Note your account will be billed $0.002 extra for each request;
+if the element is absent or contains 'asynchronous_ai_overview': false, all extra charges will be returned to your account balance */
+        load_async_ai_overview?: boolean | undefined
+        
+        /** full name of search engine location
+required field if you don't specify location_code or location_coordinate
+if you use this field, you don't need to specify location_code or location_coordinate
+you can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/serp/{{low_se_name}}/locations
+example:
+London,England,United Kingdom */
+        location_name?: string | undefined
+        
+        /** full name of search engine language
+required field if you don't specify language_code
+if you use this field, you don't need to specify language_code
+you can receive the list of available languages of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/serp/{{low_se_name}}/languages
+example:
+English */
+        language_name?: string | undefined
+        
+        /** device operating system
+optional field
+if you specify desktop in the device field, choose from the following values: windows, macos
+default value: windows
+if you specify mobile in the device field, choose from the following values: android, ios
+default value: android */
+        os?: string | undefined
+        
+        /** user-defined task identifier
+optional field
+the character limit is 255
+you can use this parameter to identify the task and match it with the result
+you will find the specified tag value in the data object of the response */
+        tag?: string | undefined
+        
+        /** array of targets to stop crawling
+optional field
+if specified, the response will contain SERP results up to and including the specified match_value;
+you can specify up to 10 target values in this array
+example:
+'stop_crawl_on_match':[{'match_value':'dataforseo.com','match_type':'with_subdomains'}]
+learn more about this parameter on our Help Center - https://dataforseo.com/help-center/using-the-stop_crawl_on_match-parameter-in-serp-api
+Your account will be billed per each SERP crawled through the specified targets */
+        stop_crawl_on_match?: SerpApiStopCrawlOnMatchInfo[] | undefined
+        
+        /** target match type
+optional field
+type of match for the match_value
+possible values: domain, with_subdomains, wildcard */
+        match_type?: string | undefined
+        
+        /** target domain or wildcard value
+optional field
+specify a target domain or wildcard value;
+Note: domain name must be specified without a request protocol;
+example: dataforseo.com */
+        match_value?: string | undefined
         
         /** page crawl limit
 optional field
@@ -110,43 +123,37 @@ optional field
 get the list of available parameters and additional details here */
         search_param?: string | undefined
         
-        /** load asynchronous ai overview
-optional field
-set to true to obtain ai_overview items is SERPs even if they are loaded asynchronously;
-if set to false, you will only obtain ai_overview items from cache;
-default value: false
-Note your account will be billed $0.002 extra for each request;
-if the element is absent or contains 'asynchronous_ai_overview': false, all extra charges will be returned to your account balance */
-        load_async_ai_overview?: boolean | undefined
-        
         /** expand ai overview
 optional field
 set to true to expand the ai_overview item;
 default value: false */
         expand_ai_overview?: boolean | undefined
         
-        /** array of targets to stop crawling
+        /** direct URL of the search query
 optional field
-if specified, the response will contain SERP results up to and including the specified match_value;
-you can specify up to 10 target values in this array
+you can specify a direct URL and we will sort it out to the necessary fields. Note that this method is the most difficult for our API to process and also requires you to specify the exact language and location in the URL. In most cases, we wouldn’t recommend using this method.
 example:
-'stop_crawl_on_match':[{'match_value':'dataforseo.com','match_type':'with_subdomains'}]
-learn more about this parameter on our Help Center - https://dataforseo.com/help-center/using-the-stop_crawl_on_match-parameter-in-serp-api
-Your account will be billed per each SERP crawled through the specified targets */
-        stop_crawl_on_match?: SerpApiStopCrawlOnMatchInfo[] | undefined
+https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAIQIFISCXXeIa8LoNhHEZkq1d1aOpZS */
+        url?: string | undefined
         
-        /** target domain or wildcard value
-required field if stop_crawl_on_match is specified;
-specify a target domain or wildcard value;
-Note: domain name must be specified without a request protocol;
-example: dataforseo.com */
-        match_value?: string | undefined
+        /** GPS coordinates of a location
+required field if you don't specify location_name or location_code
+if you use this field, you don't need to specify location_name or location_code
+location_coordinate parameter should be specified in the 'latitude,longitude,radius' format
+the maximum number of decimal digits for 'latitude' and 'longitude': 7
+the minimum value for 'radius': 199.9 (mm)
+the maximum value for 'radius': 199999 (mm)
+example:
+53.476225,-2.243572,200 */
+        location_coordinate?: string | undefined
         
-        /** target match type
-required field if stop_crawl_on_match is specified;
-type of match for the match_value
-possible values: domain, with_subdomains, wildcard */
-        match_type?: string | undefined
+        /** search engine domain
+optional field
+we choose the relevant search engine domain automatically according to the location and language you specify
+however, you can set a custom search engine domain in this field
+example:
+google.co.uk, google.com.au, google.de, etc. */
+        se_domain?: string | undefined
         
         /** target matching mode
 optional field
@@ -181,13 +188,6 @@ example:
 'ignore_targets_in': ['paid', 'images']
 learn more about this parameter on our Help Center */
         ignore_targets_in?: string[] | undefined
-        
-        /** user-defined task identifier
-optional field
-the character limit is 255
-you can use this parameter to identify the task and match it with the result
-you will find the specified tag value in the data object of the response */
-        tag?: string | undefined
 
     [key: string]: any;
 
@@ -195,97 +195,34 @@ you will find the specified tag value in the data object of the response */
 
 export class SerpGoogleOrganicLiveHtmlRequestInfo  implements ISerpGoogleOrganicLiveHtmlRequestInfo {
     
-    /** direct URL of the search query
-optional field
-you can specify a direct URL and we will sort it out to the necessary fields. Note that this method is the most difficult for our API to process and also requires you to specify the exact language and location in the URL. In most cases, we wouldn’t recommend using this method.
-example:
-https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAIQIFISCXXeIa8LoNhHEZkq1d1aOpZS */
-
-    url?: string | undefined;
-    
     /** keyword
 required field
 you can specify up to 700 characters in the keyword field
-all %## will be decoded (plus character ‘+’ will be decoded to a space character)
-if you need to use the “%” character for your keyword, please specify it as “%25”;
+all %## will be decoded (plus character '+' will be decoded to a space character)
+if you need to use the '%' character for your keyword, please specify it as '%25';
 if you need to use the “+” character for your keyword, please specify it as “%2B”;
-if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’, the charge per task will be multiplied by 5
+if this field contains such parameters as 'allinanchor:', 'allintext:', 'allintitle:', 'allinurl:', 'define:', 'filetype:', 'id:', 'inanchor:', 'info:', 'intext:', 'intitle:', 'inurl:', 'link:', 'related:', 'site:', the charge per task will be multiplied by 5
 Note: queries containing the ‘cache:’ parameter are not supported and will return a validation error */
 
     keyword?: string | undefined;
     
-    /** full name of search engine location
-required field if you don’t specify location_code or location_coordinate
-if you use this field, you don’t need to specify location_code or location_coordinate
-you can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/serp/google/locations
-example:
-London,England,United Kingdom */
-
-    location_name?: string | undefined;
-    
     /** search engine location code
-required field if you don’t specify location_name or location_coordinate
-if you use this field, you don’t need to specify location_name or location_coordinate
-you can receive the list of available locations of the search engines with their location_code by making a separate request to the https://api.dataforseo.com/v3/serp/google/locations
+required field if you don't specify location_name or location_coordinate
+if you use this field, you don't need to specify location_name or location_coordinate
+you can receive the list of available locations of the search engines with their location_code by making a separate request to the https://api.dataforseo.com/v3/serp/{{low_se_name}}/locations
 example:
 2840 */
 
     location_code?: number | undefined;
     
-    /** GPS coordinates of a location
-required field if you don’t specify location_name or location_code
-if you use this field, you don’t need to specify location_name or location_code
-location_coordinate parameter should be specified in the “latitude,longitude,radius” format
-the maximum number of decimal digits for “latitude” and “longitude”: 7
-the minimum value for “radius”: 199.9 (mm)
-the maximum value for “radius”: 199999 (mm)
-example:
-53.476225,-2.243572,200 */
-
-    location_coordinate?: string | undefined;
-    
-    /** full name of search engine language
-required field if you don’t specify language_code
-if you use this field, you don’t need to specify language_code
-you can receive the list of available languages of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/serp/google/languages
-example:
-English */
-
-    language_name?: string | undefined;
-    
     /** search engine language code
-required field if you don’t specify language_name
-if you use this field, you don’t need to specify language_name
-you can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/serp/google/languages
+required field if you don't specify language_name
+if you use this field, you don't need to specify language_name
+you can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/serp/{{low_se_name}}/languages
 example:
 en */
 
     language_code?: string | undefined;
-    
-    /** device type
-optional field
-can take the values:desktop, mobile
-default value: desktop */
-
-    device?: string | undefined;
-    
-    /** device operating system
-optional field
-if you specify desktop in the device field, choose from the following values: windows, macos
-default value: windows
-if you specify mobile in the device field, choose from the following values: android, ios
-default value: android */
-
-    os?: string | undefined;
-    
-    /** search engine domain
-optional field
-we choose the relevant search engine domain automatically according to the location and language you specify
-however, you can set a custom search engine domain in this field
-example:
-google.co.uk, google.com.au, google.de, etc. */
-
-    se_domain?: string | undefined;
     
     /** parsing depth
 optional field
@@ -297,6 +234,84 @@ Setting depth above 10 may result in additional charges if the search engine ret
 The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
+    
+    /** device type
+optional field
+can take the values:desktop, mobile
+default value: desktop */
+
+    device?: string | undefined;
+    
+    /** load asynchronous ai overview
+optional field
+set to true to obtain ai_overview items is SERPs even if they are loaded asynchronously;
+if set to false, you will only obtain ai_overview items from cache;
+default value: false
+Note your account will be billed $0.002 extra for each request;
+if the element is absent or contains 'asynchronous_ai_overview': false, all extra charges will be returned to your account balance */
+
+    load_async_ai_overview?: boolean | undefined;
+    
+    /** full name of search engine location
+required field if you don't specify location_code or location_coordinate
+if you use this field, you don't need to specify location_code or location_coordinate
+you can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/serp/{{low_se_name}}/locations
+example:
+London,England,United Kingdom */
+
+    location_name?: string | undefined;
+    
+    /** full name of search engine language
+required field if you don't specify language_code
+if you use this field, you don't need to specify language_code
+you can receive the list of available languages of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/serp/{{low_se_name}}/languages
+example:
+English */
+
+    language_name?: string | undefined;
+    
+    /** device operating system
+optional field
+if you specify desktop in the device field, choose from the following values: windows, macos
+default value: windows
+if you specify mobile in the device field, choose from the following values: android, ios
+default value: android */
+
+    os?: string | undefined;
+    
+    /** user-defined task identifier
+optional field
+the character limit is 255
+you can use this parameter to identify the task and match it with the result
+you will find the specified tag value in the data object of the response */
+
+    tag?: string | undefined;
+    
+    /** array of targets to stop crawling
+optional field
+if specified, the response will contain SERP results up to and including the specified match_value;
+you can specify up to 10 target values in this array
+example:
+'stop_crawl_on_match':[{'match_value':'dataforseo.com','match_type':'with_subdomains'}]
+learn more about this parameter on our Help Center - https://dataforseo.com/help-center/using-the-stop_crawl_on_match-parameter-in-serp-api
+Your account will be billed per each SERP crawled through the specified targets */
+
+    stop_crawl_on_match?: SerpApiStopCrawlOnMatchInfo[] | undefined;
+    
+    /** target match type
+optional field
+type of match for the match_value
+possible values: domain, with_subdomains, wildcard */
+
+    match_type?: string | undefined;
+    
+    /** target domain or wildcard value
+optional field
+specify a target domain or wildcard value;
+Note: domain name must be specified without a request protocol;
+example: dataforseo.com */
+
+    match_value?: string | undefined;
     
     /** page crawl limit
 optional field
@@ -315,16 +330,6 @@ get the list of available parameters and additional details here */
 
     search_param?: string | undefined;
     
-    /** load asynchronous ai overview
-optional field
-set to true to obtain ai_overview items is SERPs even if they are loaded asynchronously;
-if set to false, you will only obtain ai_overview items from cache;
-default value: false
-Note your account will be billed $0.002 extra for each request;
-if the element is absent or contains 'asynchronous_ai_overview': false, all extra charges will be returned to your account balance */
-
-    load_async_ai_overview?: boolean | undefined;
-    
     /** expand ai overview
 optional field
 set to true to expand the ai_overview item;
@@ -332,31 +337,34 @@ default value: false */
 
     expand_ai_overview?: boolean | undefined;
     
-    /** array of targets to stop crawling
+    /** direct URL of the search query
 optional field
-if specified, the response will contain SERP results up to and including the specified match_value;
-you can specify up to 10 target values in this array
+you can specify a direct URL and we will sort it out to the necessary fields. Note that this method is the most difficult for our API to process and also requires you to specify the exact language and location in the URL. In most cases, we wouldn’t recommend using this method.
 example:
-'stop_crawl_on_match':[{'match_value':'dataforseo.com','match_type':'with_subdomains'}]
-learn more about this parameter on our Help Center - https://dataforseo.com/help-center/using-the-stop_crawl_on_match-parameter-in-serp-api
-Your account will be billed per each SERP crawled through the specified targets */
+https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAIQIFISCXXeIa8LoNhHEZkq1d1aOpZS */
 
-    stop_crawl_on_match?: SerpApiStopCrawlOnMatchInfo[] | undefined;
+    url?: string | undefined;
     
-    /** target domain or wildcard value
-required field if stop_crawl_on_match is specified;
-specify a target domain or wildcard value;
-Note: domain name must be specified without a request protocol;
-example: dataforseo.com */
+    /** GPS coordinates of a location
+required field if you don't specify location_name or location_code
+if you use this field, you don't need to specify location_name or location_code
+location_coordinate parameter should be specified in the 'latitude,longitude,radius' format
+the maximum number of decimal digits for 'latitude' and 'longitude': 7
+the minimum value for 'radius': 199.9 (mm)
+the maximum value for 'radius': 199999 (mm)
+example:
+53.476225,-2.243572,200 */
 
-    match_value?: string | undefined;
+    location_coordinate?: string | undefined;
     
-    /** target match type
-required field if stop_crawl_on_match is specified;
-type of match for the match_value
-possible values: domain, with_subdomains, wildcard */
+    /** search engine domain
+optional field
+we choose the relevant search engine domain automatically according to the location and language you specify
+however, you can set a custom search engine domain in this field
+example:
+google.co.uk, google.com.au, google.de, etc. */
 
-    match_type?: string | undefined;
+    se_domain?: string | undefined;
     
     /** target matching mode
 optional field
@@ -394,14 +402,6 @@ example:
 learn more about this parameter on our Help Center */
 
     ignore_targets_in?: string[] | undefined;
-    
-    /** user-defined task identifier
-optional field
-the character limit is 255
-you can use this parameter to identify the task and match it with the result
-you will find the specified tag value in the data object of the response */
-
-    tag?: string | undefined;
 
     [key: string]: any;
 
@@ -423,33 +423,33 @@ you will find the specified tag value in the data object of the response */
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
-            this.url = data["url"];
             this.keyword = data["keyword"];
-            this.location_name = data["location_name"];
             this.location_code = data["location_code"];
-            this.location_coordinate = data["location_coordinate"];
-            this.language_name = data["language_name"];
             this.language_code = data["language_code"];
-            this.device = data["device"];
-            this.os = data["os"];
-            this.se_domain = data["se_domain"];
             this.depth = data["depth"];
-            this.max_crawl_pages = data["max_crawl_pages"];
-            this.search_param = data["search_param"];
+            this.device = data["device"];
             this.load_async_ai_overview = data["load_async_ai_overview"];
-            this.expand_ai_overview = data["expand_ai_overview"];
+            this.location_name = data["location_name"];
+            this.language_name = data["language_name"];
+            this.os = data["os"];
+            this.tag = data["tag"];
             if (Array.isArray(data["stop_crawl_on_match"])) {
                 this.stop_crawl_on_match = [];
                 for (let item of data["stop_crawl_on_match"]) {
                     this.stop_crawl_on_match.push(SerpApiStopCrawlOnMatchInfo.fromJS(item));
                 }
             }
-            this.match_value = data["match_value"];
             this.match_type = data["match_type"];
+            this.match_value = data["match_value"];
+            this.max_crawl_pages = data["max_crawl_pages"];
+            this.search_param = data["search_param"];
+            this.expand_ai_overview = data["expand_ai_overview"];
+            this.url = data["url"];
+            this.location_coordinate = data["location_coordinate"];
+            this.se_domain = data["se_domain"];
             this.target_search_mode = data["target_search_mode"];
             this.find_targets_in = data["find_targets_in"];
             this.ignore_targets_in = data["ignore_targets_in"];
-            this.tag = data["tag"];
         }
     }
 
@@ -467,21 +467,16 @@ you will find the specified tag value in the data object of the response */
 
         
         
-        data["url"] = this.url;
         data["keyword"] = this.keyword;
-        data["location_name"] = this.location_name;
         data["location_code"] = this.location_code;
-        data["location_coordinate"] = this.location_coordinate;
-        data["language_name"] = this.language_name;
         data["language_code"] = this.language_code;
-        data["device"] = this.device;
-        data["os"] = this.os;
-        data["se_domain"] = this.se_domain;
         data["depth"] = this.depth;
-        data["max_crawl_pages"] = this.max_crawl_pages;
-        data["search_param"] = this.search_param;
+        data["device"] = this.device;
         data["load_async_ai_overview"] = this.load_async_ai_overview;
-        data["expand_ai_overview"] = this.expand_ai_overview;
+        data["location_name"] = this.location_name;
+        data["language_name"] = this.language_name;
+        data["os"] = this.os;
+        data["tag"] = this.tag;
         data["stop_crawl_on_match"] = null;
         if (Array.isArray(this.stop_crawl_on_match)) {
             data["stop_crawl_on_match"] = [];
@@ -491,12 +486,17 @@ you will find the specified tag value in the data object of the response */
                 }
             }
         }
-        data["match_value"] = this.match_value;
         data["match_type"] = this.match_type;
+        data["match_value"] = this.match_value;
+        data["max_crawl_pages"] = this.max_crawl_pages;
+        data["search_param"] = this.search_param;
+        data["expand_ai_overview"] = this.expand_ai_overview;
+        data["url"] = this.url;
+        data["location_coordinate"] = this.location_coordinate;
+        data["se_domain"] = this.se_domain;
         data["target_search_mode"] = this.target_search_mode;
         data["find_targets_in"] = this.find_targets_in;
         data["ignore_targets_in"] = this.ignore_targets_in;
-        data["tag"] = this.tag;
         return data;
     }
 }

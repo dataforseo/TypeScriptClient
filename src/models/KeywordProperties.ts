@@ -28,6 +28,10 @@ indicates the language of the keyword as identified by our system */
         /** detected language of the keyword is different from the set language
 if true, the language set in the request does not match the language determined by our system for a given keyword */
         is_another_language?: boolean | undefined
+        
+        /** number of words in the keyword
+indicates how many words the keyword consists of */
+        words_count?: number | undefined
 
     [key: string]: any;
 
@@ -69,6 +73,11 @@ indicates the language of the keyword as identified by our system */
 if true, the language set in the request does not match the language determined by our system for a given keyword */
 
     is_another_language?: boolean | undefined;
+    
+    /** number of words in the keyword
+indicates how many words the keyword consists of */
+
+    words_count?: number | undefined;
 
     [key: string]: any;
 
@@ -96,6 +105,7 @@ if true, the language set in the request does not match the language determined 
             this.keyword_difficulty = data["keyword_difficulty"];
             this.detected_language = data["detected_language"];
             this.is_another_language = data["is_another_language"];
+            this.words_count = data["words_count"];
         }
     }
 
@@ -119,6 +129,7 @@ if true, the language set in the request does not match the language determined 
         data["keyword_difficulty"] = this.keyword_difficulty;
         data["detected_language"] = this.detected_language;
         data["is_another_language"] = this.is_another_language;
+        data["words_count"] = this.words_count;
         return data;
     }
 }

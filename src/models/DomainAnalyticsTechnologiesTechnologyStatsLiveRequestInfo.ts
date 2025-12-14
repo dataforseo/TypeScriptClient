@@ -9,7 +9,7 @@ example:
         
         /** starting date of the time range
 optional field
-minimum value 2022-10-31
+minimum value: 2022-10-31
 if you don’t specify this field, the minimum value will be used by default
 date format: 'yyyy-mm-dd'
 example:
@@ -47,7 +47,7 @@ example:
     
     /** starting date of the time range
 optional field
-minimum value 2022-10-31
+minimum value: 2022-10-31
 if you don’t specify this field, the minimum value will be used by default
 date format: 'yyyy-mm-dd'
 example:

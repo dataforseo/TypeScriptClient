@@ -7,9 +7,9 @@ All URIs are relative to *https://api.dataforseo.com*
 [**keywordsDataIdList**](KeywordsDataApi.md#keywordsDataIdList) | **POST**  /v3/keywords_data/id_list  |
 [**keywordsDataErrors**](KeywordsDataApi.md#keywordsDataErrors) | **POST**  /v3/keywords_data/errors  |
 [**googleAdsStatus**](KeywordsDataApi.md#googleAdsStatus) | **GET**  /v3/keywords_data/google_ads/status  |
-[**keywordsDataGoogleAdsLocations**](KeywordsDataApi.md#keywordsDataGoogleAdsLocations) | **GET**  /v3/keywords_data/google_ads/locations  |
-[**keywordsDataGoogleAdsLocationsCountry**](KeywordsDataApi.md#keywordsDataGoogleAdsLocationsCountry) | **GET**  /v3/keywords_data/google_ads/locations/{country}  |
-[**keywordsDataGoogleAdsLanguages**](KeywordsDataApi.md#keywordsDataGoogleAdsLanguages) | **GET**  /v3/keywords_data/google_ads/languages  |
+[**googleAdsLocations**](KeywordsDataApi.md#googleAdsLocations) | **GET**  /v3/keywords_data/google_ads/locations  |
+[**googleAdsLocationsCountry**](KeywordsDataApi.md#googleAdsLocationsCountry) | **GET**  /v3/keywords_data/google_ads/locations/{country}  |
+[**googleAdsLanguages**](KeywordsDataApi.md#googleAdsLanguages) | **GET**  /v3/keywords_data/google_ads/languages  |
 [**googleAdsSearchVolumeTaskPost**](KeywordsDataApi.md#googleAdsSearchVolumeTaskPost) | **POST**  /v3/keywords_data/google_ads/search_volume/task_post  |
 [**googleAdsSearchVolumeTasksReady**](KeywordsDataApi.md#googleAdsSearchVolumeTasksReady) | **GET**  /v3/keywords_data/google_ads/search_volume/tasks_ready  |
 [**googleAdsSearchVolumeTaskGet**](KeywordsDataApi.md#googleAdsSearchVolumeTaskGet) | **GET**  /v3/keywords_data/google_ads/search_volume/task_get/{id}  |
@@ -26,16 +26,16 @@ All URIs are relative to *https://api.dataforseo.com*
 [**googleAdsAdTrafficByKeywordsTasksReady**](KeywordsDataApi.md#googleAdsAdTrafficByKeywordsTasksReady) | **GET**  /v3/keywords_data/google_ads/ad_traffic_by_keywords/tasks_ready  |
 [**googleAdsAdTrafficByKeywordsTaskGet**](KeywordsDataApi.md#googleAdsAdTrafficByKeywordsTaskGet) | **GET**  /v3/keywords_data/google_ads/ad_traffic_by_keywords/task_get/{id}  |
 [**googleAdsAdTrafficByKeywordsLive**](KeywordsDataApi.md#googleAdsAdTrafficByKeywordsLive) | **POST**  /v3/keywords_data/google_ads/ad_traffic_by_keywords/live  |
-[**keywordsDataGoogleTrendsLocations**](KeywordsDataApi.md#keywordsDataGoogleTrendsLocations) | **GET**  /v3/keywords_data/google_trends/locations  |
-[**keywordsDataGoogleTrendsLocationsCountry**](KeywordsDataApi.md#keywordsDataGoogleTrendsLocationsCountry) | **GET**  /v3/keywords_data/google_trends/locations/{country}  |
-[**keywordsDataGoogleTrendsLanguages**](KeywordsDataApi.md#keywordsDataGoogleTrendsLanguages) | **GET**  /v3/keywords_data/google_trends/languages  |
+[**googleTrendsLocations**](KeywordsDataApi.md#googleTrendsLocations) | **GET**  /v3/keywords_data/google_trends/locations  |
+[**googleTrendsLocationsCountry**](KeywordsDataApi.md#googleTrendsLocationsCountry) | **GET**  /v3/keywords_data/google_trends/locations/{country}  |
+[**googleTrendsLanguages**](KeywordsDataApi.md#googleTrendsLanguages) | **GET**  /v3/keywords_data/google_trends/languages  |
 [**googleTrendsCategories**](KeywordsDataApi.md#googleTrendsCategories) | **GET**  /v3/keywords_data/google_trends/categories  |
 [**googleTrendsExploreTaskPost**](KeywordsDataApi.md#googleTrendsExploreTaskPost) | **POST**  /v3/keywords_data/google_trends/explore/task_post  |
 [**googleTrendsExploreTasksReady**](KeywordsDataApi.md#googleTrendsExploreTasksReady) | **GET**  /v3/keywords_data/google_trends/explore/tasks_ready  |
 [**googleTrendsExploreTaskGet**](KeywordsDataApi.md#googleTrendsExploreTaskGet) | **GET**  /v3/keywords_data/google_trends/explore/task_get/{id}  |
 [**googleTrendsExploreLive**](KeywordsDataApi.md#googleTrendsExploreLive) | **POST**  /v3/keywords_data/google_trends/explore/live  |
-[**keywordsDataDataforseoTrendsLocations**](KeywordsDataApi.md#keywordsDataDataforseoTrendsLocations) | **GET**  /v3/keywords_data/dataforseo_trends/locations  |
-[**keywordsDataDataforseoTrendsLocationsCountry**](KeywordsDataApi.md#keywordsDataDataforseoTrendsLocationsCountry) | **GET**  /v3/keywords_data/dataforseo_trends/locations/{country}  |
+[**dataforseoTrendsLocations**](KeywordsDataApi.md#dataforseoTrendsLocations) | **GET**  /v3/keywords_data/dataforseo_trends/locations  |
+[**dataforseoTrendsLocationsCountry**](KeywordsDataApi.md#dataforseoTrendsLocationsCountry) | **GET**  /v3/keywords_data/dataforseo_trends/locations/{country}  |
 [**dataforseoTrendsExploreLive**](KeywordsDataApi.md#dataforseoTrendsExploreLive) | **POST**  /v3/keywords_data/dataforseo_trends/explore/live  |
 [**dataforseoTrendsSubregionInterestsLive**](KeywordsDataApi.md#dataforseoTrendsSubregionInterestsLive) | **POST**  /v3/keywords_data/dataforseo_trends/subregion_interests/live  |
 [**dataforseoTrendsDemographyLive**](KeywordsDataApi.md#dataforseoTrendsDemographyLive) | **POST**  /v3/keywords_data/dataforseo_trends/demography/live  |
@@ -60,17 +60,17 @@ All URIs are relative to *https://api.dataforseo.com*
 [**bingKeywordsForKeywordsTasksReady**](KeywordsDataApi.md#bingKeywordsForKeywordsTasksReady) | **GET**  /v3/keywords_data/bing/keywords_for_keywords/tasks_ready  |
 [**bingKeywordsForKeywordsTaskGet**](KeywordsDataApi.md#bingKeywordsForKeywordsTaskGet) | **GET**  /v3/keywords_data/bing/keywords_for_keywords/task_get/{id}  |
 [**bingKeywordsForKeywordsLive**](KeywordsDataApi.md#bingKeywordsForKeywordsLive) | **POST**  /v3/keywords_data/bing/keywords_for_keywords/live  |
-[**keywordsDataBingKeywordPerformanceLocationsAndLanguages**](KeywordsDataApi.md#keywordsDataBingKeywordPerformanceLocationsAndLanguages) | **GET**  /v3/keywords_data/bing/keyword_performance/locations_and_languages  |
+[**bingKeywordPerformanceLocationsAndLanguages**](KeywordsDataApi.md#bingKeywordPerformanceLocationsAndLanguages) | **GET**  /v3/keywords_data/bing/keyword_performance/locations_and_languages  |
 [**bingKeywordPerformanceTaskPost**](KeywordsDataApi.md#bingKeywordPerformanceTaskPost) | **POST**  /v3/keywords_data/bing/keyword_performance/task_post  |
 [**bingKeywordPerformanceTasksReady**](KeywordsDataApi.md#bingKeywordPerformanceTasksReady) | **GET**  /v3/keywords_data/bing/keyword_performance/tasks_ready  |
 [**bingKeywordPerformanceTaskGet**](KeywordsDataApi.md#bingKeywordPerformanceTaskGet) | **GET**  /v3/keywords_data/bing/keyword_performance/task_get/{id}  |
 [**bingKeywordPerformanceLive**](KeywordsDataApi.md#bingKeywordPerformanceLive) | **POST**  /v3/keywords_data/bing/keyword_performance/live  |
-[**keywordsDataBingSearchVolumeHistoryLocationsAndLanguages**](KeywordsDataApi.md#keywordsDataBingSearchVolumeHistoryLocationsAndLanguages) | **GET**  /v3/keywords_data/bing/search_volume_history/locations_and_languages  |
+[**bingSearchVolumeHistoryLocationsAndLanguages**](KeywordsDataApi.md#bingSearchVolumeHistoryLocationsAndLanguages) | **GET**  /v3/keywords_data/bing/search_volume_history/locations_and_languages  |
 [**bingSearchVolumeHistoryTaskPost**](KeywordsDataApi.md#bingSearchVolumeHistoryTaskPost) | **POST**  /v3/keywords_data/bing/search_volume_history/task_post  |
 [**bingSearchVolumeHistoryTasksReady**](KeywordsDataApi.md#bingSearchVolumeHistoryTasksReady) | **GET**  /v3/keywords_data/bing/search_volume_history/tasks_ready  |
 [**bingSearchVolumeHistoryTaskGet**](KeywordsDataApi.md#bingSearchVolumeHistoryTaskGet) | **GET**  /v3/keywords_data/bing/search_volume_history/task_get/{id}  |
 [**bingSearchVolumeHistoryLive**](KeywordsDataApi.md#bingSearchVolumeHistoryLive) | **POST**  /v3/keywords_data/bing/search_volume_history/live  |
-[**keywordsDataClickstreamDataLocationsAndLanguages**](KeywordsDataApi.md#keywordsDataClickstreamDataLocationsAndLanguages) | **GET**  /v3/keywords_data/clickstream_data/locations_and_languages  |
+[**clickstreamDataLocationsAndLanguages**](KeywordsDataApi.md#clickstreamDataLocationsAndLanguages) | **GET**  /v3/keywords_data/clickstream_data/locations_and_languages  |
 [**clickstreamDataDataforseoSearchVolumeLive**](KeywordsDataApi.md#clickstreamDataDataforseoSearchVolumeLive) | **POST**  /v3/keywords_data/clickstream_data/dataforseo_search_volume/live  |
 [**clickstreamDataGlobalSearchVolumeLive**](KeywordsDataApi.md#clickstreamDataGlobalSearchVolumeLive) | **POST**  /v3/keywords_data/clickstream_data/global_search_volume/live  |
 [**clickstreamDataBulkSearchVolumeLive**](KeywordsDataApi.md#clickstreamDataBulkSearchVolumeLive) | **POST**  /v3/keywords_data/clickstream_data/bulk_search_volume/live  |
@@ -103,11 +103,6 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new KeywordsDataIdListRequestInfo();
-   task.datetime_from = "2025-08-22 08:08:36 +00:00";
-   task.datetime_to = "2025-10-22 08:08:36 +00:00";
-   task.limit = 100;
-   task.offset = 0;
-   task.sort = "desc";
  let response = await api.keywordsDataIdList([task]);
 ```
 
@@ -165,9 +160,6 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new KeywordsDataErrorsRequestInfo();
-   task.limit = 10;
-   task.offset = 0;
-   task.filtered_function = "pingback_url";
  let response = await api.keywordsDataErrors([task]);
 ```
 
@@ -253,9 +245,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="keywordsDataGoogleAdsLocations"></a>
-# **keywordsDataGoogleAdsLocations**
-> KeywordsDataGoogleAdsLocationsResponseInfo keywordsDataGoogleAdsLocations()
+<a id="googleAdsLocations"></a>
+# **googleAdsLocations**
+> KeywordsDataGoogleAdsLocationsResponseInfo googleAdsLocations()
 
 
 ### Example
@@ -280,7 +272,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.keywordsDataGoogleAdsLocations();
+ let response = await api.googleAdsLocations();
 ```
 
 ### Parameters
@@ -309,9 +301,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="keywordsDataGoogleAdsLocationsCountry"></a>
-# **keywordsDataGoogleAdsLocationsCountry**
-> KeywordsDataGoogleAdsLocationsCountryResponseInfo keywordsDataGoogleAdsLocationsCountry()
+<a id="googleAdsLocationsCountry"></a>
+# **googleAdsLocationsCountry**
+> KeywordsDataGoogleAdsLocationsCountryResponseInfo googleAdsLocationsCountry()
 
 
 ### Example
@@ -336,8 +328,8 @@ This endpoint does not need any parameter.
    }
  });
 
- let country = "us";
- let response = await api.keywordsDataGoogleAdsLocationsCountry(country);
+ let country = ;
+ let response = await api.googleAdsLocationsCountry(country);
 ```
 
 ### Parameters
@@ -366,9 +358,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="keywordsDataGoogleAdsLanguages"></a>
-# **keywordsDataGoogleAdsLanguages**
-> KeywordsDataGoogleAdsLanguagesResponseInfo keywordsDataGoogleAdsLanguages()
+<a id="googleAdsLanguages"></a>
+# **googleAdsLanguages**
+> KeywordsDataGoogleAdsLanguagesResponseInfo googleAdsLanguages()
 
 
 ### Example
@@ -393,7 +385,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.keywordsDataGoogleAdsLanguages();
+ let response = await api.googleAdsLanguages();
 ```
 
 ### Parameters
@@ -450,12 +442,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new KeywordsDataGoogleAdsSearchVolumeTaskPostRequestInfo();
-   task.keywords = [
-       "buy laptop",
-       "cheap laptops for sale",
-       "purchase laptop",
-   ];
-   task.location_name = "United States";
  let response = await api.googleAdsSearchVolumeTaskPost([task]);
 ```
 
@@ -568,7 +554,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleAdsSearchVolumeTaskGet(id);
 ```
 
@@ -626,14 +612,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new KeywordsDataGoogleAdsSearchVolumeLiveRequestInfo();
-   task.keywords = [
-       "buy laptop",
-       "cheap laptops for sale",
-       "purchase laptop",
-   ];
-   task.location_code = 2840;
-   task.search_partners = true;
-   task.date_from = "2025-08-22";
  let response = await api.googleAdsSearchVolumeLive([task]);
 ```
 
@@ -691,8 +669,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new KeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo();
-   task.target = "dataforseo.com";
-   task.location_code = 2840;
  let response = await api.googleAdsKeywordsForSiteTaskPost([task]);
 ```
 
@@ -805,7 +781,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleAdsKeywordsForSiteTaskGet(id);
 ```
 
@@ -863,8 +839,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo();
-   task.target = "dataforseo.com";
-   task.location_code = 2840;
  let response = await api.googleAdsKeywordsForSiteLive([task]);
 ```
 
@@ -922,11 +896,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo();
-   task.keywords = [
-       "phone",
-       "cellphone",
-   ];
-   task.location_code = 2840;
  let response = await api.googleAdsKeywordsForKeywordsTaskPost([task]);
 ```
 
@@ -1039,7 +1008,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleAdsKeywordsForKeywordsTaskGet(id);
 ```
 
@@ -1097,11 +1066,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new KeywordsDataGoogleAdsKeywordsForKeywordsLiveRequestInfo();
-   task.keywords = [
-       "phone",
-       "cellphone",
-   ];
-   task.location_code = 2840;
  let response = await api.googleAdsKeywordsForKeywordsLive([task]);
 ```
 
@@ -1159,13 +1123,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo();
-   task.keywords = [
-       "seo marketing",
-   ];
-   task.bid = 999;
-   task.match = "exact";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.googleAdsAdTrafficByKeywordsTaskPost([task]);
 ```
 
@@ -1278,7 +1235,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleAdsAdTrafficByKeywordsTaskGet(id);
 ```
 
@@ -1336,13 +1293,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo();
-   task.keywords = [
-       "seo marketing",
-   ];
-   task.bid = 999;
-   task.match = "exact";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.googleAdsAdTrafficByKeywordsLive([task]);
 ```
 
@@ -1372,9 +1322,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="keywordsDataGoogleTrendsLocations"></a>
-# **keywordsDataGoogleTrendsLocations**
-> KeywordsDataGoogleTrendsLocationsResponseInfo keywordsDataGoogleTrendsLocations()
+<a id="googleTrendsLocations"></a>
+# **googleTrendsLocations**
+> KeywordsDataGoogleTrendsLocationsResponseInfo googleTrendsLocations()
 
 
 ### Example
@@ -1399,7 +1349,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.keywordsDataGoogleTrendsLocations();
+ let response = await api.googleTrendsLocations();
 ```
 
 ### Parameters
@@ -1428,9 +1378,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="keywordsDataGoogleTrendsLocationsCountry"></a>
-# **keywordsDataGoogleTrendsLocationsCountry**
-> KeywordsDataGoogleTrendsLocationsCountryResponseInfo keywordsDataGoogleTrendsLocationsCountry()
+<a id="googleTrendsLocationsCountry"></a>
+# **googleTrendsLocationsCountry**
+> KeywordsDataGoogleTrendsLocationsCountryResponseInfo googleTrendsLocationsCountry()
 
 
 ### Example
@@ -1455,8 +1405,8 @@ This endpoint does not need any parameter.
    }
  });
 
- let country = "us";
- let response = await api.keywordsDataGoogleTrendsLocationsCountry(country);
+ let country = ;
+ let response = await api.googleTrendsLocationsCountry(country);
 ```
 
 ### Parameters
@@ -1485,9 +1435,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="keywordsDataGoogleTrendsLanguages"></a>
-# **keywordsDataGoogleTrendsLanguages**
-> KeywordsDataGoogleTrendsLanguagesResponseInfo keywordsDataGoogleTrendsLanguages()
+<a id="googleTrendsLanguages"></a>
+# **googleTrendsLanguages**
+> KeywordsDataGoogleTrendsLanguagesResponseInfo googleTrendsLanguages()
 
 
 ### Example
@@ -1512,7 +1462,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.keywordsDataGoogleTrendsLanguages();
+ let response = await api.googleTrendsLanguages();
 ```
 
 ### Parameters
@@ -1625,14 +1575,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new KeywordsDataGoogleTrendsExploreTaskPostRequestInfo();
-   task.keywords = [
-       "seo api",
-       "rank api",
-   ];
-   task.type = "youtube";
-   task.category_code = 3;
-   task.date_from = "2025-08-22";
-   task.date_to = "2025-10-22";
  let response = await api.googleTrendsExploreTaskPost([task]);
 ```
 
@@ -1745,7 +1687,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleTrendsExploreTaskGet(id);
 ```
 
@@ -1803,15 +1745,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new KeywordsDataGoogleTrendsExploreLiveRequestInfo();
-   task.keywords = [
-       "rugby",
-       "cricket",
-   ];
-   task.location_name = "United States";
-   task.type = "youtube";
-   task.category_code = 3;
-   task.date_from = "2025-08-22";
-   task.date_to = "2025-10-22";
  let response = await api.googleTrendsExploreLive([task]);
 ```
 
@@ -1841,9 +1774,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="keywordsDataDataforseoTrendsLocations"></a>
-# **keywordsDataDataforseoTrendsLocations**
-> KeywordsDataDataforseoTrendsLocationsResponseInfo keywordsDataDataforseoTrendsLocations()
+<a id="dataforseoTrendsLocations"></a>
+# **dataforseoTrendsLocations**
+> KeywordsDataDataforseoTrendsLocationsResponseInfo dataforseoTrendsLocations()
 
 
 ### Example
@@ -1868,7 +1801,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.keywordsDataDataforseoTrendsLocations();
+ let response = await api.dataforseoTrendsLocations();
 ```
 
 ### Parameters
@@ -1897,9 +1830,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="keywordsDataDataforseoTrendsLocationsCountry"></a>
-# **keywordsDataDataforseoTrendsLocationsCountry**
-> KeywordsDataDataforseoTrendsLocationsCountryResponseInfo keywordsDataDataforseoTrendsLocationsCountry()
+<a id="dataforseoTrendsLocationsCountry"></a>
+# **dataforseoTrendsLocationsCountry**
+> KeywordsDataDataforseoTrendsLocationsCountryResponseInfo dataforseoTrendsLocationsCountry()
 
 
 ### Example
@@ -1924,8 +1857,8 @@ This endpoint does not need any parameter.
    }
  });
 
- let country = "us";
- let response = await api.keywordsDataDataforseoTrendsLocationsCountry(country);
+ let country = ;
+ let response = await api.dataforseoTrendsLocationsCountry(country);
 ```
 
 ### Parameters
@@ -1982,11 +1915,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new KeywordsDataDataforseoTrendsExploreLiveRequestInfo();
-   task.keywords = [
-       "iphone 14",
-       "samsung s23",
-   ];
-   task.location_code = 2840;
  let response = await api.dataforseoTrendsExploreLive([task]);
 ```
 
@@ -2044,14 +1972,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo();
-   task.keywords = [
-       "rugby",
-       "cricket",
-   ];
-   task.location_name = "United States";
-   task.type = "web";
-   task.date_from = "2025-08-22";
-   task.date_to = "2025-10-22";
  let response = await api.dataforseoTrendsSubregionInterestsLive([task]);
 ```
 
@@ -2109,14 +2029,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new KeywordsDataDataforseoTrendsDemographyLiveRequestInfo();
-   task.keywords = [
-       "rugby",
-       "cricket",
-   ];
-   task.location_name = "United States";
-   task.type = "web";
-   task.date_from = "2025-08-22";
-   task.date_to = "2025-10-22";
  let response = await api.dataforseoTrendsDemographyLive([task]);
 ```
 
@@ -2174,14 +2086,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo();
-   task.keywords = [
-       "rugby",
-       "cricket",
-   ];
-   task.location_name = "United States";
-   task.type = "web";
-   task.date_from = "2025-08-22";
-   task.date_to = "2025-10-22";
  let response = await api.dataforseoTrendsMergedDataLive([task]);
 ```
 
@@ -2351,13 +2255,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new KeywordsDataBingSearchVolumeTaskPostRequestInfo();
-   task.keywords = [
-       "average page rpm adsense",
-       "adsense blank ads how long",
-       "leads and prospects",
-   ];
-   task.location_name = "United States";
-   task.language_name = "English";
  let response = await api.bingSearchVolumeTaskPost([task]);
 ```
 
@@ -2470,7 +2367,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.bingSearchVolumeTaskGet(id);
 ```
 
@@ -2528,13 +2425,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new KeywordsDataBingSearchVolumeLiveRequestInfo();
-   task.keywords = [
-       "tom and jerry",
-       "silicon valley",
-       "spider man",
-   ];
-   task.location_name = "United States";
-   task.language_code = "en";
  let response = await api.bingSearchVolumeLive([task]);
 ```
 
@@ -2704,24 +2594,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new KeywordsDataBingAudienceEstimationTaskPostRequestInfo();
-   task.location_coordinate = "29.6821525,-82.4098881,100";
-   task.age = [
-       "twenty_five_to_thirty_four",
-       "eighteen_to_twenty_four",
-       "unknown",
-   ];
-   task.bid = 1;
-   task.daily_budget = 24;
-   task.gender = [
-       "male",
-   ];
-   task.industry = [
-       "806303407",
-       "806301758",
-   ];
-   task.job_function = [
-       "806298607",
-   ];
  let response = await api.bingAudienceEstimationTaskPost([task]);
 ```
 
@@ -2834,7 +2706,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.bingAudienceEstimationTaskGet(id);
 ```
 
@@ -2892,24 +2764,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new KeywordsDataBingAudienceEstimationLiveRequestInfo();
-   task.location_coordinate = "29.6821525,-82.4098881,100";
-   task.age = [
-       "twenty_five_to_thirty_four",
-       "eighteen_to_twenty_four",
-       "unknown",
-   ];
-   task.bid = 1;
-   task.daily_budget = 24;
-   task.gender = [
-       "male",
-   ];
-   task.industry = [
-       "806303407",
-       "806301758",
-   ];
-   task.job_function = [
-       "806298607",
-   ];
  let response = await api.bingAudienceEstimationLive([task]);
 ```
 
@@ -2967,9 +2821,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new KeywordsDataBingKeywordsForSiteTaskPostRequestInfo();
-   task.target = "dataforseo.com";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.bingKeywordsForSiteTaskPost([task]);
 ```
 
@@ -3082,7 +2933,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.bingKeywordsForSiteTaskGet(id);
 ```
 
@@ -3140,9 +2991,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new KeywordsDataBingKeywordsForSiteLiveRequestInfo();
-   task.target = "dataforseo.com";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.bingKeywordsForSiteLive([task]);
 ```
 
@@ -3200,13 +3048,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new KeywordsDataBingKeywordsForKeywordsTaskPostRequestInfo();
-   task.keywords = [
-       "average page rpm adsense",
-       "adsense blank ads how long",
-       "leads and prospects",
-   ];
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.bingKeywordsForKeywordsTaskPost([task]);
 ```
 
@@ -3319,7 +3160,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.bingKeywordsForKeywordsTaskGet(id);
 ```
 
@@ -3377,13 +3218,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new KeywordsDataBingKeywordsForKeywordsLiveRequestInfo();
-   task.keywords = [
-       "average page rpm adsense",
-       "adsense blank ads how long",
-       "leads and prospects",
-   ];
-   task.location_name = "United States";
-   task.language_name = "English";
  let response = await api.bingKeywordsForKeywordsLive([task]);
 ```
 
@@ -3413,9 +3247,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="keywordsDataBingKeywordPerformanceLocationsAndLanguages"></a>
-# **keywordsDataBingKeywordPerformanceLocationsAndLanguages**
-> KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo keywordsDataBingKeywordPerformanceLocationsAndLanguages()
+<a id="bingKeywordPerformanceLocationsAndLanguages"></a>
+# **bingKeywordPerformanceLocationsAndLanguages**
+> KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo bingKeywordPerformanceLocationsAndLanguages()
 
 
 ### Example
@@ -3440,7 +3274,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.keywordsDataBingKeywordPerformanceLocationsAndLanguages();
+ let response = await api.bingKeywordPerformanceLocationsAndLanguages();
 ```
 
 ### Parameters
@@ -3497,13 +3331,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new KeywordsDataBingKeywordPerformanceTaskPostRequestInfo();
-   task.keywords = [
-       "dataforseo",
-       "seo",
-       "ranking",
-   ];
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.bingKeywordPerformanceTaskPost([task]);
 ```
 
@@ -3616,7 +3443,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.bingKeywordPerformanceTaskGet(id);
 ```
 
@@ -3674,13 +3501,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new KeywordsDataBingKeywordPerformanceLiveRequestInfo();
-   task.keywords = [
-       "dataforseo",
-       "seo",
-       "ranking",
-   ];
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.bingKeywordPerformanceLive([task]);
 ```
 
@@ -3710,9 +3530,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="keywordsDataBingSearchVolumeHistoryLocationsAndLanguages"></a>
-# **keywordsDataBingSearchVolumeHistoryLocationsAndLanguages**
-> KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo keywordsDataBingSearchVolumeHistoryLocationsAndLanguages()
+<a id="bingSearchVolumeHistoryLocationsAndLanguages"></a>
+# **bingSearchVolumeHistoryLocationsAndLanguages**
+> KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo bingSearchVolumeHistoryLocationsAndLanguages()
 
 
 ### Example
@@ -3737,7 +3557,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.keywordsDataBingSearchVolumeHistoryLocationsAndLanguages();
+ let response = await api.bingSearchVolumeHistoryLocationsAndLanguages();
 ```
 
 ### Parameters
@@ -3794,11 +3614,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo();
-   task.keywords = [
-       "10 minute timer",
-   ];
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.bingSearchVolumeHistoryTaskPost([task]);
 ```
 
@@ -3911,7 +3726,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.bingSearchVolumeHistoryTaskGet(id);
 ```
 
@@ -3969,11 +3784,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new KeywordsDataBingSearchVolumeHistoryLiveRequestInfo();
-   task.keywords = [
-       "10 minute timer",
-   ];
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.bingSearchVolumeHistoryLive([task]);
 ```
 
@@ -4003,9 +3813,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="keywordsDataClickstreamDataLocationsAndLanguages"></a>
-# **keywordsDataClickstreamDataLocationsAndLanguages**
-> KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo keywordsDataClickstreamDataLocationsAndLanguages()
+<a id="clickstreamDataLocationsAndLanguages"></a>
+# **clickstreamDataLocationsAndLanguages**
+> KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo clickstreamDataLocationsAndLanguages()
 
 
 ### Example
@@ -4030,7 +3840,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.keywordsDataClickstreamDataLocationsAndLanguages();
+ let response = await api.clickstreamDataLocationsAndLanguages();
 ```
 
 ### Parameters
@@ -4087,14 +3897,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo();
-   task.keywords = [
-       "you tube",
-       "youtube",
-       "youtub",
-   ];
-   task.location_code = 2840;
-   task.language_code = "en";
-   task.tag = "test-tag";
  let response = await api.clickstreamDataDataforseoSearchVolumeLive([task]);
 ```
 
@@ -4152,12 +3954,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new KeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo();
-   task.keywords = [
-       "you tube",
-       "youtube",
-       "youtub",
-   ];
-   task.tag = "test-tag";
  let response = await api.clickstreamDataGlobalSearchVolumeLive([task]);
 ```
 
@@ -4215,13 +4011,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo();
-   task.keywords = [
-       "you tube",
-       "youtube",
-       "youtub",
-   ];
-   task.location_code = 2840;
-   task.tag = "test-tag";
  let response = await api.clickstreamDataBulkSearchVolumeLive([task]);
 ```
 

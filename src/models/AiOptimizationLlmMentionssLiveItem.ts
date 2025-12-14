@@ -26,6 +26,14 @@ array of objects containing data on domains that are cited as sources in LLM res
         /** search results domains relevant to the specific page
 array of objects containing data on domains that appear in search results related to LLM queries */
         search_results_domain?: GroupElement[] | undefined
+        
+        /** data on brand entities relevant to the target
+array of objects containing data on brand entity titles that appear in search results related to LLM queries */
+        brand_entities_title?: GroupElement[] | undefined
+        
+        /** data on brand entities relevant to the target
+array of objects containing data on brand entity categories that appear in search results related to LLM queries */
+        brand_entities_category?: GroupElement[] | undefined
 
     [key: string]: any;
 
@@ -62,6 +70,16 @@ array of objects containing data on domains that are cited as sources in LLM res
 array of objects containing data on domains that appear in search results related to LLM queries */
 
     search_results_domain?: GroupElement[] | undefined;
+    
+    /** data on brand entities relevant to the target
+array of objects containing data on brand entity titles that appear in search results related to LLM queries */
+
+    brand_entities_title?: GroupElement[] | undefined;
+    
+    /** data on brand entities relevant to the target
+array of objects containing data on brand entity categories that appear in search results related to LLM queries */
+
+    brand_entities_category?: GroupElement[] | undefined;
 
     [key: string]: any;
 
@@ -112,6 +130,18 @@ array of objects containing data on domains that appear in search results relate
                 this.search_results_domain = [];
                 for (let item of data["search_results_domain"]) {
                     this.search_results_domain.push(GroupElement.fromJS(item));
+                }
+            }
+            if (Array.isArray(data["brand_entities_title"])) {
+                this.brand_entities_title = [];
+                for (let item of data["brand_entities_title"]) {
+                    this.brand_entities_title.push(GroupElement.fromJS(item));
+                }
+            }
+            if (Array.isArray(data["brand_entities_category"])) {
+                this.brand_entities_category = [];
+                for (let item of data["brand_entities_category"]) {
+                    this.brand_entities_category.push(GroupElement.fromJS(item));
                 }
             }
         }
@@ -174,6 +204,24 @@ array of objects containing data on domains that appear in search results relate
             for (let item of this.search_results_domain) {
                 if (item && typeof item.toJSON === "function") {
                     data["search_results_domain"].push(item?.toJSON());
+                }
+            }
+        }
+        data["brand_entities_title"] = null;
+        if (Array.isArray(this.brand_entities_title)) {
+            data["brand_entities_title"] = [];
+            for (let item of this.brand_entities_title) {
+                if (item && typeof item.toJSON === "function") {
+                    data["brand_entities_title"].push(item?.toJSON());
+                }
+            }
+        }
+        data["brand_entities_category"] = null;
+        if (Array.isArray(this.brand_entities_category)) {
+            data["brand_entities_category"] = [];
+            for (let item of this.brand_entities_category) {
+                if (item && typeof item.toJSON === "function") {
+                    data["brand_entities_category"].push(item?.toJSON());
                 }
             }
         }

@@ -63,13 +63,6 @@ example:
 'message_chain': [{'role':'user','message':'Hello, what’s up?'},{'role':'ai','message':'Hello! I’m doing well, thank you. How can I assist you today?'}] */
         message_chain?: LlmMessageChainItem[] | undefined
         
-        /** user-defined task identifier
-optional field
-the character limit is 255
-you can use this parameter to identify the task and match it with the result
-you will find the specified tag value in the data array of the response */
-        tag?: string | undefined
-        
         /** return URL for sending task results
 optional field
 once the task is completed, we will send a POST request with its results compressed in the gzip format to the postback_url you specified
@@ -93,6 +86,13 @@ Note: special character in pingback_url will be urlencoded;
 i.a., the # character will be encoded into %23
 learn more on our Help Center */
         pingback_url?: string | undefined
+        
+        /** user-defined task identifier
+optional field
+the character limit is 255
+you can use this parameter to identify the task and match it with the result
+you will find the specified tag value in the data array of the response */
+        tag?: string | undefined
 
     [key: string]: any;
 
@@ -167,14 +167,6 @@ example:
 
     message_chain?: LlmMessageChainItem[] | undefined;
     
-    /** user-defined task identifier
-optional field
-the character limit is 255
-you can use this parameter to identify the task and match it with the result
-you will find the specified tag value in the data array of the response */
-
-    tag?: string | undefined;
-    
     /** return URL for sending task results
 optional field
 once the task is completed, we will send a POST request with its results compressed in the gzip format to the postback_url you specified
@@ -200,6 +192,14 @@ i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
     pingback_url?: string | undefined;
+    
+    /** user-defined task identifier
+optional field
+the character limit is 255
+you can use this parameter to identify the task and match it with the result
+you will find the specified tag value in the data array of the response */
+
+    tag?: string | undefined;
 
     [key: string]: any;
 
@@ -233,9 +233,9 @@ learn more on our Help Center */
                     this.message_chain.push(LlmMessageChainItem.fromJS(item));
                 }
             }
-            this.tag = data["tag"];
             this.postback_url = data["postback_url"];
             this.pingback_url = data["pingback_url"];
+            this.tag = data["tag"];
         }
     }
 
@@ -268,9 +268,9 @@ learn more on our Help Center */
                 }
             }
         }
-        data["tag"] = this.tag;
         data["postback_url"] = this.postback_url;
         data["pingback_url"] = this.pingback_url;
+        data["tag"] = this.tag;
         return data;
     }
 }

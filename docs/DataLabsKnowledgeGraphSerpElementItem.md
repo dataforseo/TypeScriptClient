@@ -12,4 +12,4 @@
 **image_url** | **string** | URL of the image |[optional]|
 **logo_url** | **string** | URL of the logo from knowledge graph |[optional]|
 **cid** | **string** | google-defined client id |[optional]|
-**items** | **BaseDataforseoLabsKnowledgeGraphElementItem[]** | elements of search results found in SERP |[optional]|
+**items** | **BaseDataforseoLabsKnowledgeGraphElementItem[]** | historical SERPs and related data found in the database |[optional]|

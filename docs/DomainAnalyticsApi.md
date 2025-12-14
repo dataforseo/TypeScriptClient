@@ -7,8 +7,8 @@ All URIs are relative to *https://api.dataforseo.com*
 [**domainAnalyticsIdList**](DomainAnalyticsApi.md#domainAnalyticsIdList) | **POST**  /v3/domain_analytics/id_list  |
 [**domainAnalyticsErrors**](DomainAnalyticsApi.md#domainAnalyticsErrors) | **POST**  /v3/domain_analytics/errors  |
 [**technologiesAvailableFilters**](DomainAnalyticsApi.md#technologiesAvailableFilters) | **GET**  /v3/domain_analytics/technologies/available_filters  |
-[**domainAnalyticsTechnologiesLocations**](DomainAnalyticsApi.md#domainAnalyticsTechnologiesLocations) | **GET**  /v3/domain_analytics/technologies/locations  |
-[**domainAnalyticsTechnologiesLanguages**](DomainAnalyticsApi.md#domainAnalyticsTechnologiesLanguages) | **GET**  /v3/domain_analytics/technologies/languages  |
+[**technologiesLocations**](DomainAnalyticsApi.md#technologiesLocations) | **GET**  /v3/domain_analytics/technologies/locations  |
+[**technologiesLanguages**](DomainAnalyticsApi.md#technologiesLanguages) | **GET**  /v3/domain_analytics/technologies/languages  |
 [**technologiesTechnologies**](DomainAnalyticsApi.md#technologiesTechnologies) | **GET**  /v3/domain_analytics/technologies/technologies  |
 [**technologiesAggregationTechnologiesLive**](DomainAnalyticsApi.md#technologiesAggregationTechnologiesLive) | **POST**  /v3/domain_analytics/technologies/aggregation_technologies/live  |
 [**technologiesTechnologiesSummaryLive**](DomainAnalyticsApi.md#technologiesTechnologiesSummaryLive) | **POST**  /v3/domain_analytics/technologies/technologies_summary/live  |
@@ -47,11 +47,6 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new DomainAnalyticsIdListRequestInfo();
-   task.datetime_from = "2025-08-22 08:08:30 +00:00";
-   task.datetime_to = "2025-10-22 08:08:30 +00:00";
-   task.limit = 100;
-   task.offset = 0;
-   task.sort = "desc";
  let response = await api.domainAnalyticsIdList([task]);
 ```
 
@@ -109,9 +104,6 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new DomainAnalyticsErrorsRequestInfo();
-   task.limit = 10;
-   task.offset = 0;
-   task.filtered_function = "pingback_url";
  let response = await api.domainAnalyticsErrors([task]);
 ```
 
@@ -197,9 +189,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="domainAnalyticsTechnologiesLocations"></a>
-# **domainAnalyticsTechnologiesLocations**
-> DomainAnalyticsTechnologiesLocationsResponseInfo domainAnalyticsTechnologiesLocations()
+<a id="technologiesLocations"></a>
+# **technologiesLocations**
+> DomainAnalyticsTechnologiesLocationsResponseInfo technologiesLocations()
 
 
 ### Example
@@ -224,7 +216,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.domainAnalyticsTechnologiesLocations();
+ let response = await api.technologiesLocations();
 ```
 
 ### Parameters
@@ -253,9 +245,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="domainAnalyticsTechnologiesLanguages"></a>
-# **domainAnalyticsTechnologiesLanguages**
-> DomainAnalyticsTechnologiesLanguagesResponseInfo domainAnalyticsTechnologiesLanguages()
+<a id="technologiesLanguages"></a>
+# **technologiesLanguages**
+> DomainAnalyticsTechnologiesLanguagesResponseInfo technologiesLanguages()
 
 
 ### Example
@@ -280,7 +272,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.domainAnalyticsTechnologiesLanguages();
+ let response = await api.technologiesLanguages();
 ```
 
 ### Parameters
@@ -393,10 +385,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo();
-   task.technology = "Nginx";
-   task.keyword = "WordPress";
-   task.mode = "entry";
-   task.limit = 10;
  let response = await api.technologiesAggregationTechnologiesLive([task]);
 ```
 
@@ -454,13 +442,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo();
-   task.technologies = [
-       "Ngi",
-   ];
-   task.keywords = [
-       "WordPress",
-   ];
-   task.mode = "entry";
  let response = await api.technologiesTechnologiesSummaryLive([task]);
 ```
 
@@ -518,9 +499,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo();
-   task.technology = "jQuery";
-   task.date_from = "2025-08-22";
-   task.date_to = "2025-10-22";
  let response = await api.technologiesTechnologyStatsLive([task]);
 ```
 
@@ -578,10 +556,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo();
-   task.technologies = [
-       "Nginx",
-   ];
-   task.limit = 10;
  let response = await api.technologiesDomainsByTechnologyLive([task]);
 ```
 
@@ -639,11 +613,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo();
-   task.search_terms = [
-       "data-attrid",
-   ];
-   task.limit = 10;
-   task.offset = 0;
  let response = await api.technologiesDomainsByHtmlTermsLive([task]);
 ```
 
@@ -701,7 +670,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo();
-   task.target = "dataforseo.com";
  let response = await api.technologiesDomainTechnologiesLive([task]);
 ```
 
@@ -815,7 +783,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new DomainAnalyticsWhoisOverviewLiveRequestInfo();
-   task.limit = 2;
  let response = await api.whoisOverviewLive([task]);
 ```
 

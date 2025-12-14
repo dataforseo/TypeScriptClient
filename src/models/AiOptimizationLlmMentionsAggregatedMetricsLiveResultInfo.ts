@@ -1,14 +1,15 @@
-import { Total, ITotal } from "./Total";
+import { AiOptimizationResultTotalInfo, IAiOptimizationResultTotalInfo } from "./AiOptimizationResultTotalInfo";
 
 
 export interface IAiOptimizationLlmMentionsAggregatedMetricsLiveResultInfo   {
         
         /** aggregated mentions metrics summary
 contains overall aggregated LLM mention metrics across all found domains, grouped by various dimensions */
-        total?: Total | undefined
+        total?: AiOptimizationResultTotalInfo | undefined
         
-        /** contains relevant mentions data
-equals null in this endpoint */
+        /** individual pages results
+array containing detailed mention metrics for each of the found top pages
+in this case, equals null */
         items?: any | undefined
 
     [key: string]: any;
@@ -20,10 +21,11 @@ export class AiOptimizationLlmMentionsAggregatedMetricsLiveResultInfo  implement
     /** aggregated mentions metrics summary
 contains overall aggregated LLM mention metrics across all found domains, grouped by various dimensions */
 
-    total?: Total | undefined;
+    total?: AiOptimizationResultTotalInfo | undefined;
     
-    /** contains relevant mentions data
-equals null in this endpoint */
+    /** individual pages results
+array containing detailed mention metrics for each of the found top pages
+in this case, equals null */
 
     items?: any | undefined;
 
@@ -47,7 +49,7 @@ equals null in this endpoint */
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
-            this.total = data["total"] ? Total.fromJS(data["total"]) : <any>undefined;
+            this.total = data["total"] ? AiOptimizationResultTotalInfo.fromJS(data["total"]) : <any>undefined;
             this.items = data["items"];
         }
     }
@@ -66,7 +68,7 @@ equals null in this endpoint */
 
         
         
-        data["total"] = this.total ? Total.fromJS(this.total)?.toJSON() : <any>undefined;
+        data["total"] = this.total ? AiOptimizationResultTotalInfo.fromJS(this.total)?.toJSON() : <any>undefined;
         data["items"] = this.items;
         return data;
     }

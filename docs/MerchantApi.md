@@ -21,9 +21,9 @@ All URIs are relative to *https://api.dataforseo.com*
 [**googleProductInfoTasksReady**](MerchantApi.md#googleProductInfoTasksReady) | **GET**  /v3/merchant/google/product_info/tasks_ready  |
 [**googleProductInfoTaskGetAdvanced**](MerchantApi.md#googleProductInfoTaskGetAdvanced) | **GET**  /v3/merchant/google/product_info/task_get/advanced/{id}  |
 [**googleSellersAdUrl**](MerchantApi.md#googleSellersAdUrl) | **GET**  /v3/merchant/google/sellers/ad_url/{shop_ad_aclk}  |
-[**merchantAmazonLocations**](MerchantApi.md#merchantAmazonLocations) | **GET**  /v3/merchant/amazon/locations  |
-[**merchantAmazonLocationsCountry**](MerchantApi.md#merchantAmazonLocationsCountry) | **GET**  /v3/merchant/amazon/locations/{country}  |
-[**merchantAmazonLanguages**](MerchantApi.md#merchantAmazonLanguages) | **GET**  /v3/merchant/amazon/languages  |
+[**amazonLocations**](MerchantApi.md#amazonLocations) | **GET**  /v3/merchant/amazon/locations  |
+[**amazonLocationsCountry**](MerchantApi.md#amazonLocationsCountry) | **GET**  /v3/merchant/amazon/locations/{country}  |
+[**amazonLanguages**](MerchantApi.md#amazonLanguages) | **GET**  /v3/merchant/amazon/languages  |
 [**amazonProductsTaskPost**](MerchantApi.md#amazonProductsTaskPost) | **POST**  /v3/merchant/amazon/products/task_post  |
 [**amazonProductsTasksReady**](MerchantApi.md#amazonProductsTasksReady) | **GET**  /v3/merchant/amazon/products/tasks_ready  |
 [**amazonProductsTaskGetAdvanced**](MerchantApi.md#amazonProductsTaskGetAdvanced) | **GET**  /v3/merchant/amazon/products/task_get/advanced/{id}  |
@@ -69,11 +69,6 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new MerchantIdListRequestInfo();
-   task.datetime_from = "2025-08-22 08:11:04 +00:00";
-   task.datetime_to = "2025-10-22 08:11:04 +00:00";
-   task.limit = 100;
-   task.offset = 0;
-   task.sort = "desc";
  let response = await api.merchantIdList([task]);
 ```
 
@@ -131,9 +126,6 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new MerchantErrorsRequestInfo();
-   task.limit = 10;
-   task.offset = 0;
-   task.filtered_function = "pingback_url";
  let response = await api.merchantErrors([task]);
 ```
 
@@ -302,7 +294,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let country = "us";
+ let country = ;
  let response = await api.merchantGoogleLocationsCountry(country);
 ```
 
@@ -360,10 +352,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new MerchantGoogleProductsTaskPostRequestInfo();
-   task.keyword = "iphone";
-   task.location_code = 2840;
-   task.language_code = "en";
-   task.price_min = 5;
  let response = await api.googleProductsTaskPost([task]);
 ```
 
@@ -532,7 +520,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleProductsTaskGetAdvanced(id);
 ```
 
@@ -589,7 +577,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleProductsTaskGetHtml(id);
 ```
 
@@ -647,9 +635,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new MerchantGoogleSellersTaskPostRequestInfo();
-   task.product_id = "1113158713975221117";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.googleSellersTaskPost([task]);
 ```
 
@@ -762,7 +747,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleSellersTaskGetAdvanced(id);
 ```
 
@@ -820,9 +805,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new MerchantGoogleProductInfoTaskPostRequestInfo();
-   task.product_id = "1113158713975221117";
-   task.location_code = 2840;
-   task.language_code = "en";
  let response = await api.googleProductInfoTaskPost([task]);
 ```
 
@@ -935,7 +917,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.googleProductInfoTaskGetAdvanced(id);
 ```
 
@@ -992,7 +974,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let shop_ad_aclk = "DChcSEwiSl5TKpbPoAhVFmdUKHfa_B_wYABADGgJ3cw&sig";
+ let shop_ad_aclk = ;
  let response = await api.googleSellersAdUrl(shop_ad_aclk);
 ```
 
@@ -1022,9 +1004,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="merchantAmazonLocations"></a>
-# **merchantAmazonLocations**
-> MerchantAmazonLocationsResponseInfo merchantAmazonLocations()
+<a id="amazonLocations"></a>
+# **amazonLocations**
+> MerchantAmazonLocationsResponseInfo amazonLocations()
 
 
 ### Example
@@ -1049,7 +1031,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.merchantAmazonLocations();
+ let response = await api.amazonLocations();
 ```
 
 ### Parameters
@@ -1078,9 +1060,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="merchantAmazonLocationsCountry"></a>
-# **merchantAmazonLocationsCountry**
-> MerchantAmazonLocationsCountryResponseInfo merchantAmazonLocationsCountry()
+<a id="amazonLocationsCountry"></a>
+# **amazonLocationsCountry**
+> MerchantAmazonLocationsCountryResponseInfo amazonLocationsCountry()
 
 
 ### Example
@@ -1105,8 +1087,8 @@ This endpoint does not need any parameter.
    }
  });
 
- let country = "us";
- let response = await api.merchantAmazonLocationsCountry(country);
+ let country = ;
+ let response = await api.amazonLocationsCountry(country);
 ```
 
 ### Parameters
@@ -1135,9 +1117,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="merchantAmazonLanguages"></a>
-# **merchantAmazonLanguages**
-> MerchantAmazonLanguagesResponseInfo merchantAmazonLanguages()
+<a id="amazonLanguages"></a>
+# **amazonLanguages**
+> MerchantAmazonLanguagesResponseInfo amazonLanguages()
 
 
 ### Example
@@ -1162,7 +1144,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.merchantAmazonLanguages();
+ let response = await api.amazonLanguages();
 ```
 
 ### Parameters
@@ -1219,9 +1201,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new MerchantAmazonProductsTaskPostRequestInfo();
-   task.keyword = "shoes";
-   task.location_code = 2840;
-   task.language_code = "en_US";
  let response = await api.amazonProductsTaskPost([task]);
 ```
 
@@ -1334,7 +1313,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.amazonProductsTaskGetAdvanced(id);
 ```
 
@@ -1391,7 +1370,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.amazonProductsTaskGetHtml(id);
 ```
 
@@ -1449,9 +1428,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new MerchantAmazonAsinTaskPostRequestInfo();
-   task.asin = "B0756FCPPN";
-   task.location_code = 2840;
-   task.language_code = "en_US";
  let response = await api.amazonAsinTaskPost([task]);
 ```
 
@@ -1564,7 +1540,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.amazonAsinTaskGetAdvanced(id);
 ```
 
@@ -1621,7 +1597,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.amazonAsinTaskGetHtml(id);
 ```
 
@@ -1679,9 +1655,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new MerchantAmazonSellersTaskPostRequestInfo();
-   task.asin = "B085RFFC9Q";
-   task.location_code = 2840;
-   task.language_code = "en_US";
  let response = await api.amazonSellersTaskPost([task]);
 ```
 
@@ -1794,7 +1767,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.amazonSellersTaskGetAdvanced(id);
 ```
 
@@ -1851,7 +1824,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.amazonSellersTaskGetHtml(id);
 ```
 
@@ -1909,9 +1882,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new MerchantAmazonReviewsTaskPostRequestInfo();
-   task.asin = "B0773ZY26F";
-   task.location_code = 2840;
-   task.language_code = "en_US";
  let response = await api.amazonReviewsTaskPost([task]);
 ```
 
@@ -2024,7 +1994,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.amazonReviewsTaskGetAdvanced(id);
 ```
 
@@ -2081,7 +2051,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = "00000000-0000-0000-0000-000000000000";
+ let id = ;
  let response = await api.amazonReviewsTaskGetHtml(id);
 ```
 

@@ -1,4 +1,4 @@
-import { Total, ITotal } from "./Total";
+import { AiOptimizationResultTotalInfo, IAiOptimizationResultTotalInfo } from "./AiOptimizationResultTotalInfo";
 import { AiOptimizationLlmMentionssLiveItem, IAiOptimizationLlmMentionssLiveItem } from "./AiOptimizationLlmMentionssLiveItem";
 
 
@@ -6,7 +6,7 @@ export interface IAiOptimizationLlmMentionsTopPagesLiveResultInfo   {
         
         /** aggregated mentions metrics summary
 contains overall aggregated LLM mention metrics across all found top pages, grouped by various dimensions */
-        total?: Total | undefined
+        total?: AiOptimizationResultTotalInfo | undefined
         
         /** individual pages results
 array containing detailed mention metrics for each of the found top pages */
@@ -21,7 +21,7 @@ export class AiOptimizationLlmMentionsTopPagesLiveResultInfo  implements IAiOpti
     /** aggregated mentions metrics summary
 contains overall aggregated LLM mention metrics across all found top pages, grouped by various dimensions */
 
-    total?: Total | undefined;
+    total?: AiOptimizationResultTotalInfo | undefined;
     
     /** individual pages results
 array containing detailed mention metrics for each of the found top pages */
@@ -48,7 +48,7 @@ array containing detailed mention metrics for each of the found top pages */
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
-            this.total = data["total"] ? Total.fromJS(data["total"]) : <any>undefined;
+            this.total = data["total"] ? AiOptimizationResultTotalInfo.fromJS(data["total"]) : <any>undefined;
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
@@ -72,7 +72,7 @@ array containing detailed mention metrics for each of the found top pages */
 
         
         
-        data["total"] = this.total ? Total.fromJS(this.total)?.toJSON() : <any>undefined;
+        data["total"] = this.total ? AiOptimizationResultTotalInfo.fromJS(this.total)?.toJSON() : <any>undefined;
         data["items"] = null;
         if (Array.isArray(this.items)) {
             data["items"] = [];

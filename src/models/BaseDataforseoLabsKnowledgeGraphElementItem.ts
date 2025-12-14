@@ -165,8 +165,7 @@ export interface IDataforseoLabsKnowledgeGraphImagesItemElementItem  extends IBa
         /** link of the element */
         link?: LinkElement | undefined
         
-        /** additional items present in the element
-if there are none, equals null */
+        /** elements of search results found in SERP */
         items?: KnowledgeGraphImagesElement[] | undefined
 
     [key: string]: any;
@@ -179,8 +178,7 @@ export class DataforseoLabsKnowledgeGraphImagesItemElementItem  extends BaseData
 
     link?: LinkElement | undefined;
     
-    /** additional items present in the element
-if there are none, equals null */
+    /** elements of search results found in SERP */
 
     items?: KnowledgeGraphImagesElement[] | undefined;
 

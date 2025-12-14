@@ -9,7 +9,7 @@ export interface IChatGptProductsElement   {
         /** product id */
         product_id?: string | undefined
         
-        /** source title */
+        /** title of the element */
         title?: string | undefined
         
         /** rating of the corresponding local businesses
@@ -26,10 +26,10 @@ ISO code of the currency applied to the price */
         /** tag text */
         tag?: string | undefined
         
-        /** source URL */
+        /** URL */
         url?: string | undefined
         
-        /** source domain */
+        /** domain */
         domain?: string | undefined
         
         /** image URLs of the element
@@ -50,7 +50,7 @@ export class ChatGptProductsElement  implements IChatGptProductsElement {
 
     product_id?: string | undefined;
     
-    /** source title */
+    /** title of the element */
 
     title?: string | undefined;
     
@@ -72,11 +72,11 @@ ISO code of the currency applied to the price */
 
     tag?: string | undefined;
     
-    /** source URL */
+    /** URL */
 
     url?: string | undefined;
     
-    /** source domain */
+    /** domain */
 
     domain?: string | undefined;
     

@@ -90,7 +90,7 @@ example:
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
-you will find the specified tag value in the data array of the response */
+you will find the specified tag value in the data object of the response */
         tag?: string | undefined
         
         /** return URL for sending task results
@@ -221,7 +221,7 @@ example:
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
-you will find the specified tag value in the data array of the response */
+you will find the specified tag value in the data object of the response */
 
     tag?: string | undefined;
     

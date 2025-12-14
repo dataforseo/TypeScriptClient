@@ -3,7 +3,7 @@ export interface IChatGptImagesElement   {
         /** type of element */
         type?: string | undefined
         
-        /** source URL */
+        /** URL */
         url?: string | undefined
         
         /** alt tag of the image */
@@ -27,7 +27,7 @@ export class ChatGptImagesElement  implements IChatGptImagesElement {
 
     type?: string | undefined;
     
-    /** source URL */
+    /** URL */
 
     url?: string | undefined;
     

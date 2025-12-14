@@ -1,4 +1,5 @@
 import { ChatGptSource, IChatGptSource } from "./ChatGptSource";
+import { ChatGptBrandEntity, IChatGptBrandEntity } from "./ChatGptBrandEntity";
 import { Table, ITable } from "./Table";
 import { ChatGptImagesElement, IChatGptImagesElement } from "./ChatGptImagesElement";
 import { ChatGptProductsElement, IChatGptProductsElement } from "./ChatGptProductsElement";
@@ -136,6 +137,10 @@ content of the result formatted in the markdown markup language */
         
         /** array of sources */
         sources?: ChatGptSource[] | undefined
+        
+        /** array of brand entities
+contains information on brands mentioned in the text */
+        brand_entities?: ChatGptBrandEntity[] | undefined
 
     [key: string]: any;
 
@@ -151,6 +156,11 @@ content of the result formatted in the markdown markup language */
     /** array of sources */
 
     sources?: ChatGptSource[] | undefined;
+    
+    /** array of brand entities
+contains information on brands mentioned in the text */
+
+    brand_entities?: ChatGptBrandEntity[] | undefined;
 
     [key: string]: any;
 
@@ -172,6 +182,12 @@ content of the result formatted in the markdown markup language */
                 this.sources = [];
                 for (let item of data["sources"]) {
                     this.sources.push(ChatGptSource.fromJS(item));
+                }
+            }
+            if (Array.isArray(data["brand_entities"])) {
+                this.brand_entities = [];
+                for (let item of data["brand_entities"]) {
+                    this.brand_entities.push(ChatGptBrandEntity.fromJS(item));
                 }
             }
         }
@@ -203,6 +219,15 @@ content of the result formatted in the markdown markup language */
                 }
             }
         }
+        data["brand_entities"] = null;
+        if (Array.isArray(this.brand_entities)) {
+            data["brand_entities"] = [];
+            for (let item of this.brand_entities) {
+                if (item && typeof item.toJSON === "function") {
+                    data["brand_entities"].push(item?.toJSON());
+                }
+            }
+        }
         return data;
     }
 }
@@ -220,6 +245,10 @@ content of the result formatted in the markdown markup language */
         /** table present in the element
 the header and content of the table present in the element */
         table?: Table | undefined
+        
+        /** array of brand entities
+contains information on brands mentioned in the text */
+        brand_entities?: ChatGptBrandEntity[] | undefined
 
     [key: string]: any;
 
@@ -240,6 +269,11 @@ content of the result formatted in the markdown markup language */
 the header and content of the table present in the element */
 
     table?: Table | undefined;
+    
+    /** array of brand entities
+contains information on brands mentioned in the text */
+
+    brand_entities?: ChatGptBrandEntity[] | undefined;
 
     [key: string]: any;
 
@@ -259,6 +293,12 @@ the header and content of the table present in the element */
             this.text = data["text"];
             this.markdown = data["markdown"];
             this.table = data["table"] ? Table.fromJS(data["table"]) : <any>undefined;
+            if (Array.isArray(data["brand_entities"])) {
+                this.brand_entities = [];
+                for (let item of data["brand_entities"]) {
+                    this.brand_entities.push(ChatGptBrandEntity.fromJS(item));
+                }
+            }
         }
     }
 
@@ -281,6 +321,15 @@ the header and content of the table present in the element */
         data["text"] = this.text;
         data["markdown"] = this.markdown;
         data["table"] = this.table ? Table.fromJS(this.table)?.toJSON() : <any>undefined;
+        data["brand_entities"] = null;
+        if (Array.isArray(this.brand_entities)) {
+            data["brand_entities"] = [];
+            for (let item of this.brand_entities) {
+                if (item && typeof item.toJSON === "function") {
+                    data["brand_entities"].push(item?.toJSON());
+                }
+            }
+        }
         return data;
     }
 }
@@ -288,7 +337,7 @@ the header and content of the table present in the element */
  
 export interface IChatGptNavigationListElementItem  extends IBaseChatGptLlmScraperElementItem    {
         
-        /** title of the element */
+        /** name of the brand */
         title?: string | undefined
         
         /** array of sources */
@@ -300,7 +349,7 @@ export interface IChatGptNavigationListElementItem  extends IBaseChatGptLlmScrap
 
 export class ChatGptNavigationListElementItem  extends BaseChatGptLlmScraperElementItem   implements IChatGptNavigationListElementItem {
     
-    /** title of the element */
+    /** name of the brand */
 
     title?: string | undefined;
     

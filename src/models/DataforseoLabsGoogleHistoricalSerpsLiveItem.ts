@@ -4,11 +4,11 @@ import { BaseDataforseoLabsApiElementItem, IBaseDataforseoLabsApiElementItem } f
 
 export interface IDataforseoLabsGoogleHistoricalSerpsLiveItem   {
         
-        /** search engine type */
+        /** search engine type in a POST array */
         se_type?: string | undefined
         
-        /** keyword obtained as a result of search engine autocorrection
-the results will be provided for the corrected keyword */
+        /** keyword received in a POST array
+the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
         keyword?: string | undefined
         
         /** type of element */
@@ -49,8 +49,7 @@ answer_box, carousel, multi_carousel, featured_snippet, google_flights, google_r
         /** the number of results returned in the items array */
         items_count?: number | undefined
         
-        /** additional items present in the element
-if there are none, equals null */
+        /** contains results featured in the ‘hotels_pack’ element of SERP */
         items?: BaseDataforseoLabsApiElementItem[] | undefined
 
     [key: string]: any;
@@ -59,12 +58,12 @@ if there are none, equals null */
 
 export class DataforseoLabsGoogleHistoricalSerpsLiveItem  implements IDataforseoLabsGoogleHistoricalSerpsLiveItem {
     
-    /** search engine type */
+    /** search engine type in a POST array */
 
     se_type?: string | undefined;
     
-    /** keyword obtained as a result of search engine autocorrection
-the results will be provided for the corrected keyword */
+    /** keyword received in a POST array
+the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
 
     keyword?: string | undefined;
     
@@ -116,8 +115,7 @@ answer_box, carousel, multi_carousel, featured_snippet, google_flights, google_r
 
     items_count?: number | undefined;
     
-    /** additional items present in the element
-if there are none, equals null */
+    /** contains results featured in the ‘hotels_pack’ element of SERP */
 
     items?: BaseDataforseoLabsApiElementItem[] | undefined;
 

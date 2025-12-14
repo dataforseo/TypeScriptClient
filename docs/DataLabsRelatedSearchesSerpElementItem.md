@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**items** | **string[]** | elements of search results found in SERP |[optional]|
+**items** | **string[]** | historical SERPs and related data found in the database |[optional]|

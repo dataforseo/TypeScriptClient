@@ -61,23 +61,23 @@ export class AiOptimizationApi {
         this.baseUrl = baseUrl ?? "https://";
     }
 
-    aiOptimizationChatGptLlmScraperLocations(): Promise<AiOptimizationChatGptLlmScraperLocationsResponseInfo | null> {
+    chatGptLlmScraperLocations(): Promise<AiOptimizationChatGptLlmScraperLocationsResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/ai_optimization/chat_gpt/llm_scraper/locations";
         url_ = url_.replace(/[?&]$/, "");
         let options_: RequestInit = {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
         return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processAiOptimizationChatGptLlmScraperLocations(_response);
+            return this.processChatGptLlmScraperLocations(_response);
         });
     }
 
-    protected processAiOptimizationChatGptLlmScraperLocations(response: Response): Promise<AiOptimizationChatGptLlmScraperLocationsResponseInfo | null> {
+    protected processChatGptLlmScraperLocations(response: Response): Promise<AiOptimizationChatGptLlmScraperLocationsResponseInfo | null> {
         const status = response.status;
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
@@ -94,7 +94,7 @@ export class AiOptimizationApi {
         }
         return Promise.resolve<AiOptimizationChatGptLlmScraperLocationsResponseInfo | null>(null as any);
     }
-    aiOptimizationChatGptLlmScraperLocationsCountry(country: string): Promise<AiOptimizationChatGptLlmScraperLocationsCountryResponseInfo | null> {
+    chatGptLlmScraperLocationsCountry(country: string): Promise<AiOptimizationChatGptLlmScraperLocationsCountryResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/ai_optimization/chat_gpt/llm_scraper/locations/{country}";
         url_ = url_.replace(/[?&]$/, "");
         url_ = url_.replace("{country}", encodeURIComponent("" + country));
@@ -102,16 +102,16 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
         return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processAiOptimizationChatGptLlmScraperLocationsCountry(_response);
+            return this.processChatGptLlmScraperLocationsCountry(_response);
         });
     }
 
-    protected processAiOptimizationChatGptLlmScraperLocationsCountry(response: Response): Promise<AiOptimizationChatGptLlmScraperLocationsCountryResponseInfo | null> {
+    protected processChatGptLlmScraperLocationsCountry(response: Response): Promise<AiOptimizationChatGptLlmScraperLocationsCountryResponseInfo | null> {
         const status = response.status;
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
@@ -128,23 +128,23 @@ export class AiOptimizationApi {
         }
         return Promise.resolve<AiOptimizationChatGptLlmScraperLocationsCountryResponseInfo | null>(null as any);
     }
-    aiOptimizationChatGptLlmScraperLanguages(): Promise<AiOptimizationChatGptLlmScraperLanguagesResponseInfo | null> {
+    chatGptLlmScraperLanguages(): Promise<AiOptimizationChatGptLlmScraperLanguagesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/ai_optimization/chat_gpt/llm_scraper/languages";
         url_ = url_.replace(/[?&]$/, "");
         let options_: RequestInit = {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
         return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processAiOptimizationChatGptLlmScraperLanguages(_response);
+            return this.processChatGptLlmScraperLanguages(_response);
         });
     }
 
-    protected processAiOptimizationChatGptLlmScraperLanguages(response: Response): Promise<AiOptimizationChatGptLlmScraperLanguagesResponseInfo | null> {
+    protected processChatGptLlmScraperLanguages(response: Response): Promise<AiOptimizationChatGptLlmScraperLanguagesResponseInfo | null> {
         const status = response.status;
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
@@ -171,7 +171,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -203,7 +203,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
@@ -237,7 +237,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
@@ -271,7 +271,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
@@ -297,23 +297,23 @@ export class AiOptimizationApi {
         }
         return Promise.resolve<AiOptimizationChatGptLlmScraperTaskGetHtmlResponseInfo | null>(null as any);
     }
-    aiOptimizationLlmMentionsLocationsAndLanguages(): Promise<AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo | null> {
+    llmMentionsLocationsAndLanguages(): Promise<AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/locations_and_languages";
         url_ = url_.replace(/[?&]$/, "");
         let options_: RequestInit = {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
         return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processAiOptimizationLlmMentionsLocationsAndLanguages(_response);
+            return this.processLlmMentionsLocationsAndLanguages(_response);
         });
     }
 
-    protected processAiOptimizationLlmMentionsLocationsAndLanguages(response: Response): Promise<AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo | null> {
+    protected processLlmMentionsLocationsAndLanguages(response: Response): Promise<AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo | null> {
         const status = response.status;
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
@@ -337,7 +337,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
@@ -373,7 +373,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -408,7 +408,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -443,7 +443,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -478,7 +478,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -513,7 +513,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -545,7 +545,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
@@ -581,7 +581,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -616,7 +616,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -648,7 +648,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
@@ -682,7 +682,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
@@ -715,7 +715,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
@@ -751,7 +751,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -786,7 +786,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -818,7 +818,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
@@ -852,7 +852,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
@@ -885,7 +885,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
@@ -921,7 +921,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -953,7 +953,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
@@ -987,7 +987,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
@@ -1023,7 +1023,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1055,7 +1055,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
@@ -1091,7 +1091,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1123,7 +1123,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
@@ -1149,23 +1149,23 @@ export class AiOptimizationApi {
         }
         return Promise.resolve<AiOptimizationAiKeywordDataAvailableFiltersResponseInfo | null>(null as any);
     }
-    aiOptimizationAiKeywordDataLocationsAndLanguages(): Promise<AiOptimizationAiKeywordDataLocationsAndLanguagesResponseInfo | null> {
+    aiKeywordDataLocationsAndLanguages(): Promise<AiOptimizationAiKeywordDataLocationsAndLanguagesResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/ai_optimization/ai_keyword_data/locations_and_languages";
         url_ = url_.replace(/[?&]$/, "");
         let options_: RequestInit = {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
 
         return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processAiOptimizationAiKeywordDataLocationsAndLanguages(_response);
+            return this.processAiKeywordDataLocationsAndLanguages(_response);
         });
     }
 
-    protected processAiOptimizationAiKeywordDataLocationsAndLanguages(response: Response): Promise<AiOptimizationAiKeywordDataLocationsAndLanguagesResponseInfo | null> {
+    protected processAiKeywordDataLocationsAndLanguages(response: Response): Promise<AiOptimizationAiKeywordDataLocationsAndLanguagesResponseInfo | null> {
         const status = response.status;
         let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
         if (status === 200) {
@@ -1192,7 +1192,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.15",
+                "User-Agent": "typescript-client/2.0.16",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {

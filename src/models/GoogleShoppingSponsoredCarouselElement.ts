@@ -11,7 +11,7 @@ export interface IGoogleShoppingSponsoredCarouselElement   {
         /** XPath of the element */
         xpath?: string | undefined
         
-        /** product title */
+        /** title of the element */
         title?: string | undefined
         
         /** tags assigned to the product */
@@ -65,7 +65,7 @@ export class GoogleShoppingSponsoredCarouselElement  implements IGoogleShoppingS
 
     xpath?: string | undefined;
     
-    /** product title */
+    /** title of the element */
 
     title?: string | undefined;
     

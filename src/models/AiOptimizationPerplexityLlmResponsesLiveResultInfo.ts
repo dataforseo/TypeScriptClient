@@ -31,6 +31,10 @@ example:
         /** array of response items
 contains structured AI response data */
         items?: AiOptimizationItem[] | undefined
+        
+        /** array of fan-out queries
+contains related search queries derived from the main query to provide a more comprehensive response */
+        fan_out_queries?: any | undefined
 
     [key: string]: any;
 
@@ -73,6 +77,11 @@ example:
 contains structured AI response data */
 
     items?: AiOptimizationItem[] | undefined;
+    
+    /** array of fan-out queries
+contains related search queries derived from the main query to provide a more comprehensive response */
+
+    fan_out_queries?: any | undefined;
 
     [key: string]: any;
 
@@ -106,6 +115,7 @@ contains structured AI response data */
                     this.items.push(AiOptimizationItem.fromJS(item));
                 }
             }
+            this.fan_out_queries = data["fan_out_queries"];
         }
     }
 
@@ -138,6 +148,7 @@ contains structured AI response data */
                 }
             }
         }
+        data["fan_out_queries"] = this.fan_out_queries;
         return data;
     }
 }

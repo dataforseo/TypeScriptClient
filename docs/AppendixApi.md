@@ -5,7 +5,7 @@ All URIs are relative to *https://api.dataforseo.com*
 | Method | HTTP request | Description |
 |------------- | ------------- | -------------|
 [**userData**](AppendixApi.md#userData) | **GET**  /v3/appendix/user_data  |
-[**appendixErrors**](AppendixApi.md#appendixErrors) | **GET**  /v3/appendix/errors  |
+[**errors**](AppendixApi.md#errors) | **GET**  /v3/appendix/errors  |
 [**webhookResend**](AppendixApi.md#webhookResend) | **POST**  /v3/appendix/webhook_resend  |
 [**appendixStatus**](AppendixApi.md#appendixStatus) | **GET**  /v3/appendix/status  |
 
@@ -65,9 +65,9 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="appendixErrors"></a>
-# **appendixErrors**
-> AppendixErrorsResponseInfo appendixErrors()
+<a id="errors"></a>
+# **errors**
+> AppendixErrorsResponseInfo errors()
 
 
 ### Example
@@ -92,7 +92,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.appendixErrors();
+ let response = await api.errors();
 ```
 
 ### Parameters
@@ -149,7 +149,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new AppendixWebhookResendRequestInfo();
-   task.id = "08161139-0001-0066-1000-06491d097ed5";
  let response = await api.webhookResend([task]);
 ```
 

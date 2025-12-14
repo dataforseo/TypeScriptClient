@@ -5,4 +5,4 @@
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
 **link** | **LinkElement** | link of the element |[optional]|
-**items** | **KnowledgeGraphImagesElement[]** | additional items present in the element<br>if there are none, equals null |[optional]|
+**items** | **KnowledgeGraphImagesElement[]** | elements of search results found in SERP |[optional]|
