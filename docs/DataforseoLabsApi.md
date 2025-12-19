@@ -91,8 +91,18 @@ All URIs are relative to *https://api.dataforseo.com*
    }
  });
 
- let task = new DataforseoLabsIdListRequestInfo();
- let response = await api.dataforseoLabsIdList([task]);
+ let response = await api.dataforseoLabsIdList([
+   [
+       new DataforseoLabsIdListRequestInfo({
+           datetime_from: ,
+           datetime_to: ,
+           limit: 100,
+           offset: 0,
+           sort: "desc",
+           include_metadata: true,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -204,8 +214,14 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsErrorsRequestInfo();
- let response = await api.dataforseoLabsErrors([task]);
+ let response = await api.dataforseoLabsErrors([
+   [
+       new DataforseoLabsErrorsRequestInfo({
+           limit: 10,
+           offset: 0,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -485,8 +501,23 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo();
- let response = await api.googleKeywordsForSiteLive([task]);
+ let response = await api.googleKeywordsForSiteLive([
+   [
+       new DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo({
+           target: "apple.com",
+           language_code: "en",
+           location_code: 2840,
+           include_serp_info: true,
+           include_subdomains: true,
+           filters: [
+           "serp_info.se_results_count",
+           ">",
+           0,
+       ],
+           limit: 3,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -542,8 +573,16 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo();
- let response = await api.googleRelatedKeywordsLive([task]);
+ let response = await api.googleRelatedKeywordsLive([
+   [
+       new DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo({
+           keyword: "phone",
+           language_name: "English",
+           location_code: 2840,
+           limit: 3,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -599,8 +638,18 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsGoogleKeywordSuggestionsLiveRequestInfo();
- let response = await api.googleKeywordSuggestionsLive([task]);
+ let response = await api.googleKeywordSuggestionsLive([
+   [
+       new DataforseoLabsGoogleKeywordSuggestionsLiveRequestInfo({
+           keyword: "phone",
+           location_code: 2840,
+           language_code: "en",
+           include_serp_info: true,
+           include_seed_keyword: true,
+           limit: 1,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -656,8 +705,20 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsGoogleKeywordIdeasLiveRequestInfo();
- let response = await api.googleKeywordIdeasLive([task]);
+ let response = await api.googleKeywordIdeasLive([
+   [
+       new DataforseoLabsGoogleKeywordIdeasLiveRequestInfo({
+           keywords: [
+           "phone",
+           "watch",
+       ],
+           location_code: 2840,
+           language_code: "en",
+           include_serp_info: true,
+           limit: 3,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -713,8 +774,19 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo();
- let response = await api.googleBulkKeywordDifficultyLive([task]);
+ let response = await api.googleBulkKeywordDifficultyLive([
+   [
+       new DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo({
+           location_code: 2840,
+           language_code: "en",
+           keywords: [
+           "dentist new york",
+           "pizza brooklyn",
+           "car dealer los angeles",
+       ],
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -770,8 +842,19 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsGoogleSearchIntentLiveRequestInfo();
- let response = await api.googleSearchIntentLive([task]);
+ let response = await api.googleSearchIntentLive([
+   [
+       new DataforseoLabsGoogleSearchIntentLiveRequestInfo({
+           language_code: "en",
+           keywords: [
+           "login page",
+           "audi a7",
+           "elon musk",
+           "milk store new york",
+       ],
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -883,8 +966,22 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo();
- let response = await api.googleCategoriesForDomainLive([task]);
+ let response = await api.googleCategoriesForDomainLive([
+   [
+       new DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo({
+           target: "dataforseo.com",
+           language_code: "en",
+           location_name: "United States",
+           item_types: [
+           "paid",
+           "organic",
+           "featured_snippet",
+           "local_pack",
+       ],
+           limit: 3,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -940,8 +1037,18 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo();
- let response = await api.googleCategoriesForKeywordsLive([task]);
+ let response = await api.googleCategoriesForKeywordsLive([
+   [
+       new DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo({
+           language_code: "en",
+           keywords: [
+           "dentist new york",
+           "pizza brooklyn",
+           "car dealer los angeles",
+       ],
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -997,8 +1104,20 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo();
- let response = await api.googleKeywordsForCategoriesLive([task]);
+ let response = await api.googleKeywordsForCategoriesLive([
+   [
+       new DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo({
+           category_codes: [
+           12191,
+           12193,
+       ],
+           language_name: "English",
+           location_code: 2840,
+           include_serp_info: true,
+           limit: 3,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1054,8 +1173,21 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo();
- let response = await api.googleDomainMetricsByCategoriesLive([task]);
+ let response = await api.googleDomainMetricsByCategoriesLive([
+   [
+       new DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo({
+           location_code: 2840,
+           language_code: "en",
+           category_codes: [
+           13418,
+           11494,
+       ],
+           first_date: ,
+           second_date: ,
+           limit: 3,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1111,8 +1243,15 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsGoogleTopSearchesLiveRequestInfo();
- let response = await api.googleTopSearchesLive([task]);
+ let response = await api.googleTopSearchesLive([
+   [
+       new DataforseoLabsGoogleTopSearchesLiveRequestInfo({
+           language_name: "English",
+           location_code: 2840,
+           limit: 3,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1168,8 +1307,23 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo();
- let response = await api.googleDomainWhoisOverviewLive([task]);
+ let response = await api.googleDomainWhoisOverviewLive([
+   [
+       new DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo({
+           limit: 2,
+           filters: [
+           [
+               "epp_status_codes",
+               "in",
+               [
+                   "client_transfer_prohibited",
+                   "client_update_prohibited",
+               ],
+           ],
+       ],
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1225,8 +1379,17 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsGoogleRankedKeywordsLiveRequestInfo();
- let response = await api.googleRankedKeywordsLive([task]);
+ let response = await api.googleRankedKeywordsLive([
+   [
+       new DataforseoLabsGoogleRankedKeywordsLiveRequestInfo({
+           target: "dataforseo.com",
+           language_name: "English",
+           location_name: "United States",
+           load_rank_absolute: true,
+           limit: 3,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1282,8 +1445,21 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo();
- let response = await api.googleSerpCompetitorsLive([task]);
+ let response = await api.googleSerpCompetitorsLive([
+   [
+       new DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo({
+           keywords: [
+           "phone",
+       ],
+           language_name: "English",
+           location_code: 2840,
+           item_types: [
+           "organic",
+       ],
+           limit: 5,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1339,8 +1515,21 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo();
- let response = await api.googleCompetitorsDomainLive([task]);
+ let response = await api.googleCompetitorsDomainLive([
+   [
+       new DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo({
+           target: "newmouth.com",
+           intersecting_domains: [
+           "dentaly.org",
+           "health.com",
+           "trysnow.com",
+       ],
+           language_name: "English",
+           location_code: 2840,
+           limit: 3,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1396,8 +1585,18 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsGoogleDomainIntersectionLiveRequestInfo();
- let response = await api.googleDomainIntersectionLive([task]);
+ let response = await api.googleDomainIntersectionLive([
+   [
+       new DataforseoLabsGoogleDomainIntersectionLiveRequestInfo({
+           target_1: "mom.com",
+           target_2: "quora.com",
+           language_code: "en",
+           location_code: 2840,
+           include_serp_info: true,
+           limit: 3,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1453,8 +1652,28 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsGoogleSubdomainsLiveRequestInfo();
- let response = await api.googleSubdomainsLive([task]);
+ let response = await api.googleSubdomainsLive([
+   [
+       new DataforseoLabsGoogleSubdomainsLiveRequestInfo({
+           target: "dataforseo.com",
+           language_name: "English",
+           location_code: 2840,
+           filters: [
+           [
+               "metrics.organic.pos_1",
+               "<>",
+               0,
+           ],
+           "or",
+           [
+               "metrics.organic.pos_2_3",
+               "<>",
+               0,
+           ],
+       ],
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1510,8 +1729,29 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsGoogleRelevantPagesLiveRequestInfo();
- let response = await api.googleRelevantPagesLive([task]);
+ let response = await api.googleRelevantPagesLive([
+   [
+       new DataforseoLabsGoogleRelevantPagesLiveRequestInfo({
+           target: "amazon.com",
+           language_name: "English",
+           location_code: 2840,
+           filters: [
+           [
+               "metrics.organic.pos_1",
+               "<>",
+               0,
+           ],
+           "or",
+           [
+               "metrics.organic.pos_2_3",
+               "<>",
+               0,
+           ],
+       ],
+           limit: 3,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1567,8 +1807,15 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo();
- let response = await api.googleDomainRankOverviewLive([task]);
+ let response = await api.googleDomainRankOverviewLive([
+   [
+       new DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo({
+           target: "dataforseo.com",
+           language_name: "English",
+           location_code: 2840,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1624,8 +1871,17 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo();
- let response = await api.googleHistoricalSerpsLive([task]);
+ let response = await api.googleHistoricalSerpsLive([
+   [
+       new DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo({
+           keyword: "albert einstein",
+           location_code: 2840,
+           language_code: "en",
+           date_from: ,
+           date_to: ,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1681,8 +1937,17 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo();
- let response = await api.googleHistoricalRankOverviewLive([task]);
+ let response = await api.googleHistoricalRankOverviewLive([
+   [
+       new DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo({
+           target: "dataforseo.com",
+           location_code: 2840,
+           language_code: "en",
+           date_from: ,
+           date_to: ,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1738,8 +2003,20 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsGooglePageIntersectionLiveRequestInfo();
- let response = await api.googlePageIntersectionLive([task]);
+ let response = await api.googlePageIntersectionLive([
+   [
+       new DataforseoLabsGooglePageIntersectionLiveRequestInfo({
+           pages: {
+           "1": "https://forbes.com",
+           "2": "https://cnn.com/*",
+       },
+           language_name: "English",
+           location_code: 2840,
+           include_serp_info: true,
+           limit: 3,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1795,8 +2072,23 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo();
- let response = await api.googleBulkTrafficEstimationLive([task]);
+ let response = await api.googleBulkTrafficEstimationLive([
+   [
+       new DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo({
+           targets: [
+           "dataforseo.com",
+           "cnn.com",
+           "forbes.com",
+       ],
+           location_code: 2840,
+           language_code: "en",
+           item_types: [
+           "organic",
+           "paid",
+       ],
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1852,8 +2144,25 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo();
- let response = await api.googleHistoricalBulkTrafficEstimationLive([task]);
+ let response = await api.googleHistoricalBulkTrafficEstimationLive([
+   [
+       new DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo({
+           targets: [
+           "dataforseo.com",
+           "cnn.com",
+           "forbes.com",
+       ],
+           location_code: 2840,
+           language_code: "en",
+           date_from: ,
+           date_to: ,
+           item_types: [
+           "organic",
+           "paid",
+       ],
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1909,8 +2218,17 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsGoogleHistoricalKeywordDataLiveRequestInfo();
- let response = await api.googleHistoricalKeywordDataLive([task]);
+ let response = await api.googleHistoricalKeywordDataLive([
+   [
+       new DataforseoLabsGoogleHistoricalKeywordDataLiveRequestInfo({
+           language_code: "en",
+           location_code: 2840,
+           keywords: [
+           "iphone",
+       ],
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1966,8 +2284,19 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsGoogleKeywordOverviewLiveRequestInfo();
- let response = await api.googleKeywordOverviewLive([task]);
+ let response = await api.googleKeywordOverviewLive([
+   [
+       new DataforseoLabsGoogleKeywordOverviewLiveRequestInfo({
+           language_code: "en",
+           location_code: 2840,
+           include_clickstream_data: true,
+           include_serp_info: true,
+           keywords: [
+           "iphone",
+       ],
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -2023,8 +2352,19 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo();
- let response = await api.amazonBulkSearchVolumeLive([task]);
+ let response = await api.amazonBulkSearchVolumeLive([
+   [
+       new DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo({
+           keywords: [
+           "buy laptop",
+           "cheap laptops for sale",
+           "purchase laptop",
+       ],
+           location_code: 2840,
+           language_code: "en",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -2080,8 +2420,17 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo();
- let response = await api.amazonRelatedKeywordsLive([task]);
+ let response = await api.amazonRelatedKeywordsLive([
+   [
+       new DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo({
+           keyword: "computer mouse",
+           language_name: "English",
+           location_code: 2840,
+           limit: 5,
+           include_seed_keyword: true,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -2137,8 +2486,15 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsAmazonRankedKeywordsLiveRequestInfo();
- let response = await api.amazonRankedKeywordsLive([task]);
+ let response = await api.amazonRankedKeywordsLive([
+   [
+       new DataforseoLabsAmazonRankedKeywordsLiveRequestInfo({
+           asin: "B00R92CL5E",
+           location_code: 2840,
+           language_code: "en",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -2194,8 +2550,18 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsAmazonProductRankOverviewLiveRequestInfo();
- let response = await api.amazonProductRankOverviewLive([task]);
+ let response = await api.amazonProductRankOverviewLive([
+   [
+       new DataforseoLabsAmazonProductRankOverviewLiveRequestInfo({
+           asins: [
+           "B001TJ3HUG",
+           "B01LW2SL7R",
+       ],
+           language_name: "English",
+           location_code: 2840,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -2251,8 +2617,15 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsAmazonProductCompetitorsLiveRequestInfo();
- let response = await api.amazonProductCompetitorsLive([task]);
+ let response = await api.amazonProductCompetitorsLive([
+   [
+       new DataforseoLabsAmazonProductCompetitorsLiveRequestInfo({
+           asin: "019005476X",
+           location_code: 2840,
+           language_code: "en",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -2308,8 +2681,19 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo();
- let response = await api.amazonProductKeywordIntersectionsLive([task]);
+ let response = await api.amazonProductKeywordIntersectionsLive([
+   [
+       new DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo({
+           asins: {
+           "1": "B09172433Z",
+           "2": "B07GBZ4Q68",
+           "3": "B07GCKQD77",
+       },
+           language_name: "English",
+           location_code: 2840,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -2365,8 +2749,19 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo();
- let response = await api.bingBulkKeywordDifficultyLive([task]);
+ let response = await api.bingBulkKeywordDifficultyLive([
+   [
+       new DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo({
+           location_code: 2840,
+           language_code: "en",
+           keywords: [
+           "dentist new york",
+           "pizza brooklyn",
+           "car dealer los angeles",
+       ],
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -2422,8 +2817,23 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo();
- let response = await api.bingBulkTrafficEstimationLive([task]);
+ let response = await api.bingBulkTrafficEstimationLive([
+   [
+       new DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo({
+           targets: [
+           "dataforseo.com",
+           "cnn.com",
+           "forbes.com",
+       ],
+           location_code: 2840,
+           language_code: "en",
+           item_types: [
+           "organic",
+           "paid",
+       ],
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -2479,8 +2889,21 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsBingCompetitorsDomainLiveRequestInfo();
- let response = await api.bingCompetitorsDomainLive([task]);
+ let response = await api.bingCompetitorsDomainLive([
+   [
+       new DataforseoLabsBingCompetitorsDomainLiveRequestInfo({
+           target: "newmouth.com",
+           intersecting_domains: [
+           "dentaly.org",
+           "health.com",
+           "trysnow.com",
+       ],
+           language_name: "English",
+           location_code: 2840,
+           limit: 3,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -2536,8 +2959,30 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsBingDomainIntersectionLiveRequestInfo();
- let response = await api.bingDomainIntersectionLive([task]);
+ let response = await api.bingDomainIntersectionLive([
+   [
+       new DataforseoLabsBingDomainIntersectionLiveRequestInfo({
+           target_1: "mom.me",
+           target_2: "quora.com",
+           language_code: "en",
+           location_code: 2840,
+           filters: [
+           [
+               "first_domain_serp_element.etv",
+               ">",
+               0,
+           ],
+           "and",
+           [
+               "first_domain_serp_element.description",
+               "like",
+               "%goat%",
+           ],
+       ],
+           limit: 5,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -2593,8 +3038,15 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsBingDomainRankOverviewLiveRequestInfo();
- let response = await api.bingDomainRankOverviewLive([task]);
+ let response = await api.bingDomainRankOverviewLive([
+   [
+       new DataforseoLabsBingDomainRankOverviewLiveRequestInfo({
+           target: "dataforseo.com",
+           language_name: "English",
+           location_code: 2840,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -2650,8 +3102,19 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsBingPageIntersectionLiveRequestInfo();
- let response = await api.bingPageIntersectionLive([task]);
+ let response = await api.bingPageIntersectionLive([
+   [
+       new DataforseoLabsBingPageIntersectionLiveRequestInfo({
+           pages: {
+           "1": "https://dataforseo.com",
+           "2": "https://ahrefs.com/*",
+       },
+           language_name: "English",
+           location_code: 2840,
+           limit: 3,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -2707,8 +3170,17 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsBingRankedKeywordsLiveRequestInfo();
- let response = await api.bingRankedKeywordsLive([task]);
+ let response = await api.bingRankedKeywordsLive([
+   [
+       new DataforseoLabsBingRankedKeywordsLiveRequestInfo({
+           target: "dataforseo.com",
+           language_name: "English",
+           location_name: "United States",
+           load_rank_absolute: true,
+           limit: 3,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -2764,8 +3236,16 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsBingRelatedKeywordsLiveRequestInfo();
- let response = await api.bingRelatedKeywordsLive([task]);
+ let response = await api.bingRelatedKeywordsLive([
+   [
+       new DataforseoLabsBingRelatedKeywordsLiveRequestInfo({
+           keyword: "phone",
+           language_name: "English",
+           location_code: 2840,
+           limit: 3,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -2821,8 +3301,29 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsBingRelevantPagesLiveRequestInfo();
- let response = await api.bingRelevantPagesLive([task]);
+ let response = await api.bingRelevantPagesLive([
+   [
+       new DataforseoLabsBingRelevantPagesLiveRequestInfo({
+           target: "dataforseo.com",
+           language_name: "English",
+           location_code: 2840,
+           filters: [
+           [
+               "metrics.organic.pos_1",
+               "<>",
+               0,
+           ],
+           "or",
+           [
+               "metrics.organic.pos_2_3",
+               "<>",
+               0,
+           ],
+       ],
+           limit: 5,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -2878,8 +3379,21 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsBingSerpCompetitorsLiveRequestInfo();
- let response = await api.bingSerpCompetitorsLive([task]);
+ let response = await api.bingSerpCompetitorsLive([
+   [
+       new DataforseoLabsBingSerpCompetitorsLiveRequestInfo({
+           keywords: [
+           "phone",
+       ],
+           language_name: "English",
+           location_code: 2840,
+           item_types: [
+           "organic",
+       ],
+           limit: 5,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -2935,8 +3449,29 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsBingSubdomainsLiveRequestInfo();
- let response = await api.bingSubdomainsLive([task]);
+ let response = await api.bingSubdomainsLive([
+   [
+       new DataforseoLabsBingSubdomainsLiveRequestInfo({
+           target: "dataforseo.com",
+           language_name: "English",
+           location_code: 2840,
+           filters: [
+           [
+               "metrics.organic.pos_1",
+               "<>",
+               0,
+           ],
+           "or",
+           [
+               "metrics.organic.pos_2_3",
+               "<>",
+               0,
+           ],
+       ],
+           limit: 5,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -2992,8 +3527,18 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo();
- let response = await api.googleBulkAppMetricsLive([task]);
+ let response = await api.googleBulkAppMetricsLive([
+   [
+       new DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo({
+           app_ids: [
+           "org.telegram.messenger",
+           "com.zhiliaoapp.musically",
+       ],
+           language_name: "English",
+           location_code: 2840,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -3049,8 +3594,16 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsGoogleKeywordsForAppLiveRequestInfo();
- let response = await api.googleKeywordsForAppLive([task]);
+ let response = await api.googleKeywordsForAppLive([
+   [
+       new DataforseoLabsGoogleKeywordsForAppLiveRequestInfo({
+           app_id: "org.telegram.messenger",
+           language_name: "English",
+           location_code: 2840,
+           limit: 10,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -3106,8 +3659,16 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsGoogleAppCompetitorsLiveRequestInfo();
- let response = await api.googleAppCompetitorsLive([task]);
+ let response = await api.googleAppCompetitorsLive([
+   [
+       new DataforseoLabsGoogleAppCompetitorsLiveRequestInfo({
+           app_id: "org.telegram.messenger",
+           language_name: "English",
+           location_code: 2840,
+           limit: 10,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -3163,8 +3724,19 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsGoogleAppIntersectionLiveRequestInfo();
- let response = await api.googleAppIntersectionLive([task]);
+ let response = await api.googleAppIntersectionLive([
+   [
+       new DataforseoLabsGoogleAppIntersectionLiveRequestInfo({
+           app_ids: {
+           "1": "org.telegram.messenger",
+           "2": "com.zhiliaoapp.musically",
+       },
+           language_name: "English",
+           location_code: 2840,
+           limit: 10,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -3220,8 +3792,18 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsAppleBulkAppMetricsLiveRequestInfo();
- let response = await api.appleBulkAppMetricsLive([task]);
+ let response = await api.appleBulkAppMetricsLive([
+   [
+       new DataforseoLabsAppleBulkAppMetricsLiveRequestInfo({
+           app_ids: [
+           "686449807",
+           "382617920",
+       ],
+           language_name: "English",
+           location_code: 2840,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -3277,8 +3859,16 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsAppleKeywordsForAppLiveRequestInfo();
- let response = await api.appleKeywordsForAppLive([task]);
+ let response = await api.appleKeywordsForAppLive([
+   [
+       new DataforseoLabsAppleKeywordsForAppLiveRequestInfo({
+           app_id: "686449807",
+           language_name: "English",
+           location_code: 2840,
+           limit: 10,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -3334,8 +3924,16 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsAppleAppCompetitorsLiveRequestInfo();
- let response = await api.appleAppCompetitorsLive([task]);
+ let response = await api.appleAppCompetitorsLive([
+   [
+       new DataforseoLabsAppleAppCompetitorsLiveRequestInfo({
+           app_id: "686449807",
+           language_name: "English",
+           location_code: 2840,
+           limit: 10,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -3391,8 +3989,19 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new DataforseoLabsAppleAppIntersectionLiveRequestInfo();
- let response = await api.appleAppIntersectionLive([task]);
+ let response = await api.appleAppIntersectionLive([
+   [
+       new DataforseoLabsAppleAppIntersectionLiveRequestInfo({
+           app_ids: {
+           "1": "686449807",
+           "2": "382617920",
+       },
+           language_name: "English",
+           location_code: 2840,
+           limit: 10,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters

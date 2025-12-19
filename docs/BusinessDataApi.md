@@ -88,8 +88,18 @@ All URIs are relative to *https://api.dataforseo.com*
    }
  });
 
- let task = new BusinessDataIdListRequestInfo();
- let response = await api.businessDataIdList([task]);
+ let response = await api.businessDataIdList([
+   [
+       new BusinessDataIdListRequestInfo({
+           datetime_from: ,
+           datetime_to: ,
+           limit: 100,
+           offset: 0,
+           sort: "desc",
+           include_metadata: true,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -145,8 +155,15 @@ All URIs are relative to *https://api.dataforseo.com*
    }
  });
 
- let task = new BusinessDataErrorsRequestInfo();
- let response = await api.businessDataErrors([task]);
+ let response = await api.businessDataErrors([
+   [
+       new BusinessDataErrorsRequestInfo({
+           limit: 10,
+           offset: 0,
+           filtered_function: "pingback_url",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -370,8 +387,30 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BusinessDataBusinessListingsSearchLiveRequestInfo();
- let response = await api.businessListingsSearchLive([task]);
+ let response = await api.businessListingsSearchLive([
+   [
+       new BusinessDataBusinessListingsSearchLiveRequestInfo({
+           categories: [
+           "pizza_restaurant",
+       ],
+           description: "pizza",
+           title: "pizza",
+           is_claimed: true,
+           location_coordinate: "53.476225,-2.243572,10",
+           order_by: [
+           "rating.value,desc",
+       ],
+           filters: [
+           [
+               "rating.value",
+               ">",
+               3,
+           ],
+       ],
+           limit: 3,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -427,8 +466,27 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo();
- let response = await api.businessListingsCategoriesAggregationLive([task]);
+ let response = await api.businessListingsCategoriesAggregationLive([
+   [
+       new BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo({
+           categories: [
+           "pizza_restaurant",
+       ],
+           description: "pizza",
+           title: "pizza",
+           is_claimed: true,
+           location_coordinate: "53.476225,-2.243572,10",
+           initial_dataset_filters: [
+           [
+               "rating.value",
+               ">",
+               3,
+           ],
+       ],
+           limit: 3,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -653,8 +711,15 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BusinessDataGoogleMyBusinessInfoTaskPostRequestInfo();
- let response = await api.googleMyBusinessInfoTaskPost([task]);
+ let response = await api.googleMyBusinessInfoTaskPost([
+   [
+       new BusinessDataGoogleMyBusinessInfoTaskPostRequestInfo({
+           language_code: "en",
+           location_name: "New York,New York,United States",
+           keyword: "RustyBrick, Inc.",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -879,8 +944,15 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BusinessDataGoogleMyBusinessInfoLiveRequestInfo();
- let response = await api.googleMyBusinessInfoLive([task]);
+ let response = await api.googleMyBusinessInfoLive([
+   [
+       new BusinessDataGoogleMyBusinessInfoLiveRequestInfo({
+           language_code: "en",
+           location_name: "New York,New York,United States",
+           keyword: "RustyBrick, Inc.",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -936,8 +1008,15 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo();
- let response = await api.googleMyBusinessUpdatesTaskPost([task]);
+ let response = await api.googleMyBusinessUpdatesTaskPost([
+   [
+       new BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo({
+           language_code: "en",
+           location_name: "New York,New York,United States",
+           keyword: "RustyBrick, Inc.",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1106,8 +1185,25 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BusinessDataGoogleHotelSearchesTaskPostRequestInfo();
- let response = await api.googleHotelSearchesTaskPost([task]);
+ let response = await api.googleHotelSearchesTaskPost([
+   [
+       new BusinessDataGoogleHotelSearchesTaskPostRequestInfo({
+           language_code: "en",
+           location_name: "New York,New York,United States",
+           keyword: "cheap hotel",
+           check_in: ,
+           check_out: ,
+           currency: "USD",
+           adults: 2,
+           children: [
+           14,
+       ],
+           sort_by: "highest_rating",
+           priority: 2,
+           tag: "example",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1276,8 +1372,24 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BusinessDataGoogleHotelSearchesLiveRequestInfo();
- let response = await api.googleHotelSearchesLive([task]);
+ let response = await api.googleHotelSearchesLive([
+   [
+       new BusinessDataGoogleHotelSearchesLiveRequestInfo({
+           language_code: "en",
+           location_name: "New York,New York,United States",
+           keyword: "cheap hotel",
+           check_in: ,
+           check_out: ,
+           currency: "USD",
+           adults: 2,
+           children: [
+           14,
+       ],
+           sort_by: "highest_rating",
+           tag: "example",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1333,8 +1445,18 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BusinessDataGoogleHotelInfoTaskPostRequestInfo();
- let response = await api.googleHotelInfoTaskPost([task]);
+ let response = await api.googleHotelInfoTaskPost([
+   [
+       new BusinessDataGoogleHotelInfoTaskPostRequestInfo({
+           language_code: "en",
+           location_name: "New York,New York,United States",
+           hotel_identifier: "ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE",
+           tag: "some_string_123",
+           postback_url: "https://your-server.com/postbackscript.php",
+           postback_data: "advanced",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1560,8 +1682,15 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo();
- let response = await api.googleHotelInfoLiveAdvanced([task]);
+ let response = await api.googleHotelInfoLiveAdvanced([
+   [
+       new BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo({
+           language_code: "en",
+           location_name: "New York,New York,United States",
+           hotel_identifier: "CgoI-KWyzenM_MV3EAE",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1617,8 +1746,15 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BusinessDataGoogleHotelInfoLiveHtmlRequestInfo();
- let response = await api.googleHotelInfoLiveHtml([task]);
+ let response = await api.googleHotelInfoLiveHtml([
+   [
+       new BusinessDataGoogleHotelInfoLiveHtmlRequestInfo({
+           language_code: "en",
+           location_name: "New York,New York,United States",
+           hotel_identifier: "ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1674,8 +1810,17 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BusinessDataGoogleReviewsTaskPostRequestInfo();
- let response = await api.googleReviewsTaskPost([task]);
+ let response = await api.googleReviewsTaskPost([
+   [
+       new BusinessDataGoogleReviewsTaskPostRequestInfo({
+           location_name: "London,England,United Kingdom",
+           language_name: "English",
+           keyword: "hedonism wines",
+           depth: 50,
+           sort_by: "highest_rating",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1844,8 +1989,15 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BusinessDataGoogleExtendedReviewsTaskPostRequestInfo();
- let response = await api.googleExtendedReviewsTaskPost([task]);
+ let response = await api.googleExtendedReviewsTaskPost([
+   [
+       new BusinessDataGoogleExtendedReviewsTaskPostRequestInfo({
+           location_name: "London,England,United Kingdom",
+           language_name: "english",
+           cid: "17626775537598922320",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -2014,8 +2166,15 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo();
- let response = await api.googleQuestionsAndAnswersTaskPost([task]);
+ let response = await api.googleQuestionsAndAnswersTaskPost([
+   [
+       new BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo({
+           language_code: "en",
+           location_name: "Los Angeles,California,United States",
+           keyword: "The Last Bookstore",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -2184,8 +2343,15 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo();
- let response = await api.googleQuestionsAndAnswersLive([task]);
+ let response = await api.googleQuestionsAndAnswersLive([
+   [
+       new BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo({
+           language_code: "en",
+           location_name: "Los Angeles,California,United States",
+           keyword: "The Last Bookstore",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -2241,8 +2407,14 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BusinessDataTrustpilotSearchTaskPostRequestInfo();
- let response = await api.trustpilotSearchTaskPost([task]);
+ let response = await api.trustpilotSearchTaskPost([
+   [
+       new BusinessDataTrustpilotSearchTaskPostRequestInfo({
+           keyword: "pizza restaurant",
+           depth: 20,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -2411,8 +2583,14 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BusinessDataTrustpilotReviewsTaskPostRequestInfo();
- let response = await api.trustpilotReviewsTaskPost([task]);
+ let response = await api.trustpilotReviewsTaskPost([
+   [
+       new BusinessDataTrustpilotReviewsTaskPostRequestInfo({
+           domain: "www.thepearlsource.com",
+           depth: 40,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -2750,8 +2928,15 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BusinessDataTripadvisorSearchTaskPostRequestInfo();
- let response = await api.tripadvisorSearchTaskPost([task]);
+ let response = await api.tripadvisorSearchTaskPost([
+   [
+       new BusinessDataTripadvisorSearchTaskPostRequestInfo({
+           keyword: "pizza",
+           location_code: 1003854,
+           depth: 30,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -2920,8 +3105,16 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BusinessDataTripadvisorReviewsTaskPostRequestInfo();
- let response = await api.tripadvisorReviewsTaskPost([task]);
+ let response = await api.tripadvisorReviewsTaskPost([
+   [
+       new BusinessDataTripadvisorReviewsTaskPostRequestInfo({
+           url_path: "Hotel_Review-g60763-d23462501-Reviews-Margaritaville_Times_Square-New_York_City_New_York.html",
+           location_code: 1003854,
+           pingback_url: "https://your-server.com/pingback.php?id=$id&tag=$tag",
+           tag: "some_string_123",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -3090,8 +3283,18 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BusinessDataSocialMediaPinterestLiveRequestInfo();
- let response = await api.socialMediaPinterestLive([task]);
+ let response = await api.socialMediaPinterestLive([
+   [
+       new BusinessDataSocialMediaPinterestLiveRequestInfo({
+           targets: [
+           "https://www.simplyrecipes.com/recipes/grilled_salmon_with_cucumber_mango_salsa/",
+           "https://tasty.co/recipe/classic-lasagna",
+           "https://www.allrecipes.com/recipe/255263/sicilian-roasted-chicken/",
+       ],
+           tag: "some_string_123",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -3147,8 +3350,18 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BusinessDataSocialMediaFacebookLiveRequestInfo();
- let response = await api.socialMediaFacebookLive([task]);
+ let response = await api.socialMediaFacebookLive([
+   [
+       new BusinessDataSocialMediaFacebookLiveRequestInfo({
+           targets: [
+           "https://prnt.sc/",
+           "https://developers.facebook.com/docs/plugins/like-button/",
+           "https://www.shbarcelona.com/blog/en/salsa-dance-clubs-in-barcelona/",
+       ],
+           tag: "some_string_123",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -3204,8 +3417,21 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BusinessDataSocialMediaRedditLiveRequestInfo();
- let response = await api.socialMediaRedditLive([task]);
+ let response = await api.socialMediaRedditLive([
+   [
+       new BusinessDataSocialMediaRedditLiveRequestInfo({
+           targets: [
+           "https://vk.com/",
+           "https://ahrefs.com/",
+           "https://google.com/",
+           "https://twitter.com/",
+           "https://reddit.com/",
+           "https://facebook.com/",
+       ],
+           tag: "some_string_123",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters

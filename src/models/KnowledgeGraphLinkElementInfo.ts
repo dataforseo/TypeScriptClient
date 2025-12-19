@@ -3,7 +3,7 @@ export interface IKnowledgeGraphLinkElementInfo   {
         /** type of element */
         type?: string | undefined
         
-        /** title of the result in SERP */
+        /** title of the link */
         title?: string | undefined
         
         /** relevant URL */
@@ -28,7 +28,7 @@ export class KnowledgeGraphLinkElementInfo  implements IKnowledgeGraphLinkElemen
 
     type?: string | undefined;
     
-    /** title of the result in SERP */
+    /** title of the link */
 
     title?: string | undefined;
     

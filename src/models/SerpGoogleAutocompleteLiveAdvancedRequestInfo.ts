@@ -9,32 +9,16 @@ if you need to use the “+” character for your keyword, please specify it as 
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
         keyword?: string | undefined
         
-        /** full name of search engine location
-required field if you don’t specify location_code
-if you use this field, you don’t need to specify location_code;
-you can receive the list of available locations of the search engine with their location_name by making a separate request to https://api.dataforseo.com/v3/serp/google/autocomplete/locations
-example:
-London,England,United Kingdom */
-        location_name?: string | undefined
-        
         /** search engine location code
-required field if you don’t specify location_name;
+required field if you don't specify location_name;
 you can receive the list of available locations of the search engines with their location_code by making a separate request to https://api.dataforseo.com/v3/serp/google/locations
 example:
 2840 */
         location_code?: number | undefined
         
-        /** full name of search engine language
-required field if you don’t specify language_code
-if you use this field, you don’t need to specify language_code;
-you can receive the list of available languages of the search engine with their language_name by making a separate request to https://api.dataforseo.com/v3/serp/google/languages
-example:
-English */
-        language_name?: string | undefined
-        
         /** search engine language code
-required field if you don’t specify language_name
-if you use this field, you don’t need to specify language_name;
+required field if you don't specify language_name
+if you use this field, you don't need to specify language_name;
 you can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/serp/google/languages
 example:
 en */
@@ -47,10 +31,26 @@ by modifying the position of the cursor pointer, you will obtain different autoc
 minimal value: 0
 default value: the number of the last character of the specified keyword
 example:
-|which query are s – 'cursor_pointer': 0
-which query is s| – 'cursor_pointer': 16
-which que|ry is s – 'cursor_pointer': 9 */
+|which query are s - 'cursor_pointer': 0
+which query is s| - 'cursor_pointer': 16
+which que|ry is s - 'cursor_pointer': 9 */
         cursor_pointer?: number | undefined
+        
+        /** full name of search engine location
+required field if you don't specify location_code
+if you use this field, you don't need to specify location_code;
+you can receive the list of available locations of the search engine with their location_name by making a separate request to https://api.dataforseo.com/v3/serp/google/autocomplete/locations
+example:
+London,England,United Kingdom */
+        location_name?: string | undefined
+        
+        /** full name of search engine language
+required field if you don't specify language_code
+if you use this field, you don't need to specify language_code;
+you can receive the list of available languages of the search engine with their language_name by making a separate request to https://api.dataforseo.com/v3/serp/google/languages
+example:
+English */
+        language_name?: string | undefined
         
         /** search client for autocomplete
 optional field
@@ -66,7 +66,7 @@ psy-ab — may be used when google search is opened in google chrome browser;
 toolbar — returns XML;
 youtube — returns JSONP;
 gws-wiz-local — used in google local;
-img — used in google’s image search;
+img — used in google's image search;
 products-cc — used in google shopping search */
         client?: string | undefined
         
@@ -93,35 +93,17 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 
     keyword?: string | undefined;
     
-    /** full name of search engine location
-required field if you don’t specify location_code
-if you use this field, you don’t need to specify location_code;
-you can receive the list of available locations of the search engine with their location_name by making a separate request to https://api.dataforseo.com/v3/serp/google/autocomplete/locations
-example:
-London,England,United Kingdom */
-
-    location_name?: string | undefined;
-    
     /** search engine location code
-required field if you don’t specify location_name;
+required field if you don't specify location_name;
 you can receive the list of available locations of the search engines with their location_code by making a separate request to https://api.dataforseo.com/v3/serp/google/locations
 example:
 2840 */
 
     location_code?: number | undefined;
     
-    /** full name of search engine language
-required field if you don’t specify language_code
-if you use this field, you don’t need to specify language_code;
-you can receive the list of available languages of the search engine with their language_name by making a separate request to https://api.dataforseo.com/v3/serp/google/languages
-example:
-English */
-
-    language_name?: string | undefined;
-    
     /** search engine language code
-required field if you don’t specify language_name
-if you use this field, you don’t need to specify language_name;
+required field if you don't specify language_name
+if you use this field, you don't need to specify language_name;
 you can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/serp/google/languages
 example:
 en */
@@ -135,11 +117,29 @@ by modifying the position of the cursor pointer, you will obtain different autoc
 minimal value: 0
 default value: the number of the last character of the specified keyword
 example:
-|which query are s – 'cursor_pointer': 0
-which query is s| – 'cursor_pointer': 16
-which que|ry is s – 'cursor_pointer': 9 */
+|which query are s - 'cursor_pointer': 0
+which query is s| - 'cursor_pointer': 16
+which que|ry is s - 'cursor_pointer': 9 */
 
     cursor_pointer?: number | undefined;
+    
+    /** full name of search engine location
+required field if you don't specify location_code
+if you use this field, you don't need to specify location_code;
+you can receive the list of available locations of the search engine with their location_name by making a separate request to https://api.dataforseo.com/v3/serp/google/autocomplete/locations
+example:
+London,England,United Kingdom */
+
+    location_name?: string | undefined;
+    
+    /** full name of search engine language
+required field if you don't specify language_code
+if you use this field, you don't need to specify language_code;
+you can receive the list of available languages of the search engine with their language_name by making a separate request to https://api.dataforseo.com/v3/serp/google/languages
+example:
+English */
+
+    language_name?: string | undefined;
     
     /** search client for autocomplete
 optional field
@@ -155,7 +155,7 @@ psy-ab — may be used when google search is opened in google chrome browser;
 toolbar — returns XML;
 youtube — returns JSONP;
 gws-wiz-local — used in google local;
-img — used in google’s image search;
+img — used in google's image search;
 products-cc — used in google shopping search */
 
     client?: string | undefined;
@@ -189,11 +189,11 @@ you will find the specified tag value in the data object of the response */
                     this[property] = data[property];
             }
             this.keyword = data["keyword"];
-            this.location_name = data["location_name"];
             this.location_code = data["location_code"];
-            this.language_name = data["language_name"];
             this.language_code = data["language_code"];
             this.cursor_pointer = data["cursor_pointer"];
+            this.location_name = data["location_name"];
+            this.language_name = data["language_name"];
             this.client = data["client"];
             this.tag = data["tag"];
         }
@@ -214,11 +214,11 @@ you will find the specified tag value in the data object of the response */
         
         
         data["keyword"] = this.keyword;
-        data["location_name"] = this.location_name;
         data["location_code"] = this.location_code;
-        data["language_name"] = this.language_name;
         data["language_code"] = this.language_code;
         data["cursor_pointer"] = this.cursor_pointer;
+        data["location_name"] = this.location_name;
+        data["language_name"] = this.language_name;
         data["client"] = this.client;
         data["tag"] = this.tag;
         return data;

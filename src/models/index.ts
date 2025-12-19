@@ -991,10 +991,10 @@ export  { DataforseoLabsGoogleDomainWhoisOverviewLiveResponseInfo, IDataforseoLa
 export  { DataforseoLabsGoogleRankedKeywordsLiveRequestInfo, IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo } from "./DataforseoLabsGoogleRankedKeywordsLiveRequestInfo";
 export  { RankChanges, IRankChanges } from "./RankChanges";
 export  { RankInfo, IRankInfo } from "./RankInfo";
-export  { DataLabsOrganicSerpElementItem, IDataLabsOrganicSerpElementItem } from "./BaseDataforseoLabsApiElementItem";
+export  { DataLabsPaidSerpElementItem, IDataLabsPaidSerpElementItem } from "./BaseDataforseoLabsApiElementItem";
 export  { RankedSerpElement, IRankedSerpElement } from "./RankedSerpElement";
 export  { DataforseoLabsRankedKeywordsLiveItem, IDataforseoLabsRankedKeywordsLiveItem } from "./DataforseoLabsRankedKeywordsLiveItem";
-export  { DataLabsPaidSerpElementItem, IDataLabsPaidSerpElementItem } from "./BaseDataforseoLabsApiElementItem";
+export  { DataLabsLocalPackSerpElementItem, IDataLabsLocalPackSerpElementItem } from "./BaseDataforseoLabsApiElementItem";
 export  { DataforseoLabsGoogleRankedKeywordsLiveResultInfo, IDataforseoLabsGoogleRankedKeywordsLiveResultInfo } from "./DataforseoLabsGoogleRankedKeywordsLiveResultInfo";
 export  { DataforseoLabsGoogleRankedKeywordsLiveTaskInfo, IDataforseoLabsGoogleRankedKeywordsLiveTaskInfo } from "./DataforseoLabsGoogleRankedKeywordsLiveTaskInfo";
 export  { DataforseoLabsGoogleRankedKeywordsLiveResponseInfo, IDataforseoLabsGoogleRankedKeywordsLiveResponseInfo } from "./DataforseoLabsGoogleRankedKeywordsLiveResponseInfo";
@@ -1009,7 +1009,7 @@ export  { DataforseoLabsGoogleCompetitorsDomainLiveResultInfo, IDataforseoLabsGo
 export  { DataforseoLabsGoogleCompetitorsDomainLiveTaskInfo, IDataforseoLabsGoogleCompetitorsDomainLiveTaskInfo } from "./DataforseoLabsGoogleCompetitorsDomainLiveTaskInfo";
 export  { DataforseoLabsGoogleCompetitorsDomainLiveResponseInfo, IDataforseoLabsGoogleCompetitorsDomainLiveResponseInfo } from "./DataforseoLabsGoogleCompetitorsDomainLiveResponseInfo";
 export  { DataforseoLabsGoogleDomainIntersectionLiveRequestInfo, IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo } from "./DataforseoLabsGoogleDomainIntersectionLiveRequestInfo";
-export  { DataLabsLocalPackSerpElementItem, IDataLabsLocalPackSerpElementItem } from "./BaseDataforseoLabsApiElementItem";
+export  { DataLabsOrganicSerpElementItem, IDataLabsOrganicSerpElementItem } from "./BaseDataforseoLabsApiElementItem";
 export  { DataforseoLabsDomainIntersectionLiveItem, IDataforseoLabsDomainIntersectionLiveItem } from "./DataforseoLabsDomainIntersectionLiveItem";
 export  { DataLabsFeaturedSnippetSerpElementItem, IDataLabsFeaturedSnippetSerpElementItem } from "./BaseDataforseoLabsApiElementItem";
 export  { DataforseoLabsGoogleDomainIntersectionLiveResultInfo, IDataforseoLabsGoogleDomainIntersectionLiveResultInfo } from "./DataforseoLabsGoogleDomainIntersectionLiveResultInfo";
@@ -1703,6 +1703,15 @@ export  { AiOptimizationChatGptLlmScraperTaskGetAdvancedResponseInfo, IAiOptimiz
 export  { AiOptimizationChatGptLlmScraperTaskGetHtmlResultInfo, IAiOptimizationChatGptLlmScraperTaskGetHtmlResultInfo } from "./AiOptimizationChatGptLlmScraperTaskGetHtmlResultInfo";
 export  { AiOptimizationChatGptLlmScraperTaskGetHtmlTaskInfo, IAiOptimizationChatGptLlmScraperTaskGetHtmlTaskInfo } from "./AiOptimizationChatGptLlmScraperTaskGetHtmlTaskInfo";
 export  { AiOptimizationChatGptLlmScraperTaskGetHtmlResponseInfo, IAiOptimizationChatGptLlmScraperTaskGetHtmlResponseInfo } from "./AiOptimizationChatGptLlmScraperTaskGetHtmlResponseInfo";
+export  { AiOptimizationChatGptLlmScraperLiveAdvancedRequestInfo, IAiOptimizationChatGptLlmScraperLiveAdvancedRequestInfo } from "./AiOptimizationChatGptLlmScraperLiveAdvancedRequestInfo";
+export  { AiOptimizationChatGptLlmScraperLiveAdvancedResultInfo, IAiOptimizationChatGptLlmScraperLiveAdvancedResultInfo } from "./AiOptimizationChatGptLlmScraperLiveAdvancedResultInfo";
+export  { AiOptimizationChatGptLlmScraperLiveAdvancedTaskInfo, IAiOptimizationChatGptLlmScraperLiveAdvancedTaskInfo } from "./AiOptimizationChatGptLlmScraperLiveAdvancedTaskInfo";
+export  { AiOptimizationChatGptLlmScraperLiveAdvancedResponseInfo, IAiOptimizationChatGptLlmScraperLiveAdvancedResponseInfo } from "./AiOptimizationChatGptLlmScraperLiveAdvancedResponseInfo";
+export  { AiOptimizationChatGptLlmScraperLiveHtmlRequestInfo, IAiOptimizationChatGptLlmScraperLiveHtmlRequestInfo } from "./AiOptimizationChatGptLlmScraperLiveHtmlRequestInfo";
+export  { AiOptimizationChatGptLlmScraperLiveHtmlResultInfo, IAiOptimizationChatGptLlmScraperLiveHtmlResultInfo } from "./AiOptimizationChatGptLlmScraperLiveHtmlResultInfo";
+export  { AiOptimizationChatGptLlmScraperLiveHtmlTaskInfo, IAiOptimizationChatGptLlmScraperLiveHtmlTaskInfo } from "./AiOptimizationChatGptLlmScraperLiveHtmlTaskInfo";
+export  { AiOptimizationChatGptLlmScraperLiveHtmlResponseInfo, IAiOptimizationChatGptLlmScraperLiveHtmlResponseInfo } from "./AiOptimizationChatGptLlmScraperLiveHtmlResponseInfo";
+export  { ResultAvailableLanguages, IResultAvailableLanguages } from "./ResultAvailableLanguages";
 export  { AiOptimizationLlmMentionsLocationsAndLanguagesResultInfo, IAiOptimizationLlmMentionsLocationsAndLanguagesResultInfo } from "./AiOptimizationLlmMentionsLocationsAndLanguagesResultInfo";
 export  { AiOptimizationLlmMentionsLocationsAndLanguagesTaskInfo, IAiOptimizationLlmMentionsLocationsAndLanguagesTaskInfo } from "./AiOptimizationLlmMentionsLocationsAndLanguagesTaskInfo";
 export  { AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo, IAiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo } from "./AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo";

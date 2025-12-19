@@ -62,8 +62,18 @@ All URIs are relative to *https://api.dataforseo.com*
    }
  });
 
- let task = new OnPageIdListRequestInfo();
- let response = await api.onPageIdList([task]);
+ let response = await api.onPageIdList([
+   [
+       new OnPageIdListRequestInfo({
+           datetime_from: ,
+           datetime_to: ,
+           limit: 100,
+           offset: 0,
+           sort: "desc",
+           include_metadata: true,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -119,8 +129,15 @@ All URIs are relative to *https://api.dataforseo.com*
    }
  });
 
- let task = new OnPageErrorsRequestInfo();
- let response = await api.onPageErrors([task]);
+ let response = await api.onPageErrors([
+   [
+       new OnPageErrorsRequestInfo({
+           limit: 10,
+           offset: 0,
+           filtered_function: "pingback_url",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -176,8 +193,16 @@ All URIs are relative to *https://api.dataforseo.com*
    }
  });
 
- let task = new OnPageForceStopRequestInfo();
- let response = await api.forceStop([task]);
+ let response = await api.forceStop([
+   [
+       new OnPageForceStopRequestInfo({
+           id: "08121600-1535-0216-0000-37b4c7a34453",
+       }),
+       new OnPageForceStopRequestInfo({
+           id: "08121600-1535-0216-0000-d6a5000b6897",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -289,8 +314,19 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new OnPageTaskPostRequestInfo();
- let response = await api.taskPost([task]);
+ let response = await api.taskPost([
+   [
+       new OnPageTaskPostRequestInfo({
+           target: "dataforseo.com",
+           max_crawl_pages: 10,
+           load_resources: true,
+           enable_javascript: true,
+           custom_js: "meta = {}; meta.url = document.URL; meta;",
+           tag: "some_string_123",
+           pingback_url: "https://your-server.com/pingscript?id=$id&tag=$tag",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -459,8 +495,30 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new OnPagePagesRequestInfo();
- let response = await api.pages([task]);
+ let response = await api.pages([
+   [
+       new OnPagePagesRequestInfo({
+           id: "07281559-0695-0216-0000-c269be8b7592",
+           filters: [
+           [
+               "resource_type",
+               "=",
+               "html",
+           ],
+           "and",
+           [
+               "meta.scripts_count",
+               ">",
+               40,
+           ],
+       ],
+           order_by: [
+           "meta.content.plain_text_word_count,desc",
+       ],
+           limit: 10,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -516,8 +574,14 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new OnPagePagesByResourceRequestInfo();
- let response = await api.pagesByResource([task]);
+ let response = await api.pagesByResource([
+   [
+       new OnPagePagesByResourceRequestInfo({
+           id: "02241700-1535-0216-0000-034137259bc1",
+           url: "https://www.etsy.com/about/jobs.workco2018.js?",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -573,8 +637,30 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new OnPageResourcesRequestInfo();
- let response = await api.resources([task]);
+ let response = await api.resources([
+   [
+       new OnPageResourcesRequestInfo({
+           id: "07281559-0695-0216-0000-c269be8b7592",
+           filters: [
+           [
+               "resource_type",
+               "=",
+               "image",
+           ],
+           "and",
+           [
+               "size",
+               ">",
+               100000,
+           ],
+       ],
+           order_by: [
+           "size,desc",
+       ],
+           limit: 10,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -630,8 +716,15 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new OnPageDuplicateTagsRequestInfo();
- let response = await api.duplicateTags([task]);
+ let response = await api.duplicateTags([
+   [
+       new OnPageDuplicateTagsRequestInfo({
+           id: "07281559-0695-0216-0000-c269be8b7592",
+           type: "duplicate_description",
+           limit: 10,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -687,8 +780,14 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new OnPageDuplicateContentRequestInfo();
- let response = await api.duplicateContent([task]);
+ let response = await api.duplicateContent([
+   [
+       new OnPageDuplicateContentRequestInfo({
+           id: "07281559-0695-0216-0000-c269be8b7592",
+           url: "https://www.etsy.com/",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -744,8 +843,28 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new OnPageLinksRequestInfo();
- let response = await api.links([task]);
+ let response = await api.links([
+   [
+       new OnPageLinksRequestInfo({
+           id: "07281559-0695-0216-0000-c269be8b7592",
+           page_from: "/apis/google-trends-api",
+           filters: [
+           [
+               "dofollow",
+               "=",
+               true,
+           ],
+           "and",
+           [
+               "direction",
+               "=",
+               "external",
+           ],
+       ],
+           limit: 10,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -801,8 +920,14 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new OnPageRedirectChainsRequestInfo();
- let response = await api.redirectChains([task]);
+ let response = await api.redirectChains([
+   [
+       new OnPageRedirectChainsRequestInfo({
+           id: "03051327-4536-0216-1000-3b458a2cfcca",
+           url: "https://test_rdr.dataforseo.com/a/",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -858,8 +983,27 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new OnPageNonIndexableRequestInfo();
- let response = await api.nonIndexable([task]);
+ let response = await api.nonIndexable([
+   [
+       new OnPageNonIndexableRequestInfo({
+           id: "07281559-0695-0216-0000-c269be8b7592",
+           filters: [
+           [
+               "reason",
+               "=",
+               "robots_txt",
+           ],
+           "and",
+           [
+               "url",
+               "like",
+               "%go%",
+           ],
+       ],
+           limit: 10,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -915,8 +1059,14 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new OnPageWaterfallRequestInfo();
- let response = await api.waterfall([task]);
+ let response = await api.waterfall([
+   [
+       new OnPageWaterfallRequestInfo({
+           id: "08101204-0696-0216-0000-644a7b21a48a",
+           url: "https://dataforseo.com/tag/broken-links",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -972,8 +1122,20 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new OnPageKeywordDensityRequestInfo();
- let response = await api.keywordDensity([task]);
+ let response = await api.keywordDensity([
+   [
+       new OnPageKeywordDensityRequestInfo({
+           id: "09101923-1535-0216-0000-2389a8854b70",
+           url: "https://dataforseo.com/",
+           keyword_length: 2,
+           filters: [
+           "frequency",
+           ">",
+           5,
+       ],
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1029,8 +1191,14 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new OnPageMicrodataRequestInfo();
- let response = await api.microdata([task]);
+ let response = await api.microdata([
+   [
+       new OnPageMicrodataRequestInfo({
+           id: "02241700-1535-0216-0000-034137259bc1",
+           url: "https://dataforseo.com/apis",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1086,8 +1254,14 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new OnPageRawHtmlRequestInfo();
- let response = await api.rawHtml([task]);
+ let response = await api.rawHtml([
+   [
+       new OnPageRawHtmlRequestInfo({
+           id: "07281559-0695-0216-0000-c269be8b7592",
+           url: "https://dataforseo.com/apis",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1143,8 +1317,13 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new OnPagePageScreenshotRequestInfo();
- let response = await api.pageScreenshot([task]);
+ let response = await api.pageScreenshot([
+   [
+       new OnPagePageScreenshotRequestInfo({
+           url: "https://dataforseo.com/apis",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1200,8 +1379,14 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new OnPageContentParsingRequestInfo();
- let response = await api.contentParsing([task]);
+ let response = await api.contentParsing([
+   [
+       new OnPageContentParsingRequestInfo({
+           url: "https://dataforseo.com/blog/a-versatile-alternative-to-google-trends-exploring-the-power-of-dataforseo-trends-api",
+           id: "11161551-1535-0216-0000-500b3f307f92",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1257,8 +1442,13 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new OnPageContentParsingLiveRequestInfo();
- let response = await api.contentParsingLive([task]);
+ let response = await api.contentParsingLive([
+   [
+       new OnPageContentParsingLiveRequestInfo({
+           url: "https://dataforseo.com/blog/a-versatile-alternative-to-google-trends-exploring-the-power-of-dataforseo-trends-api",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1314,8 +1504,15 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new OnPageInstantPagesRequestInfo();
- let response = await api.instantPages([task]);
+ let response = await api.instantPages([
+   [
+       new OnPageInstantPagesRequestInfo({
+           url: "https://dataforseo.com/blog",
+           enable_javascript: true,
+           custom_js: "meta = {}; meta.url = document.URL; meta;",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1539,8 +1736,16 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new OnPageLighthouseTaskPostRequestInfo();
- let response = await api.lighthouseTaskPost([task]);
+ let response = await api.lighthouseTaskPost([
+   [
+       new OnPageLighthouseTaskPostRequestInfo({
+           url: "https://dataforseo.com",
+           for_mobile: true,
+           tag: "some_string_123",
+           pingback_url: "https://your-server.com/pingscript?id=$id&tag=$tag",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1709,8 +1914,15 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new OnPageLighthouseLiveJsonRequestInfo();
- let response = await api.lighthouseLiveJson([task]);
+ let response = await api.lighthouseLiveJson([
+   [
+       new OnPageLighthouseLiveJsonRequestInfo({
+           url: "https://dataforseo.com",
+           for_mobile: true,
+           tag: "some_string_123",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters

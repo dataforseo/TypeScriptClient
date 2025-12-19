@@ -3,7 +3,7 @@ export interface IContentAnalysisCategoryTrendsLiveRequestInfo   {
         /** target category code
 required field
 to obtain a full list of available categories, refer to the Categories endpoint */
-        category_code?: string | undefined
+        category_code?: number | undefined
         
         /** target page types
 optional field
@@ -100,7 +100,7 @@ export class ContentAnalysisCategoryTrendsLiveRequestInfo  implements IContentAn
 required field
 to obtain a full list of available categories, refer to the Categories endpoint */
 
-    category_code?: string | undefined;
+    category_code?: number | undefined;
     
     /** target page types
 optional field

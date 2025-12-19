@@ -42,8 +42,25 @@ All URIs are relative to *https://api.dataforseo.com*
    }
  });
 
- let task = new ContentGenerationGenerateLiveRequestInfo();
- let response = await api.generateLive([task]);
+ let response = await api.generateLive([
+   [
+       new ContentGenerationGenerateLiveRequestInfo({
+           text: "SEO is",
+           max_new_tokens: 100,
+           token_repetition_penalty: 1.01,
+           stop_words: [
+           "123",
+           "n",
+       ],
+           creativity_index: 1,
+           avoid_starting_words: [
+           "SEO",
+           "search engine optimization",
+           "SEO is",
+       ],
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -99,8 +116,27 @@ All URIs are relative to *https://api.dataforseo.com*
    }
  });
 
- let task = new ContentGenerationGenerateTextLiveRequestInfo();
- let response = await api.generateTextLive([task]);
+ let response = await api.generateTextLive([
+   [
+       new ContentGenerationGenerateTextLiveRequestInfo({
+           topic: "Steve Jobs",
+           sub_topics: [
+           "Apple",
+           "Pixar",
+           "Amazing Products",
+       ],
+           description: "Take a closer look at Steve Jobs' life and his incredible impact on the tech industry, with a special focus on the development of the iPhone.",
+           meta_keywords: [
+           "iPhone",
+           "sell",
+           "CEO",
+       ],
+           creativity_index: 0.8,
+           word_count: 50,
+           include_conclusion: true,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -156,8 +192,14 @@ All URIs are relative to *https://api.dataforseo.com*
    }
  });
 
- let task = new ContentGenerationGenerateMetaTagsLiveRequestInfo();
- let response = await api.generateMetaTagsLive([task]);
+ let response = await api.generateMetaTagsLive([
+   [
+       new ContentGenerationGenerateMetaTagsLiveRequestInfo({
+           text: "The idea to develop an instrument for local SEO didn’t come to the GMB Crush CEO, Matteo Barletta, out of the blue. Having a huge interest in search engine optimization, Matteo has come a long way from being an SEO freelancer to launching his own agency, SEO Heroes. At some point, he and his team noticed that it was quite challenging to work with local SEO projects, especially those related to Google My Business listings. There were simply no tools that could streamline their work and provide the functionality the agency needed.nn“We started to develop the idea of ··our tool capable of doing Google Business SEO audits, tracking stats, and generating business proposals at the same time.",
+           creativity_index: 0.9,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -213,8 +255,14 @@ All URIs are relative to *https://api.dataforseo.com*
    }
  });
 
- let task = new ContentGenerationGenerateSubTopicsLiveRequestInfo();
- let response = await api.generateSubTopicsLive([task]);
+ let response = await api.generateSubTopicsLive([
+   [
+       new ContentGenerationGenerateSubTopicsLiveRequestInfo({
+           topic: "Steve Jobs",
+           creativity_index: 0.9,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -270,8 +318,14 @@ All URIs are relative to *https://api.dataforseo.com*
    }
  });
 
- let task = new ContentGenerationParaphraseLiveRequestInfo();
- let response = await api.paraphraseLive([task]);
+ let response = await api.paraphraseLive([
+   [
+       new ContentGenerationParaphraseLiveRequestInfo({
+           text: "The idea to develop an instrument for local SEO didn’t come to the GMB Crush CEO, Matteo Barletta, out of the blue. Having a huge interest in search engine optimization, Matteo has come a long way from being an SEO freelancer to launching his own agency, SEO Heroes. At some point, he and his team noticed that it was quite challenging to work with local SEO projects, especially those related to Google My Business listings.",
+           creativity_index: 0.8,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -327,8 +381,14 @@ All URIs are relative to *https://api.dataforseo.com*
    }
  });
 
- let task = new ContentGenerationCheckGrammarLiveRequestInfo();
- let response = await api.checkGrammarLive([task]);
+ let response = await api.checkGrammarLive([
+   [
+       new ContentGenerationCheckGrammarLiveRequestInfo({
+           text: "Hello, my name is John! And I'm very glad to work with you toda",
+           language_code: "en-US",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -496,8 +556,14 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new ContentGenerationTextSummaryLiveRequestInfo();
- let response = await api.textSummaryLive([task]);
+ let response = await api.textSummaryLive([
+   [
+       new ContentGenerationTextSummaryLiveRequestInfo({
+           text: "Removing [RequireHttps] does nothing but break the https redirection, and doesn't enforce an https url on my route. I've got one method which i want to expose over http and a different one over https. If i accidentally enter http in my url for the https-only method, it should redirect. It currently works as is, the problem is that there is an undocument (seemingly unrelated) setting I have to add to get it all working. And that is the SslPort thing",
+           language_name: "English (United States)",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters

@@ -74,8 +74,18 @@ All URIs are relative to *https://api.dataforseo.com*
    }
  });
 
- let task = new AppDataIdListRequestInfo();
- let response = await api.appDataIdList([task]);
+ let response = await api.appDataIdList([
+   [
+       new AppDataIdListRequestInfo({
+           datetime_from: ,
+           datetime_to: ,
+           limit: 100,
+           offset: 0,
+           sort: "desc",
+           include_metadata: true,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -131,8 +141,15 @@ All URIs are relative to *https://api.dataforseo.com*
    }
  });
 
- let task = new AppDataErrorsRequestInfo();
- let response = await api.appDataErrors([task]);
+ let response = await api.appDataErrors([
+   [
+       new AppDataErrorsRequestInfo({
+           limit: 10,
+           offset: 0,
+           filtered_function: "pingback_url",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -413,8 +430,16 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new AppDataGoogleAppSearchesTaskPostRequestInfo();
- let response = await api.googleAppSearchesTaskPost([task]);
+ let response = await api.googleAppSearchesTaskPost([
+   [
+       new AppDataGoogleAppSearchesTaskPostRequestInfo({
+           keyword: "vpn",
+           location_code: 2840,
+           language_code: "en",
+           depth: 30,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -696,8 +721,16 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new AppDataGoogleAppListTaskPostRequestInfo();
- let response = await api.googleAppListTaskPost([task]);
+ let response = await api.googleAppListTaskPost([
+   [
+       new AppDataGoogleAppListTaskPostRequestInfo({
+           app_collection: "topselling_free",
+           location_code: 2840,
+           language_code: "en",
+           depth: 100,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -923,8 +956,15 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new AppDataGoogleAppInfoTaskPostRequestInfo();
- let response = await api.googleAppInfoTaskPost([task]);
+ let response = await api.googleAppInfoTaskPost([
+   [
+       new AppDataGoogleAppInfoTaskPostRequestInfo({
+           app_id: "org.telegram.messenger",
+           location_code: 2840,
+           language_code: "en",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1150,8 +1190,16 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new AppDataGoogleAppReviewsTaskPostRequestInfo();
- let response = await api.googleAppReviewsTaskPost([task]);
+ let response = await api.googleAppReviewsTaskPost([
+   [
+       new AppDataGoogleAppReviewsTaskPostRequestInfo({
+           app_id: "org.telegram.messenger",
+           location_code: 2840,
+           language_code: "en",
+           depth: 150,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1433,8 +1481,28 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new AppDataGoogleAppListingsSearchLiveRequestInfo();
- let response = await api.googleAppListingsSearchLive([task]);
+ let response = await api.googleAppListingsSearchLive([
+   [
+       new AppDataGoogleAppListingsSearchLiveRequestInfo({
+           title: "vpn",
+           description: "vpn",
+           categories: [
+           "Tools",
+       ],
+           order_by: [
+           "item.installs_count,asc",
+       ],
+           filters: [
+           [
+               "item.rating.value",
+               ">",
+               4.5,
+           ],
+       ],
+           limit: 10,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1658,8 +1726,16 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new AppDataAppleAppSearchesTaskPostRequestInfo();
- let response = await api.appleAppSearchesTaskPost([task]);
+ let response = await api.appleAppSearchesTaskPost([
+   [
+       new AppDataAppleAppSearchesTaskPostRequestInfo({
+           keyword: "vpn",
+           location_code: 2840,
+           language_code: "en",
+           depth: 200,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1828,8 +1904,15 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new AppDataAppleAppInfoTaskPostRequestInfo();
- let response = await api.appleAppInfoTaskPost([task]);
+ let response = await api.appleAppInfoTaskPost([
+   [
+       new AppDataAppleAppInfoTaskPostRequestInfo({
+           app_id: "835599320",
+           location_code: 2840,
+           language_code: "en",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1998,8 +2081,17 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new AppDataAppleAppListTaskPostRequestInfo();
- let response = await api.appleAppListTaskPost([task]);
+ let response = await api.appleAppListTaskPost([
+   [
+       new AppDataAppleAppListTaskPostRequestInfo({
+           app_collection: "top_free_ios",
+           location_code: 2840,
+           language_code: "en",
+           depth: 200,
+           app_category: "games",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -2168,8 +2260,16 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new AppDataAppleAppReviewsTaskPostRequestInfo();
- let response = await api.appleAppReviewsTaskPost([task]);
+ let response = await api.appleAppReviewsTaskPost([
+   [
+       new AppDataAppleAppReviewsTaskPostRequestInfo({
+           app_id: "835599320",
+           location_code: 2840,
+           language_code: "en",
+           depth: 200,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -2394,8 +2494,28 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new AppDataAppleAppListingsSearchLiveRequestInfo();
- let response = await api.appleAppListingsSearchLive([task]);
+ let response = await api.appleAppListingsSearchLive([
+   [
+       new AppDataAppleAppListingsSearchLiveRequestInfo({
+           title: "vpn",
+           description: "vpn",
+           categories: [
+           "Tools",
+       ],
+           order_by: [
+           "item.rating.value,desc",
+       ],
+           filters: [
+           [
+               "item.rating.value",
+               ">",
+               4.5,
+           ],
+       ],
+           limit: 10,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters

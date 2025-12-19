@@ -99,7 +99,7 @@ example:
 optional field
 possible values for desktop: 3.5, 4, 4.5;
 possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5 */
-        min_rating?: string | undefined
+        min_rating?: number | undefined
         
         /** filter results by open hours
 optional field
@@ -228,7 +228,7 @@ optional field
 possible values for desktop: 3.5, 4, 4.5;
 possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5 */
 
-    min_rating?: string | undefined;
+    min_rating?: number | undefined;
     
     /** filter results by open hours
 optional field

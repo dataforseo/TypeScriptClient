@@ -1,4 +1,4 @@
-import { AvailableLanguages, IAvailableLanguages } from "./AvailableLanguages";
+import { ResultAvailableLanguages, IResultAvailableLanguages } from "./ResultAvailableLanguages";
 
 
 export interface IAiOptimizationLlmMentionsLocationsAndLanguagesResultInfo   {
@@ -11,7 +11,7 @@ export interface IAiOptimizationLlmMentionsLocationsAndLanguagesResultInfo   {
         
         /** supported languages
 contains the languages which are supported for a specific location */
-        available_languages?: AvailableLanguages[] | undefined
+        available_languages?: ResultAvailableLanguages[] | undefined
 
     [key: string]: any;
 
@@ -30,7 +30,7 @@ export class AiOptimizationLlmMentionsLocationsAndLanguagesResultInfo  implement
     /** supported languages
 contains the languages which are supported for a specific location */
 
-    available_languages?: AvailableLanguages[] | undefined;
+    available_languages?: ResultAvailableLanguages[] | undefined;
 
     [key: string]: any;
 
@@ -57,7 +57,7 @@ contains the languages which are supported for a specific location */
             if (Array.isArray(data["available_languages"])) {
                 this.available_languages = [];
                 for (let item of data["available_languages"]) {
-                    this.available_languages.push(AvailableLanguages.fromJS(item));
+                    this.available_languages.push(ResultAvailableLanguages.fromJS(item));
                 }
             }
         }

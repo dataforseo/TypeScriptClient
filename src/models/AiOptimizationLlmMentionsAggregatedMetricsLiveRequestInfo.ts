@@ -48,8 +48,8 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
         
         /** target keyword match type
 optional field
-word_match – режим повнотекстового пошуку,  full-text search for terms that match the specified seed keyword with additional words included before, after, or within the seed key phrase.
-partial_match – режим пошуку підстроки в слові
+word_match –  full-text search for terms that match the specified seed keyword with additional words included before, after, or within the key phrase (e.g., search for “light” will return results with “light bulb”, “light switch”);
+partial_match – substring search that finds all instances containing the specified sequence of characters, even if it appears inside a longer word (e.g., search for “light” will return results with “lighting”, “highlight”);
 possible values:
 word_match, partial_match
 default value: word_match */
@@ -181,8 +181,8 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
     
     /** target keyword match type
 optional field
-word_match – режим повнотекстового пошуку,  full-text search for terms that match the specified seed keyword with additional words included before, after, or within the seed key phrase.
-partial_match – режим пошуку підстроки в слові
+word_match –  full-text search for terms that match the specified seed keyword with additional words included before, after, or within the key phrase (e.g., search for “light” will return results with “light bulb”, “light switch”);
+partial_match – substring search that finds all instances containing the specified sequence of characters, even if it appears inside a longer word (e.g., search for “light” will return results with “lighting”, “highlight”);
 possible values:
 word_match, partial_match
 default value: word_match */

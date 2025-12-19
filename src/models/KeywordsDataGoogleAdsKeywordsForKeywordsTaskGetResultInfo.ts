@@ -53,7 +53,7 @@ the value may differ depending on the location specified in a POST request */
         high_top_of_page_bid?: number | undefined
         
         /** cost per click
-indicates the amount paid for each click on the ad displayed for a given keyword */
+indicates the amount paid (USD) for each click on the ad displayed for a given keyword */
         cpc?: number | undefined
         
         /** monthly searches
@@ -126,7 +126,7 @@ the value may differ depending on the location specified in a POST request */
     high_top_of_page_bid?: number | undefined;
     
     /** cost per click
-indicates the amount paid for each click on the ad displayed for a given keyword */
+indicates the amount paid (USD) for each click on the ad displayed for a given keyword */
 
     cpc?: number | undefined;
     

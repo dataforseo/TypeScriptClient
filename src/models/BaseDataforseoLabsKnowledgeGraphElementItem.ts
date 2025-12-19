@@ -526,7 +526,7 @@ if there are none, equals null */
  
 export interface IDataforseoLabsKnowledgeGraphPartItemElementItem  extends IBaseDataforseoLabsKnowledgeGraphElementItem    {
         
-        /** title of the result in SERP */
+        /** title of the place */
         title?: string | undefined
         
         /** google defined data attribute ID
@@ -548,7 +548,7 @@ if there are none, equals null */
 
 export class DataforseoLabsKnowledgeGraphPartItemElementItem  extends BaseDataforseoLabsKnowledgeGraphElementItem   implements IDataforseoLabsKnowledgeGraphPartItemElementItem {
     
-    /** title of the result in SERP */
+    /** title of the place */
 
     title?: string | undefined;
     
@@ -630,7 +630,7 @@ if there are none, equals null */
  
 export interface IDataforseoLabsKnowledgeGraphExpandedItemElementItem  extends IBaseDataforseoLabsKnowledgeGraphElementItem    {
         
-        /** title of the element */
+        /** title of a given link element */
         title?: string | undefined
         
         /** google defined data attribute ID
@@ -638,8 +638,8 @@ example:
 kc:/local:place qa */
         data_attrid?: string | undefined
         
-        /** expanded element */
-        expanded_element?: string | undefined
+        /** link of the element */
+        expanded_element?: any | undefined
 
     [key: string]: any;
 
@@ -647,7 +647,7 @@ kc:/local:place qa */
 
 export class DataforseoLabsKnowledgeGraphExpandedItemElementItem  extends BaseDataforseoLabsKnowledgeGraphElementItem   implements IDataforseoLabsKnowledgeGraphExpandedItemElementItem {
     
-    /** title of the element */
+    /** title of a given link element */
 
     title?: string | undefined;
     
@@ -657,9 +657,9 @@ kc:/local:place qa */
 
     data_attrid?: string | undefined;
     
-    /** expanded element */
+    /** link of the element */
 
-    expanded_element?: string | undefined;
+    expanded_element?: any | undefined;
 
     [key: string]: any;
 
@@ -708,7 +708,7 @@ kc:/local:place qa */
  
 export interface IDataforseoLabsKnowledgeGraphRowItemElementItem  extends IBaseDataforseoLabsKnowledgeGraphElementItem    {
         
-        /** title of a given link element */
+        /** title of the element */
         title?: string | undefined
         
         /** google defined data attribute ID
@@ -728,7 +728,7 @@ kc:/local:place qa */
 
 export class DataforseoLabsKnowledgeGraphRowItemElementItem  extends BaseDataforseoLabsKnowledgeGraphElementItem   implements IDataforseoLabsKnowledgeGraphRowItemElementItem {
     
-    /** title of a given link element */
+    /** title of the element */
 
     title?: string | undefined;
     
@@ -808,7 +808,7 @@ kc:/local:place qa */
  
 export interface IDataforseoLabsKnowledgeGraphShoppingItemElementItem  extends IBaseDataforseoLabsKnowledgeGraphElementItem    {
         
-        /** title of a given link element */
+        /** title of the element */
         title?: string | undefined
         
         /** google defined data attribute ID
@@ -826,7 +826,7 @@ if there are none, equals null */
 
 export class DataforseoLabsKnowledgeGraphShoppingItemElementItem  extends BaseDataforseoLabsKnowledgeGraphElementItem   implements IDataforseoLabsKnowledgeGraphShoppingItemElementItem {
     
-    /** title of a given link element */
+    /** title of the element */
 
     title?: string | undefined;
     

@@ -7,16 +7,9 @@ example:
 L2cvMTFqbl85ZHN6MQ== */
         dataset_id?: string | undefined
         
-        /** full name of search engine language
-optional field
-if you use this field, you don’t need to specify language_code
-possible value:
-English */
-        language_name?: string | undefined
-        
         /** search engine language code
 optional field
-if you use this field, you don’t need to specify language_name
+if you use this field, you don't need to specify language_name
 possible value:
 en */
         language_code?: string | undefined
@@ -25,6 +18,13 @@ en */
 optional field
 possible value: desktop */
         device?: string | undefined
+        
+        /** full name of search engine language
+optional field
+if you use this field, you don't need to specify language_code
+possible value:
+English */
+        language_name?: string | undefined
         
         /** device operating system
 optional field
@@ -53,17 +53,9 @@ L2cvMTFqbl85ZHN6MQ== */
 
     dataset_id?: string | undefined;
     
-    /** full name of search engine language
-optional field
-if you use this field, you don’t need to specify language_code
-possible value:
-English */
-
-    language_name?: string | undefined;
-    
     /** search engine language code
 optional field
-if you use this field, you don’t need to specify language_name
+if you use this field, you don't need to specify language_name
 possible value:
 en */
 
@@ -74,6 +66,14 @@ optional field
 possible value: desktop */
 
     device?: string | undefined;
+    
+    /** full name of search engine language
+optional field
+if you use this field, you don't need to specify language_code
+possible value:
+English */
+
+    language_name?: string | undefined;
     
     /** device operating system
 optional field
@@ -111,9 +111,9 @@ you will find the specified tag value in the data object of the response */
                     this[property] = data[property];
             }
             this.dataset_id = data["dataset_id"];
-            this.language_name = data["language_name"];
             this.language_code = data["language_code"];
             this.device = data["device"];
+            this.language_name = data["language_name"];
             this.os = data["os"];
             this.tag = data["tag"];
         }
@@ -134,9 +134,9 @@ you will find the specified tag value in the data object of the response */
         
         
         data["dataset_id"] = this.dataset_id;
-        data["language_name"] = this.language_name;
         data["language_code"] = this.language_code;
         data["device"] = this.device;
+        data["language_name"] = this.language_name;
         data["os"] = this.os;
         data["tag"] = this.tag;
         return data;

@@ -148,8 +148,13 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new AppendixWebhookResendRequestInfo();
- let response = await api.webhookResend([task]);
+ let response = await api.webhookResend([
+   [
+       new AppendixWebhookResendRequestInfo({
+           id: "08161139-0001-0066-1000-06491d097ed5",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters

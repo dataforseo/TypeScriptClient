@@ -68,8 +68,18 @@ All URIs are relative to *https://api.dataforseo.com*
    }
  });
 
- let task = new MerchantIdListRequestInfo();
- let response = await api.merchantIdList([task]);
+ let response = await api.merchantIdList([
+   [
+       new MerchantIdListRequestInfo({
+           datetime_from: ,
+           datetime_to: ,
+           limit: 100,
+           offset: 0,
+           sort: "desc",
+           include_metadata: true,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -125,8 +135,15 @@ All URIs are relative to *https://api.dataforseo.com*
    }
  });
 
- let task = new MerchantErrorsRequestInfo();
- let response = await api.merchantErrors([task]);
+ let response = await api.merchantErrors([
+   [
+       new MerchantErrorsRequestInfo({
+           limit: 10,
+           offset: 0,
+           filtered_function: "pingback_url",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -351,8 +368,16 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new MerchantGoogleProductsTaskPostRequestInfo();
- let response = await api.googleProductsTaskPost([task]);
+ let response = await api.googleProductsTaskPost([
+   [
+       new MerchantGoogleProductsTaskPostRequestInfo({
+           language_code: "en",
+           location_code: 2840,
+           keyword: "iphone",
+           price_min: 5,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -634,8 +659,15 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new MerchantGoogleSellersTaskPostRequestInfo();
- let response = await api.googleSellersTaskPost([task]);
+ let response = await api.googleSellersTaskPost([
+   [
+       new MerchantGoogleSellersTaskPostRequestInfo({
+           language_code: "en",
+           location_code: 2840,
+           product_id: "1113158713975221117",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -804,8 +836,15 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new MerchantGoogleProductInfoTaskPostRequestInfo();
- let response = await api.googleProductInfoTaskPost([task]);
+ let response = await api.googleProductInfoTaskPost([
+   [
+       new MerchantGoogleProductInfoTaskPostRequestInfo({
+           language_code: "en",
+           location_code: 2840,
+           product_id: "1113158713975221117",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1200,8 +1239,15 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new MerchantAmazonProductsTaskPostRequestInfo();
- let response = await api.amazonProductsTaskPost([task]);
+ let response = await api.amazonProductsTaskPost([
+   [
+       new MerchantAmazonProductsTaskPostRequestInfo({
+           language_code: "en_US",
+           location_code: 2840,
+           keyword: "shoes",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1427,8 +1473,15 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new MerchantAmazonAsinTaskPostRequestInfo();
- let response = await api.amazonAsinTaskPost([task]);
+ let response = await api.amazonAsinTaskPost([
+   [
+       new MerchantAmazonAsinTaskPostRequestInfo({
+           language_code: "en_US",
+           location_code: 2840,
+           asin: "B0756FCPPN",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1654,8 +1707,15 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new MerchantAmazonSellersTaskPostRequestInfo();
- let response = await api.amazonSellersTaskPost([task]);
+ let response = await api.amazonSellersTaskPost([
+   [
+       new MerchantAmazonSellersTaskPostRequestInfo({
+           language_code: "en_US",
+           location_code: 2840,
+           asin: "B085RFFC9Q",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1881,8 +1941,15 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new MerchantAmazonReviewsTaskPostRequestInfo();
- let response = await api.amazonReviewsTaskPost([task]);
+ let response = await api.amazonReviewsTaskPost([
+   [
+       new MerchantAmazonReviewsTaskPostRequestInfo({
+           language_code: "en_US",
+           location_code: 2840,
+           asin: "B0773ZY26F",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters

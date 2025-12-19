@@ -11,6 +11,8 @@ All URIs are relative to *https://api.dataforseo.com*
 [**chatGptLlmScraperTasksReady**](AiOptimizationApi.md#chatGptLlmScraperTasksReady) | **GET**  /v3/ai_optimization/chat_gpt/llm_scraper/tasks_ready  |
 [**chatGptLlmScraperTaskGetAdvanced**](AiOptimizationApi.md#chatGptLlmScraperTaskGetAdvanced) | **GET**  /v3/ai_optimization/chat_gpt/llm_scraper/task_get/advanced/{id}  |
 [**chatGptLlmScraperTaskGetHtml**](AiOptimizationApi.md#chatGptLlmScraperTaskGetHtml) | **GET**  /v3/ai_optimization/chat_gpt/llm_scraper/task_get/html/{id}  |
+[**chatGptLlmScraperLiveAdvanced**](AiOptimizationApi.md#chatGptLlmScraperLiveAdvanced) | **POST**  /v3/ai_optimization/chat_gpt/llm_scraper/live/advanced  |
+[**chatGptLlmScraperLiveHtml**](AiOptimizationApi.md#chatGptLlmScraperLiveHtml) | **POST**  /v3/ai_optimization/chat_gpt/llm_scraper/live/html  |
 [**llmMentionsLocationsAndLanguages**](AiOptimizationApi.md#llmMentionsLocationsAndLanguages) | **GET**  /v3/ai_optimization/llm_mentions/locations_and_languages  |
 [**llmMentionsAvailableFilters**](AiOptimizationApi.md#llmMentionsAvailableFilters) | **GET**  /v3/ai_optimization/llm_mentions/available_filters  |
 [**llmMentionsSearchLive**](AiOptimizationApi.md#llmMentionsSearchLive) | **POST**  /v3/ai_optimization/llm_mentions/search/live  |
@@ -235,8 +237,15 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new AiOptimizationChatGptLlmScraperTaskPostRequestInfo();
- let response = await api.chatGptLlmScraperTaskPost([task]);
+ let response = await api.chatGptLlmScraperTaskPost([
+   [
+       new AiOptimizationChatGptLlmScraperTaskPostRequestInfo({
+           language_code: "en",
+           location_code: 2840,
+           keyword: "what is chatgpt",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -435,6 +444,134 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
+<a id="chatGptLlmScraperLiveAdvanced"></a>
+# **chatGptLlmScraperLiveAdvanced**
+> AiOptimizationChatGptLlmScraperLiveAdvancedResponseInfo chatGptLlmScraperLiveAdvanced()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new AiOptimizationApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let response = await api.chatGptLlmScraperLiveAdvanced([
+   [
+       new AiOptimizationChatGptLlmScraperLiveAdvancedRequestInfo({
+           language_code: "en",
+           location_code: 2840,
+           keyword: "albert einstein",
+       }),
+   ]
+ ]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;AiOptimizationChatGptLlmScraperLiveAdvancedRequestInfo[]&gt;**](AiOptimizationChatGptLlmScraperLiveAdvancedRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**AiOptimizationChatGptLlmScraperLiveAdvancedResponseInfo**](AiOptimizationChatGptLlmScraperLiveAdvancedResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="chatGptLlmScraperLiveHtml"></a>
+# **chatGptLlmScraperLiveHtml**
+> AiOptimizationChatGptLlmScraperLiveHtmlResponseInfo chatGptLlmScraperLiveHtml()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new AiOptimizationApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let response = await api.chatGptLlmScraperLiveHtml([
+   [
+       new AiOptimizationChatGptLlmScraperLiveHtmlRequestInfo({
+           language_code: "en",
+           location_code: 2840,
+           keyword: "albert einstein",
+       }),
+   ]
+ ]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;AiOptimizationChatGptLlmScraperLiveHtmlRequestInfo[]&gt;**](AiOptimizationChatGptLlmScraperLiveHtmlRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**AiOptimizationChatGptLlmScraperLiveHtmlResponseInfo**](AiOptimizationChatGptLlmScraperLiveHtmlResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
 <a id="llmMentionsLocationsAndLanguages"></a>
 # **llmMentionsLocationsAndLanguages**
 > AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo llmMentionsLocationsAndLanguages()
@@ -574,8 +711,39 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new AiOptimizationLlmMentionsSearchLiveRequestInfo();
- let response = await api.llmMentionsSearchLive([task]);
+ let response = await api.llmMentionsSearchLive([
+   [
+       new AiOptimizationLlmMentionsSearchLiveRequestInfo({
+           language_name: "English",
+           location_code: 2840,
+           target: [
+           new AiOptimizationLLmMentionsDomainElement({
+               domain: "dataforseo.com",
+               search_filter: "exclude",
+           }),
+           new AiOptimizationLLmMentionsKeywordElement({
+               keyword: "bmw",
+               search_scope: [
+               "answer",
+           ],
+           }),
+       ],
+           platform: "google",
+           filters: [
+           [
+               "ai_search_volume",
+               ">",
+               1000,
+           ],
+       ],
+           order_by: [
+           "ai_search_volume,desc",
+       ],
+           offset: 0,
+           limit: 3,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -631,8 +799,40 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new AiOptimizationLlmMentionsTopPagesLiveRequestInfo();
- let response = await api.llmMentionsTopPagesLive([task]);
+ let response = await api.llmMentionsTopPagesLive([
+   [
+       new AiOptimizationLlmMentionsTopPagesLiveRequestInfo({
+           language_code: "en",
+           location_code: 2840,
+           platform: "google",
+           target: [
+           new AiOptimizationLLmMentionsKeywordElement({
+               keyword: "bmw",
+               search_scope: [
+               "answer",
+           ],
+           }),
+           new AiOptimizationLLmMentionsKeywordElement({
+               keyword: "auto",
+               search_scope: [
+               "question",
+           ],
+               match_type: "partial_match",
+           }),
+       ],
+           links_scope: "sources",
+           initial_dataset_filters: [
+           [
+               "ai_search_volume",
+               ">",
+               10,
+           ],
+       ],
+           items_list_limit: 3,
+           internal_list_limit: 2,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -688,8 +888,40 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new AiOptimizationLlmMentionsTopDomainsLiveRequestInfo();
- let response = await api.llmMentionsTopDomainsLive([task]);
+ let response = await api.llmMentionsTopDomainsLive([
+   [
+       new AiOptimizationLlmMentionsTopDomainsLiveRequestInfo({
+           language_code: "en",
+           location_code: 2840,
+           platform: "chat_gpt",
+           target: [
+           new AiOptimizationLLmMentionsKeywordElement({
+               keyword: "bmw",
+               search_scope: [
+               "answer",
+           ],
+           }),
+           new AiOptimizationLLmMentionsKeywordElement({
+               keyword: "auto",
+               search_scope: [
+               "question",
+           ],
+               match_type: "partial_match",
+           }),
+       ],
+           links_scope: "sources",
+           initial_dataset_filters: [
+           [
+               "ai_search_volume",
+               ">",
+               10,
+           ],
+       ],
+           items_list_limit: 3,
+           internal_list_limit: 2,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -745,8 +977,35 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new AiOptimizationLlmMentionsAggregatedMetricsLiveRequestInfo();
- let response = await api.llmMentionsAggregatedMetricsLive([task]);
+ let response = await api.llmMentionsAggregatedMetricsLive([
+   [
+       new AiOptimizationLlmMentionsAggregatedMetricsLiveRequestInfo({
+           language_code: "es",
+           location_code: 2840,
+           platform: "google",
+           target: [
+           new AiOptimizationLLmMentionsDomainElement({
+               domain: "en.wikipedia.org",
+               search_filter: "exclude",
+           }),
+           new AiOptimizationLLmMentionsKeywordElement({
+               keyword: "bmw",
+               search_scope: [
+               "answer",
+           ],
+           }),
+       ],
+           initial_dataset_filters: [
+           [
+               "ai_search_volume",
+               ">",
+               10,
+           ],
+       ],
+           internal_list_limit: 10,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -802,8 +1061,58 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new AiOptimizationLlmMentionsCrossAggregatedMetricsLiveRequestInfo();
- let response = await api.llmMentionsCrossAggregatedMetricsLive([task]);
+ let response = await api.llmMentionsCrossAggregatedMetricsLive([
+   [
+       new AiOptimizationLlmMentionsCrossAggregatedMetricsLiveRequestInfo({
+           language_code: "en",
+           location_code: 2840,
+           platform: "google",
+           targets: [
+           new AiOptimizationLLmMentionsCrossAggregateMetricsTargetInfo({
+               aggregation_key: "chat_gpt",
+               target: [
+               new AiOptimizationLLmMentionsKeywordElement({
+                   keyword: "chat gpt",
+               }),
+           ],
+           }),
+           new AiOptimizationLLmMentionsCrossAggregateMetricsTargetInfo({
+               aggregation_key: "claude",
+               target: [
+               new AiOptimizationLLmMentionsKeywordElement({
+                   keyword: "claude",
+               }),
+           ],
+           }),
+           new AiOptimizationLLmMentionsCrossAggregateMetricsTargetInfo({
+               aggregation_key: "gemini",
+               target: [
+               new AiOptimizationLLmMentionsKeywordElement({
+                   keyword: "gemini",
+               }),
+           ],
+           }),
+           new AiOptimizationLLmMentionsCrossAggregateMetricsTargetInfo({
+               aggregation_key: "perplexity",
+               target: [
+               new AiOptimizationLLmMentionsKeywordElement({
+                   keyword: "perplexity",
+                   search_filter: "include",
+               }),
+           ],
+           }),
+       ],
+           initial_dataset_filters: [
+           [
+               "ai_search_volume",
+               ">",
+               10,
+           ],
+       ],
+           internal_list_limit: 5,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -915,8 +1224,31 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new AiOptimizationChatGptLlmResponsesLiveRequestInfo();
- let response = await api.chatGptLlmResponsesLive([task]);
+ let response = await api.chatGptLlmResponsesLive([
+   [
+       new AiOptimizationChatGptLlmResponsesLiveRequestInfo({
+           system_message: "communicate as if we are in a business meeting",
+           message_chain: [
+           new LlmMessageChainItem({
+               role: "user",
+               message: "Hello, what’s up?",
+           }),
+           new LlmMessageChainItem({
+               role: "ai",
+               message: "Hello! I’m doing well, thank you. How can I assist you today? Are there any specific topics or projects you’d like to discuss in our meeting?",
+           }),
+       ],
+           max_output_tokens: 200,
+           temperature: 0.3,
+           top_p: 0.5,
+           model_name: "gpt-4.1-mini",
+           web_search: true,
+           web_search_country_iso_code: "FR",
+           web_search_city: "Paris",
+           user_prompt: "provide information on how relevant the amusement park business is in France now",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -972,8 +1304,25 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new AiOptimizationChatGptLlmResponsesTaskPostRequestInfo();
- let response = await api.chatGptLlmResponsesTaskPost([task]);
+ let response = await api.chatGptLlmResponsesTaskPost([
+   [
+       new AiOptimizationChatGptLlmResponsesTaskPostRequestInfo({
+           system_message: "communicate as if we are in a business meeting",
+           message_chain: [
+           new LlmMessageChainItem({
+               role: "user",
+               message: "Hello, what’s up?",
+           }),
+           new LlmMessageChainItem({
+               role: "ai",
+               message: "Hello! I’m doing well, thank you. How can I assist you today? Are there any specific topics or projects you’d like to discuss in our meeting?",
+           }),
+       ],
+           model_name: "gpt-4.1-mini",
+           user_prompt: "provide information on how relevant the amusement park business is in France now",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1198,8 +1547,30 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new AiOptimizationClaudeLlmResponsesLiveRequestInfo();
- let response = await api.claudeLlmResponsesLive([task]);
+ let response = await api.claudeLlmResponsesLive([
+   [
+       new AiOptimizationClaudeLlmResponsesLiveRequestInfo({
+           system_message: "communicate as if we are in a business meeting",
+           message_chain: [
+           new LlmMessageChainItem({
+               role: "user",
+               message: "Hello, what’s up?",
+           }),
+           new LlmMessageChainItem({
+               role: "ai",
+               message: "Hello! I’m doing well, thank you. How can I assist you today? Are there any specific topics or projects you’d like to discuss in our meeting?",
+           }),
+       ],
+           max_output_tokens: 200,
+           model_name: "claude-opus-4-0",
+           temperature: 0.3,
+           top_p: 0.5,
+           web_search: true,
+           web_search_country_iso_code: "FR",
+           user_prompt: "provide information on how relevant the amusement park business is in France now",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1255,8 +1626,30 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new AiOptimizationClaudeLlmResponsesTaskPostRequestInfo();
- let response = await api.claudeLlmResponsesTaskPost([task]);
+ let response = await api.claudeLlmResponsesTaskPost([
+   [
+       new AiOptimizationClaudeLlmResponsesTaskPostRequestInfo({
+           system_message: "communicate as if we are in a business meeting",
+           message_chain: [
+           new LlmMessageChainItem({
+               role: "user",
+               message: "Hello, what’s up?",
+           }),
+           new LlmMessageChainItem({
+               role: "ai",
+               message: "Hello! I’m doing well, thank you. How can I assist you today? Are there any specific topics or projects you’d like to discuss in our meeting?",
+           }),
+       ],
+           max_output_tokens: 1024,
+           temperature: 0.3,
+           top_p: 0.5,
+           web_search_country_iso_code: "FR",
+           model_name: "claude-sonnet-4-0",
+           web_search: true,
+           user_prompt: "provide information on how relevant the amusement park business is in France now",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1481,8 +1874,25 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new AiOptimizationGeminiLlmResponsesTaskPostRequestInfo();
- let response = await api.geminiLlmResponsesTaskPost([task]);
+ let response = await api.geminiLlmResponsesTaskPost([
+   [
+       new AiOptimizationGeminiLlmResponsesTaskPostRequestInfo({
+           system_message: "communicate as if we are in a business meeting",
+           message_chain: [
+           new LlmMessageChainItem({
+               role: "user",
+               message: "Hello, what’s up?",
+           }),
+           new LlmMessageChainItem({
+               role: "ai",
+               message: "Hello! I’m doing well, thank you. How can I assist you today? Are there any specific topics or projects you’d like to discuss in our meeting?",
+           }),
+       ],
+           model_name: "gemini-2.5-flash",
+           user_prompt: "provide information on how relevant the amusement park business is in France now",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1651,8 +2061,29 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new AiOptimizationGeminiLlmResponsesLiveRequestInfo();
- let response = await api.geminiLlmResponsesLive([task]);
+ let response = await api.geminiLlmResponsesLive([
+   [
+       new AiOptimizationGeminiLlmResponsesLiveRequestInfo({
+           system_message: "communicate as if we are in a business meeting",
+           message_chain: [
+           new LlmMessageChainItem({
+               role: "user",
+               message: "Hello, what’s up?",
+           }),
+           new LlmMessageChainItem({
+               role: "ai",
+               message: "Hello! I’m doing well, thank you. How can I assist you today? Are there any specific topics or projects you’d like to discuss in our meeting?",
+           }),
+       ],
+           max_output_tokens: 200,
+           temperature: 0.3,
+           top_p: 0.5,
+           model_name: "gemini-2.5-flash",
+           web_search: true,
+           user_prompt: "provide information on how relevant the amusement park business is in France now",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1764,8 +2195,29 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new AiOptimizationPerplexityLlmResponsesLiveRequestInfo();
- let response = await api.perplexityLlmResponsesLive([task]);
+ let response = await api.perplexityLlmResponsesLive([
+   [
+       new AiOptimizationPerplexityLlmResponsesLiveRequestInfo({
+           system_message: "communicate as if we are in a business meeting",
+           message_chain: [
+           new LlmMessageChainItem({
+               role: "user",
+               message: "Hello, what’s up?",
+           }),
+           new LlmMessageChainItem({
+               role: "ai",
+               message: "Hello! I’m doing well, thank you. How can I assist you today? Are there any specific topics or projects you’d like to discuss in our meeting?",
+           }),
+       ],
+           max_output_tokens: 200,
+           temperature: 0.3,
+           top_p: 0.5,
+           web_search_country_iso_code: "FR",
+           model_name: "sonar-reasoning",
+           user_prompt: "provide information on how relevant the amusement park business is in France now",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1933,8 +2385,18 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new AiOptimizationAiKeywordDataKeywordsSearchVolumeLiveRequestInfo();
- let response = await api.aiKeywordDataKeywordsSearchVolumeLive([task]);
+ let response = await api.aiKeywordDataKeywordsSearchVolumeLive([
+   [
+       new AiOptimizationAiKeywordDataKeywordsSearchVolumeLiveRequestInfo({
+           language_name: "English",
+           location_code: 2840,
+           keywords: [
+           "iphone",
+           "seo",
+       ],
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters

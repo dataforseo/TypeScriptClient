@@ -56,8 +56,18 @@ All URIs are relative to *https://api.dataforseo.com*
    }
  });
 
- let task = new BacklinksIdListRequestInfo();
- let response = await api.backlinksIdList([task]);
+ let response = await api.backlinksIdList([
+   [
+       new BacklinksIdListRequestInfo({
+           datetime_from: ,
+           datetime_to: ,
+           limit: 100,
+           offset: 0,
+           sort: "desc",
+           include_metadata: true,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -113,8 +123,15 @@ All URIs are relative to *https://api.dataforseo.com*
    }
  });
 
- let task = new BacklinksErrorsRequestInfo();
- let response = await api.backlinksErrors([task]);
+ let response = await api.backlinksErrors([
+   [
+       new BacklinksErrorsRequestInfo({
+           limit: 10,
+           offset: 0,
+           filtered_function: "backlinks/content_duplicates",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -282,8 +299,21 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BacklinksSummaryLiveRequestInfo();
- let response = await api.summaryLive([task]);
+ let response = await api.summaryLive([
+   [
+       new BacklinksSummaryLiveRequestInfo({
+           target: "explodingtopics.com",
+           internal_list_limit: 10,
+           include_subdomains: true,
+           backlinks_filters: [
+           "dofollow",
+           "=",
+           true,
+       ],
+           backlinks_status_type: "all",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -339,8 +369,15 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BacklinksHistoryLiveRequestInfo();
- let response = await api.historyLive([task]);
+ let response = await api.historyLive([
+   [
+       new BacklinksHistoryLiveRequestInfo({
+           target: "cnn.com",
+           date_from: ,
+           date_to: ,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -396,8 +433,20 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BacklinksBacklinksLiveRequestInfo();
- let response = await api.backlinksLive([task]);
+ let response = await api.backlinksLive([
+   [
+       new BacklinksBacklinksLiveRequestInfo({
+           target: "forbes.com",
+           mode: "as_is",
+           filters: [
+           "dofollow",
+           "=",
+           true,
+       ],
+           limit: 5,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -453,8 +502,22 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BacklinksAnchorsLiveRequestInfo();
- let response = await api.anchorsLive([task]);
+ let response = await api.anchorsLive([
+   [
+       new BacklinksAnchorsLiveRequestInfo({
+           target: "forbes.com",
+           limit: 4,
+           order_by: [
+           "backlinks,desc",
+       ],
+           filters: [
+           "anchor",
+           "like",
+           "%news%",
+       ],
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -510,8 +573,27 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BacklinksDomainPagesLiveRequestInfo();
- let response = await api.domainPagesLive([task]);
+ let response = await api.domainPagesLive([
+   [
+       new BacklinksDomainPagesLiveRequestInfo({
+           target: "forbes.com",
+           limit: 5,
+           filters: [
+           [
+               "page_summary.backlinks",
+               ">",
+               5,
+           ],
+           "and",
+           [
+               "page",
+               "like",
+               "%sites%",
+           ],
+       ],
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -567,8 +649,17 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BacklinksDomainPagesSummaryLiveRequestInfo();
- let response = await api.domainPagesSummaryLive([task]);
+ let response = await api.domainPagesSummaryLive([
+   [
+       new BacklinksDomainPagesSummaryLiveRequestInfo({
+           target: "forbes.com",
+           limit: 4,
+           order_by: [
+           "backlinks,desc",
+       ],
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -624,8 +715,28 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BacklinksReferringDomainsLiveRequestInfo();
- let response = await api.referringDomainsLive([task]);
+ let response = await api.referringDomainsLive([
+   [
+       new BacklinksReferringDomainsLiveRequestInfo({
+           target: "backlinko.com",
+           limit: 5,
+           order_by: [
+           "rank,desc",
+       ],
+           exclude_internal_backlinks: true,
+           backlinks_filters: [
+           "dofollow",
+           "=",
+           true,
+       ],
+           filters: [
+           "backlinks",
+           ">",
+           100,
+       ],
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -681,8 +792,29 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BacklinksReferringNetworksLiveRequestInfo();
- let response = await api.referringNetworksLive([task]);
+ let response = await api.referringNetworksLive([
+   [
+       new BacklinksReferringNetworksLiveRequestInfo({
+           target: "backlinko.com",
+           network_address_type: "subnet",
+           limit: 5,
+           order_by: [
+           "rank,desc",
+       ],
+           exclude_internal_backlinks: true,
+           backlinks_filters: [
+           "dofollow",
+           "=",
+           true,
+       ],
+           filters: [
+           "backlinks",
+           ">",
+           100,
+       ],
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -738,8 +870,22 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BacklinksCompetitorsLiveRequestInfo();
- let response = await api.competitorsLive([task]);
+ let response = await api.competitorsLive([
+   [
+       new BacklinksCompetitorsLiveRequestInfo({
+           target: "dataforseo.com",
+           filters: [
+           "rank",
+           ">",
+           100,
+       ],
+           order_by: [
+           "rank,desc",
+       ],
+           limit: 5,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -795,8 +941,25 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BacklinksDomainIntersectionLiveRequestInfo();
- let response = await api.domainIntersectionLive([task]);
+ let response = await api.domainIntersectionLive([
+   [
+       new BacklinksDomainIntersectionLiveRequestInfo({
+           targets: {
+           "1": "moz.com",
+           "2": "ahrefs.com",
+       },
+           include_subdomains: false,
+           exclude_targets: [
+           "semrush.com",
+       ],
+           limit: 5,
+           order_by: [
+           "1.backlinks,desc",
+       ],
+           exclude_internal_backlinks: true,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -852,8 +1015,36 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BacklinksPageIntersectionLiveRequestInfo();
- let response = await api.pageIntersectionLive([task]);
+ let response = await api.pageIntersectionLive([
+   [
+       new BacklinksPageIntersectionLiveRequestInfo({
+           targets: {
+           "1": "football.com",
+           "2": "fifa.com",
+       },
+           exclude_targets: [
+           "skysports.com",
+       ],
+           limit: 5,
+           order_by: [
+           "1.rank,desc",
+       ],
+           filters: [
+           [
+               "2.domain_from_rank",
+               ">",
+               400,
+           ],
+           "and",
+           [
+               "1.dofollow",
+               "=",
+               true,
+           ],
+       ],
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -909,8 +1100,16 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BacklinksTimeseriesSummaryLiveRequestInfo();
- let response = await api.timeseriesSummaryLive([task]);
+ let response = await api.timeseriesSummaryLive([
+   [
+       new BacklinksTimeseriesSummaryLiveRequestInfo({
+           target: "dataforseo.com",
+           date_from: ,
+           date_to: ,
+           group_range: "month",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -966,8 +1165,16 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BacklinksTimeseriesNewLostSummaryLiveRequestInfo();
- let response = await api.timeseriesNewLostSummaryLive([task]);
+ let response = await api.timeseriesNewLostSummaryLive([
+   [
+       new BacklinksTimeseriesNewLostSummaryLiveRequestInfo({
+           target: "dataforseo.com",
+           date_from: ,
+           date_to: ,
+           group_range: "month",
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1023,8 +1230,24 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BacklinksBulkRanksLiveRequestInfo();
- let response = await api.bulkRanksLive([task]);
+ let response = await api.bulkRanksLive([
+   [
+       new BacklinksBulkRanksLiveRequestInfo({
+           targets: [
+           "forbes.com",
+           "cnn.com",
+           "bbc.com",
+           "yelp.com",
+           "https://www.apple.com/iphone/",
+           "https://ahrefs.com/blog/",
+           "ibm.com",
+           "https://variety.com/",
+           "https://stackoverflow.com/",
+           "www.trustpilot.com",
+       ],
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1080,8 +1303,24 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BacklinksBulkBacklinksLiveRequestInfo();
- let response = await api.bulkBacklinksLive([task]);
+ let response = await api.bulkBacklinksLive([
+   [
+       new BacklinksBulkBacklinksLiveRequestInfo({
+           targets: [
+           "forbes.com",
+           "cnn.com",
+           "bbc.com",
+           "yelp.com",
+           "https://www.apple.com/iphone/",
+           "https://ahrefs.com/blog/",
+           "ibm.com",
+           "https://variety.com/",
+           "https://stackoverflow.com/",
+           "www.trustpilot.com",
+       ],
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1137,8 +1376,24 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BacklinksBulkSpamScoreLiveRequestInfo();
- let response = await api.bulkSpamScoreLive([task]);
+ let response = await api.bulkSpamScoreLive([
+   [
+       new BacklinksBulkSpamScoreLiveRequestInfo({
+           targets: [
+           "forbes.com",
+           "cnn.com",
+           "bbc.com",
+           "yelp.com",
+           "https://www.apple.com/iphone/",
+           "https://ahrefs.com/blog/",
+           "ibm.com",
+           "https://variety.com/",
+           "https://stackoverflow.com/",
+           "www.trustpilot.com",
+       ],
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1194,8 +1449,24 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BacklinksBulkReferringDomainsLiveRequestInfo();
- let response = await api.bulkReferringDomainsLive([task]);
+ let response = await api.bulkReferringDomainsLive([
+   [
+       new BacklinksBulkReferringDomainsLiveRequestInfo({
+           targets: [
+           "forbes.com",
+           "cnn.com",
+           "bbc.com",
+           "yelp.com",
+           "https://www.apple.com/iphone/",
+           "https://ahrefs.com/blog/",
+           "ibm.com",
+           "https://variety.com/",
+           "https://stackoverflow.com/",
+           "www.trustpilot.com",
+       ],
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1251,8 +1522,25 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BacklinksBulkNewLostBacklinksLiveRequestInfo();
- let response = await api.bulkNewLostBacklinksLive([task]);
+ let response = await api.bulkNewLostBacklinksLive([
+   [
+       new BacklinksBulkNewLostBacklinksLiveRequestInfo({
+           targets: [
+           "forbes.com",
+           "cnn.com",
+           "bbc.com",
+           "yelp.com",
+           "https://www.apple.com/iphone/",
+           "https://ahrefs.com/blog/",
+           "ibm.com",
+           "https://variety.com/",
+           "https://stackoverflow.com/",
+           "www.trustpilot.com",
+       ],
+           date_from: ,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1308,8 +1596,25 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BacklinksBulkNewLostReferringDomainsLiveRequestInfo();
- let response = await api.bulkNewLostReferringDomainsLive([task]);
+ let response = await api.bulkNewLostReferringDomainsLive([
+   [
+       new BacklinksBulkNewLostReferringDomainsLiveRequestInfo({
+           targets: [
+           "forbes.com",
+           "cnn.com",
+           "bbc.com",
+           "yelp.com",
+           "https://www.apple.com/iphone/",
+           "https://ahrefs.com/blog/",
+           "ibm.com",
+           "https://variety.com/",
+           "https://stackoverflow.com/",
+           "www.trustpilot.com",
+       ],
+           date_from: ,
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters
@@ -1365,8 +1670,16 @@ This endpoint does not need any parameter.
    }
  });
 
- let task = new BacklinksBulkPagesSummaryLiveRequestInfo();
- let response = await api.bulkPagesSummaryLive([task]);
+ let response = await api.bulkPagesSummaryLive([
+   [
+       new BacklinksBulkPagesSummaryLiveRequestInfo({
+           targets: [
+           "https://dataforseo.com/solutions",
+           "https://dataforseo.com/about-us",
+       ],
+       }),
+   ]
+ ]);
 ```
 
 ### Parameters

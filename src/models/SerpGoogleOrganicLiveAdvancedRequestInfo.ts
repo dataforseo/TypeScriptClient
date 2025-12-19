@@ -96,13 +96,13 @@ Your account will be billed per each SERP crawled through the specified targets 
         stop_crawl_on_match?: SerpApiStopCrawlOnMatchInfo[] | undefined
         
         /** target match type
-optional field
+required field if stop_crawl_on_match is specified;
 type of match for the match_value
 possible values: domain, with_subdomains, wildcard */
         match_type?: string | undefined
         
         /** target domain or wildcard value
-optional field
+required field if stop_crawl_on_match is specified;
 specify a target domain or wildcard value;
 Note: domain name must be specified without a request protocol;
 example: dataforseo.com */
@@ -369,14 +369,14 @@ Your account will be billed per each SERP crawled through the specified targets 
     stop_crawl_on_match?: SerpApiStopCrawlOnMatchInfo[] | undefined;
     
     /** target match type
-optional field
+required field if stop_crawl_on_match is specified;
 type of match for the match_value
 possible values: domain, with_subdomains, wildcard */
 
     match_type?: string | undefined;
     
     /** target domain or wildcard value
-optional field
+required field if stop_crawl_on_match is specified;
 specify a target domain or wildcard value;
 Note: domain name must be specified without a request protocol;
 example: dataforseo.com */

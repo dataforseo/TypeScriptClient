@@ -140,10 +140,10 @@ optional field
 we choose the relevant search engine domain automatically according to the location and language you specify
 however, you can set a custom search engine domain in this field
 example:
-google.co.uk, google.com.au, google.de, etc. */
+google.co.uk */
         se_domain?: string | undefined
         
-        /** [popup_img text='search this area' width='751' height='524' src='https://docs_v3.dataforseo.com/wp-content/uploads/2020/10/search_this_area_751x524-1.png']
+        /** show results from the displayed area
 optional field
 can take the values:true, false
 default value: trueif set to false, the search_this_area mode will be turned off
@@ -326,11 +326,11 @@ optional field
 we choose the relevant search engine domain automatically according to the location and language you specify
 however, you can set a custom search engine domain in this field
 example:
-google.co.uk, google.com.au, google.de, etc. */
+google.co.uk */
 
     se_domain?: string | undefined;
     
-    /** [popup_img text='search this area' width='751' height='524' src='https://docs_v3.dataforseo.com/wp-content/uploads/2020/10/search_this_area_751x524-1.png']
+    /** show results from the displayed area
 optional field
 can take the values:true, false
 default value: trueif set to false, the search_this_area mode will be turned off
