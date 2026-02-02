@@ -47,6 +47,15 @@ example:
 53.476225,-2.243572 */
         location_coordinate?: string | undefined
         
+        /** show hotels from the displayed area
+optional field
+can take the values: true, false
+default value: true
+if set to false the search_this_area mode will be turned off
+Note: if the search_this_area mode is turned off, the location_name won’t be appended to the keyword during search
+learn more about this parameter on our Help Center */
+        search_this_area?: boolean | undefined
+        
         /** full name of search engine language
 required field if you don’t specify language_code
 if you use this field, you don’t need to specify language_code
@@ -287,6 +296,16 @@ example:
 
     location_coordinate?: string | undefined;
     
+    /** show hotels from the displayed area
+optional field
+can take the values: true, false
+default value: true
+if set to false the search_this_area mode will be turned off
+Note: if the search_this_area mode is turned off, the location_name won’t be appended to the keyword during search
+learn more about this parameter on our Help Center */
+
+    search_this_area?: boolean | undefined;
+    
     /** full name of search engine language
 required field if you don’t specify language_code
 if you use this field, you don’t need to specify language_code
@@ -513,6 +532,7 @@ learn more on our Help Center */
             this.location_name = data["location_name"];
             this.location_code = data["location_code"];
             this.location_coordinate = data["location_coordinate"];
+            this.search_this_area = data["search_this_area"];
             this.language_name = data["language_name"];
             this.language_code = data["language_code"];
             this.depth = data["depth"];
@@ -554,6 +574,7 @@ learn more on our Help Center */
         data["location_name"] = this.location_name;
         data["location_code"] = this.location_code;
         data["location_coordinate"] = this.location_coordinate;
+        data["search_this_area"] = this.search_this_area;
         data["language_name"] = this.language_name;
         data["language_code"] = this.language_code;
         data["depth"] = this.depth;
