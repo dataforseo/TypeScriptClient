@@ -18,7 +18,8 @@ text snippet from the page that was used to generate the ai_overview_element */
         /** content of the element in markdown format */
         markdown?: string | undefined
         
-        /** images of the element */
+        /** images of the element
+if there is none, equals null */
         images?: AiModeImagesElementInfo[] | undefined
         
         /** website links featured in the element */
@@ -51,7 +52,8 @@ text snippet from the page that was used to generate the ai_overview_element */
 
     markdown?: string | undefined;
     
-    /** images of the element */
+    /** images of the element
+if there is none, equals null */
 
     images?: AiModeImagesElementInfo[] | undefined;
     

@@ -85,7 +85,7 @@ example:
 Note: we do not recommend using a custom time range for the past year’s dates */
         date_to?: string | undefined
         
-        /** return URL for sending task results
+        /** URL for sending task results
 optional field
 once the task is completed, we will send a POST request with its results compressed in the gzip format to the postback_url you specified
 you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded $tag variable. We will set the necessary values before sending the request.
@@ -224,7 +224,7 @@ Note: we do not recommend using a custom time range for the past year’s dates 
 
     date_to?: string | undefined;
     
-    /** return URL for sending task results
+    /** URL for sending task results
 optional field
 once the task is completed, we will send a POST request with its results compressed in the gzip format to the postback_url you specified
 you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded $tag variable. We will set the necessary values before sending the request.

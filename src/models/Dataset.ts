@@ -1,5 +1,5 @@
 import { LinkElement, ILinkElement } from "./LinkElement";
-import { LicensesElement, ILicensesElement } from "./LicensesElement";
+import { AmazonLabelElement, IAmazonLabelElement } from "./AmazonLabelElement";
 import { FormatsElement, IFormatsElement } from "./FormatsElement";
 import { AuthorsElement, IAuthorsElement } from "./AuthorsElement";
 import { PeriodCovered, IPeriodCovered } from "./PeriodCovered";
@@ -61,7 +61,7 @@ if there are none, equals null */
         links?: LinkElement[] | undefined
         
         /** the list of institutions that provided the dataset */
-        dataset_providers?: LicensesElement[] | undefined
+        dataset_providers?: AmazonLabelElement[] | undefined
         
         /** the list of file formats of the dataset */
         formats?: FormatsElement[] | undefined
@@ -70,7 +70,7 @@ if there are none, equals null */
         authors?: AuthorsElement[] | undefined
         
         /** the list of licenses issued to the dataset */
-        licenses?: LicensesElement[] | undefined
+        licenses?: AmazonLabelElement[] | undefined
         
         /** date and time when the result was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -161,7 +161,7 @@ if there are none, equals null */
     
     /** the list of institutions that provided the dataset */
 
-    dataset_providers?: LicensesElement[] | undefined;
+    dataset_providers?: AmazonLabelElement[] | undefined;
     
     /** the list of file formats of the dataset */
 
@@ -173,7 +173,7 @@ if there are none, equals null */
     
     /** the list of licenses issued to the dataset */
 
-    licenses?: LicensesElement[] | undefined;
+    licenses?: AmazonLabelElement[] | undefined;
     
     /** date and time when the result was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -236,7 +236,7 @@ for example: Africa, Global */
             if (Array.isArray(data["dataset_providers"])) {
                 this.dataset_providers = [];
                 for (let item of data["dataset_providers"]) {
-                    this.dataset_providers.push(LicensesElement.fromJS(item));
+                    this.dataset_providers.push(AmazonLabelElement.fromJS(item));
                 }
             }
             if (Array.isArray(data["formats"])) {
@@ -254,7 +254,7 @@ for example: Africa, Global */
             if (Array.isArray(data["licenses"])) {
                 this.licenses = [];
                 for (let item of data["licenses"]) {
-                    this.licenses.push(LicensesElement.fromJS(item));
+                    this.licenses.push(AmazonLabelElement.fromJS(item));
                 }
             }
             this.updated_date = data["updated_date"];

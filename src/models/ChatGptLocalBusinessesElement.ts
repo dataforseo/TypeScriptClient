@@ -9,16 +9,16 @@ export interface IChatGptLocalBusinessesElement   {
         /** title of the element */
         title?: string | undefined
         
-        /** description of the local businesses */
+        /** description of the local business */
         description?: string | undefined
         
-        /** address of the local businesses */
+        /** address of the local business */
         address?: string | undefined
         
-        /** phone of the local businesses */
+        /** phone of the local business */
         phone?: string | undefined
         
-        /** total number of reviews submitted for the local businesses */
+        /** total number of reviews submitted for the local business */
         reviews_count?: number | undefined
         
         /** URL */
@@ -27,7 +27,7 @@ export interface IChatGptLocalBusinessesElement   {
         /** domain */
         domain?: string | undefined
         
-        /** rating of the corresponding local businesses
+        /** rating of the corresponding local business
 popularity rate based on reviews as displayed in the results */
         rating?: RatingInfo | undefined
 
@@ -45,19 +45,19 @@ export class ChatGptLocalBusinessesElement  implements IChatGptLocalBusinessesEl
 
     title?: string | undefined;
     
-    /** description of the local businesses */
+    /** description of the local business */
 
     description?: string | undefined;
     
-    /** address of the local businesses */
+    /** address of the local business */
 
     address?: string | undefined;
     
-    /** phone of the local businesses */
+    /** phone of the local business */
 
     phone?: string | undefined;
     
-    /** total number of reviews submitted for the local businesses */
+    /** total number of reviews submitted for the local business */
 
     reviews_count?: number | undefined;
     
@@ -69,7 +69,7 @@ export class ChatGptLocalBusinessesElement  implements IChatGptLocalBusinessesEl
 
     domain?: string | undefined;
     
-    /** rating of the corresponding local businesses
+    /** rating of the corresponding local business
 popularity rate based on reviews as displayed in the results */
 
     rating?: RatingInfo | undefined;

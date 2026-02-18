@@ -9,11 +9,9 @@ if you need to use the “%” character for your keyword, please specify it as 
 this field can also be used to pass the following parameters:
 cid – a unique, google-defined id of the business entity;
 place_id – an identifier of the business entity in Google Maps;
-spp – a unique identifier of local services featured in the local_pack element of Google SERP
 example:
 cid:194604053573767737
 place_id:GhIJQWDl0CIeQUARxks3icF8U8A
-spp:CgsvZy8xdGN4cWRraBoUChIJPZDrEzLsZIgRoNrpodC5P30
 learn more about the cid and place_id identifiers in this help center article
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
         keyword?: string | undefined
@@ -77,7 +75,7 @@ you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
         tag?: string | undefined
         
-        /** return URL for sending task results
+        /** URL for sending task results
 optional field
 once the task is completed, we will send a POST request with its results compressed in the gzip format to the postback_url you specified
 you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded $tag variable. We will set the necessary values before sending the request.
@@ -116,11 +114,9 @@ if you need to use the “%” character for your keyword, please specify it as 
 this field can also be used to pass the following parameters:
 cid – a unique, google-defined id of the business entity;
 place_id – an identifier of the business entity in Google Maps;
-spp – a unique identifier of local services featured in the local_pack element of Google SERP
 example:
 cid:194604053573767737
 place_id:GhIJQWDl0CIeQUARxks3icF8U8A
-spp:CgsvZy8xdGN4cWRraBoUChIJPZDrEzLsZIgRoNrpodC5P30
 learn more about the cid and place_id identifiers in this help center article
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
@@ -192,7 +188,7 @@ you will find the specified tag value in the data object of the response */
 
     tag?: string | undefined;
     
-    /** return URL for sending task results
+    /** URL for sending task results
 optional field
 once the task is completed, we will send a POST request with its results compressed in the gzip format to the postback_url you specified
 you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded $tag variable. We will set the necessary values before sending the request.

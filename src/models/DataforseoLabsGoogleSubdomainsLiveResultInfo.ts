@@ -1,4 +1,4 @@
-import { DataforseoLabsSubdomainsLiveItem, IDataforseoLabsSubdomainsLiveItem } from "./DataforseoLabsSubdomainsLiveItem";
+import { DataforseoLabsGoogleSubdomainsLiveItem, IDataforseoLabsGoogleSubdomainsLiveItem } from "./DataforseoLabsGoogleSubdomainsLiveItem";
 
 
 export interface IDataforseoLabsGoogleSubdomainsLiveResultInfo   {
@@ -22,7 +22,7 @@ export interface IDataforseoLabsGoogleSubdomainsLiveResultInfo   {
         items_count?: number | undefined
         
         /** contains subdomains and related data */
-        items?: DataforseoLabsSubdomainsLiveItem[] | undefined
+        items?: DataforseoLabsGoogleSubdomainsLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -56,7 +56,7 @@ export class DataforseoLabsGoogleSubdomainsLiveResultInfo  implements IDataforse
     
     /** contains subdomains and related data */
 
-    items?: DataforseoLabsSubdomainsLiveItem[] | undefined;
+    items?: DataforseoLabsGoogleSubdomainsLiveItem[] | undefined;
 
     [key: string]: any;
 
@@ -87,7 +87,7 @@ export class DataforseoLabsGoogleSubdomainsLiveResultInfo  implements IDataforse
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(DataforseoLabsSubdomainsLiveItem.fromJS(item));
+                    this.items.push(DataforseoLabsGoogleSubdomainsLiveItem.fromJS(item));
                 }
             }
         }

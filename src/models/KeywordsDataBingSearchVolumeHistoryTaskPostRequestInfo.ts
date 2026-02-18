@@ -90,7 +90,7 @@ with value weekly, you will get results for the past 15 weeks
 with value daily, you will get results for the past 45 days */
         date_to?: string | undefined
         
-        /** return URL for sending task results
+        /** URL for sending task results
 optional field
 once the task is completed, we will send a POST request with its results compressed in the gzip format to the postback_url you specified
 you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded $tag variable. We will set the necessary values before sending the request.
@@ -227,7 +227,7 @@ with value daily, you will get results for the past 45 days */
 
     date_to?: string | undefined;
     
-    /** return URL for sending task results
+    /** URL for sending task results
 optional field
 once the task is completed, we will send a POST request with its results compressed in the gzip format to the postback_url you specified
 you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded $tag variable. We will set the necessary values before sending the request.

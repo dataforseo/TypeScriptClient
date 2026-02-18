@@ -34,7 +34,7 @@
 **cash_from_operations_delta** | **number** | change in cash from operations |[optional]|
 **cash_from_investing** | **number** | cash from investing |[optional]|
 **cash_from_investing_delta** | **number** | change in cash from investing |[optional]|
-**cash_from_financing** | **number** | cash from financing/em> |[optional]|
+**cash_from_financing** | **number** | cash from financing |[optional]|
 **cash_from_financing_delta** | **number** | change in cash from financing |[optional]|
 **net_change_in_cash** | **number** | net change in cash |[optional]|
 **net_change_in_cash_delta** | **number** | change in net change in cash |[optional]|

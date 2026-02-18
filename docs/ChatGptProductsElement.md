@@ -7,7 +7,7 @@
 **type** | **string** | type of element |[optional]|
 **product_id** | **string** | product id |[optional]|
 **title** | **string** | title of the element |[optional]|
-**rating** | **RatingInfo** | rating of the corresponding local businesses<br>popularity rate based on reviews as displayed in the results |[optional]|
+**rating** | **RatingInfo** | rating of the corresponding local business<br>popularity rate based on reviews as displayed in the results |[optional]|
 **price** | **number** | product price |[optional]|
 **currency** | **string** | currency of the listed price<br>ISO code of the currency applied to the price |[optional]|
 **tag** | **string** | tag text |[optional]|

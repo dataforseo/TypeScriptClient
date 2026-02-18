@@ -20,4 +20,4 @@
 **description_rows** | **string[]** | extended description<br>if there is none, equals null |[optional]|
 **links** | **AdLinkElement[]** | sitelinks<br>the links shown below some of Google’s search results<br>if there are none, equals null |[optional]|
 **price** | **PriceInfo** | price of booking a place for the specified dates of stay |[optional]|
-**rating** | **RatingInfo** | the item’s rating <br>the popularity rate based on reviews and displayed in SERP |[optional]|
+**rating** | **RatingInfo** | the item’s rating <br>the popularity rate based on reviews and displayed in SERP;<br>if there is none, equals null |[optional]|

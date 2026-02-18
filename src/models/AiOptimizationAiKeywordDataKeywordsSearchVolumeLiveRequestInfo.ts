@@ -3,8 +3,9 @@ export interface IAiOptimizationAiKeywordDataKeywordsSearchVolumeLiveRequestInfo
         /** keywords
 required field
 UTF-8 encoding
-The maximum number of keywords you can specify: 1000
-The keywords will be converted to lowercase format
+The maximum number of keywords you can specify: 1000;
+The maximum number of characters in a single keyword: 250;
+The keywords will be converted to lowercase format;
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
         keywords?: string[] | undefined
         
@@ -60,8 +61,9 @@ export class AiOptimizationAiKeywordDataKeywordsSearchVolumeLiveRequestInfo  imp
     /** keywords
 required field
 UTF-8 encoding
-The maximum number of keywords you can specify: 1000
-The keywords will be converted to lowercase format
+The maximum number of keywords you can specify: 1000;
+The maximum number of characters in a single keyword: 250;
+The keywords will be converted to lowercase format;
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keywords?: string[] | undefined;

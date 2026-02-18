@@ -19,12 +19,11 @@ you can receive the list of available LLM models by making a separate request to
         
         /** maximum number of tokens in the AI response
 optional field
-minimum value for reasoning models (e.g., model_name starts with ‘o’): 1024;
+minimum value for reasoning models (e.g., reasoning is true in the Models endpoint): 1024;
 minimum value for non-reasoning models: 16;
-maximum value for reasoning models: 4096;
-maximum value for non-reasoning models: 2048;
-default value for both reasoning and non-reasoning models: 2048;
-Note: when web_search is set to true, the output token count may exceed the specified max_output_tokens limit */
+maximum value: 4096;
+default value: 2048
+Note: if web_search is set to true or the reasoning model is specified in the request, the output token count may exceed the specified max_output_tokens limit */
         max_output_tokens?: number | undefined
         
         /** randomness of the AI response
@@ -125,12 +124,11 @@ you can receive the list of available LLM models by making a separate request to
     
     /** maximum number of tokens in the AI response
 optional field
-minimum value for reasoning models (e.g., model_name starts with ‘o’): 1024;
+minimum value for reasoning models (e.g., reasoning is true in the Models endpoint): 1024;
 minimum value for non-reasoning models: 16;
-maximum value for reasoning models: 4096;
-maximum value for non-reasoning models: 2048;
-default value for both reasoning and non-reasoning models: 2048;
-Note: when web_search is set to true, the output token count may exceed the specified max_output_tokens limit */
+maximum value: 4096;
+default value: 2048
+Note: if web_search is set to true or the reasoning model is specified in the request, the output token count may exceed the specified max_output_tokens limit */
 
     max_output_tokens?: number | undefined;
     

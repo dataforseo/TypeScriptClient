@@ -1,5 +1,5 @@
 import { KeywordDataInfo, IKeywordDataInfo } from "./KeywordDataInfo";
-import { DataforseoLabsRelatedKeywordsLiveItem, IDataforseoLabsRelatedKeywordsLiveItem } from "./DataforseoLabsRelatedKeywordsLiveItem";
+import { DataforseoLabsGoogleRelatedKeywordsLiveItem, IDataforseoLabsGoogleRelatedKeywordsLiveItem } from "./DataforseoLabsGoogleRelatedKeywordsLiveItem";
 
 
 export interface IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo   {
@@ -27,7 +27,7 @@ fields in the array are identical to that of keyword_data */
         items_count?: number | undefined
         
         /** contains keywords and related data */
-        items?: DataforseoLabsRelatedKeywordsLiveItem[] | undefined
+        items?: DataforseoLabsGoogleRelatedKeywordsLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -66,7 +66,7 @@ fields in the array are identical to that of keyword_data */
     
     /** contains keywords and related data */
 
-    items?: DataforseoLabsRelatedKeywordsLiveItem[] | undefined;
+    items?: DataforseoLabsGoogleRelatedKeywordsLiveItem[] | undefined;
 
     [key: string]: any;
 
@@ -98,7 +98,7 @@ fields in the array are identical to that of keyword_data */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(DataforseoLabsRelatedKeywordsLiveItem.fromJS(item));
+                    this.items.push(DataforseoLabsGoogleRelatedKeywordsLiveItem.fromJS(item));
                 }
             }
         }

@@ -28,6 +28,14 @@ example:
 2025-06-15 12:57:46 +00:00
 Note: if there is no active subscription to Backlinks API, the value equals null */
         backlinks_subscription_expiry_date?: string | undefined
+        
+        /** expiry date of the llm mentions api subscription
+date and time when the current subscription to LLM Mentions API expires;
+in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
+example:
+2026-02-28 14:01:38 +00:00
+Note: if there is no active subscription to LLM Mentions API, the value equals null */
+        llm_mentions_subscription_expiry_date?: string | undefined
 
     [key: string]: any;
 
@@ -64,6 +72,15 @@ example:
 Note: if there is no active subscription to Backlinks API, the value equals null */
 
     backlinks_subscription_expiry_date?: string | undefined;
+    
+    /** expiry date of the llm mentions api subscription
+date and time when the current subscription to LLM Mentions API expires;
+in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
+example:
+2026-02-28 14:01:38 +00:00
+Note: if there is no active subscription to LLM Mentions API, the value equals null */
+
+    llm_mentions_subscription_expiry_date?: string | undefined;
 
     [key: string]: any;
 
@@ -91,6 +108,7 @@ Note: if there is no active subscription to Backlinks API, the value equals null
             this.money = data["money"] ? AppendixMoneyData.fromJS(data["money"]) : <any>undefined;
             this.price = data["price"] ? AppendixPriceData.fromJS(data["price"]) : <any>undefined;
             this.backlinks_subscription_expiry_date = data["backlinks_subscription_expiry_date"];
+            this.llm_mentions_subscription_expiry_date = data["llm_mentions_subscription_expiry_date"];
         }
     }
 
@@ -114,6 +132,7 @@ Note: if there is no active subscription to Backlinks API, the value equals null
         data["money"] = this.money ? AppendixMoneyData.fromJS(this.money)?.toJSON() : <any>undefined;
         data["price"] = this.price ? AppendixPriceData.fromJS(this.price)?.toJSON() : <any>undefined;
         data["backlinks_subscription_expiry_date"] = this.backlinks_subscription_expiry_date;
+        data["llm_mentions_subscription_expiry_date"] = this.llm_mentions_subscription_expiry_date;
         return data;
     }
 }

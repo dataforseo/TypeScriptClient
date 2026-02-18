@@ -45,7 +45,7 @@ Slovenian, sl,
 Bosnian, bs,
 Greek, el,
 Hungarian, hu,
-Slovakian, sk,
+Slovak, sk,
 Turkish, tr
 example:
 English */
@@ -118,7 +118,7 @@ Slovenian, sl,
 Bosnian, bs,
 Greek, el,
 Hungarian, hu,
-Slovakian, sk,
+Slovak, sk,
 Turkish, tr
 example:
 English */

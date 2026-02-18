@@ -1,4 +1,4 @@
-import { DataforseoLabsRelevantPagesLiveItem, IDataforseoLabsRelevantPagesLiveItem } from "./DataforseoLabsRelevantPagesLiveItem";
+import { DataforseoLabsGoogleRelevantPagesLiveItem, IDataforseoLabsGoogleRelevantPagesLiveItem } from "./DataforseoLabsGoogleRelevantPagesLiveItem";
 
 
 export interface IDataforseoLabsGoogleRelevantPagesLiveResultInfo   {
@@ -24,7 +24,7 @@ if there is no data, then the value is null */
         items_count?: number | undefined
         
         /** relevant pages and related data */
-        items?: DataforseoLabsRelevantPagesLiveItem[] | undefined
+        items?: DataforseoLabsGoogleRelevantPagesLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -60,7 +60,7 @@ if there is no data, then the value is null */
     
     /** relevant pages and related data */
 
-    items?: DataforseoLabsRelevantPagesLiveItem[] | undefined;
+    items?: DataforseoLabsGoogleRelevantPagesLiveItem[] | undefined;
 
     [key: string]: any;
 
@@ -91,7 +91,7 @@ if there is no data, then the value is null */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(DataforseoLabsRelevantPagesLiveItem.fromJS(item));
+                    this.items.push(DataforseoLabsGoogleRelevantPagesLiveItem.fromJS(item));
                 }
             }
         }

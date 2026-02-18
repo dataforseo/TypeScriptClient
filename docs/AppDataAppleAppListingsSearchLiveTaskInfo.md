@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **any** | array of results |[optional]|
+**result** | **AppDataAppleAppListingsSearchLiveResultInfo[]** | array of results |[optional]|

@@ -1,4 +1,4 @@
-import { OnPageStylesheetResourceItem, IOnPageStylesheetResourceItem } from "./BaseOnPageResourceItem";
+import { BaseOnPageResourceItem, IBaseOnPageResourceItem } from "./BaseOnPageResourceItem";
 
 
 export interface IOnPageInstantPagesResultInfo   {
@@ -20,7 +20,7 @@ you can find the full list of IPs used by our crawler in the Overview section */
         items_count?: number | undefined
         
         /** items array */
-        items?: OnPageStylesheetResourceItem[] | undefined
+        items?: BaseOnPageResourceItem[] | undefined
 
     [key: string]: any;
 
@@ -50,7 +50,7 @@ you can find the full list of IPs used by our crawler in the Overview section */
     
     /** items array */
 
-    items?: OnPageStylesheetResourceItem[] | undefined;
+    items?: BaseOnPageResourceItem[] | undefined;
 
     [key: string]: any;
 
@@ -79,7 +79,7 @@ you can find the full list of IPs used by our crawler in the Overview section */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(OnPageStylesheetResourceItem.fromJS(item));
+                    this.items.push(BaseOnPageResourceItem.fromJS(item));
                 }
             }
         }

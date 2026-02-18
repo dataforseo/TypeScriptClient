@@ -4,7 +4,7 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**resource_type** | **string** | type of element |[optional]|
+**resource_type** | **string** | type of the returned resource = ‘html’ |[optional]|
 **status_code** | **number** | status code of the page |[optional]|
 **location** | **string** | location header<br>indicates the URL to redirect a page to |[optional]|
 **url** | **string** | page URL |[optional]|

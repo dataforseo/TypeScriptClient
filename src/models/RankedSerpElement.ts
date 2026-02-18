@@ -26,8 +26,7 @@ note that the actual results will be returned only for organic, paid, featured_s
         
         /** difficulty of ranking in the first top-10 organic results for a keyword
 indicates the chance of getting in top-10 organic results for a keyword on a logarithmic scale from 0 to 100;
-calculated by analysing, among other parameters, link profiles of the first 10 pages in SERP;
-learn more about the metric in this help center guide */
+calculated by analysing, among other parameters, link profiles of the first 10 pages in SERP */
         keyword_difficulty?: number | undefined
         
         /** lost ranked elements
@@ -80,8 +79,7 @@ note that the actual results will be returned only for organic, paid, featured_s
     
     /** difficulty of ranking in the first top-10 organic results for a keyword
 indicates the chance of getting in top-10 organic results for a keyword on a logarithmic scale from 0 to 100;
-calculated by analysing, among other parameters, link profiles of the first 10 pages in SERP;
-learn more about the metric in this help center guide */
+calculated by analysing, among other parameters, link profiles of the first 10 pages in SERP */
 
     keyword_difficulty?: number | undefined;
     

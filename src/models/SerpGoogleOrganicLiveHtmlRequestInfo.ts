@@ -41,6 +41,7 @@ The cost can be calculated on the Pricing page. */
         
         /** device type
 optional field
+return results for a specific device type
 can take the values:desktop, mobile
 default value: desktop */
         device?: string | undefined
@@ -96,16 +97,20 @@ Your account will be billed per each SERP crawled through the specified targets 
         stop_crawl_on_match?: SerpApiStopCrawlOnMatchInfo[] | undefined
         
         /** target match type
-optional field
+required field if stop_crawl_on_match is specified
 type of match for the match_value
-possible values: domain, with_subdomains, wildcard */
+possible values:
+domain – specific domain or subdomain
+with_subdomains – main domain and subdomains
+wildcard –  wildcard pattern */
         match_type?: string | undefined
         
-        /** target domain or wildcard value
-optional field
-specify a target domain or wildcard value;
-Note: domain name must be specified without a request protocol;
-example: dataforseo.com */
+        /** target domain, subdomain, or wildcard value
+required field if stop_crawl_on_match is specified
+specify a target domain, subdomain, or wildcard value;
+Note: domain or subdomain must be specified without a request protocol;
+example: 'match_value': 'dataforseo.com',
+'match_value': '/blog/post-*' */
         match_value?: string | undefined
         
         /** page crawl limit
@@ -237,6 +242,7 @@ The cost can be calculated on the Pricing page. */
     
     /** device type
 optional field
+return results for a specific device type
 can take the values:desktop, mobile
 default value: desktop */
 
@@ -299,17 +305,21 @@ Your account will be billed per each SERP crawled through the specified targets 
     stop_crawl_on_match?: SerpApiStopCrawlOnMatchInfo[] | undefined;
     
     /** target match type
-optional field
+required field if stop_crawl_on_match is specified
 type of match for the match_value
-possible values: domain, with_subdomains, wildcard */
+possible values:
+domain – specific domain or subdomain
+with_subdomains – main domain and subdomains
+wildcard –  wildcard pattern */
 
     match_type?: string | undefined;
     
-    /** target domain or wildcard value
-optional field
-specify a target domain or wildcard value;
-Note: domain name must be specified without a request protocol;
-example: dataforseo.com */
+    /** target domain, subdomain, or wildcard value
+required field if stop_crawl_on_match is specified
+specify a target domain, subdomain, or wildcard value;
+Note: domain or subdomain must be specified without a request protocol;
+example: 'match_value': 'dataforseo.com',
+'match_value': '/blog/post-*' */
 
     match_value?: string | undefined;
     

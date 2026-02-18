@@ -83,6 +83,7 @@ example:
         
         /** device type
 optional field
+return results for a specific device type
 can take the values: desktop, mobile, tablet
 default value: desktop */
         device?: string | undefined
@@ -116,17 +117,21 @@ learn more about this parameter on our Help Center - https://dataforseo.com/help
 Your account will be billed per each SERP crawled through the specified targets */
         stop_crawl_on_match?: SerpApiStopCrawlOnMatchInfo[] | undefined
         
-        /** target domain or wildcard value
-required field if stop_crawl_on_match is specified;
-specify a target domain or wildcard value;
-Note: domain name must be specified without a request protocol;
-example: dataforseo.com */
+        /** target domain, subdomain, or wildcard value
+required field if stop_crawl_on_match is specified
+specify a target domain, subdomain, or wildcard value;
+Note: domain or subdomain must be specified without a request protocol;
+example: 'match_value': 'dataforseo.com',
+'match_value': '/blog/post-*' */
         match_value?: string | undefined
         
         /** target match type
-required field if stop_crawl_on_match is specified;
+required field if stop_crawl_on_match is specified
 type of match for the match_value
-possible values: domain, with_subdomains, wildcard */
+possible values:
+domain – specific domain or subdomain
+with_subdomains – main domain and subdomains
+wildcard –  wildcard pattern */
         match_type?: string | undefined
         
         /** user-defined task identifier
@@ -136,7 +141,7 @@ you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
         tag?: string | undefined
         
-        /** return URL for sending task results
+        /** URL for sending task results
 optional field
 once the task is completed, we will send a POST request with its results compressed in the gzip format to the postback_url you specified
 you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded $tag variable. We will set the necessary values before sending the request.
@@ -262,6 +267,7 @@ example:
     
     /** device type
 optional field
+return results for a specific device type
 can take the values: desktop, mobile, tablet
 default value: desktop */
 
@@ -299,18 +305,22 @@ Your account will be billed per each SERP crawled through the specified targets 
 
     stop_crawl_on_match?: SerpApiStopCrawlOnMatchInfo[] | undefined;
     
-    /** target domain or wildcard value
-required field if stop_crawl_on_match is specified;
-specify a target domain or wildcard value;
-Note: domain name must be specified without a request protocol;
-example: dataforseo.com */
+    /** target domain, subdomain, or wildcard value
+required field if stop_crawl_on_match is specified
+specify a target domain, subdomain, or wildcard value;
+Note: domain or subdomain must be specified without a request protocol;
+example: 'match_value': 'dataforseo.com',
+'match_value': '/blog/post-*' */
 
     match_value?: string | undefined;
     
     /** target match type
-required field if stop_crawl_on_match is specified;
+required field if stop_crawl_on_match is specified
 type of match for the match_value
-possible values: domain, with_subdomains, wildcard */
+possible values:
+domain – specific domain or subdomain
+with_subdomains – main domain and subdomains
+wildcard –  wildcard pattern */
 
     match_type?: string | undefined;
     
@@ -322,7 +332,7 @@ you will find the specified tag value in the data object of the response */
 
     tag?: string | undefined;
     
-    /** return URL for sending task results
+    /** URL for sending task results
 optional field
 once the task is completed, we will send a POST request with its results compressed in the gzip format to the postback_url you specified
 you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded $tag variable. We will set the necessary values before sending the request.

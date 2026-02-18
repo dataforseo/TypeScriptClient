@@ -51,6 +51,7 @@ you can receive the list of available languages of the search engine with their 
         
         /** device type
 optional field
+return results for a specific device type
 can take the values:desktop, mobile
 default value: desktop */
         device?: string | undefined
@@ -156,6 +157,7 @@ you can receive the list of available languages of the search engine with their 
     
     /** device type
 optional field
+return results for a specific device type
 can take the values:desktop, mobile
 default value: desktop */
 

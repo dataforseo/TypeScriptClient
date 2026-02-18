@@ -62,7 +62,8 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version */
         amp_version?: boolean | undefined
         
         /** the element’s rating
-the popularity rate based on reviews and displayed in SERP */
+the popularity rate based on reviews and displayed in SERP;
+if there is none, equals null */
         rating?: RatingInfo | undefined
         
         /** price indicated in the element */
@@ -161,7 +162,8 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version */
     amp_version?: boolean | undefined;
     
     /** the element’s rating
-the popularity rate based on reviews and displayed in SERP */
+the popularity rate based on reviews and displayed in SERP;
+if there is none, equals null */
 
     rating?: RatingInfo | undefined;
     

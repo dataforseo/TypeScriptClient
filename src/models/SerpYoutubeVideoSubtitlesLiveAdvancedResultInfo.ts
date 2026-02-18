@@ -45,7 +45,8 @@ youtube_subtitles */
         /** language code of original text */
         origin_language?: string | undefined
         
-        /** the category the video belongs to */
+        /** the category the video belongs to
+Note: this field is deprecated and always returns null */
         category?: string | undefined
         
         /** number of subtitles in the video */
@@ -118,7 +119,8 @@ youtube_subtitles */
 
     origin_language?: string | undefined;
     
-    /** the category the video belongs to */
+    /** the category the video belongs to
+Note: this field is deprecated and always returns null */
 
     category?: string | undefined;
     

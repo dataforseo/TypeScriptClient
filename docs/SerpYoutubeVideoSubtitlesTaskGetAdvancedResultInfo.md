@@ -15,7 +15,7 @@
 **unsupported_language** | **boolean** | indicates whether the language is unsupported by the system |[optional]|
 **translate_language** | **string** | language code of translated text |[optional]|
 **origin_language** | **string** | language code of original text |[optional]|
-**category** | **string** | the category the video belongs to |[optional]|
+**category** | **string** | the category the video belongs to<br>Note: this field is deprecated and always returns null |[optional]|
 **subtitles_count** | **number** | number of subtitles in the video |[optional]|
 **title** | **string** | title of the video |[optional]|
 **items_count** | **number** | the number of results returned in the items array |[optional]|

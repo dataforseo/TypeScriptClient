@@ -1,4 +1,4 @@
-import { LicensesElement, ILicensesElement } from "./LicensesElement";
+import { AmazonLabelElement, IAmazonLabelElement } from "./AmazonLabelElement";
 
 
 export interface IRefinementChipsElement   {
@@ -16,7 +16,7 @@ export interface IRefinementChipsElement   {
         domain?: string | undefined
         
         /** further search refinement options */
-        options?: LicensesElement[] | undefined
+        options?: AmazonLabelElement[] | undefined
 
     [key: string]: any;
 
@@ -42,7 +42,7 @@ export class RefinementChipsElement  implements IRefinementChipsElement {
     
     /** further search refinement options */
 
-    options?: LicensesElement[] | undefined;
+    options?: AmazonLabelElement[] | undefined;
 
     [key: string]: any;
 
@@ -71,7 +71,7 @@ export class RefinementChipsElement  implements IRefinementChipsElement {
             if (Array.isArray(data["options"])) {
                 this.options = [];
                 for (let item of data["options"]) {
-                    this.options.push(LicensesElement.fromJS(item));
+                    this.options.push(AmazonLabelElement.fromJS(item));
                 }
             }
         }

@@ -18,6 +18,7 @@ en */
         
         /** device type
 optional field
+return results for a specific device type
 possible value: desktop */
         device?: string | undefined
         
@@ -82,6 +83,7 @@ en */
     
     /** device type
 optional field
+return results for a specific device type
 possible value: desktop */
 
     device?: string | undefined;

@@ -23,6 +23,13 @@ example:
 learn more about the parameter in this help center guide */
         gid?: string | undefined
         
+        /** product variant filter  on Google Shopping
+optional field
+parameter in Google Shopping URL, setting optional product variant filtration;
+example:
+Eg4iBWNvbG9yKgV3aGl0ZRISIgxwYWNrYWdlIHNpemUqAjE0EgoiBHNpemUqAnhs */
+        pvf?: string | undefined
+        
         /** task priority
 optional field
 can take the following values:
@@ -74,6 +81,16 @@ example:
 en */
         language_code?: string | undefined
         
+        /** parsing depth
+optional field
+number of results to be retrieved from Google Shopping SERP
+default value: 10
+max value: 200
+your account will be billed per each SERP containing up to 10 results;
+setting depth above 10 may result in additional charges if the search engine returns more than 10 results;
+the cost can be calculated on the Pricing page */
+        depth?: number | undefined
+        
         /** search engine domain
 optional field
 we choose the relevant search engine domain automatically according to the location and language you specify
@@ -103,7 +120,7 @@ you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
         tag?: string | undefined
         
-        /** return URL for sending task results
+        /** URL for sending task results
 optional field
 once the task is completed, we will send a POST request with its results compressed in the gzip format to the postback_url you specified
 you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded $tag variable. We will set the necessary values before sending the request.
@@ -166,6 +183,14 @@ learn more about the parameter in this help center guide */
 
     gid?: string | undefined;
     
+    /** product variant filter  on Google Shopping
+optional field
+parameter in Google Shopping URL, setting optional product variant filtration;
+example:
+Eg4iBWNvbG9yKgV3aGl0ZRISIgxwYWNrYWdlIHNpemUqAjE0EgoiBHNpemUqAnhs */
+
+    pvf?: string | undefined;
+    
     /** task priority
 optional field
 can take the following values:
@@ -223,6 +248,17 @@ en */
 
     language_code?: string | undefined;
     
+    /** parsing depth
+optional field
+number of results to be retrieved from Google Shopping SERP
+default value: 10
+max value: 200
+your account will be billed per each SERP containing up to 10 results;
+setting depth above 10 may result in additional charges if the search engine returns more than 10 results;
+the cost can be calculated on the Pricing page */
+
+    depth?: number | undefined;
+    
     /** search engine domain
 optional field
 we choose the relevant search engine domain automatically according to the location and language you specify
@@ -256,7 +292,7 @@ you will find the specified tag value in the data object of the response */
 
     tag?: string | undefined;
     
-    /** return URL for sending task results
+    /** URL for sending task results
 optional field
 once the task is completed, we will send a POST request with its results compressed in the gzip format to the postback_url you specified
 you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded $tag variable. We will set the necessary values before sending the request.
@@ -313,12 +349,14 @@ learn more on our Help Center */
             this.product_id = data["product_id"];
             this.data_docid = data["data_docid"];
             this.gid = data["gid"];
+            this.pvf = data["pvf"];
             this.priority = data["priority"];
             this.location_name = data["location_name"];
             this.location_code = data["location_code"];
             this.location_coordinate = data["location_coordinate"];
             this.language_name = data["language_name"];
             this.language_code = data["language_code"];
+            this.depth = data["depth"];
             this.se_domain = data["se_domain"];
             this.get_shops_on_google = data["get_shops_on_google"];
             this.additional_specifications = data["additional_specifications"];
@@ -346,12 +384,14 @@ learn more on our Help Center */
         data["product_id"] = this.product_id;
         data["data_docid"] = this.data_docid;
         data["gid"] = this.gid;
+        data["pvf"] = this.pvf;
         data["priority"] = this.priority;
         data["location_name"] = this.location_name;
         data["location_code"] = this.location_code;
         data["location_coordinate"] = this.location_coordinate;
         data["language_name"] = this.language_name;
         data["language_code"] = this.language_code;
+        data["depth"] = this.depth;
         data["se_domain"] = this.se_domain;
         data["get_shops_on_google"] = this.get_shops_on_google;
         data["additional_specifications"] = this.additional_specifications;

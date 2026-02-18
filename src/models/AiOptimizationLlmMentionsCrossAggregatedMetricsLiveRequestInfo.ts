@@ -8,7 +8,8 @@ export interface IAiOptimizationLlmMentionsCrossAggregatedMetricsLiveRequestInfo
         
         /** aggregation key for grouping the results
 required field
-groups results for comparison and serves as a label for the group */
+groups results for comparison and serves as a label for the group;
+you can specify up to 250 characters in the aggregation_key field */
         aggregation_key?: string | undefined
         
         /** array of objects containing target entities
@@ -18,6 +19,7 @@ a single target can contain up to 10 domain and/or keyword entities */
         
         /** target domain
 required field if you don’t specify a keyword
+you can specify up to 63 characters in the domain field;
 a domain should be specified without https:// and www. */
         domain?: string | undefined
         
@@ -43,7 +45,7 @@ default value: false */
         
         /** target keyword
 required field if you don’t specify a domain
-you can specify up to 2000 characters in the keyword field
+you can specify up to 250 characters in the keyword field
 all %## will be decoded (plus character ‘+’ will be decoded to a space character)
 if you need to use the “%” character for your keyword, please specify it as “%25”;
 if you need to use the “+” character for your keyword, please specify it as “%2B”
@@ -140,7 +142,8 @@ export class AiOptimizationLlmMentionsCrossAggregatedMetricsLiveRequestInfo  imp
     
     /** aggregation key for grouping the results
 required field
-groups results for comparison and serves as a label for the group */
+groups results for comparison and serves as a label for the group;
+you can specify up to 250 characters in the aggregation_key field */
 
     aggregation_key?: string | undefined;
     
@@ -152,6 +155,7 @@ a single target can contain up to 10 domain and/or keyword entities */
     
     /** target domain
 required field if you don’t specify a keyword
+you can specify up to 63 characters in the domain field;
 a domain should be specified without https:// and www. */
 
     domain?: string | undefined;
@@ -181,7 +185,7 @@ default value: false */
     
     /** target keyword
 required field if you don’t specify a domain
-you can specify up to 2000 characters in the keyword field
+you can specify up to 250 characters in the keyword field
 all %## will be decoded (plus character ‘+’ will be decoded to a space character)
 if you need to use the “%” character for your keyword, please specify it as “%25”;
 if you need to use the “+” character for your keyword, please specify it as “%2B”

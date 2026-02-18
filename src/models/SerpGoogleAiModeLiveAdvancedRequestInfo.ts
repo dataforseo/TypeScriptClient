@@ -24,6 +24,7 @@ you can receive the list of available languages of the search engine with their 
         
         /** device type
 optional field
+return results for a specific device type
 can take the values:desktop, mobile
 default value: desktop */
         device?: string | undefined
@@ -67,6 +68,7 @@ Note: if set to true, the charge per task will be multiplied by 2 */
         /** browser screen width
 optional field
 you can set a custom browser screen width to calculate pixel rankings for a particular device;
+can be specified within the following range: 240-9999;
 by default, the parameter is set to:
 1920 for desktop;
 360 for mobile on android;
@@ -77,6 +79,7 @@ Note: to use this parameter, set calculate_rectangles to true */
         /** browser screen height
 optional field
 you can set a custom browser screen height to calculate pixel rankings for a particular device;
+can be specified within the following range: 240-9999;
 by default, the parameter is set to:
 1080 for desktop;
 640 for mobile on android;
@@ -87,6 +90,7 @@ Note: to use this parameter, set calculate_rectangles to true */
         /** browser screen resolution ratio
 optional field
 you can set a custom browser screen resolution ratio to calculate pixel rankings for a particular device;
+can be specified within the following range: 0.5-3;
 by default, the parameter is set to:
 1 for desktop;
 3 for mobile on android;
@@ -139,6 +143,7 @@ you can receive the list of available languages of the search engine with their 
     
     /** device type
 optional field
+return results for a specific device type
 can take the values:desktop, mobile
 default value: desktop */
 
@@ -188,6 +193,7 @@ Note: if set to true, the charge per task will be multiplied by 2 */
     /** browser screen width
 optional field
 you can set a custom browser screen width to calculate pixel rankings for a particular device;
+can be specified within the following range: 240-9999;
 by default, the parameter is set to:
 1920 for desktop;
 360 for mobile on android;
@@ -199,6 +205,7 @@ Note: to use this parameter, set calculate_rectangles to true */
     /** browser screen height
 optional field
 you can set a custom browser screen height to calculate pixel rankings for a particular device;
+can be specified within the following range: 240-9999;
 by default, the parameter is set to:
 1080 for desktop;
 640 for mobile on android;
@@ -210,6 +217,7 @@ Note: to use this parameter, set calculate_rectangles to true */
     /** browser screen resolution ratio
 optional field
 you can set a custom browser screen resolution ratio to calculate pixel rankings for a particular device;
+can be specified within the following range: 0.5-3;
 by default, the parameter is set to:
 1 for desktop;
 3 for mobile on android;

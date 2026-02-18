@@ -22,7 +22,8 @@ export interface IKnowledgeGraphExpandedElement   {
         /** text alongside the link title */
         snippet?: string | undefined
         
-        /** images of the element */
+        /** images of the element
+if there are none, equals null */
         images?: AiModeImagesElementInfo[] | undefined
         
         /** date and time when the result was published
@@ -65,7 +66,8 @@ export class KnowledgeGraphExpandedElement  implements IKnowledgeGraphExpandedEl
 
     snippet?: string | undefined;
     
-    /** images of the element */
+    /** images of the element
+if there are none, equals null */
 
     images?: AiModeImagesElementInfo[] | undefined;
     

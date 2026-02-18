@@ -128,7 +128,8 @@ the links shown below some of Google’s search results
 if there are none, equals null */
         links?: LinkElement[] | undefined
         
-        /** images of the element */
+        /** images of the element
+if there is none, equals null */
         images?: AiModeImagesElementInfo[] | undefined
         
         /** references relevant to the element
@@ -159,7 +160,8 @@ if there are none, equals null */
 
     links?: LinkElement[] | undefined;
     
-    /** images of the element */
+    /** images of the element
+if there is none, equals null */
 
     images?: AiModeImagesElementInfo[] | undefined;
     
@@ -571,7 +573,7 @@ export interface ISerpApiAiOverviewShoppingItem  extends IBaseSerpApiAiOverviewE
         /** content of the element in markdown format */
         markdown?: string | undefined
         
-        /** additional items present in the element
+        /** popular keywords relevant to the initial search query
 if there are none, equals null */
         items?: AiModeAiOverviewShoppingElementInfo[] | undefined
 
@@ -589,7 +591,7 @@ export class SerpApiAiOverviewShoppingItem  extends BaseSerpApiAiOverviewElement
 
     markdown?: string | undefined;
     
-    /** additional items present in the element
+    /** popular keywords relevant to the initial search query
 if there are none, equals null */
 
     items?: AiModeAiOverviewShoppingElementInfo[] | undefined;

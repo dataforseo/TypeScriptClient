@@ -38,6 +38,7 @@ The cost can be calculated on the Pricing page. */
         
         /** device type
 optional field
+return results for a specific device type
 can take the values:desktop, mobile
 default value: desktop */
         device?: string | undefined
@@ -149,6 +150,7 @@ The cost can be calculated on the Pricing page. */
     
     /** device type
 optional field
+return results for a specific device type
 can take the values:desktop, mobile
 default value: desktop */
 

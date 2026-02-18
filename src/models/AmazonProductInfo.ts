@@ -76,6 +76,10 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
         /** indicates whether the newer model of the product is available */
         is_newer_model_available?: boolean | undefined
         
+        /** indicates whether a product has an Amazon Prime Video label
+if true, specified product is a part of Amazon Prime Video service */
+        is_prime_video?: boolean | undefined
+        
         /** array of objects containing information about applicable vouchers */
         applicable_vouchers?: AmazonApplicableVouchersItem[] | undefined
         
@@ -200,6 +204,11 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
     is_newer_model_available?: boolean | undefined;
     
+    /** indicates whether a product has an Amazon Prime Video label
+if true, specified product is a part of Amazon Prime Video service */
+
+    is_prime_video?: boolean | undefined;
+    
     /** array of objects containing information about applicable vouchers */
 
     applicable_vouchers?: AmazonApplicableVouchersItem[] | undefined;
@@ -280,6 +289,7 @@ if the value is true, the product can be ordered */
             this.is_amazon_choice = data["is_amazon_choice"];
             this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
             this.is_newer_model_available = data["is_newer_model_available"];
+            this.is_prime_video = data["is_prime_video"];
             if (Array.isArray(data["applicable_vouchers"])) {
                 this.applicable_vouchers = [];
                 for (let item of data["applicable_vouchers"]) {
@@ -351,6 +361,7 @@ if the value is true, the product can be ordered */
         data["is_amazon_choice"] = this.is_amazon_choice;
         data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["is_newer_model_available"] = this.is_newer_model_available;
+        data["is_prime_video"] = this.is_prime_video;
         data["applicable_vouchers"] = null;
         if (Array.isArray(this.applicable_vouchers)) {
             data["applicable_vouchers"] = [];

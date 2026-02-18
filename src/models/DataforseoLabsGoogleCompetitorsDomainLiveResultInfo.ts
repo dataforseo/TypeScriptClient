@@ -1,4 +1,4 @@
-import { DataforseoLabsCompetitorsDomainLiveItem, IDataforseoLabsCompetitorsDomainLiveItem } from "./DataforseoLabsCompetitorsDomainLiveItem";
+import { DataforseoLabsGoogleCompetitorsDomainLiveItem, IDataforseoLabsGoogleCompetitorsDomainLiveItem } from "./DataforseoLabsGoogleCompetitorsDomainLiveItem";
 
 
 export interface IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo   {
@@ -22,7 +22,7 @@ export interface IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo   {
         items_count?: number | undefined
         
         /** contains data related to the target and competitor domains */
-        items?: DataforseoLabsCompetitorsDomainLiveItem[] | undefined
+        items?: DataforseoLabsGoogleCompetitorsDomainLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -56,7 +56,7 @@ export class DataforseoLabsGoogleCompetitorsDomainLiveResultInfo  implements IDa
     
     /** contains data related to the target and competitor domains */
 
-    items?: DataforseoLabsCompetitorsDomainLiveItem[] | undefined;
+    items?: DataforseoLabsGoogleCompetitorsDomainLiveItem[] | undefined;
 
     [key: string]: any;
 
@@ -87,7 +87,7 @@ export class DataforseoLabsGoogleCompetitorsDomainLiveResultInfo  implements IDa
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(DataforseoLabsCompetitorsDomainLiveItem.fromJS(item));
+                    this.items.push(DataforseoLabsGoogleCompetitorsDomainLiveItem.fromJS(item));
                 }
             }
         }

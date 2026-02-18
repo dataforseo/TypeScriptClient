@@ -1,4 +1,4 @@
-import { DataforseoLabsPageIntersectionLiveItem, IDataforseoLabsPageIntersectionLiveItem } from "./DataforseoLabsPageIntersectionLiveItem";
+import { DataforseoLabsGooglePageIntersectionLiveItem, IDataforseoLabsGooglePageIntersectionLiveItem } from "./DataforseoLabsGooglePageIntersectionLiveItem";
 
 
 export interface IDataforseoLabsGooglePageIntersectionLiveResultInfo   {
@@ -25,7 +25,7 @@ export interface IDataforseoLabsGooglePageIntersectionLiveResultInfo   {
         items_count?: number | undefined
         
         /** contains keywords, relevant SERP elements and related data */
-        items?: DataforseoLabsPageIntersectionLiveItem[] | undefined
+        items?: DataforseoLabsGooglePageIntersectionLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -63,7 +63,7 @@ export class DataforseoLabsGooglePageIntersectionLiveResultInfo  implements IDat
     
     /** contains keywords, relevant SERP elements and related data */
 
-    items?: DataforseoLabsPageIntersectionLiveItem[] | undefined;
+    items?: DataforseoLabsGooglePageIntersectionLiveItem[] | undefined;
 
     [key: string]: any;
 
@@ -95,7 +95,7 @@ export class DataforseoLabsGooglePageIntersectionLiveResultInfo  implements IDat
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(DataforseoLabsPageIntersectionLiveItem.fromJS(item));
+                    this.items.push(DataforseoLabsGooglePageIntersectionLiveItem.fromJS(item));
                 }
             }
         }

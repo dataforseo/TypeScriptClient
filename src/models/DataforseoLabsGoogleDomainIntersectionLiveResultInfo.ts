@@ -1,4 +1,4 @@
-import { DataforseoLabsDomainIntersectionLiveItem, IDataforseoLabsDomainIntersectionLiveItem } from "./DataforseoLabsDomainIntersectionLiveItem";
+import { DataforseoLabsGoogleDomainIntersectionLiveItem, IDataforseoLabsGoogleDomainIntersectionLiveItem } from "./DataforseoLabsGoogleDomainIntersectionLiveItem";
 
 
 export interface IDataforseoLabsGoogleDomainIntersectionLiveResultInfo   {
@@ -25,7 +25,7 @@ export interface IDataforseoLabsGoogleDomainIntersectionLiveResultInfo   {
         items_count?: number | undefined
         
         /** contains keywords, relevant SERP elements and related data */
-        items?: DataforseoLabsDomainIntersectionLiveItem[] | undefined
+        items?: DataforseoLabsGoogleDomainIntersectionLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -63,7 +63,7 @@ export class DataforseoLabsGoogleDomainIntersectionLiveResultInfo  implements ID
     
     /** contains keywords, relevant SERP elements and related data */
 
-    items?: DataforseoLabsDomainIntersectionLiveItem[] | undefined;
+    items?: DataforseoLabsGoogleDomainIntersectionLiveItem[] | undefined;
 
     [key: string]: any;
 
@@ -95,7 +95,7 @@ export class DataforseoLabsGoogleDomainIntersectionLiveResultInfo  implements ID
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(DataforseoLabsDomainIntersectionLiveItem.fromJS(item));
+                    this.items.push(DataforseoLabsGoogleDomainIntersectionLiveItem.fromJS(item));
                 }
             }
         }

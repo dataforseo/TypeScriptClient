@@ -9,7 +9,8 @@ export interface IMultiCarouselElement   {
         /** title of the row */
         title?: string | undefined
         
-        /** multi_carousel_snippet results */
+        /** multi_carousel_snippet results
+if there are none, equals null */
         multi_carousel_snippets?: SerpApiCarouselElement[] | undefined
 
     [key: string]: any;
@@ -26,7 +27,8 @@ export class MultiCarouselElement  implements IMultiCarouselElement {
 
     title?: string | undefined;
     
-    /** multi_carousel_snippet results */
+    /** multi_carousel_snippet results
+if there are none, equals null */
 
     multi_carousel_snippets?: SerpApiCarouselElement[] | undefined;
 

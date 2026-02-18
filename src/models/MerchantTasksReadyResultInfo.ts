@@ -16,10 +16,10 @@ unique task identifier in our system in the UUID format */
         /** user-defined task identifier */
         tag?: string | undefined
         
-        /** URL for collecting the results of the Amazon Reviews Advanced task */
+        /** URL for collecting the results of Amazon Sellers Advanced task */
         endpoint_advanced?: string | undefined
         
-        /** URL for collecting the results of the Amazon Reviews HTML task */
+        /** URL for collecting the results of Amazon Sellers HTML task */
         endpoint_html?: string | undefined
 
     [key: string]: any;
@@ -49,11 +49,11 @@ unique task identifier in our system in the UUID format */
 
     tag?: string | undefined;
     
-    /** URL for collecting the results of the Amazon Reviews Advanced task */
+    /** URL for collecting the results of Amazon Sellers Advanced task */
 
     endpoint_advanced?: string | undefined;
     
-    /** URL for collecting the results of the Amazon Reviews HTML task */
+    /** URL for collecting the results of Amazon Sellers HTML task */
 
     endpoint_html?: string | undefined;
 

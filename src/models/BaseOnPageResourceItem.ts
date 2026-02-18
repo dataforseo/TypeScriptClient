@@ -9,7 +9,7 @@ import { ResourceMetaInfo, IResourceMetaInfo } from "./ResourceMetaInfo";
 
 export interface IBaseOnPageResourceItem   {
         
-        /** type of element */
+        /** type of the returned resource = ‘html’ */
         resource_type?: string | undefined
         
         /** status code of the page */
@@ -69,7 +69,7 @@ if there is no data, the value will be null */
 
 export class BaseOnPageResourceItem  implements IBaseOnPageResourceItem {
     
-    /** type of element */
+    /** type of the returned resource = ‘html’ */
 
     resource_type?: string | undefined;
     

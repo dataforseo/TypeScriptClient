@@ -104,13 +104,6 @@ All URIs are relative to *https://api.dataforseo.com*
 [**bingOrganicLiveRegular**](SerpApi.md#bingOrganicLiveRegular) | **POST**  /v3/serp/bing/organic/live/regular  |
 [**bingOrganicLiveAdvanced**](SerpApi.md#bingOrganicLiveAdvanced) | **POST**  /v3/serp/bing/organic/live/advanced  |
 [**bingOrganicLiveHtml**](SerpApi.md#bingOrganicLiveHtml) | **POST**  /v3/serp/bing/organic/live/html  |
-[**bingLocalPackTaskPost**](SerpApi.md#bingLocalPackTaskPost) | **POST**  /v3/serp/bing/local_pack/task_post  |
-[**bingLocalPackTasksReady**](SerpApi.md#bingLocalPackTasksReady) | **GET**  /v3/serp/bing/local_pack/tasks_ready  |
-[**bingLocalPackTasksFixed**](SerpApi.md#bingLocalPackTasksFixed) | **GET**  /v3/serp/bing/local_pack/tasks_fixed  |
-[**bingLocalPackTaskGetRegular**](SerpApi.md#bingLocalPackTaskGetRegular) | **GET**  /v3/serp/bing/local_pack/task_get/regular/{id}  |
-[**bingLocalPackTaskGetHtml**](SerpApi.md#bingLocalPackTaskGetHtml) | **GET**  /v3/serp/bing/local_pack/task_get/html/{id}  |
-[**bingLocalPackLiveRegular**](SerpApi.md#bingLocalPackLiveRegular) | **POST**  /v3/serp/bing/local_pack/live/regular  |
-[**bingLocalPackLiveHtml**](SerpApi.md#bingLocalPackLiveHtml) | **POST**  /v3/serp/bing/local_pack/live/html  |
 [**youtubeLocations**](SerpApi.md#youtubeLocations) | **GET**  /v3/serp/youtube/locations  |
 [**youtubeLocationsCountry**](SerpApi.md#youtubeLocationsCountry) | **GET**  /v3/serp/youtube/locations/{country}  |
 [**youtubeLanguages**](SerpApi.md#youtubeLanguages) | **GET**  /v3/serp/youtube/languages  |
@@ -119,6 +112,11 @@ All URIs are relative to *https://api.dataforseo.com*
 [**youtubeVideoInfoTasksFixed**](SerpApi.md#youtubeVideoInfoTasksFixed) | **GET**  /v3/serp/youtube/video_info/tasks_fixed  |
 [**youtubeVideoInfoTaskGetAdvanced**](SerpApi.md#youtubeVideoInfoTaskGetAdvanced) | **GET**  /v3/serp/youtube/video_info/task_get/advanced/{id}  |
 [**youtubeVideoInfoLiveAdvanced**](SerpApi.md#youtubeVideoInfoLiveAdvanced) | **POST**  /v3/serp/youtube/video_info/live/advanced  |
+[**youtubeOrganicTaskPost**](SerpApi.md#youtubeOrganicTaskPost) | **POST**  /v3/serp/youtube/organic/task_post  |
+[**youtubeOrganicTasksReady**](SerpApi.md#youtubeOrganicTasksReady) | **GET**  /v3/serp/youtube/organic/tasks_ready  |
+[**youtubeOrganicTasksFixed**](SerpApi.md#youtubeOrganicTasksFixed) | **GET**  /v3/serp/youtube/organic/tasks_fixed  |
+[**youtubeOrganicTaskGetAdvanced**](SerpApi.md#youtubeOrganicTaskGetAdvanced) | **GET**  /v3/serp/youtube/organic/task_get/advanced/{id}  |
+[**youtubeOrganicLiveAdvanced**](SerpApi.md#youtubeOrganicLiveAdvanced) | **POST**  /v3/serp/youtube/organic/live/advanced  |
 [**youtubeVideoSubtitlesTaskPost**](SerpApi.md#youtubeVideoSubtitlesTaskPost) | **POST**  /v3/serp/youtube/video_subtitles/task_post  |
 [**youtubeVideoSubtitlesTasksReady**](SerpApi.md#youtubeVideoSubtitlesTasksReady) | **GET**  /v3/serp/youtube/video_subtitles/tasks_ready  |
 [**youtubeVideoSubtitlesTasksFixed**](SerpApi.md#youtubeVideoSubtitlesTasksFixed) | **GET**  /v3/serp/youtube/video_subtitles/tasks_fixed  |
@@ -6164,424 +6162,6 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
-<a id="bingLocalPackTaskPost"></a>
-# **bingLocalPackTaskPost**
-> SerpBingLocalPackTaskPostResponseInfo bingLocalPackTaskPost()
-
-
-### Example
-```typescript
- const username = 'USERNAME';
- const password = 'PASSWORD';
-
- let api = new SerpApi("https://api.dataforseo.com", {
-   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
-     const token = btoa(`${username}:${password}`);
-     const authHeader = { 'Authorization': `Basic ${token}` };
-
-     const newInit: RequestInit = {
-       ...init,
-       headers: {
-       ...init?.headers,
-       ...authHeader,
-     }
-   };
-
-   return fetch(url, newInit);
-   }
- });
-
- let response = await api.bingLocalPackTaskPost([
-   [
-       new SerpBingLocalPackTaskPostRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "albert einstein",
-       }),
-   ]
- ]);
-```
-
-### Parameters
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **** | [**List&lt;SerpBingLocalPackTaskPostRequestInfo[]&gt;**](SerpBingLocalPackTaskPostRequestInfo[].md)|  | [optional] |
-
-
-
-### Return type
-
-[**SerpBingLocalPackTaskPostResponseInfo**](SerpBingLocalPackTaskPostResponseInfo.md)
-
-### Authorization
-
-[basicAuth](../README.md#basicAuth)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** | Successful operation |  -  |
-
-<a id="bingLocalPackTasksReady"></a>
-# **bingLocalPackTasksReady**
-> SerpBingLocalPackTasksReadyResponseInfo bingLocalPackTasksReady()
-
-
-### Example
-```typescript
- const username = 'USERNAME';
- const password = 'PASSWORD';
-
- let api = new SerpApi("https://api.dataforseo.com", {
-   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
-     const token = btoa(`${username}:${password}`);
-     const authHeader = { 'Authorization': `Basic ${token}` };
-
-     const newInit: RequestInit = {
-       ...init,
-       headers: {
-       ...init?.headers,
-       ...authHeader,
-     }
-   };
-
-   return fetch(url, newInit);
-   }
- });
-
- let response = await api.bingLocalPackTasksReady();
-```
-
-### Parameters
-
-
-    
-This endpoint does not need any parameter.
-    
-
-
-### Return type
-
-[**SerpBingLocalPackTasksReadyResponseInfo**](SerpBingLocalPackTasksReadyResponseInfo.md)
-
-### Authorization
-
-[basicAuth](../README.md#basicAuth)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** | Successful operation |  -  |
-
-<a id="bingLocalPackTasksFixed"></a>
-# **bingLocalPackTasksFixed**
-> SerpBingLocalPackTasksFixedResponseInfo bingLocalPackTasksFixed()
-
-
-### Example
-```typescript
- const username = 'USERNAME';
- const password = 'PASSWORD';
-
- let api = new SerpApi("https://api.dataforseo.com", {
-   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
-     const token = btoa(`${username}:${password}`);
-     const authHeader = { 'Authorization': `Basic ${token}` };
-
-     const newInit: RequestInit = {
-       ...init,
-       headers: {
-       ...init?.headers,
-       ...authHeader,
-     }
-   };
-
-   return fetch(url, newInit);
-   }
- });
-
- let response = await api.bingLocalPackTasksFixed();
-```
-
-### Parameters
-
-
-    
-This endpoint does not need any parameter.
-    
-
-
-### Return type
-
-[**SerpBingLocalPackTasksFixedResponseInfo**](SerpBingLocalPackTasksFixedResponseInfo.md)
-
-### Authorization
-
-[basicAuth](../README.md#basicAuth)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** | Successful operation |  -  |
-
-<a id="bingLocalPackTaskGetRegular"></a>
-# **bingLocalPackTaskGetRegular**
-> SerpBingLocalPackTaskGetRegularResponseInfo bingLocalPackTaskGetRegular()
-
-
-### Example
-```typescript
- const username = 'USERNAME';
- const password = 'PASSWORD';
-
- let api = new SerpApi("https://api.dataforseo.com", {
-   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
-     const token = btoa(`${username}:${password}`);
-     const authHeader = { 'Authorization': `Basic ${token}` };
-
-     const newInit: RequestInit = {
-       ...init,
-       headers: {
-       ...init?.headers,
-       ...authHeader,
-     }
-   };
-
-   return fetch(url, newInit);
-   }
- });
-
- let id = ;
- let response = await api.bingLocalPackTaskGetRegular(id);
-```
-
-### Parameters
-
-
-    
-This endpoint does not need any parameter.
-    
-
-
-### Return type
-
-[**SerpBingLocalPackTaskGetRegularResponseInfo**](SerpBingLocalPackTaskGetRegularResponseInfo.md)
-
-### Authorization
-
-[basicAuth](../README.md#basicAuth)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** | Successful operation |  -  |
-
-<a id="bingLocalPackTaskGetHtml"></a>
-# **bingLocalPackTaskGetHtml**
-> SerpBingLocalPackTaskGetHtmlResponseInfo bingLocalPackTaskGetHtml()
-
-
-### Example
-```typescript
- const username = 'USERNAME';
- const password = 'PASSWORD';
-
- let api = new SerpApi("https://api.dataforseo.com", {
-   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
-     const token = btoa(`${username}:${password}`);
-     const authHeader = { 'Authorization': `Basic ${token}` };
-
-     const newInit: RequestInit = {
-       ...init,
-       headers: {
-       ...init?.headers,
-       ...authHeader,
-     }
-   };
-
-   return fetch(url, newInit);
-   }
- });
-
- let id = ;
- let response = await api.bingLocalPackTaskGetHtml(id);
-```
-
-### Parameters
-
-
-    
-This endpoint does not need any parameter.
-    
-
-
-### Return type
-
-[**SerpBingLocalPackTaskGetHtmlResponseInfo**](SerpBingLocalPackTaskGetHtmlResponseInfo.md)
-
-### Authorization
-
-[basicAuth](../README.md#basicAuth)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** | Successful operation |  -  |
-
-<a id="bingLocalPackLiveRegular"></a>
-# **bingLocalPackLiveRegular**
-> SerpBingLocalPackLiveRegularResponseInfo bingLocalPackLiveRegular()
-
-
-### Example
-```typescript
- const username = 'USERNAME';
- const password = 'PASSWORD';
-
- let api = new SerpApi("https://api.dataforseo.com", {
-   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
-     const token = btoa(`${username}:${password}`);
-     const authHeader = { 'Authorization': `Basic ${token}` };
-
-     const newInit: RequestInit = {
-       ...init,
-       headers: {
-       ...init?.headers,
-       ...authHeader,
-     }
-   };
-
-   return fetch(url, newInit);
-   }
- });
-
- let response = await api.bingLocalPackLiveRegular([
-   [
-       new SerpBingLocalPackLiveRegularRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "albert einstein",
-       }),
-   ]
- ]);
-```
-
-### Parameters
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **** | [**List&lt;SerpBingLocalPackLiveRegularRequestInfo[]&gt;**](SerpBingLocalPackLiveRegularRequestInfo[].md)|  | [optional] |
-
-
-
-### Return type
-
-[**SerpBingLocalPackLiveRegularResponseInfo**](SerpBingLocalPackLiveRegularResponseInfo.md)
-
-### Authorization
-
-[basicAuth](../README.md#basicAuth)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** | Successful operation |  -  |
-
-<a id="bingLocalPackLiveHtml"></a>
-# **bingLocalPackLiveHtml**
-> SerpBingLocalPackLiveHtmlResponseInfo bingLocalPackLiveHtml()
-
-
-### Example
-```typescript
- const username = 'USERNAME';
- const password = 'PASSWORD';
-
- let api = new SerpApi("https://api.dataforseo.com", {
-   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
-     const token = btoa(`${username}:${password}`);
-     const authHeader = { 'Authorization': `Basic ${token}` };
-
-     const newInit: RequestInit = {
-       ...init,
-       headers: {
-       ...init?.headers,
-       ...authHeader,
-     }
-   };
-
-   return fetch(url, newInit);
-   }
- });
-
- let response = await api.bingLocalPackLiveHtml([
-   [
-       new SerpBingLocalPackLiveHtmlRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "albert einstein",
-       }),
-   ]
- ]);
-```
-
-### Parameters
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **** | [**List&lt;SerpBingLocalPackLiveHtmlRequestInfo[]&gt;**](SerpBingLocalPackLiveHtmlRequestInfo[].md)|  | [optional] |
-
-
-
-### Return type
-
-[**SerpBingLocalPackLiveHtmlResponseInfo**](SerpBingLocalPackLiveHtmlResponseInfo.md)
-
-### Authorization
-
-[basicAuth](../README.md#basicAuth)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** | Successful operation |  -  |
-
 <a id="youtubeLocations"></a>
 # **youtubeLocations**
 > SerpYoutubeLocationsResponseInfo youtubeLocations()
@@ -7033,6 +6613,303 @@ This endpoint does not need any parameter.
 ### Return type
 
 [**SerpYoutubeVideoInfoLiveAdvancedResponseInfo**](SerpYoutubeVideoInfoLiveAdvancedResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="youtubeOrganicTaskPost"></a>
+# **youtubeOrganicTaskPost**
+> SerpYoutubeOrganicTaskPostResponseInfo youtubeOrganicTaskPost()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new SerpApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let response = await api.youtubeOrganicTaskPost([
+   [
+       new SerpYoutubeOrganicTaskPostRequestInfo({
+           language_code: "en",
+           location_code: 2840,
+           keyword: "audi",
+       }),
+   ]
+ ]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;SerpYoutubeOrganicTaskPostRequestInfo[]&gt;**](SerpYoutubeOrganicTaskPostRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**SerpYoutubeOrganicTaskPostResponseInfo**](SerpYoutubeOrganicTaskPostResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="youtubeOrganicTasksReady"></a>
+# **youtubeOrganicTasksReady**
+> SerpYoutubeOrganicTasksReadyResponseInfo youtubeOrganicTasksReady()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new SerpApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let response = await api.youtubeOrganicTasksReady();
+```
+
+### Parameters
+
+
+    
+This endpoint does not need any parameter.
+    
+
+
+### Return type
+
+[**SerpYoutubeOrganicTasksReadyResponseInfo**](SerpYoutubeOrganicTasksReadyResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="youtubeOrganicTasksFixed"></a>
+# **youtubeOrganicTasksFixed**
+> SerpYoutubeOrganicTasksFixedResponseInfo youtubeOrganicTasksFixed()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new SerpApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let response = await api.youtubeOrganicTasksFixed();
+```
+
+### Parameters
+
+
+    
+This endpoint does not need any parameter.
+    
+
+
+### Return type
+
+[**SerpYoutubeOrganicTasksFixedResponseInfo**](SerpYoutubeOrganicTasksFixedResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="youtubeOrganicTaskGetAdvanced"></a>
+# **youtubeOrganicTaskGetAdvanced**
+> SerpYoutubeOrganicTaskGetAdvancedResponseInfo youtubeOrganicTaskGetAdvanced()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new SerpApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let id = ;
+ let response = await api.youtubeOrganicTaskGetAdvanced(id);
+```
+
+### Parameters
+
+
+    
+This endpoint does not need any parameter.
+    
+
+
+### Return type
+
+[**SerpYoutubeOrganicTaskGetAdvancedResponseInfo**](SerpYoutubeOrganicTaskGetAdvancedResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="youtubeOrganicLiveAdvanced"></a>
+# **youtubeOrganicLiveAdvanced**
+> SerpYoutubeOrganicLiveAdvancedResponseInfo youtubeOrganicLiveAdvanced()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new SerpApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let response = await api.youtubeOrganicLiveAdvanced([
+   [
+       new SerpYoutubeOrganicLiveAdvancedRequestInfo({
+           language_code: "en",
+           location_code: 2840,
+           keyword: "audi",
+       }),
+   ]
+ ]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;SerpYoutubeOrganicLiveAdvancedRequestInfo[]&gt;**](SerpYoutubeOrganicLiveAdvancedRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**SerpYoutubeOrganicLiveAdvancedResponseInfo**](SerpYoutubeOrganicLiveAdvancedResponseInfo.md)
 
 ### Authorization
 

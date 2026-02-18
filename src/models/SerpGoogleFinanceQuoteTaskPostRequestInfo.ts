@@ -28,6 +28,7 @@ en */
         
         /** device type
 optional field
+return results for a specific device type
 possible value: desktop */
         device?: string | undefined
         
@@ -43,7 +44,7 @@ i.a., the # character will be encoded into %23
 learn more on our Help Center */
         pingback_url?: string | undefined
         
-        /** return URL for sending task results
+        /** URL for sending task results
 optional field
 once the task is completed, we will send a POST request with its results compressed in the gzip format to the postback_url you specified
 you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded $tag variable. We will set the necessary values before sending the request
@@ -142,6 +143,7 @@ en */
     
     /** device type
 optional field
+return results for a specific device type
 possible value: desktop */
 
     device?: string | undefined;
@@ -159,7 +161,7 @@ learn more on our Help Center */
 
     pingback_url?: string | undefined;
     
-    /** return URL for sending task results
+    /** URL for sending task results
 optional field
 once the task is completed, we will send a POST request with its results compressed in the gzip format to the postback_url you specified
 you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded $tag variable. We will set the necessary values before sending the request

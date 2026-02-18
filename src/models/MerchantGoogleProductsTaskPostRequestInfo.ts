@@ -76,7 +76,7 @@ google.co.uk, google.com.au, google.de, etc. */
         
         /** parsing depth
 optional field
-number of results to be retrieved from the Google Shopping results page
+number of results to be retrieved from Google Shopping SERP
 default value: 40
 max value: 120
 Your account will be billed per each SERP containing up to 40 results;
@@ -139,7 +139,7 @@ you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
         tag?: string | undefined
         
-        /** return URL for sending task results
+        /** URL for sending task results
 optional field
 once the task is completed, we will send a POST request with its results compressed in the gzip format to the postback_url you specified
 you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded $tag variable. We will set the necessary values before sending the request.
@@ -261,7 +261,7 @@ google.co.uk, google.com.au, google.de, etc. */
     
     /** parsing depth
 optional field
-number of results to be retrieved from the Google Shopping results page
+number of results to be retrieved from Google Shopping SERP
 default value: 40
 max value: 120
 Your account will be billed per each SERP containing up to 40 results;
@@ -331,7 +331,7 @@ you will find the specified tag value in the data object of the response */
 
     tag?: string | undefined;
     
-    /** return URL for sending task results
+    /** URL for sending task results
 optional field
 once the task is completed, we will send a POST request with its results compressed in the gzip format to the postback_url you specified
 you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded $tag variable. We will set the necessary values before sending the request.

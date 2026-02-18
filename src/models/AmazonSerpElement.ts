@@ -1,5 +1,6 @@
 import { RatingElement, IRatingElement } from "./RatingElement";
 import { AmazonDeliveryInfo, IAmazonDeliveryInfo } from "./AmazonDeliveryInfo";
+import { AmazonLabelElement, IAmazonLabelElement } from "./AmazonLabelElement";
 
 
 export interface IAmazonSerpElement   {
@@ -64,6 +65,11 @@ if the value is true, the product is marked with the “Best Seller” label */
         /** delivery information
 delivery information including free and fast delivery date ranges */
         delivery_info?: AmazonDeliveryInfo | undefined
+        
+        /** product labels
+array containing an object with main Amazon labels’ information
+if the product contains no labels, the value will be null */
+        labels?: AmazonLabelElement[] | undefined
 
     [key: string]: any;
 
@@ -147,6 +153,12 @@ if the value is true, the product is marked with the “Best Seller” label */
 delivery information including free and fast delivery date ranges */
 
     delivery_info?: AmazonDeliveryInfo | undefined;
+    
+    /** product labels
+array containing an object with main Amazon labels’ information
+if the product contains no labels, the value will be null */
+
+    labels?: AmazonLabelElement[] | undefined;
 
     [key: string]: any;
 
@@ -184,6 +196,12 @@ delivery information including free and fast delivery date ranges */
             this.is_amazon_choice = data["is_amazon_choice"];
             this.is_best_seller = data["is_best_seller"];
             this.delivery_info = data["delivery_info"] ? AmazonDeliveryInfo.fromJS(data["delivery_info"]) : <any>undefined;
+            if (Array.isArray(data["labels"])) {
+                this.labels = [];
+                for (let item of data["labels"]) {
+                    this.labels.push(AmazonLabelElement.fromJS(item));
+                }
+            }
         }
     }
 
@@ -217,6 +235,15 @@ delivery information including free and fast delivery date ranges */
         data["is_amazon_choice"] = this.is_amazon_choice;
         data["is_best_seller"] = this.is_best_seller;
         data["delivery_info"] = this.delivery_info ? AmazonDeliveryInfo.fromJS(this.delivery_info)?.toJSON() : <any>undefined;
+        data["labels"] = null;
+        if (Array.isArray(this.labels)) {
+            data["labels"] = [];
+            for (let item of this.labels) {
+                if (item && typeof item.toJSON === "function") {
+                    data["labels"].push(item?.toJSON());
+                }
+            }
+        }
         return data;
     }
 }

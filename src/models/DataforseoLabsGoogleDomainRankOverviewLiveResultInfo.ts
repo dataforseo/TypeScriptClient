@@ -1,4 +1,4 @@
-import { DataforseoLabsDomainRankOverviewLiveItem, IDataforseoLabsDomainRankOverviewLiveItem } from "./DataforseoLabsDomainRankOverviewLiveItem";
+import { DataforseoLabsGoogleDomainRankOverviewLiveItem, IDataforseoLabsGoogleDomainRankOverviewLiveItem } from "./DataforseoLabsGoogleDomainRankOverviewLiveItem";
 
 
 export interface IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo   {
@@ -22,7 +22,7 @@ export interface IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo   {
         items_count?: number | undefined
         
         /** contains ranking and traffic data */
-        items?: DataforseoLabsDomainRankOverviewLiveItem[] | undefined
+        items?: DataforseoLabsGoogleDomainRankOverviewLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -56,7 +56,7 @@ export class DataforseoLabsGoogleDomainRankOverviewLiveResultInfo  implements ID
     
     /** contains ranking and traffic data */
 
-    items?: DataforseoLabsDomainRankOverviewLiveItem[] | undefined;
+    items?: DataforseoLabsGoogleDomainRankOverviewLiveItem[] | undefined;
 
     [key: string]: any;
 
@@ -87,7 +87,7 @@ export class DataforseoLabsGoogleDomainRankOverviewLiveResultInfo  implements ID
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(DataforseoLabsDomainRankOverviewLiveItem.fromJS(item));
+                    this.items.push(DataforseoLabsGoogleDomainRankOverviewLiveItem.fromJS(item));
                 }
             }
         }

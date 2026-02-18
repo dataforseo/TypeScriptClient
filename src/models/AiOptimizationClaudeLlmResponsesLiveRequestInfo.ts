@@ -19,10 +19,10 @@ you can receive the list of available LLM models by making a separate request to
         
         /** maximum number of tokens in the AI response
 optional field
-minimum value: 1
-maximum value: 2048
-default value: 2048
-Note: when web_search is set to true, the output token count may exceed the specified max_output_tokens limit */
+minimum value: 1;
+maximum value: 4096;
+default value: 2048;
+Note: if web_search is set to true or the reasoning model is specified in the request, the output token count may exceed the specified max_output_tokens limit */
         max_output_tokens?: number | undefined
         
         /** randomness of the AI response
@@ -31,7 +31,8 @@ higher values make output more diverse;
 lower values make output more focused;
 minimum value: 0
 maximum value: 1
-default value: 0.7 */
+default value: 0.7
+Note: temperature cannot be used together with top_p in the same request */
         temperature?: number | undefined
         
         /** diversity of the AI response
@@ -39,7 +40,8 @@ optional field
 controls diversity of the response by limiting token selection;
 minimum value: 0
 maximum value: 1
-default value: null */
+default value: null
+Note: top_p cannot be used together with temperature in the same request */
         top_p?: number | undefined
         
         /** enable web search for current information
@@ -117,10 +119,10 @@ you can receive the list of available LLM models by making a separate request to
     
     /** maximum number of tokens in the AI response
 optional field
-minimum value: 1
-maximum value: 2048
-default value: 2048
-Note: when web_search is set to true, the output token count may exceed the specified max_output_tokens limit */
+minimum value: 1;
+maximum value: 4096;
+default value: 2048;
+Note: if web_search is set to true or the reasoning model is specified in the request, the output token count may exceed the specified max_output_tokens limit */
 
     max_output_tokens?: number | undefined;
     
@@ -130,7 +132,8 @@ higher values make output more diverse;
 lower values make output more focused;
 minimum value: 0
 maximum value: 1
-default value: 0.7 */
+default value: 0.7
+Note: temperature cannot be used together with top_p in the same request */
 
     temperature?: number | undefined;
     
@@ -139,7 +142,8 @@ optional field
 controls diversity of the response by limiting token selection;
 minimum value: 0
 maximum value: 1
-default value: null */
+default value: null
+Note: top_p cannot be used together with temperature in the same request */
 
     top_p?: number | undefined;
     

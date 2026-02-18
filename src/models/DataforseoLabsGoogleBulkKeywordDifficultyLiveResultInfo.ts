@@ -1,4 +1,4 @@
-import { DataforseoLabsBulkKeywordDifficultyLiveItem, IDataforseoLabsBulkKeywordDifficultyLiveItem } from "./DataforseoLabsBulkKeywordDifficultyLiveItem";
+import { DataforseoLabsGoogleBulkKeywordDifficultyLiveItem, IDataforseoLabsGoogleBulkKeywordDifficultyLiveItem } from "./DataforseoLabsGoogleBulkKeywordDifficultyLiveItem";
 
 
 export interface IDataforseoLabsGoogleBulkKeywordDifficultyLiveResultInfo   {
@@ -21,7 +21,7 @@ if there is no data, then the value is null */
         items_count?: number | undefined
         
         /** contains keywords and related keyword difficulty scores */
-        items?: DataforseoLabsBulkKeywordDifficultyLiveItem[] | undefined
+        items?: DataforseoLabsGoogleBulkKeywordDifficultyLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -53,7 +53,7 @@ if there is no data, then the value is null */
     
     /** contains keywords and related keyword difficulty scores */
 
-    items?: DataforseoLabsBulkKeywordDifficultyLiveItem[] | undefined;
+    items?: DataforseoLabsGoogleBulkKeywordDifficultyLiveItem[] | undefined;
 
     [key: string]: any;
 
@@ -83,7 +83,7 @@ if there is no data, then the value is null */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(DataforseoLabsBulkKeywordDifficultyLiveItem.fromJS(item));
+                    this.items.push(DataforseoLabsGoogleBulkKeywordDifficultyLiveItem.fromJS(item));
                 }
             }
         }

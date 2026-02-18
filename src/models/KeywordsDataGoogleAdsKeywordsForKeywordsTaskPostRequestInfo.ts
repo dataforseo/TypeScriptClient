@@ -97,7 +97,7 @@ default value: false
 note that the API may return no data for such keywords due to Google Ads restrictions */
         include_adult_keywords?: boolean | undefined
         
-        /** return URL for sending task results
+        /** URL for sending task results
 optional field
 once the task is completed, we will send a POST request with its results compressed in the gzip format to the postback_url you specified
 you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded $tag variable. We will set the necessary values before sending the request.
@@ -243,7 +243,7 @@ note that the API may return no data for such keywords due to Google Ads restric
 
     include_adult_keywords?: boolean | undefined;
     
-    /** return URL for sending task results
+    /** URL for sending task results
 optional field
 once the task is completed, we will send a POST request with its results compressed in the gzip format to the postback_url you specified
 you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded $tag variable. We will set the necessary values before sending the request.

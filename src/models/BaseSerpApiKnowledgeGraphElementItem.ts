@@ -1155,7 +1155,7 @@ example:
 kc:/local:hotel booking */
         data_attrid?: string | undefined
         
-        /** additional items present in the element
+        /** keywords relevant to the initial search query
 if there are none, equals null */
         items?: KnowledgeGraphHotelsBookingElement[] | undefined
 
@@ -1200,7 +1200,7 @@ kc:/local:hotel booking */
 
     data_attrid?: string | undefined;
     
-    /** additional items present in the element
+    /** keywords relevant to the initial search query
 if there are none, equals null */
 
     items?: KnowledgeGraphHotelsBookingElement[] | undefined;
@@ -1275,7 +1275,8 @@ export interface ISerpApiKnowledgeGraphAiOverviewItemElementItem  extends IBaseS
         
         /** indicates whether the element is loaded asynchronously
 if true, the ai_overview element is loaded asynchronously;
-if false, the ai_overview element is loaded from cache; */
+if false, the ai_overview element is loaded from cache;
+to obtain the content of ai_overview elements, use the load_async_ai_overview parameter in the POST request */
         asynchronous_ai_overview?: boolean | undefined
         
         /** contains results featured in the ‘hotels_pack’ element of SERP */
@@ -1293,7 +1294,8 @@ export class SerpApiKnowledgeGraphAiOverviewItemElementItem  extends BaseSerpApi
     
     /** indicates whether the element is loaded asynchronously
 if true, the ai_overview element is loaded asynchronously;
-if false, the ai_overview element is loaded from cache; */
+if false, the ai_overview element is loaded from cache;
+to obtain the content of ai_overview elements, use the load_async_ai_overview parameter in the POST request */
 
     asynchronous_ai_overview?: boolean | undefined;
     

@@ -12,7 +12,7 @@ export interface IChatGptProductsElement   {
         /** title of the element */
         title?: string | undefined
         
-        /** rating of the corresponding local businesses
+        /** rating of the corresponding local business
 popularity rate based on reviews as displayed in the results */
         rating?: RatingInfo | undefined
         
@@ -54,7 +54,7 @@ export class ChatGptProductsElement  implements IChatGptProductsElement {
 
     title?: string | undefined;
     
-    /** rating of the corresponding local businesses
+    /** rating of the corresponding local business
 popularity rate based on reviews as displayed in the results */
 
     rating?: RatingInfo | undefined;

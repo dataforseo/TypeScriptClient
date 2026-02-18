@@ -31,7 +31,7 @@ import { Graph, IGraph } from "./Graph";
 import { FindResultsOnElement, IFindResultsOnElement } from "./FindResultsOnElement";
 import { QuestionsAndAnswersElement, IQuestionsAndAnswersElement } from "./QuestionsAndAnswersElement";
 import { HotelsPackElement, IHotelsPackElement } from "./HotelsPackElement";
-import { LicensesElement, ILicensesElement } from "./LicensesElement";
+import { AmazonLabelElement, IAmazonLabelElement } from "./AmazonLabelElement";
 import { CommercialUnitsElement, ICommercialUnitsElement } from "./CommercialUnitsElement";
 import { LocalServicesElement, ILocalServicesElement } from "./LocalServicesElement";
 import { MathSolverElement, IMathSolverElement } from "./MathSolverElement";
@@ -588,7 +588,8 @@ if there are none, equals null */
         price?: PriceInfo | undefined
         
         /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP */
+the popularity rate based on reviews and displayed in SERP;
+if there is none, equals null */
         rating?: RatingInfo | undefined
 
     [key: string]: any;
@@ -671,7 +672,8 @@ if there are none, equals null */
     price?: PriceInfo | undefined;
     
     /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP */
+the popularity rate based on reviews and displayed in SERP;
+if there is none, equals null */
 
     rating?: RatingInfo | undefined;
 
@@ -842,7 +844,8 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version */
         amp_version?: boolean | undefined
         
         /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP */
+the popularity rate based on reviews and displayed in SERP;
+if there is none, equals null */
         rating?: RatingInfo | undefined
         
         /** price of booking a place for the specified dates of stay */
@@ -868,7 +871,8 @@ Note: extension appears in SERP upon clicking on the result and then bouncing ba
         
         /** contains information from the ‘About this result’ panel
 ‘About this result’ panel provides additional context about why Google returned this result for the given query;
-this feature appears after clicking on the three dots next to most results */
+this feature appears after clicking on the three dots next to most results;
+if there is none, equals null */
         about_this_result?: AboutThisResultElement | undefined
         
         /** related result from the same domain
@@ -973,7 +977,8 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version */
     amp_version?: boolean | undefined;
     
     /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP */
+the popularity rate based on reviews and displayed in SERP;
+if there is none, equals null */
 
     rating?: RatingInfo | undefined;
     
@@ -1005,7 +1010,8 @@ Note: extension appears in SERP upon clicking on the result and then bouncing ba
     
     /** contains information from the ‘About this result’ panel
 ‘About this result’ panel provides additional context about why Google returned this result for the given query;
-this feature appears after clicking on the three dots next to most results */
+this feature appears after clicking on the three dots next to most results;
+if there is none, equals null */
 
     about_this_result?: AboutThisResultElement | undefined;
     
@@ -2075,7 +2081,8 @@ always equals 0 for desktop */
         reviews_count?: number | undefined
         
         /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP */
+the popularity rate based on reviews and displayed in SERP;
+if there is none, equals null */
         rating?: RatingInfo | undefined
         
         /** the identifier of a place */
@@ -2111,7 +2118,8 @@ always equals 0 for desktop */
     reviews_count?: number | undefined;
     
     /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP */
+the popularity rate based on reviews and displayed in SERP;
+if there is none, equals null */
 
     rating?: RatingInfo | undefined;
     
@@ -2517,7 +2525,8 @@ always equals 0 for desktop */
         is_paid?: boolean | undefined
         
         /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP */
+the popularity rate based on reviews and displayed in SERP;
+if there is none, equals null */
         rating?: RatingInfo | undefined
         
         /** google-defined client id */
@@ -2567,7 +2576,8 @@ always equals 0 for desktop */
     is_paid?: boolean | undefined;
     
     /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP */
+the popularity rate based on reviews and displayed in SERP;
+if there is none, equals null */
 
     rating?: RatingInfo | undefined;
     
@@ -4582,7 +4592,7 @@ always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** contains arrays of elements available in the list */
-        items?: LicensesElement[] | undefined
+        items?: AmazonLabelElement[] | undefined
 
     [key: string]: any;
 
@@ -4605,7 +4615,7 @@ always equals 0 for desktop */
     
     /** contains arrays of elements available in the list */
 
-    items?: LicensesElement[] | undefined;
+    items?: AmazonLabelElement[] | undefined;
 
     [key: string]: any;
 
@@ -4627,7 +4637,7 @@ always equals 0 for desktop */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(LicensesElement.fromJS(item));
+                    this.items.push(AmazonLabelElement.fromJS(item));
                 }
             }
         }
@@ -7606,7 +7616,8 @@ always equals 0 for desktop */
         
         /** indicates whether the element is loaded asynchronously
 if true, the ai_overview element is loaded asynchronously;
-if false, the ai_overview element is loaded from cache; */
+if false, the ai_overview element is loaded from cache;
+to obtain the content of ai_overview elements, use the load_async_ai_overview parameter in the POST request */
         asynchronous_ai_overview?: boolean | undefined
         
         /** content of the element in markdown format
@@ -7641,7 +7652,8 @@ always equals 0 for desktop */
     
     /** indicates whether the element is loaded asynchronously
 if true, the ai_overview element is loaded asynchronously;
-if false, the ai_overview element is loaded from cache; */
+if false, the ai_overview element is loaded from cache;
+to obtain the content of ai_overview elements, use the load_async_ai_overview parameter in the POST request */
 
     asynchronous_ai_overview?: boolean | undefined;
     
@@ -7759,7 +7771,8 @@ always equals 0 for desktop */
         url?: string | undefined
         
         /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP */
+the popularity rate based on reviews and displayed in SERP;
+if there is none, equals null */
         rating?: RatingInfo | undefined
 
     [key: string]: any;
@@ -7794,7 +7807,8 @@ always equals 0 for desktop */
     url?: string | undefined;
     
     /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP */
+the popularity rate based on reviews and displayed in SERP;
+if there is none, equals null */
 
     rating?: RatingInfo | undefined;
 

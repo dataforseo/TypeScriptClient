@@ -93,7 +93,7 @@ example:
         /** change in cash from investing */
         cash_from_investing_delta?: number | undefined
         
-        /** cash from financing/em> */
+        /** cash from financing */
         cash_from_financing?: number | undefined
         
         /** change in cash from financing */
@@ -240,7 +240,7 @@ example:
 
     cash_from_investing_delta?: number | undefined;
     
-    /** cash from financing/em> */
+    /** cash from financing */
 
     cash_from_financing?: number | undefined;
     

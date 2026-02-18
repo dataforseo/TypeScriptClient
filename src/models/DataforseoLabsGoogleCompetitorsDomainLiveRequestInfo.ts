@@ -3,7 +3,8 @@ export interface IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo   {
         /** domain
 required field
 the domain name of the target website
-the domain should be specified without https:// and www. */
+the domain should be specified without https:// and www.
+you can specify page URL, but the results will be specific to the domain in the specified URL */
         target?: string | undefined
         
         /** full name of the location
@@ -173,7 +174,8 @@ export class DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo  implements ID
     /** domain
 required field
 the domain name of the target website
-the domain should be specified without https:// and www. */
+the domain should be specified without https:// and www.
+you can specify page URL, but the results will be specific to the domain in the specified URL */
 
     target?: string | undefined;
     

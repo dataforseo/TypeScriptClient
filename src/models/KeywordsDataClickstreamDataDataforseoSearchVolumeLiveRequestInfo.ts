@@ -14,14 +14,14 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 required field if you don’t specify location_code 
 you can receive the list of available locations with location_name by making a separate request to https://api.dataforseo.com/v3/keywords_data/clickstream_data/locations_and_languages
 example:
-London,England,United Kingdom */
+United Kingdom */
         location_name?: string | undefined
         
         /** search engine location code
 required field if you don’t specify location_name
 if you use this field, you can receive the list of available locations with location_code by making a separate request to the https://api.dataforseo.com/v3/keywords_data/clickstream_data/locations_and_languages
 example:
-2840 */
+2826 */
         location_code?: number | undefined
         
         /** full name of search engine language
@@ -74,7 +74,7 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
 required field if you don’t specify location_code 
 you can receive the list of available locations with location_name by making a separate request to https://api.dataforseo.com/v3/keywords_data/clickstream_data/locations_and_languages
 example:
-London,England,United Kingdom */
+United Kingdom */
 
     location_name?: string | undefined;
     
@@ -82,7 +82,7 @@ London,England,United Kingdom */
 required field if you don’t specify location_name
 if you use this field, you can receive the list of available locations with location_code by making a separate request to the https://api.dataforseo.com/v3/keywords_data/clickstream_data/locations_and_languages
 example:
-2840 */
+2826 */
 
     location_code?: number | undefined;
     

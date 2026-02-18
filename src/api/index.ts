@@ -6,7 +6,6 @@ export  { BacklinksApi } from "./BacklinksApi";
 export  { AiOptimizationApi } from "./AiOptimizationApi";
 export  { OnPageApi } from "./OnPageApi";
 export  { ContentAnalysisApi } from "./ContentAnalysisApi";
-export  { ContentGenerationApi } from "./ContentGenerationApi";
 export  { MerchantApi } from "./MerchantApi";
 export  { AppDataApi } from "./AppDataApi";
 export  { BusinessDataApi } from "./BusinessDataApi";

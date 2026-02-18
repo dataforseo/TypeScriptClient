@@ -19,11 +19,13 @@ export interface IAiModeAiOverviewShoppingElementInfo   {
         domain?: string | undefined
         
         /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP */
+the popularity rate based on reviews and displayed in SERP
+if there is none, equals null */
         rating?: RatingInfo | undefined
         
         /** pricing details
-contains the pricing details of the product or service featured in the result */
+contains the pricing details of the product or service featured in the result;
+if there is none, equals null */
         price?: PriceInfo | undefined
         
         /** seller of the product */
@@ -71,12 +73,14 @@ export class AiModeAiOverviewShoppingElementInfo  implements IAiModeAiOverviewSh
     domain?: string | undefined;
     
     /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP */
+the popularity rate based on reviews and displayed in SERP
+if there is none, equals null */
 
     rating?: RatingInfo | undefined;
     
     /** pricing details
-contains the pricing details of the product or service featured in the result */
+contains the pricing details of the product or service featured in the result;
+if there is none, equals null */
 
     price?: PriceInfo | undefined;
     

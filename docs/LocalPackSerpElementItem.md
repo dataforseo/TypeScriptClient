@@ -12,5 +12,5 @@
 **phone** | **string** | phone number |[optional]|
 **url** | **string** | URL |[optional]|
 **is_paid** | **boolean** | indicates whether the element is an ad |[optional]|
-**rating** | **RatingInfo** | the item’s rating <br>the popularity rate based on reviews and displayed in SERP |[optional]|
+**rating** | **RatingInfo** | the item’s rating <br>the popularity rate based on reviews and displayed in SERP;<br>if there is none, equals null |[optional]|
 **cid** | **string** | google-defined client id |[optional]|

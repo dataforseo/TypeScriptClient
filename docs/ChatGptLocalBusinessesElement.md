@@ -6,10 +6,10 @@
 |------------ | ------------- | ------------- | -------------|
 **type** | **string** | type of element |[optional]|
 **title** | **string** | title of the element |[optional]|
-**description** | **string** | description of the local businesses |[optional]|
-**address** | **string** | address of the local businesses |[optional]|
-**phone** | **string** | phone of the local businesses |[optional]|
-**reviews_count** | **number** | total number of reviews submitted for the local businesses |[optional]|
+**description** | **string** | description of the local business |[optional]|
+**address** | **string** | address of the local business |[optional]|
+**phone** | **string** | phone of the local business |[optional]|
+**reviews_count** | **number** | total number of reviews submitted for the local business |[optional]|
 **url** | **string** | URL |[optional]|
 **domain** | **string** | domain |[optional]|
-**rating** | **RatingInfo** | rating of the corresponding local businesses<br>popularity rate based on reviews as displayed in the results |[optional]|
+**rating** | **RatingInfo** | rating of the corresponding local business<br>popularity rate based on reviews as displayed in the results |[optional]|

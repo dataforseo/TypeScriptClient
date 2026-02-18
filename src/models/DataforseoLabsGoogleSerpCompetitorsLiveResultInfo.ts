@@ -1,4 +1,4 @@
-import { DataforseoLabsSerpCompetitorsLiveItem, IDataforseoLabsSerpCompetitorsLiveItem } from "./DataforseoLabsSerpCompetitorsLiveItem";
+import { DataforseoLabsGoogleSerpCompetitorsLiveItem, IDataforseoLabsGoogleSerpCompetitorsLiveItem } from "./DataforseoLabsGoogleSerpCompetitorsLiveItem";
 
 
 export interface IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo   {
@@ -25,7 +25,7 @@ if there is no data, then the value is null */
         items_count?: number | undefined
         
         /** contains detected SERP competitors and related data */
-        items?: DataforseoLabsSerpCompetitorsLiveItem[] | undefined
+        items?: DataforseoLabsGoogleSerpCompetitorsLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -62,7 +62,7 @@ if there is no data, then the value is null */
     
     /** contains detected SERP competitors and related data */
 
-    items?: DataforseoLabsSerpCompetitorsLiveItem[] | undefined;
+    items?: DataforseoLabsGoogleSerpCompetitorsLiveItem[] | undefined;
 
     [key: string]: any;
 
@@ -93,7 +93,7 @@ if there is no data, then the value is null */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(DataforseoLabsSerpCompetitorsLiveItem.fromJS(item));
+                    this.items.push(DataforseoLabsGoogleSerpCompetitorsLiveItem.fromJS(item));
                 }
             }
         }

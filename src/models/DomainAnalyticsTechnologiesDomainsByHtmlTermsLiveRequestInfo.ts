@@ -82,7 +82,8 @@ provided in the identical filed of the response to each request;
 use this parameter to avoid timeouts while trying to obtain over 100,000 results in a single request;
 by specifying the unique offset_token value from the response array, you will get the subsequent results of the initial task;
 offset_token values are unique for each subsequent task
-Note: if the offset_token is specified in the request, all other parameters should be identical to the previous request */
+Note: if the offset_token is specified in the request, all other parameters should be identical to the previous request
+learn more about this parameter on our Help Center */
         offset_token?: string | undefined
 
     [key: string]: any;
@@ -180,7 +181,8 @@ provided in the identical filed of the response to each request;
 use this parameter to avoid timeouts while trying to obtain over 100,000 results in a single request;
 by specifying the unique offset_token value from the response array, you will get the subsequent results of the initial task;
 offset_token values are unique for each subsequent task
-Note: if the offset_token is specified in the request, all other parameters should be identical to the previous request */
+Note: if the offset_token is specified in the request, all other parameters should be identical to the previous request
+learn more about this parameter on our Help Center */
 
     offset_token?: string | undefined;
 

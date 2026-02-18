@@ -49,6 +49,7 @@ The cost can be calculated on the Pricing page. */
         
         /** device type
 optional field
+return results for a specific device type
 can take the values:desktop, mobile
 default value: desktop */
         device?: string | undefined
@@ -65,7 +66,7 @@ i.a., the # character will be encoded into %23
 learn more on our Help Center */
         pingback_url?: string | undefined
         
-        /** return URL for sending task results
+        /** URL for sending task results
 optional field
 once the task is completed, we will send a POST request with its results compressed in the gzip format to the postback_url you specified
 you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded $tag variable. We will set the necessary values before sending the request.
@@ -126,16 +127,20 @@ Your account will be billed per each SERP crawled through the specified targets 
         stop_crawl_on_match?: SerpApiStopCrawlOnMatchInfo[] | undefined
         
         /** target match type
-required field if stop_crawl_on_match is specified;
+required field if stop_crawl_on_match is specified
 type of match for the match_value
-possible values: domain, with_subdomains, wildcard */
+possible values:
+domain – specific domain or subdomain
+with_subdomains – main domain and subdomains
+wildcard –  wildcard pattern */
         match_type?: string | undefined
         
-        /** target domain or wildcard value
-required field if stop_crawl_on_match is specified;
-specify a target domain or wildcard value;
-Note: domain name must be specified without a request protocol;
-example: dataforseo.com */
+        /** target domain, subdomain, or wildcard value
+required field if stop_crawl_on_match is specified
+specify a target domain, subdomain, or wildcard value;
+Note: domain or subdomain must be specified without a request protocol;
+example: 'match_value': 'dataforseo.com',
+'match_value': '/blog/post-*' */
         match_value?: string | undefined
         
         /** page crawl limit
@@ -163,6 +168,7 @@ Note: you will be charged extra $0.0006 for using this parameter */
         /** browser screen width
 optional field
 you can set a custom browser screen width to calculate pixel rankings for a particular device;
+can be specified within the following range: 240-9999;
 by default, the parameter is set to:
 1920 for desktop;
 360 for mobile on android;
@@ -173,6 +179,7 @@ Note: to use this parameter, set calculate_rectangles to true */
         /** browser screen height
 optional field
 you can set a custom browser screen height to calculate pixel rankings for a particular device;
+can be specified within the following range: 240-9999;
 by default, the parameter is set to:
 1080 for desktop;
 640 for mobile on android;
@@ -183,6 +190,7 @@ Note: to use this parameter, set calculate_rectangles to true */
         /** browser screen resolution ratio
 optional field
 you can set a custom browser screen resolution ratio to calculate pixel rankings for a particular device;
+can be specified within the following range: 0.5-3;
 by default, the parameter is set to:
 1 for desktop;
 3 for mobile on android;
@@ -263,6 +271,7 @@ The cost can be calculated on the Pricing page. */
     
     /** device type
 optional field
+return results for a specific device type
 can take the values:desktop, mobile
 default value: desktop */
 
@@ -281,7 +290,7 @@ learn more on our Help Center */
 
     pingback_url?: string | undefined;
     
-    /** return URL for sending task results
+    /** URL for sending task results
 optional field
 once the task is completed, we will send a POST request with its results compressed in the gzip format to the postback_url you specified
 you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded $tag variable. We will set the necessary values before sending the request.
@@ -349,17 +358,21 @@ Your account will be billed per each SERP crawled through the specified targets 
     stop_crawl_on_match?: SerpApiStopCrawlOnMatchInfo[] | undefined;
     
     /** target match type
-required field if stop_crawl_on_match is specified;
+required field if stop_crawl_on_match is specified
 type of match for the match_value
-possible values: domain, with_subdomains, wildcard */
+possible values:
+domain – specific domain or subdomain
+with_subdomains – main domain and subdomains
+wildcard –  wildcard pattern */
 
     match_type?: string | undefined;
     
-    /** target domain or wildcard value
-required field if stop_crawl_on_match is specified;
-specify a target domain or wildcard value;
-Note: domain name must be specified without a request protocol;
-example: dataforseo.com */
+    /** target domain, subdomain, or wildcard value
+required field if stop_crawl_on_match is specified
+specify a target domain, subdomain, or wildcard value;
+Note: domain or subdomain must be specified without a request protocol;
+example: 'match_value': 'dataforseo.com',
+'match_value': '/blog/post-*' */
 
     match_value?: string | undefined;
     
@@ -391,6 +404,7 @@ Note: you will be charged extra $0.0006 for using this parameter */
     /** browser screen width
 optional field
 you can set a custom browser screen width to calculate pixel rankings for a particular device;
+can be specified within the following range: 240-9999;
 by default, the parameter is set to:
 1920 for desktop;
 360 for mobile on android;
@@ -402,6 +416,7 @@ Note: to use this parameter, set calculate_rectangles to true */
     /** browser screen height
 optional field
 you can set a custom browser screen height to calculate pixel rankings for a particular device;
+can be specified within the following range: 240-9999;
 by default, the parameter is set to:
 1080 for desktop;
 640 for mobile on android;
@@ -413,6 +428,7 @@ Note: to use this parameter, set calculate_rectangles to true */
     /** browser screen resolution ratio
 optional field
 you can set a custom browser screen resolution ratio to calculate pixel rankings for a particular device;
+can be specified within the following range: 0.5-3;
 by default, the parameter is set to:
 1 for desktop;
 3 for mobile on android;

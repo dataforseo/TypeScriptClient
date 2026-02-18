@@ -28,6 +28,7 @@ If the specified depth is higher than the number of results in the response, the
         
         /** device type
 optional field
+return results for a specific device type
 possible value: desktop */
         device?: string | undefined
         
@@ -113,6 +114,7 @@ If the specified depth is higher than the number of results in the response, the
     
     /** device type
 optional field
+return results for a specific device type
 possible value: desktop */
 
     device?: string | undefined;

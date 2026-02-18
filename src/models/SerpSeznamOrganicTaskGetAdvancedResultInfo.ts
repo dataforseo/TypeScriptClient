@@ -42,7 +42,7 @@ equals null */
         /** types of search results in SERP
 contains types of search results (items) found in SERP.
 possible item types:
-images, local_pack, organic, related_searches, top_stories, featured_snippet, video */
+images, local_pack, organic, related_searches, top_stories, featured_snippet, video, shopping */
         item_types?: string[] | undefined
         
         /** total number of results in SERP */
@@ -111,7 +111,7 @@ equals null */
     /** types of search results in SERP
 contains types of search results (items) found in SERP.
 possible item types:
-images, local_pack, organic, related_searches, top_stories, featured_snippet, video */
+images, local_pack, organic, related_searches, top_stories, featured_snippet, video, shopping */
 
     item_types?: string[] | undefined;
     

@@ -19,7 +19,10 @@ where location_code_parent corresponds to:
         /** ISO country code of the location */
         country_iso_code?: string | undefined
         
-        /** location type */
+        /** location type
+indicates the geographic classification of the location
+example:
+'location_type': 'Country', or 'location_type': 'State' */
         location_type?: string | undefined
 
     [key: string]: any;
@@ -51,7 +54,10 @@ where location_code_parent corresponds to:
 
     country_iso_code?: string | undefined;
     
-    /** location type */
+    /** location type
+indicates the geographic classification of the location
+example:
+'location_type': 'Country', or 'location_type': 'State' */
 
     location_type?: string | undefined;
 

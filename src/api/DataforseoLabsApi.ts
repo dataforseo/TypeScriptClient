@@ -72,28 +72,6 @@ import { DataforseoLabsAmazonProductCompetitorsLiveRequestInfo } from "./../mode
 import { DataforseoLabsAmazonProductCompetitorsLiveResponseInfo } from "./../models/DataforseoLabsAmazonProductCompetitorsLiveResponseInfo";
 import { DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo } from "./../models/DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo";
 import { DataforseoLabsAmazonProductKeywordIntersectionsLiveResponseInfo } from "./../models/DataforseoLabsAmazonProductKeywordIntersectionsLiveResponseInfo";
-import { DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo } from "./../models/DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo";
-import { DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo } from "./../models/DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo";
-import { DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo } from "./../models/DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo";
-import { DataforseoLabsBingBulkTrafficEstimationLiveResponseInfo } from "./../models/DataforseoLabsBingBulkTrafficEstimationLiveResponseInfo";
-import { DataforseoLabsBingCompetitorsDomainLiveRequestInfo } from "./../models/DataforseoLabsBingCompetitorsDomainLiveRequestInfo";
-import { DataforseoLabsBingCompetitorsDomainLiveResponseInfo } from "./../models/DataforseoLabsBingCompetitorsDomainLiveResponseInfo";
-import { DataforseoLabsBingDomainIntersectionLiveRequestInfo } from "./../models/DataforseoLabsBingDomainIntersectionLiveRequestInfo";
-import { DataforseoLabsBingDomainIntersectionLiveResponseInfo } from "./../models/DataforseoLabsBingDomainIntersectionLiveResponseInfo";
-import { DataforseoLabsBingDomainRankOverviewLiveRequestInfo } from "./../models/DataforseoLabsBingDomainRankOverviewLiveRequestInfo";
-import { DataforseoLabsBingDomainRankOverviewLiveResponseInfo } from "./../models/DataforseoLabsBingDomainRankOverviewLiveResponseInfo";
-import { DataforseoLabsBingPageIntersectionLiveRequestInfo } from "./../models/DataforseoLabsBingPageIntersectionLiveRequestInfo";
-import { DataforseoLabsBingPageIntersectionLiveResponseInfo } from "./../models/DataforseoLabsBingPageIntersectionLiveResponseInfo";
-import { DataforseoLabsBingRankedKeywordsLiveRequestInfo } from "./../models/DataforseoLabsBingRankedKeywordsLiveRequestInfo";
-import { DataforseoLabsBingRankedKeywordsLiveResponseInfo } from "./../models/DataforseoLabsBingRankedKeywordsLiveResponseInfo";
-import { DataforseoLabsBingRelatedKeywordsLiveRequestInfo } from "./../models/DataforseoLabsBingRelatedKeywordsLiveRequestInfo";
-import { DataforseoLabsBingRelatedKeywordsLiveResponseInfo } from "./../models/DataforseoLabsBingRelatedKeywordsLiveResponseInfo";
-import { DataforseoLabsBingRelevantPagesLiveRequestInfo } from "./../models/DataforseoLabsBingRelevantPagesLiveRequestInfo";
-import { DataforseoLabsBingRelevantPagesLiveResponseInfo } from "./../models/DataforseoLabsBingRelevantPagesLiveResponseInfo";
-import { DataforseoLabsBingSerpCompetitorsLiveRequestInfo } from "./../models/DataforseoLabsBingSerpCompetitorsLiveRequestInfo";
-import { DataforseoLabsBingSerpCompetitorsLiveResponseInfo } from "./../models/DataforseoLabsBingSerpCompetitorsLiveResponseInfo";
-import { DataforseoLabsBingSubdomainsLiveRequestInfo } from "./../models/DataforseoLabsBingSubdomainsLiveRequestInfo";
-import { DataforseoLabsBingSubdomainsLiveResponseInfo } from "./../models/DataforseoLabsBingSubdomainsLiveResponseInfo";
 import { DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo } from "./../models/DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo";
 import { DataforseoLabsGoogleBulkAppMetricsLiveResponseInfo } from "./../models/DataforseoLabsGoogleBulkAppMetricsLiveResponseInfo";
 import { DataforseoLabsGoogleKeywordsForAppLiveRequestInfo } from "./../models/DataforseoLabsGoogleKeywordsForAppLiveRequestInfo";
@@ -132,7 +110,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -164,7 +142,7 @@ export class DataforseoLabsApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
 
@@ -200,7 +178,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -232,7 +210,7 @@ export class DataforseoLabsApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
 
@@ -265,7 +243,7 @@ export class DataforseoLabsApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
 
@@ -298,7 +276,7 @@ export class DataforseoLabsApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
 
@@ -331,7 +309,7 @@ export class DataforseoLabsApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
 
@@ -367,7 +345,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -402,7 +380,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -437,7 +415,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -472,7 +450,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -507,7 +485,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -542,7 +520,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -574,7 +552,7 @@ export class DataforseoLabsApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
 
@@ -610,7 +588,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -645,7 +623,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -680,7 +658,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -715,7 +693,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -750,7 +728,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -785,7 +763,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -820,7 +798,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -855,7 +833,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -890,7 +868,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -925,7 +903,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -960,7 +938,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -995,7 +973,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1030,7 +1008,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1065,7 +1043,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1100,7 +1078,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1135,7 +1113,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1170,7 +1148,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1205,7 +1183,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1240,7 +1218,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1275,7 +1253,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1310,7 +1288,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1345,7 +1323,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1380,7 +1358,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1415,7 +1393,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1450,7 +1428,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1485,7 +1463,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1510,391 +1488,6 @@ export class DataforseoLabsApi {
         }
         return Promise.resolve<DataforseoLabsAmazonProductKeywordIntersectionsLiveResponseInfo | null>(null as any);
     }
-    bingBulkKeywordDifficultyLive(body: DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo[]): Promise<DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/dataforseo_labs/bing/bulk_keyword_difficulty/live";
-        url_ = url_.replace(/[?&]$/, "");
-        const content_ = JSON.stringify(body);
-        let options_: RequestInit = {
-            body: content_,
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
-            }
-        };
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processBingBulkKeywordDifficultyLive(_response);
-        });
-    }
-
-    protected processBingBulkKeywordDifficultyLive(response: Response): Promise<DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo | null>(null as any);
-    }
-    bingBulkTrafficEstimationLive(body: DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo[]): Promise<DataforseoLabsBingBulkTrafficEstimationLiveResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/dataforseo_labs/bing/bulk_traffic_estimation/live";
-        url_ = url_.replace(/[?&]$/, "");
-        const content_ = JSON.stringify(body);
-        let options_: RequestInit = {
-            body: content_,
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
-            }
-        };
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processBingBulkTrafficEstimationLive(_response);
-        });
-    }
-
-    protected processBingBulkTrafficEstimationLive(response: Response): Promise<DataforseoLabsBingBulkTrafficEstimationLiveResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? DataforseoLabsBingBulkTrafficEstimationLiveResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<DataforseoLabsBingBulkTrafficEstimationLiveResponseInfo | null>(null as any);
-    }
-    bingCompetitorsDomainLive(body: DataforseoLabsBingCompetitorsDomainLiveRequestInfo[]): Promise<DataforseoLabsBingCompetitorsDomainLiveResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/dataforseo_labs/bing/competitors_domain/live";
-        url_ = url_.replace(/[?&]$/, "");
-        const content_ = JSON.stringify(body);
-        let options_: RequestInit = {
-            body: content_,
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
-            }
-        };
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processBingCompetitorsDomainLive(_response);
-        });
-    }
-
-    protected processBingCompetitorsDomainLive(response: Response): Promise<DataforseoLabsBingCompetitorsDomainLiveResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? DataforseoLabsBingCompetitorsDomainLiveResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<DataforseoLabsBingCompetitorsDomainLiveResponseInfo | null>(null as any);
-    }
-    bingDomainIntersectionLive(body: DataforseoLabsBingDomainIntersectionLiveRequestInfo[]): Promise<DataforseoLabsBingDomainIntersectionLiveResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/dataforseo_labs/bing/domain_intersection/live";
-        url_ = url_.replace(/[?&]$/, "");
-        const content_ = JSON.stringify(body);
-        let options_: RequestInit = {
-            body: content_,
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
-            }
-        };
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processBingDomainIntersectionLive(_response);
-        });
-    }
-
-    protected processBingDomainIntersectionLive(response: Response): Promise<DataforseoLabsBingDomainIntersectionLiveResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? DataforseoLabsBingDomainIntersectionLiveResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<DataforseoLabsBingDomainIntersectionLiveResponseInfo | null>(null as any);
-    }
-    bingDomainRankOverviewLive(body: DataforseoLabsBingDomainRankOverviewLiveRequestInfo[]): Promise<DataforseoLabsBingDomainRankOverviewLiveResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/dataforseo_labs/bing/domain_rank_overview/live";
-        url_ = url_.replace(/[?&]$/, "");
-        const content_ = JSON.stringify(body);
-        let options_: RequestInit = {
-            body: content_,
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
-            }
-        };
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processBingDomainRankOverviewLive(_response);
-        });
-    }
-
-    protected processBingDomainRankOverviewLive(response: Response): Promise<DataforseoLabsBingDomainRankOverviewLiveResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? DataforseoLabsBingDomainRankOverviewLiveResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<DataforseoLabsBingDomainRankOverviewLiveResponseInfo | null>(null as any);
-    }
-    bingPageIntersectionLive(body: DataforseoLabsBingPageIntersectionLiveRequestInfo[]): Promise<DataforseoLabsBingPageIntersectionLiveResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/dataforseo_labs/bing/page_intersection/live";
-        url_ = url_.replace(/[?&]$/, "");
-        const content_ = JSON.stringify(body);
-        let options_: RequestInit = {
-            body: content_,
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
-            }
-        };
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processBingPageIntersectionLive(_response);
-        });
-    }
-
-    protected processBingPageIntersectionLive(response: Response): Promise<DataforseoLabsBingPageIntersectionLiveResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? DataforseoLabsBingPageIntersectionLiveResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<DataforseoLabsBingPageIntersectionLiveResponseInfo | null>(null as any);
-    }
-    bingRankedKeywordsLive(body: DataforseoLabsBingRankedKeywordsLiveRequestInfo[]): Promise<DataforseoLabsBingRankedKeywordsLiveResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/dataforseo_labs/bing/ranked_keywords/live";
-        url_ = url_.replace(/[?&]$/, "");
-        const content_ = JSON.stringify(body);
-        let options_: RequestInit = {
-            body: content_,
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
-            }
-        };
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processBingRankedKeywordsLive(_response);
-        });
-    }
-
-    protected processBingRankedKeywordsLive(response: Response): Promise<DataforseoLabsBingRankedKeywordsLiveResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? DataforseoLabsBingRankedKeywordsLiveResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<DataforseoLabsBingRankedKeywordsLiveResponseInfo | null>(null as any);
-    }
-    bingRelatedKeywordsLive(body: DataforseoLabsBingRelatedKeywordsLiveRequestInfo[]): Promise<DataforseoLabsBingRelatedKeywordsLiveResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/dataforseo_labs/bing/related_keywords/live";
-        url_ = url_.replace(/[?&]$/, "");
-        const content_ = JSON.stringify(body);
-        let options_: RequestInit = {
-            body: content_,
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
-            }
-        };
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processBingRelatedKeywordsLive(_response);
-        });
-    }
-
-    protected processBingRelatedKeywordsLive(response: Response): Promise<DataforseoLabsBingRelatedKeywordsLiveResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? DataforseoLabsBingRelatedKeywordsLiveResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<DataforseoLabsBingRelatedKeywordsLiveResponseInfo | null>(null as any);
-    }
-    bingRelevantPagesLive(body: DataforseoLabsBingRelevantPagesLiveRequestInfo[]): Promise<DataforseoLabsBingRelevantPagesLiveResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/dataforseo_labs/bing/relevant_pages/live";
-        url_ = url_.replace(/[?&]$/, "");
-        const content_ = JSON.stringify(body);
-        let options_: RequestInit = {
-            body: content_,
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
-            }
-        };
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processBingRelevantPagesLive(_response);
-        });
-    }
-
-    protected processBingRelevantPagesLive(response: Response): Promise<DataforseoLabsBingRelevantPagesLiveResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? DataforseoLabsBingRelevantPagesLiveResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<DataforseoLabsBingRelevantPagesLiveResponseInfo | null>(null as any);
-    }
-    bingSerpCompetitorsLive(body: DataforseoLabsBingSerpCompetitorsLiveRequestInfo[]): Promise<DataforseoLabsBingSerpCompetitorsLiveResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/dataforseo_labs/bing/serp_competitors/live";
-        url_ = url_.replace(/[?&]$/, "");
-        const content_ = JSON.stringify(body);
-        let options_: RequestInit = {
-            body: content_,
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
-            }
-        };
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processBingSerpCompetitorsLive(_response);
-        });
-    }
-
-    protected processBingSerpCompetitorsLive(response: Response): Promise<DataforseoLabsBingSerpCompetitorsLiveResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? DataforseoLabsBingSerpCompetitorsLiveResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<DataforseoLabsBingSerpCompetitorsLiveResponseInfo | null>(null as any);
-    }
-    bingSubdomainsLive(body: DataforseoLabsBingSubdomainsLiveRequestInfo[]): Promise<DataforseoLabsBingSubdomainsLiveResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/dataforseo_labs/bing/subdomains/live";
-        url_ = url_.replace(/[?&]$/, "");
-        const content_ = JSON.stringify(body);
-        let options_: RequestInit = {
-            body: content_,
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
-            }
-        };
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processBingSubdomainsLive(_response);
-        });
-    }
-
-    protected processBingSubdomainsLive(response: Response): Promise<DataforseoLabsBingSubdomainsLiveResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? DataforseoLabsBingSubdomainsLiveResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<DataforseoLabsBingSubdomainsLiveResponseInfo | null>(null as any);
-    }
     googleBulkAppMetricsLive(body: DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo[]): Promise<DataforseoLabsGoogleBulkAppMetricsLiveResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/dataforseo_labs/google/bulk_app_metrics/live";
         url_ = url_.replace(/[?&]$/, "");
@@ -1905,7 +1498,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1940,7 +1533,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1975,7 +1568,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2010,7 +1603,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2045,7 +1638,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2080,7 +1673,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2115,7 +1708,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -2150,7 +1743,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.18",
+                "User-Agent": "typescript-client/2.0.19",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {

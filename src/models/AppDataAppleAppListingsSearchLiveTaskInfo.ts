@@ -1,10 +1,11 @@
+import { AppDataAppleAppListingsSearchLiveResultInfo, IAppDataAppleAppListingsSearchLiveResultInfo } from "./AppDataAppleAppListingsSearchLiveResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
 
 export interface IAppDataAppleAppListingsSearchLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** array of results */
-        result?: any | undefined
+        result?: AppDataAppleAppListingsSearchLiveResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -14,7 +15,7 @@ export class AppDataAppleAppListingsSearchLiveTaskInfo  extends BaseResponseTask
     
     /** array of results */
 
-    result?: any | undefined;
+    result?: AppDataAppleAppListingsSearchLiveResultInfo[] | undefined;
 
     [key: string]: any;
 
@@ -31,7 +32,12 @@ export class AppDataAppleAppListingsSearchLiveTaskInfo  extends BaseResponseTask
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
-            this.result = data["result"];
+            if (Array.isArray(data["result"])) {
+                this.result = [];
+                for (let item of data["result"]) {
+                    this.result.push(AppDataAppleAppListingsSearchLiveResultInfo.fromJS(item));
+                }
+            }
         }
     }
 
@@ -51,7 +57,15 @@ export class AppDataAppleAppListingsSearchLiveTaskInfo  extends BaseResponseTask
         super.toJSON(data);
         
         
-        data["result"] = this.result;
+        data["result"] = null;
+        if (Array.isArray(this.result)) {
+            data["result"] = [];
+            for (let item of this.result) {
+                if (item && typeof item.toJSON === "function") {
+                    data["result"].push(item?.toJSON());
+                }
+            }
+        }
         return data;
     }
 }

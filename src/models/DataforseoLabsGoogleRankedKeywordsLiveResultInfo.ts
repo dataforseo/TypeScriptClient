@@ -1,4 +1,4 @@
-import { DataforseoLabsRankedKeywordsLiveItem, IDataforseoLabsRankedKeywordsLiveItem } from "./DataforseoLabsRankedKeywordsLiveItem";
+import { DataforseoLabsGoogleRankedKeywordsLiveItem, IDataforseoLabsGoogleRankedKeywordsLiveItem } from "./DataforseoLabsGoogleRankedKeywordsLiveItem";
 import { DataforseoLabsMetricsInfo, IDataforseoLabsMetricsInfo } from "./DataforseoLabsMetricsInfo";
 
 
@@ -33,7 +33,7 @@ ranking data is provided by the rank_absolute parameters that indicate the resul
         metrics_absolute?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined
         
         /** contains ranked keywords and related data */
-        items?: DataforseoLabsRankedKeywordsLiveItem[] | undefined
+        items?: DataforseoLabsGoogleRankedKeywordsLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -79,7 +79,7 @@ ranking data is provided by the rank_absolute parameters that indicate the resul
     
     /** contains ranked keywords and related data */
 
-    items?: DataforseoLabsRankedKeywordsLiveItem[] | undefined;
+    items?: DataforseoLabsGoogleRankedKeywordsLiveItem[] | undefined;
 
     [key: string]: any;
 
@@ -112,7 +112,7 @@ ranking data is provided by the rank_absolute parameters that indicate the resul
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(DataforseoLabsRankedKeywordsLiveItem.fromJS(item));
+                    this.items.push(DataforseoLabsGoogleRankedKeywordsLiveItem.fromJS(item));
                 }
             }
         }
