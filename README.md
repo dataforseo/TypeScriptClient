@@ -7,7 +7,7 @@ This is a TypeScript client providing you, as a developer, with a tool for obtai
 
 DataForSEO API uses REST technology for interchanging data between your application and our service. The data exchange is made through the widely used HTTP protocol, which allows using our API with almost any programming language.
 
-Client contains 13 sections (aka APIs):
+Client contains 12 sections (aka APIs):
 
 - AI Optimization API ([source docs](https://github.com/dataforseo/PythonClient/blob/master/docs/AiOptimizationApi.md) | [api docs](https://docs.dataforseo.com/v3/ai_optimization/overview/))
 - SERP ([source docs](https://github.com/dataforseo/TypeScriptClient/tree/master/docs/SerpApi.md) | [api docs](https://docs.dataforseo.com/v3/serp/overview/?bash))
