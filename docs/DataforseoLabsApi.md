@@ -23,7 +23,6 @@ All URIs are relative to *https://api.dataforseo.com*
 [**googleKeywordsForCategoriesLive**](DataforseoLabsApi.md#googleKeywordsForCategoriesLive) | **POST**  /v3/dataforseo_labs/google/keywords_for_categories/live  |
 [**googleDomainMetricsByCategoriesLive**](DataforseoLabsApi.md#googleDomainMetricsByCategoriesLive) | **POST**  /v3/dataforseo_labs/google/domain_metrics_by_categories/live  |
 [**googleTopSearchesLive**](DataforseoLabsApi.md#googleTopSearchesLive) | **POST**  /v3/dataforseo_labs/google/top_searches/live  |
-[**googleDomainWhoisOverviewLive**](DataforseoLabsApi.md#googleDomainWhoisOverviewLive) | **POST**  /v3/dataforseo_labs/google/domain_whois_overview/live  |
 [**googleRankedKeywordsLive**](DataforseoLabsApi.md#googleRankedKeywordsLive) | **POST**  /v3/dataforseo_labs/google/ranked_keywords/live  |
 [**googleSerpCompetitorsLive**](DataforseoLabsApi.md#googleSerpCompetitorsLive) | **POST**  /v3/dataforseo_labs/google/serp_competitors/live  |
 [**googleCompetitorsDomainLive**](DataforseoLabsApi.md#googleCompetitorsDomainLive) | **POST**  /v3/dataforseo_labs/google/competitors_domain/live  |
@@ -1254,78 +1253,6 @@ This endpoint does not need any parameter.
 ### Return type
 
 [**DataforseoLabsGoogleTopSearchesLiveResponseInfo**](DataforseoLabsGoogleTopSearchesLiveResponseInfo.md)
-
-### Authorization
-
-[basicAuth](../README.md#basicAuth)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** | Successful operation |  -  |
-
-<a id="googleDomainWhoisOverviewLive"></a>
-# **googleDomainWhoisOverviewLive**
-> DataforseoLabsGoogleDomainWhoisOverviewLiveResponseInfo googleDomainWhoisOverviewLive()
-
-
-### Example
-```typescript
- const username = 'USERNAME';
- const password = 'PASSWORD';
-
- let api = new DataforseoLabsApi("https://api.dataforseo.com", {
-   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
-     const token = btoa(`${username}:${password}`);
-     const authHeader = { 'Authorization': `Basic ${token}` };
-
-     const newInit: RequestInit = {
-       ...init,
-       headers: {
-       ...init?.headers,
-       ...authHeader,
-     }
-   };
-
-   return fetch(url, newInit);
-   }
- });
-
- let response = await api.googleDomainWhoisOverviewLive([
-   [
-       new DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo({
-           limit: 2,
-           filters: [
-           [
-               "epp_status_codes",
-               "in",
-               [
-                   "client_transfer_prohibited",
-                   "client_update_prohibited",
-               ],
-           ],
-       ],
-       }),
-   ]
- ]);
-```
-
-### Parameters
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **** | [**List&lt;DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo[]&gt;**](DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo[].md)|  | [optional] |
-
-
-
-### Return type
-
-[**DataforseoLabsGoogleDomainWhoisOverviewLiveResponseInfo**](DataforseoLabsGoogleDomainWhoisOverviewLiveResponseInfo.md)
 
 ### Authorization
 

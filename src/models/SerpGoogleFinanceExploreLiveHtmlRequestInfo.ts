@@ -11,7 +11,7 @@ example:
         /** search engine language code
 required field if you don't specify language_name
 if you use this field, you don't need to specify language_name
-you can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/serp/{{low_se_name}}/languages
+you can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/serp/google/languages
 example:
 en */
         language_code?: string | undefined
@@ -32,7 +32,7 @@ London,England,United Kingdom */
         /** full name of search engine language
 required field if you don't specify language_code 
 if you use this field, you don't need to specify language_code
-you can receive the list of available languages of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/serp/{{low_se_name}}/languages
+you can receive the list of available languages of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/serp/google/languages
 example:
 English */
         language_name?: string | undefined
@@ -73,7 +73,7 @@ example:
     /** search engine language code
 required field if you don't specify language_name
 if you use this field, you don't need to specify language_name
-you can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/serp/{{low_se_name}}/languages
+you can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/serp/google/languages
 example:
 en */
 
@@ -97,7 +97,7 @@ London,England,United Kingdom */
     /** full name of search engine language
 required field if you don't specify language_code 
 if you use this field, you don't need to specify language_code
-you can receive the list of available languages of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/serp/{{low_se_name}}/languages
+you can receive the list of available languages of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/serp/google/languages
 example:
 English */
 

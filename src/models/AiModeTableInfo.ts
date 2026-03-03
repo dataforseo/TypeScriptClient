@@ -3,8 +3,7 @@ export interface IAiModeTableInfo   {
         /** content in the header of the table */
         table_header?: string[] | undefined
         
-        /** array of contents of the table present in the element
-each array represents the table row */
+        /** array of contents of the table present in the elementeach array represents the table row */
         table_content?: string[][] | undefined
 
     [key: string]: any;
@@ -17,8 +16,7 @@ export class AiModeTableInfo  implements IAiModeTableInfo {
 
     table_header?: string[] | undefined;
     
-    /** array of contents of the table present in the element
-each array represents the table row */
+    /** array of contents of the table present in the elementeach array represents the table row */
 
     table_content?: string[][] | undefined;
 

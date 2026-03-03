@@ -10,29 +10,20 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
         keyword?: string | undefined
         
         /** full name of search engine location
-required field if you don’t specify location_code or location_coordinate
-if you use this field, you don’t need to specify location_code or location_coordinate
+required field if you don’t specify location_code
+if you use this field, you don’t need to specify location_code
 you can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/chat_gpt/llm_scraper/locations
 example:
 London,England,United Kingdom */
         location_name?: string | undefined
         
         /** search engine location code
-required field if you don’t specify location_name or location_coordinate
-if you use this field, you don’t need to specify location_name or location_coordinate
+required field if you don’t specify location_name
+if you use this field, you don’t need to specify location_name
 you can receive the list of available locations of the search engines with their location_code by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/chat_gpt/llm_scraper/locations
 example:
 2840 */
         location_code?: number | undefined
-        
-        /** GPS coordinates of a location
-required field if you don’t specify location_name or location_code
-if you use this field, you don’t need to specify location_name or location_code
-location_coordinate parameter should be specified in the “latitude,longitude” format
-Note: location will be automatically set to the country that contains the specified coordinates
-example:
-52.6178549,-155.352142 */
-        location_coordinate?: string | undefined
         
         /** full name of search engine language
 required field if you don’t specify language_code;
@@ -77,8 +68,8 @@ learn more about rules and limitations of keyword and keywords fields in DataFor
     keyword?: string | undefined;
     
     /** full name of search engine location
-required field if you don’t specify location_code or location_coordinate
-if you use this field, you don’t need to specify location_code or location_coordinate
+required field if you don’t specify location_code
+if you use this field, you don’t need to specify location_code
 you can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/chat_gpt/llm_scraper/locations
 example:
 London,England,United Kingdom */
@@ -86,23 +77,13 @@ London,England,United Kingdom */
     location_name?: string | undefined;
     
     /** search engine location code
-required field if you don’t specify location_name or location_coordinate
-if you use this field, you don’t need to specify location_name or location_coordinate
+required field if you don’t specify location_name
+if you use this field, you don’t need to specify location_name
 you can receive the list of available locations of the search engines with their location_code by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/chat_gpt/llm_scraper/locations
 example:
 2840 */
 
     location_code?: number | undefined;
-    
-    /** GPS coordinates of a location
-required field if you don’t specify location_name or location_code
-if you use this field, you don’t need to specify location_name or location_code
-location_coordinate parameter should be specified in the “latitude,longitude” format
-Note: location will be automatically set to the country that contains the specified coordinates
-example:
-52.6178549,-155.352142 */
-
-    location_coordinate?: string | undefined;
     
     /** full name of search engine language
 required field if you don’t specify language_code;
@@ -157,7 +138,6 @@ you will find the specified tag value in the data object of the response */
             this.keyword = data["keyword"];
             this.location_name = data["location_name"];
             this.location_code = data["location_code"];
-            this.location_coordinate = data["location_coordinate"];
             this.language_name = data["language_name"];
             this.language_code = data["language_code"];
             this.force_web_search = data["force_web_search"];
@@ -182,7 +162,6 @@ you will find the specified tag value in the data object of the response */
         data["keyword"] = this.keyword;
         data["location_name"] = this.location_name;
         data["location_code"] = this.location_code;
-        data["location_coordinate"] = this.location_coordinate;
         data["language_name"] = this.language_name;
         data["language_code"] = this.language_code;
         data["force_web_search"] = this.force_web_search;

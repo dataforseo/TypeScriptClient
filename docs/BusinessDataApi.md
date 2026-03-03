@@ -58,7 +58,6 @@ All URIs are relative to *https://api.dataforseo.com*
 [**tripadvisorReviewsTasksReady**](BusinessDataApi.md#tripadvisorReviewsTasksReady) | **GET**  /v3/business_data/tripadvisor/reviews/tasks_ready  |
 [**tripadvisorReviewsTaskGet**](BusinessDataApi.md#tripadvisorReviewsTaskGet) | **GET**  /v3/business_data/tripadvisor/reviews/task_get/{id}  |
 [**socialMediaPinterestLive**](BusinessDataApi.md#socialMediaPinterestLive) | **POST**  /v3/business_data/social_media/pinterest/live  |
-[**socialMediaFacebookLive**](BusinessDataApi.md#socialMediaFacebookLive) | **POST**  /v3/business_data/social_media/facebook/live  |
 [**socialMediaRedditLive**](BusinessDataApi.md#socialMediaRedditLive) | **POST**  /v3/business_data/social_media/reddit/live  |
 
 <a id="businessDataIdList"></a>
@@ -3308,73 +3307,6 @@ This endpoint does not need any parameter.
 ### Return type
 
 [**BusinessDataSocialMediaPinterestLiveResponseInfo**](BusinessDataSocialMediaPinterestLiveResponseInfo.md)
-
-### Authorization
-
-[basicAuth](../README.md#basicAuth)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** | Successful operation |  -  |
-
-<a id="socialMediaFacebookLive"></a>
-# **socialMediaFacebookLive**
-> BusinessDataSocialMediaFacebookLiveResponseInfo socialMediaFacebookLive()
-
-
-### Example
-```typescript
- const username = 'USERNAME';
- const password = 'PASSWORD';
-
- let api = new BusinessDataApi("https://api.dataforseo.com", {
-   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
-     const token = btoa(`${username}:${password}`);
-     const authHeader = { 'Authorization': `Basic ${token}` };
-
-     const newInit: RequestInit = {
-       ...init,
-       headers: {
-       ...init?.headers,
-       ...authHeader,
-     }
-   };
-
-   return fetch(url, newInit);
-   }
- });
-
- let response = await api.socialMediaFacebookLive([
-   [
-       new BusinessDataSocialMediaFacebookLiveRequestInfo({
-           targets: [
-           "https://prnt.sc/",
-           "https://developers.facebook.com/docs/plugins/like-button/",
-           "https://www.shbarcelona.com/blog/en/salsa-dance-clubs-in-barcelona/",
-       ],
-           tag: "some_string_123",
-       }),
-   ]
- ]);
-```
-
-### Parameters
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **** | [**List&lt;BusinessDataSocialMediaFacebookLiveRequestInfo[]&gt;**](BusinessDataSocialMediaFacebookLiveRequestInfo[].md)|  | [optional] |
-
-
-
-### Return type
-
-[**BusinessDataSocialMediaFacebookLiveResponseInfo**](BusinessDataSocialMediaFacebookLiveResponseInfo.md)
 
 ### Authorization
 

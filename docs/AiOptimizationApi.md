@@ -35,6 +35,14 @@ All URIs are relative to *https://api.dataforseo.com*
 [**geminiLlmResponsesTasksReady**](AiOptimizationApi.md#geminiLlmResponsesTasksReady) | **GET**  /v3/ai_optimization/gemini/llm_responses/tasks_ready  |
 [**geminiLlmResponsesTaskGet**](AiOptimizationApi.md#geminiLlmResponsesTaskGet) | **GET**  /v3/ai_optimization/gemini/llm_responses/task_get/{id}  |
 [**geminiLlmResponsesLive**](AiOptimizationApi.md#geminiLlmResponsesLive) | **POST**  /v3/ai_optimization/gemini/llm_responses/live  |
+[**geminiLlmScraperLocations**](AiOptimizationApi.md#geminiLlmScraperLocations) | **GET**  /v3/ai_optimization/gemini/llm_scraper/locations  |
+[**geminiLlmScraperLanguages**](AiOptimizationApi.md#geminiLlmScraperLanguages) | **GET**  /v3/ai_optimization/gemini/llm_scraper/languages  |
+[**geminiLlmScraperTaskPost**](AiOptimizationApi.md#geminiLlmScraperTaskPost) | **POST**  /v3/ai_optimization/gemini/llm_scraper/task_post  |
+[**geminiLlmScraperTasksReady**](AiOptimizationApi.md#geminiLlmScraperTasksReady) | **GET**  /v3/ai_optimization/gemini/llm_scraper/tasks_ready  |
+[**geminiLlmScraperTaskGetAdvanced**](AiOptimizationApi.md#geminiLlmScraperTaskGetAdvanced) | **GET**  /v3/ai_optimization/gemini/llm_scraper/task_get/advanced/{id}  |
+[**geminiLlmScraperTaskGetHtml**](AiOptimizationApi.md#geminiLlmScraperTaskGetHtml) | **GET**  /v3/ai_optimization/gemini/llm_scraper/task_get/html/{id}  |
+[**geminiLlmScraperLiveAdvanced**](AiOptimizationApi.md#geminiLlmScraperLiveAdvanced) | **POST**  /v3/ai_optimization/gemini/llm_scraper/live/advanced  |
+[**geminiLlmScraperLiveHtml**](AiOptimizationApi.md#geminiLlmScraperLiveHtml) | **POST**  /v3/ai_optimization/gemini/llm_scraper/live/html  |
 [**perplexityLlmResponsesModels**](AiOptimizationApi.md#perplexityLlmResponsesModels) | **GET**  /v3/ai_optimization/perplexity/llm_responses/models  |
 [**perplexityLlmResponsesLive**](AiOptimizationApi.md#perplexityLlmResponsesLive) | **POST**  /v3/ai_optimization/perplexity/llm_responses/live  |
 [**aiKeywordDataAvailableFilters**](AiOptimizationApi.md#aiKeywordDataAvailableFilters) | **GET**  /v3/ai_optimization/ai_keyword_data/available_filters  |
@@ -2095,6 +2103,480 @@ This endpoint does not need any parameter.
 ### Return type
 
 [**AiOptimizationGeminiLlmResponsesLiveResponseInfo**](AiOptimizationGeminiLlmResponsesLiveResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="geminiLlmScraperLocations"></a>
+# **geminiLlmScraperLocations**
+> AiOptimizationGeminiLlmScraperLocationsResponseInfo geminiLlmScraperLocations()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new AiOptimizationApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let response = await api.geminiLlmScraperLocations();
+```
+
+### Parameters
+
+
+    
+This endpoint does not need any parameter.
+    
+
+
+### Return type
+
+[**AiOptimizationGeminiLlmScraperLocationsResponseInfo**](AiOptimizationGeminiLlmScraperLocationsResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="geminiLlmScraperLanguages"></a>
+# **geminiLlmScraperLanguages**
+> AiOptimizationGeminiLlmScraperLanguagesResponseInfo geminiLlmScraperLanguages()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new AiOptimizationApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let response = await api.geminiLlmScraperLanguages();
+```
+
+### Parameters
+
+
+    
+This endpoint does not need any parameter.
+    
+
+
+### Return type
+
+[**AiOptimizationGeminiLlmScraperLanguagesResponseInfo**](AiOptimizationGeminiLlmScraperLanguagesResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="geminiLlmScraperTaskPost"></a>
+# **geminiLlmScraperTaskPost**
+> AiOptimizationGeminiLlmScraperTaskPostResponseInfo geminiLlmScraperTaskPost()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new AiOptimizationApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let response = await api.geminiLlmScraperTaskPost([
+   [
+       new AiOptimizationGeminiLlmScraperTaskPostRequestInfo({
+           language_code: "en",
+           location_code: 2840,
+           keyword: "albert einstein",
+       }),
+   ]
+ ]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;AiOptimizationGeminiLlmScraperTaskPostRequestInfo[]&gt;**](AiOptimizationGeminiLlmScraperTaskPostRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**AiOptimizationGeminiLlmScraperTaskPostResponseInfo**](AiOptimizationGeminiLlmScraperTaskPostResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="geminiLlmScraperTasksReady"></a>
+# **geminiLlmScraperTasksReady**
+> AiOptimizationGeminiLlmScraperTasksReadyResponseInfo geminiLlmScraperTasksReady()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new AiOptimizationApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let response = await api.geminiLlmScraperTasksReady();
+```
+
+### Parameters
+
+
+    
+This endpoint does not need any parameter.
+    
+
+
+### Return type
+
+[**AiOptimizationGeminiLlmScraperTasksReadyResponseInfo**](AiOptimizationGeminiLlmScraperTasksReadyResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="geminiLlmScraperTaskGetAdvanced"></a>
+# **geminiLlmScraperTaskGetAdvanced**
+> AiOptimizationGeminiLlmScraperTaskGetAdvancedResponseInfo geminiLlmScraperTaskGetAdvanced()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new AiOptimizationApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let id = ;
+ let response = await api.geminiLlmScraperTaskGetAdvanced(id);
+```
+
+### Parameters
+
+
+    
+This endpoint does not need any parameter.
+    
+
+
+### Return type
+
+[**AiOptimizationGeminiLlmScraperTaskGetAdvancedResponseInfo**](AiOptimizationGeminiLlmScraperTaskGetAdvancedResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="geminiLlmScraperTaskGetHtml"></a>
+# **geminiLlmScraperTaskGetHtml**
+> AiOptimizationGeminiLlmScraperTaskGetHtmlResponseInfo geminiLlmScraperTaskGetHtml()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new AiOptimizationApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let id = ;
+ let response = await api.geminiLlmScraperTaskGetHtml(id);
+```
+
+### Parameters
+
+
+    
+This endpoint does not need any parameter.
+    
+
+
+### Return type
+
+[**AiOptimizationGeminiLlmScraperTaskGetHtmlResponseInfo**](AiOptimizationGeminiLlmScraperTaskGetHtmlResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="geminiLlmScraperLiveAdvanced"></a>
+# **geminiLlmScraperLiveAdvanced**
+> AiOptimizationGeminiLlmScraperLiveAdvancedResponseInfo geminiLlmScraperLiveAdvanced()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new AiOptimizationApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let response = await api.geminiLlmScraperLiveAdvanced([
+   [
+       new AiOptimizationGeminiLlmScraperLiveAdvancedRequestInfo({
+           language_code: "en",
+           location_code: 2840,
+           keyword: "albert einstein",
+       }),
+   ]
+ ]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;AiOptimizationGeminiLlmScraperLiveAdvancedRequestInfo[]&gt;**](AiOptimizationGeminiLlmScraperLiveAdvancedRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**AiOptimizationGeminiLlmScraperLiveAdvancedResponseInfo**](AiOptimizationGeminiLlmScraperLiveAdvancedResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="geminiLlmScraperLiveHtml"></a>
+# **geminiLlmScraperLiveHtml**
+> AiOptimizationGeminiLlmScraperLiveHtmlResponseInfo geminiLlmScraperLiveHtml()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new AiOptimizationApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let response = await api.geminiLlmScraperLiveHtml([
+   [
+       new AiOptimizationGeminiLlmScraperLiveHtmlRequestInfo({
+           language_code: "en",
+           location_code: 2840,
+           keyword: "albert einstein",
+       }),
+   ]
+ ]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;AiOptimizationGeminiLlmScraperLiveHtmlRequestInfo[]&gt;**](AiOptimizationGeminiLlmScraperLiveHtmlRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**AiOptimizationGeminiLlmScraperLiveHtmlResponseInfo**](AiOptimizationGeminiLlmScraperLiveHtmlResponseInfo.md)
 
 ### Authorization
 

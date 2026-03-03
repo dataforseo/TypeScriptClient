@@ -1,5 +1,5 @@
 import { ChatgptSearchResult, IChatgptSearchResult } from "./ChatgptSearchResult";
-import { ChatGptSource, IChatGptSource } from "./ChatGptSource";
+import { SourceInfo, ISourceInfo } from "./SourceInfo";
 import { ChatGptBrandEntity, IChatGptBrandEntity } from "./ChatGptBrandEntity";
 import { BaseChatGptLlmScraperElementItem, IBaseChatGptLlmScraperElementItem } from "./BaseChatGptLlmScraperElementItem";
 
@@ -39,7 +39,7 @@ all web search outputs the model retrieved when looking up information, includin
         
         /** array of sources
 the sources the model actually cited or relied on in its final answer */
-        sources?: ChatGptSource[] | undefined
+        sources?: SourceInfo[] | undefined
         
         /** array of fan-out queries
 contains related search queries derived from the main query to provide a more comprehensive response */
@@ -112,7 +112,7 @@ all web search outputs the model retrieved when looking up information, includin
     /** array of sources
 the sources the model actually cited or relied on in its final answer */
 
-    sources?: ChatGptSource[] | undefined;
+    sources?: SourceInfo[] | undefined;
     
     /** array of fan-out queries
 contains related search queries derived from the main query to provide a more comprehensive response */
@@ -179,7 +179,7 @@ chat_gpt_text, chat_gpt_table, chat_gpt_navigation_list, chat_gpt_images, chat_g
             if (Array.isArray(data["sources"])) {
                 this.sources = [];
                 for (let item of data["sources"]) {
-                    this.sources.push(ChatGptSource.fromJS(item));
+                    this.sources.push(SourceInfo.fromJS(item));
                 }
             }
             this.fan_out_queries = data["fan_out_queries"];

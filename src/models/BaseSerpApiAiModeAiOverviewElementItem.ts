@@ -11,9 +11,7 @@ export interface IBaseSerpApiAiModeAiOverviewElementItem   {
         /** type of element */
         type?: string | undefined
         
-        /** the alignment of the element in SERP
-can take the following values:
-left, right */
+        /** the alignment of the element in SERPcan take the following values:left, right */
         position?: string | undefined
 
     [key: string]: any;
@@ -26,9 +24,7 @@ export class BaseSerpApiAiModeAiOverviewElementItem  implements IBaseSerpApiAiMo
 
     type?: string | undefined;
     
-    /** the alignment of the element in SERP
-can take the following values:
-left, right */
+    /** the alignment of the element in SERPcan take the following values:left, right */
 
     position?: string | undefined;
 
@@ -123,15 +119,13 @@ export interface ISerpApiAiModeAiOverviewElementItem  extends IBaseSerpApiAiMode
         /** content of the element in markdown format */
         markdown?: string | undefined
         
-        /** website links featured in the element */
+        /** website links featured in the elementif there are none, equals null */
         links?: AiModeLinkElementInfo[] | undefined
         
-        /** images of the element
-if there are none, equals null */
+        /** images of the elementif there are none, equals null */
         images?: AiModeImagesElementInfo[] | undefined
         
-        /** references relevant to the element
-includes references to webpages that were used to generate the ai_overview_element */
+        /** references relevant to the elementincludes references to webpages that were used to generate the ai_overview_element */
         references?: AiModeAiOverviewReferenceInfo[] | undefined
 
     [key: string]: any;
@@ -152,17 +146,15 @@ export class SerpApiAiModeAiOverviewElementItem  extends BaseSerpApiAiModeAiOver
 
     markdown?: string | undefined;
     
-    /** website links featured in the element */
+    /** website links featured in the elementif there are none, equals null */
 
     links?: AiModeLinkElementInfo[] | undefined;
     
-    /** images of the element
-if there are none, equals null */
+    /** images of the elementif there are none, equals null */
 
     images?: AiModeImagesElementInfo[] | undefined;
     
-    /** references relevant to the element
-includes references to webpages that were used to generate the ai_overview_element */
+    /** references relevant to the elementincludes references to webpages that were used to generate the ai_overview_element */
 
     references?: AiModeAiOverviewReferenceInfo[] | undefined;
 
@@ -261,15 +253,13 @@ export interface ISerpApiAiModeAiOverviewExpandedElementItem  extends IBaseSerpA
         /** link anchor text */
         title?: string | undefined
         
-        /** reference text
-text snippet from the page that was used to generate the ai_overview_element */
+        /** reference texttext snippet from the page that was used to generate the ai_overview_element */
         text?: string | undefined
         
         /** array of components of the element */
         components?: AiModeAiOverviewExpandedComponentInfo[] | undefined
         
-        /** additional references relevant to the item
-includes references to webpages that may have been used to generate the ai_overview */
+        /** additional references relevant to the itemincludes references to webpages that may have been used to generate the ai_overview */
         references?: AiModeAiOverviewReferenceInfo[] | undefined
 
     [key: string]: any;
@@ -282,8 +272,7 @@ export class SerpApiAiModeAiOverviewExpandedElementItem  extends BaseSerpApiAiMo
 
     title?: string | undefined;
     
-    /** reference text
-text snippet from the page that was used to generate the ai_overview_element */
+    /** reference texttext snippet from the page that was used to generate the ai_overview_element */
 
     text?: string | undefined;
     
@@ -291,8 +280,7 @@ text snippet from the page that was used to generate the ai_overview_element */
 
     components?: AiModeAiOverviewExpandedComponentInfo[] | undefined;
     
-    /** additional references relevant to the item
-includes references to webpages that may have been used to generate the ai_overview */
+    /** additional references relevant to the itemincludes references to webpages that may have been used to generate the ai_overview */
 
     references?: AiModeAiOverviewReferenceInfo[] | undefined;
 
@@ -383,22 +371,16 @@ export interface ISerpApiAiModeAiOverviewVideoElementItem  extends IBaseSerpApiA
         /** domain name of the reference */
         domain?: string | undefined
         
-        /** URL of the image
-the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+        /** URL of the imagethe URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
         image_url?: string | undefined
         
         /** reference source name or title */
         source?: string | undefined
         
-        /** date when the video was published or indexed
-example:
-Apr 26, 2024 */
+        /** date when the video was published or indexedexample: Apr 26, 2024 */
         date?: string | undefined
         
-        /** date and time when the video was published or indexed
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** date and time when the video was published or indexedin the UTC format: 'yyyy-mm-dd hh-mm-ss +00:00'example:2019-11-15 12:57:46 +00:00 */
         timestamp?: string | undefined
 
     [key: string]: any;
@@ -423,8 +405,7 @@ export class SerpApiAiModeAiOverviewVideoElementItem  extends BaseSerpApiAiModeA
 
     domain?: string | undefined;
     
-    /** URL of the image
-the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+    /** URL of the imagethe URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
     image_url?: string | undefined;
     
@@ -432,16 +413,11 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
     source?: string | undefined;
     
-    /** date when the video was published or indexed
-example:
-Apr 26, 2024 */
+    /** date when the video was published or indexedexample: Apr 26, 2024 */
 
     date?: string | undefined;
     
-    /** date and time when the video was published or indexed
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** date and time when the video was published or indexedin the UTC format: 'yyyy-mm-dd hh-mm-ss +00:00'example:2019-11-15 12:57:46 +00:00 */
 
     timestamp?: string | undefined;
 
@@ -505,8 +481,7 @@ export interface ISerpApiAiModeAiOverviewTableElementItem  extends IBaseSerpApiA
         /** text of the component in the markdwon format */
         markdown?: string | undefined
         
-        /** table present in the element
-the header and content of the table present in the element */
+        /** table present in the elementthe header and content of the table present in the element */
         table?: AiModeTableInfo | undefined
 
     [key: string]: any;
@@ -519,8 +494,7 @@ export class SerpApiAiModeAiOverviewTableElementItem  extends BaseSerpApiAiModeA
 
     markdown?: string | undefined;
     
-    /** table present in the element
-the header and content of the table present in the element */
+    /** table present in the elementthe header and content of the table present in the element */
 
     table?: AiModeTableInfo | undefined;
 
@@ -572,8 +546,7 @@ export interface ISerpApiAiModeAiOverviewShoppingItem  extends IBaseSerpApiAiMod
         /** title of the link */
         title?: string | undefined
         
-        /** content of the element in markdown format
-the text of the ai_overview formatted in the markdown markup language */
+        /** content of the element in markdown formatthe text of the ai_overview formatted in the markdown markup language */
         markdown?: string | undefined
         
         /** items of the element */
@@ -589,8 +562,7 @@ export class SerpApiAiModeAiOverviewShoppingItem  extends BaseSerpApiAiModeAiOve
 
     title?: string | undefined;
     
-    /** content of the element in markdown format
-the text of the ai_overview formatted in the markdown markup language */
+    /** content of the element in markdown formatthe text of the ai_overview formatted in the markdown markup language */
 
     markdown?: string | undefined;
     

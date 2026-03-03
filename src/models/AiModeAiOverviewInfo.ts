@@ -8,39 +8,31 @@ export interface IAiModeAiOverviewInfo   {
         /** type of element */
         type?: string | undefined
         
-        /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+        /** group rank in SERPposition within a group of elements with identical type valuespositions of elements with different type values are omitted from rank_group */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP */
+        /** absolute rank in SERPabsolute position among all the elements in SERP */
         rank_absolute?: number | undefined
         
+        /** SERP pageSERP page on which the element ranks */
         page?: number | undefined
         
-        /** the alignment of the element in SERP
-can take the following values:
-left, right */
+        /** the alignment of the element in SERPcan take the following values:left, right */
         position?: string | undefined
         
         /** the XPath of the element */
         xpath?: string | undefined
         
-        /** content of the element in markdown format
-the text of the ai_overview formatted in the markdown markup language */
+        /** content of the element in markdown formatthe text of the ai_overview formatted in the markdown markup language */
         markdown?: string | undefined
         
         /** elements of search results found in SERP */
         items?: BaseSerpApiAiModeAiOverviewElementItem[] | undefined
         
-        /** additional references relevant to the item
-includes references to webpages that may have been used to generate the ai_overview */
+        /** additional references relevant to the itemincludes references to webpages that may have been used to generate the ai_overview */
         references?: AiModeAiOverviewReferenceInfo[] | undefined
         
-        /** rectangle parameters
-contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
-equals null if calculate_rectangles in the POST request is not set to true */
+        /** rectangle parameterscontains cartesian coordinates and pixel dimensions of the result's snippet in SERPequals null if calculate_rectangles in the POST request is not set to true */
         rectangle?: AiModeRectangleInfo | undefined
 
     [key: string]: any;
@@ -53,22 +45,19 @@ export class AiModeAiOverviewInfo  implements IAiModeAiOverviewInfo {
 
     type?: string | undefined;
     
-    /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+    /** group rank in SERPposition within a group of elements with identical type valuespositions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP */
+    /** absolute rank in SERPabsolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
+    
+    /** SERP pageSERP page on which the element ranks */
 
     page?: number | undefined;
     
-    /** the alignment of the element in SERP
-can take the following values:
-left, right */
+    /** the alignment of the element in SERPcan take the following values:left, right */
 
     position?: string | undefined;
     
@@ -76,8 +65,7 @@ left, right */
 
     xpath?: string | undefined;
     
-    /** content of the element in markdown format
-the text of the ai_overview formatted in the markdown markup language */
+    /** content of the element in markdown formatthe text of the ai_overview formatted in the markdown markup language */
 
     markdown?: string | undefined;
     
@@ -85,14 +73,11 @@ the text of the ai_overview formatted in the markdown markup language */
 
     items?: BaseSerpApiAiModeAiOverviewElementItem[] | undefined;
     
-    /** additional references relevant to the item
-includes references to webpages that may have been used to generate the ai_overview */
+    /** additional references relevant to the itemincludes references to webpages that may have been used to generate the ai_overview */
 
     references?: AiModeAiOverviewReferenceInfo[] | undefined;
     
-    /** rectangle parameters
-contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
-equals null if calculate_rectangles in the POST request is not set to true */
+    /** rectangle parameterscontains cartesian coordinates and pixel dimensions of the result's snippet in SERPequals null if calculate_rectangles in the POST request is not set to true */
 
     rectangle?: AiModeRectangleInfo | undefined;
 

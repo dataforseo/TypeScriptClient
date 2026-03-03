@@ -73,8 +73,6 @@ import { BusinessDataTripadvisorReviewsTasksReadyResponseInfo } from "./../model
 import { BusinessDataTripadvisorReviewsTaskGetResponseInfo } from "./../models/BusinessDataTripadvisorReviewsTaskGetResponseInfo";
 import { BusinessDataSocialMediaPinterestLiveRequestInfo } from "./../models/BusinessDataSocialMediaPinterestLiveRequestInfo";
 import { BusinessDataSocialMediaPinterestLiveResponseInfo } from "./../models/BusinessDataSocialMediaPinterestLiveResponseInfo";
-import { BusinessDataSocialMediaFacebookLiveRequestInfo } from "./../models/BusinessDataSocialMediaFacebookLiveRequestInfo";
-import { BusinessDataSocialMediaFacebookLiveResponseInfo } from "./../models/BusinessDataSocialMediaFacebookLiveResponseInfo";
 import { BusinessDataSocialMediaRedditLiveRequestInfo } from "./../models/BusinessDataSocialMediaRedditLiveRequestInfo";
 import { BusinessDataSocialMediaRedditLiveResponseInfo } from "./../models/BusinessDataSocialMediaRedditLiveResponseInfo";
 import { ApiException, throwException } from "./../models/ApiException"
@@ -99,7 +97,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -134,7 +132,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -166,7 +164,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -199,7 +197,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -232,7 +230,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -268,7 +266,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -303,7 +301,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -335,7 +333,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -369,7 +367,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -402,7 +400,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -438,7 +436,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -470,7 +468,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -503,7 +501,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -537,7 +535,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -573,7 +571,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -608,7 +606,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -640,7 +638,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -674,7 +672,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -710,7 +708,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -742,7 +740,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -776,7 +774,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -812,7 +810,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -847,7 +845,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -879,7 +877,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -913,7 +911,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -947,7 +945,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -983,7 +981,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1018,7 +1016,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1053,7 +1051,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1085,7 +1083,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -1119,7 +1117,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -1155,7 +1153,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1187,7 +1185,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -1221,7 +1219,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -1257,7 +1255,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1289,7 +1287,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -1323,7 +1321,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -1359,7 +1357,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1394,7 +1392,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1426,7 +1424,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -1460,7 +1458,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -1496,7 +1494,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1528,7 +1526,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -1562,7 +1560,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -1595,7 +1593,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -1629,7 +1627,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -1662,7 +1660,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -1698,7 +1696,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1730,7 +1728,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -1764,7 +1762,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -1800,7 +1798,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1832,7 +1830,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -1866,7 +1864,7 @@ export class BusinessDataApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
 
@@ -1902,7 +1900,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1927,41 +1925,6 @@ export class BusinessDataApi {
         }
         return Promise.resolve<BusinessDataSocialMediaPinterestLiveResponseInfo | null>(null as any);
     }
-    socialMediaFacebookLive(body: BusinessDataSocialMediaFacebookLiveRequestInfo[]): Promise<BusinessDataSocialMediaFacebookLiveResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/business_data/social_media/facebook/live";
-        url_ = url_.replace(/[?&]$/, "");
-        const content_ = JSON.stringify(body);
-        let options_: RequestInit = {
-            body: content_,
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
-            }
-        };
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processSocialMediaFacebookLive(_response);
-        });
-    }
-
-    protected processSocialMediaFacebookLive(response: Response): Promise<BusinessDataSocialMediaFacebookLiveResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? BusinessDataSocialMediaFacebookLiveResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<BusinessDataSocialMediaFacebookLiveResponseInfo | null>(null as any);
-    }
     socialMediaRedditLive(body: BusinessDataSocialMediaRedditLiveRequestInfo[]): Promise<BusinessDataSocialMediaRedditLiveResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/business_data/social_media/reddit/live";
         url_ = url_.replace(/[?&]$/, "");
@@ -1972,7 +1935,7 @@ export class BusinessDataApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.19",
+                "User-Agent": "typescript-client/2.0.20",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {

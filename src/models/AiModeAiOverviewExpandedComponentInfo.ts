@@ -17,17 +17,13 @@ export interface IAiModeAiOverviewExpandedComponentInfo   {
         /** content of the element in markdown format */
         markdown?: string | undefined
         
-        /** images of the component
-if there are none, equals null */
+        /** images of the componentif there are none, equals null */
         images?: AiModeImagesElementInfo[] | undefined
         
-        /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+        /** sitelinksthe links shown below some of Google's search resultsif there are none, equals null */
         links?: AiModeLinkElementInfo[] | undefined
         
-        /** references relevant to the element
-includes references to webpages that were used to generate the ai_overview_element */
+        /** references relevant to the elementincludes references to webpages that were used to generate the ai_overview_element */
         references?: AiModeAiOverviewReferenceInfo[] | undefined
 
     [key: string]: any;
@@ -52,19 +48,15 @@ export class AiModeAiOverviewExpandedComponentInfo  implements IAiModeAiOverview
 
     markdown?: string | undefined;
     
-    /** images of the component
-if there are none, equals null */
+    /** images of the componentif there are none, equals null */
 
     images?: AiModeImagesElementInfo[] | undefined;
     
-    /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+    /** sitelinksthe links shown below some of Google's search resultsif there are none, equals null */
 
     links?: AiModeLinkElementInfo[] | undefined;
     
-    /** references relevant to the element
-includes references to webpages that were used to generate the ai_overview_element */
+    /** references relevant to the elementincludes references to webpages that were used to generate the ai_overview_element */
 
     references?: AiModeAiOverviewReferenceInfo[] | undefined;
 

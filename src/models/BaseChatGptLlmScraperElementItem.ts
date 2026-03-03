@@ -1,7 +1,7 @@
-import { ChatGptSource, IChatGptSource } from "./ChatGptSource";
+import { SourceInfo, ISourceInfo } from "./SourceInfo";
 import { ChatGptBrandEntity, IChatGptBrandEntity } from "./ChatGptBrandEntity";
 import { Table, ITable } from "./Table";
-import { ChatGptImagesElement, IChatGptImagesElement } from "./ChatGptImagesElement";
+import { GeminiImagesElement, IGeminiImagesElement } from "./GeminiImagesElement";
 import { ChatGptProductsElement, IChatGptProductsElement } from "./ChatGptProductsElement";
 import { ChatGptLocalBusinessesElement, IChatGptLocalBusinessesElement } from "./ChatGptLocalBusinessesElement";
 
@@ -136,7 +136,7 @@ content of the result formatted in the markdown markup language */
         markdown?: string | undefined
         
         /** array of sources */
-        sources?: ChatGptSource[] | undefined
+        sources?: SourceInfo[] | undefined
         
         /** array of brand entities
 contains information on brands mentioned in the text */
@@ -155,7 +155,7 @@ content of the result formatted in the markdown markup language */
     
     /** array of sources */
 
-    sources?: ChatGptSource[] | undefined;
+    sources?: SourceInfo[] | undefined;
     
     /** array of brand entities
 contains information on brands mentioned in the text */
@@ -181,7 +181,7 @@ contains information on brands mentioned in the text */
             if (Array.isArray(data["sources"])) {
                 this.sources = [];
                 for (let item of data["sources"]) {
-                    this.sources.push(ChatGptSource.fromJS(item));
+                    this.sources.push(SourceInfo.fromJS(item));
                 }
             }
             if (Array.isArray(data["brand_entities"])) {
@@ -341,7 +341,7 @@ export interface IChatGptNavigationListElementItem  extends IBaseChatGptLlmScrap
         title?: string | undefined
         
         /** array of sources */
-        sources?: ChatGptSource[] | undefined
+        sources?: SourceInfo[] | undefined
 
     [key: string]: any;
 
@@ -355,7 +355,7 @@ export class ChatGptNavigationListElementItem  extends BaseChatGptLlmScraperElem
     
     /** array of sources */
 
-    sources?: ChatGptSource[] | undefined;
+    sources?: SourceInfo[] | undefined;
 
     [key: string]: any;
 
@@ -376,7 +376,7 @@ export class ChatGptNavigationListElementItem  extends BaseChatGptLlmScraperElem
             if (Array.isArray(data["sources"])) {
                 this.sources = [];
                 for (let item of data["sources"]) {
-                    this.sources.push(ChatGptSource.fromJS(item));
+                    this.sources.push(SourceInfo.fromJS(item));
                 }
             }
         }
@@ -420,7 +420,7 @@ content of the result formatted in the markdown markup language */
         markdown?: string | undefined
         
         /** elements of ChatGPT results */
-        items?: ChatGptImagesElement[] | undefined
+        items?: GeminiImagesElement[] | undefined
 
     [key: string]: any;
 
@@ -435,7 +435,7 @@ content of the result formatted in the markdown markup language */
     
     /** elements of ChatGPT results */
 
-    items?: ChatGptImagesElement[] | undefined;
+    items?: GeminiImagesElement[] | undefined;
 
     [key: string]: any;
 
@@ -456,7 +456,7 @@ content of the result formatted in the markdown markup language */
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(ChatGptImagesElement.fromJS(item));
+                    this.items.push(GeminiImagesElement.fromJS(item));
                 }
             }
         }

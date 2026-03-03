@@ -133,10 +133,10 @@ learn more on our Help Center */
         postback_url?: string | undefined
         
         /** postback_url datatype
-required field if you specify postback_url
+optional field
 corresponds to the datatype that will be sent to your server
 possible values:
-advanced, html */
+advanced */
         postback_data?: string | undefined
         
         /** notification URL of a completed task
@@ -306,10 +306,10 @@ learn more on our Help Center */
     postback_url?: string | undefined;
     
     /** postback_url datatype
-required field if you specify postback_url
+optional field
 corresponds to the datatype that will be sent to your server
 possible values:
-advanced, html */
+advanced */
 
     postback_data?: string | undefined;
     

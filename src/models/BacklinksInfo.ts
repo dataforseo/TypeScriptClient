@@ -1,12 +1,13 @@
 export interface IBacklinksInfo   {
         
-        /** number of referring domains */
+        /** number of referring domains
+referring domains include subdomains that are counted as separate domains for this metric */
         referring_domains?: number | undefined
         
         /** number of referring main domains */
         referring_main_domains?: number | undefined
         
-        /** number of referring pages */
+        /** number of pages pointing to the target website */
         referring_pages?: number | undefined
         
         /** number of dofollow links */
@@ -17,7 +18,7 @@ the total number of backlinks, including dofollow and nofollow links */
         backlinks?: number | undefined
         
         /** date and time when backlink data was updated
-in the UTC format: 'yyyy-mm-dd hh-mm-ss +00:00'
+in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
 example:
 2019-11-15 12:57:46 +00:00 */
         time_update?: string | undefined
@@ -28,7 +29,8 @@ example:
 
 export class BacklinksInfo  implements IBacklinksInfo {
     
-    /** number of referring domains */
+    /** number of referring domains
+referring domains include subdomains that are counted as separate domains for this metric */
 
     referring_domains?: number | undefined;
     
@@ -36,7 +38,7 @@ export class BacklinksInfo  implements IBacklinksInfo {
 
     referring_main_domains?: number | undefined;
     
-    /** number of referring pages */
+    /** number of pages pointing to the target website */
 
     referring_pages?: number | undefined;
     
@@ -50,7 +52,7 @@ the total number of backlinks, including dofollow and nofollow links */
     backlinks?: number | undefined;
     
     /** date and time when backlink data was updated
-in the UTC format: 'yyyy-mm-dd hh-mm-ss +00:00'
+in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
 example:
 2019-11-15 12:57:46 +00:00 */
 
