@@ -18,42 +18,31 @@ export interface IAiOptimizationLlmMentionsSearchLiveItem   {
         /** relevant question */
         question?: string | undefined
         
-        /** relevant answer in markdown format
-content of the result formatted in the markdown markup language */
+        /** relevant answer in markdown formatcontent of the result formatted in the markdown markup language */
         answer?: string | undefined
         
-        /** array of sources
-the sources the model cited or relied on in its final answer */
+        /** array of sourcesthe sources the model cited or relied on in its final answer */
         sources?: Sources[] | undefined
         
-        /** array of search results
-all web search outputs the model retrieved when looking up information, including duplicates and unused entries */
+        /** array of search resultsall web search outputs the model retrieved when looking up information, including duplicates and unused entries */
         search_results?: SearchResults[] | undefined
         
-        /** current AI search volume rate of a keyword
-learn more about this metric here */
+        /** current AI search volume rate of a keywordlearn more about this metric here */
         ai_search_volume?: number | undefined
         
+        /** monthly AI search volume ratesarray of objects with AI search volume rates in a certain month of a year */
         monthly_searches?: MonthlySearchesInfo[] | undefined
         
-        /** date and time when the response data was first recorded
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2025-10-21 06:25:30 +00:00 */
+        /** date and time when the response data was first recordedin the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”example:2025-10-21 06:25:30 +00:00 */
         first_response_at?: string | undefined
         
-        /** date and time when the response data was last updated
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2025-10-21 06:25:30 +00:00 */
+        /** date and time when the response data was last updatedin the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”example:2025-10-21 06:25:30 +00:00 */
         last_response_at?: string | undefined
         
-        /** array of brand entities
-contains information on brands mentioned in the response */
+        /** array of brand entitiescontains information on brands mentioned in the response */
         brand_entities?: BrandEntities[] | undefined
         
-        /** array of fan-out queries
-contains related search queries derived from the main query to provide a more comprehensive response */
+        /** array of fan-out queriescontains related search queries derived from the main query to provide a more comprehensive response */
         fan_out_queries?: string[] | undefined
 
     [key: string]: any;
@@ -78,49 +67,39 @@ export class AiOptimizationLlmMentionsSearchLiveItem  implements IAiOptimization
 
     question?: string | undefined;
     
-    /** relevant answer in markdown format
-content of the result formatted in the markdown markup language */
+    /** relevant answer in markdown formatcontent of the result formatted in the markdown markup language */
 
     answer?: string | undefined;
     
-    /** array of sources
-the sources the model cited or relied on in its final answer */
+    /** array of sourcesthe sources the model cited or relied on in its final answer */
 
     sources?: Sources[] | undefined;
     
-    /** array of search results
-all web search outputs the model retrieved when looking up information, including duplicates and unused entries */
+    /** array of search resultsall web search outputs the model retrieved when looking up information, including duplicates and unused entries */
 
     search_results?: SearchResults[] | undefined;
     
-    /** current AI search volume rate of a keyword
-learn more about this metric here */
+    /** current AI search volume rate of a keywordlearn more about this metric here */
 
     ai_search_volume?: number | undefined;
+    
+    /** monthly AI search volume ratesarray of objects with AI search volume rates in a certain month of a year */
 
     monthly_searches?: MonthlySearchesInfo[] | undefined;
     
-    /** date and time when the response data was first recorded
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2025-10-21 06:25:30 +00:00 */
+    /** date and time when the response data was first recordedin the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”example:2025-10-21 06:25:30 +00:00 */
 
     first_response_at?: string | undefined;
     
-    /** date and time when the response data was last updated
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2025-10-21 06:25:30 +00:00 */
+    /** date and time when the response data was last updatedin the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”example:2025-10-21 06:25:30 +00:00 */
 
     last_response_at?: string | undefined;
     
-    /** array of brand entities
-contains information on brands mentioned in the response */
+    /** array of brand entitiescontains information on brands mentioned in the response */
 
     brand_entities?: BrandEntities[] | undefined;
     
-    /** array of fan-out queries
-contains related search queries derived from the main query to provide a more comprehensive response */
+    /** array of fan-out queriescontains related search queries derived from the main query to provide a more comprehensive response */
 
     fan_out_queries?: string[] | undefined;
 

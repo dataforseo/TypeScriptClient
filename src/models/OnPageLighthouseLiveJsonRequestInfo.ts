@@ -20,7 +20,7 @@ each category is a collection of audits and audit groups that applies weighting 
 if you ignore this field, we will return data for all categories unless you specify audits
 use this field to get data for specific categories you indicate here
 possible values:
-seo, pwa, performance, best_practices, accessibility */
+seo, performance, best_practices, accessibility */
         categories?: string[] | undefined
         
         /** Lighthouse audits
@@ -92,7 +92,7 @@ each category is a collection of audits and audit groups that applies weighting 
 if you ignore this field, we will return data for all categories unless you specify audits
 use this field to get data for specific categories you indicate here
 possible values:
-seo, pwa, performance, best_practices, accessibility */
+seo, performance, best_practices, accessibility */
 
     categories?: string[] | undefined;
     

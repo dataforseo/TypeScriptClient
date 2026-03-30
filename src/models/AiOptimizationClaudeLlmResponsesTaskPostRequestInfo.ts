@@ -22,7 +22,8 @@ optional field
 minimum value: 1;
 maximum value: 4096;
 default value: 2048;
-Note: if web_search is set to true or the reasoning model is specified in the request, the output token count may exceed the specified max_output_tokens limit */
+Note: if web_search is set to true or the reasoning model is specified in the request, the output token count may exceed the specified max_output_tokens limit
+Note #2: if use_reasoning is set to true, the minimum value for max_output_tokens is 1025 */
         max_output_tokens?: number | undefined
         
         /** randomness of the AI response
@@ -88,6 +89,16 @@ example:
 'message_chain': [{'role':'user','message':'Hello, what’s up?'},{'role':'ai','message':'Hello! I’m doing well, thank you. How can I assist you today?'}] */
         message_chain?: LlmMessageChainItem[] | undefined
         
+        /** enable reasoning for the AI model
+optional field
+when enabled, the model will perform reasoning before generating a response
+refer to the Models endpoint for a list of models that support reasoning
+default value: false
+Note: if set to true, the minimum value for max_output_tokens is 1025
+Note #2: if set to true, force_web_search must be set to false
+Note #3: if set to true, the temperature and top_p cannot be used */
+        use_reasoning?: boolean | undefined
+        
         /** user-defined task identifier
 optional field
 the character limit is 255
@@ -146,7 +157,8 @@ optional field
 minimum value: 1;
 maximum value: 4096;
 default value: 2048;
-Note: if web_search is set to true or the reasoning model is specified in the request, the output token count may exceed the specified max_output_tokens limit */
+Note: if web_search is set to true or the reasoning model is specified in the request, the output token count may exceed the specified max_output_tokens limit
+Note #2: if use_reasoning is set to true, the minimum value for max_output_tokens is 1025 */
 
     max_output_tokens?: number | undefined;
     
@@ -221,6 +233,17 @@ example:
 
     message_chain?: LlmMessageChainItem[] | undefined;
     
+    /** enable reasoning for the AI model
+optional field
+when enabled, the model will perform reasoning before generating a response
+refer to the Models endpoint for a list of models that support reasoning
+default value: false
+Note: if set to true, the minimum value for max_output_tokens is 1025
+Note #2: if set to true, force_web_search must be set to false
+Note #3: if set to true, the temperature and top_p cannot be used */
+
+    use_reasoning?: boolean | undefined;
+    
     /** user-defined task identifier
 optional field
 the character limit is 255
@@ -291,6 +314,7 @@ learn more on our Help Center */
                     this.message_chain.push(LlmMessageChainItem.fromJS(item));
                 }
             }
+            this.use_reasoning = data["use_reasoning"];
             this.tag = data["tag"];
             this.postback_url = data["postback_url"];
             this.pingback_url = data["pingback_url"];
@@ -330,6 +354,7 @@ learn more on our Help Center */
                 }
             }
         }
+        data["use_reasoning"] = this.use_reasoning;
         data["tag"] = this.tag;
         data["postback_url"] = this.postback_url;
         data["pingback_url"] = this.pingback_url;

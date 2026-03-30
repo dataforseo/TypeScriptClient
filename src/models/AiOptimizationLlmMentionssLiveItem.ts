@@ -3,36 +3,28 @@ import { GroupElement, IGroupElement } from "./GroupElement";
 
 export interface IAiOptimizationLlmMentionssLiveItem   {
         
-        /** URL of a found page
-the URL of a page found in LLM mentions for the specified target */
+        /** URL of a found pagethe URL of a page found in LLM mentions for the specified target */
         key?: string | undefined
         
-        /** location-based grouping
-array of objects containing page mention metrics segmented by geographical location */
+        /** location-based groupingarray of objects containing page mention metrics segmented by geographical location */
         location?: GroupElement[] | undefined
         
-        /** language-based grouping
-array of objects containing page mention metrics segmented by content language */
+        /** language-based groupingarray of objects containing page mention metrics segmented by content language */
         language?: GroupElement[] | undefined
         
-        /** platform-based grouping
-array of group elements containing page mention metrics segmented by AI platform */
+        /** platform-based groupingarray of group elements containing page mention metrics segmented by AI platform */
         platform?: GroupElement[] | undefined
         
-        /** source domains relevant to the specific page
-array of objects containing data on domains that are cited as sources in LLM responses */
+        /** source domains relevant to the specific pagearray of objects containing data on domains that are cited as sources in LLM responses */
         sources_domain?: GroupElement[] | undefined
         
-        /** search results domains relevant to the specific page
-array of objects containing data on domains that appear in search results related to LLM queries */
+        /** search results domains relevant to the specific pagearray of objects containing data on domains that appear in search results related to LLM queries */
         search_results_domain?: GroupElement[] | undefined
         
-        /** data on brand entities relevant to the target
-array of objects containing data on brand entity titles that appear in search results related to LLM queries */
+        /** data on brand entities relevant to the targetarray of objects containing data on brand entity titles that appear in search results related to LLM queries */
         brand_entities_title?: GroupElement[] | undefined
         
-        /** data on brand entities relevant to the target
-array of objects containing data on brand entity categories that appear in search results related to LLM queries */
+        /** data on brand entities relevant to the targetarray of objects containing data on brand entity categories that appear in search results related to LLM queries */
         brand_entities_category?: GroupElement[] | undefined
 
     [key: string]: any;
@@ -41,43 +33,35 @@ array of objects containing data on brand entity categories that appear in searc
 
 export class AiOptimizationLlmMentionssLiveItem  implements IAiOptimizationLlmMentionssLiveItem {
     
-    /** URL of a found page
-the URL of a page found in LLM mentions for the specified target */
+    /** URL of a found pagethe URL of a page found in LLM mentions for the specified target */
 
     key?: string | undefined;
     
-    /** location-based grouping
-array of objects containing page mention metrics segmented by geographical location */
+    /** location-based groupingarray of objects containing page mention metrics segmented by geographical location */
 
     location?: GroupElement[] | undefined;
     
-    /** language-based grouping
-array of objects containing page mention metrics segmented by content language */
+    /** language-based groupingarray of objects containing page mention metrics segmented by content language */
 
     language?: GroupElement[] | undefined;
     
-    /** platform-based grouping
-array of group elements containing page mention metrics segmented by AI platform */
+    /** platform-based groupingarray of group elements containing page mention metrics segmented by AI platform */
 
     platform?: GroupElement[] | undefined;
     
-    /** source domains relevant to the specific page
-array of objects containing data on domains that are cited as sources in LLM responses */
+    /** source domains relevant to the specific pagearray of objects containing data on domains that are cited as sources in LLM responses */
 
     sources_domain?: GroupElement[] | undefined;
     
-    /** search results domains relevant to the specific page
-array of objects containing data on domains that appear in search results related to LLM queries */
+    /** search results domains relevant to the specific pagearray of objects containing data on domains that appear in search results related to LLM queries */
 
     search_results_domain?: GroupElement[] | undefined;
     
-    /** data on brand entities relevant to the target
-array of objects containing data on brand entity titles that appear in search results related to LLM queries */
+    /** data on brand entities relevant to the targetarray of objects containing data on brand entity titles that appear in search results related to LLM queries */
 
     brand_entities_title?: GroupElement[] | undefined;
     
-    /** data on brand entities relevant to the target
-array of objects containing data on brand entity categories that appear in search results related to LLM queries */
+    /** data on brand entities relevant to the targetarray of objects containing data on brand entity categories that appear in search results related to LLM queries */
 
     brand_entities_category?: GroupElement[] | undefined;
 

@@ -9,9 +9,7 @@ export interface IAiOptimizationLlmMentionsSearchLiveResultInfo   {
         /** the number of mentions objects that are omitted in the items array */
         current_offset?: number | undefined
         
-        /** token for subsequent requests
-by specifying the unique search_after_token when setting a new task, you will get the subsequent results of the initial task;
-search_after_token values are unique for each subsequent task */
+        /** token for subsequent requestsby specifying the unique search_after_token when setting a new task, you will get the subsequent results of the initial task;search_after_token values are unique for each subsequent task */
         search_after_token?: string | undefined
         
         /** the number of results returned in the items array */
@@ -34,9 +32,7 @@ export class AiOptimizationLlmMentionsSearchLiveResultInfo  implements IAiOptimi
 
     current_offset?: number | undefined;
     
-    /** token for subsequent requests
-by specifying the unique search_after_token when setting a new task, you will get the subsequent results of the initial task;
-search_after_token values are unique for each subsequent task */
+    /** token for subsequent requestsby specifying the unique search_after_token when setting a new task, you will get the subsequent results of the initial task;search_after_token values are unique for each subsequent task */
 
     search_after_token?: string | undefined;
     

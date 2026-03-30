@@ -11,3 +11,4 @@
 **pages_by_resource** | **{ [key: string]: string; }** |  |[optional]|
 **redirect_chains** | **{ [key: string]: string; }** |  |[optional]|
 **keyword_density** | **{ [key: string]: string; }** |  |[optional]|
+**invalid_resources** | **{ [key: string]: string; }** |  |[optional]|

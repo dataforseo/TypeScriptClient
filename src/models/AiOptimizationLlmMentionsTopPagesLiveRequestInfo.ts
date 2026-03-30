@@ -93,7 +93,8 @@ optional field
 possible values:
 chat_gpt, google
 default value: google
-Note:chat_gpt data is available for the United States and English only */
+Note: the data returned depends on the selected platform
+Note #2:chat_gpt data is available for the United States and English only */
         platform?: string | undefined
         
         /** links source scope
@@ -103,8 +104,9 @@ possible values: sources, search_results
 default value: sources */
         links_scope?: string | undefined
         
-        /** array of results filtering parameters
+        /** array of filter expressions applied before aggregation
 optional field
+you can use this array to filter expressions applied to the raw mentions database before aggregation to limit the rows contributing to the result;
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
@@ -247,7 +249,8 @@ optional field
 possible values:
 chat_gpt, google
 default value: google
-Note:chat_gpt data is available for the United States and English only */
+Note: the data returned depends on the selected platform
+Note #2:chat_gpt data is available for the United States and English only */
 
     platform?: string | undefined;
     
@@ -259,8 +262,9 @@ default value: sources */
 
     links_scope?: string | undefined;
     
-    /** array of results filtering parameters
+    /** array of filter expressions applied before aggregation
 optional field
+you can use this array to filter expressions applied to the raw mentions database before aggregation to limit the rows contributing to the result;
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:

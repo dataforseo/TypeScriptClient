@@ -4,6 +4,6 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**asynchronous_ai_overview** | **boolean** | indicates whether the element is loaded asynchronously<br>if true, the ai_overview element is loaded asynchronously;<br>if false, the ai_overview element is loaded from cache |[optional]|
+**asynchronous_ai_overview** | **boolean** | indicates whether the element is loaded asynchronously<br>if true, the people_also_ask_ai_overview_expanded_element element is loaded asynchronously;<br>if false, the people_also_ask_ai_overview_expanded_element element is loaded from cache; |[optional]|
 **items** | **BaseSerpApiAiOverviewElementItem[]** | contains arrays of elements available in the list |[optional]|
 **references** | **AiModeAiOverviewReferenceInfo[]** | references relevant to the element<br>includes references to webpages that were used to generate the ai_overview_element |[optional]|

@@ -22,7 +22,8 @@ optional field
 minimum value: 1
 maximum value: 4096;
 default value: 2048;
-Note: if web_search is set to true or the reasoning model is specified in the request, the output token count may exceed the specified max_output_tokens limit */
+Note: if web_search is set to true or the reasoning model is specified in the request, the output token count may exceed the specified max_output_tokens limit
+Note #2: if use_reasoning is set to true, the minimum value for max_output_tokens is 1024 */
         max_output_tokens?: number | undefined
         
         /** randomness of the AI response
@@ -68,6 +69,15 @@ example:
 'message_chain': [{'role':'user','message':'Hello, what’s up?'},{'role':'ai','message':'Hello! I’m doing well, thank you. How can I assist you today?'}] */
         message_chain?: LlmMessageChainItem[] | undefined
         
+        /** enable reasoning for the AI model
+optional field
+when enabled, the model will perform reasoning before generating a response
+refer to the Models endpoint for a list of models that support reasoning
+default value: false
+Note: if set to true, the minimum value for max_output_tokens is 1024
+Note #2: for Gemini Pro models, the use_reasoning will automatically be set to true */
+        use_reasoning?: boolean | undefined
+        
         /** user-defined task identifier
 optional field
 the character limit is 255
@@ -102,7 +112,8 @@ optional field
 minimum value: 1
 maximum value: 4096;
 default value: 2048;
-Note: if web_search is set to true or the reasoning model is specified in the request, the output token count may exceed the specified max_output_tokens limit */
+Note: if web_search is set to true or the reasoning model is specified in the request, the output token count may exceed the specified max_output_tokens limit
+Note #2: if use_reasoning is set to true, the minimum value for max_output_tokens is 1024 */
 
     max_output_tokens?: number | undefined;
     
@@ -154,6 +165,16 @@ example:
 
     message_chain?: LlmMessageChainItem[] | undefined;
     
+    /** enable reasoning for the AI model
+optional field
+when enabled, the model will perform reasoning before generating a response
+refer to the Models endpoint for a list of models that support reasoning
+default value: false
+Note: if set to true, the minimum value for max_output_tokens is 1024
+Note #2: for Gemini Pro models, the use_reasoning will automatically be set to true */
+
+    use_reasoning?: boolean | undefined;
+    
     /** user-defined task identifier
 optional field
 the character limit is 255
@@ -195,6 +216,7 @@ you will find the specified tag value in the data object of the response */
                     this.message_chain.push(LlmMessageChainItem.fromJS(item));
                 }
             }
+            this.use_reasoning = data["use_reasoning"];
             this.tag = data["tag"];
         }
     }
@@ -229,6 +251,7 @@ you will find the specified tag value in the data object of the response */
                 }
             }
         }
+        data["use_reasoning"] = this.use_reasoning;
         data["tag"] = this.tag;
         return data;
     }

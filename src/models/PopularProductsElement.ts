@@ -13,6 +13,9 @@ export interface IPopularProductsElement   {
         /** description of the results element in SERP */
         description?: string | undefined
         
+        /** indicates whether the product is sold by multiple sellers */
+        more_sellers?: boolean | undefined
+        
         /** seller of the product */
         seller?: string | undefined
         
@@ -43,6 +46,10 @@ export class PopularProductsElement  implements IPopularProductsElement {
     /** description of the results element in SERP */
 
     description?: string | undefined;
+    
+    /** indicates whether the product is sold by multiple sellers */
+
+    more_sellers?: boolean | undefined;
     
     /** seller of the product */
 
@@ -84,6 +91,7 @@ the popularity rate based on reviews and displayed in SERP */
             this.type = data["type"];
             this.title = data["title"];
             this.description = data["description"];
+            this.more_sellers = data["more_sellers"];
             this.seller = data["seller"];
             this.image_url = data["image_url"];
             this.price = data["price"] ? PriceInfo.fromJS(data["price"]) : <any>undefined;
@@ -108,6 +116,7 @@ the popularity rate based on reviews and displayed in SERP */
         data["type"] = this.type;
         data["title"] = this.title;
         data["description"] = this.description;
+        data["more_sellers"] = this.more_sellers;
         data["seller"] = this.seller;
         data["image_url"] = this.image_url;
         data["price"] = this.price ? PriceInfo.fromJS(this.price)?.toJSON() : <any>undefined;

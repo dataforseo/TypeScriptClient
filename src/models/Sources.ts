@@ -9,8 +9,7 @@ export interface ISources   {
         /** source thumbnail */
         thumbnail?: string | undefined
         
-        /** content of the element in markdown format
-content of the result formatted in the markdown markup language */
+        /** content of the element in markdown formatcontent of the result formatted in the markdown markup language */
         markdown?: string | undefined
         
         /** position in the results */
@@ -25,10 +24,7 @@ content of the result formatted in the markdown markup language */
         /** source URL */
         url?: string | undefined
         
-        /** date and time when the result was published
-in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** date and time when the result was publishedin the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”example:2019-11-15 12:57:46 +00:00 */
         publication_date?: string | undefined
 
     [key: string]: any;
@@ -49,8 +45,7 @@ export class Sources  implements ISources {
 
     thumbnail?: string | undefined;
     
-    /** content of the element in markdown format
-content of the result formatted in the markdown markup language */
+    /** content of the element in markdown formatcontent of the result formatted in the markdown markup language */
 
     markdown?: string | undefined;
     
@@ -70,10 +65,7 @@ content of the result formatted in the markdown markup language */
 
     url?: string | undefined;
     
-    /** date and time when the result was published
-in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** date and time when the result was publishedin the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”example:2019-11-15 12:57:46 +00:00 */
 
     publication_date?: string | undefined;
 

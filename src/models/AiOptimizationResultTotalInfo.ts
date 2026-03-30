@@ -3,32 +3,25 @@ import { GroupElement, IGroupElement } from "./GroupElement";
 
 export interface IAiOptimizationResultTotalInfo   {
         
-        /** location-based grouping
-array of objects containing mention metrics segmented by geographical location */
+        /** location-based groupingarray of objects containing mention metrics segmented by geographical location */
         location?: GroupElement[] | undefined
         
-        /** language-based grouping
-array of objects containing mention metrics segmented by content language */
+        /** language-based groupingarray of objects containing mention metrics segmented by content language */
         language?: GroupElement[] | undefined
         
-        /** platform-based grouping
-array of group elements containing mention metrics segmented by AI platform */
+        /** platform-based groupingarray of group elements containing mention metrics segmented by AI platform */
         platform?: GroupElement[] | undefined
         
-        /** found source domains relevant to the target
-array of objects containing data on top domains that are cited as sources in LLM responses */
+        /** found source domains relevant to the targetarray of objects containing data on top domains that are cited as sources in LLM responses */
         sources_domain?: GroupElement[] | undefined
         
-        /** found search results domains relevant to the target
-array of objects containing data on top domains that appear in search results related to LLM queries */
+        /** found search results domains relevant to the targetarray of objects containing data on top domains that appear in search results related to LLM queries */
         search_results_domain?: GroupElement[] | undefined
         
-        /** data on brand entities relevant to the target
-array of objects containing data on brand entity titles that appear in search results related to LLM queries */
+        /** data on brand entities relevant to the targetarray of objects containing data on brand entity titles that appear in search results related to LLM queries */
         brand_entities_title?: GroupElement[] | undefined
         
-        /** data on brand entities relevant to the target
-array of objects containing data on brand entity categories that appear in search results related to LLM queries */
+        /** data on brand entities relevant to the targetarray of objects containing data on brand entity categories that appear in search results related to LLM queries */
         brand_entities_category?: GroupElement[] | undefined
 
     [key: string]: any;
@@ -37,38 +30,31 @@ array of objects containing data on brand entity categories that appear in searc
 
 export class AiOptimizationResultTotalInfo  implements IAiOptimizationResultTotalInfo {
     
-    /** location-based grouping
-array of objects containing mention metrics segmented by geographical location */
+    /** location-based groupingarray of objects containing mention metrics segmented by geographical location */
 
     location?: GroupElement[] | undefined;
     
-    /** language-based grouping
-array of objects containing mention metrics segmented by content language */
+    /** language-based groupingarray of objects containing mention metrics segmented by content language */
 
     language?: GroupElement[] | undefined;
     
-    /** platform-based grouping
-array of group elements containing mention metrics segmented by AI platform */
+    /** platform-based groupingarray of group elements containing mention metrics segmented by AI platform */
 
     platform?: GroupElement[] | undefined;
     
-    /** found source domains relevant to the target
-array of objects containing data on top domains that are cited as sources in LLM responses */
+    /** found source domains relevant to the targetarray of objects containing data on top domains that are cited as sources in LLM responses */
 
     sources_domain?: GroupElement[] | undefined;
     
-    /** found search results domains relevant to the target
-array of objects containing data on top domains that appear in search results related to LLM queries */
+    /** found search results domains relevant to the targetarray of objects containing data on top domains that appear in search results related to LLM queries */
 
     search_results_domain?: GroupElement[] | undefined;
     
-    /** data on brand entities relevant to the target
-array of objects containing data on brand entity titles that appear in search results related to LLM queries */
+    /** data on brand entities relevant to the targetarray of objects containing data on brand entity titles that appear in search results related to LLM queries */
 
     brand_entities_title?: GroupElement[] | undefined;
     
-    /** data on brand entities relevant to the target
-array of objects containing data on brand entity categories that appear in search results related to LLM queries */
+    /** data on brand entities relevant to the targetarray of objects containing data on brand entity categories that appear in search results related to LLM queries */
 
     brand_entities_category?: GroupElement[] | undefined;
 

@@ -4,12 +4,10 @@ import { AiOptimizationLlmMentionssLiveItem, IAiOptimizationLlmMentionssLiveItem
 
 export interface IAiOptimizationLlmMentionsTopPagesLiveResultInfo   {
         
-        /** aggregated mentions metrics summary
-contains overall aggregated LLM mention metrics across all found top pages, grouped by various dimensions */
+        /** aggregated mentions metrics summarycontains overall aggregated LLM mention metrics across all found top pages, grouped by various dimensions */
         total?: AiOptimizationResultTotalInfo | undefined
         
-        /** individual pages results
-array containing detailed mention metrics for each of the found top pages */
+        /** individual pages resultsarray containing detailed mention metrics for each of the found top pages */
         items?: AiOptimizationLlmMentionssLiveItem[] | undefined
 
     [key: string]: any;
@@ -18,13 +16,11 @@ array containing detailed mention metrics for each of the found top pages */
 
 export class AiOptimizationLlmMentionsTopPagesLiveResultInfo  implements IAiOptimizationLlmMentionsTopPagesLiveResultInfo {
     
-    /** aggregated mentions metrics summary
-contains overall aggregated LLM mention metrics across all found top pages, grouped by various dimensions */
+    /** aggregated mentions metrics summarycontains overall aggregated LLM mention metrics across all found top pages, grouped by various dimensions */
 
     total?: AiOptimizationResultTotalInfo | undefined;
     
-    /** individual pages results
-array containing detailed mention metrics for each of the found top pages */
+    /** individual pages resultsarray containing detailed mention metrics for each of the found top pages */
 
     items?: AiOptimizationLlmMentionssLiveItem[] | undefined;
 

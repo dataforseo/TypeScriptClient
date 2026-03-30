@@ -3,13 +3,10 @@ import { AiOptimizationResultTotalInfo, IAiOptimizationResultTotalInfo } from ".
 
 export interface IAiOptimizationLlmMentionsAggregatedMetricsLiveResultInfo   {
         
-        /** aggregated mentions metrics summary
-contains overall aggregated LLM mention metrics across all found domains, grouped by various dimensions */
+        /** aggregated mentions metrics summarycontains overall aggregated LLM mention metrics across all found domains, grouped by various dimensions */
         total?: AiOptimizationResultTotalInfo | undefined
         
-        /** individual pages results
-array containing detailed mention metrics for each of the found top pages
-in this case, equals null */
+        /** individual pages resultsarray containing detailed mention metrics for each of the found top pagesin this case, equals null */
         items?: any | undefined
 
     [key: string]: any;
@@ -18,14 +15,11 @@ in this case, equals null */
 
 export class AiOptimizationLlmMentionsAggregatedMetricsLiveResultInfo  implements IAiOptimizationLlmMentionsAggregatedMetricsLiveResultInfo {
     
-    /** aggregated mentions metrics summary
-contains overall aggregated LLM mention metrics across all found domains, grouped by various dimensions */
+    /** aggregated mentions metrics summarycontains overall aggregated LLM mention metrics across all found domains, grouped by various dimensions */
 
     total?: AiOptimizationResultTotalInfo | undefined;
     
-    /** individual pages results
-array containing detailed mention metrics for each of the found top pages
-in this case, equals null */
+    /** individual pages resultsarray containing detailed mention metrics for each of the found top pagesin this case, equals null */
 
     items?: any | undefined;
 

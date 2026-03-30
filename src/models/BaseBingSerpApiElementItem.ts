@@ -1507,6 +1507,8 @@ export interface IBingLocalPackSerpElementItem  extends IBaseBingSerpApiElementI
         /** phone number */
         phone?: string | undefined
         
+        booking_url?: string | undefined
+        
         /** relevant URL */
         url?: string | undefined
         
@@ -1546,6 +1548,8 @@ export class BingLocalPackSerpElementItem  extends BaseBingSerpApiElementItem   
     /** phone number */
 
     phone?: string | undefined;
+
+    booking_url?: string | undefined;
     
     /** relevant URL */
 
@@ -1589,6 +1593,7 @@ if true, the business listing is claimed by the owner or representative */
             this.description = data["description"];
             this.domain = data["domain"];
             this.phone = data["phone"];
+            this.booking_url = data["booking_url"];
             this.url = data["url"];
             this.is_paid = data["is_paid"];
             this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
@@ -1617,6 +1622,7 @@ if true, the business listing is claimed by the owner or representative */
         data["description"] = this.description;
         data["domain"] = this.domain;
         data["phone"] = this.phone;
+        data["booking_url"] = this.booking_url;
         data["url"] = this.url;
         data["is_paid"] = this.is_paid;
         data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;

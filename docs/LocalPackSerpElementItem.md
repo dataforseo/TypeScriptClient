@@ -10,6 +10,7 @@
 **description** | **string** | link description |[optional]|
 **domain** | **string** | domain name of the reference |[optional]|
 **phone** | **string** | phone number |[optional]|
+**booking_url** | **string** | URL of the booking page |[optional]|
 **url** | **string** | URL |[optional]|
 **is_paid** | **boolean** | indicates whether the element is an ad |[optional]|
 **rating** | **RatingInfo** | the item’s rating <br>the popularity rate based on reviews and displayed in SERP;<br>if there is none, equals null |[optional]|

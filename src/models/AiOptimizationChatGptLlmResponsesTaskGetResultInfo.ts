@@ -1,4 +1,4 @@
-import { AiOptimizationItem, IAiOptimizationItem } from "./AiOptimizationItem";
+import { BaseAiOptimizationLlmResponseElementItem, IBaseAiOptimizationLlmResponseElementItem } from "./BaseAiOptimizationLlmResponseElementItem";
 
 
 export interface IAiOptimizationChatGptLlmResponsesTaskGetResultInfo   {
@@ -13,6 +13,10 @@ total count of tokens processed */
         /** number of tokens in the output
 total count of tokens generated in the AI response */
         output_tokens?: number | undefined
+        
+        /** number of reasoning tokens
+total count of tokens used to generate reasoning content */
+        reasoning_tokens?: number | undefined
         
         /** indicates if web search was used */
         web_search?: boolean | undefined
@@ -29,7 +33,7 @@ example:
         
         /** array of response items
 contains structured AI response data */
-        items?: AiOptimizationItem[] | undefined
+        items?: BaseAiOptimizationLlmResponseElementItem[] | undefined
         
         /** array of fan-out queries
 contains related search queries derived from the main query to provide a more comprehensive response */
@@ -55,6 +59,11 @@ total count of tokens generated in the AI response */
 
     output_tokens?: number | undefined;
     
+    /** number of reasoning tokens
+total count of tokens used to generate reasoning content */
+
+    reasoning_tokens?: number | undefined;
+    
     /** indicates if web search was used */
 
     web_search?: boolean | undefined;
@@ -74,7 +83,7 @@ example:
     /** array of response items
 contains structured AI response data */
 
-    items?: AiOptimizationItem[] | undefined;
+    items?: BaseAiOptimizationLlmResponseElementItem[] | undefined;
     
     /** array of fan-out queries
 contains related search queries derived from the main query to provide a more comprehensive response */
@@ -104,13 +113,14 @@ contains related search queries derived from the main query to provide a more co
             this.model_name = data["model_name"];
             this.input_tokens = data["input_tokens"];
             this.output_tokens = data["output_tokens"];
+            this.reasoning_tokens = data["reasoning_tokens"];
             this.web_search = data["web_search"];
             this.money_spent = data["money_spent"];
             this.datetime = data["datetime"];
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(AiOptimizationItem.fromJS(item));
+                    this.items.push(BaseAiOptimizationLlmResponseElementItem.fromJS(item));
                 }
             }
             this.fan_out_queries = data["fan_out_queries"];
@@ -134,6 +144,7 @@ contains related search queries derived from the main query to provide a more co
         data["model_name"] = this.model_name;
         data["input_tokens"] = this.input_tokens;
         data["output_tokens"] = this.output_tokens;
+        data["reasoning_tokens"] = this.reasoning_tokens;
         data["web_search"] = this.web_search;
         data["money_spent"] = this.money_spent;
         data["datetime"] = this.datetime;

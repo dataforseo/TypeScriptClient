@@ -3,16 +3,13 @@ export interface IGroupElement   {
         /** type of element */
         type?: string | undefined
         
-        /** grouping identifier
-the specific identifier for the grouping dimension */
+        /** grouping identifierthe specific identifier for the grouping dimension */
         key?: string | undefined
         
-        /** total LLM mentions count
-the number of times the target keyword or domain were mentioned in relation to this specific grouping key */
+        /** total LLM mentions countthe number of times the target keyword or domain were mentioned in relation to this specific grouping key */
         mentions?: number | undefined
         
-        /** current AI search volume rate of a keyword
-learn more about this metric here */
+        /** current AI search volume rate of a keywordlearn more about this metric here */
         ai_search_volume?: number | undefined
         
         /** current AI impressions rate of a keyword */
@@ -28,18 +25,15 @@ export class GroupElement  implements IGroupElement {
 
     type?: string | undefined;
     
-    /** grouping identifier
-the specific identifier for the grouping dimension */
+    /** grouping identifierthe specific identifier for the grouping dimension */
 
     key?: string | undefined;
     
-    /** total LLM mentions count
-the number of times the target keyword or domain were mentioned in relation to this specific grouping key */
+    /** total LLM mentions countthe number of times the target keyword or domain were mentioned in relation to this specific grouping key */
 
     mentions?: number | undefined;
     
-    /** current AI search volume rate of a keyword
-learn more about this metric here */
+    /** current AI search volume rate of a keywordlearn more about this metric here */
 
     ai_search_volume?: number | undefined;
     

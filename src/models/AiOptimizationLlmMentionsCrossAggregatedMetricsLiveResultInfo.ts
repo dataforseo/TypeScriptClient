@@ -4,8 +4,7 @@ import { AiOptimizationLlmMentionssLiveItem, IAiOptimizationLlmMentionssLiveItem
 
 export interface IAiOptimizationLlmMentionsCrossAggregatedMetricsLiveResultInfo   {
         
-        /** aggregated mentions metrics summary
-contains overall aggregated LLM mention metrics across all found domains, grouped by various dimensions */
+        /** aggregated mentions metrics summarycontains overall aggregated LLM mention metrics across all found domains, grouped by various dimensions */
         total?: AiOptimizationResultTotalInfo | undefined
         
         /** contains relevant mentions data */
@@ -17,8 +16,7 @@ contains overall aggregated LLM mention metrics across all found domains, groupe
 
 export class AiOptimizationLlmMentionsCrossAggregatedMetricsLiveResultInfo  implements IAiOptimizationLlmMentionsCrossAggregatedMetricsLiveResultInfo {
     
-    /** aggregated mentions metrics summary
-contains overall aggregated LLM mention metrics across all found domains, grouped by various dimensions */
+    /** aggregated mentions metrics summarycontains overall aggregated LLM mention metrics across all found domains, grouped by various dimensions */
 
     total?: AiOptimizationResultTotalInfo | undefined;
     

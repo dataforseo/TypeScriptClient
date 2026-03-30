@@ -2,6 +2,7 @@ export interface IMerchantGoogleSellersTaskPostRequestInfo   {
         
         /** unique product identifier on Google Shopping
 required field if data_docid or gid is not specified
+we recommend specifying product_id together with data_docid and gid for optimal results;
 you can get this value for a certain product by making a separate request to the Google Shopping Products endpoint
 example:
 4485466949985702538
@@ -10,6 +11,7 @@ learn more about the parameter in this help center guide */
         
         /** unique identifier of the SERP data element
 required field if product_id or gid is not specified
+we recommend specifying data_docid together with product_id and gid for optimal results;
 you can get this value for a certain element by making a separate request to the Google Shopping Products endpoint
 example:
 13071766526042404278 */
@@ -17,6 +19,7 @@ example:
         
         /** global product identifier on Google Shopping
 required field if product_id or data_docid is not specified
+we recommend specifying gid together with product_id and data_docid for optimal results;
 you can get this value for a certain product by making a separate request to the Google Shopping Products endpoint
 example:
 4702526954592161872
@@ -159,6 +162,7 @@ export class MerchantGoogleSellersTaskPostRequestInfo  implements IMerchantGoogl
     
     /** unique product identifier on Google Shopping
 required field if data_docid or gid is not specified
+we recommend specifying product_id together with data_docid and gid for optimal results;
 you can get this value for a certain product by making a separate request to the Google Shopping Products endpoint
 example:
 4485466949985702538
@@ -168,6 +172,7 @@ learn more about the parameter in this help center guide */
     
     /** unique identifier of the SERP data element
 required field if product_id or gid is not specified
+we recommend specifying data_docid together with product_id and gid for optimal results;
 you can get this value for a certain element by making a separate request to the Google Shopping Products endpoint
 example:
 13071766526042404278 */
@@ -176,6 +181,7 @@ example:
     
     /** global product identifier on Google Shopping
 required field if product_id or data_docid is not specified
+we recommend specifying gid together with product_id and data_docid for optimal results;
 you can get this value for a certain product by making a separate request to the Google Shopping Products endpoint
 example:
 4702526954592161872
