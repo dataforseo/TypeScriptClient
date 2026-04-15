@@ -9,6 +9,11 @@ export interface IDomainAnalyticsWhoisOverviewLiveResultInfo   {
         /** the number of results returned in the items array */
         items_count?: number | undefined
         
+        /** results offset value specified in POST request */
+        offset?: number | undefined
+        
+        offset_token?: string | undefined
+        
         /** contains ranking and traffic data */
         items?: DomainAnalyticsWhoisOverviewLiveItem[] | undefined
 
@@ -25,6 +30,12 @@ export class DomainAnalyticsWhoisOverviewLiveResultInfo  implements IDomainAnaly
     /** the number of results returned in the items array */
 
     items_count?: number | undefined;
+    
+    /** results offset value specified in POST request */
+
+    offset?: number | undefined;
+
+    offset_token?: string | undefined;
     
     /** contains ranking and traffic data */
 
@@ -52,6 +63,8 @@ export class DomainAnalyticsWhoisOverviewLiveResultInfo  implements IDomainAnaly
             }
             this.total_count = data["total_count"];
             this.items_count = data["items_count"];
+            this.offset = data["offset"];
+            this.offset_token = data["offset_token"];
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
@@ -77,6 +90,8 @@ export class DomainAnalyticsWhoisOverviewLiveResultInfo  implements IDomainAnaly
         
         data["total_count"] = this.total_count;
         data["items_count"] = this.items_count;
+        data["offset"] = this.offset;
+        data["offset_token"] = this.offset_token;
         data["items"] = null;
         if (Array.isArray(this.items)) {
             data["items"] = [];

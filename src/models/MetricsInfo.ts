@@ -36,19 +36,13 @@ export interface IMetricsInfo   {
         /** number of organic SERPs where the domain ranks #91-100 */
         pos_91_100?: number | undefined
         
-        /** estimated traffic volume
-estimated organic monthly traffic to the domain
-calculated as the product of CTR (click-through-rate) and search volume values of all keywords the domain ranks for
-learn more about how the metric is calculated in this help center article */
+        /** estimated traffic volumeestimated organic monthly traffic to the domaincalculated as the product of CTR (click-through-rate) and search volume values of all keywords the domain ranks forlearn more about how the metric is calculated in this help center article */
         etv?: number | undefined
         
         /** total count of organic SERPs that contain the domain */
         count?: number | undefined
         
-        /** estimated cost of converting organic search traffic into paid
-represents the estimated monthly cost of running ads (USD) for all keywords a domain ranks for
-the metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search
-learn more about how the metric is calculated in this help center article */
+        /** estimated cost of converting organic search traffic into paidrepresents the estimated monthly cost of running ads (USD) for all keywords a domain ranks forthe metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Searchlearn more about how the metric is calculated in this help center article */
         estimated_paid_traffic_cost?: number | undefined
         
         /** number of new ranked elements
@@ -121,10 +115,7 @@ export class MetricsInfo  implements IMetricsInfo {
 
     pos_91_100?: number | undefined;
     
-    /** estimated traffic volume
-estimated organic monthly traffic to the domain
-calculated as the product of CTR (click-through-rate) and search volume values of all keywords the domain ranks for
-learn more about how the metric is calculated in this help center article */
+    /** estimated traffic volumeestimated organic monthly traffic to the domaincalculated as the product of CTR (click-through-rate) and search volume values of all keywords the domain ranks forlearn more about how the metric is calculated in this help center article */
 
     etv?: number | undefined;
     
@@ -132,10 +123,7 @@ learn more about how the metric is calculated in this help center article */
 
     count?: number | undefined;
     
-    /** estimated cost of converting organic search traffic into paid
-represents the estimated monthly cost of running ads (USD) for all keywords a domain ranks for
-the metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search
-learn more about how the metric is calculated in this help center article */
+    /** estimated cost of converting organic search traffic into paidrepresents the estimated monthly cost of running ads (USD) for all keywords a domain ranks forthe metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Searchlearn more about how the metric is calculated in this help center article */
 
     estimated_paid_traffic_cost?: number | undefined;
     

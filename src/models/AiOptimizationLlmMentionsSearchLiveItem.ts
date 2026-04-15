@@ -9,6 +9,9 @@ export interface IAiOptimizationLlmMentionsSearchLiveItem   {
         /** platform received in a POST array */
         platform?: string | undefined
         
+        /** name of the AI model from which the data was retrievedNote: for the google platform type, the value is always google_ai_overview */
+        model_name?: string | undefined
+        
         /** location code in a POST array */
         location_code?: number | undefined
         
@@ -54,6 +57,10 @@ export class AiOptimizationLlmMentionsSearchLiveItem  implements IAiOptimization
     /** platform received in a POST array */
 
     platform?: string | undefined;
+    
+    /** name of the AI model from which the data was retrievedNote: for the google platform type, the value is always google_ai_overview */
+
+    model_name?: string | undefined;
     
     /** location code in a POST array */
 
@@ -124,6 +131,7 @@ export class AiOptimizationLlmMentionsSearchLiveItem  implements IAiOptimization
                     this[property] = data[property];
             }
             this.platform = data["platform"];
+            this.model_name = data["model_name"];
             this.location_code = data["location_code"];
             this.language_code = data["language_code"];
             this.question = data["question"];
@@ -174,6 +182,7 @@ export class AiOptimizationLlmMentionsSearchLiveItem  implements IAiOptimization
         
         
         data["platform"] = this.platform;
+        data["model_name"] = this.model_name;
         data["location_code"] = this.location_code;
         data["language_code"] = this.language_code;
         data["question"] = this.question;

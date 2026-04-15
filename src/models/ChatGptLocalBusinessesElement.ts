@@ -27,8 +27,7 @@ export interface IChatGptLocalBusinessesElement   {
         /** domain */
         domain?: string | undefined
         
-        /** rating of the corresponding local business
-popularity rate based on reviews as displayed in the results */
+        /** rating of the corresponding local businesspopularity rate based on reviews as displayed in the results */
         rating?: RatingInfo | undefined
 
     [key: string]: any;
@@ -69,8 +68,7 @@ export class ChatGptLocalBusinessesElement  implements IChatGptLocalBusinessesEl
 
     domain?: string | undefined;
     
-    /** rating of the corresponding local business
-popularity rate based on reviews as displayed in the results */
+    /** rating of the corresponding local businesspopularity rate based on reviews as displayed in the results */
 
     rating?: RatingInfo | undefined;
 

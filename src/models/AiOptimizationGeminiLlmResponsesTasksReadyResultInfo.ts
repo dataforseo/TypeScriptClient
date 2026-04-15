@@ -1,7 +1,6 @@
 export interface IAiOptimizationGeminiLlmResponsesTasksReadyResultInfo   {
         
-        /** task identifier of the completed task
-unique task identifier in our system in the UUID format */
+        /** task identifier of the completed taskunique task identifier in our system in the UUID format */
         id?: string | undefined
         
         /** LLM model specified when setting the task */
@@ -24,8 +23,7 @@ unique task identifier in our system in the UUID format */
 
 export class AiOptimizationGeminiLlmResponsesTasksReadyResultInfo  implements IAiOptimizationGeminiLlmResponsesTasksReadyResultInfo {
     
-    /** task identifier of the completed task
-unique task identifier in our system in the UUID format */
+    /** task identifier of the completed taskunique task identifier in our system in the UUID format */
 
     id?: string | undefined;
     

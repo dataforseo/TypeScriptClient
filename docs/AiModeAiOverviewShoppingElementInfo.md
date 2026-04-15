@@ -6,6 +6,8 @@
 |------------ | ------------- | ------------- | -------------|
 **type** | **string** | type of element |[optional]|
 **product_id** | **string** |  |[optional]|
+**data_docid** | **string** |  |[optional]|
+**gid** | **string** |  |[optional]|
 **title** | **string** | title of the element |[optional]|
 **url** | **string** | reference page URL |[optional]|
 **domain** | **string** | domain in link |[optional]|

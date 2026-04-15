@@ -6,12 +6,10 @@ export interface IAiOptimizationAiKeywordDataKeywordsSearchVolumeLiveItem   {
         /** specified keyword */
         keyword?: string | undefined
         
-        /** current AI search volume rate of a keyword
-learn more about this metric here */
+        /** current AI search volume rate of a keywordlearn more about this metric here */
         ai_search_volume?: number | undefined
         
-        /** monthly AI search volume rates
-array of objects with AI search volume rates in a certain month of a year */
+        /** monthly AI search volume ratesarray of objects with AI search volume rates in a certain month of a year */
         ai_monthly_searches?: AiMonthlySearches[] | undefined
 
     [key: string]: any;
@@ -24,13 +22,11 @@ export class AiOptimizationAiKeywordDataKeywordsSearchVolumeLiveItem  implements
 
     keyword?: string | undefined;
     
-    /** current AI search volume rate of a keyword
-learn more about this metric here */
+    /** current AI search volume rate of a keywordlearn more about this metric here */
 
     ai_search_volume?: number | undefined;
     
-    /** monthly AI search volume rates
-array of objects with AI search volume rates in a certain month of a year */
+    /** monthly AI search volume ratesarray of objects with AI search volume rates in a certain month of a year */
 
     ai_monthly_searches?: AiMonthlySearches[] | undefined;
 

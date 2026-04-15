@@ -21,14 +21,10 @@ export interface ISourceInfo   {
         /** source name */
         source_name?: string | undefined
         
-        /** date and time when the result was published
-in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** date and time when the result was publishedin the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”example:2019-11-15 12:57:46 +00:00 */
         publication_date?: string | undefined
         
-        /** content of the element in markdown format
-content of the result formatted in the markdown markup language */
+        /** content of the element in markdown formatcontent of the result formatted in the markdown markup language */
         markdown?: string | undefined
 
     [key: string]: any;
@@ -65,15 +61,11 @@ export class SourceInfo  implements ISourceInfo {
 
     source_name?: string | undefined;
     
-    /** date and time when the result was published
-in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** date and time when the result was publishedin the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”example:2019-11-15 12:57:46 +00:00 */
 
     publication_date?: string | undefined;
     
-    /** content of the element in markdown format
-content of the result formatted in the markdown markup language */
+    /** content of the element in markdown formatcontent of the result formatted in the markdown markup language */
 
     markdown?: string | undefined;
 

@@ -1,8 +1,6 @@
 export interface IResultAvailableLanguages   {
         
-        /** supported LLM platforms
-contains the sources of data supported for a specific location and language combination
-only google and chat_gpt are currently available */
+        /** supported LLM platformscontains the sources of data supported for a specific location and language combinationonly google and chat_gpt are currently available */
         available_platforms?: string[] | undefined
         
         /** language name */
@@ -11,8 +9,7 @@ only google and chat_gpt are currently available */
         /** language code according to ISO 639-1 */
         language_code?: string | undefined
         
-        /** number of LLM responses
-the number of LLM responses available in the database for the certain location and language parameters */
+        /** number of LLM responsesthe number of LLM responses available in the database for the certain location and language parameters */
         responses_count?: number | undefined
 
     [key: string]: any;
@@ -21,9 +18,7 @@ the number of LLM responses available in the database for the certain location a
 
 export class ResultAvailableLanguages  implements IResultAvailableLanguages {
     
-    /** supported LLM platforms
-contains the sources of data supported for a specific location and language combination
-only google and chat_gpt are currently available */
+    /** supported LLM platformscontains the sources of data supported for a specific location and language combinationonly google and chat_gpt are currently available */
 
     available_platforms?: string[] | undefined;
     
@@ -35,8 +30,7 @@ only google and chat_gpt are currently available */
 
     language_code?: string | undefined;
     
-    /** number of LLM responses
-the number of LLM responses available in the database for the certain location and language parameters */
+    /** number of LLM responsesthe number of LLM responses available in the database for the certain location and language parameters */
 
     responses_count?: number | undefined;
 

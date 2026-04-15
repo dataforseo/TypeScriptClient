@@ -1,14 +1,12 @@
 export interface IAiOptimizationChatGptLlmScraperTasksReadyResultInfo   {
         
-        /** task identifier of the completed task
-unique task identifier in our system in the UUID format */
+        /** task identifier of the completed taskunique task identifier in our system in the UUID format */
         id?: string | undefined
         
         /** search engine specified when setting the task */
         se?: string | undefined
         
-        /** type of search engine
-example: llm_scraper */
+        /** type of search engineexample: llm_scraper */
         se_type?: string | undefined
         
         /** date when the task was posted (in the UTC format) */
@@ -17,16 +15,13 @@ example: llm_scraper */
         /** user-defined task identifier */
         tag?: string | undefined
         
-        /** URL for collecting the results of the Regular task
-if the Regular function is not supported in the specified endpoint, the value will be null */
+        /** URL for collecting the results of the Regular taskif the Regular function is not supported in the specified endpoint, the value will be null */
         endpoint_regular?: string | undefined
         
-        /** URL for collecting the results of the Advanced task
-if the Advanced function is not supported in the specified endpoint, the value will be null */
+        /** URL for collecting the results of the Advanced taskif the Advanced function is not supported in the specified endpoint, the value will be null */
         endpoint_advanced?: string | undefined
         
-        /** URL for collecting the results of the HTML task
-if the HTML function is not supported in the specified endpoint, the value will be null */
+        /** URL for collecting the results of the HTML taskif the HTML function is not supported in the specified endpoint, the value will be null */
         endpoint_html?: string | undefined
 
     [key: string]: any;
@@ -35,8 +30,7 @@ if the HTML function is not supported in the specified endpoint, the value will 
 
 export class AiOptimizationChatGptLlmScraperTasksReadyResultInfo  implements IAiOptimizationChatGptLlmScraperTasksReadyResultInfo {
     
-    /** task identifier of the completed task
-unique task identifier in our system in the UUID format */
+    /** task identifier of the completed taskunique task identifier in our system in the UUID format */
 
     id?: string | undefined;
     
@@ -44,8 +38,7 @@ unique task identifier in our system in the UUID format */
 
     se?: string | undefined;
     
-    /** type of search engine
-example: llm_scraper */
+    /** type of search engineexample: llm_scraper */
 
     se_type?: string | undefined;
     
@@ -57,18 +50,15 @@ example: llm_scraper */
 
     tag?: string | undefined;
     
-    /** URL for collecting the results of the Regular task
-if the Regular function is not supported in the specified endpoint, the value will be null */
+    /** URL for collecting the results of the Regular taskif the Regular function is not supported in the specified endpoint, the value will be null */
 
     endpoint_regular?: string | undefined;
     
-    /** URL for collecting the results of the Advanced task
-if the Advanced function is not supported in the specified endpoint, the value will be null */
+    /** URL for collecting the results of the Advanced taskif the Advanced function is not supported in the specified endpoint, the value will be null */
 
     endpoint_advanced?: string | undefined;
     
-    /** URL for collecting the results of the HTML task
-if the HTML function is not supported in the specified endpoint, the value will be null */
+    /** URL for collecting the results of the HTML taskif the HTML function is not supported in the specified endpoint, the value will be null */
 
     endpoint_html?: string | undefined;
 

@@ -9,6 +9,10 @@ export interface IAiModeAiOverviewShoppingElementInfo   {
         
         product_id?: string | undefined
         
+        data_docid?: string | undefined
+        
+        gid?: string | undefined
+        
         /** title of the element */
         title?: string | undefined
         
@@ -59,6 +63,10 @@ export class AiModeAiOverviewShoppingElementInfo  implements IAiModeAiOverviewSh
     type?: string | undefined;
 
     product_id?: string | undefined;
+
+    data_docid?: string | undefined;
+
+    gid?: string | undefined;
     
     /** title of the element */
 
@@ -131,6 +139,8 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
             }
             this.type = data["type"];
             this.product_id = data["product_id"];
+            this.data_docid = data["data_docid"];
+            this.gid = data["gid"];
             this.title = data["title"];
             this.url = data["url"];
             this.domain = data["domain"];
@@ -160,6 +170,8 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
         
         data["type"] = this.type;
         data["product_id"] = this.product_id;
+        data["data_docid"] = this.data_docid;
+        data["gid"] = this.gid;
         data["title"] = this.title;
         data["url"] = this.url;
         data["domain"] = this.domain;

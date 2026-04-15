@@ -13,22 +13,19 @@ export interface IChatGptProductsElement   {
         /** merchant(s) offering the product */
         merchants?: string | undefined
         
-        /** product identifier token
-Base64-encoded token containing Google Shopping product IDs associated with the product */
+        /** product identifier tokenBase64-encoded token containing Google Shopping product IDs associated with the product */
         id_to_token_map?: string | undefined
         
         /** title of the element */
         title?: string | undefined
         
-        /** rating of the corresponding local business
-popularity rate based on reviews as displayed in the results */
+        /** rating of the corresponding local businesspopularity rate based on reviews as displayed in the results */
         rating?: RatingInfo | undefined
         
         /** product price */
         price?: number | undefined
         
-        /** currency of the listed price
-ISO code of the currency applied to the price */
+        /** currency of the listed priceISO code of the currency applied to the price */
         currency?: string | undefined
         
         /** tag text */
@@ -40,12 +37,10 @@ ISO code of the currency applied to the price */
         /** domain */
         domain?: string | undefined
         
-        /** image URLs of the element
-contains URLs leading to the images on the original resource or DataForSEO storage (in case the original source is not available) */
+        /** image URLs of the elementcontains URLs leading to the images on the original resource or DataForSEO storage (in case the original source is not available) */
         images?: string[] | undefined
         
-        /** Google Shopping product identifiers
-array of Google Shopping product IDs associated with the product */
+        /** Google Shopping product identifiersarray of Google Shopping product IDs associated with the product */
         product_ids?: ChatGptGoogleShoppingProduct[] | undefined
 
     [key: string]: any;
@@ -66,8 +61,7 @@ export class ChatGptProductsElement  implements IChatGptProductsElement {
 
     merchants?: string | undefined;
     
-    /** product identifier token
-Base64-encoded token containing Google Shopping product IDs associated with the product */
+    /** product identifier tokenBase64-encoded token containing Google Shopping product IDs associated with the product */
 
     id_to_token_map?: string | undefined;
     
@@ -75,8 +69,7 @@ Base64-encoded token containing Google Shopping product IDs associated with the 
 
     title?: string | undefined;
     
-    /** rating of the corresponding local business
-popularity rate based on reviews as displayed in the results */
+    /** rating of the corresponding local businesspopularity rate based on reviews as displayed in the results */
 
     rating?: RatingInfo | undefined;
     
@@ -84,8 +77,7 @@ popularity rate based on reviews as displayed in the results */
 
     price?: number | undefined;
     
-    /** currency of the listed price
-ISO code of the currency applied to the price */
+    /** currency of the listed priceISO code of the currency applied to the price */
 
     currency?: string | undefined;
     
@@ -101,13 +93,11 @@ ISO code of the currency applied to the price */
 
     domain?: string | undefined;
     
-    /** image URLs of the element
-contains URLs leading to the images on the original resource or DataForSEO storage (in case the original source is not available) */
+    /** image URLs of the elementcontains URLs leading to the images on the original resource or DataForSEO storage (in case the original source is not available) */
 
     images?: string[] | undefined;
     
-    /** Google Shopping product identifiers
-array of Google Shopping product IDs associated with the product */
+    /** Google Shopping product identifiersarray of Google Shopping product IDs associated with the product */
 
     product_ids?: ChatGptGoogleShoppingProduct[] | undefined;
 

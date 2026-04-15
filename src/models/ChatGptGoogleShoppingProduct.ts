@@ -3,55 +3,43 @@ export interface IChatGptGoogleShoppingProduct   {
         /** type of element */
         type?: string | undefined
         
-        /** event identifier
-internal event identifier used by Google */
+        /** event identifierinternal event identifier used by Google */
         ei?: string | undefined
         
-        /** product identifier
-can be used as a data_docid in Google Shopping API endpoints */
+        /** product identifiercan be used as a data_docid in Google Shopping API endpoints */
         product_id?: string | undefined
         
-        /** Google Shopping catalog identifier of the product
-can be used as a product_id in Google Shopping API endpoints */
+        /** Google Shopping catalog identifier of the productcan be used as a product_id in Google Shopping API endpoints */
         catalog_id?: string | undefined
         
-        /** Google product cluster identifier
-can be used as a gid in Google Shopping API endpoints */
+        /** Google product cluster identifiercan be used as a gid in Google Shopping API endpoints */
         gpcid?: string | undefined
         
-        /** document identifier of the main offer in the headline
-can be used as a data_docid in Google Shopping API endpoints */
+        /** document identifier of the main offer in the headlinecan be used as a data_docid in Google Shopping API endpoints */
         headline_offer_docid?: string | undefined
         
         /** identifier for the displayed product’s image */
         image_docid?: string | undefined
         
-        /** resource descriptor string 
-internal Google resource descriptor string that identifies the product within Google’s Shopping index */
+        /** resource descriptor string internal Google resource descriptor string that identifies the product within Google's Shopping index */
         rds?: string | undefined
         
-        /** search query
-search query used by ChatGPT to retrieve the product from Google Shopping */
+        /** search querysearch query used by ChatGPT to retrieve the product from Google Shopping */
         query?: string | undefined
         
-        /** merchant identifier
-identifier of the seller or merchant account in Google Shopping */
+        /** merchant identifieridentifier of the seller or merchant account in Google Shopping */
         mid?: string | undefined
         
-        /** product view type
-internal Google parameter that specifies the product view type used when rendering the product item */
+        /** product view typeinternal Google parameter that specifies the product view type used when rendering the product item */
         pvt?: string | undefined
         
-        /** encoded location parameter
-indicates the location for a search */
+        /** encoded location parameterindicates the location for a search */
         uule?: string | undefined
         
-        /** country code
-indicates the location for which search results are displayed */
+        /** country codeindicates the location for which search results are displayed */
         gl?: string | undefined
         
-        /** host language code
-indicates the language in which search results are displayed */
+        /** host language codeindicates the language in which search results are displayed */
         hl?: string | undefined
 
     [key: string]: any;
@@ -64,28 +52,23 @@ export class ChatGptGoogleShoppingProduct  implements IChatGptGoogleShoppingProd
 
     type?: string | undefined;
     
-    /** event identifier
-internal event identifier used by Google */
+    /** event identifierinternal event identifier used by Google */
 
     ei?: string | undefined;
     
-    /** product identifier
-can be used as a data_docid in Google Shopping API endpoints */
+    /** product identifiercan be used as a data_docid in Google Shopping API endpoints */
 
     product_id?: string | undefined;
     
-    /** Google Shopping catalog identifier of the product
-can be used as a product_id in Google Shopping API endpoints */
+    /** Google Shopping catalog identifier of the productcan be used as a product_id in Google Shopping API endpoints */
 
     catalog_id?: string | undefined;
     
-    /** Google product cluster identifier
-can be used as a gid in Google Shopping API endpoints */
+    /** Google product cluster identifiercan be used as a gid in Google Shopping API endpoints */
 
     gpcid?: string | undefined;
     
-    /** document identifier of the main offer in the headline
-can be used as a data_docid in Google Shopping API endpoints */
+    /** document identifier of the main offer in the headlinecan be used as a data_docid in Google Shopping API endpoints */
 
     headline_offer_docid?: string | undefined;
     
@@ -93,38 +76,31 @@ can be used as a data_docid in Google Shopping API endpoints */
 
     image_docid?: string | undefined;
     
-    /** resource descriptor string 
-internal Google resource descriptor string that identifies the product within Google’s Shopping index */
+    /** resource descriptor string internal Google resource descriptor string that identifies the product within Google's Shopping index */
 
     rds?: string | undefined;
     
-    /** search query
-search query used by ChatGPT to retrieve the product from Google Shopping */
+    /** search querysearch query used by ChatGPT to retrieve the product from Google Shopping */
 
     query?: string | undefined;
     
-    /** merchant identifier
-identifier of the seller or merchant account in Google Shopping */
+    /** merchant identifieridentifier of the seller or merchant account in Google Shopping */
 
     mid?: string | undefined;
     
-    /** product view type
-internal Google parameter that specifies the product view type used when rendering the product item */
+    /** product view typeinternal Google parameter that specifies the product view type used when rendering the product item */
 
     pvt?: string | undefined;
     
-    /** encoded location parameter
-indicates the location for a search */
+    /** encoded location parameterindicates the location for a search */
 
     uule?: string | undefined;
     
-    /** country code
-indicates the location for which search results are displayed */
+    /** country codeindicates the location for which search results are displayed */
 
     gl?: string | undefined;
     
-    /** host language code
-indicates the language in which search results are displayed */
+    /** host language codeindicates the language in which search results are displayed */
 
     hl?: string | undefined;
 

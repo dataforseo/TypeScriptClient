@@ -227,6 +227,11 @@ export interface ISerpApiPeopleAlsoAskAiOverviewExpandedElementItem  extends IBa
         /** additional references relevant to the item
 includes references to webpages that may have been used to generate the ai_overview */
         references?: AiModeAiOverviewReferenceInfo[] | undefined
+        
+        /** indicates whether the element is loaded asynchronously
+if true, the people_also_ask_ai_overview_expanded_element element is loaded asynchronously;
+if false, the people_also_ask_ai_overview_expanded_element element is loaded from cache */
+        asynchronous_ai_overview?: boolean | undefined
 
     [key: string]: any;
 
@@ -242,6 +247,12 @@ export class SerpApiPeopleAlsoAskAiOverviewExpandedElementItem  extends BaseSerp
 includes references to webpages that may have been used to generate the ai_overview */
 
     references?: AiModeAiOverviewReferenceInfo[] | undefined;
+    
+    /** indicates whether the element is loaded asynchronously
+if true, the people_also_ask_ai_overview_expanded_element element is loaded asynchronously;
+if false, the people_also_ask_ai_overview_expanded_element element is loaded from cache */
+
+    asynchronous_ai_overview?: boolean | undefined;
 
     [key: string]: any;
 
@@ -270,6 +281,7 @@ includes references to webpages that may have been used to generate the ai_overv
                     this.references.push(AiModeAiOverviewReferenceInfo.fromJS(item));
                 }
             }
+            this.asynchronous_ai_overview = data["asynchronous_ai_overview"];
         }
     }
 
@@ -307,6 +319,7 @@ includes references to webpages that may have been used to generate the ai_overv
                 }
             }
         }
+        data["asynchronous_ai_overview"] = this.asynchronous_ai_overview;
         return data;
     }
 }

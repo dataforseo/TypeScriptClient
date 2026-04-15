@@ -4,8 +4,7 @@ import { BaseGeminiLlmScraperElementItem, IBaseGeminiLlmScraperElementItem } fro
 
 export interface IAiOptimizationGeminiLlmScraperTaskGetAdvancedResultInfo   {
         
-        /** keyword received in a POST array
-the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character) */
+        /** keyword received in a POST arraythe keyword is returned with decoded %## (plus symbol '+' will be decoded to a space character) */
         keyword?: string | undefined
         
         /** location code in a POST array */
@@ -17,27 +16,19 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
         /** indicates the model version */
         model?: string | undefined
         
-        /** date and time when the result was received
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** date and time when the result was receivedin the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”example:2019-11-15 12:57:46 +00:00 */
         datetime?: string | undefined
         
-        /** content of the element in markdown format
-content of the result formatted in the markdown markup language */
+        /** content of the element in markdown formatcontent of the result formatted in the markdown markup language */
         markdown?: string | undefined
         
-        /** array of sources
-the sources the model actually cited or relied on in its final answer */
+        /** array of sourcesthe sources the model actually cited or relied on in its final answer */
         sources?: SourceInfo[] | undefined
         
         /** total number of results */
         se_results_count?: number | undefined
         
-        /** types of search results
-contains types of search results (items) found in SERP.
-possible item types:
-gemini_text, gemini_table, gemini_images */
+        /** types of search resultscontains types of search results (items) found in SERP.possible item types:gemini_text, gemini_table, gemini_images */
         item_types?: string[] | undefined
         
         /** the number of results returned in the items array */
@@ -52,8 +43,7 @@ gemini_text, gemini_table, gemini_images */
 
 export class AiOptimizationGeminiLlmScraperTaskGetAdvancedResultInfo  implements IAiOptimizationGeminiLlmScraperTaskGetAdvancedResultInfo {
     
-    /** keyword received in a POST array
-the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character) */
+    /** keyword received in a POST arraythe keyword is returned with decoded %## (plus symbol '+' will be decoded to a space character) */
 
     keyword?: string | undefined;
     
@@ -69,20 +59,15 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
     model?: string | undefined;
     
-    /** date and time when the result was received
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** date and time when the result was receivedin the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”example:2019-11-15 12:57:46 +00:00 */
 
     datetime?: string | undefined;
     
-    /** content of the element in markdown format
-content of the result formatted in the markdown markup language */
+    /** content of the element in markdown formatcontent of the result formatted in the markdown markup language */
 
     markdown?: string | undefined;
     
-    /** array of sources
-the sources the model actually cited or relied on in its final answer */
+    /** array of sourcesthe sources the model actually cited or relied on in its final answer */
 
     sources?: SourceInfo[] | undefined;
     
@@ -90,10 +75,7 @@ the sources the model actually cited or relied on in its final answer */
 
     se_results_count?: number | undefined;
     
-    /** types of search results
-contains types of search results (items) found in SERP.
-possible item types:
-gemini_text, gemini_table, gemini_images */
+    /** types of search resultscontains types of search results (items) found in SERP.possible item types:gemini_text, gemini_table, gemini_images */
 
     item_types?: string[] | undefined;
     

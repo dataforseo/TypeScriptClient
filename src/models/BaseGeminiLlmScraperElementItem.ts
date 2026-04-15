@@ -8,17 +8,13 @@ export interface IBaseGeminiLlmScraperElementItem   {
         /** type of element */
         type?: string | undefined
         
-        /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+        /** group rank in SERPposition within a group of elements with identical type valuespositions of elements with different type values are omitted from rank_group */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP */
+        /** absolute rank in SERPabsolute position among all the elements in SERP */
         rank_absolute?: number | undefined
         
-        /** content of the element in markdown format
-content of the result formatted in the markdown markup language */
+        /** content of the element in markdown formatcontent of the result formatted in the markdown markup language */
         markdown?: string | undefined
 
     [key: string]: any;
@@ -31,19 +27,15 @@ export class BaseGeminiLlmScraperElementItem  implements IBaseGeminiLlmScraperEl
 
     type?: string | undefined;
     
-    /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+    /** group rank in SERPposition within a group of elements with identical type valuespositions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP */
+    /** absolute rank in SERPabsolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
     
-    /** content of the element in markdown format
-content of the result formatted in the markdown markup language */
+    /** content of the element in markdown formatcontent of the result formatted in the markdown markup language */
 
     markdown?: string | undefined;
 
@@ -202,8 +194,7 @@ export interface IGeminiTableElementItem  extends IBaseGeminiLlmScraperElementIt
         /** unformatted text content of the element */
         original_text?: string | undefined
         
-        /** table present in the element
-the header and content of the table present in the element */
+        /** table present in the elementthe header and content of the table present in the element */
         table?: Table | undefined
 
     [key: string]: any;
@@ -216,8 +207,7 @@ export class GeminiTableElementItem  extends BaseGeminiLlmScraperElementItem   i
 
     original_text?: string | undefined;
     
-    /** table present in the element
-the header and content of the table present in the element */
+    /** table present in the elementthe header and content of the table present in the element */
 
     table?: Table | undefined;
 

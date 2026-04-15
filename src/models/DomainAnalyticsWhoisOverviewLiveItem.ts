@@ -7,53 +7,31 @@ export interface IDomainAnalyticsWhoisOverviewLiveItem   {
         /** domain name */
         domain?: string | undefined
         
-        /** date and time of registration
-date and time (in the ISO 8601 format) when the domain was first registered
-example:
-'1997-03-29 03:00:00 +00:00' */
+        /** date and time of registrationdate and time (in the ISO 8601 format) when the domain was first registered example: '1997-03-29 03:00:00 +00:00' */
         created_datetime?: string | undefined
         
-        /** date and time when the domain entry was changed
-date and time (in the ISO 8601 format) when the domain entry was last modified
-example:
-'2021-01-14 08:36:28 +00:00' */
+        /** date and time when the domain entry was changeddate and time (in the ISO 8601 format) when the domain entry was last modifiedexample: '2021-01-14 08:36:28 +00:00' */
         changed_datetime?: string | undefined
         
-        /** date and time when the domain will expire
-date and time (in the ISO 8601 format) when the domain is due to expire
-example:
-'2022-11-26 17:21:23 +00:00' */
+        /** date and time when the domain will expiredate and time (in the ISO 8601 format) when the domain is due to expire example: '2022-11-26 17:21:23 +00:00' */
         expiration_datetime?: string | undefined
         
-        /** date and time when the domain was updated
-date and time (in the ISO 8601 format) when the domain was last updated
-example:
-'2021-01-29 13:59:38 +00:00' */
+        /** date and time when the domain was updateddate and time (in the ISO 8601 format) when the domain was last updated example: '2021-01-29 13:59:38 +00:00' */
         updated_datetime?: string | undefined
         
-        /** date and time when our crawler found the domain for the first time
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-'2019-11-15 12:57:46 +00:00' */
+        /** date and time when our crawler found the domain for the first timein the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”example: '2019-11-15 12:57:46 +00:00' */
         first_seen?: string | undefined
         
-        /** extensive provisioning protocol status codes
-the status of a domain name registration as defined by ICANN */
+        /** extensive provisioning protocol status codesthe status of a domain name registration as defined by ICANN */
         epp_status_codes?: string[] | undefined
         
-        /** top-level domain
-top-level domain in the DNS root zone */
+        /** top-level domaintop-level domain in the DNS root zone */
         tld?: string | undefined
         
-        /** domain registration status
-if false, the domain name registration has expired
-Note: expired domains will remain in the database for only a short period of time */
+        /** domain registration statusif false, the domain name registration has expiredNote: expired domains will remain in the database for only a short period of time */
         registered?: boolean | undefined
         
-        /** domain registrar
-if null, the domain registrar is unknown
-example:
-NameCheap, Inc. */
+        /** domain registrarif null, the domain registrar is unknownexample:NameCheap, Inc. */
         registrar?: string | undefined
         
         /** ranking data relevant to the specified domain */
@@ -72,61 +50,39 @@ export class DomainAnalyticsWhoisOverviewLiveItem  implements IDomainAnalyticsWh
 
     domain?: string | undefined;
     
-    /** date and time of registration
-date and time (in the ISO 8601 format) when the domain was first registered
-example:
-'1997-03-29 03:00:00 +00:00' */
+    /** date and time of registrationdate and time (in the ISO 8601 format) when the domain was first registered example: '1997-03-29 03:00:00 +00:00' */
 
     created_datetime?: string | undefined;
     
-    /** date and time when the domain entry was changed
-date and time (in the ISO 8601 format) when the domain entry was last modified
-example:
-'2021-01-14 08:36:28 +00:00' */
+    /** date and time when the domain entry was changeddate and time (in the ISO 8601 format) when the domain entry was last modifiedexample: '2021-01-14 08:36:28 +00:00' */
 
     changed_datetime?: string | undefined;
     
-    /** date and time when the domain will expire
-date and time (in the ISO 8601 format) when the domain is due to expire
-example:
-'2022-11-26 17:21:23 +00:00' */
+    /** date and time when the domain will expiredate and time (in the ISO 8601 format) when the domain is due to expire example: '2022-11-26 17:21:23 +00:00' */
 
     expiration_datetime?: string | undefined;
     
-    /** date and time when the domain was updated
-date and time (in the ISO 8601 format) when the domain was last updated
-example:
-'2021-01-29 13:59:38 +00:00' */
+    /** date and time when the domain was updateddate and time (in the ISO 8601 format) when the domain was last updated example: '2021-01-29 13:59:38 +00:00' */
 
     updated_datetime?: string | undefined;
     
-    /** date and time when our crawler found the domain for the first time
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-'2019-11-15 12:57:46 +00:00' */
+    /** date and time when our crawler found the domain for the first timein the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”example: '2019-11-15 12:57:46 +00:00' */
 
     first_seen?: string | undefined;
     
-    /** extensive provisioning protocol status codes
-the status of a domain name registration as defined by ICANN */
+    /** extensive provisioning protocol status codesthe status of a domain name registration as defined by ICANN */
 
     epp_status_codes?: string[] | undefined;
     
-    /** top-level domain
-top-level domain in the DNS root zone */
+    /** top-level domaintop-level domain in the DNS root zone */
 
     tld?: string | undefined;
     
-    /** domain registration status
-if false, the domain name registration has expired
-Note: expired domains will remain in the database for only a short period of time */
+    /** domain registration statusif false, the domain name registration has expiredNote: expired domains will remain in the database for only a short period of time */
 
     registered?: boolean | undefined;
     
-    /** domain registrar
-if null, the domain registrar is unknown
-example:
-NameCheap, Inc. */
+    /** domain registrarif null, the domain registrar is unknownexample:NameCheap, Inc. */
 
     registrar?: string | undefined;
     

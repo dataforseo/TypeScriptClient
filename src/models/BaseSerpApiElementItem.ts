@@ -7507,8 +7507,8 @@ action:listen_artist */
 export interface IKnowledgeGraphAiOverviewItemSerpElementItem  extends IBaseSerpApiElementItem    {
         
         /** indicates whether the element is loaded asynchronously
-if true, the people_also_ask_ai_overview_expanded_element element is loaded asynchronously;
-if false, the people_also_ask_ai_overview_expanded_element element is loaded from cache; */
+if true, the ai_overview element is loaded asynchronously;
+if false, the ai_overview element is loaded from cache */
         asynchronous_ai_overview?: boolean | undefined
         
         /** contains arrays of elements available in the list */
@@ -7525,8 +7525,8 @@ includes references to webpages that were used to generate the ai_overview_eleme
 export class KnowledgeGraphAiOverviewItemSerpElementItem  extends BaseSerpApiElementItem   implements IKnowledgeGraphAiOverviewItemSerpElementItem {
     
     /** indicates whether the element is loaded asynchronously
-if true, the people_also_ask_ai_overview_expanded_element element is loaded asynchronously;
-if false, the people_also_ask_ai_overview_expanded_element element is loaded from cache; */
+if true, the ai_overview element is loaded asynchronously;
+if false, the ai_overview element is loaded from cache */
 
     asynchronous_ai_overview?: boolean | undefined;
     
@@ -7625,7 +7625,8 @@ always equals 0 for desktop */
         
         /** indicates whether the element is loaded asynchronously
 if true, the ai_overview element is loaded asynchronously;
-if false, the ai_overview element is loaded from cache */
+if false, the ai_overview element is loaded from cache;
+to obtain the content of ai_overview elements, use the load_async_ai_overview parameter in the POST request */
         asynchronous_ai_overview?: boolean | undefined
         
         /** content of the element in markdown format
@@ -7660,7 +7661,8 @@ always equals 0 for desktop */
     
     /** indicates whether the element is loaded asynchronously
 if true, the ai_overview element is loaded asynchronously;
-if false, the ai_overview element is loaded from cache */
+if false, the ai_overview element is loaded from cache;
+to obtain the content of ai_overview elements, use the load_async_ai_overview parameter in the POST request */
 
     asynchronous_ai_overview?: boolean | undefined;
     

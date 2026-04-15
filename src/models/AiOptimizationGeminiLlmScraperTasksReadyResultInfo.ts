@@ -1,14 +1,12 @@
 export interface IAiOptimizationGeminiLlmScraperTasksReadyResultInfo   {
         
-        /** task identifier of the completed task
-unique task identifier in our system in the UUID format */
+        /** task identifier of the completed taskunique task identifier in our system in the UUID format */
         id?: string | undefined
         
         /** search engine specified when setting the task */
         se?: string | undefined
         
-        /** search engine function
-example: llm_scraper */
+        /** search engine functionexample: llm_scraper */
         function?: string | undefined
         
         /** date when the task was posted (in the UTC format) */
@@ -17,12 +15,10 @@ example: llm_scraper */
         /** user-defined task identifier */
         tag?: string | undefined
         
-        /** URL for collecting the results of the Advanced task
-if the Advanced function is not supported in the specified endpoint, the value will be null */
+        /** URL for collecting the results of the Advanced taskif the Advanced function is not supported in the specified endpoint, the value will be null */
         endpoint_advanced?: string | undefined
         
-        /** URL for collecting the results of the HTML task
-if the HTML function is not supported in the specified endpoint, the value will be null */
+        /** URL for collecting the results of the HTML taskif the HTML function is not supported in the specified endpoint, the value will be null */
         endpoint_html?: string | undefined
 
     [key: string]: any;
@@ -31,8 +27,7 @@ if the HTML function is not supported in the specified endpoint, the value will 
 
 export class AiOptimizationGeminiLlmScraperTasksReadyResultInfo  implements IAiOptimizationGeminiLlmScraperTasksReadyResultInfo {
     
-    /** task identifier of the completed task
-unique task identifier in our system in the UUID format */
+    /** task identifier of the completed taskunique task identifier in our system in the UUID format */
 
     id?: string | undefined;
     
@@ -40,8 +35,7 @@ unique task identifier in our system in the UUID format */
 
     se?: string | undefined;
     
-    /** search engine function
-example: llm_scraper */
+    /** search engine functionexample: llm_scraper */
 
     function?: string | undefined;
     
@@ -53,13 +47,11 @@ example: llm_scraper */
 
     tag?: string | undefined;
     
-    /** URL for collecting the results of the Advanced task
-if the Advanced function is not supported in the specified endpoint, the value will be null */
+    /** URL for collecting the results of the Advanced taskif the Advanced function is not supported in the specified endpoint, the value will be null */
 
     endpoint_advanced?: string | undefined;
     
-    /** URL for collecting the results of the HTML task
-if the HTML function is not supported in the specified endpoint, the value will be null */
+    /** URL for collecting the results of the HTML taskif the HTML function is not supported in the specified endpoint, the value will be null */
 
     endpoint_html?: string | undefined;
 

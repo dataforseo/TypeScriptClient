@@ -1,80 +1,39 @@
 export interface ISerpGoogleDatasetSearchLiveAdvancedRequestInfo   {
         
-        /** keyword
-required field
-you can specify up to 700 characters in the keyword field
-all %## will be decoded (plus character ‘+’ will be decoded to a space character)
-if you need to use the “%” character for your keyword, please specify it as “%25”;
-if you need to use the “+” character for your keyword, please specify it as “%2B”;
-learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
+        /** keywordrequired fieldyou can specify up to 700 characters in the keyword fieldall %## will be decoded (plus character ‘+’ will be decoded to a space character)if you need to use the “%” character for your keyword, please specify it as “%25”;if you need to use the “+” character for your keyword, please specify it as “%2B”;learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
         keyword?: string | undefined
         
-        /** search engine language code
-optional field if you don't specify language_name
-if you use this field, you don't need to specify language_name
-possible value:
-en */
+        /** search engine language codeoptional field if you don't specify language_nameif you use this field, you don't need to specify language_namepossible value:en */
         language_code?: string | undefined
         
-        /** parsing depth
-optional field
-number of results in SERP
-default value: 20
-max value: 700
-Your account will be billed per each SERP containing up to 20 results;
-Setting depth above 20 may result in additional charges if the search engine returns more than 20 results;
-If the specified depth is higher than the number of results in the response, the difference will be refunded to your account balance automatically. */
+        /** parsing depthoptional fieldnumber of results in SERPdefault value: 20max value: 700Your account will be billed per each SERP containing up to 20 results;Setting depth above 20 may result in additional charges if the search engine returns more than 20 results;If the specified depth is higher than the number of results in the response, the difference will be refunded to your account balance automatically. */
         depth?: number | undefined
         
-        /** device type
-optional field
-return results for a specific device type
-possible value: desktop */
+        /** device typeoptional fieldreturn results for a specific device typepossible value: desktop */
         device?: string | undefined
         
-        /** full name of search engine language
-optional field
-if you use this field, you don't need to specify language_code
-possible value:
-English */
+        /** full name of search engine languageoptional fieldif you use this field, you don't need to specify language_codepossible value:English */
         language_name?: string | undefined
         
-        /** device operating system
-optional field
-choose from the following values: windows, macos
-default value: windows */
+        /** device operating systemoptional fieldchoose from the following values: windows, macosdefault value: windows */
         os?: string | undefined
         
-        /** user-defined task identifier
-optional field
-the character limit is 255
-you can use this parameter to identify the task and match it with the result
-you will find the specified tag value in the data object of the response */
+        /** user-defined task identifieroptional fieldthe character limit is 255you can use this parameter to identify the task and match it with the resultyou will find the specified tag value in the data object of the response */
         tag?: string | undefined
         
-        /** last time the dataset was updated
-optional field
-possible values: 1m, 1y, 3y */
+        /** last time the dataset was updatedoptional fieldpossible values: 1m, 1y, 3y */
         last_updated?: string | undefined
         
-        /** file formats of the dataset
-optional field
-possible values: other, archive, text, image, document, tabular */
+        /** file formats of the datasetoptional fieldpossible values: other, archive, text, image, document, tabular */
         file_formats?: string[] | undefined
         
-        /** usage rights of the dataset
-optional field
-possible values: commercial, noncommercial */
+        /** usage rights of the datasetoptional fieldpossible values: commercial, noncommercial */
         usage_rights?: string | undefined
         
-        /** indicates whether displayed datasets are free
-optional field
-possible values: true, false */
+        /** indicates whether displayed datasets are freeoptional fieldpossible values: true, false */
         is_free?: boolean | undefined
         
-        /** dataset topics
-optional field
-possible values: humanities, social_sciences, life_sciences, agriculture, natural_sciences, geo, computer, architecture_and_urban_planning, engineering */
+        /** dataset topicsoptional fieldpossible values: humanities, social_sciences, life_sciences, agriculture, natural_sciences, geo, computer, architecture_and_urban_planning, engineering */
         topics?: string[] | undefined
 
     [key: string]: any;
@@ -83,92 +42,51 @@ possible values: humanities, social_sciences, life_sciences, agriculture, natura
 
 export class SerpGoogleDatasetSearchLiveAdvancedRequestInfo  implements ISerpGoogleDatasetSearchLiveAdvancedRequestInfo {
     
-    /** keyword
-required field
-you can specify up to 700 characters in the keyword field
-all %## will be decoded (plus character ‘+’ will be decoded to a space character)
-if you need to use the “%” character for your keyword, please specify it as “%25”;
-if you need to use the “+” character for your keyword, please specify it as “%2B”;
-learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
+    /** keywordrequired fieldyou can specify up to 700 characters in the keyword fieldall %## will be decoded (plus character ‘+’ will be decoded to a space character)if you need to use the “%” character for your keyword, please specify it as “%25”;if you need to use the “+” character for your keyword, please specify it as “%2B”;learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keyword?: string | undefined;
     
-    /** search engine language code
-optional field if you don't specify language_name
-if you use this field, you don't need to specify language_name
-possible value:
-en */
+    /** search engine language codeoptional field if you don't specify language_nameif you use this field, you don't need to specify language_namepossible value:en */
 
     language_code?: string | undefined;
     
-    /** parsing depth
-optional field
-number of results in SERP
-default value: 20
-max value: 700
-Your account will be billed per each SERP containing up to 20 results;
-Setting depth above 20 may result in additional charges if the search engine returns more than 20 results;
-If the specified depth is higher than the number of results in the response, the difference will be refunded to your account balance automatically. */
+    /** parsing depthoptional fieldnumber of results in SERPdefault value: 20max value: 700Your account will be billed per each SERP containing up to 20 results;Setting depth above 20 may result in additional charges if the search engine returns more than 20 results;If the specified depth is higher than the number of results in the response, the difference will be refunded to your account balance automatically. */
 
     depth?: number | undefined;
     
-    /** device type
-optional field
-return results for a specific device type
-possible value: desktop */
+    /** device typeoptional fieldreturn results for a specific device typepossible value: desktop */
 
     device?: string | undefined;
     
-    /** full name of search engine language
-optional field
-if you use this field, you don't need to specify language_code
-possible value:
-English */
+    /** full name of search engine languageoptional fieldif you use this field, you don't need to specify language_codepossible value:English */
 
     language_name?: string | undefined;
     
-    /** device operating system
-optional field
-choose from the following values: windows, macos
-default value: windows */
+    /** device operating systemoptional fieldchoose from the following values: windows, macosdefault value: windows */
 
     os?: string | undefined;
     
-    /** user-defined task identifier
-optional field
-the character limit is 255
-you can use this parameter to identify the task and match it with the result
-you will find the specified tag value in the data object of the response */
+    /** user-defined task identifieroptional fieldthe character limit is 255you can use this parameter to identify the task and match it with the resultyou will find the specified tag value in the data object of the response */
 
     tag?: string | undefined;
     
-    /** last time the dataset was updated
-optional field
-possible values: 1m, 1y, 3y */
+    /** last time the dataset was updatedoptional fieldpossible values: 1m, 1y, 3y */
 
     last_updated?: string | undefined;
     
-    /** file formats of the dataset
-optional field
-possible values: other, archive, text, image, document, tabular */
+    /** file formats of the datasetoptional fieldpossible values: other, archive, text, image, document, tabular */
 
     file_formats?: string[] | undefined;
     
-    /** usage rights of the dataset
-optional field
-possible values: commercial, noncommercial */
+    /** usage rights of the datasetoptional fieldpossible values: commercial, noncommercial */
 
     usage_rights?: string | undefined;
     
-    /** indicates whether displayed datasets are free
-optional field
-possible values: true, false */
+    /** indicates whether displayed datasets are freeoptional fieldpossible values: true, false */
 
     is_free?: boolean | undefined;
     
-    /** dataset topics
-optional field
-possible values: humanities, social_sciences, life_sciences, agriculture, natural_sciences, geo, computer, architecture_and_urban_planning, engineering */
+    /** dataset topicsoptional fieldpossible values: humanities, social_sciences, life_sciences, agriculture, natural_sciences, geo, computer, architecture_and_urban_planning, engineering */
 
     topics?: string[] | undefined;
 
