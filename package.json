@@ -7,7 +7,7 @@
   "description": "API client that provide services of DataForSeo API \n\n For more information about client code generation, please follow to github",
   "scripts": {
     "build:esm": "tsc -p tsconfig.esm.json && node fix-esm-imports.js",
-    "build:cjs": "tsc -p tsconfig.cjs.json",
+    "build:cjs": "tsc -p tsconfig.cjs.json && node -e \"require('fs').writeFileSync('dist/cjs/package.json', '{\\\"type\\\":\\\"commonjs\\\"}')\"",
     "build": "npm run build:esm && npm run build:cjs",
     "test": "jest --verbose"
   },
