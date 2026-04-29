@@ -16,13 +16,13 @@ indicates the number of the SERP page on which the element is located */
         /** the XPath of the element */
         xpath?: string | undefined
         
-        /** website domain */
+        /** domain where a link points */
         domain?: string | undefined
         
-        /** reference page title */
+        /** title of the link */
         title?: string | undefined
         
-        /** URL */
+        /** reference page URL */
         url?: string | undefined
         
         /** cached version of the page */
@@ -61,12 +61,12 @@ if there are none, equals null */
 indicates whether an item has the Accelerated Mobile Page (AMP) version */
         amp_version?: boolean | undefined
         
-        /** the element’s rating
+        /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP;
 if there is none, equals null */
         rating?: RatingInfo | undefined
         
-        /** price indicated in the element */
+        /** price of booking a place for the specified dates of stay */
         price?: PriceInfo | undefined
         
         /** words highlighted in bold within the results description */
@@ -102,15 +102,15 @@ indicates the number of the SERP page on which the element is located */
 
     xpath?: string | undefined;
     
-    /** website domain */
+    /** domain where a link points */
 
     domain?: string | undefined;
     
-    /** reference page title */
+    /** title of the link */
 
     title?: string | undefined;
     
-    /** URL */
+    /** reference page URL */
 
     url?: string | undefined;
     
@@ -161,13 +161,13 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version */
 
     amp_version?: boolean | undefined;
     
-    /** the element’s rating
+    /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP;
 if there is none, equals null */
 
     rating?: RatingInfo | undefined;
     
-    /** price indicated in the element */
+    /** price of booking a place for the specified dates of stay */
 
     price?: PriceInfo | undefined;
     

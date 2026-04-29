@@ -6,36 +6,6 @@ export interface IAiOptimizationLlmMentionsCrossAggregatedMetricsLiveRequestInfo
         /** array of objects containing target entities with aggregation keys */
         targets?: AiOptimizationLLmMentionsCrossAggregateMetricsTargetInfo[] | undefined
         
-        /** aggregation key for grouping the resultsrequired fieldgroups results for comparison and serves as a label for the group;you can specify up to 250 characters in the aggregation_key field */
-        aggregation_key?: string | undefined
-        
-        /** array of objects containing target entitiesrequired fielda single target can contain up to 10 domain and/or keyword entities */
-        target?: string[] | undefined
-        
-        /** domain entity in the target arrayexample:{'domain': 'en.wikipedia.org', 'search_filter': 'exclude', 'search_scope': ['sources']} */
-        domain_entity?: any | undefined
-        
-        /** target domainrequired field if you don't specify a keywordyou can specify up to 63 characters in the domain field;a domain should be specified without https:// and www. */
-        domain?: string | undefined
-        
-        /** target keyword search filteroptional fieldpossible values:include, excludedefault value: include */
-        search_filter?: string | undefined
-        
-        /** target keyword search scopeoptional fieldpossible values:any, question, answer, brand_entities, fan_out_queriesdefault value: any */
-        search_scope?: string[] | undefined
-        
-        /** indicates if the subdomains of the target domain will be included in the searchoptional fieldif set to true, the subdomains will be included in the searchdefault value: false */
-        include_subdomains?: boolean | undefined
-        
-        /** keyword entity in the target arrayexample:{'keyword': 'bmw', 'search_filter': 'include', 'search_scope': ['question'], 'match_type ': 'partial_match'} */
-        keyword_entity?: any | undefined
-        
-        /** target keywordrequired field if you don't specify a domainyou can specify up to 250 characters in the keyword fieldall %## will be decoded (plus character ‘+’ will be decoded to a space character)if you need to use the “%” character for your keyword, please specify it as “%25”;if you need to use the “+” character for your keyword, please specify it as “%2B”learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
-        keyword?: string | undefined
-        
-        /** target keyword match typedefines how the specified keyword is matchedoptional fieldpossible values:word_match - full-text search for terms that match the specified seed keyword with additional words included before, after, or within the key phrase (e.g., search for 'light' will return results with 'light bulb', 'light switch');partial_match - substring search that finds all instances containing the specified sequence of characters, even if it appears inside a longer word (e.g., search for 'light' will return results with 'lighting', 'highlight');default value: word_match */
-        match_type?: string | undefined
-        
         /** full name of search locationoptional fieldif you use this field, you don't need to specify location_codeif you don't specify this field, the location_code with 2840 value will be used by default;you can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/llm_mentions/locations_and_languagesNote: chat_gpt data is available for United States only */
         location_name?: string | undefined
         
@@ -51,7 +21,7 @@ export interface IAiOptimizationLlmMentionsCrossAggregatedMetricsLiveRequestInfo
         /** target platformoptional fieldpossible values:chat_gpt, googledefault value: googleNote: the data returned depends on the selected platformNote #2:chat_gpt data is available for the United States and English only */
         platform?: string | undefined
         
-        /** array of filter expressions applied before aggregationoptional fieldyou can use this array to filter expressions applied to the raw mentions database before aggregation to limit the rows contributing to the result;you can add several filters at once (8 filters maximum)you should set a logical operator and, or between the conditionsthe following operators are supported:=, <>, in, not_in, like, not_like, ilike, not_ilike, match, not_matchyou can use the % operator with like and not_like to match any string of zero or more charactersexample:['ai_search_volume','>','1000']The full list of possible filters is available here. */
+        /** array of filter expressions applied before aggregationoptional fieldyou can use this array to filter expressions applied to the raw mentions database before aggregation to limit the rows contributing to the result;you can add several filters at once (8 filters maximum)you should set a logical operator and, or between the conditionsthe following operators are supported:=, <>, in, not_in, like, not_like, ilike, not_ilike, match, not_matchyou can use the % operator with like and not_like to match any string of zero or more charactersexample:['ai_search_volume','>','1000']the full list of possible filters is available here.learn more about the initial dataset filters in this help center article. */
         initial_dataset_filters?: any[] | undefined
         
         /** maximum number of elements within internal arraysoptional fieldyou can use this field to limit the number of elements within the following arrays:sources_domainsearch_results_domainminimum value: 1maximum value: 10default value: 5 */
@@ -69,46 +39,6 @@ export class AiOptimizationLlmMentionsCrossAggregatedMetricsLiveRequestInfo  imp
     /** array of objects containing target entities with aggregation keys */
 
     targets?: AiOptimizationLLmMentionsCrossAggregateMetricsTargetInfo[] | undefined;
-    
-    /** aggregation key for grouping the resultsrequired fieldgroups results for comparison and serves as a label for the group;you can specify up to 250 characters in the aggregation_key field */
-
-    aggregation_key?: string | undefined;
-    
-    /** array of objects containing target entitiesrequired fielda single target can contain up to 10 domain and/or keyword entities */
-
-    target?: string[] | undefined;
-    
-    /** domain entity in the target arrayexample:{'domain': 'en.wikipedia.org', 'search_filter': 'exclude', 'search_scope': ['sources']} */
-
-    domain_entity?: any | undefined;
-    
-    /** target domainrequired field if you don't specify a keywordyou can specify up to 63 characters in the domain field;a domain should be specified without https:// and www. */
-
-    domain?: string | undefined;
-    
-    /** target keyword search filteroptional fieldpossible values:include, excludedefault value: include */
-
-    search_filter?: string | undefined;
-    
-    /** target keyword search scopeoptional fieldpossible values:any, question, answer, brand_entities, fan_out_queriesdefault value: any */
-
-    search_scope?: string[] | undefined;
-    
-    /** indicates if the subdomains of the target domain will be included in the searchoptional fieldif set to true, the subdomains will be included in the searchdefault value: false */
-
-    include_subdomains?: boolean | undefined;
-    
-    /** keyword entity in the target arrayexample:{'keyword': 'bmw', 'search_filter': 'include', 'search_scope': ['question'], 'match_type ': 'partial_match'} */
-
-    keyword_entity?: any | undefined;
-    
-    /** target keywordrequired field if you don't specify a domainyou can specify up to 250 characters in the keyword fieldall %## will be decoded (plus character ‘+’ will be decoded to a space character)if you need to use the “%” character for your keyword, please specify it as “%25”;if you need to use the “+” character for your keyword, please specify it as “%2B”learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
-
-    keyword?: string | undefined;
-    
-    /** target keyword match typedefines how the specified keyword is matchedoptional fieldpossible values:word_match - full-text search for terms that match the specified seed keyword with additional words included before, after, or within the key phrase (e.g., search for 'light' will return results with 'light bulb', 'light switch');partial_match - substring search that finds all instances containing the specified sequence of characters, even if it appears inside a longer word (e.g., search for 'light' will return results with 'lighting', 'highlight');default value: word_match */
-
-    match_type?: string | undefined;
     
     /** full name of search locationoptional fieldif you use this field, you don't need to specify location_codeif you don't specify this field, the location_code with 2840 value will be used by default;you can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/llm_mentions/locations_and_languagesNote: chat_gpt data is available for United States only */
 
@@ -130,7 +60,7 @@ export class AiOptimizationLlmMentionsCrossAggregatedMetricsLiveRequestInfo  imp
 
     platform?: string | undefined;
     
-    /** array of filter expressions applied before aggregationoptional fieldyou can use this array to filter expressions applied to the raw mentions database before aggregation to limit the rows contributing to the result;you can add several filters at once (8 filters maximum)you should set a logical operator and, or between the conditionsthe following operators are supported:=, <>, in, not_in, like, not_like, ilike, not_ilike, match, not_matchyou can use the % operator with like and not_like to match any string of zero or more charactersexample:['ai_search_volume','>','1000']The full list of possible filters is available here. */
+    /** array of filter expressions applied before aggregationoptional fieldyou can use this array to filter expressions applied to the raw mentions database before aggregation to limit the rows contributing to the result;you can add several filters at once (8 filters maximum)you should set a logical operator and, or between the conditionsthe following operators are supported:=, <>, in, not_in, like, not_like, ilike, not_ilike, match, not_matchyou can use the % operator with like and not_like to match any string of zero or more charactersexample:['ai_search_volume','>','1000']the full list of possible filters is available here.learn more about the initial dataset filters in this help center article. */
 
     initial_dataset_filters?: any[] | undefined;
     
@@ -168,16 +98,6 @@ export class AiOptimizationLlmMentionsCrossAggregatedMetricsLiveRequestInfo  imp
                     this.targets.push(AiOptimizationLLmMentionsCrossAggregateMetricsTargetInfo.fromJS(item));
                 }
             }
-            this.aggregation_key = data["aggregation_key"];
-            this.target = data["target"];
-            this.domain_entity = data["domain_entity"];
-            this.domain = data["domain"];
-            this.search_filter = data["search_filter"];
-            this.search_scope = data["search_scope"];
-            this.include_subdomains = data["include_subdomains"];
-            this.keyword_entity = data["keyword_entity"];
-            this.keyword = data["keyword"];
-            this.match_type = data["match_type"];
             this.location_name = data["location_name"];
             this.location_code = data["location_code"];
             this.language_name = data["language_name"];
@@ -212,16 +132,6 @@ export class AiOptimizationLlmMentionsCrossAggregatedMetricsLiveRequestInfo  imp
                 }
             }
         }
-        data["aggregation_key"] = this.aggregation_key;
-        data["target"] = this.target;
-        data["domain_entity"] = this.domain_entity;
-        data["domain"] = this.domain;
-        data["search_filter"] = this.search_filter;
-        data["search_scope"] = this.search_scope;
-        data["include_subdomains"] = this.include_subdomains;
-        data["keyword_entity"] = this.keyword_entity;
-        data["keyword"] = this.keyword;
-        data["match_type"] = this.match_type;
         data["location_name"] = this.location_name;
         data["location_code"] = this.location_code;
         data["language_name"] = this.language_name;

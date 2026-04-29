@@ -74,7 +74,8 @@ example:
 [['content_info.connotation_types.negative','>',1000],
 'or',
 ['content_info.text_category','has',10994]]]
-for more information about filters, please refer to Content Analysis API – Filters */
+for more information about filters, please refer to Content Analysis API – Filters
+learn more about the initial dataset filters in this help center article. */
         initial_dataset_filters?: any[] | undefined
         
         /** defines the scale used for calculating and displaying the rank values
@@ -180,7 +181,8 @@ example:
 [['content_info.connotation_types.negative','>',1000],
 'or',
 ['content_info.text_category','has',10994]]]
-for more information about filters, please refer to Content Analysis API – Filters */
+for more information about filters, please refer to Content Analysis API – Filters
+learn more about the initial dataset filters in this help center article. */
 
     initial_dataset_filters?: any[] | undefined;
     

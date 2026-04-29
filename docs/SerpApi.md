@@ -213,18 +213,12 @@ All URIs are relative to *https://api.dataforseo.com*
    }
  });
 
- let response = await api.idList([
-   [
-       new SerpIdListRequestInfo({
-           datetime_from: ,
-           datetime_to: ,
-           limit: 100,
-           offset: 0,
-           sort: "desc",
-           include_metadata: true,
-       }),
-   ]
- ]);
+ let task = new SerpIdListRequestInfo();
+   task.limit = 100;
+   task.offset = 0;
+   task.sort = "desc";
+   task.include_metadata = true;
+ let response = await api.idList([task]);
 ```
 
 ### Parameters
@@ -280,15 +274,11 @@ All URIs are relative to *https://api.dataforseo.com*
    }
  });
 
- let response = await api.errors([
-   [
-       new SerpErrorsRequestInfo({
-           limit: 10,
-           offset: 0,
-           filtered_function: "pingback_url",
-       }),
-   ]
- ]);
+ let task = new SerpErrorsRequestInfo();
+   task.limit = 10;
+   task.offset = 0;
+   task.filtered_function = "pingback_url";
+ let response = await api.errors([task]);
 ```
 
 ### Parameters
@@ -344,14 +334,10 @@ All URIs are relative to *https://api.dataforseo.com*
    }
  });
 
- let response = await api.screenshot([
-   [
-       new SerpScreenshotRequestInfo({
-           task_id: "06211235-0696-0139-1000-36727fbd3c90",
-           browser_screen_scale_factor: 0.5,
-       }),
-   ]
- ]);
+ let task = new SerpScreenshotRequestInfo();
+   task.task_id = "06211235-0696-0139-1000-36727fbd3c90";
+   task.browser_screen_scale_factor = 0.5;
+ let response = await api.screenshot([task]);
 ```
 
 ### Parameters
@@ -407,16 +393,12 @@ All URIs are relative to *https://api.dataforseo.com*
    }
  });
 
- let response = await api.aiSummary([
-   [
-       new SerpAiSummaryRequestInfo({
-           task_id: "07031739-1535-0139-0000-9d1e639a5b7d",
-           prompt: "explain what DataForSEO is",
-           include_links: true,
-           fetch_content: true,
-       }),
-   ]
- ]);
+ let task = new SerpAiSummaryRequestInfo();
+   task.task_id = "07031739-1535-0139-0000-9d1e639a5b7d";
+   task.prompt = "explain what DataForSEO is";
+   task.include_links = true;
+   task.fetch_content = true;
+ let response = await api.aiSummary([task]);
 ```
 
 ### Parameters
@@ -528,7 +510,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let country = ;
+ let country = "us";
  let response = await api.googleLocationsCountry(country);
 ```
 
@@ -641,28 +623,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleOrganicTaskPost([
-   [
-       new SerpGoogleOrganicTaskPostRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "albert einstein",
-       }),
-       new SerpGoogleOrganicTaskPostRequestInfo({
-           language_name: "English",
-           location_name: "United States",
-           keyword: "albert einstein",
-           priority: 2,
-           tag: "some_string_123",
-           pingback_url: "https://your-server.com/pingscript?id=$id&tag=$tag",
-       }),
-       new SerpGoogleOrganicTaskPostRequestInfo({
-           url: "https://www.google.co.uk/search?q=albert%20einstein&hl=en&gl=GB&uule=w+CAIQIFISCXXeIa8LoNhHEZkq1d1aOpZS",
-           postback_data: "html",
-           postback_url: "https://your-server.com/postbackscript",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleOrganicTaskPostRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "albert einstein";
+ let response = await api.googleOrganicTaskPost([task]);
 ```
 
 ### Parameters
@@ -886,7 +851,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleOrganicTaskGetRegular(id);
 ```
 
@@ -943,7 +908,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleOrganicTaskGetAdvanced(id);
 ```
 
@@ -1000,7 +965,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleOrganicTaskGetHtml(id);
 ```
 
@@ -1057,15 +1022,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleOrganicLiveRegular([
-   [
-       new SerpGoogleOrganicLiveRegularRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "albert einstein",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleOrganicLiveRegularRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "albert einstein";
+ let response = await api.googleOrganicLiveRegular([task]);
 ```
 
 ### Parameters
@@ -1121,16 +1082,12 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleOrganicLiveAdvanced([
-   [
-       new SerpGoogleOrganicLiveAdvancedRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "albert einstein",
-           calculate_rectangles: true,
-       }),
-   ]
- ]);
+ let task = new SerpGoogleOrganicLiveAdvancedRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "albert einstein";
+   task.calculate_rectangles = true;
+ let response = await api.googleOrganicLiveAdvanced([task]);
 ```
 
 ### Parameters
@@ -1186,15 +1143,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleOrganicLiveHtml([
-   [
-       new SerpGoogleOrganicLiveHtmlRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "albert einstein",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleOrganicLiveHtmlRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "albert einstein";
+ let response = await api.googleOrganicLiveHtml([task]);
 ```
 
 ### Parameters
@@ -1306,15 +1259,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleAiModeTaskPost([
-   [
-       new SerpGoogleAiModeTaskPostRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "what is google ai mode",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleAiModeTaskPostRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "what is google ai mode";
+ let response = await api.googleAiModeTaskPost([task]);
 ```
 
 ### Parameters
@@ -1482,7 +1431,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleAiModeTaskGetAdvanced(id);
 ```
 
@@ -1539,7 +1488,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleAiModeTaskGetHtml(id);
 ```
 
@@ -1596,15 +1545,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleAiModeLiveAdvanced([
-   [
-       new SerpGoogleAiModeLiveAdvancedRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "what is google ai mode",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleAiModeLiveAdvancedRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "what is google ai mode";
+ let response = await api.googleAiModeLiveAdvanced([task]);
 ```
 
 ### Parameters
@@ -1660,15 +1605,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleAiModeLiveHtml([
-   [
-       new SerpGoogleAiModeLiveHtmlRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "albert einstein",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleAiModeLiveHtmlRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "albert einstein";
+ let response = await api.googleAiModeLiveHtml([task]);
 ```
 
 ### Parameters
@@ -1724,15 +1665,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleMapsTaskPost([
-   [
-       new SerpGoogleMapsTaskPostRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "albert einstein",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleMapsTaskPostRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "albert einstein";
+ let response = await api.googleMapsTaskPost([task]);
 ```
 
 ### Parameters
@@ -1900,7 +1837,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleMapsTaskGetAdvanced(id);
 ```
 
@@ -1957,15 +1894,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleMapsLiveAdvanced([
-   [
-       new SerpGoogleMapsLiveAdvancedRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "albert einstein",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleMapsLiveAdvancedRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "albert einstein";
+ let response = await api.googleMapsLiveAdvanced([task]);
 ```
 
 ### Parameters
@@ -2021,17 +1954,13 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleLocalFinderTaskPost([
-   [
-       new SerpGoogleLocalFinderTaskPostRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "local nail services",
-           min_rating: 4.5,
-           time_filter: "monday",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleLocalFinderTaskPostRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "local nail services";
+   task.min_rating = 4.5;
+   task.time_filter = "monday";
+ let response = await api.googleLocalFinderTaskPost([task]);
 ```
 
 ### Parameters
@@ -2199,7 +2128,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleLocalFinderTaskGetAdvanced(id);
 ```
 
@@ -2256,7 +2185,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleLocalFinderTaskGetHtml(id);
 ```
 
@@ -2313,17 +2242,13 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleLocalFinderLiveAdvanced([
-   [
-       new SerpGoogleLocalFinderLiveAdvancedRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "local nail services",
-           min_rating: 4.5,
-           time_filter: "monday",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleLocalFinderLiveAdvancedRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "local nail services";
+   task.min_rating = 4.5;
+   task.time_filter = "monday";
+ let response = await api.googleLocalFinderLiveAdvanced([task]);
 ```
 
 ### Parameters
@@ -2379,15 +2304,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleLocalFinderLiveHtml([
-   [
-       new SerpGoogleLocalFinderLiveHtmlRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "albert einstein",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleLocalFinderLiveHtmlRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "albert einstein";
+ let response = await api.googleLocalFinderLiveHtml([task]);
 ```
 
 ### Parameters
@@ -2443,15 +2364,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleNewsTaskPost([
-   [
-       new SerpGoogleNewsTaskPostRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "albert einstein",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleNewsTaskPostRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "albert einstein";
+ let response = await api.googleNewsTaskPost([task]);
 ```
 
 ### Parameters
@@ -2619,7 +2536,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleNewsTaskGetAdvanced(id);
 ```
 
@@ -2676,7 +2593,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleNewsTaskGetHtml(id);
 ```
 
@@ -2733,15 +2650,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleNewsLiveAdvanced([
-   [
-       new SerpGoogleNewsLiveAdvancedRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "android",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleNewsLiveAdvancedRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "android";
+ let response = await api.googleNewsLiveAdvanced([task]);
 ```
 
 ### Parameters
@@ -2797,15 +2710,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleNewsLiveHtml([
-   [
-       new SerpGoogleNewsLiveHtmlRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "albert einstein",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleNewsLiveHtmlRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "albert einstein";
+ let response = await api.googleNewsLiveHtml([task]);
 ```
 
 ### Parameters
@@ -2861,15 +2770,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleEventsTaskPost([
-   [
-       new SerpGoogleEventsTaskPostRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "albert einstein",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleEventsTaskPostRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "albert einstein";
+ let response = await api.googleEventsTaskPost([task]);
 ```
 
 ### Parameters
@@ -3037,7 +2942,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleEventsTaskGetAdvanced(id);
 ```
 
@@ -3094,15 +2999,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleEventsLiveAdvanced([
-   [
-       new SerpGoogleEventsLiveAdvancedRequestInfo({
-           keyword: "concerts",
-           location_name: "Los Angeles,California,United States",
-           date_range: "today",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleEventsLiveAdvancedRequestInfo();
+   task.keyword = "concerts";
+   task.location_name = "Los Angeles,California,United States";
+   task.date_range = "today";
+ let response = await api.googleEventsLiveAdvanced([task]);
 ```
 
 ### Parameters
@@ -3158,15 +3059,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleImagesTaskPost([
-   [
-       new SerpGoogleImagesTaskPostRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "albert einstein",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleImagesTaskPostRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "albert einstein";
+ let response = await api.googleImagesTaskPost([task]);
 ```
 
 ### Parameters
@@ -3334,7 +3231,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleImagesTaskGetAdvanced(id);
 ```
 
@@ -3391,7 +3288,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleImagesTaskGetHtml(id);
 ```
 
@@ -3448,15 +3345,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleImagesLiveAdvanced([
-   [
-       new SerpGoogleImagesLiveAdvancedRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "albert einstein",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleImagesLiveAdvancedRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "albert einstein";
+ let response = await api.googleImagesLiveAdvanced([task]);
 ```
 
 ### Parameters
@@ -3512,15 +3405,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleImagesLiveHtml([
-   [
-       new SerpGoogleImagesLiveHtmlRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "albert einstein",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleImagesLiveHtmlRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "albert einstein";
+ let response = await api.googleImagesLiveHtml([task]);
 ```
 
 ### Parameters
@@ -3576,15 +3465,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleSearchByImageTaskPost([
-   [
-       new SerpGoogleSearchByImageTaskPostRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           image_url: "https://dataforseo.com/wp-content/uploads/2016/11/data_for_seo_light_429.png",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleSearchByImageTaskPostRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.image_url = "https://dataforseo.com/wp-content/uploads/2016/11/data_for_seo_light_429.png";
+ let response = await api.googleSearchByImageTaskPost([task]);
 ```
 
 ### Parameters
@@ -3752,7 +3637,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleSearchByImageTaskGetAdvanced(id);
 ```
 
@@ -3809,22 +3694,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleJobsTaskPost([
-   [
-       new SerpGoogleJobsTaskPostRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: ".net developer",
-       }),
-       new SerpGoogleJobsTaskPostRequestInfo({
-           language_name: "English",
-           location_name: "United States",
-           keyword: ".net developer",
-           tag: "some_string_123",
-           pingback_url: "https://your-server.com/pingscript?id=$id&tag=$tag",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleJobsTaskPostRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = ".net developer";
+ let response = await api.googleJobsTaskPost([task]);
 ```
 
 ### Parameters
@@ -3992,7 +3866,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleJobsTaskGetAdvanced(id);
 ```
 
@@ -4049,7 +3923,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleJobsTaskGetHtml(id);
 ```
 
@@ -4106,16 +3980,12 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleAutocompleteTaskPost([
-   [
-       new SerpGoogleAutocompleteTaskPostRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "albert einstein",
-           cursor_pointer: 6,
-       }),
-   ]
- ]);
+ let task = new SerpGoogleAutocompleteTaskPostRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "albert einstein";
+   task.cursor_pointer = 6;
+ let response = await api.googleAutocompleteTaskPost([task]);
 ```
 
 ### Parameters
@@ -4283,7 +4153,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleAutocompleteTaskGetAdvanced(id);
 ```
 
@@ -4340,16 +4210,12 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleAutocompleteLiveAdvanced([
-   [
-       new SerpGoogleAutocompleteLiveAdvancedRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "albert einstein",
-           client: "gws-wiz-serp",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleAutocompleteLiveAdvancedRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "albert einstein";
+   task.client = "gws-wiz-serp";
+ let response = await api.googleAutocompleteLiveAdvanced([task]);
 ```
 
 ### Parameters
@@ -4405,24 +4271,20 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleDatasetSearchTaskPost([
-   [
-       new SerpGoogleDatasetSearchTaskPostRequestInfo({
-           keyword: "water quality",
-           last_updated: "1m",
-           file_formats: [
-           "archive",
-           "image",
-       ],
-           usage_rights: "noncommercial",
-           is_free: true,
-           topics: [
-           "natural_sciences",
-           "geo",
-       ],
-       }),
-   ]
- ]);
+ let task = new SerpGoogleDatasetSearchTaskPostRequestInfo();
+   task.keyword = "water quality";
+   task.last_updated = "1m";
+   task.file_formats = [
+       "archive",
+       "image",
+   ];
+   task.usage_rights = "noncommercial";
+   task.is_free = true;
+   task.topics = [
+       "natural_sciences",
+       "geo",
+   ];
+ let response = await api.googleDatasetSearchTaskPost([task]);
 ```
 
 ### Parameters
@@ -4590,7 +4452,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleDatasetSearchTaskGetAdvanced(id);
 ```
 
@@ -4647,24 +4509,20 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleDatasetSearchLiveAdvanced([
-   [
-       new SerpGoogleDatasetSearchLiveAdvancedRequestInfo({
-           keyword: "water quality",
-           last_updated: "1m",
-           file_formats: [
-           "archive",
-           "image",
-       ],
-           usage_rights: "noncommercial",
-           is_free: true,
-           topics: [
-           "natural_sciences",
-           "geo",
-       ],
-       }),
-   ]
- ]);
+ let task = new SerpGoogleDatasetSearchLiveAdvancedRequestInfo();
+   task.keyword = "water quality";
+   task.last_updated = "1m";
+   task.file_formats = [
+       "archive",
+       "image",
+   ];
+   task.usage_rights = "noncommercial";
+   task.is_free = true;
+   task.topics = [
+       "natural_sciences",
+       "geo",
+   ];
+ let response = await api.googleDatasetSearchLiveAdvanced([task]);
 ```
 
 ### Parameters
@@ -4720,13 +4578,9 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleDatasetInfoTaskPost([
-   [
-       new SerpGoogleDatasetInfoTaskPostRequestInfo({
-           dataset_id: "L2cvMTFqbl85ZHN6MQ==",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleDatasetInfoTaskPostRequestInfo();
+   task.dataset_id = "L2cvMTFqbl85ZHN6MQ==";
+ let response = await api.googleDatasetInfoTaskPost([task]);
 ```
 
 ### Parameters
@@ -4894,7 +4748,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleDatasetInfoTaskGetAdvanced(id);
 ```
 
@@ -4951,13 +4805,9 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleDatasetInfoLiveAdvanced([
-   [
-       new SerpGoogleDatasetInfoLiveAdvancedRequestInfo({
-           dataset_id: "L2cvMTFqbl85ZHN6MQ==",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleDatasetInfoLiveAdvancedRequestInfo();
+   task.dataset_id = "L2cvMTFqbl85ZHN6MQ==";
+ let response = await api.googleDatasetInfoLiveAdvanced([task]);
 ```
 
 ### Parameters
@@ -5069,14 +4919,10 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleAdsAdvertisersTaskPost([
-   [
-       new SerpGoogleAdsAdvertisersTaskPostRequestInfo({
-           location_code: 2840,
-           keyword: "apple",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleAdsAdvertisersTaskPostRequestInfo();
+   task.location_code = 2840;
+   task.keyword = "apple";
+ let response = await api.googleAdsAdvertisersTaskPost([task]);
 ```
 
 ### Parameters
@@ -5188,7 +5034,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleAdsAdvertisersTaskGetAdvanced(id);
 ```
 
@@ -5301,18 +5147,14 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleAdsSearchTaskPost([
-   [
-       new SerpGoogleAdsSearchTaskPostRequestInfo({
-           location_code: 2840,
-           platform: "google_search",
-           advertiser_ids: [
-           "AR13752565271262920705",
-           "AR02439908557932462081",
-       ],
-       }),
-   ]
- ]);
+ let task = new SerpGoogleAdsSearchTaskPostRequestInfo();
+   task.location_code = 2840;
+   task.platform = "google_search";
+   task.advertiser_ids = [
+       "AR13752565271262920705",
+       "AR02439908557932462081",
+   ];
+ let response = await api.googleAdsSearchTaskPost([task]);
 ```
 
 ### Parameters
@@ -5424,7 +5266,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleAdsSearchTaskGetAdvanced(id);
 ```
 
@@ -5537,7 +5379,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let country = ;
+ let country = "us";
  let response = await api.bingLocationsCountry(country);
 ```
 
@@ -5650,15 +5492,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.bingOrganicTaskPost([
-   [
-       new SerpBingOrganicTaskPostRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "albert einstein",
-       }),
-   ]
- ]);
+ let task = new SerpBingOrganicTaskPostRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "albert einstein";
+ let response = await api.bingOrganicTaskPost([task]);
 ```
 
 ### Parameters
@@ -5826,7 +5664,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.bingOrganicTaskGetRegular(id);
 ```
 
@@ -5883,7 +5721,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.bingOrganicTaskGetAdvanced(id);
 ```
 
@@ -5940,7 +5778,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.bingOrganicTaskGetHtml(id);
 ```
 
@@ -5997,15 +5835,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.bingOrganicLiveRegular([
-   [
-       new SerpBingOrganicLiveRegularRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "albert einstein",
-       }),
-   ]
- ]);
+ let task = new SerpBingOrganicLiveRegularRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "albert einstein";
+ let response = await api.bingOrganicLiveRegular([task]);
 ```
 
 ### Parameters
@@ -6061,15 +5895,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.bingOrganicLiveAdvanced([
-   [
-       new SerpBingOrganicLiveAdvancedRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "flight ticket new york san francisco",
-       }),
-   ]
- ]);
+ let task = new SerpBingOrganicLiveAdvancedRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "flight ticket new york san francisco";
+ let response = await api.bingOrganicLiveAdvanced([task]);
 ```
 
 ### Parameters
@@ -6125,15 +5955,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.bingOrganicLiveHtml([
-   [
-       new SerpBingOrganicLiveHtmlRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "albert einstein",
-       }),
-   ]
- ]);
+ let task = new SerpBingOrganicLiveHtmlRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "albert einstein";
+ let response = await api.bingOrganicLiveHtml([task]);
 ```
 
 ### Parameters
@@ -6245,7 +6071,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let country = ;
+ let country = "us";
  let response = await api.youtubeLocationsCountry(country);
 ```
 
@@ -6358,15 +6184,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.youtubeVideoInfoTaskPost([
-   [
-       new SerpYoutubeVideoInfoTaskPostRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           video_id: "vQXvyV0zIP4",
-       }),
-   ]
- ]);
+ let task = new SerpYoutubeVideoInfoTaskPostRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.video_id = "vQXvyV0zIP4";
+ let response = await api.youtubeVideoInfoTaskPost([task]);
 ```
 
 ### Parameters
@@ -6534,7 +6356,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.youtubeVideoInfoTaskGetAdvanced(id);
 ```
 
@@ -6591,15 +6413,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.youtubeVideoInfoLiveAdvanced([
-   [
-       new SerpYoutubeVideoInfoLiveAdvancedRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           video_id: "vQXvyV0zIP4",
-       }),
-   ]
- ]);
+ let task = new SerpYoutubeVideoInfoLiveAdvancedRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.video_id = "vQXvyV0zIP4";
+ let response = await api.youtubeVideoInfoLiveAdvanced([task]);
 ```
 
 ### Parameters
@@ -6655,15 +6473,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.youtubeOrganicTaskPost([
-   [
-       new SerpYoutubeOrganicTaskPostRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "audi",
-       }),
-   ]
- ]);
+ let task = new SerpYoutubeOrganicTaskPostRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "audi";
+ let response = await api.youtubeOrganicTaskPost([task]);
 ```
 
 ### Parameters
@@ -6831,7 +6645,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.youtubeOrganicTaskGetAdvanced(id);
 ```
 
@@ -6888,15 +6702,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.youtubeOrganicLiveAdvanced([
-   [
-       new SerpYoutubeOrganicLiveAdvancedRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "audi",
-       }),
-   ]
- ]);
+ let task = new SerpYoutubeOrganicLiveAdvancedRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "audi";
+ let response = await api.youtubeOrganicLiveAdvanced([task]);
 ```
 
 ### Parameters
@@ -6952,15 +6762,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.youtubeVideoSubtitlesTaskPost([
-   [
-       new SerpYoutubeVideoSubtitlesTaskPostRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           video_id: "Y8Wu4rSNJms",
-       }),
-   ]
- ]);
+ let task = new SerpYoutubeVideoSubtitlesTaskPostRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.video_id = "Y8Wu4rSNJms";
+ let response = await api.youtubeVideoSubtitlesTaskPost([task]);
 ```
 
 ### Parameters
@@ -7128,7 +6934,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.youtubeVideoSubtitlesTaskGetAdvanced(id);
 ```
 
@@ -7185,15 +6991,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.youtubeVideoSubtitlesLiveAdvanced([
-   [
-       new SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           video_id: "Y8Wu4rSNJms",
-       }),
-   ]
- ]);
+ let task = new SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.video_id = "Y8Wu4rSNJms";
+ let response = await api.youtubeVideoSubtitlesLiveAdvanced([task]);
 ```
 
 ### Parameters
@@ -7249,15 +7051,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.youtubeVideoCommentsTaskPost([
-   [
-       new SerpYoutubeVideoCommentsTaskPostRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           video_id: "vQXvyV0zIP4",
-       }),
-   ]
- ]);
+ let task = new SerpYoutubeVideoCommentsTaskPostRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.video_id = "vQXvyV0zIP4";
+ let response = await api.youtubeVideoCommentsTaskPost([task]);
 ```
 
 ### Parameters
@@ -7425,7 +7223,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.youtubeVideoCommentsTaskGetAdvanced(id);
 ```
 
@@ -7482,15 +7280,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.youtubeVideoCommentsLiveAdvanced([
-   [
-       new SerpYoutubeVideoCommentsLiveAdvancedRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           video_id: "vQXvyV0zIP4",
-       }),
-   ]
- ]);
+ let task = new SerpYoutubeVideoCommentsLiveAdvancedRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.video_id = "vQXvyV0zIP4";
+ let response = await api.youtubeVideoCommentsLiveAdvanced([task]);
 ```
 
 ### Parameters
@@ -7602,7 +7396,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let country = ;
+ let country = "us";
  let response = await api.yahooLocationsCountry(country);
 ```
 
@@ -7715,15 +7509,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.yahooOrganicTaskPost([
-   [
-       new SerpYahooOrganicTaskPostRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "albert einstein",
-       }),
-   ]
- ]);
+ let task = new SerpYahooOrganicTaskPostRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "albert einstein";
+ let response = await api.yahooOrganicTaskPost([task]);
 ```
 
 ### Parameters
@@ -7891,7 +7681,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.yahooOrganicTaskGetRegular(id);
 ```
 
@@ -7948,7 +7738,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.yahooOrganicTaskGetAdvanced(id);
 ```
 
@@ -8005,7 +7795,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.yahooOrganicTaskGetHtml(id);
 ```
 
@@ -8062,15 +7852,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.yahooOrganicLiveRegular([
-   [
-       new SerpYahooOrganicLiveRegularRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "albert einstein",
-       }),
-   ]
- ]);
+ let task = new SerpYahooOrganicLiveRegularRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "albert einstein";
+ let response = await api.yahooOrganicLiveRegular([task]);
 ```
 
 ### Parameters
@@ -8126,15 +7912,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.yahooOrganicLiveAdvanced([
-   [
-       new SerpYahooOrganicLiveAdvancedRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "albert einstein",
-       }),
-   ]
- ]);
+ let task = new SerpYahooOrganicLiveAdvancedRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "albert einstein";
+ let response = await api.yahooOrganicLiveAdvanced([task]);
 ```
 
 ### Parameters
@@ -8190,15 +7972,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.yahooOrganicLiveHtml([
-   [
-       new SerpYahooOrganicLiveHtmlRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "albert einstein",
-       }),
-   ]
- ]);
+ let task = new SerpYahooOrganicLiveHtmlRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "albert einstein";
+ let response = await api.yahooOrganicLiveHtml([task]);
 ```
 
 ### Parameters
@@ -8310,7 +8088,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let country = ;
+ let country = "us";
  let response = await api.baiduLocationsCountry(country);
 ```
 
@@ -8423,16 +8201,12 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.baiduOrganicTaskPost([
-   [
-       new SerpBaiduOrganicTaskPostRequestInfo({
-           location_code: 2156,
-           keyword: "best iphone ever",
-           tag: "some_string_123",
-           priority: 2,
-       }),
-   ]
- ]);
+ let task = new SerpBaiduOrganicTaskPostRequestInfo();
+   task.location_code = 2156;
+   task.keyword = "best iphone ever";
+   task.tag = "some_string_123";
+   task.priority = 2;
+ let response = await api.baiduOrganicTaskPost([task]);
 ```
 
 ### Parameters
@@ -8600,7 +8374,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.baiduOrganicTaskGetRegular(id);
 ```
 
@@ -8657,7 +8431,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.baiduOrganicTaskGetAdvanced(id);
 ```
 
@@ -8714,7 +8488,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.baiduOrganicTaskGetHtml(id);
 ```
 
@@ -8771,17 +8545,13 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.naverOrganicTaskPost([
-   [
-       new SerpNaverOrganicTaskPostRequestInfo({
-           keyword: "albert einstein",
-           device: "desktop",
-           tag: "some_string_123",
-           postback_url: "https://your-server.com/postbackscript.php",
-           postback_data: "regular",
-       }),
-   ]
- ]);
+ let task = new SerpNaverOrganicTaskPostRequestInfo();
+   task.keyword = "albert einstein";
+   task.device = "desktop";
+   task.tag = "some_string_123";
+   task.postback_url = "https://your-server.com/postbackscript.php";
+   task.postback_data = "regular";
+ let response = await api.naverOrganicTaskPost([task]);
 ```
 
 ### Parameters
@@ -8949,7 +8719,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.naverOrganicTaskGetRegular(id);
 ```
 
@@ -9006,7 +8776,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.naverOrganicTaskGetAdvanced(id);
 ```
 
@@ -9063,7 +8833,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.naverOrganicTaskGetHtml(id);
 ```
 
@@ -9176,7 +8946,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let country = ;
+ let country = "us";
  let response = await api.seznamLocationsCountry(country);
 ```
 
@@ -9289,15 +9059,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.seznamOrganicTaskPost([
-   [
-       new SerpSeznamOrganicTaskPostRequestInfo({
-           language_code: "cs",
-           location_code: 2203,
-           keyword: "albert einstein",
-       }),
-   ]
- ]);
+ let task = new SerpSeznamOrganicTaskPostRequestInfo();
+   task.language_code = "cs";
+   task.location_code = 2203;
+   task.keyword = "albert einstein";
+ let response = await api.seznamOrganicTaskPost([task]);
 ```
 
 ### Parameters
@@ -9465,7 +9231,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.seznamOrganicTaskGetRegular(id);
 ```
 
@@ -9522,7 +9288,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.seznamOrganicTaskGetAdvanced(id);
 ```
 
@@ -9579,7 +9345,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.seznamOrganicTaskGetHtml(id);
 ```
 
@@ -9636,14 +9402,10 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleFinanceExploreTaskPost([
-   [
-       new SerpGoogleFinanceExploreTaskPostRequestInfo({
-           location_code: 2840,
-           language_name: "English",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleFinanceExploreTaskPostRequestInfo();
+   task.location_code = 2840;
+   task.language_name = "English";
+ let response = await api.googleFinanceExploreTaskPost([task]);
 ```
 
 ### Parameters
@@ -9755,7 +9517,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleFinanceExploreTaskGetAdvanced(id);
 ```
 
@@ -9812,7 +9574,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleFinanceExploreTaskGetHtml(id);
 ```
 
@@ -9869,14 +9631,10 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleFinanceExploreLiveAdvanced([
-   [
-       new SerpGoogleFinanceExploreLiveAdvancedRequestInfo({
-           location_code: 2840,
-           language_name: "English",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleFinanceExploreLiveAdvancedRequestInfo();
+   task.location_code = 2840;
+   task.language_name = "English";
+ let response = await api.googleFinanceExploreLiveAdvanced([task]);
 ```
 
 ### Parameters
@@ -9932,14 +9690,10 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleFinanceExploreLiveHtml([
-   [
-       new SerpGoogleFinanceExploreLiveHtmlRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-       }),
-   ]
- ]);
+ let task = new SerpGoogleFinanceExploreLiveHtmlRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+ let response = await api.googleFinanceExploreLiveHtml([task]);
 ```
 
 ### Parameters
@@ -9995,14 +9749,10 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleFinanceMarketsTaskPost([
-   [
-       new SerpGoogleFinanceMarketsTaskPostRequestInfo({
-           location_code: 2840,
-           language_name: "English",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleFinanceMarketsTaskPostRequestInfo();
+   task.location_code = 2840;
+   task.language_name = "English";
+ let response = await api.googleFinanceMarketsTaskPost([task]);
 ```
 
 ### Parameters
@@ -10114,7 +9864,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleFinanceMarketsTaskGetAdvanced(id);
 ```
 
@@ -10171,7 +9921,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleFinanceMarketsTaskGetHtml(id);
 ```
 
@@ -10228,14 +9978,10 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleFinanceMarketsLiveAdvanced([
-   [
-       new SerpGoogleFinanceMarketsLiveAdvancedRequestInfo({
-           location_code: 2840,
-           language_name: "English",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleFinanceMarketsLiveAdvancedRequestInfo();
+   task.location_code = 2840;
+   task.language_name = "English";
+ let response = await api.googleFinanceMarketsLiveAdvanced([task]);
 ```
 
 ### Parameters
@@ -10291,14 +10037,10 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleFinanceMarketsLiveHtml([
-   [
-       new SerpGoogleFinanceMarketsLiveHtmlRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-       }),
-   ]
- ]);
+ let task = new SerpGoogleFinanceMarketsLiveHtmlRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+ let response = await api.googleFinanceMarketsLiveHtml([task]);
 ```
 
 ### Parameters
@@ -10354,15 +10096,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleFinanceQuoteTaskPost([
-   [
-       new SerpGoogleFinanceQuoteTaskPostRequestInfo({
-           keyword: ".DJI:INDEXDJX",
-           location_code: 2840,
-           language_name: "English",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleFinanceQuoteTaskPostRequestInfo();
+   task.keyword = ".DJI:INDEXDJX";
+   task.location_code = 2840;
+   task.language_name = "English";
+ let response = await api.googleFinanceQuoteTaskPost([task]);
 ```
 
 ### Parameters
@@ -10474,7 +10212,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleFinanceQuoteTaskGetAdvanced(id);
 ```
 
@@ -10531,7 +10269,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleFinanceQuoteTaskGetHtml(id);
 ```
 
@@ -10588,15 +10326,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleFinanceQuoteLiveAdvanced([
-   [
-       new SerpGoogleFinanceQuoteLiveAdvancedRequestInfo({
-           keyword: "CLW00:NYMEX",
-           location_code: 2840,
-           language_name: "English",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleFinanceQuoteLiveAdvancedRequestInfo();
+   task.keyword = "CLW00:NYMEX";
+   task.location_code = 2840;
+   task.language_name = "English";
+ let response = await api.googleFinanceQuoteLiveAdvanced([task]);
 ```
 
 ### Parameters
@@ -10652,15 +10386,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleFinanceQuoteLiveHtml([
-   [
-       new SerpGoogleFinanceQuoteLiveHtmlRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "NASDAQ-100",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleFinanceQuoteLiveHtmlRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "NASDAQ-100";
+ let response = await api.googleFinanceQuoteLiveHtml([task]);
 ```
 
 ### Parameters
@@ -10716,17 +10446,13 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleFinanceTickerSearchTaskPost([
-   [
-       new SerpGoogleFinanceTickerSearchTaskPostRequestInfo({
-           language_name: "English",
-           location_code: 2840,
-           category: "all",
-           keyword: "DJ",
-           priority: 2,
-       }),
-   ]
- ]);
+ let task = new SerpGoogleFinanceTickerSearchTaskPostRequestInfo();
+   task.language_name = "English";
+   task.location_code = 2840;
+   task.category = "all";
+   task.keyword = "DJ";
+   task.priority = 2;
+ let response = await api.googleFinanceTickerSearchTaskPost([task]);
 ```
 
 ### Parameters
@@ -10838,7 +10564,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleFinanceTickerSearchTaskGetAdvanced(id);
 ```
 
@@ -10895,16 +10621,12 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleFinanceTickerSearchLiveAdvanced([
-   [
-       new SerpGoogleFinanceTickerSearchLiveAdvancedRequestInfo({
-           language_name: "English",
-           location_code: 2840,
-           category: "all",
-           keyword: "DJ",
-       }),
-   ]
- ]);
+ let task = new SerpGoogleFinanceTickerSearchLiveAdvancedRequestInfo();
+   task.language_name = "English";
+   task.location_code = 2840;
+   task.category = "all";
+   task.keyword = "DJ";
+ let response = await api.googleFinanceTickerSearchLiveAdvanced([task]);
 ```
 
 ### Parameters

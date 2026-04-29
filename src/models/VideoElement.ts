@@ -9,7 +9,7 @@ export interface IVideoElement   {
         /** URL to the video preview image */
         preview?: string | undefined
         
-        /** title of the row */
+        /** title of a given link element */
         title?: string | undefined
         
         /** date and time when the result was published
@@ -18,7 +18,7 @@ example:
 2019-11-15 12:57:46 +00:00 */
         timestamp?: string | undefined
         
-        /** URL of element */
+        /** URL */
         url?: string | undefined
 
     [key: string]: any;
@@ -39,7 +39,7 @@ export class VideoElement  implements IVideoElement {
 
     preview?: string | undefined;
     
-    /** title of the row */
+    /** title of a given link element */
 
     title?: string | undefined;
     
@@ -50,7 +50,7 @@ example:
 
     timestamp?: string | undefined;
     
-    /** URL of element */
+    /** URL */
 
     url?: string | undefined;
 

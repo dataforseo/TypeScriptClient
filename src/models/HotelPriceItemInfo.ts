@@ -29,6 +29,8 @@ if true, related hotel_search_item is a paid ad
 if false, related hotel_search_item is an organic hotel listing */
         is_paid?: boolean | undefined
         
+        official_site?: boolean | undefined
+        
         /** date until which free cancellation is available
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 equals null if free cancellation is not available for the selected dates */
@@ -75,6 +77,8 @@ if true, related hotel_search_item is a paid ad
 if false, related hotel_search_item is an organic hotel listing */
 
     is_paid?: boolean | undefined;
+
+    official_site?: boolean | undefined;
     
     /** date until which free cancellation is available
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -113,6 +117,7 @@ equals null if free cancellation is not available for the selected dates */
             this.url = data["url"];
             this.domain = data["domain"];
             this.is_paid = data["is_paid"];
+            this.official_site = data["official_site"];
             this.free_cancellation_until = data["free_cancellation_until"];
             if (Array.isArray(data["offers"])) {
                 this.offers = [];
@@ -144,6 +149,7 @@ equals null if free cancellation is not available for the selected dates */
         data["url"] = this.url;
         data["domain"] = this.domain;
         data["is_paid"] = this.is_paid;
+        data["official_site"] = this.official_site;
         data["free_cancellation_until"] = this.free_cancellation_until;
         data["offers"] = null;
         if (Array.isArray(this.offers)) {

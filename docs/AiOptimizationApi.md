@@ -132,7 +132,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let country = ;
+ let country = "us";
  let response = await api.chatGptLlmScraperLocationsCountry(country);
 ```
 
@@ -245,15 +245,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.chatGptLlmScraperTaskPost([
-   [
-       new AiOptimizationChatGptLlmScraperTaskPostRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "what is chatgpt",
-       }),
-   ]
- ]);
+ let task = new AiOptimizationChatGptLlmScraperTaskPostRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "what is chatgpt";
+ let response = await api.chatGptLlmScraperTaskPost([task]);
 ```
 
 ### Parameters
@@ -365,7 +361,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.chatGptLlmScraperTaskGetAdvanced(id);
 ```
 
@@ -422,7 +418,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.chatGptLlmScraperTaskGetHtml(id);
 ```
 
@@ -479,15 +475,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.chatGptLlmScraperLiveAdvanced([
-   [
-       new AiOptimizationChatGptLlmScraperLiveAdvancedRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "albert einstein",
-       }),
-   ]
- ]);
+ let task = new AiOptimizationChatGptLlmScraperLiveAdvancedRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "albert einstein";
+ let response = await api.chatGptLlmScraperLiveAdvanced([task]);
 ```
 
 ### Parameters
@@ -543,15 +535,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.chatGptLlmScraperLiveHtml([
-   [
-       new AiOptimizationChatGptLlmScraperLiveHtmlRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "albert einstein",
-       }),
-   ]
- ]);
+ let task = new AiOptimizationChatGptLlmScraperLiveHtmlRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "albert einstein";
+ let response = await api.chatGptLlmScraperLiveHtml([task]);
 ```
 
 ### Parameters
@@ -719,39 +707,29 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.llmMentionsSearchLive([
-   [
-       new AiOptimizationLlmMentionsSearchLiveRequestInfo({
-           language_name: "English",
-           location_code: 2840,
-           target: [
-           new AiOptimizationLLmMentionsDomainElement({
-               domain: "dataforseo.com",
-               search_filter: "exclude",
-           }),
-           new AiOptimizationLLmMentionsKeywordElement({
-               keyword: "bmw",
-               search_scope: [
-               "answer",
-           ],
-           }),
-       ],
-           platform: "google",
-           filters: [
-           [
-               "ai_search_volume",
-               ">",
-               1000,
-           ],
-       ],
-           order_by: [
-           "ai_search_volume,desc",
-       ],
-           offset: 0,
-           limit: 3,
-       }),
-   ]
- ]);
+ let task = new AiOptimizationLlmMentionsSearchLiveRequestInfo();
+   task.language_name = "English";
+   task.location_code = 2840;
+   task.target = [
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           domain: "dataforseo.com",
+           search_filter: "exclude",
+         }),
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           keyword: "bmw",
+           search_scope: ,
+         }),
+   ];
+   task.platform = "google";
+   task.filters = [
+       ,
+   ];
+   task.order_by = [
+       "ai_search_volume,desc",
+   ];
+   task.offset = 0;
+   task.limit = 3;
+ let response = await api.llmMentionsSearchLive([task]);
 ```
 
 ### Parameters
@@ -807,40 +785,28 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.llmMentionsTopPagesLive([
-   [
-       new AiOptimizationLlmMentionsTopPagesLiveRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           platform: "google",
-           target: [
-           new AiOptimizationLLmMentionsKeywordElement({
-               keyword: "bmw",
-               search_scope: [
-               "answer",
-           ],
-           }),
-           new AiOptimizationLLmMentionsKeywordElement({
-               keyword: "auto",
-               search_scope: [
-               "question",
-           ],
-               match_type: "partial_match",
-           }),
-       ],
-           links_scope: "sources",
-           initial_dataset_filters: [
-           [
-               "ai_search_volume",
-               ">",
-               10,
-           ],
-       ],
-           items_list_limit: 3,
-           internal_list_limit: 2,
-       }),
-   ]
- ]);
+ let task = new AiOptimizationLlmMentionsTopPagesLiveRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.platform = "google";
+   task.target = [
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           keyword: "bmw",
+           search_scope: ,
+         }),
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           keyword: "auto",
+           search_scope: ,
+           match_type: "partial_match",
+         }),
+   ];
+   task.links_scope = "sources";
+   task.initial_dataset_filters = [
+       ,
+   ];
+   task.items_list_limit = 3;
+   task.internal_list_limit = 2;
+ let response = await api.llmMentionsTopPagesLive([task]);
 ```
 
 ### Parameters
@@ -896,40 +862,28 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.llmMentionsTopDomainsLive([
-   [
-       new AiOptimizationLlmMentionsTopDomainsLiveRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           platform: "chat_gpt",
-           target: [
-           new AiOptimizationLLmMentionsKeywordElement({
-               keyword: "bmw",
-               search_scope: [
-               "answer",
-           ],
-           }),
-           new AiOptimizationLLmMentionsKeywordElement({
-               keyword: "auto",
-               search_scope: [
-               "question",
-           ],
-               match_type: "partial_match",
-           }),
-       ],
-           links_scope: "sources",
-           initial_dataset_filters: [
-           [
-               "ai_search_volume",
-               ">",
-               10,
-           ],
-       ],
-           items_list_limit: 3,
-           internal_list_limit: 2,
-       }),
-   ]
- ]);
+ let task = new AiOptimizationLlmMentionsTopDomainsLiveRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.platform = "chat_gpt";
+   task.target = [
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           keyword: "bmw",
+           search_scope: ,
+         }),
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           keyword: "auto",
+           search_scope: ,
+           match_type: "partial_match",
+         }),
+   ];
+   task.links_scope = "sources";
+   task.initial_dataset_filters = [
+       ,
+   ];
+   task.items_list_limit = 3;
+   task.internal_list_limit = 2;
+ let response = await api.llmMentionsTopDomainsLive([task]);
 ```
 
 ### Parameters
@@ -985,35 +939,25 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.llmMentionsAggregatedMetricsLive([
-   [
-       new AiOptimizationLlmMentionsAggregatedMetricsLiveRequestInfo({
-           language_code: "es",
-           location_code: 2840,
-           platform: "google",
-           target: [
-           new AiOptimizationLLmMentionsDomainElement({
-               domain: "en.wikipedia.org",
-               search_filter: "exclude",
-           }),
-           new AiOptimizationLLmMentionsKeywordElement({
-               keyword: "bmw",
-               search_scope: [
-               "answer",
-           ],
-           }),
-       ],
-           initial_dataset_filters: [
-           [
-               "ai_search_volume",
-               ">",
-               10,
-           ],
-       ],
-           internal_list_limit: 10,
-       }),
-   ]
- ]);
+ let task = new AiOptimizationLlmMentionsAggregatedMetricsLiveRequestInfo();
+   task.language_code = "es";
+   task.location_code = 2840;
+   task.platform = "google";
+   task.target = [
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           domain: "en.wikipedia.org",
+           search_filter: "exclude",
+         }),
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           keyword: "bmw",
+           search_scope: ,
+         }),
+   ];
+   task.initial_dataset_filters = [
+       ,
+   ];
+   task.internal_list_limit = 10;
+ let response = await api.llmMentionsAggregatedMetricsLive([task]);
 ```
 
 ### Parameters
@@ -1069,58 +1013,33 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.llmMentionsCrossAggregatedMetricsLive([
-   [
-       new AiOptimizationLlmMentionsCrossAggregatedMetricsLiveRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           platform: "google",
-           targets: [
-           new AiOptimizationLLmMentionsCrossAggregateMetricsTargetInfo({
-               aggregation_key: "chat_gpt",
-               target: [
-               new AiOptimizationLLmMentionsKeywordElement({
-                   keyword: "chat gpt",
-               }),
-           ],
-           }),
-           new AiOptimizationLLmMentionsCrossAggregateMetricsTargetInfo({
-               aggregation_key: "claude",
-               target: [
-               new AiOptimizationLLmMentionsKeywordElement({
-                   keyword: "claude",
-               }),
-           ],
-           }),
-           new AiOptimizationLLmMentionsCrossAggregateMetricsTargetInfo({
-               aggregation_key: "gemini",
-               target: [
-               new AiOptimizationLLmMentionsKeywordElement({
-                   keyword: "gemini",
-               }),
-           ],
-           }),
-           new AiOptimizationLLmMentionsCrossAggregateMetricsTargetInfo({
-               aggregation_key: "perplexity",
-               target: [
-               new AiOptimizationLLmMentionsKeywordElement({
-                   keyword: "perplexity",
-                   search_filter: "include",
-               }),
-           ],
-           }),
-       ],
-           initial_dataset_filters: [
-           [
-               "ai_search_volume",
-               ">",
-               10,
-           ],
-       ],
-           internal_list_limit: 5,
-       }),
-   ]
- ]);
+ let task = new AiOptimizationLlmMentionsCrossAggregatedMetricsLiveRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.platform = "google";
+   task.targets = [
+         new AiOptimizationLLmMentionsCrossAggregateMetricsTargetInfo({
+           aggregation_key: "chat_gpt",
+           target: ,
+         }),
+         new AiOptimizationLLmMentionsCrossAggregateMetricsTargetInfo({
+           aggregation_key: "claude",
+           target: ,
+         }),
+         new AiOptimizationLLmMentionsCrossAggregateMetricsTargetInfo({
+           aggregation_key: "gemini",
+           target: ,
+         }),
+         new AiOptimizationLLmMentionsCrossAggregateMetricsTargetInfo({
+           aggregation_key: "perplexity",
+           target: ,
+         }),
+   ];
+   task.initial_dataset_filters = [
+       ,
+   ];
+   task.internal_list_limit = 5;
+ let response = await api.llmMentionsCrossAggregatedMetricsLive([task]);
 ```
 
 ### Parameters
@@ -1232,31 +1151,27 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.chatGptLlmResponsesLive([
-   [
-       new AiOptimizationChatGptLlmResponsesLiveRequestInfo({
-           system_message: "communicate as if we are in a business meeting",
-           message_chain: [
-           new LlmMessageChainItem({
-               role: "user",
-               message: "Hello, what’s up?",
-           }),
-           new LlmMessageChainItem({
-               role: "ai",
-               message: "Hello! I’m doing well, thank you. How can I assist you today? Are there any specific topics or projects you’d like to discuss in our meeting?",
-           }),
-       ],
-           max_output_tokens: 200,
-           temperature: 0.3,
-           top_p: 0.5,
-           model_name: "gpt-4.1-mini",
-           web_search: true,
-           web_search_country_iso_code: "FR",
-           web_search_city: "Paris",
-           user_prompt: "provide information on how relevant the amusement park business is in France now",
-       }),
-   ]
- ]);
+ let task = new AiOptimizationChatGptLlmResponsesLiveRequestInfo();
+   task.system_message = "communicate as if we are in a business meeting";
+   task.message_chain = [
+         new LlmMessageChainItem({
+           role: "user",
+           message: "Hello, what’s up?",
+         }),
+         new LlmMessageChainItem({
+           role: "ai",
+           message: "Hello! I’m doing well, thank you. How can I assist you today? Are there any specific topics or projects you’d like to discuss in our meeting?",
+         }),
+   ];
+   task.max_output_tokens = 200;
+   task.temperature = 0.3;
+   task.top_p = 0.5;
+   task.model_name = "gpt-4.1-mini";
+   task.web_search = true;
+   task.web_search_country_iso_code = "FR";
+   task.web_search_city = "Paris";
+   task.user_prompt = "provide information on how relevant the amusement park business is in France now";
+ let response = await api.chatGptLlmResponsesLive([task]);
 ```
 
 ### Parameters
@@ -1312,25 +1227,21 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.chatGptLlmResponsesTaskPost([
-   [
-       new AiOptimizationChatGptLlmResponsesTaskPostRequestInfo({
-           system_message: "communicate as if we are in a business meeting",
-           message_chain: [
-           new LlmMessageChainItem({
-               role: "user",
-               message: "Hello, what’s up?",
-           }),
-           new LlmMessageChainItem({
-               role: "ai",
-               message: "Hello! I’m doing well, thank you. How can I assist you today? Are there any specific topics or projects you’d like to discuss in our meeting?",
-           }),
-       ],
-           model_name: "gpt-4.1-mini",
-           user_prompt: "provide information on how relevant the amusement park business is in France now",
-       }),
-   ]
- ]);
+ let task = new AiOptimizationChatGptLlmResponsesTaskPostRequestInfo();
+   task.system_message = "communicate as if we are in a business meeting";
+   task.message_chain = [
+         new LlmMessageChainItem({
+           role: "user",
+           message: "Hello, what’s up?",
+         }),
+         new LlmMessageChainItem({
+           role: "ai",
+           message: "Hello! I’m doing well, thank you. How can I assist you today? Are there any specific topics or projects you’d like to discuss in our meeting?",
+         }),
+   ];
+   task.model_name = "gpt-4.1-mini";
+   task.user_prompt = "provide information on how relevant the amusement park business is in France now";
+ let response = await api.chatGptLlmResponsesTaskPost([task]);
 ```
 
 ### Parameters
@@ -1442,7 +1353,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.chatGptLlmResponsesTaskGet(id);
 ```
 
@@ -1555,29 +1466,25 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.claudeLlmResponsesLive([
-   [
-       new AiOptimizationClaudeLlmResponsesLiveRequestInfo({
-           system_message: "communicate as if we are in a business meeting",
-           message_chain: [
-           new LlmMessageChainItem({
-               role: "user",
-               message: "Hello, what’s up?",
-           }),
-           new LlmMessageChainItem({
-               role: "ai",
-               message: "Hello! I’m doing well, thank you. How can I assist you today? Are there any specific topics or projects you’d like to discuss in our meeting?",
-           }),
-       ],
-           max_output_tokens: 200,
-           model_name: "claude-opus-4-0",
-           temperature: 0.3,
-           web_search: true,
-           web_search_country_iso_code: "FR",
-           user_prompt: "provide information on how relevant the amusement park business is in France now",
-       }),
-   ]
- ]);
+ let task = new AiOptimizationClaudeLlmResponsesLiveRequestInfo();
+   task.system_message = "communicate as if we are in a business meeting";
+   task.message_chain = [
+         new LlmMessageChainItem({
+           role: "user",
+           message: "Hello, what’s up?",
+         }),
+         new LlmMessageChainItem({
+           role: "ai",
+           message: "Hello! I’m doing well, thank you. How can I assist you today? Are there any specific topics or projects you’d like to discuss in our meeting?",
+         }),
+   ];
+   task.max_output_tokens = 200;
+   task.model_name = "claude-opus-4-0";
+   task.temperature = 0.3;
+   task.web_search = true;
+   task.web_search_country_iso_code = "FR";
+   task.user_prompt = "provide information on how relevant the amusement park business is in France now";
+ let response = await api.claudeLlmResponsesLive([task]);
 ```
 
 ### Parameters
@@ -1633,29 +1540,25 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.claudeLlmResponsesTaskPost([
-   [
-       new AiOptimizationClaudeLlmResponsesTaskPostRequestInfo({
-           system_message: "communicate as if we are in a business meeting",
-           message_chain: [
-           new LlmMessageChainItem({
-               role: "user",
-               message: "Hello, what’s up?",
-           }),
-           new LlmMessageChainItem({
-               role: "ai",
-               message: "Hello! I’m doing well, thank you. How can I assist you today? Are there any specific topics or projects you’d like to discuss in our meeting?",
-           }),
-       ],
-           max_output_tokens: 1024,
-           temperature: 0.3,
-           web_search_country_iso_code: "FR",
-           model_name: "claude-sonnet-4-0",
-           web_search: true,
-           user_prompt: "provide information on how relevant the amusement park business is in France now",
-       }),
-   ]
- ]);
+ let task = new AiOptimizationClaudeLlmResponsesTaskPostRequestInfo();
+   task.system_message = "communicate as if we are in a business meeting";
+   task.message_chain = [
+         new LlmMessageChainItem({
+           role: "user",
+           message: "Hello, what’s up?",
+         }),
+         new LlmMessageChainItem({
+           role: "ai",
+           message: "Hello! I’m doing well, thank you. How can I assist you today? Are there any specific topics or projects you’d like to discuss in our meeting?",
+         }),
+   ];
+   task.max_output_tokens = 1024;
+   task.temperature = 0.3;
+   task.web_search_country_iso_code = "FR";
+   task.model_name = "claude-sonnet-4-0";
+   task.web_search = true;
+   task.user_prompt = "provide information on how relevant the amusement park business is in France now";
+ let response = await api.claudeLlmResponsesTaskPost([task]);
 ```
 
 ### Parameters
@@ -1767,7 +1670,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.claudeLlmResponsesTaskGet(id);
 ```
 
@@ -1880,25 +1783,21 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.geminiLlmResponsesTaskPost([
-   [
-       new AiOptimizationGeminiLlmResponsesTaskPostRequestInfo({
-           system_message: "communicate as if we are in a business meeting",
-           message_chain: [
-           new LlmMessageChainItem({
-               role: "user",
-               message: "Hello, what’s up?",
-           }),
-           new LlmMessageChainItem({
-               role: "ai",
-               message: "Hello! I’m doing well, thank you. How can I assist you today? Are there any specific topics or projects you’d like to discuss in our meeting?",
-           }),
-       ],
-           model_name: "gemini-2.5-flash",
-           user_prompt: "provide information on how relevant the amusement park business is in France now",
-       }),
-   ]
- ]);
+ let task = new AiOptimizationGeminiLlmResponsesTaskPostRequestInfo();
+   task.system_message = "communicate as if we are in a business meeting";
+   task.message_chain = [
+         new LlmMessageChainItem({
+           role: "user",
+           message: "Hello, what’s up?",
+         }),
+         new LlmMessageChainItem({
+           role: "ai",
+           message: "Hello! I’m doing well, thank you. How can I assist you today? Are there any specific topics or projects you’d like to discuss in our meeting?",
+         }),
+   ];
+   task.model_name = "gemini-2.5-flash";
+   task.user_prompt = "provide information on how relevant the amusement park business is in France now";
+ let response = await api.geminiLlmResponsesTaskPost([task]);
 ```
 
 ### Parameters
@@ -2010,7 +1909,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.geminiLlmResponsesTaskGet(id);
 ```
 
@@ -2067,29 +1966,25 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.geminiLlmResponsesLive([
-   [
-       new AiOptimizationGeminiLlmResponsesLiveRequestInfo({
-           system_message: "communicate as if we are in a business meeting",
-           message_chain: [
-           new LlmMessageChainItem({
-               role: "user",
-               message: "Hello, what’s up?",
-           }),
-           new LlmMessageChainItem({
-               role: "ai",
-               message: "Hello! I’m doing well, thank you. How can I assist you today? Are there any specific topics or projects you’d like to discuss in our meeting?",
-           }),
-       ],
-           max_output_tokens: 200,
-           temperature: 0.3,
-           top_p: 0.5,
-           model_name: "gemini-2.5-flash",
-           web_search: true,
-           user_prompt: "provide information on how relevant the amusement park business is in France now",
-       }),
-   ]
- ]);
+ let task = new AiOptimizationGeminiLlmResponsesLiveRequestInfo();
+   task.system_message = "communicate as if we are in a business meeting";
+   task.message_chain = [
+         new LlmMessageChainItem({
+           role: "user",
+           message: "Hello, what’s up?",
+         }),
+         new LlmMessageChainItem({
+           role: "ai",
+           message: "Hello! I’m doing well, thank you. How can I assist you today? Are there any specific topics or projects you’d like to discuss in our meeting?",
+         }),
+   ];
+   task.max_output_tokens = 200;
+   task.temperature = 0.3;
+   task.top_p = 0.5;
+   task.model_name = "gemini-2.5-flash";
+   task.web_search = true;
+   task.user_prompt = "provide information on how relevant the amusement park business is in France now";
+ let response = await api.geminiLlmResponsesLive([task]);
 ```
 
 ### Parameters
@@ -2257,15 +2152,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.geminiLlmScraperTaskPost([
-   [
-       new AiOptimizationGeminiLlmScraperTaskPostRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "albert einstein",
-       }),
-   ]
- ]);
+ let task = new AiOptimizationGeminiLlmScraperTaskPostRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "albert einstein";
+ let response = await api.geminiLlmScraperTaskPost([task]);
 ```
 
 ### Parameters
@@ -2377,7 +2268,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.geminiLlmScraperTaskGetAdvanced(id);
 ```
 
@@ -2434,7 +2325,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.geminiLlmScraperTaskGetHtml(id);
 ```
 
@@ -2491,15 +2382,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.geminiLlmScraperLiveAdvanced([
-   [
-       new AiOptimizationGeminiLlmScraperLiveAdvancedRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "albert einstein",
-       }),
-   ]
- ]);
+ let task = new AiOptimizationGeminiLlmScraperLiveAdvancedRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "albert einstein";
+ let response = await api.geminiLlmScraperLiveAdvanced([task]);
 ```
 
 ### Parameters
@@ -2555,15 +2442,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.geminiLlmScraperLiveHtml([
-   [
-       new AiOptimizationGeminiLlmScraperLiveHtmlRequestInfo({
-           language_code: "en",
-           location_code: 2840,
-           keyword: "albert einstein",
-       }),
-   ]
- ]);
+ let task = new AiOptimizationGeminiLlmScraperLiveHtmlRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "albert einstein";
+ let response = await api.geminiLlmScraperLiveHtml([task]);
 ```
 
 ### Parameters
@@ -2675,29 +2558,25 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.perplexityLlmResponsesLive([
-   [
-       new AiOptimizationPerplexityLlmResponsesLiveRequestInfo({
-           system_message: "communicate as if we are in a business meeting",
-           message_chain: [
-           new LlmMessageChainItem({
-               role: "user",
-               message: "Hello, what’s up?",
-           }),
-           new LlmMessageChainItem({
-               role: "ai",
-               message: "Hello! I’m doing well, thank you. How can I assist you today? Are there any specific topics or projects you’d like to discuss in our meeting?",
-           }),
-       ],
-           max_output_tokens: 200,
-           temperature: 0.3,
-           top_p: 0.5,
-           web_search_country_iso_code: "FR",
-           model_name: "sonar",
-           user_prompt: "provide information on how relevant the amusement park business is in France now",
-       }),
-   ]
- ]);
+ let task = new AiOptimizationPerplexityLlmResponsesLiveRequestInfo();
+   task.system_message = "communicate as if we are in a business meeting";
+   task.message_chain = [
+         new LlmMessageChainItem({
+           role: "user",
+           message: "Hello, what’s up?",
+         }),
+         new LlmMessageChainItem({
+           role: "ai",
+           message: "Hello! I’m doing well, thank you. How can I assist you today? Are there any specific topics or projects you’d like to discuss in our meeting?",
+         }),
+   ];
+   task.max_output_tokens = 200;
+   task.temperature = 0.3;
+   task.top_p = 0.5;
+   task.web_search_country_iso_code = "FR";
+   task.model_name = "sonar";
+   task.user_prompt = "provide information on how relevant the amusement park business is in France now";
+ let response = await api.perplexityLlmResponsesLive([task]);
 ```
 
 ### Parameters
@@ -2865,18 +2744,14 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.aiKeywordDataKeywordsSearchVolumeLive([
-   [
-       new AiOptimizationAiKeywordDataKeywordsSearchVolumeLiveRequestInfo({
-           language_name: "English",
-           location_code: 2840,
-           keywords: [
-           "iphone",
-           "seo",
-       ],
-       }),
-   ]
- ]);
+ let task = new AiOptimizationAiKeywordDataKeywordsSearchVolumeLiveRequestInfo();
+   task.language_name = "English";
+   task.location_code = 2840;
+   task.keywords = [
+       "iphone",
+       "seo",
+   ];
+ let response = await api.aiKeywordDataKeywordsSearchVolumeLive([task]);
 ```
 
 ### Parameters

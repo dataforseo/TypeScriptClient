@@ -15,7 +15,7 @@ export interface IAiOptimizationGeminiLlmScraperTaskPostRequestInfo   {
         /** full name of search engine languagerequired field if you don't specify language_code;if you use this field, you don't need to specify language_code;you can receive the list of available languages of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/gemini/llm_scraper/languagesexample:English */
         language_name?: string | undefined
         
-        /** search engine language coderequired field if you don't specify language_name;if you use this field, you don't need to specify language_name;you can receive the list of available languages of the search engine with their language_code_by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/gemini/llm_scraper/languagesexample:enn */
+        /** search engine language coderequired field if you don't specify language_name;if you use this field, you don't need to specify language_name;you can receive the list of available languages of the search engine with their language_code_by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/gemini/llm_scraper/languagesexample:en */
         language_code?: string | undefined
         
         /** return expanded citation bar in HTML resultsoptional fieldwhen enabled, the HTML endpoint will return data from the expanded citation bar;default value: false */
@@ -59,7 +59,7 @@ export class AiOptimizationGeminiLlmScraperTaskPostRequestInfo  implements IAiOp
 
     language_name?: string | undefined;
     
-    /** search engine language coderequired field if you don't specify language_name;if you use this field, you don't need to specify language_name;you can receive the list of available languages of the search engine with their language_code_by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/gemini/llm_scraper/languagesexample:enn */
+    /** search engine language coderequired field if you don't specify language_name;if you use this field, you don't need to specify language_name;you can receive the list of available languages of the search engine with their language_code_by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/gemini/llm_scraper/languagesexample:en */
 
     language_code?: string | undefined;
     

@@ -3,7 +3,6 @@ import { AiModeImagesElementInfo, IAiModeImagesElementInfo } from "./AiModeImage
 import { AiModeAiOverviewReferenceInfo, IAiModeAiOverviewReferenceInfo } from "./AiModeAiOverviewReferenceInfo";
 import { AiOverviewExpandedComponent, IAiOverviewExpandedComponent } from "./AiOverviewExpandedComponent";
 import { Table, ITable } from "./Table";
-import { AiModeAiOverviewShoppingElementInfo, IAiModeAiOverviewShoppingElementInfo } from "./AiModeAiOverviewShoppingElementInfo";
 
 
 export interface IBaseSerpApiAiOverviewElementItem   {
@@ -85,12 +84,6 @@ left, right */
         if (data["type"] === "ai_overview_table_element") {
 
             let result = new SerpApiAiOverviewTableElementItem();
-            result.init(data);
-            return result;
-        }
-        if (data["type"] === "ai_overview_shopping") {
-
-            let result = new SerpApiAiOverviewShoppingItem();
             result.init(data);
             return result;
         }
@@ -560,95 +553,6 @@ export class SerpApiAiOverviewTableElementItem  extends BaseSerpApiAiOverviewEle
         
         data["markdown"] = this.markdown;
         data["table"] = this.table ? Table.fromJS(this.table)?.toJSON() : <any>undefined;
-        return data;
-    }
-}
-
- 
-export interface ISerpApiAiOverviewShoppingItem  extends IBaseSerpApiAiOverviewElementItem    {
-        
-        /** title of the element */
-        title?: string | undefined
-        
-        /** content of the element in markdown format */
-        markdown?: string | undefined
-        
-        /** popular keywords relevant to the initial search query
-if there are none, equals null */
-        items?: AiModeAiOverviewShoppingElementInfo[] | undefined
-
-    [key: string]: any;
-
-    }
-
-export class SerpApiAiOverviewShoppingItem  extends BaseSerpApiAiOverviewElementItem   implements ISerpApiAiOverviewShoppingItem {
-    
-    /** title of the element */
-
-    title?: string | undefined;
-    
-    /** content of the element in markdown format */
-
-    markdown?: string | undefined;
-    
-    /** popular keywords relevant to the initial search query
-if there are none, equals null */
-
-    items?: AiModeAiOverviewShoppingElementInfo[] | undefined;
-
-    [key: string]: any;
-
-
-    constructor(data?: ISerpApiAiOverviewShoppingItem) {
-    super(data);
-
-    }
-
-    init(data?: any) {
-        super.init(data);
-        if (data) {
-            for (var property in data) {
-                if (data.hasOwnProperty(property))
-                    this[property] = data[property];
-            }
-            this.title = data["title"];
-            this.markdown = data["markdown"];
-            if (Array.isArray(data["items"])) {
-                this.items = [];
-                for (let item of data["items"]) {
-                    this.items.push(AiModeAiOverviewShoppingElementInfo.fromJS(item));
-                }
-            }
-        }
-    }
-
-    static fromJS(data: any): SerpApiAiOverviewShoppingItem {
-        data = typeof data === 'object' ? data : {};
-
-
-        let result = new SerpApiAiOverviewShoppingItem();
-        result.init(data);
-        return result;
-    }
-
-    toJSON(data?: any) {
-        data = typeof data === 'object' ? data : {};
-
-         
-        super.toJSON(data);
-        
-        
-        data["title"] = this.title;
-        data["markdown"] = this.markdown;
-        data["items"] = null;
-        if (Array.isArray(this.items)) {
-            data["items"] = [];
-            for (let item of this.items) {
-                if (item && typeof item.toJSON === "function") {
-                    data["items"].push(item?.toJSON());
-                }
-            }
-        }
         return data;
     }
 }

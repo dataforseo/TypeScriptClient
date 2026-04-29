@@ -7,49 +7,43 @@ export interface IAiModeAiOverviewShoppingElementInfo   {
         /** type of element */
         type?: string | undefined
         
+        /** unique product identifier on Google Shoppinglearn more about the parameter in this help center guide */
         product_id?: string | undefined
         
+        /** unique identifier of the SERP data element */
         data_docid?: string | undefined
         
+        /** global product identifier on Google Shoppinglearn more about the parameter in this help center guide */
         gid?: string | undefined
         
-        /** title of the element */
+        /** reference page title */
         title?: string | undefined
         
-        /** reference page URL */
+        /** URL in link */
         url?: string | undefined
         
         /** domain in link */
         domain?: string | undefined
         
-        /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP
-if there is none, equals null */
+        /** product rating the popularity rate based on reviews if there is none, the value will be null */
         rating?: RatingInfo | undefined
         
-        /** pricing details
-contains the pricing details of the product or service featured in the result;
-if there is none, equals null */
+        /** product priceproduct price details on the seller's website; if there is none, the value will be null */
         price?: PriceInfo | undefined
         
-        /** seller of the product */
+        /** product sellername of the product's seller as displayed in search results */
         seller?: string | undefined
         
-        /** text alongside the link title */
+        /** additional information about the result */
         snippet?: string | undefined
         
-        /** merchant account provider
-commerce site that hosts products or websites of individual sellers under the same merchant account
-example:
-by Google */
+        /** merchant account providere-commerce site that hosts products or websites of individual sellers under the same merchant accountexample:by Google */
         marketplace?: string | undefined
         
-        /** relevant marketplace URL
-URL of the page on the marketplace website where the product is hosted */
+        /** URL to the merchant account providere-commerce site that hosts products or websites of individual sellers under the same merchant account */
         marketplace_url?: string | undefined
         
-        /** URL of the image
-the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+        /** URL of the imagethe URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
         image_url?: string | undefined
 
     [key: string]: any;
@@ -61,18 +55,24 @@ export class AiModeAiOverviewShoppingElementInfo  implements IAiModeAiOverviewSh
     /** type of element */
 
     type?: string | undefined;
+    
+    /** unique product identifier on Google Shoppinglearn more about the parameter in this help center guide */
 
     product_id?: string | undefined;
+    
+    /** unique identifier of the SERP data element */
 
     data_docid?: string | undefined;
+    
+    /** global product identifier on Google Shoppinglearn more about the parameter in this help center guide */
 
     gid?: string | undefined;
     
-    /** title of the element */
+    /** reference page title */
 
     title?: string | undefined;
     
-    /** reference page URL */
+    /** URL in link */
 
     url?: string | undefined;
     
@@ -80,40 +80,31 @@ export class AiModeAiOverviewShoppingElementInfo  implements IAiModeAiOverviewSh
 
     domain?: string | undefined;
     
-    /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP
-if there is none, equals null */
+    /** product rating the popularity rate based on reviews if there is none, the value will be null */
 
     rating?: RatingInfo | undefined;
     
-    /** pricing details
-contains the pricing details of the product or service featured in the result;
-if there is none, equals null */
+    /** product priceproduct price details on the seller's website; if there is none, the value will be null */
 
     price?: PriceInfo | undefined;
     
-    /** seller of the product */
+    /** product sellername of the product's seller as displayed in search results */
 
     seller?: string | undefined;
     
-    /** text alongside the link title */
+    /** additional information about the result */
 
     snippet?: string | undefined;
     
-    /** merchant account provider
-commerce site that hosts products or websites of individual sellers under the same merchant account
-example:
-by Google */
+    /** merchant account providere-commerce site that hosts products or websites of individual sellers under the same merchant accountexample:by Google */
 
     marketplace?: string | undefined;
     
-    /** relevant marketplace URL
-URL of the page on the marketplace website where the product is hosted */
+    /** URL to the merchant account providere-commerce site that hosts products or websites of individual sellers under the same merchant account */
 
     marketplace_url?: string | undefined;
     
-    /** URL of the image
-the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+    /** URL of the imagethe URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
     image_url?: string | undefined;
 

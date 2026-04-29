@@ -3,13 +3,13 @@ export interface IFindResultsOnElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of the row */
+        /** title of a given link element */
         title?: string | undefined
         
-        /** domain where a link points */
+        /** website domain */
         domain?: string | undefined
         
-        /** URL of element */
+        /** URL */
         url?: string | undefined
         
         /** source of the element
@@ -26,15 +26,15 @@ export class FindResultsOnElement  implements IFindResultsOnElement {
 
     type?: string | undefined;
     
-    /** title of the row */
+    /** title of a given link element */
 
     title?: string | undefined;
     
-    /** domain where a link points */
+    /** website domain */
 
     domain?: string | undefined;
     
-    /** URL of element */
+    /** URL */
 
     url?: string | undefined;
     

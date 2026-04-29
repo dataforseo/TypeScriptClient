@@ -17,5 +17,5 @@
 **extra** | **{ [key: string]: string; }** | additional information about the result |[optional]|
 **description_rows** | **string[]** | extended description<br>if there is none, equals null |[optional]|
 **links** | **AdLinkElement[]** | links featured in the organic result |[optional]|
-**price** | **PriceInfo** | price of the shopping element |[optional]|
-**rating** | **RatingInfo** | the item’s rating<br>the popularity rate based on reviews and displayed in SERP |[optional]|
+**price** | **PriceInfo** | price of booking a place for the specified dates of stay |[optional]|
+**rating** | **RatingInfo** | the item’s rating <br>the popularity rate based on reviews and displayed in SERP |[optional]|

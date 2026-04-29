@@ -3,13 +3,13 @@ export interface IAdLinkElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of the element in SERP */
+        /** reference page title */
         title?: string | undefined
         
         /** link description */
         description?: string | undefined
         
-        /** relevant URL */
+        /** reference page URL */
         url?: string | undefined
         
         /** domain where a link points */
@@ -28,7 +28,7 @@ export class AdLinkElement  implements IAdLinkElement {
 
     type?: string | undefined;
     
-    /** title of the element in SERP */
+    /** reference page title */
 
     title?: string | undefined;
     
@@ -36,7 +36,7 @@ export class AdLinkElement  implements IAdLinkElement {
 
     description?: string | undefined;
     
-    /** relevant URL */
+    /** reference page URL */
 
     url?: string | undefined;
     

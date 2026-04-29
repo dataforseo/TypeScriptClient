@@ -3,7 +3,7 @@ export interface IMathSolverExpandedElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of a given link element */
+        /** title of the row */
         title?: string | undefined
         
         /** solution of the element
@@ -20,7 +20,7 @@ export class MathSolverExpandedElement  implements IMathSolverExpandedElement {
 
     type?: string | undefined;
     
-    /** title of a given link element */
+    /** title of the row */
 
     title?: string | undefined;
     

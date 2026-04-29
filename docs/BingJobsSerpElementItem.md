@@ -4,6 +4,6 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**title** | **string** | title of the result in SERP |[optional]|
-**url** | **string** | relevant URL |[optional]|
-**items** | **JobsElement[]** | additional items present in the element<br>if there are none, equals null |[optional]|
+**title** | **string** | title of the item |[optional]|
+**url** | **string** | URL |[optional]|
+**items** | **JobsElement[]** | contains results featured in the ‘hotels_pack’ element of SERP |[optional]|

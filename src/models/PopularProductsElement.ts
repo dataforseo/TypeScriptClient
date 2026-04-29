@@ -7,7 +7,7 @@ export interface IPopularProductsElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of the row */
+        /** title of a given link element */
         title?: string | undefined
         
         /** description of the results element in SERP */
@@ -19,14 +19,16 @@ export interface IPopularProductsElement   {
         /** seller of the product */
         seller?: string | undefined
         
-        /** URL of the image */
+        /** URL of the image
+the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
         image_url?: string | undefined
         
-        /** price of the app element */
+        /** price indicated in the element */
         price?: PriceInfo | undefined
         
-        /** the element’s rating 
-the popularity rate based on reviews and displayed in SERP */
+        /** the item’s rating 
+the popularity rate based on reviews and displayed in SERP;
+if there is none, equals null */
         rating?: RatingInfo | undefined
 
     [key: string]: any;
@@ -39,7 +41,7 @@ export class PopularProductsElement  implements IPopularProductsElement {
 
     type?: string | undefined;
     
-    /** title of the row */
+    /** title of a given link element */
 
     title?: string | undefined;
     
@@ -55,16 +57,18 @@ export class PopularProductsElement  implements IPopularProductsElement {
 
     seller?: string | undefined;
     
-    /** URL of the image */
+    /** URL of the image
+the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
     image_url?: string | undefined;
     
-    /** price of the app element */
+    /** price indicated in the element */
 
     price?: PriceInfo | undefined;
     
-    /** the element’s rating 
-the popularity rate based on reviews and displayed in SERP */
+    /** the item’s rating 
+the popularity rate based on reviews and displayed in SERP;
+if there is none, equals null */
 
     rating?: RatingInfo | undefined;
 

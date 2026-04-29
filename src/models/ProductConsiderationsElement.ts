@@ -6,7 +6,7 @@ export interface IProductConsiderationsElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of the row */
+        /** title of a given link element */
         title?: string | undefined
         
         /** category of the consideration element
@@ -26,7 +26,7 @@ export class ProductConsiderationsElement  implements IProductConsiderationsElem
 
     type?: string | undefined;
     
-    /** title of the row */
+    /** title of a given link element */
 
     title?: string | undefined;
     

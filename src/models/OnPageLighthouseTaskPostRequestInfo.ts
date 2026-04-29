@@ -21,6 +21,27 @@ export interface IOnPageLighthouseTaskPostRequestInfo   {
         /** lighthouse language codeoptional fieldyou can receive the list of available languages of the search engine with their language_code by making a separate request to https://api.dataforseo.com/v3/on_page/lighthouse/languagesdefault value:en */
         language_code?: string | undefined
         
+        /** custom user agentoptional fieldspecify the custom user agent used by the browser when running the Lighthouse audit;can be specified with up to 254 characters; */
+        custom_user_agent?: string | undefined
+        
+        /** browser screen widthoptional fieldset the screen width of the browser used for the Lighthouse audit to emulate a specific device;can be specified within the following range: 240–9999; */
+        browser_screen_width?: number | undefined
+        
+        /** browser screen heightoptional fieldset the screen height of the browser used for the Lighthouse audit to emulate a specific device;can be specified within the following range: 240–9999; */
+        browser_screen_height?: number | undefined
+        
+        /** browser screen scale factoroptional fieldset the device pixel ratio of the browser used for the Lighthouse audit;can be specified within the following range: 0.5–3; */
+        browser_screen_scale_factor?: number | undefined
+        
+        /** browser network throttling methodoptional fielddefines the method used to apply throttling during the Lighthouse audit;possible vaules:simulate - calculates estimated performance metrics without applying explicit throttling;devtools -  applies the throttling settings specified in browser_network_throttling and browser_cpu_throttling_multiplier;provided - uses the network conditions of the crawling environment; */
+        browser_network_throttling_method?: string | undefined
+        
+        /** browser CPU throttling multiplierrequired if browser_network_throttling_method is set to devtools;set the CPU throttling multiplier to simulate device performance conditions during the Lighthouse audit;can be specified within the following range: 1–4;Note: this parameter is applied only when browser_network_throttling_method is set to devtools; */
+        browser_cpu_throttling_multiplier?: number | undefined
+        
+        /** browser network throttlingrequired if browser_network_throttling_method is set to devtools;set the network throttling profile to simulate connection speed conditions during the Lighthouse audit;possible values: no_throttling, fast_4g, slow_4g, regular_3g, pc;Note: this parameter is applied only when browser_network_throttling_method is set to devtools; */
+        browser_network_throttling?: string | undefined
+        
         /** user-defined task identifieroptional fieldthe character limit is 255you can use this parameter to identify the task and match it with the resultyou will find the specified tag value in the data object of the response */
         tag?: string | undefined
         
@@ -61,6 +82,34 @@ export class OnPageLighthouseTaskPostRequestInfo  implements IOnPageLighthouseTa
 
     language_code?: string | undefined;
     
+    /** custom user agentoptional fieldspecify the custom user agent used by the browser when running the Lighthouse audit;can be specified with up to 254 characters; */
+
+    custom_user_agent?: string | undefined;
+    
+    /** browser screen widthoptional fieldset the screen width of the browser used for the Lighthouse audit to emulate a specific device;can be specified within the following range: 240–9999; */
+
+    browser_screen_width?: number | undefined;
+    
+    /** browser screen heightoptional fieldset the screen height of the browser used for the Lighthouse audit to emulate a specific device;can be specified within the following range: 240–9999; */
+
+    browser_screen_height?: number | undefined;
+    
+    /** browser screen scale factoroptional fieldset the device pixel ratio of the browser used for the Lighthouse audit;can be specified within the following range: 0.5–3; */
+
+    browser_screen_scale_factor?: number | undefined;
+    
+    /** browser network throttling methodoptional fielddefines the method used to apply throttling during the Lighthouse audit;possible vaules:simulate - calculates estimated performance metrics without applying explicit throttling;devtools -  applies the throttling settings specified in browser_network_throttling and browser_cpu_throttling_multiplier;provided - uses the network conditions of the crawling environment; */
+
+    browser_network_throttling_method?: string | undefined;
+    
+    /** browser CPU throttling multiplierrequired if browser_network_throttling_method is set to devtools;set the CPU throttling multiplier to simulate device performance conditions during the Lighthouse audit;can be specified within the following range: 1–4;Note: this parameter is applied only when browser_network_throttling_method is set to devtools; */
+
+    browser_cpu_throttling_multiplier?: number | undefined;
+    
+    /** browser network throttlingrequired if browser_network_throttling_method is set to devtools;set the network throttling profile to simulate connection speed conditions during the Lighthouse audit;possible values: no_throttling, fast_4g, slow_4g, regular_3g, pc;Note: this parameter is applied only when browser_network_throttling_method is set to devtools; */
+
+    browser_network_throttling?: string | undefined;
+    
     /** user-defined task identifieroptional fieldthe character limit is 255you can use this parameter to identify the task and match it with the resultyou will find the specified tag value in the data object of the response */
 
     tag?: string | undefined;
@@ -96,6 +145,13 @@ export class OnPageLighthouseTaskPostRequestInfo  implements IOnPageLighthouseTa
             this.version = data["version"];
             this.language_name = data["language_name"];
             this.language_code = data["language_code"];
+            this.custom_user_agent = data["custom_user_agent"];
+            this.browser_screen_width = data["browser_screen_width"];
+            this.browser_screen_height = data["browser_screen_height"];
+            this.browser_screen_scale_factor = data["browser_screen_scale_factor"];
+            this.browser_network_throttling_method = data["browser_network_throttling_method"];
+            this.browser_cpu_throttling_multiplier = data["browser_cpu_throttling_multiplier"];
+            this.browser_network_throttling = data["browser_network_throttling"];
             this.tag = data["tag"];
             this.pingback_url = data["pingback_url"];
         }
@@ -122,6 +178,13 @@ export class OnPageLighthouseTaskPostRequestInfo  implements IOnPageLighthouseTa
         data["version"] = this.version;
         data["language_name"] = this.language_name;
         data["language_code"] = this.language_code;
+        data["custom_user_agent"] = this.custom_user_agent;
+        data["browser_screen_width"] = this.browser_screen_width;
+        data["browser_screen_height"] = this.browser_screen_height;
+        data["browser_screen_scale_factor"] = this.browser_screen_scale_factor;
+        data["browser_network_throttling_method"] = this.browser_network_throttling_method;
+        data["browser_cpu_throttling_multiplier"] = this.browser_cpu_throttling_multiplier;
+        data["browser_network_throttling"] = this.browser_network_throttling;
         data["tag"] = this.tag;
         data["pingback_url"] = this.pingback_url;
         return data;

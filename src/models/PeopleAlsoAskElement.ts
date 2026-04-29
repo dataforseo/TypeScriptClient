@@ -6,7 +6,7 @@ export interface IPeopleAlsoAskElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of the row */
+        /** title of a given link element */
         title?: string | undefined
         
         /** question that triggered additional expanded elements */
@@ -28,7 +28,7 @@ export class PeopleAlsoAskElement  implements IPeopleAlsoAskElement {
 
     type?: string | undefined;
     
-    /** title of the row */
+    /** title of a given link element */
 
     title?: string | undefined;
     

@@ -3,10 +3,10 @@ export interface IPodcastsElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of the row */
+        /** title of a given link element */
         title?: string | undefined
         
-        /** URL of element */
+        /** URL */
         url?: string | undefined
         
         /** description of the results element in SERP */
@@ -31,11 +31,11 @@ export class PodcastsElement  implements IPodcastsElement {
 
     type?: string | undefined;
     
-    /** title of the row */
+    /** title of a given link element */
 
     title?: string | undefined;
     
-    /** URL of element */
+    /** URL */
 
     url?: string | undefined;
     

@@ -3,16 +3,16 @@ export interface IPerspectivesElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of the row */
+        /** title of a given link element */
         title?: string | undefined
         
         /** description of the results element in SERP */
         description?: string | undefined
         
-        /** URL of element */
+        /** URL */
         url?: string | undefined
         
-        /** domain where a link points */
+        /** website domain */
         domain?: string | undefined
         
         /** the date when the page source of the element was published */
@@ -38,7 +38,7 @@ export class PerspectivesElement  implements IPerspectivesElement {
 
     type?: string | undefined;
     
-    /** title of the row */
+    /** title of a given link element */
 
     title?: string | undefined;
     
@@ -46,11 +46,11 @@ export class PerspectivesElement  implements IPerspectivesElement {
 
     description?: string | undefined;
     
-    /** URL of element */
+    /** URL */
 
     url?: string | undefined;
     
-    /** domain where a link points */
+    /** website domain */
 
     domain?: string | undefined;
     

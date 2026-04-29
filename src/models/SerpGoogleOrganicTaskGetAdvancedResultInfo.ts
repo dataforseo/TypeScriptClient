@@ -54,8 +54,7 @@ total number of retrieved SERPs in the result */
         /** the number of results returned in the items array */
         items_count?: number | undefined
         
-        /** additional items present in the element
-if there are none, equals null */
+        /** contains arrays of elements available in the list */
         items?: BaseSerpApiElementItem[] | undefined
 
     [key: string]: any;
@@ -126,8 +125,7 @@ total number of retrieved SERPs in the result */
 
     items_count?: number | undefined;
     
-    /** additional items present in the element
-if there are none, equals null */
+    /** contains arrays of elements available in the list */
 
     items?: BaseSerpApiElementItem[] | undefined;
 

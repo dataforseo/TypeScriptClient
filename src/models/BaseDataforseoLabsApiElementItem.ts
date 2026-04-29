@@ -1,11 +1,11 @@
-import { Table, ITable } from "./Table";
+import { RatingInfo, IRatingInfo } from "./RatingInfo";
+import { LinkElement, ILinkElement } from "./LinkElement";
+import { AboutThisResultElement, IAboutThisResultElement } from "./AboutThisResultElement";
 import { RankChanges, IRankChanges } from "./RankChanges";
 import { BacklinksInfo, IBacklinksInfo } from "./BacklinksInfo";
 import { RankInfo, IRankInfo } from "./RankInfo";
-import { RatingInfo, IRatingInfo } from "./RatingInfo";
 import { AdLinkElement, IAdLinkElement } from "./AdLinkElement";
-import { LinkElement, ILinkElement } from "./LinkElement";
-import { AboutThisResultElement, IAboutThisResultElement } from "./AboutThisResultElement";
+import { Table, ITable } from "./Table";
 import { DataforseoLabsCarouselElement, IDataforseoLabsCarouselElement } from "./DataforseoLabsCarouselElement";
 import { MultiCarouselElement, IMultiCarouselElement } from "./MultiCarouselElement";
 import { GoogleFlightsElement, IGoogleFlightsElement } from "./GoogleFlightsElement";
@@ -128,9 +128,9 @@ left, right */
     static fromJS(data: any): BaseDataforseoLabsApiElementItem {
         data = typeof data === 'object' ? data : {};
 
-        if (data["type"] === "featured_snippet") {
+        if (data["type"] === "organic") {
 
-            let result = new DataLabsFeaturedSnippetSerpElementItem();
+            let result = new DataLabsOrganicSerpElementItem();
             result.init(data);
             return result;
         }
@@ -146,9 +146,9 @@ left, right */
             result.init(data);
             return result;
         }
-        if (data["type"] === "organic") {
+        if (data["type"] === "featured_snippet") {
 
-            let result = new DataLabsOrganicSerpElementItem();
+            let result = new DataLabsFeaturedSnippetSerpElementItem();
             result.init(data);
             return result;
         }
@@ -366,7 +366,7 @@ left, right */
 }
 
  
-export interface IDataLabsFeaturedSnippetSerpElementItem  extends IBaseDataforseoLabsApiElementItem    {
+export interface IDataLabsOrganicSerpElementItem  extends IBaseDataforseoLabsApiElementItem    {
         
         /** subdomain in SERP */
         domain?: string | undefined
@@ -374,18 +374,56 @@ export interface IDataLabsFeaturedSnippetSerpElementItem  extends IBaseDataforse
         /** title of the result in SERP */
         title?: string | undefined
         
-        /** the title of the featured snippets source page */
-        featured_title?: string | undefined
+        /** relevant URL in SERP */
+        url?: string | undefined
+        
+        /** breadcrumb in SERP */
+        breadcrumb?: string | undefined
+        
+        /** relevant website name in SERP */
+        website_name?: string | undefined
+        
+        /** indicates whether the element contains an image */
+        is_image?: boolean | undefined
+        
+        /** indicates whether the element contains a video */
+        is_video?: boolean | undefined
+        
+        /** indicates whether the element is a featured_snippet */
+        is_featured_snippet?: boolean | undefined
+        
+        /** indicates whether the element is marked as malicious */
+        is_malicious?: boolean | undefined
         
         /** description of the results element in SERP */
         description?: string | undefined
         
-        /** relevant URL in SERP */
-        url?: string | undefined
+        /** includes additional information appended before the result description in SERP */
+        pre_snippet?: string | undefined
         
-        /** results table
+        /** includes additional information appended after the result description in SERP */
+        extended_snippet?: string | undefined
+        
+        /** Accelerated Mobile Pages
+indicates whether an item has the Accelerated Mobile Page (AMP) version */
+        amp_version?: boolean | undefined
+        
+        /** the item’s rating 
+the popularity rate based on reviews and displayed in SERP */
+        rating?: RatingInfo | undefined
+        
+        /** words highlighted in bold within the results description */
+        highlighted?: string[] | undefined
+        
+        /** sitelinks
+the links shown below some of Google’s search results
 if there are none, equals null */
-        table?: Table | undefined
+        links?: LinkElement[] | undefined
+        
+        /** contains information from the ‘About this result’ panel
+‘About this result’ panel provides additional context about why Google returned this result for the given query;
+this feature appears after clicking on the three dots next to most results */
+        about_this_result?: AboutThisResultElement | undefined
         
         /** primary domain name in SERP */
         main_domain?: string | undefined
@@ -424,7 +462,7 @@ contains information about the ranking changes of the SERP element since the pre
 
     }
 
-export class DataLabsFeaturedSnippetSerpElementItem  extends BaseDataforseoLabsApiElementItem   implements IDataLabsFeaturedSnippetSerpElementItem {
+export class DataLabsOrganicSerpElementItem  extends BaseDataforseoLabsApiElementItem   implements IDataLabsOrganicSerpElementItem {
     
     /** subdomain in SERP */
 
@@ -434,22 +472,71 @@ export class DataLabsFeaturedSnippetSerpElementItem  extends BaseDataforseoLabsA
 
     title?: string | undefined;
     
-    /** the title of the featured snippets source page */
+    /** relevant URL in SERP */
 
-    featured_title?: string | undefined;
+    url?: string | undefined;
+    
+    /** breadcrumb in SERP */
+
+    breadcrumb?: string | undefined;
+    
+    /** relevant website name in SERP */
+
+    website_name?: string | undefined;
+    
+    /** indicates whether the element contains an image */
+
+    is_image?: boolean | undefined;
+    
+    /** indicates whether the element contains a video */
+
+    is_video?: boolean | undefined;
+    
+    /** indicates whether the element is a featured_snippet */
+
+    is_featured_snippet?: boolean | undefined;
+    
+    /** indicates whether the element is marked as malicious */
+
+    is_malicious?: boolean | undefined;
     
     /** description of the results element in SERP */
 
     description?: string | undefined;
     
-    /** relevant URL in SERP */
+    /** includes additional information appended before the result description in SERP */
 
-    url?: string | undefined;
+    pre_snippet?: string | undefined;
     
-    /** results table
+    /** includes additional information appended after the result description in SERP */
+
+    extended_snippet?: string | undefined;
+    
+    /** Accelerated Mobile Pages
+indicates whether an item has the Accelerated Mobile Page (AMP) version */
+
+    amp_version?: boolean | undefined;
+    
+    /** the item’s rating 
+the popularity rate based on reviews and displayed in SERP */
+
+    rating?: RatingInfo | undefined;
+    
+    /** words highlighted in bold within the results description */
+
+    highlighted?: string[] | undefined;
+    
+    /** sitelinks
+the links shown below some of Google’s search results
 if there are none, equals null */
 
-    table?: Table | undefined;
+    links?: LinkElement[] | undefined;
+    
+    /** contains information from the ‘About this result’ panel
+‘About this result’ panel provides additional context about why Google returned this result for the given query;
+this feature appears after clicking on the three dots next to most results */
+
+    about_this_result?: AboutThisResultElement | undefined;
     
     /** primary domain name in SERP */
 
@@ -495,7 +582,7 @@ contains information about the ranking changes of the SERP element since the pre
     [key: string]: any;
 
 
-    constructor(data?: IDataLabsFeaturedSnippetSerpElementItem) {
+    constructor(data?: IDataLabsOrganicSerpElementItem) {
     super(data);
 
     }
@@ -509,10 +596,26 @@ contains information about the ranking changes of the SERP element since the pre
             }
             this.domain = data["domain"];
             this.title = data["title"];
-            this.featured_title = data["featured_title"];
-            this.description = data["description"];
             this.url = data["url"];
-            this.table = data["table"] ? Table.fromJS(data["table"]) : <any>undefined;
+            this.breadcrumb = data["breadcrumb"];
+            this.website_name = data["website_name"];
+            this.is_image = data["is_image"];
+            this.is_video = data["is_video"];
+            this.is_featured_snippet = data["is_featured_snippet"];
+            this.is_malicious = data["is_malicious"];
+            this.description = data["description"];
+            this.pre_snippet = data["pre_snippet"];
+            this.extended_snippet = data["extended_snippet"];
+            this.amp_version = data["amp_version"];
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
+            this.highlighted = data["highlighted"];
+            if (Array.isArray(data["links"])) {
+                this.links = [];
+                for (let item of data["links"]) {
+                    this.links.push(LinkElement.fromJS(item));
+                }
+            }
+            this.about_this_result = data["about_this_result"] ? AboutThisResultElement.fromJS(data["about_this_result"]) : <any>undefined;
             this.main_domain = data["main_domain"];
             this.relative_url = data["relative_url"];
             this.etv = data["etv"];
@@ -524,11 +627,11 @@ contains information about the ranking changes of the SERP element since the pre
         }
     }
 
-    static fromJS(data: any): DataLabsFeaturedSnippetSerpElementItem {
+    static fromJS(data: any): DataLabsOrganicSerpElementItem {
         data = typeof data === 'object' ? data : {};
 
 
-        let result = new DataLabsFeaturedSnippetSerpElementItem();
+        let result = new DataLabsOrganicSerpElementItem();
         result.init(data);
         return result;
     }
@@ -542,10 +645,29 @@ contains information about the ranking changes of the SERP element since the pre
         
         data["domain"] = this.domain;
         data["title"] = this.title;
-        data["featured_title"] = this.featured_title;
-        data["description"] = this.description;
         data["url"] = this.url;
-        data["table"] = this.table ? Table.fromJS(this.table)?.toJSON() : <any>undefined;
+        data["breadcrumb"] = this.breadcrumb;
+        data["website_name"] = this.website_name;
+        data["is_image"] = this.is_image;
+        data["is_video"] = this.is_video;
+        data["is_featured_snippet"] = this.is_featured_snippet;
+        data["is_malicious"] = this.is_malicious;
+        data["description"] = this.description;
+        data["pre_snippet"] = this.pre_snippet;
+        data["extended_snippet"] = this.extended_snippet;
+        data["amp_version"] = this.amp_version;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["highlighted"] = this.highlighted;
+        data["links"] = null;
+        if (Array.isArray(this.links)) {
+            data["links"] = [];
+            for (let item of this.links) {
+                if (item && typeof item.toJSON === "function") {
+                    data["links"].push(item?.toJSON());
+                }
+            }
+        }
+        data["about_this_result"] = this.about_this_result ? AboutThisResultElement.fromJS(this.about_this_result)?.toJSON() : <any>undefined;
         data["main_domain"] = this.main_domain;
         data["relative_url"] = this.relative_url;
         data["etv"] = this.etv;
@@ -766,16 +888,16 @@ export interface IDataLabsPaidSerpElementItem  extends IBaseDataforseoLabsApiEle
         /** title of the result in SERP */
         title?: string | undefined
         
-        /** subdomain in SERP */
+        /** domain in SERP of the Ad element */
         domain?: string | undefined
         
         /** description of the results element in SERP */
         description?: string | undefined
         
-        /** breadcrumb in SERP */
+        /** breadcrumb of the Ad element in SERP */
         breadcrumb?: string | undefined
         
-        /** relevant URL in SERP */
+        /** relevant URL of the Ad element in SERP */
         url?: string | undefined
         
         /** words highlighted in bold within the results description */
@@ -804,9 +926,8 @@ calculated as the product of CTR (click-through-rate) and search volume values o
 learn more about how the metric is calculated in this help center article */
         etv?: number | undefined
         
-        /** estimated cost of converting organic search traffic into paid
-represents the estimated monthly cost of running ads (USD) for the returned keyword
-the metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search
+        /** estimated cost of paid monthly search traffic
+represents the estimated cost of paid monthly traffic (USD) based on etv and cpc values
 learn more about how the metric is calculated in this help center article */
         estimated_paid_traffic_cost?: number | undefined
         
@@ -836,7 +957,7 @@ export class DataLabsPaidSerpElementItem  extends BaseDataforseoLabsApiElementIt
 
     title?: string | undefined;
     
-    /** subdomain in SERP */
+    /** domain in SERP of the Ad element */
 
     domain?: string | undefined;
     
@@ -844,11 +965,11 @@ export class DataLabsPaidSerpElementItem  extends BaseDataforseoLabsApiElementIt
 
     description?: string | undefined;
     
-    /** breadcrumb in SERP */
+    /** breadcrumb of the Ad element in SERP */
 
     breadcrumb?: string | undefined;
     
-    /** relevant URL in SERP */
+    /** relevant URL of the Ad element in SERP */
 
     url?: string | undefined;
     
@@ -884,9 +1005,8 @@ learn more about how the metric is calculated in this help center article */
 
     etv?: number | undefined;
     
-    /** estimated cost of converting organic search traffic into paid
-represents the estimated monthly cost of running ads (USD) for the returned keyword
-the metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search
+    /** estimated cost of paid monthly search traffic
+represents the estimated cost of paid monthly traffic (USD) based on etv and cpc values
 learn more about how the metric is calculated in this help center article */
 
     estimated_paid_traffic_cost?: number | undefined;
@@ -997,63 +1117,26 @@ contains information about the ranking changes of the SERP element since the pre
 }
 
  
-export interface IDataLabsOrganicSerpElementItem  extends IBaseDataforseoLabsApiElementItem    {
+export interface IDataLabsFeaturedSnippetSerpElementItem  extends IBaseDataforseoLabsApiElementItem    {
         
-        /** domain in SERP of the Ad element */
+        /** subdomain in SERP */
         domain?: string | undefined
         
         /** title of the result in SERP */
         title?: string | undefined
         
-        /** result’s URL */
-        url?: string | undefined
-        
-        /** breadcrumb of the Ad element in SERP */
-        breadcrumb?: string | undefined
-        
-        website_name?: string | undefined
-        
-        /** indicates whether the element contains an image */
-        is_image?: boolean | undefined
-        
-        /** indicates whether the element contains a video */
-        is_video?: boolean | undefined
-        
-        /** indicates whether the element is a featured_snippet */
-        is_featured_snippet?: boolean | undefined
-        
-        /** indicates whether the element is marked as malicious */
-        is_malicious?: boolean | undefined
+        /** the title of the featured snippets source page */
+        featured_title?: string | undefined
         
         /** description of the results element in SERP */
         description?: string | undefined
         
-        /** includes additional information appended before the result description in SERP */
-        pre_snippet?: string | undefined
+        /** relevant URL in SERP */
+        url?: string | undefined
         
-        /** includes additional information appended after the result description in SERP */
-        extended_snippet?: string | undefined
-        
-        /** Accelerated Mobile Pages
-indicates whether an item has the Accelerated Mobile Page (AMP) version */
-        amp_version?: boolean | undefined
-        
-        /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingInfo | undefined
-        
-        /** words highlighted in bold within the results description */
-        highlighted?: string[] | undefined
-        
-        /** sitelinks
-the links shown below some of Google’s search results
+        /** results table
 if there are none, equals null */
-        links?: LinkElement[] | undefined
-        
-        /** contains information from the ‘About this result’ panel
-‘About this result’ panel provides additional context about why Google returned this result for the given query;
-this feature appears after clicking on the three dots next to most results */
-        about_this_result?: AboutThisResultElement | undefined
+        table?: Table | undefined
         
         /** primary domain name in SERP */
         main_domain?: string | undefined
@@ -1067,8 +1150,9 @@ calculated as the product of CTR (click-through-rate) and search volume values o
 learn more about how the metric is calculated in this help center article */
         etv?: number | undefined
         
-        /** estimated cost of paid monthly search traffic
-represents the estimated cost of paid monthly traffic (USD) based on etv and cpc values
+        /** estimated cost of converting organic search traffic into paid
+represents the estimated monthly cost of running ads (USD) for the returned keyword
+the metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search
 learn more about how the metric is calculated in this help center article */
         estimated_paid_traffic_cost?: number | undefined
         
@@ -1092,9 +1176,9 @@ contains information about the ranking changes of the SERP element since the pre
 
     }
 
-export class DataLabsOrganicSerpElementItem  extends BaseDataforseoLabsApiElementItem   implements IDataLabsOrganicSerpElementItem {
+export class DataLabsFeaturedSnippetSerpElementItem  extends BaseDataforseoLabsApiElementItem   implements IDataLabsFeaturedSnippetSerpElementItem {
     
-    /** domain in SERP of the Ad element */
+    /** subdomain in SERP */
 
     domain?: string | undefined;
     
@@ -1102,69 +1186,22 @@ export class DataLabsOrganicSerpElementItem  extends BaseDataforseoLabsApiElemen
 
     title?: string | undefined;
     
-    /** result’s URL */
+    /** the title of the featured snippets source page */
 
-    url?: string | undefined;
-    
-    /** breadcrumb of the Ad element in SERP */
-
-    breadcrumb?: string | undefined;
-
-    website_name?: string | undefined;
-    
-    /** indicates whether the element contains an image */
-
-    is_image?: boolean | undefined;
-    
-    /** indicates whether the element contains a video */
-
-    is_video?: boolean | undefined;
-    
-    /** indicates whether the element is a featured_snippet */
-
-    is_featured_snippet?: boolean | undefined;
-    
-    /** indicates whether the element is marked as malicious */
-
-    is_malicious?: boolean | undefined;
+    featured_title?: string | undefined;
     
     /** description of the results element in SERP */
 
     description?: string | undefined;
     
-    /** includes additional information appended before the result description in SERP */
+    /** relevant URL in SERP */
 
-    pre_snippet?: string | undefined;
+    url?: string | undefined;
     
-    /** includes additional information appended after the result description in SERP */
-
-    extended_snippet?: string | undefined;
-    
-    /** Accelerated Mobile Pages
-indicates whether an item has the Accelerated Mobile Page (AMP) version */
-
-    amp_version?: boolean | undefined;
-    
-    /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP */
-
-    rating?: RatingInfo | undefined;
-    
-    /** words highlighted in bold within the results description */
-
-    highlighted?: string[] | undefined;
-    
-    /** sitelinks
-the links shown below some of Google’s search results
+    /** results table
 if there are none, equals null */
 
-    links?: LinkElement[] | undefined;
-    
-    /** contains information from the ‘About this result’ panel
-‘About this result’ panel provides additional context about why Google returned this result for the given query;
-this feature appears after clicking on the three dots next to most results */
-
-    about_this_result?: AboutThisResultElement | undefined;
+    table?: Table | undefined;
     
     /** primary domain name in SERP */
 
@@ -1181,8 +1218,9 @@ learn more about how the metric is calculated in this help center article */
 
     etv?: number | undefined;
     
-    /** estimated cost of paid monthly search traffic
-represents the estimated cost of paid monthly traffic (USD) based on etv and cpc values
+    /** estimated cost of converting organic search traffic into paid
+represents the estimated monthly cost of running ads (USD) for the returned keyword
+the metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search
 learn more about how the metric is calculated in this help center article */
 
     estimated_paid_traffic_cost?: number | undefined;
@@ -1210,7 +1248,7 @@ contains information about the ranking changes of the SERP element since the pre
     [key: string]: any;
 
 
-    constructor(data?: IDataLabsOrganicSerpElementItem) {
+    constructor(data?: IDataLabsFeaturedSnippetSerpElementItem) {
     super(data);
 
     }
@@ -1224,26 +1262,10 @@ contains information about the ranking changes of the SERP element since the pre
             }
             this.domain = data["domain"];
             this.title = data["title"];
-            this.url = data["url"];
-            this.breadcrumb = data["breadcrumb"];
-            this.website_name = data["website_name"];
-            this.is_image = data["is_image"];
-            this.is_video = data["is_video"];
-            this.is_featured_snippet = data["is_featured_snippet"];
-            this.is_malicious = data["is_malicious"];
+            this.featured_title = data["featured_title"];
             this.description = data["description"];
-            this.pre_snippet = data["pre_snippet"];
-            this.extended_snippet = data["extended_snippet"];
-            this.amp_version = data["amp_version"];
-            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
-            this.highlighted = data["highlighted"];
-            if (Array.isArray(data["links"])) {
-                this.links = [];
-                for (let item of data["links"]) {
-                    this.links.push(LinkElement.fromJS(item));
-                }
-            }
-            this.about_this_result = data["about_this_result"] ? AboutThisResultElement.fromJS(data["about_this_result"]) : <any>undefined;
+            this.url = data["url"];
+            this.table = data["table"] ? Table.fromJS(data["table"]) : <any>undefined;
             this.main_domain = data["main_domain"];
             this.relative_url = data["relative_url"];
             this.etv = data["etv"];
@@ -1255,11 +1277,11 @@ contains information about the ranking changes of the SERP element since the pre
         }
     }
 
-    static fromJS(data: any): DataLabsOrganicSerpElementItem {
+    static fromJS(data: any): DataLabsFeaturedSnippetSerpElementItem {
         data = typeof data === 'object' ? data : {};
 
 
-        let result = new DataLabsOrganicSerpElementItem();
+        let result = new DataLabsFeaturedSnippetSerpElementItem();
         result.init(data);
         return result;
     }
@@ -1273,29 +1295,10 @@ contains information about the ranking changes of the SERP element since the pre
         
         data["domain"] = this.domain;
         data["title"] = this.title;
-        data["url"] = this.url;
-        data["breadcrumb"] = this.breadcrumb;
-        data["website_name"] = this.website_name;
-        data["is_image"] = this.is_image;
-        data["is_video"] = this.is_video;
-        data["is_featured_snippet"] = this.is_featured_snippet;
-        data["is_malicious"] = this.is_malicious;
+        data["featured_title"] = this.featured_title;
         data["description"] = this.description;
-        data["pre_snippet"] = this.pre_snippet;
-        data["extended_snippet"] = this.extended_snippet;
-        data["amp_version"] = this.amp_version;
-        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
-        data["highlighted"] = this.highlighted;
-        data["links"] = null;
-        if (Array.isArray(this.links)) {
-            data["links"] = [];
-            for (let item of this.links) {
-                if (item && typeof item.toJSON === "function") {
-                    data["links"].push(item?.toJSON());
-                }
-            }
-        }
-        data["about_this_result"] = this.about_this_result ? AboutThisResultElement.fromJS(this.about_this_result)?.toJSON() : <any>undefined;
+        data["url"] = this.url;
+        data["table"] = this.table ? Table.fromJS(this.table)?.toJSON() : <any>undefined;
         data["main_domain"] = this.main_domain;
         data["relative_url"] = this.relative_url;
         data["etv"] = this.etv;

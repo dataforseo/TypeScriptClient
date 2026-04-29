@@ -3,13 +3,14 @@ export interface ISerpApiCarouselElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of the row */
+        /** title of a given link element */
         title?: string | undefined
         
         /** subtitle of the element */
         subtitle?: string | undefined
         
-        /** URL of the image */
+        /** URL of the image
+the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
         image_url?: string | undefined
 
     [key: string]: any;
@@ -22,7 +23,7 @@ export class SerpApiCarouselElement  implements ISerpApiCarouselElement {
 
     type?: string | undefined;
     
-    /** title of the row */
+    /** title of a given link element */
 
     title?: string | undefined;
     
@@ -30,7 +31,8 @@ export class SerpApiCarouselElement  implements ISerpApiCarouselElement {
 
     subtitle?: string | undefined;
     
-    /** URL of the image */
+    /** URL of the image
+the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
     image_url?: string | undefined;
 

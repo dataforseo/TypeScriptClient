@@ -46,18 +46,12 @@ All URIs are relative to *https://api.dataforseo.com*
    }
  });
 
- let response = await api.domainAnalyticsIdList([
-   [
-       new DomainAnalyticsIdListRequestInfo({
-           datetime_from: ,
-           datetime_to: ,
-           limit: 100,
-           offset: 0,
-           sort: "desc",
-           include_metadata: true,
-       }),
-   ]
- ]);
+ let task = new DomainAnalyticsIdListRequestInfo();
+   task.limit = 100;
+   task.offset = 0;
+   task.sort = "desc";
+   task.include_metadata = true;
+ let response = await api.domainAnalyticsIdList([task]);
 ```
 
 ### Parameters
@@ -113,15 +107,11 @@ All URIs are relative to *https://api.dataforseo.com*
    }
  });
 
- let response = await api.domainAnalyticsErrors([
-   [
-       new DomainAnalyticsErrorsRequestInfo({
-           limit: 10,
-           offset: 0,
-           filtered_function: "pingback_url",
-       }),
-   ]
- ]);
+ let task = new DomainAnalyticsErrorsRequestInfo();
+   task.limit = 10;
+   task.offset = 0;
+   task.filtered_function = "pingback_url";
+ let response = await api.domainAnalyticsErrors([task]);
 ```
 
 ### Parameters
@@ -401,32 +391,20 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.technologiesAggregationTechnologiesLive([
-   [
-       new DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo({
-           mode: "entry",
-           technology: "Nginx",
-           keyword: "WordPress",
-           filters: [
-           [
-               "country_iso_code",
-               "=",
-               "US",
-           ],
-           "and",
-           [
-               "domain_rank",
-               ">",
-               800,
-           ],
-       ],
-           order_by: [
-           "groups_count,desc",
-       ],
-           limit: 10,
-       }),
-   ]
- ]);
+ let task = new DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo();
+   task.mode = "entry";
+   task.technology = "Nginx";
+   task.keyword = "WordPress";
+   task.filters = [
+       ,
+       "and",
+       ,
+   ];
+   task.order_by = [
+       "groups_count,desc",
+   ];
+   task.limit = 10;
+ let response = await api.technologiesAggregationTechnologiesLive([task]);
 ```
 
 ### Parameters
@@ -482,32 +460,20 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.technologiesTechnologiesSummaryLive([
-   [
-       new DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo({
-           mode: "entry",
-           technologies: [
-           "Ngi",
-       ],
-           keywords: [
-           "WordPress",
-       ],
-           filters: [
-           [
-               "country_iso_code",
-               "=",
-               "US",
-           ],
-           "and",
-           [
-               "domain_rank",
-               ">",
-               800,
-           ],
-       ],
-       }),
-   ]
- ]);
+ let task = new DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo();
+   task.mode = "entry";
+   task.technologies = [
+       "Ngi",
+   ];
+   task.keywords = [
+       "WordPress",
+   ];
+   task.filters = [
+       ,
+       "and",
+       ,
+   ];
+ let response = await api.technologiesTechnologiesSummaryLive([task]);
 ```
 
 ### Parameters
@@ -563,15 +529,9 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.technologiesTechnologyStatsLive([
-   [
-       new DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo({
-           technology: "jQuery",
-           date_from: ,
-           date_to: ,
-       }),
-   ]
- ]);
+ let task = new DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo();
+   task.technology = "jQuery";
+ let response = await api.technologiesTechnologyStatsLive([task]);
 ```
 
 ### Parameters
@@ -627,32 +587,20 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.technologiesDomainsByTechnologyLive([
-   [
-       new DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo({
-           technologies: [
-           "Nginx",
-       ],
-           filters: [
-           [
-               "country_iso_code",
-               "=",
-               "US",
-           ],
-           "and",
-           [
-               "domain_rank",
-               ">",
-               800,
-           ],
-       ],
-           order_by: [
-           "last_visited,desc",
-       ],
-           limit: 10,
-       }),
-   ]
- ]);
+ let task = new DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo();
+   task.technologies = [
+       "Nginx",
+   ];
+   task.filters = [
+       ,
+       "and",
+       ,
+   ];
+   task.order_by = [
+       "last_visited,desc",
+   ];
+   task.limit = 10;
+ let response = await api.technologiesDomainsByTechnologyLive([task]);
 ```
 
 ### Parameters
@@ -708,20 +656,16 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.technologiesDomainsByHtmlTermsLive([
-   [
-       new DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo({
-           search_terms: [
-           "data-attrid",
-       ],
-           order_by: [
-           "last_visited,desc",
-       ],
-           limit: 10,
-           offset: 0,
-       }),
-   ]
- ]);
+ let task = new DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo();
+   task.search_terms = [
+       "data-attrid",
+   ];
+   task.order_by = [
+       "last_visited,desc",
+   ];
+   task.limit = 10;
+   task.offset = 0;
+ let response = await api.technologiesDomainsByHtmlTermsLive([task]);
 ```
 
 ### Parameters
@@ -777,13 +721,9 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.technologiesDomainTechnologiesLive([
-   [
-       new DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo({
-           target: "dataforseo.com",
-       }),
-   ]
- ]);
+ let task = new DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo();
+   task.target = "dataforseo.com";
+ let response = await api.technologiesDomainTechnologiesLive([task]);
 ```
 
 ### Parameters
@@ -895,23 +835,12 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.whoisOverviewLive([
-   [
-       new DomainAnalyticsWhoisOverviewLiveRequestInfo({
-           limit: 2,
-           filters: [
-           [
-               "epp_status_codes",
-               "in",
-               [
-                   "client_transfer_prohibited",
-                   "client_update_prohibited",
-               ],
-           ],
-       ],
-       }),
-   ]
- ]);
+ let task = new DomainAnalyticsWhoisOverviewLiveRequestInfo();
+   task.limit = 2;
+   task.filters = [
+       ,
+   ];
+ let response = await api.whoisOverviewLive([task]);
 ```
 
 ### Parameters

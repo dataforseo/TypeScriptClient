@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**items** | **VideoElement[]** | additional items present in the element<br>if there are none, equals null |[optional]|
+**items** | **VideoElement[]** | contains results featured in the ‘hotels_pack’ element of SERP |[optional]|

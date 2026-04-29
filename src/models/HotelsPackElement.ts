@@ -7,10 +7,10 @@ export interface IHotelsPackElement   {
         /** type of element */
         type?: string | undefined
         
-        /** price of the app element */
+        /** price indicated in the element */
         price?: PriceInfo | undefined
         
-        /** title of the row */
+        /** title of a given link element */
         title?: string | undefined
         
         /** description of the results element in SERP */
@@ -21,17 +21,18 @@ unique hotel identifier assigned by Google;
 example: 'CgoIjaeSlI6CnNpVEAE' */
         hotel_identifier?: string | undefined
         
-        /** domain where a link points */
+        /** website domain */
         domain?: string | undefined
         
-        /** URL of element */
+        /** URL */
         url?: string | undefined
         
         /** indicates whether the element is an ad */
         is_paid?: boolean | undefined
         
-        /** the element’s rating 
-the popularity rate based on reviews and displayed in SERP */
+        /** the item’s rating 
+the popularity rate based on reviews and displayed in SERP;
+if there is none, equals null */
         rating?: RatingInfo | undefined
 
     [key: string]: any;
@@ -44,11 +45,11 @@ export class HotelsPackElement  implements IHotelsPackElement {
 
     type?: string | undefined;
     
-    /** price of the app element */
+    /** price indicated in the element */
 
     price?: PriceInfo | undefined;
     
-    /** title of the row */
+    /** title of a given link element */
 
     title?: string | undefined;
     
@@ -62,11 +63,11 @@ example: 'CgoIjaeSlI6CnNpVEAE' */
 
     hotel_identifier?: string | undefined;
     
-    /** domain where a link points */
+    /** website domain */
 
     domain?: string | undefined;
     
-    /** URL of element */
+    /** URL */
 
     url?: string | undefined;
     
@@ -74,8 +75,9 @@ example: 'CgoIjaeSlI6CnNpVEAE' */
 
     is_paid?: boolean | undefined;
     
-    /** the element’s rating 
-the popularity rate based on reviews and displayed in SERP */
+    /** the item’s rating 
+the popularity rate based on reviews and displayed in SERP;
+if there is none, equals null */
 
     rating?: RatingInfo | undefined;
 

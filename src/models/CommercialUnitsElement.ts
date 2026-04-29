@@ -7,24 +7,25 @@ export interface ICommercialUnitsElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of the row */
+        /** title of a given link element */
         title?: string | undefined
         
-        /** URL of element */
+        /** URL */
         url?: string | undefined
         
-        /** domain where a link points */
+        /** website domain */
         domain?: string | undefined
         
-        /** price of the app element */
+        /** price indicated in the element */
         price?: PriceInfo | undefined
         
         /** source of the element
 indicates the source of information included in the top_stories_element */
         source?: string | undefined
         
-        /** the element’s rating 
-the popularity rate based on reviews and displayed in SERP */
+        /** the item’s rating 
+the popularity rate based on reviews and displayed in SERP;
+if there is none, equals null */
         rating?: RatingInfo | undefined
 
     [key: string]: any;
@@ -37,19 +38,19 @@ export class CommercialUnitsElement  implements ICommercialUnitsElement {
 
     type?: string | undefined;
     
-    /** title of the row */
+    /** title of a given link element */
 
     title?: string | undefined;
     
-    /** URL of element */
+    /** URL */
 
     url?: string | undefined;
     
-    /** domain where a link points */
+    /** website domain */
 
     domain?: string | undefined;
     
-    /** price of the app element */
+    /** price indicated in the element */
 
     price?: PriceInfo | undefined;
     
@@ -58,8 +59,9 @@ indicates the source of information included in the top_stories_element */
 
     source?: string | undefined;
     
-    /** the element’s rating 
-the popularity rate based on reviews and displayed in SERP */
+    /** the item’s rating 
+the popularity rate based on reviews and displayed in SERP;
+if there is none, equals null */
 
     rating?: RatingInfo | undefined;
 

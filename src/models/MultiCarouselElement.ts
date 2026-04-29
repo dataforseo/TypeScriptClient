@@ -6,7 +6,7 @@ export interface IMultiCarouselElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of the row */
+        /** title of a given link element */
         title?: string | undefined
         
         /** multi_carousel_snippet results
@@ -23,7 +23,7 @@ export class MultiCarouselElement  implements IMultiCarouselElement {
 
     type?: string | undefined;
     
-    /** title of the row */
+    /** title of a given link element */
 
     title?: string | undefined;
     

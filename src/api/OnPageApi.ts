@@ -31,6 +31,8 @@ import { OnPageKeywordDensityRequestInfo } from "./../models/OnPageKeywordDensit
 import { OnPageKeywordDensityResponseInfo } from "./../models/OnPageKeywordDensityResponseInfo";
 import { OnPageMicrodataRequestInfo } from "./../models/OnPageMicrodataRequestInfo";
 import { OnPageMicrodataResponseInfo } from "./../models/OnPageMicrodataResponseInfo";
+import { OnPageUncrawlableResourcesRequestInfo } from "./../models/OnPageUncrawlableResourcesRequestInfo";
+import { OnPageUncrawlableResourcesResponseInfo } from "./../models/OnPageUncrawlableResourcesResponseInfo";
 import { OnPageRawHtmlRequestInfo } from "./../models/OnPageRawHtmlRequestInfo";
 import { OnPageRawHtmlResponseInfo } from "./../models/OnPageRawHtmlResponseInfo";
 import { OnPagePageScreenshotRequestInfo } from "./../models/OnPagePageScreenshotRequestInfo";
@@ -72,7 +74,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.22",
+                "User-Agent": "typescript-client/2.0.24",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -107,7 +109,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.22",
+                "User-Agent": "typescript-client/2.0.24",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -142,7 +144,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.22",
+                "User-Agent": "typescript-client/2.0.24",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -174,7 +176,7 @@ export class OnPageApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.22",
+                "User-Agent": "typescript-client/2.0.24",
             }
         };
 
@@ -210,7 +212,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.22",
+                "User-Agent": "typescript-client/2.0.24",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -242,7 +244,7 @@ export class OnPageApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.22",
+                "User-Agent": "typescript-client/2.0.24",
             }
         };
 
@@ -276,7 +278,7 @@ export class OnPageApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.22",
+                "User-Agent": "typescript-client/2.0.24",
             }
         };
 
@@ -312,7 +314,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.22",
+                "User-Agent": "typescript-client/2.0.24",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -347,7 +349,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.22",
+                "User-Agent": "typescript-client/2.0.24",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -382,7 +384,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.22",
+                "User-Agent": "typescript-client/2.0.24",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -417,7 +419,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.22",
+                "User-Agent": "typescript-client/2.0.24",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -452,7 +454,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.22",
+                "User-Agent": "typescript-client/2.0.24",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -487,7 +489,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.22",
+                "User-Agent": "typescript-client/2.0.24",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -522,7 +524,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.22",
+                "User-Agent": "typescript-client/2.0.24",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -557,7 +559,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.22",
+                "User-Agent": "typescript-client/2.0.24",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -592,7 +594,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.22",
+                "User-Agent": "typescript-client/2.0.24",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -627,7 +629,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.22",
+                "User-Agent": "typescript-client/2.0.24",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -662,7 +664,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.22",
+                "User-Agent": "typescript-client/2.0.24",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -687,6 +689,41 @@ export class OnPageApi {
         }
         return Promise.resolve<OnPageMicrodataResponseInfo | null>(null as any);
     }
+    uncrawlableResources(body: OnPageUncrawlableResourcesRequestInfo[]): Promise<OnPageUncrawlableResourcesResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/on_page/uncrawlable_resources";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.24",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processUncrawlableResources(_response);
+        });
+    }
+
+    protected processUncrawlableResources(response: Response): Promise<OnPageUncrawlableResourcesResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? OnPageUncrawlableResourcesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<OnPageUncrawlableResourcesResponseInfo | null>(null as any);
+    }
     rawHtml(body: OnPageRawHtmlRequestInfo[]): Promise<OnPageRawHtmlResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/on_page/raw_html";
         url_ = url_.replace(/[?&]$/, "");
@@ -697,7 +734,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.22",
+                "User-Agent": "typescript-client/2.0.24",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -732,7 +769,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.22",
+                "User-Agent": "typescript-client/2.0.24",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -767,7 +804,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.22",
+                "User-Agent": "typescript-client/2.0.24",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -802,7 +839,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.22",
+                "User-Agent": "typescript-client/2.0.24",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -837,7 +874,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.22",
+                "User-Agent": "typescript-client/2.0.24",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -869,7 +906,7 @@ export class OnPageApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.22",
+                "User-Agent": "typescript-client/2.0.24",
             }
         };
 
@@ -902,7 +939,7 @@ export class OnPageApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.22",
+                "User-Agent": "typescript-client/2.0.24",
             }
         };
 
@@ -935,7 +972,7 @@ export class OnPageApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.22",
+                "User-Agent": "typescript-client/2.0.24",
             }
         };
 
@@ -971,7 +1008,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.22",
+                "User-Agent": "typescript-client/2.0.24",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1003,7 +1040,7 @@ export class OnPageApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.22",
+                "User-Agent": "typescript-client/2.0.24",
             }
         };
 
@@ -1037,7 +1074,7 @@ export class OnPageApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.22",
+                "User-Agent": "typescript-client/2.0.24",
             }
         };
 
@@ -1073,7 +1110,7 @@ export class OnPageApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.22",
+                "User-Agent": "typescript-client/2.0.24",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {

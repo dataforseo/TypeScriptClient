@@ -14,7 +14,7 @@ export interface IOnPageAvailableFiltersResultInfo   {
         
         keyword_density?: { [key: string]: string; } | undefined
         
-        invalid_resources?: { [key: string]: string; } | undefined
+        uncrawlable_resources?: { [key: string]: string; } | undefined
 
     [key: string]: any;
 
@@ -36,7 +36,7 @@ export class OnPageAvailableFiltersResultInfo  implements IOnPageAvailableFilter
 
     keyword_density?: { [key: string]: string; } | undefined;
 
-    invalid_resources?: { [key: string]: string; } | undefined;
+    uncrawlable_resources?: { [key: string]: string; } | undefined;
 
     [key: string]: any;
 
@@ -65,7 +65,7 @@ export class OnPageAvailableFiltersResultInfo  implements IOnPageAvailableFilter
             this.pages_by_resource = data["pages_by_resource"];
             this.redirect_chains = data["redirect_chains"];
             this.keyword_density = data["keyword_density"];
-            this.invalid_resources = data["invalid_resources"];
+            this.uncrawlable_resources = data["uncrawlable_resources"];
         }
     }
 
@@ -90,7 +90,7 @@ export class OnPageAvailableFiltersResultInfo  implements IOnPageAvailableFilter
         data["pages_by_resource"] = this.pages_by_resource;
         data["redirect_chains"] = this.redirect_chains;
         data["keyword_density"] = this.keyword_density;
-        data["invalid_resources"] = this.invalid_resources;
+        data["uncrawlable_resources"] = this.uncrawlable_resources;
         return data;
     }
 }

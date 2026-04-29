@@ -74,18 +74,12 @@ All URIs are relative to *https://api.dataforseo.com*
    }
  });
 
- let response = await api.appDataIdList([
-   [
-       new AppDataIdListRequestInfo({
-           datetime_from: ,
-           datetime_to: ,
-           limit: 100,
-           offset: 0,
-           sort: "desc",
-           include_metadata: true,
-       }),
-   ]
- ]);
+ let task = new AppDataIdListRequestInfo();
+   task.limit = 100;
+   task.offset = 0;
+   task.sort = "desc";
+   task.include_metadata = true;
+ let response = await api.appDataIdList([task]);
 ```
 
 ### Parameters
@@ -141,15 +135,11 @@ All URIs are relative to *https://api.dataforseo.com*
    }
  });
 
- let response = await api.appDataErrors([
-   [
-       new AppDataErrorsRequestInfo({
-           limit: 10,
-           offset: 0,
-           filtered_function: "pingback_url",
-       }),
-   ]
- ]);
+ let task = new AppDataErrorsRequestInfo();
+   task.limit = 10;
+   task.offset = 0;
+   task.filtered_function = "pingback_url";
+ let response = await api.appDataErrors([task]);
 ```
 
 ### Parameters
@@ -317,7 +307,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let country = ;
+ let country = "us";
  let response = await api.appDataGoogleLocationsCountry(country);
 ```
 
@@ -430,16 +420,12 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleAppSearchesTaskPost([
-   [
-       new AppDataGoogleAppSearchesTaskPostRequestInfo({
-           keyword: "vpn",
-           location_code: 2840,
-           language_code: "en",
-           depth: 30,
-       }),
-   ]
- ]);
+ let task = new AppDataGoogleAppSearchesTaskPostRequestInfo();
+   task.keyword = "vpn";
+   task.location_code = 2840;
+   task.language_code = "en";
+   task.depth = 30;
+ let response = await api.googleAppSearchesTaskPost([task]);
 ```
 
 ### Parameters
@@ -607,7 +593,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleAppSearchesTaskGetAdvanced(id);
 ```
 
@@ -664,7 +650,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleAppSearchesTaskGetHtml(id);
 ```
 
@@ -721,16 +707,12 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleAppListTaskPost([
-   [
-       new AppDataGoogleAppListTaskPostRequestInfo({
-           app_collection: "topselling_free",
-           location_code: 2840,
-           language_code: "en",
-           depth: 100,
-       }),
-   ]
- ]);
+ let task = new AppDataGoogleAppListTaskPostRequestInfo();
+   task.app_collection = "topselling_free";
+   task.location_code = 2840;
+   task.language_code = "en";
+   task.depth = 100;
+ let response = await api.googleAppListTaskPost([task]);
 ```
 
 ### Parameters
@@ -842,7 +824,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleAppListTaskGetAdvanced(id);
 ```
 
@@ -899,7 +881,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleAppListTaskGetHtml(id);
 ```
 
@@ -956,15 +938,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleAppInfoTaskPost([
-   [
-       new AppDataGoogleAppInfoTaskPostRequestInfo({
-           app_id: "org.telegram.messenger",
-           location_code: 2840,
-           language_code: "en",
-       }),
-   ]
- ]);
+ let task = new AppDataGoogleAppInfoTaskPostRequestInfo();
+   task.app_id = "org.telegram.messenger";
+   task.location_code = 2840;
+   task.language_code = "en";
+ let response = await api.googleAppInfoTaskPost([task]);
 ```
 
 ### Parameters
@@ -1076,7 +1054,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleAppInfoTaskGetAdvanced(id);
 ```
 
@@ -1133,7 +1111,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleAppInfoTaskGetHtml(id);
 ```
 
@@ -1190,16 +1168,12 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleAppReviewsTaskPost([
-   [
-       new AppDataGoogleAppReviewsTaskPostRequestInfo({
-           app_id: "org.telegram.messenger",
-           location_code: 2840,
-           language_code: "en",
-           depth: 150,
-       }),
-   ]
- ]);
+ let task = new AppDataGoogleAppReviewsTaskPostRequestInfo();
+   task.app_id = "org.telegram.messenger";
+   task.location_code = 2840;
+   task.language_code = "en";
+   task.depth = 150;
+ let response = await api.googleAppReviewsTaskPost([task]);
 ```
 
 ### Parameters
@@ -1311,7 +1285,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleAppReviewsTaskGetAdvanced(id);
 ```
 
@@ -1368,7 +1342,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.googleAppReviewsTaskGetHtml(id);
 ```
 
@@ -1481,28 +1455,20 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.googleAppListingsSearchLive([
-   [
-       new AppDataGoogleAppListingsSearchLiveRequestInfo({
-           title: "vpn",
-           description: "vpn",
-           categories: [
-           "Tools",
-       ],
-           order_by: [
-           "item.installs_count,asc",
-       ],
-           filters: [
-           [
-               "item.rating.value",
-               ">",
-               4.5,
-           ],
-       ],
-           limit: 10,
-       }),
-   ]
- ]);
+ let task = new AppDataGoogleAppListingsSearchLiveRequestInfo();
+   task.title = "vpn";
+   task.description = "vpn";
+   task.categories = [
+       "Tools",
+   ];
+   task.order_by = [
+       "item.installs_count,asc",
+   ];
+   task.filters = [
+       ,
+   ];
+   task.limit = 10;
+ let response = await api.googleAppListingsSearchLive([task]);
 ```
 
 ### Parameters
@@ -1726,16 +1692,12 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.appleAppSearchesTaskPost([
-   [
-       new AppDataAppleAppSearchesTaskPostRequestInfo({
-           keyword: "vpn",
-           location_code: 2840,
-           language_code: "en",
-           depth: 200,
-       }),
-   ]
- ]);
+ let task = new AppDataAppleAppSearchesTaskPostRequestInfo();
+   task.keyword = "vpn";
+   task.location_code = 2840;
+   task.language_code = "en";
+   task.depth = 200;
+ let response = await api.appleAppSearchesTaskPost([task]);
 ```
 
 ### Parameters
@@ -1847,7 +1809,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.appleAppSearchesTaskGetAdvanced(id);
 ```
 
@@ -1904,15 +1866,11 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.appleAppInfoTaskPost([
-   [
-       new AppDataAppleAppInfoTaskPostRequestInfo({
-           app_id: "835599320",
-           location_code: 2840,
-           language_code: "en",
-       }),
-   ]
- ]);
+ let task = new AppDataAppleAppInfoTaskPostRequestInfo();
+   task.app_id = "835599320";
+   task.location_code = 2840;
+   task.language_code = "en";
+ let response = await api.appleAppInfoTaskPost([task]);
 ```
 
 ### Parameters
@@ -2024,7 +1982,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.appleAppInfoTaskGetAdvanced(id);
 ```
 
@@ -2081,17 +2039,13 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.appleAppListTaskPost([
-   [
-       new AppDataAppleAppListTaskPostRequestInfo({
-           app_collection: "top_free_ios",
-           location_code: 2840,
-           language_code: "en",
-           depth: 200,
-           app_category: "games",
-       }),
-   ]
- ]);
+ let task = new AppDataAppleAppListTaskPostRequestInfo();
+   task.app_collection = "top_free_ios";
+   task.location_code = 2840;
+   task.language_code = "en";
+   task.depth = 200;
+   task.app_category = "games";
+ let response = await api.appleAppListTaskPost([task]);
 ```
 
 ### Parameters
@@ -2203,7 +2157,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.appleAppListTaskGetAdvanced(id);
 ```
 
@@ -2260,16 +2214,12 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.appleAppReviewsTaskPost([
-   [
-       new AppDataAppleAppReviewsTaskPostRequestInfo({
-           app_id: "835599320",
-           location_code: 2840,
-           language_code: "en",
-           depth: 200,
-       }),
-   ]
- ]);
+ let task = new AppDataAppleAppReviewsTaskPostRequestInfo();
+   task.app_id = "835599320";
+   task.location_code = 2840;
+   task.language_code = "en";
+   task.depth = 200;
+ let response = await api.appleAppReviewsTaskPost([task]);
 ```
 
 ### Parameters
@@ -2381,7 +2331,7 @@ This endpoint does not need any parameter.
    }
  });
 
- let id = ;
+ let id = "00000000-0000-0000-0000-000000000000";
  let response = await api.appleAppReviewsTaskGetAdvanced(id);
 ```
 
@@ -2494,28 +2444,20 @@ This endpoint does not need any parameter.
    }
  });
 
- let response = await api.appleAppListingsSearchLive([
-   [
-       new AppDataAppleAppListingsSearchLiveRequestInfo({
-           title: "vpn",
-           description: "vpn",
-           categories: [
-           "Tools",
-       ],
-           order_by: [
-           "item.rating.value,desc",
-       ],
-           filters: [
-           [
-               "item.rating.value",
-               ">",
-               4.5,
-           ],
-       ],
-           limit: 2,
-       }),
-   ]
- ]);
+ let task = new AppDataAppleAppListingsSearchLiveRequestInfo();
+   task.title = "vpn";
+   task.description = "vpn";
+   task.categories = [
+       "Tools",
+   ];
+   task.order_by = [
+       "item.rating.value,desc",
+   ];
+   task.filters = [
+       ,
+   ];
+   task.limit = 2;
+ let response = await api.appleAppListingsSearchLive([task]);
 ```
 
 ### Parameters

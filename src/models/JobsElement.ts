@@ -3,7 +3,7 @@ export interface IJobsElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of the row */
+        /** title of a given link element */
         title?: string | undefined
         
         /** description of the results element in SERP */
@@ -30,7 +30,7 @@ example:
         /** salary */
         salary?: string | undefined
         
-        /** URL of element */
+        /** URL */
         url?: string | undefined
 
     [key: string]: any;
@@ -43,7 +43,7 @@ export class JobsElement  implements IJobsElement {
 
     type?: string | undefined;
     
-    /** title of the row */
+    /** title of a given link element */
 
     title?: string | undefined;
     
@@ -78,7 +78,7 @@ example:
 
     salary?: string | undefined;
     
-    /** URL of element */
+    /** URL */
 
     url?: string | undefined;
 

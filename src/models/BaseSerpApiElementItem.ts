@@ -536,8 +536,7 @@ positions of elements with different type values are omitted from rank_group */
         rank_group?: number | undefined
         
         /** absolute rank in SERP
-absolute position among all the elements found in SERP
-note values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;
+absolute position among all the elements found in SERPnote values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;
 to get all items (including SERP features and rich snippets) with their positions, please refer to the Google Organiс Advanced SERP endpoint */
         rank_absolute?: number | undefined
         
@@ -584,11 +583,13 @@ the links shown below some of Google’s search results
 if there are none, equals null */
         links?: AdLinkElement[] | undefined
         
-        /** price of booking a place for the specified dates of stay */
+        /** pricing details
+contains the pricing details of the product or service featured in the result;
+if there is none, equals null */
         price?: PriceInfo | undefined
         
         /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP;
+the popularity rate based on reviews and displayed in SERP
 if there is none, equals null */
         rating?: RatingInfo | undefined
 
@@ -605,8 +606,7 @@ positions of elements with different type values are omitted from rank_group */
     rank_group?: number | undefined;
     
     /** absolute rank in SERP
-absolute position among all the elements found in SERP
-note values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;
+absolute position among all the elements found in SERPnote values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;
 to get all items (including SERP features and rich snippets) with their positions, please refer to the Google Organiс Advanced SERP endpoint */
 
     rank_absolute?: number | undefined;
@@ -667,12 +667,14 @@ if there are none, equals null */
 
     links?: AdLinkElement[] | undefined;
     
-    /** price of booking a place for the specified dates of stay */
+    /** pricing details
+contains the pricing details of the product or service featured in the result;
+if there is none, equals null */
 
     price?: PriceInfo | undefined;
     
     /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP;
+the popularity rate based on reviews and displayed in SERP
 if there is none, equals null */
 
     rating?: RatingInfo | undefined;
@@ -784,8 +786,7 @@ positions of elements with different type values are omitted from rank_group */
         rank_group?: number | undefined
         
         /** absolute rank in SERP
-absolute position among all the elements found in SERP
-note values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;
+absolute position among all the elements found in SERPnote values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;
 to get all items (including SERP features and rich snippets) with their positions, please refer to the Google Organiс Advanced SERP endpoint */
         rank_absolute?: number | undefined
         
@@ -844,11 +845,13 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version */
         amp_version?: boolean | undefined
         
         /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP;
+the popularity rate based on reviews and displayed in SERP
 if there is none, equals null */
         rating?: RatingInfo | undefined
         
-        /** price of booking a place for the specified dates of stay */
+        /** pricing details
+contains the pricing details of the product or service featured in the result;
+if there is none, equals null */
         price?: PriceInfo | undefined
         
         /** words highlighted in bold within the results description */
@@ -899,8 +902,7 @@ positions of elements with different type values are omitted from rank_group */
     rank_group?: number | undefined;
     
     /** absolute rank in SERP
-absolute position among all the elements found in SERP
-note values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;
+absolute position among all the elements found in SERPnote values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;
 to get all items (including SERP features and rich snippets) with their positions, please refer to the Google Organiс Advanced SERP endpoint */
 
     rank_absolute?: number | undefined;
@@ -977,12 +979,14 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version */
     amp_version?: boolean | undefined;
     
     /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP;
+the popularity rate based on reviews and displayed in SERP
 if there is none, equals null */
 
     rating?: RatingInfo | undefined;
     
-    /** price of booking a place for the specified dates of stay */
+    /** pricing details
+contains the pricing details of the product or service featured in the result;
+if there is none, equals null */
 
     price?: PriceInfo | undefined;
     
@@ -1170,8 +1174,7 @@ positions of elements with different type values are omitted from rank_group */
         rank_group?: number | undefined
         
         /** absolute rank in SERP
-absolute position among all the elements found in SERP
-note values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;
+absolute position among all the elements found in SERPnote values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;
 to get all items (including SERP features and rich snippets) with their positions, please refer to the Google Organiс Advanced SERP endpoint */
         rank_absolute?: number | undefined
         
@@ -1220,8 +1223,7 @@ positions of elements with different type values are omitted from rank_group */
     rank_group?: number | undefined;
     
     /** absolute rank in SERP
-absolute position among all the elements found in SERP
-note values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;
+absolute position among all the elements found in SERPnote values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;
 to get all items (including SERP features and rich snippets) with their positions, please refer to the Google Organiс Advanced SERP endpoint */
 
     rank_absolute?: number | undefined;
@@ -1379,8 +1381,7 @@ unique id of a local establishment;
 can be used with Google Reviews API to get a full list of reviews */
         cid?: string | undefined
         
-        /** additional items present in the element
-if there are none, equals null */
+        /** contains results featured in the ‘hotels_pack’ element of SERP */
         items?: BaseSerpApiKnowledgeGraphElementItem[] | undefined
 
     [key: string]: any;
@@ -1435,8 +1436,7 @@ can be used with Google Reviews API to get a full list of reviews */
 
     cid?: string | undefined;
     
-    /** additional items present in the element
-if there are none, equals null */
+    /** contains results featured in the ‘hotels_pack’ element of SERP */
 
     items?: BaseSerpApiKnowledgeGraphElementItem[] | undefined;
 
@@ -1527,10 +1527,10 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: TopStoriesElement[] | undefined
 
     [key: string]: any;
@@ -1552,11 +1552,11 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: TopStoriesElement[] | undefined;
 
@@ -1633,7 +1633,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: PeopleAlsoAskElement[] | undefined
 
     [key: string]: any;
@@ -1655,7 +1655,7 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: PeopleAlsoAskElement[] | undefined;
 
@@ -1730,10 +1730,10 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: string[] | undefined
 
     [key: string]: any;
@@ -1755,11 +1755,11 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: string[] | undefined;
 
@@ -1823,13 +1823,13 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
         /** URL */
         url?: string | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: AiModeImagesElementInfo[] | undefined
         
         /** contains keywords and images related to the specified search term
@@ -1855,7 +1855,7 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
@@ -1863,7 +1863,7 @@ always equals 0 for desktop */
 
     url?: string | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: AiModeImagesElementInfo[] | undefined;
     
@@ -1962,13 +1962,13 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
         /** URL */
         url?: string | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: TwitterElement[] | undefined
 
     [key: string]: any;
@@ -1990,7 +1990,7 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
@@ -1998,7 +1998,7 @@ always equals 0 for desktop */
 
     url?: string | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: TwitterElement[] | undefined;
 
@@ -2080,7 +2080,7 @@ always equals 0 for desktop */
         /** the number of reviews */
         reviews_count?: number | undefined
         
-        /** the item’s rating 
+        /** the element’s rating
 the popularity rate based on reviews and displayed in SERP;
 if there is none, equals null */
         rating?: RatingInfo | undefined
@@ -2117,7 +2117,7 @@ always equals 0 for desktop */
 
     reviews_count?: number | undefined;
     
-    /** the item’s rating 
+    /** the element’s rating
 the popularity rate based on reviews and displayed in SERP;
 if there is none, equals null */
 
@@ -2201,13 +2201,13 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
         /** URL */
         url?: string | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: JobsElement[] | undefined
 
     [key: string]: any;
@@ -2229,7 +2229,7 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
@@ -2237,7 +2237,7 @@ always equals 0 for desktop */
 
     url?: string | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: JobsElement[] | undefined;
 
@@ -2316,7 +2316,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
         /** URL */
@@ -2341,7 +2341,7 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
@@ -2409,7 +2409,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: AppElement[] | undefined
 
     [key: string]: any;
@@ -2431,7 +2431,7 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: AppElement[] | undefined;
 
@@ -2506,7 +2506,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
         /** link description */
@@ -2527,7 +2527,7 @@ always equals 0 for desktop */
         /** indicates whether the element is an ad */
         is_paid?: boolean | undefined
         
-        /** the item’s rating 
+        /** the element’s rating
 the popularity rate based on reviews and displayed in SERP;
 if there is none, equals null */
         rating?: RatingInfo | undefined
@@ -2554,7 +2554,7 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
@@ -2582,7 +2582,7 @@ always equals 0 for desktop */
 
     is_paid?: boolean | undefined;
     
-    /** the item’s rating 
+    /** the element’s rating
 the popularity rate based on reviews and displayed in SERP;
 if there is none, equals null */
 
@@ -2666,10 +2666,10 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: SerpApiCarouselElement[] | undefined
 
     [key: string]: any;
@@ -2691,11 +2691,11 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: SerpApiCarouselElement[] | undefined;
 
@@ -2772,7 +2772,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: VideoElement[] | undefined
 
     [key: string]: any;
@@ -2794,7 +2794,7 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: VideoElement[] | undefined;
 
@@ -2977,10 +2977,10 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: ShoppingElement[] | undefined
 
     [key: string]: any;
@@ -3002,11 +3002,11 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: ShoppingElement[] | undefined;
 
@@ -3083,13 +3083,13 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
         /** URL */
         url?: string | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: GoogleFlightsElement[] | undefined
 
     [key: string]: any;
@@ -3111,7 +3111,7 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
@@ -3119,7 +3119,7 @@ always equals 0 for desktop */
 
     url?: string | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: GoogleFlightsElement[] | undefined;
 
@@ -3198,10 +3198,10 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: MentionCarouselElement[] | undefined
 
     [key: string]: any;
@@ -3223,11 +3223,11 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: MentionCarouselElement[] | undefined;
 
@@ -3304,13 +3304,13 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
         /** URL */
         url?: string | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: EventsElement[] | undefined
 
     [key: string]: any;
@@ -3332,7 +3332,7 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
@@ -3340,7 +3340,7 @@ always equals 0 for desktop */
 
     url?: string | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: EventsElement[] | undefined;
 
@@ -3419,7 +3419,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: string[] | undefined
 
     [key: string]: any;
@@ -3441,7 +3441,7 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: string[] | undefined;
 
@@ -3503,7 +3503,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: MultiCarouselElement[] | undefined
 
     [key: string]: any;
@@ -3525,7 +3525,7 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: MultiCarouselElement[] | undefined;
 
@@ -3600,7 +3600,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: RecipesElement[] | undefined
 
     [key: string]: any;
@@ -3622,7 +3622,7 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: RecipesElement[] | undefined;
 
@@ -3697,10 +3697,10 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: TopSightsElement[] | undefined
 
     [key: string]: any;
@@ -3722,11 +3722,11 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: TopSightsElement[] | undefined;
 
@@ -3803,13 +3803,13 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
         /** URL */
         url?: string | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: ScholarlyArticlesElement[] | undefined
 
     [key: string]: any;
@@ -3831,7 +3831,7 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
@@ -3839,7 +3839,7 @@ always equals 0 for desktop */
 
     url?: string | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: ScholarlyArticlesElement[] | undefined;
 
@@ -3918,10 +3918,10 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: PopularProductsElement[] | undefined
 
     [key: string]: any;
@@ -3943,11 +3943,11 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: PopularProductsElement[] | undefined;
 
@@ -4024,7 +4024,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: PodcastsElement[] | undefined
 
     [key: string]: any;
@@ -4046,7 +4046,7 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: PodcastsElement[] | undefined;
 
@@ -4121,16 +4121,16 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
         /** reference source name or title */
         source?: string | undefined
         
-        /** description of the shopping element */
+        /** text alongside the link title */
         snippet?: string | undefined
         
-        /** price of the shopping element */
+        /** price indicated in the element */
         price?: PriceInfo | undefined
         
         /** URL */
@@ -4165,7 +4165,7 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
@@ -4173,11 +4173,11 @@ always equals 0 for desktop */
 
     source?: string | undefined;
     
-    /** description of the shopping element */
+    /** text alongside the link title */
 
     snippet?: string | undefined;
     
-    /** price of the shopping element */
+    /** price indicated in the element */
 
     price?: PriceInfo | undefined;
     
@@ -4270,7 +4270,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: FindResultsOnElement[] | undefined
 
     [key: string]: any;
@@ -4292,7 +4292,7 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: FindResultsOnElement[] | undefined;
 
@@ -4367,7 +4367,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: QuestionsAndAnswersElement[] | undefined
 
     [key: string]: any;
@@ -4389,7 +4389,7 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: QuestionsAndAnswersElement[] | undefined;
 
@@ -4464,7 +4464,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
         /** starting date of stay
@@ -4479,7 +4479,7 @@ example:
 2019-11-17 */
         date_to?: string | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: HotelsPackElement[] | undefined
 
     [key: string]: any;
@@ -4501,7 +4501,7 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
@@ -4519,7 +4519,7 @@ example:
 
     date_to?: string | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: HotelsPackElement[] | undefined;
 
@@ -4600,7 +4600,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: AmazonLabelElement[] | undefined
 
     [key: string]: any;
@@ -4622,7 +4622,7 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: AmazonLabelElement[] | undefined;
 
@@ -4697,10 +4697,10 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: CommercialUnitsElement[] | undefined
 
     [key: string]: any;
@@ -4722,11 +4722,11 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: CommercialUnitsElement[] | undefined;
 
@@ -4803,7 +4803,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
         /** URL */
@@ -4812,7 +4812,7 @@ always equals 0 for desktop */
         /** domain name of the reference */
         domain?: string | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: LocalServicesElement[] | undefined
 
     [key: string]: any;
@@ -4834,7 +4834,7 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
@@ -4846,7 +4846,7 @@ always equals 0 for desktop */
 
     domain?: string | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: LocalServicesElement[] | undefined;
 
@@ -5033,14 +5033,14 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
         /** solution to the equation
 solution to the mathematical equation specified in the keyword field when setting a task */
         result?: string | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: MathSolverElement[] | undefined
         
         /** website links featured in the element */
@@ -5065,7 +5065,7 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
@@ -5074,7 +5074,7 @@ solution to the mathematical equation specified in the keyword field when settin
 
     result?: string | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: MathSolverElement[] | undefined;
     
@@ -5426,10 +5426,10 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: ProductConsiderationsElement[] | undefined
 
     [key: string]: any;
@@ -5451,11 +5451,11 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: ProductConsiderationsElement[] | undefined;
 
@@ -5532,13 +5532,13 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
         /** search queries related to the elment */
         related_searches?: string[] | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: FoundOnWebElement[] | undefined
 
     [key: string]: any;
@@ -5560,7 +5560,7 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
@@ -5568,7 +5568,7 @@ always equals 0 for desktop */
 
     related_searches?: string[] | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: FoundOnWebElement[] | undefined;
 
@@ -5647,10 +5647,10 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: ShortVideosElement[] | undefined
 
     [key: string]: any;
@@ -5672,11 +5672,11 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: ShortVideosElement[] | undefined;
 
@@ -5753,10 +5753,10 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: RefineProductsElement[] | undefined
 
     [key: string]: any;
@@ -5778,11 +5778,11 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: RefineProductsElement[] | undefined;
 
@@ -5859,10 +5859,10 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: ExploreBrandsElement[] | undefined
 
     [key: string]: any;
@@ -5884,11 +5884,11 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: ExploreBrandsElement[] | undefined;
 
@@ -5965,10 +5965,10 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: PerspectivesElement[] | undefined
 
     [key: string]: any;
@@ -5990,11 +5990,11 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: PerspectivesElement[] | undefined;
 
@@ -6071,10 +6071,10 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: DiscussionsAndForumsElement[] | undefined
 
     [key: string]: any;
@@ -6096,11 +6096,11 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: DiscussionsAndForumsElement[] | undefined;
 
@@ -6177,10 +6177,10 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: CompareSitesElement[] | undefined
 
     [key: string]: any;
@@ -6202,11 +6202,11 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: CompareSitesElement[] | undefined;
 
@@ -6283,14 +6283,14 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
         /** array of course categories
 contains a list of categories relevant to courses */
         categories?: string[] | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: CoursesElement[] | undefined
 
     [key: string]: any;
@@ -6312,7 +6312,7 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
@@ -6321,7 +6321,7 @@ contains a list of categories relevant to courses */
 
     categories?: string[] | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: CoursesElement[] | undefined;
 
@@ -6400,7 +6400,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
         /** google defined data attribute ID
@@ -6411,7 +6411,7 @@ action:listen_artist */
         /** link of the element */
         link?: LinkElement | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: KnowledgeGraphListElement[] | undefined
 
     [key: string]: any;
@@ -6433,7 +6433,7 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
@@ -6447,7 +6447,7 @@ action:listen_artist */
 
     link?: LinkElement | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: KnowledgeGraphListElement[] | undefined;
 
@@ -6639,7 +6639,7 @@ always equals 0 for desktop */
         /** link of the element */
         link?: LinkElement | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: KnowledgeGraphImagesElement[] | undefined
 
     [key: string]: any;
@@ -6665,7 +6665,7 @@ always equals 0 for desktop */
 
     link?: LinkElement | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: KnowledgeGraphImagesElement[] | undefined;
 
@@ -6742,7 +6742,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
         /** google defined data attribute ID
@@ -6753,7 +6753,7 @@ action:listen_artist */
         /** link of the element */
         link?: LinkElement | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: KnowledgeGraphListElement[] | undefined
 
     [key: string]: any;
@@ -6775,7 +6775,7 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
@@ -6789,7 +6789,7 @@ action:listen_artist */
 
     link?: LinkElement | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: KnowledgeGraphListElement[] | undefined;
 
@@ -6870,7 +6870,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
         /** google defined data attribute ID
@@ -6904,7 +6904,7 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
@@ -7000,7 +7000,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
         /** starting date of stay
@@ -7020,7 +7020,7 @@ example:
 action:listen_artist */
         data_attrid?: string | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: KnowledgeGraphHotelsBookingElement[] | undefined
 
     [key: string]: any;
@@ -7042,7 +7042,7 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
@@ -7066,7 +7066,7 @@ action:listen_artist */
 
     data_attrid?: string | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: KnowledgeGraphHotelsBookingElement[] | undefined;
 
@@ -7149,7 +7149,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
         /** google defined data attribute ID
@@ -7179,7 +7179,7 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
@@ -7268,7 +7268,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
         /** google defined data attribute ID
@@ -7302,7 +7302,7 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
@@ -7398,7 +7398,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
         /** google defined data attribute ID
@@ -7406,7 +7406,7 @@ example:
 action:listen_artist */
         data_attrid?: string | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: KnowledgeGraphShoppingElement[] | undefined
 
     [key: string]: any;
@@ -7428,7 +7428,7 @@ always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
@@ -7438,7 +7438,7 @@ action:listen_artist */
 
     data_attrid?: string | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: KnowledgeGraphShoppingElement[] | undefined;
 
@@ -7511,7 +7511,7 @@ if true, the ai_overview element is loaded asynchronously;
 if false, the ai_overview element is loaded from cache */
         asynchronous_ai_overview?: boolean | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: BaseSerpApiAiOverviewElementItem[] | undefined
         
         /** references relevant to the element
@@ -7530,7 +7530,7 @@ if false, the ai_overview element is loaded from cache */
 
     asynchronous_ai_overview?: boolean | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: BaseSerpApiAiOverviewElementItem[] | undefined;
     
@@ -7633,7 +7633,7 @@ to obtain the content of ai_overview elements, use the load_async_ai_overview pa
 the text of the ai_overview formatted in the markdown markup language */
         markdown?: string | undefined
         
-        /** contains arrays of elements available in the list */
+        /** contains arrays of specific images */
         items?: BaseSerpApiAiOverviewElementItem[] | undefined
         
         /** references relevant to the element
@@ -7671,7 +7671,7 @@ the text of the ai_overview formatted in the markdown markup language */
 
     markdown?: string | undefined;
     
-    /** contains arrays of elements available in the list */
+    /** contains arrays of specific images */
 
     items?: BaseSerpApiAiOverviewElementItem[] | undefined;
     
@@ -7773,13 +7773,13 @@ always equals 0 for desktop */
         /** the number of reviews */
         reviews_count?: number | undefined
         
-        /** title of a given link element */
+        /** reference page title */
         title?: string | undefined
         
         /** URL */
         url?: string | undefined
         
-        /** the item’s rating 
+        /** the element’s rating
 the popularity rate based on reviews and displayed in SERP;
 if there is none, equals null */
         rating?: RatingInfo | undefined
@@ -7807,7 +7807,7 @@ always equals 0 for desktop */
 
     reviews_count?: number | undefined;
     
-    /** title of a given link element */
+    /** reference page title */
 
     title?: string | undefined;
     
@@ -7815,7 +7815,7 @@ always equals 0 for desktop */
 
     url?: string | undefined;
     
-    /** the item’s rating 
+    /** the element’s rating
 the popularity rate based on reviews and displayed in SERP;
 if there is none, equals null */
 

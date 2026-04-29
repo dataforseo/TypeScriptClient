@@ -7,10 +7,10 @@ export interface IShoppingElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of the row */
+        /** title of a given link element */
         title?: string | undefined
         
-        /** price of the app element */
+        /** price indicated in the element */
         price?: PriceInfo | undefined
         
         /** source of the element
@@ -21,20 +21,21 @@ indicates the source of information included in the top_stories_element */
         description?: string | undefined
         
         /** merchant account provider
-ecommerce site that hosts products or websites of individual sellers under the same merchant account
+commerce site that hosts products or websites of individual sellers under the same merchant account
 example:
 by Google */
         marketplace?: string | undefined
         
-        /** URL to the merchant account provider
-ecommerce site that hosts products or websites of individual sellers under the same merchant account */
+        /** relevant marketplace URL
+URL of the page on the marketplace website where the product is hosted */
         marketplace_url?: string | undefined
         
-        /** URL of element */
+        /** URL */
         url?: string | undefined
         
-        /** the element’s rating 
-the popularity rate based on reviews and displayed in SERP */
+        /** the item’s rating 
+the popularity rate based on reviews and displayed in SERP;
+if there is none, equals null */
         rating?: RatingInfo | undefined
 
     [key: string]: any;
@@ -47,11 +48,11 @@ export class ShoppingElement  implements IShoppingElement {
 
     type?: string | undefined;
     
-    /** title of the row */
+    /** title of a given link element */
 
     title?: string | undefined;
     
-    /** price of the app element */
+    /** price indicated in the element */
 
     price?: PriceInfo | undefined;
     
@@ -65,23 +66,24 @@ indicates the source of information included in the top_stories_element */
     description?: string | undefined;
     
     /** merchant account provider
-ecommerce site that hosts products or websites of individual sellers under the same merchant account
+commerce site that hosts products or websites of individual sellers under the same merchant account
 example:
 by Google */
 
     marketplace?: string | undefined;
     
-    /** URL to the merchant account provider
-ecommerce site that hosts products or websites of individual sellers under the same merchant account */
+    /** relevant marketplace URL
+URL of the page on the marketplace website where the product is hosted */
 
     marketplace_url?: string | undefined;
     
-    /** URL of element */
+    /** URL */
 
     url?: string | undefined;
     
-    /** the element’s rating 
-the popularity rate based on reviews and displayed in SERP */
+    /** the item’s rating 
+the popularity rate based on reviews and displayed in SERP;
+if there is none, equals null */
 
     rating?: RatingInfo | undefined;
 

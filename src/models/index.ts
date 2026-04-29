@@ -148,8 +148,6 @@ export  { AiOverviewExpandedComponent, IAiOverviewExpandedComponent } from "./Ai
 export  { SerpApiAiOverviewExpandedElementItem, ISerpApiAiOverviewExpandedElementItem } from "./BaseSerpApiAiOverviewElementItem";
 export  { SerpApiAiOverviewVideoElementItem, ISerpApiAiOverviewVideoElementItem } from "./BaseSerpApiAiOverviewElementItem";
 export  { SerpApiAiOverviewTableElementItem, ISerpApiAiOverviewTableElementItem } from "./BaseSerpApiAiOverviewElementItem";
-export  { AiModeAiOverviewShoppingElementInfo, IAiModeAiOverviewShoppingElementInfo } from "./AiModeAiOverviewShoppingElementInfo";
-export  { SerpApiAiOverviewShoppingItem, ISerpApiAiOverviewShoppingItem } from "./BaseSerpApiAiOverviewElementItem";
 export  { SerpApiKnowledgeGraphAiOverviewItemElementItem, ISerpApiKnowledgeGraphAiOverviewItemElementItem } from "./BaseSerpApiKnowledgeGraphElementItem";
 export  { KnowledgeGraphSerpElementItem, IKnowledgeGraphSerpElementItem } from "./BaseSerpApiElementItem";
 export  { AdLinkElement, IAdLinkElement } from "./AdLinkElement";
@@ -290,6 +288,7 @@ export  { SerpApiAiModeAiOverviewExpandedElementItem, ISerpApiAiModeAiOverviewEx
 export  { SerpApiAiModeAiOverviewVideoElementItem, ISerpApiAiModeAiOverviewVideoElementItem } from "./BaseSerpApiAiModeAiOverviewElementItem";
 export  { AiModeTableInfo, IAiModeTableInfo } from "./AiModeTableInfo";
 export  { SerpApiAiModeAiOverviewTableElementItem, ISerpApiAiModeAiOverviewTableElementItem } from "./BaseSerpApiAiModeAiOverviewElementItem";
+export  { AiModeAiOverviewShoppingElementInfo, IAiModeAiOverviewShoppingElementInfo } from "./AiModeAiOverviewShoppingElementInfo";
 export  { SerpApiAiModeAiOverviewShoppingItem, ISerpApiAiModeAiOverviewShoppingItem } from "./BaseSerpApiAiModeAiOverviewElementItem";
 export  { AiModeAiOverviewInfo, IAiModeAiOverviewInfo } from "./AiModeAiOverviewInfo";
 export  { SerpGoogleAiModeTaskGetAdvancedResultInfo, ISerpGoogleAiModeTaskGetAdvancedResultInfo } from "./SerpGoogleAiModeTaskGetAdvancedResultInfo";
@@ -563,7 +562,6 @@ export  { SerpApiBingAiOverviewVideoElementItem, ISerpApiBingAiOverviewVideoElem
 export  { SerpApiBingAiOverviewVideosElementItem, ISerpApiBingAiOverviewVideosElementItem } from "./BaseSerpApiBingAiOverviewElementItem";
 export  { SerpApiBingAiOverviewImagesElementItem, ISerpApiBingAiOverviewImagesElementItem } from "./BaseSerpApiBingAiOverviewElementItem";
 export  { SerpApiBingAiOverviewOrganicElementItem, ISerpApiBingAiOverviewOrganicElementItem } from "./BaseSerpApiBingAiOverviewElementItem";
-export  { SerpApiBingAiOverviewShoppingItem, ISerpApiBingAiOverviewShoppingItem } from "./BaseSerpApiBingAiOverviewElementItem";
 export  { BingAiOverviewSerpElementItem, IBingAiOverviewSerpElementItem } from "./BaseBingSerpApiElementItem";
 export  { BingImagesSerpElementItem, IBingImagesSerpElementItem } from "./BaseBingSerpApiElementItem";
 export  { BingVideoSerpElementItem, IBingVideoSerpElementItem } from "./BaseBingSerpApiElementItem";
@@ -987,7 +985,7 @@ export  { DataforseoLabsGoogleRankedKeywordsLiveRequestInfo, IDataforseoLabsGoog
 export  { RankChanges, IRankChanges } from "./RankChanges";
 export  { BacklinksInfo, IBacklinksInfo } from "./BacklinksInfo";
 export  { RankInfo, IRankInfo } from "./RankInfo";
-export  { DataLabsFeaturedSnippetSerpElementItem, IDataLabsFeaturedSnippetSerpElementItem } from "./BaseDataforseoLabsApiElementItem";
+export  { DataLabsOrganicSerpElementItem, IDataLabsOrganicSerpElementItem } from "./BaseDataforseoLabsApiElementItem";
 export  { RankedSerpElement, IRankedSerpElement } from "./RankedSerpElement";
 export  { DataforseoLabsGoogleRankedKeywordsLiveItem, IDataforseoLabsGoogleRankedKeywordsLiveItem } from "./DataforseoLabsGoogleRankedKeywordsLiveItem";
 export  { DataLabsLocalPackSerpElementItem, IDataLabsLocalPackSerpElementItem } from "./BaseDataforseoLabsApiElementItem";
@@ -1007,7 +1005,7 @@ export  { DataforseoLabsGoogleCompetitorsDomainLiveResponseInfo, IDataforseoLabs
 export  { DataforseoLabsGoogleDomainIntersectionLiveRequestInfo, IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo } from "./DataforseoLabsGoogleDomainIntersectionLiveRequestInfo";
 export  { DataLabsPaidSerpElementItem, IDataLabsPaidSerpElementItem } from "./BaseDataforseoLabsApiElementItem";
 export  { DataforseoLabsGoogleDomainIntersectionLiveItem, IDataforseoLabsGoogleDomainIntersectionLiveItem } from "./DataforseoLabsGoogleDomainIntersectionLiveItem";
-export  { DataLabsOrganicSerpElementItem, IDataLabsOrganicSerpElementItem } from "./BaseDataforseoLabsApiElementItem";
+export  { DataLabsFeaturedSnippetSerpElementItem, IDataLabsFeaturedSnippetSerpElementItem } from "./BaseDataforseoLabsApiElementItem";
 export  { DataforseoLabsGoogleDomainIntersectionLiveResultInfo, IDataforseoLabsGoogleDomainIntersectionLiveResultInfo } from "./DataforseoLabsGoogleDomainIntersectionLiveResultInfo";
 export  { DataforseoLabsGoogleDomainIntersectionLiveTaskInfo, IDataforseoLabsGoogleDomainIntersectionLiveTaskInfo } from "./DataforseoLabsGoogleDomainIntersectionLiveTaskInfo";
 export  { DataforseoLabsGoogleDomainIntersectionLiveResponseInfo, IDataforseoLabsGoogleDomainIntersectionLiveResponseInfo } from "./DataforseoLabsGoogleDomainIntersectionLiveResponseInfo";
@@ -1903,6 +1901,12 @@ export  { OnPageMicrodataInfoItem, IOnPageMicrodataInfoItem } from "./OnPageMicr
 export  { OnPageMicrodataResultInfo, IOnPageMicrodataResultInfo } from "./OnPageMicrodataResultInfo";
 export  { OnPageMicrodataTaskInfo, IOnPageMicrodataTaskInfo } from "./OnPageMicrodataTaskInfo";
 export  { OnPageMicrodataResponseInfo, IOnPageMicrodataResponseInfo } from "./OnPageMicrodataResponseInfo";
+export  { OnPageUncrawlableResourcesRequestInfo, IOnPageUncrawlableResourcesRequestInfo } from "./OnPageUncrawlableResourcesRequestInfo";
+export  { UncrawlableResourcesMeta, IUncrawlableResourcesMeta } from "./UncrawlableResourcesMeta";
+export  { OnPageUncrawlableResourcesItem, IOnPageUncrawlableResourcesItem } from "./OnPageUncrawlableResourcesItem";
+export  { OnPageUncrawlableResourcesResultInfo, IOnPageUncrawlableResourcesResultInfo } from "./OnPageUncrawlableResourcesResultInfo";
+export  { OnPageUncrawlableResourcesTaskInfo, IOnPageUncrawlableResourcesTaskInfo } from "./OnPageUncrawlableResourcesTaskInfo";
+export  { OnPageUncrawlableResourcesResponseInfo, IOnPageUncrawlableResourcesResponseInfo } from "./OnPageUncrawlableResourcesResponseInfo";
 export  { OnPageRawHtmlRequestInfo, IOnPageRawHtmlRequestInfo } from "./OnPageRawHtmlRequestInfo";
 export  { OnPageRawHtmlItem, IOnPageRawHtmlItem } from "./OnPageRawHtmlItem";
 export  { OnPageRawHtmlResultInfo, IOnPageRawHtmlResultInfo } from "./OnPageRawHtmlResultInfo";

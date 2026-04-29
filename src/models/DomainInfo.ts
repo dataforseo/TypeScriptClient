@@ -63,6 +63,11 @@ other on-page check-ups related to the website */
 the total number of crawled pages */
         total_pages?: number | undefined
         
+        /** total uncrawlable resources
+the total number of resources that could not be crawled;
+the resource is considered uncrawlable when the actual content type of the resource doesn’t match the content type expected by the crawler */
+        total_uncrawlable_resources?: number | undefined
+        
         /** status code returned by a non-existent page
 in most cases, it is recommended a server returns a 404 response code */
         page_not_found_status_code?: number | undefined
@@ -161,6 +166,12 @@ the total number of crawled pages */
 
     total_pages?: number | undefined;
     
+    /** total uncrawlable resources
+the total number of resources that could not be crawled;
+the resource is considered uncrawlable when the actual content type of the resource doesn’t match the content type expected by the crawler */
+
+    total_uncrawlable_resources?: number | undefined;
+    
     /** status code returned by a non-existent page
 in most cases, it is recommended a server returns a 404 response code */
 
@@ -218,6 +229,7 @@ in most cases, it is recommended that redirect returns a 301 status code */
             this.ssl_info = data["ssl_info"] ? SslInfo.fromJS(data["ssl_info"]) : <any>undefined;
             this.checks = data["checks"];
             this.total_pages = data["total_pages"];
+            this.total_uncrawlable_resources = data["total_uncrawlable_resources"];
             this.page_not_found_status_code = data["page_not_found_status_code"];
             this.canonicalization_status_code = data["canonicalization_status_code"];
             this.directory_browsing_status_code = data["directory_browsing_status_code"];
@@ -250,6 +262,7 @@ in most cases, it is recommended that redirect returns a 301 status code */
         data["ssl_info"] = this.ssl_info ? SslInfo.fromJS(this.ssl_info)?.toJSON() : <any>undefined;
         data["checks"] = this.checks;
         data["total_pages"] = this.total_pages;
+        data["total_uncrawlable_resources"] = this.total_uncrawlable_resources;
         data["page_not_found_status_code"] = this.page_not_found_status_code;
         data["canonicalization_status_code"] = this.canonicalization_status_code;
         data["directory_browsing_status_code"] = this.directory_browsing_status_code;

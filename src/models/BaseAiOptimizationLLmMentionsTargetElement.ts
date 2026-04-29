@@ -110,20 +110,6 @@ optional field
 if set to true, the subdomains will be included in the search
 default value: false */
         include_subdomains?: boolean | undefined
-        
-        /** target domain search scope
-optional field
-possible values:
-any, sources, search_results
-default value: any */
-        search_scope?: string[] | undefined
-        
-        /** target domain search filter
-optional field
-possible values:
-include, exclude
-default value: include */
-        search_filter?: string | undefined
 
     [key: string]: any;
 
@@ -143,22 +129,6 @@ if set to true, the subdomains will be included in the search
 default value: false */
 
     include_subdomains?: boolean | undefined;
-    
-    /** target domain search scope
-optional field
-possible values:
-any, sources, search_results
-default value: any */
-
-    search_scope?: string[] | undefined;
-    
-    /** target domain search filter
-optional field
-possible values:
-include, exclude
-default value: include */
-
-    search_filter?: string | undefined;
 
     [key: string]: any;
 
@@ -177,8 +147,6 @@ default value: include */
             }
             this.domain = data["domain"];
             this.include_subdomains = data["include_subdomains"];
-            this.search_scope = data["search_scope"];
-            this.search_filter = data["search_filter"];
         }
     }
 
@@ -200,8 +168,6 @@ default value: include */
         
         data["domain"] = this.domain;
         data["include_subdomains"] = this.include_subdomains;
-        data["search_scope"] = this.search_scope;
-        data["search_filter"] = this.search_filter;
         return data;
     }
 }
@@ -226,20 +192,6 @@ word_match – full-text search for terms that match the specified seed keyword 
 partial_match – substring search that finds all instances containing the specified sequence of characters, even if it appears inside a longer word (e.g., search for “light” will return results with “lighting”, “highlight”);
 default value: word_match */
         match_type?: string | undefined
-        
-        /** target domain search scope
-optional field
-possible values:
-any, sources, search_results
-default value: any */
-        search_scope?: string[] | undefined
-        
-        /** target domain search filter
-optional field
-possible values:
-include, exclude
-default value: include */
-        search_filter?: string | undefined
 
     [key: string]: any;
 
@@ -266,22 +218,6 @@ partial_match – substring search that finds all instances containing the speci
 default value: word_match */
 
     match_type?: string | undefined;
-    
-    /** target domain search scope
-optional field
-possible values:
-any, sources, search_results
-default value: any */
-
-    search_scope?: string[] | undefined;
-    
-    /** target domain search filter
-optional field
-possible values:
-include, exclude
-default value: include */
-
-    search_filter?: string | undefined;
 
     [key: string]: any;
 
@@ -300,8 +236,6 @@ default value: include */
             }
             this.keyword = data["keyword"];
             this.match_type = data["match_type"];
-            this.search_scope = data["search_scope"];
-            this.search_filter = data["search_filter"];
         }
     }
 
@@ -323,8 +257,6 @@ default value: include */
         
         data["keyword"] = this.keyword;
         data["match_type"] = this.match_type;
-        data["search_scope"] = this.search_scope;
-        data["search_filter"] = this.search_filter;
         return data;
     }
 }
