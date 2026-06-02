@@ -23,6 +23,7 @@ maximum value: 1000 */
         /** offset in the results array of returned resources
 optional field
 default value: 0
+maximum value: 2000000
 if you specify the 10 value, the first ten resources in the results array will be omitted and the data will be provided for the successive resources */
         offset?: number | undefined
         
@@ -117,6 +118,7 @@ maximum value: 1000 */
     /** offset in the results array of returned resources
 optional field
 default value: 0
+maximum value: 2000000
 if you specify the 10 value, the first ten resources in the results array will be omitted and the data will be provided for the successive resources */
 
     offset?: number | undefined;

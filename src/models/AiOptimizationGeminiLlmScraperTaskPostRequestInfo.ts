@@ -6,11 +6,14 @@ export interface IAiOptimizationGeminiLlmScraperTaskPostRequestInfo   {
         /** task priorityoptional fieldcan take the following values:1 – normal execution priority (set by default)2 – high execution priorityYou will be additionally charged for the tasks with high execution priority.The cost can be calculated on the Pricing page. */
         priority?: number | undefined
         
-        /** full name of search engine locationrequired field if you don't specify location_codeif you use this field, you don't need to specify location_codeyou can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/gemini/llm_scraper/locationsexample:United States */
+        /** full name of search engine locationrequired field if you don't specify location_code or location_coordinateif you use this field, you don't need to specify location_code or location_coordinateyou can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/gemini/llm_scraper/locationsexample:United States */
         location_name?: string | undefined
         
-        /** search engine location coderequired field if you don't specify location_nameif you use this field, you don't need to specify location_nameyou can receive the list of available locations of the search engines with their location_code by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/gemini/llm_scraper/locationsexample:2840 */
+        /** search engine location coderequired field if you don't specify location_name or location_coordinateif you use this field, you don't need to specify location_name or location_coordinateyou can receive the list of available locations of the search engines with their location_code by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/gemini/llm_scraper/locationsexample:2840 */
         location_code?: number | undefined
+        
+        /** GPS coordinates of a locationrequired field if you don't specify location_name or location_codeif you use this field, you don't need to specify location_name or location_codelocation_coordinate parameter should be specified in the 'latitude,longitude,radius' formatthe maximum number of decimal digits for 'latitude' and 'longitude': 7the minimum value for 'radius': 199 (mm)the maximum value for 'radius': 199999 (mm)example:53.476225,-2.243572,200 */
+        location_coordinate?: string | undefined
         
         /** full name of search engine languagerequired field if you don't specify language_code;if you use this field, you don't need to specify language_code;you can receive the list of available languages of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/gemini/llm_scraper/languagesexample:English */
         language_name?: string | undefined
@@ -47,13 +50,17 @@ export class AiOptimizationGeminiLlmScraperTaskPostRequestInfo  implements IAiOp
 
     priority?: number | undefined;
     
-    /** full name of search engine locationrequired field if you don't specify location_codeif you use this field, you don't need to specify location_codeyou can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/gemini/llm_scraper/locationsexample:United States */
+    /** full name of search engine locationrequired field if you don't specify location_code or location_coordinateif you use this field, you don't need to specify location_code or location_coordinateyou can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/gemini/llm_scraper/locationsexample:United States */
 
     location_name?: string | undefined;
     
-    /** search engine location coderequired field if you don't specify location_nameif you use this field, you don't need to specify location_nameyou can receive the list of available locations of the search engines with their location_code by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/gemini/llm_scraper/locationsexample:2840 */
+    /** search engine location coderequired field if you don't specify location_name or location_coordinateif you use this field, you don't need to specify location_name or location_coordinateyou can receive the list of available locations of the search engines with their location_code by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/gemini/llm_scraper/locationsexample:2840 */
 
     location_code?: number | undefined;
+    
+    /** GPS coordinates of a locationrequired field if you don't specify location_name or location_codeif you use this field, you don't need to specify location_name or location_codelocation_coordinate parameter should be specified in the 'latitude,longitude,radius' formatthe maximum number of decimal digits for 'latitude' and 'longitude': 7the minimum value for 'radius': 199 (mm)the maximum value for 'radius': 199999 (mm)example:53.476225,-2.243572,200 */
+
+    location_coordinate?: string | undefined;
     
     /** full name of search engine languagerequired field if you don't specify language_code;if you use this field, you don't need to specify language_code;you can receive the list of available languages of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/gemini/llm_scraper/languagesexample:English */
 
@@ -107,6 +114,7 @@ export class AiOptimizationGeminiLlmScraperTaskPostRequestInfo  implements IAiOp
             this.priority = data["priority"];
             this.location_name = data["location_name"];
             this.location_code = data["location_code"];
+            this.location_coordinate = data["location_coordinate"];
             this.language_name = data["language_name"];
             this.language_code = data["language_code"];
             this.expand_citations = data["expand_citations"];
@@ -135,6 +143,7 @@ export class AiOptimizationGeminiLlmScraperTaskPostRequestInfo  implements IAiOp
         data["priority"] = this.priority;
         data["location_name"] = this.location_name;
         data["location_code"] = this.location_code;
+        data["location_coordinate"] = this.location_coordinate;
         data["language_name"] = this.language_name;
         data["language_code"] = this.language_code;
         data["expand_citations"] = this.expand_citations;

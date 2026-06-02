@@ -16,9 +16,7 @@ if there is no data, then the value is null */
         date_interval?: string | undefined
         
         /** include Google search partners
-the value you specified when setting the task
-if true, the results are returned for owned, operated, and syndicated networks across Google and partner sites that host Google search;
-if false, the results are returned for Google search sites only */
+the value is always false */
         search_partners?: boolean | undefined
         
         /** the maximum custom bid
@@ -34,13 +32,12 @@ can take the following values: exact, broad, phrase */
         
         /** projected number of ad impressions
 number of impressions an ad is projected to get within the specified time period
-if there is no data, then the value is null
-learn more about impressions in this help center article */
+Note: parameter deprecated, the value is always null */
         impressions?: number | undefined
         
         /** projected clickthrough rate (CTR) of the advertisement
-number of clicks an ad is projected to receive divided by the number of ad impressions; the CTR is projected for the specified time period
-if there is no data, then the value is null */
+number of clicks an ad is projected to receive divided by the number of ad impressions;
+Note: parameter deprecated, the value is always null */
         ctr?: number | undefined
         
         /** the average cost-per-click value
@@ -84,9 +81,7 @@ if there is no data, then the value is null */
     date_interval?: string | undefined;
     
     /** include Google search partners
-the value you specified when setting the task
-if true, the results are returned for owned, operated, and syndicated networks across Google and partner sites that host Google search;
-if false, the results are returned for Google search sites only */
+the value is always false */
 
     search_partners?: boolean | undefined;
     
@@ -105,14 +100,13 @@ can take the following values: exact, broad, phrase */
     
     /** projected number of ad impressions
 number of impressions an ad is projected to get within the specified time period
-if there is no data, then the value is null
-learn more about impressions in this help center article */
+Note: parameter deprecated, the value is always null */
 
     impressions?: number | undefined;
     
     /** projected clickthrough rate (CTR) of the advertisement
-number of clicks an ad is projected to receive divided by the number of ad impressions; the CTR is projected for the specified time period
-if there is no data, then the value is null */
+number of clicks an ad is projected to receive divided by the number of ad impressions;
+Note: parameter deprecated, the value is always null */
 
     ctr?: number | undefined;
     

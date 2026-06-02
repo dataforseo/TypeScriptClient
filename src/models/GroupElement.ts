@@ -12,7 +12,7 @@ export interface IGroupElement   {
         /** current AI search volume rate of a keywordlearn more about this metric here */
         ai_search_volume?: number | undefined
         
-        /** current AI impressions rate of a keyword */
+        /** AI impressions rate of a keyworddeprecated field, the value will be null */
         impressions?: number | undefined
 
     [key: string]: any;
@@ -37,7 +37,7 @@ export class GroupElement  implements IGroupElement {
 
     ai_search_volume?: number | undefined;
     
-    /** current AI impressions rate of a keyword */
+    /** AI impressions rate of a keyworddeprecated field, the value will be null */
 
     impressions?: number | undefined;
 

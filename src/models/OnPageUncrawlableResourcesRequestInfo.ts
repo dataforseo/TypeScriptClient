@@ -6,7 +6,7 @@ export interface IOnPageUncrawlableResourcesRequestInfo   {
         /** the maximum number of returned uncrawlable resourcesoptional fielddefault value: 100maximum value: 1000 */
         limit?: number | undefined
         
-        /** offset in the results array of returned uncrawlable resourcesoptional fielddefault value: 0if you specify the 10 value, the first ten invalid resources in the results array will be omitted and the data will be provided for the successive invalid resources */
+        /** offset in the results array of returned uncrawlable resourcesoptional fielddefault value: 0 maximum value: 2000000if you specify the 10 value, the first ten invalid resources in the results array will be omitted and the data will be provided for the successive invalid resources */
         offset?: number | undefined
         
         /** results sorting rulesoptional fieldyou can use the same values as in the filters array to sort the resultspossible sorting types:asc - results will be sorted in the ascending orderdesc - results will be sorted in the descending orderyou should use a comma to set up a sorting typeexample:['meta.content_type,desc']note that you can set no more than three sorting rules in a single requestyou should use a comma to separate several sorting rulesexample:['meta.content_type,asc','fetch_time,desc'] */
@@ -29,7 +29,7 @@ export class OnPageUncrawlableResourcesRequestInfo  implements IOnPageUncrawlabl
 
     limit?: number | undefined;
     
-    /** offset in the results array of returned uncrawlable resourcesoptional fielddefault value: 0if you specify the 10 value, the first ten invalid resources in the results array will be omitted and the data will be provided for the successive invalid resources */
+    /** offset in the results array of returned uncrawlable resourcesoptional fielddefault value: 0 maximum value: 2000000if you specify the 10 value, the first ten invalid resources in the results array will be omitted and the data will be provided for the successive invalid resources */
 
     offset?: number | undefined;
     

@@ -26,12 +26,6 @@ required field
 can take the following values: exact, broad, phrase */
         match?: string | undefined
         
-        /** include Google search partners
-optional field
-if you specify true, the results will be delivered for owned, operated, and syndicated networks across Google and partner sites that host Google search;
-default value: false – results are returned for Google search sites */
-        search_partners?: boolean | undefined
-        
         /** full name of search engine location
 optional field
 if you do not indicate the location, you will receive worldwide results, i.e., for all available locations;
@@ -104,7 +98,7 @@ default value: next_month */
         
         /** results sorting parameters
 optional field
-Use these parameters to sort the results by relevance, impressions, ctr, average_cpc, cost, or clicks in the descending order
+Use these parameters to sort the results by relevance, average_cpc, cost, or clicks in the descending order
 default value: relevance */
         sort_by?: string | undefined
         
@@ -173,13 +167,6 @@ required field
 can take the following values: exact, broad, phrase */
 
     match?: string | undefined;
-    
-    /** include Google search partners
-optional field
-if you specify true, the results will be delivered for owned, operated, and syndicated networks across Google and partner sites that host Google search;
-default value: false – results are returned for Google search sites */
-
-    search_partners?: boolean | undefined;
     
     /** full name of search engine location
 optional field
@@ -261,7 +248,7 @@ default value: next_month */
     
     /** results sorting parameters
 optional field
-Use these parameters to sort the results by relevance, impressions, ctr, average_cpc, cost, or clicks in the descending order
+Use these parameters to sort the results by relevance, average_cpc, cost, or clicks in the descending order
 default value: relevance */
 
     sort_by?: string | undefined;
@@ -323,7 +310,6 @@ you will find the specified tag value in the data object of the response */
             this.keywords = data["keywords"];
             this.bid = data["bid"];
             this.match = data["match"];
-            this.search_partners = data["search_partners"];
             this.location_name = data["location_name"];
             this.location_code = data["location_code"];
             this.location_coordinate = data["location_coordinate"];
@@ -356,7 +342,6 @@ you will find the specified tag value in the data object of the response */
         data["keywords"] = this.keywords;
         data["bid"] = this.bid;
         data["match"] = this.match;
-        data["search_partners"] = this.search_partners;
         data["location_name"] = this.location_name;
         data["location_code"] = this.location_code;
         data["location_coordinate"] = this.location_coordinate;

@@ -27,17 +27,29 @@ import { MerchantAmazonProductsTaskPostRequestInfo } from "./../models/MerchantA
 import { MerchantAmazonProductsTaskPostResponseInfo } from "./../models/MerchantAmazonProductsTaskPostResponseInfo";
 import { MerchantAmazonProductsTasksReadyResponseInfo } from "./../models/MerchantAmazonProductsTasksReadyResponseInfo";
 import { MerchantAmazonProductsTaskGetAdvancedResponseInfo } from "./../models/MerchantAmazonProductsTaskGetAdvancedResponseInfo";
+import { MerchantAmazonProductsLiveAdvancedRequestInfo } from "./../models/MerchantAmazonProductsLiveAdvancedRequestInfo";
+import { MerchantAmazonProductsLiveAdvancedResponseInfo } from "./../models/MerchantAmazonProductsLiveAdvancedResponseInfo";
 import { MerchantAmazonProductsTaskGetHtmlResponseInfo } from "./../models/MerchantAmazonProductsTaskGetHtmlResponseInfo";
+import { MerchantAmazonProductsLiveHtmlRequestInfo } from "./../models/MerchantAmazonProductsLiveHtmlRequestInfo";
+import { MerchantAmazonProductsLiveHtmlResponseInfo } from "./../models/MerchantAmazonProductsLiveHtmlResponseInfo";
 import { MerchantAmazonAsinTaskPostRequestInfo } from "./../models/MerchantAmazonAsinTaskPostRequestInfo";
 import { MerchantAmazonAsinTaskPostResponseInfo } from "./../models/MerchantAmazonAsinTaskPostResponseInfo";
 import { MerchantAmazonAsinTasksReadyResponseInfo } from "./../models/MerchantAmazonAsinTasksReadyResponseInfo";
 import { MerchantAmazonAsinTaskGetAdvancedResponseInfo } from "./../models/MerchantAmazonAsinTaskGetAdvancedResponseInfo";
+import { MerchantAmazonAsinLiveAdvancedRequestInfo } from "./../models/MerchantAmazonAsinLiveAdvancedRequestInfo";
+import { MerchantAmazonAsinLiveAdvancedResponseInfo } from "./../models/MerchantAmazonAsinLiveAdvancedResponseInfo";
 import { MerchantAmazonAsinTaskGetHtmlResponseInfo } from "./../models/MerchantAmazonAsinTaskGetHtmlResponseInfo";
+import { MerchantAmazonAsinLiveHtmlRequestInfo } from "./../models/MerchantAmazonAsinLiveHtmlRequestInfo";
+import { MerchantAmazonAsinLiveHtmlResponseInfo } from "./../models/MerchantAmazonAsinLiveHtmlResponseInfo";
 import { MerchantAmazonSellersTaskPostRequestInfo } from "./../models/MerchantAmazonSellersTaskPostRequestInfo";
 import { MerchantAmazonSellersTaskPostResponseInfo } from "./../models/MerchantAmazonSellersTaskPostResponseInfo";
 import { MerchantAmazonSellersTasksReadyResponseInfo } from "./../models/MerchantAmazonSellersTasksReadyResponseInfo";
 import { MerchantAmazonSellersTaskGetAdvancedResponseInfo } from "./../models/MerchantAmazonSellersTaskGetAdvancedResponseInfo";
+import { MerchantAmazonSellersLiveAdvancedRequestInfo } from "./../models/MerchantAmazonSellersLiveAdvancedRequestInfo";
+import { MerchantAmazonSellersLiveAdvancedResponseInfo } from "./../models/MerchantAmazonSellersLiveAdvancedResponseInfo";
 import { MerchantAmazonSellersTaskGetHtmlResponseInfo } from "./../models/MerchantAmazonSellersTaskGetHtmlResponseInfo";
+import { MerchantAmazonSellersLiveHtmlRequestInfo } from "./../models/MerchantAmazonSellersLiveHtmlRequestInfo";
+import { MerchantAmazonSellersLiveHtmlResponseInfo } from "./../models/MerchantAmazonSellersLiveHtmlResponseInfo";
 import { ApiException, throwException } from "./../models/ApiException"
 
 export class MerchantApi {
@@ -60,7 +72,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -95,7 +107,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -127,7 +139,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
 
@@ -160,7 +172,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
 
@@ -194,7 +206,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
 
@@ -230,7 +242,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -262,7 +274,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
 
@@ -295,7 +307,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
 
@@ -329,7 +341,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
 
@@ -363,7 +375,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
 
@@ -399,7 +411,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -431,7 +443,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
 
@@ -465,7 +477,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
 
@@ -501,7 +513,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -533,7 +545,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
 
@@ -567,7 +579,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
 
@@ -601,7 +613,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
 
@@ -634,7 +646,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
 
@@ -668,7 +680,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
 
@@ -701,7 +713,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
 
@@ -737,7 +749,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -769,7 +781,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
 
@@ -803,7 +815,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
 
@@ -829,6 +841,41 @@ export class MerchantApi {
         }
         return Promise.resolve<MerchantAmazonProductsTaskGetAdvancedResponseInfo | null>(null as any);
     }
+    amazonProductsLiveAdvanced(body: MerchantAmazonProductsLiveAdvancedRequestInfo[]): Promise<MerchantAmazonProductsLiveAdvancedResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/merchant/amazon/products/live/advanced";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.25",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processAmazonProductsLiveAdvanced(_response);
+        });
+    }
+
+    protected processAmazonProductsLiveAdvanced(response: Response): Promise<MerchantAmazonProductsLiveAdvancedResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantAmazonProductsLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<MerchantAmazonProductsLiveAdvancedResponseInfo | null>(null as any);
+    }
     amazonProductsTaskGetHtml(id: string): Promise<MerchantAmazonProductsTaskGetHtmlResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/amazon/products/task_get/html/{id}";
         url_ = url_.replace(/[?&]$/, "");
@@ -837,7 +884,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
 
@@ -863,6 +910,41 @@ export class MerchantApi {
         }
         return Promise.resolve<MerchantAmazonProductsTaskGetHtmlResponseInfo | null>(null as any);
     }
+    amazonProductsLiveHtml(body: MerchantAmazonProductsLiveHtmlRequestInfo[]): Promise<MerchantAmazonProductsLiveHtmlResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/merchant/amazon/products/live/html";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.25",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processAmazonProductsLiveHtml(_response);
+        });
+    }
+
+    protected processAmazonProductsLiveHtml(response: Response): Promise<MerchantAmazonProductsLiveHtmlResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantAmazonProductsLiveHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<MerchantAmazonProductsLiveHtmlResponseInfo | null>(null as any);
+    }
     amazonAsinTaskPost(body: MerchantAmazonAsinTaskPostRequestInfo[]): Promise<MerchantAmazonAsinTaskPostResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/amazon/asin/task_post";
         url_ = url_.replace(/[?&]$/, "");
@@ -873,7 +955,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -905,7 +987,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
 
@@ -939,7 +1021,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
 
@@ -965,6 +1047,41 @@ export class MerchantApi {
         }
         return Promise.resolve<MerchantAmazonAsinTaskGetAdvancedResponseInfo | null>(null as any);
     }
+    amazonAsinLiveAdvanced(body: MerchantAmazonAsinLiveAdvancedRequestInfo[]): Promise<MerchantAmazonAsinLiveAdvancedResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/merchant/amazon/asin/live/advanced";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.25",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processAmazonAsinLiveAdvanced(_response);
+        });
+    }
+
+    protected processAmazonAsinLiveAdvanced(response: Response): Promise<MerchantAmazonAsinLiveAdvancedResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantAmazonAsinLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<MerchantAmazonAsinLiveAdvancedResponseInfo | null>(null as any);
+    }
     amazonAsinTaskGetHtml(id: string): Promise<MerchantAmazonAsinTaskGetHtmlResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/amazon/asin/task_get/html/{id}";
         url_ = url_.replace(/[?&]$/, "");
@@ -973,7 +1090,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
 
@@ -999,6 +1116,41 @@ export class MerchantApi {
         }
         return Promise.resolve<MerchantAmazonAsinTaskGetHtmlResponseInfo | null>(null as any);
     }
+    amazonAsinLiveHtml(body: MerchantAmazonAsinLiveHtmlRequestInfo[]): Promise<MerchantAmazonAsinLiveHtmlResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/merchant/amazon/asin/live/html";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.25",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processAmazonAsinLiveHtml(_response);
+        });
+    }
+
+    protected processAmazonAsinLiveHtml(response: Response): Promise<MerchantAmazonAsinLiveHtmlResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantAmazonAsinLiveHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<MerchantAmazonAsinLiveHtmlResponseInfo | null>(null as any);
+    }
     amazonSellersTaskPost(body: MerchantAmazonSellersTaskPostRequestInfo[]): Promise<MerchantAmazonSellersTaskPostResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/amazon/sellers/task_post";
         url_ = url_.replace(/[?&]$/, "");
@@ -1009,7 +1161,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1041,7 +1193,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
 
@@ -1075,7 +1227,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
 
@@ -1101,6 +1253,41 @@ export class MerchantApi {
         }
         return Promise.resolve<MerchantAmazonSellersTaskGetAdvancedResponseInfo | null>(null as any);
     }
+    amazonSellersLiveAdvanced(body: MerchantAmazonSellersLiveAdvancedRequestInfo[]): Promise<MerchantAmazonSellersLiveAdvancedResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/merchant/amazon/sellers/live/advanced";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.25",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processAmazonSellersLiveAdvanced(_response);
+        });
+    }
+
+    protected processAmazonSellersLiveAdvanced(response: Response): Promise<MerchantAmazonSellersLiveAdvancedResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantAmazonSellersLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<MerchantAmazonSellersLiveAdvancedResponseInfo | null>(null as any);
+    }
     amazonSellersTaskGetHtml(id: string): Promise<MerchantAmazonSellersTaskGetHtmlResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/merchant/amazon/sellers/task_get/html/{id}";
         url_ = url_.replace(/[?&]$/, "");
@@ -1109,7 +1296,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.24",
+                "User-Agent": "typescript-client/2.0.25",
             }
         };
 
@@ -1134,5 +1321,40 @@ export class MerchantApi {
             });
         }
         return Promise.resolve<MerchantAmazonSellersTaskGetHtmlResponseInfo | null>(null as any);
+    }
+    amazonSellersLiveHtml(body: MerchantAmazonSellersLiveHtmlRequestInfo[]): Promise<MerchantAmazonSellersLiveHtmlResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/merchant/amazon/sellers/live/html";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.0.25",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processAmazonSellersLiveHtml(_response);
+        });
+    }
+
+    protected processAmazonSellersLiveHtml(response: Response): Promise<MerchantAmazonSellersLiveHtmlResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? MerchantAmazonSellersLiveHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<MerchantAmazonSellersLiveHtmlResponseInfo | null>(null as any);
     }
 }

@@ -864,7 +864,7 @@ if there are none, equals null */
         
         /** frequently asked questions
 questions and answers extension shown below some of Google’s search results
-if there are none, equals null */
+Note: this object is deprecated and always returns null */
         faq?: FaqBox | undefined
         
         /** extension of the organic element
@@ -1002,7 +1002,7 @@ if there are none, equals null */
     
     /** frequently asked questions
 questions and answers extension shown below some of Google’s search results
-if there are none, equals null */
+Note: this object is deprecated and always returns null */
 
     faq?: FaqBox | undefined;
     

@@ -12,7 +12,7 @@ export interface IAiOptimizationResultTotalInfo   {
         /** platform-based groupingarray of group elements containing mention metrics segmented by AI platform */
         platform?: GroupElement[] | undefined
         
-        /** found source domains relevant to the targetarray of objects containing data on top domains that are cited as sources in LLM responses */
+        /** found source domains relevant to the targetarray of objects containing data on top domains that are cited as sources in LLM responseslearn more about the sources and how to retrieve LLM citation data at our Help Center */
         sources_domain?: GroupElement[] | undefined
         
         /** found search results domains relevant to the targetarray of objects containing data on top domains that appear in search results related to LLM queries */
@@ -42,7 +42,7 @@ export class AiOptimizationResultTotalInfo  implements IAiOptimizationResultTota
 
     platform?: GroupElement[] | undefined;
     
-    /** found source domains relevant to the targetarray of objects containing data on top domains that are cited as sources in LLM responses */
+    /** found source domains relevant to the targetarray of objects containing data on top domains that are cited as sources in LLM responseslearn more about the sources and how to retrieve LLM citation data at our Help Center */
 
     sources_domain?: GroupElement[] | undefined;
     

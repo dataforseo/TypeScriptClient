@@ -15,7 +15,7 @@ export interface IAiOptimizationChatGptLlmResponsesLiveRequestInfo   {
         /** randomness of the AI responseoptional fieldhigher values make output more diverse; lower values make output more focused;minimum value: 0maximum value: 2default value: 0.94Note: not supported in reasoning models */
         temperature?: number | undefined
         
-        /**  */
+        /** diversity of the AI responseoptional field controls diversity of the response by limiting token selection;minimum value: 0maximum value: 1 default value: 0.92Note:  top_p cannot be used together with temperature in the same request */
         top_p?: number | undefined
         
         /** enable web searchoptional fieldwhen enabled, the AI model can access and cite current web information;default value: false;Note: refer to the Models endpoint for a list of models that support web_search; */
@@ -24,10 +24,10 @@ export interface IAiOptimizationChatGptLlmResponsesLiveRequestInfo   {
         /** force AI agent to use web searchoptional fieldto enable this parameter, web_search must also be enabled;when enabled, the AI model is forced to access and cite current web information;default value: false;Note: even if the parameter is set to true, there is no guarantee web sources will be cited in the response Note #2: not supported in reasoning models */
         force_web_search?: boolean | undefined
         
-        /** ISO country code of the locationoptional fieldrequired if web_search_city is specified;to enable this parameter, web_search must also be enabled;when enabled, the AI model will search the web from the country you specify;Note: not supported in o3-mini, o1-pro, o1 models */
+        /** ISO country code of the locationoptional fieldto enable this parameter, web_search must also be enabled;when enabled, the AI model will search the web from the country you specify;Note: not supported in o3-mini, o1-pro, o1 models */
         web_search_country_iso_code?: string | undefined
         
-        /** city name of the locationoptional fieldNote: specify web_search_country_iso_code to use this parameterNote #2: not supported in o3-mini, o1-pro, o1 models */
+        /** city name of the locationoptional fieldNote: not supported in o3-mini, o1-pro, o1 models */
         web_search_city?: string | undefined
         
         /** instructions for the AI behaviouroptional fielddefines the AI's role, tone, or specific behavior you can specify up to 500 characters in the system_message field */
@@ -70,7 +70,7 @@ export class AiOptimizationChatGptLlmResponsesLiveRequestInfo  implements IAiOpt
 
     temperature?: number | undefined;
     
-    /**  */
+    /** diversity of the AI responseoptional field controls diversity of the response by limiting token selection;minimum value: 0maximum value: 1 default value: 0.92Note:  top_p cannot be used together with temperature in the same request */
 
     top_p?: number | undefined;
     
@@ -82,11 +82,11 @@ export class AiOptimizationChatGptLlmResponsesLiveRequestInfo  implements IAiOpt
 
     force_web_search?: boolean | undefined;
     
-    /** ISO country code of the locationoptional fieldrequired if web_search_city is specified;to enable this parameter, web_search must also be enabled;when enabled, the AI model will search the web from the country you specify;Note: not supported in o3-mini, o1-pro, o1 models */
+    /** ISO country code of the locationoptional fieldto enable this parameter, web_search must also be enabled;when enabled, the AI model will search the web from the country you specify;Note: not supported in o3-mini, o1-pro, o1 models */
 
     web_search_country_iso_code?: string | undefined;
     
-    /** city name of the locationoptional fieldNote: specify web_search_country_iso_code to use this parameterNote #2: not supported in o3-mini, o1-pro, o1 models */
+    /** city name of the locationoptional fieldNote: not supported in o3-mini, o1-pro, o1 models */
 
     web_search_city?: string | undefined;
     

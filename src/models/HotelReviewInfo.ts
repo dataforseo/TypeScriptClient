@@ -20,7 +20,7 @@ the distribution of votes across the rating in the range from 1 to 5 */
         rating_distribution?: { [key: string]: number; } | undefined
         
         /** reviews on third-party sites
-reviews from third-paty sites */
+reviews from third-party sites */
         other_sites_reviews?: OtherSitesReviewsInfo[] | undefined
 
     [key: string]: any;
@@ -49,7 +49,7 @@ the distribution of votes across the rating in the range from 1 to 5 */
     rating_distribution?: { [key: string]: number; } | undefined;
     
     /** reviews on third-party sites
-reviews from third-paty sites */
+reviews from third-party sites */
 
     other_sites_reviews?: OtherSitesReviewsInfo[] | undefined;
 

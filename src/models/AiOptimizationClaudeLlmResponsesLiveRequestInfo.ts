@@ -24,10 +24,10 @@ export interface IAiOptimizationClaudeLlmResponsesLiveRequestInfo   {
         /** force AI agent to use web searchoptional fieldto enable this parameter, web_search must also be enabled;when enabled, the AI model is forced to access and cite current web information;default value: false;Note: even if the parameter is set to true, there is no guarantee web sources will be cited in the response */
         force_web_search?: boolean | undefined
         
-        /** ISO country code of the locationoptional fieldpossible values: 'AR','AT','AU','BE','BR','CA','CH','CL','CN','DE','DK','ES','FI','FR','GB','HK','ID','IN','IT','JP','KR','MX','MY','NL','NO','NZ','PH','PL','PT','RU','SA','SE','TR','TW','US','ZA' */
+        /** ISO country code of the location used for searching the weboptional fieldpossible values: 'AR','AT','AU','BE','BR','CA','CH','CL','CN','DE','DK','ES','FI','FR','GB','HK','ID','IN','IT','JP','KR','MX','MY','NL','NO','NZ','PH','PL','PT','RU','SA','SE','TR','TW','US','ZA' */
         web_search_country_iso_code?: string | undefined
         
-        /** city name of the locationoptional fieldNote: specify web_search_country_iso_code to use this parameter */
+        /** city name of the location used for searching the weboptional field */
         web_search_city?: string | undefined
         
         /** instructions for the AI behaviouroptional fielddefines the AI's role, tone, or specific behavior;you can specify up to 500 characters in the system_message field */
@@ -85,11 +85,11 @@ export class AiOptimizationClaudeLlmResponsesLiveRequestInfo  implements IAiOpti
 
     force_web_search?: boolean | undefined;
     
-    /** ISO country code of the locationoptional fieldpossible values: 'AR','AT','AU','BE','BR','CA','CH','CL','CN','DE','DK','ES','FI','FR','GB','HK','ID','IN','IT','JP','KR','MX','MY','NL','NO','NZ','PH','PL','PT','RU','SA','SE','TR','TW','US','ZA' */
+    /** ISO country code of the location used for searching the weboptional fieldpossible values: 'AR','AT','AU','BE','BR','CA','CH','CL','CN','DE','DK','ES','FI','FR','GB','HK','ID','IN','IT','JP','KR','MX','MY','NL','NO','NZ','PH','PL','PT','RU','SA','SE','TR','TW','US','ZA' */
 
     web_search_country_iso_code?: string | undefined;
     
-    /** city name of the locationoptional fieldNote: specify web_search_country_iso_code to use this parameter */
+    /** city name of the location used for searching the weboptional field */
 
     web_search_city?: string | undefined;
     

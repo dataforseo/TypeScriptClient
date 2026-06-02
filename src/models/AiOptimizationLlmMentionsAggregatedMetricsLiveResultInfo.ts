@@ -1,4 +1,5 @@
 import { AiOptimizationResultTotalInfo, IAiOptimizationResultTotalInfo } from "./AiOptimizationResultTotalInfo";
+import { AiOptimizationLlmMentionssLiveItem, IAiOptimizationLlmMentionssLiveItem } from "./AiOptimizationLlmMentionssLiveItem";
 
 
 export interface IAiOptimizationLlmMentionsAggregatedMetricsLiveResultInfo   {
@@ -7,7 +8,7 @@ export interface IAiOptimizationLlmMentionsAggregatedMetricsLiveResultInfo   {
         total?: AiOptimizationResultTotalInfo | undefined
         
         /** individual pages resultsarray containing detailed mention metrics for each of the found top pagesin this case, equals null */
-        items?: any | undefined
+        items?: AiOptimizationLlmMentionssLiveItem[] | undefined
 
     [key: string]: any;
 
@@ -21,7 +22,7 @@ export class AiOptimizationLlmMentionsAggregatedMetricsLiveResultInfo  implement
     
     /** individual pages resultsarray containing detailed mention metrics for each of the found top pagesin this case, equals null */
 
-    items?: any | undefined;
+    items?: AiOptimizationLlmMentionssLiveItem[] | undefined;
 
     [key: string]: any;
 
@@ -44,7 +45,12 @@ export class AiOptimizationLlmMentionsAggregatedMetricsLiveResultInfo  implement
                     this[property] = data[property];
             }
             this.total = data["total"] ? AiOptimizationResultTotalInfo.fromJS(data["total"]) : <any>undefined;
-            this.items = data["items"];
+            if (Array.isArray(data["items"])) {
+                this.items = [];
+                for (let item of data["items"]) {
+                    this.items.push(AiOptimizationLlmMentionssLiveItem.fromJS(item));
+                }
+            }
         }
     }
 
@@ -63,7 +69,15 @@ export class AiOptimizationLlmMentionsAggregatedMetricsLiveResultInfo  implement
         
         
         data["total"] = this.total ? AiOptimizationResultTotalInfo.fromJS(this.total)?.toJSON() : <any>undefined;
-        data["items"] = this.items;
+        data["items"] = null;
+        if (Array.isArray(this.items)) {
+            data["items"] = [];
+            for (let item of this.items) {
+                if (item && typeof item.toJSON === "function") {
+                    data["items"].push(item?.toJSON());
+                }
+            }
+        }
         return data;
     }
 }

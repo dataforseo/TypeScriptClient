@@ -4,6 +4,7 @@ import { Table, ITable } from "./Table";
 import { GeminiImagesElement, IGeminiImagesElement } from "./GeminiImagesElement";
 import { ChatGptProductsElement, IChatGptProductsElement } from "./ChatGptProductsElement";
 import { ChatGptLocalBusinessesElement, IChatGptLocalBusinessesElement } from "./ChatGptLocalBusinessesElement";
+import { ChatGptAdAdvertiser, IChatGptAdAdvertiser } from "./ChatGptAdAdvertiser";
 
 
 export interface IBaseChatGptLlmScraperElementItem   {
@@ -101,6 +102,12 @@ export class BaseChatGptLlmScraperElementItem  implements IBaseChatGptLlmScraper
         if (data["type"] === "chat_gpt_local_businesses") {
 
             let result = new ChatGptLocalBusinessesElementItem();
+            result.init(data);
+            return result;
+        }
+        if (data["type"] === "chat_gpt_ad") {
+
+            let result = new ChatGptAdElementItem();
             result.init(data);
             return result;
         }
@@ -617,6 +624,107 @@ export class ChatGptLocalBusinessesElementItem  extends BaseChatGptLlmScraperEle
                 }
             }
         }
+        return data;
+    }
+}
+
+ 
+export interface IChatGptAdElementItem  extends IBaseChatGptLlmScraperElementItem    {
+        
+        /** name of the brand */
+        title?: string | undefined
+        
+        /** source description */
+        snippet?: string | undefined
+        
+        /** URL */
+        url?: string | undefined
+        
+        /** domain */
+        domain?: string | undefined
+        
+        /** URL of the image displayed in the ad */
+        image_url?: string | undefined
+        
+        /** information about the advertiser associated with the ad */
+        advertiser?: ChatGptAdAdvertiser | undefined
+
+    [key: string]: any;
+
+    }
+
+export class ChatGptAdElementItem  extends BaseChatGptLlmScraperElementItem   implements IChatGptAdElementItem {
+    
+    /** name of the brand */
+
+    title?: string | undefined;
+    
+    /** source description */
+
+    snippet?: string | undefined;
+    
+    /** URL */
+
+    url?: string | undefined;
+    
+    /** domain */
+
+    domain?: string | undefined;
+    
+    /** URL of the image displayed in the ad */
+
+    image_url?: string | undefined;
+    
+    /** information about the advertiser associated with the ad */
+
+    advertiser?: ChatGptAdAdvertiser | undefined;
+
+    [key: string]: any;
+
+
+    constructor(data?: IChatGptAdElementItem) {
+    super(data);
+
+    }
+
+    init(data?: any) {
+        super.init(data);
+        if (data) {
+            for (var property in data) {
+                if (data.hasOwnProperty(property))
+                    this[property] = data[property];
+            }
+            this.title = data["title"];
+            this.snippet = data["snippet"];
+            this.url = data["url"];
+            this.domain = data["domain"];
+            this.image_url = data["image_url"];
+            this.advertiser = data["advertiser"] ? ChatGptAdAdvertiser.fromJS(data["advertiser"]) : <any>undefined;
+        }
+    }
+
+    static fromJS(data: any): ChatGptAdElementItem {
+        data = typeof data === 'object' ? data : {};
+
+
+        let result = new ChatGptAdElementItem();
+        result.init(data);
+        return result;
+    }
+
+    toJSON(data?: any) {
+        data = typeof data === 'object' ? data : {};
+
+         
+        super.toJSON(data);
+        
+        
+        data["title"] = this.title;
+        data["snippet"] = this.snippet;
+        data["url"] = this.url;
+        data["domain"] = this.domain;
+        data["image_url"] = this.image_url;
+        data["advertiser"] = this.advertiser ? ChatGptAdAdvertiser.fromJS(this.advertiser)?.toJSON() : <any>undefined;
         return data;
     }
 }

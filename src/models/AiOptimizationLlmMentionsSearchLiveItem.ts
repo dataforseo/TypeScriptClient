@@ -24,7 +24,7 @@ export interface IAiOptimizationLlmMentionsSearchLiveItem   {
         /** relevant answer in markdown formatcontent of the result formatted in the markdown markup language */
         answer?: string | undefined
         
-        /** array of sourcesthe sources the model cited or relied on in its final answer */
+        /** array of sourcesthe sources the model cited or relied on in its final answerlearn more about the sources and how to retrieve LLM citation data at our Help Center */
         sources?: Sources[] | undefined
         
         /** array of search resultsall web search outputs the model retrieved when looking up information, including duplicates and unused entries */
@@ -78,7 +78,7 @@ export class AiOptimizationLlmMentionsSearchLiveItem  implements IAiOptimization
 
     answer?: string | undefined;
     
-    /** array of sourcesthe sources the model cited or relied on in its final answer */
+    /** array of sourcesthe sources the model cited or relied on in its final answerlearn more about the sources and how to retrieve LLM citation data at our Help Center */
 
     sources?: Sources[] | undefined;
     

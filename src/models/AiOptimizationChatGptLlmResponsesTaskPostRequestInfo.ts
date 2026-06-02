@@ -15,8 +15,20 @@ export interface IAiOptimizationChatGptLlmResponsesTaskPostRequestInfo   {
         /** randomness of the AI responseoptional fieldhigher values make output more diverse; lower values make output more focused;minimum value: 0maximum value: 2default value: 0.94Note: not supported in reasoning models */
         temperature?: number | undefined
         
-        /**  */
+        /** diversity of the AI responseoptional field controls diversity of the response by limiting token selection;minimum value: 0maximum value: 1 default value: 0.92Note:  top_p cannot be used together with temperature in the same request */
         top_p?: number | undefined
+        
+        /** enable web searchoptional fieldwhen enabled, the AI model can access and cite current web information;default value: false;Note: refer to the Models endpoint for a list of models that support web_search; */
+        web_search?: boolean | undefined
+        
+        /** force AI agent to use web searchoptional fieldto enable this parameter, web_search must also be enabled;when enabled, the AI model is forced to access and cite current web information;default value: false;Note: even if the parameter is set to true, there is no guarantee web sources will be cited in the response Note #2: not supported in reasoning models */
+        force_web_search?: boolean | undefined
+        
+        /** ISO country code of the locationoptional fieldto enable this parameter, web_search must also be enabled;when enabled, the AI model will search the web from the country you specify;Note: not supported in o3-mini, o1-pro, o1 models */
+        web_search_country_iso_code?: string | undefined
+        
+        /** city name of the locationoptional fieldNote: not supported in o3-mini, o1-pro, o1 models */
+        web_search_city?: string | undefined
         
         /** instructions for the AI behaviouroptional fielddefines the AI's role, tone, or specific behavior;you can specify up to 500 characters in the system_message field */
         system_message?: string | undefined
@@ -64,9 +76,25 @@ export class AiOptimizationChatGptLlmResponsesTaskPostRequestInfo  implements IA
 
     temperature?: number | undefined;
     
-    /**  */
+    /** diversity of the AI responseoptional field controls diversity of the response by limiting token selection;minimum value: 0maximum value: 1 default value: 0.92Note:  top_p cannot be used together with temperature in the same request */
 
     top_p?: number | undefined;
+    
+    /** enable web searchoptional fieldwhen enabled, the AI model can access and cite current web information;default value: false;Note: refer to the Models endpoint for a list of models that support web_search; */
+
+    web_search?: boolean | undefined;
+    
+    /** force AI agent to use web searchoptional fieldto enable this parameter, web_search must also be enabled;when enabled, the AI model is forced to access and cite current web information;default value: false;Note: even if the parameter is set to true, there is no guarantee web sources will be cited in the response Note #2: not supported in reasoning models */
+
+    force_web_search?: boolean | undefined;
+    
+    /** ISO country code of the locationoptional fieldto enable this parameter, web_search must also be enabled;when enabled, the AI model will search the web from the country you specify;Note: not supported in o3-mini, o1-pro, o1 models */
+
+    web_search_country_iso_code?: string | undefined;
+    
+    /** city name of the locationoptional fieldNote: not supported in o3-mini, o1-pro, o1 models */
+
+    web_search_city?: string | undefined;
     
     /** instructions for the AI behaviouroptional fielddefines the AI's role, tone, or specific behavior;you can specify up to 500 characters in the system_message field */
 
@@ -122,6 +150,10 @@ example:
             this.max_output_tokens = data["max_output_tokens"];
             this.temperature = data["temperature"];
             this.top_p = data["top_p"];
+            this.web_search = data["web_search"];
+            this.force_web_search = data["force_web_search"];
+            this.web_search_country_iso_code = data["web_search_country_iso_code"];
+            this.web_search_city = data["web_search_city"];
             this.system_message = data["system_message"];
             if (Array.isArray(data["message_chain"])) {
                 this.message_chain = [];
@@ -154,6 +186,10 @@ example:
         data["max_output_tokens"] = this.max_output_tokens;
         data["temperature"] = this.temperature;
         data["top_p"] = this.top_p;
+        data["web_search"] = this.web_search;
+        data["force_web_search"] = this.force_web_search;
+        data["web_search_country_iso_code"] = this.web_search_country_iso_code;
+        data["web_search_city"] = this.web_search_city;
         data["system_message"] = this.system_message;
         data["message_chain"] = null;
         if (Array.isArray(this.message_chain)) {

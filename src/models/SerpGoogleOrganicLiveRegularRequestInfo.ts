@@ -3,7 +3,7 @@ import { SerpApiStopCrawlOnMatchInfo, ISerpApiStopCrawlOnMatchInfo } from "./Ser
 
 export interface ISerpGoogleOrganicLiveRegularRequestInfo   {
         
-        /** keywordrequired fieldyou can specify up to 700 characters in the keyword fieldall %## will be decoded (plus character '+' will be decoded to a space character)if you need to use the '%' character for your keyword, please specify it as '%25';if you need to use the “+” character for your keyword, please specify it as “%2B”;if this field contains such parameters as 'allinanchor:', 'allintext:', 'allintitle:', 'allinurl:', 'define:', 'filetype:', 'id:', 'inanchor:', 'info:', 'intext:', 'intitle:', 'inurl:', 'link:', 'site:', the charge per task will be multiplied by 5Note: queries containing the ‘cache:’ parameter are not supported and will return a validation error */
+        /** keywordrequired fieldyou can specify up to 700 characters in the keyword fieldall %## will be decoded (plus character '+' will be decoded to a space character)if you need to use the '%' character for your keyword, please specify it as '%25';if you need to use the “+” character for your keyword, please specify it as “%2B”;if this field contains such parameters as 'allinanchor:', 'allintext:', 'allintitle:', 'allinurl:', ‘cache:’, 'define:', 'filetype:', 'id:', 'inanchor:', 'info:', 'intext:', 'intitle:', 'inurl:', 'link:', 'site:', the charge per task will be multiplied by 5 */
         keyword?: string | undefined
         
         /** search engine location coderequired field if you don't specify location_name or location_coordinateif you use this field, you don't need to specify location_name or location_coordinateyou can receive the list of available locations of the search engines with their location_code by making a separate request to the https://api.dataforseo.com/v3/serp/google/locationsexample:2840 */
@@ -49,13 +49,13 @@ Your account will be billed per each SERP crawled through the specified targets 
         /** page crawl limitoptional fieldnumber of search results pages to crawlmax value: 100Note: you will be charged for each page crawled (10 organic results per page);learn more about pricing on our Pricing page;Note#2: the max_crawl_pages and depth parameters complement each other;learn more at our help center */
         max_crawl_pages?: number | undefined
         
-        /** additional parameters of the search queryoptional fieldget the list of available parameters and additional details here */
+        /** additional parameters of the search queryoptional fieldget the list of available parameters and additional details hereNote: the following search engine parameters are not supported and will be automatically unset if specified: lr, cr, as_qdr, as_sitesearch, as_occt, as_filetype. */
         search_param?: string | undefined
         
         /** display related resultsoptional fieldif set to true, the related_result element in the response will be provided as a snippet of its parent organic result;if set to false, the related_result element will be provided as a separate organic result;default value: true */
         group_organic_results?: boolean | undefined
         
-        /** direct URL of the search queryoptional fieldyou can specify a direct URL and we will sort it out to the necessary fields. Note that this method is the most difficult for our API to process and also requires you to specify the exact language and location in the URL. In most cases, we wouldn’t recommend using this method.example:https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAIQIFISCXXeIa8LoNhHEZkq1d1aOpZS */
+        /** direct URL of the search queryoptional fieldyou can specify a direct URL and we will sort it out to the necessary fields. Note that this method is the most difficult for our API to process and also requires you to specify the exact language and location in the URL. In most cases, we wouldn’t recommend using this method.example:https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAIQIFISCXXeIa8LoNhHEZkq1d1aOpZSNote: the following search engine parameters are not supported and will be automatically unset if specified in the URL: lr, cr, as_qdr, as_sitesearch, as_occt, as_filetype. */
         url?: string | undefined
         
         /** GPS coordinates of a locationrequired field if you don't specify location_name or location_codeif you use this field, you don't need to specify location_name or location_codelocation_coordinate parameter should be specified in the 'latitude,longitude,radius' formatthe maximum number of decimal digits for 'latitude' and 'longitude': 7the minimum value for 'radius': 199 (mm)the maximum value for 'radius': 199999 (mm)example:53.476225,-2.243572,200 */
@@ -82,7 +82,7 @@ Your account will be billed per each SERP crawled through the specified targets 
 
 export class SerpGoogleOrganicLiveRegularRequestInfo  implements ISerpGoogleOrganicLiveRegularRequestInfo {
     
-    /** keywordrequired fieldyou can specify up to 700 characters in the keyword fieldall %## will be decoded (plus character '+' will be decoded to a space character)if you need to use the '%' character for your keyword, please specify it as '%25';if you need to use the “+” character for your keyword, please specify it as “%2B”;if this field contains such parameters as 'allinanchor:', 'allintext:', 'allintitle:', 'allinurl:', 'define:', 'filetype:', 'id:', 'inanchor:', 'info:', 'intext:', 'intitle:', 'inurl:', 'link:', 'site:', the charge per task will be multiplied by 5Note: queries containing the ‘cache:’ parameter are not supported and will return a validation error */
+    /** keywordrequired fieldyou can specify up to 700 characters in the keyword fieldall %## will be decoded (plus character '+' will be decoded to a space character)if you need to use the '%' character for your keyword, please specify it as '%25';if you need to use the “+” character for your keyword, please specify it as “%2B”;if this field contains such parameters as 'allinanchor:', 'allintext:', 'allintitle:', 'allinurl:', ‘cache:’, 'define:', 'filetype:', 'id:', 'inanchor:', 'info:', 'intext:', 'intitle:', 'inurl:', 'link:', 'site:', the charge per task will be multiplied by 5 */
 
     keyword?: string | undefined;
     
@@ -141,7 +141,7 @@ Your account will be billed per each SERP crawled through the specified targets 
 
     max_crawl_pages?: number | undefined;
     
-    /** additional parameters of the search queryoptional fieldget the list of available parameters and additional details here */
+    /** additional parameters of the search queryoptional fieldget the list of available parameters and additional details hereNote: the following search engine parameters are not supported and will be automatically unset if specified: lr, cr, as_qdr, as_sitesearch, as_occt, as_filetype. */
 
     search_param?: string | undefined;
     
@@ -149,7 +149,7 @@ Your account will be billed per each SERP crawled through the specified targets 
 
     group_organic_results?: boolean | undefined;
     
-    /** direct URL of the search queryoptional fieldyou can specify a direct URL and we will sort it out to the necessary fields. Note that this method is the most difficult for our API to process and also requires you to specify the exact language and location in the URL. In most cases, we wouldn’t recommend using this method.example:https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAIQIFISCXXeIa8LoNhHEZkq1d1aOpZS */
+    /** direct URL of the search queryoptional fieldyou can specify a direct URL and we will sort it out to the necessary fields. Note that this method is the most difficult for our API to process and also requires you to specify the exact language and location in the URL. In most cases, we wouldn’t recommend using this method.example:https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAIQIFISCXXeIa8LoNhHEZkq1d1aOpZSNote: the following search engine parameters are not supported and will be automatically unset if specified in the URL: lr, cr, as_qdr, as_sitesearch, as_occt, as_filetype. */
 
     url?: string | undefined;
     

@@ -3,6 +3,7 @@ import { BusinessDataAttributesInfo, IBusinessDataAttributesInfo } from "./Busin
 import { RatingInfo, IRatingInfo } from "./RatingInfo";
 import { PeopleAlsoSearch, IPeopleAlsoSearch } from "./PeopleAlsoSearch";
 import { BusinessWorkHoursInfo, IBusinessWorkHoursInfo } from "./BusinessWorkHoursInfo";
+import { Services, IServices } from "./Services";
 
 
 export interface IItemsGoogleBusinessInfo   {
@@ -164,6 +165,9 @@ note: if the business establishment is a parent item in the directory, the value
         /** items of the directory
 includes information about businesses that are located within the target business establishment and have the same address */
         directory?: any | undefined
+        
+        /** list of services offered by the business */
+        services?: Services[] | undefined
 
     [key: string]: any;
 
@@ -368,6 +372,10 @@ note: if the business establishment is a parent item in the directory, the value
 includes information about businesses that are located within the target business establishment and have the same address */
 
     directory?: any | undefined;
+    
+    /** list of services offered by the business */
+
+    services?: Services[] | undefined;
 
     [key: string]: any;
 
@@ -434,6 +442,12 @@ includes information about businesses that are located within the target busines
             this.local_business_links = data["local_business_links"];
             this.is_directory_item = data["is_directory_item"];
             this.directory = data["directory"];
+            if (Array.isArray(data["services"])) {
+                this.services = [];
+                for (let item of data["services"]) {
+                    this.services.push(Services.fromJS(item));
+                }
+            }
         }
     }
 
@@ -499,6 +513,15 @@ includes information about businesses that are located within the target busines
         data["local_business_links"] = this.local_business_links;
         data["is_directory_item"] = this.is_directory_item;
         data["directory"] = this.directory;
+        data["services"] = null;
+        if (Array.isArray(this.services)) {
+            data["services"] = [];
+            for (let item of this.services) {
+                if (item && typeof item.toJSON === "function") {
+                    data["services"].push(item?.toJSON());
+                }
+            }
+        }
         return data;
     }
 }

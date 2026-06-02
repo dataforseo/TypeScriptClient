@@ -27,15 +27,21 @@ All URIs are relative to *https://api.dataforseo.com*
 [**amazonProductsTaskPost**](MerchantApi.md#amazonProductsTaskPost) | **POST**  /v3/merchant/amazon/products/task_post  |
 [**amazonProductsTasksReady**](MerchantApi.md#amazonProductsTasksReady) | **GET**  /v3/merchant/amazon/products/tasks_ready  |
 [**amazonProductsTaskGetAdvanced**](MerchantApi.md#amazonProductsTaskGetAdvanced) | **GET**  /v3/merchant/amazon/products/task_get/advanced/{id}  |
+[**amazonProductsLiveAdvanced**](MerchantApi.md#amazonProductsLiveAdvanced) | **POST**  /v3/merchant/amazon/products/live/advanced  |
 [**amazonProductsTaskGetHtml**](MerchantApi.md#amazonProductsTaskGetHtml) | **GET**  /v3/merchant/amazon/products/task_get/html/{id}  |
+[**amazonProductsLiveHtml**](MerchantApi.md#amazonProductsLiveHtml) | **POST**  /v3/merchant/amazon/products/live/html  |
 [**amazonAsinTaskPost**](MerchantApi.md#amazonAsinTaskPost) | **POST**  /v3/merchant/amazon/asin/task_post  |
 [**amazonAsinTasksReady**](MerchantApi.md#amazonAsinTasksReady) | **GET**  /v3/merchant/amazon/asin/tasks_ready  |
 [**amazonAsinTaskGetAdvanced**](MerchantApi.md#amazonAsinTaskGetAdvanced) | **GET**  /v3/merchant/amazon/asin/task_get/advanced/{id}  |
+[**amazonAsinLiveAdvanced**](MerchantApi.md#amazonAsinLiveAdvanced) | **POST**  /v3/merchant/amazon/asin/live/advanced  |
 [**amazonAsinTaskGetHtml**](MerchantApi.md#amazonAsinTaskGetHtml) | **GET**  /v3/merchant/amazon/asin/task_get/html/{id}  |
+[**amazonAsinLiveHtml**](MerchantApi.md#amazonAsinLiveHtml) | **POST**  /v3/merchant/amazon/asin/live/html  |
 [**amazonSellersTaskPost**](MerchantApi.md#amazonSellersTaskPost) | **POST**  /v3/merchant/amazon/sellers/task_post  |
 [**amazonSellersTasksReady**](MerchantApi.md#amazonSellersTasksReady) | **GET**  /v3/merchant/amazon/sellers/tasks_ready  |
 [**amazonSellersTaskGetAdvanced**](MerchantApi.md#amazonSellersTaskGetAdvanced) | **GET**  /v3/merchant/amazon/sellers/task_get/advanced/{id}  |
+[**amazonSellersLiveAdvanced**](MerchantApi.md#amazonSellersLiveAdvanced) | **POST**  /v3/merchant/amazon/sellers/live/advanced  |
 [**amazonSellersTaskGetHtml**](MerchantApi.md#amazonSellersTaskGetHtml) | **GET**  /v3/merchant/amazon/sellers/task_get/html/{id}  |
+[**amazonSellersLiveHtml**](MerchantApi.md#amazonSellersLiveHtml) | **POST**  /v3/merchant/amazon/sellers/live/html  |
 
 <a id="merchantIdList"></a>
 # **merchantIdList**
@@ -1359,6 +1365,66 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
+<a id="amazonProductsLiveAdvanced"></a>
+# **amazonProductsLiveAdvanced**
+> MerchantAmazonProductsLiveAdvancedResponseInfo amazonProductsLiveAdvanced()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new MerchantApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let task = new MerchantAmazonProductsLiveAdvancedRequestInfo();
+   task.language_code = "en_US";
+   task.location_code = 2840;
+   task.keyword = "shoes";
+ let response = await api.amazonProductsLiveAdvanced([task]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;MerchantAmazonProductsLiveAdvancedRequestInfo[]&gt;**](MerchantAmazonProductsLiveAdvancedRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**MerchantAmazonProductsLiveAdvancedResponseInfo**](MerchantAmazonProductsLiveAdvancedResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
 <a id="amazonProductsTaskGetHtml"></a>
 # **amazonProductsTaskGetHtml**
 > MerchantAmazonProductsTaskGetHtmlResponseInfo amazonProductsTaskGetHtml()
@@ -1401,6 +1467,66 @@ This endpoint does not need any parameter.
 ### Return type
 
 [**MerchantAmazonProductsTaskGetHtmlResponseInfo**](MerchantAmazonProductsTaskGetHtmlResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="amazonProductsLiveHtml"></a>
+# **amazonProductsLiveHtml**
+> MerchantAmazonProductsLiveHtmlResponseInfo amazonProductsLiveHtml()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new MerchantApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let task = new MerchantAmazonProductsLiveHtmlRequestInfo();
+   task.language_code = "en_US";
+   task.location_code = 2840;
+   task.keyword = "shoes";
+ let response = await api.amazonProductsLiveHtml([task]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;MerchantAmazonProductsLiveHtmlRequestInfo[]&gt;**](MerchantAmazonProductsLiveHtmlRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**MerchantAmazonProductsLiveHtmlResponseInfo**](MerchantAmazonProductsLiveHtmlResponseInfo.md)
 
 ### Authorization
 
@@ -1589,6 +1715,66 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
+<a id="amazonAsinLiveAdvanced"></a>
+# **amazonAsinLiveAdvanced**
+> MerchantAmazonAsinLiveAdvancedResponseInfo amazonAsinLiveAdvanced()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new MerchantApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let task = new MerchantAmazonAsinLiveAdvancedRequestInfo();
+   task.language_code = "en_US";
+   task.location_code = 2840;
+   task.asin = "B0756FCPPN";
+ let response = await api.amazonAsinLiveAdvanced([task]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;MerchantAmazonAsinLiveAdvancedRequestInfo[]&gt;**](MerchantAmazonAsinLiveAdvancedRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**MerchantAmazonAsinLiveAdvancedResponseInfo**](MerchantAmazonAsinLiveAdvancedResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
 <a id="amazonAsinTaskGetHtml"></a>
 # **amazonAsinTaskGetHtml**
 > MerchantAmazonAsinTaskGetHtmlResponseInfo amazonAsinTaskGetHtml()
@@ -1631,6 +1817,66 @@ This endpoint does not need any parameter.
 ### Return type
 
 [**MerchantAmazonAsinTaskGetHtmlResponseInfo**](MerchantAmazonAsinTaskGetHtmlResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="amazonAsinLiveHtml"></a>
+# **amazonAsinLiveHtml**
+> MerchantAmazonAsinLiveHtmlResponseInfo amazonAsinLiveHtml()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new MerchantApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let task = new MerchantAmazonAsinLiveHtmlRequestInfo();
+   task.language_code = "en_US";
+   task.location_code = 2840;
+   task.asin = "B0756FCPPN";
+ let response = await api.amazonAsinLiveHtml([task]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;MerchantAmazonAsinLiveHtmlRequestInfo[]&gt;**](MerchantAmazonAsinLiveHtmlRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**MerchantAmazonAsinLiveHtmlResponseInfo**](MerchantAmazonAsinLiveHtmlResponseInfo.md)
 
 ### Authorization
 
@@ -1819,6 +2065,66 @@ This endpoint does not need any parameter.
 |-------------|-------------|------------------|
 | **200** | Successful operation |  -  |
 
+<a id="amazonSellersLiveAdvanced"></a>
+# **amazonSellersLiveAdvanced**
+> MerchantAmazonSellersLiveAdvancedResponseInfo amazonSellersLiveAdvanced()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new MerchantApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let task = new MerchantAmazonSellersLiveAdvancedRequestInfo();
+   task.language_code = "en_US";
+   task.location_code = 2840;
+   task.asin = "B07D528W98";
+ let response = await api.amazonSellersLiveAdvanced([task]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;MerchantAmazonSellersLiveAdvancedRequestInfo[]&gt;**](MerchantAmazonSellersLiveAdvancedRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**MerchantAmazonSellersLiveAdvancedResponseInfo**](MerchantAmazonSellersLiveAdvancedResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
 <a id="amazonSellersTaskGetHtml"></a>
 # **amazonSellersTaskGetHtml**
 > MerchantAmazonSellersTaskGetHtmlResponseInfo amazonSellersTaskGetHtml()
@@ -1861,6 +2167,66 @@ This endpoint does not need any parameter.
 ### Return type
 
 [**MerchantAmazonSellersTaskGetHtmlResponseInfo**](MerchantAmazonSellersTaskGetHtmlResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="amazonSellersLiveHtml"></a>
+# **amazonSellersLiveHtml**
+> MerchantAmazonSellersLiveHtmlResponseInfo amazonSellersLiveHtml()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new MerchantApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let task = new MerchantAmazonSellersLiveHtmlRequestInfo();
+   task.language_code = "en_US";
+   task.location_code = 2840;
+   task.asin = "B085RFFC9Q";
+ let response = await api.amazonSellersLiveHtml([task]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;MerchantAmazonSellersLiveHtmlRequestInfo[]&gt;**](MerchantAmazonSellersLiveHtmlRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**MerchantAmazonSellersLiveHtmlResponseInfo**](MerchantAmazonSellersLiveHtmlResponseInfo.md)
 
 ### Authorization
 

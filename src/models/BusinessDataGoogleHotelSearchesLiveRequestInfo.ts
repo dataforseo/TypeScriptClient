@@ -66,10 +66,10 @@ en */
         /** parsing depth
 optional field
 number of results in Google Hotels
-default value: 20 organic results
+default value: 18 organic results
 max value: 140
-Note: your account will be billed per each 20 organic results regardless of paid listings in the response;
-thus, setting a depth above 20 may result in additional charges if Google Hotels return more than 20 results;
+Note: your account will be billed per each 18 organic results regardless of paid listings in the response;
+thus, setting a depth above 18 may result in additional charges if Google Hotels return more than 18 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
         depth?: number | undefined
         
@@ -284,10 +284,10 @@ en */
     /** parsing depth
 optional field
 number of results in Google Hotels
-default value: 20 organic results
+default value: 18 organic results
 max value: 140
-Note: your account will be billed per each 20 organic results regardless of paid listings in the response;
-thus, setting a depth above 20 may result in additional charges if Google Hotels return more than 20 results;
+Note: your account will be billed per each 18 organic results regardless of paid listings in the response;
+thus, setting a depth above 18 may result in additional charges if Google Hotels return more than 18 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
 
     depth?: number | undefined;
