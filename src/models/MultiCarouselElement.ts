@@ -18,14 +18,17 @@ if there are none, equals null */
     }
 
 export class MultiCarouselElement  implements IMultiCarouselElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** title of a given link element */
 
     title?: string | undefined;
+
     
     /** multi_carousel_snippet results
 if there are none, equals null */

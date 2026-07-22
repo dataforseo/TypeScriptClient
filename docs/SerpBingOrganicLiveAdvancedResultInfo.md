@@ -17,4 +17,4 @@
 **se_results_count** | **number** | total number of results in SERP |[optional]|
 **pages_count** | **number** | total pages retrieved<br>total number of retrieved SERPs in the result |[optional]|
 **items_count** | **number** | the number of results returned in the items array |[optional]|
-**items** | **BaseBingSerpApiElementItem[]** | additional items present in the element<br>if there are none, equals null |[optional]|
+**items** | **BaseBingSerpApiElementItem[]** | elements of search results found in SERP |[optional]|

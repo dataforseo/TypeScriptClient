@@ -13,10 +13,12 @@ export interface IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo   {
 fields in this object are identical to those of the items array */
         seed_keyword_data?: KeywordDataInfo | undefined
         
-        /** location code in a POST array */
+        /** location code in a POST array
+if there is no data, then the value is null */
         location_code?: number | undefined
         
-        /** language code in a POST array */
+        /** language code in a POST array
+if there is no data, then the value is null */
         language_code?: string | undefined
         
         /** total amount of results in our database relevant to your request */
@@ -41,45 +43,57 @@ note: offset_token values are unique for each subsequent task */
     }
 
 export class DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo  implements IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo {
+
     
     /** search engine type */
 
     se_type?: string | undefined;
+
     
     /** keyword in a POST array */
 
     seed_keyword?: string | undefined;
+
     
     /** keyword data for the seed keyword
 fields in this object are identical to those of the items array */
 
     seed_keyword_data?: KeywordDataInfo | undefined;
+
     
-    /** location code in a POST array */
+    /** location code in a POST array
+if there is no data, then the value is null */
 
     location_code?: number | undefined;
+
     
-    /** language code in a POST array */
+    /** language code in a POST array
+if there is no data, then the value is null */
 
     language_code?: string | undefined;
+
     
     /** total amount of results in our database relevant to your request */
 
     total_count?: number | undefined;
+
     
     /** the number of results returned in the items array */
 
     items_count?: number | undefined;
+
     
     /** current offset value */
 
     offset?: number | undefined;
+
     
     /** offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
 note: offset_token values are unique for each subsequent task */
 
     offset_token?: string | undefined;
+
     
     /** contains keywords and related data */
 

@@ -110,6 +110,7 @@ learn more on our Help Center */
     }
 
 export class MerchantAmazonAsinTaskPostRequestInfo  implements IMerchantAmazonAsinTaskPostRequestInfo {
+
     
     /** product ID
 required field
@@ -117,6 +118,7 @@ unique product identifier (ASIN) in Amazon
 you can receive the asin parameter by making a separate request to the Amazon Products endpoint */
 
     asin?: string | undefined;
+
     
     /** task priority
 optional field
@@ -127,6 +129,7 @@ You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
 
     priority?: number | undefined;
+
     
     /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -136,6 +139,7 @@ example:
 HA1,England,United Kingdom */
 
     location_name?: string | undefined;
+
     
     /** search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -146,6 +150,7 @@ example:
 9045969 */
 
     location_code?: number | undefined;
+
     
     /** GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -157,6 +162,7 @@ example:
 53.476225,-2.243572,200 */
 
     location_coordinate?: string | undefined;
+
     
     /** full name of search engine language
 required field if you don’t specify language_code
@@ -167,6 +173,7 @@ example:
 English (United Kingdom) */
 
     language_name?: string | undefined;
+
     
     /** search engine language code
 required field if you don’t specify language_name
@@ -176,6 +183,7 @@ example:
 en_GB */
 
     language_code?: string | undefined;
+
     
     /** search engine domain
 optional field
@@ -185,6 +193,7 @@ example:
 amazon.com, amazon.co.uk, amazon.fr, etc. */
 
     se_domain?: string | undefined;
+
     
     /** user-defined task identifier
 optional field
@@ -193,6 +202,7 @@ you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
     tag?: string | undefined;
+
     
     /** URL for sending task results
 optional field
@@ -206,6 +216,7 @@ i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
     postback_url?: string | undefined;
+
     
     /** postback_url datatype
 required field if you specify postback_url
@@ -214,6 +225,7 @@ possible values:
 advanced, html */
 
     postback_data?: string | undefined;
+
     
     /** notification URL of a completed task
 optional field

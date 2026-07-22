@@ -12,6 +12,7 @@ export interface IAiOptimizationGeminiLlmScraperTasksReadyTaskInfo  extends IBas
     }
 
 export class AiOptimizationGeminiLlmScraperTasksReadyTaskInfo  extends BaseResponseTaskInfo   implements IAiOptimizationGeminiLlmScraperTasksReadyTaskInfo {
+
     
     /** array of results */
 

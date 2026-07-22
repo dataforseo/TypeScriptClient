@@ -12,6 +12,7 @@ export interface IAiOptimizationChatGptLlmScraperLiveHtmlTaskInfo  extends IBase
     }
 
 export class AiOptimizationChatGptLlmScraperLiveHtmlTaskInfo  extends BaseResponseTaskInfo   implements IAiOptimizationChatGptLlmScraperLiveHtmlTaskInfo {
+
     
     /** array of results */
 

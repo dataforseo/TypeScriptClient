@@ -15,15 +15,18 @@ unique task identifier in our system in the UUID format */
     }
 
 export class OnPageLighthouseTasksReadyResultInfo  implements IOnPageLighthouseTasksReadyResultInfo {
+
     
     /** task identifier of the completed task
 unique task identifier in our system in the UUID format */
 
     id?: string | undefined;
+
     
     /** user-defined task identifier */
 
     tag?: string | undefined;
+
     
     /** URL for collecting the results of the OnPage Lighthouse JSON task */
 

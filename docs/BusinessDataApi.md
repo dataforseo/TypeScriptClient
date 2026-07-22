@@ -58,7 +58,6 @@ All URIs are relative to *https://api.dataforseo.com*
 [**tripadvisorReviewsTasksReady**](BusinessDataApi.md#tripadvisorReviewsTasksReady) | **GET**  /v3/business_data/tripadvisor/reviews/tasks_ready  |
 [**tripadvisorReviewsTaskGet**](BusinessDataApi.md#tripadvisorReviewsTaskGet) | **GET**  /v3/business_data/tripadvisor/reviews/task_get/{id}  |
 [**socialMediaPinterestLive**](BusinessDataApi.md#socialMediaPinterestLive) | **POST**  /v3/business_data/social_media/pinterest/live  |
-[**socialMediaRedditLive**](BusinessDataApi.md#socialMediaRedditLive) | **POST**  /v3/business_data/social_media/reddit/live  |
 
 <a id="businessDataIdList"></a>
 # **businessDataIdList**
@@ -377,20 +376,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new BusinessDataBusinessListingsSearchLiveRequestInfo();
-   task.categories = [
-       "pizza_restaurant",
-   ];
-   task.description = "pizza";
-   task.title = "pizza";
-   task.is_claimed = true;
-   task.location_coordinate = "53.476225,-2.243572,10";
-   task.order_by = [
-       "rating.value,desc",
-   ];
-   task.filters = [
-       ,
-   ];
-   task.limit = 3;
  let response = await api.businessListingsSearchLive([task]);
 ```
 
@@ -3209,72 +3194,6 @@ This endpoint does not need any parameter.
 ### Return type
 
 [**BusinessDataSocialMediaPinterestLiveResponseInfo**](BusinessDataSocialMediaPinterestLiveResponseInfo.md)
-
-### Authorization
-
-[basicAuth](../README.md#basicAuth)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** | Successful operation |  -  |
-
-<a id="socialMediaRedditLive"></a>
-# **socialMediaRedditLive**
-> BusinessDataSocialMediaRedditLiveResponseInfo socialMediaRedditLive()
-
-
-### Example
-```typescript
- const username = 'USERNAME';
- const password = 'PASSWORD';
-
- let api = new BusinessDataApi("https://api.dataforseo.com", {
-   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
-     const token = btoa(`${username}:${password}`);
-     const authHeader = { 'Authorization': `Basic ${token}` };
-
-     const newInit: RequestInit = {
-       ...init,
-       headers: {
-       ...init?.headers,
-       ...authHeader,
-     }
-   };
-
-   return fetch(url, newInit);
-   }
- });
-
- let task = new BusinessDataSocialMediaRedditLiveRequestInfo();
-   task.targets = [
-       "https://vk.com/",
-       "https://ahrefs.com/",
-       "https://google.com/",
-       "https://twitter.com/",
-       "https://reddit.com/",
-       "https://facebook.com/",
-   ];
-   task.tag = "some_string_123";
- let response = await api.socialMediaRedditLive([task]);
-```
-
-### Parameters
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **** | [**List&lt;BusinessDataSocialMediaRedditLiveRequestInfo[]&gt;**](BusinessDataSocialMediaRedditLiveRequestInfo[].md)|  | [optional] |
-
-
-
-### Return type
-
-[**BusinessDataSocialMediaRedditLiveResponseInfo**](BusinessDataSocialMediaRedditLiveResponseInfo.md)
 
 ### Authorization
 

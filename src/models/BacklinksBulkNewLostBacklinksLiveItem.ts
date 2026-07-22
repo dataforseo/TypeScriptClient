@@ -16,15 +16,18 @@ number of lost backlinks of the target */
     }
 
 export class BacklinksBulkNewLostBacklinksLiveItem  implements IBacklinksBulkNewLostBacklinksLiveItem {
+
     
     /** domain, subdomain or webpage from a POST array */
 
     target?: string | undefined;
+
     
     /** number of new backlinks
 number of new backlinks pointing to the target */
 
     new_backlinks?: number | undefined;
+
     
     /** number of lost backlinks
 number of lost backlinks of the target */

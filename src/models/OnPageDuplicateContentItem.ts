@@ -17,14 +17,17 @@ export interface IOnPageDuplicateContentItem   {
     }
 
 export class OnPageDuplicateContentItem  implements IOnPageDuplicateContentItem {
+
     
     /** URL of the specified page */
 
     url?: string | undefined;
+
     
     /** total count of duplicate pages */
 
     total_count?: number | undefined;
+
     
     /** pages with duplicate content */
 

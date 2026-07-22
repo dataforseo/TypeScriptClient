@@ -12,6 +12,7 @@ export interface IAppDataGoogleAppSearchesTaskGetAdvancedResponseInfo  extends I
     }
 
 export class AppDataGoogleAppSearchesTaskGetAdvancedResponseInfo  extends BaseResponseInfo   implements IAppDataGoogleAppSearchesTaskGetAdvancedResponseInfo {
+
     
     /** array of tasks */
 

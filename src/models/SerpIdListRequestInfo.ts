@@ -52,6 +52,7 @@ default value: false */
     }
 
 export class SerpIdListRequestInfo  implements ISerpIdListRequestInfo {
+
     
     /** start time for filtering results
 required field
@@ -63,6 +64,7 @@ example:
 2023-01-15 12:57:46 +00:00 */
 
     datetime_from?: string | undefined;
+
     
     /** finish time for filtering results
 required field
@@ -75,6 +77,7 @@ example:
 2023-01-31 13:57:46 +00:00 */
 
     datetime_to?: string | undefined;
+
     
     /** the maximum number of returned task IDs
 optional field
@@ -83,6 +86,7 @@ maximum value: 1000
 minimum value: 1 */
 
     limit?: number | undefined;
+
     
     /** offset in the results array of returned task IDs
 optional field
@@ -91,6 +95,7 @@ minimum and default value: 0;
 maximum value: 100M (100 million) */
 
     offset?: number | undefined;
+
     
     /** sorting by task execution time
 optional field
@@ -98,6 +103,7 @@ possible values: 'asc', 'desc'
 default value: 'asc' */
 
     sort?: string | undefined;
+
     
     /** include task metadata in the response
 optional field

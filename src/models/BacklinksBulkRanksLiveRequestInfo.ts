@@ -42,6 +42,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class BacklinksBulkRanksLiveRequestInfo  implements IBacklinksBulkRanksLiveRequestInfo {
+
     
     /** domains, subdomains or webpages to get rank for
 required field
@@ -63,6 +64,7 @@ example:
 ] */
 
     targets?: string[] | undefined;
+
     
     /** defines the scale used for calculating and displaying the rank, domain_from_rank, and page_from_rank values
 optional field
@@ -74,6 +76,7 @@ default value: one_thousand
 learn more about how this parameter works and how ranking metrics are calculated in this Help Center article */
 
     rank_scale?: string | undefined;
+
     
     /** user-defined task identifier
 optional field

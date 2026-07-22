@@ -12,6 +12,7 @@ export interface ISerpGoogleAdsSearchLocationsResponseInfo  extends IBaseRespons
     }
 
 export class SerpGoogleAdsSearchLocationsResponseInfo  extends BaseResponseInfo   implements ISerpGoogleAdsSearchLocationsResponseInfo {
+
     
     /** array of tasks */
 

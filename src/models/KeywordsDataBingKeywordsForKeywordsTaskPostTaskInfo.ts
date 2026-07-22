@@ -12,6 +12,7 @@ in this case, the value will be null */
     }
 
 export class KeywordsDataBingKeywordsForKeywordsTaskPostTaskInfo  extends BaseResponseTaskInfo   implements IKeywordsDataBingKeywordsForKeywordsTaskPostTaskInfo {
+
     
     /** array of results
 in this case, the value will be null */

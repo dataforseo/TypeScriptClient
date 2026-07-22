@@ -20,18 +20,22 @@ export interface IBulkMetricsBundleInfo   {
     }
 
 export class BulkMetricsBundleInfo  implements IBulkMetricsBundleInfo {
+
     
     /** traffic data from organic search */
 
     organic?: BulkMetricsInfo | undefined;
+
     
     /** traffic data from paid search */
 
     paid?: BulkMetricsInfo | undefined;
+
     
     /** traffic data from the local pack results in SERP */
 
     local_pack?: BulkMetricsInfo | undefined;
+
     
     /** traffic data from the featured snippet results in Google SERP */
 

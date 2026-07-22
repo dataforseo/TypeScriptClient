@@ -12,6 +12,7 @@ export interface IDataforseoLabsGoogleSubdomainsLiveResponseInfo  extends IBaseR
     }
 
 export class DataforseoLabsGoogleSubdomainsLiveResponseInfo  extends BaseResponseInfo   implements IDataforseoLabsGoogleSubdomainsLiveResponseInfo {
+
     
     /** array of tasks */
 

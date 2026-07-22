@@ -10,6 +10,7 @@ note: the page screenshot saved on the DataForSEO storage only remains accessibl
     }
 
 export class ScreenshotItem  implements IScreenshotItem {
+
     
     /** screenshot of the requested page
 URL of the page screenshot on the DataForSEO storage

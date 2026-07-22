@@ -14,14 +14,17 @@ export interface IDataforseoLabsCarouselElement   {
     }
 
 export class DataforseoLabsCarouselElement  implements IDataforseoLabsCarouselElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** title of the result in SERP */
 
     title?: string | undefined;
+
     
     /** subtitle of the item */
 

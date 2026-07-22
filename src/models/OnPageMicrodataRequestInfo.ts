@@ -26,6 +26,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class OnPageMicrodataRequestInfo  implements IOnPageMicrodataRequestInfo {
+
     
     /** ID of the task
 required field
@@ -34,6 +35,7 @@ example:
 '07131248-1535-0216-1000-17384017ad04' */
 
     id?: string | undefined;
+
     
     /** resource URL
 required field
@@ -42,6 +44,7 @@ example:
 https://dataforseo.com/apis */
 
     url?: string | undefined;
+
     
     /** user-defined task identifier
 optional field

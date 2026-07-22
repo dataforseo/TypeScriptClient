@@ -11,10 +11,12 @@ export interface IReviewHighlights   {
     }
 
 export class ReviewHighlights  implements IReviewHighlights {
+
     
     /** reviewed feature */
 
     feature?: string | undefined;
+
     
     /** feature assessment */
 

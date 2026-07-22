@@ -24,21 +24,25 @@ absolute position among all the elements in SERP */
     }
 
 export class BaseSerpApiGoogleImagesElementItem  implements IBaseSerpApiGoogleImagesElementItem {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP for the target domain
 absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
+
     
     /** the XPath of the element */
 
@@ -143,20 +147,24 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 export class SerpApiGoogleImagesCarouselElementItem  extends BaseSerpApiGoogleImagesElementItem   implements ISerpApiGoogleImagesCarouselElementItem {
 
     page?: number | undefined;
+
     
     /** the alignment of the element in SERP
 can take the following values:
 left, right */
 
     position?: string | undefined;
+
     
     /** title of the element */
 
     title?: string | undefined;
+
     
     /** items of the element */
 
     items?: SerpApiCarouselElement[] | undefined;
+
     
     /** rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -251,26 +259,32 @@ export interface ISerpApiGoogleImagesImagesSearchElementItem  extends IBaseSerpA
     }
 
 export class SerpApiGoogleImagesImagesSearchElementItem  extends BaseSerpApiGoogleImagesElementItem   implements ISerpApiGoogleImagesImagesSearchElementItem {
+
     
     /** title of the result in SERP */
 
     title?: string | undefined;
+
     
     /** subtitle of the result in SERP */
 
     subtitle?: string | undefined;
+
     
     /** the alt tag of the image */
 
     alt?: string | undefined;
+
     
     /** search URL with refinement parameters */
 
     url?: string | undefined;
+
     
     /** the URL of the source image */
 
     source_url?: string | undefined;
+
     
     /** the URL of the cached version of the image stored on Google’s servers */
 
@@ -351,16 +365,19 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 export class SerpApiGoogleImagesRelatedSearchesElementItem  extends BaseSerpApiGoogleImagesElementItem   implements ISerpApiGoogleImagesRelatedSearchesElementItem {
 
     page?: number | undefined;
+
     
     /** the alignment of the element in SERP
 can take the following values:
 left, right */
 
     position?: string | undefined;
+
     
     /** items of the element */
 
     items?: string[] | undefined;
+
     
     /** rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP

@@ -12,6 +12,7 @@ export interface IKeywordsDataDataforseoTrendsLocationsTaskInfo  extends IBaseRe
     }
 
 export class KeywordsDataDataforseoTrendsLocationsTaskInfo  extends BaseResponseTaskInfo   implements IKeywordsDataDataforseoTrendsLocationsTaskInfo {
+
     
     /** array of results */
 

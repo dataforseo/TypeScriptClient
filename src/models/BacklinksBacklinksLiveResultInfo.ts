@@ -31,30 +31,37 @@ search_after_token values are unique for each subsequent task */
     }
 
 export class BacklinksBacklinksLiveResultInfo  implements IBacklinksBacklinksLiveResultInfo {
+
     
     /** target domain in a POST array */
 
     target?: string | undefined;
+
     
     /** mode specified in a POST array */
 
     mode?: string | undefined;
+
     
     /** custom mode specified in a POST array */
 
     custom_mode?: { [key: string]: any; } | undefined;
+
     
     /** total amount of results relevant the request */
 
     total_count?: number | undefined;
+
     
     /** the number of results returned in the items array */
 
     items_count?: number | undefined;
+
     
     /** contains relevant backlinks and referring domains data */
 
     items?: BacklinksBacklinksLiveItem[] | undefined;
+
     
     /** token for subsequent requests
 by specifying the unique search_after_token when setting a new task, you will get the subsequent results of the initial task;

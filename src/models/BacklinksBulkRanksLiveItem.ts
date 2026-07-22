@@ -14,10 +14,12 @@ learn more about the metric and how it is calculated in this help center article
     }
 
 export class BacklinksBulkRanksLiveItem  implements IBacklinksBulkRanksLiveItem {
+
     
     /** domain, subdomain or webpage from a POST array */
 
     target?: string | undefined;
+
     
     /** rank of the target
 values represent real-time data for the date of the request

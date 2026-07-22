@@ -12,6 +12,7 @@ export interface IContentAnalysisRatingDistributionLiveResponseInfo  extends IBa
     }
 
 export class ContentAnalysisRatingDistributionLiveResponseInfo  extends BaseResponseInfo   implements IContentAnalysisRatingDistributionLiveResponseInfo {
+
     
     /** array of tasks */
 

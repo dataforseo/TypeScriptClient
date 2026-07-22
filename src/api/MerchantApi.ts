@@ -72,7 +72,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -107,7 +107,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -139,7 +139,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -172,7 +172,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -206,7 +206,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -242,7 +242,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -274,7 +274,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -307,7 +307,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -341,7 +341,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -375,7 +375,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -411,7 +411,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -443,7 +443,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -477,7 +477,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -513,7 +513,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -545,7 +545,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -579,7 +579,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -613,7 +613,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -646,7 +646,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -680,7 +680,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -713,7 +713,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -749,7 +749,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -781,7 +781,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -815,7 +815,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -851,7 +851,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -884,7 +884,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -920,7 +920,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -955,7 +955,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -987,7 +987,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -1021,7 +1021,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -1057,7 +1057,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1090,7 +1090,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -1126,7 +1126,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1161,7 +1161,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1193,7 +1193,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -1227,7 +1227,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -1263,7 +1263,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1296,7 +1296,7 @@ export class MerchantApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -1332,7 +1332,7 @@ export class MerchantApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {

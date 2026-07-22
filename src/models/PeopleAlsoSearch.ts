@@ -16,7 +16,7 @@ learn more about the identifier in this help center article */
 the name of the business entity for which the results are collected */
         title?: string | undefined
         
-        /** the element’s rating 
+        /** the element's rating 
 the popularity rate based on reviews and displayed in SERP */
         rating?: RatingInfo | undefined
 
@@ -25,24 +25,28 @@ the popularity rate based on reviews and displayed in SERP */
     }
 
 export class PeopleAlsoSearch  implements IPeopleAlsoSearch {
+
     
     /** google-defined client id
 unique id of a local establishment
 learn more about the identifier in this help center article */
 
     cid?: string | undefined;
+
     
     /** the unique identifier of the element in SERP
 learn more about the identifier in this help center article */
 
     feature_id?: string | undefined;
+
     
     /** title of the element in SERP
 the name of the business entity for which the results are collected */
 
     title?: string | undefined;
+
     
-    /** the element’s rating 
+    /** the element's rating 
 the popularity rate based on reviews and displayed in SERP */
 
     rating?: RatingInfo | undefined;

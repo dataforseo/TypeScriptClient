@@ -12,6 +12,7 @@ export interface IDataforseoLabsGoogleHistoricalSerpsLiveResponseInfo  extends I
     }
 
 export class DataforseoLabsGoogleHistoricalSerpsLiveResponseInfo  extends BaseResponseInfo   implements IDataforseoLabsGoogleHistoricalSerpsLiveResponseInfo {
+
     
     /** array of tasks */
 

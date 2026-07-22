@@ -48,6 +48,7 @@ default value: 1 */
     }
 
 export class SerpScreenshotRequestInfo  implements ISerpScreenshotRequestInfo {
+
     
     /** task identifier
 required field
@@ -55,6 +56,7 @@ unique identifier of the associated task in the UUID format
 you will be able to use it within 7 days to request the results of the task at any time */
 
     task_id?: string | undefined;
+
     
     /** browser resolution preset
 optional field
@@ -63,6 +65,7 @@ can take the following values: desktop, tablet, mobile
 Note: by default, browser preset corresponds to the device type specified in the POST request */
 
     browser_preset?: string | undefined;
+
     
     /** width of the browser resolution
 optional field
@@ -72,6 +75,7 @@ default value for mobile: 390
 default value for table: 1024 */
 
     browser_screen_width?: number | undefined;
+
     
     /** height of the browser resolution
 optional field
@@ -81,6 +85,7 @@ default value for mobile: 844
 default value for table: 1366 */
 
     browser_screen_height?: number | undefined;
+
     
     /** browser scale factor
 optional field
@@ -90,6 +95,7 @@ default value for mobile: 3
 default value for table: 2 */
 
     browser_screen_scale_factor?: number | undefined;
+
     
     /** number of SERP pages
 optional field

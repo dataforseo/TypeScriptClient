@@ -12,6 +12,7 @@ export interface IKeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo  exten
     }
 
 export class KeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo  extends BaseResponseInfo   implements IKeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo {
+
     
     /** array of tasks */
 

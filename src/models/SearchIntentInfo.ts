@@ -1,7 +1,6 @@
 export interface ISearchIntentInfo   {
         
-        /** search engine type
-possible values: google */
+        /** search engine type */
         se_type?: string | undefined
         
         /** main search intent
@@ -12,7 +11,7 @@ possible values: informational, navigational, commercial, transactional */
 possible values: informational, navigational, commercial, transactional */
         foreign_intent?: string[] | undefined
         
-        /** date and time when the dataset was updated
+        /** date and time when keyword data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
@@ -23,23 +22,26 @@ example:
     }
 
 export class SearchIntentInfo  implements ISearchIntentInfo {
+
     
-    /** search engine type
-possible values: google */
+    /** search engine type */
 
     se_type?: string | undefined;
+
     
     /** main search intent
 possible values: informational, navigational, commercial, transactional */
 
     main_intent?: string | undefined;
+
     
     /** supplementary search intents
 possible values: informational, navigational, commercial, transactional */
 
     foreign_intent?: string[] | undefined;
+
     
-    /** date and time when the dataset was updated
+    /** date and time when keyword data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */

@@ -39,21 +39,25 @@ metrics information on the target website pages */
     }
 
 export class OnPageSummaryResultInfo  implements IOnPageSummaryResultInfo {
+
     
     /** status of the crawling session
 possible values: in_progress, finished */
 
     crawl_progress?: string | undefined;
+
     
     /** details of the crawling session */
 
     crawl_status?: CrawlStatusInfo | undefined;
+
     
     /** crawler ip address
 displays the IP address used by the crawler to initiate the current crawling session
 you can find the full list of IPs used by our crawler in the Overview section */
 
     crawl_gateway_address?: string | undefined;
+
     
     /** reason why the crawling stopped
 information about the reason why the crawling process stopped;
@@ -64,11 +68,13 @@ force_stopped – the crawling process was halted using the On Page API Force St
 unexpected_exception – an internal error was encountered while crawling the target, contact support for more info */
 
     crawl_stop_reason?: string | undefined;
+
     
     /** domain-wide info
 on-page information about the target domain and crawling process */
 
     domain_info?: DomainInfo | undefined;
+
     
     /** page-specific info
 metrics information on the target website pages */

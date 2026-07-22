@@ -12,6 +12,7 @@ export interface IAiOptimizationChatGptLlmScraperLocationsCountryTaskInfo  exten
     }
 
 export class AiOptimizationChatGptLlmScraperLocationsCountryTaskInfo  extends BaseResponseTaskInfo   implements IAiOptimizationChatGptLlmScraperLocationsCountryTaskInfo {
+
     
     /** array of results */
 

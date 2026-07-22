@@ -24,25 +24,30 @@ the approximate number of ads that are run by the advertiser account across all 
     }
 
 export class Advertiser  implements IAdvertiser {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** unique identifier of the advertiser account
 can be used to obtain data on advertising campaigns from the Google Ads Search endpoint */
 
     advertiser_id?: string | undefined;
+
     
     /** location of the advertiser account
 country code associated with the advertiser account */
 
     location?: string | undefined;
+
     
     /** verified advertiser account
 equals true if advertiser account is verified by Google Ads */
 
     verified?: boolean | undefined;
+
     
     /** ads count
 the approximate number of ads that are run by the advertiser account across all available Google Ads platforms */

@@ -12,6 +12,7 @@ export interface IBusinessDataGoogleLanguagesTaskInfo  extends IBaseResponseTask
     }
 
 export class BusinessDataGoogleLanguagesTaskInfo  extends BaseResponseTaskInfo   implements IBusinessDataGoogleLanguagesTaskInfo {
+
     
     /** array of results */
 

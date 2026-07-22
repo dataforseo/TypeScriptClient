@@ -12,6 +12,7 @@ export interface IBacklinksBulkNewLostReferringDomainsLiveResponseInfo  extends 
     }
 
 export class BacklinksBulkNewLostReferringDomainsLiveResponseInfo  extends BaseResponseInfo   implements IBacklinksBulkNewLostReferringDomainsLiveResponseInfo {
+
     
     /** array of tasks */
 

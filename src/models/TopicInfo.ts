@@ -35,36 +35,44 @@ you can find more information about content priority calculation in this help ce
     }
 
 export class TopicInfo  implements ITopicInfo {
+
     
     /** meta title */
 
     h_title?: string | undefined;
+
     
     /** main title of the block */
 
     main_title?: string | undefined;
+
     
     /** content author name */
 
     author?: string | undefined;
+
     
     /** content language */
 
     language?: string | undefined;
+
     
     /** HTML level */
 
     level?: number | undefined;
+
     
     /** primary content on the page
 you can find more information about content priority calculation in this help center article */
 
     primary_content?: SectionContentItemInfo[] | undefined;
+
     
     /** secondary content on the page
 you can find more information about content priority calculation in this help center article */
 
     secondary_content?: SectionContentItemInfo[] | undefined;
+
     
     /** content of the table on the page */
 

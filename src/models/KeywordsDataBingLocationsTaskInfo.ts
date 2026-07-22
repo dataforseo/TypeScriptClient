@@ -12,6 +12,7 @@ export interface IKeywordsDataBingLocationsTaskInfo  extends IBaseResponseTaskIn
     }
 
 export class KeywordsDataBingLocationsTaskInfo  extends BaseResponseTaskInfo   implements IKeywordsDataBingLocationsTaskInfo {
+
     
     /** array of results */
 

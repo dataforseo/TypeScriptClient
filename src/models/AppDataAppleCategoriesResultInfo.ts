@@ -8,6 +8,7 @@ export interface IAppDataAppleCategoriesResultInfo   {
     }
 
 export class AppDataAppleCategoriesResultInfo  implements IAppDataAppleCategoriesResultInfo {
+
     
     /** contains full list of supported app categories */
 

@@ -3,22 +3,33 @@ import { PriceInfo, IPriceInfo } from "./PriceInfo";
 
 export interface IDeliveryInfo   {
         
-        /** earliest delivery datethe earliest date when the product can be shipped */
+        /** earliest delivery date
+the earliest date when the product can be shipped, in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
+example: 2019-11-15 12:57:46 +00:00 */
         delivery_date_from?: string | undefined
         
-        /** latest delivery datethe latest date when the product can be delivered */
+        /** latest delivery date
+the latest date when the product can be delivered, in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
+example: 2019-11-15 12:57:46 +00:00 */
         delivery_date_to?: string | undefined
         
-        /** earliest free delivery datethe earliest date when the product can be delivered with a fast delivery option */
+        /** earliest free delivery date
+the earliest date when the product can be delivered with a fast delivery option, in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
+example: 2019-11-15 12:57:46 +00:00 */
         fastest_delivery_date_from?: string | undefined
         
-        /** latest free delivery datethe latest date when the product can be delivered with a fast delivery option */
+        /** latest free delivery date
+the latest date when the product can be delivered with a fast delivery option, in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
+example: 2019-11-15 12:57:46 +00:00 */
         fastest_delivery_date_to?: string | undefined
         
-        /** delivery informationmessage accompanying the delivery information as posted by the seller */
+        /** delivery information
+message accompanying the delivery information as posted by the seller */
         delivery_message?: string | undefined
         
-        /** price for the deliveryprice of the delivery based on the location you specified in the POST request;if free delivery is available, the value is null */
+        /** price for the delivery
+price of the delivery based on the location you specified in the POST request;
+if free delivery is available, the value is null */
         delivery_price?: PriceInfo | undefined
 
     [key: string]: any;
@@ -26,28 +37,45 @@ export interface IDeliveryInfo   {
     }
 
 export class DeliveryInfo  implements IDeliveryInfo {
+
     
-    /** earliest delivery datethe earliest date when the product can be shipped */
+    /** earliest delivery date
+the earliest date when the product can be shipped, in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
+example: 2019-11-15 12:57:46 +00:00 */
 
     delivery_date_from?: string | undefined;
+
     
-    /** latest delivery datethe latest date when the product can be delivered */
+    /** latest delivery date
+the latest date when the product can be delivered, in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
+example: 2019-11-15 12:57:46 +00:00 */
 
     delivery_date_to?: string | undefined;
+
     
-    /** earliest free delivery datethe earliest date when the product can be delivered with a fast delivery option */
+    /** earliest free delivery date
+the earliest date when the product can be delivered with a fast delivery option, in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
+example: 2019-11-15 12:57:46 +00:00 */
 
     fastest_delivery_date_from?: string | undefined;
+
     
-    /** latest free delivery datethe latest date when the product can be delivered with a fast delivery option */
+    /** latest free delivery date
+the latest date when the product can be delivered with a fast delivery option, in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
+example: 2019-11-15 12:57:46 +00:00 */
 
     fastest_delivery_date_to?: string | undefined;
+
     
-    /** delivery informationmessage accompanying the delivery information as posted by the seller */
+    /** delivery information
+message accompanying the delivery information as posted by the seller */
 
     delivery_message?: string | undefined;
+
     
-    /** price for the deliveryprice of the delivery based on the location you specified in the POST request;if free delivery is available, the value is null */
+    /** price for the delivery
+price of the delivery based on the location you specified in the POST request;
+if free delivery is available, the value is null */
 
     delivery_price?: PriceInfo | undefined;
 

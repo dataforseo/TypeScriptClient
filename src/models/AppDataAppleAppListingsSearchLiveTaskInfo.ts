@@ -12,6 +12,7 @@ export interface IAppDataAppleAppListingsSearchLiveTaskInfo  extends IBaseRespon
     }
 
 export class AppDataAppleAppListingsSearchLiveTaskInfo  extends BaseResponseTaskInfo   implements IAppDataAppleAppListingsSearchLiveTaskInfo {
+
     
     /** array of results */
 

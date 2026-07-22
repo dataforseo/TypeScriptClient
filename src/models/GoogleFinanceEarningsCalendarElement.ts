@@ -20,18 +20,22 @@ example:
     }
 
 export class GoogleFinanceEarningsCalendarElement  implements IGoogleFinanceEarningsCalendarElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** title of the news article */
 
     title?: string | undefined;
+
     
     /** URL to the page of the market index on Google Finance */
 
     url?: string | undefined;
+
     
     /** date and time of the value readout
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”

@@ -12,6 +12,7 @@ export interface IOnPageDuplicateTagsTaskInfo  extends IBaseResponseTaskInfo    
     }
 
 export class OnPageDuplicateTagsTaskInfo  extends BaseResponseTaskInfo   implements IOnPageDuplicateTagsTaskInfo {
+
     
     /** array of results */
 

@@ -8,6 +8,7 @@ export interface IBaseMerchantAmazonProductInformationRowElementItem   {
     }
 
 export class BaseMerchantAmazonProductInformationRowElementItem  implements IBaseMerchantAmazonProductInformationRowElementItem {
+
     
     /** type of element */
 
@@ -86,10 +87,12 @@ export interface IProductInformationRowProductInformationImageRowElementItem  ex
     }
 
 export class ProductInformationRowProductInformationImageRowElementItem  extends BaseMerchantAmazonProductInformationRowElementItem   implements IProductInformationRowProductInformationImageRowElementItem {
+
     
     /** alternative text of the related product image */
 
     alt?: string | undefined;
+
     
     /** URL of the image */
 
@@ -148,6 +151,7 @@ export interface IProductInformationRowProductInformationTextRowElementItem  ext
     }
 
 export class ProductInformationRowProductInformationTextRowElementItem  extends BaseMerchantAmazonProductInformationRowElementItem   implements IProductInformationRowProductInformationTextRowElementItem {
+
     
     /** text of the voucher */
 

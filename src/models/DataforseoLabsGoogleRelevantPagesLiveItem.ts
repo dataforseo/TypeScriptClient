@@ -17,14 +17,17 @@ export interface IDataforseoLabsGoogleRelevantPagesLiveItem   {
     }
 
 export class DataforseoLabsGoogleRelevantPagesLiveItem  implements IDataforseoLabsGoogleRelevantPagesLiveItem {
+
     
     /** search engine type */
 
     se_type?: string | undefined;
+
     
     /** absolute URL of the relevant page */
 
     page_address?: string | undefined;
+
     
     /** rankings and traffic metrics for the relevant page */
 

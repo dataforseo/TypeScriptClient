@@ -12,6 +12,7 @@ export interface IAppDataAppleCategoriesResponseInfo  extends IBaseResponseInfo 
     }
 
 export class AppDataAppleCategoriesResponseInfo  extends BaseResponseInfo   implements IAppDataAppleCategoriesResponseInfo {
+
     
     /** array of tasks */
 

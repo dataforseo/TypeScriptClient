@@ -11,10 +11,12 @@ export interface ITimeInfo   {
     }
 
 export class TimeInfo  implements ITimeInfo {
+
     
     /** hours in the 24-hour format */
 
     hour?: number | undefined;
+
     
     /** minutes */
 

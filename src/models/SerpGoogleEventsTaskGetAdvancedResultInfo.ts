@@ -59,32 +59,39 @@ this search engine does not indicate the total number of results */
     }
 
 export class SerpGoogleEventsTaskGetAdvancedResultInfo  implements ISerpGoogleEventsTaskGetAdvancedResultInfo {
+
     
     /** keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character) */
 
     keyword?: string | undefined;
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** search engine domain in a POST array */
 
     se_domain?: string | undefined;
+
     
     /** location code in a POST array */
 
     location_code?: number | undefined;
+
     
     /** language code
 in this case, the value will be null */
 
     language_code?: string | undefined;
+
     
     /** direct URL to search engine results */
 
     check_url?: string | undefined;
+
     
     /** date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -92,31 +99,37 @@ example:
 2019-11-15 12:57:46 +00:00 */
 
     datetime?: string | undefined;
+
     
     /** autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
 
     spell?: SpellInfo | undefined;
+
     
     /** search refinement chips */
 
     refinement_chips?: RefinementChipsInfo | undefined;
+
     
     /** types of search results found in SERP
 possible item types:
 event_item */
 
     item_types?: string[] | undefined;
+
     
     /** total number of results in SERP
 in this case, the value will be 0
 this search engine does not indicate the total number of results */
 
     se_results_count?: number | undefined;
+
     
     /** the number of results returned in the items array */
 
     items_count?: number | undefined;
+
     
     /** items of the element */
 

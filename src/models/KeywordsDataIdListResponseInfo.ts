@@ -12,6 +12,7 @@ export interface IKeywordsDataIdListResponseInfo  extends IBaseResponseInfo    {
     }
 
 export class KeywordsDataIdListResponseInfo  extends BaseResponseInfo   implements IKeywordsDataIdListResponseInfo {
+
     
     /** array of tasks */
 

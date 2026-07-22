@@ -12,6 +12,7 @@ export interface IDataforseoLabsAmazonRelatedKeywordsLiveTaskInfo  extends IBase
     }
 
 export class DataforseoLabsAmazonRelatedKeywordsLiveTaskInfo  extends BaseResponseTaskInfo   implements IDataforseoLabsAmazonRelatedKeywordsLiveTaskInfo {
+
     
     /** array of results */
 

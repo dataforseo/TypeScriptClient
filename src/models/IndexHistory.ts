@@ -17,6 +17,7 @@ example:
     }
 
 export class IndexHistory  implements IIndexHistory {
+
     
     /** date for which index volume data is provided
 in the UTC format: “yyyy-mm-dd”
@@ -24,10 +25,12 @@ example:
 2021-10-01 */
 
     date?: string | undefined;
+
     
     /** total number of backlinks our database contained on the given date */
 
     total_backlinks?: number | undefined;
+
     
     /** total number of pages our database contained on the given date */
 

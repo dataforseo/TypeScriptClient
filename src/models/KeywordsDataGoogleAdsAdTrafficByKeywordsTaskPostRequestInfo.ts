@@ -138,6 +138,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo  implements IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo {
+
     
     /** keywords
 required field
@@ -153,6 +154,7 @@ to learn more about which symbols and characters can be used, please refer to th
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keywords?: string[] | undefined;
+
     
     /** the maximum custom bid
 required field
@@ -161,12 +163,14 @@ it stands for the price you are willing to pay for an ad; the higher value you s
 learn more in this help center article */
 
     bid?: number | undefined;
+
     
     /** keywords match-type
 required field
 can take the following values: exact, broad, phrase */
 
     match?: string | undefined;
+
     
     /** full name of search engine location
 optional field
@@ -177,6 +181,7 @@ example:
 London,England,United Kingdom */
 
     location_name?: string | undefined;
+
     
     /** search engine location code
 optional field
@@ -187,6 +192,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** GPS coordinates of a location
 optional field
@@ -198,6 +204,7 @@ example:
 52.6178549,-155.352142 */
 
     location_coordinate?: string | undefined;
+
     
     /** full name of search engine language
 optional field
@@ -206,6 +213,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** search engine language code
 optional field
@@ -214,6 +222,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** starting date of the forecasting time range
 required field if you specify date_to
@@ -226,6 +235,7 @@ example:
 if Status endpoint returns true in the actual_data field, date_from can be set to the last month and prior */
 
     date_from?: string | undefined;
+
     
     /** ending date of the forecasting time range
 required field if you specify date_from
@@ -237,6 +247,7 @@ example:
 '2022-10-30' */
 
     date_to?: string | undefined;
+
     
     /** forecasting date interval
 optional field
@@ -245,6 +256,7 @@ possible values: next_week, next_month, next_quarter
 default value: next_month */
 
     date_interval?: string | undefined;
+
     
     /** results sorting parameters
 optional field
@@ -252,6 +264,7 @@ Use these parameters to sort the results by relevance, average_cpc, cost, or cli
 default value: relevance */
 
     sort_by?: string | undefined;
+
     
     /** URL for sending task results
 optional field
@@ -265,6 +278,7 @@ i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
     postback_url?: string | undefined;
+
     
     /** notification URL of a completed task
 optional field
@@ -278,6 +292,7 @@ i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
     pingback_url?: string | undefined;
+
     
     /** user-defined task identifier
 optional field

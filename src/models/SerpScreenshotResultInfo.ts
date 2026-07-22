@@ -14,10 +14,12 @@ export interface ISerpScreenshotResultInfo   {
     }
 
 export class SerpScreenshotResultInfo  implements ISerpScreenshotResultInfo {
+
     
     /** number of items in the results array */
 
     items_count?: number | undefined;
+
     
     /** items array */
 

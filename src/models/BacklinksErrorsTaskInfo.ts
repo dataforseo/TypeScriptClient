@@ -12,6 +12,7 @@ export interface IBacklinksErrorsTaskInfo  extends IBaseResponseTaskInfo    {
     }
 
 export class BacklinksErrorsTaskInfo  extends BaseResponseTaskInfo   implements IBacklinksErrorsTaskInfo {
+
     
     /** array of results */
 

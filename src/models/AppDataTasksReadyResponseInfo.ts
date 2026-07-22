@@ -12,6 +12,7 @@ export interface IAppDataTasksReadyResponseInfo  extends IBaseResponseInfo    {
     }
 
 export class AppDataTasksReadyResponseInfo  extends BaseResponseInfo   implements IAppDataTasksReadyResponseInfo {
+
     
     /** array of tasks */
 

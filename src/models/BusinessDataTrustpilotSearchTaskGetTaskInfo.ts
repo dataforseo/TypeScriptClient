@@ -12,6 +12,7 @@ export interface IBusinessDataTrustpilotSearchTaskGetTaskInfo  extends IBaseResp
     }
 
 export class BusinessDataTrustpilotSearchTaskGetTaskInfo  extends BaseResponseTaskInfo   implements IBusinessDataTrustpilotSearchTaskGetTaskInfo {
+
     
     /** array of results */
 

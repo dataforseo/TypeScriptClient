@@ -23,26 +23,32 @@ export interface IChatgptSearchResult   {
     }
 
 export class ChatgptSearchResult  implements IChatgptSearchResult {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** result URL */
 
     url?: string | undefined;
+
     
     /** result domain */
 
     domain?: string | undefined;
+
     
     /** result title */
 
     title?: string | undefined;
+
     
     /** result description */
 
     description?: string | undefined;
+
     
     /** breadcrumb */
 

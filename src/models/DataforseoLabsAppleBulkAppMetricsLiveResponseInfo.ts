@@ -12,6 +12,7 @@ export interface IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo  extends IBa
     }
 
 export class DataforseoLabsAppleBulkAppMetricsLiveResponseInfo  extends BaseResponseInfo   implements IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo {
+
     
     /** array of tasks */
 

@@ -40,6 +40,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class OnPageDuplicateTagsRequestInfo  implements IOnPageDuplicateTagsRequestInfo {
+
     
     /** ID of the task
 required field
@@ -48,16 +49,19 @@ example:
 “07131248-1535-0216-1000-17384017ad04” */
 
     id?: string | undefined;
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** tag value
 optional field
 specify a title or description here if you want to receive a list of duplicate pages that contains this tag */
 
     accumulator?: string | undefined;
+
     
     /** the maximum number of returned pages
 optional field
@@ -65,6 +69,7 @@ default value: 100
 maximum value: 1000 */
 
     limit?: number | undefined;
+
     
     /** offset in the results array of returned pages
 optional field
@@ -73,6 +78,7 @@ maximum value: 2000000
 if you specify the 10 value, the first ten pages in the results array will be omitted and the data will be provided for the successive pages */
 
     offset?: number | undefined;
+
     
     /** user-defined task identifier
 optional field

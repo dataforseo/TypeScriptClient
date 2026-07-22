@@ -14,10 +14,12 @@ export interface IMetricsBundleInfo   {
     }
 
 export class MetricsBundleInfo  implements IMetricsBundleInfo {
+
     
     /** ranking and traffic data from organic search */
 
     organic?: MetricsInfo | undefined;
+
     
     /** ranking and traffic data from paid search */
 

@@ -106,6 +106,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo  implements IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo {
+
     
     /** asins of target products
 required field
@@ -119,6 +120,7 @@ the maximum number of ASINs you can specify in this object is 20;
 learn more about the parameter on this help center page */
 
     asins?: { [key: string]: string; } | undefined;
+
     
     /** full name of the location
 required field if don’t specify location_code
@@ -129,6 +131,7 @@ example:
 United Kingdom */
 
     location_name?: string | undefined;
+
     
     /** location code
 required field if don’t specify location_name
@@ -139,6 +142,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** full name of the language
 required field if don’t specify language_code
@@ -148,6 +152,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** language code
 required field if don’t specify language_name
@@ -157,6 +162,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** the maximum number of products in the results array
 optional field
@@ -164,6 +170,7 @@ default value: 100;
 maximum value: 1000 */
 
     limit?: number | undefined;
+
     
     /** mode for finding asin intersections
 optional field
@@ -172,6 +179,7 @@ default value: intersect;
 learn more about the parameter in this help center guide */
 
     intersection_mode?: string | undefined;
+
     
     /** array of results filtering parameters
 optional field
@@ -185,6 +193,7 @@ example:
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
 
     filters?: any[] | undefined;
+
     
     /** results sorting rules
 optional field
@@ -203,6 +212,7 @@ default rule:
 ['intersections,desc'] */
 
     order_by?: string[] | undefined;
+
     
     /** offset in the results array of returned keywords
 optional field
@@ -210,6 +220,7 @@ default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords */
 
     offset?: number | undefined;
+
     
     /** user-defined task identifier
 optional field

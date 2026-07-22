@@ -12,6 +12,7 @@ export interface IContentAnalysisSentimentAnalysisLiveResponseInfo  extends IBas
     }
 
 export class ContentAnalysisSentimentAnalysisLiveResponseInfo  extends BaseResponseInfo   implements IContentAnalysisSentimentAnalysisLiveResponseInfo {
+
     
     /** array of tasks */
 

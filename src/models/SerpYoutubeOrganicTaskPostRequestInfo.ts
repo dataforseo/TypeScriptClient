@@ -123,6 +123,7 @@ if the specified block depth is higher than the number of results in the respons
     }
 
 export class SerpYoutubeOrganicTaskPostRequestInfo  implements ISerpYoutubeOrganicTaskPostRequestInfo {
+
     
     /** keyword
 required field
@@ -133,6 +134,7 @@ if you need to use the “+” character for your keyword, please specify it as 
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keyword?: string | undefined;
+
     
     /** search engine location code
 required field if you don't specify location_name
@@ -142,6 +144,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** search engine language code
 required field if you don't specify language_name
@@ -151,6 +154,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** device type
 optional field
@@ -158,6 +162,7 @@ return results for a specific device type
 available values: desktop, mobile */
 
     device?: string | undefined;
+
     
     /** task priority
 optional field
@@ -168,6 +173,7 @@ You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
 
     priority?: number | undefined;
+
     
     /** notification URL of a completed task
 optional field
@@ -181,6 +187,7 @@ i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
     pingback_url?: string | undefined;
+
     
     /** return URL for sending task results
 optional field
@@ -194,6 +201,7 @@ i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
     postback_url?: string | undefined;
+
     
     /** postback_url datatype
 required field if you specify postback_url
@@ -202,6 +210,7 @@ possible value:
 advanced */
 
     postback_data?: string | undefined;
+
     
     /** full name of search engine location
 required field if you don't specify location_code
@@ -211,6 +220,7 @@ example:
 United States */
 
     location_name?: string | undefined;
+
     
     /** full name of search engine language
 required field if you don't specify language_code
@@ -220,6 +230,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** device operating system
 optional field
@@ -229,6 +240,7 @@ if you specify mobile in the device field, choose from the following values: and
 default value: android */
 
     os?: string | undefined;
+
     
     /** user-defined task identifier
 optional field
@@ -237,6 +249,7 @@ you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
     tag?: string | undefined;
+
     
     /** additional parameters of the search query
 optional field
@@ -244,6 +257,7 @@ example:
 sp=EgIQAg%253D%253D */
 
     search_param?: string | undefined;
+
     
     /** parsing depth
 optional field

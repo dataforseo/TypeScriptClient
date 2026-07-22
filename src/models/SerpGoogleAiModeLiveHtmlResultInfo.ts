@@ -3,7 +3,8 @@ import { HtmlItemInfo, IHtmlItemInfo } from "./HtmlItemInfo";
 
 export interface ISerpGoogleAiModeLiveHtmlResultInfo   {
         
-        /** keyword received in a POST arraykeyword is returned with decoded %## (plus character '+' will be decoded to a space character) */
+        /** keyword received in a POST array
+keyword is returned with decoded %## (plus character '+' will be decoded to a space character) */
         keyword?: string | undefined
         
         /** type of element */
@@ -18,7 +19,10 @@ export interface ISerpGoogleAiModeLiveHtmlResultInfo   {
         /** language code in a POST array */
         language_code?: string | undefined
         
-        /** date and time when the result was receivedin the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”example:2019-11-15 12:57:46 +00:00 */
+        /** date and time when the result was received
+in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
+example:
+2019-11-15 12:57:46 +00:00 */
         datetime?: string | undefined
         
         /** the number of results returned in the items array */
@@ -32,34 +36,46 @@ export interface ISerpGoogleAiModeLiveHtmlResultInfo   {
     }
 
 export class SerpGoogleAiModeLiveHtmlResultInfo  implements ISerpGoogleAiModeLiveHtmlResultInfo {
+
     
-    /** keyword received in a POST arraykeyword is returned with decoded %## (plus character '+' will be decoded to a space character) */
+    /** keyword received in a POST array
+keyword is returned with decoded %## (plus character '+' will be decoded to a space character) */
 
     keyword?: string | undefined;
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** search engine domain in a POST array */
 
     se_domain?: string | undefined;
+
     
     /** location code in a POST array */
 
     location_code?: number | undefined;
+
     
     /** language code in a POST array */
 
     language_code?: string | undefined;
+
     
-    /** date and time when the result was receivedin the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”example:2019-11-15 12:57:46 +00:00 */
+    /** date and time when the result was received
+in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
+example:
+2019-11-15 12:57:46 +00:00 */
 
     datetime?: string | undefined;
+
     
     /** the number of results returned in the items array */
 
     items_count?: number | undefined;
+
     
     /** elements of search results found in SERP */
 

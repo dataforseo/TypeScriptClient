@@ -12,6 +12,7 @@ export interface ISerpGoogleOrganicTaskGetAdvancedTaskInfo  extends IBaseRespons
     }
 
 export class SerpGoogleOrganicTaskGetAdvancedTaskInfo  extends BaseResponseTaskInfo   implements ISerpGoogleOrganicTaskGetAdvancedTaskInfo {
+
     
     /** array of results */
 

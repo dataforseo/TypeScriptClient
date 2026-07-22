@@ -53,11 +53,11 @@ The cost can be calculated on the Pricing page. */
         /** parsing depth
 optional field
 number of reviews to be returned in the API response;
-we strongly recommend setting the parsing depth in the multiples of 50, because our system processes 50 reviews in a row;
-default value: 50;
+we strongly recommend setting the parsing depth in the multiples of 25, because our system processes 25 reviews in a row;
+default value: 25;
 maximum value: 500;
-Your account will be billed per each SERP containing up to 50 results;
-Setting depth above 50 may result in additional charges if the search engine returns more than 50 results;
+Your account will be billed per each SERP containing up to 25 results;
+Setting depth above 25 may result in additional charges if the search engine returns more than 25 results;
 The cost can be calculated on the Pricing page. */
         depth?: number | undefined
         
@@ -113,6 +113,7 @@ learn more on our Help Center */
     }
 
 export class AppDataAppleAppReviewsTaskPostRequestInfo  implements IAppDataAppleAppReviewsTaskPostRequestInfo {
+
     
     /** id of the app
 required field
@@ -123,6 +124,7 @@ in the URL https://apps.apple.com/us/app/id835599320
 the id is 835599320 */
 
     app_id?: string | undefined;
+
     
     /** full name of search engine location
 required field if you don’t specify location_code
@@ -132,6 +134,7 @@ example:
 West Los Angeles,California,United States */
 
     location_name?: string | undefined;
+
     
     /** search engine location code
 required field if you don’t specify location_name
@@ -141,6 +144,7 @@ example:
 9061121 */
 
     location_code?: number | undefined;
+
     
     /** full name of search engine language
 required field if you don’t specify language_code
@@ -150,6 +154,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** search engine language code
 required field if you don’t specify language_name
@@ -159,6 +164,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** task priority
 optional field
@@ -169,18 +175,20 @@ You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
 
     priority?: number | undefined;
+
     
     /** parsing depth
 optional field
 number of reviews to be returned in the API response;
-we strongly recommend setting the parsing depth in the multiples of 50, because our system processes 50 reviews in a row;
-default value: 50;
+we strongly recommend setting the parsing depth in the multiples of 25, because our system processes 25 reviews in a row;
+default value: 25;
 maximum value: 500;
-Your account will be billed per each SERP containing up to 50 results;
-Setting depth above 50 may result in additional charges if the search engine returns more than 50 results;
+Your account will be billed per each SERP containing up to 25 results;
+Setting depth above 25 may result in additional charges if the search engine returns more than 25 results;
 The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
+
     
     /** results sorting parameters
 optional field
@@ -191,6 +199,7 @@ most_helpful — sort by the most relevant reviews;
 default rule: most_helpful */
 
     sort_by?: string | undefined;
+
     
     /** user-defined task identifier
 optional field
@@ -199,6 +208,7 @@ you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
     tag?: string | undefined;
+
     
     /** URL for sending task results
 optional field
@@ -212,6 +222,7 @@ i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
     postback_url?: string | undefined;
+
     
     /** postback_url datatype
 required field if you specify postback_url
@@ -220,6 +231,7 @@ possible values:
 advanced */
 
     postback_data?: string | undefined;
+
     
     /** notification URL of a completed task
 optional field

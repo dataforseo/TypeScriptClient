@@ -12,6 +12,7 @@ export interface IOnPageContentParsingLiveResponseInfo  extends IBaseResponseInf
     }
 
 export class OnPageContentParsingLiveResponseInfo  extends BaseResponseInfo   implements IOnPageContentParsingLiveResponseInfo {
+
     
     /** array of tasks */
 

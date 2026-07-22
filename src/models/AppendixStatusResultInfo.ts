@@ -38,6 +38,7 @@ send_delay */
     }
 
 export class AppendixStatusResultInfo  implements IAppendixStatusResultInfo {
+
     
     /** name of the API
 the list of APIs:
@@ -55,6 +56,7 @@ content_analysis
 content_generation */
 
     api?: string | undefined;
+
     
     /** current status
 you can find all information about the statuses of our endpoints for the last 60 days here
@@ -67,6 +69,7 @@ webhook_delay
 send_delay */
 
     status?: string | undefined;
+
     
     /** array of objects that contain status information for API endpoints */
 

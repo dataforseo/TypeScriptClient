@@ -17,14 +17,17 @@ export interface IProductInformationRows   {
     }
 
 export class ProductInformationRows  implements IProductInformationRows {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** title under which related product information appears on the Amazon product page */
 
     title?: string | undefined;
+
     
     /** rows containing related product information */
 

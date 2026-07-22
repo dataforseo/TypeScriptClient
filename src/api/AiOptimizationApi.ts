@@ -10,20 +10,6 @@ import { AiOptimizationChatGptLlmScraperLiveAdvancedRequestInfo } from "./../mod
 import { AiOptimizationChatGptLlmScraperLiveAdvancedResponseInfo } from "./../models/AiOptimizationChatGptLlmScraperLiveAdvancedResponseInfo";
 import { AiOptimizationChatGptLlmScraperLiveHtmlRequestInfo } from "./../models/AiOptimizationChatGptLlmScraperLiveHtmlRequestInfo";
 import { AiOptimizationChatGptLlmScraperLiveHtmlResponseInfo } from "./../models/AiOptimizationChatGptLlmScraperLiveHtmlResponseInfo";
-import { AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo } from "./../models/AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo";
-import { AiOptimizationLlmMentionsAvailableFiltersResponseInfo } from "./../models/AiOptimizationLlmMentionsAvailableFiltersResponseInfo";
-import { AiOptimizationLlmMentionsSearchLiveRequestInfo } from "./../models/AiOptimizationLlmMentionsSearchLiveRequestInfo";
-import { BaseAiOptimizationLLmMentionsTargetElement } from "./../models/BaseAiOptimizationLLmMentionsTargetElement";
-import { AiOptimizationLlmMentionsSearchLiveResponseInfo } from "./../models/AiOptimizationLlmMentionsSearchLiveResponseInfo";
-import { AiOptimizationLlmMentionsTopPagesLiveRequestInfo } from "./../models/AiOptimizationLlmMentionsTopPagesLiveRequestInfo";
-import { AiOptimizationLlmMentionsTopPagesLiveResponseInfo } from "./../models/AiOptimizationLlmMentionsTopPagesLiveResponseInfo";
-import { AiOptimizationLlmMentionsTopDomainsLiveRequestInfo } from "./../models/AiOptimizationLlmMentionsTopDomainsLiveRequestInfo";
-import { AiOptimizationLlmMentionsTopDomainsLiveResponseInfo } from "./../models/AiOptimizationLlmMentionsTopDomainsLiveResponseInfo";
-import { AiOptimizationLlmMentionsAggregatedMetricsLiveRequestInfo } from "./../models/AiOptimizationLlmMentionsAggregatedMetricsLiveRequestInfo";
-import { AiOptimizationLlmMentionsAggregatedMetricsLiveResponseInfo } from "./../models/AiOptimizationLlmMentionsAggregatedMetricsLiveResponseInfo";
-import { AiOptimizationLlmMentionsCrossAggregatedMetricsLiveRequestInfo } from "./../models/AiOptimizationLlmMentionsCrossAggregatedMetricsLiveRequestInfo";
-import { AiOptimizationLLmMentionsCrossAggregateMetricsTargetInfo } from "./../models/AiOptimizationLLmMentionsCrossAggregateMetricsTargetInfo";
-import { AiOptimizationLlmMentionsCrossAggregatedMetricsLiveResponseInfo } from "./../models/AiOptimizationLlmMentionsCrossAggregatedMetricsLiveResponseInfo";
 import { AiOptimizationChatGptLlmResponsesModelsResponseInfo } from "./../models/AiOptimizationChatGptLlmResponsesModelsResponseInfo";
 import { AiOptimizationChatGptLlmResponsesLiveRequestInfo } from "./../models/AiOptimizationChatGptLlmResponsesLiveRequestInfo";
 import { LlmMessageChainItem } from "./../models/LlmMessageChainItem";
@@ -64,6 +50,40 @@ import { AiOptimizationAiKeywordDataAvailableFiltersResponseInfo } from "./../mo
 import { AiOptimizationAiKeywordDataLocationsAndLanguagesResponseInfo } from "./../models/AiOptimizationAiKeywordDataLocationsAndLanguagesResponseInfo";
 import { AiOptimizationAiKeywordDataKeywordsSearchVolumeLiveRequestInfo } from "./../models/AiOptimizationAiKeywordDataKeywordsSearchVolumeLiveRequestInfo";
 import { AiOptimizationAiKeywordDataKeywordsSearchVolumeLiveResponseInfo } from "./../models/AiOptimizationAiKeywordDataKeywordsSearchVolumeLiveResponseInfo";
+import { AiOptimizationLlmMentionsAvailableFiltersResponseInfo } from "./../models/AiOptimizationLlmMentionsAvailableFiltersResponseInfo";
+import { AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo } from "./../models/AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo";
+import { AiOptimizationLlmMentionsSearchMentionsLiveRequestInfo } from "./../models/AiOptimizationLlmMentionsSearchMentionsLiveRequestInfo";
+import { BaseAiOptimizationLLmMentionsTargetElement } from "./../models/BaseAiOptimizationLLmMentionsTargetElement";
+import { AiOptimizationLlmMentionsSearchMentionsLiveResponseInfo } from "./../models/AiOptimizationLlmMentionsSearchMentionsLiveResponseInfo";
+import { AiOptimizationLlmMentionsTargetMetricsLiveRequestInfo } from "./../models/AiOptimizationLlmMentionsTargetMetricsLiveRequestInfo";
+import { AiOptimizationLlmMentionsTargetMetricsLiveResponseInfo } from "./../models/AiOptimizationLlmMentionsTargetMetricsLiveResponseInfo";
+import { AiOptimizationLlmMentionsMultiTargetMetricsLiveRequestInfo } from "./../models/AiOptimizationLlmMentionsMultiTargetMetricsLiveRequestInfo";
+import { AiOptimizationLLmMentionsMultiTargetMetricsRequestInfo } from "./../models/AiOptimizationLLmMentionsMultiTargetMetricsRequestInfo";
+import { AiOptimizationLlmMentionsMultiTargetMetricsLiveResponseInfo } from "./../models/AiOptimizationLlmMentionsMultiTargetMetricsLiveResponseInfo";
+import { AiOptimizationLlmMentionsTopMentionedDomainsLiveRequestInfo } from "./../models/AiOptimizationLlmMentionsTopMentionedDomainsLiveRequestInfo";
+import { AiOptimizationLlmMentionsTopMentionedDomainsLiveResponseInfo } from "./../models/AiOptimizationLlmMentionsTopMentionedDomainsLiveResponseInfo";
+import { AiOptimizationLlmMentionsTopMentionedPagesLiveRequestInfo } from "./../models/AiOptimizationLlmMentionsTopMentionedPagesLiveRequestInfo";
+import { AiOptimizationLlmMentionsTopMentionedPagesLiveResponseInfo } from "./../models/AiOptimizationLlmMentionsTopMentionedPagesLiveResponseInfo";
+import { AiOptimizationLlmMentionsTopMentionedBrandsLiveRequestInfo } from "./../models/AiOptimizationLlmMentionsTopMentionedBrandsLiveRequestInfo";
+import { AiOptimizationLlmMentionsTopMentionedBrandsLiveResponseInfo } from "./../models/AiOptimizationLlmMentionsTopMentionedBrandsLiveResponseInfo";
+import { AiOptimizationLlmMentionsTopMentionedBrandCategoriesLiveRequestInfo } from "./../models/AiOptimizationLlmMentionsTopMentionedBrandCategoriesLiveRequestInfo";
+import { AiOptimizationLlmMentionsTopMentionedBrandCategoriesLiveResponseInfo } from "./../models/AiOptimizationLlmMentionsTopMentionedBrandCategoriesLiveResponseInfo";
+import { AiOptimizationLlmMentionsTargetMetricsLiteLiveRequestInfo } from "./../models/AiOptimizationLlmMentionsTargetMetricsLiteLiveRequestInfo";
+import { AiOptimizationLlmMentionsTargetMetricsLiteLiveResponseInfo } from "./../models/AiOptimizationLlmMentionsTargetMetricsLiteLiveResponseInfo";
+import { AiOptimizationLlmMentionsTopMentionedDomainsLiteLiveRequestInfo } from "./../models/AiOptimizationLlmMentionsTopMentionedDomainsLiteLiveRequestInfo";
+import { AiOptimizationLlmMentionsTopMentionedDomainsLiteLiveResponseInfo } from "./../models/AiOptimizationLlmMentionsTopMentionedDomainsLiteLiveResponseInfo";
+import { AiOptimizationLlmMentionsTopMentionedPagesLiteLiveRequestInfo } from "./../models/AiOptimizationLlmMentionsTopMentionedPagesLiteLiveRequestInfo";
+import { AiOptimizationLlmMentionsTopMentionedPagesLiteLiveResponseInfo } from "./../models/AiOptimizationLlmMentionsTopMentionedPagesLiteLiveResponseInfo";
+import { AiOptimizationLlmMentionsTopMentionedBrandsLiteLiveRequestInfo } from "./../models/AiOptimizationLlmMentionsTopMentionedBrandsLiteLiveRequestInfo";
+import { AiOptimizationLlmMentionsTopMentionedBrandsLiteLiveResponseInfo } from "./../models/AiOptimizationLlmMentionsTopMentionedBrandsLiteLiveResponseInfo";
+import { AiOptimizationLlmMentionsTopMentionedBrandCategoriesLiteLiveRequestInfo } from "./../models/AiOptimizationLlmMentionsTopMentionedBrandCategoriesLiteLiveRequestInfo";
+import { AiOptimizationLlmMentionsTopMentionedBrandCategoriesLiteLiveResponseInfo } from "./../models/AiOptimizationLlmMentionsTopMentionedBrandCategoriesLiteLiveResponseInfo";
+import { AiOptimizationLlmMentionsHistoricalLiveRequestInfo } from "./../models/AiOptimizationLlmMentionsHistoricalLiveRequestInfo";
+import { AiOptimizationLlmMentionsHistoricalLiveResponseInfo } from "./../models/AiOptimizationLlmMentionsHistoricalLiveResponseInfo";
+import { AiOptimizationLlmMentionsTimeseriesDeltaLiveRequestInfo } from "./../models/AiOptimizationLlmMentionsTimeseriesDeltaLiveRequestInfo";
+import { AiOptimizationLlmMentionsTimeseriesDeltaLiveResponseInfo } from "./../models/AiOptimizationLlmMentionsTimeseriesDeltaLiveResponseInfo";
+import { AiOptimizationLlmMentionsTimeseriesNewLostLiveRequestInfo } from "./../models/AiOptimizationLlmMentionsTimeseriesNewLostLiveRequestInfo";
+import { AiOptimizationLlmMentionsTimeseriesNewLostLiveResponseInfo } from "./../models/AiOptimizationLlmMentionsTimeseriesNewLostLiveResponseInfo";
 import { ApiException, throwException } from "./../models/ApiException"
 
 export class AiOptimizationApi {
@@ -83,7 +103,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -117,7 +137,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -150,7 +170,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -186,7 +206,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -218,7 +238,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -252,7 +272,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -286,7 +306,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -322,7 +342,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -357,7 +377,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -382,247 +402,6 @@ export class AiOptimizationApi {
         }
         return Promise.resolve<AiOptimizationChatGptLlmScraperLiveHtmlResponseInfo | null>(null as any);
     }
-    llmMentionsLocationsAndLanguages(): Promise<AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/locations_and_languages";
-        url_ = url_.replace(/[?&]$/, "");
-        let options_: RequestInit = {
-            method: "GET",
-            headers: {
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
-            }
-        };
-
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processLlmMentionsLocationsAndLanguages(_response);
-        });
-    }
-
-    protected processLlmMentionsLocationsAndLanguages(response: Response): Promise<AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo | null>(null as any);
-    }
-    llmMentionsAvailableFilters(): Promise<AiOptimizationLlmMentionsAvailableFiltersResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/available_filters";
-        url_ = url_.replace(/[?&]$/, "");
-        let options_: RequestInit = {
-            method: "GET",
-            headers: {
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
-            }
-        };
-
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processLlmMentionsAvailableFilters(_response);
-        });
-    }
-
-    protected processLlmMentionsAvailableFilters(response: Response): Promise<AiOptimizationLlmMentionsAvailableFiltersResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? AiOptimizationLlmMentionsAvailableFiltersResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<AiOptimizationLlmMentionsAvailableFiltersResponseInfo | null>(null as any);
-    }
-    llmMentionsSearchLive(body: AiOptimizationLlmMentionsSearchLiveRequestInfo[]): Promise<AiOptimizationLlmMentionsSearchLiveResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/search/live";
-        url_ = url_.replace(/[?&]$/, "");
-        const content_ = JSON.stringify(body);
-        let options_: RequestInit = {
-            body: content_,
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
-            }
-        };
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processLlmMentionsSearchLive(_response);
-        });
-    }
-
-    protected processLlmMentionsSearchLive(response: Response): Promise<AiOptimizationLlmMentionsSearchLiveResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? AiOptimizationLlmMentionsSearchLiveResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<AiOptimizationLlmMentionsSearchLiveResponseInfo | null>(null as any);
-    }
-    llmMentionsTopPagesLive(body: AiOptimizationLlmMentionsTopPagesLiveRequestInfo[]): Promise<AiOptimizationLlmMentionsTopPagesLiveResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/top_pages/live";
-        url_ = url_.replace(/[?&]$/, "");
-        const content_ = JSON.stringify(body);
-        let options_: RequestInit = {
-            body: content_,
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
-            }
-        };
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processLlmMentionsTopPagesLive(_response);
-        });
-    }
-
-    protected processLlmMentionsTopPagesLive(response: Response): Promise<AiOptimizationLlmMentionsTopPagesLiveResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? AiOptimizationLlmMentionsTopPagesLiveResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<AiOptimizationLlmMentionsTopPagesLiveResponseInfo | null>(null as any);
-    }
-    llmMentionsTopDomainsLive(body: AiOptimizationLlmMentionsTopDomainsLiveRequestInfo[]): Promise<AiOptimizationLlmMentionsTopDomainsLiveResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/top_domains/live";
-        url_ = url_.replace(/[?&]$/, "");
-        const content_ = JSON.stringify(body);
-        let options_: RequestInit = {
-            body: content_,
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
-            }
-        };
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processLlmMentionsTopDomainsLive(_response);
-        });
-    }
-
-    protected processLlmMentionsTopDomainsLive(response: Response): Promise<AiOptimizationLlmMentionsTopDomainsLiveResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? AiOptimizationLlmMentionsTopDomainsLiveResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<AiOptimizationLlmMentionsTopDomainsLiveResponseInfo | null>(null as any);
-    }
-    llmMentionsAggregatedMetricsLive(body: AiOptimizationLlmMentionsAggregatedMetricsLiveRequestInfo[]): Promise<AiOptimizationLlmMentionsAggregatedMetricsLiveResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/aggregated_metrics/live";
-        url_ = url_.replace(/[?&]$/, "");
-        const content_ = JSON.stringify(body);
-        let options_: RequestInit = {
-            body: content_,
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
-            }
-        };
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processLlmMentionsAggregatedMetricsLive(_response);
-        });
-    }
-
-    protected processLlmMentionsAggregatedMetricsLive(response: Response): Promise<AiOptimizationLlmMentionsAggregatedMetricsLiveResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? AiOptimizationLlmMentionsAggregatedMetricsLiveResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<AiOptimizationLlmMentionsAggregatedMetricsLiveResponseInfo | null>(null as any);
-    }
-    llmMentionsCrossAggregatedMetricsLive(body: AiOptimizationLlmMentionsCrossAggregatedMetricsLiveRequestInfo[]): Promise<AiOptimizationLlmMentionsCrossAggregatedMetricsLiveResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/cross_aggregated_metrics/live";
-        url_ = url_.replace(/[?&]$/, "");
-        const content_ = JSON.stringify(body);
-        let options_: RequestInit = {
-            body: content_,
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
-            }
-        };
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processLlmMentionsCrossAggregatedMetricsLive(_response);
-        });
-    }
-
-    protected processLlmMentionsCrossAggregatedMetricsLive(response: Response): Promise<AiOptimizationLlmMentionsCrossAggregatedMetricsLiveResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? AiOptimizationLlmMentionsCrossAggregatedMetricsLiveResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<AiOptimizationLlmMentionsCrossAggregatedMetricsLiveResponseInfo | null>(null as any);
-    }
     chatGptLlmResponsesModels(): Promise<AiOptimizationChatGptLlmResponsesModelsResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/ai_optimization/chat_gpt/llm_responses/models";
         url_ = url_.replace(/[?&]$/, "");
@@ -630,7 +409,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -666,7 +445,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -701,7 +480,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -733,7 +512,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -767,7 +546,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -800,7 +579,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -836,7 +615,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -871,7 +650,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -903,7 +682,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -937,7 +716,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -970,7 +749,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -1006,7 +785,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1038,7 +817,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -1072,7 +851,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -1108,7 +887,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1140,7 +919,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -1173,7 +952,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -1209,7 +988,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1241,7 +1020,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -1275,7 +1054,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -1309,7 +1088,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -1345,7 +1124,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1380,7 +1159,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1412,7 +1191,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -1448,7 +1227,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1480,7 +1259,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -1513,7 +1292,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
 
@@ -1549,7 +1328,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.0.25",
+                "User-Agent": "typescript-client/2.1.0",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1573,5 +1352,596 @@ export class AiOptimizationApi {
             });
         }
         return Promise.resolve<AiOptimizationAiKeywordDataKeywordsSearchVolumeLiveResponseInfo | null>(null as any);
+    }
+    llmMentionsAvailableFilters(): Promise<AiOptimizationLlmMentionsAvailableFiltersResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/available_filters";
+        url_ = url_.replace(/[?&]$/, "");
+        let options_: RequestInit = {
+            method: "GET",
+            headers: {
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.1.0",
+            }
+        };
+
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processLlmMentionsAvailableFilters(_response);
+        });
+    }
+
+    protected processLlmMentionsAvailableFilters(response: Response): Promise<AiOptimizationLlmMentionsAvailableFiltersResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationLlmMentionsAvailableFiltersResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationLlmMentionsAvailableFiltersResponseInfo | null>(null as any);
+    }
+    llmMentionsLocationsAndLanguages(): Promise<AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/locations_and_languages";
+        url_ = url_.replace(/[?&]$/, "");
+        let options_: RequestInit = {
+            method: "GET",
+            headers: {
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.1.0",
+            }
+        };
+
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processLlmMentionsLocationsAndLanguages(_response);
+        });
+    }
+
+    protected processLlmMentionsLocationsAndLanguages(response: Response): Promise<AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo | null>(null as any);
+    }
+    llmMentionsSearchMentionsLive(body: AiOptimizationLlmMentionsSearchMentionsLiveRequestInfo[]): Promise<AiOptimizationLlmMentionsSearchMentionsLiveResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/search_mentions/live";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.1.0",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processLlmMentionsSearchMentionsLive(_response);
+        });
+    }
+
+    protected processLlmMentionsSearchMentionsLive(response: Response): Promise<AiOptimizationLlmMentionsSearchMentionsLiveResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationLlmMentionsSearchMentionsLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationLlmMentionsSearchMentionsLiveResponseInfo | null>(null as any);
+    }
+    llmMentionsTargetMetricsLive(body: AiOptimizationLlmMentionsTargetMetricsLiveRequestInfo[]): Promise<AiOptimizationLlmMentionsTargetMetricsLiveResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/target_metrics/live";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.1.0",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processLlmMentionsTargetMetricsLive(_response);
+        });
+    }
+
+    protected processLlmMentionsTargetMetricsLive(response: Response): Promise<AiOptimizationLlmMentionsTargetMetricsLiveResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationLlmMentionsTargetMetricsLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationLlmMentionsTargetMetricsLiveResponseInfo | null>(null as any);
+    }
+    llmMentionsMultiTargetMetricsLive(body: AiOptimizationLlmMentionsMultiTargetMetricsLiveRequestInfo[]): Promise<AiOptimizationLlmMentionsMultiTargetMetricsLiveResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/multi_target_metrics/live";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.1.0",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processLlmMentionsMultiTargetMetricsLive(_response);
+        });
+    }
+
+    protected processLlmMentionsMultiTargetMetricsLive(response: Response): Promise<AiOptimizationLlmMentionsMultiTargetMetricsLiveResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationLlmMentionsMultiTargetMetricsLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationLlmMentionsMultiTargetMetricsLiveResponseInfo | null>(null as any);
+    }
+    llmMentionsTopMentionedDomainsLive(body: AiOptimizationLlmMentionsTopMentionedDomainsLiveRequestInfo[]): Promise<AiOptimizationLlmMentionsTopMentionedDomainsLiveResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/top_mentioned_domains/live";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.1.0",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processLlmMentionsTopMentionedDomainsLive(_response);
+        });
+    }
+
+    protected processLlmMentionsTopMentionedDomainsLive(response: Response): Promise<AiOptimizationLlmMentionsTopMentionedDomainsLiveResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationLlmMentionsTopMentionedDomainsLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationLlmMentionsTopMentionedDomainsLiveResponseInfo | null>(null as any);
+    }
+    llmMentionsTopMentionedPagesLive(body: AiOptimizationLlmMentionsTopMentionedPagesLiveRequestInfo[]): Promise<AiOptimizationLlmMentionsTopMentionedPagesLiveResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/top_mentioned_pages/live";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.1.0",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processLlmMentionsTopMentionedPagesLive(_response);
+        });
+    }
+
+    protected processLlmMentionsTopMentionedPagesLive(response: Response): Promise<AiOptimizationLlmMentionsTopMentionedPagesLiveResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationLlmMentionsTopMentionedPagesLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationLlmMentionsTopMentionedPagesLiveResponseInfo | null>(null as any);
+    }
+    llmMentionsTopMentionedBrandsLive(body: AiOptimizationLlmMentionsTopMentionedBrandsLiveRequestInfo[]): Promise<AiOptimizationLlmMentionsTopMentionedBrandsLiveResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/top_mentioned_brands/live";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.1.0",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processLlmMentionsTopMentionedBrandsLive(_response);
+        });
+    }
+
+    protected processLlmMentionsTopMentionedBrandsLive(response: Response): Promise<AiOptimizationLlmMentionsTopMentionedBrandsLiveResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationLlmMentionsTopMentionedBrandsLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationLlmMentionsTopMentionedBrandsLiveResponseInfo | null>(null as any);
+    }
+    llmMentionsTopMentionedBrandCategoriesLive(body: AiOptimizationLlmMentionsTopMentionedBrandCategoriesLiveRequestInfo[]): Promise<AiOptimizationLlmMentionsTopMentionedBrandCategoriesLiveResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/top_mentioned_brand_categories/live";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.1.0",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processLlmMentionsTopMentionedBrandCategoriesLive(_response);
+        });
+    }
+
+    protected processLlmMentionsTopMentionedBrandCategoriesLive(response: Response): Promise<AiOptimizationLlmMentionsTopMentionedBrandCategoriesLiveResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationLlmMentionsTopMentionedBrandCategoriesLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationLlmMentionsTopMentionedBrandCategoriesLiveResponseInfo | null>(null as any);
+    }
+    llmMentionsTargetMetricsLiteLive(body: AiOptimizationLlmMentionsTargetMetricsLiteLiveRequestInfo[]): Promise<AiOptimizationLlmMentionsTargetMetricsLiteLiveResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/target_metrics_lite/live";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.1.0",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processLlmMentionsTargetMetricsLiteLive(_response);
+        });
+    }
+
+    protected processLlmMentionsTargetMetricsLiteLive(response: Response): Promise<AiOptimizationLlmMentionsTargetMetricsLiteLiveResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationLlmMentionsTargetMetricsLiteLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationLlmMentionsTargetMetricsLiteLiveResponseInfo | null>(null as any);
+    }
+    llmMentionsTopMentionedDomainsLiteLive(body: AiOptimizationLlmMentionsTopMentionedDomainsLiteLiveRequestInfo[]): Promise<AiOptimizationLlmMentionsTopMentionedDomainsLiteLiveResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/top_mentioned_domains_lite/live";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.1.0",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processLlmMentionsTopMentionedDomainsLiteLive(_response);
+        });
+    }
+
+    protected processLlmMentionsTopMentionedDomainsLiteLive(response: Response): Promise<AiOptimizationLlmMentionsTopMentionedDomainsLiteLiveResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationLlmMentionsTopMentionedDomainsLiteLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationLlmMentionsTopMentionedDomainsLiteLiveResponseInfo | null>(null as any);
+    }
+    llmMentionsTopMentionedPagesLiteLive(body: AiOptimizationLlmMentionsTopMentionedPagesLiteLiveRequestInfo[]): Promise<AiOptimizationLlmMentionsTopMentionedPagesLiteLiveResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/top_mentioned_pages_lite/live";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.1.0",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processLlmMentionsTopMentionedPagesLiteLive(_response);
+        });
+    }
+
+    protected processLlmMentionsTopMentionedPagesLiteLive(response: Response): Promise<AiOptimizationLlmMentionsTopMentionedPagesLiteLiveResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationLlmMentionsTopMentionedPagesLiteLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationLlmMentionsTopMentionedPagesLiteLiveResponseInfo | null>(null as any);
+    }
+    llmMentionsTopMentionedBrandsLiteLive(body: AiOptimizationLlmMentionsTopMentionedBrandsLiteLiveRequestInfo[]): Promise<AiOptimizationLlmMentionsTopMentionedBrandsLiteLiveResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/top_mentioned_brands_lite/live";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.1.0",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processLlmMentionsTopMentionedBrandsLiteLive(_response);
+        });
+    }
+
+    protected processLlmMentionsTopMentionedBrandsLiteLive(response: Response): Promise<AiOptimizationLlmMentionsTopMentionedBrandsLiteLiveResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationLlmMentionsTopMentionedBrandsLiteLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationLlmMentionsTopMentionedBrandsLiteLiveResponseInfo | null>(null as any);
+    }
+    llmMentionsTopMentionedBrandCategoriesLiteLive(body: AiOptimizationLlmMentionsTopMentionedBrandCategoriesLiteLiveRequestInfo[]): Promise<AiOptimizationLlmMentionsTopMentionedBrandCategoriesLiteLiveResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/top_mentioned_brand_categories_lite/live";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.1.0",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processLlmMentionsTopMentionedBrandCategoriesLiteLive(_response);
+        });
+    }
+
+    protected processLlmMentionsTopMentionedBrandCategoriesLiteLive(response: Response): Promise<AiOptimizationLlmMentionsTopMentionedBrandCategoriesLiteLiveResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationLlmMentionsTopMentionedBrandCategoriesLiteLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationLlmMentionsTopMentionedBrandCategoriesLiteLiveResponseInfo | null>(null as any);
+    }
+    llmMentionsHistoricalLive(body: AiOptimizationLlmMentionsHistoricalLiveRequestInfo[]): Promise<AiOptimizationLlmMentionsHistoricalLiveResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/historical/live";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.1.0",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processLlmMentionsHistoricalLive(_response);
+        });
+    }
+
+    protected processLlmMentionsHistoricalLive(response: Response): Promise<AiOptimizationLlmMentionsHistoricalLiveResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationLlmMentionsHistoricalLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationLlmMentionsHistoricalLiveResponseInfo | null>(null as any);
+    }
+    llmMentionsTimeseriesDeltaLive(body: AiOptimizationLlmMentionsTimeseriesDeltaLiveRequestInfo[]): Promise<AiOptimizationLlmMentionsTimeseriesDeltaLiveResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/timeseries_delta/live";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.1.0",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processLlmMentionsTimeseriesDeltaLive(_response);
+        });
+    }
+
+    protected processLlmMentionsTimeseriesDeltaLive(response: Response): Promise<AiOptimizationLlmMentionsTimeseriesDeltaLiveResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationLlmMentionsTimeseriesDeltaLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationLlmMentionsTimeseriesDeltaLiveResponseInfo | null>(null as any);
+    }
+    llmMentionsTimeseriesNewLostLive(body: AiOptimizationLlmMentionsTimeseriesNewLostLiveRequestInfo[]): Promise<AiOptimizationLlmMentionsTimeseriesNewLostLiveResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/llm_mentions/timeseries_new_lost/live";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.1.0",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processLlmMentionsTimeseriesNewLostLive(_response);
+        });
+    }
+
+    protected processLlmMentionsTimeseriesNewLostLive(response: Response): Promise<AiOptimizationLlmMentionsTimeseriesNewLostLiveResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationLlmMentionsTimeseriesNewLostLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationLlmMentionsTimeseriesNewLostLiveResponseInfo | null>(null as any);
     }
 }

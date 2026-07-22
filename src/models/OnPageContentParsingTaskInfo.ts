@@ -12,6 +12,7 @@ export interface IOnPageContentParsingTaskInfo  extends IBaseResponseTaskInfo   
     }
 
 export class OnPageContentParsingTaskInfo  extends BaseResponseTaskInfo   implements IOnPageContentParsingTaskInfo {
+
     
     /** array of results */
 

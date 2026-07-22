@@ -32,6 +32,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class BacklinksBulkSpamScoreLiveRequestInfo  implements IBacklinksBulkSpamScoreLiveRequestInfo {
+
     
     /** domains, subdomains or webpages to get rank for
 required field
@@ -53,6 +54,7 @@ example:
 ] */
 
     targets?: string[] | undefined;
+
     
     /** user-defined task identifier
 optional field

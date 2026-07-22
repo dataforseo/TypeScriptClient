@@ -12,6 +12,7 @@ export interface IBusinessDataGoogleReviewsTasksReadyTaskInfo  extends IBaseResp
     }
 
 export class BusinessDataGoogleReviewsTasksReadyTaskInfo  extends BaseResponseTaskInfo   implements IBusinessDataGoogleReviewsTasksReadyTaskInfo {
+
     
     /** array of results */
 

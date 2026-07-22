@@ -9,13 +9,13 @@ export interface ILocalServicesElement   {
         /** title of a given link element */
         title?: string | undefined
         
-        /** URL */
+        /** source URL */
         url?: string | undefined
         
-        /** website domain */
+        /** domain where a link points */
         domain?: string | undefined
         
-        /** description of the results element in SERP */
+        /** link description */
         description?: string | undefined
         
         /** the item’s rating 
@@ -31,32 +31,39 @@ if there is none, equals null */
     }
 
 export class LocalServicesElement  implements ILocalServicesElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** title of a given link element */
 
     title?: string | undefined;
+
     
-    /** URL */
+    /** source URL */
 
     url?: string | undefined;
+
     
-    /** website domain */
+    /** domain where a link points */
 
     domain?: string | undefined;
+
     
-    /** description of the results element in SERP */
+    /** link description */
 
     description?: string | undefined;
+
     
     /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP;
 if there is none, equals null */
 
     rating?: RatingInfo | undefined;
+
     
     /** URL of the image featured in the element */
 

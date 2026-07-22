@@ -12,6 +12,7 @@ export interface IDataforseoLabsGoogleCategoriesForKeywordsLanguagesTaskInfo  ex
     }
 
 export class DataforseoLabsGoogleCategoriesForKeywordsLanguagesTaskInfo  extends BaseResponseTaskInfo   implements IDataforseoLabsGoogleCategoriesForKeywordsLanguagesTaskInfo {
+
     
     /** array of results */
 

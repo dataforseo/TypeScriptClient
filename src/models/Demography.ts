@@ -14,10 +14,12 @@ export interface IDemography   {
     }
 
 export class Demography  implements IDemography {
+
     
     /** distribution of keyword popularity by age */
 
     age?: DataforseoTrendsDataInfo[] | undefined;
+
     
     /** distribution of keyword popularity by gender */
 

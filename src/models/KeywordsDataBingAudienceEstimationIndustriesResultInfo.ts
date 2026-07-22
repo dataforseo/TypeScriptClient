@@ -11,10 +11,12 @@ export interface IKeywordsDataBingAudienceEstimationIndustriesResultInfo   {
     }
 
 export class KeywordsDataBingAudienceEstimationIndustriesResultInfo  implements IKeywordsDataBingAudienceEstimationIndustriesResultInfo {
+
     
     /** ID of the industry */
 
     industry_id?: number | undefined;
+
     
     /** name of the industry */
 

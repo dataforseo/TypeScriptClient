@@ -1,9 +1,9 @@
 export interface IBrandEntities   {
         
-        /** position in the results */
-        position?: number | undefined
+        /** rank in the results */
+        rank?: number | undefined
         
-        /** name of the brand */
+        /** source title */
         title?: string | undefined
         
         /** category of the brand */
@@ -14,14 +14,17 @@ export interface IBrandEntities   {
     }
 
 export class BrandEntities  implements IBrandEntities {
-    
-    /** position in the results */
 
-    position?: number | undefined;
     
-    /** name of the brand */
+    /** rank in the results */
+
+    rank?: number | undefined;
+
+    
+    /** source title */
 
     title?: string | undefined;
+
     
     /** category of the brand */
 
@@ -47,7 +50,7 @@ export class BrandEntities  implements IBrandEntities {
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
-            this.position = data["position"];
+            this.rank = data["rank"];
             this.title = data["title"];
             this.category = data["category"];
         }
@@ -67,7 +70,7 @@ export class BrandEntities  implements IBrandEntities {
 
         
         
-        data["position"] = this.position;
+        data["rank"] = this.rank;
         data["title"] = this.title;
         data["category"] = this.category;
         return data;

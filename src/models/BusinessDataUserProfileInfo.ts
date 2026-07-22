@@ -20,22 +20,27 @@ export interface IBusinessDataUserProfileInfo   {
     }
 
 export class BusinessDataUserProfileInfo  implements IBusinessDataUserProfileInfo {
+
     
     /** the name of the reviewer */
 
     name?: string | undefined;
+
     
     /** URL to the reviewer’s profile */
 
     url?: string | undefined;
+
     
     /** URL to the reviewer’s profile picture */
 
     image_url?: string | undefined;
+
     
     /** country of the reviewer */
 
     location?: string | undefined;
+
     
     /** total number of reviews submitted by the reviewer */
 

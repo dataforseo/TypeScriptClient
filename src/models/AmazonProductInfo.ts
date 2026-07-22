@@ -1,7 +1,7 @@
 import { RatingElement, IRatingElement } from "./RatingElement";
 import { AmazonApplicableVouchersItem, IAmazonApplicableVouchersItem } from "./AmazonApplicableVouchersItem";
-import { AmazonProductNewerModelInfo, IAmazonProductNewerModelInfo } from "./AmazonProductNewerModelInfo";
-import { ProductCategoryInfo, IProductCategoryInfo } from "./ProductCategoryInfo";
+import { NewerModel, INewerModel } from "./NewerModel";
+import { Categories, ICategories } from "./Categories";
 import { BaseMerchantAmazonProductInformationElementItem, IBaseMerchantAmazonProductInformationElementItem } from "./BaseMerchantAmazonProductInformationElementItem";
 import { AmazonReviewItem, IAmazonReviewItem } from "./AmazonReviewItem";
 
@@ -84,10 +84,10 @@ if true, specified product is a part of Amazon Prime Video service */
         applicable_vouchers?: AmazonApplicableVouchersItem[] | undefined
         
         /** information about the newer model of the product */
-        newer_model?: AmazonProductNewerModelInfo | undefined
+        newer_model?: NewerModel | undefined
         
         /** contains related product categories */
-        categories?: ProductCategoryInfo[] | undefined
+        categories?: Categories[] | undefined
         
         /** contains related product information */
         product_information?: BaseMerchantAmazonProductInformationElementItem[] | undefined
@@ -116,135 +116,165 @@ if the value is true, the product can be ordered */
     }
 
 export class AmazonProductInfo  implements IAmazonProductInfo {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank
 absolute position among all the elements in the response array */
 
     rank_absolute?: number | undefined;
+
     
     /** the alignment of the element in Amazon SERP
 possible values:
 left, right */
 
     position?: string | undefined;
+
     
     /** the XPath of the element */
 
     xpath?: string | undefined;
+
     
     /** product title */
 
     title?: string | undefined;
+
     
     /** product specs and other details */
 
     details?: string | undefined;
+
     
     /** the URL of the product image */
 
     image_url?: string | undefined;
+
     
     /** product brand name */
 
     author?: string | undefined;
+
     
     /** ASIN of the product received in a POST array */
 
     data_asin?: string | undefined;
+
     
     /** parent ASIN of the product */
 
     parent_asin?: string | undefined;
+
     
     /** ASINs of all found product modifications */
 
     product_asins?: string[] | undefined;
+
     
     /** the lower limit of the product price range
 example:
 49.98 */
 
     price_from?: number | undefined;
+
     
     /** the upper limit of the product price range
 example:
 384.99 */
 
     price_to?: number | undefined;
+
     
     /** value of the percentage discount */
 
     percentage_discount?: string | undefined;
+
     
     /** currency in the ISO format
 example:
 USD */
 
     currency?: string | undefined;
+
     
     /** “Amazon’s choice” label
 if the value is true, the product is marked with the “Amazon’s choice” label */
 
     is_amazon_choice?: boolean | undefined;
+
     
     /** product rating info */
 
     rating?: RatingElement | undefined;
+
     
     /** indicates whether the newer model of the product is available */
 
     is_newer_model_available?: boolean | undefined;
+
     
     /** indicates whether a product has an Amazon Prime Video label
 if true, specified product is a part of Amazon Prime Video service */
 
     is_prime_video?: boolean | undefined;
+
     
     /** array of objects containing information about applicable vouchers */
 
     applicable_vouchers?: AmazonApplicableVouchersItem[] | undefined;
+
     
     /** information about the newer model of the product */
 
-    newer_model?: AmazonProductNewerModelInfo | undefined;
+    newer_model?: NewerModel | undefined;
+
     
     /** contains related product categories */
 
-    categories?: ProductCategoryInfo[] | undefined;
+    categories?: Categories[] | undefined;
+
     
     /** contains related product information */
 
     product_information?: BaseMerchantAmazonProductInformationElementItem[] | undefined;
+
     
     /** contains URLs for all images of the product displayed on the left side of the main image */
 
     product_images_list?: string[] | undefined;
+
     
     /** contains URLs for all videos of the product displayed on the right side of the main video */
 
     product_videos_list?: string[] | undefined;
+
     
     /** contains description of the product */
 
     description?: string | undefined;
+
     
     /** indicates whether the product is available for ordering
 if the value is true, the product can be ordered */
 
     is_available?: boolean | undefined;
+
     
     /** array of objects with top reviews from target location */
 
     top_local_reviews?: AmazonReviewItem[] | undefined;
+
     
     /** array of objects with top reviews from around the world */
 
@@ -296,11 +326,11 @@ if the value is true, the product can be ordered */
                     this.applicable_vouchers.push(AmazonApplicableVouchersItem.fromJS(item));
                 }
             }
-            this.newer_model = data["newer_model"] ? AmazonProductNewerModelInfo.fromJS(data["newer_model"]) : <any>undefined;
+            this.newer_model = data["newer_model"] ? NewerModel.fromJS(data["newer_model"]) : <any>undefined;
             if (Array.isArray(data["categories"])) {
                 this.categories = [];
                 for (let item of data["categories"]) {
-                    this.categories.push(ProductCategoryInfo.fromJS(item));
+                    this.categories.push(Categories.fromJS(item));
                 }
             }
             if (Array.isArray(data["product_information"])) {
@@ -371,7 +401,7 @@ if the value is true, the product can be ordered */
                 }
             }
         }
-        data["newer_model"] = this.newer_model ? AmazonProductNewerModelInfo.fromJS(this.newer_model)?.toJSON() : <any>undefined;
+        data["newer_model"] = this.newer_model ? NewerModel.fromJS(this.newer_model)?.toJSON() : <any>undefined;
         data["categories"] = null;
         if (Array.isArray(this.categories)) {
             data["categories"] = [];

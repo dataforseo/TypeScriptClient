@@ -4,5 +4,5 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**items** | **GraphElement[]** | items present in the element |[optional]|
+**items** | **GraphElement[]** | contains arrays of elements available in the list |[optional]|
 **previous_items** | **GraphElement[]** | previous close data<br>contains stock price data based on the preceding time period |[optional]|

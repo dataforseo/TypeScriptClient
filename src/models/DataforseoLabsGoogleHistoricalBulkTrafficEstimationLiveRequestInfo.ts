@@ -60,7 +60,7 @@ example:
         
         /** ignore highly similar keywords
 optional field
-if set to true, only core keywords will be returned, all highly similar keywords will be excluded;
+if set to true only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false */
         ignore_synonyms?: boolean | undefined
         
@@ -86,6 +86,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo  implements IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo {
+
     
     /** target domains and subdomains
 required field
@@ -94,6 +95,7 @@ domains and subdomains should be specified without https:// and www.;
 you can set up to 1000 domains or subdomains */
 
     targets?: string[] | undefined;
+
     
     /** full name of the location
 if you use this field, you don’t have to specify location_code
@@ -104,6 +106,7 @@ example:
 United Kingdom */
 
     location_name?: string | undefined;
+
     
     /** location code
 if you use this field, you don’t have to specify location_name
@@ -114,6 +117,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** full name of the language
 if you use this field, you don’t need to specify language_code
@@ -124,6 +128,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** language code
 if you use this field, you don’t need to specify language_name
@@ -134,6 +139,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** starting date of the time range
 optional field
@@ -142,6 +148,7 @@ minimal possible value: 2020-10-01
 date format: 'yyyy-mm-dd' */
 
     date_from?: string | undefined;
+
     
     /** ending date of the time range
 optional field
@@ -151,13 +158,15 @@ example:
 '2021-04-01' */
 
     date_to?: string | undefined;
+
     
     /** ignore highly similar keywords
 optional field
-if set to true, only core keywords will be returned, all highly similar keywords will be excluded;
+if set to true only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false */
 
     ignore_synonyms?: boolean | undefined;
+
     
     /** display results by item type
 optional field
@@ -169,6 +178,7 @@ default value:
 ['organic', 'paid'] */
 
     item_types?: string[] | undefined;
+
     
     /** user-defined task identifier
 optional field

@@ -12,6 +12,7 @@ export interface IDataforseoLabsAppleAppCompetitorsLiveResponseInfo  extends IBa
     }
 
 export class DataforseoLabsAppleAppCompetitorsLiveResponseInfo  extends BaseResponseInfo   implements IDataforseoLabsAppleAppCompetitorsLiveResponseInfo {
+
     
     /** array of tasks */
 

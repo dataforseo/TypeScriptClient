@@ -6,7 +6,7 @@ export interface IFoundOnWebElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of a given link element */
+        /** title of the row */
         title?: string | undefined
         
         /** subtitle of the element */
@@ -20,18 +20,22 @@ export interface IFoundOnWebElement   {
     }
 
 export class FoundOnWebElement  implements IFoundOnWebElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
-    /** title of a given link element */
+    /** title of the row */
 
     title?: string | undefined;
+
     
     /** subtitle of the element */
 
     subtitle?: string | undefined;
+
     
     /** image of the element */
 

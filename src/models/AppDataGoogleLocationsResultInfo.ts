@@ -26,14 +26,17 @@ example:
     }
 
 export class AppDataGoogleLocationsResultInfo  implements IAppDataGoogleLocationsResultInfo {
+
     
     /** location code */
 
     location_code?: number | undefined;
+
     
     /** full name of the location */
 
     location_name?: string | undefined;
+
     
     /** the name of the superordinate location
 example:
@@ -44,10 +47,12 @@ example:
 'location_name': 'England,United Kingdom' */
 
     location_name_parent?: string | undefined;
+
     
     /** ISO country code of the location */
 
     country_iso_code?: string | undefined;
+
     
     /** location type */
 

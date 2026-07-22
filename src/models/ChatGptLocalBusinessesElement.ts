@@ -35,38 +35,47 @@ export interface IChatGptLocalBusinessesElement   {
     }
 
 export class ChatGptLocalBusinessesElement  implements IChatGptLocalBusinessesElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** title of the element */
 
     title?: string | undefined;
+
     
     /** description of the local business */
 
     description?: string | undefined;
+
     
     /** address of the local business */
 
     address?: string | undefined;
+
     
     /** phone of the local business */
 
     phone?: string | undefined;
+
     
     /** total number of reviews submitted for the local business */
 
     reviews_count?: number | undefined;
+
     
     /** URL */
 
     url?: string | undefined;
+
     
     /** domain */
 
     domain?: string | undefined;
+
     
     /** rating of the corresponding local businesspopularity rate based on reviews as displayed in the results */
 

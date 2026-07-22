@@ -16,13 +16,13 @@ indicates the number of the SERP page on which the element is located */
         /** the XPath of the element */
         xpath?: string | undefined
         
-        /** domain where a link points */
+        /** website domain */
         domain?: string | undefined
         
-        /** title of the link */
+        /** title of a given link element */
         title?: string | undefined
         
-        /** reference page URL */
+        /** URL */
         url?: string | undefined
         
         /** cached version of the page */
@@ -44,7 +44,7 @@ URL to a new search for the same keyword(s) on related sites */
         /** indicates whether the element contains a video */
         is_video?: boolean | undefined
         
-        /** description of the hotel booking element */
+        /** description of the results element in SERP */
         description?: string | undefined
         
         /** includes additional information appended before the result description in SERP */
@@ -72,12 +72,11 @@ if there is none, equals null */
         /** words highlighted in bold within the results description */
         highlighted?: string[] | undefined
         
-        /** contains information from the ‘About this result’ panel
-‘About this result’ panel provides additional context about why Google returned this result for the given query;
-this feature appears after clicking on the three dots next to most results */
+        /** @deprecated contains information from the ‘About this result’ panel
+Note: this object is deprecated and always returns null */
         about_this_result?: AboutThisResultElement | undefined
         
-        /** date and time when the video was published or indexed
+        /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */
@@ -88,100 +87,120 @@ example:
     }
 
 export class RelatedResult  implements IRelatedResult {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** search results page number
 indicates the number of the SERP page on which the element is located */
 
     page?: number | undefined;
+
     
     /** the XPath of the element */
 
     xpath?: string | undefined;
+
     
-    /** domain where a link points */
+    /** website domain */
 
     domain?: string | undefined;
+
     
-    /** title of the link */
+    /** title of a given link element */
 
     title?: string | undefined;
+
     
-    /** reference page URL */
+    /** URL */
 
     url?: string | undefined;
+
     
     /** cached version of the page */
 
     cache_url?: string | undefined;
+
     
     /** URL to a similar search
 URL to a new search for the same keyword(s) on related sites */
 
     related_search_url?: string | undefined;
+
     
     /** breadcrumb in SERP */
 
     breadcrumb?: string | undefined;
+
     
     /** name of the website in the ad element */
 
     website_name?: string | undefined;
+
     
     /** indicates whether the element contains an image */
 
     is_image?: boolean | undefined;
+
     
     /** indicates whether the element contains a video */
 
     is_video?: boolean | undefined;
+
     
-    /** description of the hotel booking element */
+    /** description of the results element in SERP */
 
     description?: string | undefined;
+
     
     /** includes additional information appended before the result description in SERP */
 
     pre_snippet?: string | undefined;
+
     
     /** includes additional information appended after the result description in SERP */
 
     extended_snippet?: string | undefined;
+
     
     /** images of the component
 if there are none, equals null */
 
     images?: AiModeImagesElementInfo[] | undefined;
+
     
     /** Accelerated Mobile Pages
 indicates whether an item has the Accelerated Mobile Page (AMP) version */
 
     amp_version?: boolean | undefined;
+
     
     /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP;
 if there is none, equals null */
 
     rating?: RatingInfo | undefined;
+
     
     /** price of booking a place for the specified dates of stay */
 
     price?: PriceInfo | undefined;
+
     
     /** words highlighted in bold within the results description */
 
     highlighted?: string[] | undefined;
     
-    /** contains information from the ‘About this result’ panel
-‘About this result’ panel provides additional context about why Google returned this result for the given query;
-this feature appears after clicking on the three dots next to most results */
+    /** @deprecated contains information from the ‘About this result’ panel
+Note: this object is deprecated and always returns null */
 
     about_this_result?: AboutThisResultElement | undefined;
+
     
-    /** date and time when the video was published or indexed
+    /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00 */

@@ -11,10 +11,12 @@ export interface ISerpSeznamLanguagesResultInfo   {
     }
 
 export class SerpSeznamLanguagesResultInfo  implements ISerpSeznamLanguagesResultInfo {
+
     
     /** language name */
 
     language_name?: string | undefined;
+
     
     /** language code according to ISO 639-1 */
 

@@ -12,6 +12,7 @@ export interface IDataforseoLabsGoogleRelatedKeywordsLiveResponseInfo  extends I
     }
 
 export class DataforseoLabsGoogleRelatedKeywordsLiveResponseInfo  extends BaseResponseInfo   implements IDataforseoLabsGoogleRelatedKeywordsLiveResponseInfo {
+
     
     /** array of tasks */
 

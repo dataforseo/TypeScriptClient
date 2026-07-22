@@ -12,6 +12,7 @@ export interface ISerpGoogleOrganicTasksReadyResponseInfo  extends IBaseResponse
     }
 
 export class SerpGoogleOrganicTasksReadyResponseInfo  extends BaseResponseInfo   implements ISerpGoogleOrganicTasksReadyResponseInfo {
+
     
     /** array of tasks */
 

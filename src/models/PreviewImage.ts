@@ -14,14 +14,17 @@ export interface IPreviewImage   {
     }
 
 export class PreviewImage  implements IPreviewImage {
+
     
     /** search URL with refinement parameters */
 
     url?: string | undefined;
+
     
     /** height of the preview image */
 
     height?: number | undefined;
+
     
     /** width of the preview image */
 

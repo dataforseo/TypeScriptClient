@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpGoogleLocalFinderLiveAdvancedResultInfo[]** | array of results |[optional]|
+**result** | **SerpGoogleLocalFinderLiveAdvancedResultInfo[]** |  |[optional]|

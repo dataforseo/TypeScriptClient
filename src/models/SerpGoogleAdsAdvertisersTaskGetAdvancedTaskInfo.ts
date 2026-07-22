@@ -12,6 +12,7 @@ export interface ISerpGoogleAdsAdvertisersTaskGetAdvancedTaskInfo  extends IBase
     }
 
 export class SerpGoogleAdsAdvertisersTaskGetAdvancedTaskInfo  extends BaseResponseTaskInfo   implements ISerpGoogleAdsAdvertisersTaskGetAdvancedTaskInfo {
+
     
     /** array of results */
 

@@ -8,15 +8,14 @@ export interface IMentionCarouselElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of a given link element */
+        /** title of the row */
         title?: string | undefined
         
-        /** price indicated in the element */
+        /** price of the app element */
         price?: PriceInfo | undefined
         
-        /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP;
-if there is none, equals null */
+        /** the element’s rating 
+the popularity rate based on reviews and displayed in SERP */
         rating?: RatingInfo | undefined
         
         /** additional elements in the mention_carousel item */
@@ -27,24 +26,28 @@ if there is none, equals null */
     }
 
 export class MentionCarouselElement  implements IMentionCarouselElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
-    /** title of a given link element */
+    /** title of the row */
 
     title?: string | undefined;
+
     
-    /** price indicated in the element */
+    /** price of the app element */
 
     price?: PriceInfo | undefined;
+
     
-    /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP;
-if there is none, equals null */
+    /** the element’s rating 
+the popularity rate based on reviews and displayed in SERP */
 
     rating?: RatingInfo | undefined;
+
     
     /** additional elements in the mention_carousel item */
 

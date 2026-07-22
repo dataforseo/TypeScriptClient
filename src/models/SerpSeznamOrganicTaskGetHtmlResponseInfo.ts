@@ -12,6 +12,7 @@ export interface ISerpSeznamOrganicTaskGetHtmlResponseInfo  extends IBaseRespons
     }
 
 export class SerpSeznamOrganicTaskGetHtmlResponseInfo  extends BaseResponseInfo   implements ISerpSeznamOrganicTaskGetHtmlResponseInfo {
+
     
     /** array of tasks */
 

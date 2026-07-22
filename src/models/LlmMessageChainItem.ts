@@ -11,10 +11,12 @@ export interface ILlmMessageChainItem   {
     }
 
 export class LlmMessageChainItem  implements ILlmMessageChainItem {
+
     
     /** role of the user from whom the message originates */
 
     role?: string | undefined;
+
     
     /** message text */
 

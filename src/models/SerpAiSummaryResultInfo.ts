@@ -14,10 +14,12 @@ export interface ISerpAiSummaryResultInfo   {
     }
 
 export class SerpAiSummaryResultInfo  implements ISerpAiSummaryResultInfo {
+
     
     /** number of items in the results array */
 
     items_count?: number | undefined;
+
     
     /** items array */
 

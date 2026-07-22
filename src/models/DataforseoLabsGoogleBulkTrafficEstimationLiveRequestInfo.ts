@@ -72,6 +72,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo  implements IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo {
+
     
     /** target domains, subdomains, and webpages
 required field
@@ -81,6 +82,7 @@ pages should be specified with absolute URL, including https:// and www.;
 you can set up to 1000 domains, subdomains or webpages */
 
     targets?: string[] | undefined;
+
     
     /** full name of the location
 if you use this field, you don’t have to specify location_code
@@ -91,6 +93,7 @@ example:
 United Kingdom */
 
     location_name?: string | undefined;
+
     
     /** location code
 if you use this field, you don’t have to specify location_name
@@ -101,6 +104,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** full name of the language
 if you use this field, you don’t need to specify language_code
@@ -111,6 +115,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** language code
 if you use this field, you don’t need to specify language_name
@@ -121,6 +126,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** display results by item type
 optional field
@@ -132,6 +138,7 @@ default value:
 ['organic', 'paid'] */
 
     item_types?: string[] | undefined;
+
     
     /** ignore highly similar keywords
 optional field
@@ -139,6 +146,7 @@ if set to true, only core keywords will be returned, all highly similar keyword
 default value: false */
 
     ignore_synonyms?: boolean | undefined;
+
     
     /** user-defined task identifier
 optional field

@@ -100,6 +100,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class KeywordsDataBingKeywordPerformanceTaskPostRequestInfo  implements IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo {
+
     
     /** keywords
 required field
@@ -110,6 +111,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keywords?: string[] | undefined;
+
     
     /** device type
 optional field
@@ -117,6 +119,7 @@ specify this field if you want to get the data for a particular device typepossi
 default value: all */
 
     device?: string | undefined;
+
     
     /** keywords match type
 optional field
@@ -127,6 +130,7 @@ phrase returns data for all user queries containing the specified keyword with i
 exact returns data for user query that matches the specified keyword;Note: the aggregate match type is applied by default */
 
     match?: string | undefined;
+
     
     /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -136,6 +140,7 @@ example:
 'United States' */
 
     location_name?: string | undefined;
+
     
     /** search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -145,6 +150,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -155,6 +161,7 @@ example:
 52.6178549,-155.352142 */
 
     location_coordinate?: string | undefined;
+
     
     /** full name of search engine language
 required field if you don’t specify language_code
@@ -164,6 +171,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** search engine language code
 required field if you don’t specify language_name
@@ -172,6 +180,7 @@ example:
 'en' */
 
     language_code?: string | undefined;
+
     
     /** URL for sending task results
 optional field
@@ -185,6 +194,7 @@ i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
     postback_url?: string | undefined;
+
     
     /** notification URL of a completed task
 optional field
@@ -198,6 +208,7 @@ i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
     pingback_url?: string | undefined;
+
     
     /** user-defined task identifier
 optional field

@@ -170,6 +170,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo  implements IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo {
+
     
     /** domain
 required field
@@ -178,6 +179,7 @@ the domain should be specified without https:// and www.
 you can specify page URL, but the results will be specific to the domain in the specified URL */
 
     target?: string | undefined;
+
     
     /** full name of the location
 required field if you don’t specify location_code
@@ -188,6 +190,7 @@ example:
 United Kingdom */
 
     location_name?: string | undefined;
+
     
     /** location code
 required field if you don’t specify location_name
@@ -198,6 +201,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** full name of the language
 required field if you don’t specify language_code
@@ -208,6 +212,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** language code
 required field if you don’t specify language_name
@@ -218,6 +223,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** display results by item type
 optional field
@@ -229,6 +235,7 @@ default value:
 ['organic', 'paid'] */
 
     item_types?: string[] | undefined;
+
     
     /** include or exclude data from clickstream-based metrics in the result
 optional field
@@ -238,6 +245,7 @@ with this parameter enabled, you will be charged double the price for the reques
 learn more about how clickstream-based metrics are calculated in this help center article */
 
     include_clickstream_data?: boolean | undefined;
+
     
     /** array of results filtering parameters
 optional field
@@ -253,6 +261,7 @@ example:
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
 
     filters?: any[] | undefined;
+
     
     /** results sorting rules
 optional field
@@ -272,6 +281,7 @@ default rule:
 Note: if the item_types array contains item types that are different from organic, the results will be ordered by the first item type in the array */
 
     order_by?: string[] | undefined;
+
     
     /** the maximum number of returned domains
 optional field
@@ -279,6 +289,7 @@ default value: 100
 maximum value: 1000 */
 
     limit?: number | undefined;
+
     
     /** offset in the results array of returned domains
 optional field
@@ -286,6 +297,7 @@ default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords */
 
     offset?: number | undefined;
+
     
     /** maximum rank up to which competitors will be considered
 optional field
@@ -293,6 +305,7 @@ default value: 100
 if you specify 10 here, we will extract competitors from the top 10 Google search results only */
 
     max_rank_group?: number | undefined;
+
     
     /** indicates whether to exclude world’s largest websites
 optional field
@@ -317,6 +330,7 @@ linkedin.com
 slideshare.net */
 
     exclude_top_domains?: boolean | undefined;
+
     
     /** exclude domains from the results
 optional field
@@ -329,6 +343,7 @@ example:
 ] */
 
     exclude_domains?: string[] | undefined;
+
     
     /** additional domains for improving results accuracy
 optional field
@@ -337,6 +352,7 @@ if you use this array, metrics in the result will be based on SERPs where both t
 Note: you can specify up to 20 domains in this array */
 
     intersecting_domains?: string[] | undefined;
+
     
     /** ignore highly similar keywords
 optional field
@@ -344,6 +360,7 @@ if set to true, only core keywords will be returned, all highly similar keyword
 default value: false */
 
     ignore_synonyms?: boolean | undefined;
+
     
     /** user-defined task identifier
 optional field

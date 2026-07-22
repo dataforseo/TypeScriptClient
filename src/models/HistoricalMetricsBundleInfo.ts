@@ -20,18 +20,22 @@ export interface IHistoricalMetricsBundleInfo   {
     }
 
 export class HistoricalMetricsBundleInfo  implements IHistoricalMetricsBundleInfo {
+
     
     /** traffic data from organic search */
 
     organic?: HistoricalMetricsInfo[] | undefined;
+
     
     /** traffic data from paid search */
 
     paid?: HistoricalMetricsInfo[] | undefined;
+
     
     /** traffic data from the local pack results in SERP */
 
     local_pack?: HistoricalMetricsInfo[] | undefined;
+
     
     /** traffic data from the featured snippet results in Google SERP */
 

@@ -28,32 +28,39 @@ can take the following values: shopping */
     }
 
 export class MerchantGoogleSellersTasksReadyResultInfo  implements IMerchantGoogleSellersTasksReadyResultInfo {
+
     
     /** task identifier of the completed task
 unique task identifier in our system in the UUID format */
 
     id?: string | undefined;
+
     
     /** search engine specified when setting the task */
 
     se?: string | undefined;
+
     
     /** type of search engine
 can take the following values: shopping */
 
     se_type?: string | undefined;
+
     
     /** date when the task was posted (in the UTC format) */
 
     date_posted?: string | undefined;
+
     
     /** user-defined task identifier */
 
     tag?: string | undefined;
+
     
     /** URL for collecting the results of Google Shopping Sellers Advanced task */
 
     endpoint_advanced?: string | undefined;
+
     
     /** URL for collecting the results of Google Shopping Sellers HTML task */
 

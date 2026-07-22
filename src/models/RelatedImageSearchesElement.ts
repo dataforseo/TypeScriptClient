@@ -1,9 +1,11 @@
+/** @deprecated */
+
 export interface IRelatedImageSearchesElement   {
         
         /** type of element */
         type?: string | undefined
         
-        /** title of a given shopping element */
+        /** title of the result in SERP */
         title?: string | undefined
         
         /** alt tag of the image */
@@ -20,23 +22,29 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
     }
 
+/** @deprecated */
 export class RelatedImageSearchesElement  implements IRelatedImageSearchesElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
-    /** title of a given shopping element */
+    /** title of the result in SERP */
 
     title?: string | undefined;
+
     
     /** alt tag of the image */
 
     alt?: string | undefined;
+
     
     /** URL */
 
     url?: string | undefined;
+
     
     /** URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */

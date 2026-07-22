@@ -12,6 +12,7 @@ export interface IKeywordsDataGoogleAdsLocationsTaskInfo  extends IBaseResponseT
     }
 
 export class KeywordsDataGoogleAdsLocationsTaskInfo  extends BaseResponseTaskInfo   implements IKeywordsDataGoogleAdsLocationsTaskInfo {
+
     
     /** array of results */
 

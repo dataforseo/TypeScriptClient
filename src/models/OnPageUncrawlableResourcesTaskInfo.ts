@@ -12,6 +12,7 @@ export interface IOnPageUncrawlableResourcesTaskInfo  extends IBaseResponseTaskI
     }
 
 export class OnPageUncrawlableResourcesTaskInfo  extends BaseResponseTaskInfo   implements IOnPageUncrawlableResourcesTaskInfo {
+
     
     /** array of results */
 

@@ -22,16 +22,19 @@ possible sentiment connotation types: anger, happiness, love, sadness, share, fu
     }
 
 export class ContentAnalysisSentimentAnalysisLiveResultInfo  implements IContentAnalysisSentimentAnalysisLiveResultInfo {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** citation distribution by sentiment connotation types
 contains objects with citation counts and relevant data distributed by types of sentiments (sentiment polarity);
 possible sentiment connotation types: positive, negative, neutral */
 
     positive_connotation_distribution?: PositiveConnotationDistribution | undefined;
+
     
     /** citation distribution by sentiment connotations
 contains objects with citation counts and relevant data distributed by sentiments (emotional reactions);

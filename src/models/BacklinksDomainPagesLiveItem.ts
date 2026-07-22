@@ -45,7 +45,9 @@ example:
 2017-01-24 13:20:59 +00:00 */
         fetch_time?: string | undefined
         
-        /** HTTP status code of the page */
+        /** general status code
+you can find the full list of the response codes here
+Note: we strongly recommend designing a necessary system for handling related exceptional or error conditions */
         status_code?: number | undefined
         
         /** location header
@@ -79,34 +81,41 @@ indicates the size of the encoded page, in bytes */
     }
 
 export class BacklinksDomainPagesLiveItem  implements IBacklinksDomainPagesLiveItem {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** main website domain
 main website domain does not include subdomains */
 
     main_domain?: string | undefined;
+
     
     /** domain
 domain where the page was found */
 
     domain?: string | undefined;
+
     
     /** top-level domain
 top-level domain in the DNS root zone */
 
     tld?: string | undefined;
+
     
     /** page URL
 relevant page URL */
 
     page?: string | undefined;
+
     
     /** Internet Protocol address */
 
     ip?: string | undefined;
+
     
     /** date and time of the first page visit
 date and time when our crawler visited this page for the first time
@@ -115,6 +124,7 @@ example:
 2017-01-24 13:20:59 +00:00 */
 
     first_visited?: string | undefined;
+
     
     /** previous to the most recent date when our crawler visited the page
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -122,6 +132,7 @@ example:
 2017-01-24 13:20:59 +00:00 */
 
     prev_visited?: string | undefined;
+
     
     /** most recent date and time when our crawler visited the page
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -129,40 +140,51 @@ example:
 2017-01-24 13:20:59 +00:00 */
 
     fetch_time?: string | undefined;
+
     
-    /** HTTP status code of the page */
+    /** general status code
+you can find the full list of the response codes here
+Note: we strongly recommend designing a necessary system for handling related exceptional or error conditions */
 
     status_code?: number | undefined;
+
     
     /** location header
 indicates the URL to redirect a page to if exists */
 
     location?: string | undefined;
+
     
     /** indicates the page size, in bytes */
 
     size?: number | undefined;
+
     
     /** page size after encoding
 indicates the size of the encoded page, in bytes */
 
     encoded_size?: number | undefined;
+
     
     /** type of encoding */
 
     content_encoding?: string | undefined;
+
     
     /** types of media used to display a page */
 
     media_type?: string | undefined;
+
     
     /** server version */
 
     server?: string | undefined;
+
     
     /** page meta data */
 
     meta?: BacklinksPageMeta | undefined;
+
     
     /** contains backlink data for this page */
 

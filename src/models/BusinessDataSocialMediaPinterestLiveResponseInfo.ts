@@ -12,6 +12,7 @@ export interface IBusinessDataSocialMediaPinterestLiveResponseInfo  extends IBas
     }
 
 export class BusinessDataSocialMediaPinterestLiveResponseInfo  extends BaseResponseInfo   implements IBusinessDataSocialMediaPinterestLiveResponseInfo {
+
     
     /** array of tasks */
 

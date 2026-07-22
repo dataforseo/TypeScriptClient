@@ -12,6 +12,7 @@ export interface IContentAnalysisSearchLiveResponseInfo  extends IBaseResponseIn
     }
 
 export class ContentAnalysisSearchLiveResponseInfo  extends BaseResponseInfo   implements IContentAnalysisSearchLiveResponseInfo {
+
     
     /** array of tasks */
 

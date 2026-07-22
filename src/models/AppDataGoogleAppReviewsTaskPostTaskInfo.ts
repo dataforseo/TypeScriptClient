@@ -12,6 +12,7 @@ in this case, the value will be null */
     }
 
 export class AppDataGoogleAppReviewsTaskPostTaskInfo  extends BaseResponseTaskInfo   implements IAppDataGoogleAppReviewsTaskPostTaskInfo {
+
     
     /** array of results
 in this case, the value will be null */

@@ -3,7 +3,7 @@ export interface IKnowledgeGraphListElement   {
         /** type of element */
         type?: string | undefined
         
-        /** link anchor text */
+        /** title of the result in SERP */
         title?: string | undefined
         
         /** subtitle of the item */
@@ -27,31 +27,38 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
     }
 
 export class KnowledgeGraphListElement  implements IKnowledgeGraphListElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
-    /** link anchor text */
+    /** title of the result in SERP */
 
     title?: string | undefined;
+
     
     /** subtitle of the item */
 
     subtitle?: string | undefined;
+
     
     /** sitelink URL */
 
     url?: string | undefined;
+
     
     /** domain in SERP */
 
     domain?: string | undefined;
+
     
     /** URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
     image_url?: string | undefined;
+
     
     /** the XPath of the element */
 

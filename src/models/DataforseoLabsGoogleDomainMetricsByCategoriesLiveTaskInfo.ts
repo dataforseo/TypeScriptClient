@@ -12,6 +12,7 @@ export interface IDataforseoLabsGoogleDomainMetricsByCategoriesLiveTaskInfo  ext
     }
 
 export class DataforseoLabsGoogleDomainMetricsByCategoriesLiveTaskInfo  extends BaseResponseTaskInfo   implements IDataforseoLabsGoogleDomainMetricsByCategoriesLiveTaskInfo {
+
     
     /** array of results */
 

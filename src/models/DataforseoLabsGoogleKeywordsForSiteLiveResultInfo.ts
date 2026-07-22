@@ -37,40 +37,49 @@ note: offset_token values are unique for each subsequent task */
     }
 
 export class DataforseoLabsGoogleKeywordsForSiteLiveResultInfo  implements IDataforseoLabsGoogleKeywordsForSiteLiveResultInfo {
+
     
     /** search engine type */
 
     se_type?: string | undefined;
+
     
     /** target domain in a POST array */
 
     target?: string | undefined;
+
     
     /** location code in a POST array */
 
     location_code?: number | undefined;
+
     
     /** language code in a POST array */
 
     language_code?: string | undefined;
+
     
     /** total number of results in our database relevant to your request */
 
     total_count?: number | undefined;
+
     
     /** the number of results returned in the items array */
 
     items_count?: number | undefined;
+
     
     /** current offset value */
 
     offset?: number | undefined;
+
     
     /** offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
 note: offset_token values are unique for each subsequent task */
 
     offset_token?: string | undefined;
+
     
     /** contains keyword ideas and related data */
 

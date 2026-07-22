@@ -20,18 +20,22 @@ export interface IBacklinksDomainIntersectionLiveResultInfo   {
     }
 
 export class BacklinksDomainIntersectionLiveResultInfo  implements IBacklinksDomainIntersectionLiveResultInfo {
+
     
     /** target domains, subdomains or webpages in a POST array */
 
     targets?: { [key: string]: string; } | undefined;
+
     
     /** total amount of results relevant to your request */
 
     total_count?: number | undefined;
+
     
     /** the number of results returned in the items array */
 
     items_count?: number | undefined;
+
     
     /** contains domain that link to all targets from the POST array */
 

@@ -12,6 +12,7 @@ export interface IAppDataGoogleAppListingsCategoriesResponseInfo  extends IBaseR
     }
 
 export class AppDataGoogleAppListingsCategoriesResponseInfo  extends BaseResponseInfo   implements IAppDataGoogleAppListingsCategoriesResponseInfo {
+
     
     /** array of tasks */
 

@@ -6,16 +6,16 @@ export interface IKnowledgeGraphHotelsBookingElement   {
         /** type of element */
         type?: string | undefined
         
-        /** source of additional information about the result */
+        /** name of the source of the video */
         source?: string | undefined
         
         /** description of the results element in SERP */
         description?: string | undefined
         
-        /** relevant URL */
+        /** image source URL */
         url?: string | undefined
         
-        /** domain where a link points */
+        /** website domain */
         domain?: string | undefined
         
         /** pricing details
@@ -30,31 +30,38 @@ contains the pricing details of the product or service featured in the result */
     }
 
 export class KnowledgeGraphHotelsBookingElement  implements IKnowledgeGraphHotelsBookingElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
-    /** source of additional information about the result */
+    /** name of the source of the video */
 
     source?: string | undefined;
+
     
     /** description of the results element in SERP */
 
     description?: string | undefined;
+
     
-    /** relevant URL */
+    /** image source URL */
 
     url?: string | undefined;
+
     
-    /** domain where a link points */
+    /** website domain */
 
     domain?: string | undefined;
+
     
     /** pricing details
 contains the pricing details of the product or service featured in the result */
 
     price?: PriceInfo | undefined;
+
     
     /** indicates whether the element is an ad */
 

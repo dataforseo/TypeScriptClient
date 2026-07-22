@@ -76,6 +76,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo  implements IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo {
+
     
     /** domain
 required field
@@ -83,6 +84,7 @@ the domain name of the target website
 the domain should be specified without https:// and www. */
 
     target?: string | undefined;
+
     
     /** full name of the location
 optional field
@@ -94,6 +96,7 @@ example:
 United Kingdom */
 
     location_name?: string | undefined;
+
     
     /** location code
 optional field
@@ -105,6 +108,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** full name of the language
 optional field
@@ -116,6 +120,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** language code
 optional field
@@ -127,6 +132,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** ignore highly similar keywords
 optional field
@@ -134,6 +140,7 @@ if set to true, all highly similar keywords will be excluded from the ranking a
 default value: false */
 
     ignore_synonyms?: boolean | undefined;
+
     
     /** the maximum number of returned results for domain
 optional field
@@ -141,6 +148,7 @@ default value: 100
 maximum value: 1000 */
 
     limit?: number | undefined;
+
     
     /** offset in the results array of returned items
 optional field
@@ -148,6 +156,7 @@ default value: 0
 if you specify the 10 value, the first ten items in the results array will be omitted and the data will be provided for the successive items */
 
     offset?: number | undefined;
+
     
     /** user-defined task identifier
 optional field

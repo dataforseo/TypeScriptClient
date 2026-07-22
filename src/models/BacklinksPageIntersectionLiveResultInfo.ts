@@ -20,18 +20,22 @@ export interface IBacklinksPageIntersectionLiveResultInfo   {
     }
 
 export class BacklinksPageIntersectionLiveResultInfo  implements IBacklinksPageIntersectionLiveResultInfo {
+
     
     /** targets from a POST array */
 
     targets?: { [key: string]: string; } | undefined;
+
     
     /** total amount of results relevant the request */
 
     total_count?: number | undefined;
+
     
     /** the number of results returned in the items array */
 
     items_count?: number | undefined;
+
     
     /** contains relevant backlinks and referring domains data */
 

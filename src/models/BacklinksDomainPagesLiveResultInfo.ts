@@ -20,18 +20,22 @@ export interface IBacklinksDomainPagesLiveResultInfo   {
     }
 
 export class BacklinksDomainPagesLiveResultInfo  implements IBacklinksDomainPagesLiveResultInfo {
+
     
     /** target in a POST array */
 
     target?: string | undefined;
+
     
     /** total number of relevant items in the database */
 
     total_count?: number | undefined;
+
     
     /** number of items in the items array */
 
     items_count?: number | undefined;
+
     
     /** items array */
 

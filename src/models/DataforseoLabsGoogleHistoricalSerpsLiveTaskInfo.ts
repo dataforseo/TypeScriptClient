@@ -13,6 +13,7 @@ the array includes objects with SERPs for each month within the specified time f
     }
 
 export class DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo  extends BaseResponseTaskInfo   implements IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo {
+
     
     /** array of results
 the array includes objects with SERPs for each month within the specified time frame */

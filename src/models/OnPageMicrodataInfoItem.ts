@@ -14,10 +14,12 @@ export interface IOnPageMicrodataInfoItem   {
     }
 
 export class OnPageMicrodataInfoItem  implements IOnPageMicrodataInfoItem {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** information related to microdata validation */
 

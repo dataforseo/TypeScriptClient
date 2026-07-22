@@ -16,6 +16,7 @@ this array can take the following names: most_active, gainers, losers */
     }
 
 export class SerpGoogleFinanceExploreAdvancedItem  implements ISerpGoogleFinanceExploreAdvancedItem {
+
     
     /** array of items
 this array can take the following names: most_active, gainers, losers */

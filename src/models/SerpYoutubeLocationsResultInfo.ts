@@ -30,14 +30,17 @@ example:
     }
 
 export class SerpYoutubeLocationsResultInfo  implements ISerpYoutubeLocationsResultInfo {
+
     
     /** location code */
 
     location_code?: number | undefined;
+
     
     /** full name of the location */
 
     location_name?: string | undefined;
+
     
     /** the code of the superordinate location
 example:
@@ -49,10 +52,12 @@ where location_code_parent corresponds to:
 'location_name': 'Lower Austria,Austria' */
 
     location_code_parent?: number | undefined;
+
     
     /** ISO country code of the location */
 
     country_iso_code?: string | undefined;
+
     
     /** location type
 indicates the geographic classification of the location

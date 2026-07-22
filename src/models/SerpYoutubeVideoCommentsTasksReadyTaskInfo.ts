@@ -12,6 +12,7 @@ export interface ISerpYoutubeVideoCommentsTasksReadyTaskInfo  extends IBaseRespo
     }
 
 export class SerpYoutubeVideoCommentsTasksReadyTaskInfo  extends BaseResponseTaskInfo   implements ISerpYoutubeVideoCommentsTasksReadyTaskInfo {
+
     
     /** array of results */
 

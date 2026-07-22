@@ -105,6 +105,7 @@ you will find the specified tag value in the data array of the response */
     }
 
 export class KeywordsDataGoogleAdsSearchVolumeLiveRequestInfo  implements IKeywordsDataGoogleAdsSearchVolumeLiveRequestInfo {
+
     
     /** keywords
 required field
@@ -120,6 +121,7 @@ to learn more about which symbols and characters can be used, please refer to th
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keywords?: string[] | undefined;
+
     
     /** full name of search engine location
 optional field
@@ -130,6 +132,7 @@ example:
 London,England,United Kingdom */
 
     location_name?: string | undefined;
+
     
     /** search engine location code
 optional field
@@ -140,6 +143,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** GPS coordinates of a location
 optional field
@@ -151,6 +155,7 @@ example:
 52.6178549,-155.352142 */
 
     location_coordinate?: string | undefined;
+
     
     /** full name of search engine language
 optional field
@@ -159,6 +164,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** search engine language code
 optional field
@@ -167,6 +173,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** include Google search partners
 optional field
@@ -174,6 +181,7 @@ if you specify true, the results will be delivered for owned, operated, and synd
 default value: false – results are returned for Google search sites */
 
     search_partners?: boolean | undefined;
+
     
     /** starting date of the time range
 optional field
@@ -184,6 +192,7 @@ Note: the indicated date cannot be greater than that specified in date_to and/or
 if Status endpoint returns true in the actual_data field, date_from can be set to the last month and prior */
 
     date_from?: string | undefined;
+
     
     /** ending date of the time range
 optional field
@@ -194,6 +203,7 @@ example:
 '2022-11-30' */
 
     date_to?: string | undefined;
+
     
     /** include keywords associated with adult content
 optional field
@@ -202,6 +212,7 @@ default value: false
 note that the API may return no data for such keywords due to Google Ads restrictions */
 
     include_adult_keywords?: boolean | undefined;
+
     
     /** results sorting parameters
 optional field
@@ -209,6 +220,7 @@ use these parameters to sort the results by relevance, search_volume, competitio
 default value: relevance */
 
     sort_by?: string | undefined;
+
     
     /** user-defined task identifier
 optional field

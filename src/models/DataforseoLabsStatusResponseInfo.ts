@@ -12,6 +12,7 @@ export interface IDataforseoLabsStatusResponseInfo  extends IBaseResponseInfo   
     }
 
 export class DataforseoLabsStatusResponseInfo  extends BaseResponseInfo   implements IDataforseoLabsStatusResponseInfo {
+
     
     /** array of tasks */
 

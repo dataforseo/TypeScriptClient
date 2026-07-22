@@ -25,24 +25,29 @@ offset_token values are unique for each subsequent task */
     }
 
 export class DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo  implements IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo {
+
     
     /** total number of relevant items in the database */
 
     total_count?: number | undefined;
+
     
     /** number of items in the results array */
 
     items_count?: number | undefined;
+
     
     /** specified offset value */
 
     offset?: number | undefined;
+
     
     /** token for subsequent requests
 by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task;
 offset_token values are unique for each subsequent task */
 
     offset_token?: string | undefined;
+
     
     /** items array */
 

@@ -11,10 +11,12 @@ export interface IDomainAnalyticsTechnologiesLocationsResultInfo   {
     }
 
 export class DomainAnalyticsTechnologiesLocationsResultInfo  implements IDomainAnalyticsTechnologiesLocationsResultInfo {
+
     
     /** full name of the location */
 
     location_name?: string | undefined;
+
     
     /** ISO country code of the location */
 

@@ -99,6 +99,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class DataforseoLabsAmazonRankedKeywordsLiveRequestInfo  implements IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo {
+
     
     /** product ID
 required field
@@ -106,6 +107,7 @@ unique product identifier (ASIN) on Amazon;
 you can receive the asin parameter by making a separate request to the Amazon Products endpoint */
 
     asin?: string | undefined;
+
     
     /** full name of the location
 required field if don’t specify location_code
@@ -116,6 +118,7 @@ example:
 United States */
 
     location_name?: string | undefined;
+
     
     /** location code
 required field if don’t specify location_name
@@ -126,6 +129,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** full name of the language
 required field if don’t specify language_code
@@ -135,6 +139,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** language code
 required field if don’t specify language_name
@@ -144,6 +149,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** the maximum number of products in the results array
 optional field
@@ -151,6 +157,7 @@ default value: 100;
 maximum value: 1000 */
 
     limit?: number | undefined;
+
     
     /** ignore highly similar keywords
 optional field
@@ -158,6 +165,7 @@ if set to true only core keywords will be returned, all highly similar keywords
 default value: false */
 
     ignore_synonyms?: boolean | undefined;
+
     
     /** array of results filtering parameters
 optional field
@@ -171,6 +179,7 @@ example:
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
 
     filters?: any[] | undefined;
+
     
     /** results sorting rules
 optional field
@@ -189,6 +198,7 @@ example:
 ['keyword_data.keyword_info.search_volume,desc','keyword_data.keyword_info.cpc,desc'] */
 
     order_by?: string[] | undefined;
+
     
     /** offset in the results array of returned keywords
 optional field
@@ -196,6 +206,7 @@ default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords */
 
     offset?: number | undefined;
+
     
     /** user-defined task identifier
 optional field

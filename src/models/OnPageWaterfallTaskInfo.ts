@@ -12,6 +12,7 @@ export interface IOnPageWaterfallTaskInfo  extends IBaseResponseTaskInfo    {
     }
 
 export class OnPageWaterfallTaskInfo  extends BaseResponseTaskInfo   implements IOnPageWaterfallTaskInfo {
+
     
     /** array of results */
 

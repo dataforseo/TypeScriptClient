@@ -34,35 +34,43 @@ fields in the object are identical to that of keyword_data */
     }
 
 export class DataforseoLabsAmazonRelatedKeywordsLiveResultInfo  implements IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo {
+
     
     /** search engine type */
 
     se_type?: string | undefined;
+
     
     /** keyword in a POST array */
 
     seed_keyword?: string | undefined;
+
     
     /** keyword data for the seed keyword
 fields in the object are identical to that of keyword_data */
 
     seed_keyword_data?: AmazonKeywordData | undefined;
+
     
     /** location code in a POST array */
 
     location_code?: number | undefined;
+
     
     /** language code in a POST array */
 
     language_code?: string | undefined;
+
     
     /** total amount of results in our database relevant to your request */
 
     total_count?: number | undefined;
+
     
     /** the number of results returned in the items array */
 
     items_count?: number | undefined;
+
     
     /** contains objects with keywords and related data */
 

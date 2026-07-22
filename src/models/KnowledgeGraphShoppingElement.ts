@@ -6,13 +6,13 @@ export interface IKnowledgeGraphShoppingElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of the result in SERP */
+        /** title of the element */
         title?: string | undefined
         
-        /** relevant URL */
+        /** URL */
         url?: string | undefined
         
-        /** website domain */
+        /** domain where a link points */
         domain?: string | undefined
         
         /** pricing details
@@ -20,7 +20,7 @@ contains the pricing details of the product or service featured in the result;
 if there is none, equals null */
         price?: PriceInfo | undefined
         
-        /** source of additional information about the result */
+        /** reference source name or title */
         source?: string | undefined
         
         /** text alongside the link title */
@@ -41,36 +41,44 @@ ecommerce site that hosts products or websites of individual sellers under the s
     }
 
 export class KnowledgeGraphShoppingElement  implements IKnowledgeGraphShoppingElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
-    /** title of the result in SERP */
+    /** title of the element */
 
     title?: string | undefined;
+
     
-    /** relevant URL */
+    /** URL */
 
     url?: string | undefined;
+
     
-    /** website domain */
+    /** domain where a link points */
 
     domain?: string | undefined;
+
     
     /** pricing details
 contains the pricing details of the product or service featured in the result;
 if there is none, equals null */
 
     price?: PriceInfo | undefined;
+
     
-    /** source of additional information about the result */
+    /** reference source name or title */
 
     source?: string | undefined;
+
     
     /** text alongside the link title */
 
     snippet?: string | undefined;
+
     
     /** merchant account provider
 ecommerce site that hosts products or websites of individual sellers under the same merchant account
@@ -78,6 +86,7 @@ example:
 by Google */
 
     marketplace?: string | undefined;
+
     
     /** URL to the merchant account provider
 ecommerce site that hosts products or websites of individual sellers under the same merchant account */

@@ -188,6 +188,7 @@ learn more on our Help Center */
     }
 
 export class SerpYahooOrganicTaskPostRequestInfo  implements ISerpYahooOrganicTaskPostRequestInfo {
+
     
     /** direct URL of the search query
 optional field
@@ -196,6 +197,7 @@ example:
 https://search.yahoo.com/search?p=rank+checker&n=100&vl=lang_en&vc=us&ei=UTF-8 */
 
     url?: string | undefined;
+
     
     /** keyword
 required field
@@ -206,6 +208,7 @@ if you need to use the “+” character for your keyword, please specify it as 
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keyword?: string | undefined;
+
     
     /** task priority
 optional field
@@ -216,6 +219,7 @@ You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
 
     priority?: number | undefined;
+
     
     /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -225,6 +229,7 @@ example:
 London,England,United Kingdom */
 
     location_name?: string | undefined;
+
     
     /** search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -234,6 +239,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -246,6 +252,7 @@ example:
 53.476225,-2.243572,200 */
 
     location_coordinate?: string | undefined;
+
     
     /** full name of search engine language
 required field if you don’t specify language_code
@@ -255,6 +262,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** search engine language code
 required field if you don’t specify language_name
@@ -264,6 +272,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** device type
 optional field
@@ -272,6 +281,7 @@ can take the values:desktop, mobile
 default value: desktop */
 
     device?: string | undefined;
+
     
     /** device operating system
 optional field
@@ -281,6 +291,7 @@ if you specify mobile in the device field, choose from the following values: and
 default value: android */
 
     os?: string | undefined;
+
     
     /** search engine domain
 optional field
@@ -290,6 +301,7 @@ example:
 au.search.yahoo.com, uk.search.yahoo.com, ca.search.yahoo.com, etc. */
 
     se_domain?: string | undefined;
+
     
     /** parsing depth
 optional field
@@ -301,6 +313,7 @@ Each Yahoo SERP can contain fewer than 10 results, so setting depth above the de
 The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
+
     
     /** page crawl limit
 optional field
@@ -311,12 +324,14 @@ Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center */
 
     max_crawl_pages?: number | undefined;
+
     
     /** additional parameters of the search query
 optional field
 get the list of available parameters and additional details here */
 
     search_param?: string | undefined;
+
     
     /** array of targets to stop crawling
 optional field
@@ -328,6 +343,7 @@ learn more about this parameter on our Help Center - https://dataforseo.com/help
 Your account will be billed per each SERP crawled through the specified targets */
 
     stop_crawl_on_match?: SerpApiStopCrawlOnMatchInfo[] | undefined;
+
     
     /** target domain, subdomain, or wildcard value
 required field if stop_crawl_on_match is specified
@@ -337,6 +353,7 @@ example: 'match_value': 'dataforseo.com',
 'match_value': '/blog/post-*' */
 
     match_value?: string | undefined;
+
     
     /** target match type
 required field if stop_crawl_on_match is specified
@@ -347,6 +364,7 @@ with_subdomains – main domain and subdomains
 wildcard –  wildcard pattern */
 
     match_type?: string | undefined;
+
     
     /** user-defined task identifier
 optional field
@@ -355,6 +373,7 @@ you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
     tag?: string | undefined;
+
     
     /** URL for sending task results
 optional field
@@ -368,6 +387,7 @@ i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
     postback_url?: string | undefined;
+
     
     /** postback_url datatype
 required field if you specify postback_url
@@ -376,6 +396,7 @@ possible values:
 regular, html */
 
     postback_data?: string | undefined;
+
     
     /** notification URL of a completed task
 optional field

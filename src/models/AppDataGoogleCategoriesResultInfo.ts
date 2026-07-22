@@ -8,6 +8,7 @@ export interface IAppDataGoogleCategoriesResultInfo   {
     }
 
 export class AppDataGoogleCategoriesResultInfo  implements IAppDataGoogleCategoriesResultInfo {
+
     
     /** contains full list of supported app categories */
 

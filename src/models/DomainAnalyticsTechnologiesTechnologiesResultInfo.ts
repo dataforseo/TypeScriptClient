@@ -11,6 +11,7 @@ export interface IDomainAnalyticsTechnologiesTechnologiesResultInfo   {
     }
 
 export class DomainAnalyticsTechnologiesTechnologiesResultInfo  implements IDomainAnalyticsTechnologiesTechnologiesResultInfo {
+
     
     /** array of technology groups */
 

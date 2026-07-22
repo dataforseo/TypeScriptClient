@@ -12,6 +12,7 @@ export interface IAppDataIdListTaskInfo  extends IBaseResponseTaskInfo    {
     }
 
 export class AppDataIdListTaskInfo  extends BaseResponseTaskInfo   implements IAppDataIdListTaskInfo {
+
     
     /** array of results */
 

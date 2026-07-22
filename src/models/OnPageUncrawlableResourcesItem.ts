@@ -6,13 +6,19 @@ export interface IOnPageUncrawlableResourcesItem   {
         /** URL of the uncrawlable resource */
         url?: string | undefined
         
-        /** reason the resource is uncrawlablecan take the following values: content_type_inconsistency */
+        /** reason the resource is uncrawlable
+can take the following values: content_type_inconsistency */
         reason?: string | undefined
         
-        /** HTTP response code returned by the uncrawlable resourcepossible values: 200 */
+        /** general status code
+you can find the full list of the response codes here
+Note: we strongly recommend designing a necessary system for handling related exceptional or error conditions */
         status_code?: number | undefined
         
-        /** date and time when the resource was fetchedin the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”example:2026-03-09 18:20:32 +00:00 */
+        /** date and time when the resource was fetched
+in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
+example:
+2026-03-09 18:20:32 +00:00 */
         fetch_time?: string | undefined
         
         /** metadata of the uncrawlable resource */
@@ -23,22 +29,33 @@ export interface IOnPageUncrawlableResourcesItem   {
     }
 
 export class OnPageUncrawlableResourcesItem  implements IOnPageUncrawlableResourcesItem {
+
     
     /** URL of the uncrawlable resource */
 
     url?: string | undefined;
+
     
-    /** reason the resource is uncrawlablecan take the following values: content_type_inconsistency */
+    /** reason the resource is uncrawlable
+can take the following values: content_type_inconsistency */
 
     reason?: string | undefined;
+
     
-    /** HTTP response code returned by the uncrawlable resourcepossible values: 200 */
+    /** general status code
+you can find the full list of the response codes here
+Note: we strongly recommend designing a necessary system for handling related exceptional or error conditions */
 
     status_code?: number | undefined;
+
     
-    /** date and time when the resource was fetchedin the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”example:2026-03-09 18:20:32 +00:00 */
+    /** date and time when the resource was fetched
+in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
+example:
+2026-03-09 18:20:32 +00:00 */
 
     fetch_time?: string | undefined;
+
     
     /** metadata of the uncrawlable resource */
 

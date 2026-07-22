@@ -35,7 +35,7 @@ available values: desktop, mobile */
 optional field
 number of blocks of results in SERP
 default value: 20
-max value: 700
+max value: 200
 Note: your account will be billed per each SERP containing up to 20 results;
 thus, setting a block depth above 20 may result in additional charges if the search engine returns more than 20 results;
 if the specified block depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
@@ -83,6 +83,7 @@ sp=EgIQAg%253D%253D */
     }
 
 export class SerpYoutubeOrganicLiveAdvancedRequestInfo  implements ISerpYoutubeOrganicLiveAdvancedRequestInfo {
+
     
     /** keyword
 required field
@@ -93,6 +94,7 @@ if you need to use the “+” character for your keyword, please specify it as 
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keyword?: string | undefined;
+
     
     /** search engine location code
 required field if you don't specify location_name 
@@ -102,6 +104,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** search engine language code
 required field if you don't specify language_name
@@ -111,6 +114,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** device type
 optional field
@@ -118,17 +122,19 @@ return results for a specific device type
 available values: desktop, mobile */
 
     device?: string | undefined;
+
     
     /** parsing depth
 optional field
 number of blocks of results in SERP
 default value: 20
-max value: 700
+max value: 200
 Note: your account will be billed per each SERP containing up to 20 results;
 thus, setting a block depth above 20 may result in additional charges if the search engine returns more than 20 results;
 if the specified block depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
 
     block_depth?: number | undefined;
+
     
     /** full name of search engine location
 required field if you don't specify location_code
@@ -138,6 +144,7 @@ example:
 United States */
 
     location_name?: string | undefined;
+
     
     /** full name of search engine language
 required field if you don't specify language_code
@@ -147,6 +154,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** device operating system
 optional field
@@ -156,6 +164,7 @@ if you specify mobile in the device field, choose from the following values: and
 default value: android */
 
     os?: string | undefined;
+
     
     /** user-defined task identifier
 optional field
@@ -164,6 +173,7 @@ you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
     tag?: string | undefined;
+
     
     /** additional parameters of the search query
 optional field

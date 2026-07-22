@@ -85,6 +85,7 @@ export interface IAppendixDataInfo   {
 export class AppendixDataInfo  implements IAppendixDataInfo {
 
     serp?: AppendixSerpDataInfo | undefined;
+
     
     /** total amount of money deposited to your account */
 

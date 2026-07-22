@@ -12,6 +12,7 @@ export interface IBacklinksCompetitorsLiveResponseInfo  extends IBaseResponseInf
     }
 
 export class BacklinksCompetitorsLiveResponseInfo  extends BaseResponseInfo   implements IBacklinksCompetitorsLiveResponseInfo {
+
     
     /** array of tasks */
 

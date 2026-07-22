@@ -12,6 +12,7 @@ export interface ISerpYahooOrganicTasksReadyResponseInfo  extends IBaseResponseI
     }
 
 export class SerpYahooOrganicTasksReadyResponseInfo  extends BaseResponseInfo   implements ISerpYahooOrganicTasksReadyResponseInfo {
+
     
     /** array of tasks */
 

@@ -12,6 +12,7 @@ export interface IAiOptimizationAiKeywordDataLocationsAndLanguagesTaskInfo  exte
     }
 
 export class AiOptimizationAiKeywordDataLocationsAndLanguagesTaskInfo  extends BaseResponseTaskInfo   implements IAiOptimizationAiKeywordDataLocationsAndLanguagesTaskInfo {
+
     
     /** array of results */
 

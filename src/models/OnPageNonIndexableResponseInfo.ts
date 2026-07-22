@@ -12,6 +12,7 @@ export interface IOnPageNonIndexableResponseInfo  extends IBaseResponseInfo    {
     }
 
 export class OnPageNonIndexableResponseInfo  extends BaseResponseInfo   implements IOnPageNonIndexableResponseInfo {
+
     
     /** array of tasks */
 

@@ -23,26 +23,32 @@ export interface IAddressInfo   {
     }
 
 export class AddressInfo  implements IAddressInfo {
+
     
     /** administrative unit or district the local establishment belongs to */
 
     borough?: string | undefined;
+
     
     /** street address of the local establishment */
 
     address?: string | undefined;
+
     
     /** name of the city where the local establishment is located */
 
     city?: string | undefined;
+
     
     /** ZIP code of the local establishment */
 
     zip?: string | undefined;
+
     
     /** DMA region the local establishment belongs to */
 
     region?: string | undefined;
+
     
     /** ISO country code of the local establishment */
 

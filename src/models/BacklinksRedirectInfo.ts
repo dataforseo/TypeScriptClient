@@ -3,7 +3,9 @@ export interface IBacklinksRedirectInfo   {
         /** type of element */
         type?: string | undefined
         
-        /** HTTP status code of the URL */
+        /** general status code
+you can find the full list of the response codes here
+Note: we strongly recommend designing a necessary system for handling related exceptional or error conditions */
         status_code?: number | undefined
         
         /** indirect link URL */
@@ -14,14 +16,19 @@ export interface IBacklinksRedirectInfo   {
     }
 
 export class BacklinksRedirectInfo  implements IBacklinksRedirectInfo {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
-    /** HTTP status code of the URL */
+    /** general status code
+you can find the full list of the response codes here
+Note: we strongly recommend designing a necessary system for handling related exceptional or error conditions */
 
     status_code?: number | undefined;
+
     
     /** indirect link URL */
 

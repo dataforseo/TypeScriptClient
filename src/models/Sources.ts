@@ -9,11 +9,12 @@ export interface ISources   {
         /** source thumbnail */
         thumbnail?: string | undefined
         
-        /** content of the element in markdown formatcontent of the result formatted in the markdown markup language */
+        /** content of the element in markdown format
+content of the result formatted in the markdown markup language */
         markdown?: string | undefined
         
-        /** position in the results */
-        position?: number | undefined
+        /** rank in the results */
+        rank?: number | undefined
         
         /** source title */
         title?: string | undefined
@@ -24,7 +25,10 @@ export interface ISources   {
         /** source URL */
         url?: string | undefined
         
-        /** date and time when the result was publishedin the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”example:2019-11-15 12:57:46 +00:00 */
+        /** date and time when the result was published
+in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
+example:
+2019-11-15 12:57:46 +00:00 */
         publication_date?: string | undefined
 
     [key: string]: any;
@@ -32,40 +36,53 @@ export interface ISources   {
     }
 
 export class Sources  implements ISources {
+
     
     /** source description */
 
     snippet?: string | undefined;
+
     
     /** source name */
 
     source_name?: string | undefined;
+
     
     /** source thumbnail */
 
     thumbnail?: string | undefined;
+
     
-    /** content of the element in markdown formatcontent of the result formatted in the markdown markup language */
+    /** content of the element in markdown format
+content of the result formatted in the markdown markup language */
 
     markdown?: string | undefined;
-    
-    /** position in the results */
 
-    position?: number | undefined;
+    
+    /** rank in the results */
+
+    rank?: number | undefined;
+
     
     /** source title */
 
     title?: string | undefined;
+
     
     /** source domain */
 
     domain?: string | undefined;
+
     
     /** source URL */
 
     url?: string | undefined;
+
     
-    /** date and time when the result was publishedin the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”example:2019-11-15 12:57:46 +00:00 */
+    /** date and time when the result was published
+in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
+example:
+2019-11-15 12:57:46 +00:00 */
 
     publication_date?: string | undefined;
 
@@ -93,7 +110,7 @@ export class Sources  implements ISources {
             this.source_name = data["source_name"];
             this.thumbnail = data["thumbnail"];
             this.markdown = data["markdown"];
-            this.position = data["position"];
+            this.rank = data["rank"];
             this.title = data["title"];
             this.domain = data["domain"];
             this.url = data["url"];
@@ -119,7 +136,7 @@ export class Sources  implements ISources {
         data["source_name"] = this.source_name;
         data["thumbnail"] = this.thumbnail;
         data["markdown"] = this.markdown;
-        data["position"] = this.position;
+        data["rank"] = this.rank;
         data["title"] = this.title;
         data["domain"] = this.domain;
         data["url"] = this.url;

@@ -148,6 +148,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class DataforseoLabsGoogleKeywordIdeasLiveRequestInfo  implements IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo {
+
     
     /** keywords
 required field
@@ -157,6 +158,7 @@ The keywords will be converted to lowercase format
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keywords?: string[] | undefined;
+
     
     /** full name of the location
 required field if you don’t specify location_code
@@ -167,6 +169,7 @@ example:
 United Kingdom */
 
     location_name?: string | undefined;
+
     
     /** unique location identifier
 required field if you don’t specify location_name
@@ -177,6 +180,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** full name of the language
 optional field
@@ -189,6 +193,7 @@ Note: if omitted, results default to the language with the most keyword records 
 refer to the available_languages.keywords field of the Locations and Languages endpoint to determine the default language */
 
     language_name?: string | undefined;
+
     
     /** language code
 optional field
@@ -201,6 +206,7 @@ Note: if omitted, results default to the language with the most keyword records 
 refer to the available_languages.keywords field of the Locations and Languages endpoint to determine the default language */
 
     language_code?: string | undefined;
+
     
     /** search mode
 optional field
@@ -209,6 +215,7 @@ if set to false the results will be based on the broad-match search algorithm
 default value: false */
 
     closely_variants?: boolean | undefined;
+
     
     /** ignore highly similar keywords
 optional field
@@ -216,6 +223,7 @@ if set to true only core keywords will be returned, all highly similar keywords
 default value: false */
 
     ignore_synonyms?: boolean | undefined;
+
     
     /** include data from SERP for each keyword
 optional field
@@ -223,6 +231,7 @@ if set to true, we will return a serp_info array containing SERP data (number of
 default value: false */
 
     include_serp_info?: boolean | undefined;
+
     
     /** include or exclude data from clickstream-based metrics in the result
 optional field
@@ -232,6 +241,7 @@ with this parameter enabled, you will be charged double the price for the reques
 learn more about how clickstream-based metrics are calculated in this help center article */
 
     include_clickstream_data?: boolean | undefined;
+
     
     /** the maximum number of keywords in the results array
 optional field
@@ -239,6 +249,7 @@ default value: 700
 maximum value: 1000 */
 
     limit?: number | undefined;
+
     
     /** offset in the results array of returned keywords
 optional field
@@ -248,6 +259,7 @@ Note: we recommend using this parameter only when retrieving up to 10,000 result
 for retrieving over 10,000 results, use the offset_token instead. */
 
     offset?: number | undefined;
+
     
     /** offset token for subsequent requests
 optional field
@@ -259,6 +271,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 learn more about this parameter on our Help Center */
 
     offset_token?: string | undefined;
+
     
     /** array of results filtering parameters
 optional field
@@ -281,6 +294,7 @@ example:
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
 
     filters?: any[] | undefined;
+
     
     /** results sorting rules
 optional field
@@ -298,6 +312,7 @@ example:
 ['relevance,desc','keyword_info.search_volume,desc'] */
 
     order_by?: string[] | undefined;
+
     
     /** user-defined task identifier
 optional field

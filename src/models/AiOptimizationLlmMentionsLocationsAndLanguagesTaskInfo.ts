@@ -12,6 +12,7 @@ export interface IAiOptimizationLlmMentionsLocationsAndLanguagesTaskInfo  extend
     }
 
 export class AiOptimizationLlmMentionsLocationsAndLanguagesTaskInfo  extends BaseResponseTaskInfo   implements IAiOptimizationLlmMentionsLocationsAndLanguagesTaskInfo {
+
     
     /** array of results */
 

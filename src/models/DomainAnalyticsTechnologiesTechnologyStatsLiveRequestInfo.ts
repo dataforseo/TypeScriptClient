@@ -36,6 +36,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo  implements IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo {
+
     
     /** target technology
 required field
@@ -44,6 +45,7 @@ example:
 'Salesforce' */
 
     technology?: string | undefined;
+
     
     /** starting date of the time range
 optional field
@@ -54,6 +56,7 @@ example:
 '2023-06-01' */
 
     date_from?: string | undefined;
+
     
     /** ending date of the time range
 optional field
@@ -63,6 +66,7 @@ example:
 '2023-01-15' */
 
     date_to?: string | undefined;
+
     
     /** user-defined task identifier
 optional field

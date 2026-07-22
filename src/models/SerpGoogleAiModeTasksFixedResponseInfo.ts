@@ -12,6 +12,7 @@ export interface ISerpGoogleAiModeTasksFixedResponseInfo  extends IBaseResponseI
     }
 
 export class SerpGoogleAiModeTasksFixedResponseInfo  extends BaseResponseInfo   implements ISerpGoogleAiModeTasksFixedResponseInfo {
+
     
     /** array of tasks */
 

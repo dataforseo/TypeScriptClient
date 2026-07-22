@@ -13,7 +13,7 @@
 **domain** | **string** | Amazon domain |[optional]|
 **title** | **string** | product title |[optional]|
 **url** | **string** | URL of the product page |[optional]|
-**asin** | **string** | ASIN of the product<br>learn more about ASIN in this help center guide |[optional]|
+**asin** | **string** | ASIN in a POST array |[optional]|
 **image_url** | **string** | URL of the product image featured in the results |[optional]|
 **price_from** | **number** | the regular price of a product<br>example:<br>49.98 |[optional]|
 **price_to** | **number** | the upper limit of the product price range<br>example:<br>384.99 |[optional]|

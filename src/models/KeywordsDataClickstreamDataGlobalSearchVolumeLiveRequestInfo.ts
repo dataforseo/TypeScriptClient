@@ -23,6 +23,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class KeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo  implements IKeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo {
+
     
     /** target keywords
 required field
@@ -35,6 +36,7 @@ to learn more about which symbols and characters can be used, please refer to th
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keywords?: string[] | undefined;
+
     
     /** user-defined task identifier
 optional field

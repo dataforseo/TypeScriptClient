@@ -16,16 +16,19 @@ Apr 26, 2024 */
     }
 
 export class GraphElement  implements IGraphElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** date when the video was published or indexed
 example:
 Apr 26, 2024 */
 
     date?: string | undefined;
+
     
     /** the value of the rating */
 

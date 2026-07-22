@@ -12,6 +12,7 @@ export interface IOnPagePageScreenshotTaskInfo  extends IBaseResponseTaskInfo   
     }
 
 export class OnPagePageScreenshotTaskInfo  extends BaseResponseTaskInfo   implements IOnPagePageScreenshotTaskInfo {
+
     
     /** array of results */
 

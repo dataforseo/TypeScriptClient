@@ -36,6 +36,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class BacklinksBulkPagesSummaryLiveRequestInfo  implements IBacklinksBulkPagesSummaryLiveRequestInfo {
+
     
     /** domains, subdomains or webpages to get summary data for
 required field
@@ -45,6 +46,7 @@ you can specify up to 1000 pages, domains, or subdomains in each request.
 note that the URLs you set in a single request cannot belong to more than 100 different domains. */
 
     targets?: string[] | undefined;
+
     
     /** indicates if the subdomains of the target will be included in the search
 optional field
@@ -52,6 +54,7 @@ if set to false, the subdomains will be ignored
 default value: true */
 
     include_subdomains?: boolean | undefined;
+
     
     /** defines the scale used for calculating and displaying the rank, domain_from_rank, and page_from_rank values
 optional field
@@ -63,6 +66,7 @@ default value: one_thousand
 learn more about how this parameter works and how ranking metrics are calculated in this Help Center article */
 
     rank_scale?: string | undefined;
+
     
     /** user-defined task identifier
 optional field

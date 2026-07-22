@@ -108,6 +108,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class ContentAnalysisRatingDistributionLiveRequestInfo  implements IContentAnalysisRatingDistributionLiveRequestInfo {
+
     
     /** target keyword
 required field
@@ -119,6 +120,7 @@ example:
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keyword?: string | undefined;
+
     
     /** target keyword fields and target keywords
 optional field
@@ -133,6 +135,7 @@ example:
 } */
 
     keyword_fields?: { [key: string]: string; } | undefined;
+
     
     /** target page types
 optional field
@@ -141,6 +144,7 @@ possible values:
 'ecommerce', 'news', 'blogs', 'message-boards', 'organization' */
 
     page_type?: string[] | undefined;
+
     
     /** maximum number of elements within internal arrays
 optional field
@@ -154,6 +158,7 @@ default value: 1
 maximum value: 20 */
 
     internal_list_limit?: number | undefined;
+
     
     /** results grouping type
 optional field
@@ -163,6 +168,7 @@ one_per_domain – returns one citation of the keyword per domain
 default value: as_is */
 
     search_mode?: string | undefined;
+
     
     /** positive connotation threshold
 optional field
@@ -172,6 +178,7 @@ possible values: from 0 to 1
 default value: 0.4 */
 
     positive_connotation_threshold?: number | undefined;
+
     
     /** sentiment connotation threshold
 optional field
@@ -181,6 +188,7 @@ possible values: from 0 to 1
 default value: 0.4 */
 
     sentiments_connotation_threshold?: number | undefined;
+
     
     /** initial dataset filtering parameters
 optional field
@@ -202,6 +210,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 learn more about the initial dataset filters in this help center article. */
 
     initial_dataset_filters?: any[] | undefined;
+
     
     /** defines the scale used for calculating and displaying the rank values
 optional field
@@ -213,6 +222,7 @@ default value: one_thousand
 learn more about how this parameter works in this Help Center article */
 
     rank_scale?: string | undefined;
+
     
     /** user-defined task identifier
 optional field

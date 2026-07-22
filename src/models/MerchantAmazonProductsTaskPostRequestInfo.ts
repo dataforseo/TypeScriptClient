@@ -183,6 +183,7 @@ learn more on our Help Center */
     }
 
 export class MerchantAmazonProductsTaskPostRequestInfo  implements IMerchantAmazonProductsTaskPostRequestInfo {
+
     
     /** keyword
 required field
@@ -192,6 +193,7 @@ if you need to use the “%” character for your keyword, please specify it as 
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keyword?: string | undefined;
+
     
     /** direct URL of the search query
 optional field
@@ -200,6 +202,7 @@ example:
 https://www.amazon.com/s/?field-keywords=shoes&language=en_US */
 
     url?: string | undefined;
+
     
     /** task priority
 optional field
@@ -210,6 +213,7 @@ You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
 
     priority?: number | undefined;
+
     
     /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -219,6 +223,7 @@ example:
 HA1,England,United Kingdom */
 
     location_name?: string | undefined;
+
     
     /** search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -229,6 +234,7 @@ example:
 9045969 */
 
     location_code?: number | undefined;
+
     
     /** GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -240,6 +246,7 @@ example:
 53.476225,-2.243572,200 */
 
     location_coordinate?: string | undefined;
+
     
     /** full name of search engine language
 required field if you don’t specify language_code
@@ -250,6 +257,7 @@ example:
 English (United Kingdom) */
 
     language_name?: string | undefined;
+
     
     /** search engine language code
 required field if you don’t specify language_name
@@ -259,6 +267,7 @@ example:
 en_GB */
 
     language_code?: string | undefined;
+
     
     /** search engine domain
 optional field
@@ -268,6 +277,7 @@ example:
 amazon.com, amazon.co.uk, amazon.fr, etc. */
 
     se_domain?: string | undefined;
+
     
     /** parsing depth
 optional field
@@ -279,6 +289,7 @@ Setting depth above 100 may result in additional charges if the search engine re
 The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
+
     
     /** page crawl limit
 optional field
@@ -288,6 +299,7 @@ Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center */
 
     max_crawl_pages?: number | undefined;
+
     
     /** amazon product department
 optional field
@@ -295,6 +307,7 @@ specify one of the following amazon departments for extracting product listings:
 'Arts & Crafts', 'Automotive', 'Baby', 'Beauty & Personal Care', 'Books', 'Computers', 'Digital Music', 'Electronics', 'Kindle Store', 'Prime Video', 'Women's Fashion', 'Men's Fashion', 'Girls' Fashion', 'Boys' Fashion', 'Deals', 'Health & Household', 'Home & Kitchen', 'Industrial & Scientific', 'Luggage', 'Movies & TV', 'Music, CDs & Vinyl', 'Pet Supplies', 'Software', 'Sports & Outdoors', 'Tools & Home Improvement', 'Toys & Games', 'Video Games' */
 
     department?: string | undefined;
+
     
     /** additional parameters of the search query
 optional field
@@ -311,6 +324,7 @@ example:
 Note that search_param values will be ignored if any of the following parameters is used: price_min, price_max, sort_by */
 
     search_param?: string | undefined;
+
     
     /** minimum product price
 optional field
@@ -320,6 +334,7 @@ example:
 Note: if you specify price_min, the search_param parameter will be ignored */
 
     price_min?: number | undefined;
+
     
     /** maximum product price
 optional field
@@ -329,6 +344,7 @@ example:
 Note: if you specify price_max, the search_param parameter will be ignored */
 
     price_max?: number | undefined;
+
     
     /** results sorting rules
 optional field
@@ -339,6 +355,7 @@ sort_by:'relevance'
 Note: if you specify sort_by, the search_param parameter will be ignored */
 
     sort_by?: string | undefined;
+
     
     /** user-defined task identifier
 optional field
@@ -347,6 +364,7 @@ you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
     tag?: string | undefined;
+
     
     /** URL for sending task results
 optional field
@@ -360,6 +378,7 @@ i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
     postback_url?: string | undefined;
+
     
     /** postback_url datatype
 required field if you specify postback_url
@@ -368,6 +387,7 @@ possible values:
 advanced, html */
 
     postback_data?: string | undefined;
+
     
     /** notification URL of a completed task
 optional field

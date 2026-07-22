@@ -12,6 +12,7 @@ export interface IOnPageLighthouseTasksReadyResponseInfo  extends IBaseResponseI
     }
 
 export class OnPageLighthouseTasksReadyResponseInfo  extends BaseResponseInfo   implements IOnPageLighthouseTasksReadyResponseInfo {
+
     
     /** array of tasks */
 

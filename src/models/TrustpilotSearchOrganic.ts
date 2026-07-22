@@ -34,36 +34,44 @@ absolute position among all reviews on the list */
     }
 
 export class TrustpilotSearchOrganic  implements ITrustpilotSearchOrganic {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank among all the listed reviews
 absolute position among all reviews on the list */
 
     rank_absolute?: number | undefined;
+
     
     /** title of the establishment */
 
     title?: string | undefined;
+
     
     /** domain of the establishment */
 
     domain?: string | undefined;
+
     
     /** URL to the establishment */
 
     url?: string | undefined;
+
     
     /** the total number of reviews */
 
     reviews_count?: number | undefined;
+
     
     /** the rating score of the establishment submitted by reviewers */
 

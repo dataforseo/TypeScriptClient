@@ -28,6 +28,7 @@ if you specified only one keyword, the value will be null */
     }
 
 export class TrendsMapDataInfo  implements ITrendsMapDataInfo {
+
     
     /** Google Trends location identifier
 you can use this field for matching obtained results with location parameters specified in the request
@@ -35,11 +36,13 @@ example:
 US-NY */
 
     geo_id?: string | undefined;
+
     
     /** Google Trends location name
 you can use this field for matching obtained results with location parameters specified in the request */
 
     geo_name?: string | undefined;
+
     
     /** relative keyword popularity rate in a given location
 represents the location-specific keyword popularity rate over the given time range
@@ -49,6 +52,7 @@ a value of 50 means that the term is half as popular
 a value of 0 means there was not enough data for this term */
 
     values?: number[] | undefined;
+
     
     /** max value among comparable terms
 represents the maximum value if you specified more than two keywords in a POST array

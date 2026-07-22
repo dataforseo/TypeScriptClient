@@ -12,6 +12,7 @@ export interface ISerpNaverOrganicTasksFixedTaskInfo  extends IBaseResponseTaskI
     }
 
 export class SerpNaverOrganicTasksFixedTaskInfo  extends BaseResponseTaskInfo   implements ISerpNaverOrganicTasksFixedTaskInfo {
+
     
     /** array of results */
 

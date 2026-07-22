@@ -17,14 +17,17 @@ export interface IOnPageDuplicateTagsItem   {
     }
 
 export class OnPageDuplicateTagsItem  implements IOnPageDuplicateTagsItem {
+
     
     /** contains the value of duplicated tag */
 
     accumulator?: string | undefined;
+
     
     /** total count of duplicate pages */
 
     total_count?: number | undefined;
+
     
     /** pages with duplicate tags */
 

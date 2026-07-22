@@ -73,6 +73,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class DataforseoLabsGoogleKeywordOverviewLiveRequestInfo  implements IDataforseoLabsGoogleKeywordOverviewLiveRequestInfo {
+
     
     /** keywords
 required field
@@ -85,6 +86,7 @@ you will not be charged for the keywords omitted in the results
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keywords?: string[] | undefined;
+
     
     /** full name of the location
 required field if you don’t specify location_code
@@ -95,6 +97,7 @@ example:
 United Kingdom */
 
     location_name?: string | undefined;
+
     
     /** location code
 required field if you don’t specify location_name
@@ -105,6 +108,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** full name of the language
 required field if you don’t specify language_code
@@ -115,6 +119,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** language code
 required field if you don’t specify language_name
@@ -125,6 +130,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** include data from SERP for each keyword
 optional field
@@ -132,6 +138,7 @@ if set to true, we will return a serp_info array containing SERP data (number of
 default value: false */
 
     include_serp_info?: boolean | undefined;
+
     
     /** include or exclude data from clickstream-based metrics in the result
 optional field
@@ -141,6 +148,7 @@ with this parameter enabled, you will be charged double the price for the reques
 learn more about how clickstream-based metrics are calculated in this help center article */
 
     include_clickstream_data?: boolean | undefined;
+
     
     /** user-defined task identifier
 optional field

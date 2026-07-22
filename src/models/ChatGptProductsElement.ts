@@ -48,54 +48,67 @@ export interface IChatGptProductsElement   {
     }
 
 export class ChatGptProductsElement  implements IChatGptProductsElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** product id */
 
     product_id?: string | undefined;
+
     
     /** merchant(s) offering the product */
 
     merchants?: string | undefined;
+
     
     /** product identifier tokenBase64-encoded token containing Google Shopping product IDs associated with the product */
 
     id_to_token_map?: string | undefined;
+
     
     /** title of the element */
 
     title?: string | undefined;
+
     
     /** rating of the corresponding local businesspopularity rate based on reviews as displayed in the results */
 
     rating?: RatingInfo | undefined;
+
     
     /** product price */
 
     price?: number | undefined;
+
     
     /** currency of the listed priceISO code of the currency applied to the price */
 
     currency?: string | undefined;
+
     
     /** tag text */
 
     tag?: string | undefined;
+
     
     /** URL */
 
     url?: string | undefined;
+
     
     /** domain */
 
     domain?: string | undefined;
+
     
     /** image URLs of the elementcontains URLs leading to the images on the original resource or DataForSEO storage (in case the original source is not available) */
 
     images?: string[] | undefined;
+
     
     /** Google Shopping product identifiersarray of Google Shopping product IDs associated with the product */
 

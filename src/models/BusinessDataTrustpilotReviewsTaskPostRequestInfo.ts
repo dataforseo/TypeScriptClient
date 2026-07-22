@@ -74,6 +74,7 @@ learn more on our Help Center */
     }
 
 export class BusinessDataTrustpilotReviewsTaskPostRequestInfo  implements IBusinessDataTrustpilotReviewsTaskPostRequestInfo {
+
     
     /** domain of the local establishment
 required field
@@ -84,6 +85,7 @@ www.thepearlsource.com
 https://www.trustpilot.com/review/www.thepearlsource.com */
 
     domain?: string | undefined;
+
     
     /** results sorting parameter
 optional field
@@ -94,6 +96,7 @@ relevance — most relevant reviews first;
 default value: relevance */
 
     sort_by?: string | undefined;
+
     
     /** task priority
 optional field
@@ -104,6 +107,7 @@ You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
 
     priority?: number | undefined;
+
     
     /** parsing depth
 optional field
@@ -116,6 +120,7 @@ Setting depth above 20 may result in additional charges if the search engine ret
 The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
+
     
     /** user-defined task identifier
 optional field
@@ -124,6 +129,7 @@ you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
     tag?: string | undefined;
+
     
     /** URL for sending task results
 optional field
@@ -137,6 +143,7 @@ i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
     postback_url?: string | undefined;
+
     
     /** notification URL of a completed task
 optional field

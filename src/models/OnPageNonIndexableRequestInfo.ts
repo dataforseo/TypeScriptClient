@@ -42,6 +42,7 @@ The full list of possible filters is available by this link. */
     }
 
 export class OnPageNonIndexableRequestInfo  implements IOnPageNonIndexableRequestInfo {
+
     
     /** ID of the task
 required field
@@ -50,6 +51,7 @@ example:
 “07131248-1535-0216-1000-17384017ad04” */
 
     id?: string | undefined;
+
     
     /** the maximum number of returned pages
 optional field
@@ -57,6 +59,7 @@ default value: 100
 maximum value: 1000 */
 
     limit?: number | undefined;
+
     
     /** offset in the results array of returned pages
 optional field
@@ -65,6 +68,7 @@ maximum value: 2000000
 if you specify the 10 value, the first ten pages in the results array will be omitted and the data will be provided for the successive pages */
 
     offset?: number | undefined;
+
     
     /** array of results filtering parameters
 optional field

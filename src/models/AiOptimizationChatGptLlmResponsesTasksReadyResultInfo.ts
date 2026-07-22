@@ -1,6 +1,7 @@
 export interface IAiOptimizationChatGptLlmResponsesTasksReadyResultInfo   {
         
-        /** task identifier of the completed taskunique task identifier in our system in the UUID format */
+        /** task identifier of the completed task
+unique task identifier in our system in the UUID format */
         id?: string | undefined
         
         /** LLM model specified when setting the task */
@@ -22,24 +23,30 @@ export interface IAiOptimizationChatGptLlmResponsesTasksReadyResultInfo   {
     }
 
 export class AiOptimizationChatGptLlmResponsesTasksReadyResultInfo  implements IAiOptimizationChatGptLlmResponsesTasksReadyResultInfo {
+
     
-    /** task identifier of the completed taskunique task identifier in our system in the UUID format */
+    /** task identifier of the completed task
+unique task identifier in our system in the UUID format */
 
     id?: string | undefined;
+
     
     /** LLM model specified when setting the task */
 
     se?: string | undefined;
 
     se_type?: string | undefined;
+
     
     /** date when the task was posted (in the UTC format) */
 
     date_posted?: string | undefined;
+
     
     /** user-defined task identifier */
 
     tag?: string | undefined;
+
     
     /** URL for collecting the results of the task */
 

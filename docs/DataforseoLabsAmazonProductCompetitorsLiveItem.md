@@ -5,7 +5,7 @@
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
 **se_type** | **string** | search engine type |[optional]|
-**asin** | **string** | ASIN of the product<br>unique product identifier on Amazon;<br>for more information, refer to this help center guide |[optional]|
+**asin** | **string** | ASIN in a POST array |[optional]|
 **avg_position** | **number** | average position of the product in Amazon SERP<br>Note: average position is calculated for intersected keywords only;<br>the value for a given product may differ when combined with different target products |[optional]|
 **sum_position** | **number** | sum of all product positions in Amazon SERP<br>Note: average position is calculated for intersected keywords only;<br>the value for a given product may differ when combined with different target products |[optional]|
 **intersections** | **number** | number of intersecting keywords |[optional]|

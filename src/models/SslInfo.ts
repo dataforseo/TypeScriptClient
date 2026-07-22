@@ -32,31 +32,37 @@ example:
     }
 
 export class SslInfo  implements ISslInfo {
+
     
     /** ssl certificate validity
 indicates whether the ssl certificate detected on a website is not expired, suspended, revoked or invalid */
 
     valid_certificate?: boolean | undefined;
+
     
     /** ssl certificate authority
 the entity that issued the detected ssl certificate */
 
     certificate_issuer?: string | undefined;
+
     
     /** ssl certificate subject
 the entity associated with the public key */
 
     certificate_subject?: string | undefined;
+
     
     /** ssl certificate version
 indicates the version of X.509 used by an ssl certificate */
 
     certificate_version?: number | undefined;
+
     
     /** ssl certificate hash
 the version of the ssl certificate’s hash function */
 
     certificate_hash?: string | undefined;
+
     
     /** ssl certificate expiration date
 the date and time when the ssl certificate expires

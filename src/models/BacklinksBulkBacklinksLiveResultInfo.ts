@@ -14,10 +14,12 @@ export interface IBacklinksBulkBacklinksLiveResultInfo   {
     }
 
 export class BacklinksBulkBacklinksLiveResultInfo  implements IBacklinksBulkBacklinksLiveResultInfo {
+
     
     /** the number of results returned in the items array */
 
     items_count?: number | undefined;
+
     
     /** contains relevant backlink data */
 

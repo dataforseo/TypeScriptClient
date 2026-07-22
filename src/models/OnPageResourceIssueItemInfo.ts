@@ -10,16 +10,9 @@ export interface IOnPageResourceIssueItemInfo   {
 the full list of possible HTML errors can be found here */
         message?: string | undefined
         
-        /** status code of the error
-possible values:
-0 — Unidentified Error;
-501 — Html Parse Error;
-1501 — JS Parse Error;
-2501 — CSS Parse Error;
-3501 — Image Parse Error;
-3502 — Image Scale Is Zero;
-3503 — Image Size Is Zero;
-3504 — Image Format Invalid */
+        /** general status code
+you can find the full list of the response codes here
+Note: we strongly recommend designing a necessary system for handling related exceptional or error conditions */
         status_code?: number | undefined
 
     [key: string]: any;
@@ -27,30 +20,27 @@ possible values:
     }
 
 export class OnPageResourceIssueItemInfo  implements IOnPageResourceIssueItemInfo {
+
     
     /** line where the error was found */
 
     line?: number | undefined;
+
     
     /** column where the error was found */
 
     column?: number | undefined;
+
     
     /** text message of the error
 the full list of possible HTML errors can be found here */
 
     message?: string | undefined;
+
     
-    /** status code of the error
-possible values:
-0 — Unidentified Error;
-501 — Html Parse Error;
-1501 — JS Parse Error;
-2501 — CSS Parse Error;
-3501 — Image Parse Error;
-3502 — Image Scale Is Zero;
-3503 — Image Size Is Zero;
-3504 — Image Format Invalid */
+    /** general status code
+you can find the full list of the response codes here
+Note: we strongly recommend designing a necessary system for handling related exceptional or error conditions */
 
     status_code?: number | undefined;
 

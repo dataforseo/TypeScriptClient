@@ -12,6 +12,7 @@ export interface IBacklinksTimeseriesNewLostSummaryLiveResponseInfo  extends IBa
     }
 
 export class BacklinksTimeseriesNewLostSummaryLiveResponseInfo  extends BaseResponseInfo   implements IBacklinksTimeseriesNewLostSummaryLiveResponseInfo {
+
     
     /** array of tasks */
 

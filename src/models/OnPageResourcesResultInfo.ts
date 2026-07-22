@@ -29,11 +29,13 @@ possible values: in_progress, finished */
     }
 
 export class OnPageResourcesResultInfo  implements IOnPageResourcesResultInfo {
+
     
     /** status of the crawling session
 possible values: in_progress, finished */
 
     crawl_progress?: string | undefined;
+
     
     /** details of the crawling session */
 
@@ -42,14 +44,17 @@ possible values: in_progress, finished */
     search_after_token?: string | undefined;
 
     current_offset?: number | undefined;
+
     
     /** total number of relevant items crawled */
 
     total_items_count?: number | undefined;
+
     
     /** number of items in the results array */
 
     items_count?: number | undefined;
+
     
     /** items array */
 

@@ -17,14 +17,17 @@ export interface IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResult
     }
 
 export class KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo  implements IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo {
+
     
     /** language name */
 
     language_name?: string | undefined;
+
     
     /** language code according to ISO 639-1 */
 
     language_code?: string | undefined;
+
     
     /** array of available locations for a certain language */
 

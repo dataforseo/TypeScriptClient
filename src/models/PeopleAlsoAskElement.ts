@@ -23,22 +23,27 @@ export interface IPeopleAlsoAskElement   {
     }
 
 export class PeopleAlsoAskElement  implements IPeopleAlsoAskElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** title of a given link element */
 
     title?: string | undefined;
+
     
     /** question that triggered additional expanded elements */
 
     seed_question?: string | undefined;
+
     
     /** the XPath of the element */
 
     xpath?: string | undefined;
+
     
     /** expanded element */
 

@@ -9,10 +9,10 @@ export interface IAppElement   {
         /** title of a given link element */
         title?: string | undefined
         
-        /** description of the results element in SERP */
+        /** link description */
         description?: string | undefined
         
-        /** URL */
+        /** source URL */
         url?: string | undefined
         
         /** price indicated in the element */
@@ -23,22 +23,27 @@ export interface IAppElement   {
     }
 
 export class AppElement  implements IAppElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** title of a given link element */
 
     title?: string | undefined;
+
     
-    /** description of the results element in SERP */
+    /** link description */
 
     description?: string | undefined;
+
     
-    /** URL */
+    /** source URL */
 
     url?: string | undefined;
+
     
     /** price indicated in the element */
 

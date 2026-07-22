@@ -17,18 +17,22 @@ export interface IAuthorsElement   {
     }
 
 export class AuthorsElement  implements IAuthorsElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** name of the dataset author */
 
     name?: string | undefined;
+
     
     /** author’s link URL */
 
     url?: string | undefined;
+
     
     /** author’s link domain */
 

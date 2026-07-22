@@ -26,24 +26,29 @@ total number of keywords on the specified website or web page matching the set k
     }
 
 export class OnPageKeywordDensityResultInfo  implements IOnPageKeywordDensityResultInfo {
+
     
     /** status of the crawling session
 possible values: in_progress, finished */
 
     crawl_progress?: string | undefined;
+
     
     /** details of the crawling session */
 
     crawl_status?: CrawlStatusInfo | undefined;
+
     
     /** total number of relevant items
 total number of keywords on the specified website or web page matching the set keyword_length and filters */
 
     total_items_count?: number | undefined;
+
     
     /** number of items in the results array */
 
     items_count?: number | undefined;
+
     
     /** items array */
 

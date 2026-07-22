@@ -92,6 +92,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo  implements IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo {
+
     
     /** keyword
 required field
@@ -100,6 +101,7 @@ the keywords should be specified in the lowercase format
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keyword?: string | undefined;
+
     
     /** full name of the location
 required field if you don’t specify location_code
@@ -111,6 +113,7 @@ example:
 United States */
 
     location_name?: string | undefined;
+
     
     /** location code
 required field if you don’t specify location_name
@@ -122,6 +125,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** full name of the language
 required field if you don’t specify language_code
@@ -131,6 +135,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** language code
 required field if you don’t specify language_name
@@ -140,6 +145,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** keyword search depth
 optional field
@@ -154,6 +160,7 @@ estimated number of keywords for each level (maximum):
 4 – 1554 keywords */
 
     depth?: number | undefined;
+
     
     /** include data for the seed keyword
 optional field
@@ -161,6 +168,7 @@ if set to true, data for the seed keyword specified in the keyword field will be
 default value: false */
 
     include_seed_keyword?: boolean | undefined;
+
     
     /** ignore highly similar keywords
 optional field
@@ -168,6 +176,7 @@ if set to true only core keywords will be returned, all highly similar keywords
 default value: false */
 
     ignore_synonyms?: boolean | undefined;
+
     
     /** the maximum number of returned keywords
 optional field
@@ -175,6 +184,7 @@ default value: 100
 maximum value: 1000 */
 
     limit?: number | undefined;
+
     
     /** offset in the results array of returned keywords
 optional field
@@ -182,6 +192,7 @@ default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords */
 
     offset?: number | undefined;
+
     
     /** user-defined task identifier
 optional field

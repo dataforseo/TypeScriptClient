@@ -12,6 +12,7 @@ export interface IAppendixErrorsResponseInfo  extends IBaseResponseInfo    {
     }
 
 export class AppendixErrorsResponseInfo  extends BaseResponseInfo   implements IAppendixErrorsResponseInfo {
+
     
     /** array of tasks */
 

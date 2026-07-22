@@ -33,37 +33,45 @@ example: 'Storage Capacity' */
     }
 
 export class ProductVariation  implements IProductVariation {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** product ID in a POST array
 learn more about the parameter in this help center guide */
 
     product_id?: string | undefined;
+
     
     /** GID ID in a POST array
 learn more about the parameter in this help center guide */
 
     gid?: string | undefined;
+
     
     /** unique identifier of the SERP data element in the POST array */
 
     data_docid?: string | undefined;
+
     
     /** product variation filter
 used in the product variation URL as the identifier of the specific product variation */
 
     pvf?: string | undefined;
+
     
     /** name of the product seller */
 
     title?: string | undefined;
+
     
     /** product variation URL on Google Shopping */
 
     url?: string | undefined;
+
     
     /** category of the product variation
 example: 'Storage Capacity' */

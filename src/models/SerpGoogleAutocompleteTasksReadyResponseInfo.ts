@@ -12,6 +12,7 @@ export interface ISerpGoogleAutocompleteTasksReadyResponseInfo  extends IBaseRes
     }
 
 export class SerpGoogleAutocompleteTasksReadyResponseInfo  extends BaseResponseInfo   implements ISerpGoogleAutocompleteTasksReadyResponseInfo {
+
     
     /** array of tasks */
 

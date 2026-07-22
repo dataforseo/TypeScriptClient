@@ -6,19 +6,22 @@ export interface ISearchResults   {
         /** breadcrumb */
         breadcrumb?: string | undefined
         
-        /** position in the results */
-        position?: number | undefined
+        /** rank in the results */
+        rank?: number | undefined
         
-        /** result title */
+        /** source title */
         title?: string | undefined
         
-        /** result domain */
+        /** source domain */
         domain?: string | undefined
         
-        /** result URL */
+        /** source URL */
         url?: string | undefined
         
-        /** date and time when the result was publishedin the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”example:2019-11-15 12:57:46 +00:00 */
+        /** date and time when the result was published
+in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
+example:
+2019-11-15 12:57:46 +00:00 */
         publication_date?: string | undefined
 
     [key: string]: any;
@@ -26,32 +29,42 @@ export interface ISearchResults   {
     }
 
 export class SearchResults  implements ISearchResults {
+
     
     /** result description */
 
     description?: string | undefined;
+
     
     /** breadcrumb */
 
     breadcrumb?: string | undefined;
-    
-    /** position in the results */
 
-    position?: number | undefined;
     
-    /** result title */
+    /** rank in the results */
+
+    rank?: number | undefined;
+
+    
+    /** source title */
 
     title?: string | undefined;
+
     
-    /** result domain */
+    /** source domain */
 
     domain?: string | undefined;
+
     
-    /** result URL */
+    /** source URL */
 
     url?: string | undefined;
+
     
-    /** date and time when the result was publishedin the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”example:2019-11-15 12:57:46 +00:00 */
+    /** date and time when the result was published
+in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
+example:
+2019-11-15 12:57:46 +00:00 */
 
     publication_date?: string | undefined;
 
@@ -77,7 +90,7 @@ export class SearchResults  implements ISearchResults {
             }
             this.description = data["description"];
             this.breadcrumb = data["breadcrumb"];
-            this.position = data["position"];
+            this.rank = data["rank"];
             this.title = data["title"];
             this.domain = data["domain"];
             this.url = data["url"];
@@ -101,7 +114,7 @@ export class SearchResults  implements ISearchResults {
         
         data["description"] = this.description;
         data["breadcrumb"] = this.breadcrumb;
-        data["position"] = this.position;
+        data["rank"] = this.rank;
         data["title"] = this.title;
         data["domain"] = this.domain;
         data["url"] = this.url;

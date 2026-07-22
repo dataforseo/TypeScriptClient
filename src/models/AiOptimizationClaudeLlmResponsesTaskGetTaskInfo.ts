@@ -12,6 +12,7 @@ export interface IAiOptimizationClaudeLlmResponsesTaskGetTaskInfo  extends IBase
     }
 
 export class AiOptimizationClaudeLlmResponsesTaskGetTaskInfo  extends BaseResponseTaskInfo   implements IAiOptimizationClaudeLlmResponsesTaskGetTaskInfo {
+
     
     /** array of results */
 

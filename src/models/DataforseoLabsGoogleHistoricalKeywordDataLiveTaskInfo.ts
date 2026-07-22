@@ -12,6 +12,7 @@ export interface IDataforseoLabsGoogleHistoricalKeywordDataLiveTaskInfo  extends
     }
 
 export class DataforseoLabsGoogleHistoricalKeywordDataLiveTaskInfo  extends BaseResponseTaskInfo   implements IDataforseoLabsGoogleHistoricalKeywordDataLiveTaskInfo {
+
     
     /** array of results */
 

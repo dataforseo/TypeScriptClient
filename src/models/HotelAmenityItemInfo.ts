@@ -20,22 +20,27 @@ export interface IHotelAmenityItemInfo   {
     }
 
 export class HotelAmenityItemInfo  implements IHotelAmenityItemInfo {
+
     
     /** standardised amenity name */
 
     amenity?: string | undefined;
+
     
     /** displayed amenity name */
 
     amenity_label?: string | undefined;
+
     
     /** standardised details about the amenity */
 
     hint?: string | undefined;
+
     
     /** displayed details about the amenity */
 
     hint_label?: string | undefined;
+
     
     /** indicates whether the amenity is available in the hotel */
 

@@ -12,6 +12,7 @@ in this case, the value will be null */
     }
 
 export class BusinessDataTrustpilotSearchTaskPostTaskInfo  extends BaseResponseTaskInfo   implements IBusinessDataTrustpilotSearchTaskPostTaskInfo {
+
     
     /** array of results
 in this case, the value will be null */

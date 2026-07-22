@@ -12,6 +12,7 @@ export interface IDataforseoLabsGoogleRankedKeywordsLiveTaskInfo  extends IBaseR
     }
 
 export class DataforseoLabsGoogleRankedKeywordsLiveTaskInfo  extends BaseResponseTaskInfo   implements IDataforseoLabsGoogleRankedKeywordsLiveTaskInfo {
+
     
     /** array of results */
 

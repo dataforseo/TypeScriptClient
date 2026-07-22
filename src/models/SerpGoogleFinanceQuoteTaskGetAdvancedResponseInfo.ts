@@ -12,6 +12,7 @@ export interface ISerpGoogleFinanceQuoteTaskGetAdvancedResponseInfo  extends IBa
     }
 
 export class SerpGoogleFinanceQuoteTaskGetAdvancedResponseInfo  extends BaseResponseInfo   implements ISerpGoogleFinanceQuoteTaskGetAdvancedResponseInfo {
+
     
     /** array of tasks */
 

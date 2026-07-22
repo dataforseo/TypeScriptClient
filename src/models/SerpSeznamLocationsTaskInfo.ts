@@ -12,6 +12,7 @@ export interface ISerpSeznamLocationsTaskInfo  extends IBaseResponseTaskInfo    
     }
 
 export class SerpSeznamLocationsTaskInfo  extends BaseResponseTaskInfo   implements ISerpSeznamLocationsTaskInfo {
+
     
     /** array of results */
 

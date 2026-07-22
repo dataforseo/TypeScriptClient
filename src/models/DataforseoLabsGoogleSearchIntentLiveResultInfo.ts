@@ -18,15 +18,18 @@ if there is no data, then the value is null */
     }
 
 export class DataforseoLabsGoogleSearchIntentLiveResultInfo  implements IDataforseoLabsGoogleSearchIntentLiveResultInfo {
+
     
     /** language code in a POST array
 if there is no data, then the value is null */
 
     language_code?: string | undefined;
+
     
     /** the number of results returned in the items array */
 
     items_count?: number | undefined;
+
     
     /** array of items with relevant traffic estimation data */
 

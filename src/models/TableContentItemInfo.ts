@@ -11,6 +11,7 @@ export interface ITableContentItemInfo   {
     }
 
 export class TableContentItemInfo  implements ITableContentItemInfo {
+
     
     /** content of the row cells of the header */
 

@@ -12,6 +12,7 @@ export interface IDomainAnalyticsIdListResponseInfo  extends IBaseResponseInfo  
     }
 
 export class DomainAnalyticsIdListResponseInfo  extends BaseResponseInfo   implements IDomainAnalyticsIdListResponseInfo {
+
     
     /** array of tasks */
 

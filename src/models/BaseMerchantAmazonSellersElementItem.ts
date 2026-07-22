@@ -65,70 +65,85 @@ delivery information including free and fast delivery date ranges */
     }
 
 export class BaseMerchantAmazonSellersElementItem  implements IBaseMerchantAmazonSellersElementItem {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements found in Amazon Sellers SERP */
 
     rank_absolute?: number | undefined;
+
     
     /** alignment of the element in SERP
 possible values:
 left, right */
 
     position?: string | undefined;
+
     
     /** XPath of the element */
 
     xpath?: string | undefined;
+
     
     /** business name of the seller */
 
     seller_name?: string | undefined;
+
     
     /** url forwarding to the seller’s page on Amazon */
 
     seller_url?: string | undefined;
+
     
     /** sender company name */
 
     ships_from?: string | undefined;
+
     
     /** product pricing details
 if there are no details, the value will be null */
 
     price?: PriceInfo | undefined;
+
     
     /** value of the percentage discount */
 
     percentage_discount?: number | undefined;
+
     
     /** array of objects containing information about applicable vouchers */
 
     applicable_vouchers?: AmazonApplicableVouchersItem[] | undefined;
+
     
     /** seller rating details
 seller popularity rate based on customer reviews */
 
     rating?: RatingElement | undefined;
+
     
     /** product condition
 condition of the product offered by the seller */
 
     condition?: string | undefined;
+
     
     /** product condition details
 expanded details on the condition of the product offered by the seller */
 
     condition_description?: string | undefined;
+
     
     /** delivery information
 delivery information including free and fast delivery date ranges */

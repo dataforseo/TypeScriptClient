@@ -12,6 +12,7 @@ export interface IDataforseoLabsGoogleAvailableHistoryResponseInfo  extends IBas
     }
 
 export class DataforseoLabsGoogleAvailableHistoryResponseInfo  extends BaseResponseInfo   implements IDataforseoLabsGoogleAvailableHistoryResponseInfo {
+
     
     /** array of tasks */
 

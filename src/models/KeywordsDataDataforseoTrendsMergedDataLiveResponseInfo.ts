@@ -12,6 +12,7 @@ export interface IKeywordsDataDataforseoTrendsMergedDataLiveResponseInfo  extend
     }
 
 export class KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo  extends BaseResponseInfo   implements IKeywordsDataDataforseoTrendsMergedDataLiveResponseInfo {
+
     
     /** array of tasks */
 

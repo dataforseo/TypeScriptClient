@@ -3,7 +3,7 @@ export interface IQuestionsAndAnswersElement   {
         /** type of element */
         type?: string | undefined
         
-        /** URL */
+        /** source URL */
         url?: string | undefined
         
         /** question included in the item */
@@ -12,11 +12,10 @@ export interface IQuestionsAndAnswersElement   {
         /** answer included in the item */
         answer_text?: string | undefined
         
-        /** source of the element
-indicates the source of information included in the top_stories_element */
+        /** reference source name or title */
         source?: string | undefined
         
-        /** website domain */
+        /** domain where a link points */
         domain?: string | undefined
         
         /** answer upvotes from the source */
@@ -27,31 +26,37 @@ indicates the source of information included in the top_stories_element */
     }
 
 export class QuestionsAndAnswersElement  implements IQuestionsAndAnswersElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
-    /** URL */
+    /** source URL */
 
     url?: string | undefined;
+
     
     /** question included in the item */
 
     question_text?: string | undefined;
+
     
     /** answer included in the item */
 
     answer_text?: string | undefined;
+
     
-    /** source of the element
-indicates the source of information included in the top_stories_element */
+    /** reference source name or title */
 
     source?: string | undefined;
+
     
-    /** website domain */
+    /** domain where a link points */
 
     domain?: string | undefined;
+
     
     /** answer upvotes from the source */
 

@@ -12,6 +12,7 @@ export interface IDataforseoLabsGoogleDomainIntersectionLiveTaskInfo  extends IB
     }
 
 export class DataforseoLabsGoogleDomainIntersectionLiveTaskInfo  extends BaseResponseTaskInfo   implements IDataforseoLabsGoogleDomainIntersectionLiveTaskInfo {
+
     
     /** array of results */
 

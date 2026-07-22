@@ -12,6 +12,7 @@ export interface ISerpBingLocationsCountryTaskInfo  extends IBaseResponseTaskInf
     }
 
 export class SerpBingLocationsCountryTaskInfo  extends BaseResponseTaskInfo   implements ISerpBingLocationsCountryTaskInfo {
+
     
     /** array of results */
 

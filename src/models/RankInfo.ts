@@ -5,9 +5,8 @@ page_rank is calculated based on the method for node ranking in a linked databas
 learn more about the metric and how it is calculated in this help center article */
         page_rank?: number | undefined
         
-        /** main domain rank
-main_domain_rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm
-learn more about the metric and how it is calculated in this help center article */
+        /** average main domain rank
+learn more about the metric and its calculation formula in this help center article */
         main_domain_rank?: number | undefined
 
     [key: string]: any;
@@ -15,16 +14,17 @@ learn more about the metric and how it is calculated in this help center article
     }
 
 export class RankInfo  implements IRankInfo {
+
     
     /** page rank
 page_rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm;
 learn more about the metric and how it is calculated in this help center article */
 
     page_rank?: number | undefined;
+
     
-    /** main domain rank
-main_domain_rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm
-learn more about the metric and how it is calculated in this help center article */
+    /** average main domain rank
+learn more about the metric and its calculation formula in this help center article */
 
     main_domain_rank?: number | undefined;
 

@@ -186,6 +186,7 @@ learn more on our Help Center */
     }
 
 export class BusinessDataGoogleHotelInfoTaskPostRequestInfo  implements IBusinessDataGoogleHotelInfoTaskPostRequestInfo {
+
     
     /** unique hotel identifier
 required field if you don’t specify keyword
@@ -196,6 +197,7 @@ example:
 ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE */
 
     hotel_identifier?: string | undefined;
+
     
     /** keyword
 required field if you don’t specify hotel_identifier
@@ -206,6 +208,7 @@ all %## will be decoded (plus character ‘+’ will be decoded to a space chara
 if you need to use the “%” character for your keyword, please specify it as “%25” */
 
     keyword?: string | undefined;
+
     
     /** task priority
 optional field
@@ -216,6 +219,7 @@ You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
 
     priority?: number | undefined;
+
     
     /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -225,6 +229,7 @@ example:
 London,England,United Kingdom */
 
     location_name?: string | undefined;
+
     
     /** search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -234,6 +239,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -245,6 +251,7 @@ example:
 53.476225,-2.243572 */
 
     location_coordinate?: string | undefined;
+
     
     /** full name of search engine language
 required field if you don’t specify language_code
@@ -254,6 +261,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** search engine language code
 required field if you don’t specify language_name
@@ -263,6 +271,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** check-in date
 optional field
@@ -273,6 +282,7 @@ example:
 '2019-01-15' */
 
     check_in?: string | undefined;
+
     
     /** check-out date
 optional field
@@ -284,6 +294,7 @@ example:
 '2019-01-15' */
 
     check_out?: string | undefined;
+
     
     /** currency
 optional field
@@ -291,6 +302,7 @@ example:
 'USD' */
 
     currency?: string | undefined;
+
     
     /** number of adults
 optional field
@@ -299,6 +311,7 @@ example:
 1 */
 
     adults?: number | undefined;
+
     
     /** number and age of children
 optional field
@@ -309,6 +322,7 @@ set the following value if you want to include one 13-years-old child and one 8-
 [13,8] */
 
     children?: string[] | undefined;
+
     
     /** load hotel stay prices by dates
 optional field
@@ -316,6 +330,7 @@ if you specify this parameter with true, the response will include the prices_by
 if you use this parameter, you will be charged double the base price for a request */
 
     load_prices_by_dates?: boolean | undefined;
+
     
     /** start date to load prices by dates
 optional field
@@ -326,6 +341,7 @@ example:
 2025-05-20 */
 
     prices_start_date?: string | undefined;
+
     
     /** end date to load prices by dates
 optional field
@@ -336,6 +352,7 @@ example:
 2025-05-21 */
 
     prices_end_date?: string | undefined;
+
     
     /** predefined period for retrieving daily price data
 optional field
@@ -345,6 +362,7 @@ possible values: month, three_months, six_months, year
 default value: month */
 
     prices_date_range?: string | undefined;
+
     
     /** user-defined task identifier
 optional field
@@ -353,6 +371,7 @@ you can use this parameter to identify the task and match it with the result;
 you will find the specified tag value in the data object of the response */
 
     tag?: string | undefined;
+
     
     /** URL for sending task results
 optional field
@@ -366,6 +385,7 @@ i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
     postback_url?: string | undefined;
+
     
     /** postback_url datatype
 required field if you specify postback_url
@@ -374,6 +394,7 @@ possible values:
 advanced, html */
 
     postback_data?: string | undefined;
+
     
     /** notification URL of a completed task
 optional field

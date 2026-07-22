@@ -12,6 +12,7 @@ export interface IMerchantGoogleProductsTaskGetAdvancedResponseInfo  extends IBa
     }
 
 export class MerchantGoogleProductsTaskGetAdvancedResponseInfo  extends BaseResponseInfo   implements IMerchantGoogleProductsTaskGetAdvancedResponseInfo {
+
     
     /** array of tasks */
 

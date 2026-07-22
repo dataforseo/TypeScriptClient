@@ -12,6 +12,7 @@ export interface IDataforseoLabsGoogleRelevantPagesLiveTaskInfo  extends IBaseRe
     }
 
 export class DataforseoLabsGoogleRelevantPagesLiveTaskInfo  extends BaseResponseTaskInfo   implements IDataforseoLabsGoogleRelevantPagesLiveTaskInfo {
+
     
     /** array of results */
 

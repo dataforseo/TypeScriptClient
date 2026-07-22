@@ -11,10 +11,12 @@ export interface ISerpYahooLanguagesResultInfo   {
     }
 
 export class SerpYahooLanguagesResultInfo  implements ISerpYahooLanguagesResultInfo {
+
     
     /** language name */
 
     language_name?: string | undefined;
+
     
     /** language code according to ISO 639-1 */
 

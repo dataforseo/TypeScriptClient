@@ -12,6 +12,7 @@ export interface IBacklinksReferringDomainsLiveTaskInfo  extends IBaseResponseTa
     }
 
 export class BacklinksReferringDomainsLiveTaskInfo  extends BaseResponseTaskInfo   implements IBacklinksReferringDomainsLiveTaskInfo {
+
     
     /** array of results */
 

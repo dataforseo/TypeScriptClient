@@ -69,6 +69,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class BacklinksTimeseriesSummaryLiveRequestInfo  implements IBacklinksTimeseriesSummaryLiveRequestInfo {
+
     
     /** domain to get data for
 required field
@@ -77,6 +78,7 @@ example:
 'forbes.com' */
 
     target?: string | undefined;
+
     
     /** starting date of the time range
 optional field
@@ -88,6 +90,7 @@ example:
 '2021-01-01' */
 
     date_from?: string | undefined;
+
     
     /** ending date of the time range
 optional field
@@ -99,6 +102,7 @@ example:
 '2021-01-15' */
 
     date_to?: string | undefined;
+
     
     /** time range which will be used to group the results
 optional field
@@ -114,6 +118,7 @@ we will return items falling between 2022-03-01 and 2022-05-31, namely, three it
 if there is no data for a certain  day/week/month/year, we will return 0 */
 
     group_range?: string | undefined;
+
     
     /** indicates if the subdomains of the target will be included in the search
 optional field
@@ -121,6 +126,7 @@ if set to false, the subdomains will be ignored
 default value: true */
 
     include_subdomains?: boolean | undefined;
+
     
     /** defines the scale used for calculating and displaying the rank, domain_from_rank, and page_from_rank values
 optional field
@@ -132,6 +138,7 @@ default value: one_thousand
 learn more about how this parameter works and how ranking metrics are calculated in this Help Center article */
 
     rank_scale?: string | undefined;
+
     
     /** user-defined task identifier
 optional field

@@ -17,16 +17,19 @@ one line of the table in this element of the array */
     }
 
 export class Table  implements ITable {
+
     
     /** name assigned to the table element
 possible values:
 table_element */
 
     table_element?: string | undefined;
+
     
     /** column names */
 
     table_header?: string[] | undefined;
+
     
     /** the content of the table
 one line of the table in this element of the array */

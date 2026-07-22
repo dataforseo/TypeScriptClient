@@ -119,6 +119,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class ContentAnalysisSearchLiveRequestInfo  implements IContentAnalysisSearchLiveRequestInfo {
+
     
     /** target keyword
 required field
@@ -130,6 +131,7 @@ example:
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keyword?: string | undefined;
+
     
     /** target keyword fields and target keywords
 optional field
@@ -144,6 +146,7 @@ example:
 } */
 
     keyword_fields?: { [key: string]: string; } | undefined;
+
     
     /** target page types
 optional field
@@ -152,6 +155,7 @@ possible values:
 'ecommerce', 'news', 'blogs', 'message-boards', 'organization' */
 
     page_type?: string[] | undefined;
+
     
     /** results grouping type
 optional field
@@ -161,6 +165,7 @@ one_per_domain – returns one citation of the keyword per domain
 default value: as_is */
 
     search_mode?: string | undefined;
+
     
     /** the maximum number of returned citations
 optional field
@@ -168,6 +173,7 @@ default value: 100
 maximum value: 1000 */
 
     limit?: number | undefined;
+
     
     /** array of results filtering parameters
 optional field
@@ -187,6 +193,7 @@ example:
 for more information about filters, please refer to Content Analysis API – Filters */
 
     filters?: any[] | undefined;
+
     
     /** results sorting rules
 optional field
@@ -205,6 +212,7 @@ example:
 ['content_info.sentiment_connotations.anger,desc','keyword_data.keyword_info.cpc,desc'] */
 
     order_by?: string[] | undefined;
+
     
     /** offset in the results array of returned citations
 optional field
@@ -214,6 +222,7 @@ Note: we recommend using this parameter only when retrieving up to 10,000 result
 for retrieving over 10,000 results, use the offset_token instead. */
 
     offset?: number | undefined;
+
     
     /** offset token for subsequent requests
 optional field
@@ -225,6 +234,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 learn more about this parameter on our Help Center */
 
     offset_token?: string | undefined;
+
     
     /** defines the scale used for calculating and displaying the domain_rank, and url_rank values
 optional field
@@ -236,6 +246,7 @@ default value: one_thousand
 learn more about how this parameter works in this Help Center article */
 
     rank_scale?: string | undefined;
+
     
     /** user-defined task identifier
 optional field

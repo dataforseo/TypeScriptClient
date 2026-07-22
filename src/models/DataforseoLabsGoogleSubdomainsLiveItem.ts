@@ -17,14 +17,17 @@ export interface IDataforseoLabsGoogleSubdomainsLiveItem   {
     }
 
 export class DataforseoLabsGoogleSubdomainsLiveItem  implements IDataforseoLabsGoogleSubdomainsLiveItem {
+
     
     /** search engine type */
 
     se_type?: string | undefined;
+
     
     /** returned subdomain */
 
     subdomain?: string | undefined;
+
     
     /** ranking data relevant to subdomain */
 

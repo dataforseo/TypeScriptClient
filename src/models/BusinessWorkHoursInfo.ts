@@ -12,6 +12,7 @@ information about work hours of the local establishment */
     }
 
 export class BusinessWorkHoursInfo  implements IBusinessWorkHoursInfo {
+
     
     /** open hours
 information about work hours of the local establishment */

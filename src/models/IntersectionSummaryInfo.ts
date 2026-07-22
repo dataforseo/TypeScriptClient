@@ -8,6 +8,7 @@ export interface IIntersectionSummaryInfo   {
     }
 
 export class IntersectionSummaryInfo  implements IIntersectionSummaryInfo {
+
     
     /** total number of intersections */
 

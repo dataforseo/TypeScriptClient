@@ -18,14 +18,17 @@ contains locations supported in combination with a specific language */
     }
 
 export class KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo  implements IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo {
+
     
     /** language name */
 
     language_name?: string | undefined;
+
     
     /** language code */
 
     language_code?: string | undefined;
+
     
     /** supported locations
 contains locations supported in combination with a specific language */

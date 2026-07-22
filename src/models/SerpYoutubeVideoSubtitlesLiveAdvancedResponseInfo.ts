@@ -12,6 +12,7 @@ export interface ISerpYoutubeVideoSubtitlesLiveAdvancedResponseInfo  extends IBa
     }
 
 export class SerpYoutubeVideoSubtitlesLiveAdvancedResponseInfo  extends BaseResponseInfo   implements ISerpYoutubeVideoSubtitlesLiveAdvancedResponseInfo {
+
     
     /** array of tasks */
 

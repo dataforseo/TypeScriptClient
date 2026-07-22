@@ -20,18 +20,22 @@ export interface IAiOptimizationAiKeywordDataKeywordsSearchVolumeLiveResultInfo 
     }
 
 export class AiOptimizationAiKeywordDataKeywordsSearchVolumeLiveResultInfo  implements IAiOptimizationAiKeywordDataKeywordsSearchVolumeLiveResultInfo {
+
     
     /** location code in a POST array */
 
     location_code?: number | undefined;
+
     
     /** language code in a POST array */
 
     language_code?: string | undefined;
+
     
     /** number of results returned in the items array */
 
     items_count?: number | undefined;
+
     
     /** contains specified keywords with their AI search volume rates */
 

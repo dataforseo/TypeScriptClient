@@ -5,8 +5,8 @@
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
 **type** | **string** | type of element |[optional]|
-**title** | **string** | title of the link |[optional]|
-**url** | **string** | relevant URL |[optional]|
-**domain** | **string** | website domain |[optional]|
+**title** | **string** | title of the result in SERP |[optional]|
+**url** | **string** | relevant URL in SERP |[optional]|
+**domain** | **string** | domain in SERP |[optional]|
 **snippet** | **string** | text alongside the link title |[optional]|
 **xpath** | **string** | the XPath of the element |[optional]|

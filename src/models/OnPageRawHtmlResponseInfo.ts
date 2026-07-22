@@ -12,6 +12,7 @@ export interface IOnPageRawHtmlResponseInfo  extends IBaseResponseInfo    {
     }
 
 export class OnPageRawHtmlResponseInfo  extends BaseResponseInfo   implements IOnPageRawHtmlResponseInfo {
+
     
     /** array of tasks */
 

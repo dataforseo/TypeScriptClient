@@ -12,6 +12,7 @@ export interface IMerchantAmazonProductsLiveAdvancedResponseInfo  extends IBaseR
     }
 
 export class MerchantAmazonProductsLiveAdvancedResponseInfo  extends BaseResponseInfo   implements IMerchantAmazonProductsLiveAdvancedResponseInfo {
+
     
     /** array of tasks */
 

@@ -7,7 +7,7 @@
 **type** | **string** | type of element |[optional]|
 **featured_title** | **string** | title of a given element |[optional]|
 **url** | **string** | relevant URL |[optional]|
-**domain** | **string** | domain in SERP |[optional]|
+**domain** | **string** | domain where a link points |[optional]|
 **title** | **string** | title of the result in SERP |[optional]|
 **snippet** | **string** | text alongside the link title |[optional]|
 **images** | **AiModeImagesElementInfo[]** | images of the element<br>if there are none, equals null |[optional]|

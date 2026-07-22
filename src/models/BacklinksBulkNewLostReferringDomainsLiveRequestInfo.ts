@@ -46,6 +46,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class BacklinksBulkNewLostReferringDomainsLiveRequestInfo  implements IBacklinksBulkNewLostReferringDomainsLiveRequestInfo {
+
     
     /** domains, subdomains or webpages to get  new & lost referring domains for
 required field
@@ -67,6 +68,7 @@ example:
 ] */
 
     targets?: string[] | undefined;
+
     
     /** starting date of the time range
 optional field
@@ -82,6 +84,7 @@ example:
 '2021-01-01' */
 
     date_from?: string | undefined;
+
     
     /** user-defined task identifier
 optional field

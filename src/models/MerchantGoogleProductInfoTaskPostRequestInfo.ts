@@ -128,6 +128,7 @@ learn more on our Help Center */
     }
 
 export class MerchantGoogleProductInfoTaskPostRequestInfo  implements IMerchantGoogleProductInfoTaskPostRequestInfo {
+
     
     /** unique product identifier on Google Shopping
 required field if data_docid or gid is not specified
@@ -138,6 +139,7 @@ example:
 learn more about the parameter in this help center guide */
 
     product_id?: string | undefined;
+
     
     /** unique identifier of the SERP data element
 required field if product_id or gid is not specified
@@ -147,6 +149,7 @@ example:
 13071766526042404278 */
 
     data_docid?: string | undefined;
+
     
     /** global product identifier on Google Shopping
 required field if product_id or data_docid is not specified
@@ -157,6 +160,7 @@ example:
 learn more about the parameter in this help center guide */
 
     gid?: string | undefined;
+
     
     /** task priority
 optional field
@@ -167,6 +171,7 @@ You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
 
     priority?: number | undefined;
+
     
     /** full name of the location
 required field if you don’t specify location_code or location_coordinate
@@ -176,6 +181,7 @@ example:
 London,England,United Kingdom */
 
     location_name?: string | undefined;
+
     
     /** location code
 required field if you don’t specify location_name or location_coordinate
@@ -185,6 +191,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -196,6 +203,7 @@ example:
 53.476225,-2.243572,200 */
 
     location_coordinate?: string | undefined;
+
     
     /** full name of the language
 required field if you don’t specify language_code
@@ -205,6 +213,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** language code
 required field if you don’t specify language_name
@@ -214,6 +223,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** search engine domain
 optional field
@@ -223,6 +233,7 @@ example:
 google.co.uk, google.com.au, google.de, etc. */
 
     se_domain?: string | undefined;
+
     
     /** user-defined task identifier
 optional field
@@ -231,6 +242,7 @@ you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
     tag?: string | undefined;
+
     
     /** URL for sending task results
 optional field
@@ -244,6 +256,7 @@ i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
     postback_url?: string | undefined;
+
     
     /** postback_url datatype
 optional field
@@ -252,6 +265,7 @@ possible values:
 advanced */
 
     postback_data?: string | undefined;
+
     
     /** notification URL of a completed task
 optional field

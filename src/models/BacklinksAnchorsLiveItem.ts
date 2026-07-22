@@ -100,14 +100,17 @@ indicates ISO country codes of the domains where the referring links are located
     }
 
 export class BacklinksAnchorsLiveItem  implements IBacklinksAnchorsLiveItem {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** anchor of the backlink */
 
     anchor?: string | undefined;
+
     
     /** rank of the anchor links
 rank volume that referring websites pass to the target through links with a particular anchor
@@ -115,10 +118,12 @@ rank is calculated based on the method for node ranking in a linked database –
 learn more about the metric and how it is calculated in this help center article */
 
     rank?: number | undefined;
+
     
     /** indicates the number of backlinks */
 
     backlinks?: number | undefined;
+
     
     /** date and time when our crawler found the backlink with this anchor for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -126,6 +131,7 @@ example:
 2019-11-15 12:57:46 +00:00 */
 
     first_seen?: string | undefined;
+
     
     /** date and time when the last backlink with this anchor was lost
 indicates the date and time when our crawler visited the page and it responded with 4xx or 5xx status code or the last backlink was removed
@@ -134,59 +140,72 @@ example:
 2017-01-24 13:20:59 +00:00 */
 
     lost_date?: string | undefined;
+
     
     /** average spam score of all backlinks with this anchor
 learn more about how the metric is calculated on this help center page */
 
     backlinks_spam_score?: number | undefined;
+
     
     /** number of broken backlinks
 number of broken backlinks pointing to the target */
 
     broken_backlinks?: number | undefined;
+
     
     /** number of broken pages
 number of pages that respond with 4xx or 5xx status codes where backlinks are pointing to */
 
     broken_pages?: number | undefined;
+
     
     /** indicates the number of referring domains */
 
     referring_domains?: number | undefined;
+
     
     /** number of domains pointing at least one nofollow link to the target */
 
     referring_domains_nofollow?: number | undefined;
+
     
     /** indicates the number of referring main domains */
 
     referring_main_domains?: number | undefined;
+
     
     /** number of main domains pointing at least one nofollow link to the target */
 
     referring_main_domains_nofollow?: number | undefined;
+
     
     /** number of referring IP addresses
 number of IP addresses pointing to this page */
 
     referring_ips?: number | undefined;
+
     
     /** number of referring subnetworks */
 
     referring_subnets?: number | undefined;
+
     
     /** indicates the number of pages pointing to target with this anchor */
 
     referring_pages?: number | undefined;
+
     
     /** number of referring pages pointing at least one nofollow link to the target with this anchor */
 
     referring_pages_nofollow?: number | undefined;
+
     
     /** top-level domains of the referring links
 contains top level domains and referring link count per each */
 
     referring_links_tld?: { [key: string]: number; } | undefined;
+
     
     /** types of referring links
 indicates the types of the referring links and link count per each type
@@ -194,17 +213,20 @@ possible values:
 anchor, image, link, meta, canonical, alternate, redirect */
 
     referring_links_types?: { [key: string]: number; } | undefined;
+
     
     /** link attributes of the referring links
 indicates link attributes of the referring links and link count per each attribute */
 
     referring_links_attributes?: { [key: string]: number; } | undefined;
+
     
     /** types of referring platforms
 indicates referring platform types and and link count per each platform
 possible values: cms, blogs, ecommerce, message-boards, wikis, news, organization */
 
     referring_links_platform_types?: { [key: string]: number; } | undefined;
+
     
     /** semantic locations of the referring links
 indicates semantic elements in HTML where the referring links are located and link count per each semantic location
@@ -213,6 +235,7 @@ examples:
 article, section, summary */
 
     referring_links_semantic_locations?: { [key: string]: number; } | undefined;
+
     
     /** ISO country codes of the referring links
 indicates ISO country codes of the domains where the referring links are located and the link count per each country */

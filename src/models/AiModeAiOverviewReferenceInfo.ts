@@ -11,13 +11,13 @@ left, right */
         /** reference source name or title */
         source?: string | undefined
         
-        /** domain in SERP */
+        /** domain name of the reference */
         domain?: string | undefined
         
-        /** image source URL */
+        /** link URL */
         url?: string | undefined
         
-        /** title of the element */
+        /** link anchor text */
         title?: string | undefined
         
         /** text of the component */
@@ -28,32 +28,39 @@ left, right */
     }
 
 export class AiModeAiOverviewReferenceInfo  implements IAiModeAiOverviewReferenceInfo {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** the alignment of the element in SERP
 can take the following values:
 left, right */
 
     position?: string | undefined;
+
     
     /** reference source name or title */
 
     source?: string | undefined;
+
     
-    /** domain in SERP */
+    /** domain name of the reference */
 
     domain?: string | undefined;
+
     
-    /** image source URL */
+    /** link URL */
 
     url?: string | undefined;
+
     
-    /** title of the element */
+    /** link anchor text */
 
     title?: string | undefined;
+
     
     /** text of the component */
 

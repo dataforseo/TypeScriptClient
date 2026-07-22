@@ -8,5 +8,5 @@
 **rank_absolute** | **number** | absolute rank in SERP<br>absolute position among all the elements in SERP<br>always equals 0 for desktop |[optional]|
 **asynchronous_ai_overview** | **boolean** | indicates whether the element is loaded asynchronously<br>if true, the ai_overview element is loaded asynchronously;<br>if false, the ai_overview element is loaded from cache;<br>to obtain the content of ai_overview elements, use the load_async_ai_overview parameter in the POST request |[optional]|
 **markdown** | **string** | content of the element in markdown format<br>the text of the ai_overview formatted in the markdown markup language |[optional]|
-**items** | **BaseSerpApiAiOverviewElementItem[]** | contains arrays of specific images |[optional]|
+**items** | **BaseSerpApiAiOverviewElementItem[]** | contains arrays of elements available in the list |[optional]|
 **references** | **AiModeAiOverviewReferenceInfo[]** | references relevant to the element<br>includes references to webpages that were used to generate the ai_overview_element |[optional]|

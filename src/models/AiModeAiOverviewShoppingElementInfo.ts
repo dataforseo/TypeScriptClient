@@ -51,58 +51,72 @@ export interface IAiModeAiOverviewShoppingElementInfo   {
     }
 
 export class AiModeAiOverviewShoppingElementInfo  implements IAiModeAiOverviewShoppingElementInfo {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** unique product identifier on Google Shoppinglearn more about the parameter in this help center guide */
 
     product_id?: string | undefined;
+
     
     /** unique identifier of the SERP data element */
 
     data_docid?: string | undefined;
+
     
     /** global product identifier on Google Shoppinglearn more about the parameter in this help center guide */
 
     gid?: string | undefined;
+
     
     /** reference page title */
 
     title?: string | undefined;
+
     
     /** URL in link */
 
     url?: string | undefined;
+
     
     /** domain in link */
 
     domain?: string | undefined;
+
     
     /** product rating the popularity rate based on reviews if there is none, the value will be null */
 
     rating?: RatingInfo | undefined;
+
     
     /** product priceproduct price details on the seller's website; if there is none, the value will be null */
 
     price?: PriceInfo | undefined;
+
     
     /** product sellername of the product's seller as displayed in search results */
 
     seller?: string | undefined;
+
     
     /** additional information about the result */
 
     snippet?: string | undefined;
+
     
     /** merchant account providere-commerce site that hosts products or websites of individual sellers under the same merchant accountexample:by Google */
 
     marketplace?: string | undefined;
+
     
     /** URL to the merchant account providere-commerce site that hosts products or websites of individual sellers under the same merchant account */
 
     marketplace_url?: string | undefined;
+
     
     /** URL of the imagethe URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 

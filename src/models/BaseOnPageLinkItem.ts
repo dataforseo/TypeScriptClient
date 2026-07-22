@@ -58,68 +58,82 @@ status code of the page to which the link is pointing */
     }
 
 export class BaseOnPageLinkItem  implements IBaseOnPageLinkItem {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** referring domain
 the link was found on this domain */
 
     domain_from?: string | undefined;
+
     
     /** referenced domain
 the link is pointing to this domain */
 
     domain_to?: string | undefined;
+
     
     /** referring page
 relative URL of the page on which the link was found */
 
     page_from?: string | undefined;
+
     
     /** referenced page
 relative URL of the page to which the link is pointing */
 
     page_to?: string | undefined;
+
     
     /** referring page
 absolute URL of the page on which the link was found */
 
     link_from?: string | undefined;
+
     
     /** referenced page
 absolute URL of the page to which the link is pointing */
 
     link_to?: string | undefined;
+
     
     /** indicates whether the link is dofollow
 if the value is true, the link doesn’t have a rel='nofollow' attribute */
 
     dofollow?: boolean | undefined;
+
     
     /** url scheme of the referring page */
 
     page_from_scheme?: string | undefined;
+
     
     /** url scheme of the referenced page */
 
     page_to_scheme?: string | undefined;
+
     
     /** direction of the link
 possible values: internal, external */
 
     direction?: string | undefined;
+
     
     /** link is broken
 indicates whether a link is directing to a broken page or resource */
 
     is_broken?: boolean | undefined;
+
     
     /** indicates that the link may have a conflict with another link
 if true, at least one link pointing to link_to has a rel='nofollow' attribute and at least one is dofollow */
 
     is_link_relation_conflict?: boolean | undefined;
+
     
     /** status code of the referenced page
 status code of the page to which the link is pointing */
@@ -258,6 +272,7 @@ example:
     }
 
 export class OnPageAnchorLinkItem  extends BaseOnPageLinkItem   implements IOnPageAnchorLinkItem {
+
     
     /** link attribute added to external link
 indicates link attributes added to the link_to on the page_from
@@ -265,6 +280,7 @@ example:
 ['ugc','noopener'] */
 
     link_attribute?: string[] | undefined;
+
     
     /** anchor text */
 
@@ -335,6 +351,7 @@ example:
     }
 
 export class OnPageImageLinkItem  extends BaseOnPageLinkItem   implements IOnPageImageLinkItem {
+
     
     /** link attribute added to external link
 indicates link attributes added to the link_to on the page_from
@@ -342,14 +359,17 @@ example:
 ['ugc','noopener'] */
 
     link_attribute?: string[] | undefined;
+
     
     /** anchor text */
 
     text?: string | undefined;
+
     
     /** alternative text for the image */
 
     image_alt?: string | undefined;
+
     
     /** url of the image */
 
@@ -465,11 +485,13 @@ example: 'en-US', 'fr' */
     }
 
 export class OnPageAlternateLinkItem  extends BaseOnPageLinkItem   implements IOnPageAlternateLinkItem {
+
     
     /** hreflang validity status
 indicates whether the hreflang attribute is correctly implemented */
 
     is_valid_hreflang?: boolean | undefined;
+
     
     /** hreflang attribute value
 language and optional country code specified in the hreflang attribute

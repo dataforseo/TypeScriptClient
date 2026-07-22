@@ -12,6 +12,7 @@ export interface ISerpSeznamOrganicTaskGetRegularResponseInfo  extends IBaseResp
     }
 
 export class SerpSeznamOrganicTaskGetRegularResponseInfo  extends BaseResponseInfo   implements ISerpSeznamOrganicTaskGetRegularResponseInfo {
+
     
     /** array of tasks */
 

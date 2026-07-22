@@ -12,6 +12,7 @@ export interface IOnPageRedirectChainsResponseInfo  extends IBaseResponseInfo   
     }
 
 export class OnPageRedirectChainsResponseInfo  extends BaseResponseInfo   implements IOnPageRedirectChainsResponseInfo {
+
     
     /** array of tasks */
 

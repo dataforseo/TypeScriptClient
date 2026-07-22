@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpGoogleOrganicTaskPostTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **SerpGoogleOrganicTaskPostTaskInfo[]** |  |[optional]|

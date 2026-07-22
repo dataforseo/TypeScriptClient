@@ -1,6 +1,8 @@
 export interface IResultAvailableLanguages   {
         
-        /** supported LLM platformscontains the sources of data supported for a specific location and language combinationonly google and chat_gpt are currently available */
+        /** supported LLM platforms
+contains the sources of data supported for a specific location and language combination
+only google and chat_gpt are currently available */
         available_platforms?: string[] | undefined
         
         /** language name */
@@ -9,7 +11,8 @@ export interface IResultAvailableLanguages   {
         /** language code according to ISO 639-1 */
         language_code?: string | undefined
         
-        /** number of LLM responsesthe number of LLM responses available in the database for the certain location and language parameters */
+        /** number of LLM responses
+the number of LLM responses available in the database for the certain location and language parameters */
         responses_count?: number | undefined
 
     [key: string]: any;
@@ -17,20 +20,27 @@ export interface IResultAvailableLanguages   {
     }
 
 export class ResultAvailableLanguages  implements IResultAvailableLanguages {
+
     
-    /** supported LLM platformscontains the sources of data supported for a specific location and language combinationonly google and chat_gpt are currently available */
+    /** supported LLM platforms
+contains the sources of data supported for a specific location and language combination
+only google and chat_gpt are currently available */
 
     available_platforms?: string[] | undefined;
+
     
     /** language name */
 
     language_name?: string | undefined;
+
     
     /** language code according to ISO 639-1 */
 
     language_code?: string | undefined;
+
     
-    /** number of LLM responsesthe number of LLM responses available in the database for the certain location and language parameters */
+    /** number of LLM responses
+the number of LLM responses available in the database for the certain location and language parameters */
 
     responses_count?: number | undefined;
 

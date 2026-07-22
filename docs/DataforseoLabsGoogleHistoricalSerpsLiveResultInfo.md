@@ -10,4 +10,4 @@
 **language_code** | **string** | language code in a POST array |[optional]|
 **total_count** | **number** | the total amount of results in our database relevant to your request |[optional]|
 **items_count** | **number** | the number of results returned in the items array |[optional]|
-**items** | **DataforseoLabsGoogleHistoricalSerpsLiveItem[]** | additional items present in the element<br>if there are none, equals null |[optional]|
+**items** | **DataforseoLabsGoogleHistoricalSerpsLiveItem[]** | historical SERPs and related data found in the database |[optional]|

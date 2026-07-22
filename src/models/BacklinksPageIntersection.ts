@@ -194,67 +194,81 @@ indicates a URL or a sequence of URLs that lead to url_to */
     }
 
 export class BacklinksPageIntersection  implements IBacklinksPageIntersection {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** domain referring to the target domain or webpage */
 
     domain_from?: string | undefined;
+
     
     /** URL of the page where the backlink is found */
 
     url_from?: string | undefined;
+
     
     /** indicates whether the referring URL is secured with HTTPS
 if true, the referring URL is secured with HTTPS */
 
     url_from_https?: boolean | undefined;
+
     
     /** domain the backlink is pointing to */
 
     domain_to?: string | undefined;
+
     
     /** URL the backlink is pointing to */
 
     url_to?: string | undefined;
+
     
     /** indicates if the URL the backlink is pointing to is secured with HTTPS
 if true, the URL is secured with HTTPS */
 
     url_to_https?: boolean | undefined;
+
     
     /** top-level domain of the referring URL */
 
     tld_from?: string | undefined;
+
     
     /** indicates whether the backlink is new
 if true, the backlink was found on the page last time our crawler visited it */
 
     is_new?: boolean | undefined;
+
     
     /** indicates whether the backlink was removed
 if true, the backlink or the entire page was removed */
 
     is_lost?: boolean | undefined;
+
     
     /** spam score of the backlink
 learn more about how the metric is calculated on this help center page */
 
     backlink_spam_score?: number | undefined;
+
     
     /** backlink rank
 rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm
 learn more about the metric and how it is calculated in this help center article */
 
     rank?: number | undefined;
+
     
     /** page rank of the referring page
 page_from_rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm
 learn more about the metric and how it is calculated in this help center article */
 
     page_from_rank?: number | undefined;
+
     
     /** domain rank of the referring domain
 indicates the rank of the domain at the time our crawler last saw the backlink;
@@ -262,44 +276,53 @@ domain_from_rank is calculated based on the method for node ranking in a linked 
 learn more about the metric and how it is calculated in this help center article */
 
     domain_from_rank?: number | undefined;
+
     
     /** platform types of the referring domain
 possible values: cms, blogs, ecommerce, message-boards, wikis, news, organization */
 
     domain_from_platform_type?: string[] | undefined;
+
     
     /** indicates if the domain is IP
 if true, the domain functions as an IP address and does not have a domain name */
 
     domain_from_is_ip?: boolean | undefined;
+
     
     /** IP address of the referring domain */
 
     domain_from_ip?: string | undefined;
+
     
     /** ISO country code of the referring domain */
 
     domain_from_country?: string | undefined;
+
     
     /** number of external links found on the referring page */
 
     page_from_external_links?: number | undefined;
+
     
     /** number of internal links found on the referring page */
 
     page_from_internal_links?: number | undefined;
+
     
     /** size of the referring page, in bytes
 example:
 63357 */
 
     page_from_size?: number | undefined;
+
     
     /** character encoding of the referring page
 example:
 utf-8 */
 
     page_from_encoding?: string | undefined;
+
     
     /** language of the referring page
 in ISO 639-1 format
@@ -307,16 +330,19 @@ example:
 en */
 
     page_from_language?: string | undefined;
+
     
     /** title of the referring page */
 
     page_from_title?: string | undefined;
+
     
     /** HTTP status code returned by the referring page
 example:
 200 */
 
     page_from_status_code?: number | undefined;
+
     
     /** date and time when our crawler found the backlink for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -324,6 +350,7 @@ example:
 2019-11-15 12:57:46 +00:00 */
 
     first_seen?: string | undefined;
+
     
     /** previous to the most recent date when our crawler visited the backlink
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -331,6 +358,7 @@ example:
 2019-11-15 12:57:46 +00:00 */
 
     prev_seen?: string | undefined;
+
     
     /** most recent date when our crawler visited the backlink
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -338,44 +366,53 @@ example:
 2019-11-15 12:57:46 +00:00 */
 
     last_seen?: string | undefined;
+
     
     /** link type
 possible values:
 anchor, image, link, meta, canonical, alternate, redirect */
 
     item_type?: string | undefined;
+
     
     /** link attributes of the referring links
 example:
 nofollow */
 
     attributes?: string[] | undefined;
+
     
     /** indicates whether the backlink is dofollow
 if false, the backlink is nofollow */
 
     dofollow?: boolean | undefined;
+
     
     /** indicates whether the backlink was present on the referring page when our crawler first visited it */
 
     original?: boolean | undefined;
+
     
     /** alternative text of the image
 this field will be null if backlink type is not image */
 
     alt?: string | undefined;
+
     
     /** anchor text of the backlink */
 
     anchor?: string | undefined;
+
     
     /** text snippet before the anchor text */
 
     text_pre?: string | undefined;
+
     
     /** snippet after the anchor text */
 
     text_post?: string | undefined;
+
     
     /** indicates semantic element in HTML where the backlink is found
 you can get the full list of semantic elements here
@@ -383,20 +420,24 @@ examples:
 article, section, summary */
 
     semantic_location?: string | undefined;
+
     
     /** number of identical backlinks found on the referring page */
 
     links_count?: number | undefined;
+
     
     /** indicates total number of backlinks from this domain
 for example, if mode is set to one_per_domain, this field will indicate the total number of backlinks coming from this domain */
 
     group_count?: number | undefined;
+
     
     /** indicates whether the backlink is broken
 if true, the backlink is pointing to a page responding with a 4xx or 5xx status code */
 
     is_broken?: boolean | undefined;
+
     
     /** status code of the referenced page
 if the value is null, our crawler hasn’t yet visited the webpage the link is pointing to
@@ -404,22 +445,26 @@ example:
 200 */
 
     url_to_status_code?: number | undefined;
+
     
     /** spam score of the referenced page
 if the value is null, our crawler hasn’t yet visited the webpage the link is pointing to
 learn more about how the metric is calculated on this help center page */
 
     url_to_spam_score?: number | undefined;
+
     
     /** target url of the redirect
 target page the redirect is pointing to */
 
     url_to_redirect_target?: string | undefined;
+
     
     /** indicates whether the backlink is an indirect link
 if true, the backlink is an indirect link pointing to a page that either redirects to url_to, or points to a canonical page */
 
     is_indirect_link?: boolean | undefined;
+
     
     /** indirect link path
 indicates a URL or a sequence of URLs that lead to url_to */

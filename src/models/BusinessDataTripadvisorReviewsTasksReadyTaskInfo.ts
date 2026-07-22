@@ -12,6 +12,7 @@ export interface IBusinessDataTripadvisorReviewsTasksReadyTaskInfo  extends IBas
     }
 
 export class BusinessDataTripadvisorReviewsTasksReadyTaskInfo  extends BaseResponseTaskInfo   implements IBusinessDataTripadvisorReviewsTasksReadyTaskInfo {
+
     
     /** array of results */
 

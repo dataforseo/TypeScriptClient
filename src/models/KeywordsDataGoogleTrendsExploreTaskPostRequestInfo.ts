@@ -133,6 +133,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class KeywordsDataGoogleTrendsExploreTaskPostRequestInfo  implements IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo {
+
     
     /** keywords
 required field
@@ -145,6 +146,7 @@ Note: to obtain google_trends_topics_list and google_trends_queries_list items, 
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keywords?: string[] | undefined;
+
     
     /** full name of search engine location
 optional field
@@ -156,6 +158,7 @@ example:
 United Kingdom */
 
     location_name?: string | undefined;
+
     
     /** search engine location code
 optional field
@@ -167,6 +170,7 @@ example:
 2840 */
 
     location_code?: string | undefined;
+
     
     /** full name of search engine language
 optional field
@@ -177,6 +181,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** search engine language code
 optional field
@@ -187,10 +192,12 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** google trends search category
 optional field
@@ -198,6 +205,7 @@ if you don’t specify this field, the 0 value will be applied by default and th
 you can receive the list of available categories with their category_code by making a separate request to the https://api.dataforseo.com/v3/keywords_data/google_trends/categories */
 
     category_code?: number | undefined;
+
     
     /** starting date of the time range
 optional field
@@ -209,6 +217,7 @@ example:
 '2019-01-15' */
 
     date_from?: string | undefined;
+
     
     /** ending date of the time range
 optional field
@@ -218,6 +227,7 @@ example:
 '2019-01-15' */
 
     date_to?: string | undefined;
+
     
     /** preset time ranges
 optional field
@@ -230,6 +240,7 @@ possible values for news, youtube, images, froogle:
 2008_present */
 
     time_range?: string | undefined;
+
     
     /** types of items returned
 optional field
@@ -241,6 +252,7 @@ default value:
 Note: to obtain google_trends_topics_list and google_trends_queries_list items, specify no more than 1 keyword in the keywords field */
 
     item_types?: string[] | undefined;
+
     
     /** URL for sending task results
 optional field
@@ -254,6 +266,7 @@ i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
     postback_url?: string | undefined;
+
     
     /** notification URL of a completed task
 optional field
@@ -267,6 +280,7 @@ i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
     pingback_url?: string | undefined;
+
     
     /** user-defined task identifier
 optional field

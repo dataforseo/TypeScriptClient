@@ -12,6 +12,7 @@ export interface ISerpGoogleMapsTasksReadyResponseInfo  extends IBaseResponseInf
     }
 
 export class SerpGoogleMapsTasksReadyResponseInfo  extends BaseResponseInfo   implements ISerpGoogleMapsTasksReadyResponseInfo {
+
     
     /** array of tasks */
 

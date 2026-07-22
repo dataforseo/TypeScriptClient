@@ -15,11 +15,13 @@ if true, the last URL from the chain redirects back to the original URL */
     }
 
 export class OnPageRedirectChainsItem  implements IOnPageRedirectChainsItem {
+
     
     /** indicates if redirects in chain start and end at the same URL
 if true, the last URL from the chain redirects back to the original URL */
 
     is_redirect_loop?: boolean | undefined;
+
     
     /** contains links that form a chain */
 

@@ -15,14 +15,17 @@ represents the (approximate) number of searches for the returned keyword on Amaz
     }
 
 export class DataforseoLabsAmazonBulkSearchVolumeLiveItem  implements IDataforseoLabsAmazonBulkSearchVolumeLiveItem {
+
     
     /** search engine type */
 
     se_type?: string | undefined;
+
     
     /** keyword in a POST array */
 
     keyword?: string | undefined;
+
     
     /** average monthly search volume rate
 represents the (approximate) number of searches for the returned keyword on Amazon */

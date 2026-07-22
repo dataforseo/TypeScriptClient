@@ -11,7 +11,9 @@ example:
 '2022-11-01 10:02:52 +00:00' */
         fetch_time?: string | undefined
         
-        /** status code of the page */
+        /** general status code
+you can find the full list of the response codes here
+Note: we strongly recommend designing a necessary system for handling related exceptional or error conditions */
         status_code?: number | undefined
         
         /** parsed content of the page */
@@ -27,24 +29,31 @@ specify markdown_view as true in the request to return the value */
     }
 
 export class ContentParsingElement  implements IContentParsingElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** date and time when the content was fethced
 example:
 '2022-11-01 10:02:52 +00:00' */
 
     fetch_time?: string | undefined;
+
     
-    /** status code of the page */
+    /** general status code
+you can find the full list of the response codes here
+Note: we strongly recommend designing a necessary system for handling related exceptional or error conditions */
 
     status_code?: number | undefined;
+
     
     /** parsed content of the page */
 
     page_content?: PageContentInfo | undefined;
+
     
     /** page content in the markdown format
 page content in the text-to-HTML markdown format

@@ -12,6 +12,7 @@ export interface ISerpGoogleFinanceMarketsTasksReadyResponseInfo  extends IBaseR
     }
 
 export class SerpGoogleFinanceMarketsTasksReadyResponseInfo  extends BaseResponseInfo   implements ISerpGoogleFinanceMarketsTasksReadyResponseInfo {
+
     
     /** array of tasks */
 

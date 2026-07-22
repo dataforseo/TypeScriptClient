@@ -1,15 +1,16 @@
 import { LinkElement, ILinkElement } from "./LinkElement";
 
+/** @deprecated */
 
 export interface IFaqBoxElement   {
         
         /** type of element */
         type?: string | undefined
         
-        /** title of the element in SERP */
+        /** title of the link */
         title?: string | undefined
         
-        /** description of the link */
+        /** description of the hotel booking element */
         description?: string | undefined
         
         /** link of the element */
@@ -19,19 +20,24 @@ export interface IFaqBoxElement   {
 
     }
 
+/** @deprecated */
 export class FaqBoxElement  implements IFaqBoxElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
-    /** title of the element in SERP */
+    /** title of the link */
 
     title?: string | undefined;
+
     
-    /** description of the link */
+    /** description of the hotel booking element */
 
     description?: string | undefined;
+
     
     /** link of the element */
 

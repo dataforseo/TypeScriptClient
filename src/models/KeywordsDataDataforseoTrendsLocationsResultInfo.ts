@@ -32,14 +32,17 @@ you can use this field for matching obtained results with the location_code para
     }
 
 export class KeywordsDataDataforseoTrendsLocationsResultInfo  implements IKeywordsDataDataforseoTrendsLocationsResultInfo {
+
     
     /** location code */
 
     location_code?: number | undefined;
+
     
     /** full name of the location */
 
     location_name?: string | undefined;
+
     
     /** the code of the superordinate location
 example:
@@ -51,15 +54,18 @@ where location_code_parent corresponds to:
 'location_name': 'Lower Austria,Austria' */
 
     location_code_parent?: number | undefined;
+
     
     /** ISO country code of the location */
 
     country_iso_code?: string | undefined;
+
     
     /** location type
 possible values according to Google’s target types */
 
     location_type?: string | undefined;
+
     
     /** DataForSEO trends location identifier
 you can use this field for matching obtained results with the location_code parameter specified in the request */

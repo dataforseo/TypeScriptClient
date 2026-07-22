@@ -32,34 +32,42 @@ export interface IDataforseoLabsGoogleDomainIntersectionLiveResultInfo   {
     }
 
 export class DataforseoLabsGoogleDomainIntersectionLiveResultInfo  implements IDataforseoLabsGoogleDomainIntersectionLiveResultInfo {
+
     
     /** search engine type */
 
     se_type?: string | undefined;
+
     
     /** the first target domain in a POST array */
 
     target_1?: string | undefined;
+
     
     /** the second target domain in a POST array */
 
     target_2?: string | undefined;
+
     
     /** location code in a POST array */
 
     location_code?: number | undefined;
+
     
     /** language code in a POST array */
 
     language_code?: string | undefined;
+
     
     /** total amount of results in our database relevant to your request */
 
     total_count?: number | undefined;
+
     
     /** the number of results returned in the items array */
 
     items_count?: number | undefined;
+
     
     /** contains keywords, relevant SERP elements and related data */
 

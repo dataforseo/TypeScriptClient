@@ -16,11 +16,13 @@ data is provided in separate objects corresponding to pages specified in the tar
     }
 
 export class BacklinksPageIntersectionLiveItem  implements IBacklinksPageIntersectionLiveItem {
+
     
     /** contains data on pages that link to the corresponding targets specified in the POST array
 data is provided in separate objects corresponding to pages specified in the targets object */
 
     page_intersection?: { [key: string]: BacklinksPageIntersection[]; } | undefined;
+
     
     /** contains the page intersections summary */
 

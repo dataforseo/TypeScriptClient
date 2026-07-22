@@ -8,6 +8,7 @@ export interface IHunspellMisspelledInfo   {
     }
 
 export class HunspellMisspelledInfo  implements IHunspellMisspelledInfo {
+
     
     /** misspelled word */
 

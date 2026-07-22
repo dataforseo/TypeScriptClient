@@ -14,14 +14,17 @@ export interface IReviewResponseItemInfo   {
     }
 
 export class ReviewResponseItemInfo  implements IReviewResponseItemInfo {
+
     
     /** the title of response */
 
     title?: string | undefined;
+
     
     /** the content of response */
 
     text?: string | undefined;
+
     
     /** the time of publication */
 

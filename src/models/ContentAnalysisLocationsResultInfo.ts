@@ -11,10 +11,12 @@ export interface IContentAnalysisLocationsResultInfo   {
     }
 
 export class ContentAnalysisLocationsResultInfo  implements IContentAnalysisLocationsResultInfo {
+
     
     /** full name of the location */
 
     location_name?: string | undefined;
+
     
     /** ISO country code of the location */
 

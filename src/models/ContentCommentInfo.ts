@@ -29,27 +29,33 @@ you can find more information about content priority calculation in this help ce
     }
 
 export class ContentCommentInfo  implements IContentCommentInfo {
+
     
     /** product’s rating
 contains information about the rating a customer has given to the product */
 
     rating?: ContentRatingInfo | undefined;
+
     
     /** title of the customer’s comment */
 
     title?: string | undefined;
+
     
     /** date when the comment was published */
 
     publish_date?: string | undefined;
+
     
     /** author of the comment */
 
     author?: string | undefined;
+
     
     /**  */
 
     have_form?: boolean | undefined;
+
     
     /** primary content on the page
 you can find more information about content priority calculation in this help center article */

@@ -12,6 +12,7 @@ export interface ISerpYoutubeLocationsTaskInfo  extends IBaseResponseTaskInfo   
     }
 
 export class SerpYoutubeLocationsTaskInfo  extends BaseResponseTaskInfo   implements ISerpYoutubeLocationsTaskInfo {
+
     
     /** array of results */
 

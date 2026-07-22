@@ -12,6 +12,7 @@ export interface ISerpGoogleDatasetSearchTaskGetAdvancedResponseInfo  extends IB
     }
 
 export class SerpGoogleDatasetSearchTaskGetAdvancedResponseInfo  extends BaseResponseInfo   implements ISerpGoogleDatasetSearchTaskGetAdvancedResponseInfo {
+
     
     /** array of tasks */
 

@@ -32,29 +32,35 @@ equals null if calculate_rectangles in the POST request is not set to true */
     }
 
 export class BaseSerpApiGoogleNewsElementItem  implements IBaseSerpApiGoogleNewsElementItem {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
+
     
     /** the XPath of the element */
 
     xpath?: string | undefined;
+
     
     /** title of the element */
 
     title?: string | undefined;
+
     
     /** rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -161,27 +167,33 @@ example:
     }
 
 export class SerpApiGoogleNewsNewsSearchElementItem  extends BaseSerpApiGoogleNewsElementItem   implements ISerpApiGoogleNewsNewsSearchElementItem {
+
     
     /** domain in SERP */
 
     domain?: string | undefined;
+
     
     /** search URL with refinement parameters */
 
     url?: string | undefined;
+
     
     /** URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
     image_url?: string | undefined;
+
     
     /** snippet of the result in SERP */
 
     snippet?: string | undefined;
+
     
     /** indicates the time the result was published */
 
     time_published?: string | undefined;
+
     
     /** date and time when the news was published
 in the format “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
@@ -260,12 +272,14 @@ left */
 export class SerpApiGoogleNewsTopStoriesElementItem  extends BaseSerpApiGoogleNewsElementItem   implements ISerpApiGoogleNewsTopStoriesElementItem {
 
     page?: number | undefined;
+
     
     /** the alignment of the element in SERP
 can take the following values:
 left */
 
     position?: string | undefined;
+
     
     /** items of the element */
 

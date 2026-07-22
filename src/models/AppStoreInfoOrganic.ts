@@ -26,6 +26,9 @@ can take the following values: left */
         /** title of the app */
         title?: string | undefined
         
+        /** subtitle of the app */
+        subtitle?: string | undefined
+        
         /** URL to the app page on App Store */
         url?: string | undefined
         
@@ -113,103 +116,132 @@ information about apps built by the same developer */
     }
 
 export class AppStoreInfoOrganic  implements IAppStoreInfoOrganic {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank among all the listed apps
 absolute position among all apps on the list */
 
     rank_absolute?: number | undefined;
+
     
     /** the alignment of the element in SERP
 can take the following values: left */
 
     position?: string | undefined;
+
     
     /** ID of the app */
 
     app_id?: string | undefined;
+
     
     /** title of the app */
 
     title?: string | undefined;
+
+    
+    /** subtitle of the app */
+
+    subtitle?: string | undefined;
+
     
     /** URL to the app page on App Store */
 
     url?: string | undefined;
+
     
     /** URL to the app icon */
 
     icon?: string | undefined;
+
     
     /** description of the app */
 
     description?: string | undefined;
+
     
     /** the total number of reviews of the app */
 
     reviews_count?: number | undefined;
+
     
     /** average rating of the app */
 
     rating?: RatingInfo | undefined;
+
     
     /** price of the app */
 
     price?: PriceInfo | undefined;
+
     
     /** indicates whether the app is free */
 
     is_free?: boolean | undefined;
+
     
     /** main category/genre of the app */
 
     main_category?: string | undefined;
+
     
     /** all relevant categories/genres of the app
 Note: this field returns only one relevant category in the array */
 
     categories?: string[] | undefined;
+
     
     /** languages supported in the app
 Note: this field returns only one supported language in the array */
 
     languages?: string[] | undefined;
+
     
     /** age rating and age-based content advisories */
 
     advisories?: string[] | undefined;
+
     
     /** name of the app developer */
 
     developer?: string | undefined;
+
     
     /** ID of the app developer */
 
     developer_id?: string | undefined;
+
     
     /** URL to the developer page on App Store */
 
     developer_url?: string | undefined;
+
     
     /** current version of the app */
 
     version?: string | undefined;
+
     
     /** minimum OS version required to install the app */
 
     minimum_os_version?: string | undefined;
+
     
     /** size of the app */
 
     size?: string | undefined;
+
     
     /** date and time when the app was released
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -218,6 +250,7 @@ example:
 Note: this field is deprecated and always returns null */
 
     released_date?: string | undefined;
+
     
     /** date and time when the app was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -225,21 +258,25 @@ example:
 2019-11-15 12:57:46 +00:00 */
 
     last_update_date?: string | undefined;
+
     
     /** update notes
 contains the latest update notes from the developer */
 
     update_notes?: string | undefined;
+
     
     /** app images
 contains URLs to the images used on the app page on App Store */
 
     images?: string[] | undefined;
+
     
     /** similar apps
 displays apps similar to the app in a POST request */
 
     similar_apps?: AppsInfo[] | undefined;
+
     
     /** similar apps
 information about apps built by the same developer */
@@ -272,6 +309,7 @@ information about apps built by the same developer */
             this.position = data["position"];
             this.app_id = data["app_id"];
             this.title = data["title"];
+            this.subtitle = data["subtitle"];
             this.url = data["url"];
             this.icon = data["icon"];
             this.description = data["description"];
@@ -328,6 +366,7 @@ information about apps built by the same developer */
         data["position"] = this.position;
         data["app_id"] = this.app_id;
         data["title"] = this.title;
+        data["subtitle"] = this.subtitle;
         data["url"] = this.url;
         data["icon"] = this.icon;
         data["description"] = this.description;

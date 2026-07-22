@@ -3,6 +3,9 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IOnPageLighthouseTaskGetJsonTaskInfo  extends IBaseResponseTaskInfo    {
         
+        /** results of Lighthouse audit
+this array will include data according to the parameters specified in the POST request;
+description of the fields in the result array is available in the official documentation */
         result?: { [key: string]: any; }[] | undefined
 
     [key: string]: any;
@@ -10,6 +13,11 @@ export interface IOnPageLighthouseTaskGetJsonTaskInfo  extends IBaseResponseTask
     }
 
 export class OnPageLighthouseTaskGetJsonTaskInfo  extends BaseResponseTaskInfo   implements IOnPageLighthouseTaskGetJsonTaskInfo {
+
+    
+    /** results of Lighthouse audit
+this array will include data according to the parameters specified in the POST request;
+description of the fields in the result array is available in the official documentation */
 
     result?: { [key: string]: any; }[] | undefined;
 

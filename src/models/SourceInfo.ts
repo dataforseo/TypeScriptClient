@@ -32,38 +32,47 @@ export interface ISourceInfo   {
     }
 
 export class SourceInfo  implements ISourceInfo {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** source title */
 
     title?: string | undefined;
+
     
     /** source description */
 
     snippet?: string | undefined;
+
     
     /** source domain in SERP */
 
     domain?: string | undefined;
+
     
     /** source URL */
 
     url?: string | undefined;
+
     
     /** source thumbnail */
 
     thumbnail?: string | undefined;
+
     
     /** source name */
 
     source_name?: string | undefined;
+
     
     /** date and time when the result was publishedin the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”example:2019-11-15 12:57:46 +00:00 */
 
     publication_date?: string | undefined;
+
     
     /** content of the element in markdown formatcontent of the result formatted in the markdown markup language */
 

@@ -14,10 +14,12 @@ export interface IHunspellInfo   {
     }
 
 export class HunspellInfo  implements IHunspellInfo {
+
     
     /** spellcheck language code */
 
     hunspell_language_code?: string | undefined;
+
     
     /** array of misspelled words */
 

@@ -95,6 +95,7 @@ possible values: us, de */
     }
 
 export class OnPagePageScreenshotRequestInfo  implements IOnPagePageScreenshotRequestInfo {
+
     
     /** page url
 required field
@@ -102,6 +103,7 @@ absolute URL of the page to snap
 note: if the URL you indicate here returns a 404 status code or the indicated value is not a valid URL, you will obtain 'error_message':'Screenshot is empty' in the response array */
 
     url?: string | undefined;
+
     
     /** language header for accessing the website
 optional field
@@ -109,6 +111,7 @@ all locale formats are supported (xx, xx-XX, xxx-XX, etc.)
 note: if you do not specify this parameter, some websites may deny access; in this case, you will obtain 'error_message':'Screenshot is empty' in the response array */
 
     accept_language?: string | undefined;
+
     
     /** custom user agent
 optional field
@@ -118,6 +121,7 @@ example: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHT
 default value: Mozilla/5.0 (compatible; RSiteAuditor) */
 
     custom_user_agent?: string | undefined;
+
     
     /** preset for browser screen parameters
 optional field
@@ -139,6 +143,7 @@ browser_screen_scale_factor: 2
 Note: in this endpoint, the enable_browser_rendering, enable_javascript, load_resources, and enable_xhr parameters are always enabled. */
 
     browser_preset?: string | undefined;
+
     
     /** browser screen width
 optional field
@@ -148,6 +153,7 @@ minimum value, in pixels: 240
 maximum value, in pixels: 9999 */
 
     browser_screen_width?: number | undefined;
+
     
     /** browser screen height
 optional field
@@ -157,6 +163,7 @@ minimum value, in pixels: 240
 maximum value, in pixels: 9999 */
 
     browser_screen_height?: number | undefined;
+
     
     /** browser screen scale factor
 optional field
@@ -166,6 +173,7 @@ minimum value: 0.5
 maximum value: 3 */
 
     browser_screen_scale_factor?: number | undefined;
+
     
     /** take a screenshot of the full page
 optional field
@@ -173,6 +181,7 @@ set to false if you want to capture only the part of the page displayed before s
 default value: true */
 
     full_page_screenshot?: boolean | undefined;
+
     
     /** disable the cookie popup 
 optional field
@@ -181,6 +190,7 @@ default value:
 false */
 
     disable_cookie_popup?: boolean | undefined;
+
     
     /** switch proxy pool
 optional field
@@ -188,6 +198,7 @@ if true, additional proxy pools will be used to obtain the requested data;
 the parameter can be used if a multitude of tasks is set simultaneously, resulting in occasional rate-limit and/or site_unreachable errors */
 
     switch_pool?: boolean | undefined;
+
     
     /** proxy pool
 optional field

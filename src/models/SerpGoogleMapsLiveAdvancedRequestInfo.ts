@@ -1,6 +1,6 @@
 export interface ISerpGoogleMapsLiveAdvancedRequestInfo   {
         
-        /** keywordrequired fieldyou can specify up to 700 characters in the keyword fieldall %## will be decoded (plus character '+' will be decoded to a space character)if you need to use the '%' character for your keyword, please specify it as '%25';if you need to use the “+” character for your keyword, please specify it as “%2B”;if this field contains such parameters as 'allinanchor:', 'allintext:', 'allintitle:', 'allinurl:', ‘cache:’, 'define:', 'filetype:', 'id:', 'inanchor:', 'info:', 'intext:', 'intitle:', 'inurl:', 'link:', 'related:', 'site:', the charge per task will be multiplied by 5learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
+        /** keywordrequired fieldyou can specify up to 700 characters in the keyword fieldall %## will be decoded (plus character '+' will be decoded to a space character)if you need to use the '%' character for your keyword, please specify it as '%25';if you need to use the “+” character for your keyword, please specify it as “%2B”;learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
         keyword?: string | undefined
         
         /** search engine location coderequired field if you don't specify location_name or location_coordinateif you use this field, you don't need to specify location_name or location_coordinateyou can receive the list of available locations of the search engines with their location_code by making a separate request to the https://api.dataforseo.com/v3/serp/google/locationsexample:2840 */
@@ -9,107 +9,44 @@ export interface ISerpGoogleMapsLiveAdvancedRequestInfo   {
         /** search engine language coderequired field if you don't specify language_nameif you use this field, you don't need to specify language_nameyou can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/serp/google/languagesexample:en */
         language_code?: string | undefined
         
-        /** parsing depthoptional fieldnumber of results in SERPdefault value: 100max value: 700Your account will be billed per each SERP containing up to 100 results;Setting depth above 100 may result in additional charges if the search engine returns more than 100 results;The cost can be calculated on the Pricing page. */
+        /** parsing depthoptional fieldnumber of results in SERPdefault value: 100max value: 700
+Your account will be billed per each SERP containing up to 100 results;Setting depth above 100 may result in additional charges if the search engine returns more than 100 results;The cost can be calculated on the Pricing page. */
         depth?: number | undefined
         
         /** device typeoptional fieldreturn results for a specific device typecan take the values:desktop, mobiledefault value: desktopnote: for mobile device, only 20 results are returned for every SERP */
         device?: string | undefined
-        
-        /** full name of search engine locationrequired field if you don't specify location_code or location_coordinateif you use this field, you don't need to specify location_code or location_coordinateyou can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/serp/google/locationsexample:London,England,United Kingdom */
-        location_name?: string | undefined
-        
-        /** full name of search engine languagerequired field if you don't specify language_codeif you use this field, you don't need to specify language_codeyou can receive the list of available languages  of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/serp/google/languagesexample:English */
-        language_name?: string | undefined
-        
-        /** device operating systemoptional fieldif you specify desktop in the device field, choose from the following values: windows, macosdefault value: windowsif you specify mobile in the device field, choose from the following values: android, iosdefault value: android */
-        os?: string | undefined
-        
-        /** user-defined task identifieroptional fieldthe character limit is 255you can use this parameter to identify the task and match it with the resultyou will find the specified tag value in the data object of the response */
-        tag?: string | undefined
-        
-        /** page crawl limitoptional fieldnumber of search results pages to crawlmax value: 100Note: the max_crawl_pages and depth parameters complement each other;learn more at our help center */
-        max_crawl_pages?: number | undefined
-        
-        /** direct URL of the search queryoptional fieldyou can specify a direct URL and we will sort it out to the necessary fields. Note that this method is the most difficult for our API to process and also requires you to specify the exact language and location in the URL. In most cases, we wouldn’t recommend using this method.example:https://google.com/maps/search/pizza/@37.09024,-95.712891,4zNote: the following search engine parameters are not supported and will be automatically unset if specified in the URL: allinanchor:, allintext:, allintitle:, allinurl:, cache:, define:, definition:, filetype:, id:, inanchor:, info:, intext:, intitle:, inurl:, link:, site:. */
-        url?: string | undefined
-        
-        /** GPS coordinates of a locationrequired field if you don't specify location_name or location_codeif you use this field, you don't need to specify location_name or location_codelocation_coordinate parameter should be specified in the 'latitude,longitude,zoom' formatif 'zoom' is not specified, 17z will be applied as a default valuethe maximum number of decimal digits for 'latitude' and 'longitude': 7the minimum value for 'zoom': 3zthe maximum value for 'zoom': 21zexample:52.6178549,-155.352142,20z */
-        location_coordinate?: string | undefined
-        
-        /** search engine domainoptional fieldwe choose the relevant search engine domain automatically according to the location and language you specifyhowever, you can set a custom search engine domain in this fieldexample:google.co.uk, google.com.au, google.de, etc. */
-        se_domain?: string | undefined
-        
-        /** show results from the displayed areaoptional fieldcan take the values:true, falsedefault value: trueif set to false, the search_this_area mode will be turned offNote: if the search_this_area mode is turned off, Google Maps listings might contain results beyond the displayed area */
-        search_this_area?: boolean | undefined
-        
-        /** search places modeoptional fieldthe search places mode allows to obtain Google Maps results on a certain place (e.g., Apple Store in New York)however, due to the pecularities of our data mining algorithm, this mode might interfere with some local-intent queries - and display results for a location that is different from that specified in the request;to prevent this interference and obtain correct results for keywords with local intent you may set this parameter to false;default value: trueNote: if the search_places mode is turned off and no results were found in the search area, the results array will be empty */
-        search_places?: boolean | undefined
 
     [key: string]: any;
 
     }
 
 export class SerpGoogleMapsLiveAdvancedRequestInfo  implements ISerpGoogleMapsLiveAdvancedRequestInfo {
+
     
-    /** keywordrequired fieldyou can specify up to 700 characters in the keyword fieldall %## will be decoded (plus character '+' will be decoded to a space character)if you need to use the '%' character for your keyword, please specify it as '%25';if you need to use the “+” character for your keyword, please specify it as “%2B”;if this field contains such parameters as 'allinanchor:', 'allintext:', 'allintitle:', 'allinurl:', ‘cache:’, 'define:', 'filetype:', 'id:', 'inanchor:', 'info:', 'intext:', 'intitle:', 'inurl:', 'link:', 'related:', 'site:', the charge per task will be multiplied by 5learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
+    /** keywordrequired fieldyou can specify up to 700 characters in the keyword fieldall %## will be decoded (plus character '+' will be decoded to a space character)if you need to use the '%' character for your keyword, please specify it as '%25';if you need to use the “+” character for your keyword, please specify it as “%2B”;learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keyword?: string | undefined;
+
     
     /** search engine location coderequired field if you don't specify location_name or location_coordinateif you use this field, you don't need to specify location_name or location_coordinateyou can receive the list of available locations of the search engines with their location_code by making a separate request to the https://api.dataforseo.com/v3/serp/google/locationsexample:2840 */
 
     location_code?: number | undefined;
+
     
     /** search engine language coderequired field if you don't specify language_nameif you use this field, you don't need to specify language_nameyou can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/serp/google/languagesexample:en */
 
     language_code?: string | undefined;
+
     
-    /** parsing depthoptional fieldnumber of results in SERPdefault value: 100max value: 700Your account will be billed per each SERP containing up to 100 results;Setting depth above 100 may result in additional charges if the search engine returns more than 100 results;The cost can be calculated on the Pricing page. */
+    /** parsing depthoptional fieldnumber of results in SERPdefault value: 100max value: 700
+Your account will be billed per each SERP containing up to 100 results;Setting depth above 100 may result in additional charges if the search engine returns more than 100 results;The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
+
     
     /** device typeoptional fieldreturn results for a specific device typecan take the values:desktop, mobiledefault value: desktopnote: for mobile device, only 20 results are returned for every SERP */
 
     device?: string | undefined;
-    
-    /** full name of search engine locationrequired field if you don't specify location_code or location_coordinateif you use this field, you don't need to specify location_code or location_coordinateyou can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/serp/google/locationsexample:London,England,United Kingdom */
-
-    location_name?: string | undefined;
-    
-    /** full name of search engine languagerequired field if you don't specify language_codeif you use this field, you don't need to specify language_codeyou can receive the list of available languages  of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/serp/google/languagesexample:English */
-
-    language_name?: string | undefined;
-    
-    /** device operating systemoptional fieldif you specify desktop in the device field, choose from the following values: windows, macosdefault value: windowsif you specify mobile in the device field, choose from the following values: android, iosdefault value: android */
-
-    os?: string | undefined;
-    
-    /** user-defined task identifieroptional fieldthe character limit is 255you can use this parameter to identify the task and match it with the resultyou will find the specified tag value in the data object of the response */
-
-    tag?: string | undefined;
-    
-    /** page crawl limitoptional fieldnumber of search results pages to crawlmax value: 100Note: the max_crawl_pages and depth parameters complement each other;learn more at our help center */
-
-    max_crawl_pages?: number | undefined;
-    
-    /** direct URL of the search queryoptional fieldyou can specify a direct URL and we will sort it out to the necessary fields. Note that this method is the most difficult for our API to process and also requires you to specify the exact language and location in the URL. In most cases, we wouldn’t recommend using this method.example:https://google.com/maps/search/pizza/@37.09024,-95.712891,4zNote: the following search engine parameters are not supported and will be automatically unset if specified in the URL: allinanchor:, allintext:, allintitle:, allinurl:, cache:, define:, definition:, filetype:, id:, inanchor:, info:, intext:, intitle:, inurl:, link:, site:. */
-
-    url?: string | undefined;
-    
-    /** GPS coordinates of a locationrequired field if you don't specify location_name or location_codeif you use this field, you don't need to specify location_name or location_codelocation_coordinate parameter should be specified in the 'latitude,longitude,zoom' formatif 'zoom' is not specified, 17z will be applied as a default valuethe maximum number of decimal digits for 'latitude' and 'longitude': 7the minimum value for 'zoom': 3zthe maximum value for 'zoom': 21zexample:52.6178549,-155.352142,20z */
-
-    location_coordinate?: string | undefined;
-    
-    /** search engine domainoptional fieldwe choose the relevant search engine domain automatically according to the location and language you specifyhowever, you can set a custom search engine domain in this fieldexample:google.co.uk, google.com.au, google.de, etc. */
-
-    se_domain?: string | undefined;
-    
-    /** show results from the displayed areaoptional fieldcan take the values:true, falsedefault value: trueif set to false, the search_this_area mode will be turned offNote: if the search_this_area mode is turned off, Google Maps listings might contain results beyond the displayed area */
-
-    search_this_area?: boolean | undefined;
-    
-    /** search places modeoptional fieldthe search places mode allows to obtain Google Maps results on a certain place (e.g., Apple Store in New York)however, due to the pecularities of our data mining algorithm, this mode might interfere with some local-intent queries - and display results for a location that is different from that specified in the request;to prevent this interference and obtain correct results for keywords with local intent you may set this parameter to false;default value: trueNote: if the search_places mode is turned off and no results were found in the search area, the results array will be empty */
-
-    search_places?: boolean | undefined;
 
     [key: string]: any;
 
@@ -136,16 +73,6 @@ export class SerpGoogleMapsLiveAdvancedRequestInfo  implements ISerpGoogleMapsLi
             this.language_code = data["language_code"];
             this.depth = data["depth"];
             this.device = data["device"];
-            this.location_name = data["location_name"];
-            this.language_name = data["language_name"];
-            this.os = data["os"];
-            this.tag = data["tag"];
-            this.max_crawl_pages = data["max_crawl_pages"];
-            this.url = data["url"];
-            this.location_coordinate = data["location_coordinate"];
-            this.se_domain = data["se_domain"];
-            this.search_this_area = data["search_this_area"];
-            this.search_places = data["search_places"];
         }
     }
 
@@ -168,16 +95,6 @@ export class SerpGoogleMapsLiveAdvancedRequestInfo  implements ISerpGoogleMapsLi
         data["language_code"] = this.language_code;
         data["depth"] = this.depth;
         data["device"] = this.device;
-        data["location_name"] = this.location_name;
-        data["language_name"] = this.language_name;
-        data["os"] = this.os;
-        data["tag"] = this.tag;
-        data["max_crawl_pages"] = this.max_crawl_pages;
-        data["url"] = this.url;
-        data["location_coordinate"] = this.location_coordinate;
-        data["se_domain"] = this.se_domain;
-        data["search_this_area"] = this.search_this_area;
-        data["search_places"] = this.search_places;
         return data;
     }
 }

@@ -12,6 +12,7 @@ export interface IBacklinksDomainIntersectionLiveTaskInfo  extends IBaseResponse
     }
 
 export class BacklinksDomainIntersectionLiveTaskInfo  extends BaseResponseTaskInfo   implements IBacklinksDomainIntersectionLiveTaskInfo {
+
     
     /** array of results */
 

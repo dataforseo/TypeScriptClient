@@ -20,22 +20,27 @@ export interface IPreviewVideos   {
     }
 
 export class PreviewVideos  implements IPreviewVideos {
+
     
     /** ID of the video */
 
     video_id?: string | undefined;
+
     
     /** title of the video */
 
     title?: string | undefined;
+
     
     /** URL of the video */
 
     url?: string | undefined;
+
     
     /** duration of the video */
 
     duration_time?: string | undefined;
+
     
     /** duration of the video in seconds */
 

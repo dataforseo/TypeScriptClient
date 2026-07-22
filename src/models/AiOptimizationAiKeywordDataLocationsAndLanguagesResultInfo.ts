@@ -18,14 +18,17 @@ contains the languages which are supported for a specific location */
     }
 
 export class AiOptimizationAiKeywordDataLocationsAndLanguagesResultInfo  implements IAiOptimizationAiKeywordDataLocationsAndLanguagesResultInfo {
+
     
     /** location code */
 
     location_code?: number | undefined;
+
     
     /** full name of the location */
 
     location_name?: string | undefined;
+
     
     /** supported languages
 contains the languages which are supported for a specific location */

@@ -12,6 +12,7 @@ export interface IBusinessDataGoogleLocationsResponseInfo  extends IBaseResponse
     }
 
 export class BusinessDataGoogleLocationsResponseInfo  extends BaseResponseInfo   implements IBusinessDataGoogleLocationsResponseInfo {
+
     
     /** array of tasks */
 

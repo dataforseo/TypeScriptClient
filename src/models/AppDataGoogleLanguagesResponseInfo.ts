@@ -12,6 +12,7 @@ export interface IAppDataGoogleLanguagesResponseInfo  extends IBaseResponseInfo 
     }
 
 export class AppDataGoogleLanguagesResponseInfo  extends BaseResponseInfo   implements IAppDataGoogleLanguagesResponseInfo {
+
     
     /** array of tasks */
 

@@ -12,6 +12,7 @@ export interface ISerpYoutubeOrganicTaskGetAdvancedTaskInfo  extends IBaseRespon
     }
 
 export class SerpYoutubeOrganicTaskGetAdvancedTaskInfo  extends BaseResponseTaskInfo   implements ISerpYoutubeOrganicTaskGetAdvancedTaskInfo {
+
     
     /** array of results */
 

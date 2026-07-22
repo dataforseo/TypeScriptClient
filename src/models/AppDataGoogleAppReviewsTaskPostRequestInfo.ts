@@ -122,6 +122,7 @@ i.a., the # character will be encoded into %23 */
     }
 
 export class AppDataGoogleAppReviewsTaskPostRequestInfo  implements IAppDataGoogleAppReviewsTaskPostRequestInfo {
+
     
     /** id of the app
 required field
@@ -131,6 +132,7 @@ example:
 https://play.google.com/store/apps/details?id=org.telegram.messenger */
 
     app_id?: string | undefined;
+
     
     /** full name of search engine location
 required field if you don’t specify location_code
@@ -140,6 +142,7 @@ example:
 West Los Angeles,California,United States */
 
     location_name?: string | undefined;
+
     
     /** search engine location code
 required field if you don’t specify location_name
@@ -149,6 +152,7 @@ example:
 9061121 */
 
     location_code?: number | undefined;
+
     
     /** full name of search engine language
 required field if you don’t specify language_code
@@ -158,6 +162,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** search engine language code
 required field if you don’t specify language_name
@@ -167,6 +172,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** task priority
 optional field
@@ -177,6 +183,7 @@ You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
 
     priority?: number | undefined;
+
     
     /** parsing depth
 optional field
@@ -189,6 +196,7 @@ Setting depth above 150 may result in additional charges if the search engine re
 The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
+
     
     /** filter reviews by rating
 optional field
@@ -202,6 +210,7 @@ possible types of filtering:
 by default, the API returns all reviews regardless of the number of stars */
 
     rating?: number | undefined;
+
     
     /** results sorting parameters
 optional field
@@ -212,6 +221,7 @@ most_relevant — sort by the most relevant reviews;
 default rule: most_relevant */
 
     sort_by?: string | undefined;
+
     
     /** user-defined task identifier
 optional field
@@ -220,6 +230,7 @@ you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
     tag?: string | undefined;
+
     
     /** URL for sending task results
 optional field
@@ -232,6 +243,7 @@ Note: special characters in postback_url will be urlencoded;
 i.a., the # character will be encoded into %23 */
 
     postback_url?: string | undefined;
+
     
     /** postback_url datatype
 required field if you specify postback_url
@@ -240,6 +252,7 @@ possible values:
 advanced, html */
 
     postback_data?: string | undefined;
+
     
     /** notification URL of a completed task
 optional field

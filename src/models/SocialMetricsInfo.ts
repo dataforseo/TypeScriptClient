@@ -11,10 +11,12 @@ export interface ISocialMetricsInfo   {
     }
 
 export class SocialMetricsInfo  implements ISocialMetricsInfo {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** likes count */
 

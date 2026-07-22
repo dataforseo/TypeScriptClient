@@ -28,32 +28,39 @@ you can find the full list of general informational messages here */
     }
 
 export class BaseResponseInfo  implements IBaseResponseInfo {
+
     
     /** the current version of the API */
 
     version?: string | undefined;
+
     
     /** general status code
 you can find the full list of the response codes here */
 
     status_code?: number | undefined;
+
     
     /** general informational message
 you can find the full list of general informational messages here */
 
     status_message?: string | undefined;
+
     
     /** total execution time, seconds */
 
     time?: string | undefined;
+
     
     /** total tasks cost, USD */
 
     cost?: number | undefined;
+
     
     /** the number of tasks in the tasks array */
 
     tasks_count?: number | undefined;
+
     
     /** the number of tasks in the tasks array returned with an error */
 

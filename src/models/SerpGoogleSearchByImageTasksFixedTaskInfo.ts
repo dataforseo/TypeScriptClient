@@ -12,6 +12,7 @@ export interface ISerpGoogleSearchByImageTasksFixedTaskInfo  extends IBaseRespon
     }
 
 export class SerpGoogleSearchByImageTasksFixedTaskInfo  extends BaseResponseTaskInfo   implements ISerpGoogleSearchByImageTasksFixedTaskInfo {
+
     
     /** array of results */
 

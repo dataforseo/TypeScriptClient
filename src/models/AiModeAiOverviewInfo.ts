@@ -40,42 +40,52 @@ export interface IAiModeAiOverviewInfo   {
     }
 
 export class AiModeAiOverviewInfo  implements IAiModeAiOverviewInfo {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** group rank in SERPposition within a group of elements with identical type valuespositions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERPabsolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
+
     
     /** SERP pageSERP page on which the element ranks */
 
     page?: number | undefined;
+
     
     /** the alignment of the element in SERPcan take the following values:left, right */
 
     position?: string | undefined;
+
     
     /** the XPath of the element */
 
     xpath?: string | undefined;
+
     
     /** content of the element in markdown formatthe text of the ai_overview formatted in the markdown markup language */
 
     markdown?: string | undefined;
+
     
     /** elements of search results found in SERP */
 
     items?: BaseSerpApiAiModeAiOverviewElementItem[] | undefined;
+
     
     /** additional references relevant to the itemincludes references to webpages that may have been used to generate the ai_overview */
 
     references?: AiModeAiOverviewReferenceInfo[] | undefined;
+
     
     /** rectangle parameterscontains cartesian coordinates and pixel dimensions of the result's snippet in SERPequals null if calculate_rectangles in the POST request is not set to true */
 

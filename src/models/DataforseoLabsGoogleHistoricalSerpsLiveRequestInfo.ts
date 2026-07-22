@@ -69,6 +69,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo  implements IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo {
+
     
     /** keyword
 required field
@@ -78,6 +79,7 @@ if you need to use the “%” character for your keyword, please specify it as 
 if you need to use the “+” character for your keyword, please specify it as “%2B” */
 
     keyword?: string | undefined;
+
     
     /** starting date of the time range
 optional field
@@ -86,6 +88,7 @@ minimal possible value: 365 days from the current datetime value;
 date format: 'yyyy-mm-dd' */
 
     date_from?: string | undefined;
+
     
     /** ending date of the time range
 optional field
@@ -95,6 +98,7 @@ example:
 '2021-09-01' */
 
     date_to?: string | undefined;
+
     
     /** full name of the location
 required field if you don’t specify location_code
@@ -104,6 +108,7 @@ example:
 United Kingdom */
 
     location_name?: string | undefined;
+
     
     /** unique location identifier
 required field if you don’t specify location_name
@@ -113,6 +118,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** full name of the language
 required field if you don’t specify language_code
@@ -123,6 +129,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** unique language identifier
 required field if you don’t specify language_name
@@ -133,6 +140,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** user-defined task identifier
 optional field

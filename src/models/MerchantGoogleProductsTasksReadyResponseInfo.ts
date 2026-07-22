@@ -12,6 +12,7 @@ export interface IMerchantGoogleProductsTasksReadyResponseInfo  extends IBaseRes
     }
 
 export class MerchantGoogleProductsTasksReadyResponseInfo  extends BaseResponseInfo   implements IMerchantGoogleProductsTasksReadyResponseInfo {
+
     
     /** array of tasks */
 

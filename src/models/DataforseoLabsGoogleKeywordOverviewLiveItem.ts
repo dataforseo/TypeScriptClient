@@ -16,8 +16,7 @@ export interface IDataforseoLabsGoogleKeywordOverviewLiveItem   {
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
         keyword?: string | undefined
         
-        /** location code in a POST array
-if there is no data, then the value is null */
+        /** location code in a POST array */
         location_code?: number | undefined
         
         /** language code in a POST array */
@@ -61,61 +60,73 @@ learn about search intent in this help center article */
     }
 
 export class DataforseoLabsGoogleKeywordOverviewLiveItem  implements IDataforseoLabsGoogleKeywordOverviewLiveItem {
+
     
     /** search engine type */
 
     se_type?: string | undefined;
+
     
     /** keyword
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
 
     keyword?: string | undefined;
+
     
-    /** location code in a POST array
-if there is no data, then the value is null */
+    /** location code in a POST array */
 
     location_code?: number | undefined;
+
     
     /** language code in a POST array */
 
     language_code?: string | undefined;
+
     
     /** indicates data for Google and partner sites
 if true, the results are returned for owned, operated, and syndicated networks across Google and partner sites that host Google search;
 if false, the results are returned for Google search sites only */
 
     search_partners?: boolean | undefined;
+
     
     /** keyword data for the returned keyword */
 
     keyword_info?: KeywordInfo | undefined;
+
     
     /** contains keyword search volume normalized with Bing search volume */
 
     keyword_info_normalized_with_bing?: KeywordInfoNormalizedWithInfo | undefined;
+
     
     /** contains keyword search volume normalized with clickstream data */
 
     keyword_info_normalized_with_clickstream?: KeywordInfoNormalizedWithInfo | undefined;
+
     
     /** clickstream data for the returned keyword
 to retrieve results for this field, the parameter include_clickstream_data must be set to true */
 
     clickstream_keyword_info?: ClickstreamKeywordInfo | undefined;
+
     
     /** additional information about the keyword */
 
     keyword_properties?: KeywordProperties | undefined;
+
     
     /** SERP data
 the value will be null if you didn’t set the field include_serp_info to true in the POST array or if there is no SERP data for this keyword in our database */
 
     serp_info?: SerpInfo | undefined;
+
     
     /** backlink data for the returned keyword
 this object provides the average number of backlinks, referring pages and domains, as well as the average rank values among the top-10 websites ranking organically for the keyword */
 
     avg_backlinks_info?: AvgBacklinksInfo | undefined;
+
     
     /** search intent info for the returned keyword
 learn about search intent in this help center article */

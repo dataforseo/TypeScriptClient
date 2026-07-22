@@ -12,6 +12,7 @@ export interface IAiOptimizationPerplexityLlmResponsesLiveTaskInfo  extends IBas
     }
 
 export class AiOptimizationPerplexityLlmResponsesLiveTaskInfo  extends BaseResponseTaskInfo   implements IAiOptimizationPerplexityLlmResponsesLiveTaskInfo {
+
     
     /** array of results */
 

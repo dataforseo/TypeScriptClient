@@ -30,6 +30,7 @@ example:
     }
 
 export class EventDates  implements IEventDates {
+
     
     /** date and time when the event starts
 if time zone is specified in the event, value will be returned in the UTC format:
@@ -42,6 +43,7 @@ example:
 2019-11-15T12:57:46 */
 
     start_datetime?: string | undefined;
+
     
     /** date and time when the event ends
 if time zone is specified in the event, value will be returned in the UTC format:
@@ -54,6 +56,7 @@ example:
 2019-11-15T12:57:46 */
 
     end_datetime?: string | undefined;
+
     
     /** date or date range as it is displayed in SERP */
 

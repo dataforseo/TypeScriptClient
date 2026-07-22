@@ -14,14 +14,17 @@ export interface ISearchVolumeTrend   {
     }
 
 export class SearchVolumeTrend  implements ISearchVolumeTrend {
+
     
     /** search volume change in percent compared to the previous month */
 
     monthly?: number | undefined;
+
     
     /** search volume change in percent compared to the previous quarter */
 
     quarterly?: number | undefined;
+
     
     /** search volume change in percent compared to the previous year */
 

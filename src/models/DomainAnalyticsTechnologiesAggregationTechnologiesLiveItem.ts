@@ -29,32 +29,39 @@ number of domains that match the parameters you specified and are using the indi
     }
 
 export class DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem  implements IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** technology group id */
 
     group?: string | undefined;
+
     
     /** technology category id */
 
     category?: string | undefined;
+
     
     /** technology name */
 
     technology?: string | undefined;
+
     
     /** technology groups count
 number of domains that match the parameters you specified and are using technologies from the indicated group */
 
     groups_count?: number | undefined;
+
     
     /** technology categories count
 number of domains that match the parameters you specified and are using technologies from the indicated category */
 
     categories_count?: number | undefined;
+
     
     /** technologies count
 number of domains that match the parameters you specified and are using the indicated technology */

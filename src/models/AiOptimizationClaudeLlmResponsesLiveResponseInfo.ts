@@ -12,6 +12,7 @@ export interface IAiOptimizationClaudeLlmResponsesLiveResponseInfo  extends IBas
     }
 
 export class AiOptimizationClaudeLlmResponsesLiveResponseInfo  extends BaseResponseInfo   implements IAiOptimizationClaudeLlmResponsesLiveResponseInfo {
+
     
     /** array of tasks */
 

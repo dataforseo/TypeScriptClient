@@ -6,7 +6,7 @@ export interface IJobsElement   {
         /** title of a given link element */
         title?: string | undefined
         
-        /** description of the results element in SERP */
+        /** link description */
         description?: string | undefined
         
         /** location for which the job vacancy is posted */
@@ -30,7 +30,7 @@ example:
         /** salary */
         salary?: string | undefined
         
-        /** URL */
+        /** source URL */
         url?: string | undefined
 
     [key: string]: any;
@@ -38,30 +38,37 @@ example:
     }
 
 export class JobsElement  implements IJobsElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** title of a given link element */
 
     title?: string | undefined;
+
     
-    /** description of the results element in SERP */
+    /** link description */
 
     description?: string | undefined;
+
     
     /** location for which the job vacancy is posted */
 
     location?: string | undefined;
+
     
     /** author */
 
     author?: string | undefined;
+
     
     /** the time when the job was posted */
 
     job_posted_time?: string | undefined;
+
     
     /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -69,16 +76,19 @@ example:
 2019-11-15 12:57:46 +00:00 */
 
     timestamp?: string | undefined;
+
     
     /** contract type */
 
     contract_type?: string | undefined;
+
     
     /** salary */
 
     salary?: string | undefined;
+
     
-    /** URL */
+    /** source URL */
 
     url?: string | undefined;
 

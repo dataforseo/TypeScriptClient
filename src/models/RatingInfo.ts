@@ -18,19 +18,23 @@ here you can find the following elements: Max5, Percents, CustomMax */
     }
 
 export class RatingInfo  implements IRatingInfo {
+
     
     /** the type of rating
 here you can find the following elements: Max5, Percents, CustomMax */
 
     rating_type?: string | undefined;
+
     
     /** the value of the rating */
 
     value?: number | undefined;
+
     
     /** the amount of feedback */
 
     votes_count?: number | undefined;
+
     
     /** the maximum value for a rating_type */
 

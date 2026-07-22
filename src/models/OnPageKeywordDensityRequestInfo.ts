@@ -71,6 +71,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class OnPageKeywordDensityRequestInfo  implements IOnPageKeywordDensityRequestInfo {
+
     
     /** ID of the task
 required field
@@ -79,6 +80,7 @@ example:
 “07131248-1535-0216-1000-17384017ad04” */
 
     id?: string | undefined;
+
     
     /** number of words for a keyword
 required field
@@ -86,6 +88,7 @@ possible values:
 1, 2, 3, 4, 5 */
 
     keyword_length?: number | undefined;
+
     
     /** page URL
 optional field
@@ -94,6 +97,7 @@ if you use this field, the API response will contain only keywords from the spec
 a page should be specified with absolute URL (including http:// or https://) */
 
     url?: string | undefined;
+
     
     /** the maximum number of returned keywords
 optional field
@@ -101,6 +105,7 @@ default value: 100
 maximum value: 1000 */
 
     limit?: number | undefined;
+
     
     /** array of results filtering parameters
 optional field
@@ -120,6 +125,7 @@ example:
 The full list of possible filters is available by this link. */
 
     filters?: any[] | undefined;
+
     
     /** results sorting rules
 optional field
@@ -136,6 +142,7 @@ example:
 ['keyword,asc','frequency,desc'] */
 
     order_by?: string[] | undefined;
+
     
     /** user-defined task identifier
 optional field

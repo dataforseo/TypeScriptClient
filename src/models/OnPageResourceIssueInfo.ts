@@ -14,10 +14,12 @@ export interface IOnPageResourceIssueInfo   {
     }
 
 export class OnPageResourceIssueInfo  implements IOnPageResourceIssueInfo {
+
     
     /** resource errors */
 
     errors?: OnPageResourceIssueItemInfo[] | undefined;
+
     
     /** resource warnings */
 

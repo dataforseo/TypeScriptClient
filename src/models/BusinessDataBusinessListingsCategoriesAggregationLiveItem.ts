@@ -18,15 +18,18 @@ Google My Business general category that best describes the cluster of related c
     }
 
 export class BusinessDataBusinessListingsCategoriesAggregationLiveItem  implements IBusinessDataBusinessListingsCategoriesAggregationLiveItem {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** business categories
 Google My Business general category that best describes the cluster of related categories */
 
     categories?: string[] | undefined;
+
     
     /** aggregation of the category */
 

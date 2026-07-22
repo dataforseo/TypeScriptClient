@@ -18,14 +18,17 @@ ranking data relevant to the keywords that the provided application ranks for on
     }
 
 export class DataforseoLabsleBulkAppMetricsLiveItem  implements IDataforseoLabsleBulkAppMetricsLiveItem {
+
     
     /** search engine type */
 
     se_type?: string | undefined;
+
     
     /** id of the app in a POST array */
 
     app_id?: string | undefined;
+
     
     /** metrics for the ranking keywords of the app
 ranking data relevant to the keywords that the provided application ranks for on Google Play */

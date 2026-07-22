@@ -20,18 +20,22 @@ export interface IBacklinksReferringNetworksLiveResultInfo   {
     }
 
 export class BacklinksReferringNetworksLiveResultInfo  implements IBacklinksReferringNetworksLiveResultInfo {
+
     
     /** target in a POST array */
 
     target?: string | undefined;
+
     
     /** total number of relevant items in the database */
 
     total_count?: number | undefined;
+
     
     /** number of items in the items array */
 
     items_count?: number | undefined;
+
     
     /** items array */
 

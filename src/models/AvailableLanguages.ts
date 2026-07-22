@@ -22,24 +22,29 @@ only google and bing are currently available */
     }
 
 export class AvailableLanguages  implements IAvailableLanguages {
+
     
     /** supported sources
 contains the sources of data supported for a specific location and language combination
 only google and bing are currently available */
 
     available_sources?: string[] | undefined;
+
     
     /** language name */
 
     language_name?: string | undefined;
+
     
     /** language code according to ISO 639-1 */
 
     language_code?: string | undefined;
+
     
     /** the number of keywords available for the given location and language */
 
     keywords?: number | undefined;
+
     
     /** the number of SERP pages available for the given location and language */
 

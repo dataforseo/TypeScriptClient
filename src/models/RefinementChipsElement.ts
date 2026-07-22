@@ -23,22 +23,27 @@ export interface IRefinementChipsElement   {
     }
 
 export class RefinementChipsElement  implements IRefinementChipsElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** title of the element */
 
     title?: string | undefined;
+
     
     /** search URL with refinement parameters */
 
     url?: string | undefined;
+
     
     /** domain in SERP */
 
     domain?: string | undefined;
+
     
     /** further search refinement options */
 

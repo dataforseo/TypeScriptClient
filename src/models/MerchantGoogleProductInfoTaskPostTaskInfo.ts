@@ -12,6 +12,7 @@ in this case, the value will be null */
     }
 
 export class MerchantGoogleProductInfoTaskPostTaskInfo  extends BaseResponseTaskInfo   implements IMerchantGoogleProductInfoTaskPostTaskInfo {
+
     
     /** array of results
 in this case, the value will be null */

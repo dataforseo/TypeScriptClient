@@ -11,10 +11,12 @@ export interface IAppDataAppleAppListingsCategoriesResultInfo   {
     }
 
 export class AppDataAppleAppListingsCategoriesResultInfo  implements IAppDataAppleAppListingsCategoriesResultInfo {
+
     
     /** name of the supported app category */
 
     category?: string | undefined;
+
     
     /** number of app listings that make up the supported app category */
 

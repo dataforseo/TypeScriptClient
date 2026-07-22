@@ -62,6 +62,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo  implements IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo {
+
     
     /** ids of the app
 required field
@@ -73,6 +74,7 @@ the id is org.telegram.messenger;
 the maximum number of IDs you can specify in this field is 1000 */
 
     app_ids?: string[] | undefined;
+
     
     /** full name of the location
 required field if you don’t specify location_code
@@ -84,6 +86,7 @@ example:
 United States */
 
     location_name?: string | undefined;
+
     
     /** location code
 required field if you don’t specify location_name
@@ -95,6 +98,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** full name of the language
 required field if you don’t specify language_code
@@ -106,6 +110,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** language code
 required field if you don’t specify language_name
@@ -117,6 +122,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** user-defined task identifier
 optional field

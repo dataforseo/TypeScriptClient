@@ -3,20 +3,15 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IAiOptimizationGeminiLlmScraperTaskPostTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results
-in this case, the value will be null */
-        result?: any | undefined
+        result?: string | undefined
 
     [key: string]: any;
 
     }
 
 export class AiOptimizationGeminiLlmScraperTaskPostTaskInfo  extends BaseResponseTaskInfo   implements IAiOptimizationGeminiLlmScraperTaskPostTaskInfo {
-    
-    /** array of results
-in this case, the value will be null */
 
-    result?: any | undefined;
+    result?: string | undefined;
 
     [key: string]: any;
 

@@ -12,6 +12,7 @@ export interface IMerchantAmazonAsinTaskGetHtmlResponseInfo  extends IBaseRespon
     }
 
 export class MerchantAmazonAsinTaskGetHtmlResponseInfo  extends BaseResponseInfo   implements IMerchantAmazonAsinTaskGetHtmlResponseInfo {
+
     
     /** array of tasks */
 

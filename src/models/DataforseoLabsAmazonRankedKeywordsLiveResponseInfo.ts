@@ -12,6 +12,7 @@ export interface IDataforseoLabsAmazonRankedKeywordsLiveResponseInfo  extends IB
     }
 
 export class DataforseoLabsAmazonRankedKeywordsLiveResponseInfo  extends BaseResponseInfo   implements IDataforseoLabsAmazonRankedKeywordsLiveResponseInfo {
+
     
     /** array of tasks */
 

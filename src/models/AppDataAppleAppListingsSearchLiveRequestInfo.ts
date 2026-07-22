@@ -82,6 +82,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class AppDataAppleAppListingsSearchLiveRequestInfo  implements IAppDataAppleAppListingsSearchLiveRequestInfo {
+
     
     /** app categories
 optional field
@@ -90,6 +91,7 @@ you can get the full list of available app listing categories by this link
 you can specify up to 10 categories */
 
     categories?: string[] | undefined;
+
     
     /** keyword in the app’s description
 optional field
@@ -97,6 +99,7 @@ keywords that occur in the description of the app;
 can contain up to 200 characters */
 
     description?: string | undefined;
+
     
     /** keyword in the app’s title
 optional field
@@ -104,6 +107,7 @@ keywords that occur in the title of the app;
 can contain up to 200 characters */
 
     title?: string | undefined;
+
     
     /** array of results filtering parameters
 optional field
@@ -117,6 +121,7 @@ example:
 you can receive the list of available filters by making a separate request to https://api.dataforseo.com/v3/app_data/apple/app_listings/available_filters */
 
     filters?: any[] | undefined;
+
     
     /** results sorting rules
 optional field
@@ -133,6 +138,7 @@ example:
 ['item.rating.value,desc','item.rating.value,desc'] */
 
     order_by?: string[] | undefined;
+
     
     /** the maximum number of returned apps
 optional field
@@ -140,6 +146,7 @@ default value: 100
 maximum value: 1000 */
 
     limit?: number | undefined;
+
     
     /** offset in the results array of returned apps
 optional field
@@ -149,6 +156,7 @@ Note: we recommend using this parameter only when retrieving up to 10,000 result
 for retrieving over 10,000 results, use the offset_token instead. */
 
     offset?: number | undefined;
+
     
     /** token for subsequent requests
 optional field
@@ -160,6 +168,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 learn more about this parameter on our Help Center */
 
     offset_token?: string | undefined;
+
     
     /** user-defined task identifier
 optional field

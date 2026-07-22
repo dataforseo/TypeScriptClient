@@ -12,6 +12,7 @@ export interface IBusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo  ext
     }
 
 export class BusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo  extends BaseResponseInfo   implements IBusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo {
+
     
     /** array of tasks */
 

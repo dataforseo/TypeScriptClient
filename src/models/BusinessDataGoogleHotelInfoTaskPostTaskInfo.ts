@@ -12,6 +12,7 @@ in this case, the value will be null */
     }
 
 export class BusinessDataGoogleHotelInfoTaskPostTaskInfo  extends BaseResponseTaskInfo   implements IBusinessDataGoogleHotelInfoTaskPostTaskInfo {
+
     
     /** array of results
 in this case, the value will be null */

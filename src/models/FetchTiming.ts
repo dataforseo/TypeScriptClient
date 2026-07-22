@@ -1,6 +1,6 @@
 export interface IFetchTiming   {
         
-        /** indicates how many seconds it took to download a page */
+        /** total time it takes until a browser receives a complete response from a server (in milliseconds) */
         duration_time?: number | undefined
         
         /** time to start downloading the HTML resource
@@ -16,15 +16,18 @@ the amount of time the browser needs to complete downloading a page */
     }
 
 export class FetchTiming  implements IFetchTiming {
+
     
-    /** indicates how many seconds it took to download a page */
+    /** total time it takes until a browser receives a complete response from a server (in milliseconds) */
 
     duration_time?: number | undefined;
+
     
     /** time to start downloading the HTML resource
 the amount of time the browser needs to start downloading a page */
 
     fetch_start?: number | undefined;
+
     
     /** time to complete downloading the HTML resource
 the amount of time the browser needs to complete downloading a page */

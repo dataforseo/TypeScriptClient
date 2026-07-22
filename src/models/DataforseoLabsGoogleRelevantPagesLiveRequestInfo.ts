@@ -137,6 +137,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class DataforseoLabsGoogleRelevantPagesLiveRequestInfo  implements IDataforseoLabsGoogleRelevantPagesLiveRequestInfo {
+
     
     /** domain
 required field
@@ -144,6 +145,7 @@ the domain name of the target website
 the domain should be specified without https:// and www. */
 
     target?: string | undefined;
+
     
     /** full name of the location
 optional field
@@ -155,6 +157,7 @@ example:
 United Kingdom */
 
     location_name?: string | undefined;
+
     
     /** location code
 optional field
@@ -166,6 +169,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** full name of the language
 optional field
@@ -177,6 +181,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** language code
 optional field
@@ -188,6 +193,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** display results by item type
 optional field
@@ -199,6 +205,7 @@ default value:
 ['organic', 'paid'] */
 
     item_types?: string[] | undefined;
+
     
     /** include or exclude data from clickstream-based metrics in the result
 optional field
@@ -208,6 +215,7 @@ with this parameter enabled, you will be charged double the price for the reques
 learn more about how clickstream-based metrics are calculated in this help center article */
 
     include_clickstream_data?: boolean | undefined;
+
     
     /** the maximum number of returned pages
 optional field
@@ -215,6 +223,7 @@ default value: 100
 maximum value: 1000 */
 
     limit?: number | undefined;
+
     
     /** offset in the results array of returned pages
 optional field
@@ -222,6 +231,7 @@ default value: 0
 if you specify the 10 value, the first ten pages in the results array will be omitted and the data will be provided for the successive pages */
 
     offset?: number | undefined;
+
     
     /** data collection mode
 optional field
@@ -233,6 +243,7 @@ all — return metrics for both types of SERPs.
 default value: live */
 
     historical_serp_mode?: string | undefined;
+
     
     /** ignore highly similar keywords
 optional field
@@ -240,6 +251,7 @@ if set to true, only core keywords will be returned, all highly similar keyword
 default value: false */
 
     ignore_synonyms?: boolean | undefined;
+
     
     /** array of results filtering parameters
 optional field
@@ -256,6 +268,7 @@ example:
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
 
     filters?: any[] | undefined;
+
     
     /** results sorting rules
 optional field
@@ -275,6 +288,7 @@ default rule:
 Note: if the item_types array contains item types that are different from organic, the results will be ordered by the first item type in the array */
 
     order_by?: string[] | undefined;
+
     
     /** user-defined task identifier
 optional field

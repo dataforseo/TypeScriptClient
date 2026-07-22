@@ -127,12 +127,14 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class KeywordsDataBingKeywordsForSiteTaskPostRequestInfo  implements IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo {
+
     
     /** domain or URL
 required field
 the URL of the webpage or the domain to scan for possible keywords */
 
     target?: string | undefined;
+
     
     /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -142,6 +144,7 @@ example:
 London,England,United Kingdom */
 
     location_name?: string | undefined;
+
     
     /** search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -151,6 +154,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -161,6 +165,7 @@ example:
 52.6178549,-155.352142 */
 
     location_coordinate?: string | undefined;
+
     
     /** full name of search engine language
 required field if you don’t specify language_code
@@ -169,6 +174,7 @@ supported languages:
 English, French, German */
 
     language_name?: string | undefined;
+
     
     /** search engine language code
 required field if you don’t specify language_name
@@ -177,6 +183,7 @@ supported languages:
 en, fr, de */
 
     language_code?: string | undefined;
+
     
     /** keywords negative array
 optional field
@@ -185,6 +192,7 @@ You can specify a maximum of 200 terms that you want to exclude from the results
 the specified keywords will be converted to lowercase format */
 
     keywords_negative?: string[] | undefined;
+
     
     /** device type
 optional field
@@ -193,6 +201,7 @@ possible values: all, mobile, desktop, tablet
 default value: all */
 
     device?: string | undefined;
+
     
     /** results sorting parameters
 optional field
@@ -200,6 +209,7 @@ Use these parameters to sort the results by search_volume, cpc, competition or r
 default value: relevance */
 
     sort_by?: string | undefined;
+
     
     /** starting date of the time range
 optional field
@@ -211,6 +221,7 @@ example:
 Note: we do not recommend using a custom time range for the past year’s dates */
 
     date_from?: string | undefined;
+
     
     /** ending date of the time range
 optional field
@@ -223,6 +234,7 @@ example:
 Note: we do not recommend using a custom time range for the past year’s dates */
 
     date_to?: string | undefined;
+
     
     /** URL for sending task results
 optional field
@@ -236,6 +248,7 @@ i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
     postback_url?: string | undefined;
+
     
     /** notification URL of a completed task
 optional field
@@ -249,6 +262,7 @@ i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
     pingback_url?: string | undefined;
+
     
     /** Bing search partners type
 optional field
@@ -256,6 +270,7 @@ if you specify true, the results will be delivered for owned, operated, and synd
 default value: false – results are returned for Bing, AOL, and Yahoo search networks */
 
     search_partners?: boolean | undefined;
+
     
     /** user-defined task identifier
 optional field

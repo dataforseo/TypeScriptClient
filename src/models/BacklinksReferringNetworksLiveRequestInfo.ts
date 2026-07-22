@@ -129,6 +129,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class BacklinksReferringNetworksLiveRequestInfo  implements IBacklinksReferringNetworksLiveRequestInfo {
+
     
     /** domain, subdomain or webpage to get referring networks for
 required field
@@ -136,6 +137,7 @@ a domain or a subdomain should be specified without https:// and www.
 a page should be specified with absolute URL (including http:// or https://) */
 
     target?: string | undefined;
+
     
     /** indicates the type of network to get data for
 optional field
@@ -143,6 +145,7 @@ possible values: ip, subnet
 default value: ip */
 
     network_address_type?: string | undefined;
+
     
     /** the maximum number of returned networks
 optional field
@@ -150,6 +153,7 @@ default value: 100
 maximum value: 1000 */
 
     limit?: number | undefined;
+
     
     /** offset in the results array of returned networks
 optional field
@@ -157,6 +161,7 @@ default value: 0
 if you specify the 10 value, the first ten domains in the results array will be omitted and the data will be provided for the successive pages */
 
     offset?: number | undefined;
+
     
     /** maximum number of elements within internal arrays
 optional field
@@ -170,6 +175,7 @@ default value: 10
 maximum value: 1000 */
 
     internal_list_limit?: number | undefined;
+
     
     /** set what backlinks to return and count
 optional field
@@ -181,6 +187,7 @@ lost – lost backlinks will be returned and counted;
 default value: live */
 
     backlinks_status_type?: string | undefined;
+
     
     /** array of results filtering parameters
 optional field
@@ -200,6 +207,7 @@ example:
 The full list of possible filters is available here. */
 
     filters?: any[] | undefined;
+
     
     /** results sorting rules
 optional field
@@ -216,6 +224,7 @@ example:
 ['backlinks,desc','rank,asc'] */
 
     order_by?: string[] | undefined;
+
     
     /** filter the backlinks of your target
 optional field
@@ -226,6 +235,7 @@ example:
 'backlinks_filters': [['dofollow', '=', true]] */
 
     backlinks_filters?: any[] | undefined;
+
     
     /** indicates if the subdomains of the target will be included in the search
 optional field
@@ -233,6 +243,7 @@ if set to false, the subdomains will be ignored
 default value: true */
 
     include_subdomains?: boolean | undefined;
+
     
     /** indicates if indirect links to the target will be included in the results
 optional field
@@ -241,6 +252,7 @@ if set to false, indirect links will be ignored
 default value: true */
 
     include_indirect_links?: boolean | undefined;
+
     
     /** indicates whether the backlinks from subdomains of the target are excluded
 optional field
@@ -248,6 +260,7 @@ if set to false, the backlinks from subdomains of the target will be ommited and
 default value: true */
 
     exclude_internal_backlinks?: boolean | undefined;
+
     
     /** defines the scale used for calculating and displaying the rank, domain_from_rank, and page_from_rank values
 optional field
@@ -259,6 +272,7 @@ default value: one_thousand
 learn more about how this parameter works and how ranking metrics are calculated in this Help Center article */
 
     rank_scale?: string | undefined;
+
     
     /** user-defined task identifier
 optional field

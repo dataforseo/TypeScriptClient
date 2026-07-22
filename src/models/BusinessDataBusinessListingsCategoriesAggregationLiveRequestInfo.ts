@@ -75,6 +75,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo  implements IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo {
+
     
     /** business categories
 optional field
@@ -83,6 +84,7 @@ if you don’t use this field, we will return business listings found in the spe
 you can specify up to 10 categories */
 
     categories?: string[] | undefined;
+
     
     /** description of the element in SERP
 optional field
@@ -90,6 +92,7 @@ the description of the business entity for which the results are collected;
 can contain up to 200 characters */
 
     description?: string | undefined;
+
     
     /** title of the element in SERP
 optional field
@@ -97,11 +100,13 @@ the name of the business entity for which the results are collected;
 can contain up to 200 characters */
 
     title?: string | undefined;
+
     
     /** indicates whether the business is verified by its owner on Google Maps
 optional field */
 
     is_claimed?: boolean | undefined;
+
     
     /** GPS coordinates of a location
 optional field
@@ -113,6 +118,7 @@ example:
 53.476225,-2.243572,200 */
 
     location_coordinate?: string | undefined;
+
     
     /** array of results filtering parameters
 optional field
@@ -128,6 +134,7 @@ the full list of possible filters is available here.
 learn more about the initial dataset filters in this help center article. */
 
     initial_dataset_filters?: any[] | undefined;
+
     
     /** maximum number of elements within internal arrays
 optional field
@@ -135,6 +142,7 @@ you can use this field to limit the number of elements within the aggregated cat
 default value: 10 */
 
     internal_list_limit?: number | undefined;
+
     
     /** the maximum number of returned businesses
 optional field
@@ -142,11 +150,13 @@ default value: 100
 maximum value: 1000 */
 
     limit?: number | undefined;
+
     
     /** the maximum number of returned businesses
 optional field */
 
     offset?: number | undefined;
+
     
     /** user-defined task identifier
 optional field

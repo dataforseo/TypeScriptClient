@@ -12,6 +12,7 @@ export interface IBusinessDataTasksReadyResponseInfo  extends IBaseResponseInfo 
     }
 
 export class BusinessDataTasksReadyResponseInfo  extends BaseResponseInfo   implements IBusinessDataTasksReadyResponseInfo {
+
     
     /** array of tasks */
 

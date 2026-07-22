@@ -10,8 +10,7 @@ export interface IDataforseoLabsGoogleHistoricalKeywordDataLiveItem   {
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
         keyword?: string | undefined
         
-        /** location code in a POST array
-if there is no data, then the value is null */
+        /** location code in a POST array */
         location_code?: number | undefined
         
         /** language code in a POST array */
@@ -25,24 +24,28 @@ if there is no data, then the value is null */
     }
 
 export class DataforseoLabsGoogleHistoricalKeywordDataLiveItem  implements IDataforseoLabsGoogleHistoricalKeywordDataLiveItem {
+
     
     /** search engine type */
 
     se_type?: string | undefined;
+
     
     /** keyword
 keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
 
     keyword?: string | undefined;
+
     
-    /** location code in a POST array
-if there is no data, then the value is null */
+    /** location code in a POST array */
 
     location_code?: number | undefined;
+
     
     /** language code in a POST array */
 
     language_code?: string | undefined;
+
     
     /** array of objects with historical data for the keyword */
 

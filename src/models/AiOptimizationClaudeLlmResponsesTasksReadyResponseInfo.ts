@@ -12,6 +12,7 @@ export interface IAiOptimizationClaudeLlmResponsesTasksReadyResponseInfo  extend
     }
 
 export class AiOptimizationClaudeLlmResponsesTasksReadyResponseInfo  extends BaseResponseInfo   implements IAiOptimizationClaudeLlmResponsesTasksReadyResponseInfo {
+
     
     /** array of tasks */
 

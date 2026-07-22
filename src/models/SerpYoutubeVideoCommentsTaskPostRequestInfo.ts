@@ -112,6 +112,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class SerpYoutubeVideoCommentsTaskPostRequestInfo  implements ISerpYoutubeVideoCommentsTaskPostRequestInfo {
+
     
     /** ID of the video
 required field
@@ -120,6 +121,7 @@ example:
 vQXvyV0zIP4 */
 
     video_id?: string | undefined;
+
     
     /** search engine location code
 required field if you don't specify location_name
@@ -129,6 +131,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** search engine language code
 required field if you don't specify language_name
@@ -138,6 +141,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** parsing depth
 optional field
@@ -149,6 +153,7 @@ thus, setting a depth above 20 may result in additional charges if the search en
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
 
     depth?: number | undefined;
+
     
     /** task priority
 optional field
@@ -159,12 +164,14 @@ You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
 
     priority?: number | undefined;
+
     
     /** device type
 optional field
 only value: desktop */
 
     device?: string | undefined;
+
     
     /** notification URL of a completed task
 optional field
@@ -178,6 +185,7 @@ i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
     pingback_url?: string | undefined;
+
     
     /** return URL for sending task results
 optional field
@@ -191,6 +199,7 @@ i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
     postback_url?: string | undefined;
+
     
     /** postback_url datatype
 required field if you specify postback_url
@@ -199,6 +208,7 @@ possible value:
 advanced */
 
     postback_data?: string | undefined;
+
     
     /** full name of search engine location
 required field if you don't specify location_code
@@ -208,6 +218,7 @@ example:
 United States */
 
     location_name?: string | undefined;
+
     
     /** full name of search engine language
 required field if you don't specify language_code
@@ -217,6 +228,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** device operating system
 optional field
@@ -224,6 +236,7 @@ choose from the following values: windows, macos
 default value: windows */
 
     os?: string | undefined;
+
     
     /** user-defined task identifier
 optional field

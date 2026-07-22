@@ -15,10 +15,12 @@ values in this array represent percentages relative to the maximum value across 
     }
 
 export class InterestsComparison  implements IInterestsComparison {
+
     
     /** contains keyword popularity and related data */
 
     items?: AbsoluteItems[] | undefined;
+
     
     /** keyword popularity rates across all locations
 values in this array represent percentages relative to the maximum value across all locations */

@@ -12,6 +12,7 @@ export interface IDataforseoLabsAppleAppCompetitorsLiveTaskInfo  extends IBaseRe
     }
 
 export class DataforseoLabsAppleAppCompetitorsLiveTaskInfo  extends BaseResponseTaskInfo   implements IDataforseoLabsAppleAppCompetitorsLiveTaskInfo {
+
     
     /** array of results */
 

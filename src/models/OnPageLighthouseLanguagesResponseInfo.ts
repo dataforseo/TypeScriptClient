@@ -12,6 +12,7 @@ export interface IOnPageLighthouseLanguagesResponseInfo  extends IBaseResponseIn
     }
 
 export class OnPageLighthouseLanguagesResponseInfo  extends BaseResponseInfo   implements IOnPageLighthouseLanguagesResponseInfo {
+
     
     /** array of tasks */
 

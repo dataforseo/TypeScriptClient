@@ -3,10 +3,10 @@ export interface IKnowledgeGraphImagesElement   {
         /** type of element */
         type?: string | undefined
         
-        /** relevant URL in SERP */
+        /** relevant URL of the Ad element in SERP */
         url?: string | undefined
         
-        /** domain in SERP of the ad element */
+        /** domain in SERP */
         domain?: string | undefined
         
         /** alt tag of the image */
@@ -24,27 +24,33 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
     }
 
 export class KnowledgeGraphImagesElement  implements IKnowledgeGraphImagesElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
-    /** relevant URL in SERP */
+    /** relevant URL of the Ad element in SERP */
 
     url?: string | undefined;
+
     
-    /** domain in SERP of the ad element */
+    /** domain in SERP */
 
     domain?: string | undefined;
+
     
     /** alt tag of the image */
 
     alt?: string | undefined;
+
     
     /** URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
     image_url?: string | undefined;
+
     
     /** the XPath of the element */
 

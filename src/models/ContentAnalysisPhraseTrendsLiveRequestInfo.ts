@@ -113,6 +113,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class ContentAnalysisPhraseTrendsLiveRequestInfo  implements IContentAnalysisPhraseTrendsLiveRequestInfo {
+
     
     /** target keyword
 required field
@@ -124,6 +125,7 @@ example:
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keyword?: string | undefined;
+
     
     /** target keyword fields and target keywords
 optional field
@@ -138,6 +140,7 @@ example:
 } */
 
     keyword_fields?: { [key: string]: string; } | undefined;
+
     
     /** target page types
 optional field
@@ -146,6 +149,7 @@ possible values:
 'ecommerce', 'news', 'blogs', 'message-boards', 'organization' */
 
     page_type?: string[] | undefined;
+
     
     /** results grouping type
 optional field
@@ -155,6 +159,7 @@ one_per_domain – returns data on one citation of the keyword per domain
 default value: as_is */
 
     search_mode?: string | undefined;
+
     
     /** maximum number of elements within internal arrays
 optional field
@@ -168,6 +173,7 @@ default value: 1
 maximum value: 20 */
 
     internal_list_limit?: number | undefined;
+
     
     /** starting date of the time range
 required field
@@ -176,6 +182,7 @@ example:
 '2019-01-15' */
 
     date_from?: string | undefined;
+
     
     /** ending date of the time range
 optional field
@@ -185,6 +192,7 @@ example:
 '2019-01-15' */
 
     date_to?: string | undefined;
+
     
     /** time range which will be used to group the results
 optional field
@@ -192,6 +200,7 @@ default value: month
 possible values: day, week, month */
 
     date_group?: string | undefined;
+
     
     /** initial dataset filtering parameters
 optional field
@@ -213,6 +222,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 learn more about the initial dataset filters in this help center article. */
 
     initial_dataset_filters?: any[] | undefined;
+
     
     /** defines the scale used for calculating and displaying the rank values
 optional field
@@ -224,6 +234,7 @@ default value: one_thousand
 learn more about how this parameter works in this Help Center article */
 
     rank_scale?: string | undefined;
+
     
     /** user-defined task identifier
 optional field

@@ -12,6 +12,7 @@ export interface IAppDataAppleAppReviewsTaskPostResponseInfo  extends IBaseRespo
     }
 
 export class AppDataAppleAppReviewsTaskPostResponseInfo  extends BaseResponseInfo   implements IAppDataAppleAppReviewsTaskPostResponseInfo {
+
     
     /** array of tasks */
 

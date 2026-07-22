@@ -16,11 +16,13 @@ export interface ISpellInfo   {
     }
 
 export class SpellInfo  implements ISpellInfo {
+
     
     /** keyword obtained as a result of search engine autocorrection
  the results will be provided for the corrected keyword */
 
     keyword?: string | undefined;
+
     
     /** type of autocorrection
  possible values:

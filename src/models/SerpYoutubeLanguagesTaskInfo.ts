@@ -12,6 +12,7 @@ export interface ISerpYoutubeLanguagesTaskInfo  extends IBaseResponseTaskInfo   
     }
 
 export class SerpYoutubeLanguagesTaskInfo  extends BaseResponseTaskInfo   implements ISerpYoutubeLanguagesTaskInfo {
+
     
     /** array of results */
 

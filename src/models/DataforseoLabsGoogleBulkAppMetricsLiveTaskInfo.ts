@@ -12,6 +12,7 @@ export interface IDataforseoLabsGoogleBulkAppMetricsLiveTaskInfo  extends IBaseR
     }
 
 export class DataforseoLabsGoogleBulkAppMetricsLiveTaskInfo  extends BaseResponseTaskInfo   implements IDataforseoLabsGoogleBulkAppMetricsLiveTaskInfo {
+
     
     /** array of results */
 

@@ -12,6 +12,7 @@ export interface IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveResponseI
     }
 
 export class KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResponseInfo  extends BaseResponseInfo   implements IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveResponseInfo {
+
     
     /** array of tasks */
 

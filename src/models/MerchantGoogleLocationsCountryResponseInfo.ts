@@ -12,6 +12,7 @@ export interface IMerchantGoogleLocationsCountryResponseInfo  extends IBaseRespo
     }
 
 export class MerchantGoogleLocationsCountryResponseInfo  extends BaseResponseInfo   implements IMerchantGoogleLocationsCountryResponseInfo {
+
     
     /** array of tasks */
 

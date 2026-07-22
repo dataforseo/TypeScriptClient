@@ -15,10 +15,12 @@ indicates whether the establishment is opened or closed */
     }
 
 export class WorkHours  implements IWorkHours {
+
     
     /** work hours timetable */
 
     timetable?: { [key: string]: WorkDayInfo[]; } | undefined;
+
     
     /** current status of the establishment
 indicates whether the establishment is opened or closed */

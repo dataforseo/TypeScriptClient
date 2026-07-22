@@ -12,6 +12,7 @@ export interface IContentAnalysisPhraseTrendsLiveResponseInfo  extends IBaseResp
     }
 
 export class ContentAnalysisPhraseTrendsLiveResponseInfo  extends BaseResponseInfo   implements IContentAnalysisPhraseTrendsLiveResponseInfo {
+
     
     /** array of tasks */
 

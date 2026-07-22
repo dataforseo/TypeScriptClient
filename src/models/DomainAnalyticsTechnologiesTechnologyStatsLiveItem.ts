@@ -27,28 +27,34 @@ learn more about rank and how it is calculated in this help center article */
     }
 
 export class DomainAnalyticsTechnologiesTechnologyStatsLiveItem  implements IDomainAnalyticsTechnologiesTechnologyStatsLiveItem {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** date for which the data is provided */
 
     date?: string | undefined;
+
     
     /** number of domains that use the specified technology */
 
     domains_count?: number | undefined;
+
     
     /** distribution of websites by country
 contains country codes and number of websites per country */
 
     countries?: { [key: string]: number; } | undefined;
+
     
     /** distribution of websites by language
 contains language codes and number of websites per language */
 
     languages?: { [key: string]: number; } | undefined;
+
     
     /** distribution of websites by backlink rank
 contains domain rank ranges and number of websites per range

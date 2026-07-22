@@ -21,23 +21,28 @@ here you can find the following elements: Max5, Percents, CustomMax */
     }
 
 export class ContentRatingInfo  implements IContentRatingInfo {
+
     
     /** rating name
 here you can find the following elements: Max5, Percents, CustomMax */
 
     name?: string | undefined;
+
     
     /** the value of the rating */
 
     rating_value?: string | undefined;
+
     
     /** number of votes */
 
     rating_count?: string | undefined;
+
     
     /** maximum value for the rating name */
 
     max_rating_value?: string | undefined;
+
     
     /** relative rating */
 

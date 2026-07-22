@@ -12,6 +12,7 @@ export interface ISerpGoogleLocalFinderTasksReadyResponseInfo  extends IBaseResp
     }
 
 export class SerpGoogleLocalFinderTasksReadyResponseInfo  extends BaseResponseInfo   implements ISerpGoogleLocalFinderTasksReadyResponseInfo {
+
     
     /** array of tasks */
 

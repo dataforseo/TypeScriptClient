@@ -14,10 +14,12 @@ export interface IBaseMerchantAmazonProductInformationElementItem   {
     }
 
 export class BaseMerchantAmazonProductInformationElementItem  implements IBaseMerchantAmazonProductInformationElementItem {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** name of the section related to product information specified in the contents */
 
@@ -101,6 +103,7 @@ export interface IProductInformationProductInformationDetailsItem  extends IBase
     }
 
 export class ProductInformationProductInformationDetailsItem  extends BaseMerchantAmazonProductInformationElementItem   implements IProductInformationProductInformationDetailsItem {
+
     
     /** contains information specified about the product within the section_name */
 
@@ -157,6 +160,7 @@ export interface IProductInformationProductInformationTextItem  extends IBaseMer
     }
 
 export class ProductInformationProductInformationTextItem  extends BaseMerchantAmazonProductInformationElementItem   implements IProductInformationProductInformationTextItem {
+
     
     /** text specified under the given title within the section_name */
 
@@ -213,6 +217,7 @@ export interface IProductInformationProductInformationExtendedItem  extends IBas
     }
 
 export class ProductInformationProductInformationExtendedItem  extends BaseMerchantAmazonProductInformationElementItem   implements IProductInformationProductInformationExtendedItem {
+
     
     /** contains information specified about the product within the section_name */
 

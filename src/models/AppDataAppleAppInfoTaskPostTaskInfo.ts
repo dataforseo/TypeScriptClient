@@ -12,6 +12,7 @@ in this case, the value will be null */
     }
 
 export class AppDataAppleAppInfoTaskPostTaskInfo  extends BaseResponseTaskInfo   implements IAppDataAppleAppInfoTaskPostTaskInfo {
+
     
     /** array of results
 in this case, the value will be null */

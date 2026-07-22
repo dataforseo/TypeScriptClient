@@ -12,6 +12,7 @@ export interface IAppDataGoogleAppListTaskPostResponseInfo  extends IBaseRespons
     }
 
 export class AppDataGoogleAppListTaskPostResponseInfo  extends BaseResponseInfo   implements IAppDataGoogleAppListTaskPostResponseInfo {
+
     
     /** array of tasks */
 

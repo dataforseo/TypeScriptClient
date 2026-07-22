@@ -12,6 +12,7 @@ export interface IBusinessDataIdListTaskInfo  extends IBaseResponseTaskInfo    {
     }
 
 export class BusinessDataIdListTaskInfo  extends BaseResponseTaskInfo   implements IBusinessDataIdListTaskInfo {
+
     
     /** array of results */
 

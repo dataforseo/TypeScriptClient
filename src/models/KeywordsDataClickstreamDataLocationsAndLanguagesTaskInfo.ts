@@ -12,6 +12,7 @@ export interface IKeywordsDataClickstreamDataLocationsAndLanguagesTaskInfo  exte
     }
 
 export class KeywordsDataClickstreamDataLocationsAndLanguagesTaskInfo  extends BaseResponseTaskInfo   implements IKeywordsDataClickstreamDataLocationsAndLanguagesTaskInfo {
+
     
     /** array of results */
 

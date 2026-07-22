@@ -23,14 +23,17 @@ export interface IBaseChatGptLlmScraperElementItem   {
     }
 
 export class BaseChatGptLlmScraperElementItem  implements IBaseChatGptLlmScraperElementItem {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** group rank in SERPposition within a group of elements with identical type valuespositions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERPabsolute position among all the elements */
 
@@ -146,14 +149,17 @@ export interface IChatGptTextElementItem  extends IBaseChatGptLlmScraperElementI
     }
 
 export class ChatGptTextElementItem  extends BaseChatGptLlmScraperElementItem   implements IChatGptTextElementItem {
+
     
     /** content of the element in markdown formatcontent of the result formatted in the markdown markup language */
 
     markdown?: string | undefined;
+
     
     /** array of sources */
 
     sources?: SourceInfo[] | undefined;
+
     
     /** array of brand entitiescontains information on brands mentioned in the text */
 
@@ -249,18 +255,22 @@ export interface IChatGptTableElementItem  extends IBaseChatGptLlmScraperElement
     }
 
 export class ChatGptTableElementItem  extends BaseChatGptLlmScraperElementItem   implements IChatGptTableElementItem {
+
     
     /** text of the element */
 
     text?: string | undefined;
+
     
     /** content of the element in markdown formatcontent of the result formatted in the markdown markup language */
 
     markdown?: string | undefined;
+
     
     /** table present in the elementthe header and content of the table present in the element */
 
     table?: Table | undefined;
+
     
     /** array of brand entitiescontains information on brands mentioned in the text */
 
@@ -339,10 +349,12 @@ export interface IChatGptNavigationListElementItem  extends IBaseChatGptLlmScrap
     }
 
 export class ChatGptNavigationListElementItem  extends BaseChatGptLlmScraperElementItem   implements IChatGptNavigationListElementItem {
+
     
     /** name of the brand */
 
     title?: string | undefined;
+
     
     /** array of sources */
 
@@ -417,10 +429,12 @@ export interface IChatGptImagesElementItem  extends IBaseChatGptLlmScraperElemen
     }
 
 export class ChatGptImagesElementItem  extends BaseChatGptLlmScraperElementItem   implements IChatGptImagesElementItem {
+
     
     /** content of the element in markdown formatcontent of the result formatted in the markdown markup language */
 
     markdown?: string | undefined;
+
     
     /** elements of ChatGPT results */
 
@@ -492,6 +506,7 @@ export interface IChatGptProductsElementItem  extends IBaseChatGptLlmScraperElem
     }
 
 export class ChatGptProductsElementItem  extends BaseChatGptLlmScraperElementItem   implements IChatGptProductsElementItem {
+
     
     /** elements of ChatGPT results */
 
@@ -564,10 +579,12 @@ export interface IChatGptLocalBusinessesElementItem  extends IBaseChatGptLlmScra
     }
 
 export class ChatGptLocalBusinessesElementItem  extends BaseChatGptLlmScraperElementItem   implements IChatGptLocalBusinessesElementItem {
+
     
     /** content of the element in markdown formatcontent of the result formatted in the markdown markup language */
 
     markdown?: string | undefined;
+
     
     /** elements of ChatGPT results */
 
@@ -654,26 +671,32 @@ export interface IChatGptAdElementItem  extends IBaseChatGptLlmScraperElementIte
     }
 
 export class ChatGptAdElementItem  extends BaseChatGptLlmScraperElementItem   implements IChatGptAdElementItem {
+
     
     /** name of the brand */
 
     title?: string | undefined;
+
     
     /** source description */
 
     snippet?: string | undefined;
+
     
     /** URL */
 
     url?: string | undefined;
+
     
     /** domain */
 
     domain?: string | undefined;
+
     
     /** URL of the image displayed in the ad */
 
     image_url?: string | undefined;
+
     
     /** information about the advertiser associated with the ad */
 

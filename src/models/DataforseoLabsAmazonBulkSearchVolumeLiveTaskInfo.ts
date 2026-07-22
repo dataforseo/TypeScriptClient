@@ -12,6 +12,7 @@ export interface IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo  extends IBas
     }
 
 export class DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo  extends BaseResponseTaskInfo   implements IDataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo {
+
     
     /** array of results */
 

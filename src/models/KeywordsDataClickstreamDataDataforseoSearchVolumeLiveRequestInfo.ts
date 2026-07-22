@@ -58,6 +58,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo  implements IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo {
+
     
     /** target keywords
 required field
@@ -69,6 +70,7 @@ to learn more about which symbols and characters can be used, please refer to th
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keywords?: string[] | undefined;
+
     
     /** full name of search engine location
 required field if you don’t specify location_code 
@@ -77,6 +79,7 @@ example:
 United Kingdom */
 
     location_name?: string | undefined;
+
     
     /** search engine location code
 required field if you don’t specify location_name
@@ -85,6 +88,7 @@ example:
 2826 */
 
     location_code?: number | undefined;
+
     
     /** full name of search engine language
 required field if don’t specify language_code
@@ -93,6 +97,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** search engine language code
 required field if don’t specify language_name
@@ -101,6 +106,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** use clickstream data to provide results
 optional field
@@ -110,6 +116,7 @@ default value: true;
 Note: Bing search volume is available for locations provided in Bing Search Volume History Locations and Bing Ads Locations endpoints; search volume values for any other location are calculated based on clickstream data even if you set this parameter to false */
 
     use_clickstream?: boolean | undefined;
+
     
     /** user-defined task identifier
 optional field

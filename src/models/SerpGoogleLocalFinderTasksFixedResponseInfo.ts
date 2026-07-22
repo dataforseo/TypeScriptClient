@@ -12,6 +12,7 @@ export interface ISerpGoogleLocalFinderTasksFixedResponseInfo  extends IBaseResp
     }
 
 export class SerpGoogleLocalFinderTasksFixedResponseInfo  extends BaseResponseInfo   implements ISerpGoogleLocalFinderTasksFixedResponseInfo {
+
     
     /** array of tasks */
 

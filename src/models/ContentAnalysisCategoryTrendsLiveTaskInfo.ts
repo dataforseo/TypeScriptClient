@@ -12,6 +12,7 @@ export interface IContentAnalysisCategoryTrendsLiveTaskInfo  extends IBaseRespon
     }
 
 export class ContentAnalysisCategoryTrendsLiveTaskInfo  extends BaseResponseTaskInfo   implements IContentAnalysisCategoryTrendsLiveTaskInfo {
+
     
     /** array of results */
 

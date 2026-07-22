@@ -12,6 +12,7 @@ export interface IAppDataGoogleAppListingsSearchLiveTaskInfo  extends IBaseRespo
     }
 
 export class AppDataGoogleAppListingsSearchLiveTaskInfo  extends BaseResponseTaskInfo   implements IAppDataGoogleAppListingsSearchLiveTaskInfo {
+
     
     /** array of results */
 

@@ -11,10 +11,12 @@ export interface IDemographyComparisonInfo   {
     }
 
 export class DemographyComparisonInfo  implements IDemographyComparisonInfo {
+
     
     /** type of element */
 
     age?: { [key: string]: number[]; } | undefined;
+
     
     /** type of element */
 

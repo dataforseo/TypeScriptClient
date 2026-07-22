@@ -15,12 +15,14 @@ example:
     }
 
 export class GpsCoordinatesLocationInfo  implements IGpsCoordinatesLocationInfo {
+
     
     /** latitude coordinate of the hotel in google maps
 example:
 'latitude': 51.584091 */
 
     latitude?: number | undefined;
+
     
     /** longitude coordinate of the hotel in google maps
 example:

@@ -12,6 +12,7 @@ export interface IOnPagePagesByResourceTaskInfo  extends IBaseResponseTaskInfo  
     }
 
 export class OnPagePagesByResourceTaskInfo  extends BaseResponseTaskInfo   implements IOnPagePagesByResourceTaskInfo {
+
     
     /** array of results */
 

@@ -15,15 +15,18 @@ for example: zip, html, csv */
     }
 
 export class FormatsElement  implements IFormatsElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** type of file format of the dataset
 for example: zip, html, csv */
 
     format?: string | undefined;
+
     
     /** file size in bytes */
 

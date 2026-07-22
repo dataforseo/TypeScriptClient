@@ -12,6 +12,7 @@ export interface IMerchantAmazonLocationsCountryResponseInfo  extends IBaseRespo
     }
 
 export class MerchantAmazonLocationsCountryResponseInfo  extends BaseResponseInfo   implements IMerchantAmazonLocationsCountryResponseInfo {
+
     
     /** array of tasks */
 

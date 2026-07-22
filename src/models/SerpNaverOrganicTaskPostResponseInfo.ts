@@ -12,6 +12,7 @@ export interface ISerpNaverOrganicTaskPostResponseInfo  extends IBaseResponseInf
     }
 
 export class SerpNaverOrganicTaskPostResponseInfo  extends BaseResponseInfo   implements ISerpNaverOrganicTaskPostResponseInfo {
+
     
     /** array of tasks */
 

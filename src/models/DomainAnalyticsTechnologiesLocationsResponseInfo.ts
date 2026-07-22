@@ -12,6 +12,7 @@ export interface IDomainAnalyticsTechnologiesLocationsResponseInfo  extends IBas
     }
 
 export class DomainAnalyticsTechnologiesLocationsResponseInfo  extends BaseResponseInfo   implements IDomainAnalyticsTechnologiesLocationsResponseInfo {
+
     
     /** array of tasks */
 

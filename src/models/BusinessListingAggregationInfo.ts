@@ -11,7 +11,8 @@ country codes with the biggest number of businesses in the category */
         /** number of unique websites */
         websites_count?: number | undefined
         
-        /** number of unique entities */
+        /** item types
+the number of items in the items array */
         count?: number | undefined
         
         /** the most mentioned service details
@@ -27,29 +28,36 @@ contains most popular keywords related to products/services mentioned in custome
     }
 
 export class BusinessListingAggregationInfo  implements IBusinessListingAggregationInfo {
+
     
     /** the most mentioned related categories
 top categories displayed with the number of businesses in each category */
 
     top_categories?: { [key: string]: number; } | undefined;
+
     
     /** the most mentioned counties
 country codes with the biggest number of businesses in the category */
 
     top_countries?: { [key: string]: number; } | undefined;
+
     
     /** number of unique websites */
 
     websites_count?: number | undefined;
+
     
-    /** number of unique entities */
+    /** item types
+the number of items in the items array */
 
     count?: number | undefined;
+
     
     /** the most mentioned service details
 service details of a business entity displayed in a form of checks and the number of entities mentioning each attribute */
 
     top_attributes?: { [key: string]: number; } | undefined;
+
     
     /** top keywords mentioned in customer reviews
 contains most popular keywords related to products/services mentioned in customer reviews of a business entity and the number of reviews mentioning each keyword */

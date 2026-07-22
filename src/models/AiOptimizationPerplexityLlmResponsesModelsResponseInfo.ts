@@ -12,6 +12,7 @@ export interface IAiOptimizationPerplexityLlmResponsesModelsResponseInfo  extend
     }
 
 export class AiOptimizationPerplexityLlmResponsesModelsResponseInfo  extends BaseResponseInfo   implements IAiOptimizationPerplexityLlmResponsesModelsResponseInfo {
+
     
     /** array of tasks */
 

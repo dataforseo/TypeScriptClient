@@ -18,14 +18,17 @@ array of objects with search volume rates in a certain month of a year */
     }
 
 export class KeywordsDataClickstreamDataSearchVolumeLiveItem  implements IKeywordsDataClickstreamDataSearchVolumeLiveItem {
+
     
     /** keyword provided in the POST array */
 
     keyword?: string | undefined;
+
     
     /** current search volume rate of a keyword */
 
     search_volume?: number | undefined;
+
     
     /** monthly search volume rates
 array of objects with search volume rates in a certain month of a year */

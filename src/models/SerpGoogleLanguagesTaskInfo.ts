@@ -12,6 +12,7 @@ export interface ISerpGoogleLanguagesTaskInfo  extends IBaseResponseTaskInfo    
     }
 
 export class SerpGoogleLanguagesTaskInfo  extends BaseResponseTaskInfo   implements ISerpGoogleLanguagesTaskInfo {
+
     
     /** array of results */
 

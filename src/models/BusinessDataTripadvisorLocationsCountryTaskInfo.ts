@@ -12,6 +12,7 @@ export interface IBusinessDataTripadvisorLocationsCountryTaskInfo  extends IBase
     }
 
 export class BusinessDataTripadvisorLocationsCountryTaskInfo  extends BaseResponseTaskInfo   implements IBusinessDataTripadvisorLocationsCountryTaskInfo {
+
     
     /** array of results */
 

@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpGoogleMapsTaskPostTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **SerpGoogleMapsTaskPostTaskInfo[]** |  |[optional]|

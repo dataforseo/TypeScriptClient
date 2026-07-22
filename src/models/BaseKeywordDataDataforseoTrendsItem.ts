@@ -14,8 +14,7 @@ export interface IBaseKeywordDataDataforseoTrendsItem   {
 can take the following values: 1, 2, 3, 4, etc. */
         position?: number | undefined
         
-        /** relevant keywords
-the data included in the dataforseo_trends_graph element is based on the keywords listed in this array */
+        /** keywords in a POST array */
         keywords?: string[] | undefined
 
     [key: string]: any;
@@ -23,18 +22,20 @@ the data included in the dataforseo_trends_graph element is based on the keyword
     }
 
 export class BaseKeywordDataDataforseoTrendsItem  implements IBaseKeywordDataDataforseoTrendsItem {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** the alignment of the element
 can take the following values: 1, 2, 3, 4, etc. */
 
     position?: number | undefined;
+
     
-    /** relevant keywords
-the data included in the dataforseo_trends_graph element is based on the keywords listed in this array */
+    /** keywords in a POST array */
 
     keywords?: string[] | undefined;
 
@@ -110,10 +111,9 @@ the data included in the dataforseo_trends_graph element is based on the keyword
  
 export interface IDataforseoTrendsDataforseoTrendsGraphElementItem  extends IBaseKeywordDataDataforseoTrendsItem    {
         
-        /** DataForSEO Trends data for the specified parameters */
+        /** contains the same parameters that you specified in the POST request */
         data?: DataforseoTrendsGraphDataTrendsGraphDataInfo[] | undefined
         
-        /** keyword popularity values averaged over the whole time range */
         averages?: number[] | undefined
 
     [key: string]: any;
@@ -121,12 +121,11 @@ export interface IDataforseoTrendsDataforseoTrendsGraphElementItem  extends IBas
     }
 
 export class DataforseoTrendsDataforseoTrendsGraphElementItem  extends BaseKeywordDataDataforseoTrendsItem   implements IDataforseoTrendsDataforseoTrendsGraphElementItem {
+
     
-    /** DataForSEO Trends data for the specified parameters */
+    /** contains the same parameters that you specified in the POST request */
 
     data?: DataforseoTrendsGraphDataTrendsGraphDataInfo[] | undefined;
-    
-    /** keyword popularity values averaged over the whole time range */
 
     averages?: number[] | undefined;
 
@@ -200,10 +199,12 @@ if you specified a single keyword, the value will be null */
     }
 
 export class DataforseoTrendsSubregionInterestsElementItem  extends BaseKeywordDataDataforseoTrendsItem   implements IDataforseoTrendsSubregionInterestsElementItem {
+
     
     /** subregional keyword popuarity data for each specified term */
 
     interests?: DataforseoTrendsinterestsInfo[] | undefined;
+
     
     /** comparison of data on subregional keyword popularity for the specified parameters
 if you specified a single keyword, the value will be null */
@@ -282,11 +283,13 @@ if you specified a single keyword, the value will be null */
     }
 
 export class DataforseoTrendsDemographyElementItem  extends BaseKeywordDataDataforseoTrendsItem   implements IDataforseoTrendsDemographyElementItem {
+
     
     /** demographic breakdown of keyword popularity data per each specified term
 conains keyword popularity data by age and gender */
 
     demography?: Demography | undefined;
+
     
     /** comparison of demographic data on keyword popularity for the specified parameters
 conains keyword popularity data by age and gender

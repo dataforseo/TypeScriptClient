@@ -126,6 +126,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo  implements IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo {
+
     
     /** keywords
 required field
@@ -135,6 +136,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keywords?: string[] | undefined;
+
     
     /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -144,6 +146,7 @@ example:
 London,England,United Kingdom */
 
     location_name?: string | undefined;
+
     
     /** search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -153,6 +156,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -163,6 +167,7 @@ example:
 52.6178549,-155.352142 */
 
     location_coordinate?: string | undefined;
+
     
     /** full name of search engine language
 required field if you don’t specify language_code
@@ -170,6 +175,7 @@ if you use this field, you don’t need to specify language_code
 you can receive the list of available languages of the search engines with their language_code by making a separate request to https://api.dataforseo.com/v3/keywords_data/bing/search_volume_history/locations_and_languages */
 
     language_name?: string | undefined;
+
     
     /** search engine language code
 required field if you don’t specify language_name
@@ -177,6 +183,7 @@ if you use this field, you don’t need to specify language_name
 you can receive the list of available languages of the search engines with their language_code by making a separate request to https://api.dataforseo.com/v3/keywords_data/bing/search_volume_history/locations_and_languages */
 
     language_code?: string | undefined;
+
     
     /** device types
 optional field
@@ -185,6 +192,7 @@ possible values: mobile, desktop, tablet, non_smartphones
 default value:  ['mobile', 'desktop', 'tablet', 'non_smartphones'] */
 
     device?: string[] | undefined;
+
     
     /** aggregates the returned data to a certain time period
 optional field
@@ -196,6 +204,7 @@ daily – returns data up to past 45 days
 default value:  monthly */
 
     period?: string | undefined;
+
     
     /** starting date of the time range
 optional field
@@ -211,6 +220,7 @@ with value weekly, you will get results for the past 15 weeks
 with value daily, you will get results for the past 45 days */
 
     date_from?: string | undefined;
+
     
     /** ending date of the time range
 optional field
@@ -226,6 +236,7 @@ with value weekly, you will get results for the past 15 weeks
 with value daily, you will get results for the past 45 days */
 
     date_to?: string | undefined;
+
     
     /** URL for sending task results
 optional field
@@ -239,6 +250,7 @@ i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
     postback_url?: string | undefined;
+
     
     /** notification URL of a completed task
 optional field
@@ -252,6 +264,7 @@ i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
     pingback_url?: string | undefined;
+
     
     /** user-defined task identifier
 optional field

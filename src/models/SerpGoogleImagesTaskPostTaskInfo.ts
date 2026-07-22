@@ -3,20 +3,15 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface ISerpGoogleImagesTaskPostTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results
-in this case, the value will be null */
-        result?: any | undefined
+        result?: string | undefined
 
     [key: string]: any;
 
     }
 
 export class SerpGoogleImagesTaskPostTaskInfo  extends BaseResponseTaskInfo   implements ISerpGoogleImagesTaskPostTaskInfo {
-    
-    /** array of results
-in this case, the value will be null */
 
-    result?: any | undefined;
+    result?: string | undefined;
 
     [key: string]: any;
 

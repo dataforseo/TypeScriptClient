@@ -14,6 +14,7 @@ learn more about how the metric is calculated in this help center article */
     }
 
 export class BulkMetricsInfo  implements IBulkMetricsInfo {
+
     
     /** estimated traffic volume
 estimated organic monthly traffic to the domain
@@ -21,6 +22,7 @@ calculated as the product of CTR (click-through-rate) and search volume values o
 learn more about how the metric is calculated in this help center article */
 
     etv?: number | undefined;
+
     
     /** total count of organic SERPs that contain the domain */
 

@@ -42,49 +42,60 @@ measured from 0 to 1 */
     }
 
 export class HtmlContentInfo  implements IHtmlContentInfo {
+
     
     /** total size of the text on the page measured in bytes */
 
     plain_text_size?: number | undefined;
+
     
     /** plaintext rate value
 plain_text_size to size ratio */
 
     plain_text_rate?: number | undefined;
+
     
     /** number of words on the page */
 
     plain_text_word_count?: number | undefined;
+
     
     /** Automated Readability Index */
 
     automated_readability_index?: number | undefined;
+
     
     /** Coleman–Liau Index */
 
     coleman_liau_readability_index?: number | undefined;
+
     
     /** Dale–Chall Readability Index */
 
     dale_chall_readability_index?: number | undefined;
+
     
     /** Flesch–Kincaid Readability Index */
 
     flesch_kincaid_readability_index?: number | undefined;
+
     
     /** SMOG Readability Index */
 
     smog_readability_index?: number | undefined;
+
     
     /** consistency of the meta description tag with the page content
 measured from 0 to 1 */
 
     description_to_content_consistency?: number | undefined;
+
     
     /** consistency of the meta title tag with the page content
 measured from 0 to 1 */
 
     title_to_content_consistency?: number | undefined;
+
     
     /** consistency of meta keywordstag with the page content
 measured from 0 to 1 */

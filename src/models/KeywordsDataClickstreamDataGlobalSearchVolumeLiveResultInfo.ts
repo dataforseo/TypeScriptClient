@@ -14,10 +14,12 @@ export interface IKeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo   
     }
 
 export class KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo  implements IKeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo {
+
     
     /** the number of results returned in the items array */
 
     items_count?: number | undefined;
+
     
     /** contains keywords and related data */
 

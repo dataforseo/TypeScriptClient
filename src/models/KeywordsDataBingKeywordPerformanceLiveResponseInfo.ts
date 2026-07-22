@@ -12,6 +12,7 @@ export interface IKeywordsDataBingKeywordPerformanceLiveResponseInfo  extends IB
     }
 
 export class KeywordsDataBingKeywordPerformanceLiveResponseInfo  extends BaseResponseInfo   implements IKeywordsDataBingKeywordPerformanceLiveResponseInfo {
+
     
     /** array of tasks */
 

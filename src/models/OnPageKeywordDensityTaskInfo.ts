@@ -12,6 +12,7 @@ export interface IOnPageKeywordDensityTaskInfo  extends IBaseResponseTaskInfo   
     }
 
 export class OnPageKeywordDensityTaskInfo  extends BaseResponseTaskInfo   implements IOnPageKeywordDensityTaskInfo {
+
     
     /** array of results */
 

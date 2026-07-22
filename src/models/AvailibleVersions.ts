@@ -12,10 +12,12 @@ if false, the version is not used by default and should be specified in the corr
     }
 
 export class AvailibleVersions  implements IAvailibleVersions {
+
     
     /** lighthouse version */
 
     version?: string | undefined;
+
     
     /** the version is used by default
 if false, the version is not used by default and should be specified in the corresponding field of the POST request if necessary */

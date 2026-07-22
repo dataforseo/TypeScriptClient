@@ -33,27 +33,33 @@ example:
     }
 
 export class AppDataAppleAppListingsSearchLiveItem  implements IAppDataAppleAppListingsSearchLiveItem {
+
     
     /** ID of the returned app */
 
     app_id?: string | undefined;
+
     
     /** search engine domain in a POST array */
 
     se_domain?: string | undefined;
+
     
     /** location code in a POST array */
 
     location_code?: number | undefined;
+
     
     /** language code in a POST array */
 
     language_code?: string | undefined;
+
     
     /** direct URL to search engine results
 you can use it to make sure that we provided accurate results */
 
     check_url?: string | undefined;
+
     
     /** date and time when SERP data was last updated
 in the ISO 8601 format: “YYYY-MM-DDThh:mm:ss.sssssssZ”
@@ -61,6 +67,7 @@ example:
 2023-05-23 10:16:19 +00:00 */
 
     time_update?: string | undefined;
+
     
     /** detailed information about the app */
 

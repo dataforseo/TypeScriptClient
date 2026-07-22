@@ -25,23 +25,28 @@ possible values: in_progress, finished */
     }
 
 export class OnPageNonIndexableResultInfo  implements IOnPageNonIndexableResultInfo {
+
     
     /** status of the crawling session
 possible values: in_progress, finished */
 
     crawl_progress?: string | undefined;
+
     
     /** details of the crawling session */
 
     crawl_status?: CrawlStatusInfo | undefined;
+
     
     /** total number of relevant items in the database */
 
     total_items_count?: number | undefined;
+
     
     /** number of items in the results array */
 
     items_count?: number | undefined;
+
     
     /** items array */
 

@@ -12,6 +12,7 @@ export interface ISerpBaiduOrganicTaskGetHtmlResponseInfo  extends IBaseResponse
     }
 
 export class SerpBaiduOrganicTaskGetHtmlResponseInfo  extends BaseResponseInfo   implements ISerpBaiduOrganicTaskGetHtmlResponseInfo {
+
     
     /** array of tasks */
 

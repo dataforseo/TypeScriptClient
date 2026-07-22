@@ -20,22 +20,27 @@ export interface IUserProfileInfo   {
     }
 
 export class UserProfileInfo  implements IUserProfileInfo {
+
     
     /** the name of the reviewer */
 
     name?: string | undefined;
+
     
     /** URL to the profile picture of the reviewer */
 
     avatar?: string | undefined;
+
     
     /** relevant url */
 
     url?: string | undefined;
+
     
     /** total number of reviews submitted by the reviewer */
 
     reviews_count?: number | undefined;
+
     
     /** country of the reviewer */
 

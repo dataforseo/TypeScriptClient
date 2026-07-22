@@ -4,8 +4,7 @@ export interface IKeywordsDataBingSearchVolumeHistoryLiveRequestInfo   {
 required field
 The maximum number of keywords you can specify: 1000
 The maximum number of characters for each keyword: 100
-the specified keywords will be converted to lowercase, data will be provided in a separate array
-learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
+the specified keywords will be converted to lowercase, data will be provided in a separate arraylearn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
         keywords?: string[] | undefined
         
         /** full name of search engine location
@@ -49,17 +48,16 @@ you can receive the list of available languages of the search engines with their
 optional field
 specify this field if you want to get the data for a particular device types
 possible values: mobile, desktop, tablet, non_smartphones
-default value:  ['mobile', 'desktop', 'tablet', 'non_smartphones'] */
+default value: ['mobile', 'desktop', 'tablet', 'non_smartphones'] */
         device?: string[] | undefined
         
         /** aggregates the returned data to a certain time period
 optional field
-specify this field if you want to get the data in monthly, weekly or daily format
-possible values: monthly, weekly, daily
+specify this field if you want to get the data in monthly, weekly or daily formatpossible values: monthly, weekly, daily
 monthly – returns data up to past 24 months
 weekly – returns data up to past 15 weeks
 daily – returns data up to past 45 days
-default value:  monthly */
+default value: monthly */
         period?: string | undefined
         
         /** starting date of the time range
@@ -68,8 +66,7 @@ minimum value: 24 months back from today’s date
 maximum value: one day from today’s date
 date format: 'yyyy-mm-dd'
 example:
-'2020-01-01'
-Note: we do not recommend using a custom time range
+'2020-01-01'Note: we do not recommend using a custom time range
 Note 2: if date_from and date_to parameters are not specified, the data will be returned for the past 24 months
 if you specify the period parameter:
 with value weekly, you will get results for the past 15 weeks
@@ -77,8 +74,7 @@ with value daily, you will get results for the past 45 days */
         date_from?: string | undefined
         
         /** ending date of the time range
-optional field
-minimum value: two years back from today’s date;
+optional fieldminimum value: two years back from today’s date;
 maximum value: one day from today’s date;
 date format: 'yyyy-mm-dd'
 example:
@@ -102,15 +98,16 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class KeywordsDataBingSearchVolumeHistoryLiveRequestInfo  implements IKeywordsDataBingSearchVolumeHistoryLiveRequestInfo {
+
     
     /** keywords
 required field
 The maximum number of keywords you can specify: 1000
 The maximum number of characters for each keyword: 100
-the specified keywords will be converted to lowercase, data will be provided in a separate array
-learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
+the specified keywords will be converted to lowercase, data will be provided in a separate arraylearn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keywords?: string[] | undefined;
+
     
     /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -120,6 +117,7 @@ example:
 London,England,United Kingdom */
 
     location_name?: string | undefined;
+
     
     /** search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -129,6 +127,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -139,6 +138,7 @@ example:
 52.6178549,-155.352142 */
 
     location_coordinate?: string | undefined;
+
     
     /** full name of search engine language
 required field if you don’t specify language_code
@@ -146,6 +146,7 @@ if you use this field, you don’t need to specify language_code
 you can receive the list of available languages of the search engines with their language_code by making a separate request to https://api.dataforseo.com/v3/keywords_data/bing/search_volume_history/locations_and_languages */
 
     language_name?: string | undefined;
+
     
     /** search engine language code
 required field if you don’t specify language_name
@@ -153,25 +154,27 @@ if you use this field, you don’t need to specify language_name
 you can receive the list of available languages of the search engines with their language_code by making a separate request to https://api.dataforseo.com/v3/keywords_data/bing/search_volume_history/locations_and_languages */
 
     language_code?: string | undefined;
+
     
     /** device types
 optional field
 specify this field if you want to get the data for a particular device types
 possible values: mobile, desktop, tablet, non_smartphones
-default value:  ['mobile', 'desktop', 'tablet', 'non_smartphones'] */
+default value: ['mobile', 'desktop', 'tablet', 'non_smartphones'] */
 
     device?: string[] | undefined;
+
     
     /** aggregates the returned data to a certain time period
 optional field
-specify this field if you want to get the data in monthly, weekly or daily format
-possible values: monthly, weekly, daily
+specify this field if you want to get the data in monthly, weekly or daily formatpossible values: monthly, weekly, daily
 monthly – returns data up to past 24 months
 weekly – returns data up to past 15 weeks
 daily – returns data up to past 45 days
-default value:  monthly */
+default value: monthly */
 
     period?: string | undefined;
+
     
     /** starting date of the time range
 optional field
@@ -179,18 +182,17 @@ minimum value: 24 months back from today’s date
 maximum value: one day from today’s date
 date format: 'yyyy-mm-dd'
 example:
-'2020-01-01'
-Note: we do not recommend using a custom time range
+'2020-01-01'Note: we do not recommend using a custom time range
 Note 2: if date_from and date_to parameters are not specified, the data will be returned for the past 24 months
 if you specify the period parameter:
 with value weekly, you will get results for the past 15 weeks
 with value daily, you will get results for the past 45 days */
 
     date_from?: string | undefined;
+
     
     /** ending date of the time range
-optional field
-minimum value: two years back from today’s date;
+optional fieldminimum value: two years back from today’s date;
 maximum value: one day from today’s date;
 date format: 'yyyy-mm-dd'
 example:
@@ -202,6 +204,7 @@ with value weekly, you will get results for the past 15 weeks
 with value daily, you will get results for the past 45 days */
 
     date_to?: string | undefined;
+
     
     /** user-defined task identifier
 optional field

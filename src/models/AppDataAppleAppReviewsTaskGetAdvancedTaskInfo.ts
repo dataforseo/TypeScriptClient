@@ -12,6 +12,7 @@ export interface IAppDataAppleAppReviewsTaskGetAdvancedTaskInfo  extends IBaseRe
     }
 
 export class AppDataAppleAppReviewsTaskGetAdvancedTaskInfo  extends BaseResponseTaskInfo   implements IAppDataAppleAppReviewsTaskGetAdvancedTaskInfo {
+
     
     /** array of results */
 

@@ -11,10 +11,12 @@ export interface IContentUrlInfo   {
     }
 
 export class ContentUrlInfo  implements IContentUrlInfo {
+
     
     /** contains other URLs and anchors found in the content element */
 
     url?: string | undefined;
+
     
     /** text of the URL’s anchor */
 

@@ -56,6 +56,7 @@ example: 806300451 */
     }
 
 export class KeywordsDataBingAudienceEstimationLiveRequestInfo  implements IKeywordsDataBingAudienceEstimationLiveRequestInfo {
+
     
     /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -65,6 +66,7 @@ example:
 London,England,United Kingdom */
 
     location_name?: string | undefined;
+
     
     /** search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -74,6 +76,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -84,32 +87,38 @@ example:
 29.6821525,-82.4098881,100 */
 
     location_coordinate?: string | undefined;
+
     
     /** selection of age ranges for targeting
 possible values: eighteen_to_twenty_four, fifty_to_sixty_four, sixty_five_and_above, thirteen_to_seventeen, thirty_five_to_forty_nine, twenty_five_to_thirty_four, unknown, zero_to_twelve */
 
     age?: string[] | undefined;
+
     
     /** desired bid setting value in USD
 maximum value: 1000 */
 
     bid?: number | undefined;
+
     
     /** daily campaign budget value in USD
 maximum value: 10000 */
 
     daily_budget?: number | undefined;
+
     
     /** gender to target
 possible values: male, female, unknown */
 
     gender?: string[] | undefined;
+
     
     /** industry of LinkedIn profile targeting
 if you use this field, you can receive the list of available industry names  with industry_id by making a separate request to the https://api.dataforseo.com/v3/keywords_data/bing/audience_estimation/industries
 example: 806301758 */
 
     industry?: string[] | undefined;
+
     
     /** job function of LinkedIn profile targeting
 if you use this field, you can receive the list of available job function names  with job_function_id by making a separate request to the https://api.dataforseo.com/v3/keywords_data/bing/audience_estimation/job_functions

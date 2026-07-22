@@ -11,10 +11,12 @@ export interface IBusinessDataGoogleLanguagesResultInfo   {
     }
 
 export class BusinessDataGoogleLanguagesResultInfo  implements IBusinessDataGoogleLanguagesResultInfo {
+
     
     /** language name */
 
     language_name?: string | undefined;
+
     
     /** language code according to ISO 639-1 */
 

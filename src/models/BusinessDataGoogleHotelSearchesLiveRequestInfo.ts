@@ -210,6 +210,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class BusinessDataGoogleHotelSearchesLiveRequestInfo  implements IBusinessDataGoogleHotelSearchesLiveRequestInfo {
+
     
     /** keyword
 optional field
@@ -222,6 +223,7 @@ Note: in order to obtain accurate search results, the location name is appended 
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keyword?: string | undefined;
+
     
     /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -232,6 +234,7 @@ London,England,United Kingdom
 Note: in order to obtain accurate search results, the location_name you specify will be automatically appended to the keyword */
 
     location_name?: string | undefined;
+
     
     /** search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -241,6 +244,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -252,6 +256,7 @@ example:
 53.476225,-2.243572 */
 
     location_coordinate?: string | undefined;
+
     
     /** show hotels from the displayed area
 optional field
@@ -262,6 +267,7 @@ Note: if the search_this_area mode is turned off, the location_name won’t be a
 learn more about this parameter on our Help Center */
 
     search_this_area?: boolean | undefined;
+
     
     /** full name of search engine language
 required field if you don’t specify language_code
@@ -271,6 +277,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** search engine language code
 required field if you don’t specify language_name
@@ -280,6 +287,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** parsing depth
 optional field
@@ -291,6 +299,7 @@ thus, setting a depth above 18 may result in additional charges if Google Hotels
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
 
     depth?: number | undefined;
+
     
     /** check-in date
 optional field
@@ -301,6 +310,7 @@ example:
 Note: the value cannot precede the today’s date */
 
     check_in?: string | undefined;
+
     
     /** check-out date
 optional field
@@ -312,6 +322,7 @@ Note: the value cannot be less than or equal to check_in;
 the range between check_in and check_out values cannot exceed 30 days */
 
     check_out?: string | undefined;
+
     
     /** currency
 optional field
@@ -319,6 +330,7 @@ example:
 'USD' */
 
     currency?: string | undefined;
+
     
     /** number of adults
 optional field
@@ -328,6 +340,7 @@ example:
 1 */
 
     adults?: number | undefined;
+
     
     /** number and age of children
 optional field
@@ -340,6 +353,7 @@ set the following value if you want to include one 13-year-old child and one 8-y
 [13,8] */
 
     children?: string[] | undefined;
+
     
     /** hotel stars
 optional field
@@ -348,6 +362,7 @@ example:
 [3,4,5] */
 
     stars?: string[] | undefined;
+
     
     /** minimum rating
 optional field
@@ -356,6 +371,7 @@ example:
 2.5 */
 
     min_rating?: number | undefined;
+
     
     /** results sorting parameters
 optional field
@@ -368,6 +384,7 @@ most_reviewed – sort by most reviewed
 default value: relevance */
 
     sort_by?: string | undefined;
+
     
     /** minimum price per night
 optional field
@@ -376,6 +393,7 @@ example:
 100 */
 
     min_price?: number | undefined;
+
     
     /** maximum price per night
 optional field
@@ -384,6 +402,7 @@ example:
 600 */
 
     max_price?: number | undefined;
+
     
     /** hotels with a free cancellation
 optional field
@@ -391,6 +410,7 @@ set this field to true if you want to get the list of hotels with free cancellat
 default value: false */
 
     free_cancellation?: boolean | undefined;
+
     
     /** search for vacation rentals
 optional field
@@ -398,6 +418,7 @@ set this field to true if you want to get the list of vacation rentals instead o
 default value: false */
 
     is_vacation_rentals?: boolean | undefined;
+
     
     /** hotel amenities
 optional field
@@ -429,6 +450,7 @@ possible values:
 'beach_access' */
 
     amenities?: string[] | undefined;
+
     
     /** user-defined task identifier
 optional field

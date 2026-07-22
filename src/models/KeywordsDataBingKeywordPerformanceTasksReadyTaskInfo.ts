@@ -12,6 +12,7 @@ export interface IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo  extends 
     }
 
 export class KeywordsDataBingKeywordPerformanceTasksReadyTaskInfo  extends BaseResponseTaskInfo   implements IKeywordsDataBingKeywordPerformanceTasksReadyTaskInfo {
+
     
     /** array of results */
 

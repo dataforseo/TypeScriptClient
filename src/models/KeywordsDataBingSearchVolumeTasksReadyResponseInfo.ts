@@ -12,6 +12,7 @@ export interface IKeywordsDataBingSearchVolumeTasksReadyResponseInfo  extends IB
     }
 
 export class KeywordsDataBingSearchVolumeTasksReadyResponseInfo  extends BaseResponseInfo   implements IKeywordsDataBingSearchVolumeTasksReadyResponseInfo {
+
     
     /** array of tasks */
 

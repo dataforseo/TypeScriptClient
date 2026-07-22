@@ -12,6 +12,7 @@ export interface ISerpAiSummaryTaskInfo  extends IBaseResponseTaskInfo    {
     }
 
 export class SerpAiSummaryTaskInfo  extends BaseResponseTaskInfo   implements ISerpAiSummaryTaskInfo {
+
     
     /** array of results */
 

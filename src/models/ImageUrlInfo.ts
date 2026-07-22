@@ -8,6 +8,7 @@ export interface IImageUrlInfo   {
     }
 
 export class ImageUrlInfo  implements IImageUrlInfo {
+
     
     /** URL of the image used in the review */
 

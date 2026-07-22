@@ -23,26 +23,32 @@ export interface IResourceMetaInfo   {
     }
 
 export class ResourceMetaInfo  implements IResourceMetaInfo {
+
     
     /** content of the image alt attribute */
 
     alternative_text?: string | undefined;
+
     
     /** title */
 
     title?: string | undefined;
+
     
     /** original image width in px */
 
     original_width?: number | undefined;
+
     
     /** original image height in px */
 
     original_height?: number | undefined;
+
     
     /** image width in px */
 
     width?: number | undefined;
+
     
     /** image height in px */
 

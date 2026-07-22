@@ -4,5 +4,5 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**data** | **DataforseoTrendsGraphDataTrendsGraphDataInfo[]** | DataForSEO Trends data for the specified parameters |[optional]|
-**averages** | **number[]** | keyword popularity values averaged over the whole time range |[optional]|
+**data** | **DataforseoTrendsGraphDataTrendsGraphDataInfo[]** | contains the same parameters that you specified in the POST request |[optional]|
+**averages** | **number[]** |  |[optional]|

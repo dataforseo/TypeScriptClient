@@ -40,42 +40,51 @@ ranking data is provided by the rank_absolute parameters that indicate the resul
     }
 
 export class DataforseoLabsGoogleRankedKeywordsLiveResultInfo  implements IDataforseoLabsGoogleRankedKeywordsLiveResultInfo {
+
     
     /** search engine type */
 
     se_type?: string | undefined;
+
     
     /** target domain or webpage in a POST array */
 
     target?: string | undefined;
+
     
     /** location code in a POST array
 if there is no data, then the value is null */
 
     location_code?: number | undefined;
+
     
     /** language code in a POST array
 if there is no data, then the value is null */
 
     language_code?: string | undefined;
+
     
     /** total number of results in our database relevant to your request */
 
     total_count?: number | undefined;
+
     
     /** the number of results returned in the items array */
 
     items_count?: number | undefined;
+
     
     /** ranking data relevant to the specified domain or webpage 
 ranking data is provided by the rank_group parameters that show the result’s rank considering only equivalent SERP elements */
 
     metrics?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined;
+
     
     /** ranking data relevant to the specified domain or webpage
 ranking data is provided by the rank_absolute parameters that indicate the result’s position among all SERP elements */
 
     metrics_absolute?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined;
+
     
     /** contains ranked keywords and related data */
 

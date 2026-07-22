@@ -11,10 +11,12 @@ export interface ISerpGoogleAiModeLanguagesResultInfo   {
     }
 
 export class SerpGoogleAiModeLanguagesResultInfo  implements ISerpGoogleAiModeLanguagesResultInfo {
+
     
     /** language name */
 
     language_name?: string | undefined;
+
     
     /** language code according to ISO 639-1 */
 

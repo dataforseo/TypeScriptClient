@@ -3,7 +3,7 @@ export interface IMathSolverExpandedElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of the row */
+        /** title of the carousel item */
         title?: string | undefined
         
         /** solution of the element
@@ -15,14 +15,17 @@ displays steps to solve the mathematical equation as specified in the element */
     }
 
 export class MathSolverExpandedElement  implements IMathSolverExpandedElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
-    /** title of the row */
+    /** title of the carousel item */
 
     title?: string | undefined;
+
     
     /** solution of the element
 displays steps to solve the mathematical equation as specified in the element */

@@ -14,10 +14,12 @@ export interface IDatasetDescription   {
     }
 
 export class DatasetDescription  implements IDatasetDescription {
+
     
     /** text of the description */
 
     text?: string | undefined;
+
     
     /** links featured in the ‘dataset_description’ */
 

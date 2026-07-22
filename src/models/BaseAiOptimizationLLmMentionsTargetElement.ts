@@ -19,6 +19,7 @@ default value: include */
     }
 
 export class BaseAiOptimizationLLmMentionsTargetElement  implements IBaseAiOptimizationLLmMentionsTargetElement {
+
     
     /** target domain search scope
 optional field
@@ -27,6 +28,7 @@ any, sources, search_results
 default value: any */
 
     search_scope?: string[] | undefined;
+
     
     /** target domain search filter
 optional field
@@ -116,12 +118,14 @@ default value: false */
     }
 
 export class AiOptimizationLLmMentionsDomainElement  extends BaseAiOptimizationLLmMentionsTargetElement   implements IAiOptimizationLLmMentionsDomainElement {
+
     
     /** target domain
 required field if you don’t specify keyword
 a domain should be specified without https:// and www. */
 
     domain?: string | undefined;
+
     
     /** indicates if the subdomains of the target domain will be included in the search
 optional field
@@ -198,6 +202,7 @@ default value: word_match */
     }
 
 export class AiOptimizationLLmMentionsKeywordElement  extends BaseAiOptimizationLLmMentionsTargetElement   implements IAiOptimizationLLmMentionsKeywordElement {
+
     
     /** target keyword
 required field if you don’t specify domain
@@ -208,6 +213,7 @@ if you need to use the “+” character for your keyword, please specify it as 
 learn more about rules and limitations of keyword and keywords fields in */
 
     keyword?: string | undefined;
+
     
     /** target keyword match type
 defines how the specified keyword is matched

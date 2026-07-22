@@ -120,8 +120,7 @@ as a response you will receive the following data:
 'custom_js_response': {
 'url': 'https://dataforseo.com/',
 'test': 'test'
-}
-Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page */
+} */
         custom_js?: string | undefined
         
         /** enable microdata validation
@@ -160,6 +159,7 @@ possible values: us, de */
     }
 
 export class OnPageInstantPagesRequestInfo  implements IOnPageInstantPagesRequestInfo {
+
     
     /** target page url
 required field
@@ -169,6 +169,7 @@ Note #2: to prevent denial-of-service events, tasks that contain a duplicate cra
 to prevent this error from occurring, avoid setting tasks with the same domain if at least one of your previous tasks with this domain (including a page URL on the domain) is still in a crawling queue */
 
     url?: string | undefined;
+
     
     /** custom user agent
 optional field
@@ -178,6 +179,7 @@ example: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHT
 default value: Mozilla/5.0 (compatible; RSiteAuditor) */
 
     custom_user_agent?: string | undefined;
+
     
     /** preset for browser screen parameters
 optional field
@@ -197,6 +199,7 @@ browser_screen_scale_factor: 2
 Note: to use this parameter, set enable_javascript or enable_browser_rendering to true */
 
     browser_preset?: string | undefined;
+
     
     /** browser screen width
 optional field
@@ -205,6 +208,7 @@ if you use this field, you don’t need to indicate browser_preset as it will be
 maximum value, in pixels: 9999 */
 
     browser_screen_width?: number | undefined;
+
     
     /** browser screen height
 optional field
@@ -213,6 +217,7 @@ if you use this field, you don’t need to indicate browser_preset as it will be
 maximum value, in pixels: 9999 */
 
     browser_screen_height?: number | undefined;
+
     
     /** browser screen scale factor
 optional field
@@ -221,6 +226,7 @@ if you use this field, you don’t need to indicate browser_preset as it will be
 maximum value: 3 */
 
     browser_screen_scale_factor?: number | undefined;
+
     
     /** store HTML of a crawled page
 optional field
@@ -228,6 +234,7 @@ set to true if you want get the HTML of the page using the OnPage Raw HTML endpo
 default value: false */
 
     store_raw_html?: boolean | undefined;
+
     
     /** language header for accessing the website
 optional field
@@ -235,6 +242,7 @@ all locale formats are supported (xx, xx-XX, xxx-XX, etc.)
 Note: if you do not specify this parameter, some websites may deny access; in this case, pages will be returned with the 'type':'broken in the response array */
 
     accept_language?: string | undefined;
+
     
     /** load resources
 optional field
@@ -243,6 +251,7 @@ default value: false
 Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page */
 
     load_resources?: boolean | undefined;
+
     
     /** load javascript on a page
 optional field
@@ -251,6 +260,7 @@ default value: false
 Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page */
 
     enable_javascript?: boolean | undefined;
+
     
     /** emulate browser rendering to measure Core Web Vitals
 optional field
@@ -262,6 +272,7 @@ if you use this field, parameters enable_javascript, and load_resources are enab
 Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page */
 
     enable_browser_rendering?: boolean | undefined;
+
     
     /** disable the cookie popup 
 optional field
@@ -270,6 +281,7 @@ default value:
 false */
 
     disable_cookie_popup?: boolean | undefined;
+
     
     /** return data on pages despite the timeout error
 optional field
@@ -277,6 +289,7 @@ if true, the data will be provided on pages that failed to load within 120 secon
 default value: false */
 
     return_despite_timeout?: boolean | undefined;
+
     
     /** enable XMLHttpRequest on a page
 optional field
@@ -285,6 +298,7 @@ default value:
 falseif you use this field, enable_javascript must be set to true; */
 
     enable_xhr?: boolean | undefined;
+
     
     /** custom javascript
 optional fieldNote that the execution time for the script you enter here should be 700 ms maximum;
@@ -295,10 +309,10 @@ as a response you will receive the following data:
 'custom_js_response': {
 'url': 'https://dataforseo.com/',
 'test': 'test'
-}
-Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page */
+} */
 
     custom_js?: string | undefined;
+
     
     /** enable microdata validation
 optional field
@@ -306,6 +320,7 @@ if set to true, you can use the OnPage API Microdata endpoint with the id of the
 default value: false */
 
     validate_micromarkup?: boolean | undefined;
+
     
     /** check spelling
 optional field
@@ -313,6 +328,7 @@ set to true to check spelling on a website using Hunspell library
 default value: false */
 
     check_spell?: boolean | undefined;
+
     
     /** custom threshold values for checks
 optional field
@@ -320,6 +336,7 @@ you can specify custom threshold values for the parameters included in the check
 Note: only integer threshold values can be modified; */
 
     checks_threshold?: { [key: string]: number; } | undefined;
+
     
     /** switch proxy pool
 optional field
@@ -327,6 +344,7 @@ if true, additional proxy pools will be used to obtain the requested data;
 the parameter can be used if a multitude of tasks is set simultaneously, resulting in occasional rate-limit and/or site_unreachable errors */
 
     switch_pool?: boolean | undefined;
+
     
     /** proxy pool
 optional field

@@ -161,6 +161,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo  implements IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo {
+
     
     /** product and service categories
 required field
@@ -168,6 +169,7 @@ The maximum number of categories you can specify: 5
 you can download the full list of possible categories */
 
     category_codes?: string[] | undefined;
+
     
     /** first date of comparison period
 required field
@@ -181,6 +183,7 @@ you can specify the dates in any order: first_date can be greater than second_da
 minimum date: '2020-10-01' */
 
     first_date?: string | undefined;
+
     
     /** second date of comparison period
 required field
@@ -194,6 +197,7 @@ you can specify the dates in any order: second_date can be greater than first_da
 minimum date: '2020-10-01' */
 
     second_date?: string | undefined;
+
     
     /** full name of the location
 required field if you don’t specify location_code
@@ -204,6 +208,7 @@ example:
 United Kingdom */
 
     location_name?: string | undefined;
+
     
     /** unique location identifier
 required field if you don’t specify location_name
@@ -214,6 +219,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** full name of the language
 required field if you don’t specify language_code
@@ -224,6 +230,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** unique language identifier
 required field if you don’t specify language_name
@@ -233,6 +240,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** display results by item type
 optional field
@@ -244,6 +252,7 @@ default value:
 ['organic', 'paid'] */
 
     item_types?: string[] | undefined;
+
     
     /** number of additional domain categories
 optional field
@@ -254,6 +263,7 @@ Note: top_categories_count cannot be less than the number of categories in the c
 maximum value: 5 */
 
     top_categories_count?: number | undefined;
+
     
     /** return subdomains in the API response
 optional field
@@ -262,18 +272,21 @@ if true, the API will return main_domain plus its subdomains (if available);
 default value: true */
 
     include_subdomains?: boolean | undefined;
+
     
     /** minimum current organic ETV of the domain
 optional field
 if specified, the API will return only domains with organic_etv greater than the specified value */
 
     etv_min?: number | undefined;
+
     
     /** maximum current organic ETV of the domain
 optional field
 if specified, the API will return only domains with organic_etv lesser than the specified value */
 
     etv_max?: number | undefined;
+
     
     /** correlate data with previously obtained datasets
 optional field
@@ -283,6 +296,7 @@ this parameter is intended to mitigate any inconsistencies that may result from 
 Note: we do not recommend setting correlate to false */
 
     correlate?: boolean | undefined;
+
     
     /** the maximum number of domains in the results array
 optional field
@@ -290,6 +304,7 @@ default value: 100;
 maximum value: 1000 */
 
     limit?: number | undefined;
+
     
     /** offset in the results array of returned domains
 optional field
@@ -297,6 +312,7 @@ default value: 0;
 if you specify the 10 value, the first ten domains in the results array will be omitted and the data will be provided for the successive domains */
 
     offset?: number | undefined;
+
     
     /** array of results filtering parameters
 optional field
@@ -310,6 +326,7 @@ example:
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
 
     filters?: any[] | undefined;
+
     
     /** results sorting rules
 optional field
@@ -327,6 +344,7 @@ example:
 ['organic_etv,desc','organic_count,asc'] */
 
     order_by?: string[] | undefined;
+
     
     /** user-defined task identifier
 optional field

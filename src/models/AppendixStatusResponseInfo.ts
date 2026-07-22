@@ -12,6 +12,7 @@ export interface IAppendixStatusResponseInfo  extends IBaseResponseInfo    {
     }
 
 export class AppendixStatusResponseInfo  extends BaseResponseInfo   implements IAppendixStatusResponseInfo {
+
     
     /** array of tasks */
 

@@ -15,10 +15,12 @@ a value of 0 means there was not enough data for this term */
     }
 
 export class DemographyItemValueInfo  implements IDemographyItemValueInfo {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** keyword popularity rate within the specified age range
 using this value you can understand how popular a keyword is within each age range;

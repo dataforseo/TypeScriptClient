@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpGoogleFinanceTickerSearchLiveAdvancedTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **SerpGoogleFinanceTickerSearchLiveAdvancedTaskInfo[]** |  |[optional]|

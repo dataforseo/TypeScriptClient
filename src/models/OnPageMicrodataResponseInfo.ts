@@ -12,6 +12,7 @@ export interface IOnPageMicrodataResponseInfo  extends IBaseResponseInfo    {
     }
 
 export class OnPageMicrodataResponseInfo  extends BaseResponseInfo   implements IOnPageMicrodataResponseInfo {
+
     
     /** array of tasks */
 

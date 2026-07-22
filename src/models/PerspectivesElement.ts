@@ -6,20 +6,19 @@ export interface IPerspectivesElement   {
         /** title of a given link element */
         title?: string | undefined
         
-        /** description of the results element in SERP */
+        /** link description */
         description?: string | undefined
         
-        /** URL */
+        /** source URL */
         url?: string | undefined
         
-        /** website domain */
+        /** domain where a link points */
         domain?: string | undefined
         
         /** the date when the page source of the element was published */
         date?: string | undefined
         
-        /** source of the element
-indicates the source of information included in the top_stories_element */
+        /** reference source name or title */
         source?: string | undefined
         
         /** date and time when the result was published
@@ -33,35 +32,42 @@ example:
     }
 
 export class PerspectivesElement  implements IPerspectivesElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** title of a given link element */
 
     title?: string | undefined;
+
     
-    /** description of the results element in SERP */
+    /** link description */
 
     description?: string | undefined;
+
     
-    /** URL */
+    /** source URL */
 
     url?: string | undefined;
+
     
-    /** website domain */
+    /** domain where a link points */
 
     domain?: string | undefined;
+
     
     /** the date when the page source of the element was published */
 
     date?: string | undefined;
+
     
-    /** source of the element
-indicates the source of information included in the top_stories_element */
+    /** reference source name or title */
 
     source?: string | undefined;
+
     
     /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”

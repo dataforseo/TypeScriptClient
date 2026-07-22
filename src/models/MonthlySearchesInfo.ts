@@ -14,14 +14,17 @@ export interface IMonthlySearchesInfo   {
     }
 
 export class MonthlySearchesInfo  implements IMonthlySearchesInfo {
+
     
     /** year */
 
     year?: number | undefined;
+
     
     /** month */
 
     month?: number | undefined;
+
     
     /** monthly average search volume rate */
 

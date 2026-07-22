@@ -20,22 +20,27 @@ export interface IGeminiImagesElement   {
     }
 
 export class GeminiImagesElement  implements IGeminiImagesElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** URL */
 
     url?: string | undefined;
+
     
     /** alt tag of the image */
 
     alt?: string | undefined;
+
     
     /** URL of the imagethe URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
     image_url?: string | undefined;
+
     
     /** content of the element in markdown formatcontent of the result formatted in the markdown markup language */
 

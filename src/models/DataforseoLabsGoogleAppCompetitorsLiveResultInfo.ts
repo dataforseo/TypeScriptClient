@@ -29,30 +29,37 @@ export interface IDataforseoLabsGoogleAppCompetitorsLiveResultInfo   {
     }
 
 export class DataforseoLabsGoogleAppCompetitorsLiveResultInfo  implements IDataforseoLabsGoogleAppCompetitorsLiveResultInfo {
+
     
     /** search engine type */
 
     se_type?: string | undefined;
+
     
     /** id of the app in a POST array */
 
     app_id?: string | undefined;
+
     
     /** location code in a POST array */
 
     location_code?: number | undefined;
+
     
     /** language code in a POST array */
 
     language_code?: string | undefined;
+
     
     /** total amount of results in our database relevant to your request */
 
     total_count?: number | undefined;
+
     
     /** the number of results returned in the items array */
 
     items_count?: number | undefined;
+
     
     /** contains data related to the app_id and competitor applications */
 

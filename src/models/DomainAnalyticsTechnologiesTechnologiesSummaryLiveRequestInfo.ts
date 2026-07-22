@@ -87,6 +87,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo  implements IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo {
+
     
     /** target technology paths
 required field if you don’t specify groups, technologies and categories
@@ -98,6 +99,7 @@ example:
 [{'path': 'content.cms','name': 'wordpress'}, {'path': 'marketing.crm','name': 'salesforce'}] */
 
     technology_paths?: string[] | undefined;
+
     
     /** ids of the target technology groups
 required field if you don’t specify technologies, technology_paths, categories, or keywords
@@ -107,6 +109,7 @@ example:
 ['sales', 'marketing'] */
 
     groups?: string[] | undefined;
+
     
     /** ids of the target technology categories
 required field if you don’t specify groups, technology_paths, technologies, or keywords
@@ -116,6 +119,7 @@ example:
 ['payment_processors','crm'] */
 
     categories?: string[] | undefined;
+
     
     /** target technologies
 required field if you don’t specify groups, technology_paths, categories, or keywords
@@ -125,6 +129,7 @@ example:
 ['Google Pay','Salesforce'] */
 
     technologies?: string[] | undefined;
+
     
     /** target keywords in the domain’s title, description or meta keywords
 required field if you don’t specify groups, technology_paths, categories, or technologies
@@ -135,6 +140,7 @@ example:
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keywords?: string[] | undefined;
+
     
     /** search mode
 optional field
@@ -144,6 +150,7 @@ entry – search for results matching a part of the specified group ids, categor
 default value: as_is */
 
     mode?: string | undefined;
+
     
     /** array of results filtering parameters
 optional field
@@ -160,6 +167,7 @@ example:
 for more information about filters, please refer to Domain Analytics Technologies API – Filters */
 
     filters?: any[] | undefined;
+
     
     /** maximum number of elements within internal arrays
 optional field
@@ -170,6 +178,7 @@ minimum value: 1
 maximum value: 10000 */
 
     internal_list_limit?: number | undefined;
+
     
     /** user-defined task identifier
 optional field

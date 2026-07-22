@@ -11,6 +11,7 @@ each identifier in the task array must be specified as a separate object */
     }
 
 export class AppendixWebhookResendRequestInfo  implements IAppendixWebhookResendRequestInfo {
+
     
     /** task identifier
 unique task identifier in our system in the UUID format

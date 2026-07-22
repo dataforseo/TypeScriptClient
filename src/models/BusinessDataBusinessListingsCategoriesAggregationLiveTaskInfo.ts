@@ -12,6 +12,7 @@ export interface IBusinessDataBusinessListingsCategoriesAggregationLiveTaskInfo 
     }
 
 export class BusinessDataBusinessListingsCategoriesAggregationLiveTaskInfo  extends BaseResponseTaskInfo   implements IBusinessDataBusinessListingsCategoriesAggregationLiveTaskInfo {
+
     
     /** array of results */
 

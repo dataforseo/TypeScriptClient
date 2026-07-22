@@ -6,7 +6,8 @@ export interface IAiMonthlySearches   {
         /** month */
         month?: number | undefined
         
-        /** AI search volume rate in a certain month of a yearlearn more about this metric here */
+        /** current AI search volume rate of a keyword
+learn more about this metric here */
         ai_search_volume?: number | undefined
 
     [key: string]: any;
@@ -14,16 +15,20 @@ export interface IAiMonthlySearches   {
     }
 
 export class AiMonthlySearches  implements IAiMonthlySearches {
+
     
     /** year */
 
     year?: number | undefined;
+
     
     /** month */
 
     month?: number | undefined;
+
     
-    /** AI search volume rate in a certain month of a yearlearn more about this metric here */
+    /** current AI search volume rate of a keyword
+learn more about this metric here */
 
     ai_search_volume?: number | undefined;
 

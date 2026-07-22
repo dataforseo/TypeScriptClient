@@ -11,10 +11,12 @@ export interface IOnPageLighthouseLanguagesResultInfo   {
     }
 
 export class OnPageLighthouseLanguagesResultInfo  implements IOnPageLighthouseLanguagesResultInfo {
+
     
     /** language name */
 
     language_name?: string | undefined;
+
     
     /** language code according to ISO 639-1 */
 

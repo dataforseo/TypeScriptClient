@@ -17,14 +17,17 @@ export interface IBacklinksIndexResultInfo   {
     }
 
 export class BacklinksIndexResultInfo  implements IBacklinksIndexResultInfo {
+
     
     /** total number of backlinks our database contains for the moment of checking */
 
     total_backlinks?: number | undefined;
+
     
     /** total number of pages our database contains for the moment of checking */
 
     total_pages?: number | undefined;
+
     
     /** index volume data for the past 12 months */
 

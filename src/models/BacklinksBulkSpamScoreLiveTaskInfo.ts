@@ -12,6 +12,7 @@ export interface IBacklinksBulkSpamScoreLiveTaskInfo  extends IBaseResponseTaskI
     }
 
 export class BacklinksBulkSpamScoreLiveTaskInfo  extends BaseResponseTaskInfo   implements IBacklinksBulkSpamScoreLiveTaskInfo {
+
     
     /** array of results */
 

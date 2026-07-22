@@ -77,6 +77,7 @@ minute in the yyyy-MM-dd HH:mm format */
 export class AppendixStatisticsRatesDataInfo  implements IAppendixStatisticsRatesDataInfo {
 
     serp?: AppendixSerpDaysRatesDataInfo | undefined;
+
     
     /** total amount of money deposited to your account */
 
@@ -127,6 +128,7 @@ export class AppendixStatisticsRatesDataInfo  implements IAppendixStatisticsRate
     content_generation?: AppendixContentGenerationLimitsRatesDataInfo | undefined;
 
     total_content_generation?: number | undefined;
+
     
     /** time period for grouping
 day in the yyyy-MM-dd format

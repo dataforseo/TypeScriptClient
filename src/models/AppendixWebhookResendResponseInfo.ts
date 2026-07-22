@@ -12,6 +12,7 @@ export interface IAppendixWebhookResendResponseInfo  extends IBaseResponseInfo  
     }
 
 export class AppendixWebhookResendResponseInfo  extends BaseResponseInfo   implements IAppendixWebhookResendResponseInfo {
+
     
     /** array of tasks */
 

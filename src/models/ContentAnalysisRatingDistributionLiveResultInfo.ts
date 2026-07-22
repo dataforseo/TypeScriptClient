@@ -20,18 +20,22 @@ export interface IContentAnalysisRatingDistributionLiveResultInfo   {
     }
 
 export class ContentAnalysisRatingDistributionLiveResultInfo  implements IContentAnalysisRatingDistributionLiveResultInfo {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** min rating on a distribution scale */
 
     min?: number | undefined;
+
     
     /** max rating on a distribution scale */
 
     max?: number | undefined;
+
     
     /** contains rating distribution metrics */
 

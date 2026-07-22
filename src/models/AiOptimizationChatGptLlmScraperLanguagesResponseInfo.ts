@@ -12,6 +12,7 @@ export interface IAiOptimizationChatGptLlmScraperLanguagesResponseInfo  extends 
     }
 
 export class AiOptimizationChatGptLlmScraperLanguagesResponseInfo  extends BaseResponseInfo   implements IAiOptimizationChatGptLlmScraperLanguagesResponseInfo {
+
     
     /** array of tasks */
 

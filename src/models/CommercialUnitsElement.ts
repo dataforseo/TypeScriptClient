@@ -10,17 +10,16 @@ export interface ICommercialUnitsElement   {
         /** title of a given link element */
         title?: string | undefined
         
-        /** URL */
+        /** source URL */
         url?: string | undefined
         
-        /** website domain */
+        /** domain where a link points */
         domain?: string | undefined
         
         /** price indicated in the element */
         price?: PriceInfo | undefined
         
-        /** source of the element
-indicates the source of information included in the top_stories_element */
+        /** reference source name or title */
         source?: string | undefined
         
         /** the item’s rating 
@@ -33,31 +32,37 @@ if there is none, equals null */
     }
 
 export class CommercialUnitsElement  implements ICommercialUnitsElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** title of a given link element */
 
     title?: string | undefined;
+
     
-    /** URL */
+    /** source URL */
 
     url?: string | undefined;
+
     
-    /** website domain */
+    /** domain where a link points */
 
     domain?: string | undefined;
+
     
     /** price indicated in the element */
 
     price?: PriceInfo | undefined;
+
     
-    /** source of the element
-indicates the source of information included in the top_stories_element */
+    /** reference source name or title */
 
     source?: string | undefined;
+
     
     /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP;

@@ -52,21 +52,25 @@ gws-wiz-local */
     }
 
 export class Autocomplete  implements IAutocomplete {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
+
     
     /** relevance of suggested keyword
 represents the relevant of the autocomplete suggestion to the target keyword
@@ -76,21 +80,25 @@ Note: only available for the following client:
 chrome/chrome-omni */
 
     relevance?: number | undefined;
+
     
     /** google autocomplete keyword suggestion */
 
     suggestion?: string | undefined;
+
     
     /** google autocomplete suggestion type
 Note: only available for the following client:
 chrome/chrome-omni */
 
     suggestion_type?: string | undefined;
+
     
     /** url to search results
 url to search results relevant to the google autocomplete suggestion */
 
     search_query_url?: string | undefined;
+
     
     /** url of the thumbnail image
 url of the thumbnail image of the google autocomplete suggestion
@@ -99,6 +107,7 @@ gws-wiz
 gws-wiz-serp */
 
     thumbnail_url?: string | undefined;
+
     
     /** keywords highlighted in autocomplete
 contains a list of google autocomplete suggestions that are highlighted in the search bar;

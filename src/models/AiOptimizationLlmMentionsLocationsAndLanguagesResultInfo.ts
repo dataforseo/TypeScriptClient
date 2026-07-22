@@ -9,7 +9,8 @@ export interface IAiOptimizationLlmMentionsLocationsAndLanguagesResultInfo   {
         /** full name of the location */
         location_name?: string | undefined
         
-        /** supported languagescontains the languages which are supported for a specific location */
+        /** supported languages
+contains the languages which are supported for a specific location */
         available_languages?: ResultAvailableLanguages[] | undefined
 
     [key: string]: any;
@@ -17,16 +18,20 @@ export interface IAiOptimizationLlmMentionsLocationsAndLanguagesResultInfo   {
     }
 
 export class AiOptimizationLlmMentionsLocationsAndLanguagesResultInfo  implements IAiOptimizationLlmMentionsLocationsAndLanguagesResultInfo {
+
     
     /** location code */
 
     location_code?: number | undefined;
+
     
     /** full name of the location */
 
     location_name?: string | undefined;
+
     
-    /** supported languagescontains the languages which are supported for a specific location */
+    /** supported languages
+contains the languages which are supported for a specific location */
 
     available_languages?: ResultAvailableLanguages[] | undefined;
 

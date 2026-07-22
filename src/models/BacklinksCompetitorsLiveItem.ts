@@ -20,14 +20,17 @@ learn more about the metric and how it is calculated in this help center article
     }
 
 export class BacklinksCompetitorsLiveItem  implements IBacklinksCompetitorsLiveItem {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** competitor domain */
 
     target?: string | undefined;
+
     
     /** domain rank
 domain rank across all domains in the database
@@ -35,6 +38,7 @@ rank is calculated based on the method for node ranking in a linked database –
 learn more about the metric and how it is calculated in this help center article */
 
     rank?: number | undefined;
+
     
     /** indicates the number of backlink intersections with the target specified in the POST array */
 

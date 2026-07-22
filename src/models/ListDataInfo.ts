@@ -13,11 +13,13 @@ represents the list of related topics with the biggest increase in search freque
     }
 
 export class ListDataInfo  implements IListDataInfo {
+
     
     /** the most popular related topics
 represents the list of the most popular related topics */
 
     top?: any[] | undefined;
+
     
     /** emerging related topics
 represents the list of related topics with the biggest increase in search frequency since the last time period */

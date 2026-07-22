@@ -54,7 +54,7 @@ default value: windows */
 optional field
 number of results in SERP
 default value: 20
-max value: 700
+max value: 200
 Note: your account will be billed per each SERP containing up to 20 results;
 thus, setting a depth above 20 may result in additional charges if the search engine returns more than 20 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
@@ -72,6 +72,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class SerpYoutubeVideoCommentsLiveAdvancedRequestInfo  implements ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo {
+
     
     /** ID of the video
 required field
@@ -80,6 +81,7 @@ example:
 vQXvyV0zIP4 */
 
     video_id?: string | undefined;
+
     
     /** full name of search engine location
 required field if you don’t specify location_code
@@ -89,6 +91,7 @@ example:
 United States */
 
     location_name?: string | undefined;
+
     
     /** search engine location code
 required field if you don’t specify location_name 
@@ -98,6 +101,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** full name of search engine language
 required field if you don’t specify language_code
@@ -107,6 +111,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** search engine language code
 required field if you don’t specify language_name
@@ -116,12 +121,14 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** device type
 optional field
 only value: desktop */
 
     device?: string | undefined;
+
     
     /** device operating system
 optional field
@@ -129,17 +136,19 @@ choose from the following values: windows, macos
 default value: windows */
 
     os?: string | undefined;
+
     
     /** parsing depth
 optional field
 number of results in SERP
 default value: 20
-max value: 700
+max value: 200
 Note: your account will be billed per each SERP containing up to 20 results;
 thus, setting a depth above 20 may result in additional charges if the search engine returns more than 20 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance */
 
     depth?: number | undefined;
+
     
     /** user-defined task identifier
 optional field

@@ -11,10 +11,12 @@ export interface IKeywordsDataGoogleTrendsLanguagesResultInfo   {
     }
 
 export class KeywordsDataGoogleTrendsLanguagesResultInfo  implements IKeywordsDataGoogleTrendsLanguagesResultInfo {
+
     
     /** language name */
 
     language_name?: string | undefined;
+
     
     /** language code according to ISO 639-1 */
 

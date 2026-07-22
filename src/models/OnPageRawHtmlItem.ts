@@ -8,6 +8,7 @@ export interface IOnPageRawHtmlItem   {
     }
 
 export class OnPageRawHtmlItem  implements IOnPageRawHtmlItem {
+
     
     /** HTML page */
 

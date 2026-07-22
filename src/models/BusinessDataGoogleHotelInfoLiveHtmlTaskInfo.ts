@@ -12,6 +12,7 @@ export interface IBusinessDataGoogleHotelInfoLiveHtmlTaskInfo  extends IBaseResp
     }
 
 export class BusinessDataGoogleHotelInfoLiveHtmlTaskInfo  extends BaseResponseTaskInfo   implements IBusinessDataGoogleHotelInfoLiveHtmlTaskInfo {
+
     
     /** array of results */
 

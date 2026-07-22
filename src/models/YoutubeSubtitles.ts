@@ -29,33 +29,40 @@ absolute position among all the elements in SERP */
     }
 
 export class YoutubeSubtitles  implements IYoutubeSubtitles {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP for the target domain
 absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
+
     
     /** text translated in subtitles */
 
     text?: string | undefined;
+
     
     /** the second subtitled text starts */
 
     start_time?: number | undefined;
+
     
     /** the second subtitled text ends */
 
     end_time?: number | undefined;
+
     
     /** duration of subtitles in seconds */
 

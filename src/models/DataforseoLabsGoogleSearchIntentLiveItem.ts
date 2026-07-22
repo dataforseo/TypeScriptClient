@@ -17,14 +17,17 @@ export interface IDataforseoLabsGoogleSearchIntentLiveItem   {
     }
 
 export class DataforseoLabsGoogleSearchIntentLiveItem  implements IDataforseoLabsGoogleSearchIntentLiveItem {
+
     
     /** target keyword in a POST array */
 
     keyword?: string | undefined;
+
     
     /** search intent data relevant for the specified keyword */
 
     keyword_intent?: KeywordIntentInfo | undefined;
+
     
     /** contains objects with other possible search intents for the specified keyword */
 

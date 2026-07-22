@@ -91,6 +91,7 @@ learn more about this parameter on our Help Center */
     }
 
 export class DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo  implements IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo {
+
     
     /** target search terms
 required field
@@ -101,6 +102,7 @@ example:
 ['data-attrid'] */
 
     search_terms?: string[] | undefined;
+
     
     /** target keywords in the domain’s title, description or meta keywords
 optional field
@@ -111,6 +113,7 @@ example:
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keywords?: string[] | undefined;
+
     
     /** search mode
 optional field
@@ -120,6 +123,7 @@ entry – search for results ignoring the order, intervals and separators in the
 default value: entry */
 
     mode?: string | undefined;
+
     
     /** array of results filtering parameters
 optional field
@@ -139,6 +143,7 @@ example:
 for more information about filters, please refer to Domain Analytics Technologies API – Filters */
 
     filters?: any[] | undefined;
+
     
     /** results sorting rules
 optional field
@@ -158,6 +163,7 @@ example:
 ['last_visited,desc','domain_rank,desc'] */
 
     order_by?: string[] | undefined;
+
     
     /** the maximum number of returned domains
 optional field
@@ -165,6 +171,7 @@ default value: 100
 maximum value: 10000 */
 
     limit?: number | undefined;
+
     
     /** offset in the results array of returned domains
 optional field
@@ -174,6 +181,7 @@ Note: the maximum value is 9999, the sum of limit and offset must not exceed 100
 use the offset_token if you would like to offset more results */
 
     offset?: number | undefined;
+
     
     /** token for subsequent requests
 optional field

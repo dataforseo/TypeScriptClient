@@ -12,6 +12,7 @@ export interface IDomainAnalyticsTechnologiesDomainTechnologiesLiveTaskInfo  ext
     }
 
 export class DomainAnalyticsTechnologiesDomainTechnologiesLiveTaskInfo  extends BaseResponseTaskInfo   implements IDomainAnalyticsTechnologiesDomainTechnologiesLiveTaskInfo {
+
     
     /** array of results */
 

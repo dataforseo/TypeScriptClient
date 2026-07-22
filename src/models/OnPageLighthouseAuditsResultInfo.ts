@@ -11,6 +11,7 @@ Note #2: if you’re using the audit that contains a slash (/) in its name, sear
     }
 
 export class OnPageLighthouseAuditsResultInfo  implements IOnPageLighthouseAuditsResultInfo {
+
     
     /** the list of available lighthouse audits
 an array containing the titles of available audits;

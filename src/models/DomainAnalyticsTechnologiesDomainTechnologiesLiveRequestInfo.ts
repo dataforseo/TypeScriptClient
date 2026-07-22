@@ -11,6 +11,7 @@ Note: results will be returned for the specified domain only */
     }
 
 export class DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo  implements IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo {
+
     
     /** target domain
 required field

@@ -12,6 +12,7 @@ export interface IOnPageForceStopResponseInfo  extends IBaseResponseInfo    {
     }
 
 export class OnPageForceStopResponseInfo  extends BaseResponseInfo   implements IOnPageForceStopResponseInfo {
+
     
     /** array of tasks */
 

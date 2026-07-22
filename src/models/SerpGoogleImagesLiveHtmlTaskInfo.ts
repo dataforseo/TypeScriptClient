@@ -4,7 +4,6 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface ISerpGoogleImagesLiveHtmlTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
         result?: SerpGoogleImagesLiveHtmlResultInfo[] | undefined
 
     [key: string]: any;
@@ -12,8 +11,6 @@ export interface ISerpGoogleImagesLiveHtmlTaskInfo  extends IBaseResponseTaskInf
     }
 
 export class SerpGoogleImagesLiveHtmlTaskInfo  extends BaseResponseTaskInfo   implements ISerpGoogleImagesLiveHtmlTaskInfo {
-    
-    /** array of results */
 
     result?: SerpGoogleImagesLiveHtmlResultInfo[] | undefined;
 

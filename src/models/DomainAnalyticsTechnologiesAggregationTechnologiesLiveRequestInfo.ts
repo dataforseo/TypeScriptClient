@@ -130,6 +130,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo  implements IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo {
+
     
     /** id of the target technology group
 required field if you don’t specify technology, category or keyword
@@ -139,6 +140,7 @@ example:
 'marketing' */
 
     group?: string | undefined;
+
     
     /** id of the target technology category
 required field if you don’t specify group, keyword or technology
@@ -148,6 +150,7 @@ example:
 'crm' */
 
     category?: string | undefined;
+
     
     /** target technology
 required field if you don’t specify group, keyword or category
@@ -157,6 +160,7 @@ example:
 'Salesforce' */
 
     technology?: string | undefined;
+
     
     /** target keyword in the domain’s meta keywords
 required field if you don’t specify group, category or technology
@@ -166,6 +170,7 @@ example:
 'seo'learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keyword?: string | undefined;
+
     
     /** search mode
 optional field
@@ -175,6 +180,7 @@ entry – search for results matching a part of the specified group ids, categor
 default value: as_is */
 
     mode?: string | undefined;
+
     
     /** array of results filtering parameters
 optional field
@@ -191,6 +197,7 @@ example:
 ['domain_rank','>',800]]for more information about filters, please refer to Domain Analytics Technologies API – Filters */
 
     filters?: any[] | undefined;
+
     
     /** results sorting rules
 optional field
@@ -209,6 +216,7 @@ default value:
 ['groups_count,desc','categories_count,desc','technologies_count,desc'] */
 
     order_by?: string[] | undefined;
+
     
     /** maximum number of returned technology groups
 optional field
@@ -218,6 +226,7 @@ minimum value: 1
 maximum value: 10000 */
 
     internal_groups_list_limit?: number | undefined;
+
     
     /** maximum number of returned technology categories within the same group
 optional field
@@ -227,6 +236,7 @@ minimum value: 1
 maximum value: 10000 */
 
     internal_categories_list_limit?: number | undefined;
+
     
     /** maximum number of returned technologies within the same category
 optional field
@@ -236,6 +246,7 @@ minimum value: 1
 maximum value: 10000 */
 
     internal_technologies_list_limit?: number | undefined;
+
     
     /** maximum number of items with identical 'category', 'group', and 'technology'
 optional field
@@ -246,6 +257,7 @@ minimum value: 1
 maximum value: 10000 */
 
     internal_list_limit?: number | undefined;
+
     
     /** the maximum number of returned technologies
 optional field
@@ -253,6 +265,7 @@ default value: 100
 maximum value: 10000 */
 
     limit?: number | undefined;
+
     
     /** offset in the results array of returned domains
 optional field
@@ -261,6 +274,7 @@ maximum value: 9999
 if you specify the 10 value, the first ten technologies in the results array will be omitted and the data will be provided for the successive technologies */
 
     offset?: number | undefined;
+
     
     /** user-defined task identifier
 optional field

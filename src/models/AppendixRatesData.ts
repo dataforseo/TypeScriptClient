@@ -15,10 +15,12 @@ export interface IAppendixRatesData   {
     }
 
 export class AppendixRatesData  implements IAppendixRatesData {
+
     
     /** rate limits for API calls per a certain period of time */
 
     limits?: AppendixLimitsRatesData | undefined;
+
     
     /** statisctics for API calls */
 

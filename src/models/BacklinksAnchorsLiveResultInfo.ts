@@ -20,18 +20,22 @@ export interface IBacklinksAnchorsLiveResultInfo   {
     }
 
 export class BacklinksAnchorsLiveResultInfo  implements IBacklinksAnchorsLiveResultInfo {
+
     
     /** target in the post array */
 
     target?: string | undefined;
+
     
     /** total number of relevant items in the database */
 
     total_count?: number | undefined;
+
     
     /** number of items in the results array */
 
     items_count?: number | undefined;
+
     
     /** items array */
 

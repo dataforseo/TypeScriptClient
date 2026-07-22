@@ -46,6 +46,7 @@ the cost of using the specified keyword and match type during the last month */
     }
 
 export class KeywordKpiItemInfo  implements IKeywordKpiItemInfo {
+
     
     /** represents the position of the relevant ad in SERP
 can take the following values:
@@ -65,31 +66,37 @@ MainLine3: The third ad to appear at the top of the search results page
 MainLine4: The fourth ad to appear at the top of the search results page */
 
     ad_position?: string | undefined;
+
     
     /** ad clicks
 the number of clicks that the keyword and match type generated during the last month */
 
     clicks?: number | undefined;
+
     
     /** ad impressions
 the number of impressions that the keyword and match type generated during the last month */
 
     impressions?: number | undefined;
+
     
     /** average cost per click, USD
 calculated by dividing the cost of all clicks by the number of clicks */
 
     average_cpc?: number | undefined;
+
     
     /** click-through rate as a percentage
 calculated by dividing the number of clicks by the number of impressions and multiplying the result by 100 */
 
     ctr?: number | undefined;
+
     
     /** total cost of an ad, USD
 the cost of using the specified keyword and match type during the last month */
 
     total_cost?: number | undefined;
+
     
     /** average bid of the keyword */
 

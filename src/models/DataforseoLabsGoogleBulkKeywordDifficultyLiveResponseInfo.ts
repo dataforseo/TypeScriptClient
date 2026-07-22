@@ -12,6 +12,7 @@ export interface IDataforseoLabsGoogleBulkKeywordDifficultyLiveResponseInfo  ext
     }
 
 export class DataforseoLabsGoogleBulkKeywordDifficultyLiveResponseInfo  extends BaseResponseInfo   implements IDataforseoLabsGoogleBulkKeywordDifficultyLiveResponseInfo {
+
     
     /** array of tasks */
 

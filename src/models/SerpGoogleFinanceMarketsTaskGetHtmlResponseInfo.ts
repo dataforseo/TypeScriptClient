@@ -12,6 +12,7 @@ export interface ISerpGoogleFinanceMarketsTaskGetHtmlResponseInfo  extends IBase
     }
 
 export class SerpGoogleFinanceMarketsTaskGetHtmlResponseInfo  extends BaseResponseInfo   implements ISerpGoogleFinanceMarketsTaskGetHtmlResponseInfo {
+
     
     /** array of tasks */
 

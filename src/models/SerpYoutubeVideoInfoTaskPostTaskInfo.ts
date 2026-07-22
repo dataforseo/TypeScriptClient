@@ -12,6 +12,7 @@ in this case, the value will be null */
     }
 
 export class SerpYoutubeVideoInfoTaskPostTaskInfo  extends BaseResponseTaskInfo   implements ISerpYoutubeVideoInfoTaskPostTaskInfo {
+
     
     /** array of results
 in this case, the value will be null */

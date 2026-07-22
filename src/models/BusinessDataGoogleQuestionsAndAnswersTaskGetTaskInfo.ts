@@ -12,6 +12,7 @@ export interface IBusinessDataGoogleQuestionsAndAnswersTaskGetTaskInfo  extends 
     }
 
 export class BusinessDataGoogleQuestionsAndAnswersTaskGetTaskInfo  extends BaseResponseTaskInfo   implements IBusinessDataGoogleQuestionsAndAnswersTaskGetTaskInfo {
+
     
     /** array of results */
 

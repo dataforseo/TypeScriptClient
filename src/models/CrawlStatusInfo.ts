@@ -15,15 +15,18 @@ export interface ICrawlStatusInfo   {
     }
 
 export class CrawlStatusInfo  implements ICrawlStatusInfo {
+
     
     /** maximum number of pages to crawl
  indicates the max_crawl_pages limit you specified when setting a task */
 
     max_crawl_pages?: number | undefined;
+
     
     /** number of pages that are currently in the crawling queue */
 
     pages_in_queue?: number | undefined;
+
     
     /** number of crawled pages */
 

@@ -12,6 +12,7 @@ export interface IAppDataAppleAppSearchesTasksReadyTaskInfo  extends IBaseRespon
     }
 
 export class AppDataAppleAppSearchesTasksReadyTaskInfo  extends BaseResponseTaskInfo   implements IAppDataAppleAppSearchesTasksReadyTaskInfo {
+
     
     /** array of results */
 

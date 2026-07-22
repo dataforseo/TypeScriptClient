@@ -4,7 +4,8 @@ import { OnPageUncrawlableResourcesItem, IOnPageUncrawlableResourcesItem } from 
 
 export interface IOnPageUncrawlableResourcesResultInfo   {
         
-        /** status of the crawling sessionpossible values: in_progress, finished */
+        /** status of the crawling session
+possible values: in_progress, finished */
         crawl_progress?: string | undefined
         
         /** details of the crawling session */
@@ -12,7 +13,8 @@ export interface IOnPageUncrawlableResourcesResultInfo   {
         
         current_offset?: number | undefined
         
-        /** total number of uncrawlable resources found total number of uncrawlable resources found during the crawl of the target domain */
+        /** total number of uncrawlable resources found
+ total number of uncrawlable resources found during the crawl of the target domain */
         total_items_count?: number | undefined
         
         /** number of uncrawlable resources in the items array */
@@ -26,24 +28,31 @@ export interface IOnPageUncrawlableResourcesResultInfo   {
     }
 
 export class OnPageUncrawlableResourcesResultInfo  implements IOnPageUncrawlableResourcesResultInfo {
+
     
-    /** status of the crawling sessionpossible values: in_progress, finished */
+    /** status of the crawling session
+possible values: in_progress, finished */
 
     crawl_progress?: string | undefined;
+
     
     /** details of the crawling session */
 
     crawl_status?: CrawlStatusInfo | undefined;
 
     current_offset?: number | undefined;
+
     
-    /** total number of uncrawlable resources found total number of uncrawlable resources found during the crawl of the target domain */
+    /** total number of uncrawlable resources found
+ total number of uncrawlable resources found during the crawl of the target domain */
 
     total_items_count?: number | undefined;
+
     
     /** number of uncrawlable resources in the items array */
 
     items_count?: number | undefined;
+
     
     /** array of uncrawlable resources */
 

@@ -19,31 +19,25 @@ import { SerpApiCarouselElement, ISerpApiCarouselElement } from "./SerpApiCarous
 import { VideoElement, IVideoElement } from "./VideoElement";
 import { ShoppingElement, IShoppingElement } from "./ShoppingElement";
 import { GoogleFlightsElement, IGoogleFlightsElement } from "./GoogleFlightsElement";
-import { MentionCarouselElement, IMentionCarouselElement } from "./MentionCarouselElement";
 import { EventsElement, IEventsElement } from "./EventsElement";
 import { MultiCarouselElement, IMultiCarouselElement } from "./MultiCarouselElement";
 import { RecipesElement, IRecipesElement } from "./RecipesElement";
 import { TopSightsElement, ITopSightsElement } from "./TopSightsElement";
 import { ScholarlyArticlesElement, IScholarlyArticlesElement } from "./ScholarlyArticlesElement";
 import { PopularProductsElement, IPopularProductsElement } from "./PopularProductsElement";
-import { PodcastsElement, IPodcastsElement } from "./PodcastsElement";
 import { Graph, IGraph } from "./Graph";
 import { FindResultsOnElement, IFindResultsOnElement } from "./FindResultsOnElement";
 import { QuestionsAndAnswersElement, IQuestionsAndAnswersElement } from "./QuestionsAndAnswersElement";
 import { HotelsPackElement, IHotelsPackElement } from "./HotelsPackElement";
-import { AmazonLabelElement, IAmazonLabelElement } from "./AmazonLabelElement";
 import { CommercialUnitsElement, ICommercialUnitsElement } from "./CommercialUnitsElement";
 import { LocalServicesElement, ILocalServicesElement } from "./LocalServicesElement";
 import { MathSolverElement, IMathSolverElement } from "./MathSolverElement";
 import { ProductConsiderationsElement, IProductConsiderationsElement } from "./ProductConsiderationsElement";
-import { FoundOnWebElement, IFoundOnWebElement } from "./FoundOnWebElement";
 import { ShortVideosElement, IShortVideosElement } from "./ShortVideosElement";
 import { RefineProductsElement, IRefineProductsElement } from "./RefineProductsElement";
-import { ExploreBrandsElement, IExploreBrandsElement } from "./ExploreBrandsElement";
 import { PerspectivesElement, IPerspectivesElement } from "./PerspectivesElement";
 import { DiscussionsAndForumsElement, IDiscussionsAndForumsElement } from "./DiscussionsAndForumsElement";
 import { CompareSitesElement, ICompareSitesElement } from "./CompareSitesElement";
-import { CoursesElement, ICoursesElement } from "./CoursesElement";
 import { KnowledgeGraphListElement, IKnowledgeGraphListElement } from "./KnowledgeGraphListElement";
 import { KnowledgeGraphImagesElement, IKnowledgeGraphImagesElement } from "./KnowledgeGraphImagesElement";
 import { KnowledgeGraphHotelsBookingElement, IKnowledgeGraphHotelsBookingElement } from "./KnowledgeGraphHotelsBookingElement";
@@ -51,6 +45,12 @@ import { KnowledgeGraphExpandedElement, IKnowledgeGraphExpandedElement } from ".
 import { KnowledgeGraphShoppingElement, IKnowledgeGraphShoppingElement } from "./KnowledgeGraphShoppingElement";
 import { BaseSerpApiAiOverviewElementItem, IBaseSerpApiAiOverviewElementItem } from "./BaseSerpApiAiOverviewElementItem";
 import { AiModeAiOverviewReferenceInfo, IAiModeAiOverviewReferenceInfo } from "./AiModeAiOverviewReferenceInfo";
+import { MentionCarouselElement, IMentionCarouselElement } from "./MentionCarouselElement";
+import { PodcastsElement, IPodcastsElement } from "./PodcastsElement";
+import { AmazonLabelElement, IAmazonLabelElement } from "./AmazonLabelElement";
+import { FoundOnWebElement, IFoundOnWebElement } from "./FoundOnWebElement";
+import { ExploreBrandsElement, IExploreBrandsElement } from "./ExploreBrandsElement";
+import { CoursesElement, ICoursesElement } from "./CoursesElement";
 
 
 export interface IBaseSerpApiElementItem   {
@@ -58,8 +58,7 @@ export interface IBaseSerpApiElementItem   {
         /** type of element */
         type?: string | undefined
         
-        /** search results page number
-indicates the number of the SERP page on which the element is located */
+        /** search results page numberindicates the number of the SERP page on which the element is located */
         page?: number | undefined
         
         /** the alignment of the element in SERP
@@ -80,25 +79,29 @@ equals null if calculate_rectangles in the POST request is not set to true */
     }
 
 export class BaseSerpApiElementItem  implements IBaseSerpApiElementItem {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
-    /** search results page number
-indicates the number of the SERP page on which the element is located */
+    /** search results page numberindicates the number of the SERP page on which the element is located */
 
     page?: number | undefined;
+
     
     /** the alignment of the element in SERP
 can take the following values:
 left, right */
 
     position?: string | undefined;
+
     
     /** the XPath of the element */
 
     xpath?: string | undefined;
+
     
     /** rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -255,12 +258,6 @@ equals null if calculate_rectangles in the POST request is not set to true */
             result.init(data);
             return result;
         }
-        if (data["type"] === "mention_carousel") {
-
-            let result = new MentionCarouselSerpElementItem();
-            result.init(data);
-            return result;
-        }
         if (data["type"] === "events") {
 
             let result = new EventsSerpElementItem();
@@ -303,12 +300,6 @@ equals null if calculate_rectangles in the POST request is not set to true */
             result.init(data);
             return result;
         }
-        if (data["type"] === "podcasts") {
-
-            let result = new PodcastsSerpElementItem();
-            result.init(data);
-            return result;
-        }
         if (data["type"] === "stocks_box") {
 
             let result = new StocksBoxSerpElementItem();
@@ -330,12 +321,6 @@ equals null if calculate_rectangles in the POST request is not set to true */
         if (data["type"] === "hotels_pack") {
 
             let result = new HotelsPackSerpElementItem();
-            result.init(data);
-            return result;
-        }
-        if (data["type"] === "visual_stories") {
-
-            let result = new VisualStoriesSerpElementItem();
             result.init(data);
             return result;
         }
@@ -369,21 +354,9 @@ equals null if calculate_rectangles in the POST request is not set to true */
             result.init(data);
             return result;
         }
-        if (data["type"] === "google_posts") {
-
-            let result = new GooglePostsSerpElementItem();
-            result.init(data);
-            return result;
-        }
         if (data["type"] === "product_considerations") {
 
             let result = new ProductConsiderationsSerpElementItem();
-            result.init(data);
-            return result;
-        }
-        if (data["type"] === "found_on_web") {
-
-            let result = new FoundOnWebSerpElementItem();
             result.init(data);
             return result;
         }
@@ -396,12 +369,6 @@ equals null if calculate_rectangles in the POST request is not set to true */
         if (data["type"] === "refine_products") {
 
             let result = new RefineProductsSerpElementItem();
-            result.init(data);
-            return result;
-        }
-        if (data["type"] === "explore_brands") {
-
-            let result = new ExploreBrandsSerpElementItem();
             result.init(data);
             return result;
         }
@@ -420,12 +387,6 @@ equals null if calculate_rectangles in the POST request is not set to true */
         if (data["type"] === "compare_sites") {
 
             let result = new CompareSitesSerpElementItem();
-            result.init(data);
-            return result;
-        }
-        if (data["type"] === "courses") {
-
-            let result = new CoursesSerpElementItem();
             result.init(data);
             return result;
         }
@@ -507,6 +468,48 @@ equals null if calculate_rectangles in the POST request is not set to true */
             result.init(data);
             return result;
         }
+        if (data["type"] === "google_posts") {
+
+            let result = new GooglePostsSerpElementItem();
+            result.init(data);
+            return result;
+        }
+        if (data["type"] === "mention_carousel") {
+
+            let result = new MentionCarouselSerpElementItem();
+            result.init(data);
+            return result;
+        }
+        if (data["type"] === "podcasts") {
+
+            let result = new PodcastsSerpElementItem();
+            result.init(data);
+            return result;
+        }
+        if (data["type"] === "visual_stories") {
+
+            let result = new VisualStoriesSerpElementItem();
+            result.init(data);
+            return result;
+        }
+        if (data["type"] === "found_on_web") {
+
+            let result = new FoundOnWebSerpElementItem();
+            result.init(data);
+            return result;
+        }
+        if (data["type"] === "explore_brands") {
+
+            let result = new ExploreBrandsSerpElementItem();
+            result.init(data);
+            return result;
+        }
+        if (data["type"] === "courses") {
+
+            let result = new CoursesSerpElementItem();
+            result.init(data);
+            return result;
+        }
 
         let result = new BaseSerpApiElementItem();
         result.init(data);
@@ -530,14 +533,10 @@ equals null if calculate_rectangles in the POST request is not set to true */
  
 export interface IPaidSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+        /** group rank in SERPposition within a group of elements with identical type valuespositions of elements with different type values are omitted from rank_group */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements found in SERPnote values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;
-to get all items (including SERP features and rich snippets) with their positions, please refer to the Google Organiс Advanced SERP endpoint */
+        /** absolute rank in SERPabsolute position among all the elements found in SERPnote values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;to get all items (including SERP features and rich snippets) with their positions, please refer to the Google Organiс Advanced SERP endpoint */
         rank_absolute?: number | undefined
         
         /** domain in SERP */
@@ -578,9 +577,7 @@ if there are none, equals null */
 if there is none, equals null */
         description_rows?: string[] | undefined
         
-        /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+        /** link of the element */
         links?: AdLinkElement[] | undefined
         
         /** pricing details
@@ -598,80 +595,91 @@ if there is none, equals null */
     }
 
 export class PaidSerpElementItem  extends BaseSerpApiElementItem   implements IPaidSerpElementItem {
+
     
-    /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+    /** group rank in SERPposition within a group of elements with identical type valuespositions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
+
     
-    /** absolute rank in SERP
-absolute position among all the elements found in SERPnote values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;
-to get all items (including SERP features and rich snippets) with their positions, please refer to the Google Organiс Advanced SERP endpoint */
+    /** absolute rank in SERPabsolute position among all the elements found in SERPnote values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;to get all items (including SERP features and rich snippets) with their positions, please refer to the Google Organiс Advanced SERP endpoint */
 
     rank_absolute?: number | undefined;
+
     
     /** domain in SERP */
 
     domain?: string | undefined;
+
     
     /** title of the results element in SERP */
 
     title?: string | undefined;
+
     
     /** description of the results element in SERP */
 
     description?: string | undefined;
+
     
     /** relevant URL in SERP */
 
     url?: string | undefined;
+
     
     /** breadcrumb in SERP */
 
     breadcrumb?: string | undefined;
+
     
     /** name of the website in SERP */
 
     website_name?: string | undefined;
+
     
     /** indicates whether the element contains an image */
 
     is_image?: boolean | undefined;
+
     
     /** indicates whether the element contains a video */
 
     is_video?: boolean | undefined;
+
     
     /** images of the element
 if there are none, equals null */
 
     images?: AiModeImagesElementInfo[] | undefined;
+
     
     /** words highlighted in bold within the results description */
 
     highlighted?: string[] | undefined;
+
     
     /** additional information about the result */
 
     extra?: { [key: string]: string; } | undefined;
+
     
     /** extended description
 if there is none, equals null */
 
     description_rows?: string[] | undefined;
+
     
-    /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+    /** link of the element */
 
     links?: AdLinkElement[] | undefined;
+
     
     /** pricing details
 contains the pricing details of the product or service featured in the result;
 if there is none, equals null */
 
     price?: PriceInfo | undefined;
+
     
     /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -780,14 +788,10 @@ if there is none, equals null */
  
 export interface IOrganicSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+        /** group rank in SERPposition within a group of elements with identical type valuespositions of elements with different type values are omitted from rank_group */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements found in SERPnote values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;
-to get all items (including SERP features and rich snippets) with their positions, please refer to the Google Organiс Advanced SERP endpoint */
+        /** absolute rank in SERPabsolute position among all the elements found in SERPnote values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;to get all items (including SERP features and rich snippets) with their positions, please refer to the Google Organiс Advanced SERP endpoint */
         rank_absolute?: number | undefined
         
         /** domain in SERP */
@@ -857,12 +861,10 @@ if there is none, equals null */
         /** words highlighted in bold within the results description */
         highlighted?: string[] | undefined
         
-        /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+        /** link of the element */
         links?: LinkElement[] | undefined
         
-        /** frequently asked questions
+        /** @deprecated frequently asked questions
 questions and answers extension shown below some of Google’s search results
 Note: this object is deprecated and always returns null */
         faq?: FaqBox | undefined
@@ -872,10 +874,8 @@ extension of the organic result containing related search queries
 Note: extension appears in SERP upon clicking on the result and then bouncing back to search results */
         extended_people_also_search?: string[] | undefined
         
-        /** contains information from the ‘About this result’ panel
-‘About this result’ panel provides additional context about why Google returned this result for the given query;
-this feature appears after clicking on the three dots next to most results;
-if there is none, equals null */
+        /** @deprecated contains information from the ‘About this result’ panel
+Note: this object is deprecated and always returns null */
         about_this_result?: AboutThisResultElement | undefined
         
         /** related result from the same domain
@@ -894,117 +894,135 @@ example:
     }
 
 export class OrganicSerpElementItem  extends BaseSerpApiElementItem   implements IOrganicSerpElementItem {
+
     
-    /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+    /** group rank in SERPposition within a group of elements with identical type valuespositions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
+
     
-    /** absolute rank in SERP
-absolute position among all the elements found in SERPnote values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;
-to get all items (including SERP features and rich snippets) with their positions, please refer to the Google Organiс Advanced SERP endpoint */
+    /** absolute rank in SERPabsolute position among all the elements found in SERPnote values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;to get all items (including SERP features and rich snippets) with their positions, please refer to the Google Organiс Advanced SERP endpoint */
 
     rank_absolute?: number | undefined;
+
     
     /** domain in SERP */
 
     domain?: string | undefined;
+
     
     /** title of the results element in SERP */
 
     title?: string | undefined;
+
     
     /** description of the results element in SERP */
 
     description?: string | undefined;
+
     
     /** relevant URL in SERP */
 
     url?: string | undefined;
+
     
     /** breadcrumb in SERP */
 
     breadcrumb?: string | undefined;
+
     
     /** cached version of the page */
 
     cache_url?: string | undefined;
+
     
     /** URL to a similar search
 URL to a new search for the same keyword(s) on related sites */
 
     related_search_url?: string | undefined;
+
     
     /** name of the website in SERP */
 
     website_name?: string | undefined;
+
     
     /** indicates whether the element contains an image */
 
     is_image?: boolean | undefined;
+
     
     /** indicates whether the element contains a video */
 
     is_video?: boolean | undefined;
+
     
     /** indicates whether the element is a featured_snippet */
 
     is_featured_snippet?: boolean | undefined;
+
     
     /** indicates whether the element is marked as malicious */
 
     is_malicious?: boolean | undefined;
+
     
     /** indicates whether the element is marked as Google web story */
 
     is_web_story?: boolean | undefined;
+
     
     /** includes additional information appended before the result description in SERP */
 
     pre_snippet?: string | undefined;
+
     
     /** includes additional information appended after the result description in SERP */
 
     extended_snippet?: string | undefined;
+
     
     /** images of the element
 if there are none, equals null */
 
     images?: AiModeImagesElementInfo[] | undefined;
+
     
     /** Accelerated Mobile Pages
 indicates whether an item has the Accelerated Mobile Page (AMP) version */
 
     amp_version?: boolean | undefined;
+
     
     /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 if there is none, equals null */
 
     rating?: RatingInfo | undefined;
+
     
     /** pricing details
 contains the pricing details of the product or service featured in the result;
 if there is none, equals null */
 
     price?: PriceInfo | undefined;
+
     
     /** words highlighted in bold within the results description */
 
     highlighted?: string[] | undefined;
+
     
-    /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+    /** link of the element */
 
     links?: LinkElement[] | undefined;
     
-    /** frequently asked questions
+    /** @deprecated frequently asked questions
 questions and answers extension shown below some of Google’s search results
 Note: this object is deprecated and always returns null */
 
     faq?: FaqBox | undefined;
+
     
     /** extension of the organic element
 extension of the organic result containing related search queries
@@ -1012,18 +1030,18 @@ Note: extension appears in SERP upon clicking on the result and then bouncing ba
 
     extended_people_also_search?: string[] | undefined;
     
-    /** contains information from the ‘About this result’ panel
-‘About this result’ panel provides additional context about why Google returned this result for the given query;
-this feature appears after clicking on the three dots next to most results;
-if there is none, equals null */
+    /** @deprecated contains information from the ‘About this result’ panel
+Note: this object is deprecated and always returns null */
 
     about_this_result?: AboutThisResultElement | undefined;
+
     
     /** related result from the same domain
 related result from the same domain appears as a part of the main result snippet;
 you can derive the related_result snippets as 'type': 'organic' results by setting the group_organic_results parameter to false in the POST request */
 
     related_result?: RelatedResult[] | undefined;
+
     
     /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -1168,14 +1186,10 @@ example:
  
 export interface IFeaturedSnippetSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+        /** group rank in SERPposition within a group of elements with identical type valuespositions of elements with different type values are omitted from rank_group */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements found in SERPnote values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;
-to get all items (including SERP features and rich snippets) with their positions, please refer to the Google Organiс Advanced SERP endpoint */
+        /** absolute rank in SERPabsolute position among all the elements found in SERPnote values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;to get all items (including SERP features and rich snippets) with their positions, please refer to the Google Organiс Advanced SERP endpoint */
         rank_absolute?: number | undefined
         
         /** domain of the ad element in SERP */
@@ -1215,42 +1229,47 @@ the header and content of the table present in the element */
     }
 
 export class FeaturedSnippetSerpElementItem  extends BaseSerpApiElementItem   implements IFeaturedSnippetSerpElementItem {
+
     
-    /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+    /** group rank in SERPposition within a group of elements with identical type valuespositions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
+
     
-    /** absolute rank in SERP
-absolute position among all the elements found in SERPnote values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;
-to get all items (including SERP features and rich snippets) with their positions, please refer to the Google Organiс Advanced SERP endpoint */
+    /** absolute rank in SERPabsolute position among all the elements found in SERPnote values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;to get all items (including SERP features and rich snippets) with their positions, please refer to the Google Organiс Advanced SERP endpoint */
 
     rank_absolute?: number | undefined;
+
     
     /** domain of the ad element in SERP */
 
     domain?: string | undefined;
+
     
     /** title of the ad element in SERP */
 
     title?: string | undefined;
+
     
     /** description of the ad element in SERP */
 
     description?: string | undefined;
+
     
     /** relevant URL of the ad element in SERP */
 
     url?: string | undefined;
+
     
     /** breadcrumb of the ad element in SERP */
 
     breadcrumb?: string | undefined;
+
     
     /** title */
 
     featured_title?: string | undefined;
+
     
     /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -1258,11 +1277,13 @@ example:
 2019-11-15 12:57:46 +00:00 */
 
     timestamp?: string | undefined;
+
     
     /** images of the element
 if there are none, equals null */
 
     images?: AiModeImagesElementInfo[] | undefined;
+
     
     /** table present in the element
 the header and content of the table present in the element */
@@ -1381,7 +1402,8 @@ unique id of a local establishment;
 can be used with Google Reviews API to get a full list of reviews */
         cid?: string | undefined
         
-        /** contains results featured in the ‘hotels_pack’ element of SERP */
+        /** additional items present in the element
+if there are none, equals null */
         items?: BaseSerpApiKnowledgeGraphElementItem[] | undefined
 
     [key: string]: any;
@@ -1389,54 +1411,66 @@ can be used with Google Reviews API to get a full list of reviews */
     }
 
 export class KnowledgeGraphSerpElementItem  extends BaseSerpApiElementItem   implements IKnowledgeGraphSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
+
     
     /** title of the result in SERP */
 
     title?: string | undefined;
+
     
     /** subtitle of the item */
 
     subtitle?: string | undefined;
+
     
     /** description of the results element in SERP */
 
     description?: string | undefined;
+
     
     /** card id */
 
     card_id?: string | undefined;
+
     
     /** relevant URL in SERP */
 
     url?: string | undefined;
+
     
     /** URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
     image_url?: string | undefined;
+
     
     /** URL of the logo from knowledge graph */
 
     logo_url?: string | undefined;
+
     
     /** google-defined client id
 unique id of a local establishment;
 can be used with Google Reviews API to get a full list of reviews */
 
     cid?: string | undefined;
+
     
-    /** contains results featured in the ‘hotels_pack’ element of SERP */
+    /** additional items present in the element
+if there are none, equals null */
 
     items?: BaseSerpApiKnowledgeGraphElementItem[] | undefined;
 
@@ -1527,10 +1561,10 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: TopStoriesElement[] | undefined
 
     [key: string]: any;
@@ -1538,6 +1572,7 @@ always equals 0 for desktop */
     }
 
 export class TopStoriesSerpElementItem  extends BaseSerpApiElementItem   implements ITopStoriesSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -1545,18 +1580,21 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: TopStoriesElement[] | undefined;
 
@@ -1633,7 +1671,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: PeopleAlsoAskElement[] | undefined
 
     [key: string]: any;
@@ -1641,6 +1679,7 @@ always equals 0 for desktop */
     }
 
 export class PeopleAlsoAskSerpElementItem  extends BaseSerpApiElementItem   implements IPeopleAlsoAskSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -1648,14 +1687,16 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: PeopleAlsoAskElement[] | undefined;
 
@@ -1730,10 +1771,10 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: string[] | undefined
 
     [key: string]: any;
@@ -1741,6 +1782,7 @@ always equals 0 for desktop */
     }
 
 export class PeopleAlsoSearchSerpElementItem  extends BaseSerpApiElementItem   implements IPeopleAlsoSearchSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -1748,18 +1790,21 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: string[] | undefined;
 
@@ -1823,17 +1868,17 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
-        /** URL */
+        /** URL of the third-party review source */
         url?: string | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: AiModeImagesElementInfo[] | undefined
         
-        /** contains keywords and images related to the specified search term
-if there are none, equals null */
+        /** @deprecated contains keywords and images related to the specified search term
+Note: this array is deprecated and always returns null */
         related_image_searches?: RelatedImageSearchesElement[] | undefined
 
     [key: string]: any;
@@ -1841,6 +1886,7 @@ if there are none, equals null */
     }
 
 export class ImagesSerpElementItem  extends BaseSerpApiElementItem   implements IImagesSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -1848,27 +1894,31 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
-    /** URL */
+    /** URL of the third-party review source */
 
     url?: string | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: AiModeImagesElementInfo[] | undefined;
     
-    /** contains keywords and images related to the specified search term
-if there are none, equals null */
+    /** @deprecated contains keywords and images related to the specified search term
+Note: this array is deprecated and always returns null */
 
     related_image_searches?: RelatedImageSearchesElement[] | undefined;
 
@@ -1962,13 +2012,13 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
-        /** URL */
+        /** URL of the third-party review source */
         url?: string | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: TwitterElement[] | undefined
 
     [key: string]: any;
@@ -1976,6 +2026,7 @@ always equals 0 for desktop */
     }
 
 export class TwitterSerpElementItem  extends BaseSerpApiElementItem   implements ITwitterSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -1983,22 +2034,26 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
-    /** URL */
+    /** URL of the third-party review source */
 
     url?: string | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: TwitterElement[] | undefined;
 
@@ -2099,6 +2154,7 @@ if there is none, equals null */
     }
 
 export class GoogleReviewsSerpElementItem  extends BaseSerpApiElementItem   implements IGoogleReviewsSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -2106,30 +2162,36 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
     /** the number of reviews */
 
     reviews_count?: number | undefined;
+
     
     /** the element’s rating
 the popularity rate based on reviews and displayed in SERP;
 if there is none, equals null */
 
     rating?: RatingInfo | undefined;
+
     
     /** the identifier of a place */
 
     place_id?: string | undefined;
+
     
     /** the additional feature of the review */
 
     feature?: string | undefined;
+
     
     /** google-defined client id */
 
@@ -2201,13 +2263,13 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
-        /** URL */
+        /** URL of the third-party review source */
         url?: string | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: JobsElement[] | undefined
 
     [key: string]: any;
@@ -2215,6 +2277,7 @@ always equals 0 for desktop */
     }
 
 export class JobsSerpElementItem  extends BaseSerpApiElementItem   implements IJobsSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -2222,22 +2285,26 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
-    /** URL */
+    /** URL of the third-party review source */
 
     url?: string | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: JobsElement[] | undefined;
 
@@ -2316,10 +2383,10 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
-        /** URL */
+        /** URL of the third-party review source */
         url?: string | undefined
 
     [key: string]: any;
@@ -2327,6 +2394,7 @@ always equals 0 for desktop */
     }
 
 export class MapSerpElementItem  extends BaseSerpApiElementItem   implements IMapSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -2334,18 +2402,21 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
-    /** URL */
+    /** URL of the third-party review source */
 
     url?: string | undefined;
 
@@ -2409,7 +2480,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: AppElement[] | undefined
 
     [key: string]: any;
@@ -2417,6 +2488,7 @@ always equals 0 for desktop */
     }
 
 export class AppSerpElementItem  extends BaseSerpApiElementItem   implements IAppSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -2424,14 +2496,16 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: AppElement[] | undefined;
 
@@ -2506,13 +2580,13 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
-        /** link description */
+        /** description of the link */
         description?: string | undefined
         
-        /** domain name of the reference */
+        /** domain of the website hosting the video */
         domain?: string | undefined
         
         /** phone number */
@@ -2521,7 +2595,7 @@ always equals 0 for desktop */
         /** URL of the booking page */
         booking_url?: string | undefined
         
-        /** URL */
+        /** URL of the third-party review source */
         url?: string | undefined
         
         /** indicates whether the element is an ad */
@@ -2540,6 +2614,7 @@ if there is none, equals null */
     }
 
 export class LocalPackSerpElementItem  extends BaseSerpApiElementItem   implements ILocalPackSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -2547,46 +2622,56 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
-    /** link description */
+    /** description of the link */
 
     description?: string | undefined;
+
     
-    /** domain name of the reference */
+    /** domain of the website hosting the video */
 
     domain?: string | undefined;
+
     
     /** phone number */
 
     phone?: string | undefined;
+
     
     /** URL of the booking page */
 
     booking_url?: string | undefined;
+
     
-    /** URL */
+    /** URL of the third-party review source */
 
     url?: string | undefined;
+
     
     /** indicates whether the element is an ad */
 
     is_paid?: boolean | undefined;
+
     
     /** the element’s rating
 the popularity rate based on reviews and displayed in SERP;
 if there is none, equals null */
 
     rating?: RatingInfo | undefined;
+
     
     /** google-defined client id */
 
@@ -2666,10 +2751,10 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: SerpApiCarouselElement[] | undefined
 
     [key: string]: any;
@@ -2677,6 +2762,7 @@ always equals 0 for desktop */
     }
 
 export class CarouselSerpElementItem  extends BaseSerpApiElementItem   implements ICarouselSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -2684,18 +2770,21 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: SerpApiCarouselElement[] | undefined;
 
@@ -2772,7 +2861,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: VideoElement[] | undefined
 
     [key: string]: any;
@@ -2780,6 +2869,7 @@ always equals 0 for desktop */
     }
 
 export class VideoSerpElementItem  extends BaseSerpApiElementItem   implements IVideoSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -2787,14 +2877,16 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: VideoElement[] | undefined;
 
@@ -2873,7 +2965,9 @@ always equals 0 for desktop */
 if there is none, equals null */
         text?: string[] | undefined
         
-        /** website links featured in the element */
+        /** sitelinks
+the links shown below some of Google’s search results
+if there are none, equals null */
         links?: LinkElement[] | undefined
 
     [key: string]: any;
@@ -2881,6 +2975,7 @@ if there is none, equals null */
     }
 
 export class AnswerBoxSerpElementItem  extends BaseSerpApiElementItem   implements IAnswerBoxSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -2888,19 +2983,24 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
     /** text
 if there is none, equals null */
 
     text?: string[] | undefined;
+
     
-    /** website links featured in the element */
+    /** sitelinks
+the links shown below some of Google’s search results
+if there are none, equals null */
 
     links?: LinkElement[] | undefined;
 
@@ -2977,10 +3077,10 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: ShoppingElement[] | undefined
 
     [key: string]: any;
@@ -2988,6 +3088,7 @@ always equals 0 for desktop */
     }
 
 export class ShoppingSerpElementItem  extends BaseSerpApiElementItem   implements IShoppingSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -2995,18 +3096,21 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: ShoppingElement[] | undefined;
 
@@ -3083,13 +3187,13 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
-        /** URL */
+        /** URL of the third-party review source */
         url?: string | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: GoogleFlightsElement[] | undefined
 
     [key: string]: any;
@@ -3097,6 +3201,7 @@ always equals 0 for desktop */
     }
 
 export class GoogleFlightsSerpElementItem  extends BaseSerpApiElementItem   implements IGoogleFlightsSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -3104,22 +3209,26 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
-    /** URL */
+    /** URL of the third-party review source */
 
     url?: string | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: GoogleFlightsElement[] | undefined;
 
@@ -3185,112 +3294,6 @@ always equals 0 for desktop */
 }
 
  
-export interface IMentionCarouselSerpElementItem  extends IBaseSerpApiElementItem    {
-        
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
-        rank_group?: number | undefined
-        
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
-        rank_absolute?: number | undefined
-        
-        /** reference page title */
-        title?: string | undefined
-        
-        /** contains arrays of specific images */
-        items?: MentionCarouselElement[] | undefined
-
-    [key: string]: any;
-
-    }
-
-export class MentionCarouselSerpElementItem  extends BaseSerpApiElementItem   implements IMentionCarouselSerpElementItem {
-    
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
-
-    rank_group?: number | undefined;
-    
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
-
-    rank_absolute?: number | undefined;
-    
-    /** reference page title */
-
-    title?: string | undefined;
-    
-    /** contains arrays of specific images */
-
-    items?: MentionCarouselElement[] | undefined;
-
-    [key: string]: any;
-
-
-    constructor(data?: IMentionCarouselSerpElementItem) {
-    super(data);
-
-    }
-
-    init(data?: any) {
-        super.init(data);
-        if (data) {
-            for (var property in data) {
-                if (data.hasOwnProperty(property))
-                    this[property] = data[property];
-            }
-            this.rank_group = data["rank_group"];
-            this.rank_absolute = data["rank_absolute"];
-            this.title = data["title"];
-            if (Array.isArray(data["items"])) {
-                this.items = [];
-                for (let item of data["items"]) {
-                    this.items.push(MentionCarouselElement.fromJS(item));
-                }
-            }
-        }
-    }
-
-    static fromJS(data: any): MentionCarouselSerpElementItem {
-        data = typeof data === 'object' ? data : {};
-
-
-        let result = new MentionCarouselSerpElementItem();
-        result.init(data);
-        return result;
-    }
-
-    toJSON(data?: any) {
-        data = typeof data === 'object' ? data : {};
-
-         
-        super.toJSON(data);
-        
-        
-        data["rank_group"] = this.rank_group;
-        data["rank_absolute"] = this.rank_absolute;
-        data["title"] = this.title;
-        data["items"] = null;
-        if (Array.isArray(this.items)) {
-            data["items"] = [];
-            for (let item of this.items) {
-                if (item && typeof item.toJSON === "function") {
-                    data["items"].push(item?.toJSON());
-                }
-            }
-        }
-        return data;
-    }
-}
-
- 
 export interface IEventsSerpElementItem  extends IBaseSerpApiElementItem    {
         
         /** group rank in SERP
@@ -3304,13 +3307,13 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
-        /** URL */
+        /** URL of the third-party review source */
         url?: string | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: EventsElement[] | undefined
 
     [key: string]: any;
@@ -3318,6 +3321,7 @@ always equals 0 for desktop */
     }
 
 export class EventsSerpElementItem  extends BaseSerpApiElementItem   implements IEventsSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -3325,22 +3329,26 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
-    /** URL */
+    /** URL of the third-party review source */
 
     url?: string | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: EventsElement[] | undefined;
 
@@ -3419,7 +3427,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: string[] | undefined
 
     [key: string]: any;
@@ -3427,6 +3435,7 @@ always equals 0 for desktop */
     }
 
 export class RelatedSearchesSerpElementItem  extends BaseSerpApiElementItem   implements IRelatedSearchesSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -3434,14 +3443,16 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: string[] | undefined;
 
@@ -3503,7 +3514,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: MultiCarouselElement[] | undefined
 
     [key: string]: any;
@@ -3511,6 +3522,7 @@ always equals 0 for desktop */
     }
 
 export class MultiCarouselSerpElementItem  extends BaseSerpApiElementItem   implements IMultiCarouselSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -3518,14 +3530,16 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: MultiCarouselElement[] | undefined;
 
@@ -3600,7 +3614,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: RecipesElement[] | undefined
 
     [key: string]: any;
@@ -3608,6 +3622,7 @@ always equals 0 for desktop */
     }
 
 export class RecipesSerpElementItem  extends BaseSerpApiElementItem   implements IRecipesSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -3615,14 +3630,16 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: RecipesElement[] | undefined;
 
@@ -3697,10 +3714,10 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: TopSightsElement[] | undefined
 
     [key: string]: any;
@@ -3708,6 +3725,7 @@ always equals 0 for desktop */
     }
 
 export class TopSightsSerpElementItem  extends BaseSerpApiElementItem   implements ITopSightsSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -3715,18 +3733,21 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: TopSightsElement[] | undefined;
 
@@ -3803,13 +3824,13 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
-        /** URL */
+        /** URL of the third-party review source */
         url?: string | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: ScholarlyArticlesElement[] | undefined
 
     [key: string]: any;
@@ -3817,6 +3838,7 @@ always equals 0 for desktop */
     }
 
 export class ScholarlyArticlesSerpElementItem  extends BaseSerpApiElementItem   implements IScholarlyArticlesSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -3824,22 +3846,26 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
-    /** URL */
+    /** URL of the third-party review source */
 
     url?: string | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: ScholarlyArticlesElement[] | undefined;
 
@@ -3918,10 +3944,10 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: PopularProductsElement[] | undefined
 
     [key: string]: any;
@@ -3929,6 +3955,7 @@ always equals 0 for desktop */
     }
 
 export class PopularProductsSerpElementItem  extends BaseSerpApiElementItem   implements IPopularProductsSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -3936,18 +3963,21 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: PopularProductsElement[] | undefined;
 
@@ -4011,103 +4041,6 @@ always equals 0 for desktop */
 }
 
  
-export interface IPodcastsSerpElementItem  extends IBaseSerpApiElementItem    {
-        
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
-        rank_group?: number | undefined
-        
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
-        rank_absolute?: number | undefined
-        
-        /** contains arrays of specific images */
-        items?: PodcastsElement[] | undefined
-
-    [key: string]: any;
-
-    }
-
-export class PodcastsSerpElementItem  extends BaseSerpApiElementItem   implements IPodcastsSerpElementItem {
-    
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
-
-    rank_group?: number | undefined;
-    
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
-
-    rank_absolute?: number | undefined;
-    
-    /** contains arrays of specific images */
-
-    items?: PodcastsElement[] | undefined;
-
-    [key: string]: any;
-
-
-    constructor(data?: IPodcastsSerpElementItem) {
-    super(data);
-
-    }
-
-    init(data?: any) {
-        super.init(data);
-        if (data) {
-            for (var property in data) {
-                if (data.hasOwnProperty(property))
-                    this[property] = data[property];
-            }
-            this.rank_group = data["rank_group"];
-            this.rank_absolute = data["rank_absolute"];
-            if (Array.isArray(data["items"])) {
-                this.items = [];
-                for (let item of data["items"]) {
-                    this.items.push(PodcastsElement.fromJS(item));
-                }
-            }
-        }
-    }
-
-    static fromJS(data: any): PodcastsSerpElementItem {
-        data = typeof data === 'object' ? data : {};
-
-
-        let result = new PodcastsSerpElementItem();
-        result.init(data);
-        return result;
-    }
-
-    toJSON(data?: any) {
-        data = typeof data === 'object' ? data : {};
-
-         
-        super.toJSON(data);
-        
-        
-        data["rank_group"] = this.rank_group;
-        data["rank_absolute"] = this.rank_absolute;
-        data["items"] = null;
-        if (Array.isArray(this.items)) {
-            data["items"] = [];
-            for (let item of this.items) {
-                if (item && typeof item.toJSON === "function") {
-                    data["items"].push(item?.toJSON());
-                }
-            }
-        }
-        return data;
-    }
-}
-
- 
 export interface IStocksBoxSerpElementItem  extends IBaseSerpApiElementItem    {
         
         /** group rank in SERP
@@ -4121,10 +4054,11 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
-        /** reference source name or title */
+        /** source of the element
+indicates the source of information included in the recipes_element */
         source?: string | undefined
         
         /** text alongside the link title */
@@ -4133,10 +4067,10 @@ always equals 0 for desktop */
         /** price indicated in the element */
         price?: PriceInfo | undefined
         
-        /** URL */
+        /** URL of the third-party review source */
         url?: string | undefined
         
-        /** domain name of the reference */
+        /** domain of the website hosting the video */
         domain?: string | undefined
         
         /** table present in the element
@@ -4151,6 +4085,7 @@ the header and content of the table present in the element */
     }
 
 export class StocksBoxSerpElementItem  extends BaseSerpApiElementItem   implements IStocksBoxSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -4158,41 +4093,51 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
-    /** reference source name or title */
+    /** source of the element
+indicates the source of information included in the recipes_element */
 
     source?: string | undefined;
+
     
     /** text alongside the link title */
 
     snippet?: string | undefined;
+
     
     /** price indicated in the element */
 
     price?: PriceInfo | undefined;
+
     
-    /** URL */
+    /** URL of the third-party review source */
 
     url?: string | undefined;
+
     
-    /** domain name of the reference */
+    /** domain of the website hosting the video */
 
     domain?: string | undefined;
+
     
     /** table present in the element
 the header and content of the table present in the element */
 
     table?: Table | undefined;
+
     
     /** contains data provided in the graph of the element */
 
@@ -4270,7 +4215,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: FindResultsOnElement[] | undefined
 
     [key: string]: any;
@@ -4278,6 +4223,7 @@ always equals 0 for desktop */
     }
 
 export class FindResultsOnSerpElementItem  extends BaseSerpApiElementItem   implements IFindResultsOnSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -4285,14 +4231,16 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: FindResultsOnElement[] | undefined;
 
@@ -4367,7 +4315,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: QuestionsAndAnswersElement[] | undefined
 
     [key: string]: any;
@@ -4375,6 +4323,7 @@ always equals 0 for desktop */
     }
 
 export class QuestionsAndAnswersSerpElementItem  extends BaseSerpApiElementItem   implements IQuestionsAndAnswersSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -4382,14 +4331,16 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: QuestionsAndAnswersElement[] | undefined;
 
@@ -4464,7 +4415,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
         /** starting date of stay
@@ -4479,7 +4430,7 @@ example:
 2019-11-17 */
         date_to?: string | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: HotelsPackElement[] | undefined
 
     [key: string]: any;
@@ -4487,6 +4438,7 @@ example:
     }
 
 export class HotelsPackSerpElementItem  extends BaseSerpApiElementItem   implements IHotelsPackSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -4494,16 +4446,19 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
     /** starting date of stay
 in the format “year-month-date”
@@ -4511,6 +4466,7 @@ example:
 2019-11-15 */
 
     date_from?: string | undefined;
+
     
     /** ending date of stay
 in the format “year-month-date”
@@ -4518,8 +4474,9 @@ example:
 2019-11-17 */
 
     date_to?: string | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: HotelsPackElement[] | undefined;
 
@@ -4587,103 +4544,6 @@ example:
 }
 
  
-export interface IVisualStoriesSerpElementItem  extends IBaseSerpApiElementItem    {
-        
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
-        rank_group?: number | undefined
-        
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
-        rank_absolute?: number | undefined
-        
-        /** contains arrays of specific images */
-        items?: AmazonLabelElement[] | undefined
-
-    [key: string]: any;
-
-    }
-
-export class VisualStoriesSerpElementItem  extends BaseSerpApiElementItem   implements IVisualStoriesSerpElementItem {
-    
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
-
-    rank_group?: number | undefined;
-    
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
-
-    rank_absolute?: number | undefined;
-    
-    /** contains arrays of specific images */
-
-    items?: AmazonLabelElement[] | undefined;
-
-    [key: string]: any;
-
-
-    constructor(data?: IVisualStoriesSerpElementItem) {
-    super(data);
-
-    }
-
-    init(data?: any) {
-        super.init(data);
-        if (data) {
-            for (var property in data) {
-                if (data.hasOwnProperty(property))
-                    this[property] = data[property];
-            }
-            this.rank_group = data["rank_group"];
-            this.rank_absolute = data["rank_absolute"];
-            if (Array.isArray(data["items"])) {
-                this.items = [];
-                for (let item of data["items"]) {
-                    this.items.push(AmazonLabelElement.fromJS(item));
-                }
-            }
-        }
-    }
-
-    static fromJS(data: any): VisualStoriesSerpElementItem {
-        data = typeof data === 'object' ? data : {};
-
-
-        let result = new VisualStoriesSerpElementItem();
-        result.init(data);
-        return result;
-    }
-
-    toJSON(data?: any) {
-        data = typeof data === 'object' ? data : {};
-
-         
-        super.toJSON(data);
-        
-        
-        data["rank_group"] = this.rank_group;
-        data["rank_absolute"] = this.rank_absolute;
-        data["items"] = null;
-        if (Array.isArray(this.items)) {
-            data["items"] = [];
-            for (let item of this.items) {
-                if (item && typeof item.toJSON === "function") {
-                    data["items"].push(item?.toJSON());
-                }
-            }
-        }
-        return data;
-    }
-}
-
- 
 export interface ICommercialUnitsSerpElementItem  extends IBaseSerpApiElementItem    {
         
         /** group rank in SERP
@@ -4697,10 +4557,10 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: CommercialUnitsElement[] | undefined
 
     [key: string]: any;
@@ -4708,6 +4568,7 @@ always equals 0 for desktop */
     }
 
 export class CommercialUnitsSerpElementItem  extends BaseSerpApiElementItem   implements ICommercialUnitsSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -4715,18 +4576,21 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: CommercialUnitsElement[] | undefined;
 
@@ -4803,16 +4667,16 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
-        /** URL */
+        /** URL of the third-party review source */
         url?: string | undefined
         
-        /** domain name of the reference */
+        /** domain of the website hosting the video */
         domain?: string | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: LocalServicesElement[] | undefined
 
     [key: string]: any;
@@ -4820,6 +4684,7 @@ always equals 0 for desktop */
     }
 
 export class LocalServicesSerpElementItem  extends BaseSerpApiElementItem   implements ILocalServicesSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -4827,26 +4692,31 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
-    /** URL */
+    /** URL of the third-party review source */
 
     url?: string | undefined;
+
     
-    /** domain name of the reference */
+    /** domain of the website hosting the video */
 
     domain?: string | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: LocalServicesElement[] | undefined;
 
@@ -4932,7 +4802,7 @@ unique hotel identifier assigned by Google;
 example: 'CgoIjaeSlI6CnNpVEAE' */
         hotel_identifier?: string | undefined
         
-        /** URL */
+        /** URL of the third-party review source */
         url?: string | undefined
         
         /** google-defined client id */
@@ -4943,6 +4813,7 @@ example: 'CgoIjaeSlI6CnNpVEAE' */
     }
 
 export class GoogleHotelsSerpElementItem  extends BaseSerpApiElementItem   implements IGoogleHotelsSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -4950,22 +4821,26 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
     /** unique hotel identifier
 unique hotel identifier assigned by Google;
 example: 'CgoIjaeSlI6CnNpVEAE' */
 
     hotel_identifier?: string | undefined;
+
     
-    /** URL */
+    /** URL of the third-party review source */
 
     url?: string | undefined;
+
     
     /** google-defined client id */
 
@@ -5033,17 +4908,19 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
         /** solution to the equation
 solution to the mathematical equation specified in the keyword field when setting a task */
         result?: string | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: MathSolverElement[] | undefined
         
-        /** website links featured in the element */
+        /** sitelinks
+the links shown below some of Google’s search results
+if there are none, equals null */
         links?: LinkElement[] | undefined
 
     [key: string]: any;
@@ -5051,6 +4928,7 @@ solution to the mathematical equation specified in the keyword field when settin
     }
 
 export class MathSolverSerpElementItem  extends BaseSerpApiElementItem   implements IMathSolverSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -5058,27 +4936,34 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
     /** solution to the equation
 solution to the mathematical equation specified in the keyword field when setting a task */
 
     result?: string | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: MathSolverElement[] | undefined;
+
     
-    /** website links featured in the element */
+    /** sitelinks
+the links shown below some of Google’s search results
+if there are none, equals null */
 
     links?: LinkElement[] | undefined;
 
@@ -5205,6 +5090,7 @@ the header and content of the table present in the element */
     }
 
 export class CurrencyBoxSerpElementItem  extends BaseSerpApiElementItem   implements ICurrencyBoxSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -5212,31 +5098,37 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
     /** the value of the rating */
 
     value?: number | undefined;
+
     
     /** value converted to a requested currency
 indicates the exact value based on Google Fincance data at the time when our API pulled the results
 note that exchange rates displayed in the currency_box element may be delayed according to the Google Finance disclaimer */
 
     converted_value?: number | undefined;
+
     
     /** currency of the listed price
 ISO code of the currency applied to the price */
 
     currency?: string | undefined;
+
     
     /** converted currency */
 
     converted_currency?: string | undefined;
+
     
     /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -5244,11 +5136,13 @@ example:
 2019-11-15 12:57:46 +00:00 */
 
     timestamp?: string | undefined;
+
     
     /** table present in the element
 the header and content of the table present in the element */
 
     table?: Table | undefined;
+
     
     /** contains data provided in the graph of the element */
 
@@ -5311,108 +5205,6 @@ the header and content of the table present in the element */
 }
 
  
-export interface IGooglePostsSerpElementItem  extends IBaseSerpApiElementItem    {
-        
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
-        rank_group?: number | undefined
-        
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
-        rank_absolute?: number | undefined
-        
-        /** the identifier of the google_posts feature */
-        posts_id?: string | undefined
-        
-        /** the additional feature of the review */
-        feature?: string | undefined
-        
-        /** google-defined client id */
-        cid?: string | undefined
-
-    [key: string]: any;
-
-    }
-
-export class GooglePostsSerpElementItem  extends BaseSerpApiElementItem   implements IGooglePostsSerpElementItem {
-    
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
-
-    rank_group?: number | undefined;
-    
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
-
-    rank_absolute?: number | undefined;
-    
-    /** the identifier of the google_posts feature */
-
-    posts_id?: string | undefined;
-    
-    /** the additional feature of the review */
-
-    feature?: string | undefined;
-    
-    /** google-defined client id */
-
-    cid?: string | undefined;
-
-    [key: string]: any;
-
-
-    constructor(data?: IGooglePostsSerpElementItem) {
-    super(data);
-
-    }
-
-    init(data?: any) {
-        super.init(data);
-        if (data) {
-            for (var property in data) {
-                if (data.hasOwnProperty(property))
-                    this[property] = data[property];
-            }
-            this.rank_group = data["rank_group"];
-            this.rank_absolute = data["rank_absolute"];
-            this.posts_id = data["posts_id"];
-            this.feature = data["feature"];
-            this.cid = data["cid"];
-        }
-    }
-
-    static fromJS(data: any): GooglePostsSerpElementItem {
-        data = typeof data === 'object' ? data : {};
-
-
-        let result = new GooglePostsSerpElementItem();
-        result.init(data);
-        return result;
-    }
-
-    toJSON(data?: any) {
-        data = typeof data === 'object' ? data : {};
-
-         
-        super.toJSON(data);
-        
-        
-        data["rank_group"] = this.rank_group;
-        data["rank_absolute"] = this.rank_absolute;
-        data["posts_id"] = this.posts_id;
-        data["feature"] = this.feature;
-        data["cid"] = this.cid;
-        return data;
-    }
-}
-
- 
 export interface IProductConsiderationsSerpElementItem  extends IBaseSerpApiElementItem    {
         
         /** group rank in SERP
@@ -5426,10 +5218,10 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: ProductConsiderationsElement[] | undefined
 
     [key: string]: any;
@@ -5437,6 +5229,7 @@ always equals 0 for desktop */
     }
 
 export class ProductConsiderationsSerpElementItem  extends BaseSerpApiElementItem   implements IProductConsiderationsSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -5444,18 +5237,21 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: ProductConsiderationsElement[] | undefined;
 
@@ -5519,121 +5315,6 @@ always equals 0 for desktop */
 }
 
  
-export interface IFoundOnWebSerpElementItem  extends IBaseSerpApiElementItem    {
-        
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
-        rank_group?: number | undefined
-        
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
-        rank_absolute?: number | undefined
-        
-        /** reference page title */
-        title?: string | undefined
-        
-        /** search queries related to the elment */
-        related_searches?: string[] | undefined
-        
-        /** contains arrays of specific images */
-        items?: FoundOnWebElement[] | undefined
-
-    [key: string]: any;
-
-    }
-
-export class FoundOnWebSerpElementItem  extends BaseSerpApiElementItem   implements IFoundOnWebSerpElementItem {
-    
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
-
-    rank_group?: number | undefined;
-    
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
-
-    rank_absolute?: number | undefined;
-    
-    /** reference page title */
-
-    title?: string | undefined;
-    
-    /** search queries related to the elment */
-
-    related_searches?: string[] | undefined;
-    
-    /** contains arrays of specific images */
-
-    items?: FoundOnWebElement[] | undefined;
-
-    [key: string]: any;
-
-
-    constructor(data?: IFoundOnWebSerpElementItem) {
-    super(data);
-
-    }
-
-    init(data?: any) {
-        super.init(data);
-        if (data) {
-            for (var property in data) {
-                if (data.hasOwnProperty(property))
-                    this[property] = data[property];
-            }
-            this.rank_group = data["rank_group"];
-            this.rank_absolute = data["rank_absolute"];
-            this.title = data["title"];
-            this.related_searches = data["related_searches"];
-            if (Array.isArray(data["items"])) {
-                this.items = [];
-                for (let item of data["items"]) {
-                    this.items.push(FoundOnWebElement.fromJS(item));
-                }
-            }
-        }
-    }
-
-    static fromJS(data: any): FoundOnWebSerpElementItem {
-        data = typeof data === 'object' ? data : {};
-
-
-        let result = new FoundOnWebSerpElementItem();
-        result.init(data);
-        return result;
-    }
-
-    toJSON(data?: any) {
-        data = typeof data === 'object' ? data : {};
-
-         
-        super.toJSON(data);
-        
-        
-        data["rank_group"] = this.rank_group;
-        data["rank_absolute"] = this.rank_absolute;
-        data["title"] = this.title;
-        data["related_searches"] = this.related_searches;
-        data["items"] = null;
-        if (Array.isArray(this.items)) {
-            data["items"] = [];
-            for (let item of this.items) {
-                if (item && typeof item.toJSON === "function") {
-                    data["items"].push(item?.toJSON());
-                }
-            }
-        }
-        return data;
-    }
-}
-
- 
 export interface IShortVideosSerpElementItem  extends IBaseSerpApiElementItem    {
         
         /** group rank in SERP
@@ -5647,10 +5328,10 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: ShortVideosElement[] | undefined
 
     [key: string]: any;
@@ -5658,6 +5339,7 @@ always equals 0 for desktop */
     }
 
 export class ShortVideosSerpElementItem  extends BaseSerpApiElementItem   implements IShortVideosSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -5665,18 +5347,21 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: ShortVideosElement[] | undefined;
 
@@ -5753,10 +5438,10 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: RefineProductsElement[] | undefined
 
     [key: string]: any;
@@ -5764,6 +5449,7 @@ always equals 0 for desktop */
     }
 
 export class RefineProductsSerpElementItem  extends BaseSerpApiElementItem   implements IRefineProductsSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -5771,18 +5457,21 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: RefineProductsElement[] | undefined;
 
@@ -5846,112 +5535,6 @@ always equals 0 for desktop */
 }
 
  
-export interface IExploreBrandsSerpElementItem  extends IBaseSerpApiElementItem    {
-        
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
-        rank_group?: number | undefined
-        
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
-        rank_absolute?: number | undefined
-        
-        /** reference page title */
-        title?: string | undefined
-        
-        /** contains arrays of specific images */
-        items?: ExploreBrandsElement[] | undefined
-
-    [key: string]: any;
-
-    }
-
-export class ExploreBrandsSerpElementItem  extends BaseSerpApiElementItem   implements IExploreBrandsSerpElementItem {
-    
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
-
-    rank_group?: number | undefined;
-    
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
-
-    rank_absolute?: number | undefined;
-    
-    /** reference page title */
-
-    title?: string | undefined;
-    
-    /** contains arrays of specific images */
-
-    items?: ExploreBrandsElement[] | undefined;
-
-    [key: string]: any;
-
-
-    constructor(data?: IExploreBrandsSerpElementItem) {
-    super(data);
-
-    }
-
-    init(data?: any) {
-        super.init(data);
-        if (data) {
-            for (var property in data) {
-                if (data.hasOwnProperty(property))
-                    this[property] = data[property];
-            }
-            this.rank_group = data["rank_group"];
-            this.rank_absolute = data["rank_absolute"];
-            this.title = data["title"];
-            if (Array.isArray(data["items"])) {
-                this.items = [];
-                for (let item of data["items"]) {
-                    this.items.push(ExploreBrandsElement.fromJS(item));
-                }
-            }
-        }
-    }
-
-    static fromJS(data: any): ExploreBrandsSerpElementItem {
-        data = typeof data === 'object' ? data : {};
-
-
-        let result = new ExploreBrandsSerpElementItem();
-        result.init(data);
-        return result;
-    }
-
-    toJSON(data?: any) {
-        data = typeof data === 'object' ? data : {};
-
-         
-        super.toJSON(data);
-        
-        
-        data["rank_group"] = this.rank_group;
-        data["rank_absolute"] = this.rank_absolute;
-        data["title"] = this.title;
-        data["items"] = null;
-        if (Array.isArray(this.items)) {
-            data["items"] = [];
-            for (let item of this.items) {
-                if (item && typeof item.toJSON === "function") {
-                    data["items"].push(item?.toJSON());
-                }
-            }
-        }
-        return data;
-    }
-}
-
- 
 export interface IPerspectivesSerpElementItem  extends IBaseSerpApiElementItem    {
         
         /** group rank in SERP
@@ -5965,10 +5548,10 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: PerspectivesElement[] | undefined
 
     [key: string]: any;
@@ -5976,6 +5559,7 @@ always equals 0 for desktop */
     }
 
 export class PerspectivesSerpElementItem  extends BaseSerpApiElementItem   implements IPerspectivesSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -5983,18 +5567,21 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: PerspectivesElement[] | undefined;
 
@@ -6071,10 +5658,10 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: DiscussionsAndForumsElement[] | undefined
 
     [key: string]: any;
@@ -6082,6 +5669,7 @@ always equals 0 for desktop */
     }
 
 export class DiscussionsAndForumsSerpElementItem  extends BaseSerpApiElementItem   implements IDiscussionsAndForumsSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -6089,18 +5677,21 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: DiscussionsAndForumsElement[] | undefined;
 
@@ -6177,10 +5768,10 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: CompareSitesElement[] | undefined
 
     [key: string]: any;
@@ -6188,6 +5779,7 @@ always equals 0 for desktop */
     }
 
 export class CompareSitesSerpElementItem  extends BaseSerpApiElementItem   implements ICompareSitesSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -6195,18 +5787,21 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: CompareSitesElement[] | undefined;
 
@@ -6270,123 +5865,6 @@ always equals 0 for desktop */
 }
 
  
-export interface ICoursesSerpElementItem  extends IBaseSerpApiElementItem    {
-        
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
-        rank_group?: number | undefined
-        
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
-        rank_absolute?: number | undefined
-        
-        /** reference page title */
-        title?: string | undefined
-        
-        /** array of course categories
-contains a list of categories relevant to courses */
-        categories?: string[] | undefined
-        
-        /** contains arrays of specific images */
-        items?: CoursesElement[] | undefined
-
-    [key: string]: any;
-
-    }
-
-export class CoursesSerpElementItem  extends BaseSerpApiElementItem   implements ICoursesSerpElementItem {
-    
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
-
-    rank_group?: number | undefined;
-    
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
-
-    rank_absolute?: number | undefined;
-    
-    /** reference page title */
-
-    title?: string | undefined;
-    
-    /** array of course categories
-contains a list of categories relevant to courses */
-
-    categories?: string[] | undefined;
-    
-    /** contains arrays of specific images */
-
-    items?: CoursesElement[] | undefined;
-
-    [key: string]: any;
-
-
-    constructor(data?: ICoursesSerpElementItem) {
-    super(data);
-
-    }
-
-    init(data?: any) {
-        super.init(data);
-        if (data) {
-            for (var property in data) {
-                if (data.hasOwnProperty(property))
-                    this[property] = data[property];
-            }
-            this.rank_group = data["rank_group"];
-            this.rank_absolute = data["rank_absolute"];
-            this.title = data["title"];
-            this.categories = data["categories"];
-            if (Array.isArray(data["items"])) {
-                this.items = [];
-                for (let item of data["items"]) {
-                    this.items.push(CoursesElement.fromJS(item));
-                }
-            }
-        }
-    }
-
-    static fromJS(data: any): CoursesSerpElementItem {
-        data = typeof data === 'object' ? data : {};
-
-
-        let result = new CoursesSerpElementItem();
-        result.init(data);
-        return result;
-    }
-
-    toJSON(data?: any) {
-        data = typeof data === 'object' ? data : {};
-
-         
-        super.toJSON(data);
-        
-        
-        data["rank_group"] = this.rank_group;
-        data["rank_absolute"] = this.rank_absolute;
-        data["title"] = this.title;
-        data["categories"] = this.categories;
-        data["items"] = null;
-        if (Array.isArray(this.items)) {
-            data["items"] = [];
-            for (let item of this.items) {
-                if (item && typeof item.toJSON === "function") {
-                    data["items"].push(item?.toJSON());
-                }
-            }
-        }
-        return data;
-    }
-}
-
- 
 export interface IKnowledgeGraphCarouselItemSerpElementItem  extends IBaseSerpApiElementItem    {
         
         /** group rank in SERP
@@ -6400,7 +5878,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
         /** google defined data attribute ID
@@ -6411,7 +5889,7 @@ action:listen_artist */
         /** link of the element */
         link?: LinkElement | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: KnowledgeGraphListElement[] | undefined
 
     [key: string]: any;
@@ -6419,6 +5897,7 @@ action:listen_artist */
     }
 
 export class KnowledgeGraphCarouselItemSerpElementItem  extends BaseSerpApiElementItem   implements IKnowledgeGraphCarouselItemSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -6426,28 +5905,33 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
     /** google defined data attribute ID
 example:
 action:listen_artist */
 
     data_attrid?: string | undefined;
+
     
     /** link of the element */
 
     link?: LinkElement | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: KnowledgeGraphListElement[] | undefined;
 
@@ -6532,7 +6016,9 @@ always equals 0 for desktop */
 text snippet from the page that was used to generate the ai_overview_element */
         text?: string | undefined
         
-        /** website links featured in the element */
+        /** sitelinks
+the links shown below some of Google’s search results
+if there are none, equals null */
         links?: LinkElement[] | undefined
 
     [key: string]: any;
@@ -6540,6 +6026,7 @@ text snippet from the page that was used to generate the ai_overview_element */
     }
 
 export class KnowledgeGraphDescriptionItemSerpElementItem  extends BaseSerpApiElementItem   implements IKnowledgeGraphDescriptionItemSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -6547,19 +6034,24 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
     /** reference text
 text snippet from the page that was used to generate the ai_overview_element */
 
     text?: string | undefined;
+
     
-    /** website links featured in the element */
+    /** sitelinks
+the links shown below some of Google’s search results
+if there are none, equals null */
 
     links?: LinkElement[] | undefined;
 
@@ -6639,7 +6131,7 @@ always equals 0 for desktop */
         /** link of the element */
         link?: LinkElement | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: KnowledgeGraphImagesElement[] | undefined
 
     [key: string]: any;
@@ -6647,6 +6139,7 @@ always equals 0 for desktop */
     }
 
 export class KnowledgeGraphImagesItemSerpElementItem  extends BaseSerpApiElementItem   implements IKnowledgeGraphImagesItemSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -6654,18 +6147,21 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
     /** link of the element */
 
     link?: LinkElement | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: KnowledgeGraphImagesElement[] | undefined;
 
@@ -6742,7 +6238,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
         /** google defined data attribute ID
@@ -6753,7 +6249,7 @@ action:listen_artist */
         /** link of the element */
         link?: LinkElement | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: KnowledgeGraphListElement[] | undefined
 
     [key: string]: any;
@@ -6761,6 +6257,7 @@ action:listen_artist */
     }
 
 export class KnowledgeGraphListItemSerpElementItem  extends BaseSerpApiElementItem   implements IKnowledgeGraphListItemSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -6768,28 +6265,33 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
     /** google defined data attribute ID
 example:
 action:listen_artist */
 
     data_attrid?: string | undefined;
+
     
     /** link of the element */
 
     link?: LinkElement | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: KnowledgeGraphListElement[] | undefined;
 
@@ -6870,7 +6372,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
         /** google defined data attribute ID
@@ -6882,7 +6384,9 @@ action:listen_artist */
 text snippet from the page that was used to generate the ai_overview_element */
         text?: string | undefined
         
-        /** website links featured in the element */
+        /** sitelinks
+the links shown below some of Google’s search results
+if there are none, equals null */
         links?: LinkElement[] | undefined
 
     [key: string]: any;
@@ -6890,6 +6394,7 @@ text snippet from the page that was used to generate the ai_overview_element */
     }
 
 export class KnowledgeGraphRowItemSerpElementItem  extends BaseSerpApiElementItem   implements IKnowledgeGraphRowItemSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -6897,29 +6402,36 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
     /** google defined data attribute ID
 example:
 action:listen_artist */
 
     data_attrid?: string | undefined;
+
     
     /** reference text
 text snippet from the page that was used to generate the ai_overview_element */
 
     text?: string | undefined;
+
     
-    /** website links featured in the element */
+    /** sitelinks
+the links shown below some of Google’s search results
+if there are none, equals null */
 
     links?: LinkElement[] | undefined;
 
@@ -7000,7 +6512,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
         /** starting date of stay
@@ -7020,7 +6532,7 @@ example:
 action:listen_artist */
         data_attrid?: string | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: KnowledgeGraphHotelsBookingElement[] | undefined
 
     [key: string]: any;
@@ -7028,6 +6540,7 @@ action:listen_artist */
     }
 
 export class KnowledgeGraphHotelsBookingItemSerpElementItem  extends BaseSerpApiElementItem   implements IKnowledgeGraphHotelsBookingItemSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -7035,16 +6548,19 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
     /** starting date of stay
 in the format “year-month-date”
@@ -7052,6 +6568,7 @@ example:
 2019-11-15 */
 
     date_from?: string | undefined;
+
     
     /** ending date of stay
 in the format “year-month-date”
@@ -7059,14 +6576,16 @@ example:
 2019-11-17 */
 
     date_to?: string | undefined;
+
     
     /** google defined data attribute ID
 example:
 action:listen_artist */
 
     data_attrid?: string | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: KnowledgeGraphHotelsBookingElement[] | undefined;
 
@@ -7149,7 +6668,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
         /** google defined data attribute ID
@@ -7165,6 +6684,7 @@ action:listen_artist */
     }
 
 export class KnowledgeGraphExpandedItemSerpElementItem  extends BaseSerpApiElementItem   implements IKnowledgeGraphExpandedItemSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -7172,22 +6692,26 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
     /** google defined data attribute ID
 example:
 action:listen_artist */
 
     data_attrid?: string | undefined;
+
     
     /** expanded element */
 
@@ -7268,7 +6792,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
         /** google defined data attribute ID
@@ -7280,7 +6804,9 @@ action:listen_artist */
 text snippet from the page that was used to generate the ai_overview_element */
         text?: string | undefined
         
-        /** website links featured in the element */
+        /** sitelinks
+the links shown below some of Google’s search results
+if there are none, equals null */
         links?: LinkElement[] | undefined
 
     [key: string]: any;
@@ -7288,6 +6814,7 @@ text snippet from the page that was used to generate the ai_overview_element */
     }
 
 export class KnowledgeGraphPartItemSerpElementItem  extends BaseSerpApiElementItem   implements IKnowledgeGraphPartItemSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -7295,29 +6822,36 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
     /** google defined data attribute ID
 example:
 action:listen_artist */
 
     data_attrid?: string | undefined;
+
     
     /** reference text
 text snippet from the page that was used to generate the ai_overview_element */
 
     text?: string | undefined;
+
     
-    /** website links featured in the element */
+    /** sitelinks
+the links shown below some of Google’s search results
+if there are none, equals null */
 
     links?: LinkElement[] | undefined;
 
@@ -7398,7 +6932,7 @@ absolute position among all the elements in SERP
 always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
         /** google defined data attribute ID
@@ -7406,7 +6940,7 @@ example:
 action:listen_artist */
         data_attrid?: string | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: KnowledgeGraphShoppingElement[] | undefined
 
     [key: string]: any;
@@ -7414,6 +6948,7 @@ action:listen_artist */
     }
 
 export class KnowledgeGraphShoppingItemSerpElementItem  extends BaseSerpApiElementItem   implements IKnowledgeGraphShoppingItemSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -7421,24 +6956,28 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
     /** google defined data attribute ID
 example:
 action:listen_artist */
 
     data_attrid?: string | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: KnowledgeGraphShoppingElement[] | undefined;
 
@@ -7511,7 +7050,7 @@ if true, the ai_overview element is loaded asynchronously;
 if false, the ai_overview element is loaded from cache */
         asynchronous_ai_overview?: boolean | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: BaseSerpApiAiOverviewElementItem[] | undefined
         
         /** references relevant to the element
@@ -7523,16 +7062,19 @@ includes references to webpages that were used to generate the ai_overview_eleme
     }
 
 export class KnowledgeGraphAiOverviewItemSerpElementItem  extends BaseSerpApiElementItem   implements IKnowledgeGraphAiOverviewItemSerpElementItem {
+
     
     /** indicates whether the element is loaded asynchronously
 if true, the ai_overview element is loaded asynchronously;
 if false, the ai_overview element is loaded from cache */
 
     asynchronous_ai_overview?: boolean | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: BaseSerpApiAiOverviewElementItem[] | undefined;
+
     
     /** references relevant to the element
 includes references to webpages that were used to generate the ai_overview_element */
@@ -7633,7 +7175,7 @@ to obtain the content of ai_overview elements, use the load_async_ai_overview pa
 the text of the ai_overview formatted in the markdown markup language */
         markdown?: string | undefined
         
-        /** contains arrays of specific images */
+        /** contains arrays of elements available in the list */
         items?: BaseSerpApiAiOverviewElementItem[] | undefined
         
         /** references relevant to the element
@@ -7645,6 +7187,7 @@ includes references to webpages that were used to generate the ai_overview_eleme
     }
 
 export class AiOverviewSerpElementItem  extends BaseSerpApiElementItem   implements IAiOverviewSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -7652,12 +7195,14 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
     /** indicates whether the element is loaded asynchronously
 if true, the ai_overview element is loaded asynchronously;
@@ -7665,15 +7210,18 @@ if false, the ai_overview element is loaded from cache;
 to obtain the content of ai_overview elements, use the load_async_ai_overview parameter in the POST request */
 
     asynchronous_ai_overview?: boolean | undefined;
+
     
     /** content of the element in markdown format
 the text of the ai_overview formatted in the markdown markup language */
 
     markdown?: string | undefined;
+
     
-    /** contains arrays of specific images */
+    /** contains arrays of elements available in the list */
 
     items?: BaseSerpApiAiOverviewElementItem[] | undefined;
+
     
     /** references relevant to the element
 includes references to webpages that were used to generate the ai_overview_element */
@@ -7773,10 +7321,10 @@ always equals 0 for desktop */
         /** the number of reviews */
         reviews_count?: number | undefined
         
-        /** reference page title */
+        /** title of the row */
         title?: string | undefined
         
-        /** URL */
+        /** URL of the third-party review source */
         url?: string | undefined
         
         /** the element’s rating
@@ -7789,6 +7337,7 @@ if there is none, equals null */
     }
 
 export class ThirdPartyReviewsSerpElementItem  extends BaseSerpApiElementItem   implements IThirdPartyReviewsSerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values;
@@ -7796,24 +7345,29 @@ positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
+
     
     /** the number of reviews */
 
     reviews_count?: number | undefined;
+
     
-    /** reference page title */
+    /** title of the row */
 
     title?: string | undefined;
+
     
-    /** URL */
+    /** URL of the third-party review source */
 
     url?: string | undefined;
+
     
     /** the element’s rating
 the popularity rate based on reviews and displayed in SERP;
@@ -7914,45 +7468,55 @@ if there are none, equals null */
     }
 
 export class DictionarySerpElementItem  extends BaseSerpApiElementItem   implements IDictionarySerpElementItem {
+
     
     /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
+
     
     /** title of the result in SERP */
 
     title?: string | undefined;
+
     
     /** relevant URL of the Ad element in SERP */
 
     url?: string | undefined;
+
     
     /** domain in SERP */
 
     domain?: string | undefined;
+
     
     /** breadcrumb of the Ad element in SERP */
 
     breadcrumb?: string | undefined;
+
     
     /** keyword highlighted in the result */
 
     keyword?: string | undefined;
+
     
     /** snippet of the element */
 
     snippet?: string | undefined;
+
     
     /** description of the results element in SERP */
 
     text?: string | undefined;
+
     
     /** sitelinks
 the links shown below some of search results
@@ -8024,6 +7588,796 @@ if there are none, equals null */
             for (let item of this.links) {
                 if (item && typeof item.toJSON === "function") {
                     data["links"].push(item?.toJSON());
+                }
+            }
+        }
+        return data;
+    }
+}
+
+ 
+/** @deprecated */
+
+export interface IGooglePostsSerpElementItem  extends IBaseSerpApiElementItem    {
+        
+        /** group rank in SERP
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop */
+        rank_group?: number | undefined
+        
+        /** absolute rank in SERP
+absolute position among all the elements in SERP
+always equals 0 for desktop */
+        rank_absolute?: number | undefined
+        
+        /** the identifier of the google_posts feature */
+        posts_id?: string | undefined
+        
+        /** the additional feature of the review */
+        feature?: string | undefined
+        
+        /** google-defined client id */
+        cid?: string | undefined
+
+    [key: string]: any;
+
+    }
+
+/** @deprecated */
+export class GooglePostsSerpElementItem  extends BaseSerpApiElementItem   implements IGooglePostsSerpElementItem {
+
+    
+    /** group rank in SERP
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop */
+
+    rank_group?: number | undefined;
+
+    
+    /** absolute rank in SERP
+absolute position among all the elements in SERP
+always equals 0 for desktop */
+
+    rank_absolute?: number | undefined;
+
+    
+    /** the identifier of the google_posts feature */
+
+    posts_id?: string | undefined;
+
+    
+    /** the additional feature of the review */
+
+    feature?: string | undefined;
+
+    
+    /** google-defined client id */
+
+    cid?: string | undefined;
+
+    [key: string]: any;
+
+
+    constructor(data?: IGooglePostsSerpElementItem) {
+    super(data);
+
+    }
+
+    init(data?: any) {
+        super.init(data);
+        if (data) {
+            for (var property in data) {
+                if (data.hasOwnProperty(property))
+                    this[property] = data[property];
+            }
+            this.rank_group = data["rank_group"];
+            this.rank_absolute = data["rank_absolute"];
+            this.posts_id = data["posts_id"];
+            this.feature = data["feature"];
+            this.cid = data["cid"];
+        }
+    }
+
+    static fromJS(data: any): GooglePostsSerpElementItem {
+        data = typeof data === 'object' ? data : {};
+
+
+        let result = new GooglePostsSerpElementItem();
+        result.init(data);
+        return result;
+    }
+
+    toJSON(data?: any) {
+        data = typeof data === 'object' ? data : {};
+
+         
+        super.toJSON(data);
+        
+        
+        data["rank_group"] = this.rank_group;
+        data["rank_absolute"] = this.rank_absolute;
+        data["posts_id"] = this.posts_id;
+        data["feature"] = this.feature;
+        data["cid"] = this.cid;
+        return data;
+    }
+}
+
+ 
+/** @deprecated */
+
+export interface IMentionCarouselSerpElementItem  extends IBaseSerpApiElementItem    {
+        
+        /** group rank in SERP
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop */
+        rank_group?: number | undefined
+        
+        /** absolute rank in SERP
+absolute position among all the elements in SERP
+always equals 0 for desktop */
+        rank_absolute?: number | undefined
+        
+        /** title of a given link element */
+        title?: string | undefined
+        
+        /** contains arrays of elements available in the list */
+        items?: MentionCarouselElement[] | undefined
+
+    [key: string]: any;
+
+    }
+
+/** @deprecated */
+export class MentionCarouselSerpElementItem  extends BaseSerpApiElementItem   implements IMentionCarouselSerpElementItem {
+
+    
+    /** group rank in SERP
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop */
+
+    rank_group?: number | undefined;
+
+    
+    /** absolute rank in SERP
+absolute position among all the elements in SERP
+always equals 0 for desktop */
+
+    rank_absolute?: number | undefined;
+
+    
+    /** title of a given link element */
+
+    title?: string | undefined;
+
+    
+    /** contains arrays of elements available in the list */
+
+    items?: MentionCarouselElement[] | undefined;
+
+    [key: string]: any;
+
+
+    constructor(data?: IMentionCarouselSerpElementItem) {
+    super(data);
+
+    }
+
+    init(data?: any) {
+        super.init(data);
+        if (data) {
+            for (var property in data) {
+                if (data.hasOwnProperty(property))
+                    this[property] = data[property];
+            }
+            this.rank_group = data["rank_group"];
+            this.rank_absolute = data["rank_absolute"];
+            this.title = data["title"];
+            if (Array.isArray(data["items"])) {
+                this.items = [];
+                for (let item of data["items"]) {
+                    this.items.push(MentionCarouselElement.fromJS(item));
+                }
+            }
+        }
+    }
+
+    static fromJS(data: any): MentionCarouselSerpElementItem {
+        data = typeof data === 'object' ? data : {};
+
+
+        let result = new MentionCarouselSerpElementItem();
+        result.init(data);
+        return result;
+    }
+
+    toJSON(data?: any) {
+        data = typeof data === 'object' ? data : {};
+
+         
+        super.toJSON(data);
+        
+        
+        data["rank_group"] = this.rank_group;
+        data["rank_absolute"] = this.rank_absolute;
+        data["title"] = this.title;
+        data["items"] = null;
+        if (Array.isArray(this.items)) {
+            data["items"] = [];
+            for (let item of this.items) {
+                if (item && typeof item.toJSON === "function") {
+                    data["items"].push(item?.toJSON());
+                }
+            }
+        }
+        return data;
+    }
+}
+
+ 
+/** @deprecated */
+
+export interface IPodcastsSerpElementItem  extends IBaseSerpApiElementItem    {
+        
+        /** group rank in SERP
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop */
+        rank_group?: number | undefined
+        
+        /** absolute rank in SERP
+absolute position among all the elements in SERP
+always equals 0 for desktop */
+        rank_absolute?: number | undefined
+        
+        /** contains arrays of elements available in the list */
+        items?: PodcastsElement[] | undefined
+
+    [key: string]: any;
+
+    }
+
+/** @deprecated */
+export class PodcastsSerpElementItem  extends BaseSerpApiElementItem   implements IPodcastsSerpElementItem {
+
+    
+    /** group rank in SERP
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop */
+
+    rank_group?: number | undefined;
+
+    
+    /** absolute rank in SERP
+absolute position among all the elements in SERP
+always equals 0 for desktop */
+
+    rank_absolute?: number | undefined;
+
+    
+    /** contains arrays of elements available in the list */
+
+    items?: PodcastsElement[] | undefined;
+
+    [key: string]: any;
+
+
+    constructor(data?: IPodcastsSerpElementItem) {
+    super(data);
+
+    }
+
+    init(data?: any) {
+        super.init(data);
+        if (data) {
+            for (var property in data) {
+                if (data.hasOwnProperty(property))
+                    this[property] = data[property];
+            }
+            this.rank_group = data["rank_group"];
+            this.rank_absolute = data["rank_absolute"];
+            if (Array.isArray(data["items"])) {
+                this.items = [];
+                for (let item of data["items"]) {
+                    this.items.push(PodcastsElement.fromJS(item));
+                }
+            }
+        }
+    }
+
+    static fromJS(data: any): PodcastsSerpElementItem {
+        data = typeof data === 'object' ? data : {};
+
+
+        let result = new PodcastsSerpElementItem();
+        result.init(data);
+        return result;
+    }
+
+    toJSON(data?: any) {
+        data = typeof data === 'object' ? data : {};
+
+         
+        super.toJSON(data);
+        
+        
+        data["rank_group"] = this.rank_group;
+        data["rank_absolute"] = this.rank_absolute;
+        data["items"] = null;
+        if (Array.isArray(this.items)) {
+            data["items"] = [];
+            for (let item of this.items) {
+                if (item && typeof item.toJSON === "function") {
+                    data["items"].push(item?.toJSON());
+                }
+            }
+        }
+        return data;
+    }
+}
+
+ 
+/** @deprecated */
+
+export interface IVisualStoriesSerpElementItem  extends IBaseSerpApiElementItem    {
+        
+        /** group rank in SERP
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop */
+        rank_group?: number | undefined
+        
+        /** absolute rank in SERP
+absolute position among all the elements in SERP
+always equals 0 for desktop */
+        rank_absolute?: number | undefined
+        
+        /** contains arrays of elements available in the list */
+        items?: AmazonLabelElement[] | undefined
+
+    [key: string]: any;
+
+    }
+
+/** @deprecated */
+export class VisualStoriesSerpElementItem  extends BaseSerpApiElementItem   implements IVisualStoriesSerpElementItem {
+
+    
+    /** group rank in SERP
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop */
+
+    rank_group?: number | undefined;
+
+    
+    /** absolute rank in SERP
+absolute position among all the elements in SERP
+always equals 0 for desktop */
+
+    rank_absolute?: number | undefined;
+
+    
+    /** contains arrays of elements available in the list */
+
+    items?: AmazonLabelElement[] | undefined;
+
+    [key: string]: any;
+
+
+    constructor(data?: IVisualStoriesSerpElementItem) {
+    super(data);
+
+    }
+
+    init(data?: any) {
+        super.init(data);
+        if (data) {
+            for (var property in data) {
+                if (data.hasOwnProperty(property))
+                    this[property] = data[property];
+            }
+            this.rank_group = data["rank_group"];
+            this.rank_absolute = data["rank_absolute"];
+            if (Array.isArray(data["items"])) {
+                this.items = [];
+                for (let item of data["items"]) {
+                    this.items.push(AmazonLabelElement.fromJS(item));
+                }
+            }
+        }
+    }
+
+    static fromJS(data: any): VisualStoriesSerpElementItem {
+        data = typeof data === 'object' ? data : {};
+
+
+        let result = new VisualStoriesSerpElementItem();
+        result.init(data);
+        return result;
+    }
+
+    toJSON(data?: any) {
+        data = typeof data === 'object' ? data : {};
+
+         
+        super.toJSON(data);
+        
+        
+        data["rank_group"] = this.rank_group;
+        data["rank_absolute"] = this.rank_absolute;
+        data["items"] = null;
+        if (Array.isArray(this.items)) {
+            data["items"] = [];
+            for (let item of this.items) {
+                if (item && typeof item.toJSON === "function") {
+                    data["items"].push(item?.toJSON());
+                }
+            }
+        }
+        return data;
+    }
+}
+
+ 
+/** @deprecated */
+
+export interface IFoundOnWebSerpElementItem  extends IBaseSerpApiElementItem    {
+        
+        /** group rank in SERP
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop */
+        rank_group?: number | undefined
+        
+        /** absolute rank in SERP
+absolute position among all the elements in SERP
+always equals 0 for desktop */
+        rank_absolute?: number | undefined
+        
+        /** title of a given link element */
+        title?: string | undefined
+        
+        /** search queries related to the elment */
+        related_searches?: string[] | undefined
+        
+        /** contains arrays of elements available in the list */
+        items?: FoundOnWebElement[] | undefined
+
+    [key: string]: any;
+
+    }
+
+/** @deprecated */
+export class FoundOnWebSerpElementItem  extends BaseSerpApiElementItem   implements IFoundOnWebSerpElementItem {
+
+    
+    /** group rank in SERP
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop */
+
+    rank_group?: number | undefined;
+
+    
+    /** absolute rank in SERP
+absolute position among all the elements in SERP
+always equals 0 for desktop */
+
+    rank_absolute?: number | undefined;
+
+    
+    /** title of a given link element */
+
+    title?: string | undefined;
+
+    
+    /** search queries related to the elment */
+
+    related_searches?: string[] | undefined;
+
+    
+    /** contains arrays of elements available in the list */
+
+    items?: FoundOnWebElement[] | undefined;
+
+    [key: string]: any;
+
+
+    constructor(data?: IFoundOnWebSerpElementItem) {
+    super(data);
+
+    }
+
+    init(data?: any) {
+        super.init(data);
+        if (data) {
+            for (var property in data) {
+                if (data.hasOwnProperty(property))
+                    this[property] = data[property];
+            }
+            this.rank_group = data["rank_group"];
+            this.rank_absolute = data["rank_absolute"];
+            this.title = data["title"];
+            this.related_searches = data["related_searches"];
+            if (Array.isArray(data["items"])) {
+                this.items = [];
+                for (let item of data["items"]) {
+                    this.items.push(FoundOnWebElement.fromJS(item));
+                }
+            }
+        }
+    }
+
+    static fromJS(data: any): FoundOnWebSerpElementItem {
+        data = typeof data === 'object' ? data : {};
+
+
+        let result = new FoundOnWebSerpElementItem();
+        result.init(data);
+        return result;
+    }
+
+    toJSON(data?: any) {
+        data = typeof data === 'object' ? data : {};
+
+         
+        super.toJSON(data);
+        
+        
+        data["rank_group"] = this.rank_group;
+        data["rank_absolute"] = this.rank_absolute;
+        data["title"] = this.title;
+        data["related_searches"] = this.related_searches;
+        data["items"] = null;
+        if (Array.isArray(this.items)) {
+            data["items"] = [];
+            for (let item of this.items) {
+                if (item && typeof item.toJSON === "function") {
+                    data["items"].push(item?.toJSON());
+                }
+            }
+        }
+        return data;
+    }
+}
+
+ 
+/** @deprecated */
+
+export interface IExploreBrandsSerpElementItem  extends IBaseSerpApiElementItem    {
+        
+        /** group rank in SERP
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop */
+        rank_group?: number | undefined
+        
+        /** absolute rank in SERP
+absolute position among all the elements in SERP
+always equals 0 for desktop */
+        rank_absolute?: number | undefined
+        
+        /** title of a given link element */
+        title?: string | undefined
+        
+        /** contains arrays of elements available in the list */
+        items?: ExploreBrandsElement[] | undefined
+
+    [key: string]: any;
+
+    }
+
+/** @deprecated */
+export class ExploreBrandsSerpElementItem  extends BaseSerpApiElementItem   implements IExploreBrandsSerpElementItem {
+
+    
+    /** group rank in SERP
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop */
+
+    rank_group?: number | undefined;
+
+    
+    /** absolute rank in SERP
+absolute position among all the elements in SERP
+always equals 0 for desktop */
+
+    rank_absolute?: number | undefined;
+
+    
+    /** title of a given link element */
+
+    title?: string | undefined;
+
+    
+    /** contains arrays of elements available in the list */
+
+    items?: ExploreBrandsElement[] | undefined;
+
+    [key: string]: any;
+
+
+    constructor(data?: IExploreBrandsSerpElementItem) {
+    super(data);
+
+    }
+
+    init(data?: any) {
+        super.init(data);
+        if (data) {
+            for (var property in data) {
+                if (data.hasOwnProperty(property))
+                    this[property] = data[property];
+            }
+            this.rank_group = data["rank_group"];
+            this.rank_absolute = data["rank_absolute"];
+            this.title = data["title"];
+            if (Array.isArray(data["items"])) {
+                this.items = [];
+                for (let item of data["items"]) {
+                    this.items.push(ExploreBrandsElement.fromJS(item));
+                }
+            }
+        }
+    }
+
+    static fromJS(data: any): ExploreBrandsSerpElementItem {
+        data = typeof data === 'object' ? data : {};
+
+
+        let result = new ExploreBrandsSerpElementItem();
+        result.init(data);
+        return result;
+    }
+
+    toJSON(data?: any) {
+        data = typeof data === 'object' ? data : {};
+
+         
+        super.toJSON(data);
+        
+        
+        data["rank_group"] = this.rank_group;
+        data["rank_absolute"] = this.rank_absolute;
+        data["title"] = this.title;
+        data["items"] = null;
+        if (Array.isArray(this.items)) {
+            data["items"] = [];
+            for (let item of this.items) {
+                if (item && typeof item.toJSON === "function") {
+                    data["items"].push(item?.toJSON());
+                }
+            }
+        }
+        return data;
+    }
+}
+
+ 
+/** @deprecated */
+
+export interface ICoursesSerpElementItem  extends IBaseSerpApiElementItem    {
+        
+        /** group rank in SERP
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop */
+        rank_group?: number | undefined
+        
+        /** absolute rank in SERP
+absolute position among all the elements in SERP
+always equals 0 for desktop */
+        rank_absolute?: number | undefined
+        
+        /** title of a given link element */
+        title?: string | undefined
+        
+        /** array of course categories
+contains a list of categories relevant to courses */
+        categories?: string[] | undefined
+        
+        /** contains arrays of elements available in the list */
+        items?: CoursesElement[] | undefined
+
+    [key: string]: any;
+
+    }
+
+/** @deprecated */
+export class CoursesSerpElementItem  extends BaseSerpApiElementItem   implements ICoursesSerpElementItem {
+
+    
+    /** group rank in SERP
+position within a group of elements with identical type values;
+positions of elements with different type values are omitted from rank_group;
+always equals 0 for desktop */
+
+    rank_group?: number | undefined;
+
+    
+    /** absolute rank in SERP
+absolute position among all the elements in SERP
+always equals 0 for desktop */
+
+    rank_absolute?: number | undefined;
+
+    
+    /** title of a given link element */
+
+    title?: string | undefined;
+
+    
+    /** array of course categories
+contains a list of categories relevant to courses */
+
+    categories?: string[] | undefined;
+
+    
+    /** contains arrays of elements available in the list */
+
+    items?: CoursesElement[] | undefined;
+
+    [key: string]: any;
+
+
+    constructor(data?: ICoursesSerpElementItem) {
+    super(data);
+
+    }
+
+    init(data?: any) {
+        super.init(data);
+        if (data) {
+            for (var property in data) {
+                if (data.hasOwnProperty(property))
+                    this[property] = data[property];
+            }
+            this.rank_group = data["rank_group"];
+            this.rank_absolute = data["rank_absolute"];
+            this.title = data["title"];
+            this.categories = data["categories"];
+            if (Array.isArray(data["items"])) {
+                this.items = [];
+                for (let item of data["items"]) {
+                    this.items.push(CoursesElement.fromJS(item));
+                }
+            }
+        }
+    }
+
+    static fromJS(data: any): CoursesSerpElementItem {
+        data = typeof data === 'object' ? data : {};
+
+
+        let result = new CoursesSerpElementItem();
+        result.init(data);
+        return result;
+    }
+
+    toJSON(data?: any) {
+        data = typeof data === 'object' ? data : {};
+
+         
+        super.toJSON(data);
+        
+        
+        data["rank_group"] = this.rank_group;
+        data["rank_absolute"] = this.rank_absolute;
+        data["title"] = this.title;
+        data["categories"] = this.categories;
+        data["items"] = null;
+        if (Array.isArray(this.items)) {
+            data["items"] = [];
+            for (let item of this.items) {
+                if (item && typeof item.toJSON === "function") {
+                    data["items"].push(item?.toJSON());
                 }
             }
         }

@@ -20,6 +20,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class BusinessDataSocialMediaPinterestLiveRequestInfo  implements IBusinessDataSocialMediaPinterestLiveRequestInfo {
+
     
     /** target URLs
 required field
@@ -29,6 +30,7 @@ https://dataforseo.com/
 Note: you can specify 10 targets maximum. You will be charged per earch URL you specify in this array */
 
     targets?: string[] | undefined;
+
     
     /** user-defined task identifier
 optional field

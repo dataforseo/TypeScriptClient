@@ -19,18 +19,22 @@ Country, Region */
     }
 
 export class AvailableLocations  implements IAvailableLocations {
+
     
     /** location code */
 
     location_code?: number | undefined;
+
     
     /** location name */
 
     location_name?: string | undefined;
+
     
     /** ISO country code of the location */
 
     country_iso_code?: string | undefined;
+
     
     /** location type
 possible values:

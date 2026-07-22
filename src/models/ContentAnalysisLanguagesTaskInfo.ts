@@ -12,6 +12,7 @@ export interface IContentAnalysisLanguagesTaskInfo  extends IBaseResponseTaskInf
     }
 
 export class ContentAnalysisLanguagesTaskInfo  extends BaseResponseTaskInfo   implements IContentAnalysisLanguagesTaskInfo {
+
     
     /** array of results */
 

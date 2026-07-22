@@ -12,6 +12,7 @@ export interface IAppDataAppleLanguagesTaskInfo  extends IBaseResponseTaskInfo  
     }
 
 export class AppDataAppleLanguagesTaskInfo  extends BaseResponseTaskInfo   implements IAppDataAppleLanguagesTaskInfo {
+
     
     /** array of results */
 

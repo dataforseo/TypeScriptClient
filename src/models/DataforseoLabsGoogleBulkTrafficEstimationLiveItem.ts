@@ -17,14 +17,17 @@ export interface IDataforseoLabsGoogleBulkTrafficEstimationLiveItem   {
     }
 
 export class DataforseoLabsGoogleBulkTrafficEstimationLiveItem  implements IDataforseoLabsGoogleBulkTrafficEstimationLiveItem {
+
     
     /** search engine type */
 
     se_type?: string | undefined;
+
     
     /** target domain in a POST array */
 
     target?: string | undefined;
+
     
     /** traffic data relevant to the specified domain */
 

@@ -44,41 +44,50 @@ example:
     }
 
 export class YoutubeComment  implements IYoutubeComment {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP for the target domain
 absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
+
     
     /** name of the author of the comment */
 
     author_name?: string | undefined;
+
     
     /** the URL of the page where the author’s channel logo is hosted */
 
     author_thumbnail?: string | undefined;
+
     
     /** URL of the author’s channel */
 
     author_url?: string | undefined;
+
     
     /** text of the comment */
 
     text?: string | undefined;
+
     
     /** displayed publication date */
 
     publication_date?: string | undefined;
+
     
     /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -86,10 +95,12 @@ example:
 2022-11-15 12:57:46 +00:00 */
 
     timestamp?: string | undefined;
+
     
     /** number of likes on the comment */
 
     likes_count?: number | undefined;
+
     
     /** number of replies on the comment */
 

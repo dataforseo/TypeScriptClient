@@ -12,6 +12,7 @@ export interface IAppDataAppleAppReviewsTaskGetAdvancedResponseInfo  extends IBa
     }
 
 export class AppDataAppleAppReviewsTaskGetAdvancedResponseInfo  extends BaseResponseInfo   implements IAppDataAppleAppReviewsTaskGetAdvancedResponseInfo {
+
     
     /** array of tasks */
 

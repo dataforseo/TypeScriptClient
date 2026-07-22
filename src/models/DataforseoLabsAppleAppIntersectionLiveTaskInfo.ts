@@ -12,6 +12,7 @@ export interface IDataforseoLabsAppleAppIntersectionLiveTaskInfo  extends IBaseR
     }
 
 export class DataforseoLabsAppleAppIntersectionLiveTaskInfo  extends BaseResponseTaskInfo   implements IDataforseoLabsAppleAppIntersectionLiveTaskInfo {
+
     
     /** array of results */
 

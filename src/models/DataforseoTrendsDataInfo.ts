@@ -14,10 +14,12 @@ export interface IDataforseoTrendsDataInfo   {
     }
 
 export class DataforseoTrendsDataInfo  implements IDataforseoTrendsDataInfo {
+
     
     /** relevant keyword for which demographic data is provided */
 
     keyword?: string | undefined;
+
     
     /** contains age range and corresponding keyword popularity values */
 

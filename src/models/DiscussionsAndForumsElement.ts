@@ -6,17 +6,16 @@ export interface IDiscussionsAndForumsElement   {
         /** title of a given link element */
         title?: string | undefined
         
-        /** URL */
+        /** source URL */
         url?: string | undefined
         
-        /** website domain */
+        /** domain where a link points */
         domain?: string | undefined
         
-        /** source of the element
-indicates the source of information included in the top_stories_element */
+        /** reference source name or title */
         source?: string | undefined
         
-        /** description of the results element in SERP */
+        /** link description */
         description?: string | undefined
         
         /** date and time when the result was published
@@ -33,31 +32,37 @@ example:
     }
 
 export class DiscussionsAndForumsElement  implements IDiscussionsAndForumsElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** title of a given link element */
 
     title?: string | undefined;
+
     
-    /** URL */
+    /** source URL */
 
     url?: string | undefined;
+
     
-    /** website domain */
+    /** domain where a link points */
 
     domain?: string | undefined;
+
     
-    /** source of the element
-indicates the source of information included in the top_stories_element */
+    /** reference source name or title */
 
     source?: string | undefined;
+
     
-    /** description of the results element in SERP */
+    /** link description */
 
     description?: string | undefined;
+
     
     /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -65,6 +70,7 @@ example:
 2019-11-15 12:57:46 +00:00 */
 
     timestamp?: string | undefined;
+
     
     /** number of posts from the discussion on the related source */
 

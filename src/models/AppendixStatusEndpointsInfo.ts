@@ -24,6 +24,7 @@ send_delay */
     }
 
 export class AppendixStatusEndpointsInfo  implements IAppendixStatusEndpointsInfo {
+
     
     /** name of the endpoint
 the list of possible endpoints:
@@ -33,6 +34,7 @@ live
 postback/pingback */
 
     endpoint?: string | undefined;
+
     
     /** current status
 you can find all information about your API statuses for the last 60 days here

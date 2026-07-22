@@ -42,27 +42,33 @@ Note: if there is no active subscription to LLM Mentions API, the value equals n
     }
 
 export class AppendixUserDataResultInfo  implements IAppendixUserDataResultInfo {
+
     
     /** your login */
 
     login?: string | undefined;
+
     
     /** your time zone
 can be set in your profile settings */
 
     timezone?: string | undefined;
+
     
     /** your API rates */
 
     rates?: AppendixRatesData | undefined;
+
     
     /** section of your spending, USD */
 
     money?: AppendixMoneyData | undefined;
+
     
     /** pricing */
 
     price?: AppendixPriceData | undefined;
+
     
     /** expiry date of the backlinks api subscription
 date and time when the current subscription to Backlinks API expires;
@@ -72,6 +78,7 @@ example:
 Note: if there is no active subscription to Backlinks API, the value equals null */
 
     backlinks_subscription_expiry_date?: string | undefined;
+
     
     /** expiry date of the llm mentions api subscription
 date and time when the current subscription to LLM Mentions API expires;

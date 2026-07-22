@@ -12,6 +12,7 @@ export interface IMerchantAmazonSellersTaskGetAdvancedTaskInfo  extends IBaseRes
     }
 
 export class MerchantAmazonSellersTaskGetAdvancedTaskInfo  extends BaseResponseTaskInfo   implements IMerchantAmazonSellersTaskGetAdvancedTaskInfo {
+
     
     /** array of results */
 

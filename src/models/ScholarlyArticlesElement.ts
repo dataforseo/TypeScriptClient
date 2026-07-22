@@ -6,13 +6,13 @@ export interface IScholarlyArticlesElement   {
         /** title of a given link element */
         title?: string | undefined
         
-        /** URL */
+        /** source URL */
         url?: string | undefined
         
         /** author */
         author?: string | undefined
         
-        /** description of the results element in SERP */
+        /** link description */
         description?: string | undefined
 
     [key: string]: any;
@@ -20,24 +20,29 @@ export interface IScholarlyArticlesElement   {
     }
 
 export class ScholarlyArticlesElement  implements IScholarlyArticlesElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** title of a given link element */
 
     title?: string | undefined;
+
     
-    /** URL */
+    /** source URL */
 
     url?: string | undefined;
+
     
     /** author */
 
     author?: string | undefined;
+
     
-    /** description of the results element in SERP */
+    /** link description */
 
     description?: string | undefined;
 

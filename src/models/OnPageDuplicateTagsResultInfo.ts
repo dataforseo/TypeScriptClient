@@ -30,29 +30,35 @@ displays the number of pages with duplicate tags returned in the response */
     }
 
 export class OnPageDuplicateTagsResultInfo  implements IOnPageDuplicateTagsResultInfo {
+
     
     /** status of the crawling session
 possible values: in_progress, finished */
 
     crawl_progress?: string | undefined;
+
     
     /** details of the crawling session */
 
     crawl_status?: CrawlStatusInfo | undefined;
+
     
     /** total number of pages with duplicate tags
 displays the total number of pages with duplicate tags of the target website */
 
     total_pages_count?: number | undefined;
+
     
     /** number of pages with duplicate tags in the response
 displays the number of pages with duplicate tags returned in the response */
 
     pages_count?: number | undefined;
+
     
     /** number of items in the results array */
 
     items_count?: number | undefined;
+
     
     /** items array */
 

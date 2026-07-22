@@ -12,6 +12,7 @@ export interface ISerpGoogleDatasetSearchTasksFixedResponseInfo  extends IBaseRe
     }
 
 export class SerpGoogleDatasetSearchTasksFixedResponseInfo  extends BaseResponseInfo   implements ISerpGoogleDatasetSearchTasksFixedResponseInfo {
+
     
     /** array of tasks */
 

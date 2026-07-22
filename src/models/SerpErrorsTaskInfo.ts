@@ -12,6 +12,7 @@ export interface ISerpErrorsTaskInfo  extends IBaseResponseTaskInfo    {
     }
 
 export class SerpErrorsTaskInfo  extends BaseResponseTaskInfo   implements ISerpErrorsTaskInfo {
+
     
     /** array of results */
 

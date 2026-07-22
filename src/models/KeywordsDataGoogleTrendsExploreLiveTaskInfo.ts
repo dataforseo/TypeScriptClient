@@ -12,6 +12,7 @@ export interface IKeywordsDataGoogleTrendsExploreLiveTaskInfo  extends IBaseResp
     }
 
 export class KeywordsDataGoogleTrendsExploreLiveTaskInfo  extends BaseResponseTaskInfo   implements IKeywordsDataGoogleTrendsExploreLiveTaskInfo {
+
     
     /** array of results */
 

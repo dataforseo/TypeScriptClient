@@ -28,6 +28,7 @@ a value of 0 means there was not enough data for this term */
     }
 
 export class DataforseoTrendsinterestsValuesInfo  implements IDataforseoTrendsinterestsValuesInfo {
+
     
     /** location identifier
 you can use this field for matching obtained results with location parameters specified in the request
@@ -36,6 +37,7 @@ example:
 US-NY */
 
     geo_id?: string | undefined;
+
     
     /** location name
 you can use this field for matching obtained results with location parameters specified in the request
@@ -44,6 +46,7 @@ example:
 Andorra */
 
     geo_name?: string | undefined;
+
     
     /** relative keyword popularity rate in a given location
 represents location-specific keyword popularity rate over the specified time range;

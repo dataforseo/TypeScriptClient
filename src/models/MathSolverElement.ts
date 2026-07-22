@@ -17,14 +17,17 @@ export interface IMathSolverElement   {
     }
 
 export class MathSolverElement  implements IMathSolverElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** title of a given link element */
 
     title?: string | undefined;
+
     
     /** expanded element */
 

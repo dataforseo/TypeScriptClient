@@ -20,18 +20,22 @@ export interface IDataforseoLabsGoogleDomainRankOverviewLiveItem   {
     }
 
 export class DataforseoLabsGoogleDomainRankOverviewLiveItem  implements IDataforseoLabsGoogleDomainRankOverviewLiveItem {
+
     
     /** search engine type */
 
     se_type?: string | undefined;
+
     
     /** location code in a POST array */
 
     location_code?: number | undefined;
+
     
     /** language code in a POST array */
 
     language_code?: string | undefined;
+
     
     /** ranking data relevant to the specified domain */
 

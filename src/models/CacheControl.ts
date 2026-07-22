@@ -12,10 +12,12 @@ the amount of time the browser caches a resource */
     }
 
 export class CacheControl  implements ICacheControl {
+
     
     /** indicates whether the page is cacheable */
 
     cachable?: boolean | undefined;
+
     
     /** time to live
 the amount of time the browser caches a resource */

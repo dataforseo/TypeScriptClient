@@ -68,6 +68,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo  implements IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo {
+
     
     /** keywords
 required field
@@ -77,6 +78,7 @@ specifying non-Latin characters, you’ll get data for the countries where they 
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keywords?: string[] | undefined;
+
     
     /** full name of search engine location
 optional field
@@ -88,6 +90,7 @@ example:
 United Kingdom */
 
     location_name?: string | undefined;
+
     
     /** search engine location code
 optional field
@@ -99,10 +102,12 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** starting date of the time range
 optional field
@@ -114,6 +119,7 @@ example:
 '2019-01-15' */
 
     date_from?: string | undefined;
+
     
     /** ending date of the time range
 optional field
@@ -123,6 +129,7 @@ example:
 '2019-01-15' */
 
     date_to?: string | undefined;
+
     
     /** preset time ranges
 optional field
@@ -131,6 +138,7 @@ possible values for all type parameters:
 past_4_hours, past_day, past_7_days, past_30_days, past_90_days, past_12_months, past_5_years */
 
     time_range?: string | undefined;
+
     
     /** user-defined task identifier
 optional field

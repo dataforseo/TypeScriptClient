@@ -12,6 +12,7 @@ export interface IAppDataAppleAppSearchesTaskGetAdvancedTaskInfo  extends IBaseR
     }
 
 export class AppDataAppleAppSearchesTaskGetAdvancedTaskInfo  extends BaseResponseTaskInfo   implements IAppDataAppleAppSearchesTaskGetAdvancedTaskInfo {
+
     
     /** array of results */
 

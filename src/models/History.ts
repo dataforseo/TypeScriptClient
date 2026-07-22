@@ -17,14 +17,17 @@ export interface IHistory   {
     }
 
 export class History  implements IHistory {
+
     
     /** year */
 
     year?: number | undefined;
+
     
     /** month */
 
     month?: number | undefined;
+
     
     /** historical data for the keyword */
 

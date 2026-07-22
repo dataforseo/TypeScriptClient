@@ -211,8 +211,7 @@ as a response you will receive the following data:
 'url': 'https://dataforseo.com/',
 'test': 'test'
 }
-Note: the length of the script you enter must be no more than 2000 characters
-Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page */
+Note: the length of the script you enter must be no more than 2000 characters */
         custom_js?: string | undefined
         
         /** enable microdata validation
@@ -348,6 +347,7 @@ learn more on our Help Center */
     }
 
 export class OnPageTaskPostRequestInfo  implements IOnPageTaskPostRequestInfo {
+
     
     /** target domain
 required field
@@ -355,6 +355,7 @@ domain name should be specified without https:// and www.
 if you specify the page URL, the results will be returned for the domain included in the URL */
 
     target?: string | undefined;
+
     
     /** crawled pages limit
 required field
@@ -366,6 +367,7 @@ to enable them anyway, set force_sitewide_checks to trueif you set max_crawl_pag
 to enable them anyway, set force_sitewide_checks to true */
 
     max_crawl_pages?: number | undefined;
+
     
     /** the first url to crawl 
 optional field
@@ -374,6 +376,7 @@ if you want to crawl a single page, specify its URL in this field and additional
 you can also use the live Instant Pages endpoint to get page-specific data */
 
     start_url?: string | undefined;
+
     
     /** enable sitewide checks when crawling a single page
 optional field
@@ -381,6 +384,7 @@ set to true to get data on sitewide checks when crawling a single page;
 default value: false */
 
     force_sitewide_checks?: boolean | undefined;
+
     
     /** urls to be crawled bypassing the queue
 optional field
@@ -395,6 +399,7 @@ subdomains will be ignored unless the allow_subdomains parameter is set to truee
 ] */
 
     priority_urls?: string[] | undefined;
+
     
     /** crawl depth
 optional field
@@ -402,6 +407,7 @@ the linking depth of the pages to crawl;
 for example, starting page of the crawl is level 0, pages that have links from that page are level 1, etc. */
 
     max_crawl_depth?: number | undefined;
+
     
     /** delay between hits, ms
 optional field
@@ -409,6 +415,7 @@ the custom delay between crawler hits to the server
 default value: 2000 */
 
     crawl_delay?: number | undefined;
+
     
     /** store HTML of crawled pages
 optional field
@@ -416,6 +423,7 @@ set to true if you want to get the HTML of the page using the OnPage Raw HTML en
 default value: false */
 
     store_raw_html?: boolean | undefined;
+
     
     /** parse content on crawled pages
 optional field
@@ -423,6 +431,7 @@ set to true to use the OnPage Content Parsing endpoint
 default value: false */
 
     enable_content_parsing?: boolean | undefined;
+
     
     /** support cookies on crawled pages
 optional field
@@ -430,6 +439,7 @@ set to true to support cookies when crawling the pages
 default value: false */
 
     support_cookies?: boolean | undefined;
+
     
     /** language header for accessing the website
 optional field
@@ -437,12 +447,14 @@ all locale formats are supported (xx, xx-XX, xxx-XX, etc.)
 Note: if you do not specify this parameter, some websites may deny access; in this case, pages will be returned with the 'type':'broken in the response array */
 
     accept_language?: string | undefined;
+
     
     /** custom robots.txt settings
 optional field
 example: Disallow: /directory1/ */
 
     custom_robots_txt?: string | undefined;
+
     
     /** merge with or override robots.txt settings
 optional field
@@ -452,6 +464,7 @@ default value: merge;
 Note: if set to override, specify the custom_robots_txt parameter */
 
     robots_txt_merge_mode?: string | undefined;
+
     
     /** custom user agent
 optional field
@@ -461,6 +474,7 @@ example: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHT
 default value: Mozilla/5.0 (compatible; RSiteAuditor) */
 
     custom_user_agent?: string | undefined;
+
     
     /** preset for browser screen parameters
 optional field
@@ -475,6 +489,7 @@ browser_screen_scale_factor: 2
 Note: to use this parameter, set enable_javascript or enable_browser_rendering to true */
 
     browser_preset?: string | undefined;
+
     
     /** browser screen width
 optional field
@@ -484,6 +499,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 maximum value, in pixels: 9999 */
 
     browser_screen_width?: number | undefined;
+
     
     /** browser screen height
 optional field
@@ -493,6 +509,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 maximum value, in pixels: 9999 */
 
     browser_screen_height?: number | undefined;
+
     
     /** browser screen scale factor
 optional field
@@ -502,6 +519,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 maximum value: 3 */
 
     browser_screen_scale_factor?: number | undefined;
+
     
     /** respect sitemap when crawling
 optional field
@@ -511,6 +529,7 @@ Note: if set to true, the click_depth value in the API response will equal 0;
 the max_crawl_depth field of the request will be ignored, you can specify the number of pages to crawl using the max_crawl_pages parameter */
 
     respect_sitemap?: boolean | undefined;
+
     
     /** custom sitemap url
 optional field
@@ -518,6 +537,7 @@ the URL of the page where the alternative sitemap is located
 Note: if you want to use this parameter, respect_sitemap should be true */
 
     custom_sitemap?: string | undefined;
+
     
     /** crawl only pages indicated in the sitemap
 optional field
@@ -527,6 +547,7 @@ default value: false
 Note: if you want to use this parameter, respect_sitemap should be true */
 
     crawl_sitemap_only?: boolean | undefined;
+
     
     /** load resources
 optional field
@@ -535,6 +556,7 @@ default value: false
 Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page */
 
     load_resources?: boolean | undefined;
+
     
     /** check if the domain implemented the www redirection
 optional field
@@ -542,6 +564,7 @@ set to true if you want to check if the requested domain implemented the www to 
 default value: false */
 
     enable_www_redirect_check?: boolean | undefined;
+
     
     /** load javascript on a page
 optional field
@@ -550,6 +573,7 @@ default value: false
 Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page */
 
     enable_javascript?: boolean | undefined;
+
     
     /** enable XMLHttpRequest on a page
 optional field
@@ -557,6 +581,7 @@ set to true if you want our crawler to request data from a web server using the 
 default value: false;if you use this field, enable_javascript must be set to true; */
 
     enable_xhr?: boolean | undefined;
+
     
     /** emulate browser rendering to measure Core Web Vitals
 optional field
@@ -568,6 +593,7 @@ if you use this field, enable_javascript, and load_resources parameters must be 
 Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page */
 
     enable_browser_rendering?: boolean | undefined;
+
     
     /** disable the cookie popup
 optional field
@@ -576,6 +602,7 @@ default value:
 false */
 
     disable_cookie_popup?: boolean | undefined;
+
     
     /** custom javascript
 optional field
@@ -587,10 +614,10 @@ as a response you will receive the following data:
 'url': 'https://dataforseo.com/',
 'test': 'test'
 }
-Note: the length of the script you enter must be no more than 2000 characters
-Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page */
+Note: the length of the script you enter must be no more than 2000 characters */
 
     custom_js?: string | undefined;
+
     
     /** enable microdata validation
 optional field
@@ -598,6 +625,7 @@ set to true if you want to use the OnPage API Microdata endpoint
 default value: false */
 
     validate_micromarkup?: boolean | undefined;
+
     
     /** include pages on subdomains
 optional field
@@ -605,6 +633,7 @@ set to true if you want to crawl all subdomains of a target website
 default value: false */
 
     allow_subdomains?: boolean | undefined;
+
     
     /** subdomains to crawl
 optional field
@@ -614,6 +643,7 @@ Note: to use this parameter, the allow_subdomains parameter should be set to fal
 otherwise, the content of allowed_subdomains field will be ignored and the results will be returned for all subdomains */
 
     allowed_subdomains?: string[] | undefined;
+
     
     /** subdomains not to crawl
 optional field
@@ -622,6 +652,7 @@ example: ['status.site.com', 'docs.site.com']
 Note: to use this parameter, the allow_subdomains parameter should be set to true */
 
     disallowed_subdomains?: string[] | undefined;
+
     
     /** check spelling
 optional field
@@ -629,6 +660,7 @@ set to true to check spelling on a website using Hunspell library
 default value: false */
 
     check_spell?: boolean | undefined;
+
     
     /** language of the spell check
 optional field
@@ -636,6 +668,7 @@ supported languages: ‘hy’, ‘eu’, ‘bg’, ‘ca’, ‘hr’, ‘cs’,
 Note: if no language is specified, it will be set automatically based on page content */
 
     check_spell_language?: string | undefined;
+
     
     /** words excluded from spell check
 optional field
@@ -645,6 +678,7 @@ maximum amount of words: 1000
 example: 'SERP', 'minifiers', 'JavaScript' */
 
     check_spell_exceptions?: string[] | undefined;
+
     
     /** calculate keyword density for the target domain
 optional field
@@ -654,6 +688,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 once the crawl is completed, you can obtain keyword density values with the Keyword Density endpoint */
 
     calculate_keyword_density?: boolean | undefined;
+
     
     /** custom threshold values for checks
 optional field
@@ -681,6 +716,7 @@ if you want to change these thresholds to 1 second and 1000 kbytes, use the foll
 'irrelevant_meta_keywords', default value: 0.6, type: 'float' */
 
     checks_threshold?: { [key: string]: number; } | undefined;
+
     
     /** prevent certain sitewide checks from running
 optional field
@@ -692,6 +728,7 @@ specify the following checks to prevent them from running on the target website:
 'disable_sitewide_checks': ['test_directory_browsing', 'test_page_not_found']learn more on our help center */
 
     disable_sitewide_checks?: string[] | undefined;
+
     
     /** prevent certain page checks from running
 optional field
@@ -699,6 +736,7 @@ specify certain checks to prevent them from running and impacting the onpage_sco
 'disable_page_checks': ['is_5xx_code', 'is_4xx_code'] */
 
     disable_page_checks?: string[] | undefined;
+
     
     /** switch proxy pool
 optional field
@@ -706,6 +744,7 @@ if true, additional proxy pools will be used to obtain the requested data;
 the parameter can be used if a multitude of tasks is set simultaneously, resulting in occasional rate-limit and/or site_unreachable errors */
 
     switch_pool?: boolean | undefined;
+
     
     /** return data on pages despite the timeout error
 optional field
@@ -713,6 +752,7 @@ if true, the data will be provided on pages that failed to load within 120 secon
 default value: false */
 
     return_despite_timeout?: boolean | undefined;
+
     
     /** user-defined task identifier
 optional field
@@ -721,6 +761,7 @@ you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
     tag?: string | undefined;
+
     
     /** notification URL of a completed task
 optional field

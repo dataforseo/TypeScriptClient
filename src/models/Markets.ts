@@ -15,11 +15,13 @@ possible values: US, Europe, Asia, Currencies, Crypto, Futures */
     }
 
 export class Markets  implements IMarkets {
+
     
     /** financial market identifier
 possible values: US, Europe, Asia, Currencies, Crypto, Futures */
 
     market?: string | undefined;
+
     
     /** elements of search results found in SERP */
 

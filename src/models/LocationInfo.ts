@@ -21,23 +21,28 @@ can be used with Google Reviews API to get a full list of reviews */
     }
 
 export class LocationInfo  implements ILocationInfo {
+
     
     /** name of the event’s venue */
 
     name?: string | undefined;
+
     
     /** address of the event’s venue */
 
     address?: string | undefined;
+
     
     /** search URL with refinement parameters */
 
     url?: string | undefined;
+
     
     /** google-defined client id
 can be used with Google Reviews API to get a full list of reviews */
 
     cid?: string | undefined;
+
     
     /** the unique identifier of the element in SERP */
 

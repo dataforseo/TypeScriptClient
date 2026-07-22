@@ -12,6 +12,7 @@ export interface IKeywordsDataGoogleAdsSearchVolumeTaskGetTaskInfo  extends IBas
     }
 
 export class KeywordsDataGoogleAdsSearchVolumeTaskGetTaskInfo  extends BaseResponseTaskInfo   implements IKeywordsDataGoogleAdsSearchVolumeTaskGetTaskInfo {
+
     
     /** array of results */
 

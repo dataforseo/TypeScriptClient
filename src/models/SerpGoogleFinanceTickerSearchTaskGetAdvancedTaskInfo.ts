@@ -12,6 +12,7 @@ export interface ISerpGoogleFinanceTickerSearchTaskGetAdvancedTaskInfo  extends 
     }
 
 export class SerpGoogleFinanceTickerSearchTaskGetAdvancedTaskInfo  extends BaseResponseTaskInfo   implements ISerpGoogleFinanceTickerSearchTaskGetAdvancedTaskInfo {
+
     
     /** array of results */
 

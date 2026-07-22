@@ -3,10 +3,12 @@ export interface IAiOptimizationPerplexityLlmResponsesModelsResultInfo   {
         /** name of the AI model */
         model_name?: string | undefined
         
-        /** web search support for the AI modelif true, the web_search parameter can be set with the AI model */
+        /** web search support for the AI model
+if true, the web_search parameter can be set with the AI model */
         web_search_supported?: boolean | undefined
         
-        /** indicates if Standard (POST-GET) data retrieval is supportedif true, you can use the Standard (POST-GET) data retrieval method with the AI model */
+        /** indicates if Standard (POST-GET) data retrieval is supported
+if true, you can use the Standard (POST-GET) data retrieval method with the AI model */
         task_post_supported?: boolean | undefined
 
     [key: string]: any;
@@ -14,16 +16,21 @@ export interface IAiOptimizationPerplexityLlmResponsesModelsResultInfo   {
     }
 
 export class AiOptimizationPerplexityLlmResponsesModelsResultInfo  implements IAiOptimizationPerplexityLlmResponsesModelsResultInfo {
+
     
     /** name of the AI model */
 
     model_name?: string | undefined;
+
     
-    /** web search support for the AI modelif true, the web_search parameter can be set with the AI model */
+    /** web search support for the AI model
+if true, the web_search parameter can be set with the AI model */
 
     web_search_supported?: boolean | undefined;
+
     
-    /** indicates if Standard (POST-GET) data retrieval is supportedif true, you can use the Standard (POST-GET) data retrieval method with the AI model */
+    /** indicates if Standard (POST-GET) data retrieval is supported
+if true, you can use the Standard (POST-GET) data retrieval method with the AI model */
 
     task_post_supported?: boolean | undefined;
 

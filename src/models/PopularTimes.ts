@@ -12,6 +12,7 @@ information about busy hours of the local establishment on each day of the week 
     }
 
 export class PopularTimes  implements IPopularTimes {
+
     
     /** popular hours
 information about busy hours of the local establishment on each day of the week */

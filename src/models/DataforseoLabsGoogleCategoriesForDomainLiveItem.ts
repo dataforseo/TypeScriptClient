@@ -18,15 +18,18 @@ you can download the full list of possible categories */
     }
 
 export class DataforseoLabsGoogleCategoriesForDomainLiveItem  implements IDataforseoLabsGoogleCategoriesForDomainLiveItem {
+
     
     /** search engine type */
 
     se_type?: string | undefined;
+
     
     /** product and service categories
 you can download the full list of possible categories */
 
     categories?: number[] | undefined;
+
     
     /** ranking data relevant to the specified domain or subdomain */
 

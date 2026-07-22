@@ -4,7 +4,8 @@ import { BaseMerchantAmazonElementItem, IBaseMerchantAmazonElementItem } from ".
 
 export interface IMerchantAmazonProductsLiveAdvancedResultInfo   {
         
-        /** keyword received in a POST arraykeyword is returned with decoded %## (plus character '+' will be decoded to a space character) */
+        /** keyword received in a POST array
+keyword is returned with decoded %## (plus character '+' will be decoded to a space character) */
         keyword?: string | undefined
         
         /** type of element */
@@ -19,16 +20,24 @@ export interface IMerchantAmazonProductsLiveAdvancedResultInfo   {
         /** language code in a POST array */
         language_code?: string | undefined
         
-        /** direct URL to Amazon resultsyou can use it to make sure that we provided accurate results */
+        /** direct URL to Amazon results
+you can use it to make sure that we provided accurate results */
         check_url?: string | undefined
         
-        /** date and time when the result was receivedin the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”example:2019-11-15 12:57:46 +00:00 */
+        /** date and time when the result was received
+in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
+example:
+2019-11-15 12:57:46 +00:00 */
         datetime?: string | undefined
         
-        /** autocorrection of the search engineif the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
+        /** autocorrection of the search engine
+if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
         spell?: SpellInfo | undefined
         
-        /** types of search results found in Amazon SERPcontains types of all search results (items) found in the returned SERPpossible item types:amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, related_searches */
+        /** types of search results found in Amazon SERP
+contains types of all search results (items) found in the returned SERP
+possible item types:
+amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, related_searches */
         item_types?: string[] | undefined
         
         /** search engine results count */
@@ -40,7 +49,7 @@ export interface IMerchantAmazonProductsLiveAdvancedResultInfo   {
         /** the number of results returned in the items array */
         items_count?: number | undefined
         
-        /** Amazon product items within the editorial_recommendations element */
+        /** Amazon product items */
         items?: BaseMerchantAmazonElementItem[] | undefined
 
     [key: string]: any;
@@ -48,56 +57,78 @@ export interface IMerchantAmazonProductsLiveAdvancedResultInfo   {
     }
 
 export class MerchantAmazonProductsLiveAdvancedResultInfo  implements IMerchantAmazonProductsLiveAdvancedResultInfo {
+
     
-    /** keyword received in a POST arraykeyword is returned with decoded %## (plus character '+' will be decoded to a space character) */
+    /** keyword received in a POST array
+keyword is returned with decoded %## (plus character '+' will be decoded to a space character) */
 
     keyword?: string | undefined;
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** search engine domain in a POST array */
 
     se_domain?: string | undefined;
+
     
     /** location code in a POST array */
 
     location_code?: number | undefined;
+
     
     /** language code in a POST array */
 
     language_code?: string | undefined;
+
     
-    /** direct URL to Amazon resultsyou can use it to make sure that we provided accurate results */
+    /** direct URL to Amazon results
+you can use it to make sure that we provided accurate results */
 
     check_url?: string | undefined;
+
     
-    /** date and time when the result was receivedin the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”example:2019-11-15 12:57:46 +00:00 */
+    /** date and time when the result was received
+in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
+example:
+2019-11-15 12:57:46 +00:00 */
 
     datetime?: string | undefined;
+
     
-    /** autocorrection of the search engineif the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
+    /** autocorrection of the search engine
+if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
 
     spell?: SpellInfo | undefined;
+
     
-    /** types of search results found in Amazon SERPcontains types of all search results (items) found in the returned SERPpossible item types:amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, related_searches */
+    /** types of search results found in Amazon SERP
+contains types of all search results (items) found in the returned SERP
+possible item types:
+amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, related_searches */
 
     item_types?: string[] | undefined;
+
     
     /** search engine results count */
 
     se_results_count?: number | undefined;
+
     
     /** amazon product departments and subcategories */
 
     categories?: any | undefined;
+
     
     /** the number of results returned in the items array */
 
     items_count?: number | undefined;
+
     
-    /** Amazon product items within the editorial_recommendations element */
+    /** Amazon product items */
 
     items?: BaseMerchantAmazonElementItem[] | undefined;
 

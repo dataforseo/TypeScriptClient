@@ -12,6 +12,7 @@ export interface IDataforseoLabsGoogleRelevantPagesLiveResponseInfo  extends IBa
     }
 
 export class DataforseoLabsGoogleRelevantPagesLiveResponseInfo  extends BaseResponseInfo   implements IDataforseoLabsGoogleRelevantPagesLiveResponseInfo {
+
     
     /** array of tasks */
 

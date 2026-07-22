@@ -12,6 +12,7 @@ export interface IAiOptimizationChatGptLlmResponsesTasksReadyTaskInfo  extends I
     }
 
 export class AiOptimizationChatGptLlmResponsesTasksReadyTaskInfo  extends BaseResponseTaskInfo   implements IAiOptimizationChatGptLlmResponsesTasksReadyTaskInfo {
+
     
     /** array of results */
 

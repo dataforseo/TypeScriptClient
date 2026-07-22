@@ -12,6 +12,7 @@ export interface ISerpScreenshotResponseInfo  extends IBaseResponseInfo    {
     }
 
 export class SerpScreenshotResponseInfo  extends BaseResponseInfo   implements ISerpScreenshotResponseInfo {
+
     
     /** array of tasks */
 

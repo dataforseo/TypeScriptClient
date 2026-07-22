@@ -110,6 +110,7 @@ learn more on our Help Center */
     }
 
 export class AppDataAppleAppListTaskPostRequestInfo  implements IAppDataAppleAppListTaskPostRequestInfo {
+
     
     /** app collection
 required field
@@ -118,6 +119,7 @@ you can specify the following values:
 top_free_ios, top_paid_ios, top_grossing_ios, new_ios, new_free_ios, new_paid_ios */
 
     app_collection?: string | undefined;
+
     
     /** full name of search engine location
 required field if you don’t specify location_code
@@ -127,6 +129,7 @@ example:
 West Los Angeles,California,United States */
 
     location_name?: string | undefined;
+
     
     /** search engine location code
 required field if you don’t specify location_name
@@ -136,6 +139,7 @@ example:
 9061121 */
 
     location_code?: number | undefined;
+
     
     /** full name of search engine language
 required field if you don’t specify language_code
@@ -145,6 +149,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** search engine language code
 required field if you don’t specify language_name
@@ -154,6 +159,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** task priority
 optional field
@@ -164,6 +170,7 @@ You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
 
     priority?: number | undefined;
+
     
     /** parsing depth
 optional field
@@ -176,6 +183,7 @@ Setting depth above 100 may result in additional charges if the search engine re
 The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
+
     
     /** application category on the App Store
 optional field
@@ -185,6 +193,7 @@ lifestyle;
 you can review the full list of available categories here or by making a separate request to https://api.dataforseo.com/v3/app_data/apple/categories */
 
     app_category?: string | undefined;
+
     
     /** user-defined task identifier
 optional field
@@ -193,6 +202,7 @@ you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
     tag?: string | undefined;
+
     
     /** URL for sending task results
 optional field
@@ -206,6 +216,7 @@ i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
     postback_url?: string | undefined;
+
     
     /** postback_url datatype
 required field if you specify postback_url
@@ -214,6 +225,7 @@ possible values:
 advanced */
 
     postback_data?: string | undefined;
+
     
     /** notification URL of a completed task
 optional field

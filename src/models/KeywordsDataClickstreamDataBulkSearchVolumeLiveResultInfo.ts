@@ -17,14 +17,17 @@ export interface IKeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo   {
     }
 
 export class KeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo  implements IKeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo {
+
     
     /** location code in a POST array */
 
     location_code?: number | undefined;
+
     
     /** the number of results returned in the items array */
 
     items_count?: number | undefined;
+
     
     /** contains keywords and related data */
 

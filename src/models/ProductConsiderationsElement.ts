@@ -21,19 +21,23 @@ the category is indicated just above the title fo the consideration element */
     }
 
 export class ProductConsiderationsElement  implements IProductConsiderationsElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** title of a given link element */
 
     title?: string | undefined;
+
     
     /** category of the consideration element
 the category is indicated just above the title fo the consideration element */
 
     consideration_category?: string | undefined;
+
     
     /** expanded element */
 

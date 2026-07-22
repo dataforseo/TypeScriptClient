@@ -13,6 +13,7 @@ you can get the results by the preferred method of results delivery (pingback or
     }
 
 export class AppendixWebhookResendTaskInfo  extends BaseResponseTaskInfo   implements IAppendixWebhookResendTaskInfo {
+
     
     /** array of results
 the value of this array is always null;

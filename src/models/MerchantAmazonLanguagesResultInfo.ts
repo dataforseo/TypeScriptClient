@@ -11,10 +11,12 @@ export interface IMerchantAmazonLanguagesResultInfo   {
     }
 
 export class MerchantAmazonLanguagesResultInfo  implements IMerchantAmazonLanguagesResultInfo {
+
     
     /** language name */
 
     language_name?: string | undefined;
+
     
     /** language code according to ISO 639-1 */
 

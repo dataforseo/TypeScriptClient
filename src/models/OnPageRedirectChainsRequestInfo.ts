@@ -50,6 +50,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class OnPageRedirectChainsRequestInfo  implements IOnPageRedirectChainsRequestInfo {
+
     
     /** ID of the task
 required field
@@ -58,6 +59,7 @@ example:
 “07131248-1535-0216-1000-17384017ad04” */
 
     id?: string | undefined;
+
     
     /** page URL
 optional field
@@ -65,6 +67,7 @@ absolute URL of the target page
 if you use this field, the API response will return only redirect chains which contain the specified URL */
 
     url?: string | undefined;
+
     
     /** the maximum number of returned redirect chains
 optional field
@@ -72,6 +75,7 @@ default value: 100
 maximum value: 1000 */
 
     limit?: number | undefined;
+
     
     /** offset in the results array of returned redirect chains
 optional field
@@ -80,6 +84,7 @@ maximum value: 2000000
 if you specify the 10 value, the first ten redirect chains in the results array will be omitted and the data will be provided for the successive redirect chains */
 
     offset?: number | undefined;
+
     
     /** array of results filtering parameters
 optional field
@@ -93,6 +98,7 @@ examples:
 ['is_redirect_loop','<>','false'] */
 
     filters?: any[] | undefined;
+
     
     /** user-defined task identifier
 optional field

@@ -12,6 +12,7 @@ export interface IAiOptimizationGeminiLlmResponsesModelsTaskInfo  extends IBaseR
     }
 
 export class AiOptimizationGeminiLlmResponsesModelsTaskInfo  extends BaseResponseTaskInfo   implements IAiOptimizationGeminiLlmResponsesModelsTaskInfo {
+
     
     /** array of results */
 

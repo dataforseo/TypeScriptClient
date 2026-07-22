@@ -12,6 +12,7 @@ export interface IKeywordsDataBingKeywordsForSiteTaskGetTaskInfo  extends IBaseR
     }
 
 export class KeywordsDataBingKeywordsForSiteTaskGetTaskInfo  extends BaseResponseTaskInfo   implements IKeywordsDataBingKeywordsForSiteTaskGetTaskInfo {
+
     
     /** array of results */
 

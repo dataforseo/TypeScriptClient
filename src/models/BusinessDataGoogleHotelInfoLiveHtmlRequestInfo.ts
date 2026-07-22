@@ -109,6 +109,7 @@ you will find the specified tag value in the data array of the response */
     }
 
 export class BusinessDataGoogleHotelInfoLiveHtmlRequestInfo  implements IBusinessDataGoogleHotelInfoLiveHtmlRequestInfo {
+
     
     /** unique hotel identifier
 required field
@@ -118,6 +119,7 @@ example:
 ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE */
 
     hotel_identifier?: string | undefined;
+
     
     /** task priority
 optional field
@@ -128,6 +130,7 @@ You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
 
     priority?: number | undefined;
+
     
     /** full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -137,6 +140,7 @@ example:
 London,England,United Kingdom */
 
     location_name?: string | undefined;
+
     
     /** search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -146,6 +150,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -157,6 +162,7 @@ example:
 53.476225,-2.243572 */
 
     location_coordinate?: string | undefined;
+
     
     /** full name of search engine language
 required field if you don’t specify language_code
@@ -166,6 +172,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** search engine language code
 required field if you don’t specify language_name
@@ -175,6 +182,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** check-in date
 optional field
@@ -184,6 +192,7 @@ example:
 '2019-01-15' */
 
     check_in?: string | undefined;
+
     
     /** check-out date
 optional field
@@ -193,6 +202,7 @@ example:
 '2019-01-15' */
 
     check_out?: string | undefined;
+
     
     /** currency
 optional field
@@ -200,6 +210,7 @@ example:
 'USD' */
 
     currency?: string | undefined;
+
     
     /** number of adults
 optional field
@@ -208,6 +219,7 @@ example:
 1 */
 
     adults?: number | undefined;
+
     
     /** number and age of children
 optional field
@@ -218,6 +230,7 @@ set the following value if you want to include one 13-years-old child and one 8-
 [13,8] */
 
     children?: string[] | undefined;
+
     
     /** user-defined task identifier
 optional field

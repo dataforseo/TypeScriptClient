@@ -12,6 +12,7 @@ export interface ISerpSeznamLanguagesResponseInfo  extends IBaseResponseInfo    
     }
 
 export class SerpSeznamLanguagesResponseInfo  extends BaseResponseInfo   implements ISerpSeznamLanguagesResponseInfo {
+
     
     /** array of tasks */
 

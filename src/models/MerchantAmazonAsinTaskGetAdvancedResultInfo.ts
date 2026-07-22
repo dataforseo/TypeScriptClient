@@ -47,33 +47,40 @@ amazon_product_info */
     }
 
 export class MerchantAmazonAsinTaskGetAdvancedResultInfo  implements IMerchantAmazonAsinTaskGetAdvancedResultInfo {
+
     
     /** ASIN received in a POST array
 the unique product identifier in Amazon (ASIN) received in a POST array
 learn more about the identified in this help center guide */
 
     asin?: string | undefined;
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** Amazon domain in a POST array */
 
     se_domain?: string | undefined;
+
     
     /** location code in a POST array */
 
     location_code?: number | undefined;
+
     
     /** language code in a POST array */
 
     language_code?: string | undefined;
+
     
     /** direct URL to Amazon results
 you can use it to make sure that we provided accurate results */
 
     check_url?: string | undefined;
+
     
     /** date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -81,6 +88,7 @@ example:
 2019-11-15 12:57:46 +00:00 */
 
     datetime?: string | undefined;
+
     
     /** types of search results found on Amazon
 contains types of all search results (items) found in the returned SERP
@@ -88,10 +96,12 @@ possible item types:
 amazon_product_info */
 
     item_types?: string[] | undefined;
+
     
     /** the number of results returned in the items array */
 
     items_count?: number | undefined;
+
     
     /** Amazon product info items */
 

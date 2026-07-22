@@ -12,6 +12,7 @@ export interface ISerpGoogleEventsTaskGetAdvancedResponseInfo  extends IBaseResp
     }
 
 export class SerpGoogleEventsTaskGetAdvancedResponseInfo  extends BaseResponseInfo   implements ISerpGoogleEventsTaskGetAdvancedResponseInfo {
+
     
     /** array of tasks */
 

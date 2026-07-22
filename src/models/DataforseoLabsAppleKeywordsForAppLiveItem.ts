@@ -18,14 +18,17 @@ export interface IDataforseoLabsAppleKeywordsForAppLiveItem   {
     }
 
 export class DataforseoLabsAppleKeywordsForAppLiveItem  implements IDataforseoLabsAppleKeywordsForAppLiveItem {
+
     
     /** search engine type */
 
     se_type?: string | undefined;
+
     
     /** keyword data for the returned keyword */
 
     keyword_data?: KeywordDataInfo | undefined;
+
     
     /** contains data on the domain’s SERP element found for the returned keyword */
 

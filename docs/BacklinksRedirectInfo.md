@@ -5,5 +5,5 @@
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
 **type** | **string** | type of element |[optional]|
-**status_code** | **number** | HTTP status code of the URL |[optional]|
+**status_code** | **number** | general status code<br>you can find the full list of the response codes here<br>Note: we strongly recommend designing a necessary system for handling related exceptional or error conditions |[optional]|
 **url** | **string** | indirect link URL |[optional]|

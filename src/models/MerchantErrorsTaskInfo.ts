@@ -12,6 +12,7 @@ export interface IMerchantErrorsTaskInfo  extends IBaseResponseTaskInfo    {
     }
 
 export class MerchantErrorsTaskInfo  extends BaseResponseTaskInfo   implements IMerchantErrorsTaskInfo {
+
     
     /** array of results */
 

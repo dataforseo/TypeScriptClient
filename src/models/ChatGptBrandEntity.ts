@@ -20,22 +20,27 @@ export interface IChatGptBrandEntity   {
     }
 
 export class ChatGptBrandEntity  implements IChatGptBrandEntity {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** name of the brand */
 
     title?: string | undefined;
+
     
     /** category of the brand */
 
     category?: string | undefined;
+
     
     /** brand name in markdown formatcontains brand name formatted in the markdown markup language */
 
     markdown?: string | undefined;
+
     
     /** array of URLs and domains relevant to the brand */
 

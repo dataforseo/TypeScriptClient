@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpGoogleAiModeTaskPostTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **SerpGoogleAiModeTaskPostTaskInfo[]** |  |[optional]|

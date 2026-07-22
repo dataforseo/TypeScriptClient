@@ -51,27 +51,33 @@ if there is no data then the value is null */
     }
 
 export class KeywordsDataBingSearchVolumeTaskGetResultInfo  implements IKeywordsDataBingSearchVolumeTaskGetResultInfo {
+
     
     /** keyword in a POST array */
 
     keyword?: string | undefined;
+
     
     /** location code in a POST array */
 
     location_code?: number | undefined;
+
     
     /** language code in a POST array */
 
     language_code?: string | undefined;
+
     
     /** indicates whether data from partner networks included in the response */
 
     search_partners?: boolean | undefined;
+
     
     /** device type in a POST array
 if there is no data, then the value is null */
 
     device?: string | undefined;
+
     
     /** competition
 represents the relative amount of competition associated with the given keyword in paid SERP only. This value is based on Bing Ads data.
@@ -82,22 +88,26 @@ Possible values: 0.1, 0.5,0.9
 if there is no data the value is null */
 
     competition?: number | undefined;
+
     
     /** cost-per-click
 represents the average cost per click (USD) historically paid for the keyword.
 if there is no data then the value is null */
 
     cpc?: number | undefined;
+
     
     /** monthly average search volume rate
 search volume is rounded to the nearest tens */
 
     search_volume?: number | undefined;
+
     
     /** product and service categories
 our API doesn’t return categories for this endpoint: the parameter will always equal null */
 
     categories?: string[] | undefined;
+
     
     /** monthly searches
 represents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations

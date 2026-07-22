@@ -12,6 +12,7 @@ in this case, the value will be null */
     }
 
 export class OnPageTaskPostTaskInfo  extends BaseResponseTaskInfo   implements IOnPageTaskPostTaskInfo {
+
     
     /** array of results
 in this case, the value will be null */

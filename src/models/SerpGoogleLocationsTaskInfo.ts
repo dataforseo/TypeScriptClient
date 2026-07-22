@@ -12,6 +12,7 @@ export interface ISerpGoogleLocationsTaskInfo  extends IBaseResponseTaskInfo    
     }
 
 export class SerpGoogleLocationsTaskInfo  extends BaseResponseTaskInfo   implements ISerpGoogleLocationsTaskInfo {
+
     
     /** array of results */
 

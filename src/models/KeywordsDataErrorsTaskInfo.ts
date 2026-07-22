@@ -12,6 +12,7 @@ export interface IKeywordsDataErrorsTaskInfo  extends IBaseResponseTaskInfo    {
     }
 
 export class KeywordsDataErrorsTaskInfo  extends BaseResponseTaskInfo   implements IKeywordsDataErrorsTaskInfo {
+
     
     /** array of results */
 

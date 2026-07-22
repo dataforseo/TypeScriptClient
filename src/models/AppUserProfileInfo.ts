@@ -11,10 +11,12 @@ export interface IAppUserProfileInfo   {
     }
 
 export class AppUserProfileInfo  implements IAppUserProfileInfo {
+
     
     /** profile name of the reviewer */
 
     profile_name?: string | undefined;
+
     
     /** URL to the reviewer’s profile image */
 

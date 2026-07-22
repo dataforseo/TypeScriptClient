@@ -12,6 +12,7 @@ export interface IKeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo  extends 
     }
 
 export class KeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo  extends BaseResponseInfo   implements IKeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo {
+
     
     /** array of tasks */
 

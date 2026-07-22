@@ -14,10 +14,12 @@ export interface IBacklinksBulkSpamScoreLiveResultInfo   {
     }
 
 export class BacklinksBulkSpamScoreLiveResultInfo  implements IBacklinksBulkSpamScoreLiveResultInfo {
+
     
     /** the number of results returned in the items array */
 
     items_count?: number | undefined;
+
     
     /** contains relevant backlinks and referring domains data */
 

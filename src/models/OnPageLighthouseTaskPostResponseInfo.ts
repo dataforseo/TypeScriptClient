@@ -12,6 +12,7 @@ export interface IOnPageLighthouseTaskPostResponseInfo  extends IBaseResponseInf
     }
 
 export class OnPageLighthouseTaskPostResponseInfo  extends BaseResponseInfo   implements IOnPageLighthouseTaskPostResponseInfo {
+
     
     /** array of tasks */
 

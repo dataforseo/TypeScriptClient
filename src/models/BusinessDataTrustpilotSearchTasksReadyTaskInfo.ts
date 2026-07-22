@@ -12,6 +12,7 @@ export interface IBusinessDataTrustpilotSearchTasksReadyTaskInfo  extends IBaseR
     }
 
 export class BusinessDataTrustpilotSearchTasksReadyTaskInfo  extends BaseResponseTaskInfo   implements IBusinessDataTrustpilotSearchTasksReadyTaskInfo {
+
     
     /** array of results */
 

@@ -146,6 +146,7 @@ learn more on our Help Center */
     }
 
 export class BusinessDataTripadvisorReviewsTaskPostRequestInfo  implements IBusinessDataTripadvisorReviewsTaskPostRequestInfo {
+
     
     /** URL path of the business entity
 required field if you do not specify keyword
@@ -155,6 +156,7 @@ Hotel_Review-g60763-d23462501-Reviews-Margaritaville_Times_Square-New_York_City_
 https://www.tripadvisor.com/Hotel_Review-g60763-d23462501-Reviews-Margaritaville_Times_Square-New_York_City_New_York.html */
 
     url_path?: string | undefined;
+
     
     /** keyword
 required field if you do not specify url_path
@@ -164,6 +166,7 @@ all %## will be decoded (plus character ‘+’ will be decoded to a space chara
 if you need to use the “%” character for your keyword, please specify it as “%25” */
 
     keyword?: string | undefined;
+
     
     /** full name of search engine location
 required field if you don’t specify location_code or url_path
@@ -172,6 +175,7 @@ example:
 London,England,United Kingdom */
 
     location_name?: string | undefined;
+
     
     /** search engine location code
 required field if you don’t specify location_name or url_path
@@ -180,6 +184,7 @@ example:
 1003854 */
 
     location_code?: number | undefined;
+
     
     /** task priority
 optional field
@@ -190,6 +195,7 @@ You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
 
     priority?: number | undefined;
+
     
     /** full name of search engine language
 optional field
@@ -201,6 +207,7 @@ You will be additionally charged for setting a language parameter in this endpoi
 The cost can be calculated on the Pricing page. */
 
     language_name?: string | undefined;
+
     
     /** search engine language code
 optional field
@@ -212,6 +219,7 @@ You will be additionally charged for setting a language parameter in this endpoi
 The cost can be calculated on the Pricing page. */
 
     language_code?: string | undefined;
+
     
     /** parsing depth
 optional field
@@ -224,6 +232,7 @@ Setting depth above 10 may result in additional charges if the search engine ret
 The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
+
     
     /** Tripadvisor traveler rating for a place of interest
 optional field
@@ -232,6 +241,7 @@ possible values: excellent, very_good, average, poor, terrible
 you can specify several values at once */
 
     ratings?: string[] | undefined;
+
     
     /** filter by type of travelers who left a review
 optional field
@@ -239,6 +249,7 @@ possible values: families, couples, solo, business, friends
 you can specify several values at once */
 
     visit_type?: string[] | undefined;
+
     
     /** filter by months when a traveler made a visit
 optional field
@@ -246,12 +257,14 @@ possible values: january, february, march, april, may, april, june, july, august
 you can specify several values at once */
 
     months?: string[] | undefined;
+
     
     /** search reviews containing a specified keyword
 example:
 dessert */
 
     search_reviews_keyword?: string | undefined;
+
     
     /** results sorting parameters
 optional field
@@ -261,6 +274,7 @@ most_recent
 detailed_reviews */
 
     sort_by?: string | undefined;
+
     
     /** translate reviews according to the URL path
 optional field
@@ -270,6 +284,7 @@ default value: true
 you can learn more about how reviews are translated in this Help Center article */
 
     translate_reviews?: boolean | undefined;
+
     
     /** user-defined task identifier
 optional field
@@ -278,6 +293,7 @@ you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
     tag?: string | undefined;
+
     
     /** URL for sending task results
 optional field
@@ -291,6 +307,7 @@ i.a., the # character will be encoded into %23
 learn more on our Help Center */
 
     postback_url?: string | undefined;
+
     
     /** notification URL of a completed task
 optional field

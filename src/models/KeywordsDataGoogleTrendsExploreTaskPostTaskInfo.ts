@@ -12,6 +12,7 @@ in this case, the value will be null */
     }
 
 export class KeywordsDataGoogleTrendsExploreTaskPostTaskInfo  extends BaseResponseTaskInfo   implements IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo {
+
     
     /** array of results
 in this case, the value will be null */

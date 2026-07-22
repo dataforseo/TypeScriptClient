@@ -12,6 +12,7 @@ in this case, the value will be null */
     }
 
 export class MerchantAmazonSellersTaskPostTaskInfo  extends BaseResponseTaskInfo   implements IMerchantAmazonSellersTaskPostTaskInfo {
+
     
     /** array of results
 in this case, the value will be null */

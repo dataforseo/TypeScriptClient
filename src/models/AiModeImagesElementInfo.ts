@@ -6,7 +6,7 @@ export interface IAiModeImagesElementInfo   {
         /** alt tag of the image */
         alt?: string | undefined
         
-        /** URL link */
+        /** relevant URL */
         url?: string | undefined
         
         /** URL of the image
@@ -18,18 +18,22 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
     }
 
 export class AiModeImagesElementInfo  implements IAiModeImagesElementInfo {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** alt tag of the image */
 
     alt?: string | undefined;
+
     
-    /** URL link */
+    /** relevant URL */
 
     url?: string | undefined;
+
     
     /** URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */

@@ -21,19 +21,23 @@ example:
     }
 
 export class ResponseDataInfo  implements IResponseDataInfo {
+
     
     /** author of the response */
 
     author?: string | undefined;
+
     
     /** title of the response
 in this case, will equal null */
 
     title?: string | undefined;
+
     
     /** content of the response */
 
     text?: string | undefined;
+
     
     /** date and time when the response was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;

@@ -17,14 +17,17 @@ export interface ITableContentInfo   {
     }
 
 export class TableContentInfo  implements ITableContentInfo {
+
     
     /** parsed content of the header */
 
     header?: TableContentItemInfo[] | undefined;
+
     
     /** content of the body of the table */
 
     body?: TableContentItemInfo[] | undefined;
+
     
     /** content of the footer of the table */
 

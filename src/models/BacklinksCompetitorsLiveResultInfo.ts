@@ -17,14 +17,17 @@ export interface IBacklinksCompetitorsLiveResultInfo   {
     }
 
 export class BacklinksCompetitorsLiveResultInfo  implements IBacklinksCompetitorsLiveResultInfo {
+
     
     /** total number of relevant items in the database */
 
     total_count?: number | undefined;
+
     
     /** number of items in the items array */
 
     items_count?: number | undefined;
+
     
     /** items array */
 

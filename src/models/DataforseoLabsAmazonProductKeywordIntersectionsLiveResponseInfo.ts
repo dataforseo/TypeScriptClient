@@ -12,6 +12,7 @@ export interface IDataforseoLabsAmazonProductKeywordIntersectionsLiveResponseInf
     }
 
 export class DataforseoLabsAmazonProductKeywordIntersectionsLiveResponseInfo  extends BaseResponseInfo   implements IDataforseoLabsAmazonProductKeywordIntersectionsLiveResponseInfo {
+
     
     /** array of tasks */
 

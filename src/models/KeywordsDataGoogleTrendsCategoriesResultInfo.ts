@@ -21,14 +21,17 @@ where category_code_parent corresponds to:
     }
 
 export class KeywordsDataGoogleTrendsCategoriesResultInfo  implements IKeywordsDataGoogleTrendsCategoriesResultInfo {
+
     
     /** unique google trends category identifier */
 
     category_code?: number | undefined;
+
     
     /** name of the google trends category */
 
     category_name?: string | undefined;
+
     
     /** the code of the superordinate category
 example:

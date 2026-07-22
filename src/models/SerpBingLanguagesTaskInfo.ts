@@ -12,6 +12,7 @@ export interface ISerpBingLanguagesTaskInfo  extends IBaseResponseTaskInfo    {
     }
 
 export class SerpBingLanguagesTaskInfo  extends BaseResponseTaskInfo   implements ISerpBingLanguagesTaskInfo {
+
     
     /** array of results */
 

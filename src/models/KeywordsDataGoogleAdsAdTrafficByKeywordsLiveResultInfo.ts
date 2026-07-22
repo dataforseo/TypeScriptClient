@@ -45,9 +45,7 @@ represents the cost-per-click (USD) estimated for a keyword based on the specifi
 if there is no data, then the value is null */
         average_cpc?: number | undefined
         
-        /** charge for an ad
-amount that will be charged for running an ad within the specified time period
-if there is no data, then the value is null */
+        /** total tasks cost, USD */
         cost?: number | undefined
         
         /** number of clicks on an ad
@@ -60,30 +58,36 @@ if there is no data, then the value is null */
     }
 
 export class KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo  implements IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo {
+
     
     /** keyword in a POST array */
 
     keyword?: string | undefined;
+
     
     /** location code in a POST array
 if there is no data, then the value is null */
 
     location_code?: number | undefined;
+
     
     /** language code in a POST array
 if there is no data, then the value is null */
 
     language_code?: string | undefined;
+
     
     /** forecasting date interval in a POST array */
 
     date_interval?: string | undefined;
+
     
     /** include Google search partners
 the value you specified when setting the task
 Note: parameter deprecated, the value is always false */
 
     search_partners?: boolean | undefined;
+
     
     /** the maximum custom bid
 the bid you have specified when setting the task
@@ -92,35 +96,39 @@ the higher value you have specified, the higher metrics and cost you receive in 
 learn more in this help center article */
 
     bid?: number | undefined;
+
     
     /** keywords match-type
 can take the following values: exact, broad, phrase */
 
     match?: string | undefined;
+
     
     /** projected number of ad impressions
 number of impressions an ad is projected to get within the specified time period
 Note: parameter deprecated, the value is always null */
 
     impressions?: number | undefined;
+
     
     /** projected click through rate (CTR) of the advertisement
 number of clicks an ad is projected to receive divided by the number of ad impressions; the CTR is projected for the specified time period
 Note: parameter deprecated, the value is always null */
 
     ctr?: number | undefined;
+
     
     /** the average cost-per-click value
 represents the cost-per-click (USD) estimated for a keyword based on the specified time period and historical data;
 if there is no data, then the value is null */
 
     average_cpc?: number | undefined;
+
     
-    /** charge for an ad
-amount that will be charged for running an ad within the specified time period
-if there is no data, then the value is null */
+    /** total tasks cost, USD */
 
     cost?: number | undefined;
+
     
     /** number of clicks on an ad
 number of clicks an ad is projected to get within the specified time period

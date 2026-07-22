@@ -13,6 +13,7 @@ note: you can set up to 1000 id values as separate objects in the POST array */
     }
 
 export class OnPageForceStopRequestInfo  implements IOnPageForceStopRequestInfo {
+
     
     /** ID of the task
 required field

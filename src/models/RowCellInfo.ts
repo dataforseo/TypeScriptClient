@@ -17,14 +17,17 @@ export interface IRowCellInfo   {
     }
 
 export class RowCellInfo  implements IRowCellInfo {
+
     
     /** content of the row cells of the header */
 
     text?: string | undefined;
+
     
     /** contains other URLs and anchors found in the content element */
 
     urls?: ContentUrlInfo[] | undefined;
+
     
     /** content of the row cells of the header */
 

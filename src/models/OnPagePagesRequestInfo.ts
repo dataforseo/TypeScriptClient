@@ -68,6 +68,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class OnPagePagesRequestInfo  implements IOnPagePagesRequestInfo {
+
     
     /** ID of the task
 required field
@@ -76,6 +77,7 @@ example:
 “07131248-1535-0216-1000-17384017ad04” */
 
     id?: string | undefined;
+
     
     /** the maximum number of returned pages
 optional field
@@ -83,6 +85,7 @@ default value: 100
 maximum value: 1000 */
 
     limit?: number | undefined;
+
     
     /** offset in the results array of returned pages
 optional field
@@ -91,6 +94,7 @@ maximum value: 2000000
 if you specify the 10 value, the first ten pages in the results array will be omitted and the data will be provided for the successive pages */
 
     offset?: number | undefined;
+
     
     /** array of results filtering parameters
 optional field
@@ -104,6 +108,7 @@ example:
 'and',['resource_type','=','html']][['page_timing.duration_time','<',100],'and',[['checks.large_page_size','=',false],'or',['checks.high_waiting_time','=',false]]]The full list of possible filters is available by this link. */
 
     filters?: any[] | undefined;
+
     
     /** results sorting rules
 optional field
@@ -120,6 +125,7 @@ example:
 ['page_timing.dom_complete,asc','size,desc'] */
 
     order_by?: string[] | undefined;
+
     
     /** token for subsequent requests
 optional field
@@ -130,6 +136,7 @@ search_after_token values are unique for each subsequent task ;
 Note: if the search_after_token is specified in the request, all other parameters should be identical to the previous request */
 
     search_after_token?: string | undefined;
+
     
     /** user-defined task identifier
 optional field

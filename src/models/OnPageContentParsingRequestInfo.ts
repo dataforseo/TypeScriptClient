@@ -26,6 +26,7 @@ default value: false */
     }
 
 export class OnPageContentParsingRequestInfo  implements IOnPageContentParsingRequestInfo {
+
     
     /** URL of the content to parse
 required field
@@ -34,6 +35,7 @@ example:
 https://dataforseo.com/blog/a-versatile-alternative-to-google-trends-exploring-the-power-of-dataforseo-trends-api */
 
     url?: string | undefined;
+
     
     /** ID of the task
 required field
@@ -43,6 +45,7 @@ example:
 '07131248-1535-0216-1000-17384017ad04' */
 
     id?: string | undefined;
+
     
     /** return page content as markdown
 optional field

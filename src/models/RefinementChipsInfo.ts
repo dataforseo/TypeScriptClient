@@ -17,14 +17,17 @@ export interface IRefinementChipsInfo   {
     }
 
 export class RefinementChipsInfo  implements IRefinementChipsInfo {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** the XPath of the element */
 
     xpath?: string | undefined;
+
     
     /** items of the element */
 

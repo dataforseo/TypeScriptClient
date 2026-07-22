@@ -12,7 +12,6 @@ export interface IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultIn
         /** offset in the results array of returned domains */
         offset?: number | undefined
         
-        /** items array */
         items?: DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem[] | undefined
 
     [key: string]: any;
@@ -20,20 +19,21 @@ export interface IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultIn
     }
 
 export class DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo  implements IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo {
+
     
     /** total amount of results in our database relevant to your request */
 
     total_count?: number | undefined;
+
     
     /** the number of results returned in the items array */
 
     items_count?: number | undefined;
+
     
     /** offset in the results array of returned domains */
 
     offset?: number | undefined;
-    
-    /** items array */
 
     items?: DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem[] | undefined;
 

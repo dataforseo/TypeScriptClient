@@ -12,6 +12,7 @@ export interface ISerpYahooLanguagesResponseInfo  extends IBaseResponseInfo    {
     }
 
 export class SerpYahooLanguagesResponseInfo  extends BaseResponseInfo   implements ISerpYahooLanguagesResponseInfo {
+
     
     /** array of tasks */
 

@@ -12,6 +12,7 @@ export interface IDataforseoLabsGoogleBulkKeywordDifficultyLiveTaskInfo  extends
     }
 
 export class DataforseoLabsGoogleBulkKeywordDifficultyLiveTaskInfo  extends BaseResponseTaskInfo   implements IDataforseoLabsGoogleBulkKeywordDifficultyLiveTaskInfo {
+
     
     /** array of results */
 

@@ -1,20 +1,18 @@
 export interface IBacklinksInfo   {
         
-        /** number of referring domains
-referring domains include subdomains that are counted as separate domains for this metric */
+        /** average number of referring domains */
         referring_domains?: number | undefined
         
-        /** number of referring main domains */
+        /** average number of referring main domains */
         referring_main_domains?: number | undefined
         
-        /** number of pages pointing to the target website */
+        /** average number of referring pages */
         referring_pages?: number | undefined
         
-        /** number of dofollow links */
+        /** average number of dofollow links */
         dofollow?: number | undefined
         
-        /** total number of backlinks
-the total number of backlinks, including dofollow and nofollow links */
+        /** average number of backlinks */
         backlinks?: number | undefined
         
         /** date and time when backlink data was updated
@@ -28,28 +26,32 @@ example:
     }
 
 export class BacklinksInfo  implements IBacklinksInfo {
+
     
-    /** number of referring domains
-referring domains include subdomains that are counted as separate domains for this metric */
+    /** average number of referring domains */
 
     referring_domains?: number | undefined;
+
     
-    /** number of referring main domains */
+    /** average number of referring main domains */
 
     referring_main_domains?: number | undefined;
+
     
-    /** number of pages pointing to the target website */
+    /** average number of referring pages */
 
     referring_pages?: number | undefined;
+
     
-    /** number of dofollow links */
+    /** average number of dofollow links */
 
     dofollow?: number | undefined;
+
     
-    /** total number of backlinks
-the total number of backlinks, including dofollow and nofollow links */
+    /** average number of backlinks */
 
     backlinks?: number | undefined;
+
     
     /** date and time when backlink data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;

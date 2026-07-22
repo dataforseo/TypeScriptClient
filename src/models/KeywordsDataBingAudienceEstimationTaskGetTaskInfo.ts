@@ -12,6 +12,7 @@ export interface IKeywordsDataBingAudienceEstimationTaskGetTaskInfo  extends IBa
     }
 
 export class KeywordsDataBingAudienceEstimationTaskGetTaskInfo  extends BaseResponseTaskInfo   implements IKeywordsDataBingAudienceEstimationTaskGetTaskInfo {
+
     
     /** array of results */
 

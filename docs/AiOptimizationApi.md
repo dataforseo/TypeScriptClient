@@ -13,13 +13,6 @@ All URIs are relative to *https://api.dataforseo.com*
 [**chatGptLlmScraperTaskGetHtml**](AiOptimizationApi.md#chatGptLlmScraperTaskGetHtml) | **GET**  /v3/ai_optimization/chat_gpt/llm_scraper/task_get/html/{id}  |
 [**chatGptLlmScraperLiveAdvanced**](AiOptimizationApi.md#chatGptLlmScraperLiveAdvanced) | **POST**  /v3/ai_optimization/chat_gpt/llm_scraper/live/advanced  |
 [**chatGptLlmScraperLiveHtml**](AiOptimizationApi.md#chatGptLlmScraperLiveHtml) | **POST**  /v3/ai_optimization/chat_gpt/llm_scraper/live/html  |
-[**llmMentionsLocationsAndLanguages**](AiOptimizationApi.md#llmMentionsLocationsAndLanguages) | **GET**  /v3/ai_optimization/llm_mentions/locations_and_languages  |
-[**llmMentionsAvailableFilters**](AiOptimizationApi.md#llmMentionsAvailableFilters) | **GET**  /v3/ai_optimization/llm_mentions/available_filters  |
-[**llmMentionsSearchLive**](AiOptimizationApi.md#llmMentionsSearchLive) | **POST**  /v3/ai_optimization/llm_mentions/search/live  |
-[**llmMentionsTopPagesLive**](AiOptimizationApi.md#llmMentionsTopPagesLive) | **POST**  /v3/ai_optimization/llm_mentions/top_pages/live  |
-[**llmMentionsTopDomainsLive**](AiOptimizationApi.md#llmMentionsTopDomainsLive) | **POST**  /v3/ai_optimization/llm_mentions/top_domains/live  |
-[**llmMentionsAggregatedMetricsLive**](AiOptimizationApi.md#llmMentionsAggregatedMetricsLive) | **POST**  /v3/ai_optimization/llm_mentions/aggregated_metrics/live  |
-[**llmMentionsCrossAggregatedMetricsLive**](AiOptimizationApi.md#llmMentionsCrossAggregatedMetricsLive) | **POST**  /v3/ai_optimization/llm_mentions/cross_aggregated_metrics/live  |
 [**chatGptLlmResponsesModels**](AiOptimizationApi.md#chatGptLlmResponsesModels) | **GET**  /v3/ai_optimization/chat_gpt/llm_responses/models  |
 [**chatGptLlmResponsesLive**](AiOptimizationApi.md#chatGptLlmResponsesLive) | **POST**  /v3/ai_optimization/chat_gpt/llm_responses/live  |
 [**chatGptLlmResponsesTaskPost**](AiOptimizationApi.md#chatGptLlmResponsesTaskPost) | **POST**  /v3/ai_optimization/chat_gpt/llm_responses/task_post  |
@@ -48,6 +41,23 @@ All URIs are relative to *https://api.dataforseo.com*
 [**aiKeywordDataAvailableFilters**](AiOptimizationApi.md#aiKeywordDataAvailableFilters) | **GET**  /v3/ai_optimization/ai_keyword_data/available_filters  |
 [**aiKeywordDataLocationsAndLanguages**](AiOptimizationApi.md#aiKeywordDataLocationsAndLanguages) | **GET**  /v3/ai_optimization/ai_keyword_data/locations_and_languages  |
 [**aiKeywordDataKeywordsSearchVolumeLive**](AiOptimizationApi.md#aiKeywordDataKeywordsSearchVolumeLive) | **POST**  /v3/ai_optimization/ai_keyword_data/keywords_search_volume/live  |
+[**llmMentionsAvailableFilters**](AiOptimizationApi.md#llmMentionsAvailableFilters) | **GET**  /v3/ai_optimization/llm_mentions/available_filters  |
+[**llmMentionsLocationsAndLanguages**](AiOptimizationApi.md#llmMentionsLocationsAndLanguages) | **GET**  /v3/ai_optimization/llm_mentions/locations_and_languages  |
+[**llmMentionsSearchMentionsLive**](AiOptimizationApi.md#llmMentionsSearchMentionsLive) | **POST**  /v3/ai_optimization/llm_mentions/search_mentions/live  |
+[**llmMentionsTargetMetricsLive**](AiOptimizationApi.md#llmMentionsTargetMetricsLive) | **POST**  /v3/ai_optimization/llm_mentions/target_metrics/live  |
+[**llmMentionsMultiTargetMetricsLive**](AiOptimizationApi.md#llmMentionsMultiTargetMetricsLive) | **POST**  /v3/ai_optimization/llm_mentions/multi_target_metrics/live  |
+[**llmMentionsTopMentionedDomainsLive**](AiOptimizationApi.md#llmMentionsTopMentionedDomainsLive) | **POST**  /v3/ai_optimization/llm_mentions/top_mentioned_domains/live  |
+[**llmMentionsTopMentionedPagesLive**](AiOptimizationApi.md#llmMentionsTopMentionedPagesLive) | **POST**  /v3/ai_optimization/llm_mentions/top_mentioned_pages/live  |
+[**llmMentionsTopMentionedBrandsLive**](AiOptimizationApi.md#llmMentionsTopMentionedBrandsLive) | **POST**  /v3/ai_optimization/llm_mentions/top_mentioned_brands/live  |
+[**llmMentionsTopMentionedBrandCategoriesLive**](AiOptimizationApi.md#llmMentionsTopMentionedBrandCategoriesLive) | **POST**  /v3/ai_optimization/llm_mentions/top_mentioned_brand_categories/live  |
+[**llmMentionsTargetMetricsLiteLive**](AiOptimizationApi.md#llmMentionsTargetMetricsLiteLive) | **POST**  /v3/ai_optimization/llm_mentions/target_metrics_lite/live  |
+[**llmMentionsTopMentionedDomainsLiteLive**](AiOptimizationApi.md#llmMentionsTopMentionedDomainsLiteLive) | **POST**  /v3/ai_optimization/llm_mentions/top_mentioned_domains_lite/live  |
+[**llmMentionsTopMentionedPagesLiteLive**](AiOptimizationApi.md#llmMentionsTopMentionedPagesLiteLive) | **POST**  /v3/ai_optimization/llm_mentions/top_mentioned_pages_lite/live  |
+[**llmMentionsTopMentionedBrandsLiteLive**](AiOptimizationApi.md#llmMentionsTopMentionedBrandsLiteLive) | **POST**  /v3/ai_optimization/llm_mentions/top_mentioned_brands_lite/live  |
+[**llmMentionsTopMentionedBrandCategoriesLiteLive**](AiOptimizationApi.md#llmMentionsTopMentionedBrandCategoriesLiteLive) | **POST**  /v3/ai_optimization/llm_mentions/top_mentioned_brand_categories_lite/live  |
+[**llmMentionsHistoricalLive**](AiOptimizationApi.md#llmMentionsHistoricalLive) | **POST**  /v3/ai_optimization/llm_mentions/historical/live  |
+[**llmMentionsTimeseriesDeltaLive**](AiOptimizationApi.md#llmMentionsTimeseriesDeltaLive) | **POST**  /v3/ai_optimization/llm_mentions/timeseries_delta/live  |
+[**llmMentionsTimeseriesNewLostLive**](AiOptimizationApi.md#llmMentionsTimeseriesNewLostLive) | **POST**  /v3/ai_optimization/llm_mentions/timeseries_new_lost/live  |
 
 <a id="chatGptLlmScraperLocations"></a>
 # **chatGptLlmScraperLocations**
@@ -553,506 +563,6 @@ This endpoint does not need any parameter.
 ### Return type
 
 [**AiOptimizationChatGptLlmScraperLiveHtmlResponseInfo**](AiOptimizationChatGptLlmScraperLiveHtmlResponseInfo.md)
-
-### Authorization
-
-[basicAuth](../README.md#basicAuth)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** | Successful operation |  -  |
-
-<a id="llmMentionsLocationsAndLanguages"></a>
-# **llmMentionsLocationsAndLanguages**
-> AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo llmMentionsLocationsAndLanguages()
-
-
-### Example
-```typescript
- const username = 'USERNAME';
- const password = 'PASSWORD';
-
- let api = new AiOptimizationApi("https://api.dataforseo.com", {
-   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
-     const token = btoa(`${username}:${password}`);
-     const authHeader = { 'Authorization': `Basic ${token}` };
-
-     const newInit: RequestInit = {
-       ...init,
-       headers: {
-       ...init?.headers,
-       ...authHeader,
-     }
-   };
-
-   return fetch(url, newInit);
-   }
- });
-
- let response = await api.llmMentionsLocationsAndLanguages();
-```
-
-### Parameters
-
-
-    
-This endpoint does not need any parameter.
-    
-
-
-### Return type
-
-[**AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo**](AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo.md)
-
-### Authorization
-
-[basicAuth](../README.md#basicAuth)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** | Successful operation |  -  |
-
-<a id="llmMentionsAvailableFilters"></a>
-# **llmMentionsAvailableFilters**
-> AiOptimizationLlmMentionsAvailableFiltersResponseInfo llmMentionsAvailableFilters()
-
-
-### Example
-```typescript
- const username = 'USERNAME';
- const password = 'PASSWORD';
-
- let api = new AiOptimizationApi("https://api.dataforseo.com", {
-   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
-     const token = btoa(`${username}:${password}`);
-     const authHeader = { 'Authorization': `Basic ${token}` };
-
-     const newInit: RequestInit = {
-       ...init,
-       headers: {
-       ...init?.headers,
-       ...authHeader,
-     }
-   };
-
-   return fetch(url, newInit);
-   }
- });
-
- let response = await api.llmMentionsAvailableFilters();
-```
-
-### Parameters
-
-
-    
-This endpoint does not need any parameter.
-    
-
-
-### Return type
-
-[**AiOptimizationLlmMentionsAvailableFiltersResponseInfo**](AiOptimizationLlmMentionsAvailableFiltersResponseInfo.md)
-
-### Authorization
-
-[basicAuth](../README.md#basicAuth)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** | Successful operation |  -  |
-
-<a id="llmMentionsSearchLive"></a>
-# **llmMentionsSearchLive**
-> AiOptimizationLlmMentionsSearchLiveResponseInfo llmMentionsSearchLive()
-
-
-### Example
-```typescript
- const username = 'USERNAME';
- const password = 'PASSWORD';
-
- let api = new AiOptimizationApi("https://api.dataforseo.com", {
-   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
-     const token = btoa(`${username}:${password}`);
-     const authHeader = { 'Authorization': `Basic ${token}` };
-
-     const newInit: RequestInit = {
-       ...init,
-       headers: {
-       ...init?.headers,
-       ...authHeader,
-     }
-   };
-
-   return fetch(url, newInit);
-   }
- });
-
- let task = new AiOptimizationLlmMentionsSearchLiveRequestInfo();
-   task.language_name = "English";
-   task.location_code = 2840;
-   task.target = [
-         new BaseAiOptimizationLLmMentionsTargetElement({
-           domain: "dataforseo.com",
-           search_filter: "exclude",
-         }),
-         new BaseAiOptimizationLLmMentionsTargetElement({
-           keyword: "bmw",
-           search_scope: ,
-         }),
-   ];
-   task.platform = "google";
-   task.filters = [
-       ,
-   ];
-   task.order_by = [
-       "ai_search_volume,desc",
-   ];
-   task.offset = 0;
-   task.limit = 3;
- let response = await api.llmMentionsSearchLive([task]);
-```
-
-### Parameters
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **** | [**List&lt;AiOptimizationLlmMentionsSearchLiveRequestInfo[]&gt;**](AiOptimizationLlmMentionsSearchLiveRequestInfo[].md)|  | [optional] |
-
-
-
-### Return type
-
-[**AiOptimizationLlmMentionsSearchLiveResponseInfo**](AiOptimizationLlmMentionsSearchLiveResponseInfo.md)
-
-### Authorization
-
-[basicAuth](../README.md#basicAuth)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** | Successful operation |  -  |
-
-<a id="llmMentionsTopPagesLive"></a>
-# **llmMentionsTopPagesLive**
-> AiOptimizationLlmMentionsTopPagesLiveResponseInfo llmMentionsTopPagesLive()
-
-
-### Example
-```typescript
- const username = 'USERNAME';
- const password = 'PASSWORD';
-
- let api = new AiOptimizationApi("https://api.dataforseo.com", {
-   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
-     const token = btoa(`${username}:${password}`);
-     const authHeader = { 'Authorization': `Basic ${token}` };
-
-     const newInit: RequestInit = {
-       ...init,
-       headers: {
-       ...init?.headers,
-       ...authHeader,
-     }
-   };
-
-   return fetch(url, newInit);
-   }
- });
-
- let task = new AiOptimizationLlmMentionsTopPagesLiveRequestInfo();
-   task.language_code = "en";
-   task.location_code = 2840;
-   task.platform = "google";
-   task.target = [
-         new BaseAiOptimizationLLmMentionsTargetElement({
-           keyword: "bmw",
-           search_scope: ,
-         }),
-         new BaseAiOptimizationLLmMentionsTargetElement({
-           keyword: "auto",
-           search_scope: ,
-           match_type: "partial_match",
-         }),
-   ];
-   task.links_scope = "sources";
-   task.initial_dataset_filters = [
-       ,
-   ];
-   task.items_list_limit = 3;
-   task.internal_list_limit = 2;
- let response = await api.llmMentionsTopPagesLive([task]);
-```
-
-### Parameters
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **** | [**List&lt;AiOptimizationLlmMentionsTopPagesLiveRequestInfo[]&gt;**](AiOptimizationLlmMentionsTopPagesLiveRequestInfo[].md)|  | [optional] |
-
-
-
-### Return type
-
-[**AiOptimizationLlmMentionsTopPagesLiveResponseInfo**](AiOptimizationLlmMentionsTopPagesLiveResponseInfo.md)
-
-### Authorization
-
-[basicAuth](../README.md#basicAuth)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** | Successful operation |  -  |
-
-<a id="llmMentionsTopDomainsLive"></a>
-# **llmMentionsTopDomainsLive**
-> AiOptimizationLlmMentionsTopDomainsLiveResponseInfo llmMentionsTopDomainsLive()
-
-
-### Example
-```typescript
- const username = 'USERNAME';
- const password = 'PASSWORD';
-
- let api = new AiOptimizationApi("https://api.dataforseo.com", {
-   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
-     const token = btoa(`${username}:${password}`);
-     const authHeader = { 'Authorization': `Basic ${token}` };
-
-     const newInit: RequestInit = {
-       ...init,
-       headers: {
-       ...init?.headers,
-       ...authHeader,
-     }
-   };
-
-   return fetch(url, newInit);
-   }
- });
-
- let task = new AiOptimizationLlmMentionsTopDomainsLiveRequestInfo();
-   task.language_code = "en";
-   task.location_code = 2840;
-   task.platform = "chat_gpt";
-   task.target = [
-         new BaseAiOptimizationLLmMentionsTargetElement({
-           keyword: "bmw",
-           search_scope: ,
-         }),
-         new BaseAiOptimizationLLmMentionsTargetElement({
-           keyword: "auto",
-           search_scope: ,
-           match_type: "partial_match",
-         }),
-   ];
-   task.links_scope = "sources";
-   task.initial_dataset_filters = [
-       ,
-   ];
-   task.items_list_limit = 3;
-   task.internal_list_limit = 2;
- let response = await api.llmMentionsTopDomainsLive([task]);
-```
-
-### Parameters
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **** | [**List&lt;AiOptimizationLlmMentionsTopDomainsLiveRequestInfo[]&gt;**](AiOptimizationLlmMentionsTopDomainsLiveRequestInfo[].md)|  | [optional] |
-
-
-
-### Return type
-
-[**AiOptimizationLlmMentionsTopDomainsLiveResponseInfo**](AiOptimizationLlmMentionsTopDomainsLiveResponseInfo.md)
-
-### Authorization
-
-[basicAuth](../README.md#basicAuth)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** | Successful operation |  -  |
-
-<a id="llmMentionsAggregatedMetricsLive"></a>
-# **llmMentionsAggregatedMetricsLive**
-> AiOptimizationLlmMentionsAggregatedMetricsLiveResponseInfo llmMentionsAggregatedMetricsLive()
-
-
-### Example
-```typescript
- const username = 'USERNAME';
- const password = 'PASSWORD';
-
- let api = new AiOptimizationApi("https://api.dataforseo.com", {
-   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
-     const token = btoa(`${username}:${password}`);
-     const authHeader = { 'Authorization': `Basic ${token}` };
-
-     const newInit: RequestInit = {
-       ...init,
-       headers: {
-       ...init?.headers,
-       ...authHeader,
-     }
-   };
-
-   return fetch(url, newInit);
-   }
- });
-
- let task = new AiOptimizationLlmMentionsAggregatedMetricsLiveRequestInfo();
-   task.language_code = "es";
-   task.location_code = 2840;
-   task.platform = "google";
-   task.target = [
-         new BaseAiOptimizationLLmMentionsTargetElement({
-           domain: "en.wikipedia.org",
-           search_filter: "exclude",
-         }),
-         new BaseAiOptimizationLLmMentionsTargetElement({
-           keyword: "bmw",
-           search_scope: ,
-         }),
-   ];
-   task.initial_dataset_filters = [
-       ,
-   ];
-   task.internal_list_limit = 10;
- let response = await api.llmMentionsAggregatedMetricsLive([task]);
-```
-
-### Parameters
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **** | [**List&lt;AiOptimizationLlmMentionsAggregatedMetricsLiveRequestInfo[]&gt;**](AiOptimizationLlmMentionsAggregatedMetricsLiveRequestInfo[].md)|  | [optional] |
-
-
-
-### Return type
-
-[**AiOptimizationLlmMentionsAggregatedMetricsLiveResponseInfo**](AiOptimizationLlmMentionsAggregatedMetricsLiveResponseInfo.md)
-
-### Authorization
-
-[basicAuth](../README.md#basicAuth)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** | Successful operation |  -  |
-
-<a id="llmMentionsCrossAggregatedMetricsLive"></a>
-# **llmMentionsCrossAggregatedMetricsLive**
-> AiOptimizationLlmMentionsCrossAggregatedMetricsLiveResponseInfo llmMentionsCrossAggregatedMetricsLive()
-
-
-### Example
-```typescript
- const username = 'USERNAME';
- const password = 'PASSWORD';
-
- let api = new AiOptimizationApi("https://api.dataforseo.com", {
-   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
-     const token = btoa(`${username}:${password}`);
-     const authHeader = { 'Authorization': `Basic ${token}` };
-
-     const newInit: RequestInit = {
-       ...init,
-       headers: {
-       ...init?.headers,
-       ...authHeader,
-     }
-   };
-
-   return fetch(url, newInit);
-   }
- });
-
- let task = new AiOptimizationLlmMentionsCrossAggregatedMetricsLiveRequestInfo();
-   task.language_code = "en";
-   task.location_code = 2840;
-   task.platform = "google";
-   task.targets = [
-         new AiOptimizationLLmMentionsCrossAggregateMetricsTargetInfo({
-           aggregation_key: "chat_gpt",
-           target: ,
-         }),
-         new AiOptimizationLLmMentionsCrossAggregateMetricsTargetInfo({
-           aggregation_key: "claude",
-           target: ,
-         }),
-         new AiOptimizationLLmMentionsCrossAggregateMetricsTargetInfo({
-           aggregation_key: "gemini",
-           target: ,
-         }),
-         new AiOptimizationLLmMentionsCrossAggregateMetricsTargetInfo({
-           aggregation_key: "perplexity",
-           target: ,
-         }),
-   ];
-   task.initial_dataset_filters = [
-       ,
-   ];
-   task.internal_list_limit = 5;
- let response = await api.llmMentionsCrossAggregatedMetricsLive([task]);
-```
-
-### Parameters
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **** | [**List&lt;AiOptimizationLlmMentionsCrossAggregatedMetricsLiveRequestInfo[]&gt;**](AiOptimizationLlmMentionsCrossAggregatedMetricsLiveRequestInfo[].md)|  | [optional] |
-
-
-
-### Return type
-
-[**AiOptimizationLlmMentionsCrossAggregatedMetricsLiveResponseInfo**](AiOptimizationLlmMentionsCrossAggregatedMetricsLiveResponseInfo.md)
 
 ### Authorization
 
@@ -2765,6 +2275,1250 @@ This endpoint does not need any parameter.
 ### Return type
 
 [**AiOptimizationAiKeywordDataKeywordsSearchVolumeLiveResponseInfo**](AiOptimizationAiKeywordDataKeywordsSearchVolumeLiveResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="llmMentionsAvailableFilters"></a>
+# **llmMentionsAvailableFilters**
+> AiOptimizationLlmMentionsAvailableFiltersResponseInfo llmMentionsAvailableFilters()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new AiOptimizationApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let response = await api.llmMentionsAvailableFilters();
+```
+
+### Parameters
+
+
+    
+This endpoint does not need any parameter.
+    
+
+
+### Return type
+
+[**AiOptimizationLlmMentionsAvailableFiltersResponseInfo**](AiOptimizationLlmMentionsAvailableFiltersResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="llmMentionsLocationsAndLanguages"></a>
+# **llmMentionsLocationsAndLanguages**
+> AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo llmMentionsLocationsAndLanguages()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new AiOptimizationApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let response = await api.llmMentionsLocationsAndLanguages();
+```
+
+### Parameters
+
+
+    
+This endpoint does not need any parameter.
+    
+
+
+### Return type
+
+[**AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo**](AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="llmMentionsSearchMentionsLive"></a>
+# **llmMentionsSearchMentionsLive**
+> AiOptimizationLlmMentionsSearchMentionsLiveResponseInfo llmMentionsSearchMentionsLive()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new AiOptimizationApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let task = new AiOptimizationLlmMentionsSearchMentionsLiveRequestInfo();
+   task.language_name = "English";
+   task.location_code = 2840;
+   task.target = [
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           domain: "dataforseo.com",
+           search_filter: "exclude",
+         }),
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           keyword: "bmw",
+           search_scope: ,
+         }),
+   ];
+   task.platform = "google";
+   task.filters = [
+       ,
+   ];
+   task.order_by = [
+       "ai_search_volume,desc",
+   ];
+   task.offset = 0;
+   task.limit = 3;
+ let response = await api.llmMentionsSearchMentionsLive([task]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;AiOptimizationLlmMentionsSearchMentionsLiveRequestInfo[]&gt;**](AiOptimizationLlmMentionsSearchMentionsLiveRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**AiOptimizationLlmMentionsSearchMentionsLiveResponseInfo**](AiOptimizationLlmMentionsSearchMentionsLiveResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="llmMentionsTargetMetricsLive"></a>
+# **llmMentionsTargetMetricsLive**
+> AiOptimizationLlmMentionsTargetMetricsLiveResponseInfo llmMentionsTargetMetricsLive()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new AiOptimizationApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let task = new AiOptimizationLlmMentionsTargetMetricsLiveRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.platform = "chat_gpt";
+   task.target = [
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           domain: "en.wikipedia.org",
+           search_filter: "exclude",
+         }),
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           keyword: "bmw",
+           search_scope: ,
+         }),
+   ];
+   task.initial_dataset_filters = [
+       ,
+   ];
+   task.internal_list_limit = 10;
+ let response = await api.llmMentionsTargetMetricsLive([task]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;AiOptimizationLlmMentionsTargetMetricsLiveRequestInfo[]&gt;**](AiOptimizationLlmMentionsTargetMetricsLiveRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**AiOptimizationLlmMentionsTargetMetricsLiveResponseInfo**](AiOptimizationLlmMentionsTargetMetricsLiveResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="llmMentionsMultiTargetMetricsLive"></a>
+# **llmMentionsMultiTargetMetricsLive**
+> AiOptimizationLlmMentionsMultiTargetMetricsLiveResponseInfo llmMentionsMultiTargetMetricsLive()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new AiOptimizationApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let task = new AiOptimizationLlmMentionsMultiTargetMetricsLiveRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.platform = "google";
+   task.targets = [
+         new AiOptimizationLLmMentionsMultiTargetMetricsRequestInfo({
+           key: "chat_gpt",
+           target: ,
+         }),
+         new AiOptimizationLLmMentionsMultiTargetMetricsRequestInfo({
+           key: "claude",
+           target: ,
+         }),
+         new AiOptimizationLLmMentionsMultiTargetMetricsRequestInfo({
+           key: "gemini",
+           target: ,
+         }),
+         new AiOptimizationLLmMentionsMultiTargetMetricsRequestInfo({
+           key: "perplexity",
+           target: ,
+         }),
+   ];
+   task.initial_dataset_filters = [
+       ,
+   ];
+   task.internal_list_limit = 5;
+ let response = await api.llmMentionsMultiTargetMetricsLive([task]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;AiOptimizationLlmMentionsMultiTargetMetricsLiveRequestInfo[]&gt;**](AiOptimizationLlmMentionsMultiTargetMetricsLiveRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**AiOptimizationLlmMentionsMultiTargetMetricsLiveResponseInfo**](AiOptimizationLlmMentionsMultiTargetMetricsLiveResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="llmMentionsTopMentionedDomainsLive"></a>
+# **llmMentionsTopMentionedDomainsLive**
+> AiOptimizationLlmMentionsTopMentionedDomainsLiveResponseInfo llmMentionsTopMentionedDomainsLive()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new AiOptimizationApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let task = new AiOptimizationLlmMentionsTopMentionedDomainsLiveRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.platform = "chat_gpt";
+   task.target = [
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           keyword: "bmw",
+           search_scope: ,
+         }),
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           keyword: "auto",
+           search_scope: ,
+           match_type: "partial_match",
+         }),
+   ];
+   task.links_scope = "sources";
+   task.initial_dataset_filters = [
+       ,
+   ];
+   task.limit = 3;
+   task.internal_list_limit = 2;
+ let response = await api.llmMentionsTopMentionedDomainsLive([task]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;AiOptimizationLlmMentionsTopMentionedDomainsLiveRequestInfo[]&gt;**](AiOptimizationLlmMentionsTopMentionedDomainsLiveRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**AiOptimizationLlmMentionsTopMentionedDomainsLiveResponseInfo**](AiOptimizationLlmMentionsTopMentionedDomainsLiveResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="llmMentionsTopMentionedPagesLive"></a>
+# **llmMentionsTopMentionedPagesLive**
+> AiOptimizationLlmMentionsTopMentionedPagesLiveResponseInfo llmMentionsTopMentionedPagesLive()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new AiOptimizationApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let task = new AiOptimizationLlmMentionsTopMentionedPagesLiveRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.platform = "chat_gpt";
+   task.target = [
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           keyword: "bmw",
+           search_scope: ,
+         }),
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           keyword: "auto",
+           search_scope: ,
+           match_type: "partial_match",
+         }),
+   ];
+   task.links_scope = "sources";
+   task.initial_dataset_filters = [
+       ,
+   ];
+   task.limit = 3;
+   task.internal_list_limit = 2;
+ let response = await api.llmMentionsTopMentionedPagesLive([task]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;AiOptimizationLlmMentionsTopMentionedPagesLiveRequestInfo[]&gt;**](AiOptimizationLlmMentionsTopMentionedPagesLiveRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**AiOptimizationLlmMentionsTopMentionedPagesLiveResponseInfo**](AiOptimizationLlmMentionsTopMentionedPagesLiveResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="llmMentionsTopMentionedBrandsLive"></a>
+# **llmMentionsTopMentionedBrandsLive**
+> AiOptimizationLlmMentionsTopMentionedBrandsLiveResponseInfo llmMentionsTopMentionedBrandsLive()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new AiOptimizationApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let task = new AiOptimizationLlmMentionsTopMentionedBrandsLiveRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.platform = "chat_gpt";
+   task.target = [
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           keyword: "bmw",
+           search_scope: ,
+         }),
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           keyword: "auto",
+           search_scope: ,
+           match_type: "partial_match",
+         }),
+   ];
+   task.initial_dataset_filters = [
+       ,
+   ];
+   task.limit = 3;
+   task.internal_list_limit = 2;
+ let response = await api.llmMentionsTopMentionedBrandsLive([task]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;AiOptimizationLlmMentionsTopMentionedBrandsLiveRequestInfo[]&gt;**](AiOptimizationLlmMentionsTopMentionedBrandsLiveRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**AiOptimizationLlmMentionsTopMentionedBrandsLiveResponseInfo**](AiOptimizationLlmMentionsTopMentionedBrandsLiveResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="llmMentionsTopMentionedBrandCategoriesLive"></a>
+# **llmMentionsTopMentionedBrandCategoriesLive**
+> AiOptimizationLlmMentionsTopMentionedBrandCategoriesLiveResponseInfo llmMentionsTopMentionedBrandCategoriesLive()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new AiOptimizationApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let task = new AiOptimizationLlmMentionsTopMentionedBrandCategoriesLiveRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.platform = "chat_gpt";
+   task.target = [
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           keyword: "bmw",
+           search_scope: ,
+         }),
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           keyword: "auto",
+           search_scope: ,
+           match_type: "partial_match",
+         }),
+   ];
+   task.initial_dataset_filters = [
+       ,
+   ];
+   task.limit = 3;
+   task.internal_list_limit = 2;
+ let response = await api.llmMentionsTopMentionedBrandCategoriesLive([task]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;AiOptimizationLlmMentionsTopMentionedBrandCategoriesLiveRequestInfo[]&gt;**](AiOptimizationLlmMentionsTopMentionedBrandCategoriesLiveRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**AiOptimizationLlmMentionsTopMentionedBrandCategoriesLiveResponseInfo**](AiOptimizationLlmMentionsTopMentionedBrandCategoriesLiveResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="llmMentionsTargetMetricsLiteLive"></a>
+# **llmMentionsTargetMetricsLiteLive**
+> AiOptimizationLlmMentionsTargetMetricsLiteLiveResponseInfo llmMentionsTargetMetricsLiteLive()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new AiOptimizationApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let task = new AiOptimizationLlmMentionsTargetMetricsLiteLiveRequestInfo();
+   task.language_code = "es";
+   task.location_code = 2840;
+   task.platform = "google";
+   task.target = [
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           domain: "en.wikipedia.org",
+           search_filter: "exclude",
+         }),
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           keyword: "bmw",
+           search_scope: ,
+         }),
+   ];
+   task.initial_dataset_filters = [
+       ,
+   ];
+   task.limit = 6;
+ let response = await api.llmMentionsTargetMetricsLiteLive([task]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;AiOptimizationLlmMentionsTargetMetricsLiteLiveRequestInfo[]&gt;**](AiOptimizationLlmMentionsTargetMetricsLiteLiveRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**AiOptimizationLlmMentionsTargetMetricsLiteLiveResponseInfo**](AiOptimizationLlmMentionsTargetMetricsLiteLiveResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="llmMentionsTopMentionedDomainsLiteLive"></a>
+# **llmMentionsTopMentionedDomainsLiteLive**
+> AiOptimizationLlmMentionsTopMentionedDomainsLiteLiveResponseInfo llmMentionsTopMentionedDomainsLiteLive()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new AiOptimizationApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let task = new AiOptimizationLlmMentionsTopMentionedDomainsLiteLiveRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.platform = "chat_gpt";
+   task.target = [
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           keyword: "bmw",
+           search_scope: ,
+         }),
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           keyword: "auto",
+           search_scope: ,
+           match_type: "partial_match",
+         }),
+   ];
+   task.links_scope = "sources";
+   task.initial_dataset_filters = [
+       ,
+   ];
+   task.limit = 3;
+   task.internal_list_limit = 2;
+ let response = await api.llmMentionsTopMentionedDomainsLiteLive([task]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;AiOptimizationLlmMentionsTopMentionedDomainsLiteLiveRequestInfo[]&gt;**](AiOptimizationLlmMentionsTopMentionedDomainsLiteLiveRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**AiOptimizationLlmMentionsTopMentionedDomainsLiteLiveResponseInfo**](AiOptimizationLlmMentionsTopMentionedDomainsLiteLiveResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="llmMentionsTopMentionedPagesLiteLive"></a>
+# **llmMentionsTopMentionedPagesLiteLive**
+> AiOptimizationLlmMentionsTopMentionedPagesLiteLiveResponseInfo llmMentionsTopMentionedPagesLiteLive()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new AiOptimizationApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let task = new AiOptimizationLlmMentionsTopMentionedPagesLiteLiveRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.platform = "chat_gpt";
+   task.target = [
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           keyword: "bmw",
+           search_scope: ,
+         }),
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           keyword: "auto",
+           search_scope: ,
+           match_type: "partial_match",
+         }),
+   ];
+   task.links_scope = "sources";
+   task.initial_dataset_filters = [
+       ,
+   ];
+   task.limit = 3;
+   task.internal_list_limit = 2;
+ let response = await api.llmMentionsTopMentionedPagesLiteLive([task]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;AiOptimizationLlmMentionsTopMentionedPagesLiteLiveRequestInfo[]&gt;**](AiOptimizationLlmMentionsTopMentionedPagesLiteLiveRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**AiOptimizationLlmMentionsTopMentionedPagesLiteLiveResponseInfo**](AiOptimizationLlmMentionsTopMentionedPagesLiteLiveResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="llmMentionsTopMentionedBrandsLiteLive"></a>
+# **llmMentionsTopMentionedBrandsLiteLive**
+> AiOptimizationLlmMentionsTopMentionedBrandsLiteLiveResponseInfo llmMentionsTopMentionedBrandsLiteLive()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new AiOptimizationApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let task = new AiOptimizationLlmMentionsTopMentionedBrandsLiteLiveRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.platform = "chat_gpt";
+   task.target = [
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           keyword: "bmw",
+           search_scope: ,
+         }),
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           keyword: "auto",
+           search_scope: ,
+           match_type: "partial_match",
+         }),
+   ];
+   task.initial_dataset_filters = [
+       ,
+   ];
+   task.limit = 3;
+   task.internal_list_limit = 2;
+ let response = await api.llmMentionsTopMentionedBrandsLiteLive([task]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;AiOptimizationLlmMentionsTopMentionedBrandsLiteLiveRequestInfo[]&gt;**](AiOptimizationLlmMentionsTopMentionedBrandsLiteLiveRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**AiOptimizationLlmMentionsTopMentionedBrandsLiteLiveResponseInfo**](AiOptimizationLlmMentionsTopMentionedBrandsLiteLiveResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="llmMentionsTopMentionedBrandCategoriesLiteLive"></a>
+# **llmMentionsTopMentionedBrandCategoriesLiteLive**
+> AiOptimizationLlmMentionsTopMentionedBrandCategoriesLiteLiveResponseInfo llmMentionsTopMentionedBrandCategoriesLiteLive()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new AiOptimizationApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let task = new AiOptimizationLlmMentionsTopMentionedBrandCategoriesLiteLiveRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.platform = "chat_gpt";
+   task.target = [
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           keyword: "bmw",
+           search_scope: ,
+         }),
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           keyword: "auto",
+           search_scope: ,
+           match_type: "partial_match",
+         }),
+   ];
+   task.initial_dataset_filters = [
+       ,
+   ];
+   task.limit = 3;
+   task.internal_list_limit = 2;
+ let response = await api.llmMentionsTopMentionedBrandCategoriesLiteLive([task]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;AiOptimizationLlmMentionsTopMentionedBrandCategoriesLiteLiveRequestInfo[]&gt;**](AiOptimizationLlmMentionsTopMentionedBrandCategoriesLiteLiveRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**AiOptimizationLlmMentionsTopMentionedBrandCategoriesLiteLiveResponseInfo**](AiOptimizationLlmMentionsTopMentionedBrandCategoriesLiteLiveResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="llmMentionsHistoricalLive"></a>
+# **llmMentionsHistoricalLive**
+> AiOptimizationLlmMentionsHistoricalLiveResponseInfo llmMentionsHistoricalLive()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new AiOptimizationApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let task = new AiOptimizationLlmMentionsHistoricalLiveRequestInfo();
+   task.language_code = "es";
+   task.location_code = 2840;
+   task.platform = "google";
+   task.target = [
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           domain: "en.wikipedia.org",
+           search_filter: "exclude",
+         }),
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           keyword: "bmw",
+           search_scope: ,
+         }),
+   ];
+ let response = await api.llmMentionsHistoricalLive([task]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;AiOptimizationLlmMentionsHistoricalLiveRequestInfo[]&gt;**](AiOptimizationLlmMentionsHistoricalLiveRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**AiOptimizationLlmMentionsHistoricalLiveResponseInfo**](AiOptimizationLlmMentionsHistoricalLiveResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="llmMentionsTimeseriesDeltaLive"></a>
+# **llmMentionsTimeseriesDeltaLive**
+> AiOptimizationLlmMentionsTimeseriesDeltaLiveResponseInfo llmMentionsTimeseriesDeltaLive()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new AiOptimizationApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let task = new AiOptimizationLlmMentionsTimeseriesDeltaLiveRequestInfo();
+   task.language_name = "English";
+   task.location_code = 2840;
+   task.target = [
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           domain: "dataforseo.com",
+           search_filter: "exclude",
+         }),
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           keyword: "bmw",
+           search_scope: ,
+         }),
+   ];
+   task.platform = "google";
+   task.group_range = "month";
+ let response = await api.llmMentionsTimeseriesDeltaLive([task]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;AiOptimizationLlmMentionsTimeseriesDeltaLiveRequestInfo[]&gt;**](AiOptimizationLlmMentionsTimeseriesDeltaLiveRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**AiOptimizationLlmMentionsTimeseriesDeltaLiveResponseInfo**](AiOptimizationLlmMentionsTimeseriesDeltaLiveResponseInfo.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth)
+
+### HTTP request headers
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | Successful operation |  -  |
+
+<a id="llmMentionsTimeseriesNewLostLive"></a>
+# **llmMentionsTimeseriesNewLostLive**
+> AiOptimizationLlmMentionsTimeseriesNewLostLiveResponseInfo llmMentionsTimeseriesNewLostLive()
+
+
+### Example
+```typescript
+ const username = 'USERNAME';
+ const password = 'PASSWORD';
+
+ let api = new AiOptimizationApi("https://api.dataforseo.com", {
+   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
+     const token = btoa(`${username}:${password}`);
+     const authHeader = { 'Authorization': `Basic ${token}` };
+
+     const newInit: RequestInit = {
+       ...init,
+       headers: {
+       ...init?.headers,
+       ...authHeader,
+     }
+   };
+
+   return fetch(url, newInit);
+   }
+ });
+
+ let task = new AiOptimizationLlmMentionsTimeseriesNewLostLiveRequestInfo();
+   task.language_name = "English";
+   task.location_code = 2840;
+   task.target = [
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           domain: "dataforseo.com",
+           search_filter: "exclude",
+         }),
+         new BaseAiOptimizationLLmMentionsTargetElement({
+           keyword: "serp",
+           search_scope: ,
+         }),
+   ];
+   task.platform = "google";
+   task.group_range = "month";
+ let response = await api.llmMentionsTimeseriesNewLostLive([task]);
+```
+
+### Parameters
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **** | [**List&lt;AiOptimizationLlmMentionsTimeseriesNewLostLiveRequestInfo[]&gt;**](AiOptimizationLlmMentionsTimeseriesNewLostLiveRequestInfo[].md)|  | [optional] |
+
+
+
+### Return type
+
+[**AiOptimizationLlmMentionsTimeseriesNewLostLiveResponseInfo**](AiOptimizationLlmMentionsTimeseriesNewLostLiveResponseInfo.md)
 
 ### Authorization
 

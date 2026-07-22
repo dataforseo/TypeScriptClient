@@ -12,6 +12,7 @@ export interface IAppDataErrorsResponseInfo  extends IBaseResponseInfo    {
     }
 
 export class AppDataErrorsResponseInfo  extends BaseResponseInfo   implements IAppDataErrorsResponseInfo {
+
     
     /** array of tasks */
 

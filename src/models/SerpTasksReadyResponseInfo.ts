@@ -12,6 +12,7 @@ export interface ISerpTasksReadyResponseInfo  extends IBaseResponseInfo    {
     }
 
 export class SerpTasksReadyResponseInfo  extends BaseResponseInfo   implements ISerpTasksReadyResponseInfo {
+
     
     /** array of tasks */
 

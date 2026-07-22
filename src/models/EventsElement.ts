@@ -9,7 +9,7 @@ export interface IEventsElement   {
         /** text alongside the link title */
         snippet?: string | undefined
         
-        /** URL */
+        /** source URL */
         url?: string | undefined
 
     [key: string]: any;
@@ -17,20 +17,24 @@ export interface IEventsElement   {
     }
 
 export class EventsElement  implements IEventsElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** title of a given link element */
 
     title?: string | undefined;
+
     
     /** text alongside the link title */
 
     snippet?: string | undefined;
+
     
-    /** URL */
+    /** source URL */
 
     url?: string | undefined;
 

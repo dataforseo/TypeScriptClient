@@ -12,6 +12,7 @@ export interface IAppDataAppleLocationsResponseInfo  extends IBaseResponseInfo  
     }
 
 export class AppDataAppleLocationsResponseInfo  extends BaseResponseInfo   implements IAppDataAppleLocationsResponseInfo {
+
     
     /** array of tasks */
 

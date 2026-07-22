@@ -12,6 +12,7 @@ export interface IBusinessDataTripadvisorSearchTaskPostResponseInfo  extends IBa
     }
 
 export class BusinessDataTripadvisorSearchTaskPostResponseInfo  extends BaseResponseInfo   implements IBusinessDataTripadvisorSearchTaskPostResponseInfo {
+
     
     /** array of tasks */
 

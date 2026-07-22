@@ -12,6 +12,7 @@ export interface IAppDataAppleAppInfoTaskGetAdvancedTaskInfo  extends IBaseRespo
     }
 
 export class AppDataAppleAppInfoTaskGetAdvancedTaskInfo  extends BaseResponseTaskInfo   implements IAppDataAppleAppInfoTaskGetAdvancedTaskInfo {
+
     
     /** array of results */
 

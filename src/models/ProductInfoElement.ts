@@ -83,64 +83,77 @@ contains brief information about different product variations */
     }
 
 export class ProductInfoElement  implements IProductInfoElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank on the product specification page
 absolute position among all the elements found on the product specification page */
 
     rank_absolute?: number | undefined;
+
     
     /** alignment of the element on the product specification page
 can take the following values:
 right, left */
 
     position?: string | undefined;
+
     
     /** product_id received in a POST array
 ilearn more about the parameter in this help center guide */
 
     product_id?: string | undefined;
+
     
     /** title of the product */
 
     title?: string | undefined;
+
     
     /** description of the product */
 
     description?: string | undefined;
+
     
     /** product url
 url of the product on Google Shopping */
 
     url?: string | undefined;
+
     
     /** product images
 contains urls to product images */
 
     images?: string[] | undefined;
+
     
     /** product features
 contains snippets with the description of product features */
 
     features?: string[] | undefined;
+
     
     /** product rating 
 the popularity rate based on reviews */
 
     rating?: RatingElement | undefined;
+
     
     /** number of seller reviews
 number of reviews on the product seller’s account */
 
     seller_reviews_count?: number | undefined;
+
     
     /** unique identifier of the SERP data element
 note that there is no full list of possible values as the data_docid is a dynamic value assigned by Google
@@ -148,6 +161,7 @@ example:
 17363035694596624076 */
 
     data_docid?: string | undefined;
+
     
     /** global product identifier on Google Shopping
 note that there is no full list of possible values as the gid is a dynamic value assigned by Google
@@ -157,16 +171,19 @@ example:
 learn more about gid in this help center guide */
 
     gid?: string | undefined;
+
     
     /** product specifications
 contains all product attributes and related data listed on the product specification page */
 
     specifications?: ShoppingSpecification[] | undefined;
+
     
     /** sellers of the product
 number of reviews on the product seller’s account */
 
     sellers?: ProductSeller[] | undefined;
+
     
     /** variations of the product
 contains brief information about different product variations */

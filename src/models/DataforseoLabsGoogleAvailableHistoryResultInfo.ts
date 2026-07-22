@@ -11,6 +11,7 @@ example:
     }
 
 export class DataforseoLabsGoogleAvailableHistoryResultInfo  implements IDataforseoLabsGoogleAvailableHistoryResultInfo {
+
     
     /** available date
 indicates the date of the range available for setting in the Domain Metrics by Categories endpoint

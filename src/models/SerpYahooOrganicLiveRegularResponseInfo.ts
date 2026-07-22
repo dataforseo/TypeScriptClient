@@ -12,6 +12,7 @@ export interface ISerpYahooOrganicLiveRegularResponseInfo  extends IBaseResponse
     }
 
 export class SerpYahooOrganicLiveRegularResponseInfo  extends BaseResponseInfo   implements ISerpYahooOrganicLiveRegularResponseInfo {
+
     
     /** array of tasks */
 

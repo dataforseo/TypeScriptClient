@@ -14,10 +14,12 @@ export interface IWorkDayInfo   {
     }
 
 export class WorkDayInfo  implements IWorkDayInfo {
+
     
     /** opening time */
 
     open?: TimeInfo | undefined;
+
     
     /** closing time */
 

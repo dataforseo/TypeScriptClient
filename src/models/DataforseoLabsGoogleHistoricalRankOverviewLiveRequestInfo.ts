@@ -92,6 +92,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo  implements IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo {
+
     
     /** domain
 required field
@@ -99,6 +100,7 @@ the domain name of the target website
 the domain should be specified without https:// and www. */
 
     target?: string | undefined;
+
     
     /** full name of the location
 required field if you don’t specify location_code
@@ -109,6 +111,7 @@ example:
 United Kingdom */
 
     location_name?: string | undefined;
+
     
     /** location code
 required field if you don’t specify location_name
@@ -119,6 +122,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** full name of the language
 required field if you don’t specify language_code
@@ -129,6 +133,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** language code
 required field if you don’t specify language_name
@@ -139,6 +144,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** starting date of the time range
 optional field
@@ -147,6 +153,7 @@ minimal possible value: 2020-10-01
 date format: 'yyyy-mm-dd' */
 
     date_from?: string | undefined;
+
     
     /** ending date of the time range
 optional field
@@ -156,6 +163,7 @@ example:
 '2021-04-01' */
 
     date_to?: string | undefined;
+
     
     /** correlate data with previously obtained datasets
 optional field
@@ -165,6 +173,7 @@ this parameter is intended to mitigate any inconsistencies that may result from 
 we recommend always setting correlate to true */
 
     correlate?: boolean | undefined;
+
     
     /** ignore highly similar keywords
 optional field
@@ -172,6 +181,7 @@ if set to true, only data based on core keywords will be returned, data for all
 default value: false */
 
     ignore_synonyms?: boolean | undefined;
+
     
     /** include or exclude data from clickstream-based metrics in the result
 optional field
@@ -182,6 +192,7 @@ with this parameter enabled, you will be charged double the price for the reques
 learn more about how clickstream-based metrics are calculated in this help center article */
 
     include_clickstream_data?: boolean | undefined;
+
     
     /** user-defined task identifier
 optional field

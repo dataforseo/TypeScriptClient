@@ -13,11 +13,13 @@ indicates attributes a business entity cannot offer */
     }
 
 export class BusinessDataAttributesInfo  implements IBusinessDataAttributesInfo {
+
     
     /** available attributes
 indicates attributes a business entity can offer */
 
     available_attributes?: { [key: string]: string[]; } | undefined;
+
     
     /** unavailable attributes
 indicates attributes a business entity cannot offer */

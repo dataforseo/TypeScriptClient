@@ -14,14 +14,17 @@ export interface IChatGptAdAdvertiser   {
     }
 
 export class ChatGptAdAdvertiser  implements IChatGptAdAdvertiser {
+
     
     /** name of the advertiser */
 
     name?: string | undefined;
+
     
     /** source URL */
 
     url?: string | undefined;
+
     
     /** URL of the advertiser's favicon image */
 

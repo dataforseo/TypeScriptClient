@@ -12,6 +12,7 @@ export interface ISerpBingOrganicLiveHtmlResponseInfo  extends IBaseResponseInfo
     }
 
 export class SerpBingOrganicLiveHtmlResponseInfo  extends BaseResponseInfo   implements ISerpBingOrganicLiveHtmlResponseInfo {
+
     
     /** array of tasks */
 

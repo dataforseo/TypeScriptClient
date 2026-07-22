@@ -12,6 +12,7 @@ export interface IAiOptimizationGeminiLlmScraperLiveHtmlResponseInfo  extends IB
     }
 
 export class AiOptimizationGeminiLlmScraperLiveHtmlResponseInfo  extends BaseResponseInfo   implements IAiOptimizationGeminiLlmScraperLiveHtmlResponseInfo {
+
     
     /** array of tasks */
 

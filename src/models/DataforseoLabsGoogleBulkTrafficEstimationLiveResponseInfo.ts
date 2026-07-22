@@ -12,6 +12,7 @@ export interface IDataforseoLabsGoogleBulkTrafficEstimationLiveResponseInfo  ext
     }
 
 export class DataforseoLabsGoogleBulkTrafficEstimationLiveResponseInfo  extends BaseResponseInfo   implements IDataforseoLabsGoogleBulkTrafficEstimationLiveResponseInfo {
+
     
     /** array of tasks */
 

@@ -12,6 +12,7 @@ export interface IAiOptimizationAiKeywordDataKeywordsSearchVolumeLiveResponseInf
     }
 
 export class AiOptimizationAiKeywordDataKeywordsSearchVolumeLiveResponseInfo  extends BaseResponseInfo   implements IAiOptimizationAiKeywordDataKeywordsSearchVolumeLiveResponseInfo {
+
     
     /** array of tasks */
 

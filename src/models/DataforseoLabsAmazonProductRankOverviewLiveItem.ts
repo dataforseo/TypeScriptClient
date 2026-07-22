@@ -19,16 +19,19 @@ for more information, refer to this help center guide */
     }
 
 export class DataforseoLabsAmazonProductRankOverviewLiveItem  implements IDataforseoLabsAmazonProductRankOverviewLiveItem {
+
     
     /** search engine type */
 
     se_type?: string | undefined;
+
     
     /** ASIN of the product
 unique product identifier on Amazon;
 for more information, refer to this help center guide */
 
     asin?: string | undefined;
+
     
     /** average keyword position of the product */
 

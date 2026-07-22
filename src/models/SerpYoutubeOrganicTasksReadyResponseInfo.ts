@@ -12,6 +12,7 @@ export interface ISerpYoutubeOrganicTasksReadyResponseInfo  extends IBaseRespons
     }
 
 export class SerpYoutubeOrganicTasksReadyResponseInfo  extends BaseResponseInfo   implements ISerpYoutubeOrganicTasksReadyResponseInfo {
+
     
     /** array of tasks */
 

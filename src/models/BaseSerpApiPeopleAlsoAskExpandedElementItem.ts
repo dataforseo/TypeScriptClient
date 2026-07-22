@@ -14,6 +14,7 @@ export interface IBaseSerpApiPeopleAlsoAskExpandedElementItem   {
     }
 
 export class BaseSerpApiPeopleAlsoAskExpandedElementItem  implements IBaseSerpApiPeopleAlsoAskExpandedElementItem {
+
     
     /** type of element */
 
@@ -84,16 +85,16 @@ export interface ISerpApiPeopleAlsoAskExpandedElementItem  extends IBaseSerpApiP
         /** the title of the featured snippets source page */
         featured_title?: string | undefined
         
-        /** URL of element */
+        /** relevant URL */
         url?: string | undefined
         
-        /** domain where a link points */
+        /** source domain */
         domain?: string | undefined
         
-        /** title of the row */
+        /** title of the carousel item */
         title?: string | undefined
         
-        /** description of the results element in SERP */
+        /** description */
         description?: string | undefined
         
         /** images of the element */
@@ -114,30 +115,37 @@ if there are none, equals null */
     }
 
 export class SerpApiPeopleAlsoAskExpandedElementItem  extends BaseSerpApiPeopleAlsoAskExpandedElementItem   implements ISerpApiPeopleAlsoAskExpandedElementItem {
+
     
     /** the title of the featured snippets source page */
 
     featured_title?: string | undefined;
+
     
-    /** URL of element */
+    /** relevant URL */
 
     url?: string | undefined;
+
     
-    /** domain where a link points */
+    /** source domain */
 
     domain?: string | undefined;
+
     
-    /** title of the row */
+    /** title of the carousel item */
 
     title?: string | undefined;
+
     
-    /** description of the results element in SERP */
+    /** description */
 
     description?: string | undefined;
+
     
     /** images of the element */
 
     images?: AiModeImagesElementInfo[] | undefined;
+
     
     /** date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -145,6 +153,7 @@ example:
 2019-11-15 12:57:46 +00:00 */
 
     timestamp?: string | undefined;
+
     
     /** results table
 if there are none, equals null */
@@ -221,7 +230,7 @@ if there are none, equals null */
  
 export interface ISerpApiPeopleAlsoAskAiOverviewExpandedElementItem  extends IBaseSerpApiPeopleAlsoAskExpandedElementItem    {
         
-        /** contains arrays of elements available in the list */
+        /** items present in the element */
         items?: BaseSerpApiAiOverviewElementItem[] | undefined
         
         /** additional references relevant to the item
@@ -238,15 +247,18 @@ if false, the people_also_ask_ai_overview_expanded_element element is loaded fro
     }
 
 export class SerpApiPeopleAlsoAskAiOverviewExpandedElementItem  extends BaseSerpApiPeopleAlsoAskExpandedElementItem   implements ISerpApiPeopleAlsoAskAiOverviewExpandedElementItem {
+
     
-    /** contains arrays of elements available in the list */
+    /** items present in the element */
 
     items?: BaseSerpApiAiOverviewElementItem[] | undefined;
+
     
     /** additional references relevant to the item
 includes references to webpages that may have been used to generate the ai_overview */
 
     references?: AiModeAiOverviewReferenceInfo[] | undefined;
+
     
     /** indicates whether the element is loaded asynchronously
 if true, the people_also_ask_ai_overview_expanded_element element is loaded asynchronously;

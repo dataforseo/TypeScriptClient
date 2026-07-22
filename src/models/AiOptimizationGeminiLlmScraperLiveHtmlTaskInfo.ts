@@ -12,6 +12,7 @@ export interface IAiOptimizationGeminiLlmScraperLiveHtmlTaskInfo  extends IBaseR
     }
 
 export class AiOptimizationGeminiLlmScraperLiveHtmlTaskInfo  extends BaseResponseTaskInfo   implements IAiOptimizationGeminiLlmScraperLiveHtmlTaskInfo {
+
     
     /** array of results */
 

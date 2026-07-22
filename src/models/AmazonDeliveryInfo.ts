@@ -28,26 +28,32 @@ if free delivery is available, the value is null */
     }
 
 export class AmazonDeliveryInfo  implements IAmazonDeliveryInfo {
+
     
     /** message accompanying the delivery information as posted by the seller */
 
     delivery_message?: string | undefined;
+
     
     /** the earliest date when the product can be shipped */
 
     delivery_date_from?: string | undefined;
+
     
     /** the latest date when the product can be delivered */
 
     delivery_date_to?: string | undefined;
+
     
     /** the earliest date when the product can be delivered with a fast delivery option */
 
     fastest_delivery_date_from?: string | undefined;
+
     
     /** the latest date when the product can be delivered with a fast delivery option */
 
     fastest_delivery_date_to?: string | undefined;
+
     
     /** price for the delivery
 price of the delivery based on the location you specified in the POST request;

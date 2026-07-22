@@ -117,6 +117,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo  implements IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo {
+
     
     /** keywords array
 required field
@@ -127,6 +128,7 @@ you can specify the maximum of 200 keywords
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keywords?: string[] | undefined;
+
     
     /** full name of the location
 required field if you don’t specify location_code
@@ -137,6 +139,7 @@ example:
 United Kingdom */
 
     location_name?: string | undefined;
+
     
     /** unique location identifier
 required field if you don’t specify location_name
@@ -147,6 +150,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** full name of the language
 required field if you don’t specify language_code
@@ -157,6 +161,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** unique language identifier
 required field if you don’t specify language_name
@@ -167,6 +172,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** indicates if the subdomains will be included in the search
 optional field
@@ -174,6 +180,7 @@ if set to false, the subdomains will be ignored
 default value: true */
 
     include_subdomains?: boolean | undefined;
+
     
     /** search results type
 indicates type of search results included in the response
@@ -184,6 +191,7 @@ default value:
 ['organic', 'paid'] */
 
     item_types?: string[] | undefined;
+
     
     /** the maximum number of returned domains
 optional field
@@ -191,6 +199,7 @@ default value: 100
 maximum value: 1000 */
 
     limit?: number | undefined;
+
     
     /** offset in the results array of returned domains
 optional field
@@ -198,6 +207,7 @@ default value: 0
 if you specify the 10 value, the first ten domains in the results array will be omitted and the data will be provided for the successive domains */
 
     offset?: number | undefined;
+
     
     /** array of results filtering parameters
 optional field
@@ -215,6 +225,7 @@ example:
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
 
     filters?: any[] | undefined;
+
     
     /** results sorting rules
 optional field
@@ -233,6 +244,7 @@ example:
 ['avg_position,asc','etv,desc'] */
 
     order_by?: string[] | undefined;
+
     
     /** user-defined task identifier
 optional field

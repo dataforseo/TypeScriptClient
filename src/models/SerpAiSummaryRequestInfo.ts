@@ -37,6 +37,7 @@ default value: false */
     }
 
 export class SerpAiSummaryRequestInfo  implements ISerpAiSummaryRequestInfo {
+
     
     /** task identifier
 required field
@@ -44,6 +45,7 @@ unique identifier of the associated task in the UUID format
 you will be able to use it within 30 days to request the results of the task at any time */
 
     task_id?: string | undefined;
+
     
     /** AI prompt
 optional field
@@ -53,6 +55,7 @@ max number of symbols or characters you can specify: 2000;
 note: your prompt has to be relevant to the keyword specified in the POST request to SERP API */
 
     prompt?: string | undefined;
+
     
     /** support extra SERP features
 optional field
@@ -60,6 +63,7 @@ if set to true, the AI model will consider the following extra SERP features, in
 default value: true */
 
     support_extra?: boolean | undefined;
+
     
     /** fetch content from pages in SERPs
 optional field
@@ -67,6 +71,7 @@ if set to true, the API will fetch the content from pages featured in SERP resul
 default value: false */
 
     fetch_content?: boolean | undefined;
+
     
     /** include source links in the summary
 optional field

@@ -11,10 +11,12 @@ export interface ILocalJustificationInfo   {
     }
 
 export class LocalJustificationInfo  implements ILocalJustificationInfo {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** text snippet of local justification */
 

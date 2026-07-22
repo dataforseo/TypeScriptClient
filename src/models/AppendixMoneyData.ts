@@ -21,18 +21,22 @@ export interface IAppendixMoneyData   {
     }
 
 export class AppendixMoneyData  implements IAppendixMoneyData {
+
     
     /** total amount of money deposited to your account */
 
     total?: number | undefined;
+
     
     /** amount of money left in your account */
 
     balance?: number | undefined;
+
     
     /** cost limits */
 
     limits?: AppendixLimitsMoneyData | undefined;
+
     
     /** statistics of your spending */
 

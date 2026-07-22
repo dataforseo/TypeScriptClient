@@ -12,6 +12,7 @@ export interface IOnPageNonIndexableTaskInfo  extends IBaseResponseTaskInfo    {
     }
 
 export class OnPageNonIndexableTaskInfo  extends BaseResponseTaskInfo   implements IOnPageNonIndexableTaskInfo {
+
     
     /** array of results */
 

@@ -12,6 +12,7 @@ in this case, the value will be null */
     }
 
 export class SerpYahooOrganicTaskPostTaskInfo  extends BaseResponseTaskInfo   implements ISerpYahooOrganicTaskPostTaskInfo {
+
     
     /** array of results
 in this case, the value will be null */

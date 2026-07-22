@@ -12,6 +12,7 @@ export interface ISerpGoogleAiModeLanguagesResponseInfo  extends IBaseResponseIn
     }
 
 export class SerpGoogleAiModeLanguagesResponseInfo  extends BaseResponseInfo   implements ISerpGoogleAiModeLanguagesResponseInfo {
+
     
     /** array of tasks */
 

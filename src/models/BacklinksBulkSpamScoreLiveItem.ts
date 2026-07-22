@@ -15,14 +15,17 @@ learn more about how the metric is calculated */
     }
 
 export class BacklinksBulkSpamScoreLiveItem  implements IBacklinksBulkSpamScoreLiveItem {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** domain, subdomain or webpage from a POST array */
 
     target?: string | undefined;
+
     
     /** average spam score the target
 learn more about how the metric is calculated */

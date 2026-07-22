@@ -39,40 +39,49 @@ if there are none, equals null */
     }
 
 export class BaseSerpApiBingPeopleAlsoAskExpandedElementItem  implements IBaseSerpApiBingPeopleAlsoAskExpandedElementItem {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** title */
 
     featured_title?: string | undefined;
+
     
     /** URL */
 
     url?: string | undefined;
+
     
     /** domain name of the reference */
 
     domain?: string | undefined;
+
     
     /** title of the result in SERP */
 
     title?: string | undefined;
+
     
     /** description of the results element in SERP */
 
     description?: string | undefined;
+
     
     /** images of the element */
 
     images?: AiModeImagesElementInfo[] | undefined;
+
     
     /** date and time when the video was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example: 2009-01-01 00:00:00 +00:00 */
 
     timestamp?: string | undefined;
+
     
     /** results table
 if there are none, equals null */

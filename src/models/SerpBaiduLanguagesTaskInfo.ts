@@ -12,6 +12,7 @@ export interface ISerpBaiduLanguagesTaskInfo  extends IBaseResponseTaskInfo    {
     }
 
 export class SerpBaiduLanguagesTaskInfo  extends BaseResponseTaskInfo   implements ISerpBaiduLanguagesTaskInfo {
+
     
     /** array of results */
 

@@ -21,18 +21,22 @@ represents the list of search queries which are related to the keyword returned 
     }
 
 export class DataforseoLabsAmazonRelatedKeywordsLiveItem  implements IDataforseoLabsAmazonRelatedKeywordsLiveItem {
+
     
     /** search engine type */
 
     se_type?: string | undefined;
+
     
     /** keyword data for the returned keyword */
 
     keyword_data?: AmazonKeywordData | undefined;
+
     
     /** keyword search depth */
 
     depth?: number | undefined;
+
     
     /** list of related keywords
 represents the list of search queries which are related to the keyword returned in the array above */

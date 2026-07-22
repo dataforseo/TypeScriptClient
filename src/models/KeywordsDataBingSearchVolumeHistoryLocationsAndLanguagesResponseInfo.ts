@@ -12,6 +12,7 @@ export interface IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesRespon
     }
 
 export class KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo  extends BaseResponseInfo   implements IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo {
+
     
     /** array of tasks */
 

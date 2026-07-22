@@ -18,6 +18,7 @@ Note: this field is optional if the task was set using the Instant Pages endpoin
     }
 
 export class OnPageRawHtmlRequestInfo  implements IOnPageRawHtmlRequestInfo {
+
     
     /** ID of the task
 required field
@@ -26,6 +27,7 @@ example:
 “07131248-1535-0216-1000-17384017ad04” */
 
     id?: string | undefined;
+
     
     /** page url
 required field

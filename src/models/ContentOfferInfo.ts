@@ -19,18 +19,22 @@ example: '2022-11-01 10:02:52 +00:00' */
     }
 
 export class ContentOfferInfo  implements IContentOfferInfo {
+
     
     /** name of the product */
 
     name?: string | undefined;
+
     
     /** price of the product */
 
     price?: number | undefined;
+
     
     /** price currency */
 
     price_currency?: string | undefined;
+
     
     /** displays the date and time until which the price is valid
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”

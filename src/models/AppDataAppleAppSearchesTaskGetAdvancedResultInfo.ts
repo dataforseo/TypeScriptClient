@@ -39,27 +39,33 @@ example:
     }
 
 export class AppDataAppleAppSearchesTaskGetAdvancedResultInfo  implements IAppDataAppleAppSearchesTaskGetAdvancedResultInfo {
+
     
     /** keyword received in a POST request */
 
     keyword?: string | undefined;
+
     
     /** search engine domain in a POST array */
 
     se_domain?: string | undefined;
+
     
     /** location code in a POST array */
 
     location_code?: number | undefined;
+
     
     /** language code in a POST array */
 
     language_code?: string | undefined;
+
     
     /** direct URL to search engine results
 in this case, the value will be null */
 
     check_url?: string | undefined;
+
     
     /** date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -67,14 +73,17 @@ example:
 2019-11-15 12:57:46 +00:00 */
 
     datetime?: string | undefined;
+
     
     /** the total number of results */
 
     se_results_count?: number | undefined;
+
     
     /** the number of items in the results array */
 
     items_count?: number | undefined;
+
     
     /** found apps */
 

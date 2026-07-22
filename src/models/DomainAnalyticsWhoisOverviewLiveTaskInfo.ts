@@ -12,6 +12,7 @@ export interface IDomainAnalyticsWhoisOverviewLiveTaskInfo  extends IBaseRespons
     }
 
 export class DomainAnalyticsWhoisOverviewLiveTaskInfo  extends BaseResponseTaskInfo   implements IDomainAnalyticsWhoisOverviewLiveTaskInfo {
+
     
     /** array of results */
 

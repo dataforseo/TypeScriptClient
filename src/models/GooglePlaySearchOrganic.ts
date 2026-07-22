@@ -20,7 +20,7 @@ can take the following values:
 left, right */
         position?: string | undefined
         
-        /** id of the app */
+        /** id of the app in a POST array */
         app_id?: string | undefined
         
         /** title of the app */
@@ -55,62 +55,76 @@ left, right */
     }
 
 export class GooglePlaySearchOrganic  implements IGooglePlaySearchOrganic {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERP
 absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
+
     
     /** the alignment of the element in SERP
 can take the following values:
 left, right */
 
     position?: string | undefined;
+
     
-    /** id of the app */
+    /** id of the app in a POST array */
 
     app_id?: string | undefined;
+
     
     /** title of the app */
 
     title?: string | undefined;
+
     
     /** URL to the app page on Google Play */
 
     url?: string | undefined;
+
     
     /** URL to the app icon */
 
     icon?: string | undefined;
+
     
     /** the total number of reviews of the app */
 
     reviews_count?: number | undefined;
+
     
     /** average rating of the app */
 
     rating?: RatingInfo | undefined;
+
     
     /** indicates whether the app is free */
 
     is_free?: boolean | undefined;
+
     
     /** price of the app */
 
     price?: PriceInfo | undefined;
+
     
     /** name of the app developer */
 
     developer?: string | undefined;
+
     
     /** URL to the developer page on Google Play */
 

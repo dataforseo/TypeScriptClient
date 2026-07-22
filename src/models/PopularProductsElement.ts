@@ -10,7 +10,7 @@ export interface IPopularProductsElement   {
         /** title of a given link element */
         title?: string | undefined
         
-        /** description of the results element in SERP */
+        /** link description */
         description?: string | undefined
         
         /** indicates whether the product is sold by multiple sellers */
@@ -36,35 +36,43 @@ if there is none, equals null */
     }
 
 export class PopularProductsElement  implements IPopularProductsElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** title of a given link element */
 
     title?: string | undefined;
+
     
-    /** description of the results element in SERP */
+    /** link description */
 
     description?: string | undefined;
+
     
     /** indicates whether the product is sold by multiple sellers */
 
     more_sellers?: boolean | undefined;
+
     
     /** seller of the product */
 
     seller?: string | undefined;
+
     
     /** URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
     image_url?: string | undefined;
+
     
     /** price indicated in the element */
 
     price?: PriceInfo | undefined;
+
     
     /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP;

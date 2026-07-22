@@ -17,14 +17,17 @@ export interface IHotelAmenityInfo   {
     }
 
 export class HotelAmenityInfo  implements IHotelAmenityInfo {
+
     
     /** standardised category of the ammenity */
 
     category?: string | undefined;
+
     
     /** label of the category */
 
     category_label?: string | undefined;
+
     
     /** specific amenities and details */
 

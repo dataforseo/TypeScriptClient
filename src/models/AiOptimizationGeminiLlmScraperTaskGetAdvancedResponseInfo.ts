@@ -12,6 +12,7 @@ export interface IAiOptimizationGeminiLlmScraperTaskGetAdvancedResponseInfo  ext
     }
 
 export class AiOptimizationGeminiLlmScraperTaskGetAdvancedResponseInfo  extends BaseResponseInfo   implements IAiOptimizationGeminiLlmScraperTaskGetAdvancedResponseInfo {
+
     
     /** array of tasks */
 

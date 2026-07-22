@@ -22,18 +22,22 @@ export interface IBaseGeminiLlmScraperElementItem   {
     }
 
 export class BaseGeminiLlmScraperElementItem  implements IBaseGeminiLlmScraperElementItem {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** group rank in SERPposition within a group of elements with identical type valuespositions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
+
     
     /** absolute rank in SERPabsolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
+
     
     /** content of the element in markdown formatcontent of the result formatted in the markdown markup language */
 
@@ -124,10 +128,12 @@ export interface IGeminiTextElementItem  extends IBaseGeminiLlmScraperElementIte
     }
 
 export class GeminiTextElementItem  extends BaseGeminiLlmScraperElementItem   implements IGeminiTextElementItem {
+
     
     /** unformatted text content of the element */
 
     original_text?: string | undefined;
+
     
     /** array of sources */
 
@@ -202,10 +208,12 @@ export interface IGeminiTableElementItem  extends IBaseGeminiLlmScraperElementIt
     }
 
 export class GeminiTableElementItem  extends BaseGeminiLlmScraperElementItem   implements IGeminiTableElementItem {
+
     
     /** unformatted text content of the element */
 
     original_text?: string | undefined;
+
     
     /** table present in the elementthe header and content of the table present in the element */
 
@@ -264,6 +272,7 @@ export interface IGeminiImagesElementItem  extends IBaseGeminiLlmScraperElementI
     }
 
 export class GeminiImagesElementItem  extends BaseGeminiLlmScraperElementItem   implements IGeminiImagesElementItem {
+
     
     /** elements of Gemini results */
 

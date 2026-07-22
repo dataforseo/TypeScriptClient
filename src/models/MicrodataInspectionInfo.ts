@@ -16,11 +16,13 @@ an array of objects containing data fields related to the certain microdata type
     }
 
 export class MicrodataInspectionInfo  implements IMicrodataInspectionInfo {
+
     
     /** parent microdata types
 for a full list of available types, please visit schema.org */
 
     types?: string[] | undefined;
+
     
     /** microdata fields
 an array of objects containing data fields related to the certain microdata type */

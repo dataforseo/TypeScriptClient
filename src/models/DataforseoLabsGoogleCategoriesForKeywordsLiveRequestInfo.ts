@@ -36,6 +36,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo  implements IDataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo {
+
     
     /** target keywords
 required field
@@ -45,6 +46,7 @@ the keywords will be converted to lowercase format
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keywords?: string[] | undefined;
+
     
     /** full name of the language
 required field if don’t specify language_code
@@ -54,6 +56,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** language code
 required field if don’t specify language_name
@@ -63,6 +66,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** user-defined task identifier
 optional field

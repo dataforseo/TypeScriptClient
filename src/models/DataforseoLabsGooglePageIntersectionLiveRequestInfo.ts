@@ -178,6 +178,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class DataforseoLabsGooglePageIntersectionLiveRequestInfo  implements IDataforseoLabsGooglePageIntersectionLiveRequestInfo {
+
     
     /** target URLs of pages
 required field
@@ -201,6 +202,7 @@ use https://dataforseo.com/* instead
 Note: this endpoint will not provide results if the number of intersecting keywords exceeds 10 million */
 
     pages?: { [key: string]: string; } | undefined;
+
     
     /** URLs of pages you want to exclude
 optional field
@@ -216,6 +218,7 @@ example:
 ] */
 
     exclude_pages?: string[] | undefined;
+
     
     /** full name of the location
 required field if you don’t specify location_code
@@ -226,6 +229,7 @@ example:
 United Kingdom */
 
     location_name?: string | undefined;
+
     
     /** location code
 required field if you don’t specify location_name
@@ -236,6 +240,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** full name of the language
 required field if you don’t specify language_code
@@ -246,6 +251,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** language code
 required field if you don’t specify language_name
@@ -256,6 +262,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** search results type
 indicates type of search results included in the response
@@ -266,6 +273,7 @@ default value:
 ['organic', 'paid'] */
 
     item_types?: string[] | undefined;
+
     
     /** the maximum number of returned keywords
 optional field
@@ -273,6 +281,7 @@ default value: 100
 maximum value: 1000 */
 
     limit?: number | undefined;
+
     
     /** offset in the items array of returned keywords
 optional field
@@ -280,6 +289,7 @@ default value: 0
 if you specify 10 here, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords */
 
     offset?: number | undefined;
+
     
     /** indicates if the subdomains will be included in the search
 optional field
@@ -287,6 +297,7 @@ if set to false, the subdomains will be ignored
 default value: true */
 
     include_subdomains?: boolean | undefined;
+
     
     /** indicates whether to intersect keywords
 optional field
@@ -297,6 +308,7 @@ intersect – results are based on the keywords all URLs from pages rank for in 
 by default, results are based on the intersect mode if you specify only pages array. If you specify exclude_pages as well, results are based on the union mode */
 
     intersection_mode?: string | undefined;
+
     
     /** include data from SERP for each keyword
 optional field
@@ -304,6 +316,7 @@ if set to true, we will return a serp_info array containing SERP data (number of
 default value: false */
 
     include_serp_info?: boolean | undefined;
+
     
     /** include or exclude data from clickstream-based metrics in the result
 optional field
@@ -313,6 +326,7 @@ with this parameter enabled, you will be charged double the price for the reques
 learn more about how clickstream-based metrics are calculated in this help center article */
 
     include_clickstream_data?: boolean | undefined;
+
     
     /** ignore highly similar keywords
 optional field
@@ -320,6 +334,7 @@ if set to true only core keywords will be returned, all highly similar keywords
 default value: false */
 
     ignore_synonyms?: boolean | undefined;
+
     
     /** array of results filtering parameters
 optional field
@@ -342,6 +357,7 @@ if you want to filter results and receive only organic listings for the third sp
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
 
     filters?: any[] | undefined;
+
     
     /** results sorting rules
 optional field
@@ -360,6 +376,7 @@ example:
 ['intersection_result.1.rank_group,asc','intersection_result.2.rank_absolute,asc'] */
 
     order_by?: string[] | undefined;
+
     
     /** user-defined task identifier
 optional field

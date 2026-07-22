@@ -12,6 +12,7 @@ export interface IMerchantAmazonLanguagesTaskInfo  extends IBaseResponseTaskInfo
     }
 
 export class MerchantAmazonLanguagesTaskInfo  extends BaseResponseTaskInfo   implements IMerchantAmazonLanguagesTaskInfo {
+
     
     /** array of results */
 

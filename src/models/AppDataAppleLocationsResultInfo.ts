@@ -27,14 +27,17 @@ note: Apple App Data API currently supports countries only, that is why this val
     }
 
 export class AppDataAppleLocationsResultInfo  implements IAppDataAppleLocationsResultInfo {
+
     
     /** location code */
 
     location_code?: number | undefined;
+
     
     /** full name of the location */
 
     location_name?: string | undefined;
+
     
     /** the name of the superordinate location
 example:
@@ -46,10 +49,12 @@ example:
 note: Apple App Data API currently supports countries only, that is why this value will always be null */
 
     location_name_parent?: string | undefined;
+
     
     /** ISO country code of the location */
 
     country_iso_code?: string | undefined;
+
     
     /** location type */
 

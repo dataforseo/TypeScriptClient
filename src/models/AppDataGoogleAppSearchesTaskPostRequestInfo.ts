@@ -102,6 +102,7 @@ i.a., the # character will be encoded into %23 */
     }
 
 export class AppDataGoogleAppSearchesTaskPostRequestInfo  implements IAppDataGoogleAppSearchesTaskPostRequestInfo {
+
     
     /** keyword
 required field
@@ -112,6 +113,7 @@ if you need to use the “+” character for your keyword, please specify it as 
 learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keyword?: string | undefined;
+
     
     /** full name of search engine location
 required field if you don’t specify location_code
@@ -121,6 +123,7 @@ example:
 West Los Angeles,California,United States */
 
     location_name?: string | undefined;
+
     
     /** search engine location code
 required field if you don’t specify location_name
@@ -130,6 +133,7 @@ example:
 9061121 */
 
     location_code?: number | undefined;
+
     
     /** full name of search engine language
 optional field
@@ -139,6 +143,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** search engine language code
 optional field
@@ -148,6 +153,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** task priority
 optional field
@@ -158,6 +164,7 @@ You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
 
     priority?: number | undefined;
+
     
     /** parsing depth
 optional field
@@ -170,6 +177,7 @@ Setting depth above 30 may result in additional charges if the search engine ret
 The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
+
     
     /** user-defined task identifier
 optional field
@@ -178,6 +186,7 @@ you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
     tag?: string | undefined;
+
     
     /** URL for sending task results
 optional field
@@ -190,6 +199,7 @@ Note: special characters in postback_url will be urlencoded;
 i.a., the # character will be encoded into %23 */
 
     postback_url?: string | undefined;
+
     
     /** postback_url datatype
 required field if you specify postback_url
@@ -198,6 +208,7 @@ possible values:
 advanced, html */
 
     postback_data?: string | undefined;
+
     
     /** notification URL of a completed task
 optional field

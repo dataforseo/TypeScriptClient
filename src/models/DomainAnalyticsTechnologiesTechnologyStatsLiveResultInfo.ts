@@ -23,22 +23,27 @@ export interface IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo   {
     }
 
 export class DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo  implements IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo {
+
     
     /** target technology */
 
     technology?: string | undefined;
+
     
     /** starting date of the time range */
 
     date_from?: string | undefined;
+
     
     /** ending date of the time range */
 
     date_to?: string | undefined;
+
     
     /** number of items in the results array */
 
     items_count?: number | undefined;
+
     
     /** items array */
 

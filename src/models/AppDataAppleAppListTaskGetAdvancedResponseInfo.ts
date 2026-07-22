@@ -12,6 +12,7 @@ export interface IAppDataAppleAppListTaskGetAdvancedResponseInfo  extends IBaseR
     }
 
 export class AppDataAppleAppListTaskGetAdvancedResponseInfo  extends BaseResponseInfo   implements IAppDataAppleAppListTaskGetAdvancedResponseInfo {
+
     
     /** array of tasks */
 

@@ -89,6 +89,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class BacklinksCompetitorsLiveRequestInfo  implements IBacklinksCompetitorsLiveRequestInfo {
+
     
     /** domain, subdomain or webpage to get competitor domains for
 required field
@@ -96,6 +97,7 @@ a domain or a subdomain should be specified without https:// and www.
 a page should be specified with absolute URL (including http:// or https://) */
 
     target?: string | undefined;
+
     
     /** the maximum number of returned domains
 optional field
@@ -103,6 +105,7 @@ default value: 100
 maximum value: 1000 */
 
     limit?: number | undefined;
+
     
     /** offset in the results array of returned domains
 optional field
@@ -110,6 +113,7 @@ default value: 0
 if you specify the 10 value, the first ten domains in the results array will be omitted and the data will be provided for the successive pages */
 
     offset?: number | undefined;
+
     
     /** array of results filtering parameters
 optional field
@@ -126,6 +130,7 @@ example:
 The full list of possible filters is available here. */
 
     filters?: any[] | undefined;
+
     
     /** results sorting rules
 optional field
@@ -142,6 +147,7 @@ example:
 ['intersections,desc','rank,asc'] */
 
     order_by?: string[] | undefined;
+
     
     /** indicates if only main domain of the target will be included in the search
 optional field
@@ -149,6 +155,7 @@ if set to true, only the main domain will be included in search;
 default value: true */
 
     main_domain?: boolean | undefined;
+
     
     /** indicates whether large domain will appear in results
 optional field
@@ -156,6 +163,7 @@ if set to true, the results from the large domain (google.com, amazon.com, etc.)
 default value: true */
 
     exclude_large_domains?: boolean | undefined;
+
     
     /** indicates if internal backlinks from subdomains to the target will be excluded from the results
 optional field
@@ -164,6 +172,7 @@ if set to false, internal links will be included in the results
 default value: true */
 
     exclude_internal_backlinks?: boolean | undefined;
+
     
     /** defines the scale used for calculating and displaying the rank, domain_from_rank, and page_from_rank values
 optional field
@@ -175,6 +184,7 @@ default value: one_thousand
 learn more about how this parameter works and how ranking metrics are calculated in this Help Center article */
 
     rank_scale?: string | undefined;
+
     
     /** user-defined task identifier
 optional field

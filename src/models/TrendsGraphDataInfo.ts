@@ -26,25 +26,30 @@ a value of 100 is the peak popularity for the term. A value of 50 means that the
     }
 
 export class TrendsGraphDataInfo  implements ITrendsGraphDataInfo {
+
     
     /** start date of the corresponding time range
 in the UTC format: “yyyy-mm-dd” */
 
     date_from?: string | undefined;
+
     
     /** end date of the corresponding time range
 in the UTC format: “yyyy-mm-dd” */
 
     date_to?: string | undefined;
+
     
     /** a point in time in the Unix time format */
 
     timestamp?: number | undefined;
+
     
     /** indicates whether the data is unavailable
 if true the data on the graph in the Google Trends interface is missing and thus labelled with a dotted line */
 
     missing_data?: boolean | undefined;
+
     
     /** relative keyword popularity rate at a specific timestamp
 represents the keyword popularity rate over the given time range

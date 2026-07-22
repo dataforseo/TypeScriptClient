@@ -121,6 +121,7 @@ i.a., the # character will be encoded into %23 */
     }
 
 export class AppDataGoogleAppListTaskPostRequestInfo  implements IAppDataGoogleAppListTaskPostRequestInfo {
+
     
     /** app collection
 required field
@@ -130,6 +131,7 @@ featured, topselling_paid, topselling_free, topselling_new_free, topselling_new_
 Note: if featured is selected, the app_category parameter cannot be used */
 
     app_collection?: string | undefined;
+
     
     /** full name of search engine location
 required field if you don’t specify location_code
@@ -139,6 +141,7 @@ example:
 West Los Angeles,California,United States */
 
     location_name?: string | undefined;
+
     
     /** search engine location code
 required field if you don’t specify location_name
@@ -148,6 +151,7 @@ example:
 9061121 */
 
     location_code?: number | undefined;
+
     
     /** full name of search engine language
 required field if language_code is not specified
@@ -157,6 +161,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** search engine language code
 required field if language_name is not specified
@@ -166,6 +171,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** task priority
 optional field
@@ -176,6 +182,7 @@ You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page. */
 
     priority?: number | undefined;
+
     
     /** parsing depth
 optional field
@@ -188,6 +195,7 @@ Setting depth above 100 may result in additional charges if the search engine re
 The cost can be calculated on the Pricing page. */
 
     depth?: number | undefined;
+
     
     /** application category on Google Play
 optional field
@@ -198,6 +206,7 @@ you can receive the full list of available categories by making a separate reque
 Note: app_category cannot be used if app_collection parameter is set to featured */
 
     app_category?: string | undefined;
+
     
     /** filter results by age rating
 optional field
@@ -210,6 +219,7 @@ by default, the API returns apps for all ages;
 Note: this filter works only in conjunction with the 'category': 'family' parameter */
 
     age_rating?: string | undefined;
+
     
     /** user-defined task identifier
 optional field
@@ -218,6 +228,7 @@ you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response */
 
     tag?: string | undefined;
+
     
     /** URL for sending task results
 optional field
@@ -230,6 +241,7 @@ Note: special characters in postback_url will be urlencoded;
 i.a., the # character will be encoded into %23 */
 
     postback_url?: string | undefined;
+
     
     /** postback_url datatype
 required field if you specify postback_url
@@ -238,6 +250,7 @@ possible values:
 advanced, html */
 
     postback_data?: string | undefined;
+
     
     /** notification URL of a completed task
 optional field

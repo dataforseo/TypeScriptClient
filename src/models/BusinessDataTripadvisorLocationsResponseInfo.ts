@@ -12,6 +12,7 @@ export interface IBusinessDataTripadvisorLocationsResponseInfo  extends IBaseRes
     }
 
 export class BusinessDataTripadvisorLocationsResponseInfo  extends BaseResponseInfo   implements IBusinessDataTripadvisorLocationsResponseInfo {
+
     
     /** array of tasks */
 

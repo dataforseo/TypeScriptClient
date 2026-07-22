@@ -6,18 +6,17 @@ export interface ICompareSitesElement   {
         /** title of a given link element */
         title?: string | undefined
         
-        /** URL */
+        /** source URL */
         url?: string | undefined
         
-        /** website domain */
+        /** domain where a link points */
         domain?: string | undefined
         
         /** URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
         image_url?: string | undefined
         
-        /** source of the element
-indicates the source of information included in the top_stories_element */
+        /** reference source name or title */
         source?: string | undefined
 
     [key: string]: any;
@@ -25,30 +24,35 @@ indicates the source of information included in the top_stories_element */
     }
 
 export class CompareSitesElement  implements ICompareSitesElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** title of a given link element */
 
     title?: string | undefined;
+
     
-    /** URL */
+    /** source URL */
 
     url?: string | undefined;
+
     
-    /** website domain */
+    /** domain where a link points */
 
     domain?: string | undefined;
+
     
     /** URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
     image_url?: string | undefined;
+
     
-    /** source of the element
-indicates the source of information included in the top_stories_element */
+    /** reference source name or title */
 
     source?: string | undefined;
 

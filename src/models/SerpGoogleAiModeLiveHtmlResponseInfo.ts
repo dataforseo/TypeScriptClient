@@ -12,6 +12,7 @@ export interface ISerpGoogleAiModeLiveHtmlResponseInfo  extends IBaseResponseInf
     }
 
 export class SerpGoogleAiModeLiveHtmlResponseInfo  extends BaseResponseInfo   implements ISerpGoogleAiModeLiveHtmlResponseInfo {
+
     
     /** array of tasks */
 

@@ -151,6 +151,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class DataforseoLabsGoogleRankedKeywordsLiveRequestInfo  implements IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo {
+
     
     /** domain name or page url
 required field
@@ -161,6 +162,7 @@ the webpage URL must be specified with https:// or www.
 Note: if you specify the webpage URL without https:// or www., the result will be returned for the entire domain rather than the specific page */
 
     target?: string | undefined;
+
     
     /** full name of the location
 optional field
@@ -172,6 +174,7 @@ example:
 United Kingdom */
 
     location_name?: string | undefined;
+
     
     /** location code
 optional field
@@ -183,6 +186,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** full name of the language
 optional field
@@ -194,6 +198,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** language code
 optional field
@@ -205,6 +210,7 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** ignore highly similar keywords
 optional field
@@ -212,6 +218,7 @@ if set to true only core keywords will be returned, all highly similar keywords
 default value: false */
 
     ignore_synonyms?: boolean | undefined;
+
     
     /** display results by item type
 optional field
@@ -223,6 +230,7 @@ default value:
 ['organic', 'paid'] */
 
     item_types?: string[] | undefined;
+
     
     /** include or exclude data from clickstream-based metrics in the result
 optional field
@@ -232,6 +240,7 @@ with this parameter enabled, you will be charged double the price for the reques
 learn more about how clickstream-based metrics are calculated in this help center article */
 
     include_clickstream_data?: boolean | undefined;
+
     
     /** the maximum number of returned keywords
 optional field
@@ -239,6 +248,7 @@ default value: 100
 maximum value: 1000 */
 
     limit?: number | undefined;
+
     
     /** offset in the results array of returned keywords
 optional field
@@ -246,6 +256,7 @@ default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords */
 
     offset?: number | undefined;
+
     
     /** return rankings distribution by rank_absolute
 optional field
@@ -253,6 +264,7 @@ default value: false
 if set to true, we will return the field metrics_absolute containing rankings distribution by the rank_absolute parameter that indicates the result’s position among all SERP elements */
 
     load_rank_absolute?: boolean | undefined;
+
     
     /** data collection mode
 optional field
@@ -264,6 +276,7 @@ all — return both types of keywords.
 default value: live */
 
     historical_serp_mode?: string | undefined;
+
     
     /** array of results filtering parameters
 optional field
@@ -286,6 +299,7 @@ example:
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide */
 
     filters?: any[] | undefined;
+
     
     /** results sorting rules
 optional field
@@ -304,6 +318,7 @@ example:
 ['keyword_data.keyword_info.search_volume,desc','keyword_data.keyword_info.cpc,desc'] */
 
     order_by?: string[] | undefined;
+
     
     /** user-defined task identifier
 optional field

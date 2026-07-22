@@ -3,9 +3,7 @@ export interface IBusinessDataContactInfo   {
         /** type of element */
         type?: string | undefined
         
-        /** contact displayed in SERP 
-example:
-'+119797979736' */
+        /** the value of the rating */
         value?: string | undefined
         
         /** data source */
@@ -16,16 +14,17 @@ example:
     }
 
 export class BusinessDataContactInfo  implements IBusinessDataContactInfo {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
-    /** contact displayed in SERP 
-example:
-'+119797979736' */
+    /** the value of the rating */
 
     value?: string | undefined;
+
     
     /** data source */
 

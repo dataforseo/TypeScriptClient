@@ -20,22 +20,27 @@ export interface IRelatedSearchesElement   {
     }
 
 export class RelatedSearchesElement  implements IRelatedSearchesElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** product title */
 
     title?: string | undefined;
+
     
     /** the URL of the product page */
 
     url?: string | undefined;
+
     
     /** the alt tag of the product image featured in the results */
 
     image_alt?: string | undefined;
+
     
     /** URL of the product image featured in the results */
 

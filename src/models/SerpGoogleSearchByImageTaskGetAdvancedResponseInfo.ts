@@ -12,6 +12,7 @@ export interface ISerpGoogleSearchByImageTaskGetAdvancedResponseInfo  extends IB
     }
 
 export class SerpGoogleSearchByImageTaskGetAdvancedResponseInfo  extends BaseResponseInfo   implements ISerpGoogleSearchByImageTaskGetAdvancedResponseInfo {
+
     
     /** array of tasks */
 

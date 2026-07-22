@@ -24,6 +24,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class OnPageWaterfallRequestInfo  implements IOnPageWaterfallRequestInfo {
+
     
     /** ID of the task
 required field
@@ -32,12 +33,14 @@ example:
 “07131248-1535-0216-1000-17384017ad04” */
 
     id?: string | undefined;
+
     
     /** page URL
 required field
 specify the pages you want to receive timing for */
 
     url?: string | undefined;
+
     
     /** user-defined task identifier
 optional field

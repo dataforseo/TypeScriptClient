@@ -28,32 +28,39 @@ example: products */
     }
 
 export class MerchantGoogleProductsTasksReadyResultInfo  implements IMerchantGoogleProductsTasksReadyResultInfo {
+
     
     /** task identifier of the completed task
 unique task identifier in our system in the UUID format */
 
     id?: string | undefined;
+
     
     /** search engine specified when setting the task */
 
     se?: string | undefined;
+
     
     /** type of search engine
 example: products */
 
     se_type?: string | undefined;
+
     
     /** date when the task was posted (in the UTC format) */
 
     date_posted?: string | undefined;
+
     
     /** user-defined task identifier */
 
     tag?: string | undefined;
+
     
     /** URL for collecting the results of Google Shopping Products Advanced task */
 
     endpoint_advanced?: string | undefined;
+
     
     /** URL for collecting the results of Google Shopping Products HTML task */
 

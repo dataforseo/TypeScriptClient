@@ -13,7 +13,7 @@ export interface IHotelsPackElement   {
         /** title of a given link element */
         title?: string | undefined
         
-        /** description of the results element in SERP */
+        /** link description */
         description?: string | undefined
         
         /** unique hotel identifier
@@ -21,10 +21,10 @@ unique hotel identifier assigned by Google;
 example: 'CgoIjaeSlI6CnNpVEAE' */
         hotel_identifier?: string | undefined
         
-        /** website domain */
+        /** domain where a link points */
         domain?: string | undefined
         
-        /** URL */
+        /** source URL */
         url?: string | undefined
         
         /** indicates whether the element is an ad */
@@ -40,40 +40,49 @@ if there is none, equals null */
     }
 
 export class HotelsPackElement  implements IHotelsPackElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** price indicated in the element */
 
     price?: PriceInfo | undefined;
+
     
     /** title of a given link element */
 
     title?: string | undefined;
+
     
-    /** description of the results element in SERP */
+    /** link description */
 
     description?: string | undefined;
+
     
     /** unique hotel identifier
 unique hotel identifier assigned by Google;
 example: 'CgoIjaeSlI6CnNpVEAE' */
 
     hotel_identifier?: string | undefined;
+
     
-    /** website domain */
+    /** domain where a link points */
 
     domain?: string | undefined;
+
     
-    /** URL */
+    /** source URL */
 
     url?: string | undefined;
+
     
     /** indicates whether the element is an ad */
 
     is_paid?: boolean | undefined;
+
     
     /** the item’s rating 
 the popularity rate based on reviews and displayed in SERP;

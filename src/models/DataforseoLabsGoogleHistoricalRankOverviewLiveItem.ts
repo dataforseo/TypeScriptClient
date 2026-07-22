@@ -20,18 +20,22 @@ export interface IDataforseoLabsGoogleHistoricalRankOverviewLiveItem   {
     }
 
 export class DataforseoLabsGoogleHistoricalRankOverviewLiveItem  implements IDataforseoLabsGoogleHistoricalRankOverviewLiveItem {
+
     
     /** search engine type */
 
     se_type?: string | undefined;
+
     
     /** year for which the data is provided */
 
     year?: number | undefined;
+
     
     /** month for which the data is provided */
 
     month?: number | undefined;
+
     
     /** ranking data relevant to the specified domain */
 

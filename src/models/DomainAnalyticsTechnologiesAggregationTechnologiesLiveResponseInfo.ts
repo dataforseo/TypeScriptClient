@@ -12,6 +12,7 @@ export interface IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponse
     }
 
 export class DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo  extends BaseResponseInfo   implements IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo {
+
     
     /** array of tasks */
 

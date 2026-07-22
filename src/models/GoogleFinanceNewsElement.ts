@@ -35,28 +35,34 @@ information about market indexes quoted in the google_finance_news_element */
     }
 
 export class GoogleFinanceNewsElement  implements IGoogleFinanceNewsElement {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** title of the news article */
 
     title?: string | undefined;
+
     
     /** URL to the page of the market index on Google Finance */
 
     url?: string | undefined;
+
     
     /** name of the news source
 name of the website where the news article is published */
 
     source?: string | undefined;
+
     
     /** featured image URL
 URL of the news article’s featured image */
 
     image_url?: string | undefined;
+
     
     /** date and time of the value readout
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -64,6 +70,7 @@ example:
 2025-02-10 09:40:00 +00:00 */
 
     timestamp?: string | undefined;
+
     
     /** market indexes quoted in the news article
 information about market indexes quoted in the google_finance_news_element */

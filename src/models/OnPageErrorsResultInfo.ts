@@ -1,6 +1,7 @@
 export interface IOnPageErrorsResultInfo   {
         
-        /** id of the task */
+        /** task identifier
+unique task identifier in our system in the UUID format */
         id?: string | undefined
         
         /** date and time when an error occurred
@@ -42,10 +43,13 @@ server response */
     }
 
 export class OnPageErrorsResultInfo  implements IOnPageErrorsResultInfo {
+
     
-    /** id of the task */
+    /** task identifier
+unique task identifier in our system in the UUID format */
 
     id?: string | undefined;
+
     
     /** date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -53,37 +57,45 @@ example:
 2019-11-15 12:57:46 +00:00 */
 
     datetime?: string | undefined;
+
     
     /** corresponding API function */
 
     function?: string | undefined;
+
     
     /** error code */
 
     error_code?: number | undefined;
+
     
     /** error message or error URL
 error message (see full list) or URL that caused an error */
 
     error_message?: string | undefined;
+
     
     /** URL that caused an error
 URL you used for making an API call or pingback/postback URL */
 
     http_url?: string | undefined;
+
     
     /** HTTP method */
 
     http_method?: string | undefined;
+
     
     /** HTTP status code */
 
     http_code?: number | undefined;
+
     
     /** time taken by HTTP request
 for tasks set with a pingback/postback, this field will show the time it took your server to respond */
 
     http_time?: number | undefined;
+
     
     /** HTTP response
 server response */

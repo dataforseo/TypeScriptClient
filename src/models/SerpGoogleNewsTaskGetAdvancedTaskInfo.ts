@@ -12,6 +12,7 @@ export interface ISerpGoogleNewsTaskGetAdvancedTaskInfo  extends IBaseResponseTa
     }
 
 export class SerpGoogleNewsTaskGetAdvancedTaskInfo  extends BaseResponseTaskInfo   implements ISerpGoogleNewsTaskGetAdvancedTaskInfo {
+
     
     /** array of results */
 

@@ -19,20 +19,24 @@ attribute name of the product data specification */
     }
 
 export class ShoppingSpecification  implements IShoppingSpecification {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** name of the block of product attributes
 indicates the name of the product specification section in which the related element is listed */
 
     block_name?: string | undefined;
+
     
     /** product attribute
 attribute name of the product data specification */
 
     specification_name?: string | undefined;
+
     
     /** content of the specification */
 

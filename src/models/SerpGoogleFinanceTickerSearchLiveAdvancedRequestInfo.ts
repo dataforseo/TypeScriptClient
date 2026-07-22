@@ -1,6 +1,7 @@
 export interface ISerpGoogleFinanceTickerSearchLiveAdvancedRequestInfo   {
         
-        /** company or financial instrument namerequired fieldin this field, you can enter the name of a company or financial instrument to search for relevant tickers;you can specify up to 700 characters in the keyword field;all %## will be decoded (plus character ‘+’ will be decoded to a space character)if you need to use the “%” character for your keyword, please specify it as “%25”;if you need to use the “+” character for your keyword, please specify it as “%2B”;learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
+        /** company or financial instrument namerequired fieldin this field, you can enter the name of a company or financial instrument to search for relevant tickers;you can specify up to 700 characters in the keyword field;all %## will be decoded (plus character ‘+’ will be decoded to a space character)if you need to use the “%” character for your keyword, please specify it as “%25”;if you need to use the “+” character for your keyword, please specify it as “%2B”;
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
         keyword?: string | undefined
         
         /** search engine location coderequired field if you don't specify location_nameif you use this field, you don't need to specify location_nameyou can receive the list of available locations of the search engines with their location_code by making a separate request to https://api.dataforseo.com/v3/serp/google/locationsexample:2840 */
@@ -8,52 +9,28 @@ export interface ISerpGoogleFinanceTickerSearchLiveAdvancedRequestInfo   {
         
         /** search engine language coderequired field if you don't specify language_nameif you use this field, you don't need to specify language_nameyou can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/serp/google/languagesexample:en */
         language_code?: string | undefined
-        
-        /** full name of search engine locationrequired field if you don't specify location_codeif you use this field, you don't need to specify location_codeyou can receive the list of available locations of the search engine with their location_name by making a separate request to  https://api.dataforseo.com/v3/serp/google/locationsexample:London,England,United Kingdom */
-        location_name?: string | undefined
-        
-        /** full name of search engine languagerequired field if you don't specify language_code if you use this field, you don't need to specify language_codeyou can receive the list of available languages of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/serp/google/languagesexample:English */
-        language_name?: string | undefined
-        
-        /** user-defined task identifieroptional fieldthe character limit is 255you can use this parameter to identify the task and match it with the resultyou will find the specified tag value in the data object of the response */
-        tag?: string | undefined
-        
-        /** category of financial instruments to search foroptional fieldpossible values: all, stock, index, mutual_fund, currency, futuresdefault value: all */
-        category?: string | undefined
 
     [key: string]: any;
 
     }
 
 export class SerpGoogleFinanceTickerSearchLiveAdvancedRequestInfo  implements ISerpGoogleFinanceTickerSearchLiveAdvancedRequestInfo {
+
     
-    /** company or financial instrument namerequired fieldin this field, you can enter the name of a company or financial instrument to search for relevant tickers;you can specify up to 700 characters in the keyword field;all %## will be decoded (plus character ‘+’ will be decoded to a space character)if you need to use the “%” character for your keyword, please specify it as “%25”;if you need to use the “+” character for your keyword, please specify it as “%2B”;learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
+    /** company or financial instrument namerequired fieldin this field, you can enter the name of a company or financial instrument to search for relevant tickers;you can specify up to 700 characters in the keyword field;all %## will be decoded (plus character ‘+’ will be decoded to a space character)if you need to use the “%” character for your keyword, please specify it as “%25”;if you need to use the “+” character for your keyword, please specify it as “%2B”;
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
 
     keyword?: string | undefined;
+
     
     /** search engine location coderequired field if you don't specify location_nameif you use this field, you don't need to specify location_nameyou can receive the list of available locations of the search engines with their location_code by making a separate request to https://api.dataforseo.com/v3/serp/google/locationsexample:2840 */
 
     location_code?: number | undefined;
+
     
     /** search engine language coderequired field if you don't specify language_nameif you use this field, you don't need to specify language_nameyou can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/serp/google/languagesexample:en */
 
     language_code?: string | undefined;
-    
-    /** full name of search engine locationrequired field if you don't specify location_codeif you use this field, you don't need to specify location_codeyou can receive the list of available locations of the search engine with their location_name by making a separate request to  https://api.dataforseo.com/v3/serp/google/locationsexample:London,England,United Kingdom */
-
-    location_name?: string | undefined;
-    
-    /** full name of search engine languagerequired field if you don't specify language_code if you use this field, you don't need to specify language_codeyou can receive the list of available languages of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/serp/google/languagesexample:English */
-
-    language_name?: string | undefined;
-    
-    /** user-defined task identifieroptional fieldthe character limit is 255you can use this parameter to identify the task and match it with the resultyou will find the specified tag value in the data object of the response */
-
-    tag?: string | undefined;
-    
-    /** category of financial instruments to search foroptional fieldpossible values: all, stock, index, mutual_fund, currency, futuresdefault value: all */
-
-    category?: string | undefined;
 
     [key: string]: any;
 
@@ -78,10 +55,6 @@ export class SerpGoogleFinanceTickerSearchLiveAdvancedRequestInfo  implements IS
             this.keyword = data["keyword"];
             this.location_code = data["location_code"];
             this.language_code = data["language_code"];
-            this.location_name = data["location_name"];
-            this.language_name = data["language_name"];
-            this.tag = data["tag"];
-            this.category = data["category"];
         }
     }
 
@@ -102,10 +75,6 @@ export class SerpGoogleFinanceTickerSearchLiveAdvancedRequestInfo  implements IS
         data["keyword"] = this.keyword;
         data["location_code"] = this.location_code;
         data["language_code"] = this.language_code;
-        data["location_name"] = this.location_name;
-        data["language_name"] = this.language_name;
-        data["tag"] = this.tag;
-        data["category"] = this.category;
         return data;
     }
 }

@@ -12,6 +12,7 @@ export interface ISerpBaiduLocationsCountryTaskInfo  extends IBaseResponseTaskIn
     }
 
 export class SerpBaiduLocationsCountryTaskInfo  extends BaseResponseTaskInfo   implements ISerpBaiduLocationsCountryTaskInfo {
+
     
     /** array of results */
 

@@ -22,14 +22,17 @@ corresponds to:
     }
 
 export class ContentAnalysisCategoriesResultInfo  implements IContentAnalysisCategoriesResultInfo {
+
     
     /** category code */
 
     category_code?: number | undefined;
+
     
     /** full name of the category */
 
     category_name?: string | undefined;
+
     
     /** the code of the superordinate category
 example:

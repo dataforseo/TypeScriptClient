@@ -62,6 +62,7 @@ you will find the specified tag value in the data object of the response */
     }
 
 export class SerpYoutubeVideoInfoLiveAdvancedRequestInfo  implements ISerpYoutubeVideoInfoLiveAdvancedRequestInfo {
+
     
     /** ID of the video
 required field
@@ -70,6 +71,7 @@ example:
 vQXvyV0zIP4 */
 
     video_id?: string | undefined;
+
     
     /** search engine location code
 required field if you don't specify location_name 
@@ -79,6 +81,7 @@ example:
 2840 */
 
     location_code?: number | undefined;
+
     
     /** search engine language code
 required field if you don't specify language_name
@@ -88,12 +91,14 @@ example:
 en */
 
     language_code?: string | undefined;
+
     
     /** device type
 optional field
 only value: desktop */
 
     device?: string | undefined;
+
     
     /** full name of search engine location
 required field if you don't specify location_code
@@ -103,6 +108,7 @@ example:
 United States */
 
     location_name?: string | undefined;
+
     
     /** full name of search engine language
 required field if you don't specify language_code
@@ -112,6 +118,7 @@ example:
 English */
 
     language_name?: string | undefined;
+
     
     /** device operating system
 optional field
@@ -119,6 +126,7 @@ choose from the following values: windows, macos
 default value: windows */
 
     os?: string | undefined;
+
     
     /** user-defined task identifier
 optional field

@@ -12,6 +12,7 @@ export interface IAppDataGoogleAppReviewsTaskGetAdvancedTaskInfo  extends IBaseR
     }
 
 export class AppDataGoogleAppReviewsTaskGetAdvancedTaskInfo  extends BaseResponseTaskInfo   implements IAppDataGoogleAppReviewsTaskGetAdvancedTaskInfo {
+
     
     /** array of results */
 

@@ -12,6 +12,7 @@ export interface IDataforseoLabsAppleKeywordsForAppLiveTaskInfo  extends IBaseRe
     }
 
 export class DataforseoLabsAppleKeywordsForAppLiveTaskInfo  extends BaseResponseTaskInfo   implements IDataforseoLabsAppleKeywordsForAppLiveTaskInfo {
+
     
     /** array of results */
 

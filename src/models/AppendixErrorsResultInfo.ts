@@ -11,10 +11,12 @@ export interface IAppendixErrorsResultInfo   {
     }
 
 export class AppendixErrorsResultInfo  implements IAppendixErrorsResultInfo {
+
     
     /** code */
 
     code?: number | undefined;
+
     
     /** message */
 

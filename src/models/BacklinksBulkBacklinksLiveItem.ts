@@ -11,10 +11,12 @@ export interface IBacklinksBulkBacklinksLiveItem   {
     }
 
 export class BacklinksBulkBacklinksLiveItem  implements IBacklinksBulkBacklinksLiveItem {
+
     
     /** domain, subdomain or webpage from a POST array */
 
     target?: string | undefined;
+
     
     /** number of backlinks pointing to the target */
 

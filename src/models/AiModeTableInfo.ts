@@ -11,10 +11,12 @@ export interface IAiModeTableInfo   {
     }
 
 export class AiModeTableInfo  implements IAiModeTableInfo {
+
     
     /** content in the header of the table */
 
     table_header?: string[] | undefined;
+
     
     /** array of contents of the table present in the elementeach array represents the table row */
 

@@ -22,20 +22,24 @@ a value of 100 is the peak popularity for the term. A value of 50 means that the
     }
 
 export class DataforseoTrendsGraphDataTrendsGraphDataInfo  implements IDataforseoTrendsGraphDataTrendsGraphDataInfo {
+
     
     /** start date of the corresponding time range
 in the UTC format: “yyyy-mm-dd” */
 
     date_from?: string | undefined;
+
     
     /** end date of the corresponding time range
 in the UTC format: “yyyy-mm-dd” */
 
     date_to?: string | undefined;
+
     
     /** a point in time in the Unix time format */
 
     timestamp?: number | undefined;
+
     
     /** relative keyword popularity rate at a specific timestamp
 represents the keyword popularity rate over the given time range

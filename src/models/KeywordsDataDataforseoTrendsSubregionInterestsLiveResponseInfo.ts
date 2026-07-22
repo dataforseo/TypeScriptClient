@@ -12,6 +12,7 @@ export interface IKeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo
     }
 
 export class KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo  extends BaseResponseInfo   implements IKeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo {
+
     
     /** array of tasks */
 

@@ -16,10 +16,12 @@ USD is applied by default, unless specified in the POST array */
     }
 
 export class PricesByDates  implements IPricesByDates {
+
     
     /** price per night */
 
     price?: number | undefined;
+
     
     /** price currency
 USD is applied by default, unless specified in the POST array */

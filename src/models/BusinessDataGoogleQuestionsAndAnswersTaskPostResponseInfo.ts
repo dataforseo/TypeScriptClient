@@ -12,6 +12,7 @@ export interface IBusinessDataGoogleQuestionsAndAnswersTaskPostResponseInfo  ext
     }
 
 export class BusinessDataGoogleQuestionsAndAnswersTaskPostResponseInfo  extends BaseResponseInfo   implements IBusinessDataGoogleQuestionsAndAnswersTaskPostResponseInfo {
+
     
     /** array of tasks */
 

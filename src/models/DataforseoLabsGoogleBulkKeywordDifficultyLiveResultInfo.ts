@@ -28,28 +28,34 @@ if there is no data, then the value is null */
     }
 
 export class DataforseoLabsGoogleBulkKeywordDifficultyLiveResultInfo  implements IDataforseoLabsGoogleBulkKeywordDifficultyLiveResultInfo {
+
     
     /** search engine type */
 
     se_type?: string | undefined;
+
     
     /** location code in a POST array
 if there is no data, then the value is null */
 
     location_code?: number | undefined;
+
     
     /** language code in a POST array
 if there is no data, then the value is null */
 
     language_code?: string | undefined;
+
     
     /** total amount of results in our database relevant to your request */
 
     total_count?: number | undefined;
+
     
     /** the number of results returned in the items array */
 
     items_count?: number | undefined;
+
     
     /** contains keywords and related keyword difficulty scores */
 

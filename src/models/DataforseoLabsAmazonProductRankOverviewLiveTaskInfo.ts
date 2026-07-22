@@ -12,6 +12,7 @@ export interface IDataforseoLabsAmazonProductRankOverviewLiveTaskInfo  extends I
     }
 
 export class DataforseoLabsAmazonProductRankOverviewLiveTaskInfo  extends BaseResponseTaskInfo   implements IDataforseoLabsAmazonProductRankOverviewLiveTaskInfo {
+
     
     /** array of results */
 

@@ -12,10 +12,12 @@ you can download the full list of possible categories */
     }
 
 export class DataforseoLabsGoogleCategoriesForKeywordsLiveItem  implements IDataforseoLabsGoogleCategoriesForKeywordsLiveItem {
+
     
     /** keyword in a POST array */
 
     keyword?: string | undefined;
+
     
     /** product and service categories
 you can download the full list of possible categories */

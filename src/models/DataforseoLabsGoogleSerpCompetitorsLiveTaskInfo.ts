@@ -12,6 +12,7 @@ export interface IDataforseoLabsGoogleSerpCompetitorsLiveTaskInfo  extends IBase
     }
 
 export class DataforseoLabsGoogleSerpCompetitorsLiveTaskInfo  extends BaseResponseTaskInfo   implements IDataforseoLabsGoogleSerpCompetitorsLiveTaskInfo {
+
     
     /** array of results */
 

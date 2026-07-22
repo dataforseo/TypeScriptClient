@@ -11,10 +11,12 @@ export interface IAnnotationInfo   {
     }
 
 export class AnnotationInfo  implements IAnnotationInfo {
+
     
     /** the domain name or title of the quoted source */
 
     title?: string | undefined;
+
     
     /** URL of the quoted source */
 

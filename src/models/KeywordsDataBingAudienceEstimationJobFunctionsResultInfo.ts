@@ -11,10 +11,12 @@ export interface IKeywordsDataBingAudienceEstimationJobFunctionsResultInfo   {
     }
 
 export class KeywordsDataBingAudienceEstimationJobFunctionsResultInfo  implements IKeywordsDataBingAudienceEstimationJobFunctionsResultInfo {
+
     
     /** ID of the job function */
 
     job_function_id?: number | undefined;
+
     
     /** name of the job function */
 

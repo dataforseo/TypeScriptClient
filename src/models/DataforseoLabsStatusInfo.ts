@@ -11,6 +11,7 @@ example:
     }
 
 export class DataforseoLabsStatusInfo  implements IDataforseoLabsStatusInfo {
+
     
     /** update date of the Google endpoints
 indicates the last date when the Google endpoints of DataForSEO Labs API were updated;

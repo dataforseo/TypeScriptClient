@@ -12,6 +12,7 @@ export interface IDataforseoLabsIdListTaskInfo  extends IBaseResponseTaskInfo   
     }
 
 export class DataforseoLabsIdListTaskInfo  extends BaseResponseTaskInfo   implements IDataforseoLabsIdListTaskInfo {
+
     
     /** array of results */
 

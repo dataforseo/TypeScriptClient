@@ -24,27 +24,33 @@ if the discount is fixed, the value will be null */
     }
 
 export class AmazonApplicableVouchersItem  implements IAmazonApplicableVouchersItem {
+
     
     /** type of element */
 
     type?: string | undefined;
+
     
     /** text of the voucher */
 
     text?: string | undefined;
+
     
     /** value of the fixed discount */
 
     fixed_discount?: number | undefined;
+
     
     /** currency code of the fixed discount */
 
     fixed_discount_currency?: string | undefined;
+
     
     /** value of the percentage discount
 if the discount is fixed, the value will be null */
 
     percentage_discount?: number | undefined;
+
     
     /** important details about the terms of discount vouchers */
 

@@ -12,6 +12,7 @@ export interface IAiOptimizationGeminiLlmScraperLanguagesTaskInfo  extends IBase
     }
 
 export class AiOptimizationGeminiLlmScraperLanguagesTaskInfo  extends BaseResponseTaskInfo   implements IAiOptimizationGeminiLlmScraperLanguagesTaskInfo {
+
     
     /** array of results */
 
