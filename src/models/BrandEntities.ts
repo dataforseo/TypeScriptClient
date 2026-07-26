@@ -1,12 +1,12 @@
 export interface IBrandEntities   {
         
-        /** rank in the results */
+        /** *rank in the results* */
         rank?: number | undefined
         
-        /** source title */
+        /** *source title* */
         title?: string | undefined
         
-        /** category of the brand */
+        /** *category of the brand* */
         category?: string | undefined
 
     [key: string]: any;
@@ -16,17 +16,17 @@ export interface IBrandEntities   {
 export class BrandEntities  implements IBrandEntities {
 
     
-    /** rank in the results */
+    /** *rank in the results* */
 
     rank?: number | undefined;
 
     
-    /** source title */
+    /** *source title* */
 
     title?: string | undefined;
 
     
-    /** category of the brand */
+    /** *category of the brand* */
 
     category?: string | undefined;
 

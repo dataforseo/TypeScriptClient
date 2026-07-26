@@ -8,12 +8,10 @@ export interface IPageMetaInfo   {
         /** page title */
         title?: string | undefined
         
-        /** code page
-example: 65001 */
+        /** code page example: 65001 */
         charset?: number | undefined
         
-        /** indicates whether a page’s ‘meta robots’ allows crawlers to follow the links on the page
-if false, the page’s ‘meta robots’ tag contains “nofollow” parameter instructing crawlers not to follow the links on the page */
+        /** indicates whether a page’s ‘meta robots’ allows crawlers to follow the links on the page if false, the page’s ‘meta robots’ tag contains “nofollow” parameter instructing crawlers not to follow the links on the page */
         follow?: boolean | undefined
         
         /** meta tag generator */
@@ -73,12 +71,10 @@ if false, the page’s ‘meta robots’ tag contains “nofollow” parameter i
         /** number of CSS styles on the page that block page rendering */
         render_blocking_stylesheets_count?: number | undefined
         
-        /** Core Web Vitals metric measuring the layout stability of the page
-measures the sum total of all individual layout shift scores for every unexpected layout shift that occurs during the entire lifespan of the page. Learn more. */
+        /** Core Web Vitals metric measuring the layout stability of the page measures the sum total of all individual layout shift scores for every unexpected layout shift that occurs during the entire lifespan of the page. Learn more. */
         cumulative_layout_shift?: number | undefined
         
-        /** meta title of the page
-meta tag in the head section of an HTML document that defines the title of a page */
+        /** meta title of the page meta tag in the head section of an HTML document that defines the title of a page */
         meta_title?: string | undefined
         
         /** overall information about content of the page */
@@ -90,13 +86,10 @@ meta tag in the head section of an HTML document that defines the title of a pag
         /** duplicate meta tags on the page */
         duplicate_meta_tags?: string[] | undefined
         
-        /** spellcheck
-hunspell spellcheck errors */
+        /** spellcheck hunspell spellcheck errors */
         spell?: HunspellInfo | undefined
         
-        /** object of social media tags found on the page
-contains social media tags and their content
-supported tags include but are not limited to Open Graph and Twitter card */
+        /** object of social media tags found on the page contains social media tags and their content supported tags include but are not limited to Open Graph and Twitter card */
         social_media_tags?: { [key: string]: string; } | undefined
         
         /** resource errors and warnings */
@@ -114,14 +107,12 @@ export class PageMetaInfo  implements IPageMetaInfo {
     title?: string | undefined;
 
     
-    /** code page
-example: 65001 */
+    /** code page example: 65001 */
 
     charset?: number | undefined;
 
     
-    /** indicates whether a page’s ‘meta robots’ allows crawlers to follow the links on the page
-if false, the page’s ‘meta robots’ tag contains “nofollow” parameter instructing crawlers not to follow the links on the page */
+    /** indicates whether a page’s ‘meta robots’ allows crawlers to follow the links on the page if false, the page’s ‘meta robots’ tag contains “nofollow” parameter instructing crawlers not to follow the links on the page */
 
     follow?: boolean | undefined;
 
@@ -221,14 +212,12 @@ if false, the page’s ‘meta robots’ tag contains “nofollow” parameter i
     render_blocking_stylesheets_count?: number | undefined;
 
     
-    /** Core Web Vitals metric measuring the layout stability of the page
-measures the sum total of all individual layout shift scores for every unexpected layout shift that occurs during the entire lifespan of the page. Learn more. */
+    /** Core Web Vitals metric measuring the layout stability of the page measures the sum total of all individual layout shift scores for every unexpected layout shift that occurs during the entire lifespan of the page. Learn more. */
 
     cumulative_layout_shift?: number | undefined;
 
     
-    /** meta title of the page
-meta tag in the head section of an HTML document that defines the title of a page */
+    /** meta title of the page meta tag in the head section of an HTML document that defines the title of a page */
 
     meta_title?: string | undefined;
 
@@ -248,15 +237,12 @@ meta tag in the head section of an HTML document that defines the title of a pag
     duplicate_meta_tags?: string[] | undefined;
 
     
-    /** spellcheck
-hunspell spellcheck errors */
+    /** spellcheck hunspell spellcheck errors */
 
     spell?: HunspellInfo | undefined;
 
     
-    /** object of social media tags found on the page
-contains social media tags and their content
-supported tags include but are not limited to Open Graph and Twitter card */
+    /** object of social media tags found on the page contains social media tags and their content supported tags include but are not limited to Open Graph and Twitter card */
 
     social_media_tags?: { [key: string]: string; } | undefined;
 

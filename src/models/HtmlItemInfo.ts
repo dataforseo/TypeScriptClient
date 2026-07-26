@@ -3,10 +3,7 @@ export interface IHtmlItemInfo   {
         /** serial number of the returned HTML page */
         page?: number | undefined
         
-        /** date and time when the HTML page was scanned
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** date and time when the HTML page was scanned in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
         date?: string | undefined
         
         /** HTML page */
@@ -24,10 +21,7 @@ export class HtmlItemInfo  implements IHtmlItemInfo {
     page?: number | undefined;
 
     
-    /** date and time when the HTML page was scanned
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** date and time when the HTML page was scanned in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
 
     date?: string | undefined;
 

@@ -12,28 +12,21 @@ export interface IHotelPriceItemInfo   {
         /** price per night */
         price?: number | undefined
         
-        /** price currency
-USD is applied by default, unless specified in the POST array */
+        /** price currency USD is applied by default, unless specified in the POST array */
         currency?: string | undefined
         
-        /** third-party page url
-URL to the third-party website page with pricing information */
+        /** third-party page url URL to the third-party website page with pricing information */
         url?: string | undefined
         
-        /** third-party domain
-domain of the third-party website page with pricing information */
+        /** third-party domain domain of the third-party website page with pricing information */
         domain?: string | undefined
         
-        /** indicates a paid hotel listing
-if true, related hotel_search_item is a paid ad
-if false, related hotel_search_item is an organic hotel listing */
+        /** indicates a paid hotel listing if true, related hotel_search_item is a paid ad if false, related hotel_search_item is an organic hotel listing */
         is_paid?: boolean | undefined
         
         official_site?: boolean | undefined
         
-        /** date until which free cancellation is available
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-equals null if free cancellation is not available for the selected dates */
+        /** date until which free cancellation is available in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” equals null if free cancellation is not available for the selected dates */
         free_cancellation_until?: string | undefined
         
         offers?: HotelInfoPriceOffer[] | undefined
@@ -60,36 +53,29 @@ export class HotelPriceItemInfo  implements IHotelPriceItemInfo {
     price?: number | undefined;
 
     
-    /** price currency
-USD is applied by default, unless specified in the POST array */
+    /** price currency USD is applied by default, unless specified in the POST array */
 
     currency?: string | undefined;
 
     
-    /** third-party page url
-URL to the third-party website page with pricing information */
+    /** third-party page url URL to the third-party website page with pricing information */
 
     url?: string | undefined;
 
     
-    /** third-party domain
-domain of the third-party website page with pricing information */
+    /** third-party domain domain of the third-party website page with pricing information */
 
     domain?: string | undefined;
 
     
-    /** indicates a paid hotel listing
-if true, related hotel_search_item is a paid ad
-if false, related hotel_search_item is an organic hotel listing */
+    /** indicates a paid hotel listing if true, related hotel_search_item is a paid ad if false, related hotel_search_item is an organic hotel listing */
 
     is_paid?: boolean | undefined;
 
     official_site?: boolean | undefined;
 
     
-    /** date until which free cancellation is available
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-equals null if free cancellation is not available for the selected dates */
+    /** date until which free cancellation is available in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” equals null if free cancellation is not available for the selected dates */
 
     free_cancellation_until?: string | undefined;
 

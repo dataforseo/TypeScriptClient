@@ -3,13 +3,13 @@ import { AggregatedMetricsInfoTotalInfo, IAggregatedMetricsInfoTotalInfo } from 
 
 export interface IAiOptimizationLlmMentionsHistoricalLiveItem   {
         
-        /** year */
+        /** *year* */
         year?: number | undefined
         
-        /** month */
+        /** *month* */
         month?: number | undefined
         
-        /** aggregated mentions metrics for the given month of a year */
+        /** *aggregated mentions metrics for the given month of a year* */
         metrics?: AggregatedMetricsInfoTotalInfo | undefined
 
     [key: string]: any;
@@ -19,17 +19,17 @@ export interface IAiOptimizationLlmMentionsHistoricalLiveItem   {
 export class AiOptimizationLlmMentionsHistoricalLiveItem  implements IAiOptimizationLlmMentionsHistoricalLiveItem {
 
     
-    /** year */
+    /** *year* */
 
     year?: number | undefined;
 
     
-    /** month */
+    /** *month* */
 
     month?: number | undefined;
 
     
-    /** aggregated mentions metrics for the given month of a year */
+    /** *aggregated mentions metrics for the given month of a year* */
 
     metrics?: AggregatedMetricsInfoTotalInfo | undefined;
 

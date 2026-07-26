@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **BusinessDataGoogleHotelInfoLiveHtmlResultInfo[]** | array of results |[optional]|
+**result** | **BusinessDataGoogleHotelInfoLiveHtmlResultInfo[]** | *array of results* |[optional]|

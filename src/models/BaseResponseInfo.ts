@@ -3,12 +3,10 @@ export interface IBaseResponseInfo   {
         /** the current version of the API */
         version?: string | undefined
         
-        /** general status code
-you can find the full list of the response codes here */
+        /** general status code you can find the full list of the response codes here */
         status_code?: number | undefined
         
-        /** general informational message
-you can find the full list of general informational messages here */
+        /** general informational message you can find the full list of general informational messages here */
         status_message?: string | undefined
         
         /** total execution time, seconds */
@@ -35,14 +33,12 @@ export class BaseResponseInfo  implements IBaseResponseInfo {
     version?: string | undefined;
 
     
-    /** general status code
-you can find the full list of the response codes here */
+    /** general status code you can find the full list of the response codes here */
 
     status_code?: number | undefined;
 
     
-    /** general informational message
-you can find the full list of general informational messages here */
+    /** general informational message you can find the full list of general informational messages here */
 
     status_message?: string | undefined;
 

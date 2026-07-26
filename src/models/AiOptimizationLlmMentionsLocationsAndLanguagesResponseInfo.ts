@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface IAiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: AiOptimizationLlmMentionsLocationsAndLanguagesTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IAiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo  ex
 export class AiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo  extends BaseResponseInfo   implements IAiOptimizationLlmMentionsLocationsAndLanguagesResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: AiOptimizationLlmMentionsLocationsAndLanguagesTaskInfo[] | undefined;
 

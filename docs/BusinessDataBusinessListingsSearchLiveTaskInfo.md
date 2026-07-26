@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **BusinessDataBusinessListingsSearchLiveResultInfo[]** | array of results |[optional]|
+**result** | **BusinessDataBusinessListingsSearchLiveResultInfo[]** | *array of results* |[optional]|

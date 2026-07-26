@@ -3,16 +3,13 @@ import { KeywordKpiItemInfo, IKeywordKpiItemInfo } from "./KeywordKpiItemInfo";
 
 export interface IKeywordKpi   {
         
-        /** keyword data aggregated for desktop devices
-if there is no data, then the value is null */
+        /** keyword data aggregated for desktop devices if there is no data, then the value is null */
         desktop?: KeywordKpiItemInfo[] | undefined
         
-        /** keyword data aggregated for mobile devices
-if there is no data, then the value is null */
+        /** keyword data aggregated for mobile devices if there is no data, then the value is null */
         mobile?: KeywordKpiItemInfo[] | undefined
         
-        /** keyword data aggregated for tablet devices
-if there is no data, then the value is null */
+        /** keyword data aggregated for tablet devices if there is no data, then the value is null */
         tablet?: KeywordKpiItemInfo[] | undefined
 
     [key: string]: any;
@@ -22,20 +19,17 @@ if there is no data, then the value is null */
 export class KeywordKpi  implements IKeywordKpi {
 
     
-    /** keyword data aggregated for desktop devices
-if there is no data, then the value is null */
+    /** keyword data aggregated for desktop devices if there is no data, then the value is null */
 
     desktop?: KeywordKpiItemInfo[] | undefined;
 
     
-    /** keyword data aggregated for mobile devices
-if there is no data, then the value is null */
+    /** keyword data aggregated for mobile devices if there is no data, then the value is null */
 
     mobile?: KeywordKpiItemInfo[] | undefined;
 
     
-    /** keyword data aggregated for tablet devices
-if there is no data, then the value is null */
+    /** keyword data aggregated for tablet devices if there is no data, then the value is null */
 
     tablet?: KeywordKpiItemInfo[] | undefined;
 

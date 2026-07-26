@@ -1,12 +1,12 @@
 export interface ISource   {
         
-        /** name of the source where the review was posted */
+        /** *name of the source where the review was posted* */
         title?: string | undefined
         
-        /** featured image of the source */
+        /** *featured image of the source* */
         image?: string | undefined
         
-        /** domain of the source where the review was posted */
+        /** *domain of the source where the review was posted* */
         domain?: string | undefined
 
     [key: string]: any;
@@ -16,17 +16,17 @@ export interface ISource   {
 export class Source  implements ISource {
 
     
-    /** name of the source where the review was posted */
+    /** *name of the source where the review was posted* */
 
     title?: string | undefined;
 
     
-    /** featured image of the source */
+    /** *featured image of the source* */
 
     image?: string | undefined;
 
     
-    /** domain of the source where the review was posted */
+    /** *domain of the source where the review was posted* */
 
     domain?: string | undefined;
 

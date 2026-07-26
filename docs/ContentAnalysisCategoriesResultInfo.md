@@ -6,4 +6,4 @@
 |------------ | ------------- | ------------- | -------------|
 **category_code** | **number** | category code |[optional]|
 **category_name** | **string** | full name of the category |[optional]|
-**category_code_parent** | **number** | the code of the superordinate category<br>example:<br>'category_code': 10178,<br>'category_name': 'Apparel Accessories',<br>'category_code_parent': 10021<br>where category_code_parent<br>corresponds to:<br>'category_code': 10178,<br>'category_name': 'Apparel Accessories' |[optional]|
+**category_code_parent** | **number** | the code of the superordinate category. example:. 'category_code': 10178,. 'category_name': 'Apparel Accessories',. 'category_code_parent': 10021. where category_code_parent. corresponds to:. 'category_code': 10178,. 'category_name': 'Apparel Accessories' |[optional]|

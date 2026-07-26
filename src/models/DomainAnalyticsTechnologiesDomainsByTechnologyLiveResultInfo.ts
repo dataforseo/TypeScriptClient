@@ -12,9 +12,7 @@ export interface IDomainAnalyticsTechnologiesDomainsByTechnologyLiveResultInfo  
         /** specified offset value */
         offset?: number | undefined
         
-        /** token for subsequent requests
-by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task;
-offset_token values are unique for each subsequent task */
+        /** token for subsequent requests by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task; offset_token values are unique for each subsequent task */
         offset_token?: string | undefined
         
         /** items array */
@@ -42,9 +40,7 @@ export class DomainAnalyticsTechnologiesDomainsByTechnologyLiveResultInfo  imple
     offset?: number | undefined;
 
     
-    /** token for subsequent requests
-by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task;
-offset_token values are unique for each subsequent task */
+    /** token for subsequent requests by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task; offset_token values are unique for each subsequent task */
 
     offset_token?: string | undefined;
 

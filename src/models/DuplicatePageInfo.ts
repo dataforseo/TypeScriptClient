@@ -3,9 +3,7 @@ import { OnPageHtmlResourceItem, IOnPageHtmlResourceItem } from "./BaseOnPageRes
 
 export interface IDuplicatePageInfo   {
         
-        /** content similarity score
-by default, the content is considered duplicate if the value is greater than or equals 6
-can take values from 0 to 10 */
+        /** content similarity score by default, the content is considered duplicate if the value is greater than or equals 6 can take values from 0 to 10 */
         similarity?: number | undefined
         
         /** information about the page with duplicate content */
@@ -18,9 +16,7 @@ can take values from 0 to 10 */
 export class DuplicatePageInfo  implements IDuplicatePageInfo {
 
     
-    /** content similarity score
-by default, the content is considered duplicate if the value is greater than or equals 6
-can take values from 0 to 10 */
+    /** content similarity score by default, the content is considered duplicate if the value is greater than or equals 6 can take values from 0 to 10 */
 
     similarity?: number | undefined;
 

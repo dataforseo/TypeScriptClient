@@ -25,13 +25,10 @@ export interface IBaseSerpApiBingPeopleAlsoAskExpandedElementItem   {
         /** images of the element */
         images?: AiModeImagesElementInfo[] | undefined
         
-        /** date and time when the video was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example: 2009-01-01 00:00:00 +00:00 */
+        /** date and time when the video was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2009-01-01 00:00:00 +00:00 */
         timestamp?: string | undefined
         
-        /** results table
-if there are none, equals null */
+        /** results table if there are none, equals null */
         table?: Table | undefined
 
     [key: string]: any;
@@ -76,15 +73,12 @@ export class BaseSerpApiBingPeopleAlsoAskExpandedElementItem  implements IBaseSe
     images?: AiModeImagesElementInfo[] | undefined;
 
     
-    /** date and time when the video was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example: 2009-01-01 00:00:00 +00:00 */
+    /** date and time when the video was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2009-01-01 00:00:00 +00:00 */
 
     timestamp?: string | undefined;
 
     
-    /** results table
-if there are none, equals null */
+    /** results table if there are none, equals null */
 
     table?: Table | undefined;
 

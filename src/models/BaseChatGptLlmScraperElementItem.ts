@@ -12,10 +12,10 @@ export interface IBaseChatGptLlmScraperElementItem   {
         /** type of element */
         type?: string | undefined
         
-        /** group rank in SERPposition within a group of elements with identical type valuespositions of elements with different type values are omitted from rank_group */
+        /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
         rank_group?: number | undefined
         
-        /** absolute rank in SERPabsolute position among all the elements */
+        /** *absolute rank in SERP* absolute position among all the elements */
         rank_absolute?: number | undefined
 
     [key: string]: any;
@@ -30,12 +30,12 @@ export class BaseChatGptLlmScraperElementItem  implements IBaseChatGptLlmScraper
     type?: string | undefined;
 
     
-    /** group rank in SERPposition within a group of elements with identical type valuespositions of elements with different type values are omitted from rank_group */
+    /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERPabsolute position among all the elements */
+    /** *absolute rank in SERP* absolute position among all the elements */
 
     rank_absolute?: number | undefined;
 
@@ -135,13 +135,13 @@ export class BaseChatGptLlmScraperElementItem  implements IBaseChatGptLlmScraper
  
 export interface IChatGptTextElementItem  extends IBaseChatGptLlmScraperElementItem    {
         
-        /** content of the element in markdown formatcontent of the result formatted in the markdown markup language */
+        /** *content of the element in markdown format* content of the result formatted in the [markdown markup language](https://en.wikipedia.org/wiki/Markdown) */
         markdown?: string | undefined
         
-        /** array of sources */
+        /** *array of sources* */
         sources?: SourceInfo[] | undefined
         
-        /** array of brand entitiescontains information on brands mentioned in the text */
+        /** *array of brand entities* contains information on brands mentioned in the text */
         brand_entities?: ChatGptBrandEntity[] | undefined
 
     [key: string]: any;
@@ -151,17 +151,17 @@ export interface IChatGptTextElementItem  extends IBaseChatGptLlmScraperElementI
 export class ChatGptTextElementItem  extends BaseChatGptLlmScraperElementItem   implements IChatGptTextElementItem {
 
     
-    /** content of the element in markdown formatcontent of the result formatted in the markdown markup language */
+    /** *content of the element in markdown format* content of the result formatted in the [markdown markup language](https://en.wikipedia.org/wiki/Markdown) */
 
     markdown?: string | undefined;
 
     
-    /** array of sources */
+    /** *array of sources* */
 
     sources?: SourceInfo[] | undefined;
 
     
-    /** array of brand entitiescontains information on brands mentioned in the text */
+    /** *array of brand entities* contains information on brands mentioned in the text */
 
     brand_entities?: ChatGptBrandEntity[] | undefined;
 
@@ -238,16 +238,16 @@ export class ChatGptTextElementItem  extends BaseChatGptLlmScraperElementItem   
  
 export interface IChatGptTableElementItem  extends IBaseChatGptLlmScraperElementItem    {
         
-        /** text of the element */
+        /** *text of the element* */
         text?: string | undefined
         
-        /** content of the element in markdown formatcontent of the result formatted in the markdown markup language */
+        /** *content of the element in markdown format* content of the result formatted in the [markdown markup language](https://en.wikipedia.org/wiki/Markdown) */
         markdown?: string | undefined
         
-        /** table present in the elementthe header and content of the table present in the element */
+        /** *table present in the element* the header and content of the table present in the element */
         table?: Table | undefined
         
-        /** array of brand entitiescontains information on brands mentioned in the text */
+        /** *array of brand entities* contains information on brands mentioned in the text */
         brand_entities?: ChatGptBrandEntity[] | undefined
 
     [key: string]: any;
@@ -257,22 +257,22 @@ export interface IChatGptTableElementItem  extends IBaseChatGptLlmScraperElement
 export class ChatGptTableElementItem  extends BaseChatGptLlmScraperElementItem   implements IChatGptTableElementItem {
 
     
-    /** text of the element */
+    /** *text of the element* */
 
     text?: string | undefined;
 
     
-    /** content of the element in markdown formatcontent of the result formatted in the markdown markup language */
+    /** *content of the element in markdown format* content of the result formatted in the [markdown markup language](https://en.wikipedia.org/wiki/Markdown) */
 
     markdown?: string | undefined;
 
     
-    /** table present in the elementthe header and content of the table present in the element */
+    /** *table present in the element* the header and content of the table present in the element */
 
     table?: Table | undefined;
 
     
-    /** array of brand entitiescontains information on brands mentioned in the text */
+    /** *array of brand entities* contains information on brands mentioned in the text */
 
     brand_entities?: ChatGptBrandEntity[] | undefined;
 
@@ -338,10 +338,10 @@ export class ChatGptTableElementItem  extends BaseChatGptLlmScraperElementItem  
  
 export interface IChatGptNavigationListElementItem  extends IBaseChatGptLlmScraperElementItem    {
         
-        /** name of the brand */
+        /** *name of the brand* */
         title?: string | undefined
         
-        /** array of sources */
+        /** *array of sources* */
         sources?: SourceInfo[] | undefined
 
     [key: string]: any;
@@ -351,12 +351,12 @@ export interface IChatGptNavigationListElementItem  extends IBaseChatGptLlmScrap
 export class ChatGptNavigationListElementItem  extends BaseChatGptLlmScraperElementItem   implements IChatGptNavigationListElementItem {
 
     
-    /** name of the brand */
+    /** *name of the brand* */
 
     title?: string | undefined;
 
     
-    /** array of sources */
+    /** *array of sources* */
 
     sources?: SourceInfo[] | undefined;
 
@@ -418,10 +418,10 @@ export class ChatGptNavigationListElementItem  extends BaseChatGptLlmScraperElem
  
 export interface IChatGptImagesElementItem  extends IBaseChatGptLlmScraperElementItem    {
         
-        /** content of the element in markdown formatcontent of the result formatted in the markdown markup language */
+        /** *content of the element in markdown format* content of the result formatted in the [markdown markup language](https://en.wikipedia.org/wiki/Markdown) */
         markdown?: string | undefined
         
-        /** elements of ChatGPT results */
+        /** *elements of ChatGPT results* */
         items?: GeminiImagesElement[] | undefined
 
     [key: string]: any;
@@ -431,12 +431,12 @@ export interface IChatGptImagesElementItem  extends IBaseChatGptLlmScraperElemen
 export class ChatGptImagesElementItem  extends BaseChatGptLlmScraperElementItem   implements IChatGptImagesElementItem {
 
     
-    /** content of the element in markdown formatcontent of the result formatted in the markdown markup language */
+    /** *content of the element in markdown format* content of the result formatted in the [markdown markup language](https://en.wikipedia.org/wiki/Markdown) */
 
     markdown?: string | undefined;
 
     
-    /** elements of ChatGPT results */
+    /** *elements of ChatGPT results* */
 
     items?: GeminiImagesElement[] | undefined;
 
@@ -498,7 +498,7 @@ export class ChatGptImagesElementItem  extends BaseChatGptLlmScraperElementItem 
  
 export interface IChatGptProductsElementItem  extends IBaseChatGptLlmScraperElementItem    {
         
-        /** elements of ChatGPT results */
+        /** *elements of ChatGPT results* */
         items?: ChatGptProductsElement[] | undefined
 
     [key: string]: any;
@@ -508,7 +508,7 @@ export interface IChatGptProductsElementItem  extends IBaseChatGptLlmScraperElem
 export class ChatGptProductsElementItem  extends BaseChatGptLlmScraperElementItem   implements IChatGptProductsElementItem {
 
     
-    /** elements of ChatGPT results */
+    /** *elements of ChatGPT results* */
 
     items?: ChatGptProductsElement[] | undefined;
 
@@ -568,10 +568,10 @@ export class ChatGptProductsElementItem  extends BaseChatGptLlmScraperElementIte
  
 export interface IChatGptLocalBusinessesElementItem  extends IBaseChatGptLlmScraperElementItem    {
         
-        /** content of the element in markdown formatcontent of the result formatted in the markdown markup language */
+        /** *content of the element in markdown format* content of the result formatted in the [markdown markup language](https://en.wikipedia.org/wiki/Markdown) */
         markdown?: string | undefined
         
-        /** elements of ChatGPT results */
+        /** *elements of ChatGPT results* */
         items?: ChatGptLocalBusinessesElement[] | undefined
 
     [key: string]: any;
@@ -581,12 +581,12 @@ export interface IChatGptLocalBusinessesElementItem  extends IBaseChatGptLlmScra
 export class ChatGptLocalBusinessesElementItem  extends BaseChatGptLlmScraperElementItem   implements IChatGptLocalBusinessesElementItem {
 
     
-    /** content of the element in markdown formatcontent of the result formatted in the markdown markup language */
+    /** *content of the element in markdown format* content of the result formatted in the [markdown markup language](https://en.wikipedia.org/wiki/Markdown) */
 
     markdown?: string | undefined;
 
     
-    /** elements of ChatGPT results */
+    /** *elements of ChatGPT results* */
 
     items?: ChatGptLocalBusinessesElement[] | undefined;
 
@@ -648,22 +648,22 @@ export class ChatGptLocalBusinessesElementItem  extends BaseChatGptLlmScraperEle
  
 export interface IChatGptAdElementItem  extends IBaseChatGptLlmScraperElementItem    {
         
-        /** name of the brand */
+        /** *name of the brand* */
         title?: string | undefined
         
-        /** source description */
+        /** *source description* */
         snippet?: string | undefined
         
-        /** URL */
+        /** *URL* */
         url?: string | undefined
         
-        /** domain */
+        /** *domain* */
         domain?: string | undefined
         
-        /** URL of the image displayed in the ad */
+        /** *URL of the image displayed in the ad* */
         image_url?: string | undefined
         
-        /** information about the advertiser associated with the ad */
+        /** *information about the advertiser associated with the ad* */
         advertiser?: ChatGptAdAdvertiser | undefined
 
     [key: string]: any;
@@ -673,32 +673,32 @@ export interface IChatGptAdElementItem  extends IBaseChatGptLlmScraperElementIte
 export class ChatGptAdElementItem  extends BaseChatGptLlmScraperElementItem   implements IChatGptAdElementItem {
 
     
-    /** name of the brand */
+    /** *name of the brand* */
 
     title?: string | undefined;
 
     
-    /** source description */
+    /** *source description* */
 
     snippet?: string | undefined;
 
     
-    /** URL */
+    /** *URL* */
 
     url?: string | undefined;
 
     
-    /** domain */
+    /** *domain* */
 
     domain?: string | undefined;
 
     
-    /** URL of the image displayed in the ad */
+    /** *URL of the image displayed in the ad* */
 
     image_url?: string | undefined;
 
     
-    /** information about the advertiser associated with the ad */
+    /** *information about the advertiser associated with the ad* */
 
     advertiser?: ChatGptAdAdvertiser | undefined;
 

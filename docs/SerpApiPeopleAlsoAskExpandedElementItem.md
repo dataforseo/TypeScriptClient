@@ -10,5 +10,5 @@
 **title** | **string** | title of the carousel item |[optional]|
 **description** | **string** | description |[optional]|
 **images** | **AiModeImagesElementInfo[]** | images of the element |[optional]|
-**timestamp** | **string** | date and time when the result was published<br>in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”<br>example:<br>2019-11-15 12:57:46 +00:00 |[optional]|
-**table** | **Table** | results table<br>if there are none, equals null |[optional]|
+**timestamp** | **string** | date and time when the result was published. in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”. example:. 2019-11-15 12:57:46 +00:00 |[optional]|
+**table** | **Table** | results table. if there are none, equals null |[optional]|

@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IAiOptimizationChatGptLlmResponsesTaskGetTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: AiOptimizationChatGptLlmResponsesTaskGetResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IAiOptimizationChatGptLlmResponsesTaskGetTaskInfo  extends IBas
 export class AiOptimizationChatGptLlmResponsesTaskGetTaskInfo  extends BaseResponseTaskInfo   implements IAiOptimizationChatGptLlmResponsesTaskGetTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: AiOptimizationChatGptLlmResponsesTaskGetResultInfo[] | undefined;
 

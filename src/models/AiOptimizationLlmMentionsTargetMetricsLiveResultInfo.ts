@@ -3,24 +3,19 @@ import { LlmMentionsAggregatedMetricsInfo, ILlmMentionsAggregatedMetricsInfo } f
 
 export interface IAiOptimizationLlmMentionsTargetMetricsLiveResultInfo   {
         
-        /** total amount of results relevant to the request
-in this case, always equals 0 */
+        /** *total amount of results relevant to the request* in this case, always equals `0` */
         total_count?: number | undefined
         
-        /** the number of mentions objects that are omitted in the items array
-in this case, always equals 0 */
+        /** *the number of mentions objects that are omitted in the `items` array* in this case, always equals `0` */
         offset?: number | undefined
         
-        /** the number of results returned in the items array
-in this case, always equals 0 */
+        /** *the number of results returned in the `items` array* in this case, always equals `0` */
         items_count?: number | undefined
         
-        /** aggregated mentions metrics
-contains aggregated LLM mention metrics across all found domains, grouped by various dimensions */
+        /** *aggregated mentions metrics* contains aggregated LLM mention metrics across all found domains, grouped by various dimensions */
         aggregated_metrics?: LlmMentionsAggregatedMetricsInfo | undefined
         
-        /** individual target results
-in this case, equals null */
+        /** *individual target results* in this case, equals `null` */
         items?: any[] | undefined
 
     [key: string]: any;
@@ -30,32 +25,27 @@ in this case, equals null */
 export class AiOptimizationLlmMentionsTargetMetricsLiveResultInfo  implements IAiOptimizationLlmMentionsTargetMetricsLiveResultInfo {
 
     
-    /** total amount of results relevant to the request
-in this case, always equals 0 */
+    /** *total amount of results relevant to the request* in this case, always equals `0` */
 
     total_count?: number | undefined;
 
     
-    /** the number of mentions objects that are omitted in the items array
-in this case, always equals 0 */
+    /** *the number of mentions objects that are omitted in the `items` array* in this case, always equals `0` */
 
     offset?: number | undefined;
 
     
-    /** the number of results returned in the items array
-in this case, always equals 0 */
+    /** *the number of results returned in the `items` array* in this case, always equals `0` */
 
     items_count?: number | undefined;
 
     
-    /** aggregated mentions metrics
-contains aggregated LLM mention metrics across all found domains, grouped by various dimensions */
+    /** *aggregated mentions metrics* contains aggregated LLM mention metrics across all found domains, grouped by various dimensions */
 
     aggregated_metrics?: LlmMentionsAggregatedMetricsInfo | undefined;
 
     
-    /** individual target results
-in this case, equals null */
+    /** *individual target results* in this case, equals `null` */
 
     items?: any[] | undefined;
 

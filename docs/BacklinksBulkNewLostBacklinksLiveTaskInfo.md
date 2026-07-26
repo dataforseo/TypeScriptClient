@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **BacklinksBulkNewLostBacklinksLiveResultInfo[]** | array of results |[optional]|
+**result** | **BacklinksBulkNewLostBacklinksLiveResultInfo[]** | *array of results* |[optional]|

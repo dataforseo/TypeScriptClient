@@ -6,49 +6,49 @@ import { BaseChatGptLlmScraperElementItem, IBaseChatGptLlmScraperElementItem } f
 
 export interface IAiOptimizationChatGptLlmScraperTaskGetAdvancedResultInfo   {
         
-        /** keyword received in a POST arraythe keyword is returned with decoded %## (plus symbol '+' will be decoded to a space character) */
+        /** *keyword received in a POST array***the keyword is returned with decoded %## (plus symbol '+' will be decoded to a space character)** */
         keyword?: string | undefined
         
-        /** location code in a POST array */
+        /** *location code in a POST array* */
         location_code?: number | undefined
         
-        /** language code in a POST array */
+        /** *language code in a POST array* */
         language_code?: string | undefined
         
-        /** indicates the model version */
+        /** *indicates the model version* */
         model?: string | undefined
         
-        /** direct URL to search engine resultsyou can use it to make sure that we provided exact results */
+        /** *direct URL to search engine results*you can use it to make sure that we provided exact results */
         check_url?: string | undefined
         
-        /** date and time when the result was receivedin the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”example:2019-11-15 12:57:46 +00:00 */
+        /** *date and time when the result was received* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
         datetime?: string | undefined
         
-        /** content of the element in markdown formatcontent of the result formatted in the markdown markup language */
+        /** *content of the element in markdown format* content of the result formatted in the [markdown markup language](https://en.wikipedia.org/wiki/Markdown) */
         markdown?: string | undefined
         
-        /** array of search resultsall web search outputs the model retrieved when looking up information, including duplicates and unused entries */
+        /** *array of search results* all web search outputs the model retrieved when looking up information, including duplicates and unused entries */
         search_results?: ChatgptSearchResult[] | undefined
         
-        /** array of sourcesthe sources the model actually cited or relied on in its final answer */
+        /** *array of sources* the sources the model actually cited or relied on in its final answer */
         sources?: SourceInfo[] | undefined
         
-        /** array of fan-out queriescontains related search queries derived from the main query to provide a more comprehensive response */
+        /** *array of fan-out queries* contains related search queries derived from the main query to provide a more comprehensive response */
         fan_out_queries?: string[] | undefined
         
-        /** array of brand entitiescontains information on brands mentioned in the response */
+        /** *array of brand entities* contains information on brands mentioned in the response */
         brand_entities?: ChatGptBrandEntity[] | undefined
         
-        /** total number of results */
+        /** *total number of results* */
         se_results_count?: number | undefined
         
-        /** types of search resultscontains types of search results (items) found.possible item types:chat_gpt_text, chat_gpt_table, chat_gpt_navigation_list, chat_gpt_images, chat_gpt_local_businesses, chat_gpt_products */
+        /** *types of search results* contains types of search results (`items`) found. possible item types: `chat_gpt_text`, `chat_gpt_table`, `chat_gpt_navigation_list`, `chat_gpt_images`, `chat_gpt_local_businesses`, `chat_gpt_products` */
         item_types?: string[] | undefined
         
-        /** the number of results returned in the items array */
+        /** *the number of results returned in the **`items`** array* */
         items_count?: number | undefined
         
-        /** items present in the element */
+        /** *items present in the element* */
         items?: BaseChatGptLlmScraperElementItem[] | undefined
 
     [key: string]: any;
@@ -58,77 +58,77 @@ export interface IAiOptimizationChatGptLlmScraperTaskGetAdvancedResultInfo   {
 export class AiOptimizationChatGptLlmScraperTaskGetAdvancedResultInfo  implements IAiOptimizationChatGptLlmScraperTaskGetAdvancedResultInfo {
 
     
-    /** keyword received in a POST arraythe keyword is returned with decoded %## (plus symbol '+' will be decoded to a space character) */
+    /** *keyword received in a POST array***the keyword is returned with decoded %## (plus symbol '+' will be decoded to a space character)** */
 
     keyword?: string | undefined;
 
     
-    /** location code in a POST array */
+    /** *location code in a POST array* */
 
     location_code?: number | undefined;
 
     
-    /** language code in a POST array */
+    /** *language code in a POST array* */
 
     language_code?: string | undefined;
 
     
-    /** indicates the model version */
+    /** *indicates the model version* */
 
     model?: string | undefined;
 
     
-    /** direct URL to search engine resultsyou can use it to make sure that we provided exact results */
+    /** *direct URL to search engine results*you can use it to make sure that we provided exact results */
 
     check_url?: string | undefined;
 
     
-    /** date and time when the result was receivedin the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”example:2019-11-15 12:57:46 +00:00 */
+    /** *date and time when the result was received* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
 
     datetime?: string | undefined;
 
     
-    /** content of the element in markdown formatcontent of the result formatted in the markdown markup language */
+    /** *content of the element in markdown format* content of the result formatted in the [markdown markup language](https://en.wikipedia.org/wiki/Markdown) */
 
     markdown?: string | undefined;
 
     
-    /** array of search resultsall web search outputs the model retrieved when looking up information, including duplicates and unused entries */
+    /** *array of search results* all web search outputs the model retrieved when looking up information, including duplicates and unused entries */
 
     search_results?: ChatgptSearchResult[] | undefined;
 
     
-    /** array of sourcesthe sources the model actually cited or relied on in its final answer */
+    /** *array of sources* the sources the model actually cited or relied on in its final answer */
 
     sources?: SourceInfo[] | undefined;
 
     
-    /** array of fan-out queriescontains related search queries derived from the main query to provide a more comprehensive response */
+    /** *array of fan-out queries* contains related search queries derived from the main query to provide a more comprehensive response */
 
     fan_out_queries?: string[] | undefined;
 
     
-    /** array of brand entitiescontains information on brands mentioned in the response */
+    /** *array of brand entities* contains information on brands mentioned in the response */
 
     brand_entities?: ChatGptBrandEntity[] | undefined;
 
     
-    /** total number of results */
+    /** *total number of results* */
 
     se_results_count?: number | undefined;
 
     
-    /** types of search resultscontains types of search results (items) found.possible item types:chat_gpt_text, chat_gpt_table, chat_gpt_navigation_list, chat_gpt_images, chat_gpt_local_businesses, chat_gpt_products */
+    /** *types of search results* contains types of search results (`items`) found. possible item types: `chat_gpt_text`, `chat_gpt_table`, `chat_gpt_navigation_list`, `chat_gpt_images`, `chat_gpt_local_businesses`, `chat_gpt_products` */
 
     item_types?: string[] | undefined;
 
     
-    /** the number of results returned in the items array */
+    /** *the number of results returned in the **`items`** array* */
 
     items_count?: number | undefined;
 
     
-    /** items present in the element */
+    /** *items present in the element* */
 
     items?: BaseChatGptLlmScraperElementItem[] | undefined;
 

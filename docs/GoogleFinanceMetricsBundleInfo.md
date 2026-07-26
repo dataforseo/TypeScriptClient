@@ -5,7 +5,7 @@
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
 **type** | **string** | type of element |[optional]|
-**timestamp** | **string** | date and time of the value readout<br>in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”<br>example:<br>2025-02-10 09:40:00 +00:00 |[optional]|
+**timestamp** | **string** | date and time of the value readout. in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”. example:. 2025-02-10 09:40:00 +00:00 |[optional]|
 **revenue** | **number** | revenue value |[optional]|
 **revenue_delta** | **number** | change in revenue |[optional]|
 **operating_expense** | **number** | operating expense value |[optional]|

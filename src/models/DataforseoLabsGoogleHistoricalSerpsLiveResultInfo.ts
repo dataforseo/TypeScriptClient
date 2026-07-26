@@ -6,8 +6,7 @@ export interface IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo   {
         /** search engine type in a POST array */
         se_type?: string | undefined
         
-        /** keyword received in a POST array
-the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
+        /** keyword received in a POST array the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
         keyword?: string | undefined
         
         /** location code in a POST array */
@@ -37,8 +36,7 @@ export class DataforseoLabsGoogleHistoricalSerpsLiveResultInfo  implements IData
     se_type?: string | undefined;
 
     
-    /** keyword received in a POST array
-the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
+    /** keyword received in a POST array the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
 
     keyword?: string | undefined;
 

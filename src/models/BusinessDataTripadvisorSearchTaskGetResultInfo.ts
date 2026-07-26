@@ -3,8 +3,7 @@ import { TripadvisorSearchOrganic, ITripadvisorSearchOrganic } from "./Tripadvis
 
 export interface IBusinessDataTripadvisorSearchTaskGetResultInfo   {
         
-        /** keyword received in a POST array
-this field will contain the alias parameter if it was specified in a POST array */
+        /** keyword received in a POST array this field will contain the alias parameter if it was specified in a POST array */
         keyword?: string | undefined
         
         /** search engine domain in a POST array */
@@ -16,29 +15,22 @@ this field will contain the alias parameter if it was specified in a POST array 
         /** language code in a POST array */
         language_code?: string | undefined
         
-        /** direct URL to Tripadvisor results
-you can use it to make sure that we provided accurate results */
+        /** direct URL to Tripadvisor results you can use it to make sure that we provided accurate results */
         check_url?: string | undefined
         
-        /** date and time when the result was received
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** date and time when the result was received in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
         datetime?: string | undefined
         
-        /** item types encountered in the result
-possible item types: tripadvisor_search_organic */
+        /** item types encountered in the result possible item types: tripadvisor_search_organic */
         item_types?: string[] | undefined
         
         /** the total number of results */
         se_results_count?: number | undefined
         
-        /** the number of items in the results array
-you can get more results by using the depth parameter when setting a task */
+        /** the number of items in the results array you can get more results by using the depth parameter when setting a task */
         items_count?: number | undefined
         
-        /** Tripadvisor search listing results
-you can get more results by using the depth parameter when setting a task */
+        /** Tripadvisor search listing results you can get more results by using the depth parameter when setting a task */
         items?: TripadvisorSearchOrganic[] | undefined
 
     [key: string]: any;
@@ -48,8 +40,7 @@ you can get more results by using the depth parameter when setting a task */
 export class BusinessDataTripadvisorSearchTaskGetResultInfo  implements IBusinessDataTripadvisorSearchTaskGetResultInfo {
 
     
-    /** keyword received in a POST array
-this field will contain the alias parameter if it was specified in a POST array */
+    /** keyword received in a POST array this field will contain the alias parameter if it was specified in a POST array */
 
     keyword?: string | undefined;
 
@@ -69,22 +60,17 @@ this field will contain the alias parameter if it was specified in a POST array 
     language_code?: string | undefined;
 
     
-    /** direct URL to Tripadvisor results
-you can use it to make sure that we provided accurate results */
+    /** direct URL to Tripadvisor results you can use it to make sure that we provided accurate results */
 
     check_url?: string | undefined;
 
     
-    /** date and time when the result was received
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** date and time when the result was received in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
 
     datetime?: string | undefined;
 
     
-    /** item types encountered in the result
-possible item types: tripadvisor_search_organic */
+    /** item types encountered in the result possible item types: tripadvisor_search_organic */
 
     item_types?: string[] | undefined;
 
@@ -94,14 +80,12 @@ possible item types: tripadvisor_search_organic */
     se_results_count?: number | undefined;
 
     
-    /** the number of items in the results array
-you can get more results by using the depth parameter when setting a task */
+    /** the number of items in the results array you can get more results by using the depth parameter when setting a task */
 
     items_count?: number | undefined;
 
     
-    /** Tripadvisor search listing results
-you can get more results by using the depth parameter when setting a task */
+    /** Tripadvisor search listing results you can get more results by using the depth parameter when setting a task */
 
     items?: TripadvisorSearchOrganic[] | undefined;
 

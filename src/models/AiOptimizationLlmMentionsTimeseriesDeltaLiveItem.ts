@@ -1,16 +1,12 @@
 export interface IAiOptimizationLlmMentionsTimeseriesDeltaLiveItem   {
         
-        /** date timestamp
- date format: 'yyyy-mm-dd' */
+        /** *date timestamp*  date format: `'yyyy-mm-dd'` */
         date?: string | undefined
         
-        /** LLM mentions count delta
-the difference in mentions between the current timestamp and the previous one */
+        /** *LLM mentions count delta* the difference in `mentions` between the current timestamp and the previous one */
         delta_mentions?: number | undefined
         
-        /** LLM mentions count delta
-the difference in ai_search_volume values between the current timestamp and the previous one
-learn more about this metric here */
+        /** *LLM mentions count delta* the difference in `ai_search_volume` values between the current timestamp and the previous one learn more about this metric [here](https://dataforseo.com/help-center/how-ai-search-volume-metrics-work-in-the-llm-mentions-timeseries-endpoints) */
         delta_ai_search_volume?: number | undefined
 
     [key: string]: any;
@@ -20,21 +16,17 @@ learn more about this metric here */
 export class AiOptimizationLlmMentionsTimeseriesDeltaLiveItem  implements IAiOptimizationLlmMentionsTimeseriesDeltaLiveItem {
 
     
-    /** date timestamp
- date format: 'yyyy-mm-dd' */
+    /** *date timestamp*  date format: `'yyyy-mm-dd'` */
 
     date?: string | undefined;
 
     
-    /** LLM mentions count delta
-the difference in mentions between the current timestamp and the previous one */
+    /** *LLM mentions count delta* the difference in `mentions` between the current timestamp and the previous one */
 
     delta_mentions?: number | undefined;
 
     
-    /** LLM mentions count delta
-the difference in ai_search_volume values between the current timestamp and the previous one
-learn more about this metric here */
+    /** *LLM mentions count delta* the difference in `ai_search_volume` values between the current timestamp and the previous one learn more about this metric [here](https://dataforseo.com/help-center/how-ai-search-volume-metrics-work-in-the-llm-mentions-timeseries-endpoints) */
 
     delta_ai_search_volume?: number | undefined;
 

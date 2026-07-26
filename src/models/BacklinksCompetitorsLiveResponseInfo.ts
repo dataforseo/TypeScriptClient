@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface IBacklinksCompetitorsLiveResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: BacklinksCompetitorsLiveTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IBacklinksCompetitorsLiveResponseInfo  extends IBaseResponseInf
 export class BacklinksCompetitorsLiveResponseInfo  extends BaseResponseInfo   implements IBacklinksCompetitorsLiveResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: BacklinksCompetitorsLiveTaskInfo[] | undefined;
 

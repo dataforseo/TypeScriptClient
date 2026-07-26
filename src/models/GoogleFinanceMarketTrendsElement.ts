@@ -7,12 +7,10 @@ export interface IGoogleFinanceMarketTrendsElement   {
         /** type of element */
         type?: string | undefined
         
-        /** object of items
-array contains the following type of items: google_finance_asset_pair_element, google_finance_market_instrument_element, google_finance_market_index_element */
+        /** object of items array contains the following type of items: google_finance_asset_pair_element, google_finance_market_instrument_element, google_finance_market_index_element */
         quote?: BaseSerpApiGoogleFinanceElementItem | undefined
         
-        /** array of items
-array contains the following type of items: google_finance_news_element */
+        /** array of items array contains the following type of items: google_finance_news_element */
         news?: GoogleFinanceNewsElement[] | undefined
 
     [key: string]: any;
@@ -27,14 +25,12 @@ export class GoogleFinanceMarketTrendsElement  implements IGoogleFinanceMarketTr
     type?: string | undefined;
 
     
-    /** object of items
-array contains the following type of items: google_finance_asset_pair_element, google_finance_market_instrument_element, google_finance_market_index_element */
+    /** object of items array contains the following type of items: google_finance_asset_pair_element, google_finance_market_instrument_element, google_finance_market_index_element */
 
     quote?: BaseSerpApiGoogleFinanceElementItem | undefined;
 
     
-    /** array of items
-array contains the following type of items: google_finance_news_element */
+    /** array of items array contains the following type of items: google_finance_news_element */
 
     news?: GoogleFinanceNewsElement[] | undefined;
 

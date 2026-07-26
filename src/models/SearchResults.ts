@@ -1,27 +1,24 @@
 export interface ISearchResults   {
         
-        /** result description */
+        /** *result description* */
         description?: string | undefined
         
-        /** breadcrumb */
+        /** *breadcrumb* */
         breadcrumb?: string | undefined
         
-        /** rank in the results */
+        /** *rank in the results* */
         rank?: number | undefined
         
-        /** source title */
+        /** *source title* */
         title?: string | undefined
         
-        /** source domain */
+        /** *source domain* */
         domain?: string | undefined
         
-        /** source URL */
+        /** *source URL* */
         url?: string | undefined
         
-        /** date and time when the result was published
-in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** *date and time when the result was published* in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes” example: `2019-11-15 12:57:46 +00:00` */
         publication_date?: string | undefined
 
     [key: string]: any;
@@ -31,40 +28,37 @@ example:
 export class SearchResults  implements ISearchResults {
 
     
-    /** result description */
+    /** *result description* */
 
     description?: string | undefined;
 
     
-    /** breadcrumb */
+    /** *breadcrumb* */
 
     breadcrumb?: string | undefined;
 
     
-    /** rank in the results */
+    /** *rank in the results* */
 
     rank?: number | undefined;
 
     
-    /** source title */
+    /** *source title* */
 
     title?: string | undefined;
 
     
-    /** source domain */
+    /** *source domain* */
 
     domain?: string | undefined;
 
     
-    /** source URL */
+    /** *source URL* */
 
     url?: string | undefined;
 
     
-    /** date and time when the result was published
-in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** *date and time when the result was published* in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes” example: `2019-11-15 12:57:46 +00:00` */
 
     publication_date?: string | undefined;
 

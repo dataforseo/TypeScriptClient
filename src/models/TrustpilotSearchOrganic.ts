@@ -6,12 +6,10 @@ export interface ITrustpilotSearchOrganic   {
         /** type of element */
         type?: string | undefined
         
-        /** position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+        /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
         rank_group?: number | undefined
         
-        /** absolute rank among all the listed reviews
-absolute position among all reviews on the list */
+        /** absolute rank among all the listed reviews absolute position among all reviews on the list */
         rank_absolute?: number | undefined
         
         /** title of the establishment */
@@ -41,14 +39,12 @@ export class TrustpilotSearchOrganic  implements ITrustpilotSearchOrganic {
     type?: string | undefined;
 
     
-    /** position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+    /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank among all the listed reviews
-absolute position among all reviews on the list */
+    /** absolute rank among all the listed reviews absolute position among all reviews on the list */
 
     rank_absolute?: number | undefined;
 

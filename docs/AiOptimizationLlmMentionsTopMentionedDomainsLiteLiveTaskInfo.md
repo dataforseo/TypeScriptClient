@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **AiOptimizationLlmMentionsTopMentionedDomainsLiteLiveResultInfo[]** | array of results |[optional]|
+**result** | **AiOptimizationLlmMentionsTopMentionedDomainsLiteLiveResultInfo[]** | *array of results* |[optional]|

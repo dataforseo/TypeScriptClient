@@ -4,8 +4,7 @@ import { OnPageDuplicateContentItem, IOnPageDuplicateContentItem } from "./OnPag
 
 export interface IOnPageDuplicateContentResultInfo   {
         
-        /** status of the crawling session
-possible values: in_progress, finished */
+        /** status of the crawling session possible values: in_progress, finished */
         crawl_progress?: string | undefined
         
         /** details of the crawling session */
@@ -24,8 +23,7 @@ possible values: in_progress, finished */
 export class OnPageDuplicateContentResultInfo  implements IOnPageDuplicateContentResultInfo {
 
     
-    /** status of the crawling session
-possible values: in_progress, finished */
+    /** status of the crawling session possible values: in_progress, finished */
 
     crawl_progress?: string | undefined;
 

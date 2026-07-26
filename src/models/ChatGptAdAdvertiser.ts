@@ -1,12 +1,12 @@
 export interface IChatGptAdAdvertiser   {
         
-        /** name of the advertiser */
+        /** *name of the advertiser* */
         name?: string | undefined
         
-        /** source URL */
+        /** *source URL* */
         url?: string | undefined
         
-        /** URL of the advertiser's favicon image */
+        /** *URL of the advertiser's favicon image* */
         favicon_url?: string | undefined
 
     [key: string]: any;
@@ -16,17 +16,17 @@ export interface IChatGptAdAdvertiser   {
 export class ChatGptAdAdvertiser  implements IChatGptAdAdvertiser {
 
     
-    /** name of the advertiser */
+    /** *name of the advertiser* */
 
     name?: string | undefined;
 
     
-    /** source URL */
+    /** *source URL* */
 
     url?: string | undefined;
 
     
-    /** URL of the advertiser's favicon image */
+    /** *URL of the advertiser's favicon image* */
 
     favicon_url?: string | undefined;
 

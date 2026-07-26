@@ -6,24 +6,19 @@ export interface IOnPageWaterfallItem   {
         /** URL of the page */
         page_url?: string | undefined
         
-        /** Time To Interactive (TTI) metric
-the time it takes until the user can interact with a page (in milliseconds) */
+        /** Time To Interactive (TTI) metric the time it takes until the user can interact with a page (in milliseconds) */
         time_to_interactive?: number | undefined
         
-        /** time to load resources
-the time it takes until the page and all of its subresources are downloaded (in milliseconds) */
+        /** time to load resources the time it takes until the page and all of its subresources are downloaded (in milliseconds) */
         dom_complete?: number | undefined
         
-        /** time to connect to a server
-the time it takes until the connection with a server is established (in milliseconds) */
+        /** time to connect to a server the time it takes until the connection with a server is established (in milliseconds) */
         connection_time?: number | undefined
         
-        /** time to establish a secure connection
-the time it takes until the secure connection with a server is established (in milliseconds) */
+        /** time to establish a secure connection the time it takes until the secure connection with a server is established (in milliseconds) */
         time_to_secure_connection?: number | undefined
         
-        /** time to send a request to a server
-the time it takes until the request to a server is sent (in milliseconds) */
+        /** time to send a request to a server the time it takes until the request to a server is sent (in milliseconds) */
         request_sent_time?: number | undefined
         
         /** time to first byte (TTFB) in milliseconds */
@@ -35,16 +30,13 @@ the time it takes until the request to a server is sent (in milliseconds) */
         /** total time it takes until a browser receives a complete response from a server (in milliseconds) */
         duration_time?: number | undefined
         
-        /** time to start downloading the HTML resource
-the amount of time the browser needs to start downloading a page */
+        /** time to start downloading the HTML resource the amount of time the browser needs to start downloading a page */
         fetch_start?: number | undefined
         
-        /** time to complete downloading the HTML resource
-the amount of time the browser needs to complete downloading a page */
+        /** time to complete downloading the HTML resource the amount of time the browser needs to complete downloading a page */
         fetch_end?: number | undefined
         
-        /** resource-specific timing
-contains separate arrays with timing for each resource found on the page */
+        /** resource-specific timing contains separate arrays with timing for each resource found on the page */
         resources?: WaterfallResourceInfo[] | undefined
 
     [key: string]: any;
@@ -59,32 +51,27 @@ export class OnPageWaterfallItem  implements IOnPageWaterfallItem {
     page_url?: string | undefined;
 
     
-    /** Time To Interactive (TTI) metric
-the time it takes until the user can interact with a page (in milliseconds) */
+    /** Time To Interactive (TTI) metric the time it takes until the user can interact with a page (in milliseconds) */
 
     time_to_interactive?: number | undefined;
 
     
-    /** time to load resources
-the time it takes until the page and all of its subresources are downloaded (in milliseconds) */
+    /** time to load resources the time it takes until the page and all of its subresources are downloaded (in milliseconds) */
 
     dom_complete?: number | undefined;
 
     
-    /** time to connect to a server
-the time it takes until the connection with a server is established (in milliseconds) */
+    /** time to connect to a server the time it takes until the connection with a server is established (in milliseconds) */
 
     connection_time?: number | undefined;
 
     
-    /** time to establish a secure connection
-the time it takes until the secure connection with a server is established (in milliseconds) */
+    /** time to establish a secure connection the time it takes until the secure connection with a server is established (in milliseconds) */
 
     time_to_secure_connection?: number | undefined;
 
     
-    /** time to send a request to a server
-the time it takes until the request to a server is sent (in milliseconds) */
+    /** time to send a request to a server the time it takes until the request to a server is sent (in milliseconds) */
 
     request_sent_time?: number | undefined;
 
@@ -104,20 +91,17 @@ the time it takes until the request to a server is sent (in milliseconds) */
     duration_time?: number | undefined;
 
     
-    /** time to start downloading the HTML resource
-the amount of time the browser needs to start downloading a page */
+    /** time to start downloading the HTML resource the amount of time the browser needs to start downloading a page */
 
     fetch_start?: number | undefined;
 
     
-    /** time to complete downloading the HTML resource
-the amount of time the browser needs to complete downloading a page */
+    /** time to complete downloading the HTML resource the amount of time the browser needs to complete downloading a page */
 
     fetch_end?: number | undefined;
 
     
-    /** resource-specific timing
-contains separate arrays with timing for each resource found on the page */
+    /** resource-specific timing contains separate arrays with timing for each resource found on the page */
 
     resources?: WaterfallResourceInfo[] | undefined;
 

@@ -1,7 +1,6 @@
 export interface IRatingInfo   {
         
-        /** the type of rating
-here you can find the following elements: Max5, Percents, CustomMax */
+        /** the type of rating here you can find the following elements: Max5, Percents, CustomMax */
         rating_type?: string | undefined
         
         /** the value of the rating */
@@ -20,8 +19,7 @@ here you can find the following elements: Max5, Percents, CustomMax */
 export class RatingInfo  implements IRatingInfo {
 
     
-    /** the type of rating
-here you can find the following elements: Max5, Percents, CustomMax */
+    /** the type of rating here you can find the following elements: Max5, Percents, CustomMax */
 
     rating_type?: string | undefined;
 

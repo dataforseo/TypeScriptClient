@@ -5,8 +5,7 @@ import { BaseSerpApiElementItem, IBaseSerpApiElementItem } from "./BaseSerpApiEl
 
 export interface ISerpSeznamOrganicTaskGetRegularResultInfo   {
         
-        /** keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character) */
+        /** keyword received in a POST array keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character) */
         keyword?: string | undefined
         
         /** type of element */
@@ -21,38 +20,25 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
         /** language code in a POST array */
         language_code?: string | undefined
         
-        /** direct URL to search engine results
-you can use it to make sure that we provided accurate results */
+        /** direct URL to search engine results you can use it to make sure that we provided accurate results */
         check_url?: string | undefined
         
-        /** date and time when the result was received
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** date and time when the result was received in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
         datetime?: string | undefined
         
-        /** autocorrection of the search engine
-if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
+        /** autocorrection of the search engine if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
         spell?: SpellInfo | undefined
         
-        /** search refinement chips
-equals null */
+        /** search refinement chips equals null */
         refinement_chips?: RefinementChipsInfo | undefined
         
-        /** types of search results found in SERP
-contains types of all search results (items) found in the returned SERP
-possible item types:
-images, local_pack, organic, related_searches, top_stories, featured_snippet, video
-note that this array contains all types of search results found in the returned SERP;
-however, this endpoint provides data for the organic type only
-to get all items (inlcuding SERP features and rich snippets) found in the returned SERP, please refer to the Seznam Organiс Advanced SERP endpoint */
+        /** types of search results found in SERP contains types of all search results (items) found in the returned SERP possible item types: images, local_pack, organic, related_searches, top_stories, featured_snippet, video note that this array contains all types of search results found in the returned SERP; however, this endpoint provides data for the organic type only to get all items (inlcuding SERP features and rich snippets) found in the returned SERP, please refer to the Seznam Organiс Advanced SERP endpoint */
         item_types?: string[] | undefined
         
         /** total number of results in SERP */
         se_results_count?: number | undefined
         
-        /** total pages retrieved
-total number of retrieved SERPs in the result */
+        /** total pages retrieved total number of retrieved SERPs in the result */
         pages_count?: number | undefined
         
         /** the number of results returned in the items array */
@@ -68,8 +54,7 @@ total number of retrieved SERPs in the result */
 export class SerpSeznamOrganicTaskGetRegularResultInfo  implements ISerpSeznamOrganicTaskGetRegularResultInfo {
 
     
-    /** keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character) */
+    /** keyword received in a POST array keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character) */
 
     keyword?: string | undefined;
 
@@ -94,39 +79,27 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
     language_code?: string | undefined;
 
     
-    /** direct URL to search engine results
-you can use it to make sure that we provided accurate results */
+    /** direct URL to search engine results you can use it to make sure that we provided accurate results */
 
     check_url?: string | undefined;
 
     
-    /** date and time when the result was received
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** date and time when the result was received in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
 
     datetime?: string | undefined;
 
     
-    /** autocorrection of the search engine
-if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
+    /** autocorrection of the search engine if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
 
     spell?: SpellInfo | undefined;
 
     
-    /** search refinement chips
-equals null */
+    /** search refinement chips equals null */
 
     refinement_chips?: RefinementChipsInfo | undefined;
 
     
-    /** types of search results found in SERP
-contains types of all search results (items) found in the returned SERP
-possible item types:
-images, local_pack, organic, related_searches, top_stories, featured_snippet, video
-note that this array contains all types of search results found in the returned SERP;
-however, this endpoint provides data for the organic type only
-to get all items (inlcuding SERP features and rich snippets) found in the returned SERP, please refer to the Seznam Organiс Advanced SERP endpoint */
+    /** types of search results found in SERP contains types of all search results (items) found in the returned SERP possible item types: images, local_pack, organic, related_searches, top_stories, featured_snippet, video note that this array contains all types of search results found in the returned SERP; however, this endpoint provides data for the organic type only to get all items (inlcuding SERP features and rich snippets) found in the returned SERP, please refer to the Seznam Organiс Advanced SERP endpoint */
 
     item_types?: string[] | undefined;
 
@@ -136,8 +109,7 @@ to get all items (inlcuding SERP features and rich snippets) found in the return
     se_results_count?: number | undefined;
 
     
-    /** total pages retrieved
-total number of retrieved SERPs in the result */
+    /** total pages retrieved total number of retrieved SERPs in the result */
 
     pages_count?: number | undefined;
 

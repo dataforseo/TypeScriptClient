@@ -6,16 +6,10 @@ export interface IBacklinksTimeseriesNewLostSummaryLiveResultInfo   {
         /** target from a POST array */
         target?: string | undefined
         
-        /** starting date of the time range
-in the UTC format: “yyyy-mm-dd”
-example:
-2019-01-01 */
+        /** starting date of the time range in the UTC format: “yyyy-mm-dd” example: 2019-01-01 */
         date_from?: string | undefined
         
-        /** ending date of the time range
-in the UTC format: 'yyyy-mm-dd'
-example:
-'2019-01-15' */
+        /** ending date of the time range in the UTC format: 'yyyy-mm-dd' example: '2019-01-15' */
         date_to?: string | undefined
         
         /** group_range from the POST array */
@@ -39,18 +33,12 @@ export class BacklinksTimeseriesNewLostSummaryLiveResultInfo  implements IBackli
     target?: string | undefined;
 
     
-    /** starting date of the time range
-in the UTC format: “yyyy-mm-dd”
-example:
-2019-01-01 */
+    /** starting date of the time range in the UTC format: “yyyy-mm-dd” example: 2019-01-01 */
 
     date_from?: string | undefined;
 
     
-    /** ending date of the time range
-in the UTC format: 'yyyy-mm-dd'
-example:
-'2019-01-15' */
+    /** ending date of the time range in the UTC format: 'yyyy-mm-dd' example: '2019-01-15' */
 
     date_to?: string | undefined;
 

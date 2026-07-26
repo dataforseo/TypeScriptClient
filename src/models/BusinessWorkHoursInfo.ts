@@ -3,8 +3,7 @@ import { WorkHours, IWorkHours } from "./WorkHours";
 
 export interface IBusinessWorkHoursInfo   {
         
-        /** open hours
-information about work hours of the local establishment */
+        /** *open hours* information about work hours of the local establishment */
         work_hours?: WorkHours | undefined
 
     [key: string]: any;
@@ -14,8 +13,7 @@ information about work hours of the local establishment */
 export class BusinessWorkHoursInfo  implements IBusinessWorkHoursInfo {
 
     
-    /** open hours
-information about work hours of the local establishment */
+    /** *open hours* information about work hours of the local establishment */
 
     work_hours?: WorkHours | undefined;
 

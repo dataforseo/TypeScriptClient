@@ -1,90 +1,36 @@
 export interface IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo   {
         
-        /** domain
-required field
-the domain name of the target website
-the domain should be specified without https:// and www. */
+        /** domain required field the domain name of the target website the domain should be specified without https:// and www. */
         target?: string | undefined
         
-        /** full name of the location
-required field if you don’t specify location_code
-Note: it is required to specify either location_name or location_code
-you can receive the list of available locations with their location_name by making a separate request to the
-https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
-example:
-United Kingdom */
+        /** full name of the location required field if you don’t specify location_code Note: it is required to specify either location_name or location_code you can receive the list of available locations with their location_name by making a separate request to the https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages example: United Kingdom */
         location_name?: string | undefined
         
-        /** location code
-required field if you don’t specify location_name
-Note: it is required to specify either location_name or location_code
-you can receive the list of available locations with their location_code by making a separate request to the
-https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
-example:
-2840 */
+        /** location code required field if you don’t specify location_name Note: it is required to specify either location_name or location_code you can receive the list of available locations with their location_code by making a separate request to the https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages example: 2840 */
         location_code?: number | undefined
         
-        /** full name of the language
-required field if you don’t specify language_code
-Note: it is required to specify either language_name or language_code
-you can receive the list of available locations with their language_name by making a separate request to the
-https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
-example:
-English */
+        /** full name of the language required field if you don’t specify language_code Note: it is required to specify either language_name or language_code you can receive the list of available locations with their language_name by making a separate request to the https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages example: English */
         language_name?: string | undefined
         
-        /** language code
-required field if you don’t specify language_name
-Note: it is required to specify either language_name or language_code
-you can receive the list of available locations with their language_code by making a separate request to the
-https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
-example:
-en */
+        /** language code required field if you don’t specify language_name Note: it is required to specify either language_name or language_code you can receive the list of available locations with their language_code by making a separate request to the https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages example: en */
         language_code?: string | undefined
         
-        /** starting date of the time range
-optional field
-if you don’t specify this field, the data will be provided for the previous 6 months
-minimal possible value: 2020-10-01
-date format: 'yyyy-mm-dd' */
+        /** starting date of the time range optional field if you don’t specify this field, the data will be provided for the previous 6 months minimal possible value: 2020-10-01 date format: 'yyyy-mm-dd' */
         date_from?: string | undefined
         
-        /** ending date of the time range
-optional field
-if you don’t specify this field, the today’s date will be used by default
-date format: 'yyyy-mm-dd'
-example:
-'2021-04-01' */
+        /** ending date of the time range optional field if you don’t specify this field, the today’s date will be used by default date format: 'yyyy-mm-dd' example: '2021-04-01' */
         date_to?: string | undefined
         
-        /** correlate data with previously obtained datasets
-optional field
-default value: true
-if you use this parameter, our system will correlate data you obtain now with previously obtained datasets
-this parameter is intended to mitigate any inconsistencies that may result from changes to our database
-we recommend always setting correlate to true */
+        /** correlate data with previously obtained datasets optional field default value: true if you use this parameter, our system will correlate data you obtain now with previously obtained datasets this parameter is intended to mitigate any inconsistencies that may result from changes to our database we recommend always setting correlate to true */
         correlate?: boolean | undefined
         
-        /** ignore highly similar keywords
-optional field
-if set to true, only data based on core keywords will be returned, data for all highly similar keywords will be excluded;
-default value: false */
+        /** ignore highly similar keywords optional field if set to true, only data based on core keywords will be returned, data for all highly similar keywords will be excluded; default value: false */
         ignore_synonyms?: boolean | undefined
         
-        /** include or exclude data from clickstream-based metrics in the result
-optional field
-if the parameter is set to true, you will receive clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response;
-default value: false;
-Note: historical clickstream data is available from 2024/05 (May, 2024);
-with this parameter enabled, you will be charged double the price for the request;
-learn more about how clickstream-based metrics are calculated in this help center article */
+        /** include or exclude data from clickstream-based metrics in the result optional field if the parameter is set to true, you will receive clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response; default value: false; Note: historical clickstream data is available from 2024/05 (May, 2024); with this parameter enabled, you will be charged double the price for the request; learn more about how clickstream-based metrics are calculated in this help center article */
         include_clickstream_data?: boolean | undefined
         
-        /** user-defined task identifier
-optional field
-the character limit is 255
-you can use this parameter to identify the task and match it with the result
-you will find the specified tag value in the data object of the response */
+        /** user-defined task identifier optional field the character limit is 255 you can use this parameter to identify the task and match it with the result you will find the specified tag value in the data object of the response */
         tag?: string | undefined
 
     [key: string]: any;
@@ -94,111 +40,57 @@ you will find the specified tag value in the data object of the response */
 export class DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo  implements IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo {
 
     
-    /** domain
-required field
-the domain name of the target website
-the domain should be specified without https:// and www. */
+    /** domain required field the domain name of the target website the domain should be specified without https:// and www. */
 
     target?: string | undefined;
 
     
-    /** full name of the location
-required field if you don’t specify location_code
-Note: it is required to specify either location_name or location_code
-you can receive the list of available locations with their location_name by making a separate request to the
-https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
-example:
-United Kingdom */
+    /** full name of the location required field if you don’t specify location_code Note: it is required to specify either location_name or location_code you can receive the list of available locations with their location_name by making a separate request to the https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages example: United Kingdom */
 
     location_name?: string | undefined;
 
     
-    /** location code
-required field if you don’t specify location_name
-Note: it is required to specify either location_name or location_code
-you can receive the list of available locations with their location_code by making a separate request to the
-https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
-example:
-2840 */
+    /** location code required field if you don’t specify location_name Note: it is required to specify either location_name or location_code you can receive the list of available locations with their location_code by making a separate request to the https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages example: 2840 */
 
     location_code?: number | undefined;
 
     
-    /** full name of the language
-required field if you don’t specify language_code
-Note: it is required to specify either language_name or language_code
-you can receive the list of available locations with their language_name by making a separate request to the
-https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
-example:
-English */
+    /** full name of the language required field if you don’t specify language_code Note: it is required to specify either language_name or language_code you can receive the list of available locations with their language_name by making a separate request to the https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages example: English */
 
     language_name?: string | undefined;
 
     
-    /** language code
-required field if you don’t specify language_name
-Note: it is required to specify either language_name or language_code
-you can receive the list of available locations with their language_code by making a separate request to the
-https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
-example:
-en */
+    /** language code required field if you don’t specify language_name Note: it is required to specify either language_name or language_code you can receive the list of available locations with their language_code by making a separate request to the https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages example: en */
 
     language_code?: string | undefined;
 
     
-    /** starting date of the time range
-optional field
-if you don’t specify this field, the data will be provided for the previous 6 months
-minimal possible value: 2020-10-01
-date format: 'yyyy-mm-dd' */
+    /** starting date of the time range optional field if you don’t specify this field, the data will be provided for the previous 6 months minimal possible value: 2020-10-01 date format: 'yyyy-mm-dd' */
 
     date_from?: string | undefined;
 
     
-    /** ending date of the time range
-optional field
-if you don’t specify this field, the today’s date will be used by default
-date format: 'yyyy-mm-dd'
-example:
-'2021-04-01' */
+    /** ending date of the time range optional field if you don’t specify this field, the today’s date will be used by default date format: 'yyyy-mm-dd' example: '2021-04-01' */
 
     date_to?: string | undefined;
 
     
-    /** correlate data with previously obtained datasets
-optional field
-default value: true
-if you use this parameter, our system will correlate data you obtain now with previously obtained datasets
-this parameter is intended to mitigate any inconsistencies that may result from changes to our database
-we recommend always setting correlate to true */
+    /** correlate data with previously obtained datasets optional field default value: true if you use this parameter, our system will correlate data you obtain now with previously obtained datasets this parameter is intended to mitigate any inconsistencies that may result from changes to our database we recommend always setting correlate to true */
 
     correlate?: boolean | undefined;
 
     
-    /** ignore highly similar keywords
-optional field
-if set to true, only data based on core keywords will be returned, data for all highly similar keywords will be excluded;
-default value: false */
+    /** ignore highly similar keywords optional field if set to true, only data based on core keywords will be returned, data for all highly similar keywords will be excluded; default value: false */
 
     ignore_synonyms?: boolean | undefined;
 
     
-    /** include or exclude data from clickstream-based metrics in the result
-optional field
-if the parameter is set to true, you will receive clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response;
-default value: false;
-Note: historical clickstream data is available from 2024/05 (May, 2024);
-with this parameter enabled, you will be charged double the price for the request;
-learn more about how clickstream-based metrics are calculated in this help center article */
+    /** include or exclude data from clickstream-based metrics in the result optional field if the parameter is set to true, you will receive clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response; default value: false; Note: historical clickstream data is available from 2024/05 (May, 2024); with this parameter enabled, you will be charged double the price for the request; learn more about how clickstream-based metrics are calculated in this help center article */
 
     include_clickstream_data?: boolean | undefined;
 
     
-    /** user-defined task identifier
-optional field
-the character limit is 255
-you can use this parameter to identify the task and match it with the result
-you will find the specified tag value in the data object of the response */
+    /** user-defined task identifier optional field the character limit is 255 you can use this parameter to identify the task and match it with the result you will find the specified tag value in the data object of the response */
 
     tag?: string | undefined;
 

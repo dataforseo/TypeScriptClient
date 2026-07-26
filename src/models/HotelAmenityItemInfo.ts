@@ -1,18 +1,18 @@
 export interface IHotelAmenityItemInfo   {
         
-        /** standardised amenity name */
+        /** *standardised amenity name* */
         amenity?: string | undefined
         
-        /** displayed amenity name */
+        /** *displayed amenity name* */
         amenity_label?: string | undefined
         
-        /** standardised details about the amenity */
+        /** *standardised details about the amenity* */
         hint?: string | undefined
         
-        /** displayed details about the amenity */
+        /** *displayed details about the amenity* */
         hint_label?: string | undefined
         
-        /** indicates whether the amenity is available in the hotel */
+        /** *indicates whether the `amenity` is available in the hotel* */
         is_available?: boolean | undefined
 
     [key: string]: any;
@@ -22,27 +22,27 @@ export interface IHotelAmenityItemInfo   {
 export class HotelAmenityItemInfo  implements IHotelAmenityItemInfo {
 
     
-    /** standardised amenity name */
+    /** *standardised amenity name* */
 
     amenity?: string | undefined;
 
     
-    /** displayed amenity name */
+    /** *displayed amenity name* */
 
     amenity_label?: string | undefined;
 
     
-    /** standardised details about the amenity */
+    /** *standardised details about the amenity* */
 
     hint?: string | undefined;
 
     
-    /** displayed details about the amenity */
+    /** *displayed details about the amenity* */
 
     hint_label?: string | undefined;
 
     
-    /** indicates whether the amenity is available in the hotel */
+    /** *indicates whether the `amenity` is available in the hotel* */
 
     is_available?: boolean | undefined;
 

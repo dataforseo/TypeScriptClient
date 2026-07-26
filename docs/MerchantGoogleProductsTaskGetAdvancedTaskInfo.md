@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **MerchantGoogleProductsTaskGetAdvancedResultInfo[]** | array of results |[optional]|
+**result** | **MerchantGoogleProductsTaskGetAdvancedResultInfo[]** | *array of results* |[optional]|

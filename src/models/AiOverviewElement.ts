@@ -16,8 +16,7 @@ export interface IAiOverviewElement   {
         /** images of the element */
         images?: AiModeImagesElementInfo[] | undefined
         
-        /** references relevant to the element
-includes references to webpages that were used to generate the ai_overview_element */
+        /** references relevant to the element includes references to webpages that were used to generate the ai_overview_element */
         references?: AiModeAiOverviewReferenceInfo[] | undefined
 
     [key: string]: any;
@@ -47,8 +46,7 @@ export class AiOverviewElement  implements IAiOverviewElement {
     images?: AiModeImagesElementInfo[] | undefined;
 
     
-    /** references relevant to the element
-includes references to webpages that were used to generate the ai_overview_element */
+    /** references relevant to the element includes references to webpages that were used to generate the ai_overview_element */
 
     references?: AiModeAiOverviewReferenceInfo[] | undefined;
 

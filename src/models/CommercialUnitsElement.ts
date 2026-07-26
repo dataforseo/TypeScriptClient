@@ -22,9 +22,7 @@ export interface ICommercialUnitsElement   {
         /** reference source name or title */
         source?: string | undefined
         
-        /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP;
-if there is none, equals null */
+        /** the item’s rating  the popularity rate based on reviews and displayed in SERP; if there is none, equals null */
         rating?: RatingInfo | undefined
 
     [key: string]: any;
@@ -64,9 +62,7 @@ export class CommercialUnitsElement  implements ICommercialUnitsElement {
     source?: string | undefined;
 
     
-    /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP;
-if there is none, equals null */
+    /** the item’s rating  the popularity rate based on reviews and displayed in SERP; if there is none, equals null */
 
     rating?: RatingInfo | undefined;
 

@@ -6,8 +6,7 @@ export interface IMerchantGoogleSellersAdUrlResultInfo   {
         /** full URL of the advertisement */
         ad_url?: string | undefined
         
-        /** URLs where the link from Google Shopping redirects before reaching a final URL
-includes up to 10 URLs of the ad’s redirect path to the seller’s ad_url */
+        /** URLs where the link from Google Shopping redirects before reaching a final URL includes up to 10 URLs of the ad’s redirect path to the seller’s ad_url */
         ad_url_redirects?: string[] | undefined
 
     [key: string]: any;
@@ -27,8 +26,7 @@ export class MerchantGoogleSellersAdUrlResultInfo  implements IMerchantGoogleSel
     ad_url?: string | undefined;
 
     
-    /** URLs where the link from Google Shopping redirects before reaching a final URL
-includes up to 10 URLs of the ad’s redirect path to the seller’s ad_url */
+    /** URLs where the link from Google Shopping redirects before reaching a final URL includes up to 10 URLs of the ad’s redirect path to the seller’s ad_url */
 
     ad_url_redirects?: string[] | undefined;
 

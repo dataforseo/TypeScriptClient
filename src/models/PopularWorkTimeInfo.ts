@@ -6,9 +6,7 @@ export interface IPopularWorkTimeInfo   {
         /** hours in the 24-hour format */
         time?: TimeInfo | undefined
         
-        /** popularity index
-relative time-bound popularity index measured from 0 to 100;
-higher value corresponds to a busier time of a day */
+        /** popularity index relative time-bound popularity index measured from 0 to 100; higher value corresponds to a busier time of a day */
         popular_index?: number | undefined
 
     [key: string]: any;
@@ -23,9 +21,7 @@ export class PopularWorkTimeInfo  implements IPopularWorkTimeInfo {
     time?: TimeInfo | undefined;
 
     
-    /** popularity index
-relative time-bound popularity index measured from 0 to 100;
-higher value corresponds to a busier time of a day */
+    /** popularity index relative time-bound popularity index measured from 0 to 100; higher value corresponds to a busier time of a day */
 
     popular_index?: number | undefined;
 

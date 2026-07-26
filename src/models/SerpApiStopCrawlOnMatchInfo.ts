@@ -1,16 +1,9 @@
 export interface ISerpApiStopCrawlOnMatchInfo   {
         
-        /** arget domain or wildcard value
-required field if stop_crawl_on_match is specified;
-specify a target domain or wildcard value;
-Note: domain name must be specified without a request protocol;
-example: dataforseo.com */
+        /** arget domain or wildcard value required field if stop_crawl_on_match is specified; specify a target domain or wildcard value; Note: domain name must be specified without a request protocol; example: dataforseo.com */
         match_value?: string | undefined
         
-        /** target match type
-required field if stop_crawl_on_match is specified;
-type of match for the match_value
-possible values: domain, with_subdomains, wildcard */
+        /** target match type required field if stop_crawl_on_match is specified; type of match for the match_value possible values: domain, with_subdomains, wildcard */
         match_type?: string | undefined
 
     [key: string]: any;
@@ -20,19 +13,12 @@ possible values: domain, with_subdomains, wildcard */
 export class SerpApiStopCrawlOnMatchInfo  implements ISerpApiStopCrawlOnMatchInfo {
 
     
-    /** arget domain or wildcard value
-required field if stop_crawl_on_match is specified;
-specify a target domain or wildcard value;
-Note: domain name must be specified without a request protocol;
-example: dataforseo.com */
+    /** arget domain or wildcard value required field if stop_crawl_on_match is specified; specify a target domain or wildcard value; Note: domain name must be specified without a request protocol; example: dataforseo.com */
 
     match_value?: string | undefined;
 
     
-    /** target match type
-required field if stop_crawl_on_match is specified;
-type of match for the match_value
-possible values: domain, with_subdomains, wildcard */
+    /** target match type required field if stop_crawl_on_match is specified; type of match for the match_value possible values: domain, with_subdomains, wildcard */
 
     match_type?: string | undefined;
 

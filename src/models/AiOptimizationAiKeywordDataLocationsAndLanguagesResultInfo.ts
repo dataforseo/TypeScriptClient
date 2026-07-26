@@ -9,8 +9,7 @@ export interface IAiOptimizationAiKeywordDataLocationsAndLanguagesResultInfo   {
         /** full name of the location */
         location_name?: string | undefined
         
-        /** supported languages
-contains the languages which are supported for a specific location */
+        /** supported languages contains the languages which are supported for a specific location */
         available_languages?: AvailableLanguages[] | undefined
 
     [key: string]: any;
@@ -30,8 +29,7 @@ export class AiOptimizationAiKeywordDataLocationsAndLanguagesResultInfo  impleme
     location_name?: string | undefined;
 
     
-    /** supported languages
-contains the languages which are supported for a specific location */
+    /** supported languages contains the languages which are supported for a specific location */
 
     available_languages?: AvailableLanguages[] | undefined;
 

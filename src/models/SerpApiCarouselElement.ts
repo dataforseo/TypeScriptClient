@@ -9,8 +9,7 @@ export interface ISerpApiCarouselElement   {
         /** subtitle of the element */
         subtitle?: string | undefined
         
-        /** URL of the image
-the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+        /** URL of the image the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
         image_url?: string | undefined
 
     [key: string]: any;
@@ -35,8 +34,7 @@ export class SerpApiCarouselElement  implements ISerpApiCarouselElement {
     subtitle?: string | undefined;
 
     
-    /** URL of the image
-the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+    /** URL of the image the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
     image_url?: string | undefined;
 

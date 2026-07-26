@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**intersections_count** | **number** | total number of intersections |[optional]|
+**intersections_count** | **number** | *total number of intersections* |[optional]|

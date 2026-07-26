@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **BusinessDataErrorsResultInfo[]** | array of results |[optional]|
+**result** | **BusinessDataErrorsResultInfo[]** | *array of results* |[optional]|

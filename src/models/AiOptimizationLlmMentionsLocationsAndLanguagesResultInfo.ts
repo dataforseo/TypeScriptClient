@@ -3,14 +3,13 @@ import { ResultAvailableLanguages, IResultAvailableLanguages } from "./ResultAva
 
 export interface IAiOptimizationLlmMentionsLocationsAndLanguagesResultInfo   {
         
-        /** location code */
+        /** *location code* */
         location_code?: number | undefined
         
-        /** full name of the location */
+        /** *full name of the location* */
         location_name?: string | undefined
         
-        /** supported languages
-contains the languages which are supported for a specific location */
+        /** *supported languages* contains the languages which are supported for a specific location */
         available_languages?: ResultAvailableLanguages[] | undefined
 
     [key: string]: any;
@@ -20,18 +19,17 @@ contains the languages which are supported for a specific location */
 export class AiOptimizationLlmMentionsLocationsAndLanguagesResultInfo  implements IAiOptimizationLlmMentionsLocationsAndLanguagesResultInfo {
 
     
-    /** location code */
+    /** *location code* */
 
     location_code?: number | undefined;
 
     
-    /** full name of the location */
+    /** *full name of the location* */
 
     location_name?: string | undefined;
 
     
-    /** supported languages
-contains the languages which are supported for a specific location */
+    /** *supported languages* contains the languages which are supported for a specific location */
 
     available_languages?: ResultAvailableLanguages[] | undefined;
 

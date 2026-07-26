@@ -3,16 +3,16 @@ export interface IAiModeLinkElementInfo   {
         /** type of element */
         type?: string | undefined
         
-        /** title of the element */
+        /** *title of the element* */
         title?: string | undefined
         
-        /** link description */
+        /** *link description* */
         description?: string | undefined
         
-        /** search URL with refinement parameters */
+        /** *search URL with refinement parameters* */
         url?: string | undefined
         
-        /** domain in SERP */
+        /** *domain in SERP* */
         domain?: string | undefined
 
     [key: string]: any;
@@ -27,22 +27,22 @@ export class AiModeLinkElementInfo  implements IAiModeLinkElementInfo {
     type?: string | undefined;
 
     
-    /** title of the element */
+    /** *title of the element* */
 
     title?: string | undefined;
 
     
-    /** link description */
+    /** *link description* */
 
     description?: string | undefined;
 
     
-    /** search URL with refinement parameters */
+    /** *search URL with refinement parameters* */
 
     url?: string | undefined;
 
     
-    /** domain in SERP */
+    /** *domain in SERP* */
 
     domain?: string | undefined;
 

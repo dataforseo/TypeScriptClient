@@ -6,8 +6,7 @@ export interface IMathSolverExpandedElement   {
         /** title of the carousel item */
         title?: string | undefined
         
-        /** solution of the element
-displays steps to solve the mathematical equation as specified in the element */
+        /** solution of the element displays steps to solve the mathematical equation as specified in the element */
         solution?: string[] | undefined
 
     [key: string]: any;
@@ -27,8 +26,7 @@ export class MathSolverExpandedElement  implements IMathSolverExpandedElement {
     title?: string | undefined;
 
     
-    /** solution of the element
-displays steps to solve the mathematical equation as specified in the element */
+    /** solution of the element displays steps to solve the mathematical equation as specified in the element */
 
     solution?: string[] | undefined;
 

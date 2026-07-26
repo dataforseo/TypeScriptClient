@@ -1,7 +1,6 @@
 export interface IOnPageNonIndexableItem   {
         
-        /** the reason why the page is non-indexable
-can take the following values: robots_txt, meta_tag, http_header, attribute, too_many_redirects */
+        /** the reason why the page is non-indexable can take the following values: robots_txt, meta_tag, http_header, attribute, too_many_redirects */
         reason?: string | undefined
         
         /** url of the non-indexable page */
@@ -14,8 +13,7 @@ can take the following values: robots_txt, meta_tag, http_header, attribute, too
 export class OnPageNonIndexableItem  implements IOnPageNonIndexableItem {
 
     
-    /** the reason why the page is non-indexable
-can take the following values: robots_txt, meta_tag, http_header, attribute, too_many_redirects */
+    /** the reason why the page is non-indexable can take the following values: robots_txt, meta_tag, http_header, attribute, too_many_redirects */
 
     reason?: string | undefined;
 

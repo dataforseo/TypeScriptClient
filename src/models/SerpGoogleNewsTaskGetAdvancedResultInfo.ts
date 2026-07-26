@@ -5,8 +5,7 @@ import { BaseSerpApiGoogleNewsElementItem, IBaseSerpApiGoogleNewsElementItem } f
 
 export interface ISerpGoogleNewsTaskGetAdvancedResultInfo   {
         
-        /** keyword received in a POST array
-the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character) */
+        /** keyword received in a POST array the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character) */
         keyword?: string | undefined
         
         /** type of element */
@@ -21,18 +20,13 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
         /** language code in a POST array */
         language_code?: string | undefined
         
-        /** direct URL to search engine results
-you can use it to make sure that we provided accurate results */
+        /** direct URL to search engine results you can use it to make sure that we provided accurate results */
         check_url?: string | undefined
         
-        /** date and time when the result was received
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** date and time when the result was received in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
         datetime?: string | undefined
         
-        /** autocorrection of the search engine
-if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
+        /** autocorrection of the search engine if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
         spell?: SpellInfo | undefined
         
         /** search refinement chips */
@@ -41,10 +35,7 @@ if the search engine provided results for a keyword that was corrected, we will 
         /** indicates whether the response contains non-news search results in addition to news content */
         includes_non_news_search_results?: boolean | undefined
         
-        /** types of search results in SERP
-contains types of search results (items) found in SERP.
-possible item types:
-top_stories, news_search */
+        /** types of search results in SERP contains types of search results (items) found in SERP. possible item types: top_stories, news_search */
         item_types?: string[] | undefined
         
         /** total number of results in SERP */
@@ -63,8 +54,7 @@ top_stories, news_search */
 export class SerpGoogleNewsTaskGetAdvancedResultInfo  implements ISerpGoogleNewsTaskGetAdvancedResultInfo {
 
     
-    /** keyword received in a POST array
-the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character) */
+    /** keyword received in a POST array the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character) */
 
     keyword?: string | undefined;
 
@@ -89,22 +79,17 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
     language_code?: string | undefined;
 
     
-    /** direct URL to search engine results
-you can use it to make sure that we provided accurate results */
+    /** direct URL to search engine results you can use it to make sure that we provided accurate results */
 
     check_url?: string | undefined;
 
     
-    /** date and time when the result was received
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** date and time when the result was received in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
 
     datetime?: string | undefined;
 
     
-    /** autocorrection of the search engine
-if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
+    /** autocorrection of the search engine if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
 
     spell?: SpellInfo | undefined;
 
@@ -119,10 +104,7 @@ if the search engine provided results for a keyword that was corrected, we will 
     includes_non_news_search_results?: boolean | undefined;
 
     
-    /** types of search results in SERP
-contains types of search results (items) found in SERP.
-possible item types:
-top_stories, news_search */
+    /** types of search results in SERP contains types of search results (items) found in SERP. possible item types: top_stories, news_search */
 
     item_types?: string[] | undefined;
 

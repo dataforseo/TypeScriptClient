@@ -1,27 +1,18 @@
 export interface IOnPageIdListResultInfo   {
         
-        /** task identifier
-unique task identifier in our system in the UUID format */
+        /** task identifier unique task identifier in our system in the UUID format */
         id?: string | undefined
         
-        /** URL of the task
-URL you used for making an API call */
+        /** URL of the task URL you used for making an API call */
         url?: string | undefined
         
-        /** date and time when the task was made
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2023-01-15 12:57:46 +00:00 */
+        /** date and time when the task was made in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2023-01-15 12:57:46 +00:00 */
         datetime_posted?: string | undefined
         
-        /** date and time when the task was completed
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2023-01-15 12:57:46 +00:00 */
+        /** date and time when the task was completed in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2023-01-15 12:57:46 +00:00 */
         datetime_done?: string | undefined
         
-        /** informational message of the task
-you can find the full list of general informational messages here */
+        /** informational message of the task you can find the full list of general informational messages here */
         status?: string | undefined
         
         /** total tasks cost, USD */
@@ -37,36 +28,27 @@ you can find the full list of general informational messages here */
 export class OnPageIdListResultInfo  implements IOnPageIdListResultInfo {
 
     
-    /** task identifier
-unique task identifier in our system in the UUID format */
+    /** task identifier unique task identifier in our system in the UUID format */
 
     id?: string | undefined;
 
     
-    /** URL of the task
-URL you used for making an API call */
+    /** URL of the task URL you used for making an API call */
 
     url?: string | undefined;
 
     
-    /** date and time when the task was made
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2023-01-15 12:57:46 +00:00 */
+    /** date and time when the task was made in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2023-01-15 12:57:46 +00:00 */
 
     datetime_posted?: string | undefined;
 
     
-    /** date and time when the task was completed
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2023-01-15 12:57:46 +00:00 */
+    /** date and time when the task was completed in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2023-01-15 12:57:46 +00:00 */
 
     datetime_done?: string | undefined;
 
     
-    /** informational message of the task
-you can find the full list of general informational messages here */
+    /** informational message of the task you can find the full list of general informational messages here */
 
     status?: string | undefined;
 

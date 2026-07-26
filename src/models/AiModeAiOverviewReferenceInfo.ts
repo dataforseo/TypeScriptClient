@@ -3,9 +3,7 @@ export interface IAiModeAiOverviewReferenceInfo   {
         /** type of element */
         type?: string | undefined
         
-        /** the alignment of the element in SERP
-can take the following values:
-left, right */
+        /** the alignment of the element in SERP can take the following values: left, right */
         position?: string | undefined
         
         /** reference source name or title */
@@ -35,9 +33,7 @@ export class AiModeAiOverviewReferenceInfo  implements IAiModeAiOverviewReferenc
     type?: string | undefined;
 
     
-    /** the alignment of the element in SERP
-can take the following values:
-left, right */
+    /** the alignment of the element in SERP can take the following values: left, right */
 
     position?: string | undefined;
 

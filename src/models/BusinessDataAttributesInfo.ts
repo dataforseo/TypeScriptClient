@@ -1,11 +1,9 @@
 export interface IBusinessDataAttributesInfo   {
         
-        /** available attributes
-indicates attributes a business entity can offer */
+        /** *available attributes* indicates attributes a business entity can offer */
         available_attributes?: { [key: string]: string[]; } | undefined
         
-        /** unavailable attributes
-indicates attributes a business entity cannot offer */
+        /** *unavailable attributes* indicates attributes a business entity cannot offer */
         unavailable_attributes?: { [key: string]: string[]; } | undefined
 
     [key: string]: any;
@@ -15,14 +13,12 @@ indicates attributes a business entity cannot offer */
 export class BusinessDataAttributesInfo  implements IBusinessDataAttributesInfo {
 
     
-    /** available attributes
-indicates attributes a business entity can offer */
+    /** *available attributes* indicates attributes a business entity can offer */
 
     available_attributes?: { [key: string]: string[]; } | undefined;
 
     
-    /** unavailable attributes
-indicates attributes a business entity cannot offer */
+    /** *unavailable attributes* indicates attributes a business entity cannot offer */
 
     unavailable_attributes?: { [key: string]: string[]; } | undefined;
 

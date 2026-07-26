@@ -4,46 +4,37 @@ import { BaseGeminiLlmScraperElementItem, IBaseGeminiLlmScraperElementItem } fro
 
 export interface IAiOptimizationGeminiLlmScraperLiveAdvancedResultInfo   {
         
-        /** keyword received in a POST array
-the keyword is returned with decoded %## (plus symbol '+' will be decoded to a space character) */
+        /** *keyword received in a POST array***the keyword is returned with decoded %## (plus symbol '+' will be decoded to a space character)** */
         keyword?: string | undefined
         
-        /** location code in a POST array */
+        /** *location code in a POST array* */
         location_code?: number | undefined
         
-        /** language code in a POST array */
+        /** *language code in a POST array* */
         language_code?: string | undefined
         
-        /** indicates the model version */
+        /** *indicates the model version* */
         model?: string | undefined
         
-        /** date and time when the result was received
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** *date and time when the result was received* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
         datetime?: string | undefined
         
-        /** content of the element in markdown format
-content of the result formatted in the markdown markup language */
+        /** *content of the element in markdown format* content of the result formatted in the [markdown markup language](https://en.wikipedia.org/wiki/Markdown) */
         markdown?: string | undefined
         
-        /** array of sources
-the sources the model actually cited or relied on in its final answer */
+        /** *array of sources* the sources the model actually cited or relied on in its final answer */
         sources?: SourceInfo[] | undefined
         
-        /** total number of results */
+        /** *total number of results* */
         se_results_count?: number | undefined
         
-        /** types of search results
-contains types of search results (items) found in SERP.
-possible item types:
-gemini_text, gemini_table, gemini_images */
+        /** *types of search results* contains types of search results (`items`) found in SERP. possible item types: `gemini_text`, `gemini_table`, `gemini_images` */
         item_types?: string[] | undefined
         
-        /** the number of results returned in the items array */
+        /** *the number of results returned in the **`items`** array* */
         items_count?: number | undefined
         
-        /** elements of Gemini results */
+        /** *elements of Gemini results* */
         items?: BaseGeminiLlmScraperElementItem[] | undefined
 
     [key: string]: any;
@@ -53,66 +44,57 @@ gemini_text, gemini_table, gemini_images */
 export class AiOptimizationGeminiLlmScraperLiveAdvancedResultInfo  implements IAiOptimizationGeminiLlmScraperLiveAdvancedResultInfo {
 
     
-    /** keyword received in a POST array
-the keyword is returned with decoded %## (plus symbol '+' will be decoded to a space character) */
+    /** *keyword received in a POST array***the keyword is returned with decoded %## (plus symbol '+' will be decoded to a space character)** */
 
     keyword?: string | undefined;
 
     
-    /** location code in a POST array */
+    /** *location code in a POST array* */
 
     location_code?: number | undefined;
 
     
-    /** language code in a POST array */
+    /** *language code in a POST array* */
 
     language_code?: string | undefined;
 
     
-    /** indicates the model version */
+    /** *indicates the model version* */
 
     model?: string | undefined;
 
     
-    /** date and time when the result was received
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** *date and time when the result was received* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
 
     datetime?: string | undefined;
 
     
-    /** content of the element in markdown format
-content of the result formatted in the markdown markup language */
+    /** *content of the element in markdown format* content of the result formatted in the [markdown markup language](https://en.wikipedia.org/wiki/Markdown) */
 
     markdown?: string | undefined;
 
     
-    /** array of sources
-the sources the model actually cited or relied on in its final answer */
+    /** *array of sources* the sources the model actually cited or relied on in its final answer */
 
     sources?: SourceInfo[] | undefined;
 
     
-    /** total number of results */
+    /** *total number of results* */
 
     se_results_count?: number | undefined;
 
     
-    /** types of search results
-contains types of search results (items) found in SERP.
-possible item types:
-gemini_text, gemini_table, gemini_images */
+    /** *types of search results* contains types of search results (`items`) found in SERP. possible item types: `gemini_text`, `gemini_table`, `gemini_images` */
 
     item_types?: string[] | undefined;
 
     
-    /** the number of results returned in the items array */
+    /** *the number of results returned in the **`items`** array* */
 
     items_count?: number | undefined;
 
     
-    /** elements of Gemini results */
+    /** *elements of Gemini results* */
 
     items?: BaseGeminiLlmScraperElementItem[] | undefined;
 

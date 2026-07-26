@@ -1,63 +1,27 @@
 export interface IAiOptimizationChatGptLlmScraperLiveHtmlRequestInfo   {
         
-        /** keyword
-required field
-you can specify up to 2000 characters in the keyword field
-all %## will be decoded (plus character ‘+’ will be decoded to a space character)
-if you need to use the “%” character for your keyword, please specify it as “%25”;
-if you need to use the “+” character for your keyword, please specify it as “%2B”learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
+        /** *keyword* **required field** you can specify **up to 2000 characters** in the `keyword` field all %## will be decoded (plus character ‘+’ will be decoded to a space character) if you need to use the “%” character for your `keyword`, please specify it as “%25”; if you need to use the “+” character for your `keyword`, please specify it as “%2B” learn more about rules and limitations of `keyword` and `keywords` fields in DataForSEO APIs in this [Help Center article](https://dataforseo.com/help-center/rules-and-limitations-of-keyword-and-keywords-fields-in-dataforseo-apis) */
         keyword?: string | undefined
         
-        /** full name of search engine location
-required field if you don't specify location_code
-if you use this field, you don't need to specify location_code
-you can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/{{low_se_name}}/locations
-example:
-United States */
+        /** *full name of search engine location* **required field if you don't specify** `location_code` **if you use this field, you don't need to specify `location_code`** you can receive the list of available locations of the search engine with their `location_name` by making a separate request to the `https://api.dataforseo.com/v3/ai_optimization/{{low_se_name}}/locations` example: `United States` */
         location_name?: string | undefined
         
-        /** search engine location code
-required field if you don't specify location_name
-if you use this field, you don't need to specify location_name
-you can receive the list of available locations of the search engines with their location_code by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/{{low_se_name}}/{{low_se_type}}/locations
-example:
-2840 */
+        /** *search engine location code* **required field if you don't specify** `location_name` **if you use this field, you don't need to specify `location_name`** you can receive the list of available locations of the search engines with their `location_code` by making a separate request to the `https://api.dataforseo.com/v3/ai_optimization/{{low_se_name}}/{{low_se_type}}/locations` example: `2840` */
         location_code?: number | undefined
         
-        /** full name of search engine language
-required field if you don't specify language_code
-if you use this field, you don't need to specify language_code
-you can receive the list of available languages of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/{{low_se_name}}/{{low_se_type}}/languages
-example:
-English */
+        /** *full name of search engine language* **required field if you don't specify** `language_code` **if you use this field, you don't need to specify `language_code`** you can receive the list of available languages of the search engine with their `language_name` by making a separate request to the `https://api.dataforseo.com/v3/ai_optimization/{{low_se_name}}/{{low_se_type}}/languages` example: `English` */
         language_name?: string | undefined
         
-        /** search engine language code
-required field if you don't specify language_name
-if you use this field, you don't need to specify language_name
-you can receive the list of available languages of the search engine with their language_code_by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/{{low_se_name}}/{{low_se_type}}/languages
-example:enn */
+        /** *search engine language code* **required field if you don't specify** `language_name` **if you use this field, you don't need to specify `language_name`** you can receive the list of available languages of the search engine with their `language_code`_by making a separate request to the `https://api.dataforseo.com/v3/ai_optimization/{{low_se_name}}/{{low_se_type}}/languages` example:`en`n */
         language_code?: string | undefined
         
-        /** force AI agent to use web search
-optional field
-when enabled, the AI model is forced to access and cite current web information;
-default value: false;
-Note: even if the parameter is set to true, there is no guarantee web sources will be cited in the response */
+        /** *force AI agent to use web search* optional field when enabled, the AI model is forced to access and cite current web information; default value: `false`; **Note:** even if the parameter is set to `true`, there is no guarantee web sources will be cited in the response */
         force_web_search?: boolean | undefined
         
-        /** return expanded citation bar in HTML results
-optional field
-to enable this parameter, force_web_search must also be enabled;
-when enabled, the endpoint will return HTML data from the expanded citation bar;
-default value: false */
+        /** *return expanded citation bar in HTML results* optional field to enable this parameter, `force_web_search` must also be enabled; when enabled, the endpoint will return HTML data from the expanded citation bar; default value: `false` */
         expand_citations?: boolean | undefined
         
-        /** user-defined task identifier
-optional field
-the character limit is 255
-you can use this parameter to identify the task and match it with the result
-you will find the specified tag value in the data object of the response */
+        /** *user-defined task identifier* optional field *the character limit is 255* you can use this parameter to identify the task and match it with the result you will find the specified `tag` value in the `data` object of the response */
         tag?: string | undefined
 
     [key: string]: any;
@@ -67,78 +31,42 @@ you will find the specified tag value in the data object of the response */
 export class AiOptimizationChatGptLlmScraperLiveHtmlRequestInfo  implements IAiOptimizationChatGptLlmScraperLiveHtmlRequestInfo {
 
     
-    /** keyword
-required field
-you can specify up to 2000 characters in the keyword field
-all %## will be decoded (plus character ‘+’ will be decoded to a space character)
-if you need to use the “%” character for your keyword, please specify it as “%25”;
-if you need to use the “+” character for your keyword, please specify it as “%2B”learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
+    /** *keyword* **required field** you can specify **up to 2000 characters** in the `keyword` field all %## will be decoded (plus character ‘+’ will be decoded to a space character) if you need to use the “%” character for your `keyword`, please specify it as “%25”; if you need to use the “+” character for your `keyword`, please specify it as “%2B” learn more about rules and limitations of `keyword` and `keywords` fields in DataForSEO APIs in this [Help Center article](https://dataforseo.com/help-center/rules-and-limitations-of-keyword-and-keywords-fields-in-dataforseo-apis) */
 
     keyword?: string | undefined;
 
     
-    /** full name of search engine location
-required field if you don't specify location_code
-if you use this field, you don't need to specify location_code
-you can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/{{low_se_name}}/locations
-example:
-United States */
+    /** *full name of search engine location* **required field if you don't specify** `location_code` **if you use this field, you don't need to specify `location_code`** you can receive the list of available locations of the search engine with their `location_name` by making a separate request to the `https://api.dataforseo.com/v3/ai_optimization/{{low_se_name}}/locations` example: `United States` */
 
     location_name?: string | undefined;
 
     
-    /** search engine location code
-required field if you don't specify location_name
-if you use this field, you don't need to specify location_name
-you can receive the list of available locations of the search engines with their location_code by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/{{low_se_name}}/{{low_se_type}}/locations
-example:
-2840 */
+    /** *search engine location code* **required field if you don't specify** `location_name` **if you use this field, you don't need to specify `location_name`** you can receive the list of available locations of the search engines with their `location_code` by making a separate request to the `https://api.dataforseo.com/v3/ai_optimization/{{low_se_name}}/{{low_se_type}}/locations` example: `2840` */
 
     location_code?: number | undefined;
 
     
-    /** full name of search engine language
-required field if you don't specify language_code
-if you use this field, you don't need to specify language_code
-you can receive the list of available languages of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/{{low_se_name}}/{{low_se_type}}/languages
-example:
-English */
+    /** *full name of search engine language* **required field if you don't specify** `language_code` **if you use this field, you don't need to specify `language_code`** you can receive the list of available languages of the search engine with their `language_name` by making a separate request to the `https://api.dataforseo.com/v3/ai_optimization/{{low_se_name}}/{{low_se_type}}/languages` example: `English` */
 
     language_name?: string | undefined;
 
     
-    /** search engine language code
-required field if you don't specify language_name
-if you use this field, you don't need to specify language_name
-you can receive the list of available languages of the search engine with their language_code_by making a separate request to the https://api.dataforseo.com/v3/ai_optimization/{{low_se_name}}/{{low_se_type}}/languages
-example:enn */
+    /** *search engine language code* **required field if you don't specify** `language_name` **if you use this field, you don't need to specify `language_name`** you can receive the list of available languages of the search engine with their `language_code`_by making a separate request to the `https://api.dataforseo.com/v3/ai_optimization/{{low_se_name}}/{{low_se_type}}/languages` example:`en`n */
 
     language_code?: string | undefined;
 
     
-    /** force AI agent to use web search
-optional field
-when enabled, the AI model is forced to access and cite current web information;
-default value: false;
-Note: even if the parameter is set to true, there is no guarantee web sources will be cited in the response */
+    /** *force AI agent to use web search* optional field when enabled, the AI model is forced to access and cite current web information; default value: `false`; **Note:** even if the parameter is set to `true`, there is no guarantee web sources will be cited in the response */
 
     force_web_search?: boolean | undefined;
 
     
-    /** return expanded citation bar in HTML results
-optional field
-to enable this parameter, force_web_search must also be enabled;
-when enabled, the endpoint will return HTML data from the expanded citation bar;
-default value: false */
+    /** *return expanded citation bar in HTML results* optional field to enable this parameter, `force_web_search` must also be enabled; when enabled, the endpoint will return HTML data from the expanded citation bar; default value: `false` */
 
     expand_citations?: boolean | undefined;
 
     
-    /** user-defined task identifier
-optional field
-the character limit is 255
-you can use this parameter to identify the task and match it with the result
-you will find the specified tag value in the data object of the response */
+    /** *user-defined task identifier* optional field *the character limit is 255* you can use this parameter to identify the task and match it with the result you will find the specified `tag` value in the `data` object of the response */
 
     tag?: string | undefined;
 

@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **AiOptimizationPerplexityLlmResponsesModelsResultInfo[]** | array of results |[optional]|
+**result** | **AiOptimizationPerplexityLlmResponsesModelsResultInfo[]** | *array of results* |[optional]|

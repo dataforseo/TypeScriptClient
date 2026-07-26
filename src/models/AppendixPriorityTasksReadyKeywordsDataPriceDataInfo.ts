@@ -1,9 +1,6 @@
 export interface IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo   {
         
-        /** charge type
-can take the following values:
-per_result – charge for every row in the result array
-per_request – charge for a GET or POST request */
+        /** charge type can take the following values: per_result – charge for every row in the result array per_request – charge for a GET or POST request */
         cost_type?: string | undefined
         
         /** cost, USD */
@@ -16,10 +13,7 @@ per_request – charge for a GET or POST request */
 export class AppendixPriorityTasksReadyKeywordsDataPriceDataInfo  implements IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo {
 
     
-    /** charge type
-can take the following values:
-per_result – charge for every row in the result array
-per_request – charge for a GET or POST request */
+    /** charge type can take the following values: per_result – charge for every row in the result array per_request – charge for a GET or POST request */
 
     cost_type?: string | undefined;
 

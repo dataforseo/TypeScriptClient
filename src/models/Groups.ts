@@ -3,9 +3,7 @@ import { TechnologyCategoryInfo, ITechnologyCategoryInfo } from "./TechnologyCat
 
 export interface IGroups   {
         
-        /** id of the technology group
-example:
-marketing, sales */
+        /** id of the technology group example: marketing, sales */
         id?: string | undefined
         
         /** title of the technology group */
@@ -21,9 +19,7 @@ marketing, sales */
 export class Groups  implements IGroups {
 
     
-    /** id of the technology group
-example:
-marketing, sales */
+    /** id of the technology group example: marketing, sales */
 
     id?: string | undefined;
 

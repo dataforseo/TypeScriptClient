@@ -3,8 +3,7 @@ export interface ICategories   {
         /** product category name */
         category?: string | undefined
         
-        /** product category URL
-indicates the browse path on Amazon with the unique browse node ID (product category ID on Amazon) */
+        /** product category URL indicates the browse path on Amazon with the unique browse node ID (product category ID on Amazon) */
         url?: string | undefined
 
     [key: string]: any;
@@ -19,8 +18,7 @@ export class Categories  implements ICategories {
     category?: string | undefined;
 
     
-    /** product category URL
-indicates the browse path on Amazon with the unique browse node ID (product category ID on Amazon) */
+    /** product category URL indicates the browse path on Amazon with the unique browse node ID (product category ID on Amazon) */
 
     url?: string | undefined;
 

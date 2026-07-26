@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface IAiOptimizationGeminiLlmScraperLanguagesResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: AiOptimizationGeminiLlmScraperLanguagesTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IAiOptimizationGeminiLlmScraperLanguagesResponseInfo  extends I
 export class AiOptimizationGeminiLlmScraperLanguagesResponseInfo  extends BaseResponseInfo   implements IAiOptimizationGeminiLlmScraperLanguagesResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: AiOptimizationGeminiLlmScraperLanguagesTaskInfo[] | undefined;
 

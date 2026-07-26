@@ -1,34 +1,30 @@
 export interface ISources   {
         
-        /** source description */
+        /** *source description* */
         snippet?: string | undefined
         
-        /** source name */
+        /** *source name* */
         source_name?: string | undefined
         
-        /** source thumbnail */
+        /** *source thumbnail* */
         thumbnail?: string | undefined
         
-        /** content of the element in markdown format
-content of the result formatted in the markdown markup language */
+        /** *content of the element in markdown format* content of the result formatted in the [markdown markup language](https://en.wikipedia.org/wiki/Markdown) */
         markdown?: string | undefined
         
-        /** rank in the results */
+        /** *rank in the results* */
         rank?: number | undefined
         
-        /** source title */
+        /** *source title* */
         title?: string | undefined
         
-        /** source domain */
+        /** *source domain* */
         domain?: string | undefined
         
-        /** source URL */
+        /** *source URL* */
         url?: string | undefined
         
-        /** date and time when the result was published
-in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** *date and time when the result was published* in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes” example: `2019-11-15 12:57:46 +00:00` */
         publication_date?: string | undefined
 
     [key: string]: any;
@@ -38,51 +34,47 @@ example:
 export class Sources  implements ISources {
 
     
-    /** source description */
+    /** *source description* */
 
     snippet?: string | undefined;
 
     
-    /** source name */
+    /** *source name* */
 
     source_name?: string | undefined;
 
     
-    /** source thumbnail */
+    /** *source thumbnail* */
 
     thumbnail?: string | undefined;
 
     
-    /** content of the element in markdown format
-content of the result formatted in the markdown markup language */
+    /** *content of the element in markdown format* content of the result formatted in the [markdown markup language](https://en.wikipedia.org/wiki/Markdown) */
 
     markdown?: string | undefined;
 
     
-    /** rank in the results */
+    /** *rank in the results* */
 
     rank?: number | undefined;
 
     
-    /** source title */
+    /** *source title* */
 
     title?: string | undefined;
 
     
-    /** source domain */
+    /** *source domain* */
 
     domain?: string | undefined;
 
     
-    /** source URL */
+    /** *source URL* */
 
     url?: string | undefined;
 
     
-    /** date and time when the result was published
-in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** *date and time when the result was published* in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes” example: `2019-11-15 12:57:46 +00:00` */
 
     publication_date?: string | undefined;
 

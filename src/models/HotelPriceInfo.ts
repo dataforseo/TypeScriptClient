@@ -10,31 +10,22 @@ export interface IHotelPriceInfo   {
         /** full price per night without a discount applied */
         price_without_discount?: number | undefined
         
-        /** price currency
-USD is applied by default, unless specified in the POST array */
+        /** price currency USD is applied by default, unless specified in the POST array */
         currency?: string | undefined
         
         /** text about a discount applied */
         discount_text?: string | undefined
         
-        /** check-in date and time
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** check-in date and time in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
         check_in?: string | undefined
         
-        /** check-out date and time
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** check-out date and time in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
         check_out?: string | undefined
         
         /** number of hotel visitors for this price */
         visitors?: number | undefined
         
-        /** encountered item types
-types of search engine results encountered in the items array;
-possible item types: hotel_search_item */
+        /** encountered item types types of search engine results encountered in the items array; possible item types: hotel_search_item */
         items?: HotelPriceItemInfo[] | undefined
         
         prices_by_dates?: PricesByDates[] | undefined
@@ -56,8 +47,7 @@ export class HotelPriceInfo  implements IHotelPriceInfo {
     price_without_discount?: number | undefined;
 
     
-    /** price currency
-USD is applied by default, unless specified in the POST array */
+    /** price currency USD is applied by default, unless specified in the POST array */
 
     currency?: string | undefined;
 
@@ -67,18 +57,12 @@ USD is applied by default, unless specified in the POST array */
     discount_text?: string | undefined;
 
     
-    /** check-in date and time
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** check-in date and time in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
 
     check_in?: string | undefined;
 
     
-    /** check-out date and time
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** check-out date and time in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
 
     check_out?: string | undefined;
 
@@ -88,9 +72,7 @@ example:
     visitors?: number | undefined;
 
     
-    /** encountered item types
-types of search engine results encountered in the items array;
-possible item types: hotel_search_item */
+    /** encountered item types types of search engine results encountered in the items array; possible item types: hotel_search_item */
 
     items?: HotelPriceItemInfo[] | undefined;
 

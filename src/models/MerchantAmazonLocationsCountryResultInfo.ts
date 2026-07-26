@@ -6,11 +6,7 @@ export interface IMerchantAmazonLocationsCountryResultInfo   {
         /** full name of the location */
         location_name?: string | undefined
         
-        /** the name of the superordinate location
-example:
-'location_code': 9041134,
-'location_name': '90290,California,United States',
-'location_name_parent': 'California,United States' */
+        /** the name of the superordinate location example: 'location_code': 9041134, 'location_name': '90290,California,United States', 'location_name_parent': 'California,United States' */
         location_name_parent?: string | undefined
         
         /** ISO country code of the location */
@@ -36,11 +32,7 @@ export class MerchantAmazonLocationsCountryResultInfo  implements IMerchantAmazo
     location_name?: string | undefined;
 
     
-    /** the name of the superordinate location
-example:
-'location_code': 9041134,
-'location_name': '90290,California,United States',
-'location_name_parent': 'California,United States' */
+    /** the name of the superordinate location example: 'location_code': 9041134, 'location_name': '90290,California,United States', 'location_name_parent': 'California,United States' */
 
     location_name_parent?: string | undefined;
 

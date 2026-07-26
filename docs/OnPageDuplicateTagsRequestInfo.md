@@ -4,9 +4,9 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**id** | **string** | ID of the task<br>required field<br>you can get this ID in the response of the Task POST endpoint<br>example:<br>“07131248-1535-0216-1000-17384017ad04” |[optional]|
+**id** | **string** | ID of the task. required field. you can get this ID in the response of the Task POST endpoint. example:. “07131248-1535-0216-1000-17384017ad04” |[optional]|
 **type** | **string** | type of element |[optional]|
-**accumulator** | **string** | tag value<br>optional field<br>specify a title or description here if you want to receive a list of duplicate pages that contains this tag |[optional]|
-**limit** | **number** | the maximum number of returned pages<br>optional field<br>default value: 100<br>maximum value: 1000 |[optional]|
-**offset** | **number** | offset in the results array of returned pages<br>optional field<br>default value: 0<br>maximum value: 2000000<br>if you specify the 10 value, the first ten pages in the results array will be omitted and the data will be provided for the successive pages |[optional]|
-**tag** | **string** | user-defined task identifier<br>optional field<br>the character limit is 255<br>you can use this parameter to identify the task and match it with the result<br>you will find the specified tag value in the data object of the response |[optional]|
+**accumulator** | **string** | tag value. optional field. specify a title or description here if you want to receive a list of duplicate pages that contains this tag |[optional]|
+**limit** | **number** | the maximum number of returned pages. optional field. default value: 100. maximum value: 1000 |[optional]|
+**offset** | **number** | offset in the results array of returned pages. optional field. default value: 0. maximum value: 2000000. if you specify the 10 value, the first ten pages in the results array will be omitted and the data will be provided for the successive pages |[optional]|
+**tag** | **string** | user-defined task identifier. optional field. the character limit is 255. you can use this parameter to identify the task and match it with the result. you will find the specified tag value in the data object of the response |[optional]|

@@ -1,22 +1,12 @@
 export interface IOnPageWaterfallRequestInfo   {
         
-        /** ID of the task
-required field
-you can get this ID in the response of the Task POST endpoint
-example:
-“07131248-1535-0216-1000-17384017ad04” */
+        /** ID of the task required field you can get this ID in the response of the Task POST endpoint example: “07131248-1535-0216-1000-17384017ad04” */
         id?: string | undefined
         
-        /** page URL
-required field
-specify the pages you want to receive timing for */
+        /** page URL required field specify the pages you want to receive timing for */
         url?: string | undefined
         
-        /** user-defined task identifier
-optional field
-the character limit is 255
-you can use this parameter to identify the task and match it with the result
-you will find the specified tag value in the data object of the response */
+        /** user-defined task identifier optional field the character limit is 255 you can use this parameter to identify the task and match it with the result you will find the specified tag value in the data object of the response */
         tag?: string | undefined
 
     [key: string]: any;
@@ -26,27 +16,17 @@ you will find the specified tag value in the data object of the response */
 export class OnPageWaterfallRequestInfo  implements IOnPageWaterfallRequestInfo {
 
     
-    /** ID of the task
-required field
-you can get this ID in the response of the Task POST endpoint
-example:
-“07131248-1535-0216-1000-17384017ad04” */
+    /** ID of the task required field you can get this ID in the response of the Task POST endpoint example: “07131248-1535-0216-1000-17384017ad04” */
 
     id?: string | undefined;
 
     
-    /** page URL
-required field
-specify the pages you want to receive timing for */
+    /** page URL required field specify the pages you want to receive timing for */
 
     url?: string | undefined;
 
     
-    /** user-defined task identifier
-optional field
-the character limit is 255
-you can use this parameter to identify the task and match it with the result
-you will find the specified tag value in the data object of the response */
+    /** user-defined task identifier optional field the character limit is 255 you can use this parameter to identify the task and match it with the result you will find the specified tag value in the data object of the response */
 
     tag?: string | undefined;
 

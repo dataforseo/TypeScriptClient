@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface IAiOptimizationGeminiLlmResponsesModelsResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: AiOptimizationGeminiLlmResponsesModelsTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IAiOptimizationGeminiLlmResponsesModelsResponseInfo  extends IB
 export class AiOptimizationGeminiLlmResponsesModelsResponseInfo  extends BaseResponseInfo   implements IAiOptimizationGeminiLlmResponsesModelsResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: AiOptimizationGeminiLlmResponsesModelsTaskInfo[] | undefined;
 

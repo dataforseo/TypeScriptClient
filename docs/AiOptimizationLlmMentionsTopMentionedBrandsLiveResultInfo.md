@@ -4,8 +4,8 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**total_count** | **number** | total amount of results relevant the request |[optional]|
-**offset** | **number** | the number of mentions objects that are omitted in the items array |[optional]|
-**items_count** | **number** | the number of results returned in the items array |[optional]|
-**aggregated_metrics** | **LlmMentionsAggregatedMetricsInfo** | aggregated mentions metrics<br>contains aggregated LLM mention metrics across all found brands, grouped by various dimensions |[optional]|
-**items** | **AiOptimizationLlmMentionsTopMentionedBrandsLiveItem[]** | individual domain results<br>array containing detailed mention metrics for each of the found top domains |[optional]|
+**total_count** | **number** | *total amount of results relevant the request* |[optional]|
+**offset** | **number** | *the number of mentions objects that are omitted in the `items` array* |[optional]|
+**items_count** | **number** | *the number of results returned in the `items` array* |[optional]|
+**aggregated_metrics** | **LlmMentionsAggregatedMetricsInfo** | *aggregated mentions metrics*. contains aggregated LLM mention metrics across all found brands, grouped by various dimensions |[optional]|
+**items** | **AiOptimizationLlmMentionsTopMentionedBrandsLiveItem[]** | *individual domain results*. array containing detailed mention metrics for each of the found top domains |[optional]|

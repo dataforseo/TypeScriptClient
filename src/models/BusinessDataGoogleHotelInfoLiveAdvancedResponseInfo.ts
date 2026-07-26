@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface IBusinessDataGoogleHotelInfoLiveAdvancedResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: BusinessDataGoogleHotelInfoLiveAdvancedTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IBusinessDataGoogleHotelInfoLiveAdvancedResponseInfo  extends I
 export class BusinessDataGoogleHotelInfoLiveAdvancedResponseInfo  extends BaseResponseInfo   implements IBusinessDataGoogleHotelInfoLiveAdvancedResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: BusinessDataGoogleHotelInfoLiveAdvancedTaskInfo[] | undefined;
 

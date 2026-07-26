@@ -4,8 +4,7 @@ import { BaseSerpApiYoutubeOrganicElementItem, IBaseSerpApiYoutubeOrganicElement
 
 export interface ISerpYoutubeOrganicTaskGetAdvancedResultInfo   {
         
-        /** keyword received in a POST array
-the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character) */
+        /** keyword received in a POST array the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character) */
         keyword?: string | undefined
         
         /** search engine domain in a POST array */
@@ -17,24 +16,16 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
         /** language code in a POST array */
         language_code?: string | undefined
         
-        /** direct URL to search engine results
-you can use it to make sure that we provided accurate results */
+        /** direct URL to search engine results you can use it to make sure that we provided accurate results */
         check_url?: string | undefined
         
-        /** date and time when the result was received
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** date and time when the result was received in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
         datetime?: string | undefined
         
-        /** autocorrection of the search engine
-if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
+        /** autocorrection of the search engine if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
         spell?: SpellInfo | undefined
         
-        /** types of search results in SERP
-contains types of search results (items) found in SERP.
-possible item types:
-youtube_channel, youtube_video,  youtube_video_paid */
+        /** types of search results in SERP contains types of search results (items) found in SERP. possible item types: youtube_channel, youtube_video,  youtube_video_paid */
         item_types?: string[] | undefined
         
         /** total number of results in SERP */
@@ -53,8 +44,7 @@ youtube_channel, youtube_video,  youtube_video_paid */
 export class SerpYoutubeOrganicTaskGetAdvancedResultInfo  implements ISerpYoutubeOrganicTaskGetAdvancedResultInfo {
 
     
-    /** keyword received in a POST array
-the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character) */
+    /** keyword received in a POST array the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character) */
 
     keyword?: string | undefined;
 
@@ -74,30 +64,22 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
     language_code?: string | undefined;
 
     
-    /** direct URL to search engine results
-you can use it to make sure that we provided accurate results */
+    /** direct URL to search engine results you can use it to make sure that we provided accurate results */
 
     check_url?: string | undefined;
 
     
-    /** date and time when the result was received
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** date and time when the result was received in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
 
     datetime?: string | undefined;
 
     
-    /** autocorrection of the search engine
-if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
+    /** autocorrection of the search engine if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
 
     spell?: SpellInfo | undefined;
 
     
-    /** types of search results in SERP
-contains types of search results (items) found in SERP.
-possible item types:
-youtube_channel, youtube_video,  youtube_video_paid */
+    /** types of search results in SERP contains types of search results (items) found in SERP. possible item types: youtube_channel, youtube_video,  youtube_video_paid */
 
     item_types?: string[] | undefined;
 

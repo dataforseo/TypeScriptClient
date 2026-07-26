@@ -1,8 +1,6 @@
 export interface IAvailableLanguages   {
         
-        /** supported sources
-contains the sources of data supported for a specific location and language combination
-only google and bing are currently available */
+        /** supported sources contains the sources of data supported for a specific location and language combination only google and bing are currently available */
         available_sources?: string[] | undefined
         
         /** language name */
@@ -24,9 +22,7 @@ only google and bing are currently available */
 export class AvailableLanguages  implements IAvailableLanguages {
 
     
-    /** supported sources
-contains the sources of data supported for a specific location and language combination
-only google and bing are currently available */
+    /** supported sources contains the sources of data supported for a specific location and language combination only google and bing are currently available */
 
     available_sources?: string[] | undefined;
 

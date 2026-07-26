@@ -9,31 +9,22 @@ export interface IDataforseoLabsGoogleCompetitorsDomainLiveItem   {
         /** domain name */
         domain?: string | undefined
         
-        /** average position of the domain in SERP
-Note: average position is calculated for intersected keywords only;
-the value for a given domain may differ when combined with different target websites */
+        /** average position of the domain in SERP Note: average position is calculated for intersected keywords only; the value for a given domain may differ when combined with different target websites */
         avg_position?: number | undefined
         
-        /** sum of all domain positions in SERP
-Note: average position is calculated for intersected keywords only;
-the value for a given domain may differ when combined with different target websites */
+        /** sum of all domain positions in SERP Note: average position is calculated for intersected keywords only; the value for a given domain may differ when combined with different target websites */
         sum_position?: number | undefined
         
         /** number of intersecting keywords */
         intersections?: number | undefined
         
-        /** metrics for all keywords of the domain
-full overview of ranking and traffic data relevant to all keywords that the provided domain is ranking for */
+        /** metrics for all keywords of the domain full overview of ranking and traffic data relevant to all keywords that the provided domain is ranking for */
         full_domain_metrics?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined
         
-        /** metrics for intersecting keywords
-ranking and traffic data relevant to the keywords that the provided domain shares with the target domain
-note: in this array ranking and traffic data is provided for the target considering the keywords target shares in search with the competitor’s domain */
+        /** metrics for intersecting keywords ranking and traffic data relevant to the keywords that the provided domain shares with the target domain note: in this array ranking and traffic data is provided for the target considering the keywords target shares in search with the competitor’s domain */
         metrics?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined
         
-        /** metrics for intersecting keywords
-ranking and traffic data relevant to the keywords that the provided domain shares with the target domain
-note: in this array ranking and traffic data is provided for the returned competitor’s domain */
+        /** metrics for intersecting keywords ranking and traffic data relevant to the keywords that the provided domain shares with the target domain note: in this array ranking and traffic data is provided for the returned competitor’s domain */
         competitor_metrics?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined
 
     [key: string]: any;
@@ -53,16 +44,12 @@ export class DataforseoLabsGoogleCompetitorsDomainLiveItem  implements IDatafors
     domain?: string | undefined;
 
     
-    /** average position of the domain in SERP
-Note: average position is calculated for intersected keywords only;
-the value for a given domain may differ when combined with different target websites */
+    /** average position of the domain in SERP Note: average position is calculated for intersected keywords only; the value for a given domain may differ when combined with different target websites */
 
     avg_position?: number | undefined;
 
     
-    /** sum of all domain positions in SERP
-Note: average position is calculated for intersected keywords only;
-the value for a given domain may differ when combined with different target websites */
+    /** sum of all domain positions in SERP Note: average position is calculated for intersected keywords only; the value for a given domain may differ when combined with different target websites */
 
     sum_position?: number | undefined;
 
@@ -72,22 +59,17 @@ the value for a given domain may differ when combined with different target webs
     intersections?: number | undefined;
 
     
-    /** metrics for all keywords of the domain
-full overview of ranking and traffic data relevant to all keywords that the provided domain is ranking for */
+    /** metrics for all keywords of the domain full overview of ranking and traffic data relevant to all keywords that the provided domain is ranking for */
 
     full_domain_metrics?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined;
 
     
-    /** metrics for intersecting keywords
-ranking and traffic data relevant to the keywords that the provided domain shares with the target domain
-note: in this array ranking and traffic data is provided for the target considering the keywords target shares in search with the competitor’s domain */
+    /** metrics for intersecting keywords ranking and traffic data relevant to the keywords that the provided domain shares with the target domain note: in this array ranking and traffic data is provided for the target considering the keywords target shares in search with the competitor’s domain */
 
     metrics?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined;
 
     
-    /** metrics for intersecting keywords
-ranking and traffic data relevant to the keywords that the provided domain shares with the target domain
-note: in this array ranking and traffic data is provided for the returned competitor’s domain */
+    /** metrics for intersecting keywords ranking and traffic data relevant to the keywords that the provided domain shares with the target domain note: in this array ranking and traffic data is provided for the returned competitor’s domain */
 
     competitor_metrics?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined;
 

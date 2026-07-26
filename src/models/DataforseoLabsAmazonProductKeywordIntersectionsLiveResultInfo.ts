@@ -9,12 +9,10 @@ export interface IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo 
         /** ASINs in a POST array */
         asins?: { [key: string]: string; } | undefined
         
-        /** location code in a POST array
-if there is no data, then the value is null */
+        /** location code in a POST array if there is no data, then the value is null */
         location_code?: number | undefined
         
-        /** language code in a POST array
-if there is no data, then the value is null */
+        /** language code in a POST array if there is no data, then the value is null */
         language_code?: string | undefined
         
         /** total amount of results in our database relevant to your request */
@@ -43,14 +41,12 @@ export class DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo  impl
     asins?: { [key: string]: string; } | undefined;
 
     
-    /** location code in a POST array
-if there is no data, then the value is null */
+    /** location code in a POST array if there is no data, then the value is null */
 
     location_code?: number | undefined;
 
     
-    /** language code in a POST array
-if there is no data, then the value is null */
+    /** language code in a POST array if there is no data, then the value is null */
 
     language_code?: string | undefined;
 

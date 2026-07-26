@@ -11,4 +11,4 @@
 **source** | **string** | reference source name or title |[optional]|
 **description** | **string** | link description |[optional]|
 **time** | **string** | the total time it takes to prepare the cook the dish |[optional]|
-**rating** | **RatingInfo** | the item’s rating <br>the popularity rate based on reviews and displayed in SERP;<br>if there is none, equals null |[optional]|
+**rating** | **RatingInfo** | the item’s rating . the popularity rate based on reviews and displayed in SERP;. if there is none, equals null |[optional]|

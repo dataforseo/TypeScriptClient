@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **AiOptimizationLlmMentionsMultiTargetMetricsLiveResultInfo[]** | array of results |[optional]|
+**result** | **AiOptimizationLlmMentionsMultiTargetMetricsLiveResultInfo[]** | *array of results* |[optional]|

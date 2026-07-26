@@ -19,12 +19,10 @@ export interface ITopicInfo   {
         /** HTML level */
         level?: number | undefined
         
-        /** primary content on the page
-you can find more information about content priority calculation in this help center article */
+        /** primary content on the page you can find more information about content priority calculation in this help center article */
         primary_content?: SectionContentItemInfo[] | undefined
         
-        /** secondary content on the page
-you can find more information about content priority calculation in this help center article */
+        /** secondary content on the page you can find more information about content priority calculation in this help center article */
         secondary_content?: SectionContentItemInfo[] | undefined
         
         /** content of the table on the page */
@@ -62,14 +60,12 @@ export class TopicInfo  implements ITopicInfo {
     level?: number | undefined;
 
     
-    /** primary content on the page
-you can find more information about content priority calculation in this help center article */
+    /** primary content on the page you can find more information about content priority calculation in this help center article */
 
     primary_content?: SectionContentItemInfo[] | undefined;
 
     
-    /** secondary content on the page
-you can find more information about content priority calculation in this help center article */
+    /** secondary content on the page you can find more information about content priority calculation in this help center article */
 
     secondary_content?: SectionContentItemInfo[] | undefined;
 

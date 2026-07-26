@@ -3,21 +3,19 @@ import { AiOptimizationLlmMentionsTargetMetricsLiteLiveItem, IAiOptimizationLlmM
 
 export interface IAiOptimizationLlmMentionsTargetMetricsLiteLiveResultInfo   {
         
-        /** total amount of results relevant the request */
+        /** *total amount of results relevant the request* */
         total_count?: number | undefined
         
-        /** the number of mentions objects that are omitted in the items array */
+        /** *the number of mentions objects that are omitted in the `items` array* */
         offset?: number | undefined
         
-        /** the number of results returned in the items array */
+        /** *the number of results returned in the `items` array* */
         items_count?: number | undefined
         
-        /** aggregated mentions metrics
-in this case, always returns null */
+        /** *aggregated mentions metrics* in this case, always returns `null` */
         aggregated_metrics?: any | undefined
         
-        /** array of aggregated mentions metrics
-contains objects with aggregated mention metrics for the specified target */
+        /** *array of aggregated mentions metrics* contains objects with aggregated mention metrics for the specified target */
         items?: AiOptimizationLlmMentionsTargetMetricsLiteLiveItem[] | undefined
 
     [key: string]: any;
@@ -27,29 +25,27 @@ contains objects with aggregated mention metrics for the specified target */
 export class AiOptimizationLlmMentionsTargetMetricsLiteLiveResultInfo  implements IAiOptimizationLlmMentionsTargetMetricsLiteLiveResultInfo {
 
     
-    /** total amount of results relevant the request */
+    /** *total amount of results relevant the request* */
 
     total_count?: number | undefined;
 
     
-    /** the number of mentions objects that are omitted in the items array */
+    /** *the number of mentions objects that are omitted in the `items` array* */
 
     offset?: number | undefined;
 
     
-    /** the number of results returned in the items array */
+    /** *the number of results returned in the `items` array* */
 
     items_count?: number | undefined;
 
     
-    /** aggregated mentions metrics
-in this case, always returns null */
+    /** *aggregated mentions metrics* in this case, always returns `null` */
 
     aggregated_metrics?: any | undefined;
 
     
-    /** array of aggregated mentions metrics
-contains objects with aggregated mention metrics for the specified target */
+    /** *array of aggregated mentions metrics* contains objects with aggregated mention metrics for the specified target */
 
     items?: AiOptimizationLlmMentionsTargetMetricsLiteLiveItem[] | undefined;
 

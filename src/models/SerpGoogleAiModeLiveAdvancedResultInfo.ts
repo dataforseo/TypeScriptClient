@@ -5,54 +5,43 @@ import { AiModeAiOverviewInfo, IAiModeAiOverviewInfo } from "./AiModeAiOverviewI
 
 export interface ISerpGoogleAiModeLiveAdvancedResultInfo   {
         
-        /** keyword received in a POST array
-the keyword is returned with decoded %## (plus symbol '+' will be decoded to a space character) */
+        /** *keyword received in a POST array***the keyword is returned with decoded %## (plus symbol '+' will be decoded to a space character)** */
         keyword?: string | undefined
         
         /** type of element */
         type?: string | undefined
         
-        /** search engine domain in a POST array */
+        /** *search engine domain in a POST array* */
         se_domain?: string | undefined
         
-        /** location code in a POST array */
+        /** *location code in a POST array* */
         location_code?: number | undefined
         
-        /** language code in a POST array */
+        /** *language code in a POST array* */
         language_code?: string | undefined
         
-        /** direct URL to search engine results
-you can use it to make sure that we provided exact results */
+        /** *direct URL to search engine results*you can use it to make sure that we provided exact results */
         check_url?: string | undefined
         
-        /** date and time when the result was received
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** *date and time when the result was received* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
         datetime?: string | undefined
         
-        /** autocorrection of the search engine
-if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection;
-in this case, the value will be null */
+        /** *autocorrection of the search engine* if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection; in this case, the value will be `null` */
         spell?: SpellInfo | undefined
         
-        /** search refinement chips
-in this case, the value will be null */
+        /** *search refinement chips* in this case, the value will be `null` */
         refinement_chips?: RefinementChipsInfo | undefined
         
-        /** types of search results in SERP
-contains types of search results (items) found in SERP.
-possible item types:
-ai_overview */
+        /** *types of search results in SERP* contains types of search results (`items`) found in SERP. possible item types: `ai_overview` */
         item_types?: string[] | undefined
         
-        /** total number of results in SERP */
+        /** *total number of results in SERP* */
         se_results_count?: number | undefined
         
-        /** the number of results returned in the items array */
+        /** *the number of results returned in the **`items`** array* */
         items_count?: number | undefined
         
-        /** items of the element */
+        /** *items of the element* */
         items?: AiModeAiOverviewInfo[] | undefined
 
     [key: string]: any;
@@ -62,8 +51,7 @@ ai_overview */
 export class SerpGoogleAiModeLiveAdvancedResultInfo  implements ISerpGoogleAiModeLiveAdvancedResultInfo {
 
     
-    /** keyword received in a POST array
-the keyword is returned with decoded %## (plus symbol '+' will be decoded to a space character) */
+    /** *keyword received in a POST array***the keyword is returned with decoded %## (plus symbol '+' will be decoded to a space character)** */
 
     keyword?: string | undefined;
 
@@ -73,67 +61,57 @@ the keyword is returned with decoded %## (plus symbol '+' will be decoded to a s
     type?: string | undefined;
 
     
-    /** search engine domain in a POST array */
+    /** *search engine domain in a POST array* */
 
     se_domain?: string | undefined;
 
     
-    /** location code in a POST array */
+    /** *location code in a POST array* */
 
     location_code?: number | undefined;
 
     
-    /** language code in a POST array */
+    /** *language code in a POST array* */
 
     language_code?: string | undefined;
 
     
-    /** direct URL to search engine results
-you can use it to make sure that we provided exact results */
+    /** *direct URL to search engine results*you can use it to make sure that we provided exact results */
 
     check_url?: string | undefined;
 
     
-    /** date and time when the result was received
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** *date and time when the result was received* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
 
     datetime?: string | undefined;
 
     
-    /** autocorrection of the search engine
-if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection;
-in this case, the value will be null */
+    /** *autocorrection of the search engine* if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection; in this case, the value will be `null` */
 
     spell?: SpellInfo | undefined;
 
     
-    /** search refinement chips
-in this case, the value will be null */
+    /** *search refinement chips* in this case, the value will be `null` */
 
     refinement_chips?: RefinementChipsInfo | undefined;
 
     
-    /** types of search results in SERP
-contains types of search results (items) found in SERP.
-possible item types:
-ai_overview */
+    /** *types of search results in SERP* contains types of search results (`items`) found in SERP. possible item types: `ai_overview` */
 
     item_types?: string[] | undefined;
 
     
-    /** total number of results in SERP */
+    /** *total number of results in SERP* */
 
     se_results_count?: number | undefined;
 
     
-    /** the number of results returned in the items array */
+    /** *the number of results returned in the **`items`** array* */
 
     items_count?: number | undefined;
 
     
-    /** items of the element */
+    /** *items of the element* */
 
     items?: AiModeAiOverviewInfo[] | undefined;
 

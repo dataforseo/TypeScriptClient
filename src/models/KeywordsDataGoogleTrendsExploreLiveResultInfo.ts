@@ -9,22 +9,16 @@ export interface IKeywordsDataGoogleTrendsExploreLiveResultInfo   {
         /** type of element */
         type?: string | undefined
         
-        /** location code in a POST array
-if there is no data, then the value is null */
+        /** location code in a POST array if there is no data, then the value is null */
         location_code?: number | undefined
         
-        /** language code in a POST array
-if there is no data, then the value is null */
+        /** language code in a POST array if there is no data, then the value is null */
         language_code?: string | undefined
         
-        /** direct URL to the Google Trends results
-you can use it to make sure that we provided accurate results */
+        /** direct URL to the Google Trends results you can use it to make sure that we provided accurate results */
         check_url?: string | undefined
         
-        /** date and time when the result was received
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** date and time when the result was received in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
         datetime?: string | undefined
         
         /** the number of results returned in the items array */
@@ -50,28 +44,22 @@ export class KeywordsDataGoogleTrendsExploreLiveResultInfo  implements IKeywords
     type?: string | undefined;
 
     
-    /** location code in a POST array
-if there is no data, then the value is null */
+    /** location code in a POST array if there is no data, then the value is null */
 
     location_code?: number | undefined;
 
     
-    /** language code in a POST array
-if there is no data, then the value is null */
+    /** language code in a POST array if there is no data, then the value is null */
 
     language_code?: string | undefined;
 
     
-    /** direct URL to the Google Trends results
-you can use it to make sure that we provided accurate results */
+    /** direct URL to the Google Trends results you can use it to make sure that we provided accurate results */
 
     check_url?: string | undefined;
 
     
-    /** date and time when the result was received
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** date and time when the result was received in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
 
     datetime?: string | undefined;
 

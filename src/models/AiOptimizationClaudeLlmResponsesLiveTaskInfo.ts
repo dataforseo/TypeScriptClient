@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IAiOptimizationClaudeLlmResponsesLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: AiOptimizationClaudeLlmResponsesLiveResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IAiOptimizationClaudeLlmResponsesLiveTaskInfo  extends IBaseRes
 export class AiOptimizationClaudeLlmResponsesLiveTaskInfo  extends BaseResponseTaskInfo   implements IAiOptimizationClaudeLlmResponsesLiveTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: AiOptimizationClaudeLlmResponsesLiveResultInfo[] | undefined;
 

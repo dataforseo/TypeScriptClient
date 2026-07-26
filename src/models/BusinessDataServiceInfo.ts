@@ -3,15 +3,13 @@ import { PriceInfo, IPriceInfo } from "./PriceInfo";
 
 export interface IBusinessDataServiceInfo   {
         
-        /** business category
-Google My Business general category that best describes the services provided by the business entity */
+        /** *business category* Google My Business general category that best describes the services provided by the business entity */
         category?: string | undefined
         
-        /** title of the element in SERP
-the name of the business entity for which the results are collected */
+        /** *title of the element in SERP* the name of the business entity for which the results are collected */
         title?: string | undefined
         
-        /** additional information on the business entity */
+        /** *additional information on the business entity* */
         snippet?: string | undefined
         
         price?: PriceInfo | undefined
@@ -23,19 +21,17 @@ the name of the business entity for which the results are collected */
 export class BusinessDataServiceInfo  implements IBusinessDataServiceInfo {
 
     
-    /** business category
-Google My Business general category that best describes the services provided by the business entity */
+    /** *business category* Google My Business general category that best describes the services provided by the business entity */
 
     category?: string | undefined;
 
     
-    /** title of the element in SERP
-the name of the business entity for which the results are collected */
+    /** *title of the element in SERP* the name of the business entity for which the results are collected */
 
     title?: string | undefined;
 
     
-    /** additional information on the business entity */
+    /** *additional information on the business entity* */
 
     snippet?: string | undefined;
 

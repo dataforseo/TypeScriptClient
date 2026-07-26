@@ -6,18 +6,13 @@ export interface IGoogleJobsItem   {
         /** type of element */
         type?: string | undefined
         
-        /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+        /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP */
+        /** absolute rank in SERP absolute position among all the elements in SERP */
         rank_absolute?: number | undefined
         
-        /** the alignment of the element in SERP
-can take the following values:
-left, right */
+        /** the alignment of the element in SERP can take the following values: left, right */
         position?: string | undefined
         
         /** the XPath of the element */
@@ -47,25 +42,19 @@ left, right */
         /** URL to the original source of the job vacancy */
         source_url?: string | undefined
         
-        /** the salary indicated in the job vacancy
-if the salary isn’t indicated, this field will equal null */
+        /** the salary indicated in the job vacancy if the salary isn’t indicated, this field will equal null */
         salary?: string | undefined
         
         /** employment contract type */
         contract_type?: string | undefined
         
-        /** date and time when the result was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
         timestamp?: string | undefined
         
         /** indicates how long ago the job vacancy was posted */
         time_ago?: string | undefined
         
-        /** rectangle parameters
-contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP;
-in this case, will equal null */
+        /** rectangle parameters contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP; in this case, will equal null */
         rectangle?: AiModeRectangleInfo | undefined
 
     [key: string]: any;
@@ -80,22 +69,17 @@ export class GoogleJobsItem  implements IGoogleJobsItem {
     type?: string | undefined;
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+    /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP */
+    /** absolute rank in SERP absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
 
     
-    /** the alignment of the element in SERP
-can take the following values:
-left, right */
+    /** the alignment of the element in SERP can take the following values: left, right */
 
     position?: string | undefined;
 
@@ -145,8 +129,7 @@ left, right */
     source_url?: string | undefined;
 
     
-    /** the salary indicated in the job vacancy
-if the salary isn’t indicated, this field will equal null */
+    /** the salary indicated in the job vacancy if the salary isn’t indicated, this field will equal null */
 
     salary?: string | undefined;
 
@@ -156,10 +139,7 @@ if the salary isn’t indicated, this field will equal null */
     contract_type?: string | undefined;
 
     
-    /** date and time when the result was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
 
     timestamp?: string | undefined;
 
@@ -169,9 +149,7 @@ example:
     time_ago?: string | undefined;
 
     
-    /** rectangle parameters
-contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP;
-in this case, will equal null */
+    /** rectangle parameters contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP; in this case, will equal null */
 
     rectangle?: AiModeRectangleInfo | undefined;
 

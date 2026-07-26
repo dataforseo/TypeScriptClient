@@ -3,8 +3,7 @@ import { DataforseoLabsGoogleCategoriesForKeywordsLiveItem, IDataforseoLabsGoogl
 
 export interface IDataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo   {
         
-        /** language code in a POST array
-if there is no data, then the value is null */
+        /** language code in a POST array if there is no data, then the value is null */
         language_code?: string | undefined
         
         /** the number of results returned in the items array */
@@ -20,8 +19,7 @@ if there is no data, then the value is null */
 export class DataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo  implements IDataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo {
 
     
-    /** language code in a POST array
-if there is no data, then the value is null */
+    /** language code in a POST array if there is no data, then the value is null */
 
     language_code?: string | undefined;
 

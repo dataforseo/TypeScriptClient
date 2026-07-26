@@ -1,14 +1,12 @@
 export interface ISerpGoogleSearchByImageTasksFixedResultInfo   {
         
-        /** task identifier of the completed task
-unique task identifier in our system in the UUID format */
+        /** task identifier of the completed task unique task identifier in our system in the UUID format */
         id?: string | undefined
         
         /** search engine specified when setting the task */
         se?: string | undefined
         
-        /** type of search engine
-can take the following values: search_by_image */
+        /** type of search engine can take the following values: search_by_image */
         se_type?: string | undefined
         
         date_posted?: string | undefined
@@ -16,16 +14,13 @@ can take the following values: search_by_image */
         /** user-defined task identifier */
         tag?: string | undefined
         
-        /** URL for collecting the results of the SERP Regular task
-if SERP Regular is not supported in the specified endpoint, the value will be null */
+        /** URL for collecting the results of the SERP Regular task if SERP Regular is not supported in the specified endpoint, the value will be null */
         endpoint_regular?: string | undefined
         
-        /** URL for collecting the results of the SERP Advanced task
-if SERP Advanced is not supported in the specified endpoint, the value will be null */
+        /** URL for collecting the results of the SERP Advanced task if SERP Advanced is not supported in the specified endpoint, the value will be null */
         endpoint_advanced?: string | undefined
         
-        /** URL for collecting the results of the SERP HTML task
-if SERP HTML is not supported in the specified endpoint, the value will be null */
+        /** URL for collecting the results of the SERP HTML task if SERP HTML is not supported in the specified endpoint, the value will be null */
         endpoint_html?: string | undefined
 
     [key: string]: any;
@@ -35,8 +30,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null 
 export class SerpGoogleSearchByImageTasksFixedResultInfo  implements ISerpGoogleSearchByImageTasksFixedResultInfo {
 
     
-    /** task identifier of the completed task
-unique task identifier in our system in the UUID format */
+    /** task identifier of the completed task unique task identifier in our system in the UUID format */
 
     id?: string | undefined;
 
@@ -46,8 +40,7 @@ unique task identifier in our system in the UUID format */
     se?: string | undefined;
 
     
-    /** type of search engine
-can take the following values: search_by_image */
+    /** type of search engine can take the following values: search_by_image */
 
     se_type?: string | undefined;
 
@@ -59,20 +52,17 @@ can take the following values: search_by_image */
     tag?: string | undefined;
 
     
-    /** URL for collecting the results of the SERP Regular task
-if SERP Regular is not supported in the specified endpoint, the value will be null */
+    /** URL for collecting the results of the SERP Regular task if SERP Regular is not supported in the specified endpoint, the value will be null */
 
     endpoint_regular?: string | undefined;
 
     
-    /** URL for collecting the results of the SERP Advanced task
-if SERP Advanced is not supported in the specified endpoint, the value will be null */
+    /** URL for collecting the results of the SERP Advanced task if SERP Advanced is not supported in the specified endpoint, the value will be null */
 
     endpoint_advanced?: string | undefined;
 
     
-    /** URL for collecting the results of the SERP HTML task
-if SERP HTML is not supported in the specified endpoint, the value will be null */
+    /** URL for collecting the results of the SERP HTML task if SERP HTML is not supported in the specified endpoint, the value will be null */
 
     endpoint_html?: string | undefined;
 

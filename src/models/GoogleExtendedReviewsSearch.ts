@@ -9,94 +9,76 @@ export interface IGoogleExtendedReviewsSearch   {
         /** type of element */
         type?: string | undefined
         
-        /** position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+        /** *position within a group of elements with identical `type` values* positions of elements with different `type` values are omitted from `rank_group` */
         rank_group?: number | undefined
         
-        /** absolute rank among all the listed reviews
-absolute position among all reviews on the list */
+        /** *absolute rank among all the listed reviews* absolute position among all reviews on the list */
         rank_absolute?: number | undefined
         
-        /** the alignment of the review in SERP
-can take the following values: right */
+        /** *the alignment of the review in SERP* can take the following values: `right` */
         position?: string | undefined
         
-        /** the XPath of the review */
+        /** *the [XPath](https://en.wikipedia.org/wiki/XPath) of the review* */
         xpath?: string | undefined
         
-        /** the content of the review */
+        /** *the content of the review* */
         review_text?: string | undefined
         
-        /** original content of the review
-the original content of the review, no auto-translate applied */
+        /** *original content of the review* the original content of the review, no auto-translate applied */
         original_review_text?: string | undefined
         
-        /** the time of publication
-indicates the time (in the ‘time ago’ format) when the review was listed */
+        /** *the time of publication* indicates the time (in the 'time ago' format) when the review was listed */
         time_ago?: string | undefined
         
-        /** date and time when a review was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** *date and time when a review was published* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
         timestamp?: string | undefined
         
-        /** the rating score submitted by the reviewer */
+        /** *the rating score submitted by the reviewer* */
         rating?: RatingInfo | undefined
         
-        /** total number of reviews submitted by the reviewer */
+        /** *total number of reviews submitted by the reviewer* */
         reviews_count?: number | undefined
         
-        /** total number of photos submitted by the reviewer */
+        /** *total number of photos submitted by the reviewer* */
         photos_count?: number | undefined
         
-        /** indicates whether the reviewer has a ‘local guide’ status */
+        /** *indicates whether the reviewer has a 'local guide' status* */
         local_guide?: boolean | undefined
         
-        /** profile name of the reviewer */
+        /** *profile name of the reviewer* */
         profile_name?: string | undefined
         
-        /** URL of the reviewer’s profile */
+        /** *URL of the reviewer's profile* */
         profile_url?: string | undefined
         
-        /** the URL of the review */
+        /** *the URL of the review* */
         review_url?: string | undefined
         
-        /** URL of the reviewer’s profile image */
+        /** *URL of the reviewer's profile image* */
         profile_image_url?: string | undefined
         
-        /** text of the owner’s response
-the owner’s response to the review */
+        /** *text of the owner's response* the owner's response to the review */
         owner_answer?: string | undefined
         
-        /** original text of the owner’s response
-the original response to the review, no auto-translate applied */
+        /** *original text of the owner's response* the original response to the review, no auto-translate applied */
         original_owner_answer?: string | undefined
         
-        /** publication time
-indicates the time (in the ‘time ago’ format) when the owner submitted the response to the review */
+        /** *publication time* indicates the time (in the 'time ago' format) when the owner submitted the response to the review */
         owner_time_ago?: string | undefined
         
-        /** date and time of the owner’s reply to the review
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** *date and time of the owner's reply to the review* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
         owner_timestamp?: string | undefined
         
-        /** the unique identifier of a review on Google
-example:
-ChZDSUhNMG9nS0VJQ0FnSUMxbHFyMFlnEAE */
+        /** *the unique identifier of a review on Google* example: `ChZDSUhNMG9nS0VJQ0FnSUMxbHFyMFlnEAE` */
         review_id?: string | undefined
         
-        /** images submitted by the reviewer */
+        /** *images submitted by the reviewer* */
         images?: AiModeImagesElementInfo[] | undefined
         
-        /** review highlights
-contains highlighted review criteria and assessments */
+        /** *review highlights* contains highlighted review criteria and assessments */
         review_highlights?: ReviewHighlights[] | undefined
         
-        /** source of the review
-contains information about the source where the review was posted */
+        /** *source of the review* contains information about the source where the review was posted */
         source?: Source | undefined
 
     [key: string]: any;
@@ -111,140 +93,122 @@ export class GoogleExtendedReviewsSearch  implements IGoogleExtendedReviewsSearc
     type?: string | undefined;
 
     
-    /** position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+    /** *position within a group of elements with identical `type` values* positions of elements with different `type` values are omitted from `rank_group` */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank among all the listed reviews
-absolute position among all reviews on the list */
+    /** *absolute rank among all the listed reviews* absolute position among all reviews on the list */
 
     rank_absolute?: number | undefined;
 
     
-    /** the alignment of the review in SERP
-can take the following values: right */
+    /** *the alignment of the review in SERP* can take the following values: `right` */
 
     position?: string | undefined;
 
     
-    /** the XPath of the review */
+    /** *the [XPath](https://en.wikipedia.org/wiki/XPath) of the review* */
 
     xpath?: string | undefined;
 
     
-    /** the content of the review */
+    /** *the content of the review* */
 
     review_text?: string | undefined;
 
     
-    /** original content of the review
-the original content of the review, no auto-translate applied */
+    /** *original content of the review* the original content of the review, no auto-translate applied */
 
     original_review_text?: string | undefined;
 
     
-    /** the time of publication
-indicates the time (in the ‘time ago’ format) when the review was listed */
+    /** *the time of publication* indicates the time (in the 'time ago' format) when the review was listed */
 
     time_ago?: string | undefined;
 
     
-    /** date and time when a review was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** *date and time when a review was published* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
 
     timestamp?: string | undefined;
 
     
-    /** the rating score submitted by the reviewer */
+    /** *the rating score submitted by the reviewer* */
 
     rating?: RatingInfo | undefined;
 
     
-    /** total number of reviews submitted by the reviewer */
+    /** *total number of reviews submitted by the reviewer* */
 
     reviews_count?: number | undefined;
 
     
-    /** total number of photos submitted by the reviewer */
+    /** *total number of photos submitted by the reviewer* */
 
     photos_count?: number | undefined;
 
     
-    /** indicates whether the reviewer has a ‘local guide’ status */
+    /** *indicates whether the reviewer has a 'local guide' status* */
 
     local_guide?: boolean | undefined;
 
     
-    /** profile name of the reviewer */
+    /** *profile name of the reviewer* */
 
     profile_name?: string | undefined;
 
     
-    /** URL of the reviewer’s profile */
+    /** *URL of the reviewer's profile* */
 
     profile_url?: string | undefined;
 
     
-    /** the URL of the review */
+    /** *the URL of the review* */
 
     review_url?: string | undefined;
 
     
-    /** URL of the reviewer’s profile image */
+    /** *URL of the reviewer's profile image* */
 
     profile_image_url?: string | undefined;
 
     
-    /** text of the owner’s response
-the owner’s response to the review */
+    /** *text of the owner's response* the owner's response to the review */
 
     owner_answer?: string | undefined;
 
     
-    /** original text of the owner’s response
-the original response to the review, no auto-translate applied */
+    /** *original text of the owner's response* the original response to the review, no auto-translate applied */
 
     original_owner_answer?: string | undefined;
 
     
-    /** publication time
-indicates the time (in the ‘time ago’ format) when the owner submitted the response to the review */
+    /** *publication time* indicates the time (in the 'time ago' format) when the owner submitted the response to the review */
 
     owner_time_ago?: string | undefined;
 
     
-    /** date and time of the owner’s reply to the review
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** *date and time of the owner's reply to the review* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
 
     owner_timestamp?: string | undefined;
 
     
-    /** the unique identifier of a review on Google
-example:
-ChZDSUhNMG9nS0VJQ0FnSUMxbHFyMFlnEAE */
+    /** *the unique identifier of a review on Google* example: `ChZDSUhNMG9nS0VJQ0FnSUMxbHFyMFlnEAE` */
 
     review_id?: string | undefined;
 
     
-    /** images submitted by the reviewer */
+    /** *images submitted by the reviewer* */
 
     images?: AiModeImagesElementInfo[] | undefined;
 
     
-    /** review highlights
-contains highlighted review criteria and assessments */
+    /** *review highlights* contains highlighted review criteria and assessments */
 
     review_highlights?: ReviewHighlights[] | undefined;
 
     
-    /** source of the review
-contains information about the source where the review was posted */
+    /** *source of the review* contains information about the source where the review was posted */
 
     source?: Source | undefined;
 

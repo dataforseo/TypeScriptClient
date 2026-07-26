@@ -39,8 +39,7 @@ export interface IKeywordsDataBingAudienceEstimationTaskGetResultInfo   {
         /** monthly estimated impressions */
         est_reach_impressions?: number | undefined
         
-        /** currency name
-example: USDollar */
+        /** currency name example: USDollar */
         currency?: string | undefined
 
     [key: string]: any;
@@ -110,8 +109,7 @@ export class KeywordsDataBingAudienceEstimationTaskGetResultInfo  implements IKe
     est_reach_impressions?: number | undefined;
 
     
-    /** currency name
-example: USDollar */
+    /** currency name example: USDollar */
 
     currency?: string | undefined;
 

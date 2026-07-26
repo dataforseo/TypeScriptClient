@@ -4,11 +4,10 @@ import { BacklinksDomainIntersection, IBacklinksDomainIntersection } from "./Bac
 
 export interface IBacklinksDomainIntersectionLiveItem   {
         
-        /** contains data on domains that link to the corresponding targets specified in the POST array
-data is provided in separate objects corresponding to domains, subdomains or pages specified in the targets object */
+        /** *contains data on domains that link to the corresponding targets specified in the POST array* data is provided in separate objects corresponding to domains, subdomains or pages specified in the `targets` object */
         domain_intersection?: { [key: string]: BacklinksDomainIntersection; } | undefined
         
-        /** contains the domain intersections summary */
+        /** *contains the domain intersections summary* */
         summary?: IntersectionSummaryInfo | undefined
 
     [key: string]: any;
@@ -18,13 +17,12 @@ data is provided in separate objects corresponding to domains, subdomains or pag
 export class BacklinksDomainIntersectionLiveItem  implements IBacklinksDomainIntersectionLiveItem {
 
     
-    /** contains data on domains that link to the corresponding targets specified in the POST array
-data is provided in separate objects corresponding to domains, subdomains or pages specified in the targets object */
+    /** *contains data on domains that link to the corresponding targets specified in the POST array* data is provided in separate objects corresponding to domains, subdomains or pages specified in the `targets` object */
 
     domain_intersection?: { [key: string]: BacklinksDomainIntersection; } | undefined;
 
     
-    /** contains the domain intersections summary */
+    /** *contains the domain intersections summary* */
 
     summary?: IntersectionSummaryInfo | undefined;
 

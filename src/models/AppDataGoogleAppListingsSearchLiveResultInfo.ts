@@ -12,8 +12,7 @@ export interface IAppDataGoogleAppListingsSearchLiveResultInfo   {
         /** offset in the results array of returned apps */
         offset?: number | undefined
         
-        /** token for subsequent requests
-you can use this parameter in the POST request to avoid timeouts while trying to obtain over 100,000 results in a single request */
+        /** token for subsequent requests you can use this parameter in the POST request to avoid timeouts while trying to obtain over 100,000 results in a single request */
         offset_token?: string | undefined
         
         /** array of apps and related data */
@@ -41,8 +40,7 @@ export class AppDataGoogleAppListingsSearchLiveResultInfo  implements IAppDataGo
     offset?: number | undefined;
 
     
-    /** token for subsequent requests
-you can use this parameter in the POST request to avoid timeouts while trying to obtain over 100,000 results in a single request */
+    /** token for subsequent requests you can use this parameter in the POST request to avoid timeouts while trying to obtain over 100,000 results in a single request */
 
     offset_token?: string | undefined;
 

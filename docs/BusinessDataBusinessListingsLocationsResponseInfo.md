@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **BusinessDataBusinessListingsLocationsTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **BusinessDataBusinessListingsLocationsTaskInfo[]** | *array of tasks* |[optional]|

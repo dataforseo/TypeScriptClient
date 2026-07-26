@@ -4,8 +4,8 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**rank_group** | **number** | group rank in SERP<br>position within a group of elements with identical type values;<br>positions of elements with different type values are omitted from rank_group;<br>always equals 0 for desktop |[optional]|
-**rank_absolute** | **number** | absolute rank in SERP<br>absolute position among all the elements in SERP<br>always equals 0 for desktop |[optional]|
+**rank_group** | **number** | group rank in SERP. position within a group of elements with identical type values;. positions of elements with different type values are omitted from rank_group;. always equals 0 for desktop |[optional]|
+**rank_absolute** | **number** | absolute rank in SERP. absolute position among all the elements in SERP. always equals 0 for desktop |[optional]|
 **title** | **string** | title of the row |[optional]|
 **url** | **string** | URL of the third-party review source |[optional]|
 **domain** | **string** | domain of the website hosting the video |[optional]|

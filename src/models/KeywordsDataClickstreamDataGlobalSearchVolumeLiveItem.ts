@@ -3,17 +3,13 @@ import { CountryDistribution, ICountryDistribution } from "./CountryDistribution
 
 export interface IKeywordsDataClickstreamDataGlobalSearchVolumeLiveItem   {
         
-        /** keyword
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character) */
+        /** keyword keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character) */
         keyword?: string | undefined
         
-        /** clickstream-based average monthly search volume rate
-represents the (approximate) number of searches for the given keyword idea based on clickstream
-you can learn more about clickstream search volume in this Help Center article */
+        /** clickstream-based average monthly search volume rate represents the (approximate) number of searches for the given keyword idea based on clickstream you can learn more about clickstream search volume in this Help Center article */
         search_volume?: number | undefined
         
-        /** distribution of clickstream by countries
-represents clickstream-based search volume in available countries, as well as its respective percentage of global search volume */
+        /** distribution of clickstream by countries represents clickstream-based search volume in available countries, as well as its respective percentage of global search volume */
         country_distribution?: CountryDistribution[] | undefined
 
     [key: string]: any;
@@ -23,21 +19,17 @@ represents clickstream-based search volume in available countries, as well as it
 export class KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem  implements IKeywordsDataClickstreamDataGlobalSearchVolumeLiveItem {
 
     
-    /** keyword
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character) */
+    /** keyword keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character) */
 
     keyword?: string | undefined;
 
     
-    /** clickstream-based average monthly search volume rate
-represents the (approximate) number of searches for the given keyword idea based on clickstream
-you can learn more about clickstream search volume in this Help Center article */
+    /** clickstream-based average monthly search volume rate represents the (approximate) number of searches for the given keyword idea based on clickstream you can learn more about clickstream search volume in this Help Center article */
 
     search_volume?: number | undefined;
 
     
-    /** distribution of clickstream by countries
-represents clickstream-based search volume in available countries, as well as its respective percentage of global search volume */
+    /** distribution of clickstream by countries represents clickstream-based search volume in available countries, as well as its respective percentage of global search volume */
 
     country_distribution?: CountryDistribution[] | undefined;
 

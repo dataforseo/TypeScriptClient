@@ -8,15 +8,13 @@ export interface IBaseKeywordDataGoogleTrendsItem   {
         /** type of element */
         type?: string | undefined
         
-        /** the alignment of the element in Google Trends
-can take the following values: 1, 2, 3, 4, etc. */
+        /** the alignment of the element in Google Trends can take the following values: 1, 2, 3, 4, etc. */
         position?: number | undefined
         
         /** title of the element in Google Trends */
         title?: string | undefined
         
-        /** relevant keywords
-the data included in the google_trends_graph element is based on the keywords listed in this array */
+        /** relevant keywords the data included in the google_trends_graph element is based on the keywords listed in this array */
         keywords?: string[] | undefined
 
     [key: string]: any;
@@ -31,8 +29,7 @@ export class BaseKeywordDataGoogleTrendsItem  implements IBaseKeywordDataGoogleT
     type?: string | undefined;
 
     
-    /** the alignment of the element in Google Trends
-can take the following values: 1, 2, 3, 4, etc. */
+    /** the alignment of the element in Google Trends can take the following values: 1, 2, 3, 4, etc. */
 
     position?: number | undefined;
 
@@ -42,8 +39,7 @@ can take the following values: 1, 2, 3, 4, etc. */
     title?: string | undefined;
 
     
-    /** relevant keywords
-the data included in the google_trends_graph element is based on the keywords listed in this array */
+    /** relevant keywords the data included in the google_trends_graph element is based on the keywords listed in this array */
 
     keywords?: string[] | undefined;
 

@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**items** | **ChatGptProductsElement[]** | elements of ChatGPT results |[optional]|
+**items** | **ChatGptProductsElement[]** | *elements of ChatGPT results* |[optional]|

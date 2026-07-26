@@ -6,11 +6,10 @@ export interface IBusinessDataBusinessListingsCategoriesAggregationLiveItem   {
         /** type of element */
         type?: string | undefined
         
-        /** business categories
-Google My Business general category that best describes the cluster of related categories */
+        /** *business categories* Google My Business general category that best describes the cluster of related categories */
         categories?: string[] | undefined
         
-        /** aggregation of the category */
+        /** *aggregation of the category* */
         aggregation?: BusinessListingAggregationInfo | undefined
 
     [key: string]: any;
@@ -25,13 +24,12 @@ export class BusinessDataBusinessListingsCategoriesAggregationLiveItem  implemen
     type?: string | undefined;
 
     
-    /** business categories
-Google My Business general category that best describes the cluster of related categories */
+    /** *business categories* Google My Business general category that best describes the cluster of related categories */
 
     categories?: string[] | undefined;
 
     
-    /** aggregation of the category */
+    /** *aggregation of the category* */
 
     aggregation?: BusinessListingAggregationInfo | undefined;
 

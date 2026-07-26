@@ -3,9 +3,7 @@ export interface IGraphElement   {
         /** type of element */
         type?: string | undefined
         
-        /** date when the video was published or indexed
-example:
-Apr 26, 2024 */
+        /** date when the video was published or indexed example: Apr 26, 2024 */
         date?: string | undefined
         
         /** the value of the rating */
@@ -23,9 +21,7 @@ export class GraphElement  implements IGraphElement {
     type?: string | undefined;
 
     
-    /** date when the video was published or indexed
-example:
-Apr 26, 2024 */
+    /** date when the video was published or indexed example: Apr 26, 2024 */
 
     date?: string | undefined;
 

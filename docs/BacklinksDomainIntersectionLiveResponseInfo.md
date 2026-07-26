@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **BacklinksDomainIntersectionLiveTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **BacklinksDomainIntersectionLiveTaskInfo[]** | *array of tasks* |[optional]|

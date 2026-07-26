@@ -3,8 +3,7 @@ export interface IFormatsElement   {
         /** type of element */
         type?: string | undefined
         
-        /** type of file format of the dataset
-for example: zip, html, csv */
+        /** type of file format of the dataset for example: zip, html, csv */
         format?: string | undefined
         
         /** file size in bytes */
@@ -22,8 +21,7 @@ export class FormatsElement  implements IFormatsElement {
     type?: string | undefined;
 
     
-    /** type of file format of the dataset
-for example: zip, html, csv */
+    /** type of file format of the dataset for example: zip, html, csv */
 
     format?: string | undefined;
 

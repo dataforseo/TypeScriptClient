@@ -6,65 +6,49 @@ import { HotelPriceInfo, IHotelPriceInfo } from "./HotelPriceInfo";
 
 export interface IBusinessDataGoogleHotelInfoTaskGetAdvancedResultInfo   {
         
-        /** unique hotel identifier
-this field will contain the hotel_identifier parameter;
-example:
-CgoI-KWyzenM_MV3EAE */
+        /** *unique hotel identifier* this field will contain the `hotel_identifier` parameter; example: `CgoI-KWyzenM_MV3EAE` */
         hotel_identifier?: string | undefined
         
-        /** location code in a POST array */
+        /** *location code in a POST array* */
         location_code?: number | undefined
         
-        /** language code in a POST array */
+        /** *language code in a POST array* */
         language_code?: string | undefined
         
-        /** direct URL to search engine results
-you can use it to make sure that we provided accurate results */
+        /** *direct URL to search engine results* you can use it to make sure that we provided accurate results */
         check_url?: string | undefined
         
-        /** date and time when the result was received
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** *date and time when the result was received* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
         datetime?: string | undefined
         
-        /** hotel title
-the title of the hotel entity for which the results are collected */
+        /** *hotel title* the title of the hotel entity for which the results are collected */
         title?: string | undefined
         
-        /** hotel class rating
-class rating that ranges between 1-5 stars and displayed after review ratings in hotel summary */
+        /** *hotel class rating* class rating that ranges between 1-5 stars and displayed after review ratings in hotel summary */
         stars?: number | undefined
         
-        /** hotel class rating
-class rating that ranges between 1-5 stars and displayed after review ratings in the hotel summary */
+        /** *hotel class rating* class rating that ranges between 1-5 stars and displayed after review ratings in the hotel summary */
         stars_description?: string | undefined
         
-        /** hotel address
-physical address of the hotel */
+        /** *hotel address* physical address of the hotel */
         address?: string | undefined
         
-        /** hotel phone number
-contact phone number of the hotel */
+        /** *hotel phone number* contact phone number of the hotel */
         phone?: string | undefined
         
-        /** information about the hotel */
+        /** *information about the hotel* */
         about?: HotelAboutInfo | undefined
         
-        /** information about the hotel location
-information about the location where the hotel is located */
+        /** *information about the hotel location* information about the location where the hotel is located */
         location?: HotelLocationInfo | undefined
         
-        /** hotel reviews by criteria
-information about reviews of the hotel entity */
+        /** *hotel reviews by criteria* information about reviews of the hotel entity */
         reviews?: HotelReviewInfo | undefined
         
-        /** images displayed in the hotel overview
-array containing URLs to images displayed in the hotel overview */
+        /** *images displayed in the hotel overview* array containing URLs to images displayed in the hotel overview */
         overview_images?: string[] | undefined
         
-        /** pricing details of the hotel entity
-contains information about the hotel’s prices */
+        /** *pricing details of the hotel entity* contains information about the hotel's prices */
         prices?: HotelPriceInfo | undefined
 
     [key: string]: any;
@@ -74,93 +58,77 @@ contains information about the hotel’s prices */
 export class BusinessDataGoogleHotelInfoTaskGetAdvancedResultInfo  implements IBusinessDataGoogleHotelInfoTaskGetAdvancedResultInfo {
 
     
-    /** unique hotel identifier
-this field will contain the hotel_identifier parameter;
-example:
-CgoI-KWyzenM_MV3EAE */
+    /** *unique hotel identifier* this field will contain the `hotel_identifier` parameter; example: `CgoI-KWyzenM_MV3EAE` */
 
     hotel_identifier?: string | undefined;
 
     
-    /** location code in a POST array */
+    /** *location code in a POST array* */
 
     location_code?: number | undefined;
 
     
-    /** language code in a POST array */
+    /** *language code in a POST array* */
 
     language_code?: string | undefined;
 
     
-    /** direct URL to search engine results
-you can use it to make sure that we provided accurate results */
+    /** *direct URL to search engine results* you can use it to make sure that we provided accurate results */
 
     check_url?: string | undefined;
 
     
-    /** date and time when the result was received
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** *date and time when the result was received* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
 
     datetime?: string | undefined;
 
     
-    /** hotel title
-the title of the hotel entity for which the results are collected */
+    /** *hotel title* the title of the hotel entity for which the results are collected */
 
     title?: string | undefined;
 
     
-    /** hotel class rating
-class rating that ranges between 1-5 stars and displayed after review ratings in hotel summary */
+    /** *hotel class rating* class rating that ranges between 1-5 stars and displayed after review ratings in hotel summary */
 
     stars?: number | undefined;
 
     
-    /** hotel class rating
-class rating that ranges between 1-5 stars and displayed after review ratings in the hotel summary */
+    /** *hotel class rating* class rating that ranges between 1-5 stars and displayed after review ratings in the hotel summary */
 
     stars_description?: string | undefined;
 
     
-    /** hotel address
-physical address of the hotel */
+    /** *hotel address* physical address of the hotel */
 
     address?: string | undefined;
 
     
-    /** hotel phone number
-contact phone number of the hotel */
+    /** *hotel phone number* contact phone number of the hotel */
 
     phone?: string | undefined;
 
     
-    /** information about the hotel */
+    /** *information about the hotel* */
 
     about?: HotelAboutInfo | undefined;
 
     
-    /** information about the hotel location
-information about the location where the hotel is located */
+    /** *information about the hotel location* information about the location where the hotel is located */
 
     location?: HotelLocationInfo | undefined;
 
     
-    /** hotel reviews by criteria
-information about reviews of the hotel entity */
+    /** *hotel reviews by criteria* information about reviews of the hotel entity */
 
     reviews?: HotelReviewInfo | undefined;
 
     
-    /** images displayed in the hotel overview
-array containing URLs to images displayed in the hotel overview */
+    /** *images displayed in the hotel overview* array containing URLs to images displayed in the hotel overview */
 
     overview_images?: string[] | undefined;
 
     
-    /** pricing details of the hotel entity
-contains information about the hotel’s prices */
+    /** *pricing details of the hotel entity* contains information about the hotel's prices */
 
     prices?: HotelPriceInfo | undefined;
 

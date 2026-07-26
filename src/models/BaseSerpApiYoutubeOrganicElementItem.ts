@@ -6,22 +6,16 @@ export interface IBaseSerpApiYoutubeOrganicElementItem   {
         /** type of element */
         type?: string | undefined
         
-        /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+        /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP for the target domain
-absolute position among all the elements in SERP */
+        /** absolute rank in SERP for the target domain absolute position among all the elements in SERP */
         rank_absolute?: number | undefined
         
-        /** block rank in SERP
-position among all the blocks in SERP */
+        /** block rank in SERP position among all the blocks in SERP */
         block_rank?: number | undefined
         
-        /** name of the block in SERP
-example:
-'People also watched' */
+        /** name of the block in SERP example: 'People also watched' */
         block_name?: string | undefined
         
         /** ID of the channel */
@@ -42,28 +36,22 @@ export class BaseSerpApiYoutubeOrganicElementItem  implements IBaseSerpApiYoutub
     type?: string | undefined;
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+    /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP for the target domain
-absolute position among all the elements in SERP */
+    /** absolute rank in SERP for the target domain absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
 
     
-    /** block rank in SERP
-position among all the blocks in SERP */
+    /** block rank in SERP position among all the blocks in SERP */
 
     block_rank?: number | undefined;
 
     
-    /** name of the block in SERP
-example:
-'People also watched' */
+    /** name of the block in SERP example: 'People also watched' */
 
     block_name?: string | undefined;
 
@@ -294,9 +282,7 @@ export interface ISerpApiYoutubeVideoElementItem  extends IBaseSerpApiYoutubeOrg
         /** highlighted keywords in the description */
         highlighted?: string[] | undefined
         
-        /** video badges
-example:
-New, CC, 4K */
+        /** video badges example: New, CC, 4K */
         badges?: string[] | undefined
         
         /** indicates whether the video is a live broadcast */
@@ -314,10 +300,7 @@ New, CC, 4K */
         /** the date when the video is published */
         publication_date?: string | undefined
         
-        /** date and time when the result is published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2022-11-15 12:57:46 +00:00 */
+        /** date and time when the result is published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2022-11-15 12:57:46 +00:00 */
         timestamp?: string | undefined
         
         /** duration of the video */
@@ -373,9 +356,7 @@ export class SerpApiYoutubeVideoElementItem  extends BaseSerpApiYoutubeOrganicEl
     highlighted?: string[] | undefined;
 
     
-    /** video badges
-example:
-New, CC, 4K */
+    /** video badges example: New, CC, 4K */
 
     badges?: string[] | undefined;
 
@@ -405,10 +386,7 @@ New, CC, 4K */
     publication_date?: string | undefined;
 
     
-    /** date and time when the result is published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2022-11-15 12:57:46 +00:00 */
+    /** date and time when the result is published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2022-11-15 12:57:46 +00:00 */
 
     timestamp?: string | undefined;
 
@@ -521,9 +499,7 @@ export interface ISerpApiYoutubeVideoPaidElementItem  extends IBaseSerpApiYoutub
         /** highlighted keywords in the description */
         highlighted?: string[] | undefined
         
-        /** video badges
-example:
-New, CC, 4K */
+        /** video badges example: New, CC, 4K */
         badges?: string[] | undefined
         
         /** indicates whether the video is a live broadcast */
@@ -541,10 +517,7 @@ New, CC, 4K */
         /** the date when the video is published */
         publication_date?: string | undefined
         
-        /** date and time when the result is published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2022-11-15 12:57:46 +00:00 */
+        /** date and time when the result is published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2022-11-15 12:57:46 +00:00 */
         timestamp?: string | undefined
         
         /** duration of the video */
@@ -600,9 +573,7 @@ export class SerpApiYoutubeVideoPaidElementItem  extends BaseSerpApiYoutubeOrgan
     highlighted?: string[] | undefined;
 
     
-    /** video badges
-example:
-New, CC, 4K */
+    /** video badges example: New, CC, 4K */
 
     badges?: string[] | undefined;
 
@@ -632,10 +603,7 @@ New, CC, 4K */
     publication_date?: string | undefined;
 
     
-    /** date and time when the result is published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2022-11-15 12:57:46 +00:00 */
+    /** date and time when the result is published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2022-11-15 12:57:46 +00:00 */
 
     timestamp?: string | undefined;
 
@@ -745,8 +713,7 @@ export interface ISerpApiYoutubePlaylistElementItem  extends IBaseSerpApiYoutube
         /** the number of videos in playlist */
         videos_count?: number | undefined
         
-        /** information about preview videos
-array of objects containing information about videos in the preview block of the playlist element */
+        /** information about preview videos array of objects containing information about videos in the preview block of the playlist element */
         preview_videos?: PreviewVideos[] | undefined
 
     [key: string]: any;
@@ -791,8 +758,7 @@ export class SerpApiYoutubePlaylistElementItem  extends BaseSerpApiYoutubeOrgani
     videos_count?: number | undefined;
 
     
-    /** information about preview videos
-array of objects containing information about videos in the preview block of the playlist element */
+    /** information about preview videos array of objects containing information about videos in the preview block of the playlist element */
 
     preview_videos?: PreviewVideos[] | undefined;
 

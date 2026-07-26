@@ -1,14 +1,12 @@
 export interface IMerchantAmazonProductsTasksReadyResultInfo   {
         
-        /** task identifier of the completed task
-unique task identifier in our system in the UUID format */
+        /** task identifier of the completed task unique task identifier in our system in the UUID format */
         id?: string | undefined
         
         /** search engine specified when setting the task */
         se?: string | undefined
         
-        /** type of search engine
-can take the following values: organic */
+        /** type of search engine can take the following values: organic */
         se_type?: string | undefined
         
         /** date when the task was posted (in the UTC format) */
@@ -30,8 +28,7 @@ can take the following values: organic */
 export class MerchantAmazonProductsTasksReadyResultInfo  implements IMerchantAmazonProductsTasksReadyResultInfo {
 
     
-    /** task identifier of the completed task
-unique task identifier in our system in the UUID format */
+    /** task identifier of the completed task unique task identifier in our system in the UUID format */
 
     id?: string | undefined;
 
@@ -41,8 +38,7 @@ unique task identifier in our system in the UUID format */
     se?: string | undefined;
 
     
-    /** type of search engine
-can take the following values: organic */
+    /** type of search engine can take the following values: organic */
 
     se_type?: string | undefined;
 

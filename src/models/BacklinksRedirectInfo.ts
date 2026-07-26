@@ -3,12 +3,10 @@ export interface IBacklinksRedirectInfo   {
         /** type of element */
         type?: string | undefined
         
-        /** general status code
-you can find the full list of the response codes here
-Note: we strongly recommend designing a necessary system for handling related exceptional or error conditions */
+        /** *general status code* you can find the full list of the response codes [here](/v3/appendix/errors) **Note:** we strongly recommend designing a necessary system for handling related exceptional or error conditions */
         status_code?: number | undefined
         
-        /** indirect link URL */
+        /** *indirect link URL* */
         url?: string | undefined
 
     [key: string]: any;
@@ -23,14 +21,12 @@ export class BacklinksRedirectInfo  implements IBacklinksRedirectInfo {
     type?: string | undefined;
 
     
-    /** general status code
-you can find the full list of the response codes here
-Note: we strongly recommend designing a necessary system for handling related exceptional or error conditions */
+    /** *general status code* you can find the full list of the response codes [here](/v3/appendix/errors) **Note:** we strongly recommend designing a necessary system for handling related exceptional or error conditions */
 
     status_code?: number | undefined;
 
     
-    /** indirect link URL */
+    /** *indirect link URL* */
 
     url?: string | undefined;
 

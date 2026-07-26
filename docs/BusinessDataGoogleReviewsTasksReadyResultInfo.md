@@ -4,8 +4,8 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**id** | **string** | task identifier of the completed task<br>unique task identifier in our system in the UUID format |[optional]|
-**se** | **string** | search engine specified when setting the task<br>can take the following values: google |[optional]|
+**id** | **string** | task identifier of the completed task. unique task identifier in our system in the UUID format |[optional]|
+**se** | **string** | search engine specified when setting the task. can take the following values: google |[optional]|
 **se_type** | **string** | type of search engine |[optional]|
 **date_posted** | **string** | date when the task was posted (in the UTC format) |[optional]|
 **tag** | **string** | user-defined task identifier |[optional]|

@@ -1,11 +1,9 @@
 export interface IBusinessDataGoogleReviewsTasksReadyResultInfo   {
         
-        /** task identifier of the completed task
-unique task identifier in our system in the UUID format */
+        /** task identifier of the completed task unique task identifier in our system in the UUID format */
         id?: string | undefined
         
-        /** search engine specified when setting the task
-can take the following values: google */
+        /** search engine specified when setting the task can take the following values: google */
         se?: string | undefined
         
         /** type of search engine */
@@ -27,14 +25,12 @@ can take the following values: google */
 export class BusinessDataGoogleReviewsTasksReadyResultInfo  implements IBusinessDataGoogleReviewsTasksReadyResultInfo {
 
     
-    /** task identifier of the completed task
-unique task identifier in our system in the UUID format */
+    /** task identifier of the completed task unique task identifier in our system in the UUID format */
 
     id?: string | undefined;
 
     
-    /** search engine specified when setting the task
-can take the following values: google */
+    /** search engine specified when setting the task can take the following values: google */
 
     se?: string | undefined;
 

@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **AiOptimizationClaudeLlmResponsesModelsResultInfo[]** | array of results |[optional]|
+**result** | **AiOptimizationClaudeLlmResponsesModelsResultInfo[]** | *array of results* |[optional]|

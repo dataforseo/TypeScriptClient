@@ -5,8 +5,8 @@
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
 **type** | **string** | type of element |[optional]|
-**rank_group** | **number** | group rank in SERP<br>position within a group of elements with identical type values<br>positions of elements with different type values are omitted from rank_group |[optional]|
-**rank_absolute** | **number** | absolute rank in SERP for the target domain<br>absolute position among all the elements in SERP |[optional]|
+**rank_group** | **number** | group rank in SERP. position within a group of elements with identical type values. positions of elements with different type values are omitted from rank_group |[optional]|
+**rank_absolute** | **number** | absolute rank in SERP for the target domain. absolute position among all the elements in SERP |[optional]|
 **video_id** | **string** | ID of the video received in a POST array |[optional]|
 **title** | **string** | title of the video |[optional]|
 **url** | **string** | URL of the video |[optional]|
@@ -21,7 +21,7 @@
 **comments_count** | **number** | number of comments on the video |[optional]|
 **channel_subscribers_count** | **ChannelSubscribersCount** | number of subscribers of the channel |[optional]|
 **publication_date** | **string** | the date when the video is published |[optional]|
-**timestamp** | **string** | date and time when the result is published<br>in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”<br>example:<br>2022-11-15 12:57:46 +00:00 |[optional]|
+**timestamp** | **string** | date and time when the result is published. in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”. example:. 2022-11-15 12:57:46 +00:00 |[optional]|
 **keywords** | **string[]** | keywords relevant to the video |[optional]|
 **category** | **string** | the category the video belongs to |[optional]|
 **is_live** | **boolean** | indicates whether the video is on live |[optional]|

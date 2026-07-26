@@ -3,25 +3,19 @@ import { UncrawlableResourcesMeta, IUncrawlableResourcesMeta } from "./Uncrawlab
 
 export interface IOnPageUncrawlableResourcesItem   {
         
-        /** URL of the uncrawlable resource */
+        /** *URL of the uncrawlable resource* */
         url?: string | undefined
         
-        /** reason the resource is uncrawlable
-can take the following values: content_type_inconsistency */
+        /** *reason the resource is uncrawlable* can take the following values: `content_type_inconsistency` */
         reason?: string | undefined
         
-        /** general status code
-you can find the full list of the response codes here
-Note: we strongly recommend designing a necessary system for handling related exceptional or error conditions */
+        /** *general status code* you can find the full list of the response codes [here](/v3/appendix/errors) **Note:** we strongly recommend designing a necessary system for handling related exceptional or error conditions */
         status_code?: number | undefined
         
-        /** date and time when the resource was fetched
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2026-03-09 18:20:32 +00:00 */
+        /** *date and time when the resource was fetched* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2026-03-09 18:20:32 +00:00` */
         fetch_time?: string | undefined
         
-        /** metadata of the uncrawlable resource */
+        /** *metadata of the uncrawlable resource* */
         meta?: UncrawlableResourcesMeta | undefined
 
     [key: string]: any;
@@ -31,33 +25,27 @@ example:
 export class OnPageUncrawlableResourcesItem  implements IOnPageUncrawlableResourcesItem {
 
     
-    /** URL of the uncrawlable resource */
+    /** *URL of the uncrawlable resource* */
 
     url?: string | undefined;
 
     
-    /** reason the resource is uncrawlable
-can take the following values: content_type_inconsistency */
+    /** *reason the resource is uncrawlable* can take the following values: `content_type_inconsistency` */
 
     reason?: string | undefined;
 
     
-    /** general status code
-you can find the full list of the response codes here
-Note: we strongly recommend designing a necessary system for handling related exceptional or error conditions */
+    /** *general status code* you can find the full list of the response codes [here](/v3/appendix/errors) **Note:** we strongly recommend designing a necessary system for handling related exceptional or error conditions */
 
     status_code?: number | undefined;
 
     
-    /** date and time when the resource was fetched
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2026-03-09 18:20:32 +00:00 */
+    /** *date and time when the resource was fetched* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2026-03-09 18:20:32 +00:00` */
 
     fetch_time?: string | undefined;
 
     
-    /** metadata of the uncrawlable resource */
+    /** *metadata of the uncrawlable resource* */
 
     meta?: UncrawlableResourcesMeta | undefined;
 

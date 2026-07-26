@@ -6,8 +6,7 @@ export interface IDataforseoLabsAmazonBulkSearchVolumeLiveItem   {
         /** keyword in a POST array */
         keyword?: string | undefined
         
-        /** average monthly search volume rate
-represents the (approximate) number of searches for the returned keyword on Amazon */
+        /** average monthly search volume rate represents the (approximate) number of searches for the returned keyword on Amazon */
         search_volume?: number | undefined
 
     [key: string]: any;
@@ -27,8 +26,7 @@ export class DataforseoLabsAmazonBulkSearchVolumeLiveItem  implements IDataforse
     keyword?: string | undefined;
 
     
-    /** average monthly search volume rate
-represents the (approximate) number of searches for the returned keyword on Amazon */
+    /** average monthly search volume rate represents the (approximate) number of searches for the returned keyword on Amazon */
 
     search_volume?: number | undefined;
 

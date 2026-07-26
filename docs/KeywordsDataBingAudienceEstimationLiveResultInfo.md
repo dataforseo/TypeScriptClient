@@ -16,4 +16,4 @@
 **events_lost_to_budget** | **number** | indicates the event lost count due to insufficient input budget |[optional]|
 **est_reach_audience_size** | **number** | monthly estimated user count |[optional]|
 **est_reach_impressions** | **number** | monthly estimated impressions |[optional]|
-**currency** | **string** | currency name<br>example: USDollar |[optional]|
+**currency** | **string** | currency name. example: USDollar |[optional]|

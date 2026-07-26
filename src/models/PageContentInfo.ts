@@ -14,27 +14,22 @@ export interface IPageContentInfo   {
         /** content of the footer of the table */
         footer?: PageSectionContentInfo | undefined
         
-        /** main topic on the page
-you can find more information about topic priority calculation in this help center article */
+        /** main topic on the page you can find more information about topic priority calculation in this help center article */
         main_topic?: TopicInfo[] | undefined
         
-        /** secondary topic on the page
-you can find more information about topic priority calculation in this help center article */
+        /** secondary topic on the page you can find more information about topic priority calculation in this help center article */
         secondary_topic?: TopicInfo[] | undefined
         
         /** contains objects with rating information for the products displayed on the page */
         ratings?: ContentRatingInfo[] | undefined
         
-        /** array of products displayed on the page
-contains objects with information on products displayed on the page */
+        /** array of products displayed on the page contains objects with information on products displayed on the page */
         offers?: ContentOfferInfo[] | undefined
         
-        /** array of comments displayed on the page
-contains objects with information on comments related to displayed products */
+        /** array of comments displayed on the page contains objects with information on comments related to displayed products */
         comments?: ContentCommentInfo[] | undefined
         
-        /** contact information
-contains contact information displayed on the page */
+        /** contact information contains contact information displayed on the page */
         contacts?: Contacts | undefined
 
     [key: string]: any;
@@ -54,14 +49,12 @@ export class PageContentInfo  implements IPageContentInfo {
     footer?: PageSectionContentInfo | undefined;
 
     
-    /** main topic on the page
-you can find more information about topic priority calculation in this help center article */
+    /** main topic on the page you can find more information about topic priority calculation in this help center article */
 
     main_topic?: TopicInfo[] | undefined;
 
     
-    /** secondary topic on the page
-you can find more information about topic priority calculation in this help center article */
+    /** secondary topic on the page you can find more information about topic priority calculation in this help center article */
 
     secondary_topic?: TopicInfo[] | undefined;
 
@@ -71,20 +64,17 @@ you can find more information about topic priority calculation in this help cent
     ratings?: ContentRatingInfo[] | undefined;
 
     
-    /** array of products displayed on the page
-contains objects with information on products displayed on the page */
+    /** array of products displayed on the page contains objects with information on products displayed on the page */
 
     offers?: ContentOfferInfo[] | undefined;
 
     
-    /** array of comments displayed on the page
-contains objects with information on comments related to displayed products */
+    /** array of comments displayed on the page contains objects with information on comments related to displayed products */
 
     comments?: ContentCommentInfo[] | undefined;
 
     
-    /** contact information
-contains contact information displayed on the page */
+    /** contact information contains contact information displayed on the page */
 
     contacts?: Contacts | undefined;
 

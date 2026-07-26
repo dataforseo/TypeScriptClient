@@ -3,18 +3,13 @@ export interface ISearchIntentInfo   {
         /** search engine type */
         se_type?: string | undefined
         
-        /** main search intent
-possible values: informational, navigational, commercial, transactional */
+        /** main search intent possible values: informational, navigational, commercial, transactional */
         main_intent?: string | undefined
         
-        /** supplementary search intents
-possible values: informational, navigational, commercial, transactional */
+        /** supplementary search intents possible values: informational, navigational, commercial, transactional */
         foreign_intent?: string[] | undefined
         
-        /** date and time when keyword data was updated
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** date and time when keyword data was updated in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
         last_updated_time?: string | undefined
 
     [key: string]: any;
@@ -29,22 +24,17 @@ export class SearchIntentInfo  implements ISearchIntentInfo {
     se_type?: string | undefined;
 
     
-    /** main search intent
-possible values: informational, navigational, commercial, transactional */
+    /** main search intent possible values: informational, navigational, commercial, transactional */
 
     main_intent?: string | undefined;
 
     
-    /** supplementary search intents
-possible values: informational, navigational, commercial, transactional */
+    /** supplementary search intents possible values: informational, navigational, commercial, transactional */
 
     foreign_intent?: string[] | undefined;
 
     
-    /** date and time when keyword data was updated
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** date and time when keyword data was updated in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
 
     last_updated_time?: string | undefined;
 

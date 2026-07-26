@@ -8,8 +8,7 @@ export interface IAppendixUserDataResultInfo   {
         /** your login */
         login?: string | undefined
         
-        /** your time zone
-can be set in your profile settings */
+        /** your time zone can be set in your profile settings */
         timezone?: string | undefined
         
         /** your API rates */
@@ -21,20 +20,10 @@ can be set in your profile settings */
         /** pricing */
         price?: AppendixPriceData | undefined
         
-        /** expiry date of the backlinks api subscription
-date and time when the current subscription to Backlinks API expires;
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2025-06-15 12:57:46 +00:00
-Note: if there is no active subscription to Backlinks API, the value equals null */
+        /** expiry date of the backlinks api subscription date and time when the current subscription to Backlinks API expires; in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2025-06-15 12:57:46 +00:00 Note: if there is no active subscription to Backlinks API, the value equals null */
         backlinks_subscription_expiry_date?: string | undefined
         
-        /** expiry date of the llm mentions api subscription
-date and time when the current subscription to LLM Mentions API expires;
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2026-02-28 14:01:38 +00:00
-Note: if there is no active subscription to LLM Mentions API, the value equals null */
+        /** expiry date of the llm mentions api subscription date and time when the current subscription to LLM Mentions API expires; in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2026-02-28 14:01:38 +00:00 Note: if there is no active subscription to LLM Mentions API, the value equals null */
         llm_mentions_subscription_expiry_date?: string | undefined
 
     [key: string]: any;
@@ -49,8 +38,7 @@ export class AppendixUserDataResultInfo  implements IAppendixUserDataResultInfo 
     login?: string | undefined;
 
     
-    /** your time zone
-can be set in your profile settings */
+    /** your time zone can be set in your profile settings */
 
     timezone?: string | undefined;
 
@@ -70,22 +58,12 @@ can be set in your profile settings */
     price?: AppendixPriceData | undefined;
 
     
-    /** expiry date of the backlinks api subscription
-date and time when the current subscription to Backlinks API expires;
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2025-06-15 12:57:46 +00:00
-Note: if there is no active subscription to Backlinks API, the value equals null */
+    /** expiry date of the backlinks api subscription date and time when the current subscription to Backlinks API expires; in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2025-06-15 12:57:46 +00:00 Note: if there is no active subscription to Backlinks API, the value equals null */
 
     backlinks_subscription_expiry_date?: string | undefined;
 
     
-    /** expiry date of the llm mentions api subscription
-date and time when the current subscription to LLM Mentions API expires;
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2026-02-28 14:01:38 +00:00
-Note: if there is no active subscription to LLM Mentions API, the value equals null */
+    /** expiry date of the llm mentions api subscription date and time when the current subscription to LLM Mentions API expires; in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2026-02-28 14:01:38 +00:00 Note: if there is no active subscription to LLM Mentions API, the value equals null */
 
     llm_mentions_subscription_expiry_date?: string | undefined;
 

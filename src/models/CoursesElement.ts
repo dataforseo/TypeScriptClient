@@ -15,8 +15,7 @@ export interface ICoursesElement   {
         /** domain where a link points */
         domain?: string | undefined
         
-        /** source of the element
-indicates the source of information included in the top_stories_element */
+        /** source of the element indicates the source of information included in the top_stories_element */
         source?: string | undefined
         
         /** description of the results element in SERP */
@@ -28,8 +27,7 @@ indicates the source of information included in the top_stories_element */
         /** URL of the image */
         image_url?: string | undefined
         
-        /** the element’s rating 
-the popularity rate based on reviews and displayed in SERP */
+        /** the element’s rating  the popularity rate based on reviews and displayed in SERP */
         rating?: RatingInfo | undefined
 
     [key: string]: any;
@@ -59,8 +57,7 @@ export class CoursesElement  implements ICoursesElement {
     domain?: string | undefined;
 
     
-    /** source of the element
-indicates the source of information included in the top_stories_element */
+    /** source of the element indicates the source of information included in the top_stories_element */
 
     source?: string | undefined;
 
@@ -80,8 +77,7 @@ indicates the source of information included in the top_stories_element */
     image_url?: string | undefined;
 
     
-    /** the element’s rating 
-the popularity rate based on reviews and displayed in SERP */
+    /** the element’s rating  the popularity rate based on reviews and displayed in SERP */
 
     rating?: RatingInfo | undefined;
 

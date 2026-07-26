@@ -3,8 +3,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IKeywordsDataGoogleAdsSearchVolumeTaskPostTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results
-in this case, the value will be null */
+        /** array of results in this case, the value will be null */
         result?: any | undefined
 
     [key: string]: any;
@@ -14,8 +13,7 @@ in this case, the value will be null */
 export class KeywordsDataGoogleAdsSearchVolumeTaskPostTaskInfo  extends BaseResponseTaskInfo   implements IKeywordsDataGoogleAdsSearchVolumeTaskPostTaskInfo {
 
     
-    /** array of results
-in this case, the value will be null */
+    /** array of results in this case, the value will be null */
 
     result?: any | undefined;
 

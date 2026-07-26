@@ -1,14 +1,12 @@
 export interface IAiOptimizationGeminiLlmResponsesModelsResultInfo   {
         
-        /** name of the AI model */
+        /** *name of the AI model* */
         model_name?: string | undefined
         
-        /** web search support for the AI model
-if true, the web_search parameter can be set with the AI model */
+        /** *web search support for the AI model* if `true`, the `web_search` parameter can be set with the AI model */
         web_search_supported?: boolean | undefined
         
-        /** indicates if Standard (POST-GET) data retrieval is supported
-if true, you can use the Standard (POST-GET) data retrieval method with the AI model */
+        /** *indicates if Standard (POST-GET) data retrieval is supported* if `true`, you can use the [Standard (POST-GET)](https://dataforseo.com/help-center/live-vs-standard-method) data retrieval method with the AI model */
         task_post_supported?: boolean | undefined
 
     [key: string]: any;
@@ -18,19 +16,17 @@ if true, you can use the Standard (POST-GET) data retrieval method with the AI m
 export class AiOptimizationGeminiLlmResponsesModelsResultInfo  implements IAiOptimizationGeminiLlmResponsesModelsResultInfo {
 
     
-    /** name of the AI model */
+    /** *name of the AI model* */
 
     model_name?: string | undefined;
 
     
-    /** web search support for the AI model
-if true, the web_search parameter can be set with the AI model */
+    /** *web search support for the AI model* if `true`, the `web_search` parameter can be set with the AI model */
 
     web_search_supported?: boolean | undefined;
 
     
-    /** indicates if Standard (POST-GET) data retrieval is supported
-if true, you can use the Standard (POST-GET) data retrieval method with the AI model */
+    /** *indicates if Standard (POST-GET) data retrieval is supported* if `true`, you can use the [Standard (POST-GET)](https://dataforseo.com/help-center/live-vs-standard-method) data retrieval method with the AI model */
 
     task_post_supported?: boolean | undefined;
 

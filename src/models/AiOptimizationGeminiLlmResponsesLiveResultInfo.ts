@@ -3,40 +3,31 @@ import { BaseAiOptimizationLlmResponseElementItem, IBaseAiOptimizationLlmRespons
 
 export interface IAiOptimizationGeminiLlmResponsesLiveResultInfo   {
         
-        /** name of the AI model used */
+        /** *name of the AI model used* */
         model_name?: string | undefined
         
-        /** number of tokens in the input
-total count of tokens processed */
+        /** *number of tokens in the input* total count of tokens processed */
         input_tokens?: number | undefined
         
-        /** number of tokens in the output
-total count of tokens generated in the AI response */
+        /** *number of tokens in the output* total count of tokens generated in the AI response */
         output_tokens?: number | undefined
         
-        /** number of reasoning tokens
-total count of tokens used to generate reasoning content */
+        /** *number of reasoning tokens* total count of tokens used to generate reasoning content */
         reasoning_tokens?: number | undefined
         
-        /** indicates if web search was used */
+        /** *indicates if web search was used* */
         web_search?: boolean | undefined
         
-        /** cost of AI tokens, USD
-the price charged by the third-party AI model provider for according to its Pricing */
+        /** *cost of AI tokens, USD* the price charged by the third-party AI model provider for according to its [Pricing](https://ai.google.dev/gemini-api/docs/pricing) */
         money_spent?: number | undefined
         
-        /** date and time when the result was received
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** *date and time when the result was received* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
         datetime?: string | undefined
         
-        /** array of response items
-contains structured AI response data */
+        /** *array of response items* contains structured AI response data */
         items?: BaseAiOptimizationLlmResponseElementItem[] | undefined
         
-        /** array of fan-out queries
-contains related search queries derived from the main query to provide a more comprehensive response */
+        /** *array of fan-out queries* contains related search queries derived from the main query to provide a more comprehensive response */
         fan_out_queries?: string[] | undefined
 
     [key: string]: any;
@@ -46,56 +37,47 @@ contains related search queries derived from the main query to provide a more co
 export class AiOptimizationGeminiLlmResponsesLiveResultInfo  implements IAiOptimizationGeminiLlmResponsesLiveResultInfo {
 
     
-    /** name of the AI model used */
+    /** *name of the AI model used* */
 
     model_name?: string | undefined;
 
     
-    /** number of tokens in the input
-total count of tokens processed */
+    /** *number of tokens in the input* total count of tokens processed */
 
     input_tokens?: number | undefined;
 
     
-    /** number of tokens in the output
-total count of tokens generated in the AI response */
+    /** *number of tokens in the output* total count of tokens generated in the AI response */
 
     output_tokens?: number | undefined;
 
     
-    /** number of reasoning tokens
-total count of tokens used to generate reasoning content */
+    /** *number of reasoning tokens* total count of tokens used to generate reasoning content */
 
     reasoning_tokens?: number | undefined;
 
     
-    /** indicates if web search was used */
+    /** *indicates if web search was used* */
 
     web_search?: boolean | undefined;
 
     
-    /** cost of AI tokens, USD
-the price charged by the third-party AI model provider for according to its Pricing */
+    /** *cost of AI tokens, USD* the price charged by the third-party AI model provider for according to its [Pricing](https://ai.google.dev/gemini-api/docs/pricing) */
 
     money_spent?: number | undefined;
 
     
-    /** date and time when the result was received
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** *date and time when the result was received* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
 
     datetime?: string | undefined;
 
     
-    /** array of response items
-contains structured AI response data */
+    /** *array of response items* contains structured AI response data */
 
     items?: BaseAiOptimizationLlmResponseElementItem[] | undefined;
 
     
-    /** array of fan-out queries
-contains related search queries derived from the main query to provide a more comprehensive response */
+    /** *array of fan-out queries* contains related search queries derived from the main query to provide a more comprehensive response */
 
     fan_out_queries?: string[] | undefined;
 

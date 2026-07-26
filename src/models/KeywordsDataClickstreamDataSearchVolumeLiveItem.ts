@@ -9,8 +9,7 @@ export interface IKeywordsDataClickstreamDataSearchVolumeLiveItem   {
         /** current search volume rate of a keyword */
         search_volume?: number | undefined
         
-        /** monthly search volume rates
-array of objects with search volume rates in a certain month of a year */
+        /** monthly search volume rates array of objects with search volume rates in a certain month of a year */
         monthly_searches?: MonthlySearchesInfo[] | undefined
 
     [key: string]: any;
@@ -30,8 +29,7 @@ export class KeywordsDataClickstreamDataSearchVolumeLiveItem  implements IKeywor
     search_volume?: number | undefined;
 
     
-    /** monthly search volume rates
-array of objects with search volume rates in a certain month of a year */
+    /** monthly search volume rates array of objects with search volume rates in a certain month of a year */
 
     monthly_searches?: MonthlySearchesInfo[] | undefined;
 

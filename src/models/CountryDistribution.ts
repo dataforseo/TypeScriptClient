@@ -3,9 +3,7 @@ export interface ICountryDistribution   {
         /** country ISO code */
         country_iso_code?: string | undefined
         
-        /** clickstream-based average monthly search volume rate
-represents the (approximate) number of searches for the given keyword idea based on clickstream
-you can learn more about clickstream search volume in this Help Center article */
+        /** clickstream-based average monthly search volume rate represents the (approximate) number of searches for the given keyword idea based on clickstream you can learn more about clickstream search volume in this Help Center article */
         search_volume?: number | undefined
         
         /** percentage of global search volume */
@@ -23,9 +21,7 @@ export class CountryDistribution  implements ICountryDistribution {
     country_iso_code?: string | undefined;
 
     
-    /** clickstream-based average monthly search volume rate
-represents the (approximate) number of searches for the given keyword idea based on clickstream
-you can learn more about clickstream search volume in this Help Center article */
+    /** clickstream-based average monthly search volume rate represents the (approximate) number of searches for the given keyword idea based on clickstream you can learn more about clickstream search volume in this Help Center article */
 
     search_volume?: number | undefined;
 

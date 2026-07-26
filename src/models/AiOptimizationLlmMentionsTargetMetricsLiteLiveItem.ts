@@ -3,20 +3,16 @@ import { AggregatedMetricsInfoTotalInfo, IAggregatedMetricsInfoTotalInfo } from 
 
 export interface IAiOptimizationLlmMentionsTargetMetricsLiteLiveItem   {
         
-        /** location identifier
-location of aggregated metrics */
+        /** *location identifier* location of aggregated metrics */
         location?: number | undefined
         
-        /** language identifier
-language of aggregated metrics */
+        /** *language identifier* language of aggregated metrics */
         language?: string | undefined
         
-        /** LLM platform identifiers
-LLM platform of aggregated metrics */
+        /** *LLM platform identifiers* LLM platform of aggregated metrics */
         platform?: string | undefined
         
-        /** LLM metrics
-metrics aggregated by specific parameters and respective identifiers */
+        /** *LLM metrics* metrics aggregated by specific parameters and respective identifiers */
         metrics?: AggregatedMetricsInfoTotalInfo | undefined
 
     [key: string]: any;
@@ -26,26 +22,22 @@ metrics aggregated by specific parameters and respective identifiers */
 export class AiOptimizationLlmMentionsTargetMetricsLiteLiveItem  implements IAiOptimizationLlmMentionsTargetMetricsLiteLiveItem {
 
     
-    /** location identifier
-location of aggregated metrics */
+    /** *location identifier* location of aggregated metrics */
 
     location?: number | undefined;
 
     
-    /** language identifier
-language of aggregated metrics */
+    /** *language identifier* language of aggregated metrics */
 
     language?: string | undefined;
 
     
-    /** LLM platform identifiers
-LLM platform of aggregated metrics */
+    /** *LLM platform identifiers* LLM platform of aggregated metrics */
 
     platform?: string | undefined;
 
     
-    /** LLM metrics
-metrics aggregated by specific parameters and respective identifiers */
+    /** *LLM metrics* metrics aggregated by specific parameters and respective identifiers */
 
     metrics?: AggregatedMetricsInfoTotalInfo | undefined;
 

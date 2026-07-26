@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **AiOptimizationLlmMentionsTimeseriesNewLostLiveTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **AiOptimizationLlmMentionsTimeseriesNewLostLiveTaskInfo[]** | *array of tasks* |[optional]|

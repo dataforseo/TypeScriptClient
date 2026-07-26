@@ -65,9 +65,7 @@ export interface IAppendixStatisticsRatesDataInfo   {
         
         total_content_generation?: number | undefined
         
-        /** time period for grouping
-day in the yyyy-MM-dd format
-minute in the yyyy-MM-dd HH:mm format */
+        /** time period for grouping day in the yyyy-MM-dd format minute in the yyyy-MM-dd HH:mm format */
         value?: string | undefined
 
     [key: string]: any;
@@ -130,9 +128,7 @@ export class AppendixStatisticsRatesDataInfo  implements IAppendixStatisticsRate
     total_content_generation?: number | undefined;
 
     
-    /** time period for grouping
-day in the yyyy-MM-dd format
-minute in the yyyy-MM-dd HH:mm format */
+    /** time period for grouping day in the yyyy-MM-dd format minute in the yyyy-MM-dd HH:mm format */
 
     value?: string | undefined;
 

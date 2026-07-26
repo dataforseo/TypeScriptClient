@@ -1086,6 +1086,7 @@ This endpoint does not need any parameter.
    task.language_code = "en";
    task.location_code = 2840;
    task.keyword = "albert einstein";
+   task.calculate_rectangles = true;
  let response = await api.googleOrganicLiveAdvanced([task]);
 ```
 
@@ -1957,6 +1958,8 @@ This endpoint does not need any parameter.
    task.language_code = "en";
    task.location_code = 2840;
    task.keyword = "local nail services";
+   task.min_rating = 4.5;
+   task.time_filter = "monday";
  let response = await api.googleLocalFinderTaskPost([task]);
 ```
 
@@ -2243,6 +2246,8 @@ This endpoint does not need any parameter.
    task.language_code = "en";
    task.location_code = 2840;
    task.keyword = "local nail services";
+   task.min_rating = 4.5;
+   task.time_filter = "monday";
  let response = await api.googleLocalFinderLiveAdvanced([task]);
 ```
 
@@ -2996,6 +3001,8 @@ This endpoint does not need any parameter.
 
  let task = new SerpGoogleEventsLiveAdvancedRequestInfo();
    task.keyword = "concerts";
+   task.location_name = "Los Angeles,California,United States";
+   task.date_range = "today";
  let response = await api.googleEventsLiveAdvanced([task]);
 ```
 
@@ -4207,6 +4214,7 @@ This endpoint does not need any parameter.
    task.language_code = "en";
    task.location_code = 2840;
    task.keyword = "albert einstein";
+   task.client = "gws-wiz-serp";
  let response = await api.googleAutocompleteLiveAdvanced([task]);
 ```
 
@@ -4265,6 +4273,17 @@ This endpoint does not need any parameter.
 
  let task = new SerpGoogleDatasetSearchTaskPostRequestInfo();
    task.keyword = "water quality";
+   task.last_updated = "1m";
+   task.file_formats = [
+       "archive",
+       "image",
+   ];
+   task.usage_rights = "noncommercial";
+   task.is_free = true;
+   task.topics = [
+       "natural_sciences",
+       "geo",
+   ];
  let response = await api.googleDatasetSearchTaskPost([task]);
 ```
 
@@ -4492,6 +4511,17 @@ This endpoint does not need any parameter.
 
  let task = new SerpGoogleDatasetSearchLiveAdvancedRequestInfo();
    task.keyword = "water quality";
+   task.last_updated = "1m";
+   task.file_formats = [
+       "archive",
+       "image",
+   ];
+   task.usage_rights = "noncommercial";
+   task.is_free = true;
+   task.topics = [
+       "natural_sciences",
+       "geo",
+   ];
  let response = await api.googleDatasetSearchLiveAdvanced([task]);
 ```
 
@@ -5119,6 +5149,7 @@ This endpoint does not need any parameter.
 
  let task = new SerpGoogleAdsSearchTaskPostRequestInfo();
    task.location_code = 2840;
+   task.platform = "google_search";
    task.advertiser_ids = [
        "AR13752565271262920705",
        "AR02439908557932462081",
@@ -9373,6 +9404,7 @@ This endpoint does not need any parameter.
 
  let task = new SerpGoogleFinanceExploreTaskPostRequestInfo();
    task.location_code = 2840;
+   task.language_name = "English";
  let response = await api.googleFinanceExploreTaskPost([task]);
 ```
 
@@ -9601,6 +9633,7 @@ This endpoint does not need any parameter.
 
  let task = new SerpGoogleFinanceExploreLiveAdvancedRequestInfo();
    task.location_code = 2840;
+   task.language_name = "English";
  let response = await api.googleFinanceExploreLiveAdvanced([task]);
 ```
 
@@ -9718,6 +9751,7 @@ This endpoint does not need any parameter.
 
  let task = new SerpGoogleFinanceMarketsTaskPostRequestInfo();
    task.location_code = 2840;
+   task.language_name = "English";
  let response = await api.googleFinanceMarketsTaskPost([task]);
 ```
 
@@ -9946,6 +9980,7 @@ This endpoint does not need any parameter.
 
  let task = new SerpGoogleFinanceMarketsLiveAdvancedRequestInfo();
    task.location_code = 2840;
+   task.language_name = "English";
  let response = await api.googleFinanceMarketsLiveAdvanced([task]);
 ```
 
@@ -10064,6 +10099,7 @@ This endpoint does not need any parameter.
  let task = new SerpGoogleFinanceQuoteTaskPostRequestInfo();
    task.keyword = ".DJI:INDEXDJX";
    task.location_code = 2840;
+   task.language_name = "English";
  let response = await api.googleFinanceQuoteTaskPost([task]);
 ```
 
@@ -10293,6 +10329,7 @@ This endpoint does not need any parameter.
  let task = new SerpGoogleFinanceQuoteLiveAdvancedRequestInfo();
    task.keyword = "CLW00:NYMEX";
    task.location_code = 2840;
+   task.language_name = "English";
  let response = await api.googleFinanceQuoteLiveAdvanced([task]);
 ```
 
@@ -10410,7 +10447,9 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleFinanceTickerSearchTaskPostRequestInfo();
+   task.language_name = "English";
    task.location_code = 2840;
+   task.category = "all";
    task.keyword = "DJ";
    task.priority = 2;
  let response = await api.googleFinanceTickerSearchTaskPost([task]);
@@ -10583,7 +10622,9 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpGoogleFinanceTickerSearchLiveAdvancedRequestInfo();
+   task.language_name = "English";
    task.location_code = 2840;
+   task.category = "all";
    task.keyword = "DJ";
  let response = await api.googleFinanceTickerSearchLiveAdvanced([task]);
 ```

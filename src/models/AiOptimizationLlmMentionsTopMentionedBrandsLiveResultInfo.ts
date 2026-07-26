@@ -4,21 +4,19 @@ import { AiOptimizationLlmMentionsTopMentionedBrandsLiveItem, IAiOptimizationLlm
 
 export interface IAiOptimizationLlmMentionsTopMentionedBrandsLiveResultInfo   {
         
-        /** total amount of results relevant the request */
+        /** *total amount of results relevant the request* */
         total_count?: number | undefined
         
-        /** the number of mentions objects that are omitted in the items array */
+        /** *the number of mentions objects that are omitted in the `items` array* */
         offset?: number | undefined
         
-        /** the number of results returned in the items array */
+        /** *the number of results returned in the `items` array* */
         items_count?: number | undefined
         
-        /** aggregated mentions metrics
-contains aggregated LLM mention metrics across all found brands, grouped by various dimensions */
+        /** *aggregated mentions metrics* contains aggregated LLM mention metrics across all found brands, grouped by various dimensions */
         aggregated_metrics?: LlmMentionsAggregatedMetricsInfo | undefined
         
-        /** individual domain results
-array containing detailed mention metrics for each of the found top domains */
+        /** *individual domain results* array containing detailed mention metrics for each of the found top domains */
         items?: AiOptimizationLlmMentionsTopMentionedBrandsLiveItem[] | undefined
 
     [key: string]: any;
@@ -28,29 +26,27 @@ array containing detailed mention metrics for each of the found top domains */
 export class AiOptimizationLlmMentionsTopMentionedBrandsLiveResultInfo  implements IAiOptimizationLlmMentionsTopMentionedBrandsLiveResultInfo {
 
     
-    /** total amount of results relevant the request */
+    /** *total amount of results relevant the request* */
 
     total_count?: number | undefined;
 
     
-    /** the number of mentions objects that are omitted in the items array */
+    /** *the number of mentions objects that are omitted in the `items` array* */
 
     offset?: number | undefined;
 
     
-    /** the number of results returned in the items array */
+    /** *the number of results returned in the `items` array* */
 
     items_count?: number | undefined;
 
     
-    /** aggregated mentions metrics
-contains aggregated LLM mention metrics across all found brands, grouped by various dimensions */
+    /** *aggregated mentions metrics* contains aggregated LLM mention metrics across all found brands, grouped by various dimensions */
 
     aggregated_metrics?: LlmMentionsAggregatedMetricsInfo | undefined;
 
     
-    /** individual domain results
-array containing detailed mention metrics for each of the found top domains */
+    /** *individual domain results* array containing detailed mention metrics for each of the found top domains */
 
     items?: AiOptimizationLlmMentionsTopMentionedBrandsLiveItem[] | undefined;
 

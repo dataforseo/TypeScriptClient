@@ -6,8 +6,7 @@ export interface IWorkHours   {
         /** work hours timetable */
         timetable?: { [key: string]: WorkDayInfo[]; } | undefined
         
-        /** current status of the establishment
-indicates whether the establishment is opened or closed */
+        /** current status of the establishment indicates whether the establishment is opened or closed */
         current_status?: string | undefined
 
     [key: string]: any;
@@ -22,8 +21,7 @@ export class WorkHours  implements IWorkHours {
     timetable?: { [key: string]: WorkDayInfo[]; } | undefined;
 
     
-    /** current status of the establishment
-indicates whether the establishment is opened or closed */
+    /** current status of the establishment indicates whether the establishment is opened or closed */
 
     current_status?: string | undefined;
 

@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **AiOptimizationGeminiLlmScraperLocationsTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **AiOptimizationGeminiLlmScraperLocationsTaskInfo[]** | *array of tasks* |[optional]|

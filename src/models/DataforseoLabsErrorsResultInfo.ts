@@ -1,13 +1,9 @@
 export interface IDataforseoLabsErrorsResultInfo   {
         
-        /** task identifier
-unique task identifier in our system in the UUID format */
+        /** task identifier unique task identifier in our system in the UUID format */
         id?: string | undefined
         
-        /** date and time when an error occurred
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** date and time when an error occurred in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
         datetime?: string | undefined
         
         /** corresponding API function */
@@ -16,12 +12,10 @@ example:
         /** error code */
         error_code?: number | undefined
         
-        /** error message or error URL
-error message (see full list) or URL that caused an error */
+        /** error message or error URL error message (see full list) or URL that caused an error */
         error_message?: string | undefined
         
-        /** URL that caused an error
-URL you used for making an API call */
+        /** URL that caused an error URL you used for making an API call */
         http_url?: string | undefined
         
         /** HTTP method */
@@ -33,8 +27,7 @@ URL you used for making an API call */
         /** time taken by HTTP request */
         http_time?: number | undefined
         
-        /** HTTP response
-server response */
+        /** HTTP response server response */
         http_response?: string | undefined
 
     [key: string]: any;
@@ -44,16 +37,12 @@ server response */
 export class DataforseoLabsErrorsResultInfo  implements IDataforseoLabsErrorsResultInfo {
 
     
-    /** task identifier
-unique task identifier in our system in the UUID format */
+    /** task identifier unique task identifier in our system in the UUID format */
 
     id?: string | undefined;
 
     
-    /** date and time when an error occurred
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** date and time when an error occurred in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
 
     datetime?: string | undefined;
 
@@ -68,14 +57,12 @@ example:
     error_code?: number | undefined;
 
     
-    /** error message or error URL
-error message (see full list) or URL that caused an error */
+    /** error message or error URL error message (see full list) or URL that caused an error */
 
     error_message?: string | undefined;
 
     
-    /** URL that caused an error
-URL you used for making an API call */
+    /** URL that caused an error URL you used for making an API call */
 
     http_url?: string | undefined;
 
@@ -95,8 +82,7 @@ URL you used for making an API call */
     http_time?: number | undefined;
 
     
-    /** HTTP response
-server response */
+    /** HTTP response server response */
 
     http_response?: string | undefined;
 

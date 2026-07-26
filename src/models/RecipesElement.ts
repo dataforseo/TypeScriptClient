@@ -24,9 +24,7 @@ export interface IRecipesElement   {
         /** the total time it takes to prepare the cook the dish */
         time?: string | undefined
         
-        /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP;
-if there is none, equals null */
+        /** the item’s rating  the popularity rate based on reviews and displayed in SERP; if there is none, equals null */
         rating?: RatingInfo | undefined
 
     [key: string]: any;
@@ -71,9 +69,7 @@ export class RecipesElement  implements IRecipesElement {
     time?: string | undefined;
 
     
-    /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP;
-if there is none, equals null */
+    /** the item’s rating  the popularity rate based on reviews and displayed in SERP; if there is none, equals null */
 
     rating?: RatingInfo | undefined;
 

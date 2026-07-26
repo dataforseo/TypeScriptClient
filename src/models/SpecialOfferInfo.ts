@@ -1,30 +1,30 @@
 export interface ISpecialOfferInfo   {
         
-        /** product title */
+        /** *product title* */
         title?: string | undefined
         
-        /** subtitle of the special offer */
+        /** *subtitle of the special offer* */
         sub_title?: string | undefined
         
-        /** amount of the fixed discount */
+        /** *amount of the fixed discount* */
         fixed_discount?: number | undefined
         
-        /** currency of the fixed discount */
+        /** *currency of the fixed discount* */
         fixed_discount_currency?: string | undefined
         
-        /** percentage of the discount */
+        /** *percentage of the discount* */
         percentage_discount?: number | undefined
         
-        /** code of coupon discount */
+        /** *code of coupon discount* */
         coupon_code?: string | undefined
         
-        /** information on coupon discount */
+        /** *information on coupon discount* */
         coupon_info?: string | undefined
         
-        /** URL to the product page on the seller's websiteNote: this field is deprecated and will return null */
+        /** *URL to the product page on the seller's website* **Note:** this field is deprecated and will return `null` */
         url?: string | undefined
         
-        /** domain in SERP */
+        /** *domain in SERP* */
         domain?: string | undefined
 
     [key: string]: any;
@@ -34,47 +34,47 @@ export interface ISpecialOfferInfo   {
 export class SpecialOfferInfo  implements ISpecialOfferInfo {
 
     
-    /** product title */
+    /** *product title* */
 
     title?: string | undefined;
 
     
-    /** subtitle of the special offer */
+    /** *subtitle of the special offer* */
 
     sub_title?: string | undefined;
 
     
-    /** amount of the fixed discount */
+    /** *amount of the fixed discount* */
 
     fixed_discount?: number | undefined;
 
     
-    /** currency of the fixed discount */
+    /** *currency of the fixed discount* */
 
     fixed_discount_currency?: string | undefined;
 
     
-    /** percentage of the discount */
+    /** *percentage of the discount* */
 
     percentage_discount?: number | undefined;
 
     
-    /** code of coupon discount */
+    /** *code of coupon discount* */
 
     coupon_code?: string | undefined;
 
     
-    /** information on coupon discount */
+    /** *information on coupon discount* */
 
     coupon_info?: string | undefined;
 
     
-    /** URL to the product page on the seller's websiteNote: this field is deprecated and will return null */
+    /** *URL to the product page on the seller's website* **Note:** this field is deprecated and will return `null` */
 
     url?: string | undefined;
 
     
-    /** domain in SERP */
+    /** *domain in SERP* */
 
     domain?: string | undefined;
 

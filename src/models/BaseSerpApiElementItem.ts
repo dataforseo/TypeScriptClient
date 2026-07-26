@@ -58,20 +58,16 @@ export interface IBaseSerpApiElementItem   {
         /** type of element */
         type?: string | undefined
         
-        /** search results page numberindicates the number of the SERP page on which the element is located */
+        /** *search results page number* indicates the number of the SERP page on which the element is located */
         page?: number | undefined
         
-        /** the alignment of the element in SERP
-can take the following values:
-left, right */
+        /** the alignment of the element in SERP can take the following values: left, right */
         position?: string | undefined
         
         /** the XPath of the element */
         xpath?: string | undefined
         
-        /** rectangle parameters
-contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
-equals null if calculate_rectangles in the POST request is not set to true */
+        /** rectangle parameters contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP equals null if calculate_rectangles in the POST request is not set to true */
         rectangle?: AiModeRectangleInfo | undefined
 
     [key: string]: any;
@@ -86,14 +82,12 @@ export class BaseSerpApiElementItem  implements IBaseSerpApiElementItem {
     type?: string | undefined;
 
     
-    /** search results page numberindicates the number of the SERP page on which the element is located */
+    /** *search results page number* indicates the number of the SERP page on which the element is located */
 
     page?: number | undefined;
 
     
-    /** the alignment of the element in SERP
-can take the following values:
-left, right */
+    /** the alignment of the element in SERP can take the following values: left, right */
 
     position?: string | undefined;
 
@@ -103,9 +97,7 @@ left, right */
     xpath?: string | undefined;
 
     
-    /** rectangle parameters
-contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
-equals null if calculate_rectangles in the POST request is not set to true */
+    /** rectangle parameters contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP equals null if calculate_rectangles in the POST request is not set to true */
 
     rectangle?: AiModeRectangleInfo | undefined;
 
@@ -533,25 +525,25 @@ equals null if calculate_rectangles in the POST request is not set to true */
  
 export interface IPaidSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERPposition within a group of elements with identical type valuespositions of elements with different type values are omitted from rank_group */
+        /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
         rank_group?: number | undefined
         
-        /** absolute rank in SERPabsolute position among all the elements found in SERPnote values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;to get all items (including SERP features and rich snippets) with their positions, please refer to the Google Organiс Advanced SERP endpoint */
+        /** *absolute rank in SERP* absolute position among all the elements found in SERP**note** values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results; to get all items (including SERP features and rich snippets) with their positions, please refer to the [Google Organiс Advanced SERP](https://docs.dataforseo.com/v3/serp/google/organic/live/advanced/?php) endpoint */
         rank_absolute?: number | undefined
         
-        /** domain in SERP */
+        /** *domain in SERP* */
         domain?: string | undefined
         
-        /** title of the results element in SERP */
+        /** *title of the results element in SERP* */
         title?: string | undefined
         
-        /** description of the results element in SERP */
+        /** *description of the results element in SERP* */
         description?: string | undefined
         
-        /** relevant URL in SERP */
+        /** *relevant URL in SERP* */
         url?: string | undefined
         
-        /** breadcrumb in SERP */
+        /** *breadcrumb in SERP* */
         breadcrumb?: string | undefined
         
         /** name of the website in SERP */
@@ -563,8 +555,7 @@ export interface IPaidSerpElementItem  extends IBaseSerpApiElementItem    {
         /** indicates whether the element contains a video */
         is_video?: boolean | undefined
         
-        /** images of the element
-if there are none, equals null */
+        /** images of the element if there are none, equals null */
         images?: AiModeImagesElementInfo[] | undefined
         
         /** words highlighted in bold within the results description */
@@ -573,21 +564,16 @@ if there are none, equals null */
         /** additional information about the result */
         extra?: { [key: string]: string; } | undefined
         
-        /** extended description
-if there is none, equals null */
+        /** extended description if there is none, equals null */
         description_rows?: string[] | undefined
         
         /** link of the element */
         links?: AdLinkElement[] | undefined
         
-        /** pricing details
-contains the pricing details of the product or service featured in the result;
-if there is none, equals null */
+        /** pricing details contains the pricing details of the product or service featured in the result; if there is none, equals null */
         price?: PriceInfo | undefined
         
-        /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP
-if there is none, equals null */
+        /** the item’s rating  the popularity rate based on reviews and displayed in SERP if there is none, equals null */
         rating?: RatingInfo | undefined
 
     [key: string]: any;
@@ -597,37 +583,37 @@ if there is none, equals null */
 export class PaidSerpElementItem  extends BaseSerpApiElementItem   implements IPaidSerpElementItem {
 
     
-    /** group rank in SERPposition within a group of elements with identical type valuespositions of elements with different type values are omitted from rank_group */
+    /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERPabsolute position among all the elements found in SERPnote values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;to get all items (including SERP features and rich snippets) with their positions, please refer to the Google Organiс Advanced SERP endpoint */
+    /** *absolute rank in SERP* absolute position among all the elements found in SERP**note** values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results; to get all items (including SERP features and rich snippets) with their positions, please refer to the [Google Organiс Advanced SERP](https://docs.dataforseo.com/v3/serp/google/organic/live/advanced/?php) endpoint */
 
     rank_absolute?: number | undefined;
 
     
-    /** domain in SERP */
+    /** *domain in SERP* */
 
     domain?: string | undefined;
 
     
-    /** title of the results element in SERP */
+    /** *title of the results element in SERP* */
 
     title?: string | undefined;
 
     
-    /** description of the results element in SERP */
+    /** *description of the results element in SERP* */
 
     description?: string | undefined;
 
     
-    /** relevant URL in SERP */
+    /** *relevant URL in SERP* */
 
     url?: string | undefined;
 
     
-    /** breadcrumb in SERP */
+    /** *breadcrumb in SERP* */
 
     breadcrumb?: string | undefined;
 
@@ -647,8 +633,7 @@ export class PaidSerpElementItem  extends BaseSerpApiElementItem   implements IP
     is_video?: boolean | undefined;
 
     
-    /** images of the element
-if there are none, equals null */
+    /** images of the element if there are none, equals null */
 
     images?: AiModeImagesElementInfo[] | undefined;
 
@@ -663,8 +648,7 @@ if there are none, equals null */
     extra?: { [key: string]: string; } | undefined;
 
     
-    /** extended description
-if there is none, equals null */
+    /** extended description if there is none, equals null */
 
     description_rows?: string[] | undefined;
 
@@ -674,16 +658,12 @@ if there is none, equals null */
     links?: AdLinkElement[] | undefined;
 
     
-    /** pricing details
-contains the pricing details of the product or service featured in the result;
-if there is none, equals null */
+    /** pricing details contains the pricing details of the product or service featured in the result; if there is none, equals null */
 
     price?: PriceInfo | undefined;
 
     
-    /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP
-if there is none, equals null */
+    /** the item’s rating  the popularity rate based on reviews and displayed in SERP if there is none, equals null */
 
     rating?: RatingInfo | undefined;
 
@@ -788,32 +768,31 @@ if there is none, equals null */
  
 export interface IOrganicSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERPposition within a group of elements with identical type valuespositions of elements with different type values are omitted from rank_group */
+        /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
         rank_group?: number | undefined
         
-        /** absolute rank in SERPabsolute position among all the elements found in SERPnote values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;to get all items (including SERP features and rich snippets) with their positions, please refer to the Google Organiс Advanced SERP endpoint */
+        /** *absolute rank in SERP* absolute position among all the elements found in SERP**note** values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results; to get all items (including SERP features and rich snippets) with their positions, please refer to the [Google Organiс Advanced SERP](https://docs.dataforseo.com/v3/serp/google/organic/live/advanced/?php) endpoint */
         rank_absolute?: number | undefined
         
-        /** domain in SERP */
+        /** *domain in SERP* */
         domain?: string | undefined
         
-        /** title of the results element in SERP */
+        /** *title of the results element in SERP* */
         title?: string | undefined
         
-        /** description of the results element in SERP */
+        /** *description of the results element in SERP* */
         description?: string | undefined
         
-        /** relevant URL in SERP */
+        /** *relevant URL in SERP* */
         url?: string | undefined
         
-        /** breadcrumb in SERP */
+        /** *breadcrumb in SERP* */
         breadcrumb?: string | undefined
         
         /** cached version of the page */
         cache_url?: string | undefined
         
-        /** URL to a similar search
-URL to a new search for the same keyword(s) on related sites */
+        /** URL to a similar search URL to a new search for the same keyword(s) on related sites */
         related_search_url?: string | undefined
         
         /** name of the website in SERP */
@@ -840,22 +819,16 @@ URL to a new search for the same keyword(s) on related sites */
         /** includes additional information appended after the result description in SERP */
         extended_snippet?: string | undefined
         
-        /** images of the element
-if there are none, equals null */
+        /** images of the element if there are none, equals null */
         images?: AiModeImagesElementInfo[] | undefined
         
-        /** Accelerated Mobile Pages
-indicates whether an item has the Accelerated Mobile Page (AMP) version */
+        /** Accelerated Mobile Pages indicates whether an item has the Accelerated Mobile Page (AMP) version */
         amp_version?: boolean | undefined
         
-        /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP
-if there is none, equals null */
+        /** the item’s rating  the popularity rate based on reviews and displayed in SERP if there is none, equals null */
         rating?: RatingInfo | undefined
         
-        /** pricing details
-contains the pricing details of the product or service featured in the result;
-if there is none, equals null */
+        /** pricing details contains the pricing details of the product or service featured in the result; if there is none, equals null */
         price?: PriceInfo | undefined
         
         /** words highlighted in bold within the results description */
@@ -864,29 +837,19 @@ if there is none, equals null */
         /** link of the element */
         links?: LinkElement[] | undefined
         
-        /** @deprecated frequently asked questions
-questions and answers extension shown below some of Google’s search results
-Note: this object is deprecated and always returns null */
+        /** @deprecated frequently asked questions questions and answers extension shown below some of Google’s search results Note: this object is deprecated and always returns null */
         faq?: FaqBox | undefined
         
-        /** extension of the organic element
-extension of the organic result containing related search queries
-Note: extension appears in SERP upon clicking on the result and then bouncing back to search results */
+        /** extension of the organic element extension of the organic result containing related search queries Note: extension appears in SERP upon clicking on the result and then bouncing back to search results */
         extended_people_also_search?: string[] | undefined
         
-        /** @deprecated contains information from the ‘About this result’ panel
-Note: this object is deprecated and always returns null */
+        /** @deprecated contains information from the ‘About this result’ panel Note: this object is deprecated and always returns null */
         about_this_result?: AboutThisResultElement | undefined
         
-        /** related result from the same domain
-related result from the same domain appears as a part of the main result snippet;
-you can derive the related_result snippets as 'type': 'organic' results by setting the group_organic_results parameter to false in the POST request */
+        /** related result from the same domain related result from the same domain appears as a part of the main result snippet; you can derive the related_result snippets as 'type': 'organic' results by setting the group_organic_results parameter to false in the POST request */
         related_result?: RelatedResult[] | undefined
         
-        /** date and time when the result was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
         timestamp?: string | undefined
 
     [key: string]: any;
@@ -896,37 +859,37 @@ example:
 export class OrganicSerpElementItem  extends BaseSerpApiElementItem   implements IOrganicSerpElementItem {
 
     
-    /** group rank in SERPposition within a group of elements with identical type valuespositions of elements with different type values are omitted from rank_group */
+    /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERPabsolute position among all the elements found in SERPnote values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;to get all items (including SERP features and rich snippets) with their positions, please refer to the Google Organiс Advanced SERP endpoint */
+    /** *absolute rank in SERP* absolute position among all the elements found in SERP**note** values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results; to get all items (including SERP features and rich snippets) with their positions, please refer to the [Google Organiс Advanced SERP](https://docs.dataforseo.com/v3/serp/google/organic/live/advanced/?php) endpoint */
 
     rank_absolute?: number | undefined;
 
     
-    /** domain in SERP */
+    /** *domain in SERP* */
 
     domain?: string | undefined;
 
     
-    /** title of the results element in SERP */
+    /** *title of the results element in SERP* */
 
     title?: string | undefined;
 
     
-    /** description of the results element in SERP */
+    /** *description of the results element in SERP* */
 
     description?: string | undefined;
 
     
-    /** relevant URL in SERP */
+    /** *relevant URL in SERP* */
 
     url?: string | undefined;
 
     
-    /** breadcrumb in SERP */
+    /** *breadcrumb in SERP* */
 
     breadcrumb?: string | undefined;
 
@@ -936,8 +899,7 @@ export class OrganicSerpElementItem  extends BaseSerpApiElementItem   implements
     cache_url?: string | undefined;
 
     
-    /** URL to a similar search
-URL to a new search for the same keyword(s) on related sites */
+    /** URL to a similar search URL to a new search for the same keyword(s) on related sites */
 
     related_search_url?: string | undefined;
 
@@ -982,28 +944,22 @@ URL to a new search for the same keyword(s) on related sites */
     extended_snippet?: string | undefined;
 
     
-    /** images of the element
-if there are none, equals null */
+    /** images of the element if there are none, equals null */
 
     images?: AiModeImagesElementInfo[] | undefined;
 
     
-    /** Accelerated Mobile Pages
-indicates whether an item has the Accelerated Mobile Page (AMP) version */
+    /** Accelerated Mobile Pages indicates whether an item has the Accelerated Mobile Page (AMP) version */
 
     amp_version?: boolean | undefined;
 
     
-    /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP
-if there is none, equals null */
+    /** the item’s rating  the popularity rate based on reviews and displayed in SERP if there is none, equals null */
 
     rating?: RatingInfo | undefined;
 
     
-    /** pricing details
-contains the pricing details of the product or service featured in the result;
-if there is none, equals null */
+    /** pricing details contains the pricing details of the product or service featured in the result; if there is none, equals null */
 
     price?: PriceInfo | undefined;
 
@@ -1017,36 +973,26 @@ if there is none, equals null */
 
     links?: LinkElement[] | undefined;
     
-    /** @deprecated frequently asked questions
-questions and answers extension shown below some of Google’s search results
-Note: this object is deprecated and always returns null */
+    /** @deprecated frequently asked questions questions and answers extension shown below some of Google’s search results Note: this object is deprecated and always returns null */
 
     faq?: FaqBox | undefined;
 
     
-    /** extension of the organic element
-extension of the organic result containing related search queries
-Note: extension appears in SERP upon clicking on the result and then bouncing back to search results */
+    /** extension of the organic element extension of the organic result containing related search queries Note: extension appears in SERP upon clicking on the result and then bouncing back to search results */
 
     extended_people_also_search?: string[] | undefined;
     
-    /** @deprecated contains information from the ‘About this result’ panel
-Note: this object is deprecated and always returns null */
+    /** @deprecated contains information from the ‘About this result’ panel Note: this object is deprecated and always returns null */
 
     about_this_result?: AboutThisResultElement | undefined;
 
     
-    /** related result from the same domain
-related result from the same domain appears as a part of the main result snippet;
-you can derive the related_result snippets as 'type': 'organic' results by setting the group_organic_results parameter to false in the POST request */
+    /** related result from the same domain related result from the same domain appears as a part of the main result snippet; you can derive the related_result snippets as 'type': 'organic' results by setting the group_organic_results parameter to false in the POST request */
 
     related_result?: RelatedResult[] | undefined;
 
     
-    /** date and time when the result was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
 
     timestamp?: string | undefined;
 
@@ -1186,42 +1132,37 @@ example:
  
 export interface IFeaturedSnippetSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERPposition within a group of elements with identical type valuespositions of elements with different type values are omitted from rank_group */
+        /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
         rank_group?: number | undefined
         
-        /** absolute rank in SERPabsolute position among all the elements found in SERPnote values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;to get all items (including SERP features and rich snippets) with their positions, please refer to the Google Organiс Advanced SERP endpoint */
+        /** *absolute rank in SERP* absolute position among all the elements found in SERP**note** values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results; to get all items (including SERP features and rich snippets) with their positions, please refer to the [Google Organiс Advanced SERP](https://docs.dataforseo.com/v3/serp/google/organic/live/advanced/?php) endpoint */
         rank_absolute?: number | undefined
         
-        /** domain of the ad element in SERP */
+        /** *domain of the ad element in SERP* */
         domain?: string | undefined
         
-        /** title of the ad element in SERP */
+        /** *title of the ad element in SERP* */
         title?: string | undefined
         
-        /** description of the ad element in SERP */
+        /** *description of the ad element in SERP* */
         description?: string | undefined
         
-        /** relevant URL of the ad element in SERP */
+        /** *relevant URL of the ad element in SERP* */
         url?: string | undefined
         
-        /** breadcrumb of the ad element in SERP */
+        /** *breadcrumb of the ad element in SERP* */
         breadcrumb?: string | undefined
         
         /** title */
         featured_title?: string | undefined
         
-        /** date and time when the result was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
         timestamp?: string | undefined
         
-        /** images of the element
-if there are none, equals null */
+        /** images of the element if there are none, equals null */
         images?: AiModeImagesElementInfo[] | undefined
         
-        /** table present in the element
-the header and content of the table present in the element */
+        /** table present in the element the header and content of the table present in the element */
         table?: Table | undefined
 
     [key: string]: any;
@@ -1231,37 +1172,37 @@ the header and content of the table present in the element */
 export class FeaturedSnippetSerpElementItem  extends BaseSerpApiElementItem   implements IFeaturedSnippetSerpElementItem {
 
     
-    /** group rank in SERPposition within a group of elements with identical type valuespositions of elements with different type values are omitted from rank_group */
+    /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERPabsolute position among all the elements found in SERPnote values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;to get all items (including SERP features and rich snippets) with their positions, please refer to the Google Organiс Advanced SERP endpoint */
+    /** *absolute rank in SERP* absolute position among all the elements found in SERP**note** values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results; to get all items (including SERP features and rich snippets) with their positions, please refer to the [Google Organiс Advanced SERP](https://docs.dataforseo.com/v3/serp/google/organic/live/advanced/?php) endpoint */
 
     rank_absolute?: number | undefined;
 
     
-    /** domain of the ad element in SERP */
+    /** *domain of the ad element in SERP* */
 
     domain?: string | undefined;
 
     
-    /** title of the ad element in SERP */
+    /** *title of the ad element in SERP* */
 
     title?: string | undefined;
 
     
-    /** description of the ad element in SERP */
+    /** *description of the ad element in SERP* */
 
     description?: string | undefined;
 
     
-    /** relevant URL of the ad element in SERP */
+    /** *relevant URL of the ad element in SERP* */
 
     url?: string | undefined;
 
     
-    /** breadcrumb of the ad element in SERP */
+    /** *breadcrumb of the ad element in SERP* */
 
     breadcrumb?: string | undefined;
 
@@ -1271,22 +1212,17 @@ export class FeaturedSnippetSerpElementItem  extends BaseSerpApiElementItem   im
     featured_title?: string | undefined;
 
     
-    /** date and time when the result was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
 
     timestamp?: string | undefined;
 
     
-    /** images of the element
-if there are none, equals null */
+    /** images of the element if there are none, equals null */
 
     images?: AiModeImagesElementInfo[] | undefined;
 
     
-    /** table present in the element
-the header and content of the table present in the element */
+    /** table present in the element the header and content of the table present in the element */
 
     table?: Table | undefined;
 
@@ -1366,13 +1302,10 @@ the header and content of the table present in the element */
  
 export interface IKnowledgeGraphSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+        /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP */
+        /** absolute rank in SERP absolute position among all the elements in SERP */
         rank_absolute?: number | undefined
         
         /** title of the result in SERP */
@@ -1390,20 +1323,16 @@ absolute position among all the elements in SERP */
         /** relevant URL in SERP */
         url?: string | undefined
         
-        /** URL of the image
-the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+        /** URL of the image the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
         image_url?: string | undefined
         
         /** URL of the logo from knowledge graph */
         logo_url?: string | undefined
         
-        /** google-defined client id
-unique id of a local establishment;
-can be used with Google Reviews API to get a full list of reviews */
+        /** google-defined client id unique id of a local establishment; can be used with Google Reviews API to get a full list of reviews */
         cid?: string | undefined
         
-        /** additional items present in the element
-if there are none, equals null */
+        /** additional items present in the element if there are none, equals null */
         items?: BaseSerpApiKnowledgeGraphElementItem[] | undefined
 
     [key: string]: any;
@@ -1413,15 +1342,12 @@ if there are none, equals null */
 export class KnowledgeGraphSerpElementItem  extends BaseSerpApiElementItem   implements IKnowledgeGraphSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+    /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP */
+    /** absolute rank in SERP absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
 
@@ -1451,8 +1377,7 @@ absolute position among all the elements in SERP */
     url?: string | undefined;
 
     
-    /** URL of the image
-the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+    /** URL of the image the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
     image_url?: string | undefined;
 
@@ -1462,15 +1387,12 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
     logo_url?: string | undefined;
 
     
-    /** google-defined client id
-unique id of a local establishment;
-can be used with Google Reviews API to get a full list of reviews */
+    /** google-defined client id unique id of a local establishment; can be used with Google Reviews API to get a full list of reviews */
 
     cid?: string | undefined;
 
     
-    /** additional items present in the element
-if there are none, equals null */
+    /** additional items present in the element if there are none, equals null */
 
     items?: BaseSerpApiKnowledgeGraphElementItem[] | undefined;
 
@@ -1550,15 +1472,10 @@ if there are none, equals null */
  
 export interface ITopStoriesSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
@@ -1574,17 +1491,12 @@ always equals 0 for desktop */
 export class TopStoriesSerpElementItem  extends BaseSerpApiElementItem   implements ITopStoriesSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -1660,15 +1572,10 @@ always equals 0 for desktop */
  
 export interface IPeopleAlsoAskSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** contains arrays of elements available in the list */
@@ -1681,17 +1588,12 @@ always equals 0 for desktop */
 export class PeopleAlsoAskSerpElementItem  extends BaseSerpApiElementItem   implements IPeopleAlsoAskSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -1760,15 +1662,10 @@ always equals 0 for desktop */
  
 export interface IPeopleAlsoSearchSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
@@ -1784,17 +1681,12 @@ always equals 0 for desktop */
 export class PeopleAlsoSearchSerpElementItem  extends BaseSerpApiElementItem   implements IPeopleAlsoSearchSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -1857,15 +1749,10 @@ always equals 0 for desktop */
  
 export interface IImagesSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
@@ -1877,8 +1764,7 @@ always equals 0 for desktop */
         /** contains arrays of elements available in the list */
         items?: AiModeImagesElementInfo[] | undefined
         
-        /** @deprecated contains keywords and images related to the specified search term
-Note: this array is deprecated and always returns null */
+        /** @deprecated contains keywords and images related to the specified search term Note: this array is deprecated and always returns null */
         related_image_searches?: RelatedImageSearchesElement[] | undefined
 
     [key: string]: any;
@@ -1888,17 +1774,12 @@ Note: this array is deprecated and always returns null */
 export class ImagesSerpElementItem  extends BaseSerpApiElementItem   implements IImagesSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -1917,8 +1798,7 @@ always equals 0 for desktop */
 
     items?: AiModeImagesElementInfo[] | undefined;
     
-    /** @deprecated contains keywords and images related to the specified search term
-Note: this array is deprecated and always returns null */
+    /** @deprecated contains keywords and images related to the specified search term Note: this array is deprecated and always returns null */
 
     related_image_searches?: RelatedImageSearchesElement[] | undefined;
 
@@ -2001,15 +1881,10 @@ Note: this array is deprecated and always returns null */
  
 export interface ITwitterSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
@@ -2028,17 +1903,12 @@ always equals 0 for desktop */
 export class TwitterSerpElementItem  extends BaseSerpApiElementItem   implements ITwitterSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -2121,23 +1991,16 @@ always equals 0 for desktop */
  
 export interface IGoogleReviewsSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** the number of reviews */
         reviews_count?: number | undefined
         
-        /** the element’s rating
-the popularity rate based on reviews and displayed in SERP;
-if there is none, equals null */
+        /** the element’s rating the popularity rate based on reviews and displayed in SERP; if there is none, equals null */
         rating?: RatingInfo | undefined
         
         /** the identifier of a place */
@@ -2156,17 +2019,12 @@ if there is none, equals null */
 export class GoogleReviewsSerpElementItem  extends BaseSerpApiElementItem   implements IGoogleReviewsSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -2176,9 +2034,7 @@ always equals 0 for desktop */
     reviews_count?: number | undefined;
 
     
-    /** the element’s rating
-the popularity rate based on reviews and displayed in SERP;
-if there is none, equals null */
+    /** the element’s rating the popularity rate based on reviews and displayed in SERP; if there is none, equals null */
 
     rating?: RatingInfo | undefined;
 
@@ -2252,15 +2108,10 @@ if there is none, equals null */
  
 export interface IJobsSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
@@ -2279,17 +2130,12 @@ always equals 0 for desktop */
 export class JobsSerpElementItem  extends BaseSerpApiElementItem   implements IJobsSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -2372,15 +2218,10 @@ always equals 0 for desktop */
  
 export interface IMapSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
@@ -2396,17 +2237,12 @@ always equals 0 for desktop */
 export class MapSerpElementItem  extends BaseSerpApiElementItem   implements IMapSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -2469,15 +2305,10 @@ always equals 0 for desktop */
  
 export interface IAppSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** contains arrays of elements available in the list */
@@ -2490,17 +2321,12 @@ always equals 0 for desktop */
 export class AppSerpElementItem  extends BaseSerpApiElementItem   implements IAppSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -2569,15 +2395,10 @@ always equals 0 for desktop */
  
 export interface ILocalPackSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
@@ -2601,9 +2422,7 @@ always equals 0 for desktop */
         /** indicates whether the element is an ad */
         is_paid?: boolean | undefined
         
-        /** the element’s rating
-the popularity rate based on reviews and displayed in SERP;
-if there is none, equals null */
+        /** the element’s rating the popularity rate based on reviews and displayed in SERP; if there is none, equals null */
         rating?: RatingInfo | undefined
         
         /** google-defined client id */
@@ -2616,17 +2435,12 @@ if there is none, equals null */
 export class LocalPackSerpElementItem  extends BaseSerpApiElementItem   implements ILocalPackSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -2666,9 +2480,7 @@ always equals 0 for desktop */
     is_paid?: boolean | undefined;
 
     
-    /** the element’s rating
-the popularity rate based on reviews and displayed in SERP;
-if there is none, equals null */
+    /** the element’s rating the popularity rate based on reviews and displayed in SERP; if there is none, equals null */
 
     rating?: RatingInfo | undefined;
 
@@ -2740,15 +2552,10 @@ if there is none, equals null */
  
 export interface ICarouselSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
@@ -2764,17 +2571,12 @@ always equals 0 for desktop */
 export class CarouselSerpElementItem  extends BaseSerpApiElementItem   implements ICarouselSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -2850,15 +2652,10 @@ always equals 0 for desktop */
  
 export interface IVideoSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** contains arrays of elements available in the list */
@@ -2871,17 +2668,12 @@ always equals 0 for desktop */
 export class VideoSerpElementItem  extends BaseSerpApiElementItem   implements IVideoSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -2950,24 +2742,16 @@ always equals 0 for desktop */
  
 export interface IAnswerBoxSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** text
-if there is none, equals null */
+        /** text if there is none, equals null */
         text?: string[] | undefined
         
-        /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+        /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
         links?: LinkElement[] | undefined
 
     [key: string]: any;
@@ -2977,30 +2761,22 @@ if there are none, equals null */
 export class AnswerBoxSerpElementItem  extends BaseSerpApiElementItem   implements IAnswerBoxSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
     
-    /** text
-if there is none, equals null */
+    /** text if there is none, equals null */
 
     text?: string[] | undefined;
 
     
-    /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+    /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
 
     links?: LinkElement[] | undefined;
 
@@ -3066,15 +2842,10 @@ if there are none, equals null */
  
 export interface IShoppingSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
@@ -3090,17 +2861,12 @@ always equals 0 for desktop */
 export class ShoppingSerpElementItem  extends BaseSerpApiElementItem   implements IShoppingSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -3176,15 +2942,10 @@ always equals 0 for desktop */
  
 export interface IGoogleFlightsSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
@@ -3203,17 +2964,12 @@ always equals 0 for desktop */
 export class GoogleFlightsSerpElementItem  extends BaseSerpApiElementItem   implements IGoogleFlightsSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -3296,15 +3052,10 @@ always equals 0 for desktop */
  
 export interface IEventsSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
@@ -3323,17 +3074,12 @@ always equals 0 for desktop */
 export class EventsSerpElementItem  extends BaseSerpApiElementItem   implements IEventsSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -3416,15 +3162,10 @@ always equals 0 for desktop */
  
 export interface IRelatedSearchesSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** contains arrays of elements available in the list */
@@ -3437,17 +3178,12 @@ always equals 0 for desktop */
 export class RelatedSearchesSerpElementItem  extends BaseSerpApiElementItem   implements IRelatedSearchesSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -3503,15 +3239,10 @@ always equals 0 for desktop */
  
 export interface IMultiCarouselSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** contains arrays of elements available in the list */
@@ -3524,17 +3255,12 @@ always equals 0 for desktop */
 export class MultiCarouselSerpElementItem  extends BaseSerpApiElementItem   implements IMultiCarouselSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -3603,15 +3329,10 @@ always equals 0 for desktop */
  
 export interface IRecipesSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** contains arrays of elements available in the list */
@@ -3624,17 +3345,12 @@ always equals 0 for desktop */
 export class RecipesSerpElementItem  extends BaseSerpApiElementItem   implements IRecipesSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -3703,15 +3419,10 @@ always equals 0 for desktop */
  
 export interface ITopSightsSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
@@ -3727,17 +3438,12 @@ always equals 0 for desktop */
 export class TopSightsSerpElementItem  extends BaseSerpApiElementItem   implements ITopSightsSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -3813,15 +3519,10 @@ always equals 0 for desktop */
  
 export interface IScholarlyArticlesSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
@@ -3840,17 +3541,12 @@ always equals 0 for desktop */
 export class ScholarlyArticlesSerpElementItem  extends BaseSerpApiElementItem   implements IScholarlyArticlesSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -3933,15 +3629,10 @@ always equals 0 for desktop */
  
 export interface IPopularProductsSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
@@ -3957,17 +3648,12 @@ always equals 0 for desktop */
 export class PopularProductsSerpElementItem  extends BaseSerpApiElementItem   implements IPopularProductsSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -4043,22 +3729,16 @@ always equals 0 for desktop */
  
 export interface IStocksBoxSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
         title?: string | undefined
         
-        /** source of the element
-indicates the source of information included in the recipes_element */
+        /** source of the element indicates the source of information included in the recipes_element */
         source?: string | undefined
         
         /** text alongside the link title */
@@ -4073,8 +3753,7 @@ indicates the source of information included in the recipes_element */
         /** domain of the website hosting the video */
         domain?: string | undefined
         
-        /** table present in the element
-the header and content of the table present in the element */
+        /** table present in the element the header and content of the table present in the element */
         table?: Table | undefined
         
         /** contains data provided in the graph of the element */
@@ -4087,17 +3766,12 @@ the header and content of the table present in the element */
 export class StocksBoxSerpElementItem  extends BaseSerpApiElementItem   implements IStocksBoxSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -4107,8 +3781,7 @@ always equals 0 for desktop */
     title?: string | undefined;
 
     
-    /** source of the element
-indicates the source of information included in the recipes_element */
+    /** source of the element indicates the source of information included in the recipes_element */
 
     source?: string | undefined;
 
@@ -4133,8 +3806,7 @@ indicates the source of information included in the recipes_element */
     domain?: string | undefined;
 
     
-    /** table present in the element
-the header and content of the table present in the element */
+    /** table present in the element the header and content of the table present in the element */
 
     table?: Table | undefined;
 
@@ -4204,15 +3876,10 @@ the header and content of the table present in the element */
  
 export interface IFindResultsOnSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** contains arrays of elements available in the list */
@@ -4225,17 +3892,12 @@ always equals 0 for desktop */
 export class FindResultsOnSerpElementItem  extends BaseSerpApiElementItem   implements IFindResultsOnSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -4304,15 +3966,10 @@ always equals 0 for desktop */
  
 export interface IQuestionsAndAnswersSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** contains arrays of elements available in the list */
@@ -4325,17 +3982,12 @@ always equals 0 for desktop */
 export class QuestionsAndAnswersSerpElementItem  extends BaseSerpApiElementItem   implements IQuestionsAndAnswersSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -4404,30 +4056,19 @@ always equals 0 for desktop */
  
 export interface IHotelsPackSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
         title?: string | undefined
         
-        /** starting date of stay
-in the format “year-month-date”
-example:
-2019-11-15 */
+        /** starting date of stay in the format “year-month-date” example: 2019-11-15 */
         date_from?: string | undefined
         
-        /** ending date of stay
-in the format “year-month-date”
-example:
-2019-11-17 */
+        /** ending date of stay in the format “year-month-date” example: 2019-11-17 */
         date_to?: string | undefined
         
         /** contains arrays of elements available in the list */
@@ -4440,17 +4081,12 @@ example:
 export class HotelsPackSerpElementItem  extends BaseSerpApiElementItem   implements IHotelsPackSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -4460,18 +4096,12 @@ always equals 0 for desktop */
     title?: string | undefined;
 
     
-    /** starting date of stay
-in the format “year-month-date”
-example:
-2019-11-15 */
+    /** starting date of stay in the format “year-month-date” example: 2019-11-15 */
 
     date_from?: string | undefined;
 
     
-    /** ending date of stay
-in the format “year-month-date”
-example:
-2019-11-17 */
+    /** ending date of stay in the format “year-month-date” example: 2019-11-17 */
 
     date_to?: string | undefined;
 
@@ -4546,15 +4176,10 @@ example:
  
 export interface ICommercialUnitsSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
@@ -4570,17 +4195,12 @@ always equals 0 for desktop */
 export class CommercialUnitsSerpElementItem  extends BaseSerpApiElementItem   implements ICommercialUnitsSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -4656,15 +4276,10 @@ always equals 0 for desktop */
  
 export interface ILocalServicesSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
@@ -4686,17 +4301,12 @@ always equals 0 for desktop */
 export class LocalServicesSerpElementItem  extends BaseSerpApiElementItem   implements ILocalServicesSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -4786,20 +4396,13 @@ always equals 0 for desktop */
  
 export interface IGoogleHotelsSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** unique hotel identifier
-unique hotel identifier assigned by Google;
-example: 'CgoIjaeSlI6CnNpVEAE' */
+        /** unique hotel identifier unique hotel identifier assigned by Google; example: 'CgoIjaeSlI6CnNpVEAE' */
         hotel_identifier?: string | undefined
         
         /** URL of the third-party review source */
@@ -4815,24 +4418,17 @@ example: 'CgoIjaeSlI6CnNpVEAE' */
 export class GoogleHotelsSerpElementItem  extends BaseSerpApiElementItem   implements IGoogleHotelsSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
     
-    /** unique hotel identifier
-unique hotel identifier assigned by Google;
-example: 'CgoIjaeSlI6CnNpVEAE' */
+    /** unique hotel identifier unique hotel identifier assigned by Google; example: 'CgoIjaeSlI6CnNpVEAE' */
 
     hotel_identifier?: string | undefined;
 
@@ -4897,30 +4493,22 @@ example: 'CgoIjaeSlI6CnNpVEAE' */
  
 export interface IMathSolverSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
         title?: string | undefined
         
-        /** solution to the equation
-solution to the mathematical equation specified in the keyword field when setting a task */
+        /** solution to the equation solution to the mathematical equation specified in the keyword field when setting a task */
         result?: string | undefined
         
         /** contains arrays of elements available in the list */
         items?: MathSolverElement[] | undefined
         
-        /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+        /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
         links?: LinkElement[] | undefined
 
     [key: string]: any;
@@ -4930,17 +4518,12 @@ if there are none, equals null */
 export class MathSolverSerpElementItem  extends BaseSerpApiElementItem   implements IMathSolverSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -4950,8 +4533,7 @@ always equals 0 for desktop */
     title?: string | undefined;
 
     
-    /** solution to the equation
-solution to the mathematical equation specified in the keyword field when setting a task */
+    /** solution to the equation solution to the mathematical equation specified in the keyword field when setting a task */
 
     result?: string | undefined;
 
@@ -4961,9 +4543,7 @@ solution to the mathematical equation specified in the keyword field when settin
     items?: MathSolverElement[] | undefined;
 
     
-    /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+    /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
 
     links?: LinkElement[] | undefined;
 
@@ -5046,40 +4626,28 @@ if there are none, equals null */
  
 export interface ICurrencyBoxSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** the value of the rating */
         value?: number | undefined
         
-        /** value converted to a requested currency
-indicates the exact value based on Google Fincance data at the time when our API pulled the results
-note that exchange rates displayed in the currency_box element may be delayed according to the Google Finance disclaimer */
+        /** value converted to a requested currency indicates the exact value based on Google Fincance data at the time when our API pulled the results note that exchange rates displayed in the currency_box element may be delayed according to the Google Finance disclaimer */
         converted_value?: number | undefined
         
-        /** currency of the listed price
-ISO code of the currency applied to the price */
+        /** currency of the listed price ISO code of the currency applied to the price */
         currency?: string | undefined
         
         /** converted currency */
         converted_currency?: string | undefined
         
-        /** date and time when the result was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
         timestamp?: string | undefined
         
-        /** table present in the element
-the header and content of the table present in the element */
+        /** table present in the element the header and content of the table present in the element */
         table?: Table | undefined
         
         /** contains data provided in the graph of the element */
@@ -5092,17 +4660,12 @@ the header and content of the table present in the element */
 export class CurrencyBoxSerpElementItem  extends BaseSerpApiElementItem   implements ICurrencyBoxSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -5112,15 +4675,12 @@ always equals 0 for desktop */
     value?: number | undefined;
 
     
-    /** value converted to a requested currency
-indicates the exact value based on Google Fincance data at the time when our API pulled the results
-note that exchange rates displayed in the currency_box element may be delayed according to the Google Finance disclaimer */
+    /** value converted to a requested currency indicates the exact value based on Google Fincance data at the time when our API pulled the results note that exchange rates displayed in the currency_box element may be delayed according to the Google Finance disclaimer */
 
     converted_value?: number | undefined;
 
     
-    /** currency of the listed price
-ISO code of the currency applied to the price */
+    /** currency of the listed price ISO code of the currency applied to the price */
 
     currency?: string | undefined;
 
@@ -5130,16 +4690,12 @@ ISO code of the currency applied to the price */
     converted_currency?: string | undefined;
 
     
-    /** date and time when the result was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
 
     timestamp?: string | undefined;
 
     
-    /** table present in the element
-the header and content of the table present in the element */
+    /** table present in the element the header and content of the table present in the element */
 
     table?: Table | undefined;
 
@@ -5207,15 +4763,10 @@ the header and content of the table present in the element */
  
 export interface IProductConsiderationsSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
@@ -5231,17 +4782,12 @@ always equals 0 for desktop */
 export class ProductConsiderationsSerpElementItem  extends BaseSerpApiElementItem   implements IProductConsiderationsSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -5317,15 +4863,10 @@ always equals 0 for desktop */
  
 export interface IShortVideosSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
@@ -5341,17 +4882,12 @@ always equals 0 for desktop */
 export class ShortVideosSerpElementItem  extends BaseSerpApiElementItem   implements IShortVideosSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -5427,15 +4963,10 @@ always equals 0 for desktop */
  
 export interface IRefineProductsSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
@@ -5451,17 +4982,12 @@ always equals 0 for desktop */
 export class RefineProductsSerpElementItem  extends BaseSerpApiElementItem   implements IRefineProductsSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -5537,15 +5063,10 @@ always equals 0 for desktop */
  
 export interface IPerspectivesSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
@@ -5561,17 +5082,12 @@ always equals 0 for desktop */
 export class PerspectivesSerpElementItem  extends BaseSerpApiElementItem   implements IPerspectivesSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -5647,15 +5163,10 @@ always equals 0 for desktop */
  
 export interface IDiscussionsAndForumsSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
@@ -5671,17 +5182,12 @@ always equals 0 for desktop */
 export class DiscussionsAndForumsSerpElementItem  extends BaseSerpApiElementItem   implements IDiscussionsAndForumsSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -5757,15 +5263,10 @@ always equals 0 for desktop */
  
 export interface ICompareSitesSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
@@ -5781,17 +5282,12 @@ always equals 0 for desktop */
 export class CompareSitesSerpElementItem  extends BaseSerpApiElementItem   implements ICompareSitesSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -5867,23 +5363,16 @@ always equals 0 for desktop */
  
 export interface IKnowledgeGraphCarouselItemSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
         title?: string | undefined
         
-        /** google defined data attribute ID
-example:
-action:listen_artist */
+        /** google defined data attribute ID example: action:listen_artist */
         data_attrid?: string | undefined
         
         /** link of the element */
@@ -5899,17 +5388,12 @@ action:listen_artist */
 export class KnowledgeGraphCarouselItemSerpElementItem  extends BaseSerpApiElementItem   implements IKnowledgeGraphCarouselItemSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -5919,9 +5403,7 @@ always equals 0 for desktop */
     title?: string | undefined;
 
     
-    /** google defined data attribute ID
-example:
-action:listen_artist */
+    /** google defined data attribute ID example: action:listen_artist */
 
     data_attrid?: string | undefined;
 
@@ -6001,24 +5483,16 @@ action:listen_artist */
  
 export interface IKnowledgeGraphDescriptionItemSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** reference text
-text snippet from the page that was used to generate the ai_overview_element */
+        /** reference text text snippet from the page that was used to generate the ai_overview_element */
         text?: string | undefined
         
-        /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+        /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
         links?: LinkElement[] | undefined
 
     [key: string]: any;
@@ -6028,30 +5502,22 @@ if there are none, equals null */
 export class KnowledgeGraphDescriptionItemSerpElementItem  extends BaseSerpApiElementItem   implements IKnowledgeGraphDescriptionItemSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
     
-    /** reference text
-text snippet from the page that was used to generate the ai_overview_element */
+    /** reference text text snippet from the page that was used to generate the ai_overview_element */
 
     text?: string | undefined;
 
     
-    /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+    /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
 
     links?: LinkElement[] | undefined;
 
@@ -6117,15 +5583,10 @@ if there are none, equals null */
  
 export interface IKnowledgeGraphImagesItemSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** link of the element */
@@ -6141,17 +5602,12 @@ always equals 0 for desktop */
 export class KnowledgeGraphImagesItemSerpElementItem  extends BaseSerpApiElementItem   implements IKnowledgeGraphImagesItemSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -6227,23 +5683,16 @@ always equals 0 for desktop */
  
 export interface IKnowledgeGraphListItemSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
         title?: string | undefined
         
-        /** google defined data attribute ID
-example:
-action:listen_artist */
+        /** google defined data attribute ID example: action:listen_artist */
         data_attrid?: string | undefined
         
         /** link of the element */
@@ -6259,17 +5708,12 @@ action:listen_artist */
 export class KnowledgeGraphListItemSerpElementItem  extends BaseSerpApiElementItem   implements IKnowledgeGraphListItemSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -6279,9 +5723,7 @@ always equals 0 for desktop */
     title?: string | undefined;
 
     
-    /** google defined data attribute ID
-example:
-action:listen_artist */
+    /** google defined data attribute ID example: action:listen_artist */
 
     data_attrid?: string | undefined;
 
@@ -6361,32 +5803,22 @@ action:listen_artist */
  
 export interface IKnowledgeGraphRowItemSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
         title?: string | undefined
         
-        /** google defined data attribute ID
-example:
-action:listen_artist */
+        /** google defined data attribute ID example: action:listen_artist */
         data_attrid?: string | undefined
         
-        /** reference text
-text snippet from the page that was used to generate the ai_overview_element */
+        /** reference text text snippet from the page that was used to generate the ai_overview_element */
         text?: string | undefined
         
-        /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+        /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
         links?: LinkElement[] | undefined
 
     [key: string]: any;
@@ -6396,17 +5828,12 @@ if there are none, equals null */
 export class KnowledgeGraphRowItemSerpElementItem  extends BaseSerpApiElementItem   implements IKnowledgeGraphRowItemSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -6416,22 +5843,17 @@ always equals 0 for desktop */
     title?: string | undefined;
 
     
-    /** google defined data attribute ID
-example:
-action:listen_artist */
+    /** google defined data attribute ID example: action:listen_artist */
 
     data_attrid?: string | undefined;
 
     
-    /** reference text
-text snippet from the page that was used to generate the ai_overview_element */
+    /** reference text text snippet from the page that was used to generate the ai_overview_element */
 
     text?: string | undefined;
 
     
-    /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+    /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
 
     links?: LinkElement[] | undefined;
 
@@ -6501,35 +5923,22 @@ if there are none, equals null */
  
 export interface IKnowledgeGraphHotelsBookingItemSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
         title?: string | undefined
         
-        /** starting date of stay
-in the format “year-month-date”
-example:
-2019-11-15 */
+        /** starting date of stay in the format “year-month-date” example: 2019-11-15 */
         date_from?: string | undefined
         
-        /** ending date of stay
-in the format “year-month-date”
-example:
-2019-11-17 */
+        /** ending date of stay in the format “year-month-date” example: 2019-11-17 */
         date_to?: string | undefined
         
-        /** google defined data attribute ID
-example:
-action:listen_artist */
+        /** google defined data attribute ID example: action:listen_artist */
         data_attrid?: string | undefined
         
         /** contains arrays of elements available in the list */
@@ -6542,17 +5951,12 @@ action:listen_artist */
 export class KnowledgeGraphHotelsBookingItemSerpElementItem  extends BaseSerpApiElementItem   implements IKnowledgeGraphHotelsBookingItemSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -6562,25 +5966,17 @@ always equals 0 for desktop */
     title?: string | undefined;
 
     
-    /** starting date of stay
-in the format “year-month-date”
-example:
-2019-11-15 */
+    /** starting date of stay in the format “year-month-date” example: 2019-11-15 */
 
     date_from?: string | undefined;
 
     
-    /** ending date of stay
-in the format “year-month-date”
-example:
-2019-11-17 */
+    /** ending date of stay in the format “year-month-date” example: 2019-11-17 */
 
     date_to?: string | undefined;
 
     
-    /** google defined data attribute ID
-example:
-action:listen_artist */
+    /** google defined data attribute ID example: action:listen_artist */
 
     data_attrid?: string | undefined;
 
@@ -6657,23 +6053,16 @@ action:listen_artist */
  
 export interface IKnowledgeGraphExpandedItemSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
         title?: string | undefined
         
-        /** google defined data attribute ID
-example:
-action:listen_artist */
+        /** google defined data attribute ID example: action:listen_artist */
         data_attrid?: string | undefined
         
         /** expanded element */
@@ -6686,17 +6075,12 @@ action:listen_artist */
 export class KnowledgeGraphExpandedItemSerpElementItem  extends BaseSerpApiElementItem   implements IKnowledgeGraphExpandedItemSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -6706,9 +6090,7 @@ always equals 0 for desktop */
     title?: string | undefined;
 
     
-    /** google defined data attribute ID
-example:
-action:listen_artist */
+    /** google defined data attribute ID example: action:listen_artist */
 
     data_attrid?: string | undefined;
 
@@ -6781,32 +6163,22 @@ action:listen_artist */
  
 export interface IKnowledgeGraphPartItemSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
         title?: string | undefined
         
-        /** google defined data attribute ID
-example:
-action:listen_artist */
+        /** google defined data attribute ID example: action:listen_artist */
         data_attrid?: string | undefined
         
-        /** reference text
-text snippet from the page that was used to generate the ai_overview_element */
+        /** reference text text snippet from the page that was used to generate the ai_overview_element */
         text?: string | undefined
         
-        /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+        /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
         links?: LinkElement[] | undefined
 
     [key: string]: any;
@@ -6816,17 +6188,12 @@ if there are none, equals null */
 export class KnowledgeGraphPartItemSerpElementItem  extends BaseSerpApiElementItem   implements IKnowledgeGraphPartItemSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -6836,22 +6203,17 @@ always equals 0 for desktop */
     title?: string | undefined;
 
     
-    /** google defined data attribute ID
-example:
-action:listen_artist */
+    /** google defined data attribute ID example: action:listen_artist */
 
     data_attrid?: string | undefined;
 
     
-    /** reference text
-text snippet from the page that was used to generate the ai_overview_element */
+    /** reference text text snippet from the page that was used to generate the ai_overview_element */
 
     text?: string | undefined;
 
     
-    /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+    /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
 
     links?: LinkElement[] | undefined;
 
@@ -6921,23 +6283,16 @@ if there are none, equals null */
  
 export interface IKnowledgeGraphShoppingItemSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of the row */
         title?: string | undefined
         
-        /** google defined data attribute ID
-example:
-action:listen_artist */
+        /** google defined data attribute ID example: action:listen_artist */
         data_attrid?: string | undefined
         
         /** contains arrays of elements available in the list */
@@ -6950,17 +6305,12 @@ action:listen_artist */
 export class KnowledgeGraphShoppingItemSerpElementItem  extends BaseSerpApiElementItem   implements IKnowledgeGraphShoppingItemSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -6970,9 +6320,7 @@ always equals 0 for desktop */
     title?: string | undefined;
 
     
-    /** google defined data attribute ID
-example:
-action:listen_artist */
+    /** google defined data attribute ID example: action:listen_artist */
 
     data_attrid?: string | undefined;
 
@@ -7045,16 +6393,13 @@ action:listen_artist */
  
 export interface IKnowledgeGraphAiOverviewItemSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** indicates whether the element is loaded asynchronously
-if true, the ai_overview element is loaded asynchronously;
-if false, the ai_overview element is loaded from cache */
+        /** indicates whether the element is loaded asynchronously if true, the ai_overview element is loaded asynchronously; if false, the ai_overview element is loaded from cache */
         asynchronous_ai_overview?: boolean | undefined
         
         /** contains arrays of elements available in the list */
         items?: BaseSerpApiAiOverviewElementItem[] | undefined
         
-        /** references relevant to the element
-includes references to webpages that were used to generate the ai_overview_element */
+        /** references relevant to the element includes references to webpages that were used to generate the ai_overview_element */
         references?: AiModeAiOverviewReferenceInfo[] | undefined
 
     [key: string]: any;
@@ -7064,9 +6409,7 @@ includes references to webpages that were used to generate the ai_overview_eleme
 export class KnowledgeGraphAiOverviewItemSerpElementItem  extends BaseSerpApiElementItem   implements IKnowledgeGraphAiOverviewItemSerpElementItem {
 
     
-    /** indicates whether the element is loaded asynchronously
-if true, the ai_overview element is loaded asynchronously;
-if false, the ai_overview element is loaded from cache */
+    /** indicates whether the element is loaded asynchronously if true, the ai_overview element is loaded asynchronously; if false, the ai_overview element is loaded from cache */
 
     asynchronous_ai_overview?: boolean | undefined;
 
@@ -7076,8 +6419,7 @@ if false, the ai_overview element is loaded from cache */
     items?: BaseSerpApiAiOverviewElementItem[] | undefined;
 
     
-    /** references relevant to the element
-includes references to webpages that were used to generate the ai_overview_element */
+    /** references relevant to the element includes references to webpages that were used to generate the ai_overview_element */
 
     references?: AiModeAiOverviewReferenceInfo[] | undefined;
 
@@ -7154,32 +6496,22 @@ includes references to webpages that were used to generate the ai_overview_eleme
  
 export interface IAiOverviewSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
-        /** indicates whether the element is loaded asynchronously
-if true, the ai_overview element is loaded asynchronously;
-if false, the ai_overview element is loaded from cache;
-to obtain the content of ai_overview elements, use the load_async_ai_overview parameter in the POST request */
+        /** indicates whether the element is loaded asynchronously if true, the ai_overview element is loaded asynchronously; if false, the ai_overview element is loaded from cache; to obtain the content of ai_overview elements, use the load_async_ai_overview parameter in the POST request */
         asynchronous_ai_overview?: boolean | undefined
         
-        /** content of the element in markdown format
-the text of the ai_overview formatted in the markdown markup language */
+        /** content of the element in markdown format the text of the ai_overview formatted in the markdown markup language */
         markdown?: string | undefined
         
         /** contains arrays of elements available in the list */
         items?: BaseSerpApiAiOverviewElementItem[] | undefined
         
-        /** references relevant to the element
-includes references to webpages that were used to generate the ai_overview_element */
+        /** references relevant to the element includes references to webpages that were used to generate the ai_overview_element */
         references?: AiModeAiOverviewReferenceInfo[] | undefined
 
     [key: string]: any;
@@ -7189,31 +6521,22 @@ includes references to webpages that were used to generate the ai_overview_eleme
 export class AiOverviewSerpElementItem  extends BaseSerpApiElementItem   implements IAiOverviewSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
     
-    /** indicates whether the element is loaded asynchronously
-if true, the ai_overview element is loaded asynchronously;
-if false, the ai_overview element is loaded from cache;
-to obtain the content of ai_overview elements, use the load_async_ai_overview parameter in the POST request */
+    /** indicates whether the element is loaded asynchronously if true, the ai_overview element is loaded asynchronously; if false, the ai_overview element is loaded from cache; to obtain the content of ai_overview elements, use the load_async_ai_overview parameter in the POST request */
 
     asynchronous_ai_overview?: boolean | undefined;
 
     
-    /** content of the element in markdown format
-the text of the ai_overview formatted in the markdown markup language */
+    /** content of the element in markdown format the text of the ai_overview formatted in the markdown markup language */
 
     markdown?: string | undefined;
 
@@ -7223,8 +6546,7 @@ the text of the ai_overview formatted in the markdown markup language */
     items?: BaseSerpApiAiOverviewElementItem[] | undefined;
 
     
-    /** references relevant to the element
-includes references to webpages that were used to generate the ai_overview_element */
+    /** references relevant to the element includes references to webpages that were used to generate the ai_overview_element */
 
     references?: AiModeAiOverviewReferenceInfo[] | undefined;
 
@@ -7307,15 +6629,10 @@ includes references to webpages that were used to generate the ai_overview_eleme
  
 export interface IThirdPartyReviewsSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** the number of reviews */
@@ -7327,9 +6644,7 @@ always equals 0 for desktop */
         /** URL of the third-party review source */
         url?: string | undefined
         
-        /** the element’s rating
-the popularity rate based on reviews and displayed in SERP;
-if there is none, equals null */
+        /** the element’s rating the popularity rate based on reviews and displayed in SERP; if there is none, equals null */
         rating?: RatingInfo | undefined
 
     [key: string]: any;
@@ -7339,17 +6654,12 @@ if there is none, equals null */
 export class ThirdPartyReviewsSerpElementItem  extends BaseSerpApiElementItem   implements IThirdPartyReviewsSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -7369,9 +6679,7 @@ always equals 0 for desktop */
     url?: string | undefined;
 
     
-    /** the element’s rating
-the popularity rate based on reviews and displayed in SERP;
-if there is none, equals null */
+    /** the element’s rating the popularity rate based on reviews and displayed in SERP; if there is none, equals null */
 
     rating?: RatingInfo | undefined;
 
@@ -7428,13 +6736,10 @@ if there is none, equals null */
  
 export interface IDictionarySerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+        /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP */
+        /** absolute rank in SERP absolute position among all the elements in SERP */
         rank_absolute?: number | undefined
         
         /** title of the result in SERP */
@@ -7458,9 +6763,7 @@ absolute position among all the elements in SERP */
         /** description of the results element in SERP */
         text?: string | undefined
         
-        /** sitelinks
-the links shown below some of search results
-if there are none, equals null */
+        /** sitelinks the links shown below some of search results if there are none, equals null */
         links?: LinkElement[] | undefined
 
     [key: string]: any;
@@ -7470,15 +6773,12 @@ if there are none, equals null */
 export class DictionarySerpElementItem  extends BaseSerpApiElementItem   implements IDictionarySerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+    /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP */
+    /** absolute rank in SERP absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
 
@@ -7518,9 +6818,7 @@ absolute position among all the elements in SERP */
     text?: string | undefined;
 
     
-    /** sitelinks
-the links shown below some of search results
-if there are none, equals null */
+    /** sitelinks the links shown below some of search results if there are none, equals null */
 
     links?: LinkElement[] | undefined;
 
@@ -7600,15 +6898,10 @@ if there are none, equals null */
 
 export interface IGooglePostsSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** the identifier of the google_posts feature */
@@ -7628,17 +6921,12 @@ always equals 0 for desktop */
 export class GooglePostsSerpElementItem  extends BaseSerpApiElementItem   implements IGooglePostsSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -7710,15 +6998,10 @@ always equals 0 for desktop */
 
 export interface IMentionCarouselSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of a given link element */
@@ -7735,17 +7018,12 @@ always equals 0 for desktop */
 export class MentionCarouselSerpElementItem  extends BaseSerpApiElementItem   implements IMentionCarouselSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -7823,15 +7101,10 @@ always equals 0 for desktop */
 
 export interface IPodcastsSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** contains arrays of elements available in the list */
@@ -7845,17 +7118,12 @@ always equals 0 for desktop */
 export class PodcastsSerpElementItem  extends BaseSerpApiElementItem   implements IPodcastsSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -7926,15 +7194,10 @@ always equals 0 for desktop */
 
 export interface IVisualStoriesSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** contains arrays of elements available in the list */
@@ -7948,17 +7211,12 @@ always equals 0 for desktop */
 export class VisualStoriesSerpElementItem  extends BaseSerpApiElementItem   implements IVisualStoriesSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -8029,15 +7287,10 @@ always equals 0 for desktop */
 
 export interface IFoundOnWebSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of a given link element */
@@ -8057,17 +7310,12 @@ always equals 0 for desktop */
 export class FoundOnWebSerpElementItem  extends BaseSerpApiElementItem   implements IFoundOnWebSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -8152,15 +7400,10 @@ always equals 0 for desktop */
 
 export interface IExploreBrandsSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of a given link element */
@@ -8177,17 +7420,12 @@ always equals 0 for desktop */
 export class ExploreBrandsSerpElementItem  extends BaseSerpApiElementItem   implements IExploreBrandsSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -8265,22 +7503,16 @@ always equals 0 for desktop */
 
 export interface ICoursesSerpElementItem  extends IBaseSerpApiElementItem    {
         
-        /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+        /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+        /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
         rank_absolute?: number | undefined
         
         /** title of a given link element */
         title?: string | undefined
         
-        /** array of course categories
-contains a list of categories relevant to courses */
+        /** array of course categories contains a list of categories relevant to courses */
         categories?: string[] | undefined
         
         /** contains arrays of elements available in the list */
@@ -8294,17 +7526,12 @@ contains a list of categories relevant to courses */
 export class CoursesSerpElementItem  extends BaseSerpApiElementItem   implements ICoursesSerpElementItem {
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop */
+    /** group rank in SERP position within a group of elements with identical type values; positions of elements with different type values are omitted from rank_group; always equals 0 for desktop */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP
-always equals 0 for desktop */
+    /** absolute rank in SERP absolute position among all the elements in SERP always equals 0 for desktop */
 
     rank_absolute?: number | undefined;
 
@@ -8314,8 +7541,7 @@ always equals 0 for desktop */
     title?: string | undefined;
 
     
-    /** array of course categories
-contains a list of categories relevant to courses */
+    /** array of course categories contains a list of categories relevant to courses */
 
     categories?: string[] | undefined;
 

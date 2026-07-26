@@ -3,15 +3,13 @@ import { AiMonthlySearches, IAiMonthlySearches } from "./AiMonthlySearches";
 
 export interface IAiOptimizationAiKeywordDataKeywordsSearchVolumeLiveItem   {
         
-        /** specified keyword */
+        /** *specified keyword* */
         keyword?: string | undefined
         
-        /** current AI search volume rate of a keyword
-learn more about this metric here */
+        /** *current AI search volume rate of a keyword* learn more about this metric [here](https://dataforseo.com/help-center/what-is-ai-search-volume-in-dataforseo) */
         ai_search_volume?: number | undefined
         
-        /** monthly AI search volume rates
-array of objects with AI search volume rates in a certain month of a year */
+        /** *monthly AI search volume rates* array of objects with AI search volume rates in a certain month of a year */
         ai_monthly_searches?: AiMonthlySearches[] | undefined
 
     [key: string]: any;
@@ -21,19 +19,17 @@ array of objects with AI search volume rates in a certain month of a year */
 export class AiOptimizationAiKeywordDataKeywordsSearchVolumeLiveItem  implements IAiOptimizationAiKeywordDataKeywordsSearchVolumeLiveItem {
 
     
-    /** specified keyword */
+    /** *specified keyword* */
 
     keyword?: string | undefined;
 
     
-    /** current AI search volume rate of a keyword
-learn more about this metric here */
+    /** *current AI search volume rate of a keyword* learn more about this metric [here](https://dataforseo.com/help-center/what-is-ai-search-volume-in-dataforseo) */
 
     ai_search_volume?: number | undefined;
 
     
-    /** monthly AI search volume rates
-array of objects with AI search volume rates in a certain month of a year */
+    /** *monthly AI search volume rates* array of objects with AI search volume rates in a certain month of a year */
 
     ai_monthly_searches?: AiMonthlySearches[] | undefined;
 

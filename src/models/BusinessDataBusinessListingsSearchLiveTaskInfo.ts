@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IBusinessDataBusinessListingsSearchLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: BusinessDataBusinessListingsSearchLiveResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IBusinessDataBusinessListingsSearchLiveTaskInfo  extends IBaseR
 export class BusinessDataBusinessListingsSearchLiveTaskInfo  extends BaseResponseTaskInfo   implements IBusinessDataBusinessListingsSearchLiveTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: BusinessDataBusinessListingsSearchLiveResultInfo[] | undefined;
 

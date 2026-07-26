@@ -3,16 +3,16 @@ export interface IRatingElement   {
         /** type of element */
         type?: string | undefined
         
-        /** the alignment of the element in Google Shopping SERPpossible values:left, right */
+        /** *the alignment of the element in Google Shopping SERP* possible values: `left`, `right` */
         position?: string | undefined
         
-        /** the type of ratinghere you can find the following elements: Max5, Percents, CustomMax */
+        /** *the type of rating* here you can find the following elements: `Max5`, `Percents`, `CustomMax` */
         rating_type?: string | undefined
         
-        /** value of the rating */
+        /** *value of the rating* */
         value?: number | undefined
         
-        /** the amount of feedback */
+        /** *the amount of feedback* */
         votes_count?: number | undefined
         
         /** the maximum value for a rating_type */
@@ -30,22 +30,22 @@ export class RatingElement  implements IRatingElement {
     type?: string | undefined;
 
     
-    /** the alignment of the element in Google Shopping SERPpossible values:left, right */
+    /** *the alignment of the element in Google Shopping SERP* possible values: `left`, `right` */
 
     position?: string | undefined;
 
     
-    /** the type of ratinghere you can find the following elements: Max5, Percents, CustomMax */
+    /** *the type of rating* here you can find the following elements: `Max5`, `Percents`, `CustomMax` */
 
     rating_type?: string | undefined;
 
     
-    /** value of the rating */
+    /** *value of the rating* */
 
     value?: number | undefined;
 
     
-    /** the amount of feedback */
+    /** *the amount of feedback* */
 
     votes_count?: number | undefined;
 

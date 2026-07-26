@@ -1,11 +1,9 @@
 export interface IAiModeRectangleInfo   {
         
-        /** x-axis coordinate
-x-axis coordinate of the top-left corner of the result’s snippet, where top-left corner of the screen is the origin */
+        /** x-axis coordinate x-axis coordinate of the top-left corner of the result’s snippet, where top-left corner of the screen is the origin */
         x?: number | undefined
         
-        /** y-axis coordinate
-y-axis coordinate of the top-left corner of the result’s snippet, where top-left corner of the screen is the origin */
+        /** y-axis coordinate y-axis coordinate of the top-left corner of the result’s snippet, where top-left corner of the screen is the origin */
         y?: number | undefined
         
         /** width of the element in pixels */
@@ -21,14 +19,12 @@ y-axis coordinate of the top-left corner of the result’s snippet, where top-le
 export class AiModeRectangleInfo  implements IAiModeRectangleInfo {
 
     
-    /** x-axis coordinate
-x-axis coordinate of the top-left corner of the result’s snippet, where top-left corner of the screen is the origin */
+    /** x-axis coordinate x-axis coordinate of the top-left corner of the result’s snippet, where top-left corner of the screen is the origin */
 
     x?: number | undefined;
 
     
-    /** y-axis coordinate
-y-axis coordinate of the top-left corner of the result’s snippet, where top-left corner of the screen is the origin */
+    /** y-axis coordinate y-axis coordinate of the top-left corner of the result’s snippet, where top-left corner of the screen is the origin */
 
     y?: number | undefined;
 

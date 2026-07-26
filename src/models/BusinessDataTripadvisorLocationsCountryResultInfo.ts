@@ -6,11 +6,7 @@ export interface IBusinessDataTripadvisorLocationsCountryResultInfo   {
         /** full name of the location */
         location_name?: string | undefined
         
-        /** the name of the superordinate location
-example:
-'location_code': 9041134,
-'location_name': 'Vienna International Airport,Lower Austria,Austria',
-'location_name_parent': 'Lower Austria,Austria' */
+        /** the name of the superordinate location example: 'location_code': 9041134, 'location_name': 'Vienna International Airport,Lower Austria,Austria', 'location_name_parent': 'Lower Austria,Austria' */
         location_name_parent?: string | undefined
         
         /** ISO country code of the location */
@@ -36,11 +32,7 @@ export class BusinessDataTripadvisorLocationsCountryResultInfo  implements IBusi
     location_name?: string | undefined;
 
     
-    /** the name of the superordinate location
-example:
-'location_code': 9041134,
-'location_name': 'Vienna International Airport,Lower Austria,Austria',
-'location_name_parent': 'Lower Austria,Austria' */
+    /** the name of the superordinate location example: 'location_code': 9041134, 'location_name': 'Vienna International Airport,Lower Austria,Austria', 'location_name_parent': 'Lower Austria,Austria' */
 
     location_name_parent?: string | undefined;
 

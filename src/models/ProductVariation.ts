@@ -3,19 +3,16 @@ export interface IProductVariation   {
         /** type of element */
         type?: string | undefined
         
-        /** product ID in a POST array
-learn more about the parameter in this help center guide */
+        /** product ID in a POST array learn more about the parameter in this help center guide */
         product_id?: string | undefined
         
-        /** GID ID in a POST array
-learn more about the parameter in this help center guide */
+        /** GID ID in a POST array learn more about the parameter in this help center guide */
         gid?: string | undefined
         
         /** unique identifier of the SERP data element in the POST array */
         data_docid?: string | undefined
         
-        /** product variation filter
-used in the product variation URL as the identifier of the specific product variation */
+        /** product variation filter used in the product variation URL as the identifier of the specific product variation */
         pvf?: string | undefined
         
         /** name of the product seller */
@@ -24,8 +21,7 @@ used in the product variation URL as the identifier of the specific product vari
         /** product variation URL on Google Shopping */
         url?: string | undefined
         
-        /** category of the product variation
-example: 'Storage Capacity' */
+        /** category of the product variation example: 'Storage Capacity' */
         variation_category?: string | undefined
 
     [key: string]: any;
@@ -40,14 +36,12 @@ export class ProductVariation  implements IProductVariation {
     type?: string | undefined;
 
     
-    /** product ID in a POST array
-learn more about the parameter in this help center guide */
+    /** product ID in a POST array learn more about the parameter in this help center guide */
 
     product_id?: string | undefined;
 
     
-    /** GID ID in a POST array
-learn more about the parameter in this help center guide */
+    /** GID ID in a POST array learn more about the parameter in this help center guide */
 
     gid?: string | undefined;
 
@@ -57,8 +51,7 @@ learn more about the parameter in this help center guide */
     data_docid?: string | undefined;
 
     
-    /** product variation filter
-used in the product variation URL as the identifier of the specific product variation */
+    /** product variation filter used in the product variation URL as the identifier of the specific product variation */
 
     pvf?: string | undefined;
 
@@ -73,8 +66,7 @@ used in the product variation URL as the identifier of the specific product vari
     url?: string | undefined;
 
     
-    /** category of the product variation
-example: 'Storage Capacity' */
+    /** category of the product variation example: 'Storage Capacity' */
 
     variation_category?: string | undefined;
 

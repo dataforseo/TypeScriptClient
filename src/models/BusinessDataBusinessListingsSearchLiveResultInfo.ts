@@ -3,20 +3,17 @@ import { BusinessDataBusinessListingsSearchLiveItem, IBusinessDataBusinessListin
 
 export interface IBusinessDataBusinessListingsSearchLiveResultInfo   {
         
-        /** total number of results in our database relevant to your request */
+        /** *total number of results in our database relevant to your request* */
         total_count?: number | undefined
         
-        /** item types
-the number of items in the items array */
+        /** *item types* the number of items in the `items` array */
         count?: number | undefined
         
         offset?: number | undefined
         
         offset_token?: string | undefined
         
-        /** encountered item types
-types of search engine results encountered in the items array;
-possible item types: business_listing */
+        /** *encountered item types* types of search engine results encountered in the `items` array; possible item types: `business_listing` */
         items?: BusinessDataBusinessListingsSearchLiveItem[] | undefined
 
     [key: string]: any;
@@ -26,13 +23,12 @@ possible item types: business_listing */
 export class BusinessDataBusinessListingsSearchLiveResultInfo  implements IBusinessDataBusinessListingsSearchLiveResultInfo {
 
     
-    /** total number of results in our database relevant to your request */
+    /** *total number of results in our database relevant to your request* */
 
     total_count?: number | undefined;
 
     
-    /** item types
-the number of items in the items array */
+    /** *item types* the number of items in the `items` array */
 
     count?: number | undefined;
 
@@ -41,9 +37,7 @@ the number of items in the items array */
     offset_token?: string | undefined;
 
     
-    /** encountered item types
-types of search engine results encountered in the items array;
-possible item types: business_listing */
+    /** *encountered item types* types of search engine results encountered in the `items` array; possible item types: `business_listing` */
 
     items?: BusinessDataBusinessListingsSearchLiveItem[] | undefined;
 

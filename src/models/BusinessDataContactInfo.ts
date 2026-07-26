@@ -3,10 +3,10 @@ export interface IBusinessDataContactInfo   {
         /** type of element */
         type?: string | undefined
         
-        /** the value of the rating */
+        /** *the value of the rating* */
         value?: string | undefined
         
-        /** data source */
+        /** *data source* */
         source?: string | undefined
 
     [key: string]: any;
@@ -21,12 +21,12 @@ export class BusinessDataContactInfo  implements IBusinessDataContactInfo {
     type?: string | undefined;
 
     
-    /** the value of the rating */
+    /** *the value of the rating* */
 
     value?: string | undefined;
 
     
-    /** data source */
+    /** *data source* */
 
     source?: string | undefined;
 

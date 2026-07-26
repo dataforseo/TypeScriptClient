@@ -1,20 +1,15 @@
 export interface IRankChanges   {
         
-        /** previous absolute rank in SERP
-indicates previous rank of the element in Google SERP;
-if this element is new, the value will be null */
+        /** previous absolute rank in SERP indicates previous rank of the element in Google SERP; if this element is new, the value will be null */
         previous_rank_absolute?: number | undefined
         
-        /** number of new ranked elements
-indicates how many new ranked elements were found for this domain or webpage */
+        /** number of new ranked elements indicates how many new ranked elements were found for this domain or webpage */
         is_new?: boolean | undefined
         
-        /** rank went up
-indicates how many ranked elements of this target went up in Google Search */
+        /** rank went up indicates how many ranked elements of this target went up in Google Search */
         is_up?: boolean | undefined
         
-        /** rank went down
-indicates how many ranked elements of this target went down in Google Search */
+        /** rank went down indicates how many ranked elements of this target went down in Google Search */
         is_down?: boolean | undefined
 
     [key: string]: any;
@@ -24,27 +19,22 @@ indicates how many ranked elements of this target went down in Google Search */
 export class RankChanges  implements IRankChanges {
 
     
-    /** previous absolute rank in SERP
-indicates previous rank of the element in Google SERP;
-if this element is new, the value will be null */
+    /** previous absolute rank in SERP indicates previous rank of the element in Google SERP; if this element is new, the value will be null */
 
     previous_rank_absolute?: number | undefined;
 
     
-    /** number of new ranked elements
-indicates how many new ranked elements were found for this domain or webpage */
+    /** number of new ranked elements indicates how many new ranked elements were found for this domain or webpage */
 
     is_new?: boolean | undefined;
 
     
-    /** rank went up
-indicates how many ranked elements of this target went up in Google Search */
+    /** rank went up indicates how many ranked elements of this target went up in Google Search */
 
     is_up?: boolean | undefined;
 
     
-    /** rank went down
-indicates how many ranked elements of this target went down in Google Search */
+    /** rank went down indicates how many ranked elements of this target went down in Google Search */
 
     is_down?: boolean | undefined;
 

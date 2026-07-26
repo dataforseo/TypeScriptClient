@@ -1,11 +1,9 @@
 export interface IBusinessDataTrustpilotReviewsTasksReadyResultInfo   {
         
-        /** task identifier of the completed task
-unique task identifier in our system in the UUID format */
+        /** task identifier of the completed task unique task identifier in our system in the UUID format */
         id?: string | undefined
         
-        /** search engine specified when setting the task
-can take the following values: trustpilot */
+        /** search engine specified when setting the task can take the following values: trustpilot */
         se?: string | undefined
         
         /** search engine type */
@@ -27,14 +25,12 @@ can take the following values: trustpilot */
 export class BusinessDataTrustpilotReviewsTasksReadyResultInfo  implements IBusinessDataTrustpilotReviewsTasksReadyResultInfo {
 
     
-    /** task identifier of the completed task
-unique task identifier in our system in the UUID format */
+    /** task identifier of the completed task unique task identifier in our system in the UUID format */
 
     id?: string | undefined;
 
     
-    /** search engine specified when setting the task
-can take the following values: trustpilot */
+    /** search engine specified when setting the task can take the following values: trustpilot */
 
     se?: string | undefined;
 

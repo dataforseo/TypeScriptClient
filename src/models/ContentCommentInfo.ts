@@ -4,8 +4,7 @@ import { SectionContentItemInfo, ISectionContentItemInfo } from "./SectionConten
 
 export interface IContentCommentInfo   {
         
-        /** product’s rating
-contains information about the rating a customer has given to the product */
+        /** product’s rating contains information about the rating a customer has given to the product */
         rating?: ContentRatingInfo | undefined
         
         /** title of the customer’s comment */
@@ -20,8 +19,7 @@ contains information about the rating a customer has given to the product */
         /**  */
         have_form?: boolean | undefined
         
-        /** primary content on the page
-you can find more information about content priority calculation in this help center article */
+        /** primary content on the page you can find more information about content priority calculation in this help center article */
         primary_content?: SectionContentItemInfo[] | undefined
 
     [key: string]: any;
@@ -31,8 +29,7 @@ you can find more information about content priority calculation in this help ce
 export class ContentCommentInfo  implements IContentCommentInfo {
 
     
-    /** product’s rating
-contains information about the rating a customer has given to the product */
+    /** product’s rating contains information about the rating a customer has given to the product */
 
     rating?: ContentRatingInfo | undefined;
 
@@ -57,8 +54,7 @@ contains information about the rating a customer has given to the product */
     have_form?: boolean | undefined;
 
     
-    /** primary content on the page
-you can find more information about content priority calculation in this help center article */
+    /** primary content on the page you can find more information about content priority calculation in this help center article */
 
     primary_content?: SectionContentItemInfo[] | undefined;
 

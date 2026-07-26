@@ -4,8 +4,7 @@ import { OnPageWaterfallItem, IOnPageWaterfallItem } from "./OnPageWaterfallItem
 
 export interface IOnPageWaterfallResultInfo   {
         
-        /** status of the crawling session
-possible values: in_progress, finished */
+        /** status of the crawling session possible values: in_progress, finished */
         crawl_progress?: string | undefined
         
         /** details of the crawling session */
@@ -24,8 +23,7 @@ possible values: in_progress, finished */
 export class OnPageWaterfallResultInfo  implements IOnPageWaterfallResultInfo {
 
     
-    /** status of the crawling session
-possible values: in_progress, finished */
+    /** status of the crawling session possible values: in_progress, finished */
 
     crawl_progress?: string | undefined;
 

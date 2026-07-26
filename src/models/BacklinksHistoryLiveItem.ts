@@ -6,119 +6,85 @@ export interface IBacklinksHistoryLiveItem   {
         /** type of element */
         type?: string | undefined
         
-        /** date and time when the data for the target was stored
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** *date and time when the data for the target was stored* in the UTC format: 'yyyy-mm-dd hh-mm-ss +00:00' example: `2019-11-15 12:57:46 +00:00` */
         date?: string | undefined
         
-        /** domain rank on the given date
-learn more about the metric and how it is calculated in this help center article */
+        /** *domain rank on the given `date`* learn more about the metric and how it is calculated in [this help center article](https://dataforseo.com/help-center/what_is_rank_in_backlinks_api) */
         rank?: number | undefined
         
-        /** number of backlinks */
+        /** *number of backlinks* */
         backlinks?: number | undefined
         
-        /** number of new backlinks for the target
-data is provided based in a comparison with the previous period
-Note: this data is available from May 2021;
-if the date range specified in the POST request precedes May 2021, the field will equal 0 */
+        /** *number of new backlinks for the `target`* data is provided based in a comparison with the previous period **Note:** this data is available from May 2021; if the date range specified in the POST request precedes May 2021, the field will equal `0` */
         new_backlinks?: number | undefined
         
-        /** number of lost backlinks for the target
-data is provided based in a comparison with the previous period
-Note: this data is available from May 2021;
-if the date range specified in the POST request precedes May 2021, the field will equal 0 */
+        /** *number of lost backlinks for the `target`* data is provided based in a comparison with the previous period **Note:** this data is available from May 2021; if the date range specified in the POST request precedes May 2021, the field will equal `0` */
         lost_backlinks?: number | undefined
         
-        /** number of new referring domains for the target
-data is provided based in a comparison with the previous period
-Note: this data is available from May 2021;
-if the date range specified in the POST request precedes May 2021, the field will equal 0 */
+        /** *number of new referring domains for the `target`* data is provided based in a comparison with the previous period **Note:** this data is available from May 2021; if the date range specified in the POST request precedes May 2021, the field will equal `0` */
         new_referring_domains?: number | undefined
         
-        /** number of lost referring domains for the target
-data is provided based in a comparison with the previous period
-Note: this data is available from May 2021;
-if the date range specified in the POST request precedes May 2021, the field will equal 0 */
+        /** *number of lost referring domains for the `target`* data is provided based in a comparison with the previous period **Note:** this data is available from May 2021; if the date range specified in the POST request precedes May 2021, the field will equal `0` */
         lost_referring_domains?: number | undefined
         
-        /** number of crawled pages for the target */
+        /** *number of crawled pages for the `target`* */
         crawled_pages?: number | undefined
         
-        /** information about the target */
+        /** *information about the `target`* */
         info?: TargetInfo | undefined
         
-        /** number of internal links
-calculated as the sum of internal links on the pages of the specified target */
+        /** *number of internal links* calculated as the sum of internal links on the pages of the specified `target` */
         internal_links_count?: number | undefined
         
-        /** number of external links on the page
-calculated as the sum of external links on the pages of the specified target */
+        /** *number of external links on the page* calculated as the sum of external links on the pages of the specified `target` */
         external_links_count?: number | undefined
         
-        /** number of broken backlinks
-number of broken backlinks pointing to the target */
+        /** *number of broken backlinks* number of broken backlinks pointing to the `target` */
         broken_backlinks?: number | undefined
         
-        /** number of broken pages
-number of pages that receive backlinks but respond with 4xx or 5xx status codes */
+        /** *number of broken pages* number of pages that receive backlinks but respond with 4xx or 5xx status codes */
         broken_pages?: number | undefined
         
-        /** number of referring domains
-referring domains include subdomains that are counted as separate domains for this metric */
+        /** *number of referring domains* referring domains include subdomains that are counted as separate domains for this metric */
         referring_domains?: number | undefined
         
-        /** number of domains pointing at least one nofollow link to the target */
+        /** *number of domains pointing at least one nofollow link to the `target`* */
         referring_domains_nofollow?: number | undefined
         
-        /** number of referring main domains */
+        /** *number of referring main domains* */
         referring_main_domains?: number | undefined
         
-        /** number of main domains pointing at least one nofollow link to the target */
+        /** *number of main domains pointing at least one nofollow link to the `target`* */
         referring_main_domains_nofollow?: number | undefined
         
-        /** number of referring IP addresses
-number of IP addresses pointing to this page */
+        /** *number of referring IP addresses* number of IP addresses pointing to this page */
         referring_ips?: number | undefined
         
-        /** number of referring subnetworks */
+        /** *number of referring subnetworks* */
         referring_subnets?: number | undefined
         
-        /** number of pages pointing to the target */
+        /** *number of pages pointing to the `target`* */
         referring_pages?: number | undefined
         
-        /** number of referring pages pointing at least one nofollow link to the target */
+        /** *number of referring pages pointing at least one nofollow link to the `target`* */
         referring_pages_nofollow?: number | undefined
         
-        /** top-level domains of the referring links
-contains top-level domains and referring link count per each */
+        /** *top-level domains of the referring links* contains top-level domains and referring link count per each */
         referring_links_tld?: { [key: string]: number; } | undefined
         
-        /** types of referring links
-indicates the types of the referring links and link count per each type
-possible values:
-anchor, image, link, meta, canonical, alternate, redirect */
+        /** *types of referring links* indicates the types of the referring links and link count per each type possible values: `anchor`, `image`, `link`, `meta`, `canonical`, `alternate`, `redirect` */
         referring_links_types?: { [key: string]: number; } | undefined
         
-        /** link attributes of the referring links
-indicates link attributes of the referring links and link count per each attribute */
+        /** *link attributes of the referring links* indicates link attributes of the referring links and link count per each attribute */
         referring_links_attributes?: { [key: string]: number; } | undefined
         
-        /** types of referring platforms
-indicates referring platform types and and link count per each platform
-possible values: cms, blogs, ecommerce, message-boards, wikis, news, organization */
+        /** *types of referring platforms* indicates referring platform types and and link count per each platform possible values: `cms`, `blogs`, `ecommerce`, `message-boards`, `wikis`, `news`, `organization` */
         referring_links_platform_types?: { [key: string]: number; } | undefined
         
-        /** semantic locations of the referring links
-indicates semantic elements in HTML where the referring links are located and link count per each semantic location
-you can get the full list of semantic elements here
-examples:
-article, section, summary */
+        /** *semantic locations of the referring links* indicates semantic elements in HTML where the referring links are located and link count per each semantic location you can get the full list of semantic elements [here](https://www.w3schools.com/html/html5_semantic_elements.asp) examples: `article`, `section`, `summary` */
         referring_links_semantic_locations?: { [key: string]: number; } | undefined
         
-        /** ISO country codes of the referring links
-indicates ISO country codes of the domains where the referring links are located and the link count per each country */
+        /** *ISO country codes of the referring links* indicates ISO country codes of the domains where the referring links are located and the link count per each country */
         referring_links_countries?: { [key: string]: number; } | undefined
 
     [key: string]: any;
@@ -133,171 +99,137 @@ export class BacklinksHistoryLiveItem  implements IBacklinksHistoryLiveItem {
     type?: string | undefined;
 
     
-    /** date and time when the data for the target was stored
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** *date and time when the data for the target was stored* in the UTC format: 'yyyy-mm-dd hh-mm-ss +00:00' example: `2019-11-15 12:57:46 +00:00` */
 
     date?: string | undefined;
 
     
-    /** domain rank on the given date
-learn more about the metric and how it is calculated in this help center article */
+    /** *domain rank on the given `date`* learn more about the metric and how it is calculated in [this help center article](https://dataforseo.com/help-center/what_is_rank_in_backlinks_api) */
 
     rank?: number | undefined;
 
     
-    /** number of backlinks */
+    /** *number of backlinks* */
 
     backlinks?: number | undefined;
 
     
-    /** number of new backlinks for the target
-data is provided based in a comparison with the previous period
-Note: this data is available from May 2021;
-if the date range specified in the POST request precedes May 2021, the field will equal 0 */
+    /** *number of new backlinks for the `target`* data is provided based in a comparison with the previous period **Note:** this data is available from May 2021; if the date range specified in the POST request precedes May 2021, the field will equal `0` */
 
     new_backlinks?: number | undefined;
 
     
-    /** number of lost backlinks for the target
-data is provided based in a comparison with the previous period
-Note: this data is available from May 2021;
-if the date range specified in the POST request precedes May 2021, the field will equal 0 */
+    /** *number of lost backlinks for the `target`* data is provided based in a comparison with the previous period **Note:** this data is available from May 2021; if the date range specified in the POST request precedes May 2021, the field will equal `0` */
 
     lost_backlinks?: number | undefined;
 
     
-    /** number of new referring domains for the target
-data is provided based in a comparison with the previous period
-Note: this data is available from May 2021;
-if the date range specified in the POST request precedes May 2021, the field will equal 0 */
+    /** *number of new referring domains for the `target`* data is provided based in a comparison with the previous period **Note:** this data is available from May 2021; if the date range specified in the POST request precedes May 2021, the field will equal `0` */
 
     new_referring_domains?: number | undefined;
 
     
-    /** number of lost referring domains for the target
-data is provided based in a comparison with the previous period
-Note: this data is available from May 2021;
-if the date range specified in the POST request precedes May 2021, the field will equal 0 */
+    /** *number of lost referring domains for the `target`* data is provided based in a comparison with the previous period **Note:** this data is available from May 2021; if the date range specified in the POST request precedes May 2021, the field will equal `0` */
 
     lost_referring_domains?: number | undefined;
 
     
-    /** number of crawled pages for the target */
+    /** *number of crawled pages for the `target`* */
 
     crawled_pages?: number | undefined;
 
     
-    /** information about the target */
+    /** *information about the `target`* */
 
     info?: TargetInfo | undefined;
 
     
-    /** number of internal links
-calculated as the sum of internal links on the pages of the specified target */
+    /** *number of internal links* calculated as the sum of internal links on the pages of the specified `target` */
 
     internal_links_count?: number | undefined;
 
     
-    /** number of external links on the page
-calculated as the sum of external links on the pages of the specified target */
+    /** *number of external links on the page* calculated as the sum of external links on the pages of the specified `target` */
 
     external_links_count?: number | undefined;
 
     
-    /** number of broken backlinks
-number of broken backlinks pointing to the target */
+    /** *number of broken backlinks* number of broken backlinks pointing to the `target` */
 
     broken_backlinks?: number | undefined;
 
     
-    /** number of broken pages
-number of pages that receive backlinks but respond with 4xx or 5xx status codes */
+    /** *number of broken pages* number of pages that receive backlinks but respond with 4xx or 5xx status codes */
 
     broken_pages?: number | undefined;
 
     
-    /** number of referring domains
-referring domains include subdomains that are counted as separate domains for this metric */
+    /** *number of referring domains* referring domains include subdomains that are counted as separate domains for this metric */
 
     referring_domains?: number | undefined;
 
     
-    /** number of domains pointing at least one nofollow link to the target */
+    /** *number of domains pointing at least one nofollow link to the `target`* */
 
     referring_domains_nofollow?: number | undefined;
 
     
-    /** number of referring main domains */
+    /** *number of referring main domains* */
 
     referring_main_domains?: number | undefined;
 
     
-    /** number of main domains pointing at least one nofollow link to the target */
+    /** *number of main domains pointing at least one nofollow link to the `target`* */
 
     referring_main_domains_nofollow?: number | undefined;
 
     
-    /** number of referring IP addresses
-number of IP addresses pointing to this page */
+    /** *number of referring IP addresses* number of IP addresses pointing to this page */
 
     referring_ips?: number | undefined;
 
     
-    /** number of referring subnetworks */
+    /** *number of referring subnetworks* */
 
     referring_subnets?: number | undefined;
 
     
-    /** number of pages pointing to the target */
+    /** *number of pages pointing to the `target`* */
 
     referring_pages?: number | undefined;
 
     
-    /** number of referring pages pointing at least one nofollow link to the target */
+    /** *number of referring pages pointing at least one nofollow link to the `target`* */
 
     referring_pages_nofollow?: number | undefined;
 
     
-    /** top-level domains of the referring links
-contains top-level domains and referring link count per each */
+    /** *top-level domains of the referring links* contains top-level domains and referring link count per each */
 
     referring_links_tld?: { [key: string]: number; } | undefined;
 
     
-    /** types of referring links
-indicates the types of the referring links and link count per each type
-possible values:
-anchor, image, link, meta, canonical, alternate, redirect */
+    /** *types of referring links* indicates the types of the referring links and link count per each type possible values: `anchor`, `image`, `link`, `meta`, `canonical`, `alternate`, `redirect` */
 
     referring_links_types?: { [key: string]: number; } | undefined;
 
     
-    /** link attributes of the referring links
-indicates link attributes of the referring links and link count per each attribute */
+    /** *link attributes of the referring links* indicates link attributes of the referring links and link count per each attribute */
 
     referring_links_attributes?: { [key: string]: number; } | undefined;
 
     
-    /** types of referring platforms
-indicates referring platform types and and link count per each platform
-possible values: cms, blogs, ecommerce, message-boards, wikis, news, organization */
+    /** *types of referring platforms* indicates referring platform types and and link count per each platform possible values: `cms`, `blogs`, `ecommerce`, `message-boards`, `wikis`, `news`, `organization` */
 
     referring_links_platform_types?: { [key: string]: number; } | undefined;
 
     
-    /** semantic locations of the referring links
-indicates semantic elements in HTML where the referring links are located and link count per each semantic location
-you can get the full list of semantic elements here
-examples:
-article, section, summary */
+    /** *semantic locations of the referring links* indicates semantic elements in HTML where the referring links are located and link count per each semantic location you can get the full list of semantic elements [here](https://www.w3schools.com/html/html5_semantic_elements.asp) examples: `article`, `section`, `summary` */
 
     referring_links_semantic_locations?: { [key: string]: number; } | undefined;
 
     
-    /** ISO country codes of the referring links
-indicates ISO country codes of the domains where the referring links are located and the link count per each country */
+    /** *ISO country codes of the referring links* indicates ISO country codes of the domains where the referring links are located and the link count per each country */
 
     referring_links_countries?: { [key: string]: number; } | undefined;
 

@@ -5,8 +5,7 @@ import { BaseSerpApiGoogleFinanceElementItem, IBaseSerpApiGoogleFinanceElementIt
 
 export interface ISerpGoogleFinanceQuoteTaskGetAdvancedResultInfo   {
         
-        /** keyword received in a POST array
-the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
+        /** keyword received in a POST array the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
         keyword?: string | undefined
         
         /** type of element */
@@ -21,27 +20,19 @@ the keyword is returned with decoded %## (plus character ‘+’ will be decoded
         /** language code in a POST array */
         language_code?: string | undefined
         
-        /** direct URL to search engine results
-you can use it to make sure that we provided accurate results */
+        /** direct URL to search engine results you can use it to make sure that we provided accurate results */
         check_url?: string | undefined
         
-        /** date and time when the result was received
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** date and time when the result was received in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
         datetime?: string | undefined
         
-        /** autocorrection of the search engine
-if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
+        /** autocorrection of the search engine if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
         spell?: SpellInfo | undefined
         
-        /** search refinement chips
-in this case, the value will be null */
+        /** search refinement chips in this case, the value will be null */
         refinement_chips?: RefinementChipsInfo | undefined
         
-        /** types of search results in SERP
-contains types of search results (items) found in SERP;
-possible item types: google_finance_hero_groups, google_finance_quote, google_finance_compare_to, google_finance_news, google_finance_financial, google_finance_futures_chain, google_finance_details, google_finance_about, google_finance_interested, google_finance_people_also_search */
+        /** types of search results in SERP contains types of search results (items) found in SERP; possible item types: google_finance_hero_groups, google_finance_quote, google_finance_compare_to, google_finance_news, google_finance_financial, google_finance_futures_chain, google_finance_details, google_finance_about, google_finance_interested, google_finance_people_also_search */
         item_types?: string[] | undefined
         
         /** total number of results in SERP */
@@ -60,8 +51,7 @@ possible item types: google_finance_hero_groups, google_finance_quote, google_fi
 export class SerpGoogleFinanceQuoteTaskGetAdvancedResultInfo  implements ISerpGoogleFinanceQuoteTaskGetAdvancedResultInfo {
 
     
-    /** keyword received in a POST array
-the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
+    /** keyword received in a POST array the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
 
     keyword?: string | undefined;
 
@@ -86,35 +76,27 @@ the keyword is returned with decoded %## (plus character ‘+’ will be decoded
     language_code?: string | undefined;
 
     
-    /** direct URL to search engine results
-you can use it to make sure that we provided accurate results */
+    /** direct URL to search engine results you can use it to make sure that we provided accurate results */
 
     check_url?: string | undefined;
 
     
-    /** date and time when the result was received
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** date and time when the result was received in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
 
     datetime?: string | undefined;
 
     
-    /** autocorrection of the search engine
-if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
+    /** autocorrection of the search engine if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
 
     spell?: SpellInfo | undefined;
 
     
-    /** search refinement chips
-in this case, the value will be null */
+    /** search refinement chips in this case, the value will be null */
 
     refinement_chips?: RefinementChipsInfo | undefined;
 
     
-    /** types of search results in SERP
-contains types of search results (items) found in SERP;
-possible item types: google_finance_hero_groups, google_finance_quote, google_finance_compare_to, google_finance_news, google_finance_financial, google_finance_futures_chain, google_finance_details, google_finance_about, google_finance_interested, google_finance_people_also_search */
+    /** types of search results in SERP contains types of search results (items) found in SERP; possible item types: google_finance_hero_groups, google_finance_quote, google_finance_compare_to, google_finance_news, google_finance_financial, google_finance_futures_chain, google_finance_details, google_finance_about, google_finance_interested, google_finance_people_also_search */
 
     item_types?: string[] | undefined;
 

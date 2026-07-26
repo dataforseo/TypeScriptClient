@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **BusinessDataGoogleExtendedReviewsTaskGetTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **BusinessDataGoogleExtendedReviewsTaskGetTaskInfo[]** | *array of tasks* |[optional]|

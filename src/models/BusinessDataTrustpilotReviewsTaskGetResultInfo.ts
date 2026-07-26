@@ -12,37 +12,28 @@ export interface IBusinessDataTrustpilotReviewsTaskGetResultInfo   {
         /** search engine domain in a POST array */
         se_domain?: string | undefined
         
-        /** direct URL to search engine results
-you can use it to make sure that we provided accurate results */
+        /** direct URL to search engine results you can use it to make sure that we provided accurate results */
         check_url?: string | undefined
         
-        /** date and time when the result was received
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** date and time when the result was received in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
         datetime?: string | undefined
         
-        /** title of the ‘reviews’ element on Trustpilot
-the name of the business entity for which the reviews are collected */
+        /** title of the ‘reviews’ element on Trustpilot the name of the business entity for which the reviews are collected */
         title?: string | undefined
         
-        /** location of the business entity as specified on Trustpilot
-address of the business entity for which the reviews are collected */
+        /** location of the business entity as specified on Trustpilot address of the business entity for which the reviews are collected */
         location?: string | undefined
         
         /** the total number of reviews */
         reviews_count?: string | undefined
         
-        /** rating of the corresponding business entity
-popularity rate based on reviews and displayed in SERP */
+        /** rating of the corresponding business entity popularity rate based on reviews and displayed in SERP */
         rating?: any | undefined
         
-        /** the number of items in the results array
-you can get more results by using the depth parameter when setting a task */
+        /** the number of items in the results array you can get more results by using the depth parameter when setting a task */
         items_count?: number | undefined
         
-        /** found reviews
-you can get more results by using the depth parameter when setting a task */
+        /** found reviews you can get more results by using the depth parameter when setting a task */
         items?: TrustpilotReviewSearch[] | undefined
 
     [key: string]: any;
@@ -67,28 +58,22 @@ export class BusinessDataTrustpilotReviewsTaskGetResultInfo  implements IBusines
     se_domain?: string | undefined;
 
     
-    /** direct URL to search engine results
-you can use it to make sure that we provided accurate results */
+    /** direct URL to search engine results you can use it to make sure that we provided accurate results */
 
     check_url?: string | undefined;
 
     
-    /** date and time when the result was received
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** date and time when the result was received in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
 
     datetime?: string | undefined;
 
     
-    /** title of the ‘reviews’ element on Trustpilot
-the name of the business entity for which the reviews are collected */
+    /** title of the ‘reviews’ element on Trustpilot the name of the business entity for which the reviews are collected */
 
     title?: string | undefined;
 
     
-    /** location of the business entity as specified on Trustpilot
-address of the business entity for which the reviews are collected */
+    /** location of the business entity as specified on Trustpilot address of the business entity for which the reviews are collected */
 
     location?: string | undefined;
 
@@ -98,20 +83,17 @@ address of the business entity for which the reviews are collected */
     reviews_count?: string | undefined;
 
     
-    /** rating of the corresponding business entity
-popularity rate based on reviews and displayed in SERP */
+    /** rating of the corresponding business entity popularity rate based on reviews and displayed in SERP */
 
     rating?: any | undefined;
 
     
-    /** the number of items in the results array
-you can get more results by using the depth parameter when setting a task */
+    /** the number of items in the results array you can get more results by using the depth parameter when setting a task */
 
     items_count?: number | undefined;
 
     
-    /** found reviews
-you can get more results by using the depth parameter when setting a task */
+    /** found reviews you can get more results by using the depth parameter when setting a task */
 
     items?: TrustpilotReviewSearch[] | undefined;
 

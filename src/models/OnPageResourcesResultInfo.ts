@@ -4,8 +4,7 @@ import { BaseOnPageResourceItem, IBaseOnPageResourceItem } from "./BaseOnPageRes
 
 export interface IOnPageResourcesResultInfo   {
         
-        /** status of the crawling session
-possible values: in_progress, finished */
+        /** status of the crawling session possible values: in_progress, finished */
         crawl_progress?: string | undefined
         
         /** details of the crawling session */
@@ -31,8 +30,7 @@ possible values: in_progress, finished */
 export class OnPageResourcesResultInfo  implements IOnPageResourcesResultInfo {
 
     
-    /** status of the crawling session
-possible values: in_progress, finished */
+    /** status of the crawling session possible values: in_progress, finished */
 
     crawl_progress?: string | undefined;
 

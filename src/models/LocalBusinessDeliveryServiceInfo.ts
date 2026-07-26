@@ -3,8 +3,7 @@ export interface ILocalBusinessDeliveryServiceInfo   {
         /** type of element */
         type?: string | undefined
         
-        /** title of the element
-domain of the online food ordering system */
+        /** title of the element domain of the online food ordering system */
         title?: string | undefined
         
         /** URL to place an order */
@@ -22,8 +21,7 @@ export class LocalBusinessDeliveryServiceInfo  implements ILocalBusinessDelivery
     type?: string | undefined;
 
     
-    /** title of the element
-domain of the online food ordering system */
+    /** title of the element domain of the online food ordering system */
 
     title?: string | undefined;
 

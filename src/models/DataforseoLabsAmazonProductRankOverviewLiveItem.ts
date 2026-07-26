@@ -6,9 +6,7 @@ export interface IDataforseoLabsAmazonProductRankOverviewLiveItem   {
         /** search engine type */
         se_type?: string | undefined
         
-        /** ASIN of the product
-unique product identifier on Amazon;
-for more information, refer to this help center guide */
+        /** ASIN of the product unique product identifier on Amazon; for more information, refer to this help center guide */
         asin?: string | undefined
         
         /** average keyword position of the product */
@@ -26,9 +24,7 @@ export class DataforseoLabsAmazonProductRankOverviewLiveItem  implements IDatafo
     se_type?: string | undefined;
 
     
-    /** ASIN of the product
-unique product identifier on Amazon;
-for more information, refer to this help center guide */
+    /** ASIN of the product unique product identifier on Amazon; for more information, refer to this help center guide */
 
     asin?: string | undefined;
 

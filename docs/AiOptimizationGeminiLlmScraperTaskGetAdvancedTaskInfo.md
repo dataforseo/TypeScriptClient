@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **AiOptimizationGeminiLlmScraperTaskGetAdvancedResultInfo[]** | array of results |[optional]|
+**result** | **AiOptimizationGeminiLlmScraperTaskGetAdvancedResultInfo[]** | *array of results* |[optional]|

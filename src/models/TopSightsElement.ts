@@ -15,9 +15,7 @@ export interface ITopSightsElement   {
         /** link description */
         description?: string | undefined
         
-        /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP;
-if there is none, equals null */
+        /** the item’s rating  the popularity rate based on reviews and displayed in SERP; if there is none, equals null */
         rating?: RatingInfo | undefined
 
     [key: string]: any;
@@ -47,9 +45,7 @@ export class TopSightsElement  implements ITopSightsElement {
     description?: string | undefined;
 
     
-    /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP;
-if there is none, equals null */
+    /** the item’s rating  the popularity rate based on reviews and displayed in SERP; if there is none, equals null */
 
     rating?: RatingInfo | undefined;
 

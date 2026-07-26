@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **DomainAnalyticsWhoisOverviewLiveResultInfo[]** | array of results |[optional]|
+**result** | **DomainAnalyticsWhoisOverviewLiveResultInfo[]** | *array of results* |[optional]|

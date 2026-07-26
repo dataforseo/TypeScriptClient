@@ -85,8 +85,7 @@ export class BaseLocalBusinessLink  implements IBaseLocalBusinessLink {
  
 export interface ILocalBusinessReservationLink  extends IBaseLocalBusinessLink    {
         
-        /** title of the element
-domain of the reservation software */
+        /** title of the element domain of the reservation software */
         title?: string | undefined
         
         /** URL to make a reservation */
@@ -99,8 +98,7 @@ domain of the reservation software */
 export class LocalBusinessReservationLink  extends BaseLocalBusinessLink   implements ILocalBusinessReservationLink {
 
     
-    /** title of the element
-domain of the reservation software */
+    /** title of the element domain of the reservation software */
 
     title?: string | undefined;
 
@@ -224,8 +222,7 @@ export class LocalBusinessOrderLink  extends BaseLocalBusinessLink   implements 
  
 export interface ILocalBusinessMenuLink  extends IBaseLocalBusinessLink    {
         
-        /** title of the element
-domain of the online menu system */
+        /** title of the element domain of the online menu system */
         title?: string | undefined
         
         /** URL to view the menu */
@@ -238,8 +235,7 @@ domain of the online menu system */
 export class LocalBusinessMenuLink  extends BaseLocalBusinessLink   implements ILocalBusinessMenuLink {
 
     
-    /** title of the element
-domain of the online menu system */
+    /** title of the element domain of the online menu system */
 
     title?: string | undefined;
 

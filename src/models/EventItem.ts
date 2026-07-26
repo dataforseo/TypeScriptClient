@@ -8,18 +8,13 @@ export interface IEventItem   {
         /** type of element */
         type?: string | undefined
         
-        /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+        /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP */
+        /** absolute rank in SERP absolute position among all the elements in SERP */
         rank_absolute?: number | undefined
         
-        /** the alignment of the element in SERP
-can take the following values:
-left, right */
+        /** the alignment of the element in SERP can take the following values: left, right */
         position?: string | undefined
         
         /** the XPath of the element */
@@ -37,8 +32,7 @@ left, right */
         /** URL of the image featured in the element */
         image_url?: string | undefined
         
-        /** dates when the event takes place
-if there are none, equals null */
+        /** dates when the event takes place if there are none, equals null */
         event_dates?: EventDates | undefined
         
         /** information about the event’s venue */
@@ -59,22 +53,17 @@ export class EventItem  implements IEventItem {
     type?: string | undefined;
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+    /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP */
+    /** absolute rank in SERP absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
 
     
-    /** the alignment of the element in SERP
-can take the following values:
-left, right */
+    /** the alignment of the element in SERP can take the following values: left, right */
 
     position?: string | undefined;
 
@@ -104,8 +93,7 @@ left, right */
     image_url?: string | undefined;
 
     
-    /** dates when the event takes place
-if there are none, equals null */
+    /** dates when the event takes place if there are none, equals null */
 
     event_dates?: EventDates | undefined;
 

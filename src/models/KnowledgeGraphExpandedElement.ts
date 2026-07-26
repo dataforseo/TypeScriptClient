@@ -22,18 +22,13 @@ export interface IKnowledgeGraphExpandedElement   {
         /** text alongside the link title */
         snippet?: string | undefined
         
-        /** images of the element
-if there are none, equals null */
+        /** images of the element if there are none, equals null */
         images?: AiModeImagesElementInfo[] | undefined
         
-        /** date and time when the result was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
         timestamp?: string | undefined
         
-        /** table present in the element
-the header and content of the table present in the element */
+        /** table present in the element the header and content of the table present in the element */
         table?: Table | undefined
 
     [key: string]: any;
@@ -73,22 +68,17 @@ export class KnowledgeGraphExpandedElement  implements IKnowledgeGraphExpandedEl
     snippet?: string | undefined;
 
     
-    /** images of the element
-if there are none, equals null */
+    /** images of the element if there are none, equals null */
 
     images?: AiModeImagesElementInfo[] | undefined;
 
     
-    /** date and time when the result was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
 
     timestamp?: string | undefined;
 
     
-    /** table present in the element
-the header and content of the table present in the element */
+    /** table present in the element the header and content of the table present in the element */
 
     table?: Table | undefined;
 

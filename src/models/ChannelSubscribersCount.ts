@@ -1,7 +1,6 @@
 export interface IChannelSubscribersCount   {
         
-        /** displayed subscriber count
-subscriber count as displayed on YouTube */
+        /** displayed subscriber count subscriber count as displayed on YouTube */
         displayed_count?: string | undefined
         
         /** subscriber count */
@@ -14,8 +13,7 @@ subscriber count as displayed on YouTube */
 export class ChannelSubscribersCount  implements IChannelSubscribersCount {
 
     
-    /** displayed subscriber count
-subscriber count as displayed on YouTube */
+    /** displayed subscriber count subscriber count as displayed on YouTube */
 
     displayed_count?: string | undefined;
 

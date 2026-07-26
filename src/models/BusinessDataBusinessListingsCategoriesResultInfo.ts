@@ -1,9 +1,9 @@
 export interface IBusinessDataBusinessListingsCategoriesResultInfo   {
         
-        /** full name of the category */
+        /** *full name of the category* */
         category_name?: string | undefined
         
-        /** number of businesses in the category */
+        /** *number of businesses in the category* */
         business_count?: number | undefined
 
     [key: string]: any;
@@ -13,12 +13,12 @@ export interface IBusinessDataBusinessListingsCategoriesResultInfo   {
 export class BusinessDataBusinessListingsCategoriesResultInfo  implements IBusinessDataBusinessListingsCategoriesResultInfo {
 
     
-    /** full name of the category */
+    /** *full name of the category* */
 
     category_name?: string | undefined;
 
     
-    /** number of businesses in the category */
+    /** *number of businesses in the category* */
 
     business_count?: number | undefined;
 

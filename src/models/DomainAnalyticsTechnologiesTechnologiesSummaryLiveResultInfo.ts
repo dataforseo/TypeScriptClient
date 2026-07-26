@@ -1,19 +1,15 @@
 export interface IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo   {
         
-        /** distribution of websites by country
-contains country codes and number of websites per country */
+        /** distribution of websites by country contains country codes and number of websites per country */
         countries?: { [key: string]: number; } | undefined
         
-        /** distribution of websites by language
-contains language codes and number of websites per language */
+        /** distribution of websites by language contains language codes and number of websites per language */
         languages?: { [key: string]: number; } | undefined
         
-        /** distribution of websites by content language
-contains content language codes and number of websites per language */
+        /** distribution of websites by content language contains content language codes and number of websites per language */
         content_languages?: { [key: string]: number; } | undefined
         
-        /** distribution of websites by keywords
-contains keywords found in the websites’ titles, descriptions or meta keywords, and number of websites using each keyword */
+        /** distribution of websites by keywords contains keywords found in the websites’ titles, descriptions or meta keywords, and number of websites using each keyword */
         keywords?: { [key: string]: number; } | undefined
 
     [key: string]: any;
@@ -23,26 +19,22 @@ contains keywords found in the websites’ titles, descriptions or meta keywords
 export class DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo  implements IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo {
 
     
-    /** distribution of websites by country
-contains country codes and number of websites per country */
+    /** distribution of websites by country contains country codes and number of websites per country */
 
     countries?: { [key: string]: number; } | undefined;
 
     
-    /** distribution of websites by language
-contains language codes and number of websites per language */
+    /** distribution of websites by language contains language codes and number of websites per language */
 
     languages?: { [key: string]: number; } | undefined;
 
     
-    /** distribution of websites by content language
-contains content language codes and number of websites per language */
+    /** distribution of websites by content language contains content language codes and number of websites per language */
 
     content_languages?: { [key: string]: number; } | undefined;
 
     
-    /** distribution of websites by keywords
-contains keywords found in the websites’ titles, descriptions or meta keywords, and number of websites using each keyword */
+    /** distribution of websites by keywords contains keywords found in the websites’ titles, descriptions or meta keywords, and number of websites using each keyword */
 
     keywords?: { [key: string]: number; } | undefined;
 

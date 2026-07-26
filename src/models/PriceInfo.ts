@@ -1,27 +1,21 @@
 export interface IPriceInfo   {
         
-        /** current price
-indicates the current price of the product or service featured in the result */
+        /** current price indicates the current price of the product or service featured in the result */
         current?: number | undefined
         
-        /** regular price
-indicates the regular price of the product or service with no discounts applied */
+        /** regular price indicates the regular price of the product or service with no discounts applied */
         regular?: number | undefined
         
-        /** the maximum price
-the maximum price of the product or service as indicated in the result */
+        /** the maximum price the maximum price of the product or service as indicated in the result */
         max_value?: number | undefined
         
-        /** currency of the listed price
-ISO code of the currency applied to the price */
+        /** currency of the listed price ISO code of the currency applied to the price */
         currency?: string | undefined
         
-        /** price is provided as a range
-indicates whether a price is provided in a range */
+        /** price is provided as a range indicates whether a price is provided in a range */
         is_price_range?: boolean | undefined
         
-        /** price string in the result
-raw price string as provided in the result */
+        /** price string in the result raw price string as provided in the result */
         displayed_price?: string | undefined
 
     [key: string]: any;
@@ -31,38 +25,32 @@ raw price string as provided in the result */
 export class PriceInfo  implements IPriceInfo {
 
     
-    /** current price
-indicates the current price of the product or service featured in the result */
+    /** current price indicates the current price of the product or service featured in the result */
 
     current?: number | undefined;
 
     
-    /** regular price
-indicates the regular price of the product or service with no discounts applied */
+    /** regular price indicates the regular price of the product or service with no discounts applied */
 
     regular?: number | undefined;
 
     
-    /** the maximum price
-the maximum price of the product or service as indicated in the result */
+    /** the maximum price the maximum price of the product or service as indicated in the result */
 
     max_value?: number | undefined;
 
     
-    /** currency of the listed price
-ISO code of the currency applied to the price */
+    /** currency of the listed price ISO code of the currency applied to the price */
 
     currency?: string | undefined;
 
     
-    /** price is provided as a range
-indicates whether a price is provided in a range */
+    /** price is provided as a range indicates whether a price is provided in a range */
 
     is_price_range?: boolean | undefined;
 
     
-    /** price string in the result
-raw price string as provided in the result */
+    /** price string in the result raw price string as provided in the result */
 
     displayed_price?: string | undefined;
 

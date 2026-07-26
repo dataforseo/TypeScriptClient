@@ -2,10 +2,10 @@ import { AdLinkElement, IAdLinkElement } from "./AdLinkElement";
 import { RankChanges, IRankChanges } from "./RankChanges";
 import { BacklinksInfo, IBacklinksInfo } from "./BacklinksInfo";
 import { RankInfo, IRankInfo } from "./RankInfo";
+import { Table, ITable } from "./Table";
 import { RatingInfo, IRatingInfo } from "./RatingInfo";
 import { LinkElement, ILinkElement } from "./LinkElement";
 import { AboutThisResultElement, IAboutThisResultElement } from "./AboutThisResultElement";
-import { Table, ITable } from "./Table";
 import { DataforseoLabsCarouselElement, IDataforseoLabsCarouselElement } from "./DataforseoLabsCarouselElement";
 import { MultiCarouselElement, IMultiCarouselElement } from "./MultiCarouselElement";
 import { GoogleFlightsElement, IGoogleFlightsElement } from "./GoogleFlightsElement";
@@ -20,18 +20,18 @@ import { TopStoriesElement, ITopStoriesElement } from "./TopStoriesElement";
 import { TwitterElement, ITwitterElement } from "./TwitterElement";
 import { VideoElement, IVideoElement } from "./VideoElement";
 import { EventsElement, IEventsElement } from "./EventsElement";
-import { MentionCarouselElement, IMentionCarouselElement } from "./MentionCarouselElement";
 import { RecipesElement, IRecipesElement } from "./RecipesElement";
 import { TopSightsElement, ITopSightsElement } from "./TopSightsElement";
 import { ScholarlyArticlesElement, IScholarlyArticlesElement } from "./ScholarlyArticlesElement";
 import { PopularProductsElement, IPopularProductsElement } from "./PopularProductsElement";
-import { PodcastsElement, IPodcastsElement } from "./PodcastsElement";
 import { QuestionsAndAnswersElement, IQuestionsAndAnswersElement } from "./QuestionsAndAnswersElement";
 import { FindResultsOnElement, IFindResultsOnElement } from "./FindResultsOnElement";
 import { PriceInfo, IPriceInfo } from "./PriceInfo";
 import { Graph, IGraph } from "./Graph";
 import { CommercialUnitsElement, ICommercialUnitsElement } from "./CommercialUnitsElement";
 import { MathSolverElement, IMathSolverElement } from "./MathSolverElement";
+import { MentionCarouselElement, IMentionCarouselElement } from "./MentionCarouselElement";
+import { PodcastsElement, IPodcastsElement } from "./PodcastsElement";
 import { AmazonLabelElement, IAmazonLabelElement } from "./AmazonLabelElement";
 import { FoundOnWebElement, IFoundOnWebElement } from "./FoundOnWebElement";
 import { ExploreBrandsElement, IExploreBrandsElement } from "./ExploreBrandsElement";
@@ -46,17 +46,13 @@ export interface IBaseDataforseoLabsApiElementItem   {
         /** search engine type */
         se_type?: string | undefined
         
-        /** position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+        /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP */
+        /** absolute rank in SERP absolute position among all the elements in SERP */
         rank_absolute?: number | undefined
         
-        /** the alignment of the element in SERP
-can take the following values:
-left, right */
+        /** the alignment of the element in SERP can take the following values: left, right */
         position?: string | undefined
         
         /** the XPath of the element */
@@ -79,21 +75,17 @@ export class BaseDataforseoLabsApiElementItem  implements IBaseDataforseoLabsApi
     se_type?: string | undefined;
 
     
-    /** position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+    /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP */
+    /** absolute rank in SERP absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
 
     
-    /** the alignment of the element in SERP
-can take the following values:
-left, right */
+    /** the alignment of the element in SERP can take the following values: left, right */
 
     position?: string | undefined;
 
@@ -144,9 +136,9 @@ left, right */
             result.init(data);
             return result;
         }
-        if (data["type"] === "local_pack") {
+        if (data["type"] === "featured_snippet") {
 
-            let result = new DataLabsLocalPackSerpElementItem();
+            let result = new DataLabsFeaturedSnippetSerpElementItem();
             result.init(data);
             return result;
         }
@@ -156,9 +148,9 @@ left, right */
             result.init(data);
             return result;
         }
-        if (data["type"] === "featured_snippet") {
+        if (data["type"] === "local_pack") {
 
-            let result = new DataLabsFeaturedSnippetSerpElementItem();
+            let result = new DataLabsLocalPackSerpElementItem();
             result.init(data);
             return result;
         }
@@ -276,12 +268,6 @@ left, right */
             result.init(data);
             return result;
         }
-        if (data["type"] === "mention_carousel") {
-
-            let result = new DataLabsMentionCarouselSerpElementItem();
-            result.init(data);
-            return result;
-        }
         if (data["type"] === "recipes") {
 
             let result = new DataLabsRecipesSerpElementItem();
@@ -303,12 +289,6 @@ left, right */
         if (data["type"] === "popular_products") {
 
             let result = new DataLabsPopularProductsSerpElementItem();
-            result.init(data);
-            return result;
-        }
-        if (data["type"] === "podcasts") {
-
-            let result = new DataLabsPodcastsSerpElementItem();
             result.init(data);
             return result;
         }
@@ -351,6 +331,18 @@ left, right */
         if (data["type"] === "math_solver") {
 
             let result = new DataLabsMathSolverSerpElementItem();
+            result.init(data);
+            return result;
+        }
+        if (data["type"] === "mention_carousel") {
+
+            let result = new DataLabsMentionCarouselSerpElementItem();
+            result.init(data);
+            return result;
+        }
+        if (data["type"] === "podcasts") {
+
+            let result = new DataLabsPodcastsSerpElementItem();
             result.init(data);
             return result;
         }
@@ -422,13 +414,10 @@ export interface IDataLabsPaidSerpElementItem  extends IBaseDataforseoLabsApiEle
         
         extra?: { [key: string]: string; } | undefined
         
-        /** extended description
-if there is none, equals null */
+        /** extended description if there is none, equals null */
         description_rows?: string[] | undefined
         
-        /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+        /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
         links?: AdLinkElement[] | undefined
         
         /** primary domain name in SERP */
@@ -437,26 +426,16 @@ if there are none, equals null */
         /** URL in SERP that does not specify the HTTPs protocol and domain name */
         relative_url?: string | undefined
         
-        /** estimated traffic volume
-estimated organic monthly traffic to the domain or webpage;
-calculated as the product of CTR (click-through-rate) and search volume values of all keywords the domain or webpage rank for;
-learn more about how the metric is calculated in this help center article */
+        /** estimated traffic volume estimated organic monthly traffic to the domain or webpage; calculated as the product of CTR (click-through-rate) and search volume values of all keywords the domain or webpage rank for; learn more about how the metric is calculated in this help center article */
         etv?: number | undefined
         
-        /** estimated cost of converting organic search traffic into paid
-represents the estimated monthly cost of running ads for all keywords that a domain or webpage ranks for;
-the metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search;
-learn more about how the metric is calculated in this help center article */
+        /** estimated cost of converting organic search traffic into paid represents the estimated monthly cost of running ads for all keywords that a domain or webpage ranks for; the metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search; learn more about how the metric is calculated in this help center article */
         estimated_paid_traffic_cost?: number | undefined
         
-        /** estimated traffic volume based on clickstream data
-calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain or webpage ranks for;
-to retrieve results for this field, the parameter include_clickstream_data must be set to true;
-learn more about how the metric is calculated in this help center article */
+        /** estimated traffic volume based on clickstream data calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain or webpage ranks for; to retrieve results for this field, the parameter include_clickstream_data must be set to true; learn more about how the metric is calculated in this help center article */
         clickstream_etv?: number | undefined
         
-        /** changes in rankings
-contains information about the ranking changes of the SERP element since the previous_updated_time */
+        /** changes in rankings contains information about the ranking changes of the SERP element since the previous_updated_time */
         rank_changes?: RankChanges | undefined
         
         /** backlinks information for the relevant page URL */
@@ -504,15 +483,12 @@ export class DataLabsPaidSerpElementItem  extends BaseDataforseoLabsApiElementIt
     extra?: { [key: string]: string; } | undefined;
 
     
-    /** extended description
-if there is none, equals null */
+    /** extended description if there is none, equals null */
 
     description_rows?: string[] | undefined;
 
     
-    /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+    /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
 
     links?: AdLinkElement[] | undefined;
 
@@ -527,32 +503,22 @@ if there are none, equals null */
     relative_url?: string | undefined;
 
     
-    /** estimated traffic volume
-estimated organic monthly traffic to the domain or webpage;
-calculated as the product of CTR (click-through-rate) and search volume values of all keywords the domain or webpage rank for;
-learn more about how the metric is calculated in this help center article */
+    /** estimated traffic volume estimated organic monthly traffic to the domain or webpage; calculated as the product of CTR (click-through-rate) and search volume values of all keywords the domain or webpage rank for; learn more about how the metric is calculated in this help center article */
 
     etv?: number | undefined;
 
     
-    /** estimated cost of converting organic search traffic into paid
-represents the estimated monthly cost of running ads for all keywords that a domain or webpage ranks for;
-the metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search;
-learn more about how the metric is calculated in this help center article */
+    /** estimated cost of converting organic search traffic into paid represents the estimated monthly cost of running ads for all keywords that a domain or webpage ranks for; the metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search; learn more about how the metric is calculated in this help center article */
 
     estimated_paid_traffic_cost?: number | undefined;
 
     
-    /** estimated traffic volume based on clickstream data
-calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain or webpage ranks for;
-to retrieve results for this field, the parameter include_clickstream_data must be set to true;
-learn more about how the metric is calculated in this help center article */
+    /** estimated traffic volume based on clickstream data calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain or webpage ranks for; to retrieve results for this field, the parameter include_clickstream_data must be set to true; learn more about how the metric is calculated in this help center article */
 
     clickstream_etv?: number | undefined;
 
     
-    /** changes in rankings
-contains information about the ranking changes of the SERP element since the previous_updated_time */
+    /** changes in rankings contains information about the ranking changes of the SERP element since the previous_updated_time */
 
     rank_changes?: RankChanges | undefined;
 
@@ -652,29 +618,25 @@ contains information about the ranking changes of the SERP element since the pre
 }
 
  
-export interface IDataLabsLocalPackSerpElementItem  extends IBaseDataforseoLabsApiElementItem    {
-        
-        /** title of the result in SERP */
-        title?: string | undefined
-        
-        /** description of the results element in SERP */
-        description?: string | undefined
+export interface IDataLabsFeaturedSnippetSerpElementItem  extends IBaseDataforseoLabsApiElementItem    {
         
         /** subdomain in SERP */
         domain?: string | undefined
         
-        /** phone number */
-        phone?: string | undefined
+        /** title of the result in SERP */
+        title?: string | undefined
+        
+        /** the title of the featured snippets source page */
+        featured_title?: string | undefined
+        
+        /** description of the results element in SERP */
+        description?: string | undefined
         
         /** relevant URL in SERP */
         url?: string | undefined
         
-        /** indicates whether the element is an ad */
-        is_paid?: boolean | undefined
-        
-        /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP */
-        rating?: RatingInfo | undefined
+        /** results table if there are none, equals null */
+        table?: Table | undefined
         
         /** primary domain name in SERP */
         main_domain?: string | undefined
@@ -682,26 +644,16 @@ the popularity rate based on reviews and displayed in SERP */
         /** URL in SERP that does not specify the HTTPs protocol and domain name */
         relative_url?: string | undefined
         
-        /** estimated traffic volume
-estimated organic monthly traffic to the domain or webpage;
-calculated as the product of CTR (click-through-rate) and search volume values of all keywords the domain or webpage rank for;
-learn more about how the metric is calculated in this help center article */
+        /** estimated traffic volume estimated organic monthly traffic to the domain or webpage; calculated as the product of CTR (click-through-rate) and search volume values of all keywords the domain or webpage rank for; learn more about how the metric is calculated in this help center article */
         etv?: number | undefined
         
-        /** estimated cost of converting organic search traffic into paid
-represents the estimated monthly cost of running ads for all keywords that a domain or webpage ranks for;
-the metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search;
-learn more about how the metric is calculated in this help center article */
+        /** estimated cost of converting organic search traffic into paid represents the estimated monthly cost of running ads for all keywords that a domain or webpage ranks for; the metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search; learn more about how the metric is calculated in this help center article */
         estimated_paid_traffic_cost?: number | undefined
         
-        /** estimated traffic volume based on clickstream data
-calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain or webpage ranks for;
-to retrieve results for this field, the parameter include_clickstream_data must be set to true;
-learn more about how the metric is calculated in this help center article */
+        /** estimated traffic volume based on clickstream data calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain or webpage ranks for; to retrieve results for this field, the parameter include_clickstream_data must be set to true; learn more about how the metric is calculated in this help center article */
         clickstream_etv?: number | undefined
         
-        /** changes in rankings
-contains information about the ranking changes of the SERP element since the previous_updated_time */
+        /** changes in rankings contains information about the ranking changes of the SERP element since the previous_updated_time */
         rank_changes?: RankChanges | undefined
         
         /** backlinks information for the relevant page URL */
@@ -714,17 +666,7 @@ contains information about the ranking changes of the SERP element since the pre
 
     }
 
-export class DataLabsLocalPackSerpElementItem  extends BaseDataforseoLabsApiElementItem   implements IDataLabsLocalPackSerpElementItem {
-
-    
-    /** title of the result in SERP */
-
-    title?: string | undefined;
-
-    
-    /** description of the results element in SERP */
-
-    description?: string | undefined;
+export class DataLabsFeaturedSnippetSerpElementItem  extends BaseDataforseoLabsApiElementItem   implements IDataLabsFeaturedSnippetSerpElementItem {
 
     
     /** subdomain in SERP */
@@ -732,9 +674,19 @@ export class DataLabsLocalPackSerpElementItem  extends BaseDataforseoLabsApiElem
     domain?: string | undefined;
 
     
-    /** phone number */
+    /** title of the result in SERP */
 
-    phone?: string | undefined;
+    title?: string | undefined;
+
+    
+    /** the title of the featured snippets source page */
+
+    featured_title?: string | undefined;
+
+    
+    /** description of the results element in SERP */
+
+    description?: string | undefined;
 
     
     /** relevant URL in SERP */
@@ -742,15 +694,9 @@ export class DataLabsLocalPackSerpElementItem  extends BaseDataforseoLabsApiElem
     url?: string | undefined;
 
     
-    /** indicates whether the element is an ad */
+    /** results table if there are none, equals null */
 
-    is_paid?: boolean | undefined;
-
-    
-    /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP */
-
-    rating?: RatingInfo | undefined;
+    table?: Table | undefined;
 
     
     /** primary domain name in SERP */
@@ -763,32 +709,22 @@ the popularity rate based on reviews and displayed in SERP */
     relative_url?: string | undefined;
 
     
-    /** estimated traffic volume
-estimated organic monthly traffic to the domain or webpage;
-calculated as the product of CTR (click-through-rate) and search volume values of all keywords the domain or webpage rank for;
-learn more about how the metric is calculated in this help center article */
+    /** estimated traffic volume estimated organic monthly traffic to the domain or webpage; calculated as the product of CTR (click-through-rate) and search volume values of all keywords the domain or webpage rank for; learn more about how the metric is calculated in this help center article */
 
     etv?: number | undefined;
 
     
-    /** estimated cost of converting organic search traffic into paid
-represents the estimated monthly cost of running ads for all keywords that a domain or webpage ranks for;
-the metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search;
-learn more about how the metric is calculated in this help center article */
+    /** estimated cost of converting organic search traffic into paid represents the estimated monthly cost of running ads for all keywords that a domain or webpage ranks for; the metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search; learn more about how the metric is calculated in this help center article */
 
     estimated_paid_traffic_cost?: number | undefined;
 
     
-    /** estimated traffic volume based on clickstream data
-calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain or webpage ranks for;
-to retrieve results for this field, the parameter include_clickstream_data must be set to true;
-learn more about how the metric is calculated in this help center article */
+    /** estimated traffic volume based on clickstream data calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain or webpage ranks for; to retrieve results for this field, the parameter include_clickstream_data must be set to true; learn more about how the metric is calculated in this help center article */
 
     clickstream_etv?: number | undefined;
 
     
-    /** changes in rankings
-contains information about the ranking changes of the SERP element since the previous_updated_time */
+    /** changes in rankings contains information about the ranking changes of the SERP element since the previous_updated_time */
 
     rank_changes?: RankChanges | undefined;
 
@@ -805,7 +741,7 @@ contains information about the ranking changes of the SERP element since the pre
     [key: string]: any;
 
 
-    constructor(data?: IDataLabsLocalPackSerpElementItem) {
+    constructor(data?: IDataLabsFeaturedSnippetSerpElementItem) {
     super(data);
 
     }
@@ -817,13 +753,12 @@ contains information about the ranking changes of the SERP element since the pre
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
-            this.title = data["title"];
-            this.description = data["description"];
             this.domain = data["domain"];
-            this.phone = data["phone"];
+            this.title = data["title"];
+            this.featured_title = data["featured_title"];
+            this.description = data["description"];
             this.url = data["url"];
-            this.is_paid = data["is_paid"];
-            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
+            this.table = data["table"] ? Table.fromJS(data["table"]) : <any>undefined;
             this.main_domain = data["main_domain"];
             this.relative_url = data["relative_url"];
             this.etv = data["etv"];
@@ -835,11 +770,11 @@ contains information about the ranking changes of the SERP element since the pre
         }
     }
 
-    static fromJS(data: any): DataLabsLocalPackSerpElementItem {
+    static fromJS(data: any): DataLabsFeaturedSnippetSerpElementItem {
         data = typeof data === 'object' ? data : {};
 
 
-        let result = new DataLabsLocalPackSerpElementItem();
+        let result = new DataLabsFeaturedSnippetSerpElementItem();
         result.init(data);
         return result;
     }
@@ -851,13 +786,12 @@ contains information about the ranking changes of the SERP element since the pre
         super.toJSON(data);
         
         
-        data["title"] = this.title;
-        data["description"] = this.description;
         data["domain"] = this.domain;
-        data["phone"] = this.phone;
+        data["title"] = this.title;
+        data["featured_title"] = this.featured_title;
+        data["description"] = this.description;
         data["url"] = this.url;
-        data["is_paid"] = this.is_paid;
-        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["table"] = this.table ? Table.fromJS(this.table)?.toJSON() : <any>undefined;
         data["main_domain"] = this.main_domain;
         data["relative_url"] = this.relative_url;
         data["etv"] = this.etv;
@@ -909,25 +843,19 @@ export interface IDataLabsOrganicSerpElementItem  extends IBaseDataforseoLabsApi
         /** includes additional information appended after the result description in SERP */
         extended_snippet?: string | undefined
         
-        /** Accelerated Mobile Pages
-indicates whether an item has the Accelerated Mobile Page (AMP) version */
+        /** Accelerated Mobile Pages indicates whether an item has the Accelerated Mobile Page (AMP) version */
         amp_version?: boolean | undefined
         
-        /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP */
+        /** the item’s rating  the popularity rate based on reviews and displayed in SERP */
         rating?: RatingInfo | undefined
         
         /** words highlighted in bold within the results description */
         highlighted?: string[] | undefined
         
-        /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+        /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
         links?: LinkElement[] | undefined
         
-        /** @deprecated contains information from the ‘About this result’ panel
-‘About this result’ panel provides additional context about why Google returned this result for the given query;
-this feature appears after clicking on the three dots next to most results */
+        /** @deprecated contains information from the ‘About this result’ panel ‘About this result’ panel provides additional context about why Google returned this result for the given query; this feature appears after clicking on the three dots next to most results */
         about_this_result?: AboutThisResultElement | undefined
         
         /** primary domain name in SERP */
@@ -936,26 +864,16 @@ this feature appears after clicking on the three dots next to most results */
         /** URL in SERP that does not specify the HTTPs protocol and domain name */
         relative_url?: string | undefined
         
-        /** estimated traffic volume
-estimated organic monthly traffic to the domain or webpage;
-calculated as the product of CTR (click-through-rate) and search volume values of all keywords the domain or webpage rank for;
-learn more about how the metric is calculated in this help center article */
+        /** estimated traffic volume estimated organic monthly traffic to the domain or webpage; calculated as the product of CTR (click-through-rate) and search volume values of all keywords the domain or webpage rank for; learn more about how the metric is calculated in this help center article */
         etv?: number | undefined
         
-        /** estimated cost of converting organic search traffic into paid
-represents the estimated monthly cost of running ads for all keywords that a domain or webpage ranks for;
-the metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search;
-learn more about how the metric is calculated in this help center article */
+        /** estimated cost of converting organic search traffic into paid represents the estimated monthly cost of running ads for all keywords that a domain or webpage ranks for; the metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search; learn more about how the metric is calculated in this help center article */
         estimated_paid_traffic_cost?: number | undefined
         
-        /** estimated traffic volume based on clickstream data
-calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain or webpage ranks for;
-to retrieve results for this field, the parameter include_clickstream_data must be set to true;
-learn more about how the metric is calculated in this help center article */
+        /** estimated traffic volume based on clickstream data calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain or webpage ranks for; to retrieve results for this field, the parameter include_clickstream_data must be set to true; learn more about how the metric is calculated in this help center article */
         clickstream_etv?: number | undefined
         
-        /** changes in rankings
-contains information about the ranking changes of the SERP element since the previous_updated_time */
+        /** changes in rankings contains information about the ranking changes of the SERP element since the previous_updated_time */
         rank_changes?: RankChanges | undefined
         
         /** backlinks information for the relevant page URL */
@@ -1031,14 +949,12 @@ export class DataLabsOrganicSerpElementItem  extends BaseDataforseoLabsApiElemen
     extended_snippet?: string | undefined;
 
     
-    /** Accelerated Mobile Pages
-indicates whether an item has the Accelerated Mobile Page (AMP) version */
+    /** Accelerated Mobile Pages indicates whether an item has the Accelerated Mobile Page (AMP) version */
 
     amp_version?: boolean | undefined;
 
     
-    /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP */
+    /** the item’s rating  the popularity rate based on reviews and displayed in SERP */
 
     rating?: RatingInfo | undefined;
 
@@ -1048,15 +964,11 @@ the popularity rate based on reviews and displayed in SERP */
     highlighted?: string[] | undefined;
 
     
-    /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+    /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
 
     links?: LinkElement[] | undefined;
     
-    /** @deprecated contains information from the ‘About this result’ panel
-‘About this result’ panel provides additional context about why Google returned this result for the given query;
-this feature appears after clicking on the three dots next to most results */
+    /** @deprecated contains information from the ‘About this result’ panel ‘About this result’ panel provides additional context about why Google returned this result for the given query; this feature appears after clicking on the three dots next to most results */
 
     about_this_result?: AboutThisResultElement | undefined;
 
@@ -1071,32 +983,22 @@ this feature appears after clicking on the three dots next to most results */
     relative_url?: string | undefined;
 
     
-    /** estimated traffic volume
-estimated organic monthly traffic to the domain or webpage;
-calculated as the product of CTR (click-through-rate) and search volume values of all keywords the domain or webpage rank for;
-learn more about how the metric is calculated in this help center article */
+    /** estimated traffic volume estimated organic monthly traffic to the domain or webpage; calculated as the product of CTR (click-through-rate) and search volume values of all keywords the domain or webpage rank for; learn more about how the metric is calculated in this help center article */
 
     etv?: number | undefined;
 
     
-    /** estimated cost of converting organic search traffic into paid
-represents the estimated monthly cost of running ads for all keywords that a domain or webpage ranks for;
-the metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search;
-learn more about how the metric is calculated in this help center article */
+    /** estimated cost of converting organic search traffic into paid represents the estimated monthly cost of running ads for all keywords that a domain or webpage ranks for; the metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search; learn more about how the metric is calculated in this help center article */
 
     estimated_paid_traffic_cost?: number | undefined;
 
     
-    /** estimated traffic volume based on clickstream data
-calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain or webpage ranks for;
-to retrieve results for this field, the parameter include_clickstream_data must be set to true;
-learn more about how the metric is calculated in this help center article */
+    /** estimated traffic volume based on clickstream data calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain or webpage ranks for; to retrieve results for this field, the parameter include_clickstream_data must be set to true; learn more about how the metric is calculated in this help center article */
 
     clickstream_etv?: number | undefined;
 
     
-    /** changes in rankings
-contains information about the ranking changes of the SERP element since the previous_updated_time */
+    /** changes in rankings contains information about the ranking changes of the SERP element since the previous_updated_time */
 
     rank_changes?: RankChanges | undefined;
 
@@ -1212,26 +1114,28 @@ contains information about the ranking changes of the SERP element since the pre
 }
 
  
-export interface IDataLabsFeaturedSnippetSerpElementItem  extends IBaseDataforseoLabsApiElementItem    {
-        
-        /** subdomain in SERP */
-        domain?: string | undefined
+export interface IDataLabsLocalPackSerpElementItem  extends IBaseDataforseoLabsApiElementItem    {
         
         /** title of the result in SERP */
         title?: string | undefined
         
-        /** the title of the featured snippets source page */
-        featured_title?: string | undefined
-        
         /** description of the results element in SERP */
         description?: string | undefined
+        
+        /** subdomain in SERP */
+        domain?: string | undefined
+        
+        /** phone number */
+        phone?: string | undefined
         
         /** relevant URL in SERP */
         url?: string | undefined
         
-        /** results table
-if there are none, equals null */
-        table?: Table | undefined
+        /** indicates whether the element is an ad */
+        is_paid?: boolean | undefined
+        
+        /** the item’s rating  the popularity rate based on reviews and displayed in SERP */
+        rating?: RatingInfo | undefined
         
         /** primary domain name in SERP */
         main_domain?: string | undefined
@@ -1239,26 +1143,16 @@ if there are none, equals null */
         /** URL in SERP that does not specify the HTTPs protocol and domain name */
         relative_url?: string | undefined
         
-        /** estimated traffic volume
-estimated organic monthly traffic to the domain
-calculated as the product of CTR (click-through-rate) and search volume values of the returned keyword
-learn more about how the metric is calculated in this help center article */
+        /** estimated traffic volume estimated organic monthly traffic to the domain calculated as the product of CTR (click-through-rate) and search volume values of the returned keyword learn more about how the metric is calculated in this help center article */
         etv?: number | undefined
         
-        /** estimated cost of converting organic search traffic into paid
-represents the estimated monthly cost of running ads (USD) for the returned keyword
-the metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search
-learn more about how the metric is calculated in this help center article */
+        /** estimated cost of converting organic search traffic into paid represents the estimated monthly cost of running ads (USD) for the returned keyword the metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search learn more about how the metric is calculated in this help center article */
         estimated_paid_traffic_cost?: number | undefined
         
-        /** estimated traffic volume based on clickstream data
-calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for
-to retrieve results for this field, the parameter include_clickstream_data must be set to true
-learn more about how the metric is calculated in this help center article */
+        /** estimated traffic volume based on clickstream data calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for to retrieve results for this field, the parameter include_clickstream_data must be set to true learn more about how the metric is calculated in this help center article */
         clickstream_etv?: number | undefined
         
-        /** changes in rankings
-contains information about the ranking changes of the SERP element since the previous_updated_time */
+        /** changes in rankings contains information about the ranking changes of the SERP element since the previous_updated_time */
         rank_changes?: RankChanges | undefined
         
         /** backlinks information for the ranked website */
@@ -1271,12 +1165,7 @@ contains information about the ranking changes of the SERP element since the pre
 
     }
 
-export class DataLabsFeaturedSnippetSerpElementItem  extends BaseDataforseoLabsApiElementItem   implements IDataLabsFeaturedSnippetSerpElementItem {
-
-    
-    /** subdomain in SERP */
-
-    domain?: string | undefined;
+export class DataLabsLocalPackSerpElementItem  extends BaseDataforseoLabsApiElementItem   implements IDataLabsLocalPackSerpElementItem {
 
     
     /** title of the result in SERP */
@@ -1284,14 +1173,19 @@ export class DataLabsFeaturedSnippetSerpElementItem  extends BaseDataforseoLabsA
     title?: string | undefined;
 
     
-    /** the title of the featured snippets source page */
-
-    featured_title?: string | undefined;
-
-    
     /** description of the results element in SERP */
 
     description?: string | undefined;
+
+    
+    /** subdomain in SERP */
+
+    domain?: string | undefined;
+
+    
+    /** phone number */
+
+    phone?: string | undefined;
 
     
     /** relevant URL in SERP */
@@ -1299,10 +1193,14 @@ export class DataLabsFeaturedSnippetSerpElementItem  extends BaseDataforseoLabsA
     url?: string | undefined;
 
     
-    /** results table
-if there are none, equals null */
+    /** indicates whether the element is an ad */
 
-    table?: Table | undefined;
+    is_paid?: boolean | undefined;
+
+    
+    /** the item’s rating  the popularity rate based on reviews and displayed in SERP */
+
+    rating?: RatingInfo | undefined;
 
     
     /** primary domain name in SERP */
@@ -1315,32 +1213,22 @@ if there are none, equals null */
     relative_url?: string | undefined;
 
     
-    /** estimated traffic volume
-estimated organic monthly traffic to the domain
-calculated as the product of CTR (click-through-rate) and search volume values of the returned keyword
-learn more about how the metric is calculated in this help center article */
+    /** estimated traffic volume estimated organic monthly traffic to the domain calculated as the product of CTR (click-through-rate) and search volume values of the returned keyword learn more about how the metric is calculated in this help center article */
 
     etv?: number | undefined;
 
     
-    /** estimated cost of converting organic search traffic into paid
-represents the estimated monthly cost of running ads (USD) for the returned keyword
-the metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search
-learn more about how the metric is calculated in this help center article */
+    /** estimated cost of converting organic search traffic into paid represents the estimated monthly cost of running ads (USD) for the returned keyword the metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search learn more about how the metric is calculated in this help center article */
 
     estimated_paid_traffic_cost?: number | undefined;
 
     
-    /** estimated traffic volume based on clickstream data
-calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for
-to retrieve results for this field, the parameter include_clickstream_data must be set to true
-learn more about how the metric is calculated in this help center article */
+    /** estimated traffic volume based on clickstream data calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for to retrieve results for this field, the parameter include_clickstream_data must be set to true learn more about how the metric is calculated in this help center article */
 
     clickstream_etv?: number | undefined;
 
     
-    /** changes in rankings
-contains information about the ranking changes of the SERP element since the previous_updated_time */
+    /** changes in rankings contains information about the ranking changes of the SERP element since the previous_updated_time */
 
     rank_changes?: RankChanges | undefined;
 
@@ -1357,7 +1245,7 @@ contains information about the ranking changes of the SERP element since the pre
     [key: string]: any;
 
 
-    constructor(data?: IDataLabsFeaturedSnippetSerpElementItem) {
+    constructor(data?: IDataLabsLocalPackSerpElementItem) {
     super(data);
 
     }
@@ -1369,12 +1257,13 @@ contains information about the ranking changes of the SERP element since the pre
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
-            this.domain = data["domain"];
             this.title = data["title"];
-            this.featured_title = data["featured_title"];
             this.description = data["description"];
+            this.domain = data["domain"];
+            this.phone = data["phone"];
             this.url = data["url"];
-            this.table = data["table"] ? Table.fromJS(data["table"]) : <any>undefined;
+            this.is_paid = data["is_paid"];
+            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
             this.main_domain = data["main_domain"];
             this.relative_url = data["relative_url"];
             this.etv = data["etv"];
@@ -1386,11 +1275,11 @@ contains information about the ranking changes of the SERP element since the pre
         }
     }
 
-    static fromJS(data: any): DataLabsFeaturedSnippetSerpElementItem {
+    static fromJS(data: any): DataLabsLocalPackSerpElementItem {
         data = typeof data === 'object' ? data : {};
 
 
-        let result = new DataLabsFeaturedSnippetSerpElementItem();
+        let result = new DataLabsLocalPackSerpElementItem();
         result.init(data);
         return result;
     }
@@ -1402,12 +1291,13 @@ contains information about the ranking changes of the SERP element since the pre
         super.toJSON(data);
         
         
-        data["domain"] = this.domain;
         data["title"] = this.title;
-        data["featured_title"] = this.featured_title;
         data["description"] = this.description;
+        data["domain"] = this.domain;
+        data["phone"] = this.phone;
         data["url"] = this.url;
-        data["table"] = this.table ? Table.fromJS(this.table)?.toJSON() : <any>undefined;
+        data["is_paid"] = this.is_paid;
+        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["main_domain"] = this.main_domain;
         data["relative_url"] = this.relative_url;
         data["etv"] = this.etv;
@@ -1423,13 +1313,10 @@ contains information about the ranking changes of the SERP element since the pre
  
 export interface IDataLabsAnswerBoxSerpElementItem  extends IBaseDataforseoLabsApiElementItem    {
         
-        /** text
-if there is none, equals null */
+        /** text if there is none, equals null */
         text?: string[] | undefined
         
-        /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+        /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
         links?: LinkElement[] | undefined
 
     [key: string]: any;
@@ -1439,15 +1326,12 @@ if there are none, equals null */
 export class DataLabsAnswerBoxSerpElementItem  extends BaseDataforseoLabsApiElementItem   implements IDataLabsAnswerBoxSerpElementItem {
 
     
-    /** text
-if there is none, equals null */
+    /** text if there is none, equals null */
 
     text?: string[] | undefined;
 
     
-    /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+    /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
 
     links?: LinkElement[] | undefined;
 
@@ -1752,8 +1636,7 @@ export interface IDataLabsGoogleReviewsSerpElementItem  extends IBaseDataforseoL
         /** the number of reviews */
         reviews_count?: number | undefined
         
-        /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP */
+        /** the item’s rating  the popularity rate based on reviews and displayed in SERP */
         rating?: RatingInfo | undefined
         
         /** the identifier of a place */
@@ -1777,8 +1660,7 @@ export class DataLabsGoogleReviewsSerpElementItem  extends BaseDataforseoLabsApi
     reviews_count?: number | undefined;
 
     
-    /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP */
+    /** the item’s rating  the popularity rate based on reviews and displayed in SERP */
 
     rating?: RatingInfo | undefined;
 
@@ -1937,8 +1819,7 @@ export interface IDataLabsImagesSerpElementItem  extends IBaseDataforseoLabsApiE
         /** historical SERPs and related data found in the database */
         items?: AiModeImagesElementInfo[] | undefined
         
-        /** @deprecated contains keywords and images related to the specified search term
-if there are none, equals null */
+        /** @deprecated contains keywords and images related to the specified search term if there are none, equals null */
         related_image_searches?: RelatedImageSearchesElement | undefined
 
     [key: string]: any;
@@ -1962,8 +1843,7 @@ export class DataLabsImagesSerpElementItem  extends BaseDataforseoLabsApiElement
 
     items?: AiModeImagesElementInfo[] | undefined;
     
-    /** @deprecated contains keywords and images related to the specified search term
-if there are none, equals null */
+    /** @deprecated contains keywords and images related to the specified search term if there are none, equals null */
 
     related_image_searches?: RelatedImageSearchesElement | undefined;
 
@@ -2272,16 +2152,10 @@ export interface IDataLabsHotelsPackSerpElementItem  extends IBaseDataforseoLabs
         /** title of the result in SERP */
         title?: string | undefined
         
-        /** starting date of stay
-in the format “year-month-date”
-example:
-2019-11-15 */
+        /** starting date of stay in the format “year-month-date” example: 2019-11-15 */
         date_from?: string | undefined
         
-        /** ending date of stay
-in the format “year-month-date”
-example:
-2019-11-17 */
+        /** ending date of stay in the format “year-month-date” example: 2019-11-17 */
         date_to?: string | undefined
         
         /** historical SERPs and related data found in the database */
@@ -2299,18 +2173,12 @@ export class DataLabsHotelsPackSerpElementItem  extends BaseDataforseoLabsApiEle
     title?: string | undefined;
 
     
-    /** starting date of stay
-in the format “year-month-date”
-example:
-2019-11-15 */
+    /** starting date of stay in the format “year-month-date” example: 2019-11-15 */
 
     date_from?: string | undefined;
 
     
-    /** ending date of stay
-in the format “year-month-date”
-example:
-2019-11-17 */
+    /** ending date of stay in the format “year-month-date” example: 2019-11-17 */
 
     date_to?: string | undefined;
 
@@ -3050,89 +2918,6 @@ export class DataLabsEventsSerpElementItem  extends BaseDataforseoLabsApiElement
 }
 
  
-/** @deprecated */
-
-export interface IDataLabsMentionCarouselSerpElementItem  extends IBaseDataforseoLabsApiElementItem    {
-        
-        /** title of the result in SERP */
-        title?: string | undefined
-        
-        /** historical SERPs and related data found in the database */
-        items?: MentionCarouselElement[] | undefined
-
-    [key: string]: any;
-
-    }
-
-/** @deprecated */
-export class DataLabsMentionCarouselSerpElementItem  extends BaseDataforseoLabsApiElementItem   implements IDataLabsMentionCarouselSerpElementItem {
-
-    
-    /** title of the result in SERP */
-
-    title?: string | undefined;
-
-    
-    /** historical SERPs and related data found in the database */
-
-    items?: MentionCarouselElement[] | undefined;
-
-    [key: string]: any;
-
-
-    constructor(data?: IDataLabsMentionCarouselSerpElementItem) {
-    super(data);
-
-    }
-
-    init(data?: any) {
-        super.init(data);
-        if (data) {
-            for (var property in data) {
-                if (data.hasOwnProperty(property))
-                    this[property] = data[property];
-            }
-            this.title = data["title"];
-            if (Array.isArray(data["items"])) {
-                this.items = [];
-                for (let item of data["items"]) {
-                    this.items.push(MentionCarouselElement.fromJS(item));
-                }
-            }
-        }
-    }
-
-    static fromJS(data: any): DataLabsMentionCarouselSerpElementItem {
-        data = typeof data === 'object' ? data : {};
-
-
-        let result = new DataLabsMentionCarouselSerpElementItem();
-        result.init(data);
-        return result;
-    }
-
-    toJSON(data?: any) {
-        data = typeof data === 'object' ? data : {};
-
-         
-        super.toJSON(data);
-        
-        
-        data["title"] = this.title;
-        data["items"] = null;
-        if (Array.isArray(this.items)) {
-            data["items"] = [];
-            for (let item of this.items) {
-                if (item && typeof item.toJSON === "function") {
-                    data["items"].push(item?.toJSON());
-                }
-            }
-        }
-        return data;
-    }
-}
-
- 
 export interface IDataLabsRecipesSerpElementItem  extends IBaseDataforseoLabsApiElementItem    {
         
         /** historical SERPs and related data found in the database */
@@ -3418,79 +3203,6 @@ export class DataLabsPopularProductsSerpElementItem  extends BaseDataforseoLabsA
 
 
         let result = new DataLabsPopularProductsSerpElementItem();
-        result.init(data);
-        return result;
-    }
-
-    toJSON(data?: any) {
-        data = typeof data === 'object' ? data : {};
-
-         
-        super.toJSON(data);
-        
-        
-        data["items"] = null;
-        if (Array.isArray(this.items)) {
-            data["items"] = [];
-            for (let item of this.items) {
-                if (item && typeof item.toJSON === "function") {
-                    data["items"].push(item?.toJSON());
-                }
-            }
-        }
-        return data;
-    }
-}
-
- 
-/** @deprecated */
-
-export interface IDataLabsPodcastsSerpElementItem  extends IBaseDataforseoLabsApiElementItem    {
-        
-        /** historical SERPs and related data found in the database */
-        items?: PodcastsElement[] | undefined
-
-    [key: string]: any;
-
-    }
-
-/** @deprecated */
-export class DataLabsPodcastsSerpElementItem  extends BaseDataforseoLabsApiElementItem   implements IDataLabsPodcastsSerpElementItem {
-
-    
-    /** historical SERPs and related data found in the database */
-
-    items?: PodcastsElement[] | undefined;
-
-    [key: string]: any;
-
-
-    constructor(data?: IDataLabsPodcastsSerpElementItem) {
-    super(data);
-
-    }
-
-    init(data?: any) {
-        super.init(data);
-        if (data) {
-            for (var property in data) {
-                if (data.hasOwnProperty(property))
-                    this[property] = data[property];
-            }
-            if (Array.isArray(data["items"])) {
-                this.items = [];
-                for (let item of data["items"]) {
-                    this.items.push(PodcastsElement.fromJS(item));
-                }
-            }
-        }
-    }
-
-    static fromJS(data: any): DataLabsPodcastsSerpElementItem {
-        data = typeof data === 'object' ? data : {};
-
-
-        let result = new DataLabsPodcastsSerpElementItem();
         result.init(data);
         return result;
     }
@@ -3952,9 +3664,7 @@ export class DataLabsLocalServicesSerpElementItem  extends BaseDataforseoLabsApi
  
 export interface IDataLabsGoogleHotelsSerpElementItem  extends IBaseDataforseoLabsApiElementItem    {
         
-        /** unique hotel identifier
-unique hotel identifier assigned by Google;
-example: 'CgoIjaeSlI6CnNpVEAE' */
+        /** unique hotel identifier unique hotel identifier assigned by Google; example: 'CgoIjaeSlI6CnNpVEAE' */
         hotel_identifier?: string | undefined
         
         /** relevant URL in SERP */
@@ -3967,9 +3677,7 @@ example: 'CgoIjaeSlI6CnNpVEAE' */
 export class DataLabsGoogleHotelsSerpElementItem  extends BaseDataforseoLabsApiElementItem   implements IDataLabsGoogleHotelsSerpElementItem {
 
     
-    /** unique hotel identifier
-unique hotel identifier assigned by Google;
-example: 'CgoIjaeSlI6CnNpVEAE' */
+    /** unique hotel identifier unique hotel identifier assigned by Google; example: 'CgoIjaeSlI6CnNpVEAE' */
 
     hotel_identifier?: string | undefined;
 
@@ -4026,16 +3734,13 @@ export interface IDataLabsMathSolverSerpElementItem  extends IBaseDataforseoLabs
         /** title of the result in SERP */
         title?: string | undefined
         
-        /** solution to the equation
-solution to the mathematical equation specified in the keyword field when setting a task */
+        /** solution to the equation solution to the mathematical equation specified in the keyword field when setting a task */
         result?: string | undefined
         
         /** historical SERPs and related data found in the database */
         items?: MathSolverElement[] | undefined
         
-        /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+        /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
         links?: LinkElement[] | undefined
 
     [key: string]: any;
@@ -4050,8 +3755,7 @@ export class DataLabsMathSolverSerpElementItem  extends BaseDataforseoLabsApiEle
     title?: string | undefined;
 
     
-    /** solution to the equation
-solution to the mathematical equation specified in the keyword field when setting a task */
+    /** solution to the equation solution to the mathematical equation specified in the keyword field when setting a task */
 
     result?: string | undefined;
 
@@ -4061,9 +3765,7 @@ solution to the mathematical equation specified in the keyword field when settin
     items?: MathSolverElement[] | undefined;
 
     
-    /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+    /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
 
     links?: LinkElement[] | undefined;
 
@@ -4132,6 +3834,162 @@ if there are none, equals null */
             for (let item of this.links) {
                 if (item && typeof item.toJSON === "function") {
                     data["links"].push(item?.toJSON());
+                }
+            }
+        }
+        return data;
+    }
+}
+
+ 
+/** @deprecated */
+
+export interface IDataLabsMentionCarouselSerpElementItem  extends IBaseDataforseoLabsApiElementItem    {
+        
+        /** title of the result in SERP */
+        title?: string | undefined
+        
+        /** historical SERPs and related data found in the database */
+        items?: MentionCarouselElement[] | undefined
+
+    [key: string]: any;
+
+    }
+
+/** @deprecated */
+export class DataLabsMentionCarouselSerpElementItem  extends BaseDataforseoLabsApiElementItem   implements IDataLabsMentionCarouselSerpElementItem {
+
+    
+    /** title of the result in SERP */
+
+    title?: string | undefined;
+
+    
+    /** historical SERPs and related data found in the database */
+
+    items?: MentionCarouselElement[] | undefined;
+
+    [key: string]: any;
+
+
+    constructor(data?: IDataLabsMentionCarouselSerpElementItem) {
+    super(data);
+
+    }
+
+    init(data?: any) {
+        super.init(data);
+        if (data) {
+            for (var property in data) {
+                if (data.hasOwnProperty(property))
+                    this[property] = data[property];
+            }
+            this.title = data["title"];
+            if (Array.isArray(data["items"])) {
+                this.items = [];
+                for (let item of data["items"]) {
+                    this.items.push(MentionCarouselElement.fromJS(item));
+                }
+            }
+        }
+    }
+
+    static fromJS(data: any): DataLabsMentionCarouselSerpElementItem {
+        data = typeof data === 'object' ? data : {};
+
+
+        let result = new DataLabsMentionCarouselSerpElementItem();
+        result.init(data);
+        return result;
+    }
+
+    toJSON(data?: any) {
+        data = typeof data === 'object' ? data : {};
+
+         
+        super.toJSON(data);
+        
+        
+        data["title"] = this.title;
+        data["items"] = null;
+        if (Array.isArray(this.items)) {
+            data["items"] = [];
+            for (let item of this.items) {
+                if (item && typeof item.toJSON === "function") {
+                    data["items"].push(item?.toJSON());
+                }
+            }
+        }
+        return data;
+    }
+}
+
+ 
+/** @deprecated */
+
+export interface IDataLabsPodcastsSerpElementItem  extends IBaseDataforseoLabsApiElementItem    {
+        
+        /** historical SERPs and related data found in the database */
+        items?: PodcastsElement[] | undefined
+
+    [key: string]: any;
+
+    }
+
+/** @deprecated */
+export class DataLabsPodcastsSerpElementItem  extends BaseDataforseoLabsApiElementItem   implements IDataLabsPodcastsSerpElementItem {
+
+    
+    /** historical SERPs and related data found in the database */
+
+    items?: PodcastsElement[] | undefined;
+
+    [key: string]: any;
+
+
+    constructor(data?: IDataLabsPodcastsSerpElementItem) {
+    super(data);
+
+    }
+
+    init(data?: any) {
+        super.init(data);
+        if (data) {
+            for (var property in data) {
+                if (data.hasOwnProperty(property))
+                    this[property] = data[property];
+            }
+            if (Array.isArray(data["items"])) {
+                this.items = [];
+                for (let item of data["items"]) {
+                    this.items.push(PodcastsElement.fromJS(item));
+                }
+            }
+        }
+    }
+
+    static fromJS(data: any): DataLabsPodcastsSerpElementItem {
+        data = typeof data === 'object' ? data : {};
+
+
+        let result = new DataLabsPodcastsSerpElementItem();
+        result.init(data);
+        return result;
+    }
+
+    toJSON(data?: any) {
+        data = typeof data === 'object' ? data : {};
+
+         
+        super.toJSON(data);
+        
+        
+        data["items"] = null;
+        if (Array.isArray(this.items)) {
+            data["items"] = [];
+            for (let item of this.items) {
+                if (item && typeof item.toJSON === "function") {
+                    data["items"].push(item?.toJSON());
                 }
             }
         }
@@ -4396,8 +4254,7 @@ export interface IDataLabsCoursesSerpElementItem  extends IBaseDataforseoLabsApi
         /** title of the result in SERP */
         title?: string | undefined
         
-        /** array of course categories
-contains a list of categories relevant to courses */
+        /** array of course categories contains a list of categories relevant to courses */
         categories?: string[] | undefined
         
         /** historical SERPs and related data found in the database */
@@ -4416,8 +4273,7 @@ export class DataLabsCoursesSerpElementItem  extends BaseDataforseoLabsApiElemen
     title?: string | undefined;
 
     
-    /** array of course categories
-contains a list of categories relevant to courses */
+    /** array of course categories contains a list of categories relevant to courses */
 
     categories?: string[] | undefined;
 

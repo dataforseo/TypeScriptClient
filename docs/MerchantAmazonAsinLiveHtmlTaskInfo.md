@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **MerchantAmazonAsinLiveHtmlResultInfo[]** | array of results |[optional]|
+**result** | **MerchantAmazonAsinLiveHtmlResultInfo[]** | *array of results* |[optional]|

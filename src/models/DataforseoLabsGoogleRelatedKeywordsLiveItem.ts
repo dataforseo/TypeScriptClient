@@ -12,8 +12,7 @@ export interface IDataforseoLabsGoogleRelatedKeywordsLiveItem   {
         /** keyword search depth */
         depth?: number | undefined
         
-        /** list of related keywords
-represents the list of search queries which are related to the keyword returned in the array above */
+        /** list of related keywords represents the list of search queries which are related to the keyword returned in the array above */
         related_keywords?: string[] | undefined
 
     [key: string]: any;
@@ -38,8 +37,7 @@ export class DataforseoLabsGoogleRelatedKeywordsLiveItem  implements IDataforseo
     depth?: number | undefined;
 
     
-    /** list of related keywords
-represents the list of search queries which are related to the keyword returned in the array above */
+    /** list of related keywords represents the list of search queries which are related to the keyword returned in the array above */
 
     related_keywords?: string[] | undefined;
 

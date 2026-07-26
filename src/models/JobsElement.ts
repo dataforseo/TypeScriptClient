@@ -18,10 +18,7 @@ export interface IJobsElement   {
         /** the time when the job was posted */
         job_posted_time?: string | undefined
         
-        /** date and time when the result was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
         timestamp?: string | undefined
         
         /** contract type */
@@ -70,10 +67,7 @@ export class JobsElement  implements IJobsElement {
     job_posted_time?: string | undefined;
 
     
-    /** date and time when the result was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
 
     timestamp?: string | undefined;
 

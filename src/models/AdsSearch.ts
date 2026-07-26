@@ -6,13 +6,10 @@ export interface IAdsSearch   {
         /** type of element */
         type?: string | undefined
         
-        /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+        /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP */
+        /** absolute rank in SERP absolute position among all the elements in SERP */
         rank_absolute?: number | undefined
         
         /** unique identifier of the advertiser account */
@@ -27,12 +24,10 @@ absolute position among all the elements in SERP */
         /** search URL with refinement parameters */
         url?: string | undefined
         
-        /** verified advertiser account
-equals true if advertiser account is verified by Google Ads */
+        /** verified advertiser account equals true if advertiser account is verified by Google Ads */
         verified?: boolean | undefined
         
-        /** format of the advertisement
-possible values: text, image, video */
+        /** format of the advertisement possible values: text, image, video */
         format?: string | undefined
         
         /** preview image of the advertisement */
@@ -41,12 +36,10 @@ possible values: text, image, video */
         /** url pointing to the ad preview */
         preview_url?: string | undefined
         
-        /** date and time when the ad was shown for the first time
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” */
+        /** date and time when the ad was shown for the first time in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” */
         first_shown?: string | undefined
         
-        /** date and time when the ad was shown the last time
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” */
+        /** date and time when the ad was shown the last time in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” */
         last_shown?: string | undefined
 
     [key: string]: any;
@@ -61,15 +54,12 @@ export class AdsSearch  implements IAdsSearch {
     type?: string | undefined;
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+    /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP */
+    /** absolute rank in SERP absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
 
@@ -94,14 +84,12 @@ absolute position among all the elements in SERP */
     url?: string | undefined;
 
     
-    /** verified advertiser account
-equals true if advertiser account is verified by Google Ads */
+    /** verified advertiser account equals true if advertiser account is verified by Google Ads */
 
     verified?: boolean | undefined;
 
     
-    /** format of the advertisement
-possible values: text, image, video */
+    /** format of the advertisement possible values: text, image, video */
 
     format?: string | undefined;
 
@@ -116,14 +104,12 @@ possible values: text, image, video */
     preview_url?: string | undefined;
 
     
-    /** date and time when the ad was shown for the first time
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” */
+    /** date and time when the ad was shown for the first time in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” */
 
     first_shown?: string | undefined;
 
     
-    /** date and time when the ad was shown the last time
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” */
+    /** date and time when the ad was shown the last time in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” */
 
     last_shown?: string | undefined;
 

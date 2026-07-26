@@ -15,13 +15,10 @@ export interface ITargetInfo   {
         /** country code that the target domain is determined to belong to */
         country?: string | undefined
         
-        /** indicates if the target is IP
-if true, the domain, subdomain or webpage functions as an IP address and does not have a domain name */
+        /** indicates if the target is IP if true, the domain, subdomain or webpage functions as an IP address and does not have a domain name */
         is_ip?: boolean | undefined
         
-        /** spam score of the target
-if the target is a domain/subdomain, this fields indicates the average spam score of all pages of that domain/subdomain;
-learn more about how the metric is calculated on this help center page */
+        /** spam score of the target if the target is a domain/subdomain, this fields indicates the average spam score of all pages of that domain/subdomain; learn more about how the metric is calculated on this help center page */
         target_spam_score?: number | undefined
 
     [key: string]: any;
@@ -56,15 +53,12 @@ export class TargetInfo  implements ITargetInfo {
     country?: string | undefined;
 
     
-    /** indicates if the target is IP
-if true, the domain, subdomain or webpage functions as an IP address and does not have a domain name */
+    /** indicates if the target is IP if true, the domain, subdomain or webpage functions as an IP address and does not have a domain name */
 
     is_ip?: boolean | undefined;
 
     
-    /** spam score of the target
-if the target is a domain/subdomain, this fields indicates the average spam score of all pages of that domain/subdomain;
-learn more about how the metric is calculated on this help center page */
+    /** spam score of the target if the target is a domain/subdomain, this fields indicates the average spam score of all pages of that domain/subdomain; learn more about how the metric is calculated on this help center page */
 
     target_spam_score?: number | undefined;
 

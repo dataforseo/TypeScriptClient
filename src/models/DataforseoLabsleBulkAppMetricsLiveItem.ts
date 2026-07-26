@@ -9,8 +9,7 @@ export interface IDataforseoLabsleBulkAppMetricsLiveItem   {
         /** id of the app in a POST array */
         app_id?: string | undefined
         
-        /** metrics for the ranking keywords of the app
-ranking data relevant to the keywords that the provided application ranks for on Google Play */
+        /** metrics for the ranking keywords of the app ranking data relevant to the keywords that the provided application ranks for on Google Play */
         metrics?: { [key: string]: AppMetricsInfo; } | undefined
 
     [key: string]: any;
@@ -30,8 +29,7 @@ export class DataforseoLabsleBulkAppMetricsLiveItem  implements IDataforseoLabsl
     app_id?: string | undefined;
 
     
-    /** metrics for the ranking keywords of the app
-ranking data relevant to the keywords that the provided application ranks for on Google Play */
+    /** metrics for the ranking keywords of the app ranking data relevant to the keywords that the provided application ranks for on Google Play */
 
     metrics?: { [key: string]: AppMetricsInfo; } | undefined;
 

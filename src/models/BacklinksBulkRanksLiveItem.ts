@@ -1,12 +1,9 @@
 export interface IBacklinksBulkRanksLiveItem   {
         
-        /** domain, subdomain or webpage from a POST array */
+        /** *domain, subdomain or webpage from a POST array* */
         target?: string | undefined
         
-        /** rank of the target
-values represent real-time data for the date of the request
-rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm
-learn more about the metric and how it is calculated in this help center article */
+        /** *rank of the `target`* values represent real-time data for the date of the request `rank` is calculated based on the method for node ranking in a linked database - a principle used in the original Google PageRank algorithm learn more about the metric and how it is calculated in [this help center article](https://dataforseo.com/help-center/what_is_rank_in_backlinks_api) */
         rank?: number | undefined
 
     [key: string]: any;
@@ -16,15 +13,12 @@ learn more about the metric and how it is calculated in this help center article
 export class BacklinksBulkRanksLiveItem  implements IBacklinksBulkRanksLiveItem {
 
     
-    /** domain, subdomain or webpage from a POST array */
+    /** *domain, subdomain or webpage from a POST array* */
 
     target?: string | undefined;
 
     
-    /** rank of the target
-values represent real-time data for the date of the request
-rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm
-learn more about the metric and how it is calculated in this help center article */
+    /** *rank of the `target`* values represent real-time data for the date of the request `rank` is calculated based on the method for node ranking in a linked database - a principle used in the original Google PageRank algorithm learn more about the metric and how it is calculated in [this help center article](https://dataforseo.com/help-center/what_is_rank_in_backlinks_api) */
 
     rank?: number | undefined;
 

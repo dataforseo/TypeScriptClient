@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **AiOptimizationChatGptLlmResponsesLiveResultInfo[]** | array of results |[optional]|
+**result** | **AiOptimizationChatGptLlmResponsesLiveResultInfo[]** | *array of results* |[optional]|

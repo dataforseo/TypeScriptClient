@@ -1,11 +1,9 @@
 export interface IBusinessDataTasksReadyResultInfo   {
         
-        /** task identifier of the completed task
-unique task identifier in our system in the UUID format */
+        /** task identifier of the completed task unique task identifier in our system in the UUID format */
         id?: string | undefined
         
-        /** search engine specified when setting the task
-can take the following values: tripadvisor */
+        /** search engine specified when setting the task can take the following values: tripadvisor */
         se?: string | undefined
         
         /** search engine type */
@@ -27,14 +25,12 @@ can take the following values: tripadvisor */
 export class BusinessDataTasksReadyResultInfo  implements IBusinessDataTasksReadyResultInfo {
 
     
-    /** task identifier of the completed task
-unique task identifier in our system in the UUID format */
+    /** task identifier of the completed task unique task identifier in our system in the UUID format */
 
     id?: string | undefined;
 
     
-    /** search engine specified when setting the task
-can take the following values: tripadvisor */
+    /** search engine specified when setting the task can take the following values: tripadvisor */
 
     se?: string | undefined;
 

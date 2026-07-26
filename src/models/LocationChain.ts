@@ -1,17 +1,15 @@
 export interface ILocationChain   {
         
-        /** card identifier */
+        /** *card identifier* */
         card_id?: string | undefined
         
-        /** feature identifier
-learn more about the identifier in this help center article */
+        /** *feature identifier* learn more about the identifier in [this help center article](https://dataforseo.com/help-center/what-is-cid-place-id-feature-id) */
         feature_id?: string | undefined
         
-        /** client id
-learn more about the identifier in this help center article */
+        /** *client id* learn more about the identifier in [this help center article](https://dataforseo.com/help-center/what-is-cid-place-id-feature-id) */
         cid?: string | undefined
         
-        /** title of the element in the location chain */
+        /** *title of the element in the location chain* */
         title?: string | undefined
 
     [key: string]: any;
@@ -21,24 +19,22 @@ learn more about the identifier in this help center article */
 export class LocationChain  implements ILocationChain {
 
     
-    /** card identifier */
+    /** *card identifier* */
 
     card_id?: string | undefined;
 
     
-    /** feature identifier
-learn more about the identifier in this help center article */
+    /** *feature identifier* learn more about the identifier in [this help center article](https://dataforseo.com/help-center/what-is-cid-place-id-feature-id) */
 
     feature_id?: string | undefined;
 
     
-    /** client id
-learn more about the identifier in this help center article */
+    /** *client id* learn more about the identifier in [this help center article](https://dataforseo.com/help-center/what-is-cid-place-id-feature-id) */
 
     cid?: string | undefined;
 
     
-    /** title of the element in the location chain */
+    /** *title of the element in the location chain* */
 
     title?: string | undefined;
 

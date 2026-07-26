@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface IDomainAnalyticsWhoisOverviewLiveResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: DomainAnalyticsWhoisOverviewLiveTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IDomainAnalyticsWhoisOverviewLiveResponseInfo  extends IBaseRes
 export class DomainAnalyticsWhoisOverviewLiveResponseInfo  extends BaseResponseInfo   implements IDomainAnalyticsWhoisOverviewLiveResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: DomainAnalyticsWhoisOverviewLiveTaskInfo[] | undefined;
 

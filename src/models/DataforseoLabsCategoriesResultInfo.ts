@@ -6,16 +6,7 @@ export interface IDataforseoLabsCategoriesResultInfo   {
         /** full name of the category */
         category_name?: string | undefined
         
-        /** the code of the superordinate category
-example:
-'category_code': 10178,
-'category_name': 'Apparel Accessories',
-'category_code_parent': 10021
-where category_code_parent
-corresponds to:
-'category_code': 10021,
-'category_name': 'Apparel'
-'category_code_parent': null */
+        /** the code of the superordinate category example: 'category_code': 10178, 'category_name': 'Apparel Accessories', 'category_code_parent': 10021 where category_code_parent corresponds to: 'category_code': 10021, 'category_name': 'Apparel' 'category_code_parent': null */
         category_code_parent?: number | undefined
 
     [key: string]: any;
@@ -35,16 +26,7 @@ export class DataforseoLabsCategoriesResultInfo  implements IDataforseoLabsCateg
     category_name?: string | undefined;
 
     
-    /** the code of the superordinate category
-example:
-'category_code': 10178,
-'category_name': 'Apparel Accessories',
-'category_code_parent': 10021
-where category_code_parent
-corresponds to:
-'category_code': 10021,
-'category_name': 'Apparel'
-'category_code_parent': null */
+    /** the code of the superordinate category example: 'category_code': 10178, 'category_name': 'Apparel Accessories', 'category_code_parent': 10021 where category_code_parent corresponds to: 'category_code': 10021, 'category_name': 'Apparel' 'category_code_parent': null */
 
     category_code_parent?: number | undefined;
 

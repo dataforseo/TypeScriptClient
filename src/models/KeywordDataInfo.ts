@@ -30,23 +30,19 @@ export interface IKeywordDataInfo   {
         /** contains keyword search volume normalized with clickstream data */
         keyword_info_normalized_with_clickstream?: KeywordInfoNormalizedWithInfo | undefined
         
-        /** clickstream data for the returned keyword
-to retrieve results for this field, the parameter include_clickstream_data must be set to true */
+        /** clickstream data for the returned keyword to retrieve results for this field, the parameter include_clickstream_data must be set to true */
         clickstream_keyword_info?: ClickstreamKeywordInfo | undefined
         
         /** additional information about the keyword */
         keyword_properties?: KeywordProperties | undefined
         
-        /** SERP data
-the value will be null if you didn’t set the field include_serp_info to true in the POST array or if there is no SERP data for this keyword in our database */
+        /** SERP data the value will be null if you didn’t set the field include_serp_info to true in the POST array or if there is no SERP data for this keyword in our database */
         serp_info?: SerpInfo | undefined
         
-        /** backlink data for the returned keyword
-this object provides the average number of backlinks, referring pages and domains, as well as the average rank values among the top-10 webpages ranking organically for the keyword */
+        /** backlink data for the returned keyword this object provides the average number of backlinks, referring pages and domains, as well as the average rank values among the top-10 webpages ranking organically for the keyword */
         avg_backlinks_info?: AvgBacklinksInfo | undefined
         
-        /** search intent info for the returned keyword
-learn about search intent in this help center article */
+        /** search intent info for the returned keyword learn about search intent in this help center article */
         search_intent_info?: SearchIntentInfo | undefined
 
     [key: string]: any;
@@ -91,8 +87,7 @@ export class KeywordDataInfo  implements IKeywordDataInfo {
     keyword_info_normalized_with_clickstream?: KeywordInfoNormalizedWithInfo | undefined;
 
     
-    /** clickstream data for the returned keyword
-to retrieve results for this field, the parameter include_clickstream_data must be set to true */
+    /** clickstream data for the returned keyword to retrieve results for this field, the parameter include_clickstream_data must be set to true */
 
     clickstream_keyword_info?: ClickstreamKeywordInfo | undefined;
 
@@ -102,20 +97,17 @@ to retrieve results for this field, the parameter include_clickstream_data must 
     keyword_properties?: KeywordProperties | undefined;
 
     
-    /** SERP data
-the value will be null if you didn’t set the field include_serp_info to true in the POST array or if there is no SERP data for this keyword in our database */
+    /** SERP data the value will be null if you didn’t set the field include_serp_info to true in the POST array or if there is no SERP data for this keyword in our database */
 
     serp_info?: SerpInfo | undefined;
 
     
-    /** backlink data for the returned keyword
-this object provides the average number of backlinks, referring pages and domains, as well as the average rank values among the top-10 webpages ranking organically for the keyword */
+    /** backlink data for the returned keyword this object provides the average number of backlinks, referring pages and domains, as well as the average rank values among the top-10 webpages ranking organically for the keyword */
 
     avg_backlinks_info?: AvgBacklinksInfo | undefined;
 
     
-    /** search intent info for the returned keyword
-learn about search intent in this help center article */
+    /** search intent info for the returned keyword learn about search intent in this help center article */
 
     search_intent_info?: SearchIntentInfo | undefined;
 

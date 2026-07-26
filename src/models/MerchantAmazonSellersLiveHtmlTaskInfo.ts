@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IMerchantAmazonSellersLiveHtmlTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: MerchantAmazonSellersLiveHtmlResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IMerchantAmazonSellersLiveHtmlTaskInfo  extends IBaseResponseTa
 export class MerchantAmazonSellersLiveHtmlTaskInfo  extends BaseResponseTaskInfo   implements IMerchantAmazonSellersLiveHtmlTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: MerchantAmazonSellersLiveHtmlResultInfo[] | undefined;
 

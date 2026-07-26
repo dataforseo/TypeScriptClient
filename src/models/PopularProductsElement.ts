@@ -19,16 +19,13 @@ export interface IPopularProductsElement   {
         /** seller of the product */
         seller?: string | undefined
         
-        /** URL of the image
-the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+        /** URL of the image the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
         image_url?: string | undefined
         
         /** price indicated in the element */
         price?: PriceInfo | undefined
         
-        /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP;
-if there is none, equals null */
+        /** the item’s rating  the popularity rate based on reviews and displayed in SERP; if there is none, equals null */
         rating?: RatingInfo | undefined
 
     [key: string]: any;
@@ -63,8 +60,7 @@ export class PopularProductsElement  implements IPopularProductsElement {
     seller?: string | undefined;
 
     
-    /** URL of the image
-the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+    /** URL of the image the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
     image_url?: string | undefined;
 
@@ -74,9 +70,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
     price?: PriceInfo | undefined;
 
     
-    /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP;
-if there is none, equals null */
+    /** the item’s rating  the popularity rate based on reviews and displayed in SERP; if there is none, equals null */
 
     rating?: RatingInfo | undefined;
 

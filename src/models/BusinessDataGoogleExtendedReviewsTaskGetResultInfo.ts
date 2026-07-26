@@ -4,66 +4,52 @@ import { GoogleExtendedReviewsSearch, IGoogleExtendedReviewsSearch } from "./Goo
 
 export interface IBusinessDataGoogleExtendedReviewsTaskGetResultInfo   {
         
-        /** keyword received in a POST array
-keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
+        /** *keyword received in a POST array* **keyword is returned with decoded %## (plus character '+' will be decoded to a space character)** */
         keyword?: string | undefined
         
         /** type of element */
         type?: string | undefined
         
-        /** search engine domain in a POST array */
+        /** *search engine domain in a POST array* */
         se_domain?: string | undefined
         
-        /** location code in a POST array */
+        /** *location code in a POST array* */
         location_code?: number | undefined
         
-        /** language code in a POST array */
+        /** *language code in a POST array* */
         language_code?: string | undefined
         
-        /** direct URL to search engine results
-you can use it to make sure that we provided accurate results */
+        /** *direct URL to search engine results* you can use it to make sure that we provided accurate results */
         check_url?: string | undefined
         
-        /** date and time when the result was received
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** *date and time when the result was received* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
         datetime?: string | undefined
         
-        /** title of the ‘reviews’ element in SERP
-the name of the local establishment for which the reviews are collected */
+        /** *title of the 'reviews' element in SERP* the name of the local establishment for which the reviews are collected */
         title?: string | undefined
         
-        /** subtitle of the ‘reviews’ element in SERP
-additional information (e.g., address) on the ‘reviews’ element for which the reviews are collected */
+        /** *subtitle of the 'reviews' element in SERP* additional information (e.g., address) on the 'reviews' element for which the reviews are collected */
         sub_title?: string | undefined
         
-        /** rating of the corresponding local establishment
-popularity rate based on reviews and displayed in SERP */
+        /** *rating of the corresponding local establishment* popularity rate based on reviews and displayed in SERP */
         rating?: RatingInfo | undefined
         
-        /** the unique identifier of the ‘reviews’ element in SERP
-learn more about the identifier in this help center article */
+        /** *the unique identifier of the 'reviews' element in SERP* learn more about the identifier in [this help center article](https://dataforseo.com/help-center/what-is-cid-place-id-feature-id) */
         feature_id?: string | undefined
         
-        /** unique identifier of a business location assigned by Google
-learn more about the identifier in this help center article */
+        /** *unique identifier of a business location assigned by Google* learn more about the identifier in [this help center article](https://dataforseo.com/help-center/what-is-cid-place-id-feature-id) */
         place_id?: string | undefined
         
-        /** google-defined client id
-unique id of a local establishment
-learn more about the identifier in this help center article */
+        /** *google-defined client id* unique id of a local establishment learn more about the identifier in [this help center article](https://dataforseo.com/help-center/what-is-cid-place-id-feature-id) */
         cid?: string | undefined
         
-        /** the total number of reviews */
+        /** *the total number of reviews* */
         reviews_count?: number | undefined
         
-        /** the number of reviews items in the results array
-you can get more results by using the depth parameter when setting a task */
+        /** *the number of reviews items in the results array* you can get more results by using the `depth` parameter when setting a task */
         items_count?: number | undefined
         
-        /** found reviews
-you can get more results by using the depth parameter when setting a task */
+        /** *found reviews* you can get more results by using the `depth` parameter when setting a task */
         items?: GoogleExtendedReviewsSearch[] | undefined
 
     [key: string]: any;
@@ -73,8 +59,7 @@ you can get more results by using the depth parameter when setting a task */
 export class BusinessDataGoogleExtendedReviewsTaskGetResultInfo  implements IBusinessDataGoogleExtendedReviewsTaskGetResultInfo {
 
     
-    /** keyword received in a POST array
-keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
+    /** *keyword received in a POST array* **keyword is returned with decoded %## (plus character '+' will be decoded to a space character)** */
 
     keyword?: string | undefined;
 
@@ -84,85 +69,72 @@ keyword is returned with decoded %## (plus character ‘+’ will be decoded to 
     type?: string | undefined;
 
     
-    /** search engine domain in a POST array */
+    /** *search engine domain in a POST array* */
 
     se_domain?: string | undefined;
 
     
-    /** location code in a POST array */
+    /** *location code in a POST array* */
 
     location_code?: number | undefined;
 
     
-    /** language code in a POST array */
+    /** *language code in a POST array* */
 
     language_code?: string | undefined;
 
     
-    /** direct URL to search engine results
-you can use it to make sure that we provided accurate results */
+    /** *direct URL to search engine results* you can use it to make sure that we provided accurate results */
 
     check_url?: string | undefined;
 
     
-    /** date and time when the result was received
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** *date and time when the result was received* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
 
     datetime?: string | undefined;
 
     
-    /** title of the ‘reviews’ element in SERP
-the name of the local establishment for which the reviews are collected */
+    /** *title of the 'reviews' element in SERP* the name of the local establishment for which the reviews are collected */
 
     title?: string | undefined;
 
     
-    /** subtitle of the ‘reviews’ element in SERP
-additional information (e.g., address) on the ‘reviews’ element for which the reviews are collected */
+    /** *subtitle of the 'reviews' element in SERP* additional information (e.g., address) on the 'reviews' element for which the reviews are collected */
 
     sub_title?: string | undefined;
 
     
-    /** rating of the corresponding local establishment
-popularity rate based on reviews and displayed in SERP */
+    /** *rating of the corresponding local establishment* popularity rate based on reviews and displayed in SERP */
 
     rating?: RatingInfo | undefined;
 
     
-    /** the unique identifier of the ‘reviews’ element in SERP
-learn more about the identifier in this help center article */
+    /** *the unique identifier of the 'reviews' element in SERP* learn more about the identifier in [this help center article](https://dataforseo.com/help-center/what-is-cid-place-id-feature-id) */
 
     feature_id?: string | undefined;
 
     
-    /** unique identifier of a business location assigned by Google
-learn more about the identifier in this help center article */
+    /** *unique identifier of a business location assigned by Google* learn more about the identifier in [this help center article](https://dataforseo.com/help-center/what-is-cid-place-id-feature-id) */
 
     place_id?: string | undefined;
 
     
-    /** google-defined client id
-unique id of a local establishment
-learn more about the identifier in this help center article */
+    /** *google-defined client id* unique id of a local establishment learn more about the identifier in [this help center article](https://dataforseo.com/help-center/what-is-cid-place-id-feature-id) */
 
     cid?: string | undefined;
 
     
-    /** the total number of reviews */
+    /** *the total number of reviews* */
 
     reviews_count?: number | undefined;
 
     
-    /** the number of reviews items in the results array
-you can get more results by using the depth parameter when setting a task */
+    /** *the number of reviews items in the results array* you can get more results by using the `depth` parameter when setting a task */
 
     items_count?: number | undefined;
 
     
-    /** found reviews
-you can get more results by using the depth parameter when setting a task */
+    /** *found reviews* you can get more results by using the `depth` parameter when setting a task */
 
     items?: GoogleExtendedReviewsSearch[] | undefined;
 

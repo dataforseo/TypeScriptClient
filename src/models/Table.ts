@@ -1,15 +1,12 @@
 export interface ITable   {
         
-        /** name assigned to the table element
-possible values:
-table_element */
+        /** name assigned to the table element possible values: table_element */
         table_element?: string | undefined
         
         /** column names */
         table_header?: string[] | undefined
         
-        /** the content of the table
-one line of the table in this element of the array */
+        /** the content of the table one line of the table in this element of the array */
         table_content?: string[][] | undefined
 
     [key: string]: any;
@@ -19,9 +16,7 @@ one line of the table in this element of the array */
 export class Table  implements ITable {
 
     
-    /** name assigned to the table element
-possible values:
-table_element */
+    /** name assigned to the table element possible values: table_element */
 
     table_element?: string | undefined;
 
@@ -31,8 +26,7 @@ table_element */
     table_header?: string[] | undefined;
 
     
-    /** the content of the table
-one line of the table in this element of the array */
+    /** the content of the table one line of the table in this element of the array */
 
     table_content?: string[][] | undefined;
 

@@ -6,47 +6,31 @@ export interface IKeywordsDataBingSearchVolumeLiveResultInfo   {
         /** keyword in a POST array */
         keyword?: string | undefined
         
-        /** location code in a POST array
-if there is no data, then the value is null */
+        /** location code in a POST array if there is no data, then the value is null */
         location_code?: number | undefined
         
-        /** language code in a POST array
-if there is no data, then the value is null */
+        /** language code in a POST array if there is no data, then the value is null */
         language_code?: string | undefined
         
         /** indicates whether data from partner networks included in the response */
         search_partners?: boolean | undefined
         
-        /** device type in a POST array
-if there is no data, then the value is null */
+        /** device type in a POST array if there is no data, then the value is null */
         device?: string | undefined
         
-        /** competition
-represents the relative amount of competition associated with the given keyword in paid SERP only. This value is based on Bing Ads data.
-Possible values: 0.1, 0.5,0.90.1 – low competition,
-0.5 – medium competition,
-0.9 – high competition;
-if there is no data the value is null */
+        /** competition represents the relative amount of competition associated with the given keyword in paid SERP only. This value is based on Bing Ads data. Possible values: 0.1, 0.5,0.90.1 – low competition, 0.5 – medium competition, 0.9 – high competition; if there is no data the value is null */
         competition?: number | undefined
         
-        /** cost-per-click
-represents the average cost per click (USD) historically paid for the keyword.
-if there is no data then the value is null */
+        /** cost-per-click represents the average cost per click (USD) historically paid for the keyword. if there is no data then the value is null */
         cpc?: number | undefined
         
-        /** monthly average search volume rate
-represents either the (approximate) number of searches for the given keyword idea on bing search engine depending on the user’s targeting;
-search volume is rounded to the nearest tens;
-if there is no data, the value is null */
+        /** monthly average search volume rate represents either the (approximate) number of searches for the given keyword idea on bing search engine depending on the user’s targeting; search volume is rounded to the nearest tens; if there is no data, the value is null */
         search_volume?: number | undefined
         
-        /** product and service categories
-our API doesn’t return categories for this endpoint: the parameter will always equal null */
+        /** product and service categories our API doesn’t return categories for this endpoint: the parameter will always equal null */
         categories?: string[] | undefined
         
-        /** monthly searches
-represents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations
-if there is no data then the value is null */
+        /** monthly searches represents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations if there is no data then the value is null */
         monthly_searches?: MonthlySearchesInfo[] | undefined
 
     [key: string]: any;
@@ -61,14 +45,12 @@ export class KeywordsDataBingSearchVolumeLiveResultInfo  implements IKeywordsDat
     keyword?: string | undefined;
 
     
-    /** location code in a POST array
-if there is no data, then the value is null */
+    /** location code in a POST array if there is no data, then the value is null */
 
     location_code?: number | undefined;
 
     
-    /** language code in a POST array
-if there is no data, then the value is null */
+    /** language code in a POST array if there is no data, then the value is null */
 
     language_code?: string | undefined;
 
@@ -78,46 +60,32 @@ if there is no data, then the value is null */
     search_partners?: boolean | undefined;
 
     
-    /** device type in a POST array
-if there is no data, then the value is null */
+    /** device type in a POST array if there is no data, then the value is null */
 
     device?: string | undefined;
 
     
-    /** competition
-represents the relative amount of competition associated with the given keyword in paid SERP only. This value is based on Bing Ads data.
-Possible values: 0.1, 0.5,0.90.1 – low competition,
-0.5 – medium competition,
-0.9 – high competition;
-if there is no data the value is null */
+    /** competition represents the relative amount of competition associated with the given keyword in paid SERP only. This value is based on Bing Ads data. Possible values: 0.1, 0.5,0.90.1 – low competition, 0.5 – medium competition, 0.9 – high competition; if there is no data the value is null */
 
     competition?: number | undefined;
 
     
-    /** cost-per-click
-represents the average cost per click (USD) historically paid for the keyword.
-if there is no data then the value is null */
+    /** cost-per-click represents the average cost per click (USD) historically paid for the keyword. if there is no data then the value is null */
 
     cpc?: number | undefined;
 
     
-    /** monthly average search volume rate
-represents either the (approximate) number of searches for the given keyword idea on bing search engine depending on the user’s targeting;
-search volume is rounded to the nearest tens;
-if there is no data, the value is null */
+    /** monthly average search volume rate represents either the (approximate) number of searches for the given keyword idea on bing search engine depending on the user’s targeting; search volume is rounded to the nearest tens; if there is no data, the value is null */
 
     search_volume?: number | undefined;
 
     
-    /** product and service categories
-our API doesn’t return categories for this endpoint: the parameter will always equal null */
+    /** product and service categories our API doesn’t return categories for this endpoint: the parameter will always equal null */
 
     categories?: string[] | undefined;
 
     
-    /** monthly searches
-represents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations
-if there is no data then the value is null */
+    /** monthly searches represents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations if there is no data then the value is null */
 
     monthly_searches?: MonthlySearchesInfo[] | undefined;
 

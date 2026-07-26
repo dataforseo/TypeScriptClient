@@ -3,16 +3,16 @@ export interface IChatGptBrandEntity   {
         /** type of element */
         type?: string | undefined
         
-        /** name of the brand */
+        /** *name of the brand* */
         title?: string | undefined
         
-        /** category of the brand */
+        /** *category of the brand* */
         category?: string | undefined
         
-        /** brand name in markdown formatcontains brand name formatted in the markdown markup language */
+        /** *brand name in markdown format* contains brand name formatted in the [markdown markup language](https://en.wikipedia.org/wiki/Markdown) */
         markdown?: string | undefined
         
-        /** array of URLs and domains relevant to the brand */
+        /** *array of URLs and domains relevant to the brand* */
         urls?: any | undefined
 
     [key: string]: any;
@@ -27,22 +27,22 @@ export class ChatGptBrandEntity  implements IChatGptBrandEntity {
     type?: string | undefined;
 
     
-    /** name of the brand */
+    /** *name of the brand* */
 
     title?: string | undefined;
 
     
-    /** category of the brand */
+    /** *category of the brand* */
 
     category?: string | undefined;
 
     
-    /** brand name in markdown formatcontains brand name formatted in the markdown markup language */
+    /** *brand name in markdown format* contains brand name formatted in the [markdown markup language](https://en.wikipedia.org/wiki/Markdown) */
 
     markdown?: string | undefined;
 
     
-    /** array of URLs and domains relevant to the brand */
+    /** *array of URLs and domains relevant to the brand* */
 
     urls?: any | undefined;
 

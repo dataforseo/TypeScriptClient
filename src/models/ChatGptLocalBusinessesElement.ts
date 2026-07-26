@@ -6,28 +6,28 @@ export interface IChatGptLocalBusinessesElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of the element */
+        /** *title of the element* */
         title?: string | undefined
         
-        /** description of the local business */
+        /** *description of the local business* */
         description?: string | undefined
         
-        /** address of the local business */
+        /** *address of the local business* */
         address?: string | undefined
         
-        /** phone of the local business */
+        /** *phone of the local business* */
         phone?: string | undefined
         
-        /** total number of reviews submitted for the local business */
+        /** *total number of reviews submitted for the local business* */
         reviews_count?: number | undefined
         
-        /** URL */
+        /** *URL* */
         url?: string | undefined
         
-        /** domain */
+        /** *domain* */
         domain?: string | undefined
         
-        /** rating of the corresponding local businesspopularity rate based on reviews as displayed in the results */
+        /** *rating of the corresponding local business* popularity rate based on reviews as displayed in the results */
         rating?: RatingInfo | undefined
 
     [key: string]: any;
@@ -42,42 +42,42 @@ export class ChatGptLocalBusinessesElement  implements IChatGptLocalBusinessesEl
     type?: string | undefined;
 
     
-    /** title of the element */
+    /** *title of the element* */
 
     title?: string | undefined;
 
     
-    /** description of the local business */
+    /** *description of the local business* */
 
     description?: string | undefined;
 
     
-    /** address of the local business */
+    /** *address of the local business* */
 
     address?: string | undefined;
 
     
-    /** phone of the local business */
+    /** *phone of the local business* */
 
     phone?: string | undefined;
 
     
-    /** total number of reviews submitted for the local business */
+    /** *total number of reviews submitted for the local business* */
 
     reviews_count?: number | undefined;
 
     
-    /** URL */
+    /** *URL* */
 
     url?: string | undefined;
 
     
-    /** domain */
+    /** *domain* */
 
     domain?: string | undefined;
 
     
-    /** rating of the corresponding local businesspopularity rate based on reviews as displayed in the results */
+    /** *rating of the corresponding local business* popularity rate based on reviews as displayed in the results */
 
     rating?: RatingInfo | undefined;
 

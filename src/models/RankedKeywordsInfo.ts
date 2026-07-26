@@ -1,12 +1,9 @@
 export interface IRankedKeywordsInfo   {
         
-        /** number of keywords for which the page is ranked in top 3 search results */
         page_from_keywords_count_top_3?: number | undefined
         
-        /** number of keywords for which the page is ranked in top 10 search results */
         page_from_keywords_count_top_10?: number | undefined
         
-        /** number of keywords for which the page is ranked in top 100 search results */
         page_from_keywords_count_top_100?: number | undefined
 
     [key: string]: any;
@@ -15,18 +12,9 @@ export interface IRankedKeywordsInfo   {
 
 export class RankedKeywordsInfo  implements IRankedKeywordsInfo {
 
-    
-    /** number of keywords for which the page is ranked in top 3 search results */
-
     page_from_keywords_count_top_3?: number | undefined;
 
-    
-    /** number of keywords for which the page is ranked in top 10 search results */
-
     page_from_keywords_count_top_10?: number | undefined;
-
-    
-    /** number of keywords for which the page is ranked in top 100 search results */
 
     page_from_keywords_count_top_100?: number | undefined;
 

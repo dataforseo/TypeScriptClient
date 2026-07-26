@@ -1,7 +1,6 @@
 export interface IAppDataAppleAppInfoTasksReadyResultInfo   {
         
-        /** task identifier of the completed task
-unique task identifier in our system in the UUID format */
+        /** task identifier of the completed task unique task identifier in our system in the UUID format */
         id?: string | undefined
         
         /** search engine specified when setting the task */
@@ -19,8 +18,7 @@ unique task identifier in our system in the UUID format */
         /** URL for collecting the results of the Apple App Info task */
         endpoint_advanced?: string | undefined
         
-        /** URL for collecting the results of the Apple App Info HTML task
-if HTML tasks are not supported in the specified endpoint, the value will be null */
+        /** URL for collecting the results of the Apple App Info HTML task if HTML tasks are not supported in the specified endpoint, the value will be null */
         endpoint_html?: string | undefined
 
     [key: string]: any;
@@ -30,8 +28,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 export class AppDataAppleAppInfoTasksReadyResultInfo  implements IAppDataAppleAppInfoTasksReadyResultInfo {
 
     
-    /** task identifier of the completed task
-unique task identifier in our system in the UUID format */
+    /** task identifier of the completed task unique task identifier in our system in the UUID format */
 
     id?: string | undefined;
 
@@ -61,8 +58,7 @@ unique task identifier in our system in the UUID format */
     endpoint_advanced?: string | undefined;
 
     
-    /** URL for collecting the results of the Apple App Info HTML task
-if HTML tasks are not supported in the specified endpoint, the value will be null */
+    /** URL for collecting the results of the Apple App Info HTML task if HTML tasks are not supported in the specified endpoint, the value will be null */
 
     endpoint_html?: string | undefined;
 

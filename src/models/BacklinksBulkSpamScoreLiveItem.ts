@@ -6,8 +6,7 @@ export interface IBacklinksBulkSpamScoreLiveItem   {
         /** domain, subdomain or webpage from a POST array */
         target?: string | undefined
         
-        /** average spam score the target
-learn more about how the metric is calculated */
+        /** average spam score the target learn more about how the metric is calculated */
         spam_score?: number | undefined
 
     [key: string]: any;
@@ -27,8 +26,7 @@ export class BacklinksBulkSpamScoreLiveItem  implements IBacklinksBulkSpamScoreL
     target?: string | undefined;
 
     
-    /** average spam score the target
-learn more about how the metric is calculated */
+    /** average spam score the target learn more about how the metric is calculated */
 
     spam_score?: number | undefined;
 

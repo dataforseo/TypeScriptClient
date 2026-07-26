@@ -7,17 +7,13 @@ export interface IAppStoreSearchOrganic   {
         /** type of element */
         type?: string | undefined
         
-        /** position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+        /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP */
+        /** absolute rank in SERP absolute position among all the elements in SERP */
         rank_absolute?: number | undefined
         
-        /** the alignment of the element in SERP
-can take the following values:
-left, right */
+        /** the alignment of the element in SERP can take the following values: left, right */
         position?: string | undefined
         
         /** id of the app in a POST array */
@@ -56,21 +52,17 @@ export class AppStoreSearchOrganic  implements IAppStoreSearchOrganic {
     type?: string | undefined;
 
     
-    /** position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+    /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP */
+    /** absolute rank in SERP absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
 
     
-    /** the alignment of the element in SERP
-can take the following values:
-left, right */
+    /** the alignment of the element in SERP can take the following values: left, right */
 
     position?: string | undefined;
 

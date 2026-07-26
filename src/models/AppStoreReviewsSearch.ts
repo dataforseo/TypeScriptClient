@@ -7,29 +7,22 @@ export interface IAppStoreReviewsSearch   {
         /** type of element */
         type?: string | undefined
         
-        /** position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+        /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
         rank_group?: number | undefined
         
-        /** absolute rank among all the listed reviews
-absolute position among all reviews on the list */
+        /** absolute rank among all the listed reviews absolute position among all reviews on the list */
         rank_absolute?: number | undefined
         
-        /** the alignment of the review in SERP
-can take the following values: left */
+        /** the alignment of the review in SERP can take the following values: left */
         position?: string | undefined
         
-        /** version of the app
-version of the app for which the review is submitted */
+        /** version of the app version of the app for which the review is submitted */
         version?: string | undefined
         
         /** the rating score submitted by the reviewer */
         rating?: RatingInfo | undefined
         
-        /** date and time when the review was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** date and time when the review was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: 2019-11-15 12:57:46 +00:00 */
         timestamp?: string | undefined
         
         /** id of the review */
@@ -56,26 +49,22 @@ export class AppStoreReviewsSearch  implements IAppStoreReviewsSearch {
     type?: string | undefined;
 
     
-    /** position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+    /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank among all the listed reviews
-absolute position among all reviews on the list */
+    /** absolute rank among all the listed reviews absolute position among all reviews on the list */
 
     rank_absolute?: number | undefined;
 
     
-    /** the alignment of the review in SERP
-can take the following values: left */
+    /** the alignment of the review in SERP can take the following values: left */
 
     position?: string | undefined;
 
     
-    /** version of the app
-version of the app for which the review is submitted */
+    /** version of the app version of the app for which the review is submitted */
 
     version?: string | undefined;
 
@@ -85,10 +74,7 @@ version of the app for which the review is submitted */
     rating?: RatingInfo | undefined;
 
     
-    /** date and time when the review was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** date and time when the review was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: 2019-11-15 12:57:46 +00:00 */
 
     timestamp?: string | undefined;
 

@@ -9,8 +9,7 @@ export interface IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultI
         /** language code */
         language_code?: string | undefined
         
-        /** supported locations
-contains locations supported in combination with a specific language */
+        /** supported locations contains locations supported in combination with a specific language */
         available_locations?: AvailableLocations[] | undefined
 
     [key: string]: any;
@@ -30,8 +29,7 @@ export class KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo  
     language_code?: string | undefined;
 
     
-    /** supported locations
-contains locations supported in combination with a specific language */
+    /** supported locations contains locations supported in combination with a specific language */
 
     available_locations?: AvailableLocations[] | undefined;
 

@@ -8,5 +8,5 @@
 **url** | **string** | relevant URL of the Ad element in SERP |[optional]|
 **domain** | **string** | domain in SERP |[optional]|
 **alt** | **string** | alt tag of the image |[optional]|
-**image_url** | **string** | URL of the image<br>the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) |[optional]|
+**image_url** | **string** | URL of the image. the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) |[optional]|
 **xpath** | **string** | the XPath of the element |[optional]|

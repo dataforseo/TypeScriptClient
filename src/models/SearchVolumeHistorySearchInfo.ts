@@ -3,20 +3,16 @@ import { SearchVolumeHistoryItemInfo, ISearchVolumeHistoryItemInfo } from "./Sea
 
 export interface ISearchVolumeHistorySearchInfo   {
         
-        /** device type = desktop
-contains historical search volume data for searches made from desktop devices */
+        /** device type = desktop contains historical search volume data for searches made from desktop devices */
         desktop?: SearchVolumeHistoryItemInfo[] | undefined
         
-        /** device type = non-smartphones
-contains historical search volume data for searches made from feature phones (non-smartphone mobile devices) */
+        /** device type = non-smartphones contains historical search volume data for searches made from feature phones (non-smartphone mobile devices) */
         non_smartphones?: SearchVolumeHistoryItemInfo[] | undefined
         
-        /** device type = mobile
-contains historical search volume data for searches made from mobile devices */
+        /** device type = mobile contains historical search volume data for searches made from mobile devices */
         mobile?: SearchVolumeHistoryItemInfo[] | undefined
         
-        /** device type = tablet
-contains historical search volume data for searches made from tablets */
+        /** device type = tablet contains historical search volume data for searches made from tablets */
         tablet?: SearchVolumeHistoryItemInfo[] | undefined
 
     [key: string]: any;
@@ -26,26 +22,22 @@ contains historical search volume data for searches made from tablets */
 export class SearchVolumeHistorySearchInfo  implements ISearchVolumeHistorySearchInfo {
 
     
-    /** device type = desktop
-contains historical search volume data for searches made from desktop devices */
+    /** device type = desktop contains historical search volume data for searches made from desktop devices */
 
     desktop?: SearchVolumeHistoryItemInfo[] | undefined;
 
     
-    /** device type = non-smartphones
-contains historical search volume data for searches made from feature phones (non-smartphone mobile devices) */
+    /** device type = non-smartphones contains historical search volume data for searches made from feature phones (non-smartphone mobile devices) */
 
     non_smartphones?: SearchVolumeHistoryItemInfo[] | undefined;
 
     
-    /** device type = mobile
-contains historical search volume data for searches made from mobile devices */
+    /** device type = mobile contains historical search volume data for searches made from mobile devices */
 
     mobile?: SearchVolumeHistoryItemInfo[] | undefined;
 
     
-    /** device type = tablet
-contains historical search volume data for searches made from tablets */
+    /** device type = tablet contains historical search volume data for searches made from tablets */
 
     tablet?: SearchVolumeHistoryItemInfo[] | undefined;
 

@@ -28,30 +28,22 @@ export interface IBaseBingSerpApiElementItem   {
         /** type of element */
         type?: string | undefined
         
-        /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+        /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP */
+        /** absolute rank in SERP absolute position among all the elements in SERP */
         rank_absolute?: number | undefined
         
-        /** search results page number
-indicates the number of the SERP page on which the element is located */
+        /** search results page number indicates the number of the SERP page on which the element is located */
         page?: number | undefined
         
-        /** the alignment of the element in SERP
-can take the following values:
-left, right */
+        /** the alignment of the element in SERP can take the following values: left, right */
         position?: string | undefined
         
         /** the XPath of the element */
         xpath?: string | undefined
         
-        /** rectangle parameters
-contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
-equals null if calculate_rectangles in the POST request is not set to true */
+        /** rectangle parameters contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP equals null if calculate_rectangles in the POST request is not set to true */
         rectangle?: AiModeRectangleInfo | undefined
 
     [key: string]: any;
@@ -66,28 +58,22 @@ export class BaseBingSerpApiElementItem  implements IBaseBingSerpApiElementItem 
     type?: string | undefined;
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+    /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP */
+    /** absolute rank in SERP absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
 
     
-    /** search results page number
-indicates the number of the SERP page on which the element is located */
+    /** search results page number indicates the number of the SERP page on which the element is located */
 
     page?: number | undefined;
 
     
-    /** the alignment of the element in SERP
-can take the following values:
-left, right */
+    /** the alignment of the element in SERP can take the following values: left, right */
 
     position?: string | undefined;
 
@@ -97,9 +83,7 @@ left, right */
     xpath?: string | undefined;
 
     
-    /** rectangle parameters
-contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
-equals null if calculate_rectangles in the POST request is not set to true */
+    /** rectangle parameters contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP equals null if calculate_rectangles in the POST request is not set to true */
 
     rectangle?: AiModeRectangleInfo | undefined;
 
@@ -303,8 +287,7 @@ export interface IBingOrganicSerpElementItem  extends IBaseBingSerpApiElementIte
         /** cached version of the page */
         cache_url?: string | undefined
         
-        /** URL to a similar search
-URL to a new search for the same keyword(s) on related sites */
+        /** URL to a similar search URL to a new search for the same keyword(s) on related sites */
         related_search_url?: string | undefined
         
         /** name of the source website */
@@ -334,49 +317,34 @@ URL to a new search for the same keyword(s) on related sites */
         /** images of the element */
         images?: AiModeImagesElementInfo[] | undefined
         
-        /** Accelerated Mobile Pages
-indicates whether an item has the Accelerated Mobile Page (AMP) version */
+        /** Accelerated Mobile Pages indicates whether an item has the Accelerated Mobile Page (AMP) version */
         amp_version?: boolean | undefined
         
-        /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP */
+        /** the item’s rating  the popularity rate based on reviews and displayed in SERP */
         rating?: RatingInfo | undefined
         
-        /** pricing details
-contains the pricing details of the product or service featured in the result */
+        /** pricing details contains the pricing details of the product or service featured in the result */
         price?: PriceInfo | undefined
         
         /** words highlighted in bold within the results description */
         highlighted?: string[] | undefined
         
-        /** sitelinks
-the links shown below some search results
-if there are none, equals null */
+        /** sitelinks the links shown below some search results if there are none, equals null */
         links?: LinkElement[] | undefined
         
-        /** @deprecated frequently asked questions
-questions and answers extension shown below some search results
-if there are none, equals null */
+        /** @deprecated frequently asked questions questions and answers extension shown below some search results if there are none, equals null */
         faq?: FaqBox | undefined
         
-        /** extension of the organic element
-extension of the organic result containing related search queries
-Note: extension appears in SERP upon clicking on the result and then bouncing back to search results */
+        /** extension of the organic element extension of the organic result containing related search queries Note: extension appears in SERP upon clicking on the result and then bouncing back to search results */
         extended_people_also_search?: string[] | undefined
         
-        /** @deprecated contains information from the ‘About this result’ panel
-note: about_this_result feature is not available in Bing search engine, that’s why it always equals null */
+        /** @deprecated contains information from the ‘About this result’ panel note: about_this_result feature is not available in Bing search engine, that’s why it always equals null */
         about_this_result?: AboutThisResultElement | undefined
         
-        /** related result from the same domain
-related result from the same domain appears as a part of the main result snippet;
-note: related_result feature is not available in Bing search engine, that’s why it always equals null */
+        /** related result from the same domain related result from the same domain appears as a part of the main result snippet; note: related_result feature is not available in Bing search engine, that’s why it always equals null */
         related_result?: RelatedResult[] | undefined
         
-        /** date and time when the result was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
         timestamp?: string | undefined
 
     [key: string]: any;
@@ -416,8 +384,7 @@ export class BingOrganicSerpElementItem  extends BaseBingSerpApiElementItem   im
     cache_url?: string | undefined;
 
     
-    /** URL to a similar search
-URL to a new search for the same keyword(s) on related sites */
+    /** URL to a similar search URL to a new search for the same keyword(s) on related sites */
 
     related_search_url?: string | undefined;
 
@@ -467,20 +434,17 @@ URL to a new search for the same keyword(s) on related sites */
     images?: AiModeImagesElementInfo[] | undefined;
 
     
-    /** Accelerated Mobile Pages
-indicates whether an item has the Accelerated Mobile Page (AMP) version */
+    /** Accelerated Mobile Pages indicates whether an item has the Accelerated Mobile Page (AMP) version */
 
     amp_version?: boolean | undefined;
 
     
-    /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP */
+    /** the item’s rating  the popularity rate based on reviews and displayed in SERP */
 
     rating?: RatingInfo | undefined;
 
     
-    /** pricing details
-contains the pricing details of the product or service featured in the result */
+    /** pricing details contains the pricing details of the product or service featured in the result */
 
     price?: PriceInfo | undefined;
 
@@ -490,42 +454,30 @@ contains the pricing details of the product or service featured in the result */
     highlighted?: string[] | undefined;
 
     
-    /** sitelinks
-the links shown below some search results
-if there are none, equals null */
+    /** sitelinks the links shown below some search results if there are none, equals null */
 
     links?: LinkElement[] | undefined;
     
-    /** @deprecated frequently asked questions
-questions and answers extension shown below some search results
-if there are none, equals null */
+    /** @deprecated frequently asked questions questions and answers extension shown below some search results if there are none, equals null */
 
     faq?: FaqBox | undefined;
 
     
-    /** extension of the organic element
-extension of the organic result containing related search queries
-Note: extension appears in SERP upon clicking on the result and then bouncing back to search results */
+    /** extension of the organic element extension of the organic result containing related search queries Note: extension appears in SERP upon clicking on the result and then bouncing back to search results */
 
     extended_people_also_search?: string[] | undefined;
     
-    /** @deprecated contains information from the ‘About this result’ panel
-note: about_this_result feature is not available in Bing search engine, that’s why it always equals null */
+    /** @deprecated contains information from the ‘About this result’ panel note: about_this_result feature is not available in Bing search engine, that’s why it always equals null */
 
     about_this_result?: AboutThisResultElement | undefined;
 
     
-    /** related result from the same domain
-related result from the same domain appears as a part of the main result snippet;
-note: related_result feature is not available in Bing search engine, that’s why it always equals null */
+    /** related result from the same domain related result from the same domain appears as a part of the main result snippet; note: related_result feature is not available in Bing search engine, that’s why it always equals null */
 
     related_result?: RelatedResult[] | undefined;
 
     
-    /** date and time when the result was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
 
     timestamp?: string | undefined;
 
@@ -694,8 +646,7 @@ export interface IBingPaidSerpElementItem  extends IBaseBingSerpApiElementItem  
         /** additional information about the result */
         extra?: { [key: string]: string; } | undefined
         
-        /** extended description
-if there is none, equals null */
+        /** extended description if there is none, equals null */
         description_rows?: string[] | undefined
         
         /** links featured in the organic result */
@@ -704,8 +655,7 @@ if there is none, equals null */
         /** price of booking a place for the specified dates of stay */
         price?: PriceInfo | undefined
         
-        /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP */
+        /** the item’s rating  the popularity rate based on reviews and displayed in SERP */
         rating?: RatingInfo | undefined
 
     [key: string]: any;
@@ -770,8 +720,7 @@ export class BingPaidSerpElementItem  extends BaseBingSerpApiElementItem   imple
     extra?: { [key: string]: string; } | undefined;
 
     
-    /** extended description
-if there is none, equals null */
+    /** extended description if there is none, equals null */
 
     description_rows?: string[] | undefined;
 
@@ -786,8 +735,7 @@ if there is none, equals null */
     price?: PriceInfo | undefined;
 
     
-    /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP */
+    /** the item’s rating  the popularity rate based on reviews and displayed in SERP */
 
     rating?: RatingInfo | undefined;
 
@@ -906,17 +854,13 @@ export interface IBingFeaturedSnippetSerpElementItem  extends IBaseBingSerpApiEl
         /** the title of the featured snippets source page */
         featured_title?: string | undefined
         
-        /** date and time when the result was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
         timestamp?: string | undefined
         
         /** images of the element */
         images?: AiModeImagesElementInfo[] | undefined
         
-        /** results table
-if there are none, equals null */
+        /** results table if there are none, equals null */
         table?: Table | undefined
 
     [key: string]: any;
@@ -956,10 +900,7 @@ export class BingFeaturedSnippetSerpElementItem  extends BaseBingSerpApiElementI
     featured_title?: string | undefined;
 
     
-    /** date and time when the result was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
 
     timestamp?: string | undefined;
 
@@ -969,8 +910,7 @@ example:
     images?: AiModeImagesElementInfo[] | undefined;
 
     
-    /** results table
-if there are none, equals null */
+    /** results table if there are none, equals null */
 
     table?: Table | undefined;
 
@@ -1106,12 +1046,10 @@ export interface IBingAiOverviewSerpElementItem  extends IBaseBingSerpApiElement
         /** content of the element in markdown format */
         markdown?: string | undefined
         
-        /** additional items present in the element
-if there are none, equals null */
+        /** additional items present in the element if there are none, equals null */
         items?: BaseSerpApiBingAiOverviewElementItem[] | undefined
         
-        /** additional references relevant to the item
-includes references to webpages that may have been used to generate the ai_overview */
+        /** additional references relevant to the item includes references to webpages that may have been used to generate the ai_overview */
         references?: AiModeAiOverviewReferenceInfo[] | undefined
 
     [key: string]: any;
@@ -1126,14 +1064,12 @@ export class BingAiOverviewSerpElementItem  extends BaseBingSerpApiElementItem  
     markdown?: string | undefined;
 
     
-    /** additional items present in the element
-if there are none, equals null */
+    /** additional items present in the element if there are none, equals null */
 
     items?: BaseSerpApiBingAiOverviewElementItem[] | undefined;
 
     
-    /** additional references relevant to the item
-includes references to webpages that may have been used to generate the ai_overview */
+    /** additional references relevant to the item includes references to webpages that may have been used to generate the ai_overview */
 
     references?: AiModeAiOverviewReferenceInfo[] | undefined;
 
@@ -1219,8 +1155,7 @@ export interface IBingImagesSerpElementItem  extends IBaseBingSerpApiElementItem
         /** contains results featured in the ‘hotels_pack’ element of SERP */
         items?: AiModeImagesElementInfo[] | undefined
         
-        /** @deprecated contains keywords and images related to the specified search term
-if there are none, equals null */
+        /** @deprecated contains keywords and images related to the specified search term if there are none, equals null */
         related_image_searches?: RelatedImageSearchesElement[] | undefined
 
     [key: string]: any;
@@ -1244,8 +1179,7 @@ export class BingImagesSerpElementItem  extends BaseBingSerpApiElementItem   imp
 
     items?: AiModeImagesElementInfo[] | undefined;
     
-    /** @deprecated contains keywords and images related to the specified search term
-if there are none, equals null */
+    /** @deprecated contains keywords and images related to the specified search term if there are none, equals null */
 
     related_image_searches?: RelatedImageSearchesElement[] | undefined;
 
@@ -1474,8 +1408,7 @@ export class BingShoppingSerpElementItem  extends BaseBingSerpApiElementItem   i
  
 export interface IBingAnswerBoxSerpElementItem  extends IBaseBingSerpApiElementItem    {
         
-        /** text
-if there is none, equals null */
+        /** text if there is none, equals null */
         text?: string[] | undefined
         
         /** links featured in the organic result */
@@ -1488,8 +1421,7 @@ if there is none, equals null */
 export class BingAnswerBoxSerpElementItem  extends BaseBingSerpApiElementItem   implements IBingAnswerBoxSerpElementItem {
 
     
-    /** text
-if there is none, equals null */
+    /** text if there is none, equals null */
 
     text?: string[] | undefined;
 
@@ -1576,16 +1508,13 @@ export interface IBingLocalPackSerpElementItem  extends IBaseBingSerpApiElementI
         /** indicates whether the element is an ad */
         is_paid?: boolean | undefined
         
-        /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP */
+        /** the item’s rating  the popularity rate based on reviews and displayed in SERP */
         rating?: RatingInfo | undefined
         
-        /** bing-defined client id
-unique id of a local establishment */
+        /** bing-defined client id unique id of a local establishment */
         cid?: string | undefined
         
-        /** business listing is claimed
-if true, the business listing is claimed by the owner or representative */
+        /** business listing is claimed if true, the business listing is claimed by the owner or representative */
         is_claimed?: boolean | undefined
 
     [key: string]: any;
@@ -1627,20 +1556,17 @@ export class BingLocalPackSerpElementItem  extends BaseBingSerpApiElementItem   
     is_paid?: boolean | undefined;
 
     
-    /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP */
+    /** the item’s rating  the popularity rate based on reviews and displayed in SERP */
 
     rating?: RatingInfo | undefined;
 
     
-    /** bing-defined client id
-unique id of a local establishment */
+    /** bing-defined client id unique id of a local establishment */
 
     cid?: string | undefined;
 
     
-    /** business listing is claimed
-if true, the business listing is claimed by the owner or representative */
+    /** business listing is claimed if true, the business listing is claimed by the owner or representative */
 
     is_claimed?: boolean | undefined;
 
@@ -1778,16 +1704,10 @@ export interface IBingHotelsPackSerpElementItem  extends IBaseBingSerpApiElement
         /** title of the item */
         title?: string | undefined
         
-        /** starting date of stay
-in the format “year-month-date”
-example:
-2019-11-15 */
+        /** starting date of stay in the format “year-month-date” example: 2019-11-15 */
         date_from?: string | undefined
         
-        /** ending date of stay
-in the format “year-month-date”
-example:
-2019-11-17 */
+        /** ending date of stay in the format “year-month-date” example: 2019-11-17 */
         date_to?: string | undefined
         
         /** contains results featured in the ‘hotels_pack’ element of SERP */
@@ -1805,18 +1725,12 @@ export class BingHotelsPackSerpElementItem  extends BaseBingSerpApiElementItem  
     title?: string | undefined;
 
     
-    /** starting date of stay
-in the format “year-month-date”
-example:
-2019-11-15 */
+    /** starting date of stay in the format “year-month-date” example: 2019-11-15 */
 
     date_from?: string | undefined;
 
     
-    /** ending date of stay
-in the format “year-month-date”
-example:
-2019-11-17 */
+    /** ending date of stay in the format “year-month-date” example: 2019-11-17 */
 
     date_to?: string | undefined;
 

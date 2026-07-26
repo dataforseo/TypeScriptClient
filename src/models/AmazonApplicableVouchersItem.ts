@@ -12,8 +12,7 @@ export interface IAmazonApplicableVouchersItem   {
         /** currency code of the fixed discount */
         fixed_discount_currency?: string | undefined
         
-        /** value of the percentage discount
-if the discount is fixed, the value will be null */
+        /** value of the percentage discount if the discount is fixed, the value will be null */
         percentage_discount?: number | undefined
         
         /** important details about the terms of discount vouchers */
@@ -46,8 +45,7 @@ export class AmazonApplicableVouchersItem  implements IAmazonApplicableVouchersI
     fixed_discount_currency?: string | undefined;
 
     
-    /** value of the percentage discount
-if the discount is fixed, the value will be null */
+    /** value of the percentage discount if the discount is fixed, the value will be null */
 
     percentage_discount?: number | undefined;
 

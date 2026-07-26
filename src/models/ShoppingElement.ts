@@ -19,22 +19,16 @@ export interface IShoppingElement   {
         /** link description */
         description?: string | undefined
         
-        /** merchant account provider
-commerce site that hosts products or websites of individual sellers under the same merchant account
-example:
-by Google */
+        /** merchant account provider commerce site that hosts products or websites of individual sellers under the same merchant account example: by Google */
         marketplace?: string | undefined
         
-        /** relevant marketplace URL
-URL of the page on the marketplace website where the product is hosted */
+        /** relevant marketplace URL URL of the page on the marketplace website where the product is hosted */
         marketplace_url?: string | undefined
         
         /** source URL */
         url?: string | undefined
         
-        /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP;
-if there is none, equals null */
+        /** the item’s rating  the popularity rate based on reviews and displayed in SERP; if there is none, equals null */
         rating?: RatingInfo | undefined
 
     [key: string]: any;
@@ -69,16 +63,12 @@ export class ShoppingElement  implements IShoppingElement {
     description?: string | undefined;
 
     
-    /** merchant account provider
-commerce site that hosts products or websites of individual sellers under the same merchant account
-example:
-by Google */
+    /** merchant account provider commerce site that hosts products or websites of individual sellers under the same merchant account example: by Google */
 
     marketplace?: string | undefined;
 
     
-    /** relevant marketplace URL
-URL of the page on the marketplace website where the product is hosted */
+    /** relevant marketplace URL URL of the page on the marketplace website where the product is hosted */
 
     marketplace_url?: string | undefined;
 
@@ -88,9 +78,7 @@ URL of the page on the marketplace website where the product is hosted */
     url?: string | undefined;
 
     
-    /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP;
-if there is none, equals null */
+    /** the item’s rating  the popularity rate based on reviews and displayed in SERP; if there is none, equals null */
 
     rating?: RatingInfo | undefined;
 

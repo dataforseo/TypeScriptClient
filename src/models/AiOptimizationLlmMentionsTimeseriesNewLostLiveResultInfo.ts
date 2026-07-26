@@ -3,10 +3,10 @@ import { AiOptimizationLlmMentionsTimeseriesNewLostLiveItem, IAiOptimizationLlmM
 
 export interface IAiOptimizationLlmMentionsTimeseriesNewLostLiveResultInfo   {
         
-        /** the number of results returned in the items array */
+        /** *the number of results returned in the `items` array* */
         items_count?: number | undefined
         
-        /** contains relevant LLM mentions timeseries data */
+        /** *contains relevant LLM mentions timeseries data* */
         items?: AiOptimizationLlmMentionsTimeseriesNewLostLiveItem[] | undefined
 
     [key: string]: any;
@@ -16,12 +16,12 @@ export interface IAiOptimizationLlmMentionsTimeseriesNewLostLiveResultInfo   {
 export class AiOptimizationLlmMentionsTimeseriesNewLostLiveResultInfo  implements IAiOptimizationLlmMentionsTimeseriesNewLostLiveResultInfo {
 
     
-    /** the number of results returned in the items array */
+    /** *the number of results returned in the `items` array* */
 
     items_count?: number | undefined;
 
     
-    /** contains relevant LLM mentions timeseries data */
+    /** *contains relevant LLM mentions timeseries data* */
 
     items?: AiOptimizationLlmMentionsTimeseriesNewLostLiveItem[] | undefined;
 

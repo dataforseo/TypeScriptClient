@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **OnPageLighthouseTaskPostTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **OnPageLighthouseTaskPostTaskInfo[]** | *array of tasks* |[optional]|

@@ -3,8 +3,7 @@ export interface IHtmlContentInfo   {
         /** total size of the text on the page measured in bytes */
         plain_text_size?: number | undefined
         
-        /** plaintext rate value
-plain_text_size to size ratio */
+        /** plaintext rate value plain_text_size to size ratio */
         plain_text_rate?: number | undefined
         
         /** number of words on the page */
@@ -25,16 +24,13 @@ plain_text_size to size ratio */
         /** SMOG Readability Index */
         smog_readability_index?: number | undefined
         
-        /** consistency of the meta description tag with the page content
-measured from 0 to 1 */
+        /** consistency of the meta description tag with the page content measured from 0 to 1 */
         description_to_content_consistency?: number | undefined
         
-        /** consistency of the meta title tag with the page content
-measured from 0 to 1 */
+        /** consistency of the meta title tag with the page content measured from 0 to 1 */
         title_to_content_consistency?: number | undefined
         
-        /** consistency of meta keywordstag with the page content
-measured from 0 to 1 */
+        /** consistency of meta keywordstag with the page content measured from 0 to 1 */
         meta_keywords_to_content_consistency?: number | undefined
 
     [key: string]: any;
@@ -49,8 +45,7 @@ export class HtmlContentInfo  implements IHtmlContentInfo {
     plain_text_size?: number | undefined;
 
     
-    /** plaintext rate value
-plain_text_size to size ratio */
+    /** plaintext rate value plain_text_size to size ratio */
 
     plain_text_rate?: number | undefined;
 
@@ -85,20 +80,17 @@ plain_text_size to size ratio */
     smog_readability_index?: number | undefined;
 
     
-    /** consistency of the meta description tag with the page content
-measured from 0 to 1 */
+    /** consistency of the meta description tag with the page content measured from 0 to 1 */
 
     description_to_content_consistency?: number | undefined;
 
     
-    /** consistency of the meta title tag with the page content
-measured from 0 to 1 */
+    /** consistency of the meta title tag with the page content measured from 0 to 1 */
 
     title_to_content_consistency?: number | undefined;
 
     
-    /** consistency of meta keywordstag with the page content
-measured from 0 to 1 */
+    /** consistency of meta keywordstag with the page content measured from 0 to 1 */
 
     meta_keywords_to_content_consistency?: number | undefined;
 

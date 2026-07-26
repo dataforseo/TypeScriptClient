@@ -8,37 +8,37 @@ export interface IGoogleShoppingSponsoredCarouselElement   {
         /** type of element */
         type?: string | undefined
         
-        /** XPath of the element */
+        /** *[XPath](https://en.wikipedia.org/wiki/XPath) of the element* */
         xpath?: string | undefined
         
-        /** title of the element */
+        /** *title of the element* */
         title?: string | undefined
         
-        /** tags assigned to the product */
+        /** *tags assigned to the product* */
         tags?: string[] | undefined
         
-        /** name of the sellerthe name of the company that placed a corresponding product on Google Shopping */
+        /** *name of the seller* the name of the company that placed a corresponding product on Google Shopping */
         seller?: string | undefined
         
-        /** product priceexample:384.99 */
+        /** *product price* example: `384.99` */
         price?: number | undefined
         
-        /** currency in the ISO formatexample:USD */
+        /** *currency in the [ISO](https://en.wikipedia.org/wiki/ISO_4217) format* example: `USD` */
         currency?: string | undefined
         
-        /** product ratingthe product popularity rate based on product reviews */
+        /** *product rating* the product popularity rate based on product reviews */
         product_rating?: RatingElement | undefined
         
-        /** URLs to the images of the productthe first URL in the array is the featured image of the product */
+        /** *URLs to the images of the product* the first URL in the array is the featured image of the product */
         product_images?: string[] | undefined
         
-        /** unique ad click referral parameterusing this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL */
+        /** *unique ad click referral parameter* using this parameter you can get a URL of the advertisement in [Google Shopping Sellers Ad URL](/v3/merchant/google/sellers/ad_url/) */
         shop_ad_aclk?: string | undefined
         
-        /** delivery informationdelivery information including free and fast delivery date ranges */
+        /** *delivery information* delivery information including free and fast delivery date ranges */
         delivery_info?: DeliveryInfo | undefined
         
-        /** special offer from the sellerinformation on the special offer from the seller, including discount and coupon info */
+        /** *special offer from the seller* information on the special offer from the seller, including discount and coupon info */
         special_offer_info?: SpecialOfferInfo | undefined
 
     [key: string]: any;
@@ -53,57 +53,57 @@ export class GoogleShoppingSponsoredCarouselElement  implements IGoogleShoppingS
     type?: string | undefined;
 
     
-    /** XPath of the element */
+    /** *[XPath](https://en.wikipedia.org/wiki/XPath) of the element* */
 
     xpath?: string | undefined;
 
     
-    /** title of the element */
+    /** *title of the element* */
 
     title?: string | undefined;
 
     
-    /** tags assigned to the product */
+    /** *tags assigned to the product* */
 
     tags?: string[] | undefined;
 
     
-    /** name of the sellerthe name of the company that placed a corresponding product on Google Shopping */
+    /** *name of the seller* the name of the company that placed a corresponding product on Google Shopping */
 
     seller?: string | undefined;
 
     
-    /** product priceexample:384.99 */
+    /** *product price* example: `384.99` */
 
     price?: number | undefined;
 
     
-    /** currency in the ISO formatexample:USD */
+    /** *currency in the [ISO](https://en.wikipedia.org/wiki/ISO_4217) format* example: `USD` */
 
     currency?: string | undefined;
 
     
-    /** product ratingthe product popularity rate based on product reviews */
+    /** *product rating* the product popularity rate based on product reviews */
 
     product_rating?: RatingElement | undefined;
 
     
-    /** URLs to the images of the productthe first URL in the array is the featured image of the product */
+    /** *URLs to the images of the product* the first URL in the array is the featured image of the product */
 
     product_images?: string[] | undefined;
 
     
-    /** unique ad click referral parameterusing this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL */
+    /** *unique ad click referral parameter* using this parameter you can get a URL of the advertisement in [Google Shopping Sellers Ad URL](/v3/merchant/google/sellers/ad_url/) */
 
     shop_ad_aclk?: string | undefined;
 
     
-    /** delivery informationdelivery information including free and fast delivery date ranges */
+    /** *delivery information* delivery information including free and fast delivery date ranges */
 
     delivery_info?: DeliveryInfo | undefined;
 
     
-    /** special offer from the sellerinformation on the special offer from the seller, including discount and coupon info */
+    /** *special offer from the seller* information on the special offer from the seller, including discount and coupon info */
 
     special_offer_info?: SpecialOfferInfo | undefined;
 

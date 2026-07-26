@@ -9,16 +9,13 @@ export interface IAmazonReviewItem   {
         /** type of element */
         type?: string | undefined
         
-        /** position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+        /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
         rank_group?: number | undefined
         
-        /** absolute rank among all the listed reviews
-absolute position among all reviews on the list */
+        /** absolute rank among all the listed reviews absolute position among all reviews on the list */
         rank_absolute?: number | undefined
         
-        /** the alignment of the review in SERP
-can take the following values: right */
+        /** the alignment of the review in SERP can take the following values: right */
         position?: string | undefined
         
         /** the XPath of the element */
@@ -30,8 +27,7 @@ can take the following values: right */
         /** subtitle of the review */
         subtitle?: string | undefined
         
-        /** helpful votes count
-number of users who clicked on the ‘Helpful” button under the review text */
+        /** helpful votes count number of users who clicked on the ‘Helpful” button under the review text */
         helpful_votes?: string | undefined
         
         /** images of the product submitted by the reviewer */
@@ -52,10 +48,7 @@ number of users who clicked on the ‘Helpful” button under the review text */
         /** content of the review */
         review_text?: string | undefined
         
-        /** date and time when the review was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** date and time when the review was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: 2019-11-15 12:57:46 +00:00 */
         publication_date?: string | undefined
         
         /** the rating score submitted by the reviewer */
@@ -73,20 +66,17 @@ export class AmazonReviewItem  implements IAmazonReviewItem {
     type?: string | undefined;
 
     
-    /** position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+    /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank among all the listed reviews
-absolute position among all reviews on the list */
+    /** absolute rank among all the listed reviews absolute position among all reviews on the list */
 
     rank_absolute?: number | undefined;
 
     
-    /** the alignment of the review in SERP
-can take the following values: right */
+    /** the alignment of the review in SERP can take the following values: right */
 
     position?: string | undefined;
 
@@ -106,8 +96,7 @@ can take the following values: right */
     subtitle?: string | undefined;
 
     
-    /** helpful votes count
-number of users who clicked on the ‘Helpful” button under the review text */
+    /** helpful votes count number of users who clicked on the ‘Helpful” button under the review text */
 
     helpful_votes?: string | undefined;
 
@@ -142,10 +131,7 @@ number of users who clicked on the ‘Helpful” button under the review text */
     review_text?: string | undefined;
 
     
-    /** date and time when the review was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** date and time when the review was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: 2019-11-15 12:57:46 +00:00 */
 
     publication_date?: string | undefined;
 

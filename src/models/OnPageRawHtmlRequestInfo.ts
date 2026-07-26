@@ -1,16 +1,9 @@
 export interface IOnPageRawHtmlRequestInfo   {
         
-        /** ID of the task
-required field
-you can get this ID in the response of the Task POST endpoint
-example:
-“07131248-1535-0216-1000-17384017ad04” */
+        /** ID of the task required field you can get this ID in the response of the Task POST endpoint example: “07131248-1535-0216-1000-17384017ad04” */
         id?: string | undefined
         
-        /** page url
-required field
-the absolute URL of a page to request HTML
-Note: this field is optional if the task was set using the Instant Pages endpoint */
+        /** page url required field the absolute URL of a page to request HTML Note: this field is optional if the task was set using the Instant Pages endpoint */
         url?: string | undefined
 
     [key: string]: any;
@@ -20,19 +13,12 @@ Note: this field is optional if the task was set using the Instant Pages endpoin
 export class OnPageRawHtmlRequestInfo  implements IOnPageRawHtmlRequestInfo {
 
     
-    /** ID of the task
-required field
-you can get this ID in the response of the Task POST endpoint
-example:
-“07131248-1535-0216-1000-17384017ad04” */
+    /** ID of the task required field you can get this ID in the response of the Task POST endpoint example: “07131248-1535-0216-1000-17384017ad04” */
 
     id?: string | undefined;
 
     
-    /** page url
-required field
-the absolute URL of a page to request HTML
-Note: this field is optional if the task was set using the Instant Pages endpoint */
+    /** page url required field the absolute URL of a page to request HTML Note: this field is optional if the task was set using the Instant Pages endpoint */
 
     url?: string | undefined;
 

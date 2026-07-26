@@ -10,17 +10,13 @@ export interface IAmazonInfo   {
         /** type of element */
         type?: string | undefined
         
-        /** position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+        /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
         rank_group?: number | undefined
         
-        /** absolute rank in Amazon SERP
-absolute position among all the elements in SERP */
+        /** absolute rank in Amazon SERP absolute position among all the elements in SERP */
         rank_absolute?: number | undefined
         
-        /** the alignment of the element in Amazon SERP
-can take the following values:
-left, right */
+        /** the alignment of the element in Amazon SERP can take the following values: left, right */
         position?: string | undefined
         
         /** the XPath of the element */
@@ -41,39 +37,28 @@ left, right */
         /** URL of the product image featured in the results */
         image_url?: string | undefined
         
-        /** the regular price of a product
-example:
-49.98 */
+        /** the regular price of a product example: 49.98 */
         price_from?: number | undefined
         
-        /** the upper limit of the product price range
-example:
-384.99 */
+        /** the upper limit of the product price range example: 384.99 */
         price_to?: number | undefined
         
-        /** currency in the ISO format
-example:
-USD */
+        /** currency in the ISO format example: USD */
         currency?: string | undefined
         
-        /** special offer details
-contains special offer details, including coupon and Subscribe & Save discounts */
+        /** special offer details contains special offer details, including coupon and Subscribe & Save discounts */
         special_offers?: string[] | undefined
         
-        /** “Best Seller” label
-if the value is true, the product is marked with the “Best Seller” label */
+        /** “Best Seller” label if the value is true, the product is marked with the “Best Seller” label */
         is_best_seller?: boolean | undefined
         
-        /** “Amazon’s choice” label
-if the value is true, the product is marked with the “Amazon’s choice” label */
+        /** “Amazon’s choice” label if the value is true, the product is marked with the “Amazon’s choice” label */
         is_amazon_choice?: boolean | undefined
         
-        /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP */
+        /** the item’s rating  the popularity rate based on reviews and displayed in SERP */
         rating?: RatingInfo | undefined
         
-        /** delivery information
-delivery information including free and fast delivery date ranges */
+        /** delivery information delivery information including free and fast delivery date ranges */
         delivery_info?: AmazonDeliveryInfo | undefined
         
         bought_past_month?: number | undefined
@@ -95,21 +80,17 @@ export class AmazonInfo  implements IAmazonInfo {
     type?: string | undefined;
 
     
-    /** position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+    /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in Amazon SERP
-absolute position among all the elements in SERP */
+    /** absolute rank in Amazon SERP absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
 
     
-    /** the alignment of the element in Amazon SERP
-can take the following values:
-left, right */
+    /** the alignment of the element in Amazon SERP can take the following values: left, right */
 
     position?: string | undefined;
 
@@ -144,53 +125,42 @@ left, right */
     image_url?: string | undefined;
 
     
-    /** the regular price of a product
-example:
-49.98 */
+    /** the regular price of a product example: 49.98 */
 
     price_from?: number | undefined;
 
     
-    /** the upper limit of the product price range
-example:
-384.99 */
+    /** the upper limit of the product price range example: 384.99 */
 
     price_to?: number | undefined;
 
     
-    /** currency in the ISO format
-example:
-USD */
+    /** currency in the ISO format example: USD */
 
     currency?: string | undefined;
 
     
-    /** special offer details
-contains special offer details, including coupon and Subscribe & Save discounts */
+    /** special offer details contains special offer details, including coupon and Subscribe & Save discounts */
 
     special_offers?: string[] | undefined;
 
     
-    /** “Best Seller” label
-if the value is true, the product is marked with the “Best Seller” label */
+    /** “Best Seller” label if the value is true, the product is marked with the “Best Seller” label */
 
     is_best_seller?: boolean | undefined;
 
     
-    /** “Amazon’s choice” label
-if the value is true, the product is marked with the “Amazon’s choice” label */
+    /** “Amazon’s choice” label if the value is true, the product is marked with the “Amazon’s choice” label */
 
     is_amazon_choice?: boolean | undefined;
 
     
-    /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP */
+    /** the item’s rating  the popularity rate based on reviews and displayed in SERP */
 
     rating?: RatingInfo | undefined;
 
     
-    /** delivery information
-delivery information including free and fast delivery date ranges */
+    /** delivery information delivery information including free and fast delivery date ranges */
 
     delivery_info?: AmazonDeliveryInfo | undefined;
 

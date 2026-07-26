@@ -7,13 +7,10 @@ export interface IBaseSerpApiGoogleImagesElementItem   {
         /** type of element */
         type?: string | undefined
         
-        /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+        /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP for the target domain
-absolute position among all the elements in SERP */
+        /** absolute rank in SERP for the target domain absolute position among all the elements in SERP */
         rank_absolute?: number | undefined
         
         /** the XPath of the element */
@@ -31,15 +28,12 @@ export class BaseSerpApiGoogleImagesElementItem  implements IBaseSerpApiGoogleIm
     type?: string | undefined;
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+    /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP for the target domain
-absolute position among all the elements in SERP */
+    /** absolute rank in SERP for the target domain absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
 
@@ -124,9 +118,7 @@ export interface ISerpApiGoogleImagesCarouselElementItem  extends IBaseSerpApiGo
         
         page?: number | undefined
         
-        /** the alignment of the element in SERP
-can take the following values:
-left, right */
+        /** the alignment of the element in SERP can take the following values: left, right */
         position?: string | undefined
         
         /** title of the element */
@@ -135,9 +127,7 @@ left, right */
         /** items of the element */
         items?: SerpApiCarouselElement[] | undefined
         
-        /** rectangle parameters
-contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
-note: calculate_rectangles parameter is not yet available when setting tasks for this search engine type, that’s why rectangle always equals null */
+        /** rectangle parameters contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP note: calculate_rectangles parameter is not yet available when setting tasks for this search engine type, that’s why rectangle always equals null */
         rectangle?: AiModeRectangleInfo | undefined
 
     [key: string]: any;
@@ -149,9 +139,7 @@ export class SerpApiGoogleImagesCarouselElementItem  extends BaseSerpApiGoogleIm
     page?: number | undefined;
 
     
-    /** the alignment of the element in SERP
-can take the following values:
-left, right */
+    /** the alignment of the element in SERP can take the following values: left, right */
 
     position?: string | undefined;
 
@@ -166,9 +154,7 @@ left, right */
     items?: SerpApiCarouselElement[] | undefined;
 
     
-    /** rectangle parameters
-contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
-note: calculate_rectangles parameter is not yet available when setting tasks for this search engine type, that’s why rectangle always equals null */
+    /** rectangle parameters contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP note: calculate_rectangles parameter is not yet available when setting tasks for this search engine type, that’s why rectangle always equals null */
 
     rectangle?: AiModeRectangleInfo | undefined;
 
@@ -345,17 +331,13 @@ export interface ISerpApiGoogleImagesRelatedSearchesElementItem  extends IBaseSe
         
         page?: number | undefined
         
-        /** the alignment of the element in SERP
-can take the following values:
-left, right */
+        /** the alignment of the element in SERP can take the following values: left, right */
         position?: string | undefined
         
         /** items of the element */
         items?: string[] | undefined
         
-        /** rectangle parameters
-contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
-note: calculate_rectangles parameter is not yet available when setting tasks for this search engine type, that’s why rectangle always equals null */
+        /** rectangle parameters contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP note: calculate_rectangles parameter is not yet available when setting tasks for this search engine type, that’s why rectangle always equals null */
         rectangle?: AiModeRectangleInfo | undefined
 
     [key: string]: any;
@@ -367,9 +349,7 @@ export class SerpApiGoogleImagesRelatedSearchesElementItem  extends BaseSerpApiG
     page?: number | undefined;
 
     
-    /** the alignment of the element in SERP
-can take the following values:
-left, right */
+    /** the alignment of the element in SERP can take the following values: left, right */
 
     position?: string | undefined;
 
@@ -379,9 +359,7 @@ left, right */
     items?: string[] | undefined;
 
     
-    /** rectangle parameters
-contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
-note: calculate_rectangles parameter is not yet available when setting tasks for this search engine type, that’s why rectangle always equals null */
+    /** rectangle parameters contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP note: calculate_rectangles parameter is not yet available when setting tasks for this search engine type, that’s why rectangle always equals null */
 
     rectangle?: AiModeRectangleInfo | undefined;
 

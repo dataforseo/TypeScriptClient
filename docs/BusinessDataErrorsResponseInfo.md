@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **BusinessDataErrorsTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **BusinessDataErrorsTaskInfo[]** | *array of tasks* |[optional]|

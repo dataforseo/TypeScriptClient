@@ -14,20 +14,15 @@ export interface IBaseSerpApiGoogleSearchByImagesElementItem   {
         /** type of element */
         type?: string | undefined
         
-        /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+        /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP */
+        /** absolute rank in SERP absolute position among all the elements in SERP */
         rank_absolute?: number | undefined
         
         page?: number | undefined
         
-        /** the alignment of the element in SERP
-can take the following values:
-left, right */
+        /** the alignment of the element in SERP can take the following values: left, right */
         position?: string | undefined
         
         /** the XPath of the element */
@@ -39,9 +34,7 @@ left, right */
         /** search URL with refinement parameters */
         url?: string | undefined
         
-        /** rectangle parameters
-contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
-equals null if calculate_rectangles in the POST request is not set to true */
+        /** rectangle parameters contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP equals null if calculate_rectangles in the POST request is not set to true */
         rectangle?: AiModeRectangleInfo | undefined
 
     [key: string]: any;
@@ -56,24 +49,19 @@ export class BaseSerpApiGoogleSearchByImagesElementItem  implements IBaseSerpApi
     type?: string | undefined;
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+    /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP */
+    /** absolute rank in SERP absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
 
     page?: number | undefined;
 
     
-    /** the alignment of the element in SERP
-can take the following values:
-left, right */
+    /** the alignment of the element in SERP can take the following values: left, right */
 
     position?: string | undefined;
 
@@ -93,9 +81,7 @@ left, right */
     url?: string | undefined;
 
     
-    /** rectangle parameters
-contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
-equals null if calculate_rectangles in the POST request is not set to true */
+    /** rectangle parameters contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP equals null if calculate_rectangles in the POST request is not set to true */
 
     rectangle?: AiModeRectangleInfo | undefined;
 
@@ -183,8 +169,7 @@ export interface ISerpApiGoogleSearchByImagesOrganicElementItem  extends IBaseSe
         /** cached version of the page */
         cache_url?: string | undefined
         
-        /** URL to a similar search
-URL to a new search for the same keyword(s) on related sites */
+        /** URL to a similar search URL to a new search for the same keyword(s) on related sites */
         related_search_url?: string | undefined
         
         /** breadcrumb in SERP */
@@ -220,50 +205,34 @@ URL to a new search for the same keyword(s) on related sites */
         /** images of the element */
         images?: AiModeImagesElementInfo[] | undefined
         
-        /** Accelerated Mobile Pages
-indicates whether an item has the Accelerated Mobile Page (AMP) version */
+        /** Accelerated Mobile Pages indicates whether an item has the Accelerated Mobile Page (AMP) version */
         amp_version?: boolean | undefined
         
-        /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP */
+        /** the item’s rating  the popularity rate based on reviews and displayed in SERP */
         rating?: RatingInfo | undefined
         
-        /** pricing details
-contains the pricing details of the product or service featured in the result */
+        /** pricing details contains the pricing details of the product or service featured in the result */
         price?: PriceInfo | undefined
         
         /** words highlighted in bold within the results description */
         highlighted?: string[] | undefined
         
-        /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+        /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
         links?: LinkElement[] | undefined
         
-        /** @deprecated frequently asked questions
-questions and answers extension shown below some of Google’s search results
-if there are none, equals null */
+        /** @deprecated frequently asked questions questions and answers extension shown below some of Google’s search results if there are none, equals null */
         faq?: FaqBox | undefined
         
-        /** extension of the organic element
-extension of the organic result containing related search queries
-Note: extension appears in SERP upon clicking on the result and then bouncing back to search results */
+        /** extension of the organic element extension of the organic result containing related search queries Note: extension appears in SERP upon clicking on the result and then bouncing back to search results */
         extended_people_also_search?: string[] | undefined
         
-        /** @deprecated contains information from the ‘About this result’ panel
-‘About this result’ panel provides additional context about why Google returned this result for the given query;
-this feature appears after clicking on the three dots next to most results */
+        /** @deprecated contains information from the ‘About this result’ panel ‘About this result’ panel provides additional context about why Google returned this result for the given query; this feature appears after clicking on the three dots next to most results */
         about_this_result?: AboutThisResultElement | undefined
         
-        /** related result from the same domain
-related result from the same domain appears as a part of the main result snippet;
-you can derive the related_result snippets as 'type': 'organic' results by setting the group_organic_results parameter to false in the POST request */
+        /** related result from the same domain related result from the same domain appears as a part of the main result snippet; you can derive the related_result snippets as 'type': 'organic' results by setting the group_organic_results parameter to false in the POST request */
         related_result?: RelatedResult[] | undefined
         
-        /** date and time when the result was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
         timestamp?: string | undefined
 
     [key: string]: any;
@@ -283,8 +252,7 @@ export class SerpApiGoogleSearchByImagesOrganicElementItem  extends BaseSerpApiG
     cache_url?: string | undefined;
 
     
-    /** URL to a similar search
-URL to a new search for the same keyword(s) on related sites */
+    /** URL to a similar search URL to a new search for the same keyword(s) on related sites */
 
     related_search_url?: string | undefined;
 
@@ -344,20 +312,17 @@ URL to a new search for the same keyword(s) on related sites */
     images?: AiModeImagesElementInfo[] | undefined;
 
     
-    /** Accelerated Mobile Pages
-indicates whether an item has the Accelerated Mobile Page (AMP) version */
+    /** Accelerated Mobile Pages indicates whether an item has the Accelerated Mobile Page (AMP) version */
 
     amp_version?: boolean | undefined;
 
     
-    /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP */
+    /** the item’s rating  the popularity rate based on reviews and displayed in SERP */
 
     rating?: RatingInfo | undefined;
 
     
-    /** pricing details
-contains the pricing details of the product or service featured in the result */
+    /** pricing details contains the pricing details of the product or service featured in the result */
 
     price?: PriceInfo | undefined;
 
@@ -367,43 +332,30 @@ contains the pricing details of the product or service featured in the result */
     highlighted?: string[] | undefined;
 
     
-    /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+    /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
 
     links?: LinkElement[] | undefined;
     
-    /** @deprecated frequently asked questions
-questions and answers extension shown below some of Google’s search results
-if there are none, equals null */
+    /** @deprecated frequently asked questions questions and answers extension shown below some of Google’s search results if there are none, equals null */
 
     faq?: FaqBox | undefined;
 
     
-    /** extension of the organic element
-extension of the organic result containing related search queries
-Note: extension appears in SERP upon clicking on the result and then bouncing back to search results */
+    /** extension of the organic element extension of the organic result containing related search queries Note: extension appears in SERP upon clicking on the result and then bouncing back to search results */
 
     extended_people_also_search?: string[] | undefined;
     
-    /** @deprecated contains information from the ‘About this result’ panel
-‘About this result’ panel provides additional context about why Google returned this result for the given query;
-this feature appears after clicking on the three dots next to most results */
+    /** @deprecated contains information from the ‘About this result’ panel ‘About this result’ panel provides additional context about why Google returned this result for the given query; this feature appears after clicking on the three dots next to most results */
 
     about_this_result?: AboutThisResultElement | undefined;
 
     
-    /** related result from the same domain
-related result from the same domain appears as a part of the main result snippet;
-you can derive the related_result snippets as 'type': 'organic' results by setting the group_organic_results parameter to false in the POST request */
+    /** related result from the same domain related result from the same domain appears as a part of the main result snippet; you can derive the related_result snippets as 'type': 'organic' results by setting the group_organic_results parameter to false in the POST request */
 
     related_result?: RelatedResult[] | undefined;
 
     
-    /** date and time when the result was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
 
     timestamp?: string | undefined;
 
@@ -538,8 +490,7 @@ export interface ISerpApiGoogleSearchByImagesImagesElementItem  extends IBaseSer
         /** elements of search results found in SERP */
         items?: AiModeImagesElementInfo[] | undefined
         
-        /** @deprecated contains keywords and images related to the specified search term
-if there are none, equals null */
+        /** @deprecated contains keywords and images related to the specified search term if there are none, equals null */
         related_image_searches?: RelatedImageSearchesElement[] | undefined
 
     [key: string]: any;
@@ -553,8 +504,7 @@ export class SerpApiGoogleSearchByImagesImagesElementItem  extends BaseSerpApiGo
 
     items?: AiModeImagesElementInfo[] | undefined;
     
-    /** @deprecated contains keywords and images related to the specified search term
-if there are none, equals null */
+    /** @deprecated contains keywords and images related to the specified search term if there are none, equals null */
 
     related_image_searches?: RelatedImageSearchesElement[] | undefined;
 

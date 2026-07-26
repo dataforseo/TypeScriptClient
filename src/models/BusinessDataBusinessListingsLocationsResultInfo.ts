@@ -1,12 +1,12 @@
 export interface IBusinessDataBusinessListingsLocationsResultInfo   {
         
-        /** full name of the location */
+        /** *full name of the location* */
         location_name?: string | undefined
         
-        /** ISO country code of the location */
+        /** *ISO country code of the location* */
         country_iso_code?: string | undefined
         
-        /** number of businesses in this location in our database */
+        /** *number of businesses in this location in our database* */
         business_count?: number | undefined
 
     [key: string]: any;
@@ -16,17 +16,17 @@ export interface IBusinessDataBusinessListingsLocationsResultInfo   {
 export class BusinessDataBusinessListingsLocationsResultInfo  implements IBusinessDataBusinessListingsLocationsResultInfo {
 
     
-    /** full name of the location */
+    /** *full name of the location* */
 
     location_name?: string | undefined;
 
     
-    /** ISO country code of the location */
+    /** *ISO country code of the location* */
 
     country_iso_code?: string | undefined;
 
     
-    /** number of businesses in this location in our database */
+    /** *number of businesses in this location in our database* */
 
     business_count?: number | undefined;
 

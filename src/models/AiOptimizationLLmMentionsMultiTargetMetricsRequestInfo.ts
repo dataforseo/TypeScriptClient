@@ -5,10 +5,7 @@ export interface IAiOptimizationLLmMentionsMultiTargetMetricsRequestInfo   {
         
         target?: BaseAiOptimizationLLmMentionsTargetElement[] | undefined
         
-        /** key for grouping the results
-required field
-groups results for comparison and serves as a label for the group;
-you can specify up to 250 characters in the key field */
+        /** key for grouping the results required field groups results for comparison and serves as a label for the group; you can specify up to 250 characters in the key field */
         key?: string | undefined
 
     [key: string]: any;
@@ -20,10 +17,7 @@ export class AiOptimizationLLmMentionsMultiTargetMetricsRequestInfo  implements 
     target?: BaseAiOptimizationLLmMentionsTargetElement[] | undefined;
 
     
-    /** key for grouping the results
-required field
-groups results for comparison and serves as a label for the group;
-you can specify up to 250 characters in the key field */
+    /** key for grouping the results required field groups results for comparison and serves as a label for the group; you can specify up to 250 characters in the key field */
 
     key?: string | undefined;
 

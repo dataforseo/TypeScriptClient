@@ -10,8 +10,7 @@ export interface IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo   {
         /** keyword in a POST array */
         seed_keyword?: string | undefined
         
-        /** keyword data for the seed keyword
-fields in the object are identical to that of keyword_data */
+        /** keyword data for the seed keyword fields in the object are identical to that of keyword_data */
         seed_keyword_data?: AmazonKeywordData | undefined
         
         /** location code in a POST array */
@@ -46,8 +45,7 @@ export class DataforseoLabsAmazonRelatedKeywordsLiveResultInfo  implements IData
     seed_keyword?: string | undefined;
 
     
-    /** keyword data for the seed keyword
-fields in the object are identical to that of keyword_data */
+    /** keyword data for the seed keyword fields in the object are identical to that of keyword_data */
 
     seed_keyword_data?: AmazonKeywordData | undefined;
 

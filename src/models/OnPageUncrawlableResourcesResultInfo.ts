@@ -4,23 +4,21 @@ import { OnPageUncrawlableResourcesItem, IOnPageUncrawlableResourcesItem } from 
 
 export interface IOnPageUncrawlableResourcesResultInfo   {
         
-        /** status of the crawling session
-possible values: in_progress, finished */
+        /** *status of the crawling session* possible values: `in_progress`, `finished` */
         crawl_progress?: string | undefined
         
-        /** details of the crawling session */
+        /** *details of the crawling session* */
         crawl_status?: CrawlStatusInfo | undefined
         
         current_offset?: number | undefined
         
-        /** total number of uncrawlable resources found
- total number of uncrawlable resources found during the crawl of the target domain */
+        /** *total number of uncrawlable resources found*  total number of uncrawlable resources found during the crawl of the target domain */
         total_items_count?: number | undefined
         
-        /** number of uncrawlable resources in the items array */
+        /** *number of uncrawlable resources in the `items` array* */
         items_count?: number | undefined
         
-        /** array of uncrawlable resources */
+        /** *array of uncrawlable resources* */
         items?: OnPageUncrawlableResourcesItem[] | undefined
 
     [key: string]: any;
@@ -30,31 +28,29 @@ possible values: in_progress, finished */
 export class OnPageUncrawlableResourcesResultInfo  implements IOnPageUncrawlableResourcesResultInfo {
 
     
-    /** status of the crawling session
-possible values: in_progress, finished */
+    /** *status of the crawling session* possible values: `in_progress`, `finished` */
 
     crawl_progress?: string | undefined;
 
     
-    /** details of the crawling session */
+    /** *details of the crawling session* */
 
     crawl_status?: CrawlStatusInfo | undefined;
 
     current_offset?: number | undefined;
 
     
-    /** total number of uncrawlable resources found
- total number of uncrawlable resources found during the crawl of the target domain */
+    /** *total number of uncrawlable resources found*  total number of uncrawlable resources found during the crawl of the target domain */
 
     total_items_count?: number | undefined;
 
     
-    /** number of uncrawlable resources in the items array */
+    /** *number of uncrawlable resources in the `items` array* */
 
     items_count?: number | undefined;
 
     
-    /** array of uncrawlable resources */
+    /** *array of uncrawlable resources* */
 
     items?: OnPageUncrawlableResourcesItem[] | undefined;
 

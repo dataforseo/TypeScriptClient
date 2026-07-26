@@ -1,10 +1,9 @@
 export interface IUncrawlableResourcesMeta   {
         
-        /** actual content type of the resource */
+        /** *actual content type of the resource* */
         content_type?: string | undefined
         
-        /** expected content types for the resource
-list of content types that were expected by the crawler based on how the resource is referenced on the page */
+        /** *expected content types for the resource* list of content types that were expected by the crawler based on how the resource is referenced on the page */
         expected_content_types?: string[] | undefined
 
     [key: string]: any;
@@ -14,13 +13,12 @@ list of content types that were expected by the crawler based on how the resourc
 export class UncrawlableResourcesMeta  implements IUncrawlableResourcesMeta {
 
     
-    /** actual content type of the resource */
+    /** *actual content type of the resource* */
 
     content_type?: string | undefined;
 
     
-    /** expected content types for the resource
-list of content types that were expected by the crawler based on how the resource is referenced on the page */
+    /** *expected content types for the resource* list of content types that were expected by the crawler based on how the resource is referenced on the page */
 
     expected_content_types?: string[] | undefined;
 

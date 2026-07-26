@@ -6,21 +6,13 @@ export interface IKeywordsDataGoogleAdsLocationsCountryResultInfo   {
         /** full name of the location */
         location_name?: string | undefined
         
-        /** the code of the superordinate location
-example:
-'location_code': 9041134,
-'location_name': 'Vienna International Airport,Lower Austria,Austria',
-'location_code_parent': 20044
-where location_code_parent corresponds to:
-'location_code': 20044,
-'location_name': 'Lower Austria,Austria' */
+        /** the code of the superordinate location example: 'location_code': 9041134, 'location_name': 'Vienna International Airport,Lower Austria,Austria', 'location_code_parent': 20044 where location_code_parent corresponds to: 'location_code': 20044, 'location_name': 'Lower Austria,Austria' */
         location_code_parent?: number | undefined
         
         /** ISO country code of the location */
         country_iso_code?: string | undefined
         
-        /** location type
-possible values according to Google’s target types */
+        /** location type possible values according to Google’s target types */
         location_type?: string | undefined
 
     [key: string]: any;
@@ -40,14 +32,7 @@ export class KeywordsDataGoogleAdsLocationsCountryResultInfo  implements IKeywor
     location_name?: string | undefined;
 
     
-    /** the code of the superordinate location
-example:
-'location_code': 9041134,
-'location_name': 'Vienna International Airport,Lower Austria,Austria',
-'location_code_parent': 20044
-where location_code_parent corresponds to:
-'location_code': 20044,
-'location_name': 'Lower Austria,Austria' */
+    /** the code of the superordinate location example: 'location_code': 9041134, 'location_name': 'Vienna International Airport,Lower Austria,Austria', 'location_code_parent': 20044 where location_code_parent corresponds to: 'location_code': 20044, 'location_name': 'Lower Austria,Austria' */
 
     location_code_parent?: number | undefined;
 
@@ -57,8 +42,7 @@ where location_code_parent corresponds to:
     country_iso_code?: string | undefined;
 
     
-    /** location type
-possible values according to Google’s target types */
+    /** location type possible values according to Google’s target types */
 
     location_type?: string | undefined;
 

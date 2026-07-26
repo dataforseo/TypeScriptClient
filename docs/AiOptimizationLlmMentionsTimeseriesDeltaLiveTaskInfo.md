@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **AiOptimizationLlmMentionsTimeseriesDeltaLiveResultInfo[]** | array of results |[optional]|
+**result** | **AiOptimizationLlmMentionsTimeseriesDeltaLiveResultInfo[]** | *array of results* |[optional]|

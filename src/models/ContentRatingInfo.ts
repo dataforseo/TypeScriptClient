@@ -1,7 +1,6 @@
 export interface IContentRatingInfo   {
         
-        /** rating name
-here you can find the following elements: Max5, Percents, CustomMax */
+        /** rating name here you can find the following elements: Max5, Percents, CustomMax */
         name?: string | undefined
         
         /** the value of the rating */
@@ -23,8 +22,7 @@ here you can find the following elements: Max5, Percents, CustomMax */
 export class ContentRatingInfo  implements IContentRatingInfo {
 
     
-    /** rating name
-here you can find the following elements: Max5, Percents, CustomMax */
+    /** rating name here you can find the following elements: Max5, Percents, CustomMax */
 
     name?: string | undefined;
 

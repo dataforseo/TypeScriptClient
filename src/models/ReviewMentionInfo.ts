@@ -1,22 +1,21 @@
 export interface IReviewMentionInfo   {
         
-        /** title of the evaluated criterion */
+        /** *title of the evaluated criterion* */
         title?: string | undefined
         
-        /** positive score by criterion */
+        /** *positive score by criterion* */
         positive_score?: number | undefined
         
-        /** count of positive reviews by criterion */
+        /** *count of positive reviews by criterion* */
         positive_count?: number | undefined
         
-        /** count of negative reviews by criterion */
+        /** *count of negative reviews by criterion* */
         negative_count?: number | undefined
         
-        /** count of all reviews by criterion */
+        /** *count of all reviews by criterion* */
         total_count?: number | undefined
         
-        /** element is visible by default
-indicates whether the review element is visible by default */
+        /** *element is visible by default* indicates whether the review element is visible by default */
         visible_by_default?: boolean | undefined
 
     [key: string]: any;
@@ -26,33 +25,32 @@ indicates whether the review element is visible by default */
 export class ReviewMentionInfo  implements IReviewMentionInfo {
 
     
-    /** title of the evaluated criterion */
+    /** *title of the evaluated criterion* */
 
     title?: string | undefined;
 
     
-    /** positive score by criterion */
+    /** *positive score by criterion* */
 
     positive_score?: number | undefined;
 
     
-    /** count of positive reviews by criterion */
+    /** *count of positive reviews by criterion* */
 
     positive_count?: number | undefined;
 
     
-    /** count of negative reviews by criterion */
+    /** *count of negative reviews by criterion* */
 
     negative_count?: number | undefined;
 
     
-    /** count of all reviews by criterion */
+    /** *count of all reviews by criterion* */
 
     total_count?: number | undefined;
 
     
-    /** element is visible by default
-indicates whether the review element is visible by default */
+    /** *element is visible by default* indicates whether the review element is visible by default */
 
     visible_by_default?: boolean | undefined;
 

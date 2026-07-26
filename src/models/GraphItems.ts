@@ -1,9 +1,6 @@
 export interface IGraphItems   {
         
-        /** date and time of the value readout
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2025-02-10 09:40:00 +00:00 */
+        /** date and time of the value readout in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2025-02-10 09:40:00 +00:00 */
         timestamp?: string | undefined
         
         /** point value on graph */
@@ -19,10 +16,7 @@ example:
 export class GraphItems  implements IGraphItems {
 
     
-    /** date and time of the value readout
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2025-02-10 09:40:00 +00:00 */
+    /** date and time of the value readout in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2025-02-10 09:40:00 +00:00 */
 
     timestamp?: string | undefined;
 

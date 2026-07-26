@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **BacklinksBulkRanksLiveTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **BacklinksBulkRanksLiveTaskInfo[]** | *array of tasks* |[optional]|

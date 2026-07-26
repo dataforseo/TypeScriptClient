@@ -6,8 +6,7 @@ export interface IDataforseoLabsGoogleKeywordIdeasLiveResultInfo   {
         /** search engine type */
         se_type?: string | undefined
         
-        /** keywords in a POST array
-keywords are returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
+        /** keywords in a POST array keywords are returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
         seed_keywords?: string[] | undefined
         
         /** location code in a POST array */
@@ -25,9 +24,7 @@ keywords are returned with decoded %## (plus character ‘+’ will be decoded t
         /** current offset value */
         offset?: number | undefined
         
-        /** offset token for subsequent requests
-you can use the string provided in this field to get the subsequent results of the initial task;
-note: offset_token values are unique for each subsequent task */
+        /** offset token for subsequent requests you can use the string provided in this field to get the subsequent results of the initial task; note: offset_token values are unique for each subsequent task */
         offset_token?: string | undefined
         
         /** contains keyword ideas and related data */
@@ -45,8 +42,7 @@ export class DataforseoLabsGoogleKeywordIdeasLiveResultInfo  implements IDatafor
     se_type?: string | undefined;
 
     
-    /** keywords in a POST array
-keywords are returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
+    /** keywords in a POST array keywords are returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
 
     seed_keywords?: string[] | undefined;
 
@@ -76,9 +72,7 @@ keywords are returned with decoded %## (plus character ‘+’ will be decoded t
     offset?: number | undefined;
 
     
-    /** offset token for subsequent requests
-you can use the string provided in this field to get the subsequent results of the initial task;
-note: offset_token values are unique for each subsequent task */
+    /** offset token for subsequent requests you can use the string provided in this field to get the subsequent results of the initial task; note: offset_token values are unique for each subsequent task */
 
     offset_token?: string | undefined;
 

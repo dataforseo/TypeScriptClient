@@ -3,23 +3,19 @@ import { MessageInfo, IMessageInfo } from "./MessageInfo";
 
 export interface IMicrodataFieldsInfo   {
         
-        /** field name
-name of the data field */
+        /** field name name of the data field */
         name?: string | undefined
         
         /** list of microdata types */
         types?: string[] | undefined
         
-        /** microdata value
-microdata value specified on a target web page */
+        /** microdata value microdata value specified on a target web page */
         value?: string | undefined
         
-        /** microdata validation test results
-sub-type microdata test results that contain detected errors and related messages */
+        /** microdata validation test results sub-type microdata test results that contain detected errors and related messages */
         test_results?: MessageInfo | undefined
         
-        /** microdata fields
-an array of objects containing data fields related to the certain microdata type */
+        /** microdata fields an array of objects containing data fields related to the certain microdata type */
         fields?: MicrodataFieldsInfo[] | undefined
 
     [key: string]: any;
@@ -29,8 +25,7 @@ an array of objects containing data fields related to the certain microdata type
 export class MicrodataFieldsInfo  implements IMicrodataFieldsInfo {
 
     
-    /** field name
-name of the data field */
+    /** field name name of the data field */
 
     name?: string | undefined;
 
@@ -40,20 +35,17 @@ name of the data field */
     types?: string[] | undefined;
 
     
-    /** microdata value
-microdata value specified on a target web page */
+    /** microdata value microdata value specified on a target web page */
 
     value?: string | undefined;
 
     
-    /** microdata validation test results
-sub-type microdata test results that contain detected errors and related messages */
+    /** microdata validation test results sub-type microdata test results that contain detected errors and related messages */
 
     test_results?: MessageInfo | undefined;
 
     
-    /** microdata fields
-an array of objects containing data fields related to the certain microdata type */
+    /** microdata fields an array of objects containing data fields related to the certain microdata type */
 
     fields?: MicrodataFieldsInfo[] | undefined;
 

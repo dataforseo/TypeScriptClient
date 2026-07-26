@@ -6,8 +6,7 @@ export interface IGoogleBusinessQuestionItem   {
         /** type of element */
         type?: string | undefined
         
-        /** position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+        /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
         rank_group?: number | undefined
         
         /** absolute rank among all the elements */
@@ -40,8 +39,7 @@ positions of elements with different type values are omitted from rank_group */
         /** exact time when the question was posted */
         timestamp?: string | undefined
         
-        /** array of items
-items within google_business_question_item */
+        /** array of items items within google_business_question_item */
         items?: GoogleBusinessAnswerElement[] | undefined
 
     [key: string]: any;
@@ -56,8 +54,7 @@ export class GoogleBusinessQuestionItem  implements IGoogleBusinessQuestionItem 
     type?: string | undefined;
 
     
-    /** position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+    /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
 
@@ -112,8 +109,7 @@ positions of elements with different type values are omitted from rank_group */
     timestamp?: string | undefined;
 
     
-    /** array of items
-items within google_business_question_item */
+    /** array of items items within google_business_question_item */
 
     items?: GoogleBusinessAnswerElement[] | undefined;
 

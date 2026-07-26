@@ -15,12 +15,10 @@ export interface IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem   {
         /** current total count of organic SERPs that contain the domain */
         organic_count?: number | undefined
         
-        /** current number of lost ranked elements
-indicates how many ranked elements of the domain were previously presented in SERPs, but weren’t found during the last check */
+        /** current number of lost ranked elements indicates how many ranked elements of the domain were previously presented in SERPs, but weren’t found during the last check */
         organic_is_lost?: number | undefined
         
-        /** current number of new ranked elements
-indicates how many new ranked elements were found for the domain */
+        /** current number of new ranked elements indicates how many new ranked elements were found for the domain */
         organic_is_new?: number | undefined
         
         /** domain found for the specified category */
@@ -32,8 +30,7 @@ indicates how many new ranked elements were found for the domain */
         /** historical ranking and traffic data of the domain */
         metrics_history?: { [key: string]: { [key: string]: DataforseoLabsMetricsInfo; }; } | undefined
         
-        /** metrics difference between first_date and second_date
-calculated by subtracting domain metrics as of the greater date from domain metrics as of the smaller date */
+        /** metrics difference between first_date and second_date calculated by subtracting domain metrics as of the greater date from domain metrics as of the smaller date */
         metrics_difference?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined
 
     [key: string]: any;
@@ -63,14 +60,12 @@ export class DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem  implements I
     organic_count?: number | undefined;
 
     
-    /** current number of lost ranked elements
-indicates how many ranked elements of the domain were previously presented in SERPs, but weren’t found during the last check */
+    /** current number of lost ranked elements indicates how many ranked elements of the domain were previously presented in SERPs, but weren’t found during the last check */
 
     organic_is_lost?: number | undefined;
 
     
-    /** current number of new ranked elements
-indicates how many new ranked elements were found for the domain */
+    /** current number of new ranked elements indicates how many new ranked elements were found for the domain */
 
     organic_is_new?: number | undefined;
 
@@ -90,8 +85,7 @@ indicates how many new ranked elements were found for the domain */
     metrics_history?: { [key: string]: { [key: string]: DataforseoLabsMetricsInfo; }; } | undefined;
 
     
-    /** metrics difference between first_date and second_date
-calculated by subtracting domain metrics as of the greater date from domain metrics as of the smaller date */
+    /** metrics difference between first_date and second_date calculated by subtracting domain metrics as of the greater date from domain metrics as of the smaller date */
 
     metrics_difference?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined;
 

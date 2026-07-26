@@ -11,4 +11,4 @@
 **channel_url** | **string** | the URL of the channel where the video is published |[optional]|
 **channel_logo** | **string** | the URL of the page where the logo image of the channel is hosted |[optional]|
 **videos_count** | **number** | the number of videos in playlist |[optional]|
-**preview_videos** | **PreviewVideos[]** | information about preview videos<br>array of objects containing information about videos in the preview block of the playlist element |[optional]|
+**preview_videos** | **PreviewVideos[]** | information about preview videos. array of objects containing information about videos in the preview block of the playlist element |[optional]|

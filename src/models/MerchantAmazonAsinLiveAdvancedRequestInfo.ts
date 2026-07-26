@@ -1,68 +1,27 @@
 export interface IMerchantAmazonAsinLiveAdvancedRequestInfo   {
         
-        /** product ID
-required field
-unique product identifier (ASIN) in Amazon
-you can receive the asin parameter by making a separate request to the Amazon Products endpoint */
+        /** *product ID* **required field** [unique product identifier (ASIN)](https://dataforseo.com/help-center/asin-in-amazon-api) in Amazon you can receive the `asin` parameter by making a separate request to the [Amazon Products endpoint](/v3/merchant/amazon/products/live/advanced/) */
         asin?: string | undefined
         
-        /** full name of search engine location
-required field if you don't specify location_code or location_coordinate
-if you use this field, you don't need to specify location_code or location_coordinate
-you can receive the list of available locations with their location_name parameters by making a separate request to the https://api.dataforseo.com/v3/merchant/amazon/locations
-example:
-HA1,England,United Kingdom */
+        /** *full name of search engine location* **required field if you don't specify** `location_code` or `location_coordinate` **if you use this field, you don't need to specify `location_code` or `location_coordinate`** you can receive the list of available locations with their `location_name` parameters by making a separate request to the `https://api.dataforseo.com/v3/merchant/amazon/locations` example: `HA1,England,United Kingdom` */
         location_name?: string | undefined
         
-        /** search engine location code
-required field if you don't specify location_name or location_coordinate
-if you use this field, you don't need to specify location_name or location_coordinate
-you can receive the list of available locations with their location_code parameters by making a separate request to the
-https://api.dataforseo.com/v3/merchant/amazon/locations
-example:
-9045969 */
+        /** *search engine location code* **required field if you don't specify** `location_name` or `location_coordinate` **if you use this field, you don't need to specify `location_name` or `location_coordinate`** you can receive the list of available locations with their `location_code` parameters by making a separate request to the `https://api.dataforseo.com/v3/merchant/amazon/locations` example: `9045969` */
         location_code?: number | undefined
         
-        /** GPS coordinates of a location
-required field if you don't specify location_name or location_code
-if you use this field, you don't need to specify location_name or location_code
-location_coordinate parameter should be specified in the 'latitude,longitude,radius' format
-the maximum number of decimal digits for 'latitude' and 'longitude': 7
-the minimum value for 'radius': 199.9
-example:
-53.476225,-2.243572,200 */
+        /** *GPS coordinates of a location* **required field if you don't specify** `location_name` or `location_code` **if you use this field, you don't need to specify `location_name` or `location_code`** `location_coordinate` parameter should be specified in the *'latitude,longitude,radius'* format the maximum number of decimal digits for *'latitude'* and *'longitude'*: 7 the minimum value for *'radius'*: 199.9 example: `53.476225,-2.243572,200` */
         location_coordinate?: string | undefined
         
-        /** full name of search engine language
-required field if you don't specify language_code
-if you use this field, you don't need to specify language_code
-you can receive the list of available languages with their language_name parameters by making a separate request to the
-https://api.dataforseo.com/v3/merchant/amazon/languages
-example:
-English (United Kingdom) */
+        /** *full name of search engine language* **required field if you don't specify** `language_code` **if you use this field, you don't need to specify `language_code`** you can receive the list of available languages with their `language_name` parameters by making a separate request to the `https://api.dataforseo.com/v3/merchant/amazon/languages` example: `English (United Kingdom)` */
         language_name?: string | undefined
         
-        /** search engine language code
-required field if you don't specify language_name
-if you use this field, you don't need to specify language_name
-you can receive the list of available languages with their language_code parameters by making a separate request to the https://api.dataforseo.com/v3/merchant/amazon/languages
-example:
-en_GB */
+        /** *search engine language code* **required field if you don't specify** `language_name` **if you use this field, you don't need to specify `language_name`** you can receive the list of available languages with their `language_code` parameters by making a separate request to the `https://api.dataforseo.com/v3/merchant/amazon/languages`**example:**`en_GB` */
         language_code?: string | undefined
         
-        /** search engine domain
-optional field
-we choose the relevant search engine domain automatically according to the location and language you specify
-however, you can set a custom search engine domain in this field
-example:
-amazon.com, amazon.co.uk, amazon.fr, etc. */
+        /** *search engine domain* optional field we choose the relevant search engine domain automatically according to the location and language you specify however, you can set a custom search engine domain in this field example: *`amazon.com`*, *`amazon.co.uk`*, *`amazon.fr`*, etc. */
         se_domain?: string | undefined
         
-        /** user-defined task identifier
-optional field
-the character limit is 255
-you can use this parameter to identify the task and match it with the result
-you will find the specified tag value in the data object of the response */
+        /** *user-defined task identifier* optional field *the character limit is 255* you can use this parameter to identify the task and match it with the result you will find the specified `tag` value in the `data` object of the response */
         tag?: string | undefined
 
     [key: string]: any;
@@ -72,83 +31,42 @@ you will find the specified tag value in the data object of the response */
 export class MerchantAmazonAsinLiveAdvancedRequestInfo  implements IMerchantAmazonAsinLiveAdvancedRequestInfo {
 
     
-    /** product ID
-required field
-unique product identifier (ASIN) in Amazon
-you can receive the asin parameter by making a separate request to the Amazon Products endpoint */
+    /** *product ID* **required field** [unique product identifier (ASIN)](https://dataforseo.com/help-center/asin-in-amazon-api) in Amazon you can receive the `asin` parameter by making a separate request to the [Amazon Products endpoint](/v3/merchant/amazon/products/live/advanced/) */
 
     asin?: string | undefined;
 
     
-    /** full name of search engine location
-required field if you don't specify location_code or location_coordinate
-if you use this field, you don't need to specify location_code or location_coordinate
-you can receive the list of available locations with their location_name parameters by making a separate request to the https://api.dataforseo.com/v3/merchant/amazon/locations
-example:
-HA1,England,United Kingdom */
+    /** *full name of search engine location* **required field if you don't specify** `location_code` or `location_coordinate` **if you use this field, you don't need to specify `location_code` or `location_coordinate`** you can receive the list of available locations with their `location_name` parameters by making a separate request to the `https://api.dataforseo.com/v3/merchant/amazon/locations` example: `HA1,England,United Kingdom` */
 
     location_name?: string | undefined;
 
     
-    /** search engine location code
-required field if you don't specify location_name or location_coordinate
-if you use this field, you don't need to specify location_name or location_coordinate
-you can receive the list of available locations with their location_code parameters by making a separate request to the
-https://api.dataforseo.com/v3/merchant/amazon/locations
-example:
-9045969 */
+    /** *search engine location code* **required field if you don't specify** `location_name` or `location_coordinate` **if you use this field, you don't need to specify `location_name` or `location_coordinate`** you can receive the list of available locations with their `location_code` parameters by making a separate request to the `https://api.dataforseo.com/v3/merchant/amazon/locations` example: `9045969` */
 
     location_code?: number | undefined;
 
     
-    /** GPS coordinates of a location
-required field if you don't specify location_name or location_code
-if you use this field, you don't need to specify location_name or location_code
-location_coordinate parameter should be specified in the 'latitude,longitude,radius' format
-the maximum number of decimal digits for 'latitude' and 'longitude': 7
-the minimum value for 'radius': 199.9
-example:
-53.476225,-2.243572,200 */
+    /** *GPS coordinates of a location* **required field if you don't specify** `location_name` or `location_code` **if you use this field, you don't need to specify `location_name` or `location_code`** `location_coordinate` parameter should be specified in the *'latitude,longitude,radius'* format the maximum number of decimal digits for *'latitude'* and *'longitude'*: 7 the minimum value for *'radius'*: 199.9 example: `53.476225,-2.243572,200` */
 
     location_coordinate?: string | undefined;
 
     
-    /** full name of search engine language
-required field if you don't specify language_code
-if you use this field, you don't need to specify language_code
-you can receive the list of available languages with their language_name parameters by making a separate request to the
-https://api.dataforseo.com/v3/merchant/amazon/languages
-example:
-English (United Kingdom) */
+    /** *full name of search engine language* **required field if you don't specify** `language_code` **if you use this field, you don't need to specify `language_code`** you can receive the list of available languages with their `language_name` parameters by making a separate request to the `https://api.dataforseo.com/v3/merchant/amazon/languages` example: `English (United Kingdom)` */
 
     language_name?: string | undefined;
 
     
-    /** search engine language code
-required field if you don't specify language_name
-if you use this field, you don't need to specify language_name
-you can receive the list of available languages with their language_code parameters by making a separate request to the https://api.dataforseo.com/v3/merchant/amazon/languages
-example:
-en_GB */
+    /** *search engine language code* **required field if you don't specify** `language_name` **if you use this field, you don't need to specify `language_name`** you can receive the list of available languages with their `language_code` parameters by making a separate request to the `https://api.dataforseo.com/v3/merchant/amazon/languages`**example:**`en_GB` */
 
     language_code?: string | undefined;
 
     
-    /** search engine domain
-optional field
-we choose the relevant search engine domain automatically according to the location and language you specify
-however, you can set a custom search engine domain in this field
-example:
-amazon.com, amazon.co.uk, amazon.fr, etc. */
+    /** *search engine domain* optional field we choose the relevant search engine domain automatically according to the location and language you specify however, you can set a custom search engine domain in this field example: *`amazon.com`*, *`amazon.co.uk`*, *`amazon.fr`*, etc. */
 
     se_domain?: string | undefined;
 
     
-    /** user-defined task identifier
-optional field
-the character limit is 255
-you can use this parameter to identify the task and match it with the result
-you will find the specified tag value in the data object of the response */
+    /** *user-defined task identifier* optional field *the character limit is 255* you can use this parameter to identify the task and match it with the result you will find the specified `tag` value in the `data` object of the response */
 
     tag?: string | undefined;
 

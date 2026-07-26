@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **OnPageUncrawlableResourcesResultInfo[]** | array of results |[optional]|
+**result** | **OnPageUncrawlableResourcesResultInfo[]** | *array of results* |[optional]|

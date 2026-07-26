@@ -3,13 +3,13 @@ import { BacklinksBulkPagesSummaryLiveItem, IBacklinksBulkPagesSummaryLiveItem }
 
 export interface IBacklinksBulkPagesSummaryLiveResultInfo   {
         
-        /** total number of relevant items in the database */
+        /** *total number of relevant items in the database* */
         total_count?: number | undefined
         
-        /** number of items in the results array */
+        /** *number of items in the results array* */
         items_count?: number | undefined
         
-        /** items array */
+        /** *items array* */
         items?: BacklinksBulkPagesSummaryLiveItem[] | undefined
 
     [key: string]: any;
@@ -19,17 +19,17 @@ export interface IBacklinksBulkPagesSummaryLiveResultInfo   {
 export class BacklinksBulkPagesSummaryLiveResultInfo  implements IBacklinksBulkPagesSummaryLiveResultInfo {
 
     
-    /** total number of relevant items in the database */
+    /** *total number of relevant items in the database* */
 
     total_count?: number | undefined;
 
     
-    /** number of items in the results array */
+    /** *number of items in the results array* */
 
     items_count?: number | undefined;
 
     
-    /** items array */
+    /** *items array* */
 
     items?: BacklinksBulkPagesSummaryLiveItem[] | undefined;
 

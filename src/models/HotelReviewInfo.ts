@@ -4,23 +4,19 @@ import { OtherSitesReviewsInfo, IOtherSitesReviewsInfo } from "./OtherSitesRevie
 
 export interface IHotelReviewInfo   {
         
-        /** overall hotel rating based on customer votes */
+        /** *overall hotel rating based on customer votes* */
         value?: number | undefined
         
-        /** number of customer votes
-the number of customer votes included in the calculation of the hotel rating */
+        /** *number of customer votes* the number of customer votes included in the calculation of the hotel rating */
         votes_count?: number | undefined
         
-        /** hotel mentions
-information about hotel reviews by criteria */
+        /** *hotel mentions* information about hotel reviews by criteria */
         mentions?: ReviewMentionInfo[] | undefined
         
-        /** rating distribution by votes
-the distribution of votes across the rating in the range from 1 to 5 */
+        /** *rating distribution by votes* the distribution of votes across the rating in the range from 1 to 5 */
         rating_distribution?: { [key: string]: number; } | undefined
         
-        /** reviews on third-party sites
-reviews from third-party sites */
+        /** *reviews on third-party sites* reviews from third-party sites */
         other_sites_reviews?: OtherSitesReviewsInfo[] | undefined
 
     [key: string]: any;
@@ -30,31 +26,27 @@ reviews from third-party sites */
 export class HotelReviewInfo  implements IHotelReviewInfo {
 
     
-    /** overall hotel rating based on customer votes */
+    /** *overall hotel rating based on customer votes* */
 
     value?: number | undefined;
 
     
-    /** number of customer votes
-the number of customer votes included in the calculation of the hotel rating */
+    /** *number of customer votes* the number of customer votes included in the calculation of the hotel rating */
 
     votes_count?: number | undefined;
 
     
-    /** hotel mentions
-information about hotel reviews by criteria */
+    /** *hotel mentions* information about hotel reviews by criteria */
 
     mentions?: ReviewMentionInfo[] | undefined;
 
     
-    /** rating distribution by votes
-the distribution of votes across the rating in the range from 1 to 5 */
+    /** *rating distribution by votes* the distribution of votes across the rating in the range from 1 to 5 */
 
     rating_distribution?: { [key: string]: number; } | undefined;
 
     
-    /** reviews on third-party sites
-reviews from third-party sites */
+    /** *reviews on third-party sites* reviews from third-party sites */
 
     other_sites_reviews?: OtherSitesReviewsInfo[] | undefined;
 

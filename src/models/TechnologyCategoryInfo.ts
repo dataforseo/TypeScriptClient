@@ -1,21 +1,15 @@
 export interface ITechnologyCategoryInfo   {
         
-        /** id of the technology category
-example:
-crm, cart_abandonment */
+        /** id of the technology category example: crm, cart_abandonment */
         id?: string | undefined
         
-        /** path to the technology category
-example:
-user_generated_content.content_curation */
+        /** path to the technology category example: user_generated_content.content_curation */
         path?: string | undefined
         
         /** title of the technology category */
         title?: string | undefined
         
-        /** list of technologies in this category
-example:
-'Salesforce', 'CareCart' */
+        /** list of technologies in this category example: 'Salesforce', 'CareCart' */
         technologies?: string[] | undefined
 
     [key: string]: any;
@@ -25,16 +19,12 @@ example:
 export class TechnologyCategoryInfo  implements ITechnologyCategoryInfo {
 
     
-    /** id of the technology category
-example:
-crm, cart_abandonment */
+    /** id of the technology category example: crm, cart_abandonment */
 
     id?: string | undefined;
 
     
-    /** path to the technology category
-example:
-user_generated_content.content_curation */
+    /** path to the technology category example: user_generated_content.content_curation */
 
     path?: string | undefined;
 
@@ -44,9 +34,7 @@ user_generated_content.content_curation */
     title?: string | undefined;
 
     
-    /** list of technologies in this category
-example:
-'Salesforce', 'CareCart' */
+    /** list of technologies in this category example: 'Salesforce', 'CareCart' */
 
     technologies?: string[] | undefined;
 

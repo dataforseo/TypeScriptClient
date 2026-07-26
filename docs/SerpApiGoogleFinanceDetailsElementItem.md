@@ -4,9 +4,9 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**rank_group** | **number** | group rank in SERP<br>position within a group of elements with identical type values<br>positions of elements with different type values are omitted from rank_group |[optional]|
-**rank_absolute** | **number** | absolute rank in SERP<br>absolute position among all the elements in SERP |[optional]|
-**badges** | **string[]** | google finance badges relevant to the element<br>example: Futures Contract |[optional]|
+**rank_group** | **number** | group rank in SERP. position within a group of elements with identical type values. positions of elements with different type values are omitted from rank_group |[optional]|
+**rank_absolute** | **number** | absolute rank in SERP. absolute position among all the elements in SERP |[optional]|
+**badges** | **string[]** | google finance badges relevant to the element. example: Futures Contract |[optional]|
 **previous_close** | **number** | value of the previous close |[optional]|
 **start_day_range** | **number** | value of the start day range |[optional]|
 **end_day_range** | **number** | value of the end day range |[optional]|

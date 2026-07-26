@@ -10,18 +10,13 @@ export interface IBaseDataforseoLabsKnowledgeGraphElementItem   {
         /** type of element */
         type?: string | undefined
         
-        /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+        /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP
-absolute position among all the elements in SERP */
+        /** absolute rank in SERP absolute position among all the elements in SERP */
         rank_absolute?: number | undefined
         
-        /** the alignment of the element in SERP
-can take the following values:
-left, right */
+        /** the alignment of the element in SERP can take the following values: left, right */
         position?: string | undefined
         
         /** the XPath of the element */
@@ -39,22 +34,17 @@ export class BaseDataforseoLabsKnowledgeGraphElementItem  implements IBaseDatafo
     type?: string | undefined;
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+    /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP
-absolute position among all the elements in SERP */
+    /** absolute rank in SERP absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
 
     
-    /** the alignment of the element in SERP
-can take the following values:
-left, right */
+    /** the alignment of the element in SERP can take the following values: left, right */
 
     position?: string | undefined;
 
@@ -252,9 +242,7 @@ export interface IDataforseoLabsKnowledgeGraphCarouselItemElementItem  extends I
         /** title of the result in SERP */
         title?: string | undefined
         
-        /** google defined data attribute ID
-example:
-action:listen_artist */
+        /** google defined data attribute ID example: action:listen_artist */
         data_attrid?: string | undefined
         
         /** link of the element */
@@ -275,9 +263,7 @@ export class DataforseoLabsKnowledgeGraphCarouselItemElementItem  extends BaseDa
     title?: string | undefined;
 
     
-    /** google defined data attribute ID
-example:
-action:listen_artist */
+    /** google defined data attribute ID example: action:listen_artist */
 
     data_attrid?: string | undefined;
 
@@ -356,9 +342,7 @@ export interface IDataforseoLabsKnowledgeGraphDescriptionItemElementItem  extend
         /** description content */
         text?: string | undefined
         
-        /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+        /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
         links?: KnowledgeGraphLinkElementInfo[] | undefined
 
     [key: string]: any;
@@ -373,9 +357,7 @@ export class DataforseoLabsKnowledgeGraphDescriptionItemElementItem  extends Bas
     text?: string | undefined;
 
     
-    /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+    /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
 
     links?: KnowledgeGraphLinkElementInfo[] | undefined;
 
@@ -440,9 +422,7 @@ export interface IDataforseoLabsKnowledgeGraphListItemElementItem  extends IBase
         /** title of the result in SERP */
         title?: string | undefined
         
-        /** google defined data attribute ID
-example:
-action:listen_artist */
+        /** google defined data attribute ID example: action:listen_artist */
         data_attrid?: string | undefined
         
         /** link of the element */
@@ -463,9 +443,7 @@ export class DataforseoLabsKnowledgeGraphListItemElementItem  extends BaseDatafo
     title?: string | undefined;
 
     
-    /** google defined data attribute ID
-example:
-action:listen_artist */
+    /** google defined data attribute ID example: action:listen_artist */
 
     data_attrid?: string | undefined;
 
@@ -544,17 +522,13 @@ export interface IDataforseoLabsKnowledgeGraphPartItemElementItem  extends IBase
         /** title of the result in SERP */
         title?: string | undefined
         
-        /** google defined data attribute ID
-example:
-action:listen_artist */
+        /** google defined data attribute ID example: action:listen_artist */
         data_attrid?: string | undefined
         
         /** description content */
         text?: string | undefined
         
-        /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+        /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
         links?: LinkElement[] | undefined
 
     [key: string]: any;
@@ -569,9 +543,7 @@ export class DataforseoLabsKnowledgeGraphPartItemElementItem  extends BaseDatafo
     title?: string | undefined;
 
     
-    /** google defined data attribute ID
-example:
-action:listen_artist */
+    /** google defined data attribute ID example: action:listen_artist */
 
     data_attrid?: string | undefined;
 
@@ -581,9 +553,7 @@ action:listen_artist */
     text?: string | undefined;
 
     
-    /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+    /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
 
     links?: LinkElement[] | undefined;
 
@@ -652,9 +622,7 @@ export interface IDataforseoLabsKnowledgeGraphExpandedItemElementItem  extends I
         /** title of the result in SERP */
         title?: string | undefined
         
-        /** google defined data attribute ID
-example:
-action:listen_artist */
+        /** google defined data attribute ID example: action:listen_artist */
         data_attrid?: string | undefined
         
         /** link of the element */
@@ -672,9 +640,7 @@ export class DataforseoLabsKnowledgeGraphExpandedItemElementItem  extends BaseDa
     title?: string | undefined;
 
     
-    /** google defined data attribute ID
-example:
-action:listen_artist */
+    /** google defined data attribute ID example: action:listen_artist */
 
     data_attrid?: string | undefined;
 
@@ -733,17 +699,13 @@ export interface IDataforseoLabsKnowledgeGraphRowItemElementItem  extends IBaseD
         /** title of the result in SERP */
         title?: string | undefined
         
-        /** google defined data attribute ID
-example:
-action:listen_artist */
+        /** google defined data attribute ID example: action:listen_artist */
         data_attrid?: string | undefined
         
         /** description content */
         text?: string | undefined
         
-        /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+        /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
         links?: LinkElement[] | undefined
 
     [key: string]: any;
@@ -758,9 +720,7 @@ export class DataforseoLabsKnowledgeGraphRowItemElementItem  extends BaseDatafor
     title?: string | undefined;
 
     
-    /** google defined data attribute ID
-example:
-action:listen_artist */
+    /** google defined data attribute ID example: action:listen_artist */
 
     data_attrid?: string | undefined;
 
@@ -770,9 +730,7 @@ action:listen_artist */
     text?: string | undefined;
 
     
-    /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+    /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
 
     links?: LinkElement[] | undefined;
 
@@ -841,9 +799,7 @@ export interface IDataforseoLabsKnowledgeGraphShoppingItemElementItem  extends I
         /** title of the result in SERP */
         title?: string | undefined
         
-        /** google defined data attribute ID
-example:
-action:listen_artist */
+        /** google defined data attribute ID example: action:listen_artist */
         data_attrid?: string | undefined
         
         /** historical SERPs and related data found in the database */
@@ -861,9 +817,7 @@ export class DataforseoLabsKnowledgeGraphShoppingItemElementItem  extends BaseDa
     title?: string | undefined;
 
     
-    /** google defined data attribute ID
-example:
-action:listen_artist */
+    /** google defined data attribute ID example: action:listen_artist */
 
     data_attrid?: string | undefined;
 

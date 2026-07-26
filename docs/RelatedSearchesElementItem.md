@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**items** | **string[]** | additional items present in the elementif there are none, equals null |[optional]|
+**items** | **string[]** | *additional items present in the element*. if there are none, equals `null` |[optional]|

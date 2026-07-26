@@ -9,16 +9,13 @@ export interface IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo   {
         /** keyword in a POST array */
         seed_keyword?: string | undefined
         
-        /** keyword data for the seed keyword
-fields in this object are identical to those of the items array */
+        /** keyword data for the seed keyword fields in this object are identical to those of the items array */
         seed_keyword_data?: KeywordDataInfo | undefined
         
-        /** location code in a POST array
-if there is no data, then the value is null */
+        /** location code in a POST array if there is no data, then the value is null */
         location_code?: number | undefined
         
-        /** language code in a POST array
-if there is no data, then the value is null */
+        /** language code in a POST array if there is no data, then the value is null */
         language_code?: string | undefined
         
         /** total amount of results in our database relevant to your request */
@@ -30,9 +27,7 @@ if there is no data, then the value is null */
         /** current offset value */
         offset?: number | undefined
         
-        /** offset token for subsequent requests
-you can use the string provided in this field to get the subsequent results of the initial task;
-note: offset_token values are unique for each subsequent task */
+        /** offset token for subsequent requests you can use the string provided in this field to get the subsequent results of the initial task; note: offset_token values are unique for each subsequent task */
         offset_token?: string | undefined
         
         /** contains keywords and related data */
@@ -55,20 +50,17 @@ export class DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo  implements ID
     seed_keyword?: string | undefined;
 
     
-    /** keyword data for the seed keyword
-fields in this object are identical to those of the items array */
+    /** keyword data for the seed keyword fields in this object are identical to those of the items array */
 
     seed_keyword_data?: KeywordDataInfo | undefined;
 
     
-    /** location code in a POST array
-if there is no data, then the value is null */
+    /** location code in a POST array if there is no data, then the value is null */
 
     location_code?: number | undefined;
 
     
-    /** language code in a POST array
-if there is no data, then the value is null */
+    /** language code in a POST array if there is no data, then the value is null */
 
     language_code?: string | undefined;
 
@@ -88,9 +80,7 @@ if there is no data, then the value is null */
     offset?: number | undefined;
 
     
-    /** offset token for subsequent requests
-you can use the string provided in this field to get the subsequent results of the initial task;
-note: offset_token values are unique for each subsequent task */
+    /** offset token for subsequent requests you can use the string provided in this field to get the subsequent results of the initial task; note: offset_token values are unique for each subsequent task */
 
     offset_token?: string | undefined;
 

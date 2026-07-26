@@ -3,20 +3,18 @@ import { AiOptimizationLlmMentionsSearchMentionsLiveItem, IAiOptimizationLlmMent
 
 export interface IAiOptimizationLlmMentionsSearchMentionsLiveResultInfo   {
         
-        /** total amount of results relevant the request */
+        /** *total amount of results relevant the request* */
         total_count?: number | undefined
         
         offset?: number | undefined
         
-        /** token for subsequent requests
-by specifying the unique search_after_token when setting a new task, you will get the subsequent results of the initial task;
-search_after_token values are unique for each subsequent task */
+        /** *token for subsequent requests* by specifying the unique `search_after_token` when setting a new task, you will get the subsequent results of the initial task; `search_after_token` values are unique for each subsequent task */
         search_after_token?: string | undefined
         
-        /** the number of results returned in the items array */
+        /** *the number of results returned in the `items` array* */
         items_count?: number | undefined
         
-        /** contains relevant mentions data */
+        /** *contains relevant mentions data* */
         items?: AiOptimizationLlmMentionsSearchMentionsLiveItem[] | undefined
 
     [key: string]: any;
@@ -26,26 +24,24 @@ search_after_token values are unique for each subsequent task */
 export class AiOptimizationLlmMentionsSearchMentionsLiveResultInfo  implements IAiOptimizationLlmMentionsSearchMentionsLiveResultInfo {
 
     
-    /** total amount of results relevant the request */
+    /** *total amount of results relevant the request* */
 
     total_count?: number | undefined;
 
     offset?: number | undefined;
 
     
-    /** token for subsequent requests
-by specifying the unique search_after_token when setting a new task, you will get the subsequent results of the initial task;
-search_after_token values are unique for each subsequent task */
+    /** *token for subsequent requests* by specifying the unique `search_after_token` when setting a new task, you will get the subsequent results of the initial task; `search_after_token` values are unique for each subsequent task */
 
     search_after_token?: string | undefined;
 
     
-    /** the number of results returned in the items array */
+    /** *the number of results returned in the `items` array* */
 
     items_count?: number | undefined;
 
     
-    /** contains relevant mentions data */
+    /** *contains relevant mentions data* */
 
     items?: AiOptimizationLlmMentionsSearchMentionsLiveItem[] | undefined;
 

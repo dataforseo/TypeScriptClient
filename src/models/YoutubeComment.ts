@@ -3,13 +3,10 @@ export interface IYoutubeComment   {
         /** type of element */
         type?: string | undefined
         
-        /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+        /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP for the target domain
-absolute position among all the elements in SERP */
+        /** absolute rank in SERP for the target domain absolute position among all the elements in SERP */
         rank_absolute?: number | undefined
         
         /** name of the author of the comment */
@@ -27,10 +24,7 @@ absolute position among all the elements in SERP */
         /** displayed publication date */
         publication_date?: string | undefined
         
-        /** date and time when the result was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2022-11-15 12:57:46 +00:00 */
+        /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2022-11-15 12:57:46 +00:00 */
         timestamp?: string | undefined
         
         /** number of likes on the comment */
@@ -51,15 +45,12 @@ export class YoutubeComment  implements IYoutubeComment {
     type?: string | undefined;
 
     
-    /** group rank in SERP
-position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+    /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP for the target domain
-absolute position among all the elements in SERP */
+    /** absolute rank in SERP for the target domain absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
 
@@ -89,10 +80,7 @@ absolute position among all the elements in SERP */
     publication_date?: string | undefined;
 
     
-    /** date and time when the result was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2022-11-15 12:57:46 +00:00 */
+    /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2022-11-15 12:57:46 +00:00 */
 
     timestamp?: string | undefined;
 

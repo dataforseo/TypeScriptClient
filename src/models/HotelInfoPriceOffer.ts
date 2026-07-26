@@ -9,25 +9,19 @@ export interface IHotelInfoPriceOffer   {
         /** price per night */
         price?: number | undefined
         
-        /** price currency
-USD is applied by default, unless specified in the POST array */
+        /** price currency USD is applied by default, unless specified in the POST array */
         currency?: string | undefined
         
-        /** url of the price offer
-URL to the page of the website where price offer appears */
+        /** url of the price offer URL to the page of the website where price offer appears */
         url?: string | undefined
         
-        /** the maximal number of visitors
-the maximum number of visitors for which the price offer is valid */
+        /** the maximal number of visitors the maximum number of visitors for which the price offer is valid */
         max_visitors?: number | undefined
         
-        /** price offer images
-URLs of the images featured in the price offer */
+        /** price offer images URLs of the images featured in the price offer */
         offer_images?: string[] | undefined
         
-        /** date until free cancellation is available
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-equals null if free cancellation is not available for the selected dates */
+        /** date until free cancellation is available in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” equals null if free cancellation is not available for the selected dates */
         free_cancellation_until?: string | undefined
 
     [key: string]: any;
@@ -52,33 +46,27 @@ export class HotelInfoPriceOffer  implements IHotelInfoPriceOffer {
     price?: number | undefined;
 
     
-    /** price currency
-USD is applied by default, unless specified in the POST array */
+    /** price currency USD is applied by default, unless specified in the POST array */
 
     currency?: string | undefined;
 
     
-    /** url of the price offer
-URL to the page of the website where price offer appears */
+    /** url of the price offer URL to the page of the website where price offer appears */
 
     url?: string | undefined;
 
     
-    /** the maximal number of visitors
-the maximum number of visitors for which the price offer is valid */
+    /** the maximal number of visitors the maximum number of visitors for which the price offer is valid */
 
     max_visitors?: number | undefined;
 
     
-    /** price offer images
-URLs of the images featured in the price offer */
+    /** price offer images URLs of the images featured in the price offer */
 
     offer_images?: string[] | undefined;
 
     
-    /** date until free cancellation is available
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-equals null if free cancellation is not available for the selected dates */
+    /** date until free cancellation is available in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” equals null if free cancellation is not available for the selected dates */
 
     free_cancellation_until?: string | undefined;
 

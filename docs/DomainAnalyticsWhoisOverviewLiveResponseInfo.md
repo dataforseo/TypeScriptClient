@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **DomainAnalyticsWhoisOverviewLiveTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **DomainAnalyticsWhoisOverviewLiveTaskInfo[]** | *array of tasks* |[optional]|

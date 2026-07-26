@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface IBusinessDataBusinessListingsCategoriesAggregationLiveResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: BusinessDataBusinessListingsCategoriesAggregationLiveTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IBusinessDataBusinessListingsCategoriesAggregationLiveResponseI
 export class BusinessDataBusinessListingsCategoriesAggregationLiveResponseInfo  extends BaseResponseInfo   implements IBusinessDataBusinessListingsCategoriesAggregationLiveResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: BusinessDataBusinessListingsCategoriesAggregationLiveTaskInfo[] | undefined;
 

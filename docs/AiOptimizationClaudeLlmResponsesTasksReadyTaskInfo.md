@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **AiOptimizationClaudeLlmResponsesTasksReadyResultInfo[]** | array of results |[optional]|
+**result** | **AiOptimizationClaudeLlmResponsesTasksReadyResultInfo[]** | *array of results* |[optional]|

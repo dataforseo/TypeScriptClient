@@ -15,9 +15,7 @@ export interface IKnowledgeGraphShoppingElement   {
         /** domain where a link points */
         domain?: string | undefined
         
-        /** pricing details
-contains the pricing details of the product or service featured in the result;
-if there is none, equals null */
+        /** pricing details contains the pricing details of the product or service featured in the result; if there is none, equals null */
         price?: PriceInfo | undefined
         
         /** reference source name or title */
@@ -26,14 +24,10 @@ if there is none, equals null */
         /** text alongside the link title */
         snippet?: string | undefined
         
-        /** merchant account provider
-ecommerce site that hosts products or websites of individual sellers under the same merchant account
-example:
-by Google */
+        /** merchant account provider ecommerce site that hosts products or websites of individual sellers under the same merchant account example: by Google */
         marketplace?: string | undefined
         
-        /** URL to the merchant account provider
-ecommerce site that hosts products or websites of individual sellers under the same merchant account */
+        /** URL to the merchant account provider ecommerce site that hosts products or websites of individual sellers under the same merchant account */
         marketplace_url?: string | undefined
 
     [key: string]: any;
@@ -63,9 +57,7 @@ export class KnowledgeGraphShoppingElement  implements IKnowledgeGraphShoppingEl
     domain?: string | undefined;
 
     
-    /** pricing details
-contains the pricing details of the product or service featured in the result;
-if there is none, equals null */
+    /** pricing details contains the pricing details of the product or service featured in the result; if there is none, equals null */
 
     price?: PriceInfo | undefined;
 
@@ -80,16 +72,12 @@ if there is none, equals null */
     snippet?: string | undefined;
 
     
-    /** merchant account provider
-ecommerce site that hosts products or websites of individual sellers under the same merchant account
-example:
-by Google */
+    /** merchant account provider ecommerce site that hosts products or websites of individual sellers under the same merchant account example: by Google */
 
     marketplace?: string | undefined;
 
     
-    /** URL to the merchant account provider
-ecommerce site that hosts products or websites of individual sellers under the same merchant account */
+    /** URL to the merchant account provider ecommerce site that hosts products or websites of individual sellers under the same merchant account */
 
     marketplace_url?: string | undefined;
 

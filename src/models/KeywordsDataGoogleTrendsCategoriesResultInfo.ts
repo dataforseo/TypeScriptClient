@@ -6,14 +6,7 @@ export interface IKeywordsDataGoogleTrendsCategoriesResultInfo   {
         /** name of the google trends category */
         category_name?: string | undefined
         
-        /** the code of the superordinate category
-example:
-'category_code': 1100,
-'category_name': 'Superhero Films',
-'category_code_parent': 1097
-where category_code_parent corresponds to:
-'category_code': 1097,
-'category_name': 'Action & Adventure Films' */
+        /** the code of the superordinate category example: 'category_code': 1100, 'category_name': 'Superhero Films', 'category_code_parent': 1097 where category_code_parent corresponds to: 'category_code': 1097, 'category_name': 'Action & Adventure Films' */
         category_code_parent?: number | undefined
 
     [key: string]: any;
@@ -33,14 +26,7 @@ export class KeywordsDataGoogleTrendsCategoriesResultInfo  implements IKeywordsD
     category_name?: string | undefined;
 
     
-    /** the code of the superordinate category
-example:
-'category_code': 1100,
-'category_name': 'Superhero Films',
-'category_code_parent': 1097
-where category_code_parent corresponds to:
-'category_code': 1097,
-'category_name': 'Action & Adventure Films' */
+    /** the code of the superordinate category example: 'category_code': 1100, 'category_name': 'Superhero Films', 'category_code_parent': 1097 where category_code_parent corresponds to: 'category_code': 1097, 'category_name': 'Action & Adventure Films' */
 
     category_code_parent?: number | undefined;
 

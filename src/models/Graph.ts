@@ -6,8 +6,7 @@ export interface IGraph   {
         /** contains arrays of elements available in the list */
         items?: GraphElement[] | undefined
         
-        /** previous close data
-contains stock price data based on the preceding time period */
+        /** previous close data contains stock price data based on the preceding time period */
         previous_items?: GraphElement[] | undefined
 
     [key: string]: any;
@@ -22,8 +21,7 @@ export class Graph  implements IGraph {
     items?: GraphElement[] | undefined;
 
     
-    /** previous close data
-contains stock price data based on the preceding time period */
+    /** previous close data contains stock price data based on the preceding time period */
 
     previous_items?: GraphElement[] | undefined;
 

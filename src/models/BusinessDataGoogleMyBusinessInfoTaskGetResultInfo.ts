@@ -3,12 +3,7 @@ import { GoogleBusinessInfo, IGoogleBusinessInfo } from "./GoogleBusinessInfo";
 
 export interface IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo   {
         
-        /** keyword received in a POST array
-keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
-this field will contain the cid parameter if you specified it in the keyword field when setting a task;
-example:
-cid:2946633002421908862
-learn more about the parameter in this help center article */
+        /** keyword received in a POST array keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) this field will contain the cid parameter if you specified it in the keyword field when setting a task; example: cid:2946633002421908862 learn more about the parameter in this help center article */
         keyword?: string | undefined
         
         /** search engine domain as specified in a POST array */
@@ -20,23 +15,16 @@ learn more about the parameter in this help center article */
         /** language code in a POST array */
         language_code?: string | undefined
         
-        /** direct URL to search engine results
-you can use it to make sure that we provided accurate results */
+        /** direct URL to search engine results you can use it to make sure that we provided accurate results */
         check_url?: string | undefined
         
-        /** date and time when the result was received
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** date and time when the result was received in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
         datetime?: string | undefined
         
-        /** item types
-types of search engine results encountered in the items array;
-possible item types: google_business_info */
+        /** item types types of search engine results encountered in the items array; possible item types: google_business_info */
         item_types?: string[] | undefined
         
-        /** item types
-the number of items in the items array */
+        /** item types the number of items in the items array */
         items_count?: number | undefined
         
         /** array of directory items */
@@ -49,12 +37,7 @@ the number of items in the items array */
 export class BusinessDataGoogleMyBusinessInfoTaskGetResultInfo  implements IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo {
 
     
-    /** keyword received in a POST array
-keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
-this field will contain the cid parameter if you specified it in the keyword field when setting a task;
-example:
-cid:2946633002421908862
-learn more about the parameter in this help center article */
+    /** keyword received in a POST array keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) this field will contain the cid parameter if you specified it in the keyword field when setting a task; example: cid:2946633002421908862 learn more about the parameter in this help center article */
 
     keyword?: string | undefined;
 
@@ -74,29 +57,22 @@ learn more about the parameter in this help center article */
     language_code?: string | undefined;
 
     
-    /** direct URL to search engine results
-you can use it to make sure that we provided accurate results */
+    /** direct URL to search engine results you can use it to make sure that we provided accurate results */
 
     check_url?: string | undefined;
 
     
-    /** date and time when the result was received
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** date and time when the result was received in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
 
     datetime?: string | undefined;
 
     
-    /** item types
-types of search engine results encountered in the items array;
-possible item types: google_business_info */
+    /** item types types of search engine results encountered in the items array; possible item types: google_business_info */
 
     item_types?: string[] | undefined;
 
     
-    /** item types
-the number of items in the items array */
+    /** item types the number of items in the items array */
 
     items_count?: number | undefined;
 

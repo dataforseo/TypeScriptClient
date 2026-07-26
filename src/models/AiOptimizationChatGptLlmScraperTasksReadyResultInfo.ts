@@ -1,32 +1,27 @@
 export interface IAiOptimizationChatGptLlmScraperTasksReadyResultInfo   {
         
-        /** task identifier of the completed task
-unique task identifier in our system in the UUID format */
+        /** *task identifier of the completed task* **unique task identifier in our system in the [UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier) format** */
         id?: string | undefined
         
-        /** search engine specified when setting the task */
+        /** *search engine specified when setting the task* */
         se?: string | undefined
         
-        /** type of search engine
-example: {{low_se_type_under}} */
+        /** *type of search engine* example: `{{low_se_type_under}}` */
         se_type?: string | undefined
         
-        /** date when the task was posted (in the UTC format) */
+        /** *date when the task was posted (in the UTC format)* */
         date_posted?: string | undefined
         
-        /** user-defined task identifier */
+        /** *user-defined task identifier* */
         tag?: string | undefined
         
-        /** URL for collecting the results of the Regular task
-if the Regular function is not supported in the specified endpoint, the value will be null */
+        /** *URL for collecting the results of the Regular task* if the Regular function is not supported in the specified endpoint, the value will be `null` */
         endpoint_regular?: string | undefined
         
-        /** URL for collecting the results of the Advanced task
-if the Advanced function is not supported in the specified endpoint, the value will be null */
+        /** *URL for collecting the results of the Advanced task* if the Advanced function is not supported in the specified endpoint, the value will be `null` */
         endpoint_advanced?: string | undefined
         
-        /** URL for collecting the results of the HTML task
-if the HTML function is not supported in the specified endpoint, the value will be null */
+        /** *URL for collecting the results of the HTML task* if the HTML function is not supported in the specified endpoint, the value will be `null` */
         endpoint_html?: string | undefined
 
     [key: string]: any;
@@ -36,47 +31,42 @@ if the HTML function is not supported in the specified endpoint, the value will 
 export class AiOptimizationChatGptLlmScraperTasksReadyResultInfo  implements IAiOptimizationChatGptLlmScraperTasksReadyResultInfo {
 
     
-    /** task identifier of the completed task
-unique task identifier in our system in the UUID format */
+    /** *task identifier of the completed task* **unique task identifier in our system in the [UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier) format** */
 
     id?: string | undefined;
 
     
-    /** search engine specified when setting the task */
+    /** *search engine specified when setting the task* */
 
     se?: string | undefined;
 
     
-    /** type of search engine
-example: {{low_se_type_under}} */
+    /** *type of search engine* example: `{{low_se_type_under}}` */
 
     se_type?: string | undefined;
 
     
-    /** date when the task was posted (in the UTC format) */
+    /** *date when the task was posted (in the UTC format)* */
 
     date_posted?: string | undefined;
 
     
-    /** user-defined task identifier */
+    /** *user-defined task identifier* */
 
     tag?: string | undefined;
 
     
-    /** URL for collecting the results of the Regular task
-if the Regular function is not supported in the specified endpoint, the value will be null */
+    /** *URL for collecting the results of the Regular task* if the Regular function is not supported in the specified endpoint, the value will be `null` */
 
     endpoint_regular?: string | undefined;
 
     
-    /** URL for collecting the results of the Advanced task
-if the Advanced function is not supported in the specified endpoint, the value will be null */
+    /** *URL for collecting the results of the Advanced task* if the Advanced function is not supported in the specified endpoint, the value will be `null` */
 
     endpoint_advanced?: string | undefined;
 
     
-    /** URL for collecting the results of the HTML task
-if the HTML function is not supported in the specified endpoint, the value will be null */
+    /** *URL for collecting the results of the HTML task* if the HTML function is not supported in the specified endpoint, the value will be `null` */
 
     endpoint_html?: string | undefined;
 

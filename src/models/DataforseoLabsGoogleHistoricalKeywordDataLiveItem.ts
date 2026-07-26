@@ -6,8 +6,7 @@ export interface IDataforseoLabsGoogleHistoricalKeywordDataLiveItem   {
         /** search engine type */
         se_type?: string | undefined
         
-        /** keyword
-keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
+        /** keyword keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
         keyword?: string | undefined
         
         /** location code in a POST array */
@@ -31,8 +30,7 @@ export class DataforseoLabsGoogleHistoricalKeywordDataLiveItem  implements IData
     se_type?: string | undefined;
 
     
-    /** keyword
-keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
+    /** keyword keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
 
     keyword?: string | undefined;
 

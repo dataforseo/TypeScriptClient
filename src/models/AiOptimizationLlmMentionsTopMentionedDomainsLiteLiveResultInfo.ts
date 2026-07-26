@@ -3,21 +3,19 @@ import { AiOptimizationLlmMentionsTopMentionedDomainsLiteLiveItem, IAiOptimizati
 
 export interface IAiOptimizationLlmMentionsTopMentionedDomainsLiteLiveResultInfo   {
         
-        /** total number of results */
+        /** *total number of results* */
         total_count?: number | undefined
         
-        /** offset in the results array of the returned mentions data
-offset specified in the reqest */
+        /** *offset in the results array of the returned mentions data* `offset` specified in the reqest */
         offset?: number | undefined
         
-        /** number of items in the results array */
+        /** *number of items in the results array* */
         items_count?: number | undefined
         
-        /** aggregated mentions metrics summary
-contains overall aggregated LLM mention metrics across all found domains, grouped by various dimensionsin this case, the value will be null */
+        /** *aggregated mentions metrics summary* contains overall aggregated LLM mention metrics across all found domains, grouped by various dimensionsin this case, the value will be `null` */
         aggregated_metrics?: any | undefined
         
-        /** contains relevant mentions data */
+        /** *contains relevant mentions data* */
         items?: AiOptimizationLlmMentionsTopMentionedDomainsLiteLiveItem[] | undefined
 
     [key: string]: any;
@@ -27,29 +25,27 @@ contains overall aggregated LLM mention metrics across all found domains, groupe
 export class AiOptimizationLlmMentionsTopMentionedDomainsLiteLiveResultInfo  implements IAiOptimizationLlmMentionsTopMentionedDomainsLiteLiveResultInfo {
 
     
-    /** total number of results */
+    /** *total number of results* */
 
     total_count?: number | undefined;
 
     
-    /** offset in the results array of the returned mentions data
-offset specified in the reqest */
+    /** *offset in the results array of the returned mentions data* `offset` specified in the reqest */
 
     offset?: number | undefined;
 
     
-    /** number of items in the results array */
+    /** *number of items in the results array* */
 
     items_count?: number | undefined;
 
     
-    /** aggregated mentions metrics summary
-contains overall aggregated LLM mention metrics across all found domains, grouped by various dimensionsin this case, the value will be null */
+    /** *aggregated mentions metrics summary* contains overall aggregated LLM mention metrics across all found domains, grouped by various dimensionsin this case, the value will be `null` */
 
     aggregated_metrics?: any | undefined;
 
     
-    /** contains relevant mentions data */
+    /** *contains relevant mentions data* */
 
     items?: AiOptimizationLlmMentionsTopMentionedDomainsLiteLiveItem[] | undefined;
 

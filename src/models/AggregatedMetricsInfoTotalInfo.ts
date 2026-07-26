@@ -1,11 +1,9 @@
 export interface IAggregatedMetricsInfoTotalInfo   {
         
-        /** total LLM mentions count
-the number of times the target keyword or domain were mentioned in relation to this specific grouping key */
+        /** *total LLM mentions count* the number of times the target keyword or domain were mentioned in relation to this specific grouping key */
         mentions?: number | undefined
         
-        /** aggregated AI search volume for mentions within this grouping
-learn more about this metric here */
+        /** *aggregated AI search volume for mentions within this grouping* learn more about this metric [here](https://dataforseo.com/help-center/how-the-ai-search-volume-metric-works-in-llm-mentions) */
         ai_search_volume?: number | undefined
 
     [key: string]: any;
@@ -15,14 +13,12 @@ learn more about this metric here */
 export class AggregatedMetricsInfoTotalInfo  implements IAggregatedMetricsInfoTotalInfo {
 
     
-    /** total LLM mentions count
-the number of times the target keyword or domain were mentioned in relation to this specific grouping key */
+    /** *total LLM mentions count* the number of times the target keyword or domain were mentioned in relation to this specific grouping key */
 
     mentions?: number | undefined;
 
     
-    /** aggregated AI search volume for mentions within this grouping
-learn more about this metric here */
+    /** *aggregated AI search volume for mentions within this grouping* learn more about this metric [here](https://dataforseo.com/help-center/how-the-ai-search-volume-metric-works-in-llm-mentions) */
 
     ai_search_volume?: number | undefined;
 

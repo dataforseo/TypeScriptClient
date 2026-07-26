@@ -3,10 +3,10 @@ import { BacklinksBulkNewLostBacklinksLiveItem, IBacklinksBulkNewLostBacklinksLi
 
 export interface IBacklinksBulkNewLostBacklinksLiveResultInfo   {
         
-        /** the number of results returned in the items array */
+        /** *the number of results returned in the `items` array* */
         items_count?: number | undefined
         
-        /** contains relevant backlinks and referring domains data */
+        /** *contains relevant backlinks and referring domains data* */
         items?: BacklinksBulkNewLostBacklinksLiveItem[] | undefined
 
     [key: string]: any;
@@ -16,12 +16,12 @@ export interface IBacklinksBulkNewLostBacklinksLiveResultInfo   {
 export class BacklinksBulkNewLostBacklinksLiveResultInfo  implements IBacklinksBulkNewLostBacklinksLiveResultInfo {
 
     
-    /** the number of results returned in the items array */
+    /** *the number of results returned in the `items` array* */
 
     items_count?: number | undefined;
 
     
-    /** contains relevant backlinks and referring domains data */
+    /** *contains relevant backlinks and referring domains data* */
 
     items?: BacklinksBulkNewLostBacklinksLiveItem[] | undefined;
 

@@ -1,7 +1,6 @@
 export interface IKeywordsDataBingKeywordsForSiteTasksReadyResultInfo   {
         
-        /** task identifier of the completed task
-unique task identifier in our system in the UUID format */
+        /** task identifier of the completed task unique task identifier in our system in the UUID format */
         id?: string | undefined
         
         /** search engine specified when setting the task */
@@ -27,8 +26,7 @@ unique task identifier in our system in the UUID format */
 export class KeywordsDataBingKeywordsForSiteTasksReadyResultInfo  implements IKeywordsDataBingKeywordsForSiteTasksReadyResultInfo {
 
     
-    /** task identifier of the completed task
-unique task identifier in our system in the UUID format */
+    /** task identifier of the completed task unique task identifier in our system in the UUID format */
 
     id?: string | undefined;
 

@@ -3,12 +3,10 @@ import { AiOptimizationLlmMentionsHistoricalLiveItem, IAiOptimizationLlmMentions
 
 export interface IAiOptimizationLlmMentionsHistoricalLiveResultInfo   {
         
-        /** the number of resuts returned in the items array */
+        /** *the number of resuts returned in the `items` array* */
         items_count?: number | undefined
         
-        /** array of historical mention metrics
-contains objects with historical mention metrics for the specified target
-each object contains aggregated mentions metrics for one calendar month */
+        /** *array of historical mention metrics* contains objects with historical mention metrics for the specified target each object contains aggregated mentions metrics for one calendar month */
         items?: AiOptimizationLlmMentionsHistoricalLiveItem[] | undefined
 
     [key: string]: any;
@@ -18,14 +16,12 @@ each object contains aggregated mentions metrics for one calendar month */
 export class AiOptimizationLlmMentionsHistoricalLiveResultInfo  implements IAiOptimizationLlmMentionsHistoricalLiveResultInfo {
 
     
-    /** the number of resuts returned in the items array */
+    /** *the number of resuts returned in the `items` array* */
 
     items_count?: number | undefined;
 
     
-    /** array of historical mention metrics
-contains objects with historical mention metrics for the specified target
-each object contains aggregated mentions metrics for one calendar month */
+    /** *array of historical mention metrics* contains objects with historical mention metrics for the specified target each object contains aggregated mentions metrics for one calendar month */
 
     items?: AiOptimizationLlmMentionsHistoricalLiveItem[] | undefined;
 

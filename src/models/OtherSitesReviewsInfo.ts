@@ -3,20 +3,16 @@ import { RatingInfo, IRatingInfo } from "./RatingInfo";
 
 export interface IOtherSitesReviewsInfo   {
         
-        /** review title
-contains a name of the third-party site where review initially appeared */
+        /** *review title* contains a name of the third-party site where review initially appeared */
         title?: string | undefined
         
-        /** review url
-URL to the a third-party site where review initially appeared */
+        /** *review url* URL to the a third-party site where review initially appeared */
         url?: string | undefined
         
-        /** review text
-text of the review */
+        /** *review text* text of the review */
         review_text?: string | undefined
         
-        /** rating in the review
-information about the rating enclosed in the review on a third-party site */
+        /** *rating in the review* information about the rating enclosed in the review on a third-party site */
         rating?: RatingInfo | undefined
 
     [key: string]: any;
@@ -26,26 +22,22 @@ information about the rating enclosed in the review on a third-party site */
 export class OtherSitesReviewsInfo  implements IOtherSitesReviewsInfo {
 
     
-    /** review title
-contains a name of the third-party site where review initially appeared */
+    /** *review title* contains a name of the third-party site where review initially appeared */
 
     title?: string | undefined;
 
     
-    /** review url
-URL to the a third-party site where review initially appeared */
+    /** *review url* URL to the a third-party site where review initially appeared */
 
     url?: string | undefined;
 
     
-    /** review text
-text of the review */
+    /** *review text* text of the review */
 
     review_text?: string | undefined;
 
     
-    /** rating in the review
-information about the rating enclosed in the review on a third-party site */
+    /** *rating in the review* information about the rating enclosed in the review on a third-party site */
 
     rating?: RatingInfo | undefined;
 

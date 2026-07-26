@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **BacklinksCompetitorsLiveResultInfo[]** | array of results |[optional]|
+**result** | **BacklinksCompetitorsLiveResultInfo[]** | *array of results* |[optional]|

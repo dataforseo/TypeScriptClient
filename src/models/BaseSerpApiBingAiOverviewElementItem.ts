@@ -100,9 +100,7 @@ export class BaseSerpApiBingAiOverviewElementItem  implements IBaseSerpApiBingAi
  
 export interface ISerpApiBingAiOverviewElementItem  extends IBaseSerpApiBingAiOverviewElementItem    {
         
-        /** the alignment of the element in SERP
-can take the following values:
-left, right */
+        /** the alignment of the element in SERP can take the following values: left, right */
         position?: string | undefined
         
         /** title of the result in SERP */
@@ -114,16 +112,13 @@ left, right */
         /** content of the element in markdown format */
         markdown?: string | undefined
         
-        /** sitelinks
-the links shown below some search results
-if there are none, equals null */
+        /** sitelinks the links shown below some search results if there are none, equals null */
         links?: LinkElement[] | undefined
         
         /** images of the element */
         images?: AiModeImagesElementInfo[] | undefined
         
-        /** references relevant to the element
-includes references to webpages that were used to generate the ai_overview_element */
+        /** references relevant to the element includes references to webpages that were used to generate the ai_overview_element */
         references?: AiModeAiOverviewReferenceInfo[] | undefined
 
     [key: string]: any;
@@ -133,9 +128,7 @@ includes references to webpages that were used to generate the ai_overview_eleme
 export class SerpApiBingAiOverviewElementItem  extends BaseSerpApiBingAiOverviewElementItem   implements ISerpApiBingAiOverviewElementItem {
 
     
-    /** the alignment of the element in SERP
-can take the following values:
-left, right */
+    /** the alignment of the element in SERP can take the following values: left, right */
 
     position?: string | undefined;
 
@@ -155,9 +148,7 @@ left, right */
     markdown?: string | undefined;
 
     
-    /** sitelinks
-the links shown below some search results
-if there are none, equals null */
+    /** sitelinks the links shown below some search results if there are none, equals null */
 
     links?: LinkElement[] | undefined;
 
@@ -167,8 +158,7 @@ if there are none, equals null */
     images?: AiModeImagesElementInfo[] | undefined;
 
     
-    /** references relevant to the element
-includes references to webpages that were used to generate the ai_overview_element */
+    /** references relevant to the element includes references to webpages that were used to generate the ai_overview_element */
 
     references?: AiModeAiOverviewReferenceInfo[] | undefined;
 
@@ -266,9 +256,7 @@ includes references to webpages that were used to generate the ai_overview_eleme
  
 export interface ISerpApiBingAiOverviewVideoElementItem  extends IBaseSerpApiBingAiOverviewElementItem    {
         
-        /** the alignment of the element in SERP
-can take the following values:
-left, right */
+        /** the alignment of the element in SERP can take the following values: left, right */
         position?: string | undefined
         
         /** link anchor text */
@@ -283,21 +271,16 @@ left, right */
         /** domain in SERP */
         domain?: string | undefined
         
-        /** URL of the image
-the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+        /** URL of the image the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
         image_url?: string | undefined
         
-        /** source of the element
-indicates the source of information included in the questions_and_answers_element */
+        /** source of the element indicates the source of information included in the questions_and_answers_element */
         source?: string | undefined
         
         /** the date when the page source of the element was published */
         date?: string | undefined
         
-        /** date and time when the result was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
         timestamp?: string | undefined
 
     [key: string]: any;
@@ -307,9 +290,7 @@ example:
 export class SerpApiBingAiOverviewVideoElementItem  extends BaseSerpApiBingAiOverviewElementItem   implements ISerpApiBingAiOverviewVideoElementItem {
 
     
-    /** the alignment of the element in SERP
-can take the following values:
-left, right */
+    /** the alignment of the element in SERP can take the following values: left, right */
 
     position?: string | undefined;
 
@@ -334,14 +315,12 @@ left, right */
     domain?: string | undefined;
 
     
-    /** URL of the image
-the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+    /** URL of the image the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
     image_url?: string | undefined;
 
     
-    /** source of the element
-indicates the source of information included in the questions_and_answers_element */
+    /** source of the element indicates the source of information included in the questions_and_answers_element */
 
     source?: string | undefined;
 
@@ -351,10 +330,7 @@ indicates the source of information included in the questions_and_answers_elemen
     date?: string | undefined;
 
     
-    /** date and time when the result was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
 
     timestamp?: string | undefined;
 

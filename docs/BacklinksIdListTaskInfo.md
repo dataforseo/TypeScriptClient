@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **BacklinksIdListResultInfo[]** | array of results |[optional]|
+**result** | **BacklinksIdListResultInfo[]** | *array of results* |[optional]|

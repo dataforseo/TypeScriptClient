@@ -29,4 +29,4 @@
 **total_content_analysis** | **number** |  |[optional]|
 **content_generation** | **AppendixContentGenerationLimitsRatesDataInfo** |  |[optional]|
 **total_content_generation** | **number** |  |[optional]|
-**value** | **string** | time period for grouping<br>day in the yyyy-MM-dd format<br>minute in the yyyy-MM-dd HH:mm format |[optional]|
+**value** | **string** | time period for grouping. day in the yyyy-MM-dd format. minute in the yyyy-MM-dd HH:mm format |[optional]|

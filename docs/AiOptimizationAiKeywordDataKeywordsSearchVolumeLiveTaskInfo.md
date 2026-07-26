@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **AiOptimizationAiKeywordDataKeywordsSearchVolumeLiveResultInfo[]** | array of results |[optional]|
+**result** | **AiOptimizationAiKeywordDataKeywordsSearchVolumeLiveResultInfo[]** | *array of results* |[optional]|

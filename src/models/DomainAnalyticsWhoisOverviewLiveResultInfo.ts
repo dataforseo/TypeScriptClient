@@ -3,18 +3,18 @@ import { DomainAnalyticsWhoisOverviewLiveItem, IDomainAnalyticsWhoisOverviewLive
 
 export interface IDomainAnalyticsWhoisOverviewLiveResultInfo   {
         
-        /** total amount of results in our database relevant to your request */
+        /** *total amount of results in our database relevant to your request* */
         total_count?: number | undefined
         
-        /** the number of results returned in the items array */
+        /** *the number of results returned in the `items` array* */
         items_count?: number | undefined
         
-        /** results offset value specified in POST request */
+        /** *results offset value specified in POST request* */
         offset?: number | undefined
         
         offset_token?: string | undefined
         
-        /** contains ranking and traffic data */
+        /** *contains ranking and traffic data* */
         items?: DomainAnalyticsWhoisOverviewLiveItem[] | undefined
 
     [key: string]: any;
@@ -24,24 +24,24 @@ export interface IDomainAnalyticsWhoisOverviewLiveResultInfo   {
 export class DomainAnalyticsWhoisOverviewLiveResultInfo  implements IDomainAnalyticsWhoisOverviewLiveResultInfo {
 
     
-    /** total amount of results in our database relevant to your request */
+    /** *total amount of results in our database relevant to your request* */
 
     total_count?: number | undefined;
 
     
-    /** the number of results returned in the items array */
+    /** *the number of results returned in the `items` array* */
 
     items_count?: number | undefined;
 
     
-    /** results offset value specified in POST request */
+    /** *results offset value specified in POST request* */
 
     offset?: number | undefined;
 
     offset_token?: string | undefined;
 
     
-    /** contains ranking and traffic data */
+    /** *contains ranking and traffic data* */
 
     items?: DomainAnalyticsWhoisOverviewLiveItem[] | undefined;
 

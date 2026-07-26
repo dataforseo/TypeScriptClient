@@ -6,9 +6,7 @@ export interface IBacklinksReferringDomainsLiveResultInfo   {
         /** target in a POST array */
         target?: string | undefined
         
-        /** total number of relevant items in the database
-total number of main domains referring to your target;
-example.com and blog.example.com are counted as one referring domain */
+        /** total number of relevant items in the database total number of main domains referring to your target; example.com and blog.example.com are counted as one referring domain */
         total_count?: number | undefined
         
         /** number of items in the items array */
@@ -29,9 +27,7 @@ export class BacklinksReferringDomainsLiveResultInfo  implements IBacklinksRefer
     target?: string | undefined;
 
     
-    /** total number of relevant items in the database
-total number of main domains referring to your target;
-example.com and blog.example.com are counted as one referring domain */
+    /** total number of relevant items in the database total number of main domains referring to your target; example.com and blog.example.com are counted as one referring domain */
 
     total_count?: number | undefined;
 

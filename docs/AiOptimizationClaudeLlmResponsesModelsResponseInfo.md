@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **AiOptimizationClaudeLlmResponsesModelsTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **AiOptimizationClaudeLlmResponsesModelsTaskInfo[]** | *array of tasks* |[optional]|

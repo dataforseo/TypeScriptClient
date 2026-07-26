@@ -4,6 +4,6 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**year** | **number** | year |[optional]|
-**month** | **number** | month |[optional]|
-**ai_search_volume** | **number** | current AI search volume rate of a keyword<br>learn more about this metric here |[optional]|
+**year** | **number** | *year* |[optional]|
+**month** | **number** | *month* |[optional]|
+**ai_search_volume** | **number** | *current AI search volume rate of a keyword*. learn more about this metric [here](https://dataforseo.com/help-center/what-is-ai-search-volume-in-dataforseo) |[optional]|

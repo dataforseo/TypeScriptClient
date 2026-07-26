@@ -1,14 +1,12 @@
 export interface IMerchantGoogleProductInfoTasksReadyResultInfo   {
         
-        /** task identifier of the completed task
-unique task identifier in our system in the UUID format */
+        /** task identifier of the completed task unique task identifier in our system in the UUID format */
         id?: string | undefined
         
         /** search engine specified when setting the task */
         se?: string | undefined
         
-        /** type of search engine
-can take the following values: shopping_specifications */
+        /** type of search engine can take the following values: shopping_specifications */
         se_type?: string | undefined
         
         /** date when the task was posted (in the UTC format) */
@@ -20,8 +18,7 @@ can take the following values: shopping_specifications */
         /** URL for collecting the results of the Google Shopping Product Specifications Advanced task */
         endpoint_advanced?: string | undefined
         
-        /** URL for collecting the results of the Google Shopping Product Specifications HTML task
-note: HTML is not available for this endpoint, the value will be null */
+        /** URL for collecting the results of the Google Shopping Product Specifications HTML task note: HTML is not available for this endpoint, the value will be null */
         endpoint_html?: string | undefined
 
     [key: string]: any;
@@ -31,8 +28,7 @@ note: HTML is not available for this endpoint, the value will be null */
 export class MerchantGoogleProductInfoTasksReadyResultInfo  implements IMerchantGoogleProductInfoTasksReadyResultInfo {
 
     
-    /** task identifier of the completed task
-unique task identifier in our system in the UUID format */
+    /** task identifier of the completed task unique task identifier in our system in the UUID format */
 
     id?: string | undefined;
 
@@ -42,8 +38,7 @@ unique task identifier in our system in the UUID format */
     se?: string | undefined;
 
     
-    /** type of search engine
-can take the following values: shopping_specifications */
+    /** type of search engine can take the following values: shopping_specifications */
 
     se_type?: string | undefined;
 
@@ -63,8 +58,7 @@ can take the following values: shopping_specifications */
     endpoint_advanced?: string | undefined;
 
     
-    /** URL for collecting the results of the Google Shopping Product Specifications HTML task
-note: HTML is not available for this endpoint, the value will be null */
+    /** URL for collecting the results of the Google Shopping Product Specifications HTML task note: HTML is not available for this endpoint, the value will be null */
 
     endpoint_html?: string | undefined;
 

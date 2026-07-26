@@ -6,13 +6,10 @@ export interface IOnPageResourceIssueItemInfo   {
         /** column where the error was found */
         column?: number | undefined
         
-        /** text message of the error
-the full list of possible HTML errors can be found here */
+        /** text message of the error the full list of possible HTML errors can be found here */
         message?: string | undefined
         
-        /** general status code
-you can find the full list of the response codes here
-Note: we strongly recommend designing a necessary system for handling related exceptional or error conditions */
+        /** general status code you can find the full list of the response codes here Note: we strongly recommend designing a necessary system for handling related exceptional or error conditions */
         status_code?: number | undefined
 
     [key: string]: any;
@@ -32,15 +29,12 @@ export class OnPageResourceIssueItemInfo  implements IOnPageResourceIssueItemInf
     column?: number | undefined;
 
     
-    /** text message of the error
-the full list of possible HTML errors can be found here */
+    /** text message of the error the full list of possible HTML errors can be found here */
 
     message?: string | undefined;
 
     
-    /** general status code
-you can find the full list of the response codes here
-Note: we strongly recommend designing a necessary system for handling related exceptional or error conditions */
+    /** general status code you can find the full list of the response codes here Note: we strongly recommend designing a necessary system for handling related exceptional or error conditions */
 
     status_code?: number | undefined;
 

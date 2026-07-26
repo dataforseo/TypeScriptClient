@@ -1,13 +1,12 @@
 export interface IAiMonthlySearches   {
         
-        /** year */
+        /** *year* */
         year?: number | undefined
         
-        /** month */
+        /** *month* */
         month?: number | undefined
         
-        /** current AI search volume rate of a keyword
-learn more about this metric here */
+        /** *current AI search volume rate of a keyword* learn more about this metric [here](https://dataforseo.com/help-center/what-is-ai-search-volume-in-dataforseo) */
         ai_search_volume?: number | undefined
 
     [key: string]: any;
@@ -17,18 +16,17 @@ learn more about this metric here */
 export class AiMonthlySearches  implements IAiMonthlySearches {
 
     
-    /** year */
+    /** *year* */
 
     year?: number | undefined;
 
     
-    /** month */
+    /** *month* */
 
     month?: number | undefined;
 
     
-    /** current AI search volume rate of a keyword
-learn more about this metric here */
+    /** *current AI search volume rate of a keyword* learn more about this metric [here](https://dataforseo.com/help-center/what-is-ai-search-volume-in-dataforseo) */
 
     ai_search_volume?: number | undefined;
 

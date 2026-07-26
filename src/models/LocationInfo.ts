@@ -9,8 +9,7 @@ export interface ILocationInfo   {
         /** search URL with refinement parameters */
         url?: string | undefined
         
-        /** google-defined client id
-can be used with Google Reviews API to get a full list of reviews */
+        /** google-defined client id can be used with Google Reviews API to get a full list of reviews */
         cid?: string | undefined
         
         /** the unique identifier of the element in SERP */
@@ -38,8 +37,7 @@ export class LocationInfo  implements ILocationInfo {
     url?: string | undefined;
 
     
-    /** google-defined client id
-can be used with Google Reviews API to get a full list of reviews */
+    /** google-defined client id can be used with Google Reviews API to get a full list of reviews */
 
     cid?: string | undefined;
 

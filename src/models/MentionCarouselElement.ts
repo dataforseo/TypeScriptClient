@@ -14,8 +14,7 @@ export interface IMentionCarouselElement   {
         /** price of the app element */
         price?: PriceInfo | undefined
         
-        /** the element’s rating 
-the popularity rate based on reviews and displayed in SERP */
+        /** the element’s rating  the popularity rate based on reviews and displayed in SERP */
         rating?: RatingInfo | undefined
         
         /** additional elements in the mention_carousel item */
@@ -43,8 +42,7 @@ export class MentionCarouselElement  implements IMentionCarouselElement {
     price?: PriceInfo | undefined;
 
     
-    /** the element’s rating 
-the popularity rate based on reviews and displayed in SERP */
+    /** the element’s rating  the popularity rate based on reviews and displayed in SERP */
 
     rating?: RatingInfo | undefined;
 

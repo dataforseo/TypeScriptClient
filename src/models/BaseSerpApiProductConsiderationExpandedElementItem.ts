@@ -99,17 +99,13 @@ export interface ISerpApiProductConsiderationsExpandedElementItem  extends IBase
         /** relevant URL */
         url?: string | undefined
         
-        /** date and time when the result was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
         timestamp?: string | undefined
         
         /** search queries related to the elment */
         related_searches?: string[] | undefined
         
-        /** @deprecated contains information from the ‘About this result’ panel
-Note: element no longer appears in SERP and has been deprecated in SERP API */
+        /** @deprecated contains information from the ‘About this result’ panel Note: element no longer appears in SERP and has been deprecated in SERP API */
         about_this_result?: AboutThisResultElement | undefined
 
     [key: string]: any;
@@ -149,10 +145,7 @@ export class SerpApiProductConsiderationsExpandedElementItem  extends BaseSerpAp
     url?: string | undefined;
 
     
-    /** date and time when the result was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
 
     timestamp?: string | undefined;
 
@@ -161,8 +154,7 @@ example:
 
     related_searches?: string[] | undefined;
     
-    /** @deprecated contains information from the ‘About this result’ panel
-Note: element no longer appears in SERP and has been deprecated in SERP API */
+    /** @deprecated contains information from the ‘About this result’ panel Note: element no longer appears in SERP and has been deprecated in SERP API */
 
     about_this_result?: AboutThisResultElement | undefined;
 
@@ -228,8 +220,7 @@ export interface ISerpApiProductConsiderationsAiOverviewExpandedElementItem  ext
         /** items present in the element */
         items?: AiOverviewElement[] | undefined
         
-        /** additional references relevant to the item
-includes references to webpages that may have been used to generate the ai_overview */
+        /** additional references relevant to the item includes references to webpages that may have been used to generate the ai_overview */
         references?: AiModeAiOverviewReferenceInfo[] | undefined
 
     [key: string]: any;
@@ -244,8 +235,7 @@ export class SerpApiProductConsiderationsAiOverviewExpandedElementItem  extends 
     items?: AiOverviewElement[] | undefined;
 
     
-    /** additional references relevant to the item
-includes references to webpages that may have been used to generate the ai_overview */
+    /** additional references relevant to the item includes references to webpages that may have been used to generate the ai_overview */
 
     references?: AiModeAiOverviewReferenceInfo[] | undefined;
 

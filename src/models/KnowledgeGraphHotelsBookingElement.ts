@@ -18,8 +18,7 @@ export interface IKnowledgeGraphHotelsBookingElement   {
         /** website domain */
         domain?: string | undefined
         
-        /** pricing details
-contains the pricing details of the product or service featured in the result */
+        /** pricing details contains the pricing details of the product or service featured in the result */
         price?: PriceInfo | undefined
         
         /** indicates whether the element is an ad */
@@ -57,8 +56,7 @@ export class KnowledgeGraphHotelsBookingElement  implements IKnowledgeGraphHotel
     domain?: string | undefined;
 
     
-    /** pricing details
-contains the pricing details of the product or service featured in the result */
+    /** pricing details contains the pricing details of the product or service featured in the result */
 
     price?: PriceInfo | undefined;
 

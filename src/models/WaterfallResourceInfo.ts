@@ -14,16 +14,13 @@ export interface IWaterfallResourceInfo   {
         /** total time it takes until a browser receives a complete response from a server (in milliseconds) */
         duration_time?: number | undefined
         
-        /** time to start downloading the HTML resource
-the amount of time the browser needs to start downloading a page */
+        /** time to start downloading the HTML resource the amount of time the browser needs to start downloading a page */
         fetch_start?: number | undefined
         
-        /** time to complete downloading the HTML resource
-the amount of time the browser needs to complete downloading a page */
+        /** time to complete downloading the HTML resource the amount of time the browser needs to complete downloading a page */
         fetch_end?: number | undefined
         
-        /** location of the resource in the document
-parameters defining the location of the specific resource within the document’s HTML */
+        /** location of the resource in the document parameters defining the location of the specific resource within the document’s HTML */
         location?: OnPageResourceLocationInfo | undefined
         
         /** indicates whether the resource blocks rendering */
@@ -53,20 +50,17 @@ export class WaterfallResourceInfo  implements IWaterfallResourceInfo {
     duration_time?: number | undefined;
 
     
-    /** time to start downloading the HTML resource
-the amount of time the browser needs to start downloading a page */
+    /** time to start downloading the HTML resource the amount of time the browser needs to start downloading a page */
 
     fetch_start?: number | undefined;
 
     
-    /** time to complete downloading the HTML resource
-the amount of time the browser needs to complete downloading a page */
+    /** time to complete downloading the HTML resource the amount of time the browser needs to complete downloading a page */
 
     fetch_end?: number | undefined;
 
     
-    /** location of the resource in the document
-parameters defining the location of the specific resource within the document’s HTML */
+    /** location of the resource in the document parameters defining the location of the specific resource within the document’s HTML */
 
     location?: OnPageResourceLocationInfo | undefined;
 

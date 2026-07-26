@@ -11,8 +11,7 @@ export interface IAboutThisResultElement   {
         /** source of additional information about the result */
         source?: string | undefined
         
-        /** additional information about the result
-description of the website from Wikipedia or another additional context */
+        /** additional information about the result description of the website from Wikipedia or another additional context */
         source_info?: string | undefined
         
         /** URL to full information from the 'source' */
@@ -53,8 +52,7 @@ export class AboutThisResultElement  implements IAboutThisResultElement {
     source?: string | undefined;
 
     
-    /** additional information about the result
-description of the website from Wikipedia or another additional context */
+    /** additional information about the result description of the website from Wikipedia or another additional context */
 
     source_info?: string | undefined;
 

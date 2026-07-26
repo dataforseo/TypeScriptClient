@@ -11,27 +11,22 @@ export interface IProductSeller   {
         /** product title */
         title?: string | undefined
         
-        /** seller url
-url of the page where the product is sold */
+        /** seller url url of the page where the product is sold */
         url?: string | undefined
         
         /** rating of the seller */
         seller_rating?: RatingElement | undefined
         
-        /** number of seller reviews
-number of reviews on the product seller’s account */
+        /** number of seller reviews number of reviews on the product seller’s account */
         seller_review_count?: number | undefined
         
-        /** product price
-product price details on the seller’s website */
+        /** product price product price details on the seller’s website */
         price?: PriceInfo | undefined
         
-        /** delivery information
-product delivery information */
+        /** delivery information product delivery information */
         delivery_info?: DeliveryInfo | undefined
         
-        /** product availability information
-can take the following values: in_stock, limited_stock, out_of_stock, backordered, pre_order_available, on_display_to_order */
+        /** product availability information can take the following values: in_stock, limited_stock, out_of_stock, backordered, pre_order_available, on_display_to_order */
         product_availability?: string | undefined
 
     [key: string]: any;
@@ -51,8 +46,7 @@ export class ProductSeller  implements IProductSeller {
     title?: string | undefined;
 
     
-    /** seller url
-url of the page where the product is sold */
+    /** seller url url of the page where the product is sold */
 
     url?: string | undefined;
 
@@ -62,26 +56,22 @@ url of the page where the product is sold */
     seller_rating?: RatingElement | undefined;
 
     
-    /** number of seller reviews
-number of reviews on the product seller’s account */
+    /** number of seller reviews number of reviews on the product seller’s account */
 
     seller_review_count?: number | undefined;
 
     
-    /** product price
-product price details on the seller’s website */
+    /** product price product price details on the seller’s website */
 
     price?: PriceInfo | undefined;
 
     
-    /** delivery information
-product delivery information */
+    /** delivery information product delivery information */
 
     delivery_info?: DeliveryInfo | undefined;
 
     
-    /** product availability information
-can take the following values: in_stock, limited_stock, out_of_stock, backordered, pre_order_available, on_display_to_order */
+    /** product availability information can take the following values: in_stock, limited_stock, out_of_stock, backordered, pre_order_available, on_display_to_order */
 
     product_availability?: string | undefined;
 

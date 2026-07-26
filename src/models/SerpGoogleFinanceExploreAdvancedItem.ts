@@ -3,8 +3,7 @@ import { GoogleFinanceMarketTrendsElement, IGoogleFinanceMarketTrendsElement } f
 
 export interface ISerpGoogleFinanceExploreAdvancedItem   {
         
-        /** array of items
-this array can take the following names: most_active, gainers, losers */
+        /** array of items this array can take the following names: most_active, gainers, losers */
         most_active?: GoogleFinanceMarketTrendsElement[] | undefined
         
         gainers?: GoogleFinanceMarketTrendsElement[] | undefined
@@ -18,8 +17,7 @@ this array can take the following names: most_active, gainers, losers */
 export class SerpGoogleFinanceExploreAdvancedItem  implements ISerpGoogleFinanceExploreAdvancedItem {
 
     
-    /** array of items
-this array can take the following names: most_active, gainers, losers */
+    /** array of items this array can take the following names: most_active, gainers, losers */
 
     most_active?: GoogleFinanceMarketTrendsElement[] | undefined;
 

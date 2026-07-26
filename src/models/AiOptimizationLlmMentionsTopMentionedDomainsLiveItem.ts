@@ -4,41 +4,31 @@ import { AggregatedMetricsInfoTotalInfo, IAggregatedMetricsInfoTotalInfo } from 
 
 export interface IAiOptimizationLlmMentionsTopMentionedDomainsLiveItem   {
         
-        /** domain name
-the domain name of the website found in LLM mentions for the specified target */
+        /** *domain name* the domain name of the website found in LLM mentions for the specified target */
         domain?: string | undefined
         
-        /** location-based grouping
-array of objects containing mention metrics segmented by geographical location */
+        /** *location-based grouping* array of objects containing mention metrics segmented by geographical location */
         location?: AggregatedMetricsItemInfo[] | undefined
         
-        /** language-based grouping
-array of objects containing mention metrics segmented by content language */
+        /** *language-based grouping* array of objects containing mention metrics segmented by content language */
         language?: AggregatedMetricsItemInfo[] | undefined
         
-        /** platform-based grouping
-array of group elements containing mention metrics segmented by AI platform */
+        /** *platform-based grouping* array of group elements containing mention metrics segmented by AI platform */
         platform?: AggregatedMetricsItemInfo[] | undefined
         
-        /** found top source domains relevant to the target
-array of objects containing data on top domains that are cited as sources in LLM responses
-learn more about the sources and how to retrieve LLM citation data at our Help Center */
+        /** *found top source domains relevant to the target* array of objects containing data on top domains that are cited as sources in LLM responses learn more about the sources and how to retrieve LLM citation data at our [Help Center](https://dataforseo.com/help-center/how-to-get-llm-citation-data-with-llm-mentions-api) */
         sources_domain?: AggregatedMetricsItemInfo[] | undefined
         
-        /** found top search results domains relevant to the target
-array of objects containing data on top domains that appear in search results related to LLM queries */
+        /** *found top search results domains relevant to the target* array of objects containing data on top domains that appear in search results related to LLM queries */
         search_results_domain?: AggregatedMetricsItemInfo[] | undefined
         
-        /** data on brand entities relevant to the target
-array of objects containing data on brand entity titles that appear in search results related to LLM queries */
+        /** *data on brand entities relevant to the target* array of objects containing data on brand entity titles that appear in search results related to LLM queries */
         brand_entities_title?: AggregatedMetricsItemInfo[] | undefined
         
-        /** data on brand entities relevant to the target
-array of objects containing data on brand entity categories that appear in search results related to LLM queries */
+        /** *data on brand entities relevant to the target* array of objects containing data on brand entity categories that appear in search results related to LLM queries */
         brand_entities_category?: AggregatedMetricsItemInfo[] | undefined
         
-        /** aggregated mentions metrics summary
-contains overall aggregated LLM mention metrics across all dimensions */
+        /** *aggregated mentions metrics summary* contains overall aggregated LLM mention metrics across all dimensions */
         total?: AggregatedMetricsInfoTotalInfo | undefined
 
     [key: string]: any;
@@ -48,57 +38,47 @@ contains overall aggregated LLM mention metrics across all dimensions */
 export class AiOptimizationLlmMentionsTopMentionedDomainsLiveItem  implements IAiOptimizationLlmMentionsTopMentionedDomainsLiveItem {
 
     
-    /** domain name
-the domain name of the website found in LLM mentions for the specified target */
+    /** *domain name* the domain name of the website found in LLM mentions for the specified target */
 
     domain?: string | undefined;
 
     
-    /** location-based grouping
-array of objects containing mention metrics segmented by geographical location */
+    /** *location-based grouping* array of objects containing mention metrics segmented by geographical location */
 
     location?: AggregatedMetricsItemInfo[] | undefined;
 
     
-    /** language-based grouping
-array of objects containing mention metrics segmented by content language */
+    /** *language-based grouping* array of objects containing mention metrics segmented by content language */
 
     language?: AggregatedMetricsItemInfo[] | undefined;
 
     
-    /** platform-based grouping
-array of group elements containing mention metrics segmented by AI platform */
+    /** *platform-based grouping* array of group elements containing mention metrics segmented by AI platform */
 
     platform?: AggregatedMetricsItemInfo[] | undefined;
 
     
-    /** found top source domains relevant to the target
-array of objects containing data on top domains that are cited as sources in LLM responses
-learn more about the sources and how to retrieve LLM citation data at our Help Center */
+    /** *found top source domains relevant to the target* array of objects containing data on top domains that are cited as sources in LLM responses learn more about the sources and how to retrieve LLM citation data at our [Help Center](https://dataforseo.com/help-center/how-to-get-llm-citation-data-with-llm-mentions-api) */
 
     sources_domain?: AggregatedMetricsItemInfo[] | undefined;
 
     
-    /** found top search results domains relevant to the target
-array of objects containing data on top domains that appear in search results related to LLM queries */
+    /** *found top search results domains relevant to the target* array of objects containing data on top domains that appear in search results related to LLM queries */
 
     search_results_domain?: AggregatedMetricsItemInfo[] | undefined;
 
     
-    /** data on brand entities relevant to the target
-array of objects containing data on brand entity titles that appear in search results related to LLM queries */
+    /** *data on brand entities relevant to the target* array of objects containing data on brand entity titles that appear in search results related to LLM queries */
 
     brand_entities_title?: AggregatedMetricsItemInfo[] | undefined;
 
     
-    /** data on brand entities relevant to the target
-array of objects containing data on brand entity categories that appear in search results related to LLM queries */
+    /** *data on brand entities relevant to the target* array of objects containing data on brand entity categories that appear in search results related to LLM queries */
 
     brand_entities_category?: AggregatedMetricsItemInfo[] | undefined;
 
     
-    /** aggregated mentions metrics summary
-contains overall aggregated LLM mention metrics across all dimensions */
+    /** *aggregated mentions metrics summary* contains overall aggregated LLM mention metrics across all dimensions */
 
     total?: AggregatedMetricsInfoTotalInfo | undefined;
 

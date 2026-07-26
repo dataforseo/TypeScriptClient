@@ -3,10 +3,10 @@ import { AiOptimizationLlmMentionsTimeseriesDeltaLiveItem, IAiOptimizationLlmMen
 
 export interface IAiOptimizationLlmMentionsTimeseriesDeltaLiveResultInfo   {
         
-        /** the number of results returned in the items array */
+        /** *the number of results returned in the `items` array* */
         items_count?: number | undefined
         
-        /** contains relevant LLM mentions timeseries data */
+        /** *contains relevant LLM mentions timeseries data* */
         items?: AiOptimizationLlmMentionsTimeseriesDeltaLiveItem[] | undefined
 
     [key: string]: any;
@@ -16,12 +16,12 @@ export interface IAiOptimizationLlmMentionsTimeseriesDeltaLiveResultInfo   {
 export class AiOptimizationLlmMentionsTimeseriesDeltaLiveResultInfo  implements IAiOptimizationLlmMentionsTimeseriesDeltaLiveResultInfo {
 
     
-    /** the number of results returned in the items array */
+    /** *the number of results returned in the `items` array* */
 
     items_count?: number | undefined;
 
     
-    /** contains relevant LLM mentions timeseries data */
+    /** *contains relevant LLM mentions timeseries data* */
 
     items?: AiOptimizationLlmMentionsTimeseriesDeltaLiveItem[] | undefined;
 

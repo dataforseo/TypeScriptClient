@@ -11,24 +11,19 @@ export interface IAiOverviewExpandedComponent   {
         /** reference page title */
         title?: string | undefined
         
-        /** reference text
-text snippet from the page that was used to generate the ai_overview_element */
+        /** reference text text snippet from the page that was used to generate the ai_overview_element */
         text?: string | undefined
         
         /** content of the element in markdown format */
         markdown?: string | undefined
         
-        /** images of the element
-if there is none, equals null */
+        /** images of the element if there is none, equals null */
         images?: AiModeImagesElementInfo[] | undefined
         
-        /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+        /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
         links?: LinkElement[] | undefined
         
-        /** references relevant to the element
-includes references to webpages that were used to generate the ai_overview_element */
+        /** references relevant to the element includes references to webpages that were used to generate the ai_overview_element */
         references?: AiModeAiOverviewReferenceInfo[] | undefined
 
     [key: string]: any;
@@ -48,8 +43,7 @@ export class AiOverviewExpandedComponent  implements IAiOverviewExpandedComponen
     title?: string | undefined;
 
     
-    /** reference text
-text snippet from the page that was used to generate the ai_overview_element */
+    /** reference text text snippet from the page that was used to generate the ai_overview_element */
 
     text?: string | undefined;
 
@@ -59,21 +53,17 @@ text snippet from the page that was used to generate the ai_overview_element */
     markdown?: string | undefined;
 
     
-    /** images of the element
-if there is none, equals null */
+    /** images of the element if there is none, equals null */
 
     images?: AiModeImagesElementInfo[] | undefined;
 
     
-    /** sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null */
+    /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
 
     links?: LinkElement[] | undefined;
 
     
-    /** references relevant to the element
-includes references to webpages that were used to generate the ai_overview_element */
+    /** references relevant to the element includes references to webpages that were used to generate the ai_overview_element */
 
     references?: AiModeAiOverviewReferenceInfo[] | undefined;
 

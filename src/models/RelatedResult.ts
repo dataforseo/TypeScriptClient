@@ -9,8 +9,7 @@ export interface IRelatedResult   {
         /** type of element */
         type?: string | undefined
         
-        /** search results page number
-indicates the number of the SERP page on which the element is located */
+        /** search results page number indicates the number of the SERP page on which the element is located */
         page?: number | undefined
         
         /** the XPath of the element */
@@ -28,8 +27,7 @@ indicates the number of the SERP page on which the element is located */
         /** cached version of the page */
         cache_url?: string | undefined
         
-        /** URL to a similar search
-URL to a new search for the same keyword(s) on related sites */
+        /** URL to a similar search URL to a new search for the same keyword(s) on related sites */
         related_search_url?: string | undefined
         
         /** breadcrumb in SERP */
@@ -53,17 +51,13 @@ URL to a new search for the same keyword(s) on related sites */
         /** includes additional information appended after the result description in SERP */
         extended_snippet?: string | undefined
         
-        /** images of the component
-if there are none, equals null */
+        /** images of the component if there are none, equals null */
         images?: AiModeImagesElementInfo[] | undefined
         
-        /** Accelerated Mobile Pages
-indicates whether an item has the Accelerated Mobile Page (AMP) version */
+        /** Accelerated Mobile Pages indicates whether an item has the Accelerated Mobile Page (AMP) version */
         amp_version?: boolean | undefined
         
-        /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP;
-if there is none, equals null */
+        /** the item’s rating  the popularity rate based on reviews and displayed in SERP; if there is none, equals null */
         rating?: RatingInfo | undefined
         
         /** price of booking a place for the specified dates of stay */
@@ -72,14 +66,10 @@ if there is none, equals null */
         /** words highlighted in bold within the results description */
         highlighted?: string[] | undefined
         
-        /** @deprecated contains information from the ‘About this result’ panel
-Note: this object is deprecated and always returns null */
+        /** @deprecated contains information from the ‘About this result’ panel Note: this object is deprecated and always returns null */
         about_this_result?: AboutThisResultElement | undefined
         
-        /** date and time when the result was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
         timestamp?: string | undefined
 
     [key: string]: any;
@@ -94,8 +84,7 @@ export class RelatedResult  implements IRelatedResult {
     type?: string | undefined;
 
     
-    /** search results page number
-indicates the number of the SERP page on which the element is located */
+    /** search results page number indicates the number of the SERP page on which the element is located */
 
     page?: number | undefined;
 
@@ -125,8 +114,7 @@ indicates the number of the SERP page on which the element is located */
     cache_url?: string | undefined;
 
     
-    /** URL to a similar search
-URL to a new search for the same keyword(s) on related sites */
+    /** URL to a similar search URL to a new search for the same keyword(s) on related sites */
 
     related_search_url?: string | undefined;
 
@@ -166,21 +154,17 @@ URL to a new search for the same keyword(s) on related sites */
     extended_snippet?: string | undefined;
 
     
-    /** images of the component
-if there are none, equals null */
+    /** images of the component if there are none, equals null */
 
     images?: AiModeImagesElementInfo[] | undefined;
 
     
-    /** Accelerated Mobile Pages
-indicates whether an item has the Accelerated Mobile Page (AMP) version */
+    /** Accelerated Mobile Pages indicates whether an item has the Accelerated Mobile Page (AMP) version */
 
     amp_version?: boolean | undefined;
 
     
-    /** the item’s rating 
-the popularity rate based on reviews and displayed in SERP;
-if there is none, equals null */
+    /** the item’s rating  the popularity rate based on reviews and displayed in SERP; if there is none, equals null */
 
     rating?: RatingInfo | undefined;
 
@@ -194,16 +178,12 @@ if there is none, equals null */
 
     highlighted?: string[] | undefined;
     
-    /** @deprecated contains information from the ‘About this result’ panel
-Note: this object is deprecated and always returns null */
+    /** @deprecated contains information from the ‘About this result’ panel Note: this object is deprecated and always returns null */
 
     about_this_result?: AboutThisResultElement | undefined;
 
     
-    /** date and time when the result was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
 
     timestamp?: string | undefined;
 

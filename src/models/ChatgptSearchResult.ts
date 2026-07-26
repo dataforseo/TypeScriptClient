@@ -3,19 +3,19 @@ export interface IChatgptSearchResult   {
         /** type of element */
         type?: string | undefined
         
-        /** result URL */
+        /** *result URL* */
         url?: string | undefined
         
-        /** result domain */
+        /** *result domain* */
         domain?: string | undefined
         
-        /** result title */
+        /** *result title* */
         title?: string | undefined
         
-        /** result description */
+        /** *result description* */
         description?: string | undefined
         
-        /** breadcrumb */
+        /** *breadcrumb* */
         breadcrumb?: string | undefined
 
     [key: string]: any;
@@ -30,27 +30,27 @@ export class ChatgptSearchResult  implements IChatgptSearchResult {
     type?: string | undefined;
 
     
-    /** result URL */
+    /** *result URL* */
 
     url?: string | undefined;
 
     
-    /** result domain */
+    /** *result domain* */
 
     domain?: string | undefined;
 
     
-    /** result title */
+    /** *result title* */
 
     title?: string | undefined;
 
     
-    /** result description */
+    /** *result description* */
 
     description?: string | undefined;
 
     
-    /** breadcrumb */
+    /** *breadcrumb* */
 
     breadcrumb?: string | undefined;
 

@@ -5,40 +5,31 @@ import { HotelAmenityItemInfo, IHotelAmenityItemInfo } from "./HotelAmenityItemI
 
 export interface IHotelAboutInfo   {
         
-        /** description of the hotel
-the description of the hotel entity for which the results are collected */
+        /** *description of the hotel* the description of the hotel entity for which the results are collected */
         description?: string | undefined
         
-        /** additional description of the hotel
-details about the hotel provided in addition to the description */
+        /** *additional description of the hotel* details about the hotel provided in addition to the description */
         sub_descriptions?: string[] | undefined
         
-        /** hotel check-in time
-check-in time indicated in the hotel listing */
+        /** *hotel check-in time* check-in time indicated in the hotel listing */
         check_in_time?: TimeInfo | undefined
         
-        /** hotel check-out time
-check-out time indicated in the hotel listing */
+        /** *hotel check-out time* check-out time indicated in the hotel listing */
         check_out_time?: TimeInfo | undefined
         
-        /** full address of the hotel
-address of the hotel indicated in the standardised format */
+        /** *full address of the hotel* address of the hotel indicated in the standardised format */
         full_address?: string | undefined
         
-        /** hotel domain
-domain of the hotel’s website */
+        /** *hotel domain* domain of the hotel's website */
         domain?: string | undefined
         
-        /** hotel url
-URL to the hotel’s website indicated in the listing */
+        /** *hotel url* URL to the hotel's website indicated in the listing */
         url?: string | undefined
         
-        /** hotel amenities
-information about hotel amenities */
+        /** *hotel amenities* information about hotel amenities */
         amenities?: HotelAmenityInfo[] | undefined
         
-        /** hotel amenities
-information about hotel amenities labelled as “popular” */
+        /** *hotel amenities* information about hotel amenities labelled as 'popular' */
         popular_amenities?: HotelAmenityItemInfo[] | undefined
 
     [key: string]: any;
@@ -48,56 +39,47 @@ information about hotel amenities labelled as “popular” */
 export class HotelAboutInfo  implements IHotelAboutInfo {
 
     
-    /** description of the hotel
-the description of the hotel entity for which the results are collected */
+    /** *description of the hotel* the description of the hotel entity for which the results are collected */
 
     description?: string | undefined;
 
     
-    /** additional description of the hotel
-details about the hotel provided in addition to the description */
+    /** *additional description of the hotel* details about the hotel provided in addition to the description */
 
     sub_descriptions?: string[] | undefined;
 
     
-    /** hotel check-in time
-check-in time indicated in the hotel listing */
+    /** *hotel check-in time* check-in time indicated in the hotel listing */
 
     check_in_time?: TimeInfo | undefined;
 
     
-    /** hotel check-out time
-check-out time indicated in the hotel listing */
+    /** *hotel check-out time* check-out time indicated in the hotel listing */
 
     check_out_time?: TimeInfo | undefined;
 
     
-    /** full address of the hotel
-address of the hotel indicated in the standardised format */
+    /** *full address of the hotel* address of the hotel indicated in the standardised format */
 
     full_address?: string | undefined;
 
     
-    /** hotel domain
-domain of the hotel’s website */
+    /** *hotel domain* domain of the hotel's website */
 
     domain?: string | undefined;
 
     
-    /** hotel url
-URL to the hotel’s website indicated in the listing */
+    /** *hotel url* URL to the hotel's website indicated in the listing */
 
     url?: string | undefined;
 
     
-    /** hotel amenities
-information about hotel amenities */
+    /** *hotel amenities* information about hotel amenities */
 
     amenities?: HotelAmenityInfo[] | undefined;
 
     
-    /** hotel amenities
-information about hotel amenities labelled as “popular” */
+    /** *hotel amenities* information about hotel amenities labelled as 'popular' */
 
     popular_amenities?: HotelAmenityItemInfo[] | undefined;
 

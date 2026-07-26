@@ -3,16 +3,16 @@ export interface IGeminiImagesElement   {
         /** type of element */
         type?: string | undefined
         
-        /** URL */
+        /** *URL* */
         url?: string | undefined
         
-        /** alt tag of the image */
+        /** *alt tag of the image* */
         alt?: string | undefined
         
-        /** URL of the imagethe URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+        /** *URL of the image* the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
         image_url?: string | undefined
         
-        /** content of the element in markdown formatcontent of the result formatted in the markdown markup language */
+        /** *content of the element in markdown format* content of the result formatted in the [markdown markup language](https://en.wikipedia.org/wiki/Markdown) */
         markdown?: string | undefined
 
     [key: string]: any;
@@ -27,22 +27,22 @@ export class GeminiImagesElement  implements IGeminiImagesElement {
     type?: string | undefined;
 
     
-    /** URL */
+    /** *URL* */
 
     url?: string | undefined;
 
     
-    /** alt tag of the image */
+    /** *alt tag of the image* */
 
     alt?: string | undefined;
 
     
-    /** URL of the imagethe URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+    /** *URL of the image* the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
     image_url?: string | undefined;
 
     
-    /** content of the element in markdown formatcontent of the result formatted in the markdown markup language */
+    /** *content of the element in markdown format* content of the result formatted in the [markdown markup language](https://en.wikipedia.org/wiki/Markdown) */
 
     markdown?: string | undefined;
 

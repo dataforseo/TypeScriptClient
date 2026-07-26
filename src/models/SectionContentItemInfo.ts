@@ -3,12 +3,10 @@ import { ContentUrlInfo, IContentUrlInfo } from "./ContentUrlInfo";
 
 export interface ISectionContentItemInfo   {
         
-        /** secondary content on the page
-you can find more information about content priority calculation in this help center article */
+        /** secondary content on the page you can find more information about content priority calculation in this help center article */
         text?: string | undefined
         
-        /** page URL.
-displayed in case the text is a link anchor */
+        /** page URL. displayed in case the text is a link anchor */
         url?: string | undefined
         
         /** contains other URLs and anchors found in the content element */
@@ -21,14 +19,12 @@ displayed in case the text is a link anchor */
 export class SectionContentItemInfo  implements ISectionContentItemInfo {
 
     
-    /** secondary content on the page
-you can find more information about content priority calculation in this help center article */
+    /** secondary content on the page you can find more information about content priority calculation in this help center article */
 
     text?: string | undefined;
 
     
-    /** page URL.
-displayed in case the text is a link anchor */
+    /** page URL. displayed in case the text is a link anchor */
 
     url?: string | undefined;
 

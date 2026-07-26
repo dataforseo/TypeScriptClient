@@ -6,66 +6,49 @@ import { BrandEntities, IBrandEntities } from "./BrandEntities";
 
 export interface IAiOptimizationLlmMentionsSearchMentionsLiveItem   {
         
-        /** platform received in a POST array */
+        /** *platform received in a POST array* */
         platform?: string | undefined
         
-        /** name of the AI model from which the data was retrieved
-Note: for the google platform type, the value is always google_ai_overview */
+        /** *name of the AI model from which the data was retrieved* **Note:** for the `google` platform type, the value is always `google_ai_overview` */
         model_name?: string | undefined
         
-        /** location code in a POST array */
+        /** *location code in a POST array* */
         location_code?: number | undefined
         
-        /** language code in a POST array */
+        /** *language code in a POST array* */
         language_code?: string | undefined
         
-        /** relevant question */
+        /** *relevant question* */
         question?: string | undefined
         
-        /** relevant answer in markdown format
-content of the result formatted in the markdown markup language */
+        /** *relevant answer in markdown format* content of the result formatted in the [markdown markup language](https://en.wikipedia.org/wiki/Markdown) */
         answer?: string | undefined
         
-        /** array of sources
-the sources the model cited or relied on in its final answer
-learn more about the sources and how to retrieve LLM citation data at our Help Center */
+        /** *array of sources* the sources the model cited or relied on in its final answer learn more about the sources and how to retrieve LLM citation data at our [Help Center](https://dataforseo.com/help-center/how-to-get-llm-citation-data-with-llm-mentions-api) */
         sources?: Sources[] | undefined
         
-        /** array of search results
-all web search outputs the model retrieved when looking up information, including duplicates and unused entries */
+        /** *array of search results* all web search outputs the model retrieved when looking up information, including duplicates and unused entries */
         search_results?: SearchResults[] | undefined
         
-        /** current AI search volume rate of a keyword
-learn more about this metric here */
+        /** *current AI search volume rate of a keyword* learn more about this metric [here](https://dataforseo.com/help-center/how-the-ai-search-volume-metric-works-in-llm-mentions) */
         ai_search_volume?: number | undefined
         
-        /** monthly AI search volume rates
-array of objects with AI search volume rates in a certain month of a year */
+        /** *monthly AI search volume rates* array of objects with AI search volume rates in a certain month of a year */
         monthly_searches?: MonthlySearchesInfo[] | undefined
         
-        /** date and time when the response data was first recorded
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2025-10-21 06:25:30 +00:00 */
+        /** *date and time when the response data was first recorded* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2025-10-21 06:25:30 +00:00` */
         first_response_at?: string | undefined
         
-        /** date and time when the response data was last updated
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2025-10-21 06:25:30 +00:00 */
+        /** *date and time when the response data was last updated* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2025-10-21 06:25:30 +00:00` */
         last_response_at?: string | undefined
         
-        /** array of brand entities
-contains information on brands mentioned in the response */
+        /** *array of brand entities* contains information on brands mentioned in the response */
         brand_entities?: BrandEntities[] | undefined
         
-        /** array of fan-out queries
-contains related search queries derived from the main query to provide a more comprehensive response */
+        /** *array of fan-out queries* contains related search queries derived from the main query to provide a more comprehensive response */
         fan_out_queries?: string[] | undefined
         
-        /** indicates whether the response was generated using web search results
-if true, the model retrieved live web search results to produce the response
-if false, the response was generated from the model's internal knowledge */
+        /** *indicates whether the response was generated using web search results* if `true`, the model retrieved live web search results to produce the response if `false`, the response was generated from the model's internal knowledge */
         is_web_search_based?: boolean | undefined
 
     [key: string]: any;
@@ -75,94 +58,77 @@ if false, the response was generated from the model's internal knowledge */
 export class AiOptimizationLlmMentionsSearchMentionsLiveItem  implements IAiOptimizationLlmMentionsSearchMentionsLiveItem {
 
     
-    /** platform received in a POST array */
+    /** *platform received in a POST array* */
 
     platform?: string | undefined;
 
     
-    /** name of the AI model from which the data was retrieved
-Note: for the google platform type, the value is always google_ai_overview */
+    /** *name of the AI model from which the data was retrieved* **Note:** for the `google` platform type, the value is always `google_ai_overview` */
 
     model_name?: string | undefined;
 
     
-    /** location code in a POST array */
+    /** *location code in a POST array* */
 
     location_code?: number | undefined;
 
     
-    /** language code in a POST array */
+    /** *language code in a POST array* */
 
     language_code?: string | undefined;
 
     
-    /** relevant question */
+    /** *relevant question* */
 
     question?: string | undefined;
 
     
-    /** relevant answer in markdown format
-content of the result formatted in the markdown markup language */
+    /** *relevant answer in markdown format* content of the result formatted in the [markdown markup language](https://en.wikipedia.org/wiki/Markdown) */
 
     answer?: string | undefined;
 
     
-    /** array of sources
-the sources the model cited or relied on in its final answer
-learn more about the sources and how to retrieve LLM citation data at our Help Center */
+    /** *array of sources* the sources the model cited or relied on in its final answer learn more about the sources and how to retrieve LLM citation data at our [Help Center](https://dataforseo.com/help-center/how-to-get-llm-citation-data-with-llm-mentions-api) */
 
     sources?: Sources[] | undefined;
 
     
-    /** array of search results
-all web search outputs the model retrieved when looking up information, including duplicates and unused entries */
+    /** *array of search results* all web search outputs the model retrieved when looking up information, including duplicates and unused entries */
 
     search_results?: SearchResults[] | undefined;
 
     
-    /** current AI search volume rate of a keyword
-learn more about this metric here */
+    /** *current AI search volume rate of a keyword* learn more about this metric [here](https://dataforseo.com/help-center/how-the-ai-search-volume-metric-works-in-llm-mentions) */
 
     ai_search_volume?: number | undefined;
 
     
-    /** monthly AI search volume rates
-array of objects with AI search volume rates in a certain month of a year */
+    /** *monthly AI search volume rates* array of objects with AI search volume rates in a certain month of a year */
 
     monthly_searches?: MonthlySearchesInfo[] | undefined;
 
     
-    /** date and time when the response data was first recorded
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2025-10-21 06:25:30 +00:00 */
+    /** *date and time when the response data was first recorded* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2025-10-21 06:25:30 +00:00` */
 
     first_response_at?: string | undefined;
 
     
-    /** date and time when the response data was last updated
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2025-10-21 06:25:30 +00:00 */
+    /** *date and time when the response data was last updated* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2025-10-21 06:25:30 +00:00` */
 
     last_response_at?: string | undefined;
 
     
-    /** array of brand entities
-contains information on brands mentioned in the response */
+    /** *array of brand entities* contains information on brands mentioned in the response */
 
     brand_entities?: BrandEntities[] | undefined;
 
     
-    /** array of fan-out queries
-contains related search queries derived from the main query to provide a more comprehensive response */
+    /** *array of fan-out queries* contains related search queries derived from the main query to provide a more comprehensive response */
 
     fan_out_queries?: string[] | undefined;
 
     
-    /** indicates whether the response was generated using web search results
-if true, the model retrieved live web search results to produce the response
-if false, the response was generated from the model's internal knowledge */
+    /** *indicates whether the response was generated using web search results* if `true`, the model retrieved live web search results to produce the response if `false`, the response was generated from the model's internal knowledge */
 
     is_web_search_based?: boolean | undefined;
 

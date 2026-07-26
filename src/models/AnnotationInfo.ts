@@ -1,9 +1,9 @@
 export interface IAnnotationInfo   {
         
-        /** the domain name or title of the quoted source */
+        /** *the domain name or title of the quoted source* */
         title?: string | undefined
         
-        /** URL of the quoted source */
+        /** *URL of the quoted source* */
         url?: string | undefined
 
     [key: string]: any;
@@ -13,12 +13,12 @@ export interface IAnnotationInfo   {
 export class AnnotationInfo  implements IAnnotationInfo {
 
     
-    /** the domain name or title of the quoted source */
+    /** *the domain name or title of the quoted source* */
 
     title?: string | undefined;
 
     
-    /** URL of the quoted source */
+    /** *URL of the quoted source* */
 
     url?: string | undefined;
 

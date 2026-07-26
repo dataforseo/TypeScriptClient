@@ -6,16 +6,13 @@ export interface IGoogleBusinessPost   {
         /** type of element */
         type?: string | undefined
         
-        /** position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+        /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
         rank_group?: number | undefined
         
-        /** absolute rank among all the listed updates
-absolute position among all present elements */
+        /** absolute rank among all the listed updates absolute position among all present elements */
         rank_absolute?: number | undefined
         
-        /** the alignment of the element in SERP
-can take the following values: right */
+        /** the alignment of the element in SERP can take the following values: right */
         position?: string | undefined
         
         /** the XPath of the element */
@@ -36,15 +33,10 @@ can take the following values: right */
         /** url of an image included in the post */
         images_url?: string | undefined
         
-        /** date when a post was published
-in the following format:
-'mm/dd/yyyy hh:mm:ss' */
+        /** date when a post was published in the following format: 'mm/dd/yyyy hh:mm:ss' */
         post_date?: string | undefined
         
-        /** time when a post was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+        /** time when a post was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
         timestamp?: string | undefined
         
         /** links included in the post */
@@ -62,20 +54,17 @@ export class GoogleBusinessPost  implements IGoogleBusinessPost {
     type?: string | undefined;
 
     
-    /** position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+    /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank among all the listed updates
-absolute position among all present elements */
+    /** absolute rank among all the listed updates absolute position among all present elements */
 
     rank_absolute?: number | undefined;
 
     
-    /** the alignment of the element in SERP
-can take the following values: right */
+    /** the alignment of the element in SERP can take the following values: right */
 
     position?: string | undefined;
 
@@ -110,17 +99,12 @@ can take the following values: right */
     images_url?: string | undefined;
 
     
-    /** date when a post was published
-in the following format:
-'mm/dd/yyyy hh:mm:ss' */
+    /** date when a post was published in the following format: 'mm/dd/yyyy hh:mm:ss' */
 
     post_date?: string | undefined;
 
     
-    /** time when a post was published
-in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
-example:
-2019-11-15 12:57:46 +00:00 */
+    /** time when a post was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
 
     timestamp?: string | undefined;
 

@@ -18,9 +18,7 @@ export interface IAmazonDeliveryInfo   {
         /** the latest date when the product can be delivered with a fast delivery option */
         fastest_delivery_date_to?: string | undefined
         
-        /** price for the delivery
-price of the delivery based on the location you specified in the POST request;
-if free delivery is available, the value is null */
+        /** price for the delivery price of the delivery based on the location you specified in the POST request; if free delivery is available, the value is null */
         delivery_price?: PriceInfo | undefined
 
     [key: string]: any;
@@ -55,9 +53,7 @@ export class AmazonDeliveryInfo  implements IAmazonDeliveryInfo {
     fastest_delivery_date_to?: string | undefined;
 
     
-    /** price for the delivery
-price of the delivery based on the location you specified in the POST request;
-if free delivery is available, the value is null */
+    /** price for the delivery price of the delivery based on the location you specified in the POST request; if free delivery is available, the value is null */
 
     delivery_price?: PriceInfo | undefined;
 

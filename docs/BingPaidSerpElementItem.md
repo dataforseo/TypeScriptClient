@@ -15,7 +15,7 @@
 **images** | **AiModeImagesElementInfo[]** | images of the element |[optional]|
 **highlighted** | **string[]** | words highlighted in bold within the results description |[optional]|
 **extra** | **{ [key: string]: string; }** | additional information about the result |[optional]|
-**description_rows** | **string[]** | extended description<br>if there is none, equals null |[optional]|
+**description_rows** | **string[]** | extended description. if there is none, equals null |[optional]|
 **links** | **AdLinkElement[]** | links featured in the organic result |[optional]|
 **price** | **PriceInfo** | price of booking a place for the specified dates of stay |[optional]|
-**rating** | **RatingInfo** | the item’s rating <br>the popularity rate based on reviews and displayed in SERP |[optional]|
+**rating** | **RatingInfo** | the item’s rating . the popularity rate based on reviews and displayed in SERP |[optional]|

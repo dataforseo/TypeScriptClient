@@ -9,9 +9,7 @@ export interface IAvailableLocations   {
         /** ISO country code of the location */
         country_iso_code?: string | undefined
         
-        /** location type
-possible values:
-Country, Region */
+        /** location type possible values: Country, Region */
         location_type?: string | undefined
 
     [key: string]: any;
@@ -36,9 +34,7 @@ export class AvailableLocations  implements IAvailableLocations {
     country_iso_code?: string | undefined;
 
     
-    /** location type
-possible values:
-Country, Region */
+    /** location type possible values: Country, Region */
 
     location_type?: string | undefined;
 

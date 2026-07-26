@@ -1,11 +1,9 @@
 export interface IMessageInfo   {
         
-        /** level of error
-can take the following values: fatal, error, warning, info */
+        /** level of error can take the following values: fatal, error, warning, info */
         level?: string | undefined
         
-        /** message associated with an error
-message providing the details of the detected error */
+        /** message associated with an error message providing the details of the detected error */
         message?: string | undefined
 
     [key: string]: any;
@@ -15,14 +13,12 @@ message providing the details of the detected error */
 export class MessageInfo  implements IMessageInfo {
 
     
-    /** level of error
-can take the following values: fatal, error, warning, info */
+    /** level of error can take the following values: fatal, error, warning, info */
 
     level?: string | undefined;
 
     
-    /** message associated with an error
-message providing the details of the detected error */
+    /** message associated with an error message providing the details of the detected error */
 
     message?: string | undefined;
 

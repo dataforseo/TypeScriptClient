@@ -1,14 +1,12 @@
 export interface IBacklinksBulkNewLostBacklinksLiveItem   {
         
-        /** domain, subdomain or webpage from a POST array */
+        /** *domain, subdomain or webpage from a POST array* */
         target?: string | undefined
         
-        /** number of new backlinks
-number of new backlinks pointing to the target */
+        /** *number of new backlinks* number of new backlinks pointing to the `target` */
         new_backlinks?: number | undefined
         
-        /** number of lost backlinks
-number of lost backlinks of the target */
+        /** *number of lost backlinks* number of lost backlinks of the `target` */
         lost_backlinks?: number | undefined
 
     [key: string]: any;
@@ -18,19 +16,17 @@ number of lost backlinks of the target */
 export class BacklinksBulkNewLostBacklinksLiveItem  implements IBacklinksBulkNewLostBacklinksLiveItem {
 
     
-    /** domain, subdomain or webpage from a POST array */
+    /** *domain, subdomain or webpage from a POST array* */
 
     target?: string | undefined;
 
     
-    /** number of new backlinks
-number of new backlinks pointing to the target */
+    /** *number of new backlinks* number of new backlinks pointing to the `target` */
 
     new_backlinks?: number | undefined;
 
     
-    /** number of lost backlinks
-number of lost backlinks of the target */
+    /** *number of lost backlinks* number of lost backlinks of the `target` */
 
     lost_backlinks?: number | undefined;
 

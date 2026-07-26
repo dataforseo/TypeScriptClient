@@ -11,17 +11,13 @@ export interface IAmazonProductInfo   {
         /** type of element */
         type?: string | undefined
         
-        /** position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+        /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
         rank_group?: number | undefined
         
-        /** absolute rank
-absolute position among all the elements in the response array */
+        /** absolute rank absolute position among all the elements in the response array */
         rank_absolute?: number | undefined
         
-        /** the alignment of the element in Amazon SERP
-possible values:
-left, right */
+        /** the alignment of the element in Amazon SERP possible values: left, right */
         position?: string | undefined
         
         /** the XPath of the element */
@@ -48,26 +44,19 @@ left, right */
         /** ASINs of all found product modifications */
         product_asins?: string[] | undefined
         
-        /** the lower limit of the product price range
-example:
-49.98 */
+        /** the lower limit of the product price range example: 49.98 */
         price_from?: number | undefined
         
-        /** the upper limit of the product price range
-example:
-384.99 */
+        /** the upper limit of the product price range example: 384.99 */
         price_to?: number | undefined
         
         /** value of the percentage discount */
         percentage_discount?: string | undefined
         
-        /** currency in the ISO format
-example:
-USD */
+        /** currency in the ISO format example: USD */
         currency?: string | undefined
         
-        /** “Amazon’s choice” label
-if the value is true, the product is marked with the “Amazon’s choice” label */
+        /** “Amazon’s choice” label if the value is true, the product is marked with the “Amazon’s choice” label */
         is_amazon_choice?: boolean | undefined
         
         /** product rating info */
@@ -76,8 +65,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
         /** indicates whether the newer model of the product is available */
         is_newer_model_available?: boolean | undefined
         
-        /** indicates whether a product has an Amazon Prime Video label
-if true, specified product is a part of Amazon Prime Video service */
+        /** indicates whether a product has an Amazon Prime Video label if true, specified product is a part of Amazon Prime Video service */
         is_prime_video?: boolean | undefined
         
         /** array of objects containing information about applicable vouchers */
@@ -101,8 +89,7 @@ if true, specified product is a part of Amazon Prime Video service */
         /** contains description of the product */
         description?: string | undefined
         
-        /** indicates whether the product is available for ordering
-if the value is true, the product can be ordered */
+        /** indicates whether the product is available for ordering if the value is true, the product can be ordered */
         is_available?: boolean | undefined
         
         /** array of objects with top reviews from target location */
@@ -123,21 +110,17 @@ export class AmazonProductInfo  implements IAmazonProductInfo {
     type?: string | undefined;
 
     
-    /** position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group */
+    /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank
-absolute position among all the elements in the response array */
+    /** absolute rank absolute position among all the elements in the response array */
 
     rank_absolute?: number | undefined;
 
     
-    /** the alignment of the element in Amazon SERP
-possible values:
-left, right */
+    /** the alignment of the element in Amazon SERP possible values: left, right */
 
     position?: string | undefined;
 
@@ -182,16 +165,12 @@ left, right */
     product_asins?: string[] | undefined;
 
     
-    /** the lower limit of the product price range
-example:
-49.98 */
+    /** the lower limit of the product price range example: 49.98 */
 
     price_from?: number | undefined;
 
     
-    /** the upper limit of the product price range
-example:
-384.99 */
+    /** the upper limit of the product price range example: 384.99 */
 
     price_to?: number | undefined;
 
@@ -201,15 +180,12 @@ example:
     percentage_discount?: string | undefined;
 
     
-    /** currency in the ISO format
-example:
-USD */
+    /** currency in the ISO format example: USD */
 
     currency?: string | undefined;
 
     
-    /** “Amazon’s choice” label
-if the value is true, the product is marked with the “Amazon’s choice” label */
+    /** “Amazon’s choice” label if the value is true, the product is marked with the “Amazon’s choice” label */
 
     is_amazon_choice?: boolean | undefined;
 
@@ -224,8 +200,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
     is_newer_model_available?: boolean | undefined;
 
     
-    /** indicates whether a product has an Amazon Prime Video label
-if true, specified product is a part of Amazon Prime Video service */
+    /** indicates whether a product has an Amazon Prime Video label if true, specified product is a part of Amazon Prime Video service */
 
     is_prime_video?: boolean | undefined;
 
@@ -265,8 +240,7 @@ if true, specified product is a part of Amazon Prime Video service */
     description?: string | undefined;
 
     
-    /** indicates whether the product is available for ordering
-if the value is true, the product can be ordered */
+    /** indicates whether the product is available for ordering if the value is true, the product can be ordered */
 
     is_available?: boolean | undefined;
 

@@ -376,6 +376,20 @@ This endpoint does not need any parameter.
  });
 
  let task = new BusinessDataBusinessListingsSearchLiveRequestInfo();
+   task.categories = [
+       "pizza_restaurant",
+   ];
+   task.description = "pizza";
+   task.title = "pizza";
+   task.is_claimed = true;
+   task.location_coordinate = "53.476225,-2.243572,10";
+   task.order_by = [
+       "rating.value,desc",
+   ];
+   task.filters = [
+       ,
+   ];
+   task.limit = 3;
  let response = await api.businessListingsSearchLive([task]);
 ```
 

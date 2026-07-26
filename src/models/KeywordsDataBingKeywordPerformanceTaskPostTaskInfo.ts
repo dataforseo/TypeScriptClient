@@ -3,8 +3,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IKeywordsDataBingKeywordPerformanceTaskPostTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results
-in this case, the value will be null */
+        /** array of results in this case, the value will be null */
         result?: any | undefined
 
     [key: string]: any;
@@ -14,8 +13,7 @@ in this case, the value will be null */
 export class KeywordsDataBingKeywordPerformanceTaskPostTaskInfo  extends BaseResponseTaskInfo   implements IKeywordsDataBingKeywordPerformanceTaskPostTaskInfo {
 
     
-    /** array of results
-in this case, the value will be null */
+    /** array of results in this case, the value will be null */
 
     result?: any | undefined;
 

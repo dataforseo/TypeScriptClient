@@ -3,21 +3,16 @@ import { RatingInfo, IRatingInfo } from "./RatingInfo";
 
 export interface IPeopleAlsoSearch   {
         
-        /** google-defined client id
-unique id of a local establishment
-learn more about the identifier in this help center article */
+        /** *google-defined client id* unique id of a local establishment learn more about the identifier in [this help center article](https://dataforseo.com/help-center/what-is-cid-place-id-feature-id) */
         cid?: string | undefined
         
-        /** the unique identifier of the element in SERP
-learn more about the identifier in this help center article */
+        /** *the unique identifier of the element in SERP* learn more about the identifier in [this help center article](https://dataforseo.com/help-center/what-is-cid-place-id-feature-id) */
         feature_id?: string | undefined
         
-        /** title of the element in SERP
-the name of the business entity for which the results are collected */
+        /** *title of the element in SERP* the name of the business entity for which the results are collected */
         title?: string | undefined
         
-        /** the element's rating 
-the popularity rate based on reviews and displayed in SERP */
+        /** *the element's rating* the popularity rate based on reviews and displayed in SERP */
         rating?: RatingInfo | undefined
 
     [key: string]: any;
@@ -27,27 +22,22 @@ the popularity rate based on reviews and displayed in SERP */
 export class PeopleAlsoSearch  implements IPeopleAlsoSearch {
 
     
-    /** google-defined client id
-unique id of a local establishment
-learn more about the identifier in this help center article */
+    /** *google-defined client id* unique id of a local establishment learn more about the identifier in [this help center article](https://dataforseo.com/help-center/what-is-cid-place-id-feature-id) */
 
     cid?: string | undefined;
 
     
-    /** the unique identifier of the element in SERP
-learn more about the identifier in this help center article */
+    /** *the unique identifier of the element in SERP* learn more about the identifier in [this help center article](https://dataforseo.com/help-center/what-is-cid-place-id-feature-id) */
 
     feature_id?: string | undefined;
 
     
-    /** title of the element in SERP
-the name of the business entity for which the results are collected */
+    /** *title of the element in SERP* the name of the business entity for which the results are collected */
 
     title?: string | undefined;
 
     
-    /** the element's rating 
-the popularity rate based on reviews and displayed in SERP */
+    /** *the element's rating* the popularity rate based on reviews and displayed in SERP */
 
     rating?: RatingInfo | undefined;
 
