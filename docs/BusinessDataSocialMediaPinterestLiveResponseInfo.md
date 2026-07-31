@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **BusinessDataSocialMediaPinterestLiveTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **BusinessDataSocialMediaPinterestLiveTaskInfo[]** | *array of tasks* |[optional]|

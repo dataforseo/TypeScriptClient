@@ -6,10 +6,10 @@ export interface IProductInformationRows   {
         /** type of element */
         type?: string | undefined
         
-        /** title under which related product information appears on the Amazon product page */
+        /** *title under which related product information appears on the Amazon product page* */
         title?: string | undefined
         
-        /** rows containing related product information */
+        /** *rows containing related product information* */
         rows?: BaseMerchantAmazonProductInformationRowElementItem[] | undefined
 
     [key: string]: any;
@@ -24,12 +24,12 @@ export class ProductInformationRows  implements IProductInformationRows {
     type?: string | undefined;
 
     
-    /** title under which related product information appears on the Amazon product page */
+    /** *title under which related product information appears on the Amazon product page* */
 
     title?: string | undefined;
 
     
-    /** rows containing related product information */
+    /** *rows containing related product information* */
 
     rows?: BaseMerchantAmazonProductInformationRowElementItem[] | undefined;
 

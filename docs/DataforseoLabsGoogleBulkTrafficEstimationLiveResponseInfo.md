@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **DataforseoLabsGoogleBulkTrafficEstimationLiveTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **DataforseoLabsGoogleBulkTrafficEstimationLiveTaskInfo[]** | *array of tasks* |[optional]|

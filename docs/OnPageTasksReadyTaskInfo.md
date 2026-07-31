@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **OnPageTasksReadyResultInfo[]** | array of results |[optional]|
+**result** | **OnPageTasksReadyResultInfo[]** | *array of results* |[optional]|

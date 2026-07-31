@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface IDataforseoLabsGoogleRelevantPagesLiveResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: DataforseoLabsGoogleRelevantPagesLiveTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IDataforseoLabsGoogleRelevantPagesLiveResponseInfo  extends IBa
 export class DataforseoLabsGoogleRelevantPagesLiveResponseInfo  extends BaseResponseInfo   implements IDataforseoLabsGoogleRelevantPagesLiveResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: DataforseoLabsGoogleRelevantPagesLiveTaskInfo[] | undefined;
 

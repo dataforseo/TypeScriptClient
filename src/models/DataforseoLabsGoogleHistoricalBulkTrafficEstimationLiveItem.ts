@@ -3,13 +3,13 @@ import { HistoricalMetricsBundleInfo, IHistoricalMetricsBundleInfo } from "./His
 
 export interface IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem   {
         
-        /** search engine type */
+        /** *search engine type* */
         se_type?: string | undefined
         
-        /** target domain in a POST array */
+        /** *target domain in a POST array* */
         target?: string | undefined
         
-        /** traffic data relevant to the specified domain */
+        /** *traffic data relevant to the specified domain* */
         metrics?: HistoricalMetricsBundleInfo | undefined
 
     [key: string]: any;
@@ -19,17 +19,17 @@ export interface IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem   
 export class DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem  implements IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem {
 
     
-    /** search engine type */
+    /** *search engine type* */
 
     se_type?: string | undefined;
 
     
-    /** target domain in a POST array */
+    /** *target domain in a POST array* */
 
     target?: string | undefined;
 
     
-    /** traffic data relevant to the specified domain */
+    /** *traffic data relevant to the specified domain* */
 
     metrics?: HistoricalMetricsBundleInfo | undefined;
 

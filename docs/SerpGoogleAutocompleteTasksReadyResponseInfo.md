@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpGoogleAutocompleteTasksReadyTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **SerpGoogleAutocompleteTasksReadyTaskInfo[]** | *array of tasks* |[optional]|

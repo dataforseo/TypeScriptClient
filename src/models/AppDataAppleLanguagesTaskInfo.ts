@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IAppDataAppleLanguagesTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: AppDataAppleLanguagesResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IAppDataAppleLanguagesTaskInfo  extends IBaseResponseTaskInfo  
 export class AppDataAppleLanguagesTaskInfo  extends BaseResponseTaskInfo   implements IAppDataAppleLanguagesTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: AppDataAppleLanguagesResultInfo[] | undefined;
 

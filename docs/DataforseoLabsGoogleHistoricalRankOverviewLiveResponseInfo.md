@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **DataforseoLabsGoogleHistoricalRankOverviewLiveTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **DataforseoLabsGoogleHistoricalRankOverviewLiveTaskInfo[]** | *array of tasks* |[optional]|

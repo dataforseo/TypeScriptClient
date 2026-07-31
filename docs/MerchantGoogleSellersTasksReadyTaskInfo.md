@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **MerchantGoogleSellersTasksReadyResultInfo[]** | array of results |[optional]|
+**result** | **MerchantGoogleSellersTasksReadyResultInfo[]** | *array of results* |[optional]|

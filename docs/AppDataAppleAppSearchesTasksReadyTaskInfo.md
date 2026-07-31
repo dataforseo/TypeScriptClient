@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **AppDataAppleAppSearchesTasksReadyResultInfo[]** | array of results |[optional]|
+**result** | **AppDataAppleAppSearchesTasksReadyResultInfo[]** | *array of results* |[optional]|

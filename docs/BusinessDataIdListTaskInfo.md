@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **BusinessDataIdListResultInfo[]** | array of results |[optional]|
+**result** | **BusinessDataIdListResultInfo[]** | *array of results* |[optional]|

@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpGoogleNewsTasksReadyResultInfo[]** | array of results |[optional]|
+**result** | **SerpGoogleNewsTasksReadyResultInfo[]** | *array of results* |[optional]|

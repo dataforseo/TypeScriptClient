@@ -1,5 +1,5 @@
 import { RatingInfo, IRatingInfo } from "./RatingInfo";
-import { PriceInfo, IPriceInfo } from "./PriceInfo";
+import { AiModePriceInfo, IAiModePriceInfo } from "./AiModePriceInfo";
 
 
 export interface IAiModeAiOverviewShoppingElementInfo   {
@@ -29,7 +29,7 @@ export interface IAiModeAiOverviewShoppingElementInfo   {
         rating?: RatingInfo | undefined
         
         /** *product price* product price details on the seller's website;  if there is none, the value will be `null` */
-        price?: PriceInfo | undefined
+        price?: AiModePriceInfo | undefined
         
         /** *product seller* name of the product's seller as displayed in search results */
         seller?: string | undefined
@@ -95,7 +95,7 @@ export class AiModeAiOverviewShoppingElementInfo  implements IAiModeAiOverviewSh
     
     /** *product price* product price details on the seller's website;  if there is none, the value will be `null` */
 
-    price?: PriceInfo | undefined;
+    price?: AiModePriceInfo | undefined;
 
     
     /** *product seller* name of the product's seller as displayed in search results */
@@ -150,7 +150,7 @@ export class AiModeAiOverviewShoppingElementInfo  implements IAiModeAiOverviewSh
             this.url = data["url"];
             this.domain = data["domain"];
             this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
-            this.price = data["price"] ? PriceInfo.fromJS(data["price"]) : <any>undefined;
+            this.price = data["price"] ? AiModePriceInfo.fromJS(data["price"]) : <any>undefined;
             this.seller = data["seller"];
             this.snippet = data["snippet"];
             this.marketplace = data["marketplace"];
@@ -181,7 +181,7 @@ export class AiModeAiOverviewShoppingElementInfo  implements IAiModeAiOverviewSh
         data["url"] = this.url;
         data["domain"] = this.domain;
         data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
-        data["price"] = this.price ? PriceInfo.fromJS(this.price)?.toJSON() : <any>undefined;
+        data["price"] = this.price ? AiModePriceInfo.fromJS(this.price)?.toJSON() : <any>undefined;
         data["seller"] = this.seller;
         data["snippet"] = this.snippet;
         data["marketplace"] = this.marketplace;

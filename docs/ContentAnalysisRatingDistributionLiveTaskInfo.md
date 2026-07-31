@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **ContentAnalysisRatingDistributionLiveResultInfo[]** | array of results |[optional]|
+**result** | **ContentAnalysisRatingDistributionLiveResultInfo[]** | *array of results* |[optional]|

@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **BacklinksSummaryLiveTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **BacklinksSummaryLiveTaskInfo[]** | *array of tasks* |[optional]|

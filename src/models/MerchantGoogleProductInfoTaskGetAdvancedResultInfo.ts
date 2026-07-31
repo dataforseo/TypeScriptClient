@@ -3,34 +3,34 @@ import { ProductInfoElement, IProductInfoElement } from "./ProductInfoElement";
 
 export interface IMerchantGoogleProductInfoTaskGetAdvancedResultInfo   {
         
-        /** product ID in a POST array learn more about the parameter in this help center guide */
+        /** *product ID in a POST array* learn more about the parameter in [this help center guide](https://dataforseo.com/help-center/product-id-google-shopping) */
         product_id?: string | undefined
         
         /** type of element */
         type?: string | undefined
         
-        /** search engine domain in a POST array */
+        /** *search engine domain in a POST array* */
         se_domain?: string | undefined
         
-        /** location code in a POST array */
+        /** *location code in a POST array* */
         location_code?: number | undefined
         
-        /** language code in a POST array */
+        /** *language code in a POST array* */
         language_code?: string | undefined
         
-        /** direct URL to search engine results you can use it to make sure that we provided accurate results */
+        /** *direct URL to search engine results* you can use it to make sure that we provided accurate results */
         check_url?: string | undefined
         
-        /** date and time when the result was received in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes” example: 2019-11-15 12:57:46 +00:00 */
+        /** *date and time when the result was received* in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes” example: `2019-11-15 12:57:46 +00:00` */
         datetime?: string | undefined
         
-        /** types of items found on the product specification page possible item types: product_info_element */
+        /** *types of items found on the product specification page* possible item types: `product_info_element` */
         item_types?: string[] | undefined
         
-        /** the number of results returned in the items array */
+        /** *the number of results returned in the **`items`** array* */
         items_count?: number | undefined
         
-        /** items on the product page contains all product attributes and related data listed on the product page */
+        /** *items on the product page* contains all product attributes and related data listed on the product page */
         items?: ProductInfoElement[] | undefined
 
     [key: string]: any;
@@ -40,7 +40,7 @@ export interface IMerchantGoogleProductInfoTaskGetAdvancedResultInfo   {
 export class MerchantGoogleProductInfoTaskGetAdvancedResultInfo  implements IMerchantGoogleProductInfoTaskGetAdvancedResultInfo {
 
     
-    /** product ID in a POST array learn more about the parameter in this help center guide */
+    /** *product ID in a POST array* learn more about the parameter in [this help center guide](https://dataforseo.com/help-center/product-id-google-shopping) */
 
     product_id?: string | undefined;
 
@@ -50,42 +50,42 @@ export class MerchantGoogleProductInfoTaskGetAdvancedResultInfo  implements IMer
     type?: string | undefined;
 
     
-    /** search engine domain in a POST array */
+    /** *search engine domain in a POST array* */
 
     se_domain?: string | undefined;
 
     
-    /** location code in a POST array */
+    /** *location code in a POST array* */
 
     location_code?: number | undefined;
 
     
-    /** language code in a POST array */
+    /** *language code in a POST array* */
 
     language_code?: string | undefined;
 
     
-    /** direct URL to search engine results you can use it to make sure that we provided accurate results */
+    /** *direct URL to search engine results* you can use it to make sure that we provided accurate results */
 
     check_url?: string | undefined;
 
     
-    /** date and time when the result was received in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes” example: 2019-11-15 12:57:46 +00:00 */
+    /** *date and time when the result was received* in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes” example: `2019-11-15 12:57:46 +00:00` */
 
     datetime?: string | undefined;
 
     
-    /** types of items found on the product specification page possible item types: product_info_element */
+    /** *types of items found on the product specification page* possible item types: `product_info_element` */
 
     item_types?: string[] | undefined;
 
     
-    /** the number of results returned in the items array */
+    /** *the number of results returned in the **`items`** array* */
 
     items_count?: number | undefined;
 
     
-    /** items on the product page contains all product attributes and related data listed on the product page */
+    /** *items on the product page* contains all product attributes and related data listed on the product page */
 
     items?: ProductInfoElement[] | undefined;
 

@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IContentAnalysisLocationsTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: ContentAnalysisLocationsResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IContentAnalysisLocationsTaskInfo  extends IBaseResponseTaskInf
 export class ContentAnalysisLocationsTaskInfo  extends BaseResponseTaskInfo   implements IContentAnalysisLocationsTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: ContentAnalysisLocationsResultInfo[] | undefined;
 

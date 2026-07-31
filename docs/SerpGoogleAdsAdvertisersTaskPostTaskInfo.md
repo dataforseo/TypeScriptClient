@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **string** |  |[optional]|
+**result** | **any** | *array of results*. in this case, the value will be `null` |[optional]|

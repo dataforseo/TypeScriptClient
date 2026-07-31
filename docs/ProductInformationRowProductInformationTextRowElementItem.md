@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**text** | **string** | text of the voucher |[optional]|
+**text** | **string** | *text of the voucher* |[optional]|

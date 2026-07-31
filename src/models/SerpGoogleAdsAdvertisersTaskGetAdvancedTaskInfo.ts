@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface ISerpGoogleAdsAdvertisersTaskGetAdvancedTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: SerpGoogleAdsAdvertisersTaskGetAdvancedResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface ISerpGoogleAdsAdvertisersTaskGetAdvancedTaskInfo  extends IBase
 export class SerpGoogleAdsAdvertisersTaskGetAdvancedTaskInfo  extends BaseResponseTaskInfo   implements ISerpGoogleAdsAdvertisersTaskGetAdvancedTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: SerpGoogleAdsAdvertisersTaskGetAdvancedResultInfo[] | undefined;
 

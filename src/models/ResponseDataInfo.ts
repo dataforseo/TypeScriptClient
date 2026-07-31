@@ -1,15 +1,15 @@
 export interface IResponseDataInfo   {
         
-        /** author of the response */
+        /** *author of the response* */
         author?: string | undefined
         
-        /** title of the response in this case, will equal null */
+        /** *title of the response* in this case, will equal `null` */
         title?: string | undefined
         
-        /** content of the response */
+        /** *content of the response* */
         text?: string | undefined
         
-        /** date and time when the response was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: 2019-11-15 12:57:46 +00:00 */
+        /** *date and time when the response was published* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: `2019-11-15 12:57:46 +00:00` */
         timestamp?: string | undefined
 
     [key: string]: any;
@@ -19,22 +19,22 @@ export interface IResponseDataInfo   {
 export class ResponseDataInfo  implements IResponseDataInfo {
 
     
-    /** author of the response */
+    /** *author of the response* */
 
     author?: string | undefined;
 
     
-    /** title of the response in this case, will equal null */
+    /** *title of the response* in this case, will equal `null` */
 
     title?: string | undefined;
 
     
-    /** content of the response */
+    /** *content of the response* */
 
     text?: string | undefined;
 
     
-    /** date and time when the response was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: 2019-11-15 12:57:46 +00:00 */
+    /** *date and time when the response was published* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: `2019-11-15 12:57:46 +00:00` */
 
     timestamp?: string | undefined;
 

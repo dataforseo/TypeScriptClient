@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **DataforseoLabsGoogleHistoricalKeywordDataLiveResultInfo[]** | array of results |[optional]|
+**result** | **DataforseoLabsGoogleHistoricalKeywordDataLiveResultInfo[]** | *array of results* |[optional]|

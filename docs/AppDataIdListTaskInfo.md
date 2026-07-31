@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **AppDataIdListResultInfo[]** | array of results |[optional]|
+**result** | **AppDataIdListResultInfo[]** | *array of results* |[optional]|

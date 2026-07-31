@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **BusinessDataTripadvisorLanguagesResultInfo[]** | array of results |[optional]|
+**result** | **BusinessDataTripadvisorLanguagesResultInfo[]** | *array of results* |[optional]|

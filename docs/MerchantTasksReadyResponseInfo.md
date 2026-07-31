@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **MerchantTasksReadyTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **MerchantTasksReadyTaskInfo[]** | *array of tasks* |[optional]|

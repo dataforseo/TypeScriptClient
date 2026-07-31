@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **DataforseoLabsAppleBulkAppMetricsLiveResultInfo[]** | array of results |[optional]|
+**result** | **DataforseoLabsAppleBulkAppMetricsLiveResultInfo[]** | *array of results* |[optional]|

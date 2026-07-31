@@ -1,12 +1,12 @@
 export interface IAvailableLanguages   {
         
-        /** supported sources contains the sources of data supported for a specific location and language combination only google and bing are currently available */
+        /** *supported sources* contains the sources of data supported for a specific location and language combination only `google` and `bing` are currently available */
         available_sources?: string[] | undefined
         
-        /** language name */
+        /** *language name* */
         language_name?: string | undefined
         
-        /** language code according to ISO 639-1 */
+        /** *language code according to [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)* */
         language_code?: string | undefined
         
         /** the number of keywords available for the given location and language */
@@ -22,17 +22,17 @@ export interface IAvailableLanguages   {
 export class AvailableLanguages  implements IAvailableLanguages {
 
     
-    /** supported sources contains the sources of data supported for a specific location and language combination only google and bing are currently available */
+    /** *supported sources* contains the sources of data supported for a specific location and language combination only `google` and `bing` are currently available */
 
     available_sources?: string[] | undefined;
 
     
-    /** language name */
+    /** *language name* */
 
     language_name?: string | undefined;
 
     
-    /** language code according to ISO 639-1 */
+    /** *language code according to [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)* */
 
     language_code?: string | undefined;
 

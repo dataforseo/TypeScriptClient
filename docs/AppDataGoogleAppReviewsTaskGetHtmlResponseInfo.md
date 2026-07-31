@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **AppDataGoogleAppReviewsTaskGetHtmlTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **AppDataGoogleAppReviewsTaskGetHtmlTaskInfo[]** | *array of tasks* |[optional]|

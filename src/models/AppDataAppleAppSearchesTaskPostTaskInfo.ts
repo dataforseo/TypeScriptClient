@@ -3,7 +3,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IAppDataAppleAppSearchesTaskPostTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results in this case, the value will be null */
+        /** *array of results* in this case, the value will be `null` */
         result?: any | undefined
 
     [key: string]: any;
@@ -13,7 +13,7 @@ export interface IAppDataAppleAppSearchesTaskPostTaskInfo  extends IBaseResponse
 export class AppDataAppleAppSearchesTaskPostTaskInfo  extends BaseResponseTaskInfo   implements IAppDataAppleAppSearchesTaskPostTaskInfo {
 
     
-    /** array of results in this case, the value will be null */
+    /** *array of results* in this case, the value will be `null` */
 
     result?: any | undefined;
 

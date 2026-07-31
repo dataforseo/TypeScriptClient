@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpYahooLocationsResultInfo[]** | array of results |[optional]|
+**result** | **SerpYahooLocationsResultInfo[]** | *array of results* |[optional]|

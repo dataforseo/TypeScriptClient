@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **BacklinksBulkReferringDomainsLiveResultInfo[]** | array of results |[optional]|
+**result** | **BacklinksBulkReferringDomainsLiveResultInfo[]** | *array of results* |[optional]|

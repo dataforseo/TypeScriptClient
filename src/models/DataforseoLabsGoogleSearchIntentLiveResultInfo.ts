@@ -3,13 +3,13 @@ import { DataforseoLabsGoogleSearchIntentLiveItem, IDataforseoLabsGoogleSearchIn
 
 export interface IDataforseoLabsGoogleSearchIntentLiveResultInfo   {
         
-        /** language code in a POST array if there is no data, then the value is null */
+        /** *language code in a POST array* if there is no data, then the value is_`null`n */
         language_code?: string | undefined
         
-        /** the number of results returned in the items array */
+        /** *the number of results returned in the `items` array* */
         items_count?: number | undefined
         
-        /** array of items with relevant traffic estimation data */
+        /** *array of items with relevant traffic estimation data* */
         items?: DataforseoLabsGoogleSearchIntentLiveItem[] | undefined
 
     [key: string]: any;
@@ -19,17 +19,17 @@ export interface IDataforseoLabsGoogleSearchIntentLiveResultInfo   {
 export class DataforseoLabsGoogleSearchIntentLiveResultInfo  implements IDataforseoLabsGoogleSearchIntentLiveResultInfo {
 
     
-    /** language code in a POST array if there is no data, then the value is null */
+    /** *language code in a POST array* if there is no data, then the value is_`null`n */
 
     language_code?: string | undefined;
 
     
-    /** the number of results returned in the items array */
+    /** *the number of results returned in the `items` array* */
 
     items_count?: number | undefined;
 
     
-    /** array of items with relevant traffic estimation data */
+    /** *array of items with relevant traffic estimation data* */
 
     items?: DataforseoLabsGoogleSearchIntentLiveItem[] | undefined;
 

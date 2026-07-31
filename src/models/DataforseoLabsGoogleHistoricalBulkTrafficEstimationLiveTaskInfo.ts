@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveTaskInf
 export class DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveTaskInfo  extends BaseResponseTaskInfo   implements IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo[] | undefined;
 

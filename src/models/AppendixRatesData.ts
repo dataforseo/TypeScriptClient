@@ -4,10 +4,10 @@ import { AppendixStatisticsDataInfo, IAppendixStatisticsDataInfo } from "./Appen
 
 export interface IAppendixRatesData   {
         
-        /** rate limits for API calls per a certain period of time */
+        /** *rate limits for API calls per a certain period of time* */
         limits?: AppendixLimitsRatesData | undefined
         
-        /** statisctics for API calls */
+        /** *statisctics for API calls* */
         statistics?: AppendixStatisticsDataInfo | undefined
 
     [key: string]: any;
@@ -17,12 +17,12 @@ export interface IAppendixRatesData   {
 export class AppendixRatesData  implements IAppendixRatesData {
 
     
-    /** rate limits for API calls per a certain period of time */
+    /** *rate limits for API calls per a certain period of time* */
 
     limits?: AppendixLimitsRatesData | undefined;
 
     
-    /** statisctics for API calls */
+    /** *statisctics for API calls* */
 
     statistics?: AppendixStatisticsDataInfo | undefined;
 

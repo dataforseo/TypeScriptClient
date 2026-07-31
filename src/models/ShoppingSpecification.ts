@@ -3,13 +3,13 @@ export interface IShoppingSpecification   {
         /** type of element */
         type?: string | undefined
         
-        /** name of the block of product attributes indicates the name of the product specification section in which the related element is listed */
+        /** *name of the block of product attributes* indicates the name of the product specification section in which the related element is listed */
         block_name?: string | undefined
         
-        /** product attribute attribute name of the product data specification */
+        /** *product attribute* attribute name of the [product data specification](https://support.google.com/merchants/answer/7052112?hl=en) */
         specification_name?: string | undefined
         
-        /** content of the specification */
+        /** *content of the specification* */
         specification_value?: string | undefined
 
     [key: string]: any;
@@ -24,17 +24,17 @@ export class ShoppingSpecification  implements IShoppingSpecification {
     type?: string | undefined;
 
     
-    /** name of the block of product attributes indicates the name of the product specification section in which the related element is listed */
+    /** *name of the block of product attributes* indicates the name of the product specification section in which the related element is listed */
 
     block_name?: string | undefined;
 
     
-    /** product attribute attribute name of the product data specification */
+    /** *product attribute* attribute name of the [product data specification](https://support.google.com/merchants/answer/7052112?hl=en) */
 
     specification_name?: string | undefined;
 
     
-    /** content of the specification */
+    /** *content of the specification* */
 
     specification_value?: string | undefined;
 

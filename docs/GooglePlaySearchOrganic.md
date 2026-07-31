@@ -5,16 +5,16 @@
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
 **type** | **string** | type of element |[optional]|
-**rank_group** | **number** | position within a group of elements with identical type values. positions of elements with different type values are omitted from rank_group |[optional]|
-**rank_absolute** | **number** | absolute rank in SERP. absolute position among all the elements in SERP |[optional]|
-**position** | **string** | the alignment of the element in SERP. can take the following values:. left, right |[optional]|
-**app_id** | **string** | id of the app in a POST array |[optional]|
-**title** | **string** | title of the app |[optional]|
-**url** | **string** | URL to the app page on Google Play |[optional]|
-**icon** | **string** | URL to the app icon |[optional]|
-**reviews_count** | **number** | the total number of reviews of the app |[optional]|
-**rating** | **RatingInfo** | average rating of the app |[optional]|
-**is_free** | **boolean** | indicates whether the app is free |[optional]|
-**price** | **PriceInfo** | price of the app |[optional]|
-**developer** | **string** | name of the app developer |[optional]|
-**developer_url** | **string** | URL to the developer page on Google Play |[optional]|
+**rank_group** | **number** | *position within a group of elements with identical `type` values*. positions of elements with different `type` values are omitted from `rank_group` |[optional]|
+**rank_absolute** | **number** | *absolute rank in SERP*. absolute position among all the elements in SERP |[optional]|
+**position** | **string** | *the alignment of the element in SERP*. can take the following values:. `left`, `right` |[optional]|
+**app_id** | **string** | *id of the app in a POST array* |[optional]|
+**title** | **string** | *title of the app* |[optional]|
+**url** | **string** | *URL to the app page on Google Play* |[optional]|
+**icon** | **string** | *URL to the app icon* |[optional]|
+**reviews_count** | **number** | *the total number of reviews of the app* |[optional]|
+**rating** | **RatingInfo** | *average rating of the app* |[optional]|
+**is_free** | **boolean** |  |[optional]|
+**price** | **PriceInfo** |  |[optional]|
+**developer** | **string** | *name of the app developer* |[optional]|
+**developer_url** | **string** | *URL to the developer page on Google Play* |[optional]|

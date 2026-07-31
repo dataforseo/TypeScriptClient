@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IBusinessDataTripadvisorLocationsTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: BusinessDataTripadvisorLocationsResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IBusinessDataTripadvisorLocationsTaskInfo  extends IBaseRespons
 export class BusinessDataTripadvisorLocationsTaskInfo  extends BaseResponseTaskInfo   implements IBusinessDataTripadvisorLocationsTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: BusinessDataTripadvisorLocationsResultInfo[] | undefined;
 

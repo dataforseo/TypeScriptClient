@@ -4,13 +4,13 @@ import { GooglePlayRankedSerpElementInfo, IGooglePlayRankedSerpElementInfo } fro
 
 export interface IDataforseoLabsGoogleKeywordsForAppLiveItem   {
         
-        /** search engine type */
+        /** *search engine type* */
         se_type?: string | undefined
         
-        /** keyword data for the returned keyword */
+        /** *keyword data for the returned keyword* */
         keyword_data?: KeywordDataInfo | undefined
         
-        /** contains data on the domain’s SERP element found for the returned keyword */
+        /** *contains data on the domain's SERP element found for the returned `keyword`* */
         ranked_serp_element?: GooglePlayRankedSerpElementInfo | undefined
 
     [key: string]: any;
@@ -20,17 +20,17 @@ export interface IDataforseoLabsGoogleKeywordsForAppLiveItem   {
 export class DataforseoLabsGoogleKeywordsForAppLiveItem  implements IDataforseoLabsGoogleKeywordsForAppLiveItem {
 
     
-    /** search engine type */
+    /** *search engine type* */
 
     se_type?: string | undefined;
 
     
-    /** keyword data for the returned keyword */
+    /** *keyword data for the returned keyword* */
 
     keyword_data?: KeywordDataInfo | undefined;
 
     
-    /** contains data on the domain’s SERP element found for the returned keyword */
+    /** *contains data on the domain's SERP element found for the returned `keyword`* */
 
     ranked_serp_element?: GooglePlayRankedSerpElementInfo | undefined;
 

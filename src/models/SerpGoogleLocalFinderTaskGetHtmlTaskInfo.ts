@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface ISerpGoogleLocalFinderTaskGetHtmlTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: SerpGoogleLocalFinderTaskGetHtmlResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface ISerpGoogleLocalFinderTaskGetHtmlTaskInfo  extends IBaseRespons
 export class SerpGoogleLocalFinderTaskGetHtmlTaskInfo  extends BaseResponseTaskInfo   implements ISerpGoogleLocalFinderTaskGetHtmlTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: SerpGoogleLocalFinderTaskGetHtmlResultInfo[] | undefined;
 

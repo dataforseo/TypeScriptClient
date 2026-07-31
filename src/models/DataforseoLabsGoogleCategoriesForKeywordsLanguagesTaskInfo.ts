@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IDataforseoLabsGoogleCategoriesForKeywordsLanguagesTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IDataforseoLabsGoogleCategoriesForKeywordsLanguagesTaskInfo  ex
 export class DataforseoLabsGoogleCategoriesForKeywordsLanguagesTaskInfo  extends BaseResponseTaskInfo   implements IDataforseoLabsGoogleCategoriesForKeywordsLanguagesTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo[] | undefined;
 

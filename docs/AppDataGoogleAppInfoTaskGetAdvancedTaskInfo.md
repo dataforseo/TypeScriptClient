@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **AppDataGoogleAppInfoTaskGetAdvancedResultInfo[]** | array of results |[optional]|
+**result** | **AppDataGoogleAppInfoTaskGetAdvancedResultInfo[]** | *array of results* |[optional]|

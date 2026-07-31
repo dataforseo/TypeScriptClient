@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **ContentAnalysisCategoryTrendsLiveResultInfo[]** | array of results |[optional]|
+**result** | **ContentAnalysisCategoryTrendsLiveResultInfo[]** | *array of results* |[optional]|

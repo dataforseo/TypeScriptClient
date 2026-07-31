@@ -3,7 +3,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IBusinessDataTrustpilotSearchTaskPostTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results in this case, the value will be null */
+        /** *array of results* in this case, the value will be `null` */
         result?: any | undefined
 
     [key: string]: any;
@@ -13,7 +13,7 @@ export interface IBusinessDataTrustpilotSearchTaskPostTaskInfo  extends IBaseRes
 export class BusinessDataTrustpilotSearchTaskPostTaskInfo  extends BaseResponseTaskInfo   implements IBusinessDataTrustpilotSearchTaskPostTaskInfo {
 
     
-    /** array of results in this case, the value will be null */
+    /** *array of results* in this case, the value will be `null` */
 
     result?: any | undefined;
 

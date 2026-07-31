@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **AppDataErrorsTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **AppDataErrorsTaskInfo[]** | *array of tasks* |[optional]|

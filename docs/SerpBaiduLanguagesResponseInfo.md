@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpBaiduLanguagesTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **SerpBaiduLanguagesTaskInfo[]** | *array of tasks* |[optional]|

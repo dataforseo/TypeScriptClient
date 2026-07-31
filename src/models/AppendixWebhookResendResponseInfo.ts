@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface IAppendixWebhookResendResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: AppendixWebhookResendTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IAppendixWebhookResendResponseInfo  extends IBaseResponseInfo  
 export class AppendixWebhookResendResponseInfo  extends BaseResponseInfo   implements IAppendixWebhookResendResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: AppendixWebhookResendTaskInfo[] | undefined;
 

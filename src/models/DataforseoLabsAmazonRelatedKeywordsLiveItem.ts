@@ -3,16 +3,16 @@ import { AmazonKeywordData, IAmazonKeywordData } from "./AmazonKeywordData";
 
 export interface IDataforseoLabsAmazonRelatedKeywordsLiveItem   {
         
-        /** search engine type */
+        /** *search engine type* */
         se_type?: string | undefined
         
-        /** keyword data for the returned keyword */
+        /** *keyword data for the returned keyword* */
         keyword_data?: AmazonKeywordData | undefined
         
-        /** keyword search depth */
+        /** *keyword search depth* */
         depth?: number | undefined
         
-        /** list of related keywords represents the list of search queries which are related to the keyword returned in the array above */
+        /** *list of related keywords* represents the list of search queries which are related to the keyword returned in the array above */
         related_keywords?: string[] | undefined
 
     [key: string]: any;
@@ -22,22 +22,22 @@ export interface IDataforseoLabsAmazonRelatedKeywordsLiveItem   {
 export class DataforseoLabsAmazonRelatedKeywordsLiveItem  implements IDataforseoLabsAmazonRelatedKeywordsLiveItem {
 
     
-    /** search engine type */
+    /** *search engine type* */
 
     se_type?: string | undefined;
 
     
-    /** keyword data for the returned keyword */
+    /** *keyword data for the returned keyword* */
 
     keyword_data?: AmazonKeywordData | undefined;
 
     
-    /** keyword search depth */
+    /** *keyword search depth* */
 
     depth?: number | undefined;
 
     
-    /** list of related keywords represents the list of search queries which are related to the keyword returned in the array above */
+    /** *list of related keywords* represents the list of search queries which are related to the keyword returned in the array above */
 
     related_keywords?: string[] | undefined;
 

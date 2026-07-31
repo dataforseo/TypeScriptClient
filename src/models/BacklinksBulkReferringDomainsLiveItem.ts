@@ -1,18 +1,18 @@
 export interface IBacklinksBulkReferringDomainsLiveItem   {
         
-        /** domain, subdomain or webpage from a POST array */
+        /** *domain, subdomain or webpage from a POST array* */
         target?: string | undefined
         
-        /** number of referring domains pointing to the target note that we calculate main domains (root domains, like example.com) and their subdomains (e.g. blog.example.com) separately for this metric */
+        /** *number of referring domains pointing to the `target`* note that we calculate main domains (root domains, like `example.com`) and their subdomains (e.g. `blog.example.com`) separately for this metric */
         referring_domains?: number | undefined
         
-        /** number of domains pointing at least one nofollow link to the target */
+        /** *number of domains pointing at least one nofollow link to the `target`* */
         referring_domains_nofollow?: number | undefined
         
-        /** number of referring main domains pointing to the target the number of primary (root) domains referring to your target */
+        /** *number of referring main domains pointing to the `target`* the number of primary (root) domains referring to your target */
         referring_main_domains?: number | undefined
         
-        /** number of main domains pointing at least one nofollow link to the target */
+        /** *number of main domains pointing at least one nofollow link to the `target`* */
         referring_main_domains_nofollow?: number | undefined
 
     [key: string]: any;
@@ -22,27 +22,27 @@ export interface IBacklinksBulkReferringDomainsLiveItem   {
 export class BacklinksBulkReferringDomainsLiveItem  implements IBacklinksBulkReferringDomainsLiveItem {
 
     
-    /** domain, subdomain or webpage from a POST array */
+    /** *domain, subdomain or webpage from a POST array* */
 
     target?: string | undefined;
 
     
-    /** number of referring domains pointing to the target note that we calculate main domains (root domains, like example.com) and their subdomains (e.g. blog.example.com) separately for this metric */
+    /** *number of referring domains pointing to the `target`* note that we calculate main domains (root domains, like `example.com`) and their subdomains (e.g. `blog.example.com`) separately for this metric */
 
     referring_domains?: number | undefined;
 
     
-    /** number of domains pointing at least one nofollow link to the target */
+    /** *number of domains pointing at least one nofollow link to the `target`* */
 
     referring_domains_nofollow?: number | undefined;
 
     
-    /** number of referring main domains pointing to the target the number of primary (root) domains referring to your target */
+    /** *number of referring main domains pointing to the `target`* the number of primary (root) domains referring to your target */
 
     referring_main_domains?: number | undefined;
 
     
-    /** number of main domains pointing at least one nofollow link to the target */
+    /** *number of main domains pointing at least one nofollow link to the `target`* */
 
     referring_main_domains_nofollow?: number | undefined;
 

@@ -3,7 +3,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IMerchantAmazonAsinTaskPostTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results in this case, the value will be null */
+        /** *array of results* in this case, the value will be `null` */
         result?: any | undefined
 
     [key: string]: any;
@@ -13,7 +13,7 @@ export interface IMerchantAmazonAsinTaskPostTaskInfo  extends IBaseResponseTaskI
 export class MerchantAmazonAsinTaskPostTaskInfo  extends BaseResponseTaskInfo   implements IMerchantAmazonAsinTaskPostTaskInfo {
 
     
-    /** array of results in this case, the value will be null */
+    /** *array of results* in this case, the value will be `null` */
 
     result?: any | undefined;
 

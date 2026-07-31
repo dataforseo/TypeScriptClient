@@ -3,16 +3,16 @@ import { BacklinksDomainPagesSummaryLiveItem, IBacklinksDomainPagesSummaryLiveIt
 
 export interface IBacklinksDomainPagesSummaryLiveResultInfo   {
         
-        /** target in the post array */
+        /** *target in the post array* */
         target?: string | undefined
         
-        /** total number of relevant items in the database */
+        /** *total number of relevant items in the database* */
         total_count?: number | undefined
         
-        /** number of items in the results array */
+        /** *number of items in the results array* */
         items_count?: number | undefined
         
-        /** items array */
+        /** *items array* */
         items?: BacklinksDomainPagesSummaryLiveItem[] | undefined
 
     [key: string]: any;
@@ -22,22 +22,22 @@ export interface IBacklinksDomainPagesSummaryLiveResultInfo   {
 export class BacklinksDomainPagesSummaryLiveResultInfo  implements IBacklinksDomainPagesSummaryLiveResultInfo {
 
     
-    /** target in the post array */
+    /** *target in the post array* */
 
     target?: string | undefined;
 
     
-    /** total number of relevant items in the database */
+    /** *total number of relevant items in the database* */
 
     total_count?: number | undefined;
 
     
-    /** number of items in the results array */
+    /** *number of items in the results array* */
 
     items_count?: number | undefined;
 
     
-    /** items array */
+    /** *items array* */
 
     items?: BacklinksDomainPagesSummaryLiveItem[] | undefined;
 

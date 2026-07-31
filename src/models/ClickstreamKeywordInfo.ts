@@ -3,19 +3,19 @@ import { MonthlySearchesInfo, IMonthlySearchesInfo } from "./MonthlySearchesInfo
 
 export interface IClickstreamKeywordInfo   {
         
-        /** average monthly search volume rate represents the (approximate) number of searches for the given keyword idea on google.com */
+        /** average monthly search volume raterepresents the (approximate) number of searches for the given keyword idea on google.com */
         search_volume?: number | undefined
         
-        /** date and time when keyword data was updated in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
+        /** date and time when keyword data was updatedin the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”example:2019-11-15 12:57:46 +00:00 */
         last_updated_time?: string | undefined
         
-        /** distribution of estimated clickstream-based metrics by gender learn more about how the metric is calculated in this help center article */
+        /** distribution of estimated clickstream-based metrics by genderlearn more about how the metric is calculated in this help center article */
         gender_distribution?: { [key: string]: number; } | undefined
         
-        /** distribution of clickstream-based metrics by age learn more about how the metric is calculated in this help center article */
+        /** distribution of clickstream-based metrics by agelearn more about how the metric is calculated in this help center article */
         age_distribution?: { [key: string]: number; } | undefined
         
-        /** monthly searches represents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations */
+        /** monthly searchesrepresents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations */
         monthly_searches?: MonthlySearchesInfo[] | undefined
 
     [key: string]: any;
@@ -25,27 +25,27 @@ export interface IClickstreamKeywordInfo   {
 export class ClickstreamKeywordInfo  implements IClickstreamKeywordInfo {
 
     
-    /** average monthly search volume rate represents the (approximate) number of searches for the given keyword idea on google.com */
+    /** average monthly search volume raterepresents the (approximate) number of searches for the given keyword idea on google.com */
 
     search_volume?: number | undefined;
 
     
-    /** date and time when keyword data was updated in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
+    /** date and time when keyword data was updatedin the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”example:2019-11-15 12:57:46 +00:00 */
 
     last_updated_time?: string | undefined;
 
     
-    /** distribution of estimated clickstream-based metrics by gender learn more about how the metric is calculated in this help center article */
+    /** distribution of estimated clickstream-based metrics by genderlearn more about how the metric is calculated in this help center article */
 
     gender_distribution?: { [key: string]: number; } | undefined;
 
     
-    /** distribution of clickstream-based metrics by age learn more about how the metric is calculated in this help center article */
+    /** distribution of clickstream-based metrics by agelearn more about how the metric is calculated in this help center article */
 
     age_distribution?: { [key: string]: number; } | undefined;
 
     
-    /** monthly searches represents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations */
+    /** monthly searchesrepresents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations */
 
     monthly_searches?: MonthlySearchesInfo[] | undefined;
 

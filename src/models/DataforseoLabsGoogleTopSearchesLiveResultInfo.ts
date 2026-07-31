@@ -3,28 +3,28 @@ import { KeywordDataInfo, IKeywordDataInfo } from "./KeywordDataInfo";
 
 export interface IDataforseoLabsGoogleTopSearchesLiveResultInfo   {
         
-        /** search engine type */
+        /** *search engine type* */
         se_type?: string | undefined
         
-        /** location code in a POST array */
+        /** *location code in a POST array* */
         location_code?: number | undefined
         
-        /** language code in a POST array */
+        /** *language code in a POST array* */
         language_code?: string | undefined
         
-        /** total amount of results in our database relevant to your request */
+        /** *total amount of results in our database relevant to your request* */
         total_count?: number | undefined
         
-        /** the number of results returned in the items array */
+        /** *the number of results returned in the `items` array* */
         items_count?: number | undefined
         
-        /** current offset value */
+        /** *current offset value* */
         offset?: number | undefined
         
-        /** offset token for subsequent requests you can use the string provided in this field to get the subsequent results of the initial task; note: offset_token values are unique for each subsequent task */
+        /** *offset token for subsequent requests* you can use the string provided in this field to get the subsequent results of the initial task; **note:** `offset_token` values are unique for each subsequent task */
         offset_token?: string | undefined
         
-        /** contains keywords and related data */
+        /** *contains keywords and related data* */
         items?: KeywordDataInfo[] | undefined
 
     [key: string]: any;
@@ -34,42 +34,42 @@ export interface IDataforseoLabsGoogleTopSearchesLiveResultInfo   {
 export class DataforseoLabsGoogleTopSearchesLiveResultInfo  implements IDataforseoLabsGoogleTopSearchesLiveResultInfo {
 
     
-    /** search engine type */
+    /** *search engine type* */
 
     se_type?: string | undefined;
 
     
-    /** location code in a POST array */
+    /** *location code in a POST array* */
 
     location_code?: number | undefined;
 
     
-    /** language code in a POST array */
+    /** *language code in a POST array* */
 
     language_code?: string | undefined;
 
     
-    /** total amount of results in our database relevant to your request */
+    /** *total amount of results in our database relevant to your request* */
 
     total_count?: number | undefined;
 
     
-    /** the number of results returned in the items array */
+    /** *the number of results returned in the `items` array* */
 
     items_count?: number | undefined;
 
     
-    /** current offset value */
+    /** *current offset value* */
 
     offset?: number | undefined;
 
     
-    /** offset token for subsequent requests you can use the string provided in this field to get the subsequent results of the initial task; note: offset_token values are unique for each subsequent task */
+    /** *offset token for subsequent requests* you can use the string provided in this field to get the subsequent results of the initial task; **note:** `offset_token` values are unique for each subsequent task */
 
     offset_token?: string | undefined;
 
     
-    /** contains keywords and related data */
+    /** *contains keywords and related data* */
 
     items?: KeywordDataInfo[] | undefined;
 

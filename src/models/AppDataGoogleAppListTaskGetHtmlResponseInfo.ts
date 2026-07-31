@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface IAppDataGoogleAppListTaskGetHtmlResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: AppDataGoogleAppListTaskGetHtmlTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IAppDataGoogleAppListTaskGetHtmlResponseInfo  extends IBaseResp
 export class AppDataGoogleAppListTaskGetHtmlResponseInfo  extends BaseResponseInfo   implements IAppDataGoogleAppListTaskGetHtmlResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: AppDataGoogleAppListTaskGetHtmlTaskInfo[] | undefined;
 

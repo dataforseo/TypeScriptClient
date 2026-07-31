@@ -3,25 +3,25 @@ import { AmazonMetricsBundleInfo, IAmazonMetricsBundleInfo } from "./AmazonMetri
 
 export interface IDataforseoLabsAmazonProductCompetitorsLiveItem   {
         
-        /** search engine type */
+        /** *search engine type* */
         se_type?: string | undefined
         
-        /** ASIN in a POST array */
+        /** *ASIN in a POST array* */
         asin?: string | undefined
         
-        /** average position of the product in Amazon SERP Note: average position is calculated for intersected keywords only; the value for a given product may differ when combined with different target products */
+        /** *average position of the product in Amazon SERP* **Note:** average position is calculated for intersected keywords only; the value for a given product may differ when combined with different target products */
         avg_position?: number | undefined
         
-        /** sum of all product positions in Amazon SERP Note: average position is calculated for intersected keywords only; the value for a given product may differ when combined with different target products */
+        /** *sum of all product positions in Amazon SERP* **Note:** average position is calculated for intersected keywords only; the value for a given product may differ when combined with different target products */
         sum_position?: number | undefined
         
-        /** number of intersecting keywords */
+        /** *number of intersecting keywords* */
         intersections?: number | undefined
         
-        /** metrics for intersecting keywords ranking data relevant to the keywords that the provided asin shares with the target asin; Note: in this object ranking data is provided for the returned competitor’s asin */
+        /** *metrics for intersecting keywords* ranking data relevant to the keywords that the provided `asin` shares with the target `asin`; **Note:** in this object ranking data is provided for the returned competitor's `asin` */
         competitor_metrics?: AmazonMetricsBundleInfo | undefined
         
-        /** metrics for all keywords of the product full overview of ranking data relevant to all keywords that the provided asin is ranking for */
+        /** *metrics for all keywords of the product* full overview of ranking data relevant to all keywords that the provided `asin` is ranking for */
         full_metrics?: AmazonMetricsBundleInfo | undefined
 
     [key: string]: any;
@@ -31,37 +31,37 @@ export interface IDataforseoLabsAmazonProductCompetitorsLiveItem   {
 export class DataforseoLabsAmazonProductCompetitorsLiveItem  implements IDataforseoLabsAmazonProductCompetitorsLiveItem {
 
     
-    /** search engine type */
+    /** *search engine type* */
 
     se_type?: string | undefined;
 
     
-    /** ASIN in a POST array */
+    /** *ASIN in a POST array* */
 
     asin?: string | undefined;
 
     
-    /** average position of the product in Amazon SERP Note: average position is calculated for intersected keywords only; the value for a given product may differ when combined with different target products */
+    /** *average position of the product in Amazon SERP* **Note:** average position is calculated for intersected keywords only; the value for a given product may differ when combined with different target products */
 
     avg_position?: number | undefined;
 
     
-    /** sum of all product positions in Amazon SERP Note: average position is calculated for intersected keywords only; the value for a given product may differ when combined with different target products */
+    /** *sum of all product positions in Amazon SERP* **Note:** average position is calculated for intersected keywords only; the value for a given product may differ when combined with different target products */
 
     sum_position?: number | undefined;
 
     
-    /** number of intersecting keywords */
+    /** *number of intersecting keywords* */
 
     intersections?: number | undefined;
 
     
-    /** metrics for intersecting keywords ranking data relevant to the keywords that the provided asin shares with the target asin; Note: in this object ranking data is provided for the returned competitor’s asin */
+    /** *metrics for intersecting keywords* ranking data relevant to the keywords that the provided `asin` shares with the target `asin`; **Note:** in this object ranking data is provided for the returned competitor's `asin` */
 
     competitor_metrics?: AmazonMetricsBundleInfo | undefined;
 
     
-    /** metrics for all keywords of the product full overview of ranking data relevant to all keywords that the provided asin is ranking for */
+    /** *metrics for all keywords of the product* full overview of ranking data relevant to all keywords that the provided `asin` is ranking for */
 
     full_metrics?: AmazonMetricsBundleInfo | undefined;
 

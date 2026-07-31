@@ -3,10 +3,10 @@ export interface IBusinessDataSocialMediaPinterestLiveResultInfo   {
         /** type of element */
         type?: string | undefined
         
-        /** URL of the page the data is provided for corresponding URL you specified in the targets array when setting a task */
+        /** *URL of the page the data is provided for* corresponding URL you specified in the `targets` array when setting a task */
         page_url?: string | undefined
         
-        /** number of pins for the related page_url pins on Pinterest correspond to content saves; this field shows the number of content saves made from the related page_url using the Pinterest Save Button */
+        /** *number of pins for the related `page_url`* [pins on Pinterest](https://help.pinterest.com/en/business/article/build-a-pin) correspond to content saves; this field shows the number of content saves made from the related `page_url` using the [Pinterest Save Button](https://developers.pinterest.com/docs/widgets/save/?) */
         pins_count?: number | undefined
 
     [key: string]: any;
@@ -21,12 +21,12 @@ export class BusinessDataSocialMediaPinterestLiveResultInfo  implements IBusines
     type?: string | undefined;
 
     
-    /** URL of the page the data is provided for corresponding URL you specified in the targets array when setting a task */
+    /** *URL of the page the data is provided for* corresponding URL you specified in the `targets` array when setting a task */
 
     page_url?: string | undefined;
 
     
-    /** number of pins for the related page_url pins on Pinterest correspond to content saves; this field shows the number of content saves made from the related page_url using the Pinterest Save Button */
+    /** *number of pins for the related `page_url`* [pins on Pinterest](https://help.pinterest.com/en/business/article/build-a-pin) correspond to content saves; this field shows the number of content saves made from the related `page_url` using the [Pinterest Save Button](https://developers.pinterest.com/docs/widgets/save/?) */
 
     pins_count?: number | undefined;
 

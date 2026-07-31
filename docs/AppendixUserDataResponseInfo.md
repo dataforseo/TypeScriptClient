@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **AppendixUserDataTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **AppendixUserDataTaskInfo[]** | *array of tasks* |[optional]|

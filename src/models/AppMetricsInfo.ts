@@ -1,21 +1,21 @@
 export interface IAppMetricsInfo   {
         
-        /** number of organic SERPs where the product ranks #1 */
+        /** *number of organic SERPs where the product ranks #1* */
         pos_1?: number | undefined
         
-        /** number of organic SERPs where the product ranks #2-3 */
+        /** *number of organic SERPs where the product ranks #2-3* */
         pos_2_3?: number | undefined
         
-        /** number of organic SERPs where the product ranks #4-10 */
+        /** *number of organic SERPs where the product ranks #4-10* */
         pos_4_10?: number | undefined
         
-        /** number of organic SERPs where the product ranks #11-100 */
+        /** *number of organic SERPs where the product ranks #11-100* */
         pos_11_100?: number | undefined
         
-        /** total count of Amazon organic SERPs that contain the product */
+        /** *total count of Amazon organic SERPs that contain the product* */
         count?: number | undefined
         
-        /** total search volume of the product’s ranking keywords in organic SERP */
+        /** *total search volume of the product's ranking keywords in organic SERP* */
         search_volume?: number | undefined
 
     [key: string]: any;
@@ -25,32 +25,32 @@ export interface IAppMetricsInfo   {
 export class AppMetricsInfo  implements IAppMetricsInfo {
 
     
-    /** number of organic SERPs where the product ranks #1 */
+    /** *number of organic SERPs where the product ranks #1* */
 
     pos_1?: number | undefined;
 
     
-    /** number of organic SERPs where the product ranks #2-3 */
+    /** *number of organic SERPs where the product ranks #2-3* */
 
     pos_2_3?: number | undefined;
 
     
-    /** number of organic SERPs where the product ranks #4-10 */
+    /** *number of organic SERPs where the product ranks #4-10* */
 
     pos_4_10?: number | undefined;
 
     
-    /** number of organic SERPs where the product ranks #11-100 */
+    /** *number of organic SERPs where the product ranks #11-100* */
 
     pos_11_100?: number | undefined;
 
     
-    /** total count of Amazon organic SERPs that contain the product */
+    /** *total count of Amazon organic SERPs that contain the product* */
 
     count?: number | undefined;
 
     
-    /** total search volume of the product’s ranking keywords in organic SERP */
+    /** *total search volume of the product's ranking keywords in organic SERP* */
 
     search_volume?: number | undefined;
 

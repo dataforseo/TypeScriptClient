@@ -8,85 +8,85 @@ export interface IMapsSearch   {
         /** type of element */
         type?: string | undefined
         
-        /** position within a group of elements with identical type values positions of elements with different type values are omitted from the rank_group */
+        /** *position within a group of elements with identical `type` values* positions of elements with different `type` values are omitted from the `rank_group` */
         rank_group?: number | undefined
         
-        /** absolute rank among all the elements */
+        /** *absolute rank among all the elements* */
         rank_absolute?: number | undefined
         
-        /** domain of the business entity */
+        /** *domain of the business entity* */
         domain?: string | undefined
         
-        /** directory title can take the following values: At this place, Directory */
+        /** *directory title* can take the following values: `At this place`, `Directory` */
         title?: string | undefined
         
-        /** URL to view the menu */
+        /** *URL to view the menu* */
         url?: string | undefined
         
-        /** the element’s rating  the popularity rate based on reviews and displayed in SERP */
+        /** *the element's rating* the popularity rate based on reviews and displayed in SERP */
         rating?: RatingInfo | undefined
         
         /** the distribution of ratings of the business entity the object displays the number of 1-star to 5-star ratings, as reviewed by users */
         rating_distribution?: { [key: string]: number; } | undefined
         
-        /** additional information about the business entity */
+        /** *additional information about the business entity* */
         snippet?: string | undefined
         
-        /** address of the business entity */
+        /** *address of the business entity* */
         address?: string | undefined
         
-        /** object containing address components of the business entity */
+        /** *object containing address components of the business entity* */
         address_info?: AddressInfo | undefined
         
-        /** unique place identifier place id of the local establishment featured in the element learn more about the identifier in this help center article */
+        /** *unique place identifier* [place id](https://developers.google.com/places/place-id) of the local establishment featured in the element learn more about the identifier in [this help center article](https://dataforseo.com/help-center/what-is-cid-place-id-feature-id) */
         place_id?: string | undefined
         
-        /** phone number of the business entity */
+        /** *phone number of the business entity* */
         phone?: string | undefined
         
-        /** URL of the main image featured in Google My Business profile */
+        /** *URL of the main image featured in Google My Business profile* */
         main_image?: string | undefined
         
-        /** total count of images featured in Google My Business profile */
+        /** *total count of images featured in Google My Business profile* */
         total_photos?: string | undefined
         
-        /** business category Google My Business general category that best describes the services provided by the business entity */
+        /** *business category* Google My Business general category that best describes the services provided by the business entity */
         category?: string | undefined
         
-        /** additional business categories additional Google My Business categories that describe the services provided by the business entity in more detail */
+        /** *additional business categories* additional Google My Business categories that describe the services provided by the business entity in more detail */
         additional_categories?: string[] | undefined
         
-        /** property price level can take values: inexpensive, moderate, expensive, very_expensive if there is no price level information, the value will be null */
+        /** *property price level* can take values: `inexpensive`, `moderate`, `expensive`, `very_expensive` if there is no price level information, the value will be `null` */
         price_level?: string | undefined
         
-        /** hotel class rating class ratings range between 1-5 stars, learn more if there is no hotel class rating information, the value will be null */
+        /** *hotel class rating* class ratings range between 1-5 stars, [learn more](https://support.google.com/business/answer/7660515?hl=en) if there is no hotel class rating information, the value will be `null` */
         hotel_rating?: string | undefined
         
-        /** global category IDs universal category IDs that do not change based on the selected country */
+        /** *global category IDs* universal category IDs that do not change based on the selected country */
         category_ids?: string[] | undefined
         
-        /** open hours information about work hours of the local establishment */
+        /** *open hours* information about work hours of the local establishment */
         work_hours?: BusinessWorkHoursInfo | undefined
         
-        /** the unique identifier of the element in SERP learn more about the identifier in this help center article */
+        /** *the unique identifier of the element in SERP* learn more about the identifier in [this help center article](https://dataforseo.com/help-center/what-is-cid-place-id-feature-id) */
         feature_id?: string | undefined
         
-        /** google-defined client id unique id of a local establishment; can be used with Google Reviews API to get a full list of reviews learn more about the identifier in this help center article */
+        /** *google-defined client id* unique id of a local establishment; can be used with [Google Reviews API](/v3/reviews/google/overview/?php) to get a full list of reviews learn more about the identifier in [this help center article](https://dataforseo.com/help-center/what-is-cid-place-id-feature-id) */
         cid?: string | undefined
         
-        /** latitude coordinate of the local establishments in google maps example: 'latitude': 51.584091 */
+        /** *latitude coordinate of the local establishments in google maps* example: `'latitude': 51.584091` */
         latitude?: number | undefined
         
-        /** longitude coordinate of the local establishment in google maps example: 'longitude': -0.31365919999999997 */
+        /** *longitude coordinate of the local establishment in google maps* example: `'longitude': -0.31365919999999997` */
         longitude?: number | undefined
         
-        /** shows whether the entity is verified by its owner on Google Maps */
+        /** *shows whether the entity is verified by its owner on Google Maps* */
         is_claimed?: boolean | undefined
         
-        /** Google local justifications snippets of text that “justify” why the business is showing up for search query */
+        /** *Google local justifications* snippets of text that “justify” why the business is showing up for search query */
         local_justifications?: string[] | undefined
         
-        /** business establishment is a part of the directory indicates whether the business establishment is a part of the directory; if true, the item is a part of the larger directory of businesses with the same address (e.g., a mall or a business centre); note: if the business establishment is a parent item in the directory, the value will be null */
+        /** *business establishment is a part of the directory* indicates whether the business establishment is a part of the directory; if `true`, the item is a part of the larger directory of businesses with the same address (e.g., a mall or a business centre); **note:** if the business establishment is a parent item in the directory, the value will be `null` */
         is_directory_item?: boolean | undefined
 
     [key: string]: any;
@@ -101,32 +101,32 @@ export class MapsSearch  implements IMapsSearch {
     type?: string | undefined;
 
     
-    /** position within a group of elements with identical type values positions of elements with different type values are omitted from the rank_group */
+    /** *position within a group of elements with identical `type` values* positions of elements with different `type` values are omitted from the `rank_group` */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank among all the elements */
+    /** *absolute rank among all the elements* */
 
     rank_absolute?: number | undefined;
 
     
-    /** domain of the business entity */
+    /** *domain of the business entity* */
 
     domain?: string | undefined;
 
     
-    /** directory title can take the following values: At this place, Directory */
+    /** *directory title* can take the following values: `At this place`, `Directory` */
 
     title?: string | undefined;
 
     
-    /** URL to view the menu */
+    /** *URL to view the menu* */
 
     url?: string | undefined;
 
     
-    /** the element’s rating  the popularity rate based on reviews and displayed in SERP */
+    /** *the element's rating* the popularity rate based on reviews and displayed in SERP */
 
     rating?: RatingInfo | undefined;
 
@@ -136,102 +136,102 @@ export class MapsSearch  implements IMapsSearch {
     rating_distribution?: { [key: string]: number; } | undefined;
 
     
-    /** additional information about the business entity */
+    /** *additional information about the business entity* */
 
     snippet?: string | undefined;
 
     
-    /** address of the business entity */
+    /** *address of the business entity* */
 
     address?: string | undefined;
 
     
-    /** object containing address components of the business entity */
+    /** *object containing address components of the business entity* */
 
     address_info?: AddressInfo | undefined;
 
     
-    /** unique place identifier place id of the local establishment featured in the element learn more about the identifier in this help center article */
+    /** *unique place identifier* [place id](https://developers.google.com/places/place-id) of the local establishment featured in the element learn more about the identifier in [this help center article](https://dataforseo.com/help-center/what-is-cid-place-id-feature-id) */
 
     place_id?: string | undefined;
 
     
-    /** phone number of the business entity */
+    /** *phone number of the business entity* */
 
     phone?: string | undefined;
 
     
-    /** URL of the main image featured in Google My Business profile */
+    /** *URL of the main image featured in Google My Business profile* */
 
     main_image?: string | undefined;
 
     
-    /** total count of images featured in Google My Business profile */
+    /** *total count of images featured in Google My Business profile* */
 
     total_photos?: string | undefined;
 
     
-    /** business category Google My Business general category that best describes the services provided by the business entity */
+    /** *business category* Google My Business general category that best describes the services provided by the business entity */
 
     category?: string | undefined;
 
     
-    /** additional business categories additional Google My Business categories that describe the services provided by the business entity in more detail */
+    /** *additional business categories* additional Google My Business categories that describe the services provided by the business entity in more detail */
 
     additional_categories?: string[] | undefined;
 
     
-    /** property price level can take values: inexpensive, moderate, expensive, very_expensive if there is no price level information, the value will be null */
+    /** *property price level* can take values: `inexpensive`, `moderate`, `expensive`, `very_expensive` if there is no price level information, the value will be `null` */
 
     price_level?: string | undefined;
 
     
-    /** hotel class rating class ratings range between 1-5 stars, learn more if there is no hotel class rating information, the value will be null */
+    /** *hotel class rating* class ratings range between 1-5 stars, [learn more](https://support.google.com/business/answer/7660515?hl=en) if there is no hotel class rating information, the value will be `null` */
 
     hotel_rating?: string | undefined;
 
     
-    /** global category IDs universal category IDs that do not change based on the selected country */
+    /** *global category IDs* universal category IDs that do not change based on the selected country */
 
     category_ids?: string[] | undefined;
 
     
-    /** open hours information about work hours of the local establishment */
+    /** *open hours* information about work hours of the local establishment */
 
     work_hours?: BusinessWorkHoursInfo | undefined;
 
     
-    /** the unique identifier of the element in SERP learn more about the identifier in this help center article */
+    /** *the unique identifier of the element in SERP* learn more about the identifier in [this help center article](https://dataforseo.com/help-center/what-is-cid-place-id-feature-id) */
 
     feature_id?: string | undefined;
 
     
-    /** google-defined client id unique id of a local establishment; can be used with Google Reviews API to get a full list of reviews learn more about the identifier in this help center article */
+    /** *google-defined client id* unique id of a local establishment; can be used with [Google Reviews API](/v3/reviews/google/overview/?php) to get a full list of reviews learn more about the identifier in [this help center article](https://dataforseo.com/help-center/what-is-cid-place-id-feature-id) */
 
     cid?: string | undefined;
 
     
-    /** latitude coordinate of the local establishments in google maps example: 'latitude': 51.584091 */
+    /** *latitude coordinate of the local establishments in google maps* example: `'latitude': 51.584091` */
 
     latitude?: number | undefined;
 
     
-    /** longitude coordinate of the local establishment in google maps example: 'longitude': -0.31365919999999997 */
+    /** *longitude coordinate of the local establishment in google maps* example: `'longitude': -0.31365919999999997` */
 
     longitude?: number | undefined;
 
     
-    /** shows whether the entity is verified by its owner on Google Maps */
+    /** *shows whether the entity is verified by its owner on Google Maps* */
 
     is_claimed?: boolean | undefined;
 
     
-    /** Google local justifications snippets of text that “justify” why the business is showing up for search query */
+    /** *Google local justifications* snippets of text that “justify” why the business is showing up for search query */
 
     local_justifications?: string[] | undefined;
 
     
-    /** business establishment is a part of the directory indicates whether the business establishment is a part of the directory; if true, the item is a part of the larger directory of businesses with the same address (e.g., a mall or a business centre); note: if the business establishment is a parent item in the directory, the value will be null */
+    /** *business establishment is a part of the directory* indicates whether the business establishment is a part of the directory; if `true`, the item is a part of the larger directory of businesses with the same address (e.g., a mall or a business centre); **note:** if the business establishment is a parent item in the directory, the value will be `null` */
 
     is_directory_item?: boolean | undefined;
 

@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **BusinessDataSocialMediaPinterestLiveResultInfo[]** | array of results |[optional]|
+**result** | **BusinessDataSocialMediaPinterestLiveResultInfo[]** | *array of results* |[optional]|

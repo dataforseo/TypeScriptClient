@@ -24,7 +24,7 @@ export interface IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo   {
         /** current offset value */
         offset?: number | undefined
         
-        /** offset token for subsequent requests you can use the string provided in this field to get the subsequent results of the initial task; note: offset_token values are unique for each subsequent task */
+        /** offset token for subsequent requestsyou can use the string provided in this field to get the subsequent results of the initial task;note: offset_token values are unique for each subsequent task */
         offset_token?: string | undefined
         
         /** contains keyword ideas and related data */
@@ -72,7 +72,7 @@ export class DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo  implements
     offset?: number | undefined;
 
     
-    /** offset token for subsequent requests you can use the string provided in this field to get the subsequent results of the initial task; note: offset_token values are unique for each subsequent task */
+    /** offset token for subsequent requestsyou can use the string provided in this field to get the subsequent results of the initial task;note: offset_token values are unique for each subsequent task */
 
     offset_token?: string | undefined;
 

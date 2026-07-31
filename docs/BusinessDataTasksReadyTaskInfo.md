@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **BusinessDataTasksReadyResultInfo[]** | array of results |[optional]|
+**result** | **BusinessDataTasksReadyResultInfo[]** | *array of results* |[optional]|

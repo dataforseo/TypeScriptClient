@@ -3,13 +3,13 @@ import { DuplicatePageInfo, IDuplicatePageInfo } from "./DuplicatePageInfo";
 
 export interface IOnPageDuplicateContentItem   {
         
-        /** URL of the specified page */
+        /** *URL of the specified page* */
         url?: string | undefined
         
-        /** total count of duplicate pages */
+        /** *total count of duplicate pages* */
         total_count?: number | undefined
         
-        /** pages with duplicate content */
+        /** *pages with duplicate content* */
         pages?: DuplicatePageInfo[] | undefined
 
     [key: string]: any;
@@ -19,17 +19,17 @@ export interface IOnPageDuplicateContentItem   {
 export class OnPageDuplicateContentItem  implements IOnPageDuplicateContentItem {
 
     
-    /** URL of the specified page */
+    /** *URL of the specified page* */
 
     url?: string | undefined;
 
     
-    /** total count of duplicate pages */
+    /** *total count of duplicate pages* */
 
     total_count?: number | undefined;
 
     
-    /** pages with duplicate content */
+    /** *pages with duplicate content* */
 
     pages?: DuplicatePageInfo[] | undefined;
 

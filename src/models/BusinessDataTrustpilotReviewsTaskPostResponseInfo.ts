@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface IBusinessDataTrustpilotReviewsTaskPostResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: BusinessDataTrustpilotReviewsTaskPostTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IBusinessDataTrustpilotReviewsTaskPostResponseInfo  extends IBa
 export class BusinessDataTrustpilotReviewsTaskPostResponseInfo  extends BaseResponseInfo   implements IBusinessDataTrustpilotReviewsTaskPostResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: BusinessDataTrustpilotReviewsTaskPostTaskInfo[] | undefined;
 

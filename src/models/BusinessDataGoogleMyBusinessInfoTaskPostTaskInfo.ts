@@ -3,7 +3,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IBusinessDataGoogleMyBusinessInfoTaskPostTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results in this case, the value will be null */
+        /** *array of results* in this case, the value will be `null` */
         result?: any | undefined
 
     [key: string]: any;
@@ -13,7 +13,7 @@ export interface IBusinessDataGoogleMyBusinessInfoTaskPostTaskInfo  extends IBas
 export class BusinessDataGoogleMyBusinessInfoTaskPostTaskInfo  extends BaseResponseTaskInfo   implements IBusinessDataGoogleMyBusinessInfoTaskPostTaskInfo {
 
     
-    /** array of results in this case, the value will be null */
+    /** *array of results* in this case, the value will be `null` */
 
     result?: any | undefined;
 

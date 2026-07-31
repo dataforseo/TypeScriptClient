@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpYoutubeVideoInfoTasksFixedResultInfo[]** | array of results |[optional]|
+**result** | **SerpYoutubeVideoInfoTasksFixedResultInfo[]** | *array of results* |[optional]|

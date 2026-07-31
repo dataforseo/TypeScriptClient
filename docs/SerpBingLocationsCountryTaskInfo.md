@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpBingLocationsCountryResultInfo[]** | array of results |[optional]|
+**result** | **SerpBingLocationsCountryResultInfo[]** | *array of results* |[optional]|

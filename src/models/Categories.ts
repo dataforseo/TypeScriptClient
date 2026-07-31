@@ -1,9 +1,9 @@
 export interface ICategories   {
         
-        /** product category name */
+        /** *product category name* */
         category?: string | undefined
         
-        /** product category URL indicates the browse path on Amazon with the unique browse node ID (product category ID on Amazon) */
+        /** *product category URL* indicates the [browse path on Amazon](https://sellercentral.amazon.com/gp/help/external/G1661?language=en_US) with the unique browse node ID (product category ID on Amazon) */
         url?: string | undefined
 
     [key: string]: any;
@@ -13,12 +13,12 @@ export interface ICategories   {
 export class Categories  implements ICategories {
 
     
-    /** product category name */
+    /** *product category name* */
 
     category?: string | undefined;
 
     
-    /** product category URL indicates the browse path on Amazon with the unique browse node ID (product category ID on Amazon) */
+    /** *product category URL* indicates the [browse path on Amazon](https://sellercentral.amazon.com/gp/help/external/G1661?language=en_US) with the unique browse node ID (product category ID on Amazon) */
 
     url?: string | undefined;
 

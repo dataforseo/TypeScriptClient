@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpNaverOrganicTasksReadyResultInfo[]** | array of results |[optional]|
+**result** | **SerpNaverOrganicTasksReadyResultInfo[]** | *array of results* |[optional]|

@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface ISerpGoogleMapsTasksReadyTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: SerpGoogleMapsTasksReadyResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface ISerpGoogleMapsTasksReadyTaskInfo  extends IBaseResponseTaskInf
 export class SerpGoogleMapsTasksReadyTaskInfo  extends BaseResponseTaskInfo   implements ISerpGoogleMapsTasksReadyTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: SerpGoogleMapsTasksReadyResultInfo[] | undefined;
 

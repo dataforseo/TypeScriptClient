@@ -6,40 +6,40 @@ export interface IGoogleBusinessQuestionItem   {
         /** type of element */
         type?: string | undefined
         
-        /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+        /** *position within a group of elements with identical `type` values* positions of elements with different `type` values are omitted from `rank_group` */
         rank_group?: number | undefined
         
-        /** absolute rank among all the elements */
+        /** *absolute rank among all the elements* */
         rank_absolute?: number | undefined
         
-        /** ID of the question */
+        /** *ID of the question* */
         question_id?: string | undefined
         
-        /** URL of the question */
+        /** *URL of the question* */
         url?: string | undefined
         
-        /** URL of the user’s profile image */
+        /** *URL of the user's profile image* */
         profile_image_url?: string | undefined
         
-        /** URL of the user’s profile */
+        /** *URL of the user's profile* */
         profile_url?: string | undefined
         
-        /** displayed name of the user */
+        /** *displayed name of the user* */
         profile_name?: string | undefined
         
-        /** current text of the question */
+        /** *current text of the question* */
         question_text?: string | undefined
         
-        /** original text of the question */
+        /** *original text of the question* */
         original_question_text?: string | undefined
         
-        /** estimated time when the question was posted */
+        /** *estimated time when the question was posted* */
         time_ago?: string | undefined
         
-        /** exact time when the question was posted */
+        /** *exact time when the question was posted* */
         timestamp?: string | undefined
         
-        /** array of items items within google_business_question_item */
+        /** *array of items* items within `google_business_question_item` */
         items?: GoogleBusinessAnswerElement[] | undefined
 
     [key: string]: any;
@@ -54,62 +54,62 @@ export class GoogleBusinessQuestionItem  implements IGoogleBusinessQuestionItem 
     type?: string | undefined;
 
     
-    /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+    /** *position within a group of elements with identical `type` values* positions of elements with different `type` values are omitted from `rank_group` */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank among all the elements */
+    /** *absolute rank among all the elements* */
 
     rank_absolute?: number | undefined;
 
     
-    /** ID of the question */
+    /** *ID of the question* */
 
     question_id?: string | undefined;
 
     
-    /** URL of the question */
+    /** *URL of the question* */
 
     url?: string | undefined;
 
     
-    /** URL of the user’s profile image */
+    /** *URL of the user's profile image* */
 
     profile_image_url?: string | undefined;
 
     
-    /** URL of the user’s profile */
+    /** *URL of the user's profile* */
 
     profile_url?: string | undefined;
 
     
-    /** displayed name of the user */
+    /** *displayed name of the user* */
 
     profile_name?: string | undefined;
 
     
-    /** current text of the question */
+    /** *current text of the question* */
 
     question_text?: string | undefined;
 
     
-    /** original text of the question */
+    /** *original text of the question* */
 
     original_question_text?: string | undefined;
 
     
-    /** estimated time when the question was posted */
+    /** *estimated time when the question was posted* */
 
     time_ago?: string | undefined;
 
     
-    /** exact time when the question was posted */
+    /** *exact time when the question was posted* */
 
     timestamp?: string | undefined;
 
     
-    /** array of items items within google_business_question_item */
+    /** *array of items* items within `google_business_question_item` */
 
     items?: GoogleBusinessAnswerElement[] | undefined;
 

@@ -8,28 +8,28 @@ export interface IBusinessDataGoogleHotelSearchesItem   {
         /** type of element */
         type?: string | undefined
         
-        /** unique identifier of a hotel entity in Google search example: CgoI-KWyzenM_MV3EAE */
+        /** *unique identifier of a hotel entity in Google search* example: `CgoI-KWyzenM_MV3EAE` */
         hotel_identifier?: string | undefined
         
-        /** title of the hotel */
+        /** *title of the hotel* */
         title?: string | undefined
         
-        /** hotel class rating class rating that ranges between 1-5 stars */
+        /** *hotel class rating* class rating that ranges between 1-5 stars */
         stars?: number | undefined
         
-        /** indicates a paid hotel listing if true, related hotel_search_item is a paid ad if false, related hotel_search_item is an organic hotel listing */
+        /** *indicates a paid hotel listing* if `true`, related `hotel_search_item` is a paid ad if `false`, related `hotel_search_item` is an organic hotel listing */
         is_paid?: boolean | undefined
         
-        /** GPS coordinates of the hotel’s location */
+        /** *GPS coordinates of the hotel's location* */
         location?: GpsCoordinatesLocationInfo | undefined
         
-        /** hotel reviews and rating information */
+        /** *hotel reviews and rating information* */
         reviews?: HotelReviewInfo | undefined
         
-        /** featured images for a hotel */
+        /** *featured images for a hotel* */
         overview_images?: string[] | undefined
         
-        /** hotel price */
+        /** *hotel price* */
         prices?: HotelPriceInfo | undefined
 
     [key: string]: any;
@@ -44,42 +44,42 @@ export class BusinessDataGoogleHotelSearchesItem  implements IBusinessDataGoogle
     type?: string | undefined;
 
     
-    /** unique identifier of a hotel entity in Google search example: CgoI-KWyzenM_MV3EAE */
+    /** *unique identifier of a hotel entity in Google search* example: `CgoI-KWyzenM_MV3EAE` */
 
     hotel_identifier?: string | undefined;
 
     
-    /** title of the hotel */
+    /** *title of the hotel* */
 
     title?: string | undefined;
 
     
-    /** hotel class rating class rating that ranges between 1-5 stars */
+    /** *hotel class rating* class rating that ranges between 1-5 stars */
 
     stars?: number | undefined;
 
     
-    /** indicates a paid hotel listing if true, related hotel_search_item is a paid ad if false, related hotel_search_item is an organic hotel listing */
+    /** *indicates a paid hotel listing* if `true`, related `hotel_search_item` is a paid ad if `false`, related `hotel_search_item` is an organic hotel listing */
 
     is_paid?: boolean | undefined;
 
     
-    /** GPS coordinates of the hotel’s location */
+    /** *GPS coordinates of the hotel's location* */
 
     location?: GpsCoordinatesLocationInfo | undefined;
 
     
-    /** hotel reviews and rating information */
+    /** *hotel reviews and rating information* */
 
     reviews?: HotelReviewInfo | undefined;
 
     
-    /** featured images for a hotel */
+    /** *featured images for a hotel* */
 
     overview_images?: string[] | undefined;
 
     
-    /** hotel price */
+    /** *hotel price* */
 
     prices?: HotelPriceInfo | undefined;
 

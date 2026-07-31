@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **DataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo[]** | array of results |[optional]|
+**result** | **DataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo[]** | *array of results* |[optional]|

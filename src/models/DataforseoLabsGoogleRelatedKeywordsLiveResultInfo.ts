@@ -10,7 +10,7 @@ export interface IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo   {
         /** keyword in a POST array */
         seed_keyword?: string | undefined
         
-        /** keyword data for the seed keyword fields in the array are identical to that of keyword_data */
+        /** keyword data for the seed keywordfields in the array are identical to that of keyword_data */
         seed_keyword_data?: KeywordDataInfo | undefined
         
         /** location code in a POST array */
@@ -45,7 +45,7 @@ export class DataforseoLabsGoogleRelatedKeywordsLiveResultInfo  implements IData
     seed_keyword?: string | undefined;
 
     
-    /** keyword data for the seed keyword fields in the array are identical to that of keyword_data */
+    /** keyword data for the seed keywordfields in the array are identical to that of keyword_data */
 
     seed_keyword_data?: KeywordDataInfo | undefined;
 

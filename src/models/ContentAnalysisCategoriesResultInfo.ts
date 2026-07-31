@@ -1,12 +1,12 @@
 export interface IContentAnalysisCategoriesResultInfo   {
         
-        /** category code */
+        /** *category code* */
         category_code?: number | undefined
         
-        /** full name of the category */
+        /** *full name of the category* */
         category_name?: string | undefined
         
-        /** the code of the superordinate category example: 'category_code': 10178, 'category_name': 'Apparel Accessories', 'category_code_parent': 10021 where category_code_parent corresponds to: 'category_code': 10178, 'category_name': 'Apparel Accessories' */
+        /** *the code of the superordinate category* example: `'category_code': 10178,'category_name': 'Apparel Accessories','category_code_parent': 10021`  where `category_code_parent`  corresponds to:  `'category_code': 10178,'category_name': 'Apparel Accessories'` */
         category_code_parent?: number | undefined
 
     [key: string]: any;
@@ -16,17 +16,17 @@ export interface IContentAnalysisCategoriesResultInfo   {
 export class ContentAnalysisCategoriesResultInfo  implements IContentAnalysisCategoriesResultInfo {
 
     
-    /** category code */
+    /** *category code* */
 
     category_code?: number | undefined;
 
     
-    /** full name of the category */
+    /** *full name of the category* */
 
     category_name?: string | undefined;
 
     
-    /** the code of the superordinate category example: 'category_code': 10178, 'category_name': 'Apparel Accessories', 'category_code_parent': 10021 where category_code_parent corresponds to: 'category_code': 10178, 'category_name': 'Apparel Accessories' */
+    /** *the code of the superordinate category* example: `'category_code': 10178,'category_name': 'Apparel Accessories','category_code_parent': 10021`  where `category_code_parent`  corresponds to:  `'category_code': 10178,'category_name': 'Apparel Accessories'` */
 
     category_code_parent?: number | undefined;
 

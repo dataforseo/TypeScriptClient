@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpYoutubeLocationsCountryResultInfo[]** | array of results |[optional]|
+**result** | **SerpYoutubeLocationsCountryResultInfo[]** | *array of results* |[optional]|

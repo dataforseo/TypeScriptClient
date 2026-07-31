@@ -4,5 +4,5 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**code** | **number** | code |[optional]|
-**message** | **string** | message |[optional]|
+**code** | **number** | *code* |[optional]|
+**message** | **string** | *message* |[optional]|

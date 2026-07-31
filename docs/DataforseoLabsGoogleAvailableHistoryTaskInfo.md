@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **DataforseoLabsGoogleAvailableHistoryResultInfo[]** | array of objects containing results |[optional]|
+**result** | **DataforseoLabsGoogleAvailableHistoryResultInfo[]** | *array of objects containing results* |[optional]|

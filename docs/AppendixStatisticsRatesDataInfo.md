@@ -5,7 +5,7 @@
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
 **serp** | **AppendixSerpDaysRatesDataInfo** |  |[optional]|
-**total** | **number** | total amount of money deposited to your account |[optional]|
+**total** | **number** | *total amount of money deposited to your account* |[optional]|
 **total_serp** | **number** |  |[optional]|
 **keywords_data** | **AppendixKeywordsDataDaysRatesDataInfo** |  |[optional]|
 **total_keywords_data** | **number** |  |[optional]|
@@ -29,4 +29,4 @@
 **total_content_analysis** | **number** |  |[optional]|
 **content_generation** | **AppendixContentGenerationLimitsRatesDataInfo** |  |[optional]|
 **total_content_generation** | **number** |  |[optional]|
-**value** | **string** | time period for grouping. day in the yyyy-MM-dd format. minute in the yyyy-MM-dd HH:mm format |[optional]|
+**value** | **string** | *time period for grouping*. `day`_in the yyyy-MM-dd format. `minute`_in the yyyy-MM-dd HH:mm formatn |[optional]|

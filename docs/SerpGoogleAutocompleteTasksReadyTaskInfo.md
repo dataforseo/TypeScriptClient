@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpGoogleAutocompleteTasksReadyResultInfo[]** | array of results |[optional]|
+**result** | **SerpGoogleAutocompleteTasksReadyResultInfo[]** | *array of results* |[optional]|

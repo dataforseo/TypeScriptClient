@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface ISerpBingOrganicTaskGetHtmlTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: SerpBingOrganicTaskGetHtmlResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface ISerpBingOrganicTaskGetHtmlTaskInfo  extends IBaseResponseTaskI
 export class SerpBingOrganicTaskGetHtmlTaskInfo  extends BaseResponseTaskInfo   implements ISerpBingOrganicTaskGetHtmlTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: SerpBingOrganicTaskGetHtmlResultInfo[] | undefined;
 

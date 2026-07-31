@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **MerchantAmazonLocationsTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **MerchantAmazonLocationsTaskInfo[]** | *array of tasks* |[optional]|

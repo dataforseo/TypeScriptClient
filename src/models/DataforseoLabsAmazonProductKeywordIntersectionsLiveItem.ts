@@ -4,13 +4,13 @@ import { AmazonInfo, IAmazonInfo } from "./AmazonInfo";
 
 export interface IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem   {
         
-        /** search engine type */
+        /** *search engine type* */
         se_type?: string | undefined
         
-        /** keyword data for the returned keyword */
+        /** *keyword data for the returned keyword* */
         keyword_data?: AmazonKeywordData | undefined
         
-        /** data on the intersection */
+        /** *data on the intersection* */
         intersection_result?: { [key: string]: AmazonInfo; } | undefined
 
     [key: string]: any;
@@ -20,17 +20,17 @@ export interface IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem   {
 export class DataforseoLabsAmazonProductKeywordIntersectionsLiveItem  implements IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem {
 
     
-    /** search engine type */
+    /** *search engine type* */
 
     se_type?: string | undefined;
 
     
-    /** keyword data for the returned keyword */
+    /** *keyword data for the returned keyword* */
 
     keyword_data?: AmazonKeywordData | undefined;
 
     
-    /** data on the intersection */
+    /** *data on the intersection* */
 
     intersection_result?: { [key: string]: AmazonInfo; } | undefined;
 

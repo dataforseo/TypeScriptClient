@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface ISerpGoogleOrganicTaskGetHtmlTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: SerpGoogleOrganicTaskGetHtmlResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface ISerpGoogleOrganicTaskGetHtmlTaskInfo  extends IBaseResponseTas
 export class SerpGoogleOrganicTaskGetHtmlTaskInfo  extends BaseResponseTaskInfo   implements ISerpGoogleOrganicTaskGetHtmlTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: SerpGoogleOrganicTaskGetHtmlResultInfo[] | undefined;
 

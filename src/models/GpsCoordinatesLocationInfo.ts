@@ -1,9 +1,9 @@
 export interface IGpsCoordinatesLocationInfo   {
         
-        /** latitude coordinate of the hotel in google maps example: 'latitude': 51.584091 */
+        /** *latitude coordinate of the hotel in google maps* example: `'latitude': 51.584091` */
         latitude?: number | undefined
         
-        /** longitude coordinate of the hotel in google maps example: 'longitude': -0.31365919999999997 */
+        /** *longitude coordinate of the hotel in google maps* example: `'longitude': -0.31365919999999997` */
         longitude?: number | undefined
 
     [key: string]: any;
@@ -13,12 +13,12 @@ export interface IGpsCoordinatesLocationInfo   {
 export class GpsCoordinatesLocationInfo  implements IGpsCoordinatesLocationInfo {
 
     
-    /** latitude coordinate of the hotel in google maps example: 'latitude': 51.584091 */
+    /** *latitude coordinate of the hotel in google maps* example: `'latitude': 51.584091` */
 
     latitude?: number | undefined;
 
     
-    /** longitude coordinate of the hotel in google maps example: 'longitude': -0.31365919999999997 */
+    /** *longitude coordinate of the hotel in google maps* example: `'longitude': -0.31365919999999997` */
 
     longitude?: number | undefined;
 

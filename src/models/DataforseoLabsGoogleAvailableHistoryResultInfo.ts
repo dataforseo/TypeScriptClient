@@ -1,6 +1,6 @@
 export interface IDataforseoLabsGoogleAvailableHistoryResultInfo   {
         
-        /** available date indicates the date of the range available for setting in the Domain Metrics by Categories endpoint example: 2022-05-16 */
+        /** *available date* indicates the date of the range available for setting in the [Domain Metrics by Categories](/v3/dataforseo_labs/google/domain_metrics_by_categories/live/) endpoint example: `2022-05-16` */
         date?: string | undefined
 
     [key: string]: any;
@@ -10,7 +10,7 @@ export interface IDataforseoLabsGoogleAvailableHistoryResultInfo   {
 export class DataforseoLabsGoogleAvailableHistoryResultInfo  implements IDataforseoLabsGoogleAvailableHistoryResultInfo {
 
     
-    /** available date indicates the date of the range available for setting in the Domain Metrics by Categories endpoint example: 2022-05-16 */
+    /** *available date* indicates the date of the range available for setting in the [Domain Metrics by Categories](/v3/dataforseo_labs/google/domain_metrics_by_categories/live/) endpoint example: `2022-05-16` */
 
     date?: string | undefined;
 

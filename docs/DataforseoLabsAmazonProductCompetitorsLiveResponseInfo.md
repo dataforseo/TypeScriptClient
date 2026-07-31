@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **DataforseoLabsAmazonProductCompetitorsLiveTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **DataforseoLabsAmazonProductCompetitorsLiveTaskInfo[]** | *array of tasks* |[optional]|

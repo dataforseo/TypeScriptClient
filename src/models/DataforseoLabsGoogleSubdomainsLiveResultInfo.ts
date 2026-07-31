@@ -3,25 +3,25 @@ import { DataforseoLabsGoogleSubdomainsLiveItem, IDataforseoLabsGoogleSubdomains
 
 export interface IDataforseoLabsGoogleSubdomainsLiveResultInfo   {
         
-        /** search engine type */
+        /** *search engine type* */
         se_type?: string | undefined
         
-        /** domain in a POST array */
+        /** *domain in a POST array* */
         target?: string | undefined
         
-        /** location code in a POST array */
+        /** *location code in a POST array* */
         location_code?: number | undefined
         
-        /** language code in a POST array */
+        /** *language code in a POST array* */
         language_code?: string | undefined
         
-        /** total amount of results in our database relevant to your request */
+        /** *total amount of results in our database relevant to your request* */
         total_count?: number | undefined
         
-        /** the number of results returned in the items array */
+        /** *the number of results returned in the `items` array* */
         items_count?: number | undefined
         
-        /** contains subdomains and related data */
+        /** *contains subdomains and related data* */
         items?: DataforseoLabsGoogleSubdomainsLiveItem[] | undefined
 
     [key: string]: any;
@@ -31,37 +31,37 @@ export interface IDataforseoLabsGoogleSubdomainsLiveResultInfo   {
 export class DataforseoLabsGoogleSubdomainsLiveResultInfo  implements IDataforseoLabsGoogleSubdomainsLiveResultInfo {
 
     
-    /** search engine type */
+    /** *search engine type* */
 
     se_type?: string | undefined;
 
     
-    /** domain in a POST array */
+    /** *domain in a POST array* */
 
     target?: string | undefined;
 
     
-    /** location code in a POST array */
+    /** *location code in a POST array* */
 
     location_code?: number | undefined;
 
     
-    /** language code in a POST array */
+    /** *language code in a POST array* */
 
     language_code?: string | undefined;
 
     
-    /** total amount of results in our database relevant to your request */
+    /** *total amount of results in our database relevant to your request* */
 
     total_count?: number | undefined;
 
     
-    /** the number of results returned in the items array */
+    /** *the number of results returned in the `items` array* */
 
     items_count?: number | undefined;
 
     
-    /** contains subdomains and related data */
+    /** *contains subdomains and related data* */
 
     items?: DataforseoLabsGoogleSubdomainsLiveItem[] | undefined;
 

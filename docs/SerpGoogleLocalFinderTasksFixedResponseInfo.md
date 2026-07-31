@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpGoogleLocalFinderTasksFixedTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **SerpGoogleLocalFinderTasksFixedTaskInfo[]** | *array of tasks* |[optional]|

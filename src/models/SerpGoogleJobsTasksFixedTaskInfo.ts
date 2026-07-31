@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface ISerpGoogleJobsTasksFixedTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: SerpGoogleJobsTasksFixedResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface ISerpGoogleJobsTasksFixedTaskInfo  extends IBaseResponseTaskInf
 export class SerpGoogleJobsTasksFixedTaskInfo  extends BaseResponseTaskInfo   implements ISerpGoogleJobsTasksFixedTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: SerpGoogleJobsTasksFixedResultInfo[] | undefined;
 

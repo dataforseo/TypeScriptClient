@@ -6,31 +6,31 @@ export interface ITripadvisorSearchOrganic   {
         /** type of element */
         type?: string | undefined
         
-        /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+        /** *position within a group of elements with identical `type` values* positions of elements with different `type` values are omitted from `rank_group` */
         rank_group?: number | undefined
         
-        /** absolute rank among all the listed results absolute position among all reviews on the list */
+        /** *absolute rank among all the listed results* absolute position among all reviews on the list */
         rank_absolute?: number | undefined
         
-        /** name of the business entity */
+        /** *name of the business entity* */
         title?: string | undefined
         
-        /** URL path of the business entity URL path to the Tripadvisor page of the business entity you can use this identifier to collect reviews for the business entity using Tripadvisor Reviews */
+        /** *URL path of the business entity* URL path to the Tripadvisor page of the business entity you can use this identifier to collect reviews for the business entity using [Tripadvisor Reviews](/v3/business_data/tripadvisor/reviews/task_post/) */
         url_path?: string | undefined
         
-        /** indicates a sponsored placement if true, related tripadvisor_search_organic item is a paid advertising on Tripadvisor */
+        /** *indicates a sponsored placement* if `true`, related `tripadvisor_search_organic` item is a paid advertising on Tripadvisor */
         is_sponsored?: boolean | undefined
         
-        /** the total number of reviews */
+        /** *the total number of reviews* */
         reviews_count?: number | undefined
         
-        /** place category */
+        /** *place category* */
         category?: string | undefined
         
-        /** average price rate */
+        /** *average price rate* */
         price_rate?: string | undefined
         
-        /** the rating score of the establishment submitted by the reviewers */
+        /** *the rating score of the establishment submitted by the reviewers* */
         rating?: RatingInfo | undefined
 
     [key: string]: any;
@@ -45,47 +45,47 @@ export class TripadvisorSearchOrganic  implements ITripadvisorSearchOrganic {
     type?: string | undefined;
 
     
-    /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+    /** *position within a group of elements with identical `type` values* positions of elements with different `type` values are omitted from `rank_group` */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank among all the listed results absolute position among all reviews on the list */
+    /** *absolute rank among all the listed results* absolute position among all reviews on the list */
 
     rank_absolute?: number | undefined;
 
     
-    /** name of the business entity */
+    /** *name of the business entity* */
 
     title?: string | undefined;
 
     
-    /** URL path of the business entity URL path to the Tripadvisor page of the business entity you can use this identifier to collect reviews for the business entity using Tripadvisor Reviews */
+    /** *URL path of the business entity* URL path to the Tripadvisor page of the business entity you can use this identifier to collect reviews for the business entity using [Tripadvisor Reviews](/v3/business_data/tripadvisor/reviews/task_post/) */
 
     url_path?: string | undefined;
 
     
-    /** indicates a sponsored placement if true, related tripadvisor_search_organic item is a paid advertising on Tripadvisor */
+    /** *indicates a sponsored placement* if `true`, related `tripadvisor_search_organic` item is a paid advertising on Tripadvisor */
 
     is_sponsored?: boolean | undefined;
 
     
-    /** the total number of reviews */
+    /** *the total number of reviews* */
 
     reviews_count?: number | undefined;
 
     
-    /** place category */
+    /** *place category* */
 
     category?: string | undefined;
 
     
-    /** average price rate */
+    /** *average price rate* */
 
     price_rate?: string | undefined;
 
     
-    /** the rating score of the establishment submitted by the reviewers */
+    /** *the rating score of the establishment submitted by the reviewers* */
 
     rating?: RatingInfo | undefined;
 

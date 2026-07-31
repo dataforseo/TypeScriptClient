@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: DataforseoLabsAppleBulkAppMetricsLiveTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo  extends IBa
 export class DataforseoLabsAppleBulkAppMetricsLiveResponseInfo  extends BaseResponseInfo   implements IDataforseoLabsAppleBulkAppMetricsLiveResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: DataforseoLabsAppleBulkAppMetricsLiveTaskInfo[] | undefined;
 

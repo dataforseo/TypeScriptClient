@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **AppDataGoogleAppSearchesTaskGetHtmlResultInfo[]** | array of results |[optional]|
+**result** | **AppDataGoogleAppSearchesTaskGetHtmlResultInfo[]** | *array of results* |[optional]|

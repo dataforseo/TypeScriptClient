@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **AppDataGoogleCategoriesResultInfo[]** | array of results |[optional]|
+**result** | **AppDataGoogleCategoriesResultInfo[]** | *array of results* |[optional]|

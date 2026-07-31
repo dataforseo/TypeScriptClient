@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpBingOrganicTaskGetHtmlTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **SerpBingOrganicTaskGetHtmlTaskInfo[]** | *array of tasks* |[optional]|

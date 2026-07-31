@@ -8,103 +8,103 @@ export interface IGooglePlayInfoOrganic   {
         /** type of element */
         type?: string | undefined
         
-        /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+        /** *position within a group of elements with identical `type` values* positions of elements with different `type` values are omitted from `rank_group` */
         rank_group?: number | undefined
         
-        /** absolute rank among all the listed apps absolute position among all apps on the list */
+        /** *absolute rank among all the listed apps* absolute position among all apps on the list */
         rank_absolute?: number | undefined
         
-        /** the alignment of the element in SERP can take the following values: left */
+        /** *the alignment of the element in SERP* can take the following values: `left` */
         position?: string | undefined
         
-        /** ID of the app */
+        /** *ID of the app* */
         app_id?: string | undefined
         
-        /** title of the app */
+        /** *title of the app* */
         title?: string | undefined
         
-        /** URL to the app page on Google Play */
+        /** *URL to the app page on Google Play* */
         url?: string | undefined
         
-        /** URL to the app icon */
+        /** *URL to the app icon* */
         icon?: string | undefined
         
-        /** description of the app */
+        /** *description of the app* */
         description?: string | undefined
         
-        /** the total number of reviews the app has */
+        /** *the total number of reviews the app has* */
         reviews_count?: number | undefined
         
-        /** average rating of the app */
+        /** *average rating of the app* */
         rating?: RatingInfo | undefined
         
-        /** price of the app */
+        /** *price of the app* */
         price?: PriceInfo | undefined
         
-        /** indicates whether the app is free */
+        /** *indicates whether the app is free* */
         is_free?: boolean | undefined
         
-        /** main category of the app */
+        /** *main category of the app* */
         main_category?: string | undefined
         
-        /** number of installs of the app approximate number of installs as displayed on the app page */
+        /** *number of installs of the app* approximate number of installs as displayed on the app page */
         installs?: string | undefined
         
-        /** number of installs of the app the exact number of installs of the app */
+        /** *number of installs of the app* the exact number of installs of the app */
         installs_count?: number | undefined
         
-        /** name of the app developer */
+        /** *name of the app developer* */
         developer?: string | undefined
         
-        /** ID of the app developer */
+        /** *ID of the app developer* */
         developer_id?: string | undefined
         
-        /** URL to the developer page on Google Play */
+        /** *URL to the developer page on Google Play* */
         developer_url?: string | undefined
         
-        /** email address of the developer */
+        /** *email address of the developer* */
         developer_email?: string | undefined
         
-        /** physical address of the developer */
+        /** *physical address of the developer* */
         developer_address?: string | undefined
         
-        /** official website of the developer */
+        /** *official website of the developer* */
         developer_website?: string | undefined
         
-        /** current version of the app */
+        /** *current version of the app* */
         version?: string | undefined
         
-        /** minimum OS version required to install the app */
+        /** *minimum OS version required to install the app* */
         minimum_os_version?: string | undefined
         
-        /** size of the app */
+        /** *size of the app* */
         size?: string | undefined
         
-        /** date and time when the app was released in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: 2019-11-15 12:57:46 +00:00 */
+        /** *date and time when the app was released* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: `2019-11-15 12:57:46 +00:00` */
         released_date?: string | undefined
         
-        /** date and time when the app was last updated in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: 2019-11-15 12:57:46 +00:00 */
+        /** *date and time when the app was last updated* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: `2019-11-15 12:57:46 +00:00` */
         last_update_date?: string | undefined
         
-        /** update notes contains the latest update notes from the developer */
+        /** *update notes* contains the latest update notes from the developer */
         update_notes?: string | undefined
         
-        /** app images contains URLs to the images published on the app page on Google Play */
+        /** *app images* contains URLs to the images published on the app page on Google Play */
         images?: string[] | undefined
         
-        /** app videos contains URLs to the video published on the app page on Google Play */
+        /** *app videos* contains URLs to the video published on the app page on Google Play */
         videos?: string[] | undefined
         
-        /** similar apps displays apps similar to the app in a POST request */
+        /** *similar apps* displays apps similar to the app in a POST request */
         similar_apps?: AppsInfo[] | undefined
         
-        /** similar apps information about apps built by the same developer */
+        /** *similar apps* information about apps built by the same developer */
         more_apps_by_developer?: AppsInfo[] | undefined
         
-        /** app genres contains relevant app categories */
+        /** *app genres* contains relevant app categories */
         genres?: string[] | undefined
         
-        /** app tags contains relevant app tags */
+        /** *app tags* contains relevant app tags */
         tags?: string[] | undefined
 
     [key: string]: any;
@@ -119,167 +119,167 @@ export class GooglePlayInfoOrganic  implements IGooglePlayInfoOrganic {
     type?: string | undefined;
 
     
-    /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+    /** *position within a group of elements with identical `type` values* positions of elements with different `type` values are omitted from `rank_group` */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank among all the listed apps absolute position among all apps on the list */
+    /** *absolute rank among all the listed apps* absolute position among all apps on the list */
 
     rank_absolute?: number | undefined;
 
     
-    /** the alignment of the element in SERP can take the following values: left */
+    /** *the alignment of the element in SERP* can take the following values: `left` */
 
     position?: string | undefined;
 
     
-    /** ID of the app */
+    /** *ID of the app* */
 
     app_id?: string | undefined;
 
     
-    /** title of the app */
+    /** *title of the app* */
 
     title?: string | undefined;
 
     
-    /** URL to the app page on Google Play */
+    /** *URL to the app page on Google Play* */
 
     url?: string | undefined;
 
     
-    /** URL to the app icon */
+    /** *URL to the app icon* */
 
     icon?: string | undefined;
 
     
-    /** description of the app */
+    /** *description of the app* */
 
     description?: string | undefined;
 
     
-    /** the total number of reviews the app has */
+    /** *the total number of reviews the app has* */
 
     reviews_count?: number | undefined;
 
     
-    /** average rating of the app */
+    /** *average rating of the app* */
 
     rating?: RatingInfo | undefined;
 
     
-    /** price of the app */
+    /** *price of the app* */
 
     price?: PriceInfo | undefined;
 
     
-    /** indicates whether the app is free */
+    /** *indicates whether the app is free* */
 
     is_free?: boolean | undefined;
 
     
-    /** main category of the app */
+    /** *main category of the app* */
 
     main_category?: string | undefined;
 
     
-    /** number of installs of the app approximate number of installs as displayed on the app page */
+    /** *number of installs of the app* approximate number of installs as displayed on the app page */
 
     installs?: string | undefined;
 
     
-    /** number of installs of the app the exact number of installs of the app */
+    /** *number of installs of the app* the exact number of installs of the app */
 
     installs_count?: number | undefined;
 
     
-    /** name of the app developer */
+    /** *name of the app developer* */
 
     developer?: string | undefined;
 
     
-    /** ID of the app developer */
+    /** *ID of the app developer* */
 
     developer_id?: string | undefined;
 
     
-    /** URL to the developer page on Google Play */
+    /** *URL to the developer page on Google Play* */
 
     developer_url?: string | undefined;
 
     
-    /** email address of the developer */
+    /** *email address of the developer* */
 
     developer_email?: string | undefined;
 
     
-    /** physical address of the developer */
+    /** *physical address of the developer* */
 
     developer_address?: string | undefined;
 
     
-    /** official website of the developer */
+    /** *official website of the developer* */
 
     developer_website?: string | undefined;
 
     
-    /** current version of the app */
+    /** *current version of the app* */
 
     version?: string | undefined;
 
     
-    /** minimum OS version required to install the app */
+    /** *minimum OS version required to install the app* */
 
     minimum_os_version?: string | undefined;
 
     
-    /** size of the app */
+    /** *size of the app* */
 
     size?: string | undefined;
 
     
-    /** date and time when the app was released in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: 2019-11-15 12:57:46 +00:00 */
+    /** *date and time when the app was released* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: `2019-11-15 12:57:46 +00:00` */
 
     released_date?: string | undefined;
 
     
-    /** date and time when the app was last updated in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: 2019-11-15 12:57:46 +00:00 */
+    /** *date and time when the app was last updated* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: `2019-11-15 12:57:46 +00:00` */
 
     last_update_date?: string | undefined;
 
     
-    /** update notes contains the latest update notes from the developer */
+    /** *update notes* contains the latest update notes from the developer */
 
     update_notes?: string | undefined;
 
     
-    /** app images contains URLs to the images published on the app page on Google Play */
+    /** *app images* contains URLs to the images published on the app page on Google Play */
 
     images?: string[] | undefined;
 
     
-    /** app videos contains URLs to the video published on the app page on Google Play */
+    /** *app videos* contains URLs to the video published on the app page on Google Play */
 
     videos?: string[] | undefined;
 
     
-    /** similar apps displays apps similar to the app in a POST request */
+    /** *similar apps* displays apps similar to the app in a POST request */
 
     similar_apps?: AppsInfo[] | undefined;
 
     
-    /** similar apps information about apps built by the same developer */
+    /** *similar apps* information about apps built by the same developer */
 
     more_apps_by_developer?: AppsInfo[] | undefined;
 
     
-    /** app genres contains relevant app categories */
+    /** *app genres* contains relevant app categories */
 
     genres?: string[] | undefined;
 
     
-    /** app tags contains relevant app tags */
+    /** *app tags* contains relevant app tags */
 
     tags?: string[] | undefined;
 

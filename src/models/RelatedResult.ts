@@ -36,11 +36,14 @@ export interface IRelatedResult   {
         /** name of the website in the ad element */
         website_name?: string | undefined
         
-        /** indicates whether the element contains an image */
+        /** indicates whether the element contains an image Note: this check no longer appears in SERP */
         is_image?: boolean | undefined
         
-        /** indicates whether the element contains a video */
+        /** indicates whether the element contains a video Note: this check no longer appears in SERP */
         is_video?: boolean | undefined
+        
+        /** array of properties detected for the SERP element lists the properties that are true for this element each value in the array represents a detected property example: if is_image is present in the array, the element contains an image possible values in the array: is_image, is_video, is_featured_snippet, amp_version, is_malicious, is_web_story, is_highly_cited equals null if none of the properties are detected for the element learn more about the checks array in this Help Center article */
+        checks?: string[] | undefined
         
         /** description of the results element in SERP */
         description?: string | undefined
@@ -129,14 +132,19 @@ export class RelatedResult  implements IRelatedResult {
     website_name?: string | undefined;
 
     
-    /** indicates whether the element contains an image */
+    /** indicates whether the element contains an image Note: this check no longer appears in SERP */
 
     is_image?: boolean | undefined;
 
     
-    /** indicates whether the element contains a video */
+    /** indicates whether the element contains a video Note: this check no longer appears in SERP */
 
     is_video?: boolean | undefined;
+
+    
+    /** array of properties detected for the SERP element lists the properties that are true for this element each value in the array represents a detected property example: if is_image is present in the array, the element contains an image possible values in the array: is_image, is_video, is_featured_snippet, amp_version, is_malicious, is_web_story, is_highly_cited equals null if none of the properties are detected for the element learn more about the checks array in this Help Center article */
+
+    checks?: string[] | undefined;
 
     
     /** description of the results element in SERP */
@@ -219,6 +227,7 @@ export class RelatedResult  implements IRelatedResult {
             this.website_name = data["website_name"];
             this.is_image = data["is_image"];
             this.is_video = data["is_video"];
+            this.checks = data["checks"];
             this.description = data["description"];
             this.pre_snippet = data["pre_snippet"];
             this.extended_snippet = data["extended_snippet"];
@@ -263,6 +272,7 @@ export class RelatedResult  implements IRelatedResult {
         data["website_name"] = this.website_name;
         data["is_image"] = this.is_image;
         data["is_video"] = this.is_video;
+        data["checks"] = this.checks;
         data["description"] = this.description;
         data["pre_snippet"] = this.pre_snippet;
         data["extended_snippet"] = this.extended_snippet;

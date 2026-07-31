@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpBaiduLanguagesResultInfo[]** | array of results |[optional]|
+**result** | **SerpBaiduLanguagesResultInfo[]** | *array of results* |[optional]|

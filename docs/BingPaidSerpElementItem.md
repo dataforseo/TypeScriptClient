@@ -12,6 +12,7 @@
 **website_name** | **string** | website name in SERP |[optional]|
 **is_image** | **boolean** | indicates whether the element contains an image |[optional]|
 **is_video** | **boolean** | indicates whether the element contains a video |[optional]|
+**checks** | **string[]** |  |[optional]|
 **images** | **AiModeImagesElementInfo[]** | images of the element |[optional]|
 **highlighted** | **string[]** | words highlighted in bold within the results description |[optional]|
 **extra** | **{ [key: string]: string; }** | additional information about the result |[optional]|

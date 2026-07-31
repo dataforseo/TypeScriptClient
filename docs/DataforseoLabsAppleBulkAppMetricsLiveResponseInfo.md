@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **DataforseoLabsAppleBulkAppMetricsLiveTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **DataforseoLabsAppleBulkAppMetricsLiveTaskInfo[]** | *array of tasks* |[optional]|

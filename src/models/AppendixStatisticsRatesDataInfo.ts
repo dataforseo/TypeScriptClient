@@ -16,7 +16,7 @@ export interface IAppendixStatisticsRatesDataInfo   {
         
         serp?: AppendixSerpDaysRatesDataInfo | undefined
         
-        /** total amount of money deposited to your account */
+        /** *total amount of money deposited to your account* */
         total?: number | undefined
         
         total_serp?: number | undefined
@@ -65,7 +65,7 @@ export interface IAppendixStatisticsRatesDataInfo   {
         
         total_content_generation?: number | undefined
         
-        /** time period for grouping day in the yyyy-MM-dd format minute in the yyyy-MM-dd HH:mm format */
+        /** *time period for grouping* `day`_in the yyyy-MM-dd format `minute`_in the yyyy-MM-dd HH:mm formatn */
         value?: string | undefined
 
     [key: string]: any;
@@ -77,7 +77,7 @@ export class AppendixStatisticsRatesDataInfo  implements IAppendixStatisticsRate
     serp?: AppendixSerpDaysRatesDataInfo | undefined;
 
     
-    /** total amount of money deposited to your account */
+    /** *total amount of money deposited to your account* */
 
     total?: number | undefined;
 
@@ -128,7 +128,7 @@ export class AppendixStatisticsRatesDataInfo  implements IAppendixStatisticsRate
     total_content_generation?: number | undefined;
 
     
-    /** time period for grouping day in the yyyy-MM-dd format minute in the yyyy-MM-dd HH:mm format */
+    /** *time period for grouping* `day`_in the yyyy-MM-dd format `minute`_in the yyyy-MM-dd HH:mm formatn */
 
     value?: string | undefined;
 

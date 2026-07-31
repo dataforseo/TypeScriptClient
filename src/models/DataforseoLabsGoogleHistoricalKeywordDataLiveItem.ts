@@ -3,19 +3,19 @@ import { History, IHistory } from "./History";
 
 export interface IDataforseoLabsGoogleHistoricalKeywordDataLiveItem   {
         
-        /** search engine type */
+        /** *search engine type* */
         se_type?: string | undefined
         
-        /** keyword keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
+        /** *keyword* **keyword is returned with decoded %## (plus character '+' will be decoded to a space character)** */
         keyword?: string | undefined
         
-        /** location code in a POST array */
+        /** *location code in a POST array* */
         location_code?: number | undefined
         
-        /** language code in a POST array */
+        /** *language code in a POST array* */
         language_code?: string | undefined
         
-        /** array of objects with historical data for the keyword */
+        /** *array of objects with historical data for the keyword* */
         history?: History[] | undefined
 
     [key: string]: any;
@@ -25,27 +25,27 @@ export interface IDataforseoLabsGoogleHistoricalKeywordDataLiveItem   {
 export class DataforseoLabsGoogleHistoricalKeywordDataLiveItem  implements IDataforseoLabsGoogleHistoricalKeywordDataLiveItem {
 
     
-    /** search engine type */
+    /** *search engine type* */
 
     se_type?: string | undefined;
 
     
-    /** keyword keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
+    /** *keyword* **keyword is returned with decoded %## (plus character '+' will be decoded to a space character)** */
 
     keyword?: string | undefined;
 
     
-    /** location code in a POST array */
+    /** *location code in a POST array* */
 
     location_code?: number | undefined;
 
     
-    /** language code in a POST array */
+    /** *language code in a POST array* */
 
     language_code?: string | undefined;
 
     
-    /** array of objects with historical data for the keyword */
+    /** *array of objects with historical data for the keyword* */
 
     history?: History[] | undefined;
 

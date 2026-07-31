@@ -3,13 +3,13 @@ import { AmazonMetricsBundleInfo, IAmazonMetricsBundleInfo } from "./AmazonMetri
 
 export interface IDataforseoLabsAmazonProductRankOverviewLiveItem   {
         
-        /** search engine type */
+        /** *search engine type* */
         se_type?: string | undefined
         
-        /** ASIN of the product unique product identifier on Amazon; for more information, refer to this help center guide */
+        /** *ASIN of the product* unique product identifier on Amazon; for more information, refer to [this help center guide](https://dataforseo.com/help-center/asin-in-amazon-api) */
         asin?: string | undefined
         
-        /** average keyword position of the product */
+        /** *average keyword position of the product* */
         metrics?: AmazonMetricsBundleInfo | undefined
 
     [key: string]: any;
@@ -19,17 +19,17 @@ export interface IDataforseoLabsAmazonProductRankOverviewLiveItem   {
 export class DataforseoLabsAmazonProductRankOverviewLiveItem  implements IDataforseoLabsAmazonProductRankOverviewLiveItem {
 
     
-    /** search engine type */
+    /** *search engine type* */
 
     se_type?: string | undefined;
 
     
-    /** ASIN of the product unique product identifier on Amazon; for more information, refer to this help center guide */
+    /** *ASIN of the product* unique product identifier on Amazon; for more information, refer to [this help center guide](https://dataforseo.com/help-center/asin-in-amazon-api) */
 
     asin?: string | undefined;
 
     
-    /** average keyword position of the product */
+    /** *average keyword position of the product* */
 
     metrics?: AmazonMetricsBundleInfo | undefined;
 

@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **MerchantAmazonProductsTasksReadyResultInfo[]** | array of results |[optional]|
+**result** | **MerchantAmazonProductsTasksReadyResultInfo[]** | *array of results* |[optional]|

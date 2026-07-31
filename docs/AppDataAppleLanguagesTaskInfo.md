@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **AppDataAppleLanguagesResultInfo[]** | array of results |[optional]|
+**result** | **AppDataAppleLanguagesResultInfo[]** | *array of results* |[optional]|

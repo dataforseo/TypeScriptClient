@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpGoogleNewsTasksFixedTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **SerpGoogleNewsTasksFixedTaskInfo[]** | *array of tasks* |[optional]|

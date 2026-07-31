@@ -3,25 +3,25 @@ import { GooglePlayInfoOrganic, IGooglePlayInfoOrganic } from "./GooglePlayInfoO
 
 export interface IAppDataGoogleAppListingsSearchLiveItem   {
         
-        /** ID of the returned app */
+        /** *ID of the returned app* */
         app_id?: string | undefined
         
-        /** search engine domain in a POST array */
+        /** *search engine domain in a POST array* */
         se_domain?: string | undefined
         
-        /** location code in a POST array */
+        /** *location code in a POST array* */
         location_code?: number | undefined
         
-        /** language code in a POST array */
+        /** *language code in a POST array* */
         language_code?: string | undefined
         
-        /** direct URL to search engine results you can use it to make sure that we provided accurate results */
+        /** *direct URL to search engine results* you can use it to make sure that we provided accurate results */
         check_url?: string | undefined
         
-        /** date and time when SERP data was last updated in the ISO 8601 format: “YYYY-MM-DDThh:mm:ss.sssssssZ” example: 2023-05-23 10:16:19 +00:00 */
+        /** *date and time when SERP data was last updated* in the [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format: “YYYY-MM-DDThh:mm:ss.sssssssZ” example: `2023-05-23 10:16:19 +00:00` */
         time_update?: string | undefined
         
-        /** detailed information about the app */
+        /** *detailed information about the app* */
         item?: GooglePlayInfoOrganic | undefined
 
     [key: string]: any;
@@ -31,37 +31,37 @@ export interface IAppDataGoogleAppListingsSearchLiveItem   {
 export class AppDataGoogleAppListingsSearchLiveItem  implements IAppDataGoogleAppListingsSearchLiveItem {
 
     
-    /** ID of the returned app */
+    /** *ID of the returned app* */
 
     app_id?: string | undefined;
 
     
-    /** search engine domain in a POST array */
+    /** *search engine domain in a POST array* */
 
     se_domain?: string | undefined;
 
     
-    /** location code in a POST array */
+    /** *location code in a POST array* */
 
     location_code?: number | undefined;
 
     
-    /** language code in a POST array */
+    /** *language code in a POST array* */
 
     language_code?: string | undefined;
 
     
-    /** direct URL to search engine results you can use it to make sure that we provided accurate results */
+    /** *direct URL to search engine results* you can use it to make sure that we provided accurate results */
 
     check_url?: string | undefined;
 
     
-    /** date and time when SERP data was last updated in the ISO 8601 format: “YYYY-MM-DDThh:mm:ss.sssssssZ” example: 2023-05-23 10:16:19 +00:00 */
+    /** *date and time when SERP data was last updated* in the [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format: “YYYY-MM-DDThh:mm:ss.sssssssZ” example: `2023-05-23 10:16:19 +00:00` */
 
     time_update?: string | undefined;
 
     
-    /** detailed information about the app */
+    /** *detailed information about the app* */
 
     item?: GooglePlayInfoOrganic | undefined;
 

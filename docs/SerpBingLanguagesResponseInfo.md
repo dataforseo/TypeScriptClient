@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpBingLanguagesTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **SerpBingLanguagesTaskInfo[]** | *array of tasks* |[optional]|

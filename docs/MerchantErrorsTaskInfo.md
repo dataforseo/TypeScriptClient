@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **MerchantErrorsResultInfo[]** | array of results |[optional]|
+**result** | **MerchantErrorsResultInfo[]** | *array of results* |[optional]|

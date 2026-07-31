@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface ISerpYoutubeVideoInfoTasksFixedResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: SerpYoutubeVideoInfoTasksFixedTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface ISerpYoutubeVideoInfoTasksFixedResponseInfo  extends IBaseRespo
 export class SerpYoutubeVideoInfoTasksFixedResponseInfo  extends BaseResponseInfo   implements ISerpYoutubeVideoInfoTasksFixedResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: SerpYoutubeVideoInfoTasksFixedTaskInfo[] | undefined;
 

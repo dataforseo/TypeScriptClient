@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpGoogleLocationsResultInfo[]** | array of results |[optional]|
+**result** | **SerpGoogleLocationsResultInfo[]** | *array of results* |[optional]|

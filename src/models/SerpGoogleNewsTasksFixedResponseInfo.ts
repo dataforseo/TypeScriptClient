@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface ISerpGoogleNewsTasksFixedResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: SerpGoogleNewsTasksFixedTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface ISerpGoogleNewsTasksFixedResponseInfo  extends IBaseResponseInf
 export class SerpGoogleNewsTasksFixedResponseInfo  extends BaseResponseInfo   implements ISerpGoogleNewsTasksFixedResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: SerpGoogleNewsTasksFixedTaskInfo[] | undefined;
 

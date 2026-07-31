@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpGoogleDatasetInfoTasksReadyResultInfo[]** | array of results |[optional]|
+**result** | **SerpGoogleDatasetInfoTasksReadyResultInfo[]** | *array of results* |[optional]|

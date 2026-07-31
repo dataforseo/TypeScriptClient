@@ -549,11 +549,14 @@ export interface IPaidSerpElementItem  extends IBaseSerpApiElementItem    {
         /** name of the website in SERP */
         website_name?: string | undefined
         
-        /** indicates whether the element contains an image */
+        /** indicates whether the element contains an image Note: this check no longer appears in SERP */
         is_image?: boolean | undefined
         
-        /** indicates whether the element contains a video */
+        /** indicates whether the element contains a video Note: this check no longer appears in SERP */
         is_video?: boolean | undefined
+        
+        /** array of properties detected for the SERP element lists the properties that are true for this element each value in the array represents a detected property example: if is_image is present in the array, the element contains an image possible values in the array: is_image, is_video, is_featured_snippet, amp_version, is_malicious, is_web_story, is_highly_cited equals null if none of the properties are detected for the element learn more about the checks array in this Help Center article */
+        checks?: string[] | undefined
         
         /** images of the element if there are none, equals null */
         images?: AiModeImagesElementInfo[] | undefined
@@ -623,14 +626,19 @@ export class PaidSerpElementItem  extends BaseSerpApiElementItem   implements IP
     website_name?: string | undefined;
 
     
-    /** indicates whether the element contains an image */
+    /** indicates whether the element contains an image Note: this check no longer appears in SERP */
 
     is_image?: boolean | undefined;
 
     
-    /** indicates whether the element contains a video */
+    /** indicates whether the element contains a video Note: this check no longer appears in SERP */
 
     is_video?: boolean | undefined;
+
+    
+    /** array of properties detected for the SERP element lists the properties that are true for this element each value in the array represents a detected property example: if is_image is present in the array, the element contains an image possible values in the array: is_image, is_video, is_featured_snippet, amp_version, is_malicious, is_web_story, is_highly_cited equals null if none of the properties are detected for the element learn more about the checks array in this Help Center article */
+
+    checks?: string[] | undefined;
 
     
     /** images of the element if there are none, equals null */
@@ -692,6 +700,7 @@ export class PaidSerpElementItem  extends BaseSerpApiElementItem   implements IP
             this.website_name = data["website_name"];
             this.is_image = data["is_image"];
             this.is_video = data["is_video"];
+            this.checks = data["checks"];
             if (Array.isArray(data["images"])) {
                 this.images = [];
                 for (let item of data["images"]) {
@@ -738,6 +747,7 @@ export class PaidSerpElementItem  extends BaseSerpApiElementItem   implements IP
         data["website_name"] = this.website_name;
         data["is_image"] = this.is_image;
         data["is_video"] = this.is_video;
+        data["checks"] = this.checks;
         data["images"] = null;
         if (Array.isArray(this.images)) {
             data["images"] = [];
@@ -798,20 +808,23 @@ export interface IOrganicSerpElementItem  extends IBaseSerpApiElementItem    {
         /** name of the website in SERP */
         website_name?: string | undefined
         
-        /** indicates whether the element contains an image */
+        /** indicates whether the element contains an image Note: this check no longer appears in SERP */
         is_image?: boolean | undefined
         
-        /** indicates whether the element contains a video */
+        /** indicates whether the element contains a video Note: this check no longer appears in SERP */
         is_video?: boolean | undefined
         
-        /** indicates whether the element is a featured_snippet */
+        /** indicates whether the element is a featured_snippet Note: this check no longer appears in SERP */
         is_featured_snippet?: boolean | undefined
         
-        /** indicates whether the element is marked as malicious */
+        /** indicates whether the element is marked as malicious Note: this check no longer appears in SERP */
         is_malicious?: boolean | undefined
         
-        /** indicates whether the element is marked as Google web story */
+        /** indicates whether the element is marked as Google web story Note: this check no longer appears in SERP */
         is_web_story?: boolean | undefined
+        
+        /** array of properties detected for the SERP element lists the properties that are true for this element each value in the array represents a detected property example: if is_image is present in the array, the element contains an image possible values in the array: is_image, is_video, is_featured_snippet, amp_version, is_malicious, is_web_story, is_highly_cited equals null if none of the properties are detected for the element learn more about the checks array in this Help Center article */
+        checks?: string[] | undefined
         
         /** includes additional information appended before the result description in SERP */
         pre_snippet?: string | undefined
@@ -909,29 +922,34 @@ export class OrganicSerpElementItem  extends BaseSerpApiElementItem   implements
     website_name?: string | undefined;
 
     
-    /** indicates whether the element contains an image */
+    /** indicates whether the element contains an image Note: this check no longer appears in SERP */
 
     is_image?: boolean | undefined;
 
     
-    /** indicates whether the element contains a video */
+    /** indicates whether the element contains a video Note: this check no longer appears in SERP */
 
     is_video?: boolean | undefined;
 
     
-    /** indicates whether the element is a featured_snippet */
+    /** indicates whether the element is a featured_snippet Note: this check no longer appears in SERP */
 
     is_featured_snippet?: boolean | undefined;
 
     
-    /** indicates whether the element is marked as malicious */
+    /** indicates whether the element is marked as malicious Note: this check no longer appears in SERP */
 
     is_malicious?: boolean | undefined;
 
     
-    /** indicates whether the element is marked as Google web story */
+    /** indicates whether the element is marked as Google web story Note: this check no longer appears in SERP */
 
     is_web_story?: boolean | undefined;
+
+    
+    /** array of properties detected for the SERP element lists the properties that are true for this element each value in the array represents a detected property example: if is_image is present in the array, the element contains an image possible values in the array: is_image, is_video, is_featured_snippet, amp_version, is_malicious, is_web_story, is_highly_cited equals null if none of the properties are detected for the element learn more about the checks array in this Help Center article */
+
+    checks?: string[] | undefined;
 
     
     /** includes additional information appended before the result description in SERP */
@@ -1026,6 +1044,7 @@ export class OrganicSerpElementItem  extends BaseSerpApiElementItem   implements
             this.is_featured_snippet = data["is_featured_snippet"];
             this.is_malicious = data["is_malicious"];
             this.is_web_story = data["is_web_story"];
+            this.checks = data["checks"];
             this.pre_snippet = data["pre_snippet"];
             this.extended_snippet = data["extended_snippet"];
             if (Array.isArray(data["images"])) {
@@ -1088,6 +1107,7 @@ export class OrganicSerpElementItem  extends BaseSerpApiElementItem   implements
         data["is_featured_snippet"] = this.is_featured_snippet;
         data["is_malicious"] = this.is_malicious;
         data["is_web_story"] = this.is_web_story;
+        data["checks"] = this.checks;
         data["pre_snippet"] = this.pre_snippet;
         data["extended_snippet"] = this.extended_snippet;
         data["images"] = null;

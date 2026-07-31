@@ -3,25 +3,25 @@ import { DataforseoLabsGoogleCategoriesForDomainLiveItem, IDataforseoLabsGoogleC
 
 export interface IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo   {
         
-        /** search engine type */
+        /** *search engine type* */
         se_type?: string | undefined
         
-        /** target domain or subdomain in a POST array */
+        /** *target domain or subdomain in a POST array* */
         target?: string | undefined
         
-        /** location code in a POST array */
+        /** *location code in a POST array* */
         location_code?: number | undefined
         
-        /** language code in a POST array */
+        /** *language code in a POST array* */
         language_code?: string | undefined
         
-        /** total amount of results in our database relevant to your request */
+        /** *total amount of results in our database relevant to your request* */
         total_count?: number | undefined
         
-        /** the number of results returned in the items array */
+        /** *the number of results returned in the `items` array* */
         items_count?: number | undefined
         
-        /** contains relevant categories and related ranking data */
+        /** *contains relevant categories and related ranking data* */
         items?: DataforseoLabsGoogleCategoriesForDomainLiveItem[] | undefined
 
     [key: string]: any;
@@ -31,37 +31,37 @@ export interface IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo   {
 export class DataforseoLabsGoogleCategoriesForDomainLiveResultInfo  implements IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo {
 
     
-    /** search engine type */
+    /** *search engine type* */
 
     se_type?: string | undefined;
 
     
-    /** target domain or subdomain in a POST array */
+    /** *target domain or subdomain in a POST array* */
 
     target?: string | undefined;
 
     
-    /** location code in a POST array */
+    /** *location code in a POST array* */
 
     location_code?: number | undefined;
 
     
-    /** language code in a POST array */
+    /** *language code in a POST array* */
 
     language_code?: string | undefined;
 
     
-    /** total amount of results in our database relevant to your request */
+    /** *total amount of results in our database relevant to your request* */
 
     total_count?: number | undefined;
 
     
-    /** the number of results returned in the items array */
+    /** *the number of results returned in the `items` array* */
 
     items_count?: number | undefined;
 
     
-    /** contains relevant categories and related ranking data */
+    /** *contains relevant categories and related ranking data* */
 
     items?: DataforseoLabsGoogleCategoriesForDomainLiveItem[] | undefined;
 

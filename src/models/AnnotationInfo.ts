@@ -5,6 +5,15 @@ export interface IAnnotationInfo   {
         
         /** *URL of the quoted source* */
         url?: string | undefined
+        
+        /** *start of the annotation indexing* */
+        start_index?: number | undefined
+        
+        /** *end of the annotation indexing* */
+        end_index?: number | undefined
+        
+        /** *text of the reasoning chain section* text of the reasoning chain  section summarizing the model's thought process */
+        text?: string | undefined
 
     [key: string]: any;
 
@@ -21,6 +30,21 @@ export class AnnotationInfo  implements IAnnotationInfo {
     /** *URL of the quoted source* */
 
     url?: string | undefined;
+
+    
+    /** *start of the annotation indexing* */
+
+    start_index?: number | undefined;
+
+    
+    /** *end of the annotation indexing* */
+
+    end_index?: number | undefined;
+
+    
+    /** *text of the reasoning chain section* text of the reasoning chain  section summarizing the model's thought process */
+
+    text?: string | undefined;
 
     [key: string]: any;
 
@@ -44,6 +68,9 @@ export class AnnotationInfo  implements IAnnotationInfo {
             }
             this.title = data["title"];
             this.url = data["url"];
+            this.start_index = data["start_index"];
+            this.end_index = data["end_index"];
+            this.text = data["text"];
         }
     }
 
@@ -63,6 +90,9 @@ export class AnnotationInfo  implements IAnnotationInfo {
         
         data["title"] = this.title;
         data["url"] = this.url;
+        data["start_index"] = this.start_index;
+        data["end_index"] = this.end_index;
+        data["text"] = this.text;
         return data;
     }
 }

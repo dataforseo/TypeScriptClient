@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface ISerpGoogleAutocompleteTaskGetAdvancedResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: SerpGoogleAutocompleteTaskGetAdvancedTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface ISerpGoogleAutocompleteTaskGetAdvancedResponseInfo  extends IBa
 export class SerpGoogleAutocompleteTaskGetAdvancedResponseInfo  extends BaseResponseInfo   implements ISerpGoogleAutocompleteTaskGetAdvancedResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: SerpGoogleAutocompleteTaskGetAdvancedTaskInfo[] | undefined;
 

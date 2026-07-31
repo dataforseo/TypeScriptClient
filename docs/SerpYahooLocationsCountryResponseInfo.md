@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpYahooLocationsCountryTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **SerpYahooLocationsCountryTaskInfo[]** | *array of tasks* |[optional]|

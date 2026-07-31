@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpTasksReadyTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **SerpTasksReadyTaskInfo[]** | *array of tasks* |[optional]|

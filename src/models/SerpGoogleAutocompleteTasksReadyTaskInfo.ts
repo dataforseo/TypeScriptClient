@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface ISerpGoogleAutocompleteTasksReadyTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: SerpGoogleAutocompleteTasksReadyResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface ISerpGoogleAutocompleteTasksReadyTaskInfo  extends IBaseRespons
 export class SerpGoogleAutocompleteTasksReadyTaskInfo  extends BaseResponseTaskInfo   implements ISerpGoogleAutocompleteTasksReadyTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: SerpGoogleAutocompleteTasksReadyResultInfo[] | undefined;
 

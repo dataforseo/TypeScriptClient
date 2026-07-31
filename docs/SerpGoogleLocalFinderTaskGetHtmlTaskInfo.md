@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpGoogleLocalFinderTaskGetHtmlResultInfo[]** | array of results |[optional]|
+**result** | **SerpGoogleLocalFinderTaskGetHtmlResultInfo[]** | *array of results* |[optional]|

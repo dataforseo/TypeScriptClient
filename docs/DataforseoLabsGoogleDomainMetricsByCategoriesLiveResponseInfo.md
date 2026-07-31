@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **DataforseoLabsGoogleDomainMetricsByCategoriesLiveTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **DataforseoLabsGoogleDomainMetricsByCategoriesLiveTaskInfo[]** | *array of tasks* |[optional]|

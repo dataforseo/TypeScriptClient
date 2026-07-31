@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface IBusinessDataGoogleMyBusinessInfoTaskGetResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: BusinessDataGoogleMyBusinessInfoTaskGetTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IBusinessDataGoogleMyBusinessInfoTaskGetResponseInfo  extends I
 export class BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo  extends BaseResponseInfo   implements IBusinessDataGoogleMyBusinessInfoTaskGetResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: BusinessDataGoogleMyBusinessInfoTaskGetTaskInfo[] | undefined;
 

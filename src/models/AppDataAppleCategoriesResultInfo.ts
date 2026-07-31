@@ -1,6 +1,6 @@
 export interface IAppDataAppleCategoriesResultInfo   {
         
-        /** contains full list of supported app categories */
+        /** *contains full list of supported app categories* */
         categories?: string[] | undefined
 
     [key: string]: any;
@@ -10,7 +10,7 @@ export interface IAppDataAppleCategoriesResultInfo   {
 export class AppDataAppleCategoriesResultInfo  implements IAppDataAppleCategoriesResultInfo {
 
     
-    /** contains full list of supported app categories */
+    /** *contains full list of supported app categories* */
 
     categories?: string[] | undefined;
 

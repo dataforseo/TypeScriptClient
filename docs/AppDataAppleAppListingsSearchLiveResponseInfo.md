@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **AppDataAppleAppListingsSearchLiveTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **AppDataAppleAppListingsSearchLiveTaskInfo[]** | *array of tasks* |[optional]|

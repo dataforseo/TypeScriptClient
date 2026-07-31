@@ -1,6 +1,6 @@
 export interface IAppendixWebhookResendRequestInfo   {
         
-        /** task identifier unique task identifier in our system in the UUID format you can specify up to 100 identifiers; each identifier in the task array must be specified as a separate object */
+        /** *task identifier* **unique task identifier in our system in the [UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier) format** you can specify up to 100 identifiers; each identifier in the task array must be specified as a separate object */
         id?: string | undefined
 
     [key: string]: any;
@@ -10,7 +10,7 @@ export interface IAppendixWebhookResendRequestInfo   {
 export class AppendixWebhookResendRequestInfo  implements IAppendixWebhookResendRequestInfo {
 
     
-    /** task identifier unique task identifier in our system in the UUID format you can specify up to 100 identifiers; each identifier in the task array must be specified as a separate object */
+    /** *task identifier* **unique task identifier in our system in the [UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier) format** you can specify up to 100 identifiers; each identifier in the task array must be specified as a separate object */
 
     id?: string | undefined;
 

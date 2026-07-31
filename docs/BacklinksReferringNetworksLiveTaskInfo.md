@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **BacklinksReferringNetworksLiveResultInfo[]** | array of results |[optional]|
+**result** | **BacklinksReferringNetworksLiveResultInfo[]** | *array of results* |[optional]|

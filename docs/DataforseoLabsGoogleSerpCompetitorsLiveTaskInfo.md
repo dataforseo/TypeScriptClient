@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **DataforseoLabsGoogleSerpCompetitorsLiveResultInfo[]** | array of results |[optional]|
+**result** | **DataforseoLabsGoogleSerpCompetitorsLiveResultInfo[]** | *array of results* |[optional]|

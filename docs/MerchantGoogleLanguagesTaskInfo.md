@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **MerchantGoogleLanguagesResultInfo[]** | array of results |[optional]|
+**result** | **MerchantGoogleLanguagesResultInfo[]** | *array of results* |[optional]|

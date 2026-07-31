@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface ISerpYahooLocationsCountryTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: SerpYahooLocationsCountryResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface ISerpYahooLocationsCountryTaskInfo  extends IBaseResponseTaskIn
 export class SerpYahooLocationsCountryTaskInfo  extends BaseResponseTaskInfo   implements ISerpYahooLocationsCountryTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: SerpYahooLocationsCountryResultInfo[] | undefined;
 

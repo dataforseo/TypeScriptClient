@@ -1,33 +1,33 @@
 export interface IDataforseoLabsErrorsResultInfo   {
         
-        /** task identifier unique task identifier in our system in the UUID format */
+        /** *task identifier* **unique task identifier in our system in the [UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier) format** */
         id?: string | undefined
         
-        /** date and time when an error occurred in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
+        /** *date and time when an error occurred* in the UTC format: 'yyyy-mm-dd hh-mm-ss +00:00' example: `2019-11-15 12:57:46 +00:00` */
         datetime?: string | undefined
         
-        /** corresponding API function */
+        /** *corresponding API function* */
         function?: string | undefined
         
-        /** error code */
+        /** *error code* */
         error_code?: number | undefined
         
-        /** error message or error URL error message (see full list) or URL that caused an error */
+        /** *error message or error URL* error message [(see full list)](https://docs.dataforseo.com/v3/appendix/errors/) or URL that caused an error */
         error_message?: string | undefined
         
-        /** URL that caused an error URL you used for making an API call */
+        /** *URL that caused an error* URL you used for making an API call */
         http_url?: string | undefined
         
-        /** HTTP method */
+        /** *HTTP method* */
         http_method?: string | undefined
         
-        /** HTTP status code */
+        /** *HTTP status code* */
         http_code?: number | undefined
         
-        /** time taken by HTTP request */
+        /** *time taken by HTTP request* */
         http_time?: number | undefined
         
-        /** HTTP response server response */
+        /** *HTTP response* server response */
         http_response?: string | undefined
 
     [key: string]: any;
@@ -37,52 +37,52 @@ export interface IDataforseoLabsErrorsResultInfo   {
 export class DataforseoLabsErrorsResultInfo  implements IDataforseoLabsErrorsResultInfo {
 
     
-    /** task identifier unique task identifier in our system in the UUID format */
+    /** *task identifier* **unique task identifier in our system in the [UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier) format** */
 
     id?: string | undefined;
 
     
-    /** date and time when an error occurred in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
+    /** *date and time when an error occurred* in the UTC format: 'yyyy-mm-dd hh-mm-ss +00:00' example: `2019-11-15 12:57:46 +00:00` */
 
     datetime?: string | undefined;
 
     
-    /** corresponding API function */
+    /** *corresponding API function* */
 
     function?: string | undefined;
 
     
-    /** error code */
+    /** *error code* */
 
     error_code?: number | undefined;
 
     
-    /** error message or error URL error message (see full list) or URL that caused an error */
+    /** *error message or error URL* error message [(see full list)](https://docs.dataforseo.com/v3/appendix/errors/) or URL that caused an error */
 
     error_message?: string | undefined;
 
     
-    /** URL that caused an error URL you used for making an API call */
+    /** *URL that caused an error* URL you used for making an API call */
 
     http_url?: string | undefined;
 
     
-    /** HTTP method */
+    /** *HTTP method* */
 
     http_method?: string | undefined;
 
     
-    /** HTTP status code */
+    /** *HTTP status code* */
 
     http_code?: number | undefined;
 
     
-    /** time taken by HTTP request */
+    /** *time taken by HTTP request* */
 
     http_time?: number | undefined;
 
     
-    /** HTTP response server response */
+    /** *HTTP response* server response */
 
     http_response?: string | undefined;
 

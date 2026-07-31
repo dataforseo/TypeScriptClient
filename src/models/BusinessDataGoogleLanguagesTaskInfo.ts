@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IBusinessDataGoogleLanguagesTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: BusinessDataGoogleLanguagesResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IBusinessDataGoogleLanguagesTaskInfo  extends IBaseResponseTask
 export class BusinessDataGoogleLanguagesTaskInfo  extends BaseResponseTaskInfo   implements IBusinessDataGoogleLanguagesTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: BusinessDataGoogleLanguagesResultInfo[] | undefined;
 

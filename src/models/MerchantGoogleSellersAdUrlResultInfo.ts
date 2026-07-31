@@ -1,12 +1,12 @@
 export interface IMerchantGoogleSellersAdUrlResultInfo   {
         
-        /** unique ad click referral parameter */
+        /** *unique ad click referral parameter* */
         ad_aclk?: string | undefined
         
-        /** full URL of the advertisement */
+        /** *full URL of the advertisement* */
         ad_url?: string | undefined
         
-        /** URLs where the link from Google Shopping redirects before reaching a final URL includes up to 10 URLs of the ad’s redirect path to the seller’s ad_url */
+        /** *URLs where the link from Google Shopping redirects before reaching a final URL* includes up to 10 URLs of the ad's redirect path to the seller's `ad_url` */
         ad_url_redirects?: string[] | undefined
 
     [key: string]: any;
@@ -16,17 +16,17 @@ export interface IMerchantGoogleSellersAdUrlResultInfo   {
 export class MerchantGoogleSellersAdUrlResultInfo  implements IMerchantGoogleSellersAdUrlResultInfo {
 
     
-    /** unique ad click referral parameter */
+    /** *unique ad click referral parameter* */
 
     ad_aclk?: string | undefined;
 
     
-    /** full URL of the advertisement */
+    /** *full URL of the advertisement* */
 
     ad_url?: string | undefined;
 
     
-    /** URLs where the link from Google Shopping redirects before reaching a final URL includes up to 10 URLs of the ad’s redirect path to the seller’s ad_url */
+    /** *URLs where the link from Google Shopping redirects before reaching a final URL* includes up to 10 URLs of the ad's redirect path to the seller's `ad_url` */
 
     ad_url_redirects?: string[] | undefined;
 

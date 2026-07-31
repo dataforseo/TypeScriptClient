@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpBaiduLocationsCountryResultInfo[]** | array of results |[optional]|
+**result** | **SerpBaiduLocationsCountryResultInfo[]** | *array of results* |[optional]|

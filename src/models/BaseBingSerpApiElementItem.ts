@@ -308,6 +308,8 @@ export interface IBingOrganicSerpElementItem  extends IBaseBingSerpApiElementIte
         /** indicates whether the element is marked as a web story */
         is_web_story?: boolean | undefined
         
+        checks?: string[] | undefined
+        
         /** includes additional information appended before the result description in SERP */
         pre_snippet?: string | undefined
         
@@ -418,6 +420,8 @@ export class BingOrganicSerpElementItem  extends BaseBingSerpApiElementItem   im
 
     is_web_story?: boolean | undefined;
 
+    checks?: string[] | undefined;
+
     
     /** includes additional information appended before the result description in SERP */
 
@@ -509,6 +513,7 @@ export class BingOrganicSerpElementItem  extends BaseBingSerpApiElementItem   im
             this.is_featured_snippet = data["is_featured_snippet"];
             this.is_malicious = data["is_malicious"];
             this.is_web_story = data["is_web_story"];
+            this.checks = data["checks"];
             this.pre_snippet = data["pre_snippet"];
             this.extended_snippet = data["extended_snippet"];
             if (Array.isArray(data["images"])) {
@@ -569,6 +574,7 @@ export class BingOrganicSerpElementItem  extends BaseBingSerpApiElementItem   im
         data["is_featured_snippet"] = this.is_featured_snippet;
         data["is_malicious"] = this.is_malicious;
         data["is_web_story"] = this.is_web_story;
+        data["checks"] = this.checks;
         data["pre_snippet"] = this.pre_snippet;
         data["extended_snippet"] = this.extended_snippet;
         data["images"] = null;
@@ -637,6 +643,8 @@ export interface IBingPaidSerpElementItem  extends IBaseBingSerpApiElementItem  
         /** indicates whether the element contains a video */
         is_video?: boolean | undefined
         
+        checks?: string[] | undefined
+        
         /** images of the element */
         images?: AiModeImagesElementInfo[] | undefined
         
@@ -704,6 +712,8 @@ export class BingPaidSerpElementItem  extends BaseBingSerpApiElementItem   imple
 
     is_video?: boolean | undefined;
 
+    checks?: string[] | undefined;
+
     
     /** images of the element */
 
@@ -762,6 +772,7 @@ export class BingPaidSerpElementItem  extends BaseBingSerpApiElementItem   imple
             this.website_name = data["website_name"];
             this.is_image = data["is_image"];
             this.is_video = data["is_video"];
+            this.checks = data["checks"];
             if (Array.isArray(data["images"])) {
                 this.images = [];
                 for (let item of data["images"]) {
@@ -806,6 +817,7 @@ export class BingPaidSerpElementItem  extends BaseBingSerpApiElementItem   imple
         data["website_name"] = this.website_name;
         data["is_image"] = this.is_image;
         data["is_video"] = this.is_video;
+        data["checks"] = this.checks;
         data["images"] = null;
         if (Array.isArray(this.images)) {
             data["images"] = [];

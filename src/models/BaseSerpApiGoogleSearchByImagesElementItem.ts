@@ -193,6 +193,8 @@ export interface ISerpApiGoogleSearchByImagesOrganicElementItem  extends IBaseSe
         /** indicates whether the element is marked as Google web story */
         is_web_story?: boolean | undefined
         
+        checks?: string[] | undefined
+        
         /** description of the results element in SERP */
         description?: string | undefined
         
@@ -291,6 +293,8 @@ export class SerpApiGoogleSearchByImagesOrganicElementItem  extends BaseSerpApiG
 
     is_web_story?: boolean | undefined;
 
+    checks?: string[] | undefined;
+
     
     /** description of the results element in SERP */
 
@@ -384,6 +388,7 @@ export class SerpApiGoogleSearchByImagesOrganicElementItem  extends BaseSerpApiG
             this.is_featured_snippet = data["is_featured_snippet"];
             this.is_malicious = data["is_malicious"];
             this.is_web_story = data["is_web_story"];
+            this.checks = data["checks"];
             this.description = data["description"];
             this.pre_snippet = data["pre_snippet"];
             this.extended_snippet = data["extended_snippet"];
@@ -442,6 +447,7 @@ export class SerpApiGoogleSearchByImagesOrganicElementItem  extends BaseSerpApiG
         data["is_featured_snippet"] = this.is_featured_snippet;
         data["is_malicious"] = this.is_malicious;
         data["is_web_story"] = this.is_web_story;
+        data["checks"] = this.checks;
         data["description"] = this.description;
         data["pre_snippet"] = this.pre_snippet;
         data["extended_snippet"] = this.extended_snippet;

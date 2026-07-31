@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **AppDataErrorsResultInfo[]** | array of results |[optional]|
+**result** | **AppDataErrorsResultInfo[]** | *array of results* |[optional]|

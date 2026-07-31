@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **ContentAnalysisCategoriesTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **ContentAnalysisCategoriesTaskInfo[]** | *array of tasks* |[optional]|

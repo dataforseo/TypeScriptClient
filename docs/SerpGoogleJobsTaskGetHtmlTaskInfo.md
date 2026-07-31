@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpGoogleJobsTaskGetHtmlResultInfo[]** | array of results |[optional]|
+**result** | **SerpGoogleJobsTaskGetHtmlResultInfo[]** | *array of results* |[optional]|

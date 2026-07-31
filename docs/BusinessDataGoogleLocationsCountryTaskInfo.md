@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **BusinessDataGoogleLocationsCountryResultInfo[]** | array of results |[optional]|
+**result** | **BusinessDataGoogleLocationsCountryResultInfo[]** | *array of results* |[optional]|

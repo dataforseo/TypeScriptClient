@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **AppDataTasksReadyTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **AppDataTasksReadyTaskInfo[]** | *array of tasks* |[optional]|

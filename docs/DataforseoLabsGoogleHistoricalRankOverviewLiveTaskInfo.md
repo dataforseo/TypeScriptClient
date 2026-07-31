@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo[]** | array of results |[optional]|
+**result** | **DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo[]** | *array of results* |[optional]|

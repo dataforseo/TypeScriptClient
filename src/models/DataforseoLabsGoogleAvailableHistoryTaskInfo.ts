@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IDataforseoLabsGoogleAvailableHistoryTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of objects containing results */
+        /** *array of objects containing results* */
         result?: DataforseoLabsGoogleAvailableHistoryResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IDataforseoLabsGoogleAvailableHistoryTaskInfo  extends IBaseRes
 export class DataforseoLabsGoogleAvailableHistoryTaskInfo  extends BaseResponseTaskInfo   implements IDataforseoLabsGoogleAvailableHistoryTaskInfo {
 
     
-    /** array of objects containing results */
+    /** *array of objects containing results* */
 
     result?: DataforseoLabsGoogleAvailableHistoryResultInfo[] | undefined;
 

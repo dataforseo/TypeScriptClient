@@ -3,16 +3,16 @@ import { ContentAnalysisSearchLiveItem, IContentAnalysisSearchLiveItem } from ".
 
 export interface IContentAnalysisSearchLiveResultInfo   {
         
-        /** offset token for subsequent requests you can use the string provided in this field to get the subsequent results of the initial task; note: offset_token values are unique for each subsequent task */
+        /** *offset token for subsequent requests* you can use the string provided in this field to get the subsequent results of the initial task; **note:** `offset_token` values are unique for each subsequent task */
         offset_token?: string | undefined
         
-        /** total amount of results in our database relevant to your request */
+        /** *total amount of results in our database relevant to your request* */
         total_count?: number | undefined
         
-        /** the number of results returned in the items array */
+        /** *the number of results returned in the `items` array* */
         items_count?: number | undefined
         
-        /** contains citations and related data */
+        /** *contains citations and related data* */
         items?: ContentAnalysisSearchLiveItem[] | undefined
 
     [key: string]: any;
@@ -22,22 +22,22 @@ export interface IContentAnalysisSearchLiveResultInfo   {
 export class ContentAnalysisSearchLiveResultInfo  implements IContentAnalysisSearchLiveResultInfo {
 
     
-    /** offset token for subsequent requests you can use the string provided in this field to get the subsequent results of the initial task; note: offset_token values are unique for each subsequent task */
+    /** *offset token for subsequent requests* you can use the string provided in this field to get the subsequent results of the initial task; **note:** `offset_token` values are unique for each subsequent task */
 
     offset_token?: string | undefined;
 
     
-    /** total amount of results in our database relevant to your request */
+    /** *total amount of results in our database relevant to your request* */
 
     total_count?: number | undefined;
 
     
-    /** the number of results returned in the items array */
+    /** *the number of results returned in the `items` array* */
 
     items_count?: number | undefined;
 
     
-    /** contains citations and related data */
+    /** *contains citations and related data* */
 
     items?: ContentAnalysisSearchLiveItem[] | undefined;
 

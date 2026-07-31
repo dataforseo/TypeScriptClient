@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IOnPageDuplicateContentTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: OnPageDuplicateContentResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IOnPageDuplicateContentTaskInfo  extends IBaseResponseTaskInfo 
 export class OnPageDuplicateContentTaskInfo  extends BaseResponseTaskInfo   implements IOnPageDuplicateContentTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: OnPageDuplicateContentResultInfo[] | undefined;
 

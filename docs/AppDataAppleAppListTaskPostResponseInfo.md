@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **AppDataAppleAppListTaskPostTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **AppDataAppleAppListTaskPostTaskInfo[]** | *array of tasks* |[optional]|

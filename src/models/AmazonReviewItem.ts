@@ -9,49 +9,48 @@ export interface IAmazonReviewItem   {
         /** type of element */
         type?: string | undefined
         
-        /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+        /** *position within a group of elements with identical `type` values* positions of elements with different `type` values are omitted from `rank_group` */
         rank_group?: number | undefined
         
-        /** absolute rank among all the listed reviews absolute position among all reviews on the list */
+        /** *absolute rank among all the listed reviews* absolute position among all reviews on the list */
         rank_absolute?: number | undefined
         
-        /** the alignment of the review in SERP can take the following values: right */
+        /** *the alignment of the review in SERP* can take the following values: `right` */
         position?: string | undefined
         
-        /** the XPath of the element */
+        /** *the [XPath](https://en.wikipedia.org/wiki/XPath) of the element* */
         xpath?: string | undefined
         
-        /** indicates whether the review has the “Verified Purchase” mark */
+        /** *indicates whether the review has the 'Verified Purchase' mark* */
         verified?: boolean | undefined
         
-        /** subtitle of the review */
+        /** *subtitle of the review* */
         subtitle?: string | undefined
         
-        /** helpful votes count number of users who clicked on the ‘Helpful” button under the review text */
+        /** *helpful votes count* number of users who clicked on the 'Helpful' button under the review text */
         helpful_votes?: string | undefined
         
-        /** images of the product submitted by the reviewer */
+        /** *images of the product submitted by the reviewer* */
         images?: AiModeImagesElementInfo[] | undefined
         
-        /** videos of the product submitted by the reviewer */
+        /** *videos of the product submitted by the reviewer* */
         videos?: VideoElement[] | undefined
         
-        /** user profile of the reviewer */
+        /** *user profile of the reviewer* */
         user_profile?: UserProfileInfo | undefined
         
-        /** title of the review */
+        /** *title of the review* */
         title?: string | undefined
         
-        /** URL to the reviewer’s profile */
         url?: string | undefined
         
-        /** content of the review */
+        /** *content of the review* */
         review_text?: string | undefined
         
-        /** date and time when the review was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: 2019-11-15 12:57:46 +00:00 */
+        /** *date and time when the review was published* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: `2019-11-15 12:57:46 +00:00` */
         publication_date?: string | undefined
         
-        /** the rating score submitted by the reviewer */
+        /** *the rating score submitted by the reviewer* */
         rating?: RatingInfo | undefined
 
     [key: string]: any;
@@ -66,77 +65,74 @@ export class AmazonReviewItem  implements IAmazonReviewItem {
     type?: string | undefined;
 
     
-    /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+    /** *position within a group of elements with identical `type` values* positions of elements with different `type` values are omitted from `rank_group` */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank among all the listed reviews absolute position among all reviews on the list */
+    /** *absolute rank among all the listed reviews* absolute position among all reviews on the list */
 
     rank_absolute?: number | undefined;
 
     
-    /** the alignment of the review in SERP can take the following values: right */
+    /** *the alignment of the review in SERP* can take the following values: `right` */
 
     position?: string | undefined;
 
     
-    /** the XPath of the element */
+    /** *the [XPath](https://en.wikipedia.org/wiki/XPath) of the element* */
 
     xpath?: string | undefined;
 
     
-    /** indicates whether the review has the “Verified Purchase” mark */
+    /** *indicates whether the review has the 'Verified Purchase' mark* */
 
     verified?: boolean | undefined;
 
     
-    /** subtitle of the review */
+    /** *subtitle of the review* */
 
     subtitle?: string | undefined;
 
     
-    /** helpful votes count number of users who clicked on the ‘Helpful” button under the review text */
+    /** *helpful votes count* number of users who clicked on the 'Helpful' button under the review text */
 
     helpful_votes?: string | undefined;
 
     
-    /** images of the product submitted by the reviewer */
+    /** *images of the product submitted by the reviewer* */
 
     images?: AiModeImagesElementInfo[] | undefined;
 
     
-    /** videos of the product submitted by the reviewer */
+    /** *videos of the product submitted by the reviewer* */
 
     videos?: VideoElement[] | undefined;
 
     
-    /** user profile of the reviewer */
+    /** *user profile of the reviewer* */
 
     user_profile?: UserProfileInfo | undefined;
 
     
-    /** title of the review */
+    /** *title of the review* */
 
     title?: string | undefined;
-
-    
-    /** URL to the reviewer’s profile */
 
     url?: string | undefined;
 
     
-    /** content of the review */
+    /** *content of the review* */
 
     review_text?: string | undefined;
 
     
-    /** date and time when the review was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: 2019-11-15 12:57:46 +00:00 */
+    /** *date and time when the review was published* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: `2019-11-15 12:57:46 +00:00` */
 
     publication_date?: string | undefined;
 
     
-    /** the rating score submitted by the reviewer */
+    /** *the rating score submitted by the reviewer* */
 
     rating?: RatingInfo | undefined;
 

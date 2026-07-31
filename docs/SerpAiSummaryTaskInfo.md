@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpAiSummaryResultInfo[]** | array of results |[optional]|
+**result** | **SerpAiSummaryResultInfo[]** | *array of results* |[optional]|

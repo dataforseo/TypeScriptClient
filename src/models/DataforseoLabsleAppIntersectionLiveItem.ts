@@ -4,13 +4,13 @@ import { GooglePlaySearchOrganic, IGooglePlaySearchOrganic } from "./GooglePlayS
 
 export interface IDataforseoLabsleAppIntersectionLiveItem   {
         
-        /** search engine type */
+        /** *search engine type* */
         se_type?: string | undefined
         
-        /** keyword data for the returned keyword */
+        /** *keyword data for the returned keyword* */
         keyword_data?: KeywordDataInfo | undefined
         
-        /** contains SERP data for the returned keyword data will be provided in separate arrays for each app ID you specified in the app_ids object when setting a task; depending on the number of specified app IDs, it can contain from 1 to 20 arrays named respectively */
+        /** *contains SERP data for the returned `keyword`* data will be provided in separate arrays for each app ID you specified in the `app_ids` object when setting a task; depending on the number of specified app IDs, it can contain from 1 to 20 arrays named respectively */
         intersection_result?: { [key: string]: GooglePlaySearchOrganic; } | undefined
 
     [key: string]: any;
@@ -20,17 +20,17 @@ export interface IDataforseoLabsleAppIntersectionLiveItem   {
 export class DataforseoLabsleAppIntersectionLiveItem  implements IDataforseoLabsleAppIntersectionLiveItem {
 
     
-    /** search engine type */
+    /** *search engine type* */
 
     se_type?: string | undefined;
 
     
-    /** keyword data for the returned keyword */
+    /** *keyword data for the returned keyword* */
 
     keyword_data?: KeywordDataInfo | undefined;
 
     
-    /** contains SERP data for the returned keyword data will be provided in separate arrays for each app ID you specified in the app_ids object when setting a task; depending on the number of specified app IDs, it can contain from 1 to 20 arrays named respectively */
+    /** *contains SERP data for the returned `keyword`* data will be provided in separate arrays for each app ID you specified in the `app_ids` object when setting a task; depending on the number of specified app IDs, it can contain from 1 to 20 arrays named respectively */
 
     intersection_result?: { [key: string]: GooglePlaySearchOrganic; } | undefined;
 

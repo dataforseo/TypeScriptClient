@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **AppDataGoogleAppListingsSearchLiveTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **AppDataGoogleAppListingsSearchLiveTaskInfo[]** | *array of tasks* |[optional]|

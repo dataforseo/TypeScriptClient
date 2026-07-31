@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **ContentAnalysisIdListResultInfo[]** | array of results |[optional]|
+**result** | **ContentAnalysisIdListResultInfo[]** | *array of results* |[optional]|

@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **BusinessDataGoogleLanguagesResultInfo[]** | array of results |[optional]|
+**result** | **BusinessDataGoogleLanguagesResultInfo[]** | *array of results* |[optional]|

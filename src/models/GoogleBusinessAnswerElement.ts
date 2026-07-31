@@ -3,28 +3,28 @@ export interface IGoogleBusinessAnswerElement   {
         /** type of element */
         type?: string | undefined
         
-        /** ID of the answer */
+        /** *ID of the answer* */
         answer_id?: string | undefined
         
-        /** URL of the user’s profile image */
+        /** *URL of the user's profile image* */
         profile_image_url?: string | undefined
         
-        /** URL of the user’s profile */
+        /** *URL of the user's profile* */
         profile_url?: string | undefined
         
-        /** displayed name of the user */
+        /** *displayed name of the user* */
         profile_name?: string | undefined
         
-        /** current text of the answer */
+        /** *current text of the answer* */
         answer_text?: string | undefined
         
-        /** original text of the answer */
+        /** *original text of the answer* */
         original_answer_text?: string | undefined
         
-        /** estimated time when the answer was posted */
+        /** *estimated time when the answer was posted* */
         time_ago?: string | undefined
         
-        /** exact time when the answer was posted */
+        /** *exact time when the answer was posted* */
         timestamp?: string | undefined
 
     [key: string]: any;
@@ -39,42 +39,42 @@ export class GoogleBusinessAnswerElement  implements IGoogleBusinessAnswerElemen
     type?: string | undefined;
 
     
-    /** ID of the answer */
+    /** *ID of the answer* */
 
     answer_id?: string | undefined;
 
     
-    /** URL of the user’s profile image */
+    /** *URL of the user's profile image* */
 
     profile_image_url?: string | undefined;
 
     
-    /** URL of the user’s profile */
+    /** *URL of the user's profile* */
 
     profile_url?: string | undefined;
 
     
-    /** displayed name of the user */
+    /** *displayed name of the user* */
 
     profile_name?: string | undefined;
 
     
-    /** current text of the answer */
+    /** *current text of the answer* */
 
     answer_text?: string | undefined;
 
     
-    /** original text of the answer */
+    /** *original text of the answer* */
 
     original_answer_text?: string | undefined;
 
     
-    /** estimated time when the answer was posted */
+    /** *estimated time when the answer was posted* */
 
     time_ago?: string | undefined;
 
     
-    /** exact time when the answer was posted */
+    /** *exact time when the answer was posted* */
 
     timestamp?: string | undefined;
 

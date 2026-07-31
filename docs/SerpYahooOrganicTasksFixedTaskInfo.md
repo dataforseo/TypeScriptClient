@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpYahooOrganicTasksFixedResultInfo[]** | array of results |[optional]|
+**result** | **SerpYahooOrganicTasksFixedResultInfo[]** | *array of results* |[optional]|

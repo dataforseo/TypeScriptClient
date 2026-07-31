@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IAppendixErrorsTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: AppendixErrorsResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IAppendixErrorsTaskInfo  extends IBaseResponseTaskInfo    {
 export class AppendixErrorsTaskInfo  extends BaseResponseTaskInfo   implements IAppendixErrorsTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: AppendixErrorsResultInfo[] | undefined;
 

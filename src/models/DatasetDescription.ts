@@ -3,10 +3,10 @@ import { LinkElement, ILinkElement } from "./LinkElement";
 
 export interface IDatasetDescription   {
         
-        /** text of the description */
+        /** *text of the description* */
         text?: string | undefined
         
-        /** links featured in the ‘dataset_description’ */
+        /** *links featured in the 'dataset_description'* */
         links?: LinkElement[] | undefined
 
     [key: string]: any;
@@ -16,12 +16,12 @@ export interface IDatasetDescription   {
 export class DatasetDescription  implements IDatasetDescription {
 
     
-    /** text of the description */
+    /** *text of the description* */
 
     text?: string | undefined;
 
     
-    /** links featured in the ‘dataset_description’ */
+    /** *links featured in the 'dataset_description'* */
 
     links?: LinkElement[] | undefined;
 

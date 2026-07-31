@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface ISerpGoogleDatasetInfoTaskGetAdvancedResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: SerpGoogleDatasetInfoTaskGetAdvancedTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface ISerpGoogleDatasetInfoTaskGetAdvancedResponseInfo  extends IBas
 export class SerpGoogleDatasetInfoTaskGetAdvancedResponseInfo  extends BaseResponseInfo   implements ISerpGoogleDatasetInfoTaskGetAdvancedResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: SerpGoogleDatasetInfoTaskGetAdvancedTaskInfo[] | undefined;
 

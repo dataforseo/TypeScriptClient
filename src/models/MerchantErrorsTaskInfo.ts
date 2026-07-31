@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IMerchantErrorsTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: MerchantErrorsResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IMerchantErrorsTaskInfo  extends IBaseResponseTaskInfo    {
 export class MerchantErrorsTaskInfo  extends BaseResponseTaskInfo   implements IMerchantErrorsTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: MerchantErrorsResultInfo[] | undefined;
 

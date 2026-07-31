@@ -16,7 +16,7 @@ export interface IAppendixDayLimitsRatesData   {
         
         serp?: AppendixSerpDaysRatesDataInfo | undefined
         
-        /** total amount of money deposited to your account */
+        /** *total amount of money deposited to your account* */
         total?: number | undefined
         
         total_serp?: number | undefined
@@ -80,7 +80,7 @@ export class AppendixDayLimitsRatesData  implements IAppendixDayLimitsRatesData 
     serp?: AppendixSerpDaysRatesDataInfo | undefined;
 
     
-    /** total amount of money deposited to your account */
+    /** *total amount of money deposited to your account* */
 
     total?: number | undefined;
 

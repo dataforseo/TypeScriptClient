@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpYahooOrganicTaskGetHtmlTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **SerpYahooOrganicTaskGetHtmlTaskInfo[]** | *array of tasks* |[optional]|

@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpYoutubeVideoCommentsTasksReadyResultInfo[]** | array of results |[optional]|
+**result** | **SerpYoutubeVideoCommentsTasksReadyResultInfo[]** | *array of results* |[optional]|

@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface IAppDataGoogleAppReviewsTaskGetAdvancedResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: AppDataGoogleAppReviewsTaskGetAdvancedTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IAppDataGoogleAppReviewsTaskGetAdvancedResponseInfo  extends IB
 export class AppDataGoogleAppReviewsTaskGetAdvancedResponseInfo  extends BaseResponseInfo   implements IAppDataGoogleAppReviewsTaskGetAdvancedResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: AppDataGoogleAppReviewsTaskGetAdvancedTaskInfo[] | undefined;
 

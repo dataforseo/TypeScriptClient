@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface IDataforseoLabsCategoriesResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: DataforseoLabsCategoriesTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IDataforseoLabsCategoriesResponseInfo  extends IBaseResponseInf
 export class DataforseoLabsCategoriesResponseInfo  extends BaseResponseInfo   implements IDataforseoLabsCategoriesResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: DataforseoLabsCategoriesTaskInfo[] | undefined;
 

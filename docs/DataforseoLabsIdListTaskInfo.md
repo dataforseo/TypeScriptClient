@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **DataforseoLabsIdListResultInfo[]** | array of results |[optional]|
+**result** | **DataforseoLabsIdListResultInfo[]** | *array of results* |[optional]|

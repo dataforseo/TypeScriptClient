@@ -3,25 +3,25 @@ import { DataforseoLabsleAppIntersectionLiveItem, IDataforseoLabsleAppIntersecti
 
 export interface IDataforseoLabsAppleAppIntersectionLiveResultInfo   {
         
-        /** search engine type */
+        /** *search engine type* */
         se_type?: string | undefined
         
-        /** ids of the apps in a POST array */
+        /** *ids of the apps in a POST array* */
         app_ids?: { [key: string]: string; } | undefined
         
-        /** location code in a POST array */
+        /** *location code in a POST array* */
         location_code?: number | undefined
         
-        /** language code in a POST array */
+        /** *language code in a POST array* */
         language_code?: string | undefined
         
-        /** total amount of results in our database relevant to your request */
+        /** *total amount of results in our database relevant to your request* */
         total_count?: number | undefined
         
-        /** the number of results returned in the items array */
+        /** *the number of results returned in the `items` array* */
         items_count?: number | undefined
         
-        /** contains data related to the ranking keywords for the app specified in the app_id field */
+        /** *contains data related to the ranking keywords for the app specified in the `app_id` field* */
         items?: DataforseoLabsleAppIntersectionLiveItem[] | undefined
 
     [key: string]: any;
@@ -31,37 +31,37 @@ export interface IDataforseoLabsAppleAppIntersectionLiveResultInfo   {
 export class DataforseoLabsAppleAppIntersectionLiveResultInfo  implements IDataforseoLabsAppleAppIntersectionLiveResultInfo {
 
     
-    /** search engine type */
+    /** *search engine type* */
 
     se_type?: string | undefined;
 
     
-    /** ids of the apps in a POST array */
+    /** *ids of the apps in a POST array* */
 
     app_ids?: { [key: string]: string; } | undefined;
 
     
-    /** location code in a POST array */
+    /** *location code in a POST array* */
 
     location_code?: number | undefined;
 
     
-    /** language code in a POST array */
+    /** *language code in a POST array* */
 
     language_code?: string | undefined;
 
     
-    /** total amount of results in our database relevant to your request */
+    /** *total amount of results in our database relevant to your request* */
 
     total_count?: number | undefined;
 
     
-    /** the number of results returned in the items array */
+    /** *the number of results returned in the `items` array* */
 
     items_count?: number | undefined;
 
     
-    /** contains data related to the ranking keywords for the app specified in the app_id field */
+    /** *contains data related to the ranking keywords for the app specified in the `app_id` field* */
 
     items?: DataforseoLabsleAppIntersectionLiveItem[] | undefined;
 

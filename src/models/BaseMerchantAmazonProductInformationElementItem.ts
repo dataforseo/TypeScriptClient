@@ -6,7 +6,7 @@ export interface IBaseMerchantAmazonProductInformationElementItem   {
         /** type of element */
         type?: string | undefined
         
-        /** name of the section related to product information specified in the contents */
+        /** *name of the section related to product information specified in the `contents`* */
         section_name?: string | undefined
 
     [key: string]: any;
@@ -21,7 +21,7 @@ export class BaseMerchantAmazonProductInformationElementItem  implements IBaseMe
     type?: string | undefined;
 
     
-    /** name of the section related to product information specified in the contents */
+    /** *name of the section related to product information specified in the `contents`* */
 
     section_name?: string | undefined;
 
@@ -95,7 +95,7 @@ export class BaseMerchantAmazonProductInformationElementItem  implements IBaseMe
  
 export interface IProductInformationProductInformationDetailsItem  extends IBaseMerchantAmazonProductInformationElementItem    {
         
-        /** contains information specified about the product within the section_name */
+        /** *contains information specified about the product within the `section_name`* */
         body?: { [key: string]: string; } | undefined
 
     [key: string]: any;
@@ -105,7 +105,7 @@ export interface IProductInformationProductInformationDetailsItem  extends IBase
 export class ProductInformationProductInformationDetailsItem  extends BaseMerchantAmazonProductInformationElementItem   implements IProductInformationProductInformationDetailsItem {
 
     
-    /** contains information specified about the product within the section_name */
+    /** *contains information specified about the product within the `section_name`* */
 
     body?: { [key: string]: string; } | undefined;
 
@@ -152,7 +152,7 @@ export class ProductInformationProductInformationDetailsItem  extends BaseMercha
  
 export interface IProductInformationProductInformationTextItem  extends IBaseMerchantAmazonProductInformationElementItem    {
         
-        /** text specified under the given title within the section_name */
+        /** *text specified under the given `title` within the `section_name`* */
         text?: string | undefined
 
     [key: string]: any;
@@ -162,7 +162,7 @@ export interface IProductInformationProductInformationTextItem  extends IBaseMer
 export class ProductInformationProductInformationTextItem  extends BaseMerchantAmazonProductInformationElementItem   implements IProductInformationProductInformationTextItem {
 
     
-    /** text specified under the given title within the section_name */
+    /** *text specified under the given `title` within the `section_name`* */
 
     text?: string | undefined;
 
@@ -209,7 +209,7 @@ export class ProductInformationProductInformationTextItem  extends BaseMerchantA
  
 export interface IProductInformationProductInformationExtendedItem  extends IBaseMerchantAmazonProductInformationElementItem    {
         
-        /** contains information specified about the product within the section_name */
+        /** *contains information specified about the product within the `section_name`* */
         contents?: ProductInformationRows[] | undefined
 
     [key: string]: any;
@@ -219,7 +219,7 @@ export interface IProductInformationProductInformationExtendedItem  extends IBas
 export class ProductInformationProductInformationExtendedItem  extends BaseMerchantAmazonProductInformationElementItem   implements IProductInformationProductInformationExtendedItem {
 
     
-    /** contains information specified about the product within the section_name */
+    /** *contains information specified about the product within the `section_name`* */
 
     contents?: ProductInformationRows[] | undefined;
 

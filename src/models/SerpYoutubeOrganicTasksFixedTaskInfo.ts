@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface ISerpYoutubeOrganicTasksFixedTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: SerpYoutubeOrganicTasksFixedResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface ISerpYoutubeOrganicTasksFixedTaskInfo  extends IBaseResponseTas
 export class SerpYoutubeOrganicTasksFixedTaskInfo  extends BaseResponseTaskInfo   implements ISerpYoutubeOrganicTasksFixedTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: SerpYoutubeOrganicTasksFixedResultInfo[] | undefined;
 

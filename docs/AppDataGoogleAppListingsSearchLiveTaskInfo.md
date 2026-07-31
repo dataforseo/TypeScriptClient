@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **AppDataGoogleAppListingsSearchLiveResultInfo[]** | array of results |[optional]|
+**result** | **AppDataGoogleAppListingsSearchLiveResultInfo[]** | *array of results* |[optional]|

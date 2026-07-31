@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **AppDataAppleAppListingsCategoriesResultInfo[]** | array of results |[optional]|
+**result** | **AppDataAppleAppListingsCategoriesResultInfo[]** | *array of results* |[optional]|

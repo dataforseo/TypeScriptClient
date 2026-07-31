@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpBaiduLocationsTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **SerpBaiduLocationsTaskInfo[]** | *array of tasks* |[optional]|

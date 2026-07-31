@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **AppDataGoogleAppListTaskGetAdvancedTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **AppDataGoogleAppListTaskGetAdvancedTaskInfo[]** | *array of tasks* |[optional]|

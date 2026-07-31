@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **DataforseoLabsGoogleBulkKeywordDifficultyLiveResultInfo[]** | array of results |[optional]|
+**result** | **DataforseoLabsGoogleBulkKeywordDifficultyLiveResultInfo[]** | *array of results* |[optional]|

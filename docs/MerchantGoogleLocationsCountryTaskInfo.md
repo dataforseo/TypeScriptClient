@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **MerchantGoogleLocationsCountryResultInfo[]** | array of results |[optional]|
+**result** | **MerchantGoogleLocationsCountryResultInfo[]** | *array of results* |[optional]|

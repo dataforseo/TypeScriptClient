@@ -3,22 +3,22 @@ import { AvailableLanguages, IAvailableLanguages } from "./AvailableLanguages";
 
 export interface IDataforseoLabsLocationsAndLanguagesResultInfo   {
         
-        /** location code */
+        /** *location code* */
         location_code?: number | undefined
         
-        /** full name of the location */
+        /** *full name of the location* */
         location_name?: string | undefined
         
-        /** the code of the superordinate location the value will be null as Country is the only supported location_type for this API */
+        /** *the code of the superordinate location* the value will be `null` as `Country` is the only supported `location_type` for this API */
         location_code_parent?: number | undefined
         
-        /** ISO country code of the location */
+        /** *ISO country code of the location* */
         country_iso_code?: string | undefined
         
-        /** location type possible values: Country */
+        /** *location type* possible values: `Country` */
         location_type?: string | undefined
         
-        /** supported languages contains the languages which are supported for a specific location */
+        /** *supported languages* contains the languages which are supported for a specific location */
         available_languages?: AvailableLanguages[] | undefined
 
     [key: string]: any;
@@ -28,32 +28,32 @@ export interface IDataforseoLabsLocationsAndLanguagesResultInfo   {
 export class DataforseoLabsLocationsAndLanguagesResultInfo  implements IDataforseoLabsLocationsAndLanguagesResultInfo {
 
     
-    /** location code */
+    /** *location code* */
 
     location_code?: number | undefined;
 
     
-    /** full name of the location */
+    /** *full name of the location* */
 
     location_name?: string | undefined;
 
     
-    /** the code of the superordinate location the value will be null as Country is the only supported location_type for this API */
+    /** *the code of the superordinate location* the value will be `null` as `Country` is the only supported `location_type` for this API */
 
     location_code_parent?: number | undefined;
 
     
-    /** ISO country code of the location */
+    /** *ISO country code of the location* */
 
     country_iso_code?: string | undefined;
 
     
-    /** location type possible values: Country */
+    /** *location type* possible values: `Country` */
 
     location_type?: string | undefined;
 
     
-    /** supported languages contains the languages which are supported for a specific location */
+    /** *supported languages* contains the languages which are supported for a specific location */
 
     available_languages?: AvailableLanguages[] | undefined;
 

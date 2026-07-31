@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **MerchantGoogleProductsTaskPostTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **MerchantGoogleProductsTaskPostTaskInfo[]** | *array of tasks* |[optional]|

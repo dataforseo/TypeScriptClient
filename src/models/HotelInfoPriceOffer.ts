@@ -3,13 +3,13 @@ export interface IHotelInfoPriceOffer   {
         /** type of element */
         type?: string | undefined
         
-        /** title of the hotel */
+        /** *title of the hotel* */
         title?: string | undefined
         
-        /** price per night */
+        /** *price per night* */
         price?: number | undefined
         
-        /** price currency USD is applied by default, unless specified in the POST array */
+        /** *price currency* `USD` is applied by default, unless specified in the POST array */
         currency?: string | undefined
         
         /** url of the price offer URL to the page of the website where price offer appears */
@@ -36,17 +36,17 @@ export class HotelInfoPriceOffer  implements IHotelInfoPriceOffer {
     type?: string | undefined;
 
     
-    /** title of the hotel */
+    /** *title of the hotel* */
 
     title?: string | undefined;
 
     
-    /** price per night */
+    /** *price per night* */
 
     price?: number | undefined;
 
     
-    /** price currency USD is applied by default, unless specified in the POST array */
+    /** *price currency* `USD` is applied by default, unless specified in the POST array */
 
     currency?: string | undefined;
 

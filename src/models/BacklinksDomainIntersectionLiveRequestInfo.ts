@@ -1,9 +1,9 @@
 export interface IBacklinksDomainIntersectionLiveRequestInfo   {
         
-        /** *domains, subdomains or webpages to get links for* **required field** you can set up to 20 domains, subdomains or webpages a domain or a subdomain should be specified without `https://` and `www.` a page should be specified with absolute URL (including `http://` or `https://`) example: `'targets':` `{'1': 'http://planet.postgresql.org/',` `'2': 'http://gborg.postgresql.org/'}` */
+        /** *domains, subdomains or webpages to get links for* **required field** you can set up to 20 domains, subdomains or webpages a domain or a subdomain should be specified without `https://` and `www.` a page should be specified with absolute URL (including `http://` or `https://`) example: `'targets': { '1': 'http://planet.postgresql.org/', '2': 'http://gborg.postgresql.org/' }` */
         targets?: { [key: string]: string; } | undefined
         
-        /** *domains, subdomains or webpages you want to exclude* optional field you can specify up to 10 domains, subdomains or webpages if you use this array, results will contain the referring domains that link to `targets` but don't link to `exclude_targets` example: `'exclude_targets': ['bbc.com','https://www.apple.com/iphone/*','https://dataforseo.com/apis/*']` */
+        /** *domains, subdomains or webpages you want to exclude* optional field you can specify up to 10 domains, subdomains or webpages if you use this array, results will contain the referring domains that link to `targets` but don't link to `exclude_targets` example: `'exclude_targets': [ 'bbc.com', 'https://www.apple.com/iphone/*', 'https://dataforseo.com/apis/*']` */
         exclude_targets?: string[] | undefined
         
         /** *array of results filtering parameters* optional field **you can add several filters at once (8 filters maximum)** you should set a logical operator `and`, `or` between the conditions the following operators are supported: `regex`, `not_regex`, `=`, `<>`, `in`, `not_in`, `like`, `not_like`, `ilike`, `not_ilike`, `match`, `not_match` you can use the `%` operator with `like` and `not_like` to match any string of zero or more characters example: `['1.internal_links_count','>','1']` `[['2.referring_pages','>','2'],'and',['1.backlinks','>','10']]` `[['1.first_seen','>','2017-10-23 11:31:45 +00:00'],'and',[['2.target','like','%dataforseo.com%'],'or',['1.referring_domains','>','10']]]` The full list of possible filters is available [here.](/v3/backlinks/filters/?bash) */
@@ -52,12 +52,12 @@ export interface IBacklinksDomainIntersectionLiveRequestInfo   {
 export class BacklinksDomainIntersectionLiveRequestInfo  implements IBacklinksDomainIntersectionLiveRequestInfo {
 
     
-    /** *domains, subdomains or webpages to get links for* **required field** you can set up to 20 domains, subdomains or webpages a domain or a subdomain should be specified without `https://` and `www.` a page should be specified with absolute URL (including `http://` or `https://`) example: `'targets':` `{'1': 'http://planet.postgresql.org/',` `'2': 'http://gborg.postgresql.org/'}` */
+    /** *domains, subdomains or webpages to get links for* **required field** you can set up to 20 domains, subdomains or webpages a domain or a subdomain should be specified without `https://` and `www.` a page should be specified with absolute URL (including `http://` or `https://`) example: `'targets': { '1': 'http://planet.postgresql.org/', '2': 'http://gborg.postgresql.org/' }` */
 
     targets?: { [key: string]: string; } | undefined;
 
     
-    /** *domains, subdomains or webpages you want to exclude* optional field you can specify up to 10 domains, subdomains or webpages if you use this array, results will contain the referring domains that link to `targets` but don't link to `exclude_targets` example: `'exclude_targets': ['bbc.com','https://www.apple.com/iphone/*','https://dataforseo.com/apis/*']` */
+    /** *domains, subdomains or webpages you want to exclude* optional field you can specify up to 10 domains, subdomains or webpages if you use this array, results will contain the referring domains that link to `targets` but don't link to `exclude_targets` example: `'exclude_targets': [ 'bbc.com', 'https://www.apple.com/iphone/*', 'https://dataforseo.com/apis/*']` */
 
     exclude_targets?: string[] | undefined;
 

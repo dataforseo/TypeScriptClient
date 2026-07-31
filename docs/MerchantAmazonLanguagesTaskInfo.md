@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **MerchantAmazonLanguagesResultInfo[]** | array of results |[optional]|
+**result** | **MerchantAmazonLanguagesResultInfo[]** | *array of results* |[optional]|

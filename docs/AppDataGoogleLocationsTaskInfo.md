@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **AppDataGoogleLocationsResultInfo[]** | array of results |[optional]|
+**result** | **AppDataGoogleLocationsResultInfo[]** | *array of results* |[optional]|

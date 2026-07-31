@@ -8,52 +8,52 @@ export interface IAmazonSerpElement   {
         /** type of element */
         type?: string | undefined
         
-        /** the XPath of the element */
+        /** *the [XPath](https://en.wikipedia.org/wiki/XPath) of the element* */
         xpath?: string | undefined
         
-        /** Amazon domain */
+        /** *Amazon domain* */
         domain?: string | undefined
         
-        /** product title */
+        /** *product title* */
         title?: string | undefined
         
-        /** the URL of the product page */
+        /** *the URL of the product page* */
         url?: string | undefined
         
-        /** URL of the product image featured in the results */
+        /** *URL of the product image featured in the results* */
         image_url?: string | undefined
         
-        /** number of product purchases in the past month */
+        /** *number of product purchases in the past month* */
         bought_past_month?: number | undefined
         
-        /** the regular price of a product example: 49.98 */
+        /** *the regular price of a product* example: `49.98` */
         price_from?: number | undefined
         
-        /** the upper limit of the product price range example: 384.99 */
+        /** *the upper limit of the product price range* example: `384.99` */
         price_to?: number | undefined
         
-        /** currency in the ISO format example: USD */
+        /** *currency in the [ISO](https://en.wikipedia.org/wiki/ISO_4217) format* example: `USD` */
         currency?: string | undefined
         
-        /** special offer details contains special offer details, including coupon and Subscribe & Save discounts */
+        /** *special offer details* contains special offer details, including coupon and Subscribe & Save discounts */
         special_offers?: string[] | undefined
         
-        /** unique product identifier on Amazon note that there is no full list of possible values as the data_asin is a dynamic value assigned by Amazon example: B07G82D89J */
+        /** *unique product identifier on Amazon* note that there is no full list of possible values as the `data_asin` is a dynamic value assigned by Amazon example: `B07G82D89J` */
         data_asin?: string | undefined
         
-        /** product rating info */
+        /** *product rating info* */
         rating?: RatingElement | undefined
         
-        /** “Amazon’s choice” label if the value is true, the product is marked with the “Amazon’s choice” label */
+        /** *'Amazon's choice' label* if the value is `true`, the product is marked with the 'Amazon's choice' label */
         is_amazon_choice?: boolean | undefined
         
-        /** “Best Seller” label if the value is true, the product is marked with the “Best Seller” label */
+        /** *'Best Seller' label* if the value is `true`, the product is marked with the 'Best Seller' label */
         is_best_seller?: boolean | undefined
         
-        /** delivery information delivery information including free and fast delivery date ranges */
+        /** *delivery information* delivery information including free and fast delivery date ranges */
         delivery_info?: AmazonDeliveryInfo | undefined
         
-        /** product labels array containing an object with main Amazon labels’ information if the product contains no labels, the value will be null */
+        /** *product labels* array containing an object with main Amazon labels’ information if the product contains no labels, the value will be `null` */
         labels?: AmazonLabelElement[] | undefined
 
     [key: string]: any;
@@ -68,82 +68,82 @@ export class AmazonSerpElement  implements IAmazonSerpElement {
     type?: string | undefined;
 
     
-    /** the XPath of the element */
+    /** *the [XPath](https://en.wikipedia.org/wiki/XPath) of the element* */
 
     xpath?: string | undefined;
 
     
-    /** Amazon domain */
+    /** *Amazon domain* */
 
     domain?: string | undefined;
 
     
-    /** product title */
+    /** *product title* */
 
     title?: string | undefined;
 
     
-    /** the URL of the product page */
+    /** *the URL of the product page* */
 
     url?: string | undefined;
 
     
-    /** URL of the product image featured in the results */
+    /** *URL of the product image featured in the results* */
 
     image_url?: string | undefined;
 
     
-    /** number of product purchases in the past month */
+    /** *number of product purchases in the past month* */
 
     bought_past_month?: number | undefined;
 
     
-    /** the regular price of a product example: 49.98 */
+    /** *the regular price of a product* example: `49.98` */
 
     price_from?: number | undefined;
 
     
-    /** the upper limit of the product price range example: 384.99 */
+    /** *the upper limit of the product price range* example: `384.99` */
 
     price_to?: number | undefined;
 
     
-    /** currency in the ISO format example: USD */
+    /** *currency in the [ISO](https://en.wikipedia.org/wiki/ISO_4217) format* example: `USD` */
 
     currency?: string | undefined;
 
     
-    /** special offer details contains special offer details, including coupon and Subscribe & Save discounts */
+    /** *special offer details* contains special offer details, including coupon and Subscribe & Save discounts */
 
     special_offers?: string[] | undefined;
 
     
-    /** unique product identifier on Amazon note that there is no full list of possible values as the data_asin is a dynamic value assigned by Amazon example: B07G82D89J */
+    /** *unique product identifier on Amazon* note that there is no full list of possible values as the `data_asin` is a dynamic value assigned by Amazon example: `B07G82D89J` */
 
     data_asin?: string | undefined;
 
     
-    /** product rating info */
+    /** *product rating info* */
 
     rating?: RatingElement | undefined;
 
     
-    /** “Amazon’s choice” label if the value is true, the product is marked with the “Amazon’s choice” label */
+    /** *'Amazon's choice' label* if the value is `true`, the product is marked with the 'Amazon's choice' label */
 
     is_amazon_choice?: boolean | undefined;
 
     
-    /** “Best Seller” label if the value is true, the product is marked with the “Best Seller” label */
+    /** *'Best Seller' label* if the value is `true`, the product is marked with the 'Best Seller' label */
 
     is_best_seller?: boolean | undefined;
 
     
-    /** delivery information delivery information including free and fast delivery date ranges */
+    /** *delivery information* delivery information including free and fast delivery date ranges */
 
     delivery_info?: AmazonDeliveryInfo | undefined;
 
     
-    /** product labels array containing an object with main Amazon labels’ information if the product contains no labels, the value will be null */
+    /** *product labels* array containing an object with main Amazon labels’ information if the product contains no labels, the value will be `null` */
 
     labels?: AmazonLabelElement[] | undefined;
 

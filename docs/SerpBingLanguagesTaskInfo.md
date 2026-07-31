@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpBingLanguagesResultInfo[]** | array of results |[optional]|
+**result** | **SerpBingLanguagesResultInfo[]** | *array of results* |[optional]|

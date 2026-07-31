@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface IDataforseoLabsAmazonProductCompetitorsLiveResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: DataforseoLabsAmazonProductCompetitorsLiveTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IDataforseoLabsAmazonProductCompetitorsLiveResponseInfo  extend
 export class DataforseoLabsAmazonProductCompetitorsLiveResponseInfo  extends BaseResponseInfo   implements IDataforseoLabsAmazonProductCompetitorsLiveResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: DataforseoLabsAmazonProductCompetitorsLiveTaskInfo[] | undefined;
 

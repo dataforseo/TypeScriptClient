@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **MerchantTasksReadyResultInfo[]** | array of results |[optional]|
+**result** | **MerchantTasksReadyResultInfo[]** | *array of results* |[optional]|

@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **AppendixStatusTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **AppendixStatusTaskInfo[]** | *array of tasks* |[optional]|

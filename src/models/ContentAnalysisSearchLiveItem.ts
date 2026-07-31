@@ -8,49 +8,49 @@ export interface IContentAnalysisSearchLiveItem   {
         /** type of element */
         type?: string | undefined
         
-        /** URL where the citation was found */
+        /** *URL where the citation was found* */
         url?: string | undefined
         
-        /** domain name */
+        /** *domain name* */
         domain?: string | undefined
         
-        /** main domain */
+        /** *main domain* */
         main_domain?: string | undefined
         
-        /** rank of the url this value is based on backlink data for the given URL from DataForSEO Backlink Index; url_rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm learn more about the metric and how it is calculated in this help center article */
+        /** *rank of the `url`* this value is based on backlink data for the given URL from DataForSEO Backlink Index; `url_rank` is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm learn more about the metric and how it is calculated in [this help center article](https://dataforseo.com/help-center/what_is_rank_in_backlinks_api) */
         url_rank?: number | undefined
         
-        /** backlink spam score of the url this value is based on backlink data for the given URL from DataForSEO Backlink Index; learn more about how the metric is calculated on this help center page */
+        /** *backlink spam score of the `url`* this value is based on backlink data for the given URL from DataForSEO Backlink Index; learn more about how the metric is calculated on [this help center page](https://dataforseo.com/help-center/what-is-spam-score-and-how-is-it-calculated) */
         spam_score?: number | undefined
         
-        /** rank of the domain this value is based on backlink data for the given domain from DataForSEO Backlink Index; domain_rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm learn more about the metric and how it is calculated in this help center article */
+        /** *rank of the `domain`* this value is based on backlink data for the given domain from DataForSEO Backlink Index; `domain_rank` is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm learn more about the metric and how it is calculated in [this help center article](https://dataforseo.com/help-center/what_is_rank_in_backlinks_api) */
         domain_rank?: number | undefined
         
-        /** date and time when our crawler visited the page in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2017-01-24 13:20:59 +00:00 */
+        /** *date and time when our crawler visited the page* in the UTC format: 'yyyy-mm-dd hh-mm-ss +00:00' example: `2017-01-24 13:20:59 +00:00` */
         fetch_time?: string | undefined
         
-        /** country code of the domain registration to obtain a full list of available countries, refer to the Locations endpoint */
+        /** *country code of the domain registration* to obtain a full list of available countries, refer to the [Locations](/v3/content_analysis/locations/) endpoint */
         country?: string | undefined
         
-        /** main language of the domain to obtain a full list of available languages, refer to the Languages endpoint */
+        /** *main language of the domain* to obtain a full list of available languages, refer to the [Languages](/v3/content_analysis/languages/) endpoint */
         language?: string | undefined
         
-        /** citation prominence score this value is based on url_rank, domain_rank, keyword presence in title, main_title, url, snippet the higher the score, the more value the related citation has */
+        /** *citation prominence score* this value is based on `url_rank`, `domain_rank`, `keyword` presence in `title`, `main_title`, `url`, `snippet` the higher the `score`, the more value the related citation has */
         score?: number | undefined
         
-        /** contains all relevant page categories product and service categories relevant for the page to obtain a full list of available categories, refer to the Categories endpoint */
+        /** *contains all relevant page categories* product and service categories relevant for the page to obtain a full list of available categories, refer to the [Categories](/v3/content_analysis/categories/) endpoint */
         page_category?: number[] | undefined
         
-        /** page types */
+        /** *page types* */
         page_types?: string[] | undefined
         
-        /** ratings found on the page all ratings found on the page based on microdata */
+        /** *ratings found on the page* all ratings found on the page based on microdata */
         ratings?: ContentRatingInfo[] | undefined
         
-        /** social media engagement metrics data on social media interactions associated with the content based on website embeds developed and supported by social media platforms */
+        /** *social media engagement metrics* data on social media interactions associated with the content based on website embeds developed and supported by social media platforms */
         social_metrics?: SocialMetricsInfo[] | undefined
         
-        /** contains data on citations from the given url */
+        /** *contains data on citations from the given `url`* */
         content_info?: AnalysisContentInfo | undefined
 
     [key: string]: any;
@@ -65,77 +65,77 @@ export class ContentAnalysisSearchLiveItem  implements IContentAnalysisSearchLiv
     type?: string | undefined;
 
     
-    /** URL where the citation was found */
+    /** *URL where the citation was found* */
 
     url?: string | undefined;
 
     
-    /** domain name */
+    /** *domain name* */
 
     domain?: string | undefined;
 
     
-    /** main domain */
+    /** *main domain* */
 
     main_domain?: string | undefined;
 
     
-    /** rank of the url this value is based on backlink data for the given URL from DataForSEO Backlink Index; url_rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm learn more about the metric and how it is calculated in this help center article */
+    /** *rank of the `url`* this value is based on backlink data for the given URL from DataForSEO Backlink Index; `url_rank` is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm learn more about the metric and how it is calculated in [this help center article](https://dataforseo.com/help-center/what_is_rank_in_backlinks_api) */
 
     url_rank?: number | undefined;
 
     
-    /** backlink spam score of the url this value is based on backlink data for the given URL from DataForSEO Backlink Index; learn more about how the metric is calculated on this help center page */
+    /** *backlink spam score of the `url`* this value is based on backlink data for the given URL from DataForSEO Backlink Index; learn more about how the metric is calculated on [this help center page](https://dataforseo.com/help-center/what-is-spam-score-and-how-is-it-calculated) */
 
     spam_score?: number | undefined;
 
     
-    /** rank of the domain this value is based on backlink data for the given domain from DataForSEO Backlink Index; domain_rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm learn more about the metric and how it is calculated in this help center article */
+    /** *rank of the `domain`* this value is based on backlink data for the given domain from DataForSEO Backlink Index; `domain_rank` is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm learn more about the metric and how it is calculated in [this help center article](https://dataforseo.com/help-center/what_is_rank_in_backlinks_api) */
 
     domain_rank?: number | undefined;
 
     
-    /** date and time when our crawler visited the page in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2017-01-24 13:20:59 +00:00 */
+    /** *date and time when our crawler visited the page* in the UTC format: 'yyyy-mm-dd hh-mm-ss +00:00' example: `2017-01-24 13:20:59 +00:00` */
 
     fetch_time?: string | undefined;
 
     
-    /** country code of the domain registration to obtain a full list of available countries, refer to the Locations endpoint */
+    /** *country code of the domain registration* to obtain a full list of available countries, refer to the [Locations](/v3/content_analysis/locations/) endpoint */
 
     country?: string | undefined;
 
     
-    /** main language of the domain to obtain a full list of available languages, refer to the Languages endpoint */
+    /** *main language of the domain* to obtain a full list of available languages, refer to the [Languages](/v3/content_analysis/languages/) endpoint */
 
     language?: string | undefined;
 
     
-    /** citation prominence score this value is based on url_rank, domain_rank, keyword presence in title, main_title, url, snippet the higher the score, the more value the related citation has */
+    /** *citation prominence score* this value is based on `url_rank`, `domain_rank`, `keyword` presence in `title`, `main_title`, `url`, `snippet` the higher the `score`, the more value the related citation has */
 
     score?: number | undefined;
 
     
-    /** contains all relevant page categories product and service categories relevant for the page to obtain a full list of available categories, refer to the Categories endpoint */
+    /** *contains all relevant page categories* product and service categories relevant for the page to obtain a full list of available categories, refer to the [Categories](/v3/content_analysis/categories/) endpoint */
 
     page_category?: number[] | undefined;
 
     
-    /** page types */
+    /** *page types* */
 
     page_types?: string[] | undefined;
 
     
-    /** ratings found on the page all ratings found on the page based on microdata */
+    /** *ratings found on the page* all ratings found on the page based on microdata */
 
     ratings?: ContentRatingInfo[] | undefined;
 
     
-    /** social media engagement metrics data on social media interactions associated with the content based on website embeds developed and supported by social media platforms */
+    /** *social media engagement metrics* data on social media interactions associated with the content based on website embeds developed and supported by social media platforms */
 
     social_metrics?: SocialMetricsInfo[] | undefined;
 
     
-    /** contains data on citations from the given url */
+    /** *contains data on citations from the given `url`* */
 
     content_info?: AnalysisContentInfo | undefined;
 

@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **DataforseoLabsLocationsAndLanguagesResultInfo[]** | array of results |[optional]|
+**result** | **DataforseoLabsLocationsAndLanguagesResultInfo[]** | *array of results* |[optional]|

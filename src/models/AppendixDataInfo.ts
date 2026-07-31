@@ -17,7 +17,7 @@ export interface IAppendixDataInfo   {
         
         serp?: AppendixSerpDataInfo | undefined
         
-        /** total amount of money deposited to your account */
+        /** *total amount of money deposited to your account* */
         total?: number | undefined
         
         total_serp?: number | undefined
@@ -87,7 +87,7 @@ export class AppendixDataInfo  implements IAppendixDataInfo {
     serp?: AppendixSerpDataInfo | undefined;
 
     
-    /** total amount of money deposited to your account */
+    /** *total amount of money deposited to your account* */
 
     total?: number | undefined;
 

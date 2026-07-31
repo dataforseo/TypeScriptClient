@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **DataforseoLabsGoogleAppIntersectionLiveResultInfo[]** | array of results |[optional]|
+**result** | **DataforseoLabsGoogleAppIntersectionLiveResultInfo[]** | *array of results* |[optional]|

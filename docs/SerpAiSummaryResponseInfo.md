@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpAiSummaryTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **SerpAiSummaryTaskInfo[]** | *array of tasks* |[optional]|

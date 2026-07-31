@@ -3,10 +3,10 @@ export interface IBacklinksBulkSpamScoreLiveItem   {
         /** type of element */
         type?: string | undefined
         
-        /** domain, subdomain or webpage from a POST array */
+        /** *domain, subdomain or webpage from a POST array* */
         target?: string | undefined
         
-        /** average spam score the target learn more about how the metric is calculated */
+        /** *average spam score the target* [learn more](https://dataforseo.com/help-center/what-is-spam-score-and-how-is-it-calculated) about how the metric is calculated */
         spam_score?: number | undefined
 
     [key: string]: any;
@@ -21,12 +21,12 @@ export class BacklinksBulkSpamScoreLiveItem  implements IBacklinksBulkSpamScoreL
     type?: string | undefined;
 
     
-    /** domain, subdomain or webpage from a POST array */
+    /** *domain, subdomain or webpage from a POST array* */
 
     target?: string | undefined;
 
     
-    /** average spam score the target learn more about how the metric is calculated */
+    /** *average spam score the target* [learn more](https://dataforseo.com/help-center/what-is-spam-score-and-how-is-it-calculated) about how the metric is calculated */
 
     spam_score?: number | undefined;
 

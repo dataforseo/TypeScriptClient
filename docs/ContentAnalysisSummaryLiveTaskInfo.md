@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **ContentAnalysisSummaryInfo[]** | array of results |[optional]|
+**result** | **ContentAnalysisSummaryInfo[]** | *array of results* |[optional]|

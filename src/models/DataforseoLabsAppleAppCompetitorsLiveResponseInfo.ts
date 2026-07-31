@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface IDataforseoLabsAppleAppCompetitorsLiveResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: DataforseoLabsAppleAppCompetitorsLiveTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IDataforseoLabsAppleAppCompetitorsLiveResponseInfo  extends IBa
 export class DataforseoLabsAppleAppCompetitorsLiveResponseInfo  extends BaseResponseInfo   implements IDataforseoLabsAppleAppCompetitorsLiveResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: DataforseoLabsAppleAppCompetitorsLiveTaskInfo[] | undefined;
 

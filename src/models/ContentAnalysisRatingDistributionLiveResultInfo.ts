@@ -6,13 +6,13 @@ export interface IContentAnalysisRatingDistributionLiveResultInfo   {
         /** type of element */
         type?: string | undefined
         
-        /** min rating on a distribution scale */
+        /** *min rating on a distribution scale* */
         min?: number | undefined
         
-        /** max rating on a distribution scale */
+        /** *max rating on a distribution scale* */
         max?: number | undefined
         
-        /** contains rating distribution metrics */
+        /** *contains rating distribution metrics* */
         metrics?: ContentAnalysisSummaryInfo | undefined
 
     [key: string]: any;
@@ -27,17 +27,17 @@ export class ContentAnalysisRatingDistributionLiveResultInfo  implements IConten
     type?: string | undefined;
 
     
-    /** min rating on a distribution scale */
+    /** *min rating on a distribution scale* */
 
     min?: number | undefined;
 
     
-    /** max rating on a distribution scale */
+    /** *max rating on a distribution scale* */
 
     max?: number | undefined;
 
     
-    /** contains rating distribution metrics */
+    /** *contains rating distribution metrics* */
 
     metrics?: ContentAnalysisSummaryInfo | undefined;
 

@@ -3,13 +3,13 @@ import { KeywordInfo, IKeywordInfo } from "./KeywordInfo";
 
 export interface IHistory   {
         
-        /** year */
+        /** *year* */
         year?: number | undefined
         
-        /** month */
+        /** *month* */
         month?: number | undefined
         
-        /** historical data for the keyword */
+        /** *historical data for the keyword* */
         keyword_info?: KeywordInfo | undefined
 
     [key: string]: any;
@@ -19,17 +19,17 @@ export interface IHistory   {
 export class History  implements IHistory {
 
     
-    /** year */
+    /** *year* */
 
     year?: number | undefined;
 
     
-    /** month */
+    /** *month* */
 
     month?: number | undefined;
 
     
-    /** historical data for the keyword */
+    /** *historical data for the keyword* */
 
     keyword_info?: KeywordInfo | undefined;
 

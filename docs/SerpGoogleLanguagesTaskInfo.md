@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpGoogleLanguagesResultInfo[]** | array of results |[optional]|
+**result** | **SerpGoogleLanguagesResultInfo[]** | *array of results* |[optional]|

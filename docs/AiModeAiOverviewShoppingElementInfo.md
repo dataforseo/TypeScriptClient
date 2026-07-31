@@ -12,7 +12,7 @@
 **url** | **string** | *URL in link* |[optional]|
 **domain** | **string** | *domain in link* |[optional]|
 **rating** | **RatingInfo** | *product rating*. the popularity rate based on reviews.  if there is none, the value will be `null` |[optional]|
-**price** | **PriceInfo** | *product price*. product price details on the seller's website;.  if there is none, the value will be `null` |[optional]|
+**price** | **AiModePriceInfo** | *product price*. product price details on the seller's website;.  if there is none, the value will be `null` |[optional]|
 **seller** | **string** | *product seller*. name of the product's seller as displayed in search results |[optional]|
 **snippet** | **string** | *additional information about the result* |[optional]|
 **marketplace** | **string** | *merchant account provider*. e-commerce site that hosts products or websites of individual sellers under the same merchant account. example:. `by Google` |[optional]|

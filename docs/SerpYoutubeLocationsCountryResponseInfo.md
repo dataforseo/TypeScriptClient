@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpYoutubeLocationsCountryTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **SerpYoutubeLocationsCountryTaskInfo[]** | *array of tasks* |[optional]|

@@ -4,40 +4,40 @@ import { TripadvisorReviewSearch, ITripadvisorReviewSearch } from "./Tripadvisor
 
 export interface IBusinessDataTripadvisorReviewsTaskGetResultInfo   {
         
-        /** URL path received in a POST array */
+        /** *URL path received in a POST array* */
         url_path?: string | undefined
         
         /** type of element */
         type?: string | undefined
         
-        /** search engine domain in a POST array */
+        /** *search engine domain in a POST array* */
         se_domain?: string | undefined
         
-        /** direct URL to search engine results you can use it to make sure that we provided accurate results */
+        /** *direct URL to search engine results* you can use it to make sure that we provided accurate results */
         check_url?: string | undefined
         
-        /** date and time when the result was received in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
+        /** *date and time when the result was received* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
         datetime?: string | undefined
         
-        /** title of the ‘reviews’ element in SERP the name of the local establishment for which the reviews are collected */
+        /** *title of the 'reviews' element in SERP* the name of the local establishment for which the reviews are collected */
         title?: string | undefined
         
-        /** location of the local establishment address of the local establishment for which the reviews are collected */
+        /** *location of the local establishment* address of the local establishment for which the reviews are collected */
         location?: string | undefined
         
-        /** the total number of reviews */
+        /** *the total number of reviews* */
         reviews_count?: number | undefined
         
-        /** rating of the corresponding local establishment popularity rate based on reviews and displayed in SERP */
+        /** *rating of the corresponding local establishment* popularity rate based on reviews and displayed in SERP */
         rating?: RatingInfo | undefined
         
-        /** rating distribution by votes the distribution of votes across the rating in the range from 1 to 5 */
+        /** *rating distribution by votes* the distribution of votes across the rating in the range from 1 to 5 */
         rating_distribution?: { [key: string]: number; } | undefined
         
-        /** the number of reviews items in the results array you can get more results by using the depth parameter when setting a task */
+        /** *the number of reviews items in the results array* you can get more results by using the `depth` parameter when setting a task */
         items_count?: number | undefined
         
-        /** found reviews you can get more results by using the depth parameter when setting a task */
+        /** *found reviews* you can get more results by using the `depth` parameter when setting a task */
         items?: TripadvisorReviewSearch[] | undefined
         
         /** language code in a POST array */
@@ -50,7 +50,7 @@ export interface IBusinessDataTripadvisorReviewsTaskGetResultInfo   {
 export class BusinessDataTripadvisorReviewsTaskGetResultInfo  implements IBusinessDataTripadvisorReviewsTaskGetResultInfo {
 
     
-    /** URL path received in a POST array */
+    /** *URL path received in a POST array* */
 
     url_path?: string | undefined;
 
@@ -60,52 +60,52 @@ export class BusinessDataTripadvisorReviewsTaskGetResultInfo  implements IBusine
     type?: string | undefined;
 
     
-    /** search engine domain in a POST array */
+    /** *search engine domain in a POST array* */
 
     se_domain?: string | undefined;
 
     
-    /** direct URL to search engine results you can use it to make sure that we provided accurate results */
+    /** *direct URL to search engine results* you can use it to make sure that we provided accurate results */
 
     check_url?: string | undefined;
 
     
-    /** date and time when the result was received in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
+    /** *date and time when the result was received* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
 
     datetime?: string | undefined;
 
     
-    /** title of the ‘reviews’ element in SERP the name of the local establishment for which the reviews are collected */
+    /** *title of the 'reviews' element in SERP* the name of the local establishment for which the reviews are collected */
 
     title?: string | undefined;
 
     
-    /** location of the local establishment address of the local establishment for which the reviews are collected */
+    /** *location of the local establishment* address of the local establishment for which the reviews are collected */
 
     location?: string | undefined;
 
     
-    /** the total number of reviews */
+    /** *the total number of reviews* */
 
     reviews_count?: number | undefined;
 
     
-    /** rating of the corresponding local establishment popularity rate based on reviews and displayed in SERP */
+    /** *rating of the corresponding local establishment* popularity rate based on reviews and displayed in SERP */
 
     rating?: RatingInfo | undefined;
 
     
-    /** rating distribution by votes the distribution of votes across the rating in the range from 1 to 5 */
+    /** *rating distribution by votes* the distribution of votes across the rating in the range from 1 to 5 */
 
     rating_distribution?: { [key: string]: number; } | undefined;
 
     
-    /** the number of reviews items in the results array you can get more results by using the depth parameter when setting a task */
+    /** *the number of reviews items in the results array* you can get more results by using the `depth` parameter when setting a task */
 
     items_count?: number | undefined;
 
     
-    /** found reviews you can get more results by using the depth parameter when setting a task */
+    /** *found reviews* you can get more results by using the `depth` parameter when setting a task */
 
     items?: TripadvisorReviewSearch[] | undefined;
 

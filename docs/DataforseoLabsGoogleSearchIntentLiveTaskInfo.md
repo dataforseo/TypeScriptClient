@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **DataforseoLabsGoogleSearchIntentLiveResultInfo[]** | array of results |[optional]|
+**result** | **DataforseoLabsGoogleSearchIntentLiveResultInfo[]** | *array of results* |[optional]|

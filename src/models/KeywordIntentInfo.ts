@@ -1,9 +1,9 @@
 export interface IKeywordIntentInfo   {
         
-        /** search intent name possible values: informational, navigational, commercial, transactional */
+        /** *search intent name* possible values: `informational`, `navigational`, `commercial`, `transactional` */
         label?: string | undefined
         
-        /** search intent probability 1 indicates the highest probability */
+        /** *search intent probability* `1` indicates the highest probability */
         probability?: number | undefined
 
     [key: string]: any;
@@ -13,12 +13,12 @@ export interface IKeywordIntentInfo   {
 export class KeywordIntentInfo  implements IKeywordIntentInfo {
 
     
-    /** search intent name possible values: informational, navigational, commercial, transactional */
+    /** *search intent name* possible values: `informational`, `navigational`, `commercial`, `transactional` */
 
     label?: string | undefined;
 
     
-    /** search intent probability 1 indicates the highest probability */
+    /** *search intent probability* `1` indicates the highest probability */
 
     probability?: number | undefined;
 

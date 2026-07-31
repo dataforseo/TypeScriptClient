@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpBingLocationsCountryTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **SerpBingLocationsCountryTaskInfo[]** | *array of tasks* |[optional]|

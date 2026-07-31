@@ -3,7 +3,8 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface ISerpGoogleAdsSearchTaskPostTaskInfo  extends IBaseResponseTaskInfo    {
         
-        result?: string | undefined
+        /** *array of results* in this case, the value will be `null` */
+        result?: any | undefined
 
     [key: string]: any;
 
@@ -11,7 +12,10 @@ export interface ISerpGoogleAdsSearchTaskPostTaskInfo  extends IBaseResponseTask
 
 export class SerpGoogleAdsSearchTaskPostTaskInfo  extends BaseResponseTaskInfo   implements ISerpGoogleAdsSearchTaskPostTaskInfo {
 
-    result?: string | undefined;
+    
+    /** *array of results* in this case, the value will be `null` */
+
+    result?: any | undefined;
 
     [key: string]: any;
 

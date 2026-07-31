@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IAppDataAppleAppReviewsTasksReadyTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: AppDataAppleAppReviewsTasksReadyResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IAppDataAppleAppReviewsTasksReadyTaskInfo  extends IBaseRespons
 export class AppDataAppleAppReviewsTasksReadyTaskInfo  extends BaseResponseTaskInfo   implements IAppDataAppleAppReviewsTasksReadyTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: AppDataAppleAppReviewsTasksReadyResultInfo[] | undefined;
 

@@ -5,32 +5,32 @@
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
 **type** | **string** | type of element |[optional]|
-**rank_group** | **number** | position within a group of elements with identical type values. positions of elements with different type values are omitted from rank_group |[optional]|
-**rank_absolute** | **number** | absolute rank. absolute position among all the elements in the response array |[optional]|
-**position** | **string** | the alignment of the element in Amazon SERP. possible values:. left, right |[optional]|
-**xpath** | **string** | the XPath of the element |[optional]|
-**title** | **string** | product title |[optional]|
-**details** | **string** | product specs and other details |[optional]|
-**image_url** | **string** | the URL of the product image |[optional]|
-**author** | **string** | product brand name |[optional]|
-**data_asin** | **string** | ASIN of the product received in a POST array |[optional]|
-**parent_asin** | **string** | parent ASIN of the product |[optional]|
-**product_asins** | **string[]** | ASINs of all found product modifications |[optional]|
-**price_from** | **number** | the lower limit of the product price range. example:. 49.98 |[optional]|
-**price_to** | **number** | the upper limit of the product price range. example:. 384.99 |[optional]|
-**percentage_discount** | **string** | value of the percentage discount |[optional]|
-**currency** | **string** | currency in the ISO format. example:. USD |[optional]|
-**is_amazon_choice** | **boolean** | “Amazon’s choice” label. if the value is true, the product is marked with the “Amazon’s choice” label |[optional]|
-**rating** | **RatingElement** | product rating info |[optional]|
-**is_newer_model_available** | **boolean** | indicates whether the newer model of the product is available |[optional]|
-**is_prime_video** | **boolean** | indicates whether a product has an Amazon Prime Video label. if true, specified product is a part of Amazon Prime Video service |[optional]|
-**applicable_vouchers** | **AmazonApplicableVouchersItem[]** | array of objects containing information about applicable vouchers |[optional]|
-**newer_model** | **NewerModel** | information about the newer model of the product |[optional]|
-**categories** | **Categories[]** | contains related product categories |[optional]|
-**product_information** | **BaseMerchantAmazonProductInformationElementItem[]** | contains related product information |[optional]|
-**product_images_list** | **string[]** | contains URLs for all images of the product displayed on the left side of the main image |[optional]|
-**product_videos_list** | **string[]** | contains URLs for all videos of the product displayed on the right side of the main video |[optional]|
-**description** | **string** | contains description of the product |[optional]|
-**is_available** | **boolean** | indicates whether the product is available for ordering. if the value is true, the product can be ordered |[optional]|
-**top_local_reviews** | **AmazonReviewItem[]** | array of objects with top reviews from target location |[optional]|
-**top_global_reviews** | **AmazonReviewItem[]** | array of objects with top reviews from around the world |[optional]|
+**rank_group** | **number** | *position within a group of elements with identical `type` values*. positions of elements with different `type` values are omitted from `rank_group` |[optional]|
+**rank_absolute** | **number** | *absolute rank*. absolute position among all the elements in the response array |[optional]|
+**position** | **string** | *the alignment of the element in Amazon SERP*. possible values:. `left`, `right` |[optional]|
+**xpath** | **string** | *the [XPath](https://en.wikipedia.org/wiki/XPath) of the element* |[optional]|
+**title** | **string** | *product title* |[optional]|
+**details** | **string** | *product specs and other details* |[optional]|
+**image_url** | **string** | *the URL of the product image* |[optional]|
+**author** | **string** | *product brand name* |[optional]|
+**data_asin** | **string** | *ASIN of the product received in a POST array* |[optional]|
+**parent_asin** | **string** | *[parent ASIN](https://sellercentral.amazon.com/gp/help/external/help.html?itemID=8831&language=en-US&ref=mpbc_200779220_cont_8831&) of the product* |[optional]|
+**product_asins** | **string[]** | *ASINs of all found product modifications* |[optional]|
+**price_from** | **number** | *the lower limit of the product price range*. example:. `49.98` |[optional]|
+**price_to** | **number** | *the upper limit of the product price range*. example:. `384.99` |[optional]|
+**percentage_discount** | **string** | *value of the percentage discount* |[optional]|
+**currency** | **string** | *currency in the [ISO](https://en.wikipedia.org/wiki/ISO_4217) format*. example:. `USD` |[optional]|
+**is_amazon_choice** | **boolean** | *'Amazon's choice' label*. if the value is `true`, the product is marked with the 'Amazon's choice' label |[optional]|
+**rating** | **RatingElement** | *product rating info* |[optional]|
+**is_newer_model_available** | **boolean** | *indicates whether the newer model of the product is available* |[optional]|
+**is_prime_video** | **boolean** | *indicates whether a product has an Amazon Prime Video label*. if `true`, specified product is a part of Amazon Prime Video service |[optional]|
+**applicable_vouchers** | **AmazonApplicableVouchersItem[]** | *array of objects containing information about applicable vouchers* |[optional]|
+**newer_model** | **NewerModel** | *information about the newer model of the product* |[optional]|
+**categories** | **Categories[]** | *contains related product categories* |[optional]|
+**product_information** | **BaseMerchantAmazonProductInformationElementItem[]** | *contains related product information* |[optional]|
+**product_images_list** | **string[]** | *contains URLs for all images of the product displayed on the left side of the main image* |[optional]|
+**product_videos_list** | **string[]** | *contains URLs for all videos of the product displayed on the right side of the main video* |[optional]|
+**description** | **string** | *contains description of the product* |[optional]|
+**is_available** | **boolean** | *indicates whether the product is [available for ordering](https://www.amazon.com/gp/help/customer/display.html?nodeId=201910280)*. if the value is `true`, the product can be ordered |[optional]|
+**top_local_reviews** | **AmazonReviewItem[]** | *array of objects with top reviews from target location* |[optional]|
+**top_global_reviews** | **AmazonReviewItem[]** | *array of objects with top reviews from around the world* |[optional]|

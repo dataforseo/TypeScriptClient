@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **BacklinksBulkSpamScoreLiveResultInfo[]** | array of results |[optional]|
+**result** | **BacklinksBulkSpamScoreLiveResultInfo[]** | *array of results* |[optional]|

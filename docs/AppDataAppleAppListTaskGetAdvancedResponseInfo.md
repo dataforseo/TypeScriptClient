@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **AppDataAppleAppListTaskGetAdvancedTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **AppDataAppleAppListTaskGetAdvancedTaskInfo[]** | *array of tasks* |[optional]|

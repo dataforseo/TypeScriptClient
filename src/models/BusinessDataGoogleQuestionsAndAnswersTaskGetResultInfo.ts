@@ -3,40 +3,40 @@ import { GoogleBusinessQuestionItem, IGoogleBusinessQuestionItem } from "./Googl
 
 export interface IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo   {
         
-        /** keyword received in a POST array keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) this field will contain the cid parameter if you specified it in the keyword field when setting a task; example: cid:2946633002421908862 learn more about the parameter in this help center article */
+        /** *keyword received in a POST array* **keyword is returned with decoded %## (plus character '+' will be decoded to a space character)** this field will contain the `cid` parameter if you specified it in the `keyword` field when setting a task; example: `cid:2946633002421908862` learn more about the parameter in [this help center article](https://dataforseo.com/help-center/what-is-cid-place-id-feature-id) */
         keyword?: string | undefined
         
-        /** search engine domain as specified in a POST array */
+        /** *search engine domain as specified in a POST array* */
         se_domain?: string | undefined
         
-        /** location code in a POST array */
+        /** *location code in a POST array* */
         location_code?: number | undefined
         
-        /** language code in a POST array */
+        /** *language code in a POST array* */
         language_code?: string | undefined
         
-        /** direct URL to search engine results you can use it to make sure that we provided accurate results */
+        /** *direct URL to search engine results* you can use it to make sure that we provided accurate results */
         check_url?: string | undefined
         
-        /** date and time when the result was received in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
+        /** *date and time when the result was received* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
         datetime?: string | undefined
         
-        /** google-defined client id unique id of a local establishment; learn more about the identifier in this help center article */
+        /** *google-defined client id* unique id of a local establishment; learn more about the identifier in [this help center article](https://dataforseo.com/help-center/what-is-cid-place-id-feature-id) */
         cid?: string | undefined
         
-        /** unique identifier of the SERP feature */
+        /** *unique identifier of the SERP feature* */
         feature_id?: string | undefined
         
-        /** item types types of search engine results encountered in the items array; possible item types: google_business_question_item */
+        /** *item types* types of search engine results encountered in the `items` array; possible item types: `google_business_question_item` */
         item_types?: string[] | undefined
         
-        /** array of google business question items without answers */
+        /** *array of google business question items without answers* */
         items_without_answers?: GoogleBusinessQuestionItem[] | undefined
         
-        /** the number of items in the items array */
+        /** *the number of items in the `items` array* */
         items_count?: number | undefined
         
-        /** array of items within google_business_question_item contains answers to the google business questions; the maximum number of answers returned for each question: 5 possible item types google_business_answer_element */
+        /** *array of items within `google_business_question_item`* contains answers to the google business questions; the maximum number of answers returned for each question: `5`  possible item types `google_business_answer_element` */
         items?: GoogleBusinessQuestionItem[] | undefined
 
     [key: string]: any;
@@ -46,62 +46,62 @@ export interface IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo   {
 export class BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo  implements IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo {
 
     
-    /** keyword received in a POST array keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) this field will contain the cid parameter if you specified it in the keyword field when setting a task; example: cid:2946633002421908862 learn more about the parameter in this help center article */
+    /** *keyword received in a POST array* **keyword is returned with decoded %## (plus character '+' will be decoded to a space character)** this field will contain the `cid` parameter if you specified it in the `keyword` field when setting a task; example: `cid:2946633002421908862` learn more about the parameter in [this help center article](https://dataforseo.com/help-center/what-is-cid-place-id-feature-id) */
 
     keyword?: string | undefined;
 
     
-    /** search engine domain as specified in a POST array */
+    /** *search engine domain as specified in a POST array* */
 
     se_domain?: string | undefined;
 
     
-    /** location code in a POST array */
+    /** *location code in a POST array* */
 
     location_code?: number | undefined;
 
     
-    /** language code in a POST array */
+    /** *language code in a POST array* */
 
     language_code?: string | undefined;
 
     
-    /** direct URL to search engine results you can use it to make sure that we provided accurate results */
+    /** *direct URL to search engine results* you can use it to make sure that we provided accurate results */
 
     check_url?: string | undefined;
 
     
-    /** date and time when the result was received in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
+    /** *date and time when the result was received* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
 
     datetime?: string | undefined;
 
     
-    /** google-defined client id unique id of a local establishment; learn more about the identifier in this help center article */
+    /** *google-defined client id* unique id of a local establishment; learn more about the identifier in [this help center article](https://dataforseo.com/help-center/what-is-cid-place-id-feature-id) */
 
     cid?: string | undefined;
 
     
-    /** unique identifier of the SERP feature */
+    /** *unique identifier of the SERP feature* */
 
     feature_id?: string | undefined;
 
     
-    /** item types types of search engine results encountered in the items array; possible item types: google_business_question_item */
+    /** *item types* types of search engine results encountered in the `items` array; possible item types: `google_business_question_item` */
 
     item_types?: string[] | undefined;
 
     
-    /** array of google business question items without answers */
+    /** *array of google business question items without answers* */
 
     items_without_answers?: GoogleBusinessQuestionItem[] | undefined;
 
     
-    /** the number of items in the items array */
+    /** *the number of items in the `items` array* */
 
     items_count?: number | undefined;
 
     
-    /** array of items within google_business_question_item contains answers to the google business questions; the maximum number of answers returned for each question: 5 possible item types google_business_answer_element */
+    /** *array of items within `google_business_question_item`* contains answers to the google business questions; the maximum number of answers returned for each question: `5`  possible item types `google_business_answer_element` */
 
     items?: GoogleBusinessQuestionItem[] | undefined;
 

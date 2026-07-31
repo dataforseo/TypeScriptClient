@@ -1,9 +1,9 @@
 export interface IDataforseoLabsGoogleCategoriesForKeywordsLiveItem   {
         
-        /** keyword in a POST array */
+        /** *keyword in a POST array* */
         keyword?: string | undefined
         
-        /** product and service categories you can download the full list of possible categories */
+        /** *product and service categories* you can download [the full list of possible categories](https://cdn.dataforseo.com/v3/categories/categories_dataforseo_labs_2023_10_25.csv) */
         categories?: number[] | undefined
 
     [key: string]: any;
@@ -13,12 +13,12 @@ export interface IDataforseoLabsGoogleCategoriesForKeywordsLiveItem   {
 export class DataforseoLabsGoogleCategoriesForKeywordsLiveItem  implements IDataforseoLabsGoogleCategoriesForKeywordsLiveItem {
 
     
-    /** keyword in a POST array */
+    /** *keyword in a POST array* */
 
     keyword?: string | undefined;
 
     
-    /** product and service categories you can download the full list of possible categories */
+    /** *product and service categories* you can download [the full list of possible categories](https://cdn.dataforseo.com/v3/categories/categories_dataforseo_labs_2023_10_25.csv) */
 
     categories?: number[] | undefined;
 

@@ -3,7 +3,8 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface ISerpGoogleEventsTaskPostTaskInfo  extends IBaseResponseTaskInfo    {
         
-        result?: string | undefined
+        /** *array of results* in this case, the value will be `null` */
+        result?: any | undefined
 
     [key: string]: any;
 
@@ -11,7 +12,10 @@ export interface ISerpGoogleEventsTaskPostTaskInfo  extends IBaseResponseTaskInf
 
 export class SerpGoogleEventsTaskPostTaskInfo  extends BaseResponseTaskInfo   implements ISerpGoogleEventsTaskPostTaskInfo {
 
-    result?: string | undefined;
+    
+    /** *array of results* in this case, the value will be `null` */
+
+    result?: any | undefined;
 
     [key: string]: any;
 

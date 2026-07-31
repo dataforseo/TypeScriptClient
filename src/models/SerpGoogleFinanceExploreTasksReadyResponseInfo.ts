@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface ISerpGoogleFinanceExploreTasksReadyResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: SerpGoogleFinanceExploreTasksReadyTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface ISerpGoogleFinanceExploreTasksReadyResponseInfo  extends IBaseR
 export class SerpGoogleFinanceExploreTasksReadyResponseInfo  extends BaseResponseInfo   implements ISerpGoogleFinanceExploreTasksReadyResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: SerpGoogleFinanceExploreTasksReadyTaskInfo[] | undefined;
 

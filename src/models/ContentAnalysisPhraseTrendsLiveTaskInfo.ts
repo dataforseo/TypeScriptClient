@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IContentAnalysisPhraseTrendsLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: ContentAnalysisPhraseTrendsLiveResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IContentAnalysisPhraseTrendsLiveTaskInfo  extends IBaseResponse
 export class ContentAnalysisPhraseTrendsLiveTaskInfo  extends BaseResponseTaskInfo   implements IContentAnalysisPhraseTrendsLiveTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: ContentAnalysisPhraseTrendsLiveResultInfo[] | undefined;
 

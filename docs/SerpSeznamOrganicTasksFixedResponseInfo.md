@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpSeznamOrganicTasksFixedTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **SerpSeznamOrganicTasksFixedTaskInfo[]** | *array of tasks* |[optional]|

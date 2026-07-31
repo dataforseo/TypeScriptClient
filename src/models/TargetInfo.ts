@@ -1,24 +1,24 @@
 export interface ITargetInfo   {
         
-        /** server */
+        /** *server* */
         server?: string | undefined
         
-        /** content management system */
+        /** *content management system* */
         cms?: string | undefined
         
-        /** platform type */
+        /** *platform type* */
         platform_type?: string[] | undefined
         
-        /** IP address of the target */
+        /** *IP address of the `target`* */
         ip_address?: string | undefined
         
-        /** country code that the target domain is determined to belong to */
+        /** *country code that the `target` domain is determined to belong to* */
         country?: string | undefined
         
-        /** indicates if the target is IP if true, the domain, subdomain or webpage functions as an IP address and does not have a domain name */
+        /** *indicates if the `target` is IP* if `true`, the domain, subdomain or webpage functions as an IP address and does not have a domain name */
         is_ip?: boolean | undefined
         
-        /** spam score of the target if the target is a domain/subdomain, this fields indicates the average spam score of all pages of that domain/subdomain; learn more about how the metric is calculated on this help center page */
+        /** *spam score of the `target`* if the `target` is a domain/subdomain, this fields indicates the average spam score of all pages of that domain/subdomain; learn more about how the metric is calculated on [this help center page](https://dataforseo.com/help-center/what-is-spam-score-and-how-is-it-calculated) */
         target_spam_score?: number | undefined
 
     [key: string]: any;
@@ -28,37 +28,37 @@ export interface ITargetInfo   {
 export class TargetInfo  implements ITargetInfo {
 
     
-    /** server */
+    /** *server* */
 
     server?: string | undefined;
 
     
-    /** content management system */
+    /** *content management system* */
 
     cms?: string | undefined;
 
     
-    /** platform type */
+    /** *platform type* */
 
     platform_type?: string[] | undefined;
 
     
-    /** IP address of the target */
+    /** *IP address of the `target`* */
 
     ip_address?: string | undefined;
 
     
-    /** country code that the target domain is determined to belong to */
+    /** *country code that the `target` domain is determined to belong to* */
 
     country?: string | undefined;
 
     
-    /** indicates if the target is IP if true, the domain, subdomain or webpage functions as an IP address and does not have a domain name */
+    /** *indicates if the `target` is IP* if `true`, the domain, subdomain or webpage functions as an IP address and does not have a domain name */
 
     is_ip?: boolean | undefined;
 
     
-    /** spam score of the target if the target is a domain/subdomain, this fields indicates the average spam score of all pages of that domain/subdomain; learn more about how the metric is calculated on this help center page */
+    /** *spam score of the `target`* if the `target` is a domain/subdomain, this fields indicates the average spam score of all pages of that domain/subdomain; learn more about how the metric is calculated on [this help center page](https://dataforseo.com/help-center/what-is-spam-score-and-how-is-it-calculated) */
 
     target_spam_score?: number | undefined;
 

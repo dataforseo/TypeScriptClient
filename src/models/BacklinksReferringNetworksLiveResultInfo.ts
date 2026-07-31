@@ -3,16 +3,16 @@ import { BacklinksReferringNetworksLiveItem, IBacklinksReferringNetworksLiveItem
 
 export interface IBacklinksReferringNetworksLiveResultInfo   {
         
-        /** target in a POST array */
+        /** *`target` in a POST array* */
         target?: string | undefined
         
-        /** total number of relevant items in the database */
+        /** *total number of relevant items in the database* */
         total_count?: number | undefined
         
-        /** number of items in the items array */
+        /** *number of items in the `items` array* */
         items_count?: number | undefined
         
-        /** items array */
+        /** *items array* */
         items?: BacklinksReferringNetworksLiveItem[] | undefined
 
     [key: string]: any;
@@ -22,22 +22,22 @@ export interface IBacklinksReferringNetworksLiveResultInfo   {
 export class BacklinksReferringNetworksLiveResultInfo  implements IBacklinksReferringNetworksLiveResultInfo {
 
     
-    /** target in a POST array */
+    /** *`target` in a POST array* */
 
     target?: string | undefined;
 
     
-    /** total number of relevant items in the database */
+    /** *total number of relevant items in the database* */
 
     total_count?: number | undefined;
 
     
-    /** number of items in the items array */
+    /** *number of items in the `items` array* */
 
     items_count?: number | undefined;
 
     
-    /** items array */
+    /** *items array* */
 
     items?: BacklinksReferringNetworksLiveItem[] | undefined;
 

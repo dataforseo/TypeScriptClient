@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpGoogleDatasetSearchLiveAdvancedTaskInfo[]** |  |[optional]|
+**tasks** | **SerpGoogleDatasetSearchLiveAdvancedTaskInfo[]** | *array of tasks* |[optional]|

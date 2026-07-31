@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **MerchantAmazonAsinTaskGetAdvancedResultInfo[]** | array of results |[optional]|
+**result** | **MerchantAmazonAsinTaskGetAdvancedResultInfo[]** | *array of results* |[optional]|

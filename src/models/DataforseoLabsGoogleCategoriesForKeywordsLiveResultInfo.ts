@@ -3,13 +3,13 @@ import { DataforseoLabsGoogleCategoriesForKeywordsLiveItem, IDataforseoLabsGoogl
 
 export interface IDataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo   {
         
-        /** language code in a POST array if there is no data, then the value is null */
+        /** *language code in a POST array* if there is no data, then the value is_`null`n */
         language_code?: string | undefined
         
-        /** the number of results returned in the items array */
+        /** *the number of results returned in the `items` array* */
         items_count?: number | undefined
         
-        /** contains keywords and related keyword difficulty scores */
+        /** *contains keywords and related keyword difficulty scores* */
         items?: DataforseoLabsGoogleCategoriesForKeywordsLiveItem[] | undefined
 
     [key: string]: any;
@@ -19,17 +19,17 @@ export interface IDataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo   {
 export class DataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo  implements IDataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo {
 
     
-    /** language code in a POST array if there is no data, then the value is null */
+    /** *language code in a POST array* if there is no data, then the value is_`null`n */
 
     language_code?: string | undefined;
 
     
-    /** the number of results returned in the items array */
+    /** *the number of results returned in the `items` array* */
 
     items_count?: number | undefined;
 
     
-    /** contains keywords and related keyword difficulty scores */
+    /** *contains keywords and related keyword difficulty scores* */
 
     items?: DataforseoLabsGoogleCategoriesForKeywordsLiveItem[] | undefined;
 

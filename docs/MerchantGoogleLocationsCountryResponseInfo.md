@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **MerchantGoogleLocationsCountryTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **MerchantGoogleLocationsCountryTaskInfo[]** | *array of tasks* |[optional]|

@@ -8,91 +8,91 @@ export interface IAppStoreInfoOrganic   {
         /** type of element */
         type?: string | undefined
         
-        /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+        /** *position within a group of elements with identical `type` values* positions of elements with different `type` values are omitted from `rank_group` */
         rank_group?: number | undefined
         
-        /** absolute rank among all the listed apps absolute position among all apps on the list */
+        /** *absolute rank among all the listed apps* absolute position among all apps on the list */
         rank_absolute?: number | undefined
         
-        /** the alignment of the element in SERP can take the following values: left */
+        /** *the alignment of the element in SERP* can take the following values: `left` */
         position?: string | undefined
         
-        /** ID of the app */
+        /** *ID of the app* */
         app_id?: string | undefined
         
-        /** title of the app */
+        /** *title of the app* */
         title?: string | undefined
         
-        /** subtitle of the app */
+        /** *subtitle of the app* */
         subtitle?: string | undefined
         
-        /** URL to the app page on App Store */
+        /** *URL to the app page on App Store* */
         url?: string | undefined
         
-        /** URL to the app icon */
+        /** *URL to the app icon* */
         icon?: string | undefined
         
-        /** description of the app */
+        /** *description of the app* */
         description?: string | undefined
         
-        /** the total number of reviews of the app */
+        /** *the total number of reviews of the app* */
         reviews_count?: number | undefined
         
-        /** average rating of the app */
+        /** *average rating of the app* */
         rating?: RatingInfo | undefined
         
-        /** price of the app */
+        /** *price of the app* */
         price?: PriceInfo | undefined
         
-        /** indicates whether the app is free */
+        /** *indicates whether the app is free* */
         is_free?: boolean | undefined
         
-        /** main category/genre of the app */
+        /** *main category/genre of the app* */
         main_category?: string | undefined
         
-        /** all relevant categories/genres of the app Note: this field returns only one relevant category in the array */
+        /** *all relevant categories/genres of the app* **Note:** this field returns only one relevant category in the array */
         categories?: string[] | undefined
         
-        /** languages supported in the app Note: this field returns only one supported language in the array */
+        /** *languages supported in the app* **Note:** this field returns only one supported language in the array */
         languages?: string[] | undefined
         
-        /** age rating and age-based content advisories */
+        /** *age rating and age-based content advisories* */
         advisories?: string[] | undefined
         
-        /** name of the app developer */
+        /** *name of the app developer* */
         developer?: string | undefined
         
-        /** ID of the app developer */
+        /** *ID of the app developer* */
         developer_id?: string | undefined
         
-        /** URL to the developer page on App Store */
+        /** *URL to the developer page on App Store* */
         developer_url?: string | undefined
         
-        /** current version of the app */
+        /** *current version of the app* */
         version?: string | undefined
         
-        /** minimum OS version required to install the app */
+        /** *minimum OS version required to install the app* */
         minimum_os_version?: string | undefined
         
-        /** size of the app */
+        /** *size of the app* */
         size?: string | undefined
         
-        /** date and time when the app was released in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: 2019-11-15 12:57:46 +00:00 Note: this field is deprecated and always returns null */
+        /** *date and time when the app was released* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: `2019-11-15 12:57:46 +00:00` **Note:** this field is deprecated and always returns `null` */
         released_date?: string | undefined
         
-        /** date and time when the app was last updated in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: 2019-11-15 12:57:46 +00:00 */
+        /** *date and time when the app was last updated* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: `2019-11-15 12:57:46 +00:00` */
         last_update_date?: string | undefined
         
-        /** update notes contains the latest update notes from the developer */
+        /** *update notes* contains the latest update notes from the developer */
         update_notes?: string | undefined
         
-        /** app images contains URLs to the images used on the app page on App Store */
+        /** *app images* contains URLs to the images used on the app page on App Store */
         images?: string[] | undefined
         
-        /** similar apps displays apps similar to the app in a POST request */
+        /** *similar apps* displays apps similar to the app in a POST request */
         similar_apps?: AppsInfo[] | undefined
         
-        /** similar apps information about apps built by the same developer */
+        /** *similar apps* information about apps built by the same developer */
         more_apps_by_developer?: AppsInfo[] | undefined
 
     [key: string]: any;
@@ -107,147 +107,147 @@ export class AppStoreInfoOrganic  implements IAppStoreInfoOrganic {
     type?: string | undefined;
 
     
-    /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+    /** *position within a group of elements with identical `type` values* positions of elements with different `type` values are omitted from `rank_group` */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank among all the listed apps absolute position among all apps on the list */
+    /** *absolute rank among all the listed apps* absolute position among all apps on the list */
 
     rank_absolute?: number | undefined;
 
     
-    /** the alignment of the element in SERP can take the following values: left */
+    /** *the alignment of the element in SERP* can take the following values: `left` */
 
     position?: string | undefined;
 
     
-    /** ID of the app */
+    /** *ID of the app* */
 
     app_id?: string | undefined;
 
     
-    /** title of the app */
+    /** *title of the app* */
 
     title?: string | undefined;
 
     
-    /** subtitle of the app */
+    /** *subtitle of the app* */
 
     subtitle?: string | undefined;
 
     
-    /** URL to the app page on App Store */
+    /** *URL to the app page on App Store* */
 
     url?: string | undefined;
 
     
-    /** URL to the app icon */
+    /** *URL to the app icon* */
 
     icon?: string | undefined;
 
     
-    /** description of the app */
+    /** *description of the app* */
 
     description?: string | undefined;
 
     
-    /** the total number of reviews of the app */
+    /** *the total number of reviews of the app* */
 
     reviews_count?: number | undefined;
 
     
-    /** average rating of the app */
+    /** *average rating of the app* */
 
     rating?: RatingInfo | undefined;
 
     
-    /** price of the app */
+    /** *price of the app* */
 
     price?: PriceInfo | undefined;
 
     
-    /** indicates whether the app is free */
+    /** *indicates whether the app is free* */
 
     is_free?: boolean | undefined;
 
     
-    /** main category/genre of the app */
+    /** *main category/genre of the app* */
 
     main_category?: string | undefined;
 
     
-    /** all relevant categories/genres of the app Note: this field returns only one relevant category in the array */
+    /** *all relevant categories/genres of the app* **Note:** this field returns only one relevant category in the array */
 
     categories?: string[] | undefined;
 
     
-    /** languages supported in the app Note: this field returns only one supported language in the array */
+    /** *languages supported in the app* **Note:** this field returns only one supported language in the array */
 
     languages?: string[] | undefined;
 
     
-    /** age rating and age-based content advisories */
+    /** *age rating and age-based content advisories* */
 
     advisories?: string[] | undefined;
 
     
-    /** name of the app developer */
+    /** *name of the app developer* */
 
     developer?: string | undefined;
 
     
-    /** ID of the app developer */
+    /** *ID of the app developer* */
 
     developer_id?: string | undefined;
 
     
-    /** URL to the developer page on App Store */
+    /** *URL to the developer page on App Store* */
 
     developer_url?: string | undefined;
 
     
-    /** current version of the app */
+    /** *current version of the app* */
 
     version?: string | undefined;
 
     
-    /** minimum OS version required to install the app */
+    /** *minimum OS version required to install the app* */
 
     minimum_os_version?: string | undefined;
 
     
-    /** size of the app */
+    /** *size of the app* */
 
     size?: string | undefined;
 
     
-    /** date and time when the app was released in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: 2019-11-15 12:57:46 +00:00 Note: this field is deprecated and always returns null */
+    /** *date and time when the app was released* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: `2019-11-15 12:57:46 +00:00` **Note:** this field is deprecated and always returns `null` */
 
     released_date?: string | undefined;
 
     
-    /** date and time when the app was last updated in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: 2019-11-15 12:57:46 +00:00 */
+    /** *date and time when the app was last updated* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: `2019-11-15 12:57:46 +00:00` */
 
     last_update_date?: string | undefined;
 
     
-    /** update notes contains the latest update notes from the developer */
+    /** *update notes* contains the latest update notes from the developer */
 
     update_notes?: string | undefined;
 
     
-    /** app images contains URLs to the images used on the app page on App Store */
+    /** *app images* contains URLs to the images used on the app page on App Store */
 
     images?: string[] | undefined;
 
     
-    /** similar apps displays apps similar to the app in a POST request */
+    /** *similar apps* displays apps similar to the app in a POST request */
 
     similar_apps?: AppsInfo[] | undefined;
 
     
-    /** similar apps information about apps built by the same developer */
+    /** *similar apps* information about apps built by the same developer */
 
     more_apps_by_developer?: AppsInfo[] | undefined;
 

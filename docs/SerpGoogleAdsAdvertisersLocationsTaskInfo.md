@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpGoogleAdsAdvertisersLocationsResultInfo[]** | array of results |[optional]|
+**result** | **SerpGoogleAdsAdvertisersLocationsResultInfo[]** | *array of results* |[optional]|

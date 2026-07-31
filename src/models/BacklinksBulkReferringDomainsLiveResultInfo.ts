@@ -3,10 +3,10 @@ import { BacklinksBulkReferringDomainsLiveItem, IBacklinksBulkReferringDomainsLi
 
 export interface IBacklinksBulkReferringDomainsLiveResultInfo   {
         
-        /** the number of results returned in the items array */
+        /** *the number of results returned in the `items` array* */
         items_count?: number | undefined
         
-        /** contains relevant backlinks and referring domains data */
+        /** *contains relevant backlinks and referring domains data* */
         items?: BacklinksBulkReferringDomainsLiveItem[] | undefined
 
     [key: string]: any;
@@ -16,12 +16,12 @@ export interface IBacklinksBulkReferringDomainsLiveResultInfo   {
 export class BacklinksBulkReferringDomainsLiveResultInfo  implements IBacklinksBulkReferringDomainsLiveResultInfo {
 
     
-    /** the number of results returned in the items array */
+    /** *the number of results returned in the `items` array* */
 
     items_count?: number | undefined;
 
     
-    /** contains relevant backlinks and referring domains data */
+    /** *contains relevant backlinks and referring domains data* */
 
     items?: BacklinksBulkReferringDomainsLiveItem[] | undefined;
 

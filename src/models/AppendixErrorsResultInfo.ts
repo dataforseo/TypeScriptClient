@@ -1,9 +1,9 @@
 export interface IAppendixErrorsResultInfo   {
         
-        /** code */
+        /** *code* */
         code?: number | undefined
         
-        /** message */
+        /** *message* */
         message?: string | undefined
 
     [key: string]: any;
@@ -13,12 +13,12 @@ export interface IAppendixErrorsResultInfo   {
 export class AppendixErrorsResultInfo  implements IAppendixErrorsResultInfo {
 
     
-    /** code */
+    /** *code* */
 
     code?: number | undefined;
 
     
-    /** message */
+    /** *message* */
 
     message?: string | undefined;
 

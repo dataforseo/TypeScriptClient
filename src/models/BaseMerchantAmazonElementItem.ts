@@ -10,13 +10,13 @@ export interface IBaseMerchantAmazonElementItem   {
         /** type of element */
         type?: string | undefined
         
-        /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+        /** *position within a group of elements with identical `type` values* positions of elements with different `type` values are omitted from `rank_group` */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP absolute position among all the elements found in Amazon SERP */
+        /** *absolute rank in SERP* absolute position among all the elements found in Amazon SERP */
         rank_absolute?: number | undefined
         
-        /** the XPath of the element */
+        /** *the [XPath](https://en.wikipedia.org/wiki/XPath) of the element* */
         xpath?: string | undefined
 
     [key: string]: any;
@@ -31,17 +31,17 @@ export class BaseMerchantAmazonElementItem  implements IBaseMerchantAmazonElemen
     type?: string | undefined;
 
     
-    /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+    /** *position within a group of elements with identical `type` values* positions of elements with different `type` values are omitted from `rank_group` */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP absolute position among all the elements found in Amazon SERP */
+    /** *absolute rank in SERP* absolute position among all the elements found in Amazon SERP */
 
     rank_absolute?: number | undefined;
 
     
-    /** the XPath of the element */
+    /** *the [XPath](https://en.wikipedia.org/wiki/XPath) of the element* */
 
     xpath?: string | undefined;
 
@@ -131,49 +131,49 @@ export class BaseMerchantAmazonElementItem  implements IBaseMerchantAmazonElemen
  
 export interface IMerchantAmazonPaidSerpElementItem  extends IBaseMerchantAmazonElementItem    {
         
-        /** Amazon domain */
+        /** *Amazon domain* */
         domain?: string | undefined
         
-        /** product title */
+        /** *product title* */
         title?: string | undefined
         
-        /** the URL of the product page */
+        /** *the URL of the product page* */
         url?: string | undefined
         
-        /** URL of the product image featured in the results */
+        /** *URL of the product image featured in the results* */
         image_url?: string | undefined
         
-        /** number of product purchases in the past month */
+        /** *number of product purchases in the past month* */
         bought_past_month?: number | undefined
         
-        /** the regular price of a product example: 49.98 */
+        /** *the regular price of a product* example: `49.98` */
         price_from?: number | undefined
         
-        /** the upper limit of the product price range example: 384.99 */
+        /** *the upper limit of the product price range* example: `384.99` */
         price_to?: number | undefined
         
-        /** currency in the ISO format example: USD */
+        /** *currency in the [ISO](https://en.wikipedia.org/wiki/ISO_4217) format* example: `USD` */
         currency?: string | undefined
         
-        /** special offer details contains special offer details, including coupon and Subscribe & Save discounts */
+        /** *special offer details* contains special offer details, including coupon and Subscribe & Save discounts */
         special_offers?: string[] | undefined
         
-        /** unique product identifier on Amazon note that there is no full list of possible values as the data_asin is a dynamic value assigned by Amazon example: B07G82D89J */
+        /** *unique product identifier on Amazon* note that there is no full list of possible values as the `data_asin` is a dynamic value assigned by Amazon example: `B07G82D89J` */
         data_asin?: string | undefined
         
-        /** product rating info */
+        /** *product rating info* */
         rating?: RatingElement | undefined
         
-        /** “Amazon’s choice” label if the value is true, the product is marked with the “Amazon’s choice” label */
+        /** *'Amazon's choice' label* if the value is `true`, the product is marked with the 'Amazon's choice' label */
         is_amazon_choice?: boolean | undefined
         
-        /** “Best Seller” label if the value is true, the product is marked with the “Best Seller” label */
+        /** *'Best Seller' label* if the value is `true`, the product is marked with the 'Best Seller' label */
         is_best_seller?: boolean | undefined
         
-        /** delivery information delivery information including free and fast delivery date ranges */
+        /** *delivery information* delivery information including free and fast delivery date ranges */
         delivery_info?: AmazonDeliveryInfo | undefined
         
-        /** product labels array containing an object with main Amazon labels’ information if the product contains no labels, the value will be null */
+        /** *product labels* array containing an object with main Amazon labels’ information if the product contains no labels, the value will be `null` */
         labels?: AmazonLabelElement[] | undefined
 
     [key: string]: any;
@@ -183,77 +183,77 @@ export interface IMerchantAmazonPaidSerpElementItem  extends IBaseMerchantAmazon
 export class MerchantAmazonPaidSerpElementItem  extends BaseMerchantAmazonElementItem   implements IMerchantAmazonPaidSerpElementItem {
 
     
-    /** Amazon domain */
+    /** *Amazon domain* */
 
     domain?: string | undefined;
 
     
-    /** product title */
+    /** *product title* */
 
     title?: string | undefined;
 
     
-    /** the URL of the product page */
+    /** *the URL of the product page* */
 
     url?: string | undefined;
 
     
-    /** URL of the product image featured in the results */
+    /** *URL of the product image featured in the results* */
 
     image_url?: string | undefined;
 
     
-    /** number of product purchases in the past month */
+    /** *number of product purchases in the past month* */
 
     bought_past_month?: number | undefined;
 
     
-    /** the regular price of a product example: 49.98 */
+    /** *the regular price of a product* example: `49.98` */
 
     price_from?: number | undefined;
 
     
-    /** the upper limit of the product price range example: 384.99 */
+    /** *the upper limit of the product price range* example: `384.99` */
 
     price_to?: number | undefined;
 
     
-    /** currency in the ISO format example: USD */
+    /** *currency in the [ISO](https://en.wikipedia.org/wiki/ISO_4217) format* example: `USD` */
 
     currency?: string | undefined;
 
     
-    /** special offer details contains special offer details, including coupon and Subscribe & Save discounts */
+    /** *special offer details* contains special offer details, including coupon and Subscribe & Save discounts */
 
     special_offers?: string[] | undefined;
 
     
-    /** unique product identifier on Amazon note that there is no full list of possible values as the data_asin is a dynamic value assigned by Amazon example: B07G82D89J */
+    /** *unique product identifier on Amazon* note that there is no full list of possible values as the `data_asin` is a dynamic value assigned by Amazon example: `B07G82D89J` */
 
     data_asin?: string | undefined;
 
     
-    /** product rating info */
+    /** *product rating info* */
 
     rating?: RatingElement | undefined;
 
     
-    /** “Amazon’s choice” label if the value is true, the product is marked with the “Amazon’s choice” label */
+    /** *'Amazon's choice' label* if the value is `true`, the product is marked with the 'Amazon's choice' label */
 
     is_amazon_choice?: boolean | undefined;
 
     
-    /** “Best Seller” label if the value is true, the product is marked with the “Best Seller” label */
+    /** *'Best Seller' label* if the value is `true`, the product is marked with the 'Best Seller' label */
 
     is_best_seller?: boolean | undefined;
 
     
-    /** delivery information delivery information including free and fast delivery date ranges */
+    /** *delivery information* delivery information including free and fast delivery date ranges */
 
     delivery_info?: AmazonDeliveryInfo | undefined;
 
     
-    /** product labels array containing an object with main Amazon labels’ information if the product contains no labels, the value will be null */
+    /** *product labels* array containing an object with main Amazon labels’ information if the product contains no labels, the value will be `null` */
 
     labels?: AmazonLabelElement[] | undefined;
 
@@ -341,49 +341,49 @@ export class MerchantAmazonPaidSerpElementItem  extends BaseMerchantAmazonElemen
  
 export interface IMerchantAmazonSerpSerpElementItem  extends IBaseMerchantAmazonElementItem    {
         
-        /** Amazon domain */
+        /** *Amazon domain* */
         domain?: string | undefined
         
-        /** product title */
+        /** *product title* */
         title?: string | undefined
         
-        /** the URL of the product page */
+        /** *the URL of the product page* */
         url?: string | undefined
         
-        /** URL of the product image featured in the results */
+        /** *URL of the product image featured in the results* */
         image_url?: string | undefined
         
-        /** number of product purchases in the past month */
+        /** *number of product purchases in the past month* */
         bought_past_month?: number | undefined
         
-        /** the regular price of a product example: 49.98 */
+        /** *the regular price of a product* example: `49.98` */
         price_from?: number | undefined
         
-        /** the upper limit of the product price range example: 384.99 */
+        /** *the upper limit of the product price range* example: `384.99` */
         price_to?: number | undefined
         
-        /** currency in the ISO format example: USD */
+        /** *currency in the [ISO](https://en.wikipedia.org/wiki/ISO_4217) format* example: `USD` */
         currency?: string | undefined
         
-        /** special offer details contains special offer details, including coupon and Subscribe & Save discounts */
+        /** *special offer details* contains special offer details, including coupon and Subscribe & Save discounts */
         special_offers?: string[] | undefined
         
-        /** unique product identifier on Amazon note that there is no full list of possible values as the data_asin is a dynamic value assigned by Amazon example: B07G82D89J */
+        /** *unique product identifier on Amazon* note that there is no full list of possible values as the `data_asin` is a dynamic value assigned by Amazon example: `B07G82D89J` */
         data_asin?: string | undefined
         
-        /** product rating info */
+        /** *product rating info* */
         rating?: RatingElement | undefined
         
-        /** “Amazon’s choice” label if the value is true, the product is marked with the “Amazon’s choice” label */
+        /** *'Amazon's choice' label* if the value is `true`, the product is marked with the 'Amazon's choice' label */
         is_amazon_choice?: boolean | undefined
         
-        /** “Best Seller” label if the value is true, the product is marked with the “Best Seller” label */
+        /** *'Best Seller' label* if the value is `true`, the product is marked with the 'Best Seller' label */
         is_best_seller?: boolean | undefined
         
-        /** delivery information delivery information including free and fast delivery date ranges */
+        /** *delivery information* delivery information including free and fast delivery date ranges */
         delivery_info?: AmazonDeliveryInfo | undefined
         
-        /** product labels array containing an object with main Amazon labels’ information if the product contains no labels, the value will be null */
+        /** *product labels* array containing an object with main Amazon labels’ information if the product contains no labels, the value will be `null` */
         labels?: AmazonLabelElement[] | undefined
 
     [key: string]: any;
@@ -393,77 +393,77 @@ export interface IMerchantAmazonSerpSerpElementItem  extends IBaseMerchantAmazon
 export class MerchantAmazonSerpSerpElementItem  extends BaseMerchantAmazonElementItem   implements IMerchantAmazonSerpSerpElementItem {
 
     
-    /** Amazon domain */
+    /** *Amazon domain* */
 
     domain?: string | undefined;
 
     
-    /** product title */
+    /** *product title* */
 
     title?: string | undefined;
 
     
-    /** the URL of the product page */
+    /** *the URL of the product page* */
 
     url?: string | undefined;
 
     
-    /** URL of the product image featured in the results */
+    /** *URL of the product image featured in the results* */
 
     image_url?: string | undefined;
 
     
-    /** number of product purchases in the past month */
+    /** *number of product purchases in the past month* */
 
     bought_past_month?: number | undefined;
 
     
-    /** the regular price of a product example: 49.98 */
+    /** *the regular price of a product* example: `49.98` */
 
     price_from?: number | undefined;
 
     
-    /** the upper limit of the product price range example: 384.99 */
+    /** *the upper limit of the product price range* example: `384.99` */
 
     price_to?: number | undefined;
 
     
-    /** currency in the ISO format example: USD */
+    /** *currency in the [ISO](https://en.wikipedia.org/wiki/ISO_4217) format* example: `USD` */
 
     currency?: string | undefined;
 
     
-    /** special offer details contains special offer details, including coupon and Subscribe & Save discounts */
+    /** *special offer details* contains special offer details, including coupon and Subscribe & Save discounts */
 
     special_offers?: string[] | undefined;
 
     
-    /** unique product identifier on Amazon note that there is no full list of possible values as the data_asin is a dynamic value assigned by Amazon example: B07G82D89J */
+    /** *unique product identifier on Amazon* note that there is no full list of possible values as the `data_asin` is a dynamic value assigned by Amazon example: `B07G82D89J` */
 
     data_asin?: string | undefined;
 
     
-    /** product rating info */
+    /** *product rating info* */
 
     rating?: RatingElement | undefined;
 
     
-    /** “Amazon’s choice” label if the value is true, the product is marked with the “Amazon’s choice” label */
+    /** *'Amazon's choice' label* if the value is `true`, the product is marked with the 'Amazon's choice' label */
 
     is_amazon_choice?: boolean | undefined;
 
     
-    /** “Best Seller” label if the value is true, the product is marked with the “Best Seller” label */
+    /** *'Best Seller' label* if the value is `true`, the product is marked with the 'Best Seller' label */
 
     is_best_seller?: boolean | undefined;
 
     
-    /** delivery information delivery information including free and fast delivery date ranges */
+    /** *delivery information* delivery information including free and fast delivery date ranges */
 
     delivery_info?: AmazonDeliveryInfo | undefined;
 
     
-    /** product labels array containing an object with main Amazon labels’ information if the product contains no labels, the value will be null */
+    /** *product labels* array containing an object with main Amazon labels’ information if the product contains no labels, the value will be `null` */
 
     labels?: AmazonLabelElement[] | undefined;
 
@@ -551,10 +551,10 @@ export class MerchantAmazonSerpSerpElementItem  extends BaseMerchantAmazonElemen
  
 export interface IMerchantEditorialRecommendationsSerpElementItem  extends IBaseMerchantAmazonElementItem    {
         
-        /** the alignment of the element in Amazon SERP possible values: left, right */
+        /** *the alignment of the element in Amazon SERP* possible values: `left`, `right` */
         position?: string | undefined
         
-        /** Amazon product items */
+        /** *Amazon product items* */
         items?: AmazonSerpElement[] | undefined
 
     [key: string]: any;
@@ -564,12 +564,12 @@ export interface IMerchantEditorialRecommendationsSerpElementItem  extends IBase
 export class MerchantEditorialRecommendationsSerpElementItem  extends BaseMerchantAmazonElementItem   implements IMerchantEditorialRecommendationsSerpElementItem {
 
     
-    /** the alignment of the element in Amazon SERP possible values: left, right */
+    /** *the alignment of the element in Amazon SERP* possible values: `left`, `right` */
 
     position?: string | undefined;
 
     
-    /** Amazon product items */
+    /** *Amazon product items* */
 
     items?: AmazonSerpElement[] | undefined;
 
@@ -631,10 +631,10 @@ export class MerchantEditorialRecommendationsSerpElementItem  extends BaseMercha
  
 export interface IMerchantRelatedSearchesSerpElementItem  extends IBaseMerchantAmazonElementItem    {
         
-        /** the alignment of the element in Amazon SERP possible values: left, right */
+        /** *the alignment of the element in Amazon SERP* possible values: `left`, `right` */
         position?: string | undefined
         
-        /** Amazon product items */
+        /** *Amazon product items* */
         items?: RelatedSearchesElement[] | undefined
 
     [key: string]: any;
@@ -644,12 +644,12 @@ export interface IMerchantRelatedSearchesSerpElementItem  extends IBaseMerchantA
 export class MerchantRelatedSearchesSerpElementItem  extends BaseMerchantAmazonElementItem   implements IMerchantRelatedSearchesSerpElementItem {
 
     
-    /** the alignment of the element in Amazon SERP possible values: left, right */
+    /** *the alignment of the element in Amazon SERP* possible values: `left`, `right` */
 
     position?: string | undefined;
 
     
-    /** Amazon product items */
+    /** *Amazon product items* */
 
     items?: RelatedSearchesElement[] | undefined;
 
@@ -711,10 +711,10 @@ export class MerchantRelatedSearchesSerpElementItem  extends BaseMerchantAmazonE
  
 export interface IMerchantTopRatedFromOurBrandsSerpElementItem  extends IBaseMerchantAmazonElementItem    {
         
-        /** the alignment of the element in Amazon SERP possible values: left, right */
+        /** *the alignment of the element in Amazon SERP* possible values: `left`, `right` */
         position?: string | undefined
         
-        /** Amazon product items */
+        /** *Amazon product items* */
         items?: AmazonSerpElement[] | undefined
 
     [key: string]: any;
@@ -724,12 +724,12 @@ export interface IMerchantTopRatedFromOurBrandsSerpElementItem  extends IBaseMer
 export class MerchantTopRatedFromOurBrandsSerpElementItem  extends BaseMerchantAmazonElementItem   implements IMerchantTopRatedFromOurBrandsSerpElementItem {
 
     
-    /** the alignment of the element in Amazon SERP possible values: left, right */
+    /** *the alignment of the element in Amazon SERP* possible values: `left`, `right` */
 
     position?: string | undefined;
 
     
-    /** Amazon product items */
+    /** *Amazon product items* */
 
     items?: AmazonSerpElement[] | undefined;
 

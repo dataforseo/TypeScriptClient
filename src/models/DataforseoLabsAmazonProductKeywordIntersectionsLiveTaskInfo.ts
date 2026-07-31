@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IDataforseoLabsAmazonProductKeywordIntersectionsLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IDataforseoLabsAmazonProductKeywordIntersectionsLiveTaskInfo  e
 export class DataforseoLabsAmazonProductKeywordIntersectionsLiveTaskInfo  extends BaseResponseTaskInfo   implements IDataforseoLabsAmazonProductKeywordIntersectionsLiveTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo[] | undefined;
 

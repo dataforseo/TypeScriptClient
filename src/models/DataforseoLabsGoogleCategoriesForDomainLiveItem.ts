@@ -3,13 +3,13 @@ import { DataforseoLabsMetricsInfo, IDataforseoLabsMetricsInfo } from "./Datafor
 
 export interface IDataforseoLabsGoogleCategoriesForDomainLiveItem   {
         
-        /** search engine type */
+        /** *search engine type* */
         se_type?: string | undefined
         
-        /** product and service categories you can download the full list of possible categories */
+        /** *product and service categories* you can download [the full list of possible categories](https://cdn.dataforseo.com/v3/categories/categories_dataforseo_labs_2023_10_25.csv) */
         categories?: number[] | undefined
         
-        /** ranking data relevant to the specified domain or subdomain */
+        /** *ranking data relevant to the specified domain or subdomain* */
         metrics?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined
 
     [key: string]: any;
@@ -19,17 +19,17 @@ export interface IDataforseoLabsGoogleCategoriesForDomainLiveItem   {
 export class DataforseoLabsGoogleCategoriesForDomainLiveItem  implements IDataforseoLabsGoogleCategoriesForDomainLiveItem {
 
     
-    /** search engine type */
+    /** *search engine type* */
 
     se_type?: string | undefined;
 
     
-    /** product and service categories you can download the full list of possible categories */
+    /** *product and service categories* you can download [the full list of possible categories](https://cdn.dataforseo.com/v3/categories/categories_dataforseo_labs_2023_10_25.csv) */
 
     categories?: number[] | undefined;
 
     
-    /** ranking data relevant to the specified domain or subdomain */
+    /** *ranking data relevant to the specified domain or subdomain* */
 
     metrics?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined;
 

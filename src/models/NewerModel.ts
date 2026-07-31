@@ -1,9 +1,9 @@
 export interface INewerModel   {
         
-        /** product title */
+        /** *product title* */
         title?: string | undefined
         
-        /** ASIN of the newer product model */
+        /** *ASIN of the newer product model* */
         newer_model_asin?: string | undefined
 
     [key: string]: any;
@@ -13,12 +13,12 @@ export interface INewerModel   {
 export class NewerModel  implements INewerModel {
 
     
-    /** product title */
+    /** *product title* */
 
     title?: string | undefined;
 
     
-    /** ASIN of the newer product model */
+    /** *ASIN of the newer product model* */
 
     newer_model_asin?: string | undefined;
 

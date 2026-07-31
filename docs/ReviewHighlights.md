@@ -4,5 +4,5 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**feature** | **string** | reviewed feature |[optional]|
-**assessment** | **string** | feature assessment |[optional]|
+**feature** | **string** | *reviewed feature* |[optional]|
+**assessment** | **string** | *feature assessment* |[optional]|

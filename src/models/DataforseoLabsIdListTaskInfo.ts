@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IDataforseoLabsIdListTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: DataforseoLabsIdListResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IDataforseoLabsIdListTaskInfo  extends IBaseResponseTaskInfo   
 export class DataforseoLabsIdListTaskInfo  extends BaseResponseTaskInfo   implements IDataforseoLabsIdListTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: DataforseoLabsIdListResultInfo[] | undefined;
 

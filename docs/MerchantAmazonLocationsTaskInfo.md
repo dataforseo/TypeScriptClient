@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **MerchantAmazonLocationsResultInfo[]** | array of results |[optional]|
+**result** | **MerchantAmazonLocationsResultInfo[]** | *array of results* |[optional]|

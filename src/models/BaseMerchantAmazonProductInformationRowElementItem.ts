@@ -76,10 +76,10 @@ export class BaseMerchantAmazonProductInformationRowElementItem  implements IBas
  
 export interface IProductInformationRowProductInformationImageRowElementItem  extends IBaseMerchantAmazonProductInformationRowElementItem    {
         
-        /** alternative text of the related product image */
+        /** *alternative text of the related product image* */
         alt?: string | undefined
         
-        /** URL of the image */
+        /** *URL of the image* */
         url?: string | undefined
 
     [key: string]: any;
@@ -89,12 +89,12 @@ export interface IProductInformationRowProductInformationImageRowElementItem  ex
 export class ProductInformationRowProductInformationImageRowElementItem  extends BaseMerchantAmazonProductInformationRowElementItem   implements IProductInformationRowProductInformationImageRowElementItem {
 
     
-    /** alternative text of the related product image */
+    /** *alternative text of the related product image* */
 
     alt?: string | undefined;
 
     
-    /** URL of the image */
+    /** *URL of the image* */
 
     url?: string | undefined;
 
@@ -143,7 +143,7 @@ export class ProductInformationRowProductInformationImageRowElementItem  extends
  
 export interface IProductInformationRowProductInformationTextRowElementItem  extends IBaseMerchantAmazonProductInformationRowElementItem    {
         
-        /** text of the voucher */
+        /** *text of the voucher* */
         text?: string | undefined
 
     [key: string]: any;
@@ -153,7 +153,7 @@ export interface IProductInformationRowProductInformationTextRowElementItem  ext
 export class ProductInformationRowProductInformationTextRowElementItem  extends BaseMerchantAmazonProductInformationRowElementItem   implements IProductInformationRowProductInformationTextRowElementItem {
 
     
-    /** text of the voucher */
+    /** *text of the voucher* */
 
     text?: string | undefined;
 

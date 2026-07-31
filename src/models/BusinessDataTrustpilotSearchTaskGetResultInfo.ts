@@ -3,22 +3,22 @@ import { TrustpilotSearchOrganic, ITrustpilotSearchOrganic } from "./TrustpilotS
 
 export interface IBusinessDataTrustpilotSearchTaskGetResultInfo   {
         
-        /** keyword in a POST array */
+        /** *keyword in a POST array* */
         keyword?: string | undefined
         
-        /** search engine domain in a POST array */
+        /** *search engine domain in a POST array* */
         se_domain?: string | undefined
         
-        /** direct URL to search engine results you can use it to make sure that we provided accurate results */
+        /** *direct URL to search engine results* you can use it to make sure that we provided accurate results */
         check_url?: string | undefined
         
-        /** date and time when the result was received in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
+        /** *date and time when the result was received* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
         datetime?: string | undefined
         
-        /** the number of items in the results array you can get more results by using the depth parameter when setting a task */
+        /** *the number of items in the results array* you can get more results by using the `depth` parameter when setting a task */
         items_count?: number | undefined
         
-        /** found reviews you can get more results by using the depth parameter when setting a task */
+        /** *found reviews* you can get more results by using the `depth` parameter when setting a task */
         items?: TrustpilotSearchOrganic[] | undefined
 
     [key: string]: any;
@@ -28,32 +28,32 @@ export interface IBusinessDataTrustpilotSearchTaskGetResultInfo   {
 export class BusinessDataTrustpilotSearchTaskGetResultInfo  implements IBusinessDataTrustpilotSearchTaskGetResultInfo {
 
     
-    /** keyword in a POST array */
+    /** *keyword in a POST array* */
 
     keyword?: string | undefined;
 
     
-    /** search engine domain in a POST array */
+    /** *search engine domain in a POST array* */
 
     se_domain?: string | undefined;
 
     
-    /** direct URL to search engine results you can use it to make sure that we provided accurate results */
+    /** *direct URL to search engine results* you can use it to make sure that we provided accurate results */
 
     check_url?: string | undefined;
 
     
-    /** date and time when the result was received in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
+    /** *date and time when the result was received* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
 
     datetime?: string | undefined;
 
     
-    /** the number of items in the results array you can get more results by using the depth parameter when setting a task */
+    /** *the number of items in the results array* you can get more results by using the `depth` parameter when setting a task */
 
     items_count?: number | undefined;
 
     
-    /** found reviews you can get more results by using the depth parameter when setting a task */
+    /** *found reviews* you can get more results by using the `depth` parameter when setting a task */
 
     items?: TrustpilotSearchOrganic[] | undefined;
 

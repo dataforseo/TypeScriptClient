@@ -6,13 +6,13 @@ export interface IHotelPriceItemInfo   {
         /** type of element */
         type?: string | undefined
         
-        /** title of the hotel */
+        /** *title of the hotel* */
         title?: string | undefined
         
-        /** price per night */
+        /** *price per night* */
         price?: number | undefined
         
-        /** price currency USD is applied by default, unless specified in the POST array */
+        /** *price currency* `USD` is applied by default, unless specified in the POST array */
         currency?: string | undefined
         
         /** third-party page url URL to the third-party website page with pricing information */
@@ -21,7 +21,7 @@ export interface IHotelPriceItemInfo   {
         /** third-party domain domain of the third-party website page with pricing information */
         domain?: string | undefined
         
-        /** indicates a paid hotel listing if true, related hotel_search_item is a paid ad if false, related hotel_search_item is an organic hotel listing */
+        /** *indicates a paid hotel listing* if `true`, related `hotel_search_item` is a paid ad if `false`, related `hotel_search_item` is an organic hotel listing */
         is_paid?: boolean | undefined
         
         official_site?: boolean | undefined
@@ -43,17 +43,17 @@ export class HotelPriceItemInfo  implements IHotelPriceItemInfo {
     type?: string | undefined;
 
     
-    /** title of the hotel */
+    /** *title of the hotel* */
 
     title?: string | undefined;
 
     
-    /** price per night */
+    /** *price per night* */
 
     price?: number | undefined;
 
     
-    /** price currency USD is applied by default, unless specified in the POST array */
+    /** *price currency* `USD` is applied by default, unless specified in the POST array */
 
     currency?: string | undefined;
 
@@ -68,7 +68,7 @@ export class HotelPriceItemInfo  implements IHotelPriceItemInfo {
     domain?: string | undefined;
 
     
-    /** indicates a paid hotel listing if true, related hotel_search_item is a paid ad if false, related hotel_search_item is an organic hotel listing */
+    /** *indicates a paid hotel listing* if `true`, related `hotel_search_item` is a paid ad if `false`, related `hotel_search_item` is an organic hotel listing */
 
     is_paid?: boolean | undefined;
 

@@ -1,30 +1,30 @@
 export interface IAppDataGoogleAppListingsSearchLiveRequestInfo   {
         
-        /** app categories optional field the categories you specify are used to search for app listings; you can get the full list of available app listing categories by this link you can specify up to 10 categories */
+        /** *app categories* optional field the categories you specify are used to search for app listings; you can get the full list of available app listing categories by [this link](http://docs.dataforseo.com/v3/app_data/google/app_listings/categories) you can specify **up to 10 categories** */
         categories?: string[] | undefined
         
-        /** keyword in the app’s description optional field keywords that occur in the description of the app; can contain up to 200 characters */
+        /** *keyword in the app's description* optional field keywords that occur in the description of the app; can contain up to 200 characters */
         description?: string | undefined
         
-        /** keyword in the app’s title optional field keywords that occur in the title of the app; can contain up to 200 characters */
+        /** *keyword in the app's title* optional field keywords that occur in the title of the app; can contain up to 200 characters */
         title?: string | undefined
         
-        /** array of results filtering parameters optional field you can add several filters at once (8 filters maximum) you should set a logical operator and, or between the conditions the following operators are supported: regex, not_regex, , >=, =, <>, in, not_in, like, not_like you can use the % operator with like and not_like to match any string of zero or more characters example: ['item.rating.value','>',3] you can receive the list of available filters by making a separate request to https://api.dataforseo.com/v3/app_data/google/app_listings/available_filters */
+        /** *array of results filtering parameters* optional field **you can add several filters at once (8 filters maximum)** you should set a logical operator `and`, `or` between the conditions the following operators are supported: `regex`, `not_regex`, ``, `>=`, `=`, `<>`, `in`, `not_in`, `like`, `not_like` you can use the `%` operator with `like` and `not_like` to match any string of zero or more characters example: `['item.rating.value','>',3]` you can receive the list of available filters_by making a separate request to `https://api.dataforseo.com/v3/app_data/google/app_listings/available_filters` */
         filters?: any[] | undefined
         
-        /** results sorting rules optional field you can use the same values as in the filters array to sort the results possible sorting types: asc – results will be sorted in the ascending order desc – results will be sorted in the descending order you should use a comma to set up a sorting parameter example: ['item.installs_count,asc'] note that you can set no more than three sorting rules in a single request you should use a comma to separate several sorting rules example: ['item.rating.value,desc','item.installs_count,asc'] */
+        /** *results sorting rules* optional field you can use the same values as in the `filters` array to sort the results possible sorting types: `asc` - results will be sorted in the ascending order `desc` - results will be sorted in the descending order you should use a comma to set up a sorting parameter example: `['item.installs_count,asc']` **note that you can set no more than three sorting rules in a single request** you should use a comma to separate several sorting rules example: `['item.rating.value,desc','item.installs_count,asc']` */
         order_by?: string[] | undefined
         
-        /** the maximum number of returned apps optional field default value: 100 maximum value: 1000 */
+        /** *the maximum number of returned apps* optional field default value: `100` maximum value: `1000` */
         limit?: number | undefined
         
-        /** offset in the results array of returned apps optional field default value: 0 if you specify the 10 value, the first ten entities in the results array will be omitted and the data will be provided for the successive entities Note: we recommend using this parameter only when retrieving up to 10,000 results for retrieving over 10,000 results, use the offset_token instead. */
+        /** *offset in the results array of returned apps* optional field default value: `0` if you specify the `10` value, the first ten entities in the results array will be omitted and the data will be provided for the successive entities **Note:** we recommend using this parameter only when retrieving up to 10,000 results for retrieving over 10,000 results, use the `offset_token` instead. */
         offset?: number | undefined
         
-        /** token for subsequent requests optional field provided in the identical filed of the response to each request; use this parameter to avoid timeouts while trying to obtain over 100,000 results in a single request; by specifying the unique offset_token value from the response array, you will get the subsequent results of the initial task; offset_token values are unique for each subsequent task Note: if the offset_token is specified in the request, all other parameters should be identical to the previous request learn more about this parameter on our Help Center */
+        /** *token for subsequent requests* optional field provided in the identical filed of the response to each request; use this parameter to avoid timeouts while trying to obtain over 100,000 results in a single request; by specifying the unique `offset_token` value from the response array, you will get the subsequent results of the initial task; `offset_token` values are unique for each subsequent task  **Note:** if the `offset_token` is specified in the request, all other parameters should be identical to the previous request learn more about this parameter on our [Help Center](https://dataforseo.com/help-center/what-is-the-difference-between-the-offset-and-offset_token-parameters#offset_token) */
         offset_token?: string | undefined
         
-        /** user-defined task identifier optional field the character limit is 255 you can use this parameter to identify the task and match it with the result you will find the specified tag value in the data object of the response */
+        /** *user-defined task identifier* optional field *the character limit is 255* you can use this parameter to identify the task and match it with the result you will find the specified `tag` value in the `data` object of the response */
         tag?: string | undefined
 
     [key: string]: any;
@@ -34,47 +34,47 @@ export interface IAppDataGoogleAppListingsSearchLiveRequestInfo   {
 export class AppDataGoogleAppListingsSearchLiveRequestInfo  implements IAppDataGoogleAppListingsSearchLiveRequestInfo {
 
     
-    /** app categories optional field the categories you specify are used to search for app listings; you can get the full list of available app listing categories by this link you can specify up to 10 categories */
+    /** *app categories* optional field the categories you specify are used to search for app listings; you can get the full list of available app listing categories by [this link](http://docs.dataforseo.com/v3/app_data/google/app_listings/categories) you can specify **up to 10 categories** */
 
     categories?: string[] | undefined;
 
     
-    /** keyword in the app’s description optional field keywords that occur in the description of the app; can contain up to 200 characters */
+    /** *keyword in the app's description* optional field keywords that occur in the description of the app; can contain up to 200 characters */
 
     description?: string | undefined;
 
     
-    /** keyword in the app’s title optional field keywords that occur in the title of the app; can contain up to 200 characters */
+    /** *keyword in the app's title* optional field keywords that occur in the title of the app; can contain up to 200 characters */
 
     title?: string | undefined;
 
     
-    /** array of results filtering parameters optional field you can add several filters at once (8 filters maximum) you should set a logical operator and, or between the conditions the following operators are supported: regex, not_regex, , >=, =, <>, in, not_in, like, not_like you can use the % operator with like and not_like to match any string of zero or more characters example: ['item.rating.value','>',3] you can receive the list of available filters by making a separate request to https://api.dataforseo.com/v3/app_data/google/app_listings/available_filters */
+    /** *array of results filtering parameters* optional field **you can add several filters at once (8 filters maximum)** you should set a logical operator `and`, `or` between the conditions the following operators are supported: `regex`, `not_regex`, ``, `>=`, `=`, `<>`, `in`, `not_in`, `like`, `not_like` you can use the `%` operator with `like` and `not_like` to match any string of zero or more characters example: `['item.rating.value','>',3]` you can receive the list of available filters_by making a separate request to `https://api.dataforseo.com/v3/app_data/google/app_listings/available_filters` */
 
     filters?: any[] | undefined;
 
     
-    /** results sorting rules optional field you can use the same values as in the filters array to sort the results possible sorting types: asc – results will be sorted in the ascending order desc – results will be sorted in the descending order you should use a comma to set up a sorting parameter example: ['item.installs_count,asc'] note that you can set no more than three sorting rules in a single request you should use a comma to separate several sorting rules example: ['item.rating.value,desc','item.installs_count,asc'] */
+    /** *results sorting rules* optional field you can use the same values as in the `filters` array to sort the results possible sorting types: `asc` - results will be sorted in the ascending order `desc` - results will be sorted in the descending order you should use a comma to set up a sorting parameter example: `['item.installs_count,asc']` **note that you can set no more than three sorting rules in a single request** you should use a comma to separate several sorting rules example: `['item.rating.value,desc','item.installs_count,asc']` */
 
     order_by?: string[] | undefined;
 
     
-    /** the maximum number of returned apps optional field default value: 100 maximum value: 1000 */
+    /** *the maximum number of returned apps* optional field default value: `100` maximum value: `1000` */
 
     limit?: number | undefined;
 
     
-    /** offset in the results array of returned apps optional field default value: 0 if you specify the 10 value, the first ten entities in the results array will be omitted and the data will be provided for the successive entities Note: we recommend using this parameter only when retrieving up to 10,000 results for retrieving over 10,000 results, use the offset_token instead. */
+    /** *offset in the results array of returned apps* optional field default value: `0` if you specify the `10` value, the first ten entities in the results array will be omitted and the data will be provided for the successive entities **Note:** we recommend using this parameter only when retrieving up to 10,000 results for retrieving over 10,000 results, use the `offset_token` instead. */
 
     offset?: number | undefined;
 
     
-    /** token for subsequent requests optional field provided in the identical filed of the response to each request; use this parameter to avoid timeouts while trying to obtain over 100,000 results in a single request; by specifying the unique offset_token value from the response array, you will get the subsequent results of the initial task; offset_token values are unique for each subsequent task Note: if the offset_token is specified in the request, all other parameters should be identical to the previous request learn more about this parameter on our Help Center */
+    /** *token for subsequent requests* optional field provided in the identical filed of the response to each request; use this parameter to avoid timeouts while trying to obtain over 100,000 results in a single request; by specifying the unique `offset_token` value from the response array, you will get the subsequent results of the initial task; `offset_token` values are unique for each subsequent task  **Note:** if the `offset_token` is specified in the request, all other parameters should be identical to the previous request learn more about this parameter on our [Help Center](https://dataforseo.com/help-center/what-is-the-difference-between-the-offset-and-offset_token-parameters#offset_token) */
 
     offset_token?: string | undefined;
 
     
-    /** user-defined task identifier optional field the character limit is 255 you can use this parameter to identify the task and match it with the result you will find the specified tag value in the data object of the response */
+    /** *user-defined task identifier* optional field *the character limit is 255* you can use this parameter to identify the task and match it with the result you will find the specified `tag` value in the `data` object of the response */
 
     tag?: string | undefined;
 

@@ -662,7 +662,7 @@ export class SerpApiAiModeAiOverviewShoppingItem  extends BaseSerpApiAiModeAiOve
  
 export interface ISerpApiAiModeAiOverviewPaidItem  extends IBaseSerpApiAiModeAiOverviewElementItem    {
         
-        /** *reference text* text snippet from the page that was used to generate the `ai_overview_element` */
+        /** *introductory text of the element in the response* text preceding the paid ad items */
         text?: string | undefined
         
         /** *content of the element in markdown format* the text of the `ai_overview_paid` formatted in the [markdown markup language](https://en.wikipedia.org/wiki/Markdown) */
@@ -678,7 +678,7 @@ export interface ISerpApiAiModeAiOverviewPaidItem  extends IBaseSerpApiAiModeAiO
 export class SerpApiAiModeAiOverviewPaidItem  extends BaseSerpApiAiModeAiOverviewElementItem   implements ISerpApiAiModeAiOverviewPaidItem {
 
     
-    /** *reference text* text snippet from the page that was used to generate the `ai_overview_element` */
+    /** *introductory text of the element in the response* text preceding the paid ad items */
 
     text?: string | undefined;
 

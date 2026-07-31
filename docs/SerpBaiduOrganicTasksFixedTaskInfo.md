@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpBaiduOrganicTasksFixedResultInfo[]** | array of results |[optional]|
+**result** | **SerpBaiduOrganicTasksFixedResultInfo[]** | *array of results* |[optional]|

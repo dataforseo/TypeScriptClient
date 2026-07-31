@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **BacklinksReferringNetworksLiveTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **BacklinksReferringNetworksLiveTaskInfo[]** | *array of tasks* |[optional]|

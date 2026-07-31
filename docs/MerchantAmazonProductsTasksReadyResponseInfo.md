@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **MerchantAmazonProductsTasksReadyTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **MerchantAmazonProductsTasksReadyTaskInfo[]** | *array of tasks* |[optional]|

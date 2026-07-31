@@ -3,10 +3,9 @@ import { OnPageHtmlResourceItem, IOnPageHtmlResourceItem } from "./BaseOnPageRes
 
 export interface IDuplicatePageInfo   {
         
-        /** content similarity score by default, the content is considered duplicate if the value is greater than or equals 6 can take values from 0 to 10 */
         similarity?: number | undefined
         
-        /** information about the page with duplicate content */
+        /** *information about the page with duplicate content* */
         page?: OnPageHtmlResourceItem[] | undefined
 
     [key: string]: any;
@@ -15,13 +14,10 @@ export interface IDuplicatePageInfo   {
 
 export class DuplicatePageInfo  implements IDuplicatePageInfo {
 
-    
-    /** content similarity score by default, the content is considered duplicate if the value is greater than or equals 6 can take values from 0 to 10 */
-
     similarity?: number | undefined;
 
     
-    /** information about the page with duplicate content */
+    /** *information about the page with duplicate content* */
 
     page?: OnPageHtmlResourceItem[] | undefined;
 

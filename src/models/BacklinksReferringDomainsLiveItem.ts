@@ -3,70 +3,70 @@ export interface IBacklinksReferringDomainsLiveItem   {
         /** type of element */
         type?: string | undefined
         
-        /** referring domain */
+        /** *referring domain* */
         domain?: string | undefined
         
-        /** domain rank rank volume that a referring website passes to the target rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm learn more about the metric and how it is calculated in this help center article */
+        /** *domain rank* rank volume that a referring website passes to the `target` `rank` is calculated based on the method for node ranking in a linked database - a principle used in the original Google PageRank algorithm learn more about the metric and how it is calculated in [this help center article](https://dataforseo.com/help-center/what_is_rank_in_backlinks_api) */
         rank?: number | undefined
         
-        /** indicates the number of backlinks pointing to the target */
+        /** *indicates the number of backlinks pointing to the `target`* */
         backlinks?: number | undefined
         
-        /** date and time when our crawler found the backlink for the first time in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
+        /** *date and time when our crawler found the backlink for the first time* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
         first_seen?: string | undefined
         
-        /** date and time when the last backlink from this domain was lost indicates the date and time when our crawler visited the page and it responded with 4xx or 5xx status code or the last backlink was removed in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2017-01-24 13:20:59 +00:00 */
+        /** *date and time when the last backlink from this domain was lost* indicates the date and time when our crawler visited the page and it responded with 4xx or 5xx status code or the last backlink was removed in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2017-01-24 13:20:59 +00:00` */
         lost_date?: string | undefined
         
-        /** average spam score of all backlinks pointing to the domain learn more about how the metric is calculated on this help center page */
+        /** *average spam score of all backlinks pointing to the domain* learn more about how the metric is calculated on [this help center page](https://dataforseo.com/help-center/what-is-spam-score-and-how-is-it-calculated) */
         backlinks_spam_score?: number | undefined
         
-        /** number of broken backlinks number of broken backlinks pointing to the domain */
+        /** *number of broken backlinks* number of broken backlinks pointing to the domain */
         broken_backlinks?: number | undefined
         
-        /** number of broken pages number of pages that respond with 4xx or 5xx status codes where backlinks are pointing to */
+        /** *number of broken pages* number of pages that respond with 4xx or 5xx status codes where backlinks are pointing to */
         broken_pages?: number | undefined
         
-        /** indicates the number of referring domains note that we calculate main domains (root domains, like example.com) and their subdomains (e.g. blog.example.com) separately for this metric */
+        /** *indicates the number of referring domains* note that we calculate main domains (root domains, like `example.com`) and their subdomains (e.g. `blog.example.com`) separately for this metric */
         referring_domains?: number | undefined
         
-        /** number of domains pointing at least one nofollow link to the target */
+        /** *number of domains pointing at least one nofollow link to the `target`* */
         referring_domains_nofollow?: number | undefined
         
-        /** indicates the number of referring main domains the number of primary (root) domains referring to your target */
+        /** *indicates the number of referring main domains* the number of primary (root) domains referring to your target */
         referring_main_domains?: number | undefined
         
-        /** number of main domains pointing at least one nofollow link to the target */
+        /** *number of main domains pointing at least one nofollow link to the `target`* */
         referring_main_domains_nofollow?: number | undefined
         
-        /** number of referring IP addresses number of IP addresses pointing to this page */
+        /** *number of referring IP addresses* number of IP addresses pointing to this page */
         referring_ips?: number | undefined
         
-        /** number of referring subnetworks */
+        /** *number of referring subnetworks* */
         referring_subnets?: number | undefined
         
-        /** indicates the number of pages pointing to the target specified */
+        /** *indicates the number of pages pointing to the `target` specified* */
         referring_pages?: number | undefined
         
-        /** number of referring pages pointing at least one nofollow link to the target */
+        /** *number of referring pages pointing at least one nofollow link to the `target`* */
         referring_pages_nofollow?: number | undefined
         
-        /** top-level domains of the referring links contains top level domains and referring link count per each */
+        /** *top-level domains of the referring links* contains top level domains and referring link count per each */
         referring_links_tld?: { [key: string]: number; } | undefined
         
-        /** types of referring links indicates the types of the referring links and link count per each type possible values: anchor, image, link, meta, canonical, alternate, redirect */
+        /** *types of referring links* indicates the types of the referring links and link count per each type possible values: `anchor`, `image`, `link`, `meta`, `canonical`, `alternate`, `redirect` */
         referring_links_types?: { [key: string]: number; } | undefined
         
-        /** link attributes of the referring links indicates link attributes of the referring links and link count per each attribute */
+        /** *link attributes of the referring links* indicates link attributes of the referring links and link count per each attribute */
         referring_links_attributes?: { [key: string]: number; } | undefined
         
-        /** types of referring platforms indicates referring platform types and link count per each platform possible values: cms, blogs, ecommerce, message-boards, wikis, news, organization */
+        /** *types of referring platforms* indicates referring platform types and link count per each platform possible values: `cms`, `blogs`, `ecommerce`, `message-boards`, `wikis`, `news`, `organization` */
         referring_links_platform_types?: { [key: string]: number; } | undefined
         
-        /** semantic locations of the referring links indicates semantic elements in HTML where the referring links are located and the link count per each semantic location you can get the full list of semantic elements here examples: article, section, summary */
+        /** *semantic locations of the referring links* indicates semantic elements in HTML where the referring links are located and the link count per each semantic location you can get the full list of semantic elements [here](https://www.w3schools.com/html/html5_semantic_elements.asp) examples: `article`, `section`, `summary` */
         referring_links_semantic_locations?: { [key: string]: number; } | undefined
         
-        /** ISO country codes of the referring links indicates ISO country codes of the domains where the referring links are located and the link count per each country */
+        /** *ISO country codes of the referring links* indicates ISO country codes of the domains where the referring links are located and the link count per each country */
         referring_links_countries?: { [key: string]: number; } | undefined
 
     [key: string]: any;
@@ -81,112 +81,112 @@ export class BacklinksReferringDomainsLiveItem  implements IBacklinksReferringDo
     type?: string | undefined;
 
     
-    /** referring domain */
+    /** *referring domain* */
 
     domain?: string | undefined;
 
     
-    /** domain rank rank volume that a referring website passes to the target rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm learn more about the metric and how it is calculated in this help center article */
+    /** *domain rank* rank volume that a referring website passes to the `target` `rank` is calculated based on the method for node ranking in a linked database - a principle used in the original Google PageRank algorithm learn more about the metric and how it is calculated in [this help center article](https://dataforseo.com/help-center/what_is_rank_in_backlinks_api) */
 
     rank?: number | undefined;
 
     
-    /** indicates the number of backlinks pointing to the target */
+    /** *indicates the number of backlinks pointing to the `target`* */
 
     backlinks?: number | undefined;
 
     
-    /** date and time when our crawler found the backlink for the first time in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
+    /** *date and time when our crawler found the backlink for the first time* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
 
     first_seen?: string | undefined;
 
     
-    /** date and time when the last backlink from this domain was lost indicates the date and time when our crawler visited the page and it responded with 4xx or 5xx status code or the last backlink was removed in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2017-01-24 13:20:59 +00:00 */
+    /** *date and time when the last backlink from this domain was lost* indicates the date and time when our crawler visited the page and it responded with 4xx or 5xx status code or the last backlink was removed in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2017-01-24 13:20:59 +00:00` */
 
     lost_date?: string | undefined;
 
     
-    /** average spam score of all backlinks pointing to the domain learn more about how the metric is calculated on this help center page */
+    /** *average spam score of all backlinks pointing to the domain* learn more about how the metric is calculated on [this help center page](https://dataforseo.com/help-center/what-is-spam-score-and-how-is-it-calculated) */
 
     backlinks_spam_score?: number | undefined;
 
     
-    /** number of broken backlinks number of broken backlinks pointing to the domain */
+    /** *number of broken backlinks* number of broken backlinks pointing to the domain */
 
     broken_backlinks?: number | undefined;
 
     
-    /** number of broken pages number of pages that respond with 4xx or 5xx status codes where backlinks are pointing to */
+    /** *number of broken pages* number of pages that respond with 4xx or 5xx status codes where backlinks are pointing to */
 
     broken_pages?: number | undefined;
 
     
-    /** indicates the number of referring domains note that we calculate main domains (root domains, like example.com) and their subdomains (e.g. blog.example.com) separately for this metric */
+    /** *indicates the number of referring domains* note that we calculate main domains (root domains, like `example.com`) and their subdomains (e.g. `blog.example.com`) separately for this metric */
 
     referring_domains?: number | undefined;
 
     
-    /** number of domains pointing at least one nofollow link to the target */
+    /** *number of domains pointing at least one nofollow link to the `target`* */
 
     referring_domains_nofollow?: number | undefined;
 
     
-    /** indicates the number of referring main domains the number of primary (root) domains referring to your target */
+    /** *indicates the number of referring main domains* the number of primary (root) domains referring to your target */
 
     referring_main_domains?: number | undefined;
 
     
-    /** number of main domains pointing at least one nofollow link to the target */
+    /** *number of main domains pointing at least one nofollow link to the `target`* */
 
     referring_main_domains_nofollow?: number | undefined;
 
     
-    /** number of referring IP addresses number of IP addresses pointing to this page */
+    /** *number of referring IP addresses* number of IP addresses pointing to this page */
 
     referring_ips?: number | undefined;
 
     
-    /** number of referring subnetworks */
+    /** *number of referring subnetworks* */
 
     referring_subnets?: number | undefined;
 
     
-    /** indicates the number of pages pointing to the target specified */
+    /** *indicates the number of pages pointing to the `target` specified* */
 
     referring_pages?: number | undefined;
 
     
-    /** number of referring pages pointing at least one nofollow link to the target */
+    /** *number of referring pages pointing at least one nofollow link to the `target`* */
 
     referring_pages_nofollow?: number | undefined;
 
     
-    /** top-level domains of the referring links contains top level domains and referring link count per each */
+    /** *top-level domains of the referring links* contains top level domains and referring link count per each */
 
     referring_links_tld?: { [key: string]: number; } | undefined;
 
     
-    /** types of referring links indicates the types of the referring links and link count per each type possible values: anchor, image, link, meta, canonical, alternate, redirect */
+    /** *types of referring links* indicates the types of the referring links and link count per each type possible values: `anchor`, `image`, `link`, `meta`, `canonical`, `alternate`, `redirect` */
 
     referring_links_types?: { [key: string]: number; } | undefined;
 
     
-    /** link attributes of the referring links indicates link attributes of the referring links and link count per each attribute */
+    /** *link attributes of the referring links* indicates link attributes of the referring links and link count per each attribute */
 
     referring_links_attributes?: { [key: string]: number; } | undefined;
 
     
-    /** types of referring platforms indicates referring platform types and link count per each platform possible values: cms, blogs, ecommerce, message-boards, wikis, news, organization */
+    /** *types of referring platforms* indicates referring platform types and link count per each platform possible values: `cms`, `blogs`, `ecommerce`, `message-boards`, `wikis`, `news`, `organization` */
 
     referring_links_platform_types?: { [key: string]: number; } | undefined;
 
     
-    /** semantic locations of the referring links indicates semantic elements in HTML where the referring links are located and the link count per each semantic location you can get the full list of semantic elements here examples: article, section, summary */
+    /** *semantic locations of the referring links* indicates semantic elements in HTML where the referring links are located and the link count per each semantic location you can get the full list of semantic elements [here](https://www.w3schools.com/html/html5_semantic_elements.asp) examples: `article`, `section`, `summary` */
 
     referring_links_semantic_locations?: { [key: string]: number; } | undefined;
 
     
-    /** ISO country codes of the referring links indicates ISO country codes of the domains where the referring links are located and the link count per each country */
+    /** *ISO country codes of the referring links* indicates ISO country codes of the domains where the referring links are located and the link count per each country */
 
     referring_links_countries?: { [key: string]: number; } | undefined;
 

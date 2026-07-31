@@ -3,25 +3,25 @@ import { BusinessDataGoogleHotelSearchesItem, IBusinessDataGoogleHotelSearchesIt
 
 export interface IBusinessDataGoogleHotelSearchesTaskGetResultInfo   {
         
-        /** keyword received in a POST array keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character); in order to obtain accurate search results, the location name is appended to the keyword automatically */
+        /** *keyword received in a POST array* keyword is returned with decoded %## (plus character '+' will be decoded to a space character); in order to obtain accurate search results, the location name is appended to the keyword automatically */
         keyword?: string | undefined
         
-        /** location code in a POST array */
+        /** *location code in a POST array* */
         location_code?: number | undefined
         
-        /** language code in a POST array */
+        /** *language code in a POST array* */
         language_code?: string | undefined
         
-        /** direct URL to search engine results you can use it to make sure that we provided accurate results */
+        /** *direct URL to search engine results* you can use it to make sure that we provided accurate results */
         check_url?: string | undefined
         
-        /** date and time when the result was received in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
+        /** *date and time when the result was received* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
         datetime?: string | undefined
         
-        /** item types the number of items in the items array */
+        /** *item types* the number of items in the `items` array */
         items_count?: number | undefined
         
-        /** array of items note: this field always equals null; use it to facilitate integration and ensure interoperability with the Hotel Info endpoint */
+        /** *array of items* **note:** this field always equals `null`; use it to facilitate integration and ensure interoperability with the [Hotel Info](/v3/business_data/google/hotel_info/live/advanced/) endpoint */
         items?: BusinessDataGoogleHotelSearchesItem[] | undefined
 
     [key: string]: any;
@@ -31,37 +31,37 @@ export interface IBusinessDataGoogleHotelSearchesTaskGetResultInfo   {
 export class BusinessDataGoogleHotelSearchesTaskGetResultInfo  implements IBusinessDataGoogleHotelSearchesTaskGetResultInfo {
 
     
-    /** keyword received in a POST array keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character); in order to obtain accurate search results, the location name is appended to the keyword automatically */
+    /** *keyword received in a POST array* keyword is returned with decoded %## (plus character '+' will be decoded to a space character); in order to obtain accurate search results, the location name is appended to the keyword automatically */
 
     keyword?: string | undefined;
 
     
-    /** location code in a POST array */
+    /** *location code in a POST array* */
 
     location_code?: number | undefined;
 
     
-    /** language code in a POST array */
+    /** *language code in a POST array* */
 
     language_code?: string | undefined;
 
     
-    /** direct URL to search engine results you can use it to make sure that we provided accurate results */
+    /** *direct URL to search engine results* you can use it to make sure that we provided accurate results */
 
     check_url?: string | undefined;
 
     
-    /** date and time when the result was received in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
+    /** *date and time when the result was received* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
 
     datetime?: string | undefined;
 
     
-    /** item types the number of items in the items array */
+    /** *item types* the number of items in the `items` array */
 
     items_count?: number | undefined;
 
     
-    /** array of items note: this field always equals null; use it to facilitate integration and ensure interoperability with the Hotel Info endpoint */
+    /** *array of items* **note:** this field always equals `null`; use it to facilitate integration and ensure interoperability with the [Hotel Info](/v3/business_data/google/hotel_info/live/advanced/) endpoint */
 
     items?: BusinessDataGoogleHotelSearchesItem[] | undefined;
 

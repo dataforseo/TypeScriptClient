@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **BusinessDataGoogleMyBusinessUpdatesTasksReadyTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **BusinessDataGoogleMyBusinessUpdatesTasksReadyTaskInfo[]** | *array of tasks* |[optional]|

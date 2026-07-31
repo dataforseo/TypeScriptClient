@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpYahooLanguagesTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **SerpYahooLanguagesTaskInfo[]** | *array of tasks* |[optional]|

@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpGoogleAiModeTasksFixedResultInfo[]** | array of results |[optional]|
+**result** | **SerpGoogleAiModeTasksFixedResultInfo[]** | *array of results* |[optional]|

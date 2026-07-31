@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**domain** | **string** | domain in SERP |[optional]|
+**domain** | **string** | *domain in SERP* |[optional]|

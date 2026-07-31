@@ -11,91 +11,91 @@ export interface IAmazonProductInfo   {
         /** type of element */
         type?: string | undefined
         
-        /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+        /** *position within a group of elements with identical `type` values* positions of elements with different `type` values are omitted from `rank_group` */
         rank_group?: number | undefined
         
-        /** absolute rank absolute position among all the elements in the response array */
+        /** *absolute rank* absolute position among all the elements in the response array */
         rank_absolute?: number | undefined
         
-        /** the alignment of the element in Amazon SERP possible values: left, right */
+        /** *the alignment of the element in Amazon SERP* possible values: `left`, `right` */
         position?: string | undefined
         
-        /** the XPath of the element */
+        /** *the [XPath](https://en.wikipedia.org/wiki/XPath) of the element* */
         xpath?: string | undefined
         
-        /** product title */
+        /** *product title* */
         title?: string | undefined
         
-        /** product specs and other details */
+        /** *product specs and other details* */
         details?: string | undefined
         
-        /** the URL of the product image */
+        /** *the URL of the product image* */
         image_url?: string | undefined
         
-        /** product brand name */
+        /** *product brand name* */
         author?: string | undefined
         
-        /** ASIN of the product received in a POST array */
+        /** *ASIN of the product received in a POST array* */
         data_asin?: string | undefined
         
-        /** parent ASIN of the product */
+        /** *[parent ASIN](https://sellercentral.amazon.com/gp/help/external/help.html?itemID=8831&language=en-US&ref=mpbc_200779220_cont_8831&) of the product* */
         parent_asin?: string | undefined
         
-        /** ASINs of all found product modifications */
+        /** *ASINs of all found product modifications* */
         product_asins?: string[] | undefined
         
-        /** the lower limit of the product price range example: 49.98 */
+        /** *the lower limit of the product price range* example: `49.98` */
         price_from?: number | undefined
         
-        /** the upper limit of the product price range example: 384.99 */
+        /** *the upper limit of the product price range* example: `384.99` */
         price_to?: number | undefined
         
-        /** value of the percentage discount */
+        /** *value of the percentage discount* */
         percentage_discount?: string | undefined
         
-        /** currency in the ISO format example: USD */
+        /** *currency in the [ISO](https://en.wikipedia.org/wiki/ISO_4217) format* example: `USD` */
         currency?: string | undefined
         
-        /** “Amazon’s choice” label if the value is true, the product is marked with the “Amazon’s choice” label */
+        /** *'Amazon's choice' label* if the value is `true`, the product is marked with the 'Amazon's choice' label */
         is_amazon_choice?: boolean | undefined
         
-        /** product rating info */
+        /** *product rating info* */
         rating?: RatingElement | undefined
         
-        /** indicates whether the newer model of the product is available */
+        /** *indicates whether the newer model of the product is available* */
         is_newer_model_available?: boolean | undefined
         
-        /** indicates whether a product has an Amazon Prime Video label if true, specified product is a part of Amazon Prime Video service */
+        /** *indicates whether a product has an Amazon Prime Video label* if `true`, specified product is a part of Amazon Prime Video service */
         is_prime_video?: boolean | undefined
         
-        /** array of objects containing information about applicable vouchers */
+        /** *array of objects containing information about applicable vouchers* */
         applicable_vouchers?: AmazonApplicableVouchersItem[] | undefined
         
-        /** information about the newer model of the product */
+        /** *information about the newer model of the product* */
         newer_model?: NewerModel | undefined
         
-        /** contains related product categories */
+        /** *contains related product categories* */
         categories?: Categories[] | undefined
         
-        /** contains related product information */
+        /** *contains related product information* */
         product_information?: BaseMerchantAmazonProductInformationElementItem[] | undefined
         
-        /** contains URLs for all images of the product displayed on the left side of the main image */
+        /** *contains URLs for all images of the product displayed on the left side of the main image* */
         product_images_list?: string[] | undefined
         
-        /** contains URLs for all videos of the product displayed on the right side of the main video */
+        /** *contains URLs for all videos of the product displayed on the right side of the main video* */
         product_videos_list?: string[] | undefined
         
-        /** contains description of the product */
+        /** *contains description of the product* */
         description?: string | undefined
         
-        /** indicates whether the product is available for ordering if the value is true, the product can be ordered */
+        /** *indicates whether the product is [available for ordering](https://www.amazon.com/gp/help/customer/display.html?nodeId=201910280)* if the value is `true`, the product can be ordered */
         is_available?: boolean | undefined
         
-        /** array of objects with top reviews from target location */
+        /** *array of objects with top reviews from target location* */
         top_local_reviews?: AmazonReviewItem[] | undefined
         
-        /** array of objects with top reviews from around the world */
+        /** *array of objects with top reviews from around the world* */
         top_global_reviews?: AmazonReviewItem[] | undefined
 
     [key: string]: any;
@@ -110,147 +110,147 @@ export class AmazonProductInfo  implements IAmazonProductInfo {
     type?: string | undefined;
 
     
-    /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+    /** *position within a group of elements with identical `type` values* positions of elements with different `type` values are omitted from `rank_group` */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank absolute position among all the elements in the response array */
+    /** *absolute rank* absolute position among all the elements in the response array */
 
     rank_absolute?: number | undefined;
 
     
-    /** the alignment of the element in Amazon SERP possible values: left, right */
+    /** *the alignment of the element in Amazon SERP* possible values: `left`, `right` */
 
     position?: string | undefined;
 
     
-    /** the XPath of the element */
+    /** *the [XPath](https://en.wikipedia.org/wiki/XPath) of the element* */
 
     xpath?: string | undefined;
 
     
-    /** product title */
+    /** *product title* */
 
     title?: string | undefined;
 
     
-    /** product specs and other details */
+    /** *product specs and other details* */
 
     details?: string | undefined;
 
     
-    /** the URL of the product image */
+    /** *the URL of the product image* */
 
     image_url?: string | undefined;
 
     
-    /** product brand name */
+    /** *product brand name* */
 
     author?: string | undefined;
 
     
-    /** ASIN of the product received in a POST array */
+    /** *ASIN of the product received in a POST array* */
 
     data_asin?: string | undefined;
 
     
-    /** parent ASIN of the product */
+    /** *[parent ASIN](https://sellercentral.amazon.com/gp/help/external/help.html?itemID=8831&language=en-US&ref=mpbc_200779220_cont_8831&) of the product* */
 
     parent_asin?: string | undefined;
 
     
-    /** ASINs of all found product modifications */
+    /** *ASINs of all found product modifications* */
 
     product_asins?: string[] | undefined;
 
     
-    /** the lower limit of the product price range example: 49.98 */
+    /** *the lower limit of the product price range* example: `49.98` */
 
     price_from?: number | undefined;
 
     
-    /** the upper limit of the product price range example: 384.99 */
+    /** *the upper limit of the product price range* example: `384.99` */
 
     price_to?: number | undefined;
 
     
-    /** value of the percentage discount */
+    /** *value of the percentage discount* */
 
     percentage_discount?: string | undefined;
 
     
-    /** currency in the ISO format example: USD */
+    /** *currency in the [ISO](https://en.wikipedia.org/wiki/ISO_4217) format* example: `USD` */
 
     currency?: string | undefined;
 
     
-    /** “Amazon’s choice” label if the value is true, the product is marked with the “Amazon’s choice” label */
+    /** *'Amazon's choice' label* if the value is `true`, the product is marked with the 'Amazon's choice' label */
 
     is_amazon_choice?: boolean | undefined;
 
     
-    /** product rating info */
+    /** *product rating info* */
 
     rating?: RatingElement | undefined;
 
     
-    /** indicates whether the newer model of the product is available */
+    /** *indicates whether the newer model of the product is available* */
 
     is_newer_model_available?: boolean | undefined;
 
     
-    /** indicates whether a product has an Amazon Prime Video label if true, specified product is a part of Amazon Prime Video service */
+    /** *indicates whether a product has an Amazon Prime Video label* if `true`, specified product is a part of Amazon Prime Video service */
 
     is_prime_video?: boolean | undefined;
 
     
-    /** array of objects containing information about applicable vouchers */
+    /** *array of objects containing information about applicable vouchers* */
 
     applicable_vouchers?: AmazonApplicableVouchersItem[] | undefined;
 
     
-    /** information about the newer model of the product */
+    /** *information about the newer model of the product* */
 
     newer_model?: NewerModel | undefined;
 
     
-    /** contains related product categories */
+    /** *contains related product categories* */
 
     categories?: Categories[] | undefined;
 
     
-    /** contains related product information */
+    /** *contains related product information* */
 
     product_information?: BaseMerchantAmazonProductInformationElementItem[] | undefined;
 
     
-    /** contains URLs for all images of the product displayed on the left side of the main image */
+    /** *contains URLs for all images of the product displayed on the left side of the main image* */
 
     product_images_list?: string[] | undefined;
 
     
-    /** contains URLs for all videos of the product displayed on the right side of the main video */
+    /** *contains URLs for all videos of the product displayed on the right side of the main video* */
 
     product_videos_list?: string[] | undefined;
 
     
-    /** contains description of the product */
+    /** *contains description of the product* */
 
     description?: string | undefined;
 
     
-    /** indicates whether the product is available for ordering if the value is true, the product can be ordered */
+    /** *indicates whether the product is [available for ordering](https://www.amazon.com/gp/help/customer/display.html?nodeId=201910280)* if the value is `true`, the product can be ordered */
 
     is_available?: boolean | undefined;
 
     
-    /** array of objects with top reviews from target location */
+    /** *array of objects with top reviews from target location* */
 
     top_local_reviews?: AmazonReviewItem[] | undefined;
 
     
-    /** array of objects with top reviews from around the world */
+    /** *array of objects with top reviews from around the world* */
 
     top_global_reviews?: AmazonReviewItem[] | undefined;
 

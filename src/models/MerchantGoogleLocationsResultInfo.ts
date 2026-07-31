@@ -1,18 +1,18 @@
 export interface IMerchantGoogleLocationsResultInfo   {
         
-        /** location code */
+        /** *location code* */
         location_code?: number | undefined
         
-        /** full name of the location */
+        /** *full name of the location* */
         location_name?: string | undefined
         
-        /** the name of the superordinate location example: 'location_name': 'Arkansas,United States', 'location_name_parent': 'United States' */
+        /** *the name of the superordinate location* example: `'location_name': 'Arkansas,United States'`, `'location_name_parent': 'United States'` */
         location_name_parent?: string | undefined
         
-        /** ISO country code of the location */
+        /** *ISO country code of the location* */
         country_iso_code?: string | undefined
         
-        /** location type */
+        /** *location type* */
         location_type?: string | undefined
 
     [key: string]: any;
@@ -22,27 +22,27 @@ export interface IMerchantGoogleLocationsResultInfo   {
 export class MerchantGoogleLocationsResultInfo  implements IMerchantGoogleLocationsResultInfo {
 
     
-    /** location code */
+    /** *location code* */
 
     location_code?: number | undefined;
 
     
-    /** full name of the location */
+    /** *full name of the location* */
 
     location_name?: string | undefined;
 
     
-    /** the name of the superordinate location example: 'location_name': 'Arkansas,United States', 'location_name_parent': 'United States' */
+    /** *the name of the superordinate location* example: `'location_name': 'Arkansas,United States'`, `'location_name_parent': 'United States'` */
 
     location_name_parent?: string | undefined;
 
     
-    /** ISO country code of the location */
+    /** *ISO country code of the location* */
 
     country_iso_code?: string | undefined;
 
     
-    /** location type */
+    /** *location type* */
 
     location_type?: string | undefined;
 

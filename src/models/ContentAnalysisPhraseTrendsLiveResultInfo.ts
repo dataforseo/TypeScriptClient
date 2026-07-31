@@ -7,37 +7,37 @@ export interface IContentAnalysisPhraseTrendsLiveResultInfo   {
         /** type of element */
         type?: string | undefined
         
-        /** date for which the data is provided */
+        /** *date for which the data is provided* */
         date?: string | undefined
         
-        /** total number of results in our database relevant to your request */
+        /** *total number of results in our database relevant to your request* */
         total_count?: number | undefined
         
-        /** rank of all URLs citing the keyword normalized sum of ranks of all URLs citing the target keyword for the given date */
+        /** *rank of all URLs citing the `keyword`* normalized sum of ranks of all URLs citing the target `keyword` for the given date */
         rank?: number | undefined
         
-        /** top domains citing the target keyword contains objects with top domains citing the target keyword and citation count per each domain */
+        /** *top domains citing the target keyword* contains objects with top domains citing the target keyword and citation count per each domain */
         top_domains?: TopDomainInfo[] | undefined
         
-        /** sentiment connotations contains sentiments (emotional reactions) related to the target keyword citation and the number of citations per each sentiment possible connotations: 'anger', 'happiness', 'love', 'sadness', 'share', 'fun' */
+        /** *sentiment connotations* contains sentiments (emotional reactions) related to the target keyword citation and the number of citations per each sentiment possible connotations: `'anger'`, `'happiness'`, `'love'`, `'sadness'`, `'share'`, `'fun'` */
         sentiment_connotations?: { [key: string]: number; } | undefined
         
-        /** connotation types contains types of sentiments (sentiment polarity) related to the keyword citation and citation count per each sentiment type possible connotation types: 'positive', 'negative', 'neutral' */
+        /** *connotation types* contains types of sentiments (sentiment polarity) related to the keyword citation and citation count per each sentiment type possible connotation types: `'positive'`, `'negative'`, `'neutral'` */
         connotation_types?: { [key: string]: number; } | undefined
         
-        /** text categories contains objects with text categories and citation count in each text category to obtain a full list of available categories, refer to the Categories endpoint */
+        /** *text categories* contains objects with text categories and citation count in each text category to obtain a full list of available categories, refer to the [Categories](/v3/content_analysis/categories/) endpoint */
         text_categories?: ContentAnalysisCategoriesInfo[] | undefined
         
-        /** page categories contains objects with page categories and citation count in each page category to obtain a full list of available categories, refer to the Categories endpoint */
+        /** *page categories* contains objects with page categories and citation count in each page category to obtain a full list of available categories, refer to the [Categories](/v3/content_analysis/categories/) endpoint */
         page_categories?: ContentAnalysisCategoriesInfo[] | undefined
         
-        /** page types contains page types and citation count per each page type */
+        /** *page types* contains page types and citation count per each page type */
         page_types?: { [key: string]: number; } | undefined
         
-        /** countries contains countries and citation count in each country to obtain a full list of available countries, refer to the Locations endpoint */
+        /** *countries* contains countries and citation count in each country to obtain a full list of available countries, refer to the [Locations](/v3/content_analysis/locations/) endpoint */
         countries?: { [key: string]: number; } | undefined
         
-        /** languages contains languages and citation count in each language to obtain a full list of available languages, refer to the Languages endpoint */
+        /** *languages* contains languages and citation count in each language to obtain a full list of available languages, refer to the [Languages](/v3/content_analysis/languages/) endpoint */
         languages?: { [key: string]: number; } | undefined
 
     [key: string]: any;
@@ -52,57 +52,57 @@ export class ContentAnalysisPhraseTrendsLiveResultInfo  implements IContentAnaly
     type?: string | undefined;
 
     
-    /** date for which the data is provided */
+    /** *date for which the data is provided* */
 
     date?: string | undefined;
 
     
-    /** total number of results in our database relevant to your request */
+    /** *total number of results in our database relevant to your request* */
 
     total_count?: number | undefined;
 
     
-    /** rank of all URLs citing the keyword normalized sum of ranks of all URLs citing the target keyword for the given date */
+    /** *rank of all URLs citing the `keyword`* normalized sum of ranks of all URLs citing the target `keyword` for the given date */
 
     rank?: number | undefined;
 
     
-    /** top domains citing the target keyword contains objects with top domains citing the target keyword and citation count per each domain */
+    /** *top domains citing the target keyword* contains objects with top domains citing the target keyword and citation count per each domain */
 
     top_domains?: TopDomainInfo[] | undefined;
 
     
-    /** sentiment connotations contains sentiments (emotional reactions) related to the target keyword citation and the number of citations per each sentiment possible connotations: 'anger', 'happiness', 'love', 'sadness', 'share', 'fun' */
+    /** *sentiment connotations* contains sentiments (emotional reactions) related to the target keyword citation and the number of citations per each sentiment possible connotations: `'anger'`, `'happiness'`, `'love'`, `'sadness'`, `'share'`, `'fun'` */
 
     sentiment_connotations?: { [key: string]: number; } | undefined;
 
     
-    /** connotation types contains types of sentiments (sentiment polarity) related to the keyword citation and citation count per each sentiment type possible connotation types: 'positive', 'negative', 'neutral' */
+    /** *connotation types* contains types of sentiments (sentiment polarity) related to the keyword citation and citation count per each sentiment type possible connotation types: `'positive'`, `'negative'`, `'neutral'` */
 
     connotation_types?: { [key: string]: number; } | undefined;
 
     
-    /** text categories contains objects with text categories and citation count in each text category to obtain a full list of available categories, refer to the Categories endpoint */
+    /** *text categories* contains objects with text categories and citation count in each text category to obtain a full list of available categories, refer to the [Categories](/v3/content_analysis/categories/) endpoint */
 
     text_categories?: ContentAnalysisCategoriesInfo[] | undefined;
 
     
-    /** page categories contains objects with page categories and citation count in each page category to obtain a full list of available categories, refer to the Categories endpoint */
+    /** *page categories* contains objects with page categories and citation count in each page category to obtain a full list of available categories, refer to the [Categories](/v3/content_analysis/categories/) endpoint */
 
     page_categories?: ContentAnalysisCategoriesInfo[] | undefined;
 
     
-    /** page types contains page types and citation count per each page type */
+    /** *page types* contains page types and citation count per each page type */
 
     page_types?: { [key: string]: number; } | undefined;
 
     
-    /** countries contains countries and citation count in each country to obtain a full list of available countries, refer to the Locations endpoint */
+    /** *countries* contains countries and citation count in each country to obtain a full list of available countries, refer to the [Locations](/v3/content_analysis/locations/) endpoint */
 
     countries?: { [key: string]: number; } | undefined;
 
     
-    /** languages contains languages and citation count in each language to obtain a full list of available languages, refer to the Languages endpoint */
+    /** *languages* contains languages and citation count in each language to obtain a full list of available languages, refer to the [Languages](/v3/content_analysis/languages/) endpoint */
 
     languages?: { [key: string]: number; } | undefined;
 

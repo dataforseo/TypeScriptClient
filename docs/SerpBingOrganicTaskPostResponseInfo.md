@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpBingOrganicTaskPostTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **SerpBingOrganicTaskPostTaskInfo[]** | *array of tasks* |[optional]|

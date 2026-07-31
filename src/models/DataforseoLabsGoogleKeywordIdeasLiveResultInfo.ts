@@ -3,31 +3,31 @@ import { KeywordDataInfo, IKeywordDataInfo } from "./KeywordDataInfo";
 
 export interface IDataforseoLabsGoogleKeywordIdeasLiveResultInfo   {
         
-        /** search engine type */
+        /** *search engine type* */
         se_type?: string | undefined
         
-        /** keywords in a POST array keywords are returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
+        /** *keywords in a POST array* **keywords are returned with decoded %## (plus character '+' will be decoded to a space character)** */
         seed_keywords?: string[] | undefined
         
-        /** location code in a POST array */
+        /** *location code in a POST array* */
         location_code?: number | undefined
         
-        /** language code in a POST array */
+        /** *language code in a POST array* */
         language_code?: string | undefined
         
-        /** total number of results relevant to your request in our database */
+        /** *total number of results relevant to your request in our database* */
         total_count?: number | undefined
         
-        /** number of results returned in the items array */
+        /** *number of results returned in the `items` array* */
         items_count?: number | undefined
         
-        /** current offset value */
+        /** *current offset value* */
         offset?: number | undefined
         
-        /** offset token for subsequent requests you can use the string provided in this field to get the subsequent results of the initial task; note: offset_token values are unique for each subsequent task */
+        /** *offset token for subsequent requests* you can use the string provided in this field to get the subsequent results of the initial task; **note:** `offset_token` values are unique for each subsequent task */
         offset_token?: string | undefined
         
-        /** contains keyword ideas and related data */
+        /** *contains keyword ideas and related data* */
         items?: KeywordDataInfo[] | undefined
 
     [key: string]: any;
@@ -37,47 +37,47 @@ export interface IDataforseoLabsGoogleKeywordIdeasLiveResultInfo   {
 export class DataforseoLabsGoogleKeywordIdeasLiveResultInfo  implements IDataforseoLabsGoogleKeywordIdeasLiveResultInfo {
 
     
-    /** search engine type */
+    /** *search engine type* */
 
     se_type?: string | undefined;
 
     
-    /** keywords in a POST array keywords are returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
+    /** *keywords in a POST array* **keywords are returned with decoded %## (plus character '+' will be decoded to a space character)** */
 
     seed_keywords?: string[] | undefined;
 
     
-    /** location code in a POST array */
+    /** *location code in a POST array* */
 
     location_code?: number | undefined;
 
     
-    /** language code in a POST array */
+    /** *language code in a POST array* */
 
     language_code?: string | undefined;
 
     
-    /** total number of results relevant to your request in our database */
+    /** *total number of results relevant to your request in our database* */
 
     total_count?: number | undefined;
 
     
-    /** number of results returned in the items array */
+    /** *number of results returned in the `items` array* */
 
     items_count?: number | undefined;
 
     
-    /** current offset value */
+    /** *current offset value* */
 
     offset?: number | undefined;
 
     
-    /** offset token for subsequent requests you can use the string provided in this field to get the subsequent results of the initial task; note: offset_token values are unique for each subsequent task */
+    /** *offset token for subsequent requests* you can use the string provided in this field to get the subsequent results of the initial task; **note:** `offset_token` values are unique for each subsequent task */
 
     offset_token?: string | undefined;
 
     
-    /** contains keyword ideas and related data */
+    /** *contains keyword ideas and related data* */
 
     items?: KeywordDataInfo[] | undefined;
 

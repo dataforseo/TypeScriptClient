@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **MerchantIdListResultInfo[]** | array of results |[optional]|
+**result** | **MerchantIdListResultInfo[]** | *array of results* |[optional]|

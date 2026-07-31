@@ -18,13 +18,13 @@ export interface IAvgBacklinksInfo   {
         /** average number of referring main domains */
         referring_main_domains?: number | undefined
         
-        /** average rank learn more about the metric and its calculation formula in this help center article */
+        /** average ranklearn more about the metric and its calculation formula in this help center article */
         rank?: number | undefined
         
-        /** average main domain rank learn more about the metric and its calculation formula in this help center article */
+        /** average main domain ranklearn more about the metric and its calculation formula in this help center article */
         main_domain_rank?: number | undefined
         
-        /** date and time when keyword data was updated in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
+        /** date and time when keyword data was updatedin the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”example:2019-11-15 12:57:46 +00:00 */
         last_updated_time?: string | undefined
 
     [key: string]: any;
@@ -64,17 +64,17 @@ export class AvgBacklinksInfo  implements IAvgBacklinksInfo {
     referring_main_domains?: number | undefined;
 
     
-    /** average rank learn more about the metric and its calculation formula in this help center article */
+    /** average ranklearn more about the metric and its calculation formula in this help center article */
 
     rank?: number | undefined;
 
     
-    /** average main domain rank learn more about the metric and its calculation formula in this help center article */
+    /** average main domain ranklearn more about the metric and its calculation formula in this help center article */
 
     main_domain_rank?: number | undefined;
 
     
-    /** date and time when keyword data was updated in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
+    /** date and time when keyword data was updatedin the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”example:2019-11-15 12:57:46 +00:00 */
 
     last_updated_time?: string | undefined;
 

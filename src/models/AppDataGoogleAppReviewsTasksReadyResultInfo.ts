@@ -1,24 +1,23 @@
 export interface IAppDataGoogleAppReviewsTasksReadyResultInfo   {
         
-        /** task identifier of the completed task unique task identifier in our system in the UUID format */
+        /** *task identifier of the completed task* **unique task identifier in our system in the [UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier) format** */
         id?: string | undefined
         
-        /** search engine specified when setting the task */
+        /** *search engine specified when setting the task* */
         se?: string | undefined
         
-        /** search engine type */
+        /** *search engine type* */
         se_type?: string | undefined
         
-        /** date when the task was posted (in the UTC format) */
+        /** *date when the task was posted (in the UTC format)* */
         date_posted?: string | undefined
         
-        /** user-defined task identifier */
         tag?: string | undefined
         
-        /** URL for collecting the results of the Google App Reviews task */
+        /** *URL for collecting the results of the {{up_se_name}} {{normal_se_type}} task* */
         endpoint_advanced?: string | undefined
         
-        /** URL for collecting the results of the Google App Reviews HTML task if HTML tasks are not supported in the specified endpoint, the value will be null */
+        /** *URL for collecting the results of the {{up_se_name}} {{normal_se_type}} HTML task* if HTML tasks are not supported in the specified endpoint, the value will be `null` */
         endpoint_html?: string | undefined
 
     [key: string]: any;
@@ -28,37 +27,34 @@ export interface IAppDataGoogleAppReviewsTasksReadyResultInfo   {
 export class AppDataGoogleAppReviewsTasksReadyResultInfo  implements IAppDataGoogleAppReviewsTasksReadyResultInfo {
 
     
-    /** task identifier of the completed task unique task identifier in our system in the UUID format */
+    /** *task identifier of the completed task* **unique task identifier in our system in the [UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier) format** */
 
     id?: string | undefined;
 
     
-    /** search engine specified when setting the task */
+    /** *search engine specified when setting the task* */
 
     se?: string | undefined;
 
     
-    /** search engine type */
+    /** *search engine type* */
 
     se_type?: string | undefined;
 
     
-    /** date when the task was posted (in the UTC format) */
+    /** *date when the task was posted (in the UTC format)* */
 
     date_posted?: string | undefined;
-
-    
-    /** user-defined task identifier */
 
     tag?: string | undefined;
 
     
-    /** URL for collecting the results of the Google App Reviews task */
+    /** *URL for collecting the results of the {{up_se_name}} {{normal_se_type}} task* */
 
     endpoint_advanced?: string | undefined;
 
     
-    /** URL for collecting the results of the Google App Reviews HTML task if HTML tasks are not supported in the specified endpoint, the value will be null */
+    /** *URL for collecting the results of the {{up_se_name}} {{normal_se_type}} HTML task* if HTML tasks are not supported in the specified endpoint, the value will be `null` */
 
     endpoint_html?: string | undefined;
 

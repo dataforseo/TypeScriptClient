@@ -11,64 +11,64 @@ export interface IDataset   {
         /** type of element */
         type?: string | undefined
         
-        /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+        /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP absolute position among all the elements in SERP */
+        /** *absolute rank in SERP* absolute position among all the elements in SERP */
         rank_absolute?: number | undefined
         
-        /** the alignment of the element in SERP can take the following values: left, right */
+        /** *the alignment of the element in SERP* can take the following values: `left`, `right` */
         position?: string | undefined
         
-        /** the XPath of the element */
+        /** *the [XPath](https://en.wikipedia.org/wiki/XPath) of the element* */
         xpath?: string | undefined
         
-        /** ID of the dataset */
+        /** *ID of the dataset* */
         dataset_id?: string | undefined
         
-        /** title of the element */
+        /** *title of the element* */
         title?: string | undefined
         
-        /** URL of the image the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+        /** *URL of the image* the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
         image_url?: string | undefined
         
-        /** count of articles that refer to the dataset */
+        /** *count of articles that refer to the dataset* */
         scholarly_citations_count?: number | undefined
         
-        /** url of scholarly articles link to the list of scholarly articles on Google Scholar example: https://scholar.google.com/scholar?q=%2210.6084%20m9%20figshare%207427933%20v1%22 */
+        /** *url of scholarly articles* link to the list of scholarly articles on Google Scholar  example: `https://scholar.google.com/scholar?q=%2210.6084%20m9%20figshare%207427933%20v1%22` */
         scholarly_articles_url?: string | undefined
         
-        /** digital identifier of an object unique digital identifier of the dataset example: https://doi.org/10.5061/dryad.hmgqnk9m3 */
+        /** *digital identifier of an object* unique digital identifier of the dataset  example: `https://doi.org/10.5061/dryad.hmgqnk9m3` */
         unique_identifier?: string | undefined
         
-        /** link to related article link to the published article that is related to the dataset */
+        /** *link to related article* link to the published article that is related to the dataset */
         related_article?: string | undefined
         
-        /** sitelinks the links shown below some of Google Dataset’s search results if there are none, equals null */
+        /** *sitelinks* the links shown below some of Google Dataset's search results if there are none, equals `null` */
         links?: LinkElement[] | undefined
         
-        /** the list of institutions that provided the dataset */
+        /** *the list of institutions that provided the dataset* */
         dataset_providers?: AmazonLabelElement[] | undefined
         
-        /** the list of file formats of the dataset */
+        /** *the list of file formats of the dataset* */
         formats?: FormatsElement[] | undefined
         
-        /** the list of authors of the dataset */
+        /** *the list of authors of the dataset* */
         authors?: AuthorsElement[] | undefined
         
-        /** the list of licenses issued to the dataset */
+        /** *the list of licenses issued to the dataset* */
         licenses?: AmazonLabelElement[] | undefined
         
-        /** date and time when the result was last updated in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2022-11-27 02:00:00 +00:00 */
+        /** *date and time when the result was last updated* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2022-11-27 02:00:00 +00:00` */
         updated_date?: string | undefined
         
-        /** the list of areas covered in the dataset for example: Africa, Global */
+        /** *the list of areas covered in the dataset* for example: `Africa`, `Global` */
         area_covered?: string[] | undefined
         
-        /** period covered in the dataset */
+        /** *period covered in the dataset* */
         period_covered?: PeriodCovered | undefined
         
-        /** description of the dataset */
+        /** *description of the dataset* */
         dataset_description?: DatasetDescription | undefined
 
     [key: string]: any;
@@ -83,102 +83,102 @@ export class Dataset  implements IDataset {
     type?: string | undefined;
 
     
-    /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+    /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP absolute position among all the elements in SERP */
+    /** *absolute rank in SERP* absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
 
     
-    /** the alignment of the element in SERP can take the following values: left, right */
+    /** *the alignment of the element in SERP* can take the following values: `left`, `right` */
 
     position?: string | undefined;
 
     
-    /** the XPath of the element */
+    /** *the [XPath](https://en.wikipedia.org/wiki/XPath) of the element* */
 
     xpath?: string | undefined;
 
     
-    /** ID of the dataset */
+    /** *ID of the dataset* */
 
     dataset_id?: string | undefined;
 
     
-    /** title of the element */
+    /** *title of the element* */
 
     title?: string | undefined;
 
     
-    /** URL of the image the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+    /** *URL of the image* the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
     image_url?: string | undefined;
 
     
-    /** count of articles that refer to the dataset */
+    /** *count of articles that refer to the dataset* */
 
     scholarly_citations_count?: number | undefined;
 
     
-    /** url of scholarly articles link to the list of scholarly articles on Google Scholar example: https://scholar.google.com/scholar?q=%2210.6084%20m9%20figshare%207427933%20v1%22 */
+    /** *url of scholarly articles* link to the list of scholarly articles on Google Scholar  example: `https://scholar.google.com/scholar?q=%2210.6084%20m9%20figshare%207427933%20v1%22` */
 
     scholarly_articles_url?: string | undefined;
 
     
-    /** digital identifier of an object unique digital identifier of the dataset example: https://doi.org/10.5061/dryad.hmgqnk9m3 */
+    /** *digital identifier of an object* unique digital identifier of the dataset  example: `https://doi.org/10.5061/dryad.hmgqnk9m3` */
 
     unique_identifier?: string | undefined;
 
     
-    /** link to related article link to the published article that is related to the dataset */
+    /** *link to related article* link to the published article that is related to the dataset */
 
     related_article?: string | undefined;
 
     
-    /** sitelinks the links shown below some of Google Dataset’s search results if there are none, equals null */
+    /** *sitelinks* the links shown below some of Google Dataset's search results if there are none, equals `null` */
 
     links?: LinkElement[] | undefined;
 
     
-    /** the list of institutions that provided the dataset */
+    /** *the list of institutions that provided the dataset* */
 
     dataset_providers?: AmazonLabelElement[] | undefined;
 
     
-    /** the list of file formats of the dataset */
+    /** *the list of file formats of the dataset* */
 
     formats?: FormatsElement[] | undefined;
 
     
-    /** the list of authors of the dataset */
+    /** *the list of authors of the dataset* */
 
     authors?: AuthorsElement[] | undefined;
 
     
-    /** the list of licenses issued to the dataset */
+    /** *the list of licenses issued to the dataset* */
 
     licenses?: AmazonLabelElement[] | undefined;
 
     
-    /** date and time when the result was last updated in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2022-11-27 02:00:00 +00:00 */
+    /** *date and time when the result was last updated* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2022-11-27 02:00:00 +00:00` */
 
     updated_date?: string | undefined;
 
     
-    /** the list of areas covered in the dataset for example: Africa, Global */
+    /** *the list of areas covered in the dataset* for example: `Africa`, `Global` */
 
     area_covered?: string[] | undefined;
 
     
-    /** period covered in the dataset */
+    /** *period covered in the dataset* */
 
     period_covered?: PeriodCovered | undefined;
 
     
-    /** description of the dataset */
+    /** *description of the dataset* */
 
     dataset_description?: DatasetDescription | undefined;
 

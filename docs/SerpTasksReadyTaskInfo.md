@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpTasksReadyResultInfo[]** | array of results |[optional]|
+**result** | **SerpTasksReadyResultInfo[]** | *array of results* |[optional]|

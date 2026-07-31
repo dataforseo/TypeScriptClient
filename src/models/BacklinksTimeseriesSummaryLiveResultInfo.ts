@@ -3,22 +3,22 @@ import { BacklinksTimeseriesSummaryLiveItem, IBacklinksTimeseriesSummaryLiveItem
 
 export interface IBacklinksTimeseriesSummaryLiveResultInfo   {
         
-        /** target from a POST array */
+        /** *`target` from a POST array* */
         target?: string | undefined
         
-        /** starting date of the time range in the UTC format: “yyyy-mm-dd” example: 2019-01-01 */
+        /** *starting date of the time range* in the UTC format: “yyyy-mm-dd” example: `2019-01-01` */
         date_from?: string | undefined
         
-        /** ending date of the time range in the UTC format: 'yyyy-mm-dd' example: '2019-01-15' */
+        /** *ending date of the time range* in the UTC format: `'yyyy-mm-dd'` example: `'2019-01-15'` */
         date_to?: string | undefined
         
         /** group_range from a POST array */
         group_range?: string | undefined
         
-        /** the number of results returned in the items array */
+        /** *the number of results returned in the `items` array* */
         items_count?: number | undefined
         
-        /** contains relevant summary data */
+        /** *contains relevant summary data* */
         items?: BacklinksTimeseriesSummaryLiveItem[] | undefined
 
     [key: string]: any;
@@ -28,17 +28,17 @@ export interface IBacklinksTimeseriesSummaryLiveResultInfo   {
 export class BacklinksTimeseriesSummaryLiveResultInfo  implements IBacklinksTimeseriesSummaryLiveResultInfo {
 
     
-    /** target from a POST array */
+    /** *`target` from a POST array* */
 
     target?: string | undefined;
 
     
-    /** starting date of the time range in the UTC format: “yyyy-mm-dd” example: 2019-01-01 */
+    /** *starting date of the time range* in the UTC format: “yyyy-mm-dd” example: `2019-01-01` */
 
     date_from?: string | undefined;
 
     
-    /** ending date of the time range in the UTC format: 'yyyy-mm-dd' example: '2019-01-15' */
+    /** *ending date of the time range* in the UTC format: `'yyyy-mm-dd'` example: `'2019-01-15'` */
 
     date_to?: string | undefined;
 
@@ -48,12 +48,12 @@ export class BacklinksTimeseriesSummaryLiveResultInfo  implements IBacklinksTime
     group_range?: string | undefined;
 
     
-    /** the number of results returned in the items array */
+    /** *the number of results returned in the `items` array* */
 
     items_count?: number | undefined;
 
     
-    /** contains relevant summary data */
+    /** *contains relevant summary data* */
 
     items?: BacklinksTimeseriesSummaryLiveItem[] | undefined;
 

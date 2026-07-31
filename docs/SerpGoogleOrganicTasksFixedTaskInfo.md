@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpGoogleOrganicTasksFixedResultInfo[]** | array of results |[optional]|
+**result** | **SerpGoogleOrganicTasksFixedResultInfo[]** | *array of results* |[optional]|

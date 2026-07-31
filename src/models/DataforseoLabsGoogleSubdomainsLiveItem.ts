@@ -3,13 +3,13 @@ import { DataforseoLabsMetricsInfo, IDataforseoLabsMetricsInfo } from "./Datafor
 
 export interface IDataforseoLabsGoogleSubdomainsLiveItem   {
         
-        /** search engine type */
+        /** *search engine type* */
         se_type?: string | undefined
         
-        /** returned subdomain */
+        /** *returned subdomain* */
         subdomain?: string | undefined
         
-        /** ranking data relevant to subdomain */
+        /** *ranking data relevant to subdomain* */
         metrics?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined
 
     [key: string]: any;
@@ -19,17 +19,17 @@ export interface IDataforseoLabsGoogleSubdomainsLiveItem   {
 export class DataforseoLabsGoogleSubdomainsLiveItem  implements IDataforseoLabsGoogleSubdomainsLiveItem {
 
     
-    /** search engine type */
+    /** *search engine type* */
 
     se_type?: string | undefined;
 
     
-    /** returned subdomain */
+    /** *returned subdomain* */
 
     subdomain?: string | undefined;
 
     
-    /** ranking data relevant to subdomain */
+    /** *ranking data relevant to subdomain* */
 
     metrics?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined;
 

@@ -3,16 +3,16 @@ import { DataforseoLabsMetricsInfo, IDataforseoLabsMetricsInfo } from "./Datafor
 
 export interface IDataforseoLabsGoogleHistoricalRankOverviewLiveItem   {
         
-        /** search engine type */
+        /** *search engine type* */
         se_type?: string | undefined
         
-        /** year for which the data is provided */
+        /** *year for which the data is provided* */
         year?: number | undefined
         
-        /** month for which the data is provided */
+        /** *month for which the data is provided* */
         month?: number | undefined
         
-        /** ranking data relevant to the specified domain */
+        /** *ranking data relevant to the specified domain* */
         metrics?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined
 
     [key: string]: any;
@@ -22,22 +22,22 @@ export interface IDataforseoLabsGoogleHistoricalRankOverviewLiveItem   {
 export class DataforseoLabsGoogleHistoricalRankOverviewLiveItem  implements IDataforseoLabsGoogleHistoricalRankOverviewLiveItem {
 
     
-    /** search engine type */
+    /** *search engine type* */
 
     se_type?: string | undefined;
 
     
-    /** year for which the data is provided */
+    /** *year for which the data is provided* */
 
     year?: number | undefined;
 
     
-    /** month for which the data is provided */
+    /** *month for which the data is provided* */
 
     month?: number | undefined;
 
     
-    /** ranking data relevant to the specified domain */
+    /** *ranking data relevant to the specified domain* */
 
     metrics?: { [key: string]: DataforseoLabsMetricsInfo; } | undefined;
 

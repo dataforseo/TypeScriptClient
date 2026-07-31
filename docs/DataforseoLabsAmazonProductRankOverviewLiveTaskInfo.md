@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **DataforseoLabsAmazonProductRankOverviewLiveResultInfo[]** | array of results |[optional]|
+**result** | **DataforseoLabsAmazonProductRankOverviewLiveResultInfo[]** | *array of results* |[optional]|

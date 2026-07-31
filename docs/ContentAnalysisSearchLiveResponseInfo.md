@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **ContentAnalysisSearchLiveTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **ContentAnalysisSearchLiveTaskInfo[]** | *array of tasks* |[optional]|

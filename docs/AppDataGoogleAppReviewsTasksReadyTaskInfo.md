@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **AppDataGoogleAppReviewsTasksReadyResultInfo[]** | array of results |[optional]|
+**result** | **AppDataGoogleAppReviewsTasksReadyResultInfo[]** | *array of results* |[optional]|

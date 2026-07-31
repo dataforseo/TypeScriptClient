@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IBusinessDataTrustpilotSearchTaskGetTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: BusinessDataTrustpilotSearchTaskGetResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IBusinessDataTrustpilotSearchTaskGetTaskInfo  extends IBaseResp
 export class BusinessDataTrustpilotSearchTaskGetTaskInfo  extends BaseResponseTaskInfo   implements IBusinessDataTrustpilotSearchTaskGetTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: BusinessDataTrustpilotSearchTaskGetResultInfo[] | undefined;
 

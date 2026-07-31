@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IBusinessDataSocialMediaPinterestLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: BusinessDataSocialMediaPinterestLiveResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IBusinessDataSocialMediaPinterestLiveTaskInfo  extends IBaseRes
 export class BusinessDataSocialMediaPinterestLiveTaskInfo  extends BaseResponseTaskInfo   implements IBusinessDataSocialMediaPinterestLiveTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: BusinessDataSocialMediaPinterestLiveResultInfo[] | undefined;
 

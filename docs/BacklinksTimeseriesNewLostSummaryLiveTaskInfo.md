@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **BacklinksTimeseriesNewLostSummaryLiveResultInfo[]** | array of results |[optional]|
+**result** | **BacklinksTimeseriesNewLostSummaryLiveResultInfo[]** | *array of results* |[optional]|

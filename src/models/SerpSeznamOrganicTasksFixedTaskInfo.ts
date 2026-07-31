@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface ISerpSeznamOrganicTasksFixedTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: SerpSeznamOrganicTasksFixedResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface ISerpSeznamOrganicTasksFixedTaskInfo  extends IBaseResponseTask
 export class SerpSeznamOrganicTasksFixedTaskInfo  extends BaseResponseTaskInfo   implements ISerpSeznamOrganicTasksFixedTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: SerpSeznamOrganicTasksFixedResultInfo[] | undefined;
 

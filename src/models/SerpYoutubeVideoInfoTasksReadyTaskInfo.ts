@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface ISerpYoutubeVideoInfoTasksReadyTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: SerpYoutubeVideoInfoTasksReadyResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface ISerpYoutubeVideoInfoTasksReadyTaskInfo  extends IBaseResponseT
 export class SerpYoutubeVideoInfoTasksReadyTaskInfo  extends BaseResponseTaskInfo   implements ISerpYoutubeVideoInfoTasksReadyTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: SerpYoutubeVideoInfoTasksReadyResultInfo[] | undefined;
 

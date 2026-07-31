@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo[]** | array of results |[optional]|
+**result** | **DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo[]** | *array of results* |[optional]|

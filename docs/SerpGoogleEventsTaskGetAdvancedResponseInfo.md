@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpGoogleEventsTaskGetAdvancedTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **SerpGoogleEventsTaskGetAdvancedTaskInfo[]** | *array of tasks* |[optional]|

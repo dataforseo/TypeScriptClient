@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **BusinessDataTrustpilotReviewsTaskGetTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **BusinessDataTrustpilotReviewsTaskGetTaskInfo[]** | *array of tasks* |[optional]|

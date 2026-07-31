@@ -6,10 +6,10 @@ export interface IBaseSerpApiAdsAdvertiserElementItem   {
         /** type of element */
         type?: string | undefined
         
-        /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+        /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP absolute position among all the elements in SERP */
+        /** *absolute rank in SERP* absolute position among all the elements in SERP */
         rank_absolute?: number | undefined
 
     [key: string]: any;
@@ -24,12 +24,12 @@ export class BaseSerpApiAdsAdvertiserElementItem  implements IBaseSerpApiAdsAdve
     type?: string | undefined;
 
     
-    /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+    /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP absolute position among all the elements in SERP */
+    /** *absolute rank in SERP* absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
 
@@ -105,16 +105,16 @@ export class BaseSerpApiAdsAdvertiserElementItem  implements IBaseSerpApiAdsAdve
  
 export interface ISerpApiAdsMultiAccountAdvertiserElementItem  extends IBaseSerpApiAdsAdvertiserElementItem    {
         
-        /** title of the element */
+        /** *title of the element* */
         title?: string | undefined
         
-        /** advertiser location */
+        /** *advertiser location* */
         location?: string | undefined
         
-        /** ads count the approximate number of ads that are run by the advertiser across all available Google Ads platforms */
+        /** *ads count* the approximate number of ads that are run by the advertiser across all available Google Ads platforms */
         approx_ads_count?: number | undefined
         
-        /** associated advertiser accounts contains objects with data on associated advertiser accounts */
+        /** *associated advertiser accounts* contains objects with data on associated advertiser accounts */
         advertisers?: Advertiser[] | undefined
 
     [key: string]: any;
@@ -124,22 +124,22 @@ export interface ISerpApiAdsMultiAccountAdvertiserElementItem  extends IBaseSerp
 export class SerpApiAdsMultiAccountAdvertiserElementItem  extends BaseSerpApiAdsAdvertiserElementItem   implements ISerpApiAdsMultiAccountAdvertiserElementItem {
 
     
-    /** title of the element */
+    /** *title of the element* */
 
     title?: string | undefined;
 
     
-    /** advertiser location */
+    /** *advertiser location* */
 
     location?: string | undefined;
 
     
-    /** ads count the approximate number of ads that are run by the advertiser across all available Google Ads platforms */
+    /** *ads count* the approximate number of ads that are run by the advertiser across all available Google Ads platforms */
 
     approx_ads_count?: number | undefined;
 
     
-    /** associated advertiser accounts contains objects with data on associated advertiser accounts */
+    /** *associated advertiser accounts* contains objects with data on associated advertiser accounts */
 
     advertisers?: Advertiser[] | undefined;
 
@@ -205,19 +205,19 @@ export class SerpApiAdsMultiAccountAdvertiserElementItem  extends BaseSerpApiAds
  
 export interface ISerpApiAdsAdvertiserElementItem  extends IBaseSerpApiAdsAdvertiserElementItem    {
         
-        /** title of the element */
+        /** *title of the element* */
         title?: string | undefined
         
-        /** unique identifier of the advertiser account can be used to obtain data on advertising campaigns from the Google Ads Search endpoint */
+        /** *unique identifier of the advertiser account* can be used to obtain data on advertising campaigns from the [Google Ads Search endpoint](/v3/serp/google/ads_search/task_post/) */
         advertiser_id?: string | undefined
         
-        /** advertiser location */
+        /** *advertiser location* */
         location?: string | undefined
         
-        /** verified advertiser account equals true if advertiser account is verified by Google Ads */
+        /** *verified advertiser account* equals `true` if advertiser account is verified by Google Ads */
         verified?: boolean | undefined
         
-        /** ads count the approximate number of ads that are run by the advertiser across all available Google Ads platforms */
+        /** *ads count* the approximate number of ads that are run by the advertiser across all available Google Ads platforms */
         approx_ads_count?: number | undefined
 
     [key: string]: any;
@@ -227,27 +227,27 @@ export interface ISerpApiAdsAdvertiserElementItem  extends IBaseSerpApiAdsAdvert
 export class SerpApiAdsAdvertiserElementItem  extends BaseSerpApiAdsAdvertiserElementItem   implements ISerpApiAdsAdvertiserElementItem {
 
     
-    /** title of the element */
+    /** *title of the element* */
 
     title?: string | undefined;
 
     
-    /** unique identifier of the advertiser account can be used to obtain data on advertising campaigns from the Google Ads Search endpoint */
+    /** *unique identifier of the advertiser account* can be used to obtain data on advertising campaigns from the [Google Ads Search endpoint](/v3/serp/google/ads_search/task_post/) */
 
     advertiser_id?: string | undefined;
 
     
-    /** advertiser location */
+    /** *advertiser location* */
 
     location?: string | undefined;
 
     
-    /** verified advertiser account equals true if advertiser account is verified by Google Ads */
+    /** *verified advertiser account* equals `true` if advertiser account is verified by Google Ads */
 
     verified?: boolean | undefined;
 
     
-    /** ads count the approximate number of ads that are run by the advertiser across all available Google Ads platforms */
+    /** *ads count* the approximate number of ads that are run by the advertiser across all available Google Ads platforms */
 
     approx_ads_count?: number | undefined;
 
@@ -302,7 +302,7 @@ export class SerpApiAdsAdvertiserElementItem  extends BaseSerpApiAdsAdvertiserEl
  
 export interface ISerpApiAdsDomainElementItem  extends IBaseSerpApiAdsAdvertiserElementItem    {
         
-        /** domain in SERP */
+        /** *domain in SERP* */
         domain?: string | undefined
 
     [key: string]: any;
@@ -312,7 +312,7 @@ export interface ISerpApiAdsDomainElementItem  extends IBaseSerpApiAdsAdvertiser
 export class SerpApiAdsDomainElementItem  extends BaseSerpApiAdsAdvertiserElementItem   implements ISerpApiAdsDomainElementItem {
 
     
-    /** domain in SERP */
+    /** *domain in SERP* */
 
     domain?: string | undefined;
 

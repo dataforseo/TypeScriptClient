@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **OnPageDuplicateContentTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **OnPageDuplicateContentTaskInfo[]** | *array of tasks* |[optional]|

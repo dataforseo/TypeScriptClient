@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IAppDataIdListTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: AppDataIdListResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IAppDataIdListTaskInfo  extends IBaseResponseTaskInfo    {
 export class AppDataIdListTaskInfo  extends BaseResponseTaskInfo   implements IAppDataIdListTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: AppDataIdListResultInfo[] | undefined;
 

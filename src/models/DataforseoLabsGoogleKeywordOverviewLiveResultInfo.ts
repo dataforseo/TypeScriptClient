@@ -3,19 +3,19 @@ import { DataforseoLabsGoogleKeywordOverviewLiveItem, IDataforseoLabsGoogleKeywo
 
 export interface IDataforseoLabsGoogleKeywordOverviewLiveResultInfo   {
         
-        /** search engine type */
+        /** *search engine type* */
         se_type?: string | undefined
         
-        /** location code in a POST array */
+        /** *location code in a POST array* */
         location_code?: number | undefined
         
-        /** language code in a POST array */
+        /** *language code in a POST array* */
         language_code?: string | undefined
         
-        /** the number of results returned in the items array */
+        /** *the number of results returned in the `items` array* */
         items_count?: number | undefined
         
-        /** contains keywords and related data */
+        /** *contains keywords and related data* */
         items?: DataforseoLabsGoogleKeywordOverviewLiveItem[] | undefined
 
     [key: string]: any;
@@ -25,27 +25,27 @@ export interface IDataforseoLabsGoogleKeywordOverviewLiveResultInfo   {
 export class DataforseoLabsGoogleKeywordOverviewLiveResultInfo  implements IDataforseoLabsGoogleKeywordOverviewLiveResultInfo {
 
     
-    /** search engine type */
+    /** *search engine type* */
 
     se_type?: string | undefined;
 
     
-    /** location code in a POST array */
+    /** *location code in a POST array* */
 
     location_code?: number | undefined;
 
     
-    /** language code in a POST array */
+    /** *language code in a POST array* */
 
     language_code?: string | undefined;
 
     
-    /** the number of results returned in the items array */
+    /** *the number of results returned in the `items` array* */
 
     items_count?: number | undefined;
 
     
-    /** contains keywords and related data */
+    /** *contains keywords and related data* */
 
     items?: DataforseoLabsGoogleKeywordOverviewLiveItem[] | undefined;
 

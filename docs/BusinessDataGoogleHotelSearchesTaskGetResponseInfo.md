@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **BusinessDataGoogleHotelSearchesTaskGetTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **BusinessDataGoogleHotelSearchesTaskGetTaskInfo[]** | *array of tasks* |[optional]|

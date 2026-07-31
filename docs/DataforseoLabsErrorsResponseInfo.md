@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **DataforseoLabsErrorsTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **DataforseoLabsErrorsTaskInfo[]** | *array of tasks* |[optional]|

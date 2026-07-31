@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpGoogleLocationsCountryTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **SerpGoogleLocationsCountryTaskInfo[]** | *array of tasks* |[optional]|

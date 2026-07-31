@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **AppendixUserDataResultInfo[]** | array of results |[optional]|
+**result** | **AppendixUserDataResultInfo[]** | *array of results* |[optional]|

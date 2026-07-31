@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface IBacklinksTimeseriesSummaryLiveResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: BacklinksTimeseriesSummaryLiveTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IBacklinksTimeseriesSummaryLiveResponseInfo  extends IBaseRespo
 export class BacklinksTimeseriesSummaryLiveResponseInfo  extends BaseResponseInfo   implements IBacklinksTimeseriesSummaryLiveResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: BacklinksTimeseriesSummaryLiveTaskInfo[] | undefined;
 

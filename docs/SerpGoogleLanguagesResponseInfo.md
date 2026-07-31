@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpGoogleLanguagesTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **SerpGoogleLanguagesTaskInfo[]** | *array of tasks* |[optional]|

@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpYahooLanguagesResultInfo[]** | array of results |[optional]|
+**result** | **SerpYahooLanguagesResultInfo[]** | *array of results* |[optional]|

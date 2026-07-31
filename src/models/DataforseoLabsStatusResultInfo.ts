@@ -3,13 +3,13 @@ import { DataforseoLabsStatusInfo, IDataforseoLabsStatusInfo } from "./Dataforse
 
 export interface IDataforseoLabsStatusResultInfo   {
         
-        /** update information for the Google endpoints */
+        /** *update information for the Google endpoints* */
         google?: DataforseoLabsStatusInfo | undefined
         
-        /** update information for the Bing endpoints */
+        /** *update information for the Bing endpoints* */
         bing?: DataforseoLabsStatusInfo | undefined
         
-        /** update information for the Amazon endpoints */
+        /** *update information for the Amazon endpoints* */
         amazon?: DataforseoLabsStatusInfo | undefined
 
     [key: string]: any;
@@ -19,17 +19,17 @@ export interface IDataforseoLabsStatusResultInfo   {
 export class DataforseoLabsStatusResultInfo  implements IDataforseoLabsStatusResultInfo {
 
     
-    /** update information for the Google endpoints */
+    /** *update information for the Google endpoints* */
 
     google?: DataforseoLabsStatusInfo | undefined;
 
     
-    /** update information for the Bing endpoints */
+    /** *update information for the Bing endpoints* */
 
     bing?: DataforseoLabsStatusInfo | undefined;
 
     
-    /** update information for the Amazon endpoints */
+    /** *update information for the Amazon endpoints* */
 
     amazon?: DataforseoLabsStatusInfo | undefined;
 

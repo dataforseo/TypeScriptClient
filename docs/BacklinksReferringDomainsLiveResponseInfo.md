@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **BacklinksReferringDomainsLiveTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **BacklinksReferringDomainsLiveTaskInfo[]** | *array of tasks* |[optional]|

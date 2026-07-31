@@ -1,54 +1,54 @@
 export interface IBacklinksPageMeta   {
         
-        /** page title */
+        /** *page title* */
         title?: string | undefined
         
-        /** canonical page */
+        /** *canonical page* */
         canonical?: string | undefined
         
-        /** number of internal links on the page */
+        /** *number of internal links on the page* */
         internal_links_count?: number | undefined
         
-        /** number of external links on the page */
+        /** *number of external links on the page* */
         external_links_count?: number | undefined
         
-        /** number of images on the page */
+        /** *number of images on the page* */
         images_count?: number | undefined
         
-        /** number of words on the page */
+        /** *number of words on the page* */
         words_count?: number | undefined
         
-        /** spam score of the page learn more about how the metric is calculated on this help center page */
+        /** *spam score of the page* learn more about how the metric is calculated on [this help center page](https://dataforseo.com/help-center/what-is-spam-score-and-how-is-it-calculated) */
         page_spam_score?: number | undefined
         
-        /** array of social media tags found on the page contains social media tags and their content supported tags include but are not limited to Open Graph and Twitter card */
+        /** *array of social media tags found on the page* contains social media tags and their content supported tags include but are not limited to [Open Graph](https://ogp.me/) and [Twitter card](https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started) */
         social_media_tags?: { [key: string]: string; } | undefined
         
-        /** h1 tag content of h1 tags */
+        /** *h1 tag* content of `h1` tags */
         h_1?: string[] | undefined
         
-        /** h2 tag content of h2 tags */
+        /** *h2 tag* content of `h2` tags */
         h_2?: string[] | undefined
         
-        /** h3 tag content of h3 tags */
+        /** *h3 tag* content of `h3` tags */
         h_3?: string[] | undefined
         
-        /** content of alt tags */
+        /** *content of `alt` tags* */
         images_alt?: string[] | undefined
         
-        /** CMS details */
+        /** *CMS details* */
         powered_by?: string[] | undefined
         
-        /** page content language example: en */
+        /** *page content language* example: `en` */
         language?: string | undefined
         
-        /** character encoding examples: utf-8 */
+        /** *character encoding* examples: `utf-8` */
         charset?: string | undefined
         
-        /** type of a platform */
+        /** *type of a platform* */
         platform_type?: string[] | undefined
         
-        /** website technologies */
+        /** *website technologies* */
         technologies?: { [key: string]: string; } | undefined
 
     [key: string]: any;
@@ -58,87 +58,87 @@ export interface IBacklinksPageMeta   {
 export class BacklinksPageMeta  implements IBacklinksPageMeta {
 
     
-    /** page title */
+    /** *page title* */
 
     title?: string | undefined;
 
     
-    /** canonical page */
+    /** *canonical page* */
 
     canonical?: string | undefined;
 
     
-    /** number of internal links on the page */
+    /** *number of internal links on the page* */
 
     internal_links_count?: number | undefined;
 
     
-    /** number of external links on the page */
+    /** *number of external links on the page* */
 
     external_links_count?: number | undefined;
 
     
-    /** number of images on the page */
+    /** *number of images on the page* */
 
     images_count?: number | undefined;
 
     
-    /** number of words on the page */
+    /** *number of words on the page* */
 
     words_count?: number | undefined;
 
     
-    /** spam score of the page learn more about how the metric is calculated on this help center page */
+    /** *spam score of the page* learn more about how the metric is calculated on [this help center page](https://dataforseo.com/help-center/what-is-spam-score-and-how-is-it-calculated) */
 
     page_spam_score?: number | undefined;
 
     
-    /** array of social media tags found on the page contains social media tags and their content supported tags include but are not limited to Open Graph and Twitter card */
+    /** *array of social media tags found on the page* contains social media tags and their content supported tags include but are not limited to [Open Graph](https://ogp.me/) and [Twitter card](https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started) */
 
     social_media_tags?: { [key: string]: string; } | undefined;
 
     
-    /** h1 tag content of h1 tags */
+    /** *h1 tag* content of `h1` tags */
 
     h_1?: string[] | undefined;
 
     
-    /** h2 tag content of h2 tags */
+    /** *h2 tag* content of `h2` tags */
 
     h_2?: string[] | undefined;
 
     
-    /** h3 tag content of h3 tags */
+    /** *h3 tag* content of `h3` tags */
 
     h_3?: string[] | undefined;
 
     
-    /** content of alt tags */
+    /** *content of `alt` tags* */
 
     images_alt?: string[] | undefined;
 
     
-    /** CMS details */
+    /** *CMS details* */
 
     powered_by?: string[] | undefined;
 
     
-    /** page content language example: en */
+    /** *page content language* example: `en` */
 
     language?: string | undefined;
 
     
-    /** character encoding examples: utf-8 */
+    /** *character encoding* examples: `utf-8` */
 
     charset?: string | undefined;
 
     
-    /** type of a platform */
+    /** *type of a platform* */
 
     platform_type?: string[] | undefined;
 
     
-    /** website technologies */
+    /** *website technologies* */
 
     technologies?: { [key: string]: string; } | undefined;
 

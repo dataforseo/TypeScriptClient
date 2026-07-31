@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IBacklinksReferringDomainsLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: BacklinksReferringDomainsLiveResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IBacklinksReferringDomainsLiveTaskInfo  extends IBaseResponseTa
 export class BacklinksReferringDomainsLiveTaskInfo  extends BaseResponseTaskInfo   implements IBacklinksReferringDomainsLiveTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: BacklinksReferringDomainsLiveResultInfo[] | undefined;
 

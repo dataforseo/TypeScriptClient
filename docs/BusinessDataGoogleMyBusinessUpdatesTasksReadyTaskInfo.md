@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **BusinessDataGoogleMyBusinessUpdatesTasksReadyResultInfo[]** | array of results |[optional]|
+**result** | **BusinessDataGoogleMyBusinessUpdatesTasksReadyResultInfo[]** | *array of results* |[optional]|
