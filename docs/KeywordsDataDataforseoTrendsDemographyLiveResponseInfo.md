@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **KeywordsDataDataforseoTrendsDemographyLiveTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **KeywordsDataDataforseoTrendsDemographyLiveTaskInfo[]** | *array of tasks* |[optional]|

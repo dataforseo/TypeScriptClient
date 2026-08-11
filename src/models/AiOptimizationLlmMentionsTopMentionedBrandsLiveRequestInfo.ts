@@ -18,7 +18,7 @@ export interface IAiOptimizationLlmMentionsTopMentionedBrandsLiveRequestInfo   {
         /** *search language code* optional field if you use this field, you don't need to specify `language_name`; you can receive the list of available languages of the search engine with their `language_code` by making a separate request to the `https://api.dataforseo.com/v3/ai_optimization/llm_mentions/locations_and_languages` default value: `en` Note: `chat_gpt` data is available for `en` only */
         language_code?: string | undefined
         
-        /** *target platform* optional field possible values: `chat_gpt`, `google` **Note:** if the `platform` is not specified, the data is returned for both platforms **Note #2:**`chat_gpt` data is available for the `United States` and `English` only */
+        /** *target platform* optional field possible values: `chat_gpt`, `google` **Note:** data specific to brand entities is available for `chat_gpt` only; **Note #2:**`chat_gpt` data is available for the `United States` and `English` only */
         platform?: string | undefined
         
         /** *array of results filtering parameters* optional field **you can add several filters at once (8 filters maximum)** you should set a logical operator `and`, `or` between the conditions the following operators are supported: `=`, `<>`, `in`, `not_in`, `like`, `not_like`, `ilike`, `not_ilike`, `match`, `not_match` you can use the `%` operator with `like` and `not_like` to match any string of zero or more characters example: `['ai_search_volume','>',1000]` The full list of possible filters is available [here.](/v3/ai_optimization/llm_mentions/filters/) */
@@ -80,7 +80,7 @@ export class AiOptimizationLlmMentionsTopMentionedBrandsLiveRequestInfo  impleme
     language_code?: string | undefined;
 
     
-    /** *target platform* optional field possible values: `chat_gpt`, `google` **Note:** if the `platform` is not specified, the data is returned for both platforms **Note #2:**`chat_gpt` data is available for the `United States` and `English` only */
+    /** *target platform* optional field possible values: `chat_gpt`, `google` **Note:** data specific to brand entities is available for `chat_gpt` only; **Note #2:**`chat_gpt` data is available for the `United States` and `English` only */
 
     platform?: string | undefined;
 

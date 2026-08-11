@@ -1,12 +1,12 @@
 export interface IFetchTiming   {
         
-        /** total time it takes until a browser receives a complete response from a server (in milliseconds) */
+        /** *total time it takes until a browser receives a complete response from a server (in milliseconds)* */
         duration_time?: number | undefined
         
-        /** time to start downloading the HTML resource the amount of time the browser needs to start downloading a page */
+        /** *time to start downloading the HTML resource* the amount of time the browser needs to start downloading a page */
         fetch_start?: number | undefined
         
-        /** time to complete downloading the HTML resource the amount of time the browser needs to complete downloading a page */
+        /** *time to complete downloading the HTML resource* the amount of time the browser needs to complete downloading a page */
         fetch_end?: number | undefined
 
     [key: string]: any;
@@ -16,17 +16,17 @@ export interface IFetchTiming   {
 export class FetchTiming  implements IFetchTiming {
 
     
-    /** total time it takes until a browser receives a complete response from a server (in milliseconds) */
+    /** *total time it takes until a browser receives a complete response from a server (in milliseconds)* */
 
     duration_time?: number | undefined;
 
     
-    /** time to start downloading the HTML resource the amount of time the browser needs to start downloading a page */
+    /** *time to start downloading the HTML resource* the amount of time the browser needs to start downloading a page */
 
     fetch_start?: number | undefined;
 
     
-    /** time to complete downloading the HTML resource the amount of time the browser needs to complete downloading a page */
+    /** *time to complete downloading the HTML resource* the amount of time the browser needs to complete downloading a page */
 
     fetch_end?: number | undefined;
 

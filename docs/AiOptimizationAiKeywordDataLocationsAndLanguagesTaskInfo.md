@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **AiOptimizationAiKeywordDataLocationsAndLanguagesResultInfo[]** | array of results |[optional]|
+**result** | **AiOptimizationAiKeywordDataLocationsAndLanguagesResultInfo[]** | *array of results* |[optional]|

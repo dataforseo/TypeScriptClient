@@ -4,19 +4,19 @@ import { OnPageRedirectChainsItem, IOnPageRedirectChainsItem } from "./OnPageRed
 
 export interface IOnPageRedirectChainsResultInfo   {
         
-        /** status of the crawling session possible values: in_progress, finished */
+        /** *status of the crawling session* possible values: `in_progress`, `finished` */
         crawl_progress?: string | undefined
         
-        /** details of the crawling session */
+        /** *details of the crawling session* */
         crawl_status?: CrawlStatusInfo | undefined
         
-        /** total number of relevant items in the database */
+        /** *total number of relevant items in the database* */
         total_items_count?: number | undefined
         
-        /** number of items in the results array */
+        /** *number of items in the results array* */
         items_count?: number | undefined
         
-        /** items array */
+        /** *items array* */
         items?: OnPageRedirectChainsItem[] | undefined
 
     [key: string]: any;
@@ -26,27 +26,27 @@ export interface IOnPageRedirectChainsResultInfo   {
 export class OnPageRedirectChainsResultInfo  implements IOnPageRedirectChainsResultInfo {
 
     
-    /** status of the crawling session possible values: in_progress, finished */
+    /** *status of the crawling session* possible values: `in_progress`, `finished` */
 
     crawl_progress?: string | undefined;
 
     
-    /** details of the crawling session */
+    /** *details of the crawling session* */
 
     crawl_status?: CrawlStatusInfo | undefined;
 
     
-    /** total number of relevant items in the database */
+    /** *total number of relevant items in the database* */
 
     total_items_count?: number | undefined;
 
     
-    /** number of items in the results array */
+    /** *number of items in the results array* */
 
     items_count?: number | undefined;
 
     
-    /** items array */
+    /** *items array* */
 
     items?: OnPageRedirectChainsItem[] | undefined;
 

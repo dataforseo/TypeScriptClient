@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IKeywordsDataBingAudienceEstimationLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: KeywordsDataBingAudienceEstimationLiveResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IKeywordsDataBingAudienceEstimationLiveTaskInfo  extends IBaseR
 export class KeywordsDataBingAudienceEstimationLiveTaskInfo  extends BaseResponseTaskInfo   implements IKeywordsDataBingAudienceEstimationLiveTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: KeywordsDataBingAudienceEstimationLiveResultInfo[] | undefined;
 

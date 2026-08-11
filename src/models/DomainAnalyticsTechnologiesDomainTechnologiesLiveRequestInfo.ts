@@ -1,6 +1,6 @@
 export interface IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo   {
         
-        /** target domain required field domain name of the website to analyze Note: results will be returned for the specified domain only */
+        /** *target domain* **required field** domain name of the website to analyze **Note:** results will be returned for the specified domain only */
         target?: string | undefined
 
     [key: string]: any;
@@ -10,7 +10,7 @@ export interface IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo  
 export class DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo  implements IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo {
 
     
-    /** target domain required field domain name of the website to analyze Note: results will be returned for the specified domain only */
+    /** *target domain* **required field** domain name of the website to analyze **Note:** results will be returned for the specified domain only */
 
     target?: string | undefined;
 

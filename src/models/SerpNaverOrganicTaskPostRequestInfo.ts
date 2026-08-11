@@ -3,52 +3,46 @@ import { SerpApiStopCrawlOnMatchInfo, ISerpApiStopCrawlOnMatchInfo } from "./Ser
 
 export interface ISerpNaverOrganicTaskPostRequestInfo   {
         
-        /** keyword required field you can specify up to 700 characters in the keyword field all %## will be decoded (plus character ‘+’ will be decoded to a space character) if you need to use the “%” character for your keyword, please specify it as “%25”; if you need to use the “+” character for your keyword, please specify it as “%2B” learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
+        /** *keyword* **required field** you can specify **up to 700 characters** in the `keyword` field all %## will be decoded (plus character ‘+’ will be decoded to a space character) if you need to use the “%” character for your `keyword`, please specify it as “%25”; if you need to use the “+” character for your `keyword`, please specify it as “%2B” learn more about rules and limitations of `keyword` and `keywords` fields in DataForSEO APIs in this [Help Center article](https://dataforseo.com/help-center/rules-and-limitations-of-keyword-and-keywords-fields-in-dataforseo-apis) */
         keyword?: string | undefined
         
-        /** direct URL of the search query optional field you can specify a direct URL and we will sort it out to the necessary fields in most cases, we wouldn’t recommend using this method; example: https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=iphone */
+        /** *direct URL of the search query* optional field you can specify a direct URL and we will sort it out to the necessary fields in most cases, we wouldn’t recommend using this method; example: `https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=iphone` */
         url?: string | undefined
         
-        /** task priority optional field can take the following values: 1 – normal execution priority (set by default) 2 – high execution priority You will be additionally charged for the tasks with high execution priority. The cost can be calculated on the Pricing page. */
+        /** *task priority* optional field can take the following values: 1 – normal execution priority (set by default) 2 – high execution priorityYou will be additionally charged for the tasks with high execution priority. The cost can be calculated on the [Pricing](https://dataforseo.com/pricing/serp/naver-organic-serp-api) page. */
         priority?: number | undefined
         
-        /** parsing depth optional field number of results in SERP default value: 15 max value: 700 Your account will be billed per each SERP containing up to 15 results; Setting depth above 15 may result in additional charges if the search engine returns more than 15 results; The cost can be calculated on the Pricing page. */
+        /** *parsing depth* optional field number of results in SERP default value: `15` max value: `700` **Your account will be billed per each SERP containing up to 15 results;**  Setting depth above 15 may result in additional charges [if the search engine returns more than 15 results](https://dataforseo.com/help-center/how-many-results-scraped); The cost can be calculated on the [Pricing](https://dataforseo.com/pricing/serp/naver-organic-serp-api) page. */
         depth?: number | undefined
         
-        /** page crawl limit optional field number of search results pages to crawl default value: 1 max value: 100 Note: the max_crawl_pages and depth parameters complement each other; learn more at our help center */
+        /** *page crawl limit* optional field number of search results pages to crawl default value: `1` max value: `100` **Note:** the `max_crawl_pages` and `depth` parameters complement each other; learn more at [our help center](https://dataforseo.com/help-center/what-is-max-crawl-pages-and-how-does-it-work) */
         max_crawl_pages?: number | undefined
         
-        /** device type optional field return results for a specific device type can take the values:desktop, mobile default value: desktop */
+        /** *device type* optional field return results for a specific device type can take the values:`desktop`, `mobile` default value: `desktop` */
         device?: string | undefined
         
-        /** device operating system optional field if you specify desktop in the device field, choose from the following values: windows, macos default value: windows if you specify mobile in the device field, choose from the following values: android, ios default value: android */
+        /** *device operating system* optional field if you specify `desktop` in the `device` field, choose from the following values: `windows`, `macos` default value: `windows` if you specify `mobile` in the `device` field, choose from the following values: `android`, `ios` default value: `android` */
         os?: string | undefined
         
-        /** search engine domain optional field we choose the relevant search engine domain automatically however, you can set a custom search engine domain in this field example: search.naver.com */
+        /** *search engine domain* optional field we choose the relevant search engine domain automatically however, you can set a custom search engine domain in this field example: ``*search.naver.com* */
         se_domain?: string | undefined
         
-        /** additional parameters of the search query optional field get the list of available parameters and additional details here */
+        /** *additional parameters of the search query* optional field [get the list of available parameters and additional details here](https://dataforseo.com/what-are-google-search-parameters-and-how-to-use-them-with-serp-api.html) */
         search_param?: string | undefined
         
         /** array of targets to stop crawling optional field if specified, the response will contain SERP results up to and including the specified match_value; you can specify up to 10 target values in this array example: 'stop_crawl_on_match':[{'match_value':'dataforseo.com','match_type':'with_subdomains'}] learn more about this parameter on our Help Center - https://dataforseo.com/help-center/using-the-stop_crawl_on_match-parameter-in-serp-api Your account will be billed per each SERP crawled through the specified targets */
         stop_crawl_on_match?: SerpApiStopCrawlOnMatchInfo[] | undefined
         
-        /** target domain, subdomain, or wildcard value required field if stop_crawl_on_match is specified specify a target domain, subdomain, or wildcard value; Note: domain or subdomain must be specified without a request protocol; example: 'match_value': 'dataforseo.com', 'match_value': '/blog/post-*' */
-        match_value?: string | undefined
-        
-        /** target match type required field if stop_crawl_on_match is specified type of match for the match_value possible values: domain – specific domain or subdomain with_subdomains – main domain and subdomains wildcard –  wildcard pattern */
-        match_type?: string | undefined
-        
-        /** user-defined task identifier optional field the character limit is 255 you can use this parameter to identify the task and match it with the result you will find the specified tag value in the data object of the response */
+        /** *user-defined task identifier* optional field *the character limit is 255* you can use this parameter to identify the task and match it with the result you will find the specified `tag` value in the `data` object of the response */
         tag?: string | undefined
         
-        /** URL for sending task results optional field once the task is completed, we will send a POST request with its results compressed in the gzip format to the postback_url you specified you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded $tag variable. We will set the necessary values before sending the request. example: http://your-server.com/postbackscript?id=$id http://your-server.com/postbackscript?id=$id&tag=$tag Note: special characters in postback_url will be urlencoded; i.a., the # character will be encoded into %23 learn more on our Help Center */
+        /** *URL for sending task results* optional field once the task is completed, we will send a POST request with its results compressed in the `gzip` format to the `postback_url` you specified you can use the ‘$id’ string as a `$id` variable and ‘$tag’ as urlencoded `$tag` variable. We will set the necessary values before sending the request. example: `http://your-server.com/postbackscript?id=$id` `http://your-server.com/postbackscript?id=$id&tag=$tag` **Note:** special characters in `postback_url` will be urlencoded; i.a., the `#` character will be encoded into `%23` learn more on our [Help Center](https://dataforseo.com/help-center/pingbacks-postbacks-with-dataforseo-api) */
         postback_url?: string | undefined
         
-        /** postback_url datatype required field if you specify postback_url corresponds to the function you used for setting a task possible values: regular, advanced, html */
+        /** *postback_url datatype* **required field if you specify `postback_url`** corresponds to the function you used for setting a task possible values: `regular`, `advanced`, `html` */
         postback_data?: string | undefined
         
-        /** notification URL of a completed task optional field when a task is completed we will notify you by GET request sent to the URL you have specified you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded $tag variable. We will set the necessary values before sending the request. example: http://your-server.com/pingscript?id=$id http://your-server.com/pingscript?id=$id&tag=$tag Note: special characters in pingback_url will be urlencoded; i.a., the # character will be encoded into %23 learn more on our Help Center */
+        /** *notification URL of a completed task* optional field when a task is completed we will notify you by GET request sent to the URL you have specified you can use the ‘$id’ string as a `$id` variable and ‘$tag’ as urlencoded `$tag` variable. We will set the necessary values before sending the request. example: `http://your-server.com/pingscript?id=$id` `http://your-server.com/pingscript?id=$id&tag=$tag` **Note:** special characters in `pingback_url` will be urlencoded; i.a., the `#` character will be encoded into `%23` learn more on our [Help Center](https://dataforseo.com/help-center/pingbacks-postbacks-with-dataforseo-api) */
         pingback_url?: string | undefined
 
     [key: string]: any;
@@ -58,47 +52,47 @@ export interface ISerpNaverOrganicTaskPostRequestInfo   {
 export class SerpNaverOrganicTaskPostRequestInfo  implements ISerpNaverOrganicTaskPostRequestInfo {
 
     
-    /** keyword required field you can specify up to 700 characters in the keyword field all %## will be decoded (plus character ‘+’ will be decoded to a space character) if you need to use the “%” character for your keyword, please specify it as “%25”; if you need to use the “+” character for your keyword, please specify it as “%2B” learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article */
+    /** *keyword* **required field** you can specify **up to 700 characters** in the `keyword` field all %## will be decoded (plus character ‘+’ will be decoded to a space character) if you need to use the “%” character for your `keyword`, please specify it as “%25”; if you need to use the “+” character for your `keyword`, please specify it as “%2B” learn more about rules and limitations of `keyword` and `keywords` fields in DataForSEO APIs in this [Help Center article](https://dataforseo.com/help-center/rules-and-limitations-of-keyword-and-keywords-fields-in-dataforseo-apis) */
 
     keyword?: string | undefined;
 
     
-    /** direct URL of the search query optional field you can specify a direct URL and we will sort it out to the necessary fields in most cases, we wouldn’t recommend using this method; example: https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=iphone */
+    /** *direct URL of the search query* optional field you can specify a direct URL and we will sort it out to the necessary fields in most cases, we wouldn’t recommend using this method; example: `https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=iphone` */
 
     url?: string | undefined;
 
     
-    /** task priority optional field can take the following values: 1 – normal execution priority (set by default) 2 – high execution priority You will be additionally charged for the tasks with high execution priority. The cost can be calculated on the Pricing page. */
+    /** *task priority* optional field can take the following values: 1 – normal execution priority (set by default) 2 – high execution priorityYou will be additionally charged for the tasks with high execution priority. The cost can be calculated on the [Pricing](https://dataforseo.com/pricing/serp/naver-organic-serp-api) page. */
 
     priority?: number | undefined;
 
     
-    /** parsing depth optional field number of results in SERP default value: 15 max value: 700 Your account will be billed per each SERP containing up to 15 results; Setting depth above 15 may result in additional charges if the search engine returns more than 15 results; The cost can be calculated on the Pricing page. */
+    /** *parsing depth* optional field number of results in SERP default value: `15` max value: `700` **Your account will be billed per each SERP containing up to 15 results;**  Setting depth above 15 may result in additional charges [if the search engine returns more than 15 results](https://dataforseo.com/help-center/how-many-results-scraped); The cost can be calculated on the [Pricing](https://dataforseo.com/pricing/serp/naver-organic-serp-api) page. */
 
     depth?: number | undefined;
 
     
-    /** page crawl limit optional field number of search results pages to crawl default value: 1 max value: 100 Note: the max_crawl_pages and depth parameters complement each other; learn more at our help center */
+    /** *page crawl limit* optional field number of search results pages to crawl default value: `1` max value: `100` **Note:** the `max_crawl_pages` and `depth` parameters complement each other; learn more at [our help center](https://dataforseo.com/help-center/what-is-max-crawl-pages-and-how-does-it-work) */
 
     max_crawl_pages?: number | undefined;
 
     
-    /** device type optional field return results for a specific device type can take the values:desktop, mobile default value: desktop */
+    /** *device type* optional field return results for a specific device type can take the values:`desktop`, `mobile` default value: `desktop` */
 
     device?: string | undefined;
 
     
-    /** device operating system optional field if you specify desktop in the device field, choose from the following values: windows, macos default value: windows if you specify mobile in the device field, choose from the following values: android, ios default value: android */
+    /** *device operating system* optional field if you specify `desktop` in the `device` field, choose from the following values: `windows`, `macos` default value: `windows` if you specify `mobile` in the `device` field, choose from the following values: `android`, `ios` default value: `android` */
 
     os?: string | undefined;
 
     
-    /** search engine domain optional field we choose the relevant search engine domain automatically however, you can set a custom search engine domain in this field example: search.naver.com */
+    /** *search engine domain* optional field we choose the relevant search engine domain automatically however, you can set a custom search engine domain in this field example: ``*search.naver.com* */
 
     se_domain?: string | undefined;
 
     
-    /** additional parameters of the search query optional field get the list of available parameters and additional details here */
+    /** *additional parameters of the search query* optional field [get the list of available parameters and additional details here](https://dataforseo.com/what-are-google-search-parameters-and-how-to-use-them-with-serp-api.html) */
 
     search_param?: string | undefined;
 
@@ -108,32 +102,22 @@ export class SerpNaverOrganicTaskPostRequestInfo  implements ISerpNaverOrganicTa
     stop_crawl_on_match?: SerpApiStopCrawlOnMatchInfo[] | undefined;
 
     
-    /** target domain, subdomain, or wildcard value required field if stop_crawl_on_match is specified specify a target domain, subdomain, or wildcard value; Note: domain or subdomain must be specified without a request protocol; example: 'match_value': 'dataforseo.com', 'match_value': '/blog/post-*' */
-
-    match_value?: string | undefined;
-
-    
-    /** target match type required field if stop_crawl_on_match is specified type of match for the match_value possible values: domain – specific domain or subdomain with_subdomains – main domain and subdomains wildcard –  wildcard pattern */
-
-    match_type?: string | undefined;
-
-    
-    /** user-defined task identifier optional field the character limit is 255 you can use this parameter to identify the task and match it with the result you will find the specified tag value in the data object of the response */
+    /** *user-defined task identifier* optional field *the character limit is 255* you can use this parameter to identify the task and match it with the result you will find the specified `tag` value in the `data` object of the response */
 
     tag?: string | undefined;
 
     
-    /** URL for sending task results optional field once the task is completed, we will send a POST request with its results compressed in the gzip format to the postback_url you specified you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded $tag variable. We will set the necessary values before sending the request. example: http://your-server.com/postbackscript?id=$id http://your-server.com/postbackscript?id=$id&tag=$tag Note: special characters in postback_url will be urlencoded; i.a., the # character will be encoded into %23 learn more on our Help Center */
+    /** *URL for sending task results* optional field once the task is completed, we will send a POST request with its results compressed in the `gzip` format to the `postback_url` you specified you can use the ‘$id’ string as a `$id` variable and ‘$tag’ as urlencoded `$tag` variable. We will set the necessary values before sending the request. example: `http://your-server.com/postbackscript?id=$id` `http://your-server.com/postbackscript?id=$id&tag=$tag` **Note:** special characters in `postback_url` will be urlencoded; i.a., the `#` character will be encoded into `%23` learn more on our [Help Center](https://dataforseo.com/help-center/pingbacks-postbacks-with-dataforseo-api) */
 
     postback_url?: string | undefined;
 
     
-    /** postback_url datatype required field if you specify postback_url corresponds to the function you used for setting a task possible values: regular, advanced, html */
+    /** *postback_url datatype* **required field if you specify `postback_url`** corresponds to the function you used for setting a task possible values: `regular`, `advanced`, `html` */
 
     postback_data?: string | undefined;
 
     
-    /** notification URL of a completed task optional field when a task is completed we will notify you by GET request sent to the URL you have specified you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded $tag variable. We will set the necessary values before sending the request. example: http://your-server.com/pingscript?id=$id http://your-server.com/pingscript?id=$id&tag=$tag Note: special characters in pingback_url will be urlencoded; i.a., the # character will be encoded into %23 learn more on our Help Center */
+    /** *notification URL of a completed task* optional field when a task is completed we will notify you by GET request sent to the URL you have specified you can use the ‘$id’ string as a `$id` variable and ‘$tag’ as urlencoded `$tag` variable. We will set the necessary values before sending the request. example: `http://your-server.com/pingscript?id=$id` `http://your-server.com/pingscript?id=$id&tag=$tag` **Note:** special characters in `pingback_url` will be urlencoded; i.a., the `#` character will be encoded into `%23` learn more on our [Help Center](https://dataforseo.com/help-center/pingbacks-postbacks-with-dataforseo-api) */
 
     pingback_url?: string | undefined;
 
@@ -172,8 +156,6 @@ export class SerpNaverOrganicTaskPostRequestInfo  implements ISerpNaverOrganicTa
                     this.stop_crawl_on_match.push(SerpApiStopCrawlOnMatchInfo.fromJS(item));
                 }
             }
-            this.match_value = data["match_value"];
-            this.match_type = data["match_type"];
             this.tag = data["tag"];
             this.postback_url = data["postback_url"];
             this.postback_data = data["postback_data"];
@@ -213,8 +195,6 @@ export class SerpNaverOrganicTaskPostRequestInfo  implements ISerpNaverOrganicTa
                 }
             }
         }
-        data["match_value"] = this.match_value;
-        data["match_type"] = this.match_type;
         data["tag"] = this.tag;
         data["postback_url"] = this.postback_url;
         data["postback_data"] = this.postback_data;

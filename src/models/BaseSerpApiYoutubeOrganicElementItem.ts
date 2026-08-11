@@ -6,22 +6,22 @@ export interface IBaseSerpApiYoutubeOrganicElementItem   {
         /** type of element */
         type?: string | undefined
         
-        /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+        /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP for the target domain absolute position among all the elements in SERP */
+        /** *absolute rank in SERP for the target domain* absolute position among all the elements in SERP */
         rank_absolute?: number | undefined
         
-        /** block rank in SERP position among all the blocks in SERP */
+        /** *block rank in SERP* position among all the blocks in SERP */
         block_rank?: number | undefined
         
-        /** name of the block in SERP example: 'People also watched' */
+        /** *name of the block in SERP* example: `'People also watched'` */
         block_name?: string | undefined
         
-        /** ID of the channel */
+        /** *ID of the channel* */
         channel_id?: string | undefined
         
-        /** URL of the channel */
+        /** *URL of the channel* */
         url?: string | undefined
 
     [key: string]: any;
@@ -36,32 +36,32 @@ export class BaseSerpApiYoutubeOrganicElementItem  implements IBaseSerpApiYoutub
     type?: string | undefined;
 
     
-    /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+    /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP for the target domain absolute position among all the elements in SERP */
+    /** *absolute rank in SERP for the target domain* absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
 
     
-    /** block rank in SERP position among all the blocks in SERP */
+    /** *block rank in SERP* position among all the blocks in SERP */
 
     block_rank?: number | undefined;
 
     
-    /** name of the block in SERP example: 'People also watched' */
+    /** *name of the block in SERP* example: `'People also watched'` */
 
     block_name?: string | undefined;
 
     
-    /** ID of the channel */
+    /** *ID of the channel* */
 
     channel_id?: string | undefined;
 
     
-    /** URL of the channel */
+    /** *URL of the channel* */
 
     url?: string | undefined;
 
@@ -151,22 +151,22 @@ export class BaseSerpApiYoutubeOrganicElementItem  implements IBaseSerpApiYoutub
  
 export interface ISerpApiYoutubeChannelElementItem  extends IBaseSerpApiYoutubeOrganicElementItem    {
         
-        /** name of the channel */
+        /** *name of the channel* */
         name?: string | undefined
         
-        /** the URL of the page where the logo image is hosted */
+        /** *the URL of the page where the logo image is hosted* */
         logo?: string | undefined
         
-        /** the number of videos counted on the channel */
+        /** *the number of videos counted on the channel* */
         video_count?: number | undefined
         
-        /** indicates whether the channel has a “verified” label */
+        /** *indicates whether the channel has a 'verified' label* */
         is_verified?: boolean | undefined
         
-        /** description of the channel */
+        /** *description of the channel* */
         description?: string | undefined
         
-        /** highlighted keywords in the description */
+        /** *highlighted keywords in the description* */
         highlighted?: string[] | undefined
 
     [key: string]: any;
@@ -176,32 +176,32 @@ export interface ISerpApiYoutubeChannelElementItem  extends IBaseSerpApiYoutubeO
 export class SerpApiYoutubeChannelElementItem  extends BaseSerpApiYoutubeOrganicElementItem   implements ISerpApiYoutubeChannelElementItem {
 
     
-    /** name of the channel */
+    /** *name of the channel* */
 
     name?: string | undefined;
 
     
-    /** the URL of the page where the logo image is hosted */
+    /** *the URL of the page where the logo image is hosted* */
 
     logo?: string | undefined;
 
     
-    /** the number of videos counted on the channel */
+    /** *the number of videos counted on the channel* */
 
     video_count?: number | undefined;
 
     
-    /** indicates whether the channel has a “verified” label */
+    /** *indicates whether the channel has a 'verified' label* */
 
     is_verified?: boolean | undefined;
 
     
-    /** description of the channel */
+    /** *description of the channel* */
 
     description?: string | undefined;
 
     
-    /** highlighted keywords in the description */
+    /** *highlighted keywords in the description* */
 
     highlighted?: string[] | undefined;
 
@@ -258,55 +258,55 @@ export class SerpApiYoutubeChannelElementItem  extends BaseSerpApiYoutubeOrganic
  
 export interface ISerpApiYoutubeVideoElementItem  extends IBaseSerpApiYoutubeOrganicElementItem    {
         
-        /** title of the video */
+        /** *title of the video* */
         title?: string | undefined
         
-        /** ID of the video */
+        /** *ID of the video* */
         video_id?: string | undefined
         
-        /** the URL of the page where the thumbnail is hosted */
+        /** *the URL of the page where the thumbnail is hosted* */
         thumbnail_url?: string | undefined
         
-        /** the name of the channel where the video is published */
+        /** *the name of the channel where the video is published* */
         channel_name?: string | undefined
         
-        /** the URL of the channel where the video is published */
+        /** *the URL of the channel where the video is published* */
         channel_url?: string | undefined
         
-        /** the URL of the page where the logo image of the channel is hosted */
+        /** *the URL of the page where the logo image of the channel is hosted* */
         channel_logo?: string | undefined
         
-        /** description of the channel */
+        /** *description of the channel* */
         description?: string | undefined
         
-        /** highlighted keywords in the description */
+        /** *highlighted keywords in the description* */
         highlighted?: string[] | undefined
         
-        /** video badges example: New, CC, 4K */
+        /** *video badges* example: `New`, `CC`, `4K` */
         badges?: string[] | undefined
         
-        /** indicates whether the video is a live broadcast */
+        /** *indicates whether the video is a live broadcast* */
         is_live?: boolean | undefined
         
-        /** indicates whether the video is shorts */
+        /** *indicates whether the video is shorts* */
         is_shorts?: boolean | undefined
         
-        /** indicates whether the video is a movie */
+        /** *indicates whether the video is a movie* */
         is_movie?: boolean | undefined
         
-        /** number of views of the video */
+        /** *number of views of the video* */
         views_count?: number | undefined
         
-        /** the date when the video is published */
+        /** *the date when the video is published* */
         publication_date?: string | undefined
         
-        /** date and time when the result is published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2022-11-15 12:57:46 +00:00 */
+        /** *date and time when the result is published* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2022-11-15 12:57:46 +00:00` */
         timestamp?: string | undefined
         
-        /** duration of the video */
+        /** *duration of the video* */
         duration_time?: string | undefined
         
-        /** duration of the video in seconds */
+        /** *duration of the video in seconds* */
         duration_time_seconds?: number | undefined
 
     [key: string]: any;
@@ -316,87 +316,87 @@ export interface ISerpApiYoutubeVideoElementItem  extends IBaseSerpApiYoutubeOrg
 export class SerpApiYoutubeVideoElementItem  extends BaseSerpApiYoutubeOrganicElementItem   implements ISerpApiYoutubeVideoElementItem {
 
     
-    /** title of the video */
+    /** *title of the video* */
 
     title?: string | undefined;
 
     
-    /** ID of the video */
+    /** *ID of the video* */
 
     video_id?: string | undefined;
 
     
-    /** the URL of the page where the thumbnail is hosted */
+    /** *the URL of the page where the thumbnail is hosted* */
 
     thumbnail_url?: string | undefined;
 
     
-    /** the name of the channel where the video is published */
+    /** *the name of the channel where the video is published* */
 
     channel_name?: string | undefined;
 
     
-    /** the URL of the channel where the video is published */
+    /** *the URL of the channel where the video is published* */
 
     channel_url?: string | undefined;
 
     
-    /** the URL of the page where the logo image of the channel is hosted */
+    /** *the URL of the page where the logo image of the channel is hosted* */
 
     channel_logo?: string | undefined;
 
     
-    /** description of the channel */
+    /** *description of the channel* */
 
     description?: string | undefined;
 
     
-    /** highlighted keywords in the description */
+    /** *highlighted keywords in the description* */
 
     highlighted?: string[] | undefined;
 
     
-    /** video badges example: New, CC, 4K */
+    /** *video badges* example: `New`, `CC`, `4K` */
 
     badges?: string[] | undefined;
 
     
-    /** indicates whether the video is a live broadcast */
+    /** *indicates whether the video is a live broadcast* */
 
     is_live?: boolean | undefined;
 
     
-    /** indicates whether the video is shorts */
+    /** *indicates whether the video is shorts* */
 
     is_shorts?: boolean | undefined;
 
     
-    /** indicates whether the video is a movie */
+    /** *indicates whether the video is a movie* */
 
     is_movie?: boolean | undefined;
 
     
-    /** number of views of the video */
+    /** *number of views of the video* */
 
     views_count?: number | undefined;
 
     
-    /** the date when the video is published */
+    /** *the date when the video is published* */
 
     publication_date?: string | undefined;
 
     
-    /** date and time when the result is published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2022-11-15 12:57:46 +00:00 */
+    /** *date and time when the result is published* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2022-11-15 12:57:46 +00:00` */
 
     timestamp?: string | undefined;
 
     
-    /** duration of the video */
+    /** *duration of the video* */
 
     duration_time?: string | undefined;
 
     
-    /** duration of the video in seconds */
+    /** *duration of the video in seconds* */
 
     duration_time_seconds?: number | undefined;
 
@@ -475,55 +475,55 @@ export class SerpApiYoutubeVideoElementItem  extends BaseSerpApiYoutubeOrganicEl
  
 export interface ISerpApiYoutubeVideoPaidElementItem  extends IBaseSerpApiYoutubeOrganicElementItem    {
         
-        /** title of the video */
+        /** *title of the video* */
         title?: string | undefined
         
-        /** ID of the video */
+        /** *ID of the video* */
         video_id?: string | undefined
         
-        /** the URL of the page where the thumbnail is hosted */
+        /** *the URL of the page where the thumbnail is hosted* */
         thumbnail_url?: string | undefined
         
-        /** the name of the channel where the video is published */
+        /** *the name of the channel where the video is published* */
         channel_name?: string | undefined
         
-        /** the URL of the channel where the video is published */
+        /** *the URL of the channel where the video is published* */
         channel_url?: string | undefined
         
-        /** the URL of the page where the logo image of the channel is hosted */
+        /** *the URL of the page where the logo image of the channel is hosted* */
         channel_logo?: string | undefined
         
-        /** description of the channel */
+        /** *description of the channel* */
         description?: string | undefined
         
-        /** highlighted keywords in the description */
+        /** *highlighted keywords in the description* */
         highlighted?: string[] | undefined
         
-        /** video badges example: New, CC, 4K */
+        /** *video badges* example: `New`, `CC`, `4K` */
         badges?: string[] | undefined
         
-        /** indicates whether the video is a live broadcast */
+        /** *indicates whether the video is a live broadcast* */
         is_live?: boolean | undefined
         
-        /** indicates whether the video is shorts */
+        /** *indicates whether the video is shorts* */
         is_shorts?: boolean | undefined
         
-        /** indicates whether the video is a movie */
+        /** *indicates whether the video is a movie* */
         is_movie?: boolean | undefined
         
-        /** number of views of the video */
+        /** *number of views of the video* */
         views_count?: number | undefined
         
-        /** the date when the video is published */
+        /** *the date when the video is published* */
         publication_date?: string | undefined
         
-        /** date and time when the result is published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2022-11-15 12:57:46 +00:00 */
+        /** *date and time when the result is published* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2022-11-15 12:57:46 +00:00` */
         timestamp?: string | undefined
         
-        /** duration of the video */
+        /** *duration of the video* */
         duration_time?: string | undefined
         
-        /** duration of the video in seconds */
+        /** *duration of the video in seconds* */
         duration_time_seconds?: number | undefined
 
     [key: string]: any;
@@ -533,87 +533,87 @@ export interface ISerpApiYoutubeVideoPaidElementItem  extends IBaseSerpApiYoutub
 export class SerpApiYoutubeVideoPaidElementItem  extends BaseSerpApiYoutubeOrganicElementItem   implements ISerpApiYoutubeVideoPaidElementItem {
 
     
-    /** title of the video */
+    /** *title of the video* */
 
     title?: string | undefined;
 
     
-    /** ID of the video */
+    /** *ID of the video* */
 
     video_id?: string | undefined;
 
     
-    /** the URL of the page where the thumbnail is hosted */
+    /** *the URL of the page where the thumbnail is hosted* */
 
     thumbnail_url?: string | undefined;
 
     
-    /** the name of the channel where the video is published */
+    /** *the name of the channel where the video is published* */
 
     channel_name?: string | undefined;
 
     
-    /** the URL of the channel where the video is published */
+    /** *the URL of the channel where the video is published* */
 
     channel_url?: string | undefined;
 
     
-    /** the URL of the page where the logo image of the channel is hosted */
+    /** *the URL of the page where the logo image of the channel is hosted* */
 
     channel_logo?: string | undefined;
 
     
-    /** description of the channel */
+    /** *description of the channel* */
 
     description?: string | undefined;
 
     
-    /** highlighted keywords in the description */
+    /** *highlighted keywords in the description* */
 
     highlighted?: string[] | undefined;
 
     
-    /** video badges example: New, CC, 4K */
+    /** *video badges* example: `New`, `CC`, `4K` */
 
     badges?: string[] | undefined;
 
     
-    /** indicates whether the video is a live broadcast */
+    /** *indicates whether the video is a live broadcast* */
 
     is_live?: boolean | undefined;
 
     
-    /** indicates whether the video is shorts */
+    /** *indicates whether the video is shorts* */
 
     is_shorts?: boolean | undefined;
 
     
-    /** indicates whether the video is a movie */
+    /** *indicates whether the video is a movie* */
 
     is_movie?: boolean | undefined;
 
     
-    /** number of views of the video */
+    /** *number of views of the video* */
 
     views_count?: number | undefined;
 
     
-    /** the date when the video is published */
+    /** *the date when the video is published* */
 
     publication_date?: string | undefined;
 
     
-    /** date and time when the result is published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2022-11-15 12:57:46 +00:00 */
+    /** *date and time when the result is published* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2022-11-15 12:57:46 +00:00` */
 
     timestamp?: string | undefined;
 
     
-    /** duration of the video */
+    /** *duration of the video* */
 
     duration_time?: string | undefined;
 
     
-    /** duration of the video in seconds */
+    /** *duration of the video in seconds* */
 
     duration_time_seconds?: number | undefined;
 
@@ -692,28 +692,28 @@ export class SerpApiYoutubeVideoPaidElementItem  extends BaseSerpApiYoutubeOrgan
  
 export interface ISerpApiYoutubePlaylistElementItem  extends IBaseSerpApiYoutubeOrganicElementItem    {
         
-        /** title of the video */
+        /** *title of the video* */
         title?: string | undefined
         
-        /** ID of the video */
+        /** *ID of the video* */
         playlist_id?: string | undefined
         
-        /** the URL of the page where the thumbnail is hosted */
+        /** *the URL of the page where the thumbnail is hosted* */
         thumbnail_url?: string | undefined
         
-        /** the name of the channel where the video is published */
+        /** *the name of the channel where the video is published* */
         channel_name?: string | undefined
         
-        /** the URL of the channel where the video is published */
+        /** *the URL of the channel where the video is published* */
         channel_url?: string | undefined
         
-        /** the URL of the page where the logo image of the channel is hosted */
+        /** *the URL of the page where the logo image of the channel is hosted* */
         channel_logo?: string | undefined
         
-        /** the number of videos in playlist */
+        /** *the number of videos in playlist* */
         videos_count?: number | undefined
         
-        /** information about preview videos array of objects containing information about videos in the preview block of the playlist element */
+        /** *information about preview videos* array of objects containing information about videos in the preview block of the playlist element */
         preview_videos?: PreviewVideos[] | undefined
 
     [key: string]: any;
@@ -723,42 +723,42 @@ export interface ISerpApiYoutubePlaylistElementItem  extends IBaseSerpApiYoutube
 export class SerpApiYoutubePlaylistElementItem  extends BaseSerpApiYoutubeOrganicElementItem   implements ISerpApiYoutubePlaylistElementItem {
 
     
-    /** title of the video */
+    /** *title of the video* */
 
     title?: string | undefined;
 
     
-    /** ID of the video */
+    /** *ID of the video* */
 
     playlist_id?: string | undefined;
 
     
-    /** the URL of the page where the thumbnail is hosted */
+    /** *the URL of the page where the thumbnail is hosted* */
 
     thumbnail_url?: string | undefined;
 
     
-    /** the name of the channel where the video is published */
+    /** *the name of the channel where the video is published* */
 
     channel_name?: string | undefined;
 
     
-    /** the URL of the channel where the video is published */
+    /** *the URL of the channel where the video is published* */
 
     channel_url?: string | undefined;
 
     
-    /** the URL of the page where the logo image of the channel is hosted */
+    /** *the URL of the page where the logo image of the channel is hosted* */
 
     channel_logo?: string | undefined;
 
     
-    /** the number of videos in playlist */
+    /** *the number of videos in playlist* */
 
     videos_count?: number | undefined;
 
     
-    /** information about preview videos array of objects containing information about videos in the preview block of the playlist element */
+    /** *information about preview videos* array of objects containing information about videos in the preview block of the playlist element */
 
     preview_videos?: PreviewVideos[] | undefined;
 

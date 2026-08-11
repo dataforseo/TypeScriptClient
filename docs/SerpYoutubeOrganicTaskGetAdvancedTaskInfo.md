@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpYoutubeOrganicTaskGetAdvancedResultInfo[]** | array of results |[optional]|
+**result** | **SerpYoutubeOrganicTaskGetAdvancedResultInfo[]** | *array of results* |[optional]|

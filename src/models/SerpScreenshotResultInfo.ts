@@ -3,10 +3,10 @@ import { ScreenshotItem, IScreenshotItem } from "./ScreenshotItem";
 
 export interface ISerpScreenshotResultInfo   {
         
-        /** number of items in the results array */
+        /** *number of items in the results array* */
         items_count?: number | undefined
         
-        /** items array */
+        /** *items array* */
         items?: ScreenshotItem[] | undefined
 
     [key: string]: any;
@@ -16,12 +16,12 @@ export interface ISerpScreenshotResultInfo   {
 export class SerpScreenshotResultInfo  implements ISerpScreenshotResultInfo {
 
     
-    /** number of items in the results array */
+    /** *number of items in the results array* */
 
     items_count?: number | undefined;
 
     
-    /** items array */
+    /** *items array* */
 
     items?: ScreenshotItem[] | undefined;
 

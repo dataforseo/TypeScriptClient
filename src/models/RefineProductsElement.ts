@@ -3,19 +3,19 @@ export interface IRefineProductsElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of a given link element */
+        /** *title of a given link element* */
         title?: string | undefined
         
-        /** URL of the image the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+        /** *URL of the image* the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
         image_url?: string | undefined
         
-        /** keyword for the related refined search */
+        /** *keyword for the related refined search* */
         keyword?: string | undefined
         
-        /** type of search refinement */
+        /** *type of search refinement* */
         refine_type?: string | undefined
         
-        /** the XPath of the element */
+        /** *the [XPath](https://en.wikipedia.org/wiki/XPath) of the element* */
         xpath?: string | undefined
 
     [key: string]: any;
@@ -30,27 +30,27 @@ export class RefineProductsElement  implements IRefineProductsElement {
     type?: string | undefined;
 
     
-    /** title of a given link element */
+    /** *title of a given link element* */
 
     title?: string | undefined;
 
     
-    /** URL of the image the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+    /** *URL of the image* the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
     image_url?: string | undefined;
 
     
-    /** keyword for the related refined search */
+    /** *keyword for the related refined search* */
 
     keyword?: string | undefined;
 
     
-    /** type of search refinement */
+    /** *type of search refinement* */
 
     refine_type?: string | undefined;
 
     
-    /** the XPath of the element */
+    /** *the [XPath](https://en.wikipedia.org/wiki/XPath) of the element* */
 
     xpath?: string | undefined;
 

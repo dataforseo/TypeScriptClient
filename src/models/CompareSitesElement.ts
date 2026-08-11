@@ -3,19 +3,19 @@ export interface ICompareSitesElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of a given link element */
+        /** *title of a given link element* */
         title?: string | undefined
         
-        /** source URL */
+        /** *source URL* */
         url?: string | undefined
         
-        /** domain where a link points */
+        /** *domain where a link points* */
         domain?: string | undefined
         
-        /** URL of the image the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+        /** *URL of the image* the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
         image_url?: string | undefined
         
-        /** reference source name or title */
+        /** *reference source name or title* */
         source?: string | undefined
 
     [key: string]: any;
@@ -30,27 +30,27 @@ export class CompareSitesElement  implements ICompareSitesElement {
     type?: string | undefined;
 
     
-    /** title of a given link element */
+    /** *title of a given link element* */
 
     title?: string | undefined;
 
     
-    /** source URL */
+    /** *source URL* */
 
     url?: string | undefined;
 
     
-    /** domain where a link points */
+    /** *domain where a link points* */
 
     domain?: string | undefined;
 
     
-    /** URL of the image the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+    /** *URL of the image* the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
     image_url?: string | undefined;
 
     
-    /** reference source name or title */
+    /** *reference source name or title* */
 
     source?: string | undefined;
 

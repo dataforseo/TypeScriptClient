@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **KeywordsDataErrorsTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **KeywordsDataErrorsTaskInfo[]** | *array of tasks* |[optional]|

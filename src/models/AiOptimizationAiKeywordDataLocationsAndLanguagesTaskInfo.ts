@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IAiOptimizationAiKeywordDataLocationsAndLanguagesTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: AiOptimizationAiKeywordDataLocationsAndLanguagesResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IAiOptimizationAiKeywordDataLocationsAndLanguagesTaskInfo  exte
 export class AiOptimizationAiKeywordDataLocationsAndLanguagesTaskInfo  extends BaseResponseTaskInfo   implements IAiOptimizationAiKeywordDataLocationsAndLanguagesTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: AiOptimizationAiKeywordDataLocationsAndLanguagesResultInfo[] | undefined;
 

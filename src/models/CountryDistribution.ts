@@ -1,12 +1,12 @@
 export interface ICountryDistribution   {
         
-        /** country ISO code */
+        /** *country ISO code* */
         country_iso_code?: string | undefined
         
-        /** clickstream-based average monthly search volume rate represents the (approximate) number of searches for the given keyword idea based on clickstream you can learn more about clickstream search volume in this Help Center article */
+        /** *clickstream-based average monthly search volume rate* represents the (approximate) number of searches for the given keyword idea based on clickstream you can learn more about clickstream search volume in [this Help Center article](https://dataforseo.com/help-center/what-is-clickstream-search-volume-and-how-to-get-it-with-dataforseo) */
         search_volume?: number | undefined
         
-        /** percentage of global search volume */
+        /** *percentage of global search volume* */
         percentage?: number | undefined
 
     [key: string]: any;
@@ -16,17 +16,17 @@ export interface ICountryDistribution   {
 export class CountryDistribution  implements ICountryDistribution {
 
     
-    /** country ISO code */
+    /** *country ISO code* */
 
     country_iso_code?: string | undefined;
 
     
-    /** clickstream-based average monthly search volume rate represents the (approximate) number of searches for the given keyword idea based on clickstream you can learn more about clickstream search volume in this Help Center article */
+    /** *clickstream-based average monthly search volume rate* represents the (approximate) number of searches for the given keyword idea based on clickstream you can learn more about clickstream search volume in [this Help Center article](https://dataforseo.com/help-center/what-is-clickstream-search-volume-and-how-to-get-it-with-dataforseo) */
 
     search_volume?: number | undefined;
 
     
-    /** percentage of global search volume */
+    /** *percentage of global search volume* */
 
     percentage?: number | undefined;
 

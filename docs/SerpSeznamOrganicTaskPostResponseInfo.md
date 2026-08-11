@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpSeznamOrganicTaskPostTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **SerpSeznamOrganicTaskPostTaskInfo[]** | *array of tasks* |[optional]|

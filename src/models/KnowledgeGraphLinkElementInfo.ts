@@ -3,19 +3,19 @@ export interface IKnowledgeGraphLinkElementInfo   {
         /** type of element */
         type?: string | undefined
         
-        /** title of the result in SERP */
+        /** *title of the result in SERP* */
         title?: string | undefined
         
-        /** relevant URL in SERP */
+        /** *relevant URL in SERP* */
         url?: string | undefined
         
-        /** domain in SERP */
+        /** *domain in SERP* */
         domain?: string | undefined
         
-        /** text alongside the link title */
+        /** *text alongside the link title* */
         snippet?: string | undefined
         
-        /** the XPath of the element */
+        /** *the [XPath](https://en.wikipedia.org/wiki/XPath) of the element* */
         xpath?: string | undefined
 
     [key: string]: any;
@@ -30,27 +30,27 @@ export class KnowledgeGraphLinkElementInfo  implements IKnowledgeGraphLinkElemen
     type?: string | undefined;
 
     
-    /** title of the result in SERP */
+    /** *title of the result in SERP* */
 
     title?: string | undefined;
 
     
-    /** relevant URL in SERP */
+    /** *relevant URL in SERP* */
 
     url?: string | undefined;
 
     
-    /** domain in SERP */
+    /** *domain in SERP* */
 
     domain?: string | undefined;
 
     
-    /** text alongside the link title */
+    /** *text alongside the link title* */
 
     snippet?: string | undefined;
 
     
-    /** the XPath of the element */
+    /** *the [XPath](https://en.wikipedia.org/wiki/XPath) of the element* */
 
     xpath?: string | undefined;
 

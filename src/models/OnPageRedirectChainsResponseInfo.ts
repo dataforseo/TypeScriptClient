@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface IOnPageRedirectChainsResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: OnPageRedirectChainsTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IOnPageRedirectChainsResponseInfo  extends IBaseResponseInfo   
 export class OnPageRedirectChainsResponseInfo  extends BaseResponseInfo   implements IOnPageRedirectChainsResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: OnPageRedirectChainsTaskInfo[] | undefined;
 

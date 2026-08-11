@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **KeywordsDataGoogleTrendsExploreTasksReadyResultInfo[]** | array of results |[optional]|
+**result** | **KeywordsDataGoogleTrendsExploreTasksReadyResultInfo[]** | *array of results* |[optional]|

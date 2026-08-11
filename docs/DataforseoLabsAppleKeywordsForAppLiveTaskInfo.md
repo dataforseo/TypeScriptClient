@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **DataforseoLabsAppleKeywordsForAppLiveResultInfo[]** | array of results |[optional]|
+**result** | **DataforseoLabsAppleKeywordsForAppLiveResultInfo[]** | *array of results* |[optional]|

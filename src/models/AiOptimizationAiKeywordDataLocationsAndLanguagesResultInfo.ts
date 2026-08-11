@@ -3,13 +3,13 @@ import { AvailableLanguages, IAvailableLanguages } from "./AvailableLanguages";
 
 export interface IAiOptimizationAiKeywordDataLocationsAndLanguagesResultInfo   {
         
-        /** location code */
+        /** *location code* */
         location_code?: number | undefined
         
-        /** full name of the location */
+        /** *full name of the location* */
         location_name?: string | undefined
         
-        /** supported languages contains the languages which are supported for a specific location */
+        /** *supported languages* contains the languages which are supported for a specific location */
         available_languages?: AvailableLanguages[] | undefined
 
     [key: string]: any;
@@ -19,17 +19,17 @@ export interface IAiOptimizationAiKeywordDataLocationsAndLanguagesResultInfo   {
 export class AiOptimizationAiKeywordDataLocationsAndLanguagesResultInfo  implements IAiOptimizationAiKeywordDataLocationsAndLanguagesResultInfo {
 
     
-    /** location code */
+    /** *location code* */
 
     location_code?: number | undefined;
 
     
-    /** full name of the location */
+    /** *full name of the location* */
 
     location_name?: string | undefined;
 
     
-    /** supported languages contains the languages which are supported for a specific location */
+    /** *supported languages* contains the languages which are supported for a specific location */
 
     available_languages?: AvailableLanguages[] | undefined;
 

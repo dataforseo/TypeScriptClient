@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface ISerpGoogleSearchByImageTaskGetAdvancedResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: SerpGoogleSearchByImageTaskGetAdvancedTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface ISerpGoogleSearchByImageTaskGetAdvancedResponseInfo  extends IB
 export class SerpGoogleSearchByImageTaskGetAdvancedResponseInfo  extends BaseResponseInfo   implements ISerpGoogleSearchByImageTaskGetAdvancedResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: SerpGoogleSearchByImageTaskGetAdvancedTaskInfo[] | undefined;
 

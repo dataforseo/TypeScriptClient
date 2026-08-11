@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface IOnPageLighthouseTaskGetJsonResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: OnPageLighthouseTaskGetJsonTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IOnPageLighthouseTaskGetJsonResponseInfo  extends IBaseResponse
 export class OnPageLighthouseTaskGetJsonResponseInfo  extends BaseResponseInfo   implements IOnPageLighthouseTaskGetJsonResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: OnPageLighthouseTaskGetJsonTaskInfo[] | undefined;
 

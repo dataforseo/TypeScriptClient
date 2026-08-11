@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IOnPageKeywordDensityTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: OnPageKeywordDensityResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IOnPageKeywordDensityTaskInfo  extends IBaseResponseTaskInfo   
 export class OnPageKeywordDensityTaskInfo  extends BaseResponseTaskInfo   implements IOnPageKeywordDensityTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: OnPageKeywordDensityResultInfo[] | undefined;
 

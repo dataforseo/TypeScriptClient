@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **OnPageKeywordDensityResultInfo[]** | array of results |[optional]|
+**result** | **OnPageKeywordDensityResultInfo[]** | *array of results* |[optional]|

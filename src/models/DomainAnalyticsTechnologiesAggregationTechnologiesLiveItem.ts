@@ -3,22 +3,22 @@ export interface IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem   {
         /** type of element */
         type?: string | undefined
         
-        /** technology group id */
+        /** *technology group id* */
         group?: string | undefined
         
-        /** technology category id */
+        /** *technology category id* */
         category?: string | undefined
         
-        /** technology name */
+        /** *technology name* */
         technology?: string | undefined
         
-        /** technology groups count number of domains that match the parameters you specified and are using technologies from the indicated group */
+        /** *technology groups count* number of domains that match the parameters you specified and are using technologies from the indicated `group` */
         groups_count?: number | undefined
         
-        /** technology categories count number of domains that match the parameters you specified and are using technologies from the indicated category */
+        /** *technology categories count* number of domains that match the parameters you specified and are using technologies from the indicated `category` */
         categories_count?: number | undefined
         
-        /** technologies count number of domains that match the parameters you specified and are using the indicated technology */
+        /** *technologies count* number of domains that match the parameters you specified and are using the indicated `technology` */
         technologies_count?: number | undefined
 
     [key: string]: any;
@@ -33,32 +33,32 @@ export class DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem  impleme
     type?: string | undefined;
 
     
-    /** technology group id */
+    /** *technology group id* */
 
     group?: string | undefined;
 
     
-    /** technology category id */
+    /** *technology category id* */
 
     category?: string | undefined;
 
     
-    /** technology name */
+    /** *technology name* */
 
     technology?: string | undefined;
 
     
-    /** technology groups count number of domains that match the parameters you specified and are using technologies from the indicated group */
+    /** *technology groups count* number of domains that match the parameters you specified and are using technologies from the indicated `group` */
 
     groups_count?: number | undefined;
 
     
-    /** technology categories count number of domains that match the parameters you specified and are using technologies from the indicated category */
+    /** *technology categories count* number of domains that match the parameters you specified and are using technologies from the indicated `category` */
 
     categories_count?: number | undefined;
 
     
-    /** technologies count number of domains that match the parameters you specified and are using the indicated technology */
+    /** *technologies count* number of domains that match the parameters you specified and are using the indicated `technology` */
 
     technologies_count?: number | undefined;
 

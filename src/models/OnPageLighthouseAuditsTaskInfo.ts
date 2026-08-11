@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IOnPageLighthouseAuditsTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: OnPageLighthouseAuditsResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IOnPageLighthouseAuditsTaskInfo  extends IBaseResponseTaskInfo 
 export class OnPageLighthouseAuditsTaskInfo  extends BaseResponseTaskInfo   implements IOnPageLighthouseAuditsTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: OnPageLighthouseAuditsResultInfo[] | undefined;
 

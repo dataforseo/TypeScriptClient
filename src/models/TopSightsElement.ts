@@ -6,16 +6,16 @@ export interface ITopSightsElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of a given link element */
+        /** *title of a given link element* */
         title?: string | undefined
         
-        /** source URL */
+        /** *source URL* */
         url?: string | undefined
         
-        /** link description */
+        /** *link description* */
         description?: string | undefined
         
-        /** the item’s rating  the popularity rate based on reviews and displayed in SERP; if there is none, equals null */
+        /** *the item's rating* the popularity rate based on reviews and displayed in SERP; if there is none, equals `null` */
         rating?: RatingInfo | undefined
 
     [key: string]: any;
@@ -30,22 +30,22 @@ export class TopSightsElement  implements ITopSightsElement {
     type?: string | undefined;
 
     
-    /** title of a given link element */
+    /** *title of a given link element* */
 
     title?: string | undefined;
 
     
-    /** source URL */
+    /** *source URL* */
 
     url?: string | undefined;
 
     
-    /** link description */
+    /** *link description* */
 
     description?: string | undefined;
 
     
-    /** the item’s rating  the popularity rate based on reviews and displayed in SERP; if there is none, equals null */
+    /** *the item's rating* the popularity rate based on reviews and displayed in SERP; if there is none, equals `null` */
 
     rating?: RatingInfo | undefined;
 

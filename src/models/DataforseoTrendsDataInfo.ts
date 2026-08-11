@@ -3,10 +3,10 @@ import { DemographyItemValueInfo, IDemographyItemValueInfo } from "./DemographyI
 
 export interface IDataforseoTrendsDataInfo   {
         
-        /** relevant keyword for which demographic data is provided */
+        /** *relevant keyword for which demographic data is provided* */
         keyword?: string | undefined
         
-        /** contains age range and corresponding keyword popularity values */
+        /** *contains age range and corresponding keyword popularity values* */
         values?: DemographyItemValueInfo[] | undefined
 
     [key: string]: any;
@@ -16,12 +16,12 @@ export interface IDataforseoTrendsDataInfo   {
 export class DataforseoTrendsDataInfo  implements IDataforseoTrendsDataInfo {
 
     
-    /** relevant keyword for which demographic data is provided */
+    /** *relevant keyword for which demographic data is provided* */
 
     keyword?: string | undefined;
 
     
-    /** contains age range and corresponding keyword popularity values */
+    /** *contains age range and corresponding keyword popularity values* */
 
     values?: DemographyItemValueInfo[] | undefined;
 

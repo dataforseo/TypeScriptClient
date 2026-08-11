@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo[]** | array of results |[optional]|
+**result** | **KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo[]** | *array of results* |[optional]|

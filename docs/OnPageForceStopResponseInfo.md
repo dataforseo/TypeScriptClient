@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **OnPageForceStopTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **OnPageForceStopTaskInfo[]** | *array of tasks* |[optional]|

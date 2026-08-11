@@ -2,6 +2,7 @@ export interface IBacklinksAvailableFiltersResultInfo   {
         
         content_duplicates?: { [key: string]: string; } | undefined
         
+        /** filters available for the backlinks endpoint: */
         backlinks?: { [key: string]: string; } | undefined
         
         domain_pages?: { [key: string]: string; } | undefined
@@ -12,6 +13,7 @@ export interface IBacklinksAvailableFiltersResultInfo   {
         
         domain_intersection?: { [key: string]: string; } | undefined
         
+        /** filters available for the page intersection endpoint: */
         page_intersection?: { [key: string]: string; } | undefined
         
         referring_networks?: { [key: string]: string; } | undefined
@@ -28,6 +30,9 @@ export class BacklinksAvailableFiltersResultInfo  implements IBacklinksAvailable
 
     content_duplicates?: { [key: string]: string; } | undefined;
 
+    
+    /** filters available for the backlinks endpoint: */
+
     backlinks?: { [key: string]: string; } | undefined;
 
     domain_pages?: { [key: string]: string; } | undefined;
@@ -37,6 +42,9 @@ export class BacklinksAvailableFiltersResultInfo  implements IBacklinksAvailable
     referring_domains?: { [key: string]: string; } | undefined;
 
     domain_intersection?: { [key: string]: string; } | undefined;
+
+    
+    /** filters available for the page intersection endpoint: */
 
     page_intersection?: { [key: string]: string; } | undefined;
 

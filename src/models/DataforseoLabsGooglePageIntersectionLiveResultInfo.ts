@@ -3,28 +3,28 @@ import { DataforseoLabsGooglePageIntersectionLiveItem, IDataforseoLabsGooglePage
 
 export interface IDataforseoLabsGooglePageIntersectionLiveResultInfo   {
         
-        /** search engine type */
+        /** *search engine type* */
         se_type?: string | undefined
         
-        /** URLs you specified a POST array */
+        /** *URLs you specified a POST array* */
         pages?: { [key: string]: string; } | undefined
         
-        /** URLs you specified in a POST array that will be excluded from the results */
+        /** *URLs you specified in a POST array that will be excluded from the results* */
         exclude_pages?: string[] | undefined
         
-        /** location code in a POST array */
+        /** *location code in a POST array* */
         location_code?: number | undefined
         
-        /** language code in a POST array */
+        /** *language code in a POST array* */
         language_code?: string | undefined
         
-        /** total amount of results in our database relevant to your request */
+        /** *total amount of results in our database relevant to your request* */
         total_count?: number | undefined
         
-        /** the number of results returned in the items array */
+        /** *the number of results returned in the `items` array* */
         items_count?: number | undefined
         
-        /** contains keywords, relevant SERP elements and related data */
+        /** *contains keywords, relevant SERP elements and related data* */
         items?: DataforseoLabsGooglePageIntersectionLiveItem[] | undefined
 
     [key: string]: any;
@@ -34,42 +34,42 @@ export interface IDataforseoLabsGooglePageIntersectionLiveResultInfo   {
 export class DataforseoLabsGooglePageIntersectionLiveResultInfo  implements IDataforseoLabsGooglePageIntersectionLiveResultInfo {
 
     
-    /** search engine type */
+    /** *search engine type* */
 
     se_type?: string | undefined;
 
     
-    /** URLs you specified a POST array */
+    /** *URLs you specified a POST array* */
 
     pages?: { [key: string]: string; } | undefined;
 
     
-    /** URLs you specified in a POST array that will be excluded from the results */
+    /** *URLs you specified in a POST array that will be excluded from the results* */
 
     exclude_pages?: string[] | undefined;
 
     
-    /** location code in a POST array */
+    /** *location code in a POST array* */
 
     location_code?: number | undefined;
 
     
-    /** language code in a POST array */
+    /** *language code in a POST array* */
 
     language_code?: string | undefined;
 
     
-    /** total amount of results in our database relevant to your request */
+    /** *total amount of results in our database relevant to your request* */
 
     total_count?: number | undefined;
 
     
-    /** the number of results returned in the items array */
+    /** *the number of results returned in the `items` array* */
 
     items_count?: number | undefined;
 
     
-    /** contains keywords, relevant SERP elements and related data */
+    /** *contains keywords, relevant SERP elements and related data* */
 
     items?: DataforseoLabsGooglePageIntersectionLiveItem[] | undefined;
 

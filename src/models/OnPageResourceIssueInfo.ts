@@ -3,10 +3,10 @@ import { OnPageResourceIssueItemInfo, IOnPageResourceIssueItemInfo } from "./OnP
 
 export interface IOnPageResourceIssueInfo   {
         
-        /** resource errors */
+        /** *resource errors* */
         errors?: OnPageResourceIssueItemInfo[] | undefined
         
-        /** resource warnings */
+        /** *resource warnings* */
         warnings?: OnPageResourceIssueItemInfo[] | undefined
 
     [key: string]: any;
@@ -16,12 +16,12 @@ export interface IOnPageResourceIssueInfo   {
 export class OnPageResourceIssueInfo  implements IOnPageResourceIssueInfo {
 
     
-    /** resource errors */
+    /** *resource errors* */
 
     errors?: OnPageResourceIssueItemInfo[] | undefined;
 
     
-    /** resource warnings */
+    /** *resource warnings* */
 
     warnings?: OnPageResourceIssueItemInfo[] | undefined;
 

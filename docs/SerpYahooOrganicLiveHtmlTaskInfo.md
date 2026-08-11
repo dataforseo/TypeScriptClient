@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpYahooOrganicLiveHtmlResultInfo[]** | array of results |[optional]|
+**result** | **SerpYahooOrganicLiveHtmlResultInfo[]** | *array of results* |[optional]|

@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **KeywordsDataBingKeywordsForSiteTasksReadyTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **KeywordsDataBingKeywordsForSiteTasksReadyTaskInfo[]** | *array of tasks* |[optional]|

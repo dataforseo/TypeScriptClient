@@ -3,16 +3,16 @@ import { ScreenshotItem, IScreenshotItem } from "./ScreenshotItem";
 
 export interface IOnPagePageScreenshotResultInfo   {
         
-        /** status of the crawling session possible values: in_progress, finished */
+        /** *status of the crawling session* possible values: `in_progress`, `finished` */
         crawl_progress?: string | undefined
         
-        /** error message if the url you indicated returns a 404 status code or is not a valid URL, you will obtain 'error_message':'Screenshot is empty' if no error is encountered, the value will be null */
+        /** *error message* if the `url` you indicated returns a 404 status code or is not a valid URL, you will obtain `'error_message':'Screenshot is empty'` if no error is encountered, the value will be `null` */
         error_message?: string | undefined
         
-        /** number of items in the results array */
+        /** *number of items in the results array* */
         items_count?: number | undefined
         
-        /** items array */
+        /** *items array* */
         items?: ScreenshotItem[] | undefined
 
     [key: string]: any;
@@ -22,22 +22,22 @@ export interface IOnPagePageScreenshotResultInfo   {
 export class OnPagePageScreenshotResultInfo  implements IOnPagePageScreenshotResultInfo {
 
     
-    /** status of the crawling session possible values: in_progress, finished */
+    /** *status of the crawling session* possible values: `in_progress`, `finished` */
 
     crawl_progress?: string | undefined;
 
     
-    /** error message if the url you indicated returns a 404 status code or is not a valid URL, you will obtain 'error_message':'Screenshot is empty' if no error is encountered, the value will be null */
+    /** *error message* if the `url` you indicated returns a 404 status code or is not a valid URL, you will obtain `'error_message':'Screenshot is empty'` if no error is encountered, the value will be `null` */
 
     error_message?: string | undefined;
 
     
-    /** number of items in the results array */
+    /** *number of items in the results array* */
 
     items_count?: number | undefined;
 
     
-    /** items array */
+    /** *items array* */
 
     items?: ScreenshotItem[] | undefined;
 

@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **KeywordsDataClickstreamDataLocationsAndLanguagesTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **KeywordsDataClickstreamDataLocationsAndLanguagesTaskInfo[]** | *array of tasks* |[optional]|

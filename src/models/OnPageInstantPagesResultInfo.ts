@@ -3,19 +3,19 @@ import { BaseOnPageResourceItem, IBaseOnPageResourceItem } from "./BaseOnPageRes
 
 export interface IOnPageInstantPagesResultInfo   {
         
-        /** status of the crawling session possible values: in_progress, finished */
+        /** *status of the crawling session* possible values: `in_progress`, `finished` */
         crawl_progress?: string | undefined
         
-        /** details of the crawling session in this case the value will be null */
+        /** *details of the crawling session* in this case the value will be `null` */
         crawl_status?: any | undefined
         
-        /** crawler ip address displays the IP address used by the crawler to initiate the current crawling session you can find the full list of IPs used by our crawler in the Overview section */
+        /** *crawler ip address* displays the IP address used by the crawler to initiate the current crawling session you can find the full list of IPs used by our crawler in the [Overview section](/v3/on_page/overview) */
         crawl_gateway_address?: string | undefined
         
-        /** number of items in the results array */
+        /** *number of items in the results array* */
         items_count?: number | undefined
         
-        /** items array */
+        /** *items array* */
         items?: BaseOnPageResourceItem[] | undefined
 
     [key: string]: any;
@@ -25,27 +25,27 @@ export interface IOnPageInstantPagesResultInfo   {
 export class OnPageInstantPagesResultInfo  implements IOnPageInstantPagesResultInfo {
 
     
-    /** status of the crawling session possible values: in_progress, finished */
+    /** *status of the crawling session* possible values: `in_progress`, `finished` */
 
     crawl_progress?: string | undefined;
 
     
-    /** details of the crawling session in this case the value will be null */
+    /** *details of the crawling session* in this case the value will be `null` */
 
     crawl_status?: any | undefined;
 
     
-    /** crawler ip address displays the IP address used by the crawler to initiate the current crawling session you can find the full list of IPs used by our crawler in the Overview section */
+    /** *crawler ip address* displays the IP address used by the crawler to initiate the current crawling session you can find the full list of IPs used by our crawler in the [Overview section](/v3/on_page/overview) */
 
     crawl_gateway_address?: string | undefined;
 
     
-    /** number of items in the results array */
+    /** *number of items in the results array* */
 
     items_count?: number | undefined;
 
     
-    /** items array */
+    /** *items array* */
 
     items?: BaseOnPageResourceItem[] | undefined;
 

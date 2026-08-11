@@ -3,22 +3,22 @@ import { AppStoreSearchOrganic, IAppStoreSearchOrganic } from "./AppStoreSearchO
 
 export interface IAppleRankedSerpElementInfo   {
         
-        /** search engine type */
+        /** *search engine type* */
         se_type?: string | undefined
         
-        /** contains data on the SERP element the list of supported SERP elements can be found below */
+        /** *contains data on the SERP element* the list of supported SERP elements can be found below */
         serp_item?: AppStoreSearchOrganic | undefined
         
-        /** direct URL to search engine results you can use it to make sure that we provided accurate results */
+        /** *direct URL to search engine results* you can use it to make sure that we provided accurate results */
         check_url?: string | undefined
         
-        /** number of search results for the returned keyword */
+        /** *number of search results for the returned keyword* */
         se_results_count?: number | undefined
         
-        /** date and time when keyword data was updated in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: 2019-11-15 12:57:46 +00:00 */
+        /** *date and time when keyword data was updated* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: `2019-11-15 12:57:46 +00:00` */
         last_updated_time?: string | undefined
         
-        /** previous to the most recent date and time when SERP data was updated in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-10-15 12:57:46 +00:00; in this case, will equal null */
+        /** *previous to the most recent date and time when SERP data was updated* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-10-15 12:57:46 +00:00`; in this case, will equal null */
         previous_updated_time?: string | undefined
 
     [key: string]: any;
@@ -28,32 +28,32 @@ export interface IAppleRankedSerpElementInfo   {
 export class AppleRankedSerpElementInfo  implements IAppleRankedSerpElementInfo {
 
     
-    /** search engine type */
+    /** *search engine type* */
 
     se_type?: string | undefined;
 
     
-    /** contains data on the SERP element the list of supported SERP elements can be found below */
+    /** *contains data on the SERP element* the list of supported SERP elements can be found below */
 
     serp_item?: AppStoreSearchOrganic | undefined;
 
     
-    /** direct URL to search engine results you can use it to make sure that we provided accurate results */
+    /** *direct URL to search engine results* you can use it to make sure that we provided accurate results */
 
     check_url?: string | undefined;
 
     
-    /** number of search results for the returned keyword */
+    /** *number of search results for the returned keyword* */
 
     se_results_count?: number | undefined;
 
     
-    /** date and time when keyword data was updated in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: 2019-11-15 12:57:46 +00:00 */
+    /** *date and time when keyword data was updated* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”; example: `2019-11-15 12:57:46 +00:00` */
 
     last_updated_time?: string | undefined;
 
     
-    /** previous to the most recent date and time when SERP data was updated in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-10-15 12:57:46 +00:00; in this case, will equal null */
+    /** *previous to the most recent date and time when SERP data was updated* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-10-15 12:57:46 +00:00`; in this case, will equal null */
 
     previous_updated_time?: string | undefined;
 

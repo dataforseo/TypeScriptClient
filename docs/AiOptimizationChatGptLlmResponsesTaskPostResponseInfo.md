@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **AiOptimizationChatGptLlmResponsesTaskPostTaskInfo[]** |  |[optional]|
+**tasks** | **AiOptimizationChatGptLlmResponsesTaskPostTaskInfo[]** | *array of tasks* |[optional]|

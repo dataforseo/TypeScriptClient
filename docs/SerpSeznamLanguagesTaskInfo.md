@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpSeznamLanguagesResultInfo[]** | array of results |[optional]|
+**result** | **SerpSeznamLanguagesResultInfo[]** | *array of results* |[optional]|

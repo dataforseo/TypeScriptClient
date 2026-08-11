@@ -3,10 +3,10 @@ import { DataforseoTrendsDataInfo, IDataforseoTrendsDataInfo } from "./Dataforse
 
 export interface IDemography   {
         
-        /** distribution of keyword popularity by age */
+        /** *distribution of keyword popularity by age* */
         age?: DataforseoTrendsDataInfo[] | undefined
         
-        /** distribution of keyword popularity by gender */
+        /** *distribution of keyword popularity by gender* */
         gender?: DataforseoTrendsDataInfo[] | undefined
 
     [key: string]: any;
@@ -16,12 +16,12 @@ export interface IDemography   {
 export class Demography  implements IDemography {
 
     
-    /** distribution of keyword popularity by age */
+    /** *distribution of keyword popularity by age* */
 
     age?: DataforseoTrendsDataInfo[] | undefined;
 
     
-    /** distribution of keyword popularity by gender */
+    /** *distribution of keyword popularity by gender* */
 
     gender?: DataforseoTrendsDataInfo[] | undefined;
 

@@ -6,7 +6,7 @@ export interface IOnPageMicrodataInfoItem   {
         /** type of element */
         type?: string | undefined
         
-        /** information related to microdata validation */
+        /** *information related to microdata validation* */
         inspection_info?: MicrodataInspectionInfo | undefined
 
     [key: string]: any;
@@ -21,7 +21,7 @@ export class OnPageMicrodataInfoItem  implements IOnPageMicrodataInfoItem {
     type?: string | undefined;
 
     
-    /** information related to microdata validation */
+    /** *information related to microdata validation* */
 
     inspection_info?: MicrodataInspectionInfo | undefined;
 

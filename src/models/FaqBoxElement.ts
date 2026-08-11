@@ -7,13 +7,13 @@ export interface IFaqBoxElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of the link */
+        /** *title of the link* */
         title?: string | undefined
         
-        /** description of the hotel booking element */
+        /** *description of the hotel booking element* */
         description?: string | undefined
         
-        /** link of the element */
+        /** *link of the element* */
         links?: LinkElement[] | undefined
 
     [key: string]: any;
@@ -29,17 +29,17 @@ export class FaqBoxElement  implements IFaqBoxElement {
     type?: string | undefined;
 
     
-    /** title of the link */
+    /** *title of the link* */
 
     title?: string | undefined;
 
     
-    /** description of the hotel booking element */
+    /** *description of the hotel booking element* */
 
     description?: string | undefined;
 
     
-    /** link of the element */
+    /** *link of the element* */
 
     links?: LinkElement[] | undefined;
 

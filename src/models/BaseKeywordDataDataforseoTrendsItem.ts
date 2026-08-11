@@ -10,10 +10,10 @@ export interface IBaseKeywordDataDataforseoTrendsItem   {
         /** type of element */
         type?: string | undefined
         
-        /** the alignment of the element can take the following values: 1, 2, 3, 4, etc. */
+        /** *the alignment of the element* can take the following values: `1`, `2`, `3`, `4`, etc. */
         position?: number | undefined
         
-        /** keywords in a POST array */
+        /** *keywords in a POST array* */
         keywords?: string[] | undefined
 
     [key: string]: any;
@@ -28,12 +28,12 @@ export class BaseKeywordDataDataforseoTrendsItem  implements IBaseKeywordDataDat
     type?: string | undefined;
 
     
-    /** the alignment of the element can take the following values: 1, 2, 3, 4, etc. */
+    /** *the alignment of the element* can take the following values: `1`, `2`, `3`, `4`, etc. */
 
     position?: number | undefined;
 
     
-    /** keywords in a POST array */
+    /** *keywords in a POST array* */
 
     keywords?: string[] | undefined;
 
@@ -109,7 +109,7 @@ export class BaseKeywordDataDataforseoTrendsItem  implements IBaseKeywordDataDat
  
 export interface IDataforseoTrendsDataforseoTrendsGraphElementItem  extends IBaseKeywordDataDataforseoTrendsItem    {
         
-        /** contains the same parameters that you specified in the POST request */
+        /** *contains the same parameters that you specified in the POST request* */
         data?: DataforseoTrendsGraphDataTrendsGraphDataInfo[] | undefined
         
         averages?: number[] | undefined
@@ -121,7 +121,7 @@ export interface IDataforseoTrendsDataforseoTrendsGraphElementItem  extends IBas
 export class DataforseoTrendsDataforseoTrendsGraphElementItem  extends BaseKeywordDataDataforseoTrendsItem   implements IDataforseoTrendsDataforseoTrendsGraphElementItem {
 
     
-    /** contains the same parameters that you specified in the POST request */
+    /** *contains the same parameters that you specified in the POST request* */
 
     data?: DataforseoTrendsGraphDataTrendsGraphDataInfo[] | undefined;
 
@@ -185,10 +185,10 @@ export class DataforseoTrendsDataforseoTrendsGraphElementItem  extends BaseKeywo
  
 export interface IDataforseoTrendsSubregionInterestsElementItem  extends IBaseKeywordDataDataforseoTrendsItem    {
         
-        /** subregional keyword popuarity data for each specified term */
+        /** *subregional keyword popuarity data for each specified term* */
         interests?: DataforseoTrendsinterestsInfo[] | undefined
         
-        /** comparison of data on subregional keyword popularity for the specified parameters if you specified a single keyword, the value will be null */
+        /** *comparison of data on subregional keyword popularity for the specified parameters* if you specified a single keyword, the value will be `null` */
         interests_comparison?: InterestsComparison | undefined
 
     [key: string]: any;
@@ -198,12 +198,12 @@ export interface IDataforseoTrendsSubregionInterestsElementItem  extends IBaseKe
 export class DataforseoTrendsSubregionInterestsElementItem  extends BaseKeywordDataDataforseoTrendsItem   implements IDataforseoTrendsSubregionInterestsElementItem {
 
     
-    /** subregional keyword popuarity data for each specified term */
+    /** *subregional keyword popuarity data for each specified term* */
 
     interests?: DataforseoTrendsinterestsInfo[] | undefined;
 
     
-    /** comparison of data on subregional keyword popularity for the specified parameters if you specified a single keyword, the value will be null */
+    /** *comparison of data on subregional keyword popularity for the specified parameters* if you specified a single keyword, the value will be `null` */
 
     interests_comparison?: InterestsComparison | undefined;
 
@@ -265,10 +265,10 @@ export class DataforseoTrendsSubregionInterestsElementItem  extends BaseKeywordD
  
 export interface IDataforseoTrendsDemographyElementItem  extends IBaseKeywordDataDataforseoTrendsItem    {
         
-        /** demographic breakdown of keyword popularity data per each specified term conains keyword popularity data by age and gender */
+        /** *demographic breakdown of keyword popularity data per each specified term* conains keyword popularity data by age and gender */
         demography?: Demography | undefined
         
-        /** comparison of demographic data on keyword popularity for the specified parameters conains keyword popularity data by age and gender if you specified a single keyword, the value will be null */
+        /** *comparison of demographic data on keyword popularity for the specified parameters* conains keyword popularity data by age and gender if you specified a single keyword, the value will be `null` */
         demography_comparison?: DemographyComparisonInfo | undefined
 
     [key: string]: any;
@@ -278,12 +278,12 @@ export interface IDataforseoTrendsDemographyElementItem  extends IBaseKeywordDat
 export class DataforseoTrendsDemographyElementItem  extends BaseKeywordDataDataforseoTrendsItem   implements IDataforseoTrendsDemographyElementItem {
 
     
-    /** demographic breakdown of keyword popularity data per each specified term conains keyword popularity data by age and gender */
+    /** *demographic breakdown of keyword popularity data per each specified term* conains keyword popularity data by age and gender */
 
     demography?: Demography | undefined;
 
     
-    /** comparison of demographic data on keyword popularity for the specified parameters conains keyword popularity data by age and gender if you specified a single keyword, the value will be null */
+    /** *comparison of demographic data on keyword popularity for the specified parameters* conains keyword popularity data by age and gender if you specified a single keyword, the value will be `null` */
 
     demography_comparison?: DemographyComparisonInfo | undefined;
 

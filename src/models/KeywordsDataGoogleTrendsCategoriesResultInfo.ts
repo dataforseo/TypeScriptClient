@@ -1,12 +1,12 @@
 export interface IKeywordsDataGoogleTrendsCategoriesResultInfo   {
         
-        /** unique google trends category identifier */
+        /** *unique google trends category identifier* */
         category_code?: number | undefined
         
-        /** name of the google trends category */
+        /** *name of the google trends category* */
         category_name?: string | undefined
         
-        /** the code of the superordinate category example: 'category_code': 1100, 'category_name': 'Superhero Films', 'category_code_parent': 1097 where category_code_parent corresponds to: 'category_code': 1097, 'category_name': 'Action & Adventure Films' */
+        /** *the code of the superordinate category* example: `'category_code': 1100,` `'category_name': 'Superhero Films',` `'category_code_parent': 1097`  where `category_code_parent` corresponds to:  `'category_code': 1097,` `'category_name': 'Action & Adventure Films'` */
         category_code_parent?: number | undefined
 
     [key: string]: any;
@@ -16,17 +16,17 @@ export interface IKeywordsDataGoogleTrendsCategoriesResultInfo   {
 export class KeywordsDataGoogleTrendsCategoriesResultInfo  implements IKeywordsDataGoogleTrendsCategoriesResultInfo {
 
     
-    /** unique google trends category identifier */
+    /** *unique google trends category identifier* */
 
     category_code?: number | undefined;
 
     
-    /** name of the google trends category */
+    /** *name of the google trends category* */
 
     category_name?: string | undefined;
 
     
-    /** the code of the superordinate category example: 'category_code': 1100, 'category_name': 'Superhero Films', 'category_code_parent': 1097 where category_code_parent corresponds to: 'category_code': 1097, 'category_name': 'Action & Adventure Films' */
+    /** *the code of the superordinate category* example: `'category_code': 1100,` `'category_name': 'Superhero Films',` `'category_code_parent': 1097`  where `category_code_parent` corresponds to:  `'category_code': 1097,` `'category_name': 'Action & Adventure Films'` */
 
     category_code_parent?: number | undefined;
 

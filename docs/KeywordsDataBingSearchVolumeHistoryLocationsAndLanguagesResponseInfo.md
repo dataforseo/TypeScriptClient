@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesTaskInfo[]** | *array of tasks* |[optional]|

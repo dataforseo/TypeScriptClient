@@ -1,9 +1,9 @@
 export interface IAudienceEstimationInfo   {
         
-        /** indicates the upper bound of the range result */
+        /** *indicates the upper bound of the range result* */
         high?: number | undefined
         
-        /** indicates the lower bound of the range result */
+        /** *indicates the lower bound of the range result* */
         low?: number | undefined
 
     [key: string]: any;
@@ -13,12 +13,12 @@ export interface IAudienceEstimationInfo   {
 export class AudienceEstimationInfo  implements IAudienceEstimationInfo {
 
     
-    /** indicates the upper bound of the range result */
+    /** *indicates the upper bound of the range result* */
 
     high?: number | undefined;
 
     
-    /** indicates the lower bound of the range result */
+    /** *indicates the lower bound of the range result* */
 
     low?: number | undefined;
 

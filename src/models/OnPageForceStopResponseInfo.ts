@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface IOnPageForceStopResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: OnPageForceStopTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IOnPageForceStopResponseInfo  extends IBaseResponseInfo    {
 export class OnPageForceStopResponseInfo  extends BaseResponseInfo   implements IOnPageForceStopResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: OnPageForceStopTaskInfo[] | undefined;
 

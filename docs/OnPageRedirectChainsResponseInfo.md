@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **OnPageRedirectChainsTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **OnPageRedirectChainsTaskInfo[]** | *array of tasks* |[optional]|

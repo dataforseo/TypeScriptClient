@@ -3,7 +3,7 @@ import { MessageInfo, IMessageInfo } from "./MessageInfo";
 
 export interface IMicrodataFieldsInfo   {
         
-        /** field name name of the data field */
+        /** *field name* name of the data field */
         name?: string | undefined
         
         /** list of microdata types */
@@ -12,10 +12,10 @@ export interface IMicrodataFieldsInfo   {
         /** microdata value microdata value specified on a target web page */
         value?: string | undefined
         
-        /** microdata validation test results sub-type microdata test results that contain detected errors and related messages */
+        /** *microdata validation test results* sub-type microdata test results that contain detected errors and related messages */
         test_results?: MessageInfo | undefined
         
-        /** microdata fields an array of objects containing data fields related to the certain microdata type */
+        /** *microdata fields* an array of objects containing data fields related to the certain microdata type */
         fields?: MicrodataFieldsInfo[] | undefined
 
     [key: string]: any;
@@ -25,7 +25,7 @@ export interface IMicrodataFieldsInfo   {
 export class MicrodataFieldsInfo  implements IMicrodataFieldsInfo {
 
     
-    /** field name name of the data field */
+    /** *field name* name of the data field */
 
     name?: string | undefined;
 
@@ -40,12 +40,12 @@ export class MicrodataFieldsInfo  implements IMicrodataFieldsInfo {
     value?: string | undefined;
 
     
-    /** microdata validation test results sub-type microdata test results that contain detected errors and related messages */
+    /** *microdata validation test results* sub-type microdata test results that contain detected errors and related messages */
 
     test_results?: MessageInfo | undefined;
 
     
-    /** microdata fields an array of objects containing data fields related to the certain microdata type */
+    /** *microdata fields* an array of objects containing data fields related to the certain microdata type */
 
     fields?: MicrodataFieldsInfo[] | undefined;
 

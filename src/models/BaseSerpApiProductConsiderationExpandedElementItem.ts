@@ -81,31 +81,30 @@ export class BaseSerpApiProductConsiderationExpandedElementItem  implements IBas
  
 export interface ISerpApiProductConsiderationsExpandedElementItem  extends IBaseSerpApiProductConsiderationExpandedElementItem    {
         
-        /** title of the carousel item */
+        /** *title of the carousel item* */
         title?: string | undefined
         
-        /** the title of the featured snippets source page */
+        /** *the title of the featured snippets source page* */
         featured_title?: string | undefined
         
-        /** breadcrumb of the Ad element in SERP */
+        /** *breadcrumb of the Ad element in SERP* */
         breadcrumb?: string | undefined
         
-        /** text alongside the link title */
+        /** *text alongside the link title* */
         snippet?: string | undefined
         
-        /** source domain */
+        /** *source domain* */
         domain?: string | undefined
         
-        /** relevant URL */
+        /** *relevant URL* */
         url?: string | undefined
         
-        /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
+        /** *date and time when the result was published* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
         timestamp?: string | undefined
         
-        /** search queries related to the elment */
         related_searches?: string[] | undefined
         
-        /** @deprecated contains information from the ‘About this result’ panel Note: element no longer appears in SERP and has been deprecated in SERP API */
+        /** @deprecated *contains information from the 'About this result' panel* **Note:** element no longer appears in SERP and has been deprecated in SERP API */
         about_this_result?: AboutThisResultElement | undefined
 
     [key: string]: any;
@@ -115,46 +114,43 @@ export interface ISerpApiProductConsiderationsExpandedElementItem  extends IBase
 export class SerpApiProductConsiderationsExpandedElementItem  extends BaseSerpApiProductConsiderationExpandedElementItem   implements ISerpApiProductConsiderationsExpandedElementItem {
 
     
-    /** title of the carousel item */
+    /** *title of the carousel item* */
 
     title?: string | undefined;
 
     
-    /** the title of the featured snippets source page */
+    /** *the title of the featured snippets source page* */
 
     featured_title?: string | undefined;
 
     
-    /** breadcrumb of the Ad element in SERP */
+    /** *breadcrumb of the Ad element in SERP* */
 
     breadcrumb?: string | undefined;
 
     
-    /** text alongside the link title */
+    /** *text alongside the link title* */
 
     snippet?: string | undefined;
 
     
-    /** source domain */
+    /** *source domain* */
 
     domain?: string | undefined;
 
     
-    /** relevant URL */
+    /** *relevant URL* */
 
     url?: string | undefined;
 
     
-    /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
+    /** *date and time when the result was published* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
 
     timestamp?: string | undefined;
 
-    
-    /** search queries related to the elment */
-
     related_searches?: string[] | undefined;
     
-    /** @deprecated contains information from the ‘About this result’ panel Note: element no longer appears in SERP and has been deprecated in SERP API */
+    /** @deprecated *contains information from the 'About this result' panel* **Note:** element no longer appears in SERP and has been deprecated in SERP API */
 
     about_this_result?: AboutThisResultElement | undefined;
 
@@ -217,10 +213,10 @@ export class SerpApiProductConsiderationsExpandedElementItem  extends BaseSerpAp
  
 export interface ISerpApiProductConsiderationsAiOverviewExpandedElementItem  extends IBaseSerpApiProductConsiderationExpandedElementItem    {
         
-        /** items present in the element */
+        /** *items present in the element* */
         items?: AiOverviewElement[] | undefined
         
-        /** additional references relevant to the item includes references to webpages that may have been used to generate the ai_overview */
+        /** *additional references relevant to the item* includes references to webpages that may have been used to generate the `ai_overview` */
         references?: AiModeAiOverviewReferenceInfo[] | undefined
 
     [key: string]: any;
@@ -230,12 +226,12 @@ export interface ISerpApiProductConsiderationsAiOverviewExpandedElementItem  ext
 export class SerpApiProductConsiderationsAiOverviewExpandedElementItem  extends BaseSerpApiProductConsiderationExpandedElementItem   implements ISerpApiProductConsiderationsAiOverviewExpandedElementItem {
 
     
-    /** items present in the element */
+    /** *items present in the element* */
 
     items?: AiOverviewElement[] | undefined;
 
     
-    /** additional references relevant to the item includes references to webpages that may have been used to generate the ai_overview */
+    /** *additional references relevant to the item* includes references to webpages that may have been used to generate the `ai_overview` */
 
     references?: AiModeAiOverviewReferenceInfo[] | undefined;
 

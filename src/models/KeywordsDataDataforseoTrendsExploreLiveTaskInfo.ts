@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IKeywordsDataDataforseoTrendsExploreLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: KeywordsDataDataforseoTrendsExploreLiveResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IKeywordsDataDataforseoTrendsExploreLiveTaskInfo  extends IBase
 export class KeywordsDataDataforseoTrendsExploreLiveTaskInfo  extends BaseResponseTaskInfo   implements IKeywordsDataDataforseoTrendsExploreLiveTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: KeywordsDataDataforseoTrendsExploreLiveResultInfo[] | undefined;
 

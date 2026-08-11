@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **KeywordsDataDataforseoTrendsMergedDataLiveResultInfo[]** | array of results |[optional]|
+**result** | **KeywordsDataDataforseoTrendsMergedDataLiveResultInfo[]** | *array of results* |[optional]|

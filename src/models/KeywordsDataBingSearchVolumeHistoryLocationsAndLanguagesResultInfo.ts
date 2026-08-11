@@ -3,13 +3,13 @@ import { AvailableLocations, IAvailableLocations } from "./AvailableLocations";
 
 export interface IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo   {
         
-        /** language name */
+        /** *language name* */
         language_name?: string | undefined
         
-        /** language code according to ISO 639-1 */
+        /** *language code according to [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)* */
         language_code?: string | undefined
         
-        /** array of available locations for a certain language */
+        /** *array of available locations for a certain language* */
         available_locations?: AvailableLocations[] | undefined
 
     [key: string]: any;
@@ -19,17 +19,17 @@ export interface IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResult
 export class KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo  implements IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo {
 
     
-    /** language name */
+    /** *language name* */
 
     language_name?: string | undefined;
 
     
-    /** language code according to ISO 639-1 */
+    /** *language code according to [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)* */
 
     language_code?: string | undefined;
 
     
-    /** array of available locations for a certain language */
+    /** *array of available locations for a certain language* */
 
     available_locations?: AvailableLocations[] | undefined;
 

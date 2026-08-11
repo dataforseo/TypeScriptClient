@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **OnPageWaterfallTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **OnPageWaterfallTaskInfo[]** | *array of tasks* |[optional]|

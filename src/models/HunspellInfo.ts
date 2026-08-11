@@ -3,10 +3,10 @@ import { HunspellMisspelledInfo, IHunspellMisspelledInfo } from "./HunspellMissp
 
 export interface IHunspellInfo   {
         
-        /** spellcheck language code */
+        /** *spellcheck language code* */
         hunspell_language_code?: string | undefined
         
-        /** array of misspelled words */
+        /** *array of misspelled words* */
         misspelled?: HunspellMisspelledInfo[] | undefined
 
     [key: string]: any;
@@ -16,12 +16,12 @@ export interface IHunspellInfo   {
 export class HunspellInfo  implements IHunspellInfo {
 
     
-    /** spellcheck language code */
+    /** *spellcheck language code* */
 
     hunspell_language_code?: string | undefined;
 
     
-    /** array of misspelled words */
+    /** *array of misspelled words* */
 
     misspelled?: HunspellMisspelledInfo[] | undefined;
 

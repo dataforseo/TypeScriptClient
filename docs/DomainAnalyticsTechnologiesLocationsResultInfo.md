@@ -4,5 +4,5 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**location_name** | **string** | full name of the location |[optional]|
-**country_iso_code** | **string** | ISO country code of the location |[optional]|
+**location_name** | **string** | *full name of the location* |[optional]|
+**country_iso_code** | **string** | *ISO country code of the location* |[optional]|

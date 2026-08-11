@@ -6,22 +6,22 @@ export interface IKnowledgeGraphHotelsBookingElement   {
         /** type of element */
         type?: string | undefined
         
-        /** name of the source of the video */
+        /** *name of the source of the video* */
         source?: string | undefined
         
-        /** description of the results element in SERP */
+        /** *description of the results element in SERP* */
         description?: string | undefined
         
-        /** image source URL */
+        /** *image source URL* */
         url?: string | undefined
         
-        /** website domain */
+        /** *website domain* */
         domain?: string | undefined
         
-        /** pricing details contains the pricing details of the product or service featured in the result */
+        /** *pricing details* contains the pricing details of the product or service featured in the result */
         price?: PriceInfo | undefined
         
-        /** indicates whether the element is an ad */
+        /** *indicates whether the element is an ad* */
         is_paid?: boolean | undefined
 
     [key: string]: any;
@@ -36,32 +36,32 @@ export class KnowledgeGraphHotelsBookingElement  implements IKnowledgeGraphHotel
     type?: string | undefined;
 
     
-    /** name of the source of the video */
+    /** *name of the source of the video* */
 
     source?: string | undefined;
 
     
-    /** description of the results element in SERP */
+    /** *description of the results element in SERP* */
 
     description?: string | undefined;
 
     
-    /** image source URL */
+    /** *image source URL* */
 
     url?: string | undefined;
 
     
-    /** website domain */
+    /** *website domain* */
 
     domain?: string | undefined;
 
     
-    /** pricing details contains the pricing details of the product or service featured in the result */
+    /** *pricing details* contains the pricing details of the product or service featured in the result */
 
     price?: PriceInfo | undefined;
 
     
-    /** indicates whether the element is an ad */
+    /** *indicates whether the element is an ad* */
 
     is_paid?: boolean | undefined;
 

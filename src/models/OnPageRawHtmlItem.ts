@@ -1,6 +1,6 @@
 export interface IOnPageRawHtmlItem   {
         
-        /** HTML page */
+        /** *HTML_**page*n */
         html?: string | undefined
 
     [key: string]: any;
@@ -10,7 +10,7 @@ export interface IOnPageRawHtmlItem   {
 export class OnPageRawHtmlItem  implements IOnPageRawHtmlItem {
 
     
-    /** HTML page */
+    /** *HTML_**page*n */
 
     html?: string | undefined;
 

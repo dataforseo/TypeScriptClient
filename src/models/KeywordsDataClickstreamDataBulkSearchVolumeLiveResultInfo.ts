@@ -3,13 +3,13 @@ import { KeywordsDataClickstreamDataSearchVolumeLiveItem, IKeywordsDataClickstre
 
 export interface IKeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo   {
         
-        /** location code in a POST array */
+        /** *location code in a POST array* */
         location_code?: number | undefined
         
-        /** the number of results returned in the items array */
+        /** *the number of results returned in the `items` array* */
         items_count?: number | undefined
         
-        /** contains keywords and related data */
+        /** *contains keywords and related data* */
         items?: KeywordsDataClickstreamDataSearchVolumeLiveItem[] | undefined
 
     [key: string]: any;
@@ -19,17 +19,17 @@ export interface IKeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo   {
 export class KeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo  implements IKeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo {
 
     
-    /** location code in a POST array */
+    /** *location code in a POST array* */
 
     location_code?: number | undefined;
 
     
-    /** the number of results returned in the items array */
+    /** *the number of results returned in the `items` array* */
 
     items_count?: number | undefined;
 
     
-    /** contains keywords and related data */
+    /** *contains keywords and related data* */
 
     items?: KeywordsDataClickstreamDataSearchVolumeLiveItem[] | undefined;
 

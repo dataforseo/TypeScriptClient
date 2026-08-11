@@ -7,28 +7,28 @@ export interface IHotelsPackElement   {
         /** type of element */
         type?: string | undefined
         
-        /** price indicated in the element */
+        /** *price indicated in the element* */
         price?: PriceInfo | undefined
         
-        /** title of a given link element */
+        /** *title of a given link element* */
         title?: string | undefined
         
-        /** link description */
+        /** *link description* */
         description?: string | undefined
         
-        /** unique hotel identifier unique hotel identifier assigned by Google; example: 'CgoIjaeSlI6CnNpVEAE' */
+        /** *unique hotel identifier* unique hotel identifier assigned by Google; example: `'CgoIjaeSlI6CnNpVEAE'` */
         hotel_identifier?: string | undefined
         
-        /** domain where a link points */
+        /** *domain where a link points* */
         domain?: string | undefined
         
-        /** source URL */
+        /** *source URL* */
         url?: string | undefined
         
-        /** indicates whether the element is an ad */
+        /** *indicates whether the element is an ad* */
         is_paid?: boolean | undefined
         
-        /** the item’s rating  the popularity rate based on reviews and displayed in SERP; if there is none, equals null */
+        /** *the item's rating* the popularity rate based on reviews and displayed in SERP; if there is none, equals `null` */
         rating?: RatingInfo | undefined
 
     [key: string]: any;
@@ -43,42 +43,42 @@ export class HotelsPackElement  implements IHotelsPackElement {
     type?: string | undefined;
 
     
-    /** price indicated in the element */
+    /** *price indicated in the element* */
 
     price?: PriceInfo | undefined;
 
     
-    /** title of a given link element */
+    /** *title of a given link element* */
 
     title?: string | undefined;
 
     
-    /** link description */
+    /** *link description* */
 
     description?: string | undefined;
 
     
-    /** unique hotel identifier unique hotel identifier assigned by Google; example: 'CgoIjaeSlI6CnNpVEAE' */
+    /** *unique hotel identifier* unique hotel identifier assigned by Google; example: `'CgoIjaeSlI6CnNpVEAE'` */
 
     hotel_identifier?: string | undefined;
 
     
-    /** domain where a link points */
+    /** *domain where a link points* */
 
     domain?: string | undefined;
 
     
-    /** source URL */
+    /** *source URL* */
 
     url?: string | undefined;
 
     
-    /** indicates whether the element is an ad */
+    /** *indicates whether the element is an ad* */
 
     is_paid?: boolean | undefined;
 
     
-    /** the item’s rating  the popularity rate based on reviews and displayed in SERP; if there is none, equals null */
+    /** *the item's rating* the popularity rate based on reviews and displayed in SERP; if there is none, equals `null` */
 
     rating?: RatingInfo | undefined;
 

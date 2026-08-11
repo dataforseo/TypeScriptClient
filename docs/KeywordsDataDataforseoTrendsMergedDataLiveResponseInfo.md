@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **KeywordsDataDataforseoTrendsMergedDataLiveTaskInfo[]** | *array of tasks* |[optional]|

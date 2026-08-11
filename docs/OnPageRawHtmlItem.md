@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**html** | **string** | HTML page |[optional]|
+**html** | **string** | *HTML_**page*n |[optional]|

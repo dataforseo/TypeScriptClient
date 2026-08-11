@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **KeywordsDataDataforseoTrendsDemographyLiveResultInfo[]** | array of results |[optional]|
+**result** | **KeywordsDataDataforseoTrendsDemographyLiveResultInfo[]** | *array of results* |[optional]|

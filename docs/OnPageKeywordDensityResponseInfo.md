@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **OnPageKeywordDensityTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **OnPageKeywordDensityTaskInfo[]** | *array of tasks* |[optional]|

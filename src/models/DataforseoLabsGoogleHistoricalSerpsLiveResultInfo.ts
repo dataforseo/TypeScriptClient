@@ -3,25 +3,25 @@ import { DataforseoLabsGoogleHistoricalSerpsLiveItem, IDataforseoLabsGoogleHisto
 
 export interface IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo   {
         
-        /** search engine type in a POST array */
+        /** *search engine type in a POST array* */
         se_type?: string | undefined
         
-        /** keyword received in a POST array the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
+        /** *keyword received in a POST array*             **the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)** */
         keyword?: string | undefined
         
-        /** location code in a POST array */
+        /** *location code in a POST array* */
         location_code?: number | undefined
         
-        /** language code in a POST array */
+        /** *language code in a POST array* */
         language_code?: string | undefined
         
-        /** the total amount of results in our database relevant to your request */
+        /** *the total amount of results in our database relevant to your request* */
         total_count?: number | undefined
         
-        /** the number of results returned in the items array */
+        /** *the number of results returned in the `items` array* */
         items_count?: number | undefined
         
-        /** historical SERPs and related data found in the database */
+        /** *historical SERPs and related data found in the database* */
         items?: DataforseoLabsGoogleHistoricalSerpsLiveItem[] | undefined
 
     [key: string]: any;
@@ -31,37 +31,37 @@ export interface IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo   {
 export class DataforseoLabsGoogleHistoricalSerpsLiveResultInfo  implements IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo {
 
     
-    /** search engine type in a POST array */
+    /** *search engine type in a POST array* */
 
     se_type?: string | undefined;
 
     
-    /** keyword received in a POST array the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character) */
+    /** *keyword received in a POST array*             **the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)** */
 
     keyword?: string | undefined;
 
     
-    /** location code in a POST array */
+    /** *location code in a POST array* */
 
     location_code?: number | undefined;
 
     
-    /** language code in a POST array */
+    /** *language code in a POST array* */
 
     language_code?: string | undefined;
 
     
-    /** the total amount of results in our database relevant to your request */
+    /** *the total amount of results in our database relevant to your request* */
 
     total_count?: number | undefined;
 
     
-    /** the number of results returned in the items array */
+    /** *the number of results returned in the `items` array* */
 
     items_count?: number | undefined;
 
     
-    /** historical SERPs and related data found in the database */
+    /** *historical SERPs and related data found in the database* */
 
     items?: DataforseoLabsGoogleHistoricalSerpsLiveItem[] | undefined;
 

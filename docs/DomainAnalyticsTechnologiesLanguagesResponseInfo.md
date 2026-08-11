@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **DomainAnalyticsTechnologiesLanguagesTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **DomainAnalyticsTechnologiesLanguagesTaskInfo[]** | *array of tasks* |[optional]|

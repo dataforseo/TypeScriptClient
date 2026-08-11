@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface ISerpSeznamLocationsCountryResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: SerpSeznamLocationsCountryTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface ISerpSeznamLocationsCountryResponseInfo  extends IBaseResponseI
 export class SerpSeznamLocationsCountryResponseInfo  extends BaseResponseInfo   implements ISerpSeznamLocationsCountryResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: SerpSeznamLocationsCountryTaskInfo[] | undefined;
 

@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpNaverOrganicTaskGetRegularTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **SerpNaverOrganicTaskGetRegularTaskInfo[]** | *array of tasks* |[optional]|

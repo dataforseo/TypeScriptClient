@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IDomainAnalyticsTechnologiesAggregationTechnologiesLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IDomainAnalyticsTechnologiesAggregationTechnologiesLiveTaskInfo
 export class DomainAnalyticsTechnologiesAggregationTechnologiesLiveTaskInfo  extends BaseResponseTaskInfo   implements IDomainAnalyticsTechnologiesAggregationTechnologiesLiveTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo[] | undefined;
 

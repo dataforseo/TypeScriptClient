@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface ISerpGoogleSearchByImageTasksReadyTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: SerpGoogleSearchByImageTasksReadyResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface ISerpGoogleSearchByImageTasksReadyTaskInfo  extends IBaseRespon
 export class SerpGoogleSearchByImageTasksReadyTaskInfo  extends BaseResponseTaskInfo   implements ISerpGoogleSearchByImageTasksReadyTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: SerpGoogleSearchByImageTasksReadyResultInfo[] | undefined;
 

@@ -3,10 +3,10 @@ export interface IDataforseoLabsCarouselElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of the result in SERP */
+        /** *title of the result in SERP* */
         title?: string | undefined
         
-        /** subtitle of the item */
+        /** *subtitle of the item* */
         sub_title?: string | undefined
 
     [key: string]: any;
@@ -21,12 +21,12 @@ export class DataforseoLabsCarouselElement  implements IDataforseoLabsCarouselEl
     type?: string | undefined;
 
     
-    /** title of the result in SERP */
+    /** *title of the result in SERP* */
 
     title?: string | undefined;
 
     
-    /** subtitle of the item */
+    /** *subtitle of the item* */
 
     sub_title?: string | undefined;
 

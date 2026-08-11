@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **DataforseoLabsAvailableFiltersTaskInfo[]** |  |[optional]|
+**tasks** | **DataforseoLabsAvailableFiltersTaskInfo[]** | *array of tasks* |[optional]|

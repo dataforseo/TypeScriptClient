@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **DomainAnalyticsTechnologiesLocationsResultInfo[]** | array of results |[optional]|
+**result** | **DomainAnalyticsTechnologiesLocationsResultInfo[]** | *array of results* |[optional]|

@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IOnPageNonIndexableTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: OnPageNonIndexableResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IOnPageNonIndexableTaskInfo  extends IBaseResponseTaskInfo    {
 export class OnPageNonIndexableTaskInfo  extends BaseResponseTaskInfo   implements IOnPageNonIndexableTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: OnPageNonIndexableResultInfo[] | undefined;
 

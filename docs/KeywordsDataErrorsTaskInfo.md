@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **KeywordsDataErrorsResultInfo[]** | array of results |[optional]|
+**result** | **KeywordsDataErrorsResultInfo[]** | *array of results* |[optional]|

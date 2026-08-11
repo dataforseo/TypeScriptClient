@@ -3,28 +3,28 @@ import { BaseKeywordDataGoogleTrendsItem, IBaseKeywordDataGoogleTrendsItem } fro
 
 export interface IKeywordsDataGoogleTrendsExploreTaskGetResultInfo   {
         
-        /** keywords in a POST array */
+        /** *keywords in a POST array* */
         keywords?: string[] | undefined
         
         /** type of element */
         type?: string | undefined
         
-        /** location code in a POST array if there is no data, then the value is null */
+        /** *location code in a POST array* if there is no data, then the value is_`null`n */
         location_code?: number | undefined
         
-        /** language code in a POST array if there is no data, then the value is null */
+        /** *language code in a POST array* if there is no data, then the value is_`null`n */
         language_code?: string | undefined
         
-        /** direct URL to the Google Trends results you can use it to make sure that we provided accurate results */
+        /** *direct URL to the Google Trends results* you can use it to make sure that we provided accurate results */
         check_url?: string | undefined
         
-        /** date and time when the result was received in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
+        /** *date and time when the result was received* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
         datetime?: string | undefined
         
-        /** the number of results returned in the items array */
+        /** *the number of results returned in the **`items`** array* */
         items_count?: number | undefined
         
-        /** items on the Google Trends page */
+        /** *items on the Google Trends page* */
         items?: BaseKeywordDataGoogleTrendsItem[] | undefined
 
     [key: string]: any;
@@ -34,7 +34,7 @@ export interface IKeywordsDataGoogleTrendsExploreTaskGetResultInfo   {
 export class KeywordsDataGoogleTrendsExploreTaskGetResultInfo  implements IKeywordsDataGoogleTrendsExploreTaskGetResultInfo {
 
     
-    /** keywords in a POST array */
+    /** *keywords in a POST array* */
 
     keywords?: string[] | undefined;
 
@@ -44,32 +44,32 @@ export class KeywordsDataGoogleTrendsExploreTaskGetResultInfo  implements IKeywo
     type?: string | undefined;
 
     
-    /** location code in a POST array if there is no data, then the value is null */
+    /** *location code in a POST array* if there is no data, then the value is_`null`n */
 
     location_code?: number | undefined;
 
     
-    /** language code in a POST array if there is no data, then the value is null */
+    /** *language code in a POST array* if there is no data, then the value is_`null`n */
 
     language_code?: string | undefined;
 
     
-    /** direct URL to the Google Trends results you can use it to make sure that we provided accurate results */
+    /** *direct URL to the Google Trends results* you can use it to make sure that we provided accurate results */
 
     check_url?: string | undefined;
 
     
-    /** date and time when the result was received in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
+    /** *date and time when the result was received* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
 
     datetime?: string | undefined;
 
     
-    /** the number of results returned in the items array */
+    /** *the number of results returned in the **`items`** array* */
 
     items_count?: number | undefined;
 
     
-    /** items on the Google Trends page */
+    /** *items on the Google Trends page* */
 
     items?: BaseKeywordDataGoogleTrendsItem[] | undefined;
 

@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IKeywordsDataBingKeywordsForSiteTasksReadyTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: KeywordsDataBingKeywordsForSiteTasksReadyResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IKeywordsDataBingKeywordsForSiteTasksReadyTaskInfo  extends IBa
 export class KeywordsDataBingKeywordsForSiteTasksReadyTaskInfo  extends BaseResponseTaskInfo   implements IKeywordsDataBingKeywordsForSiteTasksReadyTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: KeywordsDataBingKeywordsForSiteTasksReadyResultInfo[] | undefined;
 

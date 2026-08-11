@@ -3,22 +3,22 @@ export interface IAiModeAiOverviewReferenceInfo   {
         /** type of element */
         type?: string | undefined
         
-        /** the alignment of the element in SERP can take the following values: left, right */
+        /** *the alignment of the element in SERP* can take the following values: `left`, `right` */
         position?: string | undefined
         
-        /** reference source name or title */
+        /** *reference source name or title* */
         source?: string | undefined
         
-        /** domain name of the reference */
+        /** *domain name of the reference* */
         domain?: string | undefined
         
-        /** link URL */
+        /** *link URL* */
         url?: string | undefined
         
-        /** link anchor text */
+        /** *link anchor text* */
         title?: string | undefined
         
-        /** text of the component */
+        /** *text of the component* */
         text?: string | undefined
 
     [key: string]: any;
@@ -33,32 +33,32 @@ export class AiModeAiOverviewReferenceInfo  implements IAiModeAiOverviewReferenc
     type?: string | undefined;
 
     
-    /** the alignment of the element in SERP can take the following values: left, right */
+    /** *the alignment of the element in SERP* can take the following values: `left`, `right` */
 
     position?: string | undefined;
 
     
-    /** reference source name or title */
+    /** *reference source name or title* */
 
     source?: string | undefined;
 
     
-    /** domain name of the reference */
+    /** *domain name of the reference* */
 
     domain?: string | undefined;
 
     
-    /** link URL */
+    /** *link URL* */
 
     url?: string | undefined;
 
     
-    /** link anchor text */
+    /** *link anchor text* */
 
     title?: string | undefined;
 
     
-    /** text of the component */
+    /** *text of the component* */
 
     text?: string | undefined;
 

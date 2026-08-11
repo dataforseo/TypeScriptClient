@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpSeznamLocationsResultInfo[]** | array of results |[optional]|
+**result** | **SerpSeznamLocationsResultInfo[]** | *array of results* |[optional]|

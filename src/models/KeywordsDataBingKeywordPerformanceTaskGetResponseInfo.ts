@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface IKeywordsDataBingKeywordPerformanceTaskGetResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: KeywordsDataBingKeywordPerformanceTaskGetTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IKeywordsDataBingKeywordPerformanceTaskGetResponseInfo  extends
 export class KeywordsDataBingKeywordPerformanceTaskGetResponseInfo  extends BaseResponseInfo   implements IKeywordsDataBingKeywordPerformanceTaskGetResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: KeywordsDataBingKeywordPerformanceTaskGetTaskInfo[] | undefined;
 

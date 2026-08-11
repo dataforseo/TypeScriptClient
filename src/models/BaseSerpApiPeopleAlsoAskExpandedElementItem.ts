@@ -82,28 +82,28 @@ export class BaseSerpApiPeopleAlsoAskExpandedElementItem  implements IBaseSerpAp
  
 export interface ISerpApiPeopleAlsoAskExpandedElementItem  extends IBaseSerpApiPeopleAlsoAskExpandedElementItem    {
         
-        /** the title of the featured snippets source page */
+        /** *the title of the featured snippets source page* */
         featured_title?: string | undefined
         
-        /** relevant URL */
+        /** *relevant URL* */
         url?: string | undefined
         
-        /** source domain */
+        /** *source domain* */
         domain?: string | undefined
         
-        /** title of the carousel item */
+        /** *title of the carousel item* */
         title?: string | undefined
         
-        /** description */
+        /** *description* */
         description?: string | undefined
         
-        /** images of the element */
+        /** *images of the element* */
         images?: AiModeImagesElementInfo[] | undefined
         
-        /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
+        /** *date and time when the result was published* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
         timestamp?: string | undefined
         
-        /** results table if there are none, equals null */
+        /** *results table* if there are none, equals `null` */
         table?: Table | undefined
 
     [key: string]: any;
@@ -113,42 +113,42 @@ export interface ISerpApiPeopleAlsoAskExpandedElementItem  extends IBaseSerpApiP
 export class SerpApiPeopleAlsoAskExpandedElementItem  extends BaseSerpApiPeopleAlsoAskExpandedElementItem   implements ISerpApiPeopleAlsoAskExpandedElementItem {
 
     
-    /** the title of the featured snippets source page */
+    /** *the title of the featured snippets source page* */
 
     featured_title?: string | undefined;
 
     
-    /** relevant URL */
+    /** *relevant URL* */
 
     url?: string | undefined;
 
     
-    /** source domain */
+    /** *source domain* */
 
     domain?: string | undefined;
 
     
-    /** title of the carousel item */
+    /** *title of the carousel item* */
 
     title?: string | undefined;
 
     
-    /** description */
+    /** *description* */
 
     description?: string | undefined;
 
     
-    /** images of the element */
+    /** *images of the element* */
 
     images?: AiModeImagesElementInfo[] | undefined;
 
     
-    /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
+    /** *date and time when the result was published* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
 
     timestamp?: string | undefined;
 
     
-    /** results table if there are none, equals null */
+    /** *results table* if there are none, equals `null` */
 
     table?: Table | undefined;
 
@@ -222,13 +222,13 @@ export class SerpApiPeopleAlsoAskExpandedElementItem  extends BaseSerpApiPeopleA
  
 export interface ISerpApiPeopleAlsoAskAiOverviewExpandedElementItem  extends IBaseSerpApiPeopleAlsoAskExpandedElementItem    {
         
-        /** items present in the element */
+        /** *items present in the element* */
         items?: BaseSerpApiAiOverviewElementItem[] | undefined
         
-        /** additional references relevant to the item includes references to webpages that may have been used to generate the ai_overview */
+        /** *additional references relevant to the item* includes references to webpages that may have been used to generate the `ai_overview` */
         references?: AiModeAiOverviewReferenceInfo[] | undefined
         
-        /** indicates whether the element is loaded asynchronously if true, the people_also_ask_ai_overview_expanded_element element is loaded asynchronously; if false, the people_also_ask_ai_overview_expanded_element element is loaded from cache */
+        /** *indicates whether the element is loaded asynchronously* if `true`, the `people_also_ask_ai_overview_expanded_element` element is loaded asynchronously; if `false`, the `people_also_ask_ai_overview_expanded_element` element is loaded from cache */
         asynchronous_ai_overview?: boolean | undefined
 
     [key: string]: any;
@@ -238,17 +238,17 @@ export interface ISerpApiPeopleAlsoAskAiOverviewExpandedElementItem  extends IBa
 export class SerpApiPeopleAlsoAskAiOverviewExpandedElementItem  extends BaseSerpApiPeopleAlsoAskExpandedElementItem   implements ISerpApiPeopleAlsoAskAiOverviewExpandedElementItem {
 
     
-    /** items present in the element */
+    /** *items present in the element* */
 
     items?: BaseSerpApiAiOverviewElementItem[] | undefined;
 
     
-    /** additional references relevant to the item includes references to webpages that may have been used to generate the ai_overview */
+    /** *additional references relevant to the item* includes references to webpages that may have been used to generate the `ai_overview` */
 
     references?: AiModeAiOverviewReferenceInfo[] | undefined;
 
     
-    /** indicates whether the element is loaded asynchronously if true, the people_also_ask_ai_overview_expanded_element element is loaded asynchronously; if false, the people_also_ask_ai_overview_expanded_element element is loaded from cache */
+    /** *indicates whether the element is loaded asynchronously* if `true`, the `people_also_ask_ai_overview_expanded_element` element is loaded asynchronously; if `false`, the `people_also_ask_ai_overview_expanded_element` element is loaded from cache */
 
     asynchronous_ai_overview?: boolean | undefined;
 

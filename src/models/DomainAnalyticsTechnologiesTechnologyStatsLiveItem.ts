@@ -3,19 +3,19 @@ export interface IDomainAnalyticsTechnologiesTechnologyStatsLiveItem   {
         /** type of element */
         type?: string | undefined
         
-        /** date for which the data is provided */
+        /** *date for which the data is provided* */
         date?: string | undefined
         
-        /** number of domains that use the specified technology */
+        /** *number of domains that use the specified technology* */
         domains_count?: number | undefined
         
-        /** distribution of websites by country contains country codes and number of websites per country */
+        /** *distribution of websites by country* contains country codes and number of websites per country */
         countries?: { [key: string]: number; } | undefined
         
-        /** distribution of websites by language contains language codes and number of websites per language */
+        /** *distribution of websites by language* contains language codes and number of websites per language */
         languages?: { [key: string]: number; } | undefined
         
-        /** distribution of websites by backlink rank contains domain rank ranges and number of websites per range learn more about rank and how it is calculated in this help center article */
+        /** *distribution of websites by backlink rank* contains domain rank ranges and number of websites per range learn more about rank and how it is calculated in [this help center article](https://dataforseo.com/help-center/what_is_rank_in_backlinks_api) */
         domains_rank?: { [key: string]: number; } | undefined
 
     [key: string]: any;
@@ -30,27 +30,27 @@ export class DomainAnalyticsTechnologiesTechnologyStatsLiveItem  implements IDom
     type?: string | undefined;
 
     
-    /** date for which the data is provided */
+    /** *date for which the data is provided* */
 
     date?: string | undefined;
 
     
-    /** number of domains that use the specified technology */
+    /** *number of domains that use the specified technology* */
 
     domains_count?: number | undefined;
 
     
-    /** distribution of websites by country contains country codes and number of websites per country */
+    /** *distribution of websites by country* contains country codes and number of websites per country */
 
     countries?: { [key: string]: number; } | undefined;
 
     
-    /** distribution of websites by language contains language codes and number of websites per language */
+    /** *distribution of websites by language* contains language codes and number of websites per language */
 
     languages?: { [key: string]: number; } | undefined;
 
     
-    /** distribution of websites by backlink rank contains domain rank ranges and number of websites per range learn more about rank and how it is calculated in this help center article */
+    /** *distribution of websites by backlink rank* contains domain rank ranges and number of websites per range learn more about rank and how it is calculated in [this help center article](https://dataforseo.com/help-center/what_is_rank_in_backlinks_api) */
 
     domains_rank?: { [key: string]: number; } | undefined;
 

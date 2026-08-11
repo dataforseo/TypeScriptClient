@@ -24,7 +24,7 @@ export interface IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo   {
         /** *include data from SERP for each keyword* optional field if set to `true`, we will return a `serp_info` array containing SERP data (number of search results, relevant URL, and SERP features) for every keyword in the response default value: `false` */
         include_serp_info?: boolean | undefined
         
-        /** *include or exclude data from clickstream-based metrics in the result* optional field if the parameter is set to_`true`, you will receive `clickstream_keyword_info`, `keyword_info_normalized_with_clickstream`, and `keyword_info_normalized_with_bing` fields in the response default value: `false` with this parameter enabled, you will be charged double the price for the request learn more about how clickstream-based metrics are calculated in this [help center article](https://dataforseo.com/help-center/what-are-clickstream-based-metrics-and-how-do-we-calculate-them)n */
+        /** *include or exclude data from clickstream-based metrics in the result* optional field if the parameter is set to `true`, you will receive `clickstream_keyword_info`, `keyword_info_normalized_with_clickstream`, and `keyword_info_normalized_with_bing` fields in the response default value: `false` with this parameter enabled, you will be charged double the price for the request learn more about how clickstream-based metrics are calculated in this [help center article](https://dataforseo.com/help-center/what-are-clickstream-based-metrics-and-how-do-we-calculate-them) */
         include_clickstream_data?: boolean | undefined
         
         /** *the maximum number of keywords in the results array* optional field default value: `700` maximum value: `1000` */
@@ -92,7 +92,7 @@ export class DataforseoLabsGoogleKeywordIdeasLiveRequestInfo  implements IDatafo
     include_serp_info?: boolean | undefined;
 
     
-    /** *include or exclude data from clickstream-based metrics in the result* optional field if the parameter is set to_`true`, you will receive `clickstream_keyword_info`, `keyword_info_normalized_with_clickstream`, and `keyword_info_normalized_with_bing` fields in the response default value: `false` with this parameter enabled, you will be charged double the price for the request learn more about how clickstream-based metrics are calculated in this [help center article](https://dataforseo.com/help-center/what-are-clickstream-based-metrics-and-how-do-we-calculate-them)n */
+    /** *include or exclude data from clickstream-based metrics in the result* optional field if the parameter is set to `true`, you will receive `clickstream_keyword_info`, `keyword_info_normalized_with_clickstream`, and `keyword_info_normalized_with_bing` fields in the response default value: `false` with this parameter enabled, you will be charged double the price for the request learn more about how clickstream-based metrics are calculated in this [help center article](https://dataforseo.com/help-center/what-are-clickstream-based-metrics-and-how-do-we-calculate-them) */
 
     include_clickstream_data?: boolean | undefined;
 

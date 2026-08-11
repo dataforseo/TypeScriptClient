@@ -6,10 +6,10 @@ export interface IMultiCarouselElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of a given link element */
+        /** *title of a given link element* */
         title?: string | undefined
         
-        /** multi_carousel_snippet results if there are none, equals null */
+        /** *`multi_carousel_snippet` results* if there are none, equals `null` */
         multi_carousel_snippets?: SerpApiCarouselElement[] | undefined
 
     [key: string]: any;
@@ -24,12 +24,12 @@ export class MultiCarouselElement  implements IMultiCarouselElement {
     type?: string | undefined;
 
     
-    /** title of a given link element */
+    /** *title of a given link element* */
 
     title?: string | undefined;
 
     
-    /** multi_carousel_snippet results if there are none, equals null */
+    /** *`multi_carousel_snippet` results* if there are none, equals `null` */
 
     multi_carousel_snippets?: SerpApiCarouselElement[] | undefined;
 

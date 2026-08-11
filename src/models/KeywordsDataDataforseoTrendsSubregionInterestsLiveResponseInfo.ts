@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface IKeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: KeywordsDataDataforseoTrendsSubregionInterestsLiveTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IKeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo
 export class KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo  extends BaseResponseInfo   implements IKeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: KeywordsDataDataforseoTrendsSubregionInterestsLiveTaskInfo[] | undefined;
 

@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface IKeywordsDataClickstreamDataBulkSearchVolumeLiveResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: KeywordsDataClickstreamDataBulkSearchVolumeLiveTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IKeywordsDataClickstreamDataBulkSearchVolumeLiveResponseInfo  e
 export class KeywordsDataClickstreamDataBulkSearchVolumeLiveResponseInfo  extends BaseResponseInfo   implements IKeywordsDataClickstreamDataBulkSearchVolumeLiveResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: KeywordsDataClickstreamDataBulkSearchVolumeLiveTaskInfo[] | undefined;
 

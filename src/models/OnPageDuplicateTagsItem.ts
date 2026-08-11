@@ -3,13 +3,13 @@ import { OnPageHtmlResourceItem, IOnPageHtmlResourceItem } from "./BaseOnPageRes
 
 export interface IOnPageDuplicateTagsItem   {
         
-        /** contains the value of duplicated tag */
+        /** *contains the value of duplicated tag* */
         accumulator?: string | undefined
         
-        /** total count of duplicate pages */
+        /** *total count of duplicate pages* */
         total_count?: number | undefined
         
-        /** pages with duplicate tags */
+        /** *pages with duplicate tags* */
         pages?: OnPageHtmlResourceItem[] | undefined
 
     [key: string]: any;
@@ -19,17 +19,17 @@ export interface IOnPageDuplicateTagsItem   {
 export class OnPageDuplicateTagsItem  implements IOnPageDuplicateTagsItem {
 
     
-    /** contains the value of duplicated tag */
+    /** *contains the value of duplicated tag* */
 
     accumulator?: string | undefined;
 
     
-    /** total count of duplicate pages */
+    /** *total count of duplicate pages* */
 
     total_count?: number | undefined;
 
     
-    /** pages with duplicate tags */
+    /** *pages with duplicate tags* */
 
     pages?: OnPageHtmlResourceItem[] | undefined;
 

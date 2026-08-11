@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**data** | **TrendsMapDataInfo[]** | Google Trends data from the corresponding item |[optional]|
+**data** | **TrendsMapDataInfo[]** | *Google Trends data from the corresponding item* |[optional]|

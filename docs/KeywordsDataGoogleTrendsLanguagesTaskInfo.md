@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **KeywordsDataGoogleTrendsLanguagesResultInfo[]** | array of results |[optional]|
+**result** | **KeywordsDataGoogleTrendsLanguagesResultInfo[]** | *array of results* |[optional]|

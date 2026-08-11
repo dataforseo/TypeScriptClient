@@ -100,25 +100,25 @@ export class BaseSerpApiBingAiOverviewElementItem  implements IBaseSerpApiBingAi
  
 export interface ISerpApiBingAiOverviewElementItem  extends IBaseSerpApiBingAiOverviewElementItem    {
         
-        /** the alignment of the element in SERP can take the following values: left, right */
+        /** *the alignment of the element in SERP*             can take the following values:             `left`, `right` */
         position?: string | undefined
         
-        /** title of the result in SERP */
+        /** *title of the result in SERP* */
         title?: string | undefined
         
-        /** text or description of the element in SERP */
+        /** *text or description of the element in SERP* */
         text?: string | undefined
         
-        /** content of the element in markdown format */
+        /** *content of the element in markdown format* */
         markdown?: string | undefined
         
-        /** sitelinks the links shown below some search results if there are none, equals null */
+        /** *sitelinks*             the links shown below some search results             if there are none, equals `null` */
         links?: LinkElement[] | undefined
         
-        /** images of the element */
+        /** *images of the element* */
         images?: AiModeImagesElementInfo[] | undefined
         
-        /** references relevant to the element includes references to webpages that were used to generate the ai_overview_element */
+        /** *references relevant to the element*             includes references to webpages that were used to generate the `ai_overview_element` */
         references?: AiModeAiOverviewReferenceInfo[] | undefined
 
     [key: string]: any;
@@ -128,37 +128,37 @@ export interface ISerpApiBingAiOverviewElementItem  extends IBaseSerpApiBingAiOv
 export class SerpApiBingAiOverviewElementItem  extends BaseSerpApiBingAiOverviewElementItem   implements ISerpApiBingAiOverviewElementItem {
 
     
-    /** the alignment of the element in SERP can take the following values: left, right */
+    /** *the alignment of the element in SERP*             can take the following values:             `left`, `right` */
 
     position?: string | undefined;
 
     
-    /** title of the result in SERP */
+    /** *title of the result in SERP* */
 
     title?: string | undefined;
 
     
-    /** text or description of the element in SERP */
+    /** *text or description of the element in SERP* */
 
     text?: string | undefined;
 
     
-    /** content of the element in markdown format */
+    /** *content of the element in markdown format* */
 
     markdown?: string | undefined;
 
     
-    /** sitelinks the links shown below some search results if there are none, equals null */
+    /** *sitelinks*             the links shown below some search results             if there are none, equals `null` */
 
     links?: LinkElement[] | undefined;
 
     
-    /** images of the element */
+    /** *images of the element* */
 
     images?: AiModeImagesElementInfo[] | undefined;
 
     
-    /** references relevant to the element includes references to webpages that were used to generate the ai_overview_element */
+    /** *references relevant to the element*             includes references to webpages that were used to generate the `ai_overview_element` */
 
     references?: AiModeAiOverviewReferenceInfo[] | undefined;
 
@@ -256,31 +256,31 @@ export class SerpApiBingAiOverviewElementItem  extends BaseSerpApiBingAiOverview
  
 export interface ISerpApiBingAiOverviewVideoElementItem  extends IBaseSerpApiBingAiOverviewElementItem    {
         
-        /** the alignment of the element in SERP can take the following values: left, right */
+        /** *the alignment of the element in SERP*             can take the following values:             `left`, `right` */
         position?: string | undefined
         
-        /** link anchor text */
+        /** *link anchor text* */
         title?: string | undefined
         
-        /** text snippet of the video */
+        /** *text snippet of the video* */
         snippet?: string | undefined
         
-        /** link URL */
+        /** *link URL* */
         url?: string | undefined
         
-        /** domain in SERP */
+        /** *domain in SERP* */
         domain?: string | undefined
         
-        /** URL of the image the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+        /** *URL of the image*             the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
         image_url?: string | undefined
         
-        /** source of the element indicates the source of information included in the questions_and_answers_element */
+        /** *source of the element*             indicates the source of information included in the `questions_and_answers_element` */
         source?: string | undefined
         
-        /** the date when the page source of the element was published */
+        /** *the date when the page source of the element was published* */
         date?: string | undefined
         
-        /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
+        /** *date and time when the result was published*             in the UTC format: 'yyyy-mm-dd hh-mm-ss +00:00'             example:             `2019-11-15 12:57:46 +00:00` */
         timestamp?: string | undefined
 
     [key: string]: any;
@@ -290,47 +290,47 @@ export interface ISerpApiBingAiOverviewVideoElementItem  extends IBaseSerpApiBin
 export class SerpApiBingAiOverviewVideoElementItem  extends BaseSerpApiBingAiOverviewElementItem   implements ISerpApiBingAiOverviewVideoElementItem {
 
     
-    /** the alignment of the element in SERP can take the following values: left, right */
+    /** *the alignment of the element in SERP*             can take the following values:             `left`, `right` */
 
     position?: string | undefined;
 
     
-    /** link anchor text */
+    /** *link anchor text* */
 
     title?: string | undefined;
 
     
-    /** text snippet of the video */
+    /** *text snippet of the video* */
 
     snippet?: string | undefined;
 
     
-    /** link URL */
+    /** *link URL* */
 
     url?: string | undefined;
 
     
-    /** domain in SERP */
+    /** *domain in SERP* */
 
     domain?: string | undefined;
 
     
-    /** URL of the image the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+    /** *URL of the image*             the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
     image_url?: string | undefined;
 
     
-    /** source of the element indicates the source of information included in the questions_and_answers_element */
+    /** *source of the element*             indicates the source of information included in the `questions_and_answers_element` */
 
     source?: string | undefined;
 
     
-    /** the date when the page source of the element was published */
+    /** *the date when the page source of the element was published* */
 
     date?: string | undefined;
 
     
-    /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
+    /** *date and time when the result was published*             in the UTC format: 'yyyy-mm-dd hh-mm-ss +00:00'             example:             `2019-11-15 12:57:46 +00:00` */
 
     timestamp?: string | undefined;
 
@@ -393,7 +393,7 @@ export class SerpApiBingAiOverviewVideoElementItem  extends BaseSerpApiBingAiOve
  
 export interface ISerpApiBingAiOverviewVideosElementItem  extends IBaseSerpApiBingAiOverviewElementItem    {
         
-        /** elements of search results found in SERP */
+        /** *elements of search results found in SERP* */
         items?: VideoElement[] | undefined
 
     [key: string]: any;
@@ -403,7 +403,7 @@ export interface ISerpApiBingAiOverviewVideosElementItem  extends IBaseSerpApiBi
 export class SerpApiBingAiOverviewVideosElementItem  extends BaseSerpApiBingAiOverviewElementItem   implements ISerpApiBingAiOverviewVideosElementItem {
 
     
-    /** elements of search results found in SERP */
+    /** *elements of search results found in SERP* */
 
     items?: VideoElement[] | undefined;
 
@@ -463,13 +463,13 @@ export class SerpApiBingAiOverviewVideosElementItem  extends BaseSerpApiBingAiOv
  
 export interface ISerpApiBingAiOverviewImagesElementItem  extends IBaseSerpApiBingAiOverviewElementItem    {
         
-        /** URL link */
+        /** *URL link* */
         url?: string | undefined
         
-        /** title of the link element */
+        /** *title of the link element* */
         title?: string | undefined
         
-        /** items featured in the faq_box */
+        /** *items featured in the faq_box* */
         items?: AiModeImagesElementInfo[] | undefined
 
     [key: string]: any;
@@ -479,17 +479,17 @@ export interface ISerpApiBingAiOverviewImagesElementItem  extends IBaseSerpApiBi
 export class SerpApiBingAiOverviewImagesElementItem  extends BaseSerpApiBingAiOverviewElementItem   implements ISerpApiBingAiOverviewImagesElementItem {
 
     
-    /** URL link */
+    /** *URL link* */
 
     url?: string | undefined;
 
     
-    /** title of the link element */
+    /** *title of the link element* */
 
     title?: string | undefined;
 
     
-    /** items featured in the faq_box */
+    /** *items featured in the faq_box* */
 
     items?: AiModeImagesElementInfo[] | undefined;
 
@@ -553,28 +553,28 @@ export class SerpApiBingAiOverviewImagesElementItem  extends BaseSerpApiBingAiOv
  
 export interface ISerpApiBingAiOverviewOrganicElementItem  extends IBaseSerpApiBingAiOverviewElementItem    {
         
-        /** title of the link */
+        /** *title of the link* */
         title?: string | undefined
         
-        /** relevant URL */
+        /** *relevant URL* */
         url?: string | undefined
         
-        /** domain in SERP */
+        /** *domain in SERP* */
         domain?: string | undefined
         
-        /** text snippet from the organic result */
+        /** *text snippet from the organic result* */
         snippet?: string | undefined
         
-        /** breadcrumb in SERP */
+        /** *breadcrumb in SERP* */
         breadcrumb?: string | undefined
         
-        /** website name in SERP */
+        /** *website name in SERP* */
         website_name?: string | undefined
         
-        /** links featured in the faq_box_element */
+        /** *links featured in the faq_box_element* */
         links?: LinkElement[] | undefined
         
-        /** words highlighted in bold within the results description */
+        /** *words highlighted in bold within the results `description`* */
         highlighted?: string[] | undefined
 
     [key: string]: any;
@@ -584,42 +584,42 @@ export interface ISerpApiBingAiOverviewOrganicElementItem  extends IBaseSerpApiB
 export class SerpApiBingAiOverviewOrganicElementItem  extends BaseSerpApiBingAiOverviewElementItem   implements ISerpApiBingAiOverviewOrganicElementItem {
 
     
-    /** title of the link */
+    /** *title of the link* */
 
     title?: string | undefined;
 
     
-    /** relevant URL */
+    /** *relevant URL* */
 
     url?: string | undefined;
 
     
-    /** domain in SERP */
+    /** *domain in SERP* */
 
     domain?: string | undefined;
 
     
-    /** text snippet from the organic result */
+    /** *text snippet from the organic result* */
 
     snippet?: string | undefined;
 
     
-    /** breadcrumb in SERP */
+    /** *breadcrumb in SERP* */
 
     breadcrumb?: string | undefined;
 
     
-    /** website name in SERP */
+    /** *website name in SERP* */
 
     website_name?: string | undefined;
 
     
-    /** links featured in the faq_box_element */
+    /** *links featured in the faq_box_element* */
 
     links?: LinkElement[] | undefined;
 
     
-    /** words highlighted in bold within the results description */
+    /** *words highlighted in bold within the results `description`* */
 
     highlighted?: string[] | undefined;
 

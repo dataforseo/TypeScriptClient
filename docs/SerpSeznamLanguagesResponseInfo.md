@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpSeznamLanguagesTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **SerpSeznamLanguagesTaskInfo[]** | *array of tasks* |[optional]|

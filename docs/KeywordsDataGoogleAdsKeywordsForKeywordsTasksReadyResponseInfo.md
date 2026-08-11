@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyTaskInfo[]** | *array of tasks* |[optional]|

@@ -3,19 +3,19 @@ export interface IKnowledgeGraphImagesElement   {
         /** type of element */
         type?: string | undefined
         
-        /** relevant URL of the Ad element in SERP */
+        /** *relevant URL of the Ad element in SERP* */
         url?: string | undefined
         
-        /** domain in SERP */
+        /** *domain in SERP* */
         domain?: string | undefined
         
-        /** alt tag of the image */
+        /** *alt tag of the image* */
         alt?: string | undefined
         
-        /** URL of the image the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+        /** *URL of the image* the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
         image_url?: string | undefined
         
-        /** the XPath of the element */
+        /** *the [XPath](https://en.wikipedia.org/wiki/XPath) of the element* */
         xpath?: string | undefined
 
     [key: string]: any;
@@ -30,27 +30,27 @@ export class KnowledgeGraphImagesElement  implements IKnowledgeGraphImagesElemen
     type?: string | undefined;
 
     
-    /** relevant URL of the Ad element in SERP */
+    /** *relevant URL of the Ad element in SERP* */
 
     url?: string | undefined;
 
     
-    /** domain in SERP */
+    /** *domain in SERP* */
 
     domain?: string | undefined;
 
     
-    /** alt tag of the image */
+    /** *alt tag of the image* */
 
     alt?: string | undefined;
 
     
-    /** URL of the image the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+    /** *URL of the image* the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
     image_url?: string | undefined;
 
     
-    /** the XPath of the element */
+    /** *the [XPath](https://en.wikipedia.org/wiki/XPath) of the element* */
 
     xpath?: string | undefined;
 

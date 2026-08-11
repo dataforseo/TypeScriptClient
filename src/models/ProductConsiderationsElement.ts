@@ -6,13 +6,13 @@ export interface IProductConsiderationsElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of a given link element */
+        /** *title of a given link element* */
         title?: string | undefined
         
-        /** category of the consideration element the category is indicated just above the title fo the consideration element */
+        /** *category of the consideration element* the category is indicated just above the title fo the consideration element */
         consideration_category?: string | undefined
         
-        /** expanded element */
+        /** *expanded element* */
         expanded_element?: BaseSerpApiProductConsiderationExpandedElementItem[] | undefined
 
     [key: string]: any;
@@ -27,17 +27,17 @@ export class ProductConsiderationsElement  implements IProductConsiderationsElem
     type?: string | undefined;
 
     
-    /** title of a given link element */
+    /** *title of a given link element* */
 
     title?: string | undefined;
 
     
-    /** category of the consideration element the category is indicated just above the title fo the consideration element */
+    /** *category of the consideration element* the category is indicated just above the title fo the consideration element */
 
     consideration_category?: string | undefined;
 
     
-    /** expanded element */
+    /** *expanded element* */
 
     expanded_element?: BaseSerpApiProductConsiderationExpandedElementItem[] | undefined;
 

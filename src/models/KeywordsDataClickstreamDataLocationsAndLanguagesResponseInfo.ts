@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface IKeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: KeywordsDataClickstreamDataLocationsAndLanguagesTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IKeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo  
 export class KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo  extends BaseResponseInfo   implements IKeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: KeywordsDataClickstreamDataLocationsAndLanguagesTaskInfo[] | undefined;
 

@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface ISerpNaverOrganicTaskGetRegularTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: SerpNaverOrganicTaskGetRegularResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface ISerpNaverOrganicTaskGetRegularTaskInfo  extends IBaseResponseT
 export class SerpNaverOrganicTaskGetRegularTaskInfo  extends BaseResponseTaskInfo   implements ISerpNaverOrganicTaskGetRegularTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: SerpNaverOrganicTaskGetRegularResultInfo[] | undefined;
 

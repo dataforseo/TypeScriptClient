@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IDataforseoLabsAppleKeywordsForAppLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: DataforseoLabsAppleKeywordsForAppLiveResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IDataforseoLabsAppleKeywordsForAppLiveTaskInfo  extends IBaseRe
 export class DataforseoLabsAppleKeywordsForAppLiveTaskInfo  extends BaseResponseTaskInfo   implements IDataforseoLabsAppleKeywordsForAppLiveTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: DataforseoLabsAppleKeywordsForAppLiveResultInfo[] | undefined;
 

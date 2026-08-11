@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo[]** | array of results |[optional]|
+**result** | **KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo[]** | *array of results* |[optional]|

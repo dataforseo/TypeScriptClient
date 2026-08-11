@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **OnPagePageScreenshotTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **OnPagePageScreenshotTaskInfo[]** | *array of tasks* |[optional]|

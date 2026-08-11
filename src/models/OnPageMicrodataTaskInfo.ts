@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IOnPageMicrodataTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: OnPageMicrodataResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IOnPageMicrodataTaskInfo  extends IBaseResponseTaskInfo    {
 export class OnPageMicrodataTaskInfo  extends BaseResponseTaskInfo   implements IOnPageMicrodataTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: OnPageMicrodataResultInfo[] | undefined;
 

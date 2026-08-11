@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **OnPageLighthouseTasksReadyResultInfo[]** | array of results |[optional]|
+**result** | **OnPageLighthouseTasksReadyResultInfo[]** | *array of results* |[optional]|

@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **KeywordsDataBingAudienceEstimationTasksReadyResultInfo[]** | array of results |[optional]|
+**result** | **KeywordsDataBingAudienceEstimationTasksReadyResultInfo[]** | *array of results* |[optional]|

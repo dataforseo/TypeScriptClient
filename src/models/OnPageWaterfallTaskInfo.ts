@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IOnPageWaterfallTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: OnPageWaterfallResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IOnPageWaterfallTaskInfo  extends IBaseResponseTaskInfo    {
 export class OnPageWaterfallTaskInfo  extends BaseResponseTaskInfo   implements IOnPageWaterfallTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: OnPageWaterfallResultInfo[] | undefined;
 

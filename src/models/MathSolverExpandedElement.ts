@@ -3,10 +3,10 @@ export interface IMathSolverExpandedElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of the carousel item */
+        /** *title of the carousel item* */
         title?: string | undefined
         
-        /** solution of the element displays steps to solve the mathematical equation as specified in the element */
+        /** *solution of the element* displays steps to solve the mathematical equation as specified in the element */
         solution?: string[] | undefined
 
     [key: string]: any;
@@ -21,12 +21,12 @@ export class MathSolverExpandedElement  implements IMathSolverExpandedElement {
     type?: string | undefined;
 
     
-    /** title of the carousel item */
+    /** *title of the carousel item* */
 
     title?: string | undefined;
 
     
-    /** solution of the element displays steps to solve the mathematical equation as specified in the element */
+    /** *solution of the element* displays steps to solve the mathematical equation as specified in the element */
 
     solution?: string[] | undefined;
 

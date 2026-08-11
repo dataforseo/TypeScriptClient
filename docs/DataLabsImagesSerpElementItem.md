@@ -4,7 +4,7 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**title** | **string** | title of the result in SERP |[optional]|
-**url** | **string** | relevant URL in SERP |[optional]|
-**items** | **AiModeImagesElementInfo[]** | historical SERPs and related data found in the database |[optional]|
-**related_image_searches** | **RelatedImageSearchesElement** | contains keywords and images related to the specified search term. if there are none, equals null |[optional]|
+**title** | **string** | *title of the result in SERP* |[optional]|
+**url** | **string** | *relevant URL in SERP* |[optional]|
+**items** | **AiModeImagesElementInfo[]** | *historical SERPs and related data found in the database* |[optional]|
+**related_image_searches** | **RelatedImageSearchesElement** | *contains keywords and images related to the specified search term*.             if there are none, equals `null` |[optional]|

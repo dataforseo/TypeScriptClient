@@ -4,16 +4,16 @@ import { BaseDataforseoLabsApiElementItem, IBaseDataforseoLabsApiElementItem } f
 
 export interface IDataforseoLabsGoogleDomainIntersectionLiveItem   {
         
-        /** search engine type */
+        /** *search engine type* */
         se_type?: string | undefined
         
-        /** keyword data for the returned keyword */
+        /** *keyword data for the returned keyword* */
         keyword_data?: KeywordDataInfo | undefined
         
-        /** contains data on the first domain’s SERP element found for the returned keyword the list of supported SERP elements can be found below */
+        /** *contains data on the first domain's SERP element found for the returned `keyword`*             the list of supported SERP elements can be found below */
         first_domain_serp_element?: BaseDataforseoLabsApiElementItem | undefined
         
-        /** contains data on the second domain’s SERP element found for the returned keyword the list of supported SERP elements can be found below */
+        /** *contains data on the second domain's SERP element found for the returned `keyword`*             the list of supported SERP elements can be found below */
         second_domain_serp_element?: BaseDataforseoLabsApiElementItem | undefined
 
     [key: string]: any;
@@ -23,22 +23,22 @@ export interface IDataforseoLabsGoogleDomainIntersectionLiveItem   {
 export class DataforseoLabsGoogleDomainIntersectionLiveItem  implements IDataforseoLabsGoogleDomainIntersectionLiveItem {
 
     
-    /** search engine type */
+    /** *search engine type* */
 
     se_type?: string | undefined;
 
     
-    /** keyword data for the returned keyword */
+    /** *keyword data for the returned keyword* */
 
     keyword_data?: KeywordDataInfo | undefined;
 
     
-    /** contains data on the first domain’s SERP element found for the returned keyword the list of supported SERP elements can be found below */
+    /** *contains data on the first domain's SERP element found for the returned `keyword`*             the list of supported SERP elements can be found below */
 
     first_domain_serp_element?: BaseDataforseoLabsApiElementItem | undefined;
 
     
-    /** contains data on the second domain’s SERP element found for the returned keyword the list of supported SERP elements can be found below */
+    /** *contains data on the second domain's SERP element found for the returned `keyword`*             the list of supported SERP elements can be found below */
 
     second_domain_serp_element?: BaseDataforseoLabsApiElementItem | undefined;
 

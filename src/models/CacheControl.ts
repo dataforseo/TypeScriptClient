@@ -1,9 +1,9 @@
 export interface ICacheControl   {
         
-        /** indicates whether the page is cacheable */
+        /** *indicates whether the page is cacheable* */
         cachable?: boolean | undefined
         
-        /** time to live the amount of time the browser caches a resource */
+        /** *time to live* the amount of time the browser caches a resource */
         ttl?: number | undefined
 
     [key: string]: any;
@@ -13,12 +13,12 @@ export interface ICacheControl   {
 export class CacheControl  implements ICacheControl {
 
     
-    /** indicates whether the page is cacheable */
+    /** *indicates whether the page is cacheable* */
 
     cachable?: boolean | undefined;
 
     
-    /** time to live the amount of time the browser caches a resource */
+    /** *time to live* the amount of time the browser caches a resource */
 
     ttl?: number | undefined;
 

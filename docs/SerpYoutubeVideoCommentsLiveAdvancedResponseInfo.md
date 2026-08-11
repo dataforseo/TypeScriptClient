@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpYoutubeVideoCommentsLiveAdvancedTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **SerpYoutubeVideoCommentsLiveAdvancedTaskInfo[]** | *array of tasks* |[optional]|

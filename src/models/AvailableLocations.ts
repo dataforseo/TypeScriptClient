@@ -1,15 +1,15 @@
 export interface IAvailableLocations   {
         
-        /** location code */
+        /** *location code* */
         location_code?: number | undefined
         
-        /** location name */
+        /** *location name* */
         location_name?: string | undefined
         
-        /** ISO country code of the location */
+        /** *ISO country code of the location* */
         country_iso_code?: string | undefined
         
-        /** location type possible values: Country, Region */
+        /** *location type* possible values: `Country`, `Region` */
         location_type?: string | undefined
 
     [key: string]: any;
@@ -19,22 +19,22 @@ export interface IAvailableLocations   {
 export class AvailableLocations  implements IAvailableLocations {
 
     
-    /** location code */
+    /** *location code* */
 
     location_code?: number | undefined;
 
     
-    /** location name */
+    /** *location name* */
 
     location_name?: string | undefined;
 
     
-    /** ISO country code of the location */
+    /** *ISO country code of the location* */
 
     country_iso_code?: string | undefined;
 
     
-    /** location type possible values: Country, Region */
+    /** *location type* possible values: `Country`, `Region` */
 
     location_type?: string | undefined;
 

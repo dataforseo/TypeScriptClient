@@ -7,16 +7,16 @@ export interface IAiOverviewElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of a given link element */
+        /** *title of a given link element* */
         title?: string | undefined
         
-        /** content within the item */
+        /** *content within the item* */
         text?: string | undefined
         
-        /** images of the element */
+        /** *images of the element* */
         images?: AiModeImagesElementInfo[] | undefined
         
-        /** references relevant to the element includes references to webpages that were used to generate the ai_overview_element */
+        /** *references relevant to the element* includes references to webpages that were used to generate the `ai_overview_element` */
         references?: AiModeAiOverviewReferenceInfo[] | undefined
 
     [key: string]: any;
@@ -31,22 +31,22 @@ export class AiOverviewElement  implements IAiOverviewElement {
     type?: string | undefined;
 
     
-    /** title of a given link element */
+    /** *title of a given link element* */
 
     title?: string | undefined;
 
     
-    /** content within the item */
+    /** *content within the item* */
 
     text?: string | undefined;
 
     
-    /** images of the element */
+    /** *images of the element* */
 
     images?: AiModeImagesElementInfo[] | undefined;
 
     
-    /** references relevant to the element includes references to webpages that were used to generate the ai_overview_element */
+    /** *references relevant to the element* includes references to webpages that were used to generate the `ai_overview_element` */
 
     references?: AiModeAiOverviewReferenceInfo[] | undefined;
 

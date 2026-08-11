@@ -3,22 +3,22 @@ export interface IQuestionsAndAnswersElement   {
         /** type of element */
         type?: string | undefined
         
-        /** source URL */
+        /** *source URL* */
         url?: string | undefined
         
-        /** question included in the item */
+        /** *question included in the item* */
         question_text?: string | undefined
         
-        /** answer included in the item */
+        /** *answer included in the item* */
         answer_text?: string | undefined
         
-        /** reference source name or title */
+        /** *reference source name or title* */
         source?: string | undefined
         
-        /** domain where a link points */
+        /** *domain where a link points* */
         domain?: string | undefined
         
-        /** answer upvotes from the source */
+        /** *answer upvotes from the source* */
         votes?: number | undefined
 
     [key: string]: any;
@@ -33,32 +33,32 @@ export class QuestionsAndAnswersElement  implements IQuestionsAndAnswersElement 
     type?: string | undefined;
 
     
-    /** source URL */
+    /** *source URL* */
 
     url?: string | undefined;
 
     
-    /** question included in the item */
+    /** *question included in the item* */
 
     question_text?: string | undefined;
 
     
-    /** answer included in the item */
+    /** *answer included in the item* */
 
     answer_text?: string | undefined;
 
     
-    /** reference source name or title */
+    /** *reference source name or title* */
 
     source?: string | undefined;
 
     
-    /** domain where a link points */
+    /** *domain where a link points* */
 
     domain?: string | undefined;
 
     
-    /** answer upvotes from the source */
+    /** *answer upvotes from the source* */
 
     votes?: number | undefined;
 

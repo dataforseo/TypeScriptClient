@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpBaiduOrganicTaskGetRegularTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **SerpBaiduOrganicTaskGetRegularTaskInfo[]** | *array of tasks* |[optional]|

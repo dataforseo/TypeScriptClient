@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IOnPageLighthouseTasksReadyTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: OnPageLighthouseTasksReadyResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IOnPageLighthouseTasksReadyTaskInfo  extends IBaseResponseTaskI
 export class OnPageLighthouseTasksReadyTaskInfo  extends BaseResponseTaskInfo   implements IOnPageLighthouseTasksReadyTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: OnPageLighthouseTasksReadyResultInfo[] | undefined;
 

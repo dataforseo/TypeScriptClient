@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **OnPageDuplicateTagsResultInfo[]** | array of results |[optional]|
+**result** | **OnPageDuplicateTagsResultInfo[]** | *array of results* |[optional]|

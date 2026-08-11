@@ -7,49 +7,49 @@ export interface IBaseMerchantGoogleShoppingSellersElementItem   {
         /** type of element */
         type?: string | undefined
         
-        /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+        /** *position within a group of elements with identical `type` values* positions of elements with different `type` values are omitted from `rank_group` */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP absolute position among all the elements found in Google Shopping SERP */
+        /** *absolute rank in SERP* absolute position among all the elements found in Google Shopping SERP */
         rank_absolute?: number | undefined
         
-        /** the alignment of the element in Google Shopping SERP possible values: left, right */
+        /** *the alignment of the element in Google Shopping SERP* possible values: `left`, `right` */
         position?: string | undefined
         
-        /** XPath of the element */
+        /** *[XPath](https://en.wikipedia.org/wiki/XPath) of the element* */
         xpath?: string | undefined
         
-        /** domain in SERP */
+        /** *domain in SERP* */
         domain?: string | undefined
         
-        /** product title */
+        /** *product title* */
         title?: string | undefined
         
-        /** Google Shopping URL forwarding to the product page on the seller’s website if you want to obtain a URL of the advertisement forwarding to the product page on the seller’s website, please refer to the Google Shopping Sellers Ad URL endpoint */
+        /** *Google Shopping URL forwarding to the product page on the seller’s website* if you want to obtain a URL of the advertisement forwarding to the product page on the seller's website, please refer to the [Google Shopping Sellers Ad URL](/v3/merchant/google/sellers/ad_url/) endpoint */
         url?: string | undefined
         
-        /** details and special offers if there are no details, the value will be null */
+        /** *details and special offers* if there are no details, the value will be `null` */
         details?: string | undefined
         
-        /** product price without tax and shipping */
+        /** *product price without tax and shipping* */
         base_price?: number | undefined
         
-        /** the amount of tax tax is specified as the actual amount of money, not as the percentage */
+        /** *the amount of tax* tax is specified as the actual amount of money, not as the percentage */
         tax?: number | undefined
         
-        /** product shipping price */
+        /** *product shipping price* */
         shipping_price?: number | undefined
         
-        /** product price including tax and shipping */
+        /** *product price including tax and shipping* */
         total_price?: number | undefined
         
-        /** currency in the ISO format example: USD */
+        /** *currency in the [ISO](https://en.wikipedia.org/wiki/ISO_4217) format* example: `USD` */
         currency?: string | undefined
         
-        /** name of the seller the name of the company that placed a corresponding product on Google Shopping */
+        /** *name of the seller* the name of the company that placed a corresponding product on Google Shopping */
         seller_name?: string | undefined
         
-        /** unique ad click referral parameter using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL */
+        /** *unique ad click referral parameter* using this parameter you can get a URL of the advertisement in [Google Shopping Sellers Ad URL](/v3/merchant/google/sellers/ad_url/) */
         shop_ad_aclk?: string | undefined
 
     [key: string]: any;
@@ -64,77 +64,77 @@ export class BaseMerchantGoogleShoppingSellersElementItem  implements IBaseMerch
     type?: string | undefined;
 
     
-    /** position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+    /** *position within a group of elements with identical `type` values* positions of elements with different `type` values are omitted from `rank_group` */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP absolute position among all the elements found in Google Shopping SERP */
+    /** *absolute rank in SERP* absolute position among all the elements found in Google Shopping SERP */
 
     rank_absolute?: number | undefined;
 
     
-    /** the alignment of the element in Google Shopping SERP possible values: left, right */
+    /** *the alignment of the element in Google Shopping SERP* possible values: `left`, `right` */
 
     position?: string | undefined;
 
     
-    /** XPath of the element */
+    /** *[XPath](https://en.wikipedia.org/wiki/XPath) of the element* */
 
     xpath?: string | undefined;
 
     
-    /** domain in SERP */
+    /** *domain in SERP* */
 
     domain?: string | undefined;
 
     
-    /** product title */
+    /** *product title* */
 
     title?: string | undefined;
 
     
-    /** Google Shopping URL forwarding to the product page on the seller’s website if you want to obtain a URL of the advertisement forwarding to the product page on the seller’s website, please refer to the Google Shopping Sellers Ad URL endpoint */
+    /** *Google Shopping URL forwarding to the product page on the seller’s website* if you want to obtain a URL of the advertisement forwarding to the product page on the seller's website, please refer to the [Google Shopping Sellers Ad URL](/v3/merchant/google/sellers/ad_url/) endpoint */
 
     url?: string | undefined;
 
     
-    /** details and special offers if there are no details, the value will be null */
+    /** *details and special offers* if there are no details, the value will be `null` */
 
     details?: string | undefined;
 
     
-    /** product price without tax and shipping */
+    /** *product price without tax and shipping* */
 
     base_price?: number | undefined;
 
     
-    /** the amount of tax tax is specified as the actual amount of money, not as the percentage */
+    /** *the amount of tax* tax is specified as the actual amount of money, not as the percentage */
 
     tax?: number | undefined;
 
     
-    /** product shipping price */
+    /** *product shipping price* */
 
     shipping_price?: number | undefined;
 
     
-    /** product price including tax and shipping */
+    /** *product price including tax and shipping* */
 
     total_price?: number | undefined;
 
     
-    /** currency in the ISO format example: USD */
+    /** *currency in the [ISO](https://en.wikipedia.org/wiki/ISO_4217) format* example: `USD` */
 
     currency?: string | undefined;
 
     
-    /** name of the seller the name of the company that placed a corresponding product on Google Shopping */
+    /** *name of the seller* the name of the company that placed a corresponding product on Google Shopping */
 
     seller_name?: string | undefined;
 
     
-    /** unique ad click referral parameter using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL */
+    /** *unique ad click referral parameter* using this parameter you can get a URL of the advertisement in [Google Shopping Sellers Ad URL](/v3/merchant/google/sellers/ad_url/) */
 
     shop_ad_aclk?: string | undefined;
 
@@ -230,22 +230,22 @@ export class BaseMerchantGoogleShoppingSellersElementItem  implements IBaseMerch
  
 export interface IGoogleShoppingSellersShopsListElementItem  extends IBaseMerchantGoogleShoppingSellersElementItem    {
         
-        /** monthly price multiplier indicates the number of months covered by the monthly payment for the product */
+        /** *monthly price multiplier* indicates the number of months covered by the monthly payment for the product */
         price_multiplier?: number | undefined
         
-        /** installment details as displayed in the results shows how the product price can be broken down into monthly payments, if applicable */
+        /** *installment details as displayed in the results* shows how the product price can be broken down into monthly payments, if applicable */
         displayed_payment_breakdown?: string | undefined
         
-        /** shop rating the shop popularity rate based on product reviews */
+        /** *shop rating* the shop popularity rate based on product reviews */
         rating?: RatingElement | undefined
         
-        /** indicated condition of the product possible values: Used, Refurbished, New, Pre-owned, null */
+        /** *indicated condition of the product* possible values: `Used`, `Refurbished`, `New`, `Pre-owned`, `null` */
         product_condition?: string | undefined
         
-        /** data from annotations and badges with special offers if there is no annotation for this product, the value will be null examples: LOW PRICE, SPECIAL OFFER, SALE, PRICE DROP */
+        /** *data from annotations and badges with special offers* if there is no annotation for this product, the value will be `null` examples: `LOW PRICE`, `SPECIAL OFFER`, `SALE`, `PRICE DROP` */
         product_annotation?: string | undefined
         
-        /** product availability information product availability information can take the following values: in_stock, limited_stock, out_of_stock, backordered, pre_order_available, on_display_to_order */
+        /** *product availability information* product availability information can take the following values: `in_stock`, `limited_stock`, `out_of_stock`, `backordered`, `pre_order_available`, `on_display_to_order` */
         product_availability?: string | undefined
 
     [key: string]: any;
@@ -255,32 +255,32 @@ export interface IGoogleShoppingSellersShopsListElementItem  extends IBaseMercha
 export class GoogleShoppingSellersShopsListElementItem  extends BaseMerchantGoogleShoppingSellersElementItem   implements IGoogleShoppingSellersShopsListElementItem {
 
     
-    /** monthly price multiplier indicates the number of months covered by the monthly payment for the product */
+    /** *monthly price multiplier* indicates the number of months covered by the monthly payment for the product */
 
     price_multiplier?: number | undefined;
 
     
-    /** installment details as displayed in the results shows how the product price can be broken down into monthly payments, if applicable */
+    /** *installment details as displayed in the results* shows how the product price can be broken down into monthly payments, if applicable */
 
     displayed_payment_breakdown?: string | undefined;
 
     
-    /** shop rating the shop popularity rate based on product reviews */
+    /** *shop rating* the shop popularity rate based on product reviews */
 
     rating?: RatingElement | undefined;
 
     
-    /** indicated condition of the product possible values: Used, Refurbished, New, Pre-owned, null */
+    /** *indicated condition of the product* possible values: `Used`, `Refurbished`, `New`, `Pre-owned`, `null` */
 
     product_condition?: string | undefined;
 
     
-    /** data from annotations and badges with special offers if there is no annotation for this product, the value will be null examples: LOW PRICE, SPECIAL OFFER, SALE, PRICE DROP */
+    /** *data from annotations and badges with special offers* if there is no annotation for this product, the value will be `null` examples: `LOW PRICE`, `SPECIAL OFFER`, `SALE`, `PRICE DROP` */
 
     product_annotation?: string | undefined;
 
     
-    /** product availability information product availability information can take the following values: in_stock, limited_stock, out_of_stock, backordered, pre_order_available, on_display_to_order */
+    /** *product availability information* product availability information can take the following values: `in_stock`, `limited_stock`, `out_of_stock`, `backordered`, `pre_order_available`, `on_display_to_order` */
 
     product_availability?: string | undefined;
 
@@ -337,7 +337,7 @@ export class GoogleShoppingSellersShopsListElementItem  extends BaseMerchantGoog
  
 export interface IGoogleShoppingSellersBuyOnGoogleElementItem  extends IBaseMerchantGoogleShoppingSellersElementItem    {
         
-        /** shop rating the shop popularity rate based on product reviews */
+        /** *shop rating* the shop popularity rate based on product reviews */
         rating?: RatingInfo | undefined
 
     [key: string]: any;
@@ -347,7 +347,7 @@ export interface IGoogleShoppingSellersBuyOnGoogleElementItem  extends IBaseMerc
 export class GoogleShoppingSellersBuyOnGoogleElementItem  extends BaseMerchantGoogleShoppingSellersElementItem   implements IGoogleShoppingSellersBuyOnGoogleElementItem {
 
     
-    /** shop rating the shop popularity rate based on product reviews */
+    /** *shop rating* the shop popularity rate based on product reviews */
 
     rating?: RatingInfo | undefined;
 

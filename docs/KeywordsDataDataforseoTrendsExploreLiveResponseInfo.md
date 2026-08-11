@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **KeywordsDataDataforseoTrendsExploreLiveTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **KeywordsDataDataforseoTrendsExploreLiveTaskInfo[]** | *array of tasks* |[optional]|

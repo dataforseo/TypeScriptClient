@@ -6,25 +6,25 @@ export interface IRecipesElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of a given link element */
+        /** *title of a given link element* */
         title?: string | undefined
         
-        /** source URL */
+        /** *source URL* */
         url?: string | undefined
         
-        /** domain where a link points */
+        /** *domain where a link points* */
         domain?: string | undefined
         
-        /** reference source name or title */
+        /** *reference source name or title* */
         source?: string | undefined
         
-        /** link description */
+        /** *link description* */
         description?: string | undefined
         
-        /** the total time it takes to prepare the cook the dish */
+        /** *the total time it takes to prepare the cook the dish* */
         time?: string | undefined
         
-        /** the item’s rating  the popularity rate based on reviews and displayed in SERP; if there is none, equals null */
+        /** *the item's rating* the popularity rate based on reviews and displayed in SERP; if there is none, equals `null` */
         rating?: RatingInfo | undefined
 
     [key: string]: any;
@@ -39,37 +39,37 @@ export class RecipesElement  implements IRecipesElement {
     type?: string | undefined;
 
     
-    /** title of a given link element */
+    /** *title of a given link element* */
 
     title?: string | undefined;
 
     
-    /** source URL */
+    /** *source URL* */
 
     url?: string | undefined;
 
     
-    /** domain where a link points */
+    /** *domain where a link points* */
 
     domain?: string | undefined;
 
     
-    /** reference source name or title */
+    /** *reference source name or title* */
 
     source?: string | undefined;
 
     
-    /** link description */
+    /** *link description* */
 
     description?: string | undefined;
 
     
-    /** the total time it takes to prepare the cook the dish */
+    /** *the total time it takes to prepare the cook the dish* */
 
     time?: string | undefined;
 
     
-    /** the item’s rating  the popularity rate based on reviews and displayed in SERP; if there is none, equals null */
+    /** *the item's rating* the popularity rate based on reviews and displayed in SERP; if there is none, equals `null` */
 
     rating?: RatingInfo | undefined;
 

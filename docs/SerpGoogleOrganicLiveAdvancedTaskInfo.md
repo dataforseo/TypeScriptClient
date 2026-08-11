@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpGoogleOrganicLiveAdvancedResultInfo[]** |  |[optional]|
+**result** | **SerpGoogleOrganicLiveAdvancedResultInfo[]** | *array of results* |[optional]|

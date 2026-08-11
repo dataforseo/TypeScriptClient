@@ -6,10 +6,10 @@ export interface IMathSolverElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of a given link element */
+        /** *title of a given link element* */
         title?: string | undefined
         
-        /** expanded element */
+        /** *expanded element* */
         expanded_element?: MathSolverExpandedElement[] | undefined
 
     [key: string]: any;
@@ -24,12 +24,12 @@ export class MathSolverElement  implements IMathSolverElement {
     type?: string | undefined;
 
     
-    /** title of a given link element */
+    /** *title of a given link element* */
 
     title?: string | undefined;
 
     
-    /** expanded element */
+    /** *expanded element* */
 
     expanded_element?: MathSolverExpandedElement[] | undefined;
 

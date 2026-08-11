@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results the array includes objects with SERPs for each month within the specified time frame */
+        /** *array of results*             the array includes objects with SERPs for each month within the specified time frame */
         result?: DataforseoLabsGoogleHistoricalSerpsLiveResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo  extends IBase
 export class DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo  extends BaseResponseTaskInfo   implements IDataforseoLabsGoogleHistoricalSerpsLiveTaskInfo {
 
     
-    /** array of results the array includes objects with SERPs for each month within the specified time frame */
+    /** *array of results*             the array includes objects with SERPs for each month within the specified time frame */
 
     result?: DataforseoLabsGoogleHistoricalSerpsLiveResultInfo[] | undefined;
 

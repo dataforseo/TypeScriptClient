@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **OnPageInstantPagesResultInfo[]** | array of results |[optional]|
+**result** | **OnPageInstantPagesResultInfo[]** | *array of results* |[optional]|

@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **KeywordsDataBingAudienceEstimationTaskPostTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **KeywordsDataBingAudienceEstimationTaskPostTaskInfo[]** | *array of tasks* |[optional]|

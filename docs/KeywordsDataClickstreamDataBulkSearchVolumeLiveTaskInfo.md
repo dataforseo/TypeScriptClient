@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **KeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo[]** | array of results |[optional]|
+**result** | **KeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo[]** | *array of results* |[optional]|

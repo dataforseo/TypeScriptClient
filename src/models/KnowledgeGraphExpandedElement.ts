@@ -7,28 +7,28 @@ export interface IKnowledgeGraphExpandedElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of a given element */
+        /** *title of a given element* */
         featured_title?: string | undefined
         
-        /** relevant URL */
+        /** *relevant URL* */
         url?: string | undefined
         
-        /** domain where a link points */
+        /** *domain where a link points* */
         domain?: string | undefined
         
-        /** title of the result in SERP */
+        /** *title of the result in SERP* */
         title?: string | undefined
         
-        /** text alongside the link title */
+        /** *text alongside the link title* */
         snippet?: string | undefined
         
-        /** images of the element if there are none, equals null */
+        /** *images of the element* if there are none, equals `null` */
         images?: AiModeImagesElementInfo[] | undefined
         
-        /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
+        /** *date and time when the result was published* in the UTC format: 'yyyy-mm-dd hh-mm-ss +00:00' example: `2019-11-15 12:57:46 +00:00` */
         timestamp?: string | undefined
         
-        /** table present in the element the header and content of the table present in the element */
+        /** *table present in the element* the header and content of the table present in the element */
         table?: Table | undefined
 
     [key: string]: any;
@@ -43,42 +43,42 @@ export class KnowledgeGraphExpandedElement  implements IKnowledgeGraphExpandedEl
     type?: string | undefined;
 
     
-    /** title of a given element */
+    /** *title of a given element* */
 
     featured_title?: string | undefined;
 
     
-    /** relevant URL */
+    /** *relevant URL* */
 
     url?: string | undefined;
 
     
-    /** domain where a link points */
+    /** *domain where a link points* */
 
     domain?: string | undefined;
 
     
-    /** title of the result in SERP */
+    /** *title of the result in SERP* */
 
     title?: string | undefined;
 
     
-    /** text alongside the link title */
+    /** *text alongside the link title* */
 
     snippet?: string | undefined;
 
     
-    /** images of the element if there are none, equals null */
+    /** *images of the element* if there are none, equals `null` */
 
     images?: AiModeImagesElementInfo[] | undefined;
 
     
-    /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
+    /** *date and time when the result was published* in the UTC format: 'yyyy-mm-dd hh-mm-ss +00:00' example: `2019-11-15 12:57:46 +00:00` */
 
     timestamp?: string | undefined;
 
     
-    /** table present in the element the header and content of the table present in the element */
+    /** *table present in the element* the header and content of the table present in the element */
 
     table?: Table | undefined;
 

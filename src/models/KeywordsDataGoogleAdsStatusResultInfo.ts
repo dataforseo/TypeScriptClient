@@ -1,15 +1,15 @@
 export interface IKeywordsDataGoogleAdsStatusResultInfo   {
         
-        /** indicates whether Google updated keyword data for the previous month generally, Google updates keyword data in the middle of the month if the value is true, Google currently provides up-to-date data for the previous month if the value is false, we are not able to provide data for the previous month */
+        /** *indicates whether Google updated keyword data for the previous month* generally, Google updates keyword data in the middle of the month if the value is `true`, Google currently provides up-to-date data for the previous month if the value is `false`, we are not able to provide data for the previous month */
         actual_data?: boolean | undefined
         
-        /** date of the latest update of Google Ads data indicates the latest date when Google updated search volume, CPC, and other keyword metrics example: 2020-05-15 */
+        /** *date of the latest update of Google Ads data* indicates the latest date when Google updated search volume, CPC, and other keyword metrics example: `2020-05-15` */
         date_update?: string | undefined
         
-        /** the latest year for which search volume data is available */
+        /** *the latest year for which search volume data is available* */
         last_year_in_monthly_searches?: number | undefined
         
-        /** the latest month for which search volume data is available */
+        /** *the latest month for which search volume data is available* */
         last_month_in_monthly_searches?: number | undefined
 
     [key: string]: any;
@@ -19,22 +19,22 @@ export interface IKeywordsDataGoogleAdsStatusResultInfo   {
 export class KeywordsDataGoogleAdsStatusResultInfo  implements IKeywordsDataGoogleAdsStatusResultInfo {
 
     
-    /** indicates whether Google updated keyword data for the previous month generally, Google updates keyword data in the middle of the month if the value is true, Google currently provides up-to-date data for the previous month if the value is false, we are not able to provide data for the previous month */
+    /** *indicates whether Google updated keyword data for the previous month* generally, Google updates keyword data in the middle of the month if the value is `true`, Google currently provides up-to-date data for the previous month if the value is `false`, we are not able to provide data for the previous month */
 
     actual_data?: boolean | undefined;
 
     
-    /** date of the latest update of Google Ads data indicates the latest date when Google updated search volume, CPC, and other keyword metrics example: 2020-05-15 */
+    /** *date of the latest update of Google Ads data* indicates the latest date when Google updated search volume, CPC, and other keyword metrics example: `2020-05-15` */
 
     date_update?: string | undefined;
 
     
-    /** the latest year for which search volume data is available */
+    /** *the latest year for which search volume data is available* */
 
     last_year_in_monthly_searches?: number | undefined;
 
     
-    /** the latest month for which search volume data is available */
+    /** *the latest month for which search volume data is available* */
 
     last_month_in_monthly_searches?: number | undefined;
 

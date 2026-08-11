@@ -6,16 +6,16 @@ export interface IPeopleAlsoAskElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of a given link element */
+        /** *title of a given link element* */
         title?: string | undefined
         
-        /** question that triggered additional expanded elements */
+        /** *question that triggered additional expanded elements* */
         seed_question?: string | undefined
         
-        /** the XPath of the element */
+        /** *the [XPath](https://en.wikipedia.org/wiki/XPath) of the element* */
         xpath?: string | undefined
         
-        /** expanded element */
+        /** *expanded element* */
         expanded_element?: BaseSerpApiPeopleAlsoAskExpandedElementItem[] | undefined
 
     [key: string]: any;
@@ -30,22 +30,22 @@ export class PeopleAlsoAskElement  implements IPeopleAlsoAskElement {
     type?: string | undefined;
 
     
-    /** title of a given link element */
+    /** *title of a given link element* */
 
     title?: string | undefined;
 
     
-    /** question that triggered additional expanded elements */
+    /** *question that triggered additional expanded elements* */
 
     seed_question?: string | undefined;
 
     
-    /** the XPath of the element */
+    /** *the [XPath](https://en.wikipedia.org/wiki/XPath) of the element* */
 
     xpath?: string | undefined;
 
     
-    /** expanded element */
+    /** *expanded element* */
 
     expanded_element?: BaseSerpApiPeopleAlsoAskExpandedElementItem[] | undefined;
 

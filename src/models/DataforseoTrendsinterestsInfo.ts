@@ -3,10 +3,10 @@ import { DataforseoTrendsinterestsValuesInfo, IDataforseoTrendsinterestsValuesIn
 
 export interface IDataforseoTrendsinterestsInfo   {
         
-        /** relevant keyword the data included in the values element is based on this keyword */
+        /** *relevant keyword* the data included in the `values` element is based on this keyword */
         keyword?: string | undefined
         
-        /** contains data on relative keyword popularity by country or region */
+        /** *contains data on relative keyword popularity by country or region* */
         values?: DataforseoTrendsinterestsValuesInfo[] | undefined
 
     [key: string]: any;
@@ -16,12 +16,12 @@ export interface IDataforseoTrendsinterestsInfo   {
 export class DataforseoTrendsinterestsInfo  implements IDataforseoTrendsinterestsInfo {
 
     
-    /** relevant keyword the data included in the values element is based on this keyword */
+    /** *relevant keyword* the data included in the `values` element is based on this keyword */
 
     keyword?: string | undefined;
 
     
-    /** contains data on relative keyword popularity by country or region */
+    /** *contains data on relative keyword popularity by country or region* */
 
     values?: DataforseoTrendsinterestsValuesInfo[] | undefined;
 

@@ -1,18 +1,18 @@
 export interface IPreviewVideos   {
         
-        /** ID of the video */
+        /** *ID of the video* */
         video_id?: string | undefined
         
-        /** title of the video */
+        /** *title of the video* */
         title?: string | undefined
         
-        /** URL of the video */
+        /** *URL of the video* */
         url?: string | undefined
         
-        /** duration of the video */
+        /** *duration of the video* */
         duration_time?: string | undefined
         
-        /** duration of the video in seconds */
+        /** *duration of the video in seconds* */
         duration_time_seconds?: number | undefined
 
     [key: string]: any;
@@ -22,27 +22,27 @@ export interface IPreviewVideos   {
 export class PreviewVideos  implements IPreviewVideos {
 
     
-    /** ID of the video */
+    /** *ID of the video* */
 
     video_id?: string | undefined;
 
     
-    /** title of the video */
+    /** *title of the video* */
 
     title?: string | undefined;
 
     
-    /** URL of the video */
+    /** *URL of the video* */
 
     url?: string | undefined;
 
     
-    /** duration of the video */
+    /** *duration of the video* */
 
     duration_time?: string | undefined;
 
     
-    /** duration of the video in seconds */
+    /** *duration of the video in seconds* */
 
     duration_time_seconds?: number | undefined;
 

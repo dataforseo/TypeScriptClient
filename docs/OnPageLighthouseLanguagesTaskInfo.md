@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **OnPageLighthouseLanguagesResultInfo[]** | array of results |[optional]|
+**result** | **OnPageLighthouseLanguagesResultInfo[]** | *array of results* |[optional]|

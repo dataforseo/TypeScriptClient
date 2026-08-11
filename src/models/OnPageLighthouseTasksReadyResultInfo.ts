@@ -1,12 +1,12 @@
 export interface IOnPageLighthouseTasksReadyResultInfo   {
         
-        /** task identifier of the completed task unique task identifier in our system in the UUID format */
+        /** *task identifier of the completed task* **unique task identifier in our system in the [UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier) format** */
         id?: string | undefined
         
-        /** user-defined task identifier */
+        /** *user-defined task identifier* */
         tag?: string | undefined
         
-        /** URL for collecting the results of the OnPage Lighthouse JSON task */
+        /** *URL for collecting the results of the OnPage Lighthouse JSON task* */
         endpoint_json?: string | undefined
 
     [key: string]: any;
@@ -16,17 +16,17 @@ export interface IOnPageLighthouseTasksReadyResultInfo   {
 export class OnPageLighthouseTasksReadyResultInfo  implements IOnPageLighthouseTasksReadyResultInfo {
 
     
-    /** task identifier of the completed task unique task identifier in our system in the UUID format */
+    /** *task identifier of the completed task* **unique task identifier in our system in the [UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier) format** */
 
     id?: string | undefined;
 
     
-    /** user-defined task identifier */
+    /** *user-defined task identifier* */
 
     tag?: string | undefined;
 
     
-    /** URL for collecting the results of the OnPage Lighthouse JSON task */
+    /** *URL for collecting the results of the OnPage Lighthouse JSON task* */
 
     endpoint_json?: string | undefined;
 

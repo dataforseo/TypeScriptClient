@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpYoutubeVideoSubtitlesTaskGetAdvancedTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **SerpYoutubeVideoSubtitlesTaskGetAdvancedTaskInfo[]** | *array of tasks* |[optional]|

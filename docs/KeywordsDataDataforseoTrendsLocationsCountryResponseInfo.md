@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **KeywordsDataDataforseoTrendsLocationsCountryTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **KeywordsDataDataforseoTrendsLocationsCountryTaskInfo[]** | *array of tasks* |[optional]|

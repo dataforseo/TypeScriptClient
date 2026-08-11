@@ -5,11 +5,11 @@
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
 **type** | **string** | type of element |[optional]|
-**featured_title** | **string** | title |[optional]|
-**url** | **string** | URL |[optional]|
-**domain** | **string** | domain name of the reference |[optional]|
-**title** | **string** | title of the result in SERP |[optional]|
-**description** | **string** | description of the results element in SERP |[optional]|
-**images** | **AiModeImagesElementInfo[]** | images of the element |[optional]|
-**timestamp** | **string** | date and time when the video was published. in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”. example: 2009-01-01 00:00:00 +00:00 |[optional]|
-**table** | **Table** | results table. if there are none, equals null |[optional]|
+**featured_title** | **string** | *title* |[optional]|
+**url** | **string** | *URL* |[optional]|
+**domain** | **string** | *domain name of the reference* |[optional]|
+**title** | **string** | *title of the result in SERP* |[optional]|
+**description** | **string** | *description of the results element in SERP* |[optional]|
+**images** | **AiModeImagesElementInfo[]** | *images of the element* |[optional]|
+**timestamp** | **string** | *date and time when the video was published*.             in the UTC format: 'yyyy-mm-dd hh-mm-ss +00:00'.             example: `2009-01-01 00:00:00 +00:00` |[optional]|
+**table** | **Table** | *results table*.             if there are none, equals `null` |[optional]|

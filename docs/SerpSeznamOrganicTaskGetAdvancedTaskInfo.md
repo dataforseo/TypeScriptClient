@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpSeznamOrganicTaskGetAdvancedResultInfo[]** | array of results |[optional]|
+**result** | **SerpSeznamOrganicTaskGetAdvancedResultInfo[]** | *array of results* |[optional]|

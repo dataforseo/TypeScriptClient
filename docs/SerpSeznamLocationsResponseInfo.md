@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpSeznamLocationsTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **SerpSeznamLocationsTaskInfo[]** | *array of tasks* |[optional]|

@@ -8,13 +8,13 @@ export interface IBaseKeywordDataGoogleTrendsItem   {
         /** type of element */
         type?: string | undefined
         
-        /** the alignment of the element in Google Trends can take the following values: 1, 2, 3, 4, etc. */
+        /** *the alignment of the element in Google Trends* can take the following values: `1`, `2`, `3`, `4`, etc. */
         position?: number | undefined
         
-        /** title of the element in Google Trends */
+        /** *title of the element in Google Trends* */
         title?: string | undefined
         
-        /** relevant keywords the data included in the google_trends_graph element is based on the keywords listed in this array */
+        /** *relevant keywords* the data included in the `google_trends_graph` element is based on the keywords listed in this array */
         keywords?: string[] | undefined
 
     [key: string]: any;
@@ -29,17 +29,17 @@ export class BaseKeywordDataGoogleTrendsItem  implements IBaseKeywordDataGoogleT
     type?: string | undefined;
 
     
-    /** the alignment of the element in Google Trends can take the following values: 1, 2, 3, 4, etc. */
+    /** *the alignment of the element in Google Trends* can take the following values: `1`, `2`, `3`, `4`, etc. */
 
     position?: number | undefined;
 
     
-    /** title of the element in Google Trends */
+    /** *title of the element in Google Trends* */
 
     title?: string | undefined;
 
     
-    /** relevant keywords the data included in the google_trends_graph element is based on the keywords listed in this array */
+    /** *relevant keywords* the data included in the `google_trends_graph` element is based on the keywords listed in this array */
 
     keywords?: string[] | undefined;
 
@@ -123,7 +123,7 @@ export class BaseKeywordDataGoogleTrendsItem  implements IBaseKeywordDataGoogleT
  
 export interface IGoogleTrendsGoogleTrendsGraphElementItem  extends IBaseKeywordDataGoogleTrendsItem    {
         
-        /** Google Trends data for the specified parameters */
+        /** *Google Trends data for the specified parameters* */
         data?: TrendsGraphDataInfo[] | undefined
         
         averages?: number[] | undefined
@@ -135,7 +135,7 @@ export interface IGoogleTrendsGoogleTrendsGraphElementItem  extends IBaseKeyword
 export class GoogleTrendsGoogleTrendsGraphElementItem  extends BaseKeywordDataGoogleTrendsItem   implements IGoogleTrendsGoogleTrendsGraphElementItem {
 
     
-    /** Google Trends data for the specified parameters */
+    /** *Google Trends data for the specified parameters* */
 
     data?: TrendsGraphDataInfo[] | undefined;
 
@@ -199,7 +199,7 @@ export class GoogleTrendsGoogleTrendsGraphElementItem  extends BaseKeywordDataGo
  
 export interface IGoogleTrendsGoogleTrendsMapElementItem  extends IBaseKeywordDataGoogleTrendsItem    {
         
-        /** Google Trends data from the corresponding item */
+        /** *Google Trends data from the corresponding item* */
         data?: TrendsMapDataInfo[] | undefined
 
     [key: string]: any;
@@ -209,7 +209,7 @@ export interface IGoogleTrendsGoogleTrendsMapElementItem  extends IBaseKeywordDa
 export class GoogleTrendsGoogleTrendsMapElementItem  extends BaseKeywordDataGoogleTrendsItem   implements IGoogleTrendsGoogleTrendsMapElementItem {
 
     
-    /** Google Trends data from the corresponding item */
+    /** *Google Trends data from the corresponding item* */
 
     data?: TrendsMapDataInfo[] | undefined;
 
@@ -269,7 +269,7 @@ export class GoogleTrendsGoogleTrendsMapElementItem  extends BaseKeywordDataGoog
  
 export interface IGoogleTrendsGoogleTrendsQueriesListElementItem  extends IBaseKeywordDataGoogleTrendsItem    {
         
-        /** Google Trends data from the corresponding item */
+        /** *Google Trends data from the corresponding item* */
         data?: ListDataInfo | undefined
 
     [key: string]: any;
@@ -279,7 +279,7 @@ export interface IGoogleTrendsGoogleTrendsQueriesListElementItem  extends IBaseK
 export class GoogleTrendsGoogleTrendsQueriesListElementItem  extends BaseKeywordDataGoogleTrendsItem   implements IGoogleTrendsGoogleTrendsQueriesListElementItem {
 
     
-    /** Google Trends data from the corresponding item */
+    /** *Google Trends data from the corresponding item* */
 
     data?: ListDataInfo | undefined;
 
@@ -326,7 +326,7 @@ export class GoogleTrendsGoogleTrendsQueriesListElementItem  extends BaseKeyword
  
 export interface IGoogleTrendsGoogleTrendsTopicsListElementItem  extends IBaseKeywordDataGoogleTrendsItem    {
         
-        /** Google Trends data from the corresponding item */
+        /** *Google Trends data from the corresponding item* */
         data?: ListDataInfo | undefined
 
     [key: string]: any;
@@ -336,7 +336,7 @@ export interface IGoogleTrendsGoogleTrendsTopicsListElementItem  extends IBaseKe
 export class GoogleTrendsGoogleTrendsTopicsListElementItem  extends BaseKeywordDataGoogleTrendsItem   implements IGoogleTrendsGoogleTrendsTopicsListElementItem {
 
     
-    /** Google Trends data from the corresponding item */
+    /** *Google Trends data from the corresponding item* */
 
     data?: ListDataInfo | undefined;
 

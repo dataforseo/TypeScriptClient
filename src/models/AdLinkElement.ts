@@ -3,19 +3,19 @@ export interface IAdLinkElement   {
         /** type of element */
         type?: string | undefined
         
-        /** title of the element in SERP */
+        /** *title of the element in SERP* */
         title?: string | undefined
         
-        /** description of the link */
+        /** *description of the link* */
         description?: string | undefined
         
-        /** reference page URL */
+        /** *reference page URL* */
         url?: string | undefined
         
-        /** domain where a link points */
+        /** *domain where a link points* */
         domain?: string | undefined
         
-        /** the identifier of the ad */
+        /** *the identifier of the ad* */
         ad_aclk?: string | undefined
 
     [key: string]: any;
@@ -30,27 +30,27 @@ export class AdLinkElement  implements IAdLinkElement {
     type?: string | undefined;
 
     
-    /** title of the element in SERP */
+    /** *title of the element in SERP* */
 
     title?: string | undefined;
 
     
-    /** description of the link */
+    /** *description of the link* */
 
     description?: string | undefined;
 
     
-    /** reference page URL */
+    /** *reference page URL* */
 
     url?: string | undefined;
 
     
-    /** domain where a link points */
+    /** *domain where a link points* */
 
     domain?: string | undefined;
 
     
-    /** the identifier of the ad */
+    /** *the identifier of the ad* */
 
     ad_aclk?: string | undefined;
 

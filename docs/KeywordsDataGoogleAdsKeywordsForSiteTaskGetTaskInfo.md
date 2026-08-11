@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **KeywordsDataGoogleAdsKeywordsForSiteTaskGetResultInfo[]** | array of results |[optional]|
+**result** | **KeywordsDataGoogleAdsKeywordsForSiteTaskGetResultInfo[]** | *array of results* |[optional]|

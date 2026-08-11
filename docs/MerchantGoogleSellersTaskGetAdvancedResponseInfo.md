@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **MerchantGoogleSellersTaskGetAdvancedTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **MerchantGoogleSellersTaskGetAdvancedTaskInfo[]** | *array of tasks* |[optional]|

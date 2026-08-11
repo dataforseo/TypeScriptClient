@@ -1,12 +1,12 @@
 export interface IOnPageKeywordDensityItem   {
         
-        /** returned keyword */
+        /** *returned keyword* */
         keyword?: string | undefined
         
-        /** keyword frequency number of times the keyword appears on the website (or webpage if you specified a url) */
+        /** *keyword frequency* number of times the keyword appears on the website (or webpage if you specified a `url`) */
         frequency?: number | undefined
         
-        /** keyword density calculated as a ratio of frequency to the total count of keywords with the set keyword_length on the web page or website */
+        /** *keyword density* calculated as a ratio of `frequency` to the total count of keywords with the set `keyword_length` on the web page or website */
         density?: number | undefined
 
     [key: string]: any;
@@ -16,17 +16,17 @@ export interface IOnPageKeywordDensityItem   {
 export class OnPageKeywordDensityItem  implements IOnPageKeywordDensityItem {
 
     
-    /** returned keyword */
+    /** *returned keyword* */
 
     keyword?: string | undefined;
 
     
-    /** keyword frequency number of times the keyword appears on the website (or webpage if you specified a url) */
+    /** *keyword frequency* number of times the keyword appears on the website (or webpage if you specified a `url`) */
 
     frequency?: number | undefined;
 
     
-    /** keyword density calculated as a ratio of frequency to the total count of keywords with the set keyword_length on the web page or website */
+    /** *keyword density* calculated as a ratio of `frequency` to the total count of keywords with the set `keyword_length` on the web page or website */
 
     density?: number | undefined;
 

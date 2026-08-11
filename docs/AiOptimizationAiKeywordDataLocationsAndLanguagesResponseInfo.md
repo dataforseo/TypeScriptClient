@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **AiOptimizationAiKeywordDataLocationsAndLanguagesTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **AiOptimizationAiKeywordDataLocationsAndLanguagesTaskInfo[]** | *array of tasks* |[optional]|

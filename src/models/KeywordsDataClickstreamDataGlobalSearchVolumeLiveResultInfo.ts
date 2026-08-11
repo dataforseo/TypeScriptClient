@@ -3,10 +3,10 @@ import { KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem, IKeywordsDataCli
 
 export interface IKeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo   {
         
-        /** the number of results returned in the items array */
+        /** *the number of results returned in the `items` array* */
         items_count?: number | undefined
         
-        /** contains keywords and related data */
+        /** *contains keywords and related data* */
         items?: KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem[] | undefined
 
     [key: string]: any;
@@ -16,12 +16,12 @@ export interface IKeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo   
 export class KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo  implements IKeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo {
 
     
-    /** the number of results returned in the items array */
+    /** *the number of results returned in the `items` array* */
 
     items_count?: number | undefined;
 
     
-    /** contains keywords and related data */
+    /** *contains keywords and related data* */
 
     items?: KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem[] | undefined;
 

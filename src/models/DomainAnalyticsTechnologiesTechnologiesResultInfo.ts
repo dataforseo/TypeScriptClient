@@ -3,7 +3,7 @@ import { Groups, IGroups } from "./Groups";
 
 export interface IDomainAnalyticsTechnologiesTechnologiesResultInfo   {
         
-        /** array of technology groups */
+        /** *array of technology groups* */
         groups?: Groups[] | undefined
 
     [key: string]: any;
@@ -13,7 +13,7 @@ export interface IDomainAnalyticsTechnologiesTechnologiesResultInfo   {
 export class DomainAnalyticsTechnologiesTechnologiesResultInfo  implements IDomainAnalyticsTechnologiesTechnologiesResultInfo {
 
     
-    /** array of technology groups */
+    /** *array of technology groups* */
 
     groups?: Groups[] | undefined;
 

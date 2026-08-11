@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **OnPageMicrodataResultInfo[]** | array of results |[optional]|
+**result** | **OnPageMicrodataResultInfo[]** | *array of results* |[optional]|

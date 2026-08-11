@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **OnPageRedirectChainsResultInfo[]** | array of results |[optional]|
+**result** | **OnPageRedirectChainsResultInfo[]** | *array of results* |[optional]|

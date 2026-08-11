@@ -1,12 +1,12 @@
 export interface IAbsoluteItems   {
         
-        /** location identifier you can use this field for matching obtained results with location parameters specified in the request see the full list of available locations with their geo_id here or by making a separate request to https://api.dataforseo.com/v3/keywords_data/dataforseo_trends/locations example: US-NY */
+        /** *location identifier* you can use this field for matching obtained results with location parameters specified in the request see the full list of available locations with their `geo_id` [here](/v3/keywords_data/dataforseo_trends/locations/) or by making a separate request to `https://api.dataforseo.com/v3/keywords_data/dataforseo_trends/locations` example: `US-NY` */
         geo_id?: string | undefined
         
-        /** location name you can use this field for matching obtained results with location parameters specified in the request see the full list of available locations with their geo_name here or by making a separate request to https://api.dataforseo.com/v3/keywords_data/dataforseo_trends/locations example: Andorra */
+        /** *location name* you can use this field for matching obtained results with location parameters specified in the request see the full list of available locations with their `geo_name` [here](/v3/keywords_data/dataforseo_trends/locations/) or by making a separate request to `https://api.dataforseo.com/v3/keywords_data/dataforseo_trends/locations` example: `Andorra` */
         geo_name?: string | undefined
         
-        /** contains data on relative keyword popularity by country or region */
+        /** *contains data on relative keyword popularity by country or region* */
         values?: string[] | undefined
 
     [key: string]: any;
@@ -16,17 +16,17 @@ export interface IAbsoluteItems   {
 export class AbsoluteItems  implements IAbsoluteItems {
 
     
-    /** location identifier you can use this field for matching obtained results with location parameters specified in the request see the full list of available locations with their geo_id here or by making a separate request to https://api.dataforseo.com/v3/keywords_data/dataforseo_trends/locations example: US-NY */
+    /** *location identifier* you can use this field for matching obtained results with location parameters specified in the request see the full list of available locations with their `geo_id` [here](/v3/keywords_data/dataforseo_trends/locations/) or by making a separate request to `https://api.dataforseo.com/v3/keywords_data/dataforseo_trends/locations` example: `US-NY` */
 
     geo_id?: string | undefined;
 
     
-    /** location name you can use this field for matching obtained results with location parameters specified in the request see the full list of available locations with their geo_name here or by making a separate request to https://api.dataforseo.com/v3/keywords_data/dataforseo_trends/locations example: Andorra */
+    /** *location name* you can use this field for matching obtained results with location parameters specified in the request see the full list of available locations with their `geo_name` [here](/v3/keywords_data/dataforseo_trends/locations/) or by making a separate request to `https://api.dataforseo.com/v3/keywords_data/dataforseo_trends/locations` example: `Andorra` */
 
     geo_name?: string | undefined;
 
     
-    /** contains data on relative keyword popularity by country or region */
+    /** *contains data on relative keyword popularity by country or region* */
 
     values?: string[] | undefined;
 

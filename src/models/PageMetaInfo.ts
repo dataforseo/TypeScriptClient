@@ -5,91 +5,91 @@ import { OnPageResourceIssueInfo, IOnPageResourceIssueInfo } from "./OnPageResou
 
 export interface IPageMetaInfo   {
         
-        /** page title */
+        /** *page title* */
         title?: string | undefined
         
-        /** code page example: 65001 */
+        /** *[code page](https://en.wikipedia.org/wiki/Code_page)* example: `65001` */
         charset?: number | undefined
         
-        /** indicates whether a page’s ‘meta robots’ allows crawlers to follow the links on the page if false, the page’s ‘meta robots’ tag contains “nofollow” parameter instructing crawlers not to follow the links on the page */
+        /** *indicates whether a page's 'meta robots' allows crawlers to follow the links on the page* if `false`, the page's 'meta robots' tag contains 'nofollow' parameter instructing crawlers not to follow the links on the page */
         follow?: boolean | undefined
         
-        /** meta tag generator */
+        /** *meta tag generator* */
         generator?: string | undefined
         
-        /** HTML header tags */
+        /** *HTML header tags* */
         htags?: { [key: string]: string[]; } | undefined
         
-        /** content of the meta description tag */
+        /** *content of the meta description tag* */
         description?: string | undefined
         
-        /** favicon of the page */
+        /** *favicon of the page* */
         favicon?: string | undefined
         
-        /** content of the keywords meta tag */
+        /** *content of the `keywords` meta tag* */
         meta_keywords?: string | undefined
         
-        /** canonical page */
+        /** *canonical page* */
         canonical?: string | undefined
         
-        /** number of internal links on the page */
+        /** *number of internal links on the page* */
         internal_links_count?: number | undefined
         
-        /** number of external links on the page */
+        /** *number of external links on the page* */
         external_links_count?: number | undefined
         
-        /** number of internal links pointing at the page */
+        /** *number of internal links pointing at the page* */
         inbound_links_count?: number | undefined
         
-        /** number of images on the page */
+        /** *number of images on the page* */
         images_count?: number | undefined
         
-        /** total size of images on the page measured in bytes */
+        /** *total size of images on the page measured in bytes* */
         images_size?: number | undefined
         
-        /** number of scripts on the page */
+        /** *number of scripts on the page* */
         scripts_count?: number | undefined
         
-        /** total size of scripts on the page measured in bytes */
+        /** *total size of scripts on the page measured in bytes* */
         scripts_size?: number | undefined
         
-        /** number of stylesheets on the page */
+        /** *number of stylesheets on the page* */
         stylesheets_count?: number | undefined
         
-        /** total size of stylesheets on the page measured in bytes */
+        /** *total size of stylesheets on the page measured in bytes* */
         stylesheets_size?: number | undefined
         
-        /** length of the title tag in characters */
+        /** *length of the `title` tag in characters* */
         title_length?: number | undefined
         
-        /** length of the description tag in characters */
+        /** *length of the `description` tag in characters* */
         description_length?: number | undefined
         
-        /** number of scripts on the page that block page rendering */
+        /** *number of scripts on the page that block page rendering* */
         render_blocking_scripts_count?: number | undefined
         
-        /** number of CSS styles on the page that block page rendering */
+        /** *number of CSS styles on the page that block page rendering* */
         render_blocking_stylesheets_count?: number | undefined
         
-        /** Core Web Vitals metric measuring the layout stability of the page measures the sum total of all individual layout shift scores for every unexpected layout shift that occurs during the entire lifespan of the page. Learn more. */
+        /** *Core Web Vitals metric measuring the layout stability of the page* measures the sum total of all individual layout shift scores for every unexpected layout shift that occurs during the entire lifespan of the page. [Learn more.](https://web.dev/cls/) */
         cumulative_layout_shift?: number | undefined
         
-        /** meta title of the page meta tag in the head section of an HTML document that defines the title of a page */
+        /** *meta title of the page* meta tag in the head section of an HTML document that defines the title of a page */
         meta_title?: string | undefined
         
-        /** overall information about content of the page */
+        /** *overall information about content of the page* */
         content?: HtmlContentInfo | undefined
         
-        /** deprecated tags on the page */
+        /** *deprecated tags on the page* */
         deprecated_tags?: string[] | undefined
         
-        /** duplicate meta tags on the page */
+        /** *duplicate meta tags on the page* */
         duplicate_meta_tags?: string[] | undefined
         
-        /** spellcheck hunspell spellcheck errors */
+        /** *spellcheck* [hunspell](http://hunspell.github.io/) spellcheck errors */
         spell?: HunspellInfo | undefined
         
-        /** object of social media tags found on the page contains social media tags and their content supported tags include but are not limited to Open Graph and Twitter card */
+        /** *object of social media tags found on the page* contains social media tags and their content supported tags include but are not limited to [Open Graph](https://ogp.me/) and [Twitter card](https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started) */
         social_media_tags?: { [key: string]: string; } | undefined
         
         /** resource errors and warnings */
@@ -102,147 +102,147 @@ export interface IPageMetaInfo   {
 export class PageMetaInfo  implements IPageMetaInfo {
 
     
-    /** page title */
+    /** *page title* */
 
     title?: string | undefined;
 
     
-    /** code page example: 65001 */
+    /** *[code page](https://en.wikipedia.org/wiki/Code_page)* example: `65001` */
 
     charset?: number | undefined;
 
     
-    /** indicates whether a page’s ‘meta robots’ allows crawlers to follow the links on the page if false, the page’s ‘meta robots’ tag contains “nofollow” parameter instructing crawlers not to follow the links on the page */
+    /** *indicates whether a page's 'meta robots' allows crawlers to follow the links on the page* if `false`, the page's 'meta robots' tag contains 'nofollow' parameter instructing crawlers not to follow the links on the page */
 
     follow?: boolean | undefined;
 
     
-    /** meta tag generator */
+    /** *meta tag generator* */
 
     generator?: string | undefined;
 
     
-    /** HTML header tags */
+    /** *HTML header tags* */
 
     htags?: { [key: string]: string[]; } | undefined;
 
     
-    /** content of the meta description tag */
+    /** *content of the meta description tag* */
 
     description?: string | undefined;
 
     
-    /** favicon of the page */
+    /** *favicon of the page* */
 
     favicon?: string | undefined;
 
     
-    /** content of the keywords meta tag */
+    /** *content of the `keywords` meta tag* */
 
     meta_keywords?: string | undefined;
 
     
-    /** canonical page */
+    /** *canonical page* */
 
     canonical?: string | undefined;
 
     
-    /** number of internal links on the page */
+    /** *number of internal links on the page* */
 
     internal_links_count?: number | undefined;
 
     
-    /** number of external links on the page */
+    /** *number of external links on the page* */
 
     external_links_count?: number | undefined;
 
     
-    /** number of internal links pointing at the page */
+    /** *number of internal links pointing at the page* */
 
     inbound_links_count?: number | undefined;
 
     
-    /** number of images on the page */
+    /** *number of images on the page* */
 
     images_count?: number | undefined;
 
     
-    /** total size of images on the page measured in bytes */
+    /** *total size of images on the page measured in bytes* */
 
     images_size?: number | undefined;
 
     
-    /** number of scripts on the page */
+    /** *number of scripts on the page* */
 
     scripts_count?: number | undefined;
 
     
-    /** total size of scripts on the page measured in bytes */
+    /** *total size of scripts on the page measured in bytes* */
 
     scripts_size?: number | undefined;
 
     
-    /** number of stylesheets on the page */
+    /** *number of stylesheets on the page* */
 
     stylesheets_count?: number | undefined;
 
     
-    /** total size of stylesheets on the page measured in bytes */
+    /** *total size of stylesheets on the page measured in bytes* */
 
     stylesheets_size?: number | undefined;
 
     
-    /** length of the title tag in characters */
+    /** *length of the `title` tag in characters* */
 
     title_length?: number | undefined;
 
     
-    /** length of the description tag in characters */
+    /** *length of the `description` tag in characters* */
 
     description_length?: number | undefined;
 
     
-    /** number of scripts on the page that block page rendering */
+    /** *number of scripts on the page that block page rendering* */
 
     render_blocking_scripts_count?: number | undefined;
 
     
-    /** number of CSS styles on the page that block page rendering */
+    /** *number of CSS styles on the page that block page rendering* */
 
     render_blocking_stylesheets_count?: number | undefined;
 
     
-    /** Core Web Vitals metric measuring the layout stability of the page measures the sum total of all individual layout shift scores for every unexpected layout shift that occurs during the entire lifespan of the page. Learn more. */
+    /** *Core Web Vitals metric measuring the layout stability of the page* measures the sum total of all individual layout shift scores for every unexpected layout shift that occurs during the entire lifespan of the page. [Learn more.](https://web.dev/cls/) */
 
     cumulative_layout_shift?: number | undefined;
 
     
-    /** meta title of the page meta tag in the head section of an HTML document that defines the title of a page */
+    /** *meta title of the page* meta tag in the head section of an HTML document that defines the title of a page */
 
     meta_title?: string | undefined;
 
     
-    /** overall information about content of the page */
+    /** *overall information about content of the page* */
 
     content?: HtmlContentInfo | undefined;
 
     
-    /** deprecated tags on the page */
+    /** *deprecated tags on the page* */
 
     deprecated_tags?: string[] | undefined;
 
     
-    /** duplicate meta tags on the page */
+    /** *duplicate meta tags on the page* */
 
     duplicate_meta_tags?: string[] | undefined;
 
     
-    /** spellcheck hunspell spellcheck errors */
+    /** *spellcheck* [hunspell](http://hunspell.github.io/) spellcheck errors */
 
     spell?: HunspellInfo | undefined;
 
     
-    /** object of social media tags found on the page contains social media tags and their content supported tags include but are not limited to Open Graph and Twitter card */
+    /** *object of social media tags found on the page* contains social media tags and their content supported tags include but are not limited to [Open Graph](https://ogp.me/) and [Twitter card](https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started) */
 
     social_media_tags?: { [key: string]: string; } | undefined;
 

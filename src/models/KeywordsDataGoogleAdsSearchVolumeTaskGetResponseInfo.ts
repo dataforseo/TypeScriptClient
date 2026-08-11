@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface IKeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: KeywordsDataGoogleAdsSearchVolumeTaskGetTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IKeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo  extends 
 export class KeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo  extends BaseResponseInfo   implements IKeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: KeywordsDataGoogleAdsSearchVolumeTaskGetTaskInfo[] | undefined;
 

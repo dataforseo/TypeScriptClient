@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface ISerpYahooOrganicLiveRegularTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: SerpYahooOrganicLiveRegularResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface ISerpYahooOrganicLiveRegularTaskInfo  extends IBaseResponseTask
 export class SerpYahooOrganicLiveRegularTaskInfo  extends BaseResponseTaskInfo   implements ISerpYahooOrganicLiveRegularTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: SerpYahooOrganicLiveRegularResultInfo[] | undefined;
 

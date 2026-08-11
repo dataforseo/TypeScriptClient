@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**word** | **string** | misspelled word |[optional]|
+**word** | **string** | *misspelled word* |[optional]|

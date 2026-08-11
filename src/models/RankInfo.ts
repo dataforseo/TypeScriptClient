@@ -1,9 +1,9 @@
 export interface IRankInfo   {
         
-        /** page rank page_rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm; learn more about the metric and how it is calculated in this help center article */
+        /** *page rank*             `page_rank` is calculated based on the method for node ranking in a linked database - a principle used in the original Google PageRank algorithm;             learn more about the metric and how it is calculated in [this help center article](https://dataforseo.com/help-center/what_is_rank_in_backlinks_api) */
         page_rank?: number | undefined
         
-        /** average main domain rank learn more about the metric and its calculation formula in this help center article */
+        /** *average main domain rank*             learn more about the metric and its calculation formula in [this help center article](https://dataforseo.com/help-center/what_is_rank_in_backlinks_api) */
         main_domain_rank?: number | undefined
 
     [key: string]: any;
@@ -13,12 +13,12 @@ export interface IRankInfo   {
 export class RankInfo  implements IRankInfo {
 
     
-    /** page rank page_rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm; learn more about the metric and how it is calculated in this help center article */
+    /** *page rank*             `page_rank` is calculated based on the method for node ranking in a linked database - a principle used in the original Google PageRank algorithm;             learn more about the metric and how it is calculated in [this help center article](https://dataforseo.com/help-center/what_is_rank_in_backlinks_api) */
 
     page_rank?: number | undefined;
 
     
-    /** average main domain rank learn more about the metric and its calculation formula in this help center article */
+    /** *average main domain rank*             learn more about the metric and its calculation formula in [this help center article](https://dataforseo.com/help-center/what_is_rank_in_backlinks_api) */
 
     main_domain_rank?: number | undefined;
 

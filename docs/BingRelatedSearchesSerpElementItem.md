@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**items** | **string[]** | items in SERP |[optional]|
+**items** | **string[]** | *items in SERP* |[optional]|

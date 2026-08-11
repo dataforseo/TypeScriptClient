@@ -1458,7 +1458,6 @@ This endpoint does not need any parameter.
 
  let task = new OnPageInstantPagesRequestInfo();
    task.url = "https://dataforseo.com/blog";
-   task.enable_javascript = true;
    task.custom_js = "meta = {}; meta.url = document.URL; meta;";
  let response = await api.instantPages([task]);
 ```

@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface ISerpScreenshotResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: SerpScreenshotTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface ISerpScreenshotResponseInfo  extends IBaseResponseInfo    {
 export class SerpScreenshotResponseInfo  extends BaseResponseInfo   implements ISerpScreenshotResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: SerpScreenshotTaskInfo[] | undefined;
 

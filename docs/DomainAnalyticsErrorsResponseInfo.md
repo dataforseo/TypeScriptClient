@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **DomainAnalyticsErrorsTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **DomainAnalyticsErrorsTaskInfo[]** | *array of tasks* |[optional]|

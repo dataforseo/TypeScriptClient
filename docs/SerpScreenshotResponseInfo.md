@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpScreenshotTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **SerpScreenshotTaskInfo[]** | *array of tasks* |[optional]|

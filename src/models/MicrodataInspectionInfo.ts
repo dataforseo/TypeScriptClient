@@ -3,10 +3,10 @@ import { MicrodataFieldsInfo, IMicrodataFieldsInfo } from "./MicrodataFieldsInfo
 
 export interface IMicrodataInspectionInfo   {
         
-        /** parent microdata types for a full list of available types, please visit schema.org */
+        /** *parent microdata types* for a full list of available types, please visit [schema.org](https://schema.org/docs/full.html) */
         types?: string[] | undefined
         
-        /** microdata fields an array of objects containing data fields related to the certain microdata type */
+        /** *microdata fields* an array of objects containing data fields related to the certain microdata type */
         fields?: MicrodataFieldsInfo[] | undefined
 
     [key: string]: any;
@@ -16,12 +16,12 @@ export interface IMicrodataInspectionInfo   {
 export class MicrodataInspectionInfo  implements IMicrodataInspectionInfo {
 
     
-    /** parent microdata types for a full list of available types, please visit schema.org */
+    /** *parent microdata types* for a full list of available types, please visit [schema.org](https://schema.org/docs/full.html) */
 
     types?: string[] | undefined;
 
     
-    /** microdata fields an array of objects containing data fields related to the certain microdata type */
+    /** *microdata fields* an array of objects containing data fields related to the certain microdata type */
 
     fields?: MicrodataFieldsInfo[] | undefined;
 

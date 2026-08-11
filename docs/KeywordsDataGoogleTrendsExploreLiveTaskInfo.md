@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **KeywordsDataGoogleTrendsExploreLiveResultInfo[]** | array of results |[optional]|
+**result** | **KeywordsDataGoogleTrendsExploreLiveResultInfo[]** | *array of results* |[optional]|

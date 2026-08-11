@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **OnPageErrorsTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **OnPageErrorsTaskInfo[]** | *array of tasks* |[optional]|

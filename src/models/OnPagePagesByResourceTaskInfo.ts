@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IOnPagePagesByResourceTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: OnPagePagesByResourceResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IOnPagePagesByResourceTaskInfo  extends IBaseResponseTaskInfo  
 export class OnPagePagesByResourceTaskInfo  extends BaseResponseTaskInfo   implements IOnPagePagesByResourceTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: OnPagePagesByResourceResultInfo[] | undefined;
 

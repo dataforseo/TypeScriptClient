@@ -14,16 +14,16 @@ export interface IBaseSerpApiKnowledgeGraphElementItem   {
         /** type of element */
         type?: string | undefined
         
-        /** search results page number indicates the number of the SERP page on which the element is located */
+        /** *search results page number* indicates the number of the SERP page on which the element is located */
         page?: number | undefined
         
-        /** the alignment of the element in SERP can take the following values: left, right */
+        /** *the alignment of the element in SERP* can take the following values: `left`, `right` */
         position?: string | undefined
         
-        /** the XPath of the element */
+        /** *the [XPath](https://en.wikipedia.org/wiki/XPath) of the element* */
         xpath?: string | undefined
         
-        /** rectangle parameters contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP equals null if calculate_rectangles in the POST request is not set to true */
+        /** *rectangle parameters* contains cartesian coordinates and pixel dimensions of the result's snippet in SERP equals `null` if `calculate_rectangles` in the POST request is not set to `true` */
         rectangle?: AiModeRectangleInfo | undefined
 
     [key: string]: any;
@@ -38,22 +38,22 @@ export class BaseSerpApiKnowledgeGraphElementItem  implements IBaseSerpApiKnowle
     type?: string | undefined;
 
     
-    /** search results page number indicates the number of the SERP page on which the element is located */
+    /** *search results page number* indicates the number of the SERP page on which the element is located */
 
     page?: number | undefined;
 
     
-    /** the alignment of the element in SERP can take the following values: left, right */
+    /** *the alignment of the element in SERP* can take the following values: `left`, `right` */
 
     position?: string | undefined;
 
     
-    /** the XPath of the element */
+    /** *the [XPath](https://en.wikipedia.org/wiki/XPath) of the element* */
 
     xpath?: string | undefined;
 
     
-    /** rectangle parameters contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP equals null if calculate_rectangles in the POST request is not set to true */
+    /** *rectangle parameters* contains cartesian coordinates and pixel dimensions of the result's snippet in SERP equals `null` if `calculate_rectangles` in the POST request is not set to `true` */
 
     rectangle?: AiModeRectangleInfo | undefined;
 
@@ -175,22 +175,22 @@ export class BaseSerpApiKnowledgeGraphElementItem  implements IBaseSerpApiKnowle
  
 export interface ISerpApiKnowledgeGraphCarouselItemElementItem  extends IBaseSerpApiKnowledgeGraphElementItem    {
         
-        /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+        /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP absolute position among all the elements in SERP */
+        /** *absolute rank in SERP* absolute position among all the elements in SERP */
         rank_absolute?: number | undefined
         
-        /** title of the result in SERP */
+        /** *title of the result in SERP* */
         title?: string | undefined
         
-        /** google defined data attribute ID example: action:listen_artist */
+        /** *google defined data attribute ID* example: `action:listen_artist` */
         data_attrid?: string | undefined
         
-        /** link of the element */
+        /** *link of the element* */
         link?: LinkElement | undefined
         
-        /** elements of search results found in SERP */
+        /** *elements of search results found in SERP* */
         items?: KnowledgeGraphListElement[] | undefined
 
     [key: string]: any;
@@ -200,32 +200,32 @@ export interface ISerpApiKnowledgeGraphCarouselItemElementItem  extends IBaseSer
 export class SerpApiKnowledgeGraphCarouselItemElementItem  extends BaseSerpApiKnowledgeGraphElementItem   implements ISerpApiKnowledgeGraphCarouselItemElementItem {
 
     
-    /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+    /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP absolute position among all the elements in SERP */
+    /** *absolute rank in SERP* absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
 
     
-    /** title of the result in SERP */
+    /** *title of the result in SERP* */
 
     title?: string | undefined;
 
     
-    /** google defined data attribute ID example: action:listen_artist */
+    /** *google defined data attribute ID* example: `action:listen_artist` */
 
     data_attrid?: string | undefined;
 
     
-    /** link of the element */
+    /** *link of the element* */
 
     link?: LinkElement | undefined;
 
     
-    /** elements of search results found in SERP */
+    /** *elements of search results found in SERP* */
 
     items?: KnowledgeGraphListElement[] | undefined;
 
@@ -295,16 +295,16 @@ export class SerpApiKnowledgeGraphCarouselItemElementItem  extends BaseSerpApiKn
  
 export interface ISerpApiKnowledgeGraphDescriptionItemElementItem  extends IBaseSerpApiKnowledgeGraphElementItem    {
         
-        /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+        /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP absolute position among all the elements in SERP */
+        /** *absolute rank in SERP* absolute position among all the elements in SERP */
         rank_absolute?: number | undefined
         
-        /** text or description of the element in SERP */
+        /** *text or description of the element in SERP* */
         text?: string | undefined
         
-        /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
+        /** *sitelinks* the links shown below some of Google's search results if there are none, equals `null` */
         links?: LinkElement[] | undefined
 
     [key: string]: any;
@@ -314,22 +314,22 @@ export interface ISerpApiKnowledgeGraphDescriptionItemElementItem  extends IBase
 export class SerpApiKnowledgeGraphDescriptionItemElementItem  extends BaseSerpApiKnowledgeGraphElementItem   implements ISerpApiKnowledgeGraphDescriptionItemElementItem {
 
     
-    /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+    /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP absolute position among all the elements in SERP */
+    /** *absolute rank in SERP* absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
 
     
-    /** text or description of the element in SERP */
+    /** *text or description of the element in SERP* */
 
     text?: string | undefined;
 
     
-    /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
+    /** *sitelinks* the links shown below some of Google's search results if there are none, equals `null` */
 
     links?: LinkElement[] | undefined;
 
@@ -395,16 +395,16 @@ export class SerpApiKnowledgeGraphDescriptionItemElementItem  extends BaseSerpAp
  
 export interface ISerpApiKnowledgeGraphImagesItemElementItem  extends IBaseSerpApiKnowledgeGraphElementItem    {
         
-        /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+        /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP absolute position among all the elements in SERP */
+        /** *absolute rank in SERP* absolute position among all the elements in SERP */
         rank_absolute?: number | undefined
         
-        /** link of the element */
+        /** *link of the element* */
         link?: LinkElement | undefined
         
-        /** additional items present in the element if there are none, equals null */
+        /** *additional items present in the element* if there are none, equals `null` */
         items?: KnowledgeGraphImagesElement[] | undefined
 
     [key: string]: any;
@@ -414,22 +414,22 @@ export interface ISerpApiKnowledgeGraphImagesItemElementItem  extends IBaseSerpA
 export class SerpApiKnowledgeGraphImagesItemElementItem  extends BaseSerpApiKnowledgeGraphElementItem   implements ISerpApiKnowledgeGraphImagesItemElementItem {
 
     
-    /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+    /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP absolute position among all the elements in SERP */
+    /** *absolute rank in SERP* absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
 
     
-    /** link of the element */
+    /** *link of the element* */
 
     link?: LinkElement | undefined;
 
     
-    /** additional items present in the element if there are none, equals null */
+    /** *additional items present in the element* if there are none, equals `null` */
 
     items?: KnowledgeGraphImagesElement[] | undefined;
 
@@ -495,22 +495,22 @@ export class SerpApiKnowledgeGraphImagesItemElementItem  extends BaseSerpApiKnow
  
 export interface ISerpApiKnowledgeGraphListItemElementItem  extends IBaseSerpApiKnowledgeGraphElementItem    {
         
-        /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+        /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP absolute position among all the elements in SERP */
+        /** *absolute rank in SERP* absolute position among all the elements in SERP */
         rank_absolute?: number | undefined
         
-        /** title of the item */
+        /** *title of the item* */
         title?: string | undefined
         
-        /** google defined data attribute ID example: ss:/webfacts:net_worth */
+        /** *google defined data attribute ID* example: `ss:/webfacts:net_worth` */
         data_attrid?: string | undefined
         
-        /** link of the element */
+        /** *link of the element* */
         link?: LinkElement | undefined
         
-        /** additional items present in the element if there are none, equals null */
+        /** *additional items present in the element* if there are none, equals `null` */
         items?: KnowledgeGraphListElement[] | undefined
 
     [key: string]: any;
@@ -520,32 +520,32 @@ export interface ISerpApiKnowledgeGraphListItemElementItem  extends IBaseSerpApi
 export class SerpApiKnowledgeGraphListItemElementItem  extends BaseSerpApiKnowledgeGraphElementItem   implements ISerpApiKnowledgeGraphListItemElementItem {
 
     
-    /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+    /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP absolute position among all the elements in SERP */
+    /** *absolute rank in SERP* absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
 
     
-    /** title of the item */
+    /** *title of the item* */
 
     title?: string | undefined;
 
     
-    /** google defined data attribute ID example: ss:/webfacts:net_worth */
+    /** *google defined data attribute ID* example: `ss:/webfacts:net_worth` */
 
     data_attrid?: string | undefined;
 
     
-    /** link of the element */
+    /** *link of the element* */
 
     link?: LinkElement | undefined;
 
     
-    /** additional items present in the element if there are none, equals null */
+    /** *additional items present in the element* if there are none, equals `null` */
 
     items?: KnowledgeGraphListElement[] | undefined;
 
@@ -615,22 +615,22 @@ export class SerpApiKnowledgeGraphListItemElementItem  extends BaseSerpApiKnowle
  
 export interface ISerpApiKnowledgeGraphRowItemElementItem  extends IBaseSerpApiKnowledgeGraphElementItem    {
         
-        /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+        /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP absolute position among all the elements in SERP */
+        /** *absolute rank in SERP* absolute position among all the elements in SERP */
         rank_absolute?: number | undefined
         
-        /** title of the link */
+        /** *title of the link* */
         title?: string | undefined
         
-        /** google defined data attribute ID example: kc:/common/topic:social media presence */
+        /** *google defined data attribute ID* example: `kc:/common/topic:social media presence` */
         data_attrid?: string | undefined
         
-        /** reference text text snippet from the page that was used to generate the ai_overview_element */
+        /** *reference text* text snippet from the page that was used to generate the `ai_overview_element` */
         text?: string | undefined
         
-        /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
+        /** *sitelinks* the links shown below some of Google's search results if there are none, equals `null` */
         links?: LinkElement[] | undefined
 
     [key: string]: any;
@@ -640,32 +640,32 @@ export interface ISerpApiKnowledgeGraphRowItemElementItem  extends IBaseSerpApiK
 export class SerpApiKnowledgeGraphRowItemElementItem  extends BaseSerpApiKnowledgeGraphElementItem   implements ISerpApiKnowledgeGraphRowItemElementItem {
 
     
-    /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+    /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP absolute position among all the elements in SERP */
+    /** *absolute rank in SERP* absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
 
     
-    /** title of the link */
+    /** *title of the link* */
 
     title?: string | undefined;
 
     
-    /** google defined data attribute ID example: kc:/common/topic:social media presence */
+    /** *google defined data attribute ID* example: `kc:/common/topic:social media presence` */
 
     data_attrid?: string | undefined;
 
     
-    /** reference text text snippet from the page that was used to generate the ai_overview_element */
+    /** *reference text* text snippet from the page that was used to generate the `ai_overview_element` */
 
     text?: string | undefined;
 
     
-    /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
+    /** *sitelinks* the links shown below some of Google's search results if there are none, equals `null` */
 
     links?: LinkElement[] | undefined;
 
@@ -735,19 +735,19 @@ export class SerpApiKnowledgeGraphRowItemElementItem  extends BaseSerpApiKnowled
  
 export interface ISerpApiKnowledgeGraphExpandedItemElementItem  extends IBaseSerpApiKnowledgeGraphElementItem    {
         
-        /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+        /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP absolute position among all the elements in SERP */
+        /** *absolute rank in SERP* absolute position among all the elements in SERP */
         rank_absolute?: number | undefined
         
-        /** title of the result in SERP */
+        /** *title of the result in SERP* */
         title?: string | undefined
         
-        /** google defined data attribute ID example: kc:/local:place qa */
+        /** *google defined data attribute ID* example: `kc:/local:place qa` */
         data_attrid?: string | undefined
         
-        /** link of the element */
+        /** *link of the element* */
         expanded_element?: KnowledgeGraphExpandedElement[] | undefined
 
     [key: string]: any;
@@ -757,27 +757,27 @@ export interface ISerpApiKnowledgeGraphExpandedItemElementItem  extends IBaseSer
 export class SerpApiKnowledgeGraphExpandedItemElementItem  extends BaseSerpApiKnowledgeGraphElementItem   implements ISerpApiKnowledgeGraphExpandedItemElementItem {
 
     
-    /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+    /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP absolute position among all the elements in SERP */
+    /** *absolute rank in SERP* absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
 
     
-    /** title of the result in SERP */
+    /** *title of the result in SERP* */
 
     title?: string | undefined;
 
     
-    /** google defined data attribute ID example: kc:/local:place qa */
+    /** *google defined data attribute ID* example: `kc:/local:place qa` */
 
     data_attrid?: string | undefined;
 
     
-    /** link of the element */
+    /** *link of the element* */
 
     expanded_element?: KnowledgeGraphExpandedElement[] | undefined;
 
@@ -845,22 +845,22 @@ export class SerpApiKnowledgeGraphExpandedItemElementItem  extends BaseSerpApiKn
  
 export interface ISerpApiKnowledgeGraphPartItemElementItem  extends IBaseSerpApiKnowledgeGraphElementItem    {
         
-        /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+        /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP absolute position among all the elements in SERP */
+        /** *absolute rank in SERP* absolute position among all the elements in SERP */
         rank_absolute?: number | undefined
         
-        /** title of the place */
+        /** *title of the place* */
         title?: string | undefined
         
-        /** google defined data attribute ID example: kc:/local:place qa */
+        /** *google defined data attribute ID* example: `kc:/local:place qa` */
         data_attrid?: string | undefined
         
-        /** reference text text snippet from the page that was used to generate the ai_overview_element */
+        /** *reference text* text snippet from the page that was used to generate the `ai_overview_element` */
         text?: string | undefined
         
-        /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
+        /** *sitelinks* the links shown below some of Google's search results if there are none, equals `null` */
         links?: LinkElement[] | undefined
 
     [key: string]: any;
@@ -870,32 +870,32 @@ export interface ISerpApiKnowledgeGraphPartItemElementItem  extends IBaseSerpApi
 export class SerpApiKnowledgeGraphPartItemElementItem  extends BaseSerpApiKnowledgeGraphElementItem   implements ISerpApiKnowledgeGraphPartItemElementItem {
 
     
-    /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+    /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP absolute position among all the elements in SERP */
+    /** *absolute rank in SERP* absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
 
     
-    /** title of the place */
+    /** *title of the place* */
 
     title?: string | undefined;
 
     
-    /** google defined data attribute ID example: kc:/local:place qa */
+    /** *google defined data attribute ID* example: `kc:/local:place qa` */
 
     data_attrid?: string | undefined;
 
     
-    /** reference text text snippet from the page that was used to generate the ai_overview_element */
+    /** *reference text* text snippet from the page that was used to generate the `ai_overview_element` */
 
     text?: string | undefined;
 
     
-    /** sitelinks the links shown below some of Google’s search results if there are none, equals null */
+    /** *sitelinks* the links shown below some of Google's search results if there are none, equals `null` */
 
     links?: LinkElement[] | undefined;
 
@@ -965,19 +965,19 @@ export class SerpApiKnowledgeGraphPartItemElementItem  extends BaseSerpApiKnowle
  
 export interface ISerpApiKnowledgeGraphShoppingItemElementItem  extends IBaseSerpApiKnowledgeGraphElementItem    {
         
-        /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+        /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP absolute position among all the elements in SERP */
+        /** *absolute rank in SERP* absolute position among all the elements in SERP */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** *title of a given link element* */
         title?: string | undefined
         
-        /** google defined data attribute ID example: kc:/shopping/gpc:organic-offers */
+        /** *google defined data attribute ID* example: `kc:/shopping/gpc:organic-offers` */
         data_attrid?: string | undefined
         
-        /** keywords relevant to the initial search query if there are none, equals null */
+        /** *keywords relevant to the initial search query* if there are none, equals `null` */
         items?: KnowledgeGraphShoppingElement[] | undefined
 
     [key: string]: any;
@@ -987,27 +987,27 @@ export interface ISerpApiKnowledgeGraphShoppingItemElementItem  extends IBaseSer
 export class SerpApiKnowledgeGraphShoppingItemElementItem  extends BaseSerpApiKnowledgeGraphElementItem   implements ISerpApiKnowledgeGraphShoppingItemElementItem {
 
     
-    /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+    /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP absolute position among all the elements in SERP */
+    /** *absolute rank in SERP* absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
 
     
-    /** title of a given link element */
+    /** *title of a given link element* */
 
     title?: string | undefined;
 
     
-    /** google defined data attribute ID example: kc:/shopping/gpc:organic-offers */
+    /** *google defined data attribute ID* example: `kc:/shopping/gpc:organic-offers` */
 
     data_attrid?: string | undefined;
 
     
-    /** keywords relevant to the initial search query if there are none, equals null */
+    /** *keywords relevant to the initial search query* if there are none, equals `null` */
 
     items?: KnowledgeGraphShoppingElement[] | undefined;
 
@@ -1075,25 +1075,25 @@ export class SerpApiKnowledgeGraphShoppingItemElementItem  extends BaseSerpApiKn
  
 export interface ISerpApiKnowledgeGraphHotelsBookingItemElementItem  extends IBaseSerpApiKnowledgeGraphElementItem    {
         
-        /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+        /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP absolute position among all the elements in SERP */
+        /** *absolute rank in SERP* absolute position among all the elements in SERP */
         rank_absolute?: number | undefined
         
-        /** title of a given link element */
+        /** *title of a given link element* */
         title?: string | undefined
         
-        /** starting date of stay in the format “year-month-date” example: 2019-11-15 */
+        /** *starting date of stay* in the format “year-month-date” example: 2019-11-15 */
         date_from?: string | undefined
         
-        /** ending date of stay in the format “year-month-date” example: 2019-11-17 */
+        /** *ending date of stay* in the format “year-month-date” example: 2019-11-17 */
         date_to?: string | undefined
         
-        /** google defined data attribute ID example: kc:/local:hotel booking */
+        /** *google defined data attribute ID* example: `kc:/local:hotel booking` */
         data_attrid?: string | undefined
         
-        /** popular keywords relevant to the initial search query if there are none, equals null */
+        /** *popular keywords relevant to the initial search query* if there are none, equals `null` */
         items?: KnowledgeGraphHotelsBookingElement[] | undefined
 
     [key: string]: any;
@@ -1103,37 +1103,37 @@ export interface ISerpApiKnowledgeGraphHotelsBookingItemElementItem  extends IBa
 export class SerpApiKnowledgeGraphHotelsBookingItemElementItem  extends BaseSerpApiKnowledgeGraphElementItem   implements ISerpApiKnowledgeGraphHotelsBookingItemElementItem {
 
     
-    /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+    /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP absolute position among all the elements in SERP */
+    /** *absolute rank in SERP* absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
 
     
-    /** title of a given link element */
+    /** *title of a given link element* */
 
     title?: string | undefined;
 
     
-    /** starting date of stay in the format “year-month-date” example: 2019-11-15 */
+    /** *starting date of stay* in the format “year-month-date” example: 2019-11-15 */
 
     date_from?: string | undefined;
 
     
-    /** ending date of stay in the format “year-month-date” example: 2019-11-17 */
+    /** *ending date of stay* in the format “year-month-date” example: 2019-11-17 */
 
     date_to?: string | undefined;
 
     
-    /** google defined data attribute ID example: kc:/local:hotel booking */
+    /** *google defined data attribute ID* example: `kc:/local:hotel booking` */
 
     data_attrid?: string | undefined;
 
     
-    /** popular keywords relevant to the initial search query if there are none, equals null */
+    /** *popular keywords relevant to the initial search query* if there are none, equals `null` */
 
     items?: KnowledgeGraphHotelsBookingElement[] | undefined;
 
@@ -1205,13 +1205,13 @@ export class SerpApiKnowledgeGraphHotelsBookingItemElementItem  extends BaseSerp
  
 export interface ISerpApiKnowledgeGraphAiOverviewItemElementItem  extends IBaseSerpApiKnowledgeGraphElementItem    {
         
-        /** indicates whether the element is loaded asynchronously if true, the ai_overview element is loaded asynchronously; if false, the ai_overview element is loaded from cache; to obtain the content of ai_overview elements, use the load_async_ai_overview parameter in the POST request */
+        /** *indicates whether the element is loaded asynchronously* if `true`, the `ai_overview` element is loaded asynchronously; if `false`, the `ai_overview` element is loaded from cache; to obtain the content of `ai_overview` elements, use the `load_async_ai_overview` parameter in the POST request */
         asynchronous_ai_overview?: boolean | undefined
         
-        /** contains results featured in the ‘hotels_pack’ element of SERP */
+        /** *contains results featured in the 'hotels_pack' element of SERP* */
         items?: BaseSerpApiAiOverviewElementItem[] | undefined
         
-        /** additional references relevant to the item includes references to webpages that may have been used to generate the ai_overview */
+        /** *additional references relevant to the item* includes references to webpages that may have been used to generate the `ai_overview` */
         references?: AiModeAiOverviewReferenceInfo[] | undefined
 
     [key: string]: any;
@@ -1221,17 +1221,17 @@ export interface ISerpApiKnowledgeGraphAiOverviewItemElementItem  extends IBaseS
 export class SerpApiKnowledgeGraphAiOverviewItemElementItem  extends BaseSerpApiKnowledgeGraphElementItem   implements ISerpApiKnowledgeGraphAiOverviewItemElementItem {
 
     
-    /** indicates whether the element is loaded asynchronously if true, the ai_overview element is loaded asynchronously; if false, the ai_overview element is loaded from cache; to obtain the content of ai_overview elements, use the load_async_ai_overview parameter in the POST request */
+    /** *indicates whether the element is loaded asynchronously* if `true`, the `ai_overview` element is loaded asynchronously; if `false`, the `ai_overview` element is loaded from cache; to obtain the content of `ai_overview` elements, use the `load_async_ai_overview` parameter in the POST request */
 
     asynchronous_ai_overview?: boolean | undefined;
 
     
-    /** contains results featured in the ‘hotels_pack’ element of SERP */
+    /** *contains results featured in the 'hotels_pack' element of SERP* */
 
     items?: BaseSerpApiAiOverviewElementItem[] | undefined;
 
     
-    /** additional references relevant to the item includes references to webpages that may have been used to generate the ai_overview */
+    /** *additional references relevant to the item* includes references to webpages that may have been used to generate the `ai_overview` */
 
     references?: AiModeAiOverviewReferenceInfo[] | undefined;
 

@@ -3,10 +3,10 @@ import { AbsoluteItems, IAbsoluteItems } from "./AbsoluteItems";
 
 export interface IInterestsComparison   {
         
-        /** contains keyword popularity and related data */
+        /** *contains keyword popularity and related data* */
         items?: AbsoluteItems[] | undefined
         
-        /** keyword popularity rates across all locations values in this array represent percentages relative to the maximum value across all locations */
+        /** *keyword popularity rates across all locations* values in this array represent percentages relative to the maximum value across all locations */
         absolute_items?: AbsoluteItems[] | undefined
 
     [key: string]: any;
@@ -16,12 +16,12 @@ export interface IInterestsComparison   {
 export class InterestsComparison  implements IInterestsComparison {
 
     
-    /** contains keyword popularity and related data */
+    /** *contains keyword popularity and related data* */
 
     items?: AbsoluteItems[] | undefined;
 
     
-    /** keyword popularity rates across all locations values in this array represent percentages relative to the maximum value across all locations */
+    /** *keyword popularity rates across all locations* values in this array represent percentages relative to the maximum value across all locations */
 
     absolute_items?: AbsoluteItems[] | undefined;
 

@@ -4,6 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IDataforseoLabsAvailableFiltersTaskInfo  extends IBaseResponseTaskInfo    {
         
+        /** *array of results* contains the full list of available parameters that can be used for data filtration the parameters are grouped by the endpoint they can be used with */
         result?: DataforseoLabsAvailableFiltersResultInfo[] | undefined
 
     [key: string]: any;
@@ -11,6 +12,9 @@ export interface IDataforseoLabsAvailableFiltersTaskInfo  extends IBaseResponseT
     }
 
 export class DataforseoLabsAvailableFiltersTaskInfo  extends BaseResponseTaskInfo   implements IDataforseoLabsAvailableFiltersTaskInfo {
+
+    
+    /** *array of results* contains the full list of available parameters that can be used for data filtration the parameters are grouped by the endpoint they can be used with */
 
     result?: DataforseoLabsAvailableFiltersResultInfo[] | undefined;
 

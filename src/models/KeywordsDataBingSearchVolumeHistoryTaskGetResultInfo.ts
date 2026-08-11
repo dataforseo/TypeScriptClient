@@ -3,21 +3,19 @@ import { SearchVolumeHistorySearchInfo, ISearchVolumeHistorySearchInfo } from ".
 
 export interface IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo   {
         
-        /** keyword in a POST array */
+        /** *keyword in a POST array* */
         keyword?: string | undefined
         
-        /** location code in a POST array if there is no data, then the value is null */
+        /** *location code in a POST array* if there is no data, then the value is_`null`n */
         location_code?: number | undefined
         
-        /** language code in a POST array if there is no data, then the value is null */
+        /** *language code in a POST array* if there is no data, then the value is_`null`n */
         language_code?: string | undefined
         
         device?: string[] | undefined
         
-        /** time period indicates if returned data is aggregated to a certain time period default value monthly */
         period?: string | undefined
         
-        /** contains results distributed by device type if the device parameter is not specified, the data will be returned for all available device types */
         searches?: SearchVolumeHistorySearchInfo | undefined
 
     [key: string]: any;
@@ -27,29 +25,23 @@ export interface IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo   {
 export class KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo  implements IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo {
 
     
-    /** keyword in a POST array */
+    /** *keyword in a POST array* */
 
     keyword?: string | undefined;
 
     
-    /** location code in a POST array if there is no data, then the value is null */
+    /** *location code in a POST array* if there is no data, then the value is_`null`n */
 
     location_code?: number | undefined;
 
     
-    /** language code in a POST array if there is no data, then the value is null */
+    /** *language code in a POST array* if there is no data, then the value is_`null`n */
 
     language_code?: string | undefined;
 
     device?: string[] | undefined;
 
-    
-    /** time period indicates if returned data is aggregated to a certain time period default value monthly */
-
     period?: string | undefined;
-
-    
-    /** contains results distributed by device type if the device parameter is not specified, the data will be returned for all available device types */
 
     searches?: SearchVolumeHistorySearchInfo | undefined;
 

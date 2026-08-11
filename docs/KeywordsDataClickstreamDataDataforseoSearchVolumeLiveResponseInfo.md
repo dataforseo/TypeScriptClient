@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **KeywordsDataClickstreamDataDataforseoSearchVolumeLiveTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **KeywordsDataClickstreamDataDataforseoSearchVolumeLiveTaskInfo[]** | *array of tasks* |[optional]|

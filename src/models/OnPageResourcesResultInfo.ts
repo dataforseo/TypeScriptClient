@@ -4,23 +4,23 @@ import { BaseOnPageResourceItem, IBaseOnPageResourceItem } from "./BaseOnPageRes
 
 export interface IOnPageResourcesResultInfo   {
         
-        /** status of the crawling session possible values: in_progress, finished */
+        /** *status of the crawling session* possible values: `in_progress`, `finished` */
         crawl_progress?: string | undefined
         
-        /** details of the crawling session */
+        /** *details of the crawling session* */
         crawl_status?: CrawlStatusInfo | undefined
         
         search_after_token?: string | undefined
         
         current_offset?: number | undefined
         
-        /** total number of relevant items crawled */
+        /** *total number of relevant items crawled* */
         total_items_count?: number | undefined
         
-        /** number of items in the results array */
+        /** *number of items in the results array* */
         items_count?: number | undefined
         
-        /** items array */
+        /** *items array* */
         items?: BaseOnPageResourceItem[] | undefined
 
     [key: string]: any;
@@ -30,12 +30,12 @@ export interface IOnPageResourcesResultInfo   {
 export class OnPageResourcesResultInfo  implements IOnPageResourcesResultInfo {
 
     
-    /** status of the crawling session possible values: in_progress, finished */
+    /** *status of the crawling session* possible values: `in_progress`, `finished` */
 
     crawl_progress?: string | undefined;
 
     
-    /** details of the crawling session */
+    /** *details of the crawling session* */
 
     crawl_status?: CrawlStatusInfo | undefined;
 
@@ -44,17 +44,17 @@ export class OnPageResourcesResultInfo  implements IOnPageResourcesResultInfo {
     current_offset?: number | undefined;
 
     
-    /** total number of relevant items crawled */
+    /** *total number of relevant items crawled* */
 
     total_items_count?: number | undefined;
 
     
-    /** number of items in the results array */
+    /** *number of items in the results array* */
 
     items_count?: number | undefined;
 
     
-    /** items array */
+    /** *items array* */
 
     items?: BaseOnPageResourceItem[] | undefined;
 

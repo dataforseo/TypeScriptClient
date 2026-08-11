@@ -7,7 +7,7 @@ export interface IFaqBox   {
         /** type of element */
         type?: string | undefined
         
-        /** contains arrays of specific images */
+        /** *contains arrays of specific images* */
         items?: FaqBoxElement[] | undefined
 
     [key: string]: any;
@@ -23,7 +23,7 @@ export class FaqBox  implements IFaqBox {
     type?: string | undefined;
 
     
-    /** contains arrays of specific images */
+    /** *contains arrays of specific images* */
 
     items?: FaqBoxElement[] | undefined;
 

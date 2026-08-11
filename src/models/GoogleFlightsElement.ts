@@ -3,10 +3,10 @@ export interface IGoogleFlightsElement   {
         /** type of element */
         type?: string | undefined
         
-        /** link description */
+        /** *link description* */
         description?: string | undefined
         
-        /** source URL */
+        /** *source URL* */
         url?: string | undefined
 
     [key: string]: any;
@@ -21,12 +21,12 @@ export class GoogleFlightsElement  implements IGoogleFlightsElement {
     type?: string | undefined;
 
     
-    /** link description */
+    /** *link description* */
 
     description?: string | undefined;
 
     
-    /** source URL */
+    /** *source URL* */
 
     url?: string | undefined;
 

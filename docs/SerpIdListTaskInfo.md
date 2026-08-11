@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpIdListResultInfo[]** | array of results |[optional]|
+**result** | **SerpIdListResultInfo[]** | *array of results* |[optional]|

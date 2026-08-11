@@ -3,16 +3,16 @@ export interface ITwitterElement   {
         /** type of element */
         type?: string | undefined
         
-        /** tweet message */
+        /** *tweet message* */
         tweet?: string | undefined
         
-        /** the date when the page source of the element was published */
+        /** *the date when the page source of the element was published* */
         date?: string | undefined
         
-        /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
+        /** *date and time when the result was published* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
         timestamp?: string | undefined
         
-        /** source URL */
+        /** *source URL* */
         url?: string | undefined
 
     [key: string]: any;
@@ -27,22 +27,22 @@ export class TwitterElement  implements ITwitterElement {
     type?: string | undefined;
 
     
-    /** tweet message */
+    /** *tweet message* */
 
     tweet?: string | undefined;
 
     
-    /** the date when the page source of the element was published */
+    /** *the date when the page source of the element was published* */
 
     date?: string | undefined;
 
     
-    /** date and time when the result was published in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2019-11-15 12:57:46 +00:00 */
+    /** *date and time when the result was published* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
 
     timestamp?: string | undefined;
 
     
-    /** source URL */
+    /** *source URL* */
 
     url?: string | undefined;
 

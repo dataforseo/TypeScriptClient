@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **DataforseoLabsGooglePageIntersectionLiveTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **DataforseoLabsGooglePageIntersectionLiveTaskInfo[]** | *array of tasks* |[optional]|

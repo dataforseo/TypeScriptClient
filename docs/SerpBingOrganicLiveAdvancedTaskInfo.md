@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpBingOrganicLiveAdvancedResultInfo[]** | array of results |[optional]|
+**result** | **SerpBingOrganicLiveAdvancedResultInfo[]** | *array of results* |[optional]|

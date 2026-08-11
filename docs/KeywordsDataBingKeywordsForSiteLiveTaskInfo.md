@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **KeywordsDataBingKeywordsForSiteLiveResultInfo[]** | array of results |[optional]|
+**result** | **KeywordsDataBingKeywordsForSiteLiveResultInfo[]** | *array of results* |[optional]|
