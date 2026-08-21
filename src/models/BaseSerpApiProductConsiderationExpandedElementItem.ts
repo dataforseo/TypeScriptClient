@@ -104,7 +104,7 @@ export interface ISerpApiProductConsiderationsExpandedElementItem  extends IBase
         
         related_searches?: string[] | undefined
         
-        /** @deprecated *contains information from the 'About this result' panel* **Note:** element no longer appears in SERP and has been deprecated in SERP API */
+        /** @deprecated *contains information from the 'About this result' panel* **Note:** this object is deprecated and always returns null */
         about_this_result?: AboutThisResultElement | undefined
 
     [key: string]: any;
@@ -150,7 +150,7 @@ export class SerpApiProductConsiderationsExpandedElementItem  extends BaseSerpAp
 
     related_searches?: string[] | undefined;
     
-    /** @deprecated *contains information from the 'About this result' panel* **Note:** element no longer appears in SERP and has been deprecated in SERP API */
+    /** @deprecated *contains information from the 'About this result' panel* **Note:** this object is deprecated and always returns null */
 
     about_this_result?: AboutThisResultElement | undefined;
 

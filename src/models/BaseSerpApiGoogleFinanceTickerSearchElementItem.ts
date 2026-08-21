@@ -3,31 +3,31 @@ export interface IBaseSerpApiGoogleFinanceTickerSearchElementItem   {
         /** type of element */
         type?: string | undefined
         
-        /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+        /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP absolute position among all the elements in SERP */
+        /** *absolute rank in SERP* absolute position among all the elements in SERP */
         rank_absolute?: number | undefined
         
-        /** identifier of the element full identifier of the element that consists from ticker and market_identifier example: PX1:INDEXDB */
+        /** *identifier of the element* full identifier of the element that consists from `ticker` and `market_identifier` example: `PX1:INDEXDB` */
         identifier?: string | undefined
         
-        /** name of the market index as displayed on Google Finance example: CAC 40 */
+        /** *name of the market index as displayed on Google Finance* example: `CAC 40` */
         displayed_name?: string | undefined
         
-        /** URL to the page of the market index on Google Finance */
+        /** *URL to the page of the market index on Google Finance* */
         url?: string | undefined
         
-        /** location of the market index example: Europe/Paris */
+        /** *location of the market index* example: `Europe/Paris` */
         location?: string | undefined
         
-        /** growth trend of the market index possible values: up, down, stable */
+        /** *growth trend of the market index* possible values: `up`, `down`, `stable` */
         trend?: string | undefined
         
-        /** date and time of the value readout in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2025-02-10 09:40:00 +00:00 */
+        /** *date and time of the value readout* in the UTC format: 'yyyy-mm-dd hh-mm-ss +00:00' example: `2025-02-10 09:40:00 +00:00` */
         timestamp?: string | undefined
         
-        /** percentage of change in value of the market index */
+        /** *percentage of change in value of the market index* */
         percentage_delta?: number | undefined
 
     [key: string]: any;
@@ -42,47 +42,47 @@ export class BaseSerpApiGoogleFinanceTickerSearchElementItem  implements IBaseSe
     type?: string | undefined;
 
     
-    /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+    /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP absolute position among all the elements in SERP */
+    /** *absolute rank in SERP* absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
 
     
-    /** identifier of the element full identifier of the element that consists from ticker and market_identifier example: PX1:INDEXDB */
+    /** *identifier of the element* full identifier of the element that consists from `ticker` and `market_identifier` example: `PX1:INDEXDB` */
 
     identifier?: string | undefined;
 
     
-    /** name of the market index as displayed on Google Finance example: CAC 40 */
+    /** *name of the market index as displayed on Google Finance* example: `CAC 40` */
 
     displayed_name?: string | undefined;
 
     
-    /** URL to the page of the market index on Google Finance */
+    /** *URL to the page of the market index on Google Finance* */
 
     url?: string | undefined;
 
     
-    /** location of the market index example: Europe/Paris */
+    /** *location of the market index* example: `Europe/Paris` */
 
     location?: string | undefined;
 
     
-    /** growth trend of the market index possible values: up, down, stable */
+    /** *growth trend of the market index* possible values: `up`, `down`, `stable` */
 
     trend?: string | undefined;
 
     
-    /** date and time of the value readout in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2025-02-10 09:40:00 +00:00 */
+    /** *date and time of the value readout* in the UTC format: 'yyyy-mm-dd hh-mm-ss +00:00' example: `2025-02-10 09:40:00 +00:00` */
 
     timestamp?: string | undefined;
 
     
-    /** percentage of change in value of the market index */
+    /** *percentage of change in value of the market index* */
 
     percentage_delta?: number | undefined;
 
@@ -172,22 +172,22 @@ export class BaseSerpApiGoogleFinanceTickerSearchElementItem  implements IBaseSe
  
 export interface ISerpApiGoogleFinanceAssetPairElementItem  extends IBaseSerpApiGoogleFinanceTickerSearchElementItem    {
         
-        /** identifier of the base asset in a pair example: EUR */
+        /** *identifier of the base asset in a pair* example: `EUR` */
         base_symbol?: string | undefined
         
-        /** identifier of the quote asset in a pair example: USD */
+        /** *identifier of the quote asset in a pair* example: `USD` */
         quote_symbol?: string | undefined
         
-        /** full name of the base asset in a pair example: Euro */
+        /** *full name of the base asset in a pair* example: `Euro` */
         base_display_name?: string | undefined
         
-        /** full name of the base asset in a pair example: Euro */
+        /** *full name of the base asset in a pair* example: `Euro` */
         quote_display_name?: string | undefined
         
-        /** value of the base asset compared to the quote asset */
+        /** *value of the base asset compared to the quote asset* */
         price?: number | undefined
         
-        /** change in price change in price at a given timestamp */
+        /** *change in price* change in `price` at a given `timestamp` */
         price_delta?: number | undefined
 
     [key: string]: any;
@@ -197,32 +197,32 @@ export interface ISerpApiGoogleFinanceAssetPairElementItem  extends IBaseSerpApi
 export class SerpApiGoogleFinanceAssetPairElementItem  extends BaseSerpApiGoogleFinanceTickerSearchElementItem   implements ISerpApiGoogleFinanceAssetPairElementItem {
 
     
-    /** identifier of the base asset in a pair example: EUR */
+    /** *identifier of the base asset in a pair* example: `EUR` */
 
     base_symbol?: string | undefined;
 
     
-    /** identifier of the quote asset in a pair example: USD */
+    /** *identifier of the quote asset in a pair* example: `USD` */
 
     quote_symbol?: string | undefined;
 
     
-    /** full name of the base asset in a pair example: Euro */
+    /** *full name of the base asset in a pair* example: `Euro` */
 
     base_display_name?: string | undefined;
 
     
-    /** full name of the base asset in a pair example: Euro */
+    /** *full name of the base asset in a pair* example: `Euro` */
 
     quote_display_name?: string | undefined;
 
     
-    /** value of the base asset compared to the quote asset */
+    /** *value of the base asset compared to the quote asset* */
 
     price?: number | undefined;
 
     
-    /** change in price change in price at a given timestamp */
+    /** *change in price* change in `price` at a given `timestamp` */
 
     price_delta?: number | undefined;
 
@@ -279,16 +279,16 @@ export class SerpApiGoogleFinanceAssetPairElementItem  extends BaseSerpApiGoogle
  
 export interface ISerpApiGoogleFinanceMarketInstrumentElementItem  extends IBaseSerpApiGoogleFinanceTickerSearchElementItem    {
         
-        /** ticker of the market index example: DAX */
+        /** *ticker of the market index* example: `DAX` */
         ticker?: string | undefined
         
-        /** value of the base asset compared to the quote asset */
+        /** *value of the base asset compared to the quote asset* */
         price?: number | undefined
         
-        /** change in price change in price at a given timestamp */
+        /** *change in price* change in `price` at a given `timestamp` */
         price_delta?: number | undefined
         
-        /** price currency example: USD */
+        /** *price currency* example: `USD` */
         price_currency?: string | undefined
 
     [key: string]: any;
@@ -298,22 +298,22 @@ export interface ISerpApiGoogleFinanceMarketInstrumentElementItem  extends IBase
 export class SerpApiGoogleFinanceMarketInstrumentElementItem  extends BaseSerpApiGoogleFinanceTickerSearchElementItem   implements ISerpApiGoogleFinanceMarketInstrumentElementItem {
 
     
-    /** ticker of the market index example: DAX */
+    /** *ticker of the market index* example: `DAX` */
 
     ticker?: string | undefined;
 
     
-    /** value of the base asset compared to the quote asset */
+    /** *value of the base asset compared to the quote asset* */
 
     price?: number | undefined;
 
     
-    /** change in price change in price at a given timestamp */
+    /** *change in price* change in `price` at a given `timestamp` */
 
     price_delta?: number | undefined;
 
     
-    /** price currency example: USD */
+    /** *price currency* example: `USD` */
 
     price_currency?: string | undefined;
 
@@ -366,16 +366,16 @@ export class SerpApiGoogleFinanceMarketInstrumentElementItem  extends BaseSerpAp
  
 export interface ISerpApiGoogleFinanceMarketIndexElementItem  extends IBaseSerpApiGoogleFinanceTickerSearchElementItem    {
         
-        /** ticker of the market index example: DAX */
+        /** *ticker of the market index* example: `DAX` */
         ticker?: string | undefined
         
-        /** market identifier example: INDEXDB */
+        /** *market identifier* example: `INDEXDB` */
         market_identifier?: string | undefined
         
-        /** value of the market index numerical value of the index at a given timestamp */
+        /** *value of the market index* numerical value of the index at a given `timestamp` */
         index_value?: number | undefined
         
-        /** change in value of the market index change in the index_value at a given timestamp */
+        /** *change in value of the market index* change in the `index_value` at a given `timestamp` */
         index_value_delta?: number | undefined
 
     [key: string]: any;
@@ -385,22 +385,22 @@ export interface ISerpApiGoogleFinanceMarketIndexElementItem  extends IBaseSerpA
 export class SerpApiGoogleFinanceMarketIndexElementItem  extends BaseSerpApiGoogleFinanceTickerSearchElementItem   implements ISerpApiGoogleFinanceMarketIndexElementItem {
 
     
-    /** ticker of the market index example: DAX */
+    /** *ticker of the market index* example: `DAX` */
 
     ticker?: string | undefined;
 
     
-    /** market identifier example: INDEXDB */
+    /** *market identifier* example: `INDEXDB` */
 
     market_identifier?: string | undefined;
 
     
-    /** value of the market index numerical value of the index at a given timestamp */
+    /** *value of the market index* numerical value of the index at a given `timestamp` */
 
     index_value?: number | undefined;
 
     
-    /** change in value of the market index change in the index_value at a given timestamp */
+    /** *change in value of the market index* change in the `index_value` at a given `timestamp` */
 
     index_value_delta?: number | undefined;
 

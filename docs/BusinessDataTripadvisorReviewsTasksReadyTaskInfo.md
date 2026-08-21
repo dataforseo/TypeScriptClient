@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **BusinessDataTripadvisorReviewsTasksReadyResultInfo[]** | array of results |[optional]|
+**result** | **BusinessDataTripadvisorReviewsTasksReadyResultInfo[]** | *array of results* |[optional]|

@@ -4,6 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IBusinessDataBusinessListingsAvailableFiltersTaskInfo  extends IBaseResponseTaskInfo    {
         
+        /** *array of results* contains the full list of available parameters that can be used for data filtration the parameters are grouped by the endpoint they can be used with */
         result?: BusinessDataBusinessListingsAvailableFiltersResultInfo[] | undefined
 
     [key: string]: any;
@@ -11,6 +12,9 @@ export interface IBusinessDataBusinessListingsAvailableFiltersTaskInfo  extends 
     }
 
 export class BusinessDataBusinessListingsAvailableFiltersTaskInfo  extends BaseResponseTaskInfo   implements IBusinessDataBusinessListingsAvailableFiltersTaskInfo {
+
+    
+    /** *array of results* contains the full list of available parameters that can be used for data filtration the parameters are grouped by the endpoint they can be used with */
 
     result?: BusinessDataBusinessListingsAvailableFiltersResultInfo[] | undefined;
 

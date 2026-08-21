@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **BusinessDataTrustpilotReviewsTasksReadyResultInfo[]** | array of results |[optional]|
+**result** | **BusinessDataTrustpilotReviewsTasksReadyResultInfo[]** | *array of results* |[optional]|

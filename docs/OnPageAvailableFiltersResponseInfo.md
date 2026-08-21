@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **OnPageAvailableFiltersTaskInfo[]** |  |[optional]|
+**tasks** | **OnPageAvailableFiltersTaskInfo[]** | *array of tasks* |[optional]|

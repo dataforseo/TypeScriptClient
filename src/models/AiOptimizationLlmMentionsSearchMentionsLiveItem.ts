@@ -27,7 +27,7 @@ export interface IAiOptimizationLlmMentionsSearchMentionsLiveItem   {
         /** *array of sources* the sources the model cited or relied on in its final answer learn more about the sources and how to retrieve LLM citation data at our [Help Center](https://dataforseo.com/help-center/how-to-get-llm-citation-data-with-llm-mentions-api) */
         sources?: Sources[] | undefined
         
-        /** *array of search results* all web search outputs the model retrieved when looking up information, including duplicates and unused entries */
+        /** *array of search results* all web search outputs the model retrieved when looking up information, including duplicates and unused entries **Note:** available only for `chat_gpt` */
         search_results?: SearchResults[] | undefined
         
         /** *current AI search volume rate of a keyword* learn more about this metric [here](https://dataforseo.com/help-center/how-the-ai-search-volume-metric-works-in-llm-mentions) */
@@ -42,10 +42,10 @@ export interface IAiOptimizationLlmMentionsSearchMentionsLiveItem   {
         /** *date and time when the response data was last updated* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2025-10-21 06:25:30 +00:00` */
         last_response_at?: string | undefined
         
-        /** *array of brand entities* contains information on brands mentioned in the response */
+        /** *array of brand entities* contains information on brands mentioned in the response **Note:** available only for `chat_gpt` */
         brand_entities?: BrandEntities[] | undefined
         
-        /** *array of fan-out queries* contains related search queries derived from the main query to provide a more comprehensive response */
+        /** *array of fan-out queries* contains related search queries derived from the main query to provide a more comprehensive response **Note:** available only for `chat_gpt` */
         fan_out_queries?: string[] | undefined
         
         /** *indicates whether the response was generated using web search results* if `true`, the model retrieved live web search results to produce the response if `false`, the response was generated from the model's internal knowledge */
@@ -93,7 +93,7 @@ export class AiOptimizationLlmMentionsSearchMentionsLiveItem  implements IAiOpti
     sources?: Sources[] | undefined;
 
     
-    /** *array of search results* all web search outputs the model retrieved when looking up information, including duplicates and unused entries */
+    /** *array of search results* all web search outputs the model retrieved when looking up information, including duplicates and unused entries **Note:** available only for `chat_gpt` */
 
     search_results?: SearchResults[] | undefined;
 
@@ -118,12 +118,12 @@ export class AiOptimizationLlmMentionsSearchMentionsLiveItem  implements IAiOpti
     last_response_at?: string | undefined;
 
     
-    /** *array of brand entities* contains information on brands mentioned in the response */
+    /** *array of brand entities* contains information on brands mentioned in the response **Note:** available only for `chat_gpt` */
 
     brand_entities?: BrandEntities[] | undefined;
 
     
-    /** *array of fan-out queries* contains related search queries derived from the main query to provide a more comprehensive response */
+    /** *array of fan-out queries* contains related search queries derived from the main query to provide a more comprehensive response **Note:** available only for `chat_gpt` */
 
     fan_out_queries?: string[] | undefined;
 

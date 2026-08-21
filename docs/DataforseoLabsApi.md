@@ -80,9 +80,7 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new DataforseoLabsIdListRequestInfo();
-   task.limit = 100;
-   task.offset = 0;
-   task.sort = "desc";
+   task.limit = 10;
    task.include_metadata = true;
  let response = await api.dataforseoLabsIdList([task]);
 ```
@@ -198,7 +196,6 @@ This endpoint does not need any parameter.
 
  let task = new DataforseoLabsErrorsRequestInfo();
    task.limit = 10;
-   task.offset = 0;
  let response = await api.dataforseoLabsErrors([task]);
 ```
 
@@ -2694,8 +2691,8 @@ This endpoint does not need any parameter.
 
  let task = new DataforseoLabsGoogleAppIntersectionLiveRequestInfo();
    task.app_ids = {
-       1: "org.telegram.messenger",
-       2: "com.zhiliaoapp.musically",
+       1: "686449807",
+       2: "382617920",
    };
    task.language_name = "English";
    task.location_code = 2840;

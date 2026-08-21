@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpGoogleFinanceMarketsTaskGetAdvancedResultInfo[]** | array of results |[optional]|
+**result** | **SerpGoogleFinanceMarketsTaskGetAdvancedResultInfo[]** | *array of results* |[optional]|

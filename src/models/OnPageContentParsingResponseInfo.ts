@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface IOnPageContentParsingResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: OnPageContentParsingTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IOnPageContentParsingResponseInfo  extends IBaseResponseInfo   
 export class OnPageContentParsingResponseInfo  extends BaseResponseInfo   implements IOnPageContentParsingResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: OnPageContentParsingTaskInfo[] | undefined;
 

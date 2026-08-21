@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface ISerpGoogleLocalFinderTaskGetAdvancedResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: SerpGoogleLocalFinderTaskGetAdvancedTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface ISerpGoogleLocalFinderTaskGetAdvancedResponseInfo  extends IBas
 export class SerpGoogleLocalFinderTaskGetAdvancedResponseInfo  extends BaseResponseInfo   implements ISerpGoogleLocalFinderTaskGetAdvancedResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: SerpGoogleLocalFinderTaskGetAdvancedTaskInfo[] | undefined;
 

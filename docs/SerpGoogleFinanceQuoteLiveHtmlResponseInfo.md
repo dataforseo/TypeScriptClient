@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpGoogleFinanceQuoteLiveHtmlTaskInfo[]** |  |[optional]|
+**tasks** | **SerpGoogleFinanceQuoteLiveHtmlTaskInfo[]** | *array of tasks* |[optional]|

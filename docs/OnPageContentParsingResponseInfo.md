@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **OnPageContentParsingTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **OnPageContentParsingTaskInfo[]** | *array of tasks* |[optional]|

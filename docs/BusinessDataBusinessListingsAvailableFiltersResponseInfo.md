@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **BusinessDataBusinessListingsAvailableFiltersTaskInfo[]** |  |[optional]|
+**tasks** | **BusinessDataBusinessListingsAvailableFiltersTaskInfo[]** | *array of tasks* |[optional]|

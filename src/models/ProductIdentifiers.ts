@@ -6,7 +6,7 @@ export interface IProductIdentifiers   {
         /** *unique identifier of the SERP data element* example: `17363035694596624076` */
         data_docid?: string | undefined
         
-        /** *global product identifier on Google Shopping* example: 4702526954592161872 learn more about the parameter in [this help center guide](https://dataforseo.com/help-center/whats-a-gid-in-google-shopping-api) */
+        /** *global product identifier on Google Shopping* example: `4702526954592161872` learn more about the parameter in [this help center guide](https://dataforseo.com/help-center/whats-a-gid-in-google-shopping-api) */
         gid?: string | undefined
 
     [key: string]: any;
@@ -26,7 +26,7 @@ export class ProductIdentifiers  implements IProductIdentifiers {
     data_docid?: string | undefined;
 
     
-    /** *global product identifier on Google Shopping* example: 4702526954592161872 learn more about the parameter in [this help center guide](https://dataforseo.com/help-center/whats-a-gid-in-google-shopping-api) */
+    /** *global product identifier on Google Shopping* example: `4702526954592161872` learn more about the parameter in [this help center guide](https://dataforseo.com/help-center/whats-a-gid-in-google-shopping-api) */
 
     gid?: string | undefined;
 

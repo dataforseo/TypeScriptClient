@@ -14,12 +14,15 @@ export interface IBaseSerpApiGoogleSearchByImagesElementItem   {
         /** type of element */
         type?: string | undefined
         
+        /** *group rank in SERP*             position within a group of elements with identical `type` values             positions of elements with different `type` values are omitted from `rank_group` */
         rank_group?: number | undefined
         
+        /** *absolute rank in SERP*             absolute position among all the elements in SERP */
         rank_absolute?: number | undefined
         
         page?: number | undefined
         
+        /** *the alignment of the element in SERP*             can take the following values:             `left`, `right` */
         position?: string | undefined
         
         /** *the [XPath](https://en.wikipedia.org/wiki/XPath) of the element* */
@@ -31,6 +34,7 @@ export interface IBaseSerpApiGoogleSearchByImagesElementItem   {
         /** *search URL with refinement parameters* */
         url?: string | undefined
         
+        /** *rectangle parameters*             contains cartesian coordinates and pixel dimensions of the result's snippet in SERP             equals `null` if `calculate_rectangles` in the POST request is not set to `true` */
         rectangle?: AiModeRectangleInfo | undefined
 
     [key: string]: any;
@@ -44,11 +48,20 @@ export class BaseSerpApiGoogleSearchByImagesElementItem  implements IBaseSerpApi
 
     type?: string | undefined;
 
+    
+    /** *group rank in SERP*             position within a group of elements with identical `type` values             positions of elements with different `type` values are omitted from `rank_group` */
+
     rank_group?: number | undefined;
+
+    
+    /** *absolute rank in SERP*             absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
 
     page?: number | undefined;
+
+    
+    /** *the alignment of the element in SERP*             can take the following values:             `left`, `right` */
 
     position?: string | undefined;
 
@@ -66,6 +79,9 @@ export class BaseSerpApiGoogleSearchByImagesElementItem  implements IBaseSerpApi
     /** *search URL with refinement parameters* */
 
     url?: string | undefined;
+
+    
+    /** *rectangle parameters*             contains cartesian coordinates and pixel dimensions of the result's snippet in SERP             equals `null` if `calculate_rectangles` in the POST request is not set to `true` */
 
     rectangle?: AiModeRectangleInfo | undefined;
 
@@ -150,55 +166,75 @@ export interface ISerpApiGoogleSearchByImagesOrganicElementItem  extends IBaseSe
         /** *domain in SERP* */
         domain?: string | undefined
         
+        /** *cached version of the page* */
         cache_url?: string | undefined
         
+        /** *URL to a similar search*             URL to a new search for the same keyword(s) [on related sites](https://support.google.com/websearch/answer/2466433?hl=en#:~:text=Search%20for%20related%20sites) */
         related_search_url?: string | undefined
         
+        /** *breadcrumb in SERP* */
         breadcrumb?: string | undefined
         
-        /** name of the website in SERP */
+        /** *name of the website in SERP* */
         website_name?: string | undefined
         
+        /** *indicates whether the element contains an `image`* */
         is_image?: boolean | undefined
         
+        /** *indicates whether the element contains a `video`* */
         is_video?: boolean | undefined
         
+        /** *indicates whether the element is a `featured_snippet`* */
         is_featured_snippet?: boolean | undefined
         
+        /** *indicates whether the element is marked as malicious* */
         is_malicious?: boolean | undefined
         
+        /** *indicates whether the element is marked as Google web story* */
         is_web_story?: boolean | undefined
         
         checks?: string[] | undefined
         
+        /** *description of the results element in SERP* */
         description?: string | undefined
         
+        /** *includes additional information appended before the result description in SERP* */
         pre_snippet?: string | undefined
         
+        /** *includes additional information appended after the result description in SERP* */
         extended_snippet?: string | undefined
         
+        /** *images of the element* */
         images?: AiModeImagesElementInfo[] | undefined
         
+        /** *Accelerated Mobile Pages*             indicates whether an item has the Accelerated Mobile Page (AMP) version */
         amp_version?: boolean | undefined
         
+        /** *the item's rating*             the popularity rate based on reviews and displayed in SERP */
         rating?: RatingInfo | undefined
         
+        /** *pricing details*             contains the pricing details of the product or service featured in the result */
         price?: PriceInfo | undefined
         
+        /** *words highlighted in bold within the results `description`* */
         highlighted?: string[] | undefined
         
+        /** *sitelinks*             the links shown below some of Google's search results             if there are none, equals `null` */
         links?: LinkElement[] | undefined
         
-        /** @deprecated  */
+        /** @deprecated *frequently asked questions*             questions and answers extension shown below some of Google's search results             if there are none, equals `null` */
         faq?: FaqBox | undefined
         
+        /** *extension of the organic element*             extension of the organic result containing related search queries             **Note:** extension appears in SERP upon clicking on the result and then bouncing back to search results */
         extended_people_also_search?: string[] | undefined
         
-        /** @deprecated  */
+        /** @deprecated *contains information from the 'About this result' panel*             ['About this result' panel](https://blog.google/products/search/learn-more-and-get-more-from-search/) provides additional context about why Google returned this result for the given query;             this feature appears after clicking on the three dots next to most results */
         about_this_result?: AboutThisResultElement | undefined
         
+        /** *related result from the same domain*             related result from the same domain appears as a part of the main result snippet;             you can derive the `related_result` snippets as `'type': 'organic'` results by setting the `group_organic_results` parameter to `false` in the POST request */
         related_result?: RelatedResult[] | undefined
         
+        /** *date and time when the result was published*             in the UTC format: 'yyyy-mm-dd hh-mm-ss +00:00'             example:             `2019-11-15 12:57:46 +00:00` */
         timestamp?: string | undefined
 
     [key: string]: any;
@@ -212,58 +248,118 @@ export class SerpApiGoogleSearchByImagesOrganicElementItem  extends BaseSerpApiG
 
     domain?: string | undefined;
 
+    
+    /** *cached version of the page* */
+
     cache_url?: string | undefined;
 
+    
+    /** *URL to a similar search*             URL to a new search for the same keyword(s) [on related sites](https://support.google.com/websearch/answer/2466433?hl=en#:~:text=Search%20for%20related%20sites) */
+
     related_search_url?: string | undefined;
+
+    
+    /** *breadcrumb in SERP* */
 
     breadcrumb?: string | undefined;
 
     
-    /** name of the website in SERP */
+    /** *name of the website in SERP* */
 
     website_name?: string | undefined;
 
+    
+    /** *indicates whether the element contains an `image`* */
+
     is_image?: boolean | undefined;
+
+    
+    /** *indicates whether the element contains a `video`* */
 
     is_video?: boolean | undefined;
 
+    
+    /** *indicates whether the element is a `featured_snippet`* */
+
     is_featured_snippet?: boolean | undefined;
 
+    
+    /** *indicates whether the element is marked as malicious* */
+
     is_malicious?: boolean | undefined;
+
+    
+    /** *indicates whether the element is marked as Google web story* */
 
     is_web_story?: boolean | undefined;
 
     checks?: string[] | undefined;
 
+    
+    /** *description of the results element in SERP* */
+
     description?: string | undefined;
+
+    
+    /** *includes additional information appended before the result description in SERP* */
 
     pre_snippet?: string | undefined;
 
+    
+    /** *includes additional information appended after the result description in SERP* */
+
     extended_snippet?: string | undefined;
+
+    
+    /** *images of the element* */
 
     images?: AiModeImagesElementInfo[] | undefined;
 
+    
+    /** *Accelerated Mobile Pages*             indicates whether an item has the Accelerated Mobile Page (AMP) version */
+
     amp_version?: boolean | undefined;
+
+    
+    /** *the item's rating*             the popularity rate based on reviews and displayed in SERP */
 
     rating?: RatingInfo | undefined;
 
+    
+    /** *pricing details*             contains the pricing details of the product or service featured in the result */
+
     price?: PriceInfo | undefined;
+
+    
+    /** *words highlighted in bold within the results `description`* */
 
     highlighted?: string[] | undefined;
 
+    
+    /** *sitelinks*             the links shown below some of Google's search results             if there are none, equals `null` */
+
     links?: LinkElement[] | undefined;
     
-    /** @deprecated  */
+    /** @deprecated *frequently asked questions*             questions and answers extension shown below some of Google's search results             if there are none, equals `null` */
 
     faq?: FaqBox | undefined;
 
+    
+    /** *extension of the organic element*             extension of the organic result containing related search queries             **Note:** extension appears in SERP upon clicking on the result and then bouncing back to search results */
+
     extended_people_also_search?: string[] | undefined;
     
-    /** @deprecated  */
+    /** @deprecated *contains information from the 'About this result' panel*             ['About this result' panel](https://blog.google/products/search/learn-more-and-get-more-from-search/) provides additional context about why Google returned this result for the given query;             this feature appears after clicking on the three dots next to most results */
 
     about_this_result?: AboutThisResultElement | undefined;
 
+    
+    /** *related result from the same domain*             related result from the same domain appears as a part of the main result snippet;             you can derive the `related_result` snippets as `'type': 'organic'` results by setting the `group_organic_results` parameter to `false` in the POST request */
+
     related_result?: RelatedResult[] | undefined;
+
+    
+    /** *date and time when the result was published*             in the UTC format: 'yyyy-mm-dd hh-mm-ss +00:00'             example:             `2019-11-15 12:57:46 +00:00` */
 
     timestamp?: string | undefined;
 
@@ -400,7 +496,7 @@ export interface ISerpApiGoogleSearchByImagesImagesElementItem  extends IBaseSer
         /** *elements of search results found in SERP* */
         items?: AiModeImagesElementInfo[] | undefined
         
-        /** @deprecated  */
+        /** @deprecated *contains keywords and images related to the specified search term*             if there are none, equals `null` */
         related_image_searches?: RelatedImageSearchesElement[] | undefined
 
     [key: string]: any;
@@ -414,7 +510,7 @@ export class SerpApiGoogleSearchByImagesImagesElementItem  extends BaseSerpApiGo
 
     items?: AiModeImagesElementInfo[] | undefined;
     
-    /** @deprecated  */
+    /** @deprecated *contains keywords and images related to the specified search term*             if there are none, equals `null` */
 
     related_image_searches?: RelatedImageSearchesElement[] | undefined;
 

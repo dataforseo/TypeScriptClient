@@ -12,7 +12,7 @@ export interface IBusinessDataBusinessListingsSearchLiveRequestInfo   {
         /** *indicates whether the business is verified by its owner on Google Maps* optional field */
         is_claimed?: boolean | undefined
         
-        /** *GPS coordinates of a location* optional field `location_coordinate` parameter should be specified in the *'latitude,longitude,radius'* format the maximum number of decimal digits for *'latitude'* and *'longitude'*: 7 the value of *'radius'* is specified in kilometres (km) the minimum value for *'radius'*: `1` the maximum value for *'radius'*: `100000` example: `53.476225,-2.243572,200` */
+        /** *GPS coordinates of a location* optional field `location_coordinate` parameter should be specified in the *'latitude,longitude,radius'* format the maximum number of decimal digits for *'latitude'* and *'longitude'*: 7 the value of *'radius'* is specified in kilometres (km) the minimum value for *'radius'*: `1` the maximum value for *'radius'*: `100000` example: `53.476225,-2.243572,200` learn more about how to set location parameters in this API on our [Help Center](https://dataforseo.com/help-center/how-to-specify-location-settings-in-business-listings-api) */
         location_coordinate?: string | undefined
         
         /** *array of results filtering parameters* optional field **you can add several filters at once (8 filters maximum)** you should set a logical operator `and`, `or` between the conditions the following operators are supported: `regex`, `not_regex`, ``, `>=`, `=`, `<>`, `in`, `not_in`, `like`, `not_like`, `ilike`, `not_ilike`, `match`, `not_match` you can use the `%` operator with `like` and `not_like` to match any string of zero or more characters example: `['rating.value','>',3]` you can receive the list of available filters_by making a separate request to `https://api.dataforseo.com/v3/business_data/business_listings/available_filters` The full list of possible filters is available [here.](/v3/business_data/business_listings/filters)n */
@@ -60,7 +60,7 @@ export class BusinessDataBusinessListingsSearchLiveRequestInfo  implements IBusi
     is_claimed?: boolean | undefined;
 
     
-    /** *GPS coordinates of a location* optional field `location_coordinate` parameter should be specified in the *'latitude,longitude,radius'* format the maximum number of decimal digits for *'latitude'* and *'longitude'*: 7 the value of *'radius'* is specified in kilometres (km) the minimum value for *'radius'*: `1` the maximum value for *'radius'*: `100000` example: `53.476225,-2.243572,200` */
+    /** *GPS coordinates of a location* optional field `location_coordinate` parameter should be specified in the *'latitude,longitude,radius'* format the maximum number of decimal digits for *'latitude'* and *'longitude'*: 7 the value of *'radius'* is specified in kilometres (km) the minimum value for *'radius'*: `1` the maximum value for *'radius'*: `100000` example: `53.476225,-2.243572,200` learn more about how to set location parameters in this API on our [Help Center](https://dataforseo.com/help-center/how-to-specify-location-settings-in-business-listings-api) */
 
     location_coordinate?: string | undefined;
 

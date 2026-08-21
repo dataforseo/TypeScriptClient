@@ -75,9 +75,7 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new AppDataIdListRequestInfo();
-   task.limit = 100;
-   task.offset = 0;
-   task.sort = "desc";
+   task.limit = 10;
    task.include_metadata = true;
  let response = await api.appDataIdList([task]);
 ```
@@ -137,8 +135,6 @@ All URIs are relative to *https://api.dataforseo.com*
 
  let task = new AppDataErrorsRequestInfo();
    task.limit = 10;
-   task.offset = 0;
-   task.filtered_function = "pingback_url";
  let response = await api.appDataErrors([task]);
 ```
 
@@ -2448,7 +2444,7 @@ This endpoint does not need any parameter.
    task.title = "vpn";
    task.description = "vpn";
    task.categories = [
-       "Tools",
+       "Utilities",
    ];
    task.order_by = [
        "item.rating.value,desc",
@@ -2456,7 +2452,7 @@ This endpoint does not need any parameter.
    task.filters = [
        ,
    ];
-   task.limit = 2;
+   task.limit = 10;
  let response = await api.appleAppListingsSearchLive([task]);
 ```
 

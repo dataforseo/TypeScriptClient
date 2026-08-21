@@ -26,7 +26,7 @@ export interface ISerpGoogleEventsLiveAdvancedResultInfo   {
         /** *date and time when the result was received* in the UTC format: 'yyyy-mm-dd hh-mm-ss +00:00' example: `2019-11-15 12:57:46 +00:00` */
         datetime?: string | undefined
         
-        /** *autocorrection of the search engine* if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
+        /** autocorrection of the search engine if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
         spell?: SpellInfo | undefined
         
         /** *search refinement chips* */
@@ -86,7 +86,7 @@ export class SerpGoogleEventsLiveAdvancedResultInfo  implements ISerpGoogleEvent
     datetime?: string | undefined;
 
     
-    /** *autocorrection of the search engine* if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
+    /** autocorrection of the search engine if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection */
 
     spell?: SpellInfo | undefined;
 

@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpGoogleMapsLiveAdvancedResultInfo[]** |  |[optional]|
+**result** | **SerpGoogleMapsLiveAdvancedResultInfo[]** | *array of results* |[optional]|

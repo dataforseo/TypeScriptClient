@@ -7,19 +7,19 @@ export interface IBaseSerpApiGoogleNewsElementItem   {
         /** type of element */
         type?: string | undefined
         
-        /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+        /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
         rank_group?: number | undefined
         
-        /** absolute rank in SERP absolute position among all the elements in SERP */
+        /** *absolute rank in SERP* absolute position among all the elements in SERP */
         rank_absolute?: number | undefined
         
-        /** the XPath of the element */
+        /** *the [XPath](https://en.wikipedia.org/wiki/XPath) of the element* */
         xpath?: string | undefined
         
-        /** title of the element */
+        /** *title of the element* */
         title?: string | undefined
         
-        /** rectangle parameters contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP equals null if calculate_rectangles in the POST request is not set to true */
+        /** *rectangle parameters* contains cartesian coordinates and pixel dimensions of the result's snippet in SERP equals `null` if `calculate_rectangles` in the POST request is not set to `true` */
         rectangle?: AiModeRectangleInfo | undefined
 
     [key: string]: any;
@@ -34,27 +34,27 @@ export class BaseSerpApiGoogleNewsElementItem  implements IBaseSerpApiGoogleNews
     type?: string | undefined;
 
     
-    /** group rank in SERP position within a group of elements with identical type values positions of elements with different type values are omitted from rank_group */
+    /** *group rank in SERP* position within a group of elements with identical `type` values positions of elements with different `type` values are omitted from `rank_group` */
 
     rank_group?: number | undefined;
 
     
-    /** absolute rank in SERP absolute position among all the elements in SERP */
+    /** *absolute rank in SERP* absolute position among all the elements in SERP */
 
     rank_absolute?: number | undefined;
 
     
-    /** the XPath of the element */
+    /** *the [XPath](https://en.wikipedia.org/wiki/XPath) of the element* */
 
     xpath?: string | undefined;
 
     
-    /** title of the element */
+    /** *title of the element* */
 
     title?: string | undefined;
 
     
-    /** rectangle parameters contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP equals null if calculate_rectangles in the POST request is not set to true */
+    /** *rectangle parameters* contains cartesian coordinates and pixel dimensions of the result's snippet in SERP equals `null` if `calculate_rectangles` in the POST request is not set to `true` */
 
     rectangle?: AiModeRectangleInfo | undefined;
 
@@ -130,22 +130,22 @@ export class BaseSerpApiGoogleNewsElementItem  implements IBaseSerpApiGoogleNews
  
 export interface ISerpApiGoogleNewsNewsSearchElementItem  extends IBaseSerpApiGoogleNewsElementItem    {
         
-        /** domain in SERP */
+        /** *domain in SERP* */
         domain?: string | undefined
         
-        /** search URL with refinement parameters */
+        /** *search URL with refinement parameters* */
         url?: string | undefined
         
-        /** URL of the image the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+        /** *URL of the image* the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
         image_url?: string | undefined
         
-        /** snippet of the result in SERP */
+        /** *snippet of the result in SERP* */
         snippet?: string | undefined
         
-        /** indicates the time the result was published */
+        /** *indicates the time the result was published* */
         time_published?: string | undefined
         
-        /** date and time when the news was published in the format “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes” example: 2019-11-15 12:57:46 +00:00 */
+        /** *date and time when the news was published* in the format “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes” example: `2019-11-15 12:57:46 +00:00` */
         timestamp?: string | undefined
 
     [key: string]: any;
@@ -155,32 +155,32 @@ export interface ISerpApiGoogleNewsNewsSearchElementItem  extends IBaseSerpApiGo
 export class SerpApiGoogleNewsNewsSearchElementItem  extends BaseSerpApiGoogleNewsElementItem   implements ISerpApiGoogleNewsNewsSearchElementItem {
 
     
-    /** domain in SERP */
+    /** *domain in SERP* */
 
     domain?: string | undefined;
 
     
-    /** search URL with refinement parameters */
+    /** *search URL with refinement parameters* */
 
     url?: string | undefined;
 
     
-    /** URL of the image the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
+    /** *URL of the image* the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available) */
 
     image_url?: string | undefined;
 
     
-    /** snippet of the result in SERP */
+    /** *snippet of the result in SERP* */
 
     snippet?: string | undefined;
 
     
-    /** indicates the time the result was published */
+    /** *indicates the time the result was published* */
 
     time_published?: string | undefined;
 
     
-    /** date and time when the news was published in the format “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes” example: 2019-11-15 12:57:46 +00:00 */
+    /** *date and time when the news was published* in the format “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes” example: `2019-11-15 12:57:46 +00:00` */
 
     timestamp?: string | undefined;
 
@@ -239,10 +239,10 @@ export interface ISerpApiGoogleNewsTopStoriesElementItem  extends IBaseSerpApiGo
         
         page?: number | undefined
         
-        /** the alignment of the element in SERP can take the following values: left */
+        /** *the alignment of the element in SERP* can take the following values: `left` */
         position?: string | undefined
         
-        /** items of the element */
+        /** *items of the element* */
         items?: TopStoriesElement[] | undefined
 
     [key: string]: any;
@@ -254,12 +254,12 @@ export class SerpApiGoogleNewsTopStoriesElementItem  extends BaseSerpApiGoogleNe
     page?: number | undefined;
 
     
-    /** the alignment of the element in SERP can take the following values: left */
+    /** *the alignment of the element in SERP* can take the following values: `left` */
 
     position?: string | undefined;
 
     
-    /** items of the element */
+    /** *items of the element* */
 
     items?: TopStoriesElement[] | undefined;
 

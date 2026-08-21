@@ -21,7 +21,7 @@ export interface IAiOptimizationLlmMentionsTopMentionedPagesLiveRequestInfo   {
         /** *target platform* optional field possible values: `chat_gpt`, `google` **Note:** if the `platform` is not specified, the data is returned for both platforms **Note #2:**`chat_gpt` data is available for the `United States` and `English` only */
         platform?: string | undefined
         
-        /** *links source scope* optional field this parameter specifies which links will be used to extract domains and aggregation data possible values: `sources`, `search_results` default value: `sources` */
+        /** *links source scope* optional field this parameter specifies which links will be used to extract domains and aggregation data possible values: `sources`, `search_results` default value: `sources`; **Note:**if you specify `search_results`, the data will be available for `chat_gpt` only */
         links_scope?: string | undefined
         
         /** *array of results filtering parameters* optional field **you can add several filters at once (8 filters maximum)** you should set a logical operator `and`, `or` between the conditions the following operators are supported: `=`, `<>`, `in`, `not_in`, `like`, `not_like`, `ilike`, `not_ilike`, `match`, `not_match` you can use the `%` operator with `like` and `not_like` to match any string of zero or more characters example: `['ai_search_volume','>',1000]` The full list of possible filters is available [here.](/v3/ai_optimization/llm_mentions/filters/) */
@@ -88,7 +88,7 @@ export class AiOptimizationLlmMentionsTopMentionedPagesLiveRequestInfo  implemen
     platform?: string | undefined;
 
     
-    /** *links source scope* optional field this parameter specifies which links will be used to extract domains and aggregation data possible values: `sources`, `search_results` default value: `sources` */
+    /** *links source scope* optional field this parameter specifies which links will be used to extract domains and aggregation data possible values: `sources`, `search_results` default value: `sources`; **Note:**if you specify `search_results`, the data will be available for `chat_gpt` only */
 
     links_scope?: string | undefined;
 

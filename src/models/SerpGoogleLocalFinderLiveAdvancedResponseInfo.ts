@@ -4,6 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface ISerpGoogleLocalFinderLiveAdvancedResponseInfo  extends IBaseResponseInfo    {
         
+        /** *array of tasks* */
         tasks?: SerpGoogleLocalFinderLiveAdvancedTaskInfo[] | undefined
 
     [key: string]: any;
@@ -11,6 +12,9 @@ export interface ISerpGoogleLocalFinderLiveAdvancedResponseInfo  extends IBaseRe
     }
 
 export class SerpGoogleLocalFinderLiveAdvancedResponseInfo  extends BaseResponseInfo   implements ISerpGoogleLocalFinderLiveAdvancedResponseInfo {
+
+    
+    /** *array of tasks* */
 
     tasks?: SerpGoogleLocalFinderLiveAdvancedTaskInfo[] | undefined;
 

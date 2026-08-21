@@ -44,9 +44,7 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new ContentAnalysisIdListRequestInfo();
-   task.limit = 100;
-   task.offset = 0;
-   task.sort = "desc";
+   task.limit = 10;
    task.include_metadata = true;
  let response = await api.contentAnalysisIdList([task]);
 ```

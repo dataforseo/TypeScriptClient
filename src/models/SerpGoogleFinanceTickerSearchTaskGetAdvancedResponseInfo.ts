@@ -4,7 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface ISerpGoogleFinanceTickerSearchTaskGetAdvancedResponseInfo  extends IBaseResponseInfo    {
         
-        /** array of tasks */
+        /** *array of tasks* */
         tasks?: SerpGoogleFinanceTickerSearchTaskGetAdvancedTaskInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface ISerpGoogleFinanceTickerSearchTaskGetAdvancedResponseInfo  exte
 export class SerpGoogleFinanceTickerSearchTaskGetAdvancedResponseInfo  extends BaseResponseInfo   implements ISerpGoogleFinanceTickerSearchTaskGetAdvancedResponseInfo {
 
     
-    /** array of tasks */
+    /** *array of tasks* */
 
     tasks?: SerpGoogleFinanceTickerSearchTaskGetAdvancedTaskInfo[] | undefined;
 

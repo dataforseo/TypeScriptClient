@@ -1,9 +1,9 @@
 export interface IContacts   {
         
-        /** array of telephone numbers */
+        /** *array of telephone numbers* */
         telephones?: string[] | undefined
         
-        /** array of emails */
+        /** *array of emails* */
         emails?: string[] | undefined
 
     [key: string]: any;
@@ -13,12 +13,12 @@ export interface IContacts   {
 export class Contacts  implements IContacts {
 
     
-    /** array of telephone numbers */
+    /** *array of telephone numbers* */
 
     telephones?: string[] | undefined;
 
     
-    /** array of emails */
+    /** *array of emails* */
 
     emails?: string[] | undefined;
 

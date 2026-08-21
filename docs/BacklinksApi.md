@@ -57,9 +57,7 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new BacklinksIdListRequestInfo();
-   task.limit = 100;
-   task.offset = 0;
-   task.sort = "desc";
+   task.limit = 10;
    task.include_metadata = true;
  let response = await api.backlinksIdList([task]);
 ```
@@ -119,8 +117,6 @@ All URIs are relative to *https://api.dataforseo.com*
 
  let task = new BacklinksErrorsRequestInfo();
    task.limit = 10;
-   task.offset = 0;
-   task.filtered_function = "backlinks/content_duplicates";
  let response = await api.backlinksErrors([task]);
 ```
 

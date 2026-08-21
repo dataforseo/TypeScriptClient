@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpGoogleImagesLiveHtmlResultInfo[]** |  |[optional]|
+**result** | **SerpGoogleImagesLiveHtmlResultInfo[]** | *array of results* |[optional]|

@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpGoogleImagesTaskGetAdvancedResultInfo[]** | array of results |[optional]|
+**result** | **SerpGoogleImagesTaskGetAdvancedResultInfo[]** | *array of results* |[optional]|

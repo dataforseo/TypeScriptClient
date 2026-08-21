@@ -4,11 +4,11 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**header** | **PageSectionContentInfo** | parsed content of the header |[optional]|
-**footer** | **PageSectionContentInfo** | content of the footer of the table |[optional]|
-**main_topic** | **TopicInfo[]** | main topic on the page. you can find more information about topic priority calculation in this help center article |[optional]|
-**secondary_topic** | **TopicInfo[]** | secondary topic on the page. you can find more information about topic priority calculation in this help center article |[optional]|
-**ratings** | **ContentRatingInfo[]** | contains objects with rating information for the products displayed on the page |[optional]|
-**offers** | **ContentOfferInfo[]** | array of products displayed on the page. contains objects with information on products displayed on the page |[optional]|
-**comments** | **ContentCommentInfo[]** | array of comments displayed on the page. contains objects with information on comments related to displayed products |[optional]|
-**contacts** | **Contacts** | contact information. contains contact information displayed on the page |[optional]|
+**header** | **PageSectionContentInfo** | *parsed content of the header* |[optional]|
+**footer** | **PageSectionContentInfo** | *content of the footer of the table* |[optional]|
+**main_topic** | **TopicInfo[]** | *main topic on the page*.             you can find more information about topic priority calculation in this [help center article](https://dataforseo.com/help-center/difference-between-primary-and-secondary-content#topics) |[optional]|
+**secondary_topic** | **TopicInfo[]** | *secondary topic on the page*.             you can find more information about topic priority calculation in this [help center article](https://dataforseo.com/help-center/difference-between-primary-and-secondary-content#topics) |[optional]|
+**ratings** | **ContentRatingInfo[]** | *contains objects with rating information for the products displayed on the page* |[optional]|
+**offers** | **ContentOfferInfo[]** | *array of products displayed on the page*.             contains objects with information on products displayed on the page |[optional]|
+**comments** | **ContentCommentInfo[]** | *array of comments displayed on the page*.             contains objects with information on comments related to displayed products |[optional]|
+**contacts** | **Contacts** | *contact information*.             contains contact information displayed on the page |[optional]|

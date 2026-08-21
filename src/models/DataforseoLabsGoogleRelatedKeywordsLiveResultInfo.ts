@@ -4,28 +4,28 @@ import { DataforseoLabsGoogleRelatedKeywordsLiveItem, IDataforseoLabsGoogleRelat
 
 export interface IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo   {
         
-        /** search engine type */
+        /** *search engine type* */
         se_type?: string | undefined
         
-        /** keyword in a POST array */
+        /** *keyword in a POST array* */
         seed_keyword?: string | undefined
         
-        /** keyword data for the seed keywordfields in the array are identical to that of keyword_data */
+        /** *keyword data for the seed keyword* fields in the array are identical to that of `keyword_data` */
         seed_keyword_data?: KeywordDataInfo | undefined
         
-        /** location code in a POST array */
+        /** *location code in a POST array* */
         location_code?: number | undefined
         
-        /** language code in a POST array */
+        /** *language code in a POST array* */
         language_code?: string | undefined
         
-        /** total amount of results in our database relevant to your request */
+        /** *total amount of results in our database relevant to your request* */
         total_count?: number | undefined
         
-        /** the number of results returned in the items array */
+        /** *the number of results returned in the `items` array* */
         items_count?: number | undefined
         
-        /** contains keywords and related data */
+        /** *contains keywords and related data* */
         items?: DataforseoLabsGoogleRelatedKeywordsLiveItem[] | undefined
 
     [key: string]: any;
@@ -35,42 +35,42 @@ export interface IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo   {
 export class DataforseoLabsGoogleRelatedKeywordsLiveResultInfo  implements IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo {
 
     
-    /** search engine type */
+    /** *search engine type* */
 
     se_type?: string | undefined;
 
     
-    /** keyword in a POST array */
+    /** *keyword in a POST array* */
 
     seed_keyword?: string | undefined;
 
     
-    /** keyword data for the seed keywordfields in the array are identical to that of keyword_data */
+    /** *keyword data for the seed keyword* fields in the array are identical to that of `keyword_data` */
 
     seed_keyword_data?: KeywordDataInfo | undefined;
 
     
-    /** location code in a POST array */
+    /** *location code in a POST array* */
 
     location_code?: number | undefined;
 
     
-    /** language code in a POST array */
+    /** *language code in a POST array* */
 
     language_code?: string | undefined;
 
     
-    /** total amount of results in our database relevant to your request */
+    /** *total amount of results in our database relevant to your request* */
 
     total_count?: number | undefined;
 
     
-    /** the number of results returned in the items array */
+    /** *the number of results returned in the `items` array* */
 
     items_count?: number | undefined;
 
     
-    /** contains keywords and related data */
+    /** *contains keywords and related data* */
 
     items?: DataforseoLabsGoogleRelatedKeywordsLiveItem[] | undefined;
 

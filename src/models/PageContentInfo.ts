@@ -8,28 +8,28 @@ import { Contacts, IContacts } from "./Contacts";
 
 export interface IPageContentInfo   {
         
-        /** parsed content of the header */
+        /** *parsed content of the header* */
         header?: PageSectionContentInfo | undefined
         
-        /** content of the footer of the table */
+        /** *content of the footer of the table* */
         footer?: PageSectionContentInfo | undefined
         
-        /** main topic on the page you can find more information about topic priority calculation in this help center article */
+        /** *main topic on the page*             you can find more information about topic priority calculation in this [help center article](https://dataforseo.com/help-center/difference-between-primary-and-secondary-content#topics) */
         main_topic?: TopicInfo[] | undefined
         
-        /** secondary topic on the page you can find more information about topic priority calculation in this help center article */
+        /** *secondary topic on the page*             you can find more information about topic priority calculation in this [help center article](https://dataforseo.com/help-center/difference-between-primary-and-secondary-content#topics) */
         secondary_topic?: TopicInfo[] | undefined
         
-        /** contains objects with rating information for the products displayed on the page */
+        /** *contains objects with rating information for the products displayed on the page* */
         ratings?: ContentRatingInfo[] | undefined
         
-        /** array of products displayed on the page contains objects with information on products displayed on the page */
+        /** *array of products displayed on the page*             contains objects with information on products displayed on the page */
         offers?: ContentOfferInfo[] | undefined
         
-        /** array of comments displayed on the page contains objects with information on comments related to displayed products */
+        /** *array of comments displayed on the page*             contains objects with information on comments related to displayed products */
         comments?: ContentCommentInfo[] | undefined
         
-        /** contact information contains contact information displayed on the page */
+        /** *contact information*             contains contact information displayed on the page */
         contacts?: Contacts | undefined
 
     [key: string]: any;
@@ -39,42 +39,42 @@ export interface IPageContentInfo   {
 export class PageContentInfo  implements IPageContentInfo {
 
     
-    /** parsed content of the header */
+    /** *parsed content of the header* */
 
     header?: PageSectionContentInfo | undefined;
 
     
-    /** content of the footer of the table */
+    /** *content of the footer of the table* */
 
     footer?: PageSectionContentInfo | undefined;
 
     
-    /** main topic on the page you can find more information about topic priority calculation in this help center article */
+    /** *main topic on the page*             you can find more information about topic priority calculation in this [help center article](https://dataforseo.com/help-center/difference-between-primary-and-secondary-content#topics) */
 
     main_topic?: TopicInfo[] | undefined;
 
     
-    /** secondary topic on the page you can find more information about topic priority calculation in this help center article */
+    /** *secondary topic on the page*             you can find more information about topic priority calculation in this [help center article](https://dataforseo.com/help-center/difference-between-primary-and-secondary-content#topics) */
 
     secondary_topic?: TopicInfo[] | undefined;
 
     
-    /** contains objects with rating information for the products displayed on the page */
+    /** *contains objects with rating information for the products displayed on the page* */
 
     ratings?: ContentRatingInfo[] | undefined;
 
     
-    /** array of products displayed on the page contains objects with information on products displayed on the page */
+    /** *array of products displayed on the page*             contains objects with information on products displayed on the page */
 
     offers?: ContentOfferInfo[] | undefined;
 
     
-    /** array of comments displayed on the page contains objects with information on comments related to displayed products */
+    /** *array of comments displayed on the page*             contains objects with information on comments related to displayed products */
 
     comments?: ContentCommentInfo[] | undefined;
 
     
-    /** contact information contains contact information displayed on the page */
+    /** *contact information*             contains contact information displayed on the page */
 
     contacts?: Contacts | undefined;
 

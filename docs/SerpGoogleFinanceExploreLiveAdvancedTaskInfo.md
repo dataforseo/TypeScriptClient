@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpGoogleFinanceExploreLiveAdvancedResultInfo[]** |  |[optional]|
+**result** | **SerpGoogleFinanceExploreLiveAdvancedResultInfo[]** | *array of results* |[optional]|

@@ -3,16 +3,16 @@ import { KeywordDataInfo, IKeywordDataInfo } from "./KeywordDataInfo";
 
 export interface IDataforseoLabsGoogleRelatedKeywordsLiveItem   {
         
-        /** search engine type */
+        /** *search engine type* */
         se_type?: string | undefined
         
-        /** keyword data for the returned keyword */
+        /** *keyword data for the returned keyword* */
         keyword_data?: KeywordDataInfo | undefined
         
-        /** keyword search depth */
+        /** *keyword search depth* */
         depth?: number | undefined
         
-        /** list of related keywordsrepresents the list of search queries which are related to the keyword returned in the array above */
+        /** *list of related keywords* represents the list of search queries which are related to the keyword returned in the array above */
         related_keywords?: string[] | undefined
 
     [key: string]: any;
@@ -22,22 +22,22 @@ export interface IDataforseoLabsGoogleRelatedKeywordsLiveItem   {
 export class DataforseoLabsGoogleRelatedKeywordsLiveItem  implements IDataforseoLabsGoogleRelatedKeywordsLiveItem {
 
     
-    /** search engine type */
+    /** *search engine type* */
 
     se_type?: string | undefined;
 
     
-    /** keyword data for the returned keyword */
+    /** *keyword data for the returned keyword* */
 
     keyword_data?: KeywordDataInfo | undefined;
 
     
-    /** keyword search depth */
+    /** *keyword search depth* */
 
     depth?: number | undefined;
 
     
-    /** list of related keywordsrepresents the list of search queries which are related to the keyword returned in the array above */
+    /** *list of related keywords* represents the list of search queries which are related to the keyword returned in the array above */
 
     related_keywords?: string[] | undefined;
 

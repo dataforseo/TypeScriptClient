@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpGoogleFinanceMarketsLiveHtmlResultInfo[]** |  |[optional]|
+**result** | **SerpGoogleFinanceMarketsLiveHtmlResultInfo[]** | *array of results* |[optional]|

@@ -1,30 +1,30 @@
 export interface IAvgBacklinksInfo   {
         
-        /** search engine type */
+        /** *search engine type* */
         se_type?: string | undefined
         
-        /** average number of backlinks */
+        /** *average number of backlinks* */
         backlinks?: number | undefined
         
-        /** average number of dofollow links */
+        /** *average number of dofollow links* */
         dofollow?: number | undefined
         
-        /** average number of referring pages */
+        /** *average number of referring pages* */
         referring_pages?: number | undefined
         
-        /** average number of referring domains */
+        /** *average number of referring domains* */
         referring_domains?: number | undefined
         
-        /** average number of referring main domains */
+        /** *average number of referring main domains* */
         referring_main_domains?: number | undefined
         
-        /** average ranklearn more about the metric and its calculation formula in this help center article */
+        /** *average rank* learn more about the metric and its calculation formula in [this help center article](https://dataforseo.com/help-center/what_is_rank_in_backlinks_api) */
         rank?: number | undefined
         
-        /** average main domain ranklearn more about the metric and its calculation formula in this help center article */
+        /** *average main domain rank* learn more about the metric and its calculation formula in [this help center article](https://dataforseo.com/help-center/what_is_rank_in_backlinks_api) */
         main_domain_rank?: number | undefined
         
-        /** date and time when keyword data was updatedin the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”example:2019-11-15 12:57:46 +00:00 */
+        /** *date and time when keyword data was updated* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
         last_updated_time?: string | undefined
 
     [key: string]: any;
@@ -34,47 +34,47 @@ export interface IAvgBacklinksInfo   {
 export class AvgBacklinksInfo  implements IAvgBacklinksInfo {
 
     
-    /** search engine type */
+    /** *search engine type* */
 
     se_type?: string | undefined;
 
     
-    /** average number of backlinks */
+    /** *average number of backlinks* */
 
     backlinks?: number | undefined;
 
     
-    /** average number of dofollow links */
+    /** *average number of dofollow links* */
 
     dofollow?: number | undefined;
 
     
-    /** average number of referring pages */
+    /** *average number of referring pages* */
 
     referring_pages?: number | undefined;
 
     
-    /** average number of referring domains */
+    /** *average number of referring domains* */
 
     referring_domains?: number | undefined;
 
     
-    /** average number of referring main domains */
+    /** *average number of referring main domains* */
 
     referring_main_domains?: number | undefined;
 
     
-    /** average ranklearn more about the metric and its calculation formula in this help center article */
+    /** *average rank* learn more about the metric and its calculation formula in [this help center article](https://dataforseo.com/help-center/what_is_rank_in_backlinks_api) */
 
     rank?: number | undefined;
 
     
-    /** average main domain ranklearn more about the metric and its calculation formula in this help center article */
+    /** *average main domain rank* learn more about the metric and its calculation formula in [this help center article](https://dataforseo.com/help-center/what_is_rank_in_backlinks_api) */
 
     main_domain_rank?: number | undefined;
 
     
-    /** date and time when keyword data was updatedin the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”example:2019-11-15 12:57:46 +00:00 */
+    /** *date and time when keyword data was updated* in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: `2019-11-15 12:57:46 +00:00` */
 
     last_updated_time?: string | undefined;
 

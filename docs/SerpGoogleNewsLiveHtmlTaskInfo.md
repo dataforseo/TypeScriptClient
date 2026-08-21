@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpGoogleNewsLiveHtmlResultInfo[]** |  |[optional]|
+**result** | **SerpGoogleNewsLiveHtmlResultInfo[]** | *array of results* |[optional]|

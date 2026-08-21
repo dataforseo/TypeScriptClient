@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpGoogleFinanceExploreTaskPostTaskInfo[]** |  |[optional]|
+**tasks** | **SerpGoogleFinanceExploreTaskPostTaskInfo[]** | *array of tasks* |[optional]|

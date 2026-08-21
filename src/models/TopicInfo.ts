@@ -4,28 +4,28 @@ import { TableContentInfo, ITableContentInfo } from "./TableContentInfo";
 
 export interface ITopicInfo   {
         
-        /** meta title */
+        /** *meta title* */
         h_title?: string | undefined
         
-        /** main title of the block */
+        /** *main title of the block* */
         main_title?: string | undefined
         
-        /** content author name */
+        /** *content author name* */
         author?: string | undefined
         
-        /** content language */
+        /** *content language* */
         language?: string | undefined
         
-        /** HTML level */
+        /** *HTML level* */
         level?: number | undefined
         
-        /** primary content on the page you can find more information about content priority calculation in this help center article */
+        /** *primary content on the page*             you can find more information about content priority calculation in this [help center article](https://dataforseo.com/help-center/difference-between-primary-and-secondary-content) */
         primary_content?: SectionContentItemInfo[] | undefined
         
-        /** secondary content on the page you can find more information about content priority calculation in this help center article */
+        /** *secondary content on the page*             you can find more information about content priority calculation in this [help center article](https://dataforseo.com/help-center/difference-between-primary-and-secondary-content) */
         secondary_content?: SectionContentItemInfo[] | undefined
         
-        /** content of the table on the page */
+        /** *content of the table on the page* */
         table_content?: TableContentInfo[] | undefined
 
     [key: string]: any;
@@ -35,42 +35,42 @@ export interface ITopicInfo   {
 export class TopicInfo  implements ITopicInfo {
 
     
-    /** meta title */
+    /** *meta title* */
 
     h_title?: string | undefined;
 
     
-    /** main title of the block */
+    /** *main title of the block* */
 
     main_title?: string | undefined;
 
     
-    /** content author name */
+    /** *content author name* */
 
     author?: string | undefined;
 
     
-    /** content language */
+    /** *content language* */
 
     language?: string | undefined;
 
     
-    /** HTML level */
+    /** *HTML level* */
 
     level?: number | undefined;
 
     
-    /** primary content on the page you can find more information about content priority calculation in this help center article */
+    /** *primary content on the page*             you can find more information about content priority calculation in this [help center article](https://dataforseo.com/help-center/difference-between-primary-and-secondary-content) */
 
     primary_content?: SectionContentItemInfo[] | undefined;
 
     
-    /** secondary content on the page you can find more information about content priority calculation in this help center article */
+    /** *secondary content on the page*             you can find more information about content priority calculation in this [help center article](https://dataforseo.com/help-center/difference-between-primary-and-secondary-content) */
 
     secondary_content?: SectionContentItemInfo[] | undefined;
 
     
-    /** content of the table on the page */
+    /** *content of the table on the page* */
 
     table_content?: TableContentInfo[] | undefined;
 

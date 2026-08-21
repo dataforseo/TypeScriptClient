@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpGoogleMapsTaskGetAdvancedResultInfo[]** | array of results |[optional]|
+**result** | **SerpGoogleMapsTaskGetAdvancedResultInfo[]** | *array of results* |[optional]|

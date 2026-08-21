@@ -4,6 +4,7 @@ import { BaseResponseInfo, IBaseResponseInfo } from "./BaseResponseInfo";
 
 export interface IOnPageAvailableFiltersResponseInfo  extends IBaseResponseInfo    {
         
+        /** *array of tasks* */
         tasks?: OnPageAvailableFiltersTaskInfo[] | undefined
 
     [key: string]: any;
@@ -11,6 +12,9 @@ export interface IOnPageAvailableFiltersResponseInfo  extends IBaseResponseInfo 
     }
 
 export class OnPageAvailableFiltersResponseInfo  extends BaseResponseInfo   implements IOnPageAvailableFiltersResponseInfo {
+
+    
+    /** *array of tasks* */
 
     tasks?: OnPageAvailableFiltersTaskInfo[] | undefined;
 

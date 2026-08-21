@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface ISerpGoogleNewsTaskGetAdvancedTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: SerpGoogleNewsTaskGetAdvancedResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface ISerpGoogleNewsTaskGetAdvancedTaskInfo  extends IBaseResponseTa
 export class SerpGoogleNewsTaskGetAdvancedTaskInfo  extends BaseResponseTaskInfo   implements ISerpGoogleNewsTaskGetAdvancedTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: SerpGoogleNewsTaskGetAdvancedResultInfo[] | undefined;
 

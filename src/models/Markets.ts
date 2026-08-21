@@ -3,10 +3,10 @@ import { BaseSerpApiGoogleFinanceElementItem, IBaseSerpApiGoogleFinanceElementIt
 
 export interface IMarkets   {
         
-        /** financial market identifier possible values: US, Europe, Asia, Currencies, Crypto, Futures */
+        /** *financial market identifier* possible values: `US`, `Europe`, `Asia`, `Currencies`, `Crypto`, `Futures` */
         market?: string | undefined
         
-        /** elements of search results found in SERP */
+        /** *elements of search results found in SERP* */
         items?: BaseSerpApiGoogleFinanceElementItem[] | undefined
 
     [key: string]: any;
@@ -16,12 +16,12 @@ export interface IMarkets   {
 export class Markets  implements IMarkets {
 
     
-    /** financial market identifier possible values: US, Europe, Asia, Currencies, Crypto, Futures */
+    /** *financial market identifier* possible values: `US`, `Europe`, `Asia`, `Currencies`, `Crypto`, `Futures` */
 
     market?: string | undefined;
 
     
-    /** elements of search results found in SERP */
+    /** *elements of search results found in SERP* */
 
     items?: BaseSerpApiGoogleFinanceElementItem[] | undefined;
 

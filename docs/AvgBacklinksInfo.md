@@ -4,12 +4,12 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**se_type** | **string** | search engine type |[optional]|
-**backlinks** | **number** | average number of backlinks |[optional]|
-**dofollow** | **number** | average number of dofollow links |[optional]|
-**referring_pages** | **number** | average number of referring pages |[optional]|
-**referring_domains** | **number** | average number of referring domains |[optional]|
-**referring_main_domains** | **number** | average number of referring main domains |[optional]|
-**rank** | **number** | average ranklearn more about the metric and its calculation formula in this help center article |[optional]|
-**main_domain_rank** | **number** | average main domain ranklearn more about the metric and its calculation formula in this help center article |[optional]|
-**last_updated_time** | **string** | date and time when keyword data was updatedin the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”example:2019-11-15 12:57:46 +00:00 |[optional]|
+**se_type** | **string** | *search engine type* |[optional]|
+**backlinks** | **number** | *average number of backlinks* |[optional]|
+**dofollow** | **number** | *average number of dofollow links* |[optional]|
+**referring_pages** | **number** | *average number of referring pages* |[optional]|
+**referring_domains** | **number** | *average number of referring domains* |[optional]|
+**referring_main_domains** | **number** | *average number of referring main domains* |[optional]|
+**rank** | **number** | *average rank*. learn more about the metric and its calculation formula in [this help center article](https://dataforseo.com/help-center/what_is_rank_in_backlinks_api) |[optional]|
+**main_domain_rank** | **number** | *average main domain rank*. learn more about the metric and its calculation formula in [this help center article](https://dataforseo.com/help-center/what_is_rank_in_backlinks_api) |[optional]|
+**last_updated_time** | **string** | *date and time when keyword data was updated*. in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”. example:. `2019-11-15 12:57:46 +00:00` |[optional]|

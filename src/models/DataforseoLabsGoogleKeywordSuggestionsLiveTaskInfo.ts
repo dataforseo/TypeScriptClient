@@ -4,7 +4,7 @@ import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskI
 
 export interface IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo  extends IBaseResponseTaskInfo    {
         
-        /** array of results */
+        /** *array of results* */
         result?: DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo[] | undefined
 
     [key: string]: any;
@@ -14,7 +14,7 @@ export interface IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo  extends IB
 export class DataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo  extends BaseResponseTaskInfo   implements IDataforseoLabsGoogleKeywordSuggestionsLiveTaskInfo {
 
     
-    /** array of results */
+    /** *array of results* */
 
     result?: DataforseoLabsGoogleKeywordSuggestionsLiveResultInfo[] | undefined;
 

@@ -648,6 +648,9 @@ export class ChatGptLocalBusinessesElementItem  extends BaseChatGptLlmScraperEle
  
 export interface IChatGptAdElementItem  extends IBaseChatGptLlmScraperElementItem    {
         
+        /** *indicates whether the ad is displayed to the user* if `true`, the ad is present in the response and shown on the page if `false`, the ad is present in the response but not displayed to the user */
+        is_rendered?: boolean | undefined
+        
         /** *name of the brand* */
         title?: string | undefined
         
@@ -671,6 +674,11 @@ export interface IChatGptAdElementItem  extends IBaseChatGptLlmScraperElementIte
     }
 
 export class ChatGptAdElementItem  extends BaseChatGptLlmScraperElementItem   implements IChatGptAdElementItem {
+
+    
+    /** *indicates whether the ad is displayed to the user* if `true`, the ad is present in the response and shown on the page if `false`, the ad is present in the response but not displayed to the user */
+
+    is_rendered?: boolean | undefined;
 
     
     /** *name of the brand* */
@@ -717,6 +725,7 @@ export class ChatGptAdElementItem  extends BaseChatGptLlmScraperElementItem   im
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
+            this.is_rendered = data["is_rendered"];
             this.title = data["title"];
             this.snippet = data["snippet"];
             this.url = data["url"];
@@ -742,6 +751,7 @@ export class ChatGptAdElementItem  extends BaseChatGptLlmScraperElementItem   im
         super.toJSON(data);
         
         
+        data["is_rendered"] = this.is_rendered;
         data["title"] = this.title;
         data["snippet"] = this.snippet;
         data["url"] = this.url;

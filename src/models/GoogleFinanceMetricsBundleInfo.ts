@@ -3,109 +3,109 @@ export interface IGoogleFinanceMetricsBundleInfo   {
         /** type of element */
         type?: string | undefined
         
-        /** date and time of the value readout in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2025-02-10 09:40:00 +00:00 */
+        /** *date and time of the value readout* in the UTC format: 'yyyy-mm-dd hh-mm-ss +00:00' example: `2025-02-10 09:40:00 +00:00` */
         timestamp?: string | undefined
         
-        /** revenue value */
+        /** *revenue value* */
         revenue?: number | undefined
         
-        /** change in revenue */
+        /** *change in revenue* */
         revenue_delta?: number | undefined
         
-        /** operating expense value */
+        /** *operating expense value* */
         operating_expense?: number | undefined
         
-        /** change in operating expense */
+        /** *change in operating expense* */
         operating_expense_delta?: number | undefined
         
-        /** net income value */
+        /** *net income value* */
         net_income?: number | undefined
         
-        /** change in net income */
+        /** *change in net income* */
         net_income_delta?: number | undefined
         
-        /** net profit margin value */
+        /** *net profit margin value* */
         net_profit_margin?: number | undefined
         
-        /** change in net profit margin */
+        /** *change in net profit margin* */
         net_profit_margin_delta?: number | undefined
         
-        /** earnings per share value */
+        /** *earnings per share value* */
         earnings_per_share?: number | undefined
         
-        /** change in earnings per share */
+        /** *change in earnings per share* */
         earnings_per_share_delta?: number | undefined
         
-        /** earnings before interest, taxes, deprecation, amortisation */
+        /** *earnings before interest, taxes, deprecation, amortisation* */
         ebitda?: number | undefined
         
-        /** change in ebitda */
+        /** *change in ebitda* */
         ebitda_delta?: number | undefined
         
-        /** effective tax rate value */
+        /** *effective tax rate value* */
         effective_tax_rate?: number | undefined
         
-        /** cash and short-term investments value */
+        /** *cash and short-term investments value* */
         cash_and_short_term_investments?: number | undefined
         
-        /** change in cash and short-term investments */
+        /** *change in cash and short-term investments* */
         cash_and_short_term_investments_delta?: number | undefined
         
-        /** total assets value */
+        /** *total assets value* */
         total_assets?: number | undefined
         
-        /** change in total assets */
+        /** *change in total assets* */
         total_assets_delta?: number | undefined
         
-        /** total liabilities value */
+        /** *total liabilities value* */
         total_liabilities?: number | undefined
         
-        /** change in total liabilities */
+        /** *change in total liabilities* */
         total_liabilities_delta?: number | undefined
         
-        /** total equity value */
+        /** *total equity value* */
         total_equity?: number | undefined
         
-        /** outstanding shares value */
+        /** *outstanding shares value* */
         shares_outstanding?: number | undefined
         
-        /** price to book */
+        /** *price to book* */
         price_to_book?: number | undefined
         
-        /** return on assets */
+        /** *return on assets* */
         return_on_assets?: number | undefined
         
-        /** return on capital */
+        /** *return on capital* */
         return_on_capital?: number | undefined
         
-        /** cash from operations */
+        /** *cash from operations* */
         cash_from_operations?: number | undefined
         
-        /** change in cash from operations */
+        /** *change in cash from operations* */
         cash_from_operations_delta?: number | undefined
         
-        /** cash from investing */
+        /** *cash from investing* */
         cash_from_investing?: number | undefined
         
-        /** change in cash from investing */
+        /** *change in cash from investing* */
         cash_from_investing_delta?: number | undefined
         
-        /** cash from financing */
+        /** cash from financing/em> */
         cash_from_financing?: number | undefined
         
-        /** change in cash from financing */
+        /** *change in cash from financing* */
         cash_from_financing_delta?: number | undefined
         
-        /** net change in cash */
+        /** *net change in cash* */
         net_change_in_cash?: number | undefined
         
-        /** change in net change in cash */
+        /** *change in net change in cash* */
         net_change_in_cash_delta?: number | undefined
         
-        /** free cash flow value */
+        /** *free cash flow value* */
         free_cash_flow?: number | undefined
         
-        /** change in free cash flow */
+        /** *change in free cash flow* */
         free_cash_flow_delta?: number | undefined
 
     [key: string]: any;
@@ -120,177 +120,177 @@ export class GoogleFinanceMetricsBundleInfo  implements IGoogleFinanceMetricsBun
     type?: string | undefined;
 
     
-    /** date and time of the value readout in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00” example: 2025-02-10 09:40:00 +00:00 */
+    /** *date and time of the value readout* in the UTC format: 'yyyy-mm-dd hh-mm-ss +00:00' example: `2025-02-10 09:40:00 +00:00` */
 
     timestamp?: string | undefined;
 
     
-    /** revenue value */
+    /** *revenue value* */
 
     revenue?: number | undefined;
 
     
-    /** change in revenue */
+    /** *change in revenue* */
 
     revenue_delta?: number | undefined;
 
     
-    /** operating expense value */
+    /** *operating expense value* */
 
     operating_expense?: number | undefined;
 
     
-    /** change in operating expense */
+    /** *change in operating expense* */
 
     operating_expense_delta?: number | undefined;
 
     
-    /** net income value */
+    /** *net income value* */
 
     net_income?: number | undefined;
 
     
-    /** change in net income */
+    /** *change in net income* */
 
     net_income_delta?: number | undefined;
 
     
-    /** net profit margin value */
+    /** *net profit margin value* */
 
     net_profit_margin?: number | undefined;
 
     
-    /** change in net profit margin */
+    /** *change in net profit margin* */
 
     net_profit_margin_delta?: number | undefined;
 
     
-    /** earnings per share value */
+    /** *earnings per share value* */
 
     earnings_per_share?: number | undefined;
 
     
-    /** change in earnings per share */
+    /** *change in earnings per share* */
 
     earnings_per_share_delta?: number | undefined;
 
     
-    /** earnings before interest, taxes, deprecation, amortisation */
+    /** *earnings before interest, taxes, deprecation, amortisation* */
 
     ebitda?: number | undefined;
 
     
-    /** change in ebitda */
+    /** *change in ebitda* */
 
     ebitda_delta?: number | undefined;
 
     
-    /** effective tax rate value */
+    /** *effective tax rate value* */
 
     effective_tax_rate?: number | undefined;
 
     
-    /** cash and short-term investments value */
+    /** *cash and short-term investments value* */
 
     cash_and_short_term_investments?: number | undefined;
 
     
-    /** change in cash and short-term investments */
+    /** *change in cash and short-term investments* */
 
     cash_and_short_term_investments_delta?: number | undefined;
 
     
-    /** total assets value */
+    /** *total assets value* */
 
     total_assets?: number | undefined;
 
     
-    /** change in total assets */
+    /** *change in total assets* */
 
     total_assets_delta?: number | undefined;
 
     
-    /** total liabilities value */
+    /** *total liabilities value* */
 
     total_liabilities?: number | undefined;
 
     
-    /** change in total liabilities */
+    /** *change in total liabilities* */
 
     total_liabilities_delta?: number | undefined;
 
     
-    /** total equity value */
+    /** *total equity value* */
 
     total_equity?: number | undefined;
 
     
-    /** outstanding shares value */
+    /** *outstanding shares value* */
 
     shares_outstanding?: number | undefined;
 
     
-    /** price to book */
+    /** *price to book* */
 
     price_to_book?: number | undefined;
 
     
-    /** return on assets */
+    /** *return on assets* */
 
     return_on_assets?: number | undefined;
 
     
-    /** return on capital */
+    /** *return on capital* */
 
     return_on_capital?: number | undefined;
 
     
-    /** cash from operations */
+    /** *cash from operations* */
 
     cash_from_operations?: number | undefined;
 
     
-    /** change in cash from operations */
+    /** *change in cash from operations* */
 
     cash_from_operations_delta?: number | undefined;
 
     
-    /** cash from investing */
+    /** *cash from investing* */
 
     cash_from_investing?: number | undefined;
 
     
-    /** change in cash from investing */
+    /** *change in cash from investing* */
 
     cash_from_investing_delta?: number | undefined;
 
     
-    /** cash from financing */
+    /** cash from financing/em> */
 
     cash_from_financing?: number | undefined;
 
     
-    /** change in cash from financing */
+    /** *change in cash from financing* */
 
     cash_from_financing_delta?: number | undefined;
 
     
-    /** net change in cash */
+    /** *net change in cash* */
 
     net_change_in_cash?: number | undefined;
 
     
-    /** change in net change in cash */
+    /** *change in net change in cash* */
 
     net_change_in_cash_delta?: number | undefined;
 
     
-    /** free cash flow value */
+    /** *free cash flow value* */
 
     free_cash_flow?: number | undefined;
 
     
-    /** change in free cash flow */
+    /** *change in free cash flow* */
 
     free_cash_flow_delta?: number | undefined;
 

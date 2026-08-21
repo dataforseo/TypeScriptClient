@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **SerpGoogleNewsLiveHtmlTaskInfo[]** |  |[optional]|
+**tasks** | **SerpGoogleNewsLiveHtmlTaskInfo[]** | *array of tasks* |[optional]|

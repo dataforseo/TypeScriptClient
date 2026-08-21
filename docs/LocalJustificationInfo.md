@@ -5,4 +5,4 @@
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
 **type** | **string** | type of element |[optional]|
-**text** | **string** | text snippet of local justification |[optional]|
+**text** | **string** | *text snippet of local justification* |[optional]|

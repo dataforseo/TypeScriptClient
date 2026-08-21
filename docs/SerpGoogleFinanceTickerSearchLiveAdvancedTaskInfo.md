@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**result** | **SerpGoogleFinanceTickerSearchLiveAdvancedResultInfo[]** |  |[optional]|
+**result** | **SerpGoogleFinanceTickerSearchLiveAdvancedResultInfo[]** | *array of results* |[optional]|

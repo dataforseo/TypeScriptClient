@@ -4,4 +4,4 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**tasks** | **BusinessDataTripadvisorSearchTasksReadyTaskInfo[]** | array of tasks |[optional]|
+**tasks** | **BusinessDataTripadvisorSearchTasksReadyTaskInfo[]** | *array of tasks* |[optional]|

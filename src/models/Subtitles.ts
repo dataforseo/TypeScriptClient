@@ -1,12 +1,12 @@
 export interface ISubtitles   {
         
-        /** language of subtitles */
+        /** *language of subtitles* */
         language?: string | undefined
         
-        /** defines if subtitles are translatable */
+        /** *defines if subtitles are translatable* */
         is_translatable?: boolean | undefined
         
-        /** defines if subtitles are auto generated */
+        /** *defines if subtitles are auto generated* */
         is_auto_generated?: boolean | undefined
 
     [key: string]: any;
@@ -16,17 +16,17 @@ export interface ISubtitles   {
 export class Subtitles  implements ISubtitles {
 
     
-    /** language of subtitles */
+    /** *language of subtitles* */
 
     language?: string | undefined;
 
     
-    /** defines if subtitles are translatable */
+    /** *defines if subtitles are translatable* */
 
     is_translatable?: boolean | undefined;
 
     
-    /** defines if subtitles are auto generated */
+    /** *defines if subtitles are auto generated* */
 
     is_auto_generated?: boolean | undefined;
 

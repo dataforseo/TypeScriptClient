@@ -6,16 +6,16 @@ export interface IContentParsingElement   {
         /** type of element */
         type?: string | undefined
         
-        /** date and time when the content was fethced example: '2022-11-01 10:02:52 +00:00' */
+        /** *date and time when the content was fethced*             example:             `'2022-11-01 10:02:52 +00:00'` */
         fetch_time?: string | undefined
         
-        /** general status code you can find the full list of the response codes here Note: we strongly recommend designing a necessary system for handling related exceptional or error conditions */
+        /** *general status code*             you can find the full list of the response codes [here](/v3/appendix/errors)             **Note:** we strongly recommend designing a necessary system for handling related exceptional or error conditions */
         status_code?: number | undefined
         
-        /** parsed content of the page */
+        /** *parsed content of the page* */
         page_content?: PageContentInfo | undefined
         
-        /** page content in the markdown format page content in the text-to-HTML markdown format specify markdown_view as true in the request to return the value */
+        /** *page content in the markdown format*             page content in the [text-to-HTML markdown format](https://daringfireball.net/projects/markdown/)             specify `markdown_view` as `true` in the request to return the value */
         page_as_markdown?: string | undefined
 
     [key: string]: any;
@@ -30,22 +30,22 @@ export class ContentParsingElement  implements IContentParsingElement {
     type?: string | undefined;
 
     
-    /** date and time when the content was fethced example: '2022-11-01 10:02:52 +00:00' */
+    /** *date and time when the content was fethced*             example:             `'2022-11-01 10:02:52 +00:00'` */
 
     fetch_time?: string | undefined;
 
     
-    /** general status code you can find the full list of the response codes here Note: we strongly recommend designing a necessary system for handling related exceptional or error conditions */
+    /** *general status code*             you can find the full list of the response codes [here](/v3/appendix/errors)             **Note:** we strongly recommend designing a necessary system for handling related exceptional or error conditions */
 
     status_code?: number | undefined;
 
     
-    /** parsed content of the page */
+    /** *parsed content of the page* */
 
     page_content?: PageContentInfo | undefined;
 
     
-    /** page content in the markdown format page content in the text-to-HTML markdown format specify markdown_view as true in the request to return the value */
+    /** *page content in the markdown format*             page content in the [text-to-HTML markdown format](https://daringfireball.net/projects/markdown/)             specify `markdown_view` as `true` in the request to return the value */
 
     page_as_markdown?: string | undefined;
 
