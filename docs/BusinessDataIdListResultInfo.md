@@ -10,4 +10,4 @@
 **datetime_done** | **string** | *date and time when the task was completed*. in the UTC format: 'yyyy-mm-dd hh-mm-ss +00:00'. example:. `2023-01-15 12:57:46 +00:00` |[optional]|
 **status** | **string** | *informational message of the task*. you can find the full list of general informational messages [here](/v3/appendix-errors/) |[optional]|
 **cost** | **number** | *total tasks cost, USD* |[optional]|
-**metadata** | **string[]** | *contains parameters you specified in the POST request* |[optional]|
+**metadata** | **{ [key: string]: any; }** | *contains parameters you specified in the POST request* |[optional]|

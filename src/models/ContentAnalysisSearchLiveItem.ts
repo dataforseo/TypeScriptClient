@@ -1,4 +1,4 @@
-import { ContentRatingInfo, IContentRatingInfo } from "./ContentRatingInfo";
+import { ContententRatingInfo, IContententRatingInfo } from "./ContententRatingInfo";
 import { SocialMetricsInfo, ISocialMetricsInfo } from "./SocialMetricsInfo";
 import { AnalysisContentInfo, IAnalysisContentInfo } from "./AnalysisContentInfo";
 
@@ -45,7 +45,7 @@ export interface IContentAnalysisSearchLiveItem   {
         page_types?: string[] | undefined
         
         /** *ratings found on the page* all ratings found on the page based on microdata */
-        ratings?: ContentRatingInfo[] | undefined
+        ratings?: ContententRatingInfo[] | undefined
         
         /** *social media engagement metrics* data on social media interactions associated with the content based on website embeds developed and supported by social media platforms */
         social_metrics?: SocialMetricsInfo[] | undefined
@@ -127,7 +127,7 @@ export class ContentAnalysisSearchLiveItem  implements IContentAnalysisSearchLiv
     
     /** *ratings found on the page* all ratings found on the page based on microdata */
 
-    ratings?: ContentRatingInfo[] | undefined;
+    ratings?: ContententRatingInfo[] | undefined;
 
     
     /** *social media engagement metrics* data on social media interactions associated with the content based on website embeds developed and supported by social media platforms */
@@ -175,7 +175,7 @@ export class ContentAnalysisSearchLiveItem  implements IContentAnalysisSearchLiv
             if (Array.isArray(data["ratings"])) {
                 this.ratings = [];
                 for (let item of data["ratings"]) {
-                    this.ratings.push(ContentRatingInfo.fromJS(item));
+                    this.ratings.push(ContententRatingInfo.fromJS(item));
                 }
             }
             if (Array.isArray(data["social_metrics"])) {

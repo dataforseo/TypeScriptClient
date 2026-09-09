@@ -19,7 +19,7 @@ export interface IBusinessDataIdListResultInfo   {
         cost?: number | undefined
         
         /** *contains parameters you specified in the POST request* */
-        metadata?: string[] | undefined
+        metadata?: { [key: string]: any; } | undefined
 
     [key: string]: any;
 
@@ -60,7 +60,7 @@ export class BusinessDataIdListResultInfo  implements IBusinessDataIdListResultI
     
     /** *contains parameters you specified in the POST request* */
 
-    metadata?: string[] | undefined;
+    metadata?: { [key: string]: any; } | undefined;
 
     [key: string]: any;
 

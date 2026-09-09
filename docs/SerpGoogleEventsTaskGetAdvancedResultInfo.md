@@ -11,7 +11,7 @@
 **language_code** | **string** | *language code*. in this case, the value will be `null` |[optional]|
 **check_url** | **string** | *direct URL to search engine results* |[optional]|
 **datetime** | **string** | *date and time when the result was received*. in the UTC format: 'yyyy-mm-dd hh-mm-ss +00:00'. example:. `2019-11-15 12:57:46 +00:00` |[optional]|
-**spell** | **SpellInfo** | *autocorrection of the search engine*. if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection |[optional]|
+**spell** | **SpellInfo** | autocorrection of the search engine. if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection |[optional]|
 **refinement_chips** | **RefinementChipsInfo** | *search refinement chips* |[optional]|
 **item_types** | **string[]** | *types of search results found in SERP*. possible item types:. `event_item` |[optional]|
 **se_results_count** | **number** | *total number of results in SERP*. in this case, the value will be `0` . this search engine does not indicate the total number of results |[optional]|

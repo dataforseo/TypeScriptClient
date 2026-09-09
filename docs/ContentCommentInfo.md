@@ -4,7 +4,7 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**rating** | **ContentRatingInfo** | product’s rating. contains information about the rating a customer has given to the product |[optional]|
+**rating** | **ContententRatingInfo** | product’s rating. contains information about the rating a customer has given to the product |[optional]|
 **title** | **string** | title of the customer’s comment |[optional]|
 **publish_date** | **string** | date when the comment was published |[optional]|
 **author** | **string** | author of the comment |[optional]|

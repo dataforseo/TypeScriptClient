@@ -1,6 +1,6 @@
 import { PageSectionContentInfo, IPageSectionContentInfo } from "./PageSectionContentInfo";
 import { TopicInfo, ITopicInfo } from "./TopicInfo";
-import { ContentRatingInfo, IContentRatingInfo } from "./ContentRatingInfo";
+import { ContententRatingInfo, IContententRatingInfo } from "./ContententRatingInfo";
 import { ContentOfferInfo, IContentOfferInfo } from "./ContentOfferInfo";
 import { ContentCommentInfo, IContentCommentInfo } from "./ContentCommentInfo";
 import { Contacts, IContacts } from "./Contacts";
@@ -21,7 +21,7 @@ export interface IPageContentInfo   {
         secondary_topic?: TopicInfo[] | undefined
         
         /** *contains objects with rating information for the products displayed on the page* */
-        ratings?: ContentRatingInfo[] | undefined
+        ratings?: ContententRatingInfo[] | undefined
         
         /** *array of products displayed on the page*             contains objects with information on products displayed on the page */
         offers?: ContentOfferInfo[] | undefined
@@ -61,7 +61,7 @@ export class PageContentInfo  implements IPageContentInfo {
     
     /** *contains objects with rating information for the products displayed on the page* */
 
-    ratings?: ContentRatingInfo[] | undefined;
+    ratings?: ContententRatingInfo[] | undefined;
 
     
     /** *array of products displayed on the page*             contains objects with information on products displayed on the page */
@@ -115,7 +115,7 @@ export class PageContentInfo  implements IPageContentInfo {
             if (Array.isArray(data["ratings"])) {
                 this.ratings = [];
                 for (let item of data["ratings"]) {
-                    this.ratings.push(ContentRatingInfo.fromJS(item));
+                    this.ratings.push(ContententRatingInfo.fromJS(item));
                 }
             }
             if (Array.isArray(data["offers"])) {

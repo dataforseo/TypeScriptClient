@@ -17,6 +17,6 @@
 **score** | **number** | *citation prominence score*. this value is based on `url_rank`, `domain_rank`, `keyword` presence in `title`, `main_title`, `url`, `snippet`. the higher the `score`, the more value the related citation has |[optional]|
 **page_category** | **number[]** | *contains all relevant page categories*. product and service categories relevant for the page. to obtain a full list of available categories, refer to the [Categories](/v3/content_analysis/categories/) endpoint |[optional]|
 **page_types** | **string[]** | *page types* |[optional]|
-**ratings** | **ContentRatingInfo[]** | *ratings found on the page*. all ratings found on the page based on microdata |[optional]|
+**ratings** | **ContententRatingInfo[]** | *ratings found on the page*. all ratings found on the page based on microdata |[optional]|
 **social_metrics** | **SocialMetricsInfo[]** | *social media engagement metrics*. data on social media interactions associated with the content based on website embeds developed and supported by social media platforms |[optional]|
 **content_info** | **AnalysisContentInfo** | *contains data on citations from the given `url`* |[optional]|

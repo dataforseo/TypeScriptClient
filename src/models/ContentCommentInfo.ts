@@ -1,11 +1,11 @@
-import { ContentRatingInfo, IContentRatingInfo } from "./ContentRatingInfo";
+import { ContententRatingInfo, IContententRatingInfo } from "./ContententRatingInfo";
 import { SectionContentItemInfo, ISectionContentItemInfo } from "./SectionContentItemInfo";
 
 
 export interface IContentCommentInfo   {
         
         /** product’s rating contains information about the rating a customer has given to the product */
-        rating?: ContentRatingInfo | undefined
+        rating?: ContententRatingInfo | undefined
         
         /** title of the customer’s comment */
         title?: string | undefined
@@ -31,7 +31,7 @@ export class ContentCommentInfo  implements IContentCommentInfo {
     
     /** product’s rating contains information about the rating a customer has given to the product */
 
-    rating?: ContentRatingInfo | undefined;
+    rating?: ContententRatingInfo | undefined;
 
     
     /** title of the customer’s comment */
@@ -78,7 +78,7 @@ export class ContentCommentInfo  implements IContentCommentInfo {
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
-            this.rating = data["rating"] ? ContentRatingInfo.fromJS(data["rating"]) : <any>undefined;
+            this.rating = data["rating"] ? ContententRatingInfo.fromJS(data["rating"]) : <any>undefined;
             this.title = data["title"];
             this.publish_date = data["publish_date"];
             this.author = data["author"];
@@ -106,7 +106,7 @@ export class ContentCommentInfo  implements IContentCommentInfo {
 
         
         
-        data["rating"] = this.rating ? ContentRatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
+        data["rating"] = this.rating ? ContententRatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["title"] = this.title;
         data["publish_date"] = this.publish_date;
         data["author"] = this.author;

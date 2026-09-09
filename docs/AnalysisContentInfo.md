@@ -21,5 +21,5 @@
 **date_published** | **string** | *date and time when the content was published*. in the UTC format: 'yyyy-mm-dd hh-mm-ss +00:00'. example:. `2017-01-24 13:20:59 +00:00` |[optional]|
 **content_quality_score** | **number** | *content quality score*. this value is calculated based on the number of words, sentences and characters the content contains |[optional]|
 **semantic_location** | **string** | *semantic location*. indicates semantic element in HTML where the target keyword citation is located. example:. `article`, `header` |[optional]|
-**rating** | **ContentRatingInfo** | *content rating*. rating related to `content_info` |[optional]|
+**rating** | **ContententRatingInfo** | *content rating*. rating related to `content_info` |[optional]|
 **group_date** | **string** | *citation group date and time*. indicates content publication date or date and time when our crawler visited the page for the first time;. this field can be used to group citations by date and display citation trends;. date and time are provided in the UTC format: 'yyyy-mm-dd hh-mm-ss +00:00'. example:. `2017-01-24 13:20:59 +00:00` |[optional]|
