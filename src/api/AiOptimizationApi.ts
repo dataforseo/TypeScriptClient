@@ -32,6 +32,9 @@ import { AiOptimizationGeminiLlmResponsesTasksReadyResponseInfo } from "./../mod
 import { AiOptimizationGeminiLlmResponsesTaskGetResponseInfo } from "./../models/AiOptimizationGeminiLlmResponsesTaskGetResponseInfo";
 import { AiOptimizationGeminiLlmResponsesLiveRequestInfo } from "./../models/AiOptimizationGeminiLlmResponsesLiveRequestInfo";
 import { AiOptimizationGeminiLlmResponsesLiveResponseInfo } from "./../models/AiOptimizationGeminiLlmResponsesLiveResponseInfo";
+import { AiOptimizationPerplexityLlmResponsesModelsResponseInfo } from "./../models/AiOptimizationPerplexityLlmResponsesModelsResponseInfo";
+import { AiOptimizationPerplexityLlmResponsesLiveRequestInfo } from "./../models/AiOptimizationPerplexityLlmResponsesLiveRequestInfo";
+import { AiOptimizationPerplexityLlmResponsesLiveResponseInfo } from "./../models/AiOptimizationPerplexityLlmResponsesLiveResponseInfo";
 import { AiOptimizationGeminiLlmScraperLocationsResponseInfo } from "./../models/AiOptimizationGeminiLlmScraperLocationsResponseInfo";
 import { AiOptimizationGeminiLlmScraperLanguagesResponseInfo } from "./../models/AiOptimizationGeminiLlmScraperLanguagesResponseInfo";
 import { AiOptimizationGeminiLlmScraperTaskPostRequestInfo } from "./../models/AiOptimizationGeminiLlmScraperTaskPostRequestInfo";
@@ -43,9 +46,6 @@ import { AiOptimizationGeminiLlmScraperLiveAdvancedRequestInfo } from "./../mode
 import { AiOptimizationGeminiLlmScraperLiveAdvancedResponseInfo } from "./../models/AiOptimizationGeminiLlmScraperLiveAdvancedResponseInfo";
 import { AiOptimizationGeminiLlmScraperLiveHtmlRequestInfo } from "./../models/AiOptimizationGeminiLlmScraperLiveHtmlRequestInfo";
 import { AiOptimizationGeminiLlmScraperLiveHtmlResponseInfo } from "./../models/AiOptimizationGeminiLlmScraperLiveHtmlResponseInfo";
-import { AiOptimizationPerplexityLlmResponsesModelsResponseInfo } from "./../models/AiOptimizationPerplexityLlmResponsesModelsResponseInfo";
-import { AiOptimizationPerplexityLlmResponsesLiveRequestInfo } from "./../models/AiOptimizationPerplexityLlmResponsesLiveRequestInfo";
-import { AiOptimizationPerplexityLlmResponsesLiveResponseInfo } from "./../models/AiOptimizationPerplexityLlmResponsesLiveResponseInfo";
 import { AiOptimizationAiKeywordDataAvailableFiltersResponseInfo } from "./../models/AiOptimizationAiKeywordDataAvailableFiltersResponseInfo";
 import { AiOptimizationAiKeywordDataLocationsAndLanguagesResponseInfo } from "./../models/AiOptimizationAiKeywordDataLocationsAndLanguagesResponseInfo";
 import { AiOptimizationAiKeywordDataKeywordsSearchVolumeLiveRequestInfo } from "./../models/AiOptimizationAiKeywordDataKeywordsSearchVolumeLiveRequestInfo";
@@ -103,7 +103,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
 
@@ -137,7 +137,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
 
@@ -170,7 +170,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
 
@@ -206,7 +206,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -238,7 +238,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
 
@@ -272,7 +272,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
 
@@ -306,7 +306,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
 
@@ -342,7 +342,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -377,7 +377,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -409,7 +409,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
 
@@ -445,7 +445,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -480,7 +480,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -512,7 +512,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
 
@@ -546,7 +546,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
 
@@ -579,7 +579,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
 
@@ -615,7 +615,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -650,7 +650,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -682,7 +682,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
 
@@ -716,7 +716,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
 
@@ -749,7 +749,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
 
@@ -785,7 +785,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -817,7 +817,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
 
@@ -851,7 +851,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
 
@@ -887,7 +887,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -912,278 +912,6 @@ export class AiOptimizationApi {
         }
         return Promise.resolve<AiOptimizationGeminiLlmResponsesLiveResponseInfo | null>(null as any);
     }
-    geminiLlmScraperLocations(): Promise<AiOptimizationGeminiLlmScraperLocationsResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/ai_optimization/gemini/llm_scraper/locations";
-        url_ = url_.replace(/[?&]$/, "");
-        let options_: RequestInit = {
-            method: "GET",
-            headers: {
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
-            }
-        };
-
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processGeminiLlmScraperLocations(_response);
-        });
-    }
-
-    protected processGeminiLlmScraperLocations(response: Response): Promise<AiOptimizationGeminiLlmScraperLocationsResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? AiOptimizationGeminiLlmScraperLocationsResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<AiOptimizationGeminiLlmScraperLocationsResponseInfo | null>(null as any);
-    }
-    geminiLlmScraperLanguages(): Promise<AiOptimizationGeminiLlmScraperLanguagesResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/ai_optimization/gemini/llm_scraper/languages";
-        url_ = url_.replace(/[?&]$/, "");
-        let options_: RequestInit = {
-            method: "GET",
-            headers: {
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
-            }
-        };
-
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processGeminiLlmScraperLanguages(_response);
-        });
-    }
-
-    protected processGeminiLlmScraperLanguages(response: Response): Promise<AiOptimizationGeminiLlmScraperLanguagesResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? AiOptimizationGeminiLlmScraperLanguagesResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<AiOptimizationGeminiLlmScraperLanguagesResponseInfo | null>(null as any);
-    }
-    geminiLlmScraperTaskPost(body: AiOptimizationGeminiLlmScraperTaskPostRequestInfo[]): Promise<AiOptimizationGeminiLlmScraperTaskPostResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/ai_optimization/gemini/llm_scraper/task_post";
-        url_ = url_.replace(/[?&]$/, "");
-        const content_ = JSON.stringify(body);
-        let options_: RequestInit = {
-            body: content_,
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
-            }
-        };
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processGeminiLlmScraperTaskPost(_response);
-        });
-    }
-
-    protected processGeminiLlmScraperTaskPost(response: Response): Promise<AiOptimizationGeminiLlmScraperTaskPostResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? AiOptimizationGeminiLlmScraperTaskPostResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<AiOptimizationGeminiLlmScraperTaskPostResponseInfo | null>(null as any);
-    }
-    geminiLlmScraperTasksReady(): Promise<AiOptimizationGeminiLlmScraperTasksReadyResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/ai_optimization/gemini/llm_scraper/tasks_ready";
-        url_ = url_.replace(/[?&]$/, "");
-        let options_: RequestInit = {
-            method: "GET",
-            headers: {
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
-            }
-        };
-
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processGeminiLlmScraperTasksReady(_response);
-        });
-    }
-
-    protected processGeminiLlmScraperTasksReady(response: Response): Promise<AiOptimizationGeminiLlmScraperTasksReadyResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? AiOptimizationGeminiLlmScraperTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<AiOptimizationGeminiLlmScraperTasksReadyResponseInfo | null>(null as any);
-    }
-    geminiLlmScraperTaskGetAdvanced(id: string): Promise<AiOptimizationGeminiLlmScraperTaskGetAdvancedResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/ai_optimization/gemini/llm_scraper/task_get/advanced/{id}";
-        url_ = url_.replace(/[?&]$/, "");
-        url_ = url_.replace("{id}", encodeURIComponent("" + id));
-        let options_: RequestInit = {
-            method: "GET",
-            headers: {
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
-            }
-        };
-
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processGeminiLlmScraperTaskGetAdvanced(_response);
-        });
-    }
-
-    protected processGeminiLlmScraperTaskGetAdvanced(response: Response): Promise<AiOptimizationGeminiLlmScraperTaskGetAdvancedResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? AiOptimizationGeminiLlmScraperTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<AiOptimizationGeminiLlmScraperTaskGetAdvancedResponseInfo | null>(null as any);
-    }
-    geminiLlmScraperTaskGetHtml(id: string): Promise<AiOptimizationGeminiLlmScraperTaskGetHtmlResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/ai_optimization/gemini/llm_scraper/task_get/html/{id}";
-        url_ = url_.replace(/[?&]$/, "");
-        url_ = url_.replace("{id}", encodeURIComponent("" + id));
-        let options_: RequestInit = {
-            method: "GET",
-            headers: {
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
-            }
-        };
-
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processGeminiLlmScraperTaskGetHtml(_response);
-        });
-    }
-
-    protected processGeminiLlmScraperTaskGetHtml(response: Response): Promise<AiOptimizationGeminiLlmScraperTaskGetHtmlResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? AiOptimizationGeminiLlmScraperTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<AiOptimizationGeminiLlmScraperTaskGetHtmlResponseInfo | null>(null as any);
-    }
-    geminiLlmScraperLiveAdvanced(body: AiOptimizationGeminiLlmScraperLiveAdvancedRequestInfo[]): Promise<AiOptimizationGeminiLlmScraperLiveAdvancedResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/ai_optimization/gemini/llm_scraper/live/advanced";
-        url_ = url_.replace(/[?&]$/, "");
-        const content_ = JSON.stringify(body);
-        let options_: RequestInit = {
-            body: content_,
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
-            }
-        };
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processGeminiLlmScraperLiveAdvanced(_response);
-        });
-    }
-
-    protected processGeminiLlmScraperLiveAdvanced(response: Response): Promise<AiOptimizationGeminiLlmScraperLiveAdvancedResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? AiOptimizationGeminiLlmScraperLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<AiOptimizationGeminiLlmScraperLiveAdvancedResponseInfo | null>(null as any);
-    }
-    geminiLlmScraperLiveHtml(body: AiOptimizationGeminiLlmScraperLiveHtmlRequestInfo[]): Promise<AiOptimizationGeminiLlmScraperLiveHtmlResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/ai_optimization/gemini/llm_scraper/live/html";
-        url_ = url_.replace(/[?&]$/, "");
-        const content_ = JSON.stringify(body);
-        let options_: RequestInit = {
-            body: content_,
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
-            }
-        };
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processGeminiLlmScraperLiveHtml(_response);
-        });
-    }
-
-    protected processGeminiLlmScraperLiveHtml(response: Response): Promise<AiOptimizationGeminiLlmScraperLiveHtmlResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? AiOptimizationGeminiLlmScraperLiveHtmlResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<AiOptimizationGeminiLlmScraperLiveHtmlResponseInfo | null>(null as any);
-    }
     perplexityLlmResponsesModels(): Promise<AiOptimizationPerplexityLlmResponsesModelsResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/ai_optimization/perplexity/llm_responses/models";
         url_ = url_.replace(/[?&]$/, "");
@@ -1191,7 +919,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
 
@@ -1227,7 +955,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1252,6 +980,278 @@ export class AiOptimizationApi {
         }
         return Promise.resolve<AiOptimizationPerplexityLlmResponsesLiveResponseInfo | null>(null as any);
     }
+    geminiLlmScraperLocations(): Promise<AiOptimizationGeminiLlmScraperLocationsResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/gemini/llm_scraper/locations";
+        url_ = url_.replace(/[?&]$/, "");
+        let options_: RequestInit = {
+            method: "GET",
+            headers: {
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.1.7",
+            }
+        };
+
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processGeminiLlmScraperLocations(_response);
+        });
+    }
+
+    protected processGeminiLlmScraperLocations(response: Response): Promise<AiOptimizationGeminiLlmScraperLocationsResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationGeminiLlmScraperLocationsResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationGeminiLlmScraperLocationsResponseInfo | null>(null as any);
+    }
+    geminiLlmScraperLanguages(): Promise<AiOptimizationGeminiLlmScraperLanguagesResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/gemini/llm_scraper/languages";
+        url_ = url_.replace(/[?&]$/, "");
+        let options_: RequestInit = {
+            method: "GET",
+            headers: {
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.1.7",
+            }
+        };
+
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processGeminiLlmScraperLanguages(_response);
+        });
+    }
+
+    protected processGeminiLlmScraperLanguages(response: Response): Promise<AiOptimizationGeminiLlmScraperLanguagesResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationGeminiLlmScraperLanguagesResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationGeminiLlmScraperLanguagesResponseInfo | null>(null as any);
+    }
+    geminiLlmScraperTaskPost(body: AiOptimizationGeminiLlmScraperTaskPostRequestInfo[]): Promise<AiOptimizationGeminiLlmScraperTaskPostResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/gemini/llm_scraper/task_post";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.1.7",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processGeminiLlmScraperTaskPost(_response);
+        });
+    }
+
+    protected processGeminiLlmScraperTaskPost(response: Response): Promise<AiOptimizationGeminiLlmScraperTaskPostResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationGeminiLlmScraperTaskPostResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationGeminiLlmScraperTaskPostResponseInfo | null>(null as any);
+    }
+    geminiLlmScraperTasksReady(): Promise<AiOptimizationGeminiLlmScraperTasksReadyResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/gemini/llm_scraper/tasks_ready";
+        url_ = url_.replace(/[?&]$/, "");
+        let options_: RequestInit = {
+            method: "GET",
+            headers: {
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.1.7",
+            }
+        };
+
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processGeminiLlmScraperTasksReady(_response);
+        });
+    }
+
+    protected processGeminiLlmScraperTasksReady(response: Response): Promise<AiOptimizationGeminiLlmScraperTasksReadyResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationGeminiLlmScraperTasksReadyResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationGeminiLlmScraperTasksReadyResponseInfo | null>(null as any);
+    }
+    geminiLlmScraperTaskGetAdvanced(id: string): Promise<AiOptimizationGeminiLlmScraperTaskGetAdvancedResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/gemini/llm_scraper/task_get/advanced/{id}";
+        url_ = url_.replace(/[?&]$/, "");
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
+        let options_: RequestInit = {
+            method: "GET",
+            headers: {
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.1.7",
+            }
+        };
+
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processGeminiLlmScraperTaskGetAdvanced(_response);
+        });
+    }
+
+    protected processGeminiLlmScraperTaskGetAdvanced(response: Response): Promise<AiOptimizationGeminiLlmScraperTaskGetAdvancedResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationGeminiLlmScraperTaskGetAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationGeminiLlmScraperTaskGetAdvancedResponseInfo | null>(null as any);
+    }
+    geminiLlmScraperTaskGetHtml(id: string): Promise<AiOptimizationGeminiLlmScraperTaskGetHtmlResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/gemini/llm_scraper/task_get/html/{id}";
+        url_ = url_.replace(/[?&]$/, "");
+        url_ = url_.replace("{id}", encodeURIComponent("" + id));
+        let options_: RequestInit = {
+            method: "GET",
+            headers: {
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.1.7",
+            }
+        };
+
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processGeminiLlmScraperTaskGetHtml(_response);
+        });
+    }
+
+    protected processGeminiLlmScraperTaskGetHtml(response: Response): Promise<AiOptimizationGeminiLlmScraperTaskGetHtmlResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationGeminiLlmScraperTaskGetHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationGeminiLlmScraperTaskGetHtmlResponseInfo | null>(null as any);
+    }
+    geminiLlmScraperLiveAdvanced(body: AiOptimizationGeminiLlmScraperLiveAdvancedRequestInfo[]): Promise<AiOptimizationGeminiLlmScraperLiveAdvancedResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/gemini/llm_scraper/live/advanced";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.1.7",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processGeminiLlmScraperLiveAdvanced(_response);
+        });
+    }
+
+    protected processGeminiLlmScraperLiveAdvanced(response: Response): Promise<AiOptimizationGeminiLlmScraperLiveAdvancedResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationGeminiLlmScraperLiveAdvancedResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationGeminiLlmScraperLiveAdvancedResponseInfo | null>(null as any);
+    }
+    geminiLlmScraperLiveHtml(body: AiOptimizationGeminiLlmScraperLiveHtmlRequestInfo[]): Promise<AiOptimizationGeminiLlmScraperLiveHtmlResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/ai_optimization/gemini/llm_scraper/live/html";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.1.7",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processGeminiLlmScraperLiveHtml(_response);
+        });
+    }
+
+    protected processGeminiLlmScraperLiveHtml(response: Response): Promise<AiOptimizationGeminiLlmScraperLiveHtmlResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? AiOptimizationGeminiLlmScraperLiveHtmlResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<AiOptimizationGeminiLlmScraperLiveHtmlResponseInfo | null>(null as any);
+    }
     aiKeywordDataAvailableFilters(): Promise<AiOptimizationAiKeywordDataAvailableFiltersResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/ai_optimization/ai_keyword_data/available_filters";
         url_ = url_.replace(/[?&]$/, "");
@@ -1259,7 +1259,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
 
@@ -1292,7 +1292,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
 
@@ -1328,7 +1328,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1360,7 +1360,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
 
@@ -1393,7 +1393,7 @@ export class AiOptimizationApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
 
@@ -1429,7 +1429,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1464,7 +1464,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1499,7 +1499,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1534,7 +1534,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1569,7 +1569,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1604,7 +1604,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1639,7 +1639,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1674,7 +1674,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1709,7 +1709,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1744,7 +1744,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1779,7 +1779,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1814,7 +1814,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1849,7 +1849,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1884,7 +1884,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1919,7 +1919,7 @@ export class AiOptimizationApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.6",
+                "User-Agent": "typescript-client/2.1.7",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {

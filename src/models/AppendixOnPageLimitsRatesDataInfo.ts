@@ -35,6 +35,8 @@ export interface IAppendixOnPageLimitsRatesDataInfo   {
         
         lighthouse?: AppendixInfo | undefined
         
+        available_filters?: number | undefined
+        
         keyword_density?: number | undefined
         
         page_screenshot?: number | undefined
@@ -42,6 +44,10 @@ export interface IAppendixOnPageLimitsRatesDataInfo   {
         content_parsing?: number | undefined
         
         content_parsing_live?: number | undefined
+        
+        id_list?: number | undefined
+        
+        uncrawlable_resources?: number | undefined
 
     [key: string]: any;
 
@@ -81,6 +87,8 @@ export class AppendixOnPageLimitsRatesDataInfo  implements IAppendixOnPageLimits
 
     lighthouse?: AppendixInfo | undefined;
 
+    available_filters?: number | undefined;
+
     keyword_density?: number | undefined;
 
     page_screenshot?: number | undefined;
@@ -88,6 +96,10 @@ export class AppendixOnPageLimitsRatesDataInfo  implements IAppendixOnPageLimits
     content_parsing?: number | undefined;
 
     content_parsing_live?: number | undefined;
+
+    id_list?: number | undefined;
+
+    uncrawlable_resources?: number | undefined;
 
     [key: string]: any;
 
@@ -125,10 +137,13 @@ export class AppendixOnPageLimitsRatesDataInfo  implements IAppendixOnPageLimits
             this.instant_pages = data["instant_pages"];
             this.redirect_chains = data["redirect_chains"];
             this.lighthouse = data["lighthouse"] ? AppendixInfo.fromJS(data["lighthouse"]) : <any>undefined;
+            this.available_filters = data["available_filters"];
             this.keyword_density = data["keyword_density"];
             this.page_screenshot = data["page_screenshot"];
             this.content_parsing = data["content_parsing"];
             this.content_parsing_live = data["content_parsing_live"];
+            this.id_list = data["id_list"];
+            this.uncrawlable_resources = data["uncrawlable_resources"];
         }
     }
 
@@ -162,10 +177,13 @@ export class AppendixOnPageLimitsRatesDataInfo  implements IAppendixOnPageLimits
         data["instant_pages"] = this.instant_pages;
         data["redirect_chains"] = this.redirect_chains;
         data["lighthouse"] = this.lighthouse ? AppendixInfo.fromJS(this.lighthouse)?.toJSON() : <any>undefined;
+        data["available_filters"] = this.available_filters;
         data["keyword_density"] = this.keyword_density;
         data["page_screenshot"] = this.page_screenshot;
         data["content_parsing"] = this.content_parsing;
         data["content_parsing_live"] = this.content_parsing_live;
+        data["id_list"] = this.id_list;
+        data["uncrawlable_resources"] = this.uncrawlable_resources;
         return data;
     }
 }

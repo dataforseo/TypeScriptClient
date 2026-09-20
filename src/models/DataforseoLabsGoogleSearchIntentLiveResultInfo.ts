@@ -3,9 +3,6 @@ import { DataforseoLabsGoogleSearchIntentLiveItem, IDataforseoLabsGoogleSearchIn
 
 export interface IDataforseoLabsGoogleSearchIntentLiveResultInfo   {
         
-        /** *language code in a POST array* if there is no data, then the value is_`null`n */
-        language_code?: string | undefined
-        
         /** *the number of results returned in the `items` array* */
         items_count?: number | undefined
         
@@ -17,11 +14,6 @@ export interface IDataforseoLabsGoogleSearchIntentLiveResultInfo   {
     }
 
 export class DataforseoLabsGoogleSearchIntentLiveResultInfo  implements IDataforseoLabsGoogleSearchIntentLiveResultInfo {
-
-    
-    /** *language code in a POST array* if there is no data, then the value is_`null`n */
-
-    language_code?: string | undefined;
 
     
     /** *the number of results returned in the `items` array* */
@@ -53,7 +45,6 @@ export class DataforseoLabsGoogleSearchIntentLiveResultInfo  implements IDatafor
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
-            this.language_code = data["language_code"];
             this.items_count = data["items_count"];
             if (Array.isArray(data["items"])) {
                 this.items = [];
@@ -78,7 +69,6 @@ export class DataforseoLabsGoogleSearchIntentLiveResultInfo  implements IDatafor
 
         
         
-        data["language_code"] = this.language_code;
         data["items_count"] = this.items_count;
         data["items"] = null;
         if (Array.isArray(this.items)) {

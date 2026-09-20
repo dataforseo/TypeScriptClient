@@ -1,10 +1,11 @@
+import { AiOptimizationChatGptLlmScraperTasksReadyResultInfo, IAiOptimizationChatGptLlmScraperTasksReadyResultInfo } from "./AiOptimizationChatGptLlmScraperTasksReadyResultInfo";
 import { BaseResponseTaskInfo, IBaseResponseTaskInfo } from "./BaseResponseTaskInfo";
 
 
 export interface IAiOptimizationChatGptLlmScraperTasksReadyTaskInfo  extends IBaseResponseTaskInfo    {
         
         /** *array of results* */
-        result?: any | undefined
+        result?: AiOptimizationChatGptLlmScraperTasksReadyResultInfo[] | undefined
 
     [key: string]: any;
 
@@ -15,7 +16,7 @@ export class AiOptimizationChatGptLlmScraperTasksReadyTaskInfo  extends BaseResp
     
     /** *array of results* */
 
-    result?: any | undefined;
+    result?: AiOptimizationChatGptLlmScraperTasksReadyResultInfo[] | undefined;
 
     [key: string]: any;
 
@@ -32,7 +33,12 @@ export class AiOptimizationChatGptLlmScraperTasksReadyTaskInfo  extends BaseResp
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
-            this.result = data["result"];
+            if (Array.isArray(data["result"])) {
+                this.result = [];
+                for (let item of data["result"]) {
+                    this.result.push(AiOptimizationChatGptLlmScraperTasksReadyResultInfo.fromJS(item));
+                }
+            }
         }
     }
 
@@ -52,7 +58,15 @@ export class AiOptimizationChatGptLlmScraperTasksReadyTaskInfo  extends BaseResp
         super.toJSON(data);
         
         
-        data["result"] = this.result;
+        data["result"] = null;
+        if (Array.isArray(this.result)) {
+            data["result"] = [];
+            for (let item of this.result) {
+                if (item && typeof item.toJSON === "function") {
+                    data["result"].push(item?.toJSON());
+                }
+            }
+        }
         return data;
     }
 }

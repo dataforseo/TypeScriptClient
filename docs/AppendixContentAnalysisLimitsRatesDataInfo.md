@@ -14,3 +14,5 @@
 **languages** | **number** |  |[optional]|
 **categories** | **number** |  |[optional]|
 **errors** | **number** |  |[optional]|
+**available_filters** | **number** |  |[optional]|
+**id_list** | **number** |  |[optional]|

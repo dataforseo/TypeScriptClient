@@ -17,6 +17,8 @@ export interface IAppendixMerchantLimitsRatesDataInfo   {
         
         reviews?: AppendixSerpDaysRatesDataInfo | undefined
         
+        id_list?: number | undefined
+        
         tasks_ready?: number | undefined
 
     [key: string]: any;
@@ -36,6 +38,8 @@ export class AppendixMerchantLimitsRatesDataInfo  implements IAppendixMerchantLi
     errors?: number | undefined;
 
     reviews?: AppendixSerpDaysRatesDataInfo | undefined;
+
+    id_list?: number | undefined;
 
     tasks_ready?: number | undefined;
 
@@ -65,6 +69,7 @@ export class AppendixMerchantLimitsRatesDataInfo  implements IAppendixMerchantLi
             this.languages = data["languages"];
             this.errors = data["errors"];
             this.reviews = data["reviews"] ? AppendixSerpDaysRatesDataInfo.fromJS(data["reviews"]) : <any>undefined;
+            this.id_list = data["id_list"];
             this.tasks_ready = data["tasks_ready"];
         }
     }
@@ -89,6 +94,7 @@ export class AppendixMerchantLimitsRatesDataInfo  implements IAppendixMerchantLi
         data["languages"] = this.languages;
         data["errors"] = this.errors;
         data["reviews"] = this.reviews ? AppendixSerpDaysRatesDataInfo.fromJS(this.reviews)?.toJSON() : <any>undefined;
+        data["id_list"] = this.id_list;
         data["tasks_ready"] = this.tasks_ready;
         return data;
     }

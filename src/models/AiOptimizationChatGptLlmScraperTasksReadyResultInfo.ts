@@ -6,17 +6,14 @@ export interface IAiOptimizationChatGptLlmScraperTasksReadyResultInfo   {
         /** *search engine specified when setting the task* */
         se?: string | undefined
         
-        /** *type of search engine* example: `{{low_se_type_under}}` */
-        se_type?: string | undefined
+        /** *funciton type* example: `{{low_se_type_under}}` */
+        function?: string | undefined
         
         /** *date when the task was posted (in the UTC format)* */
         date_posted?: string | undefined
         
         /** *user-defined task identifier* */
         tag?: string | undefined
-        
-        /** *URL for collecting the results of the Regular task* if the Regular function is not supported in the specified endpoint, the value will be `null` */
-        endpoint_regular?: string | undefined
         
         /** *URL for collecting the results of the Advanced task* if the Advanced function is not supported in the specified endpoint, the value will be `null` */
         endpoint_advanced?: string | undefined
@@ -41,9 +38,9 @@ export class AiOptimizationChatGptLlmScraperTasksReadyResultInfo  implements IAi
     se?: string | undefined;
 
     
-    /** *type of search engine* example: `{{low_se_type_under}}` */
+    /** *funciton type* example: `{{low_se_type_under}}` */
 
-    se_type?: string | undefined;
+    function?: string | undefined;
 
     
     /** *date when the task was posted (in the UTC format)* */
@@ -54,11 +51,6 @@ export class AiOptimizationChatGptLlmScraperTasksReadyResultInfo  implements IAi
     /** *user-defined task identifier* */
 
     tag?: string | undefined;
-
-    
-    /** *URL for collecting the results of the Regular task* if the Regular function is not supported in the specified endpoint, the value will be `null` */
-
-    endpoint_regular?: string | undefined;
 
     
     /** *URL for collecting the results of the Advanced task* if the Advanced function is not supported in the specified endpoint, the value will be `null` */
@@ -92,10 +84,9 @@ export class AiOptimizationChatGptLlmScraperTasksReadyResultInfo  implements IAi
             }
             this.id = data["id"];
             this.se = data["se"];
-            this.se_type = data["se_type"];
+            this.function = data["function"];
             this.date_posted = data["date_posted"];
             this.tag = data["tag"];
-            this.endpoint_regular = data["endpoint_regular"];
             this.endpoint_advanced = data["endpoint_advanced"];
             this.endpoint_html = data["endpoint_html"];
         }
@@ -117,10 +108,9 @@ export class AiOptimizationChatGptLlmScraperTasksReadyResultInfo  implements IAi
         
         data["id"] = this.id;
         data["se"] = this.se;
-        data["se_type"] = this.se_type;
+        data["function"] = this.function;
         data["date_posted"] = this.date_posted;
         data["tag"] = this.tag;
-        data["endpoint_regular"] = this.endpoint_regular;
         data["endpoint_advanced"] = this.endpoint_advanced;
         data["endpoint_html"] = this.endpoint_html;
         return data;

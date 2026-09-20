@@ -9,7 +9,7 @@ import { AppendixBusinessDataLimitsRatesDataInfo, IAppendixBusinessDataLimitsRat
 import { AppendixBacklinksLimitsRatesDataInfo, IAppendixBacklinksLimitsRatesDataInfo } from "./AppendixBacklinksLimitsRatesDataInfo";
 import { AppendixAppDataLimitsRatesDataInfo, IAppendixAppDataLimitsRatesDataInfo } from "./AppendixAppDataLimitsRatesDataInfo";
 import { AppendixContentAnalysisLimitsRatesDataInfo, IAppendixContentAnalysisLimitsRatesDataInfo } from "./AppendixContentAnalysisLimitsRatesDataInfo";
-import { AppendixContentGenerationLimitsRatesDataInfo, IAppendixContentGenerationLimitsRatesDataInfo } from "./AppendixContentGenerationLimitsRatesDataInfo";
+import { AppendixAiOptimizationLimitsRatesDataInfo, IAppendixAiOptimizationLimitsRatesDataInfo } from "./AppendixAiOptimizationLimitsRatesDataInfo";
 
 
 export interface IAppendixDayLimitsRatesData   {
@@ -61,11 +61,9 @@ export interface IAppendixDayLimitsRatesData   {
         
         total_content_analysis?: number | undefined
         
-        content_generation?: AppendixContentGenerationLimitsRatesDataInfo | undefined
+        ai_optimization?: AppendixAiOptimizationLimitsRatesDataInfo | undefined
         
-        total_content_generation?: number | undefined
-        
-        total_traffic_analytics?: number | undefined
+        total_ai_optimization?: number | undefined
         
         total_reviews?: number | undefined
         
@@ -126,11 +124,9 @@ export class AppendixDayLimitsRatesData  implements IAppendixDayLimitsRatesData 
 
     total_content_analysis?: number | undefined;
 
-    content_generation?: AppendixContentGenerationLimitsRatesDataInfo | undefined;
+    ai_optimization?: AppendixAiOptimizationLimitsRatesDataInfo | undefined;
 
-    total_content_generation?: number | undefined;
-
-    total_traffic_analytics?: number | undefined;
+    total_ai_optimization?: number | undefined;
 
     total_reviews?: number | undefined;
 
@@ -179,9 +175,8 @@ export class AppendixDayLimitsRatesData  implements IAppendixDayLimitsRatesData 
             this.total_app_data = data["total_app_data"];
             this.content_analysis = data["content_analysis"] ? AppendixContentAnalysisLimitsRatesDataInfo.fromJS(data["content_analysis"]) : <any>undefined;
             this.total_content_analysis = data["total_content_analysis"];
-            this.content_generation = data["content_generation"] ? AppendixContentGenerationLimitsRatesDataInfo.fromJS(data["content_generation"]) : <any>undefined;
-            this.total_content_generation = data["total_content_generation"];
-            this.total_traffic_analytics = data["total_traffic_analytics"];
+            this.ai_optimization = data["ai_optimization"] ? AppendixAiOptimizationLimitsRatesDataInfo.fromJS(data["ai_optimization"]) : <any>undefined;
+            this.total_ai_optimization = data["total_ai_optimization"];
             this.total_reviews = data["total_reviews"];
             this.total_social = data["total_social"];
         }
@@ -224,9 +219,8 @@ export class AppendixDayLimitsRatesData  implements IAppendixDayLimitsRatesData 
         data["total_app_data"] = this.total_app_data;
         data["content_analysis"] = this.content_analysis ? AppendixContentAnalysisLimitsRatesDataInfo.fromJS(this.content_analysis)?.toJSON() : <any>undefined;
         data["total_content_analysis"] = this.total_content_analysis;
-        data["content_generation"] = this.content_generation ? AppendixContentGenerationLimitsRatesDataInfo.fromJS(this.content_generation)?.toJSON() : <any>undefined;
-        data["total_content_generation"] = this.total_content_generation;
-        data["total_traffic_analytics"] = this.total_traffic_analytics;
+        data["ai_optimization"] = this.ai_optimization ? AppendixAiOptimizationLimitsRatesDataInfo.fromJS(this.ai_optimization)?.toJSON() : <any>undefined;
+        data["total_ai_optimization"] = this.total_ai_optimization;
         data["total_reviews"] = this.total_reviews;
         data["total_social"] = this.total_social;
         return data;

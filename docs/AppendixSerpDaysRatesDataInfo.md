@@ -14,3 +14,5 @@
 **tasks_fixed** | **number** |  |[optional]|
 **jobs** | **AppendixJobsSerpLimitsRatesDataInfo** |  |[optional]|
 **screenshot** | **number** |  |[optional]|
+**id_list** | **number** |  |[optional]|
+**ai_summary** | **number** |  |[optional]|

@@ -1,4 +1,4 @@
-import { BaseOnPageResourceItem, IBaseOnPageResourceItem } from "./BaseOnPageResourceItem";
+import { OnPageHtmlResourceItem, IOnPageHtmlResourceItem } from "./BaseOnPageResourceItem";
 
 
 export interface IOnPageInstantPagesResultInfo   {
@@ -16,7 +16,7 @@ export interface IOnPageInstantPagesResultInfo   {
         items_count?: number | undefined
         
         /** items array */
-        items?: BaseOnPageResourceItem[] | undefined
+        items?: OnPageHtmlResourceItem[] | undefined
 
     [key: string]: any;
 
@@ -47,7 +47,7 @@ export class OnPageInstantPagesResultInfo  implements IOnPageInstantPagesResultI
     
     /** items array */
 
-    items?: BaseOnPageResourceItem[] | undefined;
+    items?: OnPageHtmlResourceItem[] | undefined;
 
     [key: string]: any;
 
@@ -76,7 +76,7 @@ export class OnPageInstantPagesResultInfo  implements IOnPageInstantPagesResultI
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(BaseOnPageResourceItem.fromJS(item));
+                    this.items.push(OnPageHtmlResourceItem.fromJS(item));
                 }
             }
         }

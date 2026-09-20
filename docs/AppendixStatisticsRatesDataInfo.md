@@ -27,6 +27,6 @@
 **total_app_data** | **number** |  |[optional]|
 **content_analysis** | **AppendixContentAnalysisLimitsRatesDataInfo** |  |[optional]|
 **total_content_analysis** | **number** |  |[optional]|
-**content_generation** | **AppendixContentGenerationLimitsRatesDataInfo** |  |[optional]|
-**total_content_generation** | **number** |  |[optional]|
+**ai_optimization** | **AppendixAiOptimizationLimitsRatesDataInfo** |  |[optional]|
+**total_ai_optimization** | **number** |  |[optional]|
 **value** | **string** | *time period for grouping*. `day`_in the yyyy-MM-dd format. `minute`_in the yyyy-MM-dd HH:mm formatn |[optional]|

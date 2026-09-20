@@ -11,6 +11,8 @@ export interface IAppendixDomainAnalyticsLimitsRatesDataInfo   {
         whois?: AppendixWhoisDomainAnalyticsLimitsRatesDataInfo | undefined
         
         technologies?: AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo | undefined
+        
+        available_filters?: number | undefined
 
     [key: string]: any;
 
@@ -25,6 +27,8 @@ export class AppendixDomainAnalyticsLimitsRatesDataInfo  implements IAppendixDom
     whois?: AppendixWhoisDomainAnalyticsLimitsRatesDataInfo | undefined;
 
     technologies?: AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo | undefined;
+
+    available_filters?: number | undefined;
 
     [key: string]: any;
 
@@ -50,6 +54,7 @@ export class AppendixDomainAnalyticsLimitsRatesDataInfo  implements IAppendixDom
             this.errors = data["errors"];
             this.whois = data["whois"] ? AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.fromJS(data["whois"]) : <any>undefined;
             this.technologies = data["technologies"] ? AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.fromJS(data["technologies"]) : <any>undefined;
+            this.available_filters = data["available_filters"];
         }
     }
 
@@ -71,6 +76,7 @@ export class AppendixDomainAnalyticsLimitsRatesDataInfo  implements IAppendixDom
         data["errors"] = this.errors;
         data["whois"] = this.whois ? AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.fromJS(this.whois)?.toJSON() : <any>undefined;
         data["technologies"] = this.technologies ? AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.fromJS(this.technologies)?.toJSON() : <any>undefined;
+        data["available_filters"] = this.available_filters;
         return data;
     }
 }

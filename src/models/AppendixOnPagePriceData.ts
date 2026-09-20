@@ -1,12 +1,16 @@
 import { AppendixTaskKeywordsDataPriceDataInfo, IAppendixTaskKeywordsDataPriceDataInfo } from "./AppendixTaskKeywordsDataPriceDataInfo";
-import { AppendixGoogleBusinessDataPriceDataInfo, IAppendixGoogleBusinessDataPriceDataInfo } from "./AppendixGoogleBusinessDataPriceDataInfo";
+import { AppendixLlmResponsesAiOptimizationPriceData, IAppendixLlmResponsesAiOptimizationPriceData } from "./AppendixLlmResponsesAiOptimizationPriceData";
 
 
 export interface IAppendixOnPagePriceData   {
         
         errors?: AppendixTaskKeywordsDataPriceDataInfo | undefined
         
-        lighthouse?: AppendixGoogleBusinessDataPriceDataInfo | undefined
+        id_list?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        
+        lighthouse?: AppendixLlmResponsesAiOptimizationPriceData | undefined
+        
+        available_filters?: AppendixTaskKeywordsDataPriceDataInfo | undefined
         
         content_parsing?: AppendixTaskKeywordsDataPriceDataInfo | undefined
         
@@ -42,6 +46,8 @@ export interface IAppendixOnPagePriceData   {
         
         tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo | undefined
         
+        uncrawlable_resources?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        
         waterfall?: AppendixTaskKeywordsDataPriceDataInfo | undefined
 
     [key: string]: any;
@@ -52,7 +58,11 @@ export class AppendixOnPagePriceData  implements IAppendixOnPagePriceData {
 
     errors?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
 
-    lighthouse?: AppendixGoogleBusinessDataPriceDataInfo | undefined;
+    id_list?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+
+    lighthouse?: AppendixLlmResponsesAiOptimizationPriceData | undefined;
+
+    available_filters?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
 
     content_parsing?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
 
@@ -88,6 +98,8 @@ export class AppendixOnPagePriceData  implements IAppendixOnPagePriceData {
 
     tasks_ready?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
 
+    uncrawlable_resources?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+
     waterfall?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
 
     [key: string]: any;
@@ -111,7 +123,9 @@ export class AppendixOnPagePriceData  implements IAppendixOnPagePriceData {
                     this[property] = data[property];
             }
             this.errors = data["errors"] ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(data["errors"]) : <any>undefined;
-            this.lighthouse = data["lighthouse"] ? AppendixGoogleBusinessDataPriceDataInfo.fromJS(data["lighthouse"]) : <any>undefined;
+            this.id_list = data["id_list"] ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(data["id_list"]) : <any>undefined;
+            this.lighthouse = data["lighthouse"] ? AppendixLlmResponsesAiOptimizationPriceData.fromJS(data["lighthouse"]) : <any>undefined;
+            this.available_filters = data["available_filters"] ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(data["available_filters"]) : <any>undefined;
             this.content_parsing = data["content_parsing"] ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(data["content_parsing"]) : <any>undefined;
             this.content_parsing_live = data["content_parsing_live"] ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(data["content_parsing_live"]) : <any>undefined;
             this.duplicate_content = data["duplicate_content"] ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(data["duplicate_content"]) : <any>undefined;
@@ -129,6 +143,7 @@ export class AppendixOnPagePriceData  implements IAppendixOnPagePriceData {
             this.summary = data["summary"] ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(data["summary"]) : <any>undefined;
             this.task_post = data["task_post"] ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(data["task_post"]) : <any>undefined;
             this.tasks_ready = data["tasks_ready"] ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(data["tasks_ready"]) : <any>undefined;
+            this.uncrawlable_resources = data["uncrawlable_resources"] ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(data["uncrawlable_resources"]) : <any>undefined;
             this.waterfall = data["waterfall"] ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(data["waterfall"]) : <any>undefined;
         }
     }
@@ -148,7 +163,9 @@ export class AppendixOnPagePriceData  implements IAppendixOnPagePriceData {
         
         
         data["errors"] = this.errors ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(this.errors)?.toJSON() : <any>undefined;
-        data["lighthouse"] = this.lighthouse ? AppendixGoogleBusinessDataPriceDataInfo.fromJS(this.lighthouse)?.toJSON() : <any>undefined;
+        data["id_list"] = this.id_list ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(this.id_list)?.toJSON() : <any>undefined;
+        data["lighthouse"] = this.lighthouse ? AppendixLlmResponsesAiOptimizationPriceData.fromJS(this.lighthouse)?.toJSON() : <any>undefined;
+        data["available_filters"] = this.available_filters ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(this.available_filters)?.toJSON() : <any>undefined;
         data["content_parsing"] = this.content_parsing ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(this.content_parsing)?.toJSON() : <any>undefined;
         data["content_parsing_live"] = this.content_parsing_live ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(this.content_parsing_live)?.toJSON() : <any>undefined;
         data["duplicate_content"] = this.duplicate_content ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(this.duplicate_content)?.toJSON() : <any>undefined;
@@ -166,6 +183,7 @@ export class AppendixOnPagePriceData  implements IAppendixOnPagePriceData {
         data["summary"] = this.summary ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(this.summary)?.toJSON() : <any>undefined;
         data["task_post"] = this.task_post ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(this.task_post)?.toJSON() : <any>undefined;
         data["tasks_ready"] = this.tasks_ready ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(this.tasks_ready)?.toJSON() : <any>undefined;
+        data["uncrawlable_resources"] = this.uncrawlable_resources ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(this.uncrawlable_resources)?.toJSON() : <any>undefined;
         data["waterfall"] = this.waterfall ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(this.waterfall)?.toJSON() : <any>undefined;
         return data;
     }

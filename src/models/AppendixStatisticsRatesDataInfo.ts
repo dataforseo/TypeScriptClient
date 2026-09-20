@@ -9,7 +9,7 @@ import { AppendixBusinessDataLimitsRatesDataInfo, IAppendixBusinessDataLimitsRat
 import { AppendixBacklinksLimitsRatesDataInfo, IAppendixBacklinksLimitsRatesDataInfo } from "./AppendixBacklinksLimitsRatesDataInfo";
 import { AppendixAppDataLimitsRatesDataInfo, IAppendixAppDataLimitsRatesDataInfo } from "./AppendixAppDataLimitsRatesDataInfo";
 import { AppendixContentAnalysisLimitsRatesDataInfo, IAppendixContentAnalysisLimitsRatesDataInfo } from "./AppendixContentAnalysisLimitsRatesDataInfo";
-import { AppendixContentGenerationLimitsRatesDataInfo, IAppendixContentGenerationLimitsRatesDataInfo } from "./AppendixContentGenerationLimitsRatesDataInfo";
+import { AppendixAiOptimizationLimitsRatesDataInfo, IAppendixAiOptimizationLimitsRatesDataInfo } from "./AppendixAiOptimizationLimitsRatesDataInfo";
 
 
 export interface IAppendixStatisticsRatesDataInfo   {
@@ -61,9 +61,9 @@ export interface IAppendixStatisticsRatesDataInfo   {
         
         total_content_analysis?: number | undefined
         
-        content_generation?: AppendixContentGenerationLimitsRatesDataInfo | undefined
+        ai_optimization?: AppendixAiOptimizationLimitsRatesDataInfo | undefined
         
-        total_content_generation?: number | undefined
+        total_ai_optimization?: number | undefined
         
         /** *time period for grouping* `day`_in the yyyy-MM-dd format `minute`_in the yyyy-MM-dd HH:mm formatn */
         value?: string | undefined
@@ -123,9 +123,9 @@ export class AppendixStatisticsRatesDataInfo  implements IAppendixStatisticsRate
 
     total_content_analysis?: number | undefined;
 
-    content_generation?: AppendixContentGenerationLimitsRatesDataInfo | undefined;
+    ai_optimization?: AppendixAiOptimizationLimitsRatesDataInfo | undefined;
 
-    total_content_generation?: number | undefined;
+    total_ai_optimization?: number | undefined;
 
     
     /** *time period for grouping* `day`_in the yyyy-MM-dd format `minute`_in the yyyy-MM-dd HH:mm formatn */
@@ -175,8 +175,8 @@ export class AppendixStatisticsRatesDataInfo  implements IAppendixStatisticsRate
             this.total_app_data = data["total_app_data"];
             this.content_analysis = data["content_analysis"] ? AppendixContentAnalysisLimitsRatesDataInfo.fromJS(data["content_analysis"]) : <any>undefined;
             this.total_content_analysis = data["total_content_analysis"];
-            this.content_generation = data["content_generation"] ? AppendixContentGenerationLimitsRatesDataInfo.fromJS(data["content_generation"]) : <any>undefined;
-            this.total_content_generation = data["total_content_generation"];
+            this.ai_optimization = data["ai_optimization"] ? AppendixAiOptimizationLimitsRatesDataInfo.fromJS(data["ai_optimization"]) : <any>undefined;
+            this.total_ai_optimization = data["total_ai_optimization"];
             this.value = data["value"];
         }
     }
@@ -218,8 +218,8 @@ export class AppendixStatisticsRatesDataInfo  implements IAppendixStatisticsRate
         data["total_app_data"] = this.total_app_data;
         data["content_analysis"] = this.content_analysis ? AppendixContentAnalysisLimitsRatesDataInfo.fromJS(this.content_analysis)?.toJSON() : <any>undefined;
         data["total_content_analysis"] = this.total_content_analysis;
-        data["content_generation"] = this.content_generation ? AppendixContentGenerationLimitsRatesDataInfo.fromJS(this.content_generation)?.toJSON() : <any>undefined;
-        data["total_content_generation"] = this.total_content_generation;
+        data["ai_optimization"] = this.ai_optimization ? AppendixAiOptimizationLimitsRatesDataInfo.fromJS(this.ai_optimization)?.toJSON() : <any>undefined;
+        data["total_ai_optimization"] = this.total_ai_optimization;
         data["value"] = this.value;
         return data;
     }

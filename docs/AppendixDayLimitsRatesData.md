@@ -27,8 +27,7 @@
 **total_app_data** | **number** |  |[optional]|
 **content_analysis** | **AppendixContentAnalysisLimitsRatesDataInfo** |  |[optional]|
 **total_content_analysis** | **number** |  |[optional]|
-**content_generation** | **AppendixContentGenerationLimitsRatesDataInfo** |  |[optional]|
-**total_content_generation** | **number** |  |[optional]|
-**total_traffic_analytics** | **number** |  |[optional]|
+**ai_optimization** | **AppendixAiOptimizationLimitsRatesDataInfo** |  |[optional]|
+**total_ai_optimization** | **number** |  |[optional]|
 **total_reviews** | **number** |  |[optional]|
 **total_social** | **number** |  |[optional]|

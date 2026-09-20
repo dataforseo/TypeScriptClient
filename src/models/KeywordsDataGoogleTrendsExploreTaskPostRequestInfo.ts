@@ -1,6 +1,6 @@
 export interface IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo   {
         
-        /** *keywords* **required field** the maximum number of keywords you can specify: 5 the maximum number of characters you can specify in a keyword: 100 the minimum number of characters must be greater than 1 comma characters (`,`) in the specified keywords will be unset and ignored **Note:** keywords cannot consist of a combination of the following characters: `|  ' - + = ~ ! : * ( ) [ ] { }` **Note:** to obtain `google_trends_topics_list` and `google_trends_queries_list` items, specify no more than 1 keyword learn more about rules and limitations of `keyword` and `keywords` fields in DataForSEO APIs in this [Help Center article](https://dataforseo.com/help-center/rules-and-limitations-of-keyword-and-keywords-fields-in-dataforseo-apis) */
+        /** *keywords* **required field if you don't specify `category_code`** the maximum number of keywords you can specify: 5 the maximum number of characters you can specify in a keyword: 100 the minimum number of characters must be greater than 1 comma characters (`,`) in the specified keywords will be unset and ignored **Note:** keywords cannot consist of a combination of the following characters: `|  ' - + = ~ ! : * ( ) [ ] { }` **Note:** to obtain `google_trends_topics_list` and `google_trends_queries_list` items, specify no more than 1 keyword learn more about rules and limitations of `keyword` and `keywords` fields in DataForSEO APIs in this [Help Center article](https://dataforseo.com/help-center/rules-and-limitations-of-keyword-and-keywords-fields-in-dataforseo-apis) */
         keywords?: string[] | undefined
         
         /** *full name of search engine location* optional field if you don't use this field, you will recieve global results **if you use this field, you don't need to specify `location_code`** you can use this field as an array to set several locations, each corresponding to a specific keyword - [learn more](https://dataforseo.com/help-center/multiple-locations-in-google-trends-api); you can receive the list of available locations of the search engine with their `location_name` by making a separate request to `https://api.dataforseo.com/v3/keywords_data/google_trends/locations` example: `United Kingdom` */
@@ -18,7 +18,7 @@ export interface IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo   {
         /** type of element */
         type?: string | undefined
         
-        /** *google trends search category* optional field if you don't specify this field, the `0` value will be applied by default and the search will be carried out across all available categories you can receive the list of available categories with their `category_code` by making a separate request to the `https://api.dataforseo.com/v3/keywords_data/google_trends/categories` */
+        /** *google trends search category* **required field if you don't specify `keywords`** if you don't specify `keywords`, the value of this field must be greater than `0` if you specify `keywords` and don't specify this field, the `0` value will be applied by default and the search will be carried out across all available categories you can receive the list of available categories with their `category_code` by making a separate request to the `https://api.dataforseo.com/v3/keywords_data/google_trends/categories` */
         category_code?: number | undefined
         
         /** *starting date of the time range* optional field if you don't specify this field, the current day and month of the preceding year will be used by default minimal value for the `web` type: `2004-01-01` minimal value for other types: `2008-01-01` date format: `'yyyy-mm-dd'` example: `'2019-01-15'` */
@@ -49,7 +49,7 @@ export interface IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo   {
 export class KeywordsDataGoogleTrendsExploreTaskPostRequestInfo  implements IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo {
 
     
-    /** *keywords* **required field** the maximum number of keywords you can specify: 5 the maximum number of characters you can specify in a keyword: 100 the minimum number of characters must be greater than 1 comma characters (`,`) in the specified keywords will be unset and ignored **Note:** keywords cannot consist of a combination of the following characters: `|  ' - + = ~ ! : * ( ) [ ] { }` **Note:** to obtain `google_trends_topics_list` and `google_trends_queries_list` items, specify no more than 1 keyword learn more about rules and limitations of `keyword` and `keywords` fields in DataForSEO APIs in this [Help Center article](https://dataforseo.com/help-center/rules-and-limitations-of-keyword-and-keywords-fields-in-dataforseo-apis) */
+    /** *keywords* **required field if you don't specify `category_code`** the maximum number of keywords you can specify: 5 the maximum number of characters you can specify in a keyword: 100 the minimum number of characters must be greater than 1 comma characters (`,`) in the specified keywords will be unset and ignored **Note:** keywords cannot consist of a combination of the following characters: `|  ' - + = ~ ! : * ( ) [ ] { }` **Note:** to obtain `google_trends_topics_list` and `google_trends_queries_list` items, specify no more than 1 keyword learn more about rules and limitations of `keyword` and `keywords` fields in DataForSEO APIs in this [Help Center article](https://dataforseo.com/help-center/rules-and-limitations-of-keyword-and-keywords-fields-in-dataforseo-apis) */
 
     keywords?: string[] | undefined;
 
@@ -79,7 +79,7 @@ export class KeywordsDataGoogleTrendsExploreTaskPostRequestInfo  implements IKey
     type?: string | undefined;
 
     
-    /** *google trends search category* optional field if you don't specify this field, the `0` value will be applied by default and the search will be carried out across all available categories you can receive the list of available categories with their `category_code` by making a separate request to the `https://api.dataforseo.com/v3/keywords_data/google_trends/categories` */
+    /** *google trends search category* **required field if you don't specify `keywords`** if you don't specify `keywords`, the value of this field must be greater than `0` if you specify `keywords` and don't specify this field, the `0` value will be applied by default and the search will be carried out across all available categories you can receive the list of available categories with their `category_code` by making a separate request to the `https://api.dataforseo.com/v3/keywords_data/google_trends/categories` */
 
     category_code?: number | undefined;
 

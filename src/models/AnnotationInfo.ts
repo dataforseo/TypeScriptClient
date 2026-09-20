@@ -3,8 +3,11 @@ export interface IAnnotationInfo   {
         /** *the domain name or title of the quoted source* */
         title?: string | undefined
         
-        /** *URL of the quoted source* */
+        /** *redirect URL to the quoted source* contains a Vertex AI redirect that leads to the original source */
         url?: string | undefined
+        
+        /** *direct URL to the quoted source* contains the original source URL that the Vertex AI redirect in the `url` field leads to */
+        direct_url?: string | undefined
         
         /** *start of the annotation indexing* */
         start_index?: number | undefined
@@ -27,9 +30,14 @@ export class AnnotationInfo  implements IAnnotationInfo {
     title?: string | undefined;
 
     
-    /** *URL of the quoted source* */
+    /** *redirect URL to the quoted source* contains a Vertex AI redirect that leads to the original source */
 
     url?: string | undefined;
+
+    
+    /** *direct URL to the quoted source* contains the original source URL that the Vertex AI redirect in the `url` field leads to */
+
+    direct_url?: string | undefined;
 
     
     /** *start of the annotation indexing* */
@@ -68,6 +76,7 @@ export class AnnotationInfo  implements IAnnotationInfo {
             }
             this.title = data["title"];
             this.url = data["url"];
+            this.direct_url = data["direct_url"];
             this.start_index = data["start_index"];
             this.end_index = data["end_index"];
             this.text = data["text"];
@@ -90,6 +99,7 @@ export class AnnotationInfo  implements IAnnotationInfo {
         
         data["title"] = this.title;
         data["url"] = this.url;
+        data["direct_url"] = this.direct_url;
         data["start_index"] = this.start_index;
         data["end_index"] = this.end_index;
         data["text"] = this.text;

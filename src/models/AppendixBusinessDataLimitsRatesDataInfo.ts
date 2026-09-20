@@ -1,6 +1,5 @@
 import { AppendixBusinessDataGoogleInfo, IAppendixBusinessDataGoogleInfo } from "./AppendixBusinessDataGoogleInfo";
-import { AppendixBusinessDataDayLimitsRatesDataInfo, IAppendixBusinessDataDayLimitsRatesDataInfo } from "./AppendixBusinessDataDayLimitsRatesDataInfo";
-import { AppendixSocialMediaBusinessDataLimitsRatesDataInfo, IAppendixSocialMediaBusinessDataLimitsRatesDataInfo } from "./AppendixSocialMediaBusinessDataLimitsRatesDataInfo";
+import { AppendixTrBusinessDataDayLimitsRatesDataInfo, IAppendixTrBusinessDataDayLimitsRatesDataInfo } from "./AppendixTrBusinessDataDayLimitsRatesDataInfo";
 import { AppendixBusinessListingsBusinessDataLimitsRatesDataInfo, IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo } from "./AppendixBusinessListingsBusinessDataLimitsRatesDataInfo";
 
 
@@ -14,15 +13,15 @@ export interface IAppendixBusinessDataLimitsRatesDataInfo   {
         
         errors?: number | undefined
         
-        yelp?: AppendixBusinessDataDayLimitsRatesDataInfo | undefined
+        tripadvisor?: AppendixTrBusinessDataDayLimitsRatesDataInfo | undefined
         
-        social_media?: AppendixSocialMediaBusinessDataLimitsRatesDataInfo | undefined
+        trustpilot?: AppendixTrBusinessDataDayLimitsRatesDataInfo | undefined
         
-        tripadvisor?: AppendixBusinessDataDayLimitsRatesDataInfo | undefined
-        
-        trustpilot?: AppendixBusinessDataDayLimitsRatesDataInfo | undefined
+        id_list?: number | undefined
         
         business_listings?: AppendixBusinessListingsBusinessDataLimitsRatesDataInfo | undefined
+        
+        available_filters?: number | undefined
         
         tasks_ready?: number | undefined
 
@@ -40,15 +39,15 @@ export class AppendixBusinessDataLimitsRatesDataInfo  implements IAppendixBusine
 
     errors?: number | undefined;
 
-    yelp?: AppendixBusinessDataDayLimitsRatesDataInfo | undefined;
+    tripadvisor?: AppendixTrBusinessDataDayLimitsRatesDataInfo | undefined;
 
-    social_media?: AppendixSocialMediaBusinessDataLimitsRatesDataInfo | undefined;
+    trustpilot?: AppendixTrBusinessDataDayLimitsRatesDataInfo | undefined;
 
-    tripadvisor?: AppendixBusinessDataDayLimitsRatesDataInfo | undefined;
-
-    trustpilot?: AppendixBusinessDataDayLimitsRatesDataInfo | undefined;
+    id_list?: number | undefined;
 
     business_listings?: AppendixBusinessListingsBusinessDataLimitsRatesDataInfo | undefined;
+
+    available_filters?: number | undefined;
 
     tasks_ready?: number | undefined;
 
@@ -76,11 +75,11 @@ export class AppendixBusinessDataLimitsRatesDataInfo  implements IAppendixBusine
             this.locations = data["locations"];
             this.languages = data["languages"];
             this.errors = data["errors"];
-            this.yelp = data["yelp"] ? AppendixBusinessDataDayLimitsRatesDataInfo.fromJS(data["yelp"]) : <any>undefined;
-            this.social_media = data["social_media"] ? AppendixSocialMediaBusinessDataLimitsRatesDataInfo.fromJS(data["social_media"]) : <any>undefined;
-            this.tripadvisor = data["tripadvisor"] ? AppendixBusinessDataDayLimitsRatesDataInfo.fromJS(data["tripadvisor"]) : <any>undefined;
-            this.trustpilot = data["trustpilot"] ? AppendixBusinessDataDayLimitsRatesDataInfo.fromJS(data["trustpilot"]) : <any>undefined;
+            this.tripadvisor = data["tripadvisor"] ? AppendixTrBusinessDataDayLimitsRatesDataInfo.fromJS(data["tripadvisor"]) : <any>undefined;
+            this.trustpilot = data["trustpilot"] ? AppendixTrBusinessDataDayLimitsRatesDataInfo.fromJS(data["trustpilot"]) : <any>undefined;
+            this.id_list = data["id_list"];
             this.business_listings = data["business_listings"] ? AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.fromJS(data["business_listings"]) : <any>undefined;
+            this.available_filters = data["available_filters"];
             this.tasks_ready = data["tasks_ready"];
         }
     }
@@ -103,11 +102,11 @@ export class AppendixBusinessDataLimitsRatesDataInfo  implements IAppendixBusine
         data["locations"] = this.locations;
         data["languages"] = this.languages;
         data["errors"] = this.errors;
-        data["yelp"] = this.yelp ? AppendixBusinessDataDayLimitsRatesDataInfo.fromJS(this.yelp)?.toJSON() : <any>undefined;
-        data["social_media"] = this.social_media ? AppendixSocialMediaBusinessDataLimitsRatesDataInfo.fromJS(this.social_media)?.toJSON() : <any>undefined;
-        data["tripadvisor"] = this.tripadvisor ? AppendixBusinessDataDayLimitsRatesDataInfo.fromJS(this.tripadvisor)?.toJSON() : <any>undefined;
-        data["trustpilot"] = this.trustpilot ? AppendixBusinessDataDayLimitsRatesDataInfo.fromJS(this.trustpilot)?.toJSON() : <any>undefined;
+        data["tripadvisor"] = this.tripadvisor ? AppendixTrBusinessDataDayLimitsRatesDataInfo.fromJS(this.tripadvisor)?.toJSON() : <any>undefined;
+        data["trustpilot"] = this.trustpilot ? AppendixTrBusinessDataDayLimitsRatesDataInfo.fromJS(this.trustpilot)?.toJSON() : <any>undefined;
+        data["id_list"] = this.id_list;
         data["business_listings"] = this.business_listings ? AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.fromJS(this.business_listings)?.toJSON() : <any>undefined;
+        data["available_filters"] = this.available_filters;
         data["tasks_ready"] = this.tasks_ready;
         return data;
     }

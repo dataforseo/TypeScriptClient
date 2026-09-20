@@ -25,6 +25,8 @@ export interface IAppendixKeywordsDataPriceData   {
         
         google_ads?: AppendixGoogleAdsKeywordsDataPriceData | undefined
         
+        id_list?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        
         keyword_performance?: AppendixAKeywordsDataPriceDataInfo | undefined
         
         keywords_for_keywords?: AppendixAKeywordsDataPriceDataInfo | undefined
@@ -66,6 +68,8 @@ export class AppendixKeywordsDataPriceData  implements IAppendixKeywordsDataPric
     errors?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
 
     google_ads?: AppendixGoogleAdsKeywordsDataPriceData | undefined;
+
+    id_list?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
 
     keyword_performance?: AppendixAKeywordsDataPriceDataInfo | undefined;
 
@@ -115,6 +119,7 @@ export class AppendixKeywordsDataPriceData  implements IAppendixKeywordsDataPric
             this.clickstream_data = data["clickstream_data"] ? AppendixClickstreamDataKeywordsDataPriceData.fromJS(data["clickstream_data"]) : <any>undefined;
             this.errors = data["errors"] ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(data["errors"]) : <any>undefined;
             this.google_ads = data["google_ads"] ? AppendixGoogleAdsKeywordsDataPriceData.fromJS(data["google_ads"]) : <any>undefined;
+            this.id_list = data["id_list"] ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(data["id_list"]) : <any>undefined;
             this.keyword_performance = data["keyword_performance"] ? AppendixAKeywordsDataPriceDataInfo.fromJS(data["keyword_performance"]) : <any>undefined;
             this.keywords_for_keywords = data["keywords_for_keywords"] ? AppendixAKeywordsDataPriceDataInfo.fromJS(data["keywords_for_keywords"]) : <any>undefined;
             this.keywords_for_site = data["keywords_for_site"] ? AppendixAKeywordsDataPriceDataInfo.fromJS(data["keywords_for_site"]) : <any>undefined;
@@ -150,6 +155,7 @@ export class AppendixKeywordsDataPriceData  implements IAppendixKeywordsDataPric
         data["clickstream_data"] = this.clickstream_data ? AppendixClickstreamDataKeywordsDataPriceData.fromJS(this.clickstream_data)?.toJSON() : <any>undefined;
         data["errors"] = this.errors ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(this.errors)?.toJSON() : <any>undefined;
         data["google_ads"] = this.google_ads ? AppendixGoogleAdsKeywordsDataPriceData.fromJS(this.google_ads)?.toJSON() : <any>undefined;
+        data["id_list"] = this.id_list ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(this.id_list)?.toJSON() : <any>undefined;
         data["keyword_performance"] = this.keyword_performance ? AppendixAKeywordsDataPriceDataInfo.fromJS(this.keyword_performance)?.toJSON() : <any>undefined;
         data["keywords_for_keywords"] = this.keywords_for_keywords ? AppendixAKeywordsDataPriceDataInfo.fromJS(this.keywords_for_keywords)?.toJSON() : <any>undefined;
         data["keywords_for_site"] = this.keywords_for_site ? AppendixAKeywordsDataPriceDataInfo.fromJS(this.keywords_for_site)?.toJSON() : <any>undefined;

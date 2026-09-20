@@ -22,6 +22,10 @@ export interface IAppendixContentAnalysisLimitsRatesDataInfo   {
         categories?: number | undefined
         
         errors?: number | undefined
+        
+        available_filters?: number | undefined
+        
+        id_list?: number | undefined
 
     [key: string]: any;
 
@@ -48,6 +52,10 @@ export class AppendixContentAnalysisLimitsRatesDataInfo  implements IAppendixCon
     categories?: number | undefined;
 
     errors?: number | undefined;
+
+    available_filters?: number | undefined;
+
+    id_list?: number | undefined;
 
     [key: string]: any;
 
@@ -79,6 +87,8 @@ export class AppendixContentAnalysisLimitsRatesDataInfo  implements IAppendixCon
             this.languages = data["languages"];
             this.categories = data["categories"];
             this.errors = data["errors"];
+            this.available_filters = data["available_filters"];
+            this.id_list = data["id_list"];
         }
     }
 
@@ -106,6 +116,8 @@ export class AppendixContentAnalysisLimitsRatesDataInfo  implements IAppendixCon
         data["languages"] = this.languages;
         data["categories"] = this.categories;
         data["errors"] = this.errors;
+        data["available_filters"] = this.available_filters;
+        data["id_list"] = this.id_list;
         return data;
     }
 }

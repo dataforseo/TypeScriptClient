@@ -23,6 +23,10 @@ export interface IAppendixSerpDaysRatesDataInfo   {
         jobs?: AppendixJobsSerpLimitsRatesDataInfo | undefined
         
         screenshot?: number | undefined
+        
+        id_list?: number | undefined
+        
+        ai_summary?: number | undefined
 
     [key: string]: any;
 
@@ -49,6 +53,10 @@ export class AppendixSerpDaysRatesDataInfo  implements IAppendixSerpDaysRatesDat
     jobs?: AppendixJobsSerpLimitsRatesDataInfo | undefined;
 
     screenshot?: number | undefined;
+
+    id_list?: number | undefined;
+
+    ai_summary?: number | undefined;
 
     [key: string]: any;
 
@@ -80,6 +88,8 @@ export class AppendixSerpDaysRatesDataInfo  implements IAppendixSerpDaysRatesDat
             this.tasks_fixed = data["tasks_fixed"];
             this.jobs = data["jobs"] ? AppendixJobsSerpLimitsRatesDataInfo.fromJS(data["jobs"]) : <any>undefined;
             this.screenshot = data["screenshot"];
+            this.id_list = data["id_list"];
+            this.ai_summary = data["ai_summary"];
         }
     }
 
@@ -107,6 +117,8 @@ export class AppendixSerpDaysRatesDataInfo  implements IAppendixSerpDaysRatesDat
         data["tasks_fixed"] = this.tasks_fixed;
         data["jobs"] = this.jobs ? AppendixJobsSerpLimitsRatesDataInfo.fromJS(this.jobs)?.toJSON() : <any>undefined;
         data["screenshot"] = this.screenshot;
+        data["id_list"] = this.id_list;
+        data["ai_summary"] = this.ai_summary;
         return data;
     }
 }

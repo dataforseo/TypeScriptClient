@@ -1,5 +1,6 @@
 import { AppendixSerpDaysRatesDataInfo, IAppendixSerpDaysRatesDataInfo } from "./AppendixSerpDaysRatesDataInfo";
-import { AppendixBusinessListingsBusinessDataLimitsRatesDataInfo, IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo } from "./AppendixBusinessListingsBusinessDataLimitsRatesDataInfo";
+import { AppendixTrBusinessDataDayLimitsRatesDataInfo, IAppendixTrBusinessDataDayLimitsRatesDataInfo } from "./AppendixTrBusinessDataDayLimitsRatesDataInfo";
+import { AppendixDataforseoLabsLimitsRatesDataInfo, IAppendixDataforseoLabsLimitsRatesDataInfo } from "./AppendixDataforseoLabsLimitsRatesDataInfo";
 
 
 export interface IAppendixAppDataLimitsRatesDataInfo   {
@@ -20,7 +21,11 @@ export interface IAppendixAppDataLimitsRatesDataInfo   {
         
         categories?: number | undefined
         
-        app_listings?: AppendixBusinessListingsBusinessDataLimitsRatesDataInfo | undefined
+        id_list?: number | undefined
+        
+        app_listings?: AppendixTrBusinessDataDayLimitsRatesDataInfo | undefined
+        
+        pp_listings?: AppendixDataforseoLabsLimitsRatesDataInfo | undefined
         
         tasks_ready?: number | undefined
 
@@ -46,7 +51,11 @@ export class AppendixAppDataLimitsRatesDataInfo  implements IAppendixAppDataLimi
 
     categories?: number | undefined;
 
-    app_listings?: AppendixBusinessListingsBusinessDataLimitsRatesDataInfo | undefined;
+    id_list?: number | undefined;
+
+    app_listings?: AppendixTrBusinessDataDayLimitsRatesDataInfo | undefined;
+
+    pp_listings?: AppendixDataforseoLabsLimitsRatesDataInfo | undefined;
 
     tasks_ready?: number | undefined;
 
@@ -78,7 +87,9 @@ export class AppendixAppDataLimitsRatesDataInfo  implements IAppendixAppDataLimi
             this.languages = data["languages"];
             this.locations = data["locations"];
             this.categories = data["categories"];
-            this.app_listings = data["app_listings"] ? AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.fromJS(data["app_listings"]) : <any>undefined;
+            this.id_list = data["id_list"];
+            this.app_listings = data["app_listings"] ? AppendixTrBusinessDataDayLimitsRatesDataInfo.fromJS(data["app_listings"]) : <any>undefined;
+            this.pp_listings = data["pp_listings"] ? AppendixDataforseoLabsLimitsRatesDataInfo.fromJS(data["pp_listings"]) : <any>undefined;
             this.tasks_ready = data["tasks_ready"];
         }
     }
@@ -105,7 +116,9 @@ export class AppendixAppDataLimitsRatesDataInfo  implements IAppendixAppDataLimi
         data["languages"] = this.languages;
         data["locations"] = this.locations;
         data["categories"] = this.categories;
-        data["app_listings"] = this.app_listings ? AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.fromJS(this.app_listings)?.toJSON() : <any>undefined;
+        data["id_list"] = this.id_list;
+        data["app_listings"] = this.app_listings ? AppendixTrBusinessDataDayLimitsRatesDataInfo.fromJS(this.app_listings)?.toJSON() : <any>undefined;
+        data["pp_listings"] = this.pp_listings ? AppendixDataforseoLabsLimitsRatesDataInfo.fromJS(this.pp_listings)?.toJSON() : <any>undefined;
         data["tasks_ready"] = this.tasks_ready;
         return data;
     }

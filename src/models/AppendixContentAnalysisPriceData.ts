@@ -8,7 +8,11 @@ export interface IAppendixContentAnalysisPriceData   {
         
         category_trends?: AppendixBingKeywordsDataPriceDataInfo | undefined
         
+        available_filters?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        
         errors?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        
+        id_list?: AppendixTaskKeywordsDataPriceDataInfo | undefined
         
         languages?: AppendixTaskKeywordsDataPriceDataInfo | undefined
         
@@ -34,7 +38,11 @@ export class AppendixContentAnalysisPriceData  implements IAppendixContentAnalys
 
     category_trends?: AppendixBingKeywordsDataPriceDataInfo | undefined;
 
+    available_filters?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+
     errors?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+
+    id_list?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
 
     languages?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
 
@@ -72,7 +80,9 @@ export class AppendixContentAnalysisPriceData  implements IAppendixContentAnalys
             }
             this.categories = data["categories"] ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(data["categories"]) : <any>undefined;
             this.category_trends = data["category_trends"] ? AppendixBingKeywordsDataPriceDataInfo.fromJS(data["category_trends"]) : <any>undefined;
+            this.available_filters = data["available_filters"] ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(data["available_filters"]) : <any>undefined;
             this.errors = data["errors"] ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(data["errors"]) : <any>undefined;
+            this.id_list = data["id_list"] ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(data["id_list"]) : <any>undefined;
             this.languages = data["languages"] ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(data["languages"]) : <any>undefined;
             this.locations = data["locations"] ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(data["locations"]) : <any>undefined;
             this.phrase_trends = data["phrase_trends"] ? AppendixBingKeywordsDataPriceDataInfo.fromJS(data["phrase_trends"]) : <any>undefined;
@@ -99,7 +109,9 @@ export class AppendixContentAnalysisPriceData  implements IAppendixContentAnalys
         
         data["categories"] = this.categories ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(this.categories)?.toJSON() : <any>undefined;
         data["category_trends"] = this.category_trends ? AppendixBingKeywordsDataPriceDataInfo.fromJS(this.category_trends)?.toJSON() : <any>undefined;
+        data["available_filters"] = this.available_filters ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(this.available_filters)?.toJSON() : <any>undefined;
         data["errors"] = this.errors ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(this.errors)?.toJSON() : <any>undefined;
+        data["id_list"] = this.id_list ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(this.id_list)?.toJSON() : <any>undefined;
         data["languages"] = this.languages ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(this.languages)?.toJSON() : <any>undefined;
         data["locations"] = this.locations ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(this.locations)?.toJSON() : <any>undefined;
         data["phrase_trends"] = this.phrase_trends ? AppendixBingKeywordsDataPriceDataInfo.fromJS(this.phrase_trends)?.toJSON() : <any>undefined;

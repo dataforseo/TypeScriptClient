@@ -1,11 +1,11 @@
-import { AppendixGoogleBusinessDataPriceDataInfo, IAppendixGoogleBusinessDataPriceDataInfo } from "./AppendixGoogleBusinessDataPriceDataInfo";
+import { AppendixLlmResponsesAiOptimizationPriceData, IAppendixLlmResponsesAiOptimizationPriceData } from "./AppendixLlmResponsesAiOptimizationPriceData";
 
 
 export interface IAppendixTrBusinessDataPriceDataInfo   {
         
-        reviews?: AppendixGoogleBusinessDataPriceDataInfo | undefined
+        reviews?: AppendixLlmResponsesAiOptimizationPriceData | undefined
         
-        search?: AppendixGoogleBusinessDataPriceDataInfo | undefined
+        search?: AppendixLlmResponsesAiOptimizationPriceData | undefined
 
     [key: string]: any;
 
@@ -13,9 +13,9 @@ export interface IAppendixTrBusinessDataPriceDataInfo   {
 
 export class AppendixTrBusinessDataPriceDataInfo  implements IAppendixTrBusinessDataPriceDataInfo {
 
-    reviews?: AppendixGoogleBusinessDataPriceDataInfo | undefined;
+    reviews?: AppendixLlmResponsesAiOptimizationPriceData | undefined;
 
-    search?: AppendixGoogleBusinessDataPriceDataInfo | undefined;
+    search?: AppendixLlmResponsesAiOptimizationPriceData | undefined;
 
     [key: string]: any;
 
@@ -37,8 +37,8 @@ export class AppendixTrBusinessDataPriceDataInfo  implements IAppendixTrBusiness
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
-            this.reviews = data["reviews"] ? AppendixGoogleBusinessDataPriceDataInfo.fromJS(data["reviews"]) : <any>undefined;
-            this.search = data["search"] ? AppendixGoogleBusinessDataPriceDataInfo.fromJS(data["search"]) : <any>undefined;
+            this.reviews = data["reviews"] ? AppendixLlmResponsesAiOptimizationPriceData.fromJS(data["reviews"]) : <any>undefined;
+            this.search = data["search"] ? AppendixLlmResponsesAiOptimizationPriceData.fromJS(data["search"]) : <any>undefined;
         }
     }
 
@@ -56,8 +56,8 @@ export class AppendixTrBusinessDataPriceDataInfo  implements IAppendixTrBusiness
 
         
         
-        data["reviews"] = this.reviews ? AppendixGoogleBusinessDataPriceDataInfo.fromJS(this.reviews)?.toJSON() : <any>undefined;
-        data["search"] = this.search ? AppendixGoogleBusinessDataPriceDataInfo.fromJS(this.search)?.toJSON() : <any>undefined;
+        data["reviews"] = this.reviews ? AppendixLlmResponsesAiOptimizationPriceData.fromJS(this.reviews)?.toJSON() : <any>undefined;
+        data["search"] = this.search ? AppendixLlmResponsesAiOptimizationPriceData.fromJS(this.search)?.toJSON() : <any>undefined;
         return data;
     }
 }

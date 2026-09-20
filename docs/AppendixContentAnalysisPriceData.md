@@ -6,7 +6,9 @@
 |------------ | ------------- | ------------- | -------------|
 **categories** | **AppendixTaskKeywordsDataPriceDataInfo** |  |[optional]|
 **category_trends** | **AppendixBingKeywordsDataPriceDataInfo** |  |[optional]|
+**available_filters** | **AppendixTaskKeywordsDataPriceDataInfo** |  |[optional]|
 **errors** | **AppendixTaskKeywordsDataPriceDataInfo** |  |[optional]|
+**id_list** | **AppendixTaskKeywordsDataPriceDataInfo** |  |[optional]|
 **languages** | **AppendixTaskKeywordsDataPriceDataInfo** |  |[optional]|
 **locations** | **AppendixTaskKeywordsDataPriceDataInfo** |  |[optional]|
 **phrase_trends** | **AppendixBingKeywordsDataPriceDataInfo** |  |[optional]|

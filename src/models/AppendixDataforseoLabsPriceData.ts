@@ -24,6 +24,8 @@ export interface IAppendixDataforseoLabsPriceData   {
         
         competitors_domain?: AppendixBingKeywordsDataPriceDataInfo | undefined
         
+        available_filters?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        
         domain_intersection?: AppendixBingKeywordsDataPriceDataInfo | undefined
         
         domain_metrics_by_categories?: AppendixBingKeywordsDataPriceDataInfo | undefined
@@ -40,9 +42,9 @@ export interface IAppendixDataforseoLabsPriceData   {
         
         historical_rank_overview?: AppendixBingKeywordsDataPriceDataInfo | undefined
         
-        historical_search_volume?: AppendixBingKeywordsDataPriceDataInfo | undefined
-        
         historical_serps?: AppendixBingKeywordsDataPriceDataInfo | undefined
+        
+        id_list?: AppendixTaskKeywordsDataPriceDataInfo | undefined
         
         keyword_ideas?: AppendixBingKeywordsDataPriceDataInfo | undefined
         
@@ -106,6 +108,8 @@ export class AppendixDataforseoLabsPriceData  implements IAppendixDataforseoLabs
 
     competitors_domain?: AppendixBingKeywordsDataPriceDataInfo | undefined;
 
+    available_filters?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+
     domain_intersection?: AppendixBingKeywordsDataPriceDataInfo | undefined;
 
     domain_metrics_by_categories?: AppendixBingKeywordsDataPriceDataInfo | undefined;
@@ -122,9 +126,9 @@ export class AppendixDataforseoLabsPriceData  implements IAppendixDataforseoLabs
 
     historical_rank_overview?: AppendixBingKeywordsDataPriceDataInfo | undefined;
 
-    historical_search_volume?: AppendixBingKeywordsDataPriceDataInfo | undefined;
-
     historical_serps?: AppendixBingKeywordsDataPriceDataInfo | undefined;
+
+    id_list?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
 
     keyword_ideas?: AppendixBingKeywordsDataPriceDataInfo | undefined;
 
@@ -192,6 +196,7 @@ export class AppendixDataforseoLabsPriceData  implements IAppendixDataforseoLabs
             this.categories_for_domain = data["categories_for_domain"] ? AppendixBingKeywordsDataPriceDataInfo.fromJS(data["categories_for_domain"]) : <any>undefined;
             this.categories_for_keywords = data["categories_for_keywords"] ? AppendixBingKeywordsDataPriceDataInfo.fromJS(data["categories_for_keywords"]) : <any>undefined;
             this.competitors_domain = data["competitors_domain"] ? AppendixBingKeywordsDataPriceDataInfo.fromJS(data["competitors_domain"]) : <any>undefined;
+            this.available_filters = data["available_filters"] ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(data["available_filters"]) : <any>undefined;
             this.domain_intersection = data["domain_intersection"] ? AppendixBingKeywordsDataPriceDataInfo.fromJS(data["domain_intersection"]) : <any>undefined;
             this.domain_metrics_by_categories = data["domain_metrics_by_categories"] ? AppendixBingKeywordsDataPriceDataInfo.fromJS(data["domain_metrics_by_categories"]) : <any>undefined;
             this.domain_rank_overview = data["domain_rank_overview"] ? AppendixBingKeywordsDataPriceDataInfo.fromJS(data["domain_rank_overview"]) : <any>undefined;
@@ -200,8 +205,8 @@ export class AppendixDataforseoLabsPriceData  implements IAppendixDataforseoLabs
             this.historical_bulk_traffic_estimation = data["historical_bulk_traffic_estimation"] ? AppendixBingKeywordsDataPriceDataInfo.fromJS(data["historical_bulk_traffic_estimation"]) : <any>undefined;
             this.historical_keyword_data = data["historical_keyword_data"] ? AppendixBingKeywordsDataPriceDataInfo.fromJS(data["historical_keyword_data"]) : <any>undefined;
             this.historical_rank_overview = data["historical_rank_overview"] ? AppendixBingKeywordsDataPriceDataInfo.fromJS(data["historical_rank_overview"]) : <any>undefined;
-            this.historical_search_volume = data["historical_search_volume"] ? AppendixBingKeywordsDataPriceDataInfo.fromJS(data["historical_search_volume"]) : <any>undefined;
             this.historical_serps = data["historical_serps"] ? AppendixBingKeywordsDataPriceDataInfo.fromJS(data["historical_serps"]) : <any>undefined;
+            this.id_list = data["id_list"] ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(data["id_list"]) : <any>undefined;
             this.keyword_ideas = data["keyword_ideas"] ? AppendixBingKeywordsDataPriceDataInfo.fromJS(data["keyword_ideas"]) : <any>undefined;
             this.keyword_overview = data["keyword_overview"] ? AppendixBingKeywordsDataPriceDataInfo.fromJS(data["keyword_overview"]) : <any>undefined;
             this.keywords_for_app = data["keywords_for_app"] ? AppendixBingKeywordsDataPriceDataInfo.fromJS(data["keywords_for_app"]) : <any>undefined;
@@ -247,6 +252,7 @@ export class AppendixDataforseoLabsPriceData  implements IAppendixDataforseoLabs
         data["categories_for_domain"] = this.categories_for_domain ? AppendixBingKeywordsDataPriceDataInfo.fromJS(this.categories_for_domain)?.toJSON() : <any>undefined;
         data["categories_for_keywords"] = this.categories_for_keywords ? AppendixBingKeywordsDataPriceDataInfo.fromJS(this.categories_for_keywords)?.toJSON() : <any>undefined;
         data["competitors_domain"] = this.competitors_domain ? AppendixBingKeywordsDataPriceDataInfo.fromJS(this.competitors_domain)?.toJSON() : <any>undefined;
+        data["available_filters"] = this.available_filters ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(this.available_filters)?.toJSON() : <any>undefined;
         data["domain_intersection"] = this.domain_intersection ? AppendixBingKeywordsDataPriceDataInfo.fromJS(this.domain_intersection)?.toJSON() : <any>undefined;
         data["domain_metrics_by_categories"] = this.domain_metrics_by_categories ? AppendixBingKeywordsDataPriceDataInfo.fromJS(this.domain_metrics_by_categories)?.toJSON() : <any>undefined;
         data["domain_rank_overview"] = this.domain_rank_overview ? AppendixBingKeywordsDataPriceDataInfo.fromJS(this.domain_rank_overview)?.toJSON() : <any>undefined;
@@ -255,8 +261,8 @@ export class AppendixDataforseoLabsPriceData  implements IAppendixDataforseoLabs
         data["historical_bulk_traffic_estimation"] = this.historical_bulk_traffic_estimation ? AppendixBingKeywordsDataPriceDataInfo.fromJS(this.historical_bulk_traffic_estimation)?.toJSON() : <any>undefined;
         data["historical_keyword_data"] = this.historical_keyword_data ? AppendixBingKeywordsDataPriceDataInfo.fromJS(this.historical_keyword_data)?.toJSON() : <any>undefined;
         data["historical_rank_overview"] = this.historical_rank_overview ? AppendixBingKeywordsDataPriceDataInfo.fromJS(this.historical_rank_overview)?.toJSON() : <any>undefined;
-        data["historical_search_volume"] = this.historical_search_volume ? AppendixBingKeywordsDataPriceDataInfo.fromJS(this.historical_search_volume)?.toJSON() : <any>undefined;
         data["historical_serps"] = this.historical_serps ? AppendixBingKeywordsDataPriceDataInfo.fromJS(this.historical_serps)?.toJSON() : <any>undefined;
+        data["id_list"] = this.id_list ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(this.id_list)?.toJSON() : <any>undefined;
         data["keyword_ideas"] = this.keyword_ideas ? AppendixBingKeywordsDataPriceDataInfo.fromJS(this.keyword_ideas)?.toJSON() : <any>undefined;
         data["keyword_overview"] = this.keyword_overview ? AppendixBingKeywordsDataPriceDataInfo.fromJS(this.keyword_overview)?.toJSON() : <any>undefined;
         data["keywords_for_app"] = this.keywords_for_app ? AppendixBingKeywordsDataPriceDataInfo.fromJS(this.keywords_for_app)?.toJSON() : <any>undefined;

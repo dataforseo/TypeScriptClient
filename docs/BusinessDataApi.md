@@ -57,7 +57,6 @@ All URIs are relative to *https://api.dataforseo.com*
 [**tripadvisorReviewsTaskPost**](BusinessDataApi.md#tripadvisorReviewsTaskPost) | **POST**  /v3/business_data/tripadvisor/reviews/task_post  |
 [**tripadvisorReviewsTasksReady**](BusinessDataApi.md#tripadvisorReviewsTasksReady) | **GET**  /v3/business_data/tripadvisor/reviews/tasks_ready  |
 [**tripadvisorReviewsTaskGet**](BusinessDataApi.md#tripadvisorReviewsTaskGet) | **GET**  /v3/business_data/tripadvisor/reviews/task_get/{id}  |
-[**socialMediaPinterestLive**](BusinessDataApi.md#socialMediaPinterestLive) | **POST**  /v3/business_data/social_media/pinterest/live  |
 
 <a id="businessDataIdList"></a>
 # **businessDataIdList**
@@ -3141,69 +3140,6 @@ This endpoint does not need any parameter.
 ### Return type
 
 [**BusinessDataTripadvisorReviewsTaskGetResponseInfo**](BusinessDataTripadvisorReviewsTaskGetResponseInfo.md)
-
-### Authorization
-
-[basicAuth](../README.md#basicAuth)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** | Successful operation |  -  |
-
-<a id="socialMediaPinterestLive"></a>
-# **socialMediaPinterestLive**
-> BusinessDataSocialMediaPinterestLiveResponseInfo socialMediaPinterestLive()
-
-
-### Example
-```typescript
- const username = 'USERNAME';
- const password = 'PASSWORD';
-
- let api = new BusinessDataApi("https://api.dataforseo.com", {
-   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
-     const token = btoa(`${username}:${password}`);
-     const authHeader = { 'Authorization': `Basic ${token}` };
-
-     const newInit: RequestInit = {
-       ...init,
-       headers: {
-       ...init?.headers,
-       ...authHeader,
-     }
-   };
-
-   return fetch(url, newInit);
-   }
- });
-
- let task = new BusinessDataSocialMediaPinterestLiveRequestInfo();
-   task.targets = [
-       "https://www.simplyrecipes.com/recipes/grilled_salmon_with_cucumber_mango_salsa/",
-       "https://tasty.co/recipe/classic-lasagna",
-       "https://www.allrecipes.com/recipe/255263/sicilian-roasted-chicken/",
-   ];
-   task.tag = "some_string_123";
- let response = await api.socialMediaPinterestLive([task]);
-```
-
-### Parameters
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **** | [**List&lt;BusinessDataSocialMediaPinterestLiveRequestInfo[]&gt;**](BusinessDataSocialMediaPinterestLiveRequestInfo[].md)|  | [optional] |
-
-
-
-### Return type
-
-[**BusinessDataSocialMediaPinterestLiveResponseInfo**](BusinessDataSocialMediaPinterestLiveResponseInfo.md)
 
 ### Authorization
 

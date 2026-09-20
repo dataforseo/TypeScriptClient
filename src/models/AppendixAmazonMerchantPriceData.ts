@@ -1,13 +1,13 @@
-import { AppendixProductGoogleMerchantPriceDataInfo, IAppendixProductGoogleMerchantPriceDataInfo } from "./AppendixProductGoogleMerchantPriceDataInfo";
+import { AppendixAmazonMerchantPriceDataInfo, IAppendixAmazonMerchantPriceDataInfo } from "./AppendixAmazonMerchantPriceDataInfo";
 
 
 export interface IAppendixAmazonMerchantPriceData   {
         
-        asin?: AppendixProductGoogleMerchantPriceDataInfo | undefined
+        asin?: AppendixAmazonMerchantPriceDataInfo | undefined
         
-        products?: AppendixProductGoogleMerchantPriceDataInfo | undefined
+        products?: AppendixAmazonMerchantPriceDataInfo | undefined
         
-        sellers?: AppendixProductGoogleMerchantPriceDataInfo | undefined
+        sellers?: AppendixAmazonMerchantPriceDataInfo | undefined
 
     [key: string]: any;
 
@@ -15,11 +15,11 @@ export interface IAppendixAmazonMerchantPriceData   {
 
 export class AppendixAmazonMerchantPriceData  implements IAppendixAmazonMerchantPriceData {
 
-    asin?: AppendixProductGoogleMerchantPriceDataInfo | undefined;
+    asin?: AppendixAmazonMerchantPriceDataInfo | undefined;
 
-    products?: AppendixProductGoogleMerchantPriceDataInfo | undefined;
+    products?: AppendixAmazonMerchantPriceDataInfo | undefined;
 
-    sellers?: AppendixProductGoogleMerchantPriceDataInfo | undefined;
+    sellers?: AppendixAmazonMerchantPriceDataInfo | undefined;
 
     [key: string]: any;
 
@@ -41,9 +41,9 @@ export class AppendixAmazonMerchantPriceData  implements IAppendixAmazonMerchant
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
-            this.asin = data["asin"] ? AppendixProductGoogleMerchantPriceDataInfo.fromJS(data["asin"]) : <any>undefined;
-            this.products = data["products"] ? AppendixProductGoogleMerchantPriceDataInfo.fromJS(data["products"]) : <any>undefined;
-            this.sellers = data["sellers"] ? AppendixProductGoogleMerchantPriceDataInfo.fromJS(data["sellers"]) : <any>undefined;
+            this.asin = data["asin"] ? AppendixAmazonMerchantPriceDataInfo.fromJS(data["asin"]) : <any>undefined;
+            this.products = data["products"] ? AppendixAmazonMerchantPriceDataInfo.fromJS(data["products"]) : <any>undefined;
+            this.sellers = data["sellers"] ? AppendixAmazonMerchantPriceDataInfo.fromJS(data["sellers"]) : <any>undefined;
         }
     }
 
@@ -61,9 +61,9 @@ export class AppendixAmazonMerchantPriceData  implements IAppendixAmazonMerchant
 
         
         
-        data["asin"] = this.asin ? AppendixProductGoogleMerchantPriceDataInfo.fromJS(this.asin)?.toJSON() : <any>undefined;
-        data["products"] = this.products ? AppendixProductGoogleMerchantPriceDataInfo.fromJS(this.products)?.toJSON() : <any>undefined;
-        data["sellers"] = this.sellers ? AppendixProductGoogleMerchantPriceDataInfo.fromJS(this.sellers)?.toJSON() : <any>undefined;
+        data["asin"] = this.asin ? AppendixAmazonMerchantPriceDataInfo.fromJS(this.asin)?.toJSON() : <any>undefined;
+        data["products"] = this.products ? AppendixAmazonMerchantPriceDataInfo.fromJS(this.products)?.toJSON() : <any>undefined;
+        data["sellers"] = this.sellers ? AppendixAmazonMerchantPriceDataInfo.fromJS(this.sellers)?.toJSON() : <any>undefined;
         return data;
     }
 }

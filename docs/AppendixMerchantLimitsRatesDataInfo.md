@@ -10,4 +10,5 @@
 **languages** | **number** |  |[optional]|
 **errors** | **number** |  |[optional]|
 **reviews** | **AppendixSerpDaysRatesDataInfo** |  |[optional]|
+**id_list** | **number** |  |[optional]|
 **tasks_ready** | **number** |  |[optional]|

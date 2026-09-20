@@ -1,4 +1,4 @@
-import { ItemsGoogleBusinessInfo, IItemsGoogleBusinessInfo } from "./ItemsGoogleBusinessInfo";
+import { GoogleBusinessInfo, IGoogleBusinessInfo } from "./GoogleBusinessInfo";
 
 
 export interface IBusinessDataGoogleMyBusinessInfoLiveResultInfo   {
@@ -28,7 +28,7 @@ export interface IBusinessDataGoogleMyBusinessInfoLiveResultInfo   {
         items_count?: number | undefined
         
         /** *encountered item types* types of search engine results encountered in the `items` array; possible item types: `google_business_info` */
-        items?: ItemsGoogleBusinessInfo[] | undefined
+        items?: GoogleBusinessInfo[] | undefined
 
     [key: string]: any;
 
@@ -79,7 +79,7 @@ export class BusinessDataGoogleMyBusinessInfoLiveResultInfo  implements IBusines
     
     /** *encountered item types* types of search engine results encountered in the `items` array; possible item types: `google_business_info` */
 
-    items?: ItemsGoogleBusinessInfo[] | undefined;
+    items?: GoogleBusinessInfo[] | undefined;
 
     [key: string]: any;
 
@@ -112,7 +112,7 @@ export class BusinessDataGoogleMyBusinessInfoLiveResultInfo  implements IBusines
             if (Array.isArray(data["items"])) {
                 this.items = [];
                 for (let item of data["items"]) {
-                    this.items.push(ItemsGoogleBusinessInfo.fromJS(item));
+                    this.items.push(GoogleBusinessInfo.fromJS(item));
                 }
             }
         }

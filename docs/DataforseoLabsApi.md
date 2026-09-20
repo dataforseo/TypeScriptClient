@@ -798,7 +798,6 @@ This endpoint does not need any parameter.
  });
 
  let task = new DataforseoLabsGoogleSearchIntentLiveRequestInfo();
-   task.language_code = "en";
    task.keywords = [
        "login page",
        "audi a7",

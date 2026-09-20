@@ -37,6 +37,8 @@ export interface IAppendixKeywordsDataDataInfo   {
         
         google_ads?: AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo | undefined
         
+        id_list?: number | undefined
+        
         dataforseo_trends?: AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo | undefined
         
         clickstream_data?: AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo | undefined
@@ -84,6 +86,8 @@ export class AppendixKeywordsDataDataInfo  implements IAppendixKeywordsDataDataI
     locations_and_languages?: number | undefined;
 
     google_ads?: AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo | undefined;
+
+    id_list?: number | undefined;
 
     dataforseo_trends?: AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo | undefined;
 
@@ -133,6 +137,7 @@ export class AppendixKeywordsDataDataInfo  implements IAppendixKeywordsDataDataI
             this.keyword_performance = data["keyword_performance"] ? AppendixInfo.fromJS(data["keyword_performance"]) : <any>undefined;
             this.locations_and_languages = data["locations_and_languages"];
             this.google_ads = data["google_ads"] ? AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.fromJS(data["google_ads"]) : <any>undefined;
+            this.id_list = data["id_list"];
             this.dataforseo_trends = data["dataforseo_trends"] ? AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo.fromJS(data["dataforseo_trends"]) : <any>undefined;
             this.clickstream_data = data["clickstream_data"] ? AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo.fromJS(data["clickstream_data"]) : <any>undefined;
             this.audience_estimation = data["audience_estimation"] ? AppendixInfo.fromJS(data["audience_estimation"]) : <any>undefined;
@@ -171,6 +176,7 @@ export class AppendixKeywordsDataDataInfo  implements IAppendixKeywordsDataDataI
         data["keyword_performance"] = this.keyword_performance ? AppendixInfo.fromJS(this.keyword_performance)?.toJSON() : <any>undefined;
         data["locations_and_languages"] = this.locations_and_languages;
         data["google_ads"] = this.google_ads ? AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.fromJS(this.google_ads)?.toJSON() : <any>undefined;
+        data["id_list"] = this.id_list;
         data["dataforseo_trends"] = this.dataforseo_trends ? AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo.fromJS(this.dataforseo_trends)?.toJSON() : <any>undefined;
         data["clickstream_data"] = this.clickstream_data ? AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo.fromJS(this.clickstream_data)?.toJSON() : <any>undefined;
         data["audience_estimation"] = this.audience_estimation ? AppendixInfo.fromJS(this.audience_estimation)?.toJSON() : <any>undefined;

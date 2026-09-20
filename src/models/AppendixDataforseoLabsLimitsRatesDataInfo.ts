@@ -3,11 +3,15 @@ import { AppendixInfo, IAppendixInfo } from "./AppendixInfo";
 
 export interface IAppendixDataforseoLabsLimitsRatesDataInfo   {
         
+        related_keywords?: AppendixInfo | undefined
+        
         locations_and_languages?: number | undefined
         
         categories?: number | undefined
         
         errors?: number | undefined
+        
+        available_filters?: number | undefined
         
         product_competitors?: AppendixInfo | undefined
         
@@ -24,8 +28,6 @@ export interface IAppendixDataforseoLabsLimitsRatesDataInfo   {
         relevant_pages?: AppendixInfo | undefined
         
         competitors_domain?: AppendixInfo | undefined
-        
-        related_keywords?: AppendixInfo | undefined
         
         domain_rank_overview?: AppendixInfo | undefined
         
@@ -44,8 +46,6 @@ export interface IAppendixDataforseoLabsLimitsRatesDataInfo   {
         keyword_suggestions?: AppendixInfo | undefined
         
         keyword_ideas?: AppendixInfo | undefined
-        
-        historical_search_volume?: AppendixInfo | undefined
         
         categories_for_domain?: AppendixInfo | undefined
         
@@ -69,6 +69,8 @@ export interface IAppendixDataforseoLabsLimitsRatesDataInfo   {
         
         bulk_app_metrics?: AppendixInfo | undefined
         
+        id_list?: number | undefined
+        
         search_intent?: AppendixInfo | undefined
         
         historical_bulk_traffic_estimation?: AppendixInfo | undefined
@@ -85,11 +87,15 @@ export interface IAppendixDataforseoLabsLimitsRatesDataInfo   {
 
 export class AppendixDataforseoLabsLimitsRatesDataInfo  implements IAppendixDataforseoLabsLimitsRatesDataInfo {
 
+    related_keywords?: AppendixInfo | undefined;
+
     locations_and_languages?: number | undefined;
 
     categories?: number | undefined;
 
     errors?: number | undefined;
+
+    available_filters?: number | undefined;
 
     product_competitors?: AppendixInfo | undefined;
 
@@ -106,8 +112,6 @@ export class AppendixDataforseoLabsLimitsRatesDataInfo  implements IAppendixData
     relevant_pages?: AppendixInfo | undefined;
 
     competitors_domain?: AppendixInfo | undefined;
-
-    related_keywords?: AppendixInfo | undefined;
 
     domain_rank_overview?: AppendixInfo | undefined;
 
@@ -126,8 +130,6 @@ export class AppendixDataforseoLabsLimitsRatesDataInfo  implements IAppendixData
     keyword_suggestions?: AppendixInfo | undefined;
 
     keyword_ideas?: AppendixInfo | undefined;
-
-    historical_search_volume?: AppendixInfo | undefined;
 
     categories_for_domain?: AppendixInfo | undefined;
 
@@ -150,6 +152,8 @@ export class AppendixDataforseoLabsLimitsRatesDataInfo  implements IAppendixData
     app_intersection?: AppendixInfo | undefined;
 
     bulk_app_metrics?: AppendixInfo | undefined;
+
+    id_list?: number | undefined;
 
     search_intent?: AppendixInfo | undefined;
 
@@ -181,9 +185,11 @@ export class AppendixDataforseoLabsLimitsRatesDataInfo  implements IAppendixData
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
+            this.related_keywords = data["related_keywords"] ? AppendixInfo.fromJS(data["related_keywords"]) : <any>undefined;
             this.locations_and_languages = data["locations_and_languages"];
             this.categories = data["categories"];
             this.errors = data["errors"];
+            this.available_filters = data["available_filters"];
             this.product_competitors = data["product_competitors"] ? AppendixInfo.fromJS(data["product_competitors"]) : <any>undefined;
             this.product_keyword_intersections = data["product_keyword_intersections"] ? AppendixInfo.fromJS(data["product_keyword_intersections"]) : <any>undefined;
             this.product_rank_overview = data["product_rank_overview"] ? AppendixInfo.fromJS(data["product_rank_overview"]) : <any>undefined;
@@ -192,7 +198,6 @@ export class AppendixDataforseoLabsLimitsRatesDataInfo  implements IAppendixData
             this.subdomains = data["subdomains"] ? AppendixInfo.fromJS(data["subdomains"]) : <any>undefined;
             this.relevant_pages = data["relevant_pages"] ? AppendixInfo.fromJS(data["relevant_pages"]) : <any>undefined;
             this.competitors_domain = data["competitors_domain"] ? AppendixInfo.fromJS(data["competitors_domain"]) : <any>undefined;
-            this.related_keywords = data["related_keywords"] ? AppendixInfo.fromJS(data["related_keywords"]) : <any>undefined;
             this.domain_rank_overview = data["domain_rank_overview"] ? AppendixInfo.fromJS(data["domain_rank_overview"]) : <any>undefined;
             this.domain_intersection = data["domain_intersection"] ? AppendixInfo.fromJS(data["domain_intersection"]) : <any>undefined;
             this.page_intersection = data["page_intersection"] ? AppendixInfo.fromJS(data["page_intersection"]) : <any>undefined;
@@ -202,7 +207,6 @@ export class AppendixDataforseoLabsLimitsRatesDataInfo  implements IAppendixData
             this.keywords_for_site = data["keywords_for_site"] ? AppendixInfo.fromJS(data["keywords_for_site"]) : <any>undefined;
             this.keyword_suggestions = data["keyword_suggestions"] ? AppendixInfo.fromJS(data["keyword_suggestions"]) : <any>undefined;
             this.keyword_ideas = data["keyword_ideas"] ? AppendixInfo.fromJS(data["keyword_ideas"]) : <any>undefined;
-            this.historical_search_volume = data["historical_search_volume"] ? AppendixInfo.fromJS(data["historical_search_volume"]) : <any>undefined;
             this.categories_for_domain = data["categories_for_domain"] ? AppendixInfo.fromJS(data["categories_for_domain"]) : <any>undefined;
             this.domain_metrics_by_categories = data["domain_metrics_by_categories"] ? AppendixInfo.fromJS(data["domain_metrics_by_categories"]) : <any>undefined;
             this.top_searches = data["top_searches"] ? AppendixInfo.fromJS(data["top_searches"]) : <any>undefined;
@@ -214,6 +218,7 @@ export class AppendixDataforseoLabsLimitsRatesDataInfo  implements IAppendixData
             this.keywords_for_app = data["keywords_for_app"] ? AppendixInfo.fromJS(data["keywords_for_app"]) : <any>undefined;
             this.app_intersection = data["app_intersection"] ? AppendixInfo.fromJS(data["app_intersection"]) : <any>undefined;
             this.bulk_app_metrics = data["bulk_app_metrics"] ? AppendixInfo.fromJS(data["bulk_app_metrics"]) : <any>undefined;
+            this.id_list = data["id_list"];
             this.search_intent = data["search_intent"] ? AppendixInfo.fromJS(data["search_intent"]) : <any>undefined;
             this.historical_bulk_traffic_estimation = data["historical_bulk_traffic_estimation"] ? AppendixInfo.fromJS(data["historical_bulk_traffic_estimation"]) : <any>undefined;
             this.categories_for_keywords = data["categories_for_keywords"] ? AppendixInfo.fromJS(data["categories_for_keywords"]) : <any>undefined;
@@ -236,9 +241,11 @@ export class AppendixDataforseoLabsLimitsRatesDataInfo  implements IAppendixData
 
         
         
+        data["related_keywords"] = this.related_keywords ? AppendixInfo.fromJS(this.related_keywords)?.toJSON() : <any>undefined;
         data["locations_and_languages"] = this.locations_and_languages;
         data["categories"] = this.categories;
         data["errors"] = this.errors;
+        data["available_filters"] = this.available_filters;
         data["product_competitors"] = this.product_competitors ? AppendixInfo.fromJS(this.product_competitors)?.toJSON() : <any>undefined;
         data["product_keyword_intersections"] = this.product_keyword_intersections ? AppendixInfo.fromJS(this.product_keyword_intersections)?.toJSON() : <any>undefined;
         data["product_rank_overview"] = this.product_rank_overview ? AppendixInfo.fromJS(this.product_rank_overview)?.toJSON() : <any>undefined;
@@ -247,7 +254,6 @@ export class AppendixDataforseoLabsLimitsRatesDataInfo  implements IAppendixData
         data["subdomains"] = this.subdomains ? AppendixInfo.fromJS(this.subdomains)?.toJSON() : <any>undefined;
         data["relevant_pages"] = this.relevant_pages ? AppendixInfo.fromJS(this.relevant_pages)?.toJSON() : <any>undefined;
         data["competitors_domain"] = this.competitors_domain ? AppendixInfo.fromJS(this.competitors_domain)?.toJSON() : <any>undefined;
-        data["related_keywords"] = this.related_keywords ? AppendixInfo.fromJS(this.related_keywords)?.toJSON() : <any>undefined;
         data["domain_rank_overview"] = this.domain_rank_overview ? AppendixInfo.fromJS(this.domain_rank_overview)?.toJSON() : <any>undefined;
         data["domain_intersection"] = this.domain_intersection ? AppendixInfo.fromJS(this.domain_intersection)?.toJSON() : <any>undefined;
         data["page_intersection"] = this.page_intersection ? AppendixInfo.fromJS(this.page_intersection)?.toJSON() : <any>undefined;
@@ -257,7 +263,6 @@ export class AppendixDataforseoLabsLimitsRatesDataInfo  implements IAppendixData
         data["keywords_for_site"] = this.keywords_for_site ? AppendixInfo.fromJS(this.keywords_for_site)?.toJSON() : <any>undefined;
         data["keyword_suggestions"] = this.keyword_suggestions ? AppendixInfo.fromJS(this.keyword_suggestions)?.toJSON() : <any>undefined;
         data["keyword_ideas"] = this.keyword_ideas ? AppendixInfo.fromJS(this.keyword_ideas)?.toJSON() : <any>undefined;
-        data["historical_search_volume"] = this.historical_search_volume ? AppendixInfo.fromJS(this.historical_search_volume)?.toJSON() : <any>undefined;
         data["categories_for_domain"] = this.categories_for_domain ? AppendixInfo.fromJS(this.categories_for_domain)?.toJSON() : <any>undefined;
         data["domain_metrics_by_categories"] = this.domain_metrics_by_categories ? AppendixInfo.fromJS(this.domain_metrics_by_categories)?.toJSON() : <any>undefined;
         data["top_searches"] = this.top_searches ? AppendixInfo.fromJS(this.top_searches)?.toJSON() : <any>undefined;
@@ -269,6 +274,7 @@ export class AppendixDataforseoLabsLimitsRatesDataInfo  implements IAppendixData
         data["keywords_for_app"] = this.keywords_for_app ? AppendixInfo.fromJS(this.keywords_for_app)?.toJSON() : <any>undefined;
         data["app_intersection"] = this.app_intersection ? AppendixInfo.fromJS(this.app_intersection)?.toJSON() : <any>undefined;
         data["bulk_app_metrics"] = this.bulk_app_metrics ? AppendixInfo.fromJS(this.bulk_app_metrics)?.toJSON() : <any>undefined;
+        data["id_list"] = this.id_list;
         data["search_intent"] = this.search_intent ? AppendixInfo.fromJS(this.search_intent)?.toJSON() : <any>undefined;
         data["historical_bulk_traffic_estimation"] = this.historical_bulk_traffic_estimation ? AppendixInfo.fromJS(this.historical_bulk_traffic_estimation)?.toJSON() : <any>undefined;
         data["categories_for_keywords"] = this.categories_for_keywords ? AppendixInfo.fromJS(this.categories_for_keywords)?.toJSON() : <any>undefined;

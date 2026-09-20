@@ -20,7 +20,10 @@
 **instant_pages** | **number** |  |[optional]|
 **redirect_chains** | **number** |  |[optional]|
 **lighthouse** | **AppendixInfo** |  |[optional]|
+**available_filters** | **number** |  |[optional]|
 **keyword_density** | **number** |  |[optional]|
 **page_screenshot** | **number** |  |[optional]|
 **content_parsing** | **number** |  |[optional]|
 **content_parsing_live** | **number** |  |[optional]|
+**id_list** | **number** |  |[optional]|
+**uncrawlable_resources** | **number** |  |[optional]|
