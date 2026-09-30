@@ -102,14 +102,14 @@ async function main() {
   const authFetch = createAuthenticatedFetch(username, password);
   let serpApi = new client.SerpApi("https://api.dataforseo.com", { fetch: authFetch });
 
-  let task = new client.SerpTaskRequestInfo();
+  let task = new client.SerpGoogleOrganicTaskPostRequestInfo();
   task.location_code = 2840;
   task.language_code = "en";
   task.keyword = "albert einstein"
 
   let taskResponse = await serpApi.googleOrganicTaskPost([task]) 
 
-  let taskID = taskResponse.tasks[0].id;
+  let taskID = taskResponse!.tasks![0].id!;
   const startTime = Date.now();
 
   while (!await isReady(serpApi, taskID) && Date.now() - startTime < 60000) {
@@ -120,17 +120,9 @@ async function main() {
 }
 
 async function isReady(serpApi: client.SerpApi, id: string): Promise<boolean> {
-let resp = await serpApi.googleOrganicTasksReady();
+  let resp = await serpApi.googleOrganicTasksReady();
 
-let isReadyId = false;
-
-resp.tasks.forEach(x => {
-   if (x.id == id) {
-    isReadyId = true;
-   }
-});
-
-return isReadyId;
+  return resp?.tasks?.some(x => x.result?.some(r => r.id == id) ?? false) ?? false;
 }
 
 function createAuthenticatedFetch(username: string, password: string) {

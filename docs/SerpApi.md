@@ -5889,6 +5889,9 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpYoutubeVideoInfoTaskPostRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.video_id = "vQXvyV0zIP4";
  let response = await api.youtubeVideoInfoTaskPost([task]);
 ```
 
@@ -6175,6 +6178,9 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpYoutubeOrganicTaskPostRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "audi";
  let response = await api.youtubeOrganicTaskPost([task]);
 ```
 
@@ -6401,6 +6407,9 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpYoutubeOrganicLiveAdvancedRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.keyword = "audi";
  let response = await api.youtubeOrganicLiveAdvanced([task]);
 ```
 
@@ -6458,6 +6467,9 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpYoutubeVideoSubtitlesTaskPostRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.video_id = "Y8Wu4rSNJms";
  let response = await api.youtubeVideoSubtitlesTaskPost([task]);
 ```
 
@@ -6684,6 +6696,9 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.video_id = "Y8Wu4rSNJms";
  let response = await api.youtubeVideoSubtitlesLiveAdvanced([task]);
 ```
 
@@ -6741,6 +6756,9 @@ This endpoint does not need any parameter.
  });
 
  let task = new SerpYoutubeVideoCommentsTaskPostRequestInfo();
+   task.language_code = "en";
+   task.location_code = 2840;
+   task.video_id = "vQXvyV0zIP4";
  let response = await api.youtubeVideoCommentsTaskPost([task]);
 ```
 

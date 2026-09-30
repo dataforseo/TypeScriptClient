@@ -1,6 +1,6 @@
 export interface IDataforseoLabsGoogleKeywordsForSiteLiveRequestInfo   {
         
-        /** *target domain* **required field** the domain name of the target website the domain should be specified without `https://` */
+        /** *domain name or page url* **required field** the domain name of the target website, subdomain or URL of the target webpage; the **domain name** must be specified **without** `https://` or `www.`; the **subdomain** must be specified **without** `https://`; the **webpage URL** must be specified **with** `https://` or `www.` **Note:** if you specify the **webpage URL** without `https://` or `www.`, the result will be returned for the **entire domain** rather than the specific page */
         target?: string | undefined
         
         /** *full name of the location* **required field if you don't specify** `location_code` **Note:** it is required to specify either `location_name` or `location_code` you can receive the list of available locations with their `location_name` by making a separate request to the `https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages` example: `United Kingdom` */
@@ -21,7 +21,7 @@ export interface IDataforseoLabsGoogleKeywordsForSiteLiveRequestInfo   {
         /** *indicates if the subdomains will be included in the search* optional field if set to `false`, the subdomains will be ignored default value: `true` */
         include_subdomains?: boolean | undefined
         
-        /** *include or exclude data from clickstream-based metrics in the result* optional field if the parameter is set to_`true`, you will receive `clickstream_keyword_info`, `keyword_info_normalized_with_clickstream`, and `keyword_info_normalized_with_bing` fields in the response default value: `false` with this parameter enabled, you will be charged double the price for the request learn more about how clickstream-based metrics are calculated in this [help center article](https://dataforseo.com/help-center/what-are-clickstream-based-metrics-and-how-do-we-calculate-them)n' */
+        /** *include or exclude data from clickstream-based metrics in the result* optional field if the parameter is set to_`true`, you will receive `clickstream_keyword_info`, `keyword_info_normalized_with_clickstream`, and `keyword_info_normalized_with_bing` fields in the response default value: `false` with this parameter enabled, you will be charged double the price for the request learn more about how clickstream-based metrics are calculated in this [help center article](https://dataforseo.com/help-center/what-are-clickstream-based-metrics-and-how-do-we-calculate-them) */
         include_clickstream_data?: boolean | undefined
         
         /** *the maximum number of keywords in the results array* optional field default value: `100` maximum value: `1000` */
@@ -49,7 +49,7 @@ export interface IDataforseoLabsGoogleKeywordsForSiteLiveRequestInfo   {
 export class DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo  implements IDataforseoLabsGoogleKeywordsForSiteLiveRequestInfo {
 
     
-    /** *target domain* **required field** the domain name of the target website the domain should be specified without `https://` */
+    /** *domain name or page url* **required field** the domain name of the target website, subdomain or URL of the target webpage; the **domain name** must be specified **without** `https://` or `www.`; the **subdomain** must be specified **without** `https://`; the **webpage URL** must be specified **with** `https://` or `www.` **Note:** if you specify the **webpage URL** without `https://` or `www.`, the result will be returned for the **entire domain** rather than the specific page */
 
     target?: string | undefined;
 
@@ -84,7 +84,7 @@ export class DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo  implements IDat
     include_subdomains?: boolean | undefined;
 
     
-    /** *include or exclude data from clickstream-based metrics in the result* optional field if the parameter is set to_`true`, you will receive `clickstream_keyword_info`, `keyword_info_normalized_with_clickstream`, and `keyword_info_normalized_with_bing` fields in the response default value: `false` with this parameter enabled, you will be charged double the price for the request learn more about how clickstream-based metrics are calculated in this [help center article](https://dataforseo.com/help-center/what-are-clickstream-based-metrics-and-how-do-we-calculate-them)n' */
+    /** *include or exclude data from clickstream-based metrics in the result* optional field if the parameter is set to_`true`, you will receive `clickstream_keyword_info`, `keyword_info_normalized_with_clickstream`, and `keyword_info_normalized_with_bing` fields in the response default value: `false` with this parameter enabled, you will be charged double the price for the request learn more about how clickstream-based metrics are calculated in this [help center article](https://dataforseo.com/help-center/what-are-clickstream-based-metrics-and-how-do-we-calculate-them) */
 
     include_clickstream_data?: boolean | undefined;
 

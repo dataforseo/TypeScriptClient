@@ -2039,7 +2039,6 @@ This endpoint does not need any parameter.
    task.app_collection = "top_free_ios";
    task.location_code = 2840;
    task.language_code = "en";
-   task.depth = 200;
    task.app_category = "games";
  let response = await api.appleAppListTaskPost([task]);
 ```
