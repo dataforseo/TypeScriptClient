@@ -20,6 +20,9 @@ export interface IGoogleShoppingCarouselElement   {
         /** *name of the seller* the name of the company that placed a corresponding product on Google Shopping */
         seller?: string | undefined
         
+        /** *additional information about the result* */
+        snippet?: string | undefined
+        
         /** *product price* example: `384.99` */
         price?: number | undefined
         
@@ -80,6 +83,11 @@ export class GoogleShoppingCarouselElement  implements IGoogleShoppingCarouselEl
     /** *name of the seller* the name of the company that placed a corresponding product on Google Shopping */
 
     seller?: string | undefined;
+
+    
+    /** *additional information about the result* */
+
+    snippet?: string | undefined;
 
     
     /** *product price* example: `384.99` */
@@ -156,6 +164,7 @@ export class GoogleShoppingCarouselElement  implements IGoogleShoppingCarouselEl
             this.title = data["title"];
             this.tags = data["tags"];
             this.seller = data["seller"];
+            this.snippet = data["snippet"];
             this.price = data["price"];
             this.currency = data["currency"];
             this.product_rating = data["product_rating"] ? RatingElement.fromJS(data["product_rating"]) : <any>undefined;
@@ -188,6 +197,7 @@ export class GoogleShoppingCarouselElement  implements IGoogleShoppingCarouselEl
         data["title"] = this.title;
         data["tags"] = this.tags;
         data["seller"] = this.seller;
+        data["snippet"] = this.snippet;
         data["price"] = this.price;
         data["currency"] = this.currency;
         data["product_rating"] = this.product_rating ? RatingElement.fromJS(this.product_rating)?.toJSON() : <any>undefined;

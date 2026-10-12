@@ -180,6 +180,9 @@ export interface IGoogleShoppingSerpElementItem  extends IBaseMerchantGoogleShop
         /** *name of the seller* the name of the company that placed a corresponding product on Google Shopping */
         seller?: string | undefined
         
+        /** *additional information about the result* */
+        snippet?: string | undefined
+        
         /** *object containing additional url parameters* you can get more details about the product by using this object in the POST request to the [Google Shopping Product Specification](/v3/merchant/google/products/task_post/?php) and [Google Shopping Sellers](/v3/merchant/google/sellers/task_post/?php) endpoint */
         additional_specifications?: { [key: string]: string; } | undefined
         
@@ -282,6 +285,11 @@ export class GoogleShoppingSerpElementItem  extends BaseMerchantGoogleShoppingPr
     seller?: string | undefined;
 
     
+    /** *additional information about the result* */
+
+    snippet?: string | undefined;
+
+    
     /** *object containing additional url parameters* you can get more details about the product by using this object in the POST request to the [Google Shopping Product Specification](/v3/merchant/google/products/task_post/?php) and [Google Shopping Sellers](/v3/merchant/google/sellers/task_post/?php) endpoint */
 
     additional_specifications?: { [key: string]: string; } | undefined;
@@ -359,6 +367,7 @@ export class GoogleShoppingSerpElementItem  extends BaseMerchantGoogleShoppingPr
             this.product_id = data["product_id"];
             this.data_docid = data["data_docid"];
             this.seller = data["seller"];
+            this.snippet = data["snippet"];
             this.additional_specifications = data["additional_specifications"];
             this.reviews_count = data["reviews_count"];
             this.is_best_match = data["is_best_match"];
@@ -401,6 +410,7 @@ export class GoogleShoppingSerpElementItem  extends BaseMerchantGoogleShoppingPr
         data["product_id"] = this.product_id;
         data["data_docid"] = this.data_docid;
         data["seller"] = this.seller;
+        data["snippet"] = this.snippet;
         data["additional_specifications"] = this.additional_specifications;
         data["reviews_count"] = this.reviews_count;
         data["is_best_match"] = this.is_best_match;

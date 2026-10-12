@@ -13,10 +13,11 @@
 **is_video** | **boolean** | *indicates whether the element contains a `video`*. **Note:** this check no longer appears in SERP |[optional]|
 **is_featured_snippet** | **boolean** | *indicates whether the element is a `featured_snippet`*. **Note:** this check no longer appears in SERP |[optional]|
 **is_malicious** | **boolean** | *indicates whether the element is marked as malicious*. **Note:** this check no longer appears in SERP |[optional]|
+**checks** | **string[]** | *array of properties detected for the SERP element*. lists the properties that are true for this element. each value in the array represents a detected property . example:. if `is_image` is present in the array, the element contains an image. possible values in the array:. `is_image`, `is_video`, `is_featured_snippet`, `amp_version`, `is_malicious`, `is_web_story`, `is_highly_cited`. equals `null` if none of the properties are detected for the element. learn more about the `checks` array in [this Help Center article](https://dataforseo.com/help-center/whats-a-checks-array-in-the-google-organic-serp-api) |[optional]|
 **description** | **string** | *description of the results element in SERP* |[optional]|
 **pre_snippet** | **string** | *includes additional information appended before the result description in SERP* |[optional]|
 **extended_snippet** | **string** | *includes additional information appended after the result description in SERP* |[optional]|
-**amp_version** | **boolean** | *Accelerated Mobile Pages*.             indicates whether an item has the Accelerated Mobile Page (AMP) version |[optional]|
+**amp_version** | **boolean** | *Accelerated Mobile Pages*. indicates whether an item has the Accelerated Mobile Page (AMP) version. **Note:** this check no longer appears in SERP |[optional]|
 **rating** | **RatingInfo** | *the item's rating*.             the popularity rate based on reviews and displayed in SERP |[optional]|
 **highlighted** | **string[]** | *words highlighted in bold within the results `description`* |[optional]|
 **links** | **LinkElement[]** | *sitelinks*.             the links shown below some of Google's search results.             if there are none, equals `null` |[optional]|

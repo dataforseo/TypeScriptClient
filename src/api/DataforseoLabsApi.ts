@@ -50,6 +50,8 @@ import { DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo } from "./../
 import { DataforseoLabsGoogleHistoricalRankOverviewLiveResponseInfo } from "./../models/DataforseoLabsGoogleHistoricalRankOverviewLiveResponseInfo";
 import { DataforseoLabsGooglePageIntersectionLiveRequestInfo } from "./../models/DataforseoLabsGooglePageIntersectionLiveRequestInfo";
 import { DataforseoLabsGooglePageIntersectionLiveResponseInfo } from "./../models/DataforseoLabsGooglePageIntersectionLiveResponseInfo";
+import { DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo } from "./../models/DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo";
+import { DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo } from "./../models/DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo";
 import { DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo } from "./../models/DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo";
 import { DataforseoLabsGoogleBulkTrafficEstimationLiveResponseInfo } from "./../models/DataforseoLabsGoogleBulkTrafficEstimationLiveResponseInfo";
 import { DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo } from "./../models/DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo";
@@ -108,7 +110,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -140,7 +142,7 @@ export class DataforseoLabsApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
 
@@ -176,7 +178,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -208,7 +210,7 @@ export class DataforseoLabsApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
 
@@ -241,7 +243,7 @@ export class DataforseoLabsApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
 
@@ -274,7 +276,7 @@ export class DataforseoLabsApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
 
@@ -307,7 +309,7 @@ export class DataforseoLabsApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
 
@@ -343,7 +345,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -378,7 +380,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -413,7 +415,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -448,7 +450,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -483,7 +485,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -518,7 +520,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -550,7 +552,7 @@ export class DataforseoLabsApi {
             method: "GET",
             headers: {
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
 
@@ -586,7 +588,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -621,7 +623,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -656,7 +658,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -691,7 +693,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -726,7 +728,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -761,7 +763,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -796,7 +798,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -831,7 +833,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -866,7 +868,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -901,7 +903,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -936,7 +938,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -971,7 +973,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1006,7 +1008,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1041,7 +1043,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1076,7 +1078,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1101,6 +1103,41 @@ export class DataforseoLabsApi {
         }
         return Promise.resolve<DataforseoLabsGooglePageIntersectionLiveResponseInfo | null>(null as any);
     }
+    googleHistoricalSearchVolumeLive(body: DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo[]): Promise<DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo | null> {
+        let url_ = this.baseUrl + "/v3/dataforseo_labs/google/historical_search_volume/live";
+        url_ = url_.replace(/[?&]$/, "");
+        const content_ = JSON.stringify(body);
+        let options_: RequestInit = {
+            body: content_,
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": "typescript-client/2.1.9",
+            }
+        };
+        return this.http.fetch(url_, options_).then((_response: Response) => {
+            return this.processGoogleHistoricalSearchVolumeLive(_response);
+        });
+    }
+
+    protected processGoogleHistoricalSearchVolumeLive(response: Response): Promise<DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo | null> {
+        const status = response.status;
+        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
+        if (status === 200) {
+            return response.text().then((_responseText) => {
+                let result200: any = null;
+                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
+                result200 = resultData200 ? DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.fromJS(resultData200) : <any>null;
+                return result200;
+            });
+        } else if (status !== 200 && status !== 204) {
+            return response.text().then((_responseText) => {
+                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
+            });
+        }
+        return Promise.resolve<DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo | null>(null as any);
+    }
     googleBulkTrafficEstimationLive(body: DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo[]): Promise<DataforseoLabsGoogleBulkTrafficEstimationLiveResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/dataforseo_labs/google/bulk_traffic_estimation/live";
         url_ = url_.replace(/[?&]$/, "");
@@ -1111,7 +1148,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1146,7 +1183,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1181,7 +1218,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1216,7 +1253,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1251,7 +1288,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1286,7 +1323,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1321,7 +1358,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1356,7 +1393,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1391,7 +1428,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1426,7 +1463,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1461,7 +1498,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1496,7 +1533,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1531,7 +1568,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1566,7 +1603,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1601,7 +1638,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1636,7 +1673,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1671,7 +1708,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {
@@ -1706,7 +1743,7 @@ export class DataforseoLabsApi {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.8",
+                "User-Agent": "typescript-client/2.1.9",
             }
         };
         return this.http.fetch(url_, options_).then((_response: Response) => {

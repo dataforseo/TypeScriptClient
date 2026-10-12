@@ -9,6 +9,7 @@
 **title** | **string** | *product title* |[optional]|
 **tags** | **string[]** | *tags assigned to the product* |[optional]|
 **seller** | **string** | *name of the seller*. the name of the company that placed a corresponding product on Google Shopping |[optional]|
+**snippet** | **string** | *additional information about the result* |[optional]|
 **price** | **number** | *product price*. example:. `384.99` |[optional]|
 **currency** | **string** | *currency in the [ISO](https://en.wikipedia.org/wiki/ISO_4217) format*. example:. `USD` |[optional]|
 **product_rating** | **RatingElement** | *product rating*. the product popularity rate based on product reviews |[optional]|

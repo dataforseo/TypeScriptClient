@@ -75,8 +75,8 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new AppDataIdListRequestInfo();
-   task.limit = 10;
-   task.include_metadata = true;
+ task.limit = 10;
+ task.include_metadata = true;
  let response = await api.appDataIdList([task]);
 ```
 
@@ -134,7 +134,7 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new AppDataErrorsRequestInfo();
-   task.limit = 10;
+ task.limit = 10;
  let response = await api.appDataErrors([task]);
 ```
 
@@ -417,10 +417,10 @@ This endpoint does not need any parameter.
  });
 
  let task = new AppDataGoogleAppSearchesTaskPostRequestInfo();
-   task.keyword = "vpn";
-   task.location_code = 2840;
-   task.language_code = "en";
-   task.depth = 30;
+ task.keyword = "vpn";
+ task.location_code = 2840;
+ task.language_code = "en";
+ task.depth = 30;
  let response = await api.googleAppSearchesTaskPost([task]);
 ```
 
@@ -704,10 +704,10 @@ This endpoint does not need any parameter.
  });
 
  let task = new AppDataGoogleAppListTaskPostRequestInfo();
-   task.app_collection = "topselling_free";
-   task.location_code = 2840;
-   task.language_code = "en";
-   task.depth = 100;
+ task.app_collection = "topselling_free";
+ task.location_code = 2840;
+ task.language_code = "en";
+ task.depth = 100;
  let response = await api.googleAppListTaskPost([task]);
 ```
 
@@ -935,9 +935,9 @@ This endpoint does not need any parameter.
  });
 
  let task = new AppDataGoogleAppInfoTaskPostRequestInfo();
-   task.app_id = "org.telegram.messenger";
-   task.location_code = 2840;
-   task.language_code = "en";
+ task.app_id = "org.telegram.messenger";
+ task.location_code = 2840;
+ task.language_code = "en";
  let response = await api.googleAppInfoTaskPost([task]);
 ```
 
@@ -1165,10 +1165,10 @@ This endpoint does not need any parameter.
  });
 
  let task = new AppDataGoogleAppReviewsTaskPostRequestInfo();
-   task.app_id = "org.telegram.messenger";
-   task.location_code = 2840;
-   task.language_code = "en";
-   task.depth = 150;
+ task.app_id = "org.telegram.messenger";
+ task.location_code = 2840;
+ task.language_code = "en";
+ task.depth = 150;
  let response = await api.googleAppReviewsTaskPost([task]);
 ```
 
@@ -1452,18 +1452,22 @@ This endpoint does not need any parameter.
  });
 
  let task = new AppDataGoogleAppListingsSearchLiveRequestInfo();
-   task.title = "vpn";
-   task.description = "vpn";
-   task.categories = [
-       "Tools",
-   ];
-   task.order_by = [
-       "item.installs_count,asc",
-   ];
-   task.filters = [
-       ,
-   ];
-   task.limit = 10;
+ task.title = "vpn";
+ task.description = "vpn";
+ task.categories = [
+   "Tools",
+ ];
+ task.order_by = [
+   "item.installs_count,asc",
+ ];
+ task.filters = [
+   [
+     "item.rating.value",
+     ">",
+     4.5,
+   ],
+ ];
+ task.limit = 10;
  let response = await api.googleAppListingsSearchLive([task]);
 ```
 
@@ -1689,10 +1693,10 @@ This endpoint does not need any parameter.
  });
 
  let task = new AppDataAppleAppSearchesTaskPostRequestInfo();
-   task.keyword = "vpn";
-   task.location_code = 2840;
-   task.language_code = "en";
-   task.depth = 200;
+ task.keyword = "vpn";
+ task.location_code = 2840;
+ task.language_code = "en";
+ task.depth = 200;
  let response = await api.appleAppSearchesTaskPost([task]);
 ```
 
@@ -1863,9 +1867,9 @@ This endpoint does not need any parameter.
  });
 
  let task = new AppDataAppleAppInfoTaskPostRequestInfo();
-   task.app_id = "835599320";
-   task.location_code = 2840;
-   task.language_code = "en";
+ task.app_id = "835599320";
+ task.location_code = 2840;
+ task.language_code = "en";
  let response = await api.appleAppInfoTaskPost([task]);
 ```
 
@@ -2036,10 +2040,10 @@ This endpoint does not need any parameter.
  });
 
  let task = new AppDataAppleAppListTaskPostRequestInfo();
-   task.app_collection = "top_free_ios";
-   task.location_code = 2840;
-   task.language_code = "en";
-   task.app_category = "games";
+ task.app_collection = "top_free_ios";
+ task.location_code = 2840;
+ task.language_code = "en";
+ task.app_category = "games";
  let response = await api.appleAppListTaskPost([task]);
 ```
 
@@ -2210,10 +2214,10 @@ This endpoint does not need any parameter.
  });
 
  let task = new AppDataAppleAppReviewsTaskPostRequestInfo();
-   task.app_id = "835599320";
-   task.location_code = 2840;
-   task.language_code = "en";
-   task.depth = 200;
+ task.app_id = "835599320";
+ task.location_code = 2840;
+ task.language_code = "en";
+ task.depth = 200;
  let response = await api.appleAppReviewsTaskPost([task]);
 ```
 
@@ -2440,18 +2444,22 @@ This endpoint does not need any parameter.
  });
 
  let task = new AppDataAppleAppListingsSearchLiveRequestInfo();
-   task.title = "vpn";
-   task.description = "vpn";
-   task.categories = [
-       "Utilities",
-   ];
-   task.order_by = [
-       "item.rating.value,desc",
-   ];
-   task.filters = [
-       ,
-   ];
-   task.limit = 10;
+ task.title = "vpn";
+ task.description = "vpn";
+ task.categories = [
+   "Utilities",
+ ];
+ task.order_by = [
+   "item.rating.value,desc",
+ ];
+ task.filters = [
+   [
+     "item.rating.value",
+     ">",
+     4.5,
+   ],
+ ];
+ task.limit = 10;
  let response = await api.appleAppListingsSearchLive([task]);
 ```
 

@@ -86,8 +86,8 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new BusinessDataIdListRequestInfo();
-   task.limit = 10;
-   task.include_metadata = true;
+ task.limit = 10;
+ task.include_metadata = true;
  let response = await api.businessDataIdList([task]);
 ```
 
@@ -145,7 +145,7 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new BusinessDataErrorsRequestInfo();
-   task.limit = 10;
+ task.limit = 10;
  let response = await api.businessDataErrors([task]);
 ```
 
@@ -371,20 +371,24 @@ This endpoint does not need any parameter.
  });
 
  let task = new BusinessDataBusinessListingsSearchLiveRequestInfo();
-   task.categories = [
-       "pizza_restaurant",
-   ];
-   task.description = "pizza";
-   task.title = "pizza";
-   task.is_claimed = true;
-   task.location_coordinate = "53.476225,-2.243572,10";
-   task.order_by = [
-       "rating.value,desc",
-   ];
-   task.filters = [
-       ,
-   ];
-   task.limit = 3;
+ task.categories = [
+   "pizza_restaurant",
+ ];
+ task.description = "pizza";
+ task.title = "pizza";
+ task.is_claimed = true;
+ task.location_coordinate = "53.476225,-2.243572,10";
+ task.order_by = [
+   "rating.value,desc",
+ ];
+ task.filters = [
+   [
+     "rating.value",
+     ">",
+     3,
+   ],
+ ];
+ task.limit = 3;
  let response = await api.businessListingsSearchLive([task]);
 ```
 
@@ -442,17 +446,21 @@ This endpoint does not need any parameter.
  });
 
  let task = new BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo();
-   task.categories = [
-       "pizza_restaurant",
-   ];
-   task.description = "pizza";
-   task.title = "pizza";
-   task.is_claimed = true;
-   task.location_coordinate = "53.476225,-2.243572,10";
-   task.initial_dataset_filters = [
-       ,
-   ];
-   task.limit = 3;
+ task.categories = [
+   "pizza_restaurant",
+ ];
+ task.description = "pizza";
+ task.title = "pizza";
+ task.is_claimed = true;
+ task.location_coordinate = "53.476225,-2.243572,10";
+ task.initial_dataset_filters = [
+   [
+     "rating.value",
+     ">",
+     3,
+   ],
+ ];
+ task.limit = 3;
  let response = await api.businessListingsCategoriesAggregationLive([task]);
 ```
 
@@ -679,9 +687,9 @@ This endpoint does not need any parameter.
  });
 
  let task = new BusinessDataGoogleMyBusinessInfoTaskPostRequestInfo();
-   task.language_code = "en";
-   task.location_name = "New York,New York,United States";
-   task.keyword = "RustyBrick, Inc.";
+ task.language_code = "en";
+ task.location_name = "New York,New York,United States";
+ task.keyword = "RustyBrick, Inc.";
  let response = await api.googleMyBusinessInfoTaskPost([task]);
 ```
 
@@ -908,9 +916,9 @@ This endpoint does not need any parameter.
  });
 
  let task = new BusinessDataGoogleMyBusinessInfoLiveRequestInfo();
-   task.language_code = "en";
-   task.location_name = "New York,New York,United States";
-   task.keyword = "RustyBrick, Inc.";
+ task.language_code = "en";
+ task.location_name = "New York,New York,United States";
+ task.keyword = "RustyBrick, Inc.";
  let response = await api.googleMyBusinessInfoLive([task]);
 ```
 
@@ -968,9 +976,9 @@ This endpoint does not need any parameter.
  });
 
  let task = new BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo();
-   task.language_code = "en";
-   task.location_name = "New York,New York,United States";
-   task.keyword = "RustyBrick, Inc.";
+ task.language_code = "en";
+ task.location_name = "New York,New York,United States";
+ task.keyword = "RustyBrick, Inc.";
  let response = await api.googleMyBusinessUpdatesTaskPost([task]);
 ```
 
@@ -1141,17 +1149,17 @@ This endpoint does not need any parameter.
  });
 
  let task = new BusinessDataGoogleHotelSearchesTaskPostRequestInfo();
-   task.language_code = "en";
-   task.location_name = "New York,New York,United States";
-   task.keyword = "cheap hotel";
-   task.currency = "USD";
-   task.adults = 2;
-   task.children = [
-       "14",
-   ];
-   task.sort_by = "highest_rating";
-   task.priority = 2;
-   task.tag = "example";
+ task.language_code = "en";
+ task.location_name = "New York,New York,United States";
+ task.keyword = "cheap hotel";
+ task.currency = "USD";
+ task.adults = 2;
+ task.children = [
+   "14",
+ ];
+ task.sort_by = "highest_rating";
+ task.priority = 2;
+ task.tag = "example";
  let response = await api.googleHotelSearchesTaskPost([task]);
 ```
 
@@ -1322,16 +1330,16 @@ This endpoint does not need any parameter.
  });
 
  let task = new BusinessDataGoogleHotelSearchesLiveRequestInfo();
-   task.language_code = "en";
-   task.location_name = "New York,New York,United States";
-   task.keyword = "cheap hotel";
-   task.currency = "USD";
-   task.adults = 2;
-   task.children = [
-       "14",
-   ];
-   task.sort_by = "highest_rating";
-   task.tag = "example";
+ task.language_code = "en";
+ task.location_name = "New York,New York,United States";
+ task.keyword = "cheap hotel";
+ task.currency = "USD";
+ task.adults = 2;
+ task.children = [
+   "14",
+ ];
+ task.sort_by = "highest_rating";
+ task.tag = "example";
  let response = await api.googleHotelSearchesLive([task]);
 ```
 
@@ -1389,12 +1397,12 @@ This endpoint does not need any parameter.
  });
 
  let task = new BusinessDataGoogleHotelInfoTaskPostRequestInfo();
-   task.language_code = "en";
-   task.location_name = "New York,New York,United States";
-   task.hotel_identifier = "ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE";
-   task.tag = "some_string_123";
-   task.postback_url = "https://your-server.com/postbackscript.php";
-   task.postback_data = "advanced";
+ task.language_code = "en";
+ task.location_name = "New York,New York,United States";
+ task.hotel_identifier = "ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE";
+ task.tag = "some_string_123";
+ task.postback_url = "https://your-server.com/postbackscript.php";
+ task.postback_data = "advanced";
  let response = await api.googleHotelInfoTaskPost([task]);
 ```
 
@@ -1622,9 +1630,9 @@ This endpoint does not need any parameter.
  });
 
  let task = new BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo();
-   task.language_code = "en";
-   task.location_name = "New York,New York,United States";
-   task.hotel_identifier = "CgoI-KWyzenM_MV3EAE";
+ task.language_code = "en";
+ task.location_name = "New York,New York,United States";
+ task.hotel_identifier = "CgoI-KWyzenM_MV3EAE";
  let response = await api.googleHotelInfoLiveAdvanced([task]);
 ```
 
@@ -1682,9 +1690,9 @@ This endpoint does not need any parameter.
  });
 
  let task = new BusinessDataGoogleHotelInfoLiveHtmlRequestInfo();
-   task.language_code = "en";
-   task.location_name = "New York,New York,United States";
-   task.hotel_identifier = "ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE";
+ task.language_code = "en";
+ task.location_name = "New York,New York,United States";
+ task.hotel_identifier = "ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE";
  let response = await api.googleHotelInfoLiveHtml([task]);
 ```
 
@@ -1742,11 +1750,11 @@ This endpoint does not need any parameter.
  });
 
  let task = new BusinessDataGoogleReviewsTaskPostRequestInfo();
-   task.location_name = "London,England,United Kingdom";
-   task.language_name = "English";
-   task.keyword = "hedonism wines";
-   task.depth = 50;
-   task.sort_by = "highest_rating";
+ task.location_name = "London,England,United Kingdom";
+ task.language_name = "English";
+ task.keyword = "hedonism wines";
+ task.depth = 50;
+ task.sort_by = "highest_rating";
  let response = await api.googleReviewsTaskPost([task]);
 ```
 
@@ -1917,9 +1925,9 @@ This endpoint does not need any parameter.
  });
 
  let task = new BusinessDataGoogleExtendedReviewsTaskPostRequestInfo();
-   task.location_name = "London,England,United Kingdom";
-   task.language_name = "english";
-   task.cid = "17626775537598922320";
+ task.location_name = "London,England,United Kingdom";
+ task.language_name = "english";
+ task.cid = "17626775537598922320";
  let response = await api.googleExtendedReviewsTaskPost([task]);
 ```
 
@@ -2090,9 +2098,9 @@ This endpoint does not need any parameter.
  });
 
  let task = new BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo();
-   task.language_code = "en";
-   task.location_name = "Los Angeles,California,United States";
-   task.keyword = "The Last Bookstore";
+ task.language_code = "en";
+ task.location_name = "Los Angeles,California,United States";
+ task.keyword = "The Last Bookstore";
  let response = await api.googleQuestionsAndAnswersTaskPost([task]);
 ```
 
@@ -2263,9 +2271,9 @@ This endpoint does not need any parameter.
  });
 
  let task = new BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo();
-   task.language_code = "en";
-   task.location_name = "Los Angeles,California,United States";
-   task.keyword = "The Last Bookstore";
+ task.language_code = "en";
+ task.location_name = "Los Angeles,California,United States";
+ task.keyword = "The Last Bookstore";
  let response = await api.googleQuestionsAndAnswersLive([task]);
 ```
 
@@ -2323,8 +2331,8 @@ This endpoint does not need any parameter.
  });
 
  let task = new BusinessDataTrustpilotSearchTaskPostRequestInfo();
-   task.keyword = "pizza restaurant";
-   task.depth = 20;
+ task.keyword = "pizza restaurant";
+ task.depth = 20;
  let response = await api.trustpilotSearchTaskPost([task]);
 ```
 
@@ -2495,8 +2503,8 @@ This endpoint does not need any parameter.
  });
 
  let task = new BusinessDataTrustpilotReviewsTaskPostRequestInfo();
-   task.domain = "www.thepearlsource.com";
-   task.depth = 40;
+ task.domain = "www.thepearlsource.com";
+ task.depth = 40;
  let response = await api.trustpilotReviewsTaskPost([task]);
 ```
 
@@ -2836,9 +2844,9 @@ This endpoint does not need any parameter.
  });
 
  let task = new BusinessDataTripadvisorSearchTaskPostRequestInfo();
-   task.keyword = "pizza";
-   task.location_code = 1003854;
-   task.depth = 30;
+ task.keyword = "pizza";
+ task.location_code = 1003854;
+ task.depth = 30;
  let response = await api.tripadvisorSearchTaskPost([task]);
 ```
 
@@ -3009,10 +3017,10 @@ This endpoint does not need any parameter.
  });
 
  let task = new BusinessDataTripadvisorReviewsTaskPostRequestInfo();
-   task.url_path = "Hotel_Review-g60763-d23462501-Reviews-Margaritaville_Times_Square-New_York_City_New_York.html";
-   task.location_code = 1003854;
-   task.pingback_url = "https://your-server.com/pingback.php?id=$id&tag=$tag";
-   task.tag = "some_string_123";
+ task.url_path = "Hotel_Review-g60763-d23462501-Reviews-Margaritaville_Times_Square-New_York_City_New_York.html";
+ task.location_code = 1003854;
+ task.pingback_url = "https://your-server.com/pingback.php?id=$id&tag=$tag";
+ task.tag = "some_string_123";
  let response = await api.tripadvisorReviewsTaskPost([task]);
 ```
 

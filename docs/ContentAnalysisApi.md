@@ -44,8 +44,8 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new ContentAnalysisIdListRequestInfo();
-   task.limit = 10;
-   task.include_metadata = true;
+ task.limit = 10;
+ task.include_metadata = true;
  let response = await api.contentAnalysisIdList([task]);
 ```
 
@@ -327,27 +327,27 @@ This endpoint does not need any parameter.
  });
 
  let task = new ContentAnalysisSearchLiveRequestInfo();
-   task.keyword_fields = {
-       snippet: "logitech",
-   };
-   task.keyword = "logitech";
-   task.page_type = [
-       "ecommerce",
-       "news",
-       "blogs",
-       "message-boards",
-       "organization",
-   ];
-   task.search_mode = "as_is";
-   task.filters = [
-       "main_domain",
-       "=",
-       "reviewfinder.ca",
-   ];
-   task.order_by = [
-       "content_info.sentiment_connotations.anger,desc",
-   ];
-   task.limit = 10;
+ task.keyword_fields = {
+   "snippet": "logitech",
+ };
+ task.keyword = "logitech";
+ task.page_type = [
+   "ecommerce",
+   "news",
+   "blogs",
+   "message-boards",
+   "organization",
+ ];
+ task.search_mode = "as_is";
+ task.filters = [
+   "main_domain",
+   "=",
+   "reviewfinder.ca",
+ ];
+ task.order_by = [
+   "content_info.sentiment_connotations.anger,desc",
+ ];
+ task.limit = 10;
  let response = await api.searchLive([task]);
 ```
 
@@ -405,16 +405,16 @@ This endpoint does not need any parameter.
  });
 
  let task = new ContentAnalysisSummaryLiveRequestInfo();
-   task.keyword = "logitech";
-   task.page_type = [
-       "ecommerce",
-       "news",
-       "blogs",
-       "message-boards",
-       "organization",
-   ];
-   task.internal_list_limit = 8;
-   task.positive_connotation_threshold = 0.5;
+ task.keyword = "logitech";
+ task.page_type = [
+   "ecommerce",
+   "news",
+   "blogs",
+   "message-boards",
+   "organization",
+ ];
+ task.internal_list_limit = 8;
+ task.positive_connotation_threshold = 0.5;
  let response = await api.contentAnalysisSummaryLive([task]);
 ```
 
@@ -472,8 +472,8 @@ This endpoint does not need any parameter.
  });
 
  let task = new ContentAnalysisSentimentAnalysisLiveRequestInfo();
-   task.keyword = "logitech";
-   task.internal_list_limit = 1;
+ task.keyword = "logitech";
+ task.internal_list_limit = 1;
  let response = await api.sentimentAnalysisLive([task]);
 ```
 
@@ -531,9 +531,9 @@ This endpoint does not need any parameter.
  });
 
  let task = new ContentAnalysisRatingDistributionLiveRequestInfo();
-   task.keyword = "logitech";
-   task.search_mode = "as_is";
-   task.internal_list_limit = 10;
+ task.keyword = "logitech";
+ task.search_mode = "as_is";
+ task.internal_list_limit = 10;
  let response = await api.ratingDistributionLive([task]);
 ```
 
@@ -591,9 +591,9 @@ This endpoint does not need any parameter.
  });
 
  let task = new ContentAnalysisPhraseTrendsLiveRequestInfo();
-   task.keyword = "logitech";
-   task.search_mode = "as_is";
-   task.date_group = "month";
+ task.keyword = "logitech";
+ task.search_mode = "as_is";
+ task.date_group = "month";
  let response = await api.phraseTrendsLive([task]);
 ```
 
@@ -651,9 +651,9 @@ This endpoint does not need any parameter.
  });
 
  let task = new ContentAnalysisCategoryTrendsLiveRequestInfo();
-   task.category_code = 10994;
-   task.search_mode = "as_is";
-   task.date_group = "month";
+ task.category_code = 10994;
+ task.search_mode = "as_is";
+ task.date_group = "month";
  let response = await api.categoryTrendsLive([task]);
 ```
 

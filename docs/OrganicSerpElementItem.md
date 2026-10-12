@@ -14,7 +14,7 @@
 **cache_url** | **string** | *cached version of the page* |[optional]|
 **related_search_url** | **string** | *URL to a similar search*. URL to a new search for the same keyword(s) [on related sites](https://support.google.com/websearch/answer/2466433?hl=en#:~:text=Search%20for%20related%20sites) |[optional]|
 **website_name** | **string** | *name of the website in SERP* |[optional]|
-**is_image** | **boolean** | *indicates whether the element contains an_`image`*. **Note:** this check no longer appears in SERPn |[optional]|
+**is_image** | **boolean** | *indicates whether the element contains an_`image`*. **Note:** this check no longer appears in SERP |[optional]|
 **is_video** | **boolean** | *indicates whether the element contains a `video`*. **Note:** this check no longer appears in SERP |[optional]|
 **is_featured_snippet** | **boolean** | *indicates whether the element is a `featured_snippet`*. **Note:** this check no longer appears in SERP |[optional]|
 **is_malicious** | **boolean** | *indicates whether the element is marked as malicious*. **Note:** this check no longer appears in SERP |[optional]|
@@ -23,7 +23,7 @@
 **pre_snippet** | **string** | *includes additional information appended before the result description in SERP* |[optional]|
 **extended_snippet** | **string** | *includes additional information appended after the result description in SERP* |[optional]|
 **images** | **AiModeImagesElementInfo[]** | *images of the element*. if there are none, equals `null` |[optional]|
-**amp_version** | **boolean** | *Accelerated Mobile Pages*. indicates whether an item has the Accelerated Mobile Page (AMP) version |[optional]|
+**amp_version** | **boolean** | *Accelerated Mobile Pages*. indicates whether an item has the Accelerated Mobile Page (AMP) version. **Note:** this check no longer appears in SERP |[optional]|
 **rating** | **RatingInfo** | *the item's rating*. the popularity rate based on reviews and displayed in SERP. if there is none, equals `null` |[optional]|
 **price** | **PriceInfo** | *pricing details*. contains the pricing details of the product or service featured in the result;. if there is none, equals `null` |[optional]|
 **highlighted** | **string[]** | *words highlighted in bold within the results `description`* |[optional]|

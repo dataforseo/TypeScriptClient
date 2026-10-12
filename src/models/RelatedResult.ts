@@ -36,7 +36,7 @@ export interface IRelatedResult   {
         /** *name of the website in the ad element* */
         website_name?: string | undefined
         
-        /** *indicates whether the element contains an_`image`* **Note:** this check no longer appears in SERPn */
+        /** *indicates whether the element contains an_`image`* **Note:** this check no longer appears in SERP */
         is_image?: boolean | undefined
         
         /** *indicates whether the element contains a `video`* **Note:** this check no longer appears in SERP */
@@ -57,7 +57,7 @@ export interface IRelatedResult   {
         /** *images of the component* if there are none, equals `null` */
         images?: AiModeImagesElementInfo[] | undefined
         
-        /** *Accelerated Mobile Pages* indicates whether an item has the Accelerated Mobile Page (AMP) version */
+        /** *Accelerated Mobile Pages* indicates whether an item has the Accelerated Mobile Page (AMP) version **Note:** this check no longer appears in SERP */
         amp_version?: boolean | undefined
         
         /** *the item's rating* the popularity rate based on reviews and displayed in SERP; if there is none, equals `null` */
@@ -132,7 +132,7 @@ export class RelatedResult  implements IRelatedResult {
     website_name?: string | undefined;
 
     
-    /** *indicates whether the element contains an_`image`* **Note:** this check no longer appears in SERPn */
+    /** *indicates whether the element contains an_`image`* **Note:** this check no longer appears in SERP */
 
     is_image?: boolean | undefined;
 
@@ -167,7 +167,7 @@ export class RelatedResult  implements IRelatedResult {
     images?: AiModeImagesElementInfo[] | undefined;
 
     
-    /** *Accelerated Mobile Pages* indicates whether an item has the Accelerated Mobile Page (AMP) version */
+    /** *Accelerated Mobile Pages* indicates whether an item has the Accelerated Mobile Page (AMP) version **Note:** this check no longer appears in SERP */
 
     amp_version?: boolean | undefined;
 
