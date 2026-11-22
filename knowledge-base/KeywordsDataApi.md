@@ -82,6 +82,8 @@ let api = new KeywordsDataApi("https://api.dataforseo.com", {
 });
 
 let task = new KeywordsDataGoogleTrendsExploreTaskPostRequestInfo();
+task.date_from = "2026-08-22";
+task.date_to = "2026-10-22";
 task.type = "youtube";
 task.category_code = 3;
 task.keywords = [
@@ -125,6 +127,7 @@ task.keywords = [
   "cheap laptops for sale",
   "purchase laptop",
 ];
+task.date_from = "2026-08-22";
 task.search_partners = true;
 let response = await api.googleAdsSearchVolumeLive([task]);
 ```
@@ -196,6 +199,8 @@ let api = new KeywordsDataApi("https://api.dataforseo.com", {
 
 let task = new KeywordsDataGoogleTrendsExploreLiveRequestInfo();
 task.location_name = "United States";
+task.date_from = "2026-08-22";
+task.date_to = "2026-10-22";
 task.type = "youtube";
 task.category_code = 3;
 task.keywords = [

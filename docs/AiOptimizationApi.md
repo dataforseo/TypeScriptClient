@@ -3540,6 +3540,8 @@ This endpoint does not need any parameter.
    }),
  ];
  task.platform = "google";
+ task.date_from = "2026-08-22";
+ task.date_to = "2026-10-22";
  task.group_range = "month";
  let response = await api.llmMentionsTimeseriesDeltaLive([task]);
 ```
@@ -3613,6 +3615,8 @@ This endpoint does not need any parameter.
    }),
  ];
  task.platform = "google";
+ task.date_from = "2026-08-22";
+ task.date_to = "2026-10-22";
  task.group_range = "month";
  let response = await api.llmMentionsTimeseriesNewLostLive([task]);
 ```

@@ -75,7 +75,11 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new AppDataIdListRequestInfo();
+ task.datetime_from = "2026-11-19 16:25:10 +00:00";
+ task.datetime_to = "2026-11-21 16:25:10 +00:00";
  task.limit = 10;
+ task.offset = 0;
+ task.sort = "desc";
  task.include_metadata = true;
  let response = await api.appDataIdList([task]);
 ```
@@ -135,6 +139,7 @@ All URIs are relative to *https://api.dataforseo.com*
 
  let task = new AppDataErrorsRequestInfo();
  task.limit = 10;
+ task.offset = 0;
  let response = await api.appDataErrors([task]);
 ```
 
@@ -1454,18 +1459,13 @@ This endpoint does not need any parameter.
  let task = new AppDataGoogleAppListingsSearchLiveRequestInfo();
  task.title = "vpn";
  task.description = "vpn";
- task.categories = [
-   "Tools",
- ];
  task.order_by = [
-   "item.installs_count,asc",
+   "item.rating.value,desc",
  ];
  task.filters = [
-   [
-     "item.rating.value",
-     ">",
-     4.5,
-   ],
+   "item.rating.value",
+   ">",
+   4.5,
  ];
  task.limit = 10;
  let response = await api.googleAppListingsSearchLive([task]);
@@ -2446,18 +2446,13 @@ This endpoint does not need any parameter.
  let task = new AppDataAppleAppListingsSearchLiveRequestInfo();
  task.title = "vpn";
  task.description = "vpn";
- task.categories = [
-   "Utilities",
- ];
  task.order_by = [
    "item.rating.value,desc",
  ];
  task.filters = [
-   [
-     "item.rating.value",
-     ">",
-     4.5,
-   ],
+   "item.rating.value",
+   ">",
+   4.5,
  ];
  task.limit = 10;
  let response = await api.appleAppListingsSearchLive([task]);

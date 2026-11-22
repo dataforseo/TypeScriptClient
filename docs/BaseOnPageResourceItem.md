@@ -4,7 +4,7 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-**resource_type** | **string** | *type of the returned resource = **'html'*** |[optional]|
+**resource_type** | **string** | type of element |[optional]|
 **status_code** | **number** | general status codeyou can find the full list of the response codes hereNote: we strongly recommend designing a necessary system for handling related exceptional or error conditions |[optional]|
 **location** | **string** | location headerindicates the URL to redirect a page to |[optional]|
 **url** | **string** | page URL |[optional]|

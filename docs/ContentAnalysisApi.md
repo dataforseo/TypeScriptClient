@@ -44,7 +44,11 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new ContentAnalysisIdListRequestInfo();
+ task.datetime_from = "2026-11-19 16:24:50 +00:00";
+ task.datetime_to = "2026-11-21 16:24:50 +00:00";
  task.limit = 10;
+ task.offset = 0;
+ task.sort = "desc";
  task.include_metadata = true;
  let response = await api.contentAnalysisIdList([task]);
 ```
@@ -593,6 +597,7 @@ This endpoint does not need any parameter.
  let task = new ContentAnalysisPhraseTrendsLiveRequestInfo();
  task.keyword = "logitech";
  task.search_mode = "as_is";
+ task.date_from = "2026-08-22";
  task.date_group = "month";
  let response = await api.phraseTrendsLive([task]);
 ```
@@ -653,6 +658,7 @@ This endpoint does not need any parameter.
  let task = new ContentAnalysisCategoryTrendsLiveRequestInfo();
  task.category_code = 10994;
  task.search_mode = "as_is";
+ task.date_from = "2026-08-22";
  task.date_group = "month";
  let response = await api.categoryTrendsLive([task]);
 ```

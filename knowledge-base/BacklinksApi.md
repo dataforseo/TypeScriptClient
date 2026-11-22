@@ -341,6 +341,8 @@ let api = new BacklinksApi("https://api.dataforseo.com", {
 
 let task = new BacklinksHistoryLiveRequestInfo();
 task.target = "cnn.com";
+task.date_from = "2026-08-22";
+task.date_to = "2026-10-22";
 let response = await api.historyLive([task]);
 ```
 

@@ -203,6 +203,8 @@ let task = new DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo();
 task.keyword = "albert einstein";
 task.location_code = 2840;
 task.language_code = "en";
+task.date_from = "2026-08-22";
+task.date_to = "2026-10-22";
 let response = await api.googleHistoricalSerpsLive([task]);
 ```
 

@@ -103,7 +103,11 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new KeywordsDataIdListRequestInfo();
+ task.datetime_from = "2026-11-19 16:20:19 +00:00";
+ task.datetime_to = "2026-11-21 16:20:19 +00:00";
  task.limit = 10;
+ task.offset = 0;
+ task.sort = "desc";
  task.include_metadata = true;
  let response = await api.keywordsDataIdList([task]);
 ```
@@ -629,6 +633,7 @@ This endpoint does not need any parameter.
    "cheap laptops for sale",
    "purchase laptop",
  ];
+ task.date_from = "2026-08-22";
  task.search_partners = true;
  let response = await api.googleAdsSearchVolumeLive([task]);
 ```
@@ -1621,6 +1626,8 @@ This endpoint does not need any parameter.
  });
 
  let task = new KeywordsDataGoogleTrendsExploreTaskPostRequestInfo();
+ task.date_from = "2026-08-22";
+ task.date_to = "2026-10-22";
  task.type = "youtube";
  task.category_code = 3;
  task.keywords = [
@@ -1798,6 +1805,8 @@ This endpoint does not need any parameter.
 
  let task = new KeywordsDataGoogleTrendsExploreLiveRequestInfo();
  task.location_name = "United States";
+ task.date_from = "2026-08-22";
+ task.date_to = "2026-10-22";
  task.type = "youtube";
  task.category_code = 3;
  task.keywords = [
@@ -2040,6 +2049,8 @@ This endpoint does not need any parameter.
    "rugby",
    "cricket",
  ];
+ task.date_from = "2026-08-22";
+ task.date_to = "2026-10-22";
  task.type = "web";
  task.location_name = "United States";
  let response = await api.dataforseoTrendsSubregionInterestsLive([task]);
@@ -2103,6 +2114,8 @@ This endpoint does not need any parameter.
    "rugby",
    "cricket",
  ];
+ task.date_from = "2026-08-22";
+ task.date_to = "2026-10-22";
  task.type = "web";
  task.location_name = "United States";
  let response = await api.dataforseoTrendsDemographyLive([task]);
@@ -2166,6 +2179,8 @@ This endpoint does not need any parameter.
    "rugby",
    "cricket",
  ];
+ task.date_from = "2026-08-22";
+ task.date_to = "2026-10-22";
  task.type = "web";
  task.location_name = "United States";
  let response = await api.dataforseoTrendsMergedDataLive([task]);

@@ -18,6 +18,9 @@ export interface ISerpGoogleOrganicTaskPostRequestInfo   {
         /** *load asynchronous ai overview* optional field set to `true` to obtain `ai_overview` items is SERPs even if they are loaded asynchronously; if set to `false`, you will only obtain `ai_overview` items from cache; default value: `false` **Note:** you will be charged extra $0.0006 for using this parameter; if the element is absent or contains `'asynchronous_ai_overview': false`, all extra charges will be returned to your account balance */
         load_async_ai_overview?: boolean | undefined
         
+        /** *resolve poisoned SERP results* optional field set to `true` to detect and resolve poisoned SERPs; restored organic results are marked with the `from_web` value in the `checks` array; default value: `false`; **Note:** if set to `true`, the cost of the task is increased by the price of one SERP page; the cost can be calculated on the [Pricing](https://dataforseo.com/pricing/serp/google-organic-serp-api) page; **Note#2:** this parameter cannot be used together with `udm=web` or `udm=14` in the `url` or `search_param` fields */
+        resolve_poisoned_results?: boolean | undefined
+        
         /** *notification URL of a completed task* optional field when a task is completed we will notify you by GET request sent to the URL you have specified you can use the ‘$id’ string as a `$id` variable and ‘$tag’ as urlencoded `$tag` variable. We will set the necessary values before sending the request. example: `http://your-server.com/pingscript?id=$id` `http://your-server.com/pingscript?id=$id&tag=$tag` **Note:** special characters in `pingback_url` will be urlencoded; i.a., the `#` character will be encoded into `%23` learn more on our [Help Center](https://dataforseo.com/help-center/pingbacks-postbacks-with-dataforseo-api) */
         pingback_url?: string | undefined
         
@@ -119,6 +122,11 @@ export class SerpGoogleOrganicTaskPostRequestInfo  implements ISerpGoogleOrganic
     /** *load asynchronous ai overview* optional field set to `true` to obtain `ai_overview` items is SERPs even if they are loaded asynchronously; if set to `false`, you will only obtain `ai_overview` items from cache; default value: `false` **Note:** you will be charged extra $0.0006 for using this parameter; if the element is absent or contains `'asynchronous_ai_overview': false`, all extra charges will be returned to your account balance */
 
     load_async_ai_overview?: boolean | undefined;
+
+    
+    /** *resolve poisoned SERP results* optional field set to `true` to detect and resolve poisoned SERPs; restored organic results are marked with the `from_web` value in the `checks` array; default value: `false`; **Note:** if set to `true`, the cost of the task is increased by the price of one SERP page; the cost can be calculated on the [Pricing](https://dataforseo.com/pricing/serp/google-organic-serp-api) page; **Note#2:** this parameter cannot be used together with `udm=web` or `udm=14` in the `url` or `search_param` fields */
+
+    resolve_poisoned_results?: boolean | undefined;
 
     
     /** *notification URL of a completed task* optional field when a task is completed we will notify you by GET request sent to the URL you have specified you can use the ‘$id’ string as a `$id` variable and ‘$tag’ as urlencoded `$tag` variable. We will set the necessary values before sending the request. example: `http://your-server.com/pingscript?id=$id` `http://your-server.com/pingscript?id=$id&tag=$tag` **Note:** special characters in `pingback_url` will be urlencoded; i.a., the `#` character will be encoded into `%23` learn more on our [Help Center](https://dataforseo.com/help-center/pingbacks-postbacks-with-dataforseo-api) */
@@ -256,6 +264,7 @@ export class SerpGoogleOrganicTaskPostRequestInfo  implements ISerpGoogleOrganic
             this.depth = data["depth"];
             this.device = data["device"];
             this.load_async_ai_overview = data["load_async_ai_overview"];
+            this.resolve_poisoned_results = data["resolve_poisoned_results"];
             this.pingback_url = data["pingback_url"];
             this.postback_url = data["postback_url"];
             this.postback_data = data["postback_data"];
@@ -301,6 +310,7 @@ export class SerpGoogleOrganicTaskPostRequestInfo  implements ISerpGoogleOrganic
         data["depth"] = this.depth;
         data["device"] = this.device;
         data["load_async_ai_overview"] = this.load_async_ai_overview;
+        data["resolve_poisoned_results"] = this.resolve_poisoned_results;
         data["pingback_url"] = this.pingback_url;
         data["postback_url"] = this.postback_url;
         data["postback_data"] = this.postback_data;

@@ -9,7 +9,7 @@ import { ResourceMetaInfo, IResourceMetaInfo } from "./ResourceMetaInfo";
 
 export interface IBaseOnPageResourceItem   {
         
-        /** *type of the returned resource = **'html'*** */
+        /** type of element */
         resource_type?: string | undefined
         
         /** general status codeyou can find the full list of the response codes hereNote: we strongly recommend designing a necessary system for handling related exceptional or error conditions */
@@ -61,7 +61,7 @@ export interface IBaseOnPageResourceItem   {
 export class BaseOnPageResourceItem  implements IBaseOnPageResourceItem {
 
     
-    /** *type of the returned resource = **'html'*** */
+    /** type of element */
 
     resource_type?: string | undefined;
 

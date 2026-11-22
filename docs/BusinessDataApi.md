@@ -86,7 +86,11 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new BusinessDataIdListRequestInfo();
+ task.datetime_from = "2026-11-19 16:25:20 +00:00";
+ task.datetime_to = "2026-11-21 16:25:20 +00:00";
  task.limit = 10;
+ task.offset = 0;
+ task.sort = "desc";
  task.include_metadata = true;
  let response = await api.businessDataIdList([task]);
 ```
@@ -146,6 +150,7 @@ All URIs are relative to *https://api.dataforseo.com*
 
  let task = new BusinessDataErrorsRequestInfo();
  task.limit = 10;
+ task.offset = 0;
  let response = await api.businessDataErrors([task]);
 ```
 
@@ -1152,6 +1157,8 @@ This endpoint does not need any parameter.
  task.language_code = "en";
  task.location_name = "New York,New York,United States";
  task.keyword = "cheap hotel";
+ task.check_in = "2026-12-22";
+ task.check_out = "2026-12-23";
  task.currency = "USD";
  task.adults = 2;
  task.children = [
@@ -1333,6 +1340,8 @@ This endpoint does not need any parameter.
  task.language_code = "en";
  task.location_name = "New York,New York,United States";
  task.keyword = "cheap hotel";
+ task.check_in = "2026-12-22";
+ task.check_out = "2026-12-23";
  task.currency = "USD";
  task.adults = 2;
  task.children = [

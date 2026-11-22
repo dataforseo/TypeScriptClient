@@ -3,9 +3,9 @@ import { AppendixTaskKeywordsDataPriceDataInfo, IAppendixTaskKeywordsDataPriceDa
 
 export interface IAppendixSerpPriceDataInfo   {
         
-        html?: AppendixTaskKeywordsDataPriceDataInfo | undefined
-        
         regular?: AppendixTaskKeywordsDataPriceDataInfo | undefined
+        
+        html?: AppendixTaskKeywordsDataPriceDataInfo | undefined
         
         advanced?: AppendixTaskKeywordsDataPriceDataInfo | undefined
 
@@ -15,9 +15,9 @@ export interface IAppendixSerpPriceDataInfo   {
 
 export class AppendixSerpPriceDataInfo  implements IAppendixSerpPriceDataInfo {
 
-    html?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
-
     regular?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
+
+    html?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
 
     advanced?: AppendixTaskKeywordsDataPriceDataInfo | undefined;
 
@@ -41,8 +41,8 @@ export class AppendixSerpPriceDataInfo  implements IAppendixSerpPriceDataInfo {
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
-            this.html = data["html"] ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(data["html"]) : <any>undefined;
             this.regular = data["regular"] ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(data["regular"]) : <any>undefined;
+            this.html = data["html"] ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(data["html"]) : <any>undefined;
             this.advanced = data["advanced"] ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(data["advanced"]) : <any>undefined;
         }
     }
@@ -61,8 +61,8 @@ export class AppendixSerpPriceDataInfo  implements IAppendixSerpPriceDataInfo {
 
         
         
-        data["html"] = this.html ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(this.html)?.toJSON() : <any>undefined;
         data["regular"] = this.regular ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(this.regular)?.toJSON() : <any>undefined;
+        data["html"] = this.html ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(this.html)?.toJSON() : <any>undefined;
         data["advanced"] = this.advanced ? AppendixTaskKeywordsDataPriceDataInfo.fromJS(this.advanced)?.toJSON() : <any>undefined;
         return data;
     }

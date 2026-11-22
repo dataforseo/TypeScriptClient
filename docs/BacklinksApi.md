@@ -57,7 +57,11 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new BacklinksIdListRequestInfo();
+ task.datetime_from = "2026-11-19 16:20:40 +00:00";
+ task.datetime_to = "2026-11-21 16:20:40 +00:00";
  task.limit = 10;
+ task.offset = 0;
+ task.sort = "desc";
  task.include_metadata = true;
  let response = await api.backlinksIdList([task]);
 ```
@@ -117,6 +121,7 @@ All URIs are relative to *https://api.dataforseo.com*
 
  let task = new BacklinksErrorsRequestInfo();
  task.limit = 10;
+ task.offset = 0;
  let response = await api.backlinksErrors([task]);
 ```
 
@@ -353,6 +358,8 @@ This endpoint does not need any parameter.
 
  let task = new BacklinksHistoryLiveRequestInfo();
  task.target = "cnn.com";
+ task.date_from = "2026-08-22";
+ task.date_to = "2026-10-22";
  let response = await api.historyLive([task]);
 ```
 
@@ -1042,6 +1049,8 @@ This endpoint does not need any parameter.
 
  let task = new BacklinksTimeseriesSummaryLiveRequestInfo();
  task.target = "dataforseo.com";
+ task.date_from = "2026-08-22";
+ task.date_to = "2026-10-22";
  task.group_range = "month";
  let response = await api.timeseriesSummaryLive([task]);
 ```
@@ -1101,6 +1110,8 @@ This endpoint does not need any parameter.
 
  let task = new BacklinksTimeseriesNewLostSummaryLiveRequestInfo();
  task.target = "dataforseo.com";
+ task.date_from = "2026-08-22";
+ task.date_to = "2026-10-22";
  task.group_range = "month";
  let response = await api.timeseriesNewLostSummaryLive([task]);
 ```
@@ -1447,6 +1458,7 @@ This endpoint does not need any parameter.
    "https://stackoverflow.com/",
    "www.trustpilot.com",
  ];
+ task.date_from = "2026-08-22";
  let response = await api.bulkNewLostBacklinksLive([task]);
 ```
 
@@ -1516,6 +1528,7 @@ This endpoint does not need any parameter.
    "https://stackoverflow.com/",
    "www.trustpilot.com",
  ];
+ task.date_from = "2026-08-22";
  let response = await api.bulkNewLostReferringDomainsLive([task]);
 ```
 

@@ -109,7 +109,6 @@ All URIs are relative to *https://api.dataforseo.com*
 [**youtubeVideoInfoLiveAdvanced**](SerpApi.md#youtubeVideoInfoLiveAdvanced) | **POST**  /v3/serp/youtube/video_info/live/advanced  |
 [**youtubeOrganicTaskPost**](SerpApi.md#youtubeOrganicTaskPost) | **POST**  /v3/serp/youtube/organic/task_post  |
 [**youtubeOrganicTasksReady**](SerpApi.md#youtubeOrganicTasksReady) | **GET**  /v3/serp/youtube/organic/tasks_ready  |
-[**youtubeOrganicTasksFixed**](SerpApi.md#youtubeOrganicTasksFixed) | **GET**  /v3/serp/youtube/organic/tasks_fixed  |
 [**youtubeOrganicTaskGetAdvanced**](SerpApi.md#youtubeOrganicTaskGetAdvanced) | **GET**  /v3/serp/youtube/organic/task_get/advanced/{id}  |
 [**youtubeOrganicLiveAdvanced**](SerpApi.md#youtubeOrganicLiveAdvanced) | **POST**  /v3/serp/youtube/organic/live/advanced  |
 [**youtubeVideoSubtitlesTaskPost**](SerpApi.md#youtubeVideoSubtitlesTaskPost) | **POST**  /v3/serp/youtube/video_subtitles/task_post  |
@@ -209,7 +208,11 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new SerpIdListRequestInfo();
+ task.datetime_from = "2026-11-19 16:16:03 +00:00";
+ task.datetime_to = "2026-11-21 16:16:03 +00:00";
  task.limit = 10;
+ task.offset = 0;
+ task.sort = "desc";
  task.include_metadata = true;
  let response = await api.idList([task]);
 ```
@@ -6247,62 +6250,6 @@ This endpoint does not need any parameter.
 ### Return type
 
 [**SerpYoutubeOrganicTasksReadyResponseInfo**](SerpYoutubeOrganicTasksReadyResponseInfo.md)
-
-### Authorization
-
-[basicAuth](../README.md#basicAuth)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** | Successful operation |  -  |
-
-<a id="youtubeOrganicTasksFixed"></a>
-# **youtubeOrganicTasksFixed**
-> SerpYoutubeOrganicTasksFixedResponseInfo youtubeOrganicTasksFixed()
-
-
-### Example
-```typescript
- const username = 'USERNAME';
- const password = 'PASSWORD';
-
- let api = new SerpApi("https://api.dataforseo.com", {
-   fetch: (url: RequestInfo, init?: RequestInit): Promise<Response> => {
-     const token = btoa(`${username}:${password}`);
-     const authHeader = { 'Authorization': `Basic ${token}` };
-
-     const newInit: RequestInit = {
-       ...init,
-       headers: {
-       ...init?.headers,
-       ...authHeader,
-     }
-   };
-
-   return fetch(url, newInit);
-   }
- });
-
- let response = await api.youtubeOrganicTasksFixed();
-```
-
-### Parameters
-
-
-    
-This endpoint does not need any parameter.
-    
-
-
-### Return type
-
-[**SerpYoutubeOrganicTasksFixedResponseInfo**](SerpYoutubeOrganicTasksFixedResponseInfo.md)
 
 ### Authorization
 

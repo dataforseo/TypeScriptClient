@@ -71,7 +71,11 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new MerchantIdListRequestInfo();
+ task.datetime_from = "2026-11-19 16:24:56 +00:00";
+ task.datetime_to = "2026-11-21 16:24:56 +00:00";
  task.limit = 10;
+ task.offset = 0;
+ task.sort = "desc";
  task.include_metadata = true;
  let response = await api.merchantIdList([task]);
 ```
@@ -1918,7 +1922,7 @@ This endpoint does not need any parameter.
  });
 
  let task = new MerchantAmazonSellersTaskPostRequestInfo();
- task.language_code = "en";
+ task.language_code = "en_US";
  task.location_code = 2840;
  task.asin = "B085RFFC9Q";
  let response = await api.amazonSellersTaskPost([task]);

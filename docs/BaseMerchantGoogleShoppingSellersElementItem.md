@@ -19,4 +19,5 @@
 **total_price** | **number** | *product price including tax and shipping* |[optional]|
 **currency** | **string** | *currency in the [ISO](https://en.wikipedia.org/wiki/ISO_4217) format*. example:. `USD` |[optional]|
 **seller_name** | **string** | *name of the seller*. the name of the company that placed a corresponding product on Google Shopping |[optional]|
+**rating** | **RatingElement** | *shop rating*. the shop popularity rate based on product reviews |[optional]|
 **shop_ad_aclk** | **string** | *unique ad click referral parameter*. using this parameter you can get a URL of the advertisement in [Google Shopping Sellers Ad URL](/v3/merchant/google/sellers/ad_url/) |[optional]|

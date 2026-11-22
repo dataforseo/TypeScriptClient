@@ -1,5 +1,4 @@
 import { RatingElement, IRatingElement } from "./RatingElement";
-import { RatingInfo, IRatingInfo } from "./RatingInfo";
 
 
 export interface IBaseMerchantGoogleShoppingSellersElementItem   {
@@ -48,6 +47,9 @@ export interface IBaseMerchantGoogleShoppingSellersElementItem   {
         
         /** *name of the seller* the name of the company that placed a corresponding product on Google Shopping */
         seller_name?: string | undefined
+        
+        /** *shop rating* the shop popularity rate based on product reviews */
+        rating?: RatingElement | undefined
         
         /** *unique ad click referral parameter* using this parameter you can get a URL of the advertisement in [Google Shopping Sellers Ad URL](/v3/merchant/google/sellers/ad_url/) */
         shop_ad_aclk?: string | undefined
@@ -134,6 +136,11 @@ export class BaseMerchantGoogleShoppingSellersElementItem  implements IBaseMerch
     seller_name?: string | undefined;
 
     
+    /** *shop rating* the shop popularity rate based on product reviews */
+
+    rating?: RatingElement | undefined;
+
+    
     /** *unique ad click referral parameter* using this parameter you can get a URL of the advertisement in [Google Shopping Sellers Ad URL](/v3/merchant/google/sellers/ad_url/) */
 
     shop_ad_aclk?: string | undefined;
@@ -177,6 +184,7 @@ export class BaseMerchantGoogleShoppingSellersElementItem  implements IBaseMerch
             this.total_price = data["total_price"];
             this.currency = data["currency"];
             this.seller_name = data["seller_name"];
+            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
             this.shop_ad_aclk = data["shop_ad_aclk"];
         }
     }
@@ -222,6 +230,7 @@ export class BaseMerchantGoogleShoppingSellersElementItem  implements IBaseMerch
         data["total_price"] = this.total_price;
         data["currency"] = this.currency;
         data["seller_name"] = this.seller_name;
+        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["shop_ad_aclk"] = this.shop_ad_aclk;
         return data;
     }
@@ -235,9 +244,6 @@ export interface IGoogleShoppingSellersShopsListElementItem  extends IBaseMercha
         
         /** *installment details as displayed in the results* shows how the product price can be broken down into monthly payments, if applicable */
         displayed_payment_breakdown?: string | undefined
-        
-        /** *shop rating* the shop popularity rate based on product reviews */
-        rating?: RatingElement | undefined
         
         /** *indicated condition of the product* possible values: `Used`, `Refurbished`, `New`, `Pre-owned`, `null` */
         product_condition?: string | undefined
@@ -263,11 +269,6 @@ export class GoogleShoppingSellersShopsListElementItem  extends BaseMerchantGoog
     /** *installment details as displayed in the results* shows how the product price can be broken down into monthly payments, if applicable */
 
     displayed_payment_breakdown?: string | undefined;
-
-    
-    /** *shop rating* the shop popularity rate based on product reviews */
-
-    rating?: RatingElement | undefined;
 
     
     /** *indicated condition of the product* possible values: `Used`, `Refurbished`, `New`, `Pre-owned`, `null` */
@@ -301,7 +302,6 @@ export class GoogleShoppingSellersShopsListElementItem  extends BaseMerchantGoog
             }
             this.price_multiplier = data["price_multiplier"];
             this.displayed_payment_breakdown = data["displayed_payment_breakdown"];
-            this.rating = data["rating"] ? RatingElement.fromJS(data["rating"]) : <any>undefined;
             this.product_condition = data["product_condition"];
             this.product_annotation = data["product_annotation"];
             this.product_availability = data["product_availability"];
@@ -326,7 +326,6 @@ export class GoogleShoppingSellersShopsListElementItem  extends BaseMerchantGoog
         
         data["price_multiplier"] = this.price_multiplier;
         data["displayed_payment_breakdown"] = this.displayed_payment_breakdown;
-        data["rating"] = this.rating ? RatingElement.fromJS(this.rating)?.toJSON() : <any>undefined;
         data["product_condition"] = this.product_condition;
         data["product_annotation"] = this.product_annotation;
         data["product_availability"] = this.product_availability;
@@ -336,20 +335,12 @@ export class GoogleShoppingSellersShopsListElementItem  extends BaseMerchantGoog
 
  
 export interface IGoogleShoppingSellersBuyOnGoogleElementItem  extends IBaseMerchantGoogleShoppingSellersElementItem    {
-        
-        /** *shop rating* the shop popularity rate based on product reviews */
-        rating?: RatingInfo | undefined
 
     [key: string]: any;
 
     }
 
 export class GoogleShoppingSellersBuyOnGoogleElementItem  extends BaseMerchantGoogleShoppingSellersElementItem   implements IGoogleShoppingSellersBuyOnGoogleElementItem {
-
-    
-    /** *shop rating* the shop popularity rate based on product reviews */
-
-    rating?: RatingInfo | undefined;
 
     [key: string]: any;
 
@@ -366,7 +357,6 @@ export class GoogleShoppingSellersBuyOnGoogleElementItem  extends BaseMerchantGo
                 if (data.hasOwnProperty(property))
                     this[property] = data[property];
             }
-            this.rating = data["rating"] ? RatingInfo.fromJS(data["rating"]) : <any>undefined;
         }
     }
 
@@ -386,7 +376,6 @@ export class GoogleShoppingSellersBuyOnGoogleElementItem  extends BaseMerchantGo
         super.toJSON(data);
         
         
-        data["rating"] = this.rating ? RatingInfo.fromJS(this.rating)?.toJSON() : <any>undefined;
         return data;
     }
 }

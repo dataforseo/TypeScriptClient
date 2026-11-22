@@ -15,6 +15,9 @@ export interface ISerpGoogleOrganicLiveRegularRequestInfo   {
         /** *resolve goto redirect URLs* optional field set to `true` to resolve goto redirect URLs in SERPs default value: `false` **Note:** this parameter adds up to 40 seconds to the turnaround time, with a maximum turnaround time of 260 seconds */
         resolve_goto_urls?: boolean | undefined
         
+        /** *resolve poisoned SERP results* optional field set to `true` to detect and resolve poisoned SERPs; default value: `false`; **Note:** if set to `true`, the cost of the task is increased by the price of one SERP page; the cost can be calculated on the [Pricing](https://dataforseo.com/pricing/serp/google-organic-serp-api) page; **Note#2:** this parameter cannot be used together with `udm=web` or `udm=14` in the `url` or `search_param` fields */
+        resolve_poisoned_results?: boolean | undefined
+        
         /** *device type* optional field return results for a specific device type can take the values:`desktop`, `mobile` default value: `desktop` */
         device?: string | undefined
         
@@ -81,6 +84,11 @@ export class SerpGoogleOrganicLiveRegularRequestInfo  implements ISerpGoogleOrga
     /** *resolve goto redirect URLs* optional field set to `true` to resolve goto redirect URLs in SERPs default value: `false` **Note:** this parameter adds up to 40 seconds to the turnaround time, with a maximum turnaround time of 260 seconds */
 
     resolve_goto_urls?: boolean | undefined;
+
+    
+    /** *resolve poisoned SERP results* optional field set to `true` to detect and resolve poisoned SERPs; default value: `false`; **Note:** if set to `true`, the cost of the task is increased by the price of one SERP page; the cost can be calculated on the [Pricing](https://dataforseo.com/pricing/serp/google-organic-serp-api) page; **Note#2:** this parameter cannot be used together with `udm=web` or `udm=14` in the `url` or `search_param` fields */
+
+    resolve_poisoned_results?: boolean | undefined;
 
     
     /** *device type* optional field return results for a specific device type can take the values:`desktop`, `mobile` default value: `desktop` */
@@ -167,6 +175,7 @@ export class SerpGoogleOrganicLiveRegularRequestInfo  implements ISerpGoogleOrga
             this.language_code = data["language_code"];
             this.depth = data["depth"];
             this.resolve_goto_urls = data["resolve_goto_urls"];
+            this.resolve_poisoned_results = data["resolve_poisoned_results"];
             this.device = data["device"];
             this.location_name = data["location_name"];
             this.language_name = data["language_name"];
@@ -201,6 +210,7 @@ export class SerpGoogleOrganicLiveRegularRequestInfo  implements ISerpGoogleOrga
         data["language_code"] = this.language_code;
         data["depth"] = this.depth;
         data["resolve_goto_urls"] = this.resolve_goto_urls;
+        data["resolve_poisoned_results"] = this.resolve_poisoned_results;
         data["device"] = this.device;
         data["location_name"] = this.location_name;
         data["language_name"] = this.language_name;

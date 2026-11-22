@@ -18,6 +18,9 @@ export interface ISerpGoogleOrganicLiveHtmlRequestInfo   {
         /** *load asynchronous ai overview* optional field set to `true` to obtain `ai_overview` items is SERPs even if they are loaded asynchronously; if set to `false`, you will only obtain `ai_overview` items from cache; default value: `false` **Note** your account will be billed $0.002 extra for each request; if the element is absent or contains `'asynchronous_ai_overview': false`, all extra charges will be returned to your account balance */
         load_async_ai_overview?: boolean | undefined
         
+        /** *resolve poisoned SERP results* optional field set to `true` to detect and resolve poisoned SERPs; default value: `false`; **Note:** if set to `true`, the cost of the task is increased by the price of one SERP page; the cost can be calculated on the [Pricing](https://dataforseo.com/pricing/serp/google-organic-serp-api) page; **Note#2:** this parameter cannot be used together with `udm=web` or `udm=14` in the `url` or `search_param` fields */
+        resolve_poisoned_results?: boolean | undefined
+        
         /** *full name of search engine location* **required field if you don't specify** `location_code` or `location_coordinate` **if you use this field, you don't need to specify `location_code` or `location_coordinate`** you can receive the list of available locations of the search engine with their `location_name` by making a separate request to the `https://api.dataforseo.com/v3/serp/google/locations` example: `London,England,United Kingdom` */
         location_name?: string | undefined
         
@@ -83,6 +86,11 @@ export class SerpGoogleOrganicLiveHtmlRequestInfo  implements ISerpGoogleOrganic
     /** *load asynchronous ai overview* optional field set to `true` to obtain `ai_overview` items is SERPs even if they are loaded asynchronously; if set to `false`, you will only obtain `ai_overview` items from cache; default value: `false` **Note** your account will be billed $0.002 extra for each request; if the element is absent or contains `'asynchronous_ai_overview': false`, all extra charges will be returned to your account balance */
 
     load_async_ai_overview?: boolean | undefined;
+
+    
+    /** *resolve poisoned SERP results* optional field set to `true` to detect and resolve poisoned SERPs; default value: `false`; **Note:** if set to `true`, the cost of the task is increased by the price of one SERP page; the cost can be calculated on the [Pricing](https://dataforseo.com/pricing/serp/google-organic-serp-api) page; **Note#2:** this parameter cannot be used together with `udm=web` or `udm=14` in the `url` or `search_param` fields */
+
+    resolve_poisoned_results?: boolean | undefined;
 
     
     /** *full name of search engine location* **required field if you don't specify** `location_code` or `location_coordinate` **if you use this field, you don't need to specify `location_code` or `location_coordinate`** you can receive the list of available locations of the search engine with their `location_name` by making a separate request to the `https://api.dataforseo.com/v3/serp/google/locations` example: `London,England,United Kingdom` */
@@ -160,6 +168,7 @@ export class SerpGoogleOrganicLiveHtmlRequestInfo  implements ISerpGoogleOrganic
             this.depth = data["depth"];
             this.device = data["device"];
             this.load_async_ai_overview = data["load_async_ai_overview"];
+            this.resolve_poisoned_results = data["resolve_poisoned_results"];
             this.location_name = data["location_name"];
             this.language_name = data["language_name"];
             this.os = data["os"];
@@ -193,6 +202,7 @@ export class SerpGoogleOrganicLiveHtmlRequestInfo  implements ISerpGoogleOrganic
         data["depth"] = this.depth;
         data["device"] = this.device;
         data["load_async_ai_overview"] = this.load_async_ai_overview;
+        data["resolve_poisoned_results"] = this.resolve_poisoned_results;
         data["location_name"] = this.location_name;
         data["language_name"] = this.language_name;
         data["os"] = this.os;

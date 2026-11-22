@@ -142,7 +142,6 @@ import { SerpYoutubeVideoInfoLiveAdvancedResponseInfo } from "./../models/SerpYo
 import { SerpYoutubeOrganicTaskPostRequestInfo } from "./../models/SerpYoutubeOrganicTaskPostRequestInfo";
 import { SerpYoutubeOrganicTaskPostResponseInfo } from "./../models/SerpYoutubeOrganicTaskPostResponseInfo";
 import { SerpYoutubeOrganicTasksReadyResponseInfo } from "./../models/SerpYoutubeOrganicTasksReadyResponseInfo";
-import { SerpYoutubeOrganicTasksFixedResponseInfo } from "./../models/SerpYoutubeOrganicTasksFixedResponseInfo";
 import { SerpYoutubeOrganicTaskGetAdvancedResponseInfo } from "./../models/SerpYoutubeOrganicTaskGetAdvancedResponseInfo";
 import { SerpYoutubeOrganicLiveAdvancedRequestInfo } from "./../models/SerpYoutubeOrganicLiveAdvancedRequestInfo";
 import { SerpYoutubeOrganicLiveAdvancedResponseInfo } from "./../models/SerpYoutubeOrganicLiveAdvancedResponseInfo";
@@ -3827,39 +3826,6 @@ export class SerpApi {
             });
         }
         return Promise.resolve<SerpYoutubeOrganicTasksReadyResponseInfo | null>(null as any);
-    }
-    youtubeOrganicTasksFixed(): Promise<SerpYoutubeOrganicTasksFixedResponseInfo | null> {
-        let url_ = this.baseUrl + "/v3/serp/youtube/organic/tasks_fixed";
-        url_ = url_.replace(/[?&]$/, "");
-        let options_: RequestInit = {
-            method: "GET",
-            headers: {
-                "Accept": "application/json",
-                "User-Agent": "typescript-client/2.1.13",
-            }
-        };
-
-        return this.http.fetch(url_, options_).then((_response: Response) => {
-            return this.processYoutubeOrganicTasksFixed(_response);
-        });
-    }
-
-    protected processYoutubeOrganicTasksFixed(response: Response): Promise<SerpYoutubeOrganicTasksFixedResponseInfo | null> {
-        const status = response.status;
-        let _headers: any = {}; if (response.headers && response.headers.forEach) { response.headers.forEach((v: any, k: any) => _headers[k] = v); };
-        if (status === 200) {
-            return response.text().then((_responseText) => {
-                let result200: any = null;
-                let resultData200 = _responseText === "" ? null : JSON.parse(_responseText, this.jsonParseReviver);
-                result200 = resultData200 ? SerpYoutubeOrganicTasksFixedResponseInfo.fromJS(resultData200) : <any>null;
-                return result200;
-            });
-        } else if (status !== 200 && status !== 204) {
-            return response.text().then((_responseText) => {
-                return throwException("An unexpected server error occurred.", status, _responseText, _headers);
-            });
-        }
-        return Promise.resolve<SerpYoutubeOrganicTasksFixedResponseInfo | null>(null as any);
     }
     youtubeOrganicTaskGetAdvanced(id: string): Promise<SerpYoutubeOrganicTaskGetAdvancedResponseInfo | null> {
         let url_ = this.baseUrl + "/v3/serp/youtube/organic/task_get/advanced/{id}";

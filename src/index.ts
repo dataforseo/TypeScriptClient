@@ -625,9 +625,6 @@ export  { SerpYoutubeOrganicTaskPostResponseInfo, ISerpYoutubeOrganicTaskPostRes
 export  { SerpYoutubeOrganicTasksReadyResultInfo, ISerpYoutubeOrganicTasksReadyResultInfo } from "./models/SerpYoutubeOrganicTasksReadyResultInfo";
 export  { SerpYoutubeOrganicTasksReadyTaskInfo, ISerpYoutubeOrganicTasksReadyTaskInfo } from "./models/SerpYoutubeOrganicTasksReadyTaskInfo";
 export  { SerpYoutubeOrganicTasksReadyResponseInfo, ISerpYoutubeOrganicTasksReadyResponseInfo } from "./models/SerpYoutubeOrganicTasksReadyResponseInfo";
-export  { SerpYoutubeOrganicTasksFixedResultInfo, ISerpYoutubeOrganicTasksFixedResultInfo } from "./models/SerpYoutubeOrganicTasksFixedResultInfo";
-export  { SerpYoutubeOrganicTasksFixedTaskInfo, ISerpYoutubeOrganicTasksFixedTaskInfo } from "./models/SerpYoutubeOrganicTasksFixedTaskInfo";
-export  { SerpYoutubeOrganicTasksFixedResponseInfo, ISerpYoutubeOrganicTasksFixedResponseInfo } from "./models/SerpYoutubeOrganicTasksFixedResponseInfo";
 export  { SerpApiYoutubeChannelElementItem, ISerpApiYoutubeChannelElementItem } from "./models/BaseSerpApiYoutubeOrganicElementItem";
 export  { SerpApiYoutubeVideoElementItem, ISerpApiYoutubeVideoElementItem } from "./models/BaseSerpApiYoutubeOrganicElementItem";
 export  { SerpApiYoutubeVideoPaidElementItem, ISerpApiYoutubeVideoPaidElementItem } from "./models/BaseSerpApiYoutubeOrganicElementItem";
@@ -978,10 +975,11 @@ export  { DataforseoLabsGoogleRankedKeywordsLiveRequestInfo, IDataforseoLabsGoog
 export  { RankChanges, IRankChanges } from "./models/RankChanges";
 export  { BacklinksInfo, IBacklinksInfo } from "./models/BacklinksInfo";
 export  { RankInfo, IRankInfo } from "./models/RankInfo";
-export  { DataLabsPaidSerpElementItem, IDataLabsPaidSerpElementItem } from "./models/BaseDataforseoLabsApiElementItem";
+export  { DataLabsOrganicSerpElementItem, IDataLabsOrganicSerpElementItem } from "./models/BaseDataforseoLabsApiElementItem";
 export  { RankedSerpElement, IRankedSerpElement } from "./models/RankedSerpElement";
 export  { DataforseoLabsGoogleRankedKeywordsLiveItem, IDataforseoLabsGoogleRankedKeywordsLiveItem } from "./models/DataforseoLabsGoogleRankedKeywordsLiveItem";
-export  { DataLabsOrganicSerpElementItem, IDataLabsOrganicSerpElementItem } from "./models/BaseDataforseoLabsApiElementItem";
+export  { DataLabsFeaturedSnippetSerpElementItem, IDataLabsFeaturedSnippetSerpElementItem } from "./models/BaseDataforseoLabsApiElementItem";
+export  { DataLabsLocalPackSerpElementItem, IDataLabsLocalPackSerpElementItem } from "./models/BaseDataforseoLabsApiElementItem";
 export  { DataforseoLabsGoogleRankedKeywordsLiveResultInfo, IDataforseoLabsGoogleRankedKeywordsLiveResultInfo } from "./models/DataforseoLabsGoogleRankedKeywordsLiveResultInfo";
 export  { DataforseoLabsGoogleRankedKeywordsLiveTaskInfo, IDataforseoLabsGoogleRankedKeywordsLiveTaskInfo } from "./models/DataforseoLabsGoogleRankedKeywordsLiveTaskInfo";
 export  { DataforseoLabsGoogleRankedKeywordsLiveResponseInfo, IDataforseoLabsGoogleRankedKeywordsLiveResponseInfo } from "./models/DataforseoLabsGoogleRankedKeywordsLiveResponseInfo";
@@ -996,9 +994,8 @@ export  { DataforseoLabsGoogleCompetitorsDomainLiveResultInfo, IDataforseoLabsGo
 export  { DataforseoLabsGoogleCompetitorsDomainLiveTaskInfo, IDataforseoLabsGoogleCompetitorsDomainLiveTaskInfo } from "./models/DataforseoLabsGoogleCompetitorsDomainLiveTaskInfo";
 export  { DataforseoLabsGoogleCompetitorsDomainLiveResponseInfo, IDataforseoLabsGoogleCompetitorsDomainLiveResponseInfo } from "./models/DataforseoLabsGoogleCompetitorsDomainLiveResponseInfo";
 export  { DataforseoLabsGoogleDomainIntersectionLiveRequestInfo, IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo } from "./models/DataforseoLabsGoogleDomainIntersectionLiveRequestInfo";
-export  { DataLabsLocalPackSerpElementItem, IDataLabsLocalPackSerpElementItem } from "./models/BaseDataforseoLabsApiElementItem";
+export  { DataLabsPaidSerpElementItem, IDataLabsPaidSerpElementItem } from "./models/BaseDataforseoLabsApiElementItem";
 export  { DataforseoLabsGoogleDomainIntersectionLiveItem, IDataforseoLabsGoogleDomainIntersectionLiveItem } from "./models/DataforseoLabsGoogleDomainIntersectionLiveItem";
-export  { DataLabsFeaturedSnippetSerpElementItem, IDataLabsFeaturedSnippetSerpElementItem } from "./models/BaseDataforseoLabsApiElementItem";
 export  { DataforseoLabsGoogleDomainIntersectionLiveResultInfo, IDataforseoLabsGoogleDomainIntersectionLiveResultInfo } from "./models/DataforseoLabsGoogleDomainIntersectionLiveResultInfo";
 export  { DataforseoLabsGoogleDomainIntersectionLiveTaskInfo, IDataforseoLabsGoogleDomainIntersectionLiveTaskInfo } from "./models/DataforseoLabsGoogleDomainIntersectionLiveTaskInfo";
 export  { DataforseoLabsGoogleDomainIntersectionLiveResponseInfo, IDataforseoLabsGoogleDomainIntersectionLiveResponseInfo } from "./models/DataforseoLabsGoogleDomainIntersectionLiveResponseInfo";

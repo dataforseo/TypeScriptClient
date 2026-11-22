@@ -6,6 +6,12 @@ export interface IReviewResponseItemInfo   {
         /** the content of response */
         text?: string | undefined
         
+        /** language of the response */
+        language?: string | undefined
+        
+        /** ID of the response */
+        response_id?: string | undefined
+        
         /** the time of publication */
         timestamp?: string | undefined
 
@@ -24,6 +30,16 @@ export class ReviewResponseItemInfo  implements IReviewResponseItemInfo {
     /** the content of response */
 
     text?: string | undefined;
+
+    
+    /** language of the response */
+
+    language?: string | undefined;
+
+    
+    /** ID of the response */
+
+    response_id?: string | undefined;
 
     
     /** the time of publication */
@@ -52,6 +68,8 @@ export class ReviewResponseItemInfo  implements IReviewResponseItemInfo {
             }
             this.title = data["title"];
             this.text = data["text"];
+            this.language = data["language"];
+            this.response_id = data["response_id"];
             this.timestamp = data["timestamp"];
         }
     }
@@ -72,6 +90,8 @@ export class ReviewResponseItemInfo  implements IReviewResponseItemInfo {
         
         data["title"] = this.title;
         data["text"] = this.text;
+        data["language"] = this.language;
+        data["response_id"] = this.response_id;
         data["timestamp"] = this.timestamp;
         return data;
     }

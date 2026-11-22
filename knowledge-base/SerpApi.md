@@ -426,7 +426,6 @@ All methods of `SerpApi`. Request and response model names are derived from the 
 | `youtubeVideoInfoLiveAdvanced` | POST | `/v3/serp/youtube/video_info/live/advanced` |
 | `youtubeOrganicTaskPost` | POST | `/v3/serp/youtube/organic/task_post` |
 | `youtubeOrganicTasksReady` | GET | `/v3/serp/youtube/organic/tasks_ready` |
-| `youtubeOrganicTasksFixed` | GET | `/v3/serp/youtube/organic/tasks_fixed` |
 | `youtubeOrganicTaskGetAdvanced` | GET | `/v3/serp/youtube/organic/task_get/advanced/{id}` |
 | `youtubeOrganicLiveAdvanced` | POST | `/v3/serp/youtube/organic/live/advanced` |
 | `youtubeVideoSubtitlesTaskPost` | POST | `/v3/serp/youtube/video_subtitles/task_post` |

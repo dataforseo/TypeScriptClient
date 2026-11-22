@@ -81,7 +81,11 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new DataforseoLabsIdListRequestInfo();
+ task.datetime_from = "2026-11-19 16:18:23 +00:00";
+ task.datetime_to = "2026-11-21 16:18:23 +00:00";
  task.limit = 10;
+ task.offset = 0;
+ task.sort = "desc";
  task.include_metadata = true;
  let response = await api.dataforseoLabsIdList([task]);
 ```
@@ -197,6 +201,7 @@ This endpoint does not need any parameter.
 
  let task = new DataforseoLabsErrorsRequestInfo();
  task.limit = 10;
+ task.offset = 0;
  let response = await api.dataforseoLabsErrors([task]);
 ```
 
@@ -1119,6 +1124,8 @@ This endpoint does not need any parameter.
    "13418",
    "11494",
  ];
+ task.first_date = "2026-08-22";
+ task.second_date = "2026-10-22";
  task.limit = 3;
  let response = await api.googleDomainMetricsByCategoriesLive([task]);
 ```
@@ -1704,6 +1711,8 @@ This endpoint does not need any parameter.
  task.keyword = "albert einstein";
  task.location_code = 2840;
  task.language_code = "en";
+ task.date_from = "2026-08-22";
+ task.date_to = "2026-10-22";
  let response = await api.googleHistoricalSerpsLive([task]);
 ```
 
@@ -1764,6 +1773,8 @@ This endpoint does not need any parameter.
  task.target = "dataforseo.com";
  task.location_code = 2840;
  task.language_code = "en";
+ task.date_from = "2026-08-22";
+ task.date_to = "2026-10-22";
  let response = await api.googleHistoricalRankOverviewLive([task]);
 ```
 
@@ -2025,6 +2036,8 @@ This endpoint does not need any parameter.
  ];
  task.location_code = 2840;
  task.language_code = "en";
+ task.date_from = "2026-08-22";
+ task.date_to = "2026-10-22";
  task.item_types = [
    "organic",
    "paid",

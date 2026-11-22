@@ -64,7 +64,11 @@ All URIs are relative to *https://api.dataforseo.com*
  });
 
  let task = new OnPageIdListRequestInfo();
+ task.datetime_from = "2026-11-19 16:21:18 +00:00";
+ task.datetime_to = "2026-11-21 16:21:18 +00:00";
  task.limit = 10;
+ task.offset = 0;
+ task.sort = "desc";
  task.include_metadata = true;
  let response = await api.onPageIdList([task]);
 ```
